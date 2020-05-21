@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Cu Huy Hiep
+Reviewer: Thanh Pham
+
+00:00:16.260 --> 00:00:19.260
+XIn giới thiệu với mọi người, robot Rezero
+
+00:00:19.260 --> 00:00:21.260
+Người bạn bé nhỏ này được triển khai
+
+00:00:21.260 --> 00:00:23.260
+bởi một nhóm 10 sinh viên đại học
+
+00:00:23.260 --> 00:00:25.260
+tại Phòng thí nghiệm hệ thống tự động
+
+00:00:25.260 --> 00:00:27.260
+ở ETH-Zurich
+
+00:00:27.260 --> 00:00:29.260
+Chú robot này thuộc dòng robot
+
+00:00:29.260 --> 00:00:31.260
+tên là Ballbots.
+
+00:00:31.260 --> 00:00:33.260
+Thay vì dùng bánh xe, robot Ballbot giữ thăng bằng
+
+00:00:33.260 --> 00:00:35.260
+và di chuyển chỉ trên một trái bóng.
+
+00:00:35.260 --> 00:00:37.260
+Điểm đặc trưng của hệ thống này là
+
+00:00:37.260 --> 00:00:40.260
+chỉ có một điểm duy nhất tiếp xúc với nền đất.
+
+00:00:40.260 --> 00:00:42.260
+Điều đó có nghĩa là robot này
+
+00:00:42.260 --> 00:00:44.260
+vốn khó giữ thăng bằng.
+
+00:00:44.260 --> 00:00:46.260
+Giống như là việc tôi phải đứng
+
+00:00:46.260 --> 00:00:47.260
+trên một chân.
+
+00:00:47.260 --> 00:00:49.260
+Các bạn chắc tự nhủ mình rằng, lợi ích
+
+00:00:49.260 --> 00:00:51.260
+của con robot bấp bênh này là gì ?
+
+00:00:51.260 --> 00:00:53.260
+Ngay bây giờ, chúng tôi sẽ giải thích một chút.
+
+00:00:53.260 --> 00:00:55.260
+Đầu tiên, tôi sẽ giải thích làm cách nào Rezero
+
+00:00:55.260 --> 00:00:57.260
+thật sự giữ được thăng bằng.
+
+00:00:57.260 --> 00:00:59.260
+Rezero giữ thăng bằng nhờ vào việc liên tục
+
+00:00:59.260 --> 00:01:02.260
+xác định góc nghiêng với một bộ cảm biến.
+
+00:01:02.260 --> 00:01:05.260
+Sau đó nó sẽ tương tác lại và tránh ngã xuống
+
+00:01:05.260 --> 00:01:07.260
+nhờ sự điều chỉnh hài hào các động cơ motor.
+
+00:01:07.260 --> 00:01:09.260
+Sự điều chỉnh này diễn ra 160 lần mỗi giây,
+
+00:01:09.260 --> 00:01:11.260
+và nếu có bất kì sai sót nào trong tiến trình này,
+
+00:01:11.260 --> 00:01:14.260
+Rezero sẽ ngã ngay lập tức xuống sàn.
+
+00:01:14.260 --> 00:01:16.260
+Để di chuyển và giữ thăng bằng,
+
+00:01:16.260 --> 00:01:18.260
+Rezero cần phải xoay quả bóng.
+
+00:01:18.260 --> 00:01:20.260
+Quả bóng được điều khiển nhờ vào 3 bánh xoay đặc biệt
+
+00:01:20.260 --> 00:01:23.260
+giúp Rezero có thể di chuyển bất kì hướng nào
+
+00:01:23.260 --> 00:01:25.260
+và cũng có thể xoay quanh tại chỗ
+
+00:01:25.260 --> 00:01:29.260
+cùng một thời điểm.
+
+00:01:29.260 --> 00:01:31.260
+Do đặc trưng bấp bênh của mình nên Rezero luôn luôn
+
+00:01:31.260 --> 00:01:33.260
+vận động. Đó là thủ thuật.
+
+00:01:33.260 --> 00:01:36.260
+Chính xác là nhờ vào dự dao động bấp bênh đã giúp cho
+
+00:01:36.260 --> 00:01:38.260
+robot di chuyển linh động hơn.
+
+00:01:38.260 --> 00:01:40.260
+Hãy thử nào.
+
+00:01:40.260 --> 00:01:42.260
+Bạn chắc hẳn tự hỏi điều gì sẽ xảy ra
+
+00:01:42.260 --> 00:01:45.260
+Nếu tôi đẩy nhẹ vào con robot.
+
+00:01:47.260 --> 00:01:49.260
+Trong trường hợp này, nó sẽ cố gắng giữ
+
+00:01:49.260 --> 00:01:52.260
+nguyên vị trí của nó.
+
+00:01:52.260 --> 00:01:55.260
+Trong phần giới thiệu tiếp theo, tôi xin giới thiệu mọi người
+
+00:01:55.260 --> 00:01:58.260
+các đồng nghiệp của tôi là Michael, phụ trách máy tính,
+
+00:01:58.260 --> 00:02:01.260
+và Thomas, người sẽ giúp tôi trên sân khấu.
+
+00:02:02.260 --> 00:02:04.260
+Trong trạng thái tiếp theo, Rezero sẽ bị động,
+
+00:02:04.260 --> 00:02:07.260
+và chúng tôi có thể di chuyển nó lòng vòng.
+
+00:02:08.260 --> 00:02:10.260
+Không cần dùng nhiều lực, tôi có thể điều khiển
+
+00:02:10.260 --> 00:02:13.260
+vị trí và tốc độ của nó.
+
+00:02:16.260 --> 00:02:19.260
+Tôi cũng có thể làm nó xoay vòng tròn
+
+00:02:30.260 --> 00:02:32.260
+Và trạng thái tiếp theo, chúng tôi sẽ để Rezero
+
+00:02:32.260 --> 00:02:35.260
+đi theo một người.
+
+00:02:35.260 --> 00:02:38.260
+Nó luôn luôn giữ một khoảng cách cố định với Thomas.
+
+00:02:42.260 --> 00:02:44.260
+Nhờ vào một bộ cảm biến la-ze
+
+00:02:44.260 --> 00:02:46.260
+được gắn trên đỉnh của Rezero.
+
+00:02:50.260 --> 00:02:52.260
+Cùng cách này, chúng tôi có thể cho
+
+00:02:52.260 --> 00:02:55.260
+nó đi xung quanh một người.
+
+00:02:57.260 --> 00:03:01.260
+Chúng tôi gọi đây là chế độ quỹ đạo.
+
+00:03:10.260 --> 00:03:12.260
+Được rồi, cảm ơn anh Thomas.
+
+00:03:12.260 --> 00:03:16.260
+(Tiếng vỗ tay)
+
+00:03:16.260 --> 00:03:19.260
+Vậy thì ứng dụng của công nghệ này là gì ?
+
+00:03:22.260 --> 00:03:24.260
+Hiện tại, đó chỉ là 1 thử nghiệm, nhưng tôi sẽ
+
+00:03:24.260 --> 00:03:27.260
+chỉ ra cho bạn thấy những ứng dụng khả thi trong tương lai.
+
+00:03:28.260 --> 00:03:30.260
+Rezero có thể được sử dụng trong phòng triễn lãm hay công viên.
+
+00:03:30.260 --> 00:03:32.260
+Với một màn hình, nó có thể giới thiệu thông tin hoặc hướng dẫn
+
+00:03:32.260 --> 00:03:35.260
+mọi người đi đây đó một cách vui vẻ và thú vị.
+
+00:03:35.260 --> 00:03:37.260
+Còn trong bệnh viện, thiết bị này có thể được dùng để
+
+00:03:37.260 --> 00:03:39.260
+vận chuyển các thiết bị y tế.
+
+00:03:39.260 --> 00:03:41.260
+Nhờ vào hệ thống Ballbot, nó có dấu chân rất nhỏ
+
+00:03:41.260 --> 00:03:44.260
+và có thể dễ dàng di chuyển đây đó.
+
+00:03:44.260 --> 00:03:46.260
+Và dĩ nhiên, ai lại không muốn
+
+00:03:46.260 --> 00:03:49.260
+ngồi trên một trong những chú robot này
+
+00:03:49.260 --> 00:03:51.260
+Và còn rất nhiều những ứng dụng thiết thực khác.
+
+00:03:51.260 --> 00:03:53.260
+Nó còn có một điều thú vị nữa
+
+00:03:53.260 --> 00:03:55.260
+với công nghệ này
+
+00:03:55.260 --> 00:04:04.260
+♫ (Nhạc)
+
+00:04:58.260 --> 00:04:59.260
+♪(Tiếng vỗ tay)
+
+00:04:59.260 --> 00:05:01.260
+Cảm ơn mọi người
+
+00:05:01.260 --> 00:05:05.260
+♪(Vỗ tay)
+
+00:05:05.260 --> 00:05:07.260
+Cảm ơn mọi người
+

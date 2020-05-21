@@ -1,0 +1,995 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Krisztian Stancz
+Lektor: Anna Patai
+
+00:00:15.260 --> 00:00:17.260
+Jó napot mindenkinek!
+
+00:00:17.260 --> 00:00:20.260
+Hoztam valamit, amit szeretnék megmutatni.
+
+00:00:37.260 --> 00:00:39.260
+(Nevetés)
+
+00:00:39.260 --> 00:00:42.260
+Gondoljanak erre úgy mint egy pixelre, egy repülő képpontra.
+
+00:00:42.260 --> 00:00:45.260
+Ez az, amit úgy hívunk a laborunkban, "érzékelő-képes" tervezés.
+
+00:00:45.260 --> 00:00:47.260
+Hadd meséljek egy kicsit róla!
+
+00:00:47.260 --> 00:00:50.260
+Ha megnézik ezt a képet, -- én eredetileg olasz vagyok,
+
+00:00:50.260 --> 00:00:52.260
+-- minden olasz fiú így nő fel,
+
+00:00:52.260 --> 00:00:54.260
+ezzel a képpel a szobája falán.
+
+00:00:54.260 --> 00:00:56.260
+De az ok, amiért ezt mutatom az,
+
+00:00:56.260 --> 00:00:58.260
+hogy valami nagyon érdekes
+
+00:00:58.260 --> 00:01:00.260
+történt a Forma 1 versenyzésben
+
+00:01:00.260 --> 00:01:02.260
+az elmúlt néhány évtizedben.
+
+00:01:02.260 --> 00:01:04.260
+Nos, ha néhány évvel ezelőtt
+
+00:01:04.260 --> 00:01:06.260
+meg akartak nyerni egy Forma 1-es versenyt,
+
+00:01:06.260 --> 00:01:08.260
+fogtak egy büdzsét, és azt feltették
+
+00:01:08.260 --> 00:01:11.260
+egy jó pilótára és egy jó autóra.
+
+00:01:11.260 --> 00:01:14.260
+És ha az autó és a pilóta elég jó volt, akkor nyertek is.
+
+00:01:14.260 --> 00:01:16.260
+Ha ma meg akarják nyerni a versenyt,
+
+00:01:16.260 --> 00:01:19.260
+akkor valami ehhez hasonlóra is szükségük van --
+
+00:01:19.260 --> 00:01:22.260
+valamire, ami valós időben figyeli az autókat,
+
+00:01:22.260 --> 00:01:24.260
+van egy párezer érzékelője
+
+00:01:24.260 --> 00:01:26.260
+ami adatokat gyűjt az autóról,
+
+00:01:26.260 --> 00:01:29.260
+továbbítja ezt az információt a rendszerbe,
+
+00:01:29.260 --> 00:01:31.260
+majd feldolgozza azt,
+
+00:01:31.260 --> 00:01:34.260
+döntéseket hoz, amit visszaküld az autóba
+
+00:01:34.260 --> 00:01:36.260
+és azokat valós időben változtatja,
+
+00:01:36.260 --> 00:01:38.260
+ahogy az információk gyűlnek.
+
+00:01:38.260 --> 00:01:40.260
+Ez az, amit, a műszaki nyelven
+
+00:01:40.260 --> 00:01:43.260
+valós időben szabályozott rendszernek hívnak.
+
+00:01:43.260 --> 00:01:46.260
+És alapvetően ez egy két komponensből álló rendszer --
+
+00:01:46.260 --> 00:01:48.260
+egy érzékelőből és egy működtető elemből.
+
+00:01:48.260 --> 00:01:50.260
+Ami ma érdekes az az,
+
+00:01:50.260 --> 00:01:52.260
+hogy a valós időben szabályozott rendszerek
+
+00:01:52.260 --> 00:01:55.260
+kezdenek belépni az életünkbe.
+
+00:01:55.260 --> 00:01:58.260
+Városainkat az elmúlt néhány évben,
+
+00:01:58.260 --> 00:02:00.260
+betakartuk
+
+00:02:00.260 --> 00:02:02.260
+hálózatokkal, elektronikával.
+
+00:02:02.260 --> 00:02:04.260
+Olyanná válnak mint a számítógépek a szabadban.
+
+00:02:04.260 --> 00:02:06.260
+És, ahogy a számítógépek a szabadban,
+
+00:02:06.260 --> 00:02:08.260
+elkezdenek másként reagálni ahhoz,
+
+00:02:08.260 --> 00:02:11.260
+hogy érzékelni és működtetni lehessen őket.
+
+00:02:11.260 --> 00:02:13.260
+Ha a városokat rendberakjuk, az valóban nagy dolog lesz.
+
+00:02:13.260 --> 00:02:15.260
+Csak mellékesen meg szeretném jegyezni,
+
+00:02:15.260 --> 00:02:19.260
+hogy a városok csak a földkéreg 2 %-át foglalják el,
+
+00:02:19.260 --> 00:02:22.260
+de a világ népességének 50 %-át jelentik.
+
+00:02:22.260 --> 00:02:25.260
+Az energiafogyasztás 75 %-át
+
+00:02:25.260 --> 00:02:28.260
+és a CO2-kibocsátás 80 %-át adják.
+
+00:02:28.260 --> 00:02:31.260
+Tehát, ha képesek vagyunk tenni valamit a városokkal, az egy nagy dolog.
+
+00:02:31.260 --> 00:02:33.260
+A városokon túl,
+
+00:02:33.260 --> 00:02:36.260
+ez az érzékelés és működtetés
+
+00:02:36.260 --> 00:02:38.260
+belép a mindennapi tárgyainkba.
+
+00:02:38.260 --> 00:02:40.260
+Ez egy kiállításról van,
+
+00:02:40.260 --> 00:02:42.260
+amit Paola Antonelli szervez
+
+00:02:42.260 --> 00:02:44.260
+a MoMÁ-ba még ezen a nyáron.
+
+00:02:44.260 --> 00:02:46.260
+Úgy hívják "Beszélj hozám!"
+
+00:02:46.260 --> 00:02:48.260
+Nos a tárgyaink, a környezetünk,
+
+00:02:48.260 --> 00:02:50.260
+elkezdenek beszélni hozzánk.
+
+00:02:50.260 --> 00:02:53.260
+Bizonyos értelemben ez majdnem olyan, mintha minden atom
+
+00:02:53.260 --> 00:02:56.260
+odakint érzékelővé és működtetővé vállna.
+
+00:02:56.260 --> 00:02:59.260
+És ez gyökeresen megváltoztatja a mi emberek,
+
+00:02:59.260 --> 00:03:01.260
+és a kint lévő környezet közötti kölcsönhatást.
+
+00:03:01.260 --> 00:03:03.260
+Bizonyos értelemben,
+
+00:03:03.260 --> 00:03:06.260
+ez majdnem olyan, mint Michelangelo régi álma...
+
+00:03:06.260 --> 00:03:08.260
+Tudják, amikor Michelangelo Mózest faragta,
+
+00:03:08.260 --> 00:03:11.260
+azt mondják, a végén fogta a kalapácsot, hozzávágta Mózeshez --
+
+00:03:11.260 --> 00:03:14.260
+még mindig láthatják a kis lepattogzást a térdén --
+
+00:03:14.260 --> 00:03:16.260
+és azt mondta, kiáltotta,
+
+00:03:16.260 --> 00:03:18.260
+"Perché non parli? Miért nem beszélsz?"
+
+00:03:18.260 --> 00:03:20.260
+Nos, ma az első alkalommal,
+
+00:03:20.260 --> 00:03:23.260
+környezetünk beszélni kezd hozzánk.
+
+00:03:23.260 --> 00:03:25.260
+És mutatok rá néhány példát --
+
+00:03:25.260 --> 00:03:28.260
+ismét felhasználva a gondolatot környezetünk érzékeléséről és működtetéséről.
+
+00:03:28.260 --> 00:03:31.260
+Kezdjük az érzékeléssel!
+
+00:03:31.260 --> 00:03:33.260
+Nos az első projekt, amit meg akartam osztani önökkel
+
+00:03:33.260 --> 00:03:36.260
+az valójában a laborunk egyik első projektje.
+
+00:03:36.260 --> 00:03:39.260
+Ez négy és fél évvel ezelőtt volt Olaszországban.
+
+00:03:39.260 --> 00:03:41.260
+Amit ott csináltunk, az tulajdonképpen
+
+00:03:41.260 --> 00:03:43.260
+egy új típusú hálózat használata volt,
+
+00:03:43.260 --> 00:03:45.260
+amit már szerte a világon telepítettek --
+
+00:03:45.260 --> 00:03:47.260
+ez a mobiltelefon hálózat --
+
+00:03:47.260 --> 00:03:49.260
+és az anonim és összesített adatok használata
+
+00:03:49.260 --> 00:03:51.260
+amit a hálózatüzemeltetők amúgy is gyűjtöttek,
+
+00:03:51.260 --> 00:03:53.260
+arra, hogy megértsük
+
+00:03:53.260 --> 00:03:55.260
+hogyan működik a város.
+
+00:03:55.260 --> 00:03:58.260
+A nyár egy szerencsés nyár volt -- 2006.
+
+00:03:58.260 --> 00:04:01.260
+Ez akkor volt, amikor Olaszország nyerte a labdarúgó világbajnokságot.
+
+00:04:01.260 --> 00:04:04.260
+Néhányan talán emlékeznek, Olaszország és Franciaország játszott,
+
+00:04:04.260 --> 00:04:06.260
+majd Zidane a végén, a lefejelés,
+
+00:04:06.260 --> 00:04:08.260
+de mindegy, Olaszország nyert a végén.
+
+00:04:08.260 --> 00:04:10.260
+(Nevetés)
+
+00:04:10.260 --> 00:04:12.260
+Most nézzük meg, mi történt azon a napon,
+
+00:04:12.260 --> 00:04:14.260
+azáltal, hogy megfigyeljük
+
+00:04:14.260 --> 00:04:16.260
+mi történik a hálózaton.
+
+00:04:16.260 --> 00:04:18.260
+Itt látják a várost.
+
+00:04:18.260 --> 00:04:21.260
+Látják a Colosseumot a közepén,
+
+00:04:21.260 --> 00:04:24.260
+a Tevere folyót.
+
+00:04:24.260 --> 00:04:26.260
+Reggel van, a meccs előtt.
+
+00:04:26.260 --> 00:04:28.260
+Az idővonal a tetején látható.
+
+00:04:28.260 --> 00:04:30.260
+Kora délután,
+
+00:04:30.260 --> 00:04:32.260
+emberek itt-ott
+
+00:04:32.260 --> 00:04:34.260
+hívásokat kezdenek és mozognak.
+
+00:04:34.260 --> 00:04:37.260
+A mérkőzés elkezdődik -- csend.
+
+00:04:37.260 --> 00:04:40.260
+Franciaország gólt lő. Olaszország gólt lő.
+
+00:04:40.260 --> 00:04:44.260
+Félidő, az emberek gyorsan telefonálnak, és kimennek a mosdóba.
+
+00:04:44.260 --> 00:04:46.260
+Második félidő. Vége a rendes játékidőnek.
+
+00:04:46.260 --> 00:04:48.260
+Első hosszabbítás, a második.
+
+00:04:48.260 --> 00:04:51.260
+Zidane, a mellbe fejelés egy pillanat múlva.
+
+00:04:51.260 --> 00:04:53.260
+Olaszország nyer! Igen!
+
+00:04:53.260 --> 00:04:55.260
+(Nevetés)
+
+00:04:55.260 --> 00:04:58.260
+(Taps)
+
+00:04:58.260 --> 00:05:00.260
+Nos, azon az éjszakán mindenki elment a városközpontba, hogy ünnepeljen.
+
+00:05:00.260 --> 00:05:02.260
+Látták a nagy csúcsot.
+
+00:05:02.260 --> 00:05:04.260
+A következő napon mindenki elment a központba,
+
+00:05:04.260 --> 00:05:07.260
+hogy találkozzon a győztes csapattal
+
+00:05:07.260 --> 00:05:09.260
+és az akkori miniszterelnökkel.
+
+00:05:09.260 --> 00:05:11.260
+Aztán mindenki elindult lefelé.
+
+00:05:11.260 --> 00:05:13.260
+Látják a Circo Massimo nevű hely képét,
+
+00:05:13.260 --> 00:05:16.260
+ahova a római kor óta az emberek ünnepelni járnak --
+
+00:05:16.260 --> 00:05:19.260
+egy nagyot bulizni, és látják a csúcsot a nap végén.
+
+00:05:19.260 --> 00:05:21.260
+Nos, ez csak egy példa arra, hogyan érzékelhetjük a várost ma
+
+00:05:21.260 --> 00:05:23.260
+úgy, ahogy nem tudtuk volna
+
+00:05:23.260 --> 00:05:25.260
+néhány évvel ezelőtt.
+
+00:05:25.260 --> 00:05:27.260
+Egy másik gyors példa a érzékelésre:
+
+00:05:27.260 --> 00:05:29.260
+ez nem az emberekről szól,
+
+00:05:29.260 --> 00:05:31.260
+hanem a dolgokról, amiket használunk, fogyasztunk.
+
+00:05:31.260 --> 00:05:33.260
+Nos, ma mindent tudunk
+
+00:05:33.260 --> 00:05:36.260
+arról, hogy a tárgyaink honnan érkeznek.
+
+00:05:36.260 --> 00:05:38.260
+Ez a térkép azt mutatja,
+
+00:05:38.260 --> 00:05:41.260
+hogy honnan jöttek egy Mac számítógépetben található chipek.
+
+00:05:41.260 --> 00:05:44.260
+De nagyon keveset tudunk arról, hogy hová mennek a dolgok.
+
+00:05:44.260 --> 00:05:46.260
+Tehát ebben a projektben
+
+00:05:46.260 --> 00:05:48.260
+kifejlesztettünk néhány kisebb címkét,
+
+00:05:48.260 --> 00:05:51.260
+hogy követni tudjuk a szemetet, ahogy áthalad a rendszeren.
+
+00:05:51.260 --> 00:05:54.260
+Szóval néhány önkéntessel kezdtük,
+
+00:05:54.260 --> 00:05:56.260
+akik segítettek nekünk Seattle-ben,
+
+00:05:56.260 --> 00:05:58.260
+valamivel több mint egy éve,
+
+00:05:58.260 --> 00:06:01.260
+felcímkézni azt, amit eldobtak --
+
+00:06:01.260 --> 00:06:04.260
+különböző dolgokat, mint itt láthatják --
+
+00:06:04.260 --> 00:06:06.260
+dolgokat, amit amúgy is ki akartak dobni.
+
+00:06:06.260 --> 00:06:08.260
+Aztán egy kis chipet, egy kis címkét
+
+00:06:08.260 --> 00:06:10.260
+tettünk a szemétre
+
+00:06:10.260 --> 00:06:12.260
+majd elkezdtük követni.
+
+00:06:12.260 --> 00:06:15.260
+Itt vannak az eredmények, amiket mostanában kaptunk.
+
+00:06:15.260 --> 00:06:18.260
+(Zene)
+
+00:06:18.260 --> 00:06:21.260
+Seattle-ből ...
+
+00:06:26.260 --> 00:06:28.260
+egy hét után.
+
+00:06:53.260 --> 00:06:55.260
+Ezzel az információval rájöttünk, hogy
+
+00:06:55.260 --> 00:06:57.260
+a rendszer nem elég hatékony.
+
+00:06:57.260 --> 00:07:00.260
+Ugyanezt sokkal kevesebb energiával is megtehetnénk.
+
+00:07:00.260 --> 00:07:02.260
+Ezek az adatok nem álltak rendelkezésre korábban.
+
+00:07:02.260 --> 00:07:05.260
+Azonban egy csomó felesleges szállítás és egyéb nyakatekert dolog történik.
+
+00:07:05.260 --> 00:07:07.260
+A másik dolog az, hogy hiszünk abban,
+
+00:07:07.260 --> 00:07:09.260
+hogy ha mindennap látjuk,
+
+00:07:09.260 --> 00:07:11.260
+hogy a pohár amit eldobunk, nem tűnik el,
+
+00:07:11.260 --> 00:07:13.260
+hanem még mindig valahol a bolygón van.
+
+00:07:13.260 --> 00:07:16.260
+És a műanyag palack, amit mindennap eldobunk, még mindig ott van.
+
+00:07:16.260 --> 00:07:18.260
+És ha ezt megmutatjuk az embereknek,
+
+00:07:18.260 --> 00:07:20.260
+akkor elérhetjük néhány szokás megváltoztatását.
+
+00:07:20.260 --> 00:07:22.260
+Szóval ez volt az projekt értelme.
+
+00:07:22.260 --> 00:07:24.260
+Kollégám az MIT-ről, Assaf Biderman,
+
+00:07:24.260 --> 00:07:26.260
+sokkal többet tudna mondani az érzékelésről
+
+00:07:26.260 --> 00:07:28.260
+és még sok más csodálatos dolgról amit az érzékeléssel tehetünk,
+
+00:07:28.260 --> 00:07:31.260
+de szeretném folytatni a második résszel, amiről az elején beszéltünk,
+
+00:07:31.260 --> 00:07:33.260
+és ez a környezetünk működtetése.
+
+00:07:33.260 --> 00:07:35.260
+És az első projekt olyasmi,
+
+00:07:35.260 --> 00:07:38.260
+amit pár évvel ezelőtt Zaragozában, Spanyolországban csináltunk.
+
+00:07:38.260 --> 00:07:41.260
+Úgy kezdődött, hogy a város polgármestere
+
+00:07:41.260 --> 00:07:43.260
+eljött hozzánk egy kérdéssel, mondván
+
+00:07:43.260 --> 00:07:46.260
+hogy Spanyolországnak és Dél-Európának van egy szép hagyománya:
+
+00:07:46.260 --> 00:07:49.260
+a víz használata a közösségi tereken és az építészetben.
+
+00:07:49.260 --> 00:07:51.260
+És a kérdés az volt: Hogyan lehet az új technológiát
+
+00:07:51.260 --> 00:07:53.260
+ehhez hozzáadni?
+
+00:07:53.260 --> 00:07:56.260
+Az egyik ötlet, amit egy MIT workshopon fejlesztettek ki
+
+00:07:56.260 --> 00:07:59.260
+az volt, képzeljenek el egy csövet, szelepeket,
+
+00:07:59.260 --> 00:08:01.260
+mágnesszelepeket, csapokat,
+
+00:08:01.260 --> 00:08:03.260
+amik nyílnak és záródnak.
+
+00:08:03.260 --> 00:08:06.260
+Egyfajta vízfüggönyt hoznak létre, vízből készült pixeleket.
+
+00:08:06.260 --> 00:08:08.260
+Amikor a pixelek lehullanak,
+
+00:08:08.260 --> 00:08:10.260
+írni lehet rájuk,
+
+00:08:10.260 --> 00:08:12.260
+mintákat, képeket, szöveget lehet mutatni velük.
+
+00:08:12.260 --> 00:08:14.260
+És meg is közelíthetik, és akkor kinyílik,
+
+00:08:14.260 --> 00:08:16.260
+hogy átugorhassanak,
+
+00:08:16.260 --> 00:08:18.260
+ahogy ezen a képen látják.
+
+00:08:18.260 --> 00:08:20.260
+Nos, megmutattuk Belloch polgármester úrnak.
+
+00:08:20.260 --> 00:08:22.260
+Nagyon tetszett neki.
+
+00:08:22.260 --> 00:08:24.260
+És kaptunk egy megbízást, hogy tervezzünk egy épületet
+
+00:08:24.260 --> 00:08:26.260
+az expo bejáratánál.
+
+00:08:26.260 --> 00:08:28.260
+Digitális Víz Pavilonnak neveztük el.
+
+00:08:28.260 --> 00:08:31.260
+Az egész épület vízből van.
+
+00:08:33.260 --> 00:08:35.260
+Nincsenek ajtók sem ablakok,
+
+00:08:35.260 --> 00:08:37.260
+de ha a megközelítik,
+
+00:08:37.260 --> 00:08:39.260
+meg fog nyílni, hogy beengedje önöket.
+
+00:08:39.260 --> 00:08:45.260
+(Zene)
+
+00:08:52.260 --> 00:08:55.260
+A tetőt is víz borítja.
+
+00:08:57.260 --> 00:08:59.260
+És ha van egy kis szél,
+
+00:08:59.260 --> 00:09:02.260
+ha csökkenteni szeretnék a fröccskölést, akkor lejjebb ereszthetik a tetőt.
+
+00:09:04.260 --> 00:09:06.260
+Vagy bezárhatják az épületet,
+
+00:09:06.260 --> 00:09:08.260
+és az egész építészet eltűnik,
+
+00:09:08.260 --> 00:09:10.260
+mint ebben az esetben.
+
+00:09:10.260 --> 00:09:12.260
+Tudják, mostanság télen, mindig kapok képeket,
+
+00:09:12.260 --> 00:09:14.260
+amikor a tető le van eresztve,
+
+00:09:14.260 --> 00:09:17.260
+azoktól akik ott jártak, és azt mondják: "Lebontották az épületet."
+
+00:09:17.260 --> 00:09:19.260
+Nem, nem bontották le, csak amikor le van eresztve
+
+00:09:19.260 --> 00:09:21.260
+az épület, szinte eltűnik.
+
+00:09:21.260 --> 00:09:24.260
+Itt az épület működés közben.
+
+00:09:24.260 --> 00:09:27.260
+Látják az embert zavarba esve attól, hogy mi folyik odabent.
+
+00:09:27.260 --> 00:09:29.260
+És ez én vagyok: igyekszem nem vizes lenni,
+
+00:09:29.260 --> 00:09:32.260
+tesztelem az érzékelőket, amik a vizet nyitják.
+
+00:09:32.260 --> 00:09:34.260
+Nos, el kell mondjam, mi történt egy éjszaka,
+
+00:09:34.260 --> 00:09:37.260
+amikor az érzékelők leálltak.
+
+00:09:37.260 --> 00:09:40.260
+Tulajdonképpen az az éjszaka még szórakoztatóbb volt.
+
+00:09:40.260 --> 00:09:42.260
+Az összes zaragozai gyerek az épülethez jött,
+
+00:09:42.260 --> 00:09:45.260
+mert az épülettel való kapcsolat valami mássá alakult.
+
+00:09:45.260 --> 00:09:48.260
+Nem egy épület többé, ami megnyílik és beenged,
+
+00:09:48.260 --> 00:09:51.260
+hanem egy épület, amely még mindig lyukakat csinál a vízben,
+
+00:09:51.260 --> 00:09:53.260
+de azon át kell ugrani, hogy ne legyünk vizesek.
+
+00:09:53.260 --> 00:10:06.260
+(Videó) (Háttérzaj)
+
+00:10:06.260 --> 00:10:08.260
+És ez számunkra nagyon érdekes volt,
+
+00:10:08.260 --> 00:10:11.260
+mert mint építészek, mint mérnökök, mint formatervezők,
+
+00:10:11.260 --> 00:10:14.260
+mindig azon gondolkodunk, hogyan fogják az emberek a számukra tervezett dolgot használni?
+
+00:10:14.260 --> 00:10:17.260
+De aztán a valóság mindig kiszámíthatatlan.
+
+00:10:17.260 --> 00:10:19.260
+És ez a szép azokban a dolgokban,
+
+00:10:19.260 --> 00:10:21.260
+amik kölcsönhatásban vannak az emberekkel.
+
+00:10:21.260 --> 00:10:23.260
+Itt egy kép az épületről,
+
+00:10:23.260 --> 00:10:25.260
+fizikai pixelekkel, vízből készült képpontokkal,
+
+00:10:25.260 --> 00:10:28.260
+amire képeket vetítettünk.
+
+00:10:28.260 --> 00:10:30.260
+És ez az, ami az ötletet adta
+
+00:10:30.260 --> 00:10:32.260
+a következő projekthez amit most megmutatok.
+
+00:10:32.260 --> 00:10:35.260
+Képzeljék el, hogy azok a pixelek akár repülni is tudnának!
+
+00:10:35.260 --> 00:10:37.260
+Képzeljenek el kis helikopereket,
+
+00:10:37.260 --> 00:10:39.260
+amik a levegőben mozognak,
+
+00:10:39.260 --> 00:10:42.260
+mindegyik egy kis pixelt hordoz, változó fénnyel --
+
+00:10:42.260 --> 00:10:45.260
+szinte mint egy felhő, ami mozogni tud a térben.
+
+00:10:45.260 --> 00:10:47.260
+Íme a videó.
+
+00:10:47.260 --> 00:10:53.260
+(Zene)
+
+00:10:53.260 --> 00:10:56.260
+Képzeljenek el egy helikoptert,
+
+00:10:56.260 --> 00:10:59.260
+olyat, mint amit az előbb láttunk,
+
+00:11:01.260 --> 00:11:04.260
+ami együtt mozog a többivel,
+
+00:11:04.260 --> 00:11:06.260
+szinkronban.
+
+00:11:06.260 --> 00:11:09.260
+Így lehet egy felhőnk.
+
+00:11:15.260 --> 00:11:19.260
+Lehet egy rugalmas képernyőnk vagy felületünk, mint ez --
+
+00:11:19.260 --> 00:11:22.260
+szabályos konfigurációval két dimenzióban.
+
+00:11:29.260 --> 00:11:32.260
+Vagy szabályos, de három dimenzióban,
+
+00:11:32.260 --> 00:11:34.260
+ahol a fény változik,
+
+00:11:34.260 --> 00:11:36.260
+és nem a pixelek pozíciója.
+
+00:11:46.260 --> 00:11:48.260
+Játszhatnak egy másik típussal is.
+
+00:11:48.260 --> 00:11:50.260
+Képzeljék el, hogy ez a képernyő
+
+00:11:50.260 --> 00:11:53.260
+különböző méretekben jelenhetne meg,
+
+00:11:53.260 --> 00:11:56.260
+különböző felbontásokban.
+
+00:12:05.260 --> 00:12:07.260
+De az egész lehetne akár egy 3D-s
+
+00:12:07.260 --> 00:12:09.260
+képpontokból álló felhő,
+
+00:12:09.260 --> 00:12:12.260
+amit megközelíthetnek, keresztülmehetnek rajta,
+
+00:12:12.260 --> 00:12:15.260
+és sok-sok irányból szemlélhetik.
+
+00:12:15.260 --> 00:12:17.260
+Itt az igazi Flyfire
+
+00:12:17.260 --> 00:12:21.260
+úgy irányítva, hogy leszálljon és létrehozza a korábban látott rácsot.
+
+00:12:21.260 --> 00:12:24.260
+Amikor felkapcsolják a világítást, ez az amit valójában látnak. Ugyanaz, amit korábban láttunk.
+
+00:12:24.260 --> 00:12:26.260
+És képzeljék el, hogy aztán mindegyiket emberek vezérlik.
+
+00:12:26.260 --> 00:12:28.260
+Minden pixel mozoghat
+
+00:12:28.260 --> 00:12:30.260
+az emberektől jövő impulzusok hatására,
+
+00:12:30.260 --> 00:12:32.260
+például emberek mozgásából származó impulzusokra.
+
+00:12:32.260 --> 00:12:35.260
+Szeretnék elsőként önöknek megmutatni valamit.
+
+00:12:35.260 --> 00:12:37.260
+Roberto Bolléval dogloztunk,
+
+00:12:37.260 --> 00:12:39.260
+napjaink egyik kiemelkedő balett-táncosával --
+
+00:12:39.260 --> 00:12:41.260
+a New York-i Metropolitan és a
+
+00:12:41.260 --> 00:12:43.260
+a milánói La Scala sztárjával --
+
+00:12:43.260 --> 00:12:45.260
+és ténylegesen felvettük a mozgását 3D-ben
+
+00:12:45.260 --> 00:12:48.260
+azért, hogy azt a Flyfire-t vezérlő jelként tudjuk használni.
+
+00:12:48.260 --> 00:12:51.260
+Itt láthatják Robertót táncolni.
+
+00:12:53.260 --> 00:12:55.260
+A bal oldalon láthatják a pixeleket,
+
+00:12:55.260 --> 00:12:57.260
+ahogy a különböző felbontásokat felvettük.
+
+00:12:57.260 --> 00:12:59.260
+Ez egyben a 3D szkennelés valós időben,
+
+00:12:59.260 --> 00:13:02.260
+és a mozgás felvétele.
+
+00:13:03.260 --> 00:13:06.260
+Szóval rekonstruálható az egész mozgás.
+
+00:13:10.260 --> 00:13:13.260
+Végigjátszható.
+
+00:13:16.260 --> 00:13:18.260
+De ha már megvannak a pixelek, akkor játszhatnak velük
+
+00:13:18.260 --> 00:13:21.260
+és játszhatnak a színnel és a mozgással
+
+00:13:21.260 --> 00:13:24.260
+és a gravitációval és a forgatással.
+
+00:13:24.260 --> 00:13:26.260
+Tehát szeretnénk ezt úgy használni, mint egy
+
+00:13:26.260 --> 00:13:28.260
+lehetséges bemeneti jelet a Flyfire-hez.
+
+00:13:47.260 --> 00:13:49.260
+Szeretném megmutatni a legutóbbi projektünket, amin most dolgozunk.
+
+00:13:49.260 --> 00:13:51.260
+Ezt a londoni olimpiára készítjük.
+
+00:13:51.260 --> 00:13:53.260
+Úgy hívják, a Felhő.
+
+00:13:53.260 --> 00:13:55.260
+És az ötlet itt az, képzeljék el,
+
+00:13:55.260 --> 00:13:57.260
+hogy megint bevonjuk az embereket,
+
+00:13:57.260 --> 00:14:00.260
+hogy valamit tegyenek, megváltoztassák környezetünket --
+
+00:14:00.260 --> 00:14:02.260
+nagyjából úgy, hogy belefogunk abba, amit felhőépítésnek hívunk --
+
+00:14:02.260 --> 00:14:04.260
+ez olyan mint a közös pajtaépítés, de felhővel.
+
+00:14:04.260 --> 00:14:08.260
+Képzeljék el, hogy mindenki anyagilag támogathat egy pixelt.
+
+00:14:08.260 --> 00:14:10.260
+Azt hiszem, nagyon figyelemreméltó az,
+
+00:14:10.260 --> 00:14:12.260
+ami az elmúlt pár évben történt,
+
+00:14:12.260 --> 00:14:14.260
+ahogy az elmúlt pár évtizedben
+
+00:14:14.260 --> 00:14:17.260
+a fizikai világból eljutottunk a digitális világba.
+
+00:14:17.260 --> 00:14:19.260
+Ez minden digitalizálását -- a tudásét -- jelentette,
+
+00:14:19.260 --> 00:14:21.260
+és annak az interneten keresztül elérhetővé tevését.
+
+00:14:21.260 --> 00:14:23.260
+Nos ma, először --
+
+00:14:23.260 --> 00:14:25.260
+és az Obama-kampány mutatta ezt meg nekünk --
+
+00:14:25.260 --> 00:14:27.260
+mehetünk a digitális világból,
+
+00:14:27.260 --> 00:14:29.260
+az erős, önszerveződő hálózatokból,
+
+00:14:29.260 --> 00:14:31.260
+a fizikai világba.
+
+00:14:31.260 --> 00:14:33.260
+Mi ezt arra szeretnénk felhasználni,
+
+00:14:33.260 --> 00:14:35.260
+hogy tervezzünk és építsünk egy szimbólumot.
+
+00:14:35.260 --> 00:14:37.260
+Ez valami olyat jelent, amit városban építettek.
+
+00:14:37.260 --> 00:14:39.260
+De holnap már arról szólhat,
+
+00:14:39.260 --> 00:14:42.260
+hogy ahhoz, hogy megoldjuk a ma égető kihívásait --
+
+00:14:42.260 --> 00:14:44.260
+gondoljanak az éghajlatváltozásra vagy a CO2-kibocsátásra --
+
+00:14:44.260 --> 00:14:47.260
+hogyan juthatunk a digitális világból a fizika világba?
+
+00:14:47.260 --> 00:14:49.260
+Innen az ötlet, hogy mi is ténylegesen bevonjuk az embereket,
+
+00:14:49.260 --> 00:14:51.260
+hogy ezt együtt csináljuk, közösen.
+
+00:14:51.260 --> 00:14:54.260
+A Felhő egy felhő, ami pixelekből áll
+
+00:14:54.260 --> 00:14:56.260
+ugyanúgy, mint ahogyan a valódi felhő
+
+00:14:56.260 --> 00:14:58.260
+egy részecskékből álló felhő.
+
+00:14:58.260 --> 00:15:00.260
+És ez a részecske a víz,
+
+00:15:00.260 --> 00:15:02.260
+amíg a mi Felőnk egy pixelfelhő.
+
+00:15:02.260 --> 00:15:05.260
+Egy fizikai struktúra Londonban, de pixelek borítják.
+
+00:15:05.260 --> 00:15:07.260
+Mozoghatnak benne, különböző dolgokat tapasztalhatnak.
+
+00:15:07.260 --> 00:15:09.260
+Tulajdonképpen alulról is nézhetik,
+
+00:15:09.260 --> 00:15:11.260
+megoszthatják a 2012-es olimpia
+
+00:15:11.260 --> 00:15:14.260
+főbb pillanatait, vagy a későbbieket,
+
+00:15:14.260 --> 00:15:18.260
+és tényleg használható arra, hogy kapcsolódjanak a közösséghez.
+
+00:15:18.260 --> 00:15:22.260
+Tehát ez egyben egy fizikai felhő az égen,
+
+00:15:22.260 --> 00:15:25.260
+és valami, aminek feljuthatnak a csúcsára,
+
+00:15:25.260 --> 00:15:27.260
+mint London új hegytetőjére.
+
+00:15:27.260 --> 00:15:29.260
+Bele is mehetnek.
+
+00:15:29.260 --> 00:15:32.260
+És egyfajta új, digitális irányfény az éjszakában --
+
+00:15:32.260 --> 00:15:34.260
+de ami a legfontosabb,
+
+00:15:34.260 --> 00:15:37.260
+hogy egy új típusú élmény bárki számára, aki feljut a csúcsra.
+
+00:15:37.260 --> 00:15:39.260
+Köszönöm.
+
+00:15:39.260 --> 00:15:41.260
+(Taps)
+

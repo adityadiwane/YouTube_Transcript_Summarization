@@ -1,0 +1,629 @@
+WEBVTT
+Kind: captions
+Language: pl
+
+00:00:00.000 --> 00:00:07.000
+Tłumaczenie: Krystian Aparta
+Korekta: Marek Kasiak
+
+00:00:15.260 --> 00:00:18.260
+Wiele osób uważa, że kierować samochodem
+
+00:00:18.260 --> 00:00:20.260
+mogą tylko widzący.
+
+00:00:20.260 --> 00:00:23.260
+Uważano, że niewidomy nie może prowadzić
+
+00:00:23.260 --> 00:00:26.260
+bezpiecznie i niezależnie, ale to się zmieniło.
+
+00:00:26.260 --> 00:00:28.260
+Nazywam się Dennis Hong.
+
+00:00:28.260 --> 00:00:30.260
+Dajemy niewidomym wolność
+
+00:00:30.260 --> 00:00:33.260
+dzięki samochodom dla niedowidzących.
+
+00:00:33.260 --> 00:00:36.260
+Zanim o nich opowiem,
+
+00:00:36.260 --> 00:00:38.260
+wspomnę o innym projekcie,
+
+00:00:38.260 --> 00:00:40.260
+czyli "DARPA Urban Challenge".
+
+00:00:40.260 --> 00:00:42.260
+Był to konkurs na samochód,
+
+00:00:42.260 --> 00:00:44.260
+który kieruje sobą sam.
+
+00:00:44.260 --> 00:00:46.260
+Nikt niczym nie kieruje,
+
+00:00:46.260 --> 00:00:49.260
+samochód samodzielnie dojeżdża do celu.
+
+00:00:49.260 --> 00:00:52.260
+W 2007 roku nasz zespół zdobył milion dolarów
+
+00:00:52.260 --> 00:00:54.260
+za zajęcie trzeciego miejsca.
+
+00:00:54.260 --> 00:00:56.260
+Mniej więcej w tym czasie
+
+00:00:56.260 --> 00:00:58.260
+NFB, Narodowa Federacja Niewidomych,
+
+00:00:58.260 --> 00:01:00.260
+przedstawiła swoje wyzwanie:
+
+00:01:00.260 --> 00:01:02.260
+samochód dla niewidomych
+
+00:01:02.260 --> 00:01:04.260
+i bezpieczna, niezależna jazda.
+
+00:01:04.260 --> 00:01:06.260
+Postanowiliśmy spróbować,
+
+00:01:06.260 --> 00:01:08.260
+bo nie wydało nam się to trudne.
+
+00:01:08.260 --> 00:01:10.260
+Stworzyliśmy samochód samodzielny.
+
+00:01:10.260 --> 00:01:12.260
+Dodamy niewidomego pasażera!
+
+00:01:12.260 --> 00:01:14.260
+(Śmiech)
+
+00:01:14.260 --> 00:01:16.260
+Bardzo się myliliśmy.
+
+00:01:16.260 --> 00:01:18.260
+Samochód obmyślony przez NFB
+
+00:01:18.260 --> 00:01:21.260
+nie miał po prostu wozić osoby niewidomej,
+
+00:01:21.260 --> 00:01:24.260
+ale umożliwiać jej świadome, aktywne prowadzenie.
+
+00:01:24.260 --> 00:01:26.260
+Musieliśmy odrzucić nasze plany
+
+00:01:26.260 --> 00:01:28.260
+i zacząć od zera.
+
+00:01:28.260 --> 00:01:30.260
+Ten szalony pomysł
+
+00:01:30.260 --> 00:01:32.260
+przetestowaliśmy na małym prototypie typu "buggy".
+
+00:01:32.260 --> 00:01:34.260
+przetestowaliśmy na małym prototypie typu "buggy".
+
+00:01:34.260 --> 00:01:36.260
+Latem roku 2009 zaprosiliśmy dziesiątki młodych niewidomych
+
+00:01:36.260 --> 00:01:39.260
+Latem roku 2009 zaprosiliśmy dziesiątki młodych niewidomych
+
+00:01:39.260 --> 00:01:41.260
+i daliśmy im się przejechać.
+
+00:01:41.260 --> 00:01:43.260
+To było wspaniałe doświadczenie.
+
+00:01:43.260 --> 00:01:45.260
+Jednak był pewien problem.
+
+00:01:45.260 --> 00:01:48.260
+Prototyp radził sobie w kontrolowanym terenie
+
+00:01:48.260 --> 00:01:50.260
+płaskiego, zamkniętego parkingu.
+
+00:01:50.260 --> 00:01:52.260
+Nie było pasów, tylko pachołki.
+
+00:01:52.260 --> 00:01:54.260
+Po takim wstępnym sukcesie
+
+00:01:54.260 --> 00:01:56.260
+zdecydowaliśmy się pójść dalej
+
+00:01:56.260 --> 00:01:59.260
+i zrobić prawdziwy samochód na prawdziwe drogi.
+
+00:01:59.260 --> 00:02:01.260
+Jak to działa?
+
+00:02:01.260 --> 00:02:03.260
+System jest dosyć złożony,
+
+00:02:03.260 --> 00:02:06.260
+ale postaram przystępnie go opisać.
+
+00:02:06.260 --> 00:02:08.260
+Są trzy obszary,
+
+00:02:08.260 --> 00:02:10.260
+percepcja, obliczenia
+
+00:02:10.260 --> 00:02:12.260
+i interfejsy niewizualne.
+
+00:02:12.260 --> 00:02:14.260
+Kierowca oczywiście nie widzi,
+
+00:02:14.260 --> 00:02:16.260
+więc system bada otoczenie
+
+00:02:16.260 --> 00:02:18.260
+i dostarcza informacji.
+
+00:02:18.260 --> 00:02:21.260
+Zajmuje się tym jednostka pomiarowa.
+
+00:02:21.260 --> 00:02:23.260
+Określa przyśpieszenie, przyśpieszenie kątowe,
+
+00:02:23.260 --> 00:02:25.260
+jak ludzkie ucho wewnętrzne.
+
+00:02:25.260 --> 00:02:27.260
+Uwzględniając dodatkowo dane GPS
+
+00:02:27.260 --> 00:02:30.260
+uzyskujemy przybliżone położenie samochodu.
+
+00:02:30.260 --> 00:02:33.260
+Dwie kamery wykrywają pasy jezdni.
+
+00:02:33.260 --> 00:02:35.260
+Są też trzy laserowe dalmierze.
+
+00:02:35.260 --> 00:02:38.260
+Laser przeczesuje otoczenie, szukając przeszkód,
+
+00:02:38.260 --> 00:02:40.260
+takich jak nadjeżdżające samochody,
+
+00:02:40.260 --> 00:02:43.260
+obiekty zjawiające się nagle na drodze
+
+00:02:43.260 --> 00:02:45.260
+i przeszkody wokół pojazdu.
+
+00:02:45.260 --> 00:02:48.260
+Wszystkie te dane są przekazywane do komputera,
+
+00:02:48.260 --> 00:02:50.260
+który ma dwa zadania.
+
+00:02:50.260 --> 00:02:53.260
+Po pierwsze, przetwarza te informacje
+
+00:02:53.260 --> 00:02:55.260
+i analizuje otoczenie,
+
+00:02:55.260 --> 00:02:58.260
+na przykład znajduje pas, przeszkody.
+
+00:02:58.260 --> 00:03:00.260
+Przekazuje to potem kierowcy.
+
+00:03:00.260 --> 00:03:02.260
+System potrafi też określić
+
+00:03:02.260 --> 00:03:04.260
+najbezpieczniejszy sposób jazdy.
+
+00:03:04.260 --> 00:03:06.260
+Może generować polecenia
+
+00:03:06.260 --> 00:03:08.260
+dotyczące kierowania pojazdem.
+
+00:03:08.260 --> 00:03:10.260
+Ale jak przekazać te informacje i polecenia
+
+00:03:10.260 --> 00:03:12.260
+Ale jak przekazać te informacje i polecenia
+
+00:03:12.260 --> 00:03:14.260
+osobie, której wzrok reaguje za wolno
+
+00:03:14.260 --> 00:03:17.260
+i zbyt niedokładnie, żeby kierować się wizją?
+
+00:03:17.260 --> 00:03:19.260
+Rozwiązaliśmy ten problem
+
+00:03:19.260 --> 00:03:22.260
+za pomocą wielu rodzajów interfejsów niewizualnych.
+
+00:03:22.260 --> 00:03:24.260
+Trójwymiarowe alarmy dźwiękowe,
+
+00:03:24.260 --> 00:03:26.260
+wibrująca kamizelka,
+
+00:03:26.260 --> 00:03:29.260
+panel dotykowy sterowany głosowo, taśma na nodze,
+
+00:03:29.260 --> 00:03:31.260
+but naciskający stopę.
+
+00:03:31.260 --> 00:03:33.260
+Ale dzisiaj opowiem o trzech z tych interfejsów.
+
+00:03:33.260 --> 00:03:35.260
+Ale dzisiaj opowiem o trzech z tych interfejsów.
+
+00:03:35.260 --> 00:03:38.260
+Pierwszy nazywa się DriveGrip.
+
+00:03:38.260 --> 00:03:40.260
+Składa się z rękawic z wibrującymi knykciami,
+
+00:03:40.260 --> 00:03:42.260
+Składa się z rękawic z wibrującymi knykciami,
+
+00:03:42.260 --> 00:03:45.260
+które przedstawiają dane niezbędne do kierowania,
+
+00:03:45.260 --> 00:03:47.260
+kierunek i siłę skrętu kierownicy.
+
+00:03:47.260 --> 00:03:49.260
+Inne urządzenie to SpeedStrip.
+
+00:03:49.260 --> 00:03:52.260
+Tak naprawdę to fotel z funkcją masażu.
+
+00:03:52.260 --> 00:03:56.260
+Wybebeszyliśmy go i poprzestawialiśmy części masujące.
+
+00:03:56.260 --> 00:03:59.260
+Ich ruchy informują o prędkości
+
+00:03:59.260 --> 00:04:02.260
+i podpowiadają, jak używać pedałów gazu i hamulca.
+
+00:04:02.260 --> 00:04:04.260
+Tutaj widzimy, jak komputer poznaje otoczenie.
+
+00:04:04.260 --> 00:04:06.260
+Tutaj widzimy, jak komputer poznaje otoczenie.
+
+00:04:06.260 --> 00:04:08.260
+Ponieważ wibracji nie widać,
+
+00:04:08.260 --> 00:04:11.260
+na potrzeby filmu do rękawic dodaliśmy czerwone diody.
+
+00:04:11.260 --> 00:04:13.260
+To dane z czujników otoczenia,
+
+00:04:13.260 --> 00:04:16.260
+przekazywane do interfejsów przez komputer.
+
+00:04:16.260 --> 00:04:18.260
+Urządzenia DriveGrip i SpeedStrip są bardzo skuteczne,
+
+00:04:18.260 --> 00:04:20.260
+Urządzenia DriveGrip i SpeedStrip są bardzo skuteczne,
+
+00:04:20.260 --> 00:04:22.260
+jednak służą do podawania instrukcji.
+
+00:04:22.260 --> 00:04:24.260
+jednak służą do podawania instrukcji.
+
+00:04:24.260 --> 00:04:26.260
+Nie można tego nazwać wolnością.
+
+00:04:26.260 --> 00:04:28.260
+To komputer mówi, jak mamy prowadzić:
+
+00:04:28.260 --> 00:04:30.260
+"Skręć w lewo, przyśpiesz, zatrzymaj się".
+
+00:04:30.260 --> 00:04:32.260
+To problem "życzliwego pasażera".
+
+00:04:32.260 --> 00:04:35.260
+Dlatego odchodzimy od urządzeń dających polecenia
+
+00:04:35.260 --> 00:04:37.260
+Dlatego odchodzimy od urządzeń dających polecenia
+
+00:04:37.260 --> 00:04:39.260
+w stronę rozwiązań informujących.
+
+00:04:39.260 --> 00:04:41.260
+Dobrym przykładem takiego interfejsu
+
+00:04:41.260 --> 00:04:43.260
+jest urządzenie AirPix.
+
+00:04:43.260 --> 00:04:45.260
+To taki monitor dla niewidomych.
+
+00:04:45.260 --> 00:04:47.260
+Przez otwory w tej tabliczce płynie sprężone powietrze,
+
+00:04:47.260 --> 00:04:49.260
+Przez otwory w tej tabliczce płynie sprężone powietrze,
+
+00:04:49.260 --> 00:04:51.260
+które odwzorowuje obraz.
+
+00:04:51.260 --> 00:04:53.260
+Za pomocą dłoni niewidomy widzi drogę i przeszkody.
+
+00:04:53.260 --> 00:04:55.260
+Za pomocą dłoni niewidomy widzi drogę i przeszkody.
+
+00:04:55.260 --> 00:04:58.260
+Można zmieniać częstotliwość i temperaturę strumienia.
+
+00:04:58.260 --> 00:05:00.260
+Można zmieniać częstotliwość i temperaturę strumienia.
+
+00:05:00.260 --> 00:05:03.260
+To wielowymiarowy interfejs użytkownika.
+
+00:05:03.260 --> 00:05:06.260
+Komputer interpretuje obraz z kamer samochodu,
+
+00:05:06.260 --> 00:05:09.260
+a następnie przesyła dane do interfejsu AirPix.
+
+00:05:09.260 --> 00:05:11.260
+Niewidomy korzysta z symulatora
+
+00:05:11.260 --> 00:05:14.260
+i kieruje samochodem za pomocą urządzenia AirPix.
+
+00:05:14.260 --> 00:05:17.260
+Na symulatorze trenowaliśmy niewidomych kierowców
+
+00:05:17.260 --> 00:05:19.260
+i szybko testowaliśmy różne interfejsy niewizualne.
+
+00:05:19.260 --> 00:05:21.260
+i szybko testowaliśmy różne interfejsy niewizualne.
+
+00:05:21.260 --> 00:05:23.260
+Tak to mniej więcej działa.
+
+00:05:23.260 --> 00:05:25.260
+29 stycznia, czyli zaledwie miesiąc temu,
+
+00:05:25.260 --> 00:05:27.260
+29 stycznia, czyli zaledwie miesiąc temu,
+
+00:05:27.260 --> 00:05:29.260
+pokazaliśmy samochód publicznie
+
+00:05:29.260 --> 00:05:32.260
+na torze Daytona International Speedway,
+
+00:05:32.260 --> 00:05:34.260
+podczas wyścigu Rolex 24.
+
+00:05:34.260 --> 00:05:37.260
+Zaplanowaliśmy też parę niespodzianek.
+
+00:05:37.260 --> 00:05:47.260
+(Muzyka)
+
+00:05:47.260 --> 00:05:51.260
+(Wideo) Spiker: To przełomowa chwila.
+
+00:05:51.260 --> 00:05:55.260
+Dojeżdża do trybuny głównej.
+
+00:05:55.260 --> 00:06:01.260
+(Brawa)
+
+00:06:01.260 --> 00:06:04.260
+(Klakson)
+
+00:06:04.260 --> 00:06:06.260
+To już trybuna.
+
+00:06:06.260 --> 00:06:10.260
+Teraz Mark będzie jechał za furgonetką.
+
+00:06:10.260 --> 00:06:12.260
+Pierwsze pudełko.
+
+00:06:12.260 --> 00:06:15.260
+Zobaczymy, czy Markowi uda się je ominąć.
+
+00:06:15.260 --> 00:06:18.260
+Udało się, objechał je z prawej.
+
+00:06:20.260 --> 00:06:23.260
+Na torze leży trzecie i czwarte pudło.
+
+00:06:23.260 --> 00:06:26.260
+Mark wymija je bez problemu.
+
+00:06:26.260 --> 00:06:28.260
+Dogania już furgonetkę,
+
+00:06:28.260 --> 00:06:31.260
+będzie próbował ją wyprzedzić.
+
+00:06:32.260 --> 00:06:34.260
+O to chodzi.
+
+00:06:34.260 --> 00:06:38.260
+Dynamika, odwaga i pomysłowość.
+
+00:06:39.260 --> 00:06:42.260
+Dojeżdża do końca toru,
+
+00:06:42.260 --> 00:06:47.260
+gdzie będzie musiał przejechać przez dziurę w ścianie beczek.
+
+00:06:47.260 --> 00:06:50.260
+(Klakson)
+
+00:06:50.260 --> 00:06:53.260
+(Brawa)
+
+00:06:56.260 --> 00:06:58.260
+Dennis Hong: Jestem z ciebie dumny.
+
+00:06:58.260 --> 00:07:00.260
+Mark podwiezie mnie do hotelu.
+
+00:07:00.260 --> 00:07:02.260
+Mark Riccobono: Proszę bardzo.
+
+00:07:05.260 --> 00:07:14.260
+(Brawa)
+
+00:07:14.260 --> 00:07:16.260
+Od rozpoczęcia projektu
+
+00:07:16.260 --> 00:07:19.260
+dostajemy setki listów, maili i telefonów z całego świata.
+
+00:07:19.260 --> 00:07:21.260
+dostajemy setki listów, maili i telefonów z całego świata.
+
+00:07:21.260 --> 00:07:24.260
+Większość to podziękowania, ale są też śmieszne perełki:
+
+00:07:24.260 --> 00:07:28.260
+"Już rozumiem, czemu na bankomatach dla kierowców jest brajl".
+
+00:07:28.260 --> 00:07:30.260
+(Śmiech)
+
+00:07:30.260 --> 00:07:32.260
+Ale czasami...
+
+00:07:32.260 --> 00:07:34.260
+(Śmiech)
+
+00:07:34.260 --> 00:07:36.260
+Czasami dostajemy listy niekoniecznie agresywne,
+
+00:07:36.260 --> 00:07:38.260
+Czasami dostajemy listy niekoniecznie agresywne,
+
+00:07:38.260 --> 00:07:40.260
+ale pełne zastrzeżeń:
+
+00:07:40.260 --> 00:07:42.260
+"Czy panu odbiło?
+
+00:07:42.260 --> 00:07:44.260
+Ślepi na drodze?
+
+00:07:44.260 --> 00:07:46.260
+Chyba pan oszalał!"
+
+00:07:46.260 --> 00:07:48.260
+Ale prototyp nie trafi na ulicę,
+
+00:07:48.260 --> 00:07:50.260
+zanim nie dowiedziemy, że jest równie,
+
+00:07:50.260 --> 00:07:52.260
+lub bardziej bezpieczny niż zwykły samochód.
+
+00:07:52.260 --> 00:07:55.260
+A naprawdę sądzę, że to możliwe.
+
+00:07:55.260 --> 00:07:57.260
+Ale czy społeczeństwo zaakceptuje
+
+00:07:57.260 --> 00:07:59.260
+taki radykalny pomysł?
+
+00:07:59.260 --> 00:08:01.260
+Co z ubezpieczeniem?
+
+00:08:01.260 --> 00:08:03.260
+Jak rozwiązać kwestię prawa jazdy?
+
+00:08:03.260 --> 00:08:06.260
+Nie tylko technologia niesie wyzwania,
+
+00:08:06.260 --> 00:08:09.260
+które musimy pokonać, żeby urzeczywistnić pomysł.
+
+00:08:09.260 --> 00:08:11.260
+Oczywiście, głównym celem projektu
+
+00:08:11.260 --> 00:08:13.260
+jest budowa samochodu dla niewidomych.
+
+00:08:13.260 --> 00:08:15.260
+Ale potencjalnie większe znaczenie
+
+00:08:15.260 --> 00:08:18.260
+ma wartość przyszłych technologii,
+
+00:08:18.260 --> 00:08:20.260
+jakie zainspiruje ten projekt.
+
+00:08:20.260 --> 00:08:22.260
+Nasze czujniki widzą w ciemności,
+
+00:08:22.260 --> 00:08:24.260
+we mgle i w deszczu.
+
+00:08:24.260 --> 00:08:26.260
+Takie rozwiązania i nowe interfejsy
+
+00:08:26.260 --> 00:08:28.260
+mogą zwiększyć bezpieczeństwo samochodów dla widzących.
+
+00:08:28.260 --> 00:08:30.260
+mogą zwiększyć bezpieczeństwo samochodów dla widzących.
+
+00:08:30.260 --> 00:08:33.260
+A także urządzeń dla niewidomych w domu,
+
+00:08:33.260 --> 00:08:35.260
+szkole i biurze.
+
+00:08:35.260 --> 00:08:38.260
+Wyobraźmy sobie, że nauczyciel pisze na tablicy,
+
+00:08:38.260 --> 00:08:41.260
+a uczeń potrafi wszystko odczytać
+
+00:08:41.260 --> 00:08:43.260
+dzięki takim interfejsom niewizualnym.
+
+00:08:43.260 --> 00:08:46.260
+To bezcenne.
+
+00:08:46.260 --> 00:08:49.260
+Dlatego wszystko, co pokazywałem, to dopiero początek.
+
+00:08:49.260 --> 00:08:51.260
+Dziękuję bardzo.
+
+00:08:51.260 --> 00:09:02.260
+(Brawa)
+

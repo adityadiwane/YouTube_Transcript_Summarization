@@ -1,0 +1,641 @@
+WEBVTT
+Kind: captions
+Language: pl
+
+00:00:00.000 --> 00:00:07.000
+Tłumaczenie: Justyna Szumiło
+Korekta: Dorota Konowrocka
+
+00:00:12.562 --> 00:00:15.623
+Eric Berlow: Jestem ekologiem,
+a Sean fizykiem.
+
+00:00:15.623 --> 00:00:17.731
+Badamy złożone sieci.
+
+00:00:17.731 --> 00:00:19.566
+Poznaliśmy się kilka lat temu,
+gdy okazało się,
+
+00:00:19.566 --> 00:00:21.566
+że obaj wygłosiliśmy 
+krótkie prelekcje TED
+
+00:00:21.566 --> 00:00:23.869
+o ekologii wojny.
+
+00:00:23.869 --> 00:00:25.316
+Zrozumieliśmy, że łączą nas poglądy
+
+00:00:25.316 --> 00:00:28.134
+które podzielaliśmy,
+nigdy się nie spotkawszy.
+
+00:00:28.134 --> 00:00:29.690
+Stwierdziliśmy, że istnieją tysiące
+
+00:00:29.690 --> 00:00:31.804
+innych prelekcji, zwłaszcza TEDx,
+
+00:00:31.804 --> 00:00:34.015
+pojawiających się na całym świecie.
+
+00:00:34.015 --> 00:00:34.938
+Jak się łączą?
+
+00:00:34.938 --> 00:00:36.948
+Jak wygląda globalna rozmowa?
+
+00:00:36.948 --> 00:00:39.758
+Sean opowie, jak do tego doszliśmy.
+
+00:00:39.758 --> 00:00:43.525
+Sean Gourley: Zebraliśmy 
+24 tys. prelekcji TEDx
+
+00:00:43.525 --> 00:00:46.571
+ze 147 krajów całego świata,
+
+00:00:46.571 --> 00:00:48.694
+chcąc poznać struktury matematyczne
+
+00:00:48.694 --> 00:00:50.734
+leżące u podstaw
+
+00:00:50.734 --> 00:00:52.456
+kryjących się za nimi idei.
+
+00:00:52.456 --> 00:00:53.826
+Chcieliśmy sprawdzić,
+
+00:00:53.826 --> 00:00:55.879
+jak są ze sobą połączone.
+
+00:00:55.879 --> 00:00:57.555
+Aby to zrobić,
+
+00:00:57.555 --> 00:00:58.511
+potrzeba wielu danych.
+
+00:00:58.511 --> 00:01:02.197
+Mamy wspaniałe narzędzie: YouTube,
+
+00:01:02.197 --> 00:01:03.965
+skąd możemy wydobyć
+
+00:01:03.965 --> 00:01:06.232
+wszystkie dostępne informacje,
+
+00:01:06.232 --> 00:01:08.581
+komentarze, wyświetlenia,
+kto i gdzie je ogląda,
+
+00:01:08.581 --> 00:01:11.360
+co ludzie piszą w komentarzach.
+
+00:01:11.360 --> 00:01:14.652
+Dzięki tłumaczeniu mowy na tekst
+
+00:01:14.652 --> 00:01:16.780
+możemy uzyskać transkrypcję.
+
+00:01:16.780 --> 00:01:19.460
+Działa nawet w przypadku
+śmiesznych akcentów, jak mój.
+
+00:01:19.460 --> 00:01:21.566
+Możemy wziąć transkrypcję
+
+00:01:21.566 --> 00:01:23.664
+i zrobić fajne rzeczy.
+
+00:01:23.664 --> 00:01:25.824
+Można skorzystać z algorytmów
+przetwarzania języka naturalnego,
+
+00:01:25.824 --> 00:01:28.453
+analizować tekst komputerowo,
+linijka po linijce,
+
+00:01:28.453 --> 00:01:30.812
+wydobywając kluczowe pojęcia.
+
+00:01:30.812 --> 00:01:33.337
+Te kluczowe pojęcia tworzą
+
+00:01:33.337 --> 00:01:36.902
+matematyczną strukturę idei,
+
+00:01:36.902 --> 00:01:38.659
+którą nazywamy "memom".
+
+00:01:38.659 --> 00:01:40.810
+Memom to po prostu
+
+00:01:40.810 --> 00:01:43.236
+matematyka będąca podstawą idei,
+
+00:01:43.236 --> 00:01:45.168
+Pozwala przeprowadzić ciekawą analizę,
+
+00:01:45.168 --> 00:01:47.149
+którą teraz przedstawię.
+
+00:01:47.149 --> 00:01:49.339
+Każda idea ma swój memom,
+
+00:01:49.339 --> 00:01:51.290
+każdy memom jest niepowtarzalny,
+
+00:01:51.290 --> 00:01:53.778
+ale idee zapożyczają od siebie,
+
+00:01:53.778 --> 00:01:54.962
+czasami wręcz kradną,
+
+00:01:54.962 --> 00:01:56.789
+a z pewnością bazują na sobie.
+
+00:01:56.789 --> 00:01:58.405
+Możemy je przejrzeć matematycznie,
+
+00:01:58.405 --> 00:02:00.245
+wybrać memom z jednej prelekcji
+
+00:02:00.245 --> 00:02:02.699
+i porównać z memomami z innych prelekcji.
+
+00:02:02.699 --> 00:02:04.672
+Jeśli dwa z nich są podobne,
+
+00:02:04.672 --> 00:02:07.922
+możemy je połączyć i pokazać to graficznie.
+
+00:02:07.922 --> 00:02:10.316
+Ja i Eric jesteśmy połączeni.
+
+00:02:10.316 --> 00:02:11.710
+Oto teoria.
+
+00:02:11.710 --> 00:02:14.236
+Spójrzmy, jak działa w praktyce.
+
+00:02:14.236 --> 00:02:17.024
+Oto globalny schemat
+
+00:02:17.024 --> 00:02:19.317
+prelekcji TEDx z ostatnich 4 lat,
+
+00:02:19.317 --> 00:02:20.867
+wygłaszanych na całym świecie
+
+00:02:20.867 --> 00:02:24.196
+od Nowego Jorku po Nową Zelandię.
+
+00:02:24.196 --> 00:02:28.031
+Przeanalizowaliśmy jedną czwartą
+
+00:02:28.031 --> 00:02:30.565
+i zaczęliśmy dostrzegać powiązania,
+
+00:02:30.565 --> 00:02:32.102
+miejsca połączeń.
+
+00:02:32.102 --> 00:02:33.976
+Cameron Russell mówiąca o urodzie
+
+00:02:33.976 --> 00:02:35.551
+zaprowadziła nas do Europy.
+
+00:02:35.551 --> 00:02:37.963
+Dialog na temat Izraela i Palestyny
+
+00:02:37.963 --> 00:02:40.218
+promieniuje z Bliskiego Wschodu.
+
+00:02:40.218 --> 00:02:41.516
+Mamy też coś szerszego
+
+00:02:41.516 --> 00:02:43.672
+jak "big data" o globalnym zasięgu,
+
+00:02:43.672 --> 00:02:45.851
+co przypomina rozmowę
+
+00:02:45.851 --> 00:02:47.867
+prowadzoną na całym świecie.
+
+00:02:47.867 --> 00:02:50.040
+Napotkaliśmy ograniczenia
+
+00:02:50.040 --> 00:02:52.570
+odwzorowania kartograficznego,
+
+00:02:52.570 --> 00:02:54.622
+ale komputery pozwalają nam wkroczyć
+
+00:02:54.622 --> 00:02:56.168
+w przestrzeń wielowymiarową.
+
+00:02:56.168 --> 00:02:58.043
+Odwzorowanie sieci
+
+00:02:58.043 --> 00:02:59.793
+poddajemy prawom fizyki
+
+00:02:59.793 --> 00:03:01.678
+i podobne prelekcje zbliżają się do siebie,
+
+00:03:01.678 --> 00:03:03.682
+a odmienne oddalają się.
+
+00:03:03.682 --> 00:03:05.754
+Powstaje coś pięknego.
+
+00:03:05.754 --> 00:03:08.711
+EB: Każdy węzeł to prelekcja.
+
+00:03:08.711 --> 00:03:11.300
+Łączą się, jeśli komunikują podobne idee.
+
+00:03:11.300 --> 00:03:13.384
+To pochodzi z odczytu komputerowego
+
+00:03:13.384 --> 00:03:15.451
+transkrypcji całych prelekcji.
+
+00:03:15.451 --> 00:03:17.682
+Wszystkie pojawiające się tematy
+
+00:03:17.682 --> 00:03:19.472
+nie pochodzą z tagów czy słów kluczowych.
+
+00:03:19.472 --> 00:03:21.197
+Pochodzą ze struktury sieciowej
+
+00:03:21.197 --> 00:03:23.365
+połączonych ze sobą idei.
+
+00:03:23.365 --> 00:03:25.387
+SG: Trochę się zapędziłem,
+
+00:03:25.387 --> 00:03:26.862
+ale on mnie przyhamuje.
+
+00:03:26.862 --> 00:03:28.896
+Wykształcenie łączy się 
+z opowiadaniem historii,
+
+00:03:28.896 --> 00:03:30.539
+a to z mediami społecznościowymi.
+
+00:03:30.539 --> 00:03:33.014
+Mózg ludzki łączy się z opieką zdrowotną,
+
+00:03:33.014 --> 00:03:34.400
+co dość oczywiste,
+
+00:03:34.400 --> 00:03:36.795
+ale też z grami komputerowymi,
+
+00:03:36.795 --> 00:03:39.535
+te dwie sfery łączą się ze sobą.
+
+00:03:39.535 --> 00:03:41.070
+Pokażę teraz skupisko
+
+00:03:41.070 --> 00:03:43.938
+szczególnie dla mnie ważne: środowisko.
+
+00:03:43.938 --> 00:03:45.431
+Powiększę trochę obraz
+
+00:03:45.431 --> 00:03:47.794
+i zwiększę rozdzielczość.
+
+00:03:47.794 --> 00:03:50.141
+Znów poddam je prawom fizyki.
+
+00:03:50.141 --> 00:03:51.645
+Znów poddam je prawom fizyki.
+
+00:03:51.645 --> 00:03:53.321
+Widać, że jedna rozmowa
+
+00:03:53.321 --> 00:03:55.881
+składa się z wielu mniejszych.
+
+00:03:55.881 --> 00:03:57.810
+Wyłania się struktura,
+
+00:03:57.810 --> 00:03:59.880
+w której widać fraktalne zachowanie
+
+00:03:59.880 --> 00:04:01.499
+słów i języka używanych
+
+00:04:01.499 --> 00:04:03.201
+do opisania kwestii ważnych
+
+00:04:03.201 --> 00:04:04.634
+na całym świecie.
+
+00:04:04.634 --> 00:04:06.966
+Na górze gospodarka żywnościowa
+i lokalna żywność,
+
+00:04:06.966 --> 00:04:09.685
+gazy cieplarniane, odpady energetyczne i jądrowe.
+
+00:04:09.685 --> 00:04:12.316
+Otrzymujemy szereg mniejszych rozmów,
+
+00:04:12.316 --> 00:04:14.617
+każdą łączą z innymi wspólne idee
+
+00:04:14.617 --> 00:04:15.918
+wspólny język,
+
+00:04:15.918 --> 00:04:18.368
+tworząc szersze pojęcie środowiska.
+
+00:04:18.368 --> 00:04:19.900
+Powiększamy obraz
+
+00:04:19.900 --> 00:04:23.434
+i sprawdzamy, co oglądają młodzi ludzie.
+
+00:04:23.434 --> 00:04:25.779
+Interesuje ich energetyka i reakcja termojądrowa.
+
+00:04:25.779 --> 00:04:27.453
+To ich odpowiedź
+
+00:04:27.453 --> 00:04:29.859
+na rozmowę o środowisku.
+
+00:04:29.859 --> 00:04:31.758
+Jeśli podzielimy to według płci,
+
+00:04:31.758 --> 00:04:33.745
+widać, że kobiety silnie reagują
+
+00:04:33.745 --> 00:04:37.390
+na temat gospodarki żywnościowej,
+ale z nadzieją i optymizmem.
+
+00:04:37.390 --> 00:04:39.872
+Możemy zrobić wiele ciekawych rzeczy.
+
+00:04:39.872 --> 00:04:41.634
+Przekazuję pałeczkę Ericowi.
+
+00:04:41.634 --> 00:04:43.236
+EB: Chcę zauważyć,
+
+00:04:43.236 --> 00:04:44.774
+że nie można uzyskać takiej perspektywy
+
+00:04:44.774 --> 00:04:48.134
+przeglądając tagi na YouTube.
+
+00:04:48.134 --> 00:04:52.322
+Spójrzmy na rozmowę globalną,
+
+00:04:52.322 --> 00:04:54.856
+nie tylko środowisko, 
+ale wszystkie prelekcje jednocześnie.
+
+00:04:54.856 --> 00:04:57.783
+Gdy mamy przed sobą tyle treści,
+
+00:04:57.783 --> 00:05:00.214
+staramy się je uprościć.
+
+00:05:00.214 --> 00:05:01.528
+Zobaczmy na przykład,
+
+00:05:01.528 --> 00:05:04.357
+które prelekcje są najpopularniejsze?
+
+00:05:04.357 --> 00:05:05.754
+Kilka wypłynie do góry.
+
+00:05:05.754 --> 00:05:07.582
+Prelekcja o wdzięczności.
+
+00:05:07.582 --> 00:05:10.926
+O zdrowiu osobistym i odżywianiu.
+
+00:05:10.926 --> 00:05:13.855
+Oczywiście, jedna o pornografii.
+
+00:05:13.855 --> 00:05:17.089
+Można stwierdzić, 
+że wdzięczność wyszła z mody.
+
+00:05:17.089 --> 00:05:19.611
+Co jest modne teraz?
+Jaka prelekcja jest popularna?
+
+00:05:19.611 --> 00:05:22.932
+Gorącym obecnie tematem
+
+00:05:22.932 --> 00:05:25.598
+jest prywatność cyfrowa.
+
+00:05:25.598 --> 00:05:27.291
+To ułatwia sprawę.
+
+00:05:27.291 --> 00:05:29.118
+Sporo treści pogrzebanych jest na dnie.
+
+00:05:29.118 --> 00:05:31.039
+Sporo treści pogrzebanych jest na dnie.
+
+00:05:31.039 --> 00:05:34.357
+Fatalnie. Jak przesunąć do góry treści,
+
+00:05:34.357 --> 00:05:36.815
+które są twórcze i ciekawe?
+
+00:05:36.815 --> 00:05:39.746
+Możemy wrócić do struktury sieciowej idei.
+
+00:05:39.746 --> 00:05:41.176
+Możemy wrócić do struktury sieciowej idei.
+
+00:05:41.176 --> 00:05:43.290
+To struktura sieciowa
+
+00:05:43.290 --> 00:05:45.558
+tworzy nowe tematy.
+
+00:05:45.558 --> 00:05:47.073
+Weźmy miasta i genetykę,
+
+00:05:47.073 --> 00:05:50.120
+zobaczmy, czy istnieją prelekcje,
+
+00:05:50.120 --> 00:05:52.689
+które twórczo łączą te dwie dyscypliny.
+
+00:05:52.689 --> 00:05:54.964
+Taki kreatywny remiks
+
+00:05:54.964 --> 00:05:56.804
+jest jedną z oznak innowacji.
+
+00:05:56.804 --> 00:05:58.410
+Oto prelekcja Jessiki Green
+
+00:05:58.410 --> 00:06:00.789
+o drobnoustrojach w budynkach.
+
+00:06:00.789 --> 00:06:02.799
+Tworzy to nową dziedzinę badań.
+
+00:06:02.799 --> 00:06:04.902
+Wróćmy do tych tematów i sprawdźmy,
+
+00:06:04.902 --> 00:06:07.670
+które prelekcje są osią rozmów?
+
+00:06:07.670 --> 00:06:09.360
+W grupie miast jedną z najważniejszych
+
+00:06:09.360 --> 00:06:13.312
+jest prelekcja Mitcha Joachima 
+o ekologicznych miastach,
+
+00:06:13.312 --> 00:06:15.032
+a w grupie genetyki
+
+00:06:15.032 --> 00:06:18.225
+prelekcja Craiga Ventera
+o biologii syntetycznej.
+
+00:06:18.225 --> 00:06:21.578
+Te prelekcje są łącznikiem dla wielu prelekcji 
+w danych dyscyplinach.
+
+00:06:21.578 --> 00:06:23.421
+Możemy pójść w drugą stronę i sprawdzić,
+
+00:06:23.421 --> 00:06:25.693
+które prelekcje syntetyzują
+
+00:06:25.693 --> 00:06:27.141
+wiedzę z różnych dziedzin.
+
+00:06:27.141 --> 00:06:29.674
+Wykorzystaliśmy miarę zróżnicowania ekologicznego.
+
+00:06:29.674 --> 00:06:32.410
+Prelekcja Stevena Pinkera o historii przemocy,
+
+00:06:32.410 --> 00:06:33.590
+bardzo syntetyczna.
+
+00:06:33.590 --> 00:06:35.668
+Są prelekcje tak wyjątkowe,
+
+00:06:35.668 --> 00:06:38.758
+że zajmują wyjątkowe miejsce w stratosferze idei.
+
+00:06:38.758 --> 00:06:41.272
+Nazywamy to wskaźnikiem Colleen Flanagan.
+
+00:06:41.272 --> 00:06:44.306
+Colleen jest artystką.
+
+00:06:44.306 --> 00:06:45.849
+Spytałem ją: "Jak to jest, być w stratosferze idei?".
+
+00:06:45.849 --> 00:06:47.521
+Spytałem ją: "Jak to jest, być w stratosferze idei?".
+
+00:06:47.521 --> 00:06:50.776
+Podobno pachnie bekonem.
+
+00:06:50.776 --> 00:06:52.567
+Nie wiem.
+
+00:06:52.567 --> 00:06:54.815
+Korzystamy z tych wzorów sieciowych,
+
+00:06:54.815 --> 00:06:56.001
+aby znaleźć wyjątkowe prelekcje,
+
+00:06:56.001 --> 00:06:58.711
+które kreatywnie syntetyzują wiele dziedzin.
+
+00:06:58.711 --> 00:07:00.370
+Najważniejsze w swoim temacie.
+
+00:07:00.370 --> 00:07:03.744
+i takie, które twórczo łączą odmienne dziedziny.
+
+00:07:03.744 --> 00:07:05.846
+Nie znaleźlibyśmy ich szukając tylko tego,
+
+00:07:05.846 --> 00:07:08.159
+co jest modne dzisiaj.
+
+00:07:08.159 --> 00:07:11.045
+Wszystko to jest efektem architektury złożoności
+
+00:07:11.045 --> 00:07:14.005
+lub wzorów połączeń.
+
+00:07:14.005 --> 00:07:15.630
+SG: Masz rację.
+
+00:07:15.630 --> 00:07:18.109
+Żyjemy w niesamowicie złożonym świecie,
+
+00:07:18.109 --> 00:07:20.153
+Żyjemy w niesamowicie złożonym świecie,
+
+00:07:20.153 --> 00:07:23.020
+Wykorzystujemy algorytmy, 
+aby go trochę przefiltrować,
+
+00:07:23.020 --> 00:07:24.806
+by móc się po nim poruszać.
+
+00:07:24.806 --> 00:07:27.144
+Algorytmy są przydatne,
+
+00:07:27.144 --> 00:07:30.620
+ale są także bardzo wąskie,
+a możemy stworzyć lepsze.
+
+00:07:30.620 --> 00:07:33.186
+Ich złożoność nie jest przypadkowa.
+
+00:07:33.186 --> 00:07:35.140
+Ma strukturę matematyczną,
+
+00:07:35.140 --> 00:07:36.943
+którą możemy wykorzystać,
+
+00:07:36.943 --> 00:07:39.157
+by odkrywać choćby świat idei,
+
+00:07:39.157 --> 00:07:42.157
+by sprawdzić, o czym się mówi,
+a o czym nie,
+
+00:07:42.157 --> 00:07:43.564
+by być trochę bardziej ludzkim
+
+00:07:43.564 --> 00:07:45.431
+i mądrzejszym, miejmy nadzieję.
+
+00:07:45.431 --> 00:07:46.397
+Dziękuję.
+
+00:07:46.397 --> 00:07:50.617
+(Brawa)
+

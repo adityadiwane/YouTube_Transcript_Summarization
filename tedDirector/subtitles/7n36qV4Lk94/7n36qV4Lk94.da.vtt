@@ -1,0 +1,920 @@
+WEBVTT
+Kind: captions
+Language: da
+
+00:00:00.000 --> 00:00:07.000
+Translator: Eivind Tøstesen
+Reviewer: Anders Finn Jørgensen
+
+00:00:13.160 --> 00:00:16.160
+Jeg vil begynde min historie i Tyskland i 1877 -
+
+00:00:16.160 --> 00:00:18.160
+- med en matematiker der hed Georg Cantor.
+
+00:00:18.160 --> 00:00:23.160
+Cantor fandt på at han ville tage en linje og fjerne den midterste tredjedel, -
+
+00:00:23.160 --> 00:00:28.160
+- og så ville han tage de to resulterende linier og gøre det samme med dem, en rekursiv proces.
+
+00:00:28.160 --> 00:00:30.160
+Han har først en linje, så to, -
+
+00:00:30.160 --> 00:00:33.160
+- så fire, så 16, og så videre.
+
+00:00:33.160 --> 00:00:36.160
+Og hvis han gøre dette uendelig mange gange, hvilket man kan gøre i matematik,-
+
+00:00:36.160 --> 00:00:38.160
+- så ender han med et uendeligt antal linier,-
+
+00:00:38.160 --> 00:00:41.160
+- som hver har uendelig mange punkter i sig.
+
+00:00:41.160 --> 00:00:45.160
+Det gik op for ham at han havde en mængde med antal elementer større end uendelig.
+
+00:00:45.160 --> 00:00:48.160
+Det var mere end hovedet kunne rumme. Bogstaveligt talt. Han blev indlagt på et sanatorium. (Latter)
+
+00:00:48.160 --> 00:00:50.160
+Da han kom ud af sanatoriet, -
+
+00:00:50.160 --> 00:00:56.160
+- var han overbevist om at han var sat på Jorden for at grundlægge den transfinitte mængdelære, -
+
+00:00:56.160 --> 00:00:59.160
+- fordi den største uendelige mængde måtte være Gud selv.
+
+00:00:59.160 --> 00:01:00.160
+Han var en meget religiøs mand.
+
+00:01:00.160 --> 00:01:02.160
+Han var en matematiker med en mission.
+
+00:01:02.160 --> 00:01:04.160
+Og andre matematikere lavede lignende ting.
+
+00:01:04.160 --> 00:01:06.160
+En svensk matematiker, Helge von Koch, -
+
+00:01:06.160 --> 00:01:10.160
+- fandt på at i stedet for at fjerne linier, så ville han tilføje dem.
+
+00:01:10.160 --> 00:01:12.160
+Han kom så frem til en smuk kurve.
+
+00:01:12.160 --> 00:01:15.160
+Og vi behøver ikke at starte med den grundfigur, -
+
+00:01:15.160 --> 00:01:19.160
+- vi kan starte med en hvilken som helst grundfigur.
+
+00:01:19.160 --> 00:01:23.160
+Jeg flytter rundt og sætter den et eller andet sted, dernede, okay -
+
+00:01:23.160 --> 00:01:30.160
+- og ved iterering udvikler denne grundfigur sig til en struktur som ser helt anderledes ud.
+
+00:01:30.160 --> 00:01:32.160
+Alle disse er selv-similære: -
+
+00:01:32.160 --> 00:01:34.160
+- Delen ligner helheden.
+
+00:01:34.160 --> 00:01:36.160
+Det er det samme mønster på mange skalaer.
+
+00:01:37.160 --> 00:01:39.160
+Matematikere syntes dette var meget mærkeligt, -
+
+00:01:39.160 --> 00:01:44.160
+- for jo mere man formindsker målestokken, jo længere bliver afstanden man måler.
+
+00:01:44.160 --> 00:01:46.160
+Og da de gjorde iterationerne uendelig mange gange, -
+
+00:01:46.160 --> 00:01:52.160
+- så blev målestokken uendelig lille, og afstanden uendelig stor.
+
+00:01:52.160 --> 00:01:53.160
+Det gav ingen mening, -
+
+00:01:53.160 --> 00:01:56.160
+- så de henviste disse kurver til bagerst i matematikbøgerne.
+
+00:01:56.160 --> 00:02:00.160
+De sagde at dette er patologiske kurver og vi behøver ikke diskutere dem.
+
+00:02:00.160 --> 00:02:01.160
+(Latter)
+
+00:02:01.160 --> 00:02:03.160
+Og det virkede i hundrede år.
+
+00:02:04.160 --> 00:02:09.160
+I 1977 opdagede Benoit Mandelbrot, en fransk matematiker, -
+
+00:02:09.160 --> 00:02:14.160
+- at hvis man laver computergrafik og bruger de mønstre han kaldte fraktaler, -
+
+00:02:14.160 --> 00:02:16.160
+- så får man naturens former.
+
+00:02:16.160 --> 00:02:20.160
+Man får menneskets lunger, man får akacietræer, man får bregner, -
+
+00:02:20.160 --> 00:02:22.160
+- man får disse smukke naturlige former.
+
+00:02:22.160 --> 00:02:26.160
+Hvis du tager tommel og pegefinger og ser lige der hvor de mødes -
+
+00:02:26.160 --> 00:02:28.160
+- bare prøv det nu -
+
+00:02:28.160 --> 00:02:31.160
+- og slapper af i hånden, så ser du en rynke, -
+
+00:02:31.160 --> 00:02:34.160
+- og en rille indeni rynken og en rynke indeni rillen, ikke?
+
+00:02:34.160 --> 00:02:36.160
+Din krop er dækket af fraktaler.
+
+00:02:36.160 --> 00:02:39.160
+De matematikere som sagde det var patologiske, ubrugelige former, -
+
+00:02:39.160 --> 00:02:41.160
+- de luftede ordene med fraktale lunger.
+
+00:02:41.160 --> 00:02:45.160
+Det er ironisk. Og jeg skal vise jer en lille naturlig rekursion her.
+
+00:02:45.160 --> 00:02:50.160
+Igen tager vi disse linier og erstatter dem rekursivt med hele figuren.
+
+00:02:50.160 --> 00:02:55.160
+Her er så anden iteration, og den tredje, den fjerde og så videre.
+
+00:02:55.160 --> 00:02:57.160
+Naturen har altså denne selvsimilære struktur.
+
+00:02:57.160 --> 00:02:59.160
+Naturen bruger selvorganiserende systemer.
+
+00:02:59.160 --> 00:03:02.160
+I firserne lagde jeg mærke til -
+
+00:03:02.160 --> 00:03:06.160
+- at hvis du ser på et luftfoto af en afrikansk landsby, så ser du fraktaler.
+
+00:03:06.160 --> 00:03:10.160
+Jeg tænkte: "Det er fabelagtig! Hvorfor mon det?"
+
+00:03:10.160 --> 00:03:12.160
+Så jeg måtte selvfølgelig rejse til Afrika og spørge folk hvorfor.
+
+00:03:12.160 --> 00:03:18.160
+Jeg fik et Fulbright stipendium til at rejse rundt i Afrika i et år -
+
+00:03:18.160 --> 00:03:20.160
+- og spørge folk hvorfor de bygger fraktaler, -
+
+00:03:20.160 --> 00:03:22.160
+- og det er et fedt job hvis du kan få det.
+
+00:03:22.160 --> 00:03:23.160
+(Latter)
+
+00:03:23.160 --> 00:03:30.160
+Så jeg kom endelig til denne by, og jeg havde lavet en fraktal model af byen, -
+
+00:03:30.160 --> 00:03:33.160
+- bare for at se hvordan den ville udvikle sig -
+
+00:03:33.160 --> 00:03:36.160
+- men da jeg kom derhen, gik jeg til høvdingens palads, -
+
+00:03:36.160 --> 00:03:39.160
+- og mit fransk er ikke så godt, så jeg sagde noget i retning af: -
+
+00:03:39.160 --> 00:03:42.160
+- "Jeg er matematiker og jeg vil gerne stå på dit tag".
+
+00:03:42.160 --> 00:03:45.160
+Men han tog det afslappet og vi gik derop, -
+
+00:03:45.160 --> 00:03:46.160
+- og snakkede om fraktaler.
+
+00:03:46.160 --> 00:03:49.160
+Han sagde "Nåh ja! Det kender vi godt, en rektangel indeni en rektangel, -
+
+00:03:49.160 --> 00:03:51.160
+- det ved vi alt om".
+
+00:03:51.160 --> 00:03:55.160
+Og så viser det sig at det kongelige symbol har en rektangel indeni en rektangel indeni en rektangel, -
+
+00:03:55.160 --> 00:03:59.160
+- og vejen gennem paladset er faktisk denne spiral.
+
+00:03:59.160 --> 00:04:03.160
+Og efterhånden som man går turen rundt, må man være mere og mere høflig.
+
+00:04:03.160 --> 00:04:06.160
+Så den sociale skala afspejler sig på den geometriske skala.
+
+00:04:06.160 --> 00:04:11.160
+Det er et bevidst mønster. Det er ikke ubevidst som fraktalen i et termitbo.
+
+00:04:11.160 --> 00:04:13.160
+Dette er en landsby i det sydlige Zambia.
+
+00:04:13.160 --> 00:04:17.160
+Ba-lla folket byggede denne landsby, 400 m i diameter.
+
+00:04:17.160 --> 00:04:19.160
+Der er en stor ring.
+
+00:04:19.160 --> 00:04:25.160
+Ringene som repræsenterer familiegårde bliver større jo længere man kommer bagenden.
+
+00:04:26.160 --> 00:04:30.160
+Og her er høvdingens ring -
+
+00:04:30.160 --> 00:04:33.160
+- og hans nærmeste familie i den ring.
+
+00:04:33.160 --> 00:04:34.160
+Her er en lille fraktalmodel for det.
+
+00:04:34.160 --> 00:04:37.160
+Her er et hus med det hellige alter, -
+
+00:04:37.160 --> 00:04:40.160
+- her er huset med husene, familiegården, -
+
+00:04:40.160 --> 00:04:43.160
+- med menneskerne her hvor det hellige alter ville være, -
+
+00:04:43.160 --> 00:04:45.160
+- og her er landsbyen i sin helhed -
+
+00:04:45.160 --> 00:04:50.160
+- en ring af ringe af ringe, med høvdingens storfamilie her, hans nærmeste familie her, -
+
+00:04:50.160 --> 00:04:53.160
+- og her er en lille landsby, ikke større end sådan.
+
+00:04:53.160 --> 00:04:57.160
+Du spørger måske hvordan folk kan få plads i en så lille landsby?
+
+00:04:57.160 --> 00:05:00.160
+Det er fordi det er ånder. Det er forfædrene.
+
+00:05:00.160 --> 00:05:05.160
+Og ånderne har selvfølgelig også en miniaturelandsby i deres landsby, ikke?
+
+00:05:05.160 --> 00:05:08.160
+Så det er ligesom Georg Cantor sagde, rekursionen fortsætter for evigt.
+
+00:05:08.160 --> 00:05:12.160
+Dette er i Mandarabjergene, nær den nigerianske grænse i Kamerun, Mokoulek.
+
+00:05:12.160 --> 00:05:15.160
+Jeg så dette diagram tegnet af en fransk arkitekt, -
+
+00:05:15.160 --> 00:05:17.160
+- og jeg tænkte "wow, hvilken smuk fraktal!"
+
+00:05:17.160 --> 00:05:23.160
+Jeg prøvede derfor at finde en grundfigur, som kunne udvikle sig sådan.
+
+00:05:23.160 --> 00:05:25.160
+Jeg fandt denne struktur.
+
+00:05:25.160 --> 00:05:29.160
+Lad os se, første iteration, anden, tredje, fjerde.
+
+00:05:29.160 --> 00:05:31.160
+Efter jeg gjorde simuleringen, -
+
+00:05:31.160 --> 00:05:34.160
+- så jeg at hele landsbyen går rundt i en spiral, -
+
+00:05:34.160 --> 00:05:40.160
+- og her er den replikerende linje - en selvreplikerende linje som udvikler sig til fraktalen.
+
+00:05:40.160 --> 00:05:45.160
+Så bemærkede jeg at den linje er der hvor landsbyens eneste firkantede bygning ligger.
+
+00:05:45.160 --> 00:05:47.160
+Så da jeg kom til landsbyen, -
+
+00:05:47.160 --> 00:05:49.160
+- sagde jeg "kan du tage mig med til den firkantede bygning, -
+
+00:05:49.160 --> 00:05:51.160
+- jeg tror der foregår noget der."
+
+00:05:51.160 --> 00:05:54.160
+De sagde "Vi kan godt følge dig derhen, men du kan ikke gå ind -
+
+00:05:54.160 --> 00:05:57.160
+- for det er det hellige alter, hvor vi ofrer hvert år -
+
+00:05:57.160 --> 00:06:00.160
+- for at holde gang i markernes frugtbarhedscyklus."
+
+00:06:00.160 --> 00:06:02.160
+Jeg tænkte på at frugtbarhedscykluserne -
+
+00:06:02.160 --> 00:06:06.160
+- var ligesom rekursionen i denne geometriske algoritme.
+
+00:06:06.160 --> 00:06:10.160
+Rekursionen i nogle af disse landsbyer fortsætter ned til meget små skalaer.
+
+00:06:10.160 --> 00:06:12.160
+Her er en Nankani landsby i Mali.
+
+00:06:12.160 --> 00:06:15.160
+Her kan du se, når du går ind på familiegården -
+
+00:06:15.160 --> 00:06:19.160
+- man går ind og her er gryder på ildstedet, stablet op rekursivt.
+
+00:06:19.160 --> 00:06:23.160
+Her er kalabasfrugter som Issa lige viste os, -
+
+00:06:23.160 --> 00:06:25.160
+- og de er rekursivt stablet.
+
+00:06:25.160 --> 00:06:27.160
+Den mindste kalabas indeholder kvindens sjæl.
+
+00:06:27.160 --> 00:06:29.160
+Og når hun dør, har de en ceremoni -
+
+00:06:29.160 --> 00:06:34.160
+- hvor de åbner stakken som kaldes zalanga og hendes sjæl tager afsted til evigheden.
+
+00:06:34.160 --> 00:06:37.160
+Igen, uendelighed er vigtigt.
+
+00:06:38.160 --> 00:06:42.160
+Her kunne man spørge sig selv tre spørgsmål.
+
+00:06:42.160 --> 00:06:46.160
+Er disse skaleringsmønstre fælles for alle urfolk?
+
+00:06:46.160 --> 00:06:48.160
+Og det var faktisk min første hypotese.
+
+00:06:48.160 --> 00:06:50.160
+Da jeg først så disse afrikanske fraktaler, -
+
+00:06:50.160 --> 00:06:54.160
+- tænkte jeg: "Wow, hvert urfolk som ikke har et statssamfund, -
+
+00:06:54.160 --> 00:06:57.160
+- den slags hierarki, må have en bottom-up arkitektur."
+
+00:06:57.160 --> 00:06:59.160
+Men det viser sig ikke at passe.
+
+00:06:59.160 --> 00:07:03.160
+Jeg begyndte at samle luftfotos af indiansk og Sydstillehavets arkitektur; -
+
+00:07:03.160 --> 00:07:05.160
+- men kun de afrikanske var fraktale.
+
+00:07:05.160 --> 00:07:11.160
+Alle disse forskellige samfund har forskellige geometriske design som de bruger.
+
+00:07:11.160 --> 00:07:17.160
+Indianere bruger en kombination af cirkulær symmetri og firfoldig symmetri, -
+
+00:07:17.160 --> 00:07:19.160
+- som du kan se på keramik og kurve.
+
+00:07:19.160 --> 00:07:22.160
+Her er et luftfoto af en af Anasazi ruinerne: -
+
+00:07:22.160 --> 00:07:27.160
+- man ser den er cirkulær på størst skala, men den er rektangulær på mindre skala, ikke?
+
+00:07:27.160 --> 00:07:31.160
+Det er ikke samme mønster på to forskellige skalaer.
+
+00:07:31.160 --> 00:07:32.160
+For det andet, kan man spørge, -
+
+00:07:32.160 --> 00:07:35.160
+- "Men Dr. Eglash, ser du ikke bort fra diversiteten af afrikanske kulturer?"
+
+00:07:36.160 --> 00:07:38.160
+Og svaret er nej, på tre måder.
+
+00:07:38.160 --> 00:07:42.160
+For det første er jeg enig i Mudimbes vidunderlige bog "The invention of Africa", -
+
+00:07:42.160 --> 00:07:45.160
+- at Afrika er en kunstig opfindelse som den første kolonialisme gjorde,-
+
+00:07:45.160 --> 00:07:47.160
+- og senere de oppositionelle bevægelser.
+
+00:07:47.160 --> 00:07:52.160
+Nej, fordi en udbredt fælles designpraksis giver ikke nødvendigvis en fælles kultur -
+
+00:07:52.160 --> 00:07:55.160
+- og det er bestemt ikke "i generne".
+
+00:07:55.160 --> 00:07:57.160
+Og sidst: fraktalerne har selvsimilaritet -
+
+00:07:57.160 --> 00:08:01.160
+- så de ligner sig selv, men ikke nødvendigvis hinanden -
+
+00:08:01.160 --> 00:08:03.160
+- man ser meget forskellig brug af fraktaler.
+
+00:08:03.160 --> 00:08:05.160
+Det er en fælles teknologi i Afrika.
+
+00:08:06.160 --> 00:08:09.160
+Og tilsidst, men er det ikke bare intuition?
+
+00:08:09.160 --> 00:08:11.160
+Det er egentlig ikke matematisk viden.
+
+00:08:11.160 --> 00:08:14.160
+Afrikanere bruger da ikke den fraktale geometri, vel?
+
+00:08:14.160 --> 00:08:16.160
+Den blev ikke opfundet før 70erne.
+
+00:08:17.160 --> 00:08:22.160
+Det er rigtigt at nogle afrikanske fraktaler, efter min mening, er ren intuition.
+
+00:08:22.160 --> 00:08:25.160
+Så nogle af disse ting - jeg kunne gå rundt i Dakars gader -
+
+00:08:25.160 --> 00:08:28.160
+- og spørge folk: "Hvad er algoritmen? Hvad er reglerne for at lave dette?"
+
+00:08:28.160 --> 00:08:29.160
+- og de ville sige, -
+
+00:08:29.160 --> 00:08:32.160
+- "Vi laver det da sådan fordi det er pænt, idiot."
+
+00:08:32.160 --> 00:08:35.160
+Men nogle gange er det ikke tilfældet.
+
+00:08:35.160 --> 00:08:40.160
+Nogle gange ville der faktisk være algoritmer, og ganske sofistikerede algoritmer.
+
+00:08:40.160 --> 00:08:43.160
+I Manghetu skulptur kan man se denne rekursive geometri.
+
+00:08:43.160 --> 00:08:48.160
+I etiopiske kors ser man denne vidunderlige figur udvikle sig.
+
+00:08:48.160 --> 00:08:52.160
+Chokwe-folket i Angola trækker streger i sandet, -
+
+00:08:52.160 --> 00:08:55.160
+- og det er hvad den tyske matematiker Euler kaldte en graf, -
+
+00:08:55.160 --> 00:08:57.160
+- og som vi nu kalder en Euler-tur -
+
+00:08:57.160 --> 00:08:59.160
+- man må aldrig løfte griflen fra overfalden -
+
+00:08:59.160 --> 00:09:02.160
+- og man kan aldrig passere den samme streg to gange.
+
+00:09:02.160 --> 00:09:05.160
+Men de gør det rekursivt og de gør det ifølge et alderstrinsystem, -
+
+00:09:05.160 --> 00:09:08.160
+- så de små børn lærer denne her, og de ældre børn lærer denne, -
+
+00:09:08.160 --> 00:09:11.160
+- og ved overgangen til næste alderstrin lærer man denne.
+
+00:09:11.160 --> 00:09:14.160
+Ved hver iteration af algoritmen, -
+
+00:09:14.160 --> 00:09:16.160
+- lærer man skridtene i myten.
+
+00:09:16.160 --> 00:09:18.160
+Man lærer det næste vidensniveau.
+
+00:09:19.160 --> 00:09:21.160
+Og til slut, man finder dette brætspil overalt i Afrika.
+
+00:09:21.160 --> 00:09:24.160
+Det kaldes Owari i Ghana, hvor jeg studerede det, -
+
+00:09:24.160 --> 00:09:29.160
+- det kaldes Mancala på østkysten, Bao i Kenya, og Sogo andre steder.
+
+00:09:29.160 --> 00:09:34.160
+Man ser selvorganiserende mønstre som opstår spontant i dette brætspil.
+
+00:09:34.160 --> 00:09:37.160
+Og folkene i Ghana kendte disse selvorganiserende mønstre -
+
+00:09:37.160 --> 00:09:39.160
+- og brugte dem strategisk.
+
+00:09:39.160 --> 00:09:41.160
+Så dette er bevidst kendskab.
+
+00:09:41.160 --> 00:09:43.160
+Her er en vidunderlig fraktal.
+
+00:09:43.160 --> 00:09:47.160
+Hvor end du går i Sahel ser du denne læskærm.
+
+00:09:47.160 --> 00:09:51.160
+Hegn rundt om i verden er selvfølgelig cartesiske, alle er strengt lineære.
+
+00:09:51.160 --> 00:09:55.160
+Men her i Afrika har man disse ikke-lineære hegn.
+
+00:09:55.160 --> 00:09:57.160
+Jeg opsporede derfor en af de folk der laver disse ting, -
+
+00:09:57.160 --> 00:10:01.160
+- denne fyr i Mali, lige udenfor Bamako, og jeg spurgte ham, -
+
+00:10:01.160 --> 00:10:03.160
+- "Hvordan kan det være du laver fraktale hegn, for det gør ingen andre?"
+
+00:10:03.160 --> 00:10:05.160
+Og hans svar var meget interessant.
+
+00:10:05.160 --> 00:10:10.160
+Han sagde "vel, hvis jeg boede i junglen ville jeg kun bruge de lange rækker af strå -
+
+00:10:10.160 --> 00:10:12.160
+- fordi de er hurtige og billige.
+
+00:10:12.160 --> 00:10:15.160
+Det kræver ikke så mange strå, ikke så meget tid."
+
+00:10:15.160 --> 00:10:17.160
+Han sagde "Men vind og støv går let igennem. -
+
+00:10:17.160 --> 00:10:21.160
+- De tætte rækker oppe ved toppen, de holder virkelig vind og støv ude. -
+
+00:10:21.160 --> 00:10:26.160
+- Men det kræver masser af tid og strå, fordi de er virkelig tætte."
+
+00:10:26.160 --> 00:10:28.160
+"Nu," sagde han, "ved vi af erfaring -
+
+00:10:28.160 --> 00:10:33.160
+- at jo højere over jorden, jo mere blæser det."
+
+00:10:33.160 --> 00:10:36.160
+Ikke også? Det er lige som en cost-benefit analyse.
+
+00:10:36.160 --> 00:10:38.160
+Jeg målte længden på stråene, -
+
+00:10:38.160 --> 00:10:40.160
+- lavede et log-log plot og fandt skaleringseksponenterne, -
+
+00:10:40.160 --> 00:10:45.160
+- og det passer næsten præcist med eksponenten for sammenhængen mellem vind og højde -
+
+00:10:45.160 --> 00:10:46.160
+- i vind-ingeniørens håndbog.
+
+00:10:46.160 --> 00:10:51.160
+Så disse mennesker rammer rigtigt i praktisk brug af skalerings-teknologi.
+
+00:10:51.160 --> 00:10:56.160
+Det mest komplekse eksempel på fraktaler via algoritmer jeg fandt -
+
+00:10:56.160 --> 00:10:58.160
+- var faktisk ikke geometrisk, det var i symbolsk kode, -
+
+00:10:58.160 --> 00:11:01.160
+- nemlig spådom i sand, som man gør i Bamana-området.
+
+00:11:01.160 --> 00:11:04.160
+Og den samme spådomskunst findes over hele Afrika.
+
+00:11:04.160 --> 00:11:09.160
+Det findes både på østkysten og på vestkysten, -
+
+00:11:09.160 --> 00:11:11.160
+- og symbolerne er ofte de samme, -
+
+00:11:11.160 --> 00:11:17.160
+- så hvert af disse symboler har fire bits - det er et fire-bit ord -
+
+00:11:17.160 --> 00:11:22.160
+- man tegner disse streger tilfældigt i sandet, og så tæller man, -
+
+00:11:22.160 --> 00:11:24.160
+- og hvis der er et ulige antal, slår man en streg, -
+
+00:11:24.160 --> 00:11:26.160
+- og hvis det er lige, slår man to streger.
+
+00:11:26.160 --> 00:11:29.160
+De gjorde det meget hurtigt, -
+
+00:11:29.160 --> 00:11:31.160
+- så jeg forstod ikke hvad det gik ud på, -
+
+00:11:31.160 --> 00:11:33.160
+- de tegnede kun fire tilfældige streger, -
+
+00:11:33.160 --> 00:11:35.160
+- jeg forstod ikke hvor de andre 12 symboler kom fra.
+
+00:11:35.160 --> 00:11:37.160
+Og de ville ikke fortælle mig det.
+
+00:11:37.160 --> 00:11:39.160
+De sagde "Nej, det kan jeg ikke fortælle dig om."
+
+00:11:39.160 --> 00:11:41.160
+Så jeg sagde "Hør, jeg vil betale for det, du kan være min lærer, -
+
+00:11:41.160 --> 00:11:43.160
+- og jeg vil komme hver dag og betale dig."
+
+00:11:43.160 --> 00:11:46.160
+De sagde "Det handler ikke om penge. Det er noget religiøst."
+
+00:11:46.160 --> 00:11:47.160
+Og tilsidst sagde jeg i desperation, -
+
+00:11:47.160 --> 00:11:50.160
+- "Okay, lad mig fortælle om Georg Cantor i 1877."
+
+00:11:50.160 --> 00:11:54.160
+Jeg begyndte at forklare hvorfor jeg var der i Afrika, -
+
+00:11:54.160 --> 00:11:56.160
+- og de blev meget ivrige da de så Cantor-mængden.
+
+00:11:56.160 --> 00:12:00.160
+En af dem sagde "Kom her, jeg tror jeg kan hjælpe dig med det."
+
+00:12:00.160 --> 00:12:05.160
+Og så tog han mig igennem indvielsesritualet for en Bamana præst.
+
+00:12:05.160 --> 00:12:07.160
+Jeg var selvfølgelig kun interesseret i matematikken, -
+
+00:12:07.160 --> 00:12:09.160
+- så han gik hele tiden hovedrystende og sagde, -
+
+00:12:09.160 --> 00:12:10.160
+- "Jeg lærte det altså ikke på den måde."
+
+00:12:10.160 --> 00:12:14.160
+Men jeg måtte sove med en kolanød ved siden af sengen, begravet i sand, -
+
+00:12:14.160 --> 00:12:17.160
+- og give 7 mønter til 7 spedalske og så videre.
+
+00:12:17.160 --> 00:12:21.160
+Og tilsidst afslørede han hvad det handlede om.
+
+00:12:22.160 --> 00:12:26.160
+Og det viser sig at det er en pseudo-tilfældig talgenerator som bruger deterministisk kaos.
+
+00:12:26.160 --> 00:12:32.160
+Du tager et firebit-tal og sætter det ved siden af et andet.
+
+00:12:32.160 --> 00:12:34.160
+Lige plus ulige giver ulige.
+
+00:12:34.160 --> 00:12:36.160
+Ulige plus lige giver ulige.
+
+00:12:36.160 --> 00:12:39.160
+Lige plus lige giver lige. Ulige plus ulige giver lige.
+
+00:12:39.160 --> 00:12:43.160
+Det er addition modulo 2, ligesom paritetskontrollen på din computer.
+
+00:12:43.160 --> 00:12:47.160
+Og så tager du dette symbol og sætter det tilbage igen, -
+
+00:12:47.160 --> 00:12:49.160
+- så det er en selvgenererende mangfoldighed af symboler.
+
+00:12:49.160 --> 00:12:53.160
+De bruger virkelig deterministisk kaos når de gør dette.
+
+00:12:53.160 --> 00:12:55.160
+Fordi det er binær kode, -
+
+00:12:55.160 --> 00:12:57.160
+- kan man faktisk implementere det i hardware, -
+
+00:12:57.160 --> 00:13:02.160
+- hvilket fantastisk læringsværktøj, som burde findes på afrikanske ingeniørskoler.
+
+00:13:02.160 --> 00:13:05.160
+Den mest interessante ting jeg fandt ud af var historisk.
+
+00:13:05.160 --> 00:13:11.160
+I det 12. århundrede importerede Hugo af Santalla det i Spanien fra islamske mystikere.
+
+00:13:11.160 --> 00:13:17.160
+Og der kom det ind i alkymistmiljøet som geomanti: -
+
+00:13:17.160 --> 00:13:19.160
+- spådomskunst med jorden.
+
+00:13:19.160 --> 00:13:24.160
+Dette er et geomanti-kort tegnet for kong Richard II i 1390.
+
+00:13:24.160 --> 00:13:27.160
+Den tyske matematiker Leibniz -
+
+00:13:27.160 --> 00:13:31.160
+- snakkede om geomanti i sin afhandling "De Combinatoria".
+
+00:13:31.160 --> 00:13:35.160
+Og han skrev "I stedet for at bruge en streg og to streger, -
+
+00:13:35.160 --> 00:13:39.160
+- så lad os bruge en og nul, så kan vi tælle med potenser af to."
+
+00:13:39.160 --> 00:13:41.160
+Ikke også? Et-taller og nuller, den binære kode.
+
+00:13:41.160 --> 00:13:44.160
+George Boole tog Leibniz' binære kode og skabte boolsk algebra, -
+
+00:13:44.160 --> 00:13:47.160
+- og John von Neumann tog boolsk algebra og skabte den digitale computer.
+
+00:13:47.160 --> 00:13:50.160
+Så alle disse små PDAer og laptops -
+
+00:13:50.160 --> 00:13:53.160
+- hvert digitalt kredsløb i verden - startede i Afrika.
+
+00:13:53.160 --> 00:13:58.160
+Og jeg ved at Brian Eno siger at der ikke er nok Afrika i computere, -
+
+00:13:58.160 --> 00:14:03.160
+- men jeg synes ikke der er nok afrikansk historie i Brian Eno.
+
+00:14:03.160 --> 00:14:06.160
+(Latter) (applaus)
+
+00:14:06.160 --> 00:14:10.160
+Så lad mig slutte med at sige noget om anvendelser for dette som vi har fundet.
+
+00:14:10.160 --> 00:14:12.160
+Og du kan gå til vores websted, -
+
+00:14:12.160 --> 00:14:14.160
+- appleterne er alle gratis, de kører bare i din browser.
+
+00:14:14.160 --> 00:14:16.160
+Alle i verden kan bruge dem.
+
+00:14:16.160 --> 00:14:21.160
+The National Science Foundations program for en bredere deltagelse i brug af computere -
+
+00:14:21.160 --> 00:14:28.160
+- har fornylig givet os støtte til at lave en programmerbar version af disse designværktøjer, -
+
+00:14:28.160 --> 00:14:30.160
+- så om tre år, forhåbentlig, vil alle kunne gå på internettet -
+
+00:14:30.160 --> 00:14:33.160
+- og lave deres egne simuleringer og deres egne ting.
+
+00:14:33.160 --> 00:14:38.160
+Vi har fokuseret på afrikansk-amerikanske studenter i USA og også indiansk-amerikanske og latinoer.
+
+00:14:38.160 --> 00:14:44.160
+Vi har fundet statistisk signifikante fremskridt hos børn som bruger denne software i matematikundervisningen -
+
+00:14:44.160 --> 00:14:47.160
+- sammenlignet med en kontrolgruppe som ikke havde softwaren.
+
+00:14:47.160 --> 00:14:53.160
+Så det er virkelig nyttigt at lære børn at de har en baggrund der handler om matematik, -
+
+00:14:53.160 --> 00:14:57.160
+- at det ikke bare handler om sang og dans.
+
+00:14:57.160 --> 00:15:00.160
+Vi har startet et pilotprojekt i Ghana.
+
+00:15:00.160 --> 00:15:05.160
+Vi fik et lille starttilskud for at se om folk ville arbejde sammen med os om dette.
+
+00:15:05.160 --> 00:15:08.160
+Vi er spændt på de fremtidige muligheder for dette.
+
+00:15:08.160 --> 00:15:10.160
+Vi har også arbejdet indenfor design.
+
+00:15:10.160 --> 00:15:15.160
+Jeg har ikke fået hans navn med her - min kollega Kerry i Kenya fik den gode ide -
+
+00:15:15.160 --> 00:15:20.160
+- at bruge fraktale strukturer for postadresser i landsbyer som har en fraktal stuktur, -
+
+00:15:20.160 --> 00:15:24.160
+- for hvis du prøver at indføre et postsystem med en gitterstruktur i en fraktal landsby, -
+
+00:15:24.160 --> 00:15:26.160
+så passer det ikke helt sammen.
+
+00:15:26.160 --> 00:15:31.160
+Bernard Tschumi ved Columbia University holdt op med at bruge det i et design for et museum for afrikansk kunst.
+
+00:15:31.160 --> 00:15:39.160
+David Hughes ved Ohio State University har skrevet en indføring i afrocentrisk arkitektur -
+
+00:15:39.160 --> 00:15:41.160
+- i hvilken han har brugt nogle af disse fraktale strukturer.
+
+00:15:41.160 --> 00:15:46.160
+Og tilsidst vil jeg bare understrege at denne ide om selvorganisering, -
+
+00:15:46.160 --> 00:15:48.160
+- som vi hørte om tidligere, det findes i hjernen.
+
+00:15:48.160 --> 00:15:53.160
+Det findes i...Googles søgemaskine.
+
+00:15:53.160 --> 00:15:55.160
+Faktisk var grunden til Googles succes -
+
+00:15:55.160 --> 00:15:59.160
+- at de var de første som udnyttede internettets selvorganiserende egenskaber.
+
+00:15:59.160 --> 00:16:01.160
+Det findes i økologisk bæredygtighed.
+
+00:16:01.160 --> 00:16:03.160
+Det findes i den udviklende kraft i entrepenørskab, -
+
+00:16:03.160 --> 00:16:05.160
+- den etiske kraft i demokrati.
+
+00:16:06.160 --> 00:16:08.160
+Det findes også i nogle dårlige ting.
+
+00:16:08.160 --> 00:16:11.160
+Selvorganisering er grunden til at aidsvirusset spreder sig så hurtigt.
+
+00:16:11.160 --> 00:16:15.160
+Og hvis du tror kapitalismen, som er selvorganiserende, ikke har destruktive effekter, -
+
+00:16:15.160 --> 00:16:17.160
+- har du ikke åbnet øjnene.
+
+00:16:17.160 --> 00:16:21.160
+Så vi må tænke på, som det blev sagt før, -
+
+00:16:21.160 --> 00:16:23.160
+- de traditionelle afrikanske metoder for at lave selvorganisering.
+
+00:16:23.160 --> 00:16:25.160
+Det er robuste algoritmer.
+
+00:16:26.160 --> 00:16:29.160
+Det er måder at lave selvorganisering, at lave entrepenørskab, -
+
+00:16:29.160 --> 00:16:31.160
+- som er bløde og som er egalitære.
+
+00:16:31.160 --> 00:16:35.160
+Så hvis vi vil finde en bedre måde at gøre den slags arbejde, -
+
+00:16:35.160 --> 00:16:40.160
+- behøver vi ikke lede længere væk end Afrika, for at finde disse robuste selvorganiseringsalgortimer.
+
+00:16:40.160 --> 00:16:41.160
+Tak.
+

@@ -1,0 +1,477 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Catalin Topala
+Corector: Ariana Bleau Lugo
+
+00:00:12.336 --> 00:00:14.593
+Cursele de maşini sunt o afacere veche şi interesantă.
+
+00:00:14.593 --> 00:00:16.910
+Producem o nouă maşină în fiecare an,
+
+00:00:16.910 --> 00:00:19.098
+apoi petrecem tot restul sezonului
+
+00:00:19.098 --> 00:00:21.874
+încercând să înţelegem ce maşină am construit
+
+00:00:21.874 --> 00:00:25.095
+să o facem mai bună, mai rapidă.
+
+00:00:25.095 --> 00:00:28.370
+Şi anul următor, o luăm de la început.
+
+00:00:28.370 --> 00:00:32.608
+Maşina pe care o aveţi în faţă e destul de complicată.
+
+00:00:32.608 --> 00:00:36.227
+Şasiul e format din aproape 11000 de componente,
+
+00:00:36.227 --> 00:00:38.695
+motorul din alte 6000,
+
+00:00:38.695 --> 00:00:41.788
+electronica din aproape 8500.
+
+00:00:41.788 --> 00:00:46.189
+Deci, sunt cam 25000 de componente care se pot strica.
+
+00:00:46.189 --> 00:00:51.015
+Deci, în cursele de maşini e nevoie de foarte multă atenţie la detalii.
+
+00:00:51.015 --> 00:00:54.278
+Şi mai important este că, în Formula 1 în special,
+
+00:00:54.278 --> 00:00:56.402
+schimbăm maşina încontinuu.
+
+00:00:56.402 --> 00:00:58.682
+Încontinuu încercăm să o facem mai rapidă.
+
+00:00:58.682 --> 00:01:01.666
+Aşa că la fiecare 2 săptămâni, construim
+
+00:01:01.666 --> 00:01:05.866
+5000 de componente noi care să se potrivească cu maşina.
+
+00:01:05.866 --> 00:01:08.044
+5 - 10% din componentele maşinii de curse
+
+00:01:08.044 --> 00:01:11.796
+sunt diferite la fiecare 2 săptămâni din an.
+
+00:01:11.796 --> 00:01:14.105
+Deci, cum facem asta?
+
+00:01:14.105 --> 00:01:17.849
+Ei bine, viaţa noastră începe cu maşina de curse.
+
+00:01:17.849 --> 00:01:21.840
+Avem o mulţime de senzori în maşină, pentru a măsura diverse lucruri.
+
+00:01:21.840 --> 00:01:23.722
+În maşina de curse din faţa voastră
+
+00:01:23.722 --> 00:01:26.881
+sunt aproape 120 de senzori funcţionali în timpul cursei.
+
+00:01:26.881 --> 00:01:30.533
+Măsoară diverse lucruri în şi pe lângă maşină.
+
+00:01:30.533 --> 00:01:32.585
+Datele sunt înregistrate. Înregistrăm aprox.
+
+00:01:32.585 --> 00:01:36.289
+500 de parametri diferiţi din sistemele de date,
+
+00:01:36.289 --> 00:01:39.954
+aproape 13000 de parametri de funcționare şi evenimente
+
+00:01:39.954 --> 00:01:44.519
+indicând dacă lucrurile nu funcţionează cum ar trebui,
+
+00:01:44.519 --> 00:01:47.344
+şi transmitem datele la garaj
+
+00:01:47.344 --> 00:01:52.323
+folosind telemetria la o viteză de 2 - 4 megabits pe secundă.
+
+00:01:52.323 --> 00:01:55.450
+Aşa că în timpul unei curse de 2 ore, fiecare maşină trimite
+
+00:01:55.450 --> 00:01:57.725
+750 de milioane de numere.
+
+00:01:57.725 --> 00:02:00.868
+Asta înseamnă de 2 ori mai multe numere decât cuvintele pe care fiecare dintre noi
+
+00:02:00.868 --> 00:02:02.499
+le rostește într-o viață.
+
+00:02:02.499 --> 00:02:05.117
+E o cantitate imensă de date.
+
+00:02:05.117 --> 00:02:07.762
+Dar nu e de ajuns să ai date şi să la măsori.
+
+00:02:07.762 --> 00:02:09.920
+Trebuie să poţi face ceva cu ele.
+
+00:02:09.920 --> 00:02:12.314
+Aşa că investim mult timp şi efort
+
+00:02:12.314 --> 00:02:14.183
+în a traduce datele în poveşti
+
+00:02:14.183 --> 00:02:17.288
+pentru a ști care e starea motorului,
+
+00:02:17.288 --> 00:02:19.560
+cum se degradează pneurile,
+
+00:02:19.560 --> 00:02:23.308
+care e situaţia consumului de combustibil?
+
+00:02:23.308 --> 00:02:26.096
+Deci toate astea înseamnă că luăm datele
+
+00:02:26.096 --> 00:02:29.898
+şi le transformăm în informaţii la care putem reacţiona.
+
+00:02:29.898 --> 00:02:32.536
+OK, să vedem o mică parte din date.
+
+00:02:32.536 --> 00:02:34.566
+Să alegem un ansamblu de date provenit de la
+
+00:02:34.566 --> 00:02:37.645
+un alt pacient de 3 luni.
+
+00:02:37.645 --> 00:02:41.816
+E un copil, iar ceea ce vedeţi aici sunt date reale,
+
+00:02:41.816 --> 00:02:43.793
+şi în partea din dreapta,
+
+00:02:43.793 --> 00:02:46.380
+unde totul începe să devină puţin catrastofal,
+
+00:02:46.380 --> 00:02:49.964
+pacientul intră în stop cardiac.
+
+00:02:49.964 --> 00:02:53.196
+A fost un eveniment imprevizibil.
+
+00:02:53.196 --> 00:02:56.985
+A fost un infarct pe care nimeni nu l-a prevăzut.
+
+00:02:56.985 --> 00:02:59.535
+Dar, când ne uităm la informaţia de acolo,
+
+00:02:59.535 --> 00:03:01.884
+vedem cum lucrurile au început să devină
+
+00:03:01.884 --> 00:03:05.913
+neclare cu 5 minute înainte de stopul cardiac.
+
+00:03:05.913 --> 00:03:07.950
+Vedem mici schimbări
+
+00:03:07.950 --> 00:03:10.333
+în parametri, cum ar fi ritmul cardiac.
+
+00:03:10.333 --> 00:03:12.819
+Toate au rămas nedetectate cu pragurile normale
+
+00:03:12.819 --> 00:03:15.227
+pe care le-am aplicat datelor.
+
+00:03:15.227 --> 00:03:18.370
+Deci întrebarea este, de ce nu le-am văzut?
+
+00:03:18.370 --> 00:03:20.951
+A fost un eveniment previzibil?
+
+00:03:20.951 --> 00:03:23.961
+Ne putem uita mai mult la tiparul din date
+
+00:03:23.961 --> 00:03:27.341
+pentru a face lucrurile mai bine?
+
+00:03:27.341 --> 00:03:29.991
+Acesta este un copil,
+
+00:03:29.991 --> 00:03:33.223
+cam de aceeaşi vârstă cu maşina de curse de pe scenă,
+
+00:03:33.223 --> 00:03:34.853
+3 luni.
+
+00:03:34.853 --> 00:03:37.458
+E un pacient cu o problemă cardiacă.
+
+00:03:37.458 --> 00:03:40.926
+Dacă ne uităm la câteva date pe ecranul de deasupra,
+
+00:03:40.926 --> 00:03:45.828
+parametrii ca, ritmul cardiac, pulsul, oxigenul, ritmul respirator,
+
+00:03:45.828 --> 00:03:48.904
+toate sunt neobişnuite pentru un copil normal,
+
+00:03:48.904 --> 00:03:51.546
+dar, sunt normale pentru acest copilul,
+
+00:03:51.546 --> 00:03:55.684
+şi o provocările pe care o ai în sistemul de sănătate este,
+
+00:03:55.684 --> 00:03:58.535
+cum să te uiţi la pacienta din faţă ta,
+
+00:03:58.535 --> 00:04:01.582
+având ceva specific pentru ea,
+
+00:04:01.582 --> 00:04:04.370
+să poţi detecta lucruri care încep să se schimbe,
+
+00:04:04.370 --> 00:04:06.469
+când lucrurile încep să se agraveze?
+
+00:04:06.469 --> 00:04:09.519
+Pentru că, cu orice pacient, ca şi cu o maşină de curse,
+
+00:04:09.519 --> 00:04:12.495
+ai foarte puţin timp să faci ceva
+
+00:04:12.495 --> 00:04:14.326
+când încep să se înrăutăţească.
+
+00:04:14.326 --> 00:04:17.080
+Deci, am luat sistemul de date
+
+00:04:17.080 --> 00:04:20.211
+pe care îl rulăm la fiecare 2 săptămâni din an în Formula 1
+
+00:04:20.211 --> 00:04:23.213
+şi l-am instalat pe calculatoarele din
+
+00:04:23.213 --> 00:04:25.503
+Spitalul de Copii din Birmingham.
+
+00:04:25.503 --> 00:04:27.942
+Am transmis date de la aparatele de la marginea patului
+
+00:04:27.942 --> 00:04:30.499
+din Terapie Intensivă Pediatrică
+
+00:04:30.499 --> 00:04:33.955
+astfel încât să putem vedea în timp real
+
+00:04:33.955 --> 00:04:36.826
+şi, mai important, să stocăm datele,
+
+00:04:36.826 --> 00:04:39.883
+încât să putem învăța din ele.
+
+00:04:39.883 --> 00:04:44.267
+Apoi, pe deasupra, am aplicat un program
+
+00:04:44.267 --> 00:04:47.537
+care ne permite să separăm modele în date
+
+00:04:47.537 --> 00:04:50.493
+în timp real, astfel încât să putem vedea ce se întâmplă
+
+00:04:50.493 --> 00:04:54.206
+şi să putem determina când lucrurile încep să se schimbe.
+
+00:04:54.206 --> 00:04:58.069
+În cursele de maşini toţi suntem puţin cam ambiţioşi
+
+00:04:58.069 --> 00:05:00.618
+temerari şi, câteodată, puţin aroganţi
+
+00:05:00.618 --> 00:05:04.016
+aşa că cam decis să ne uităm la copii
+
+00:05:04.016 --> 00:05:06.973
+în timp ce sunt transportaţi spre terapie intensivă.
+
+00:05:06.973 --> 00:05:09.127
+De ce ar trebui să aşteptăm până când ajung la spital
+
+00:05:09.127 --> 00:05:11.121
+înainte de a ne uita?
+
+00:05:11.121 --> 00:05:14.118
+Am instalat o conexiune în timp real
+
+00:05:14.118 --> 00:05:16.954
+între ambulanţă şi spital
+
+00:05:16.954 --> 00:05:20.730
+folosind telefonia 3G pentru a trimite datele
+
+00:05:20.730 --> 00:05:23.217
+astfel încât ambulanţa a devenit un extra pat
+
+00:05:23.217 --> 00:05:26.353
+de Terapie Intensivă.
+
+00:05:26.353 --> 00:05:30.055
+Apoi am început să ne uităm la date.
+
+00:05:30.055 --> 00:05:32.976
+Liniile sinuoase de sus, toate culorile,
+
+00:05:32.976 --> 00:05:36.170
+sunt date normale pe care le vezi pe un monitor --
+
+00:05:36.170 --> 00:05:39.942
+ritmul cardiac, pulsul, oxigenul din sânge,
+
+00:05:39.942 --> 00:05:42.577
+şi respiraţia.
+
+00:05:42.577 --> 00:05:45.330
+Liniile de jos, cea albastră şi cea roşie,
+
+00:05:45.330 --> 00:05:46.690
+acestea sunt cele interesante.
+
+00:05:46.690 --> 00:05:49.899
+Linia roşie arată o versiune automatică
+
+00:05:49.899 --> 00:05:51.496
+a scorului timpuriu de avertizare
+
+00:05:51.496 --> 00:05:53.983
+pe care Spitalul de Copii din Birmingham deja îl rulează.
+
+00:05:53.983 --> 00:05:56.321
+L-au rulat din 2008,
+
+00:05:56.321 --> 00:05:58.577
+şi au prevenit stopuri cardiace
+
+00:05:58.577 --> 00:06:01.334
+şi stări acute în spital.
+
+00:06:01.334 --> 00:06:03.766
+Linia albastră este o indicaţie
+
+00:06:03.766 --> 00:06:06.266
+a timpului când tiparul începe să se schimbe,
+
+00:06:06.266 --> 00:06:08.575
+şi imediat, chiar înainte de a începe
+
+00:06:08.575 --> 00:06:10.283
+să interpretăm clinic,
+
+00:06:10.283 --> 00:06:13.153
+am văzut cum datele ne vorbesc.
+
+00:06:13.153 --> 00:06:16.689
+Ne spun că ceva nu merge bine.
+
+00:06:16.689 --> 00:06:20.505
+Graficul cu petele roşie şi verde,
+
+00:06:20.505 --> 00:06:23.310
+defineşte reciproc diferite componente
+
+00:06:23.310 --> 00:06:25.857
+ale datelor.
+
+00:06:25.857 --> 00:06:29.697
+Verdele indică ce e normal pentru acest copil.
+
+00:06:29.697 --> 00:06:32.307
+Îl numim norul de normalitate.
+
+00:06:32.307 --> 00:06:34.548
+Şi când lucrurile încep să se schimbe,
+
+00:06:34.548 --> 00:06:37.112
+când condiţiile se agravează,
+
+00:06:37.112 --> 00:06:39.350
+ne mutăm pe linia roşie.
+
+00:06:39.350 --> 00:06:41.007
+Nu-i ceva foarte complicat.
+
+00:06:41.007 --> 00:06:45.120
+Doar afişăm datele care deja există într-un mod diferit,
+
+00:06:45.120 --> 00:06:48.511
+pentru a le amplifica, pentru a indica medicilor,
+
+00:06:48.511 --> 00:06:51.249
+asistentelor, încât să poată vedea ce se întâmplă.
+
+00:06:51.249 --> 00:06:54.379
+La fel, un bun pilot de curse
+
+00:06:54.379 --> 00:06:58.423
+folosește indicii pentru a decide când să frâneze,
+
+00:06:58.423 --> 00:06:59.899
+când să vireze într-o curbă.
+
+00:06:59.899 --> 00:07:02.817
+Trebuie să ajutăm medicii şi asistentele
+
+00:07:02.817 --> 00:07:06.437
+să vadă când lucrurile încep să se agraveze.
+
+00:07:06.437 --> 00:07:09.383
+Avem un program foarte ambiţios.
+
+00:07:09.383 --> 00:07:14.119
+Credem că e timpul să facem ceva diferit.
+
+00:07:14.119 --> 00:07:17.023
+Credem că e ceva măreţ. E ceea ce trebuie.
+
+00:07:17.023 --> 00:07:20.435
+Avem o abordare care, dacă reușește,
+
+00:07:20.435 --> 00:07:22.966
+nu există niciun motiv pentru care trebuie să stea în interiorul unui spital.
+
+00:07:22.966 --> 00:07:24.807
+Poate trece dincolo de ziduri.
+
+00:07:24.807 --> 00:07:26.878
+Cu conexiunile fără fir din zilele noastre,
+
+00:07:26.878 --> 00:07:30.322
+nu există nici un motiv pentru care pacienţii, medicii şi asistentele
+
+00:07:30.322 --> 00:07:32.493
+trebuie să fie mereu în acelaşi loc,
+
+00:07:32.493 --> 00:07:34.486
+în acelaşi timp.
+
+00:07:34.486 --> 00:07:38.481
+Între timp, ne vom lua copilul de 3 luni,
+
+00:07:38.481 --> 00:07:42.238
+vom continua să-l ducem în cursă, 
+să-l menţinem în siguranță,
+
+00:07:42.238 --> 00:07:44.571
+şi să-l facem mai rapid şi mai bun.
+
+00:07:44.571 --> 00:07:45.976
+Vă mulţumesc foarte mult.
+
+00:07:45.976 --> 00:07:50.930
+(Aplauze)
+

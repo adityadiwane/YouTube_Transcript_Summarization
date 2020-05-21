@@ -1,0 +1,866 @@
+WEBVTT
+Kind: captions
+Language: sl
+
+00:00:00.000 --> 00:00:07.000
+Translator: Nika Kotnik
+Reviewer: Matej Divjak
+
+00:00:23.544 --> 00:00:26.067
+Kaj pomeni, da je neka naprava atletska?
+
+00:00:27.059 --> 00:00:29.884
+Pokazali vam bomo koncept
+atletskosti naprav
+
+00:00:29.908 --> 00:00:31.604
+in raziskave, potrebne za to,
+
+00:00:31.628 --> 00:00:34.486
+s pomočjo teh letečih naprav,
+imenovanih kvadkopterji
+
+00:00:34.510 --> 00:00:35.557
+ali kvadi na kratko.
+
+00:00:38.291 --> 00:00:40.184
+Kvadi so tu že dolgo časa.
+
+00:00:40.501 --> 00:00:43.778
+Te dni so tako priljubljeni,
+ker so mehansko preprosti.
+
+00:00:44.255 --> 00:00:46.644
+Z nadzorovanjem hitrosti
+teh štirih propelerjev,
+
+00:00:46.668 --> 00:00:49.413
+se te naprave lahko obračajo,
+nagnejo, zavijajo
+
+00:00:49.437 --> 00:00:51.608
+in pospešujejo v isti smeri.
+
+00:00:52.179 --> 00:00:55.377
+Nameščeni so tudi baterija, računalnik,
+
+00:00:55.401 --> 00:00:57.724
+različni senzorji in brezžični radii.
+
+00:00:59.298 --> 00:01:02.607
+Kvadi so izjemno spretni,
+a ta spretnost ima svojo ceno.
+
+00:01:03.762 --> 00:01:05.844
+So neizogibno nestabilni
+
+00:01:05.844 --> 00:01:08.465
+in potrebujejo neke vrste
+avtomatično povratno kontrolo,
+
+00:01:08.469 --> 00:01:09.842
+da lahko letijo.
+
+00:01:16.259 --> 00:01:18.512
+Torej, kako je pravkar naredil to?
+
+00:01:19.497 --> 00:01:21.291
+Kamere na stropu in prenosnik
+
+00:01:21.315 --> 00:01:23.935
+služijo kot notranji
+globalni sistem določanja položaja.
+
+00:01:24.151 --> 00:01:26.340
+Uporablja se za lociranje
+predmetov v prostoru,
+
+00:01:26.364 --> 00:01:28.452
+ki imajo na sebi te odbojne oznake.
+
+00:01:28.476 --> 00:01:30.514
+Ti podatki so poslani na drugi prenosnik,
+
+00:01:30.538 --> 00:01:32.896
+ki poganja algoritme za ocene in nadzor,
+
+00:01:32.920 --> 00:01:34.874
+ki nato pošilja ukaze kvadu,
+
+00:01:34.898 --> 00:01:37.531
+ki prav tako poganja
+algoritme za ocene in nadzor.
+
+00:01:41.864 --> 00:01:44.106
+Večina našega raziskovanja so algoritmi.
+
+00:01:44.130 --> 00:01:46.706
+To je čarovnija, ki oživi te naprave.
+
+00:01:48.291 --> 00:01:52.324
+Kako torej narediš algoritme,
+ki ustvarijo mehanskega atleta?
+
+00:01:52.792 --> 00:01:55.669
+Uporabimo nekaj, čemur pravimo
+na modelih temelječ dizajn.
+
+00:01:55.839 --> 00:01:57.205
+Najprej ujamemo fiziko
+
+00:01:57.229 --> 00:02:00.212
+z matematičnim modelom,
+ki zajame obnašanje naprav.
+
+00:02:00.636 --> 00:02:04.586
+Uporabimo vejo matematike,
+ki ji pravimo teorija nadzora,
+
+00:02:04.610 --> 00:02:06.267
+da analiziramo te modele,
+
+00:02:06.291 --> 00:02:09.061
+in da sintetiziramo algoritme
+za njihov nadzor.
+
+00:02:09.820 --> 00:02:12.844
+Naprimer, s tem kvad lebdi.
+
+00:02:12.868 --> 00:02:16.158
+Najprej smo zajeli dinamiko
+s setom diferencialnih enačb.
+
+00:02:16.182 --> 00:02:19.634
+Nato smo manipulirali te enačbe
+s pomočjo teorije nadzora,
+
+00:02:19.658 --> 00:02:22.595
+da bi ustvarili algoritme,
+ki stabilizirajo kvad.
+
+00:02:23.130 --> 00:02:25.423
+Naj vam prikažem moč tega pristopa.
+
+00:02:29.198 --> 00:02:31.831
+Recimo, da želimo, da kvad ne samo lebdi,
+
+00:02:31.855 --> 00:02:33.514
+ampak tudi uravnoteži to palico.
+
+00:02:34.520 --> 00:02:36.294
+Z malo vaje
+
+00:02:36.318 --> 00:02:38.745
+je precej enostavno za človeka,
+
+00:02:38.745 --> 00:02:41.790
+a mi imamo prednost
+dveh nog na tleh
+
+00:02:41.790 --> 00:02:44.299
+in uporabo naših zelo vsestranskih rok.
+
+00:02:44.804 --> 00:02:47.542
+Postane malo težje,
+
+00:02:47.566 --> 00:02:49.545
+ko imam na tleh samo en nogo
+
+00:02:49.569 --> 00:02:51.171
+in ko ne uporabljam rok.
+
+00:02:52.733 --> 00:02:55.295
+Vidite, da ima ta palica na vrhu
+svetlečo oznako,
+
+00:02:55.319 --> 00:02:57.980
+kar pomeni, da jo lahko
+lociramo v prostoru.
+
+00:03:04.276 --> 00:03:05.343
+(občinstvo) Oh!
+
+00:03:05.367 --> 00:03:06.626
+(aplavz)
+
+00:03:09.695 --> 00:03:11.363
+(konec aplavza)
+
+00:03:11.387 --> 00:03:14.028
+Lahko vidite,
+da kvad dela rahle prilagoditve,
+
+00:03:14.052 --> 00:03:15.426
+da bi palico uravnotežil.
+
+00:03:16.417 --> 00:03:18.489
+Kako smo oblikovali algoritme za to?
+
+00:03:19.027 --> 00:03:22.268
+Modelu kvada smo dodali
+matematični model palice.
+
+00:03:22.603 --> 00:03:25.581
+Ko imamo enkrat model
+kombiniranega sistema palica-kvad,
+
+00:03:25.605 --> 00:03:29.414
+lahko uporabimo teorijo nadzora,
+da ustvarimo algoritme za njun nadzor.
+
+00:03:30.538 --> 00:03:32.102
+Vidite, kako je stabilna
+
+00:03:32.126 --> 00:03:34.795
+in tudi če jo malo potisnem,
+
+00:03:34.819 --> 00:03:35.985
+gre nazaj -
+
+00:03:37.589 --> 00:03:39.358
+na lepo, uravnoteženo pozicijo.
+
+00:03:40.087 --> 00:03:41.477
+Lahko tudi nadgradimo model,
+
+00:03:41.501 --> 00:03:43.872
+da vključimo, kje v prostoru želimo kvad.
+
+00:03:44.428 --> 00:03:47.371
+S tem kazalcem, narejenim
+iz odsevnih oznak,
+
+00:03:47.395 --> 00:03:49.824
+lahko pokažem, kje v prostoru želim kvad,
+
+00:03:49.848 --> 00:03:51.445
+na določeni distanci od mene.
+
+00:03:59.785 --> 00:04:01.665
+(Smeh)
+
+00:04:07.763 --> 00:04:10.889
+Ključ do teh akrobatskih
+manevrov so algoritmi,
+
+00:04:10.913 --> 00:04:13.206
+oblikovani s pomočjo matematičnih modelov
+
+00:04:13.230 --> 00:04:14.415
+in teorije nadzora.
+
+00:04:15.246 --> 00:04:17.231
+Povejmo kvadu, naj pride nazaj sem
+
+00:04:17.255 --> 00:04:18.919
+in naj pusti palico, da pade,
+
+00:04:18.943 --> 00:04:21.074
+in pokazal vam bom, kako pomembno
+
+00:04:21.098 --> 00:04:23.087
+je razumeti fizikalne modele
+
+00:04:23.111 --> 00:04:25.156
+in delovanje fizičnega sveta.
+
+00:04:37.462 --> 00:04:41.290
+Opazite, kako je kvad izgubil višino,
+ko sem nanj postavil kozarec vode.
+
+00:04:41.314 --> 00:04:42.717
+Za razliko od palice,
+
+00:04:42.741 --> 00:04:45.756
+nisem vključil 
+matematičnega modela kozarca
+
+00:04:45.780 --> 00:04:47.087
+v sistem.
+
+00:04:47.111 --> 00:04:50.124
+Pravzaprav, sistem sploh ne ve,
+da je kozarec tam.
+
+00:04:50.148 --> 00:04:52.886
+Kot prej, lahko uporabim kazalec,
+da povem kvadu,
+
+00:04:52.910 --> 00:04:54.481
+kje v prostoru želim, da je.
+
+00:04:57.684 --> 00:04:59.483
+(Aplavz)
+
+00:05:03.531 --> 00:05:05.071
+(konec aplavza)
+
+00:05:05.515 --> 00:05:07.254
+Ok, sedaj bi se morali vprašati,
+
+00:05:07.278 --> 00:05:09.340
+zakaj voda ne steče iz kozarca?
+
+00:05:09.888 --> 00:05:10.918
+Dve dejstvi.
+
+00:05:10.942 --> 00:05:14.575
+Prvo je, da gravitacija vpliva
+na vse objekte enako.
+
+00:05:15.051 --> 00:05:16.830
+Drugo je, da so propelerji
+
+00:05:16.854 --> 00:05:19.927
+vsi obrnjeni v isto smer kozarca, gor.
+
+00:05:20.642 --> 00:05:22.289
+Ko združiš ti dve stvari,
+
+00:05:22.313 --> 00:05:25.868
+je skupni rezultat, da so vse
+stranske sile na kozarec majhne
+
+00:05:25.892 --> 00:05:28.169
+in jim dominirajo aerodinamični učinki,
+
+00:05:28.193 --> 00:05:30.154
+ki so ob teh hitrostih zanemarljivi.
+
+00:05:35.336 --> 00:05:37.574
+In zato vam ni treba
+narediti modela za kozarec.
+
+00:05:37.574 --> 00:05:40.435
+Naravno se ne polije,
+ne glede na to, kaj naredi kvad.
+
+00:05:44.500 --> 00:05:47.063
+(občinstvo) Oh!
+
+00:05:50.340 --> 00:05:52.198
+(aplavz)
+
+00:05:55.159 --> 00:05:56.414
+(konec aplavza)
+
+00:05:57.940 --> 00:05:59.054
+Lekcija tu je,
+
+00:05:59.078 --> 00:06:03.091
+da so nekatere visoko zmogljivostne
+naloge lažje od drugih
+
+00:06:03.115 --> 00:06:05.452
+in da ti razumevanje fizikalnosti problema
+
+00:06:05.476 --> 00:06:08.170
+pove, katere so lahke in katere težke.
+
+00:06:08.194 --> 00:06:10.704
+V tem primeru je nošenje kozarca lahko.
+
+00:06:10.728 --> 00:06:12.358
+Uravnotežiti palico je težko.
+
+00:06:14.171 --> 00:06:18.442
+Vsi smo slišali zgodbe o atletih, ki so
+izvajali podvige med fizično poškodbo.
+
+00:06:18.466 --> 00:06:21.651
+Lahko naprava še vedno deluje,
+kljub hudi poškodbi?
+
+00:06:22.636 --> 00:06:24.121
+Konvencionalna modrost pravi,
+
+00:06:24.145 --> 00:06:28.028
+da potrebuješ vsaj štiri fiksne motorne
+propelerske pare, da lahko leti,
+
+00:06:28.052 --> 00:06:30.576
+ker nadzorujemo štiri stopnje prostosti:
+
+00:06:30.600 --> 00:06:32.865
+obračanje, nagibanje,
+zavijanje in pospeševanje.
+
+00:06:33.192 --> 00:06:36.413
+Heksakopterji in oktokopterji,
+s šestimi in osmimi propelerji,
+
+00:06:36.437 --> 00:06:40.246
+lahko nudijo več moči, kot je potrebujejo,
+ampak kvadkopterji so bolj popularni,
+
+00:06:40.246 --> 00:06:43.985
+ker imajo minimalno število fiksnih
+motornih propelerskih parov: štiri.
+
+00:06:44.168 --> 00:06:45.184
+Ali pač?
+
+00:06:52.827 --> 00:06:53.827
+(občinstvo) Oh!
+
+00:06:54.407 --> 00:06:55.407
+(smeh)
+
+00:07:01.334 --> 00:07:04.052
+Če analiziramo
+matematični model te naprave
+
+00:07:04.076 --> 00:07:06.228
+s samo dvema delujočima propelerjema,
+
+00:07:06.252 --> 00:07:08.992
+odkrijemo, da obstaja
+neobičajen način letenja.
+
+00:07:19.980 --> 00:07:21.662
+Izgubimo zavijanje,
+
+00:07:21.686 --> 00:07:24.952
+ampak obračanje, nagibanje
+in pospeševanje lahko še vedno nadzorujemo
+
+00:07:24.952 --> 00:07:28.102
+z algoritmi, ki uporabijo 
+to novo konfiguracijo.
+
+00:07:33.668 --> 00:07:37.957
+Matematični modeli nam povedo,
+točno zakaj in kdaj je to možno.
+
+00:07:37.981 --> 00:07:40.759
+V tem primeru nam to znanje
+omogoča, da oblikujemo
+
+00:07:40.783 --> 00:07:43.256
+izvirne načrte naprav
+
+00:07:43.280 --> 00:07:46.948
+ali oblikovanje pametnih algoritmov,
+ki elegantno obvladajo poškodbe,
+
+00:07:46.972 --> 00:07:48.672
+tako kot človeški atleti,
+
+00:07:48.696 --> 00:07:51.790
+namesto da bi gradili naprave
+z več moči, kot je potrebujejo.
+
+00:07:52.688 --> 00:07:54.345
+Ne moremo, da ne bi zajeli sape,
+
+00:07:54.369 --> 00:07:57.044
+ko gledamo potapljača,
+kako se požene v vodo,
+
+00:07:57.068 --> 00:07:59.021
+ali ko se skakalec vrti v zraku,
+
+00:07:59.025 --> 00:08:00.562
+tla pa se mu hitro približujejo.
+
+00:08:00.576 --> 00:08:03.120
+Bo potapljaču uspel skok?
+
+00:08:03.144 --> 00:08:04.951
+Bo skakalcu uspel pristanek?
+
+00:08:05.292 --> 00:08:08.472
+Recimo da želimo, 
+da se ta kvad trikrat obrne
+
+00:08:08.496 --> 00:08:11.322
+in konča na istem mestu, kot je začel.
+
+00:08:11.736 --> 00:08:13.855
+Ta manever se bo zgodil tako hitro,
+
+00:08:13.879 --> 00:08:17.724
+da ne moremo uporabiti pozicijske
+povratne informacije.
+
+00:08:17.748 --> 00:08:19.345
+Preprosto ni dovolj časa.
+
+00:08:19.782 --> 00:08:23.452
+Namesto tega lahko kvad
+slepo izvede manever,
+
+00:08:23.476 --> 00:08:25.684
+opazuje, kako konča manever,
+
+00:08:25.708 --> 00:08:28.485
+in potem uporabi te informacije,
+da popravi to gibanje,
+
+00:08:28.485 --> 00:08:30.117
+tako, da je naslednjič boljše.
+
+00:08:30.421 --> 00:08:32.209
+Podobno kot potapljač ali skakalec,
+
+00:08:32.233 --> 00:08:34.128
+samo skozi vajo
+
+00:08:34.152 --> 00:08:36.109
+se lahko ta manever nauči in izvede
+
+00:08:36.109 --> 00:08:37.561
+po najvišjih standardih.
+
+00:08:45.100 --> 00:08:46.369
+(smeh)
+
+00:08:46.393 --> 00:08:50.178
+(aplavz)
+
+00:08:51.164 --> 00:08:54.612
+Zadeti premikajočo se žogo,
+je nujna sposobnost v mnogih športih.
+
+00:08:55.127 --> 00:08:56.619
+Kako naprava naredi nekaj,
+
+00:08:56.643 --> 00:08:59.231
+kot naredi atlet navidez brez truda?
+
+00:09:09.547 --> 00:09:11.054
+(smeh)
+
+00:09:16.143 --> 00:09:18.000
+(aplavz)
+
+00:09:20.500 --> 00:09:21.798
+(konec aplavza)
+
+00:09:22.542 --> 00:09:25.168
+Ta kvad ima lopar na glavi
+
+00:09:25.192 --> 00:09:28.655
+z optimalno točko v velikosti jabolka,
+torej ne preveliko.
+
+00:09:29.017 --> 00:09:31.822
+Naslednji izračuni
+so narejeni vsakih 20 milisekund
+
+00:09:31.846 --> 00:09:33.163
+ali 50-krat na sekundo.
+
+00:09:33.602 --> 00:09:35.877
+Najprej ugotovimo, kam gre žoga.
+
+00:09:36.414 --> 00:09:39.035
+Nato izračunamo, kako naj kvad udari žogo,
+
+00:09:39.059 --> 00:09:41.544
+da leti tja, od koder je bila vržena.
+
+00:09:41.950 --> 00:09:46.382
+tretjič načrtujemo tirnico, ki ponese kvad
+
+00:09:46.406 --> 00:09:49.406
+od trenutnega mesta
+na točko udarca z žogo.
+
+00:09:49.430 --> 00:09:53.009
+Četrtič, izvedemo samo 20 milisekund
+te strategije.
+
+00:09:53.366 --> 00:09:56.159
+Dvajset milisekund kasneje
+se celoten proces ponovi,
+
+00:09:56.183 --> 00:09:57.950
+dokler kvad ne udari žoge.
+
+00:10:07.290 --> 00:10:09.694
+(aplavz)
+
+00:10:10.131 --> 00:10:13.554
+Naprave ne samo da same 
+izvedejo dinamične manevre,
+
+00:10:13.578 --> 00:10:15.417
+to lahko počnejo v skupinah.
+
+00:10:15.441 --> 00:10:19.028
+Ti trije kvadi skupaj nosijo mrežo.
+
+00:10:27.589 --> 00:10:29.268
+(aplavz)
+
+00:10:32.372 --> 00:10:33.961
+(konec aplavza)
+
+00:10:33.985 --> 00:10:38.326
+Izvajajo neverjetno
+dinamičen in kolektiven manever,
+
+00:10:38.350 --> 00:10:40.018
+da bi mi prinesli žogo nazaj.
+
+00:10:40.042 --> 00:10:43.188
+Vidite, ob popolni raztegnitvi
+so ti kvadi vertikalno.
+
+00:10:48.486 --> 00:10:50.234
+(aplavz)
+
+00:10:50.258 --> 00:10:52.401
+Ob popolni iztegnitvi
+
+00:10:52.425 --> 00:10:55.688
+je to petkrat več kot to,
+kar čuti bungee skakalec
+
+00:10:55.712 --> 00:10:57.682
+na koncu skoka.
+
+00:11:03.203 --> 00:11:05.662
+Algoritmi za to so zelo podobni
+
+00:11:05.686 --> 00:11:08.601
+tistim, ki jih je uporabil en kvad,
+da mi je odbil žogo nazaj.
+
+00:11:09.070 --> 00:11:11.930
+Matematično modeli so uporabljeni
+za neprestano re-planiranje
+
+00:11:11.934 --> 00:11:14.765
+kooperativne strategije
+50-krat na sekundo.
+
+00:11:16.506 --> 00:11:20.765
+Vse, kar smo videli do zdaj,
+so bile naprave in njihove sposobnosti.
+
+00:11:20.789 --> 00:11:23.781
+Kaj se zgodi, ko združimo
+atletskost teh naprav
+
+00:11:23.805 --> 00:11:25.288
+s človeško?
+
+00:11:25.765 --> 00:11:29.361
+Pred seboj imam komercialni
+senzor gibanja,
+
+00:11:29.385 --> 00:11:30.670
+ki se uporablja pri igrah.
+
+00:11:30.694 --> 00:11:34.232
+Lahko prepozna, kaj počnejo
+deli mojega telesa v realnem času.
+
+00:11:34.710 --> 00:11:36.809
+Podobno kot kazalec,
+ki sem ga uporabil prej.
+
+00:11:36.813 --> 00:11:39.035
+lahko vstavimo te vhodne podatke v sistem.
+
+00:11:39.454 --> 00:11:42.216
+Sedaj imamo naraven način sodelovanja
+
+00:11:42.216 --> 00:11:45.501
+surove atletskosti tega kvada
+z mojimi kretnjami.
+
+00:12:22.715 --> 00:12:26.572
+(aplavz)
+
+00:12:36.354 --> 00:12:38.370
+Interakcija ni nujno virtualna.
+
+00:12:38.394 --> 00:12:39.584
+Lahko je fizična.
+
+00:12:39.989 --> 00:12:41.504
+Poglejmo naprimer tale kvad.
+
+00:12:41.893 --> 00:12:44.116
+Poskuša obstati
+na določeni točki v prostoru.
+
+00:12:44.933 --> 00:12:48.622
+Če ga poskušam premakniti, se upira
+
+00:12:48.646 --> 00:12:50.520
+in se premakne tja, kjer želi biti.
+
+00:12:52.254 --> 00:12:54.341
+A to obnašanje lahko spremenimo.
+
+00:12:55.373 --> 00:12:57.048
+Lahko uporabimo matematične modele,
+
+00:12:57.072 --> 00:12:59.736
+ki ocenijo silo, ki jo uporabim na kvadu.
+
+00:13:00.205 --> 00:13:03.419
+Ko poznamo to silo, 
+lahko spremenimo zakone fizike,
+
+00:13:03.443 --> 00:13:05.530
+vsaj kar se tiče kvada.
+
+00:13:07.942 --> 00:13:11.251
+Tu se kvad obnaša,
+kot da bi bil v viskozni tekočini.
+
+00:13:14.570 --> 00:13:18.289
+Sedaj imamo intimen način
+sodelovanja z napravo.
+
+00:13:18.593 --> 00:13:21.075
+To novo sposobnost bom uporabil,
+da namestim
+
+00:13:21.099 --> 00:13:23.652
+ta kvad s kamero na primerno lokacijo
+
+00:13:23.676 --> 00:13:26.104
+za snemanje preostanka te predstavitve.
+
+00:13:36.583 --> 00:13:38.966
+Tako lahko fizično komuniciramo
+s temi kvadi
+
+00:13:38.990 --> 00:13:40.950
+in lahko spremenimo zakone fizike.
+
+00:13:41.393 --> 00:13:43.370
+Pozabavajmo se.
+
+00:13:43.539 --> 00:13:44.908
+Zdaj boste videli
+
+00:13:44.932 --> 00:13:48.226
+kvade, ki se bodo obnašali,
+kot bi bili na Plutonu.
+
+00:13:48.906 --> 00:13:51.194
+Čez čas se bo gravitacija povečevala,
+
+00:13:51.218 --> 00:13:53.243
+dokler ne bomo nazaj na Zemlji,
+
+00:13:53.267 --> 00:13:55.033
+a zagotavljam, da ne bomo prišli tja.
+
+00:13:55.462 --> 00:13:56.486
+No, gremo.
+
+00:14:04.897 --> 00:14:06.448
+(smeh)
+
+00:14:34.778 --> 00:14:37.738
+(smeh)
+
+00:14:37.858 --> 00:14:41.619
+(aplavz)
+
+00:14:41.760 --> 00:14:42.826
+Uf!
+
+00:14:47.045 --> 00:14:48.272
+Sedaj si mislite,
+
+00:14:48.296 --> 00:14:50.247
+tile se preveč zabavajo
+
+00:14:50.271 --> 00:14:52.326
+in najbrž se sprašujete,
+
+00:14:52.350 --> 00:14:55.151
+zakaj sploh gradijo mehanične atlete?
+
+00:14:56.286 --> 00:14:59.096
+Nekateri domnevajo,
+da je vloga igre v živalskem kraljestvu,
+
+00:14:59.120 --> 00:15:01.387
+izboljšane spretnosti
+in razvijanje sposobnosti.
+
+00:15:01.690 --> 00:15:03.905
+Drugi mislijo, da ima socialno vlogo,
+
+00:15:03.929 --> 00:15:05.579
+da poveže skupino.
+
+00:15:05.603 --> 00:15:08.939
+Podobno uporabljamo
+analogijo športa in atletskosti,
+
+00:15:08.963 --> 00:15:11.018
+da ustvarimo nove algoritme za naprave,
+
+00:15:11.042 --> 00:15:12.485
+da jih potisnemo do meja.
+
+00:15:13.350 --> 00:15:16.398
+Kakšen vpliv bo imela hitrost
+teh naprav na naša življenja?
+
+00:15:16.866 --> 00:15:19.231
+Kot vsi naši pretekli izumi in inovacije,
+
+00:15:19.255 --> 00:15:22.058
+jih lahko uporabimo
+za izboljšanje kvalitete življenja
+
+00:15:22.082 --> 00:15:24.056
+ali pa bodo zlorabljeni.
+
+00:15:24.595 --> 00:15:26.897
+To ni tehnična izbira,
+
+00:15:26.921 --> 00:15:27.936
+socialna je.
+
+00:15:28.332 --> 00:15:29.683
+Odločimo se prav,
+
+00:15:29.707 --> 00:15:32.619
+za odločitev, ki potegne najboljše
+iz prihodnosti naprav,
+
+00:15:32.643 --> 00:15:35.808
+tako kot atletskost v športu 
+potegne najboljše iz nas.
+
+00:15:36.380 --> 00:15:39.455
+Naj vam predstavim čarovnike
+za zeleno zaveso.
+
+00:15:39.479 --> 00:15:42.813
+To so trenutni člani raziskovalne ekipe
+Flying Machine Arena.
+
+00:15:42.837 --> 00:15:47.054
+(aplavz)
+
+00:15:47.267 --> 00:15:49.545
+Federico Augugliaro, Dario Brescianini,
+
+00:15:49.569 --> 00:15:52.994
+Markus Hehn, Sergei Lupashin,
+Mark Muller in Robin Ritz.
+
+00:15:53.018 --> 00:15:55.542
+Bodite pozorni nanje.
+Dosegli bodo velike stvari.
+
+00:15:55.566 --> 00:15:56.620
+Hvala.
+
+00:15:56.644 --> 00:16:00.100
+(aplavz)
+

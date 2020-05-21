@@ -1,0 +1,620 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Karoly Vincze
+Lektor: Medve Gyula
+
+00:00:12.562 --> 00:00:15.623
+Eric Berlow: Én ökológus vagyok, Sean pedig fizikus,
+
+00:00:15.623 --> 00:00:17.731
+és mindketten az összetett hálózatokat tanulmányozzuk.
+
+00:00:17.731 --> 00:00:19.566
+Pár évvel ezelőtt találkoztunk, amikor kiderült, hogy
+
+00:00:19.566 --> 00:00:21.566
+korábban mindketten tartottunk egy-egy rövid Ted előadást
+
+00:00:21.566 --> 00:00:23.869
+a háborúk környezettanáról,
+
+00:00:23.869 --> 00:00:25.316
+és rájöttünk, hogy a találkozásunk előtt már létezett kapcsolat
+
+00:00:25.316 --> 00:00:28.134
+közöttünk a közös témák által.
+
+00:00:28.134 --> 00:00:29.690
+És akkor belegondoltunk, hogy több ezer, elsősorban
+
+00:00:29.690 --> 00:00:31.804
+TEDx előadás található a neten, amiket folyamatosan
+
+00:00:31.804 --> 00:00:34.015
+töltenek fel az internetre a világ minden részéről.
+
+00:00:34.015 --> 00:00:34.938
+Milyen kapcsolatok léteznek az előadások között,
+
+00:00:34.938 --> 00:00:36.948
+és hogyan képzeljük el ezeket a globális párbeszédeket?
+
+00:00:36.948 --> 00:00:39.758
+Most pedig Sean bemutatja Nektek, hogy valójában mit is csináltunk.
+
+00:00:39.758 --> 00:00:43.525
+Sean Gourley: Tehát vettünk 24.000 TEDx előadásmintát
+
+00:00:43.525 --> 00:00:46.571
+a világ minden részéről, összesen 147 országból,
+
+00:00:46.571 --> 00:00:48.694
+és az előadásokból azt akartuk megtudni,
+
+00:00:48.694 --> 00:00:50.734
+hogy létezik-e valamiféle alapvető matematikai összefüggés,
+
+00:00:50.734 --> 00:00:52.456
+ami meghatározza ezeket a gondolatokat.
+
+00:00:52.456 --> 00:00:53.826
+Azt is tudni akartuk, hogy ezeket az alapvető kapcsolatokat
+
+00:00:53.826 --> 00:00:55.879
+vizuálisan meg tudjuk-e jeleníteni.
+
+00:00:55.879 --> 00:00:57.555
+Természetesen az ilyen dolgokhoz
+
+00:00:57.555 --> 00:00:58.511
+rendkívül sok adatra van szükség.
+
+00:00:58.511 --> 00:01:02.197
+Az adatokat pedig nem máshonnan, mint a YouTube-ról szedtük,
+
+00:01:02.197 --> 00:01:03.965
+ugyanis onnan könnyen elérhető
+
+00:01:03.965 --> 00:01:06.232
+az összes nyílt információ,
+
+00:01:06.232 --> 00:01:08.581
+az összes hozzászólás, a letöltések száma, kik nézik a videót,
+
+00:01:08.581 --> 00:01:11.360
+a világ melyik részéről nézik, és mit írnak a hozzászólásokban.
+
+00:01:11.360 --> 00:01:14.652
+Beszédfelismerő szoftverrel pedig az egész előadás
+
+00:01:14.652 --> 00:01:16.780
+átiratát létre tudjuk hozni.
+
+00:01:16.780 --> 00:01:19.460
+Érdekes, hogy a szoftver még az ilyen furcsa akcentusokat is kezelni tudja, mint amilyen az enyém.
+
+00:01:19.460 --> 00:01:21.566
+Tehát amikor már megvan a szöveges átirat,
+
+00:01:21.566 --> 00:01:23.664
+akkor elkezdhetünk játszani az adatokkal.
+
+00:01:23.664 --> 00:01:25.824
+Beszélt nyelvet feldolgozó algoritmusok alkalmazásával
+
+00:01:25.824 --> 00:01:28.453
+számítógép segítségével sorról-sorra végig tudunk menni a szövegen,
+
+00:01:28.453 --> 00:01:30.812
+és az alapfogalmakat ki tudjuk emelni.
+
+00:01:30.812 --> 00:01:33.337
+Ezek az alapfogalmak biztosítják számunkra
+
+00:01:33.337 --> 00:01:36.902
+egy gondolat matematikai struktúráját.
+
+00:01:36.902 --> 00:01:38.659
+Ezt "mémtérképnek" neveztük el.
+
+00:01:38.659 --> 00:01:40.810
+A mémtérkép tehát nem más,
+
+00:01:40.810 --> 00:01:43.236
+mint egy gondolat matematikai leírása.
+
+00:01:43.236 --> 00:01:45.168
+A mémtérkép elemzésével rendkívüli dolgokat tapasztaltunk.
+
+00:01:45.168 --> 00:01:47.149
+Ezeket szeretném most megosztani.
+
+00:01:47.149 --> 00:01:49.339
+Tehát, minden gondolatnak megvan a saját mémtérképe,
+
+00:01:49.339 --> 00:01:51.290
+ezáltal minden gondolat egyedinek számít.
+
+00:01:51.290 --> 00:01:53.778
+Azonban a gondolatok kölcsönöznek,
+
+00:01:53.778 --> 00:01:54.962
+sőt néha lopnak is egymástól,
+
+00:01:54.962 --> 00:01:56.789
+valamint egymásra is épülnek.
+
+00:01:56.789 --> 00:01:58.405
+Matematikailag sorba lehet venni
+
+00:01:58.405 --> 00:02:00.245
+egy előadás mémtérképét, és összehasonlítani
+
+00:02:00.245 --> 00:02:02.699
+az összes többi előadás mémtérképével,
+
+00:02:02.699 --> 00:02:04.672
+és ha találunk közöttük kapcsolatot,
+
+00:02:04.672 --> 00:02:07.922
+akkor azt a kapcsolatot, mint a kapcsolatot Eric és köztem,
+
+00:02:07.922 --> 00:02:10.316
+egy gráffal tudjuk szemléltetni.
+
+00:02:10.316 --> 00:02:11.710
+Ez eddig az elmélet.
+
+00:02:11.710 --> 00:02:14.236
+Most nézzük meg, hogyan működik ez a gyakorlatban.
+
+00:02:14.236 --> 00:02:17.024
+Itt látható az utóbbi négy év összes TEDx előadásának
+
+00:02:17.024 --> 00:02:19.317
+globális megjelenítése, amint robbanásszerűen
+
+00:02:19.317 --> 00:02:20.867
+posztolták az előadásokat a világ minden részéről,
+
+00:02:20.867 --> 00:02:24.196
+New Yorktól egészen a jó öreg Új-Zélandig ott lent a sarokban.
+
+00:02:24.196 --> 00:02:28.031
+Ezután fogtuk az előadások felső negyedét,
+
+00:02:28.031 --> 00:02:30.565
+hogy megfigyeljük hol jöttek létre a kapcsolatok,
+
+00:02:30.565 --> 00:02:32.102
+és hogyan kapcsolódtak egymással.
+
+00:02:32.102 --> 00:02:33.976
+Itt látható Cameron Russell előadása a szépségről
+
+00:02:33.976 --> 00:02:35.551
+ahogyan összekapcsolódik Európával.
+
+00:02:35.551 --> 00:02:37.963
+Itt van egy komolyabb párbeszéd az izraeli-palesztin helyzetről,
+
+00:02:37.963 --> 00:02:40.218
+a közel-keleti térségből kiindulva.
+
+00:02:40.218 --> 00:02:41.516
+És itt látható a nagy adathalmazok témájának
+
+00:02:41.516 --> 00:02:43.672
+valóban globális megjelenítése, ami
+
+00:02:43.672 --> 00:02:45.851
+jól mutatja, hogy erről a témáról
+
+00:02:45.851 --> 00:02:47.867
+mindenhol beszélnek.
+
+00:02:47.867 --> 00:02:50.040
+A földrajzi megjelenítés lehetőségeit ezzel
+
+00:02:50.040 --> 00:02:52.570
+nagyjából ki is merítettük,
+
+00:02:52.570 --> 00:02:54.622
+de szerencsére a számitástechnika segitségével
+
+00:02:54.622 --> 00:02:56.168
+a többdimenziós térben is megjeleníthetjük az adatokat.
+
+00:02:56.168 --> 00:02:58.043
+Ha a hálózati összeköttetéseket egy fizikai szimulációt alkalmazó
+
+00:02:58.043 --> 00:02:59.793
+szoftver segítségével ábrázoljuk,
+
+00:02:59.793 --> 00:03:01.678
+ahol a hasonló előadások közelednek egymáshoz,
+
+00:03:01.678 --> 00:03:03.682
+mig a különbözőek távolodnak,
+
+00:03:03.682 --> 00:03:05.754
+akkor a végeredmény egyszerűen csodálatos!
+
+00:03:05.754 --> 00:03:08.711
+EB: Csak, hogy világos legyen, minden pont egy előadást jelent,
+
+00:03:08.711 --> 00:03:11.300
+amik a közös gondolatok alapján csatlakoznak.
+
+00:03:11.300 --> 00:03:13.384
+A kapcsolatot a gépi algoritmusok létesítik
+
+00:03:13.384 --> 00:03:15.451
+nem csak a kulcsszavak és címkék,
+
+00:03:15.451 --> 00:03:17.682
+hanem teljes szöveg elemzésével,
+
+00:03:17.682 --> 00:03:19.472
+és így kerülnek a gráfra.
+
+00:03:19.472 --> 00:03:21.197
+Tehát a hasonló gondolatok hálózati kapcsolatának
+
+00:03:21.197 --> 00:03:23.365
+grafikus megjelenítése látható itt. Folytasd, kérlek!
+
+00:03:23.365 --> 00:03:25.387
+SG: Pontosan. Egy kicsit elsiettem a dolgot,
+
+00:03:25.387 --> 00:03:26.862
+de Eric szerencsére segít nekem.
+
+00:03:26.862 --> 00:03:28.896
+Tehát, az oktatás összefügg az történetmeséléssel,
+
+00:03:28.896 --> 00:03:30.539
+valamint a közösségi médiával.
+
+00:03:30.539 --> 00:03:33.014
+Az emberi agy itt található az egészségügytől jobbra,
+
+00:03:33.014 --> 00:03:34.400
+ahogyan ez várható volt,
+
+00:03:34.400 --> 00:03:36.795
+de itt vannak mellette a videójátékok is,
+
+00:03:36.795 --> 00:03:39.535
+ahogy a két terület egymással érintkezik.
+
+00:03:39.535 --> 00:03:41.070
+De nézzünk meg egy csoportot közelebbről is,
+
+00:03:41.070 --> 00:03:43.938
+ami különösen fontos számomra, a környezet.
+
+00:03:43.938 --> 00:03:45.431
+Nagyítsuk ki ezt a részt,
+
+00:03:45.431 --> 00:03:47.794
+és nézzük meg nagyobb felbontásban.
+
+00:03:47.794 --> 00:03:50.141
+Ahogy a grafikus szoftver beindul,
+
+00:03:50.141 --> 00:03:51.645
+láthatjuk, - ahogy a fizikai szimuláció újra létrejön - hogy
+
+00:03:51.645 --> 00:03:53.321
+egy téma igazából több,
+
+00:03:53.321 --> 00:03:55.881
+kisebb egységből épül fel.
+
+00:03:55.881 --> 00:03:57.810
+Ahogy kialakul a szerkezet,
+
+00:03:57.810 --> 00:03:59.880
+megnézhetjük az általunk használt szavak és kifejezések
+
+00:03:59.880 --> 00:04:01.499
+fraktáldimenzióját, ami bemutatja
+
+00:04:01.499 --> 00:04:03.201
+a számunkra fontos dolgokat
+
+00:04:03.201 --> 00:04:04.634
+szerte a világon.
+
+00:04:04.634 --> 00:04:06.966
+Így kerül az élelmiszergazdaság és a helyi termesztés legfelülre,
+
+00:04:06.966 --> 00:04:09.685
+ide pedig az üvegházhatású gázok, napenergia és atomhulladék.
+
+00:04:09.685 --> 00:04:12.316
+Az eredmény tehát kisebb témák széles skálája,
+
+00:04:12.316 --> 00:04:14.617
+amik mind-mind közös gondolatok és kifejezések által
+
+00:04:14.617 --> 00:04:15.918
+kapcsolódnak egymáshoz, ezáltal kialakítva
+
+00:04:15.918 --> 00:04:18.368
+a környezet fogalmának egy széleskörű meghatározását.
+
+00:04:18.368 --> 00:04:19.900
+Innen folytatva pedig megnézhetjük, hogy
+
+00:04:19.900 --> 00:04:23.434
+mondjuk a fiatalokat mi érdekli.
+
+00:04:23.434 --> 00:04:25.779
+Ők leginkább az energiatechnológia és a nukleáris fúzió témakörben
+
+00:04:25.779 --> 00:04:27.453
+érdekeltek, és a környezetről szóló előadások közül
+
+00:04:27.453 --> 00:04:29.859
+ez érdekli őket a legjobban.
+
+00:04:29.859 --> 00:04:31.758
+Ha a nemek szerinti eloszlásra vagyunk kíváncsiak,
+
+00:04:31.758 --> 00:04:33.745
+akkor láthatóan a nőket sokkal jobban érdekli az élelmiszer-gazdaság,
+
+00:04:33.745 --> 00:04:37.390
+ugyanakkor itt a bal szélen a remény és optimizmus is.
+
+00:04:37.390 --> 00:04:39.872
+Ugye milyen érdekes dolgokat lehet ezzel csinálni?
+
+00:04:39.872 --> 00:04:41.634
+És akkor most átadom a szót Eric-nek.
+
+00:04:41.634 --> 00:04:43.236
+EB: igen, azt azért hangsúlyozni szeretném,
+
+00:04:43.236 --> 00:04:44.774
+hogy egy egyszerű címszó kereséssel a YouTube-on
+
+00:04:44.774 --> 00:04:48.134
+nem lehet ilyen bonyolult elemzéseket készíteni.
+
+00:04:48.134 --> 00:04:52.322
+A környezetnél maradva, most akkor menjünk vissza
+
+00:04:52.322 --> 00:04:54.856
+a globális szintre, és nézzük meg az összes témát.
+
+00:04:54.856 --> 00:04:57.783
+Amikor ilyen hatalmas mennyiségű tartalmat vizsgálunk,
+
+00:04:57.783 --> 00:05:00.214
+gyakran kell egyszerűsítésekhez folyamodnunk.
+
+00:05:00.214 --> 00:05:01.528
+Például nézzük meg, hogy
+
+00:05:01.528 --> 00:05:04.357
+melyek a legnépszerűbb témák!
+
+00:05:04.357 --> 00:05:05.754
+Egy pár téma kiemelkedik a sorból.
+
+00:05:05.754 --> 00:05:07.582
+Van egy előadás a háláról.
+
+00:05:07.582 --> 00:05:10.926
+Van egy másik az egészségről és táplálkozásról.
+
+00:05:10.926 --> 00:05:13.855
+És milyen lenne a lista pornó nélkül, ugye?
+
+00:05:13.855 --> 00:05:17.089
+Ha megnézzük, a hála témája tavaly volt népszerű.
+
+00:05:17.089 --> 00:05:19.611
+Most mi a trendi? Miről beszélnek az emberek ma?
+
+00:05:19.611 --> 00:05:22.932
+És íme, láthatjuk, hogy az új, feltörekvő téma
+
+00:05:22.932 --> 00:05:25.598
+a digitális biztonság.
+
+00:05:25.598 --> 00:05:27.291
+Ez tehát sikeresen leegyszerűsíti a dolgokat.
+
+00:05:27.291 --> 00:05:29.118
+De nézzétek azt a rengeteg kreatív tartalmat
+
+00:05:29.118 --> 00:05:31.039
+ott a grafikon alján!
+
+00:05:31.039 --> 00:05:34.357
+Ez nagyon szomorú. Hogyan lehetne felhozni a felszínre
+
+00:05:34.357 --> 00:05:36.815
+azokat az érdekes és ötletgazdag témákat?
+
+00:05:36.815 --> 00:05:39.746
+Ehhez vissza kell mennünk az ötletek
+
+00:05:39.746 --> 00:05:41.176
+kapcsolati szerkezetéhez.
+
+00:05:41.176 --> 00:05:43.290
+Ne feledjük, hogy a kapcsolati szerkezet generálja
+
+00:05:43.290 --> 00:05:45.558
+a népszerű témákat.
+
+00:05:45.558 --> 00:05:47.073
+Vegyünk például két témát, úgy mint városok és genetika,
+
+00:05:47.073 --> 00:05:50.120
+és nézzük meg, létezik-e olyan előadás,
+
+00:05:50.120 --> 00:05:52.689
+ami összeköti ezt a két valóban különböző témát.
+
+00:05:52.689 --> 00:05:54.964
+Igazából ez a fajta kreatív egyveleg adja
+
+00:05:54.964 --> 00:05:56.804
+az innováció alapját.
+
+00:05:56.804 --> 00:05:58.410
+Itt van tehát Jessica Green előadása
+
+00:05:58.410 --> 00:06:00.789
+az épületek mikrobás ökológiájáról.
+
+00:06:00.789 --> 00:06:02.799
+Ez aztán szó szerint egy teljesen új tudományágat hozott létre.
+
+00:06:02.799 --> 00:06:04.902
+Ha mélyebben megvizsgáljuk ezeket az előadásokat,
+
+00:06:04.902 --> 00:06:07.670
+akkor megtalálhatjuk a témák központi elemét.
+
+00:06:07.670 --> 00:06:09.360
+A városok témakörében, központi helyet foglal el
+
+00:06:09.360 --> 00:06:13.312
+Mitch Joachim előadása az élhető városokról,
+
+00:06:13.312 --> 00:06:15.032
+a genetika témakörében pedig
+
+00:06:15.032 --> 00:06:18.225
+Craig Venter szintetikus biológiája van a középpontban.
+
+00:06:18.225 --> 00:06:21.578
+Ezek az előadások kötik össze az összes többi témát a saját tudományágukban.
+
+00:06:21.578 --> 00:06:23.421
+Másik irányba is elindulhatunk, hogy megvizsgáljuk
+
+00:06:23.421 --> 00:06:25.693
+melyek azok az előadások, amik a különböző témákat
+
+00:06:25.693 --> 00:06:27.141
+egységbe foglalják.
+
+00:06:27.141 --> 00:06:29.674
+Az ökodiverzitás egy elemét használva kiderült, hogy
+
+00:06:29.674 --> 00:06:32.410
+Steven Pinker, az erőszak történetéről szóló előadása
+
+00:06:32.410 --> 00:06:33.590
+meglehetősen átfogó és egységbe foglaló.
+
+00:06:33.590 --> 00:06:35.668
+És ezen felül vannak olyan témák is, távol mindentől,
+
+00:06:35.668 --> 00:06:38.758
+magányosan a világűrben, amik annyira egyediek,
+
+00:06:38.758 --> 00:06:41.272
+hogy a meghatározásukra megalkottuk a Colleen Flanagan indexet.
+
+00:06:41.272 --> 00:06:44.306
+Ha nem ismernétek, akkor elmondom, hogy Colleen egy művész,
+
+00:06:44.306 --> 00:06:45.849
+és amikor kérdeztem, hogy "Milyen érzés ott kint lenni
+
+00:06:45.849 --> 00:06:47.521
+a gondolataink távoli galaxisában?", akkor
+
+00:06:47.521 --> 00:06:50.776
+csak annyit válaszolt, hogy "szalonna szagú"...
+
+00:06:50.776 --> 00:06:52.567
+Biztos úgy van.
+
+00:06:52.567 --> 00:06:54.815
+Összefoglalva elmondhatjuk, hogy a kapcsolati alapgondolatok alkalmazásával
+
+00:06:54.815 --> 00:06:56.001
+megkeressük az egyedi előadásokat,
+
+00:06:56.001 --> 00:06:58.711
+azokat, amelyek átfogó szerepet töltenek be különböző témákban,
+
+00:06:58.711 --> 00:07:00.370
+azokat, amelyek a témájukban központi szerepet foglalnak el,
+
+00:07:00.370 --> 00:07:03.744
+és azokat, amelyek valóban egyedi módon egyesítenek egymástól eltérő tudományágakat.
+
+00:07:03.744 --> 00:07:05.846
+Ha állandóan csak a legnépszerűbb témákra figyelünk,
+
+00:07:05.846 --> 00:07:08.159
+akkor ezekről mind lemaradtunk volna.
+
+00:07:08.159 --> 00:07:11.045
+Ez mind a komplexitás felépítéséből,
+
+00:07:11.045 --> 00:07:14.005
+illetve a kapcsolódó elemek mintájából származik.
+
+00:07:14.005 --> 00:07:15.630
+SG: Ez pontosan így van.
+
+00:07:15.630 --> 00:07:18.109
+Egy mérhetetlenül bonyolult világba keveredtünk bele,
+
+00:07:18.109 --> 00:07:20.153
+ahol algoritmusokat használunk arra,
+
+00:07:20.153 --> 00:07:23.020
+hogy az adatokat leszűrjük,
+
+00:07:23.020 --> 00:07:24.806
+és ezáltal eligazodjunk.
+
+00:07:24.806 --> 00:07:27.144
+És bár ezek az algoritmusok mind nagyon hasznosak,
+
+00:07:27.144 --> 00:07:30.620
+szerepük egyben korlátozott is. Ha megértjük, hogy
+
+00:07:30.620 --> 00:07:33.186
+a komplexitásuk nem véletlenszerű, akkor sokkal többre leszünk képesek.
+
+00:07:33.186 --> 00:07:35.140
+Matematikai struktúrával rendelkeznek,
+
+00:07:35.140 --> 00:07:36.943
+amit arra tudunk használni, hogy
+
+00:07:36.943 --> 00:07:39.157
+a világ összes gondolatát felfedezzük,
+
+00:07:39.157 --> 00:07:42.157
+hogy lássuk miről beszélnek az emberek,
+
+00:07:42.157 --> 00:07:43.564
+lássuk miről nem beszélnek, és hogy ezáltal emberségesebbek legyünk,
+
+00:07:43.564 --> 00:07:45.431
+és remélhetőleg okosabbak is.
+
+00:07:45.431 --> 00:07:46.397
+Köszönöm.
+
+00:07:46.397 --> 00:07:50.617
+(Taps)
+

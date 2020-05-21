@@ -1,0 +1,737 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+00:00:00.000 --> 00:00:07.000
+Vertaald door: Rik Delaet
+Nagekeken door: Roel Verbunt
+
+00:00:15.260 --> 00:00:18.260
+Het idee achter de Stuxnet-computerworm
+
+00:00:18.260 --> 00:00:20.260
+is eigenlijk heel simpel.
+
+00:00:20.260 --> 00:00:23.260
+We willen niet dat Iran de bom krijgt.
+
+00:00:23.260 --> 00:00:26.260
+Hun belangrijkste troef voor de ontwikkeling van nucleaire wapens
+
+00:00:26.260 --> 00:00:30.260
+is de fabriek in Natanz voor de verrijking van uranium.
+
+00:00:30.260 --> 00:00:32.260
+De grijze dozen die je ziet,
+
+00:00:32.260 --> 00:00:35.260
+zijn de real-timebesturingssystemen.
+
+00:00:35.260 --> 00:00:38.260
+Als we erin slagen de systemen, die de draaisnelheden
+
+00:00:38.260 --> 00:00:41.260
+en kleppen controleren, in de war te sturen,
+
+00:00:41.260 --> 00:00:44.260
+dan kunnen we een boel problemen
+
+00:00:44.260 --> 00:00:46.260
+met de centrifuge veroorzaken.
+
+00:00:46.260 --> 00:00:48.260
+Die grijze dozen gebruiken geen Windows-software;
+
+00:00:48.260 --> 00:00:51.260
+ze draaien op een compleet andere technologie.
+
+00:00:51.260 --> 00:00:53.260
+Maar we kunnen proberen
+
+00:00:53.260 --> 00:00:56.260
+om een goed Windows-virus
+
+00:00:56.260 --> 00:00:58.260
+op een notebook te plaatsen.
+
+00:00:58.260 --> 00:01:00.260
+Als een ingenieur dat notebook gebruikt
+
+00:01:00.260 --> 00:01:03.260
+om die grijze doos te configureren,
+
+00:01:03.260 --> 00:01:05.260
+dan zijn we binnen.
+
+00:01:05.260 --> 00:01:08.260
+Dat is de plot achter Stuxnet.
+
+00:01:08.260 --> 00:01:13.260
+We beginnen met een Windows-dropper (software met malware).
+
+00:01:13.260 --> 00:01:16.260
+De worm komt terecht in de grijze doos,
+
+00:01:16.260 --> 00:01:18.260
+beschadigt de centrifuge,
+
+00:01:18.260 --> 00:01:20.260
+en het Iranese nucleaire programma loopt vertraging op:
+
+00:01:20.260 --> 00:01:22.260
+missie volbracht.
+
+00:01:22.260 --> 00:01:24.260
+Da's makkelijk, hè?
+
+00:01:24.260 --> 00:01:27.260
+Ik wil jullie vertellen hoe we daarop zijn gekomen.
+
+00:01:27.260 --> 00:01:30.260
+Toen we ons onderzoek op Stuxnet zes maanden geleden begonnen,
+
+00:01:30.260 --> 00:01:33.260
+was het volkomen onbekend wat dit ding moest doen.
+
+00:01:33.260 --> 00:01:35.260
+Het enige dat bekend was
+
+00:01:35.260 --> 00:01:38.260
+was dat dat zeer complexe Windows-onderdeel, het dropperdeel,
+
+00:01:38.260 --> 00:01:41.260
+meerdere zero-day kwetsbaarheden kon uitbuiten.
+
+00:01:41.260 --> 00:01:44.260
+Het leek iets te willen doen
+
+00:01:44.260 --> 00:01:46.260
+met deze grijze dozen, deze real-time besturingssystemen.
+
+00:01:46.260 --> 00:01:48.260
+Daar richtten we onze aandacht op.
+
+00:01:48.260 --> 00:01:50.260
+We begonnen een lab-project
+
+00:01:50.260 --> 00:01:54.260
+waar we ons systeem besmetten met Stuxnet
+
+00:01:54.260 --> 00:01:56.260
+en keken wat er gebeurde.
+
+00:01:56.260 --> 00:01:59.260
+Er gebeurden een aantal zeer grappige dingen.
+
+00:01:59.260 --> 00:02:02.260
+Stuxnet gedroeg zich als een lab-rat
+
+00:02:02.260 --> 00:02:05.260
+die onze kaas niet lustte -
+
+00:02:05.260 --> 00:02:07.260
+hij snoof eraan, maar wilde er niet van eten.
+
+00:02:07.260 --> 00:02:09.260
+Ik kon er kop noch staart aan krijgen.
+
+00:02:09.260 --> 00:02:12.260
+Nadat we met verschillende smaken van kaas hadden geëxperimenteerd,
+
+00:02:12.260 --> 00:02:16.260
+besefte ik dat dit is een gerichte aanval was.
+
+00:02:16.260 --> 00:02:18.260
+Volledig doelgericht.
+
+00:02:18.260 --> 00:02:20.260
+De dropper tast
+
+00:02:20.260 --> 00:02:22.260
+de grijze doos actief af
+
+00:02:22.260 --> 00:02:25.260
+tot een specifieke configuratie wordt gevonden,
+
+00:02:25.260 --> 00:02:29.260
+terwijl het eigenlijke programma, dat het probeert te infecteren,
+
+00:02:29.260 --> 00:02:31.260
+nog loopt op dat doelwit.
+
+00:02:31.260 --> 00:02:34.260
+Zo niet doet Stuxnet niets.
+
+00:02:34.260 --> 00:02:36.260
+Dat trok pas echt mijn aandacht
+
+00:02:36.260 --> 00:02:38.260
+en we begonnen hier
+
+00:02:38.260 --> 00:02:40.260
+bijna de klok rond aan te werken.
+
+00:02:40.260 --> 00:02:43.260
+We hadden er geen idee van wat het doelwit is.
+
+00:02:43.260 --> 00:02:45.260
+Het zou bijvoorbeeld ook
+
+00:02:45.260 --> 00:02:47.260
+een Amerikaanse kerncentrale
+
+00:02:47.260 --> 00:02:49.260
+of een chemische fabriek in Duitsland kunnen zijn.
+
+00:02:49.260 --> 00:02:52.260
+We konden maar beter snel te weten komen wat het doel was.
+
+00:02:52.260 --> 00:02:54.260
+We haalden de aanvalscode
+
+00:02:54.260 --> 00:02:56.260
+eruit en decompileerden ze.
+
+00:02:56.260 --> 00:02:59.260
+We ontdekten dat er twee digitale bommen in te vinden waren:
+
+00:02:59.260 --> 00:03:02.260
+een kleine en een grote.
+
+00:03:02.260 --> 00:03:06.260
+We zagen ook dat ze erg professioneel waren ontworpen
+
+00:03:06.260 --> 00:03:10.260
+door mensen die duidelijk alle voorkennis hadden.
+
+00:03:10.260 --> 00:03:12.260
+Ze kenden alle bits en bytes
+
+00:03:12.260 --> 00:03:14.260
+die ze moesten aanvallen.
+
+00:03:14.260 --> 00:03:17.260
+Ze kenden waarschijnlijk zelfs de schoenmaat van de bediener.
+
+00:03:17.260 --> 00:03:19.260
+Ze wisten alles.
+
+00:03:19.260 --> 00:03:22.260
+Als je zou hebben gehoord dat de dropper van Stuxnet
+
+00:03:22.260 --> 00:03:24.260
+complex en high-tech is,
+
+00:03:24.260 --> 00:03:26.260
+laat me je dan dit vertellen:
+
+00:03:26.260 --> 00:03:28.260
+dat ding is van de bovenste plank.
+
+00:03:28.260 --> 00:03:30.260
+Het staat ver boven alles
+
+00:03:30.260 --> 00:03:33.260
+dat we ooit eerder zagen.
+
+00:03:33.260 --> 00:03:36.260
+Hier zie je een staaltje van deze feitelijke aanvalscode.
+
+00:03:36.260 --> 00:03:38.260
+We praten over
+
+00:03:38.260 --> 00:03:41.260
+ongeveer 15.000 regels code.
+
+00:03:41.260 --> 00:03:44.260
+Ziet er nogal uit als ouderwetse assembler.
+
+00:03:44.260 --> 00:03:46.260
+Ik wil jullie vertellen hoe we in staat waren
+
+00:03:46.260 --> 00:03:48.260
+om deze code te begrijpen.
+
+00:03:48.260 --> 00:03:51.260
+Waar we naar zochten waren ten eerste systeemfunctiecalls.
+
+00:03:51.260 --> 00:03:53.260
+Omdat we weten waar die voor dienen.
+
+00:03:53.260 --> 00:03:57.260
+Daarna zochten we naar timers en datastructuren
+
+00:03:57.260 --> 00:03:59.260
+en probeerden ze te relateren aan de echte wereld -
+
+00:03:59.260 --> 00:04:01.260
+aan potentiële doelwitten in de echte wereld.
+
+00:04:01.260 --> 00:04:04.260
+We hadden doelwittheorieën nodig
+
+00:04:04.260 --> 00:04:07.260
+die we konden bewijzen of weerleggen.
+
+00:04:07.260 --> 00:04:09.260
+Om achter die doelwittheorieën te komen,
+
+00:04:09.260 --> 00:04:11.260
+bleven we voor ogen houden
+
+00:04:11.260 --> 00:04:13.260
+dat het hier zeker om sabotage ging.
+
+00:04:13.260 --> 00:04:15.260
+Het moest een doelwit van hoge waarde zijn,
+
+00:04:15.260 --> 00:04:18.260
+en het was zeer waarschijnlijk in Iran gelegen.
+
+00:04:18.260 --> 00:04:22.260
+Daar werd namelijk het merendeel van de infecties gemeld.
+
+00:04:22.260 --> 00:04:25.260
+Nu ga je in dat gebied geen duizenden doelen vinden.
+
+00:04:25.260 --> 00:04:27.260
+Eigenlijk draait het vooral
+
+00:04:27.260 --> 00:04:29.260
+om de kerncentrale van Bushehr
+
+00:04:29.260 --> 00:04:31.260
+en om de fabriek voor splijtstofverrijking in Natanz.
+
+00:04:31.260 --> 00:04:33.260
+Ik zei tegen mijn assistent,
+
+00:04:33.260 --> 00:04:36.260
+"Haal uit ons klantenbestand een lijst van alle centrifuge- en kerncentraledeskundigen op."
+
+00:04:36.260 --> 00:04:38.260
+Ik belde hen op en hoorde hen uit
+
+00:04:38.260 --> 00:04:40.260
+om hun expertise te vergelijken
+
+00:04:40.260 --> 00:04:43.260
+met wat we gevonden hadden in de code en data.
+
+00:04:43.260 --> 00:04:45.260
+Dat werkte behoorlijk goed.
+
+00:04:45.260 --> 00:04:47.260
+Zo konden we
+
+00:04:47.260 --> 00:04:49.260
+de kleine digitale bom linken
+
+00:04:49.260 --> 00:04:51.260
+aan de rotorcontrole.
+
+00:04:51.260 --> 00:04:54.260
+De rotor is het bewegende deel in de centrifuge.
+
+00:04:54.260 --> 00:04:56.260
+Het zwarte ding dat je daar ziet.
+
+00:04:56.260 --> 00:04:59.260
+Als je de snelheid van deze rotor kan aansturen,
+
+00:04:59.260 --> 00:05:01.260
+ben je eigenlijk in staat om de rotor te beschadigen
+
+00:05:01.260 --> 00:05:05.260
+en de centrifuge zelfs te laten ontploffen.
+
+00:05:05.260 --> 00:05:07.260
+Wat we ook zagen
+
+00:05:07.260 --> 00:05:09.260
+was dat het de bedoeling was de aanval
+
+00:05:09.260 --> 00:05:12.260
+langzaam en op een sluipende manier te laten gebeuren.
+
+00:05:12.260 --> 00:05:14.260
+Uiteraard met de bedoeling de onderhoudsmonteurs
+
+00:05:14.260 --> 00:05:17.260
+met de handen in het haar te laten zitten,
+
+00:05:17.260 --> 00:05:20.260
+zodat ze er niet snel zouden achterkomen wat er aan de hand was.
+
+00:05:20.260 --> 00:05:23.260
+De grote digitale bom vonden we
+
+00:05:23.260 --> 00:05:25.260
+door de data en datastructuren
+
+00:05:25.260 --> 00:05:27.260
+zeer nauwkeurig te analyseren.
+
+00:05:27.260 --> 00:05:29.260
+Zo komt het getal 164
+
+00:05:29.260 --> 00:05:31.260
+vaak voor in die code.
+
+00:05:31.260 --> 00:05:33.260
+Je kunt het niet over het hoofd zien.
+
+00:05:33.260 --> 00:05:35.260
+Ik begon aan wetenschappelijk literatuuronderzoek
+
+00:05:35.260 --> 00:05:37.260
+over hoe dat deze centrifuges in Natanz
+
+00:05:37.260 --> 00:05:39.260
+eigenlijk gebouwd zijn.
+
+00:05:39.260 --> 00:05:41.260
+Ik vond dat ze
+
+00:05:41.260 --> 00:05:43.260
+in wat een cascade wordt genoemd waren opgesteld.
+
+00:05:43.260 --> 00:05:47.260
+Elke cascade bevat 164 centrifuges.
+
+00:05:47.260 --> 00:05:49.260
+Dat was al één logische overeenkomst.
+
+00:05:49.260 --> 00:05:51.260
+Het werd zelfs nog beter.
+
+00:05:51.260 --> 00:05:53.260
+Deze centrifuges in Iran
+
+00:05:53.260 --> 00:05:57.260
+zijn onderverdeeld in 15 zogenoemde trappen.
+
+00:05:57.260 --> 00:05:59.260
+Raad eens wat we vonden in de aanvalscode?
+
+00:05:59.260 --> 00:06:01.260
+Een bijna identieke structuur.
+
+00:06:01.260 --> 00:06:04.260
+Dat stemde zeer goed overeen.
+
+00:06:04.260 --> 00:06:07.260
+Dit gaf ons heel veel vertrouwen dat we op het juiste spoor zaten.
+
+00:06:07.260 --> 00:06:10.260
+Begrijp me niet verkeerd, zo simpel was het niet.
+
+00:06:10.260 --> 00:06:13.260
+Deze resultaten zijn verkregen
+
+00:06:13.260 --> 00:06:16.260
+na een aantal weken van hard werken.
+
+00:06:16.260 --> 00:06:19.260
+Vaak volgden we een doodlopend spoor
+
+00:06:19.260 --> 00:06:21.260
+en moesten we opnieuw beginnen.
+
+00:06:21.260 --> 00:06:23.260
+Hoe dan ook visten we uit
+
+00:06:23.260 --> 00:06:25.260
+dat beide digitale bommen
+
+00:06:25.260 --> 00:06:27.260
+op één en hetzelfde doelwit gericht zijn.
+
+00:06:27.260 --> 00:06:29.260
+Maar vanuit verschillende invalshoeken.
+
+00:06:29.260 --> 00:06:32.260
+De kleine bom pakt één cascade aan,
+
+00:06:32.260 --> 00:06:35.260
+door de rotors te versnellen of af te remmen,
+
+00:06:35.260 --> 00:06:37.260
+en de grote bom
+
+00:06:37.260 --> 00:06:39.260
+pakt zes cascades aan
+
+00:06:39.260 --> 00:06:41.260
+door het manipuleren van kleppen.
+
+00:06:41.260 --> 00:06:43.260
+Al met al hebben we er alle vertrouwen in
+
+00:06:43.260 --> 00:06:45.260
+dat we het doel hebben gevonden.
+
+00:06:45.260 --> 00:06:48.260
+Het is Natanz en alleen maar Natanz.
+
+00:06:48.260 --> 00:06:50.260
+We hoefden ons dus geen zorgen meer te maken
+
+00:06:50.260 --> 00:06:52.260
+dat andere doelen
+
+00:06:52.260 --> 00:06:54.260
+zouden kunnen worden getroffen door Stuxnet.
+
+00:06:54.260 --> 00:06:57.260
+Hier een aantal leuke dingen die we tegenkwamen:
+
+00:06:57.260 --> 00:06:59.260
+daar viel ik pas echt van achterover.
+
+00:06:59.260 --> 00:07:01.260
+Daar is de grijze doos,
+
+00:07:01.260 --> 00:07:04.260
+en bovenaan zie je de centrifuges.
+
+00:07:04.260 --> 00:07:06.260
+Dit ding onderschept
+
+00:07:06.260 --> 00:07:09.260
+de input-waarden van sensoren.
+
+00:07:09.260 --> 00:07:11.260
+bijvoorbeeld van druksensoren
+
+00:07:11.260 --> 00:07:13.260
+en trillingsensoren.
+
+00:07:13.260 --> 00:07:16.260
+Het voorziet de legitieme code,
+
+00:07:16.260 --> 00:07:18.260
+die tijdens de aanval nog steeds loopt,
+
+00:07:18.260 --> 00:07:20.260
+van nep-inputdata.
+
+00:07:20.260 --> 00:07:22.260
+In feite zijn deze nep-inputdata
+
+00:07:22.260 --> 00:07:25.260
+vooraf opgenomen door Stuxnet.
+
+00:07:25.260 --> 00:07:27.260
+Het is net als in die Hollywoodfilms
+
+00:07:27.260 --> 00:07:29.260
+waar tijdens een inbraak
+
+00:07:29.260 --> 00:07:32.260
+de observatiecamera wordt gevoed met vooraf opgenomen video.
+
+00:07:32.260 --> 00:07:34.260
+Dat is cool, he?
+
+00:07:35.260 --> 00:07:37.260
+Het idee hierachter is niet alleen maar
+
+00:07:37.260 --> 00:07:40.260
+de operatoren in de controlekamer te misleiden.
+
+00:07:40.260 --> 00:07:44.260
+Het is veel gevaarlijker en agressiever.
+
+00:07:44.260 --> 00:07:46.260
+Het idee gaat over het omzeilen
+
+00:07:46.260 --> 00:07:49.260
+van een digitaal beveiligingssysteem.
+
+00:07:50.260 --> 00:07:52.260
+We hebben digitale beveiligingssystemen nodig
+
+00:07:52.260 --> 00:07:55.260
+als een menselijke operator niet snel genoeg kan reageren.
+
+00:07:55.260 --> 00:07:57.260
+Bijvoorbeeld in een elektriciteitscentrale moet je,
+
+00:07:57.260 --> 00:08:00.260
+als de grote stoomturbine te snel gaat draaien,
+
+00:08:00.260 --> 00:08:03.260
+de ontlastingskleppen binnen de milliseconde kunnen openen.
+
+00:08:03.260 --> 00:08:06.260
+Uiteraard kan dit niet worden gedaan door een menselijke operator.
+
+00:08:06.260 --> 00:08:08.260
+Daar hebben we digitale beveiligingssystemen voor nodig.
+
+00:08:08.260 --> 00:08:10.260
+Wanneer die in het gedrang komen
+
+00:08:10.260 --> 00:08:13.260
+kunnen vreselijke dingen gebeuren.
+
+00:08:13.260 --> 00:08:15.260
+Je installatie kan ontploffen.
+
+00:08:15.260 --> 00:08:18.260
+Noch je operatoren, noch je veiligheidsysteem zullen het merken.
+
+00:08:18.260 --> 00:08:20.260
+Dat is pas eng.
+
+00:08:20.260 --> 00:08:22.260
+Maar het wordt nog erger.
+
+00:08:22.260 --> 00:08:25.260
+Wat ik ga zeggen is zeer belangrijk.
+
+00:08:25.260 --> 00:08:27.260
+Denk hier eens over na.
+
+00:08:27.260 --> 00:08:30.260
+Deze aanval is niet specifiek.
+
+00:08:30.260 --> 00:08:34.260
+Dat wil zeggen dat hij niet specifiek gericht is
+
+00:08:34.260 --> 00:08:36.260
+op centrifuges of
+
+00:08:36.260 --> 00:08:39.260
+op de verrijking van uranium.
+
+00:08:39.260 --> 00:08:42.260
+Hij zou even goed kunnen werken bij
+
+00:08:42.260 --> 00:08:44.260
+een energiecentrale
+
+00:08:44.260 --> 00:08:47.260
+of een autofabriek.
+
+00:08:47.260 --> 00:08:49.260
+Hij is niet specifiek.
+
+00:08:49.260 --> 00:08:51.260
+Je hoefde als aanvaller
+
+00:08:51.260 --> 00:08:54.260
+deze software niet
+
+00:08:54.260 --> 00:08:56.260
+door middel van een USB-stick af te leveren,
+
+00:08:56.260 --> 00:08:58.260
+zoals we al zagen in het geval van Stuxnet.
+
+00:08:58.260 --> 00:09:01.260
+Dat kon evengoed via conventionele worm-technologie.
+
+00:09:01.260 --> 00:09:04.260
+Smeer het gewoon zo breed mogelijk uit.
+
+00:09:04.260 --> 00:09:06.260
+Wat krijg je dan?
+
+00:09:06.260 --> 00:09:08.260
+Een cybermassavernietigingswapen.
+
+00:09:08.260 --> 00:09:13.260
+Een cybermassavernietigingswapen.
+
+00:09:14.260 --> 00:09:16.260
+Dat moeten we
+
+00:09:16.260 --> 00:09:19.260
+onder ogen durven zien.
+
+00:09:19.260 --> 00:09:22.260
+Maar helaas bevindt
+
+00:09:22.260 --> 00:09:25.260
+het grootste aantal doelen voor dergelijke aanslagen
+
+00:09:25.260 --> 00:09:27.260
+zich niet in het Midden-Oosten.
+
+00:09:27.260 --> 00:09:30.260
+Maar wel in de Verenigde Staten, Europa en Japan.
+
+00:09:30.260 --> 00:09:32.260
+Alle groene gebieden op de kaart
+
+00:09:32.260 --> 00:09:35.260
+zijn je doelgroeprijke omgevingen.
+
+00:09:35.260 --> 00:09:38.260
+We moeten de gevolgen daarvan onder ogen durven zien.
+
+00:09:38.260 --> 00:09:41.260
+We kunnen er ons maar beter op voorbereiden.
+
+00:09:41.260 --> 00:09:43.260
+Bedankt.
+
+00:09:43.260 --> 00:09:49.260
+(Applaus)
+
+00:09:49.260 --> 00:09:51.260
+Chris Anderson: Ik heb een vraag.
+
+00:09:53.260 --> 00:09:55.260
+Ralph, er wordt vaak beweerd
+
+00:09:55.260 --> 00:09:57.260
+dat het vooral de Mossad is
+
+00:09:57.260 --> 00:09:59.260
+die hierachter zou zitten.
+
+00:09:59.260 --> 00:10:02.260
+Denk je dat ook?
+
+00:10:02.260 --> 00:10:04.260
+Ralph Langner: Oke, wil je het echt weten?
+
+00:10:04.260 --> 00:10:06.260
+Ja. Oke.
+
+00:10:06.260 --> 00:10:09.260
+Mijn mening is dat de Mossad betrokken partij is,
+
+00:10:09.260 --> 00:10:12.260
+maar dat de voornaamste aanstoker niet Israël is.
+
+00:10:12.260 --> 00:10:14.260
+De voornaamste aanstoker hierachter
+
+00:10:14.260 --> 00:10:17.260
+is 'de' cybersupermacht.
+
+00:10:17.260 --> 00:10:19.260
+Dat is er slechts één:
+
+00:10:19.260 --> 00:10:21.260
+de Verenigde Staten.
+
+00:10:21.260 --> 00:10:23.260
+Gelukkig maar.
+
+00:10:23.260 --> 00:10:25.260
+Want anders zouden onze problemen
+
+00:10:25.260 --> 00:10:28.260
+zelfs nog groter zijn.
+
+00:10:28.260 --> 00:10:32.260
+CA: Bedankt dat je ons de haren ten berge hebt laten rijzen. Dank je Ralph.
+
+00:10:32.260 --> 00:10:34.260
+(Applaus)
+

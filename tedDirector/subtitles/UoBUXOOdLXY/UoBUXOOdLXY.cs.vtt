@@ -1,0 +1,1208 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Jiri Prokop
+Korektor: Marie Zachovalova
+
+00:00:15.285 --> 00:00:17.982
+Před pár týdny můj kamarád
+
+00:00:17.982 --> 00:00:20.236
+dal tohle autíčko
+
+00:00:20.236 --> 00:00:21.847
+jeho osmilétému synovi.
+
+00:00:21.847 --> 00:00:24.668
+Ale nešel ho koupit do obchodu,
+
+00:00:24.668 --> 00:00:27.463
+jak to normálně děláme,
+
+00:00:27.463 --> 00:00:29.378
+navštívil tyto webové stránky a stáhnul soubor,
+
+00:00:29.378 --> 00:00:31.547
+a autíčko vytisknul
+
+00:00:31.547 --> 00:00:33.402
+na této tiskárně.
+
+00:00:33.402 --> 00:00:35.381
+Myšlenka, že můžete
+
+00:00:35.381 --> 00:00:37.328
+vyrábět předměty
+
+00:00:37.328 --> 00:00:38.891
+digitálně pomocí těchto přístrojů
+
+00:00:38.891 --> 00:00:40.569
+je něco, co magazín The Economist
+
+00:00:40.569 --> 00:00:43.199
+označil jako Třetí průmyslovou revoluci.
+
+00:00:43.199 --> 00:00:47.042
+Vlastně tvrdím, že přichází ještě další revoluce,
+
+00:00:47.042 --> 00:00:49.640
+a ta má co dočinění
+
+00:00:49.640 --> 00:00:52.168
+s open-source hardwarem a potažmo hnutím "tvůrců",
+
+00:00:52.168 --> 00:00:55.927
+protože tiskárna, kterou můj kamarád
+
+00:00:55.927 --> 00:00:58.544
+použil k vytisknutí autíčka, je open-source.
+
+00:00:58.544 --> 00:01:02.037
+Takže můžete jít na stejnou webovou stránku
+a stáhnout si všechny soubory,
+
+00:01:02.037 --> 00:01:05.794
+které potřebujete,
+abyste si takovou tiskárnu sami vyrobili:
+
+00:01:05.794 --> 00:01:09.306
+konstrukční plánky, hardware, software,
+
+00:01:09.306 --> 00:01:12.115
+všechny potřebné instrukce tam jsou.
+
+00:01:12.115 --> 00:01:14.235
+A navíc je to součástí velké komunity,
+
+00:01:14.235 --> 00:01:16.835
+která čítá tisíce lidí
+
+00:01:16.835 --> 00:01:18.795
+z celého světa,
+
+00:01:18.795 --> 00:01:20.338
+kteří tyhle tiskárny vyrábějí,
+
+00:01:20.338 --> 00:01:21.810
+a je tu i spousta vylepšení
+
+00:01:21.810 --> 00:01:23.724
+právě proto, že vše je open-source.
+
+00:01:23.724 --> 00:01:27.612
+Nepotřebujete od nikoho povolení vytvořit něco úžasného.
+
+00:01:27.612 --> 00:01:29.973
+A takovéhle prostředí je něco jako
+
+00:01:29.973 --> 00:01:32.769
+osobní počítač v roce 1976,
+
+00:01:32.769 --> 00:01:35.126
+jako Apple soupeřící s jinými společnostmi,
+
+00:01:35.127 --> 00:01:37.508
+a uvidíme za pár let,
+
+00:01:37.508 --> 00:01:40.635
+vznikne nový Apple.
+
+00:01:40.641 --> 00:01:44.444
+Dobrá, je tu ještě další zajímavá věc.
+
+00:01:44.444 --> 00:01:46.408
+Řekl jsem, že elektronika je open-source,
+
+00:01:46.408 --> 00:01:49.389
+protože v nitru této tiskárny je něco,
+k čemu mám hluboký vztah:
+
+00:01:49.389 --> 00:01:52.340
+tato Arduino deska, základní deska,
+
+00:01:52.340 --> 00:01:54.547
+která řídí tuto tiskárnu, je projekt,
+
+00:01:54.547 --> 00:01:56.970
+na kterém jsem pracoval posledních 7 let.
+
+00:01:56.970 --> 00:01:58.531
+Je to open-source projekt.
+
+00:01:58.531 --> 00:02:01.552
+Pracoval jsem na něm s mými kamarády,
+které vidíte zde.
+
+00:02:01.552 --> 00:02:04.206
+Nás pět, dva Američani, dva Italové
+
+00:02:04.206 --> 00:02:07.187
+a jeden Španěl, my -- (Smích)
+
+00:02:07.187 --> 00:02:10.262
+Je to celosvětový projekt. (Smích)
+
+00:02:10.262 --> 00:02:12.131
+Sešli jsme se
+
+00:02:12.131 --> 00:02:14.754
+v institutu zvaném Institut interakčního designu.
+
+00:02:14.754 --> 00:02:16.903
+Ivrea nás učil interakční design.
+
+00:02:16.903 --> 00:02:19.201
+Tedy myšlenku, že můžete vzít
+
+00:02:19.201 --> 00:02:21.752
+design jednoduchých tvarů
+
+00:02:21.752 --> 00:02:23.529
+a ten můžete posunout
+
+00:02:23.529 --> 00:02:25.573
+směrem k designu vzájemného působení.
+
+00:02:25.581 --> 00:02:28.473
+Když navrhujete objekt,
+který je určen k interakci s člověkem,
+
+00:02:28.473 --> 00:02:30.281
+tak pokud uděláte pěnový model telefonu,
+
+00:02:30.281 --> 00:02:33.104
+nemá to žádný smysl.
+
+00:02:33.104 --> 00:02:34.610
+Musíte mít něco,
+
+00:02:34.610 --> 00:02:37.117
+co skutečně interaguje s lidmi.
+
+00:02:37.117 --> 00:02:40.236
+Takže jsme pracovali na Arduinu
+
+00:02:40.236 --> 00:02:42.052
+a spoustě dalších projektů,
+
+00:02:42.052 --> 00:02:43.953
+abychom vytvořili platformu, která by byla
+
+00:02:43.953 --> 00:02:46.137
+jednoduše použitelná našimi studenty,
+
+00:02:46.137 --> 00:02:48.598
+aby mohli jednoduše vytvářet věci,
+které by fungovaly.
+
+00:02:48.598 --> 00:02:52.656
+Ale aby nemuseli pět let studovat na inženýra elektrotechniky.
+Měli na to jenom měsíc.
+
+00:02:52.656 --> 00:02:55.311
+Jak vytvořit něco,
+co by zvládlo používat i dítě?
+
+00:02:55.311 --> 00:02:58.212
+A opravdu, s Arduinem,
+
+00:02:58.212 --> 00:03:00.635
+jsou děti, jako Sylvia, kterou můžete vidět tady,
+
+00:03:00.635 --> 00:03:02.507
+které opravdu dělají projekty s Arduinem.
+
+00:03:02.507 --> 00:03:05.115
+Setkal jsem se s 11letými dětmi,
+které mně zastavily
+
+00:03:05.115 --> 00:03:07.934
+a ukázaly mi věci, které postavily na Arduinu.
+
+00:03:07.934 --> 00:03:09.675
+Skoro mě až vyděsily schopnosti těchto dětí,
+
+00:03:09.675 --> 00:03:12.098
+když jim dáte takovéto nástroje.
+
+00:03:12.098 --> 00:03:15.078
+Pojďme se podívat, co se stane, 
+když vytvoříte nástroj,
+
+00:03:15.078 --> 00:03:17.922
+který může kdokoliv vzít a rychle něco vytvořit.
+
+00:03:17.925 --> 00:03:19.793
+Jedním z příkladů, kterým bych rád
+
+00:03:19.793 --> 00:03:21.707
+začal diskuzi,
+
+00:03:21.707 --> 00:03:23.437
+je krmítko koček.
+
+00:03:23.437 --> 00:03:26.004
+Pán, který vytvořil tenhle projekt, měl dvě kočky.
+
+00:03:26.004 --> 00:03:27.738
+Jedna byla nemocná a druhá byla zdravá,
+
+00:03:27.738 --> 00:03:30.116
+a on si chtěl být jistý,
+
+00:03:30.116 --> 00:03:31.804
+že každá dostane správné jídlo.
+
+00:03:31.804 --> 00:03:33.963
+Udělal krmítko, které rozpozná kočku
+
+00:03:33.963 --> 00:03:36.100
+podle čipu připevněného na obojku,
+
+00:03:36.100 --> 00:03:38.820
+a otevře dvířka tak,
+
+00:03:38.820 --> 00:03:40.564
+aby se kočka mohla najíst.
+
+00:03:40.564 --> 00:03:42.354
+Je to vytvořené ze starého CD přehrávače,
+
+00:03:42.354 --> 00:03:44.561
+který můžete najít ve starém počítači,
+
+00:03:44.567 --> 00:03:48.023
+papíru, lepící pásky, několika senzorů
+a blikajících LED diod,
+
+00:03:48.023 --> 00:03:50.811
+a náhle máte užitečnou pomůcku.
+Postavili jste něco,
+
+00:03:50.811 --> 00:03:52.748
+co nenajdete nikde na trhu či v obchodě.
+
+00:03:52.748 --> 00:03:55.512
+Mám rád rčení "Podrbej svá vlastní záda."
+
+00:03:55.512 --> 00:03:58.107
+Pokud máte nápad, prostě jděte a zrealizujte ho.
+
+00:03:58.107 --> 00:04:00.056
+Je to ekvivalent nákresů na papíře
+
+00:04:00.056 --> 00:04:02.628
+provedených elektronikou.
+
+00:04:02.628 --> 00:04:04.376
+Jedna z vlastností, o které si myslím,
+
+00:04:04.376 --> 00:04:06.204
+že je v naší práci důležitá,
+
+00:04:06.204 --> 00:04:08.976
+je to, že náš hardware, kromě toho,
+
+00:04:08.976 --> 00:04:11.166
+že je vyroben s láskou v Itálii –
+
+00:04:11.166 --> 00:04:12.919
+jak se můžete přesvědčit
+
+00:04:12.919 --> 00:04:14.948
+na zadní straně obvodů,
+(Smích)
+
+00:04:14.948 --> 00:04:16.788
+-- je to, že je otevřený a přístupný.
+
+00:04:16.788 --> 00:04:18.756
+Zveřejnili jsme všechny konstrukční
+
+00:04:18.756 --> 00:04:20.484
+plánky pro obvody online,
+
+00:04:20.484 --> 00:04:22.467
+můžete si je stáhnout
+
+00:04:22.467 --> 00:04:24.307
+a použít je, abyste něco vytvořili,
+
+00:04:24.307 --> 00:04:26.940
+upravili je nebo se z nich učili.
+
+00:04:26.940 --> 00:04:28.209
+Když jsem se učil programovat,
+
+00:04:28.209 --> 00:04:30.086
+učil jsem se díváním na kód ostatních lidí,
+
+00:04:30.086 --> 00:04:33.515
+nebo na obvody jiných lidí v časopisech.
+
+00:04:33.515 --> 00:04:35.731
+Je to dobrý způsob jak se učit,
+
+00:04:35.731 --> 00:04:37.972
+zkoumáním práce jiných lidí.
+
+00:04:37.972 --> 00:04:40.564
+Všechny části projektu jsou přístupné a otevřené,
+
+00:04:40.564 --> 00:04:42.267
+a hardware je vydán
+
+00:04:42.267 --> 00:04:44.331
+pod licencí Creative Commons.
+
+00:04:44.331 --> 00:04:46.357
+Víte, líbí se mi ten nápad,
+
+00:04:46.357 --> 00:04:48.496
+že se hardware stává součástí kultury, kterou sdílíte
+
+00:04:48.496 --> 00:04:50.455
+a stavíte z něj, jako by to byla
+
+00:04:50.455 --> 00:04:54.092
+píseň nebo báseň s Creative Commons licencí.
+
+00:04:54.092 --> 00:04:56.768
+A software je svobodný, takže je také open-source.
+
+00:04:56.768 --> 00:05:00.195
+Dokumentace a praktická výuková metodika
+
+00:05:00.195 --> 00:05:03.778
+je také open-source vydaná 
+pod Creative Commons licencí.
+
+00:05:03.778 --> 00:05:05.781
+Pouze jméno je chráněno,
+
+00:05:05.781 --> 00:05:08.527
+abychom mohli s jistotou říct lidem,
+
+00:05:08.527 --> 00:05:11.167
+co je a co není Arduino.
+
+00:05:11.167 --> 00:05:12.839
+Samotné Arduino je vytvořeno
+
+00:05:12.839 --> 00:05:15.079
+ze spousty různých open-source komponent,
+
+00:05:15.079 --> 00:05:17.830
+které jsou samostatně těžko použitelné pro
+
+00:05:17.830 --> 00:05:19.937
+12letého chlapce,
+
+00:05:19.937 --> 00:05:21.790
+proto Arduino zabalilo vše dohromady
+
+00:05:21.790 --> 00:05:24.056
+do balíčku open-source technologií,
+
+00:05:24.056 --> 00:05:25.928
+ve kterém se jim snažíme dát
+
+00:05:25.928 --> 00:05:28.135
+ten nejlepší uživatelský zážitek,
+aby mohli cokoliv rychle udělat.
+
+00:05:28.135 --> 00:05:31.006
+Máte situaci, jako je tato,
+
+00:05:31.006 --> 00:05:32.944
+kdy se někteří lidé v Chile
+
+00:05:32.944 --> 00:05:35.736
+rozhodli vyrobit si vlastní desky a nekupovat je.
+
+00:05:35.742 --> 00:05:37.667
+Uspořádali si vlastní workshop
+
+00:05:37.667 --> 00:05:40.767
+a ušetřili peníze.
+
+00:05:40.767 --> 00:05:42.712
+Nebo jsou tu společnosti,
+
+00:05:42.712 --> 00:05:44.481
+které mají jejich vlastní pozměněné Arduino,
+
+00:05:44.481 --> 00:05:46.232
+které lépe vyhovuje jejich potřebám,
+
+00:05:46.232 --> 00:05:48.945
+je jich přibližně kolem 150
+
+00:05:48.945 --> 00:05:50.737
+v tomhle okamžiku.
+
+00:05:50.737 --> 00:05:52.625
+Tenhle je vyroben společností
+
+00:05:52.625 --> 00:05:54.569
+Adafruit, která je vedena
+
+00:05:54.569 --> 00:05:56.881
+touto ženou, Limor Friedovou,
+
+00:05:56.881 --> 00:05:58.488
+známou také jako Ladyada,
+
+00:05:58.488 --> 00:06:01.209
+která je jednou z hrdinek hnutí open-source hardwaru
+
+00:06:01.209 --> 00:06:02.743
+a hnutí "tvůrců".
+
+00:06:02.743 --> 00:06:05.697
+Tenhle nápad se rozvinul v novou, něco jako
+
+00:06:05.697 --> 00:06:08.481
+ultra-nabitou DIY komunitu,
+(DIY = Udělej si sám)
+
+00:06:08.481 --> 00:06:10.161
+která věří v open-source,
+
+00:06:10.161 --> 00:06:12.361
+ve spolupráci a spolupracuje online,
+
+00:06:12.361 --> 00:06:14.802
+spolupracuje na různých místech.
+
+00:06:14.802 --> 00:06:17.924
+Dokonce existuje časopis zvaný Make (Vytvoř),
+
+00:06:17.924 --> 00:06:19.464
+který dal všechny tyto lidi dohromady
+
+00:06:19.464 --> 00:06:21.896
+jako komunitu,
+a jak si můžete povšimnout
+
+00:06:21.896 --> 00:06:23.924
+technický projekt vysvětlený
+
+00:06:23.924 --> 00:06:26.781
+jednoduchým jazykem, pěkným stylem.
+
+00:06:26.781 --> 00:06:28.349
+Nebo existují webové stránky,
+
+00:06:28.349 --> 00:06:30.610
+jako je tahle -- Instructables,
+
+00:06:30.610 --> 00:06:32.614
+kde se lidé navzájem učí o všem možném.
+
+00:06:32.614 --> 00:06:34.359
+Tahle stránka je o Arduino projektech,
+
+00:06:34.359 --> 00:06:37.920
+tu kterou vidíte na obrazovce, ale můžete se
+
+00:06:37.920 --> 00:06:40.498
+také dovědět, jak upéct dort a cokoliv dalšího.
+
+00:06:40.498 --> 00:06:43.298
+Pojďmě se podívat na konkrétní projekty.
+
+00:06:43.298 --> 00:06:44.914
+Tohle je quadrotor.
+(čtyřtulka)
+
+00:06:44.914 --> 00:06:46.629
+Je to malý model vrtulníku.
+
+00:06:46.629 --> 00:06:48.899
+V jistém smyslu je to hračka, že?
+
+00:06:48.899 --> 00:06:51.192
+Ale ještě před pár lety to byla
+vojenská technologie
+
+00:06:51.192 --> 00:06:53.113
+a teď je open-source,
+
+00:06:53.113 --> 00:06:55.755
+uživatelsky přívětivá, můžete si ho koupit online.
+
+00:06:55.755 --> 00:06:59.673
+DIY Drones je komunita, která dělá tohle 
+a nazývají to ArduCopter.
+
+00:06:59.673 --> 00:07:02.684
+Ale pak přišel někdo s projektem Matternet
+
+00:07:02.686 --> 00:07:04.879
+a přišli na to, že můžete použít
+
+00:07:04.879 --> 00:07:07.177
+tohle zařízení k přepravě
+
+00:07:07.177 --> 00:07:09.610
+věcí mezi vesnicemi v Africe.
+
+00:07:09.610 --> 00:07:11.178
+A skutečnost, že bylo snadné projekt najít,
+
+00:07:11.178 --> 00:07:13.790
+že je to open-source a snadno upravitelný,
+
+00:07:13.790 --> 00:07:15.928
+jim umožnila navrhnout jejich produkt velmi rychle.
+
+00:07:15.928 --> 00:07:18.617
+Jiný projekt -- 
+Matt Richardson: Už jsem znechucený tím,
+
+00:07:18.617 --> 00:07:21.873
+že slyším v televizi stejné lidi pořád a pořád dokola
+
+00:07:21.873 --> 00:07:25.083
+a tak jsem se rozhodl s tím něco udělat.
+
+00:07:25.083 --> 00:07:26.497
+Tento Arduino projekt,
+
+00:07:26.497 --> 00:07:29.859
+který nazývám "Už toho bylo dost", vypne zvuk,
+
+00:07:29.872 --> 00:07:31.847
+kdykoliv je některá z těchto
+
+00:07:31.847 --> 00:07:33.079
+přehnaně slavných osobností zmíněna. (Smích)
+
+00:07:33.079 --> 00:07:37.927
+Ukážu vám, jak to funguje. (Potlesk)
+
+00:07:37.927 --> 00:07:39.751
+MB: Mrkněte na to.
+
+00:07:39.751 --> 00:07:41.708
+MR: Naši producenti dnes dostihli Kim Kardashian
+
+00:07:41.708 --> 00:07:44.611
+a zjistili, co si chce obléci na její —
+
+00:07:44.611 --> 00:07:46.002
+MB: Hmm? (Smích)
+
+00:07:46.002 --> 00:07:47.904
+MR: To by mělo postačit k tomu,
+
+00:07:47.904 --> 00:07:49.571
+aby vás to uchránilo před detaily
+
+00:07:49.571 --> 00:07:51.367
+o svatbě Kim Kardashianové.
+
+00:07:51.367 --> 00:07:55.924
+MB: Dobře. Co je na tom opět zajímavé
+
+00:07:55.924 --> 00:07:58.894
+je to, že Matt našel modul,
+
+00:07:58.894 --> 00:08:01.126
+který umožňuje Arduinu zpracovávat
+
+00:08:01.126 --> 00:08:03.015
+televizní signály, také našel již hotový kód,
+
+00:08:03.015 --> 00:08:05.844
+který generuje infračervený signál pro televizi,
+
+00:08:05.844 --> 00:08:08.194
+dal to dohromady a vytvořil tento zajímavý projekt.
+
+00:08:08.194 --> 00:08:10.246
+Arduino se také používá
+
+00:08:10.246 --> 00:08:13.133
+na seriozních místech,
+jako například Velký hadronový urychlovač.
+
+00:08:13.146 --> 00:08:15.855
+Je tam pár Arduino jednotek, která sbírají data
+
+00:08:15.855 --> 00:08:17.655
+a měří určité parametry.
+
+00:08:17.655 --> 00:08:19.974
+Nebo se také používá k —
+
+00:08:19.974 --> 00:08:30.686
+(Hudba)
+
+00:08:30.686 --> 00:08:33.127
+Tohle hudební rozhraní
+
+00:08:33.127 --> 00:08:35.246
+postavené studentem z Itálie,
+
+00:08:35.246 --> 00:08:37.366
+je teď v přerodu do skutečného produktu.
+
+00:08:37.366 --> 00:08:39.224
+Jednalo o studentský projekt,
+
+00:08:39.224 --> 00:08:41.455
+z kterého se nyní stává produkt.
+
+00:08:41.455 --> 00:08:43.399
+Nebo jej lze použít jako podpůrné zařízení.
+
+00:08:43.399 --> 00:08:45.389
+Tohle je rukavice, která rozumí
+
+00:08:45.389 --> 00:08:47.536
+znakové řeči a transformuje
+
+00:08:47.536 --> 00:08:49.735
+gesta do zvuků
+
+00:08:49.735 --> 00:08:53.051
+a zapisuje slova,
+která jste vyznakovali na obrazovku.
+
+00:08:53.051 --> 00:08:54.397
+A opět, je vyrobena z různých částí, které lze najít
+
+00:08:54.397 --> 00:08:57.346
+na všech webech, které prodávají díly pro Arduino,
+
+00:08:57.346 --> 00:08:59.430
+vy je sestavíte jako projekt.
+
+00:08:59.430 --> 00:09:02.751
+Nebo projekt z ITP, část New York University,
+
+00:09:02.751 --> 00:09:04.478
+kde se setkali s chlapcem,
+
+00:09:04.478 --> 00:09:07.495
+který má závažné postižení.
+
+00:09:07.496 --> 00:09:09.439
+Nemůže hrát PS3, tak postavili zařízení,
+
+00:09:09.439 --> 00:09:11.886
+které mu umožňuje hrát baseball
+
+00:09:11.886 --> 00:09:13.783
+i přesto, že má omezené
+
+00:09:13.783 --> 00:09:16.159
+schopnosti pohybu.
+
+00:09:16.159 --> 00:09:18.309
+Arduino můžete najít i v uměleckých projektech.
+
+00:09:18.309 --> 00:09:20.624
+Tohle je txtBomber.
+
+00:09:20.624 --> 00:09:22.261
+Vložíte do zařízení nějakou zprávu
+
+00:09:22.261 --> 00:09:25.104
+a zařízení ji vypíše na zeď.
+
+00:09:25.104 --> 00:09:27.006
+Všechny tyto elektromagnety
+
+00:09:27.006 --> 00:09:28.798
+mačkají tlačítka sprejů,
+
+00:09:28.798 --> 00:09:30.434
+prostě přejedete zeď
+
+00:09:30.434 --> 00:09:32.161
+a ono to za vás napíše
+
+00:09:32.161 --> 00:09:34.623
+všechna vaše politická sdělení.
+
+00:09:34.623 --> 00:09:37.254
+Ano. (Potlesk)
+
+00:09:37.254 --> 00:09:39.294
+Pak tu máme tuhle kytku.
+
+00:09:39.294 --> 00:09:41.184
+Nazýváme jí Botanicalls,
+
+00:09:41.184 --> 00:09:44.379
+Má Arduino jednotku s Wi-Fi modulem,
+
+00:09:44.379 --> 00:09:46.980
+která měří podmínky
+
+00:09:46.980 --> 00:09:48.495
+a blaho rostliny.
+
+00:09:48.495 --> 00:09:50.485
+A také posílá zprávy na Twitter,
+
+00:09:50.485 --> 00:09:54.014
+kde můžete s rostlinou sdílet zážitky. (Smích)
+
+00:09:54.014 --> 00:09:55.944
+To znamená, že kytka
+
+00:09:55.944 --> 00:09:58.423
+napíše třeba zprávu: "Je tu fakt horko."
+
+00:09:58.423 --> 00:10:02.494
+nebo třeba: "Potřebuju okamžitě zalít!" (Smích)
+
+00:10:02.494 --> 00:10:05.917
+Zkrátka to dává rostlině vlastní osobnost.
+
+00:10:05.917 --> 00:10:08.584
+Nebo tohle zařízení napíše na Twitter,
+
+00:10:08.584 --> 00:10:10.550
+když děťátko uvnitř
+
+00:10:10.550 --> 00:10:13.158
+matčina břicha začne kopat. (Smích)
+
+00:10:13.158 --> 00:10:14.749
+A tohle je 14letý chlapec z Chile,
+
+00:10:14.749 --> 00:10:16.869
+který vytvořil systém, který detekuje zemětřesení
+
+00:10:16.869 --> 00:10:19.193
+a posílá o něm zprávy na Twitter.
+
+00:10:19.193 --> 00:10:21.681
+Tyto zprávy sleduje 280 000 lidí.
+
+00:10:21.681 --> 00:10:23.825
+Je mu 14 a předpokládá, že bude
+
+00:10:23.825 --> 00:10:27.464
+do roka zapojen do vládního projektu. (Potlesk)
+
+00:10:27.464 --> 00:10:31.205
+Nebo z jiného projektu,
+
+00:10:31.205 --> 00:10:32.951
+kde analýzou příspěvků na Twitteru vaší rodiny
+
+00:10:32.951 --> 00:10:34.887
+můžete přijít na to, kde se kdo nachází,
+
+00:10:34.887 --> 00:10:37.629
+stejně jako ve filmu "Harry Potter".
+
+00:10:37.629 --> 00:10:40.445
+Všechno o tomto projektu můžete najít na webu.
+
+00:10:40.445 --> 00:10:45.126
+Nebo tato židle posílá Twitter zprávy,
+když si na ní někdo prdne. (Smích)
+
+00:10:45.126 --> 00:10:48.209
+Je zajímavé, že v roce 2009
+
+00:10:48.209 --> 00:10:50.591
+Gizmodo prohlásilo,
+
+00:10:50.591 --> 00:10:53.354
+že tento projekt vlastně dává smysl Twitteru.
+
+00:10:53.354 --> 00:10:56.615
+Hodně se mezitím změnilo. (Smích)
+
+00:10:56.615 --> 00:10:58.059
+A teď něco vážnějšího.
+
+00:10:58.059 --> 00:11:00.266
+Když se stalo neštěstí ve Fukušimě,
+
+00:11:00.266 --> 00:11:03.268
+skupina lidí v Japonsku si uvědomila, že informace,
+
+00:11:03.268 --> 00:11:05.823
+které dostali od vlády,
+nebyly opravdu pravdivé a spolehlivé,
+
+00:11:05.823 --> 00:11:07.573
+tak si postavili tento Geigerův počítač,
+
+00:11:07.573 --> 00:11:10.349
+plus Arduino, plus síťové rozhraní.
+
+00:11:10.349 --> 00:11:12.281
+Vyrobili 100 takových zařízení
+
+00:11:12.281 --> 00:11:15.846
+a dali je lidem po celém Japonsku.
+
+00:11:15.859 --> 00:11:18.119
+Shromážděná data byla publikována na stránce
+
+00:11:18.119 --> 00:11:20.268
+nazvané Cosm, což je další web,
+
+00:11:20.268 --> 00:11:23.909
+který vybudovali, 
+zde můžete dostat spolehlivé informace
+
+00:11:23.909 --> 00:11:25.734
+v reálném čase z terénu,
+
+00:11:25.734 --> 00:11:29.341
+které jsou navíc objektivní.
+
+00:11:29.341 --> 00:11:31.224
+Nebo tohle zařízení.
+
+00:11:31.224 --> 00:11:33.664
+Je od hnutí "DIY bio",
+(DYI = Udělej si sám)
+
+00:11:33.664 --> 00:11:35.988
+a je to jeden z kroků, 
+které jsou potřebné při zpracování DNA.
+
+00:11:35.988 --> 00:11:39.366
+Celé je to open-source.
+
+00:11:39.366 --> 00:11:42.758
+Studenti v rozvojových zemích vytváří
+
+00:11:42.760 --> 00:11:45.749
+kopie vědeckých přístrojů,
+
+00:11:45.749 --> 00:11:47.660
+které stojí jinak hodně peněz.
+
+00:11:47.660 --> 00:11:50.250
+Oni si je prostě postaví mnohem levněji
+
+00:11:50.250 --> 00:11:51.483
+s využitím Arduina a pár dalších součástek.
+
+00:11:51.483 --> 00:11:53.379
+Tohle je sonda na měření pH.
+
+00:11:53.379 --> 00:11:56.777
+Tyhle děti ze Španělska,
+
+00:11:56.777 --> 00:11:59.635
+se naučily programovat a vyrábět roboty,
+
+00:11:59.641 --> 00:12:02.310
+ve svých přibližně 11 letech, a začaly využívat Arduino,
+
+00:12:02.310 --> 00:12:04.303
+aby roboty naučily hrát fotbal.
+
+00:12:04.303 --> 00:12:07.145
+Staly se mistry světa tím,
+že vytvořily robota na základě Arduina.
+
+00:12:07.145 --> 00:12:09.021
+A tak když jsme museli vytvořit
+
+00:12:09.021 --> 00:12:11.831
+našeho vlastního robota pro výuku,
+přišli jsme za nimi a řekli:
+
+00:12:11.833 --> 00:12:14.181
+"Navrhněte nám ho, protože přesně víte,
+
+00:12:14.181 --> 00:12:17.911
+co je zapotřebí k vytvoření skvělého robota,
+který zaujme děti."
+
+00:12:17.911 --> 00:12:19.587
+Já to nevím. Já už jsem starý chlap.
+
+00:12:19.587 --> 00:12:22.123
+Co mě asi tak ještě může vzrušit, co? (Smích)
+
+00:12:22.123 --> 00:12:26.058
+Samozřejmě ve smyslu vzdělávání. (Smích)
+
+00:12:26.058 --> 00:12:27.956
+Jsou tu rovněž společnosti jako Google,
+
+00:12:27.956 --> 00:12:29.907
+které pomocí této technologie
+
+00:12:29.907 --> 00:12:32.781
+vytvářejí rozhraní mezi
+
+00:12:32.781 --> 00:12:36.174
+mobilními telefony, tablety a reálným světem.
+
+00:12:36.174 --> 00:12:37.194
+Např. Accessory Development Kit
+
+00:12:37.194 --> 00:12:39.246
+od Googlu je open-source
+
+00:12:39.246 --> 00:12:40.628
+a založený na Arduino, na rozdíl
+
+00:12:40.628 --> 00:12:42.285
+od podobné technologie od Applu,
+
+00:12:42.285 --> 00:12:44.789
+která je uzavřená, pod závazkem mlčenlivosti -- upište váš život Applu.
+
+00:12:44.789 --> 00:12:47.354
+Tady to je.
+
+00:12:47.354 --> 00:12:49.934
+Vidíte obří bludiště, Joey už tam sedí
+
+00:12:49.934 --> 00:12:54.118
+a bludiště se pohybuje podle naklonění tabletu.
+
+00:12:54.118 --> 00:12:57.089
+Pocházím z Itálie, kde je vzhled velmi důležitý,
+
+00:12:57.090 --> 00:12:59.437
+ale přesto velice konzervativní.
+
+00:12:59.437 --> 00:13:00.854
+Takže jsme pracovali s návrhářským studiem
+
+00:13:00.854 --> 00:13:03.020
+zvaným Habits, v Miláně,
+
+00:13:03.020 --> 00:13:05.708
+kde jsme vytvořili tohle zrcadlo,
+které je celé open source.
+
+00:13:05.708 --> 00:13:08.893
+Může sloužit také jako reproduktory pro iPod.
+
+00:13:08.893 --> 00:13:12.530
+Základní myšlenka je, že hardware, software,
+
+00:13:12.530 --> 00:13:13.998
+návrh produktu, výrobní postup,
+
+00:13:13.998 --> 00:13:16.483
+všechno o tomto projektu je open-source
+
+00:13:16.483 --> 00:13:18.353
+a vy si ho můžete vyrobit sami.
+
+00:13:18.353 --> 00:13:20.707
+Proto chceme, aby si ostatní návrháři
+tento přístup osvojili a naučili se,
+
+00:13:20.707 --> 00:13:23.318
+jak vytvářet skvělá zařízení.
+
+00:13:23.318 --> 00:13:24.996
+Naučili se, jak vytvářet interaktivní produkty,
+
+00:13:24.996 --> 00:13:27.765
+ale nezačínali úplně od nuly.
+
+00:13:27.765 --> 00:13:30.166
+A když máte takovouto myšlenku...
+
+00:13:30.166 --> 00:13:32.079
+Víte, co se pak stane?
+
+00:13:32.079 --> 00:13:33.957
+Existují tisíce dalších nápadů,
+
+00:13:33.957 --> 00:13:36.117
+trvalo mi sedm hodin,
+
+00:13:36.117 --> 00:13:37.997
+než jsem sestavil tuhle prezentaci.
+
+00:13:37.997 --> 00:13:41.045
+Ale naštěstí pro vás to nebude trvat sedm hodin.
+Děkuji.
+
+00:13:41.045 --> 00:13:43.061
+Začněme od tohoto příkladu:
+
+00:13:43.061 --> 00:13:44.989
+Skupina lidí,
+
+00:13:44.989 --> 00:13:47.400
+která založila tuto společnost s názvem Pebble,
+vytvořila prototyp hodinek,
+
+00:13:47.400 --> 00:13:51.092
+které komunikují Bluetooth spojením
+s vaším telefonem
+
+00:13:51.092 --> 00:13:52.628
+a vy si tak na nich
+můžete zobrazit informace.
+
+00:13:52.628 --> 00:13:54.900
+Prototyp vytvořili pomocí
+
+00:13:54.900 --> 00:13:56.845
+starého LCD displeje z telefonu Nokia
+
+00:13:56.845 --> 00:13:59.253
+a pomocí Arduina.
+
+00:13:59.253 --> 00:14:01.086
+A nakonec, když projekt dokončovali,
+
+00:14:01.086 --> 00:14:03.494
+se rozhodli, že s ním půjdou do Kickstarter
+(web pro získání financí)
+
+00:14:03.494 --> 00:14:06.113
+a požádají o 100 000 dolarů,
+
+00:14:06.113 --> 00:14:07.968
+aby mohli vyrobit pár kousků k prodeji.
+
+00:14:07.968 --> 00:14:10.039
+Dostali 10 milionů dolarů.
+
+00:14:10.039 --> 00:14:11.574
+A najednou jsou plně financovaný start-up,
+
+00:14:11.574 --> 00:14:14.269
+a nemusí řešit problémy
+
+00:14:14.287 --> 00:14:16.139
+kolem rizikových a rozvojových kapitálů apod.
+
+00:14:16.139 --> 00:14:18.972
+Prostě jen nadchli lidi svým projektem.
+
+00:14:19.007 --> 00:14:21.291
+Poslední projekt, který vám chci ukázat,
+
+00:14:21.291 --> 00:14:25.029
+se jmenuje ArduSat.
+V současné době je na Kickstarter,
+
+00:14:25.029 --> 00:14:27.336
+takže pokud chcete přispět, můžete.
+
+00:14:27.336 --> 00:14:30.146
+Je to satelit, který poletí do vesmíru,
+
+00:14:30.146 --> 00:14:32.068
+což je pravděpodobně poslední open-source věc,
+která by vás napadla.
+
+00:14:32.068 --> 00:14:34.119
+Obsahuje Arduino připojený ke spoustě senzorů.
+
+00:14:34.119 --> 00:14:37.229
+Takže pokud víte, jak ovládat Arduino,
+
+00:14:37.229 --> 00:14:39.685
+můžete nahrát své experimenty
+
+00:14:39.685 --> 00:14:41.876
+do tohoto satelitu a spustit je tam.
+
+00:14:41.876 --> 00:14:44.512
+Představte si, že jako středoškolák můžete mít satelit
+
+00:14:44.512 --> 00:14:46.861
+zapůjčený na týden a dělat na něm
+
+00:14:46.861 --> 00:14:49.513
+experimenty přímo ve vesmíru.
+
+00:14:49.513 --> 00:14:52.269
+Jak už jsem řekl,
+
+00:14:52.269 --> 00:14:53.828
+máme hodně příkladů a já zde skončím.
+
+00:14:53.828 --> 00:14:56.344
+Chci ještě poděkovat komunitě okolo Arduina
+
+00:14:56.344 --> 00:14:58.014
+za to, že jsou nejlepší,
+
+00:14:58.014 --> 00:15:00.206
+a že každý den vzniká hodně projektů.
+
+00:15:00.206 --> 00:15:03.670
+Děkuju. (Potlesk)
+
+00:15:03.670 --> 00:15:05.997
+(Potlesk)
+
+00:15:05.997 --> 00:15:08.484
+A děkuji open-source komunitě.
+
+00:15:08.484 --> 00:15:10.457
+Chris Anderson: Massimo,
+
+00:15:10.457 --> 00:15:13.062
+řekl jsi mi dnes, že jsi neměl ani tušení,
+
+00:15:13.062 --> 00:15:14.534
+že by se to celé mohlo takhle rozjet.
+
+00:15:14.534 --> 00:15:15.323
+MB: Ne.
+
+00:15:15.323 --> 00:15:17.119
+Myslím tím, co jak se cítíš,
+když čteš o všech těch věcech,
+
+00:15:17.119 --> 00:15:19.620
+a uvědomil sis,
+čemu jsi vlastně umožnil vzniknout?
+
+00:15:19.620 --> 00:15:22.436
+No, je to práce mnoho a mnoha lidí,
+takže my, jako komunita,
+
+00:15:22.439 --> 00:15:24.233
+jsme umožnili lidem vytvářet
+
+00:15:24.233 --> 00:15:26.717
+úžasné věci a já se cítím ohromený.
+
+00:15:26.735 --> 00:15:28.904
+Je těžké to popsat...
+
+00:15:28.904 --> 00:15:30.918
+Každé ráno, když se vzbudím,
+a podívám se na všechny ty věci,
+
+00:15:30.918 --> 00:15:33.104
+které mi Google Alerts poslal,
+
+00:15:33.104 --> 00:15:34.639
+je to prostě úžasné.
+
+00:15:34.639 --> 00:15:37.312
+Proniklo to do všech oblastí, 
+které si jen lze představit.
+
+00:15:37.312 --> 00:15:39.304
+CA: Děkuji vám mnohokrát. (Potlesk)
+
+00:15:39.304 --> 00:15:42.566
+(Potlesk)
+

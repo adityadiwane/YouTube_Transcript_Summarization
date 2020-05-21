@@ -1,0 +1,716 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Martin Nováček
+Korektor: Michaela Jez
+
+00:00:16.260 --> 00:00:18.260
+Až doposud byla naše komunikace se stroji
+
+00:00:18.260 --> 00:00:20.260
+vždy omezená na
+
+00:00:20.260 --> 00:00:22.260
+vědomé a přímé způsoby.
+
+00:00:22.260 --> 00:00:24.260
+Ať už to bylo něco tak jednoduchého
+
+00:00:24.260 --> 00:00:26.260
+jako rozsvícení světel vypínačem,
+
+00:00:26.260 --> 00:00:29.260
+nebo něco tak složitého jako programování v robotice,
+
+00:00:29.260 --> 00:00:32.260
+vždy jsme museli zadat stroji příkaz
+
+00:00:32.260 --> 00:00:34.260
+nebo dokonce sérii příkazů,
+
+00:00:34.260 --> 00:00:37.260
+aby něco udělal.
+
+00:00:37.260 --> 00:00:39.260
+Naproti tomu komunikace mezi lidmi
+
+00:00:39.260 --> 00:00:42.260
+je mnohem složitější a daleko zajímavější,
+
+00:00:42.260 --> 00:00:44.260
+protože bereme v úvahu o mnoho více,
+
+00:00:44.260 --> 00:00:47.260
+než co je explicitně vyjádřeno.
+
+00:00:47.260 --> 00:00:50.260
+Všímáme si výrazů tváře, řeči těla
+
+00:00:50.260 --> 00:00:52.260
+a můžeme intuitivně vnímat pocity a emoce
+
+00:00:52.260 --> 00:00:55.260
+z našeho hovoru s druhými.
+
+00:00:55.260 --> 00:00:57.260
+Toto ve skutečnosti formuje velikou část
+
+00:00:57.260 --> 00:00:59.260
+našeho procesu rozhodování se.
+
+00:00:59.260 --> 00:01:01.260
+Naší vizí je přinést
+
+00:01:01.260 --> 00:01:04.260
+celou tuto novou sféru lidských vazeb
+
+00:01:04.260 --> 00:01:06.260
+do interakce člověka s počítačem,
+
+00:01:06.260 --> 00:01:08.260
+tak aby počítače mohli rozumět
+
+00:01:08.260 --> 00:01:10.260
+nejen tomu, co jim přikážete dělat,
+
+00:01:10.260 --> 00:01:12.260
+ale aby mohli reagovat
+
+00:01:12.260 --> 00:01:14.260
+na váš výraz tváře
+
+00:01:14.260 --> 00:01:16.260
+a emoční stav.
+
+00:01:16.260 --> 00:01:18.260
+A jaký je lepší způsob jak to udělat
+
+00:01:18.260 --> 00:01:20.260
+než interpretováním signálů,
+
+00:01:20.260 --> 00:01:22.260
+které jsou přirozeně vytvářené naším mozkem
+
+00:01:22.260 --> 00:01:25.260
+v našem centru pro řízení a zkušenosti.
+
+00:01:25.260 --> 00:01:27.260
+No, to zní jako docela dobrý nápad,
+
+00:01:27.260 --> 00:01:29.260
+ale tento úkol, jak už Bruno zmínil,
+
+00:01:29.260 --> 00:01:32.260
+není lehký ze dvou hlavních důvodů:
+
+00:01:32.260 --> 00:01:35.260
+Zaprvé, detekční algoritmy.
+
+00:01:35.260 --> 00:01:37.260
+Náš mozek se skládá
+
+00:01:37.260 --> 00:01:39.260
+z miliard aktivních neuronů,
+
+00:01:39.260 --> 00:01:42.260
+okolo 170 000 kilometrů
+
+00:01:42.260 --> 00:01:44.260
+délky všech axonů.
+
+00:01:44.260 --> 00:01:46.260
+Když dochází k interakci neuronů,
+
+00:01:46.260 --> 00:01:48.260
+chemická reakce vyšle elektrický impulz,
+
+00:01:48.260 --> 00:01:50.260
+který se dá změřit.
+
+00:01:50.260 --> 00:01:53.260
+Většina našeho fungujícího mozku
+
+00:01:53.260 --> 00:01:55.260
+je rozložená
+
+00:01:55.260 --> 00:01:57.260
+na vnější povrchové vrstvě mozku.
+
+00:01:57.260 --> 00:02:00.260
+A aby se zvýšila plocha, která je volná pro mentální kapacitu,
+
+00:02:00.260 --> 00:02:03.260
+tak je povrch mozku vysoce zvrásněný.
+
+00:02:03.260 --> 00:02:05.260
+Tedy tato korová vrstvení
+
+00:02:05.260 --> 00:02:07.260
+představují nemalou výzvu
+
+00:02:07.260 --> 00:02:10.260
+pro interpretaci povrchových elektrických impulzů.
+
+00:02:10.260 --> 00:02:12.260
+Mozková kůra každého
+
+00:02:12.260 --> 00:02:14.260
+je zvrásněná jinak,
+
+00:02:14.260 --> 00:02:16.260
+podobně jako otisk prstu.
+
+00:02:16.260 --> 00:02:18.260
+Takže i když signál
+
+00:02:18.260 --> 00:02:21.260
+vychází ze stejné funkční části mozku,
+
+00:02:21.260 --> 00:02:23.260
+tak ve chvíli, kdy prochází navrstvenou strukturou,
+
+00:02:23.260 --> 00:02:25.260
+se jeho fyzická poloha
+
+00:02:25.260 --> 00:02:27.260
+se mezi jednotlivci velmi liší,
+
+00:02:27.260 --> 00:02:30.260
+dokonce i mezi jednovaječnými dvojčaty.
+
+00:02:30.260 --> 00:02:32.260
+Neexistuje žádná shoda
+
+00:02:32.260 --> 00:02:34.260
+v povrchových signálech.
+
+00:02:34.260 --> 00:02:36.260
+Průlomem bylo vytvoření algoritmu,
+
+00:02:36.260 --> 00:02:38.260
+který vyrovná kůru tak,
+
+00:02:38.260 --> 00:02:40.260
+abychom mohli zmapovat signály
+
+00:02:40.260 --> 00:02:42.260
+blíže u jejich zdroje,
+
+00:02:42.260 --> 00:02:45.260
+a tak zajistit, aby to mohlo fungovat na celé populaci.
+
+00:02:46.260 --> 00:02:48.260
+Druhou výzvou je
+
+00:02:48.260 --> 00:02:51.260
+samotné zařízení na pozorování mozkových vln.
+
+00:02:51.260 --> 00:02:53.260
+Měření EEG zpravidla zahrnují
+
+00:02:53.260 --> 00:02:56.260
+síť na vlasy s množstvím senzorů,
+
+00:02:56.260 --> 00:02:59.260
+jak můžete vidět na fotografii.
+
+00:02:59.260 --> 00:03:01.260
+Technik rozloží elektrody
+
+00:03:01.260 --> 00:03:03.260
+přímo na hlavu pomocí
+
+00:03:03.260 --> 00:03:05.260
+vodivého gelu nebo pasty
+
+00:03:05.260 --> 00:03:08.260
+a zpravidla po proceduře přípravy hlavy
+
+00:03:08.260 --> 00:03:10.260
+lehkými oděrkami.
+
+00:03:10.260 --> 00:03:12.260
+Tohle trvá opravdu dlouho
+
+00:03:12.260 --> 00:03:14.260
+a není to nic pohodlného.
+
+00:03:14.260 --> 00:03:16.260
+A navíc, tyto systémy
+
+00:03:16.260 --> 00:03:19.260
+stojí desítky tisíc dolarů.
+
+00:03:20.260 --> 00:03:23.260
+Takže, ráda bych na pódiu přivítala
+
+00:03:23.260 --> 00:03:25.260
+Evana Granta, jednoho z loňských řečníků,
+
+00:03:25.260 --> 00:03:27.260
+který laskavě souhlasil s tím,
+
+00:03:27.260 --> 00:03:29.260
+že mi pomůže demonstrovat,
+
+00:03:29.260 --> 00:03:31.260
+co jsme byli schopni vyvinou.
+
+00:03:31.260 --> 00:03:37.260
+(Potlesk)
+
+00:03:37.260 --> 00:03:39.260
+Takže zařízení, které zde vidíte,
+
+00:03:39.260 --> 00:03:41.260
+je 14-kanálový, vysoce spolehlivý
+
+00:03:41.260 --> 00:03:43.260
+systém zaznamenávání EEG.
+
+00:03:43.260 --> 00:03:46.260
+Nevyžaduje žádnou přípravu hlavy,
+
+00:03:46.260 --> 00:03:48.260
+žádný vodivý gel nebo pastu.
+
+00:03:48.260 --> 00:03:51.260
+Trvá pouze pár minut si ho nasadit
+
+00:03:51.260 --> 00:03:53.260
+a počkat na ustálení signálu.
+
+00:03:53.260 --> 00:03:55.260
+Je též bezdrátový,
+
+00:03:55.260 --> 00:03:58.260
+takže se můžete volně pohybovat.
+
+00:03:58.260 --> 00:04:01.260
+A v porovnání s desítkami tisíc dolarů
+
+00:04:01.260 --> 00:04:04.260
+za tradiční EEG systém,
+
+00:04:04.260 --> 00:04:06.260
+tento headsest stojí pouze
+
+00:04:06.260 --> 00:04:08.260
+pár stovek dolarů.
+
+00:04:08.260 --> 00:04:11.260
+Teď k detekčním algoritmům.
+
+00:04:11.260 --> 00:04:13.260
+Takže výrazy tváře --
+
+00:04:13.260 --> 00:04:15.260
+jak jsem zmínila dříve u emočních zážitků --
+
+00:04:15.260 --> 00:04:17.260
+jsou v podstatě navrhnuté tak, aby ihned fungovali
+
+00:04:17.260 --> 00:04:19.260
+s nějakými úpravami citlivosti
+
+00:04:19.260 --> 00:04:22.260
+kvůli přizpůsobení.
+
+00:04:22.260 --> 00:04:24.260
+Ale s omezeným časem, který máme k dispozici,
+
+00:04:24.260 --> 00:04:26.260
+bych vám ráda ukázala kognitivní sadu,
+
+00:04:26.260 --> 00:04:28.260
+která vám dává možnost
+
+00:04:28.260 --> 00:04:31.260
+v podstatě pohybovat virtuálními objekty pouhou myšlenkou.
+
+00:04:32.260 --> 00:04:34.260
+Takže, Evan je v tomto systému nový
+
+00:04:34.260 --> 00:04:36.260
+takže nejprve mu
+
+00:04:36.260 --> 00:04:38.260
+musíme vytvořit nový profil.
+
+00:04:38.260 --> 00:04:41.260
+Očividně nenní Joanne -- takže dáme "přidat uživatele".
+
+00:04:41.260 --> 00:04:43.260
+Evan. Okej.
+
+00:04:43.260 --> 00:04:46.260
+Takže první věcí, kterou potřebujeme udělat s kognitivní sadou
+
+00:04:46.260 --> 00:04:48.260
+je nacvičit
+
+00:04:48.260 --> 00:04:50.260
+neutrální signál.
+
+00:04:50.260 --> 00:04:52.260
+Při neutrálním nemusí Evan dělat
+
+00:04:52.260 --> 00:04:54.260
+nic zvláštního.
+
+00:04:54.260 --> 00:04:56.260
+Jen odpočívá, je uvolněný.
+
+00:04:56.260 --> 00:04:58.260
+A cílem je stanovit počáteční čáru
+
+00:04:58.260 --> 00:05:00.260
+nebo normální stav jeho mozku,
+
+00:05:00.260 --> 00:05:02.260
+protože každý mozek je jiný.
+
+00:05:02.260 --> 00:05:04.260
+Trvá to osm sekund.
+
+00:05:04.260 --> 00:05:06.260
+A nyní, když je to hotové,
+
+00:05:06.260 --> 00:05:08.260
+si můžeme vybat nějakou akci založenou na pohybu.
+
+00:05:08.260 --> 00:05:10.260
+Takže Evane, vyber si něco,
+
+00:05:10.260 --> 00:05:12.260
+co si dokážeš jednoduše představit ve své hlavě.
+
+00:05:12.260 --> 00:05:14.260
+Evan Grant: Pojďme udělat "tahej".
+
+00:05:14.260 --> 00:05:16.260
+Tan Le: Dobře. Tak si vybereme "tahej".
+
+00:05:16.260 --> 00:05:18.260
+Takže je to o tom,
+
+00:05:18.260 --> 00:05:20.260
+že si Evan musí
+
+00:05:20.260 --> 00:05:22.260
+představit objekt posouvající se
+
+00:05:22.260 --> 00:05:24.260
+k obrazovce
+
+00:05:24.260 --> 00:05:27.260
+A tady se nám zobrazuje, jak pokročil,
+
+00:05:27.260 --> 00:05:29.260
+když se soustředí.
+
+00:05:29.260 --> 00:05:31.260
+Napoprvé se nic nestane,
+
+00:05:31.260 --> 00:05:34.260
+protože systém nemá představu o tom, jak on přemýšlí o "tahání".
+
+00:05:34.260 --> 00:05:36.260
+Ale udrž si tu představu
+
+00:05:36.260 --> 00:05:38.260
+po celou dobu těch osmi sekund.
+
+00:05:38.260 --> 00:05:41.260
+Takže, jedna, dva, tři, teď.
+
+00:05:49.260 --> 00:05:51.260
+Dobře.
+
+00:05:51.260 --> 00:05:53.260
+Když jsme to odsouhlasili,
+
+00:05:53.260 --> 00:05:55.260
+tak kostka ožila.
+
+00:05:55.260 --> 00:05:57.260
+Tak se podívejme, jestli se Evan
+
+00:05:57.260 --> 00:06:00.260
+opravdu může pokusit představit si tahání.
+
+00:06:00.260 --> 00:06:02.260
+Á, dobrá práce!
+
+00:06:02.260 --> 00:06:05.260
+(Potlesk)
+
+00:06:05.260 --> 00:06:07.260
+To je fakt působivé.
+
+00:06:07.260 --> 00:06:11.260
+(Potlesk)
+
+00:06:11.260 --> 00:06:13.260
+Ještě máme trochu času,
+
+00:06:13.260 --> 00:06:15.260
+takže poprosíme Evana,
+
+00:06:15.260 --> 00:06:17.260
+aby splnil opravdu težký úkol.
+
+00:06:17.260 --> 00:06:19.260
+A je těžký,
+
+00:06:19.260 --> 00:06:22.260
+protože si má představit něco,
+
+00:06:22.260 --> 00:06:24.260
+co neexistuje v našem fyzickém světě.
+
+00:06:24.260 --> 00:06:26.260
+Je to "zmiz".
+
+00:06:26.260 --> 00:06:28.260
+Takže co chcete -- přinejmenším všechny akce založené na pohybu,
+
+00:06:28.260 --> 00:06:31.260
+to děláme pořád, takže si je dokážeme představit.
+
+00:06:31.260 --> 00:06:33.260
+Ale "zmiz", nic takového neznáme.
+
+00:06:33.260 --> 00:06:35.260
+Takže Evane, teď si představ,
+
+00:06:35.260 --> 00:06:38.260
+že ta kostka pomalů mizí, dobře.
+
+00:06:38.260 --> 00:06:41.260
+Zbytek je stejný. Takže, jedna, dva, tři, teď.
+
+00:06:50.260 --> 00:06:53.260
+Dobře. Zkusíme to.
+
+00:06:53.260 --> 00:06:56.260
+Můj bože. On je vážně dobrý.
+
+00:06:57.260 --> 00:06:59.260
+Zkusíme to znovu.
+
+00:07:04.260 --> 00:07:06.260
+EG: Nemohu se soustředit.
+
+00:07:06.260 --> 00:07:08.260
+(Smích)
+
+00:07:08.260 --> 00:07:10.260
+TL: Ale můžeme vidět, že to opravdu funguje,
+
+00:07:10.260 --> 00:07:12.260
+i když je to možné udržet
+
+00:07:12.260 --> 00:07:14.260
+jen na chvíli.
+
+00:07:14.260 --> 00:07:17.260
+Jak už jsem řekla, je velmi těžké
+
+00:07:17.260 --> 00:07:19.260
+si to představit.
+
+00:07:19.260 --> 00:07:21.260
+A skvělou věcí na tom je, že
+
+00:07:21.260 --> 00:07:23.260
+jsme programu dali jen jednu představu
+
+00:07:23.260 --> 00:07:26.260
+o tom, jak on přemýšlí o zmizení.
+
+00:07:26.260 --> 00:07:29.260
+A má to taky algoritmus pro strojové učení se --
+
+00:07:29.260 --> 00:07:33.260
+(Potlesk)
+
+00:07:33.260 --> 00:07:35.260
+Děkujeme.
+
+00:07:35.260 --> 00:07:38.260
+Dobrá práce. Dobrá práce.
+
+00:07:38.260 --> 00:07:40.260
+(Potlesk)
+
+00:07:40.260 --> 00:07:43.260
+Děkujeme ti, Evane, jsi úžasný, úžasný
+
+00:07:43.260 --> 00:07:46.260
+příklad této technologie.
+
+00:07:46.260 --> 00:07:48.260
+Jak jsme mohli vidět,
+
+00:07:48.260 --> 00:07:51.260
+program má úrovńový systém,
+
+00:07:51.260 --> 00:07:53.260
+takže jak se Evan, nebo kterýkoliv jiný uživatel,
+
+00:07:53.260 --> 00:07:55.260
+bude více seznamovat se systémem,
+
+00:07:55.260 --> 00:07:58.260
+tak může přidávat další a další detekce mozku,
+
+00:07:58.260 --> 00:08:00.260
+aby systém začal rozpoznávat
+
+00:08:00.260 --> 00:08:03.260
+mezi různými myšlenkami.
+
+00:08:04.260 --> 00:08:06.260
+A když jste se naučili detekce,
+
+00:08:06.260 --> 00:08:08.260
+tyto myšlenky mohou být přidané nebo zmapované
+
+00:08:08.260 --> 00:08:10.260
+na kteroukoliv počítačovou platformu,
+
+00:08:10.260 --> 00:08:12.260
+program nebo zařízení.
+
+00:08:12.260 --> 00:08:14.260
+Takže bych vám ráda ukázala pár příkladů,
+
+00:08:14.260 --> 00:08:16.260
+protože existuje množství možných aplikací
+
+00:08:16.260 --> 00:08:18.260
+tohoto nového rozhraní.
+
+00:08:19.260 --> 00:08:21.260
+V hrách a virtuálních světech, například,
+
+00:08:21.260 --> 00:08:23.260
+vaše výrazy tváře
+
+00:08:23.260 --> 00:08:25.260
+mohou být přirozené a intuitivně používané
+
+00:08:25.260 --> 00:08:28.260
+na ovládání avatara nebo virtuální postavy.
+
+00:08:29.260 --> 00:08:31.260
+Taky můžete zažít fantazii magie
+
+00:08:31.260 --> 00:08:34.260
+a kontrolovat svět svou myslí.
+
+00:08:36.260 --> 00:08:39.260
+A také barvy, světlo,
+
+00:08:39.260 --> 00:08:41.260
+zvuk a efekty
+
+00:08:41.260 --> 00:08:43.260
+mohou dynamicky reagovat na váš emociální stav,
+
+00:08:43.260 --> 00:08:46.260
+aby zvýšily sílu zážitku, který prožíváte, v reálném čase.
+
+00:08:47.260 --> 00:08:49.260
+Když se podíváme na nějaké aplikace
+
+00:08:49.260 --> 00:08:52.260
+vyvíjené vývojáři a výzkumníky na celém světě,
+
+00:08:52.260 --> 00:08:55.260
+s roboty a jednoduchými stroji, například --
+
+00:08:55.260 --> 00:08:57.260
+v tomto případě létání s hračkou, helikoptérou
+
+00:08:57.260 --> 00:09:00.260
+jednoduše zaměřením se na "vzlétni" ve své hlavě.
+
+00:09:00.260 --> 00:09:02.260
+Technologie může být použitá
+
+00:09:02.260 --> 00:09:04.260
+i v reálném světě --
+
+00:09:04.260 --> 00:09:06.260
+v tomto případě v inteligentním domě.
+
+00:09:06.260 --> 00:09:09.260
+No víte, od uživatelského rozhraní řídícího systému
+
+00:09:09.260 --> 00:09:11.260
+až po rozhrnutí záclon
+
+00:09:11.260 --> 00:09:14.260
+nebo jejich zahrnutí.
+
+00:09:22.260 --> 00:09:25.260
+A samozřejmě světla --
+
+00:09:25.260 --> 00:09:28.260
+jejich rozsvícení
+
+00:09:28.260 --> 00:09:30.260
+nebo zhasnutí.
+
+00:09:30.260 --> 00:09:32.260
+A nakonec,
+
+00:09:32.260 --> 00:09:34.260
+použití, které opravdu mění životy,
+
+00:09:34.260 --> 00:09:37.260
+jako je možnost řídit elektrický vozík.
+
+00:09:37.260 --> 00:09:39.260
+V tomto případě jsou
+
+00:09:39.260 --> 00:09:42.260
+výrazy tváře zmapované na příkazy pohybu.
+
+00:09:42.260 --> 00:09:45.260
+Muž: Teď mrkněte pravým okem, abys jel doprava.
+
+00:09:50.260 --> 00:09:53.260
+Teď mrkni levým okem, abys jel zatočil doleva.
+
+00:10:02.260 --> 00:10:05.260
+Teď se usměj, abys jel rovně.
+
+00:10:08.260 --> 00:10:10.260
+TL: Opravdu vám děkujeme.
+
+00:10:10.260 --> 00:10:15.260
+(Potlesk)
+
+00:10:15.260 --> 00:10:18.260
+V současné době opravdu jen nahlížíme pod povrch toho, co je možné.
+
+00:10:18.260 --> 00:10:20.260
+A s přínosem společnosti
+
+00:10:20.260 --> 00:10:22.260
+a také se zahrnutím vývojářů
+
+00:10:22.260 --> 00:10:25.260
+a výzkumníků z celého světa,
+
+00:10:25.260 --> 00:10:27.260
+doufáme, že nám můžete pomoci určit to
+
+00:10:27.260 --> 00:10:30.260
+kam až může zajít technologie. Moc vám děkuji.
+

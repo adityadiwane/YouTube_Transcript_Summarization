@@ -1,0 +1,629 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+00:00:00.000 --> 00:00:07.000
+Vertaald door: Christel Foncke
+Nagekeken door: Els De Keyser
+
+00:00:15.260 --> 00:00:18.260
+Velen geloven dat rijden een activiteit is
+
+00:00:18.260 --> 00:00:20.260
+die gereserveerd is voor degenen die kunnen zien.
+
+00:00:20.260 --> 00:00:23.260
+Een blinde die een voertuig veilig en zelfstandig bestuurt,
+
+00:00:23.260 --> 00:00:26.260
+werd als onmogelijk beschouwd, tot nu toe.
+
+00:00:26.260 --> 00:00:28.260
+Hallo, mijn naam is Dennis Hong,
+
+00:00:28.260 --> 00:00:30.260
+en we brengen vrijheid en onafhankelijkheid voor de blinden
+
+00:00:30.260 --> 00:00:33.260
+door een voertuig te bouwen voor visueel gehandicapten.
+
+00:00:33.260 --> 00:00:36.260
+Voordat ik praat over deze auto voor de blinden,
+
+00:00:36.260 --> 00:00:38.260
+wil ik kort iets vertellen over een ander project waaraan
+
+00:00:38.260 --> 00:00:40.260
+ik heb gewerkt: de DARPA Urban Challenge.
+
+00:00:40.260 --> 00:00:42.260
+Dit ging over de bouw van een robot-auto
+
+00:00:42.260 --> 00:00:44.260
+die zelf kan rijden.
+
+00:00:44.260 --> 00:00:46.260
+Je drukt op start, niemand raakt iets aan.
+
+00:00:46.260 --> 00:00:49.260
+Hij kan zijn bestemming volledig autonoom bereiken.
+
+00:00:49.260 --> 00:00:52.260
+In 2007 won ons team een half miljoen dollar
+
+00:00:52.260 --> 00:00:54.260
+met een derde plaats in deze wedstrijd.
+
+00:00:54.260 --> 00:00:56.260
+Rond die tijd daagde
+
+00:00:56.260 --> 00:00:58.260
+de Nationale Federatie van de Blinden, of NFB,
+
+00:00:58.260 --> 00:01:00.260
+de onderzoekscommissie uit
+
+00:01:00.260 --> 00:01:02.260
+een auto te ontwikkelen
+
+00:01:02.260 --> 00:01:04.260
+waarmee een blinde persoon veilig en zelfstandig kan rijden.
+
+00:01:04.260 --> 00:01:06.260
+We besloten het eens uit te proberen,
+
+00:01:06.260 --> 00:01:08.260
+omdat we dachten dat het niet moeilijk zou zijn.
+
+00:01:08.260 --> 00:01:10.260
+We hadden al een autonoom voertuig.
+
+00:01:10.260 --> 00:01:12.260
+We zetten er een blinde persoon in en we zijn klaar.
+
+00:01:12.260 --> 00:01:14.260
+(Gelach)
+
+00:01:14.260 --> 00:01:16.260
+We konden niet meer verkeerd geweest zijn.
+
+00:01:16.260 --> 00:01:18.260
+Wat het NFB wilde,
+
+00:01:18.260 --> 00:01:21.260
+was niet een voertuig dat een blinde persoon kan rondrijden,
+
+00:01:21.260 --> 00:01:24.260
+maar een voertuig waarin een blinde persoon actief beslissingen kan maken en rijden.
+
+00:01:24.260 --> 00:01:26.260
+We moesten alles overboord gooien
+
+00:01:26.260 --> 00:01:28.260
+en vanaf nul beginnen.
+
+00:01:28.260 --> 00:01:30.260
+Dus om dit gekke idee te testen,
+
+00:01:30.260 --> 00:01:32.260
+ontwikkelden we een prototype, een kleine duinbuggy,
+
+00:01:32.260 --> 00:01:34.260
+om de haalbaarheid te testen.
+
+00:01:34.260 --> 00:01:36.260
+In de zomer van 2009
+
+00:01:36.260 --> 00:01:39.260
+nodigden we tientallen blinde jongeren uit, uit alle hoeken van het land,
+
+00:01:39.260 --> 00:01:41.260
+en gaven hen een kans een ritje te maken.
+
+00:01:41.260 --> 00:01:43.260
+Het was absoluut een ongelooflijke ervaring.
+
+00:01:43.260 --> 00:01:45.260
+Maar het probleem met deze auto was
+
+00:01:45.260 --> 00:01:48.260
+dat hij ontworpen werd om alleen gebruikt te worden in een zeer gecontroleerde omgeving,
+
+00:01:48.260 --> 00:01:50.260
+op een vlakke afgesloten parkeerplaats -
+
+00:01:50.260 --> 00:01:52.260
+met rijstroken afgezet met rode kegels.
+
+00:01:52.260 --> 00:01:54.260
+Door dit succes
+
+00:01:54.260 --> 00:01:56.260
+besloten we om een volgende grote stap te zetten,
+
+00:01:56.260 --> 00:01:59.260
+om een echte auto te ontwikkelen die op echte wegen kan rijden.
+
+00:01:59.260 --> 00:02:01.260
+Hoe werkt het?
+
+00:02:01.260 --> 00:02:03.260
+Het is een vrij complex systeem.
+
+00:02:03.260 --> 00:02:06.260
+Ik zal proberen het eenvoudig uit te leggen.
+
+00:02:06.260 --> 00:02:08.260
+Er zijn drie stappen.
+
+00:02:08.260 --> 00:02:10.260
+We hebben perceptie, berekening
+
+00:02:10.260 --> 00:02:12.260
+en niet-visuele interfaces.
+
+00:02:12.260 --> 00:02:14.260
+De chauffeur kan uiteraard niet zien,
+
+00:02:14.260 --> 00:02:16.260
+het systeem moet de omgeving waarnemen
+
+00:02:16.260 --> 00:02:18.260
+en informatie verzamelen voor de chauffeur.
+
+00:02:18.260 --> 00:02:21.260
+Daarvoor gebruiken we een eerste meeteenheid.
+
+00:02:21.260 --> 00:02:23.260
+Die meet versnelling, hoekversnelling -
+
+00:02:23.260 --> 00:02:25.260
+zoals een menselijk oor, binnenoor.
+
+00:02:25.260 --> 00:02:27.260
+We voegen die informatie samen met een gps
+
+00:02:27.260 --> 00:02:30.260
+om een schatting van de locatie van de auto te krijgen.
+
+00:02:30.260 --> 00:02:33.260
+We gebruiken twee camera’s om de rijstroken van de weg te detecteren.
+
+00:02:33.260 --> 00:02:35.260
+We gebruiken drie laser afstandsmeters.
+
+00:02:35.260 --> 00:02:38.260
+De lasers scannen de omgeving om obstakels te detecteren -
+
+00:02:38.260 --> 00:02:40.260
+een naderende auto aan de voorkant, de achterkant
+
+00:02:40.260 --> 00:02:43.260
+en ook eventuele obstakels op de wegen,
+
+00:02:43.260 --> 00:02:45.260
+of rondom het voertuig.
+
+00:02:45.260 --> 00:02:48.260
+Deze enorme hoeveelheid informatie wordt vervolgens in de computer ingevoerd.
+
+00:02:48.260 --> 00:02:50.260
+De computer kan twee dingen doen.
+
+00:02:50.260 --> 00:02:53.260
+Eén daarvan is, om te beginnen, deze informatie verwerken
+
+00:02:53.260 --> 00:02:55.260
+om de omgeving te begrijpen -
+
+00:02:55.260 --> 00:02:58.260
+Dit zijn de rijstroken, daar zijn de obstakels -
+
+00:02:58.260 --> 00:03:00.260
+en deze informatie overbrengen aan de chauffeur.
+
+00:03:00.260 --> 00:03:02.260
+Het systeem is ook slim genoeg
+
+00:03:02.260 --> 00:03:04.260
+om de veiligste manier te vinden om de auto te bedienen.
+
+00:03:04.260 --> 00:03:06.260
+We kunnen ook instructies genereren
+
+00:03:06.260 --> 00:03:08.260
+over hoe de instrumenten van het voertuig te gebruiken.
+
+00:03:08.260 --> 00:03:10.260
+Maar het probleem is: hoe kunnen we
+
+00:03:10.260 --> 00:03:12.260
+deze informatie en instructies overbrengen
+
+00:03:12.260 --> 00:03:14.260
+aan een persoon die niet kan zien,
+
+00:03:14.260 --> 00:03:17.260
+snel en accuraat genoeg, zodat hij kan rijden?
+
+00:03:17.260 --> 00:03:19.260
+Daarvoor ontwikkelden we veel verschillende soorten
+
+00:03:19.260 --> 00:03:22.260
+van niet-visuele gebruikersinterfacetechnologie.
+
+00:03:22.260 --> 00:03:24.260
+Een driedimensionaal ping-geluidssysteem,
+
+00:03:24.260 --> 00:03:26.260
+een trillende vest,
+
+00:03:26.260 --> 00:03:29.260
+een klikwiel met gesproken commando's, een beenstrip,
+
+00:03:29.260 --> 00:03:31.260
+zelfs een schoen die druk uitoefent op de voet.
+
+00:03:31.260 --> 00:03:33.260
+Vandaag wil ik het hebben over
+
+00:03:33.260 --> 00:03:35.260
+drie van deze niet-visuele gebruikersinterfaces.
+
+00:03:35.260 --> 00:03:38.260
+De eerste interface heet een DriveGrip.
+
+00:03:38.260 --> 00:03:40.260
+Dit zijn een paar handschoenen.
+
+00:03:40.260 --> 00:03:42.260
+Ze hebben vibrerende elementen op het knokkeldeel,
+
+00:03:42.260 --> 00:03:45.260
+zo kan je instructies overbrengen over hoe te sturen -
+
+00:03:45.260 --> 00:03:47.260
+de richting en de intensiteit.
+
+00:03:47.260 --> 00:03:49.260
+Een ander apparaat heet SpeedStrip.
+
+00:03:49.260 --> 00:03:52.260
+Dit is een stoel - het is eigenlijk een massagestoel.
+
+00:03:52.260 --> 00:03:56.260
+We verbouwden hem en herschikten de vibrerende elementen in verschillende patronen,
+
+00:03:56.260 --> 00:03:59.260
+zodat ze informatie over de snelheid overbrengen,
+
+00:03:59.260 --> 00:04:02.260
+en ook instructies over hoe de gas- en het rempedaal te gebruiken.
+
+00:04:02.260 --> 00:04:04.260
+Hier kun je zien
+
+00:04:04.260 --> 00:04:06.260
+hoe de computer de omgeving begrijpt.
+
+00:04:06.260 --> 00:04:08.260
+Omdat je de vibratie niet kunt zien, hebben we
+
+00:04:08.260 --> 00:04:11.260
+rode LED's op de chauffeur gezet, zodat hij daadwerkelijk kan zien wat er gebeurt.
+
+00:04:11.260 --> 00:04:13.260
+Dit zijn de zintuiglijke gegevens.
+
+00:04:13.260 --> 00:04:16.260
+Die gegevens worden overgedragen aan de apparaten via de computer.
+
+00:04:16.260 --> 00:04:18.260
+Deze twee apparaten, DriveGrip en SpeedStrip,
+
+00:04:18.260 --> 00:04:20.260
+zijn zeer effectief.
+
+00:04:20.260 --> 00:04:22.260
+Het probleem is:
+
+00:04:22.260 --> 00:04:24.260
+dit zijn apparaten die instructies geven.
+
+00:04:24.260 --> 00:04:26.260
+Geen echte vrijheid, nietwaar?
+
+00:04:26.260 --> 00:04:28.260
+De computer vertelt je hoe je moet rijden -
+
+00:04:28.260 --> 00:04:30.260
+linksaf, rechtsaf, versnellen, stoppen.
+
+00:04:30.260 --> 00:04:32.260
+We noemen dit het achterbank-chauffeur-probleem.
+
+00:04:32.260 --> 00:04:35.260
+We zijn afgestapt van de apparaten die instructies geven,
+
+00:04:35.260 --> 00:04:37.260
+en we zijn nu meer gericht
+
+00:04:37.260 --> 00:04:39.260
+op de informatieve apparaten.
+
+00:04:39.260 --> 00:04:41.260
+Een goed voorbeeld voor deze informatieve,
+
+00:04:41.260 --> 00:04:43.260
+niet-visuele gebruikersinterface, is de AirPix.
+
+00:04:43.260 --> 00:04:45.260
+Beschouw het als een monitor voor blinden.
+
+00:04:45.260 --> 00:04:47.260
+Het is een klein tablet met veel gaten in,
+
+00:04:47.260 --> 00:04:49.260
+en perslucht die naar buiten komt.
+
+00:04:49.260 --> 00:04:51.260
+Het kan beelden tekenen.
+
+00:04:51.260 --> 00:04:53.260
+Hoewel je blind bent, kun je je hand er overheen leggen,
+
+00:04:53.260 --> 00:04:55.260
+en de rijstroken en obstakels van de weg zien.
+
+00:04:55.260 --> 00:04:58.260
+Je kunt ook de frequentie van de uitgaande lucht regelen
+
+00:04:58.260 --> 00:05:00.260
+en eventueel de temperatuur.
+
+00:05:00.260 --> 00:05:03.260
+Het is een multidimensionale interface.
+
+00:05:03.260 --> 00:05:06.260
+Hier zie je de linkercamera, de rechtercamera van het voertuig
+
+00:05:06.260 --> 00:05:09.260
+en hoe de computer dat interpreteert en die informatie doorstuurt aan de AirPix.
+
+00:05:09.260 --> 00:05:11.260
+We laten een simulator zien,
+
+00:05:11.260 --> 00:05:14.260
+een blinde persoon die rijdt met behulp van de AirPix.
+
+00:05:14.260 --> 00:05:17.260
+Deze simulator is zeer nuttig voor de opleiding van de blinde chauffeurs
+
+00:05:17.260 --> 00:05:19.260
+en ook voor het snel testen van verschillende soorten ideeën
+
+00:05:19.260 --> 00:05:21.260
+voor verschillende soorten van niet-visuele gebruikersinterfaces.
+
+00:05:21.260 --> 00:05:23.260
+Dat is in principe hoe het werkt.
+
+00:05:23.260 --> 00:05:25.260
+Een maand geleden,
+
+00:05:25.260 --> 00:05:27.260
+op 29 januari,
+
+00:05:27.260 --> 00:05:29.260
+onthulden we dit voertuig voor de allereerste keer aan het publiek
+
+00:05:29.260 --> 00:05:32.260
+op de wereldberoemde Daytona International Speedway
+
+00:05:32.260 --> 00:05:34.260
+tijdens het Rolex 24 race-evenement.
+
+00:05:34.260 --> 00:05:37.260
+We hadden ook enkele verrassingen. Laten we een kijkje nemen.
+
+00:05:37.260 --> 00:05:47.260
+(Muziek)
+
+00:05:47.260 --> 00:05:51.260
+(Video) Omroeper: Dit is een historische dag [onduidelijk].
+
+00:05:51.260 --> 00:05:55.260
+Hij rijdt tot aan de tribune, collega-Federistas.
+
+00:05:55.260 --> 00:06:01.260
+(Gejuich)
+
+00:06:01.260 --> 00:06:04.260
+(Toeteren)
+
+00:06:04.260 --> 00:06:06.260
+Hier is de tribune.
+
+00:06:06.260 --> 00:06:10.260
+En hij [onduidelijk] volgt de wagen voor hem.
+
+00:06:10.260 --> 00:06:12.260
+Daar komt de eerste doos.
+
+00:06:12.260 --> 00:06:15.260
+Kan Mark ze vermijden?
+
+00:06:15.260 --> 00:06:18.260
+Inderdaad. Hij rijdt voorbij aan de rechterkant.
+
+00:06:20.260 --> 00:06:23.260
+Derde doos komt eraan. En ook de vierde doos.
+
+00:06:23.260 --> 00:06:26.260
+Hij vindt perfect zijn weg tussen de twee.
+
+00:06:26.260 --> 00:06:28.260
+Hij komt dichter bij het busje
+
+00:06:28.260 --> 00:06:31.260
+om het voorbij te steken.
+
+00:06:32.260 --> 00:06:34.260
+Hier draait het allemaal om,
+
+00:06:34.260 --> 00:06:38.260
+dit dynamische vertoon van durf en vindingrijkheid.
+
+00:06:39.260 --> 00:06:42.260
+Hij nadert het einde van de rit,
+
+00:06:42.260 --> 00:06:47.260
+maakt zijn weg tussen de vaten die daar zijn opgesteld.
+
+00:06:47.260 --> 00:06:50.260
+(Toeteren)
+
+00:06:50.260 --> 00:06:53.260
+(Applaus)
+
+00:06:56.260 --> 00:06:58.260
+Dennis Hong: Ik ben zo blij voor je.
+
+00:06:58.260 --> 00:07:00.260
+Mark gaat mij een lift terug naar het hotel geven.
+
+00:07:00.260 --> 00:07:02.260
+Mark Riccobono: Ja.
+
+00:07:05.260 --> 00:07:14.260
+(Applaus)
+
+00:07:14.260 --> 00:07:16.260
+DH: Sinds we dit project gestart zijn,
+
+00:07:16.260 --> 00:07:19.260
+ontvingen we honderden brieven, e-mails, telefoontjes
+
+00:07:19.260 --> 00:07:21.260
+van mensen uit de hele wereld.
+
+00:07:21.260 --> 00:07:24.260
+Brieven om ons te bedanken, maar soms kregen we grappige brieven zoals deze:
+
+00:07:24.260 --> 00:07:28.260
+"Nu begrijp ik waarom er braille staat op een drive-in-geldautomaat."
+
+00:07:28.260 --> 00:07:30.260
+(Gelach)
+
+00:07:30.260 --> 00:07:32.260
+Maar soms -
+
+00:07:32.260 --> 00:07:34.260
+(Gelach)
+
+00:07:34.260 --> 00:07:36.260
+Soms kreeg ik ook -
+
+00:07:36.260 --> 00:07:38.260
+ik zou het geen haat-mail noemen -
+
+00:07:38.260 --> 00:07:40.260
+maar brieven met grote bezorgdheid:
+
+00:07:40.260 --> 00:07:42.260
+"Dr Hong, ben je gek,
+
+00:07:42.260 --> 00:07:44.260
+proberen om blinden op de weg te krijgen?
+
+00:07:44.260 --> 00:07:46.260
+Je hebt ze niet alle vijf op een rij. "
+
+00:07:46.260 --> 00:07:48.260
+Dit voertuig is een prototype van het voertuig,
+
+00:07:48.260 --> 00:07:50.260
+en het gaat de weg niet op
+
+00:07:50.260 --> 00:07:52.260
+totdat het zo veilig is, of veiliger dan het voertuig van vandaag.
+
+00:07:52.260 --> 00:07:55.260
+Ik geloof echt dat dit kan gebeuren.
+
+00:07:55.260 --> 00:07:57.260
+Zal de maatschappij
+
+00:07:57.260 --> 00:07:59.260
+zo'n ingrijpend idee aanvaarden?
+
+00:07:59.260 --> 00:08:01.260
+Wat met de verzekering?
+
+00:08:01.260 --> 00:08:03.260
+Hoe gaan we rijbewijzen uitgeven?
+
+00:08:03.260 --> 00:08:06.260
+Er zijn heel veel verschillende soorten hindernissen, naast de technologische uitdagingen,
+
+00:08:06.260 --> 00:08:09.260
+die we moeten aanpakken voordat dit werkelijkheid wordt.
+
+00:08:09.260 --> 00:08:11.260
+Natuurlijk, het belangrijkste doel van dit project
+
+00:08:11.260 --> 00:08:13.260
+is om een auto te ontwikkelen voor blinden.
+
+00:08:13.260 --> 00:08:15.260
+Maar potentieel veel belangrijker dan dit
+
+00:08:15.260 --> 00:08:18.260
+is de enorme waarde van de spin-off-technologie
+
+00:08:18.260 --> 00:08:20.260
+die uit dit project kan komen.
+
+00:08:20.260 --> 00:08:22.260
+De sensoren die worden gebruikt, kunnen zien in het donker,
+
+00:08:22.260 --> 00:08:24.260
+in mist en regen.
+
+00:08:24.260 --> 00:08:26.260
+Samen met dit nieuwe type van interfaces,
+
+00:08:26.260 --> 00:08:28.260
+kunnen we gebruik maken van deze technologieën
+
+00:08:28.260 --> 00:08:30.260
+en ze toepassen om veiliger auto's voor zienden te maken.
+
+00:08:30.260 --> 00:08:33.260
+Of alledaagse huishoudelijke apparaten voor de blinden, -
+
+00:08:33.260 --> 00:08:35.260
+in de scholen, in de kantooromgeving.
+
+00:08:35.260 --> 00:08:38.260
+Stel je voor, in een klaslokaal schrijft een leraar op het bord
+
+00:08:38.260 --> 00:08:41.260
+en een blinde student kan zien wat er geschreven staat en het lezen
+
+00:08:41.260 --> 00:08:43.260
+door gebruik te maken van deze niet-visuele interfaces.
+
+00:08:43.260 --> 00:08:46.260
+Dit is onbetaalbaar.
+
+00:08:46.260 --> 00:08:49.260
+De dingen die ik vandaag heb laten zien, zijn nog maar het begin.
+
+00:08:49.260 --> 00:08:51.260
+Hartelijk dank.
+
+00:08:51.260 --> 00:09:02.260
+(Applaus)
+

@@ -1,0 +1,1611 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Lidia Cámara de la Fuente
+Revisor: Ciro Gomez
+
+00:00:12.535 --> 00:00:15.980
+Soy profesora de ciencias de la computación 
+e ingeniería aquí en Carnegie Mellon,
+
+00:00:15.980 --> 00:00:20.228
+y mi investigación se centra 
+en la privacidad y seguridad utilizable,
+
+00:00:20.228 --> 00:00:22.996
+y por ello, a mis amigos 
+les gusta darme ejemplos
+
+00:00:22.996 --> 00:00:25.198
+de sus frustraciones 
+con los sistemas informáticos,
+
+00:00:25.198 --> 00:00:28.552
+especialmente de frustraciones
+relacionados con
+
+00:00:28.552 --> 00:00:32.664
+la privacidad y la seguridad inutilizable.
+
+00:00:32.664 --> 00:00:35.375
+Así que he oído mucho 
+sobre contraseñas.
+
+00:00:35.375 --> 00:00:38.255
+Muchas personas se sienten 
+frustradas con las contraseñas,
+
+00:00:38.255 --> 00:00:39.949
+y es bastante lamentable
+
+00:00:39.949 --> 00:00:42.593
+cuando uno debe tener 
+una contraseña muy buena
+
+00:00:42.593 --> 00:00:44.415
+que pueda recordar
+
+00:00:44.415 --> 00:00:47.309
+pero que nadie pueda adivinar.
+
+00:00:47.309 --> 00:00:48.946
+Pero ¿qué hacer 
+cuando se tienen cuentas
+
+00:00:48.946 --> 00:00:50.754
+en un centenar de diferentes sistemas
+
+00:00:50.754 --> 00:00:53.030
+y que a su vez se supone que 
+deben ser contraseñas únicas
+
+00:00:53.030 --> 00:00:56.067
+para cada uno de estos sistemas?
+
+00:00:56.067 --> 00:00:58.251
+Es complejo.
+
+00:00:58.251 --> 00:01:00.010
+En Carnegie Mellon solían hacerlo
+
+00:01:00.010 --> 00:01:01.309
+bastante fácil
+
+00:01:01.309 --> 00:01:03.046
+para que recordáramos
+nuestras contraseñas.
+
+00:01:03.046 --> 00:01:05.449
+El requisito hasta el 2009 para 
+las contraseñas era
+
+00:01:05.449 --> 00:01:07.828
+que estas tuvieran
+
+00:01:07.828 --> 00:01:10.039
+al menos un carácter.
+
+00:01:10.039 --> 00:01:12.927
+Bastante fácil. 
+Pero luego cambiaron las cosas,
+
+00:01:12.927 --> 00:01:15.597
+y al final del 2009 se anunció
+
+00:01:15.597 --> 00:01:17.973
+que íbamos a tener una nueva política,
+
+00:01:17.973 --> 00:01:19.836
+y esta nueva política precisaba
+
+00:01:19.836 --> 00:01:22.517
+contraseñas que tuvieran 
+al menos 8 caracteres,
+
+00:01:22.517 --> 00:01:24.292
+con una letra mayúscula, 
+letra minúscula,
+
+00:01:24.292 --> 00:01:25.580
+un dígito y un símbolo.
+
+00:01:25.580 --> 00:01:28.218
+No se podía utilizar 
+el mismo carácter más de tres veces,
+
+00:01:28.218 --> 00:01:30.652
+y no podía aparecer en un diccionario.
+
+00:01:30.652 --> 00:01:32.834
+Cuando implementaron 
+esta nueva política,
+
+00:01:32.834 --> 00:01:35.144
+muchos de mis colegas y amigos,
+
+00:01:35.144 --> 00:01:36.998
+me vinieron para decirme:
+
+00:01:36.998 --> 00:01:38.510
+"Ahora sí que es 
+realmente inservible.
+
+00:01:38.510 --> 00:01:39.703
+¿Por qué nos hacen esto
+
+00:01:39.703 --> 00:01:41.414
+y por qué no los detuviste?"
+
+00:01:41.414 --> 00:01:42.770
+Y yo dije: "¿Saben qué?
+
+00:01:42.770 --> 00:01:44.278
+Nadie me preguntó".
+
+00:01:44.278 --> 00:01:47.743
+Pero me picó la curiosidad 
+y decidí ir a hablar
+
+00:01:47.743 --> 00:01:49.680
+con las personas a cargo de 
+nuestros sistemas informáticos
+
+00:01:49.680 --> 00:01:52.511
+y averiguar qué les llevó a introducir
+
+00:01:52.511 --> 00:01:54.359
+esta nueva política.
+
+00:01:54.359 --> 00:01:55.943
+Y dijeron que la universidad
+
+00:01:55.943 --> 00:01:58.309
+se había unido a un 
+consorcio de universidades,
+
+00:01:58.309 --> 00:02:00.943
+y uno de los requisitos de membresía
+
+00:02:00.943 --> 00:02:03.191
+era que debíamos tener 
+contraseñas más seguras
+
+00:02:03.191 --> 00:02:05.463
+que cumpliesen algunos 
+nuevos requisitos,
+
+00:02:05.463 --> 00:02:07.567
+y estos requisitos eran 
+que nuestras contraseñas
+
+00:02:07.567 --> 00:02:09.171
+tenía que tener una 
+gran cantidad de entropía.
+
+00:02:09.171 --> 00:02:11.449
+La entropía es un término complicado,
+
+00:02:11.449 --> 00:02:14.247
+pero básicamente mide 
+la fuerza de las contraseñas.
+
+00:02:14.247 --> 00:02:16.226
+Pero el tema es que eso no es en realidad
+
+00:02:16.226 --> 00:02:18.175
+una medida estándar de entropía.
+
+00:02:18.175 --> 00:02:20.574
+El Instituto Nacional 
+de Estándares y Tecnología
+
+00:02:20.574 --> 00:02:22.127
+tiene un conjunto de directrices
+
+00:02:22.127 --> 00:02:24.695
+con algunas reglas básicas
+
+00:02:24.695 --> 00:02:26.135
+para medir la entropía,
+
+00:02:26.135 --> 00:02:29.030
+pero no tienen nada muy específico,
+
+00:02:29.030 --> 00:02:31.367
+y la razón por la que solo 
+tiene reglas básicas
+
+00:02:31.367 --> 00:02:34.503
+es porque en realidad 
+no tienen buena información
+
+00:02:34.503 --> 00:02:36.023
+sobre contraseñas.
+
+00:02:36.023 --> 00:02:38.335
+De hecho, su informe señala,
+
+00:02:38.335 --> 00:02:40.663
+"Desafortunadamente, 
+no tenemos mucha información
+
+00:02:40.663 --> 00:02:43.505
+sobre las contraseñas que los usuarios 
+eligen bajo reglas particulares.
+
+00:02:43.505 --> 00:02:45.838
+Al Instituto de estándares y tecnología (NIST) 
+le gustaría obtener más datos
+
+00:02:45.838 --> 00:02:48.300
+sobre las contraseñas 
+escogidas por los usuarios,
+
+00:02:48.300 --> 00:02:50.763
+pero los administradores de sistemas 
+son comprensiblemente reacios
+
+00:02:50.763 --> 00:02:53.703
+a revelar datos de las 
+contraseñas a externos".
+
+00:02:53.703 --> 00:02:56.800
+Esto es un problema, 
+pero nuestro grupo de investigación
+
+00:02:56.800 --> 00:02:58.940
+lo vio como una oportunidad.
+
+00:02:58.940 --> 00:03:02.040
+Dijimos: "Hay una necesidad de 
+tener buenos datos sobre contraseñas.
+
+00:03:02.040 --> 00:03:04.188
+Tal vez podamos recoger 
+algunos buenos datos sobre contraseñas
+
+00:03:04.188 --> 00:03:06.892
+y de hecho avanzar 
+el estado actual aquí".
+
+00:03:06.892 --> 00:03:08.564
+Así que lo primero que hicimos fue
+
+00:03:08.564 --> 00:03:10.120
+ir con una bolsa de caramelos
+
+00:03:10.120 --> 00:03:11.206
+a dar una vuelta por el campus
+
+00:03:11.206 --> 00:03:14.004
+para hablar con los estudiantes, 
+profesores y personal,
+
+00:03:14.004 --> 00:03:15.534
+y pedirles información
+
+00:03:15.534 --> 00:03:17.086
+sobre sus contraseñas.
+
+00:03:17.086 --> 00:03:20.090
+No les decíamos: 
+"Danos tu contraseña".
+
+00:03:20.090 --> 00:03:22.751
+Solo les preguntamos 
+acerca de su contraseña.
+
+00:03:22.751 --> 00:03:24.229
+¿Cuánto tiempo hace que la tienes? 
+¿Tiene algún dígito?
+
+00:03:24.229 --> 00:03:25.297
+¿Tiene un símbolo?
+
+00:03:25.297 --> 00:03:27.342
+Y ¿te molestó tener que crear
+
+00:03:27.342 --> 00:03:30.086
+una nueva la semana pasada?
+
+00:03:30.086 --> 00:03:33.292
+Así que obtuvimos 
+resultados de 470 estudiantes,
+
+00:03:33.292 --> 00:03:34.263
+personal docente y administrativo,
+
+00:03:34.263 --> 00:03:36.777
+y de hecho se confirmó 
+que la nueva política
+
+00:03:36.777 --> 00:03:38.230
+era muy molesta.
+
+00:03:38.230 --> 00:03:40.022
+No obstante, también averiguamos que
+
+00:03:40.022 --> 00:03:43.152
+se sentían más seguros 
+con estas nuevas contraseñas.
+
+00:03:43.152 --> 00:03:45.458
+Averiguamos que 
+la mayoría de la gente sabía
+
+00:03:45.458 --> 00:03:47.610
+que se suponía que no 
+debía anotar su contraseña,
+
+00:03:47.610 --> 00:03:50.001
+y solo el 13 % lo hizo,
+
+00:03:50.001 --> 00:03:52.417
+pero desconcertantemente, el 80 %
+
+00:03:52.417 --> 00:03:54.541
+dijo que reutilizaban su contraseña.
+
+00:03:54.541 --> 00:03:56.337
+Ahora, esto es en realidad más peligroso
+
+00:03:56.337 --> 00:03:58.359
+que anotar la contraseña,
+
+00:03:58.359 --> 00:04:01.920
+porque nos hace mucho 
+más vulnerables a los atacantes.
+
+00:04:01.920 --> 00:04:05.038
+Así que si tienen que hacerlo, 
+anoten sus contraseñas,
+
+00:04:05.038 --> 00:04:06.837
+pero no la reutilicen.
+
+00:04:06.837 --> 00:04:08.588
+También averiguamos 
+algunas cosas interesantes
+
+00:04:08.588 --> 00:04:11.549
+acerca de los símbolos que 
+las personas utilizan en las contraseñas.
+
+00:04:11.549 --> 00:04:14.348
+Así CMU permite 32 posibles símbolos,
+
+00:04:14.348 --> 00:04:16.781
+pero como pueden ver, 
+solo hay un pequeño número
+
+00:04:16.781 --> 00:04:18.583
+que la mayoría de la gente utiliza,
+
+00:04:18.583 --> 00:04:21.524
+así que no estamos consiguiendo 
+realmente mucha seguridad
+
+00:04:21.524 --> 00:04:23.990
+con los símbolos 
+en nuestras contraseñas.
+
+00:04:23.990 --> 00:04:26.701
+Así que fue un estudio muy interesante,
+
+00:04:26.701 --> 00:04:29.165
+y ahora teníamos 
+los datos de 470 personas,
+
+00:04:29.165 --> 00:04:30.470
+pero en la situación actual
+
+00:04:30.470 --> 00:04:33.050
+esos no son realmente 
+muchos datos de contraseñas,
+
+00:04:33.050 --> 00:04:34.495
+y así miramos a nuestro alrededor 
+para ver
+
+00:04:34.495 --> 00:04:37.055
+dónde podríamos encontrar 
+datos adicionales de contraseñas.
+
+00:04:37.055 --> 00:04:39.231
+Resulta que hay mucha gente
+
+00:04:39.231 --> 00:04:41.433
+por ahí robando contraseñas
+
+00:04:41.433 --> 00:04:43.910
+y a menudo las publican
+
+00:04:43.910 --> 00:04:45.247
+en Internet.
+
+00:04:45.247 --> 00:04:46.920
+Así que pudimos obtener acceso
+
+00:04:46.920 --> 00:04:50.890
+a algunos de estos conjuntos 
+de contraseñas robadas.
+
+00:04:50.890 --> 00:04:53.218
+Sin embargo, esto todavía no es 
+realmente ideal para una investigación,
+
+00:04:53.218 --> 00:04:55.255
+porque no es del todo claro
+
+00:04:55.255 --> 00:04:57.439
+de dónde proceden 
+todas estas contraseñas,
+
+00:04:57.439 --> 00:04:59.681
+o qué políticas concretas 
+estaban en efecto
+
+00:04:59.681 --> 00:05:01.789
+cuando las personas 
+crearon esas contraseñas.
+
+00:05:01.789 --> 00:05:05.341
+Así es que queríamos encontrar 
+una mejor fuente de datos.
+
+00:05:05.341 --> 00:05:06.975
+Decidimos qué una cosa 
+que podríamos hacer
+
+00:05:06.975 --> 00:05:09.104
+era hacer un estudio 
+y que la gente
+
+00:05:09.104 --> 00:05:12.344
+realmente creara contraseñas 
+para nuestro estudio.
+
+00:05:12.344 --> 00:05:15.165
+Así que usamos un servicio llamado 
+Amazon Mechanical Turk,
+
+00:05:15.165 --> 00:05:17.499
+que es un servicio para enviar
+
+00:05:17.499 --> 00:05:19.803
+un pequeña tarea 
+que lleva un minuto,
+
+00:05:19.803 --> 00:05:21.303
+unos minutos, una hora,
+
+00:05:21.303 --> 00:05:23.887
+y paga a la gente un centavo, 
+diez centavos, unos dólares
+
+00:05:23.887 --> 00:05:25.233
+por hacer la tarea por Ud.,
+
+00:05:25.233 --> 00:05:27.355
+y después se les paga a 
+través de Amazon.com.
+
+00:05:27.355 --> 00:05:29.649
+Así que pagamos a la 
+gente unos 50 centavos
+
+00:05:29.649 --> 00:05:32.245
+por crear una contraseña 
+siguiendo nuestras reglas
+
+00:05:32.245 --> 00:05:33.655
+y por responder una encuesta,
+
+00:05:33.655 --> 00:05:36.180
+y luego les pagamos de nuevo 
+para volver
+
+00:05:36.180 --> 00:05:38.251
+dos días más tarde 
+y abrir una sesión
+
+00:05:38.251 --> 00:05:40.825
+usando su contraseña 
+y contestar otra encuesta.
+
+00:05:40.825 --> 00:05:45.289
+Haciendo esto, 
+hemos recogido 5000 contraseñas,
+
+00:05:45.289 --> 00:05:47.984
+y dimos a la gente una serie 
+de diferentes políticas
+
+00:05:47.984 --> 00:05:49.492
+para crear contraseñas.
+
+00:05:49.492 --> 00:05:51.402
+Algunas personas debían aplicar 
+una política bastante fácil,
+
+00:05:51.402 --> 00:05:52.941
+la llamamos Basic8,
+
+00:05:52.941 --> 00:05:55.087
+y ahí la única regla es que la contraseña
+
+00:05:55.087 --> 00:05:58.503
+debía tener al menos ocho caracteres.
+
+00:05:58.503 --> 00:06:00.754
+Otras personas tenían que aplicar 
+una política mucho más dura,
+
+00:06:00.754 --> 00:06:03.291
+y esto era muy similar 
+a la política de CMU,
+
+00:06:03.291 --> 00:06:05.225
+es decir, ocho caracteres
+
+00:06:05.225 --> 00:06:07.601
+incluyendo mayúsculas, 
+minúsculas, dígitos, símbolo,
+
+00:06:07.601 --> 00:06:09.990
+y pasar una verificación de diccionario.
+
+00:06:09.990 --> 00:06:11.325
+Y una de las otras políticas que probamos,
+
+00:06:11.325 --> 00:06:12.595
+y había un montón más,
+
+00:06:12.595 --> 00:06:14.835
+pero una de las que probamos 
+fue la llamada Basic16,
+
+00:06:14.835 --> 00:06:17.467
+y el único requisito aquí
+
+00:06:17.467 --> 00:06:20.620
+era que la contraseña 
+debía tener al menos 16 caracteres.
+
+00:06:20.620 --> 00:06:23.078
+Muy bien, así que ahora 
+teníamos 5000 contraseñas,
+
+00:06:23.078 --> 00:06:26.641
+e información mucho más detallada.
+
+00:06:26.641 --> 00:06:29.200
+Una vez más constatamos 
+que la gente realmente solo usa
+
+00:06:29.200 --> 00:06:31.115
+un pequeño número de símbolos
+
+00:06:31.115 --> 00:06:33.001
+en sus contraseñas.
+
+00:06:33.001 --> 00:06:35.600
+También queríamos tener una idea de 
+cuánta seguridad
+
+00:06:35.600 --> 00:06:38.371
+ofrecían las contraseñas que 
+las personas creaban,
+
+00:06:38.371 --> 00:06:40.991
+pero, como recordarán, 
+no es una buena medida
+
+00:06:40.991 --> 00:06:42.745
+de seguridad de la contraseña.
+
+00:06:42.745 --> 00:06:45.057
+Así que decidimos ver
+
+00:06:45.057 --> 00:06:47.427
+el tiempo que se tardaría 
+en descifrar estas contraseñas
+
+00:06:47.427 --> 00:06:48.841
+utilizando las mejores 
+herramientas de descifrado
+
+00:06:48.841 --> 00:06:50.649
+que usan los malos,
+
+00:06:50.649 --> 00:06:52.665
+o averiguando información al respecto
+
+00:06:52.665 --> 00:06:54.202
+en la literatura especializada.
+
+00:06:54.202 --> 00:06:56.960
+Para que se hagan 
+una idea de cómo los chicos malos
+
+00:06:56.960 --> 00:06:59.130
+descifran contraseñas,
+
+00:06:59.130 --> 00:07:01.081
+ellos roban un archivo de contraseñas
+
+00:07:01.081 --> 00:07:03.234
+donde están todas las contraseñas
+
+00:07:03.234 --> 00:07:06.123
+en una especie de formulario 
+codificado llamado hash,
+
+00:07:06.123 --> 00:07:08.685
+y así lo que harán es una conjetura
+
+00:07:08.685 --> 00:07:10.397
+acerca de lo que es una contraseña,
+
+00:07:10.397 --> 00:07:12.294
+que se comparará con una función hash,
+
+00:07:12.294 --> 00:07:14.059
+para ver si coincide con
+
+00:07:14.059 --> 00:07:18.009
+las contraseñas de su lista 
+de contraseñas robadas.
+
+00:07:18.009 --> 00:07:21.114
+Así que un atacante tonto 
+tratará todas las contraseñas en orden.
+
+00:07:21.114 --> 00:07:24.682
+Empezarán con AAAAA 
+y pasarán a AAAAB,
+
+00:07:24.682 --> 00:07:27.100
+y esto tomará mucho tiempo
+
+00:07:27.100 --> 00:07:28.626
+antes de encontrar las contraseñas
+
+00:07:28.626 --> 00:07:31.323
+que las personas son propensas a tener.
+
+00:07:31.323 --> 00:07:33.506
+Por otra parte, un atacante astuto,
+
+00:07:33.506 --> 00:07:34.892
+hace algo mucho más inteligente.
+
+00:07:34.892 --> 00:07:36.718
+Miran las contraseñas
+
+00:07:36.718 --> 00:07:38.518
+que se saben que son populares
+
+00:07:38.518 --> 00:07:40.245
+a partir de estos conjuntos 
+de contraseñas robadas,
+
+00:07:40.245 --> 00:07:41.434
+y las adivinan en primer lugar.
+
+00:07:41.434 --> 00:07:43.568
+Así que empezaremos 
+adivinando "contraseña"
+
+00:07:43.568 --> 00:07:46.319
+y luego "Te amo" y "mono"
+
+00:07:46.319 --> 00:07:48.902
+y "12345678",
+
+00:07:48.902 --> 00:07:50.214
+porque estas son las contraseñas
+
+00:07:50.214 --> 00:07:52.119
+que con mayor probabilidad 
+tiene la gente.
+
+00:07:52.119 --> 00:07:55.380
+De hecho, algunos de Uds. probablemente 
+tienen estas contraseñas.
+
+00:07:57.191 --> 00:07:58.489
+Así que lo que encontramos
+
+00:07:58.489 --> 00:08:01.895
+mediante la ejecución de todas 
+estas 5000 contraseñas recogidas
+
+00:08:01.895 --> 00:08:06.001
+a través de estas pruebas 
+para ver lo seguras que eran,
+
+00:08:06.001 --> 00:08:08.753
+encontramos que las contraseñas largas
+
+00:08:08.753 --> 00:08:10.033
+eran en realidad bastante seguras,
+
+00:08:10.033 --> 00:08:13.295
+y las contraseñas complejas 
+eran bastante seguras también.
+
+00:08:13.295 --> 00:08:15.737
+Sin embargo, cuando nos fijamos 
+en los datos del estudio,
+
+00:08:15.737 --> 00:08:18.761
+vimos que la gente 
+estaba realmente frustrada
+
+00:08:18.761 --> 00:08:21.100
+por las contraseñas muy complejas,
+
+00:08:21.100 --> 00:08:23.730
+y que las contraseñas largas 
+eran mucho más usables,
+
+00:08:23.730 --> 00:08:25.055
+y, en algunos casos, 
+eran en realidad
+
+00:08:25.055 --> 00:08:27.963
+incluso más seguras 
+que las contraseñas complejas.
+
+00:08:27.963 --> 00:08:29.132
+Así que esto sugiere que,
+
+00:08:29.132 --> 00:08:30.835
+en lugar de decirle 
+a la gente que necesitan
+
+00:08:30.835 --> 00:08:32.357
+poner todos estos símbolos y números
+
+00:08:32.357 --> 00:08:35.199
+y cosas locas en sus contraseñas,
+
+00:08:35.199 --> 00:08:37.221
+podríamos mejorar 
+simplemente diciendo a la gente
+
+00:08:37.221 --> 00:08:39.873
+que tengan contraseñas largas.
+
+00:08:39.873 --> 00:08:41.665
+Sin embargo, aquí hay el problema,
+
+00:08:41.665 --> 00:08:43.920
+Algunas personas 
+tenían contraseñas largas
+
+00:08:43.920 --> 00:08:45.475
+que en realidad no eran muy seguras.
+
+00:08:45.475 --> 00:08:47.472
+Pueden crear contraseñas largas
+
+00:08:47.472 --> 00:08:49.028
+del tipo
+
+00:08:49.028 --> 00:08:50.770
+que un atacante 
+podría adivinar fácilmente.
+
+00:08:50.770 --> 00:08:54.135
+Así que debemos añadir algo más 
+a las contraseñas largas.
+
+00:08:54.135 --> 00:08:56.071
+Deben existir requisitos adicionales,
+
+00:08:56.071 --> 00:08:59.040
+y nuestra investigación en curso 
+está mirando
+
+00:08:59.040 --> 00:09:01.479
+qué requisitos adicionales hay que añadir
+
+00:09:01.479 --> 00:09:03.583
+para crear contraseñas más seguras
+
+00:09:03.583 --> 00:09:05.895
+que también sean fáciles para la gente
+
+00:09:05.895 --> 00:09:08.593
+recordar y escribir.
+
+00:09:08.593 --> 00:09:10.719
+Otra forma para lograr 
+que las personas tengan
+
+00:09:10.719 --> 00:09:12.976
+contraseñas más seguras 
+es usar un medidor de contraseña.
+
+00:09:12.976 --> 00:09:14.361
+Estos son algunos ejemplos:
+
+00:09:14.361 --> 00:09:15.762
+Puede que los hayan visto en Internet
+
+00:09:15.762 --> 00:09:18.819
+al crear sus contraseñas.
+
+00:09:18.819 --> 00:09:21.067
+Decidimos hacer un estudio 
+para averiguar
+
+00:09:21.067 --> 00:09:23.954
+si estos medidores de contraseñas 
+realmente funcionan.
+
+00:09:23.954 --> 00:09:25.375
+¿Esto realmente ayuda 
+a las personas
+
+00:09:25.375 --> 00:09:26.828
+a tener contraseñas seguras?
+
+00:09:26.828 --> 00:09:28.914
+Y si es así, ¿cuáles son mejores?
+
+00:09:28.914 --> 00:09:31.421
+Así que probamos 
+medidores de contraseñas
+
+00:09:31.421 --> 00:09:33.519
+de diferentes tamaños, 
+formas, colores,
+
+00:09:33.519 --> 00:09:34.935
+diferentes palabras al lado,
+
+00:09:34.935 --> 00:09:38.210
+y hasta probamos uno 
+con era un conejito bailarín.
+
+00:09:38.210 --> 00:09:39.792
+Al escribir una mejor contraseña,
+
+00:09:39.792 --> 00:09:42.331
+el conejo baila cada vez más rápido.
+
+00:09:42.331 --> 00:09:44.860
+Así que fue bastante divertido.
+
+00:09:44.860 --> 00:09:46.427
+Lo que encontramos
+
+00:09:46.427 --> 00:09:49.999
+fue que los medidores 
+de contraseñas funcionan.
+
+00:09:49.999 --> 00:09:51.800
+(Risas)
+
+00:09:51.800 --> 00:09:55.133
+La mayoría de los medidores de contraseñas 
+eran realmente eficaces,
+
+00:09:55.133 --> 00:09:57.654
+y el conejo bailarín 
+era muy eficaz también,
+
+00:09:57.654 --> 00:10:00.535
+pero los medidores de 
+contraseña más eficaces
+
+00:10:00.535 --> 00:10:02.890
+fueron los que les hicieron trabajar más
+
+00:10:02.890 --> 00:10:04.870
+antes de mostrar el pulgar alzado y decir
+
+00:10:04.870 --> 00:10:06.247
+que estábamos haciendo 
+un buen trabajo,
+
+00:10:06.247 --> 00:10:07.759
+y de hecho encontramos que la mayoría
+
+00:10:07.759 --> 00:10:10.040
+de los medidores de contraseña 
+en Internet hoy
+
+00:10:10.040 --> 00:10:10.992
+son demasiado permisivos.
+
+00:10:10.992 --> 00:10:13.195
+Dicen que lo hacemos bien antes de tiempo,
+
+00:10:13.195 --> 00:10:15.124
+y si solo esperaran un poco
+
+00:10:15.124 --> 00:10:17.173
+antes de dar esa respuesta positiva,
+
+00:10:17.173 --> 00:10:20.333
+Uds. probablemente tendrían 
+mejores contraseñas.
+
+00:10:20.333 --> 00:10:24.180
+Ahora, otro enfoque 
+para mejorar las contraseñas, tal vez,
+
+00:10:24.180 --> 00:10:27.070
+es usar frases de paso
+en lugar de contraseñas.
+
+00:10:27.070 --> 00:10:30.488
+Este fue un dibujo animado xkcd 
+de hace unos años,
+
+00:10:30.488 --> 00:10:32.162
+y el dibujante sugiere
+
+00:10:32.162 --> 00:10:34.358
+que todos debemos 
+utilizar frases de paso,
+
+00:10:34.358 --> 00:10:37.528
+y si nos fijamos en 
+la segunda fila de esta caricatura,
+
+00:10:37.528 --> 00:10:39.385
+se puede ver que el dibujante sugiere
+
+00:10:39.385 --> 00:10:42.826
+que la frase 
+"batería básica del caballo correcto"
+
+00:10:42.826 --> 00:10:45.307
+sería una frase muy segura
+
+00:10:45.307 --> 00:10:47.223
+y algo muy fácil de recordar.
+
+00:10:47.223 --> 00:10:50.020
+Él dice que, de hecho, 
+uno ya la recuerda.
+
+00:10:50.020 --> 00:10:52.170
+Así que decidimos hacer un estudio
+
+00:10:52.170 --> 00:10:54.762
+para averiguar si esto era cierto o no.
+
+00:10:54.762 --> 00:10:56.537
+De hecho, a todos con los que hablo que
+
+00:10:56.537 --> 00:10:58.579
+les menciono que estoy haciendo 
+una investigación sobre contraseñas,
+
+00:10:58.579 --> 00:10:59.979
+señalan esta caricatura.
+
+00:10:59.979 --> 00:11:01.553
+"¿Has visto esto? Ese xkcd.
+
+00:11:01.553 --> 00:11:03.155
+Batería básica del caballo correcto".
+
+00:11:03.155 --> 00:11:04.961
+Así que hicimos el estudio para ver
+
+00:11:04.961 --> 00:11:07.320
+lo que realmente pasaría.
+
+00:11:07.320 --> 00:11:10.380
+En nuestro estudio, 
+hemos utilizado Mechanical Turk de nuevo,
+
+00:11:10.380 --> 00:11:14.547
+e hicimos que la computadora 
+recogiera palabras al azar
+
+00:11:14.547 --> 00:11:15.647
+en la frase de paso.
+
+00:11:15.647 --> 00:11:16.800
+Ahora, la razón para hacerlo
+
+00:11:16.800 --> 00:11:18.386
+es que los humanos 
+no son muy buenos
+
+00:11:18.386 --> 00:11:19.770
+escogiendo palabras al azar.
+
+00:11:19.770 --> 00:11:21.032
+Si pidiéramos a un humano hacerlo,
+
+00:11:21.032 --> 00:11:24.030
+elegirían las cosas que 
+no son muy arbitrarias.
+
+00:11:24.030 --> 00:11:26.062
+Así que probamos 
+algunas premisas diferentes.
+
+00:11:26.062 --> 00:11:28.152
+Bajo una de las premisas 
+la computadora escogió
+
+00:11:28.152 --> 00:11:30.368
+de un diccionario de 
+palabras muy comunes
+
+00:11:30.368 --> 00:11:31.730
+del idioma inglés,
+
+00:11:31.730 --> 00:11:33.494
+y así se obtendría frases de paso como
+
+00:11:33.494 --> 00:11:35.418
+"Intentemos hay tres vienen".
+
+00:11:35.418 --> 00:11:37.150
+Y nos fijamos en eso, 
+y dijimos,
+
+00:11:37.150 --> 00:11:40.200
+"Bueno, no parece realmente 
+muy memorizable".
+
+00:11:40.200 --> 00:11:42.440
+Así que intentamos 
+recoger las palabras
+
+00:11:42.440 --> 00:11:44.961
+que vinieron de partes 
+específicas de la conversación
+
+00:11:44.961 --> 00:11:47.143
+como por ejemplo 
+nombre-verbo-sustantivo-adjetivo.
+
+00:11:47.143 --> 00:11:49.720
+Eso está relacionado con algo que es 
+una especie de oración.
+
+00:11:49.720 --> 00:11:51.790
+Así que Uds. pueden 
+obtener una frase como
+
+00:11:51.790 --> 00:11:53.098
+"plan construye poder seguro".
+
+00:11:53.098 --> 00:11:55.884
+o "final determina drogas rojas".
+
+00:11:55.884 --> 00:11:58.560
+Y estas parecían 
+un poco más memorizables,
+
+00:11:58.560 --> 00:12:01.382
+y tal vez a la gente le gustarían más.
+
+00:12:01.382 --> 00:12:03.954
+Queríamos compararlas 
+con las contraseñas,
+
+00:12:03.954 --> 00:12:07.150
+y teníamos la computadora
+para escoger contraseñas aleatorias,
+
+00:12:07.150 --> 00:12:09.140
+y estas eran agradables y cortas, 
+pero como pueden ver,
+
+00:12:09.140 --> 00:12:11.946
+en realidad, 
+no parecen muy memorizables.
+
+00:12:11.946 --> 00:12:13.342
+Y entonces decidimos 
+probar algo llamado
+
+00:12:13.342 --> 00:12:14.988
+contraseña pronunciable.
+
+00:12:14.988 --> 00:12:17.233
+Así que aquí la computadora 
+recoge sílabas al azar
+
+00:12:17.233 --> 00:12:18.367
+y las pone une
+
+00:12:18.367 --> 00:12:20.842
+para obtener algo pronunciable,
+
+00:12:20.842 --> 00:12:23.444
+como "tufritvi" y "vadasabi".
+
+00:12:23.444 --> 00:12:25.591
+Eso fluye en la lengua.
+
+00:12:25.591 --> 00:12:27.807
+Así que eran contraseñas 
+aleatorias
+
+00:12:27.807 --> 00:12:30.551
+generadas por nuestra computadora
+
+00:12:30.551 --> 00:12:33.529
+Lo que encontramos en este estudio 
+fue que, sorprendentemente,
+
+00:12:33.529 --> 00:12:37.297
+utilizar frases no era, 
+en realidad, tan bueno.
+
+00:12:37.297 --> 00:12:40.090
+La gente no recordaba mejor
+
+00:12:40.090 --> 00:12:43.043
+las frases de paso 
+que estas contraseñas aleatorias,
+
+00:12:43.043 --> 00:12:45.797
+y como las frases de paso 
+son más largas,
+
+00:12:45.797 --> 00:12:47.023
+se precisa más tiempo 
+para escribirlas
+
+00:12:47.023 --> 00:12:50.033
+y la gente cometía más errores 
+al escribirlas.
+
+00:12:50.033 --> 00:12:53.260
+Así que no es realmente una victoria clara 
+para las frases de paso.
+
+00:12:53.260 --> 00:12:56.605
+Perdón por todos 
+los fans de xkcd.
+
+00:12:56.605 --> 00:12:58.497
+Por otro lado, averiguamos
+
+00:12:58.497 --> 00:13:00.301
+que las contraseñas pronunciables
+
+00:13:00.301 --> 00:13:01.772
+funcionaron sorprendentemente bien,
+
+00:13:01.772 --> 00:13:04.190
+por eso estamos profundizando más
+
+00:13:04.190 --> 00:13:07.385
+para ver si podemos hacer 
+que este enfoque sea aún mejor.
+
+00:13:07.385 --> 00:13:09.197
+Uno de los problemas
+
+00:13:09.197 --> 00:13:10.820
+con algunos de los estudios realizados
+
+00:13:10.820 --> 00:13:12.503
+es que, debido a que está todo hecho,
+
+00:13:12.503 --> 00:13:14.093
+usando Mechanical Turk,
+
+00:13:14.093 --> 00:13:15.905
+no se trata de contraseñas 
+reales de la gente.
+
+00:13:15.905 --> 00:13:18.010
+Son las claves que
+
+00:13:18.010 --> 00:13:20.505
+la computadora ha creado para ellos 
+para nuestro estudio.
+
+00:13:20.505 --> 00:13:22.073
+Y lo que queríamos 
+saber es si la gente
+
+00:13:22.073 --> 00:13:24.385
+en realidad se comportaría 
+de la misma forma
+
+00:13:24.385 --> 00:13:26.612
+con sus contraseñas reales.
+
+00:13:26.612 --> 00:13:30.293
+Así que hablamos con la oficina de 
+seguridad informática en Carnegie Mellon
+
+00:13:30.293 --> 00:13:34.096
+y preguntamos si podíamos obtener 
+contraseñas reales de todo el mundo.
+
+00:13:34.096 --> 00:13:35.850
+No es de extrañar, 
+que fueran un poco reticentes
+
+00:13:35.850 --> 00:13:37.400
+de dárnoslas,
+
+00:13:37.400 --> 00:13:39.210
+pero estábamos realmente 
+dispuestos a elaborar
+
+00:13:39.210 --> 00:13:40.250
+un sistema con ellos
+
+00:13:40.250 --> 00:13:42.359
+donde poner todas 
+las contraseñas reales
+
+00:13:42.359 --> 00:13:45.450
+de 25 000 estudiantes de CMU, 
+profesores y personal,
+
+00:13:45.450 --> 00:13:47.898
+en una computadora bloqueada 
+en una habitación cerrada,
+
+00:13:47.898 --> 00:13:49.292
+sin conexión a Internet,
+
+00:13:49.292 --> 00:13:51.140
+para ejecutar el código 
+que escribimos
+
+00:13:51.140 --> 00:13:53.292
+para analizar estas contraseñas.
+
+00:13:53.292 --> 00:13:54.618
+Auditaron nuestro código.
+
+00:13:54.618 --> 00:13:55.930
+Ejecutaron el código.
+
+00:13:55.930 --> 00:13:57.668
+Y así nunca, en realidad, vimos
+
+00:13:57.668 --> 00:14:00.485
+las contraseñas de nadie.
+
+00:14:00.485 --> 00:14:02.000
+Obtuvimos algunos 
+resultados interesantes,
+
+00:14:02.000 --> 00:14:03.696
+y aquellos de Uds. estudiantes 
+de Tepper de atrás
+
+00:14:03.696 --> 00:14:06.571
+estarán muy interesados en esto.
+
+00:14:06.571 --> 00:14:10.302
+Así nos encontramos con que 
+las contraseñas creadas
+
+00:14:10.302 --> 00:14:12.460
+por las personas afiliadas 
+a la escuela de ciencias de la computación
+
+00:14:12.460 --> 00:14:14.784
+en realidad eran 1,8 veces más seguras
+
+00:14:14.784 --> 00:14:18.522
+que las de los afiliados a 
+la escuela de negocios.
+
+00:14:18.522 --> 00:14:20.562
+Tenemos también información
+
+00:14:20.562 --> 00:14:22.800
+demográfica muy interesante.
+
+00:14:22.800 --> 00:14:24.646
+Otra cosa interesante 
+que encontramos
+
+00:14:24.646 --> 00:14:27.086
+es que al comparar 
+las contraseñas de Carnegie Mellon
+
+00:14:27.086 --> 00:14:29.369
+con las contraseñas 
+generadas por Mechanical Turk,
+
+00:14:29.369 --> 00:14:31.988
+había una gran cantidad de similitudes,
+
+00:14:31.988 --> 00:14:33.936
+y así que esto ayudó a validar 
+nuestro método de investigación
+
+00:14:33.936 --> 00:14:36.446
+y mostrar que en realidad, 
+la recogida de contraseñas
+
+00:14:36.446 --> 00:14:38.254
+utilizando estos estudios 
+de Mechanical Turk
+
+00:14:38.254 --> 00:14:41.042
+es en realidad una forma válida 
+para estudiar las contraseñas.
+
+00:14:41.042 --> 00:14:43.327
+Así que fue una buena noticia.
+
+00:14:43.327 --> 00:14:45.741
+Bien, quiero cerrar hablando de
+
+00:14:45.741 --> 00:14:47.809
+algunas ideas que tuve 
+durante mi año sabático
+
+00:14:47.809 --> 00:14:51.010
+el año pasado en la escuela de arte 
+de Carnegie Mellon.
+
+00:14:51.010 --> 00:14:52.291
+Una de las cosas que hice
+
+00:14:52.291 --> 00:14:53.815
+es una serie de edredones,
+
+00:14:53.815 --> 00:14:55.363
+y he hecho este edredón de aquí.
+
+00:14:55.363 --> 00:14:57.262
+Se llama "Manta de Seguridad".
+
+00:14:57.262 --> 00:14:59.693
+(Risas)
+
+00:14:59.693 --> 00:15:02.788
+Este edredón tiene las 1000
+
+00:15:02.788 --> 00:15:05.116
+contraseñas robadas con más frecuencia
+
+00:15:05.116 --> 00:15:07.687
+del sitio web RockYou.
+
+00:15:07.687 --> 00:15:09.748
+El tamaño de las 
+contraseñas es proporcional
+
+00:15:09.748 --> 00:15:11.649
+a la frecuencia con que aparecían
+
+00:15:11.649 --> 00:15:13.897
+en el conjunto de datos robados.
+
+00:15:13.897 --> 00:15:16.529
+Lo que hice es crear 
+esta nube de palabras,
+
+00:15:16.529 --> 00:15:18.661
+y examiné todas las 1000 palabras,
+
+00:15:18.661 --> 00:15:20.456
+y las categoricé en
+
+00:15:20.456 --> 00:15:22.836
+categorías temáticas sueltas.
+
+00:15:22.836 --> 00:15:24.739
+Y, en algunos casos,
+
+00:15:24.739 --> 00:15:26.777
+era un poco difícil de entender
+
+00:15:26.777 --> 00:15:28.532
+en qué categoría debían estar
+
+00:15:28.532 --> 00:15:30.431
+y entonces las identifiqué por colores.
+
+00:15:30.431 --> 00:15:33.050
+Así que estos son algunos ejemplos 
+de la dificultad.
+
+00:15:33.050 --> 00:15:34.231
+Digamos "justin".
+
+00:15:34.231 --> 00:15:36.060
+¿Es ese el nombre del usuario,
+
+00:15:36.060 --> 00:15:37.382
+su novio, su hijo?
+
+00:15:37.382 --> 00:15:40.270
+Tal vez son un fan de Justin Bieber.
+
+00:15:40.270 --> 00:15:42.495
+O "princesa".
+
+00:15:42.495 --> 00:15:44.130
+¿Es un apodo?
+
+00:15:44.130 --> 00:15:45.725
+¿Son fans de las princesas de Disney?
+
+00:15:45.725 --> 00:15:49.419
+O tal vez ese es el nombre de su gato.
+
+00:15:49.419 --> 00:15:51.074
+"Iloveyou" aparece muchas veces
+
+00:15:51.074 --> 00:15:52.619
+en muchos idiomas diferentes.
+
+00:15:52.619 --> 00:15:56.354
+Hay mucho amor 
+en estas contraseñas.
+
+00:15:56.354 --> 00:15:58.034
+Si miran atentamente, 
+verán que hay también
+
+00:15:58.034 --> 00:16:00.301
+algunas palabras soeces,
+
+00:16:00.301 --> 00:16:02.251
+pero lo que fue realmente 
+interesante ver para mí
+
+00:16:02.251 --> 00:16:04.558
+es que hay mucho 
+más amor que odio
+
+00:16:04.558 --> 00:16:06.850
+en estas contraseñas.
+
+00:16:06.850 --> 00:16:08.340
+Y hay animales,
+
+00:16:08.340 --> 00:16:09.700
+una gran cantidad de animales,
+
+00:16:09.700 --> 00:16:12.004
+y "mono" es el animal más común
+
+00:16:12.004 --> 00:16:15.679
+y la 14 contraseña más popular.
+
+00:16:15.679 --> 00:16:17.910
+Y esto fue realmente curioso para mí,
+
+00:16:17.910 --> 00:16:20.433
+y me pregunté:
+"¿Por qué son tan populares los monos?"
+
+00:16:20.433 --> 00:16:23.785
+Y así, en nuestro último 
+estudio sobre contraseñas,
+
+00:16:23.785 --> 00:16:25.471
+cuando detectamos que alguien
+
+00:16:25.471 --> 00:16:28.120
+crea una contraseña 
+usando "mono",
+
+00:16:28.120 --> 00:16:31.150
+les preguntamos por qué tenían 
+un mono en su contraseña.
+
+00:16:31.150 --> 00:16:33.060
+Y lo que averiguamos...
+
+00:16:33.060 --> 00:16:35.163
+encontramos 17 personas 
+hasta el momento
+
+00:16:35.163 --> 00:16:36.446
+que tienen la palabra "mono"...
+
+00:16:36.446 --> 00:16:38.258
+Encontramos que un tercio de ellos dijo
+
+00:16:38.258 --> 00:16:39.998
+que tienen una mascota llamada "mono"
+
+00:16:39.998 --> 00:16:42.289
+o un amigo cuyo apodo es "mono"
+
+00:16:42.289 --> 00:16:43.949
+y alrededor de un tercio de ellos dijo
+
+00:16:43.949 --> 00:16:45.482
+simplemente que le gustan los monos
+
+00:16:45.482 --> 00:16:47.120
+y que los monos son muy lindos.
+
+00:16:47.120 --> 00:16:50.759
+Y ese joven es muy lindo.
+
+00:16:50.759 --> 00:16:54.167
+Así, parece que al final,
+
+00:16:54.167 --> 00:16:55.950
+cuando hacemos las contraseñas,
+
+00:16:55.950 --> 00:16:57.924
+hacemos algo que o es muy fácil
+
+00:16:57.924 --> 00:17:00.933
+de escribir, un patrón común,
+
+00:17:00.933 --> 00:17:03.419
+o cosas que nos recuerdan 
+a la palabra contraseña
+
+00:17:03.419 --> 00:17:06.731
+o a la cuenta para la que hemos 
+creado la contraseña,
+
+00:17:06.731 --> 00:17:09.348
+o lo que sea.
+
+00:17:09.348 --> 00:17:11.990
+O pensamos acerca de las 
+cosas que nos hacen felices,
+
+00:17:11.990 --> 00:17:13.294
+y creamos nuestra contraseña
+
+00:17:13.294 --> 00:17:15.532
+basados en las cosas 
+que nos hacen felices.
+
+00:17:15.532 --> 00:17:18.395
+Y si bien esto facilita la escritura
+
+00:17:18.395 --> 00:17:21.265
+y recordarla es más divertido,
+
+00:17:21.265 --> 00:17:23.072
+también hace que sea mucho más fácil
+
+00:17:23.072 --> 00:17:24.578
+descifrar la contraseña.
+
+00:17:24.578 --> 00:17:26.326
+Así que sé que un montón 
+de estas charlas TED
+
+00:17:26.326 --> 00:17:27.960
+son fuente de inspiración
+
+00:17:27.960 --> 00:17:30.421
+y hacen pensar sobre 
+cosas agradables y felices,
+
+00:17:30.421 --> 00:17:32.318
+pero cuando estén 
+creando su contraseña,
+
+00:17:32.318 --> 00:17:34.309
+traten de pensar en otra cosa.
+
+00:17:34.309 --> 00:17:35.416
+Gracias.
+
+00:17:35.416 --> 00:17:35.969
+(Aplausos)
+

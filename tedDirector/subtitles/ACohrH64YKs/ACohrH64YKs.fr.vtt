@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: fr
+
+00:00:00.000 --> 00:00:07.000
+Traducteur: Anna Cristiana Minoli
+Relecteur: eric vautier
+
+00:00:16.260 --> 00:00:19.260
+Laissez-moi vous présenter Rezero.
+
+00:00:19.260 --> 00:00:21.260
+Ce petit ami a été développé
+
+00:00:21.260 --> 00:00:23.260
+par un groupe de 10 étudiants
+
+00:00:23.260 --> 00:00:25.260
+du Laboratoire des Systèmes Autonomes
+
+00:00:25.260 --> 00:00:27.260
+à l'École polytechnique fédérale de Zurich.
+
+00:00:27.260 --> 00:00:29.260
+Notre robot appartient à une famille de robots
+
+00:00:29.260 --> 00:00:31.260
+qui s’appelle Ballbots.
+
+00:00:31.260 --> 00:00:33.260
+A la place des roues, un Ballbot se tient en équilibre
+
+00:00:33.260 --> 00:00:35.260
+et se déplace sur une boule.
+
+00:00:35.260 --> 00:00:37.260
+La principale caractéristique de ce système
+
+00:00:37.260 --> 00:00:40.260
+est qu'il y a qu'un seul point de contact avec le sol.
+
+00:00:40.260 --> 00:00:42.260
+Cela signifie que le robot
+
+00:00:42.260 --> 00:00:44.260
+est en soi instable.
+
+00:00:44.260 --> 00:00:46.260
+C’est un peu comme si je devais me tenir
+
+00:00:46.260 --> 00:00:47.260
+sur un pied.
+
+00:00:47.260 --> 00:00:49.260
+Vous pourriez vous demander, quelle est l’utilité
+
+00:00:49.260 --> 00:00:51.260
+d’un robot instable ?
+
+00:00:51.260 --> 00:00:53.260
+Nous allons vous l’expliquer tout de suite.
+
+00:00:53.260 --> 00:00:55.260
+Avant tout, laissez-moi vous expliquer comment Rezero
+
+00:00:55.260 --> 00:00:57.260
+se tient en fait en équilibre.
+
+00:00:57.260 --> 00:00:59.260
+Rezero se tient en équilibre en mesurant
+
+00:00:59.260 --> 00:01:02.260
+constamment son inclinaison avec un détecteur.
+
+00:01:02.260 --> 00:01:05.260
+Ensuite il se contrebalance et évite de basculer
+
+00:01:05.260 --> 00:01:07.260
+en utilisant ses moteurs de façon appropriée.
+
+00:01:07.260 --> 00:01:09.260
+Ça se produit 160 fois par seconde,
+
+00:01:09.260 --> 00:01:11.260
+et si quelque chose ne marche pas dans le processus,
+
+00:01:11.260 --> 00:01:14.260
+Rezero tombe immédiatement par terre.
+
+00:01:14.260 --> 00:01:16.260
+Pour se déplacer et se tenir en équilibre,
+
+00:01:16.260 --> 00:01:18.260
+Rezero doit tourner la boule.
+
+00:01:18.260 --> 00:01:20.260
+La boule est actionnée par trois roues spéciales
+
+00:01:20.260 --> 00:01:23.260
+qui permettent à Rezero de se déplacer dans n’importe quelle direction
+
+00:01:23.260 --> 00:01:25.260
+et se déplacer également sur son axe
+
+00:01:25.260 --> 00:01:29.260
+en même temps.
+
+00:01:29.260 --> 00:01:31.260
+A cause de son instabilité, Rezero est toujours
+
+00:01:31.260 --> 00:01:33.260
+en mouvement. Voici le secret.
+
+00:01:33.260 --> 00:01:36.260
+C'est précisément cette instabilité qui permet
+
+00:01:36.260 --> 00:01:38.260
+au robot de se déplacer de manière très dynamique.
+
+00:01:38.260 --> 00:01:40.260
+Jouons un peu.
+
+00:01:40.260 --> 00:01:42.260
+Vous vous êtes peut-être demandé ce qui se passerait
+
+00:01:42.260 --> 00:01:45.260
+si je poussais un peu le robot.
+
+00:01:47.260 --> 00:01:49.260
+Dans ce mode, il essaye de maintenir
+
+00:01:49.260 --> 00:01:52.260
+sa position.
+
+00:01:52.260 --> 00:01:55.260
+Pour la prochaine démo, j’aimerais vous présenter
+
+00:01:55.260 --> 00:01:58.260
+mes collègues Michael, à l’ordinateur,
+
+00:01:58.260 --> 00:02:01.260
+et Thomas qui me donne un coup de main sur scène.
+
+00:02:02.260 --> 00:02:04.260
+Dans le mode suivant, Rezero est passif,
+
+00:02:04.260 --> 00:02:07.260
+et nous pouvons le déplacer.
+
+00:02:08.260 --> 00:02:10.260
+Presque sans aucune force je peux contrôler
+
+00:02:10.260 --> 00:02:13.260
+sa position et sa vitesse.
+
+00:02:16.260 --> 00:02:19.260
+Je peux même le faire tourner.
+
+00:02:30.260 --> 00:02:32.260
+Dans le mode suivant, nous pouvons le faire
+
+00:02:32.260 --> 00:02:35.260
+suivre une personne.
+
+00:02:35.260 --> 00:02:38.260
+Là il maintient une distance constante avec Thomas.
+
+00:02:42.260 --> 00:02:44.260
+Ça marche avec un détecteur laser
+
+00:02:44.260 --> 00:02:46.260
+monté au sommet de Rezero.
+
+00:02:50.260 --> 00:02:52.260
+Avec la même méthode, nous pouvons aussi
+
+00:02:52.260 --> 00:02:55.260
+le faire tourner autour d’une personne.
+
+00:02:57.260 --> 00:03:01.260
+Nous appelons cela le mode orbitant.
+
+00:03:10.260 --> 00:03:12.260
+Très bien, merci, Thomas.
+
+00:03:12.260 --> 00:03:16.260
+(Applaudissements)
+
+00:03:16.260 --> 00:03:19.260
+Quelle est l’utilité de cette technologie ?
+
+00:03:22.260 --> 00:03:24.260
+Pour l’instant, c’est une expérience mais laissez-moi
+
+00:03:24.260 --> 00:03:27.260
+vous montrer quelques applications futures possibles.
+
+00:03:28.260 --> 00:03:30.260
+Rezero pourrait être utilisé dans des expositions ou des parcs.
+
+00:03:30.260 --> 00:03:32.260
+Avec un écran il pourrait informer les personnes
+
+00:03:32.260 --> 00:03:35.260
+ou les faire visiter de manière amusante et divertissante.
+
+00:03:35.260 --> 00:03:37.260
+Dans un hôpital, cet appareil pourrait être utilisé
+
+00:03:37.260 --> 00:03:39.260
+pour transporter les équipements médicaux.
+
+00:03:39.260 --> 00:03:41.260
+Grâce au système Ballbot, il a un faible
+
+00:03:41.260 --> 00:03:44.260
+encombrement et se déplace facilement.
+
+00:03:44.260 --> 00:03:46.260
+Et bien sûr, qui ne souhaiterait pas
+
+00:03:46.260 --> 00:03:49.260
+faire un tour sur un de ces appareils.
+
+00:03:49.260 --> 00:03:51.260
+Ce sont des applications plus pratiques.
+
+00:03:51.260 --> 00:03:53.260
+Mais il y a aussi une certaine beauté
+
+00:03:53.260 --> 00:03:55.260
+dans cette technologie.
+
+00:03:55.260 --> 00:04:04.260
+(Musique)
+
+00:04:58.260 --> 00:04:59.260
+(Applaudissements)
+
+00:04:59.260 --> 00:05:01.260
+(Merci)
+
+00:05:01.260 --> 00:05:05.260
+(Applaudissements)
+
+00:05:05.260 --> 00:05:07.260
+Merci.
+

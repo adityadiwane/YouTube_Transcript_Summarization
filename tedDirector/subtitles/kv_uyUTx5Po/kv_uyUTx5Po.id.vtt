@@ -1,0 +1,691 @@
+WEBVTT
+Kind: captions
+Language: id
+
+00:00:00.000 --> 00:00:07.000
+Translator: Muhammad Fathi Rayyan
+Reviewer: Aji Pribadi Henoch
+
+00:00:12.562 --> 00:00:15.623
+Eric Berlow: saya seorang ekolog, 
+dan Sean seorang fisikawan,
+
+00:00:15.623 --> 00:00:17.731
+dan kami berdua belajar jaringan yang kompleks.
+
+00:00:17.731 --> 00:00:19.566
+Dan kami bertemu beberapa tahun 
+yang lalu ketika kami menemukan
+
+00:00:19.566 --> 00:00:21.566
+bahwa kami berdua telah memberikan 
+pembicaraan singkat di TED
+
+00:00:21.566 --> 00:00:23.869
+tentang ekologi perang,
+
+00:00:23.869 --> 00:00:25.316
+dan kami menyadari bahwa kami saling terhubung
+
+00:00:25.316 --> 00:00:28.134
+oleh ide-ide yang kami 
+bagikan sebelum kami bertemu.
+
+00:00:28.134 --> 00:00:29.690
+Dan kemudian kami berpikir, Anda tahu, ada ribuan
+
+00:00:29.690 --> 00:00:31.804
+orang yang juga berbicara di luar sana,
+terutama di acara TEDxTalks
+
+00:00:31.804 --> 00:00:34.015
+yang bermunculan seluruh dunia.
+
+00:00:34.015 --> 00:00:34.938
+Bagaimanakah mereka terhubung,
+
+00:00:34.938 --> 00:00:36.948
+dan seperti apakah percakapan global terlihat?
+
+00:00:36.948 --> 00:00:39.758
+Jadi Sean akan bercerita sedikit 
+tentang bagaimana kami melakukannya.
+
+00:00:39.758 --> 00:00:43.525
+Sean Gourley: Benar sekali. Jadi 
+kami mengambil 24.000 Pembicaraan di TEDx
+
+00:00:43.525 --> 00:00:46.571
+dari seluruh dunia, 147 negara berbeda ,
+
+00:00:46.571 --> 00:00:48.694
+kami mengambil pembicaraan-pembicaraan ini 
+dan kami ingin mencari
+
+00:00:48.694 --> 00:00:50.734
+struktur matematika yang mendasari
+
+00:00:50.734 --> 00:00:52.456
+ide-ide di belakang mereka.
+
+00:00:52.456 --> 00:00:53.826
+Dan kami ingin melakukannya 
+sehingga kami bisa melihat bagaimana
+
+00:00:53.826 --> 00:00:55.879
+mereka terhubung satu dengan lainnya.
+
+00:00:55.879 --> 00:00:57.555
+Dan dengan begitu, tentu saja, 
+jika Anda akan melakukan hal-hal seperti ini,
+
+00:00:57.555 --> 00:00:58.511
+Anda perlu banyak data.
+
+00:00:58.511 --> 00:01:02.197
+Jadi data yang Anda sudah punyai adalah 
+suatu hal luar biasa yang disebut YouTube,
+
+00:01:02.197 --> 00:01:03.965
+dan kita bisa turun dan pada dasarnya menarik
+
+00:01:03.965 --> 00:01:06.232
+Semua informasi terbuka dari YouTube,
+
+00:01:06.232 --> 00:01:08.581
+Semua komentar, semua pandangan, 
+siapa yang menonton,
+
+00:01:08.581 --> 00:01:11.360
+di mana mereka menonton itu, 
+apa yang mereka katakan di komentar.
+
+00:01:11.360 --> 00:01:14.652
+Tetapi kita juga bisa menarik, 
+dengan menggunakan penerjemah suara ke teks
+
+00:01:14.652 --> 00:01:16.780
+kita bisa menarik seluruh transkrip,
+
+00:01:16.780 --> 00:01:19.460
+dan itu befungsi bahkan untuk orang 
+yang mempunyai jenis aksen lucu seperti diri saya.
+
+00:01:19.460 --> 00:01:21.566
+Jadi kami dapat mengambil transkrip mereka
+
+00:01:21.566 --> 00:01:23.664
+dan benar-benar melakukan beberapa hal yang keren.
+
+00:01:23.664 --> 00:01:25.824
+Kita dapat mengambil bahasa alami pengolahan algoritma
+
+00:01:25.824 --> 00:01:28.453
+untuk membaca dengan komputer, baris demi baris,
+
+00:01:28.453 --> 00:01:30.812
+menggali konsep kunci dari semua ini.
+
+00:01:30.812 --> 00:01:33.337
+Dan kita mengambil konsep kunci tersebut
+dan mereka membentuk
+
+00:01:33.337 --> 00:01:36.902
+Struktur matematika sebuah ide.
+
+00:01:36.902 --> 00:01:38.659
+Dan kami menyebutnya meme-ome.
+
+00:01:38.659 --> 00:01:40.810
+Dan meme-ome, Anda tahu, cukup sederhana,
+
+00:01:40.810 --> 00:01:43.236
+adalah matematika yang mendasari ide,
+
+00:01:43.236 --> 00:01:45.168
+dan kami dapat melakukan beberapa analisis 
+yang cukup menarik dengan itu,
+
+00:01:45.168 --> 00:01:47.149
+yang ingin saya bagikan 
+dengan Anda sekarang.
+
+00:01:47.149 --> 00:01:49.339
+Jadi setiap ide memiliki ome-meme-nya sendiri ,
+
+00:01:49.339 --> 00:01:51.290
+dan setiap ide menjadi sesuatu yang unik dengan itu,
+
+00:01:51.290 --> 00:01:53.778
+Tapi tentu saja, ide-ide mereka saling meminjam satu sama lain,
+
+00:01:53.778 --> 00:01:54.962
+kadang-kadang , mereka mencurinya ,
+
+00:01:54.962 --> 00:01:56.789
+dan mereka tentu saja saling membangun
+
+00:01:56.789 --> 00:01:58.405
+dan kita bisa melihat secara matematis
+
+00:01:58.405 --> 00:02:00.245
+dan mengambil meme-ome dari satu pembicaraan
+
+00:02:00.245 --> 00:02:02.699
+dan membandingkannya dengan 
+meme-ome dari setiap pembicaraan yang lain,
+
+00:02:02.699 --> 00:02:04.672
+dan jika ada kesamaan antara dua dari mereka,
+
+00:02:04.672 --> 00:02:07.922
+kita dapat menarik garis
+dan membuatnya menjadi grafik,
+
+00:02:07.922 --> 00:02:10.316
+sebagaimana Eric dan saya terhubung.
+
+00:02:10.316 --> 00:02:11.710
+Jadi itulah teorinya, itu hebat.
+
+00:02:11.710 --> 00:02:14.236
+Mari kita lihat fungsinya 
+dalam kehidupan nyata
+
+00:02:14.236 --> 00:02:17.024
+Jadi apa yang kita miliki di sini sekarang adalah jejak global
+
+00:02:17.024 --> 00:02:19.317
+dari semua pembicaraan di TEDx selama empat tahun terakhir
+
+00:02:19.317 --> 00:02:20.867
+yang meledak keluar di seluruh dunia
+
+00:02:20.867 --> 00:02:24.196
+dari New York sampai ke 
+Selandia Baru yang kecil di sudut.
+
+00:02:24.196 --> 00:02:28.031
+Dan yang kami lakukan adalah 
+menganalisa 25 persen teratas,
+
+00:02:28.031 --> 00:02:30.565
+dan kita mulai melihat di mana koneksi terjadi,
+
+00:02:30.565 --> 00:02:32.102
+di mana mereka saling herhubung satu sama lain.
+
+00:02:32.102 --> 00:02:33.976
+Cameron Russell berbicara 
+tentang gambar dan kecantikan
+
+00:02:33.976 --> 00:02:35.551
+terhubung ke Eropa.
+
+00:02:35.551 --> 00:02:37.963
+Kami punya percakapan lebih besar 
+tentang Israel dan Palestina
+
+00:02:37.963 --> 00:02:40.218
+memancar keluar dari Timur Tengah.
+
+00:02:40.218 --> 00:02:41.516
+Dan kita punya sesuatu yang sedikit lebih luas
+
+00:02:41.516 --> 00:02:43.672
+seperti data besar dengan jejak global yang
+
+00:02:43.672 --> 00:02:45.851
+mengingatkan pada percakapan
+
+00:02:45.851 --> 00:02:47.867
+yang terjadi di mana-mana.
+
+00:02:47.867 --> 00:02:50.040
+Jadi dari ini, kita seperti 
+berhadapan dengan batas-batas apa
+
+00:02:50.040 --> 00:02:52.570
+yang kita dapat lakukan dengan proyeksi geografis,
+
+00:02:52.570 --> 00:02:54.622
+Tapi untungnya, teknologi komputer 
+memungkinkan kita keluar
+
+00:02:54.622 --> 00:02:56.168
+ke ruang multidimensi.
+
+00:02:56.168 --> 00:02:58.043
+Jadi kita dapat mengambil di proyeksi jaringan kami
+
+00:02:58.043 --> 00:02:59.793
+dan menerapkan sebuah mesin fisika
+
+00:02:59.793 --> 00:03:01.678
+dan pembicaraan sejenis seperti bertubrukan,
+
+00:03:01.678 --> 00:03:03.682
+dan yang berbeda terpisah,
+
+00:03:03.682 --> 00:03:05.754
+dan apa yang tersisa adalah 
+sesuatu yang sangat indah.
+
+00:03:05.754 --> 00:03:08.711
+EB: Jadi saya ingin menunjukkan di sini 
+bahwa setiap titik ada pembicaraan,
+
+00:03:08.711 --> 00:03:11.300
+mereka terhubung jika
+mereka berbagi ide-ide serupa,
+
+00:03:11.300 --> 00:03:13.384
+dan itu berasal dari 
+mesin yang membaca
+
+00:03:13.384 --> 00:03:15.451
+seluruh transkrip pembicaraan,
+
+00:03:15.451 --> 00:03:17.682
+dan kemudian semua topik ini yang keluar,
+
+00:03:17.682 --> 00:03:19.472
+mereka bukan berasal dari tautan dan kata kunci.
+
+00:03:19.472 --> 00:03:21.197
+Mereka berasal dari sebuah struktur jaringan
+
+00:03:21.197 --> 00:03:23.365
+ide-ide yang saling terhubung. Lanjutkan.
+
+00:03:23.365 --> 00:03:25.387
+SG: Sangat benar. Saya tadi 
+agak terlalu cepat di bagian itu,
+
+00:03:25.387 --> 00:03:26.862
+tapi dia akan memperlambat saya.
+
+00:03:26.862 --> 00:03:28.896
+Kami telah mendapat pendidikan
+
+00:03:28.896 --> 00:03:30.539
+yang terhubung ke cerita di media sosial.
+
+00:03:30.539 --> 00:03:33.014
+Anda punya, tentu saja, otak manusia 
+berada di sebelah kesehatan,
+
+00:03:33.014 --> 00:03:34.400
+yang mungkin sudah Anda duga,
+
+00:03:34.400 --> 00:03:36.795
+tetapi Anda juga punya video game, 
+yang seperti berdekatan,
+
+00:03:36.795 --> 00:03:39.535
+sebagai dua ruang antarmuka dengan satu sama lain.
+
+00:03:39.535 --> 00:03:41.070
+Tapi saya ingin membawa Anda
+ke salah satu gugusan
+
+00:03:41.070 --> 00:03:43.938
+itu sangat penting bagi saya, 
+dan itu adalah lingkungan.
+
+00:03:43.938 --> 00:03:45.431
+Dan saya ingin memperbesar bagian itu
+
+00:03:45.431 --> 00:03:47.794
+dan melihat jika kita bisa mempertajamnya.
+
+00:03:47.794 --> 00:03:50.141
+Jadi ketika kami di sini, 
+apa yang kami mulai lihat adalah,
+
+00:03:50.141 --> 00:03:51.645
+menerapkan mesin fisika lagi,
+
+00:03:51.645 --> 00:03:53.321
+kami melihat bagaimana suatu pembicaraan
+
+00:03:53.321 --> 00:03:55.881
+ini sebenarnya terdiri dari beberapa pembicaraan lebih kecil.
+
+00:03:55.881 --> 00:03:57.810
+Struktur mulai muncul
+
+00:03:57.810 --> 00:03:59.880
+dimana kita melihat semacam perilaku fraktal
+
+00:03:59.880 --> 00:04:01.499
+kata-kata dan bahasa yang kita gunakan
+
+00:04:01.499 --> 00:04:03.201
+untuk menjelaskan hal-hal yang penting bagi kami
+
+00:04:03.201 --> 00:04:04.634
+di dunia ini.
+
+00:04:04.634 --> 00:04:06.966
+Jadi Anda punya ekonomi makanan 
+dan makanan lokal di bagian atas,
+
+00:04:06.966 --> 00:04:09.685
+Anda punya gas rumah kaca, limbah solar dan nuklir.
+
+00:04:09.685 --> 00:04:12.316
+Apa yang Anda dapatkan adalah 
+serangkaian pembicaraan kecil,
+
+00:04:12.316 --> 00:04:14.617
+masing-masing saling tersambung melalui ide-ide
+
+00:04:14.617 --> 00:04:15.918
+dan bahasa yang mereka gunakan untuk berbagi,
+
+00:04:15.918 --> 00:04:18.368
+menciptakan sebuah konsep 
+yang lebih luas tentang lingkungan.
+
+00:04:18.368 --> 00:04:19.900
+Dan tentu saja, dari sini, kita bisa pergi
+
+00:04:19.900 --> 00:04:23.434
+memperbesar dan melihat, Nah, 
+apa yang orang-orang muda lihat?
+
+00:04:23.434 --> 00:04:25.779
+Dan mereka sedang melihat 
+teknologi energi dan fusi nuklir.
+
+00:04:25.779 --> 00:04:27.453
+Ini adalah jenis resonansi mereka
+
+00:04:27.453 --> 00:04:29.859
+untuk percakapan mengenai lingkungan.
+
+00:04:29.859 --> 00:04:31.758
+Jika kita membagi berdasarkan kelamin,
+
+00:04:31.758 --> 00:04:33.745
+kita bisa melihat perempuan yang beresonansi berat
+
+00:04:33.745 --> 00:04:37.390
+dengan ekonomi makanan, tetapi juga 
+luar sana dalam harapan dan optimisme.
+
+00:04:37.390 --> 00:04:39.872
+Dan jadi ada banyak hal menarik bisa kita lakukan di sini,
+
+00:04:39.872 --> 00:04:41.634
+dan saya akan mempersilahkan Eric untuk bagian selanjutnya.
+
+00:04:41.634 --> 00:04:43.236
+EB: Ya, maksudku, hanya untuk menunjukkan di sini,
+
+00:04:43.236 --> 00:04:44.774
+Anda tidak bisa mendapatkan perspektif semacam ini
+
+00:04:44.774 --> 00:04:48.134
+dari pencarian tautan sederhana di YouTube.
+
+00:04:48.134 --> 00:04:52.322
+Mari sekarang kita perkecil
+kembali ke seluruh pembicaraan global
+
+00:04:52.322 --> 00:04:54.856
+di luar lingkungan, dan melihat 
+semua pembicaraan bersama-sama.
+
+00:04:54.856 --> 00:04:57.783
+Sekarang seringkali ketika kita 
+dihadapkan dengan jumlah konten ini,
+
+00:04:57.783 --> 00:05:00.214
+kami melakukan beberapa hal 
+untuk menyederhanakan.
+
+00:05:00.214 --> 00:05:01.528
+Kami hanya dapat mengatakan,
+
+00:05:01.528 --> 00:05:04.357
+apakah pembicaraan paling populer di luar sana?
+
+00:05:04.357 --> 00:05:05.754
+Dan beberapa akan muncul.
+
+00:05:05.754 --> 00:05:07.582
+Ada pembicaraan tentang rasa syukur.
+
+00:05:07.582 --> 00:05:10.926
+Ada satu lagi tentang kesehatan pribadi dan gizi.
+
+00:05:10.926 --> 00:05:13.855
+Dan tentu saja, harus ada satu tentang porno kan?
+
+00:05:13.855 --> 00:05:17.089
+Dan kita dapat mengatakan, 
+Yah, syukur, itu sudah setahun yang lalu.
+
+00:05:17.089 --> 00:05:19.611
+Apakah yang tren sekarang? 
+Apakah pembicaraan populer sekarang?
+
+00:05:19.611 --> 00:05:22.932
+Dan kita dapat melihat 
+mulai munculnya tren topik baru
+
+00:05:22.932 --> 00:05:25.598
+tentang privasi digital.
+
+00:05:25.598 --> 00:05:27.291
+Jadi ini besar. Ini menyederhanakan.
+
+00:05:27.291 --> 00:05:29.118
+Tapi ada begitu banyak konten kreatif
+
+00:05:29.118 --> 00:05:31.039
+yang hanya terkubur di bawah.
+
+00:05:31.039 --> 00:05:34.357
+Dan saya benci itu. Bagaimana kita menggelembung itu ke permukaan
+
+00:05:34.357 --> 00:05:36.815
+yang mungkin benar-benar kreatif dan menarik?
+
+00:05:36.815 --> 00:05:39.746
+Yah, kita dapat kembali ke struktur jaringan ide
+
+00:05:39.746 --> 00:05:41.176
+untuk melakukan itu.
+
+00:05:41.176 --> 00:05:43.290
+Ingat, bahwa struktur jaringan
+
+00:05:43.290 --> 00:05:45.558
+yang membuat topik ini muncul,
+
+00:05:45.558 --> 00:05:47.073
+dan mari kita berkata kita bisa 
+mengambil dua di antaranya,
+
+00:05:47.073 --> 00:05:50.120
+seperti kota-kota dan genetika, dan berkata, 
+Nah, Apakah ada pembicaraan
+
+00:05:50.120 --> 00:05:52.689
+yang dengan kreatif menjembatani 
+kedua disiplin berbeda ini.
+
+00:05:52.689 --> 00:05:54.964
+Dan itu -- pada dasarnya,
+pencampuran kreativitas ini
+
+00:05:54.964 --> 00:05:56.804
+adalah salah satu terobosan dari inovasi.
+
+00:05:56.804 --> 00:05:58.410
+Nah, ini salah satunya oleh Jessica Green
+
+00:05:58.410 --> 00:06:00.789
+tentang ekologi mikroba dari bangunan.
+
+00:06:00.789 --> 00:06:02.799
+Topik itu benar-benar 
+mendefinisikan bidang baru.
+
+00:06:02.799 --> 00:06:04.902
+Dan kita bisa kembali ke topik itu dan berkata,
+
+00:06:04.902 --> 00:06:07.670
+Apa yang menjadi pusat pembicaraan itu?
+
+00:06:07.670 --> 00:06:09.360
+Di klaster kota-kota, salah satu yang paling Pusat
+
+00:06:09.360 --> 00:06:13.312
+adalah satu pembicaraan oleh Mitch Joachim 
+tentang kota ekologi
+
+00:06:13.312 --> 00:06:15.032
+dan tentang gugus genetika
+
+00:06:15.032 --> 00:06:18.225
+kita punya pembicaraan tentang 
+biologi sintetis oleh Craig Venter.
+
+00:06:18.225 --> 00:06:21.578
+Ini semua adalah pembicaraan yang menghubungkan 
+banyak pembicaraan dalam disiplin mereka.
+
+00:06:21.578 --> 00:06:23.421
+Kita bisa pergi arah lain dan berkata,
+
+00:06:23.421 --> 00:06:25.693
+Pembicaraan apa yang membentuk
+
+00:06:25.693 --> 00:06:27.141
+banyak bidang lain.
+
+00:06:27.141 --> 00:06:29.674
+Kami menggunakan ukuran 
+keanekaragaman ekologi untuk mendapatkan ini.
+
+00:06:29.674 --> 00:06:32.410
+Seperti, pembicaraan oleh Steven Pinker 
+pada sejarah kekerasan,
+
+00:06:32.410 --> 00:06:33.590
+sangat sintetis.
+
+00:06:33.590 --> 00:06:35.668
+Dan kemudian, tentu saja, 
+ada pembicaraan yang sangat unik
+
+00:06:35.668 --> 00:06:38.758
+mereka seperti keluar di stratosfer,
+tempat khusus mereka sendiri,
+
+00:06:38.758 --> 00:06:41.272
+dan kami menyebutnya indeks Colleen Flanagan .
+
+00:06:41.272 --> 00:06:44.306
+Dan jika Anda tidak tahu Colleen, 
+dia adalah seorang seniman,
+
+00:06:44.306 --> 00:06:45.849
+dan saya bertanya kepadanya, 
+"Yah, apa rasanya di luar sana
+
+00:06:45.849 --> 00:06:47.521
+di stratosfer dari ruang ide kami?"
+
+00:06:47.521 --> 00:06:50.776
+Dan rupanya baunya seperti daging asap.
+
+00:06:50.776 --> 00:06:52.567
+Saya tidak tahu.
+
+00:06:52.567 --> 00:06:54.815
+Jadi kita menggunakan motif jaringan ini
+
+00:06:54.815 --> 00:06:56.001
+untuk menemukan pembicaraan yang unik,
+
+00:06:56.001 --> 00:06:58.711
+yang dibuat secara kreatif dari berbagai bidang,
+
+00:06:58.711 --> 00:07:00.370
+yang menjadi pusat topik mereka,
+
+00:07:00.370 --> 00:07:03.744
+dan yang secara kreatif menjembatani
+perbedaan bidang tersebut.
+
+00:07:03.744 --> 00:07:05.846
+Oke? Kami tidak pernah akan 
+menemukan mereka dengan obsesi kami
+
+00:07:05.846 --> 00:07:08.159
+dengan apa yang menjadi tren sekarang.
+
+00:07:08.159 --> 00:07:11.045
+Dan semua ini berasal dari arsitektur kompleksitas,
+
+00:07:11.045 --> 00:07:14.005
+atau pola bagaimana hal-hal terhubung.
+
+00:07:14.005 --> 00:07:15.630
+SG: Jadi itu tepat.
+
+00:07:15.630 --> 00:07:18.109
+Kami mendapati diri kami di dunia
+
+00:07:18.109 --> 00:07:20.153
+yang sangat kompleks,
+
+00:07:20.153 --> 00:07:23.020
+dan kami telah menggunakan algoritma 
+untuk menyaring itu semua
+
+00:07:23.020 --> 00:07:24.806
+supaya kita dapat menavigasi melaluinya.
+
+00:07:24.806 --> 00:07:27.144
+Dan algoritma itu, 
+sementara ini cukup bermanfaat,
+
+00:07:27.144 --> 00:07:30.620
+juga sangat, sangat sempit,
+dan kita bisa melakukan lebih dari itu,
+
+00:07:30.620 --> 00:07:33.186
+karena kita dapat menyadari bahwa 
+kompleksitas mereka tidak acak.
+
+00:07:33.186 --> 00:07:35.140
+Ianya memiliki struktur matematika,
+
+00:07:35.140 --> 00:07:36.943
+dan kita dapat menggunakannya
+
+00:07:36.943 --> 00:07:39.157
+untuk pergi dan menjelajahi hal-hal seperti dunia ide
+
+00:07:39.157 --> 00:07:42.157
+untuk melihat apa yang dikatakan,
+untuk melihat apa yang tidak dikatakan,
+
+00:07:42.157 --> 00:07:43.564
+dan untuk menjadi sedikit lebih manusiawi
+
+00:07:43.564 --> 00:07:45.431
+dan, mudah-mudahan, sedikit lebih cerdas.
+
+00:07:45.431 --> 00:07:46.397
+Terima kasih.
+
+00:07:46.397 --> 00:07:50.617
+(Tepuk tangan)
+

@@ -1,0 +1,754 @@
+WEBVTT
+Kind: captions
+Language: da
+
+00:00:00.000 --> 00:00:07.000
+Translator: Anders Finn Jørgensen
+Reviewer: Allan Jensen
+
+00:00:15.260 --> 00:00:18.260
+Ideen bag Stuxnet computerormen
+
+00:00:18.260 --> 00:00:20.260
+er faktisk ret simpel.
+
+00:00:20.260 --> 00:00:23.260
+Vi ønsker ikke at Iran skal have bomben.
+
+00:00:23.260 --> 00:00:26.260
+Deres vigtigste aktiv for at udvikle kernevåben
+
+00:00:26.260 --> 00:00:30.260
+er Natanz uranberigelsesanlægget.
+
+00:00:30.260 --> 00:00:32.260
+De grå bokse som I kan se,
+
+00:00:32.260 --> 00:00:35.260
+det er realtids-kontrolsystemer.
+
+00:00:35.260 --> 00:00:38.260
+Hvis det lykkedes os at kompromittere disse systemer
+
+00:00:38.260 --> 00:00:41.260
+som kontrollere omløbshastighed og ventiler,
+
+00:00:41.260 --> 00:00:44.260
+vi kan faktisk skabe en masse problemer
+
+00:00:44.260 --> 00:00:46.260
+for centrifugerne.
+
+00:00:46.260 --> 00:00:48.260
+Disse grå bokse kører ikke på Windows software,
+
+00:00:48.260 --> 00:00:51.260
+det er en helt anden teknologi.
+
+00:00:51.260 --> 00:00:53.260
+Men hvis det lykkedes os
+
+00:00:53.260 --> 00:00:56.260
+at placere en god Windows virus
+
+00:00:56.260 --> 00:00:58.260
+på en Notebook
+
+00:00:58.260 --> 00:01:00.260
+som bruges af vedligeholdelsesingeniøren
+
+00:01:00.260 --> 00:01:03.260
+til at konfigurere den grå boks,
+
+00:01:03.260 --> 00:01:05.260
+så er vi kørende.
+
+00:01:05.260 --> 00:01:08.260
+Og dette er plottet bag Stuxnet.
+
+00:01:08.260 --> 00:01:13.260
+Så vi starter med en Windows-afleveringsdel.
+
+00:01:13.260 --> 00:01:16.260
+Virusen bliver placeret i den grå boks,
+
+00:01:16.260 --> 00:01:18.260
+ødelægger centrifugerne,
+
+00:01:18.260 --> 00:01:20.260
+og det iranske atomprogram er forsinket --
+
+00:01:20.260 --> 00:01:22.260
+mission fuldført.
+
+00:01:22.260 --> 00:01:24.260
+Det er let, hva?
+
+00:01:24.260 --> 00:01:27.260
+Jeg vil fortælle jer hvordan vi fandt ud af dette.
+
+00:01:27.260 --> 00:01:30.260
+Vi startede vores undersøgelse af Stuxnet 
+for 6 måneder siden.
+
+00:01:30.260 --> 00:01:33.260
+Det var fuldstændigt ukendt hvad formålet
+med denne ting var.
+
+00:01:33.260 --> 00:01:35.260
+Det eneste man viste var
+
+00:01:35.260 --> 00:01:38.260
+at Windows-delen var meget, 
+meget komplekst - afleveringsdelen,
+
+00:01:38.260 --> 00:01:41.260
+brugte flere zero-day sårbarheder.
+
+00:01:41.260 --> 00:01:44.260
+Og det så ud som om den ville gøre noget
+
+00:01:44.260 --> 00:01:46.260
+med disse grå bokse, disse realtids-kontrolsystemer.
+
+00:01:46.260 --> 00:01:48.260
+Så det fangede vores opmærksomhed,
+
+00:01:48.260 --> 00:01:50.260
+og vi startede et laboratorieprojekt
+
+00:01:50.260 --> 00:01:54.260
+hvor vi inficerede vores miljø med Stuxnet
+
+00:01:54.260 --> 00:01:56.260
+og prøvede tingene af.
+
+00:01:56.260 --> 00:01:59.260
+Og nogle meget mærkelige ting skete.
+
+00:01:59.260 --> 00:02:02.260
+Stuxnet opførte sig som en laboratorierotte
+
+00:02:02.260 --> 00:02:05.260
+som ikke kunne lide vores ost --
+
+00:02:05.260 --> 00:02:07.260
+den snuste, men den ville ikke spise.
+
+00:02:07.260 --> 00:02:09.260
+Det gav ikke mening for mig.
+
+00:02:09.260 --> 00:02:12.260
+Efter at have eksperimenteret med 
+forskellige smage af ost,
+
+00:02:12.260 --> 00:02:16.260
+gik det op for mig: Dette er et målrettet angreb.
+
+00:02:16.260 --> 00:02:18.260
+Det er fuldstændigt målrettet.
+
+00:02:18.260 --> 00:02:20.260
+Afleveringsdelen snuser aktivt
+
+00:02:20.260 --> 00:02:22.260
+på de grå bokse,
+
+00:02:22.260 --> 00:02:25.260
+og hvis en specifik opstilling er fundet,
+
+00:02:25.260 --> 00:02:29.260
+og hvis den specielle programkode 
+den prøver at inficere
+
+00:02:29.260 --> 00:02:31.260
+faktisk er der på målet.
+
+00:02:31.260 --> 00:02:34.260
+Hvis ikke, gør Stuxnet intet.
+
+00:02:34.260 --> 00:02:36.260
+Så hvad der fangede min opmærksomhed,
+
+00:02:36.260 --> 00:02:38.260
+og hvad vi begyndte at arbejde med
+
+00:02:38.260 --> 00:02:40.260
+næsten i døgndrift,
+
+00:02:40.260 --> 00:02:43.260
+fordi jeg tænkte: "Well, vi ved ikke hvad målet er.
+
+00:02:43.260 --> 00:02:45.260
+men det kunne være f.eks.
+
+00:02:45.260 --> 00:02:47.260
+et amerikansk kraftværk,
+
+00:02:47.260 --> 00:02:49.260
+eller en kemisk fabrik i Tyskland.
+
+00:02:49.260 --> 00:02:52.260
+Så vi må hellere finde målet hurtigt."
+
+00:02:52.260 --> 00:02:54.260
+Så vi udtrak og dekompilerede
+
+00:02:54.260 --> 00:02:56.260
+angrebskoden,
+
+00:02:56.260 --> 00:02:59.260
+og vi opdagede at den var struktureret
+som to digitale bomber
+
+00:02:59.260 --> 00:03:02.260
+en lille en og en større en.
+
+00:03:02.260 --> 00:03:06.260
+Vi så også at de var meget professionelt fremstillet
+
+00:03:06.260 --> 00:03:10.260
+af folk der åbenlyst havde insider information.
+
+00:03:10.260 --> 00:03:12.260
+De kendte alle biderne af
+
+00:03:12.260 --> 00:03:14.260
+hvad de skulle angribe.
+
+00:03:14.260 --> 00:03:17.260
+De vidste sikkert også skonummeret på operatøren.
+
+00:03:17.260 --> 00:03:19.260
+Så de vidste alt.
+
+00:03:19.260 --> 00:03:22.260
+Og hvis I har hørt om afleveringsdelen af Stuxnet
+
+00:03:22.260 --> 00:03:24.260
+er kompleks og high-tech,
+
+00:03:24.260 --> 00:03:26.260
+så lad mig fortælle jer:
+
+00:03:26.260 --> 00:03:28.260
+Våbendelen er raketvidenskab.
+
+00:03:28.260 --> 00:03:30.260
+Det var hævet over alt
+
+00:03:30.260 --> 00:03:33.260
+hvad vi har set før.
+
+00:03:33.260 --> 00:03:36.260
+Her har du et udsnit af den faktiske angrebskode.
+
+00:03:36.260 --> 00:03:38.260
+Vi taler om
+
+00:03:38.260 --> 00:03:41.260
+ca 15.000 linjers kode.
+
+00:03:41.260 --> 00:03:44.260
+Det ligner til forveksling 
+gammeldags assemblersprog.
+
+00:03:44.260 --> 00:03:46.260
+Og jeg ønsker at fortælle jer 
+hvordan vi var istand til
+
+00:03:46.260 --> 00:03:48.260
+at få mening ud af denne kode.
+
+00:03:48.260 --> 00:03:51.260
+Så først kiggede vi efter system-funktionskald,
+
+00:03:51.260 --> 00:03:53.260
+fordi vi ved hvad de gør.
+
+00:03:53.260 --> 00:03:57.260
+Derefter ledte vi efter timere og datastrukturer
+
+00:03:57.260 --> 00:03:59.260
+og prøvede at forbinde dem til den virkelige verden --
+
+00:03:59.260 --> 00:04:01.260
+til potentielle fysiske mål.
+
+00:04:01.260 --> 00:04:04.260
+Så vi havde behov for teorier om mål
+
+00:04:04.260 --> 00:04:07.260
+vi kunne bekræfte eller afkræfte.
+
+00:04:07.260 --> 00:04:09.260
+For at få nogle teorier om mål
+
+00:04:09.260 --> 00:04:11.260
+huskede vi på at
+
+00:04:11.260 --> 00:04:13.260
+det var definitivt hardcore sabotage,
+
+00:04:13.260 --> 00:04:15.260
+det må være et mål af høj værdi
+
+00:04:15.260 --> 00:04:18.260
+og det er højst sandsynligt placeret i Iran,
+
+00:04:18.260 --> 00:04:22.260
+fordi det var her flest infektioner var rapporteret fra.
+
+00:04:22.260 --> 00:04:25.260
+Man finder ikke mange tusinde mål i det område.
+
+00:04:25.260 --> 00:04:27.260
+Det kan faktisk koges ned
+
+00:04:27.260 --> 00:04:29.260
+til Bushehr atomkraftværket
+
+00:04:29.260 --> 00:04:31.260
+og til brændselsberigelsesfabrikken i Natanz.
+
+00:04:31.260 --> 00:04:33.260
+Så jeg fortalte min assistent,
+
+00:04:33.260 --> 00:04:36.260
+"Giv mig en liste over alle centrifuger og
+kraftværkseksperter i vores kundekartotek."
+
+00:04:36.260 --> 00:04:38.260
+Og jeg ringede til dem og prikkede til deres hjerner
+
+00:04:38.260 --> 00:04:40.260
+for at matche deres ekspertise
+
+00:04:40.260 --> 00:04:43.260
+med hvad vi havde fundet i koden og data.
+
+00:04:43.260 --> 00:04:45.260
+Og det virkede ganske godt.
+
+00:04:45.260 --> 00:04:47.260
+Så vi kunne forbinde
+
+00:04:47.260 --> 00:04:49.260
+den lille digitale våbendel
+
+00:04:49.260 --> 00:04:51.260
+med rotorkontrol.
+
+00:04:51.260 --> 00:04:54.260
+rotoren er den bevægelige del inde i en centrifuge,
+
+00:04:54.260 --> 00:04:56.260
+det er det sorte objekt I ser.
+
+00:04:56.260 --> 00:04:59.260
+Og hvis man manipulerer hastigheden af denne rotor,
+
+00:04:59.260 --> 00:05:01.260
+er du faktisk i stand til at ødelægge rotoren
+
+00:05:01.260 --> 00:05:05.260
+og eventuelt få centrifugen til at eksplodere.
+
+00:05:05.260 --> 00:05:07.260
+Hvad vi også så
+
+00:05:07.260 --> 00:05:09.260
+var at målet for angrebet
+
+00:05:09.260 --> 00:05:12.260
+var at gøre det så langsomt og snigende
+
+00:05:12.260 --> 00:05:14.260
+åbenlyst med et formål
+
+00:05:14.260 --> 00:05:17.260
+at drive vedligeholdelsesingeniørene til vanvid,
+
+00:05:17.260 --> 00:05:20.260
+så de ikke ville være istand til at regne det ud for hurtigt.
+
+00:05:20.260 --> 00:05:23.260
+Den store digitale våbendel -- vi fik et billede af den
+
+00:05:23.260 --> 00:05:25.260
+ved at kigge meget tæt
+
+00:05:25.260 --> 00:05:27.260
+på data og datastrukturer.
+
+00:05:27.260 --> 00:05:29.260
+Så for eksempel: tallet 164
+
+00:05:29.260 --> 00:05:31.260
+gjorde sig bemærket i programmet,
+
+00:05:31.260 --> 00:05:33.260
+du kan ikke overse det.
+
+00:05:33.260 --> 00:05:35.260
+Jeg kiggede i den videnskabelige litteratur
+
+00:05:35.260 --> 00:05:37.260
+om hvordan disse centrifuger
+
+00:05:37.260 --> 00:05:39.260
+er opbygget i Natanz
+
+00:05:39.260 --> 00:05:41.260
+og fandt at de var opstillet
+
+00:05:41.260 --> 00:05:43.260
+i hvad vi kalder i en kaskade,
+
+00:05:43.260 --> 00:05:47.260
+og hver kaskade indeholder 164 centrifuger.
+
+00:05:47.260 --> 00:05:49.260
+Så det gav mening, det var et sammenfald.
+
+00:05:49.260 --> 00:05:51.260
+Og det blev bedre.
+
+00:05:51.260 --> 00:05:53.260
+Disse centrifuger i Iran
+
+00:05:53.260 --> 00:05:57.260
+er underinddelt i 15, hvad vi kalder, trin.
+
+00:05:57.260 --> 00:05:59.260
+Og gæt hvad vi fandt i angrebskoden?
+
+00:05:59.260 --> 00:06:01.260
+En nærmest identisk struktur.
+
+00:06:01.260 --> 00:06:04.260
+Så igen, der var et virkeligt godt sammenfald.
+
+00:06:04.260 --> 00:06:07.260
+Og dette gav os en stærk overbevisning 
+om at vi kiggede efter det rigtige.
+
+00:06:07.260 --> 00:06:10.260
+Misforstå mig ikke, 
+det gik ikke bare sådan af sig selv.
+
+00:06:10.260 --> 00:06:13.260
+Disse resultater blev opnået
+
+00:06:13.260 --> 00:06:16.260
+gennem mange uger med virkeligt hårdt arbejde.
+
+00:06:16.260 --> 00:06:19.260
+Og vi kom ofte ind i en blindgyde
+
+00:06:19.260 --> 00:06:21.260
+og måtte starte forfra.
+
+00:06:21.260 --> 00:06:23.260
+Hvor om alting er, så vi fandt
+
+00:06:23.260 --> 00:06:25.260
+at begge digitale våbendele
+
+00:06:25.260 --> 00:06:27.260
+var rettet mod det ene og samme mål,
+
+00:06:27.260 --> 00:06:29.260
+men fra forskellig vinkler.
+
+00:06:29.260 --> 00:06:32.260
+Den lille våbendel tog en kaskade
+
+00:06:32.260 --> 00:06:35.260
+og kørte op og ned for hastigheden på rotorene
+
+00:06:35.260 --> 00:06:37.260
+og den store våbendel
+
+00:06:37.260 --> 00:06:39.260
+talte til 6 kaskader
+
+00:06:39.260 --> 00:06:41.260
+og manipulerede ventilerne.
+
+00:06:41.260 --> 00:06:43.260
+Så vi var faktisk overbevidste om
+
+00:06:43.260 --> 00:06:45.260
+at vi havde bestemt hvad målet var.
+
+00:06:45.260 --> 00:06:48.260
+Det er Natanz og det er kun Natanz.
+
+00:06:48.260 --> 00:06:50.260
+Så vi skulle ikke bekymre os om
+
+00:06:50.260 --> 00:06:52.260
+at andre mål
+
+00:06:52.260 --> 00:06:54.260
+kunne blive ramt af Stuxnet.
+
+00:06:54.260 --> 00:06:57.260
+Her er noget virkeligt Cool som vi så --
+
+00:06:57.260 --> 00:06:59.260
+det virkeligt tog sokkerne af mig.
+
+00:06:59.260 --> 00:07:01.260
+Her nede i den grå boks,
+
+00:07:01.260 --> 00:07:04.260
+og du kan se centrifugerne på toppen.
+
+00:07:04.260 --> 00:07:06.260
+Hvad denne ting gør
+
+00:07:06.260 --> 00:07:09.260
+er at opsnappe data fra sensorerne --
+
+00:07:09.260 --> 00:07:11.260
+så for eksempel, trykmålerne
+
+00:07:11.260 --> 00:07:13.260
+og vibrationsmålerne
+
+00:07:13.260 --> 00:07:16.260
+og fodrer den oprindelige software,
+
+00:07:16.260 --> 00:07:18.260
+som stadigvæk kører under angrebet,
+
+00:07:18.260 --> 00:07:20.260
+med falsk data.
+
+00:07:20.260 --> 00:07:22.260
+Faktisk, denne falske data
+
+00:07:22.260 --> 00:07:25.260
+er faktisk gemt i Stuxnet.
+
+00:07:25.260 --> 00:07:27.260
+Det er ligesom i en Hollywood film
+
+00:07:27.260 --> 00:07:29.260
+under et indbrud,
+
+00:07:29.260 --> 00:07:32.260
+hvor overvågningskameraet, 
+viser en allerede optaget video.
+
+00:07:32.260 --> 00:07:34.260
+Det er smart, hva?
+
+00:07:35.260 --> 00:07:37.260
+Ideen her er åbenlyst
+
+00:07:37.260 --> 00:07:40.260
+ikke kun at narre operatørerne i kontrolrummet.
+
+00:07:40.260 --> 00:07:44.260
+Det er faktisk meget mere farligt og aggressivt.
+
+00:07:44.260 --> 00:07:46.260
+Ideen
+
+00:07:46.260 --> 00:07:49.260
+er at omgå det digitale sikkerhedssystem.
+
+00:07:50.260 --> 00:07:52.260
+Vi har behov for digitale sikkerhedssystemmer
+
+00:07:52.260 --> 00:07:55.260
+hvor en menneskelig operatør 
+ikke kan nå at reagere hurtigt nok.
+
+00:07:55.260 --> 00:07:57.260
+Som for eksempel i et kraftværk,
+
+00:07:57.260 --> 00:08:00.260
+når de store dampturbiner, roterer for hurtigt,
+
+00:08:00.260 --> 00:08:03.260
+så skal du åbne sikkerhedsventilerne 
+indenfor millisekunder.
+
+00:08:03.260 --> 00:08:06.260
+Åbenlyst, dette kan ikke udføres 
+af en menneskelig operatør.
+
+00:08:06.260 --> 00:08:08.260
+Så det er her vi har brug for 
+digitale sikkerhedssystemmer
+
+00:08:08.260 --> 00:08:10.260
+Og når de er kompromiterede
+
+00:08:10.260 --> 00:08:13.260
+så kan der ske rigtigt grimme ting.
+
+00:08:13.260 --> 00:08:15.260
+Dit kraftværk kan eksplodere.
+
+00:08:15.260 --> 00:08:18.260
+Og hverken dine operatører eller 
+dit sikkerhedssystem vil opdage det.
+
+00:08:18.260 --> 00:08:20.260
+Det er skræmmende.
+
+00:08:20.260 --> 00:08:22.260
+Men det bliver værre.
+
+00:08:22.260 --> 00:08:25.260
+Og dette jeg siger nu er meget vigtigt.
+
+00:08:25.260 --> 00:08:27.260
+Tænk over dette:
+
+00:08:27.260 --> 00:08:30.260
+Dette angreb var generisk.
+
+00:08:30.260 --> 00:08:34.260
+Det havde intet at gøre, specifikt
+
+00:08:34.260 --> 00:08:36.260
+med centrifuger,
+
+00:08:36.260 --> 00:08:39.260
+med uranberigelse.
+
+00:08:39.260 --> 00:08:42.260
+Så det vil virke, som for eksempel
+
+00:08:42.260 --> 00:08:44.260
+i et kraftværk
+
+00:08:44.260 --> 00:08:47.260
+i en bilfabrik.
+
+00:08:47.260 --> 00:08:49.260
+Det er generisk.
+
+00:08:49.260 --> 00:08:51.260
+Og du har ikke behov for - som angriber -
+
+00:08:51.260 --> 00:08:54.260
+du behøves ikke at aflevere våbendelen
+
+00:08:54.260 --> 00:08:56.260
+med en USB-stick,
+
+00:08:56.260 --> 00:08:58.260
+som vi så det med Stuxnet.
+
+00:08:58.260 --> 00:09:01.260
+Du kan bruge almindelig ormeteknologi til spredning.
+
+00:09:01.260 --> 00:09:04.260
+Bare sprede det så bredt som muligt.
+
+00:09:04.260 --> 00:09:06.260
+Og hvis du gør det.
+
+00:09:06.260 --> 00:09:08.260
+Hvad du ender med
+
+00:09:08.260 --> 00:09:13.260
+er et cyber-masseødelæggelsesvåben.
+
+00:09:14.260 --> 00:09:16.260
+Dette er konsekvensen
+
+00:09:16.260 --> 00:09:19.260
+som vi må tage højde for.
+
+00:09:19.260 --> 00:09:22.260
+Så uheldigvis
+
+00:09:22.260 --> 00:09:25.260
+det største antal af mål for disse angreb
+
+00:09:25.260 --> 00:09:27.260
+er ikke i Mellemøsten.
+
+00:09:27.260 --> 00:09:30.260
+De er i USA, i Europa og i Japan.
+
+00:09:30.260 --> 00:09:32.260
+Så alle de grønne felter,
+
+00:09:32.260 --> 00:09:35.260
+det er målrige områder.
+
+00:09:35.260 --> 00:09:38.260
+Vi må se konsekvenserne i øjnene,
+
+00:09:38.260 --> 00:09:41.260
+og vi må hellere starte med at forberede os nu.
+
+00:09:41.260 --> 00:09:43.260
+Tak.
+
+00:09:43.260 --> 00:09:49.260
+(Bifald)
+
+00:09:49.260 --> 00:09:51.260
+Chris Anderson: Jeg har et spørgsmål.
+
+00:09:53.260 --> 00:09:55.260
+Ralph, der har været skrevet
+
+00:09:55.260 --> 00:09:57.260
+at folk anser Mossad
+
+00:09:57.260 --> 00:09:59.260
+for at være hovedkraften bag dette.
+
+00:09:59.260 --> 00:10:02.260
+Er det din mening?
+
+00:10:02.260 --> 00:10:04.260
+Ralph Langner: Okay, vil du virkelig høre det?
+
+00:10:04.260 --> 00:10:06.260
+Tja, Okay.
+
+00:10:06.260 --> 00:10:09.260
+Efter min mening er Mossad involveret
+
+00:10:09.260 --> 00:10:12.260
+men den ledende kraft bag er ikke Israel.
+
+00:10:12.260 --> 00:10:14.260
+Så den ledende kraft bag
+
+00:10:14.260 --> 00:10:17.260
+er cybersupermagten.
+
+00:10:17.260 --> 00:10:19.260
+Og der er kun en,
+
+00:10:19.260 --> 00:10:21.260
+og det er USA.
+
+00:10:21.260 --> 00:10:23.260
+heldigvis, heldigvis.
+
+00:10:23.260 --> 00:10:25.260
+Fordi ellers
+
+00:10:25.260 --> 00:10:28.260
+ville vores problemer være endnu større.
+
+00:10:28.260 --> 00:10:32.260
+CA: Tak for at skræmme livet af os. Tak Ralph.
+
+00:10:32.260 --> 00:10:34.260
+(Bifald)
+

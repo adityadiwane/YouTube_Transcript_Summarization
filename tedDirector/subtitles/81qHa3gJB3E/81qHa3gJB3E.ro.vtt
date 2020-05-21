@@ -1,0 +1,896 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Lucia Grosaru
+Corector: Ana M
+
+00:00:25.000 --> 00:00:26.000
+Deci, cine sunt eu?
+
+00:00:26.000 --> 00:00:29.000
+De obicei spun oamenilor care mă întreabă "Cu ce te ocupi?",
+
+00:00:29.000 --> 00:00:31.000
+le spun, "Mă ocup cu hardware",
+
+00:00:31.000 --> 00:00:33.000
+pentru că asta cuprinde cumva în mod convenabil tot ceea ce fac.
+
+00:00:33.000 --> 00:00:37.000
+Şi recent i-am spus asta unui investitor, în mod întâmplător,
+
+00:00:37.000 --> 00:00:40.000
+la un eveniment în Valley, iar el a replicat "Ce ciudat."
+
+00:00:40.000 --> 00:00:42.000
+(Râsete)
+
+00:00:42.000 --> 00:00:45.000
+Şi chiar am rămas fără replică.
+
+00:00:45.000 --> 00:00:47.000
+Şi chiar ar fi trebuit să spun ceva deştept.
+
+00:00:47.000 --> 00:00:52.000
+Şi acum pentru că am avut puțin timp să mă gândesc la asta,
+
+00:00:52.000 --> 00:00:54.000
+aş fi spus "Ei bine, ştii,
+
+00:00:54.000 --> 00:00:56.000
+dacă ne uităm la următorii 100 de ani
+
+00:00:56.000 --> 00:00:58.000
+şi am văzut toate aceste probleme în ultimele zile,
+
+00:00:58.000 --> 00:01:01.000
+majoritatea problemelor mari --apa curată, energia curată --
+
+00:01:01.000 --> 00:01:03.000
+şi acestea sunt interşanjabile în unele aspecte --
+
+00:01:03.000 --> 00:01:05.000
+şi materiale mai curate, mai funcţionale --
+
+00:01:05.000 --> 00:01:08.000
+mie toate îmi par a fi probleme ce ţin de hardware.
+
+00:01:08.000 --> 00:01:10.000
+Asta nu înseamnă că ar trebui sa ignorăm software-ul,
+
+00:01:10.000 --> 00:01:12.000
+sau informaţia sau calculele.
+
+00:01:12.000 --> 00:01:15.000
+Şi probabil că despre asta am să vă vorbesc.
+
+00:01:15.000 --> 00:01:18.000
+Aşadar, această prelegere va fi despre cum facem lucruri
+
+00:01:18.000 --> 00:01:23.000
+şi care sunt noile căi prin care vom face lucruri în viitor.
+
+00:01:23.000 --> 00:01:28.000
+TED îţi trimite o groază de spam dacă ești un vorbitor,
+
+00:01:28.000 --> 00:01:30.000
+despre "fă asta, fă ailaltă" şi tu completezi toate aceste formulare,
+
+00:01:30.000 --> 00:01:33.000
+şi tu de fapt nu ştii cum te vor descrie,
+
+00:01:33.000 --> 00:01:36.000
+şi mi-a apărut rapid informaţia pe birou, că mă vor prezenta ca un futurolog.
+
+00:01:36.000 --> 00:01:38.000
+Şi întotdeauna m-a enervat termenul de futurolog,
+
+00:01:38.000 --> 00:01:41.000
+pentru că pari condamnat eşecului pentru că nu îl poţi prezice pe bune.
+
+00:01:41.000 --> 00:01:44.000
+Şi râdeam despre asta cu colegii foarte deştepţi pe care îi am,
+
+00:01:44.000 --> 00:01:48.000
+şi am spus "Ştiţi, ei bine, dacă va trebui să vorbesc despre viitor, ce-o să fie?"
+
+00:01:48.000 --> 00:01:53.000
+Şi George Homsey, un tip grozav, a spus "Oh, viitorul este extraordinar.
+
+00:01:53.000 --> 00:01:55.000
+E cu mult mai ciudat decât crezi tu.
+
+00:01:55.000 --> 00:01:57.000
+O să reprogramăm bacteria din intestinul tău,
+
+00:01:57.000 --> 00:02:02.000
+şi o să facem ca treaba mare să miroasă a mentă."
+
+00:02:02.000 --> 00:02:04.000
+(Râsete)
+
+00:02:04.000 --> 00:02:07.000
+Aşa că ați putea gândi că este o adevărată nebunie,
+
+00:02:07.000 --> 00:02:09.000
+dar se întâmplă nişte lucruri cu adevărat uimitoare
+
+00:02:09.000 --> 00:02:10.000
+care fac aceste lucruri posibile.
+
+00:02:10.000 --> 00:02:14.000
+Deci, aceasta nu este munca mea, dar este munca unor prieteni buni ai mei de la MIT.
+
+00:02:14.000 --> 00:02:16.000
+Acesta este registrul părţilor biologice standard.
+
+00:02:16.000 --> 00:02:18.000
+Este condus de Drew Endy şi Tom Knight
+
+00:02:18.000 --> 00:02:21.000
+şi încă alţi câţiva indivizi foarte, foarte isteţi.
+
+00:02:21.000 --> 00:02:24.000
+De fapt, ceea ce fac ei este să privească biologia ca pe un sistem programabil.
+
+00:02:24.000 --> 00:02:28.000
+Pur şi simplu, gândiţi-vă la proteine ca la subprograme
+
+00:02:28.000 --> 00:02:31.000
+pe care le poţi pune laolaltă pentru a executa un program.
+
+00:02:31.000 --> 00:02:36.000
+Acum, asta devine de fapt o idee interesantă.
+
+00:02:36.000 --> 00:02:39.000
+Aceasta este diagrama unei structuri. Acela este un computer extrem de simplu.
+
+00:02:39.000 --> 00:02:41.000
+Acesta este un contor în doi-biţi.
+
+00:02:41.000 --> 00:02:47.000
+Acela este practic echivalentul numeric a două întrerupătoare de lumină.
+
+00:02:47.000 --> 00:02:50.000
+Şi acesta este construit de un grup de studenţi în Zurich
+
+00:02:50.000 --> 00:02:52.000
+pentru o competiție de design în biologie.
+
+00:02:52.000 --> 00:02:55.000
+Şi din rezultatele aceleiaşi competiţii de anul trecut,
+
+00:02:55.000 --> 00:02:59.000
+o echipă de studenţi de la Universitatea din Texas a programat bacteriile
+
+00:02:59.000 --> 00:03:02.000
+astfel încât să poată detecta lumina şi să o pornească sau să o oprească.
+
+00:03:02.000 --> 00:03:04.000
+Asta este interesant în sensul că acum poţi face
+
+00:03:04.000 --> 00:03:09.000
+structuri "dacă atunci pentru" în materiale, în structură.
+
+00:03:09.000 --> 00:03:11.000
+Acesta este un curent destul de interesant.
+
+00:03:11.000 --> 00:03:13.000
+Pentru că noi trăiam într-o lume unde toată lumea spunea cu ușurință
+
+00:03:13.000 --> 00:03:17.000
+că forma urmează funcţia, dar eu cred că eu am trăit într-o lume
+
+00:03:17.000 --> 00:03:20.000
+-- l-aţi ascultat pe Neil Gershenfeld ieri,
+
+00:03:20.000 --> 00:03:24.000
+eu eram într-un laborator asociat cu al lui -- o lume
+
+00:03:24.000 --> 00:03:27.000
+în care informaţia defineşte forma şi funcţia.
+
+00:03:27.000 --> 00:03:31.000
+Mi-am petrecut şase ani gândindu-mă la asta,
+
+00:03:31.000 --> 00:03:33.000
+dar pentru a vă arăta puterea artei peste cea a ştiinţei -
+
+00:03:33.000 --> 00:03:36.000
+aceasta este de fapt o satiră pe care o scriu. Se numesc Howtoons.
+
+00:03:36.000 --> 00:03:38.000
+Lucrez cu un ilustrator fabulos numit Nick Dragotta.
+
+00:03:38.000 --> 00:03:40.000
+Mi-au trebuit şase ani la MIT
+
+00:03:40.000 --> 00:03:44.000
+şi cam atâtea pagini pentru a descrie ceea ce fac,
+
+00:03:44.000 --> 00:03:49.000
+iar lui i-a luat o pagină. Şi aceasta este muza noastră, Tucker.
+
+00:03:49.000 --> 00:03:51.000
+El este un puşti interesant -- şi sora lui, Celine --
+
+00:03:51.000 --> 00:03:53.000
+şi ceea ce face el aici
+
+00:03:53.000 --> 00:03:57.000
+este observarea auto-asamblării cerealelor Cheerios în bolul lui.
+
+00:03:57.000 --> 00:04:00.000
+Şi de fapt poţi programa auto-asamblarea lucrurilor,
+
+00:04:00.000 --> 00:04:02.000
+aşa că el începe cu marginile înmuiate în ciocolată,
+
+00:04:02.000 --> 00:04:04.000
+schimbând hidrofobicitatea şi hidrofilicitatea.
+
+00:04:04.000 --> 00:04:06.000
+În teorie, dacă le programezi pe astea suficient,
+
+00:04:06.000 --> 00:04:08.000
+ar trebui să poţi face ceva destul de interesant
+
+00:04:08.000 --> 00:04:10.000
+si să faci o structură foarte complexă.
+
+00:04:10.000 --> 00:04:15.000
+În acest caz, el a realizat auto-replicarea unei structuri 3D complexe.
+
+00:04:15.000 --> 00:04:18.000
+Şi eu la asta m-am gândit o perioadă lungă de timp,
+
+00:04:18.000 --> 00:04:20.000
+pentru că aşa facem în prezent lucrurile.
+
+00:04:20.000 --> 00:04:22.000
+Aceasta este o placă de silicon şi în principal
+
+00:04:22.000 --> 00:04:26.000
+asta e doar o grămadă de straturi de chestii bi-dimensionale, cumva puse unele peste altele.
+
+00:04:26.000 --> 00:04:28.000
+Partea caracteristică este -- ştiţi, oamenii vor spune,
+
+00:04:28.000 --> 00:04:30.000
+[neclar] coboară acum până la 65 de nanometri,
+
+00:04:30.000 --> 00:04:32.000
+În dreapta, acela este un radiolar.
+
+00:04:32.000 --> 00:04:35.000
+Acesta este un organism unicelular omniprezent în oceane.
+
+00:04:35.000 --> 00:04:39.000
+Şi are mărimi care pot coborî la 20 de nanometri,
+
+00:04:39.000 --> 00:04:41.000
+şi este o structură 3D complexă.
+
+00:04:41.000 --> 00:04:45.000
+Am putea face mult mai multe cu computerele şi lucrurile în general
+
+00:04:45.000 --> 00:04:48.000
+dacă am şti cum să construim lucrurile în acest mod.
+
+00:04:48.000 --> 00:04:51.000
+Secretul biologiei este că inserează calculele
+
+00:04:51.000 --> 00:04:54.000
+în modul în care face lucrurile. Aşa că acest lucru mic de aici, polimerasă,
+
+00:04:54.000 --> 00:04:59.000
+este în principal un supercomputer destinat replicării ADN-ului.
+
+00:04:59.000 --> 00:05:02.000
+Şi acest ribozom, aici, este un alt computer mic
+
+00:05:02.000 --> 00:05:04.000
+care ajută în translatarea proteinelor.
+
+00:05:04.000 --> 00:05:05.000
+M-am gândit la asta
+
+00:05:05.000 --> 00:05:08.000
+în sensul că e grozav să construim cu materiale biologice,
+
+00:05:08.000 --> 00:05:10.000
+dar putem face lucruri similare?
+
+00:05:10.000 --> 00:05:12.000
+Putem obţine comportamentul de tip auto-replicator?
+
+00:05:12.000 --> 00:05:16.000
+Putem face structurile 3D complexe să se asambleze automat
+
+00:05:16.000 --> 00:05:18.000
+în sistemele anorganice?
+
+00:05:18.000 --> 00:05:20.000
+Pentru că sunt unele avantaje ale sistemelor anorganice,
+
+00:05:20.000 --> 00:05:22.000
+cum ar fi semiconductorii de viteze mai mari, etc.
+
+00:05:22.000 --> 00:05:24.000
+Deci, aceasta este parte din munca mea
+
+00:05:24.000 --> 00:05:30.000
+despre cum faci un sistem auto-replicator autonom.
+
+00:05:30.000 --> 00:05:32.000
+Asta este cumva răzbunarea lui Babbage.
+
+00:05:32.000 --> 00:05:33.000
+Acestea sunt mici computere mecanice.
+
+00:05:33.000 --> 00:05:36.000
+Acestea sunt maşini cu structuri în cinci poziţii.
+
+00:05:36.000 --> 00:05:39.000
+Deci, sunt cam trei întrerupătoare de lumină aliniate.
+
+00:05:39.000 --> 00:05:41.000
+Într-o stare neutră, nu se vor lega deloc.
+
+00:05:41.000 --> 00:05:45.000
+Acum, dacă fac un string din ele, un string de biţi,
+
+00:05:45.000 --> 00:05:47.000
+vor fi capabile de replicare.
+
+00:05:47.000 --> 00:05:48.000
+Aşa că începem cu alb, albastru, albastru, alb.
+
+00:05:48.000 --> 00:05:54.000
+Acum encodează; acum asta va copia. Din unu iese doi,
+
+00:05:54.000 --> 00:05:56.000
+şi apoi din doi iese trei.
+
+00:05:56.000 --> 00:06:00.000
+Şi aşa avem un soi de sistem de replicare.
+
+00:06:00.000 --> 00:06:02.000
+Îi aparține de fapt lui Lionel Penrose,
+
+00:06:02.000 --> 00:06:05.000
+tatăl lui Roger Penrose, tipul cu ţiglele.
+
+00:06:05.000 --> 00:06:07.000
+El a lucrat preponderent în anii '60,
+
+00:06:07.000 --> 00:06:09.000
+şi astfel o mare parte din această teorie logică a fost acoperită
+
+00:06:09.000 --> 00:06:12.000
+în timp ce treceam prin revoluţia computerelor digitale, dar acum revine.
+
+00:06:12.000 --> 00:06:16.000
+Acum am să vă arăt auto-replicarea autonomă, hands-free.
+
+00:06:16.000 --> 00:06:18.000
+Aşa că am urmărit în video string-ul de input,
+
+00:06:18.000 --> 00:06:20.000
+care era verde, galben, galben, verde.
+
+00:06:20.000 --> 00:06:24.000
+Le-am declanşat pe această masă de air hockey.
+
+00:06:24.000 --> 00:06:26.000
+Știţi, ştiinţa înaltă utilizează mesele de air hockey --
+
+00:06:26.000 --> 00:06:27.000
+(Râsete)
+
+00:06:27.000 --> 00:06:29.000
+-- şi dacă urmăreşti treaba asta timp îndelungat ameţeşti,
+
+00:06:29.000 --> 00:06:32.000
+dar ceea ce vezi cu adevărat sunt copii ale acelui string original
+
+00:06:32.000 --> 00:06:35.000
+care apare din recipientele de părţi pe care le aveţi aici.
+
+00:06:35.000 --> 00:06:40.000
+Aşa că avem replicarea autonomă a şirurilor de biţi.
+
+00:06:40.000 --> 00:06:43.000
+Deci, de ce ai vrea să multiplici şiruri de biţi?
+
+00:06:43.000 --> 00:06:46.000
+Ei bine, se dovedeşte că biologia are un alt meme foarte interesant,
+
+00:06:46.000 --> 00:06:49.000
+şi anume că poţi lua un şir liniar, un lucru convenabil de copiat,
+
+00:06:49.000 --> 00:06:53.000
+şi îl poţi împături într-o structură 3D arbitrară complexă.
+
+00:06:53.000 --> 00:06:56.000
+Şi eu încercam să am versiunea inginerului:
+
+00:06:56.000 --> 00:06:59.000
+Putem construi un sistem mecanic cu materiale anorganice,
+
+00:06:59.000 --> 00:07:00.000
+care să facă acelaşi lucru?
+
+00:07:00.000 --> 00:07:05.000
+Aşa că ceea ce vă arăt aici este că putem face o formă 2D --
+
+00:07:05.000 --> 00:07:09.000
+B-ul -- să se asambleze dintr-un şir de componente
+
+00:07:09.000 --> 00:07:11.000
+care urmează reguli extrem de simple.
+
+00:07:11.000 --> 00:07:14.000
+Şi întregul sens de a miza pe reguli extrem de simple aici,
+
+00:07:14.000 --> 00:07:17.000
+şi maşinăriile cu structuri incredibil de simple din design-ul anterior,
+
+00:07:17.000 --> 00:07:20.000
+era că nu ai nevoie de logică digitală pentru a face calcule.
+
+00:07:20.000 --> 00:07:24.000
+Şi în acest mod poţi scala lucruri mult mai mici decât microcipurile.
+
+00:07:24.000 --> 00:07:28.000
+Aşa că literalmente le poţi utiliza drept componente minuscule în procesul de asamblare.
+
+00:07:28.000 --> 00:07:33.000
+Deci, Neil Gershenfeld v-a arătat acest video, miercuri, cred,
+
+00:07:33.000 --> 00:07:35.000
+dar am să vi-l arăt din nou.
+
+00:07:35.000 --> 00:07:38.000
+Aceasta este efectiv secvenţa colorată a acelor ţigle.
+
+00:07:38.000 --> 00:07:41.000
+Fiecare culoare diferită are o polaritate magnetică diferită
+
+00:07:41.000 --> 00:07:46.000
+şi secvenţa specifică în mod unic structura care reiese.
+
+00:07:46.000 --> 00:07:49.000
+Sper că aceia dintre voi care știu ceva despre teoria grafurilor
+
+00:07:49.000 --> 00:07:51.000
+se pot uita la asta, şi asta vă va mulţumi
+
+00:07:51.000 --> 00:07:54.000
+pentru că poate face şi o structură 3D arbitrară,
+
+00:07:54.000 --> 00:07:59.000
+şi de fapt, ştiţi, acum pot lua un câine, îl pot tăia
+
+00:07:59.000 --> 00:08:01.000
+şi mai apoi reasambla astfel încât să fie un şir linear
+
+00:08:01.000 --> 00:08:03.000
+care se va împături dintr-o secvenţă. Şi acum
+
+00:08:03.000 --> 00:08:10.000
+pot efectiv să definesc acel obiect tri-dimensional drept o secvenţă de biţi.
+
+00:08:10.000 --> 00:08:13.000
+Aşa că lumea este destul de interesantă
+
+00:08:13.000 --> 00:08:15.000
+când începi să te uiţi la ea puţin diferit.
+
+00:08:15.000 --> 00:08:18.000
+Şi universul este acum un compilator.
+
+00:08:18.000 --> 00:08:20.000
+Şi acum mă gândesc care sunt programele
+
+00:08:20.000 --> 00:08:23.000
+pentru programarea universului fizic?
+
+00:08:23.000 --> 00:08:26.000
+Şi cum gândim despre materiale şi structură,
+
+00:08:26.000 --> 00:08:29.000
+ca un fel de informaţie şi problemă de calcul?
+
+00:08:29.000 --> 00:08:32.000
+Nu doar unde ataşezi un micro-controler la capăt,
+
+00:08:32.000 --> 00:08:37.000
+dar acea structură şi mecanismele sunt logica, sunt computerele.
+
+00:08:37.000 --> 00:08:42.000
+După ce am absorbit total această filosofie,
+
+00:08:42.000 --> 00:08:45.000
+am început să privesc multe probleme puţin diferit.
+
+00:08:45.000 --> 00:08:46.000
+Cu universul drept computer,
+
+00:08:46.000 --> 00:08:48.000
+te poţi uita la această picătură de apă
+
+00:08:48.000 --> 00:08:50.000
+ca şi când a facut calculele.
+
+00:08:50.000 --> 00:08:52.000
+Setezi câteva condiţii limitative, cum ar fi gravitaţia,
+
+00:08:52.000 --> 00:08:56.000
+tensiunea de suprafaţă, densitatea, et cetera şi apoi apeşi execută,
+
+00:08:56.000 --> 00:09:01.000
+şi magic, universul produce pentru tine o lentilă rotundă perfectă.
+
+00:09:01.000 --> 00:09:03.000
+Deci, asta chiar se aplică problemei
+
+00:09:03.000 --> 00:09:06.000
+-- deci există între jumătate de miliard şi un miliard de oameni în lume
+
+00:09:06.000 --> 00:09:08.000
+care nu au acces la ochelari ieftini.
+
+00:09:08.000 --> 00:09:10.000
+Aşa că poţi face o maşinărie
+
+00:09:10.000 --> 00:09:14.000
+care ar putea face orice lentilă prescrisă rapid, pe loc?
+
+00:09:14.000 --> 00:09:18.000
+Aceasta este o maşinărie unde literalmente defineşti o condiţie de limitare.
+
+00:09:18.000 --> 00:09:21.000
+Dacă este circulară, faci o lentilă sferică.
+
+00:09:21.000 --> 00:09:24.000
+Daca este eliptică, faci o lentilă astigmatică.
+
+00:09:24.000 --> 00:09:27.000
+Apoi pui o membrană pe ea şi aplici presiune --
+
+00:09:27.000 --> 00:09:29.000
+asta e parte din extra-program.
+
+00:09:29.000 --> 00:09:32.000
+Şi efectiv cu doar acele două input-uri --
+
+00:09:32.000 --> 00:09:34.000
+deci, forma condiţiei tale de limitare şi presiunea --
+
+00:09:34.000 --> 00:09:36.000
+poți defini un număr infinit de lentile
+
+00:09:36.000 --> 00:09:38.000
+care să acopere amplitudinea erorii umane de refracţie
+
+00:09:38.000 --> 00:09:43.000
+de la minus 12 la dioptrii de plus opt, până la patru dioptrii ale cilindrului.
+
+00:09:43.000 --> 00:09:46.000
+Şi acum literalmente torni un monomer.
+
+00:09:46.000 --> 00:09:49.000
+O voi imita pe Julia Childs.
+
+00:09:49.000 --> 00:09:52.000
+Asta înseamnă trei minute de lumină UV.
+
+00:09:52.000 --> 00:09:55.000
+Şi inversezi presiunea pe membrană
+
+00:09:55.000 --> 00:09:58.000
+după ce ai copt-o. O scoţi din formă.
+
+00:09:58.000 --> 00:10:01.000
+Am văzut video-ul ăsta, dar încă nu ştiu dacă are să se termine cum trebuie.
+
+00:10:01.000 --> 00:10:04.000
+(Râsete)
+
+00:10:04.000 --> 00:10:06.000
+Deci inversezi asta. Acesta este un film foarte vechi,
+
+00:10:06.000 --> 00:10:10.000
+deci cu noile prototipuri, de fapt ambele suprafeţe sunt flexibile,
+
+00:10:10.000 --> 00:10:12.000
+dar asta o să vă arate ideea.
+
+00:10:12.000 --> 00:10:14.000
+Acum aţi terminat lentilele şi efectiv le scoateţi din formă.
+
+00:10:14.000 --> 00:10:21.000
+Aceasta este forma ochelarilor Yves Klein de anul viitor.
+
+00:10:21.000 --> 00:10:24.000
+Şi puteţi vedea că are o uşoară recomandare de aproape minus două dioptrii.
+
+00:10:24.000 --> 00:10:28.000
+Şi în timp ce se roteşte pentru a fi văzută din această parte, veţi vedea că are un cilindru,
+
+00:10:28.000 --> 00:10:29.000
+şi acela a fost programat în --
+
+00:10:29.000 --> 00:10:33.000
+literalmente în fizica sistemului.
+
+00:10:33.000 --> 00:10:36.000
+Deci, acest tip de gândire despre structură drept calcul
+
+00:10:36.000 --> 00:10:41.000
+şi structură ca informaţie conduce la alte lucruri, ca acesta.
+
+00:10:41.000 --> 00:10:44.000
+Acesta este ceva la care oamenii mei de la Laboratoarele SQUID
+
+00:10:44.000 --> 00:10:46.000
+lucrează în acest moment, numit sfoară electronică.
+
+00:10:46.000 --> 00:10:50.000
+Pur şi simplu, vă gândiţi la o sfoară. Are o structură foarte complexă în ţesătură.
+
+00:10:50.000 --> 00:10:52.000
+Şi când nu există presiune, este o structură.
+
+00:10:52.000 --> 00:10:55.000
+Sub o altă presiune, este o structură diferită. Şi poți efectiv exploata asta
+
+00:10:55.000 --> 00:10:57.000
+prin a pune un număr foarte mic
+
+00:10:57.000 --> 00:10:59.000
+de fibre conductoare pentru a face un senzor.
+
+00:10:59.000 --> 00:11:02.000
+Deci aceasta este acum o sfoară care ştie presiunea sforii
+
+00:11:02.000 --> 00:11:04.000
+în orice punct anume al ei.
+
+00:11:04.000 --> 00:11:07.000
+Doar prin a gândi despre fizica lumii,
+
+00:11:07.000 --> 00:11:09.000
+materialele drept computere,
+
+00:11:09.000 --> 00:11:12.000
+poţi începe să faci lucruri de genul ăsta.
+
+00:11:12.000 --> 00:11:15.000
+O sa fac o trecere aici.
+
+00:11:15.000 --> 00:11:17.000
+Cred că am să vă spun doar întâmplător tipurile de lucruri
+
+00:11:17.000 --> 00:11:18.000
+la care mă gândesc aşa.
+
+00:11:18.000 --> 00:11:22.000
+Un lucru de care chiar sunt interesat chiar acum este cum,
+
+00:11:22.000 --> 00:11:26.000
+dacă efectiv adopţi această viziune a universului ca un computer,
+
+00:11:26.000 --> 00:11:28.000
+cum facem lucrurile într-un sens foarte general,
+
+00:11:28.000 --> 00:11:32.000
+şi cum am putea împărtăşi modul în care facem lucrurile într-un sens general
+
+00:11:32.000 --> 00:11:35.000
+în acelaşi mod în care împărţim hardware-ul open source.
+
+00:11:35.000 --> 00:11:38.000
+Şi multe din prelegerile de aici au îmbrăţişat beneficiile
+
+00:11:38.000 --> 00:11:40.000
+de a avea mulţi oameni care să privească problemele,
+
+00:11:40.000 --> 00:11:43.000
+să împărtăşească informaţia şi să lucreze cu acele lucruri laolaltă.
+
+00:11:43.000 --> 00:11:46.000
+Astfel, un lucru convenabil despre a fi om este că te mişti într-un timp liniar,
+
+00:11:46.000 --> 00:11:48.000
+şi cu excepţia situaţiei în care Lisa Randall schimbă asta,
+
+00:11:48.000 --> 00:11:51.000
+vom continua să ne mişcăm într-un timp liniar.
+
+00:11:51.000 --> 00:11:53.000
+Aceasta înseamnă că orice faci, sau orice creezi,
+
+00:11:53.000 --> 00:11:55.000
+produci o secvenţă de paşi --
+
+00:11:55.000 --> 00:11:58.000
+şi cred că Lego în anii '70 a stabilit asta,
+
+00:11:58.000 --> 00:11:59.000
+şi au făcut-o în cel mai elegant mod.
+
+00:11:59.000 --> 00:12:03.000
+Dar îţi pot arăta cum să construieşti lucruri în secvenţă.
+
+00:12:03.000 --> 00:12:06.000
+Deci, mă gândesc la cum putem noi generaliza
+
+00:12:06.000 --> 00:12:08.000
+modul în care facem tot felul de lucruri,
+
+00:12:08.000 --> 00:12:10.000
+astfel încât să ai la final genul ăsta de tip, corect?
+
+00:12:10.000 --> 00:12:15.000
+Şi cred că asta se aplică unui foarte larg - cumva, multor concepte.
+
+00:12:15.000 --> 00:12:17.000
+Ştiţi, Cameron Sinclair a spus ieri,
+
+00:12:17.000 --> 00:12:19.000
+"Cum determin pe toată lumea să colaboreze la design
+
+00:12:19.000 --> 00:12:22.000
+şi să contruiască global locuinţe pentru umanitate?"
+
+00:12:22.000 --> 00:12:24.000
+Şi dacă aţi văzut-o pe Amy Smith,
+
+00:12:24.000 --> 00:12:28.000
+ea vorbeşte despre cum faci studenţii de la MIT
+
+00:12:28.000 --> 00:12:30.000
+să lucreze în comunităţi în Haiti.
+
+00:12:30.000 --> 00:12:32.000
+Şi cred că trebuie cumva să redefinim şi să regândim
+
+00:12:32.000 --> 00:12:36.000
+cum definim structura şi materialele şi asamblăm lucruri,
+
+00:12:36.000 --> 00:12:38.000
+astfel încât să putem împărtăşi efectiv informaţie
+
+00:12:38.000 --> 00:12:40.000
+despre cum faci acele lucruri într-un mod mai profund
+
+00:12:40.000 --> 00:12:43.000
+şi să construim pentru celălalt codul sursă pentru structură.
+
+00:12:43.000 --> 00:12:44.000
+Şi nu ştiu exact cum să fac asta încă,
+
+00:12:44.000 --> 00:12:49.000
+dar, ştiţi, este ceva la care m-am gândit activ.
+
+00:12:49.000 --> 00:12:51.000
+Deci asta conduce la întrebări
+
+00:12:51.000 --> 00:12:55.000
+ca: Este acesta un compilator? Este acesta un sub-program?
+
+00:12:55.000 --> 00:12:56.000
+Lucruri interesante de genul acesta.
+
+00:12:56.000 --> 00:12:59.000
+Poate devin puţin prea abstract, dar ştiţi,
+
+00:12:59.000 --> 00:13:02.000
+asta este un soi de --revenind la personajele noastre comice --
+
+00:13:02.000 --> 00:13:04.000
+cam aşa este universul, sau o viziune diferită a universului
+
+00:13:04.000 --> 00:13:06.000
+care cred că va fi prevalentă în viitor --
+
+00:13:06.000 --> 00:13:09.000
+de la biotehnologie la asamblarea materialelor. A fost grozav să îl aud pe Bill Joy.
+
+00:13:09.000 --> 00:13:12.000
+Ei încep să investească în ştiinţa materialelor,
+
+00:13:12.000 --> 00:13:14.000
+dar acestea sunt lucrurile noi în ştiinţa materialelor.
+
+00:13:14.000 --> 00:13:18.000
+Cum transpunem informaţia reală şi structura reală în noi idei,
+
+00:13:18.000 --> 00:13:21.000
+şi cum vedem lumea într-o variantă nouă? Şi nu va fi codul binar
+
+00:13:21.000 --> 00:13:23.000
+cel ce defineşte computerele universului --
+
+00:13:23.000 --> 00:13:25.000
+e un soi de computer analogic.
+
+00:13:25.000 --> 00:13:30.000
+Dar este cu siguranţă o nouă perspectivă asupra lumii.
+
+00:13:30.000 --> 00:13:33.000
+Am mers prea departe. Se pare că asta este.
+
+00:13:33.000 --> 00:13:35.000
+Probabil că am vreo două minute pentru întrebări,
+
+00:13:35.000 --> 00:13:39.000
+sau vă pot arăta -- cred că au spus că fac şi chestii extreme
+
+00:13:39.000 --> 00:13:43.000
+în prezentare, aşa că s-ar putea să trebuiască să explic asta.
+
+00:13:43.000 --> 00:13:46.000
+Aşa că probabil voi face asta cu acest video scurt.
+
+00:13:46.000 --> 00:13:52.000
+Deci ăsta este efectiv un zmeu de 91 500 cm pătraţi,
+
+00:13:52.000 --> 00:13:54.000
+care se întâmplă să fie totodată o suprafaţă minimală de energie.
+
+00:13:54.000 --> 00:13:56.000
+Aşa că întorcându-ne la picătura de apă, iar,
+
+00:13:56.000 --> 00:13:58.000
+gândindu-ne la univers într-un nou mod.
+
+00:13:58.000 --> 00:14:00.000
+Acesta este un zmeu proiectat de un tip numit Dave Kulp.
+
+00:14:00.000 --> 00:14:02.000
+Şi de ce ai vrea un zmeu de 91 500 cm pătraţi?
+
+00:14:02.000 --> 00:14:04.000
+Deci acesta e un zmeu cât o casă.
+
+00:14:04.000 --> 00:14:08.000
+Şi vrei să tractezi bărci foarte rapid.
+
+00:14:08.000 --> 00:14:11.000
+Am lucrat la asta un pic şi eu,
+
+00:14:11.000 --> 00:14:13.000
+cu încă vreo doi tipi.
+
+00:14:13.000 --> 00:14:15.000
+Dar, stiţi, acesta este un alt mod de a privi --
+
+00:14:15.000 --> 00:14:17.000
+dacă abstractizezi din nou,
+
+00:14:17.000 --> 00:14:21.000
+aceasta este o structură care este definită de fizica universului.
+
+00:14:21.000 --> 00:14:22.000
+Ai putea doar să o atârni ca şi cearşaf de pat,
+
+00:14:22.000 --> 00:14:24.000
+dar din nou, calculul întregii fizici
+
+00:14:24.000 --> 00:14:26.000
+îţi dă forma aerodinamică.
+
+00:14:26.000 --> 00:14:29.000
+Şi astfel aproape că poţi dubla viteza bărcii tale
+
+00:14:29.000 --> 00:14:36.000
+cu sisteme ca acesta. Acesta e cumva un alt aspect interesant al viitorului.
+
+00:14:36.000 --> 00:14:37.000
+(Aplauze)
+

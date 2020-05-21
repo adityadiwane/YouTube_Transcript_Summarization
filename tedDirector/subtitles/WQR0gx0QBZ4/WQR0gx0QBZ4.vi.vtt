@@ -1,0 +1,1175 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Phu Le
+Reviewer: Alice Tran
+
+00:00:25.000 --> 00:00:29.000
+Năm 1962, Charles Van Doren, người mà sau đó là biên tập viên cao cấp của Britannica,
+
+00:00:29.000 --> 00:00:33.000
+nói rằng một bách khoa toàn thư lý tưởng nên thay đổi căn bản -- nó không nên gò bó.
+
+00:00:33.000 --> 00:00:36.000
+Nhưng nếu bạn biết một ít về lịch sử của Britannica sau năm 1962,
+
+00:00:36.000 --> 00:00:38.000
+thì nó không phải là một sự thay đổi căn bản:
+
+00:00:38.000 --> 00:00:43.000
+vẫn hoàn toàn gò bó, vẫn là một loại bách khoa toàn thư nặng nề.
+
+00:00:43.000 --> 00:00:48.000
+Ngược lại, Wikipedia bắt đầu với một ý tưởng rất khác biệt,
+
+00:00:48.000 --> 00:00:50.000
+dành cho tất cả chúng ta để hình dung ra một thế giới
+
+00:00:50.000 --> 00:00:52.000
+mà trong đó mọi cá nhân trên hành tinh này
+
+00:00:52.000 --> 00:00:55.000
+được quyền truy cập không giới hạn đến tất cả nguồn tri thức của nhân loại.
+
+00:00:55.000 --> 00:00:57.000
+Và đó chính là những gì chúng tôi đang làm. Vì vậy, Wikipedia --
+
+00:00:58.000 --> 00:01:00.000
+các bạn đã thấy một ít về nó --
+
+00:01:00.000 --> 00:01:04.000
+nó là một bách khoa toàn thư mở, không cần giấy phép. Nó được viết ra bởi hàng ngàn tình nguyện viên
+
+00:01:04.000 --> 00:01:06.000
+trên toàn thế giới bằng rất rất nhiều ngôn ngữ.
+
+00:01:06.000 --> 00:01:08.000
+Bằng việc sử dụng phần mềm Wiki --
+
+00:01:08.000 --> 00:01:11.000
+phần mềm mà anh ấy vừa trình diễn
+
+00:01:11.000 --> 00:01:13.000
+-- mọi người có thể nhanh chóng biên tập và lưu trữ,
+
+00:01:13.000 --> 00:01:16.000
+và nó lập tức hiện diện trên Internet.
+
+00:01:16.000 --> 00:01:21.000
+và tất cả mọi thứ của Wikipedia được quản lý bởi các nhân viên tình nguyện ảo.
+
+00:01:21.000 --> 00:01:25.000
+Vì vậy, khi Yochai trình bày về một phương pháp tổ chức mới,
+
+00:01:25.000 --> 00:01:29.000
+anh ta đang mô tả chính xác về Wikipedia. Và những gì tôi sẽ làm ngày hôm nay
+
+00:01:29.000 --> 00:01:33.000
+là kể các bạn nghe một ít về cách vận hành bên trong.
+
+00:01:33.000 --> 00:01:38.000
+Wikipedia là một sản phẩm của Wikimedia Foundation, tổ chức do tôi thành lập,
+
+00:01:38.000 --> 00:01:43.000
+một tổ chức phi lợi nhuận. Và mục tiêu của chúng tôi, mục tiêu cốt lõi của Wikimedia Foundation,
+
+00:01:43.000 --> 00:01:46.000
+là mang đến cho mỗi cá nhân trên hành tinh này một bách khoa toàn thư miễn phí.
+
+00:01:46.000 --> 00:01:48.000
+Và nếu các bạn đang băn khoăn về ý nghĩa của nó,
+
+00:01:48.000 --> 00:01:51.000
+thì ý nghĩa của nó không chỉ nằm ở việc xây dựng một website đẹp.
+
+00:01:51.000 --> 00:01:55.000
+Chúng tôi thực sự quan tâm đến các vấn đề về khoảng cách số, nghèo đói,
+
+00:01:55.000 --> 00:01:59.000
+vấn đề trao quyền cho mọi người ở khắp nơi cùng với các thông tin cần thiết
+
+00:01:59.000 --> 00:02:00.000
+để có các quyết định đúng.
+
+00:02:00.000 --> 00:02:04.000
+Vì vậy, chúng tôi đang có rất nhiều việc phải làm chứ không chỉ là Internet.
+
+00:02:04.000 --> 00:02:08.000
+Đó cũng chính là lý do chủ yếu để chúng tôi chọn mô hình không giấy phép,
+
+00:02:08.000 --> 00:02:10.000
+bởi vì điều đó trao quyền cho các thương gia địa phương --
+
+00:02:10.000 --> 00:02:12.000
+hoặc bất kỳ ai mong muốn, có thể nhận nội dung
+
+00:02:12.000 --> 00:02:16.000
+và làm bất cứ điều gì họ muốn -- bạn có thể sao chép, phân phối lại nó
+
+00:02:16.000 --> 00:02:18.000
+và bạn có thể kinh doanh nó hoặc không.
+
+00:02:18.000 --> 00:02:22.000
+Vì vậy Wikipedia đang mang lại rất nhiều cơ hội
+
+00:02:22.000 --> 00:02:24.000
+trên khắp thế giới.
+
+00:02:24.000 --> 00:02:26.000
+Chúng tôi gây quỹ dựa vào sự quyên góp từ công chúng,
+
+00:02:26.000 --> 00:02:29.000
+và một trong những điều thú vị về nó
+
+00:02:29.000 --> 00:02:32.000
+là làm cách nào Wikipedia có thể hoạt động chỉ bằng một ít tiền.
+
+00:02:32.000 --> 00:02:37.000
+Yochai đã cho các bạn thấy biểu đồ về chi phí của một tờ báo in.
+
+00:02:37.000 --> 00:02:41.000
+Tôi sẽ nói cho các bạn biết chi phí của Wikipedia,
+
+00:02:41.000 --> 00:02:43.000
+nhưng trước tiên tôi sẽ cho các bạn biết sự đồ sộ của nó.
+
+00:02:43.000 --> 00:02:47.000
+Chúng ta có hơn 600.000 bài viết bằng tiếng Anh.
+
+00:02:47.000 --> 00:02:51.000
+Chúng ta có tổng cộng 2 triệu bài viết bằng nhiều ngôn ngữ khác nhau.
+
+00:02:51.000 --> 00:02:54.000
+Các ngôn ngữ được sử dụng nhiều nhất gồm Đức, Nhật, Pháp.
+
+00:02:54.000 --> 00:02:58.000
+Hầu hết các ngôn ngữ ở Tây Âu được dùng khá nhiều.
+
+00:02:58.000 --> 00:03:01.000
+Nhưng chỉ 1/3 lưu lượng trên web của chúng ta
+
+00:03:01.000 --> 00:03:03.000
+là tiếng Anh,
+
+00:03:03.000 --> 00:03:05.000
+điều này có thể gây ngạc nhiên cho rất nhiều người.
+
+00:03:05.000 --> 00:03:09.000
+Rất nhiều người nghĩ rằng tiếng Anh là trung tâm của Internet,
+
+00:03:09.000 --> 00:03:12.000
+nhưng đối với chúng tôi, chúng tôi rất đa dạng về ngôn ngữ.
+
+00:03:13.000 --> 00:03:16.000
+Nói về mức độ phổ biến, chúng tôi thuộc trong 50 website hàng đầu
+
+00:03:16.000 --> 00:03:18.000
+chúng tôi được nhiều người biết đến hơn cả New York Times.
+
+00:03:18.000 --> 00:03:22.000
+Chúng ta thử xem một số so sánh của Yochai.
+
+00:03:23.000 --> 00:03:26.000
+Biểu đồ cho thấy sự phát triển của Wikipedia -- Đường màu xanh là chúng tôi --
+
+00:03:26.000 --> 00:03:29.000
+còn New York Time là đường ở kia.
+
+00:03:29.000 --> 00:03:32.000
+Điểm thú vị ở đây là New York Times là một website đồ sộ,
+
+00:03:32.000 --> 00:03:36.000
+số người vận hành nó là -- Tôi không rõ là bao nhiêu, có thể hàng trăm nhân viên.
+
+00:03:36.000 --> 00:03:39.000
+Chúng tôi chỉ có chính xác là 1 nhân viên,
+
+00:03:39.000 --> 00:03:42.000
+và nhân viên này chính là trưởng phát triển phần mềm.
+
+00:03:42.000 --> 00:03:45.000
+Anh ta chỉ mới bắt đầu làm cho chúng tôi sau 01/2005,
+
+00:03:45.000 --> 00:03:47.000
+trước đó chúng tôi tự phát triển lấy.
+
+00:03:47.000 --> 00:03:50.000
+Các máy chủ được quản lý bởi nhóm các tình nguyện viên,
+
+00:03:50.000 --> 00:03:52.000
+tất cả các biên tập do các tình nguyện viên phụ trách.
+
+00:03:52.000 --> 00:03:54.000
+Cách chúng tôi tổ chức
+
+00:03:54.000 --> 00:03:57.000
+là không giống bất kỳ một tổ chức truyền thống nào bạn có thể hình dung.
+
+00:03:57.000 --> 00:03:59.000
+Người ta luôn hỏi rằng, "Vậy ai chịu trách nhiệm?"
+
+00:03:59.000 --> 00:04:04.000
+hoặc "Ai làm?" Và câu trả lời là: bất kỳ ai muốn tham gia.
+
+00:04:04.000 --> 00:04:07.000
+Đây là điều rất khác thường và rắc rối.
+
+00:04:07.000 --> 00:04:10.000
+Hiện tại chúng tôi có hơn 90 máy chủ được đặt ở 3 nơi khác nhau.
+
+00:04:10.000 --> 00:04:14.000
+Chúng được quản lý thông qua Internet bởi các nhà quản trị hệ thống tình nguyện.
+
+00:04:14.000 --> 00:04:17.000
+Tôi có thể trực tuyến bất kỳ lúc nào
+
+00:04:17.000 --> 00:04:21.000
+và nhìn thấy 8 đến 10 người đang đợi tôi
+
+00:04:21.000 --> 00:04:25.000
+để hỏi một câu hỏi hoặc bất cứ điều gì về các máy chủ.
+
+00:04:25.000 --> 00:04:27.000
+Bạn không bao giờ có đủ điều kiện làm được điều này trong một công ty.
+
+00:04:27.000 --> 00:04:31.000
+Không bao giờ có đủ điều kiện để có một nhóm sẵn sàng
+
+00:04:31.000 --> 00:04:35.000
+24 giờ mỗi ngày và làm những gì chúng tôi đang làm ở Wikipedia.
+
+00:04:35.000 --> 00:04:38.000
+Có khoảng 1,4 tỉ lượt người xem mỗi tháng,
+
+00:04:38.000 --> 00:04:41.000
+vì vậy nó thực sự là một việc to lớn
+
+00:04:41.000 --> 00:04:43.000
+Mọi cái là được quản lý bởi các tình nguyện viên.
+
+00:04:43.000 --> 00:04:48.000
+Tổng chi phí hàng tháng cho băng thông là khoảng 5.000$.
+
+00:04:48.000 --> 00:04:50.000
+Đó là chi phí chủ yếu của chúng tôi.
+
+00:04:50.000 --> 00:04:53.000
+Chúng tôi có thể làm được mà không cần nhân viên. Thực ra --
+
+00:04:53.000 --> 00:04:56.000
+chúng tôi đã thuê Brian vì anh ấy đã làm việc bán thời gian 2 năm
+
+00:04:56.000 --> 00:04:58.000
+và toàn thời gian tại Wikipedia,
+
+00:04:58.000 --> 00:05:02.000
+chúng tôi thuê anh ta vì Brian muốn cuộc sống thư thả hơn và thỉnh thoảng có thể đến rạp chiếu phim.
+
+00:05:03.000 --> 00:05:06.000
+Một câu hỏi lớn khi bạn có một tổ chức cực kỳ rắm rối như vậy là,
+
+00:05:06.000 --> 00:05:10.000
+tại sao nó không phải là thứ rác rưởi? Tại sao website lại tốt đến thế?
+
+00:05:10.000 --> 00:05:13.000
+Trước hết, nó tốt như thế nào? Nó khá tốt. Mặc dù nó chưa hoàn hảo,
+
+00:05:13.000 --> 00:05:16.000
+nhưng nó tốt hơn nhiều so với bạn mong đợi,
+
+00:05:16.000 --> 00:05:18.000
+đặc biệt trong mô hình hoàn toàn rối rắm như thế.
+
+00:05:18.000 --> 00:05:21.000
+Khi bạn thấy anh ấy làm trò trên trang web nói về tôi
+
+00:05:21.000 --> 00:05:25.000
+bạn nghĩ, ồ, hiển nhiên nó sẽ trở thành những thứ rác rưởi.
+
+00:05:25.000 --> 00:05:29.000
+Nhưng khi chúng ta nhìn vào việc kiểm tra chất lượng -- mặc dù chưa có nhiều
+
+00:05:29.000 --> 00:05:31.000
+và tôi khuyến khích cộng đồng làm nhiều hơn nữa,
+
+00:05:31.000 --> 00:05:35.000
+so sánh Wikipedia với các thứ truyền thống -- chúng tôi thắng toàn diện.
+
+00:05:35.000 --> 00:05:38.000
+Một tạp chí của Đức so sánh Wikipedia tiếng Đức,
+
+00:05:38.000 --> 00:05:41.000
+vốn rất khiêm tốn so với Wikipedia tiếng Anh,
+
+00:05:41.000 --> 00:05:45.000
+với bách khoa toàn thư của Microsoft và với Brockhaus Multimedia,
+
+00:05:45.000 --> 00:05:47.000
+và chúng tôi lấn lướt hoàn toàn.
+
+00:05:47.000 --> 00:05:50.000
+Họ đã thuê các chuyên gia đến để đọc các bài viết và so sánh chất lượng,
+
+00:05:50.000 --> 00:05:53.000
+và chúng tôi rất hài lòng về kết quả.
+
+00:05:53.000 --> 00:05:57.000
+Nhiều người đã nghe về cuộc tranh luận của Bush và Kerry trên Wikipedia.
+
+00:05:57.000 --> 00:06:01.000
+Đó là một -- báo chí đã đề cập rất nhiều.
+
+00:06:01.000 --> 00:06:04.000
+Bắt đầu với một bài viết trên Red Herring.
+
+00:06:04.000 --> 00:06:07.000
+Các phóng viên chất vấn tôi và ... -- tôi phải nói rằng
+
+00:06:07.000 --> 00:06:12.000
+họ đánh vần đúng tên của tôi, nhưng những gì họ thực sự muốn nói,
+
+00:06:12.000 --> 00:06:14.000
+là cuộc bầu cử giữa Bush và Kerry là dễ gây tranh cãi đến nỗi
+
+00:06:14.000 --> 00:06:18.000
+nó gây chia rẽ trong cộng đồng Wikipedia. Và vì vậy họ trích dẫn tôi,
+
+00:06:18.000 --> 00:06:21.000
+nói rằng, "Cuộc bầu cử giữa Bush-Kerry là gây nhiều tranh cãi nhất trong lịch sử Wikipedia."
+
+00:06:21.000 --> 00:06:23.000
+Nhưng những gì tôi thực sự đã nói là nó hoàn toàn không gây tranh cãi chút nào.
+
+00:06:23.000 --> 00:06:29.000
+Vì vậy đó là một trích dẫn sai. Các bài viết đã được sửa một cách khá nặng nề.
+
+00:06:29.000 --> 00:06:32.000
+Và thực sự là chúng tôi đã phải khoá các bài viết đó trong một vài tình huống.
+
+00:06:32.000 --> 00:06:35.000
+Tạp chí Time gần đây đã tường trình rằng
+
+00:06:35.000 --> 00:06:38.000
+"Đôi khi phải có hành động cực đoan,
+
+00:06:38.000 --> 00:06:43.000
+và Wales đã khoá các bài về Kerry và Bush trong gần như toàn bộ năm 2004."
+
+00:06:43.000 --> 00:06:47.000
+Điều đó xảy ra sau khi tôi đã nói với các phóng viên rằng chúng tôi phải khoá nó --
+
+00:06:47.000 --> 00:06:49.000
+một ít chỗ này và chỗ kia trong một vài tình huống.
+
+00:06:49.000 --> 00:06:52.000
+Nói chung, sự thật là những loại tranh luận
+
+00:06:52.000 --> 00:06:56.000
+mà bạn nghĩ là có thế có trong cộng đồng Wikipedia
+
+00:06:56.000 --> 00:06:58.000
+là hoàn toàn không phải tranh luận.
+
+00:06:58.000 --> 00:07:01.000
+Các bài viết về các chủ đề gây tranh luận đã được biên tập rất nhiều,
+
+00:07:01.000 --> 00:07:04.000
+nhưng chúng không gây tranh luận trong công đồng.
+
+00:07:04.000 --> 00:07:09.000
+Và lý do cho điều đó là phần lớn mọi người hiểu sự cần thiết của tính trung lập.
+
+00:07:11.000 --> 00:07:15.000
+Cuộc đấu tranh thực sự không phải giữa phe bảo thủ và phe cấp tiến --
+
+00:07:15.000 --> 00:07:17.000
+như mọi người thường nghĩ --
+
+00:07:17.000 --> 00:07:20.000
+mà là giữa những người vì cộng đồng và những nhóm ích kỷ.
+
+00:07:20.000 --> 00:07:24.000
+Và không phe chính trị nào áp đảo trên 1 trong 2 tính chất đó.
+
+00:07:24.000 --> 00:07:28.000
+Sự thật về vấn đề Bush-Kerry
+
+00:07:28.000 --> 00:07:30.000
+là các bài viết đó
+
+00:07:30.000 --> 00:07:33.000
+đã bị khoá ít hơn 1% trong năm 2004,
+
+00:07:33.000 --> 00:07:35.000
+không phải vì chúng dễ gây tranh cãi;
+
+00:07:35.000 --> 00:07:38.000
+mà chỉ vì có một mưu đồ thường trực --
+
+00:07:38.000 --> 00:07:42.000
+mà thỉnh thoảng xuất hiện thậm chí chỉ trên sân khấu --
+
+00:07:42.000 --> 00:07:45.000
+đôi lúc các phóng viên đã nói với tôi rằng họ có chủ ý phá hoại Wikipedia
+
+00:07:45.000 --> 00:07:48.000
+và ngạc nhiên khi thấy nó được sửa chữa rất nhanh chóng.
+
+00:07:48.000 --> 00:07:52.000
+Như tôi đã nói -- Tôi luôn nói rằng, làm ơn đừng làm như vậy, điều đó không tốt.
+
+00:07:52.000 --> 00:07:54.000
+Làm sao chúng tôi có thể làm điều đó?
+
+00:07:54.000 --> 00:07:56.000
+Làm sao chúng tôi quản lý được việc kiểm soát chất lượng?
+
+00:07:56.000 --> 00:07:59.000
+Nó làm việc như thế nào?
+
+00:07:59.000 --> 00:08:02.000
+Có một vài điều,
+
+00:08:02.000 --> 00:08:05.000
+phần lớn chính sách xã hội và một số thành phần của phần mềm.
+
+00:08:05.000 --> 00:08:09.000
+Vì vậy điều quan trọng nhất là quan điểm trung lập chính trị của chúng ta.
+
+00:08:09.000 --> 00:08:12.000
+Đó là điều tôi đã xác định từ ban đầu,
+
+00:08:12.000 --> 00:08:16.000
+như là một nguyên tắc căn bản của cộng đồng và hoàn toàn không phải bàn cãi.
+
+00:08:16.000 --> 00:08:19.000
+Đó là khái niệm xã hội của sự cộng tác,
+
+00:08:19.000 --> 00:08:23.000
+vì thế chúng ta đừng nói nhiều về lẽ phải và tính khách quan.
+
+00:08:23.000 --> 00:08:27.000
+Vì nếu chúng ta cứ khăng khăng nói rằng chúng ta đang viết về sự thật,
+
+00:08:27.000 --> 00:08:30.000
+thì điều đó có nghĩa là chúng ta sẽ không viết được gì cả,
+
+00:08:30.000 --> 00:08:32.000
+bởi vì tôi và bạn có quan điểm khác nhau về sự thật.
+
+00:08:32.000 --> 00:08:35.000
+Nhưng chúng ta có tiếng nói chung về tính trung lập,
+
+00:08:35.000 --> 00:08:37.000
+vốn có một lịch sử lâu dài trong cộng đồng Wikipedia,
+
+00:08:37.000 --> 00:08:41.000
+và về cơ bản, bất kỳ lúc nào có một vấn đề gây tranh luận,
+
+00:08:41.000 --> 00:08:44.000
+Bản thân Wikipedia sẽ không có lập trường về vấn đề đó.
+
+00:08:44.000 --> 00:08:47.000
+Chúng tôi hầu như không đề cập rằng có các bên danh tiếng đã nói về nó.
+
+00:08:47.000 --> 00:08:50.000
+Vì vậy, chính sách trung lập là rất quan trọng đối với chúng tôi,
+
+00:08:50.000 --> 00:08:54.000
+vì nó cổ vũ sự đa dạng trong cộng đồng
+
+00:08:54.000 --> 00:08:56.000
+để cùng nhau hoàn thành mục tiêu.
+
+00:08:56.000 --> 00:08:59.000
+Vì thế nền tảng của những cộng tác viên là rất đa dạng, từ chính trị, tôn giáo,
+
+00:08:59.000 --> 00:09:01.000
+và văn hoá.
+
+00:09:01.000 --> 00:09:03.000
+Bởi nhất quán trong chính sách trung lập,
+
+00:09:03.000 --> 00:09:05.000
+vốn không phải bàn cãi ngay từ đầu,
+
+00:09:05.000 --> 00:09:07.000
+chúng tôi đảm bảo mọi người có thể làm việc cùng nhau
+
+00:09:07.000 --> 00:09:09.000
+và các bài viết sẽ không thể trở thành một cuộc chiến
+
+00:09:09.000 --> 00:09:12.000
+qua lại giữa các bên.
+
+00:09:12.000 --> 00:09:14.000
+Nếu bạn dính líu tới điều hành vi đó,
+
+00:09:14.000 --> 00:09:16.000
+các bạn sẽ phải ra khỏi cộng đồng.
+
+00:09:17.000 --> 00:09:19.000
+Nói về sự đánh giá ngang hàng và có tính tức thì.
+
+00:09:19.000 --> 00:09:22.000
+Mỗi một sự thay đổi trên website sẽ được lưu trữ vào một trang có trạng thái 'vừa được thay đổi'
+
+00:09:22.000 --> 00:09:25.000
+Vì thế nếu anh ta chỉnh sửa, nó sẽ lập tức dẫn tới trang 'vừa được thay đổi'.
+
+00:09:25.000 --> 00:09:29.000
+Trang 'vừa được thay đổi' cũng sẽ được đưa vào kênh IRC,
+
+00:09:29.000 --> 00:09:31.000
+đó là một kênh trao đổi trên Internet
+
+00:09:31.000 --> 00:09:33.000
+mà mọi người có thể giám sát với các công cụ phần mềm khác nhau.
+
+00:09:35.000 --> 00:09:37.000
+Và mọi người có thể sử dụng RSS --
+
+00:09:37.000 --> 00:09:40.000
+họ có thể nhận được email thông báo về sự thay đổi.
+
+00:09:40.000 --> 00:09:42.000
+Người sử dụng cũng có thể thiết lập danh sách mà họ cần giám sát.
+
+00:09:42.000 --> 00:09:45.000
+Ví dụ trang của tôi nằm trong danh sách giám sát của một số tình nguyện viên,
+
+00:09:45.000 --> 00:09:47.000
+vì nó thỉnh thoảng bị phá hoại.
+
+00:09:49.000 --> 00:09:53.000
+Nên mọi người sẽ nhanh chóng nhận được thông báo về sự thay đổi,
+
+00:09:53.000 --> 00:09:57.000
+rồi sau đó họ chỉ đơn giản là huỷ bỏ sự thay đổi đó.
+
+00:09:57.000 --> 00:09:59.000
+Ví dụ bạn muốn giám sát một số trang mới tạo ra
+
+00:09:59.000 --> 00:10:01.000
+bạn có thể vào một số trang nhất định trên Wikipedia
+
+00:10:01.000 --> 00:10:03.000
+và nhìn thấy các trang mới được tạo ra.
+
+00:10:03.000 --> 00:10:05.000
+Điều này rất quan trọng, bởi vì có rất nhiều trang vừa mới được tạo ra
+
+00:10:05.000 --> 00:10:08.000
+chỉ là những thứ rác cần được xoá bỏ, ví dụ ASDFASDF.
+
+00:10:08.000 --> 00:10:11.000
+Tuy vậy cũng có một điều thú vị trên Wikipedia,
+
+00:10:11.000 --> 00:10:13.000
+về một số bài viết mới.
+
+00:10:13.000 --> 00:10:15.000
+Có người bắt đầu một bài viết về một số chủ đề thú vị nào đó,
+
+00:10:15.000 --> 00:10:17.000
+một số người khác tìm thấy và tò mò
+
+00:10:17.000 --> 00:10:19.000
+rồi họ nhảy vào giúp cho bài viết tốt hơn.
+
+00:10:19.000 --> 00:10:21.000
+Một số bài viết được biên tập bởi các người sử dụng nặc danh,
+
+00:10:21.000 --> 00:10:25.000
+đây là một trong những điều dễ gây tranh luận và tò mò nhất trên Wikipedia.
+
+00:10:25.000 --> 00:10:29.000
+Ví dụ Chris có thể chỉnh sửa -- anh ta không cần phải đăng nhập,
+
+00:10:29.000 --> 00:10:32.000
+anh ta chỉ vào website và thay đổi một bài nào đó.
+
+00:10:32.000 --> 00:10:35.000
+Nhưng hoá ra chỉ có khoảng 18% các chỉnh sửa
+
+00:10:35.000 --> 00:10:37.000
+là được thực hiện bởi các người sử dụng nặc danh.
+
+00:10:37.000 --> 00:10:39.000
+Và chúng ta cần hiểu điều cực kỳ quan trọng này,
+
+00:10:39.000 --> 00:10:42.000
+phần lớn các chỉnh sửa liên tiếp trên website
+
+00:10:42.000 --> 00:10:46.000
+là được thực hiện bởi một cộng đồng rất chặt chẽ vào khoảng 600-1000 thành viên
+
+00:10:46.000 --> 00:10:48.000
+những người trong một cộng đồng ít biến động.
+
+00:10:48.000 --> 00:10:50.000
+Họ có trên 40 kênh IRC và 40 danh sách email.
+
+00:10:50.000 --> 00:10:54.000
+Tất cả mọi người quen biết nhau. Họ liên lạc và gặp gỡ nhau.
+
+00:10:54.000 --> 00:10:56.000
+Những người này thực hiện phần lớn khối lượng công việc,
+
+00:10:56.000 --> 00:11:01.000
+và những công việc họ đang làm là bán chuyên nghiệp,
+
+00:11:01.000 --> 00:11:05.000
+những tiêu chuẩn chất lượng họ đặt ra là bằng hoặc lớn hơn
+
+00:11:05.000 --> 00:11:07.000
+các tiêu chuẩn chuyên nghiệp.
+
+00:11:07.000 --> 00:11:09.000
+Chúng tôi không phải khi nào cũng đạt được các tiêu chuẩn đó,
+
+00:11:09.000 --> 00:11:11.000
+nhưng đó là điều chúng tôi hướng tới.
+
+00:11:11.000 --> 00:11:14.000
+Vậy trong cộng đồng chặt chẽ đó, ai là người thực sự chăm nom,
+
+00:11:14.000 --> 00:11:16.000
+đó là những người thông minh nhất mà tôi từng gặp.
+
+00:11:16.000 --> 00:11:18.000
+Dĩ nhiên, nghề nghiệp bắt buộc tôi phải nói như vậy, nhưng đó là sự thật.
+
+00:11:18.000 --> 00:11:22.000
+Những người được lôi kéo vào tham gia viết cho một bách khoa toàn thư
+
+00:11:22.000 --> 00:11:24.000
+thường là những người khá thông minh.
+
+00:11:25.000 --> 00:11:27.000
+Nói về công cụ và phần mềm, có rất nhiều công cụ cho phép chúng tôi --
+
+00:11:27.000 --> 00:11:31.000
+cho phép cộng đồng -- tự giám sát và giám sát tất cả công việc.
+
+00:11:31.000 --> 00:11:33.000
+Đây là một ví dụ của sự thay đổi trong một trang nói về quả địa cầu dẹt,
+
+00:11:33.000 --> 00:11:36.000
+và bạn có thể thấy một số thay đổi đã được tạo ra.
+
+00:11:36.000 --> 00:11:39.000
+Trang này cũng thú vị và bạn có thể ngay lập tức nhìn
+
+00:11:39.000 --> 00:11:41.000
+và nói, ồ rất tốt, bây giờ thì tôi đã hiểu.
+
+00:11:41.000 --> 00:11:44.000
+Khi một người vào xem -- họ sẽ thấy một ai đó,
+
+00:11:44.000 --> 00:11:46.000
+một địa chỉ IP nặc danh, đang chỉnh sửa trang của mình --
+
+00:11:46.000 --> 00:11:49.000
+điều này có vẻ khả nghi -- anh ta là ai? Một số người khác cũng nhìn vào trang đó,
+
+00:11:49.000 --> 00:11:53.000
+họ lập tức thấy các thay đổi được làm nổi bật bằng màu đỏ,
+
+00:11:53.000 --> 00:11:57.000
+chờ xem, rồi, những chữ đó đã được sửa, giống như vậy đấy.
+
+00:11:57.000 --> 00:12:02.000
+Đó là một công cụ mà chúng ta có thể sử dụng để nhanh chóng giám sát sự thay đổi của trang.
+
+00:12:02.000 --> 00:12:05.000
+Chúng ta có thể làm những điều khác trong phạm vi của cộng đồng
+
+00:12:05.000 --> 00:12:08.000
+đó là chúng ta để một kết thúc mở ở mọi bài viết.
+
+00:12:08.000 --> 00:12:12.000
+Phần lớn các nguyên tắc xã hội và phương pháp làm việc
+
+00:12:12.000 --> 00:12:14.000
+là để lại một kết thúc hoàn toàn mở trên Wikipedia.
+
+00:12:14.000 --> 00:12:16.000
+Tất cả những thứ này là chỉ có trên Wikipedia.
+
+00:12:16.000 --> 00:12:19.000
+Và các quy định hoàn toàn không liên quan đến phần mềm.
+
+00:12:19.000 --> 00:12:22.000
+Tôi lấy một ví dụ về trang 'Bỏ phiếu để xoá bỏ.'
+
+00:12:23.000 --> 00:12:26.000
+Như tôi đã nói trước đó, có người đánh vào ASDFASDF --
+
+00:12:26.000 --> 00:12:29.000
+nó cần được xoá bỏ. Trong trường hợp này, người quản trị chỉ cần xoá bỏ nó.
+
+00:12:29.000 --> 00:12:31.000
+Không có lý do gì để bàn cãi về điều này.
+
+00:12:31.000 --> 00:12:35.000
+Tuy nhiên bạn có thể hình dung rằng có rất nhiều khu vực khác gây ra sự hoài nghi,
+
+00:12:35.000 --> 00:12:37.000
+là liệu nó xứng đáng được đưa vào bách khoa toàn thư?
+
+00:12:37.000 --> 00:12:41.000
+Thông tin này có thể kiểm chứng? Nó có là trò lừa? Nó có chính xác? Nó là cái gì?
+
+00:12:41.000 --> 00:12:44.000
+Vì vậy chúng tôi cần một phương pháp xã hội để trả lời câu hỏi này.
+
+00:12:44.000 --> 00:12:47.000
+Phương pháp đã phát sinh một cách tự nhiên trong cộng đồng
+
+00:12:47.000 --> 00:12:49.000
+là trang 'Bỏ phiếu để xoá bỏ'.
+
+00:12:49.000 --> 00:12:51.000
+Trong một ví dụ cụ thể mà chúng tôi có ở đây, liên quan một bộ phim,
+
+00:12:51.000 --> 00:12:53.000
+"Twisted Issues," và người thứ nhất nói,
+
+00:12:53.000 --> 00:12:57.000
+"Cứ cho đó là một bộ phim có thật đi. Kiểm tra Google sẽ sai."
+
+00:12:57.000 --> 00:13:00.000
+Kiểm tra Google là bạn sử dụng Google để tìm kiếm,
+
+00:13:00.000 --> 00:13:04.000
+bởi vì nếu Google không tìm thấy, rất có thể nó không tồn tại.
+
+00:13:04.000 --> 00:13:08.000
+Đó không phải là một quy luật hoàn toàn đúng, nhưng cũng phù hợp khi muốn nghiên cứu nhanh.
+
+00:13:09.000 --> 00:13:12.000
+Rồi một ai đó nói, "Làm ơn xoá nó. Nó không đáng chú ý."
+
+00:13:12.000 --> 00:13:14.000
+Lại có người khác nói, "Đợi, đợi đã. Tôi đã tìm thấy.
+
+00:13:14.000 --> 00:13:16.000
+Tôi đã tìm thấy nó trong một cuốn sách, 'Film Threat Video Guide:
+
+00:13:16.000 --> 00:13:18.000
+the 20 Undergound Films You Must See."
+
+00:13:18.000 --> 00:13:20.000
+Ồ, được rồi. Người tiếp theo lại nói, "Xoá nó đi."
+
+00:13:20.000 --> 00:13:24.000
+Người khác lại nói, "Tôi đã tìm thấy nó trên IMDB. Giữ lại, giữ lại."
+
+00:13:24.000 --> 00:13:27.000
+Và điều thú vị về nó là --
+
+00:13:27.000 --> 00:13:30.000
+sự bỏ phiếu thực ra là -- họ chỉ nhập ý kiến của họ vào website.
+
+00:13:30.000 --> 00:13:35.000
+Đây không phải là một cuộc bỏ phiếu đúng nghĩa mà là một cuộc đàm thoại.
+
+00:13:35.000 --> 00:13:37.000
+Sự thật là đến cuối ngày
+
+00:13:37.000 --> 00:13:40.000
+một người quản trị kiểm tra và nói,
+
+00:13:40.000 --> 00:13:43.000
+Được rồi, 18 đề nghị xoá, 2 yêu cầu giữ, nên chúng tôi sẽ xoá nó.
+
+00:13:43.000 --> 00:13:48.000
+Nhưng trong một số trường hợp khác, mặc dù có 18 đề nghị xoá và 2 giữ, chúng tôi vẫn giữ lại nó,
+
+00:13:48.000 --> 00:13:50.000
+bởi vì nếu 2 người sau cùng cứ nói, "Đợi một chút, đợi một chút.
+
+00:13:50.000 --> 00:13:52.000
+Không ai nhìn thấy nhưng tôi đã tìm thấy nó trong một cuốn sách,
+
+00:13:52.000 --> 00:13:56.000
+và tôi đã tìm thấy một liên kết đến một trang có mô tả nó, và tôi sẽ xoá nó ngày mai,
+
+00:13:56.000 --> 00:13:59.000
+vì vậy làm ơn đừng xoá nó," sau đó nó vẫn được giữ lại.
+
+00:13:59.000 --> 00:14:01.000
+và vì thế người bầu chọn cũng quan trọng.
+
+00:14:01.000 --> 00:14:03.000
+Như tôi nói, đó là một cộng đồng chặt chẽ.
+
+00:14:03.000 --> 00:14:05.000
+Ở phía dưới cùng, "Giữ, phim này có thật," Rick Kay.
+
+00:14:05.000 --> 00:14:08.000
+Rick Kay là một thành viên của Wikipedia rất nổi tiếng
+
+00:14:08.000 --> 00:14:11.000
+người có nhiều đóng góp trong việc bảo vệ sự phá hoại, trò lừa đảo
+
+00:14:11.000 --> 00:14:13.000
+và bỏ phiếu để xoá.
+
+00:14:13.000 --> 00:14:16.000
+Tiếng nói của anh ấy rất có trọng lượng đối với cộng đồng
+
+00:14:16.000 --> 00:14:18.000
+vì anh ấy biết những gì anh ấy đang làm.
+
+00:14:18.000 --> 00:14:20.000
+Về câu hỏi làm sao quản lý mọi thứ?
+
+00:14:20.000 --> 00:14:24.000
+Mọi người rất muốn biết về cách quản trị hoặc những điều tương tự như vậy.
+
+00:14:24.000 --> 00:14:28.000
+Mô hình quản trị Wikipeida, sự quản lý cộng đồng,
+
+00:14:28.000 --> 00:14:32.000
+là rất rối rắm, nhưng là một hỗn hợp về đồng thuận có thể giải quyết được --
+
+00:14:32.000 --> 00:14:34.000
+nghĩa là chúng ta cố gắng không biểu quyết về nội dung của bài viết,
+
+00:14:34.000 --> 00:14:38.000
+bởi vì quan điểm số đông không lúc nào cũng trung lập.
+
+00:14:38.000 --> 00:14:40.000
+Một chút về tính dân chủ, tất cả các quản trị viên --
+
+00:14:40.000 --> 00:14:43.000
+đó là những thành viên có thể xoá các trang,
+
+00:14:43.000 --> 00:14:45.000
+điều này không có nghĩa là họ có quyền xoá,
+
+00:14:45.000 --> 00:14:48.000
+họ vẫn phải tuân thủ tất cả các quy định - nhưng họ được bầu chọn,
+
+00:14:48.000 --> 00:14:50.000
+họ được bầu chọn bởi cộng đồng. Đôi khi có người --
+
+00:14:50.000 --> 00:14:54.000
+tìm kiếm ngẫu nhiên trên Internet -- buộc tội tôi là chọn các quản trị viên
+
+00:14:54.000 --> 00:14:56.000
+để thiên vị các nội dung trên bách khoa toàn thư.
+
+00:14:56.000 --> 00:15:00.000
+Tôi luôn cười vào điều này, bởi vì tôi thực sự không hề biết làm sao họ được chọn.
+
+00:15:00.000 --> 00:15:02.000
+Có một số người có những đặc quyền.
+
+00:15:02.000 --> 00:15:05.000
+Và chắc các bạn cũng có manh mối khi tôi đã đề cập ở trước, như là,
+
+00:15:05.000 --> 00:15:08.000
+Tiếng nói của Rick Kay có trọng lượng hơn một số người khác.
+
+00:15:08.000 --> 00:15:12.000
+Tôi thỉnh thoảng nói điều này với Angela, người vừa tái trúng cử
+
+00:15:12.000 --> 00:15:15.000
+vào Ban sáng lập do cộng đồng bầu chọn,
+
+00:15:15.000 --> 00:15:19.000
+với số phiếu gấp 2 lần so với người không được chọn.
+
+00:15:19.000 --> 00:15:23.000
+Tôi luôn trêu chọc cô ấy bởi vì, lấy ví dụ Angela,
+
+00:15:23.000 --> 00:15:26.000
+cô ấy hoàn toàn có thể làm những điều sai mà vẫn thoát được trong phạm vi Wikipedia,
+
+00:15:26.000 --> 00:15:28.000
+bởi vì cô ấy rất quyền lực và được ngưỡng mộ.
+
+00:15:28.000 --> 00:15:32.000
+Sẽ là nghịch lý nếu Angela làm điều đó vì cô ấy là người
+
+00:15:32.000 --> 00:15:35.000
+các bạn biết đấy, không bao giờ vi phạm bất kỳ quy định nào của Wikipedia.
+
+00:15:35.000 --> 00:15:38.000
+Và tôi cũng muốn nói rằng cô ấy là người duy nhất
+
+00:15:38.000 --> 00:15:41.000
+thực sự biết tất cả các quy định của Wikipedia,
+
+00:15:41.000 --> 00:15:45.000
+có một sự chuyên chế và đó là vai trò của tôi đối với cộng đồng.
+
+00:15:46.000 --> 00:15:51.000
+Tôi đã nói điều này một lần tại Berlin và ngày hôm sau, trong một tờ báo
+
+00:15:51.000 --> 00:15:54.000
+có dòng tít chạy "Tôi là nữ hoàng của vương quốc Anh."
+
+00:15:54.000 --> 00:15:57.000
+Đó không phải là điều tôi đã nói, nhưng --
+
+00:15:59.000 --> 00:16:01.000
+vấn đề là vai trò của tôi trong cộng đồng --
+
+00:16:01.000 --> 00:16:04.000
+trong thế giới phần mềm miễn phí --
+
+00:16:04.000 --> 00:16:09.000
+Có một truyền thống có từ lâu đời về mô hình độc tài nhân từ.
+
+00:16:09.000 --> 00:16:12.000
+Vì vậy, nếu các bạn biết phần lớn các dự án phần mềm miễn phí,
+
+00:16:12.000 --> 00:16:14.000
+chỉ có một người duy nhất phụ trách
+
+00:16:14.000 --> 00:16:17.000
+mọi người đều đồng ý đó là kẻ độc tài nhân từ.
+
+00:16:17.000 --> 00:16:20.000
+Tôi không thích thuật ngữ kẻ độc tài nhân từ,
+
+00:16:20.000 --> 00:16:23.000
+và tôi không nghĩ rằng đó là nghề hay là vai trò của tôi trong thế giới của những ý tưởng
+
+00:16:23.000 --> 00:16:28.000
+để trở thành kẻ độc tài đối với tri thức nhân loại.
+
+00:16:28.000 --> 00:16:30.000
+Điều đó không phù hợp.
+
+00:16:30.000 --> 00:16:33.000
+Tuy vậy, vẫn có những nhu cầu nhất định về một mô hình quân chủ,
+
+00:16:33.000 --> 00:16:36.000
+một lượng nhất định của -- thỉnh thoảng chúng ta phải quyết định một điều gì,
+
+00:16:36.000 --> 00:16:39.000
+và chúng ta không muốn quá sa đà
+
+00:16:39.000 --> 00:16:41.000
+vào quá trình ra quyết định một cách hình thức.
+
+00:16:41.000 --> 00:16:45.000
+Tôi lấy một ví dụ để lý giải tại sao --
+
+00:16:45.000 --> 00:16:47.000
+hay làm sao điều này là quan trọng,
+
+00:16:47.000 --> 00:16:50.000
+gần đây một website theo chủ nghĩa phát xít khám phá Wikipedia,
+
+00:16:50.000 --> 00:16:55.000
+và họ nói, "Thật kinh tởm, một âm mưu của người Do Thái
+
+00:16:55.000 --> 00:16:58.000
+và chúng ta sẽ xoá một số bài viết mà chúng ta không thích.
+
+00:16:58.000 --> 00:17:00.000
+Và chúng ta biết Wikipedia có một quy trình bỏ phiếu, vì thế chúng ta sẽ gửi --
+
+00:17:00.000 --> 00:17:04.000
+chúng ta có 40.000 thành viên và chúng ta sẽ đề nghị họ
+
+00:17:04.000 --> 00:17:06.000
+và họ sẽ bỏ phiếu để yêu cầu xoá các trang đó."
+
+00:17:06.000 --> 00:17:09.000
+Rồi, họ sắp xếp 18 người sẽ thực hiện.
+
+00:17:09.000 --> 00:17:11.000
+Đó là một phép toán của phát xít.
+
+00:17:11.000 --> 00:17:14.000
+Bọn họ nghĩ rằng họ có đến 40.000 thành viên nhưng thực ra chỉ là 18.
+
+00:17:14.000 --> 00:17:19.000
+Nhưng bọn họ đã sắp xếp 18 người đến và bỏ phiếu theo cách khá lố bịch
+
+00:17:19.000 --> 00:17:21.000
+để xoá bỏ một bài viết hoàn toàn hợp lệ.
+
+00:17:21.000 --> 00:17:24.000
+Dĩ nhiên, kết quả bỏ phiếu là 85-18,
+
+00:17:24.000 --> 00:17:27.000
+do vậy không có nguy hiểm thực sự nào đối với quy trình dân chủ của chúng ta.
+
+00:17:27.000 --> 00:17:30.000
+Mặt khác, có người nói, "Chúng ta sẽ làm gì?
+
+00:17:30.000 --> 00:17:34.000
+Ý tôi là điều gì xảy ra nếu một nhóm nào đó được tổ chức rất nghiêm túc
+
+00:17:34.000 --> 00:17:36.000
+và đến để yêu cầu bỏ phiếu?"
+
+00:17:36.000 --> 00:17:39.000
+Thì tôi sẽ nói, "Mẹ kiếp, chúng tôi sẽ thay đổi quy định."
+
+00:17:39.000 --> 00:17:44.000
+Đó là công việc của tôi trong cộng đồng: để nói rằng chúng ta sẽ không cho phép lợi dụng sự cởi mở
+
+00:17:44.000 --> 00:17:47.000
+và tự do để phá hoại chất lượng của các nội dung.
+
+00:17:47.000 --> 00:17:50.000
+Và chừng nào mọi người còn tin tôi,
+
+00:17:50.000 --> 00:17:52.000
+thì tôi vẫn hợp lệ.
+
+00:17:52.000 --> 00:17:56.000
+Dĩ nhiên, vì mô hình không cần giấy phép, nên nếu tôi làm điều gì xấu,
+
+00:17:56.000 --> 00:17:58.000
+các tình nguyện viên sẽ sẵn sàng rời bỏ --
+
+00:17:58.000 --> 00:18:00.000
+Tôi không thể làm gì hơn.
+
+00:18:00.000 --> 00:18:04.000
+Điểm cuối cùng ở đây là để hiểu cách Wikipedia hoạt động,
+
+00:18:04.000 --> 00:18:08.000
+thì cần phải hiểu rằng mô hình Wiki là cách chúng ta làm việc,
+
+00:18:08.000 --> 00:18:12.000
+nhưng chúng ta không phải là những kẻ vô chính phủ cuồng tín. Thực ra, --
+
+00:18:12.000 --> 00:18:15.000
+chúng ta rất linh hoạt về phương pháp luận xã hội,
+
+00:18:15.000 --> 00:18:19.000
+bởi vì suy cho cùng chất lượng công việc sẽ được cộng đồng thừa nhận,
+
+00:18:19.000 --> 00:18:23.000
+chứ không phải là quy trình mà chúng ta sử dụng để tạo ra nó.
+
+00:18:23.000 --> 00:18:25.000
+Xin cảm ơn.
+
+00:18:25.000 --> 00:18:28.000
+(Vỗ tay tán dương)
+
+00:18:28.000 --> 00:18:30.000
+Ben Saunders: Xin chào, tôi là Ben Saunders.
+
+00:18:30.000 --> 00:18:34.000
+Jimmy, ông đã đề cập chưa hết chìa khoá để Wikipedia thành công.
+
+00:18:34.000 --> 00:18:38.000
+Tôi nhận ra rằng rất nhiều sách giáo khoa
+
+00:18:38.000 --> 00:18:41.000
+được sử dụng để dạy cho con trẻ chúng ta vốn là đã thiên vị.
+
+00:18:41.000 --> 00:18:45.000
+Ông có biết là các giáo viên sử dụng Wikipedia
+
+00:18:45.000 --> 00:18:47.000
+và theo ông thì Wikipedia đóng vai trò gì trong sự thay đổi giáo dục?
+
+00:18:47.000 --> 00:18:52.000
+Jimmy Wales: Vâng, rất nhiều giáo viên đang bắt đầu sử dụng Wikipedia. Mặt khác --
+
+00:18:52.000 --> 00:18:56.000
+có những tình tiết của giới truyền thông về Wikipedia mà tôi nghĩ là sai.
+
+00:18:56.000 --> 00:18:59.000
+Nó dựa trên những tình tiết của các bloggers đối lập với báo chí.
+
+00:18:59.000 --> 00:19:03.000
+Nào, Wikipedia là một thứ "điên rồ",
+
+00:19:03.000 --> 00:19:09.000
+giới học thuật và các giáo viên căm ghét nó. Nhưng thực ra thì điều đó không đúng.
+
+00:19:09.000 --> 00:19:11.000
+Gần đây tôi có nhận được một email của một nhà báo, nói rằng,
+
+00:19:11.000 --> 00:19:13.000
+"Tại sao giới hàn lâm ghét Wikipedia?"
+
+00:19:13.000 --> 00:19:15.000
+Tôi sử dụng một địa chỉ email của trường Harvard để trả lời,
+
+00:19:15.000 --> 00:19:17.000
+bởi vì tôi vừa được bổ nhiệm là một uỷ viên ở đó.
+
+00:19:17.000 --> 00:19:20.000
+Và tôi nói, "Thực ra không phải tất cả họ đều ghét."
+
+00:19:20.000 --> 00:19:23.000
+Nhưng tôi nghĩ có một tác động rất lớn.
+
+00:19:23.000 --> 00:19:25.000
+Và thực ra chúng tôi đang có một dự án
+
+00:19:25.000 --> 00:19:27.000
+và cá nhân tôi rất thích thú,
+
+00:19:27.000 --> 00:19:29.000
+đó là dự án sách Wiki,
+
+00:19:29.000 --> 00:19:31.000
+như là một nỗ lực để tạo ra các sách giáo khoa trong tất cả các ngôn ngữ.
+
+00:19:31.000 --> 00:19:33.000
+Và đó là một dự án rất lớn;
+
+00:19:33.000 --> 00:19:37.000
+nó sẽ phải mất khoảng 20 năm để có thể sử dụng được.
+
+00:19:37.000 --> 00:19:39.000
+Nhưng đó là một phần sứ mệnh của chúng tôi
+
+00:19:39.000 --> 00:19:42.000
+mang đến tất cả mọi người trên hành tinh này một bách khoa toàn thư.
+
+00:19:42.000 --> 00:19:45.000
+Chúng tôi sẽ không cung cấp tràn lan với những đĩa CD kiểu AOL.
+
+00:19:45.000 --> 00:19:48.000
+Chúng tôi dự định là mang đến họ một công cụ mà họ có thể sử dụng.
+
+00:19:48.000 --> 00:19:50.000
+Và dành cho rất nhiều người trên thế giới,
+
+00:19:50.000 --> 00:19:52.000
+nếu tôi đưa cho chọn một bách khoa toàn thư được viết ở mức độ đại học,
+
+00:19:52.000 --> 00:19:54.000
+nó sẽ không có một hiệu quả nào cả
+
+00:19:54.000 --> 00:19:56.000
+nếu thiếu những tài liệu ở mức cơ bản
+
+00:19:56.000 --> 00:19:58.000
+để nâng bạn lên một mức độ nào đó mà bạn có thể sử dụng được nó.
+
+00:19:58.000 --> 00:20:01.000
+Và chính vì thế dự án sách Wiki là một nỗ lực để làm điều đó.
+
+00:20:01.000 --> 00:20:03.000
+Và tôi nghĩ rằng chúng ta sẽ thực sự thấy một công trình đồ sộ --
+
+00:20:03.000 --> 00:20:04.000
+nó không chỉ đến từ phía chúng tôi,
+
+00:20:04.000 --> 00:20:06.000
+tất cả các loại sáng kiến đang tiếp tục.
+
+00:20:06.000 --> 00:20:10.000
+Nhưng những cuốn sách giáo khoa miễn giấy phép sẽ là một sự kiện lớn tiếp theo trong lĩn vực giáo dục.
+

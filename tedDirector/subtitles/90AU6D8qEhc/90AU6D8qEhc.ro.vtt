@@ -1,0 +1,404 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Communication Lab ...
+Corector: Valentin Petrea
+
+00:00:18.330 --> 00:00:21.330
+Una dintre cele mai mari provocări în domeniul graficii pe calculator
+
+00:00:21.330 --> 00:00:23.330
+este capacitatea de a crea
+
+00:00:23.330 --> 00:00:25.330
+o fizionomie umană digitală fotorealistă.
+
+00:00:25.330 --> 00:00:28.330
+Unul dintre motivele pentru care este un lucru atât de dificil este faptul că, spre deosebire de extratereştri şi dinozauri,
+
+00:00:28.330 --> 00:00:31.330
+fizionomiile umane sunt ceva ce vedem în fiecare zi.
+
+00:00:31.330 --> 00:00:33.330
+Fizionomiile sunt foarte importante pentru felul în care comunicăm între noi.
+
+00:00:33.330 --> 00:00:36.330
+În consecinţă, suntem sensibili la cele mai subtile imperfecţiuni
+
+00:00:36.330 --> 00:00:38.330
+care ar putea apărea în redările pe calculator,
+
+00:00:38.330 --> 00:00:41.330
+pentru a ne convinge ca aceste lucruri sunt reale.
+
+00:00:41.330 --> 00:00:43.330
+Ceea ce voi face in urmatoarele cinci minute
+
+00:00:43.330 --> 00:00:45.330
+este de a va prezinta un proces
+
+00:00:45.330 --> 00:00:48.330
+prin care am încercat să creăm o fizionomie generată pe calculator suficient de fotorealistă
+
+00:00:48.330 --> 00:00:51.330
+cu ajutorul unei tehnologii de grafică pe calculator pe care am dezvoltat-o,
+
+00:00:51.330 --> 00:00:53.330
+împreună cu colaboratorii noştri de la compania Image Metrics.
+
+00:00:53.330 --> 00:00:55.330
+Am încercat să construim o imagine fotorealistă
+
+00:00:55.330 --> 00:00:58.330
+a feţei actriţei Emily O'Brien, care este prezentă printre noi.
+
+00:00:58.330 --> 00:01:01.330
+Este de fapt o redare a feţei ei generată în totalitate pe pe calculator.
+
+00:01:01.330 --> 00:01:03.330
+În finalul prezentării, vom vedea imaginea în mişcare.
+
+00:01:03.330 --> 00:01:06.330
+Pentru a ajunge la acest rezultat, am început cu Emily,
+
+00:01:06.330 --> 00:01:09.330
+care a fost amabila si a venit la laborattorul nostru
+
+00:01:09.330 --> 00:01:12.330
+din Marina Del Rey şi să participe la o şedinţă în Light Stage 5.
+
+00:01:12.330 --> 00:01:16.330
+Este vorba despre o sferă pentru scanarea fizionomiei, cu 156 de LED-uri de jur-împrejur,
+
+00:01:16.330 --> 00:01:18.330
+care ne permit să o fotografiem
+
+00:01:18.330 --> 00:01:21.330
+în diferite condiţii de iluminare foarte controlată.
+
+00:01:21.330 --> 00:01:24.330
+Iluminarea pe care o folosim la ora actuală arată cam aşa.
+
+00:01:24.330 --> 00:01:26.330
+Realizam toate aceste fotografii în aproximativ trei secunde.
+
+00:01:26.330 --> 00:01:29.330
+De fapt, captăm suficiente informaţii
+
+00:01:29.330 --> 00:01:33.330
+cu modele de videoproiecţie care se mulează pe contururile feţei ei
+
+00:01:33.330 --> 00:01:35.330
+şi cu diferite direcţii principale ale luminii din interiorul sferei Light Stage
+
+00:01:35.330 --> 00:01:37.330
+pentru a detecta atât detaliile vizibile ale feţei,
+
+00:01:37.330 --> 00:01:39.330
+cât şi pe cele fine.
+
+00:01:39.330 --> 00:01:41.330
+Dacă mărim această fotografie
+
+00:01:41.330 --> 00:01:43.330
+vedem că este o fotografie bună
+
+00:01:43.330 --> 00:01:47.330
+pentru că este iluminată din absolut toate direcţiile în acelaşi timp
+
+00:01:47.330 --> 00:01:49.330
+pentru a obţine o imagine bună a texturii faciale.
+
+00:01:49.330 --> 00:01:52.330
+În plus, am utilizat filtre de polarizare pe toate luminile
+
+00:01:52.330 --> 00:01:54.330
+aşa cum ochelarii de soare polarizaţi pot bloca
+
+00:01:54.330 --> 00:01:56.330
+lumina reflectată din şosea,
+
+00:01:56.330 --> 00:01:58.330
+filtrele de polarizare pot bloca reflecţiile de pe piele,
+
+00:01:58.330 --> 00:02:01.330
+astfel încât să eliminăm toate reflecţiile luminoase atunci când construim o hartă a feţei.
+
+00:02:01.330 --> 00:02:03.330
+Dacă rotim puţin filtrele de polarizare,
+
+00:02:03.330 --> 00:02:05.330
+putem să redăm pielii
+
+00:02:05.330 --> 00:02:07.330
+acel efect de refracţie
+
+00:02:07.330 --> 00:02:10.330
+şi puteti observa că acum arată puţin lucioasă si uleioasă.
+
+00:02:10.330 --> 00:02:13.330
+Dacă extragem diferenţa dintre aceste două imagini,
+
+00:02:13.330 --> 00:02:15.330
+putem obţine o imagine iluminată de întreaga sferă luminoasă
+
+00:02:15.330 --> 00:02:18.330
+formată numai din refracţia de pe pielea Emiliei.
+
+00:02:18.330 --> 00:02:20.330
+Nu cred că s-a mai făcut vreodat o fotografie de acest fel,
+
+00:02:20.330 --> 00:02:22.330
+înainte s-o facem pe aceasta.
+
+00:02:22.330 --> 00:02:25.330
+Captarea acestei lumini este foarte importantă,
+
+00:02:25.330 --> 00:02:27.330
+pentru că aceasta este lumina reflectată de prima suprafaţă a pielii.
+
+00:02:27.330 --> 00:02:29.330
+Nu pătrunde sub straturile translucide
+
+00:02:29.330 --> 00:02:31.330
+ale pielii şi se pierde.
+
+00:02:31.330 --> 00:02:33.330
+Prin urmare, este o indicaţie foarte bună
+
+00:02:33.330 --> 00:02:36.330
+despre forma detaliată a structurii porilor pielii
+
+00:02:36.330 --> 00:02:38.330
+şi despre ridurile fine pe care fiecare dintre noi le are
+
+00:02:38.330 --> 00:02:40.330
+şi care de fapt ne fac să arătăm ca nişte fiinţe umane.
+
+00:02:40.330 --> 00:02:44.330
+Prin urmare, dacă utilizăm informaţiile care se desprind din această refracţie
+
+00:02:44.330 --> 00:02:46.330
+putem porni de la o scanare tradiţională a feţei
+
+00:02:46.330 --> 00:02:50.330
+care ar putea să aibă contururile generale ale feţei şi forma de bază,
+
+00:02:50.330 --> 00:02:52.330
+şi le putem completa cu informaţii
+
+00:02:52.330 --> 00:02:55.330
+care adaugă structura porilor şi ridurile fine.
+
+00:02:55.330 --> 00:02:57.330
+Şi, un lucru şi mai important,
+
+00:02:57.330 --> 00:03:00.330
+întrucât avem de a face cu un proces fotometric care poate fi captat în numai 3 secunde,
+
+00:03:00.330 --> 00:03:02.330
+putem să o fotografiem pe Emily
+
+00:03:02.330 --> 00:03:04.330
+în mai puţin de o după-amiază
+
+00:03:04.330 --> 00:03:07.330
+în multe ipostaze şi expresii faciale diferite.
+
+00:03:07.330 --> 00:03:10.330
+Aici puteţi să o vedeţi rotindu-şi ochii şi mişcându-şi gura.
+
+00:03:10.330 --> 00:03:13.330
+Vom folosi aceste expresii de fapt pentru a crea un personaj digital fotorealist.
+
+00:03:13.330 --> 00:03:17.330
+Dacă vă uitaţi la aceste imagini scanate pe care le avem cu Emily,
+
+00:03:17.330 --> 00:03:20.330
+puteţi observa că faţa unui om face un număr impresionant de lucruri extraordinare
+
+00:03:20.330 --> 00:03:23.330
+în timp ce trece de la o expresie facială la alta.
+
+00:03:23.330 --> 00:03:26.330
+Puteţi vedea că nu numai forma feţei se modifică,
+
+00:03:26.330 --> 00:03:30.330
+ci şi că au loc tot felul de încreţiri şi ridări ale pielii.
+
+00:03:30.330 --> 00:03:34.330
+Puteţi observa că structura porilor pielii se modifică enorm
+
+00:03:34.330 --> 00:03:36.330
+de la pori întinşi,
+
+00:03:36.330 --> 00:03:38.330
+la textura normală a pielii.
+
+00:03:38.330 --> 00:03:41.330
+Puteţi vedea cum sprâncenele se brăzdează şi microstructura se modifică aici.
+
+00:03:41.330 --> 00:03:45.330
+Puteţi vedea cum muşchii trag pielea în jos pentru a-i coborî sprâncenele
+
+00:03:45.330 --> 00:03:48.330
+şi cum muşchii frunţii se bombează când se crispează.
+
+00:03:48.330 --> 00:03:51.330
+Pe lângă această geometrie la o rezoluţie ridicată,
+
+00:03:51.330 --> 00:03:55.330
+întrucât totul este înregistrat cu camere, avem un peisaj de texturi pe care îl putem folosi pentru faţă.
+
+00:03:55.330 --> 00:03:57.330
+Observand modul cum diferitele canale de culoare ale iluminarii,
+
+00:03:57.330 --> 00:03:59.330
+cel roşu,cel verde şi cel albastru,
+
+00:03:59.330 --> 00:04:01.330
+propaga lumina în mod diferit,
+
+00:04:01.330 --> 00:04:04.330
+putem găsi o metodă de a crea pe calculator umbre pe piele.
+
+00:04:04.330 --> 00:04:07.330
+În acest fel, în loc să arate ca un manechin de plastic,
+
+00:04:07.330 --> 00:04:10.330
+arată ca un om în carne şi oase.
+
+00:04:10.330 --> 00:04:12.330
+Şi asta am oferit
+
+00:04:12.330 --> 00:04:14.330
+companiei Image Metrics
+
+00:04:14.330 --> 00:04:17.330
+pentru a crea o versiune digitală tridimensională a lui Emily.
+
+00:04:17.330 --> 00:04:19.330
+Aici se vede numai structura de bază,
+
+00:04:19.330 --> 00:04:22.330
+dar de fapt au creat o păpuşă digitală după imaginea lui Emily,
+
+00:04:22.330 --> 00:04:24.330
+care poate fi manevrată ca o marionetă,
+
+00:04:24.330 --> 00:04:26.330
+şi care îşi mişcă faţa în moduri
+
+00:04:26.330 --> 00:04:28.330
+care păstrează o coerenţă perfectă cu imaginile noastre scanate.
+
+00:04:28.330 --> 00:04:30.330
+Şi, pe lângă structura de bază,
+
+00:04:30.330 --> 00:04:32.330
+au folosit şi toate detaliile
+
+00:04:32.330 --> 00:04:35.330
+pentru a crea un set de aşa-numite "hărţi de mişcări"
+
+00:04:35.330 --> 00:04:38.330
+care pot fi de asemenea animate.
+
+00:04:38.330 --> 00:04:40.330
+Acestea sunt "hărţile de mişcări".
+
+00:04:40.330 --> 00:04:43.330
+Şi puteţi vedea cum diferitele riduri devin vizibile când chipul se animează.
+
+00:04:43.330 --> 00:04:45.330
+Prin urmare, următorul proces este animarea lui Emily.
+
+00:04:45.330 --> 00:04:49.330
+Ne-am folosit de fapt de expresiile lui Emily pentru a furniza datele-sursă.
+
+00:04:49.330 --> 00:04:52.330
+Şi, analizând acest film cu tehnici de vizualizare computerizată,
+
+00:04:52.330 --> 00:04:54.330
+au reuşit să coordoneze expresia facială
+
+00:04:54.330 --> 00:04:56.330
+cu performanţa generată pe calculator.
+
+00:04:56.330 --> 00:04:58.330
+Deci ce veţi vedea acum, după aceasta,
+
+00:04:58.330 --> 00:05:00.330
+este o faţă digitalizată fotorealistă.
+
+00:05:00.330 --> 00:05:02.330
+Să dăm puţin mai tare dacă se poate.
+
+00:05:02.330 --> 00:05:06.330
+Emily: Image Metrics este o companie de animaţie care vizează performanţa şi utilizează tehnica monitorizării directe (markerless).
+
+00:05:06.330 --> 00:05:09.330
+Suntem specializaţi în animaţii faciale de înaltă calitate
+
+00:05:09.330 --> 00:05:11.330
+pentru jocuri video şi filme.
+
+00:05:11.330 --> 00:05:15.330
+Image Metrics este o companie de animaţie care vizează performanţa şi utilizează tehnica monitorizării directe (markerless).
+
+00:05:15.330 --> 00:05:18.330
+Suntem specializaţi în animaţii faciale de înaltă calitate
+
+00:05:18.330 --> 00:05:21.330
+pentru jocuri video şi filme.
+
+00:05:21.330 --> 00:05:23.330
+Paul Debevec: Prin urmare, dacă separăm straturile, iată acea componentă difuză
+
+00:05:23.330 --> 00:05:25.330
+pe care am văzut-o pe prima pagină a prezentării.
+
+00:05:25.330 --> 00:05:27.330
+Iată componenta de refracţie animată.
+
+00:05:27.330 --> 00:05:29.330
+Puteţi observa aici cum toate ridurile devin vizibile.
+
+00:05:29.330 --> 00:05:34.330
+Şi iată structura pe care se bazează.
+
+00:05:34.330 --> 00:05:36.330
+În fine, iat-o pe Emily însăşi.
+
+00:05:36.330 --> 00:05:38.330
+Ce urmărim deci cu aceasta?
+
+00:05:38.330 --> 00:05:42.330
+Am mers chiar dincolo de Light Stage 5. Iată Light Stage 6.
+
+00:05:42.330 --> 00:05:44.330
+Intenţionăm să aplicăm această tehnologie
+
+00:05:44.330 --> 00:05:46.330
+la întregul corp omenesc.
+
+00:05:46.330 --> 00:05:48.330
+Iată-l pe Bruce Lawmen, unul dintre cercetătorii grupului,
+
+00:05:48.330 --> 00:05:51.330
+care a avut amabilitatea să se lase scanat de Light Stage în alergare.
+
+00:05:51.330 --> 00:05:53.330
+Şi iată versiunea generată pe calculator
+
+00:05:53.330 --> 00:05:55.330
+a lui Bruce alergând într-un nou mediu.
+
+00:06:01.330 --> 00:06:03.330
+Vă mulţumesc foarte mult.
+
+00:06:03.330 --> 00:06:04.330
+(Aplauze)
+

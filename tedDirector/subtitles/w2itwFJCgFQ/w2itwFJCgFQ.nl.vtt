@@ -1,0 +1,874 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+00:00:00.000 --> 00:00:07.000
+Vertaald door: Rik Delaet
+Nagekeken door: Els De Keyser
+
+00:00:23.307 --> 00:00:26.491
+Wat betekent het voor een machine 
+om atletisch te zijn?
+
+00:00:26.491 --> 00:00:29.908
+We zullen het concept 
+van machine-atletiek demonstreren
+
+00:00:29.908 --> 00:00:31.628
+evenals het onderzoek om het te bereiken
+
+00:00:31.628 --> 00:00:34.139
+met behulp van deze vliegmachines,
+
+00:00:34.139 --> 00:00:36.026
+quadrocopters of korter quads genaamd.
+
+00:00:38.034 --> 00:00:40.563
+Quads zijn er al een hele tijd.
+
+00:00:40.563 --> 00:00:42.162
+Hun tegenwoordige populariteit
+
+00:00:42.162 --> 00:00:44.127
+hebben ze te danken 
+aan hun eenvoudige mechanica.
+
+00:00:44.127 --> 00:00:46.235
+Door het controleren van de snelheden 
+van deze vier schroeven,
+
+00:00:46.235 --> 00:00:49.283
+kunnen deze machines 
+rollen, stampen, gieren
+
+00:00:49.283 --> 00:00:52.108
+en versnellen 
+langs hun gemeenschappelijke richting.
+
+00:00:52.108 --> 00:00:55.179
+Ze hebben ook nog een batterij, een computer,
+
+00:00:55.179 --> 00:00:59.133
+diverse sensoren 
+en radio's aan boord.
+
+00:00:59.133 --> 00:01:03.762
+Quads zijn uiterst wendbaar, 
+maar deze flexibiliteit heeft haar prijs.
+
+00:01:03.762 --> 00:01:06.754
+Ze zijn inherent instabiel 
+en een vorm van
+
+00:01:06.754 --> 00:01:10.726
+automatische terugkoppelingscontrole is nodig 
+om te kunnen vliegen.
+
+00:01:16.259 --> 00:01:19.497
+Hoe deed hij dit?
+
+00:01:19.497 --> 00:01:21.315
+Camera's op het plafond en een laptop
+
+00:01:21.315 --> 00:01:23.891
+dienen als een overdekt global positioning system.
+
+00:01:23.891 --> 00:01:26.076
+Het wordt gebruikt om objecten 
+te lokaliseren in de ruimte
+
+00:01:26.076 --> 00:01:28.603
+door middel van die reflecterende merkpunten.
+
+00:01:28.603 --> 00:01:30.664
+Deze gegevens wordt vervolgens verzonden 
+naar een andere laptop
+
+00:01:30.664 --> 00:01:32.875
+die schattings- 
+en controlealgoritmen uitvoert
+
+00:01:32.875 --> 00:01:34.761
+en op zijn beurt commando's 
+naar de quad stuurt
+
+00:01:34.761 --> 00:01:38.246
+die ook schattings- 
+en controlealgoritmen uitvoert.
+
+00:01:41.620 --> 00:01:44.130
+Het grootste deel van ons onderzoek 
+gaat over algoritmen.
+
+00:01:44.130 --> 00:01:48.291
+Dat is de magie 
+die deze machines tot leven brengt.
+
+00:01:48.291 --> 00:01:50.334
+Maar hoe ontwerp je algoritmen
+
+00:01:50.334 --> 00:01:52.611
+om een machine-atleet te maken?
+
+00:01:52.611 --> 00:01:55.491
+In grote lijnen door 
+wat we modelgebaseerd ontwerp noemen.
+
+00:01:55.491 --> 00:01:58.645
+Wij leggen eerst de fysica vast 
+in een wiskundig model
+
+00:01:58.645 --> 00:02:00.779
+van hoe deze machines zich gedragen.
+
+00:02:00.779 --> 00:02:03.076
+We gebruiken een deelgebied van de wiskunde,
+
+00:02:03.076 --> 00:02:05.907
+regeltechniek genoemd, 
+voor het analyseren van deze modellen
+
+00:02:05.907 --> 00:02:09.820
+en ook voor het opstellen van algoritmen 
+om ze te controleren.
+
+00:02:09.820 --> 00:02:12.868
+Zo laten we de quad bijvoorbeeld zweven.
+
+00:02:12.868 --> 00:02:14.276
+We leggen de dynamica vast
+
+00:02:14.276 --> 00:02:16.182
+in een set differentiaalvergelijkingen.
+
+00:02:16.182 --> 00:02:18.531
+Dan manipuleren we deze vergelijkingen
+
+00:02:18.531 --> 00:02:23.171
+met behulp van regeltechniek 
+om algoritmen te maken die de quad stabiliseren.
+
+00:02:23.171 --> 00:02:26.117
+Ik toon even de mogelijkheden van deze aanpak.
+
+00:02:29.198 --> 00:02:31.747
+Stel dat we deze quad 
+niet alleen willen laten zweven,
+
+00:02:31.747 --> 00:02:34.529
+maar ook nog deze stok in evenwicht houden.
+
+00:02:34.529 --> 00:02:36.373
+Met een beetje oefening
+
+00:02:36.373 --> 00:02:38.764
+heeft een mens daar geen probleem mee.
+
+00:02:38.764 --> 00:02:40.519
+Maar wij hebben het voordeel
+
+00:02:40.519 --> 00:02:41.847
+van twee voeten op de grond
+
+00:02:41.847 --> 00:02:44.804
+en zeer veelzijdige handen.
+
+00:02:44.804 --> 00:02:47.273
+Dit wordt een beetje moeilijker
+
+00:02:47.273 --> 00:02:49.569
+Ik heb slechts één voet op de grond
+
+00:02:49.569 --> 00:02:52.368
+en ik gebruik mijn handen niet.
+
+00:02:52.368 --> 00:02:55.319
+Let op de reflecterende markering 
+bovenaan de stok.
+
+00:02:55.319 --> 00:02:59.213
+Daardoor wordt hij gelokaliseerd 
+in de ruimte.
+
+00:03:04.971 --> 00:03:10.947
+(Applaus)
+
+00:03:10.947 --> 00:03:13.773
+Merk de fijne correcties op
+
+00:03:13.773 --> 00:03:15.968
+om de stok in evenwicht te houden.
+
+00:03:15.968 --> 00:03:19.027
+Hoe ontwierpen we de algoritmen hiervoor?
+
+00:03:19.027 --> 00:03:21.132
+Wij combineerden het mathematisch model 
+van de stok met dat van de quad.
+
+00:03:21.132 --> 00:03:22.651
+Wij combineerden het mathematisch model 
+van de stok met dat van de quad.
+
+00:03:22.651 --> 00:03:25.605
+Zodra we een model hebben 
+van het gecombineerde quad-stok-systeem
+
+00:03:25.605 --> 00:03:30.538
+kunnen we met regeltechniek 
+algoritmen maken om te controleren.
+
+00:03:30.538 --> 00:03:32.126
+Je kunt zien dat het stabiel is,
+
+00:03:32.126 --> 00:03:34.819
+zelfs als ik er kleine duwtjes tegen geef,
+
+00:03:34.819 --> 00:03:40.222
+komt het terug naar de evenwichtspositie.
+
+00:03:40.222 --> 00:03:41.885
+We kunnen het model ook uitbreiden
+
+00:03:41.885 --> 00:03:44.326
+met waar we de quad 
+willen hebben in de ruimte.
+
+00:03:44.326 --> 00:03:47.395
+Met behulp van deze aanwijzer 
+met reflecterende markeringen
+
+00:03:47.395 --> 00:03:49.619
+kan ik aanwijzen 
+waar ik de quad wil hebben in de ruimte
+
+00:03:49.619 --> 00:03:52.986
+op een vaste afstand van mij.
+
+00:04:07.763 --> 00:04:10.665
+De sleutel tot deze acrobatische manoeuvres 
+zijn algoritmen
+
+00:04:10.665 --> 00:04:13.091
+ontworpen met behulp 
+van wiskundige modellen
+
+00:04:13.091 --> 00:04:15.041
+en regeltechniek.
+
+00:04:15.041 --> 00:04:17.255
+Laten we de quad terugroepen
+
+00:04:17.255 --> 00:04:19.074
+en de stok laten zakken.
+
+00:04:19.074 --> 00:04:20.992
+Vervolgens zal ik het belang aantonen
+
+00:04:20.992 --> 00:04:23.111
+van het begrip van fysische modellen
+
+00:04:23.111 --> 00:04:27.231
+en de werking van de fysische wereld.
+
+00:04:37.462 --> 00:04:39.232
+Merk op hoe de quad hoogte verloor
+
+00:04:39.232 --> 00:04:41.314
+toen ik dit glas water erop zette.
+
+00:04:41.314 --> 00:04:44.115
+In tegenstelling tot de balanceerstok
+
+00:04:44.115 --> 00:04:46.699
+heb ik het wiskundige model van het glas 
+niet in het systeem opgenomen.
+
+00:04:46.699 --> 00:04:49.618
+In feite weet het systeem niet eens 
+dat het glas water er is.
+
+00:04:49.618 --> 00:04:52.910
+Net zoals daarstraks kan ik de aanwijzer 
+gebruiken om de quad te vertellen
+
+00:04:52.910 --> 00:04:55.499
+waar ik hem wil hebben in de ruimte.
+
+00:04:55.499 --> 00:05:05.096
+(Applaus)
+
+00:05:05.096 --> 00:05:07.206
+Je zou je moeten afvragen:
+waarom valt het water niet uit het glas?
+
+00:05:07.206 --> 00:05:09.715
+Je zou je moeten afvragen:
+waarom valt het water niet uit het glas?
+
+00:05:09.715 --> 00:05:12.926
+Twee redenen: ten eerste werkt de zwaartekracht
+
+00:05:12.926 --> 00:05:15.051
+op alle objecten op dezelfde manier.
+
+00:05:15.051 --> 00:05:17.515
+Ten tweede wijzen alle schroeven
+
+00:05:17.515 --> 00:05:20.642
+in dezelfde richting als het glas, 
+omhoog dus.
+
+00:05:20.642 --> 00:05:23.019
+Het netto resultaat 
+van deze twee dingen samen
+
+00:05:23.019 --> 00:05:25.306
+is dat alle zijdelingse krachten 
+op het glas klein zijn
+
+00:05:25.306 --> 00:05:28.091
+en vooral gedomineerd worden 
+door aërodynamische effecten,
+
+00:05:28.091 --> 00:05:31.932
+die bij deze snelheden te verwaarlozen zijn.
+
+00:05:35.336 --> 00:05:37.407
+Daarom hoef je het glas 
+niet in het model op te nemen.
+
+00:05:37.407 --> 00:05:41.255
+Uit zichzelf morst het niet, 
+wat de quad ook doet.
+
+00:05:50.651 --> 00:05:57.702
+(Applaus)
+
+00:05:57.702 --> 00:06:01.718
+De les hieruit 
+is dat sommige ingewikkelde taken
+
+00:06:01.718 --> 00:06:03.115
+gemakkelijker zijn dan andere,
+
+00:06:03.115 --> 00:06:05.411
+en dat het inzicht in de fysica 
+van het probleem
+
+00:06:05.411 --> 00:06:08.027
+je vertelt welke gemakkelijk 
+en welke moeilijk zijn.
+
+00:06:08.027 --> 00:06:10.386
+In dit geval is het dragen 
+van een glas water eenvoudig.
+
+00:06:10.386 --> 00:06:14.171
+En een stok balanceren moeilijk.
+
+00:06:14.171 --> 00:06:15.973
+We hebben allemaal al verhalen gehoord van atleten
+
+00:06:15.973 --> 00:06:18.466
+die prestaties verrichtten 
+nadat ze fysiek gewond waren geraakt.
+
+00:06:18.466 --> 00:06:19.985
+Kan een machine haar taak ook uitvoeren
+
+00:06:19.985 --> 00:06:22.636
+met extreme fysieke schade?
+
+00:06:22.636 --> 00:06:24.362
+Conventionele wijsheid zegt je dat je
+
+00:06:24.362 --> 00:06:28.052
+ten minste vier vaste motor-propellerparen 
+nodig hebt om te vliegen,
+
+00:06:28.052 --> 00:06:30.164
+omdat er vier graden van vrijheid 
+gecontroleerd moeten worden:
+
+00:06:30.164 --> 00:06:33.192
+rollen, stampen, gieren en versnelling.
+
+00:06:33.192 --> 00:06:36.437
+Hexacopters en octocopters, 
+met zes en acht schroeven,
+
+00:06:36.437 --> 00:06:37.920
+kunnen redundantie bieden,
+
+00:06:37.920 --> 00:06:39.909
+maar quadrocopters zijn veel meer in trek
+
+00:06:39.909 --> 00:06:41.724
+omdat ze het minimum aantal
+
+00:06:41.724 --> 00:06:44.200
+vaste motor-propellerparen hebben: vier.
+
+00:06:44.200 --> 00:06:46.165
+Is dat wel zo?
+
+00:07:01.476 --> 00:07:04.076
+Als we het mathematisch model 
+van deze machine analyseren
+
+00:07:04.076 --> 00:07:06.252
+met slechts twee werkende schroeven
+
+00:07:06.252 --> 00:07:13.008
+ontdekken we dat er een onconventionele 
+manier bestaat om te vliegen.
+
+00:07:19.980 --> 00:07:21.686
+Gieren controleren lukt niet meer,
+
+00:07:21.686 --> 00:07:24.756
+maar rollen, stampen en versnelling 
+kunnen nog steeds worden gecontroleerd
+
+00:07:24.756 --> 00:07:30.208
+met algoritmes die gebruik maken 
+van deze nieuwe configuratie.
+
+00:07:33.668 --> 00:07:36.100
+Wiskundige modellen vertellen ons precies
+
+00:07:36.100 --> 00:07:38.172
+wanneer en waarom dit mogelijk is.
+
+00:07:38.172 --> 00:07:40.540
+In dit geval laat deze kennis ons toe
+
+00:07:40.540 --> 00:07:42.796
+nieuwe machinearchitecturen
+
+00:07:42.796 --> 00:07:46.972
+of slimme algoritmen te ontwerpen 
+die elegant de schade kunnen ondervangen,
+
+00:07:46.972 --> 00:07:48.696
+net zoals menselijke atleten dat doen,
+
+00:07:48.696 --> 00:07:52.519
+in plaats van machines met redundantie te bouwen.
+
+00:07:52.519 --> 00:07:54.631
+Vanzelf houden we onze adem in wanneer we kijken
+
+00:07:54.631 --> 00:07:57.068
+naar een duiker die een dubbele schroef maakt
+
+00:07:57.068 --> 00:07:58.858
+of wanneer een hoogspringer 
+een salto maakt in de lucht,
+
+00:07:58.858 --> 00:08:00.576
+terwijl de grond op hem af komt.
+
+00:08:00.576 --> 00:08:03.144
+Zal de duiker mooi het water raken?
+
+00:08:03.144 --> 00:08:05.144
+Zal de hoogspringer goed neerkomen?
+
+00:08:05.144 --> 00:08:06.812
+Stel dat we willen dat deze quad hier
+
+00:08:06.812 --> 00:08:09.263
+een drievoudige salto uitvoert en
+
+00:08:09.263 --> 00:08:11.532
+op exact dezelfde plek neerkomt
+als waarvan hij vertrok.
+
+00:08:11.532 --> 00:08:13.879
+Deze manoeuvre gaat zo snel
+
+00:08:13.879 --> 00:08:17.508
+dat we geen positiefeedback kunnen gebruiken 
+om de beweging tijdens de uitvoering te corrigeren.
+
+00:08:17.508 --> 00:08:19.782
+Er is gewoon niet genoeg tijd.
+
+00:08:19.782 --> 00:08:23.476
+De quad kan dit manoeuvre blindelings uitvoeren,
+
+00:08:23.476 --> 00:08:25.708
+observeren hoe hij eindigt
+
+00:08:25.708 --> 00:08:28.132
+en die informatie gebruiken om het gedrag aan te passen
+
+00:08:28.132 --> 00:08:30.421
+zodat zijn volgende salto beter is.
+
+00:08:30.421 --> 00:08:32.233
+Vergelijkbaar met de duiker en de hoogspringer
+
+00:08:32.233 --> 00:08:34.152
+kan de manoeuvre alleen 
+door middel van herhaalde praktijk
+
+00:08:34.152 --> 00:08:36.077
+worden geleerd en uitgevoerd
+
+00:08:36.077 --> 00:08:38.210
+tot de hoogste norm.
+
+00:08:46.412 --> 00:08:51.164
+(Applaus)
+
+00:08:51.164 --> 00:08:54.636
+Een bewegende bal raken, 
+is een noodzakelijke vaardigheid in vele sporten.
+
+00:08:54.636 --> 00:08:56.431
+Hoe laten we een machine doen
+
+00:08:56.431 --> 00:09:00.184
+wat een atleet schijnbaar zonder moeite kan?
+
+00:09:15.943 --> 00:09:22.542
+(Applaus)
+
+00:09:22.542 --> 00:09:25.192
+Deze quad heeft een racket op zijn kop
+
+00:09:25.192 --> 00:09:28.679
+met een ‘sweet spot’ ongeveer ter grootte van een appel, niet al te groot dus.
+
+00:09:28.679 --> 00:09:31.846
+De volgende berekeningen gebeuren 
+elke 20 milliseconden
+
+00:09:31.846 --> 00:09:33.602
+of 50 keer per seconde.
+
+00:09:33.602 --> 00:09:36.414
+Eerst bepalen we waar de bal naartoe gaat.
+
+00:09:36.414 --> 00:09:38.851
+Dan berekenen we hoe de quad de bal moet raken
+
+00:09:38.851 --> 00:09:41.950
+zodat hij terugkeert naar zijn uitgangspunt.
+
+00:09:41.950 --> 00:09:46.406
+Ten derde wordt een baan bepaald
+
+00:09:46.406 --> 00:09:49.430
+die de quad van zijn huidige positie 
+naar het raakpunt met de bal brengt.
+
+00:09:49.430 --> 00:09:53.239
+Ten vierde voeren we alleen maar 20 milliseconden 
+van die strategie uit.
+
+00:09:53.239 --> 00:09:56.046
+Twintig milliseconden later 
+wordt het hele proces herhaald
+
+00:09:56.046 --> 00:09:58.289
+totdat de quad de bal raakt.
+
+00:10:07.560 --> 00:10:10.206
+(Applaus)
+
+00:10:10.206 --> 00:10:13.578
+Machines kunnen niet alleen op zichzelf 
+dynamische manoeuvres uitvoeren,
+
+00:10:13.578 --> 00:10:15.441
+ze kunnen het ook samen doen.
+
+00:10:15.441 --> 00:10:19.028
+Deze drie quads dragen coöperatief een vangnet.
+
+00:10:28.574 --> 00:10:33.985
+(Applaus)
+
+00:10:33.985 --> 00:10:36.182
+Zij voeren een uiterst dynamisch
+
+00:10:36.182 --> 00:10:38.350
+en collectief manoeuvre uit
+
+00:10:38.350 --> 00:10:40.042
+om de bal terug naar mij te gooien.
+
+00:10:40.042 --> 00:10:43.553
+Merk op dat deze quads 
+bij volledige uitrekking verticaal staan.
+
+00:10:48.486 --> 00:10:50.258
+(Applaus)
+
+00:10:50.258 --> 00:10:52.545
+In feite voelen ze bij volledige uitrekking
+
+00:10:52.545 --> 00:10:55.230
+een ongeveer vijf keer grotere kracht
+
+00:10:55.230 --> 00:10:59.818
+dan een bungeespringer 
+aan het einde van zijn val.
+
+00:11:03.009 --> 00:11:05.686
+Deze algoritmen zijn zeer vergelijkbaar
+
+00:11:05.686 --> 00:11:09.070
+met die van de enkele quad 
+om de bal naar mij terug te slaan.
+
+00:11:09.070 --> 00:11:11.934
+Wiskundige modellen worden gebruikt 
+om continu 50 keer per seconde
+
+00:11:11.934 --> 00:11:16.449
+een coöperatieve strategie te herplannen.
+
+00:11:16.449 --> 00:11:18.326
+Alles wat we tot nu toe hebben gezien,
+
+00:11:18.326 --> 00:11:20.789
+ging over de machines en hun mogelijkheden.
+
+00:11:20.789 --> 00:11:23.804
+Wat gebeurt er als we deze machine-atletiek
+
+00:11:23.804 --> 00:11:25.580
+met die van een mens koppelen?
+
+00:11:25.580 --> 00:11:29.385
+Ik heb hier een commerciële gebarensensor
+
+00:11:29.385 --> 00:11:30.694
+voornamelijk gebruikt bij het gamen.
+
+00:11:30.694 --> 00:11:32.498
+Hij herkent wat mijn verschillende lichaamsdelen
+
+00:11:32.498 --> 00:11:34.546
+in real time doen.
+
+00:11:34.546 --> 00:11:36.662
+Vergelijkbaar met de aanwijzer 
+die ik al eerder gebruikte,
+
+00:11:36.662 --> 00:11:39.454
+kunnen we dit gebruiken 
+als input voor het systeem.
+
+00:11:39.454 --> 00:11:41.850
+We hebben nu een natuurlijke manier 
+van interactie
+
+00:11:41.850 --> 00:11:46.794
+van de ruwe atletiek van deze quads 
+met mijn gebaren.
+
+00:12:22.453 --> 00:12:26.853
+(Applaus)
+
+00:12:35.982 --> 00:12:39.989
+Interactie hoeft niet virtueel te zijn. 
+Het kan ook fysiek.
+
+00:12:39.989 --> 00:12:41.714
+Neem bijvoorbeeld deze quad.
+
+00:12:41.714 --> 00:12:44.342
+Hij probeert om op een vast punt 
+in de ruimte te blijven.
+
+00:12:44.342 --> 00:12:48.179
+Als ik hem probeer te verplaatsen, 
+vecht hij tegen
+
+00:12:48.179 --> 00:12:52.334
+en gaat terug naar waar hij wil zijn.
+
+00:12:52.334 --> 00:12:55.373
+We kunnen dit gedrag echter wijzigen.
+
+00:12:55.373 --> 00:12:57.072
+Met wiskundige modellen kunnen we
+
+00:12:57.072 --> 00:13:00.205
+de kracht schatten 
+die ik uitoefen op de quad.
+
+00:13:00.205 --> 00:13:03.443
+Zodra we deze kracht kennen, 
+kunnen we ook de wetten van de fysica veranderen.
+
+00:13:03.443 --> 00:13:07.942
+Die van de quad, natuurlijk.
+
+00:13:07.942 --> 00:13:10.205
+Hier gedraagt de quad zich alsof hij
+
+00:13:10.205 --> 00:13:14.570
+in een kleverige vloeistof zit.
+
+00:13:14.570 --> 00:13:16.744
+We hebben nu een intieme manier
+
+00:13:16.744 --> 00:13:18.593
+van interactie met een machine.
+
+00:13:18.593 --> 00:13:21.099
+Ik gebruik nu deze nieuwe mogelijkheid
+
+00:13:21.099 --> 00:13:23.676
+om deze quad-met-camera 
+op de juiste locatie te plaatsen
+
+00:13:23.676 --> 00:13:26.862
+om de rest van deze demonstratie te filmen.
+
+00:13:36.222 --> 00:13:38.990
+We kunnen nu fysiek met deze quads communiceren
+
+00:13:38.990 --> 00:13:41.393
+en de wetten van de fysica veranderen.
+
+00:13:41.393 --> 00:13:43.706
+Laten we daar eens een beetje lol mee maken.
+
+00:13:43.706 --> 00:13:45.410
+Deze quads gaan zich gedragen
+
+00:13:45.410 --> 00:13:48.906
+alsof ze op Pluto zijn.
+
+00:13:48.906 --> 00:13:51.218
+Geleidelijk aan zal de zwaartekracht toenemen
+
+00:13:51.218 --> 00:13:53.338
+totdat we allemaal terug op de Aarde zijn.
+
+00:13:53.338 --> 00:13:55.057
+Maar ik verzeker jullie 
+dat we er niet zullen geraken.
+
+00:13:55.057 --> 00:13:58.558
+Oké, hier gaan we.
+
+00:14:05.667 --> 00:14:09.079
+(Gelach)
+
+00:14:34.778 --> 00:14:37.986
+(Gelach)
+
+00:14:37.986 --> 00:14:41.372
+(Applaus)
+
+00:14:41.372 --> 00:14:42.579
+Oef!
+
+00:14:46.779 --> 00:14:48.296
+Jullie denken nu allemaal zeker
+
+00:14:48.296 --> 00:14:50.271
+dat deze jongens veel te veel plezier hebben.
+
+00:14:50.271 --> 00:14:52.350
+Waarschijnlijk vraag je jezelf ook af
+
+00:14:52.350 --> 00:14:56.286
+waarom ze eigenlijk die machine-atleten maken.
+
+00:14:56.286 --> 00:14:58.938
+Sommigen vermoeden dat 
+spelen in het dierenrijk
+
+00:14:58.938 --> 00:15:01.690
+dient om vaardigheden aan te scherpen 
+en vermogens te ontwikkelen.
+
+00:15:01.690 --> 00:15:03.756
+Anderen zien er meer een sociale rol in
+
+00:15:03.756 --> 00:15:05.430
+voor het versterken van de groepsbinding.
+
+00:15:05.430 --> 00:15:08.963
+Zo gebruiken wij de analogie 
+met sport en atletiek
+
+00:15:08.963 --> 00:15:11.042
+voor het maken van nieuwe algoritmen 
+voor machines
+
+00:15:11.042 --> 00:15:13.189
+om ze tot hun uiterste mogelijkheden 
+te dwingen.
+
+00:15:13.189 --> 00:15:16.866
+Welke gevolgen zal de snelheid van machines hebben 
+op onze manier van leven?
+
+00:15:16.866 --> 00:15:19.255
+Zoals onze vroegere creaties en innovaties
+
+00:15:19.255 --> 00:15:22.082
+kunnen ze worden gebruikt ter verbetering 
+van het menselijk bestaan,
+
+00:15:22.082 --> 00:15:24.583
+maar ze kunnen ook worden misbruikt.
+
+00:15:24.583 --> 00:15:26.506
+Het is geen technische keuze 
+waar wij mee worden geconfronteerd,
+
+00:15:26.506 --> 00:15:28.261
+maar een sociale keuze.
+
+00:15:28.261 --> 00:15:29.651
+Laten we de juiste keuze maken,
+
+00:15:29.651 --> 00:15:32.056
+de keuze die het beste haalt 
+uit de toekomst van de machines,
+
+00:15:32.056 --> 00:15:33.868
+net zoals atletiek in de sport
+
+00:15:33.868 --> 00:15:36.029
+het beste uit ons kan halen.
+
+00:15:36.029 --> 00:15:39.479
+Laat me jullie de tovenaars 
+achter de schermen voorstellen.
+
+00:15:39.479 --> 00:15:42.379
+Het zijn de huidige leden 
+van het onderzoeksteam Flying Machine Arena.
+
+00:15:42.379 --> 00:15:47.148
+(Applaus)
+
+00:15:47.148 --> 00:15:50.194
+Federico Augugliaro, Dario Brescianini, Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+Sergei Lupashin, Mark Muller en Robin Ritz.
+
+00:15:53.018 --> 00:15:54.950
+Hou ze in de gaten. 
+Ze zijn voorbestemd voor grote dingen.
+
+00:15:54.950 --> 00:15:56.128
+Bedankt.
+
+00:15:56.128 --> 00:16:02.482
+(Applaus)
+

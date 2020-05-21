@@ -1,0 +1,876 @@
+WEBVTT
+Kind: captions
+Language: pt
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Gustavo Rocha
+Revisor: Gabriel Moreira
+
+00:00:12.738 --> 00:00:14.735
+Se você lembra 
+da primeira década da Internet,
+
+00:00:14.735 --> 00:00:16.990
+era um lugar bem estático.
+
+00:00:16.990 --> 00:00:19.235
+Dava para entrar na Internet,
+olhar as páginas,
+
+00:00:19.235 --> 00:00:21.748
+e elas eram criadas ou por organizações
+
+00:00:21.748 --> 00:00:23.269
+que tinham equipes para isso
+
+00:00:23.269 --> 00:00:25.498
+ou por "experts" em tecnologia
+
+00:00:25.498 --> 00:00:27.235
+para a época.
+
+00:00:27.235 --> 00:00:28.810
+E com a ascenção da mídia social
+
+00:00:28.810 --> 00:00:31.209
+e redes sociais no início dos anos 2000,
+
+00:00:31.209 --> 00:00:33.358
+a Internet mudou completamente
+
+00:00:33.358 --> 00:00:36.966
+para um lugar onde, agora, 
+a grande maioria do conteúdo
+
+00:00:36.966 --> 00:00:40.278
+com que interagimos
+é criado por usuários comuns,
+
+00:00:40.278 --> 00:00:42.975
+seja em vídeos no YouTube
+ou "posts" em "blogs"
+
+00:00:42.975 --> 00:00:45.890
+ou críticas de produtos
+ou "posts" em mídia social.
+
+00:00:45.890 --> 00:00:48.637
+E também se tornou
+um lugar muito mais interativo,
+
+00:00:48.637 --> 00:00:51.274
+onde pessoas interagem umas com as outras,
+
+00:00:51.274 --> 00:00:52.970
+estão comentando, compartilhando,
+
+00:00:52.970 --> 00:00:54.294
+não estão só lendo.
+
+00:00:54.294 --> 00:00:56.450
+E o Facebook não é
+o único lugar para isso,
+
+00:00:56.450 --> 00:00:57.548
+mas é o maior,
+
+00:00:57.548 --> 00:00:59.332
+e serve para ilustrar os números.
+
+00:00:59.332 --> 00:01:02.809
+O Facebook tem 1,2 bilhões
+de usuários por mês.
+
+00:01:02.809 --> 00:01:04.739
+Metade da população da Internet
+
+00:01:04.739 --> 00:01:06.392
+usa o Facebook.
+
+00:01:06.392 --> 00:01:08.454
+Eles são um "site" que, junto com outros,
+
+00:01:08.454 --> 00:01:11.543
+permitiu que as pessoas
+criassem personalidades virtuais
+
+00:01:11.543 --> 00:01:13.325
+com pouca habilidade técnica,
+
+00:01:13.325 --> 00:01:15.801
+e as pessoas reagiram colocando muitos
+
+00:01:15.801 --> 00:01:17.784
+dados pessoais "online".
+
+00:01:17.784 --> 00:01:19.957
+E o resultado é que temos dados
+
+00:01:19.957 --> 00:01:22.313
+de comportamento,
+de preferências e demográficos
+
+00:01:22.313 --> 00:01:24.414
+para centenas de milhares de pessoas,
+
+00:01:24.414 --> 00:01:26.440
+o que nunca aconteceu antes na história.
+
+00:01:26.440 --> 00:01:28.610
+E como cientista da computação, 
+isto quer dizer
+
+00:01:28.610 --> 00:01:30.664
+que fui capaz de criar modelos
+
+00:01:30.664 --> 00:01:34.196
+que podem prever todo tipo
+de característica oculta de vocês
+
+00:01:34.196 --> 00:01:35.810
+e vocês nem sabem que estão compartilhando
+
+00:01:35.810 --> 00:01:37.472
+informações sobre isso.
+
+00:01:37.472 --> 00:01:39.854
+Como cientistas, usamos isso para ajudar
+
+00:01:39.854 --> 00:01:41.968
+as pessoas a interagirem "online",
+
+00:01:41.968 --> 00:01:44.467
+mas há aplicações menos altruístas,
+
+00:01:44.467 --> 00:01:46.848
+e há um problema em que
+os usuários não entendem
+
+00:01:46.848 --> 00:01:49.318
+realmente essas técnicas
+e como elas funcionam,
+
+00:01:49.318 --> 00:01:52.276
+e mesmo se entendessem,
+não têm muito controle sobre elas.
+
+00:01:52.276 --> 00:01:54.136
+O que quero lhes falar hoje
+
+00:01:54.136 --> 00:01:56.638
+são algumas dessas coisas 
+que podemos fazer,
+
+00:01:56.638 --> 00:01:59.401
+e nos dar algumas ideias
+de como podemos avançar
+
+00:01:59.401 --> 00:02:02.170
+para devolver um pouco
+de controle aos usuários.
+
+00:02:02.170 --> 00:02:03.756
+Essa é a Target, a empresa.
+
+00:02:03.756 --> 00:02:05.080
+Eu não coloquei o logo
+
+00:02:05.080 --> 00:02:06.960
+na barriga desta pobre mulher grávida.
+
+00:02:06.960 --> 00:02:09.400
+Vocês talvez tenham 
+visto essa piada publicada
+
+00:02:09.400 --> 00:02:11.151
+na revista Forbes, em que a Target
+
+00:02:11.151 --> 00:02:13.512
+enviou um panfleto
+para essa garota de 15 anos
+
+00:02:13.512 --> 00:02:15.222
+com propagandas e cupons
+
+00:02:15.222 --> 00:02:17.776
+para mamadeiras, fraldas e berços,
+
+00:02:17.776 --> 00:02:19.740
+duas semanas antes
+de ela contar aos seus pais
+
+00:02:19.740 --> 00:02:21.594
+que estava grávida.
+
+00:02:21.594 --> 00:02:23.768
+Pois é, o pai ficou muito bravo.
+
+00:02:23.768 --> 00:02:25.744
+Ele disse: "Como a Target descobriu
+
+00:02:25.744 --> 00:02:27.568
+que essa essa garota estava grávida
+
+00:02:27.568 --> 00:02:29.528
+antes de ela contar aos seus pais?"
+
+00:02:29.528 --> 00:02:32.149
+Acontece que eles têm
+um histórico de compras
+
+00:02:32.149 --> 00:02:34.450
+para centenas de milhares de clientes
+
+00:02:34.450 --> 00:02:37.180
+e eles calculam o que chamam
+de índice de gravidez,
+
+00:02:37.180 --> 00:02:39.512
+que não é só se uma mulher
+está grávida ou não,
+
+00:02:39.512 --> 00:02:41.362
+mas também quando o bebê deve nascer.
+
+00:02:41.362 --> 00:02:42.546
+E eles o calculam
+
+00:02:42.546 --> 00:02:44.314
+não com base nas coisas óbvias,
+
+00:02:44.314 --> 00:02:46.826
+como a compra de um berço
+e roupas de bebê,
+
+00:02:46.826 --> 00:02:49.769
+mas coisas como:
+"Ela comprou mais vitaminas
+
+00:02:49.769 --> 00:02:51.486
+do que normalmente compra",
+
+00:02:51.486 --> 00:02:52.950
+ou "Ela comprou uma bolsa
+
+00:02:52.950 --> 00:02:54.661
+que é grande o suficiente
+para guardar fraldas".
+
+00:02:54.661 --> 00:02:56.571
+E por si sós, essas compras não parecem
+
+00:02:56.571 --> 00:02:59.040
+revelar muita coisa,
+
+00:02:59.040 --> 00:03:00.838
+mas é um padrão de comportamento
+
+00:03:00.838 --> 00:03:04.135
+que, quando visto no contexto
+de milhares de outras pessoas,
+
+00:03:04.135 --> 00:03:06.892
+começa a revelar algumas ideias.
+
+00:03:06.892 --> 00:03:08.685
+É esse o tipo de coisa que fazemos
+
+00:03:08.685 --> 00:03:11.252
+quando prevemos coisas
+sobre vocês na mídia social.
+
+00:03:11.252 --> 00:03:14.048
+Buscamos por pequenos padrões
+de comportamento
+
+00:03:14.048 --> 00:03:16.730
+que, quando detectados
+entre milhões de pessoas,
+
+00:03:16.730 --> 00:03:19.436
+nos permitem descobrir todo tipo de coisa.
+
+00:03:19.436 --> 00:03:21.183
+Em meu laboratório e com colegas,
+
+00:03:21.183 --> 00:03:22.960
+desenvolvemos mecanismos 
+através dos quais podemos
+
+00:03:22.960 --> 00:03:24.520
+prever coisas com muita precisão,
+
+00:03:24.520 --> 00:03:26.245
+como sua preferência política,
+
+00:03:26.245 --> 00:03:29.997
+seu índice de personalidade,
+gênero, orientação sexual,
+
+00:03:29.997 --> 00:03:32.870
+religião, idade, inteligência,
+
+00:03:32.870 --> 00:03:34.264
+junto com coisas como
+
+00:03:34.264 --> 00:03:36.311
+o quanto você confia 
+nas pessoas que conhece
+
+00:03:36.311 --> 00:03:38.005
+e a força desses relacionamentos.
+
+00:03:38.005 --> 00:03:39.790
+Podemos fazer isso muito bem.
+
+00:03:39.790 --> 00:03:41.987
+E novamente, não vem do que pensaríamos
+
+00:03:41.987 --> 00:03:44.089
+que é informação óbvia.
+
+00:03:44.089 --> 00:03:46.370
+Meu exemplo preferido vem de um estudo
+
+00:03:46.370 --> 00:03:49.390
+publicado este ano
+nos Precedentes das Academias Nacionais.
+
+00:03:49.405 --> 00:03:50.980
+Se olharem no Google, vão achar.
+
+00:03:50.980 --> 00:03:52.562
+São quatro paginas, fácil de ler.
+
+00:03:52.562 --> 00:03:55.425
+E eles só observaram o que
+as pessoas curtiam no Facebook,
+
+00:03:55.425 --> 00:03:57.485
+só as coisas que vocês curtem no Facebook,
+
+00:03:57.485 --> 00:03:59.623
+e as usaram para prever características,
+
+00:03:59.623 --> 00:04:01.268
+junto com algumas outras.
+
+00:04:01.268 --> 00:04:04.229
+E no artigo, eles listaram
+as cinco "curtidas"
+
+00:04:04.229 --> 00:04:07.016
+que mais indicavam alta inteligência.
+
+00:04:07.016 --> 00:04:09.340
+E entre eles estava uma página
+
+00:04:09.340 --> 00:04:11.245
+de fritas enroladas. (Risos)
+
+00:04:11.245 --> 00:04:13.338
+Fritas enroladas são deliciosas,
+
+00:04:13.338 --> 00:04:15.868
+Mas gostar delas
+não significa necessariamente
+
+00:04:15.868 --> 00:04:17.948
+que você é mais esperto que a média.
+
+00:04:17.948 --> 00:04:21.155
+Então, como é que 
+um dos indicadores mais fortes
+
+00:04:21.155 --> 00:04:22.725
+de inteligência
+
+00:04:22.725 --> 00:04:24.172
+é curtir essa página,
+
+00:04:24.172 --> 00:04:26.424
+quando o conteúdo é totalmente irrelevante
+
+00:04:26.424 --> 00:04:28.951
+à característica que está sendo prevista?
+
+00:04:28.951 --> 00:04:30.535
+E acontece que temos que observar
+
+00:04:30.535 --> 00:04:32.153
+um monte de teorias implícitas
+
+00:04:32.153 --> 00:04:34.722
+para ver por que conseguimos fazer isso.
+
+00:04:34.722 --> 00:04:37.795
+Uma delas é uma teoria sociológica
+chamada homofilia,
+
+00:04:37.795 --> 00:04:40.727
+que basicamente diz que as pessoas
+ficam amigas de pessoas como elas.
+
+00:04:40.727 --> 00:04:43.151
+Se você é esperto, seus amigos
+devem ser espertos,
+
+00:04:43.151 --> 00:04:45.371
+Se você é jovem, seus amigos
+devem ser jovens,
+
+00:04:45.371 --> 00:04:46.998
+e isso foi bem estabelecido
+
+00:04:46.998 --> 00:04:48.743
+por centenas de anos.
+
+00:04:48.743 --> 00:04:49.975
+Também sabemos muito
+
+00:04:49.975 --> 00:04:52.525
+sobre como a informação
+se propaga pelas redes.
+
+00:04:52.525 --> 00:04:54.339
+Pelo jeito, coisas como vídeos virais
+
+00:04:54.339 --> 00:04:56.685
+ou "curtidas" no Facebook
+ou outras informações
+
+00:04:56.685 --> 00:04:58.573
+se espalham exatamente do mesmo jeito
+
+00:04:58.573 --> 00:05:01.027
+que doenças se espalham por redes sociais.
+
+00:05:01.027 --> 00:05:02.818
+Estudamos isso por muito tempo.
+
+00:05:02.818 --> 00:05:04.394
+Temos bons modelos disso.
+
+00:05:04.394 --> 00:05:06.551
+E podemos juntar essas coisas
+
+00:05:06.551 --> 00:05:09.639
+e começar a ver por que
+essas coisas acontecem.
+
+00:05:09.639 --> 00:05:11.453
+Se fosse para criar uma hipótese,
+
+00:05:11.453 --> 00:05:14.650
+seria que um cara esperto
+criou essa página,
+
+00:05:14.650 --> 00:05:16.619
+ou talvez um dos primeiros 
+que curtiu a página
+
+00:05:16.619 --> 00:05:18.355
+teria se saído bem naquele teste.
+
+00:05:18.355 --> 00:05:20.643
+E ele curtiu, e seus amigos viram,
+
+00:05:20.643 --> 00:05:23.765
+e por homofilia, provavelmente
+ele tinha amigos espertos,
+
+00:05:23.765 --> 00:05:26.551
+e assim se espalhou para eles,
+e alguns deles curtiram,
+
+00:05:26.551 --> 00:05:28.760
+e eles tinham amigos espertos,
+e assim se espalhou para eles,
+
+00:05:28.760 --> 00:05:31.060
+e assim se propagou pela rede
+
+00:05:31.060 --> 00:05:33.359
+para uma série de pessoas espertas,
+
+00:05:33.359 --> 00:05:35.155
+de modo que, ao final,
+
+00:05:35.155 --> 00:05:37.959
+o ato de curtir a página
+das fritas enroladas
+
+00:05:37.959 --> 00:05:39.574
+indica alta inteligência,
+
+00:05:39.574 --> 00:05:41.377
+não por causa do conteúdo,
+
+00:05:41.377 --> 00:05:43.899
+mas porque o ato de curtir em si
+
+00:05:43.899 --> 00:05:45.799
+reflete as características em comum
+
+00:05:45.799 --> 00:05:48.267
+de outras pessoas que também curtiram.
+
+00:05:48.267 --> 00:05:51.164
+Coisa bastante complicada, certo?
+
+00:05:51.164 --> 00:05:53.363
+É difícil sentar e explicar
+
+00:05:53.363 --> 00:05:56.211
+para um usuário comum, e mesmo se o fizer,
+
+00:05:56.211 --> 00:05:58.399
+o que o usuário comum
+pode fazer a respeito?
+
+00:05:58.399 --> 00:06:00.447
+Como saber que você curtiu uma coisa
+
+00:06:00.447 --> 00:06:01.939
+que indica um traço seu
+
+00:06:01.939 --> 00:06:05.484
+que é totalmente irrelevante
+ao conteúdo do que você curtiu?
+
+00:06:05.484 --> 00:06:08.030
+Há muito poder que os usuários não têm
+
+00:06:08.030 --> 00:06:10.260
+para controlar como
+esses dados são usados.
+
+00:06:10.260 --> 00:06:13.372
+E eu vejo isso como
+um verdadeiro problema avançando.
+
+00:06:13.372 --> 00:06:16.359
+Acho que há dois caminhos
+que podemos observar,
+
+00:06:16.359 --> 00:06:18.260
+se quisermos dar ao usuário o controle
+
+00:06:18.260 --> 00:06:20.000
+sobre a utilização desses dados,
+
+00:06:20.000 --> 00:06:21.940
+porque nem sempre serão usados
+
+00:06:21.940 --> 00:06:23.321
+para seu benefício.
+
+00:06:23.321 --> 00:06:24.743
+Um exemplo que eu sempre uso:
+
+00:06:24.743 --> 00:06:26.389
+se eu me cansar de ser professora,
+
+00:06:26.389 --> 00:06:28.042
+eu vou abrir uma empresa
+
+00:06:28.042 --> 00:06:29.496
+que prevê as características
+
+00:06:29.496 --> 00:06:31.208
+e coisas como trabalho em equipe
+
+00:06:31.208 --> 00:06:33.769
+e se você é usuário de drogas,
+se é um alcoólatra.
+
+00:06:33.769 --> 00:06:35.209
+Sabemos como prever isso tudo.
+
+00:06:35.209 --> 00:06:36.970
+E vou vender relatórios
+
+00:06:36.970 --> 00:06:39.070
+para empresas de RH e grandes empresas
+
+00:06:39.070 --> 00:06:40.933
+que queiram te contratar.
+
+00:06:40.933 --> 00:06:42.520
+Podemos fazer isso agora.
+
+00:06:42.520 --> 00:06:44.308
+Eu poderia abrir essa empresa amanhã,
+
+00:06:44.308 --> 00:06:46.360
+e você não teria qualquer controle
+
+00:06:46.360 --> 00:06:48.498
+de como eu uso seus dados desse jeito.
+
+00:06:48.498 --> 00:06:50.790
+Para mim, isso parece um problema.
+
+00:06:50.790 --> 00:06:52.700
+Então, um dos caminhos que podemos seguir
+
+00:06:52.700 --> 00:06:54.732
+é o caminho da política e da lei.
+
+00:06:54.732 --> 00:06:57.778
+E em alguns aspectos,
+acho que assim seria mais eficiente,
+
+00:06:57.778 --> 00:07:00.534
+mas o problema é que
+teríamos mesmo que fazer.
+
+00:07:00.534 --> 00:07:03.314
+Observar nosso processo político em ação
+
+00:07:03.314 --> 00:07:05.693
+me faz pensar que é altamente improvável
+
+00:07:05.693 --> 00:07:09.280
+que vamos juntar um monte
+de representantes, mostrá-lhes isso,
+
+00:07:09.280 --> 00:07:11.382
+e fazer que decretem mudanças extensas
+
+00:07:11.382 --> 00:07:13.539
+à lei da propriedade intelectual nos EUA
+
+00:07:13.539 --> 00:07:15.760
+para que os usuários controlem seus dados.
+
+00:07:15.760 --> 00:07:17.294
+Ou seguir a rota da política,
+
+00:07:17.294 --> 00:07:18.783
+em que empresas de mídia social dizem:
+
+00:07:18.783 --> 00:07:20.365
+"Sabe? Você é dono de seus dados.
+
+00:07:20.365 --> 00:07:22.754
+Você tem total controle
+sobre como eles são usados."
+
+00:07:22.754 --> 00:07:24.522
+O problema são os modelos de receita
+
+00:07:24.522 --> 00:07:26.246
+para a maioria
+das empresas de mídia social
+
+00:07:26.246 --> 00:07:30.277
+que se baseiam no compartilhamento
+ou exploração dos dados dos usuários.
+
+00:07:30.277 --> 00:07:32.110
+Dizem do Facebook que os usuários
+
+00:07:32.110 --> 00:07:34.638
+não são os clientes, eles são o produto.
+
+00:07:34.638 --> 00:07:37.352
+Então, como fazemos com que uma empresa
+
+00:07:37.352 --> 00:07:39.910
+ceda o controle de seu principal bem
+
+00:07:39.910 --> 00:07:41.159
+aos usuários?
+
+00:07:41.159 --> 00:07:43.080
+É possível, mas não acho que seja algo
+
+00:07:43.080 --> 00:07:45.180
+que veremos acontecer rapidamente.
+
+00:07:45.180 --> 00:07:46.680
+E eu acho que o outro caminho
+
+00:07:46.680 --> 00:07:48.968
+que podemos seguir 
+e que será mais eficiente
+
+00:07:48.968 --> 00:07:50.476
+é um mais científico.
+
+00:07:50.476 --> 00:07:52.986
+É usar a ciência
+que nos permitiu desenvolver
+
+00:07:52.986 --> 00:07:54.736
+todos esses mecanismos para calcular
+
+00:07:54.736 --> 00:07:56.788
+esses dados pessoais a princípio.
+
+00:07:56.788 --> 00:07:58.894
+E é, de fato, uma pesquisa muito similar
+
+00:07:58.894 --> 00:08:00.332
+que teríamos que fazer,
+
+00:08:00.332 --> 00:08:02.718
+se quisermos desenvolver mecanismos
+
+00:08:02.718 --> 00:08:04.139
+que possam dizer ao usuário:
+
+00:08:04.139 --> 00:08:06.478
+"Aqui está o risco do que
+você acabou de fazer."
+
+00:08:06.478 --> 00:08:08.448
+Ao curtir aquela página do Facebook,
+
+00:08:08.448 --> 00:08:10.983
+ou ao compartilhar
+essa informação pessoal,
+
+00:08:10.983 --> 00:08:12.485
+você melhorou minha capacidade
+
+00:08:12.485 --> 00:08:14.571
+de prever se você usa drogas ou não,
+
+00:08:14.571 --> 00:08:17.433
+ou se você se dá bem
+no ambiente de trabalho ou não.
+
+00:08:17.433 --> 00:08:19.281
+E isso, acredito, pode influenciar
+
+00:08:19.281 --> 00:08:20.791
+a decisão de compartilhar algo,
+
+00:08:20.791 --> 00:08:23.690
+manter privado ou manter
+inteiramente "offline".
+
+00:08:23.690 --> 00:08:25.593
+Também podemos observar coisas como
+
+00:08:25.593 --> 00:08:28.481
+permitir que as pessoas encriptem
+os dados que elas enviam,
+
+00:08:28.481 --> 00:08:30.176
+para que sejam invisíveis e inúteis
+
+00:08:30.176 --> 00:08:31.607
+a "sites" como o Facebook
+
+00:08:31.607 --> 00:08:34.236
+ou serviços de terceiros que os acessem,
+
+00:08:34.236 --> 00:08:37.483
+mas a usuários selecionados,
+que a pessoa que postou
+
+00:08:37.483 --> 00:08:40.153
+quer que os vejam, tenham acesso.
+
+00:08:40.153 --> 00:08:42.319
+Tudo isso é uma pesquisa superlegal
+
+00:08:42.319 --> 00:08:43.939
+de uma perspectiva intelectual.
+
+00:08:43.939 --> 00:08:45.988
+Os cientistas estarão dispostos a fazê-la.
+
+00:08:45.988 --> 00:08:49.118
+Isso nos dá uma vantagem
+sobre o lado da lei.
+
+00:08:49.118 --> 00:08:51.133
+Um dos problemas que as pessoas levantam
+
+00:08:51.133 --> 00:08:52.728
+quando falo disso é que elas dizem:
+
+00:08:52.728 --> 00:08:55.534
+"Sabe, se todos começarem
+a manter esses dados privados,
+
+00:08:55.534 --> 00:08:57.487
+todos os métodos que você desenvolveu
+
+00:08:57.487 --> 00:09:00.140
+para prever seus traços vão falhar.
+
+00:09:00.140 --> 00:09:03.660
+E eu digo "com certeza",
+e para mim isso é sucesso,
+
+00:09:03.660 --> 00:09:05.446
+porque como cientista,
+
+00:09:05.446 --> 00:09:09.134
+meu objetivo não é inferir
+informações sobre os usuários,
+
+00:09:09.134 --> 00:09:11.901
+é melhorar o jeito
+como as pessoas interagem "online".
+
+00:09:11.901 --> 00:09:15.119
+E, às vezes, isso envolve
+inferir coisas sobre elas,
+
+00:09:15.119 --> 00:09:18.141
+mas se os usuários não quiserem
+que eu use esses dados,
+
+00:09:18.141 --> 00:09:20.179
+acho que eles deveriam ter esse direito.
+
+00:09:20.179 --> 00:09:22.830
+Quero que os usuários
+estejam cientes e de acordo,
+
+00:09:22.830 --> 00:09:24.942
+usuários das ferramentas
+que desenvolvemos.
+
+00:09:24.942 --> 00:09:27.894
+Então, acredito que encorajar
+esse tipo de ciência
+
+00:09:27.894 --> 00:09:29.240
+e apoiar pesquisadores
+
+00:09:29.240 --> 00:09:32.263
+que querem ceder um pouco
+desse controle aos usuários
+
+00:09:32.263 --> 00:09:34.574
+e tirá-lo das empresas de mídia social
+
+00:09:34.574 --> 00:09:38.201
+significa que avançar, enquanto
+essas ferramentas evoluem e avançam,
+
+00:09:38.201 --> 00:09:39.885
+significa que vamos ter uma base
+
+00:09:39.885 --> 00:09:41.829
+de usuários instruídos e capacitados,
+
+00:09:41.829 --> 00:09:43.469
+e acho que todos concordamos
+
+00:09:43.469 --> 00:09:45.493
+que esse é o jeito ideal de avançar.
+
+00:09:45.493 --> 00:09:46.927
+Obrigada.
+
+00:09:46.927 --> 00:09:49.397
+(Aplausos)
+

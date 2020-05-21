@@ -1,0 +1,1076 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Marek Vanžura
+Korektor: Karel Hoch
+
+00:00:20.260 --> 00:00:22.260
+Dobré ráno.
+
+00:00:22.260 --> 00:00:24.260
+Jsem dnes zde, abych mluvil
+
+00:00:24.260 --> 00:00:27.260
+o autonomních létajicích plážových míčích.
+
+00:00:27.260 --> 00:00:31.260
+Ne, o mrštných létajicích robotech, jako je tenhle.
+
+00:00:31.260 --> 00:00:34.260
+Rád bych vám pověděl něco málo o výzvách při jejich stavbě
+
+00:00:34.260 --> 00:00:36.260
+a některých úžasných možnostech
+
+00:00:36.260 --> 00:00:38.260
+pro využití této technologie.
+
+00:00:38.260 --> 00:00:40.260
+Tyto roboty
+
+00:00:40.260 --> 00:00:43.260
+jsou příbuznými bezpilotních letadel.
+
+00:00:43.260 --> 00:00:46.260
+Nicméně letadla, které vidíte zde, jsou velká.
+
+00:00:46.260 --> 00:00:48.260
+Váží tisíce liber (stovky kilogramů)
+
+00:00:48.260 --> 00:00:50.260
+a nejsou v žádném případě mrštná.
+
+00:00:50.260 --> 00:00:52.260
+Navíc nejsou ani autonomní.
+
+00:00:52.260 --> 00:00:54.260
+Ve skutečnosti je mnoho těchto strojů
+
+00:00:54.260 --> 00:00:56.260
+ovládáno letovými posádkami,
+
+00:00:56.260 --> 00:00:59.260
+které mohou zahrnovat několik pilotů,
+
+00:00:59.260 --> 00:01:01.260
+operátorů senzorů
+
+00:01:01.260 --> 00:01:03.260
+a koordinátorů misí.
+
+00:01:03.260 --> 00:01:05.260
+Co nás zajímalo, je vývoj robotů jako jsou tyto --
+
+00:01:05.260 --> 00:01:07.260
+a tady dva další obrázky --
+
+00:01:07.260 --> 00:01:10.260
+robotů, které si můžete koupit v obchodě.
+
+00:01:10.260 --> 00:01:13.260
+Takže toto jsou helikoptéry se čtyřmi rotory
+
+00:01:13.260 --> 00:01:17.260
+a jsou zhruba metr velké
+
+00:01:17.260 --> 00:01:19.260
+a váží několik liber (pár kilogramů).
+
+00:01:19.260 --> 00:01:22.260
+Dodatečně jsme je vybavili senzory a procesory,
+
+00:01:22.260 --> 00:01:24.260
+a tak mohou tyto roboty létat v místnostech
+
+00:01:24.260 --> 00:01:26.260
+bez GPS.
+
+00:01:26.260 --> 00:01:28.260
+Robot, který držím ve své ruce,
+
+00:01:28.260 --> 00:01:30.260
+je jedním z nich,
+
+00:01:30.260 --> 00:01:33.260
+vytvořili jej dva studenti,
+
+00:01:33.260 --> 00:01:35.260
+Alex a Daniel.
+
+00:01:35.260 --> 00:01:37.260
+Tenhle váží trochu víc
+
+00:01:37.260 --> 00:01:39.260
+než desetinu libry (50 gramů).
+
+00:01:39.260 --> 00:01:41.260
+Spotřebuje okolo 15 wattů příkonu.
+
+00:01:41.260 --> 00:01:43.260
+A jak můžete vidět,
+
+00:01:43.260 --> 00:01:45.260
+má v průměru přibližně osm palců (20 cm).
+
+00:01:45.260 --> 00:01:48.260
+Dovolte mi dát vám velmi rychlý úvod
+
+00:01:48.260 --> 00:01:50.260
+do toho, jak tyto roboty pracují.
+
+00:01:50.260 --> 00:01:52.260
+Takže má čtyři rotory.
+
+00:01:52.260 --> 00:01:54.260
+Když mají tyto rotory stejné otáčky,
+
+00:01:54.260 --> 00:01:56.260
+robot se vznáší.
+
+00:01:56.260 --> 00:01:59.260
+Když zvýšíte otáčky každého z těchto rotorů,
+
+00:01:59.260 --> 00:02:02.260
+pak robot stoupá, zrychluje.
+
+00:02:02.260 --> 00:02:04.260
+Samozřejmě kdyby byl robot nakloněn,
+
+00:02:04.260 --> 00:02:06.260
+byl skloněn oproti vodorovné ose,
+
+00:02:06.260 --> 00:02:09.260
+pak by zrychloval tímto směrem.
+
+00:02:09.260 --> 00:02:12.260
+Existují dva způsoby, jak jej naklonit.
+
+00:02:12.260 --> 00:02:14.260
+Na tomto obrázku
+
+00:02:14.260 --> 00:02:16.260
+vidíte, že rotor číslo 4 se otáčí rychleji
+
+00:02:16.260 --> 00:02:18.260
+a rotor číslo 2 se otáčí pomaleji.
+
+00:02:18.260 --> 00:02:20.260
+A když se toto stane,
+
+00:02:20.260 --> 00:02:23.260
+dojde k tomu, že se robot natočí.
+
+00:02:23.260 --> 00:02:25.260
+A nebo,
+
+00:02:25.260 --> 00:02:28.260
+když zvýšíte otáčky rotoru číslo 3
+
+00:02:28.260 --> 00:02:30.260
+a snížíte otáčky rotoru číslo 1,
+
+00:02:30.260 --> 00:02:33.260
+pak se robot nahne vpřed.
+
+00:02:33.260 --> 00:02:35.260
+A konečně,
+
+00:02:35.260 --> 00:02:37.260
+když má pár protilehlých rotorů
+
+00:02:37.260 --> 00:02:39.260
+vyšší otáčky než druhý pár,
+
+00:02:39.260 --> 00:02:41.260
+pak se robot obrací kolem svislé osy.
+
+00:02:41.260 --> 00:02:43.260
+Procesor na palubě
+
+00:02:43.260 --> 00:02:46.260
+v podstatě sleduje, jaké pohyby je třeba vykonat
+
+00:02:46.260 --> 00:02:48.260
+a kombinuje tyto pohyby
+
+00:02:48.260 --> 00:02:51.260
+a řeší, jaké příkazy poslat motorům,
+
+00:02:51.260 --> 00:02:53.260
+a to dělá 600krát za sekundu.
+
+00:02:53.260 --> 00:02:55.260
+Takto v základě tato věc funguje.
+
+00:02:55.260 --> 00:02:57.260
+Jedna z výhod tohoto přístupu
+
+00:02:57.260 --> 00:02:59.260
+je, že když tyto věci zmenšíte,
+
+00:02:59.260 --> 00:03:02.260
+robot se přirozeně stává mrštnějším.
+
+00:03:02.260 --> 00:03:04.260
+Toto R
+
+00:03:04.260 --> 00:03:06.260
+je charakteristická délka robota.
+
+00:03:06.260 --> 00:03:09.260
+Činí polovinu průměru.
+
+00:03:09.260 --> 00:03:12.260
+A je mnoho fyzikálních parametrů, které se změní,
+
+00:03:12.260 --> 00:03:14.260
+když zmenšíte R.
+
+00:03:14.260 --> 00:03:16.260
+Ten nejdůležitější
+
+00:03:16.260 --> 00:03:18.260
+je setrvačnost neboli odpor k pohybu.
+
+00:03:18.260 --> 00:03:20.260
+Ukazuje se,
+
+00:03:20.260 --> 00:03:23.260
+že setrvačnost, která řídí úhlový pohyb,
+
+00:03:23.260 --> 00:03:26.260
+je úměrná páté mocnině R.
+
+00:03:26.260 --> 00:03:28.260
+Takže čím menší R uděláte,
+
+00:03:28.260 --> 00:03:31.260
+tím dramatičtěji poklesne setrvačnost.
+
+00:03:31.260 --> 00:03:34.260
+Jako výsledek, úhlové zrychlení,
+
+00:03:34.260 --> 00:03:36.260
+zde označené řeckým písmenem alfa,
+
+00:03:36.260 --> 00:03:38.260
+je 1/R.
+
+00:03:38.260 --> 00:03:40.260
+Je nepřímo úměrné R.
+
+00:03:40.260 --> 00:03:43.260
+Čím menší jej vyrobíte, tím rychleji se může otáčet.
+
+00:03:43.260 --> 00:03:45.260
+To by mělo být jasné na těchto videích.
+
+00:03:45.260 --> 00:03:48.260
+V pravo dole vidíte robot
+
+00:03:48.260 --> 00:03:50.260
+provádějící 360stupňový obrat
+
+00:03:50.260 --> 00:03:52.260
+za méně než půl sekundy.
+
+00:03:52.260 --> 00:03:55.260
+Několik obratů za nepatrně delší čas.
+
+00:03:55.260 --> 00:03:57.260
+Zde procesy na palubě
+
+00:03:57.260 --> 00:03:59.260
+dostávají zpětnou vazbu z akcelerometrů
+
+00:03:59.260 --> 00:04:01.260
+a gyroskopů na palubě
+
+00:04:01.260 --> 00:04:03.260
+a vyhodnocují, jak jsem už dříve řekl,
+
+00:04:03.260 --> 00:04:05.260
+příkazy 600krát za sekundu,
+
+00:04:05.260 --> 00:04:07.260
+aby stabilizovaly robota.
+
+00:04:07.260 --> 00:04:10.260
+Nalevo vidíte Daniela, který tohoto robota háže do vzduchu.
+
+00:04:10.260 --> 00:04:12.260
+Předvádí se nám, jak stabilní ovládání je.
+
+00:04:12.260 --> 00:04:14.260
+Nezáleží na tom, jak jej hodíte,
+
+00:04:14.260 --> 00:04:18.260
+robot se stabilizuje a vrátí se k němu.
+
+00:04:18.260 --> 00:04:20.260
+A proč vyrábět roboty jako jsou tyto?
+
+00:04:20.260 --> 00:04:23.260
+Nuže, takové roboty mají mnoho použití.
+
+00:04:23.260 --> 00:04:26.260
+Můžete je vyslat do budov jako je tato
+
+00:04:26.260 --> 00:04:29.260
+coby první průzkumníky hledající vetřelce,
+
+00:04:29.260 --> 00:04:32.260
+případně hledající biochemické znečištění,
+
+00:04:32.260 --> 00:04:34.260
+úniky plynu.
+
+00:04:34.260 --> 00:04:36.260
+Rovněž je můžete použít
+
+00:04:36.260 --> 00:04:38.260
+pro stavbu.
+
+00:04:38.260 --> 00:04:42.260
+Tady roboty přenášejí trámy a sloupy
+
+00:04:42.260 --> 00:04:45.260
+a skládají krychlové struktury.
+
+00:04:45.260 --> 00:04:48.260
+Řeknu vám o tom trochu víc.
+
+00:04:48.260 --> 00:04:51.260
+Roboty lze použít pro přepravu nákladu.
+
+00:04:51.260 --> 00:04:54.260
+Jeden z problémů s těmito roboty
+
+00:04:54.260 --> 00:04:56.260
+je jejich nosnost.
+
+00:04:56.260 --> 00:04:58.260
+Takže budeme možná chtít mnoho robotů
+
+00:04:58.260 --> 00:05:00.260
+pro přepravu nákladu.
+
+00:05:00.260 --> 00:05:02.260
+Tohle je obrázek nedávného experimentu, který jsme dělali --
+
+00:05:02.260 --> 00:05:04.260
+vlastně už ne tak nedávného --
+
+00:05:04.260 --> 00:05:07.260
+v Sendaji krátce po zemětřesení.
+
+00:05:07.260 --> 00:05:10.260
+Roboty jako je tento mohou být poslány do bortících se budov,
+
+00:05:10.260 --> 00:05:12.260
+aby zjistily poškození po živelních katastrofách
+
+00:05:12.260 --> 00:05:15.260
+nebo je lze poslat do reaktoru,
+
+00:05:15.260 --> 00:05:18.260
+aby prozkoumaly úroveň radiace.
+
+00:05:19.260 --> 00:05:21.260
+Jeden zásadní problém,
+
+00:05:21.260 --> 00:05:24.260
+který roboty musí řešit, pokud mají být autonomní,
+
+00:05:24.260 --> 00:05:26.260
+je, jak vlastně vyřešit,
+
+00:05:26.260 --> 00:05:28.260
+jak se dostat z bodu A do bodu B.
+
+00:05:28.260 --> 00:05:30.260
+Toto je celkem výzva,
+
+00:05:30.260 --> 00:05:33.260
+protože dynamika tohoto robota je docela složitá.
+
+00:05:33.260 --> 00:05:35.260
+Ve skutečnosti se pohybují ve dvanáctirozměrném prostoru.
+
+00:05:35.260 --> 00:05:37.260
+Takže používáme malý trik.
+
+00:05:37.260 --> 00:05:40.260
+Vezmeme tento zakřivený dvanáctirozměrný prostor
+
+00:05:40.260 --> 00:05:42.260
+a přeměníme jej
+
+00:05:42.260 --> 00:05:44.260
+na plochý čtyřrozměrný prostor.
+
+00:05:44.260 --> 00:05:46.260
+A tento čtyřrozměrný prostor
+
+00:05:46.260 --> 00:05:49.260
+se skládá z os X, Y, Z a úhlu vybočení.
+
+00:05:49.260 --> 00:05:51.260
+A tak co robot dělá,
+
+00:05:51.260 --> 00:05:55.260
+je, že plánuje něco, co nazýváme minimální snapová trasa.
+
+00:05:55.260 --> 00:05:57.260
+Abych vám připomenul fyziku,
+
+00:05:57.260 --> 00:05:59.260
+rychlost je derivací dráhy,
+
+00:05:59.260 --> 00:06:01.260
+další derivací získáte zrychlení
+
+00:06:01.260 --> 00:06:03.260
+a pak přichází ryv
+
+00:06:03.260 --> 00:06:05.260
+a snap.
+
+00:06:05.260 --> 00:06:08.260
+Takže tento robot minimalizuje snap.
+
+00:06:08.260 --> 00:06:10.260
+Takže co efektivně dělá, je,
+
+00:06:10.260 --> 00:06:12.260
+že koná plynulý a elegantní pohyb.
+
+00:06:12.260 --> 00:06:15.260
+A vyhýbá se překážkám.
+
+00:06:15.260 --> 00:06:18.260
+Tyto minimální snapové trasy v plochém prostoru
+
+00:06:18.260 --> 00:06:20.260
+jsou posléze převedeny zpět
+
+00:06:20.260 --> 00:06:22.260
+do komplikovaného dvanáctirozměrného prostoru,
+
+00:06:22.260 --> 00:06:24.260
+ve kterém se robot nachází,
+
+00:06:24.260 --> 00:06:26.260
+pohybuje a jedná.
+
+00:06:26.260 --> 00:06:28.260
+Dovolte mi ukázat vám nějaké příklady
+
+00:06:28.260 --> 00:06:30.260
+toho, jak tyto minimální snapové trasy vypadají.
+
+00:06:30.260 --> 00:06:32.260
+V prvním videu
+
+00:06:32.260 --> 00:06:34.260
+uvidíte robot, který se přesunuje z bodu A do bodu B
+
+00:06:34.260 --> 00:06:36.260
+skrze středový bod.
+
+00:06:42.260 --> 00:06:44.260
+Robot je očividně schopný
+
+00:06:44.260 --> 00:06:46.260
+procházet jakkoli zakřivenou trasu.
+
+00:06:46.260 --> 00:06:48.260
+Tohle jsou kruhové trasy,
+
+00:06:48.260 --> 00:06:51.260
+kde na robota působí přetížení kolem 2 G.
+
+00:06:52.260 --> 00:06:56.260
+Robot má na zádech kamery,
+
+00:06:56.260 --> 00:06:59.260
+které mu říkají, kde je -- 100krát za sekundu.
+
+00:06:59.260 --> 00:07:02.260
+Rovněž robotu říkají, kde jsou překážky.
+
+00:07:02.260 --> 00:07:04.260
+A překážky se mohou pohybovat.
+
+00:07:04.260 --> 00:07:07.260
+Tady uvidíte Daniela, jak háže obruč do vzduchu,
+
+00:07:07.260 --> 00:07:09.260
+zatímco robot si spočítá polohu obruče
+
+00:07:09.260 --> 00:07:13.260
+a snaží se vyřešit, jak nejlépe jí proletět.
+
+00:07:13.260 --> 00:07:15.260
+Jako akademičtí pracovníci
+
+00:07:15.260 --> 00:07:18.260
+jsme byli vždy cvičeni ke skákání obručemi, abychom získali finance pro naše laboratoře,
+
+00:07:18.260 --> 00:07:21.260
+a tak jsme to naučili i roboty.
+
+00:07:21.260 --> 00:07:27.260
+(Potlesk)
+
+00:07:27.260 --> 00:07:29.260
+Jiná věc, kterou robot dovede,
+
+00:07:29.260 --> 00:07:32.260
+je, že si pamatuje trasu,
+
+00:07:32.260 --> 00:07:34.260
+kterou se naučí nebo mu je předprogramována.
+
+00:07:34.260 --> 00:07:36.260
+Tady vidíte robot,
+
+00:07:36.260 --> 00:07:38.260
+který kombinuje pohyby,
+
+00:07:38.260 --> 00:07:40.260
+čímž získá hybnost,
+
+00:07:40.260 --> 00:07:43.260
+a pak změní svoji orientaci a poté se dostává do výchozí polohy.
+
+00:07:43.260 --> 00:07:46.260
+Musí to udělat, protože díra v okně
+
+00:07:46.260 --> 00:07:50.260
+je pouze o trošku větší než je šířka robota.
+
+00:07:50.260 --> 00:07:53.260
+Podobně jako skokan stojící na odrazovém můstku,
+
+00:07:53.260 --> 00:07:55.260
+si poskočí, aby získal hybnost,
+
+00:07:55.260 --> 00:07:58.260
+pak provede piruetu, tohle dvou a půl salto,
+
+00:07:58.260 --> 00:08:00.260
+a pak se půvabně vrátí do výchozí pozice,
+
+00:08:00.260 --> 00:08:02.260
+tento robot v podstatě tohle dělá.
+
+00:08:02.260 --> 00:08:05.260
+Takže ví, jak kombinovat malé části tras tak,
+
+00:08:05.260 --> 00:08:09.260
+aby provedl tyhle vskutku náročné úkony.
+
+00:08:09.260 --> 00:08:11.260
+A teď druhá strana mince.
+
+00:08:11.260 --> 00:08:14.260
+Jedna z nevýhod těchto malých robotů je jejich velikost.
+
+00:08:14.260 --> 00:08:16.260
+Jak jsem řekl již dříve,
+
+00:08:16.260 --> 00:08:18.260
+budeme možná chtít využít mnoho a mnoho těchto robotů
+
+00:08:18.260 --> 00:08:21.260
+k překonání omezení daných jejich velikostí.
+
+00:08:21.260 --> 00:08:23.260
+Jedna obtížnost je,
+
+00:08:23.260 --> 00:08:26.260
+jak koordinovat množství těchto robotů?
+
+00:08:26.260 --> 00:08:28.260
+A tak jsme se inspirovali u přírody.
+
+00:08:28.260 --> 00:08:30.260
+Chci vám ukázat nahrávku
+
+00:08:30.260 --> 00:08:32.260
+pouštních mravenců rodu Aphaenogaster,
+
+00:08:32.260 --> 00:08:35.260
+kteří v laboratoři profesora Stephena Pratta přenášejí předmět.
+
+00:08:35.260 --> 00:08:37.260
+Tohle je kousek fíku.
+
+00:08:37.260 --> 00:08:39.260
+Každý předmět pokrytý fíkovým džusem
+
+00:08:39.260 --> 00:08:42.260
+si budou chtít přinést zpátky do mraveniště.
+
+00:08:42.260 --> 00:08:45.260
+Tihle mravenci nemají žádného ústředního koordinátora.
+
+00:08:45.260 --> 00:08:47.260
+Vnímají své sousedy.
+
+00:08:47.260 --> 00:08:49.260
+Není zde žádná explicitní komunikace.
+
+00:08:49.260 --> 00:08:51.260
+Protože vnímají jeden druhého,
+
+00:08:51.260 --> 00:08:53.260
+a protože vnímají předmět,
+
+00:08:53.260 --> 00:08:56.260
+mají implicitní koordinaci napříč skupinou.
+
+00:08:56.260 --> 00:08:58.260
+Tohle je typ koordinace,
+
+00:08:58.260 --> 00:09:01.260
+který chceme pro naše roboty.
+
+00:09:01.260 --> 00:09:03.260
+Takže když máme robot,
+
+00:09:03.260 --> 00:09:05.260
+který je obklopen svými sousedy --
+
+00:09:05.260 --> 00:09:07.260
+podívejme se na robot I a robot J --
+
+00:09:07.260 --> 00:09:09.260
+co chceme, aby tyto roboty udělaly,
+
+00:09:09.260 --> 00:09:12.260
+je, aby sledovaly vzdálenost mezi sebou,
+
+00:09:12.260 --> 00:09:14.260
+když letí ve formaci.
+
+00:09:14.260 --> 00:09:16.260
+A pak chceme zajistit
+
+00:09:16.260 --> 00:09:18.260
+aby tato vzdálenost mezi nimi byla v přijatelných mezích.
+
+00:09:18.260 --> 00:09:21.260
+Roboty tak sledují odchylky
+
+00:09:21.260 --> 00:09:23.260
+a vypočítávají řídicí příkazy
+
+00:09:23.260 --> 00:09:25.260
+100krát za sekundu,
+
+00:09:25.260 --> 00:09:28.260
+které posléze převádějí na příkazy motoru 600krát za sekundu.
+
+00:09:28.260 --> 00:09:30.260
+Tohle musí být prováděno
+
+00:09:30.260 --> 00:09:32.260
+decentralizovaně.
+
+00:09:32.260 --> 00:09:34.260
+Opět, pokud máte mnoho těchto robotů,
+
+00:09:34.260 --> 00:09:38.260
+je nemožné koordinovat všechny informace centrálně
+
+00:09:38.260 --> 00:09:41.260
+dostatečně rychle, aby roboty úspěšně splnily úkol.
+
+00:09:41.260 --> 00:09:43.260
+Navíc roboty musí zakládat své jednání
+
+00:09:43.260 --> 00:09:45.260
+pouze na lokálních informacích,
+
+00:09:45.260 --> 00:09:47.260
+které získávají od svých sousedů.
+
+00:09:47.260 --> 00:09:49.260
+A nakonec,
+
+00:09:49.260 --> 00:09:51.260
+trváme na tom, aby roboty byly agnostické
+
+00:09:51.260 --> 00:09:53.260
+k tomu, kdo jsou jejich sousedé.
+
+00:09:53.260 --> 00:09:56.260
+Tohle nazýváme anonymita.
+
+00:09:56.260 --> 00:09:58.260
+Co vám chci ukázat dále,
+
+00:09:58.260 --> 00:10:00.260
+je video
+
+00:10:00.260 --> 00:10:03.260
+dvaceti těchto malých robotů
+
+00:10:03.260 --> 00:10:05.260
+letících ve formaci.
+
+00:10:05.260 --> 00:10:08.260
+Sledují pozice svých sousedů.
+
+00:10:08.260 --> 00:10:10.260
+Udržují formaci.
+
+00:10:10.260 --> 00:10:12.260
+Formace se mohou měnit.
+
+00:10:12.260 --> 00:10:14.260
+Mohou to být rovinné formace,
+
+00:10:14.260 --> 00:10:16.260
+mohou to být trojrozměrné formace.
+
+00:10:16.260 --> 00:10:18.260
+Jak můžete vidět tady,
+
+00:10:18.260 --> 00:10:21.260
+mohou přejít z třírozměrné formace do rovinné formace.
+
+00:10:21.260 --> 00:10:23.260
+A aby překonaly překážky,
+
+00:10:23.260 --> 00:10:27.260
+mohou přizpůsobovat formaci během letu.
+
+00:10:27.260 --> 00:10:30.260
+Znovu, tyhle malé roboty mohou letět velmi blízko sebe.
+
+00:10:30.260 --> 00:10:32.260
+Jak můžete vidět v tomto letu ve tvaru čísla 8,
+
+00:10:32.260 --> 00:10:34.260
+létají od sebe ve vzdálenosti palců (centimetrů).
+
+00:10:34.260 --> 00:10:37.260
+A přes aerodynamické interakce
+
+00:10:37.260 --> 00:10:39.260
+rotorových listů,
+
+00:10:39.260 --> 00:10:41.260
+jsou schopné udržovat stabilní let.
+
+00:10:41.260 --> 00:10:48.260
+(Potlesk)
+
+00:10:48.260 --> 00:10:50.260
+Takže když už jednou víte, jak letět ve formaci,
+
+00:10:50.260 --> 00:10:52.260
+můžete zvedat ve spolupráci předměty.
+
+00:10:52.260 --> 00:10:54.260
+Tohle ukazuje,
+
+00:10:54.260 --> 00:10:57.260
+že můžeme zdvojnásobit, ztrojnásobit či zčtyřnásobit
+
+00:10:57.260 --> 00:10:59.260
+sílu robota
+
+00:10:59.260 --> 00:11:01.260
+jen jeho přidáním do týmu s jeho sousedy, jak můžete vidět zde.
+
+00:11:01.260 --> 00:11:04.260
+Jedna z nevýhod tohoto řešení
+
+00:11:04.260 --> 00:11:06.260
+je, když se takto věci zvětší --
+
+00:11:06.260 --> 00:11:08.260
+když máte mnoho robotů nesoucích jednu věc,
+
+00:11:08.260 --> 00:11:11.260
+v podstatě efektivně stoupá setrvačnost
+
+00:11:11.260 --> 00:11:14.260
+a tedy vás to něco stojí -- nejsou tak mrštní.
+
+00:11:14.260 --> 00:11:17.260
+Nicméně zisk je ve smyslu nosnosti.
+
+00:11:17.260 --> 00:11:19.260
+Jiné použití, které vám chci předvést --
+
+00:11:19.260 --> 00:11:21.260
+opět, tohle je v naší laboratoři.
+
+00:11:21.260 --> 00:11:23.260
+Tohle je práce Quentina Lindseye, který je postgraduální student.
+
+00:11:23.260 --> 00:11:26.260
+Jeho algoritmy v zásadě těmto robotům říkají,
+
+00:11:26.260 --> 00:11:28.260
+jak samostatně stavět
+
+00:11:28.260 --> 00:11:30.260
+krychlové struktury
+
+00:11:30.260 --> 00:11:33.260
+z trámovitých elementů.
+
+00:11:33.260 --> 00:11:35.260
+Jeho algoritmy robotům říkají,
+
+00:11:35.260 --> 00:11:37.260
+kterou část vzít,
+
+00:11:37.260 --> 00:11:39.260
+kdy a jak ji umístit.
+
+00:11:39.260 --> 00:11:41.260
+V tomto videu vidíte --
+
+00:11:41.260 --> 00:11:43.260
+je zrychleno 10- až 14krát --
+
+00:11:43.260 --> 00:11:46.260
+vidíte tři rozdílné struktury, které tyhle roboty staví.
+
+00:11:46.260 --> 00:11:48.260
+A opět, všechno je to samostatné,
+
+00:11:48.260 --> 00:11:50.260
+a všechno, co Quentin musí udělat,
+
+00:11:50.260 --> 00:11:52.260
+je dát jim plánek
+
+00:11:52.260 --> 00:11:56.260
+stavby, kterou chce, aby postavily.
+
+00:11:56.260 --> 00:11:59.260
+Všechny tyhle experimenty, které jste dosud viděli,
+
+00:11:59.260 --> 00:12:01.260
+všechny tyto demonstrace,
+
+00:12:01.260 --> 00:12:04.260
+byly provedeny s pomocí systémů pro snímání pohybů.
+
+00:12:04.260 --> 00:12:06.260
+Co se stane, když opustíte laboratoř
+
+00:12:06.260 --> 00:12:09.260
+a půjdete do skutečného světa?
+
+00:12:09.260 --> 00:12:12.260
+A co když zde není GPS?
+
+00:12:12.260 --> 00:12:14.260
+Takže tento robot
+
+00:12:14.260 --> 00:12:16.260
+je vybavený kamerou
+
+00:12:16.260 --> 00:12:19.260
+a laserovým dálkoměrem, laserovým scannerem.
+
+00:12:19.260 --> 00:12:21.260
+A používá tyto senzory
+
+00:12:21.260 --> 00:12:23.260
+k vybudování mapy prostředí.
+
+00:12:23.260 --> 00:12:26.260
+Tato mapa se skládá z prvků --
+
+00:12:26.260 --> 00:12:28.260
+jako jsou dveře, okna,
+
+00:12:28.260 --> 00:12:30.260
+lidé, nábytek --
+
+00:12:30.260 --> 00:12:32.260
+a pak zjišťuje, kde se nachází
+
+00:12:32.260 --> 00:12:34.260
+vzhledem k nim.
+
+00:12:34.260 --> 00:12:36.260
+Není zde žádný globální souřadnicový systém.
+
+00:12:36.260 --> 00:12:39.260
+Souřadnicový systém je určen dle robota,
+
+00:12:39.260 --> 00:12:42.260
+kde je a na co se dívá.
+
+00:12:42.260 --> 00:12:45.260
+A navádí jej s ohledem na tyto prvky.
+
+00:12:45.260 --> 00:12:47.260
+Chci vám ukázat nahrávku
+
+00:12:47.260 --> 00:12:49.260
+algoritmů vyvinutých Frankem Shenem
+
+00:12:49.260 --> 00:12:51.260
+a profesorem Nathanem Michaelem,
+
+00:12:51.260 --> 00:12:55.260
+která ukazuje tohoto robota vstupujícího úplně poprvé do budovy.
+
+00:12:55.260 --> 00:12:58.260
+A vytvářejícího tuto mapu za letu.
+
+00:12:58.260 --> 00:13:01.260
+Robot pak zjistí, jaké prvky tu jsou.
+
+00:13:01.260 --> 00:13:03.260
+A vybuduje si mapu.
+
+00:13:03.260 --> 00:13:05.260
+Zjistí, kde je s ohledem k těmto prvkům
+
+00:13:05.260 --> 00:13:07.260
+a poté odhadne svoji pozici,
+
+00:13:07.260 --> 00:13:09.260
+a to 100krát za sekundu,
+
+00:13:09.260 --> 00:13:11.260
+což mu dovolují řídicí algoritmy,
+
+00:13:11.260 --> 00:13:13.260
+které jsem popsal dříve.
+
+00:13:13.260 --> 00:13:15.260
+Tento robot je ovládán
+
+00:13:15.260 --> 00:13:17.260
+dálkově Frankem.
+
+00:13:17.260 --> 00:13:19.260
+Ale robot dovede zjistit,
+
+00:13:19.260 --> 00:13:21.260
+kam jít, i zcela sám.
+
+00:13:21.260 --> 00:13:23.260
+Představme si, že jsem jej poslal do budovy
+
+00:13:23.260 --> 00:13:25.260
+a nemám vůbec žádnou představu, jak budova vypadá,
+
+00:13:25.260 --> 00:13:27.260
+mohu poslat robota dovnitř,
+
+00:13:27.260 --> 00:13:29.260
+aby vytvořil mapu,
+
+00:13:29.260 --> 00:13:32.260
+a pak se vrátil a řekl mi, jak budova vypadá.
+
+00:13:32.260 --> 00:13:35.260
+A tak zde, robot neřeší jenom problém,
+
+00:13:35.260 --> 00:13:38.260
+jak se dostat z místa A do místa B na této mapě,
+
+00:13:38.260 --> 00:13:40.260
+ale zjišťuje,
+
+00:13:40.260 --> 00:13:42.260
+co je bod B.
+
+00:13:42.260 --> 00:13:45.260
+V podstatě ví, kam jít,
+
+00:13:45.260 --> 00:13:47.260
+aby se podíval po místech, o kterých má nejméně informací.
+
+00:13:47.260 --> 00:13:50.260
+A tak zaplňuje tuto mapu.
+
+00:13:50.260 --> 00:13:52.260
+Chci svou řeč ukončit
+
+00:13:52.260 --> 00:13:54.260
+s ještě jednou aplikací.
+
+00:13:54.260 --> 00:13:57.260
+Existuje mnoho použití této technologie,
+
+00:13:57.260 --> 00:13:59.260
+a jako profesor jsem nadšený výukou.
+
+00:13:59.260 --> 00:14:01.260
+Roboty jako tyto mohou změnit způsob,
+
+00:14:01.260 --> 00:14:03.260
+jak provádíme výuku na prvních dvou stupních.
+
+00:14:03.260 --> 00:14:05.260
+Ale jsme v jižní Kalifornii,
+
+00:14:05.260 --> 00:14:07.260
+blízko Los Angeles,
+
+00:14:07.260 --> 00:14:09.260
+takže musím vše shrnout
+
+00:14:09.260 --> 00:14:11.260
+něčím, co je zaměřeno na zábavu.
+
+00:14:11.260 --> 00:14:13.260
+Chci vše shrnout jedním hudebním klipem.
+
+00:14:13.260 --> 00:14:16.260
+Chci vám představit autory, Alexe a Daniela,
+
+00:14:16.260 --> 00:14:18.260
+kteří vyrobili toto video.
+
+00:14:18.260 --> 00:14:25.260
+(Potlesk)
+
+00:14:25.260 --> 00:14:27.260
+Předtím, než pustím video,
+
+00:14:27.260 --> 00:14:30.260
+chci vám říct, že jej vyráběli v posledních třech dnech,
+
+00:14:30.260 --> 00:14:32.260
+po Chrisově telefonátu.
+
+00:14:32.260 --> 00:14:34.260
+A roboty ve videu
+
+00:14:34.260 --> 00:14:36.260
+jsou zcela autonomní.
+
+00:14:36.260 --> 00:14:39.260
+Uvidíte devět robotů hrajících na šest různých nástrojů.
+
+00:14:39.260 --> 00:14:43.260
+A je samozřejmě vytvořeno exkluzivně pro TED 2012.
+
+00:14:43.260 --> 00:14:46.260
+Dívejte se.
+
+00:15:19.260 --> 00:15:29.260
+(Hudba)
+
+00:16:23.260 --> 00:16:40.260
+(Potlesk)
+

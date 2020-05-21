@@ -1,0 +1,629 @@
+WEBVTT
+Kind: captions
+Language: sq
+
+00:00:00.000 --> 00:00:07.000
+Translator: Liridon Shala
+Reviewer: Robert Lokaj
+
+00:00:15.260 --> 00:00:18.260
+Shumë besojnë që vozitja është një aktivitet
+
+00:00:18.260 --> 00:00:20.260
+veqanarisht e rezervuar vetem për ata që shofin.
+
+00:00:20.260 --> 00:00:23.260
+Një përsonë i verbër që vozitë një makinë sigurtë dhe pavarësishtë
+
+00:00:23.260 --> 00:00:26.260
+ishte menduar të jetë një detyr e pamundur, deri tani.
+
+00:00:26.260 --> 00:00:28.260
+Përshendetje, emri imë është Dennis Hong,
+
+00:00:28.260 --> 00:00:30.260
+dhe ne do të sjellim lirinë dhe pavarësin për të verbërit
+
+00:00:30.260 --> 00:00:33.260
+duke ndërtuar një makinë për demtuarit vizuelë.
+
+00:00:33.260 --> 00:00:36.260
+Pra para se të flasë për këtë makinë për të verbërit,
+
+00:00:36.260 --> 00:00:38.260
+më lejoni t'ju tregoj dqka rreth një projekti për të cilin kam punuar
+
+00:00:38.260 --> 00:00:40.260
+të quajtur DARPA sfida urbane.
+
+00:00:40.260 --> 00:00:42.260
+Tani kjo është rreth ndërtimit të një roboti makinë
+
+00:00:42.260 --> 00:00:44.260
+i cili mund të vozitet vetëvetiu.
+
+00:00:44.260 --> 00:00:46.260
+Ju prekni fillo, askush nuk prek asgjë tjetër,
+
+00:00:46.260 --> 00:00:49.260
+dhe mund të arrinë destinacjonin e tij komplet i pamvarurë.
+
+00:00:49.260 --> 00:00:52.260
+Pra në vitin 2007, ekip ynë fitoi gjysm miljoni dollarë
+
+00:00:52.260 --> 00:00:54.260
+duke vendosur vendin e tretë në këtë kompeticjonë.
+
+00:00:54.260 --> 00:00:56.260
+Pra rreth asaj kohe,
+
+00:00:56.260 --> 00:00:58.260
+federata nacjonale e të verbërve, apo NFB,
+
+00:00:58.260 --> 00:01:00.260
+sfido
+
+00:01:00.260 --> 00:01:02.260
+rreth asaj se kush mund të zhvilloj një makinë
+
+00:01:02.260 --> 00:01:04.260
+që i mundëson një përsoni të verbër të vozis i pavarur dhe i sigurtë.
+
+00:01:04.260 --> 00:01:06.260
+Ne vendosem ta provojmë atë,
+
+00:01:06.260 --> 00:01:08.260
+sepse ne menduam, "Hey, sa vështir mund të jetë?"
+
+00:01:08.260 --> 00:01:10.260
+Ne pothuajse kemi një makinë të pamvarur.
+
+00:01:10.260 --> 00:01:12.260
+Ne vetem vendosim një përson në të dhe jemi në rregull?
+
+00:01:12.260 --> 00:01:14.260
+(Qeshen)
+
+00:01:14.260 --> 00:01:16.260
+Ne nuk mund të ishim edhe më keqë.
+
+00:01:16.260 --> 00:01:18.260
+Atë që NFB-ja dëshironte
+
+00:01:18.260 --> 00:01:21.260
+jo një makinë e cila mund të vozitë një përson të verbër rreth e rrotullë,
+
+00:01:21.260 --> 00:01:24.260
+mirpo një makinë ku një përson i verbër mund të marrë vendima aktive dhe të vozisë.
+
+00:01:24.260 --> 00:01:26.260
+Pra duhet të nxjerrim gjdogjë jashtë dritares
+
+00:01:26.260 --> 00:01:28.260
+dhe të fillojmë nga fillimi.
+
+00:01:28.260 --> 00:01:30.260
+Pra për të testuar këtë ide të qmendur,
+
+00:01:30.260 --> 00:01:32.260
+ne zhvilluam një prototipë motoqikëlet të vogel
+
+00:01:32.260 --> 00:01:34.260
+për të testuar fizibilitetinë.
+
+00:01:34.260 --> 00:01:36.260
+Dhe në verë të viti 2009,
+
+00:01:36.260 --> 00:01:39.260
+ne ftuam një grup të verbërish nga e gjithë shteti
+
+00:01:39.260 --> 00:01:41.260
+dhe ti japim atyre nga një shancë për të filluar një gjiro.
+
+00:01:41.260 --> 00:01:43.260
+Ishte një eksperiencë e mahnitëshme.
+
+00:01:43.260 --> 00:01:45.260
+Mirpo problemi më këtë makinë ishte
+
+00:01:45.260 --> 00:01:48.260
+dizjanuar të jetë kontrolluar veten në një ambient,
+
+00:01:48.260 --> 00:01:50.260
+në një paking të mbyllur --
+
+00:01:50.260 --> 00:01:52.260
+madje edhe një korsi të definuar nga zona e kuqe e trafikut.
+
+00:01:52.260 --> 00:01:54.260
+Pra me këtë sukësesë,
+
+00:01:54.260 --> 00:01:56.260
+ne vendosem të marrim një hapë të madhë,
+
+00:01:56.260 --> 00:01:59.260
+për të zhvilluar një makinë të vërtet e cila mund të vozitet në rrugë të vërteta.
+
+00:01:59.260 --> 00:02:01.260
+Pra si funksionon?
+
+00:02:01.260 --> 00:02:03.260
+Mirë, është një sistem kompleks,
+
+00:02:03.260 --> 00:02:06.260
+mirpo më lejoni t'ju sqaroi atë,
+
+00:02:06.260 --> 00:02:08.260
+Pra ne kemi tre hapa.
+
+00:02:08.260 --> 00:02:10.260
+Ne kemi përcepcionin,kompjutimin
+
+00:02:10.260 --> 00:02:12.260
+dhe platëformen jo-vizuale.
+
+00:02:12.260 --> 00:02:14.260
+Tani shoferi nuk mund të shef,
+
+00:02:14.260 --> 00:02:16.260
+pra sistemi duhet ta abzorvoi ambientinë
+
+00:02:16.260 --> 00:02:18.260
+dhe të mbledhë informacione për shoferin.
+
+00:02:18.260 --> 00:02:21.260
+Për atë, ne përdorim një njësi matëse fillestare.
+
+00:02:21.260 --> 00:02:23.260
+Pra matë akselerimin, akselerimin këndorë --
+
+00:02:23.260 --> 00:02:25.260
+sikurse një vesh i njeriu, veshi i brendshem.
+
+00:02:25.260 --> 00:02:27.260
+Ne e përdorim këtë informacion më një njësi GPS-je
+
+00:02:27.260 --> 00:02:30.260
+për të marrurë lokacionin e makinës.
+
+00:02:30.260 --> 00:02:33.260
+Ne gjithashtu përdorim dy kamera për të detektuar korsit e rrugës.
+
+00:02:33.260 --> 00:02:35.260
+Dhe ne gjithashtu përdorim tre llaser për gjetjen e gjërsis.
+
+00:02:35.260 --> 00:02:38.260
+Llaseri skanon ambientin për të detektuar pengesat--
+
+00:02:38.260 --> 00:02:40.260
+një makinë duke e atakuar nga para, mbrapa
+
+00:02:40.260 --> 00:02:43.260
+dhe gjithashtu edhe ndonjë penges e cila delë në rrugë,
+
+00:02:43.260 --> 00:02:45.260
+ndonjë penges rreth automjetit.
+
+00:02:45.260 --> 00:02:48.260
+Pra e gjithë sasia e mbetur e informacioneve dergohet në kompjuter,
+
+00:02:48.260 --> 00:02:50.260
+dhe kompjuteri mund ti bejë dy gjëra.
+
+00:02:50.260 --> 00:02:53.260
+Një është, së pari ti procesoj këto informacione
+
+00:02:53.260 --> 00:02:55.260
+për të pasur një kuptueshmëri të ambientit--
+
+00:02:55.260 --> 00:02:58.260
+Këto korsi rruges, pengesa --
+
+00:02:58.260 --> 00:03:00.260
+dhe ti përpunoi këto informacione për shoferin.
+
+00:03:00.260 --> 00:03:02.260
+Sistemi gjithashtu është i menqur sa duhet
+
+00:03:02.260 --> 00:03:04.260
+për të gjetur menyren më të sigurtë për të operuar makinen.
+
+00:03:04.260 --> 00:03:06.260
+Pra ne gjitahshtu mund të gjenerojmë instruksione
+
+00:03:06.260 --> 00:03:08.260
+se si të operojmë dhe kontrollojmë makinen.
+
+00:03:08.260 --> 00:03:10.260
+Mirpo problemi është ky: Si do ta bindim
+
+00:03:10.260 --> 00:03:12.260
+këto informacione dhe instruksion
+
+00:03:12.260 --> 00:03:14.260
+tek një person që nuk shef
+
+00:03:14.260 --> 00:03:17.260
+aq shpejt sa duhet dhe saktësisht sa duhet që të vozisë?
+
+00:03:17.260 --> 00:03:19.260
+Deri më tani, kemi zhvilluar shumë lloje
+
+00:03:19.260 --> 00:03:22.260
+të teknologjike jo-vizuele.
+
+00:03:22.260 --> 00:03:24.260
+Duek filluar nga 3 dimesionale ping sistemit të zerit,
+
+00:03:24.260 --> 00:03:26.260
+një jelek vibrues,
+
+00:03:26.260 --> 00:03:29.260
+një klikim rrotash me komanda zanore, një shirit këmbe,
+
+00:03:29.260 --> 00:03:31.260
+madje edhe këpuc të cilat aplikojnë presoj tek këmba.
+
+00:03:31.260 --> 00:03:33.260
+Mirpo sot do të flasim rreth
+
+00:03:33.260 --> 00:03:35.260
+tri prej tyre platformave jo vizuele.
+
+00:03:35.260 --> 00:03:38.260
+Platëforma e parë quhet a DriverGrip.
+
+00:03:38.260 --> 00:03:40.260
+Pra këto janë palë dorzash,
+
+00:03:40.260 --> 00:03:42.260
+dhe kanë elemente vibruese në pjesën gishtrinjëve
+
+00:03:42.260 --> 00:03:45.260
+pra ju mund të transferoni instruksione se si të ndrroni
+
+00:03:45.260 --> 00:03:47.260
+drejtimin dhe intenzitetin.
+
+00:03:47.260 --> 00:03:49.260
+Një tjetër paisje quhet SpeedStrip.
+
+00:03:49.260 --> 00:03:52.260
+Pra kjo është një karrige -- si faktë, është një karrige e porosive.
+
+00:03:52.260 --> 00:03:56.260
+Ne kemi shkuar jasht, dhe po ri-aranzhmojmë disa elemente vibruese,
+
+00:03:56.260 --> 00:03:59.260
+dhe faktikisht ne po përpiqemi të mbledhim informacionet rreth shpejtësis,
+
+00:03:59.260 --> 00:04:02.260
+dhe gjithashtu ti instrukëtojmë se si ta përdorin gazin dhe frenin e këmbes.
+
+00:04:02.260 --> 00:04:04.260
+Pra këtu, ju mund të shihni
+
+00:04:04.260 --> 00:04:06.260
+se si kompjuteri e kupëton ambientinë,
+
+00:04:06.260 --> 00:04:08.260
+dhe sepse ju nuk mund ta shihni vibrimet,
+
+00:04:08.260 --> 00:04:11.260
+ne faktikisht kemi vendosur një LED në shofer që ju të mund të shihni atë që po ndodhë.
+
+00:04:11.260 --> 00:04:13.260
+Ky është një senzorë i të dhënave,
+
+00:04:13.260 --> 00:04:16.260
+dhe të dhënat janë transferuar në paisje nepërmjet kompjuerit.
+
+00:04:16.260 --> 00:04:18.260
+Pra këto dy paisje,DriverGrip dhe SpeedStrip,
+
+00:04:18.260 --> 00:04:20.260
+janë shumë efektive.
+
+00:04:20.260 --> 00:04:22.260
+Mirpo problemi është
+
+00:04:22.260 --> 00:04:24.260
+këto janë paisje instruksionale.
+
+00:04:24.260 --> 00:04:26.260
+Kjo nuk është liri e vërtet, apo jo?
+
+00:04:26.260 --> 00:04:28.260
+Kompjuteri na tregon neve se si të vozitim --
+
+00:04:28.260 --> 00:04:30.260
+kthehu majtas, kthehu djathëtas, rritë shpejtësin, ndalo.
+
+00:04:30.260 --> 00:04:32.260
+Ne e quajmë këtë " problemi i ulëses mbapa."
+
+00:04:32.260 --> 00:04:35.260
+Pra ne po lëvizemi nga paisja instruksionale,
+
+00:04:35.260 --> 00:04:37.260
+dhe npo fokusohemi më tepër
+
+00:04:37.260 --> 00:04:39.260
+në paisjen informative.
+
+00:04:39.260 --> 00:04:41.260
+Një shembull i mirë i kësaj platëforme për shfrytëzuesit jo-vizuel
+
+00:04:41.260 --> 00:04:43.260
+është quajtur AirPix.
+
+00:04:43.260 --> 00:04:45.260
+Pra mendoni për të si një monitor për të verbërit.
+
+00:04:45.260 --> 00:04:47.260
+Pra është një tablet i menqur,ka shumë vrima në të,
+
+00:04:47.260 --> 00:04:49.260
+dhe ajëri i kompersuar del jashtë,
+
+00:04:49.260 --> 00:04:51.260
+pra faktikisht mund të vizaton imazhe.
+
+00:04:51.260 --> 00:04:53.260
+Madje edhe pse jeni i verbër,ju mund ta vendosni doren tuaj mbi të,
+
+00:04:53.260 --> 00:04:55.260
+ju mund të shihni objketet ne rrugë.
+
+00:04:55.260 --> 00:04:58.260
+Faktikisht, ju mund ta ndryshoni frekuencen e ajërit që del jashtë
+
+00:04:58.260 --> 00:05:00.260
+dhe mundësisht edhe temperaturen.
+
+00:05:00.260 --> 00:05:03.260
+Pra faktikisht është një platëform multi-dimensionale për shfrytëzuesin.
+
+00:05:03.260 --> 00:05:06.260
+Pra këtu mund ta shihni kameren e majtë, kamera e djathët nga makina
+
+00:05:06.260 --> 00:05:09.260
+dhe se si kompjuteri interpreton atë dhe e dërgon atë informacion tek AirPix.
+
+00:05:09.260 --> 00:05:11.260
+Për këtë, ne do të shfaqim një simulues,
+
+00:05:11.260 --> 00:05:14.260
+një përson i verbër duke vozitur një AirPix.
+
+00:05:14.260 --> 00:05:17.260
+Ky simulator ishte gjithashtu shumë i përdorshem për trajnimin e shoferëve të verbër
+
+00:05:17.260 --> 00:05:19.260
+dhe gjithashtu testimin e shpejt të ideja të ndryshme
+
+00:05:19.260 --> 00:05:21.260
+për shfrytëzues të platëformave të ndryshem jo-vizuele.
+
+00:05:21.260 --> 00:05:23.260
+Pra faktikisht ajo se si funksionon.
+
+00:05:23.260 --> 00:05:25.260
+Pra vetem para një muaji,
+
+00:05:25.260 --> 00:05:27.260
+më 29, Janarë,
+
+00:05:27.260 --> 00:05:29.260
+ne shpalosem këtë makinë për herë të parë për publikun
+
+00:05:29.260 --> 00:05:32.260
+tek e famshmëja Dayton International Speedway
+
+00:05:32.260 --> 00:05:34.260
+gjatë garaes 24 Rolex.
+
+00:05:34.260 --> 00:05:37.260
+Ne gjithashtu patem disa surpriza. Le ti japim një shiqim.
+
+00:05:37.260 --> 00:05:47.260
+(Musika)
+
+00:05:47.260 --> 00:05:51.260
+(Video) Prezentuesi: Kjo është një ditë historike në Janarë.
+
+00:05:51.260 --> 00:05:55.260
+Ai po vjen në para hyrëjse së madhe, Federista të dashurë.
+
+00:05:55.260 --> 00:06:01.260
+(Brohoritje)
+
+00:06:01.260 --> 00:06:04.260
+( i bie borisë)
+
+00:06:04.260 --> 00:06:06.260
+Ja ku është hyrja e madhe tani.
+
+00:06:06.260 --> 00:06:10.260
+Dhe ai [i pa pastër] duke ndjekur atë kombi i cili përpara tij.
+
+00:06:10.260 --> 00:06:12.260
+Ja ku vjen kuti e parë.
+
+00:06:12.260 --> 00:06:15.260
+Tani të shofim nëse Marku i shmanget asaj.
+
+00:06:15.260 --> 00:06:18.260
+Ai e bënë. Ai e kaloi në të djethët.
+
+00:06:20.260 --> 00:06:23.260
+Kuti e tretë është jashtë. Edhe kuti e katërt.
+
+00:06:23.260 --> 00:06:26.260
+Ai po e hynë nepërmjet të dyjave lehtësisht.
+
+00:06:26.260 --> 00:06:28.260
+Ai po përgatitet për tejkalim
+
+00:06:28.260 --> 00:06:31.260
+për të tejkaluarë.
+
+00:06:32.260 --> 00:06:34.260
+Mirpo kjo është e gjitha,
+
+00:06:34.260 --> 00:06:38.260
+ky një lloje paraqitje dinamike.
+
+00:06:39.260 --> 00:06:42.260
+Ai po arrinë përfundimin e rrugës,
+
+00:06:42.260 --> 00:06:47.260
+po bënë rrugen e tij në mesë të barierave mirë po i'a arrinë.
+
+00:06:47.260 --> 00:06:50.260
+(i bie burisë)
+
+00:06:50.260 --> 00:06:53.260
+(Duartrokitje)
+
+00:06:56.260 --> 00:06:58.260
+Dennis Hong: Jam shumë i lumtur për ty.
+
+00:06:58.260 --> 00:07:00.260
+Mark do të më vozisë deri në hotel.
+
+00:07:00.260 --> 00:07:02.260
+Mark Riccobono: Po.
+
+00:07:05.260 --> 00:07:14.260
+(Duartrokitje)
+
+00:07:14.260 --> 00:07:16.260
+DH: Pra që nga koha që filluam këtë prjektë,
+
+00:07:16.260 --> 00:07:19.260
+kemi marrur qindra letra,email, telfonata
+
+00:07:19.260 --> 00:07:21.260
+nga njerëzit nga e gjithë bota.
+
+00:07:21.260 --> 00:07:24.260
+Letra që na falenderojnë neve, mirpo nganjëher ne gjithashtu marrim letra qesharake sikurse kjo:
+
+00:07:24.260 --> 00:07:28.260
+"Unë e kuptoj përse është një prekës në një bankomatë."
+
+00:07:28.260 --> 00:07:30.260
+(Qeshen)
+
+00:07:30.260 --> 00:07:32.260
+Mirpo nganjëher --
+
+00:07:32.260 --> 00:07:34.260
+(Qeshen)
+
+00:07:34.260 --> 00:07:36.260
+Mirpo nganjëher unë gjithashtu pranoj --
+
+00:07:36.260 --> 00:07:38.260
+do ta quaja email urrejtëje --
+
+00:07:38.260 --> 00:07:40.260
+mirpo letra të brengosjes së thell:
+
+00:07:40.260 --> 00:07:42.260
+"Dr.Hong a je i qmendur,
+
+00:07:42.260 --> 00:07:44.260
+po përpiqesh ti vësh njerëzit e verbër në rrugë?
+
+00:07:44.260 --> 00:07:46.260
+Duhet të jesh i qmendur."
+
+00:07:46.260 --> 00:07:48.260
+Mirpo kjo makinë është prototipë,
+
+00:07:48.260 --> 00:07:50.260
+dhe nuk do të jetë në rrugë
+
+00:07:50.260 --> 00:07:52.260
+gjersa të provohet si e sigurtë, apo më e sigurt se makinat e sotit.
+
+00:07:52.260 --> 00:07:55.260
+Unë plotësisht besoj se kjo do të ndodhë.
+
+00:07:55.260 --> 00:07:57.260
+Mirpo akoma, a do që shoqëria
+
+00:07:57.260 --> 00:07:59.260
+të pranoj këtë ide aq radikale?
+
+00:07:59.260 --> 00:08:01.260
+Si do ta sigurojmë?
+
+00:08:01.260 --> 00:08:03.260
+Si do të lëshohen patent shoferat?
+
+00:08:03.260 --> 00:08:06.260
+Ka shumë gjëra të brengosëshme përveq sfides teknologjike
+
+00:08:06.260 --> 00:08:09.260
+që ne duhet ti adresohemi përpara se të bëhemi realitetë.
+
+00:08:09.260 --> 00:08:11.260
+Sigurisht, qëllimi kryesor i projekëtit
+
+00:08:11.260 --> 00:08:13.260
+është zhvillimi i makinës për të verbërit.
+
+00:08:13.260 --> 00:08:15.260
+Mirpo potencjalisht më e rendësishme se kjo
+
+00:08:15.260 --> 00:08:18.260
+është vlera teknologjisë lëvizese
+
+00:08:18.260 --> 00:08:20.260
+e cila mund të vjen me këtë projektë.
+
+00:08:20.260 --> 00:08:22.260
+Senzorët që janë përdorur mund të shofin edhe në errësirë,
+
+00:08:22.260 --> 00:08:24.260
+mjegullë dhe shi.
+
+00:08:24.260 --> 00:08:26.260
+Dhe së bashku me këtë lloje platëforme të re,
+
+00:08:26.260 --> 00:08:28.260
+ne mund ta përdorim këtë teknologji
+
+00:08:28.260 --> 00:08:30.260
+dhe të aplikojmë këtë makinë të sigurtë për njerëz të rendomët.
+
+00:08:30.260 --> 00:08:33.260
+apo për njerëz të verbër, përdorim të përditshem --
+
+00:08:33.260 --> 00:08:35.260
+në rregullime edukative, në zyra.
+
+00:08:35.260 --> 00:08:38.260
+Vetem imagjinoni në një klasë, një mësues shkruan në drrasën e zezë
+
+00:08:38.260 --> 00:08:41.260
+dhe një student i verbër mund të shef dhe të lexon atë
+
+00:08:41.260 --> 00:08:43.260
+duke përdorur këto platëforma jo-vizuele.
+
+00:08:43.260 --> 00:08:46.260
+Kjo është pricë.
+
+00:08:46.260 --> 00:08:49.260
+Pra sotë, gjërat që unë ju kam shfaqur juve, janë vetem fillimi.
+
+00:08:49.260 --> 00:08:51.260
+Faliminderit shumë.
+
+00:08:51.260 --> 00:09:02.260
+(Duartrokitje)
+

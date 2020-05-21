@@ -1,0 +1,212 @@
+WEBVTT
+Kind: captions
+Language: hr
+
+00:00:00.000 --> 00:00:07.000
+Prevoditelj: Tilen Pigac - EFZG
+Recezent: Mislav Ante Omazić - EFZG
+
+00:00:19.330 --> 00:00:21.330
+1952.godine, Buckminster Fuller
+
+00:00:21.330 --> 00:00:25.330
+je iznio naročito drzak prijedlog za Geoscope.
+
+00:00:25.330 --> 00:00:28.330
+Bila je to dijametrična geodezična sfera od 60ak metara
+
+00:00:28.330 --> 00:00:33.330
+koja bi bila obješena preko East Rivera sve u New York City, s potpunim pogledom na Ujedinjene Narode.
+
+00:00:33.330 --> 00:00:39.330
+Bila je to velika ideja, zasigurno, i jedna od onih za koju je osjećao da bi uistinu mogla informirati
+
+00:00:39.330 --> 00:00:43.330
+i duboko utjecati na donošenje odluka tog tijela
+
+00:00:43.330 --> 00:00:47.330
+kroz animacije globalnih podataka, trendova
+
+00:00:47.330 --> 00:00:51.330
+i drugih informacija koje se tiču kugle, na toj sferi.
+
+00:00:51.330 --> 00:00:54.330
+I danas, 45 godina kasnije,
+
+00:00:54.330 --> 00:00:57.330
+mi očito nemamo manju potrebu za takvom vrstom jasnoće i perspektive,
+
+00:00:57.330 --> 00:01:00.330
+ali ono što imamo je poboljšana tehnologija.
+
+00:01:00.330 --> 00:01:03.330
+Danas nam nije potrebno milijun žarulja kako bi stvorili sferični zaslon.
+
+00:01:03.330 --> 00:01:05.330
+Možemo koristiti LED diode.
+
+00:01:05.330 --> 00:01:10.330
+LED-ice su manje, jeftinije su, duže traju, efikasnije su.
+
+00:01:10.330 --> 00:01:12.330
+Ali najvažnije za ovo, one su brže.
+
+00:01:12.330 --> 00:01:16.330
+A ta brzina, u kombinaciji s današnjim mikro-kontrolorima visokih performansi
+
+00:01:16.330 --> 00:01:19.330
+omogućili su nam da zapravo simuliramo, u ovom dijelu,
+
+00:01:19.330 --> 00:01:23.330
+preko 17.000 LED-ica -- koristeći samo 64.
+
+00:01:24.330 --> 00:01:28.330
+A način na koji se to događa je putem fenomena dosljednosti prikaza.
+
+00:01:28.330 --> 00:01:32.330
+Ali kao što taj prsten rotira na oko 1.700 okretaja po minuti -- to je 28 puta u sekundi.
+
+00:01:33.330 --> 00:01:36.330
+Brzina ekvatora je zapravo oko 97 kilometara na sat.
+
+00:01:36.330 --> 00:01:38.330
+Na njemu se nalazi četiri mikro-kontrolora
+
+00:01:38.330 --> 00:01:41.330
+koji, svaki put kada ga prsten zarotira,
+
+00:01:41.330 --> 00:01:43.330
+kako prolazi stražnjim dijelom zaslona,
+
+00:01:43.330 --> 00:01:45.330
+pokupi pozicijski signal
+
+00:01:45.330 --> 00:01:47.330
+i iz toga, postojeći mikro-kontrolori
+
+00:01:47.330 --> 00:01:52.330
+mogu izvršiti ekstrapolaciju pozicije prstena na svim točkama oko revolucije
+
+00:01:52.330 --> 00:01:55.330
+i zaslona proizvoljnih bitmap slika i animacija.
+
+00:01:55.330 --> 00:01:58.330
+Ali to je stvarno samo početak.
+
+00:01:58.330 --> 00:02:01.330
+Nastavno na verzije tog zaslona viših rezolucija,
+
+00:02:01.330 --> 00:02:04.330
+moj otac i ja radimo na novom dizajnu koji čeka odobravanje patentnog ureda
+
+00:02:04.330 --> 00:02:07.330
+za potpun volumetrični zaslon koristeći isti fenomen.
+
+00:02:07.330 --> 00:02:10.330
+Postiže to rotirajući LED-ice oko dvije osi.
+
+00:02:10.330 --> 00:02:13.330
+Kao što možete vidjeti ovdje, ovo je matična ploča promjera 28 centimetara.
+
+00:02:13.330 --> 00:02:15.330
+Ovi blokovi predstavljaju LED-ice.
+
+00:02:15.330 --> 00:02:19.330
+I možete vidjeti kako taj disk rotira oko tih osi,
+
+00:02:19.330 --> 00:02:22.330
+on će kreirati disk svjetla koji možemo kontrolirati.
+
+00:02:22.330 --> 00:02:24.330
+To nije ništa novo, to je propelerski sat.
+
+00:02:24.330 --> 00:02:27.330
+To su naplatci koje možete kupiti za svoj auto.
+
+00:02:27.330 --> 00:02:32.330
+Ali ono što je novo, je da kada rotiramo disk oko tih osi,
+
+00:02:32.330 --> 00:02:35.330
+sada disk svjetlo zapravo postaje sfera svjetlo.
+
+00:02:35.330 --> 00:02:37.330
+I tako mi to možemo kontrolirati s mikro-kontrolorima
+
+00:02:37.330 --> 00:02:43.330
+i stvoriti potpun volumetričan, trodimenzionalan zaslon sa samo 256 LED-ica.
+
+00:02:43.330 --> 00:02:45.330
+Sada, taj dio je trenutno u procesu --
+
+00:02:45.330 --> 00:02:50.330
+trebao bi izaći u svibnju, ali ono što smo napravili jest da smo sastavili zajedno mali demo,
+
+00:02:50.330 --> 00:02:54.330
+samo kako bi vam prikazali geometrijski prijelaz točaka u sferu.
+
+00:02:54.330 --> 00:02:56.330
+Imam kratak video koji vam želim pokazati,
+
+00:02:56.330 --> 00:03:00.330
+ali imajte na umu kako je ovo bez elektroničke kontrole,
+
+00:03:00.330 --> 00:03:02.330
+i to je ujedno samo s četiri LED-ice.
+
+00:03:02.330 --> 00:03:05.330
+To je zapravo samo oko 1,5 posto onoga kakav će završni zaslon biti u svibnju.
+
+00:03:05.330 --> 00:03:07.330
+Dakle, pogledajte.
+
+00:03:09.330 --> 00:03:13.330
+I ovdje možete vidjeti kako rotira samo oko vertikalne osi, stvarajući krugove.
+
+00:03:17.330 --> 00:03:19.330
+A zatim, kako se druga os priključuje,
+
+00:03:19.330 --> 00:03:21.330
+one se zapravo stope u jednu.
+
+00:03:21.330 --> 00:03:23.330
+A brzina zatvarača na fotoaparatu
+
+00:03:23.330 --> 00:03:26.330
+je čini zapravo malo manje efikasnijom u ovom slučaju.
+
+00:03:26.330 --> 00:03:28.330
+Ali ovaj dio treba izaći u svibnju.
+
+00:03:28.330 --> 00:03:31.330
+Bit će prikazivan na Proljetnom sajmu interaktivnih telekomunikacija
+
+00:03:31.330 --> 00:03:33.330
+u Greenwich Village-u u New York City-u -- otvoreno je za javnost,
+
+00:03:33.330 --> 00:03:37.330
+definitivno pozivam sve vas da dođete -- to je fantastičan sajam.
+
+00:03:37.330 --> 00:03:41.330
+Tamo dolaze stotine studenata inovatora s fantastičnim projektima.
+
+00:03:41.330 --> 00:03:43.330
+Ovaj komad, zapravo, će biti prikazivan
+
+00:03:43.330 --> 00:03:45.330
+dolje u Sierra Simulcast Lounge-u
+
+00:03:45.330 --> 00:03:47.330
+u periodima između sada i kraja sajma.
+
+00:03:47.330 --> 00:03:49.330
+Stoga bih volio popričati sa svima vama, i pozvati vas
+
+00:03:49.330 --> 00:03:51.330
+da dođete dolje i pobliže to pogledate.
+
+00:03:51.330 --> 00:03:53.330
+Čast je biti ovdje, puno hvala.
+
+00:03:53.330 --> 00:03:54.330
+(Pljesak)
+

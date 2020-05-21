@@ -1,0 +1,656 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Sebastian Betti
+Revisor: Jaime Bolaños
+
+00:00:15.260 --> 00:00:17.260
+Hola.
+
+00:00:17.260 --> 00:00:19.260
+Hoy voy a hablar un poco sobre
+
+00:00:19.260 --> 00:00:22.260
+la música, las máquinas y la vida.
+
+00:00:22.260 --> 00:00:25.260
+O, más específicamente,
+
+00:00:25.260 --> 00:00:28.260
+de lo que aprendimos en la creación de una máquina muy grande y complicada
+
+00:00:28.260 --> 00:00:30.260
+para un videoclip.
+
+00:00:30.260 --> 00:00:32.260
+Puede que algunos reconozcan esta imagen.
+
+00:00:32.260 --> 00:00:35.260
+Este es el plano inicial del video que creamos.
+
+00:00:35.260 --> 00:00:37.260
+Vamos a mostrar el video al final
+
+00:00:37.260 --> 00:00:40.260
+pero antes quiero hablar un poco de
+
+00:00:40.260 --> 00:00:42.260
+qué es lo que ellos querían.
+
+00:00:42.260 --> 00:00:45.260
+Cuando empezamos a hablar de OK Go,
+
+00:00:45.260 --> 00:00:48.260
+-- el nombre de la canción es "This Too Shall Pass" ("Esto también pasará") --
+
+00:00:48.260 --> 00:00:50.260
+estábamos realmente emocionados porque
+
+00:00:50.260 --> 00:00:53.260
+expresaron interés en construir una máquina con la cual poder bailar.
+
+00:00:53.260 --> 00:00:55.260
+Y estábamos muy entusiasmados con esto
+
+00:00:55.260 --> 00:00:57.260
+porque, por supuesto,
+
+00:00:57.260 --> 00:01:00.260
+ellos tienen experiencia bailando con máquinas.
+
+00:01:00.260 --> 00:01:03.260
+Son responsables de este video, "Here It Goes Again" ("Ahí va de nuevo").
+
+00:01:03.260 --> 00:01:05.260
+Más de 50 millones de reproducciones en YouTube.
+
+00:01:05.260 --> 00:01:08.260
+Cuatro tipos bailando sobre cintas de correr
+
+00:01:08.260 --> 00:01:10.260
+sin cortes, sólo una cámara fija.
+
+00:01:10.260 --> 00:01:12.260
+Un vídeo maravilloso y fantásticamente viral.
+
+00:01:12.260 --> 00:01:14.260
+Así que estábamos muy entusiasmados de trabajar con ellos.
+
+00:01:14.260 --> 00:01:17.260
+Y como que empezamos a hablar de qué era lo que querían.
+
+00:01:17.260 --> 00:01:19.260
+Y ellos explicaron que querían
+
+00:01:19.260 --> 00:01:21.260
+una suerte de máquina de Rube Goldberg.
+
+00:01:21.260 --> 00:01:24.260
+Ahora bien, para los que no lo saben
+
+00:01:24.260 --> 00:01:26.260
+una máquina de Rube Goldberg
+
+00:01:26.260 --> 00:01:28.260
+es un artilugio complejo,
+
+00:01:28.260 --> 00:01:31.260
+una maquinaria de increíble ingeniería sobredimensionada
+
+00:01:31.260 --> 00:01:34.260
+que desempeña una tarea relativamente simple.
+
+00:01:34.260 --> 00:01:36.260
+Así que nos entusiasmamos con esta idea
+
+00:01:36.260 --> 00:01:38.260
+y comenzamos a hablar de
+
+00:01:38.260 --> 00:01:40.260
+exactamente cómo se vería.
+
+00:01:40.260 --> 00:01:42.260
+Y nos encontramos algunos parámetros que...
+
+00:01:42.260 --> 00:01:44.260
+ya saben, construir una máquina de Rube Goldberg
+
+00:01:44.260 --> 00:01:47.260
+tiene sus limitaciones
+
+00:01:47.260 --> 00:01:50.260
+pero también es algo bastante abierto.
+
+00:01:50.260 --> 00:01:52.260
+Y queríamos asegurarnos de hacer algo
+
+00:01:52.260 --> 00:01:55.260
+que funcionara en un videoclip.
+
+00:01:55.260 --> 00:01:58.260
+Así que desarrollamos una lista de requisitos,
+
+00:01:58.260 --> 00:02:00.260
+los "10 mandamientos",
+
+00:02:00.260 --> 00:02:03.260
+que eran, en orden ascendente de dificultad:
+
+00:02:03.260 --> 00:02:05.260
+el primero es "Nada de magia".
+
+00:02:05.260 --> 00:02:07.260
+Todo lo que sucedía en pantalla tenía que ser
+
+00:02:07.260 --> 00:02:09.260
+entendido muy fácilmente por un espectador típico.
+
+00:02:09.260 --> 00:02:12.260
+La regla general era que, si mi madre no podía entenderlo
+
+00:02:12.260 --> 00:02:14.260
+entonces no lo podíamos usar en el video.
+
+00:02:14.260 --> 00:02:16.260
+Hacía falta integración con la banda
+
+00:02:16.260 --> 00:02:19.260
+lo que significa que la máquina actuara con los miembros del grupo
+
+00:02:19.260 --> 00:02:21.260
+y, expresamente, que no fuera al revés.
+
+00:02:21.260 --> 00:02:24.260
+Se quería que la acción de la máquina acompañara el sentimiento de la canción.
+
+00:02:24.260 --> 00:02:26.260
+Así, a medida que la canción iba cogiendo emoción
+
+00:02:26.260 --> 00:02:28.260
+también la máquina debía
+
+00:02:28.260 --> 00:02:30.260
+actuar de forma más espectacular.
+
+00:02:30.260 --> 00:02:32.260
+Nos pidieron que hiciéramos uso del espacio.
+
+00:02:32.260 --> 00:02:35.260
+Así que estábamos usando un almacén de 900 m2
+
+00:02:35.260 --> 00:02:37.260
+dividido en dos plantas,
+
+00:02:37.260 --> 00:02:39.260
+que incluía un muelle de carga exterior.
+
+00:02:39.260 --> 00:02:42.260
+Usamos todo eso, incluso un enorme agujero en el suelo
+
+00:02:42.260 --> 00:02:45.260
+por el que de verdad bajábamos la cámara y el camarógrafo.
+
+00:02:45.260 --> 00:02:48.260
+Querían desorden y nosotros estábamos encantados de complacerlos.
+
+00:02:48.260 --> 00:02:50.260
+La propia máquina debía dar comienzo a la música.
+
+00:02:50.260 --> 00:02:52.260
+Entonces la máquina arrancaría,
+
+00:02:52.260 --> 00:02:54.260
+recorrería una cierta distancia,
+
+00:02:54.260 --> 00:02:56.260
+reaccionando a lo largo del camino,
+
+00:02:56.260 --> 00:02:58.260
+pulsaría reproducir en un iPod o en un grabador
+
+00:02:58.260 --> 00:03:00.260
+o algo que pudiera comenzar a reproducir.
+
+00:03:00.260 --> 00:03:03.260
+Y la máquina mantendría la sincronización a partir de ahí.
+
+00:03:03.260 --> 00:03:05.260
+Y hablando de sincronización
+
+00:03:05.260 --> 00:03:07.260
+se quería que sincronizase con el ritmo
+
+00:03:07.260 --> 00:03:10.260
+y que marcara compases específicos a lo largo del camino.
+
+00:03:11.260 --> 00:03:14.260
+Está bien. (Risas)
+
+00:03:14.260 --> 00:03:17.260
+Se quería que terminara exactamente a tiempo.
+
+00:03:17.260 --> 00:03:20.260
+Muy bien, por eso el cronometraje de principio a fin tiene que ser perfecto.
+
+00:03:20.260 --> 00:03:22.260
+Se quería que la música se detuviera
+
+00:03:22.260 --> 00:03:24.260
+en cierto momento del video
+
+00:03:24.260 --> 00:03:26.260
+y que el sonido real en vivo de la máquina
+
+00:03:26.260 --> 00:03:28.260
+tocara parte de la canción.
+
+00:03:29.260 --> 00:03:31.260
+Y como si esto no fuera suficiente
+
+00:03:31.260 --> 00:03:34.260
+todas estas cosas increíblemente complicadas, correcto,
+
+00:03:34.260 --> 00:03:36.260
+querían que fueran en una sola toma.
+
+00:03:36.260 --> 00:03:38.260
+(Risas)
+
+00:03:38.260 --> 00:03:42.260
+(Aplausos)
+
+00:03:43.260 --> 00:03:45.260
+Bien.
+
+00:03:46.260 --> 00:03:48.260
+Algunas estadísticas
+
+00:03:48.260 --> 00:03:50.260
+de lo que tuvimos que pasar en el proceso.
+
+00:03:50.260 --> 00:03:52.260
+La máquina en sí tiene
+
+00:03:52.260 --> 00:03:54.260
+89 interacciones diferentes.
+
+00:03:54.260 --> 00:03:57.260
+Nos llevó 85 tomas
+
+00:03:57.260 --> 00:03:59.260
+plasmar en la película
+
+00:03:59.260 --> 00:04:01.260
+algo satisfactorio.
+
+00:04:01.260 --> 00:04:03.260
+De esas 85 tomas
+
+00:04:03.260 --> 00:04:06.260
+sólo tres llegaron a terminar su ejecución con éxito.
+
+00:04:07.260 --> 00:04:09.260
+Destruimos dos pianos
+
+00:04:09.260 --> 00:04:12.260
+y 10 televisores en el proceso.
+
+00:04:12.260 --> 00:04:15.260
+Fuimos a la ferretería más de un centenar de veces.
+
+00:04:15.260 --> 00:04:17.260
+(Risas)
+
+00:04:17.260 --> 00:04:20.260
+Y perdimos un zapato de tacones altos
+
+00:04:20.260 --> 00:04:22.260
+cuando una de nuestras ingenieras, Heather Knight,
+
+00:04:22.260 --> 00:04:24.260
+dejó su zapato de tacón, después de una agradable cena,
+
+00:04:24.260 --> 00:04:26.260
+volvió a trabajar
+
+00:04:26.260 --> 00:04:28.260
+y se lo dejó en una pila de cosas.
+
+00:04:28.260 --> 00:04:30.260
+Y otro ingeniero pensó: "Bueno, podríamos usar esto".
+
+00:04:30.260 --> 00:04:32.260
+Y terminó usándolo como un bonito disparador.
+
+00:04:32.260 --> 00:04:35.260
+Y, de hecho, está en la máquina.
+
+00:04:35.260 --> 00:04:37.260
+Así que, ¿qué aprendimos de todo esto?
+
+00:04:37.260 --> 00:04:39.260
+Bien, después de haber terminado
+
+00:04:39.260 --> 00:04:41.260
+tenemos la oportunidad de retroceder y reflexionar
+
+00:04:41.260 --> 00:04:43.260
+sobre algunas de estas cosas.
+
+00:04:43.260 --> 00:04:45.260
+Y aprendimos que las cosas pequeñas apestan.
+
+00:04:45.260 --> 00:04:48.260
+Las bolitas en las pistas de madera
+
+00:04:48.260 --> 00:04:50.260
+son realmente susceptibles
+
+00:04:50.260 --> 00:04:52.260
+a la humedad, a la temperatura y a un poquito de polvo
+
+00:04:52.260 --> 00:04:54.260
+y se caen de las pistas,
+
+00:04:54.260 --> 00:04:56.260
+los ángulos exactos hacen difícil hacerlo bien.
+
+00:04:56.260 --> 00:04:59.260
+Y, sin embargo, una bola de bolos siempre sigue el mismo camino.
+
+00:04:59.260 --> 00:05:01.260
+No importa la temperatura,
+
+00:05:01.260 --> 00:05:03.260
+no importa qué haya en su camino;
+
+00:05:03.260 --> 00:05:05.260
+llegará bastante bien a donde tiene que llegar.
+
+00:05:05.260 --> 00:05:07.260
+Pero aunque las cosas pequeñas apestan, tenemos que empezar por algún lado,
+
+00:05:07.260 --> 00:05:09.260
+para tener adónde ir.
+
+00:05:09.260 --> 00:05:12.260
+Así que tenemos que comenzar con eso. Uno tiene que centrarse en eso.
+
+00:05:12.260 --> 00:05:14.260
+Las cosas pequeñas apestan
+
+00:05:14.260 --> 00:05:16.260
+pero, por supuesto, son esenciales.
+
+00:05:16.260 --> 00:05:19.260
+¿Qué más? La planificación es muy importante.
+
+00:05:19.260 --> 00:05:23.260
+(Risas)
+
+00:05:23.260 --> 00:05:25.260
+Ya saben, pasamos mucho tiempo ideando
+
+00:05:25.260 --> 00:05:27.260
+e incluso construyendo algunas de estas cosas.
+
+00:05:27.260 --> 00:05:29.260
+Se dice que "Ningún plan de batalla
+
+00:05:29.260 --> 00:05:31.260
+sobrevive al contacto con el enemigo".
+
+00:05:31.260 --> 00:05:33.260
+Creo que nuestro enemigo era la física
+
+00:05:33.260 --> 00:05:35.260
+(Risas)
+
+00:05:35.260 --> 00:05:38.260
+y ella es una amante cruel.
+
+00:05:38.260 --> 00:05:40.260
+A menudo, hemos tenido que quitar cosas como resultado
+
+00:05:40.260 --> 00:05:43.260
+debido al tiempo, la estética, o lo que sea.
+
+00:05:43.260 --> 00:05:46.260
+Y así como la planificación es importante, también lo es la flexibilidad.
+
+00:05:46.260 --> 00:05:48.260
+Todas estas son cosas que no terminaron
+
+00:05:48.260 --> 00:05:50.260
+siendo parte de la máquina final.
+
+00:05:50.260 --> 00:05:53.260
+También, poner las cosas fiables al final,
+
+00:05:54.260 --> 00:05:56.260
+las cosas que van a funcionar siempre.
+
+00:05:56.260 --> 00:05:59.260
+De nuevo, de lo pequeño a lo grande es relevante aquí.
+
+00:05:59.260 --> 00:06:02.260
+El cochecito de Lego del comienzo del video
+
+00:06:02.260 --> 00:06:04.260
+remite al auto grande, real,
+
+00:06:04.260 --> 00:06:06.260
+de cerca del final del video.
+
+00:06:06.260 --> 00:06:09.260
+El auto grande, real, funciona cada vez; no hay problema con eso.
+
+00:06:09.260 --> 00:06:11.260
+El pequeño tenía una tendencia a salirse de la pista
+
+00:06:11.260 --> 00:06:13.260
+y eso es un problema.
+
+00:06:13.260 --> 00:06:15.260
+Pero uno no quiere tener que reiniciar toda la máquina
+
+00:06:15.260 --> 00:06:17.260
+porque el coche de Lego del final no funciona, ¿verdad?
+
+00:06:17.260 --> 00:06:19.260
+Entonces uno lo pone al principio para que, si falla,
+
+00:06:19.260 --> 00:06:21.260
+al menos uno sabe
+
+00:06:21.260 --> 00:06:23.260
+que no tiene que reiniciar todo.
+
+00:06:23.260 --> 00:06:26.260
+La vida puede ser
+
+00:06:26.260 --> 00:06:28.260
+un desorden.
+
+00:06:29.260 --> 00:06:32.260
+Hubo momentos increíblemente difíciles en la construcción de esta cosa.
+
+00:06:32.260 --> 00:06:35.260
+Pasamos meses en este diminuto y frío almacén.
+
+00:06:35.260 --> 00:06:37.260
+Y qué alegría maravillosa tuvimos
+
+00:06:37.260 --> 00:06:39.260
+cuando finalmente la terminamos.
+
+00:06:39.260 --> 00:06:42.260
+Es importante recordar que ya sea bueno o malo
+
+00:06:42.260 --> 00:06:44.260
+"Esto también pasará".
+
+00:06:44.260 --> 00:06:46.260
+Muchísimas gracias.
+
+00:06:46.260 --> 00:06:52.260
+(Aplausos)
+
+00:06:52.260 --> 00:06:54.260
+Y ahora para presentar
+
+00:06:54.260 --> 00:06:56.260
+su videoclip
+
+00:06:56.260 --> 00:06:58.260
+tenemos a OK Go.
+
+00:06:58.260 --> 00:07:00.260
+OK Go: Una presentación. Hola TEDxUSC.
+
+00:07:00.260 --> 00:07:02.260
+Somos OK Go.
+
+00:07:02.260 --> 00:07:05.260
+¿Qué estamos haciendo? Oh, simplemente pasar el tiempo con nuestro Grammy. ¿Qué pasa?
+
+00:07:05.260 --> 00:07:08.260
+Creo que lo podemos hacer mejor. Hola TEDxUSC.
+
+00:07:08.260 --> 00:07:11.260
+Somos OK Go. ¿Han leído "Natural Curiosity Cabinet"?
+
+00:07:11.260 --> 00:07:13.260
+Digo, "Curiosity", disculpen.
+
+00:07:13.260 --> 00:07:15.260
+Permítanme empezar de nuevo.
+
+00:07:15.260 --> 00:07:18.260
+Necesitamos cosas más ridículas aparte de "The Cabinet of Natural Curiosities".
+
+00:07:18.260 --> 00:07:20.260
+El sombrero reloj-de-sol de Tim.
+
+00:07:20.260 --> 00:07:22.260
+¿Han visto el lo que han hecho con las Torres Waltz?
+
+00:07:22.260 --> 00:07:24.260
+Lo siento, comencemos de nuevo.
+
+00:07:24.260 --> 00:07:26.260
+(Ladrido)
+
+00:07:26.260 --> 00:07:28.260
+Perros.
+
+00:07:28.260 --> 00:07:30.260
+Hola, TEDxUSC. Somos OK Go
+
+00:07:30.260 --> 00:07:33.260
+y este es nuestro nuevo video "This Too Shall Pass".
+
+00:07:33.260 --> 00:07:35.260
+[poco claro]
+
+00:07:35.260 --> 00:07:38.260
+Kay, creo que todavía podemos hacerlo mejor, sí.
+
+00:07:38.260 --> 00:07:40.260
+Ese está bastante bien. Cada vez mejor.
+
+00:08:04.260 --> 00:08:14.260
+(Música)
+
+00:08:21.260 --> 00:08:24.260
+♫ Sabes que no puedes seguir dejando que eso te deprima ♫
+
+00:08:24.260 --> 00:08:27.260
+♫ Y no puedes seguir cargando ese peso muerto ♫
+
+00:08:33.260 --> 00:08:36.260
+♫ Si no hay casi nada que cargar ♫
+
+00:08:36.260 --> 00:08:39.260
+♫ Mejor corre como el demonio cuando toques el suelo ♫
+
+00:08:44.260 --> 00:08:46.260
+♫ Cuando llegue la mañana ♫
+
+00:08:50.260 --> 00:08:52.260
+♫ Cuando llegue la mañana ♫
+
+00:08:56.260 --> 00:08:59.260
+♫ No puedes hacer que estos chicos dejen de bailar ♫
+
+00:08:59.260 --> 00:09:01.260
+♫ ¿Por qué querrías hacerlo? ♫
+
+00:09:01.260 --> 00:09:04.260
+♫ Sobre todo cuando ya estás teniendo los tuyos ♫
+
+00:09:08.260 --> 00:09:11.260
+♫ Porque si tu mente no se mueve y las rodillas no doblan ♫
+
+00:09:11.260 --> 00:09:14.260
+♫ Bueno, no vayas a culpar a los chicos de nuevo ♫
+
+00:09:19.260 --> 00:09:21.260
+♫ Cuando llegue la mañana ♫
+
+00:09:25.260 --> 00:09:27.260
+♫ Cuando llegue la mañana ♫
+
+00:09:31.260 --> 00:09:33.260
+♫ Cuando llegue la mañana ♫
+
+00:09:37.260 --> 00:09:39.260
+♫ Cuando llegue la mañana ♫
+
+00:09:40.260 --> 00:09:42.260
+♫ Cuando llegue la mañana ♫
+
+00:09:43.260 --> 00:09:45.260
+♫ Cuando llegue la mañana ♫
+
+00:09:54.260 --> 00:09:58.260
+♫ Déjala ir ♫
+
+00:09:58.260 --> 00:10:02.260
+♫ Esto también pasará ♫
+
+00:10:06.260 --> 00:10:10.260
+♫ Déjala ir ♫
+
+00:10:10.260 --> 00:10:14.260
+♫ Esto también pasará ♫
+
+00:10:18.260 --> 00:10:21.260
+♫ Sabes que no puedes seguir dejando que eso te deprima ♫
+
+00:10:21.260 --> 00:10:24.260
+♫ No, no puedes seguir dejando que eso te deprima ♫
+
+00:10:30.260 --> 00:10:34.260
+♫ Déjala ir ♫
+
+00:10:34.260 --> 00:10:38.260
+♫ Esto también pasará ♫
+
+00:10:40.260 --> 00:10:43.260
+♫ Cuando llegue la mañana ♫
+
+00:10:46.260 --> 00:10:48.260
+♫ Cuando llegue la mañana ♫
+
+00:10:52.260 --> 00:10:54.260
+♫ Cuando llegue la mañana ♫
+
+00:11:04.260 --> 00:11:06.260
+♫ Cuando llegue la mañana ♫
+
+00:11:13.260 --> 00:11:24.260
+(Aclamación)
+

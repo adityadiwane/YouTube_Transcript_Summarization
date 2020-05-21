@@ -1,0 +1,779 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Sándor Nagy
+Lektor: Medve Gyula
+
+00:00:23.307 --> 00:00:26.491
+Mit jelent az, hogy atletikus egy gép esetében?
+
+00:00:26.491 --> 00:00:29.908
+A gépi atleticizmus szemléltetéséhez
+
+00:00:29.908 --> 00:00:31.628
+és a kapcsolódó kutatások áttekintéséhez
+
+00:00:31.628 --> 00:00:34.139
+a kvadrokopter nevű repülő szerkezetet --
+
+00:00:34.139 --> 00:00:36.026
+röviden: a kvadot -- fogom példaként használni.
+
+00:00:38.034 --> 00:00:40.563
+A kvad nem új dolog.
+
+00:00:40.563 --> 00:00:42.162
+Mai nagy népszerűségét
+
+00:00:42.162 --> 00:00:44.127
+egyszerű mechanikai felépítésének köszönheti.
+
+00:00:44.127 --> 00:00:46.235
+A négy propeller sebességétől függően
+
+00:00:46.235 --> 00:00:49.283
+képes billenni, megdőlni, elfordulni
+
+00:00:49.283 --> 00:00:52.108
+és gyorsulni az eredeti állapotához képest.
+
+00:00:52.108 --> 00:00:55.179
+A kvad fedélzetén van egy telep, egy komputer,
+
+00:00:55.179 --> 00:00:59.133
+számos érzékelő és adó-vevő.
+
+00:00:59.133 --> 00:01:03.762
+A kvad rendkívül mozgékony, de ennek ára van:
+
+00:01:03.762 --> 00:01:06.754
+eredendően instabil. Ezért csak visszacsatolás és
+
+00:01:06.754 --> 00:01:10.726
+automatikus vezérlés segítségével képes repülni.
+
+00:01:16.259 --> 00:01:19.497
+Lássuk, hogy megy ez.
+
+00:01:19.497 --> 00:01:21.315
+A mennyezeti kamerák és egy laptop együttese
+
+00:01:21.315 --> 00:01:23.891
+afféle beltéri GPS-t alkot.
+
+00:01:23.891 --> 00:01:26.076
+Megállapítja azoknak a testeknek a térbeli helyzetét,
+
+00:01:26.076 --> 00:01:28.603
+amelyeken ilyen fényvisszaverő jelölések vannak.
+
+00:01:28.603 --> 00:01:30.664
+Ezeket az adatokat átküldi egy másik laptopra,
+
+00:01:30.664 --> 00:01:32.875
+mely közelítő és szabályozó algoritmusokat futtat.
+
+00:01:32.875 --> 00:01:34.761
+Ez a laptop utasításokat küld a kvadnak, amelyen
+
+00:01:34.761 --> 00:01:38.246
+szintén futnak közelítő és szabályozó algoritmusok.
+
+00:01:41.620 --> 00:01:44.130
+Nos, kutatásaink zöme algoritmusokról szól.
+
+00:01:44.130 --> 00:01:48.291
+Ez az a varázslat, mely életre kelti a kvadot.
+
+00:01:48.291 --> 00:01:50.334
+Hogyan lehet olyan algoritmust kreálni,
+
+00:01:50.334 --> 00:01:52.611
+amelytől a kvad gépi atlétává válik?
+
+00:01:52.611 --> 00:01:55.491
+A dolog alapját a modellalapú tervezés adja.
+
+00:01:55.491 --> 00:01:58.645
+Először is a gépviselkedés fizikáját
+
+00:01:58.645 --> 00:02:00.779
+lefordítjuk egy matematikai modellre.
+
+00:02:00.779 --> 00:02:03.076
+Azután a modellt a szabályozáselmélet matematikai
+
+00:02:03.076 --> 00:02:05.907
+eszközeivel elemezzük, és létrehozunk olyan algoritmusokat,
+
+00:02:05.907 --> 00:02:09.820
+amelyekkel szabályozható lesz a modell.
+
+00:02:09.820 --> 00:02:12.868
+A kvad lebegtetését például így oldottuk meg:
+
+00:02:12.868 --> 00:02:14.276
+Először is a dinamikát felírtuk
+
+00:02:14.276 --> 00:02:16.182
+egy differenciálegyenlet-rendszer segítségével.
+
+00:02:16.182 --> 00:02:18.531
+Ezután a felírt egyenleteket elkezdtük manipulálni
+
+00:02:18.531 --> 00:02:23.171
+a szabályozáselmélet segítségével, hogy olyan algoritmust kapjunk, mely a kvadot stabilizálni tudja.
+
+00:02:23.171 --> 00:02:26.117
+Hadd demonstráljam a módszer erejét egy példával.
+
+00:02:29.198 --> 00:02:31.747
+Tegyük fel, hogy nemcsak azt szeretnénk, hogy ez a kvad
+
+00:02:31.747 --> 00:02:34.529
+lebegjen, hanem azt is, hogy egyensúlyozni tudja ezt a pálcát.
+
+00:02:34.529 --> 00:02:36.373
+Mi, emberi lények, egy kis gyakorlattal,
+
+00:02:36.373 --> 00:02:38.764
+könnyedén elvégezzük ezt a feladatot --
+
+00:02:38.764 --> 00:02:40.519
+persze előnyben vagyunk a kvaddal szemben,
+
+00:02:40.519 --> 00:02:41.847
+mert két lábon állunk a földön,
+
+00:02:41.847 --> 00:02:44.804
+és ügyes kezünk van.
+
+00:02:44.804 --> 00:02:47.273
+Kissé nehezebben megy a dolog,
+
+00:02:47.273 --> 00:02:49.569
+ha fél lábon állok,
+
+00:02:49.569 --> 00:02:52.368
+és nem a kezemet használom.
+
+00:02:52.368 --> 00:02:55.319
+Amint látják, a pálca tetején van egy fényvisszaverő jelzés,
+
+00:02:55.319 --> 00:02:59.213
+ami azt jelenti, hogy a térbeli helyzete megállapítható.
+
+00:03:04.971 --> 00:03:10.947
+(Taps)
+
+00:03:10.947 --> 00:03:13.773
+Figyeljék meg: a kvad finom korrekciókat végez,
+
+00:03:13.773 --> 00:03:15.968
+hogy a pálca egyensúlyban maradjon.
+
+00:03:15.968 --> 00:03:19.027
+Hogyan terveztük meg vajon az ehhez szükséges algoritmust?
+
+00:03:19.027 --> 00:03:21.132
+Egyszerűen: a pálca matematikai modelljét
+
+00:03:21.132 --> 00:03:22.651
+hozzáadtuk a kvadéhoz.
+
+00:03:22.651 --> 00:03:25.605
+Mihelyt megvan a kvad-pálca rendszer együttes modellje,
+
+00:03:25.605 --> 00:03:30.538
+a szabályozáselmélet segítségével algoritmust rendelhetünk hozzá.
+
+00:03:30.538 --> 00:03:32.126
+Amint látják, a rendszer stabil,
+
+00:03:32.126 --> 00:03:34.819
+és még ha lökdösöm is egy picit,
+
+00:03:34.819 --> 00:03:40.222
+akkor is visszaviszi a pálcát az egyensúlyi helyzetébe.
+
+00:03:40.222 --> 00:03:41.885
+A modellt kibővíthetjük azzal, hogy megmondjuk,
+
+00:03:41.885 --> 00:03:44.326
+melyik pontban legyen a kvad.
+
+00:03:44.326 --> 00:03:47.395
+Ha fogom ezt a fényvisszaverővel ellátott mutatót,
+
+00:03:47.395 --> 00:03:49.619
+akkor kijelölhetek egy fix távolságra lévő pontot,
+
+00:03:49.619 --> 00:03:52.986
+ahová a kvadot át akarom irányítani.
+
+00:04:07.763 --> 00:04:10.665
+Az ilyen atlétikai mutatványok titka egy algoritmus,
+
+00:04:10.665 --> 00:04:13.091
+melyet valamilyen matematikai modellre építettek
+
+00:04:13.091 --> 00:04:15.041
+a szabályozáselmélet segítségével.
+
+00:04:15.041 --> 00:04:17.255
+Mondjuk meg a kvadnak, hogy jöjjön vissza ide,
+
+00:04:17.255 --> 00:04:19.074
+és hagyja leesni a pálcát.
+
+00:04:19.074 --> 00:04:20.992
+Most pedig érzékeltetni szeretném, milyen fontos
+
+00:04:20.992 --> 00:04:23.111
+megérteni a fizikai modelleket
+
+00:04:23.111 --> 00:04:27.231
+és a fizikai elvek működését.
+
+00:04:37.462 --> 00:04:39.232
+Figyeljék meg, hogy a kvad lejjebb ereszkedett,
+
+00:04:39.232 --> 00:04:41.314
+amikor rátettem a pohár vizet.
+
+00:04:41.314 --> 00:04:44.115
+Most ugyanis, a pálca-egyensúlyozással ellentétben,
+
+00:04:44.115 --> 00:04:46.699
+a pohár matematikai modelljét nem foglaltam bele a rendszerbe.
+
+00:04:46.699 --> 00:04:49.618
+Tehát a rendszer nem is sejti, hogy van itt egy pohár víz is.
+
+00:04:49.618 --> 00:04:52.910
+De ahogy az imént, a mutatóval most is jelezni tudom
+
+00:04:52.910 --> 00:04:55.499
+a kvadnak, hová menjen.
+
+00:04:55.499 --> 00:05:05.096
+(Taps)
+
+00:05:05.096 --> 00:05:07.206
+Most nyilván azon tűnődnek,
+
+00:05:07.206 --> 00:05:09.715
+hogyhogy nem löttyen ki a víz a pohárból.
+
+00:05:09.715 --> 00:05:12.926
+Két tényt említek. Először is, a gravitáció
+
+00:05:12.926 --> 00:05:15.051
+minden testre ugyanúgy hat.
+
+00:05:15.051 --> 00:05:17.515
+Másodszor, a propellerek tengelye párhuzamos a poháréval,
+
+00:05:17.515 --> 00:05:20.642
+vagyis alaphelyzetben felfelé mutat.
+
+00:05:20.642 --> 00:05:23.019
+Tekintsük a kettőt egyszerre: kiderül,
+
+00:05:23.019 --> 00:05:25.306
+hogy a pohárra ható oldalerők, melyekért
+
+00:05:25.306 --> 00:05:28.091
+főleg az aerodinamikai hatások felelősek,
+
+00:05:28.091 --> 00:05:31.932
+elhanyagolhatóan kicsik ekkora sebességeknél.
+
+00:05:35.336 --> 00:05:37.407
+Ezért nincs szükség a pohár modellezésére:
+
+00:05:37.407 --> 00:05:41.255
+a víz nem fog kilöttyenni, akárhogy mozog is a kvad.
+
+00:05:50.651 --> 00:05:57.702
+(Taps)
+
+00:05:57.702 --> 00:06:01.718
+Az a tanulság ebből, hogy a mutatványok egy része
+
+00:06:01.718 --> 00:06:03.115
+könnyebben megy a többinél,
+
+00:06:03.115 --> 00:06:05.411
+és hogy a probléma fizikájának megértése dönti el,
+
+00:06:05.411 --> 00:06:08.027
+hogy melyiket lesz egyszerűbb kivitelezni.
+
+00:06:08.027 --> 00:06:10.386
+Például az imént a pohár víz szállítása egyszerű volt,
+
+00:06:10.386 --> 00:06:14.171
+a pálca egyensúlyozása viszont nehéz.
+
+00:06:14.171 --> 00:06:15.973
+Mindannyian hallottunk már olyan atlétákról,
+
+00:06:15.973 --> 00:06:18.466
+akik fizikai sérülésük dacára sem adták fel a versenyt.
+
+00:06:18.466 --> 00:06:19.985
+Vajon egy súlyosan megrongálódott gép is
+
+00:06:19.985 --> 00:06:22.636
+képes működni?
+
+00:06:22.636 --> 00:06:24.362
+Józan eszünk azt súgja, hogy legalább
+
+00:06:24.362 --> 00:06:28.052
+négy rögzített motor-propeller együttes kell a repüléshez,
+
+00:06:28.052 --> 00:06:30.164
+mert a következő négy szabadsági fokot kell szabályozni:
+
+00:06:30.164 --> 00:06:33.192
+billenés, dőlés, elfordulás és gyorsulás.
+
+00:06:33.192 --> 00:06:36.437
+A hexakopter és az oktokopter -- 6, ill. 8 propelleres lévén --
+
+00:06:36.437 --> 00:06:37.920
+redundanciát, magyarán tartalékot biztosít,
+
+00:06:37.920 --> 00:06:39.909
+de a kvadrokopter mégis sokkal népszerűbb,
+
+00:06:39.909 --> 00:06:41.724
+mert a minimális számú -- tehát 4 --
+
+00:06:41.724 --> 00:06:44.200
+rögzített motor-propeller együttessel rendelkezik.
+
+00:06:44.200 --> 00:06:46.165
+Vagy kevesebb is elég?
+
+00:07:01.476 --> 00:07:04.076
+Ha elemezzük a kvad matematikai modelljét,
+
+00:07:04.076 --> 00:07:06.252
+mindössze két működő propellerrel,
+
+00:07:06.252 --> 00:07:13.008
+kiderül, hogy rendhagyó módon is lehet működtetni.
+
+00:07:19.980 --> 00:07:21.686
+Le kell mondanunk ugyan az elfordulás szabályozásáról,
+
+00:07:21.686 --> 00:07:24.756
+de a billenés, dőlés és gyorsulás szabályozható marad,
+
+00:07:24.756 --> 00:07:30.208
+csak az új konfigurációhoz való algoritmust kell használni.
+
+00:07:33.668 --> 00:07:36.100
+A matematikai modell elárulja, hogy pontosan mikor
+
+00:07:36.100 --> 00:07:38.172
+és mért lehetséges ez.
+
+00:07:38.172 --> 00:07:40.540
+Ennek ismeretében képesek vagyunk
+
+00:07:40.540 --> 00:07:42.796
+újszerű géparchitektúrák kialakítására,
+
+00:07:42.796 --> 00:07:46.972
+ill. olyan okos algoritmusok létrehozására, melyek
+
+00:07:46.972 --> 00:07:48.696
+az emberi atlétákhoz hasonlóan viselik el a sérülést,
+
+00:07:48.696 --> 00:07:52.519
+és így nem kell redundanciát biztosító gépeket használni.
+
+00:07:52.519 --> 00:07:54.631
+Lélegzetvisszafojtva bámuljuk
+
+00:07:54.631 --> 00:07:57.068
+a vízbe szaltózó műugrót
+
+00:07:57.068 --> 00:07:58.858
+és a levegőben megforduló tornászt,
+
+00:07:58.858 --> 00:08:00.576
+miközben a talaj sebesen közeledik felé.
+
+00:08:00.576 --> 00:08:03.144
+Vajon az ugró csobbanás nélkül fog a vízben elmerülni?
+
+00:08:03.144 --> 00:08:05.144
+Vajon a tornász talajfogása tökéletes lesz?
+
+00:08:05.144 --> 00:08:06.812
+Mondjuk, hogy azt szeretnénk, ha ez a kvad itt
+
+00:08:06.812 --> 00:08:09.263
+egy tripla flipet hajtana végre, melyet pontosan ott
+
+00:08:09.263 --> 00:08:11.532
+kell befejeznie, ahol elkezdte.
+
+00:08:11.532 --> 00:08:13.879
+A manőver olyan gyorsan megy végbe, hogy a
+
+00:08:13.879 --> 00:08:17.508
+visszacsatolás és pályakorrekció nem működik.
+
+00:08:17.508 --> 00:08:19.782
+Egyszerűen nincs rá idő!
+
+00:08:19.782 --> 00:08:23.476
+Ezért a kvad "vakon" hajtja végre a mutatványt,
+
+00:08:23.476 --> 00:08:25.708
+megfigyeli, hogyan sikerült,
+
+00:08:25.708 --> 00:08:28.132
+majd ez alapján úgy módosítja a viselkedését,
+
+00:08:28.132 --> 00:08:30.421
+hogy a következő flip pontosabb legyen.
+
+00:08:30.421 --> 00:08:32.233
+Akárcsak a műugró és a tornász esetében,
+
+00:08:32.233 --> 00:08:34.152
+csakis a gyakorlás segítheti abban,
+
+00:08:34.152 --> 00:08:36.077
+hogy a manővert megtanulja és így a végrehajtás
+
+00:08:36.077 --> 00:08:38.210
+a lehető legjobban sikerüljön.
+
+00:08:46.412 --> 00:08:51.164
+(Taps)
+
+00:08:51.164 --> 00:08:54.636
+A mozgó labda eltalálása több sportban elvárt képesség.
+
+00:08:54.636 --> 00:08:56.431
+Hogy lehet elérni, hogy egy gép megcsinálja azt,
+
+00:08:56.431 --> 00:09:00.184
+amit egy sportoló látható könnyedséggel képes megtenni?
+
+00:09:15.943 --> 00:09:22.542
+(Taps)
+
+00:09:22.542 --> 00:09:25.192
+Ennek a kvadnak egy ütőt szíjaztunk a fejéhez:
+
+00:09:25.192 --> 00:09:28.679
+az ütő optimális területe kb. alma nagyságú, tehát nem túl nagy.
+
+00:09:28.679 --> 00:09:31.846
+A következő számítást másodpercenként 50-szer kell elvégezni,
+
+00:09:31.846 --> 00:09:33.602
+vagyis 20 milliszekundumonként egyszer.
+
+00:09:33.602 --> 00:09:36.414
+Először is meg kell határozni, hogy merre megy a labda.
+
+00:09:36.414 --> 00:09:38.851
+Aztán azt kell kiszámolni, hogy üsse meg a kvad a labdát,
+
+00:09:38.851 --> 00:09:41.950
+hogy az arra repüljön, ahonnan jött.
+
+00:09:41.950 --> 00:09:46.406
+Harmadszor, ki kell számítani a kvad mozgáspályáját
+
+00:09:46.406 --> 00:09:49.430
+az adott helyétől addig a pontig, ahol elvileg ütközni fog a labdával.
+
+00:09:49.430 --> 00:09:53.239
+Negyedszer, 20 ms időtartamig követjük a kiszámolt stratégiát.
+
+00:09:53.239 --> 00:09:56.046
+Húsz milliszekundum múlva megismételjük az egészet,
+
+00:09:56.046 --> 00:09:58.289
+míg a kvad ténylegesen el nem éri a labdát.
+
+00:10:07.560 --> 00:10:10.206
+(Taps)
+
+00:10:10.206 --> 00:10:13.578
+A gépek tehát önállóan képesek dinamikai manőverezésre,
+
+00:10:13.578 --> 00:10:15.441
+sőt, képesek az együttműködésre is.
+
+00:10:15.441 --> 00:10:19.028
+Ez a három kvad közösen visz egy hálót.
+
+00:10:28.574 --> 00:10:33.985
+(Taps)
+
+00:10:33.985 --> 00:10:36.182
+Rendkívül dinamikus
+
+00:10:36.182 --> 00:10:38.350
+és összehangolt manőverezés szükséges ahhoz,
+
+00:10:38.350 --> 00:10:40.042
+hogy a labdát visszapasszolják nekem.
+
+00:10:40.042 --> 00:10:43.553
+Figyeljék meg: amikor a háló kifeszül, a kvadok kifelé fordulnak.
+
+00:10:48.486 --> 00:10:50.258
+(Taps)
+
+00:10:50.258 --> 00:10:52.545
+Nem véletlen: amikor a háló kifeszül, a kvadok kb. az ötszörösét
+
+00:10:52.545 --> 00:10:55.230
+kapják annak a gyorsulásnak, amit a bungee-jumpingozó
+
+00:10:55.230 --> 00:10:59.818
+érez a zuhanás végén.
+
+00:11:03.009 --> 00:11:05.686
+A mutatvány algoritmusa nagyon hasonlít ahhoz,
+
+00:11:05.686 --> 00:11:09.070
+mint amikor egyetlen kvaddal üttetem vissza a labdát.
+
+00:11:09.070 --> 00:11:11.934
+A matematikai modell segítségével folyamatosan, azaz
+
+00:11:11.934 --> 00:11:16.449
+másodpercenként 50-szer újratervezzük a kooperatív stratégiát.
+
+00:11:16.449 --> 00:11:18.326
+Minden, amit eddig láttunk,
+
+00:11:18.326 --> 00:11:20.789
+gépekről és ezek képességeiről szólt.
+
+00:11:20.789 --> 00:11:23.804
+Mi történik akkor, ha a gépi atleticizmust
+
+00:11:23.804 --> 00:11:25.580
+összekapcsoljuk az emberivel?
+
+00:11:25.580 --> 00:11:29.385
+Ami előttem van, az egy kereskedelmi forgalomban lévő
+
+00:11:29.385 --> 00:11:30.694
+gesztikulációérzékelő, melyet főleg játékokhoz használnak.
+
+00:11:30.694 --> 00:11:32.498
+Ez valós időben képes felismerni, hogy mit csinálok
+
+00:11:32.498 --> 00:11:34.546
+a testem különböző részeivel.
+
+00:11:34.546 --> 00:11:36.662
+Ahogy korábban a mutató mozgatásával,
+
+00:11:36.662 --> 00:11:39.454
+úgy ezzel is adhatok jelzéseket a rendszernek.
+
+00:11:39.454 --> 00:11:41.850
+Így természetesebb kapcsolatot alakíthatok ki a kvad
+
+00:11:41.850 --> 00:11:46.794
+nyers atleticizmusával, mert csak gesztikulálnom kell.
+
+00:12:22.453 --> 00:12:26.853
+(Taps)
+
+00:12:35.982 --> 00:12:39.989
+A kapcsolat nem okvetlenül virtuális -- lehet fizikai is.
+
+00:12:39.989 --> 00:12:41.714
+Tekintsük pl. ezt a kvadot.
+
+00:12:41.714 --> 00:12:44.342
+Megpróbál a tér egy adott pontjában maradni.
+
+00:12:44.342 --> 00:12:48.179
+Ha el akarom mozdítani a helyéről, ellenáll nekem,
+
+00:12:48.179 --> 00:12:52.334
+és visszamegy oda, ahol lenni szeretne.
+
+00:12:52.334 --> 00:12:55.373
+Ez a viselkedés azonban megváltoztatható.
+
+00:12:55.373 --> 00:12:57.072
+Matematikai modellt használhatunk annak az erőnek
+
+00:12:57.072 --> 00:13:00.205
+a becslésére, amellyel a kvadra hatok.
+
+00:13:00.205 --> 00:13:03.443
+Ha ismerem ezt az erőt, akkor megváltoztathatom
+
+00:13:03.443 --> 00:13:07.942
+a fizika törvényeit, de persze csak a kvadra vonatkozóan.
+
+00:13:07.942 --> 00:13:10.205
+Ez a kvad úgy viselkedik, mintha
+
+00:13:10.205 --> 00:13:14.570
+viszkózus folyadék venné körül.
+
+00:13:14.570 --> 00:13:16.744
+Ezáltal lehetőség van arra,
+
+00:13:16.744 --> 00:13:18.593
+hogy a géppel való kapcsolat simább legyen.
+
+00:13:18.593 --> 00:13:21.099
+Ezt az új lehetőséget arra fogom használni, hogy ezt a
+
+00:13:21.099 --> 00:13:23.676
+kamerahordozó kvadot arra a helyre mozgassam,
+
+00:13:23.676 --> 00:13:26.862
+ahonnan a demonstráció hátralévő részét filmeznie kell.
+
+00:13:36.222 --> 00:13:38.990
+Tehát fizikai kölcsönhatásba léphetünk a kvadokkal,
+
+00:13:38.990 --> 00:13:41.393
+és megváltoztathatjuk a fizika törvényeit.
+
+00:13:41.393 --> 00:13:43.706
+És most játsszunk egy kicsit.
+
+00:13:43.706 --> 00:13:45.410
+A következő mutatvány elején a kvadok
+
+00:13:45.410 --> 00:13:48.906
+úgy fognak viselkedni, mintha a Plútón lennének.
+
+00:13:48.906 --> 00:13:51.218
+Ahogy telik az idő, a gravitáció erősödni fog,
+
+00:13:51.218 --> 00:13:53.338
+míg vissza nem térünk a Földre,
+
+00:13:53.338 --> 00:13:55.057
+ahonnan persze el sem mozdulunk.
+
+00:13:55.057 --> 00:13:58.558
+Nos, vágjunk bele!
+
+00:14:05.667 --> 00:14:09.079
+(Nevetés)
+
+00:14:34.778 --> 00:14:37.986
+(Nevetés)
+
+00:14:37.986 --> 00:14:41.372
+(Taps)
+
+00:14:41.372 --> 00:14:42.579
+Fhu!
+
+00:14:46.779 --> 00:14:48.296
+Most biztos azt gondolják,
+
+00:14:48.296 --> 00:14:50.271
+hogy ezek a fickók itt jól elszórakozgatnak;
+
+00:14:50.271 --> 00:14:52.350
+no meg azt,
+
+00:14:52.350 --> 00:14:56.286
+hogy mi szükség van gépi atlétákra.
+
+00:14:56.286 --> 00:14:58.938
+Egyeseknek az ugrik be, hogy az állatvilágban a játék szerepe
+
+00:14:58.938 --> 00:15:01.690
+a készségek csiszolása és a képességek fejlesztése.
+
+00:15:01.690 --> 00:15:03.756
+Mások arra gondolnak, hogy inkább közösségi szerepe van,
+
+00:15:03.756 --> 00:15:05.430
+vagyis a csoportok megerősítésére szolgál.
+
+00:15:05.430 --> 00:15:08.963
+A sport és az atleticizmus párhuzamát arra használjuk,
+
+00:15:08.963 --> 00:15:11.042
+hogy új algoritmusokat hozzunk létre, és így a gépeket
+
+00:15:11.042 --> 00:15:13.189
+a teljesítőképességük határáig fejlesszük.
+
+00:15:13.189 --> 00:15:16.866
+Milyen hatása lesz a gépek sebességének az életünkre?
+
+00:15:16.866 --> 00:15:19.255
+Az összes eddigi találmányhoz és innovációhoz hasonlóan
+
+00:15:19.255 --> 00:15:22.082
+hasznára is lehet a dolog az embernek,
+
+00:15:22.082 --> 00:15:24.583
+de vissza is lehet élni vele.
+
+00:15:24.583 --> 00:15:26.506
+A kérdés nem technikai természetű,
+
+00:15:26.506 --> 00:15:28.261
+hanem társadalmi.
+
+00:15:28.261 --> 00:15:29.651
+Egyetlen helyes választás létezik:
+
+00:15:29.651 --> 00:15:32.056
+kihozni a legjobbat abból, amit a gépek jövője tartogathat --
+
+00:15:32.056 --> 00:15:33.868
+épp úgy, ahogy a sportban az atleticizmus
+
+00:15:33.868 --> 00:15:36.029
+segíthet kihozni a legjobbat önmagunkból.
+
+00:15:36.029 --> 00:15:39.479
+Hadd mutassam be a zöld függöny mögött rejtőző varázslókat --
+
+00:15:39.479 --> 00:15:42.379
+a Flying Machine Arena kutatócsoport jelenlegi tagjait!
+
+00:15:42.379 --> 00:15:47.148
+(Taps)
+
+00:15:47.148 --> 00:15:50.194
+Federico Augugliaro, Dario Brescianini, Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+Sergei Lupashin, Mark Muller és Robin Ritz.
+
+00:15:53.018 --> 00:15:54.950
+Jegyezzék meg őket. Szerintem hallani fognak még róluk.
+
+00:15:54.950 --> 00:15:56.128
+Köszönöm.
+
+00:15:56.128 --> 00:16:02.482
+(Taps)
+

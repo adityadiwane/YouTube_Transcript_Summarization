@@ -1,0 +1,757 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Anda Todoran
+Corector: Cristina Nicolae
+
+00:00:13.014 --> 00:00:16.674
+Astăzi voi vorbi despre IA și despre noi.
+
+00:00:18.206 --> 00:00:20.349
+Cercetătorii IA au spus mereu
+
+00:00:20.373 --> 00:00:22.967
+că oamenii nu au de ce se teme,
+
+00:00:22.991 --> 00:00:26.571
+pentru că numai muncile fizice 
+vor fi preluate de mașini.
+
+00:00:27.274 --> 00:00:28.877
+E oare adevărat?
+
+00:00:30.365 --> 00:00:34.192
+Au mai spus și că IA va crea 
+noi locuri de muncă,
+
+00:00:34.216 --> 00:00:37.627
+așa că cei care își vor pierde slujba,
+vor găsi una nouă.
+
+00:00:38.264 --> 00:00:39.619
+Desigur.
+
+00:00:39.643 --> 00:00:41.815
+Dar adevărata întrebare e:
+
+00:00:41.839 --> 00:00:45.944
+Câți dintre acei care își vor pierde
+slujbele din cauza IA
+
+00:00:45.968 --> 00:00:48.457
+vor putea să primească una nouă,
+
+00:00:48.481 --> 00:00:54.331
+mai ales când IA poate să învețe
+mai bine decât mulți dintre noi.
+
+00:00:55.397 --> 00:00:57.582
+Să vă întreb ceva:
+
+00:00:58.666 --> 00:01:00.464
+Câți credeți
+
+00:01:00.488 --> 00:01:04.836
+că inteligența artficială va trece 
+admiterea unei universități de top
+
+00:01:04.836 --> 00:01:07.836
+până în 2020?
+
+00:01:07.836 --> 00:01:10.293
+OK, deci mulți. OK.
+
+00:01:10.317 --> 00:01:14.675
+Unii dintre voi ați spune: „Sigur, da!”
+
+00:01:15.369 --> 00:01:17.503
+Acum singularitatea e problema.
+
+00:01:18.590 --> 00:01:21.685
+Iar alții ar spune „Poate,
+
+00:01:21.709 --> 00:01:26.217
+pentru ca IA a câștigat deja împotriva
+unui jucător Go profesionist.”
+
+00:01:27.213 --> 00:01:30.894
+Iar alții ar spune:
+„Nu, niciodată. Nu-nu.”
+
+00:01:32.195 --> 00:01:35.788
+Asta însemnă că nu știm
+încă răspunsul, nu?
+
+00:01:36.268 --> 00:01:41.228
+De aceea am început proiectul Todai Robot,
+
+00:01:41.252 --> 00:01:45.124
+făcând un robot care să treacă
+examenul de admitere
+
+00:01:45.148 --> 00:01:47.737
+al Universității din Tokyo,
+
+00:01:47.761 --> 00:01:50.298
+cea mai bună universitate din Japonia.
+
+00:01:51.464 --> 00:01:54.012
+Acesta este robotul Todai.
+
+00:01:56.131 --> 00:02:01.941
+Și, desigur, creierul său
+lucrează din serverul de la distanță.
+
+00:02:02.747 --> 00:02:06.969
+Acum scrie eseuri de 600 de cuvinte
+
+00:02:06.993 --> 00:02:11.112
+despre schimburile maritime
+din secolul al XVII-lea.
+
+00:02:11.136 --> 00:02:12.901
+Cum sună asta?
+
+00:02:14.113 --> 00:02:18.217
+De ce am luat admiterea ca și reper?
+
+00:02:19.098 --> 00:02:23.839
+Pentru că am considerat că trebuie
+să studiem performanța IA
+
+00:02:23.863 --> 00:02:25.977
+în comparație cu oamenii,
+
+00:02:26.001 --> 00:02:28.861
+mai ales în domeniile și abilitățile
+
+00:02:28.885 --> 00:02:32.973
+care sunt considerate
+ca putând fi dobândite doar de oameni
+
+00:02:32.997 --> 00:02:35.332
+și numai prin educație.
+
+00:02:35.782 --> 00:02:39.825
+Pentru a intra la Todai, 
+Universitatea din Tokyo,
+
+00:02:39.849 --> 00:02:44.270
+trebuie să treci două tipuri de examen.
+
+00:02:44.294 --> 00:02:48.054
+Primul este un test standard național,
+
+00:02:48.078 --> 00:02:50.481
+cu mai multe variante de răspuns.
+
+00:02:50.505 --> 00:02:52.960
+Trebuie să dai examenul 
+din șapte materii
+
+00:02:52.984 --> 00:02:54.939
+și să iei o notă mare --
+
+00:02:54.963 --> 00:02:59.735
+aș spune undeva la 84% sau mai mult --
+
+00:02:59.759 --> 00:03:03.846
+pentru a avea voie să dai 
+un al doilea examen scris,
+
+00:03:03.870 --> 00:03:06.029
+pregătit de Todai.
+
+00:03:06.994 --> 00:03:12.311
+Să vă explic mai întâi 
+cum funcționează IA modernă,
+
+00:03:12.335 --> 00:03:15.404
+luând provocările „Jeopardy!” ca exemplu.
+
+00:03:17.539 --> 00:03:20.618
+Iată o întrebare tipică „Jeopardy!”:
+
+00:03:20.642 --> 00:03:25.103
+„Ultima simfonie a lui Mozart 
+are numele acestei planete:”
+
+00:03:26.195 --> 00:03:30.208
+E interesant că întrebările „Jeopardy!”
+
+00:03:30.232 --> 00:03:33.560
+mereu se termină cu „această” ceva:
+
+00:03:33.584 --> 00:03:36.411
+„această” planetă, „această” țară,
+
+00:03:36.435 --> 00:03:39.043
+„acest” muzician rock, și tot așa.
+
+00:03:39.067 --> 00:03:43.366
+Cu alte cuvinte, „Jeopardy!” nu întreabă
+multe tipuri de întrebări,
+
+00:03:43.390 --> 00:03:45.227
+ci doar unul,
+
+00:03:45.251 --> 00:03:47.787
+pe care îl numim „întrebarea reper”.
+
+00:03:48.975 --> 00:03:51.142
+Apropo, știți răspunsul?
+
+00:03:53.980 --> 00:03:58.035
+Dacă nu știți, dar vreți să aflați,
+
+00:03:58.059 --> 00:03:59.346
+ce faceți?
+
+00:04:00.160 --> 00:04:03.292
+Căutați pe Google, nu? Sigur!
+
+00:04:03.316 --> 00:04:04.796
+De ce nu?
+
+00:04:04.820 --> 00:04:08.412
+Dar va trebui să alegeți
+cuvintele cheie potrivite,
+
+00:04:08.436 --> 00:04:12.800
+precum „Mozart”, „ultima”
+și „simfonie”, pentru căutare.
+
+00:04:13.462 --> 00:04:15.862
+Robotul face practic același lucru.
+
+00:04:16.457 --> 00:04:21.117
+Apoi, această pagină Wikipedia
+va apărea pe primele locuri.
+
+00:04:21.840 --> 00:04:23.748
+Apoi robotul citește pagina.
+
+00:04:23.772 --> 00:04:24.943
+Nu, nu.
+
+00:04:25.470 --> 00:04:28.932
+Din păcate, nici una dintre IA moderne,
+
+00:04:28.956 --> 00:04:32.924
+inclusiv Watson, Siri și Todai Robot,
+
+00:04:32.948 --> 00:04:34.609
+nu pot să citească.
+
+00:04:35.437 --> 00:04:39.237
+Dar sunt foarte bune la a căuta
+și a optimiza.
+
+00:04:40.158 --> 00:04:42.181
+Va recunoaște
+
+00:04:42.866 --> 00:04:45.801
+cuvintele cheie, „Mozart”, 
+„ultima” și „simfonie”,
+
+00:04:45.825 --> 00:04:48.728
+care apar des aici.
+
+00:04:49.790 --> 00:04:54.165
+Așa că, dacă va găsi un cuvânt
+ce este o planetă,
+
+00:04:54.189 --> 00:04:57.837
+și apare împreună cu cele cheie,
+
+00:04:57.861 --> 00:04:59.850
+acela trebuie să fie răspunsul.
+
+00:05:00.762 --> 00:05:05.948
+Așa află Watson că răspunsul,
+în acest caz, este „Jupiter”.
+
+00:05:08.433 --> 00:05:12.482
+Robotul Todai funcționează aproape la fel,
+doar că un pic mai inteligent,
+
+00:05:12.506 --> 00:05:15.745
+răspunzând la întrebări istorice
+de tipul „da sau nu”,
+
+00:05:16.560 --> 00:05:22.223
+precum: „Carol cel Mare a combătut 
+maghiarii” este adevărat sau fals?
+
+00:05:23.181 --> 00:05:27.254
+Robotul nostru începe să construiască
+o întrebare de tipul celei reper,
+
+00:05:27.278 --> 00:05:32.177
+precum: „Carol cel Mare a combătut 
+[acest tip de persoană]” de unul singur.
+
+00:05:32.995 --> 00:05:37.727
+Apoi, „avarii”, și nu „maghiarii”
+apare ca prim rezultat.
+
+00:05:38.357 --> 00:05:41.406
+Deci propoziția pare a fi falsă.
+
+00:05:42.772 --> 00:05:47.632
+Robotul nostru nu citește, nu înțelege,
+
+00:05:48.335 --> 00:05:52.479
+dar e corect de multe ori, 
+din punct de vedere statistic.
+
+00:05:54.147 --> 00:05:56.655
+Pentru a doua parte a testului scris,
+
+00:05:56.679 --> 00:06:01.539
+se cere un eseu de 600 de cuvinte,
+precum acesta:
+
+00:06:01.539 --> 00:06:04.137
+[Discutați creșterea și declinul 
+schimburilor maritime
+
+00:06:04.137 --> 00:06:06.633
+în Asia de Est si Sud-Est 
+în secolul al XVII-lea...]
+
+00:06:06.633 --> 00:06:07.944
+și, după cum v-am arătat,
+
+00:06:07.968 --> 00:06:12.162
+robotul nostru a luat propoziții 
+din cărți și Wikipedia,
+
+00:06:12.186 --> 00:06:14.147
+le-a combinat,
+
+00:06:14.171 --> 00:06:17.790
+și le-a optimizat 
+pentru a produce un eseu,
+
+00:06:17.814 --> 00:06:20.021
+fără să înțeleagă ceva.
+
+00:06:20.045 --> 00:06:21.782
+(Râsete)
+
+00:06:21.806 --> 00:06:26.701
+Dar, surprinzător, 
+a scris un eseu mai bun
+
+00:06:26.725 --> 00:06:28.286
+decât majoritatea studenților.
+
+00:06:28.310 --> 00:06:30.701
+(Râsete)
+
+00:06:30.725 --> 00:06:32.254
+Dar la matematică?
+
+00:06:33.354 --> 00:06:36.512
+O mașină complet automată
+care să rezolve matematică
+
+00:06:36.536 --> 00:06:38.167
+a fost un vis
+
+00:06:38.191 --> 00:06:42.870
+încă de la nașterea cuvintelor
+„inteligență artificială”,
+
+00:06:43.785 --> 00:06:49.792
+dar a rămas la nivelul aritmeticii
+pentru a perioadă foarte, foarte lungă.
+
+00:06:51.530 --> 00:06:56.880
+Anul trecut, am reușit
+să dezvoltăm un sistem
+
+00:06:56.904 --> 00:07:02.077
+care a rezolvat probleme de nivel
+preuniversitar de la cap la coadă,
+
+00:07:02.101 --> 00:07:03.363
+precum aceasta.
+
+00:07:05.648 --> 00:07:09.650
+Aceasta e problema originală,
+scrisă în japoneză,
+
+00:07:09.674 --> 00:07:14.071
+și a trebuit să îl învățăm 
+2.000 de axiome matematice
+
+00:07:14.095 --> 00:07:16.869
+și 8.000 de cuvinte japoneze
+
+00:07:16.893 --> 00:07:21.451
+pentru a-l face să primească
+problema scrisă în limbaj natural.
+
+00:07:22.234 --> 00:07:25.776
+Și acum traduce problema originală
+
+00:07:25.800 --> 00:07:28.939
+în formule citibile pentru un robot..
+
+00:07:30.578 --> 00:07:36.677
+E ciudat, dar cred că acum
+este pregătit să o rezolve.
+
+00:07:36.701 --> 00:07:38.112
+Haide, rezolv-o!
+
+00:07:38.818 --> 00:07:43.102
+Da! Acum efectuează un calcul simbolic.
+
+00:07:44.030 --> 00:07:45.610
+Chiar și mai ciudat,
+
+00:07:45.634 --> 00:07:50.459
+dar, probabil că e partea 
+cea mai distractivă pentru mașină.
+
+00:07:50.483 --> 00:07:52.834
+(Râsete)
+
+00:07:52.858 --> 00:07:55.673
+Acum redă un răspuns perfect,
+
+00:07:55.697 --> 00:08:00.404
+deși dovada e imposibil de citit, 
+chiar și pentru matematicieni.
+
+00:08:02.773 --> 00:08:09.734
+Oricum, anul trecut, robotul nostru
+a fost în primii 1%
+
+00:08:10.199 --> 00:08:13.832
+în partea a doua de examen 
+scris, la matematică.
+
+00:08:14.652 --> 00:08:17.862
+(Aplauze)
+
+00:08:18.412 --> 00:08:19.723
+Mulțumesc!
+
+00:08:19.747 --> 00:08:22.218
+Deci, a intrat la Todai?
+
+00:08:22.981 --> 00:08:26.039
+Nu, nu cum m-am așteptat.
+
+00:08:26.783 --> 00:08:28.182
+De ce?
+
+00:08:28.206 --> 00:08:30.845
+Pentru că nu înțelege nicio semnificație.
+
+00:08:32.308 --> 00:08:36.387
+Să vă arăt o eroare tipică
+pe care a făcut-o la testul de engleză.
+
+00:08:36.411 --> 00:08:39.388
+[Nate: Aproape am ajuns la bibliotecă. 
+Încă câteva minute.
+
+00:08:39.412 --> 00:08:42.451
+Sunil: Așteaptă.
+Nate: Mulțumesc! Mereu se întâmplă asta]
+
+00:08:42.475 --> 00:08:43.626
+Doi oameni vorbesc.
+
+00:08:43.650 --> 00:08:45.704
+Pentru noi, care înțelegem situația,
+
+00:08:45.704 --> 00:08:48.477
+[1. „Am mers multă vreme.”
+2. „Aproape am ajuns.”
+
+00:08:48.501 --> 00:08:51.533
+3. „Pantofii tăi par scumpi.”
+4. „Ți s-a desfăcut șiretul.”]
+
+00:08:51.557 --> 00:08:54.430
+e destul de clar că numărul 4 
+este răspunsul corect, nu?
+
+00:08:54.454 --> 00:08:56.692
+Dar, Todai Robot a ales numărul 2,
+
+00:08:56.716 --> 00:09:02.076
+chiar și după ce a învățat 15 miliarde
+de propoziții în engleză,
+
+00:09:02.100 --> 00:09:04.828
+folosind tehnologii 
+pentru învățarea profundă.
+
+00:09:07.600 --> 00:09:11.772
+Bun, poate acum veți înțelege ce am spus:
+
+00:09:12.399 --> 00:09:15.047
+IA moderne nu citesc,
+
+00:09:15.071 --> 00:09:16.484
+nu înțeleg.
+
+00:09:17.516 --> 00:09:20.685
+Se prefac doar.
+
+00:09:24.867 --> 00:09:27.848
+Acesta este graficul de distribuire
+
+00:09:27.872 --> 00:09:33.649
+a jumătate de milion de studenți ce au dat
+același examen precum Todai Robot.
+
+00:09:34.558 --> 00:09:39.723
+Acum, Todai Robot este în primii 20%,
+
+00:09:40.986 --> 00:09:43.401
+și a putut trece
+
+00:09:43.425 --> 00:09:47.366
+la mai mult de 60% 
+din universitățile din Japonia--
+
+00:09:47.390 --> 00:09:48.767
+dar nu la Todai.
+
+00:09:50.116 --> 00:09:54.141
+Dar vedeți cum e deasupra volumului
+
+00:09:54.165 --> 00:09:57.029
+celor ce vor lucra în birouri.
+
+00:10:00.060 --> 00:10:02.918
+Poate credeți că am fost încântată.
+
+00:10:03.939 --> 00:10:07.910
+La urma urmei, robotul meu
+a depășit studenți de peste tot.
+
+00:10:09.022 --> 00:10:11.713
+Dar, de fapt, am fost alarmată.
+
+00:10:13.086 --> 00:10:18.693
+Cum ar putea această mașină neinteligentă
+să întreacă studenții--
+
+00:10:18.717 --> 00:10:20.009
+copiii noștri?
+
+00:10:20.033 --> 00:10:21.186
+Nu?
+
+00:10:22.101 --> 00:10:26.503
+Am decis să investighez 
+ce se petrecea în lumea umană.
+
+00:10:28.542 --> 00:10:33.271
+Am luat sute de fraze din manuale de liceu
+
+00:10:33.859 --> 00:10:37.172
+și am făcut teste simple
+cu mai multe variante de răspuns,
+
+00:10:37.196 --> 00:10:41.339
+și am rugat mii de elevi de liceu
+să le rezolve.
+
+00:10:42.690 --> 00:10:43.680
+Iată un exemplu:
+
+00:10:43.680 --> 00:10:46.708
+[Budismul s-a răspândit în ... ,
+creștinismul în ... și Oceania,
+
+00:10:46.732 --> 00:10:47.883
+și Islamul în...]
+
+00:10:47.907 --> 00:10:50.647
+Desigur, exercițiile originale 
+sunt în japoneză,
+
+00:10:50.671 --> 00:10:51.826
+limba lor maternă.
+
+00:10:51.850 --> 00:10:53.365
+[ ... s-a răspândit în Oceania.
+
+00:10:53.389 --> 00:10:55.806
+1.Hinduism 2. Creștinism 
+3. Islam 4. Budism ]
+
+00:10:55.830 --> 00:10:58.129
+Evident că e creștinismul, nu?
+
+00:10:58.153 --> 00:10:59.367
+Scrie!
+
+00:11:01.482 --> 00:11:05.508
+Și robotul Todai a răspuns corect.
+
+00:11:06.758 --> 00:11:11.637
+Dar, o treime din elevii
+începători de liceu
+
+00:11:11.661 --> 00:11:14.273
+au răspuns greșit.
+
+00:11:16.456 --> 00:11:19.615
+Credeți că asta se întâmplă 
+numai în Japonia?
+
+00:11:19.639 --> 00:11:21.615
+Nu cred,
+
+00:11:21.639 --> 00:11:28.010
+pentru că Japonia e mereu
+în frunte la testele OECD PISA,
+
+00:11:28.034 --> 00:11:31.961
+ce măsoară performanțele elevilor
+de 15 ani în matematică,
+
+00:11:31.985 --> 00:11:33.949
+științe și citire
+
+00:11:33.973 --> 00:11:35.609
+o dată la trei ani.
+
+00:11:39.390 --> 00:11:41.443
+Am crezut
+
+00:11:41.467 --> 00:11:43.510
+că oricine poate învăța,
+
+00:11:43.534 --> 00:11:45.439
+și învăța bine,
+
+00:11:45.463 --> 00:11:49.160
+câtă vreme le dăm
+materiale bune de învățat,
+
+00:11:49.184 --> 00:11:50.639
+gratis pe web,
+
+00:11:50.663 --> 00:11:53.732
+pentru a avea acces la ele prin internet.
+
+00:11:53.756 --> 00:11:59.615
+Dar astfel de materiale minunate sunt
+folosite doar de cei ce pot citi bine,
+
+00:12:00.534 --> 00:12:04.469
+iar procentul celor ce pot citi bine
+
+00:12:04.493 --> 00:12:07.871
+poate că e mult mai mic
+decât ne așteptăm.
+
+00:12:10.040 --> 00:12:14.281
+Cum noi, oamenii, vom coexista cu IA
+
+00:12:14.305 --> 00:12:17.827
+e ceva la care trebuie 
+să ne gândim cu mare grijă,
+
+00:12:17.851 --> 00:12:19.988
+pe baza acestor dovezi solide.
+
+00:12:21.063 --> 00:12:25.040
+În același timp, trebuie să ne grăbim
+
+00:12:25.064 --> 00:12:27.466
+pentru că timpul se scurge.
+
+00:12:28.106 --> 00:12:29.268
+Mulțumesc.
+
+00:12:29.626 --> 00:12:33.559
+(Aplauze)
+
+00:12:34.211 --> 00:12:36.291
+Chris Anderson: Noriko, mulțumesc.
+
+00:12:36.315 --> 00:12:38.080
+Noriko Arai: Mulțumesc.
+
+00:12:38.104 --> 00:12:43.408
+CA: În discursul tău ne-ai arătat
+așa frumos cum IA gândesc,
+
+00:12:43.432 --> 00:12:44.996
+ce pot face în mod surprinzător
+
+00:12:45.020 --> 00:12:46.715
+și ce nu pot face.
+
+00:12:46.739 --> 00:12:48.233
+Dar -- te citesc eu bine,
+
+00:12:48.257 --> 00:12:53.527
+dar tu crezi că avem nevoie 
+de o urgentă revoluție în educație
+
+00:12:53.551 --> 00:12:57.706
+pentru a ajuta copiii să facă lucrurile
+pe care oamenii le fac mai bine decât IA?
+
+00:12:57.730 --> 00:12:59.058
+NA: Da, da, da.
+
+00:12:59.082 --> 00:13:03.117
+Pentru că oamenii pot înțelege
+semnificația lucrurilor.
+
+00:13:03.141 --> 00:13:08.047
+Este ceva ce lipesește foarte mult în IA.
+
+00:13:08.071 --> 00:13:12.439
+Dar majoritatea studenților
+doar adună cunoștințe
+
+00:13:12.463 --> 00:13:16.366
+fără să le înțeleagă semnificația,
+
+00:13:16.390 --> 00:13:19.199
+și asta nu e cunoaștere,
+e doar memorare,
+
+00:13:19.223 --> 00:13:21.673
+și inteligența artificială 
+poate să facă asta.
+
+00:13:21.697 --> 00:13:25.328
+Așa că trebuie să ne gândim
+la o nouă formă de educație.
+
+00:13:25.352 --> 00:13:28.641
+CA: O mutare de la învățarea mecanică
+spre înțelegere.
+
+00:13:28.665 --> 00:13:29.816
+NA: Da.
+
+00:13:29.840 --> 00:13:33.080
+CA: Asta e o provocare pentru dascăli.
+Mulțumim foarte mult.
+
+00:13:33.104 --> 00:13:34.802
+NA: Mulțumesc mult. Mulțumesc.
+
+00:13:34.826 --> 00:13:36.011
+(Aplauze)
+

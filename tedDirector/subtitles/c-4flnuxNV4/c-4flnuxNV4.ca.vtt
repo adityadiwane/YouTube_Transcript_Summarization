@@ -1,0 +1,2048 @@
+WEBVTT
+Kind: captions
+Language: ca
+
+00:00:00.000 --> 00:00:07.000
+Translator: Marià Surra
+Reviewer: Carmen Vega-Reina
+
+00:00:18.330 --> 00:00:20.330
+Tots prenem decisions cada dia; volem saber
+
+00:00:20.330 --> 00:00:23.330
+quina és la millor decisió en tota mena de dominis, ja siguin financers,
+
+00:00:23.330 --> 00:00:27.330
+gastronòmics, professionals, sentimentals.
+
+00:00:27.330 --> 00:00:30.330
+I indubtablement, si algú ens pogués dir realment com fer
+
+00:00:30.330 --> 00:00:33.330
+exactament el que és millor en cada cas,
+
+00:00:33.330 --> 00:00:36.330
+seria un regal formidable.
+
+00:00:36.330 --> 00:00:41.330
+I es dóna el cas que, de fet, al món li va ser ofert aquest regal el 1738
+
+00:00:41.330 --> 00:00:44.330
+per part de l'erudit holandès Daniel Bernoulli
+
+00:00:44.330 --> 00:00:47.330
+I del que us vull parlar avui és de què és aquest regal,
+
+00:00:47.330 --> 00:00:50.330
+i també us vull explicar per què
+
+00:00:50.330 --> 00:00:53.330
+no va fer canviar res en absolut.
+
+00:00:53.330 --> 00:00:58.330
+Aquí teniu el regal de Bernoulli. Aquesta és la citació original.
+
+00:00:58.330 --> 00:01:01.330
+si us sona a grec, és perquè, de fet, és grec.
+
+00:01:02.330 --> 00:01:06.330
+La traducció en paraules, segurament menys precisa
+
+00:01:06.330 --> 00:01:10.330
+però que captura el sentit del que Bernoilli volia dir amb això, és aquesta:
+
+00:01:10.330 --> 00:01:12.330
+el valor esperat de qualsevol de les nostres accions,
+
+00:01:12.330 --> 00:01:16.330
+és a dir el benefici que podem esperar obtenir-ne,
+
+00:01:16.330 --> 00:01:18.330
+és el producte de dues coses ben senzilles:
+
+00:01:18.330 --> 00:01:22.330
+la probabilitat de què aquesta acció ens faci guanyar alguna cosa,
+
+00:01:22.330 --> 00:01:25.330
+i el valor d'aquest guany per a nosaltres.
+
+00:01:25.330 --> 00:01:27.330
+En certa manera, el que Bernoilli ens està dient és que,
+
+00:01:27.330 --> 00:01:30.330
+si podem estimar i multiplicar aquestes dues coses,
+
+00:01:30.330 --> 00:01:33.330
+sabrem sempre exactament com hem d'actuar.
+
+00:01:33.330 --> 00:01:36.330
+Bé, aquesta senzilla equació, fins i tot per aquells
+
+00:01:36.330 --> 00:01:39.330
+que no els agraden les equacions, és una cosa amb la que esteu força familiaritzats.
+
+00:01:39.330 --> 00:01:42.330
+Aquí en teniu un exemple: si jo us digués, juguem
+
+00:01:42.330 --> 00:01:45.330
+al joc de tirar una moneda a l'aire, jo tiraré una moneda,
+
+00:01:45.330 --> 00:01:48.330
+i si surt cara, us pago 10 dòlars,
+
+00:01:48.330 --> 00:01:52.330
+però vosaltres heu de pagar 4 dòlars pel privilegi de jugar amb mi,
+
+00:01:52.330 --> 00:01:55.330
+la majoria de vosaltres diria, d'acord, accepto l'aposta. Perquè sabeu
+
+00:01:55.330 --> 00:02:00.330
+que les probabilitats que teniu de guanyar son 1/2, el que obtindreu guanyant són 10 dòlars,
+
+00:02:00.330 --> 00:02:02.330
+la multiplicació dóna 5, i això és més
+
+00:02:02.330 --> 00:02:06.330
+del que us faig pagar per jugar. Així doncs, la resposta es, sí.
+
+00:02:06.330 --> 00:02:10.330
+Això és el que els estadístics anomenen tècnicament una aposta de nassos.
+
+00:02:10.330 --> 00:02:13.330
+La idea és doncs molt senzilla quan es tracta d'aplicar-la al llançament de monedes,
+
+00:02:13.330 --> 00:02:17.330
+però de fet, no és tan senzilla en el dia a dia.
+
+00:02:17.330 --> 00:02:21.330
+La gent és molt dolenta a l'hora de estimar aquestes dues coses.
+
+00:02:21.330 --> 00:02:23.330
+I d'això és del que us vull parlar avui.
+
+00:02:23.330 --> 00:02:26.330
+Hi ha dues menes d'errors que la gent comet quan intenta decidir
+
+00:02:26.330 --> 00:02:28.330
+quina és la millor cosa que poden fer, i són
+
+00:02:28.330 --> 00:02:31.330
+els errors en l'estimació de la probabilitat de tenir èxit
+
+00:02:31.330 --> 00:02:35.330
+i els errors en l'estimació del valor del seu propi èxit.
+
+00:02:35.330 --> 00:02:39.330
+Deixeu-me parlar primer del primer cas.
+
+00:02:39.330 --> 00:02:41.330
+Calcular probabilitats sembla que hauria de ser alguna cosa força senzilla:
+
+00:02:41.330 --> 00:02:45.330
+tenim sis cares d'un dau, dos costats d'una moneda, 52 cartes a la baralla.
+
+00:02:45.330 --> 00:02:49.330
+Tots sabeu quina és la probabilitat de treure un as de piques,
+
+00:02:49.330 --> 00:02:50.330
+o de treure cara.
+
+00:02:50.330 --> 00:02:55.330
+Però resulta que aquesta no és una idea gaire fàcil d'aplicar
+
+00:02:55.330 --> 00:02:58.330
+a les coses del dia a dia. I és per això que els americans gasten més
+
+00:02:58.330 --> 00:03:01.330
+-hauria de dir, perdin més- en jocs d'atzar
+
+00:03:01.330 --> 00:03:06.330
+que en tots els altres tipus de diversions combinades.
+
+00:03:06.330 --> 00:03:09.330
+La raó és que aquesta no és la manera com la gent calcula probabilitats.
+
+00:03:09.330 --> 00:03:10.330
+La manera en què la gent calcula probabilitats
+
+00:03:10.330 --> 00:03:13.330
+necessita que primer parlem una mica de porcs.
+
+00:03:13.330 --> 00:03:15.330
+La pregunta que us vull fer és si creieu
+
+00:03:15.330 --> 00:03:18.330
+que hi ha més gossos o porcs amb corretja
+
+00:03:18.330 --> 00:03:21.330
+en un dia en concret a Oxford.
+
+00:03:21.330 --> 00:03:23.330
+I, per suposat, tots sabeu que la resposta és gossos.
+
+00:03:23.330 --> 00:03:26.330
+I la manera que teniu de saber que la resposta és gossos és
+
+00:03:26.330 --> 00:03:28.330
+que feu un repàs ràpid a la memòria buscant les vegades
+
+00:03:28.330 --> 00:03:30.330
+que heu vist gent passejant gossos i porcs.
+
+00:03:30.330 --> 00:03:33.330
+Us ha sigut molt fàcil recordar haver vist gossos,
+
+00:03:33.330 --> 00:03:36.330
+i no tant fàcil recordar porcs. I tots heu fet l'assumpció
+
+00:03:36.330 --> 00:03:40.330
+que si veure gent passejant gossos ens ve més ràpidament a la memòria,
+
+00:03:40.330 --> 00:03:42.330
+vol dir que és més probable veure gent passejant gossos.
+
+00:03:42.330 --> 00:03:47.330
+Aquesta no és una mala aproximació, excepte quan ho és.
+
+00:03:47.330 --> 00:03:49.330
+Per exemple, aquí teniu joc de paraules.
+
+00:03:49.330 --> 00:03:51.330
+Hi ha més paraules de quatre lletres en anglès
+
+00:03:51.330 --> 00:03:55.330
+amb una R a la tercera posició o amb R en primera posició?
+
+00:03:55.330 --> 00:03:58.330
+Bé, feu un repàs ràpid de la memòria, un ràpida ullada,
+
+00:03:58.330 --> 00:04:01.330
+i és terriblement fàcil de dir-se un mateix, “Ring”, “Rang”, “Rung”,
+
+00:04:01.330 --> 00:04:08.330
+i molt difícil de dir-se, “Pare”, “Park”: venen més lentament.
+
+00:04:08.330 --> 00:04:10.330
+Però de fet hi ha molts més mots en la llengua anglèsa
+
+00:04:10.330 --> 00:04:13.330
+amb R en la tercera posició que en la primera.
+
+00:04:13.330 --> 00:04:17.330
+La raó que els mots amb R en la tercera posició ens venen més lentament al cap
+
+00:04:17.330 --> 00:04:20.330
+no és perquè siguin improbables, rars o infreqüents.
+
+00:04:20.330 --> 00:04:24.330
+És perquè la ment cerca les paraules per la primera lletra.
+
+00:04:24.330 --> 00:04:27.330
+Comences a fer el so, S... i la paraula ve.
+
+00:04:27.330 --> 00:04:28.330
+És com al diccionari;
+
+00:04:28.330 --> 00:04:31.330
+és difícil buscar-hi les paraules per la tercera lletra.
+
+00:04:31.330 --> 00:04:33.330
+Aquest és doncs un exemple de com aquesta idea
+
+00:04:33.330 --> 00:04:35.330
+que la velocitat amb què ens venen les coses al cap
+
+00:04:35.330 --> 00:04:37.330
+ens pot donar una idea de la seva probabilitat,
+
+00:04:37.330 --> 00:04:41.330
+com aquesta idea us pot enredar. I no només passa en els jocs, per cert.
+
+00:04:41.330 --> 00:04:44.330
+Per exemple, quan als americans se'ls demana que estimin les probabilitats
+
+00:04:44.330 --> 00:04:47.330
+de morir en una variada gama de maneres interessants
+
+00:04:47.330 --> 00:04:50.330
+-aquestes són estimacions del nombre de morts per any
+
+00:04:50.330 --> 00:04:52.330
+per 200 milions de ciutadans als Estats Units.
+
+00:04:52.330 --> 00:04:54.330
+I aquesta és gent normal com vosaltres a la que s'ha demanat
+
+00:04:54.330 --> 00:04:58.330
+que mirin d'endevinar quanta gent mor a causa de tornados, focs d'artifici, asma, ofegats, etcètera.
+
+00:04:58.330 --> 00:05:01.330
+Compareu això amb les dades reals.
+
+00:05:01.330 --> 00:05:04.330
+Aquí hi podeu veure un patró molt interessant, que és en primer lloc,
+
+00:05:04.330 --> 00:05:09.330
+dues coses són amplament sobreestimades, a saber, els tornados i els focs d'artifici;
+
+00:05:09.330 --> 00:05:11.330
+dues coses són amplament subestimades:
+
+00:05:11.330 --> 00:05:14.330
+morir ofegat i morir per asma. Per què?
+
+00:05:14.330 --> 00:05:17.330
+Quan va ser la darrera vegada que vau agafar un diari
+
+00:05:17.330 --> 00:05:20.330
+i el titular era “Noi mort d'asma”
+
+00:05:20.330 --> 00:05:23.330
+No és interessant perquè és massa habitual.
+
+00:05:23.330 --> 00:05:27.330
+És molt fàcil que ens vinguin al cap exemples
+
+00:05:27.330 --> 00:05:30.330
+de reportatges o noticiaris on hem vist
+
+00:05:30.330 --> 00:05:32.330
+tornados devastant ciutats, o d'algun pobre beneit
+
+00:05:32.330 --> 00:05:36.330
+que va perdre la mà amb un petard el Dia de la Independència.
+
+00:05:36.330 --> 00:05:39.330
+Els morts ofegats i per asma no tenen gaire cobertura als mitjans.
+
+00:05:39.330 --> 00:05:41.330
+No ens venen gaire de pressa al cap, i com a resultat,
+
+00:05:41.330 --> 00:05:43.330
+les subestimem amplament.
+
+00:05:43.330 --> 00:05:45.330
+De fet, això és com aquell joc de Barri Sèsam
+
+00:05:45.330 --> 00:05:49.330
+“Què hi sobra aquí? I teniu raó de dir
+
+00:05:49.330 --> 00:05:52.330
+que és la piscina la que no lliga, perquè la piscina
+
+00:05:52.330 --> 00:05:56.330
+és l'única cosa en aquesta imatge que és realment perillosa.
+
+00:05:56.330 --> 00:05:58.330
+La manera en la que és més fàcil que algun de vosaltres mori que la combinació
+
+00:05:58.330 --> 00:06:02.330
+de totes les altres tres que veieu a la imatge.
+
+00:06:02.330 --> 00:06:06.330
+La loteria és un altre exemple excel·lent, per descomptat, un excel·lent banc de proves
+
+00:06:06.330 --> 00:06:09.330
+de l'habilitat de la gent calculant probabilitats.
+
+00:06:09.330 --> 00:06:12.330
+I els economistes -i perdoneu-me aquells de vosaltres que jugueu a la loteria-
+
+00:06:12.330 --> 00:06:15.330
+però els economistes, almenys entre ells, es refereixen a la loteria
+
+00:06:15.330 --> 00:06:20.330
+com a l'impost a l'estupidesa, perquè les probabilitats d'obtenir algun guany
+
+00:06:20.330 --> 00:06:22.330
+invertint els vostres diners en un bitllet de loteria
+
+00:06:22.330 --> 00:06:24.330
+són aproximadament les mateixes que llençant els diners
+
+00:06:24.330 --> 00:06:26.330
+directament al vàter - la qual cosa, per cert,
+
+00:06:26.330 --> 00:06:30.330
+us estalvia d'anar a l'administració de loteria i comprar-lo.
+
+00:06:30.330 --> 00:06:33.330
+I doncs per què punyetes hi hauria d'haver algú que volgués jugar a la loteria?
+
+00:06:33.330 --> 00:06:36.330
+Bé, hi ha diverses respostes, però una d'elles és indubtablement,
+
+00:06:36.330 --> 00:06:40.330
+que veiem molts guanyadors. Sí o no? Quan aquesta parella guanya la loteria,
+
+00:06:40.330 --> 00:06:43.330
+o l'Ed McMahon apareix a casa vostra amb aquell immens xec
+
+00:06:43.330 --> 00:06:46.330
+-com punyetes es pot anar a cobrar una cosa d'aquesta mida, no ho sé.
+
+00:06:46.330 --> 00:06:49.330
+Veiem aquestes coses a la tele; ho llegim als diaris.
+
+00:06:49.330 --> 00:06:52.330
+Quina és la darrera vegada que vau veure entrevistes extensives
+
+00:06:52.330 --> 00:06:54.330
+amb tots els perdedors?
+
+00:06:54.330 --> 00:06:57.330
+De fet, si demanem a les cadenes de televisió que facin
+
+00:06:57.330 --> 00:06:59.330
+una entrevista de 30 segons amb cadascun dels perdedors
+
+00:06:59.330 --> 00:07:03.330
+cada vegada que entrevisten a un guanyador, els 100 milions de perdedors
+
+00:07:03.330 --> 00:07:06.330
+en la darrera loteria necessitarien nou anys i mig
+
+00:07:06.330 --> 00:07:09.330
+de la vostra atenció contínua només per sentir-los dir,
+
+00:07:09.330 --> 00:07:12.330
+Jo? Vaig perdre.” “Jo? Vaig perdre.”
+
+00:07:12.330 --> 00:07:14.330
+Així és que, si mireu nou anys i mig la tele
+
+00:07:14.330 --> 00:07:19.330
+-sense dormir, sense anar al vàter- i veieu un perdedor rere l'altre, rere l'altre,
+
+00:07:19.330 --> 00:07:21.330
+i després al final hi ha trenta segons de, “i jo vaig guanyar”,
+
+00:07:21.330 --> 00:07:24.330
+la probabilitat de que jugueu a la loteria és molt petita.
+
+00:07:24.330 --> 00:07:27.330
+Mireu, us ho puc demostrar: aquí teniu una petita loteria.
+
+00:07:27.330 --> 00:07:29.330
+Hi ha 10 tiquets en aquesta loteria.
+
+00:07:29.330 --> 00:07:32.330
+Nou d'ells han estat venuts a aquests individus.
+
+00:07:32.330 --> 00:07:35.330
+Comprar el vostre tiquet són 10 dòlars i, si guanyeu,
+
+00:07:35.330 --> 00:07:37.330
+n'obteniu 20. És una bona aposta?
+
+00:07:37.330 --> 00:07:38.330
+Bé, el que Bernoulli ens diu és:
+
+00:07:38.330 --> 00:07:41.330
+el valor esperat d'aquesta loteria és de 2 dòlars;
+
+00:07:41.330 --> 00:07:44.330
+és una loteria en la que hauries d'invertir els teus diners.
+
+00:07:44.330 --> 00:07:46.330
+I la majoria de la gent diu, “D'acord, jugo”.
+
+00:07:46.330 --> 00:07:49.330
+Ara, una versió una mica diferent d'aquesta loteria:
+
+00:07:49.330 --> 00:07:51.330
+imagineu que els nou tiquets pertanyen tots
+
+00:07:51.330 --> 00:07:53.330
+a un paio gras anomenat Leroy.
+
+00:07:53.330 --> 00:07:55.330
+En Leroy té nou tiquets; en queda un.
+
+00:07:55.330 --> 00:07:58.330
+El voleu? La majoria de la gent no jugaria a aquesta loteria.
+
+00:07:58.330 --> 00:08:00.330
+veieu que les probabilitats de guanyar no ha canviat,
+
+00:08:00.330 --> 00:08:05.330
+però ara és increïblement fàcil d'imaginar qui guanyarà.
+
+00:08:05.330 --> 00:08:08.330
+És molt fàcil imaginar-se en Leroy aconseguint el xec, oi?
+
+00:08:08.330 --> 00:08:10.330
+No us podeu dir a vosaltres mateixos, “Tinc tantes probabilitats de guanyar com qualsevol”,
+
+00:08:10.330 --> 00:08:13.330
+perquè no és tan fàcil que guanyis tu com que guanyi en Leroy.
+
+00:08:13.330 --> 00:08:15.330
+El fet que tots aquests tiquets pertanyin a un sol paio
+
+00:08:15.330 --> 00:08:17.330
+canvia la teva decisió de jugar,
+
+00:08:17.330 --> 00:08:20.330
+malgrat que això no té cap mena d'efecte sobre les probabilitats.
+
+00:08:20.330 --> 00:08:25.330
+Doncs estimar les probabilitats, per difícil que pugui semblar, és la xocolata del lloro
+
+00:08:25.330 --> 00:08:27.330
+comparat amb intentar estimar el valor:
+
+00:08:27.330 --> 00:08:30.330
+intentar saber si alguna cosa val la pena, quant en podrem gaudir,
+
+00:08:30.330 --> 00:08:33.330
+quant de plaer ens donarà.
+
+00:08:33.330 --> 00:08:35.330
+Ara voldria parlar dels errors en la valoració.
+
+00:08:35.330 --> 00:08:39.330
+Quan val aquest Big Mac? Val 25 dòlars?
+
+00:08:39.330 --> 00:08:42.330
+La majoria de vosaltres teniu la impressió que no,
+
+00:08:42.330 --> 00:08:44.330
+no estaríeu disposats a pagar-ne això.
+
+00:08:44.330 --> 00:08:48.330
+Però de fet, decidir si un Big Mac val 25 dòlars requereix
+
+00:08:48.330 --> 00:08:51.330
+que feu una i només una pregunta, que és:
+
+00:08:51.330 --> 00:08:53.330
+què més puc fer amb 25 dòlars?
+
+00:08:53.330 --> 00:08:57.330
+Si mai heu estat en un d'aquest vols de llarga distància a Austràlia
+
+00:08:57.330 --> 00:09:00.330
+i us heu adonat que no tenen la intenció de servir-vos res de menjar,
+
+00:09:00.330 --> 00:09:02.330
+però algú a la fila del davant acaba d'obrir
+
+00:09:02.330 --> 00:09:05.330
+una bossa del McDonald's, i l'olor dels arcs daurats
+
+00:09:05.330 --> 00:09:08.330
+puja per sobre el seient, penses,
+
+00:09:08.330 --> 00:09:11.330
+no puc fer res més amb aquests 25 dòlars durant 16 hores.
+
+00:09:11.330 --> 00:09:14.330
+Ni tan sols els puc cremar, m'han pres l'encenedor!
+
+00:09:14.330 --> 00:09:17.330
+De sobte, 25 dòlars per un Big Mac pot ser un bon tracte.
+
+00:09:17.330 --> 00:09:19.330
+Per altra banda, si estàs de visita en un país subdesenvolupat,
+
+00:09:19.330 --> 00:09:23.330
+i amb 25 dòlars et pot permetre un àpat de gurmet, és exorbitant per un Big Mac.
+
+00:09:23.330 --> 00:09:26.330
+Per què estàveu tots tan segurs que la resposta a la pregunta era no,
+
+00:09:26.330 --> 00:09:29.330
+abans que us hagués dit res del context?
+
+00:09:29.330 --> 00:09:33.330
+Perquè la majoria de vosaltres calculeu el valor d'aquest Big Mac
+
+00:09:33.330 --> 00:09:36.330
+amb el preu que esteu acostumats a pagar-ne. En comptes de preguntar-vos,
+
+00:09:36.330 --> 00:09:39.330
+“Què més puc fer amb els meus diners”, comparant aquesta inversió
+
+00:09:39.330 --> 00:09:43.330
+amb altres possibles inversions, ho compareu amb el passat.
+
+00:09:43.330 --> 00:09:45.330
+I aquest és un error que fa la gent sistemàticament.
+
+00:09:45.330 --> 00:09:50.330
+El que sabeu és que en vau pagar 3 dòlars en el passat: 25 és ultratjós.
+
+00:09:50.330 --> 00:09:52.330
+Això és un error, i puc demostrar-vos-ho mostrant-vos
+
+00:09:52.330 --> 00:09:54.330
+la mena d'irracionalitats a las que condueix.
+
+00:09:54.330 --> 00:09:57.330
+Per exemple, aquest és, per descomptat,
+
+00:09:57.330 --> 00:09:59.330
+un dels trucs més deliciosos que s'utilitzen en màrqueting,
+
+00:09:59.330 --> 00:10:01.330
+és dir que alguna cosa abans era més cara,
+
+00:10:01.330 --> 00:10:04.330
+i ara, de cop i volta, s'ha convertit en una bona oferta.
+
+00:10:04.330 --> 00:10:07.330
+Quan a la gent se'ls pregunta sobre aquestes dues feines:
+
+00:10:07.330 --> 00:10:10.330
+una feina on guanyes 60 mil, després 50 mil, després 40 mil,
+
+00:10:10.330 --> 00:10:12.330
+una feina on el sou es va retallant cada any,
+
+00:10:12.330 --> 00:10:14.330
+i una altra on vas tenint un increment de sou,
+
+00:10:14.330 --> 00:10:18.330
+la gent prefereix la segona per sobre la primera, malgrat
+
+00:10:18.330 --> 00:10:21.330
+que se'ls digui que guanyen molts menys diners. Per què?
+
+00:10:21.330 --> 00:10:25.330
+Doncs perquè tenen la impressió que les retallades de sou són pitjors
+
+00:10:25.330 --> 00:10:29.330
+que els augments de sou, fins i tot quan l'import total percebut és més gran
+
+00:10:29.330 --> 00:10:33.330
+en el cas de baixades de sou. Aquest és un altre bonic exemple.
+
+00:10:33.330 --> 00:10:38.330
+Aquí teniu un paquet de vacances a Hawaii de 2.000 dòlars; ara està d'oferta a 1.600.
+
+00:10:38.330 --> 00:10:41.330
+Suposant que volguéssiu anar a Hawaii, compraríeu aquest paquet?
+
+00:10:41.330 --> 00:10:45.330
+La majoria de la gent diu que sí. Aquí teniu una història una mica diferent:
+
+00:10:45.330 --> 00:10:49.330
+un paquet de vacances a Hawaii de 2.000 dòlars, ara està d'oferta a 700 dòlars,
+
+00:10:49.330 --> 00:10:51.330
+i decidiu pensar-vos-ho una setmana.
+
+00:10:51.330 --> 00:10:53.330
+Quan aneu a l'agència de viatges, l'oferta s'ha acabat,
+
+00:10:53.330 --> 00:10:58.330
+ara el paquet val 1.500 dòlars. El compraríeu? La majoria de la gent diu que no.
+
+00:10:58.330 --> 00:11:02.330
+Per què? Perquè abans valia 700, i no us dóna la gana de pagar 1.500
+
+00:11:02.330 --> 00:11:05.330
+per una cosa que la setmana passada en valia 700.
+
+00:11:05.330 --> 00:11:07.330
+Aquesta tendència a comparar amb el passat
+
+00:11:07.330 --> 00:11:11.330
+fa que la gent no aprofiti la millor oferta. En altres paraules,
+
+00:11:11.330 --> 00:11:14.330
+una bona oferta que abans era un oferta sensacional, sembla menys bona
+
+00:11:14.330 --> 00:11:18.330
+que una oferta dolenta que abans era una oferta horrible.
+
+00:11:18.330 --> 00:11:20.330
+Aquí teniu un altre exemple de com comparar amb el passat
+
+00:11:20.330 --> 00:11:24.330
+pot confondre les nostres decisions.
+
+00:11:24.330 --> 00:11:26.330
+Imagineu que aneu al teatre.
+
+00:11:26.330 --> 00:11:27.330
+Esteu de camí cap el teatre.
+
+00:11:27.330 --> 00:11:29.330
+A la cartera hi porteu l'entrada, que us ha costat 20 dòlars.
+
+00:11:29.330 --> 00:11:31.330
+També hi porteu un bitllet de 20 dòlars.
+
+00:11:31.330 --> 00:11:33.330
+Quan arribeu al teatre,
+
+00:11:33.330 --> 00:11:36.330
+descobriu que durant el trajecte heu perdut l'entrada.
+
+00:11:36.330 --> 00:11:39.330
+Us gastaríeu els diners que us queden per comprar-ne una altra?
+
+00:11:39.330 --> 00:11:42.330
+La majoria de la gent diu que no.
+
+00:11:42.330 --> 00:11:45.330
+Ara canviem només una cosa en aquest escenari.
+
+00:11:45.330 --> 00:11:46.330
+Aneu cap al teatre,
+
+00:11:46.330 --> 00:11:48.330
+i a la cartera hi porteu dos bitllets de 20 dòlars.
+
+00:11:48.330 --> 00:11:50.330
+Quan hi arribeu us adoneu que n'heu perdut un.
+
+00:11:50.330 --> 00:11:52.330
+Us gastaríeu els 20 dòlars que us queden per comprar una entrada?
+
+00:11:52.330 --> 00:11:55.330
+Sí, és clar: anava al teatre a veure l'obra.
+
+00:11:55.330 --> 00:11:58.330
+Què hi té a veure que hagi perdut 20 dòlars pel camí?
+
+00:11:58.330 --> 00:12:01.330
+I per si de cas no ho heu entès,
+
+00:12:01.330 --> 00:12:03.330
+aquí teniu un esquema del que ha passat, d'acord?
+
+00:12:03.330 --> 00:12:04.330
+(Rialles)
+
+00:12:04.330 --> 00:12:06.330
+Pel camí heu perdut alguna cosa.
+
+00:12:06.330 --> 00:12:08.330
+En tots dos casos era un tros de paper.
+
+00:12:08.330 --> 00:12:12.330
+En un cas, tenia un president dels EUA imprès; en l'altre cas no.
+
+00:12:12.330 --> 00:12:14.330
+Quin dimoni de diferència pot haver-hi?
+
+00:12:14.330 --> 00:12:17.330
+La diferència és que quan perdeu l'entrada us dieu a vosaltres mateixos,
+
+00:12:17.330 --> 00:12:19.330
+no vull pagar dues vegades pel mateix.
+
+00:12:19.330 --> 00:12:22.330
+Compareu el preu de l'obra ara -40 dòlars-
+
+00:12:22.330 --> 00:12:27.330
+amb el preu que tenia abans -20 dòlars- i us dieu que és un mal tracte.
+
+00:12:27.330 --> 00:12:31.330
+Comparar amb el passat causa molts dels problemes
+
+00:12:31.330 --> 00:12:34.330
+que els economistes del comportament i els psicòlegs identifiquen
+
+00:12:34.330 --> 00:12:36.330
+en els intents de la gent d'assignar un valor a les coses.
+
+00:12:36.330 --> 00:12:41.330
+Però fins i tot quan comparem amb el possible, en comptes de fer-ho amb el passat,
+
+00:12:41.330 --> 00:12:43.330
+encara fem algunes menes d'errors.
+
+00:12:43.330 --> 00:12:45.330
+I us en vull posar un o dos exemples.
+
+00:12:45.330 --> 00:12:48.330
+Una de les coses que sabem de les comparacions:
+
+00:12:48.330 --> 00:12:51.330
+que quan comparem una cosa amb una altra, canvia el seu valor.
+
+00:12:51.330 --> 00:12:55.330
+Així el 1992, aquest individu, Georges Bush, per aquells de vosaltres que estàveu,
+
+00:12:55.330 --> 00:12:58.330
+diguem que en la banda liberal de l'espectre polític,
+
+00:12:58.330 --> 00:13:00.330
+no semblava pas un paio gaire fantàstic.
+
+00:13:00.330 --> 00:13:04.330
+De cop i volta, gairebé estem anhelant que torni.
+
+00:13:04.330 --> 00:13:07.330
+(Rialles)
+
+00:13:07.330 --> 00:13:10.330
+La comparació canvia la manera en què el jutgem.
+
+00:13:10.330 --> 00:13:14.330
+Els botiguers saben això des de molt abans que ningú, per descomptat,
+
+00:13:14.330 --> 00:13:16.330
+i fan servir aquesta saviesa per ajudar-vos
+
+00:13:16.330 --> 00:13:18.330
+a prescindir de la càrrega excessiva dels vostres diners.
+
+00:13:18.330 --> 00:13:21.330
+Per això un botiguer, si aneu a un celler
+
+00:13:21.330 --> 00:13:22.330
+i heu de comprar una ampolla de vi,
+
+00:13:22.330 --> 00:13:26.330
+i veieu que n'hi ha de 8, 27 i 33 dòlars, què fareu?
+
+00:13:26.330 --> 00:13:28.330
+La majoria de la gent no vol la més cara,
+
+00:13:28.330 --> 00:13:30.330
+però tampoc la més barata.
+
+00:13:30.330 --> 00:13:32.330
+Així doncs es decidiran pel producte que està al mig.
+
+00:13:32.330 --> 00:13:35.330
+Si sou un botiguer espavilat, posareu un article molt més car
+
+00:13:35.330 --> 00:13:37.330
+que ningú no comprarà mai a la prestatgeria,
+
+00:13:37.330 --> 00:13:43.330
+perquè així de cop i volta l'ampolla de 33 dòlars ja no sembla tan cara en comparació.
+
+00:13:43.330 --> 00:13:44.330
+Us estic dient una cosa que ja sabíeu:
+
+00:13:44.330 --> 00:13:48.330
+a saber, que la comparació canvia el valor de les coses.
+
+00:13:48.330 --> 00:13:49.330
+I aquesta és l'explicació de per què això és un problema:
+
+00:13:49.330 --> 00:13:55.330
+el problema és que quan porteu l'ampolla de 33 dòlars a casa,
+
+00:13:55.330 --> 00:13:59.330
+no té cap mena d'importància què tenia al costat a la prestatgeria.
+
+00:13:59.330 --> 00:14:04.330
+Les comparacions que fem quan estem avaluant,
+
+00:14:04.330 --> 00:14:08.330
+quan estem intentant estimar quant ens agradaran les coses,
+
+00:14:08.330 --> 00:14:11.330
+no són les mateixes comparacions que farem quan les consumim.
+
+00:14:11.330 --> 00:14:15.330
+Aquest problema de canviar les comparacions pot interferir
+
+00:14:15.330 --> 00:14:18.330
+en els nostres intents de prendre decisions racionals.
+
+00:14:18.330 --> 00:14:19.330
+Permeteu que us en posi un exemple.
+
+00:14:19.330 --> 00:14:23.330
+Us haig d'ensenyar una cosa del meu propi laboratori -modèstia apart.
+
+00:14:23.330 --> 00:14:25.330
+Aquests són subjectes que venen a un experiment en el que se'ls pregunta
+
+00:14:25.330 --> 00:14:27.330
+la més senzilla de totes les preguntes:
+
+00:14:27.330 --> 00:14:31.330
+quanta satisfacció obtindreu menjant patates fregides d'aquí un minut?
+
+00:14:31.330 --> 00:14:34.330
+Seuen en una habitació amb patates fregides al davant.
+
+00:14:34.330 --> 00:14:37.330
+Per alguns dels subjectes, en un angle allunyat de l'habitació
+
+00:14:37.330 --> 00:14:42.330
+hi ha una caixa de bombons Godiva, mentre que pels altres hi ha una llauna d'Spam (una marca de salsa).
+
+00:14:42.330 --> 00:14:46.330
+De fet, aquests dos productes que hi ha a l'habitació canvien
+
+00:14:46.330 --> 00:14:49.330
+la satisfacció que els subjectes esperen obtenir de les patates fregides.
+
+00:14:49.330 --> 00:14:51.330
+A saber, els que estan mirant l'Spam
+
+00:14:51.330 --> 00:14:53.330
+pensen que les patates fregides seran força gustoses;
+
+00:14:53.330 --> 00:14:55.330
+els que estan mirant els bombons Godiva
+
+00:14:55.330 --> 00:14:57.330
+pensen que no ho seran tant.
+
+00:14:57.330 --> 00:14:59.330
+Per descomptat, què passa quan es mengen les patates fregides?
+
+00:14:59.330 --> 00:15:02.330
+Bé, vaja, no cal pas ser psicòleg per saber que
+
+00:15:02.330 --> 00:15:06.330
+quan tens a la boca unes patates al punt d'oli i de sal, cruixents i delicioses,
+
+00:15:06.330 --> 00:15:07.330
+el que hi hagi a l'altra banda de l'habitació
+
+00:15:07.330 --> 00:15:12.330
+no fa que hi hagi cap punyetera diferència en la vostra experiència gustativa.
+
+00:15:12.330 --> 00:15:16.330
+Malgrat això, les seves prediccions estan pervertides per una comparació
+
+00:15:16.330 --> 00:15:20.330
+que després no continua ni canvia la seva experiència.
+
+00:15:20.330 --> 00:15:22.330
+Vosaltres mateixos deveu haver-ho experimentat, fins i tot si mai heu vingut
+
+00:15:22.330 --> 00:15:25.330
+al nostre laboratori a menjar patates fregides, així és que aquí teniu una pregunta:
+
+00:15:25.330 --> 00:15:27.330
+voleu comprar un equip de música pel cotxe.
+
+00:15:27.330 --> 00:15:32.330
+La botiga prop de casa vostra ven aquest aparell en concret per 200 dòlars,
+
+00:15:32.330 --> 00:15:35.330
+però si aneu fins a l'altra banda de la ciutat, el podeu trobar per 100 dòlars.
+
+00:15:35.330 --> 00:15:38.330
+Travessaríeu la ciutat per un 50% de descompte, per estalviar-vos 100 dòlars?
+
+00:15:38.330 --> 00:15:40.330
+La majoria de la gent diu sí que ho faria.
+
+00:15:40.330 --> 00:15:42.330
+No es poden imaginar comprant-lo pel doble
+
+00:15:42.330 --> 00:15:46.330
+quan, només travessant la ciutat, poden aconseguir-ho a meitat de preu.
+
+00:15:46.330 --> 00:15:50.330
+Ara imagineu que el que voleu comprar és un cotxe que ja té equip de música,
+
+00:15:50.330 --> 00:15:52.330
+i el concessionari de prop de casa vostra el ven per 31.000.
+
+00:15:52.330 --> 00:15:57.330
+Però si aneu a l'altra banda de la ciutat, el podeu aconseguir per 30.900.
+
+00:15:57.330 --> 00:16:01.330
+Travessaríeu la ciutat per aconseguir-lo? En aquest cas, l'estalvi és del 0.003% -els 100 dòlars.
+
+00:16:01.330 --> 00:16:03.330
+La majoria de la gent diu que no. M'haig de travessar tota la ciutat
+
+00:16:03.330 --> 00:16:06.330
+per estalviar-me 100 dòlars comprant un cotxe?
+
+00:16:06.330 --> 00:16:10.330
+Aquest manera de pensar porta de corcoll als economistes, i amb raó.
+
+00:16:10.330 --> 00:16:14.330
+Perquè aquest 100 dòlars que us estalvieu -ei!-
+
+00:16:14.330 --> 00:16:16.330
+no saben pas d'on venen.
+
+00:16:16.330 --> 00:16:18.330
+No saben amb què us els heu estalviat.
+
+00:16:18.330 --> 00:16:20.330
+Quan aneu a comprar queviures amb ells, no us diuen,
+
+00:16:20.330 --> 00:16:23.330
+som els diners que us heu estalviat en l'equip de música, o,
+
+00:16:23.330 --> 00:16:27.330
+som els estúpids diners que us heu estalviat en el cotxe. Són diners.
+
+00:16:27.330 --> 00:16:30.330
+I si conduir travessant la ciutat per 100 dòlars val la pena, els 100 dòlars valen la pena
+
+00:16:30.330 --> 00:16:33.330
+sense importar en què us els heu estalviat. Però la gent no pensa d'aquesta manera.
+
+00:16:33.330 --> 00:16:35.330
+És per això que no saben si el gestor del seu fons d'inversió
+
+00:16:35.330 --> 00:16:40.330
+té una comissió del 0.1% o del 0.15% sobre la inversió,
+
+00:16:40.330 --> 00:16:43.330
+però en canvi retallen els cupons de descompte per estalviar-se 1 dòlar en dentifrici.
+
+00:16:43.330 --> 00:16:46.330
+Així doncs, ja ho veieu, aquest és el problema de canviar comparacions,
+
+00:16:46.330 --> 00:16:49.330
+perquè el que esteu fent és comparar els 100 dòlars
+
+00:16:49.330 --> 00:16:51.330
+amb la compra que esteu fent,
+
+00:16:51.330 --> 00:16:55.330
+però quan aneu a gastar-vos aquests diners no estareu fent aquesta comparació.
+
+00:16:55.330 --> 00:16:57.330
+Tots heu tingut aquesta experiència.
+
+00:16:57.330 --> 00:17:01.330
+Si sou americans, per exemple, segurament que haureu viatjat a França.
+
+00:17:01.330 --> 00:17:03.330
+I en algun lloc potser heu trobat una parella
+
+00:17:03.330 --> 00:17:04.330
+de la vostra mateixa ciutat, i heu pensat,
+
+00:17:04.330 --> 00:17:09.330
+“Déu meu, aquesta gent són tan afectuosos. Són tan agradables.
+
+00:17:09.330 --> 00:17:11.330
+Vull dir, comparat amb tota aquesta gent que m'odien
+
+00:17:11.330 --> 00:17:14.330
+quan intento parlar la seva llengua i m'odien encara més quan no ho faig,
+
+00:17:14.330 --> 00:17:17.330
+aquesta gent són senzillament meravellosos”. I viatgeu per França amb ells,
+
+00:17:17.330 --> 00:17:19.330
+i torneu a casa i els convideu a sopar,
+
+00:17:19.330 --> 00:17:20.330
+i que passa?
+
+00:17:20.330 --> 00:17:22.330
+Comparat amb els vostres amics habituals,
+
+00:17:22.330 --> 00:17:26.330
+són avorrits i estúpids, oi? Perquè en aquest nou context,
+
+00:17:26.330 --> 00:17:30.330
+la comparació es molt, molt diferent. De fet, t'adones
+
+00:17:30.330 --> 00:17:33.330
+que et desagraden gairebé tant com per qualificar-los de ciutadans francesos.
+
+00:17:34.330 --> 00:17:37.330
+Teniu el mateix problema quan aneu a comprar un equip de música.
+
+00:17:37.330 --> 00:17:40.330
+Aneu a la botiga, veieu dues menes d'altaveus,
+
+00:17:40.330 --> 00:17:44.330
+uns de grossos, quadrats, monolítics, i els altres petits, uns altaveus elegants,
+
+00:17:44.330 --> 00:17:46.330
+i els escoltes, i penses, bé, noto la diferència:
+
+00:17:46.330 --> 00:17:48.330
+els grossos sonen una mica millor.
+
+00:17:48.330 --> 00:17:50.330
+I te'ls compres, te'ls emportes a casa,
+
+00:17:50.330 --> 00:17:53.330
+i això viola tota la decoració de la casa.
+
+00:17:53.330 --> 00:17:57.330
+I el problema és, evidentment, que la comparació que has fet a la botiga
+
+00:17:57.330 --> 00:17:59.330
+és una comparació que ja no tornaràs a fer mai més.
+
+00:17:59.330 --> 00:18:01.330
+Quina és la probabilitat que anys després engeguis l'equip de música i diguis,
+
+00:18:01.330 --> 00:18:04.330
+“Sonen tan millor que aquells altres petits”,
+
+00:18:04.330 --> 00:18:06.330
+els quals ja ni recordes que els vas escoltar.
+
+00:18:06.330 --> 00:18:09.330
+El problema de canviar les comparacions és encara més difícil
+
+00:18:09.330 --> 00:18:12.330
+quan aquestes opcions estan distribuïdes al llarg del temps.
+
+00:18:12.330 --> 00:18:15.330
+La gent té molts problemes prenent decisions
+
+00:18:15.330 --> 00:18:18.330
+sobre coses que succeiran a diferents punts en el temps.
+
+00:18:18.330 --> 00:18:20.330
+I el que el psicòlegs i els economistes del comportament han descobert
+
+00:18:20.330 --> 00:18:23.330
+és que en general la gent utilitza dues regles ben senzilles.
+
+00:18:23.330 --> 00:18:27.330
+Deixeu-me doncs que us presenti un problema molt fàcil, un segon problema molt fàcil
+
+00:18:27.330 --> 00:18:28.330
+i després un tercer problema difícil.
+
+00:18:28.330 --> 00:18:31.330
+Aquest és el primer problema fàcil:
+
+00:18:31.330 --> 00:18:34.330
+podeu tenir 60 dòlars ara o 50 dòlars ara. Què preferiu?
+
+00:18:34.330 --> 00:18:37.330
+Això és el que nosaltres anomenem un test d'intel·ligència d'una sola opció, d'acord?
+
+00:18:37.330 --> 00:18:40.330
+Tots nosaltres, espero, preferim més diners, i la raó és
+
+00:18:40.330 --> 00:18:43.330
+que tots pensem que més és millor que menys.
+
+00:18:43.330 --> 00:18:44.330
+Aquest és el segon problema:
+
+00:18:44.330 --> 00:18:48.330
+podeu tenir 60 dòlars avui o 60 dòlars d'aquí un mes. Què preferiríeu?
+
+00:18:48.330 --> 00:18:50.330
+Altra vegada, una decisió fàcil,
+
+00:18:50.330 --> 00:18:54.330
+perquè tots sabem que ara és millor que més tard.
+
+00:18:54.330 --> 00:18:57.330
+El que és difícil en la nostra presa de decisions és quan aquestes dues regles entren en conflicte.
+
+00:18:57.330 --> 00:19:01.330
+Per exemple, quan t'ofereixen 50 dòlars ara o 60 dòlars d'aquí un mes.
+
+00:19:01.330 --> 00:19:04.330
+Això tipifica moltes situacions de la vida en les quals podem guanyar
+
+00:19:04.330 --> 00:19:07.330
+esperant, però hem de tenir paciència.
+
+00:19:07.330 --> 00:19:10.330
+Què en sabem d'això? Què fa la gent en aquesta mena de situacions?
+
+00:19:10.330 --> 00:19:14.330
+Bé, en general la gent és enormement impacient.
+
+00:19:14.330 --> 00:19:17.330
+És a dir, que fan falta taxes d'interès de l'ordre de les centenes
+
+00:19:17.330 --> 00:19:21.330
+o els milers per cent per tal de diferir la gratificació
+
+00:19:21.330 --> 00:19:25.330
+i esperar fins el mes que ve per els 10 dòlars extra.
+
+00:19:25.330 --> 00:19:28.330
+Potser això no és gaire excepcional, però el que sí que ho és d'excepcional és
+
+00:19:28.330 --> 00:19:32.330
+quant fàcil és eliminar aquesta impaciència canviant senzillament
+
+00:19:32.330 --> 00:19:36.330
+el termini de lliurament d'aquesta quantitat de diners.
+
+00:19:36.330 --> 00:19:39.330
+Imagineu que podeu tenir 50 dòlars al cap d'un any -és a dir 12 mesos-
+
+00:19:39.330 --> 00:19:42.330
+o 60 dòlars en 13 mesos.
+
+00:19:42.330 --> 00:19:43.330
+Què passa ara?
+
+00:19:43.330 --> 00:19:46.330
+La gent està feliçment disposada a esperar: ja que han d'esperar 12 mesos,
+
+00:19:46.330 --> 00:19:48.330
+poden esperar-ne 13.
+
+00:19:48.330 --> 00:19:51.330
+Què és el que provoca aquesta inconsistència dinàmica?
+
+00:19:51.330 --> 00:19:55.330
+La comparació. Problemes amb la comparació. Mireu.
+
+00:19:55.330 --> 00:19:58.330
+Aquesta és la gràfica que mostra els resultats que us acabo de suggerir
+
+00:19:58.330 --> 00:20:00.330
+que es donarien en les vostres respostes si us donés el temps suficient per contestar, que és,
+
+00:20:00.330 --> 00:20:03.330
+la gent troba que el valor subjectiu dels 50 dòlars és més alt
+
+00:20:03.330 --> 00:20:07.330
+que el valor subjectiu dels 60 quan han de ser lliurats ara
+
+00:20:07.330 --> 00:20:09.330
+o d'aquí un mes, respectivament -un ajornament de 30 dies-
+
+00:20:09.330 --> 00:20:13.330
+però mostren el patró contrari quan desplacem totes les decisions
+
+00:20:13.330 --> 00:20:16.330
+cap al futur un any.
+
+00:20:16.330 --> 00:20:20.330
+I doncs, perquè punyetes els resultats segueixen aquest patró?
+
+00:20:20.330 --> 00:20:21.330
+Aquests nois ens ho poden aclarir.
+
+00:20:21.330 --> 00:20:24.330
+El que veieu aquí són dos xicots,
+
+00:20:24.330 --> 00:20:27.330
+un més alt que l'altre: el bomber i el flautista.
+
+00:20:27.330 --> 00:20:30.330
+Tots dos retrocediran cap al punt de fuga a l'horitzó,
+
+00:20:30.330 --> 00:20:32.330
+i m'agradaria que us fixéssiu en dues coses.
+
+00:20:32.330 --> 00:20:38.330
+En cap punt el flautista sembla més alt que el bomber. Enlloc.
+
+00:20:38.330 --> 00:20:41.330
+Tanmateix, la diferència entre ells sembla que es vagi fent més petita.
+
+00:20:41.330 --> 00:20:44.330
+Primer la veiem d'una polzada, després de mitja polzada,
+
+00:20:44.330 --> 00:20:48.330
+després d'un quart de polzada i finalment desapareixen pel fons del paisatge.
+
+00:20:48.330 --> 00:20:51.330
+Aquest són els resultats del que us acabo d'ensenyar.
+
+00:20:51.330 --> 00:20:53.330
+Aquesta és l'alçada subjectiva,
+
+00:20:53.330 --> 00:20:56.330
+l'alçada que observeu d'aquests dos nois en diferents punts.
+
+00:20:56.330 --> 00:20:58.330
+I m'agradaria que us adonéssiu que dues coses són veritat.
+
+00:20:58.330 --> 00:21:01.330
+Una, que com més lluny són, més petits semblen;
+
+00:21:01.330 --> 00:21:03.330
+i la segona, el bomber sempre és més alt que el flautista.
+
+00:21:03.330 --> 00:21:09.330
+Però fixeu-vos què passa si fem desaparèixer algunes de les figures. Ho veieu?
+
+00:21:09.330 --> 00:21:12.330
+Quan són a prop, el flautista sembla més alt que el bomber,
+
+00:21:12.330 --> 00:21:14.330
+però quan són més lluny
+
+00:21:14.330 --> 00:21:17.330
+la seva mida normal, la veritable relació entre ells, es conserva.
+
+00:21:17.330 --> 00:21:22.330
+Com va dir Plató, com l'espai és a la mida, el temps és al valor.
+
+00:21:22.330 --> 00:21:27.330
+€Aquests són els resultats del problema difícil que us he plantejat:
+
+00:21:27.330 --> 00:21:29.330
+60 ara o 50 d'aquí un mes?
+
+00:21:29.330 --> 00:21:30.330
+I aquests són els valors subjectius,
+
+00:21:30.330 --> 00:21:32.330
+i el que podeu observar és que les dues regles es conserven.
+
+00:21:32.330 --> 00:21:34.330
+La gent sempre pensa que més és millor que menys:
+
+00:21:34.330 --> 00:21:36.330
+60 sempre és millor que 50;
+
+00:21:36.330 --> 00:21:38.330
+i sempre pensa que ara és millor que més tard:
+
+00:21:38.330 --> 00:21:41.330
+les barres d'aquesta banda són més altes que les d'aquesta banda.
+
+00:21:41.330 --> 00:21:44.330
+Fixeu-vos en què passa quan n'eliminem algunes.
+
+00:21:44.330 --> 00:21:47.330
+De cop i volta tenim la inconsistència dinàmica que ens ha fet trencar el cap.
+
+00:21:47.330 --> 00:21:51.330
+Tenim la tendència per part de la gent de preferir els 50 dòlars ara
+
+00:21:51.330 --> 00:21:54.330
+en comptes d'esperar un mes, però no si aquesta decisió queda lluny en el futur.
+
+00:21:54.330 --> 00:21:58.330
+Fixeu-vos en una cosa interessant que això implica: a saber,
+
+00:21:58.330 --> 00:22:02.330
+que quan la gent arribi al futur, canviaran de parer.
+
+00:22:02.330 --> 00:22:05.330
+És a dir, quan aquest mes 12 s'apropi, direu
+
+00:22:05.330 --> 00:22:08.330
+en què estava pensant, esperar encara un altre mes pels 60 dòlars?
+
+00:22:08.330 --> 00:22:11.330
+Agafo els 50 dòlars ara.
+
+00:22:11.330 --> 00:22:14.330
+Bé, la pregunta amb la que voldria acabar és aquesta:
+
+00:22:14.330 --> 00:22:17.330
+si som tan resoludament estúpids, com hem pogut arribar a la lluna?
+
+00:22:17.330 --> 00:22:20.330
+Perquè podria continuar almenys dues hores amb exemples
+
+00:22:20.330 --> 00:22:26.330
+de la ineptitud de la gent estimant probabilitats i la ineptitud estimant valors.
+
+00:22:26.330 --> 00:22:28.330
+La resposta a aquesta pregunta, em sembla, és una resposta que ja heu sentit
+
+00:22:28.330 --> 00:22:30.330
+en alguna de les conferències, i que m'atreviria a dir que tornareu a sentir:
+
+00:22:30.330 --> 00:22:34.330
+a saber, que els nostres cervells van evolucionar per a un món molt diferent
+
+00:22:34.330 --> 00:22:36.330
+d'aquest en el que estem vivint.
+
+00:22:36.330 --> 00:22:38.330
+Van evolucionar per a un món
+
+00:22:38.330 --> 00:22:40.330
+en el qual la gent vivia en grups molt petits,
+
+00:22:40.330 --> 00:22:43.330
+rarament es trobaven amb algú que fos terriblement diferent d'ells mateixos,
+
+00:22:43.330 --> 00:22:46.330
+tenien vides relativament curtes en les quals hi havia poques ocasions per escollir
+
+00:22:46.330 --> 00:22:51.330
+i on la més alta prioritat era menjar i aparellar-se avui.
+
+00:22:51.330 --> 00:22:56.330
+El regal de Bernoulli, la petita fórmula de Bernoulli, ens permet, ens diu
+
+00:22:56.330 --> 00:23:01.330
+com hem de pensar en un món pel qual la natura no ens ha pas dissenyat.
+
+00:23:01.330 --> 00:23:05.330
+Això ens explica per què som tan dolents fent-la servir, però també ens explica
+
+00:23:05.330 --> 00:23:10.330
+per què és tan terriblement important que esdevinguem bons i ràpids.
+
+00:23:10.330 --> 00:23:12.330
+Som l'única espècie del planeta
+
+00:23:12.330 --> 00:23:16.330
+que ha tingut el seu propi destí a les seves mans.
+
+00:23:16.330 --> 00:23:18.330
+No tenim depredadors importants,
+
+00:23:18.330 --> 00:23:20.330
+som amos i senyors del nostre medi ambient;
+
+00:23:20.330 --> 00:23:23.330
+les coses que normalment causen les extincions de les espècies
+
+00:23:23.330 --> 00:23:26.330
+ja no són cap amenaça per a nosaltres.
+
+00:23:26.330 --> 00:23:31.330
+L'única cosa -l'única cosa- que ens pot destruir i que ens pot aniquilar,
+
+00:23:31.330 --> 00:23:33.330
+són les nostres pròpies decisions.
+
+00:23:33.330 --> 00:23:37.330
+Si d'aquí a 10.000 anys no som aquí, serà perquè
+
+00:23:37.330 --> 00:23:41.330
+no hem pogut aprofitar el regal amb què ens va obsequiar
+
+00:23:41.330 --> 00:23:44.330
+aquest jove company holandès el 1738,
+
+00:23:44.330 --> 00:23:48.330
+perquè subestimem les probabilitats dels nostres patiments futurs
+
+00:23:48.330 --> 00:23:52.330
+i sobreestimem el valor dels nostres plaers presents.
+
+00:23:52.330 --> 00:23:53.330
+Gràcies.
+
+00:23:53.330 --> 00:24:03.330
+(Aplaudiments)
+
+00:24:03.330 --> 00:24:06.330
+Chris Anderson: ha estat extraordinari.
+
+00:24:06.330 --> 00:24:11.330
+Tenim temps per algunes preguntes per en Dan Gilbert. Una i dues.
+
+00:24:11.330 --> 00:24:14.330
+Bill Lyell: Diries que aquest mecanisme
+
+00:24:14.330 --> 00:24:18.330
+és en part com funciona en realitat el terrorisme per a atemorir-nos,
+
+00:24:18.330 --> 00:24:22.330
+i hi ha alguna manera en què puguem contrarestar-ho?
+
+00:24:22.330 --> 00:24:23.330
+Dan Gilbert: de fet no fa gaire vaig estar parlant
+
+00:24:23.330 --> 00:24:26.330
+amb el Departament de Seguretat Interior, que en general pensa
+
+00:24:26.330 --> 00:24:30.330
+que els dòlars americans per seguretat han de dedicar-se a fer les fronteres més segures.
+
+00:24:30.330 --> 00:24:33.330
+Vaig mirar de fer-los entendre que terrorisme era un nom
+
+00:24:33.330 --> 00:24:37.330
+basat en la reacció psicològica de la gent en front d'un conjunt d'esdeveniments,
+
+00:24:37.330 --> 00:24:39.330
+i que si estaven preocupats pel terrorisme haurien de preguntar-se
+
+00:24:39.330 --> 00:24:42.330
+què és el que causa el terror i com podem fer que la gent deixi d'estar terroritzada,
+
+00:24:42.330 --> 00:24:45.330
+en lloc de -no en lloc de, però a més
+
+00:24:45.330 --> 00:24:48.330
+d'aturar les atrocitats que ens preocupen a tots.
+
+00:24:48.330 --> 00:24:54.330
+Indubtablement la mena de tractament que en fan al menys els mitjans de comunicació americans
+
+00:24:54.330 --> 00:24:59.330
+-i perdoneu-me, però en nombres bruts aquests incidents són minúsculs.
+
+00:24:59.330 --> 00:25:01.330
+Ara sabem, per exemple, que als Estats Units,
+
+00:25:01.330 --> 00:25:05.330
+va morir més gent a causa de no voler agafar l'avió
+
+00:25:05.330 --> 00:25:07.330
+-perquè tenien por- i conduint per les autopistes,
+
+00:25:07.330 --> 00:25:09.330
+que no pas van morir l'onze de setembre. D'acord?
+
+00:25:09.330 --> 00:25:11.330
+Si us digués que hi ha una plaga
+
+00:25:11.330 --> 00:25:14.330
+que matarà 15.000 americans l'any que ve,
+
+00:25:14.330 --> 00:25:17.330
+potser us alarmaríeu si no us adonéssiu que estava parlant de la grip.
+
+00:25:17.330 --> 00:25:20.330
+Són accident a petita escala, i ens hauríem d'estar preguntant
+
+00:25:20.330 --> 00:25:22.330
+fins a quin punt haurien de tenir la mena de paper,
+
+00:25:22.330 --> 00:25:24.330
+la mena de cobertura mediàtica que tenen.
+
+00:25:24.330 --> 00:25:27.330
+Indubtablement això fa que la gent sobreestimi les probabilitats
+
+00:25:27.330 --> 00:25:29.330
+d'acabar prenent mal en alguna d'aquestes situacions,
+
+00:25:29.330 --> 00:25:31.330
+i dóna poder a tots aquells que ens volen atemorir.
+
+00:25:31.330 --> 00:25:33.330
+CA: Dan, m'agradaria que parléssim una mica més d'això. Estàs dient
+
+00:25:33.330 --> 00:25:37.330
+que la nostra resposta al terror és, com t'ho diria, com una mena d'error mental?
+
+00:25:37.330 --> 00:25:38.330
+Parla'ns una mica més d'això.
+
+00:25:38.330 --> 00:25:41.330
+DG: Està sobredimensionat. És a dir, fixa't.
+
+00:25:41.330 --> 00:25:43.330
+Si Austràlia desapareix demà,
+
+00:25:43.330 --> 00:25:45.330
+el terror és potser la resposta correcta.
+
+00:25:45.330 --> 00:25:50.330
+És una quantitat immensa de gent fantàstica. Per altra banda,
+
+00:25:50.330 --> 00:25:53.330
+quan un autobús esclata i moren 30 persones,
+
+00:25:53.330 --> 00:25:55.330
+hi ha més gent que això que moren
+
+00:25:55.330 --> 00:25:58.330
+per no utilitzar el cinturó de seguretat en el mateix país.
+
+00:25:58.330 --> 00:25:59.330
+És terror la resposta correcta?
+
+00:25:59.330 --> 00:26:03.330
+CA: Què causa l'error? És el drama del succés,
+
+00:26:03.330 --> 00:26:04.330
+que és tan espectacular?
+
+00:26:04.330 --> 00:26:07.330
+És el fet que sigui un atac intencionat de, entre cometes, estrangers?
+
+00:26:07.330 --> 00:26:08.330
+Què passa?
+
+00:26:08.330 --> 00:26:11.330
+DG: Sí. És un conjunt de coses, i tu n'has dit unes quantes.
+
+00:26:11.330 --> 00:26:13.330
+Primer, és un agent humà que intenta matar-nos,
+
+00:26:13.330 --> 00:26:16.330
+no és un arbre que ens cau a sobre per accident.
+
+00:26:16.330 --> 00:26:19.330
+Segons, són enemics que volen colpejar-nos i fer-nos mal altra vegada.
+
+00:26:19.330 --> 00:26:22.330
+Es mata gent sense cap motiu en comptes de per un bon motiu
+
+00:26:22.330 --> 00:26:25.330
+-com si hi hagués mai un bon motiu, però a vegades la gent pensa que sí que n'hi ha.
+
+00:26:25.330 --> 00:26:27.330
+Són un conjunt de coses que juntes
+
+00:26:27.330 --> 00:26:30.330
+fan que això sembli un succés extraordinari, però no menyspreem
+
+00:26:30.330 --> 00:26:34.330
+el fet que els diaris venen quan la gent hi troba alguna cosa
+
+00:26:34.330 --> 00:26:37.330
+que vol llegir. Hi ha doncs un paper molt important que juguen els mitjans de comunicació,
+
+00:26:37.330 --> 00:26:39.330
+que volen que aquestes coses siguin
+
+00:26:39.330 --> 00:26:43.330
+tan espectaculars com sigui possible.
+
+00:26:43.330 --> 00:26:49.330
+CA: I què podríem fer per persuadir a la nostra cultura que ho minimitzés?
+
+00:26:49.330 --> 00:26:50.330
+DG: Bé, ves a Israel. Saps,
+
+00:26:50.330 --> 00:26:52.330
+ves a Israel. Un centre comercial esclata,
+
+00:26:52.330 --> 00:26:55.330
+i després tothom està molt trist pel que ha passat, i una hora i mitja més tard
+
+00:26:55.330 --> 00:26:58.330
+-almenys quan jo vaig ser-hi, i estava a 50 metres del centre comercial
+
+00:26:58.330 --> 00:27:00.330
+quan van esclatar- vaig tornar a l'hotel
+
+00:27:00.330 --> 00:27:03.330
+i el casament que estava previst seguia endavant.
+
+00:27:03.330 --> 00:27:04.330
+I com va dir la mare israeliana,
+
+00:27:04.330 --> 00:27:08.330
+a dir, “Mai no els deixem guanyar aturant els casaments”.
+
+00:27:08.330 --> 00:27:09.330
+Vull dir que, és una societat que ha après
+
+00:27:09.330 --> 00:27:11.330
+-i n'hi ha d'altres- que ha après a viure
+
+00:27:11.330 --> 00:27:16.330
+amb una certa quantitat de terrorisme sense que això els trasbalsi tant com,
+
+00:27:16.330 --> 00:27:19.330
+posem per cas, a aquells de nosaltres que no han patit tants atacs terroristes.
+
+00:27:19.330 --> 00:27:22.330
+CA: Però hi ha una por racional de que,
+
+00:27:22.330 --> 00:27:25.330
+la raó de què estem tan espantats és perquè pensem que
+
+00:27:25.330 --> 00:27:26.330
+el Més Gran encara està per venir?
+
+00:27:26.330 --> 00:27:30.330
+DG: Sí, és clar. Si sabéssim que aquest va ser el pitjor atac
+
+00:27:30.330 --> 00:27:34.330
+que mai podria haver-hi, podrien haver-hi més i més autobusos de 30 persones
+
+00:27:34.330 --> 00:27:36.330
+-potser no estaríem tan espantats.
+
+00:27:36.330 --> 00:27:38.330
+No voldria pas dir -si us plau, se'm citarà a algun lloc
+
+00:27:38.330 --> 00:27:42.330
+com si hagués dit “El terrorisme està bé i no hauríem d'estar tan angoixats”.
+
+00:27:42.330 --> 00:27:44.330
+Això no és el que vull dir.
+
+00:27:44.330 --> 00:27:46.330
+El que estic dient és que, indubtablement, racionalment,
+
+00:27:46.330 --> 00:27:50.330
+la nostra angoixa referent a les coses que passen, a les amenaces,
+
+00:27:50.330 --> 00:27:53.330
+hauria de ser més o menys proporcional a la mida d'aquestes amenaces
+
+00:27:53.330 --> 00:27:55.330
+i de les amenaces futures.
+
+00:27:55.330 --> 00:27:58.330
+Em sembla que en el cas del terrorisme, no ho són.
+
+00:27:58.330 --> 00:28:00.330
+I moltes de les coses que hem sentit per part dels conferenciants avui
+
+00:28:00.330 --> 00:28:02.330
+-quanta gent coneixeu que es llevi al matí i digui,
+
+00:28:02.330 --> 00:28:06.330
+Pobresa! No em puc creure el que la pobresa ens està fent.
+
+00:28:06.330 --> 00:28:08.330
+La gent es lleva al matí; no els preocupa gents la pobresa.
+
+00:28:08.330 --> 00:28:10.330
+No fa grans titulars; no provoca notícies, no crida l'atenció.
+
+00:28:10.330 --> 00:28:12.330
+No hi ha armes esclatant.
+
+00:28:12.330 --> 00:28:14.330
+És a dir, si haguessis de solucionar un d'aquests dos problemes, Chris,
+
+00:28:14.330 --> 00:28:16.330
+quin voldries solucionar? El terrorisme o la pobresa?
+
+00:28:16.330 --> 00:28:20.330
+(Rialles)
+
+00:28:20.330 --> 00:28:22.330
+(Aplaudiments)
+
+00:28:22.330 --> 00:28:24.330
+Aquesta és difícil.
+
+00:28:24.330 --> 00:28:25.330
+CA: No hi ha cap dubte.
+
+00:28:25.330 --> 00:28:29.330
+La pobresa per ordre de magnitud, un immens ordre de magnitud,
+
+00:28:29.330 --> 00:28:32.330
+a no ser que algú ens pugui demostrar, oi,
+
+00:28:32.330 --> 00:28:36.330
+que uns terroristes amb armament nuclear realment poden venir.
+
+00:28:36.330 --> 00:28:38.330
+El darrer que he llegit, vist, però
+
+00:28:38.330 --> 00:28:42.330
+és que és increïblement difícil que puguin fer una cosa així.
+
+00:28:42.330 --> 00:28:44.330
+Si això acaba per ser fals, quedarem com uns ximplets,
+
+00:28:44.330 --> 00:28:46.330
+però amb la pobresa hi ha una mica...
+
+00:28:46.330 --> 00:28:49.330
+DG: Fins i tot si això fos veritat, encara hi ha més gent que mor de pobresa.
+
+00:28:53.330 --> 00:28:54.330
+CA: Hem evolucionat per estar tots molt afectats
+
+00:28:54.330 --> 00:28:57.330
+per aquests dramàtics atacs. Això és perquè en el passat,
+
+00:28:57.330 --> 00:29:00.330
+en el passat remot, no enteníem coses com la malaltia
+
+00:29:00.330 --> 00:29:02.330
+i els sistemes que provocaven la pobresa i tot això,
+
+00:29:02.330 --> 00:29:06.330
+i per tant no tenia sentit per a nosaltres com a espècie invertir energia
+
+00:29:06.330 --> 00:29:08.330
+preocupant-nos d'aquestes coses?
+
+00:29:08.330 --> 00:29:10.330
+La gent moria; deixem que així sigui.
+
+00:29:10.330 --> 00:29:12.330
+Però si ens ataquen, sobre això si que podem fer-hi alguna cosa.
+
+00:29:12.330 --> 00:29:14.330
+I per això van evolucionar aquestes respostes.
+
+00:29:14.330 --> 00:29:15.330
+És això el que va passar?
+
+00:29:15.330 --> 00:29:18.330
+DG: Bé, saps, la gent que és més escèptica
+
+00:29:18.330 --> 00:29:20.330
+sobre el fet de anar a parar a explicacions evolutives per tot,
+
+00:29:20.330 --> 00:29:22.330
+són els mateixos psicòlegs evolutius.
+
+00:29:22.330 --> 00:29:25.330
+La meva suposició és que no hi ha res tan específic
+
+00:29:25.330 --> 00:29:27.330
+en el nostre passat evolutiu. Però en canvi, si estàs buscant
+
+00:29:27.330 --> 00:29:29.330
+una explicació evolutiva, pot pensar
+
+00:29:29.330 --> 00:29:33.330
+que tots els organismes són neofòbics -és a dir, els espanta una mica
+
+00:29:33.330 --> 00:29:34.330
+tot allò que és nou i diferent.
+
+00:29:34.330 --> 00:29:36.330
+I hi ha una bona raó perquè sigui així,
+
+00:29:36.330 --> 00:29:37.330
+perquè les coses velles no se't mengen. Oi?
+
+00:29:37.330 --> 00:29:40.330
+Qualsevol animal que veus i que ja has vist abans, és menys fàcil
+
+00:29:40.330 --> 00:29:43.330
+que sigui un depredador que un altre que no has vist mai.
+
+00:29:43.330 --> 00:29:46.330
+I, saps, quan fan esclatar un autobús escolar i abans no ho havíem vist mai,
+
+00:29:46.330 --> 00:29:48.330
+la nostra tendència natural cap a
+
+00:29:48.330 --> 00:29:53.330
+allò que és nou s'activa.
+
+00:29:53.330 --> 00:29:55.330
+No crec que hi hagi un mecanisme tan específic
+
+00:29:55.330 --> 00:29:57.330
+com aquest al que tu al·ludies, però potser n'hi ha un de més essencial que n'és la raó.
+
+00:30:01.330 --> 00:30:06.330
+Jay Walker: Sabeu, als economistes els agrada parlar
+
+00:30:06.330 --> 00:30:10.330
+de l'estupidesa de la gent que compra bitllets de loteria. Però em sembla
+
+00:30:10.330 --> 00:30:13.330
+que estàs fent exactament el mateix error del que acuses a aquesta gent,
+
+00:30:13.330 --> 00:30:14.330
+que és l'error de valoració.
+
+00:30:14.330 --> 00:30:15.330
+Ho sé, perquè he fet entrevistes
+
+00:30:15.330 --> 00:30:17.330
+a unes 1.000 persones que juguen a la loteria al llarg dels anys.
+
+00:30:17.330 --> 00:30:21.330
+I passa que el valor que té comprar un bitllet de loteria no és guanyar.
+
+00:30:21.330 --> 00:30:23.330
+Això és el que tu penses. D'acord?
+
+00:30:23.330 --> 00:30:26.330
+El jugador mitjà de loteria compra al voltant de 150 bitllets l'any,
+
+00:30:26.330 --> 00:30:30.330
+així doncs el comprador sap perfectament que ell o ella perdrà,
+
+00:30:30.330 --> 00:30:33.330
+i així i tot compra 150 bitllets l'any. Per què?
+
+00:30:33.330 --> 00:30:37.330
+No és perquè ella és estúpida o ell és estúpid.
+
+00:30:37.330 --> 00:30:40.330
+És perquè l'anticipació del possible guany
+
+00:30:40.330 --> 00:30:44.330
+segrega serotonina al cervell, i de fet provoca un benestar
+
+00:30:44.330 --> 00:30:46.330
+fins que el sorteig indica que has perdut.
+
+00:30:46.330 --> 00:30:49.330
+O, dient-ho d'una altra manera, pel dòlar que has invertit,
+
+00:30:49.330 --> 00:30:52.330
+pots tenir molt més benestar que llençant-lo
+
+00:30:52.330 --> 00:30:55.330
+al vàter, d'on no en pots extraure cap mena de benestar.
+
+00:30:55.330 --> 00:30:57.330
+De fet, els economistes tendeixen...
+
+00:30:57.330 --> 00:31:00.330
+(Aplaudiments)
+
+00:31:00.330 --> 00:31:01.330
+...els economistes tendeixen a veure el món
+
+00:31:01.330 --> 00:31:03.330
+a través de les seves pròpies ulleres, és a dir:
+
+00:31:03.330 --> 00:31:05.330
+aquests són una colla de ximples.
+
+00:31:05.330 --> 00:31:09.330
+I com a resultat, molta gent considera als economistes una colla de ximples.
+
+00:31:09.330 --> 00:31:12.330
+I fonamentalment, la raó per la que vam anar a la lluna
+
+00:31:12.330 --> 00:31:15.330
+és perquè no vam escoltar als economistes. Moltes gràcies.
+
+00:31:15.330 --> 00:31:20.330
+(Aplaudiments)
+
+00:31:20.330 --> 00:31:23.330
+DG: Bé, no, és un punt molt interessant. Falta saber
+
+00:31:23.330 --> 00:31:27.330
+si el plaer de l'anticipació es pot igualar exactament
+
+00:31:27.330 --> 00:31:30.330
+amb la quantitat de desil·lusió després del sorteig. Perquè recorda,
+
+00:31:30.330 --> 00:31:33.330
+la gent que no compra bitllets tampoc no se senten fatal l'endemà,
+
+00:31:33.330 --> 00:31:35.330
+encara que no puguin gaudir durant el sorteig.
+
+00:31:35.330 --> 00:31:37.330
+No estic d'acord en què la gent sap que no guanyarà.
+
+00:31:37.330 --> 00:31:40.330
+Penso que pensen que és improbable, però que pot passar,
+
+00:31:40.330 --> 00:31:43.330
+que és la raó per la qual prefereixen això que el vàter.
+
+00:31:43.330 --> 00:31:46.330
+Però certament veig el que vols dir: que hi pot haver
+
+00:31:46.330 --> 00:31:50.330
+alguna altra utilitat en comprar un bitllet de loteria a més de guanyar.
+
+00:31:50.330 --> 00:31:53.330
+I bé, penso que hi ha molt bones raons per a no fer cas dels economistes.
+
+00:31:53.330 --> 00:31:56.330
+Aquesta no és una d'elles, per mi, però n'hi ha moltes altres.
+
+00:31:56.330 --> 00:31:58.330
+CA: Darrera pregunta.
+
+00:31:58.330 --> 00:32:01.330
+Aubrey de Grey: Em dic Aubrey de Grey, de Cambridge.
+
+00:32:01.330 --> 00:32:05.330
+treballo en allò que mata més gent que qualsevol altra cosa
+
+00:32:05.330 --> 00:32:07.330
+-treballo en l'envelliment- i vull fer alguna cosa per arreglar-ho,
+
+00:32:07.330 --> 00:32:08.330
+com podreu sentir demà.
+
+00:32:08.330 --> 00:32:11.330
+Estic molt d'acord en el que has estat dient,
+
+00:32:11.330 --> 00:32:13.330
+perquè em sembla que el problema que hi ha
+
+00:32:13.330 --> 00:32:16.330
+quan vols fer que la gent s'interessi en fer alguna cosa sobre l'envelliment
+
+00:32:16.330 --> 00:32:19.330
+és que amb el temps l'envelliment ens matarà i que és com el càncer
+
+00:32:19.330 --> 00:32:22.330
+o les malalties coronàries o el que sigui. Tens algun consell?
+
+00:32:22.330 --> 00:32:25.330
+(Rialles)
+
+00:32:25.330 --> 00:32:26.330
+DG: Per a tu o per a ells?
+
+00:32:26.330 --> 00:32:27.330
+AdG: Per ells, per a persuadir-los.
+
+00:32:27.330 --> 00:32:29.330
+DG: Ah, per a tu per a persuadir-los.
+
+00:32:29.330 --> 00:32:32.330
+Bé, és notòriament difícil aconseguir que la gent planifiqui el futur.
+
+00:32:32.330 --> 00:32:36.330
+Però una cosa que el psicòlegs han provat i que sembla que funciona
+
+00:32:36.330 --> 00:32:39.330
+és aconseguir que la gent s'imagini el futur d'una manera més vívida.
+
+00:32:39.330 --> 00:32:42.330
+Un dels problemes de prendre decisions sobre el futur llunyà
+
+00:32:42.330 --> 00:32:45.330
+i el futur proper és que imaginem el futur proper
+
+00:32:45.330 --> 00:32:47.330
+d'una manera molt més viva que el futur llunyà.
+
+00:32:47.330 --> 00:32:51.330
+Si aconseguim arribar a igualar la quantitat de detalls
+
+00:32:51.330 --> 00:32:53.330
+que la gent posa en les seves representacions mentals
+
+00:32:53.330 --> 00:32:55.330
+del futur proper i del llunyà, la gent comença a prendre decisions
+
+00:32:55.330 --> 00:32:57.330
+sobre tots dos de la mateixa manera.
+
+00:32:57.330 --> 00:33:02.330
+Per això, vols tenir 100.000 dòlars extra quan tinguis 65 anys
+
+00:33:02.330 --> 00:33:03.330
+és una pregunta molt diferent de,
+
+00:33:03.330 --> 00:33:07.330
+imagina com serà quan tinguis 65 anys: estaràs viu,
+
+00:33:07.330 --> 00:33:09.330
+quina aparença tindràs, quan de cabell et quedarà,
+
+00:33:09.330 --> 00:33:10.330
+amb qui estaràs vivint.
+
+00:33:10.330 --> 00:33:13.330
+Quan arribem a tenir tots els detalls d'aquest escenari imaginari,
+
+00:33:13.330 --> 00:33:15.330
+de cop i volta ens sembla que val la pena estalviar
+
+00:33:15.330 --> 00:33:18.330
+per tal que aquest paio tingui alguns calés quan estigui jubilat.
+
+00:33:18.330 --> 00:33:20.330
+Però això són trucs puntuals.
+
+00:33:20.330 --> 00:33:23.330
+Em sembla que en general estàs lluitant contra una tendència humana molt fonamental,
+
+00:33:23.330 --> 00:33:25.330
+que és dir, “Avui sóc aquí,
+
+00:33:25.330 --> 00:33:28.330
+i per tant ara és més important que després”.
+
+00:33:28.330 --> 00:33:30.330
+CA: Dan, gràcies. Membres de l'audiència
+
+00:33:30.330 --> 00:33:31.330
+ha estat una sessió fantàstica. Gràcies.
+
+00:33:31.330 --> 00:33:33.330
+(Aplaudiments)
+

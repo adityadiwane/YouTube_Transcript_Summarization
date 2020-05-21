@@ -1,0 +1,1259 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Mona Dirtu
+Corector: Florin Bejgu
+
+00:00:15.260 --> 00:00:17.260
+Câți dintre voi a trebuit să completați formulare online
+
+00:00:17.260 --> 00:00:19.260
+în care vi s-a cerut să citiți o secvență de caractere distorsionate precum aceasta?
+
+00:00:19.260 --> 00:00:21.260
+Câți dintre voi ați găsit chestia asta foarte, foarte enervantă?
+
+00:00:21.260 --> 00:00:24.260
+OK, extraordinar. Eu am inventat-o.
+
+00:00:24.260 --> 00:00:26.260
+(Râsete)
+
+00:00:26.260 --> 00:00:28.260
+Sau sunt unul dintre cei care au făcut-o.
+
+00:00:28.260 --> 00:00:30.260
+Chestia asta se numește CAPTCHA.
+
+00:00:30.260 --> 00:00:32.260
+Motivul pentru care e acolo e să ne asigurăm că voi, cei care completați formularul,
+
+00:00:32.260 --> 00:00:35.260
+sunteți de fapt oameni și nu vreun program de calculator
+
+00:00:35.260 --> 00:00:37.260
+creat pentru a trimite fomularul de milioane și milioane de ori.
+
+00:00:37.260 --> 00:00:39.260
+Motivul pentru care funcționează e că oamenii,
+
+00:00:39.260 --> 00:00:41.260
+cel puțin cei fără probleme de vedere,
+
+00:00:41.260 --> 00:00:43.260
+nu au probleme în a citi aceste litere curbate, distorsionate,
+
+00:00:43.260 --> 00:00:46.260
+în vreme ce programele de calculator pur și simplu n-o pot face la fel de bine încă.
+
+00:00:46.260 --> 00:00:48.260
+De pildă, în cazul Ticketmaster,
+
+00:00:48.260 --> 00:00:50.260
+motivul pentru care trebuie să tastați aceste caractere distorsionate
+
+00:00:50.260 --> 00:00:52.260
+e pentru a-i împiedica pe bișnițari să scrie un program
+
+00:00:52.260 --> 00:00:54.260
+prin care să cumpere milioane de bilete, câte două per tranzacție.
+
+00:00:54.260 --> 00:00:56.260
+CAPTCHA-urile sunt folosite peste tot pe Internet.
+
+00:00:56.260 --> 00:00:58.260
+Și de vreme ce sunt atât de des folosite,
+
+00:00:58.260 --> 00:01:00.260
+foarte frecvent anumite secvențe de caractere aleatorii care-i apar utilizatorului
+
+00:01:00.260 --> 00:01:02.260
+nu sunt tocmai fericite.
+
+00:01:02.260 --> 00:01:05.260
+Acesta e un exemplu de pe pagina de înregistrare de pe Yahoo.
+
+00:01:05.260 --> 00:01:07.260
+Caracterele aleatoare care s-au nimerit să-i apară utilizatorului
+
+00:01:07.260 --> 00:01:10.260
+au fost W, A, I, T, care - bineînțeles - sunt un cuvânt ("AȘTEAPTĂ").
+
+00:01:10.260 --> 00:01:13.260
+Dar partea cea mai tare este mesajul
+
+00:01:13.260 --> 00:01:16.260
+primit la centrul de asistență Yahoo după 20 de minute.
+
+00:01:16.260 --> 00:01:19.260
+Text: "Ajutor! Aștept de 20 minute și nu se întâmplă nimic".
+
+00:01:19.260 --> 00:01:23.260
+(Râsete)
+
+00:01:23.260 --> 00:01:25.260
+Acea persoană a înțeles că trebuie să aștepte.
+
+00:01:25.260 --> 00:01:28.260
+Firește, e mai bine decât ce-a primit acest biet utilizator.
+
+00:01:28.260 --> 00:01:30.260
+(Râsete)
+
+00:01:30.260 --> 00:01:33.260
+Proiectul CAPTCHA a fost făcut aici, la Carnegie Mellon, acum mai bine de 10 ani,
+
+00:01:33.260 --> 00:01:35.260
+și e folosit azi în întreaga lume.
+
+00:01:35.260 --> 00:01:37.260
+Să vă spun acum despre un proiect pe care l-am făcut după câțiva ani,
+
+00:01:37.260 --> 00:01:40.260
+care e un fel de evoluție ulterioară CAPTCHA.
+
+00:01:40.260 --> 00:01:42.260
+E un proiect căruia îi spunem reCAPTCHA,
+
+00:01:42.260 --> 00:01:44.260
+pe care l-am început aici, la Carnegie Mellon,
+
+00:01:44.260 --> 00:01:46.260
+și care a devenit apoi proiect comercial.
+
+00:01:46.260 --> 00:01:48.260
+După aceea, în urmă cu circa un an și jumătate,
+
+00:01:48.260 --> 00:01:50.260
+Google a cumpărat această companie.
+
+00:01:50.260 --> 00:01:52.260
+Să vă spun cum a început acest proiect.
+
+00:01:52.260 --> 00:01:55.260
+Proiectul a pornit de la următoarea constatare:
+
+00:01:55.260 --> 00:01:57.260
+se pare că circa 200 de milioane de CAPTCHA
+
+00:01:57.260 --> 00:02:00.260
+sunt tastate zilnic de oameni din întreaga lume.
+
+00:02:00.260 --> 00:02:02.260
+Când am auzit asta prima dată am fost foarte mândru de mine.
+
+00:02:02.260 --> 00:02:04.260
+M-am gândit: iată ce impact au avut cercetările mele.
+
+00:02:04.260 --> 00:02:06.260
+Apoi am început să mă simt prost.
+
+00:02:06.260 --> 00:02:08.260
+Iată de ce: de fiecare dată când tastați CAPTCHA,
+
+00:02:08.260 --> 00:02:11.260
+pierdeți de fapt 10 secunde din timpul vostru.
+
+00:02:11.260 --> 00:02:13.260
+Și dacă înmulțiți cu 200 de milioane,
+
+00:02:13.260 --> 00:02:16.260
+aflați că omenirea, în ansamblu, pierde circa 500.000 de ore în fiecare zi
+
+00:02:16.260 --> 00:02:18.260
+tastând aceste CAPTCHA-uri enervante.
+
+00:02:18.260 --> 00:02:20.260
+De aceea am început să mă simt prost.
+
+00:02:20.260 --> 00:02:22.260
+(Râsete)
+
+00:02:22.260 --> 00:02:25.260
+Și apoi am început să-mi zic, bineînțeles, că nu putem scăpa de aceste CAPTCHA,
+
+00:02:25.260 --> 00:02:27.260
+pentru că securitatea Internetului depinde cumva de ele.
+
+00:02:27.260 --> 00:02:30.260
+Iar apoi am început să mă gândesc dacă există vreo cale de a folosi acest efort
+
+00:02:30.260 --> 00:02:32.260
+pentru ceva care să fie bun pentru omenire.
+
+00:02:32.260 --> 00:02:34.260
+Vedeți, despre asta e vorba.
+
+00:02:34.260 --> 00:02:36.260
+În timp ce tastați CAPTCHA, în acele 10 secunde,
+
+00:02:36.260 --> 00:02:38.260
+creierul dvs. face ceva uluitor.
+
+00:02:38.260 --> 00:02:40.260
+Creierul dvs. face ceva ce computerele încă nu pot.
+
+00:02:40.260 --> 00:02:43.260
+Vă putem pune să faceți ceva folositor în acele 10 secunde?
+
+00:02:43.260 --> 00:02:45.260
+Cu alte cuvinte,
+
+00:02:45.260 --> 00:02:47.260
+există vreo problemă uriașă pentru rezolvarea căreia nu putem folosi calculatoarele,
+
+00:02:47.260 --> 00:02:50.260
+și pe care s-o împărțim în secvențe de 10 secunde
+
+00:02:50.260 --> 00:02:52.260
+astfel încât de fiecare dată când cineva rezolvă un CAPTCHA
+
+00:02:52.260 --> 00:02:54.260
+să rezolve și o mică parte din această problemă?
+
+00:02:54.260 --> 00:02:56.260
+Răspunsul e "da", și de asta ne ocupăm în prezent.
+
+00:02:56.260 --> 00:02:59.260
+Ceea ce nu știți poate e că azi, când tastați CAPTCHA,
+
+00:02:59.260 --> 00:03:01.260
+nu numai că vă autentificați ca fiind om,
+
+00:03:01.260 --> 00:03:03.260
+ci, în plus, ne ajutați să digitalizăm cărți.
+
+00:03:03.260 --> 00:03:05.260
+Să vă explic cum funcționează.
+
+00:03:05.260 --> 00:03:07.260
+Există o grămadă de proiecte prin care se încearcă digitalizarea cărților.
+
+00:03:07.260 --> 00:03:10.260
+Google are unul. Internet Archive are unul.
+
+00:03:10.260 --> 00:03:12.260
+Amazon, prin intermediul Kindle, încearcă să digitalizeze cărți.
+
+00:03:12.260 --> 00:03:14.260
+În esență, funcționează așa:
+
+00:03:14.260 --> 00:03:16.260
+începeți cu o carte tipărită.
+
+00:03:16.260 --> 00:03:18.260
+Știți ce sunt chestiile astea, nu? Ca niște cărți?
+
+00:03:18.260 --> 00:03:20.260
+(Râsete)
+
+00:03:20.260 --> 00:03:22.260
+Deci începeți cu o carte, pe care o scanați.
+
+00:03:22.260 --> 00:03:24.260
+A scana o carte
+
+00:03:24.260 --> 00:03:26.260
+este ca și cum ai face o fotografie digitală a fiecărei pagini.
+
+00:03:26.260 --> 00:03:28.260
+Obțineți o imagine pentru fiecare pagină a cărții.
+
+00:03:28.260 --> 00:03:30.260
+Aceasta e o imagine a textului de pe fiecare pagină a cărții.
+
+00:03:30.260 --> 00:03:32.260
+Următorul pas al procesului:
+
+00:03:32.260 --> 00:03:35.260
+calculatorul trebuie să fie capabil să descifreze toate cuvintele din această imagine.
+
+00:03:35.260 --> 00:03:37.260
+Folosește o tehnologie numită OCR,
+
+00:03:37.260 --> 00:03:39.260
+de la "optical character recognition" (recunoaștere optică a caracterelor),
+
+00:03:39.260 --> 00:03:41.260
+prin care se ia o imagine a unui text
+
+00:03:41.260 --> 00:03:43.260
+și se încearcă să se descifreze textul.
+
+00:03:43.260 --> 00:03:45.260
+Problema e că tehnologia OCR nu e perfectă.
+
+00:03:45.260 --> 00:03:47.260
+În special pentru cărțile mai vechi
+
+00:03:47.260 --> 00:03:50.260
+unde cerneala s-a șters și paginile s-au îngălbenit,
+
+00:03:50.260 --> 00:03:52.260
+OCR nu poate recunoaște o grămadă de cuvinte.
+
+00:03:52.260 --> 00:03:54.260
+De exemplu, pentru lucruri scrise cu peste 50 de ani în urmă,
+
+00:03:54.260 --> 00:03:57.260
+calculatorul nu poate recunoaște circa 30% dintre cuvinte.
+
+00:03:57.260 --> 00:03:59.260
+Ceea ce facem noi acum
+
+00:03:59.260 --> 00:04:01.260
+e să luăm toate cuvintele pe care calculatorul nu le poate recunoaște
+
+00:04:01.260 --> 00:04:03.260
+și-i punem pe oameni să le citească
+
+00:04:03.260 --> 00:04:05.260
+în timp ce tastează CAPTCHA pe Internet.
+
+00:04:05.260 --> 00:04:08.260
+Deci data viitoare când tastați CAPTCHA să știți că acele cuvinte pe care le tastați
+
+00:04:08.260 --> 00:04:11.260
+sunt de fapt cuvinte extrase din cărți care sunt digitalizate
+
+00:04:11.260 --> 00:04:13.260
+și pe care calculatorul nu le poate recunoaște.
+
+00:04:13.260 --> 00:04:15.260
+Motivul pentru care azi avem două cuvinte în loc de unul
+
+00:04:15.260 --> 00:04:17.260
+e pentru că, vedeți voi, unul dintre cuvinte
+
+00:04:17.260 --> 00:04:19.260
+tocmai a fost luat dintr-o carte
+
+00:04:19.260 --> 00:04:22.260
+și calculatorul nu l-a recunoscut, așa că vi-l prezintă dvs.
+
+00:04:22.260 --> 00:04:25.260
+Dar din moment ce nu știe răspunsul, nu poate evalua dacă ați tastat corect.
+
+00:04:25.260 --> 00:04:27.260
+Deci ceea ce facem e să vă dăm încă un cuvânt,
+
+00:04:27.260 --> 00:04:29.260
+unul pentru care sistemul știe răspunsul.
+
+00:04:29.260 --> 00:04:31.260
+Nu vă spunem care e care, deci vă cerem să le tastați pe ambele.
+
+00:04:31.260 --> 00:04:33.260
+Și dacă tastați corect cuvântul,
+
+00:04:33.260 --> 00:04:35.260
+cel pentru care sistemul știe deja răspunsul,
+
+00:04:35.260 --> 00:04:37.260
+acesta presupune că sunteți o persoană
+
+00:04:37.260 --> 00:04:39.260
+și capătă și ceva încredere că ați tastat corect și cel de-al doilea cuvânt.
+
+00:04:39.260 --> 00:04:42.260
+Și dacă repetăm acest proces cu circa 10 oameni diferiți
+
+00:04:42.260 --> 00:04:44.260
+și toți scriu la fel noul cuvânt,
+
+00:04:44.260 --> 00:04:46.260
+vom avea încă un cuvânt digitalizat corect.
+
+00:04:46.260 --> 00:04:48.260
+Așa funcționează sistemul.
+
+00:04:48.260 --> 00:04:51.260
+În esență, de când am lansat proiectul în urmă cu circa trei ani,
+
+00:04:51.260 --> 00:04:53.260
+o grămadă de site-uri au început să treacă
+
+00:04:53.260 --> 00:04:55.260
+de la vechiul CAPTCHA, cu care oamenii își pierdeau timpul,
+
+00:04:55.260 --> 00:04:57.260
+la noul CAPTCHA, prin care oamenii ajută la digitalizarea cărților.
+
+00:04:57.260 --> 00:04:59.260
+De exemplu Tickmaster.
+
+00:04:59.260 --> 00:05:02.260
+Deci de câte ori cumpărați bilete pe Tickmaster, ajutați la digitalizarea unei cărți.
+
+00:05:02.260 --> 00:05:04.260
+Facebook: de fiecare dată când adăugați un prieten sau dați un "poke",
+
+00:05:04.260 --> 00:05:06.260
+ajutați la digitalizarea unei cărți.
+
+00:05:06.260 --> 00:05:09.260
+Twitter și alte circa 350.000 de site-uri folosesc reCAPTCHA.
+
+00:05:09.260 --> 00:05:11.260
+De fapt, numărul de site-uri care folosesc reCAPTCHA e atât de mare
+
+00:05:11.260 --> 00:05:14.260
+încât numărul cuvintelor pe care le digitalizăm zilnic e cu adevărat impresionant.
+
+00:05:14.260 --> 00:05:16.260
+Sunt circa 100 de milioane pe zi,
+
+00:05:16.260 --> 00:05:20.260
+ceea ce e echivalentul a aproape 2,5 milioane de cărți pe an.
+
+00:05:20.260 --> 00:05:22.260
+Și toate astea se rezolvă cuvânt cu cuvânt,
+
+00:05:22.260 --> 00:05:24.260
+doar prin faptul că oamenii tastează CAPTCHA pe Internet.
+
+00:05:24.260 --> 00:05:32.260
+(Aplauze)
+
+00:05:32.260 --> 00:05:34.260
+Desigur,
+
+00:05:34.260 --> 00:05:36.260
+de vreme ce descifrăm zilnic atâtea cuvinte,
+
+00:05:36.260 --> 00:05:38.260
+se întâmplă și lucruri amuzante.
+
+00:05:38.260 --> 00:05:40.260
+Și asta e cu atât mai adevărat cu cât acum le dăm oamenilor
+
+00:05:40.260 --> 00:05:42.260
+două cuvinte alăturate în engleză selectate aleator.
+
+00:05:42.260 --> 00:05:44.260
+Așa că se întâmplă și lucruri amuzante.
+
+00:05:44.260 --> 00:05:46.260
+De exemplu, am prezentat acest cuvânt.
+
+00:05:46.260 --> 00:05:48.260
+Cuvântul e "creștini", deci nu e nimic în neregulă cu el.
+
+00:05:48.260 --> 00:05:51.260
+Dar dacă-l prezinți alături de un alt cuvânt ales la întâmplare,
+
+00:05:51.260 --> 00:05:53.260
+se pot întâmpla lucruri nefericite.
+
+00:05:53.260 --> 00:05:55.260
+Am ajuns la asta. (Text: creștini răi)
+
+00:05:55.260 --> 00:05:58.260
+Dar e mai rău de atât, pentru că site-ul care a afișat acest text
+
+00:05:58.260 --> 00:06:01.260
+s-a nimerit să se numească Ambasada Împărăției lui Dumnezeu.
+
+00:06:01.260 --> 00:06:03.260
+(Râsete)
+
+00:06:03.260 --> 00:06:05.260
+Ups.
+
+00:06:05.260 --> 00:06:08.260
+(Râsete)
+
+00:06:08.260 --> 00:06:10.260
+Iată altă combinație foarte nefericită.
+
+00:06:10.260 --> 00:06:12.260
+JohnEdwards.com (politician democrat american)
+
+00:06:12.260 --> 00:06:15.260
+(Text: liberal nenorocit)
+
+00:06:15.260 --> 00:06:17.260
+(Râsete)
+
+00:06:17.260 --> 00:06:20.260
+Așadar continuăm să insultăm zilnic oameni în stânga și în dreapta.
+
+00:06:20.260 --> 00:06:22.260
+Bineînțeles, nu ne limităm doar la a insulta oameni.
+
+00:06:22.260 --> 00:06:25.260
+Chestia e că prezentând câte două cuvinte întâmplător alese,
+
+00:06:25.260 --> 00:06:27.260
+se pot întâmpla și lucruri interesante.
+
+00:06:27.260 --> 00:06:29.260
+Asta a dat naștere
+
+00:06:29.260 --> 00:06:32.260
+la un important meme pe Internet
+
+00:06:32.260 --> 00:06:34.260
+la care zeci de mii de oameni au participat,
+
+00:06:34.260 --> 00:06:36.260
+și care s-a numit Arta CAPTCHA.
+
+00:06:36.260 --> 00:06:38.260
+Sunt sigur că unii dintre voi au auzit de asta.
+
+00:06:38.260 --> 00:06:40.260
+Iată cum funcționează.
+
+00:06:40.260 --> 00:06:42.260
+Imaginați-vă că folosiți Internetul și vedeți un CAPTCHA
+
+00:06:42.260 --> 00:06:44.260
+despre care credeți că e cumva bizar,
+
+00:06:44.260 --> 00:06:46.260
+cum e acest CAPTCHA. (Text: prăjitor de pâine invizibil)
+
+00:06:46.260 --> 00:06:48.260
+Ceea ce trebuie să faceți este să captați imaginea.
+
+00:06:48.260 --> 00:06:50.260
+Apoi, firește, completați CAPTCHA
+
+00:06:50.260 --> 00:06:52.260
+pentru că așa ne ajutați să digitalizăm o carte.
+
+00:06:52.260 --> 00:06:54.260
+Dar înainte de asta captați imaginea de pe ecran
+
+00:06:54.260 --> 00:06:56.260
+după care desenați ceva legat de text.
+
+00:06:56.260 --> 00:06:58.260
+(Râsete)
+
+00:06:58.260 --> 00:07:01.260
+Așa funcționează.
+
+00:07:01.260 --> 00:07:04.260
+Sunt zeci de mii de astfel de chestii.
+
+00:07:04.260 --> 00:07:06.260
+Unele sunt foarte drăguțe. (Text: cu pumnul încleștat)
+
+00:07:06.260 --> 00:07:08.260
+(Râsete)
+
+00:07:08.260 --> 00:07:10.260
+Unele sunt și mai amuzante.
+
+00:07:10.260 --> 00:07:13.260
+(Text: fondatori drogați) (N.B.: stoned - 1. sculptați în piatră; 2. drogați)
+
+00:07:13.260 --> 00:07:16.260
+(Râsete)
+
+00:07:16.260 --> 00:07:18.260
+Și unele dintre ele,
+
+00:07:18.260 --> 00:07:21.260
+cum e "shvisle paleontologic" (N.B. shvisle - cuvânt inventat),
+
+00:07:21.260 --> 00:07:23.260
+îl arată pe Snoop Dogg. (N.B.: cunoscut pentru astfel de cuvinte)
+
+00:07:23.260 --> 00:07:26.260
+(Râsete)
+
+00:07:26.260 --> 00:07:28.260
+OK, iată care e cifra mea preferată legată de reCAPTCHA.
+
+00:07:28.260 --> 00:07:31.260
+E lucrul care-mi place cel mai mult la acest proiect.
+
+00:07:31.260 --> 00:07:33.260
+Acesta e numărul de utilizatori individuali
+
+00:07:33.260 --> 00:07:36.260
+care ne-au ajutat să digutalizăm câte cel puțin un cuvânt dintr-o carte prin reCAPTCHA:
+
+00:07:36.260 --> 00:07:38.260
+750 de milioane,
+
+00:07:38.260 --> 00:07:40.260
+adică puțin peste 10% din populația lumii,
+
+00:07:40.260 --> 00:07:42.260
+ne-au ajutat să digitalizăm cunoștințele acumulate.
+
+00:07:42.260 --> 00:07:45.260
+Cifrele de acest fel sunt cele care mă motivează ca cercetător.
+
+00:07:45.260 --> 00:07:48.260
+Chestiunea care îmi motivează munca de cercetare e următoarea:
+
+00:07:48.260 --> 00:07:50.260
+Dacă ne uităm la realizările pe scară largă ale omenirii,
+
+00:07:50.260 --> 00:07:52.260
+aceste lucruri uriașe
+
+00:07:52.260 --> 00:07:55.260
+pentru care oamenii au lucrat împreună din perspectivă istorică,
+
+00:07:55.260 --> 00:07:57.260
+cum ar fi, de pildă, construcția piramidelor în Egipt,
+
+00:07:57.260 --> 00:07:59.260
+sau canalul Panama,
+
+00:07:59.260 --> 00:08:01.260
+sau trimiterea unui om pe Lună,
+
+00:08:01.260 --> 00:08:03.260
+e ceva curios legat de asta,
+
+00:08:03.260 --> 00:08:05.260
+anume că toate astea au fost făcute cam de același număr de oameni.
+
+00:08:05.260 --> 00:08:08.260
+E ciudat; toate au fost făcute de circa 100.000 de oameni.
+
+00:08:08.260 --> 00:08:11.260
+Motivul e acela că, înainte de Internet,
+
+00:08:11.260 --> 00:08:13.260
+a coordona peste 100.000 de oameni,
+
+00:08:13.260 --> 00:08:16.260
+ca să nu mai vorbim de a-i plăti, era practic imposibil.
+
+00:08:16.260 --> 00:08:18.260
+Acum, mulțumită Internetului, tocmai v-am arătat un proiect
+
+00:08:18.260 --> 00:08:20.260
+în care am văzut 750 milioane de oameni
+
+00:08:20.260 --> 00:08:22.260
+contribuind la digitalizarea cunoașterii umane.
+
+00:08:22.260 --> 00:08:24.260
+Întrebarea care-mi motivează cercetările e:
+
+00:08:24.260 --> 00:08:27.260
+dacă putem trimite un om pe lună cu ajutorul a 100.000 de oameni,
+
+00:08:27.260 --> 00:08:29.260
+ce-am putea face cu 100 de milioane?
+
+00:08:29.260 --> 00:08:31.260
+Pornind de la întrebarea asta,
+
+00:08:31.260 --> 00:08:33.260
+am creat mai multe proiecte diferite la care lucrăm.
+
+00:08:33.260 --> 00:08:36.260
+Să vă povestesc despre cel care mă entuziasmează cel mai mult.
+
+00:08:36.260 --> 00:08:38.260
+E un lucru la care am lucrat aproape în secret
+
+00:08:38.260 --> 00:08:40.260
+cam în ultimul an și jumătate.
+
+00:08:40.260 --> 00:08:42.260
+Nu a fost încă lansat. Se numește Duolingo.
+
+00:08:42.260 --> 00:08:44.260
+Și de vreme ce nu a fost lansat, șșșt!
+
+00:08:44.260 --> 00:08:46.260
+(Râsete)
+
+00:08:46.260 --> 00:08:48.260
+Da, am încredere că așa veți face.
+
+00:08:48.260 --> 00:08:50.260
+Iată proiectul. Și iată cum a început.
+
+00:08:50.260 --> 00:08:52.260
+A început cu mine punând o întrebare unui student de-al meu.
+
+00:08:52.260 --> 00:08:54.260
+Severin Hacker.
+
+00:08:54.260 --> 00:08:56.260
+OK, iată-l pe Severin Hacker.
+
+00:08:56.260 --> 00:08:58.260
+Deci i-am pus studentului meu o întrebare.
+
+00:08:58.260 --> 00:09:00.260
+Ca o paranteză, ați auzit corect;
+
+00:09:00.260 --> 00:09:02.260
+numele lui de familie e Hacker.
+
+00:09:02.260 --> 00:09:04.260
+I-am pus această întrebare:
+
+00:09:04.260 --> 00:09:06.260
+Cum aș putea să fac 100 de milioane de oameni
+
+00:09:06.260 --> 00:09:09.260
+să traducă gratuit Internetul în fiecare dintre limbile importante?
+
+00:09:09.260 --> 00:09:11.260
+Sunt multe lucruri de spus despre această întrebare.
+
+00:09:11.260 --> 00:09:13.260
+În primul rând, să traduci Internetul.
+
+00:09:13.260 --> 00:09:16.260
+În prezent informațiile de pe Internet se găsesc în limbi diferite.
+
+00:09:16.260 --> 00:09:18.260
+Mare parte din acestea sunt în engleză.
+
+00:09:18.260 --> 00:09:20.260
+Dacă nu știi engleză, nu ai acces la ele.
+
+00:09:20.260 --> 00:09:22.260
+Dar sunt și mari părți în alte limbi,
+
+00:09:22.260 --> 00:09:25.260
+și dacă nu știi acele limbi, nu ai acces la ele.
+
+00:09:25.260 --> 00:09:28.260
+Ce aș vrea e să traduc întregul Internet, sau măcar cea mai mare parte,
+
+00:09:28.260 --> 00:09:30.260
+în fiecare limbă importantă.
+
+00:09:30.260 --> 00:09:32.260
+Asta aș vrea să fac.
+
+00:09:32.260 --> 00:09:35.260
+Unii dintre dvs. m-ar putea întreba de ce nu folosim calculatoarele pentru traducere.
+
+00:09:35.260 --> 00:09:37.260
+De ce nu putem folosi traducerile automate?
+
+00:09:37.260 --> 00:09:39.260
+Traducerea automată începe să fie azi folosită pentru propoziții, ici și colo.
+
+00:09:39.260 --> 00:09:41.260
+De ce nu o putem folosi pentru a traduce întregul Internet?
+
+00:09:41.260 --> 00:09:43.260
+Ei bine, problema cu asta e că nu e încă destul de bună
+
+00:09:43.260 --> 00:09:45.260
+și probabil nici nu va fi în următorii 15-20 de ani.
+
+00:09:45.260 --> 00:09:47.260
+Face o grămadă de greșeli.
+
+00:09:47.260 --> 00:09:49.260
+Și chiar când nu greșește,
+
+00:09:49.260 --> 00:09:52.260
+de vreme ce face atâtea alte greșeli, nu știi dacă să ai încredere sau nu.
+
+00:09:52.260 --> 00:09:54.260
+Să vă arăt un exemplu
+
+00:09:54.260 --> 00:09:56.260
+de ceva tradus de calculator.
+
+00:09:56.260 --> 00:09:58.260
+E vorba de o discuție pe un forum.
+
+00:09:58.260 --> 00:10:01.260
+Era cineva care încerca să pună o întrebare despre JavaScript.
+
+00:10:01.260 --> 00:10:04.260
+Era tradus din japoneză în engleză.
+
+00:10:04.260 --> 00:10:06.260
+Vă las să o citiți.
+
+00:10:06.260 --> 00:10:08.260
+Această persoană începe prin a-și cere scuze
+
+00:10:08.260 --> 00:10:10.260
+pentru că a făcut traducerea cu un calculator.
+
+00:10:10.260 --> 00:10:13.260
+Propoziția care urmează va fi un preambul la întrebare.
+
+00:10:13.260 --> 00:10:15.260
+Explică doar ceva.
+
+00:10:15.260 --> 00:10:18.260
+Nu uitați, e o întrebare despre JavaScript.
+
+00:10:19.260 --> 00:10:23.260
+(Text: Adesea, timpul țapului instalează o eroare care e vomă).
+
+00:10:23.260 --> 00:10:27.260
+(Râsete)
+
+00:10:27.260 --> 00:10:30.260
+Apoi vine prima parte a întrebării.
+
+00:10:30.260 --> 00:10:34.260
+(Text: De câte ori ca vântul, un stâlp și dragonul?)
+
+00:10:34.260 --> 00:10:36.260
+(Râsete)
+
+00:10:36.260 --> 00:10:39.260
+Apoi vine partea mea preferată din întrebare.
+
+00:10:39.260 --> 00:10:42.260
+(Text: Asta insultă pietrele tatălui?)
+
+00:10:42.260 --> 00:10:44.260
+(Râsete)
+
+00:10:44.260 --> 00:10:47.260
+Urmează încheierea, care e partea mea favorită din întreaga poveste.
+
+00:10:47.260 --> 00:10:51.260
+(Text: Vă rog sa vă cereți scuze pentru prostia dvs. Există un multe mulțumiri).
+
+00:10:51.260 --> 00:10:53.260
+(Râsete)
+
+00:10:53.260 --> 00:10:55.260
+OK, deci traducerea computerizată nu e încă suficient de bună.
+
+00:10:55.260 --> 00:10:57.260
+Înapoi la întrebare.
+
+00:10:57.260 --> 00:11:00.260
+Avem nevoie de oameni care să traducă întregul Internet.
+
+00:11:00.260 --> 00:11:02.260
+Următoarea întrebare pe care ați putea-o avea
+
+00:11:02.260 --> 00:11:04.260
+e de nu putem să-i plătim pur și simplu pe oameni pentru asta?
+
+00:11:04.260 --> 00:11:07.260
+Am putea plăti translatori profesioniști pentru a traduce întregul web.
+
+00:11:07.260 --> 00:11:09.260
+Am putea face asta.
+
+00:11:09.260 --> 00:11:11.260
+Din nefericire, ar fi extrem de costisitor.
+
+00:11:11.260 --> 00:11:14.260
+De pildă a traduce o mică, mică parte a web-ului, Wikipedia,
+
+00:11:14.260 --> 00:11:17.260
+într-o altă limbă, spaniola...
+
+00:11:17.260 --> 00:11:19.260
+Wikipedia există și în spaniolă,
+
+00:11:19.260 --> 00:11:21.260
+dar e foarte mică în comparație cu cea în engleză.
+
+00:11:21.260 --> 00:11:23.260
+E circa 20% din mărimea celei în engleză.
+
+00:11:23.260 --> 00:11:26.260
+Dacă am vrea să traducem restul de 80% în spaniolă,
+
+00:11:26.260 --> 00:11:28.260
+ne-ar costa cel puțin 50 de milioane de dolari -
+
+00:11:28.260 --> 00:11:31.260
+și asta dacă am folosi traducători din cea mai exploatată și ieftină țară din lume.
+
+00:11:31.260 --> 00:11:33.260
+Deci ar fi foarte costisitor.
+
+00:11:33.260 --> 00:11:35.260
+Ceea ce vrem să facem e să punem 100 de milioane de oameni
+
+00:11:35.260 --> 00:11:37.260
+să traducă web-ul în fiecare limbă importantă
+
+00:11:37.260 --> 00:11:39.260
+gratuit.
+
+00:11:39.260 --> 00:11:41.260
+Daca asta îți propui să faci
+
+00:11:41.260 --> 00:11:43.260
+îți dai seama rapid că te vei ciocni de două piedici destul de mari,
+
+00:11:43.260 --> 00:11:45.260
+două mari obstacole.
+
+00:11:45.260 --> 00:11:48.260
+Prima e lipsa de persoane bilingve.
+
+00:11:48.260 --> 00:11:50.260
+Nici măcar nu știu
+
+00:11:50.260 --> 00:11:53.260
+dacă există 100 de milioane de oameni care utilizează web-ul
+
+00:11:53.260 --> 00:11:55.260
+care să știe destul de bine două limbi pentru a ne ajuta să traducem.
+
+00:11:55.260 --> 00:11:57.260
+Asta e o mare problemă.
+
+00:11:57.260 --> 00:11:59.260
+Cealaltă problemă de care ne ciocnim e lipsa de motivație.
+
+00:11:59.260 --> 00:12:01.260
+Cum vei motiva oamenii
+
+00:12:01.260 --> 00:12:03.260
+să traducă gratuit web-ul?
+
+00:12:03.260 --> 00:12:06.260
+În mod normal, trebuie să-i plătești pe oameni să facă asta.
+
+00:12:06.260 --> 00:12:08.260
+Cum îi vei motiva să lucreze fără bani?
+
+00:12:08.260 --> 00:12:11.260
+Când am început să ne gândim, am fost blocați de aceste două obstacole.
+
+00:12:11.260 --> 00:12:13.260
+Dar apoi ne-am dat seama că există de fapt o cale
+
+00:12:13.260 --> 00:12:15.260
+de a rezolva ambele probleme cu aceeași soluție.
+
+00:12:15.260 --> 00:12:17.260
+Există o cale de a împușca doi iepuri deodată.
+
+00:12:17.260 --> 00:12:20.260
+Și aceea e de a transforma traducerea
+
+00:12:20.260 --> 00:12:23.260
+în ceva ce milioane de oameni vor să facă,
+
+00:12:23.260 --> 00:12:26.260
+și asta ajută și rezolvarea problemei lipsei persoanelor bilingve,
+
+00:12:26.260 --> 00:12:29.260
+iar asta e învățarea unei limbi străine.
+
+00:12:29.260 --> 00:12:31.260
+Aflăm că astăzi
+
+00:12:31.260 --> 00:12:34.260
+sunt peste 1,2 miliarde de oameni care învață o limbă străină.
+
+00:12:34.260 --> 00:12:36.260
+Oameni care vor cu adevărat să învețe o limbă străină.
+
+00:12:36.260 --> 00:12:39.260
+Asta nu se întâmplă pentru că îi forțează cineva la școală.
+
+00:12:39.260 --> 00:12:41.260
+De exemplu, doar în Statele Unite,
+
+00:12:41.260 --> 00:12:43.260
+sunt peste 5 milioane de oameni care au plătit peste 500 de dolari
+
+00:12:43.260 --> 00:12:45.260
+pentru un software de învățare a unei limbi.
+
+00:12:45.260 --> 00:12:47.260
+Deci sunt oameni care vor foarte mult să învețe o altă limbă.
+
+00:12:47.260 --> 00:12:50.260
+În ultimul an și jumătate am lucrat la un nou website -
+
+00:12:50.260 --> 00:12:52.260
+se numește Duolingo -
+
+00:12:52.260 --> 00:12:55.260
+în care ideea de bază e ca oamenii să învețe gratuit o nouă limbă
+
+00:12:55.260 --> 00:12:57.260
+și în același timp să traducă web-ul.
+
+00:12:57.260 --> 00:12:59.260
+În esență, învață făcând.
+
+00:12:59.260 --> 00:13:01.260
+Modul în care funcționează
+
+00:13:01.260 --> 00:13:04.260
+este: atunci când ești doar începător, vă dăm doar propoziții foarte, foarte simple.
+
+00:13:04.260 --> 00:13:06.260
+Sunt, bineînțeles, o grămadă de propoziții foarte simple pe web.
+
+00:13:06.260 --> 00:13:08.260
+Vă dăm propoziții foarte, foarte simple
+
+00:13:08.260 --> 00:13:10.260
+și alături ce înseamnă fiecare cuvânt.
+
+00:13:10.260 --> 00:13:13.260
+Și pe măsură ce le traduceți, și vedeți și cum le traduc alții,
+
+00:13:13.260 --> 00:13:15.260
+începeți să învățați limba.
+
+00:13:15.260 --> 00:13:17.260
+Pe măsură ce învățați mai mult,
+
+00:13:17.260 --> 00:13:19.260
+vă dăm să traduceți propoziții din ce în ce mai complexe.
+
+00:13:19.260 --> 00:13:21.260
+Și de fiecare dată, făcând asta, învățați.
+
+00:13:21.260 --> 00:13:23.260
+Partea incredibilă a acestei metode
+
+00:13:23.260 --> 00:13:25.260
+e că funcționează cu adevărat.
+
+00:13:25.260 --> 00:13:27.260
+Întâi de toate, oamenii chiar învață o altă limbă.
+
+00:13:27.260 --> 00:13:29.260
+Suntem aproape gata cu site-ul, acum îl testăm.
+
+00:13:29.260 --> 00:13:31.260
+Oamenii chiar pot învăța o limbă străină cu el.
+
+00:13:31.260 --> 00:13:34.260
+Și o învață aproape la fel de bine ca atunci când ar folosi un software de top.
+
+00:13:34.260 --> 00:13:36.260
+Deci oamenii chiar învață o limbă străină.
+
+00:13:36.260 --> 00:13:38.260
+Și nu doar că o învață,
+
+00:13:38.260 --> 00:13:40.260
+dar e și mult mai interesant.
+
+00:13:40.260 --> 00:13:43.260
+Pentru că, prin Duolingo, oamenii învață pe baza unui conținut real.
+
+00:13:43.260 --> 00:13:45.260
+Spre deosebire de învățarea pe bază de propoziții inventate,
+
+00:13:45.260 --> 00:13:48.260
+oamenii învață prin conținut autentic, care e implicit interesant.
+
+00:13:48.260 --> 00:13:50.260
+Oamenii chiar învață o altă limbă.
+
+00:13:50.260 --> 00:13:52.260
+Dar poate și mai surprinzător e faptul că
+
+00:13:52.260 --> 00:13:55.260
+traducerile pe care le primim de la cei care folosesc site-ul
+
+00:13:55.260 --> 00:13:57.260
+chiar dacă sunt începători,
+
+00:13:57.260 --> 00:14:00.260
+au aceeași acuratețe ca cele făcute de traducători profesioniști,
+
+00:14:00.260 --> 00:14:02.260
+ceea ce e foarte surprinzător.
+
+00:14:02.260 --> 00:14:04.260
+Să vă arăt un exemplu.
+
+00:14:04.260 --> 00:14:06.260
+Aceasta e o propoziție tradusă din germană în engleză.
+
+00:14:06.260 --> 00:14:08.260
+Cea de sus e germană.
+
+00:14:08.260 --> 00:14:10.260
+În mijloc e traducerea în engleză
+
+00:14:10.260 --> 00:14:12.260
+care a fost făcută de un traducător profesionist
+
+00:14:12.260 --> 00:14:14.260
+pe care l-am plătit cu 20 de cenți pe cuvânt pentru această traducere.
+
+00:14:14.260 --> 00:14:17.260
+În partea de jos e o traducere făcută de utilizatori de Duolingo,
+
+00:14:17.260 --> 00:14:19.260
+niciunul nu știa nici o boabă de germană
+
+00:14:19.260 --> 00:14:21.260
+înainte să înceapă să folosească site-ul.
+
+00:14:21.260 --> 00:14:23.260
+Puteți vedea, e aproape perfect.
+
+00:14:23.260 --> 00:14:25.260
+Firește, folosim un truc aici
+
+00:14:25.260 --> 00:14:27.260
+pentru a face ca traducerile să fie la fel de bune ca cele profesioniste.
+
+00:14:27.260 --> 00:14:30.260
+Combinăm traducerile mai multor începători
+
+00:14:30.260 --> 00:14:33.260
+pentru a obține calitatea unui singur traducător profesionist.
+
+00:14:33.260 --> 00:14:38.260
+Și deși combinăm traducerile,
+
+00:14:38.260 --> 00:14:40.260
+site-ul traduce de fapt destul de repede.
+
+00:14:40.260 --> 00:14:42.260
+Să vă arăt:
+
+00:14:42.260 --> 00:14:44.260
+aceasta e estimarea noastră despre viteza cu care am putea traduce Wikipedia
+
+00:14:44.260 --> 00:14:46.260
+din engleză în spaniolă.
+
+00:14:46.260 --> 00:14:49.260
+Nu uitați, e o treabă care ar costa 50 de milioane de dolari.
+
+00:14:49.260 --> 00:14:51.260
+Dacă ne propunem să traducem Wikipedia în spaniolă
+
+00:14:51.260 --> 00:14:54.260
+am putea s-o facem în cinci săptămâni cu 100.000 de utilizatori activi.
+
+00:14:54.260 --> 00:14:57.260
+Și am putea s-o facem în circa 80 de ore cu 1 milion de utilizatori activi.
+
+00:14:57.260 --> 00:15:00.260
+Cum în toate proiectele la care grupul meu a lucrat au avut milioane de utilizatori,
+
+00:15:00.260 --> 00:15:02.260
+avem speranța că vom putea traduce
+
+00:15:02.260 --> 00:15:04.260
+acest proiect foarte repede.
+
+00:15:04.260 --> 00:15:07.260
+Lucrul care mă entuziasmează cel mai mult legat de Duolingo
+
+00:15:07.260 --> 00:15:10.260
+e că sunt convins că oferă un model de afaceri echitabil pentru învățarea limbilor străine.
+
+00:15:10.260 --> 00:15:12.260
+Iată despre ce vorbesc:
+
+00:15:12.260 --> 00:15:14.260
+actualul model de afacere pentru învățarea limbilor străine
+
+00:15:14.260 --> 00:15:16.260
+e că studentul plătește,
+
+00:15:16.260 --> 00:15:18.260
+mai exact plătește 500 de dolari firmei Rosetta Stone.
+
+00:15:18.260 --> 00:15:20.260
+(Râsete)
+
+00:15:20.260 --> 00:15:22.260
+Acesta este modelul de afaceri actual.
+
+00:15:22.260 --> 00:15:24.260
+Problema cu acest model de afaceri
+
+00:15:24.260 --> 00:15:27.260
+e că 95% din populația lumii nu are 500 de dolari.
+
+00:15:27.260 --> 00:15:30.260
+Deci e foarte incorect față de oamenii nevoiași.
+
+00:15:30.260 --> 00:15:32.260
+Și îi favorizează pe cei bogați.
+
+00:15:32.260 --> 00:15:34.260
+În ceea ce privește Duolingo,
+
+00:15:34.260 --> 00:15:36.260
+pentru că în timp ce înveți
+
+00:15:36.260 --> 00:15:39.260
+creezi de fapt valoare, traducând texte,
+
+00:15:39.260 --> 00:15:42.260
+pentru care, de exemplu, am putea plăti pe cineva să facă asta.
+
+00:15:42.260 --> 00:15:44.260
+Așa putem monetiza asta.
+
+00:15:44.260 --> 00:15:46.260
+De vreme ce oamenii creează valoare învățând,
+
+00:15:46.260 --> 00:15:49.260
+nu trebuie să plătească în bani; plătesc oferind timpul lor.
+
+00:15:49.260 --> 00:15:52.260
+Partea minunată aici e că ei plătesc prin timpul lor,
+
+00:15:52.260 --> 00:15:54.260
+un timp care oricum urma să fie folosit
+
+00:15:54.260 --> 00:15:56.260
+pentru a învăța o limbă.
+
+00:15:56.260 --> 00:15:59.260
+Partea frumoasă cu Duolingo e, cred eu, că oferă un model de afaceri echitabil,
+
+00:15:59.260 --> 00:16:01.260
+unul fără discriminări la adresa oamenilor săraci.
+
+00:16:01.260 --> 00:16:03.260
+Acesta este site-ul. Mulțumesc.
+
+00:16:03.260 --> 00:16:11.260
+(Aplauze)
+
+00:16:11.260 --> 00:16:13.260
+Acesta este site-ul.
+
+00:16:13.260 --> 00:16:15.260
+Încă nu l-am lansat,
+
+00:16:15.260 --> 00:16:18.260
+dar dacă îl vizitați, vă puteți înregistra pentru versiunea beta,
+
+00:16:18.260 --> 00:16:20.260
+care probabil va fi lansată în 3-4 săptămâni.
+
+00:16:20.260 --> 00:16:22.260
+Încă nu am lansat acest Duolingo.
+
+00:16:22.260 --> 00:16:24.260
+Apropo, eu sunt cel care v-a povestit toate astea,
+
+00:16:24.260 --> 00:16:27.260
+dar de fapt Duolingo e rezultatul muncii unei echipe extraordinare - unii sunt aici, cu noi.
+
+00:16:27.260 --> 00:16:29.260
+Vă mulțumesc.
+
+00:16:29.260 --> 00:16:33.260
+(Aplauze)
+

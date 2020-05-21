@@ -1,0 +1,404 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:18.330
+Tradutor: Marcos Vinícius Petri
+Revisor: Rafael Eufrasio
+
+00:00:18.330 --> 00:00:21.330
+Um dos maiores problemas em computação gráfica
+
+00:00:21.330 --> 00:00:23.330
+tem sido criar uma imagem realística
+
+00:00:23.330 --> 00:00:25.330
+de um rosto humano digitalizado.
+
+00:00:25.330 --> 00:00:28.330
+Um dos motivos de ser tão difícil é que, diferente de alieníginas e dinossauros,
+
+00:00:28.330 --> 00:00:31.330
+nós vemos faces humanas todos os dias.
+
+00:00:31.330 --> 00:00:33.330
+Elas são muito importantes para como nos comunicamos.
+
+00:00:33.330 --> 00:00:36.330
+Como um resultado, estamos sintonizados com as coisas mais sutis
+
+00:00:36.330 --> 00:00:38.330
+que poderia possivelmente estarem erradas com uma renderização
+
+00:00:38.330 --> 00:00:41.330
+a fim de acreditar se as imagens são realísticas.
+
+00:00:41.330 --> 00:00:43.330
+E o que irei fazer nos próximos cinco minutos
+
+00:00:43.330 --> 00:00:45.330
+é guiar vocês por um processo
+
+00:00:45.330 --> 00:00:48.330
+no qual tentamos criar uma face computadorizada razoavelmente realística,
+
+00:00:48.330 --> 00:00:51.330
+usando algumas tecnologias de computação gráfica desenvolvidas por nós,
+
+00:00:51.330 --> 00:00:53.330
+junto com colaboradores de uma empresa chamada Image Metrics.
+
+00:00:53.330 --> 00:00:55.330
+Nós tentaremos criar uma imagem real da face
+
+00:00:55.330 --> 00:00:58.330
+de uma atriz chamada Emily O'Brien, esta aqui.
+
+00:00:58.330 --> 00:01:01.330
+Esta é uma renderização computadorizada de seu rosto.
+
+00:01:01.330 --> 00:01:03.330
+No fim da palestra, veremos ele se mover.
+
+00:01:03.330 --> 00:01:06.330
+A maneira que fizemos isso foi: tentamos começar com a própria Emily,
+
+00:01:06.330 --> 00:01:09.330
+que foi tão gentil a ponto de vir ao nosso laboratório
+
+00:01:09.330 --> 00:01:12.330
+em Marina Del Rey, para uma sessão no Light Stage 5.
+
+00:01:12.330 --> 00:01:16.330
+Uma esfera de scaneamento de face, com 156 LEDs brancas por todos os lados,
+
+00:01:16.330 --> 00:01:18.330
+nos permitindo fotografá-la
+
+00:01:18.330 --> 00:01:21.330
+em uma série de condições de iluminação controlada.
+
+00:01:21.330 --> 00:01:24.330
+E a iluminação que usamos atualmente é próxima disto.
+
+00:01:24.330 --> 00:01:26.330
+Nós tiramos todas estas fotografias em cerca três segundos.
+
+00:01:26.330 --> 00:01:29.330
+E nós basicamente capturamos informação suficiente
+
+00:01:29.330 --> 00:01:33.330
+com padrões de projeção que se encaixa nas formas e contornos da face dela,
+
+00:01:33.330 --> 00:01:35.330
+em direções de luz diferentes,
+
+00:01:35.330 --> 00:01:37.330
+para obter os detalhes da face
+
+00:01:37.330 --> 00:01:39.330
+em escala pequena e grande.
+
+00:01:39.330 --> 00:01:41.330
+Se nós aproximarmos esta fotografia,
+
+00:01:41.330 --> 00:01:43.330
+podemos ver que é uma bela fotografia dela,
+
+00:01:43.330 --> 00:01:47.330
+porque ela foi iluminada totalmente o tempo todo
+
+00:01:47.330 --> 00:01:49.330
+para produzir esta bela imagem de textura facial dela.
+
+00:01:49.330 --> 00:01:52.330
+Além disso, nós usamos polarizadores em todas as luzes --
+
+00:01:52.330 --> 00:01:54.330
+da mesma forma que óculos polarizados podem bloquear
+
+00:01:54.330 --> 00:01:56.330
+o brilho no para-brisa,
+
+00:01:56.330 --> 00:01:58.330
+polarizadores podem bloquear o brilho na pele,
+
+00:01:58.330 --> 00:02:01.330
+assim não temos os reflexos de brilho para obter a foto.
+
+00:02:01.330 --> 00:02:03.330
+Agora, se girarmos o polarizador só um pouco,
+
+00:02:03.330 --> 00:02:05.330
+nós conseguimos trazer o reflexo
+
+00:02:05.330 --> 00:02:07.330
+da pele de volta
+
+00:02:07.330 --> 00:02:10.330
+e você pode ver que ela se parece um pouco brilhante e oleosa.
+
+00:02:10.330 --> 00:02:13.330
+Se você tirar a diferença entre estas duas imagens
+
+00:02:13.330 --> 00:02:15.330
+você consegue uma imagem iluminada por toda a esfera,
+
+00:02:15.330 --> 00:02:18.330
+mas somente do brilho da pele da Emily.
+
+00:02:18.330 --> 00:02:20.330
+Não acho que uma foto como esta
+
+00:02:20.330 --> 00:02:22.330
+tenha sido tirada anteriormente.
+
+00:02:22.330 --> 00:02:25.330
+Esta é uma luz muito importante para capturar,
+
+00:02:25.330 --> 00:02:27.330
+porque esta é a luz que reflete a superfície da pele.
+
+00:02:27.330 --> 00:02:29.330
+Não chega às camadas translúcidas
+
+00:02:29.330 --> 00:02:31.330
+da pele que iriam borrar a imagem.
+
+00:02:31.330 --> 00:02:33.330
+Como resultado, temos uma boa pista
+
+00:02:33.330 --> 00:02:36.330
+dos detalhes da estrutura dos poros
+
+00:02:36.330 --> 00:02:38.330
+e das rugas que todos nós temos,
+
+00:02:38.330 --> 00:02:40.330
+estas coisas que nos fazem parecer humanos reais.
+
+00:02:40.330 --> 00:02:44.330
+Se usarmos a informação dos reflexos
+
+00:02:44.330 --> 00:02:46.330
+nós ir de um scaneamento tradicional da face
+
+00:02:46.330 --> 00:02:50.330
+que contém os contornos grosseiros da face e o formato básico,
+
+00:02:50.330 --> 00:02:52.330
+e aumentá-lo com informação
+
+00:02:52.330 --> 00:02:55.330
+que adiciona toda aquela estrutura de poros e rugas.
+
+00:02:55.330 --> 00:02:57.330
+E, até mais importante,
+
+00:02:57.330 --> 00:03:00.330
+já que este é um processo fotométrico que demora apenas três segundos para capturar,
+
+00:03:00.330 --> 00:03:02.330
+nós podemos fotografar a Emily,
+
+00:03:02.330 --> 00:03:04.330
+durante parte de uma tarde,
+
+00:03:04.330 --> 00:03:07.330
+em várias poses e expressões faciais diferentes.
+
+00:03:07.330 --> 00:03:10.330
+Aqui podemos ver os olhos dela se movendo, a boca se mexendo.
+
+00:03:10.330 --> 00:03:13.330
+Com isso nós iremos criar uma personagem digital realística.
+
+00:03:13.330 --> 00:03:17.330
+Se prestarem atenção nestes scans da Emily,
+
+00:03:17.330 --> 00:03:20.330
+poderá ver que a face humana faz um monte de coisas incríveis
+
+00:03:20.330 --> 00:03:23.330
+enquanto varia de expressão facial.
+
+00:03:23.330 --> 00:03:26.330
+Você pode ver as coisas. Não apenas o formado que muda,
+
+00:03:26.330 --> 00:03:30.330
+mas pode ver todo o tipo de curva e rugas que aparecem.
+
+00:03:30.330 --> 00:03:34.330
+Pode ver que a estrutura de poros muda bastante
+
+00:03:34.330 --> 00:03:36.330
+quando estica os poros da pele,
+
+00:03:36.330 --> 00:03:38.330
+até voltar a textura normal.
+
+00:03:38.330 --> 00:03:41.330
+Podem ver sulcos na sobrancelha e como a microestrutura muda.
+
+00:03:41.330 --> 00:03:45.330
+Os músculos puxando a pele, abaixando as sobrancelhas.
+
+00:03:45.330 --> 00:03:48.330
+Os músculos se curvando na testa quando ela faz isso.
+
+00:03:48.330 --> 00:03:51.330
+Com esse tipo de geometria de alta resolução,
+
+00:03:51.330 --> 00:03:55.330
+já que capturamos com várias câmeras, temos um ótimo mapeamento da face.
+
+00:03:55.330 --> 00:03:57.330
+E observando como os canais de iluminação,
+
+00:03:57.330 --> 00:03:59.330
+o vermelho, verde e azul,
+
+00:03:59.330 --> 00:04:01.330
+difundem diferentemente a luz,
+
+00:04:01.330 --> 00:04:04.330
+nós podemos sombrear a pele no computador.
+
+00:04:04.330 --> 00:04:07.330
+Então, ao invés de parecer um boneco de plástico,
+
+00:04:07.330 --> 00:04:10.330
+parece que foi feito de verdadeira pele humana.
+
+00:04:10.330 --> 00:04:12.330
+E foi isto o que usamos,
+
+00:04:12.330 --> 00:04:14.330
+junto com a companhia Image Metrics,
+
+00:04:14.330 --> 00:04:17.330
+para criar uma versão digital da Emily.
+
+00:04:17.330 --> 00:04:19.330
+Aqui estamos vendo a escala maior da geometria.
+
+00:04:19.330 --> 00:04:22.330
+Eles basicamente criaram um boneco digital dela,
+
+00:04:22.330 --> 00:04:24.330
+onde você pode colocar vários fios
+
+00:04:24.330 --> 00:04:26.330
+que servem para mover sua face em formas
+
+00:04:26.330 --> 00:04:28.330
+que sejam consistentes com as fotos que tiramos.
+
+00:04:28.330 --> 00:04:30.330
+E, junto com a escala grosseira,
+
+00:04:30.330 --> 00:04:32.330
+eles também usaram todos os detalhes
+
+00:04:32.330 --> 00:04:35.330
+para criar um conjunto chamado de "mapa de deslocamento"
+
+00:04:35.330 --> 00:04:38.330
+que também é animado.
+
+00:04:38.330 --> 00:04:40.330
+Aqui estão os mapas de deslocamento.
+
+00:04:40.330 --> 00:04:43.330
+E vocês podem ver as diferentes rugas aparecendo enquanto se move.
+
+00:04:43.330 --> 00:04:45.330
+O último processo foi, então, animá-la.
+
+00:04:45.330 --> 00:04:49.330
+Nós usamos uma filmagem dela real como fonte de dados.
+
+00:04:49.330 --> 00:04:52.330
+Então, analizando este filme com técnicas computadorizadas,
+
+00:04:52.330 --> 00:04:54.330
+eles foram capazes de mexer na face
+
+00:04:54.330 --> 00:04:56.330
+usando a fonte gerada por computador.
+
+00:04:56.330 --> 00:04:58.330
+O que vocês irão ver, depois disso,
+
+00:04:58.330 --> 00:05:00.330
+é uma imagem real da face digital.
+
+00:05:00.330 --> 00:05:02.330
+Podemos aumentar o volume um pouco, se possível.
+
+00:05:02.330 --> 00:05:06.330
+Emily: Image Metrics é uma companhia de animação baseada no desempenho, que não requer vestimentas especiais para rastreamento.
+
+00:05:06.330 --> 00:05:09.330
+Somos especialistas em alta qualidade de animação facial
+
+00:05:09.330 --> 00:05:11.330
+para video games e filmes.
+
+00:05:11.330 --> 00:05:15.330
+Emily: Image Metrics é uma companhia de animação baseada no desempenho, que não requer vestimentas especiais para rastreamento.
+
+00:05:15.330 --> 00:05:18.330
+Somos especialistas em animação facial de alta qualidade
+
+00:05:18.330 --> 00:05:21.330
+para video games e filmes.
+
+00:05:21.330 --> 00:05:23.330
+P. D.: Então, se separarmos as camadas, este é o componente difuso
+
+00:05:23.330 --> 00:05:25.330
+que vimos no primeiro slide.
+
+00:05:25.330 --> 00:05:27.330
+Este é a animação do componente especular.
+
+00:05:27.330 --> 00:05:29.330
+Aqui podem ver todas as rugas.
+
+00:05:29.330 --> 00:05:34.330
+E há a camada adjacente de malha de rede.
+
+00:05:34.330 --> 00:05:36.330
+E esta é a própria Emily.
+
+00:05:36.330 --> 00:05:38.330
+Agora, onde estamos indo com isto?
+
+00:05:38.330 --> 00:05:42.330
+Nós fomos um poico além do Light Stage 5. Este é o Light Stage 6.
+
+00:05:42.330 --> 00:05:44.330
+E estamos tentando usar esta tecnologia
+
+00:05:44.330 --> 00:05:46.330
+e aplicá-la a corpos humanos inteiros.
+
+00:05:46.330 --> 00:05:48.330
+Este é Bruce Lawmen, um dos pesquisadores do projeto,
+
+00:05:48.330 --> 00:05:51.330
+que gentilmente aceitou ser capturado correndo no Light Stage.
+
+00:05:51.330 --> 00:05:53.330
+Vamos ver uma versão gerada por computador
+
+00:05:53.330 --> 00:05:55.330
+de Bruce, correndo em um novo ambiente.
+
+00:06:01.330 --> 00:06:03.330
+Muito obrigado.
+
+00:06:03.330 --> 00:06:04.330
+(aplausos)
+

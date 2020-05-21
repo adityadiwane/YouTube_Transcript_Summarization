@@ -1,0 +1,1256 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Sebastian Betti
+Revisor: FABIO PADILLA
+
+00:00:15.260 --> 00:00:19.260
+Hoy les voy a hablar de operatividad arquitectónica.
+
+00:00:19.260 --> 00:00:21.260
+Quiero decir con esto que es momento de que la arquitectura
+
+00:00:21.260 --> 00:00:25.260
+haga cosas de nuevo y no sólo que las represente.
+
+00:00:25.260 --> 00:00:29.260
+Este es un casco de construcción que recibí hace dos años
+
+00:00:29.260 --> 00:00:31.260
+en el inicio de obra del proyecto más grande
+
+00:00:31.260 --> 00:00:34.260
+en el que mi firma y yo hayamos participado.
+
+00:00:34.260 --> 00:00:36.260
+Yo estaba encantado de conseguirlo, de ser la única persona
+
+00:00:36.260 --> 00:00:39.260
+de pie en el escenario con un casco plateado brillante.
+
+00:00:39.260 --> 00:00:42.260
+Pensé que representaba la importancia del arquitecto.
+
+00:00:42.260 --> 00:00:44.260
+Me quedé encantado hasta llegar a casa,
+
+00:00:44.260 --> 00:00:46.260
+tiro el casco sobre mi cama,
+
+00:00:46.260 --> 00:00:49.260
+me recuesto y me doy cuenta que dentro
+
+00:00:49.260 --> 00:00:52.260
+había una inscripción.
+
+00:00:52.260 --> 00:00:55.260
+(Risas)
+
+00:00:55.260 --> 00:00:57.260
+Ahora pienso que es una gran metáfora
+
+00:00:57.260 --> 00:00:59.260
+del estado de la arquitectura y de los arquitectos de hoy.
+
+00:00:59.260 --> 00:01:02.260
+Sólo estamos para fines decorativos.
+
+00:01:02.260 --> 00:01:03.260
+(Risas)
+
+00:01:03.260 --> 00:01:05.260
+Ahora, ¿a quién culpar?
+
+00:01:05.260 --> 00:01:08.260
+Sólo a nosotros mismos. Durante los últimos 50 años
+
+00:01:08.260 --> 00:01:11.260
+el diseño y la construcción se han vuelto mucho más complejos
+
+00:01:11.260 --> 00:01:13.260
+y mucho más generadores de litigios.
+
+00:01:13.260 --> 00:01:15.260
+Y los arquitectos somos cobardes.
+
+00:01:15.260 --> 00:01:17.260
+Pues, al enfrentar responsabilidad legal,
+
+00:01:17.260 --> 00:01:20.260
+hemos retrocedido cada vez más
+
+00:01:20.260 --> 00:01:22.260
+y desafortunadamente, donde hay responsabilidad, ¿adivinen qué hay?
+
+00:01:22.260 --> 00:01:25.260
+Poder.
+
+00:01:25.260 --> 00:01:27.260
+Así que finalmente nos hemos encontrado
+
+00:01:27.260 --> 00:01:30.260
+en una posición totalmente marginal, por acá.
+
+00:01:30.260 --> 00:01:32.260
+Ahora, ¿qué hicimos? Somos cobardes,
+
+00:01:32.260 --> 00:01:35.260
+pero cobardes inteligentes.
+
+00:01:35.260 --> 00:01:38.260
+Así que redefinimos esta posición marginal como el lugar de la arquitectura.
+
+00:01:38.260 --> 00:01:41.260
+Y anunciamos: "¡Arquitectura, es por aquí!
+
+00:01:41.260 --> 00:01:43.260
+...en este lenguaje autónomo...
+
+00:01:43.260 --> 00:01:46.260
+...vamos a implantar control de procesos".
+
+00:01:46.260 --> 00:01:51.260
+E íbamos a hacer algo horrible para la profesión.
+
+00:01:51.260 --> 00:01:53.260
+Realmente creamos un cisma artificial
+
+00:01:53.260 --> 00:01:57.260
+entre creación y ejecución
+
+00:01:57.260 --> 00:01:59.260
+como si en realidad se pudiera crear sin saber cómo ejecutar
+
+00:01:59.260 --> 00:02:01.260
+y como si se pudiera ejecutar realmente
+
+00:02:01.260 --> 00:02:03.260
+sin saber cómo crear.
+
+00:02:03.260 --> 00:02:05.260
+Ahora bien, sucedió algo más.
+
+00:02:05.260 --> 00:02:07.260
+Y ahí es cuando comenzamos a vender la idea
+
+00:02:07.260 --> 00:02:10.260
+de que la arquitectura era creada por individuos
+
+00:02:10.260 --> 00:02:12.260
+que hacían bocetos geniales.
+
+00:02:12.260 --> 00:02:16.260
+Y que ese esfuerzo increíble que demandan los bocetos
+
+00:02:16.260 --> 00:02:18.260
+durante años y años, no es sólo algo
+
+00:02:18.260 --> 00:02:20.260
+para ridiculizar;
+
+00:02:20.260 --> 00:02:22.260
+sino que simplemente lo subvaloramos como
+
+00:02:22.260 --> 00:02:25.260
+mera ejecución.
+
+00:02:25.260 --> 00:02:28.260
+Yo diría que eso es tan absurdo como afirmar
+
+00:02:28.260 --> 00:02:32.260
+que el acto creador son 30 minutos de cópula
+
+00:02:32.260 --> 00:02:34.260
+y nueve meses de gestación
+
+00:02:34.260 --> 00:02:39.260
+y Dios no lo quiera, 24 horas de trabajo de parto
+
+00:02:39.260 --> 00:02:41.260
+es sólo la ejecución.
+
+00:02:41.260 --> 00:02:43.260
+¿Qué tenemos que hacer los arquitectos? Tenemos que volver
+
+00:02:43.260 --> 00:02:46.260
+a entrelazar creación y ejecución.
+
+00:02:46.260 --> 00:02:49.260
+Necesitamos volver a crear procesos
+
+00:02:49.260 --> 00:02:51.260
+en vez de firmar objetos.
+
+00:02:51.260 --> 00:02:54.260
+Si hacemos esto creo que podemos retroceder 50 años
+
+00:02:54.260 --> 00:02:56.260
+y empezar a reinyectar operatividad,
+
+00:02:56.260 --> 00:03:00.260
+ingeniería social, nuevamente a la arquitectura.
+
+00:03:00.260 --> 00:03:02.260
+Hay muchas cosas que los arquitectos necesitamos aprender a hacer,
+
+00:03:02.260 --> 00:03:06.260
+como gestión de contratos, aprender a redactar contratos,
+
+00:03:06.260 --> 00:03:09.260
+comprender los procesos de suministro,
+
+00:03:09.260 --> 00:03:12.260
+Entender el valor del dinero en el tiempo y la estimación de costos.
+
+00:03:12.260 --> 00:03:15.260
+Pero voy a resumirlo al comienzo del proceso,
+
+00:03:15.260 --> 00:03:18.260
+en tres declaraciones muy pedantes.
+
+00:03:18.260 --> 00:03:21.260
+La primera es adoptar posturas fundamentales con sus clientes.
+
+00:03:21.260 --> 00:03:24.260
+Sé que es sorprendente, ¿cierto?, que la arquitectura, de hecho, diga eso.
+
+00:03:24.260 --> 00:03:27.260
+La segunda postura es, en realidad, adoptar posturas.
+
+00:03:27.260 --> 00:03:29.260
+Adoptar posturas conjuntas con su cliente.
+
+00:03:29.260 --> 00:03:31.260
+Este es el momento en que uno como arquitecto
+
+00:03:31.260 --> 00:03:33.260
+y su cliente puede empezar a inyectar
+
+00:03:33.260 --> 00:03:35.260
+visión y operatividad.
+
+00:03:35.260 --> 00:03:37.260
+Pero tiene que hacerse conjuntamente.
+
+00:03:37.260 --> 00:03:39.260
+Y sólo luego de terminar esto,
+
+00:03:39.260 --> 00:03:41.260
+se nos permite hacer esto, comenzar a avanzar con
+
+00:03:41.260 --> 00:03:43.260
+manifestaciones arquitectónicas
+
+00:03:43.260 --> 00:03:45.260
+que evidencien esas posturas.
+
+00:03:45.260 --> 00:03:48.260
+Y tanto dueño como arquitecto por igual
+
+00:03:48.260 --> 00:03:50.260
+están facultados para criticar las manifestaciones
+
+00:03:50.260 --> 00:03:52.260
+con base en las posturas adoptadas.
+
+00:03:52.260 --> 00:03:57.260
+Creo que sucederá algo sorprendente si uno hace esto.
+
+00:03:57.260 --> 00:04:01.260
+Me gustaría llamarlo "el arte perdido de perder el control de forma productiva".
+
+00:04:01.260 --> 00:04:04.260
+Uno no sabe cuál es el resultado final.
+
+00:04:04.260 --> 00:04:06.260
+Pero les prometo que con capacidad intelectual suficiente
+
+00:04:06.260 --> 00:04:09.260
+y suficientes pasión y compromiso,
+
+00:04:09.260 --> 00:04:11.260
+se llega a conclusiones
+
+00:04:11.260 --> 00:04:13.260
+que van más allá de lo convencional,
+
+00:04:13.260 --> 00:04:16.260
+y que simplemente será algo
+
+00:04:16.260 --> 00:04:18.260
+que uno no podría inicialmente
+
+00:04:18.260 --> 00:04:21.260
+haber concebido de manera individual
+
+00:04:21.260 --> 00:04:23.260
+Bien, ahora voy a reducir todo esto a una serie
+
+00:04:23.260 --> 00:04:25.260
+de bocetos tontos.
+
+00:04:25.260 --> 00:04:28.260
+Este es el modus operandi que tenemos hoy.
+
+00:04:28.260 --> 00:04:32.260
+Hacemos rodar un espartano de 36 metros
+
+00:04:32.260 --> 00:04:37.260
+o sea, nuestra visión, hasta las puertas de nuestros clientes, de Troya.
+
+00:04:37.260 --> 00:04:42.260
+Y no entendemos por qué no se nos dejó entrar, ¿verdad?
+
+00:04:42.260 --> 00:04:44.260
+Bien, ¿y si en lugar de eso…
+
+00:04:44.260 --> 00:04:47.260
+dejamos a las puertas algo que ellos quieran?
+
+00:04:47.260 --> 00:04:50.260
+Esto es un poco una metáfora peligrosa
+
+00:04:50.260 --> 00:04:52.260
+porque, por supuesto, todos sabemos que dentro
+
+00:04:52.260 --> 00:04:54.260
+del caballo de Troya había gente con lanzas.
+
+00:04:54.260 --> 00:04:56.260
+Así, podemos cambiar la metáfora. Llamemos
+
+00:04:56.260 --> 00:04:58.260
+caballo de Troya a la nave con la cual
+
+00:04:58.260 --> 00:05:00.260
+traspasamos la puerta,
+
+00:05:00.260 --> 00:05:03.260
+traspasamos las limitaciones de un proyecto.
+
+00:05:03.260 --> 00:05:05.260
+En qué punto, uno y su cliente
+
+00:05:05.260 --> 00:05:07.260
+es capaz de empezar a considerar que
+
+00:05:07.260 --> 00:05:09.260
+va a poner dentro de esa nave,
+
+00:05:09.260 --> 00:05:11.260
+la operatividad, la visión.
+
+00:05:11.260 --> 00:05:14.260
+Y de hacerlo, uno lo hace con responsabilidad.
+
+00:05:14.260 --> 00:05:16.260
+Creo que en vez de entregar espartanos,
+
+00:05:16.260 --> 00:05:18.260
+uno puede entregar doncellas.
+
+00:05:18.260 --> 00:05:21.260
+Y si pudiera resumir todo en un boceto único sería éste.
+
+00:05:21.260 --> 00:05:23.260
+Si somos tan buenos en nuestro oficio
+
+00:05:23.260 --> 00:05:26.260
+¿no hemos de ser capaces de concebir...
+
+00:05:26.260 --> 00:05:28.260
+...una manifestación arquitectónica...
+
+00:05:28.260 --> 00:05:30.260
+...que se deslice sin problemas a través de...
+
+00:05:30.260 --> 00:05:32.260
+...las limitaciones del proyecto y del cliente?
+
+00:05:32.260 --> 00:05:34.260
+Ahora, con esto en mente voy a mostrar un proyecto
+
+00:05:34.260 --> 00:05:36.260
+muy querido para muchas personas de la sala
+
+00:05:36.260 --> 00:05:39.260
+bueno, quizá no querido, pero ciertamente cercano a muchos de los presentes.
+
+00:05:39.260 --> 00:05:42.260
+Y ese es un proyecto que está por comenzar la semana próxima,
+
+00:05:42.260 --> 00:05:45.260
+el nuevo hogar del Dallas Theater Center
+
+00:05:45.260 --> 00:05:47.260
+el Dee and Charles Wyly Theatre.
+
+00:05:47.260 --> 00:05:49.260
+Ahora, voy a presentarlo en los mismos términos,
+
+00:05:49.260 --> 00:05:52.260
+asunto, postura y manifestación arquitectónica.
+
+00:05:52.260 --> 00:05:54.260
+El primer asunto que nos enfrentamos
+
+00:05:54.260 --> 00:05:57.260
+fue que el Dallas Theater Center
+
+00:05:57.260 --> 00:06:00.260
+tenía una notoriedad que iba mucho más allá de lo esperado
+
+00:06:00.260 --> 00:06:02.260
+para un lugar fuera del triunvirato
+
+00:06:02.260 --> 00:06:05.260
+de Nueva York, Chicago y Seattle.
+
+00:06:05.260 --> 00:06:07.260
+Y esto tenía que ver con ambiciones y liderazgo.
+
+00:06:07.260 --> 00:06:10.260
+Pero también tenía que ver con algo bastante inusual
+
+00:06:10.260 --> 00:06:14.260
+que era este edificio pequeño y horrible en el que habían estado actuando.
+
+00:06:14.260 --> 00:06:17.260
+¿Por qué este edificio pequeño y horrible
+
+00:06:17.260 --> 00:06:20.260
+era tan importante para su prestigio e innovación?
+
+00:06:20.260 --> 00:06:23.260
+Debido a que podían hacerle lo que quisieran a este edificio.
+
+00:06:23.260 --> 00:06:28.260
+Cuando uno está en Broadway no puede tirar el proscenio abajo.
+
+00:06:28.260 --> 00:06:30.260
+Este edificio, cuando un director artístico
+
+00:06:30.260 --> 00:06:32.260
+quería hacer "El jardín de los cerezos"...
+
+00:06:32.260 --> 00:06:34.260
+y quería que la gente saliera de un pozo en el escenario
+
+00:06:34.260 --> 00:06:37.260
+traían una excavadora y hacían un pozo.
+
+00:06:37.260 --> 00:06:39.260
+Bueno, eso es emocionante.
+
+00:06:39.260 --> 00:06:41.260
+Y uno puede comenzar a traer los mejores directores artísticos,
+
+00:06:41.260 --> 00:06:43.260
+escenógrafos y actores de todo el país
+
+00:06:43.260 --> 00:06:45.260
+para que vengan a trabajar aquí
+
+00:06:45.260 --> 00:06:47.260
+porque pueden hacerse cosas que no se puede en otros lados.
+
+00:06:47.260 --> 00:06:49.260
+La primera postura que adoptamos fue
+
+00:06:49.260 --> 00:06:52.260
+"Hey, como arquitectos es mejor que no aparezcamos...
+
+00:06:52.260 --> 00:06:54.260
+...haciendo un edificio impecable...
+
+00:06:54.260 --> 00:06:56.260
+...que no albergue las mismas libertades que este...
+
+00:06:56.260 --> 00:06:59.260
+...cobertizo viejo y destartalado ya le dio a la compañía".
+
+00:06:59.260 --> 00:07:02.260
+El segundo asunto es una variante del primero.
+
+00:07:02.260 --> 00:07:05.260
+Y es que la compañía y el edificio eran multiformes.
+
+00:07:05.260 --> 00:07:08.260
+Eso significaba que podían hacer representaciones
+
+00:07:08.260 --> 00:07:10.260
+siempre que hubiese mano de obra
+
+00:07:10.260 --> 00:07:13.260
+podían pasar a proscenio, teatro abierto, piso plano,
+
+00:07:13.260 --> 00:07:15.260
+arena, de recorrido, lo que sea.
+
+00:07:15.260 --> 00:07:17.260
+Todo lo que necesitaban era mano de obra.
+
+00:07:17.260 --> 00:07:19.260
+Bueno, algo ocurrió. De hecho, le ocurrió a todas las instituciones
+
+00:07:19.260 --> 00:07:21.260
+de todo el mundo.
+
+00:07:21.260 --> 00:07:24.260
+Comenzó a ser difícil recaudar los costos operativos
+
+00:07:24.260 --> 00:07:26.260
+los presupuestos operativos.
+
+00:07:26.260 --> 00:07:28.260
+Así, dejaron de tener mano de obra barata.
+
+00:07:28.260 --> 00:07:31.260
+Y, finalmente, tuvieron que congelar su organización
+
+00:07:31.260 --> 00:07:34.260
+En algo llamado “atravescenio degradado”.
+
+00:07:34.260 --> 00:07:37.260
+Así, la segunda postura que tomamos es que las libertades que proporcionaramos,
+
+00:07:37.260 --> 00:07:40.260
+la capacidad de cambiar la configuración del escenario,
+
+00:07:40.260 --> 00:07:42.260
+Tendrían que poder hacerse
+
+00:07:42.260 --> 00:07:46.260
+sin depender de los costos operativos. ¿De acuerdo? Asequible.
+
+00:07:46.260 --> 00:07:48.260
+La manifestación arquitectónica
+
+00:07:48.260 --> 00:07:50.260
+era, francamente, algo tonto.
+
+00:07:50.260 --> 00:07:53.260
+Fue tomar todas las cosas conocidas como frente al escenario y detrás del escenario
+
+00:07:53.260 --> 00:07:56.260
+y redefinirlas como cosas de arriba y cosas de abajo.
+
+00:07:56.260 --> 00:07:58.260
+A primera vista uno piensa: "Es algo loco,
+
+00:07:58.260 --> 00:08:00.260
+¿qué podría ganarse con eso?"
+
+00:08:00.260 --> 00:08:03.260
+Creamos lo que nos gusta llamar "superfly".
+
+00:08:03.260 --> 00:08:04.260
+(Risas)
+
+00:08:04.260 --> 00:08:06.260
+La idea de "superfly" es:
+
+00:08:06.260 --> 00:08:08.260
+uno toma todas las libertades normalmente asociadas a la torre escénica
+
+00:08:08.260 --> 00:08:11.260
+y las reparte entre la torre escénica y el auditorio.
+
+00:08:11.260 --> 00:08:13.260
+De repente el director artístico
+
+00:08:13.260 --> 00:08:15.260
+puede moverse entre diferentes escenarios
+
+00:08:15.260 --> 00:08:18.260
+y configuraciones de público.
+
+00:08:18.260 --> 00:08:20.260
+Y dado que la torre escénica puede levantarse
+
+00:08:20.260 --> 00:08:23.260
+todos los elementos impecables, de repente el resto del entorno
+
+00:08:23.260 --> 00:08:26.260
+puede ser temporal. Y uno puede perforar, cortar, clavar, atornillar,
+
+00:08:26.260 --> 00:08:28.260
+pintar y reemplazar,
+
+00:08:28.260 --> 00:08:30.260
+con un costo mínimo.
+
+00:08:30.260 --> 00:08:32.260
+Pero sacamos una tercer ventaja al hacer este movimiento...
+
+00:08:32.260 --> 00:08:34.260
+inesperada.
+
+00:08:34.260 --> 00:08:37.260
+Y es que el perímetro del auditorio quedó liberado
+
+00:08:37.260 --> 00:08:40.260
+de la forma más inusual.
+
+00:08:40.260 --> 00:08:42.260
+Y eso le permitió al director artístico de repente
+
+00:08:42.260 --> 00:08:45.260
+poder definir "suspensión de la incredulidad".
+
+00:08:45.260 --> 00:08:47.260
+Así, el edificio brinda a los directores artísticos la libertad
+
+00:08:47.260 --> 00:08:50.260
+de imaginarse casi cualquier tipo de actividad
+
+00:08:50.260 --> 00:08:52.260
+debajo de este objeto flotante.
+
+00:08:52.260 --> 00:08:55.260
+Pero también para desafiar la noción de "suspensión de la incredulidad"
+
+00:08:55.260 --> 00:08:58.260
+como en el último acto de Macbeth,
+
+00:08:58.260 --> 00:09:00.260
+si él o ella quiere que uno asocie
+
+00:09:00.260 --> 00:09:04.260
+la parábola que está viendo con Dallas, con la vida real,
+
+00:09:04.260 --> 00:09:06.260
+puede hacerlo.
+
+00:09:06.260 --> 00:09:08.260
+Ahora bien, para poder hacerlo nosotros y los clientes
+
+00:09:08.260 --> 00:09:10.260
+teníamos que hacer algo bastante excepcional.
+
+00:09:10.260 --> 00:09:13.260
+De hecho, fueron realmente los clientes que tuvieron que hacerlo.
+
+00:09:13.260 --> 00:09:16.260
+Tenían que tomar una decisión en base a la postura que nosotros adoptamos:
+
+00:09:16.260 --> 00:09:19.260
+redefinir el presupuesto de dos tercios de arquitectura con A mayúscula
+
+00:09:19.260 --> 00:09:21.260
+y un tercio de infraestructura
+
+00:09:21.260 --> 00:09:23.260
+a lo inverso, en realidad;
+
+00:09:23.260 --> 00:09:26.260
+dos tercios de infraestructura y un tercio de arquitectura con A mayúscula.
+
+00:09:26.260 --> 00:09:28.260
+Eso implica mucho compromiso del cliente
+
+00:09:28.260 --> 00:09:31.260
+sin ver realmente la realización del concepto.
+
+00:09:31.260 --> 00:09:33.260
+Pero basados en las posturas,
+
+00:09:33.260 --> 00:09:36.260
+dieron un voto de confianza, fundamentado, para hacerlo.
+
+00:09:36.260 --> 00:09:38.260
+Y, de hecho, creamos lo que nos gusta llamar
+
+00:09:38.260 --> 00:09:40.260
+una "máquina teatral".
+
+00:09:40.260 --> 00:09:42.260
+Esa máquina teatral es capaz de
+
+00:09:42.260 --> 00:09:45.260
+de moverse entre toda una serie de configuraciones
+
+00:09:45.260 --> 00:09:48.260
+con sólo apretar un botón y algunas manos en el escenario,
+
+00:09:48.260 --> 00:09:50.260
+en poco tiempo.
+
+00:09:50.260 --> 00:09:52.260
+Pero, además, tiene el potencial
+
+00:09:52.260 --> 00:09:56.260
+no sólo de brindar secuencias multiformes sino también procesión múltiple.
+
+00:09:56.260 --> 00:09:58.260
+O sea, el director artístico
+
+00:09:58.260 --> 00:10:01.260
+no necesariamente tiene que pasar por el vestíbulo.
+
+00:10:01.260 --> 00:10:03.260
+Una de las cosas que aprendimos al visitar varios teatros
+
+00:10:03.260 --> 00:10:05.260
+es que nos odian a los arquitectos
+
+00:10:05.260 --> 00:10:07.260
+porque dicen que lo primero que tienen que hacer,
+
+00:10:07.260 --> 00:10:09.260
+en los primeros cinco minutos de cada espectáculo,
+
+00:10:09.260 --> 00:10:11.260
+es quitarse nuestra arquitectura
+
+00:10:11.260 --> 00:10:13.260
+de su patrón de pensamiento.
+
+00:10:13.260 --> 00:10:15.260
+Bueno, hay potencial en este edificio
+
+00:10:15.260 --> 00:10:17.260
+para permitirle al director artístico
+
+00:10:17.260 --> 00:10:19.260
+moverse realmente por el edificio
+
+00:10:19.260 --> 00:10:21.260
+sin usar nuestra arquitectura.
+
+00:10:21.260 --> 00:10:24.260
+Así, de hecho, está el edificio, está lo que llamamos el dibujo.
+
+00:10:24.260 --> 00:10:26.260
+Uno baja hacia nuestro vestíbulo
+
+00:10:26.260 --> 00:10:30.260
+pasa por el vestíbulo con nuestros colgantes, les gusten o no,
+
+00:10:30.260 --> 00:10:32.260
+subiendo por la escalera que conduce al auditorio.
+
+00:10:32.260 --> 00:10:34.260
+Pero también existe el potencial
+
+00:10:34.260 --> 00:10:36.260
+de permitirle a la gente que ingrese directamente desde afuera;
+
+00:10:36.260 --> 00:10:40.260
+en este caso sugiriendo una entrada wagneriana
+
+00:10:40.260 --> 00:10:42.260
+hacia el interior del auditorio.
+
+00:10:42.260 --> 00:10:44.260
+Y aquí está, de hecho, la concreción de eso.
+
+00:10:44.260 --> 00:10:46.260
+Estas son dos grandes puertas giratorias
+
+00:10:46.260 --> 00:10:49.260
+que permiten pasar directamente de afuera hacia adentro
+
+00:10:49.260 --> 00:10:51.260
+o de adentro hacia afuera,
+
+00:10:51.260 --> 00:10:54.260
+intérpretes o audiencia por igual.
+
+00:10:54.260 --> 00:10:56.260
+Ahora, imaginen lo que sería eso. Debo decir, honestamente,
+
+00:10:56.260 --> 00:10:59.260
+no es algo que el edificio pueda hacer aun, porque lleva demasiado tiempo.
+
+00:10:59.260 --> 00:11:01.260
+Pero imaginen las libertades
+
+00:11:01.260 --> 00:11:04.260
+si uno pudiera llevar esto más lejos de manera que pudiera considerar
+
+00:11:04.260 --> 00:11:06.260
+una entrada wagneriana,
+
+00:11:06.260 --> 00:11:08.260
+un primer acto en escenario abierto,
+
+00:11:08.260 --> 00:11:10.260
+el entreacto en procesión griega; un segundo acto en arena,
+
+00:11:10.260 --> 00:11:14.260
+y abandonar nuestro vestíbulo con colgantes.
+
+00:11:14.260 --> 00:11:16.260
+Ahora, eso, yo diría es "arquitectura como espectáculo".
+
+00:11:16.260 --> 00:11:18.260
+Es emplear la mano del arquitecto
+
+00:11:18.260 --> 00:11:20.260
+para luego quitarla de en medio
+
+00:11:20.260 --> 00:11:24.260
+en favor de la mano del director artístico.
+
+00:11:24.260 --> 00:11:26.260
+Voy a pasar por las tres configuraciones básicas.
+
+00:11:26.260 --> 00:11:28.260
+Esta es la configuración de piso plano.
+
+00:11:28.260 --> 00:11:30.260
+Ven que no hay proscenio,
+
+00:11:30.260 --> 00:11:33.260
+los balcones han sido levantados, no hay asientos,
+
+00:11:33.260 --> 00:11:35.260
+el piso del auditorio es plano.
+
+00:11:35.260 --> 00:11:38.260
+La primera configuración es fácil de entender.
+
+00:11:38.260 --> 00:11:41.260
+Bajan los palcos, se ve que la orquesta
+
+00:11:41.260 --> 00:11:44.260
+comienza a tener una inclinación, que es frontal, hacia el foro
+
+00:11:44.260 --> 00:11:46.260
+y entran los asientos.
+
+00:11:46.260 --> 00:11:48.260
+La tercer configuración es un poco más difícil de entender.
+
+00:11:48.260 --> 00:11:52.260
+Aquí vemos que el anfiteatro tiene que moverse hacia afuera
+
+00:11:52.260 --> 00:11:54.260
+para dar lugar a un escenario abierto.
+
+00:11:54.260 --> 00:11:57.260
+Y algunos de los asientos en realidad tienen que cambiar de dirección
+
+00:11:57.260 --> 00:12:00.260
+y cambiar su inclinación para permitir que eso suceda.
+
+00:12:00.260 --> 00:12:02.260
+Lo haré de nuevo para que puedan verlo.
+
+00:12:02.260 --> 00:12:06.260
+Allí ven los palcos laterales para el proscenio.
+
+00:12:06.260 --> 00:12:08.260
+Y allí está la configuración de escenario abierto.
+
+00:12:08.260 --> 00:12:10.260
+Para hacer eso,
+
+00:12:10.260 --> 00:12:13.260
+de nuevo, necesitábamos un cliente dispuesto a asumir riesgos educativos.
+
+00:12:13.260 --> 00:12:15.260
+Nos dijeron una cosa importante:
+
+00:12:15.260 --> 00:12:17.260
+"No van a improvisar".
+
+00:12:17.260 --> 00:12:19.260
+O sea, nada de lo que hagamos,
+
+00:12:19.260 --> 00:12:21.260
+podemos ser los primeros en hacerlo.
+
+00:12:21.260 --> 00:12:23.260
+Pero estaban dispuestos a que apliquemos tecnologías
+
+00:12:23.260 --> 00:12:27.260
+de otras áreas, que ya tuviesen mecanismos a prueba de fallas, en este edificio.
+
+00:12:27.260 --> 00:12:30.260
+La solución en términos de las gradas
+
+00:12:30.260 --> 00:12:33.260
+fue usar algo que todos conocemos como ascensor de marcador.
+
+00:12:33.260 --> 00:12:36.260
+Ahora, si tomamos un marcador
+
+00:12:36.260 --> 00:12:38.260
+y lo dejamos caer "en el lugar equivocado"
+
+00:12:38.260 --> 00:12:40.260
+eso sería malo.
+
+00:12:40.260 --> 00:12:43.260
+Si no fuésemos capaces de sacar el marcador de la arena
+
+00:12:43.260 --> 00:12:45.260
+para un espectáculo como Ice Capades la noche siguiente
+
+00:12:45.260 --> 00:12:47.260
+eso también sería malo.
+
+00:12:47.260 --> 00:12:51.260
+Por eso esta tecnología ya tiene todos estos mecanismos de seguridad
+
+00:12:51.260 --> 00:12:53.260
+y le permiten al teatro y a nuestro cliente
+
+00:12:53.260 --> 00:12:56.260
+hacer esto con la confianza
+
+00:12:56.260 --> 00:13:00.260
+de que podrán cambiar su configuración a voluntad.
+
+00:13:00.260 --> 00:13:02.260
+La segunda tecnología que aplicamos
+
+00:13:02.260 --> 00:13:05.260
+fue, en realidad, aplicar cosas que uno ya conoce
+
+00:13:05.260 --> 00:13:07.260
+del escenario de un teatro de ópera.
+
+00:13:07.260 --> 00:13:09.260
+En este caso lo que estamos haciendo es tomar
+
+00:13:09.260 --> 00:13:13.260
+el piso de la orquesta, levantarlo, girarlo,
+
+00:13:13.260 --> 00:13:16.260
+cambiar la inclinación, volverlo a piso plano,
+
+00:13:16.260 --> 00:13:19.260
+cambiar la inclinación otra vez. En esencia, se puede empezar a definir
+
+00:13:19.260 --> 00:13:21.260
+inclinaciones y ángulos de visión
+
+00:13:21.260 --> 00:13:24.260
+de las personas en los asientos de la orquesta, a voluntad.
+
+00:13:24.260 --> 00:13:28.260
+Aquí ven las butacas que se giraron para pasar de proscenio o foro
+
+00:13:28.260 --> 00:13:31.260
+a escenario abierto.
+
+00:13:31.260 --> 00:13:35.260
+El proscenio también. Por lo que sabemos este es el primer edificio del mundo
+
+00:13:35.260 --> 00:13:38.260
+en el que el proscenio puede desaparecer completamente.
+
+00:13:38.260 --> 00:13:40.260
+Aquí ven los distintos deflectores acústicos, así como
+
+00:13:40.260 --> 00:13:45.260
+las mecanismos aéreos y las pasarelas sobre el auditorio.
+
+00:13:45.260 --> 00:13:47.260
+Y, en última instancia, en la torre escénica
+
+00:13:47.260 --> 00:13:51.260
+la tramoya que permite que ocurran las transformaciones.
+
+00:13:51.260 --> 00:13:55.260
+Como dije, todo eso estaba al servicio de la creación de una
+
+00:13:55.260 --> 00:13:58.260
+configuración flexible y asequible.
+
+00:13:58.260 --> 00:14:00.260
+Pero ganamos otro beneficio. Y fue
+
+00:14:00.260 --> 00:14:02.260
+la capacidad de sumar al perímetro, de repente,
+
+00:14:02.260 --> 00:14:04.260
+a Dallas como fondo.
+
+00:14:04.260 --> 00:14:06.260
+Aquí ven el edificio en su estado actual
+
+00:14:06.260 --> 00:14:09.260
+con las persianas cerradas. Este es un "trompe l'oeil".
+
+00:14:09.260 --> 00:14:12.260
+En realidad no se trata de una cortina. Son persianas de vinilo
+
+00:14:12.260 --> 00:14:14.260
+integradas a las propias ventanas,
+
+00:14:14.260 --> 00:14:17.260
+de nuevo, con mecanismos a prueba de fallas
+
+00:14:17.260 --> 00:14:20.260
+que pueden levantarse de manera que uno puede desmitificar,
+
+00:14:20.260 --> 00:14:22.260
+si elige hacerlo, las operaciones del teatro
+
+00:14:22.260 --> 00:14:24.260
+lo que pasa detrás, los ensayos, etc.
+
+00:14:24.260 --> 00:14:27.260
+Pero también se puede
+
+00:14:27.260 --> 00:14:30.260
+permitir a la audiencia ver Dallas,
+
+00:14:30.260 --> 00:14:33.260
+para actuar con Dallas como telón de fondo en las obras.
+
+00:14:33.260 --> 00:14:35.260
+Ahora, si los llevo...
+
+00:14:35.260 --> 00:14:37.260
+este es un boceto conceptual inicial...
+
+00:14:37.260 --> 00:14:40.260
+los llevo por una especie de mezcla de todas estas cosas juntas.
+
+00:14:40.260 --> 00:14:42.260
+En efecto, uno tendría algo como esto.
+
+00:14:42.260 --> 00:14:46.260
+Se permitiría llevar objetos o artistas a la sala de teatro.
+
+00:14:46.260 --> 00:14:48.260
+Aida, sus elefantes, uno puede entrar los elefantes.
+
+00:14:48.260 --> 00:14:53.260
+Uno podría exponer el auditorio ante Dallas
+
+00:14:53.260 --> 00:14:56.260
+o viceversa, Dallas ante el auditorio.
+
+00:14:56.260 --> 00:14:58.260
+Podrían abrirse porciones para
+
+00:14:58.260 --> 00:15:00.260
+cambiar la procesión,
+
+00:15:00.260 --> 00:15:02.260
+permitir que la gente entre o salga en un entreacto;
+
+00:15:02.260 --> 00:15:05.260
+o que entre para el comienzo o el fin de una representación.
+
+00:15:05.260 --> 00:15:07.260
+Como dije, todas las gradas pueden moverse
+
+00:15:07.260 --> 00:15:09.260
+pero también pueden desaparecer por completo.
+
+00:15:09.260 --> 00:15:11.260
+El proscenio puede volar.
+
+00:15:11.260 --> 00:15:14.260
+Pueden ingresarse objetos grandes a la sala misma.
+
+00:15:14.260 --> 00:15:17.260
+Pero más convincente cuando tuvimos que confrontar la idea
+
+00:15:17.260 --> 00:15:20.260
+de cambiar costos de arquitectura por infraestructura
+
+00:15:20.260 --> 00:15:22.260
+es algo representado en esto.
+
+00:15:22.260 --> 00:15:25.260
+De nuevo, éstas no son todas las flexibilidades del edificio realmente construido
+
+00:15:25.260 --> 00:15:28.260
+pero al menos sugiere las ideas.
+
+00:15:28.260 --> 00:15:30.260
+Este edificio es capaz, muy rápidamente,
+
+00:15:30.260 --> 00:15:32.260
+de volver a un piso plano
+
+00:15:32.260 --> 00:15:34.260
+de modo que puedan alquilarlo.
+
+00:15:34.260 --> 00:15:36.260
+Así que si hay alguien presente de American Airlines,
+
+00:15:36.260 --> 00:15:39.260
+por favor considere hacer la fiesta de Navidad aquí.
+
+00:15:39.260 --> 00:15:40.260
+(Risas)
+
+00:15:40.260 --> 00:15:43.260
+Porque eso le permite a la compañía aumentar los presupuestos operativos
+
+00:15:43.260 --> 00:15:45.260
+sin tener que competir con otros lugares,
+
+00:15:45.260 --> 00:15:47.260
+con auditorios mucho más grandes.
+
+00:15:47.260 --> 00:15:49.260
+Ese es un beneficio enorme.
+
+00:15:49.260 --> 00:15:51.260
+Así, la compañía teatral es capaz de
+
+00:15:51.260 --> 00:15:53.260
+hacer una obra hermética
+
+00:15:53.260 --> 00:15:55.260
+con luz y sonido controlados, gran acústica,
+
+00:15:55.260 --> 00:15:58.260
+un Shakespeare muy íntimo.
+
+00:15:58.260 --> 00:16:00.260
+Pero también hacer Becket
+
+00:16:00.260 --> 00:16:03.260
+con el horizonte de Dallas de fondo.
+
+00:16:03.260 --> 00:16:05.260
+Aquí está en una configuración de piso plano.
+
+00:16:05.260 --> 00:16:07.260
+El teatro ha seguido estos pasos.
+
+00:16:07.260 --> 00:16:10.260
+Aquí vemos una configuración de foro.
+
+00:16:10.260 --> 00:16:12.260
+Es realmente hermoso. Había una banda de rock.
+
+00:16:12.260 --> 00:16:14.260
+Nos quedamos afuera para ver si la acústica funcionaba.
+
+00:16:14.260 --> 00:16:16.260
+Podía verse a los muchachos haciendo esto pero no se los oía.
+
+00:16:16.260 --> 00:16:18.260
+Fue algo poco común.
+
+00:16:18.260 --> 00:16:20.260
+Y aquí está como escenario abierto.
+
+00:16:20.260 --> 00:16:22.260
+Y último, pero no menos importante,
+
+00:16:22.260 --> 00:16:24.260
+ven que ya tiene la capacidad de crear eventos
+
+00:16:24.260 --> 00:16:26.260
+para generar presupuestos operativos
+
+00:16:26.260 --> 00:16:29.260
+A pesar que el edificio, de hecho, esté realizando presentaciones
+
+00:16:29.260 --> 00:16:31.260
+y permitirle a la empresa superar su mayor problema.
+
+00:16:31.260 --> 00:16:35.260
+Voy a mostrarles una breve secuencia de video.
+
+00:16:35.260 --> 00:16:37.260
+Como dije, esto puede hacerse con tan sólo dos personas
+
+00:16:37.260 --> 00:16:39.260
+y en muy poco tiempo.
+
+00:16:39.260 --> 00:16:41.260
+Esta fue la primera vez que realizamos el cambio
+
+00:16:41.260 --> 00:16:43.260
+y por eso hay, literalmente, miles de personas porque
+
+00:16:43.260 --> 00:16:45.260
+todos estaban entusiasmados y querían ser parte de eso.
+
+00:16:45.260 --> 00:16:49.260
+traten de ignorar las miles de hormigas corriendo por ahí.
+
+00:16:49.260 --> 00:16:52.260
+Y piensen que lo están haciendo unas pocas personas.
+
+00:17:22.260 --> 00:17:24.260
+De nuevo, se necesita sólo un par de personas.
+
+00:17:25.260 --> 00:17:26.260
+(Risas)
+
+00:17:26.260 --> 00:17:28.260
+Lo prometo.
+
+00:17:39.260 --> 00:17:41.260
+Et voilà.
+
+00:17:41.260 --> 00:17:48.260
+(Aplausos)
+
+00:17:48.260 --> 00:17:50.260
+Así que, en conclusión, unas pocas tomas.
+
+00:17:50.260 --> 00:17:53.260
+Este es el centro de artes escénicas AT&amp;T
+
+00:17:53.260 --> 00:17:55.260
+Dee and Charles Wyly Theater.
+
+00:17:55.260 --> 00:17:57.260
+Ahí está de noche.
+
+00:17:57.260 --> 00:18:01.260
+Y último, pero no menos importante, todo el centro de artes escénicas AT&amp;T.
+
+00:18:01.260 --> 00:18:03.260
+Pueden ver el Winspear Opera House, a la derecha,
+
+00:18:03.260 --> 00:18:06.260
+y el Dee and Charles Wyly Theater, a la izquierda.
+
+00:18:06.260 --> 00:18:09.260
+Para recordarles que aquí hay un ejemplo donde
+
+00:18:09.260 --> 00:18:11.260
+la arquitectura hizo algo.
+
+00:18:11.260 --> 00:18:13.260
+Pero llegamos a esa conclusión
+
+00:18:13.260 --> 00:18:15.260
+sin comprender hacia dónde estábamos yendo;
+
+00:18:15.260 --> 00:18:18.260
+conocíamos una serie de cuestiones a las que la compañía
+
+00:18:18.260 --> 00:18:20.260
+y el cliente tuvieron que hacer frente.
+
+00:18:20.260 --> 00:18:22.260
+Y adoptamos posturas con ellos, y fue mediante esas posturas
+
+00:18:22.260 --> 00:18:25.260
+que comenzamos a asumir manifestaciones arquitectónicas
+
+00:18:25.260 --> 00:18:27.260
+y llegamos a una conclusión que ninguno de nosotros,
+
+00:18:27.260 --> 00:18:29.260
+realmente ninguno, podría jamás
+
+00:18:29.260 --> 00:18:32.260
+haber concebido inicialmente de forma individual.
+
+00:18:32.260 --> 00:18:34.260
+Muchas gracias.
+
+00:18:34.260 --> 00:18:36.260
+(Aplausos)
+

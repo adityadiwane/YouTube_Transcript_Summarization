@@ -1,0 +1,1361 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Lien Pham
+Reviewer: Le Quyen Pham
+
+00:00:15.260 --> 00:00:18.260
+Bởi tôi thường là người
+
+00:00:18.260 --> 00:00:20.260
+cố gắng giải thích cho mọi người hiểu
+
+00:00:20.260 --> 00:00:23.260
+những công nghệ mới sắp ra đời
+
+00:00:23.260 --> 00:00:25.260
+sẽ tuyệt vời như thế nào,
+
+00:00:25.260 --> 00:00:28.260
+và tôi nghĩ rằng, vì tôi từng ở trong số các bạn có mặt tại đây,
+
+00:00:28.260 --> 00:00:32.260
+tôi sẽ cho các bạn biết suy nghĩ của mình
+
+00:00:32.260 --> 00:00:34.260
+và cố gắng nhìn lại và cố gắng hiểu
+
+00:00:34.260 --> 00:00:37.260
+điều gì đang thực sự diễn ra
+
+00:00:37.260 --> 00:00:42.260
+với những bước nhảy vọt đáng kinh ngạc trong khoa học kỹ thuật
+
+00:00:42.260 --> 00:00:45.260
+dường như quá nhanh khiến chúng ta không thể nắm bắt kịp.
+
+00:00:45.260 --> 00:00:47.260
+Tôi sẽ bắt đầu
+
+00:00:47.260 --> 00:00:50.260
+bằng cách đưa ra một trang báo cáo nhàm chán về khoa học kỹ thuật.
+
+00:00:50.260 --> 00:00:53.260
+Tiếp theo, nếu bạn có thể bật trang báo cáo này lên.
+
+00:00:56.260 --> 00:00:58.260
+Đây chỉ là một trang báo cáo ngẫu nhiên
+
+00:00:58.260 --> 00:01:00.260
+mà tôi chọn ra từ trong tài liệu của tôi.
+
+00:01:00.260 --> 00:01:03.260
+Cái mà tôi muốn chỉ cho mọi người thấy không phải là những chi tiết của trang báo cáo
+
+00:01:03.260 --> 00:01:05.260
+mà là cái mẫu chung của nó.
+
+00:01:05.260 --> 00:01:08.260
+Đây là một trang báo cáo về bản phân tích chúng tôi đang thực hiện
+
+00:01:08.260 --> 00:01:11.260
+so sánh giữa sức mạnh của bộ vi xử lý RISC
+
+00:01:11.260 --> 00:01:14.260
+với sức mạnh của mạng cục bộ.
+
+00:01:14.260 --> 00:01:16.260
+Và điều thú vị là
+
+00:01:16.260 --> 00:01:18.260
+trang báo cáo này,
+
+00:01:18.260 --> 00:01:21.260
+giống như rất nhiều trang báo cáo công nghệ khác quen thuộc với chúng ta,
+
+00:01:21.260 --> 00:01:23.260
+là một loại đường thẳng
+
+00:01:23.260 --> 00:01:25.260
+nằm trên một bán đường cong log
+
+00:01:25.260 --> 00:01:27.260
+Nói cách khác, mỗi bậc ở đây
+
+00:01:27.260 --> 00:01:29.260
+tượng trưng cho một mức độ
+
+00:01:29.260 --> 00:01:31.260
+trong thang biểu diễn.
+
+00:01:31.260 --> 00:01:33.260
+Và đây là một điều mới
+
+00:01:33.260 --> 00:01:35.260
+chúng ta nhắc đến
+
+00:01:35.260 --> 00:01:37.260
+về bán đường cong log.
+
+00:01:37.260 --> 00:01:39.260
+Có cái gì đó kỳ quặc ở đây.
+
+00:01:39.260 --> 00:01:42.260
+Và đó cơ bản là cái tôi muốn nói tới.
+
+00:01:42.260 --> 00:01:45.260
+Giờ, nếu bạn có thể chỉnh đèn cao hơn.
+
+00:01:47.260 --> 00:01:49.260
+Nếu bạn có thể chỉnh đèn cao hơn chút nữa,
+
+00:01:49.260 --> 00:01:52.260
+vì tôi cần dùng mẩu giấy ở đây.
+
+00:01:52.260 --> 00:01:54.260
+Tại sao chúng ta phải vẽ đường cong kỹ thuật
+
+00:01:54.260 --> 00:01:56.260
+theo những bán đường xong log?
+
+00:01:56.260 --> 00:01:59.260
+Câu trả lời là, nếu tôi vẽ nó trên một đường cong bình thường
+
+00:01:59.260 --> 00:02:01.260
+đây, có thể nói, là năm,
+
+00:02:01.260 --> 00:02:03.260
+đây là một loại thời gian,
+
+00:02:03.260 --> 00:02:06.260
+và bất kể đây là thước đo công nghệ gì
+
+00:02:06.260 --> 00:02:09.260
+tôi đang cố gắng minh họa,
+
+00:02:09.260 --> 00:02:12.260
+đồ thị đều trông rất ngớ ngẩn.
+
+00:02:12.260 --> 00:02:15.260
+Chúng dường như chuyển động như thế này
+
+00:02:15.260 --> 00:02:18.260
+và chúng không cho chúng ta biết nhiều lắm.
+
+00:02:18.260 --> 00:02:21.260
+Giờ nếu tôi vẽ đồ thị, ví dụ,
+
+00:02:21.260 --> 00:02:23.260
+công nghệ khác, có thể là công nghệ vận tải,
+
+00:02:23.260 --> 00:02:25.260
+trên một bán đường cong log,
+
+00:02:25.260 --> 00:02:28.260
+nó trông sẽ rất vô lý, giống như một đường thẳng.
+
+00:02:28.260 --> 00:02:30.260
+Nhưng khi điều này xảy ra,
+
+00:02:30.260 --> 00:02:32.260
+mọi thứ thay đổi một cách định tính.
+
+00:02:32.260 --> 00:02:34.260
+Vậy, nếu công nghệ vận tải
+
+00:02:34.260 --> 00:02:37.260
+phát triển nhanh như công nghệ vi xử lý,
+
+00:02:37.260 --> 00:02:39.260
+thì ngày kia
+
+00:02:39.260 --> 00:02:41.260
+tôi có thể gọi một chiếc taxi
+
+00:02:41.260 --> 00:02:43.260
+và đến Tokyo trong vòng 30 giây.
+
+00:02:43.260 --> 00:02:45.260
+Nó không phải như vậy.
+
+00:02:45.260 --> 00:02:47.260
+Và không có tiền lệ
+
+00:02:47.260 --> 00:02:49.260
+trong lịch sử phát triển công nghệ
+
+00:02:49.260 --> 00:02:51.260
+về sự tự tăng tiến
+
+00:02:51.260 --> 00:02:54.260
+bằng cách thay đổi cường độ vài năm một.
+
+00:02:54.260 --> 00:02:57.260
+Giờ câu hỏi tôi muốn đặt ra là,
+
+00:02:57.260 --> 00:03:00.260
+nếu bạn nhìn vào những đường cong theo quy luật số mũ này,
+
+00:03:00.260 --> 00:03:03.260
+chúng không nhân lên mãi mãi.
+
+00:03:03.260 --> 00:03:06.260
+Mọi thứ không thể mãi thay đổi
+
+00:03:06.260 --> 00:03:08.260
+nhanh chóng như chúng đang diễn ra.
+
+00:03:08.260 --> 00:03:11.260
+Một trong hai việc sẽ xảy ra.
+
+00:03:11.260 --> 00:03:15.260
+Hoặc nó sẽ biến thành một dạng đường cong S như thế này,
+
+00:03:15.260 --> 00:03:19.260
+cho tới khi một việc gì đó khác biệt hoàn toàn xảy ra,
+
+00:03:19.260 --> 00:03:21.260
+hoặc có thể, nó sẽ chuyển thành thế này.
+
+00:03:21.260 --> 00:03:23.260
+Đó là tất cả những gì có thể xảy ra.
+
+00:03:23.260 --> 00:03:25.260
+Hiện giờ, tôi đang lạc quan,
+
+00:03:25.260 --> 00:03:28.260
+vì vậy, tôi nghĩ rằng nó có thể đi theo cách này.
+
+00:03:28.260 --> 00:03:31.260
+Nếu đúng như vậy, nó có nghĩa là chúng ta đang ở giữa giai đoạn
+
+00:03:31.260 --> 00:03:33.260
+của sự chuyển giao.
+
+00:03:33.260 --> 00:03:35.260
+Chúng ta đang ở trên đường thẳng này
+
+00:03:35.260 --> 00:03:37.260
+trong quá trình chuyển giao giữa trạng thái thế giới từng tồn tại
+
+00:03:37.260 --> 00:03:40.260
+tới trạng thái mới mà thế giới đang tồn tại.
+
+00:03:40.260 --> 00:03:43.260
+Và vì vậy, điều mà tôi đang muốn hỏi, điều mà tôi vẫn đang tự hỏi mình,
+
+00:03:43.260 --> 00:03:46.260
+là trạng thái mới mà thế giới đang tồn tại là gì?
+
+00:03:46.260 --> 00:03:49.260
+Trạng thái mới mà thế giới đang hướng tới là gì?
+
+00:03:49.260 --> 00:03:52.260
+Bởi vì quá trình chuyển giao này có vẻ rất khó đoán biết
+
+00:03:52.260 --> 00:03:54.260
+khi chúng ta đang ở ngay giữa của quá trình ấy.
+
+00:03:54.260 --> 00:03:57.260
+Khi tôi là một đứa trẻ đang lớn lên,
+
+00:03:57.260 --> 00:04:00.260
+tương lai đối với tôi là năm 2000,
+
+00:04:00.260 --> 00:04:04.260
+và mọi người thường đoán trước việc gì sẽ xảy ra vào năm 2000.
+
+00:04:04.260 --> 00:04:06.260
+Đây là một hội nghị
+
+00:04:06.260 --> 00:04:08.260
+mà ở đó mọi người bàn về tương lai,
+
+00:04:08.260 --> 00:04:11.260
+và mọi người có thể nhận thấy tương lai đó vẫn xoay quanh năm 2000.
+
+00:04:11.260 --> 00:04:13.260
+Nó ở xa cách khi chúng ta tiến tới nó.
+
+00:04:13.260 --> 00:04:16.260
+Vì vậy, nói cách khác, tương lai dường như chùn lại
+
+00:04:16.260 --> 00:04:19.260
+một năm mỗi năm
+
+00:04:19.260 --> 00:04:22.260
+cho cả đời người.
+
+00:04:22.260 --> 00:04:24.260
+Tôi nghĩ rằng lí do của việc ấy
+
+00:04:24.260 --> 00:04:26.260
+là bởi tất cả chúng ta đều cảm thấy
+
+00:04:26.260 --> 00:04:28.260
+việc gì đó đang diễn ra tại thời điểm ấy.
+
+00:04:28.260 --> 00:04:30.260
+Sự chuyển giao ấy đang diễn ra. Chúng ta đều có thể cảm nhận được nó.
+
+00:04:30.260 --> 00:04:32.260
+Và chúng ta biết rằng nó không có ý nghĩa lắm
+
+00:04:32.260 --> 00:04:34.260
+khi nghĩ về 30, 50 năm sau
+
+00:04:34.260 --> 00:04:37.260
+vì khi ấy tất cả mọi thứ sẽ trở nên rất khác biệt
+
+00:04:37.260 --> 00:04:39.260
+khiến một phép ngoại suy rất đơn giản mà chúng ta thực hiện hôm nay
+
+00:04:39.260 --> 00:04:42.260
+sẽ không có ý nghĩa gì trong thời điểm ấy.
+
+00:04:42.260 --> 00:04:44.260
+Vì vậy, cái mà tôi muốn nói đến
+
+00:04:44.260 --> 00:04:46.260
+là điều có thể,
+
+00:04:46.260 --> 00:04:49.260
+là sự chuyển giao có thể chính là giai đoạn chúng ta đang trải qua.
+
+00:04:49.260 --> 00:04:52.260
+Để làm được điều đó
+
+00:04:52.260 --> 00:04:54.260
+tôi sẽ nói về một đống thứ
+
+00:04:54.260 --> 00:04:56.260
+thực sự không có gì liên quan đến
+
+00:04:56.260 --> 00:04:58.260
+công nghệ và máy tính.
+
+00:04:58.260 --> 00:05:00.260
+Bởi vì tôi nghĩ rằng cách duy nhất để hiểu được điều này
+
+00:05:00.260 --> 00:05:02.260
+là thực sự đặt mình vào trong quá khứ
+
+00:05:02.260 --> 00:05:04.260
+và dành một cái nhìn lâu dài vào mọi vật.
+
+00:05:04.260 --> 00:05:07.260
+Cán cân thời gian mà tôi muốn nhìn vào
+
+00:05:07.260 --> 00:05:10.260
+là cán cân thời gian của sự sống trên Trái Đất.
+
+00:05:13.260 --> 00:05:15.260
+Và do đó, tôi nghĩ bức ảnh này có ý nghĩa của nó
+
+00:05:15.260 --> 00:05:19.260
+nếu mọi người nhìn vào nó với góc độ vài tỉ năm.
+
+00:05:19.260 --> 00:05:21.260
+Nếu mọi người quay trở lại
+
+00:05:21.260 --> 00:05:23.260
+trước đây 2,5 tỉ năm,
+
+00:05:23.260 --> 00:05:26.260
+Trái Đất từng to như thế này, với những khúc đá cằn cỗi
+
+00:05:26.260 --> 00:05:29.260
+cùng rất nhiều tạp chất hóa học nổi xung quanh nó.
+
+00:05:29.260 --> 00:05:31.260
+Và nếu mọi người nhìn vào cách
+
+00:05:31.260 --> 00:05:33.260
+các chất hóa học ấy được hình thành,
+
+00:05:33.260 --> 00:05:36.260
+chúng ta sẽ bắt đầu hiểu được chúng hình thành như thế nào.
+
+00:05:36.260 --> 00:05:39.260
+Và tôi nghĩ có những giải thuyết đang dần giải thích được
+
+00:05:39.260 --> 00:05:41.260
+cách nó bắt đầu với ARN,
+
+00:05:41.260 --> 00:05:44.260
+nhưng tôi sẽ kể một câu chuyện đơn giản về nó,
+
+00:05:44.260 --> 00:05:46.260
+câu chuyện mà, vào thời điểm đó,
+
+00:05:46.260 --> 00:05:49.260
+có những giọt dầu nhỏ xíu trôi nổi xung quanh
+
+00:05:49.260 --> 00:05:52.260
+với vô vàn công thức hóa học bên trong nó.
+
+00:05:52.260 --> 00:05:54.260
+Và một số giọt dầu ấy
+
+00:05:54.260 --> 00:05:56.260
+có sự kết hợp đặc biệt giữa các chất hóa học trong thành phần của nó
+
+00:05:56.260 --> 00:05:59.260
+khiến chúng liên kết với những chất hóa học bên ngoài
+
+00:05:59.260 --> 00:06:02.260
+và làm những giọt dầu lớn lên.
+
+00:06:02.260 --> 00:06:04.260
+Và những giọt dầu như thế
+
+00:06:04.260 --> 00:06:06.260
+bắt đầu tách ra và phân chia.
+
+00:06:06.260 --> 00:06:09.260
+Và chúng là những mẫu hình tế bào nguyên thủy nhất,
+
+00:06:09.260 --> 00:06:11.260
+những giọt dầu nhỏ đó.
+
+00:06:11.260 --> 00:06:14.260
+Nhưng ngày nay những giọt dầu ấy không thực sự tồn tại, như chúng ta nói đến hiện giờ,
+
+00:06:14.260 --> 00:06:16.260
+bởi tất cả chúng
+
+00:06:16.260 --> 00:06:18.260
+đều là công thức ngẫu nhiên của nhiều chất hóa học.
+
+00:06:18.260 --> 00:06:20.260
+Và tất cả mọi lần nó phân chia,
+
+00:06:20.260 --> 00:06:23.260
+chúng đều phân chia không đều
+
+00:06:23.260 --> 00:06:25.260
+những thành phần hóa học trong chúng.
+
+00:06:25.260 --> 00:06:28.260
+Và vì vậy, tất cả các giọt đều khác nhau đôi chút.
+
+00:06:28.260 --> 00:06:30.260
+Trên thực tế, các giọt khác nhau theo cách
+
+00:06:30.260 --> 00:06:32.260
+khiến chúng có khả năng
+
+00:06:32.260 --> 00:06:34.260
+liên kết tốt hơn với chất hóa học xung quanh chúng,
+
+00:06:34.260 --> 00:06:37.260
+phát triển nhanh hơn, liên kết nhạy hơn và phân chia nhiều hơn.
+
+00:06:37.260 --> 00:06:39.260
+Vì vậy, những giọt có xu hướng tồn tại lâu hơn
+
+00:06:39.260 --> 00:06:42.260
+được thể hiện ra nhiều hơn.
+
+00:06:42.260 --> 00:06:45.260
+Đó chỉ là một dạng
+
+00:06:45.260 --> 00:06:47.260
+hóa học cơ bản của sự sống,
+
+00:06:47.260 --> 00:06:50.260
+nhưng mọi thứ thú vị hơn
+
+00:06:50.260 --> 00:06:52.260
+khi những giọt ấy
+
+00:06:52.260 --> 00:06:55.260
+học được mẹo để chiết ra.
+
+00:06:55.260 --> 00:06:58.260
+Bằng cách nào đó mà chúng ta không hiểu được,
+
+00:06:58.260 --> 00:07:01.260
+những giọt nhỏ ấy học cách để lại thông tin.
+
+00:07:01.260 --> 00:07:03.260
+Chúng học cách lưu trữ thông tin
+
+00:07:03.260 --> 00:07:05.260
+những thông tin ấy chính là công thức hóa học của tế bào
+
+00:07:05.260 --> 00:07:07.260
+vào một chất hóa học đặc trưng
+
+00:07:07.260 --> 00:07:09.260
+gọi là ADN.
+
+00:07:09.260 --> 00:07:11.260
+Nói cách khác, chúng hình thành,
+
+00:07:11.260 --> 00:07:14.260
+dưới dạng tiến hóa không ý thức,
+
+00:07:14.260 --> 00:07:17.260
+một mẫu viết cho phép chúng ghi lại chúng cấu tạo như thế nào,
+
+00:07:17.260 --> 00:07:20.260
+để từ đó chúng có thể sao chép.
+
+00:07:20.260 --> 00:07:23.260
+Điều đáng ngạc nhiên là cách lưu trữ thông tin ấy
+
+00:07:23.260 --> 00:07:25.260
+có vẻ rất ổn định
+
+00:07:25.260 --> 00:07:27.260
+vì nó đã tiến hóa từ 2,5 tỉ năm trước.
+
+00:07:27.260 --> 00:07:30.260
+Thực tế, gen của chúng ta,
+
+00:07:30.260 --> 00:07:33.260
+có quy tắc giống hệt và có cách lưu trữ giống hệt như vậy.
+
+00:07:33.260 --> 00:07:36.260
+Thực tế, mọi sinh vật sống đều được lưu trữ cấu tạo gen của nó
+
+00:07:36.260 --> 00:07:38.260
+bằng hệ thống kí tự và mật mã hoàn toàn tương tự.
+
+00:07:38.260 --> 00:07:40.260
+Thực tế, một trong những điều tôi đã làm
+
+00:07:40.260 --> 00:07:42.260
+để tiêu khiển
+
+00:07:42.260 --> 00:07:44.260
+là chúng ta giờ có thể lưu trữ nhiều thứ bằng mật mã này.
+
+00:07:44.260 --> 00:07:50.260
+Tôi có ở đây 100 micrograms bột trắng,
+
+00:07:50.260 --> 00:07:54.260
+thứ mà tôi thường phải cố gắng giấu nhân viên bảo vệ ở sân bay.
+
+00:07:54.260 --> 00:07:56.260
+(Khán giả cười)
+
+00:07:56.260 --> 00:07:58.260
+Nhưng trong nó --
+
+00:07:58.260 --> 00:08:00.260
+điều mà tôi làm là tôi hình thành nên mật mã này --
+
+00:08:00.260 --> 00:08:03.260
+mật mã có những kí tự tiêu chuẩn chúng ta dùng để tượng trưng hóa nó --
+
+00:08:03.260 --> 00:08:06.260
+và tôi viết thẻ kinh doanh của tôi trên một mẩu ADN
+
+00:08:06.260 --> 00:08:09.260
+và khuếch đại nó lên 10 đến 22 lần.
+
+00:08:09.260 --> 00:08:12.260
+Nếu có ai đó thích hàng trăm triệu bản sao chép thẻ kinh doanh của tôi,
+
+00:08:12.260 --> 00:08:14.260
+tôi có thể đưa mọi người trong căn phòng này rất nhiều bản,
+
+00:08:14.260 --> 00:08:16.260
+và, trên thực tế, tất cả mọi người trên thế giới,
+
+00:08:16.260 --> 00:08:19.260
+và nó đang ở ngay đây.
+
+00:08:19.260 --> 00:08:24.260
+(Khán giả cười)
+
+00:08:26.260 --> 00:08:28.260
+Nếu như tôi là một kẻ tự tôn tự phụ,
+
+00:08:28.260 --> 00:08:31.260
+tôi có thể đã biến nó thành một loại vi-rút và thả nó vào căn phòng này.
+
+00:08:31.260 --> 00:08:36.260
+(Khán giả cười)
+
+00:08:39.260 --> 00:08:41.260
+Vậy bước tiếp theo là gì?
+
+00:08:41.260 --> 00:08:43.260
+Thiết lập một cấu trúc ADN là một bước thú vị.
+
+00:08:43.260 --> 00:08:45.260
+Và nó tạo nên những tế bào này --
+
+00:08:45.260 --> 00:08:47.260
+làm những tế bào này tồn tại thêm 1 tỉ năm nữa.
+
+00:08:47.260 --> 00:08:49.260
+Nhưng tiếp sau đó, có một giai đoạn khác cũng rất thú vị
+
+00:08:49.260 --> 00:08:52.260
+khi mọi thứ trở nên hoàn toàn khác biệt,
+
+00:08:52.260 --> 00:08:55.260
+đó là lúc những tế bào này bắt đầu trao đổi và giao tiếp thông tin,
+
+00:08:55.260 --> 00:08:57.260
+và hình thành nên cộng đồng tế bào.
+
+00:08:57.260 --> 00:08:59.260
+Tôi không biết nếu các bạn biết điều này,
+
+00:08:59.260 --> 00:09:01.260
+nhưng vi khuẩn có thể thực sự trao đổi ADN.
+
+00:09:01.260 --> 00:09:03.260
+Bởi vì vậy mà, ví dụ,
+
+00:09:03.260 --> 00:09:05.260
+sự kháng thuốc kháng sinh được hình thành.
+
+00:09:05.260 --> 00:09:08.260
+Một số loại vi khuẩn tìm ra cách kháng thuốc penicillin,
+
+00:09:08.260 --> 00:09:11.260
+và nó lan tỏa ra xung quanh trao đổi thông tin ADN của chúng
+
+00:09:11.260 --> 00:09:13.260
+với các vi khuẩn khác,
+
+00:09:13.260 --> 00:09:16.260
+và ngày nay chúng ta có rất nhiều loại vi khuẩn có khả năng kháng lại penicillin,
+
+00:09:16.260 --> 00:09:18.260
+bởi vì vi khuẩn truyền đạt thông tin ADN.
+
+00:09:18.260 --> 00:09:20.260
+Việc truyền đạt này cho phép
+
+00:09:20.260 --> 00:09:22.260
+các cộng đồng vi khuẩn có thể hình thành
+
+00:09:22.260 --> 00:09:24.260
+mà trong đó bao gồm những loại vi khuẩn cùng cảnh ngộ;
+
+00:09:24.260 --> 00:09:26.260
+chúng hợp tác với nhau.
+
+00:09:26.260 --> 00:09:28.260
+Và vì vậy, chúng cùng sống sót
+
+00:09:28.260 --> 00:09:30.260
+hay cùng chết dần,
+
+00:09:30.260 --> 00:09:32.260
+điều đó cũng có nghĩa là, nếu một cộng đồng phát triển tốt,
+
+00:09:32.260 --> 00:09:34.260
+tất cả cá nhân trong cộng đồng ấy
+
+00:09:34.260 --> 00:09:36.260
+lại tự sản sinh ra thêm nhiều cá thể
+
+00:09:36.260 --> 00:09:39.260
+và chúng tiến hóa theo hướng tích cực.
+
+00:09:39.260 --> 00:09:41.260
+Thời điểm chuyển giao xảy ra
+
+00:09:41.260 --> 00:09:43.260
+khi những cộng đồng ấy gần gũi với nhau
+
+00:09:43.260 --> 00:09:45.260
+đến mức, trong thực tế, chúng cùng nhau
+
+00:09:45.260 --> 00:09:48.260
+hình thành nên một công thức cấu tạo chung cho cả quần thể
+
+00:09:48.260 --> 00:09:51.260
+trên một dãy ADN duy nhất.
+
+00:09:51.260 --> 00:09:53.260
+Và vì vậy, quá trình tiếp theo rất thú vị trong sự sống
+
+00:09:53.260 --> 00:09:55.260
+mất khoảng 1 tỉ năm nữa.
+
+00:09:55.260 --> 00:09:57.260
+Và vào thời điểm ấy,
+
+00:09:57.260 --> 00:09:59.260
+chúng ta có quần thể đa tế bào,
+
+00:09:59.260 --> 00:10:01.260
+quần thể có vô số loại tế bào khác nhau,
+
+00:10:01.260 --> 00:10:03.260
+làm việc cùng nhau như một cơ quan duy nhất.
+
+00:10:03.260 --> 00:10:06.260
+Và trong thực tế, chúng ta chính là một quần thể đa tế bào.
+
+00:10:06.260 --> 00:10:08.260
+Chúng ta có rất nhiều tế bào
+
+00:10:08.260 --> 00:10:10.260
+mà chúng không thể tồn tại một cách riêng rẽ.
+
+00:10:10.260 --> 00:10:13.260
+Tế bào da của mọi người sẽ không có tác dụng gì
+
+00:10:13.260 --> 00:10:15.260
+nếu thiếu sự tồn tại của thế bào tim, tế bào cơ,
+
+00:10:15.260 --> 00:10:17.260
+tế bào não và rất nhiều tế bào khác.
+
+00:10:17.260 --> 00:10:19.260
+Do đó, những quần thể này bắt đầu tiến hóa
+
+00:10:19.260 --> 00:10:22.260
+khiến mức độ thú vị mà tiến hóa xảy ra
+
+00:10:22.260 --> 00:10:24.260
+không còn là trên một tế bào,
+
+00:10:24.260 --> 00:10:27.260
+mà trên một quần thể chúng ta gọi là cơ thể sống.
+
+00:10:28.260 --> 00:10:30.260
+Quá trình tiếp theo xảy ra
+
+00:10:30.260 --> 00:10:32.260
+là ở trong những quần thể này.
+
+00:10:32.260 --> 00:10:34.260
+Những quần thể tế bào này,
+
+00:10:34.260 --> 00:10:36.260
+một lần nữa, bắt đầu chiết ra thông tin.
+
+00:10:36.260 --> 00:10:39.260
+Và chúng bắt đầu hình thành nên những cấu hình đặc biệt
+
+00:10:39.260 --> 00:10:42.260
+có tác dụng không gì khác ngoài việc xử lí thông tin trong quần thể.
+
+00:10:42.260 --> 00:10:44.260
+Và đó là những cấu trúc thần kinh.
+
+00:10:44.260 --> 00:10:47.260
+Tế bào thần kinh là bộ máy xử lí thông tin
+
+00:10:47.260 --> 00:10:50.260
+mà quần thể tế bào cấu tạo nên.
+
+00:10:50.260 --> 00:10:52.260
+Và trên thực tế, chúng được phân hóa trong quần thể
+
+00:10:52.260 --> 00:10:54.260
+và những cấu trúc đặc biệt
+
+00:10:54.260 --> 00:10:56.260
+chịu trách nhiệm cho việc ghi chép,
+
+00:10:56.260 --> 00:10:59.260
+đọc hiểu, xử lí thông tin.
+
+00:10:59.260 --> 00:11:01.260
+Và đó là bộ não và hệ thống thần kinh
+
+00:11:01.260 --> 00:11:03.260
+của những quần thể ấy.
+
+00:11:03.260 --> 00:11:05.260
+Và chúng đem đến sự thuận lợi trong quá trình tiến hóa.
+
+00:11:05.260 --> 00:11:08.260
+Bởi vì ở thời điểm ấy,
+
+00:11:08.260 --> 00:11:11.260
+một cá thể --
+
+00:11:11.260 --> 00:11:13.260
+việc xử lí thông tin có thể xảy ra
+
+00:11:13.260 --> 00:11:15.260
+trong khoảng thời gian tồn tại của một cá thể sống,
+
+00:11:15.260 --> 00:11:18.260
+thay vì trong khoảng thời gian tiến hóa này.
+
+00:11:18.260 --> 00:11:20.260
+Vì vậy một cá thể sống có thể, ví dụ,
+
+00:11:20.260 --> 00:11:22.260
+học được việc không ăn một loại quả nào đó
+
+00:11:22.260 --> 00:11:26.260
+bởi vì nó có vị không ngon và cá thể đó thấy khó chịu khi ăn loại quả đó.
+
+00:11:26.260 --> 00:11:29.260
+Việc này có thể xảy ra trong suốt thời gian tồn tại của một cơ thể sống,
+
+00:11:29.260 --> 00:11:33.260
+trong khi trước lúc chúng hình thành nên cấu trúc xử lí thông tin đặc biệt này,
+
+00:11:33.260 --> 00:11:35.260
+việc đó có thể đã được học trong quá trình tiến hóa
+
+00:11:35.260 --> 00:11:38.260
+trên trăm ngàn năm
+
+00:11:38.260 --> 00:11:41.260
+nhờ những cá thể chết vì ăn phải loại quả đó.
+
+00:11:41.260 --> 00:11:43.260
+Hệ thống thần kinh đó,
+
+00:11:43.260 --> 00:11:46.260
+sự thật là chúng hình thành nên những cấu trúc thông tin đặc biệt ấy,
+
+00:11:46.260 --> 00:11:49.260
+đã nhanh chóng thúc đẩy cả quá trình tiến hóa.
+
+00:11:49.260 --> 00:11:52.260
+Bởi quá trình tiến hóa ngày nay có thể xảy ra bên trong một cá thể.
+
+00:11:52.260 --> 00:11:55.260
+Nó có thể xảy ra trong thời gian xử lí thông tin.
+
+00:11:55.260 --> 00:11:57.260
+Nhưng sau đó điều xảy ra
+
+00:11:57.260 --> 00:11:59.260
+là các cá thể hình thành nên
+
+00:11:59.260 --> 00:12:01.260
+đương nhiên rồi, những mánh khóe trong việc trao đổi thông tin.
+
+00:12:01.260 --> 00:12:03.260
+Ví dụ như,
+
+00:12:03.260 --> 00:12:06.260
+phiên bản phức tạp nhất chúng ta biết đến là ngôn ngữ của loài người.
+
+00:12:06.260 --> 00:12:09.260
+Nếu bạn nghĩ về nó, bạn sẽ thấy đó là một phát minh hết sức vĩ đại.
+
+00:12:09.260 --> 00:12:11.260
+Tôi có một suy nghĩ hết sức phức tạp, hỗn độn,
+
+00:12:11.260 --> 00:12:14.260
+và mơ hồ trong tâm trí.
+
+00:12:14.260 --> 00:12:17.260
+Tôi đang ngồi đây nói ra những tiếng lẩm bẩm,
+
+00:12:17.260 --> 00:12:20.260
+hy vọng tạo ra trong đầu mọi người một suy nghĩ cũng hỗn độn và mơ hồ
+
+00:12:20.260 --> 00:12:22.260
+và có đôi chút tương tự như suy nghĩ của tôi.
+
+00:12:22.260 --> 00:12:24.260
+Nhưng chúng ta đang lấy một thứ rất phức tạp,
+
+00:12:24.260 --> 00:12:27.260
+biến nó thành những tiếng, một dãy các loại tiếng,
+
+00:12:27.260 --> 00:12:31.260
+và hình thành nên trong não mọi người một suy nghĩ phức tạp.
+
+00:12:31.260 --> 00:12:33.260
+Việc này cho phép chúng ta
+
+00:12:33.260 --> 00:12:35.260
+bắt đầu tồn tại
+
+00:12:35.260 --> 00:12:38.260
+như một cơ thể sống.
+
+00:12:38.260 --> 00:12:41.260
+Và trên thực tế, điều chúng ta đã thực hiện
+
+00:12:41.260 --> 00:12:43.260
+là loài người chúng ta,
+
+00:12:43.260 --> 00:12:45.260
+bắt đầu biết chọn lọc.
+
+00:12:45.260 --> 00:12:47.260
+Chúng ta đang trải qua các quá trình tương tự như
+
+00:12:47.260 --> 00:12:49.260
+các cá thể sống đa tế bào đã, đang trải qua --
+
+00:12:49.260 --> 00:12:52.260
+chọn lọc phương pháp sao chép,
+
+00:12:52.260 --> 00:12:54.260
+biểu hiện, xử lí thông tin.
+
+00:12:54.260 --> 00:12:56.260
+Ví dụ như, sự phát minh ra tiếng nói
+
+00:12:56.260 --> 00:12:59.260
+là một bước tiến nhỏ theo chiều hướng ấy.
+
+00:12:59.260 --> 00:13:01.260
+Điện thoại, máy tính,
+
+00:13:01.260 --> 00:13:04.260
+băng video, đĩa CD và nhiều thứ khác
+
+00:13:04.260 --> 00:13:06.260
+là những thiết bị chuyên dụng
+
+00:13:06.260 --> 00:13:08.260
+mà chúng ta tạo ra trong xã hội
+
+00:13:08.260 --> 00:13:10.260
+để làm việc với thông tin.
+
+00:13:10.260 --> 00:13:13.260
+Và chúng đều liên kết chúng ta
+
+00:13:13.260 --> 00:13:15.260
+thành một cộng đồng
+
+00:13:15.260 --> 00:13:17.260
+lớn hơn
+
+00:13:17.260 --> 00:13:19.260
+nhanh hơn
+
+00:13:19.260 --> 00:13:21.260
+và có khả năng tiến hóa
+
+00:13:21.260 --> 00:13:23.260
+xa hơn chúng ta trước đây.
+
+00:13:23.260 --> 00:13:25.260
+Vậy giờ đây, tiến hóa có thể xảy ra
+
+00:13:25.260 --> 00:13:27.260
+trong thời khắc vài phần giây.
+
+00:13:27.260 --> 00:13:29.260
+Mọi người đã xem ví dụ nhỏ của Ty về tiến hóa
+
+00:13:29.260 --> 00:13:31.260
+khi ông ấy đã thúc đẩy tiến hóa
+
+00:13:31.260 --> 00:13:34.260
+trên chương trình Nếp Xoắn ngay trước mắt mọi người.
+
+00:13:34.260 --> 00:13:37.260
+Giờ chúng ta đã tăng tốc khung thời gian lên một lần nữa.
+
+00:13:37.260 --> 00:13:39.260
+Vì vậy những bước đầu tiên của câu chuyện tôi kể cho mọi người
+
+00:13:39.260 --> 00:13:41.260
+xảy ra trong 1 tỉ năm.
+
+00:13:41.260 --> 00:13:43.260
+Và những giai đoạn tiếp theo,
+
+00:13:43.260 --> 00:13:45.260
+như hệ thống thần kinh và não bộ,
+
+00:13:45.260 --> 00:13:47.260
+mất vài trăm triệu năm.
+
+00:13:47.260 --> 00:13:50.260
+Quá trình tiếp theo, như ngôn ngữ và những thứ tương tự,
+
+00:13:50.260 --> 00:13:52.260
+xảy ra trong vòng ít hơn một triệu năm.
+
+00:13:52.260 --> 00:13:54.260
+Và những quá trình tiếp theo, như điện,
+
+00:13:54.260 --> 00:13:56.260
+dường như chỉ mất có một vài thập kỷ.
+
+00:13:56.260 --> 00:13:58.260
+Quá trình này cứ tự nó tiếp diễn
+
+00:13:58.260 --> 00:14:01.260
+và trở nên, tôi đoán rằng, tự xúc tác là từ thích hợp --
+
+00:14:01.260 --> 00:14:04.260
+khi một quá trình tự thúc đẩy tốc độ thay đổi của nó.
+
+00:14:04.260 --> 00:14:07.260
+Quá trình thay đổi càng nhiều, tốc độ nó thay đổi càng nhanh.
+
+00:14:07.260 --> 00:14:10.260
+Và tôi nghĩ rằng đó là thứ mà chúng ta đang thấy ở đây, trong sự bùng nổ của đường cong này.
+
+00:14:10.260 --> 00:14:13.260
+Chúng ta đang thấy quá trình này tự thúc đẩy bản thân nó.
+
+00:14:13.260 --> 00:14:16.260
+Giờ tôi thiết kế máy tính để kiếm tiền,
+
+00:14:16.260 --> 00:14:18.260
+và tôi biết rằng thiết bị
+
+00:14:18.260 --> 00:14:21.260
+tôi dùng để thiết kế máy tính
+
+00:14:21.260 --> 00:14:23.260
+có thể không sử dụng được
+
+00:14:23.260 --> 00:14:25.260
+nếu không có những công nghệ gần đây trong ngành máy tính.
+
+00:14:25.260 --> 00:14:27.260
+Vì vậy, bây giờ, điều tôi làm
+
+00:14:27.260 --> 00:14:30.260
+là thiết kế vật dụng với mức độ phức tạp
+
+00:14:30.260 --> 00:14:33.260
+dường như bất khả thi nếu thiết kế chúng theo hướng truyền thống.
+
+00:14:33.260 --> 00:14:37.260
+Tôi không biết công dụng của tất cả các bóng bán dẫn trong máy kết nối.
+
+00:14:37.260 --> 00:14:39.260
+Bởi có hàng tỉ bóng bán dẫn.
+
+00:14:39.260 --> 00:14:41.260
+Thay vào đó, thứ tôi thực hiện
+
+00:14:41.260 --> 00:14:44.260
+cũng như thứ mà các thiết kế viên đang thực hiện tại Tập đoàn Các Thiết Bị Có Suy Nghĩ
+
+00:14:44.260 --> 00:14:46.260
+đó là chúng tôi suy nghĩ về mức độ của sự chiết lọc
+
+00:14:46.260 --> 00:14:48.260
+và đưa cái chiết lọc đó vào trong máy móc
+
+00:14:48.260 --> 00:14:51.260
+và máy móc đó sử dụng sự chiết lọc hiệu quả hơn chúng tôi có thể làm,
+
+00:14:51.260 --> 00:14:54.260
+tiến xa hơn và nhanh hơn chúng tôi có thể.
+
+00:14:54.260 --> 00:14:56.260
+Và trên thực tế, đôi khi chúng thực hiện bởi những phương pháp
+
+00:14:56.260 --> 00:14:59.260
+chúng tôi thậm chí không hiểu rõ lắm.
+
+00:14:59.260 --> 00:15:01.260
+Một phương pháp đặc biệt thú vị
+
+00:15:01.260 --> 00:15:04.260
+mà tôi hiện vẫn đang dùng nhiều
+
+00:15:04.260 --> 00:15:06.260
+là bản thân sự tiến hóa
+
+00:15:06.260 --> 00:15:08.260
+Điều mà chúng tôi làm
+
+00:15:08.260 --> 00:15:10.260
+là đặt vào trong máy
+
+00:15:10.260 --> 00:15:12.260
+một quy trình phát triển
+
+00:15:12.260 --> 00:15:14.260
+xảy ra trong khung thời gian giây cực nhỏ.
+
+00:15:14.260 --> 00:15:16.260
+Ví dụ như,
+
+00:15:16.260 --> 00:15:18.260
+trong những trường hợp đặc biệt,
+
+00:15:18.260 --> 00:15:20.260
+chúng ta có thể thực sự phát triển một chương trình
+
+00:15:20.260 --> 00:15:24.260
+bằng cách bắt đầu với những dãy câu lệnh.
+
+00:15:24.260 --> 00:15:26.260
+Hay nói cách khác, "Máy tính, liệu bạn có thể đưa ra
+
+00:15:26.260 --> 00:15:29.260
+hàng trăm triệu dãy câu lệnh ngẫu nhiên.
+
+00:15:29.260 --> 00:15:32.260
+Giờ liệu bạn có thể thực hiện tất cả các dãy câu lệnh ngẫu nhiên đó,
+
+00:15:32.260 --> 00:15:34.260
+chạy tất cả các chương trình đó,
+
+00:15:34.260 --> 00:15:37.260
+và chọn ra những chương trình gần gũi nhất với việc mà tôi đang muốn thực hiện."
+
+00:15:37.260 --> 00:15:39.260
+Nói cách khác, tôi xác định thứ tôi muốn.
+
+00:15:39.260 --> 00:15:41.260
+Khi tôi muốn sắp xếp các số,
+
+00:15:41.260 --> 00:15:43.260
+một ví dụ đơn giản mà tôi thực hiện được.
+
+00:15:43.260 --> 00:15:46.260
+Và tìm chương trình gần gũi nhất với công việc sắp xếp con số.
+
+00:15:46.260 --> 00:15:49.260
+Và đương nhiên, dãy câu lệnh ngẫu nhiên
+
+00:15:49.260 --> 00:15:51.260
+sẽ không có xu hướng sắp xếp các con số,
+
+00:15:51.260 --> 00:15:53.260
+vì vậy, không một câu lệnh nào sẽ thực sự thực hiện nhiệm vụ ấy.
+
+00:15:53.260 --> 00:15:55.260
+Nhưng một trong số đó, nếu may mắn,
+
+00:15:55.260 --> 00:15:57.260
+sẽ đặt hai số vào đúng vị trí.
+
+00:15:57.260 --> 00:15:59.260
+Và tôi nói, "Máy tính,
+
+00:15:59.260 --> 00:16:02.260
+liệu bạn có thể chọn ra 10%
+
+00:16:02.260 --> 00:16:04.260
+trong số dãy ngẫu nhiên đó mà thực hiện công việc tốt nhất.
+
+00:16:04.260 --> 00:16:06.260
+Giữ chúng lại. Loại đi dãy còn lại.
+
+00:16:06.260 --> 00:16:08.260
+Và tiếp theo hãy sao chép lại
+
+00:16:08.260 --> 00:16:10.260
+những dãy câu lệnh sắp xếp các con số tốt nhất.
+
+00:16:10.260 --> 00:16:13.260
+Và hãy sao chép chúng bằng quá trình tái tổ hợp
+
+00:16:13.260 --> 00:16:15.260
+tương tự như sinh sản."
+
+00:16:15.260 --> 00:16:18.260
+Lấy ra hai chương trình và chúng sẽ tạo ra sản phẩm
+
+00:16:18.260 --> 00:16:20.260
+bằng cách trao đổi quy tắc ngầm của chúng,
+
+00:16:20.260 --> 00:16:23.260
+và sản phẩm được thừa hưởng tính chất của các quy tắc của hai chương trình.
+
+00:16:23.260 --> 00:16:26.260
+Tôi có hiện nay một thế hệ chương trình mới
+
+00:16:26.260 --> 00:16:28.260
+được sản xuất bởi sự kết hợp
+
+00:16:28.260 --> 00:16:30.260
+của các chương trình mà thực hiện công việc tốt hơn một chút.
+
+00:16:30.260 --> 00:16:32.260
+Tôi nói với máy tính, "Hãy lặp lại quá trình."
+
+00:16:32.260 --> 00:16:34.260
+Đánh giá lại chúng một lần nữa.
+
+00:16:34.260 --> 00:16:36.260
+Có thể đưa ra vài sự hoán đổi.
+
+00:16:36.260 --> 00:16:39.260
+Và thử lại lần nữa, thực hiện nó cho một thế hệ khác.
+
+00:16:39.260 --> 00:16:42.260
+Tất cả mọi cá nhân trong thế hệ mới đều chỉ mất vài mili-giây.
+
+00:16:42.260 --> 00:16:44.260
+Và vì vậy, tôi có thể thực hiện
+
+00:16:44.260 --> 00:16:46.260
+sự tiến hóa tương tự của vài triệu năm
+
+00:16:46.260 --> 00:16:49.260
+trong một máy tính chỉ trong vài phút,
+
+00:16:49.260 --> 00:16:51.260
+hay nếu trong trường hợp phức tạp, một vài tiếng.
+
+00:16:51.260 --> 00:16:54.260
+Kết thúc quá trình, tôi sẽ có chương trình
+
+00:16:54.260 --> 00:16:56.260
+chắc chắn hoàn hảo với việc sắp xếp con số.
+
+00:16:56.260 --> 00:16:59.260
+Trên thực tế, chúng là chương trình hiệu quả hơn nhiều
+
+00:16:59.260 --> 00:17:01.260
+chương trình tôi có thể viết tay.
+
+00:17:01.260 --> 00:17:03.260
+Giờ nếu tôi nhìn vào những chương trình ấy,
+
+00:17:03.260 --> 00:17:05.260
+Tôi không thể cho mọi người biết chúng họat động như thế nào.
+
+00:17:05.260 --> 00:17:07.260
+Tôi luôn cố gắng thăm dò chúng và chỉ cho bạn cách nó họat động.
+
+00:17:07.260 --> 00:17:09.260
+Chúng là những chương trình rất mơ hồ và kì quặc.
+
+00:17:09.260 --> 00:17:11.260
+Nhưng chúng thực hiện được công việc.
+
+00:17:11.260 --> 00:17:14.260
+Và trên thực tế, tôi biết, tôi rất tự tin rằng chúng thực hiện được công việc
+
+00:17:14.260 --> 00:17:16.260
+bởi vì chúng đến từ một loạt
+
+00:17:16.260 --> 00:17:18.260
+hàng trăm nghìn chương trình đã thực hiện được công việc đó.
+
+00:17:18.260 --> 00:17:21.260
+Trên thực tế, sự tồn tại của những chương trình ấy phụ thuộc vào cái công việc ấy.
+
+00:17:21.260 --> 00:17:25.260
+(Khán giả cười)
+
+00:17:26.260 --> 00:17:28.260
+Tôi từng một lần ngồi trong một chiếc 747
+
+00:17:28.260 --> 00:17:30.260
+với Marvin Minsky,
+
+00:17:30.260 --> 00:17:33.260
+và anh ta lấy ra tấm thẻ và nói, "Ôi nhìn kìa. Nhìn vào đây.
+
+00:17:33.260 --> 00:17:37.260
+Nó nói rằng, 'Chiếc máy bay này có trăm nghìn chi tiết
+
+00:17:37.260 --> 00:17:41.260
+cùng hoạt động để cho bạn có một chuyến bay an toàn.'
+
+00:17:41.260 --> 00:17:43.260
+Nó không khiến bạn cảm thấy tự tin sao?"
+
+00:17:43.260 --> 00:17:45.260
+(Khán giả cười)
+
+00:17:45.260 --> 00:17:48.260
+Trên thực tế, chúng ta đều biết rằng quá trình thiết kế xây dựng không được thuận lợi
+
+00:17:48.260 --> 00:17:50.260
+khi nó quá phức tạp.
+
+00:17:50.260 --> 00:17:52.260
+Vì vậy, chúng ta bắt đầu phụ thuộc vào máy tính
+
+00:17:52.260 --> 00:17:56.260
+để thực hiện một quá trình khác biệt hơn hẳn với thiết kế xây dựng.
+
+00:17:56.260 --> 00:17:59.260
+Và nó cho phép chúng ta sản xuất ra những sản phẩm phức tạp hơn nhiều
+
+00:17:59.260 --> 00:18:01.260
+so với thiết kế xây dựng bình thường cho phép.
+
+00:18:01.260 --> 00:18:04.260
+Vậy mà chúng ta vẫn không thực sự hiểu sự lựa chọn của nó.
+
+00:18:04.260 --> 00:18:06.260
+Và vì vậy, trong một góc nhìn, nó đang tiến trước chúng ta.
+
+00:18:06.260 --> 00:18:08.260
+Chúng ta đang sử dụng những chương trình ấy
+
+00:18:08.260 --> 00:18:10.260
+để tạo ra máy tính nhanh hơn
+
+00:18:10.260 --> 00:18:13.260
+để từ đó chúng ta có thể thực hiện quá trình nhanh hơn.
+
+00:18:13.260 --> 00:18:16.260
+Và vì vậy, nó đang thúc đẩy chính bản thân nó.
+
+00:18:16.260 --> 00:18:18.260
+Điều này đang diễn ra ngày càng nhanh
+
+00:18:18.260 --> 00:18:20.260
+và đó là lí do tại sao tôi thấy nó khá mơ hồ.
+
+00:18:20.260 --> 00:18:23.260
+Bởi tất cả công nghệ này đều tự thúc đẩy bản thân nó phát triển.
+
+00:18:23.260 --> 00:18:25.260
+Chúng ta đang cất cánh.
+
+00:18:25.260 --> 00:18:28.260
+Và chúng ta đang ở thời điểm trong quá trình
+
+00:18:28.260 --> 00:18:30.260
+mà tương tự như khi những cơ thể sống đơn bào
+
+00:18:30.260 --> 00:18:33.260
+chuyển sang cơ thể sống đa bào.
+
+00:18:33.260 --> 00:18:35.260
+Chúng ta là những trùng Amip
+
+00:18:35.260 --> 00:18:38.260
+và chúng ta gần như không thể hiểu nổi thứ mà chúng ta đang chế tạo ra.
+
+00:18:38.260 --> 00:18:40.260
+Chúng ta đang ở thời điểm của sự chuyển giao.
+
+00:18:40.260 --> 00:18:43.260
+Nhưng tôi nghĩ rằng có một cái gì đó đang bám đuổi chúng ta.
+
+00:18:43.260 --> 00:18:45.260
+Tôi nghĩ rằng chúng ta sẽ quá là tự cao
+
+00:18:45.260 --> 00:18:48.260
+nếu cho rằng chúng ta là sản phẩm cuối cùng của quá trình tiến hóa.
+
+00:18:48.260 --> 00:18:50.260
+Và tôi nghĩ rằng tất cả chúng ta ở đây
+
+00:18:50.260 --> 00:18:52.260
+là một phần của sự sản sinh
+
+00:18:52.260 --> 00:18:54.260
+thế hệ tiếp theo - bất kể đó là cái gì.
+
+00:18:54.260 --> 00:18:56.260
+Bữa trưa đang tới gần,
+
+00:18:56.260 --> 00:18:58.260
+và tôi nghĩ tôi sẽ dừng lại tại đây,
+
+00:18:58.260 --> 00:19:00.260
+trước khi tôi bị loại ra bởi tạo hóa.
+
+00:19:00.260 --> 00:19:03.260
+(Vỗ tay)
+

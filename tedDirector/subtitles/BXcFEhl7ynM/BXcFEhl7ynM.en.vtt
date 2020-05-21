@@ -1,0 +1,758 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:12.834 --> 00:00:16.494
+Today, I'm going to talk about AI and us.
+
+00:00:18.026 --> 00:00:20.169
+AI researchers have always said
+
+00:00:20.193 --> 00:00:22.787
+that we humans do not need to worry,
+
+00:00:22.811 --> 00:00:26.391
+because only menial jobs
+will be taken over by machines.
+
+00:00:27.094 --> 00:00:28.697
+Is that really true?
+
+00:00:30.185 --> 00:00:34.012
+They have also said
+that AI will create new jobs,
+
+00:00:34.036 --> 00:00:37.447
+so those who lose their jobs
+will find a new one.
+
+00:00:38.084 --> 00:00:39.439
+Of course.
+
+00:00:39.463 --> 00:00:41.635
+But the real question is:
+
+00:00:41.659 --> 00:00:45.764
+How many of those
+who may lose their jobs to AI
+
+00:00:45.788 --> 00:00:48.277
+will be able to land a new one,
+
+00:00:48.301 --> 00:00:54.151
+especially when AI is smart enough
+to learn better than most of us?
+
+00:00:55.217 --> 00:00:57.402
+Let me ask you a question:
+
+00:00:58.486 --> 00:01:00.284
+How many of you think
+
+00:01:00.308 --> 00:01:06.402
+that AI will pass the entrance examination
+of a top university by 2020?
+
+00:01:07.656 --> 00:01:10.113
+Oh, so many. OK.
+
+00:01:10.137 --> 00:01:14.495
+So some of you may say, "Of course, yes!"
+
+00:01:15.189 --> 00:01:17.323
+Now singularity is the issue.
+
+00:01:18.410 --> 00:01:21.505
+And some others may say, "Maybe,
+
+00:01:21.529 --> 00:01:26.037
+because AI already won
+against a top Go player."
+
+00:01:27.033 --> 00:01:30.714
+And others may say, "No, never. Uh-uh."
+
+00:01:32.015 --> 00:01:35.608
+That means we do not know
+the answer yet, right?
+
+00:01:36.088 --> 00:01:41.048
+So that was the reason why
+I started Todai Robot Project,
+
+00:01:41.072 --> 00:01:44.944
+making an AI which passes
+the entrance examination
+
+00:01:44.968 --> 00:01:47.557
+of the University of Tokyo,
+
+00:01:47.581 --> 00:01:50.118
+the top university in Japan.
+
+00:01:51.284 --> 00:01:53.832
+This is our Todai Robot.
+
+00:01:55.951 --> 00:02:01.761
+And, of course, the brain of the robot
+is working in the remote server.
+
+00:02:02.567 --> 00:02:06.789
+It is now writing a 600-word essay
+
+00:02:06.813 --> 00:02:10.932
+on maritime trade in the 17th century.
+
+00:02:10.956 --> 00:02:12.721
+How does that sound?
+
+00:02:13.933 --> 00:02:18.037
+Why did I take the entrance exam
+as its benchmark?
+
+00:02:18.918 --> 00:02:23.659
+Because I thought we had to study
+the performance of AI
+
+00:02:23.683 --> 00:02:25.797
+in comparison to humans,
+
+00:02:25.821 --> 00:02:28.681
+especially on the skills and expertise
+
+00:02:28.705 --> 00:02:32.793
+which are believed
+to be acquired only by humans
+
+00:02:32.817 --> 00:02:35.152
+and only through education.
+
+00:02:35.602 --> 00:02:39.645
+To enter Todai, the University of Tokyo,
+
+00:02:39.669 --> 00:02:44.090
+you have to pass
+two different types of exams.
+
+00:02:44.114 --> 00:02:47.874
+The first one is
+a national standardized test
+
+00:02:47.898 --> 00:02:50.301
+in multiple-choice style.
+
+00:02:50.325 --> 00:02:52.780
+You have to take seven subjects
+
+00:02:52.804 --> 00:02:54.759
+and achieve a high score --
+
+00:02:54.783 --> 00:02:59.555
+I would say like an 84 percent
+or more accuracy rate --
+
+00:02:59.579 --> 00:03:03.666
+to be allowed to take
+the second stage written test
+
+00:03:03.690 --> 00:03:05.849
+prepared by Todai.
+
+00:03:06.814 --> 00:03:12.131
+So let me first explain
+how modern AI works,
+
+00:03:12.155 --> 00:03:15.224
+taking the "Jeopardy!" challenge
+as an example.
+
+00:03:17.359 --> 00:03:20.438
+Here is a typical "Jeopardy!" question:
+
+00:03:20.462 --> 00:03:24.923
+"Mozart's last symphony
+shares its name with this planet."
+
+00:03:26.015 --> 00:03:30.028
+Interestingly, a "Jeopardy!"
+question always asks,
+
+00:03:30.052 --> 00:03:33.380
+always ends with "this" something:
+
+00:03:33.404 --> 00:03:36.231
+"this" planet, "this" country,
+
+00:03:36.255 --> 00:03:38.863
+"this" rock musician, and so on.
+
+00:03:38.887 --> 00:03:43.186
+In other words, "Jeopardy!" doesn't ask
+many different types of questions,
+
+00:03:43.210 --> 00:03:45.047
+but a single type,
+
+00:03:45.071 --> 00:03:47.607
+which we call "factoid questions."
+
+00:03:48.795 --> 00:03:50.962
+By the way, do you know the answer?
+
+00:03:53.800 --> 00:03:57.855
+If you do not know the answer
+and if you want to know the answer,
+
+00:03:57.879 --> 00:03:59.166
+what would you do?
+
+00:03:59.980 --> 00:04:03.112
+You Google, right? Of course.
+
+00:04:03.136 --> 00:04:04.616
+Why not?
+
+00:04:04.640 --> 00:04:08.232
+But you have to pick appropriate keywords
+
+00:04:08.256 --> 00:04:12.620
+like "Mozart," "last"
+and "symphony" to search.
+
+00:04:13.282 --> 00:04:15.682
+The machine basically does the same.
+
+00:04:16.277 --> 00:04:20.937
+Then this Wikipedia page
+will be ranked top.
+
+00:04:21.660 --> 00:04:23.568
+Then the machine reads the page.
+
+00:04:23.592 --> 00:04:24.763
+No, uh-uh.
+
+00:04:25.290 --> 00:04:28.752
+Unfortunately, none of the modern AIs,
+
+00:04:28.776 --> 00:04:32.744
+including Watson, Siri and Todai Robot,
+
+00:04:32.768 --> 00:04:34.429
+is able to read.
+
+00:04:35.257 --> 00:04:39.057
+But they are very good
+at searching and optimizing.
+
+00:04:39.978 --> 00:04:42.001
+It will recognize
+
+00:04:42.686 --> 00:04:45.621
+that the keywords "Mozart,"
+"last" and "symphony"
+
+00:04:45.645 --> 00:04:48.548
+are appearing heavily around here.
+
+00:04:49.610 --> 00:04:53.985
+So if it can find a word which is a planet
+
+00:04:54.009 --> 00:04:57.657
+and which is co-occurring
+with these keywords,
+
+00:04:57.681 --> 00:04:59.670
+that must be the answer.
+
+00:05:00.582 --> 00:05:05.768
+This is how Watson finds
+the answer "Jupiter," in this case.
+
+00:05:08.253 --> 00:05:12.302
+Our Todai Robot works similarly,
+but a bit smarter
+
+00:05:12.326 --> 00:05:15.565
+in answering history yes-no questions,
+
+00:05:16.380 --> 00:05:22.043
+like, "'Charlemagne repelled the Magyars.'
+Is this sentence true or false?"
+
+00:05:23.001 --> 00:05:27.074
+Our robot starts producing
+a factoid question,
+
+00:05:27.098 --> 00:05:31.997
+like: "Charlemagne repelled
+[this person type]" by itself.
+
+00:05:32.815 --> 00:05:37.547
+Then, "Avars" but not
+"Magyars" is ranked top.
+
+00:05:38.177 --> 00:05:41.226
+This sentence is likely to be false.
+
+00:05:42.592 --> 00:05:47.452
+Our robot does not read,
+does not understand,
+
+00:05:48.155 --> 00:05:52.299
+but it is statistically
+correct in many cases.
+
+00:05:53.967 --> 00:05:56.475
+For the second stage written test,
+
+00:05:56.499 --> 00:06:01.605
+it is required to write
+a 600-word essay like this one:
+
+00:06:01.629 --> 00:06:03.907
+[Discuss the rise and fall
+of the maritime trade
+
+00:06:03.931 --> 00:06:06.353
+in East and Southeast Asia
+in the 17th century ...]
+
+00:06:06.377 --> 00:06:07.764
+and as I have shown earlier,
+
+00:06:07.788 --> 00:06:11.982
+our robot took the sentences
+from the textbooks and Wikipedia,
+
+00:06:12.006 --> 00:06:13.967
+combined them together,
+
+00:06:13.991 --> 00:06:17.610
+and optimized it to produce an essay
+
+00:06:17.634 --> 00:06:19.841
+without understanding a thing.
+
+00:06:19.865 --> 00:06:21.602
+(Laughter)
+
+00:06:21.626 --> 00:06:26.521
+But surprisingly, it wrote a better essay
+
+00:06:26.545 --> 00:06:28.106
+than most of the students.
+
+00:06:28.130 --> 00:06:30.521
+(Laughter)
+
+00:06:30.545 --> 00:06:32.074
+How about mathematics?
+
+00:06:33.174 --> 00:06:36.332
+A fully automatic math-solving machine
+
+00:06:36.356 --> 00:06:37.987
+has been a dream
+
+00:06:38.011 --> 00:06:42.690
+since the birth of the word
+"artificial intelligence,"
+
+00:06:43.605 --> 00:06:49.612
+but it has stayed at the level
+of arithmetic for a long, long time.
+
+00:06:51.350 --> 00:06:56.700
+Last year, we finally succeeded
+in developing a system
+
+00:06:56.724 --> 00:07:01.897
+which solved pre-university-level
+problems from end to end,
+
+00:07:01.921 --> 00:07:03.183
+like this one.
+
+00:07:05.468 --> 00:07:09.470
+This is the original problem
+written in Japanese,
+
+00:07:09.494 --> 00:07:13.891
+and we had to teach it
+2,000 mathematical axioms
+
+00:07:13.915 --> 00:07:16.689
+and 8,000 Japanese words
+
+00:07:16.713 --> 00:07:21.271
+to make it accept the problems
+written in natural language.
+
+00:07:22.054 --> 00:07:25.596
+And it is now translating
+the original problems
+
+00:07:25.620 --> 00:07:28.759
+into machine-readable formulas.
+
+00:07:30.398 --> 00:07:36.497
+Weird, but it is now ready
+to solve it, I think.
+
+00:07:36.521 --> 00:07:37.932
+Go and solve it.
+
+00:07:38.638 --> 00:07:42.922
+Yes! It is now executing
+symbolic computation.
+
+00:07:43.850 --> 00:07:45.430
+Even more weird,
+
+00:07:45.454 --> 00:07:50.279
+but probably this is the most
+fun part for the machine.
+
+00:07:50.303 --> 00:07:52.654
+(Laughter)
+
+00:07:52.678 --> 00:07:55.493
+Now it outputs a perfect answer,
+
+00:07:55.517 --> 00:08:00.224
+though its proof is impossible to read,
+even for mathematicians.
+
+00:08:02.593 --> 00:08:09.554
+Anyway, last year our robot
+was among the top one percent
+
+00:08:10.019 --> 00:08:13.652
+in the second stage written
+exam in mathematics.
+
+00:08:14.472 --> 00:08:17.682
+(Applause)
+
+00:08:18.232 --> 00:08:19.543
+Thank you.
+
+00:08:19.567 --> 00:08:22.038
+So, did it enter Todai?
+
+00:08:22.801 --> 00:08:25.859
+No, not as I expected.
+
+00:08:26.603 --> 00:08:28.002
+Why?
+
+00:08:28.026 --> 00:08:30.665
+Because it doesn't understand any meaning.
+
+00:08:32.128 --> 00:08:36.207
+Let me show you a typical error
+it made in the English test.
+
+00:08:36.231 --> 00:08:39.208
+[Nate: We're almost at the bookstore.
+Just a few more minutes.
+
+00:08:39.232 --> 00:08:42.271
+Sunil: Wait. ______ .
+Nate: Thank you! That always happens ...]
+
+00:08:42.295 --> 00:08:43.446
+Two people are talking.
+
+00:08:43.470 --> 00:08:45.524
+For us, who can understand
+the situation --
+
+00:08:45.524 --> 00:08:48.297
+[1. "We walked for a long time."
+2. "We're almost there."
+
+00:08:48.321 --> 00:08:51.353
+3. "Your shoes look expensive."
+4. "Your shoelace is untied."]
+
+00:08:51.377 --> 00:08:54.250
+it is obvious number four
+is the correct answer, right?
+
+00:08:54.274 --> 00:08:56.512
+But Todai Robot chose number two,
+
+00:08:56.536 --> 00:09:01.896
+even after learning 15 billion
+English sentences
+
+00:09:01.920 --> 00:09:04.648
+using deep learning technologies.
+
+00:09:07.420 --> 00:09:11.592
+OK, so now you might
+understand what I said:
+
+00:09:12.219 --> 00:09:14.867
+modern AIs do not read,
+
+00:09:14.891 --> 00:09:16.304
+do not understand.
+
+00:09:17.336 --> 00:09:20.505
+They only disguise as if they do.
+
+00:09:24.687 --> 00:09:27.668
+This is the distribution graph
+
+00:09:27.692 --> 00:09:33.469
+of half a million students
+who took the same exam as Todai Robot.
+
+00:09:34.378 --> 00:09:39.543
+Now our Todai Robot
+is among the top 20 percent,
+
+00:09:40.806 --> 00:09:43.221
+and it was capable to pass
+
+00:09:43.245 --> 00:09:47.186
+more than 60 percent
+of the universities in Japan --
+
+00:09:47.210 --> 00:09:48.587
+but not Todai.
+
+00:09:49.936 --> 00:09:53.961
+But see how it is beyond the volume zone
+
+00:09:53.985 --> 00:09:56.849
+of to-be white-collar workers.
+
+00:09:59.880 --> 00:10:02.738
+You might think I was delighted.
+
+00:10:03.759 --> 00:10:07.730
+After all, my robot was surpassing
+students everywhere.
+
+00:10:08.842 --> 00:10:11.533
+Instead, I was alarmed.
+
+00:10:12.906 --> 00:10:18.513
+How on earth could this unintelligent
+machine outperform students --
+
+00:10:18.537 --> 00:10:19.829
+our children?
+
+00:10:19.853 --> 00:10:21.006
+Right?
+
+00:10:21.921 --> 00:10:26.323
+I decided to investigate
+what was going on in the human world.
+
+00:10:28.362 --> 00:10:33.091
+I took hundreds of sentences
+from high school textbooks
+
+00:10:33.679 --> 00:10:36.992
+and made easy multiple-choice quizzes,
+
+00:10:37.016 --> 00:10:41.159
+and asked thousands
+of high school students to answer.
+
+00:10:42.510 --> 00:10:43.686
+Here is an example:
+
+00:10:43.710 --> 00:10:46.528
+[Buddhism spread to ... ,
+Christianity to ... and Oceania,
+
+00:10:46.552 --> 00:10:47.703
+and Islam to ...]
+
+00:10:47.727 --> 00:10:50.467
+Of course, the original problems
+are written in Japanese,
+
+00:10:50.491 --> 00:10:51.646
+their mother tongue.
+
+00:10:51.670 --> 00:10:53.185
+[ ______ has spread to Oceania.
+
+00:10:53.209 --> 00:10:55.626
+1. Hinduism 2. Christianity
+3. Islam 4. Buddhism ]
+
+00:10:55.650 --> 00:10:57.949
+Obviously, Christianity
+is the answer, isn't it?
+
+00:10:57.973 --> 00:10:59.187
+It's written!
+
+00:11:01.302 --> 00:11:05.328
+And Todai Robot chose
+the correct answer, too.
+
+00:11:06.578 --> 00:11:11.457
+But one-third of junior
+high school students
+
+00:11:11.481 --> 00:11:14.093
+failed to answer this question.
+
+00:11:16.276 --> 00:11:19.435
+Do you think it is only the case in Japan?
+
+00:11:19.459 --> 00:11:21.435
+I do not think so,
+
+00:11:21.459 --> 00:11:27.830
+because Japan is always ranked
+among the top in OECD PISA tests,
+
+00:11:27.854 --> 00:11:31.781
+measuring 15-year-old
+students' performance in mathematics,
+
+00:11:31.805 --> 00:11:33.769
+science and reading
+
+00:11:33.793 --> 00:11:35.429
+every three years.
+
+00:11:39.210 --> 00:11:41.263
+We have been believing
+
+00:11:41.287 --> 00:11:43.330
+that everybody can learn
+
+00:11:43.354 --> 00:11:45.259
+and learn well,
+
+00:11:45.283 --> 00:11:48.980
+as long as we provide
+good learning materials
+
+00:11:49.004 --> 00:11:50.459
+free on the web
+
+00:11:50.483 --> 00:11:53.552
+so that they can access
+through the internet.
+
+00:11:53.576 --> 00:11:59.435
+But such wonderful materials
+may benefit only those who can read well,
+
+00:12:00.354 --> 00:12:04.289
+and the percentage
+of those who can read well
+
+00:12:04.313 --> 00:12:07.691
+may be much less than we expected.
+
+00:12:09.860 --> 00:12:14.101
+How we humans will coexist with AI
+
+00:12:14.125 --> 00:12:17.647
+is something we have
+to think about carefully,
+
+00:12:17.671 --> 00:12:19.808
+based on solid evidence.
+
+00:12:20.883 --> 00:12:24.860
+At the same time,
+we have to think in a hurry
+
+00:12:24.884 --> 00:12:27.286
+because time is running out.
+
+00:12:27.926 --> 00:12:29.088
+Thank you.
+
+00:12:29.446 --> 00:12:33.379
+(Applause)
+
+00:12:34.031 --> 00:12:36.111
+Chris Anderson: Noriko, thank you.
+
+00:12:36.135 --> 00:12:37.900
+Noriko Arai: Thank you.
+
+00:12:37.924 --> 00:12:43.228
+CA: In your talk, you so beautifully
+give us a sense of how AIs think,
+
+00:12:43.252 --> 00:12:44.816
+what they can do amazingly
+
+00:12:44.840 --> 00:12:46.535
+and what they can't do.
+
+00:12:46.559 --> 00:12:48.053
+But -- do I read you right,
+
+00:12:48.077 --> 00:12:53.347
+that you think we really need
+quite an urgent revolution in education
+
+00:12:53.371 --> 00:12:57.526
+to help kids do the things
+that humans can do better than AIs?
+
+00:12:57.550 --> 00:12:58.878
+NA: Yes, yes, yes.
+
+00:12:58.902 --> 00:13:02.937
+Because we humans
+can understand the meaning.
+
+00:13:02.961 --> 00:13:07.867
+That is something
+which is very, very lacking in AI.
+
+00:13:07.891 --> 00:13:12.259
+But most of the students
+just pack the knowledge
+
+00:13:12.283 --> 00:13:16.186
+without understanding
+the meaning of the knowledge,
+
+00:13:16.210 --> 00:13:19.019
+so that is not knowledge,
+that is just memorizing,
+
+00:13:19.043 --> 00:13:21.493
+and AI can do the same thing.
+
+00:13:21.517 --> 00:13:25.148
+So we have to think about
+a new type of education.
+
+00:13:25.172 --> 00:13:28.461
+CA: A shift from knowledge,
+rote knowledge, to meaning.
+
+00:13:28.485 --> 00:13:29.636
+NA: Mm-hmm.
+
+00:13:29.660 --> 00:13:32.900
+CA: Well, there's a challenge
+for the educators. Thank you so much.
+
+00:13:32.924 --> 00:13:34.622
+NA: Thank you very much. Thank you.
+
+00:13:34.646 --> 00:13:35.831
+(Applause)
+

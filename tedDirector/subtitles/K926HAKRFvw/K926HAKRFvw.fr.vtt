@@ -1,0 +1,1102 @@
+WEBVTT
+Kind: captions
+Language: fr
+
+00:00:00.000 --> 00:00:07.000
+Traducteur: Meryl Ducray
+Relecteur: Claire Ghyselen
+
+00:00:12.760 --> 00:00:14.600
+Voici Pleurobot.
+
+00:00:15.400 --> 00:00:17.470
+Pleurobot est un robot 
+que nous avons conçu
+
+00:00:17.470 --> 00:00:21.180
+pour imiter une espèce de salamandre
+appelée Pleurodèle de Waltl.
+
+00:00:21.180 --> 00:00:23.466
+Pleurobot peut marcher, 
+comme vous le voyez ici,
+
+00:00:23.466 --> 00:00:26.050
+et comme vous le verrez plus tard,
+il peut aussi nager.
+
+00:00:26.050 --> 00:00:29.191
+Vous vous demandez certainement
+pourquoi nous avons conçu ce robot.
+
+00:00:29.191 --> 00:00:33.020
+En fait, ce robot est outil scientifique
+pour les neurosciences.
+
+00:00:33.020 --> 00:00:36.006
+Nous l'avons conçu en collaboration 
+avec des neurobiologistes
+
+00:00:36.006 --> 00:00:38.106
+pour comprendre 
+comment les animaux bougent,
+
+00:00:38.106 --> 00:00:41.500
+particulièrement, comment la moelle
+épinière contrôle la locomotion.
+
+00:00:41.500 --> 00:00:43.160
+Plus je travaille en biorobotique,
+
+00:00:43.160 --> 00:00:46.021
+plus je suis impressionné
+par la locomotion chez les animaux.
+
+00:00:46.021 --> 00:00:50.030
+Imaginez un dauphin qui nage, 
+ou un chat qui court ou saute,
+
+00:00:50.030 --> 00:00:52.826
+ou même nous en tant qu'humains,
+quand on court
+
+00:00:52.826 --> 00:00:55.890
+ou on joue au tennis,
+nous faisons des choses étonnantes.
+
+00:00:55.890 --> 00:01:00.000
+Notre système nerveux résout
+un problème de contrôle très compliqué.
+
+00:01:00.000 --> 00:01:03.120
+Il doit coordonner parfaitement 
+environ 200 muscles,
+
+00:01:03.120 --> 00:01:07.560
+car si la coordination est mauvaise, 
+on tombe, ou on fait un mauvais mouvement.
+
+00:01:07.560 --> 00:01:11.150
+Mon objectif est de comprendre
+comment tout cela fonctionne.
+
+00:01:11.160 --> 00:01:14.680
+Il y a quatre principaux éléments
+pour la locomotion animale.
+
+00:01:14.680 --> 00:01:16.650
+Le premier élément, c'est juste le corps.
+
+00:01:16.650 --> 00:01:19.696
+En fait, nous ne devrions jamais
+sous-estimer dans quelle mesure
+
+00:01:19.696 --> 00:01:22.810
+la biomécanique simplifie déjà 
+la locomotion chez les animaux.
+
+00:01:22.810 --> 00:01:24.616
+Ensuite, vous avez la moelle épinière,
+
+00:01:24.616 --> 00:01:27.046
+et dans la moelle épinière, 
+on trouve les réflexes,
+
+00:01:27.046 --> 00:01:30.426
+de multiples réflexes qui créent 
+une boucle de coordination de capteurs
+
+00:01:30.426 --> 00:01:34.000
+entre l'activité neurale dans la moelle
+épinière et l'activité mécanique.
+
+00:01:34.000 --> 00:01:37.136
+Un troisième élément est constitué
+des réseaux locomoteurs spinaux.
+
+00:01:37.136 --> 00:01:40.810
+Ce sont des circuits très intéressants 
+dans la moelle épinière des vertébrés,
+
+00:01:40.810 --> 00:01:42.666
+qui peuvent générer de manière autonome
+
+00:01:42.666 --> 00:01:44.746
+des activations rythmiques 
+très coordonnées
+
+00:01:44.746 --> 00:01:47.610
+alors qu'ils ne reçoivent 
+que des informations très simples.
+
+00:01:47.610 --> 00:01:51.390
+Ces informations venant de modulation
+descendante des parties hautes du cerveaux
+
+00:01:51.390 --> 00:01:54.336
+comme le cortex moteur, le cervelet, 
+les ganglions de la base,
+
+00:01:54.336 --> 00:01:56.856
+vont toutes moduler l'activité 
+de la moelle épinière
+
+00:01:56.856 --> 00:01:58.306
+lorsque nous bougeons.
+
+00:01:58.306 --> 00:02:01.636
+Mais ce qui est intéressant, 
+c'est à quel point un tout petit élément,
+
+00:02:01.636 --> 00:02:03.256
+la moelle épinière, avec le corps,
+
+00:02:03.256 --> 00:02:05.920
+peut déjà résoudre beaucoup 
+des problèmes de locomotion.
+
+00:02:05.920 --> 00:02:08.442
+Vous savez que vous pouvez
+couper la tête d'un poulet
+
+00:02:08.442 --> 00:02:09.873
+et il peut continuer à courir,
+
+00:02:09.873 --> 00:02:13.346
+montrant ainsi que juste la partie basse, 
+la moelle épinière et le corps,
+
+00:02:13.346 --> 00:02:15.923
+peut résoudre une grande part 
+de la locomotion.
+
+00:02:15.923 --> 00:02:18.606
+Comprendre le fonctionnement
+est très compliqué,
+
+00:02:18.606 --> 00:02:21.800
+car enregistrer l'activité de la moelle
+épinière est très difficile.
+
+00:02:21.800 --> 00:02:25.026
+Il est plus simple d'implanter
+des électrodes dans le cortex moteur
+
+00:02:25.026 --> 00:02:27.846
+que dans la moelle 
+car elle est protégée par les vertèbres.
+
+00:02:27.846 --> 00:02:29.676
+Spécialement chez les humains.
+
+00:02:29.676 --> 00:02:32.296
+Une deuxième difficulté 
+est que la locomotion est due
+
+00:02:32.296 --> 00:02:36.392
+à une interaction très compliquée 
+et très dynamique entre les 4 éléments.
+
+00:02:36.392 --> 00:02:40.202
+Donc il est très difficile de comprendre 
+le rôle de chacun dans le temps.
+
+00:02:40.880 --> 00:02:44.616
+C'est là que les robots comme Pleurobots 
+et les modèles mathématiques
+
+00:02:44.616 --> 00:02:46.316
+peuvent réellement aider.
+
+00:02:47.030 --> 00:02:48.766
+Donc qu'est-ce que la biorobotique ?
+
+00:02:48.766 --> 00:02:51.476
+C'est un domaine très dynamique
+de recherche en robotique
+
+00:02:51.476 --> 00:02:54.006
+dans lequel les gens veulent
+s'inspirer des animaux
+
+00:02:54.006 --> 00:02:56.456
+pour construire
+des robots de tous les jours
+
+00:02:56.456 --> 00:02:59.112
+comme des robots d'assistance 
+ou de sauvetage,
+
+00:02:59.112 --> 00:03:00.800
+ou des robots de terrain.
+
+00:03:00.800 --> 00:03:02.856
+L'objectif est de s'inspirer des animaux
+
+00:03:02.856 --> 00:03:06.112
+pour concevoir des robots 
+capables de supporter un terrain compliqué
+
+00:03:06.112 --> 00:03:09.756
+escalier, montagne, forêt, endroits
+où les robots ont encore des difficultés
+
+00:03:09.756 --> 00:03:12.046
+et où les animaux se débrouille mieux.
+
+00:03:12.046 --> 00:03:14.576
+Le robot peut être 
+un outil scientifique fantastique.
+
+00:03:14.576 --> 00:03:15.770
+Il existe des projets
+
+00:03:15.770 --> 00:03:18.670
+dans lesquels on utilise les robots
+comme outils scientifiques
+
+00:03:18.680 --> 00:03:21.350
+en neurosciences, en biomécaniques
+ou en hydrodynamique.
+
+00:03:21.350 --> 00:03:23.390
+C'est l'objectif de Pleurobot.
+
+00:03:23.390 --> 00:03:26.826
+Dans mon laboratoire, nous collaborons 
+avec des neurobiologistes
+
+00:03:26.826 --> 00:03:29.776
+comme Jean-Marie Cabelguen, 
+un neurobiologiste de Bordeaux,
+
+00:03:29.776 --> 00:03:32.256
+et nous voulons créer 
+des modèles de moelle épinière
+
+00:03:32.256 --> 00:03:35.492
+et les valider sur des robots.
+Ici, nous voulons commencer simple.
+
+00:03:35.492 --> 00:03:37.918
+Donc au début, on commence 
+avec des animaux simples
+
+00:03:37.918 --> 00:03:40.254
+comme les lamproies, 
+des poissons très primitifs,
+
+00:03:40.254 --> 00:03:43.056
+et, graduellement, on passe 
+à une locomotion plus complexe,
+
+00:03:43.056 --> 00:03:47.876
+comme chez les salamandres, les chats,
+les humains, et les mammifères.
+
+00:03:47.880 --> 00:03:50.256
+Un robot devient un outil intéressant
+
+00:03:50.256 --> 00:03:52.192
+pour valider nos modèles.
+
+00:03:52.192 --> 00:03:55.208
+Pour moi, Pleurobot est 
+comme un rêve devenu réalité.
+
+00:03:55.208 --> 00:03:58.024
+Il y a environ 20 ans, 
+je travaillais déjà sur ordinateur
+
+00:03:58.024 --> 00:04:01.120
+pour créer des simulations
+de locomotion de lamproie et salamandre
+
+00:04:01.120 --> 00:04:02.586
+pour ma thèse.
+
+00:04:02.586 --> 00:04:06.152
+Mais j'ai toujours su que mes simulations 
+n'étaient que des approximations.
+
+00:04:06.152 --> 00:04:09.608
+Simuler la physique de l'eau,
+de la vase ou de terrain complexe,
+
+00:04:09.608 --> 00:04:12.794
+c'est très compliqué de simuler tout ça
+correctement sur ordinateur.
+
+00:04:12.794 --> 00:04:15.844
+Pourquoi ne pas avoir un vrai robot
+et de vraies lois physiques ?
+
+00:04:15.844 --> 00:04:18.746
+Parmi tous ces animaux,
+l'un de mes favoris est la salamandre.
+
+00:04:18.746 --> 00:04:22.192
+Si vous vous demandez pourquoi, 
+c'est parce qu'en tant qu'amphibien,
+
+00:04:22.192 --> 00:04:24.728
+c'est un animal clé 
+d'un point de vue de l'évolution.
+
+00:04:24.728 --> 00:04:26.504
+Il crée un lien parfait entre la nage
+
+00:04:26.504 --> 00:04:29.280
+que vous pouvez retrouver
+chez les anguilles et poissons,
+
+00:04:29.280 --> 00:04:31.030
+et la locomotion quadrupède,
+
+00:04:31.030 --> 00:04:34.160
+comme chez les mammifères,
+les chats et les humains.
+
+00:04:34.160 --> 00:04:37.656
+En fait, la salamandre est très proche
+des premiers vertébrés terrestres,
+
+00:04:37.656 --> 00:04:41.620
+elle est presque un fossile vivant
+qui nous donne accès à nos ancêtres,
+
+00:04:41.620 --> 00:04:44.680
+l'ancêtre 
+de tous les tétrapodes terrestres.
+
+00:04:45.260 --> 00:04:48.036
+La salamandre nage
+en faisant la nage de l'anguille,
+
+00:04:48.036 --> 00:04:53.296
+elle utilise une jolie vague d'activité 
+musculaire depuis la tête jusqu'à la queue
+
+00:04:53.320 --> 00:04:55.186
+Si vous posez la salamandre sur le sol,
+
+00:04:55.186 --> 00:04:57.682
+elle change pour ce qu'on appelle le trot.
+
+00:04:57.682 --> 00:05:00.815
+Dans ce cas, vous avez 
+une activation périodique des membres,
+
+00:05:00.815 --> 00:05:05.054
+qui sont très bien coordonnés
+avec la vague d'ondulation du corps.
+
+00:05:05.054 --> 00:05:08.736
+C'est exactement le déplacement 
+que vous pouvez voir ici chez Pleurobot.
+
+00:05:08.736 --> 00:05:11.712
+Une chose très surprenante 
+et en fait fascinante,
+
+00:05:11.712 --> 00:05:15.648
+c'est que tout cela peut être généré 
+juste par la moelle épinière et le corps.
+
+00:05:15.648 --> 00:05:17.838
+Donc si vous prenez 
+une salamandre décérébrée,
+
+00:05:17.848 --> 00:05:20.194
+ce n'est pas très joli, 
+vous lui retirez la tête,
+
+00:05:20.194 --> 00:05:22.776
+et que vous stimulez électriquement
+la moelle épinière,
+
+00:05:22.776 --> 00:05:26.202
+à un niveau faible de stimulation, 
+cela induit un déplacement de marche.
+
+00:05:26.202 --> 00:05:28.878
+Si vous stimulez un peu plus, 
+le déplacement s'accélère.
+
+00:05:28.878 --> 00:05:30.604
+A un moment, vous atteignez un seuil
+
+00:05:30.604 --> 00:05:34.430
+et l'animal passe automatiquement
+à la nage. C'est incroyable !
+
+00:05:34.430 --> 00:05:36.236
+En changeant seulement la stimulation,
+
+00:05:36.236 --> 00:05:38.472
+comme si vous pressiez 
+la pédale d'accélérateur
+
+00:05:38.472 --> 00:05:41.056
+de la modulation descendante 
+de votre moelle épinière,
+
+00:05:41.056 --> 00:05:44.120
+on crée un passage total 
+entre 2 déplacements très différents.
+
+00:05:44.120 --> 00:05:46.126
+La même chose est observée chez le chat
+
+00:05:46.126 --> 00:05:48.282
+En stimulant la moelle
+épinière d'un chat,
+
+00:05:48.282 --> 00:05:50.858
+vous pouvez passer de la marche, 
+au trot et au gallop.
+
+00:05:50.858 --> 00:05:53.764
+Ou chez les oiseaux, vous pouvez 
+le faire passer de la marche
+
+00:05:53.764 --> 00:05:55.530
+avec un faible niveau de stimulation,
+
+00:05:55.530 --> 00:05:58.346
+au battement d'ailes 
+avec un haut niveau de stimulation.
+
+00:05:58.346 --> 00:06:00.492
+Cela montre réellement 
+que la moelle épinière
+
+00:06:00.492 --> 00:06:02.778
+est un contrôle de locomotion 
+très sophistiqué.
+
+00:06:02.778 --> 00:06:05.394
+Nous étudions la locomotion 
+de la salamandre en détails
+
+00:06:05.394 --> 00:06:08.330
+et avons accès à une machine 
+d'enregistrement radiographique
+
+00:06:08.330 --> 00:06:11.906
+du Professeur Martin Fischer 
+à l'Université Jena en Allemagne.
+
+00:06:11.906 --> 00:06:14.482
+Grâce à ça, vous avez 
+une incroyable machine
+
+00:06:14.482 --> 00:06:17.048
+pour enregistrer le mouvement
+avec beaucoup de détails.
+
+00:06:17.048 --> 00:06:18.434
+C'est ce que nous avons fait.
+
+00:06:18.434 --> 00:06:21.370
+Nous avons donc compris 
+quels os étaient importants pour nous
+
+00:06:21.370 --> 00:06:24.386
+et nous avons récupéré 
+leur mouvement en 3D.
+
+00:06:24.386 --> 00:06:26.682
+Nous avons créé
+une base de données de mouvements
+
+00:06:26.682 --> 00:06:28.338
+sur la terre et dans l'eau,
+
+00:06:28.338 --> 00:06:31.432
+pour créer une base de données
+complètes des comportements moteurs
+
+00:06:31.432 --> 00:06:32.963
+qu'un vrai animal peut utiliser.
+
+00:06:32.963 --> 00:06:36.048
+Notre travail consiste à reproduire
+ça dans notre robot.
+
+00:06:36.048 --> 00:06:38.541
+On a utilisé un processus
+d'optimisation pour trouver
+
+00:06:38.541 --> 00:06:42.387
+la bonne structure, où placer les moteurs,
+comment les connecter ensemble
+
+00:06:42.387 --> 00:06:45.560
+pour reproduire ces mouvements 
+aussi bien que possible.
+
+00:06:45.560 --> 00:06:48.220
+Et c'est ainsi que Pleurobot 
+est venu au monde.
+
+00:06:49.200 --> 00:06:52.066
+Regardons à quel point 
+il est proche du vrai animal.
+
+00:06:52.900 --> 00:06:55.626
+Ce que vous voyez ici 
+est presque une comparaison directe
+
+00:06:55.626 --> 00:06:58.176
+entre la marche du vrai animal 
+et celle de Pleurobot.
+
+00:06:58.176 --> 00:07:01.862
+Vous pouvez voir que nous avez presque
+une reproduction parfaite de la marche.
+
+00:07:01.862 --> 00:07:05.240
+Si vous allez en arrière lentement, 
+vous pouvez le voir encore mieux.
+
+00:07:07.520 --> 00:07:09.896
+Mais encore mieux, 
+on peut reproduire la nage.
+
+00:07:09.896 --> 00:07:12.912
+Pour ça, on a une combinaison étanche 
+que l'on met au robot
+
+00:07:12.912 --> 00:07:14.008
+(Rires)
+
+00:07:14.008 --> 00:07:17.204
+ensuite on peut aller dans l'eau 
+et commencer à reproduire la nage.
+
+00:07:17.204 --> 00:07:20.600
+Nous étions extrêmement contents
+car c'était difficile.
+
+00:07:20.600 --> 00:07:22.606
+La physique d'interaction est compliquée.
+
+00:07:22.606 --> 00:07:25.182
+Notre robot est beaucoup plus grand 
+qu'un petit animal
+
+00:07:25.182 --> 00:07:27.758
+donc nous avons du faire
+un redimensionnement dynamique
+
+00:07:27.758 --> 00:07:30.794
+pour garantir les mêmes
+interactions physiques.
+
+00:07:30.794 --> 00:07:33.366
+Mais à la fin, nous avons 
+une association très proche,
+
+00:07:33.366 --> 00:07:35.400
+et nous en sommes extrêmement contents.
+
+00:07:35.400 --> 00:07:37.616
+Regardons maintenant la moelle épinière.
+
+00:07:37.616 --> 00:07:39.962
+Ce que nous avons fait 
+avec Jean-Marie Cabelguen,
+
+00:07:39.962 --> 00:07:42.802
+c'est modéliser 
+les circuits de la moelle épinière.
+
+00:07:42.802 --> 00:07:45.200
+Ce qui est intéressant, 
+c'est que la salamandre
+
+00:07:45.200 --> 00:07:48.670
+a gardé un circuit très primitif, 
+très similaire de celui de la lamproie,
+
+00:07:48.670 --> 00:07:50.998
+ce poisson primitif
+qui ressemble à une anguille
+
+00:07:50.998 --> 00:07:54.330
+Il semble que durant son évolution,
+de nouveaux oscillateurs neuronaux
+
+00:07:54.330 --> 00:07:58.190
+ont été ajoutés pour contrôler les membres
+pour produire la locomotion des jambes.
+
+00:07:58.190 --> 00:07:59.960
+Nous savons où ceux-ci se situent,
+
+00:07:59.970 --> 00:08:01.986
+mais nous avons créé
+un modèle mathématique
+
+00:08:01.986 --> 00:08:04.112
+pour voir comment
+ils devraient être couplés
+
+00:08:04.112 --> 00:08:07.296
+pour permettre la transition 
+entre 2 déplacements très différents.
+
+00:08:07.296 --> 00:08:11.816
+Nous avons testé cela sur un robot.
+Voilà ce que ça donne.
+
+00:08:18.800 --> 00:08:21.936
+Ce que vous voyez ici 
+est une version antérieure de Pleurobot
+
+00:08:21.936 --> 00:08:25.032
+qui est entièrement contrôlée
+par notre modèle de moelle épinière
+
+00:08:25.032 --> 00:08:27.030
+programmé sur le robot.
+
+00:08:27.030 --> 00:08:30.816
+Et la seule chose que nous faisons est 
+d'envoyer au robot via une télécommande
+
+00:08:30.816 --> 00:08:33.668
+les 2 signaux descendants 
+qu'il devrait normalement recevoir
+
+00:08:33.668 --> 00:08:35.360
+de la part supérieure du cerveau.
+
+00:08:35.360 --> 00:08:38.116
+Ce qui est intéressant 
+c'est qu'en jouant avec ces signaux
+
+00:08:38.116 --> 00:08:41.566
+on peut contrôler vitesse,
+direction et type de déplacements.
+
+00:08:41.566 --> 00:08:45.812
+Par exemple, quand nous stimulons 
+à faible niveau, nous avons de la marche,
+
+00:08:45.812 --> 00:08:48.128
+et à un certain point, 
+si nous stimulons plus,
+
+00:08:48.128 --> 00:08:50.538
+très rapidement on passe à la nage.
+
+00:08:51.480 --> 00:08:53.696
+Et finalement, on peut faire des virages
+
+00:08:53.696 --> 00:08:57.216
+en stimulant un peu plus un côté 
+de la moelle épinière que l'autre.
+
+00:08:58.200 --> 00:08:59.606
+Je pense que c'est magnifique
+
+00:08:59.606 --> 00:09:01.592
+comment la nature a distribué le contrôle
+
+00:09:01.592 --> 00:09:04.398
+pour donner beaucoup de responsabilités
+à la moelle épinière
+
+00:09:04.398 --> 00:09:08.454
+afin que la partie haute du cerveau n'ait 
+pas besoin de gérer chaque muscle.
+
+00:09:08.454 --> 00:09:11.120
+Elle a juste à penser 
+à la modulation à un niveau global
+
+00:09:11.120 --> 00:09:14.696
+et c'est réellement à la moelle épinière
+de coordonner tous les muscles.
+
+00:09:14.696 --> 00:09:19.026
+Maintenant passons à la locomotion du chat
+et à l'importance de la biomécanique.
+
+00:09:19.026 --> 00:09:20.336
+Ceci est un autre projet
+
+00:09:20.336 --> 00:09:23.047
+pour lequel nous étudions
+les biomécaniques du chat.
+
+00:09:23.047 --> 00:09:26.533
+Nous voulions voir
+combien la morphologie aide la locomotion.
+
+00:09:26.533 --> 00:09:31.729
+Et nous avons trouvé 3 propriétés
+ou critères importants des jambes.
+
+00:09:32.439 --> 00:09:34.114
+Le premier est que la jambe du chat
+
+00:09:34.114 --> 00:09:36.993
+ressemble plus ou moins 
+à un structure du style pantographe.
+
+00:09:36.993 --> 00:09:39.413
+Un pantographe est une structure mécanique
+
+00:09:39.413 --> 00:09:42.986
+qui garde les segments supérieur
+et inférieur toujours parallèles.
+
+00:09:43.633 --> 00:09:46.215
+Donc un simple système géométrique
+qui coordonne un peu
+
+00:09:46.215 --> 00:09:48.772
+le mouvement interne des segments.
+
+00:09:48.772 --> 00:09:51.634
+Une deuxième propriété
+des membres du chat est sa légèreté.
+
+00:09:51.634 --> 00:09:55.055
+La plupart des muscles sont dans le tronc,
+ce qui est une bonne idée car,
+
+00:09:55.055 --> 00:09:58.620
+les membres ont alors une faible inertie,
+et peuvent bouger très rapidement.
+
+00:09:58.620 --> 00:10:02.400
+La dernière propriété importante est
+ce comportement très élastique du membre
+
+00:10:02.400 --> 00:10:04.770
+afin de pouvoir supporter 
+les impacts et forces.
+
+00:10:04.770 --> 00:10:07.241
+Et c'est comme cela
+que nous avons conçu Cheetah-Cub.
+
+00:10:07.241 --> 00:10:09.656
+Invitons maintenant Cheetah-Cub sur scène.
+
+00:10:14.169 --> 00:10:17.771
+Voici Peter Eckert
+qui fait sa thèse sur ce robot.
+
+00:10:17.771 --> 00:10:20.677
+Ce robot est très mignon.
+Il ressemble un peu à un jouet
+
+00:10:20.677 --> 00:10:23.098
+mais il est utilisé
+comme outil scientifique
+
+00:10:23.098 --> 00:10:26.534
+pour comprendre
+les propriétés de la jambe des chats.
+
+00:10:26.534 --> 00:10:29.402
+Vous pouvez voir que c'est très similaire,
+très léger,
+
+00:10:29.402 --> 00:10:30.750
+et aussi très élastique.
+
+00:10:30.750 --> 00:10:33.743
+Donc vous pouvez facilement
+appuyer dessus et il ne cassera pas.
+
+00:10:33.743 --> 00:10:35.728
+En fait, il va juste sauter.
+
+00:10:35.728 --> 00:10:39.095
+Et cette propriété d'élasticité 
+est très importante.
+
+00:10:39.095 --> 00:10:41.462
+Vous pouvez voir un peu des propriétés
+
+00:10:41.462 --> 00:10:44.454
+de ces trois segments de la jambe
+en pantographe.
+
+00:10:44.454 --> 00:10:47.264
+Ce déplacement plutôt dynamique
+
+00:10:47.264 --> 00:10:49.185
+est obtenu purement en boucle ouverte,
+
+00:10:49.185 --> 00:10:52.512
+ce qui veut dire pas de capteurs,
+pas de boucles de capteurs complexes.
+
+00:10:52.512 --> 00:10:54.774
+C'est intéressant parce que cela veut dire
+
+00:10:54.774 --> 00:10:58.780
+que la mécanique stabilise déjà
+ce déplacement plutôt rapide
+
+00:10:58.780 --> 00:11:02.992
+et que les bonnes mécaniques
+simplifient déjà la locomotion.
+
+00:11:02.992 --> 00:11:05.897
+A tel point que l'on peut perturber
+un peu la locomotion,
+
+00:11:05.897 --> 00:11:08.049
+comme vous le verrez 
+dans la prochaine video,
+
+00:11:08.049 --> 00:11:11.743
+où par exemple on fait des exercices,
+où le robot descend une marche,
+
+00:11:11.743 --> 00:11:15.026
+et le robot ne va pas tomber,
+ce qui nous a surpris.
+
+00:11:15.026 --> 00:11:16.553
+Voici une petite perturbation.
+
+00:11:16.553 --> 00:11:19.028
+Je m'attendais à ce que le robot
+tombe immédiatement,
+
+00:11:19.028 --> 00:11:21.882
+car il n'y a pas de capteurs, 
+ni de boucle de retour rapide.
+
+00:11:21.882 --> 00:11:24.088
+Mais non, la mécanique
+stabilise le déplacement
+
+00:11:24.088 --> 00:11:26.023
+et le robot ne tombe pas.
+
+00:11:26.023 --> 00:11:28.761
+Si la marche est plus haute,
+et qu'il y a des obstacles,
+
+00:11:28.761 --> 00:11:32.304
+vous avez besoin des boucles de capteurs
+et réflexes et tout.
+
+00:11:32.304 --> 00:11:34.829
+L'important,
+c'est que pour une petite perturbation
+
+00:11:34.829 --> 00:11:36.790
+les mécaniques suffisent.
+
+00:11:36.790 --> 00:11:38.886
+Je pense que c'est un message
+très important
+
+00:11:38.886 --> 00:11:41.224
+de la biomécanique et robotique
+à la neuroscience,
+
+00:11:41.224 --> 00:11:45.818
+de dire: « Ne sous-estime pas à quel point
+le corps aide déjà à la locomotion ».
+
+00:11:47.293 --> 00:11:49.956
+Maintenant, quel est le lien
+avec la locomotion humaine ?
+
+00:11:49.956 --> 00:11:52.431
+Clairement, la locomotion humaine
+est plus compliquée
+
+00:11:52.431 --> 00:11:54.327
+que celles du chat et de la salamandre.
+
+00:11:54.327 --> 00:11:57.605
+Mais en même temps, le système nerveux 
+des humains est très similaire
+
+00:11:57.605 --> 00:11:59.145
+de celui des autres vertébrés.
+
+00:11:59.145 --> 00:12:01.638
+Tout particulièrement,
+la moelle épinière est aussi
+
+00:12:01.638 --> 00:12:04.016
+le contrôle-clé de la locomotion 
+chez les humains.
+
+00:12:04.016 --> 00:12:07.820
+C'est pourquoi, une lésion de la moelle
+épinière a des effets dramatiques.
+
+00:12:07.820 --> 00:12:10.553
+La personne peut devenir paraplégique
+ou tétraplégique.
+
+00:12:10.553 --> 00:12:14.116
+Tout ça parce que le cerveau perd 
+la communication avec la moelle épinière.
+
+00:12:14.116 --> 00:12:16.331
+Il perd la modulation descendante
+
+00:12:16.331 --> 00:12:19.450
+pour initier et moduler la locomotion.
+
+00:12:19.450 --> 00:12:21.786
+Donc un objectif important
+de la neuroprosthétique
+
+00:12:21.786 --> 00:12:23.740
+est de pouvoir réactiver la communication
+
+00:12:23.740 --> 00:12:26.740
+en utilisant des stimulations 
+électriques et chimiques.
+
+00:12:26.740 --> 00:12:29.770
+Plusieurs équipes à travers le monde
+recherchent exactement ça,
+
+00:12:29.770 --> 00:12:31.056
+et particulièrement à EPFL,
+
+00:12:31.056 --> 00:12:33.520
+mes collègues Grégoire Courtine
+et Silvestro Micera,
+
+00:12:33.520 --> 00:12:35.120
+avec qui je travaille.
+
+00:12:35.870 --> 00:12:38.940
+Mais pour faire cela correctement,
+il est important de comprendre
+
+00:12:38.940 --> 00:12:40.816
+comment la moelle épinière fonctionne,
+
+00:12:40.816 --> 00:12:42.592
+comment elle interagit avec le corps,
+
+00:12:42.592 --> 00:12:45.480
+et comment le cerveau communique
+avec la moelle épinière.
+
+00:12:45.480 --> 00:12:48.806
+C'est là que les robots et modèles
+que je vous ai présentés aujourd'hui
+
+00:12:48.806 --> 00:12:50.946
+vont, avec un peu de chance,
+jouer un rôle-clé
+
+00:12:50.946 --> 00:12:53.350
+pour atteindre ces objectifs
+si importants.
+
+00:12:53.350 --> 00:12:54.226
+Merci
+
+00:12:54.226 --> 00:12:57.226
+(Applaudissement)
+
+00:13:03.690 --> 00:13:06.786
+Bruno Giussani: Auke, j'ai vu
+dans ton laboratoire d'autres robots
+
+00:13:06.786 --> 00:13:09.192
+qui font des choses
+comme nager dans la pollution,
+
+00:13:09.192 --> 00:13:11.648
+et mesurer la pollution en nageant.
+
+00:13:11.648 --> 00:13:12.864
+Mais pour celui-ci,
+
+00:13:12.864 --> 00:13:17.454
+tu as mentionné dans ton discours
+un projet secondaire,
+
+00:13:17.454 --> 00:13:18.830
+le sauvetage,
+
+00:13:18.830 --> 00:13:21.056
+et il a une caméra sur le museau.
+
+00:13:21.056 --> 00:13:22.635
+Auke Ijspeert: Absolument.
+
+00:13:22.635 --> 00:13:24.941
+Nous avons plusieurs projects secondaires
+
+00:13:24.941 --> 00:13:28.464
+dans lesquels nous aimerions utiliser 
+les robots pour l'aide au sauvetage,
+
+00:13:28.464 --> 00:13:30.270
+donc ce robot est en train de te voir.
+
+00:13:30.270 --> 00:13:33.046
+Le rêve ultime c'est que,
+si on a une situation difficile
+
+00:13:33.046 --> 00:13:37.092
+comme un immeuble effondré or innondé,
+et qu'il est très dangereux d'envoyer
+
+00:13:37.092 --> 00:13:39.788
+une équipe de sauvetage 
+ou même des chiens de sauvetage,
+
+00:13:39.788 --> 00:13:42.834
+pourquoi ne pas envoyer un robot
+qui peut ramper, nager, marcher,
+
+00:13:42.834 --> 00:13:46.310
+équipé d'une caméra pour inspecter,
+identifier des survivants,
+
+00:13:46.310 --> 00:13:48.686
+et potentiellement créer
+un moyen de communication.
+
+00:13:48.686 --> 00:13:52.820
+BG: En supposant que les survivants
+ne soient pas effrayés par ça.
+
+00:13:52.820 --> 00:13:55.916
+AI: Oui, nous devrions probablement
+changer un peu son apparence
+
+00:13:55.916 --> 00:13:59.102
+car pour l'instant, un survivant 
+pourrait avoir une crise cardiaque
+
+00:13:59.102 --> 00:14:01.438
+juste en se demandant 
+si ce truc veut le manger.
+
+00:14:01.438 --> 00:14:04.344
+Mais en changeant son apparence
+et en le rendant plus robuste,
+
+00:14:04.344 --> 00:14:06.690
+je suis sur que l'on peut 
+en faire un bon outils.
+
+00:14:06.690 --> 00:14:08.760
+BG: Merci à toi et ton équipe
+

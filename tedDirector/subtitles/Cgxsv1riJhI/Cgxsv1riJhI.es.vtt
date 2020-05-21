@@ -1,0 +1,510 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Lidia Cámara de la Fuente
+Revisor: Sebastian Betti
+
+00:00:11.960 --> 00:00:14.916
+Hace diez años los investigadores 
+de la visión artificial
+
+00:00:14.916 --> 00:00:16.896
+pensaban que hacer que una computadora
+
+00:00:16.896 --> 00:00:19.316
+distinguiera un gato de un perro
+
+00:00:19.340 --> 00:00:21.316
+sería casi imposible,
+
+00:00:21.340 --> 00:00:25.036
+incluso con el avance significativo 
+de la inteligencia artificial.
+
+00:00:25.060 --> 00:00:28.620
+Ahora podemos hacerlo con un nivel 
+superior al 99 % de precisión.
+
+00:00:29.500 --> 00:00:31.356
+Esto se llama clasificación de imagen.
+
+00:00:31.380 --> 00:00:34.476
+Esto es, poner una etiqueta a esa imagen.
+
+00:00:34.500 --> 00:00:37.540
+Y las computadoras conocen miles 
+de otras categorías también.
+
+00:00:38.380 --> 00:00:41.260
+Soy estudiante de posgrado 
+en la Universidad de Washington,
+
+00:00:41.260 --> 00:00:43.316
+y trabajo en un proyecto llamado Darknet,
+
+00:00:43.340 --> 00:00:45.036
+que es un framework de red neuronal
+
+00:00:45.060 --> 00:00:48.386
+para la capacitación y ensayo 
+de modelos de visión artificial,
+
+00:00:48.386 --> 00:00:50.876
+Así que veamos lo que piensa Darknet
+
+00:00:50.900 --> 00:00:52.660
+de esta imagen que tenemos aquí.
+
+00:00:54.340 --> 00:00:56.610
+Cuando ejecutamos nuestro clasificador
+
+00:00:56.610 --> 00:00:57.500
+en esta imagen,
+
+00:00:57.500 --> 00:01:00.390
+vemos que no solo se obtiene 
+una predicción de perro o gato,
+
+00:01:00.390 --> 00:01:03.166
+en realidad, obtenemos 
+predicciones de raza específicas.
+
+00:01:03.166 --> 00:01:05.266
+Ese es el nivel de granularidad actual.
+
+00:01:05.266 --> 00:01:06.596
+Y es correcto.
+
+00:01:06.620 --> 00:01:08.460
+Mi perro es de hecho un malamute.
+
+00:01:08.860 --> 00:01:13.196
+Hemos hecho avances increíbles 
+en la clasificación de imágenes,
+
+00:01:13.220 --> 00:01:15.550
+pero ¿qué pasa 
+al ejecutar nuestro clasificador
+
+00:01:15.550 --> 00:01:17.394
+en una imagen así?
+
+00:01:18.900 --> 00:01:20.100
+Bien...
+
+00:01:24.460 --> 00:01:28.356
+Vemos que el clasificador vuelve 
+con una predicción bastante similar.
+
+00:01:28.380 --> 00:01:31.476
+Y es correcto, 
+hay un malamute en la imagen,
+
+00:01:31.500 --> 00:01:35.196
+pero solo con esta etiqueta, 
+en realidad, no sabemos mucho
+
+00:01:35.220 --> 00:01:36.887
+sobre lo que pasa en la imagen.
+
+00:01:36.911 --> 00:01:38.471
+Necesitamos algo más potente.
+
+00:01:38.960 --> 00:01:41.480
+Trabajo en un problema 
+llamado detección de objetos,
+
+00:01:41.480 --> 00:01:44.640
+donde miramos una imagen e 
+intentamos encontrar todos los objetos,
+
+00:01:44.640 --> 00:01:46.916
+poniendo cajas delimitadoras 
+alrededor de ellos
+
+00:01:46.916 --> 00:01:48.500
+y averiguar qué son esos objetos.
+
+00:01:48.500 --> 00:01:52.080
+Así que esto es lo que ocurre 
+al ejecutar un detector en esta imagen.
+
+00:01:52.890 --> 00:01:54.880
+Ahora, con este tipo de resultado,
+
+00:01:54.880 --> 00:01:58.366
+podemos hacer mucho más con nuestros 
+algoritmos de visión artificial.
+
+00:01:58.366 --> 00:02:01.036
+Vemos que sabe que hay un gato y un perro.
+
+00:02:01.060 --> 00:02:03.316
+Conoce sus ubicaciones relativas,
+
+00:02:03.340 --> 00:02:04.556
+su tamaño.
+
+00:02:04.580 --> 00:02:07.166
+Incluso puede saber 
+alguna información adicional.
+
+00:02:07.166 --> 00:02:08.500
+Hay un libro en el fondo.
+
+00:02:09.100 --> 00:02:12.356
+Y si desea construir un sistema con base 
+en la visión artificial
+
+00:02:12.380 --> 00:02:15.836
+por ejemplo, un vehículo autodirigido
+o un sistema robótico,
+
+00:02:15.860 --> 00:02:18.316
+este es el tipo de información 
+que necesita.
+
+00:02:18.340 --> 00:02:21.578
+Algo para interactuar con el mundo físico.
+
+00:02:22.178 --> 00:02:24.836
+Cuando empecé a trabajar 
+en la detección de objetos,
+
+00:02:24.860 --> 00:02:28.156
+se tardaba 20 segundos 
+en procesar una sola imagen.
+
+00:02:28.180 --> 00:02:32.060
+Y para entender por qué la velocidad 
+es tan importante en este ámbito,
+
+00:02:32.940 --> 00:02:35.476
+este es un ejemplo 
+de un detector de objetos
+
+00:02:35.500 --> 00:02:37.916
+que tarda dos segundos 
+en procesar una imagen.
+
+00:02:37.940 --> 00:02:40.556
+Así que esto es 10 veces más rápido
+
+00:02:40.580 --> 00:02:44.116
+que el detector de 20 segundos por imagen,
+
+00:02:44.140 --> 00:02:47.096
+y se puede ver que, en el momento 
+de hacer las predicciones,
+
+00:02:47.096 --> 00:02:49.420
+el estado entero del mundo ha cambiado,
+
+00:02:49.700 --> 00:02:52.116
+y esto no sería muy útil
+
+00:02:52.140 --> 00:02:53.556
+para una aplicación.
+
+00:02:53.580 --> 00:02:55.970
+Si aceleramos esto por otro factor de 10,
+
+00:02:55.970 --> 00:02:59.226
+esto es un detector que funciona 
+en cinco fotogramas por segundo.
+
+00:02:59.226 --> 00:03:00.476
+Esto es mucho mejor
+
+00:03:00.500 --> 00:03:02.476
+pero, por ejemplo,
+
+00:03:02.500 --> 00:03:04.796
+si hay algún movimiento significativo,
+
+00:03:04.820 --> 00:03:08.310
+yo no quisiera un sistema como este 
+conduciendo mi auto.
+
+00:03:08.500 --> 00:03:12.540
+Este es nuestro sistema de detección que 
+se ejecuta en tiempo real en mi portátil.
+
+00:03:12.820 --> 00:03:15.956
+Así que suavemente me sigue 
+mientras me muevo en la imagen,
+
+00:03:15.980 --> 00:03:19.700
+y es robusto con una amplia variedad 
+de cambios de tamaño,
+
+00:03:21.260 --> 00:03:22.460
+poses,
+
+00:03:23.100 --> 00:03:24.956
+hacia adelante, hacia atrás.
+
+00:03:24.980 --> 00:03:26.196
+Esto es genial.
+
+00:03:26.220 --> 00:03:27.956
+Esto es lo que realmente necesitamos
+
+00:03:27.980 --> 00:03:31.956
+si vamos a construir sistemas 
+con base en visión artificial.
+
+00:03:31.956 --> 00:03:34.900
+(Aplausos)
+
+00:03:36.100 --> 00:03:38.276
+Así que en solo unos pocos años,
+
+00:03:38.300 --> 00:03:40.956
+hemos pasado de 20 segundos por imagen
+
+00:03:40.980 --> 00:03:44.516
+a 20 milisegundos por imagen, 
+mil veces más rápido.
+
+00:03:44.540 --> 00:03:45.956
+¿Cómo llegamos hasta aquí?
+
+00:03:45.980 --> 00:03:48.996
+Bueno, en el pasado, 
+los sistemas de detección de objetos
+
+00:03:49.020 --> 00:03:50.956
+tomaban una imagen como esta
+
+00:03:50.980 --> 00:03:53.436
+y la dividían en un montón de regiones
+
+00:03:53.460 --> 00:03:56.716
+y luego ejecutaban un clasificador 
+en cada una de estas regiones,
+
+00:03:56.740 --> 00:03:59.276
+y las puntuaciones altas 
+de ese clasificador
+
+00:03:59.300 --> 00:04:02.436
+se consideraban detecciones de la imagen.
+
+00:04:02.460 --> 00:04:06.516
+Pero eso implicaba ejecutar un clasificador 
+miles de veces sobre una imagen,
+
+00:04:06.540 --> 00:04:10.100
+miles de evaluaciones de redes neuronales 
+para producir detección.
+
+00:04:11.060 --> 00:04:15.596
+En cambio, nosotros hemos entrenado 
+una sola red para hacer toda la detección.
+
+00:04:15.620 --> 00:04:19.900
+Produce todas las cajas delimitadoras
+y ordena las probabilidades en simultáneo.
+
+00:04:20.500 --> 00:04:23.996
+Con nuestro sistema, en lugar 
+de mirar una imagen miles de veces
+
+00:04:24.020 --> 00:04:25.476
+para hacer la detección,
+
+00:04:25.500 --> 00:04:26.756
+se mira tan solo una vez,
+
+00:04:26.780 --> 00:04:29.700
+y por eso lo llamamos 
+método YOLO de detección de objetos.
+
+00:04:31.180 --> 00:04:35.156
+Así que con esta velocidad, 
+no estamos limitados a las imágenes;
+
+00:04:35.180 --> 00:04:37.596
+podemos procesar el video en tiempo real.
+
+00:04:37.620 --> 00:04:40.716
+Y ahora, en lugar de solo ver 
+a ese gato y perro,
+
+00:04:40.740 --> 00:04:43.700
+podemos verlos moverse 
+e interactuar unos con otros.
+
+00:04:46.380 --> 00:04:48.436
+Este es un detector que entrenamos
+
+00:04:48.460 --> 00:04:52.836
+en 80 clases diferentes
+
+00:04:52.860 --> 00:04:56.116
+en el conjunto de datos COCO de Microsoft.
+
+00:04:56.140 --> 00:04:59.476
+Tiene todo tipo de cosas 
+como cuchara y tenedor, cuenco,
+
+00:04:59.500 --> 00:05:01.300
+objetos comunes como esos.
+
+00:05:02.180 --> 00:05:05.276
+Tiene una variedad de cosas más exóticas:
+
+00:05:05.300 --> 00:05:08.556
+animales, autos, cebras, jirafas.
+
+00:05:08.580 --> 00:05:10.516
+Y ahora vamos a hacer algo divertido.
+
+00:05:10.540 --> 00:05:12.636
+Solo vamos a ir a la audiencia
+
+00:05:12.660 --> 00:05:14.676
+y ver qué tipo de cosas podemos detectar.
+
+00:05:14.700 --> 00:05:16.320
+¿Alguien quiere un peluche?
+
+00:05:17.820 --> 00:05:19.582
+Hay algunos osos de peluche por aquí.
+
+00:05:21.860 --> 00:05:26.396
+Y podemos reducir 
+nuestro umbral de detección un poco,
+
+00:05:26.420 --> 00:05:29.820
+así podemos encontrar 
+a más de Uds. en la audiencia.
+
+00:05:31.090 --> 00:05:33.716
+Vamos a ver si podemos obtener 
+estas señales de stop.
+
+00:05:33.740 --> 00:05:35.620
+Encontramos algunas mochilas.
+
+00:05:37.700 --> 00:05:39.540
+Vamos a acercarnos un poco.
+
+00:05:42.140 --> 00:05:43.396
+Y esto es genial.
+
+00:05:43.420 --> 00:05:46.596
+Y todo el procesamiento 
+está sucediendo en tiempo real
+
+00:05:46.620 --> 00:05:48.210
+en la computadora portátil.
+
+00:05:48.900 --> 00:05:50.356
+Y es importante recordar
+
+00:05:50.380 --> 00:05:54.096
+que se trata de un sistema de 
+detección de objetos de propósito general,
+
+00:05:54.096 --> 00:05:58.620
+así que podemos entrenar esto 
+para cualquier dominio de la imagen.
+
+00:06:00.140 --> 00:06:02.676
+El mismo código que usamos
+
+00:06:02.700 --> 00:06:05.156
+para encontrar señales 
+de stop o de peatones,
+
+00:06:05.180 --> 00:06:07.156
+bicicletas en un vehículo autodirigido,
+
+00:06:07.180 --> 00:06:10.036
+puede usarse 
+para encontrar células cancerosas
+
+00:06:10.060 --> 00:06:13.076
+en una biopsia de tejido.
+
+00:06:13.100 --> 00:06:17.140
+Y hay investigadores de todo el mundo 
+que ya usan esta tecnología
+
+00:06:18.060 --> 00:06:21.476
+para avances en cosas 
+como la medicina, la robótica.
+
+00:06:21.500 --> 00:06:22.876
+Esta mañana leí un periódico
+
+00:06:22.900 --> 00:06:27.476
+sobre un censo de animales que estaban 
+haciendo en el Parque Nacional de Nairobi
+
+00:06:27.500 --> 00:06:30.636
+que usa YOLO como parte 
+de este sistema de detección.
+
+00:06:30.660 --> 00:06:33.756
+Y eso es posible, 
+porque Darknet es de código abierto
+
+00:06:33.780 --> 00:06:36.970
+y de dominio público y libre para 
+que lo use cualquier persona.
+
+00:06:37.420 --> 00:06:43.116
+(Aplausos)
+
+00:06:43.140 --> 00:06:48.076
+Pero queríamos que la detección 
+fuera aún más accesible y usable,
+
+00:06:48.100 --> 00:06:52.156
+por eso, mediante una combinación 
+de optimización de modelos,
+
+00:06:52.180 --> 00:06:54.476
+binarización de red y aproximación,
+
+00:06:54.500 --> 00:06:58.900
+tenemos un reconocimiento de objetos
+que funciona en un teléfono.
+
+00:07:04.620 --> 00:07:09.940
+(Aplausos)
+
+00:07:10.780 --> 00:07:15.320
+Y estoy muy contento porque ahora 
+tenemos una solución bastante potente
+
+00:07:15.320 --> 00:07:18.156
+a este problema de visión artificial
+de bajo nivel,
+
+00:07:18.180 --> 00:07:22.036
+y cualquiera puede usarlo 
+y hacer algo con esto.
+
+00:07:22.060 --> 00:07:25.236
+Así que ahora el resto depende de Uds.
+
+00:07:25.260 --> 00:07:28.196
+y de personas de todo el mundo 
+con acceso a este software,
+
+00:07:28.220 --> 00:07:31.876
+y estoy impaciente por ver qué construirá 
+la gente con esta tecnología.
+
+00:07:31.900 --> 00:07:33.116
+Gracias.
+
+00:07:33.140 --> 00:07:36.580
+(Aplausos)
+

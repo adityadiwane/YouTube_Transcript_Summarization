@@ -1,0 +1,457 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.000 --> 00:00:07.000
+Übersetzung: Jo Pi
+Lektorat: Lisbeth Wild
+
+00:00:12.812 --> 00:00:14.104
+Meine Studenten und ich
+
+00:00:14.104 --> 00:00:16.209
+arbeiten an winzigen Robotern.
+
+00:00:16.209 --> 00:00:19.146
+Wir können sie als Roboterversionen
+von Tieren betrachten,
+
+00:00:19.146 --> 00:00:22.016
+die uns allen bekannt sind: Ameisen.
+
+00:00:22.016 --> 00:00:24.776
+Wir wissen, dass Ameisen und 
+Insekten ähnlicher Größe
+
+00:00:24.776 --> 00:00:27.012
+sehr erstaunliche Dinge tun können.
+
+00:00:27.012 --> 00:00:30.197
+Wir alle haben Gruppen 
+von Ameisen oder dergleichen gesehen,
+
+00:00:30.197 --> 00:00:33.528
+die unsere Kartoffelchips
+bei einem Picknick wegtragen.
+
+00:00:34.138 --> 00:00:36.778
+Aber was sind die wahren Herausforderungen
+
+00:00:36.778 --> 00:00:38.319
+beim Bau dieser Ameisen?
+
+00:00:38.319 --> 00:00:40.827
+Zuerst einmal: Wie bekommen wir
+
+00:00:40.827 --> 00:00:43.869
+die Fähigkeiten der Ameisen 
+in einen Roboter der gleichen Größe?
+
+00:00:43.869 --> 00:00:46.353
+Zuerst müssen wir einen 
+Bewegungsmechanismus
+
+00:00:46.353 --> 00:00:47.923
+für diese kleinen Roboter finden.
+
+00:00:47.923 --> 00:00:50.223
+Wir benötigen Mechanismen
+wie Beine und Motoren,
+
+00:00:50.223 --> 00:00:52.072
+um die Fortbewegung zu unterstützen,
+
+00:00:52.072 --> 00:00:54.563
+sowie Sensoren, Energie und Steuerung,
+
+00:00:54.563 --> 00:00:58.525
+um alle Aspekte in einem semi-
+intelligenten Ameisenroboter zu vereinen.
+
+00:00:58.525 --> 00:01:02.531
+Damit sie am Ende zweckmäßig sind, 
+sollen viele von ihnen zusammenwirken
+
+00:01:02.531 --> 00:01:05.169
+um gemeinsam größere
+Aufgaben zu bewältigen.
+
+00:01:05.179 --> 00:01:07.710
+Ich beginne mit der Mobilität.
+
+00:01:07.710 --> 00:01:10.871
+Insekten bewegen sich 
+erstaunlich geschickt.
+
+00:01:10.871 --> 00:01:13.542
+Dieses Video der UC Berkeley 
+zeigt eine Kakerlake,
+
+00:01:13.542 --> 00:01:16.452
+die sich auf sehr unwegsamem Gelände 
+bewegt ohne umzukippen.
+
+00:01:16.452 --> 00:01:21.155
+Sie kann das, da ihre Beine
+sowohl aus starren Materialien,
+
+00:01:21.155 --> 00:01:24.142
+wie wir sie üblicherweise
+für den Bau von Robotern benutzen,
+
+00:01:24.142 --> 00:01:25.895
+und weichen Materialien bestehen.
+
+00:01:26.214 --> 00:01:30.201
+Springen ist auch eine sehr interessante 
+Fortbewegungsart, wenn man so klein ist.
+
+00:01:30.201 --> 00:01:33.030
+Diese Insekten speichern 
+Energie in einer Sprungfeder
+
+00:01:33.030 --> 00:01:38.281
+und setzen sie schnell wieder frei, 
+um aus dem Wasser hüpfen zu können.
+
+00:01:38.281 --> 00:01:41.403
+Einer der größten Beiträge meines Labors
+
+00:01:41.403 --> 00:01:44.153
+war die Kombination aus
+weichen und starren Materialien
+
+00:01:44.153 --> 00:01:46.367
+in sehr, sehr kleinen Mechanismen.
+
+00:01:46.367 --> 00:01:49.672
+Dieser Sprungmechanismus misst 
+etwa vier Millimeter an jeder Seite,
+
+00:01:49.672 --> 00:01:51.100
+also extrem klein.
+
+00:01:51.100 --> 00:01:53.024
+Das starre Material ist Silizium
+
+00:01:53.024 --> 00:01:55.448
+und das weiche Material Silikon-Kautschuk.
+
+00:01:55.448 --> 00:01:57.636
+Die Idee dahinter ist, 
+es zusammenzudrücken,
+
+00:01:57.636 --> 00:02:00.924
+Energie in den Sprungfedern zu speichern
+und beim Sprung freizusetzen.
+
+00:02:00.924 --> 00:02:03.652
+Dies funktioniert
+ohne Motoren, ohne Antrieb.
+
+00:02:03.652 --> 00:02:06.800
+Es wird mit einer Methode ausgeführt,
+die wir in meinem Labor
+
+00:02:06.800 --> 00:02:09.472
+„Doktorand mit Pinzette“ nennen.
+
+00:02:09.472 --> 00:02:12.446
+Im nächsten Video sehen Sie
+einen kleinen Kerl,
+
+00:02:12.446 --> 00:02:14.333
+der erstaunliche Sprünge vollbringt.
+
+00:02:14.333 --> 00:02:17.947
+Das ist Aaron, der besagte
+Doktorand mit Pinzette,
+
+00:02:17.947 --> 00:02:20.630
+und ein vier Millimeter
+kleiner Mechanisums,
+
+00:02:20.630 --> 00:02:22.841
+der fast 40 Zentimeter hoch springt.
+
+00:02:22.841 --> 00:02:25.265
+Das ist fast das Hundertfache
+seiner eigenen Größe.
+
+00:02:25.265 --> 00:02:27.221
+Er übersteht das, prallt vom Tisch ab,
+
+00:02:27.221 --> 00:02:30.735
+ist unglaublich robust und überlebt,
+bis wir ihn verlieren,
+
+00:02:30.735 --> 00:02:32.035
+weil er so winzig ist.
+
+00:02:32.035 --> 00:02:33.361
+(Gelächter)
+
+00:02:33.361 --> 00:02:35.970
+Letztendlich wollen wir auch
+Motoren hinzufügen.
+
+00:02:35.970 --> 00:02:39.086
+Einige Studenten im Labor arbeiten
+an millimeterkleinen Motoren,
+
+00:02:39.086 --> 00:02:42.616
+die in kleine autonome
+Roboter integriert werden sollen.
+
+00:02:42.616 --> 00:02:45.237
+Um Mobilität und Fortbewegung
+in dieser Größenordnung
+
+00:02:45.237 --> 00:02:46.707
+in Betracht ziehen zu können, 
+
+00:02:46.707 --> 00:02:48.121
+schummeln wir mit Magneten.
+
+00:02:48.121 --> 00:02:51.307
+Was Sie hier sehen, wird einmal Teil 
+eines Mikroroboter-Beins.
+
+00:02:51.307 --> 00:02:53.334
+Sie sehen Gelenke aus Silikon-Kautschuk
+
+00:02:53.334 --> 00:02:54.953
+und einen integrierten Magneten,
+
+00:02:54.953 --> 00:02:58.266
+der durch ein externes
+Magnetfeld bewegt wird.
+
+00:02:58.266 --> 00:03:01.299
+Dies ergibt den Roboter,
+den ich zuvor gezeigt habe.
+
+00:03:01.879 --> 00:03:04.900
+Interessanterweise hilft uns
+dieser Roboter zu verstehen,
+
+00:03:04.900 --> 00:03:06.827
+wie sich Insekten dieser Größe bewegen.
+
+00:03:06.827 --> 00:03:09.022
+Wir wissen recht gut, wie sich Tiere,
+
+00:03:09.022 --> 00:03:11.229
+von der Kakerlake bis
+zum Elefanten, bewegen.
+
+00:03:11.229 --> 00:03:14.228
+Wir bewegen uns alle auf diese
+federnde Art, wenn wir laufen.
+
+00:03:14.228 --> 00:03:18.513
+Bei sehr kleiner Größe beeinflussen
+die Kräfte zwischen meinen Füßen
+
+00:03:18.513 --> 00:03:21.459
+und dem Boden die Fortbewegung
+viel mehr als meine Masse,
+
+00:03:21.459 --> 00:03:23.422
+was diese federnde Bewegung erzeugt.
+
+00:03:23.422 --> 00:03:25.737
+Dieser kleine Kerl
+funktioniert noch nicht ganz,
+
+00:03:25.737 --> 00:03:28.392
+doch größere Versionen 
+laufen bereits umher.
+
+00:03:28.392 --> 00:03:32.137
+Dieser ist etwa einen Zentimeter
+hoch und breit, sehr klein also,
+
+00:03:32.137 --> 00:03:34.799
+und läuft pro Sekunde 
+seine zehnfache Körperlänge,
+
+00:03:34.799 --> 00:03:36.615
+das sind 10 cm pro Sekunde,
+
+00:03:36.615 --> 00:03:38.648
+sehr schnell für ein so winziges Kerlchen.
+
+00:03:38.648 --> 00:03:40.910
+Begrenzt ist das nur
+durch unseren Testaufbau.
+
+00:03:40.910 --> 00:03:43.807
+Doch dies zeigt Ihnen grob,
+wie es zurzeit funktioniert.
+
+00:03:44.027 --> 00:03:47.781
+Wir drucken Roboter auch in 3D
+und lassen sie über Hindernisse laufen,
+
+00:03:47.781 --> 00:03:51.280
+wie die Kakerlake zuvor.
+
+00:03:51.280 --> 00:03:54.166
+Im Endeffekt wollen wir alles
+auf dem Roboter anbringen:
+
+00:03:54.166 --> 00:03:57.859
+Abtastung, Antrieb, Bedienung,
+Bewegung, alles zusammen,
+
+00:03:57.859 --> 00:04:00.765
+und nicht alles muss zwingend
+von der Natur inspiriert sein.
+
+00:04:00.765 --> 00:04:03.900
+Dieser Roboter ist in etwa
+so groß wie ein Tic Tac,
+
+00:04:03.900 --> 00:04:07.849
+und anstelle von Magneten oder
+Muskeln zur Fortbewegung
+
+00:04:07.849 --> 00:04:10.274
+verwenden wir Raketen.
+
+00:04:10.274 --> 00:04:12.940
+Dies ist ein mikrofeines,
+dynamisches Material,
+
+00:04:12.940 --> 00:04:15.539
+von dem wir Kleinstteile anfertigen
+
+00:04:15.539 --> 00:04:19.326
+und diese am Bauch des Roboters 
+anbringen können.
+
+00:04:19.326 --> 00:04:24.012
+So springt dieser Roboter,
+sobald er eine Lichtzunahme wahrnimmt.
+
+00:04:24.645 --> 00:04:26.618
+Das ist einer meiner Lieblingsfilme:
+
+00:04:26.618 --> 00:04:29.658
+Sie sehen einen 300 mg leichten Roboter,
+
+00:04:29.658 --> 00:04:32.064
+der etwa 8 cm hoch in die Luft hüpft.
+
+00:04:32.064 --> 00:04:34.974
+Er misst gerade mal 4 x 4 x 7 Millimeter.
+
+00:04:34.974 --> 00:04:37.130
+Am Anfang sehen Sie einen hellen Blitz,
+
+00:04:37.130 --> 00:04:38.622
+wenn Energie freigesetzt wird
+
+00:04:38.622 --> 00:04:40.530
+und der Roboter durch die Luft wirbelt.
+
+00:04:40.530 --> 00:04:42.139
+Hier sah man den hellen Blitz
+
+00:04:42.139 --> 00:04:45.336
+und Sie sehen den Roboter hochspringen.
+
+00:04:45.336 --> 00:04:48.368
+Das funktioniert ganz ohne 
+Leinen oder Drähte,
+
+00:04:48.368 --> 00:04:50.862
+alles ist an Bord,
+und sein Sprung ist die Reaktion
+
+00:04:50.862 --> 00:04:55.243
+auf eine Schreibtischlampe, 
+die ein Student einschaltet.
+
+00:04:55.243 --> 00:04:59.547
+Sie können sich all die Dinge vorstellen, 
+die wir mit so kleinen Robotern,
+
+00:04:59.547 --> 00:05:03.604
+die laufen, kriechen, springen 
+und rollen, machen können.
+
+00:05:03.604 --> 00:05:07.394
+Denken Sie an die Trümmer nach einer 
+Naturkatastrophe wie einem Erdbeben.
+
+00:05:07.394 --> 00:05:09.953
+Stellen Sie sich vor, wie
+diese kleinen Roboter
+
+00:05:09.953 --> 00:05:12.171
+in den Trümmern nach Überlebenden suchen.
+
+00:05:12.171 --> 00:05:15.127
+Stellen Sie sich vor,
+wie viele dieser kleinen Roboter
+
+00:05:15.127 --> 00:05:17.626
+eine Brücke auf deren Sicherheit prüfen,
+
+00:05:17.626 --> 00:05:22.196
+um Einstürze wie diesen
+vor Minneapolis im Jahr 2007 zu vermeiden.
+
+00:05:23.233 --> 00:05:25.295
+Stellen Sie sich vor, was möglich wäre,
+
+00:05:25.295 --> 00:05:27.968
+wenn kleine Roboter 
+durch Ihren Blutkreislauf schwimmen:
+
+00:05:27.968 --> 00:05:29.851
+"Die Fantastische Reise", Isaac Asimov.
+
+00:05:29.851 --> 00:05:34.206
+Man könnte operieren, ohne den Patienten 
+dafür aufschneiden zu müssen.
+
+00:05:34.206 --> 00:05:36.936
+Wir könnten die Art ändern, 
+wie wir Dinge bauen,
+
+00:05:36.936 --> 00:05:40.343
+wenn winzige Roboter
+wie Termiten arbeiten,
+
+00:05:40.343 --> 00:05:43.108
+die diese unglaublichen 
+8 Meter hohen Hügel bauen,
+
+00:05:43.108 --> 00:05:47.196
+gut gelüftete Wohnblöcke 
+für andere Termiten
+
+00:05:47.196 --> 00:05:49.287
+in Afrika und Australien.
+
+00:05:49.287 --> 00:05:51.487
+Ich denke, ich habe Ihnen gezeigt,
+
+00:05:51.487 --> 00:05:54.154
+was wir mit diesen kleinen Robotern 
+alles tun können.
+
+00:05:54.154 --> 00:05:57.131
+Wir haben bereits einige 
+Fortschritte gemacht,
+
+00:05:57.131 --> 00:05:59.139
+doch es liegt noch ein weiter Weg vor uns.
+
+00:05:59.139 --> 00:06:03.187
+Ich hoffe, einige von Ihnen 
+werden dazu beitragen. Vielen Dank.
+

@@ -1,0 +1,1042 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Zsuzsa Vida
+Lektor: Csaba Lóki
+
+00:00:14.366 --> 00:00:18.104
+Engedjék meg, hogy mutassak 
+önöknek valamit.
+
+00:00:18.104 --> 00:00:21.560
+(Videó) Kislány: Oké, az egy macska, 
+amely egy ágyon ül.
+
+00:00:21.560 --> 00:00:26.250
+A fiú cirógatja az elefántot.
+
+00:00:26.250 --> 00:00:30.654
+Azok az emberek mennek 
+egy repülőgéphez.
+
+00:00:30.654 --> 00:00:33.464
+Az egy nagy repülőgép.
+
+00:00:33.464 --> 00:00:35.670
+Fei-Fei Li: Ez egy hároméves gyermek
+
+00:00:35.670 --> 00:00:39.349
+leírása arról, amit egy sor fotón lát.
+
+00:00:39.349 --> 00:00:42.194
+Lehet, hogy sokat kell 
+még tanulnia a világról,
+
+00:00:42.194 --> 00:00:46.743
+de már szakértője 
+egy nagyon fontos feladatnak:
+
+00:00:46.743 --> 00:00:50.233
+annak, hogy megértse, amit lát.
+
+00:00:50.233 --> 00:00:54.463
+Társadalmunk technológiailag 
+fejlettebb, mint valaha.
+
+00:00:54.463 --> 00:00:58.084
+Embereket küldünk a Holdra,
+telefonokat készítünk, melyek beszélnek,
+
+00:00:58.084 --> 00:01:03.030
+vagy rádióállomásokat állítunk be a
+saját zenei ízlésünknek megfelelően.
+
+00:01:03.030 --> 00:01:07.085
+Mégis a legfejlettebb gépeink és 
+számítógépeink
+
+00:01:07.085 --> 00:01:09.988
+csak küszködnek ezzel a feladattal.
+
+00:01:09.988 --> 00:01:13.447
+Azért vagyok ma itt, 
+hogy jelentést adjak önöknek
+
+00:01:13.447 --> 00:01:17.494
+a számítógépes képfelismerés
+legújabb kutatási eredményeiről,
+
+00:01:17.494 --> 00:01:21.655
+a számítástechnika egyik
+valószínűleg legforradalmibb
+
+00:01:21.655 --> 00:01:24.861
+technológiai területéről.
+
+00:01:24.861 --> 00:01:29.412
+Igen, vannak olyan prototípus autóink, 
+amelyek képesek önmagukat vezetni,
+
+00:01:29.412 --> 00:01:33.265
+de tökéletes látás nélkül, nem tudnak 
+igazán megkülönböztetni
+
+00:01:33.265 --> 00:01:37.235
+egy összegyűrt papírtasakot 
+az úton, amelyen áthajthatunk,
+
+00:01:37.235 --> 00:01:40.575
+egy ugyanolyan méretű kődarabtól, 
+amelyet el kellene kerülni.
+
+00:01:41.415 --> 00:01:44.805
+Mesés megapixeles kameráink vannak,
+
+00:01:44.805 --> 00:01:47.940
+de nem segítünk látni a vakoknak.
+
+00:01:48.420 --> 00:01:51.725
+A drónok képesek hatalmas 
+területeket berepülni,
+
+00:01:51.725 --> 00:01:53.959
+de nincs megfelelő látási 
+technológiájuk ahhoz,
+
+00:01:53.959 --> 00:01:57.320
+hogy segítsenek nyomon követni 
+az esőerdők változásait.
+
+00:01:57.320 --> 00:02:00.270
+Biztonsági kamerák vannak mindenhol,
+
+00:02:00.270 --> 00:02:05.337
+de nem figyelmeztetnek minket, amikor 
+egy gyerek beleesik az úszómedencébe.
+
+00:02:06.167 --> 00:02:11.762
+A fotók és videók szerves részévé 
+váltak az életnek.
+
+00:02:11.762 --> 00:02:15.849
+Olyan ütemben keletkeznek, ami 
+messze túl van azon, amit az ember
+
+00:02:15.849 --> 00:02:18.632
+vagy embercsoportok remélhetnének látni.
+
+00:02:18.632 --> 00:02:22.553
+Önök és én ezen a TED-en most 
+közreműködhetünk ebben.
+
+00:02:22.553 --> 00:02:27.785
+Még a legfejlettebb
+szoftvereink is csak küzdenek
+
+00:02:27.785 --> 00:02:31.661
+ennek a hatalmas tartalomnak 
+a megértésével és kezelésével.
+
+00:02:31.661 --> 00:02:36.933
+Más szavakkal, 
+együttesen, egy közösségként
+
+00:02:36.933 --> 00:02:38.679
+szinte teljesen vakok vagyunk,
+
+00:02:38.679 --> 00:02:42.066
+mert a legokosabb gépeink még vakok.
+
+00:02:43.526 --> 00:02:46.452
+"Miért olyan nehéz ez?" - kérdezhetik.
+
+00:02:46.452 --> 00:02:49.145
+A kamerák képesek ilyen képeket készíteni,
+
+00:02:49.145 --> 00:02:53.139
+a fényeket kétdimenziós 
+számsorokba konvertálják,
+
+00:02:53.139 --> 00:02:54.789
+az úgynevezett pixelekbe,
+
+00:02:54.789 --> 00:02:57.040
+de ezek csak élettelen számok.
+
+00:02:57.040 --> 00:03:00.151
+Ezek nem hordoznak magukban jelentést.
+
+00:03:00.151 --> 00:03:04.494
+Éppen úgy, ahogy nem ugyanaz 
+a hallani, mint a hallgatni,
+
+00:03:04.494 --> 00:03:08.534
+képet készíteni sem ugyanaz, mint látni,
+
+00:03:08.534 --> 00:03:12.363
+és a látás alatt tulajdonképpen 
+a megértést értjük.
+
+00:03:13.293 --> 00:03:19.470
+Valójában, az Anyatermészet 
+kemény munkát végez 540 millió éve,
+
+00:03:19.470 --> 00:03:21.443
+ennek a feladatnak az elvégzésével,
+
+00:03:21.443 --> 00:03:23.324
+és rengeteg fáradozásba került
+
+00:03:23.324 --> 00:03:28.595
+az agyunk vizuális feldolgozással 
+foglalkozó részének a kifejlesztése,
+
+00:03:28.595 --> 00:03:31.242
+nem a szemek maguk.
+
+00:03:31.242 --> 00:03:33.989
+A látás a szemekkel kezdődik,
+
+00:03:33.989 --> 00:03:37.507
+de valójában az agyban megy végbe.
+
+00:03:38.287 --> 00:03:43.347
+15 éve már, hogy a Caltechnél 
+a Ph.D-mtől kezdve,
+
+00:03:43.347 --> 00:03:46.273
+majd a Stanford Látóképeséggel 
+foglalkozó laborját vezetve,
+
+00:03:46.273 --> 00:03:50.669
+a mentoraimmal, munkatársaimmal 
+és tanítványaimmal azon dolgozom,
+
+00:03:50.669 --> 00:03:53.558
+hogy megtanítsam a számítógépeket látni.
+
+00:03:54.658 --> 00:03:57.952
+Kutatási területünk a 
+számítógépes látás és gépi tanulás.
+
+00:03:57.952 --> 00:04:01.830
+Ez a mesterséges intelligencia 
+tudományának a része.
+
+00:04:03.000 --> 00:04:08.493
+Végső soron meg akarjuk tanítani 
+a gépeket úgy látni, ahogy mi látunk:
+
+00:04:08.493 --> 00:04:13.880
+tárgyak megnevezése, emberek azonosítása,
+következtetés a tárgyak 3D-s alakjára,
+
+00:04:13.880 --> 00:04:19.568
+a kapcsolatok, érzések, 
+tevékenységek és szándékok megértése.
+
+00:04:19.568 --> 00:04:25.721
+Önök és én egész történeteket szövünk 
+együtt emberekről, helyekről és dolgokról
+
+00:04:25.721 --> 00:04:28.945
+abban a pillanatban, 
+amikor rájuk pillantunk.
+
+00:04:28.955 --> 00:04:34.538
+Az első lépés a cél felé, hogy 
+megtanítjuk a számítógépeket a tárgyakat,
+
+00:04:34.538 --> 00:04:37.906
+a képi világ építőköveit látni.
+
+00:04:37.906 --> 00:04:42.340
+A legegyszerűbben kifejezve, képzeljék el 
+ennek a tanításnak a folyamatát:
+
+00:04:42.340 --> 00:04:45.335
+mutatunk a számítógépeknek 
+néhány gyakorló képet
+
+00:04:45.335 --> 00:04:48.656
+egy bizonyos dologról, 
+mondjuk a macskákról
+
+00:04:48.656 --> 00:04:53.393
+és tervezünk egy modellt, amely tanul 
+ezekből a gyakorló képekből.
+
+00:04:53.393 --> 00:04:55.437
+Milyen nehéz lehet ez?
+
+00:04:55.437 --> 00:04:59.489
+Végül is, egy macska csak 
+színek és formák gyűjteménye,
+
+00:04:59.489 --> 00:05:03.575
+és ez az, amit a dolgok modellezésének 
+első napjaiban csináltunk.
+
+00:05:03.575 --> 00:05:07.197
+Matematikai nyelven mondtuk el
+a számítógépes algoritmusnak,
+
+00:05:07.197 --> 00:05:10.540
+hogy egy macskának 
+egy kerek arca, pufók teste,
+
+00:05:10.540 --> 00:05:12.839
+két hegyes füle és egy hosszú farka van,
+
+00:05:12.839 --> 00:05:14.849
+és úgy tűnt, hogy minden rendben.
+
+00:05:14.859 --> 00:05:16.972
+De mit szólnak ehhez a macskához?
+
+00:05:16.972 --> 00:05:18.063
+(Nevetés)
+
+00:05:18.063 --> 00:05:19.689
+Ez teljesen ki van csavarodva.
+
+00:05:19.689 --> 00:05:24.408
+Most hozzá kell tenniük egy egész más
+formát és nézőpontot a dolog modelljéhez.
+
+00:05:24.408 --> 00:05:26.123
+De mi van, ha a macskák elbújnak?
+
+00:05:27.143 --> 00:05:29.362
+Mit szólnak ezekhez a bolond macskákhoz?
+
+00:05:31.112 --> 00:05:33.529
+Elmondom a véleményemet.
+
+00:05:33.529 --> 00:05:36.896
+Még ha valami olyan egyszerű is, 
+mint egy háziállat,
+
+00:05:36.896 --> 00:05:41.400
+végtelen sok modellvariációt 
+képes felvonultatni,
+
+00:05:41.400 --> 00:05:43.633
+és ez csak egyetlen objektum.
+
+00:05:44.573 --> 00:05:47.065
+Így kb. 8 évvel ezelőtt
+
+00:05:47.065 --> 00:05:52.095
+egy nagyon és mély megfigyelés 
+megváltoztatta a gondolkodásomat.
+
+00:05:53.425 --> 00:05:56.110
+Senki nem mondja meg egy 
+gyermeknek, hogy hogyan lásson,
+
+00:05:56.110 --> 00:05:58.371
+különösen az első években.
+
+00:05:58.371 --> 00:06:03.371
+A valós világ tapasztalatain és példáin 
+keresztül tanulják ezt meg.
+
+00:06:03.371 --> 00:06:06.111
+Ha egy gyermek szemeit
+
+00:06:06.111 --> 00:06:08.665
+egy pár biológiai kamerának tekintjük,
+
+00:06:08.665 --> 00:06:12.845
+ezek körülbelül 200 ezredmásod-
+percenként készítenek egy képet,
+
+00:06:12.845 --> 00:06:15.979
+ez az átlagos időtartama 
+egy szemmozdulatnak.
+
+00:06:15.979 --> 00:06:21.529
+Így hároméves korára egy gyermek 
+több száz millió képet lát
+
+00:06:21.529 --> 00:06:23.363
+a valós világról.
+
+00:06:23.363 --> 00:06:25.643
+Az rengeteg gyakorló példa.
+
+00:06:26.383 --> 00:06:32.372
+Így a kizárólag az egyre jobb 
+algoritmusokra koncentrálás helyett,
+
+00:06:32.372 --> 00:06:37.644
+úgy éreztem, hogy az adatok begyakorlására
+alkalmas algoritmusokat kellene adnom,
+
+00:06:37.644 --> 00:06:40.963
+ahogy egy gyermeknek, 
+a tapasztalatokon keresztül
+
+00:06:40.963 --> 00:06:44.841
+minőségben és mennyiségben egyaránt.
+
+00:06:44.841 --> 00:06:46.699
+Amint ezt felismertük,
+
+00:06:46.699 --> 00:06:49.670
+rögtön tudtuk, hogy gyűjtenünk 
+kell egy adathalmazt,
+
+00:06:49.670 --> 00:06:54.129
+ami sokkal több képet fog tartalmazni, 
+mint amennyivel valaha is rendelkeztünk,
+
+00:06:54.129 --> 00:06:56.706
+talán több ezerszer többet,
+
+00:06:56.706 --> 00:07:00.817
+és Kai Li professzorral közösen 
+a Princeton Egyetemen,
+
+00:07:00.817 --> 00:07:05.569
+2007-ben elindítottuk 
+az ImageNet projektet.
+
+00:07:05.569 --> 00:07:09.407
+Szerencsére nem kellett 
+egy kamerát szerelnünk a fejünkre,
+
+00:07:09.407 --> 00:07:11.171
+és évekig várni.
+
+00:07:11.171 --> 00:07:12.634
+Felmentünk az Internetre,
+
+00:07:12.634 --> 00:07:17.070
+a képek legnagyobb tárházára, 
+amit az emberek valaha létrehoztak.
+
+00:07:17.070 --> 00:07:20.111
+Majdnem egymilliárd képet töltöttünk le
+
+00:07:20.111 --> 00:07:25.991
+és az Amazon Mechanical Turk 
+crowdsourcing technológiát használva
+
+00:07:25.991 --> 00:07:28.330
+felcímkéztük ezeket a képeket.
+
+00:07:28.330 --> 00:07:33.230
+A csúcson az ImageNet volt
+
+00:07:33.230 --> 00:07:36.226
+a Mechanical Turk egyik 
+legnagyobb foglalkoztatója:
+
+00:07:36.226 --> 00:07:40.080
+együttesen, majdnem 50 000 dolgozó
+
+00:07:40.080 --> 00:07:44.120
+a világ 167 országából
+
+00:07:44.120 --> 00:07:48.067
+segített nekünk kitisztítani, 
+rendszerezni és felcímkézni
+
+00:07:48.067 --> 00:07:51.642
+majdnem egymilliárd kijelölt képet.
+
+00:07:52.612 --> 00:07:55.265
+Ilyen sok erőfeszítésbe került
+
+00:07:55.265 --> 00:07:59.165
+csak egy töredékét rögzíteni 
+annak a képanyagnak,
+
+00:07:59.165 --> 00:08:03.336
+amit egy gyermek agya 
+a fejlődésének első éveiben befogad.
+
+00:08:04.148 --> 00:08:08.050
+Utólag a "big data" 
+használatának az ötlete
+
+00:08:08.050 --> 00:08:12.600
+a számítógépes algoritmusok tanítására
+már nyilvánvalónak tűnhet,
+
+00:08:12.600 --> 00:08:16.710
+de 2007-ben ez nem volt olyan kézenfekvő.
+
+00:08:16.710 --> 00:08:20.588
+Meglehetősen egyedül voltunk
+ezen az úton egy jó darabig.
+
+00:08:20.588 --> 00:08:25.591
+Néhány kedves kollégám azt tanácsolta, 
+hogy hasznosabb dologgal töltsem az időmet
+
+00:08:25.591 --> 00:08:29.683
+és állandóan harcoltunk 
+a kutatási támogatásért.
+
+00:08:29.683 --> 00:08:32.418
+Egyszer még azt is mondtam
+viccesen a végzős diákjaimnak,
+
+00:08:32.418 --> 00:08:36.481
+hogy újranyitnám a ruhatisztító boltomat, 
+hogy az ImageNet-et támogassam.
+
+00:08:36.481 --> 00:08:41.242
+Végül is, így finanszíroztam 
+a főiskolai éveimet.
+
+00:08:41.242 --> 00:08:43.098
+Tehát folytattuk.
+
+00:08:43.098 --> 00:08:46.813
+2009-ben az ImageNet
+
+00:08:46.813 --> 00:08:50.855
+egy 15 millió képből álló 
+adatbázist adott át,
+
+00:08:50.855 --> 00:08:55.660
+az objektumokat és dolgokat 
+22 000 osztályba sorolva,
+
+00:08:55.660 --> 00:08:58.980
+mindennapos angol 
+szavak szerint elrendezve.
+
+00:08:58.980 --> 00:09:01.906
+Minőségben és mennyiségben egyaránt
+
+00:09:01.906 --> 00:09:04.878
+példátlan méretű.
+
+00:09:04.878 --> 00:09:08.339
+Például a macskák esetében,
+
+00:09:08.339 --> 00:09:11.148
+több mint 62 000 képünk volt
+
+00:09:11.148 --> 00:09:15.258
+mindenféle külsejű és pózoló
+
+00:09:15.258 --> 00:09:20.481
+minden fajta házi- és vadmacskákról.
+
+00:09:20.481 --> 00:09:23.825
+Le voltunk nyűgözve, hogy 
+együtt létrehoztuk az ImageNet-et,
+
+00:09:23.825 --> 00:09:27.563
+és azt akartuk, hogy az egész 
+kutatási világ profitáljon ebből,
+
+00:09:27.563 --> 00:09:31.604
+így a TED módszerével hozzáférhetővé 
+tettük az egész adatállományt.
+
+00:09:31.604 --> 00:09:35.196
+az egész világ kutató 
+közösségének, ingyenesen.
+
+00:09:36.636 --> 00:09:40.636
+(Taps)
+
+00:09:41.416 --> 00:09:45.954
+Most, hogy már vannak adataink, 
+amit betápláljunk a számítógépeink agyába,
+
+00:09:45.954 --> 00:09:49.691
+készen állunk arra, hogy visszatérjünk 
+magukhoz az algoritmusokhoz.
+
+00:09:49.691 --> 00:09:54.869
+Mint kiderült, az ImageNet által 
+biztosított információ értéke
+
+00:09:54.869 --> 00:09:59.675
+tökéletesen illeszkedett a gépi tanulási 
+algoritmusok egy bizonyos osztályához,
+
+00:09:59.675 --> 00:10:02.090
+amit konvolúciós neurális hálónak hívunk,
+
+00:10:02.090 --> 00:10:07.338
+és aminek Kunihiko Fukushima, Geoff Hinton
+és Yann LeCun voltak az úttörői
+
+00:10:07.338 --> 00:10:10.983
+régen az 1970-es és '80-as években.
+
+00:10:10.983 --> 00:10:16.602
+Ahogyan az agyban egymáshoz szorosan 
+kapcsolódó idegsejtek milliárdjai vannak,
+
+00:10:16.602 --> 00:10:20.456
+ugyanúgy egy neurális háló 
+operációs alapegysége
+
+00:10:20.456 --> 00:10:22.871
+egy neuronszerű csomópont.
+
+00:10:22.871 --> 00:10:25.425
+Ez bemenő adatokat fogad
+más csomópontoktól
+
+00:10:25.425 --> 00:10:28.143
+és kimenő adatokat küld a többinek.
+
+00:10:28.143 --> 00:10:32.856
+Ezen kívül, ez a több százezer 
+vagy akár több millió csomópont
+
+00:10:32.856 --> 00:10:36.083
+hierarchikus rétegekbe szerveződött,
+
+00:10:36.083 --> 00:10:38.637
+az agyhoz hasonlóan.
+
+00:10:38.637 --> 00:10:43.420
+A tárgyfelismerési modellünk 
+tanítására használt tipikus hálózat
+
+00:10:43.420 --> 00:10:46.601
+24 millió csomópontot,
+
+00:10:46.601 --> 00:10:49.898
+140 millió paramétert
+
+00:10:49.898 --> 00:10:52.661
+és 15 milliárd kapcsolatot tartalmaz.
+
+00:10:52.661 --> 00:10:55.076
+Ez egy hatalmas modell.
+
+00:10:55.076 --> 00:10:58.977
+E hatalmas modell tanításához használt
+óriási ImageNet-es adatmennyiségnek,
+
+00:10:58.977 --> 00:11:04.410
+valamint a modern processzoroknak 
+köszönhetően
+
+00:11:04.410 --> 00:11:06.779
+a konvolúciós neurális háló
+
+00:11:06.779 --> 00:11:10.215
+senki által nem remélt iramban fejlődött.
+
+00:11:10.215 --> 00:11:12.723
+Ez lett a nyerő architektúra,
+
+00:11:12.723 --> 00:11:18.063
+ami izgalmas új eredményeket hozott
+az objektumfelismerésben.
+
+00:11:18.063 --> 00:11:20.873
+Ez egy számítógép, amely megmondja nekünk,
+
+00:11:20.873 --> 00:11:23.173
+hogy ezen a képen egy macska látható
+
+00:11:23.173 --> 00:11:25.076
+és hogy a macska hol van.
+
+00:11:25.076 --> 00:11:27.188
+Természetesen ott nem csak macskák vannak,
+
+00:11:27.188 --> 00:11:29.886
+ezért itt van egy számítógépes algoritmus,
+ami megmondja,
+
+00:11:29.886 --> 00:11:32.900
+hogy a képen egy fiú 
+és egy teddy maci is van;
+
+00:11:32.900 --> 00:11:37.266
+egy kutya, egy ember, és 
+egy kicsi papírsárkány a háttérben;
+
+00:11:37.266 --> 00:11:40.401
+vagy nagyon mozgalmas dolgoknak egy képe
+
+00:11:40.401 --> 00:11:45.045
+mint egy férfi, egy gördeszka, korlátok, 
+egy lámpaoszlop és így tovább.
+
+00:11:45.045 --> 00:11:50.338
+Néha, amikor a számítógép nem biztos
+benne, hogy mit lát,
+
+00:11:50.518 --> 00:11:53.774
+megtanítottuk arra, hogy 
+kellő biztonsággal válaszoljon,
+
+00:11:53.774 --> 00:11:57.652
+anélkül, hogy túl határozott lenne,
+
+00:11:57.652 --> 00:12:00.463
+éppúgy, ahogy mi tennénk
+
+00:12:00.463 --> 00:12:05.129
+Máskor viszont az algoritmusunk
+figyelemre méltó pontossággal közli.
+
+00:12:05.129 --> 00:12:07.382
+hogy milyen tárgyakat lát,
+
+00:12:07.382 --> 00:12:10.818
+mint az autók gyártmánya, 
+modellje, évjárata.
+
+00:12:10.818 --> 00:12:16.204
+Ezt az algoritmust alkalmaztuk 
+a Google több millió utcaképére
+
+00:12:16.204 --> 00:12:19.339
+amerikai városok százairól
+
+00:12:19.339 --> 00:12:22.265
+és valami igazán érdekeset tapasztaltunk:
+
+00:12:22.265 --> 00:12:25.585
+először is, alátámasztotta 
+a mindennapi bölcsességünket,
+
+00:12:25.585 --> 00:12:28.875
+hogy a kocsiárak nagyon szoros 
+összefüggésben vannak
+
+00:12:28.875 --> 00:12:31.220
+a háztartási jövedelmekkel.
+
+00:12:31.220 --> 00:12:35.747
+De meglepő módon, szoros 
+összefüggésben vannak
+
+00:12:35.747 --> 00:12:38.047
+a bűnözési rátával a városokban,
+
+00:12:39.007 --> 00:12:42.970
+valamint az irányítószámok szerinti 
+szavazási mintákkal.
+
+00:12:43.790 --> 00:12:46.266
+Na, álljunk csak meg egy percre!. 
+Mi történik itt?
+
+00:12:46.266 --> 00:12:51.419
+A számítógép már elérte vagy 
+még felül is múlta az emberi képességeket?
+
+00:12:51.419 --> 00:12:53.557
+Azért csak lassan a testtel!
+
+00:12:53.557 --> 00:12:58.480
+Mindeddig, csak azt tanítottuk meg a 
+számítógépeknek, hogy lássák a tárgyakat.
+
+00:12:58.480 --> 00:13:03.124
+Ez olyan, mint amikor egy kis gyermek 
+megtanul kimondani néhány főnevet.
+
+00:13:03.124 --> 00:13:05.794
+Ez egy hihetetlen teljesítmény,
+
+00:13:05.794 --> 00:13:08.254
+de csak az első lépés.
+
+00:13:08.254 --> 00:13:12.016
+Nemsokára elérünk a fejlődés 
+egy másik mérföldkövéhez,
+
+00:13:12.016 --> 00:13:15.477
+és a gyerekek elkezdenek 
+mondatokban kommunikálni.
+
+00:13:15.477 --> 00:13:19.701
+Így ahelyett, hogy 
+"ez egy macska a képen",
+
+00:13:19.701 --> 00:13:24.903
+már azt hallották a kislánytól, hogy 
+"egy macska fekszik egy ágyon".
+
+00:13:24.903 --> 00:13:30.498
+Ahhoz, hogy egy számítógépet megtanítsunk
+képeket látni és mondatokat alkotni,
+
+00:13:30.498 --> 00:13:34.446
+a big data technika és a gépi tanulási 
+algoritmusok együttesének
+
+00:13:34.446 --> 00:13:36.721
+eggyel tovább kell lépnie.
+
+00:13:36.721 --> 00:13:40.877
+A számítógépnek
+képesnek kell lennie mind képekből,
+
+00:13:40.877 --> 00:13:43.733
+mind pedig emberek által alkotott
+
+00:13:43.733 --> 00:13:47.055
+természetes nyelvi mondatokból tanulni.
+
+00:13:47.055 --> 00:13:50.908
+Annak mintájára, ahogy az agy 
+egyesíti a látást a nyelvvel,
+
+00:13:50.908 --> 00:13:56.109
+kifejlesztettünk egy modellt, ami 
+összekapcsolja a látható dolgok részeit
+
+00:13:56.109 --> 00:13:58.013
+vizuális töredékekként,
+
+00:13:58.013 --> 00:14:02.216
+szavakkal és kifejezésekkel a mondatokban.
+
+00:14:02.216 --> 00:14:04.979
+Körülbelül négy hónappal ezelőtt
+
+00:14:04.979 --> 00:14:07.626
+végül mindezt összekötöttük
+
+00:14:07.626 --> 00:14:11.410
+és megalkottuk az első 
+számítógép látómodellek egyikét,
+
+00:14:11.410 --> 00:14:15.404
+amely képes létrehozni 
+egy emberihez hasonló mondatot,
+
+00:14:15.404 --> 00:14:18.910
+amikor először lát egy képet.
+
+00:14:18.910 --> 00:14:23.554
+Nos, készen állok bemutatni önöknek, 
+hogy mit mond a számítógép,
+
+00:14:23.554 --> 00:14:25.529
+amikor látja a képet
+
+00:14:25.529 --> 00:14:29.359
+amit a kislány látott az előadás elején.
+
+00:14:31.519 --> 00:14:34.863
+(Video) Számítógép: 
+Egy férfi áll egy elefánt mellett.
+
+00:14:36.393 --> 00:14:40.027
+Egy nagy repülőgép ül 
+egy reptéri kifutópálya tetején.
+
+00:14:41.057 --> 00:14:45.269
+FFL: Természetesen még sokat kell 
+dolgoznunk az algoritmusunk fejlesztésén,
+
+00:14:45.269 --> 00:14:47.865
+és ez még sokat fog tanulni.
+
+00:14:47.865 --> 00:14:50.156
+(Taps)
+
+00:14:51.556 --> 00:14:54.877
+A számítógép még követ el hibákat.
+
+00:14:54.877 --> 00:14:58.268
+(Videó) Számítógép: Egy macska fekszik 
+egy ágyon egy takaróban.
+
+00:14:58.268 --> 00:15:00.821
+FFL: Így természetesen, 
+amikor túl sok macskát lát,
+
+00:15:00.821 --> 00:15:03.747
+azt gondolja, hogy 
+minden hasonlít egy macskára.
+
+00:15:05.317 --> 00:15:08.181
+(Videó) Számítógép: 
+Egy fiatal fiú tart egy baseball ütőt.
+
+00:15:08.181 --> 00:15:09.946
+(Nevetés)
+
+00:15:09.946 --> 00:15:14.529
+FFL: Vagy, ha ez még nem látott fogkefét, 
+összetéveszti egy baseballütővel.
+
+00:15:15.309 --> 00:15:18.743
+(Videó) Számítógép: Egy férfi lovagol 
+lenn az utcán egy épület mellett.
+
+00:15:18.743 --> 00:15:20.766
+(Nevetés)
+
+00:15:20.766 --> 00:15:24.318
+FFL: Még nem tanítottunk meg 
+a művészet alapjait a számítógépeknek.
+
+00:15:25.768 --> 00:15:28.652
+(Videó) Számítógép: 
+Egy zebra áll egy füves mezőn.
+
+00:15:28.652 --> 00:15:32.019
+FFL: És ez nem tanulta meg értékelni 
+a természet lenyűgöző szépségét
+
+00:15:32.019 --> 00:15:34.457
+mint önök és én.
+
+00:15:34.457 --> 00:15:37.289
+Nos, ez egy hosszú út volt.
+
+00:15:37.289 --> 00:15:41.515
+Nehéz volt eljutni
+a nullától a három éves korig.
+
+00:15:41.515 --> 00:15:47.111
+Az igazi kihívás a háromtól a tizenháromig
+jutni és annak a határain is túl.
+
+00:15:47.111 --> 00:15:51.476
+Hadd emlékeztessem önöket
+a fiúnak és a tortának erre képére.
+
+00:15:51.476 --> 00:15:55.540
+Mindez idáig, megtanítottuk 
+a számítógépet a tárgyakat látni
+
+00:15:55.540 --> 00:15:59.998
+vagy még egyszerű történeteket mondani 
+nekünk, mikor egy meglát egy képet.
+
+00:15:59.998 --> 00:16:03.574
+(Videó) Számítógép: Egy ember ül 
+egy asztalnál egy tortával.
+
+00:16:03.574 --> 00:16:06.204
+FFL: Azonban sokkal több 
+látható ezen a képen,
+
+00:16:06.204 --> 00:16:08.474
+nemcsak egy ember és egy torta.
+
+00:16:08.474 --> 00:16:12.941
+Amit a számítógép nem lát az az, 
+hogy ez egy különleges olasz torta,
+
+00:16:12.941 --> 00:16:16.158
+amit csak Húsvétkor szolgálnak fel.
+
+00:16:16.158 --> 00:16:19.363
+A fiú a kedvenc pólóját viseli,
+
+00:16:19.363 --> 00:16:23.000
+amit apukájától kapott ajándékba 
+egy Sydney-i kirándulás után,
+
+00:16:23.003 --> 00:16:27.141
+és hogy önök és én mindannyian 
+meg látjuk, hogy milyen boldog,
+
+00:16:27.141 --> 00:16:30.344
+és hogy pontosan mi járt a fejében 
+abban a pillanatban.
+
+00:16:31.214 --> 00:16:34.339
+Ez a fiam Leo.
+
+00:16:34.339 --> 00:16:36.963
+A vizuális megértés utáni kutatásom során
+
+00:16:36.963 --> 00:16:39.354
+állandóan Leora gondolok,
+
+00:16:39.354 --> 00:16:42.257
+és a jövőbeni világra, amiben élni fog.
+
+00:16:42.257 --> 00:16:44.278
+Amikor a gépek képesek lesznek látni,
+
+00:16:44.278 --> 00:16:48.990
+az orvosoknak és az ápolóknak 
+lesz egy plusz fáradhatatlan szempárjuk,
+
+00:16:48.990 --> 00:16:53.082
+amely segíteni fog a diagnózisban 
+és a betegeket ellátásában.
+
+00:16:53.082 --> 00:16:57.465
+Az autók intelligensebben és 
+biztonságosabban fognak haladni az úton.
+
+00:16:57.465 --> 00:17:00.159
+A robotok, nem csak az emberek,
+segíteni fognak nekünk
+
+00:17:00.159 --> 00:17:05.008
+katasztrófák helyszínén a csapdába 
+esettek és sérültek mentésében.
+
+00:17:05.798 --> 00:17:09.594
+Új fajokat, jobb anyagokat 
+fogunk felfedezni,
+
+00:17:09.594 --> 00:17:14.103
+és felfedezünk ismeretlen 
+határterületeket a gépek segítségével.
+
+00:17:15.113 --> 00:17:19.280
+Lassanként, látóképességet 
+adunk a gépeknek.
+
+00:17:19.280 --> 00:17:22.078
+Először megtanítjuk őket látni.
+
+00:17:22.078 --> 00:17:24.841
+Azután ők segítenek nekünk jobban látni.
+
+00:17:24.841 --> 00:17:29.006
+Első alkalommal, nem az 
+emberi szemek lesznek az egyetlenek,
+
+00:17:29.006 --> 00:17:31.940
+melyek elmerengenek
+és felfedezik a világot.
+
+00:17:31.940 --> 00:17:35.400
+Nem csak az intelligenciájukért 
+fogjuk használni a gépeket,
+
+00:17:35.400 --> 00:17:41.579
+olyan módon is együtt fogunk működni 
+velük, amit még el sem tudunk képzelni.
+
+00:17:41.579 --> 00:17:43.740
+Ez az én küldetésem:
+
+00:17:43.740 --> 00:17:46.452
+vizuális intelligenciát
+adni a számítógépeknek,
+
+00:17:46.452 --> 00:17:51.583
+és egy jobb jövőt teremteni 
+Leo és világ számára.
+
+00:17:51.583 --> 00:17:53.394
+Köszönöm.
+
+00:17:53.394 --> 00:17:57.179
+(Taps)
+

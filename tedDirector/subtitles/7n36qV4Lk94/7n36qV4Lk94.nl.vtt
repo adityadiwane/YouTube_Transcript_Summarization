@@ -1,0 +1,920 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+00:00:00.000 --> 00:00:07.000
+Vertaald door: Els De Keyser
+Nagekeken door: Rik Delaet
+
+00:00:13.160 --> 00:00:16.160
+Ik wil mijn verhaal beginnen in Duitsland, in 1877,
+
+00:00:16.160 --> 00:00:18.160
+met een wiskundige genaamd Georg Cantor.
+
+00:00:18.160 --> 00:00:23.160
+Cantor besloot om een lijn te nemen, het middelste derde te wissen,
+
+00:00:23.160 --> 00:00:28.160
+en op de twee resterende lijnen hetzelfde proces toe te passen, recursief.
+
+00:00:28.160 --> 00:00:30.160
+Hij begint dus met één lijn, dan twee,
+
+00:00:30.160 --> 00:00:33.160
+dan vier, dan 16 enzovoort.
+
+00:00:33.160 --> 00:00:36.160
+Als hij dat een oneindig aantal keren doet, wat kan in de wiskunde,
+
+00:00:36.160 --> 00:00:38.160
+krijgt hij een oneindig aantal lijnen,
+
+00:00:38.160 --> 00:00:41.160
+met elk een oneindig aantal punten.
+
+00:00:41.160 --> 00:00:45.160
+Hij besefte dat hij dus een verzameling had die een groter dan oneindig aantal elementen had.
+
+00:00:45.160 --> 00:00:48.160
+Hij werd er gek van. Letterlijk. Hij werd opgenomen in een gekkenhuis. (Gelach)
+
+00:00:48.160 --> 00:00:50.160
+Toen hij uit het gekkenhuis kwam,
+
+00:00:50.160 --> 00:00:56.160
+was hij ervan overtuigd dat zijn missie op aarde was om de verzamelingenleer uit te vinden,
+
+00:00:56.160 --> 00:00:59.160
+omdat de grootste oneindige verzameling God zelf zou zijn.
+
+00:00:59.160 --> 00:01:00.160
+Hij was een diepreligieus man.
+
+00:01:00.160 --> 00:01:02.160
+Hij was een wiskundige met een missie.
+
+00:01:02.160 --> 00:01:04.160
+Andere wiskundigen deden iets gelijkaardigs.
+
+00:01:04.160 --> 00:01:06.160
+Von Koch, een Zweedse wiskundige,
+
+00:01:06.160 --> 00:01:10.160
+besloot om in plaats van lijnen af te trekken, er toe te voegen.
+
+00:01:10.160 --> 00:01:12.160
+Dat leverde hem deze mooie curve op.
+
+00:01:12.160 --> 00:01:15.160
+Er is geen enkele reden waarom we met deze startvorm moeten starten,
+
+00:01:15.160 --> 00:01:19.160
+we kunnen om het even welke startvorm gebruiken.
+
+00:01:19.160 --> 00:01:23.160
+Ik schik dit wat anders en stop dit ergens -- daarbeneden,
+
+00:01:23.160 --> 00:01:30.160
+en nu ontvouwt de startvorm zich tot een structuur die er heel anders uitziet.
+
+00:01:30.160 --> 00:01:32.160
+Ze hebben allemaal de eigenschap dat ze zelfgelijkvormig zijn:
+
+00:01:32.160 --> 00:01:34.160
+elk deel lijkt op het geheel.
+
+00:01:34.160 --> 00:01:36.160
+Het is hetzelfde patroon op vele verschillende schalen.
+
+00:01:37.160 --> 00:01:39.160
+Wiskundigen vonden dit erg vreemd,
+
+00:01:39.160 --> 00:01:44.160
+want als je een lat verkleint, meet je een steeds langere lengte.
+
+00:01:44.160 --> 00:01:46.160
+En vermits ze de iteraties een oneindig aantal keren toepasten,
+
+00:01:46.160 --> 00:01:52.160
+ging de lengte naar oneindig naarmate de lat tot oneindig kromp.
+
+00:01:52.160 --> 00:01:53.160
+Dit had helemaal geen zin,
+
+00:01:53.160 --> 00:01:56.160
+dus verbanden ze deze grafieken naar het slot van de wiskundeboeken.
+
+00:01:56.160 --> 00:02:00.160
+"Dit zijn pathologische grafieken, en die moeten we niet bespreken."
+
+00:02:00.160 --> 00:02:01.160
+(Gelach)
+
+00:02:01.160 --> 00:02:03.160
+Dat werkte honderd jaar lang.
+
+00:02:04.160 --> 00:02:09.160
+In 1977 besefte Benoît Mandelbrot, een Franse wiskundige,
+
+00:02:09.160 --> 00:02:14.160
+dat als je computer graphics loslaat op vormen die hij fractals noemde,
+
+00:02:14.160 --> 00:02:16.160
+je uitkomt bij de vormen van de natuur.
+
+00:02:16.160 --> 00:02:20.160
+Je krijgt menselijke longen, acaciabomen, varens,
+
+00:02:20.160 --> 00:02:22.160
+je krijgt deze mooie natuurlijke vormen.
+
+00:02:22.160 --> 00:02:26.160
+Als je kijkt naar de plek waar je duim en wijsvinger samenkomen --
+
+00:02:26.160 --> 00:02:28.160
+dat kan je nu even doen --
+
+00:02:28.160 --> 00:02:31.160
+en je ontspant je hand, dan zie je een kronkel,
+
+00:02:31.160 --> 00:02:34.160
+en dan een rimpel in de kronkel, en een kronkel in de rimpel. Niet?
+
+00:02:34.160 --> 00:02:36.160
+Je lichaam zit vol fractals.
+
+00:02:36.160 --> 00:02:39.160
+De wiskundigen die beweerden dat het pathologisch nutteloze vormen waren?
+
+00:02:39.160 --> 00:02:41.160
+Die ademden deze woorden uit met fractale longen.
+
+00:02:41.160 --> 00:02:45.160
+Het is ironisch. Ik toon je nu een kleine natuurlijke recursie.
+
+00:02:45.160 --> 00:02:50.160
+We nemen deze lijnen en vervangen ze recursief door de volledige vorm.
+
+00:02:50.160 --> 00:02:55.160
+Hier is de tweede iteratie, en de derde, vierde, enzovoort.
+
+00:02:55.160 --> 00:02:57.160
+De natuur kent deze zelfgelijkvormige structuren.
+
+00:02:57.160 --> 00:02:59.160
+De natuur gebruikt zelforganiserende systemen.
+
+00:02:59.160 --> 00:03:02.160
+In de jaren '80 viel het mij toevallig op
+
+00:03:02.160 --> 00:03:06.160
+dat, als je naar een luchtfoto van een Afrikaans dorp kijkt, je fractals ziet.
+
+00:03:06.160 --> 00:03:10.160
+Ik dacht: "Dit is ongelooflijk! Waarom is dat zo?"
+
+00:03:10.160 --> 00:03:12.160
+Dus ging ik naar Afrika om de mensen te vragen waarom.
+
+00:03:12.160 --> 00:03:18.160
+Ik kreeg een Fulbright-beurs om een jaar lang door Afrika te reizen
+
+00:03:18.160 --> 00:03:20.160
+en mensen te vragen waarom ze fractals bouwden,
+
+00:03:20.160 --> 00:03:22.160
+wat een heerlijke baan is, als je ze kunt krijgen.
+
+00:03:22.160 --> 00:03:23.160
+(Gelach)
+
+00:03:23.160 --> 00:03:30.160
+Ik kwam dus in deze stad aan. Ik had een klein fractaal model voor de stad gemaakt
+
+00:03:30.160 --> 00:03:33.160
+om te zien hoe het zich zou ontwikkelen --
+
+00:03:33.160 --> 00:03:36.160
+maar toen ik aankwam, bij het paleis van de chef --
+
+00:03:36.160 --> 00:03:39.160
+mijn Frans is niet zo goed, dus ik zei iets in de trant van:
+
+00:03:39.160 --> 00:03:42.160
+"Ik ben wiskundige en ik zou graag op uw dak staan."
+
+00:03:42.160 --> 00:03:45.160
+Hij reageerde prima. Hij nam me mee naar boven
+
+00:03:45.160 --> 00:03:46.160
+en we praatten over fractals.
+
+00:03:46.160 --> 00:03:49.160
+Hij zei: "Oh ja, ja! We wisten van een rechthoek in een rechthoek,
+
+00:03:49.160 --> 00:03:51.160
+dat weten we allemaal."
+
+00:03:51.160 --> 00:03:55.160
+Blijkt dat op het koninklijk blazoen een rechthoek in een rechthoek in een rechthoek staat,
+
+00:03:55.160 --> 00:03:59.160
+en dat het pad door dat paleis deze spiraal hier is.
+
+00:03:59.160 --> 00:04:03.160
+Naarmate je het pad volgt, moet je alsmaar beleefder worden.
+
+00:04:03.160 --> 00:04:06.160
+Ze leggen de sociale ladder dus op de geometrische ladder.
+
+00:04:06.160 --> 00:04:11.160
+Het is een bewust patroon. Het is niet onbewust, als een termietenheuvelfractal.
+
+00:04:11.160 --> 00:04:13.160
+Dit is een dorp in zuidelijk Zambia.
+
+00:04:13.160 --> 00:04:17.160
+De Ba-lla hebben dit dorp van ongeveer 400 meter diameter gebouwd.
+
+00:04:17.160 --> 00:04:19.160
+Je hebt een heel grote ring.
+
+00:04:19.160 --> 00:04:25.160
+De ring die de familiekralen vertegenwoordigt, wordt alsmaar groter naarmate je naar achteren gaat.
+
+00:04:26.160 --> 00:04:30.160
+Hier achteraan heb je de kraal van de chef,
+
+00:04:30.160 --> 00:04:33.160
+en in die ring zit de naaste familie van de chef.
+
+00:04:33.160 --> 00:04:34.160
+Hier is een klein fractalmodel.
+
+00:04:34.160 --> 00:04:37.160
+Hier is een huis met het heilige altaar,
+
+00:04:37.160 --> 00:04:40.160
+hier is het huis der huizen, de familiekraal,
+
+00:04:40.160 --> 00:04:43.160
+met de mensen waar anders het heilige altaar is,
+
+00:04:43.160 --> 00:04:45.160
+en hier is het dorp als geheel,
+
+00:04:45.160 --> 00:04:50.160
+een kraal van kralen, met hier de uitgebreide familie van de chef, hier de naaste familie van de chef,
+
+00:04:50.160 --> 00:04:53.160
+en hier is een klein dorpje, maar zo groot.
+
+00:04:53.160 --> 00:04:57.160
+Je vraagt je misschien af hoe mensen passen in zo'n klein dorpje.
+
+00:04:57.160 --> 00:05:00.160
+Dat komt omdat het geestmensen zijn. Het zijn de voorouders.
+
+00:05:00.160 --> 00:05:05.160
+En de geestmensen hebben natuurlijk ook een minidorp in hun dorp, OK?
+
+00:05:05.160 --> 00:05:08.160
+Georg Cantor had dus gelijk, de recursie gaat eeuwig door.
+
+00:05:08.160 --> 00:05:12.160
+Dit zijn de Mandarabergen, nabij de grens met Nigeria in Kameroen, Mokoulek.
+
+00:05:12.160 --> 00:05:15.160
+Ik zag dit plan getekend door een Franse architect,
+
+00:05:15.160 --> 00:05:17.160
+en ik dacht: "Wow! Wat een mooie fractal!"
+
+00:05:17.160 --> 00:05:23.160
+Ik probeerde een basisvorm te vinden die na iteratie hierin zou resulteren.
+
+00:05:23.160 --> 00:05:25.160
+Ik kwam uit bij deze structuur.
+
+00:05:25.160 --> 00:05:29.160
+Even kijken, eerste iteratie, tweede, derde, vierde.
+
+00:05:29.160 --> 00:05:31.160
+Na de simulatie besefte ik
+
+00:05:31.160 --> 00:05:34.160
+dat het hele dorp zowat kronkelt, precies zo,
+
+00:05:34.160 --> 00:05:40.160
+en hier is de lijn die zich herhaalt, een zelfherhalende lijn die zich ontwikkelt tot de fractal.
+
+00:05:40.160 --> 00:05:45.160
+Ik merkte dat de lijn zich bevindt waar het enige vierkante gebouw van het dorp is.
+
+00:05:45.160 --> 00:05:47.160
+Toen ik aankwam in het dorp,
+
+00:05:47.160 --> 00:05:49.160
+zei ik: "Kan je me naar het vierkante gebouw brengen?
+
+00:05:49.160 --> 00:05:51.160
+Ik denk dat daar wat aan de hand is."
+
+00:05:51.160 --> 00:05:54.160
+Ze zeiden: "We kunnen je erheen brengen, maar je mag niet naar binnen,
+
+00:05:54.160 --> 00:05:57.160
+want dat is het heilige altaar, waar we elk jaar offers brengen
+
+00:05:57.160 --> 00:06:00.160
+om de jaarlijkse vruchtbaarheidscycli van de velden gaande te houden."
+
+00:06:00.160 --> 00:06:02.160
+Ik besefte dat de vruchtbaarheidscycli
+
+00:06:02.160 --> 00:06:06.160
+leken op de recursieve cycli in het geometrische algoritme dat dit bouwt.
+
+00:06:06.160 --> 00:06:10.160
+De recursie herhaalt zich in sommige dorpen tot op zeer kleine schaal.
+
+00:06:10.160 --> 00:06:12.160
+Hier is een Nankani-dorp in Mali.
+
+00:06:12.160 --> 00:06:15.160
+Je ziet het, je gaat binnen in de familiekraal --
+
+00:06:15.160 --> 00:06:19.160
+je gaat binnen en hier zijn potten in de haard die recursief gestapeld zijn.
+
+00:06:19.160 --> 00:06:23.160
+Hier zijn kalebassen die Issa ons daarnet toonde,
+
+00:06:23.160 --> 00:06:25.160
+en ze zijn recursief gestapeld.
+
+00:06:25.160 --> 00:06:27.160
+De kleinste kalebas hier bevat de ziel van de vrouw.
+
+00:06:27.160 --> 00:06:29.160
+Als ze sterft, houden ze een ceremonie.
+
+00:06:29.160 --> 00:06:34.160
+Ze breken deze stapel, de zalanga, en haar ziel stijgt op naar de eeuwigheid.
+
+00:06:34.160 --> 00:06:37.160
+Nogmaals, oneindigheid is belangrijk.
+
+00:06:38.160 --> 00:06:42.160
+Je kan je op dit punt drie vragen stellen.
+
+00:06:42.160 --> 00:06:46.160
+Zijn deze schaalpatronen niet universeel in alle inheemse architectuur?
+
+00:06:46.160 --> 00:06:48.160
+Dat was mijn oorspronkelijke hypothese.
+
+00:06:48.160 --> 00:06:50.160
+Toen ik deze Afrikaanse fractals voor het eerst zag,
+
+00:06:50.160 --> 00:06:54.160
+dacht ik: "Wow, dus inheemse groepen die een maatschappij zonder staat hebben,
+
+00:06:54.160 --> 00:06:57.160
+zonder die hiërarchie, hebben dus een soort architectuur van onderuit."
+
+00:06:57.160 --> 00:06:59.160
+Maar dat blijkt niet waar te zijn.
+
+00:06:59.160 --> 00:07:03.160
+Ik begon luchtfoto's te verzamelen van Indiaanse architectuur en uit het Stille Zuidzeegebied.
+
+00:07:03.160 --> 00:07:05.160
+Alleen de Afrikaanse waren fractal.
+
+00:07:05.160 --> 00:07:11.160
+Als je erover nadenkt zie je dat deze maatschappijen verschillende geometrische motieven gebruiken.
+
+00:07:11.160 --> 00:07:17.160
+Indianen gebruiken een combinatie van circulaire symmetrie en viervoudige symmetrie.
+
+00:07:17.160 --> 00:07:19.160
+Je ziet het op de potten en de manden.
+
+00:07:19.160 --> 00:07:22.160
+Hier is een luchtfoto van een ruïne van de Anasazi.
+
+00:07:22.160 --> 00:07:27.160
+Je ziet dat het op de grootste schaal circulair is, maar het is rechthoekig op kleinere schaal.
+
+00:07:27.160 --> 00:07:31.160
+Het is niet hetzelfde patroon op twee verschillende schalen.
+
+00:07:31.160 --> 00:07:32.160
+Ten tweede kan je vragen:
+
+00:07:32.160 --> 00:07:35.160
+"Dr. Eglash, gaat u niet voorbij aan de diversiteit van de Afrikaanse culturen?"
+
+00:07:36.160 --> 00:07:38.160
+Het antwoord is drie keer neen.
+
+00:07:38.160 --> 00:07:42.160
+Ten eerste ben ik het eens met Mudimbe's fantastische boek "De uitvinding van Afrika":
+
+00:07:42.160 --> 00:07:45.160
+Afrika is een kunstmatige uitvinding, eerst van het kolonialisme,
+
+00:07:45.160 --> 00:07:47.160
+en daarna van oppositiebewegingen.
+
+00:07:47.160 --> 00:07:52.160
+Nee, omdat een breed gedragen ontwerppraktijk niet noodzakelijk tot ééngemaakte cultuur leidt --
+
+00:07:52.160 --> 00:07:55.160
+en het zit zeker niet in het DNA.
+
+00:07:55.160 --> 00:07:57.160
+Tenslotte zijn fractals zelfgelijkvormig --
+
+00:07:57.160 --> 00:08:01.160
+ze lijken dus op zichzelf, maar ze lijken niet noodzakelijk op elkaar --
+
+00:08:01.160 --> 00:08:03.160
+je ziet heel verschillende toepassingen van fractals.
+
+00:08:03.160 --> 00:08:05.160
+In Afrika is het een gemeenschappelijke technologie.
+
+00:08:06.160 --> 00:08:09.160
+Tenslotte, is dit niet gewoon intuïtie?
+
+00:08:09.160 --> 00:08:11.160
+Het is niet echt wiskundige kennis.
+
+00:08:11.160 --> 00:08:14.160
+Het kan toch niet dat Afrikanen fractale geometrie gebruiken, niet?
+
+00:08:14.160 --> 00:08:16.160
+Het is pas in de jaren '70 uitgevonden.
+
+00:08:17.160 --> 00:08:22.160
+Het is waar dat sommige Afrikaanse fractals wat mij betreft pure intuïtie zijn.
+
+00:08:22.160 --> 00:08:25.160
+Voor sommige dingen wandelde ik door de straten van Dakar,
+
+00:08:25.160 --> 00:08:28.160
+en vroeg ik mensen: "Wat is het algoritme? Wat is de regel om dit te maken?"
+
+00:08:28.160 --> 00:08:29.160
+Ze zeiden:
+
+00:08:29.160 --> 00:08:32.160
+"We maken het gewoon zo omdat het er goed uitziet, stomkop!" (Gelach)
+
+00:08:32.160 --> 00:08:35.160
+Maar soms is dat niet zo.
+
+00:08:35.160 --> 00:08:40.160
+Soms waren er wel algoritmen, en wel erg gesofisticeerde algoritmen.
+
+00:08:40.160 --> 00:08:43.160
+In de sculpturen van de Mangbetu zie je deze recursieve geometrie.
+
+00:08:43.160 --> 00:08:48.160
+In Ethiopische kruisen zie je deze vorm die zich wonderlijk ontwikkelt.
+
+00:08:48.160 --> 00:08:52.160
+In Angola tekenen de Chokwe lijnen in het zand.
+
+00:08:52.160 --> 00:08:55.160
+Het is wat de Duitse mathematicus Euler een graaf noemde.
+
+00:08:55.160 --> 00:08:57.160
+We noemen het nu een Euler-pad --
+
+00:08:57.160 --> 00:08:59.160
+je mag je stift niet van de oppervlakte optillen
+
+00:08:59.160 --> 00:09:02.160
+en je mag nooit twee keer over dezelfde lijn gaan.
+
+00:09:02.160 --> 00:09:05.160
+Ze doen het recursief, en volgens een leeftijdsklasseysteem.
+
+00:09:05.160 --> 00:09:08.160
+Kleine kinderen leren deze, oudere kinderen leren deze,
+
+00:09:08.160 --> 00:09:11.160
+en bij de initiatie van de volgende leeftijdsklasse leer je deze.
+
+00:09:11.160 --> 00:09:14.160
+Bij elke iteratie van dat algoritme
+
+00:09:14.160 --> 00:09:16.160
+leer je de iteraties van de mythe.
+
+00:09:16.160 --> 00:09:18.160
+Je leert het volgende kennisniveau.
+
+00:09:19.160 --> 00:09:21.160
+Tenslotte zie je over heel Afrika dit bordspel.
+
+00:09:21.160 --> 00:09:24.160
+Het heet Owari in Ghana, waar ik het bestudeerde.
+
+00:09:24.160 --> 00:09:29.160
+Het heet Mancala hier op de oostkust, Bao in Kenya, elders Sogo.
+
+00:09:29.160 --> 00:09:34.160
+Je ziet zelforganiserende patronen die spontaan voorkomen in dit bordspel.
+
+00:09:34.160 --> 00:09:37.160
+De mensen in Ghana kenden deze zelforganiserende patronen
+
+00:09:37.160 --> 00:09:39.160
+en gebruikten ze strategisch.
+
+00:09:39.160 --> 00:09:41.160
+Dit is dus heel bewuste kennis.
+
+00:09:41.160 --> 00:09:43.160
+Hier is een wonderlijke fractal.
+
+00:09:43.160 --> 00:09:47.160
+Waar je ook gaat in de Sahel zie je dit windscherm.
+
+00:09:47.160 --> 00:09:51.160
+Overal ter wereld zijn hekken Cartesiaans, strikt lineair.
+
+00:09:51.160 --> 00:09:55.160
+Maar hier in Afrika zie je deze niet-lineare hekken.
+
+00:09:55.160 --> 00:09:57.160
+Ik kwam één van de mensen op het spoor die deze dingen maken,
+
+00:09:57.160 --> 00:10:01.160
+een man in Mali net buiten Bamako, en ik vroeg hem:
+
+00:10:01.160 --> 00:10:03.160
+"Waarom maak je fractale hekken? Niemand anders doet dat."
+
+00:10:03.160 --> 00:10:05.160
+Zijn antwoord was zeer interessant.
+
+00:10:05.160 --> 00:10:10.160
+"Wel, als ik in de jungle zou leven, zou ik alleen de lange rijen stro gebruiken,
+
+00:10:10.160 --> 00:10:12.160
+want die zijn heel snel en heel goedkoop.
+
+00:10:12.160 --> 00:10:15.160
+Je hebt niet veel tijd nodig, en niet veel stro.
+
+00:10:15.160 --> 00:10:17.160
+Maar de wind en het stof raken er gemakkelijk door.
+
+00:10:17.160 --> 00:10:21.160
+De dichte rijen helemaal bovenaan, die houden de wind en het stof tegen.
+
+00:10:21.160 --> 00:10:26.160
+Daar heb je veel tijd en veel stro voor nodig, want die zijn heel dicht.
+
+00:10:26.160 --> 00:10:28.160
+We weten uit ervaring dat
+
+00:10:28.160 --> 00:10:33.160
+hoe verder van de grond je gaat, hoe sterker de wind waait."
+
+00:10:33.160 --> 00:10:36.160
+Het is dus gewoon een kosten-batenanalyse.
+
+00:10:36.160 --> 00:10:38.160
+Ik mat de lengte van het stro,
+
+00:10:38.160 --> 00:10:40.160
+ik zette het op een log-log-grafiek, rekende de herschalingexponent
+
+00:10:40.160 --> 00:10:45.160
+en die is bijna exact gelijk aan de herschalingsexponent van de relatie tussen wind en hoogte
+
+00:10:45.160 --> 00:10:46.160
+in een handboek windingenieurskunst.
+
+00:10:46.160 --> 00:10:51.160
+Deze lui zijn dus goed op weg om praktisch gebruik te maken van herschalingstechnologie.
+
+00:10:51.160 --> 00:10:56.160
+Het meest complexe voorbeeld van een algoritmische benadering van fractals
+
+00:10:56.160 --> 00:10:58.160
+vond ik niet in meetkunde maar in een symbolische code,
+
+00:10:58.160 --> 00:11:01.160
+namelijk zandwaarzeggerij bij de Bamana.
+
+00:11:01.160 --> 00:11:04.160
+Je vindt hetzelfde waarzeggingssysteem overal in Afrika.
+
+00:11:04.160 --> 00:11:09.160
+Je vindt het op de Oostkust en op de Westkust,
+
+00:11:09.160 --> 00:11:11.160
+en de symbolen zijn vaak goed bewaard,
+
+00:11:11.160 --> 00:11:17.160
+ze hebben elk vier bits -- het is een binair woord van vier bits --
+
+00:11:17.160 --> 00:11:22.160
+je trekt deze lijnen willekeurig in het zand, en telt dan terug.
+
+00:11:22.160 --> 00:11:24.160
+Is het oneven, dan trek je één lijn,
+
+00:11:24.160 --> 00:11:26.160
+is het even, dan trek je twee lijnen.
+
+00:11:26.160 --> 00:11:29.160
+Ze deden dit heel snel
+
+00:11:29.160 --> 00:11:31.160
+en ik snapte niet waar ze heengingen --
+
+00:11:31.160 --> 00:11:33.160
+ze deden het willekeurige stuk maar vier keer --
+
+00:11:33.160 --> 00:11:35.160
+ik snapte niet waar de andere 12 symbolen vandaan kwamen.
+
+00:11:35.160 --> 00:11:37.160
+Ze wilden het me niet zeggen.
+
+00:11:37.160 --> 00:11:39.160
+Ze zeiden: "Nee, nee, ik kan het je niet vertellen.
+
+00:11:39.160 --> 00:11:41.160
+Ik zei: "Kijk, ik betaal je, je kan mijn leraar zijn
+
+00:11:41.160 --> 00:11:43.160
+en ik zal je elke dag komen betalen."
+
+00:11:43.160 --> 00:11:46.160
+Ze zeiden: "Het is geen kwestie van geld. Het is een kwestie van religie."
+
+00:11:46.160 --> 00:11:47.160
+Ten einde raad zei ik:
+
+00:11:47.160 --> 00:11:50.160
+"Laat me jullie Georg Cantor in 1877 uitleggen."
+
+00:11:50.160 --> 00:11:54.160
+Ik begon uit te leggen waarom ik in Afrika was,
+
+00:11:54.160 --> 00:11:56.160
+en ze werden opgewonden toen ze de Cantorverzameling zagen.
+
+00:11:56.160 --> 00:12:00.160
+Eén van hen zei: "Kom hier, ik denk dat ik je kan helpen."
+
+00:12:00.160 --> 00:12:05.160
+Hij leidde me door het initiatieritueel van een Bamanapriester.
+
+00:12:05.160 --> 00:12:07.160
+Ik was natuurlijk alleen in de wiskunde geïnteresseerd,
+
+00:12:07.160 --> 00:12:09.160
+en hij bleef de hele tijd met zijn hoofd schudden:
+
+00:12:09.160 --> 00:12:10.160
+"Weet je, zo heb ik het niet geleerd."
+
+00:12:10.160 --> 00:12:14.160
+Ik moest slapen met een kolanoot naast mijn bed, begraven in het zand,
+
+00:12:14.160 --> 00:12:17.160
+en ik moest zeven munten geven aan de zeven melaatsen enzovoort.
+
+00:12:17.160 --> 00:12:21.160
+Uiteindelijk onthulde hij de waarheid.
+
+00:12:22.160 --> 00:12:26.160
+Het blijkt een pseudo-random getallengenerator te zijn die deterministische chaos gebruikt.
+
+00:12:26.160 --> 00:12:32.160
+Als je een symbool met 4 bits hebt, combineer je het zijdelings met een ander.
+
+00:12:32.160 --> 00:12:34.160
+Even plus oneven is oneven.
+
+00:12:34.160 --> 00:12:36.160
+Oneven plus oneven is oneven.
+
+00:12:36.160 --> 00:12:39.160
+Even plus even is even. Oneven plus oneven is even.
+
+00:12:39.160 --> 00:12:43.160
+Het is modulo 2 optellen, net zoals in de parity bit check van je computer.
+
+00:12:43.160 --> 00:12:47.160
+Vervolgens neem je dit symbool en introduceert het opnieuw.
+
+00:12:47.160 --> 00:12:49.160
+Zo ontstaat vanzelf diversiteit van symbolen.
+
+00:12:49.160 --> 00:12:53.160
+Ze gebruiken daarbij echt een soort deterministische chaos.
+
+00:12:53.160 --> 00:12:55.160
+Omdat het een binaire code is,
+
+00:12:55.160 --> 00:12:57.160
+kan je dit implementeren in hardware.
+
+00:12:57.160 --> 00:13:02.160
+Dat zou een fantastisch onderwijsinstrument voor Afrikaanse ingenieursscholen zijn.
+
+00:13:02.160 --> 00:13:05.160
+Het meest interessante dat ik erover ontdekte was historisch.
+
+00:13:05.160 --> 00:13:11.160
+In de 12e eeuw bracht Hugo van Santalla dit vanuit de islamitische mystici mee naar Spanje.
+
+00:13:11.160 --> 00:13:17.160
+Het vond zijn weg naar de alchemistische gemeenschap als geomantie:
+
+00:13:17.160 --> 00:13:19.160
+voorspellingen op basis van de aarde.
+
+00:13:19.160 --> 00:13:24.160
+Dit is een geomantische kaart die in 1390 voor Koning Richard II werd getekend.
+
+00:13:24.160 --> 00:13:27.160
+Leibniz, de Duitse wiskundige,
+
+00:13:27.160 --> 00:13:31.160
+had het over geomantie in zijn verhandeling "De Combinatoria".
+
+00:13:31.160 --> 00:13:35.160
+Hij zei: "In plaats van één zet en twee zetten
+
+00:13:35.160 --> 00:13:39.160
+kunnen we een één en een nul gebruiken, en we tellen met machten van twee."
+
+00:13:39.160 --> 00:13:41.160
+OK? Enen en nullen, het binaire talstelsel.
+
+00:13:41.160 --> 00:13:44.160
+George Bool nam het binaire talstelsel van Leibniz en creëerde de Booleaanse algebra.
+
+00:13:44.160 --> 00:13:47.160
+John von Neumann nam de Booleaanse algebra en creëerde de digitale computer.
+
+00:13:47.160 --> 00:13:50.160
+Al deze kleine PDA's en laptops --
+
+00:13:50.160 --> 00:13:53.160
+elk digitaal circuit ter wereld -- vinden hun oorsprong in Afrika.
+
+00:13:53.160 --> 00:13:58.160
+Ik weet dat Brian Eno zegt dat er niet genoeg Afrika in computers zit.
+
+00:13:58.160 --> 00:14:03.160
+Ik denk dat er niet genoeg Afrikaanse geschiedenis in Brian Eno zit.
+
+00:14:03.160 --> 00:14:06.160
+(Applaus)
+
+00:14:06.160 --> 00:14:10.160
+Laat me eindigen een kort woordje over toepassingen die we hiervoor vonden.
+
+00:14:10.160 --> 00:14:12.160
+Je kan naar onze website gaan,
+
+00:14:12.160 --> 00:14:14.160
+de applets zijn gratis. Ze draaien in de browser.
+
+00:14:14.160 --> 00:14:16.160
+Iedereen ter wereld kan ze gebruiken.
+
+00:14:16.160 --> 00:14:21.160
+Het Programma voor Bredere Participatie in Computers van de Nationale Wetenschapsstichting
+
+00:14:21.160 --> 00:14:28.160
+heeft ons recent geld gegeven om een programmeerbare versie te maken van deze ontwerptools.
+
+00:14:28.160 --> 00:14:30.160
+Over drie jaar zal hopelijk iedereen op het internet
+
+00:14:30.160 --> 00:14:33.160
+zijn eigen simulaties en artefacten kunnen maken.
+
+00:14:33.160 --> 00:14:38.160
+In de VS hebben we ons gericht op Afrikaans-Amerikaanse studenten, Native Americans en Latino's.
+
+00:14:38.160 --> 00:14:44.160
+We hebben statistisch significante verbetering gezien bij kinderen die deze software gebruiken in de wiskundeles,
+
+00:14:44.160 --> 00:14:47.160
+vergeleken met een controlegroep die de software niet heeft.
+
+00:14:47.160 --> 00:14:53.160
+Je krijgt een heel goed resultaat door kinderen te vertellen dat ze erfgoed hebben dat over wiskunde gaat,
+
+00:14:53.160 --> 00:14:57.160
+niet alleen over zingen en dansen.
+
+00:14:57.160 --> 00:15:00.160
+We startten een pilootprogramma in Ghana.
+
+00:15:00.160 --> 00:15:05.160
+We hebben een startbeurs, om te zien of mensen samen met ons hieraan willen werken.
+
+00:15:05.160 --> 00:15:08.160
+We vinden de toekomstige mogelijkheden daarvan heel spannend.
+
+00:15:08.160 --> 00:15:10.160
+We werken ook in design.
+
+00:15:10.160 --> 00:15:15.160
+Ik heb zijn naam niet vermeld -- mijn collega Kerry, in Kenya, heeft een fantastisch idee
+
+00:15:15.160 --> 00:15:20.160
+om een fractaalstructuur te gebruiken voor de postadressen van dorpen met een fractaalstructuur.
+
+00:15:20.160 --> 00:15:24.160
+Want als je een rasterstructuur probeert op te leggen aan het postsysteem van een fractaal dorp,
+
+00:15:24.160 --> 00:15:26.160
+dan past dat niet goed.
+
+00:15:26.160 --> 00:15:31.160
+Bernard Tschumi van Columbia University heeft dit gebruikt in een ontwerp voor een museum van Afrikaanse kunst.
+
+00:15:31.160 --> 00:15:39.160
+David Hughes van Ohio State University heeft een inleiding tot de Afrocentrische architectuur geschreven
+
+00:15:39.160 --> 00:15:41.160
+waarin hij sommige van deze fractaalstructuren gebruikt.
+
+00:15:41.160 --> 00:15:46.160
+Tenslotte wilde ik aanstippen dat deze idee van zelforganisatie,
+
+00:15:46.160 --> 00:15:48.160
+zoals we al hoorden, in het brein zit.
+
+00:15:48.160 --> 00:15:53.160
+Ze zit in de Google-zoekrobot van het brein.
+
+00:15:53.160 --> 00:15:55.160
+De reden waarom Google een succes was,
+
+00:15:55.160 --> 00:15:59.160
+is omdat ze de eersten waren om gebruik te maken van de zelforganiserende eigenschappen van het web.
+
+00:15:59.160 --> 00:16:01.160
+Het zit in ecologische duurzaamheid.
+
+00:16:01.160 --> 00:16:03.160
+Het zit in de ontwikkelende kracht van ondernemerschap,
+
+00:16:03.160 --> 00:16:05.160
+in de ethische kracht van democratie.
+
+00:16:06.160 --> 00:16:08.160
+Het zit ook in een paar slechte dingen.
+
+00:16:08.160 --> 00:16:11.160
+Zelforganisatie verklaart waarom AIDS zich zo snel verspreidt.
+
+00:16:11.160 --> 00:16:15.160
+Als je denkt dat kapitalisme, dat zelforganiserend is, geen vernietigend effect kan hebben,
+
+00:16:15.160 --> 00:16:17.160
+dan heb je je ogen niet voldoende open gehad.
+
+00:16:17.160 --> 00:16:21.160
+We moeten dus nadenken, zoals al eerder gezegd,
+
+00:16:21.160 --> 00:16:23.160
+over de traditionele Afrikaanse methodes van zelforganisatie.
+
+00:16:23.160 --> 00:16:25.160
+Het zijn robuuste algoritmes.
+
+00:16:26.160 --> 00:16:29.160
+Er zijn manieren om aan zelforganisatie -- aan ondernemerschap -- te doen
+
+00:16:29.160 --> 00:16:31.160
+die zacht en egalitair zijn.
+
+00:16:31.160 --> 00:16:35.160
+Als we een betere manier willen vinden om dat soort werk te doen,
+
+00:16:35.160 --> 00:16:40.160
+moeten we niet verder dan Afrika kijken om deze robuuste zelforganiserende algoritmes te vinden.
+
+00:16:40.160 --> 00:16:41.160
+Dankuwel.
+

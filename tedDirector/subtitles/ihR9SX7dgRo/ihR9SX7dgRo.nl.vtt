@@ -1,0 +1,694 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+00:00:00.000 --> 00:00:07.000
+Vertaald door: Rik Delaet
+Nagekeken door: Els De Keyser
+
+00:00:12.949 --> 00:00:14.773
+Ik ben blij om hier vanavond
+
+00:00:14.773 --> 00:00:16.662
+over iets te kunnen spreken
+
+00:00:16.662 --> 00:00:18.952
+waar we meer dan twee jaar 
+aan hebben gewerkt.
+
+00:00:18.952 --> 00:00:21.796
+Het gaat over additief fabriceren,
+
+00:00:21.796 --> 00:00:24.513
+ook bekend als 3D-printen.
+
+00:00:24.513 --> 00:00:26.231
+Je ziet hier dit object.
+
+00:00:26.231 --> 00:00:30.039
+Het lijkt vrij eenvoudig, 
+maar tegelijk is het vrij complex.
+
+00:00:30.549 --> 00:00:33.800
+Het is een verzameling 
+van concentrische geodetische structuren
+
+00:00:33.800 --> 00:00:36.795
+met koppelingen tussen elk ervan.
+
+00:00:36.795 --> 00:00:42.797
+Het is niet te maken 
+met traditionele productietechnieken.
+
+00:00:43.343 --> 00:00:47.290
+Het heeft een symmetrie 
+die je niet kunt hebben met spuitgieten.
+
+00:00:47.290 --> 00:00:50.879
+Je kunt het ook niet maken door frezen.
+
+00:00:51.470 --> 00:00:54.117
+Dit is een taak voor een 3D-printer,
+
+00:00:54.117 --> 00:00:58.598
+maar de meeste 3D-printers zouden er 
+drie tot tien uur werk aan hebben,
+
+00:00:58.598 --> 00:01:02.824
+en vanavond gaan we het risico nemen 
+om het ter plekke te fabriceren
+
+00:01:02.824 --> 00:01:05.401
+tijdens deze talk van 10 minuten.
+
+00:01:05.401 --> 00:01:07.440
+Duimen maar.
+
+00:01:08.350 --> 00:01:11.624
+3D-printen is eigenlijk 
+een foute benaming.
+
+00:01:11.624 --> 00:01:15.399
+Het is eigenlijk herhaaldelijk 2D-printen,
+
+00:01:15.409 --> 00:01:19.761
+gebruik makend van 2D-printtechnologie.
+
+00:01:20.401 --> 00:01:25.360
+Bij het inkjetprinten maak je met inkt 
+letters op een pagina.
+
+00:01:25.360 --> 00:01:28.866
+Doe je dit telkens opnieuw 
+dan krijg je een driedimensionaal object.
+
+00:01:28.866 --> 00:01:32.417
+In de micro-elektronica gebruiken ze 
+daarvoor iets soortgelijks.
+
+00:01:32.417 --> 00:01:33.777
+Dat heet lithografie.
+
+00:01:33.777 --> 00:01:36.575
+Zo maken ze transistors 
+en geïntegreerde schakelingen
+
+00:01:36.575 --> 00:01:39.347
+door een structuur 
+in meerdere fasen op te bouwen.
+
+00:01:39.347 --> 00:01:42.039
+Dat zijn allemaal 2D-druktechnieken.
+
+00:01:42.099 --> 00:01:45.987
+Ik ben chemicus en materiaalkundige.
+
+00:01:45.987 --> 00:01:48.711
+Ook mijn mede-uitvinders 
+zijn materiaalkundigen:
+
+00:01:48.711 --> 00:01:51.010
+een is chemicus, een fysicus.
+
+00:01:51.010 --> 00:01:53.936
+We raakten geïnteresseerd in 3D-printing.
+
+00:01:53.936 --> 00:01:59.531
+Zoals je weet komen nieuwe ideeën 
+vaak van de wisselwerking
+
+00:01:59.531 --> 00:02:03.274
+tussen mensen met achtergronden 
+in verschillende disciplines.
+
+00:02:03.274 --> 00:02:04.751
+Dit is ons verhaal.
+
+00:02:05.591 --> 00:02:08.122
+De Terminator 2-scène voor T-1000
+
+00:02:08.122 --> 00:02:12.893
+inspireerde ons
+
+00:02:12.893 --> 00:02:17.826
+om met een 3D-printer
+
+00:02:17.826 --> 00:02:23.042
+een object uit een plas te laten oprijzen,
+
+00:02:23.051 --> 00:02:25.520
+in realtime.
+
+00:02:25.520 --> 00:02:27.749
+Zou je zo zonder afval,
+
+00:02:27.749 --> 00:02:29.591
+net als in de film,
+
+00:02:29.591 --> 00:02:31.668
+een ​​groot object kunnen maken?
+
+00:02:31.668 --> 00:02:34.877
+Zou Hollywood ons kunnen inspireren
+
+00:02:34.877 --> 00:02:38.384
+om dit te proberen?
+
+00:02:38.384 --> 00:02:40.450
+Dat was onze uitdaging.
+
+00:02:40.450 --> 00:02:43.817
+Als we daarin zouden slagen,
+
+00:02:43.817 --> 00:02:46.301
+zouden we drie kwesties kunnen aanpakken
+
+00:02:46.301 --> 00:02:50.086
+die verhinderen dat 3D-printen 
+uitgroeit tot een fabricageproces.
+
+00:02:50.086 --> 00:02:52.617
+Eén: 3D-printen duurt een eeuwigheid.
+
+00:02:52.617 --> 00:02:57.050
+Er zijn paddenstoelen die sneller groeien 
+dan 3D-geprinte onderdelen.
+
+00:02:57.050 --> 00:02:58.483
+(Gelach)
+
+00:02:58.483 --> 00:03:01.417
+Het laag-na-laagproces
+
+00:03:01.417 --> 00:03:04.319
+leidt tot defecten 
+in de mechanische eigenschappen.
+
+00:03:04.319 --> 00:03:08.266
+Continu kweken 
+kan deze gebreken elimineren.
+
+00:03:08.266 --> 00:03:11.524
+Als we echt snel kunnen kweken,
+
+00:03:11.524 --> 00:03:14.782
+kunnen we ook zelfuithardende 
+materialen gaan gebruiken.
+
+00:03:14.782 --> 00:03:18.042
+Met verbazingwekkende eigenschappen.
+
+00:03:18.042 --> 00:03:22.151
+Als we Hollywood konden nadoen,
+
+00:03:22.151 --> 00:03:24.912
+waren we klaar voor 3D-productie.
+
+00:03:26.702 --> 00:03:29.953
+Onze aanpak vertrekt
+
+00:03:29.953 --> 00:03:32.553
+van standaardkennis uit de polymeerchemie:
+
+00:03:32.553 --> 00:03:39.152
+licht en zuurstof benutten 
+om onderdelen continu te laten groeien.
+
+00:03:39.152 --> 00:03:42.099
+Licht en zuurstof 
+werken op verschillende manieren.
+
+00:03:42.099 --> 00:03:44.831
+Licht kan een hars omzetten 
+in een vaste stof,
+
+00:03:44.831 --> 00:03:47.795
+een vloeistof converteren 
+naar een vaste stof.
+
+00:03:47.795 --> 00:03:50.829
+Zuurstof remt dat proces.
+
+00:03:50.829 --> 00:03:53.886
+Zo zijn licht en zuurstof
+
+00:03:53.886 --> 00:03:56.943
+vanuit chemisch oogpunt 
+elkaars tegenpolen.
+
+00:03:56.943 --> 00:04:00.001
+Als we licht en zuurstof 
+ruimtelijk kunnen beheersen
+
+00:04:00.001 --> 00:04:01.948
+dan kunnen we dit proces sturen.
+
+00:04:02.288 --> 00:04:05.739
+We noemen dit CLIP. 
+[Continue Liquid Interface Production.]
+
+00:04:05.739 --> 00:04:07.615
+Er zijn drie functionele componenten.
+
+00:04:08.465 --> 00:04:12.326
+Eén: een reservoir met de vloeistof,
+
+00:04:12.326 --> 00:04:13.735
+net als de T-1000.
+
+00:04:13.735 --> 00:04:16.911
+Aan de onderzijde van het reservoir 
+zit een speciaal venster.
+
+00:04:16.911 --> 00:04:18.112
+Later meer daarover.
+
+00:04:18.112 --> 00:04:21.892
+Daarnaast een plateau 
+dat in de vloeistof zakt
+
+00:04:21.892 --> 00:04:24.481
+en het voorwerp uit de vloeistof trekt.
+
+00:04:24.481 --> 00:04:28.285
+De derde component 
+zit onder het reservoir:
+
+00:04:28.285 --> 00:04:30.305
+een digitaal lichtprojectiesysteem
+
+00:04:30.305 --> 00:04:33.577
+met ultraviolet licht.
+
+00:04:34.048 --> 00:04:37.271
+De sleutel is dit venster 
+in de bodem van dit reservoir.
+
+00:04:37.271 --> 00:04:40.150
+Het is een composiet, 
+een zeer speciaal venster.
+
+00:04:40.150 --> 00:04:43.796
+Het laat niet alleen licht, 
+maar ook zuurstof door.
+
+00:04:43.796 --> 00:04:46.455
+Net als bij een contactlens.
+
+00:04:47.435 --> 00:04:49.716
+Zo kunnen we zien hoe het proces werkt.
+
+00:04:49.716 --> 00:04:53.130
+Als je het plateau laat zakken
+
+00:04:53.130 --> 00:04:57.309
+zal je bij een traditioneel proces, 
+met een venster dat geen zuurstofdoorlaat,
+
+00:04:57.309 --> 00:04:59.148
+een tweedimensionaal patroon maken
+
+00:05:00.008 --> 00:05:03.370
+dat vastgelijmd zit 
+op het traditionele venster.
+
+00:05:03.370 --> 00:05:06.922
+Om de volgende laag te introduceren, 
+moet je het eerst losmaken,
+
+00:05:06.922 --> 00:05:10.451
+nieuw hars introduceren, herpositioneren,
+
+00:05:10.451 --> 00:05:12.910
+en dat telkens weer.
+
+00:05:13.400 --> 00:05:15.234
+Maar met ons zeer speciale venster
+
+00:05:15.234 --> 00:05:18.563
+kunnen we zuurstof 
+door de bodem laten komen.
+
+00:05:18.563 --> 00:05:21.236
+Als er licht op valt,
+
+00:05:21.256 --> 00:05:23.926
+verhindert zuurstof de reactie
+
+00:05:23.926 --> 00:05:26.550
+en vormen we een dode zone.
+
+00:05:26.550 --> 00:05:30.869
+Deze dode zone is 
+maar enkele tientallen micron dik.
+
+00:05:30.869 --> 00:05:34.096
+Ongeveer twee tot drie keer 
+de dikte van een rode bloedcel.
+
+00:05:34.096 --> 00:05:36.627
+Tegen het raam blijft het dus vloeibaar.
+
+00:05:36.627 --> 00:05:38.577
+Dan trekken we het object omhoog.
+
+00:05:38.577 --> 00:05:40.969
+In een artikel in Science legden we uit
+
+00:05:40.969 --> 00:05:43.770
+hoe we door het zuurstofgehalte 
+te wijzigen,
+
+00:05:43.770 --> 00:05:46.571
+we de dikte van de dode zone 
+kunnen wijzigen.
+
+00:05:46.571 --> 00:05:49.244
+We controleren dus 
+een aantal belangrijke variabelen:
+
+00:05:49.244 --> 00:05:52.759
+zuurstofgehalte, licht, lichtintensiteit, 
+dosis om uit te harden,
+
+00:05:52.759 --> 00:05:54.401
+viscositeit, geometrie.
+
+00:05:54.401 --> 00:05:57.817
+We gebruiken zeer geavanceerde software 
+om dit proces te sturen.
+
+00:05:58.697 --> 00:06:01.460
+Het resultaat is buitengewoon.
+
+00:06:01.460 --> 00:06:05.196
+Het gaat 25 tot 100 maal sneller 
+dan de traditionele 3D-printers.
+
+00:06:06.336 --> 00:06:08.170
+Dat is baanbrekend.
+
+00:06:08.170 --> 00:06:12.506
+Als we bovendien de vloeistof 
+sneller naar die interface krijgen,
+
+00:06:12.506 --> 00:06:16.246
+dan kunnen we volgens mij
+1.000 keer sneller gaan,
+
+00:06:16.246 --> 00:06:19.803
+en dat gaat veel warmte genereren.
+
+00:06:19.803 --> 00:06:23.866
+Als chemisch ingenieur ben ik 
+erg geïnteresseerd in warmteoverdracht.
+
+00:06:23.866 --> 00:06:28.045
+Ooit krijgen we misschien 
+watergekoelde 3D-printers.
+
+00:06:28.045 --> 00:06:30.437
+Omdat het zo snel gaat.
+
+00:06:30.437 --> 00:06:34.500
+Omdat we dingen kweken, 
+elimineren we de lagen
+
+00:06:34.500 --> 00:06:36.474
+en worden de onderdelen monolithisch.
+
+00:06:36.474 --> 00:06:38.564
+Je ziet geen oppervlaktestructuur meer.
+
+00:06:38.564 --> 00:06:41.057
+Je hebt moleculair gladde oppervlakken.
+
+00:06:41.057 --> 00:06:45.297
+De mechanische eigenschappen 
+van de meeste 3D-geprinte onderdelen
+
+00:06:45.297 --> 00:06:49.593
+zijn berucht omdat hun eigenschappen 
+afhangen van de oriëntatie
+
+00:06:49.593 --> 00:06:53.354
+waarmee geprint wordt 
+door de structuur in lagen.
+
+00:06:53.354 --> 00:06:55.699
+Maar als je objecten 
+op deze manier kweekt,
+
+00:06:55.699 --> 00:06:59.368
+zijn de eigenschappen 
+onafhankelijk van de printrichting.
+
+00:06:59.368 --> 00:07:02.317
+Het lijken spuitgegoten onderdelen,
+
+00:07:02.317 --> 00:07:05.729
+heel anders 
+dan bij de traditionele 3D-productie.
+
+00:07:05.729 --> 00:07:09.259
+Daarbij kunnen we
+
+00:07:09.259 --> 00:07:12.835
+de hele polymeerchemie hierop toepassen.
+
+00:07:12.835 --> 00:07:16.826
+We kunnen chemische technieken ontwerpen 
+die net die eigenschappen geven
+
+00:07:16.826 --> 00:07:19.868
+die je echt wil hebben 
+in een 3D-geprint object.
+
+00:07:19.868 --> 00:07:21.205
+(Applaus)
+
+00:07:21.205 --> 00:07:24.439
+Daar is het. Dat is geweldig.
+
+00:07:24.749 --> 00:07:29.369
+Je loopt altijd het risico dat zoiets 
+tijdens een demonstratie net niet lukt.
+
+00:07:29.369 --> 00:07:33.140
+We krijgen materialen met interessante
+mechanische eigenschappen.
+
+00:07:33.140 --> 00:07:35.494
+Voor het eerst 
+kunnen we elastomeren krijgen
+
+00:07:35.494 --> 00:07:37.955
+met een hoge elasticiteit en hoge demping.
+
+00:07:37.955 --> 00:07:41.368
+Bijvoorbeeld trillingbeheersing
+of geweldige loopschoenen.
+
+00:07:41.368 --> 00:07:43.978
+We kunnen 
+ongelooflijk sterke materialen maken,
+
+00:07:44.828 --> 00:07:48.404
+met een hoge sterkte-gewichtsverhouding, 
+echt sterke materialen,
+
+00:07:48.404 --> 00:07:50.517
+echt geweldige elastomeren.
+
+00:07:50.517 --> 00:07:53.242
+Dit gooi ik even in het publiek.
+
+00:07:53.242 --> 00:07:55.878
+Geweldige materiaaleigenschappen dus.
+
+00:07:55.878 --> 00:07:59.293
+Je hebt nu de mogelijkheid 
+om een onderdeel te maken
+
+00:07:59.293 --> 00:08:02.973
+met de eigenschappen van een eindproduct.
+
+00:08:02.973 --> 00:08:06.073
+Als je dat baanbrekend snel doet,
+
+00:08:06.073 --> 00:08:08.860
+krijg je een totaal nieuw soort 
+productieproces.
+
+00:08:08.860 --> 00:08:11.716
+Op dit moment heb je in de industrie
+
+00:08:11.716 --> 00:08:14.678
+de zogenaamde digitale draad 
+bij digitale productie.
+
+00:08:14.678 --> 00:08:19.167
+We gaan uit van een CAD-tekening 
+naar ontwerp, ​​prototype, vervaardigen.
+
+00:08:19.167 --> 00:08:22.440
+Vaak wordt de digitale draad 
+net bij het prototype onderbroken,
+
+00:08:22.440 --> 00:08:24.872
+omdat je de hele weg 
+naar productie niet kan gaan
+
+00:08:24.872 --> 00:08:28.587
+omdat de meeste delen geen eigenschappen 
+van een ​​eindproduct hebben.
+
+00:08:28.587 --> 00:08:31.818
+Nu kunnen we de digitale draad 
+helemaal vanaf het ontwerp
+
+00:08:31.818 --> 00:08:35.227
+tot prototype tot productie 
+doen aansluiten.
+
+00:08:35.227 --> 00:08:38.176
+Dat maakt allerlei dingen mogelijk.
+
+00:08:38.176 --> 00:08:42.659
+Van zuinigere auto's,
+geweldige roostereigenschappen
+
+00:08:42.659 --> 00:08:45.080
+met hoge sterkte-gewichtsverhouding,
+
+00:08:45.080 --> 00:08:48.508
+tot nieuwe turbinebladen, 
+allerlei prachtige dingen.
+
+00:08:49.467 --> 00:08:54.623
+Denk je eens in dat je een stent 
+nodig hebt in een noodsituatie.
+
+00:08:54.623 --> 00:08:58.593
+In plaats van een stent uit het schap
+
+00:08:58.593 --> 00:09:00.822
+met standaardmaten,
+
+00:09:00.822 --> 00:09:04.978
+krijg je een stent 
+op maat van je eigen anatomie
+
+00:09:04.978 --> 00:09:06.789
+met je eigen aderstructuur,
+
+00:09:06.789 --> 00:09:10.038
+in een noodsituatie in real time geprint
+
+00:09:10.038 --> 00:09:13.477
+zodat hij na 18 maanden kan oplossen, 
+echt baanbrekend.
+
+00:09:13.477 --> 00:09:17.633
+Of digitale tandheelkunde: 
+ze maken dit soort structuren
+
+00:09:17.633 --> 00:09:20.814
+terwijl je in de tandartsstoel zit.
+
+00:09:20.814 --> 00:09:23.530
+Kijk eens naar de structuren 
+die mijn studenten maken
+
+00:09:23.530 --> 00:09:25.504
+aan de Universiteit van North Carolina.
+
+00:09:25.504 --> 00:09:28.313
+Het zijn geweldige microschaalstructuren.
+
+00:09:28.313 --> 00:09:31.309
+De wereld is echt goed in nano-fabricage.
+
+00:09:31.309 --> 00:09:35.599
+De wet van Moore gaat over dingen 
+van 10 micron en minder.
+
+00:09:35.599 --> 00:09:37.201
+Daar zijn we echt goed in,
+
+00:09:37.201 --> 00:09:41.241
+maar het is heel moeilijk om dingen 
+te maken van 10 tot 1.000 micron,
+
+00:09:41.241 --> 00:09:43.261
+de mesoschaal.
+
+00:09:43.261 --> 00:09:46.094
+Met de subtractieve technieken 
+uit de siliciumindustrie
+
+00:09:46.094 --> 00:09:47.420
+lukt dat niet erg goed.
+
+00:09:47.420 --> 00:09:49.299
+Wafers etsen kunnen ze niet zo goed.
+
+00:09:49.299 --> 00:09:51.109
+Maar dit proces is zo subtiel.
+
+00:09:51.109 --> 00:09:53.594
+We kunnen objecten 
+van beneden af kweken,
+
+00:09:53.594 --> 00:09:55.070
+met additief fabriceren,
+
+00:09:55.070 --> 00:09:57.913
+en in tientallen seconden 
+verbazingwekkende dingen maken.
+
+00:09:57.913 --> 00:10:00.412
+Dat opent de weg 
+voor nieuwe sensortechnologieën,
+
+00:10:00.412 --> 00:10:02.757
+nieuwe technieken 
+voor medicatietoediening,
+
+00:10:02.757 --> 00:10:06.149
+nieuwe lab-on-a-chip-toepassingen, 
+weer baanbrekende dingen.
+
+00:10:07.149 --> 00:10:11.983
+Dus de mogelijkheid om in realtime 
+een ​​onderdeel te maken
+
+00:10:11.983 --> 00:10:14.816
+met de eigenschappen 
+van een afgewerkt product
+
+00:10:14.816 --> 00:10:17.352
+opent echt de weg naar 3D-productie.
+
+00:10:17.352 --> 00:10:21.822
+Voor ons is dit erg spannend, 
+nu zijn we echt baas over het kruispunt
+
+00:10:21.822 --> 00:10:27.589
+van hardware, software 
+en moleculaire wetenschappen.
+
+00:10:27.589 --> 00:10:31.755
+Ik kan niet wachten op wat ontwerpers 
+en ingenieurs over de hele wereld
+
+00:10:31.755 --> 00:10:34.029
+met deze geweldige methode 
+gaan kunnen doen.
+
+00:10:34.499 --> 00:10:36.618
+Bedankt voor jullie aandacht.
+
+00:10:36.618 --> 00:10:41.727
+(Applaus)
+

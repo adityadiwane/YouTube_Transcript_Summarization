@@ -1,0 +1,212 @@
+WEBVTT
+Kind: captions
+Language: pl
+
+00:00:00.000 --> 00:00:07.000
+Tłumaczenie: Joanna Stefanska
+Korekta: Rafal Marszalek
+
+00:00:19.330 --> 00:00:21.330
+W roku 1952 Buckminster Fuller
+
+00:00:21.330 --> 00:00:25.330
+zaprezentował wyjątkowo śmiały projekt Geoskopu.
+
+00:00:25.330 --> 00:00:28.330
+Była to kopuła geodezyjna o średnicy 60 metrów,
+
+00:00:28.330 --> 00:00:33.330
+która miała być zawieszona nad powierzchnią East River w Nowym Jorku, w miejscu widocznym z siedziby ONZ.
+
+00:00:33.330 --> 00:00:39.330
+To była wielka idea, która miała potencjał, by naprawdę dostarczać informacji
+
+00:00:39.330 --> 00:00:43.330
+i mieć znaczący wpływ na decyzje podejmowane przez tę instytucję,
+
+00:00:43.330 --> 00:00:47.330
+dzięki wyświetlanym na sferze animacjom, prezentującym
+
+00:00:47.330 --> 00:00:51.330
+globalne dane i trendy i inne informacje dotyczące planety.
+
+00:00:51.330 --> 00:00:54.330
+Dziś, 45 lat później,
+
+00:00:54.330 --> 00:00:57.330
+taki wgląd i perspektywa są z pewnością nie mniej potrzebne,
+
+00:00:57.330 --> 00:01:00.330
+a dziś mamy już lepszą technologię.
+
+00:01:00.330 --> 00:01:03.330
+Dziś nie potrzebujemy miliona żarówek, by stworzyć sferyczny wyświetlacz.
+
+00:01:03.330 --> 00:01:05.330
+Możemy użyć diod LED.
+
+00:01:05.330 --> 00:01:10.330
+Diody LED są mniejsze, tańsze, dłużej działają i są wydajniejsze.
+
+00:01:10.330 --> 00:01:12.330
+I co ważniejsze, są szybsze.
+
+00:01:12.330 --> 00:01:16.330
+Ta szybkość, w zestawieniu z nowoczesnymi, wydajnymi mikrokontrolerami
+
+00:01:16.330 --> 00:01:19.330
+pozwala nam, w tym modelu
+
+00:01:19.330 --> 00:01:23.330
+symulować działanie 17 000 diod za pomocą jedynie 64.
+
+00:01:24.330 --> 00:01:28.330
+Jest to możliwe dzięki efektom następczym wzroku.
+
+00:01:28.330 --> 00:01:32.330
+Ten pierścień obraca się z prędkością 1700 rpm - czyli 28 razy na sekundę.
+
+00:01:33.330 --> 00:01:36.330
+Prędkość punktów na równiku wynosi prawie 100 km/h.
+
+00:01:36.330 --> 00:01:38.330
+Wbudowano cztery mikrokontrolery,
+
+00:01:38.330 --> 00:01:41.330
+które przy każdym obrocie pierścienia,
+
+00:01:41.330 --> 00:01:43.330
+gdy mijają tył wyświetlacza,
+
+00:01:43.330 --> 00:01:45.330
+pobierają sygnał pozycyjny.
+
+00:01:45.330 --> 00:01:47.330
+Dzięki temu mikrokontrolery
+
+00:01:47.330 --> 00:01:52.330
+mogą ekstrapolować pozycję pierścienia we wszystkich punktach obrotu
+
+00:01:52.330 --> 00:01:55.330
+i wyświetlać z góry zadane obrazy i animacje bitowe.
+
+00:01:55.330 --> 00:01:58.330
+Ale to tylko początek.
+
+00:01:58.330 --> 00:02:01.330
+Poza wersją tego wyświetlacza o większej rozdzielczości,
+
+00:02:01.330 --> 00:02:04.330
+razem z ojcem pracujemy nad nowym projektem czekającym już na opatentowanie.
+
+00:02:04.330 --> 00:02:07.330
+Chodzi o w pełni przestrzenny wyświetlacz bazujący na tym samym zjawisku.
+
+00:02:07.330 --> 00:02:10.330
+Osiągamy to dzięki obrotom diod LED wokół dwóch osi.
+
+00:02:10.330 --> 00:02:13.330
+Jak tu widzicie, to jest obwód drukowany o średnicy 28 cm.
+
+00:02:13.330 --> 00:02:15.330
+Te klocki reprezentują diody LED.
+
+00:02:15.330 --> 00:02:19.330
+Jak widzicie, ten dysk obraca się wokół tej osi
+
+00:02:19.330 --> 00:02:22.330
+tworząc dysk światła, który możemy kontrolować.
+
+00:02:22.330 --> 00:02:24.330
+To nic nowego, to zegar widmowy.
+
+00:02:24.330 --> 00:02:27.330
+Takie obręcze można sobie kupić do samochodu.
+
+00:02:27.330 --> 00:02:32.330
+Ale nowość polega na tym, że gdy dysk obraca się wokół tej osi,
+
+00:02:32.330 --> 00:02:35.330
+dysk światła staje się kulą światła.
+
+00:02:35.330 --> 00:02:37.330
+I możemy tym sterować za pomocą mikrokontrolerów
+
+00:02:37.330 --> 00:02:43.330
+by stworzyć w pełni przestrzenny, trójwymiarowy wyświetlacz, używając tylko 256 diod LED.
+
+00:02:43.330 --> 00:02:45.330
+Ten mechanizm jeszcze nie został skończony --
+
+00:02:45.330 --> 00:02:50.330
+mamy termin w maju, ale stworzyliśmy krótki pokaz
+
+00:02:50.330 --> 00:02:54.330
+by zaprezentować jak geometrycznie można przekształcić punkty w sferę.
+
+00:02:54.330 --> 00:02:56.330
+Mam tu krótki film.
+
+00:02:56.330 --> 00:03:00.330
+Ale pamiętajcie, że tutaj nie ma jeszcze elektronicznych kontrolerów,
+
+00:03:00.330 --> 00:03:02.330
+i są tylko cztery diody LED.
+
+00:03:02.330 --> 00:03:05.330
+To tylko około 1,5% z wyświetlacza, który powstanie do maja.
+
+00:03:05.330 --> 00:03:07.330
+Zobaczcie.
+
+00:03:09.330 --> 00:03:13.330
+Tu widać, jak obraca się tylko wokół pionowej osi, tworząc okręgi.
+
+00:03:17.330 --> 00:03:19.330
+A tutaj dochodzi druga oś obrotu.
+
+00:03:19.330 --> 00:03:21.330
+I obraz rozmywa się tworząc bryłę.
+
+00:03:21.330 --> 00:03:23.330
+Czas otwarcia migawki w kamerze
+
+00:03:23.330 --> 00:03:26.330
+trochę osłabia efekt w tym przypadku.
+
+00:03:26.330 --> 00:03:28.330
+Ale skończymy to do maja.
+
+00:03:28.330 --> 00:03:31.330
+Gotowy model będzie można obejrzeć na wiosennych targach telekomunikacyjnych
+
+00:03:31.330 --> 00:03:33.330
+w Greenwich Village w Nowym Jorku - otwartych dla publiczności.
+
+00:03:33.330 --> 00:03:37.330
+A więc serdecznie wszystkich zapraszam do udziału - to fantastyczna impreza.
+
+00:03:37.330 --> 00:03:41.330
+Będą tam setki studentów-wynalazców ze swymi fantastycznymi projektami.
+
+00:03:41.330 --> 00:03:43.330
+To urządzenie będzie można obejrzeć
+
+00:03:43.330 --> 00:03:45.330
+w sali Sierra Simulcast Lounge
+
+00:03:45.330 --> 00:03:47.330
+w przerwach, od dziś do końca wystawy.
+
+00:03:47.330 --> 00:03:49.330
+Chętnie o tym z wami porozmawiam i zapraszam
+
+00:03:49.330 --> 00:03:51.330
+do przyjścia i dokładniejszego przyjrzenia się.
+
+00:03:51.330 --> 00:03:53.330
+Jestem zaszczycony będąc tutaj, bardzo dziękuję.
+
+00:03:53.330 --> 00:03:54.330
+(Brawa)
+

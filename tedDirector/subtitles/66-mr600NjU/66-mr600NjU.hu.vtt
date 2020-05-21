@@ -1,0 +1,1352 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Maria Ruzsane Cseresnyes
+Lektor: Reka Lorinczy
+
+00:00:12.588 --> 00:00:15.619
+Számítástudományt tanítok.
+
+00:00:15.619 --> 00:00:17.932
+Szakterületem
+
+00:00:17.932 --> 00:00:20.131
+a számítógép- és információbiztonság.
+
+00:00:20.131 --> 00:00:22.451
+Egyetemista koromban
+
+00:00:22.451 --> 00:00:25.052
+egyszer véletlenül meghallottam,
+hogy nagymamám
+
+00:00:25.052 --> 00:00:29.186
+hogyan határozta meg egy vele egykorúnak,
+
+00:00:29.186 --> 00:00:31.555
+hogy mivel is foglalkozom.
+
+00:00:31.555 --> 00:00:35.117
+Szerinte én felelek azért,
+
+00:00:35.117 --> 00:00:39.017
+hogy senki ne lopja el a számítógépeket 
+az egyetemről. (Nevetés)
+
+00:00:39.017 --> 00:00:41.711
+Valahol logikus volt az elképzelése,
+
+00:00:41.711 --> 00:00:43.571
+mert azt mondtam neki,
+
+00:00:43.591 --> 00:00:45.718
+hogy én ügyelek a számítógépek 
+biztonságára.
+
+00:00:45.718 --> 00:00:48.785
+Érdekes volt megtudni, 
+hogy ő ezt hogyan látja.
+
+00:00:48.785 --> 00:00:51.152
+De nem ez volt a legviccesebb,
+
+00:00:51.152 --> 00:00:53.419
+amit valaha a munkámmal 
+kapcsolatban hallottam.
+
+00:00:53.419 --> 00:00:55.703
+A legképtelenebb dolgot
+
+00:00:55.703 --> 00:00:58.447
+egy vacsoravendégségben hallottam.
+
+00:00:58.447 --> 00:01:01.730
+Egy nő, mikor meghallotta, hogy
+számítógép-biztonsággal foglalkozom,
+
+00:01:01.730 --> 00:01:04.137
+azzal fordult hozzám,
+
+00:01:04.137 --> 00:01:07.293
+hogy a gépe vírusfertőzött lett, 
+és aggódik amiatt,
+
+00:01:07.293 --> 00:01:11.524
+hogy esetleg ő is elkaphatja. 
+(Nevetés)
+
+00:01:11.524 --> 00:01:14.467
+Nem vagyok orvos, de megnyugtattam,
+
+00:01:14.467 --> 00:01:17.611
+hogy egyáltalán nem valószínű, 
+hogy ez megtörténik,
+
+00:01:17.611 --> 00:01:19.772
+de ha attól jobban érzi magát,
+
+00:01:19.772 --> 00:01:22.670
+akkor nyugodtan használjon
+gumikesztyűt, mikor számítógépezik,
+
+00:01:22.670 --> 00:01:25.652
+és nem fog ártani, bármi is van.
+
+00:01:25.652 --> 00:01:28.159
+Komolyra fordítva a szót,
+
+00:01:28.159 --> 00:01:31.167
+visszatérnék erre a lehetséges 
+számítógépes vírusfertőzésre.
+
+00:01:31.167 --> 00:01:33.517
+Amiről ma beszélni fogok,
+azok olyan megtörtént
+
+00:01:33.517 --> 00:01:38.153
+hackek és kibertámadások, 
+melyeket kollégáim,
+
+00:01:38.153 --> 00:01:40.707
+a tudományos kutatók közösségének tagjai
+
+00:01:40.707 --> 00:01:43.321
+hajtottak végre,
+
+00:01:43.321 --> 00:01:45.439
+és amelyekről szerintem 
+csak kevesen tudnak.
+
+00:01:45.439 --> 00:01:47.737
+Szerintem ezek nagyon 
+érdekesek és félelmetesek.
+
+00:01:47.737 --> 00:01:50.058
+Ez az előadás néhány 
+különleges hackről szól,
+
+00:01:50.058 --> 00:01:53.259
+amelyeket a biztonsággal foglalkozó
+tudományos közösség végzett el.
+
+00:01:53.259 --> 00:01:54.456
+Egyik sem az én munkám.
+
+00:01:54.456 --> 00:01:58.010
+Ezeket mind a kollégáim végezték el, 
+én csak elkértem tőlük az anyagokat,
+
+00:01:58.010 --> 00:02:00.177
+és beépítettem ebbe az előadásba.
+
+00:02:00.177 --> 00:02:01.629
+Először a beültetett
+
+00:02:01.629 --> 00:02:04.303
+orvosi eszközökről fogok beszélni.
+
+00:02:04.303 --> 00:02:07.323
+Az orvosi eszközök fejlődésének 
+komoly technológiai múltja van:
+
+00:02:07.323 --> 00:02:11.279
+Az első pacemakert [szívritmus-szabályzót]
+1926-ban fejlesztették ki.
+
+00:02:11.279 --> 00:02:14.521
+Az elsőt 1960-ban ültették be,
+
+00:02:14.521 --> 00:02:17.403
+és bizonyára valamivel kisebb volt, 
+mint amit ott látnak.
+
+00:02:17.403 --> 00:02:20.271
+Aztán a technológia tovább fejlődött.
+
+00:02:20.271 --> 00:02:24.904
+2006-ban fontos mérföldkőhöz érkeztünk
+
+00:02:24.904 --> 00:02:28.071
+az informatikai biztonság területén.
+
+00:02:28.071 --> 00:02:29.412
+Hogy miért mondom ezt?
+
+00:02:29.412 --> 00:02:32.302
+Mert ekkor jelentek meg 
+azok a beültetett eszközök,
+
+00:02:32.302 --> 00:02:35.047
+amelyek akár hálózatra is 
+csatlakoztathatók.
+
+00:02:35.047 --> 00:02:36.927
+Ilyen például
+
+00:02:36.927 --> 00:02:39.632
+Dick Cheney eszköze.
+
+00:02:39.632 --> 00:02:43.501
+Ez a készülék az aortából a szív 
+egy másik részébe pumpálja a vért.
+
+00:02:43.501 --> 00:02:44.684
+Ahogy itt lent látható,
+
+00:02:44.684 --> 00:02:47.413
+ezt egy számítógépes vezérlő irányítja.
+
+00:02:47.413 --> 00:02:51.230
+Aki kételkedne a szoftverek 
+megbízhatóságának fontosságában,
+
+00:02:51.230 --> 00:02:53.799
+annak javaslok egy ilyen 
+készüléket a testébe.
+
+00:02:53.799 --> 00:02:55.219
+Egy kutatócsoport kezelésbe
+
+00:02:55.219 --> 00:02:56.784
+vett egy úgynevezett ICD-t,
+
+00:02:56.784 --> 00:03:00.544
+- egy beültethető defibrillátort.
+
+00:03:00.544 --> 00:03:05.344
+Ez egy eszköz, amely 
+a szívritmust szabályozza,
+
+00:03:05.344 --> 00:03:07.658
+és amely sok életet mentett már meg.
+
+00:03:07.658 --> 00:03:10.130
+Hogy ne kelljen felnyitni az embert
+
+00:03:10.130 --> 00:03:12.024
+minden újraprogramozásnál,
+
+00:03:12.024 --> 00:03:14.199
+vagy az eszköz technikai 
+diagnosztizálásánál,
+
+00:03:14.199 --> 00:03:17.161
+képes a vezeték nélküli kommunikációra.
+
+00:03:17.161 --> 00:03:20.461
+A kutatócsoport visszafejtette 
+a vezeték nélküli protokollt,
+
+00:03:20.461 --> 00:03:23.323
+és elkészítették a képen látható,
+kis antennás eszközt,
+
+00:03:23.323 --> 00:03:25.693
+amellyel a protokoll révén
+
+00:03:25.693 --> 00:03:29.598
+kommunikálni tudnak az eszközzel,
+és irányítani is tudják.
+
+00:03:29.598 --> 00:03:32.287
+Hogy a kísérletük valósághű legyen --
+
+00:03:32.287 --> 00:03:34.509
+mivel nem találtak 
+önkéntes jelentkezőket --
+
+00:03:34.509 --> 00:03:37.343
+elmentek és vettek 
+darált marhahúst és szalonnát.
+
+00:03:37.343 --> 00:03:39.281
+Felgöngyölték az egészet akkorára,
+
+00:03:39.281 --> 00:03:41.509
+mint az eszközt befogadó emberi test,
+
+00:03:41.509 --> 00:03:43.203
+és betették az eszközt a belsejébe,
+
+00:03:43.203 --> 00:03:46.075
+hogy szimulálják a valós körülményeket.
+
+00:03:46.075 --> 00:03:49.095
+Sok-sok sikeres támadást indítottak.
+
+00:03:49.095 --> 00:03:51.811
+Kiemelném a páciens 
+nevének megváltoztatását.
+
+00:03:51.811 --> 00:03:53.694
+Nem tudom, miért csinálna ilyet valaki,
+
+00:03:53.694 --> 00:03:56.088
+de hogy velem tegyék, 
+azt biztos nem szeretném.
+
+00:03:56.088 --> 00:03:57.709
+Meg tudták változtatni a terápiát,
+
+00:03:57.709 --> 00:04:00.164
+beleértve az eszköz letiltását --
+és ezt egy igazi,
+
+00:04:00.164 --> 00:04:02.120
+forgalomban lévő készülékkel, --
+
+00:04:02.120 --> 00:04:04.016
+egyszerűen a működést visszafejtve,
+
+00:04:04.016 --> 00:04:07.005
+kívülről küldött jelekkel.
+
+00:04:07.005 --> 00:04:10.585
+Az egyik rádióműsorban azt mondták,
+
+00:04:10.585 --> 00:04:13.007
+hogy némely ICD működését 
+már az is zavarhatja,
+
+00:04:13.007 --> 00:04:16.658
+ha egy fejhallgatót közelítenek hozzá.
+
+00:04:16.658 --> 00:04:17.857
+A wireless és az internet
+
+00:04:17.857 --> 00:04:20.139
+jelentősen javíthatja 
+az egészségügyi ellátást.
+
+00:04:20.139 --> 00:04:22.166
+Számos olyan példát láthatunk a képernyőn,
+
+00:04:22.166 --> 00:04:24.913
+melyek esetében az orvosok 
+beültetett eszközt ajánlanak.
+
+00:04:24.913 --> 00:04:27.778
+Ezek az eszközök manapság
+
+00:04:27.778 --> 00:04:30.903
+alapból vezeték nélkül kommunikálnak.
+
+00:04:30.903 --> 00:04:32.225
+Szerintem ez nagyszerű.
+
+00:04:32.225 --> 00:04:35.420
+Ha nem tudnánk, mennyire 
+bízhatunk a számítástechnikában,
+
+00:04:35.420 --> 00:04:38.557
+ha nem lennénk tisztában már kezdetektől
+a lehetséges támadásokkal
+
+00:04:38.557 --> 00:04:40.604
+és a biztonsági kockázatokkal,
+
+00:04:40.604 --> 00:04:42.364
+nagyon sok veszélyt rejtene magában.
+
+00:04:42.364 --> 00:04:44.231
+Hadd mutassak most valami mást!
+
+00:04:44.231 --> 00:04:46.519
+Most másféle eszközökről is szólnék,
+
+00:04:46.519 --> 00:04:49.446
+és erről szól az előadásom.
+Kezdjük az autókkal!
+
+00:04:49.446 --> 00:04:51.742
+Ez egy olyan autó, amelybe manapság
+
+00:04:51.742 --> 00:04:53.502
+sok elektronikus alkatrészt építenek.
+
+00:04:53.502 --> 00:04:57.299
+Valójában sok-sok különböző
+számítógép van benne.
+
+00:04:57.299 --> 00:05:00.894
+Több Pentium, mint amennyi a laborban 
+volt, amikor egyetemista voltam.
+
+00:05:00.894 --> 00:05:04.533
+Ezek vezetékes hálózaton kapcsolódnak.
+
+00:05:04.533 --> 00:05:07.964
+Az autóban van egy 
+vezeték nélküli hálózat is,
+
+00:05:07.964 --> 00:05:11.197
+amit többféleképpen el lehet érni.
+
+00:05:11.197 --> 00:05:15.048
+Van Bluetooth, van FM és XM rádió,
+
+00:05:15.048 --> 00:05:17.408
+van maga a wi-fi,
+vannak érzékelők a kerekekben,
+
+00:05:17.408 --> 00:05:20.101
+melyek vezeték nélkül továbbítják
+a keréknyomás értékét
+
+00:05:20.101 --> 00:05:21.677
+egy fedélzeti kontrollerhez.
+
+00:05:21.677 --> 00:05:26.595
+A modern autó egy kifinomult
+sokszámítógépes eszköz.
+
+00:05:26.595 --> 00:05:29.807
+Mi történik, ha valaki meg akarja támadni?
+
+00:05:29.807 --> 00:05:31.234
+Nos, épp ezt tették a kutatók,
+
+00:05:31.234 --> 00:05:33.105
+erről fogok ma beszélni önöknek.
+
+00:05:33.105 --> 00:05:36.082
+Egy támadóeszközt kapcsoltak
+a vezetékes hálózatra,
+
+00:05:36.082 --> 00:05:38.404
+és egyet a vezeték nélkülire.
+
+00:05:38.404 --> 00:05:40.813
+Így egyszerre két 
+területet is támadhattak.
+
+00:05:40.813 --> 00:05:43.141
+Az egyik kis hatósugarú, 
+vezeték nélküli eszköz,
+
+00:05:43.141 --> 00:05:45.332
+amivel az eszköz közeléből
+tudnak kommunikálni
+
+00:05:45.332 --> 00:05:47.059
+Bluetooth-on vagy wi-fi-n keresztül,
+
+00:05:47.059 --> 00:05:49.233
+és egy másik, nagy hatósugarú,
+
+00:05:49.233 --> 00:05:51.245
+amellyel mobilhálózaton,
+
+00:05:51.245 --> 00:05:53.045
+vagy egy rádióállomáson keresztül.
+
+00:05:53.045 --> 00:05:56.024
+Gondoljanak csak bele!
+Ha az autó kap egy rádiójelet,
+
+00:05:56.024 --> 00:05:58.225
+azt egy szoftver feldolgozza.
+
+00:05:58.225 --> 00:06:01.026
+A szoftvernek fogadnia 
+és dekódolnia kell a rádiójelet,
+
+00:06:01.026 --> 00:06:03.575
+majd kitalálnia, mit tegyen vele,
+még akkor is,
+
+00:06:03.575 --> 00:06:06.239
+ha csupán rádióban sugárzott
+zene lejátszásáról van szó.
+
+00:06:06.239 --> 00:06:07.907
+Ha ebben a dekódoló szoftverben
+
+00:06:07.907 --> 00:06:10.790
+valami hiba van, 
+akkor az autó védtelenné válhat
+
+00:06:10.790 --> 00:06:13.825
+hackertámadások ellen.
+
+00:06:13.825 --> 00:06:16.777
+A kutatók ezt a következőképpen tették:
+
+00:06:16.777 --> 00:06:21.000
+kiolvasták az autóban levő
+chipek szoftverét,
+
+00:06:21.000 --> 00:06:23.933
+és kifinomult mérnöki
+
+00:06:23.933 --> 00:06:25.607
+visszafejtő eszközök segítségével
+
+00:06:25.607 --> 00:06:27.662
+kiderítették, hogy mit csinál;
+
+00:06:27.662 --> 00:06:30.703
+megtalálták a gyenge pontjait,
+
+00:06:30.703 --> 00:06:33.649
+majd ezeket használták ki.
+
+00:06:33.649 --> 00:06:36.151
+Ezt a támadást a valós életben is 
+végrehajtották.
+
+00:06:36.151 --> 00:06:37.781
+Vettek két autót - fogadok,
+
+00:06:37.781 --> 00:06:40.699
+kicsit nagyobb volt a költségkeretük, 
+mint az enyém.
+
+00:06:40.699 --> 00:06:43.289
+Először azzal kísérleteztek, 
+hogy mit tudna tenni
+
+00:06:43.289 --> 00:06:45.433
+egy támadó, ha hozzáférne
+
+00:06:45.433 --> 00:06:47.486
+az autó belső hálózatához.
+
+00:06:47.486 --> 00:06:50.089
+Képzeljük el, hogy valaki 
+hozzáférne az autónkhoz!
+
+00:06:50.089 --> 00:06:52.993
+Ha mindent összekuszálna benne, 
+majd otthagyná,
+
+00:06:52.993 --> 00:06:55.361
+mekkora bajba kerülhetnénk miatta?
+
+00:06:55.361 --> 00:06:58.153
+Egy másik kísérlet során 
+úgy hoztak létre valós idejű
+
+00:06:58.153 --> 00:07:00.610
+kapcsolatot a vezeték nélküli hálózaton -
+
+00:07:00.610 --> 00:07:03.295
+mobilon, vagy más hasonló eszközön - ,
+
+00:07:03.295 --> 00:07:06.665
+hogy fizikailag nem fértek hozzá
+az autóhoz.
+
+00:07:06.715 --> 00:07:09.359
+Így nézett ki az első kísérlet,
+
+00:07:09.359 --> 00:07:11.362
+amikor fizikailag hozzáfértek a járműhöz.
+
+00:07:11.362 --> 00:07:14.559
+Fogtak egy laptopot és csatlakoztak 
+az autó belső hálózatán lévő
+
+00:07:14.559 --> 00:07:17.498
+diagnosztikai egységhez, 
+és mindenféle buta dolgot műveltek,
+
+00:07:17.498 --> 00:07:20.231
+például - ahogy a képen is látható -
+hogy a sebességmérő
+
+00:07:20.231 --> 00:07:22.757
+140 mérföld/órát mutasson, 
+miközben az autó parkol.
+
+00:07:22.757 --> 00:07:25.490
+Ha egyszer az irányításunk alá kerül 
+az autó számítógépe,
+
+00:07:25.490 --> 00:07:26.569
+bármit megtehetünk.
+
+00:07:26.569 --> 00:07:28.245
+Mondhatjuk erre, hogy ez ostobaság.
+
+00:07:28.245 --> 00:07:30.504
+De mi van, ha azt érjük el ezzel, 
+hogy mutasson
+
+00:07:30.504 --> 00:07:33.085
+mindig 30 km/órával kevesebbet, 
+mint a valós sebesség?
+
+00:07:33.085 --> 00:07:35.977
+Valószínűleg sokszor meg
+fognak büntetni gyorshajtás miatt.
+
+00:07:35.977 --> 00:07:38.803
+Kivittek két autót 
+egy elhagyott kifutópályára -
+
+00:07:38.803 --> 00:07:41.548
+az egyik az áldozat, a másik a támadó -
+
+00:07:41.548 --> 00:07:44.294
+majd egy csomó más támadást indítottak.
+
+00:07:44.294 --> 00:07:47.060
+A támadó autóból le tudták fékezni
+
+00:07:47.060 --> 00:07:49.034
+a másikat,
+
+00:07:49.034 --> 00:07:50.844
+egyszerűen meghackelve a számítógépét.
+
+00:07:50.844 --> 00:07:53.025
+Hatástalanítani tudták a fékeket.
+
+00:07:53.025 --> 00:07:55.623
+Olyan rendellenes működést is
+létre tudtak hozni,
+
+00:07:55.623 --> 00:07:58.898
+ami csak bizonyos feltétel
+fennállásakor következett be,
+
+00:07:58.898 --> 00:08:02.374
+mint például, ha 30 km/óránál 
+nagyobb sebességgel haladt az autó.
+
+00:08:02.374 --> 00:08:04.642
+Döbbenetes hatást keltett, 
+amikor ezt előadták,
+
+00:08:04.642 --> 00:08:07.048
+pedig ez egy számítógépes 
+biztonsági konferencián,
+
+00:08:07.048 --> 00:08:09.324
+egy csomó IT-biztonsági 
+kutató előtt történt.
+
+00:08:09.324 --> 00:08:10.334
+Elállt a lélegzetük.
+
+00:08:10.334 --> 00:08:13.973
+A kocsi több számítógépének 
+a vezérlését is át tudták venni:
+
+00:08:13.973 --> 00:08:17.734
+a fékek, a világítás, 
+a motor, a műszerfal,
+
+00:08:17.734 --> 00:08:20.471
+a rádió, stb. vezérlésére
+szolgáló számítógépét.
+
+00:08:20.471 --> 00:08:24.124
+Mindezt az általuk vásárolt, közönséges, 
+kereskedelemben kapható autókon,
+
+00:08:24.124 --> 00:08:25.881
+a rádióhálózatot használva.
+
+00:08:25.881 --> 00:08:28.884
+Meg tudták zavarni
+
+00:08:28.884 --> 00:08:31.350
+az összes olyan szoftvert, 
+amely az autó
+
+00:08:31.350 --> 00:08:34.365
+valamelyik kábel nélkül csatlakozó
+egységét irányítja.
+
+00:08:34.365 --> 00:08:36.878
+Ezeket mind sikeresen hajtották végre.
+
+00:08:36.878 --> 00:08:39.360
+Hogyan lehet autót lopni ezen a módon?
+
+00:08:39.360 --> 00:08:42.860
+Nos, megzavarjuk a járművet, 
+kihasználva a szoftver gyenge pontját,
+
+00:08:42.860 --> 00:08:45.507
+ezzel a puffer-túlcsordulást idézve elő - 
+valahogy így.
+
+00:08:45.507 --> 00:08:48.150
+A kocsi GPS-éből megtudjuk,
+hogy éppen hol tartózkodik.
+
+00:08:48.150 --> 00:08:51.455
+Távirányítással kinyitjuk az ajtót
+a vezérlő számítógépen keresztül,
+
+00:08:51.455 --> 00:08:53.643
+beindítjuk a motort, 
+kiiktatjuk a lopásgátlót,
+
+00:08:53.643 --> 00:08:55.001
+és van egy kocsink.
+
+00:08:55.001 --> 00:08:57.128
+Ez valóban nagyon érdekes volt.
+
+00:08:57.128 --> 00:09:00.337
+A tanulmány szerzői készítettek
+egy videót arról,
+
+00:09:00.337 --> 00:09:03.786
+hogyan veszik át az autó irányítását,
+kapcsolják be a belső mikrofont,
+
+00:09:03.786 --> 00:09:05.907
+hallgatják le az autóban 
+zajló beszélgetést,
+
+00:09:05.907 --> 00:09:08.998
+miközben követik GPS-szel a térképen.
+
+00:09:08.998 --> 00:09:10.711
+Mindezt úgy, hogy az autó sofőrje
+
+00:09:10.711 --> 00:09:12.879
+sosem tudja meg, hogy mi történt.
+
+00:09:12.879 --> 00:09:15.013
+Megijesztettem önöket?
+
+00:09:15.013 --> 00:09:16.926
+Van még néhány érdekes történetem.
+
+00:09:16.926 --> 00:09:18.929
+Ezekről egy konferencián hallottam,
+
+00:09:18.929 --> 00:09:20.762
+és annyira érdekesnek találtam őket,
+
+00:09:20.762 --> 00:09:22.548
+hogy el kell mondanom másoknak is.
+
+00:09:22.548 --> 00:09:24.171
+Ez Fabian Monrose laborja
+
+00:09:24.171 --> 00:09:27.627
+az észak-karolinai egyetemen,
+
+00:09:27.627 --> 00:09:29.702
+ahol valami olyat csináltak,
+
+00:09:29.702 --> 00:09:31.416
+ami nagyon megdöbbenti az embert.
+
+00:09:31.416 --> 00:09:33.675
+Emberekről készítettek videót egy buszon,
+
+00:09:33.675 --> 00:09:36.515
+majd utólag feldolgozták.
+
+00:09:36.515 --> 00:09:38.978
+Az első ábrán az látható,
+
+00:09:38.978 --> 00:09:43.361
+hogy egy okostelefon tükröződik
+valakinek a szemüvegében,
+
+00:09:43.361 --> 00:09:44.786
+aki éppen ír valamit.
+
+00:09:44.786 --> 00:09:48.021
+Készítettek egy olyan szoftvert, 
+amely képes stabilizálni –
+
+00:09:48.021 --> 00:09:49.246
+akár egy buszon is,
+
+00:09:49.246 --> 00:09:51.777
+akkor is, ha az illető 
+szögben tartja a telefont –,
+
+00:09:51.777 --> 00:09:53.977
+és feldolgozni a képet.
+
+00:09:53.977 --> 00:09:57.082
+Talán tudják, hogy az okostelefon 
+felvillantja a karaktereket,
+
+00:09:57.082 --> 00:09:59.281
+amikor beírjuk a jelszót,
+s ez lehetővé tette
+
+00:09:59.281 --> 00:10:01.371
+egy nyelvi modell segítségével
+
+00:10:01.371 --> 00:10:05.692
+a beírt szöveg rekonstruálását.
+
+00:10:05.692 --> 00:10:08.027
+Egy buszon rögzített videó alapján
+
+00:10:08.027 --> 00:10:10.156
+pontosan rekonstruálni lehetett,
+
+00:10:10.156 --> 00:10:12.307
+amit az emberek az okostelefonjukon írtak.
+
+00:10:12.307 --> 00:10:14.567
+A legmegdöbbentőbb az,
+
+00:10:14.567 --> 00:10:17.381
+hogy a szoftver nemcsak a vizsgált
+telefont tudta követni,
+
+00:10:17.381 --> 00:10:20.264
+hanem más személyekét is,
+akik véletlenül a képre kerültek.
+
+00:10:20.264 --> 00:10:21.890
+Képesek voltak rekonstruálni azt,
+
+00:10:21.890 --> 00:10:23.547
+amit azok az emberek írtak,
+
+00:10:23.547 --> 00:10:26.984
+mintegy a szoftver működésének 
+melléktermékeként.
+
+00:10:27.664 --> 00:10:31.517
+Még két érdekes eszközt mutatnék be.
+Az egyik a P25 rádió.
+
+00:10:31.517 --> 00:10:34.267
+A P25 rádiókat a bűnüldözésben használják,
+
+00:10:34.267 --> 00:10:37.614
+de ezzel kommunikál sokféle 
+kormányzati szerv,
+
+00:10:37.614 --> 00:10:39.970
+valamint harci bevetéseken
+részt vevő személyek.
+
+00:10:39.980 --> 00:10:42.243
+Ezeken a telefonokon van 
+egy titkosítási opció.
+
+00:10:42.243 --> 00:10:44.771
+Így néz ki az eszköz, 
+amely igazából nem is telefon.
+
+00:10:44.771 --> 00:10:46.377
+hanem inkább egy rádió adó-vevő.
+
+00:10:46.377 --> 00:10:49.299
+Legelterjedtebb a Motorola gyártmányú,
+
+00:10:49.299 --> 00:10:52.238
+láthatják, hogy használja 
+a titkosszolgálat bevetések során.
+
+00:10:52.238 --> 00:10:55.250
+Sok helyen elterjedt, 
+például az USA-ban is.
+
+00:10:55.250 --> 00:10:57.555
+A kutatók feltették maguknak a kérdést,
+
+00:10:57.555 --> 00:10:59.989
+hogy hogyan tudnák ezt blokkolni.
+
+00:10:59.989 --> 00:11:02.112
+Tudnának-e túlterheléses 
+támadást indítani,
+
+00:11:02.112 --> 00:11:03.676
+hiszen ezek készenléti egységek.
+
+00:11:03.676 --> 00:11:05.707
+Ki tudná-e iktatni egy terrorszervezet
+
+00:11:05.707 --> 00:11:09.955
+a rendőrség és a tűzoltóság közti
+kommunikációt vészhelyzetben?
+
+00:11:09.955 --> 00:11:13.097
+Rábukkantak erre a GirlTech 
+üzenetküldő készülékre,
+
+00:11:13.097 --> 00:11:15.745
+amely történesen ugyanazt 
+a frekvenciát használja,
+
+00:11:15.745 --> 00:11:19.636
+mint a P25, és megépítettek valamit,
+
+00:11:19.636 --> 00:11:22.320
+aminek az "Első Zavaró Állomásom"
+nevet adták. (Nevetés)
+
+00:11:22.380 --> 00:11:24.938
+Ha közelebbről megnézzük 
+ezt a készüléket, láthatjuk,
+
+00:11:24.938 --> 00:11:28.418
+hogy van egy kapcsoló, amely a titkosítás
+és a szimpla szöveg között vált.
+
+00:11:28.418 --> 00:11:31.408
+Megmutatom a következő képet,
+erre majd még visszatérek.
+
+00:11:31.408 --> 00:11:33.955
+Látják a különbséget?
+
+00:11:33.955 --> 00:11:36.512
+Ez egy szimpla szöveg. 
+Ez pedig a titkosított.
+
+00:11:36.512 --> 00:11:39.069
+Egyetlen kis pont jelenik meg a képernyőn,
+
+00:11:39.069 --> 00:11:40.864
+egyetlen kis tekerés a kapcsolón.
+
+00:11:40.864 --> 00:11:43.838
+A kutatók azt kérdezték maguktól:
+"Vajon hányszor fordul elő,
+
+00:11:43.838 --> 00:11:47.145
+hogy nagyon titkos, fontos, 
+bizalmas beszélgetéseket
+
+00:11:47.145 --> 00:11:48.938
+elfelejtenek titkosítani,
+
+00:11:48.938 --> 00:11:52.618
+ezeken a készülékeken,, 
+és még csak észre sem veszik?"
+
+00:11:52.618 --> 00:11:55.187
+Vettek egy frekvenciascannert. 
+Teljesen legálisan,
+
+00:11:55.187 --> 00:11:58.545
+majd ráálltak a P25 frekvenciájára,
+
+00:11:58.545 --> 00:12:00.742
+ugráltak a frekvenciák körül,
+
+00:12:00.742 --> 00:12:02.922
+és írtak egy lehallgató szoftvert.
+
+00:12:02.922 --> 00:12:05.586
+Amikor titkosított kommunikációra akadtak,
+
+00:12:05.586 --> 00:12:07.702
+rajta maradtak a csatornán, 
+és feljegyezték,
+
+00:12:07.702 --> 00:12:09.030
+hogy azt használják
+
+00:12:09.030 --> 00:12:10.652
+a rendvédelmi szervek.
+
+00:12:10.652 --> 00:12:14.043
+Elmentek 20 nagyvárosi környezetbe,
+és belehallgattak abba,
+
+00:12:14.043 --> 00:12:17.518
+ami ezeken a frekvenciákon zajlik.
+
+00:12:17.518 --> 00:12:20.757
+Ennek az lett az eredménye, 
+hogy minden nagyvárosi környezetben
+
+00:12:20.757 --> 00:12:22.911
+több mint 20 percnyi
+
+00:12:22.911 --> 00:12:25.286
+kódolatlan beszélgetést 
+rögzítettek naponta.
+
+00:12:25.286 --> 00:12:27.286
+Hogy miről beszéltek az emberek?
+
+00:12:27.286 --> 00:12:29.120
+Elárulták bizalmas informátorok nevét,
+
+00:12:29.120 --> 00:12:31.622
+és más velük kapcsolatos személyes adatot.
+
+00:12:31.622 --> 00:12:33.824
+Kényes információkhoz jutottak
+
+00:12:33.824 --> 00:12:36.284
+kihallgatási felvételekről,
+
+00:12:36.284 --> 00:12:37.526
+bűnügyekről.
+
+00:12:37.526 --> 00:12:40.579
+Ezek többsége bűnüldözéssel,
+bűncselekményekkel volt kapcsolatos.
+
+00:12:40.579 --> 00:12:43.253
+Jelentették a bűnüldözési szervezetnél,
+
+00:12:43.403 --> 00:12:45.016
+miután anonimizálták a felvételt.
+
+00:12:45.016 --> 00:12:47.776
+Ebben az esetben a felhasználói
+felület volt a gyenge pont,
+
+00:12:47.826 --> 00:12:49.760
+amely nem bizonyult elég biztonságosnak.
+
+00:12:49.760 --> 00:12:52.326
+Ha egy valóban titkos 
+és érzékeny dologról beszélünk,
+
+00:12:52.326 --> 00:12:55.419
+tisztában kellene lennünk azzal, 
+hogy a párbeszéd titkosított-e.
+
+00:12:55.419 --> 00:12:57.305
+Ez a hiba könnyen kijavítható.
+
+00:12:57.305 --> 00:13:00.264
+Az utolsó kísérlet, amelyről beszélni 
+szeretnék önöknek,
+
+00:13:00.264 --> 00:13:02.227
+nagyon klassz, bár nem valószínű,
+
+00:13:02.227 --> 00:13:03.572
+hogy álmatlan éjszakát okoz,
+
+00:13:03.572 --> 00:13:05.193
+mint az autó vagy a defibrillátor.
+
+00:13:05.193 --> 00:13:07.606
+Ez pedig a billentyűleütések megszerzése.
+
+00:13:07.606 --> 00:13:10.073
+Mindannyian néztünk már 
+okostelefont fejjel lefelé.
+
+00:13:10.073 --> 00:13:13.413
+Minden biztonsági szakember szeretne
+meghackelni egy ilyen készüléket.
+
+00:13:13.413 --> 00:13:17.155
+Általában az USB bemenetet, 
+a kamerát, a mikrofont,
+
+00:13:17.155 --> 00:13:19.523
+nyomkövetésre a GPS-t szoktuk alkalmazni,
+
+00:13:19.523 --> 00:13:22.013
+de eddig még senki 
+nem használta a gyorsulásmérőt.
+
+00:13:22.013 --> 00:13:24.190
+Ez arra való, hogy meghatározza,
+
+00:13:24.190 --> 00:13:26.964
+hogy a készüléket álló vagy fekvő 
+helyzetben tartjuk-e.
+
+00:13:26.964 --> 00:13:28.891
+A kísérlet igen egyszerű.
+
+00:13:28.891 --> 00:13:31.259
+Odatettek egy okostelefont 
+a billentyűzet mellé,
+
+00:13:31.259 --> 00:13:33.541
+amelyen gépelni kezdtek.
+
+00:13:33.541 --> 00:13:36.827
+A céljuk az volt, hogy az ezáltal 
+okozott rezgést, mint változást
+
+00:13:36.827 --> 00:13:41.067
+megmérjék a gyorsulásmérőben,
+
+00:13:41.067 --> 00:13:44.243
+hogy ezzel meghatározhassák 
+a begépelt szöveget.
+
+00:13:44.243 --> 00:13:46.819
+Amikor ezt az iPhone 3GS-en próbálták ki,
+
+00:13:46.819 --> 00:13:49.588
+gépeléskor a rezgésekről 
+ilyen grafikon készült.
+
+00:13:49.588 --> 00:13:52.829
+Látható, hogy nehéz leolvasni róla,
+
+00:13:52.829 --> 00:13:55.907
+hogy mikor gépelt valaki,
+vagy azt, hogy mit.
+
+00:13:55.907 --> 00:13:58.997
+De az iPhone 4 
+gyorsulásmérője sokkal jobb:
+
+00:13:58.997 --> 00:14:02.487
+ugyanaz a mérés
+
+00:14:02.487 --> 00:14:04.289
+ezt a grafikont adta.
+
+00:14:04.289 --> 00:14:07.455
+Sok információt le lehetett
+olvasni róla a gépelés alatt.
+
+00:14:07.455 --> 00:14:10.036
+A betanulási fázishoz egy fejlettebb
+
+00:14:10.036 --> 00:14:12.883
+mesterséges intelligencia-technikát
+használtak:
+
+00:14:12.883 --> 00:14:14.474
+az úgynevezett gépi tanulást.
+
+00:14:14.474 --> 00:14:16.710
+Valószínűleg egyetemistákat
+kértek fel,
+
+00:14:16.710 --> 00:14:20.499
+a betanításkor egy csomó 
+szöveg begépelésére,
+
+00:14:20.499 --> 00:14:23.267
+hogy elvégeztessék a rendszerrel 
+a gépi tanulást,
+
+00:14:23.267 --> 00:14:26.130
+ami alapján megtudható, 
+hogy mit gépeltek az emberek,
+
+00:14:26.130 --> 00:14:28.957
+és megfeleltessék
+
+00:14:28.957 --> 00:14:31.324
+a gyorsulásmérő adatainak.
+
+00:14:31.324 --> 00:14:33.069
+Ezután következett a támadási fázis,
+
+00:14:33.069 --> 00:14:35.880
+melynek során egy személy 
+begépel egy ismeretlen szöveget,
+
+00:14:35.880 --> 00:14:38.517
+és a tanulási fázisban kialakított 
+modellt felhasználva
+
+00:14:38.517 --> 00:14:40.619
+kitalálják, hogy mit írt be.
+
+00:14:40.619 --> 00:14:44.103
+Nagy sikerük volt. 
+Ez egy cikk az USA Today-ből.
+
+00:14:44.103 --> 00:14:46.712
+Begépelték: "Az Illinois-i
+Legfelsőbb Bíróság kimondta,
+
+00:14:46.712 --> 00:14:49.994
+hogy Rahm Emanuel jogosult indulni
+a Chicago polgármesteri posztjáért"
+
+00:14:49.994 --> 00:14:52.068
+- látják, hozzákötöttem
+az előző idézethez -
+
+00:14:52.068 --> 00:14:54.696
+"és megparancsolta neki, 
+hogy maradjon a szavazólapon."
+
+00:14:54.696 --> 00:14:56.377
+Érdekes a rendszer, mert azt írta,
+
+00:14:56.377 --> 00:14:58.803
+hogy "Illinois Legfőbb", 
+de nem volt biztos benne.
+
+00:14:58.803 --> 00:15:00.993
+A modell különféle 
+lehetőségeket ajánlott fel.
+
+00:15:01.043 --> 00:15:03.692
+Az a szép a MI 
+[mesterséges intelligencia] technikában,
+
+00:15:03.692 --> 00:15:05.582
+hogy a számítógép
+jó bizonyos dolgokban,
+
+00:15:05.582 --> 00:15:06.926
+az ember pedig másokban.
+
+00:15:06.926 --> 00:15:10.167
+Vegyük mindig a jobbat, és hagyjuk,
+hogy ezt itt az ember oldja meg.
+
+00:15:10.167 --> 00:15:11.839
+Ne vesztegessük a gépidőt!
+
+00:15:11.839 --> 00:15:12.839
+Egy ember nem hiszi, 
+hogy ez itt a Legfelsőbb Hatalom.
+
+00:15:12.839 --> 00:15:15.125
+Nyilván a "Legfelsőbb Bíróság"-ról 
+van szó.
+
+00:15:15.125 --> 00:15:17.625
+Így együtt képesek vagyunk 
+reprodukálni a szöveget,
+
+00:15:17.625 --> 00:15:19.914
+egyszerűen a gyorsulásmérő alapján.
+
+00:15:19.914 --> 00:15:23.416
+Miért fontos ez? 
+Például az androidos készülékeknél
+
+00:15:23.416 --> 00:15:27.549
+a fejlesztőknek van egy 
+tanúsítványa azokról az eszközökről
+
+00:15:27.564 --> 00:15:29.928
+- ilyen például a mikrofon - ,
+
+00:15:29.928 --> 00:15:32.104
+amelyek használatához 
+regisztráció szükséges,
+
+00:15:32.104 --> 00:15:34.420
+és melyekhez hackerek 
+nem tudnak hozzáférni.
+
+00:15:34.420 --> 00:15:37.528
+De senki sem ellenőrzi 
+a gyorsulásmérőt.
+
+00:15:37.528 --> 00:15:39.474
+Miről van szó? 
+Otthagyhatjuk az iPhone-t
+
+00:15:39.474 --> 00:15:42.000
+valakinek a billentyűzete mellett,
+és kimehetünk.
+
+00:15:42.000 --> 00:15:44.159
+Utólag vissza tudjuk fejteni, 
+mit csináltak,
+
+00:15:44.159 --> 00:15:46.250
+és ehhez még mikrofont 
+sem kell használnunk.
+
+00:15:46.250 --> 00:15:49.064
+Aki rosszindulatú programot tud 
+telepíteni az iPhone-unkra,
+
+00:15:49.064 --> 00:15:51.202
+az meg tudja szerezni, 
+hogy mit gépeltünk,
+
+00:15:51.202 --> 00:15:53.323
+ha az iPhone-t a billentyűzet 
+mellé tesszük.
+
+00:15:53.323 --> 00:15:55.954
+Más jelentős támadások is léteznek,
+amelyekről sajnos
+
+00:15:55.954 --> 00:15:58.645
+nincs időm beszélni,
+de egyet még megemlítenék.
+
+00:15:58.645 --> 00:16:00.232
+Egy csoport a Michigan Egyetemről
+
+00:16:00.232 --> 00:16:02.103
+olyan szavazógépeket tudott megszerezni
+
+00:16:02.103 --> 00:16:03.691
+- a Sequoia AVC Edge DREs-t -
+
+00:16:03.691 --> 00:16:06.376
+amelyeket a New Jersey-i választásokon
+akartak használni.
+
+00:16:06.376 --> 00:16:08.747
+Ezeket egy folyosón hagyták,
+ők pedig egy játékot,
+
+00:16:08.747 --> 00:16:11.500
+a Pac-Man-t telepítettek 
+rájuk és futtatták.
+
+00:16:11.500 --> 00:16:13.247
+Mit jelent mindez?
+
+00:16:13.247 --> 00:16:16.894
+A társadalom valóban gyorsan 
+hajlandó elfogadni az új technológiát.
+
+00:16:16.894 --> 00:16:19.718
+Már előre imádom 
+a következő klassz cuccot.
+
+00:16:19.718 --> 00:16:22.522
+De nagyon fontos az 
+- és a kutatók is erre mutatták rá - ,
+
+00:16:22.522 --> 00:16:23.852
+hogy ezeknek a fejlesztői
+
+00:16:23.852 --> 00:16:26.557
+már a használatuk legelején 
+gondoljanak a védelemre.
+
+00:16:26.557 --> 00:16:29.342
+Tudomásul kell venniük,
+
+00:16:29.342 --> 00:16:31.944
+hogy a támadók nem feltétlenül 
+lesznek olyan kedvesek,
+
+00:16:31.944 --> 00:16:34.261
+hogy csak ismert támadási 
+mintákat használjanak,
+
+00:16:34.261 --> 00:16:36.118
+ezért másokra is fel kell készülniük.
+
+00:16:36.118 --> 00:16:38.466
+Ma annyit tehetünk, hogy észben tartjuk,
+
+00:16:38.466 --> 00:16:40.175
+hogy az eszközök befolyásolhatók.
+
+00:16:40.175 --> 00:16:41.874
+Minden, amiben szoftver van,
+
+00:16:41.874 --> 00:16:44.523
+sebezhető, és hibák vannak benne.
+
+00:16:44.523 --> 00:16:48.020
+Nagyon szépen köszönöm. (Taps)
+

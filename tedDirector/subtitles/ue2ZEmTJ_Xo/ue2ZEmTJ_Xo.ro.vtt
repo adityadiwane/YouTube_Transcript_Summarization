@@ -1,0 +1,827 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Catalina Cernea
+Corector: Laszlo Kereszturi
+
+00:00:12.899 --> 00:00:16.566
+Inteligența - ce este aceasta?
+
+00:00:16.566 --> 00:00:18.857
+Dacă aruncam o privire înapoi la istoria
+
+00:00:18.857 --> 00:00:21.481
+modului în care a fost percepută inteligența,
+
+00:00:21.481 --> 00:00:25.099
+un exemplu fundamental îl constituie
+
+00:00:25.099 --> 00:00:28.576
+faimosul citat al lui Edsger Dijkstra:
+
+00:00:28.576 --> 00:00:31.687
+,,întrebarea dacă o mașinărie poate gândi
+
+00:00:31.687 --> 00:00:32.997
+este aproape la fel de interesantă
+
+00:00:32.997 --> 00:00:35.968
+ca întrebarea dacă un submarin
+
+00:00:35.968 --> 00:00:37.758
+poate înota".
+
+00:00:37.758 --> 00:00:41.602
+Când a scris aceste cuvinte, Edsger Dijkstra
+
+00:00:41.602 --> 00:00:43.656
+a intenționat să critice
+
+00:00:43.656 --> 00:00:46.656
+pionierii informaticii,
+
+00:00:46.656 --> 00:00:48.403
+precum Alan Turing.
+
+00:00:48.403 --> 00:00:50.902
+Cu toate acestea, dacă privim înapoi
+
+00:00:50.902 --> 00:00:52.867
+și ne gândim care au fost
+
+00:00:52.867 --> 00:00:54.863
+cele mai valoroase inovații
+
+00:00:54.863 --> 00:00:56.742
+care ne-au permis să construim
+
+00:00:56.742 --> 00:00:58.976
+mașinării care să înoate
+
+00:00:58.976 --> 00:01:01.549
+și mașinării care să gândească,
+
+00:01:01.549 --> 00:01:05.096
+vom descoperi că doar înțelegerea
+
+00:01:05.096 --> 00:01:07.704
+mecanismelor fizice din spatele
+
+00:01:07.704 --> 00:01:10.483
+înotului și zborului
+
+00:01:10.483 --> 00:01:13.655
+ne-au permis construirea acestor mașinării.
+
+00:01:13.655 --> 00:01:15.911
+Astfel, acum câțiva ani,
+
+00:01:15.911 --> 00:01:19.160
+am demarat un program pentru a încerca să înțeleg
+
+00:01:19.160 --> 00:01:21.794
+mecanismele fizice fundamentale
+
+00:01:21.794 --> 00:01:24.562
+ce stau la baza inteligenței.
+
+00:01:24.562 --> 00:01:26.422
+Să facem un pas înapoi.
+
+00:01:26.422 --> 00:01:29.571
+Să începem mai întâi cu o idee experimentală.
+
+00:01:29.571 --> 00:01:32.425
+Să zicem că sunteți o rasă extraterestră
+
+00:01:32.425 --> 00:01:35.466
+care nu știe nimic despre biologia Pământului
+
+00:01:35.466 --> 00:01:38.582
+sau despre neuro-știința sau inteligența acestuia,
+
+00:01:38.582 --> 00:01:40.774
+dar aveți telescoape incrediblie,
+
+00:01:40.774 --> 00:01:43.136
+aveți posibilitatea de a supraveghea Pământul
+
+00:01:43.136 --> 00:01:45.468
+și trăiți vieți extraordinar de lungi,
+
+00:01:45.468 --> 00:01:46.967
+astfel că puteți supraveghea Pământul
+
+00:01:46.967 --> 00:01:50.409
+de-a lungul a milioane, chiar miliarde de ani.
+
+00:01:50.409 --> 00:01:53.424
+Și observați un fenomen foarte ciudat.
+
+00:01:53.424 --> 00:01:57.736
+Observați că, de-a lungul mileniilor,
+
+00:01:57.736 --> 00:02:02.021
+Pământul este în continuu bombardat de asteroizi
+
+00:02:02.021 --> 00:02:04.108
+până la un punct,
+
+00:02:04.108 --> 00:02:05.639
+și că, din acel moment,
+
+00:02:05.639 --> 00:02:09.831
+corespunzând în mare anului 2000 d. Hr.,
+
+00:02:09.831 --> 00:02:11.547
+asteroizii care se aflau
+
+00:02:11.547 --> 00:02:13.478
+pe o orbită de coliziune cu Pământul
+
+00:02:13.478 --> 00:02:15.453
+și care în mod normal s-ar fi ciocnit cu acesta
+
+00:02:15.453 --> 00:02:17.868
+și-au schimbat în mod misterios traiectoria
+
+00:02:17.868 --> 00:02:20.940
+sau au explodat înainte să lovească planeta.
+
+00:02:20.940 --> 00:02:23.023
+Bineînțeles, ca pământeni,
+
+00:02:23.023 --> 00:02:24.567
+știm că motivul ar fi
+
+00:02:24.567 --> 00:02:26.323
+încercarea de a ne salva pe noi înșine.
+
+00:02:26.323 --> 00:02:29.403
+Încercăm să prevenim un impact.
+
+00:02:29.403 --> 00:02:31.114
+Dar dacă ești o rasă extraterestră
+
+00:02:31.114 --> 00:02:32.260
+care nu cunoaște toate aceste detalii
+
+00:02:32.260 --> 00:02:34.774
+și nu are nici o idee despre inteligența terestră,
+
+00:02:34.774 --> 00:02:36.502
+ai fi forțat să alcătuiești
+
+00:02:36.502 --> 00:02:39.420
+o teorie fizică menită să explice de ce,
+
+00:02:39.420 --> 00:02:41.958
+până la un anumit moment în timp,
+
+00:02:41.958 --> 00:02:46.407
+asteroizii care distrugeau suprafața planetei
+
+00:02:46.407 --> 00:02:49.638
+s-au oprit în mod misterios.
+
+00:02:49.638 --> 00:02:53.842
+Așa că eu consider că această problemă
+
+00:02:53.842 --> 00:02:57.840
+este la fel ca înțelegerea naturii fizice a inteligenței.
+
+00:02:57.840 --> 00:03:01.722
+Astfel, în cadrul acestui program inițiat acum câțiva ani,
+
+00:03:01.722 --> 00:03:04.487
+am analizat o varietate de aspecte
+
+00:03:04.487 --> 00:03:07.649
+dincolo de știință, interdisciplinare,
+
+00:03:07.649 --> 00:03:09.541
+care cred că indicau
+
+00:03:09.541 --> 00:03:12.089
+către un mecanism unic, fundamental
+
+00:03:12.089 --> 00:03:13.670
+al inteligenței.
+
+00:03:13.670 --> 00:03:16.216
+În cosmologie, de exemplu,
+
+00:03:16.216 --> 00:03:18.963
+există o mulțime de indicii
+
+00:03:18.963 --> 00:03:22.370
+conform cărora universul nostru pare să fie reglat cu precizie
+
+00:03:22.370 --> 00:03:24.523
+în vederea dezvoltării inteligenței
+
+00:03:24.523 --> 00:03:26.912
+și, în particular, a dezvoltării
+
+00:03:26.912 --> 00:03:28.798
+a unor situații universale
+
+00:03:28.798 --> 00:03:32.896
+care să maximalizeze diversitatea posibilelor viitoruri.
+
+00:03:32.896 --> 00:03:35.240
+În cazul jocurilor, de exemplu, în Go -
+
+00:03:35.240 --> 00:03:38.265
+ne amintim cu toții anul 1997,
+
+00:03:38.265 --> 00:03:42.216
+când supercomputerul Deep Blue al IBM-ului l-a învins pe Garry Kasparov la șah;
+
+00:03:42.216 --> 00:03:43.739
+puțin oameni știu însă
+
+00:03:43.739 --> 00:03:45.757
+că în ultimii circa 10 ani,
+
+00:03:45.757 --> 00:03:46.955
+jocul Go,
+
+00:03:46.955 --> 00:03:48.911
+demonstrat ca fiind un joc mult mai solicitant
+
+00:03:48.911 --> 00:03:51.336
+datorită factorului de ramificare mult mai mare,
+
+00:03:51.336 --> 00:03:53.038
+a început, de asemenea, să piardă
+
+00:03:53.038 --> 00:03:54.903
+în fața jucătorilor reali
+
+00:03:54.903 --> 00:03:56.476
+din același motiv:
+
+00:03:56.476 --> 00:03:59.276
+cele mai bune tehnici actuale de joc ale computerului
+
+00:03:59.276 --> 00:04:02.972
+le reprezintă tehnicile care încearcă să maximalizeze opțiunile viitoare
+
+00:04:02.972 --> 00:04:04.986
+în timpul jocului în sine.
+
+00:04:04.986 --> 00:04:08.567
+În cele din urmă, în proiectarea mișcării robotice,
+
+00:04:08.567 --> 00:04:10.749
+au fost folosite o diversitate de tehnici recente
+
+00:04:10.749 --> 00:04:12.651
+care au încercat să se folosească
+
+00:04:12.651 --> 00:04:15.797
+de abilitățile roboților pentru a maximaliza
+
+00:04:15.797 --> 00:04:17.303
+libertatea de acțiune viitoare
+
+00:04:17.303 --> 00:04:20.400
+pentru a îndeplini cerințe complexe.
+
+00:04:20.400 --> 00:04:22.755
+Așa că, luând toate aceste diferite aspecte
+
+00:04:22.755 --> 00:04:24.377
+și punându-le laolaltă,
+
+00:04:24.377 --> 00:04:27.017
+m-am întrebat, de câțiva ani încoace,
+
+00:04:27.017 --> 00:04:29.867
+dacă există un mecanism care să stea la baza inteligenței
+
+00:04:29.867 --> 00:04:31.540
+și pe care să-l putem individualiza
+
+00:04:31.540 --> 00:04:33.314
+din toate aceste aspecte diferite?
+
+00:04:33.314 --> 00:04:37.907
+Există o ecuație unică a inteligenței?
+
+00:04:37.907 --> 00:04:41.278
+Iar răspunsul este, cred eu, da. ["F = T ∇ Sτ"]
+
+00:04:41.278 --> 00:04:43.191
+Ceea ce vedeți este probabil
+
+00:04:43.191 --> 00:04:46.485
+cel mai apropiat echivalent al formulei E = mc²
+
+00:04:46.485 --> 00:04:49.315
+pentru inteligență, din câte cunosc.
+
+00:04:49.315 --> 00:04:51.017
+Așa că ceea ce vedeți aici
+
+00:04:51.017 --> 00:04:53.686
+este o declarație de analogie
+
+00:04:53.686 --> 00:04:58.121
+potrivit căreia inteligența este o forță, F,
+
+00:04:58.121 --> 00:05:02.771
+care acționează pentru a maximiza libertatea de acțiune ulterioară.
+
+00:05:02.771 --> 00:05:05.146
+Aceasta acționează pentru a maximaliza libertatea de acțiune ulterioară,
+
+00:05:05.146 --> 00:05:06.774
+sau pentru a menține alternativele disponibile,
+
+00:05:06.774 --> 00:05:08.999
+cu o anumită putere, T,
+
+00:05:08.999 --> 00:05:13.776
+cu diversitatea posibilelor viitoruri accesibile, S,
+
+00:05:13.776 --> 00:05:16.326
+până la un orizont temporal viitor, Tau.
+
+00:05:16.326 --> 00:05:19.535
+Pe scurt, inteligenței nu-i place să fie îngrădită.
+
+00:05:19.535 --> 00:05:22.590
+Inteligența încearcă să maximalizeze viitoarea libertate de acțiune
+
+00:05:22.590 --> 00:05:25.263
+și să mențină opțiunile disponibile.
+
+00:05:25.263 --> 00:05:27.696
+Astfel, dată fiind aceasta ecuație,
+
+00:05:27.696 --> 00:05:30.228
+e normal să ne întrebăm, bun, și ce facem cu ea?
+
+00:05:30.228 --> 00:05:31.579
+Cât de predictivă este?
+
+00:05:31.579 --> 00:05:33.714
+Poate prezice nivelul inteligenței umane?
+
+00:05:33.714 --> 00:05:36.532
+Prezice inteligența artificială?
+
+00:05:36.532 --> 00:05:38.574
+Așa că, vă voi prezenta acum un film
+
+00:05:38.574 --> 00:05:41.994
+care va demonstra, cred eu,
+
+00:05:41.994 --> 00:05:44.282
+câteva dintre uimitoarele aplicații
+
+00:05:44.282 --> 00:05:46.601
+ale acestei ecuații unice.
+
+00:05:46.601 --> 00:05:48.580
+(Film) Narator: Cercetările recente în cosmologie
+
+00:05:48.580 --> 00:05:50.627
+au sugerat că universurile care produc
+
+00:05:50.627 --> 00:05:54.108
+mai multă dezordine sau ,,entropie" în timpul duratei lor
+
+00:05:54.108 --> 00:05:56.586
+ar trebui să aibă condiții mai favorabile
+
+00:05:56.586 --> 00:05:59.602
+existenței ființelor inteligente, ca noi înșine.
+
+00:05:59.602 --> 00:06:02.176
+Dar dacă tentativa de conexiune cosmologică
+
+00:06:02.176 --> 00:06:04.019
+dintre entropie și inteligență
+
+00:06:04.019 --> 00:06:05.790
+indică o relație mai profundă?
+
+00:06:05.790 --> 00:06:08.354
+Dacă comportamentul inteligent nu este doar corelat
+
+00:06:08.354 --> 00:06:10.198
+cu producerea de entropie pe termen lung,
+
+00:06:10.198 --> 00:06:12.516
+ci, de fapt, rezultă direct din aceasta?
+
+00:06:12.516 --> 00:06:14.922
+Pentru a afla, am creat un mecanism software
+
+00:06:14.922 --> 00:06:17.425
+numit Entropica, conceput să maximalizeze
+
+00:06:17.425 --> 00:06:19.193
+producerea de entropie pe termen lung
+
+00:06:19.193 --> 00:06:21.769
+în orice sistem în care se afla.
+
+00:06:21.769 --> 00:06:23.924
+Uimitor, Entropica a fost capabilă să treacă
+
+00:06:23.924 --> 00:06:27.380
+numeroase teste de inteligență animală, să joace jocuri umane
+
+00:06:27.380 --> 00:06:29.526
+și chiar să câștige bani din tranzacții cu acțiuni,
+
+00:06:29.526 --> 00:06:31.637
+toate fără a primi instrucțiuni în acest sens.
+
+00:06:31.637 --> 00:06:34.155
+Iată câteva exemple ale programului Entropica în acțiune.
+
+00:06:34.155 --> 00:06:37.360
+Întocmai unui om care stă în picioare fără să cadă,
+
+00:06:37.360 --> 00:06:38.590
+aici o vedem pe Entropica
+
+00:06:38.590 --> 00:06:41.475
+echilibrând automat o tijă folosindu-se de un cărucior.
+
+00:06:41.475 --> 00:06:43.487
+Acest comportament este în special remarcabil
+
+00:06:43.487 --> 00:06:45.818
+deoarece noi nu i-am dat lui Entropica un scop.
+
+00:06:45.818 --> 00:06:48.975
+Pur și simplu a decis singură să echilibreze tija.
+
+00:06:48.975 --> 00:06:51.107
+Această abilitate de echilibrare își va găsi aplicații
+
+00:06:51.107 --> 00:06:52.504
+în robotica umanoidă
+
+00:06:52.504 --> 00:06:55.019
+și în tehnologiile de asistență umană.
+
+00:06:55.019 --> 00:06:57.020
+Așa cum unele animale pot folosi obiecte
+
+00:06:57.020 --> 00:06:58.462
+din mediul lor ca unelte
+
+00:06:58.462 --> 00:07:00.449
+pentru a ajunge în spații înguste,
+
+00:07:00.449 --> 00:07:02.331
+la fel și Entropica,
+
+00:07:02.331 --> 00:07:04.169
+din nou, din proprie inițiativă,
+
+00:07:04.169 --> 00:07:07.079
+a reușit să mute un disc mare, reprezentând un animal,
+
+00:07:07.079 --> 00:07:09.424
+pentru ca un disc mai mic,
+
+00:07:09.424 --> 00:07:12.195
+reprezentând o unealtă, să poată ajunge într-un spațiu închis
+
+00:07:12.195 --> 00:07:13.732
+în care se află un al treilea disc
+
+00:07:13.732 --> 00:07:16.704
+și să-l elibereze din poziția sa inițială.
+
+00:07:16.704 --> 00:07:18.893
+Această abilitate de a întrebuința o unealtă va avea aplicații
+
+00:07:18.893 --> 00:07:21.252
+în industrie și agricultură.
+
+00:07:21.252 --> 00:07:23.196
+Mai mult, așa cum alte animale
+
+00:07:23.196 --> 00:07:25.892
+pot coopera trăgând de capetele opuse ale unei frânghii
+
+00:07:25.892 --> 00:07:27.945
+în același timp pentru a primi hrană,
+
+00:07:27.945 --> 00:07:30.240
+aici vedem că Entropica este în măsură să îndeplinească
+
+00:07:30.240 --> 00:07:32.228
+o versiune model a respectivei sarcini.
+
+00:07:32.228 --> 00:07:34.750
+Această abilitate de a coopera are implicații interesante
+
+00:07:34.750 --> 00:07:38.185
+în planificarea economică și într-o varietate de alte domenii.
+
+00:07:38.185 --> 00:07:40.256
+Entropica se poate aplica, în linii mari,
+
+00:07:40.256 --> 00:07:42.199
+unei palete largi de domenii.
+
+00:07:42.199 --> 00:07:44.641
+De exemplu, aici o vedem reușind
+
+00:07:44.641 --> 00:07:47.200
+să joace o partidă de pong împotriva ei însăși,
+
+00:07:47.200 --> 00:07:49.543
+ilustrându-și potențialul ludic.
+
+00:07:49.543 --> 00:07:51.462
+Aici o vedem pe Entropica orchestrând
+
+00:07:51.462 --> 00:07:53.301
+noi conexiuni într-o rețea socială
+
+00:07:53.301 --> 00:07:56.061
+în care prietenii pierd constant legătura unii cu ceilalți
+
+00:07:56.061 --> 00:07:58.917
+și reușind cu succes să mențină rețeaua bine conectată.
+
+00:07:58.917 --> 00:08:01.215
+Aceasta abilitate de a orchestra o rețea
+
+00:08:01.215 --> 00:08:03.543
+are aplicații în domeniile sănătății,
+
+00:08:03.543 --> 00:08:06.775
+energiei și inteligenței.
+
+00:08:06.775 --> 00:08:08.860
+Aici o vedem pe Entropica coordonând traiectoria
+
+00:08:08.860 --> 00:08:10.346
+unei flote,
+
+00:08:10.346 --> 00:08:13.521
+descoperind și utilizând cu succes Canalul Panama
+
+00:08:13.521 --> 00:08:15.979
+pentru a se extinde, la nivel global, din Atlantic,
+
+00:08:15.979 --> 00:08:17.508
+în Pacific.
+
+00:08:17.508 --> 00:08:19.235
+În același fel, Entropica
+
+00:08:19.235 --> 00:08:20.855
+dovedește o largă aplicabilitate în probleme legate de
+
+00:08:20.855 --> 00:08:26.157
+propria apărare, logistică și transport.
+
+00:08:26.173 --> 00:08:28.203
+În cele din urmă, aici o vedem pe Entropica
+
+00:08:28.203 --> 00:08:30.926
+descoperind spontan și executând
+
+00:08:30.926 --> 00:08:32.993
+o strategie de cumpărat-ieftin, vândut-scump
+
+00:08:32.993 --> 00:08:35.171
+la o bursă simulată,
+
+00:08:35.171 --> 00:08:37.502
+reușind cu succes să crească capitalul
+
+00:08:37.502 --> 00:08:38.926
+exponențial.
+
+00:08:38.926 --> 00:08:40.234
+Managementul riscului
+
+00:08:40.234 --> 00:08:42.721
+va avea largi aplicații în finanțe
+
+00:08:42.721 --> 00:08:46.049
+și asigurări.
+
+00:08:46.049 --> 00:08:48.140
+Alex Wissner-Gross: Deci ceea ce ați văzut
+
+00:08:48.140 --> 00:08:52.532
+este o variatate de comportamente cognitive
+
+00:08:52.532 --> 00:08:54.289
+specifice inteligenței umane
+
+00:08:54.289 --> 00:08:57.120
+ca de pildă, folosirea uneltelor și mersul biped, drept,
+
+00:08:57.120 --> 00:08:59.149
+sau cooperarea socială
+
+00:08:59.149 --> 00:09:02.121
+derivă toate dintr-o singură ecuație,
+
+00:09:02.121 --> 00:09:04.053
+care conduce un sistem
+
+00:09:04.053 --> 00:09:07.964
+spre maximizarea viitoarei sale libertăți de acțiune.
+
+00:09:07.964 --> 00:09:10.971
+Iată acum profunda ironie a lucrurilor.
+
+00:09:10.971 --> 00:09:12.995
+Întorcându-ne la începuturile
+
+00:09:12.995 --> 00:09:16.268
+utilizării termenului de robot,
+
+00:09:16.268 --> 00:09:19.171
+piesa de teatru ,,RUR",
+
+00:09:19.171 --> 00:09:21.406
+dintotdeauna a existat ideea
+
+00:09:21.406 --> 00:09:24.632
+potrivit căreia dacă creăm inteligență artificială,
+
+00:09:24.632 --> 00:09:27.659
+va urma o revoltă cibernetică.
+
+00:09:27.659 --> 00:09:31.210
+Mașinile se vor ridica împotriva noastră.
+
+00:09:31.210 --> 00:09:33.529
+Una dintre consecințele majore ale acestui demers
+
+00:09:33.529 --> 00:09:36.298
+este că, poate în toate aceste decenii,
+
+00:09:36.298 --> 00:09:39.274
+am perceput întreg conceptul de revoltă cibernetică
+
+00:09:39.274 --> 00:09:41.285
+invers.
+
+00:09:41.285 --> 00:09:44.564
+Mașinile nu devin mai întâi inteligente,
+
+00:09:44.564 --> 00:09:46.579
+apoi megalomane
+
+00:09:46.579 --> 00:09:48.803
+și încearcă să conducă lumea.
+
+00:09:48.803 --> 00:09:50.237
+Este chiar invers,
+
+00:09:50.237 --> 00:09:53.143
+deoarece dorința de a prelua controlul
+
+00:09:53.143 --> 00:09:55.404
+tuturor posibilelor viitoruri
+
+00:09:55.404 --> 00:09:57.522
+este un principiu mai fundamental
+
+00:09:57.522 --> 00:09:58.885
+decât acela al inteligenței,
+
+00:09:58.885 --> 00:10:02.585
+iar inteligența generală ar putea în fapt să rezulte
+
+00:10:02.585 --> 00:10:06.144
+direct din acest tip de nevoie de a prelua controlul,
+
+00:10:06.144 --> 00:10:10.329
+decât invers.
+
+00:10:10.329 --> 00:10:14.098
+O altă consecință importantă e urmărirea unui obiectiv.
+
+00:10:14.098 --> 00:10:18.458
+Sunt întrebat adesea, cum reiese abilitatea de a urmări un scop
+
+00:10:18.458 --> 00:10:20.078
+din acestă schemă?
+
+00:10:20.078 --> 00:10:23.106
+Iar răspunsul este, capacitatea de a urmări obiective
+
+00:10:23.106 --> 00:10:24.988
+va rezulta direct din aceasta
+
+00:10:24.988 --> 00:10:26.822
+după cum urmează:
+
+00:10:26.822 --> 00:10:29.687
+așa cum ați călători printr-un tunel,
+
+00:10:29.687 --> 00:10:32.192
+o îngustare a căii de acces viitoare,
+
+00:10:32.192 --> 00:10:34.063
+pentru a obține, mai târziu, numeroase alte
+
+00:10:34.063 --> 00:10:36.084
+diverse obiective,
+
+00:10:36.084 --> 00:10:38.456
+sau ca și cum ai investi
+
+00:10:38.456 --> 00:10:40.243
+în ceva sigur financiar,
+
+00:10:40.243 --> 00:10:42.480
+reducând lichiditățile pe termen scurt
+
+00:10:42.480 --> 00:10:44.880
+pentru a crește venitul pe termen lung,
+
+00:10:44.880 --> 00:10:47.217
+urmărirea scopului ia naștere direct
+
+00:10:47.217 --> 00:10:48.946
+dintr-un demers pe termen lung
+
+00:10:48.946 --> 00:10:52.983
+pentru a crește viitoarea libertate de acțiune.
+
+00:10:52.983 --> 00:10:56.511
+În cele din urmă, faimosul fizician Richard Feynman
+
+00:10:56.511 --> 00:11:00.183
+a scris cândva că dacă civilizația umană ar fi distrusă
+
+00:11:00.183 --> 00:11:02.076
+și n-am putea transmite descendenților noștri
+
+00:11:02.076 --> 00:11:03.447
+decât un singur concept
+
+00:11:03.447 --> 00:11:05.754
+pentru a-i ajuta să refacă civilizația
+
+00:11:05.754 --> 00:11:07.440
+acel concept ar trebui să fie
+
+00:11:07.440 --> 00:11:09.292
+că tot ce contează în jurul nostru
+
+00:11:09.292 --> 00:11:11.615
+este făcut din elemente minuscule
+
+00:11:11.615 --> 00:11:14.123
+care se atrag între ele atunci când sunt îndepărtate
+
+00:11:14.123 --> 00:11:17.453
+dar se resping când sunt împreună.
+
+00:11:17.453 --> 00:11:19.234
+Echivalentul meu pentru această afirmație
+
+00:11:19.234 --> 00:11:20.502
+de dat mai departe descendenților
+
+00:11:20.502 --> 00:11:23.214
+pentru a-i ajuta să construiască inteligența artificială,
+
+00:11:23.214 --> 00:11:26.163
+ori spre a-i ajuta să înțeleagă inteligența umană,
+
+00:11:26.163 --> 00:11:27.430
+este următorul:
+
+00:11:27.430 --> 00:11:29.483
+Inteligența ar trebui văzută
+
+00:11:29.483 --> 00:11:30.896
+ca un proces fizic
+
+00:11:30.896 --> 00:11:33.861
+care încearcă să maximizeze viitoarea libertate de acțiune
+
+00:11:33.861 --> 00:11:37.477
+și să evite constrângerile în propriul său viitor.
+
+00:11:37.477 --> 00:11:38.835
+Vă mulțumesc foarte mult!
+
+00:11:38.835 --> 00:11:42.835
+(Aplauze)
+

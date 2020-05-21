@@ -1,0 +1,1136 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Csaba Lóki
+Lektor: Laszlo Kereszturi
+
+00:00:15.260 --> 00:00:18.260
+Nos tehát, az első robot, amiről szó lesz, a STriDER.
+
+00:00:18.260 --> 00:00:20.260
+Ez azt jelenti, hogy Öngerjesztésű,
+
+00:00:20.260 --> 00:00:22.260
+Háromlábú, Dinamikus Kísérleti Robot.
+
+00:00:22.260 --> 00:00:24.260
+Ez egy olyan robot, aminek három lába van,
+
+00:00:24.260 --> 00:00:27.260
+aminek ötletét a természetből vettük.
+
+00:00:27.260 --> 00:00:29.260
+De láttak már önök egyetlen állatot is,
+
+00:00:29.260 --> 00:00:31.260
+aminek három lába lenne?
+
+00:00:31.260 --> 00:00:33.260
+Valószínűleg nem. Akkor hát miért mondom, hogy
+
+00:00:33.260 --> 00:00:35.260
+ez egy biológiai ötletre épülő robot? Hogyan működik?
+
+00:00:35.260 --> 00:00:38.260
+Előtte azonban vessünk egy pillantást a popkultúrára!
+
+00:00:38.260 --> 00:00:41.260
+Mindannyian ismerik Wells Világok háborúja című művét és a belőle készült filmet.
+
+00:00:41.260 --> 00:00:43.260
+Amit itt látnak, az egy nagyon népszerű
+
+00:00:43.260 --> 00:00:45.260
+videójáték.
+
+00:00:45.260 --> 00:00:48.260
+A fantázia leírása szerint ezek az idegen teremtmények
+
+00:00:48.260 --> 00:00:50.260
+háromlábú robotok, melyek megtámadják a Földet.
+
+00:00:50.260 --> 00:00:54.260
+Az én robotom, a STriDER azonban nem így mozog.
+
+00:00:54.260 --> 00:00:57.260
+Ez itt egy valódi dinamikus szimulációra épülő animáció.
+
+00:00:57.260 --> 00:00:59.260
+Most megmutatom önöknek, hogyan működik a robot.
+
+00:00:59.260 --> 00:01:02.260
+180 fokkal átbillenti a testét.
+
+00:01:02.260 --> 00:01:05.260
+Egyik lábát átlendíti a másik kettő között, hogy ne essen el.
+
+00:01:05.260 --> 00:01:07.260
+Tehát így sétál. Amikor azonban magunkat,
+
+00:01:07.260 --> 00:01:09.260
+emberi lényeket figyeljük meg, két lábon járás közben,
+
+00:01:09.260 --> 00:01:11.260
+látjuk, hogy valójában nem igazán használunk egy izmot sem
+
+00:01:11.260 --> 00:01:14.260
+a lábunk felemeléséhez, hogy úgy járjunk, mint egy robot. Így van?
+
+00:01:14.260 --> 00:01:17.260
+Valójában annyit teszünk, hogy lendítjük a lábunkat, és kivédjük az esést,
+
+00:01:17.260 --> 00:01:20.260
+felállunk, lendítjük a lábunkat és kivédjük az esést.
+
+00:01:20.260 --> 00:01:23.260
+Használjunk a beépített dinamikánkat, testünk fizikáját,
+
+00:01:23.260 --> 00:01:25.260
+akárcsak egy ingát.
+
+00:01:25.260 --> 00:01:29.260
+Ezt a koncepciót passzív dinamikus mozgásnak hívjuk.
+
+00:01:29.260 --> 00:01:31.260
+Annyit teszünk mindössze amikor állunk, hogy
+
+00:01:31.260 --> 00:01:33.260
+helyzeti energiát mozgási energiává alakítunk,
+
+00:01:33.260 --> 00:01:35.260
+helyzeti energiát mozgási energiává alakítunk.
+
+00:01:35.260 --> 00:01:37.260
+Ez egy állandó esések sorozata.
+
+00:01:37.260 --> 00:01:40.260
+És, bár semmi hasonló nem létezik a természetben,
+
+00:01:40.260 --> 00:01:42.260
+bennünket mégis a biológia inspirált
+
+00:01:42.260 --> 00:01:44.260
+és adta az alapelvét e robot
+
+00:01:44.260 --> 00:01:47.260
+mozgásának, tehát ez egy biológiai elvre épülő robot.
+
+00:01:47.260 --> 00:01:49.260
+Amit itt látnak, az a következő, amit meg akarunk valósítani.
+
+00:01:49.260 --> 00:01:53.260
+Össze akajuk hajtogatni a lábakat, hogy aztán kilőhessük őket a hosszabb hatótáv érdekében.
+
+00:01:53.260 --> 00:01:56.260
+Ez itt lerakja a lábait, akárcsak a Star Wars-ban.
+
+00:01:56.260 --> 00:01:59.260
+Földet éréskor elnyeli az ütközést, és járni kezd.
+
+00:01:59.260 --> 00:02:02.260
+Amit itt látnak, ez a sárga dolog, ez nem egy halálos sugár.
+
+00:02:02.260 --> 00:02:04.260
+Ez csak azt akarja mutatni, hogy ha van egy kameránk,
+
+00:02:04.260 --> 00:02:06.260
+ami különböző féle érzékelőkből áll,
+
+00:02:06.260 --> 00:02:08.260
+mivel ez magas, 1,8 m magas,
+
+00:02:08.260 --> 00:02:11.260
+akkor átláthatunk a bokrok és más efféle akadályok fölött.
+
+00:02:11.260 --> 00:02:13.260
+Két prototípusunk van tehát.
+
+00:02:13.260 --> 00:02:16.260
+Ez az első változat itt hátul a STriDER I.
+
+00:02:16.260 --> 00:02:18.260
+Ez a kisebb itt elöl a STriDER II.
+
+00:02:18.260 --> 00:02:20.260
+A STriDER I-gyel az a probléma, hogy
+
+00:02:20.260 --> 00:02:23.260
+a teste túlságosan nehéz volt. Olyan sok motorra volt szükség
+
+00:02:23.260 --> 00:02:25.260
+például az ízületek és más effélék összehangolásához.
+
+00:02:25.260 --> 00:02:29.260
+Ezért úgy döntöttünk, hogy összeállítunk egy mechanikai rendszert,
+
+00:02:29.260 --> 00:02:32.260
+hogy megszabadulhassunk a motoroktól, és mindössze egyetlen motorral
+
+00:02:32.260 --> 00:02:34.260
+képesek legyünk minden mozgást koordinálni.
+
+00:02:34.260 --> 00:02:37.260
+Ez a probléma mechanikai megoldása, a mechatronikai megoldás helyett.
+
+00:02:37.260 --> 00:02:40.260
+Így a felső test már elég könnyű ahhoz, hogy a laborban járni tudjon.
+
+00:02:40.260 --> 00:02:43.260
+Ez volt a legelső sikeres lépés.
+
+00:02:43.260 --> 00:02:45.260
+Ez persze még messze van a tökéletestől. Még kiborítaná a kávéját,
+
+00:02:45.260 --> 00:02:48.260
+úgyhogy még rengeteg a tennivalónk.
+
+00:02:48.260 --> 00:02:51.260
+A második robot, amiről beszélni szeretnék, az IMPASS.
+
+00:02:51.260 --> 00:02:55.260
+Jelentése: Küllőrendszer-hajtású Intelligens Mobil Platform.
+
+00:02:55.260 --> 00:02:58.260
+Ez tehát egy keréklábú hibrid robot.
+
+00:02:58.260 --> 00:03:00.260
+Képzeljünk el egy abroncs nélküli,
+
+00:03:00.260 --> 00:03:02.260
+vagy csak küllőkből álló kereket.
+
+00:03:02.260 --> 00:03:05.260
+A küllők azonban egyedileg mozoghatnak a kerékagyban ki-be.
+
+00:03:05.260 --> 00:03:07.260
+Ez tehát egy keréklábú hibrid.
+
+00:03:07.260 --> 00:03:09.260
+Itt szó szerint újra feltaláltuk a kereket.
+
+00:03:09.260 --> 00:03:12.260
+Hadd mutassam meg, hogyan működik.
+
+00:03:12.260 --> 00:03:14.260
+Ezen a videón egy olyan megközelítést használunk,
+
+00:03:14.260 --> 00:03:16.260
+amit úgy hívunk, hogy reaktív megközelítés.
+
+00:03:16.260 --> 00:03:19.260
+Egyszerűen a lábain lévő tapintó szenzorokat használva,
+
+00:03:19.260 --> 00:03:21.260
+próbál egy változó terepen haladni,
+
+00:03:21.260 --> 00:03:24.260
+puha terepen kinyújtja őket, és vált.
+
+00:03:24.260 --> 00:03:26.260
+És pusztán a tapintási információ alapján,
+
+00:03:26.260 --> 00:03:29.260
+sikeresen halad végig ilyen terepeken.
+
+00:03:29.260 --> 00:03:33.260
+Amikor azonban extrém terepre ér,
+
+00:03:33.260 --> 00:03:36.260
+ebben az esetben például az akadály több mint háromszorosa
+
+00:03:36.260 --> 00:03:38.260
+a robot magasságának.
+
+00:03:38.260 --> 00:03:40.260
+Ekkor átkapcsol előrelátó módba,
+
+00:03:40.260 --> 00:03:42.260
+amikor is egy lézeres keresőt
+
+00:03:42.260 --> 00:03:44.260
+és egy kamerás rendszert használ az akadályok és méretük meghatározására
+
+00:03:44.260 --> 00:03:47.260
+és megtervezi, alaposan megtervezi a küllők mozgását,
+
+00:03:47.260 --> 00:03:49.260
+és úgy koordinálja, hogy az eredmény
+
+00:03:49.260 --> 00:03:51.260
+ez a fajta, nagyon impresszív mobilitás legyen.
+
+00:03:51.260 --> 00:03:53.260
+Önök még valószínűleg nem láttak ilyet.
+
+00:03:53.260 --> 00:03:56.260
+Ez egy nagyon magas mobilitású robot,
+
+00:03:56.260 --> 00:03:59.260
+amit kifejlesztettünk, a neve IMPASS.
+
+00:03:59.260 --> 00:04:01.260
+Ó! Hát nem klassz?
+
+00:04:01.260 --> 00:04:04.260
+Amikor autót vezetünk,
+
+00:04:04.260 --> 00:04:06.260
+amikor kormányozunk, az úgy nevezett
+
+00:04:06.260 --> 00:04:08.260
+Ackermann kormányzási módszert használjuk.
+
+00:04:08.260 --> 00:04:10.260
+A két első kereket forgatjuk, valahogy így.
+
+00:04:10.260 --> 00:04:13.260
+A legtöbb ilyen kis kerekű robotnál viszont
+
+00:04:13.260 --> 00:04:15.260
+a differenciál-kormányzás módszerét használják,
+
+00:04:15.260 --> 00:04:18.260
+ahol a bal és a jobb kerék ellenkező irányba forog.
+
+00:04:18.260 --> 00:04:21.260
+Az IMPASS-nál sok-sok különböző mozgásformát tudunk létrehozni.
+
+00:04:21.260 --> 00:04:24.260
+Például ebben az esetben, annak ellenére, hogy a bal és jobb kereket
+
+00:04:24.260 --> 00:04:26.260
+egyetlen tengely köti össze, és azonos szögsebességgel forognak.
+
+00:04:26.260 --> 00:04:29.260
+Egyszerűen megváltoztatjuk a küllő hosszát.
+
+00:04:29.260 --> 00:04:31.260
+Ettől változik az átmérő, amitől aztán balra és jobbra fordul.
+
+00:04:31.260 --> 00:04:33.260
+És ez csak néhány példa azokra a finom dolgokra,
+
+00:04:33.260 --> 00:04:36.260
+amikre az IMPASS képes.
+
+00:04:36.260 --> 00:04:38.260
+Ezt a robotot CLIMBeR-nek hívják.
+
+00:04:38.260 --> 00:04:41.260
+Kábel-felfüggesztéses Lábakon járó, Intelligens Alkalmazkodó Robot.
+
+00:04:41.260 --> 00:04:44.260
+Számos tudóssal beszéltem, akik a NASA JPL-nél dolgoznak,
+
+00:04:44.260 --> 00:04:46.260
+a JPL-nél, ami híres Mars-járó rovereiről.
+
+00:04:46.260 --> 00:04:48.260
+És a tudósok, geológusok mindig azt mondják nekem,
+
+00:04:48.260 --> 00:04:51.260
+hogy az igazán érdekes tudomány,
+
+00:04:51.260 --> 00:04:54.260
+a tudomány számára érdekes helyek mindig a szikláknál vannak.
+
+00:04:54.260 --> 00:04:56.260
+A mai roverek azonban nem tudnak oda jutni.
+
+00:04:56.260 --> 00:04:58.260
+Ez adta az ötletet egy olyan robot építéséhez,
+
+00:04:58.260 --> 00:05:01.260
+ami képes átmászni egy tagolt, sziklás terepen.
+
+00:05:01.260 --> 00:05:03.260
+Ez lett a CLIMBeR.
+
+00:05:03.260 --> 00:05:05.260
+Van három lába. Valószínűleg nehezen látható,
+
+00:05:05.260 --> 00:05:08.260
+de van egy csörlője és egy kábel a felső részén.
+
+00:05:08.260 --> 00:05:10.260
+Igyekszik megkeresni a legjobb helyet, ahol megvetheti a lábát.
+
+00:05:10.260 --> 00:05:12.260
+Aztán miután ezt megtalálta,
+
+00:05:12.260 --> 00:05:15.260
+valós időben kiszámítja az erőeloszlást.
+
+00:05:15.260 --> 00:05:18.260
+Hogy mekkora erőt kell kifejtenie a felületre,
+
+00:05:18.260 --> 00:05:20.260
+hogy ne billenjen és ne is csússzon meg.
+
+00:05:20.260 --> 00:05:22.260
+Mikor stabilizálta magát, felemeli egyik lábát,
+
+00:05:22.260 --> 00:05:26.260
+aztán a csörlő segítségével fel tud mászni ilyen dolgokra.
+
+00:05:26.260 --> 00:05:28.260
+Kutatási és mentési feladatokra is jól alkalmazható.
+
+00:05:28.260 --> 00:05:30.260
+Öt évvel ezelőtt én magami is dolgoztam a NASA JPL-nél,
+
+00:05:30.260 --> 00:05:32.260
+nyári gyakorlaton.
+
+00:05:32.260 --> 00:05:36.260
+Nekik akkor már volt egy LEMUR nevű, hatlábú robotjuk.
+
+00:05:36.260 --> 00:05:39.260
+Ez itt valójában annak alapján épült. A neve MARS,
+
+00:05:39.260 --> 00:05:42.260
+mint Többszörös Felfüggesztésű Robotrendszer. Ez tehát egy hatlábú robot.
+
+00:05:42.260 --> 00:05:44.260
+Kifejlesztettük a saját adaptív járástervezőnket.
+
+00:05:44.260 --> 00:05:46.260
+Egy igazán nagyon érdekes terhet cipel.
+
+00:05:46.260 --> 00:05:48.260
+A hallgatók szeretnek viccelődni. Itt jól látható, amint
+
+00:05:48.260 --> 00:05:51.260
+egy strukturálatlan terepen keresztül sétál.
+
+00:05:51.260 --> 00:05:53.260
+Megpróbál a durva felületen járni,
+
+00:05:53.260 --> 00:05:55.260
+homokos felületen,
+
+00:05:55.260 --> 00:06:00.260
+de a homok nedvességtartalmától és szemcseméretétől függően,
+
+00:06:00.260 --> 00:06:02.260
+a lábak talajba süppedési modellje változik.
+
+00:06:02.260 --> 00:06:06.260
+Így hát igyekszik járását úgy adaptálni, hogy sikeresen vegye ezeket az akadályokat.
+
+00:06:06.260 --> 00:06:08.260
+És egyúttal valami vicceset is csinál.
+
+00:06:08.260 --> 00:06:11.260
+Nagyon sok látogatót fogadunk laboratóriumunkban.
+
+00:06:11.260 --> 00:06:13.260
+Amikor a látogatók érkeznek, MARS odamegy a számítógéphez,
+
+00:06:13.260 --> 00:06:15.260
+és elkezdi írni "Helló, a nevem MARS."
+
+00:06:15.260 --> 00:06:17.260
+Isten hozta önöket a RoMeLa-ban,
+
+00:06:17.260 --> 00:06:21.260
+a Virginia Tech Robotmechanikai Laboratóriumában.
+
+00:06:21.260 --> 00:06:23.260
+Ez itt egy amőba-robot.
+
+00:06:23.260 --> 00:06:26.260
+Most nincs idő a technikai részletekre,
+
+00:06:26.260 --> 00:06:28.260
+így csak néhány kísérletet fogok megmutatni.
+
+00:06:28.260 --> 00:06:30.260
+Néhányat a korai megvalósíthatósági kísérletek közül.
+
+00:06:30.260 --> 00:06:34.260
+A mozgáshoz szükséges potenciális energiát a rugalmas bőrben tároljuk.
+
+00:06:34.260 --> 00:06:36.260
+Vagy pedig aktív rugalmas húrokat használunk az
+
+00:06:36.260 --> 00:06:39.260
+előre-hátra mozgáshoz. A neve ChIMERA.
+
+00:06:39.260 --> 00:06:41.260
+Dolgozik velünk néhány tudós
+
+00:06:41.260 --> 00:06:43.260
+és mérnök a UPenn-től is,
+
+00:06:43.260 --> 00:06:45.260
+hogy kifejlesszük ennek az amőba-robotnak
+
+00:06:45.260 --> 00:06:47.260
+egy kémiai úton meghajtott változatát.
+
+00:06:47.260 --> 00:06:49.260
+Csinálunk valamiből valamit.
+
+00:06:49.260 --> 00:06:55.260
+És csodák csodája, mozog. A folt.
+
+00:06:55.260 --> 00:06:57.260
+Ez itt az egyik legújabb projektünk. A neve RAPHaEL.
+
+00:06:57.260 --> 00:07:00.260
+Elasztikus Ízületű Levegőhajtású Robotkéz.
+
+00:07:00.260 --> 00:07:04.260
+Jelenleg egy csomó, kiváló, jó minőségű robotkéz van a piacon.
+
+00:07:04.260 --> 00:07:08.260
+A gond csak az, hogy nagyon drágák, több tízezer dollárba kerülnek.
+
+00:07:08.260 --> 00:07:10.260
+Ezért protézisként valószínűleg nem túl praktikusak,
+
+00:07:10.260 --> 00:07:12.260
+mert csak kevesek számára megfizethetők.
+
+00:07:12.260 --> 00:07:16.260
+Mi a problémát egy teljesen új irányból akartuk megközelíteni.
+
+00:07:16.260 --> 00:07:19.260
+Elektromos motorok és elektromechanikus szerkezetek helyett,
+
+00:07:19.260 --> 00:07:21.260
+sűrített levegőt használunk.
+
+00:07:21.260 --> 00:07:23.260
+Kifejlesztettük ezeket az új fajta ízületi elemeket.
+
+00:07:23.260 --> 00:07:26.260
+Könnyedén kezelhető. Az erőhatás módosítható
+
+00:07:26.260 --> 00:07:28.260
+a levegő nyomásának egyszerű változtatásával.
+
+00:07:28.260 --> 00:07:30.260
+Így akár egy üres üdítős palackot is képes összenyomni.
+
+00:07:30.260 --> 00:07:33.260
+De akár egy törékeny nyers tojás megfogására,
+
+00:07:33.260 --> 00:07:36.260
+vagy, mint ebben az esetben, egy lámpaizzó megtartására is képes.
+
+00:07:36.260 --> 00:07:40.260
+És ami a legjobb benne, az első prototípus elkészítése mindössze 200 dollárba került.
+
+00:07:40.260 --> 00:07:43.260
+Ez a robot a kígyórobotok családjába tartozik,
+
+00:07:43.260 --> 00:07:45.260
+amit HyDRAS-nak hívunk,
+
+00:07:45.260 --> 00:07:47.260
+Hipermagas Szabadságfokú Robotkígyó
+
+00:07:47.260 --> 00:07:50.260
+Ez egy olyan robot, ami képes különböző struktúrákra felmászni.
+
+00:07:50.260 --> 00:07:52.260
+Ez egy HyDRAS karja.
+
+00:07:52.260 --> 00:07:54.260
+Ez egy 12 szabadsági fokú robotkar.
+
+00:07:54.260 --> 00:07:56.260
+De a legizgalmasabb része a felhasználói felület.
+
+00:07:56.260 --> 00:07:59.260
+Az a kábel ott egy optikai szál.
+
+00:07:59.260 --> 00:08:01.260
+Ez a diák pedig, aki valószínűleg életében először használja,
+
+00:08:01.260 --> 00:08:03.260
+képes különféle módon mozgatni.
+
+00:08:03.260 --> 00:08:06.260
+Például, mint tudják, az iraki háborús zónában
+
+00:08:06.260 --> 00:08:08.260
+gyakoriak az út menti bombák. Ezekre a helyekre jelenleg
+
+00:08:08.260 --> 00:08:11.260
+távirányítású, karral rendelkező járműveket küldenek.
+
+00:08:11.260 --> 00:08:13.260
+Rendkívül időigényes és költséges
+
+00:08:13.260 --> 00:08:17.260
+kiképezni a kezelőket ennek a bonyolult karnak a használatára.
+
+00:08:17.260 --> 00:08:19.260
+Esetünkben viszont ez igazán egyszerű.
+
+00:08:19.260 --> 00:08:23.260
+A hallgató, aki ezt valószínűleg először használja, egy nagyon összetett manipulációs feladatot végez,
+
+00:08:23.260 --> 00:08:25.260
+tárgyakat véve fel, és velük műveleteket végezve,
+
+00:08:25.260 --> 00:08:28.260
+így, rendkívül intuitív módon.
+
+00:08:30.260 --> 00:08:32.260
+Ez most az aktuális sztár-robotunk.
+
+00:08:32.260 --> 00:08:35.260
+A DARwIn robotnak valódi rajongói klubja van.
+
+00:08:35.260 --> 00:08:38.260
+Dinamikus Emberformájú Intelligens Robot.
+
+00:08:38.260 --> 00:08:40.260
+Mint tudják, nagyon foglalkoztat bennünket
+
+00:08:40.260 --> 00:08:42.260
+a humanoid robot, az emberi járás,
+
+00:08:42.260 --> 00:08:44.260
+ezért úgy döntöttünk, hogy építünk egy emberforma robotot.
+
+00:08:44.260 --> 00:08:46.260
+Ez 2004-ben történt, és ez akkoriban
+
+00:08:46.260 --> 00:08:48.260
+valami nagyon-nagyon forradalmi dolognak számított.
+
+00:08:48.260 --> 00:08:50.260
+Ez leginkább egy megvalósíthatósági tanulmány volt,
+
+00:08:50.260 --> 00:08:52.260
+milyen motorokat használjunk?
+
+00:08:52.260 --> 00:08:54.260
+Lehetséges ez egyáltalán? Milyen legyen a vezérlése?
+
+00:08:54.260 --> 00:08:56.260
+Így hát nincs benne egyetlen érzékelő sem.
+
+00:08:56.260 --> 00:08:58.260
+Open-loop (nyitott körű) vezérlésre épül.
+
+00:08:58.260 --> 00:09:00.260
+Azoknak mondom, akik valószínűleg tudják, mi történik,
+
+00:09:00.260 --> 00:09:02.260
+ha nincs egyetlen érzékelőnk sem, és valami zavaró körülmény lép fel.
+
+00:09:05.260 --> 00:09:06.260
+(Nevetés)
+
+00:09:06.260 --> 00:09:08.260
+Így hát erre a sikerre építve, a következő évben
+
+00:09:08.260 --> 00:09:11.260
+elvégeztük az alapos mechanikai tervezési munkát,
+
+00:09:11.260 --> 00:09:13.260
+a mozgástannal kezdve.
+
+00:09:13.260 --> 00:09:15.260
+És végül DARwIn I. 2005-ben megszületett.
+
+00:09:15.260 --> 00:09:17.260
+Képes felállni, Sétál. Nagyon látványos.
+
+00:09:17.260 --> 00:09:19.260
+Azonban, ahogy láthatják,
+
+00:09:19.260 --> 00:09:23.260
+a köldökzsinórja még megvan. Mivel még külső áramforrás,
+
+00:09:23.260 --> 00:09:25.260
+és külső számítógép működteti.
+
+00:09:25.260 --> 00:09:29.260
+Most pedig, 2006-ban itt az idő a mulatságra.
+
+00:09:29.260 --> 00:09:32.260
+Adjunk neki intelligenciát! Adjunk meg neki minden számítási képességet, amire csak szüksége van.
+
+00:09:32.260 --> 00:09:34.260
+1.5 gigahertz Pentium M chip,
+
+00:09:34.260 --> 00:09:36.260
+két Firewire kamera, nyolc giroszkóp, gyorsulásmérő,
+
+00:09:36.260 --> 00:09:39.260
+négy nyomatékszenzor a lábon, lítium-akkumulátorok.
+
+00:09:39.260 --> 00:09:43.260
+És most már DARwIn II tökéletesen önálló.
+
+00:09:43.260 --> 00:09:45.260
+Már nem távirányítású.
+
+00:09:45.260 --> 00:09:48.260
+Nincs szükség pórázra. Körülnéz, keresi a labdát,
+
+00:09:48.260 --> 00:09:51.260
+körülnéz, keresi a labdát, és megpróbál focizni,
+
+00:09:51.260 --> 00:09:54.260
+önállóan, mesterséges intelligencia.
+
+00:09:54.260 --> 00:09:57.260
+Lássuk, hogyan csinálja! Ez volt a legelső kísérletünk.
+
+00:09:57.260 --> 00:10:02.260
+és... Videó: Gól!
+
+00:10:03.260 --> 00:10:06.260
+Ez tehát egy valódi verseny, a neve RoboCup.
+
+00:10:06.260 --> 00:10:08.260
+Nem tudom, hányan hallottak már a RoboCup-ról.
+
+00:10:08.260 --> 00:10:13.260
+Ez az autonóm robotok nemzetközi futballbajnoksága.
+
+00:10:13.260 --> 00:10:16.260
+A RoboCup valódi célja pedig,
+
+00:10:16.260 --> 00:10:18.260
+a 2050-es évre
+
+00:10:18.260 --> 00:10:21.260
+elérni, hogy emberi méretű, autonóm humanoid robotok
+
+00:10:21.260 --> 00:10:25.260
+játsszanak mérkőzést az emberek világbajnok csapata ellen,
+
+00:10:25.260 --> 00:10:27.260
+és győzzenek.
+
+00:10:27.260 --> 00:10:29.260
+Ez egy valódi, igazi cél. Egy nagyon ambiciózus cél,
+
+00:10:29.260 --> 00:10:31.260
+de hiszük benne, hogy képesek vagyunk elérni.
+
+00:10:31.260 --> 00:10:34.260
+Ez itt tavaly történt Kínában.
+
+00:10:34.260 --> 00:10:36.260
+Mi voltunk az első amerikai csapat, amelyik bejutott
+
+00:10:36.260 --> 00:10:38.260
+a humanoid robotok versenyére.
+
+00:10:38.260 --> 00:10:41.260
+Ez az idei esemény, a helyszín Ausztria.
+
+00:10:41.260 --> 00:10:43.260
+Mindjárt látják az akciót, három a három ellen,
+
+00:10:43.260 --> 00:10:45.260
+teljesen önállóan.
+
+00:10:45.260 --> 00:10:47.260
+És már itt is van. Igen!
+
+00:10:48.260 --> 00:10:50.260
+A robotok mozognak és játszanak.
+
+00:10:50.260 --> 00:10:53.260
+csapatjátékot játszanak egymással.
+
+00:10:53.260 --> 00:10:55.260
+Lenyűgöző. Ez egy kutatási esemény,
+
+00:10:55.260 --> 00:10:59.260
+egy sokkal izgalmasabb sporteseménybe csomagolva.
+
+00:10:59.260 --> 00:11:01.260
+Amit itt látnak, az a csodálatos
+
+00:11:01.260 --> 00:11:03.260
+Louis Vuitton Kupa.
+
+00:11:03.260 --> 00:11:05.260
+A legjobb humanoidok számára szervezik,
+
+00:11:05.260 --> 00:11:07.260
+és mi első alkalommal el szeretnénk hozni az Egyesült Államokba
+
+00:11:07.260 --> 00:11:09.260
+jövőre, úgyhogy kívánjanak nekünk szerencsét.
+
+00:11:09.260 --> 00:11:11.260
+Köszönöm.
+
+00:11:11.260 --> 00:11:14.260
+(Taps)
+
+00:11:14.260 --> 00:11:16.260
+DARwIn számos egyéb dologban is tehetséges.
+
+00:11:16.260 --> 00:11:19.260
+A múlt évben például a Roanoke szimfónikus zenekart vezényelte
+
+00:11:19.260 --> 00:11:22.260
+egy ünnepi koncerten.
+
+00:11:22.260 --> 00:11:25.260
+Ez itt a következő generációs robot, a DARwIn IV,
+
+00:11:25.260 --> 00:11:28.260
+aki kisebb, gyorsabb, erősebb.
+
+00:11:28.260 --> 00:11:30.260
+És éppen a képességeit igyekszik demonstrálni.
+
+00:11:30.260 --> 00:11:33.260
+"Macho vagyok! Erős vagyok!"
+
+00:11:33.260 --> 00:11:36.260
+Tudok néhány Jackie Chan-féle
+
+00:11:36.260 --> 00:11:39.260
+küzdésformát is.
+
+00:11:39.260 --> 00:11:41.260
+(Nevetés)
+
+00:11:41.260 --> 00:11:43.260
+És most elmegy. Ez volt tehát DARwIn IV,
+
+00:11:43.260 --> 00:11:45.260
+aki, ismétlem, megtekinthető az előcsarnokban.
+
+00:11:45.260 --> 00:11:47.260
+Igazán hisszük, hogy ez lesz az első futó
+
+00:11:47.260 --> 00:11:50.260
+humanoid robot az Államokban. Úgyhogy maradjanak velünk!
+
+00:11:50.260 --> 00:11:53.260
+Nos hát, bemutattam önöknek néhány izgalmas robotunkat munka közben.
+
+00:11:53.260 --> 00:11:56.260
+Mi tehát a sikerünk titka?
+
+00:11:56.260 --> 00:11:58.260
+Honnan jönnek ezek az ötletek?
+
+00:11:58.260 --> 00:12:00.260
+Hogyan dolgozzuk ki ezeket az ötleteket?
+
+00:12:00.260 --> 00:12:02.260
+Van egy teljesen önjáró járművünk,
+
+00:12:02.260 --> 00:12:04.260
+ami képes városi környezetben közlekedni. Félmillió dollárt nyertünk vele
+
+00:12:04.260 --> 00:12:06.260
+a DARPA Városi Viadalon.
+
+00:12:06.260 --> 00:12:08.260
+Miénk a világ első járműve,
+
+00:12:08.260 --> 00:12:10.260
+amit vakok is vezethetnek.
+
+00:12:10.260 --> 00:12:12.260
+A "vak sofőr próba" nevet adtuk neki, nagyon izgalmas,
+
+00:12:12.260 --> 00:12:16.260
+és van még egy csomó robotikai projekt, amiről beszélni akarok.
+
+00:12:16.260 --> 00:12:18.260
+Itt vannak például a díjak, amiket 2007 őszén nyertünk
+
+00:12:18.260 --> 00:12:21.260
+különböző robotikai és egyéb versenyeken.
+
+00:12:21.260 --> 00:12:23.260
+Valójában van öt titkunk.
+
+00:12:23.260 --> 00:12:25.260
+Az első, hogy honnan származik az inspiráció,
+
+00:12:25.260 --> 00:12:27.260
+honnan jönnek az isteni szikrák?
+
+00:12:27.260 --> 00:12:30.260
+Ez egy valós történet, az én személyes történetem
+
+00:12:30.260 --> 00:12:32.260
+Éjszakánként, amikor lefekszem, hajnali 3 és 4 között,
+
+00:12:32.260 --> 00:12:35.260
+lecsukom a szememet, ezeket a vonalakat, köröket,
+
+00:12:35.260 --> 00:12:37.260
+és különböző formákat látok magam körül lebegni,
+
+00:12:37.260 --> 00:12:40.260
+amelyek összekapcsolódnak és ilyen mechanizmusokat alkotnak.
+
+00:12:40.260 --> 00:12:42.260
+Azt gondolom: "Ez fantasztikus."
+
+00:12:42.260 --> 00:12:44.260
+Az ágyam mellett mindig van egy jegyzetfüzet,
+
+00:12:44.260 --> 00:12:47.260
+egy napló, egy speciális tollal, amin van egy LED-es lámpa,
+
+00:12:47.260 --> 00:12:49.260
+mer nem akarom felkapcsolni a villanyt és felébreszteni a feleségemet.
+
+00:12:49.260 --> 00:12:51.260
+Ezt, amit látok, azonnal leskiccelem, lerajzolom a dolgokat,
+
+00:12:51.260 --> 00:12:53.260
+aztán elalszom.
+
+00:12:53.260 --> 00:12:55.260
+Minden reggel
+
+00:12:55.260 --> 00:12:57.260
+az első dolog, ami megelőzi az első csésze kávét,
+
+00:12:57.260 --> 00:12:59.260
+és a fogmosást, hogy kinyitom a füzetet.
+
+00:12:59.260 --> 00:13:01.260
+Elég gyakran üres,
+
+00:13:01.260 --> 00:13:03.260
+sokszor összevisszaságok vannak benne,
+
+00:13:03.260 --> 00:13:06.260
+de legtöbbször el sem tudom olvasni a saját kézírásomat.
+
+00:13:06.260 --> 00:13:09.260
+De hát hajnali négykor mit várhat az ember magától?
+
+00:13:09.260 --> 00:13:11.260
+Így aztán dekódolnom kell az írást.
+
+00:13:11.260 --> 00:13:14.260
+Néha azonban zseniális ötleteket találok benne,
+
+00:13:14.260 --> 00:13:16.260
+és Heuréka-érzésem van.
+
+00:13:16.260 --> 00:13:18.260
+Azonnal a dolgozószobába rohanok, leülök a számítógép elé,
+
+00:13:18.260 --> 00:13:20.260
+begépelem az ötleteket, felvázolom a dolgokat,
+
+00:13:20.260 --> 00:13:23.260
+és egy adatbázisban gyűjtöm őket.
+
+00:13:23.260 --> 00:13:25.260
+Amikor pedig megkapjuk ezeket a pályázati felhívásokat,
+
+00:13:25.260 --> 00:13:27.260
+próbálom összevetni
+
+00:13:27.260 --> 00:13:29.260
+a potenciális ötleteket
+
+00:13:29.260 --> 00:13:31.260
+és a problémát, aztán ha sikerül párokat találni, akkor írunk egy kutatási pályázatot,
+
+00:13:31.260 --> 00:13:35.260
+szerzünk hozzá anyagi támogatást, aztán kezdődhet a kutatási program.
+
+00:13:35.260 --> 00:13:38.260
+A képzelet egy szikrája azonban önmagában nem elegendő.
+
+00:13:38.260 --> 00:13:40.260
+Hogyan történik az ötletek kidolgozása?
+
+00:13:40.260 --> 00:13:43.260
+Nálunk, a RoMeLa-nál, a Robotmechanizmusok Laboratóriumában,
+
+00:13:43.260 --> 00:13:46.260
+fantasztikus brainstorming megbeszéléseket tartunk.
+
+00:13:46.260 --> 00:13:48.260
+Összeülünk, beszélgetünk problémákról,
+
+00:13:48.260 --> 00:13:50.260
+és társadalmi problémákról.
+
+00:13:50.260 --> 00:13:53.260
+Mielőtt elkezdenénk azonban, rögzítjük ezt az aranyszabályt.
+
+00:13:53.260 --> 00:13:55.260
+A szabály:
+
+00:13:55.260 --> 00:13:58.260
+Senki nem kritizálja mások ötleteit.
+
+00:13:58.260 --> 00:14:00.260
+Senki nem kritizál egyetlen véleményt sem.
+
+00:14:00.260 --> 00:14:02.260
+Ez nagyon fontos, mert a hallgatók gyakran félnek,
+
+00:14:02.260 --> 00:14:05.260
+vagy feszélyezettek amiatt, hogy vajon mit gondolnak a többiek
+
+00:14:05.260 --> 00:14:07.260
+az ő véleményükről és gondolataikról.
+
+00:14:07.260 --> 00:14:09.260
+Ha viszont így csináljuk, akkor csodálatos,
+
+00:14:09.260 --> 00:14:11.260
+ahogy a hallgatók megnyílnak.
+
+00:14:11.260 --> 00:14:14.260
+Őrülten eszement és brilliáns ötleteik vannak,
+
+00:14:14.260 --> 00:14:17.260
+az egész szoba szinte vibrál a kreatív energiától.
+
+00:14:17.260 --> 00:14:20.260
+Így fejlesztjük ki az ötleteinket.
+
+00:14:20.260 --> 00:14:23.260
+Lassan kezdek kifutni az időből, de van még valami, amiről beszélni akarok,
+
+00:14:23.260 --> 00:14:27.260
+mégpedig az, hogy egy kiváló ötlet és a kidolgozás nem elég.
+
+00:14:27.260 --> 00:14:29.260
+Volt egy kiváló TED-előadás,
+
+00:14:29.260 --> 00:14:32.260
+Sir Ken Robinson tartotta, azt hiszem.
+
+00:14:32.260 --> 00:14:34.260
+Arról beszélt, hogyan öli meg az oktatás
+
+00:14:34.260 --> 00:14:36.260
+és az iskola a kreativitást.
+
+00:14:36.260 --> 00:14:39.260
+Valójában két oldala van a történetnek.
+
+00:14:39.260 --> 00:14:42.260
+Annyi mindent tudunk kezdeni
+
+00:14:42.260 --> 00:14:44.260
+pusztán zseniális ötletekkel,
+
+00:14:44.260 --> 00:14:47.260
+kreativitással és jó mérnöki megérzéssel.
+
+00:14:47.260 --> 00:14:49.260
+Ha a barkácsolásnál többre vágyunk,
+
+00:14:49.260 --> 00:14:51.260
+ha a robotikát nem csak hobbiként akarjuk művelni,
+
+00:14:51.260 --> 00:14:54.260
+és ha a robotika igazi nagy kihívásait keressük,
+
+00:14:54.260 --> 00:14:56.260
+alapos és módszeres kutatás révén,
+
+00:14:56.260 --> 00:14:59.260
+akkor ennél többre van szükség. És itt jön be az iskola.
+
+00:14:59.260 --> 00:15:02.260
+Batman-nél, miközben a rosszfiúkkal harcol,
+
+00:15:02.260 --> 00:15:04.260
+van egy szerszámkészlet, egy csáklyázóhorog,
+
+00:15:04.260 --> 00:15:06.260
+egy csomó különféle hasznos eszköz.
+
+00:15:06.260 --> 00:15:08.260
+Számunkra, robotikusk, mérnökök és tudósok számára
+
+00:15:08.260 --> 00:15:13.260
+ezek a szerszámok a tanórák, tanfolyamok, kurzusok, amiket végigjárunk.
+
+00:15:13.260 --> 00:15:15.260
+Matematika, differenciál-egyenletek.
+
+00:15:15.260 --> 00:15:17.260
+Én most is tanulok algebrát, tudományt, fizikát,
+
+00:15:17.260 --> 00:15:20.260
+kémiát és biológiát, amint látják.
+
+00:15:20.260 --> 00:15:22.260
+Ezek azok a szerszámok, amikre szükségünk van.
+
+00:15:22.260 --> 00:15:24.260
+A több szerszám, ami Batman számára azt jelenti,
+
+00:15:24.260 --> 00:15:26.260
+hogy hatékonyabban tud harcolni a rosszfiúk ellen,
+
+00:15:26.260 --> 00:15:30.260
+nekünk abban segít, hogy megküzdjünk ezekkel a súlyos problémákkal.
+
+00:15:30.260 --> 00:15:33.260
+Az oktatás tehát rendkívül fontos.
+
+00:15:33.260 --> 00:15:35.260
+Ez nem arról szól,
+
+00:15:35.260 --> 00:15:37.260
+nem csak arról szól, hogy nagyon-nagyon keményen kell dolgozni.
+
+00:15:37.260 --> 00:15:39.260
+Ezért mondom mindig a hallgatóimnak,
+
+00:15:39.260 --> 00:15:41.260
+hogy dolgozzanak okosan, aztán dolgozzanak keményen.
+
+00:15:41.260 --> 00:15:44.260
+Ez a kép itt a háttérben hajnali 3 körül készült.
+
+00:15:44.260 --> 00:15:46.260
+Biztosíthatom önöket, hogy ha hajnali 3 és 4 között bejönnek a laborba,
+
+00:15:46.260 --> 00:15:48.260
+találnak ott néhány hallgatót aki dolgozik,
+
+00:15:48.260 --> 00:15:51.260
+és nem azért, mert én mondtam nekik, hanem azért, mert örömüket lelik benne.
+
+00:15:51.260 --> 00:15:53.260
+És ezzel elértünk az utolsó témánkhoz.
+
+00:15:53.260 --> 00:15:55.260
+Ne feledkezzük meg a saját szórakozásunkról!
+
+00:15:55.260 --> 00:15:58.260
+Ez a sikerünk igazi titka. A sok-sok öröm, amiben részünk van.
+
+00:15:58.260 --> 00:16:01.260
+Meggyőződésem, hogy az igazi termelékenység forrása, hogy élvezetet találjunk a munkában.
+
+00:16:01.260 --> 00:16:03.260
+Ez tehát, amivel mi foglalkozunk.
+
+00:16:03.260 --> 00:16:05.260
+Köszönöm a figyelmet.
+
+00:16:05.260 --> 00:16:10.260
+Taps.
+

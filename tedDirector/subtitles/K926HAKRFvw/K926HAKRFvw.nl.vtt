@@ -1,0 +1,972 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+00:00:00.000 --> 00:00:07.000
+Vertaald door: Rachel van Sluijs
+Nagekeken door: Axel Saffran
+
+00:00:12.760 --> 00:00:15.070
+Dit is Pleurorobot.
+
+00:00:15.400 --> 00:00:19.016
+Pleurobot is ontworpen 
+om te lijken op een salamander soort
+
+00:00:19.040 --> 00:00:20.820
+genaamd Pleurodeles waltl.
+
+00:00:21.240 --> 00:00:23.296
+Pleurobot kan lopen,
+
+00:00:23.330 --> 00:00:25.670
+en zoals je zult zien,
+kan hij ook zwemmen.
+
+00:00:26.280 --> 00:00:28.471
+Waarom hebben we deze robot ontworpen?
+
+00:00:28.960 --> 00:00:32.722
+Hij is bedoeld als instrument 
+voor neurowetenschappelijk onderzoek.
+
+00:00:33.400 --> 00:00:35.826
+We hebben hem ontworpen 
+samen met neurobiologen,
+
+00:00:35.840 --> 00:00:37.816
+om te begrijpen hoe dieren bewegen
+
+00:00:37.840 --> 00:00:40.600
+en hoe het ruggenmerg 
+beweging controleert.
+
+00:00:41.410 --> 00:00:43.250
+Hoe meer ik in biorobotica werk
+
+00:00:43.250 --> 00:00:45.951
+hoe meer ik onder de indruk ben 
+van beweging van dieren.
+
+00:00:45.951 --> 00:00:50.216
+Denk aan een zwemmende dolfijn,
+of een kat die rent en springt,
+
+00:00:50.240 --> 00:00:51.816
+Of zelfs aan ons, mensen,
+
+00:00:51.840 --> 00:00:53.656
+als we hardlopen of tennissen.
+
+00:00:53.680 --> 00:00:55.380
+We doen verbazingwekkende dingen.
+
+00:00:55.880 --> 00:01:00.016
+Ons zenuwstelsel lost feitelijk
+een ingewikkeld probleem op.
+
+00:01:00.040 --> 00:01:03.136
+Het moet ongeveer 200 spieren
+foutloos aansturen,
+
+00:01:03.160 --> 00:01:06.590
+want slechte coördinatie betekent 
+omvallen of slechte voortbeweging.
+
+00:01:07.560 --> 00:01:10.280
+Mijn doel is om te snappen hoe dit werkt.
+
+00:01:11.160 --> 00:01:14.100
+Vier hoofdonderdelen maken
+voortbeweging van dieren mogelijk.
+
+00:01:14.660 --> 00:01:16.736
+Het eerste onderdeel is het lichaam zelf,
+
+00:01:16.760 --> 00:01:18.736
+en we mogen niet onderschatten
+
+00:01:18.760 --> 00:01:22.240
+in hoeverre biomechanica 
+beweging in dieren al versimpelt.
+
+00:01:22.780 --> 00:01:24.376
+Ten tweede heb je het ruggenmerg.
+
+00:01:24.400 --> 00:01:26.376
+In het ruggenmerg vind je reflexen.
+
+00:01:26.400 --> 00:01:29.806
+Meerdere reflexen samen vormen
+een sensorisch-motorische koppeling
+
+00:01:29.830 --> 00:01:33.620
+tussen neurale activiteit in het merg
+en mechanische activiteit.
+
+00:01:34.000 --> 00:01:36.976
+De derde component zijn 
+centrale patroongeneratoren.
+
+00:01:37.000 --> 00:01:40.896
+Dit zijn zeer interessante circuits 
+in het ruggenmerg van gewervelde dieren.
+
+00:01:40.920 --> 00:01:44.936
+Ze genereren, uit zichzelf,
+gecoördineerde ritmische activiteit
+
+00:01:44.960 --> 00:01:47.306
+op basis van heel simpele inputsignalen.
+
+00:01:47.830 --> 00:01:51.456
+Deze inputsignalen zijn afkomstig 
+van hogere hersengebieden
+
+00:01:51.470 --> 00:01:54.306
+zoals de motorcortex, het cerebellum, 
+en de basale ganglia.
+
+00:01:54.310 --> 00:01:57.816
+Deze beïnvloeden activiteit in het 
+ruggenmerg tijdens voortbeweging.
+
+00:01:58.380 --> 00:02:01.036
+Het is interessant in hoeverre 
+de lagere onderdelen,
+
+00:02:01.050 --> 00:02:02.936
+het ruggenmerg en het lichaam,
+
+00:02:02.950 --> 00:02:05.626
+het voortbewegingsprobleem
+al grotendeels oplossen.
+
+00:02:05.780 --> 00:02:09.687
+Je weet vast, dat een kip zonder kop
+nog een tijdje kan rondrennen.
+
+00:02:09.687 --> 00:02:12.830
+Dit laat zien dat dit onderste deel,
+het ruggenmerg en het lichaam,
+
+00:02:12.830 --> 00:02:15.387
+een groot deel van voortbeweging verzorgt.
+
+00:02:15.387 --> 00:02:17.850
+Dit begrijpen is erg ingewikkeld.
+
+00:02:17.860 --> 00:02:21.730
+Allereerst is het meten van de activiteit 
+in het ruggenmerg erg moeilijk.
+
+00:02:21.740 --> 00:02:24.976
+Het is makkelijker om elektrodes 
+te plaatsen in de motorcortex.
+
+00:02:24.976 --> 00:02:27.500
+Want het ruggenmerg wordt
+beschermd door wervels.
+
+00:02:27.510 --> 00:02:29.376
+Zeker in mensen is dat heel moeilijk.
+
+00:02:29.560 --> 00:02:32.430
+Een tweede moeilijkheid is
+dat beweging ontstaat
+
+00:02:32.440 --> 00:02:36.416
+uit complexe, dynamische
+interactie tussen de vier componenten.
+
+00:02:36.440 --> 00:02:39.540
+Uitvinden wat elke component doet
+is niet makkelijk.
+
+00:02:40.880 --> 00:02:45.366
+Hier kunnen biorobots, zoals Pleurobot,
+en wiskundige modellen helpen.
+
+00:02:47.236 --> 00:02:51.366
+Biorobotica is een zeer actief
+onderzoeksgebied binnen robotica
+
+00:02:51.390 --> 00:02:54.000
+waar mensen zich
+laten inspireren door dieren
+
+00:02:54.000 --> 00:02:56.456
+om robots te maken die naar buiten gaan,
+
+00:02:56.480 --> 00:02:59.826
+zoals servicerobots, 
+reddingsrobots of terreinrobots.
+
+00:03:00.840 --> 00:03:05.450
+Het doel is om op dieren geïnspireerde 
+robots te maken voor lastig terrein:
+
+00:03:05.470 --> 00:03:07.386
+trappen, bergen of bossen,
+
+00:03:07.396 --> 00:03:11.126
+plekken waar robots nog moeite hebben
+en waar dieren veel beter in zijn.
+
+00:03:11.720 --> 00:03:14.190
+Robots spelen ook een 
+belangrijke rol in onderzoek.
+
+00:03:14.190 --> 00:03:16.900
+Er zijn mooie projecten 
+waarin robots gebruikt worden
+
+00:03:16.900 --> 00:03:20.566
+in de neurowetenschap, 
+biomechanica of hydrodynamiek.
+
+00:03:20.880 --> 00:03:23.150
+Dat is ook precies het doel van Pleurobot.
+
+00:03:23.600 --> 00:03:26.490
+In mijn onderzoeksgroep 
+werken we samen met neurobiologen
+
+00:03:26.490 --> 00:03:29.790
+zoals Jean-Marie Cabelguen,
+een neurobioloog uit Bordeaux, Frankrijk.
+
+00:03:29.790 --> 00:03:33.840
+We willen het ruggenmerg modelleren
+en de modellen valideren op robots.
+
+00:03:34.480 --> 00:03:36.000
+We wilden simpel beginnen,
+
+00:03:36.000 --> 00:03:38.896
+met simpele dieren zoals lampreien.
+
+00:03:38.896 --> 00:03:40.376
+Een soort primitieve vissen.
+
+00:03:40.400 --> 00:03:42.896
+Daarna kwamen dieren 
+met complexere voortbeweging,
+
+00:03:42.920 --> 00:03:46.516
+zoals salamanders, maar ook katten 
+en mensen, zoogdieren.
+
+00:03:47.880 --> 00:03:50.250
+Dan wordt een robot 
+een belangrijk instrument
+
+00:03:50.250 --> 00:03:52.136
+om onze modellen te valideren.
+
+00:03:52.240 --> 00:03:55.080
+Voor mij is Pleurobot 
+een uitgekomen droom.
+
+00:03:55.100 --> 00:03:58.210
+Zo'n 20 jaar geleden
+werkte ik al op een computer
+
+00:03:58.220 --> 00:04:01.200
+aan simulaties van lamprei-
+en salamandervoortbeweging,
+
+00:04:01.220 --> 00:04:02.776
+tijdens mijn promotieonderzoek.
+
+00:04:02.800 --> 00:04:06.176
+Maar mijn simulaties
+waren slechts een benadering.
+
+00:04:06.200 --> 00:04:10.176
+Het simuleren van de krachten van 
+water, modder en complexe ondergronden
+
+00:04:10.200 --> 00:04:12.856
+was erg moeilijk om goed te doen 
+met de computer.
+
+00:04:12.856 --> 00:04:15.350
+Waarom geen echte robot
+met echte krachten?
+
+00:04:15.620 --> 00:04:18.720
+Van al deze dieren 
+is de salamander mijn favoriet.
+
+00:04:18.720 --> 00:04:20.260
+Waarom?
+
+00:04:20.270 --> 00:04:24.760
+Omdat amfibieën vanuit een 
+evolutionair oogpunt erg belangrijk zijn.
+
+00:04:24.760 --> 00:04:27.140
+Het is een prachtige link
+tussen zwemmen,
+
+00:04:27.140 --> 00:04:29.126
+zoals je ziet in alen of vissen,
+
+00:04:29.126 --> 00:04:33.240
+en viervoetige voortbeweging, 
+zoals je ziet in zoogdieren.
+
+00:04:34.040 --> 00:04:37.946
+Eigenlijk is de moderne salamander
+nauw verwant aan de eerste gewervelden.
+
+00:04:37.960 --> 00:04:39.520
+Het is bijna een levend fossiel.
+
+00:04:39.540 --> 00:04:41.856
+Dit geeft ons toegang tot onze voorouders.
+
+00:04:41.860 --> 00:04:44.680
+De voorouders van alle viervoeters.
+
+00:04:45.240 --> 00:04:48.870
+De zwemwijze van de salamander
+noemen we anguilliforme zwembeweging,
+
+00:04:48.870 --> 00:04:52.800
+dus de spieractiviteit beweegt in 
+een gelijkmatige golf van kop naar staart.
+
+00:04:53.440 --> 00:04:55.616
+Als je een salamander op de grond plaatst,
+
+00:04:55.640 --> 00:04:57.976
+dan verandert zijn bewegingspatroon 
+naar draf.
+
+00:04:58.000 --> 00:05:00.937
+Je ziet periodieke activering
+van de verschillende ledematen,
+
+00:05:00.947 --> 00:05:05.196
+mooi gecoördineerd met die staande golf 
+die door het lichaam beweegt.
+
+00:05:05.206 --> 00:05:08.856
+Dat is precies het bewegingspatroon
+dat je hier ziet bij Pleurobot.
+
+00:05:08.880 --> 00:05:11.556
+Heel verrassend en fascinerend
+
+00:05:11.570 --> 00:05:16.016
+is dat deze beweging gegenereerd wordt 
+door alleen het ruggenmerg en lichaam.
+
+00:05:16.040 --> 00:05:18.120
+Als je een decerebrate salamander neemt --
+
+00:05:18.144 --> 00:05:20.080
+met de kop verwijderd--
+
+00:05:20.104 --> 00:05:22.776
+dan kun je het ruggenmerg 
+elektrisch stimuleren.
+
+00:05:22.800 --> 00:05:26.040
+Bij een laag stimulatieniveau 
+ontstaat loopachtige voortbeweging.
+
+00:05:26.040 --> 00:05:28.280
+Als je sterker stimuleert 
+versnelt het patroon
+
+00:05:28.280 --> 00:05:32.306
+en bij een bepaalde grens wisselt het dier
+automatisch naar zwemmen.
+
+00:05:33.040 --> 00:05:34.230
+Dit is geweldig.
+
+00:05:34.240 --> 00:05:35.756
+Verander de aandrijving,
+
+00:05:35.760 --> 00:05:37.410
+alsof je het gaspedaal indrukt
+
+00:05:37.430 --> 00:05:39.856
+van de afdalende omvorming 
+naar het ruggenmerg,
+
+00:05:39.880 --> 00:05:43.540
+veroorzaakt een complete wissel
+tussen twee zeer verschillende gangen.
+
+00:05:44.440 --> 00:05:47.016
+Hetzelfde is gezien in katten.
+
+00:05:47.040 --> 00:05:51.270
+Als je het ruggenmerg stimuleert
+wisselt de kat tussen stap, draf en galop.
+
+00:05:51.270 --> 00:05:53.250
+En ook vogels wisselen
+
+00:05:53.250 --> 00:05:57.746
+van lopen, bij lage stimulatie,
+naar klapwieken, bij hoge stimulatie.
+
+00:05:58.400 --> 00:06:00.446
+Dit laat zien dat het ruggenmerg
+
+00:06:00.446 --> 00:06:02.876
+een geavanceerde regelaar is van beweging.
+
+00:06:02.880 --> 00:06:05.366
+We bestudeerden salamanders
+in meer detail,
+
+00:06:05.366 --> 00:06:08.466
+met behulp van een röntgencamerasysteem
+
+00:06:08.480 --> 00:06:11.866
+van professor Martin Fischer
+van de Jena Universiteit uit Duitsland.
+
+00:06:12.080 --> 00:06:13.650
+Door deze geweldige machine
+
+00:06:13.670 --> 00:06:17.056
+konden we heel gedetailleerd
+de beweging van de botten vastleggen.
+
+00:06:17.160 --> 00:06:18.416
+Dat hebben we gedaan.
+
+00:06:18.440 --> 00:06:21.616
+We identificeerden de belangrijke botten
+
+00:06:21.640 --> 00:06:24.156
+en registreerden de bewegingen in 3D.
+
+00:06:24.680 --> 00:06:26.990
+We verzamelden allerlei bewegingen --
+
+00:06:27.010 --> 00:06:28.980
+zowel op land als in het water --
+
+00:06:29.010 --> 00:06:32.739
+in een database van motorisch gedrag
+dat een echt dier kan vertonen.
+
+00:06:32.858 --> 00:06:35.933
+Onze taak als robotici was
+om dit na te maken in onze robot.
+
+00:06:35.953 --> 00:06:39.440
+In een heel optimalisatieproces
+zochten we naar de juiste structuur,
+
+00:06:39.440 --> 00:06:42.096
+de plaats van de motoren
+en hun onderlinge verbinding,
+
+00:06:42.120 --> 00:06:45.000
+om deze bewegingen na te bootsen.
+
+00:06:45.680 --> 00:06:48.040
+Dit is hoe Pleurobot tot leven kwam.
+
+00:06:49.200 --> 00:06:51.616
+Laten we kijken hoe goed dat gelukt is.
+
+00:06:52.670 --> 00:06:57.980
+Je ziet een vrijwel zuivere vergelijking
+tussen het echte dier en de Pleurobot.
+
+00:06:57.980 --> 00:07:01.790
+Het is bijna een één op één-
+herhaling van de gang.
+
+00:07:01.810 --> 00:07:04.840
+Achteruit en vertraagd afgespeeld
+zie je het nog beter.
+
+00:07:07.520 --> 00:07:09.510
+Maar nog beter: 
+hij kan ook zwemmen.
+
+00:07:09.510 --> 00:07:12.936
+Daarvoor gebruiken we een waterdicht pak 
+waar we de robot mee inpakken.
+
+00:07:12.960 --> 00:07:14.056
+(Gelach)
+
+00:07:14.080 --> 00:07:17.346
+Daarmee kan hij het water in 
+om de zwemwijze na te bootsen.
+
+00:07:17.360 --> 00:07:20.616
+Dit was moeilijk om te doen.
+
+00:07:20.640 --> 00:07:22.856
+De interactie tussen 
+de krachten is complex.
+
+00:07:22.880 --> 00:07:25.296
+Onze robot is veel groter 
+dan het kleine dier,
+
+00:07:25.320 --> 00:07:28.376
+dus we moesten de schaal 
+van de frequenties aanpassen
+
+00:07:28.380 --> 00:07:30.826
+om juiste interactie-krachten te generen.
+
+00:07:30.826 --> 00:07:33.176
+Maar het is een goede overeenkomst.
+
+00:07:33.200 --> 00:07:35.080
+Hier waren we erg blij mee.
+
+00:07:35.480 --> 00:07:37.696
+Laten we het hebben over het ruggenmerg.
+
+00:07:37.720 --> 00:07:42.196
+Samen met Jean-Marie Cabelguen hebben we 
+de ruggenmergcircuits gemodelleerd.
+
+00:07:43.040 --> 00:07:46.776
+De salamander heeft interessant genoeg
+een erg primitief neuraalcircuit.
+
+00:07:46.784 --> 00:07:49.496
+Dit circuit lijkt op dat van de lampreien,
+
+00:07:49.520 --> 00:07:51.410
+de primitieve, aalachtige vissen.
+
+00:07:51.410 --> 00:07:53.276
+Het lijkt erop dat tijdens de evolutie
+
+00:07:53.280 --> 00:07:56.246
+nieuwe oscillatoren zijn toegevoegd 
+om de poten aan te sturen,
+
+00:07:56.246 --> 00:07:57.656
+dus voor beenmotoriek.
+
+00:07:57.680 --> 00:07:59.856
+We wisten de locatie van deze oscillatoren
+
+00:07:59.880 --> 00:08:02.136
+maar hebben een wiskundig model gebruikt
+
+00:08:02.160 --> 00:08:03.976
+om te zien hoe we ze moesten verbinden
+
+00:08:03.976 --> 00:08:06.640
+zodat we de twee soorten voortbeweging
+konden afwisselen.
+
+00:08:06.640 --> 00:08:09.320
+We hebben dit getest in een robot.
+
+00:08:09.680 --> 00:08:10.880
+Het zag er zo uit.
+
+00:08:18.920 --> 00:08:21.936
+Dit is een voorloper van de Pleurobot.
+
+00:08:21.960 --> 00:08:26.486
+Hij wordt compleet gestuurd 
+door zijn interne ruggenmerg-model.
+
+00:08:27.200 --> 00:08:28.806
+Het enige wat wij doen
+
+00:08:28.806 --> 00:08:31.806
+is via een afstandbediening
+de twee signalen sturen
+
+00:08:31.806 --> 00:08:34.396
+die normaal vanuit de hersenen
+het ruggenmerg bereiken.
+
+00:08:35.480 --> 00:08:38.176
+Het interessante is dat we 
+met behulp van deze signalen
+
+00:08:38.200 --> 00:08:41.710
+snelheid, richting en type voortbeweging 
+helemaal kunnen controleren.
+
+00:08:41.770 --> 00:08:46.286
+Bij een laag stimulatieniveau
+loopt de robot,
+
+00:08:46.296 --> 00:08:50.600
+en bij hoge stimulatie zien we 
+een snelle wisseling naar zwemmen.
+
+00:08:51.480 --> 00:08:53.696
+En we kunnen heel mooi draaien
+
+00:08:53.720 --> 00:08:57.240
+door één kant van het ruggenmerg
+meer te stimuleren.
+
+00:08:58.200 --> 00:08:59.816
+Ik vind het prachtig
+
+00:08:59.840 --> 00:09:02.096
+hoe de natuur de controle heeft verdeeld
+
+00:09:02.120 --> 00:09:04.976
+en het ruggenmerg 
+grote verantwoordelijkheid heeft gegeven.
+
+00:09:05.000 --> 00:09:08.086
+Zo hoeven de hersenen
+niet elke spier aan te sturen,
+
+00:09:08.090 --> 00:09:11.216
+maar houden ze zich alleen bezig
+met de hogere modulatie.
+
+00:09:11.240 --> 00:09:14.816
+Het ruggenmerg zorgt voor 
+de aansturing van individuele spieren.
+
+00:09:14.840 --> 00:09:18.510
+Laten we kijken naar de kat
+en de rol van biomechanica.
+
+00:09:19.080 --> 00:09:22.606
+Dit is een ander project over
+de biomechanica van katten.
+
+00:09:22.620 --> 00:09:26.696
+We wilden zien hoezeer lichaamsvorm 
+voortbeweging ondersteunt.
+
+00:09:26.720 --> 00:09:31.646
+We vonden drie belangrijke eigenschappen 
+van de ledematen.
+
+00:09:32.320 --> 00:09:34.296
+De eerste is dat de ledematen van de kat
+
+00:09:34.296 --> 00:09:37.016
+een pantograafachtige structuur hebben.
+
+00:09:37.020 --> 00:09:39.256
+Een pantograaf
+is een mechanische structuur
+
+00:09:39.280 --> 00:09:42.910
+waarvan het bovenste en onderste segment 
+altijd parallel aan elkaar blijven.
+
+00:09:43.480 --> 00:09:47.986
+Dus een simpel geometisch systeem dat
+de beweging van de segmenten coördineert.
+
+00:09:48.560 --> 00:09:51.530
+Een tweede eigenschap van kattenpoten
+is dat ze weinig wegen.
+
+00:09:51.530 --> 00:09:53.576
+De meeste spieren zitten in de romp.
+
+00:09:53.576 --> 00:09:57.650
+Hierdoor hebben de poten 
+een lage inertie en kunnen snel bewegen.
+
+00:09:58.240 --> 00:10:02.020
+De laatste belangrijke eigenschap is
+dat katten poten erg elastisch zijn
+
+00:10:02.020 --> 00:10:04.720
+waardoor ze bestand zijn tegen schokken.
+
+00:10:04.720 --> 00:10:07.090
+Zo hebben we Cheetah-Cub ontworpen.
+
+00:10:07.090 --> 00:10:09.320
+Laten we hem uitnodigen op het podium.
+
+00:10:14.160 --> 00:10:15.160
+Dit is Peter Eckert,
+
+00:10:15.160 --> 00:10:17.840
+zijn promotieonderzoek 
+gaat over deze robot.
+
+00:10:17.840 --> 00:10:19.890
+Zoals je ziet is het een kleine robot.
+
+00:10:19.890 --> 00:10:21.476
+Hij ziet eruit als een speelgoed,
+
+00:10:21.476 --> 00:10:23.286
+maar hij wordt gebruikt als instrument
+
+00:10:23.286 --> 00:10:26.576
+om eigenschappen van de kat te onderzoeken
+
+00:10:26.600 --> 00:10:30.526
+Hij is erg licht en elastisch.
+
+00:10:30.526 --> 00:10:33.296
+Je kunt hem gemakkelijk indrukken 
+zonder hem te breken.
+
+00:10:33.320 --> 00:10:34.776
+Hierdoor springt hij.
+
+00:10:34.800 --> 00:10:37.680
+Deze elastische eigenschap 
+is bijzonder belangrijk.
+
+00:10:39.320 --> 00:10:43.860
+Je ziet nu ook de eigenschap van 
+de pootsegmenten als pantograaf.
+
+00:10:44.060 --> 00:10:47.056
+Het interessante is
+dat deze dynamische tred
+
+00:10:47.080 --> 00:10:48.976
+puur ontstaat in een 'open loop',
+
+00:10:49.000 --> 00:10:52.136
+dus zonder sensoren en 
+zonder complexe terugkoppeling.
+
+00:10:52.160 --> 00:10:54.576
+Dat is fascinerend, omdat het betekent
+
+00:10:54.600 --> 00:10:58.616
+dat puur de mechaniek van het lichaam 
+deze snelle voortbeweging kan stabiliseren
+
+00:10:58.640 --> 00:11:02.816
+en dat goede mechaniek 
+bewegingsaansturing erg versimpelt.
+
+00:11:02.840 --> 00:11:06.090
+Zodanig goed dat we voortbeweging 
+een beetje kunnen verstoren.
+
+00:11:06.090 --> 00:11:07.906
+Dat zie je in het volgende filmpje.
+
+00:11:07.906 --> 00:11:11.600
+Hierin stapt de robot van een verhoging.
+
+00:11:11.600 --> 00:11:13.376
+De robot valt niet om.
+
+00:11:13.400 --> 00:11:14.976
+Dat verbaasde ons.
+
+00:11:15.000 --> 00:11:16.416
+Het is een kleine verstoring.
+
+00:11:16.420 --> 00:11:18.620
+Ik verwachte dat de robot direct
+om zou vallen,
+
+00:11:18.620 --> 00:11:21.256
+omdat hij geen sensoren heeft
+en geen terugkoppeling.
+
+00:11:21.256 --> 00:11:24.586
+Maar de mechaniek stabiliseert de beweging
+en de robot valt niet om.
+
+00:11:25.160 --> 00:11:28.296
+Als je de stap groter maakt 
+of als je obstakels introduceert,
+
+00:11:28.320 --> 00:11:31.976
+dan heb je natuurlijk terugkoppeling 
+van informatie nodig en reflexen enz.
+
+00:11:32.000 --> 00:11:36.126
+Maar belangrijk is dat voor een 
+kleine verstoring de mechaniek genoeg is.
+
+00:11:36.480 --> 00:11:38.140
+Dit is een belangrijke boodschap
+
+00:11:38.140 --> 00:11:40.881
+van biomechanica en robotica
+aan de neurowetenschappen.
+
+00:11:40.881 --> 00:11:45.495
+Onderschat de rol van het lichaam niet.
+
+00:11:47.210 --> 00:11:49.940
+Wat heeft dit te maken met
+het menselijk voortbewegen?
+
+00:11:49.960 --> 00:11:54.340
+Natuurlijk is onze gang ingewikkelder
+dan die van een kat of salamander,
+
+00:11:54.360 --> 00:11:58.406
+maar het zenuwstelsel van mensen
+lijkt erg op dat van andere gewervelden.
+
+00:11:59.120 --> 00:12:03.246
+Ook bij ons is het ruggenmerg 
+de primaire regelaar van voortbeweging.
+
+00:12:03.760 --> 00:12:07.716
+Daarom heeft beschadiging van 
+het ruggenmerg dramatische gevolgen.
+
+00:12:07.720 --> 00:12:10.506
+Er kan een gedeeltelijke of
+volledige verlamming ontstaan.
+
+00:12:10.506 --> 00:12:14.150
+De hersenen verliezen namelijk 
+hun communicatie met het ruggenmerg
+
+00:12:14.150 --> 00:12:18.906
+in de vorm van de afdalende banen
+die voortbeweging initiëren en moduleren.
+
+00:12:19.480 --> 00:12:21.630
+Een belangrijk doel van neurale protheses
+
+00:12:21.630 --> 00:12:23.710
+is om deze communicatie te reactiveren
+
+00:12:23.710 --> 00:12:26.200
+met hulp van elektrische 
+of chemische stimulatie.
+
+00:12:26.840 --> 00:12:29.340
+Er zijn verschillende teams 
+die precies dat doen.
+
+00:12:29.340 --> 00:12:30.700
+Bijvoorbeeld aan de EPFL,
+
+00:12:30.700 --> 00:12:33.230
+mijn collega's Grégoire Courtine
+en Silvestro Micera,
+
+00:12:33.230 --> 00:12:34.800
+met wie ik samenwerk.
+
+00:12:35.960 --> 00:12:40.740
+Om dit goed te doen is het belangrijk
+te begrijpen hoe het ruggenmerg werkt,
+
+00:12:40.740 --> 00:12:42.530
+hoe het communiceert met het lichaam,
+
+00:12:42.530 --> 00:12:45.040
+en hoe de hersenen
+communiceren met het ruggenmerg.
+
+00:12:45.800 --> 00:12:48.650
+De robots en modellen 
+die ik vandaag heb gepresenteerd
+
+00:12:48.650 --> 00:12:50.616
+gaan hopelijk een belangrijke rol spelen
+
+00:12:50.640 --> 00:12:53.296
+bij het realiseren
+van deze belangrijke doelen.
+
+00:12:53.320 --> 00:12:54.316
+Dankjewel.
+
+00:12:54.320 --> 00:12:55.990
+(Applaus)
+
+00:13:03.760 --> 00:13:06.926
+Bruno Giussani: Auke, ik heb in jouw lab
+nog andere robots gezien
+
+00:13:06.936 --> 00:13:11.206
+die de vervuiling van het water meten 
+waarin ze zwemmen.
+
+00:13:11.720 --> 00:13:18.786
+Voor deze robot hier heb je het gehad
+over hulp bij reddingsacties.
+
+00:13:18.786 --> 00:13:20.726
+Ik zie dat hij een camera draagt.
+
+00:13:21.080 --> 00:13:22.590
+Auke Ijspeert: Absoluut!
+
+00:13:22.900 --> 00:13:25.029
+We hebben een aantal spin-off projecten
+
+00:13:25.033 --> 00:13:28.300
+waarin we proberen robots te ontwerpen 
+voor reddingsacties.
+
+00:13:28.300 --> 00:13:30.126
+Deze robot kan je zien.
+
+00:13:30.126 --> 00:13:33.336
+De droom is om robots in te zetten 
+in gevaarlijke situaties,
+
+00:13:33.336 --> 00:13:37.116
+zoals een ingestort of overstroomd gebouw.
+
+00:13:37.116 --> 00:13:40.316
+Te gevaarlijk voor een reddingsteam
+of zelfs voor honden.
+
+00:13:40.320 --> 00:13:43.056
+Daar kunnen robots rondkruipen of zwemmen,
+
+00:13:43.070 --> 00:13:46.246
+met een camera om te inspecteren 
+en overlevenden te vinden.
+
+00:13:46.270 --> 00:13:48.850
+en om communicatie met overlevenden
+mogelijk te maken.
+
+00:13:48.850 --> 00:13:52.636
+BG: Ervan uitgaand dat de overlevenden
+hier niet van schrikken.
+
+00:13:52.940 --> 00:13:56.136
+AI: Ja, we moeten het uiterlijk 
+nog een beetje aanpassen,
+
+00:13:56.160 --> 00:13:58.560
+anders krijgt de overlevende 
+nog een hartaanval
+
+00:13:58.560 --> 00:14:01.390
+van het idee dat de robot hem komt opeten.
+
+00:14:01.410 --> 00:14:03.880
+Maar met een ander uiterlijk
+en wat robuster
+
+00:14:03.890 --> 00:14:05.740
+kan het een goed gereedschap worden.
+
+00:14:05.740 --> 00:14:07.966
+BG: Heel erg bedankt Auke en je team.
+

@@ -1,0 +1,506 @@
+WEBVTT
+Kind: captions
+Language: lt
+
+00:00:00.000 --> 00:00:07.000
+Translator: Adele Mikoliunaite
+Reviewer: Sigita Šimkutė-Macanko
+
+00:00:12.305 --> 00:00:13.240
+Prieš dešimt metų
+
+00:00:13.240 --> 00:00:15.510
+mokslininkai, tiriantys
+kompiuterinę regą, manė,
+
+00:00:15.510 --> 00:00:19.340
+kad išmokyti kompiuterį
+atskirti katę nuo šuns
+
+00:00:19.340 --> 00:00:21.300
+tikriausiai niekuomet nebus įmanoma,
+
+00:00:21.300 --> 00:00:25.036
+netgi gerokai pažengus
+dirbtinio intelekto srityje.
+
+00:00:25.060 --> 00:00:28.620
+Šiandien galime tai atlikti daugiau
+nei 99-ių procentų tikslumu.
+
+00:00:29.500 --> 00:00:31.180
+Tai vadinama vaizdų klasifikavimu –
+
+00:00:31.180 --> 00:00:34.476
+imame vaizdą, priskiriame jam etiketę –
+
+00:00:34.500 --> 00:00:37.540
+ir taip kompiuteriai išmoksta
+tūkstančius kategorijų.
+
+00:00:38.260 --> 00:00:40.400
+Esu magistrantas Vašingtono Universitete
+
+00:00:40.400 --> 00:00:43.756
+ir dirbu prie projekto pavadinimu
+„Darknet“ (angl. „tamsusis tinklas“).
+
+00:00:43.756 --> 00:00:45.296
+Tai – neuroninio tinklo sistema,
+
+00:00:45.296 --> 00:00:48.076
+skirta mokyti ir testuoti
+kompiuterinės regos modelius.
+
+00:00:48.076 --> 00:00:50.876
+Pažiūrėkime ką „Darknet“ mano
+
+00:00:50.900 --> 00:00:52.660
+apie šį mūsų turimą atvaizdą.
+
+00:00:54.340 --> 00:00:56.660
+Kai paleidžiame klasifikatorių
+
+00:00:56.660 --> 00:00:57.860
+pateikę jam šį atvaizdą,
+
+00:00:57.860 --> 00:01:00.696
+atgal gauname ne tik spėjimus
+apie aptiktas kates ir šunis,
+
+00:01:00.696 --> 00:01:02.620
+bet ir specifines jų veisles.
+
+00:01:02.620 --> 00:01:04.956
+Toks šiandieninis mūsų
+pasiektas išsamumo lygis.
+
+00:01:04.980 --> 00:01:06.596
+Ir tai – tiesa,
+
+00:01:06.620 --> 00:01:08.860
+mano šuo iš tiesų yra malamutas.
+
+00:01:08.880 --> 00:01:12.660
+Pasiekiemė įspūdingus tolius
+vaizdų klasifikacijoje,
+
+00:01:12.660 --> 00:01:15.220
+tačiau kas nutinka,kai
+paleidžiame klasifikatorių
+
+00:01:15.244 --> 00:01:17.204
+pateikę atvaizdą, kuris atrodo taip?
+
+00:01:18.900 --> 00:01:20.100
+Na...
+
+00:01:24.460 --> 00:01:28.356
+Klasifikatorius grąžina panašius spėjimus.
+
+00:01:28.380 --> 00:01:31.476
+Ir jis teisus – atvaizde yra malamutas,
+
+00:01:31.500 --> 00:01:35.120
+tačiau vien tik tokia etiketė
+nesuteikia jokios informacijos
+
+00:01:35.120 --> 00:01:36.887
+apie tai, kas vyksta šiame atvaizde.
+
+00:01:36.911 --> 00:01:38.920
+Mums reikia kažko galingesnio.
+
+00:01:38.920 --> 00:01:41.360
+Aš dirbu prie problemos,
+vadinamos objektų aptikimu.
+
+00:01:41.360 --> 00:01:43.140
+Tai reiškia, kad žiūrėdami į atvaizdą
+
+00:01:43.140 --> 00:01:45.280
+siekiame aptikti visus
+jame esančius objektus,
+
+00:01:45.280 --> 00:01:46.256
+apibrėžti jų ribas
+
+00:01:46.256 --> 00:01:47.660
+ir juos įvardinti.
+
+00:01:48.220 --> 00:01:51.500
+Štai kas nutinka, kai paleidžiame
+detektorių, pateikę jam šį atvaizdą.
+
+00:01:53.060 --> 00:01:54.620
+Gavę tokį rezultatą,
+
+00:01:54.620 --> 00:01:58.136
+galime atlikti kur kas daugiau su
+mūsų kompiuterinės regos algoritmais.
+
+00:01:58.136 --> 00:02:01.036
+Programa žino, jog
+atvaizde yra katė ir šuo.
+
+00:02:01.060 --> 00:02:03.316
+Žino jų santykines vietas
+
+00:02:03.340 --> 00:02:04.556
+ir jų dydį.
+
+00:02:04.580 --> 00:02:06.516
+Galbūt žino ir dar daugiau.
+
+00:02:06.540 --> 00:02:08.500
+Antrame vaizdo plane guli knyga.
+
+00:02:09.100 --> 00:02:12.356
+Jeigu norite sukurti sistemą,
+pagrįstą kompiuterine rega,
+
+00:02:12.380 --> 00:02:15.360
+pavyzdžiui, savaeigę transporto
+priemonę ar robotą,
+
+00:02:15.360 --> 00:02:18.316
+tai yra būtent tokio pobūdžio
+informacija, kurios jums reikia.
+
+00:02:18.340 --> 00:02:21.699
+Jums reikia kažko, suteikiančio
+galimybę bendrauti su fiziniu pasauliu.
+
+00:02:22.399 --> 00:02:24.800
+Kai pradėjau dirbti prie objektų aptikimo,
+
+00:02:24.800 --> 00:02:28.156
+vieno atvaizdo apdorojimas
+užtrukdavo 20 sekundžių.
+
+00:02:28.180 --> 00:02:32.060
+Kad suprastumėte, kodėl šioje
+srityje greitis yra toks svarbus,
+
+00:02:32.860 --> 00:02:35.140
+štai – detektoriaus pavyzdys,
+
+00:02:35.140 --> 00:02:37.916
+kuriame vienas atvaizdas
+apdorojamas per dvi sekundes.
+
+00:02:37.940 --> 00:02:40.556
+Taigi, 10 kartų greičiau,
+
+00:02:40.580 --> 00:02:43.840
+nei ankstesnis detektorius.
+
+00:02:43.840 --> 00:02:46.796
+Galite matyti, kad kol sistema
+galiausiai atlieka spėjimą,
+
+00:02:46.820 --> 00:02:48.860
+pasaulis aplink spėja pasikeisti.
+
+00:02:49.700 --> 00:02:52.116
+Taigi, tai nebūtų labai naudinga
+
+00:02:52.140 --> 00:02:53.556
+realiam pritaikymui.
+
+00:02:53.580 --> 00:02:56.076
+Jeigu pagreitintume procesą
+dar 10-čia kartų,
+
+00:02:56.100 --> 00:02:58.916
+tai – detektorius, apdorojantis
+penkis vaizdus per sekundę.
+
+00:02:58.940 --> 00:03:00.476
+Kur kas geriau,
+
+00:03:00.500 --> 00:03:02.476
+tačiau,
+
+00:03:02.500 --> 00:03:04.796
+situacijoje, kurioje
+vaizdas greitai keičiasi,
+
+00:03:04.820 --> 00:03:07.840
+aš nenorėčiau, kad tokia sistema
+vairuotų mano automobilį.
+
+00:03:08.860 --> 00:03:12.540
+Čia – mūsų objektų aptikimo sistema,
+veikianti esamu laiku, mano kompiuteryje.
+
+00:03:12.820 --> 00:03:15.956
+Ji sklandžiai seka mane kai judu
+
+00:03:15.980 --> 00:03:19.700
+ir sparčiai prisitaiko prie staigių
+pokyčių, tokių kaip dydis,
+
+00:03:21.260 --> 00:03:22.460
+poza,
+
+00:03:23.100 --> 00:03:24.956
+judesiai pirmyn, atgal.
+
+00:03:24.980 --> 00:03:26.196
+Tai – puiku.
+
+00:03:26.220 --> 00:03:27.956
+Štai ko mums iš tiesų reikia,
+
+00:03:27.980 --> 00:03:30.876
+ketinant kurti sistemas,
+pagrįstas kompiuterine rega.
+
+00:03:30.900 --> 00:03:34.900
+(Plojimai.)
+
+00:03:36.100 --> 00:03:38.200
+Taigi, tik per keletą metų
+
+00:03:38.200 --> 00:03:39.836
+nuo 20 sekundžių vienam atvaizdui
+
+00:03:39.836 --> 00:03:42.100
+perėjome iki 20 milisekundžių
+vienam atvaizdui.
+
+00:03:42.100 --> 00:03:44.540
+Tai – tūkstantį kartų greičiau.
+
+00:03:44.540 --> 00:03:45.956
+Kaip tai padarėme?
+
+00:03:45.980 --> 00:03:48.996
+Praeityje objektų aptikimo sistemos
+
+00:03:49.020 --> 00:03:50.956
+pirmiausia padalindavo vaizdinį
+
+00:03:50.980 --> 00:03:53.436
+į daugybę regionių,
+
+00:03:53.460 --> 00:03:56.716
+o tuomet klasifikatorius
+apdorodavo kiekvieną jų.
+
+00:03:56.740 --> 00:03:59.276
+Aukšti klasifikatoriaus balai
+
+00:03:59.300 --> 00:04:02.436
+reikšdavo objektų aptikimą atvaizde.
+
+00:04:02.460 --> 00:04:06.516
+Klasikifatorius būdavo paleidžiamas
+tūkstantį kartų kiekvienam vaizdui,
+
+00:04:06.540 --> 00:04:09.960
+reikėdavo tūkstančių neuroninių tinklų
+analizių vienam objektui aptikti.
+
+00:04:11.060 --> 00:04:15.596
+Vietoj to, mes išmokėme vieną
+neuroninį tinklą aptikti visus objektus.
+
+00:04:15.620 --> 00:04:19.900
+Jis tuo pat metu apibrėžia objektus
+ir suskaičiuoja jų tikimybes.
+
+00:04:20.500 --> 00:04:23.780
+Su mūsų sistema nereikia žiūrėti
+į tą patį atvaizdą tūkstantį kartų,
+
+00:04:23.780 --> 00:04:25.040
+kad aptiktume objektą.
+
+00:04:25.040 --> 00:04:26.400
+Užtenka pažiūrėti tik kartą,
+
+00:04:26.400 --> 00:04:28.880
+todėl taip ir vadiname savo 
+objektų aptikimo metodą:
+
+00:04:28.880 --> 00:04:31.580
+YOLO (You only look once –
+angl. „tu tik pažiūri kartą“).
+
+00:04:31.580 --> 00:04:35.156
+Tokiu greičiu galime apdoroti
+ne tik nuotraukas,
+
+00:04:35.180 --> 00:04:37.596
+bet ir vaizdo įrašus realiu laiku.
+
+00:04:37.620 --> 00:04:40.716
+Galime ne tik matyti šunis ir kates,
+
+00:04:40.740 --> 00:04:43.700
+bet ir sekti juos judant ir
+sąveikaujant vienas su kitu.
+
+00:04:46.380 --> 00:04:52.816
+Tai – detektorius, kurį išmokėme
+80 skirtingų klasių,
+
+00:04:52.860 --> 00:04:56.116
+esančių „Microsoft“ „COCO“ duomenų bazėje.
+
+00:04:56.140 --> 00:04:59.696
+Šioje bazėje pilna įvairių objektų,
+pavyzdžiui, šaukštų, šakučių, lėkščių
+
+00:04:59.696 --> 00:05:01.440
+it kitų paprastų daiktų.
+
+00:05:02.180 --> 00:05:05.276
+Yra ir egzotiškesnių objektų:
+
+00:05:05.300 --> 00:05:08.556
+gyvūnų, automobilių, zebrų, žirafų.
+
+00:05:08.580 --> 00:05:10.516
+O dabar pademonstruosime šį tą smagaus.
+
+00:05:10.540 --> 00:05:12.460
+Nukreipsime detektorių į publiką
+
+00:05:12.460 --> 00:05:14.856
+ir pažiūrėsime kokius
+daiktus galime joje aptikti.
+
+00:05:14.856 --> 00:05:16.520
+Ar kas nors nori pliušinio žaislo?
+
+00:05:17.820 --> 00:05:19.982
+Ten kažkur mėtosi keletas
+pliušinių meškinų.
+
+00:05:21.860 --> 00:05:26.396
+Šiek tiek sumažinsime aptikimo slenkstį,
+
+00:05:26.420 --> 00:05:29.820
+kad aptiktume daugiau jūsų.
+
+00:05:31.240 --> 00:05:33.716
+Pažiūrėkime, ar galime aptikti
+šiuos „Stop“ ženklus.
+
+00:05:33.740 --> 00:05:35.620
+Randame keletą kuprinių.
+
+00:05:37.700 --> 00:05:39.540
+Šiek tiek priartinkime vaizdą.
+
+00:05:42.140 --> 00:05:43.396
+Tai – puiku.
+
+00:05:43.420 --> 00:05:46.596
+Visas apdorojimas vyksta realiu laiku
+
+00:05:46.620 --> 00:05:48.120
+mano nešiojamame kompiuteryje.
+
+00:05:48.900 --> 00:05:50.356
+Svarbu atminti,
+
+00:05:50.380 --> 00:05:53.596
+kad tai – bendro naudojimo
+objektų aptikimo sistema,
+
+00:05:53.620 --> 00:05:58.620
+kurią galima išmokyti visokiausių vaizdų.
+
+00:06:00.140 --> 00:06:02.676
+Tas pats kodas, kurį naudojame
+
+00:06:02.700 --> 00:06:05.080
+surasti „Stop“ ženklus ar pėsčiuosius,
+
+00:06:05.080 --> 00:06:07.156
+dviračius ar savieiges
+transporto priemones,
+
+00:06:07.180 --> 00:06:13.096
+gali būti naudojamas aptikti
+vėžines ląsteles audinio biopsijoje.
+
+00:06:13.136 --> 00:06:17.860
+Daugybė mokslininkų visame pasaulyje
+jau naudojasi šia technologija,
+
+00:06:17.860 --> 00:06:21.400
+siekdami pasistūmėti tokiose srityse
+kaip medicina ar robotų technika.
+
+00:06:21.400 --> 00:06:22.876
+Šįryt laikraštyje perskaičiau
+
+00:06:22.900 --> 00:06:27.476
+apie tai, kad gyvūnai Nairobio
+nacionaliniame parke buvo surašyti
+
+00:06:27.500 --> 00:06:30.636
+naudojant YOLO kaip
+vieną iš sistemos dalių.
+
+00:06:30.660 --> 00:06:33.756
+Nes „Darknet“ yra atviro kodo sistema,
+
+00:06:33.780 --> 00:06:37.380
+patalpinta viešajame domene –
+naudotis ja gali visi ir už dyką.
+
+00:06:37.420 --> 00:06:43.116
+(Plojimai.)
+
+00:06:43.140 --> 00:06:48.076
+Tačiau norėjome dar labiau padidinti
+objektų aptikimo prieinamumą ir naudą,
+
+00:06:48.100 --> 00:06:52.156
+taigi sujungę modelių optimizaciją,
+
+00:06:52.180 --> 00:06:54.476
+tinklo binarizavimą ir derinimą
+
+00:06:54.500 --> 00:06:58.420
+dabar turime objektų aptikimo modelį,
+veikiantį mobiliajame telefone.
+
+00:07:04.620 --> 00:07:09.940
+(Plojimai.)
+
+00:07:10.780 --> 00:07:15.836
+Aš labai džiaugiuosi, nes dabar 
+turime ganėtinai galingą sprendimą
+
+00:07:15.860 --> 00:07:18.156
+šiai žemo lygio kompiuterinės
+regos problemai,
+
+00:07:18.180 --> 00:07:22.036
+ir kiekvienas norintis gali pasiekti
+šią sistemą ir kažką su ja sukurti.
+
+00:07:22.060 --> 00:07:24.820
+Tad likusi dalis priklauso nuo visų jūsų
+
+00:07:24.820 --> 00:07:28.416
+ir žmonių visame pasaulyje, turinčių
+priėjimą prie šios programinės įrangos,
+
+00:07:28.416 --> 00:07:31.996
+ir aš nekantrauju pamatyti, ką žmonės
+sukurs, naudodamiesi šia technologija.
+
+00:07:31.996 --> 00:07:33.116
+Ačiū.
+
+00:07:33.140 --> 00:07:36.580
+(Plojimai.)
+

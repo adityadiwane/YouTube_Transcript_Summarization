@@ -1,0 +1,920 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:07.000
+Traduttore: Michele Gianella
+Revisore: Davide Puglielli
+
+00:00:13.160 --> 00:00:16.160
+Voglio iniziare la mia storia in Germania, nel 1877,
+
+00:00:16.160 --> 00:00:18.160
+con un matematico di nome Georg Cantor.
+
+00:00:18.160 --> 00:00:23.160
+Cantor decise di tracciare una linea e cancellare il terzo centrale della linea,
+
+00:00:23.160 --> 00:00:28.160
+per poi prendere queste due linee risultanti e fare la stessa cosa, in modo ricorsivo
+
+00:00:28.160 --> 00:00:30.160
+Quindi iniziò con una linea, e poi due,
+
+00:00:30.160 --> 00:00:33.160
+4, 16 e così via.
+
+00:00:33.160 --> 00:00:36.160
+Facendolo un numero infinito di volte, cosa possibile in matematica,
+
+00:00:36.160 --> 00:00:38.160
+si finisce con un numero infinito di linee,
+
+00:00:38.160 --> 00:00:41.160
+ognuna della quali contiene un numero infinito di punti.
+
+00:00:41.160 --> 00:00:45.160
+Si rese quindi conto di avere un insieme il cui numero di elementi era maggiore dell'infinito.
+
+00:00:45.160 --> 00:00:48.160
+Questo lo sconvolse. Letteralmente. Finì in clinica (Risate).
+
+00:00:48.160 --> 00:00:50.160
+E quando uscì dalla clinica,
+
+00:00:50.160 --> 00:00:56.160
+si convinse che era stato messo sulla Terra per trovare una teoria degli insiemi transfiniti,
+
+00:00:56.160 --> 00:00:59.160
+perché il più largo insieme di infinità sarebbe stato Dio stesso.
+
+00:00:59.160 --> 00:01:00.160
+Era un uomo molto religioso.
+
+00:01:00.160 --> 00:01:02.160
+Un matematico in missione.
+
+00:01:02.160 --> 00:01:04.160
+E altri matematici fecero la stessa cosa.
+
+00:01:04.160 --> 00:01:06.160
+Un matematico svedese, von Koch,
+
+00:01:06.160 --> 00:01:10.160
+decise che invece di sottrarre le linee, le avrebbe aggiunte,
+
+00:01:10.160 --> 00:01:12.160
+e se ne uscì con queste bellissime curve.
+
+00:01:12.160 --> 00:01:15.160
+E non c'è una particolare ragione per cui dobbiamo inziare con questa forma-seme;
+
+00:01:15.160 --> 00:01:19.160
+possiamo usare qualunque forma-seme ci piaccia.
+
+00:01:19.160 --> 00:01:23.160
+Adesso la tiro di qui, la spingo in basso di qua...ok..
+
+00:01:23.160 --> 00:01:30.160
+e lanciando l'iterazione, questa forma-seme in un certo senso si "dispiega" in una struttura dall'aspetto molto diverso.
+
+00:01:30.160 --> 00:01:32.160
+Tutte queste forme hanno la proprietà dell'auto-somiglianza:
+
+00:01:32.160 --> 00:01:34.160
+la parte assomiglia al tutto.
+
+00:01:34.160 --> 00:01:36.160
+E' lo stesso pattern su molte scale differenti.
+
+00:01:37.160 --> 00:01:39.160
+I matematici pensavano che questo fosse molto strano,
+
+00:01:39.160 --> 00:01:44.160
+perché accorciando il righello, la lunghezza misurata aumenta sempre di più.
+
+00:01:44.160 --> 00:01:46.160
+Ed effettuando un numero infinito di iterazioni,
+
+00:01:46.160 --> 00:01:52.160
+riducendo le lunghezze unitarie, la misura complessiva si allungava all'infinito.
+
+00:01:52.160 --> 00:01:53.160
+Questo non aveva assolutamente senso,
+
+00:01:53.160 --> 00:01:56.160
+perciò relegarono queste curve alla fine dei libri di matematica.
+
+00:01:56.160 --> 00:02:00.160
+Dissero che queste erano "curve patologiche", e che non serviva discuterne
+
+00:02:00.160 --> 00:02:01.160
+(Risate)
+
+00:02:01.160 --> 00:02:03.160
+E questo continuò per un centinaio di anni.
+
+00:02:04.160 --> 00:02:09.160
+Poi, nel 1977, Benoit Mandelbrot, un matematico francese,
+
+00:02:09.160 --> 00:02:14.160
+capì che applicando questo genere di forme - che chiamò frattali - alla computergrafica
+
+00:02:14.160 --> 00:02:16.160
+si ottiengono le forme della natura.
+
+00:02:16.160 --> 00:02:20.160
+I polmoni umani, le acacie, le felci,
+
+00:02:20.160 --> 00:02:22.160
+queste bellissime forme naturali.
+
+00:02:22.160 --> 00:02:26.160
+Se prendete un pollice ed un indice e guardate proprio nel punto in cui si incontrano
+
+00:02:26.160 --> 00:02:28.160
+-- provate a farlo ora --
+
+00:02:28.160 --> 00:02:31.160
+e rilasate la mano, vedete una cresta,
+
+00:02:31.160 --> 00:02:34.160
+poi una valle dentro la cresta, e una cresta dentro la valle, giusto?
+
+00:02:34.160 --> 00:02:36.160
+Il vostro corpo é intriso di frattali.
+
+00:02:36.160 --> 00:02:39.160
+I matematici che le definivano forme patologiamente inutili,
+
+00:02:39.160 --> 00:02:41.160
+beh, respiravano quelle parole con polmoni frattali.
+
+00:02:41.160 --> 00:02:45.160
+E' molto ironico. E vi mostrerò qui una piccola iterazione naturale.
+
+00:02:45.160 --> 00:02:50.160
+Di nuovo, prendiamo queste tre linee, e ricorsivamente sostituiamole con l'intera figura.
+
+00:02:50.160 --> 00:02:55.160
+Ecco la seconda interazione, e la 3a, la 4a.. e così via.
+
+00:02:55.160 --> 00:02:57.160
+La natura ha quindi questa struttura auto-similare.
+
+00:02:57.160 --> 00:02:59.160
+La natura usa sistemi che si auto-organizzano.
+
+00:02:59.160 --> 00:03:02.160
+Negli anni '80, mi capitò di notare
+
+00:03:02.160 --> 00:03:06.160
+come, guardando una fotografia aerea di un villaggio africano, vedi dei frattali.
+
+00:03:06.160 --> 00:03:10.160
+E ho pensato: "Fantastico! Come é possibile?"
+
+00:03:10.160 --> 00:03:12.160
+Dovevo andare in Africa, e chiedere alle persone il perché.
+
+00:03:12.160 --> 00:03:18.160
+Così ottenni una borsa di studio di un anno per andare in Africa
+
+00:03:18.160 --> 00:03:20.160
+a chiedere alle persone perché stessero costruendo frattali.
+
+00:03:20.160 --> 00:03:22.160
+che é un gran bel lavoro, se ci riesci.
+
+00:03:22.160 --> 00:03:23.160
+(Risate)
+
+00:03:23.160 --> 00:03:30.160
+Così finalmente arrivai a questa città. Avevo già fatto un piccolo modello frattale della città,
+
+00:03:30.160 --> 00:03:33.160
+solo per vedere come si "svolgeva".
+
+00:03:33.160 --> 00:03:36.160
+Ma quando ci arrivai.. arrivai al palazzo del capo,
+
+00:03:36.160 --> 00:03:39.160
+e il mio francese non era un granché. Dissi qualcosa come:
+
+00:03:39.160 --> 00:03:42.160
+"Sono un matematico e vorrei salire sul vostro tetto".
+
+00:03:42.160 --> 00:03:45.160
+Ma lui la prese molto bene, mi ci portò sopra
+
+00:03:45.160 --> 00:03:46.160
+e parlammo dei frattali.
+
+00:03:46.160 --> 00:03:49.160
+E lui disse, "Oh sì sì. Sappiamo di un rettangolo dentro un rettangolo dentro un rettangolo,
+
+00:03:49.160 --> 00:03:51.160
+lo sappiamo tutti".
+
+00:03:51.160 --> 00:03:55.160
+E salta fuori che l'insegna reale ha un rettangolo dentro un rettangolo dentro un rettangolo,
+
+00:03:55.160 --> 00:03:59.160
+e il percorso che porta al palazzo è in effetti questa spirale.
+
+00:03:59.160 --> 00:04:03.160
+e man mano che attraversi il percorso, devi essere sempre più rispettoso.
+
+00:04:03.160 --> 00:04:06.160
+quindi stanno mappando la struttura sociale nella struttura geometrica.
+
+00:04:06.160 --> 00:04:11.160
+Il loro é un pattern consapevole. Non è inconsapevole come, ad esempio, la forma dei termitai.
+
+00:04:11.160 --> 00:04:13.160
+Questo é un villaggio nello Zambia meridionale;
+
+00:04:13.160 --> 00:04:17.160
+il Ba-Ila costruì questo villaggio di circa 400 metri di diametro.
+
+00:04:17.160 --> 00:04:19.160
+C'è un immenso anello,
+
+00:04:19.160 --> 00:04:25.160
+gli anelli che contengono le recinzioni familiari si allargano sempre più man mano che vai verso il fondo,
+
+00:04:26.160 --> 00:04:30.160
+e poi c'è l'anello del Capo, qui, verso il fondo,
+
+00:04:30.160 --> 00:04:33.160
+e i parenti stretti del Capo in quell'anello.
+
+00:04:33.160 --> 00:04:34.160
+Ecco la sua struttura frattale.
+
+00:04:34.160 --> 00:04:37.160
+Ecco una casa con l'altare sacro,
+
+00:04:37.160 --> 00:04:40.160
+ecco la casa delle case, la proprietà familiare,
+
+00:04:40.160 --> 00:04:43.160
+con gli umani al posto del sacro altare,
+
+00:04:43.160 --> 00:04:45.160
+e questo è l'intero villaggio,
+
+00:04:45.160 --> 00:04:50.160
+un anello di anelli di anelli con la famiglia allargata del capo qui, i suoi parenti stretti qui,
+
+00:04:50.160 --> 00:04:53.160
+e qui c'é un altro piccolo villaggio.
+
+00:04:53.160 --> 00:04:57.160
+Ora, potreste meravigliarvi di come potrebbe una persona vivere in un villaggio così piccolo.
+
+00:04:57.160 --> 00:05:00.160
+E' perché sono spiriti. Sono gli antenati.
+
+00:05:00.160 --> 00:05:05.160
+E certo, gli antenati hanno un piccolo villaggio in miniatura nel loro villaggio, giusto?
+
+00:05:05.160 --> 00:05:08.160
+Quindi é proprio come ha detto George Cantor, la ricorsione continua all'infinito.
+
+00:05:08.160 --> 00:05:12.160
+Questo é nelle montagne Mondara, vicino al confine nigeriano in Camerun, Mokoulek.
+
+00:05:12.160 --> 00:05:15.160
+Ho visto questo diagramma disegnato da un architetto francese,
+
+00:05:15.160 --> 00:05:17.160
+e ho pensato: "Wow! Che bel frattale!"
+
+00:05:17.160 --> 00:05:23.160
+E sono partito con questa forma-seme che, iterazione dopo iteraizone, si dispiegava così.
+
+00:05:23.160 --> 00:05:25.160
+Me ne sono uscito con questa struttura qui.
+
+00:05:25.160 --> 00:05:29.160
+Guardiamo la 1a iterazione, 2a,3a,4a.
+
+00:05:29.160 --> 00:05:31.160
+Dopo la simulazione,
+
+00:05:31.160 --> 00:05:34.160
+ho capito che l'intero villaggio in un certo senso si avvolge a spirale, proprio così,
+
+00:05:34.160 --> 00:05:40.160
+ed ecco questa linea che si replica, che si "spiega" nel frattale.
+
+00:05:40.160 --> 00:05:45.160
+Beh. ho notato che la linea é più o meno dove si trova l'unico palazzo quadrato del villaggio.
+
+00:05:45.160 --> 00:05:47.160
+Perciò, quando sono arrivato nel villaggio,
+
+00:05:47.160 --> 00:05:49.160
+chiesi: "Potete portarmi all'edificio quadrato?"
+
+00:05:49.160 --> 00:05:51.160
+penso che lì ci sia qualcosa di importante."
+
+00:05:51.160 --> 00:05:54.160
+E loro dissero: "Beh, ti ci possiamo portare, ma non ci puoi entrare.
+
+00:05:54.160 --> 00:05:57.160
+Quello é l'altare sacro, dove ogni anno facciamo sacrifici
+
+00:05:57.160 --> 00:06:00.160
+per mantenere i cicli annuali di fertilità per i campi."
+
+00:06:00.160 --> 00:06:02.160
+E iniziai a realizzare che i cicli di fertilità
+
+00:06:02.160 --> 00:06:06.160
+erano proprio come i cicli ricorsivi degli algoritmi geometrici.
+
+00:06:06.160 --> 00:06:10.160
+La ricorsione, in questi vilaggi, continua e "scende" giù giù fino a scale molto piccole.
+
+00:06:10.160 --> 00:06:12.160
+Ecco un villaggio Nankani, nel Mali.
+
+00:06:12.160 --> 00:06:15.160
+E potete vedere che, entrando nella proprietà familare
+
+00:06:15.160 --> 00:06:19.160
+ecco, si trovano dei contenitori nell'area del focolare, impilati ricorsivamente.
+
+00:06:19.160 --> 00:06:23.160
+Ecco le zucche che Issa Diabate ci mostrava,
+
+00:06:23.160 --> 00:06:25.160
+impilate ricorsivamente.
+
+00:06:25.160 --> 00:06:27.160
+Ora, la zucca più piccola, in questa foto, mantiene l'anima della donna.
+
+00:06:27.160 --> 00:06:29.160
+E quando muore, fanno una cerimonia
+
+00:06:29.160 --> 00:06:34.160
+dove rompono questa pila, chiamata zalanga, e la sua anima se ne va nell'eternità.
+
+00:06:34.160 --> 00:06:37.160
+Ancora una volta, l'infinità é importante.
+
+00:06:38.160 --> 00:06:42.160
+A questo punto potreste farvi tre domande:
+
+00:06:42.160 --> 00:06:46.160
+Non sono questi pattern universali, presenti in qualunque architettura indigena?
+
+00:06:46.160 --> 00:06:48.160
+In effetti, quella era la mia prima ipotesi.
+
+00:06:48.160 --> 00:06:50.160
+Quando vidi per la prima volta quei frattali Africani,
+
+00:06:50.160 --> 00:06:54.160
+pensai: "Wow, allora qualunque indigeno che non riconosce uno Stato,
+
+00:06:54.160 --> 00:06:57.160
+quel tipo di gerarchia, deve avere una specie di architettura "dal basso".
+
+00:06:57.160 --> 00:06:59.160
+Ma pare non sia così.
+
+00:06:59.160 --> 00:07:03.160
+Iniziai a collezionare anche le foto aeree dell'architettura nativa americana e del Sud Pacifico;
+
+00:07:03.160 --> 00:07:05.160
+solo quelle Africane erano frattali.
+
+00:07:05.160 --> 00:07:11.160
+E se ci pensate, tutte queste società differenti usano diversi motivi geometrici.
+
+00:07:11.160 --> 00:07:17.160
+i nativi americani usano una combinazione di simmetria circolare e simmetria bi-assiale.
+
+00:07:17.160 --> 00:07:19.160
+Potete vederla sui vasi e sui canestri.
+
+00:07:19.160 --> 00:07:22.160
+Questa é una foto aerea di una delle rovine anasazi;
+
+00:07:22.160 --> 00:07:27.160
+potete vedere come sia circolare su larga scala, ma rettangolare su piccola scala.
+
+00:07:27.160 --> 00:07:31.160
+Non é lo stesso pattern su due scale differenti.
+
+00:07:31.160 --> 00:07:32.160
+In secondo luogo, potreste chiedermi:
+
+00:07:32.160 --> 00:07:35.160
+"Beh, Dr. Eglash, non sta ignorando la diversità delle culture Africane?"
+
+00:07:36.160 --> 00:07:38.160
+E per tre motivi, la risposta é no.
+
+00:07:38.160 --> 00:07:42.160
+Prima di tutto, condivido il bellissimo libro di Mudimbe "L'Invenzione Dell'Africa",
+
+00:07:42.160 --> 00:07:45.160
+secondo il quale l'Africa é un'invenzione artificiale del primo colonialismo
+
+00:07:45.160 --> 00:07:47.160
+e poi dei movimenti di opposizione.
+
+00:07:47.160 --> 00:07:52.160
+No, poi, perché una geometria largamente condivisa non ti dà necesariamente un'unità culturale
+
+00:07:52.160 --> 00:07:55.160
+-- e assolutamente non é "nel DNA africano".
+
+00:07:55.160 --> 00:07:57.160
+E per finire, i frattali hanno l'auto somiglianza
+
+00:07:57.160 --> 00:08:01.160
+-- quindi sono simili a sé stessi, ma non sono necessariamente simili l'uno all'altro;
+
+00:08:01.160 --> 00:08:03.160
+si possono vedere usi molto diversi dei frattali.
+
+00:08:03.160 --> 00:08:05.160
+In Africa, é una tecnologia condivisa.
+
+00:08:06.160 --> 00:08:09.160
+E per finire, potreste dire: "Beh, non é puro intuito?
+
+00:08:09.160 --> 00:08:11.160
+Non é davvero conoscenza matematica.
+
+00:08:11.160 --> 00:08:14.160
+Non é possibile che gli Africani usino davvero le geometrie frattali, no?
+
+00:08:14.160 --> 00:08:16.160
+Sono state inventate negli anni '70."
+
+00:08:17.160 --> 00:08:22.160
+Beh, é vero che alcuni frattali africani sono, per quanto ne so, puro intuito.
+
+00:08:22.160 --> 00:08:25.160
+Dopo aver visto alcune di queste cose, giravo per le strade di Dakar
+
+00:08:25.160 --> 00:08:28.160
+chiedendo alla gente: "Qual'é l'algoritmo? Qual'é la regola?"
+
+00:08:28.160 --> 00:08:29.160
+E loro dicevano,
+
+00:08:29.160 --> 00:08:32.160
+"Beh, lo facciamo così perché é carino, scemo" (Risate).
+
+00:08:32.160 --> 00:08:35.160
+Ma a volte, non è così.
+
+00:08:35.160 --> 00:08:40.160
+In alcuni casi, c'erano davvero degli algoritmi, e molto sofisticati anche.
+
+00:08:40.160 --> 00:08:43.160
+Nella scultura Manghetu, vedete questa geometria ricorsiva.
+
+00:08:43.160 --> 00:08:48.160
+Negli incroci Etiopi, vedete questo fantastico dispiegamento della forma.
+
+00:08:48.160 --> 00:08:52.160
+In Angola, il popolo Chokwe disegna linee sulla sabbia,
+
+00:08:52.160 --> 00:08:55.160
+ed é quello che il matematico tedesco Eulero chiamava un grafico;
+
+00:08:55.160 --> 00:08:57.160
+-- e che ora chiamiamo percorso Euleriano,
+
+00:08:57.160 --> 00:08:59.160
+per cui non puoi mai sollevare la penna dalla superficie,
+
+00:08:59.160 --> 00:09:02.160
+e non puoi mai passare due volte sopra la stessa linea --
+
+00:09:02.160 --> 00:09:05.160
+Ma loro lo fanno ricorsivamente, e con un sistema che procede "per anzianità",
+
+00:09:05.160 --> 00:09:08.160
+per cui i bambini piccoli imparano questo, poi i bambini più grandi imparano quest'altro,
+
+00:09:08.160 --> 00:09:11.160
+e poi con l'iniziazione alla successiva fase della vita, impari questo,
+
+00:09:11.160 --> 00:09:14.160
+e con ogni interazione di quell'algoritmo,
+
+00:09:14.160 --> 00:09:16.160
+impari le iterazioni del mito.
+
+00:09:16.160 --> 00:09:18.160
+Raggiungi il livello successivo di conoscenza.
+
+00:09:19.160 --> 00:09:21.160
+E finalmente, in tutta l'Africa potete trovare questo gioco da tavolo.
+
+00:09:21.160 --> 00:09:24.160
+Si chiama Owari in Ghana, dove l'ho studiato,
+
+00:09:24.160 --> 00:09:29.160
+si chiama Mancala qui sulla costa Est, Bao in Kenya, Sogo da qualche altra parte.
+
+00:09:29.160 --> 00:09:34.160
+Beh, in questo gioco questi pattern che si auto-organizzano si presentano spontaneamente .
+
+00:09:34.160 --> 00:09:37.160
+E i Ghanesi conoscevano questi pattern "auto-organizzanti"
+
+00:09:37.160 --> 00:09:39.160
+e li usavano strategicamente.
+
+00:09:39.160 --> 00:09:41.160
+Questa é conoscenza molto consapevole, dunque.
+
+00:09:41.160 --> 00:09:43.160
+Ecco un bellisssimo frattale.
+
+00:09:43.160 --> 00:09:47.160
+Dovunque tu vada, nel Sahel, vedrai questa barriera antivento.
+
+00:09:47.160 --> 00:09:51.160
+E certo, in tutto il mondo le barriere sono "Cartesiane", strettamente lineari.
+
+00:09:51.160 --> 00:09:55.160
+Ma qui in Africa, abbiamo queste barriere nonlineari.
+
+00:09:55.160 --> 00:09:57.160
+Ho rintracciato uno di quelli che le fanno,
+
+00:09:57.160 --> 00:10:01.160
+un tipo del Mali appena fuori da Bamako, e gli ho chiesto:
+
+00:10:01.160 --> 00:10:03.160
+"Com'é possibile che stiate facendo pareti frattali? Non lo fa nessun altro!"
+
+00:10:03.160 --> 00:10:05.160
+La sua risposta fu molto interessante.
+
+00:10:05.160 --> 00:10:10.160
+Disse:"Beh, se vivessi nella giungla, userei soltanto le canne di paglia,
+
+00:10:10.160 --> 00:10:12.160
+che sono rapide da lavorare, e molto economiche.
+
+00:10:12.160 --> 00:10:15.160
+Non richiedono molto tempo, né molto materiale."
+
+00:10:15.160 --> 00:10:17.160
+"Ma il vento e la polvere", mi disse, "ci passano attraverso facilmente."
+
+00:10:17.160 --> 00:10:21.160
+Ora, le canne strette in cima, mantengono davvero fuori il vento e la polvere.
+
+00:10:21.160 --> 00:10:26.160
+Ma ci vuole molto tempo, e molto materiale, perché sono tessute molto intrecciate tra loro.
+
+00:10:26.160 --> 00:10:28.160
+"E sappiamo," disse, "per esperienza,
+
+00:10:28.160 --> 00:10:33.160
+che più ti innalzi dal terreno, più forte soffia il vento."
+
+00:10:33.160 --> 00:10:36.160
+Capito? E' un analisi costi-benefici!
+
+00:10:36.160 --> 00:10:38.160
+Ho misurato le lunghezze delle canne,
+
+00:10:38.160 --> 00:10:40.160
+le ho messe in un grafico logaritmico,
+
+00:10:40.160 --> 00:10:45.160
+ne ho calcolato l'esponente, ed era quasi esattamente l'esponente per la relazione tra velocità del vento e altezza delle barriere
+
+00:10:45.160 --> 00:10:46.160
+nel manuale di ingegneria del vento.
+
+00:10:46.160 --> 00:10:51.160
+quindi questa gente fa un uso pratico della tecnologia scalare.
+
+00:10:51.160 --> 00:10:56.160
+L'esempio più complesso di un approccio algoritmico ai frattali che ho trovato,
+
+00:10:56.160 --> 00:10:58.160
+in effetti, non era nella geometria, ma in un codice simbolico,
+
+00:10:58.160 --> 00:11:01.160
+ed era la divinazione delle sabbie di Bamana.
+
+00:11:01.160 --> 00:11:04.160
+E lo stesso sistema di divinazione si trova in tutta l'Africa.
+
+00:11:04.160 --> 00:11:09.160
+Potete trovarlo sia sulla costa orientale sia su quella occidentale,
+
+00:11:09.160 --> 00:11:11.160
+e spesso i simboli sono molto ben preservati,
+
+00:11:11.160 --> 00:11:17.160
+ciascuno di questi simboli ha quattro bit (è una parola binaria a quattro bit),
+
+00:11:17.160 --> 00:11:22.160
+disegni queste linee casualmente nella sabbia, e poi conti;
+
+00:11:22.160 --> 00:11:24.160
+se è un numero dispari, tracci un segno,
+
+00:11:24.160 --> 00:11:26.160
+se è un numero pari, ne tracci due.
+
+00:11:26.160 --> 00:11:29.160
+Fecero il tutto molto rapidamente,
+
+00:11:29.160 --> 00:11:31.160
+e non riuscivo a capire dove volessero arrivare -
+
+00:11:31.160 --> 00:11:33.160
+fecero l'iterazione casuale solo quattro volte,
+
+00:11:33.160 --> 00:11:35.160
+non riuscivo a capire come ottenessero gli altri dodici simboli.
+
+00:11:35.160 --> 00:11:37.160
+E non volevano dirmelo.
+
+00:11:37.160 --> 00:11:39.160
+Dicevano: "No, no, non possiamo dirtelo".
+
+00:11:39.160 --> 00:11:41.160
+Io insistivo: "Guarda, ti pago, puoi essere il mio insegnante,
+
+00:11:41.160 --> 00:11:43.160
+verrò ogni giorno e ti pagherò"
+
+00:11:43.160 --> 00:11:46.160
+Ma loro insistevano: "non è una questione di soldi. E' una questione religiosa."
+
+00:11:46.160 --> 00:11:47.160
+E finalmente, per disperazione, dissi:
+
+00:11:47.160 --> 00:11:50.160
+" Beh, lasciate che vi racconti di George Cantor nel 1877".
+
+00:11:50.160 --> 00:11:54.160
+E cominciai a spiegare perché mi trovavo in Africa,
+
+00:11:54.160 --> 00:11:56.160
+si esaltarono vedendo l'insieme di Cantor.
+
+00:11:56.160 --> 00:12:00.160
+E allora uno di loro disse, "Dai, vieni, penso di poterti aiutare.
+
+00:12:00.160 --> 00:12:05.160
+E quindi mi fece fare tutto il rituale di iniziazione dei sacerdoti Bamana.
+
+00:12:05.160 --> 00:12:07.160
+Io ero solo interessato alla matematica, naturalmente.
+
+00:12:07.160 --> 00:12:09.160
+e infatti lui continuava a scuotere la testa ripetendo:
+
+00:12:09.160 --> 00:12:10.160
+"Sai, io non l'ho imparato così"
+
+00:12:10.160 --> 00:12:14.160
+Dovevo dormire con una noce di Kola di fianco al mio letto, seppellito nella sabbia,
+
+00:12:14.160 --> 00:12:17.160
+e dare sette monete ai sette lebbrosi, e così via.
+
+00:12:17.160 --> 00:12:21.160
+E finalmente mi rivelò il segreto.
+
+00:12:22.160 --> 00:12:26.160
+Saltò fuori che era un generatore di numeri pseudo-casuale basato sul caos deterministico.
+
+00:12:26.160 --> 00:12:32.160
+Quando hai un simbolo di 4 bit, poi lo metti accanto a un altro,
+
+00:12:32.160 --> 00:12:34.160
+Ecco, pari più dispari dà dispari.
+
+00:12:34.160 --> 00:12:36.160
+Dispari più pari dà dispari.
+
+00:12:36.160 --> 00:12:39.160
+Pari più pari dà pari. Dispari più dispari dà pari.
+
+00:12:39.160 --> 00:12:43.160
+E' un'addizione modulo 2, proprio come nei controlli di parità sul vostro computer.
+
+00:12:43.160 --> 00:12:47.160
+E poi prendi questo simbolo, e lo rimetti dentro,
+
+00:12:47.160 --> 00:12:49.160
+così é una diversità di simboli che si auto-genera,
+
+00:12:49.160 --> 00:12:53.160
+stanno davvero usando una specie di caos deterministico.
+
+00:12:53.160 --> 00:12:55.160
+Ora, siccome è un codice binario,
+
+00:12:55.160 --> 00:12:57.160
+puoi implementarlo nel'hardware
+
+00:12:57.160 --> 00:13:02.160
+-- sarebbe un fantastico strumento di insegnamento nelle scuole di ingegneria Africane.
+
+00:13:02.160 --> 00:13:05.160
+E la cosa più interessante che ho trovato a riguardo era storica.
+
+00:13:05.160 --> 00:13:11.160
+Nel 12° secolo, Hugo Santalia la portò dai mistici Islamici in Spagna.
+
+00:13:11.160 --> 00:13:17.160
+E là entrò nella comunità degli alchimisti come geomanzia:
+
+00:13:17.160 --> 00:13:19.160
+la divinazione attraverso la Terra.
+
+00:13:19.160 --> 00:13:24.160
+Questo è un grafico geomantico disegnato per Re Riccardo II nel 1390.
+
+00:13:24.160 --> 00:13:27.160
+Leibniz, il matematico tedesco,
+
+00:13:27.160 --> 00:13:31.160
+parlò della geomanzia nella sua dissertazione chiamata "De Combinatoria".
+
+00:13:31.160 --> 00:13:35.160
+e disse, "beh, invece di usare uno o due tratti,
+
+00:13:35.160 --> 00:13:39.160
+usiamo un uno e uno zero, così potremo contare per potenze di due"
+
+00:13:39.160 --> 00:13:41.160
+Uni e zeri. Il codice binario.
+
+00:13:41.160 --> 00:13:44.160
+Poi George Boole prese il codice binario di Leibniz e creò l'algebra Booleana,
+
+00:13:44.160 --> 00:13:47.160
+e John Von Neumann prese l'algebra Booleana e creò il computer digitale.
+
+00:13:47.160 --> 00:13:50.160
+Quindi tutti questi portatili e palmari-
+
+00:13:50.160 --> 00:13:53.160
+ogni circuito digitale nel mondo- è iniziato in Africa.
+
+00:13:53.160 --> 00:13:58.160
+So che secondo Brian Eno non c'é abbastanza Africa nei computers;
+
+00:13:58.160 --> 00:14:03.160
+io penso invece che non ci sia abbastanza storia africana in Brian Eno.
+
+00:14:03.160 --> 00:14:06.160
+(Applausi)
+
+00:14:06.160 --> 00:14:10.160
+Fatemi concludere con due parole sulle applicazioni che abbiamo trovato per questa cosa.
+
+00:14:10.160 --> 00:14:12.160
+Potete andare nel nostro sito web,
+
+00:14:12.160 --> 00:14:14.160
+gli applet sono tutti gratuiti, girano nel browser,
+
+00:14:14.160 --> 00:14:16.160
+chiunque può usarli.
+
+00:14:16.160 --> 00:14:21.160
+Il programma "Allargare la partecipazione nell'uso dei computer" della National Science Foundation,
+
+00:14:21.160 --> 00:14:28.160
+ci ha recentemente premiato con un finanziamento per realizzare una versione programmabile di questi strumenti di design,
+
+00:14:28.160 --> 00:14:30.160
+quindi si spera che, entro tre anni, chiunque potrà andare sul Web
+
+00:14:30.160 --> 00:14:33.160
+e crearsi le proprie simulazioni e i propri artefatti.
+
+00:14:33.160 --> 00:14:38.160
+Negli USA ci siamo concentrati sugli studenti afro-americani, sui Nativi Americani e sui latino-americani.
+
+00:14:38.160 --> 00:14:44.160
+Abbiamo osservato, statisticamente, grandi miglioramenti nei bambini che usano questo software per le lezioni di matematica,
+
+00:14:44.160 --> 00:14:47.160
+rispetto ad un gruppo di controllo che non usava il software.
+
+00:14:47.160 --> 00:14:53.160
+Quindi ha davvero molto successo insegnare ai bambini africani che hanno un'eredità culturale matematica,
+
+00:14:53.160 --> 00:14:57.160
+che l'Africa non é solo canti e balli.
+
+00:14:57.160 --> 00:15:00.160
+Abbiamo iniziato un programma pilota in Ghana,
+
+00:15:00.160 --> 00:15:05.160
+abbiamo una piccola borsa di studio, solo per vedere se qualcuno fosse interessato a lavorare con noi;
+
+00:15:05.160 --> 00:15:08.160
+siamo molto eccitati per le potenzialità del programma.
+
+00:15:08.160 --> 00:15:10.160
+Abbiamo anche lavorato sul design.
+
+00:15:10.160 --> 00:15:15.160
+Non ci ho messo il suo nome, ma il mio collega Kerry in Kenya se ne é uscito con questa grande idea
+
+00:15:15.160 --> 00:15:20.160
+di usare la struttura frattale per gli indirizzi postali nei villaggi che hanno una struttura frattale,
+
+00:15:20.160 --> 00:15:24.160
+perché se provi ad imporre un sistema postale strutturato a griglia su un villaggio frattale,
+
+00:15:24.160 --> 00:15:26.160
+davvero non fuzinona.
+
+00:15:26.160 --> 00:15:31.160
+Bernard Tschumi, alla Columbia University, ha finito per usarlo in un design per un museo di Arte Africana.
+
+00:15:31.160 --> 00:15:39.160
+David Hughes alla Ohio State University ha scritto un documento sull'architettura afrocentrica
+
+00:15:39.160 --> 00:15:41.160
+in cui ha usato alcune di queste strutture frattali.
+
+00:15:41.160 --> 00:15:46.160
+E per finire, voglio mettere in chiaro che quest'idea dell'auto-organizzazione,
+
+00:15:46.160 --> 00:15:48.160
+come abbiamo sentito prima, è nel cervello.
+
+00:15:48.160 --> 00:15:53.160
+E' nel.. motore di ricerca di Google.
+
+00:15:53.160 --> 00:15:55.160
+In effetti, la ragione per cui Google é stato un successo tale è perché
+
+00:15:55.160 --> 00:15:59.160
+sono stati i primi a capire le capacità di autogestirsi del Web.
+
+00:15:59.160 --> 00:16:01.160
+E' nella sostenibilità ecologica,
+
+00:16:01.160 --> 00:16:03.160
+è nel potere di sviluppo dell'imprenditoria,
+
+00:16:03.160 --> 00:16:05.160
+nel potere etico della democrazia.
+
+00:16:06.160 --> 00:16:08.160
+Ed è anche in alcune cose cattive.
+
+00:16:08.160 --> 00:16:11.160
+L'auto-organizzazione è il motivo per cui l'AIDS si diffonde così in fretta,
+
+00:16:11.160 --> 00:16:15.160
+e se non pensate che il capitalismo - che si auto-organizza - può avere effetti distruttivi,
+
+00:16:15.160 --> 00:16:17.160
+beh, aprite gli occhi...
+
+00:16:17.160 --> 00:16:21.160
+Quindi ci serve pensare, come è stato detto prima,
+
+00:16:21.160 --> 00:16:23.160
+ai metodi Africani tradizionali per creare l'auto-organizzazione.
+
+00:16:23.160 --> 00:16:25.160
+Sono algoritmi potenti.
+
+00:16:26.160 --> 00:16:29.160
+Sono modi di creare l'auto-organizzazione - di fare imprenditoria -
+
+00:16:29.160 --> 00:16:31.160
+gentili, ugualitari.
+
+00:16:31.160 --> 00:16:35.160
+Quindi se vogliamo trovare un modo migliore di fare quel tipo di cose,
+
+00:16:35.160 --> 00:16:40.160
+ci basta guardare all'Africa per trovare questi robusti algoritmi di auto-organizzazione.
+
+00:16:40.160 --> 00:16:41.160
+Grazie.
+

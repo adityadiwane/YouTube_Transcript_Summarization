@@ -1,0 +1,1056 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Lam Nguyen
+Reviewer: Mai Tran
+
+00:00:17.126 --> 00:00:18.285
+Chào buổi sáng.
+
+00:00:19.413 --> 00:00:23.566
+Hôm nay tôi sẽ nói về
+những quả bóng hơi tự động.
+
+00:00:23.590 --> 00:00:24.598
+(Cười)
+
+00:00:24.622 --> 00:00:27.487
+À nhưng không, mà về những con robot
+biết bay như thế này cơ.
+
+00:00:28.184 --> 00:00:31.644
+Tôi muốn nói một chút về các trở ngại
+khi làm ra những robot như vậy,
+
+00:00:31.668 --> 00:00:35.060
+và các cơ hội tuyệt vời
+cho việc ứng dụng công nghệ này.
+
+00:00:35.517 --> 00:00:40.125
+Những robot này làm ta liên tưởng tới
+máy bay không người lái.
+
+00:00:40.759 --> 00:00:43.410
+Tuy nhiên, những máy bay
+mà bạn thấy trên hình rất lớn.
+
+00:00:43.878 --> 00:00:47.147
+Chúng nặng hàng tấn,
+nên rất kém linh hoạt.
+
+00:00:47.171 --> 00:00:48.796
+Chúng còn không biết tự vận hành.
+
+00:00:49.446 --> 00:00:53.628
+Thực tế là, đa số máy bay như thế
+được điều khiển bởi một đội bay,
+
+00:00:53.652 --> 00:00:56.212
+bao gồm nhiều phi công,
+
+00:00:56.236 --> 00:00:58.442
+người điểu khiển các cảm biến,
+
+00:00:58.466 --> 00:00:59.796
+và người điều phối nhiệm vụ.
+
+00:01:00.482 --> 00:01:03.225
+Điều chúng tôi quan tâm
+là phát triển loại robot này,
+
+00:01:03.249 --> 00:01:04.939
+và đây là hai bức ảnh khác,
+
+00:01:04.963 --> 00:01:07.646
+về loại robot thông thường
+mà bạn có thể mua dễ dàng.
+
+00:01:07.670 --> 00:01:10.954
+Đây là những chiếc trực thăng
+với bốn cánh quạt,
+
+00:01:10.978 --> 00:01:14.668
+có kích cỡ khoảng một mét,
+
+00:01:14.692 --> 00:01:16.352
+và nặng vài kilogram.
+
+00:01:16.636 --> 00:01:19.991
+Chúng tôi lắp thêm
+cảm biến và bộ xử lý cho chúng,
+
+00:01:20.015 --> 00:01:22.221
+giúp những robot này có thể bay trong nhà
+
+00:01:22.245 --> 00:01:23.654
+mà không cần GPS.
+
+00:01:24.017 --> 00:01:25.905
+Chú robot mà tôi đang cầm trên tay
+
+00:01:25.929 --> 00:01:27.579
+là một trong số đó,
+
+00:01:27.603 --> 00:01:30.746
+chúng được làm bởi hai sinh viên,
+
+00:01:30.770 --> 00:01:32.468
+Alex và Daniel.
+
+00:01:33.053 --> 00:01:36.168
+Nó nhẹ hơn nửa lạng một chút ( khoảng 45g),
+
+00:01:36.192 --> 00:01:38.771
+và tiêu thụ công suất khoảng 15 Watts.
+
+00:01:38.795 --> 00:01:41.698
+Và bạn thấy là,
+đường kính của nó khoảng 20 cm.
+
+00:01:42.890 --> 00:01:45.485
+Hãy để tôi hướng dẫn nhanh bạn
+
+00:01:45.509 --> 00:01:47.315
+về cách con robot này hoạt động.
+
+00:01:47.603 --> 00:01:48.796
+Nó có bốn cánh quạt.
+
+00:01:48.820 --> 00:01:50.868
+Nếu bạn quay các cánh quạt này với cùng tốc độ,
+
+00:01:50.892 --> 00:01:52.331
+chú robot sẽ bay lơ lửng.
+
+00:01:52.980 --> 00:01:56.616
+Nếu bạn tăng tốc tất cả cánh quạt,
+
+00:01:56.640 --> 00:01:59.179
+thì nó sẽ bay lên nhanh dần.
+
+00:01:59.203 --> 00:02:01.635
+Đương nhiên, nếu chú robot bị nghiêng,
+
+00:02:01.659 --> 00:02:02.969
+lệch so với phương ngang,
+
+00:02:02.993 --> 00:02:05.796
+thì nó sẽ bay lệch theo hướng đó.
+
+00:02:06.246 --> 00:02:07.659
+Nên để làm nó nghiêng đi,
+
+00:02:07.683 --> 00:02:09.776
+ta có hai cách làm.
+
+00:02:09.800 --> 00:02:13.436
+Trong bức hình này,
+bạn thấy là cánh quạt 4 quay nhanh hơn,
+
+00:02:13.460 --> 00:02:15.428
+và cánh quạt 2 quay chậm hơn.
+
+00:02:15.452 --> 00:02:17.012
+Khi điều đó xảy ra,
+
+00:02:17.036 --> 00:02:20.297
+sẽ xuất hiện mômen động lượng
+làm nó quay.
+
+00:02:21.055 --> 00:02:22.310
+Với cách còn lại,
+
+00:02:22.334 --> 00:02:27.913
+nếu bạn tăng tốc cánh quạt 3
+và giảm tốc cánh quạt 1,
+
+00:02:27.937 --> 00:02:29.876
+thì chú robot sẽ lao về phía trước.
+
+00:02:30.380 --> 00:02:31.548
+Và cuối cùng là,
+
+00:02:31.572 --> 00:02:34.466
+nếu bạn xoay cặp cánh đối diện nhau
+
+00:02:34.490 --> 00:02:36.182
+nhanh hơn cặp còn lại,
+
+00:02:36.206 --> 00:02:38.927
+thì chú robot sẽ xoay vòng
+quanh trục thẳng đứng.
+
+00:02:38.951 --> 00:02:40.411
+Một bộ xử lý tích hợp
+
+00:02:40.435 --> 00:02:43.742
+sẽ đánh giá xem
+chuyển động nào cần được thực hiện
+
+00:02:43.766 --> 00:02:45.736
+và phối hợp với các chuyển động này,
+
+00:02:45.760 --> 00:02:48.870
+và tính toán các lệnh
+cần gửi tới động cơ,
+
+00:02:48.894 --> 00:02:50.306
+600 lệnh một giây.
+
+00:02:50.330 --> 00:02:52.369
+Đó cơ bản là cách robot này hoạt động.
+
+00:02:52.807 --> 00:02:54.949
+Một trong những ưu điểm của thiết kế này
+
+00:02:54.973 --> 00:02:56.872
+là khi bạn thu nhỏ kích thước nó lại,
+
+00:02:56.896 --> 00:02:59.364
+chú robot dĩ nhiên trở nên linh hoạt hơn.
+
+00:02:59.754 --> 00:03:03.817
+Chúng ta gọi
+R là độ dài riêng của chú robot.
+
+00:03:03.841 --> 00:03:05.695
+Thật ra đó là nửa đường kính của nó.
+
+00:03:06.155 --> 00:03:10.796
+Có rất nhiều thông số vật lý thay đổi
+khi bạn giảm R.
+
+00:03:11.528 --> 00:03:14.159
+Thông số quan trọng nhất là
+mômen quán tính,
+
+00:03:14.183 --> 00:03:16.104
+hoặc độ cản trở chuyển động.
+
+00:03:16.128 --> 00:03:20.604
+Ta biết rằng, mômen quán tính,
+thứ ảnh hưởng lớn tới chuyển động quay,
+
+00:03:20.628 --> 00:03:23.318
+tỉ lệ với hàm luỹ thừa bậc năm của R.
+
+00:03:23.606 --> 00:03:25.302
+Nên nếu bạn làm R càng nhỏ,
+
+00:03:25.326 --> 00:03:27.853
+thì mômen quán tính càng giảm nhiều.
+
+00:03:28.516 --> 00:03:31.451
+Kết quả là, gia tốc góc,
+
+00:03:31.475 --> 00:03:33.514
+biểu thị bằng ký tự Hy Lạp "alpha,"
+
+00:03:33.538 --> 00:03:35.157
+tỷ lệ với một chia R.
+
+00:03:35.181 --> 00:03:36.910
+Nó tỉ lệ nghịch với R.
+
+00:03:36.934 --> 00:03:39.854
+Bạn làm nó càng nhỏ
+thì nó xoay càng nhanh.
+
+00:03:40.779 --> 00:03:42.740
+Bạn sẽ thấy rõ hơn trong các video này.
+
+00:03:42.764 --> 00:03:47.223
+Ở góc dưới bên phải, bạn thấy
+một robot đang biểu diễn xoay 360 độ
+
+00:03:47.247 --> 00:03:48.935
+trong vòng chưa đến nửa giây.
+
+00:03:49.216 --> 00:03:51.856
+Sẽ lâu hơn một chút khi xoay nhiều vòng.
+
+00:03:52.819 --> 00:03:54.700
+Quá trình diễn ra trên bảng mạch
+
+00:03:54.724 --> 00:03:57.908
+là nhận phản hồi từ gia tốc kế
+và con quay hồi chuyển,
+
+00:03:57.932 --> 00:04:00.050
+và tính toán, như tôi đã nói,
+
+00:04:00.074 --> 00:04:01.883
+đưa ra khoảng 600 lệnh mỗi giây,
+
+00:04:01.907 --> 00:04:03.796
+để giữ thăng bằng cho robot.
+
+00:04:04.167 --> 00:04:07.517
+Ở bên trái, bạn thấy
+Daniel đang tung chú robot lên không,
+
+00:04:07.541 --> 00:04:09.568
+Nó cho thấy sự điều khiển tốt đến mức nào.
+
+00:04:09.592 --> 00:04:10.902
+Dù bạn tung nó như thế nào,
+
+00:04:10.926 --> 00:04:13.928
+robot vẫn lấy lại thăng bằng
+và bay trở lại phía anh ấy.
+
+00:04:15.441 --> 00:04:17.348
+Vậy vì sao cần chế tạo robot như thế?
+
+00:04:17.639 --> 00:04:20.210
+Những robot thế này
+có rất nhiều ứng dụng.
+
+00:04:20.758 --> 00:04:23.229
+Bạn có thể gửi chúng
+vào trong các toà nhà
+
+00:04:23.253 --> 00:04:26.840
+với vai trò tìm kiếm và xác định
+các mối đe doạ,
+
+00:04:26.864 --> 00:04:30.165
+có thể là tìm các rò rỉ hóa học,
+
+00:04:30.189 --> 00:04:31.340
+rò rỉ khí ga.
+
+00:04:31.662 --> 00:04:35.376
+Bạn cũng có thể ứng dụng chúng
+trong xây dựng.
+
+00:04:35.400 --> 00:04:39.924
+Đây là các robot
+đang mang những thanh dầm, trụ
+
+00:04:39.948 --> 00:04:41.796
+và lắp chúng thành cấu trúc khối hộp.
+
+00:04:41.820 --> 00:04:43.876
+Tôi sẽ nói thêm một chút về điều này.
+
+00:04:45.255 --> 00:04:47.796
+Những robot này có thể được dùng
+để chuyển hàng.
+
+00:04:48.143 --> 00:04:51.256
+Một vấn đề của những chú robot nhỏ này
+
+00:04:51.280 --> 00:04:53.281
+là tải trọng tối đa của chúng.
+
+00:04:53.305 --> 00:04:56.432
+Nên bạn có thể muốn
+nhiều chú robot cùng mang các tải trọng.
+
+00:04:57.306 --> 00:04:59.661
+Đây là một hình ảnh
+từ thử nghiệm mới đây,
+
+00:04:59.685 --> 00:05:01.280
+thật ra chúng không mới nữa...
+
+00:05:01.304 --> 00:05:03.906
+Ở Sendai, thời gian ngắn
+sau trận động đất.
+
+00:05:04.498 --> 00:05:07.689
+Các robot thế này có thể được cử
+vào trong những tòa nhà bị đổ,
+
+00:05:07.713 --> 00:05:10.604
+để đánh giá thiệt hại
+sau thảm họa thiên nhiên,
+
+00:05:10.628 --> 00:05:12.210
+hoặc gửi vào lò phản ứng hạt nhân
+
+00:05:12.234 --> 00:05:14.063
+để vẽ bản đồ các mức phóng xạ.
+
+00:05:16.143 --> 00:05:19.684
+Bài toán cơ bản nhất
+mà các robot cần giải quyết
+
+00:05:19.704 --> 00:05:21.267
+nếu chúng được tự động hóa,
+
+00:05:21.291 --> 00:05:24.796
+là cơ bản phải tìm ra cách
+để đi từ điểm A tới điểm B.
+
+00:05:25.497 --> 00:05:27.164
+Đây là thử thách không nhỏ,
+
+00:05:27.188 --> 00:05:30.195
+vì cách vận hành
+của loại robot này rất phức tạp.
+
+00:05:30.219 --> 00:05:32.711
+Thật ra, chúng sống
+trong không gian 12 chiều.
+
+00:05:33.084 --> 00:05:34.528
+Nên chúng tôi dùng một cách.
+
+00:05:34.552 --> 00:05:37.965
+Chúng tôi lấy không gian cong 12 chiều này
+
+00:05:37.989 --> 00:05:41.883
+và chuyển đổi nó
+thành một không gian phẳng 4 chiều.
+
+00:05:41.907 --> 00:05:44.978
+Không gian phẳng 4 chiều này
+gồm các trục x, y, z
+
+00:05:45.002 --> 00:05:46.414
+và vector góc quay.
+
+00:05:46.438 --> 00:05:47.796
+Nên những gì robot làm,
+
+00:05:47.820 --> 00:05:51.966
+là tính toán thứ mà chúng tôi gọi là
+Quỹ đạo thăng bằng tối ưu.
+
+00:05:52.769 --> 00:05:54.166
+Nhắc lại bạn một chút vật lý,
+
+00:05:54.190 --> 00:05:56.244
+bạn có toạ độ,
+đạo hàm của nó là vận tốc,
+
+00:05:56.268 --> 00:05:58.124
+và gia tốc;
+
+00:05:58.148 --> 00:06:00.249
+nếu khi bay, nó bị xóc,
+
+00:06:00.273 --> 00:06:01.733
+nó sẽ mất thăng bằng.
+
+00:06:02.138 --> 00:06:04.670
+Nên robot cố gắng giảm tối đa
+việc mất thăng bằng.
+
+00:06:05.360 --> 00:06:06.796
+Vì vậy kết quả là,
+
+00:06:06.820 --> 00:06:09.444
+nó tạo ra chuyển động
+cân bằng và nhịp nhàng.
+
+00:06:09.468 --> 00:06:12.310
+Và nó biết tránh các chướng ngại vật.
+
+00:06:12.873 --> 00:06:17.386
+Sau đó quỹ đạo cân bằng tối ưu
+trong không gian phẳng được ánh xạ ngược,
+
+00:06:17.416 --> 00:06:19.785
+trở lại không gian phức tạp 12 chiều,
+
+00:06:19.809 --> 00:06:22.795
+tại đó robot phải tính toán
+để điều khiển và thực hiện lệnh.
+
+00:06:23.309 --> 00:06:24.849
+Để tôi cho bạn xem một vài ví dụ
+
+00:06:24.873 --> 00:06:27.650
+minh hoạ cho quỹ đạo cân bằng tối ưu này.
+
+00:06:27.674 --> 00:06:28.825
+Trong video đầu tiên,
+
+00:06:28.849 --> 00:06:31.578
+bạn sẽ thấy robot đi từ điểm A đến điểm B,
+
+00:06:31.602 --> 00:06:33.225
+xuyên qua điểm trung gian.
+
+00:06:33.550 --> 00:06:35.130
+(Tiếng động cơ)
+
+00:06:39.937 --> 00:06:43.558
+Robot có khả năng tự di chuyển
+trên mọi quỹ đạo cong khác nhau.
+
+00:06:43.582 --> 00:06:44.990
+Đây là các quỹ đạo tròn,
+
+00:06:45.010 --> 00:06:47.880
+tại đó robot chịu gia tốc hướng tâm
+khoảng 2 g.
+
+00:06:49.404 --> 00:06:53.106
+Một camera bắt chuyển động
+được gắn trên đầu robot
+
+00:06:53.130 --> 00:06:56.336
+cho phép robot tự định vị
+với tần số 100 lần mỗi giây.
+
+00:06:56.360 --> 00:06:58.876
+Nó giúp robot nhận biết
+vị trí chướng ngại vật,
+
+00:06:59.700 --> 00:07:01.256
+Và nếu các chướng ngại di động.
+
+00:07:01.280 --> 00:07:04.407
+Bạn thấy Daniel
+đang ném lên một chiếc vòng,
+
+00:07:04.431 --> 00:07:07.090
+robot sẽ tính toán vị trí chiếc vòng đó,
+
+00:07:07.114 --> 00:07:09.994
+và tìm cách vượt qua chướng ngại.
+
+00:07:10.562 --> 00:07:11.796
+Là các nhà khoa học,
+
+00:07:11.820 --> 00:07:14.148
+chúng tôi được rèn luyện
+để vượt qua chướng ngại,
+
+00:07:14.172 --> 00:07:15.727
+và kêu gọi ủng hộ cho nghiên cứu
+
+00:07:15.751 --> 00:07:17.796
+nhờ những con robot như thế này.
+
+00:07:17.820 --> 00:07:18.815
+(Vỗ tay)
+
+00:07:25.084 --> 00:07:26.695
+Một khả năng khác của các robot là
+
+00:07:26.719 --> 00:07:28.796
+Nó ghi nhớ các quỹ đạo
+
+00:07:28.820 --> 00:07:31.784
+mà nó tự học được hoặc đã được lập trình sẵn.
+
+00:07:32.026 --> 00:07:36.796
+Bạn có thể thấy robot đang phối hợp
+1 chuyển động để tăng đà quay
+
+00:07:36.820 --> 00:07:39.846
+và đổi góc bay linh hoạt rồi trở lại 
+hình dáng cũ.
+
+00:07:40.564 --> 00:07:43.614
+Nó làm như vậy vì cái khe cửa sổ đó
+
+00:07:43.644 --> 00:07:47.006
+chỉ lớn hơn chiều rộng của robot một chút.
+
+00:07:47.610 --> 00:07:50.363
+Giống như một vận động viên
+đang đứng trên ván nhảy,
+
+00:07:50.387 --> 00:07:52.840
+anh ta nhảy lên rất cao để tăng động lượng
+
+00:07:52.864 --> 00:07:55.657
+cuộn mình xoay tròn
+khoảng hai vòng rưỡi,
+
+00:07:55.677 --> 00:07:57.469
+và quay về tư thế cũ,
+
+00:07:57.503 --> 00:07:59.241
+con robot này cũng tương tự.
+
+00:07:59.265 --> 00:08:02.345
+Nó biết cách kết hợp nhiều chuyển động
+trên các quỹ đạo khác nhau
+
+00:08:02.369 --> 00:08:05.368
+để làm các thao tác phức tạp.
+
+00:08:06.518 --> 00:08:07.796
+Tôi vẫn muốn cải tiến nó.
+
+00:08:07.820 --> 00:08:11.659
+Một bất lợi của những con robot này
+là chúng quá nhỏ.
+
+00:08:12.214 --> 00:08:13.366
+Tôi đã nói với bạn là
+
+00:08:13.390 --> 00:08:15.739
+chúng tôi muốn sử dụng chúng
+với số lượng lớn,
+
+00:08:15.763 --> 00:08:17.906
+để bù trừ kích cỡ nhỏ bé của chúng.
+
+00:08:18.570 --> 00:08:20.144
+Khó khăn là:
+
+00:08:20.168 --> 00:08:22.961
+Làm sao để điều hành chúng
+với số lượng lớn như vậy?
+
+00:08:22.985 --> 00:08:25.066
+Vì vậy, chúng tôi quan sát ngoài tự nhiên.
+
+00:08:25.104 --> 00:08:29.712
+Tôi muốn các bạn xem video về cách
+loài kiến sa mạc Aphaenogaster,
+
+00:08:29.736 --> 00:08:33.124
+trong phòng thí nghiệm của giáo sư Pratt,
+hợp tác mang vật nặng.
+
+00:08:33.148 --> 00:08:34.863
+Chúng đang mang miếng vỏ cây sung.
+
+00:08:34.887 --> 00:08:37.107
+Bạn chỉ cần bôi nhựa sung
+lên một vật nào đó,
+
+00:08:37.141 --> 00:08:39.402
+và đàn kiến sẽ tha nó về tổ.
+
+00:08:39.426 --> 00:08:42.665
+Bạn thấy đó, đàn kiến này
+không được trực tiếp chỉ huy.
+
+00:08:43.047 --> 00:08:44.594
+Chúng cảm nhận vị trí của nhau.
+
+00:08:44.618 --> 00:08:46.903
+Không có trao đổi trực tiếp nào diễn ra.
+
+00:08:46.927 --> 00:08:48.666
+Nhưng chúng cảm nhận được nhau
+
+00:08:48.690 --> 00:08:50.466
+và cảm nhận được vật chúng đang mang,
+
+00:08:50.490 --> 00:08:53.460
+vậy phải có một dạng
+chỉ dẫn ngầm nào đó trong toàn đội.
+
+00:08:54.034 --> 00:08:57.454
+Đây chính là thứ chúng tôi muốn
+những con robot có.
+
+00:08:58.129 --> 00:09:02.907
+Giả sử ta có một robot
+đang đứng cạnh nhiều robot khác.
+
+00:09:02.931 --> 00:09:05.160
+Hãy xem xét robot i và j.
+
+00:09:05.184 --> 00:09:06.732
+Chúng tôi muốn những robot này
+
+00:09:06.756 --> 00:09:09.017
+tự theo dõi khoảng cách giữa chúng
+
+00:09:09.051 --> 00:09:10.796
+khi chúng bay thành đội hình.
+
+00:09:11.097 --> 00:09:12.578
+Chúng tôi muốn chắc chắn rằng
+
+00:09:12.602 --> 00:09:15.506
+khoảng cách này
+nằm trong khoảng cho phép.
+
+00:09:15.863 --> 00:09:18.331
+Một lần nữa, chúng theo dõi điều này
+
+00:09:18.355 --> 00:09:22.504
+và tính toán khoảng 100 lệnh điều khiển
+mỗi giây,
+
+00:09:22.528 --> 00:09:24.551
+sau đó chúng chuyển thành lệnh di chuyển
+
+00:09:24.575 --> 00:09:25.790
+600 lần mỗi giây.
+
+00:09:25.814 --> 00:09:29.036
+Việc này cần được mỗi thành viên
+trong đội hình tự thực hiện.
+
+00:09:29.345 --> 00:09:31.679
+Nếu bạn có rất nhiều con robot khác nhau,
+
+00:09:31.703 --> 00:09:34.980
+bạn không thể dùng một bộ não trung tâm
+để xử lý hết các thông tin
+
+00:09:35.004 --> 00:09:38.181
+với tốc độ đủ nhanh
+khi chúng thực hiện nhiệm vụ.
+
+00:09:38.205 --> 00:09:42.553
+Hơn nữa, các robot chỉ được phép tính toán
+dựa trên các thông tin tại chỗ,
+
+00:09:42.577 --> 00:09:44.696
+là những thứ
+chúng cảm giác được từ các con khác.
+
+00:09:44.720 --> 00:09:46.106
+Cuối cùng,
+
+00:09:46.130 --> 00:09:50.230
+chúng tôi không muốn các robot
+biết thông tin cá nhân của những con khác.
+
+00:09:50.254 --> 00:09:52.371
+Chúng tôi gọi đó là sự Ẩn danh.
+
+00:09:53.818 --> 00:10:00.235
+Tôi muốn các bạn xem video tiếp theo
+về cách 20 con robot cỡ nhỏ này
+
+00:10:00.259 --> 00:10:01.906
+bay theo đội hình.
+
+00:10:02.704 --> 00:10:05.600
+Chúng tự theo dõi vị trí của nhau.
+
+00:10:05.624 --> 00:10:07.526
+Chúng giữ đội hình bay.
+
+00:10:07.550 --> 00:10:09.330
+Đội hình bay có thể thay đổi.
+
+00:10:09.354 --> 00:10:11.033
+Chúng có thể bay trên một mặt phẳng
+
+00:10:11.057 --> 00:10:13.160
+hoặc trong không gian.
+
+00:10:13.891 --> 00:10:15.232
+Bạn thấy đó,
+
+00:10:15.256 --> 00:10:18.943
+chúng đang chuyển đội hình từ
+một mặt phẳng sang toàn không gian.
+
+00:10:18.967 --> 00:10:20.498
+Để bay qua chướng ngại vật,
+
+00:10:20.522 --> 00:10:23.534
+chúng sẽ điều chỉnh đội hình khi bay.
+
+00:10:24.586 --> 00:10:27.049
+Khi bay, chúng sẽ ở rất sát nhau.
+
+00:10:27.073 --> 00:10:29.461
+Bạn đang thấy
+ở đội hình bay hình số 8 này,
+
+00:10:29.485 --> 00:10:31.529
+khoảng cách giữa chúng là dưới 10cm.
+
+00:10:31.937 --> 00:10:36.254
+Mặc dù bị ảnh hưởng bởi dòng không khí
+do cánh quạt các robot khác gây ra,
+
+00:10:36.278 --> 00:10:38.426
+chúng vẫn duy trì đội hình ổn định.
+
+00:10:38.450 --> 00:10:39.986
+(Vỗ tay)
+
+00:10:45.806 --> 00:10:47.805
+Khi đã biết cùng nhau bay theo đội hình,
+
+00:10:47.829 --> 00:10:50.045
+bạn có thể cùng nhau
+di chuyển các vật nặng.
+
+00:10:50.069 --> 00:10:54.646
+Điều này cho thấy chúng tôi
+có thể tăng gấp hai, gấp ba, gấp bốn
+
+00:10:54.670 --> 00:10:55.828
+khả năng của robot,
+
+00:10:55.852 --> 00:10:58.929
+chỉ bằng việc dạy chúng cách hợp tác,
+như bạn đã thấy.
+
+00:10:58.953 --> 00:11:03.095
+Làm cách này có một bất lợi,
+đó là khi bạn tăng kích thước robot...
+
+00:11:03.119 --> 00:11:05.683
+Giả sử có nhiều robot
+đang cùng mang một vật rất nặng.
+
+00:11:05.707 --> 00:11:08.427
+bạn sẽ phải tăng kích thước,
+hay quán tính của chúng.
+
+00:11:08.451 --> 00:11:11.070
+Khi đó sẽ phải đánh đổi:
+Chúng sẽ kém nhanh nhẹn hơn.
+
+00:11:11.538 --> 00:11:14.634
+Nhưng bạn sẽ được lợi
+vì chúng có thể mang vật nặng hơn.
+
+00:11:14.658 --> 00:11:17.873
+Trong phòng thí nghiệm, chúng tôi
+đã đạt được vài thành công khác.
+
+00:11:17.897 --> 00:11:21.062
+Đây là kết quả của
+nghiên cứu sinh Quentin Lindsey.
+
+00:11:21.086 --> 00:11:23.706
+Thuật toán anh ấy viết
+dạy cho robot
+
+00:11:23.730 --> 00:11:27.802
+cách tự động lắp ghép
+các khối hộp chữ nhật
+
+00:11:27.826 --> 00:11:29.796
+từ các thanh thép có sẵn.
+
+00:11:31.001 --> 00:11:34.761
+Thuật toán đó dạy robot
+nên lấy cái gì,
+
+00:11:34.785 --> 00:11:36.610
+đặt chúng ở đâu và khi nào...
+
+00:11:37.031 --> 00:11:38.514
+Bạn thấy trong video này...
+
+00:11:38.538 --> 00:11:40.562
+Nó đang được tua nhanh 14 lần...
+
+00:11:40.586 --> 00:11:43.675
+Bạn đang thấy các robot đang tạo nên
+3 cấu trúc khác nhau.
+
+00:11:43.699 --> 00:11:45.725
+Một lần nữa, mọi thứ vận hành tự động,
+
+00:11:45.749 --> 00:11:47.032
+mọi việc Quentin phải làm
+
+00:11:47.056 --> 00:11:50.991
+là cho robot xem bản thiết kế
+của cấu trúc anh ta muốn xây.
+
+00:11:53.485 --> 00:11:56.296
+Mọi thí nghiệm mà các bạn đã theo dõi,
+
+00:11:56.320 --> 00:11:57.670
+tất cả các mô phỏng này,
+
+00:11:57.694 --> 00:12:00.796
+đều được thực hiện nhờ sự giúp đỡ
+của camera bắt chuyển động.
+
+00:12:01.589 --> 00:12:04.096
+Vậy, điều gì sẽ xảy ra
+khi bạn rời phòng thí nghiệm
+
+00:12:04.120 --> 00:12:06.157
+và ra thế giới bên ngoài?
+
+00:12:06.482 --> 00:12:08.188
+Nếu không có GPS thì sao?
+
+00:12:09.315 --> 00:12:13.652
+Các robot đã được trang bị một camera,
+
+00:12:13.676 --> 00:12:16.049
+một bộ cảm biến khoảng cách
+và một máy quét laser.
+
+00:12:16.700 --> 00:12:20.620
+Chúng dùng các thiết bị đó
+để dựng bản đồ môi trường xung quanh.
+
+00:12:20.644 --> 00:12:23.930
+Bản đồ đó bao gồm nhiều thứ,
+
+00:12:23.954 --> 00:12:27.825
+ví dụ như cửa ra vào, cửa sổ,
+con người, các đồ dùng...
+
+00:12:27.849 --> 00:12:29.992
+và robot sẽ biết
+vị trí tương đối của nó
+
+00:12:30.016 --> 00:12:31.417
+so với các vật xung quanh.
+
+00:12:31.441 --> 00:12:33.651
+Không có máy chủ định hướng nào hết.
+
+00:12:33.675 --> 00:12:36.181
+Hệ thống định hướng được đặt
+ở trong mỗi con robot,
+
+00:12:36.205 --> 00:12:38.262
+cho nó biết vị trí và phương hướng.
+
+00:12:39.135 --> 00:12:41.890
+Nó giúp robot định hướng
+môi trường và chướng ngại vật.
+
+00:12:42.876 --> 00:12:44.296
+Tôi muốn các bạn xem 1 video
+
+00:12:44.320 --> 00:12:48.272
+nói về thuật toán được phát triển bởi
+Frank Shen và giáo sư Nathan Michael,
+
+00:12:48.296 --> 00:12:52.065
+bạn đang thấy con robot lần đầu tiên
+vào một ngôi nhà,
+
+00:12:52.089 --> 00:12:54.511
+nó đang tự vẽ bản đồ trong lúc bay.
+
+00:12:55.202 --> 00:12:58.360
+Robot sẽ phân tích
+các chi tiết bên trong ngôi nhà,
+
+00:12:58.384 --> 00:12:59.385
+và phác hoạ bản đồ.
+
+00:12:59.419 --> 00:13:02.656
+Nó phân tích vị trí tương đối của mình
+trong môi trường xung quanh,
+
+00:13:02.686 --> 00:13:06.498
+và tự ước lượng toạ độ
+100 lần mỗi giây.
+
+00:13:06.522 --> 00:13:10.340
+Điều đó cho phép chúng tôi dùng
+thuật toán điều khiển tôi vừa kể trên.
+
+00:13:10.364 --> 00:13:14.797
+Thực ra con robot này đang bị Frank
+điều khiển từ xa,
+
+00:13:14.821 --> 00:13:18.360
+nhưng tự nó cũng có thể tìm đường đi.
+
+00:13:18.685 --> 00:13:20.892
+Hãy giả sử tôi phải vào một căn nhà,
+
+00:13:20.916 --> 00:13:23.218
+mà tôi không hề biết cấu trúc của nó.
+
+00:13:23.242 --> 00:13:24.686
+Tôi sẽ cho robot vào trước,
+
+00:13:24.710 --> 00:13:26.614
+dựng bản đồ,
+
+00:13:26.638 --> 00:13:29.503
+sau đó quay lại
+và cho tôi biết cấu trúc của nó.
+
+00:13:29.527 --> 00:13:32.695
+Vậy là robot không chỉ
+biết giải quyết các vấn đề như
+
+00:13:32.719 --> 00:13:35.353
+làm thế nào để đi từ điểm A tới điểm B
+trong bản đồ,
+
+00:13:35.377 --> 00:13:39.776
+nó còn luôn tìm ra điểm B tối ưu,
+hay đích đến tốt nhất mọi.
+
+00:13:39.800 --> 00:13:41.854
+Về cơ bản là nó biết đi tới đâu,
+
+00:13:41.878 --> 00:13:44.663
+biết cách xoay sở
+với lượng thông tin ít nhất có thể,
+
+00:13:44.687 --> 00:13:46.655
+và đó là cách nó dựng bản đồ.
+
+00:13:47.504 --> 00:13:50.502
+Và tôi muốn nói với bạn
+về ứng dụng của loại robot này.
+
+00:13:51.542 --> 00:13:54.066
+Ta có thể làm nhiều thứ nhờ
+những công nghệ này.
+
+00:13:54.383 --> 00:13:56.911
+Tôi là một giáo sư, và chúng ta
+đều đam mê việc giáo dục.
+
+00:13:56.935 --> 00:14:00.891
+Các robot như thế sẽ thay đổi hoàn toàn
+hệ thống giáo dục 12 năm của ta.
+
+00:14:00.915 --> 00:14:02.740
+Chúng ta đang ở nam California,
+
+00:14:02.764 --> 00:14:04.597
+khá gần Los Angeles,
+
+00:14:04.621 --> 00:14:08.051
+vậy để "nhập gia tuỳ tục," tôi sẽ kết luận
+vấn đề theo cách vui vẻ nhất.
+
+00:14:08.967 --> 00:14:10.801
+Tôi muốn kết thúc bằng một bài hát.
+
+00:14:10.825 --> 00:14:15.539
+Tôi muốn giới thiệu Alex và Daniel,
+những người đã làm video này.
+
+00:14:15.563 --> 00:14:17.001
+(Vỗ tay)
+
+00:14:22.465 --> 00:14:23.899
+Trước khi các bạn xem,
+
+00:14:23.923 --> 00:14:27.120
+tôi muốn nói rằng, họ đã làm video này
+ba ngày trước
+
+00:14:27.144 --> 00:14:28.796
+sau khi Chris gọi điện cho họ.
+
+00:14:29.303 --> 00:14:33.120
+Và những robot trong video này
+chơi nhạc hoàn toàn tự động.
+
+00:14:33.144 --> 00:14:36.646
+Bạn sẽ xem chín chú robot
+chơi sáu loại nhạc cụ khác nhau.
+
+00:14:37.257 --> 00:14:40.228
+Đặc biệt, video này được làm đặc biệt để
+chào mừng TED 2012.
+
+00:14:41.093 --> 00:14:42.245
+Hãy cùng xem nào!
+

@@ -1,0 +1,629 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Lukáš Měch
+Korektor: Petr Bela
+
+00:00:15.260 --> 00:00:18.260
+Spousta lidí věří, že řízení auta je činnost
+
+00:00:18.260 --> 00:00:20.260
+výhradně určená pro ty, kteří vidí.
+
+00:00:20.260 --> 00:00:23.260
+Představa nevidomé osoby, která sama řídí vůz bezpečně,
+
+00:00:23.260 --> 00:00:26.260
+byla považována za něco nepředstavitelného. Až doteď.
+
+00:00:26.260 --> 00:00:28.260
+Zdravím vás, jmenuji se Dennis Hong
+
+00:00:28.260 --> 00:00:30.260
+a přinášíme svobodu a nezávislost slepým lidem,
+
+00:00:30.260 --> 00:00:33.260
+díky tvorbě vozu určeného pro zrakově postižené.
+
+00:00:33.260 --> 00:00:36.260
+Než začnu mluvit o tomto vozu pro slepé,
+
+00:00:36.260 --> 00:00:38.260
+dovolte mi zmínit se o jiném projektu, na kterém jsem pracoval,
+
+00:00:38.260 --> 00:00:40.260
+jmenoval se DARPA Urban Challenge.
+
+00:00:40.260 --> 00:00:42.260
+Tento projekt byl o vytvoření robotického auta,
+
+00:00:42.260 --> 00:00:44.260
+které by bylo schopné řídit se samo.
+
+00:00:44.260 --> 00:00:46.260
+Pouze zmáčknete "start", nic víc neděláte
+
+00:00:46.260 --> 00:00:49.260
+a auto samo dorazí do cíle naprosto samostatně.
+
+00:00:49.260 --> 00:00:52.260
+Nakonec, v roce 2007 náš tým vyhrál půl milionu dolarů
+
+00:00:52.260 --> 00:00:54.260
+za třetí místo v této soutěži.
+
+00:00:54.260 --> 00:00:56.260
+A zhruba v tu dobu,
+
+00:00:56.260 --> 00:00:58.260
+Národní sdružení nevidomých, nebo také NFB,
+
+00:00:58.260 --> 00:01:00.260
+vyzvala výzkumníky k tomu,
+
+00:01:00.260 --> 00:01:02.260
+aby se pokusili sestavit auto,
+
+00:01:02.260 --> 00:01:04.260
+které by umožňovalo slepým lidem řídit bezpečně a samostatně.
+
+00:01:04.260 --> 00:01:06.260
+Rozhodli jsme se do toho jít,
+
+00:01:06.260 --> 00:01:08.260
+protože jsme si říkali, hej, jak těžké to může být?!
+
+00:01:08.260 --> 00:01:10.260
+Samostatné auto už máme hotové.
+
+00:01:10.260 --> 00:01:12.260
+Prostě do něj posadíme nevidomou osobu a je hotovo, ne?
+
+00:01:12.260 --> 00:01:14.260
+(Smích)
+
+00:01:14.260 --> 00:01:16.260
+Nemohli jsme se mýlit více.
+
+00:01:16.260 --> 00:01:18.260
+To, co NFB hledala,
+
+00:01:18.260 --> 00:01:21.260
+nebyl vůz, který by nevidomého vozil po okolí,
+
+00:01:21.260 --> 00:01:24.260
+ale auto, které by nevidomý mohl sám řídit a rozhodovat, co se stane.
+
+00:01:24.260 --> 00:01:26.260
+Takže jsme museli všechno hodit do koše
+
+00:01:26.260 --> 00:01:28.260
+a začít celé znovu.
+
+00:01:28.260 --> 00:01:30.260
+K tomu, abychom si tuto myšlenku otestovali,
+
+00:01:30.260 --> 00:01:32.260
+jsme vytvořili malý prototyp vozidla,
+
+00:01:32.260 --> 00:01:34.260
+abychom zjistili, jestli je to vůbec možné.
+
+00:01:34.260 --> 00:01:36.260
+A v létě roku 2009
+
+00:01:36.260 --> 00:01:39.260
+jsme pozvali hromadu mladých, nevidomých lidí,
+
+00:01:39.260 --> 00:01:41.260
+a nechali je s v tom vozidle projet.
+
+00:01:41.260 --> 00:01:43.260
+Byl to naprosto úžasný zážitek.
+
+00:01:43.260 --> 00:01:45.260
+Ale problémem tohoto vozu bylo to,
+
+00:01:45.260 --> 00:01:48.260
+že byl vytvořen pouze k jízdě v bezpečném prostředí,
+
+00:01:48.260 --> 00:01:50.260
+na uzavřeném parkovišti --
+
+00:01:50.260 --> 00:01:52.260
+na trati ohraničené červenými kužely.
+
+00:01:52.260 --> 00:01:54.260
+Po tomto úspěchu
+
+00:01:54.260 --> 00:01:56.260
+jsme se rozhodli posunout se dále,
+
+00:01:56.260 --> 00:01:59.260
+vyvinout skutečné auto, které by mohlo jezdit po skutečných cestách.
+
+00:01:59.260 --> 00:02:01.260
+Jak to tedy funguje?
+
+00:02:01.260 --> 00:02:03.260
+No, je to docela složitý systém,
+
+00:02:03.260 --> 00:02:06.260
+ale pokusím se vám ho vysvětlit, možná zjednodušit.
+
+00:02:06.260 --> 00:02:08.260
+Skládá se to ze 3 částí.
+
+00:02:08.260 --> 00:02:10.260
+První je vnímání, výpočty
+
+00:02:10.260 --> 00:02:12.260
+a ne-vizuální uživatelské prostředí.
+
+00:02:12.260 --> 00:02:14.260
+Takže, samozřejmě, když řidič nic nevidí,
+
+00:02:14.260 --> 00:02:16.260
+systém musí vnímat okolní prostředí
+
+00:02:16.260 --> 00:02:18.260
+a předávat informace řidiči.
+
+00:02:18.260 --> 00:02:21.260
+K tomu účelu používáme základní měřicí jednotku.
+
+00:02:21.260 --> 00:02:23.260
+Ta měří akceleraci, úhlovou akceleraci --
+
+00:02:23.260 --> 00:02:25.260
+stejně jako lidské ucho, vnitřní ucho.
+
+00:02:25.260 --> 00:02:27.260
+Tuto informaci spojíme s GPS jednotkou k tomu,
+
+00:02:27.260 --> 00:02:30.260
+abychom získali přibližnou polohu vozidla.
+
+00:02:30.260 --> 00:02:33.260
+Používáme také dvě kamery k rozeznání trati.
+
+00:02:33.260 --> 00:02:35.260
+Dále používáme tři laserové snímače okolí.
+
+00:02:35.260 --> 00:02:38.260
+Tyto lasery zkoumají okolí vozu a zjišťují možné překážky --
+
+00:02:38.260 --> 00:02:40.260
+auto, které se přibližuje zepředu nebo zezadu
+
+00:02:40.260 --> 00:02:43.260
+a také překážky, které se dostanou na cestu,
+
+00:02:43.260 --> 00:02:45.260
+cokoli v okolí vozidla.
+
+00:02:45.260 --> 00:02:48.260
+Všechna tato spousta informací je poté shromážděna v počítači
+
+00:02:48.260 --> 00:02:50.260
+a ten dělá dvě věci.
+
+00:02:50.260 --> 00:02:53.260
+Ta první, ze všeho nejdříve analyzuje informace
+
+00:02:53.260 --> 00:02:55.260
+aby porozuměl tomu, co je kolem něj --
+
+00:02:55.260 --> 00:02:58.260
+toto je trať vozu, toto jsou překážky --
+
+00:02:58.260 --> 00:03:00.260
+a poté tyto informace přenese řidiči.
+
+00:03:00.260 --> 00:03:02.260
+Systém je dokonce natolik chytrý,
+
+00:03:02.260 --> 00:03:04.260
+že dokáže navrhnout nejbezpečnější způsob jak vůz řídit.
+
+00:03:04.260 --> 00:03:06.260
+Takže můžeme také vytvořit pokyny,
+
+00:03:06.260 --> 00:03:08.260
+jak správně vůz řídit.
+
+00:03:08.260 --> 00:03:10.260
+Problémem je ale to, jak předávat
+
+00:03:10.260 --> 00:03:12.260
+tyto informace a pokyny
+
+00:03:12.260 --> 00:03:14.260
+osobě, která nevidí,
+
+00:03:14.260 --> 00:03:17.260
+dostatečně rychle a přesně tak, aby mohla řídit?
+
+00:03:17.260 --> 00:03:19.260
+Pro toto jsme vytvořili spoustu různých typů
+
+00:03:19.260 --> 00:03:22.260
+ne-vizuálního uživatelského prostředí.
+
+00:03:22.260 --> 00:03:24.260
+Od trojrozměrného zvukového systému,
+
+00:03:24.260 --> 00:03:26.260
+přes vibrační vestu,
+
+00:03:26.260 --> 00:03:29.260
+nebo hlasové povely při obsluze volantu, pás na nohu
+
+00:03:29.260 --> 00:03:31.260
+nebo dokonce i obuv, která mění tlak na chodidlo.
+
+00:03:31.260 --> 00:03:33.260
+Dnes vám ale povím
+
+00:03:33.260 --> 00:03:35.260
+o těchto třech ne-vizuálních uživatelských prostředích.
+
+00:03:35.260 --> 00:03:38.260
+Prvním z nich je DriveGrip.
+
+00:03:38.260 --> 00:03:40.260
+Toto jsou rukavice,
+
+00:03:40.260 --> 00:03:42.260
+které mají vibrační zařízení v oblasti kloubů,
+
+00:03:42.260 --> 00:03:45.260
+takže můžete předávat informace o tom, jak zatáčet,
+
+00:03:45.260 --> 00:03:47.260
+do jakého směru a s jakou intensitou.
+
+00:03:47.260 --> 00:03:49.260
+Další systém se jmenuje Speed Strip.
+
+00:03:49.260 --> 00:03:52.260
+Toto je sedadlo -- ve skutečnosti se jedná o masážní křeslo.
+
+00:03:52.260 --> 00:03:56.260
+Trošku jsme ho vykuchali a přestavěli vibrační zařízení do jiného tvaru.
+
+00:03:56.260 --> 00:03:59.260
+Používáme ho k předávání informací o rychlosti,
+
+00:03:59.260 --> 00:04:02.260
+ale také instrukcí o tom, jak sešlápnout plyn a brzdu.
+
+00:04:02.260 --> 00:04:04.260
+Tady můžete vidět,
+
+00:04:04.260 --> 00:04:06.260
+jak počítač rozpoznává své okolí.
+
+00:04:06.260 --> 00:04:08.260
+A protože vibrace nejsou vidět,
+
+00:04:08.260 --> 00:04:11.260
+přidělali jsme malé červené žárovičky na řidiče, takže vidíte, co se vlastně děje.
+
+00:04:11.260 --> 00:04:13.260
+Toto jsou data ze senzorů,
+
+00:04:13.260 --> 00:04:16.260
+která jsou přenášena do těchto ovládacích systému prostřednictvím počítače.
+
+00:04:16.260 --> 00:04:18.260
+Takže tyto dva systémy, DriveGrip a SpeedStrip,
+
+00:04:18.260 --> 00:04:20.260
+jsou velice efektivní.
+
+00:04:20.260 --> 00:04:22.260
+Problémem ale zůstává,
+
+00:04:22.260 --> 00:04:24.260
+že se jedná pouze o systémy předávající instrukce.
+
+00:04:24.260 --> 00:04:26.260
+To není skutečná svoboda, že ne?
+
+00:04:26.260 --> 00:04:28.260
+Počítač vám řekne, jak řídit --
+
+00:04:28.260 --> 00:04:30.260
+zatoč vlevo, zatoč vpravo, zrychli, zastav.
+
+00:04:30.260 --> 00:04:32.260
+To je jako mít s sebou spolujezdce.
+
+00:04:32.260 --> 00:04:35.260
+Namísto na systémy, které by jenom předávaly instrukce,
+
+00:04:35.260 --> 00:04:37.260
+se zaměřujeme více
+
+00:04:37.260 --> 00:04:39.260
+na systémy, které předávají informace.
+
+00:04:39.260 --> 00:04:41.260
+Dobrým příkladem právě takového systému
+
+00:04:41.260 --> 00:04:43.260
+je AirPix.
+
+00:04:43.260 --> 00:04:45.260
+Představte si to jako monitor pro nevidomé.
+
+00:04:45.260 --> 00:04:47.260
+Jedná se o malý tablet, který má v sobě díry
+
+00:04:47.260 --> 00:04:49.260
+a vychází z nich stlačený vzduch,
+
+00:04:49.260 --> 00:04:51.260
+takže je to vlastně schopné vytvářet obrazce.
+
+00:04:51.260 --> 00:04:53.260
+Takže i když jste slepý, pokud nad toto položíte svou ruku,
+
+00:04:53.260 --> 00:04:55.260
+uvidíte všechny tratě i překážky na cestě.
+
+00:04:55.260 --> 00:04:58.260
+Ve skutečnosti můžete také změnit frekvenci, s jakou je vzduch vyfukován
+
+00:04:58.260 --> 00:05:00.260
+a nebo také jeho teplotu.
+
+00:05:00.260 --> 00:05:03.260
+Takže se jedná o více úrovňový systém.
+
+00:05:03.260 --> 00:05:06.260
+Tady tedy vidíte levou a pravou kameru na vozidle
+
+00:05:06.260 --> 00:05:09.260
+a to, jak počítač předává tyto informace prostřednictvím AirPix.
+
+00:05:09.260 --> 00:05:11.260
+K tomuto máme i simulátor
+
+00:05:11.260 --> 00:05:14.260
+pro nevidomého člověka, který řídí pomocí AirPix.
+
+00:05:14.260 --> 00:05:17.260
+Tento simulátor byl také velice užitečný při výcviku nevidomých řidičů
+
+00:05:17.260 --> 00:05:19.260
+a také pro rychlé testování dalších nápadů
+
+00:05:19.260 --> 00:05:21.260
+pro jiné ne-vizuální systémy.
+
+00:05:21.260 --> 00:05:23.260
+Takže, takhle to vlastně funguje.
+
+00:05:23.260 --> 00:05:25.260
+Je to měsíc zpátky,
+
+00:05:25.260 --> 00:05:27.260
+29. ledna,
+
+00:05:27.260 --> 00:05:29.260
+kdy jsme toto vozidlo poprvé představili veřejnosti,
+
+00:05:29.260 --> 00:05:32.260
+a to na slavném závodním okruhu Daytona International Speedway
+
+00:05:32.260 --> 00:05:34.260
+během závodu Rolex 24.
+
+00:05:34.260 --> 00:05:37.260
+A měli jsme k tomu také pár překvapení. Pojďme se na to podívat.
+
+00:05:37.260 --> 00:05:47.260
+(Hudba)
+
+00:05:47.260 --> 00:05:51.260
+(Video) Hlasatel: Toto je historický moment
+
+00:05:51.260 --> 00:05:55.260
+Přijíždí před hlavní tribunu.
+
+00:05:55.260 --> 00:06:01.260
+(Ovace)
+
+00:06:01.260 --> 00:06:04.260
+(Troubení)
+
+00:06:04.260 --> 00:06:06.260
+Tady je hlavní tribuna.
+
+00:06:06.260 --> 00:06:10.260
+A on jede za dodávkou, která je před ním.
+
+00:06:10.260 --> 00:06:12.260
+A tady je první krabice.
+
+00:06:12.260 --> 00:06:15.260
+Pojďme se podívat, jestli se jí Mark vyhne.
+
+00:06:15.260 --> 00:06:18.260
+Vyhnul. Objíždí ji zprava.
+
+00:06:20.260 --> 00:06:23.260
+Třetí krabice je ven. Čtvrtá krabice je venku.
+
+00:06:23.260 --> 00:06:26.260
+A on bez nejmenších problémů projíždí mezi nimi.
+
+00:06:26.260 --> 00:06:28.260
+Přibližuje se k dodávce,
+
+00:06:28.260 --> 00:06:31.260
+aby ji mohl předjet.
+
+00:06:32.260 --> 00:06:34.260
+Celé je to vlastně o tomto,
+
+00:06:34.260 --> 00:06:38.260
+ukázka odvahy a vynalézavosti.
+
+00:06:39.260 --> 00:06:42.260
+Už se blíží ke konci,
+
+00:06:42.260 --> 00:06:47.260
+projíždí mezi těmito barely, které jsou na něj nachystané.
+
+00:06:47.260 --> 00:06:50.260
+(Troubení)
+
+00:06:50.260 --> 00:06:53.260
+(Potlesk)
+
+00:06:56.260 --> 00:06:58.260
+Dennis Hong: Jsem z Tebe nadšený.
+
+00:06:58.260 --> 00:07:00.260
+Mark mě dneska odveze zpátky do hotelu.
+
+00:07:00.260 --> 00:07:02.260
+Mark Riccobono: Ano.
+
+00:07:05.260 --> 00:07:14.260
+(Potlesk)
+
+00:07:14.260 --> 00:07:16.260
+DH: Od chvíle, kdy jsme tenhle projekt začali,
+
+00:07:16.260 --> 00:07:19.260
+dostávali jsme stovky dopisů, mailů, telefonátů
+
+00:07:19.260 --> 00:07:21.260
+od lidí po celém světě.
+
+00:07:21.260 --> 00:07:24.260
+Děkovných dopisů, ale také zábavných dopisů jako třeba tenhle:
+
+00:07:24.260 --> 00:07:28.260
+"Teď už rozumím, proč je Braillovo písmo na průjezdním bankomatu."
+
+00:07:28.260 --> 00:07:30.260
+(Smích)
+
+00:07:30.260 --> 00:07:32.260
+Ale občas taky --
+
+00:07:32.260 --> 00:07:34.260
+(Smích)
+
+00:07:34.260 --> 00:07:36.260
+Ale občas taky dostaneme --
+
+00:07:36.260 --> 00:07:38.260
+nenazýval bych je nenávistnými dopisy --
+
+00:07:38.260 --> 00:07:40.260
+ale dopisy s velkými obavami:
+
+00:07:40.260 --> 00:07:42.260
+Dr. Hongu, jste šílený,
+
+00:07:42.260 --> 00:07:44.260
+když se snažíte dostat slepé lidi na cesty?
+
+00:07:44.260 --> 00:07:46.260
+Musíte být úplně mimo."
+
+00:07:46.260 --> 00:07:48.260
+Ale toto auto je jenom prototyp vozu,
+
+00:07:48.260 --> 00:07:50.260
+a na cesty se nedostane,
+
+00:07:50.260 --> 00:07:52.260
+dokud nebude prokázáno za stejně, nebo možná i více, bezpečné jako dnešní vozy.
+
+00:07:52.260 --> 00:07:55.260
+A já skutečně věřím, že toto se stane.
+
+00:07:55.260 --> 00:07:57.260
+Ale stejně, bude společnost
+
+00:07:57.260 --> 00:07:59.260
+ochotná přijmout tak radikální myšlenku?
+
+00:07:59.260 --> 00:08:01.260
+Jak budeme řešit otázku pojistky?
+
+00:08:01.260 --> 00:08:03.260
+Jak budeme vydávat řidičské průkazy?
+
+00:08:03.260 --> 00:08:06.260
+Je spousta takovýchto problémů mimo technologických otázek,
+
+00:08:06.260 --> 00:08:09.260
+které budeme muset vyřešit než se toto vše stane realitou.
+
+00:08:09.260 --> 00:08:11.260
+Samozřejmě, cílem tohoto projektu
+
+00:08:11.260 --> 00:08:13.260
+je vytvořit auto pro nevidomé.
+
+00:08:13.260 --> 00:08:15.260
+Ale možná mnohem důležitější než toto
+
+00:08:15.260 --> 00:08:18.260
+je ten nevyčíslitelný pokrok v technologii,
+
+00:08:18.260 --> 00:08:20.260
+která může vzejít z tohoto projektu.
+
+00:08:20.260 --> 00:08:22.260
+Senzory, které jsou použity, vidí i ve tmě,
+
+00:08:22.260 --> 00:08:24.260
+za mlhy i deště.
+
+00:08:24.260 --> 00:08:26.260
+A spolu s těmito novými systémy
+
+00:08:26.260 --> 00:08:28.260
+můžeme použít tuto technologii
+
+00:08:28.260 --> 00:08:30.260
+a zakomponovat ji do dnešních aut.
+
+00:08:30.260 --> 00:08:33.260
+Nebo pro nevidomé pro každodenní činnosti --
+
+00:08:33.260 --> 00:08:35.260
+ve školách, v kancelářích.
+
+00:08:35.260 --> 00:08:38.260
+Jenom si to představte, ve třídě píše učitel na tabuli
+
+00:08:38.260 --> 00:08:41.260
+a nevidomý student je schopný přečíst, co je tam napsáno,
+
+00:08:41.260 --> 00:08:43.260
+za použití těchto ne-vizuálních systémů.
+
+00:08:43.260 --> 00:08:46.260
+Toto je neocenitelné.
+
+00:08:46.260 --> 00:08:49.260
+Takže dnes, věci, které jsem vám ukázal, jsou zatím pouze začátkem.
+
+00:08:49.260 --> 00:08:51.260
+Děkuji vám.
+
+00:08:51.260 --> 00:09:02.260
+(Potlesk)
+

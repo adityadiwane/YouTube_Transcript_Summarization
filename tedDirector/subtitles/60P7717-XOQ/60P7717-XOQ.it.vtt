@@ -1,0 +1,1439 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:07.000
+Traduttore: Andrea de Carolis
+Revisore: Glauco Garavagno
+
+00:00:16.260 --> 00:00:19.260
+Oggi voglio parlavi di un'idea. È una grande idea.
+
+00:00:19.260 --> 00:00:21.260
+Effettivamente ritengo che
+
+00:00:21.260 --> 00:00:23.260
+potrebbe un giorno essere considerata la più grande singola idea
+
+00:00:23.260 --> 00:00:25.260
+che è emersa nel secolo passato.
+
+00:00:25.260 --> 00:00:27.260
+È l'idea del calcolo.
+
+00:00:27.260 --> 00:00:29.260
+Certamente questa idea ci ha portato
+
+00:00:29.260 --> 00:00:32.260
+tutta la tecnologia dei computer che oggi abbiamo e così via.
+
+00:00:32.260 --> 00:00:35.260
+Ma nel calcolo c'è molto più di questo.
+
+00:00:35.260 --> 00:00:38.260
+È in realtà un'idea veramente basilare, profonda e potente
+
+00:00:38.260 --> 00:00:41.260
+I cui effetti si cominciano appena a vedere
+
+00:00:41.260 --> 00:00:44.260
+Ebbene io stesso ho speso gli ultimi 30 anni
+
+00:00:44.260 --> 00:00:46.260
+lavorando su tre grandi progetti
+
+00:00:46.260 --> 00:00:49.260
+che cercano di prendere l'idea del calcolo veramente sul serio.
+
+00:00:50.260 --> 00:00:53.260
+Ho iniziato in giovane età come fisico
+
+00:00:53.260 --> 00:00:55.260
+ad utilizzare i computer come strumenti.
+
+00:00:55.260 --> 00:00:57.260
+Poi ho iniziato ad approfondire il concetto
+
+00:00:57.260 --> 00:00:59.260
+pensando ai tipi di calcoli che avrei voluto poter fare,
+
+00:00:59.260 --> 00:01:02.260
+provando ad immaginare da quali primitive questi sarebbero potuti essere costruiti
+
+00:01:02.260 --> 00:01:05.260
+e come sarebbero potuti essere automatizzati il più possibile.
+
+00:01:05.260 --> 00:01:07.260
+Di conseguenza ho creato un'intera struttura
+
+00:01:07.260 --> 00:01:09.260
+basata sulla programmazione simbolica
+
+00:01:09.260 --> 00:01:11.260
+che mi ha consentito di costruire “Mathematica”.
+
+00:01:11.260 --> 00:01:13.260
+E per gli ultimi 23 anni, a tasso crescente,
+
+00:01:13.260 --> 00:01:15.260
+abbiamo continuato a instillare sempre più idee,
+
+00:01:15.260 --> 00:01:17.260
+capacità e quant'altro in “Mathematica”.
+
+00:01:17.260 --> 00:01:20.260
+Sono soddisfatto di poter dire che questo ha portato molte cose buone
+
+00:01:20.260 --> 00:01:22.260
+in campi come la ricerca e sviluppo, nella scuola
+
+00:01:22.260 --> 00:01:24.260
+e in molte altre aree.
+
+00:01:24.260 --> 00:01:26.260
+Bene devo ammettere
+
+00:01:26.260 --> 00:01:29.260
+che ho avuto anche una ragione del tutto personale per costruire “Mathematica”.
+
+00:01:29.260 --> 00:01:31.260
+Volevo usarla per me,
+
+00:01:31.260 --> 00:01:33.260
+un po' come Galileo usò il suo telescopio
+
+00:01:33.260 --> 00:01:35.260
+400 anni fa.
+
+00:01:35.260 --> 00:01:38.260
+Ma volevo guardare non verso l'universo astronomico
+
+00:01:38.260 --> 00:01:41.260
+ma verso l'universo computazionale.
+
+00:01:41.260 --> 00:01:43.260
+Di solito pensiamo ai programmi come
+
+00:01:43.260 --> 00:01:45.260
+cose complesse che costruiamo
+
+00:01:45.260 --> 00:01:47.260
+per scopi molto specifici.
+
+00:01:47.260 --> 00:01:50.260
+Ma cosa dire dello spazio di tutti i possibili programmi?
+
+00:01:50.260 --> 00:01:53.260
+Ecco qui la rappresentazione di un programma molto semplice.
+
+00:01:53.260 --> 00:01:55.260
+Ecco, se eseguiamo questo programma,
+
+00:01:55.260 --> 00:01:57.260
+ecco quello che otteniamo.
+
+00:01:57.260 --> 00:01:59.260
+Molto semplice vero?
+
+00:01:59.260 --> 00:02:01.260
+Allora proviamo a cambiare la regola
+
+00:02:01.260 --> 00:02:03.260
+di questo programma solo un po'.
+
+00:02:03.260 --> 00:02:05.260
+Ora otteniamo un altro risultato,
+
+00:02:05.260 --> 00:02:07.260
+comunque molto semplice.
+
+00:02:07.260 --> 00:02:10.260
+Proviamo a cambiarla ancora.
+
+00:02:10.260 --> 00:02:12.260
+Ora si ottiene qualcosa di un po' più complicato
+
+00:02:12.260 --> 00:02:14.260
+ma se continuiamo a farlo andare per un po'
+
+00:02:14.260 --> 00:02:17.260
+troviamo che, sebbene il pattern che otteniamo sia molto intricato,
+
+00:02:17.260 --> 00:02:20.260
+ha una struttura molto regolare.
+
+00:02:20.260 --> 00:02:23.260
+Quindi la domanda è: può accadere qualcos'altro?
+
+00:02:23.260 --> 00:02:25.260
+Bene, possiamo fare un piccolo esperimento.
+
+00:02:25.260 --> 00:02:28.260
+Facciamo giusto un piccolo esperimento di matematica, proviamo a scoprirlo.
+
+00:02:29.260 --> 00:02:32.260
+Eseguiamo tutti i possibili programmi
+
+00:02:32.260 --> 00:02:34.260
+del particolare tipo che stiamo analizzando.
+
+00:02:34.260 --> 00:02:36.260
+Sono chiamati "automi cellulari".
+
+00:02:36.260 --> 00:02:38.260
+Si possono vedere un sacco di comportamenti differenti.
+
+00:02:38.260 --> 00:02:40.260
+Molti fanno cose molto semplici.
+
+00:02:40.260 --> 00:02:42.260
+Ma se si osservano tutte le varie immagini,
+
+00:02:42.260 --> 00:02:44.260
+in corrispondenza della regola numero 30,
+
+00:02:44.260 --> 00:02:46.260
+si inizia a notare che accade qualcosa di interessante.
+
+00:02:46.260 --> 00:02:48.260
+Dunque, diamo un'occhiata più da vicino
+
+00:02:48.260 --> 00:02:50.260
+alla regola numero 30.
+
+00:02:50.260 --> 00:02:52.260
+Eccola qua.
+
+00:02:52.260 --> 00:02:55.260
+Stiamo semplicemente seguendo questa semplicissima regola descritta nella parte inferiore della figura.
+
+00:02:55.260 --> 00:02:57.260
+ma otteniamo tutte queste cose sorprendenti.
+
+00:02:57.260 --> 00:02:59.260
+Non è affatto ciò a cui siamo abituati
+
+00:02:59.260 --> 00:03:01.260
+e devo dire che quando vidi queste cose per la prima volta,
+
+00:03:01.260 --> 00:03:04.260
+colpirono molto il mio intuito
+
+00:03:04.260 --> 00:03:06.260
+e, in effetti, per comprenderle,
+
+00:03:06.260 --> 00:03:08.260
+ho successivamente dovuto creare
+
+00:03:08.260 --> 00:03:10.260
+un tipo di scienza totalmente nuovo.
+
+00:03:11.260 --> 00:03:13.260
+(Risate)
+
+00:03:13.260 --> 00:03:16.260
+Questa scienza è differente, più generale
+
+00:03:16.260 --> 00:03:18.260
+della scienza basata sulla matematica che abbiamo
+
+00:03:18.260 --> 00:03:21.260
+avuto per gli ultimi 300 anni circa.
+
+00:03:21.260 --> 00:03:23.260
+Sapete, è sempre sembrato una sorta di grande mistero
+
+00:03:23.260 --> 00:03:26.260
+il modo in cui la natura, apparentemente senza nessuno sforzo,
+
+00:03:26.260 --> 00:03:28.260
+sia in grado di produrre così tante cose
+
+00:03:28.260 --> 00:03:31.260
+che ci sembrano complesse.
+
+00:03:31.260 --> 00:03:34.260
+Ebbene, io ritengo che abbiamo trovato il suo segreto.
+
+00:03:34.260 --> 00:03:37.260
+Sta solamente raccogliendo campioni da ciò che è li fuori nell'universo computazionale
+
+00:03:37.260 --> 00:03:40.260
+ottenendo molto spesso cose come la regola 30
+
+00:03:40.260 --> 00:03:43.260
+o come questo.
+
+00:03:44.260 --> 00:03:46.260
+E sapendo queste cose, si inizia a dare una spiegazione
+
+00:03:46.260 --> 00:03:49.260
+a numerosi misteri di lunga data nella scienza.
+
+00:03:49.260 --> 00:03:51.260
+Ma evidenzia anche nuovi problemi
+
+00:03:51.260 --> 00:03:54.260
+come l'irriducibilità computazionale.
+
+00:03:54.260 --> 00:03:57.260
+Siamo abituati al fatto che la scienza sia in grado di predire i fenomeni
+
+00:03:57.260 --> 00:03:59.260
+ma qualcosa come questo
+
+00:03:59.260 --> 00:04:01.260
+è fondamentalmente irriducibile.
+
+00:04:01.260 --> 00:04:03.260
+L'unico modo di trovare i suoi risultati
+
+00:04:03.260 --> 00:04:06.260
+è, in pratica, proprio guardarlo mentre evolve.
+
+00:04:06.260 --> 00:04:08.260
+Questo è connesso a ciò che io chiamo
+
+00:04:08.260 --> 00:04:10.260
+il principio di equivalenza computazionale,
+
+00:04:10.260 --> 00:04:13.260
+che ci dice che anche sistemi incredibilmente semplici
+
+00:04:13.260 --> 00:04:16.260
+possono fare calcoli sofisticatissimi.
+
+00:04:16.260 --> 00:04:19.260
+Non serve tanta tecnologia o un elevato livello di evoluzione biologica
+
+00:04:19.260 --> 00:04:21.260
+per essere in grado di fare calcoli di qualsiasi tipo,
+
+00:04:21.260 --> 00:04:23.260
+è solamente qualcosa che succede, naturalmente,
+
+00:04:23.260 --> 00:04:25.260
+ovunque.
+
+00:04:25.260 --> 00:04:28.260
+Cose con regole semplici come queste lo possono fare.
+
+00:04:29.260 --> 00:04:31.260
+Ebbene, questo ha implicazioni profonde
+
+00:04:31.260 --> 00:04:33.260
+circa i limiti della scienza,
+
+00:04:33.260 --> 00:04:35.260
+riguardo alla predicibilità e alla regolazione
+
+00:04:35.260 --> 00:04:38.260
+di cose come i processi biologici o le economie,
+
+00:04:38.260 --> 00:04:40.260
+riguardo all'intelligenza nell'universo
+
+00:04:40.260 --> 00:04:42.260
+riguardo questioni come il libero arbitrio
+
+00:04:42.260 --> 00:04:45.260
+e riguardo al creare tecnologia.
+
+00:04:45.260 --> 00:04:47.260
+Lavorando a questa scienza per molti anni,
+
+00:04:47.260 --> 00:04:49.260
+mi sono spesso domandato:
+
+00:04:49.260 --> 00:04:51.260
+"Quale sarà la sua prima killer application?"
+
+00:04:51.260 --> 00:04:53.260
+Beh, già da quando ero un ragazzo,
+
+00:04:53.260 --> 00:04:55.260
+ho pensato sempre a come sistematizzare la conoscenza
+
+00:04:55.260 --> 00:04:57.260
+per renderla in qualche modo calcolabile.
+
+00:04:57.260 --> 00:04:59.260
+Persone come Leibniz hanno ragionato su questo argomento già
+
+00:04:59.260 --> 00:05:01.260
+300 anni prima.
+
+00:05:01.260 --> 00:05:03.260
+Ma ho sempre dato per scontato che per fare progressi,
+
+00:05:03.260 --> 00:05:06.260
+avrei in sostanza dovuto replicare un intero cervello.
+
+00:05:06.260 --> 00:05:08.260
+Ebbene sono arrivato a pensare:
+
+00:05:08.260 --> 00:05:11.260
+questo mio paradigma scientifico suggerisce qualcosa di differente.
+
+00:05:11.260 --> 00:05:13.260
+E comunque ora ho enormi
+
+00:05:13.260 --> 00:05:16.260
+capacità di calcolo in Mathematica,
+
+00:05:16.260 --> 00:05:19.260
+e sono un CEO (Chief Executive Officier – Direttore) con discrete risorse a livello mondiale
+
+00:05:19.260 --> 00:05:22.260
+per realizzare progetti vasti e apparentemente folli.
+
+00:05:22.260 --> 00:05:24.260
+Cosi ho deciso di tentare di vedere
+
+00:05:24.260 --> 00:05:27.260
+quanto della conoscenza sistematica che è in giro nel mondo
+
+00:05:27.260 --> 00:05:29.260
+potesse essere resa calcolabile.
+
+00:05:29.260 --> 00:05:31.260
+È stato un progetto veramente grande e complesso,
+
+00:05:31.260 --> 00:05:34.260
+del quale non avevo idea se avesse mai potuto funzionare.
+
+00:05:34.260 --> 00:05:37.260
+Ma sono contento di dire che in effetti sta andando veramente bene.
+
+00:05:37.260 --> 00:05:39.260
+E l'anno scorso siamo stati in grado
+
+00:05:39.260 --> 00:05:41.260
+di rilasciare la prima versione
+
+00:05:41.260 --> 00:05:43.260
+di Wolfram Alpha come sito web.
+
+00:05:43.260 --> 00:05:46.260
+Il suo scopo è quello di essere un vero e proprio motore di ricerca per la conoscenza
+
+00:05:46.260 --> 00:05:49.260
+in grado di calcolare le risposte alle domande.
+
+00:05:49.260 --> 00:05:51.260
+Proviamolo.
+
+00:05:51.260 --> 00:05:53.260
+Iniziamo da qualcosa di veramente semplice.
+
+00:05:53.260 --> 00:05:55.260
+Speriamo bene.
+
+00:05:55.260 --> 00:05:57.260
+Molto bene, Okay.
+
+00:05:57.260 --> 00:05:59.260
+Fin qui tutto funziona.
+
+00:05:59.260 --> 00:06:02.260
+(Risate)
+
+00:06:02.260 --> 00:06:05.260
+Proviamo qualcosa di più tosto.
+
+00:06:05.260 --> 00:06:07.260
+Diciamo....
+
+00:06:07.260 --> 00:06:10.260
+Proviamo a fare qualche cosa di matematico
+
+00:06:10.260 --> 00:06:13.260
+e con un po' di fortuna elaborerà la risposta
+
+00:06:13.260 --> 00:06:15.260
+e proverà a dirci un po' di cose interessanti
+
+00:06:15.260 --> 00:06:17.260
+riguardo ai relativi passaggi matematci.
+
+00:06:17.260 --> 00:06:20.260
+Possiamo chiedergli qualcosa sul mondo reale.
+
+00:06:20.260 --> 00:06:22.260
+Diciamo - non saprei -
+
+00:06:22.260 --> 00:06:25.260
+qual'è il prodotto nazionale lordo della Spagna?
+
+00:06:25.260 --> 00:06:27.260
+E dovrebbe essere in grado di dircelo.
+
+00:06:27.260 --> 00:06:29.260
+Ora possiamo provare a calcolare qualcosa di correlato,
+
+00:06:29.260 --> 00:06:31.260
+diciamo il prodotto interno lordo della Spagna
+
+00:06:31.260 --> 00:06:33.260
+diviso, non saprei,
+
+00:06:33.260 --> 00:06:35.260
+il....
+
+00:06:35.260 --> 00:06:37.260
+diciamo diviso i ricavi di Microsoft.
+
+00:06:37.260 --> 00:06:39.260
+(Risate)
+
+00:06:39.260 --> 00:06:41.260
+L'idea è che possiamo digitare
+
+00:06:41.260 --> 00:06:44.260
+questo tipo di domande come ci pare.
+
+00:06:44.260 --> 00:06:46.260
+Proviamo a fargli una domanda,
+
+00:06:46.260 --> 00:06:48.260
+relativa ad esempio alla sanità.
+
+00:06:48.260 --> 00:06:51.260
+Diciamo che abbiamo delle analisi di laboratorio
+
+00:06:51.260 --> 00:06:53.260
+in cui abbiamo un livello LDL di 140
+
+00:06:53.260 --> 00:06:56.260
+per un maschio di 50 anni.
+
+00:06:56.260 --> 00:06:58.260
+Proviamo a scriverlo, ed ora Wolfram Alpha
+
+00:06:58.260 --> 00:07:00.260
+andrà ad usare i dati disponibili sulla salute pubblica
+
+00:07:00.260 --> 00:07:02.260
+e proverà ad indovinare
+
+00:07:02.260 --> 00:07:05.260
+a quale parte della popolazione corrisponde e cosi via.
+
+00:07:05.260 --> 00:07:08.260
+Oppure proviamo a chiedergli, non saprei,
+
+00:07:08.260 --> 00:07:10.260
+della Stazione Spaziale Internazionale (ISS).
+
+00:07:10.260 --> 00:07:12.260
+Quello che sta accadendo è che
+
+00:07:12.260 --> 00:07:14.260
+Wolfram Alpha non sta solo cercando qualcosa;
+
+00:07:14.260 --> 00:07:17.260
+sta calcolando, in tempo reale,
+
+00:07:17.260 --> 00:07:20.260
+dove si trova la Stazione Spaziale Internazionale proprio in questo momento
+
+00:07:20.260 --> 00:07:23.260
+a che velocità si sta spostando e cosi via.
+
+00:07:24.260 --> 00:07:27.260
+Dunque, Wolfram Alpha conosce molte e molti tipi di cose.
+
+00:07:27.260 --> 00:07:29.260
+Al momento ha
+
+00:07:29.260 --> 00:07:31.260
+una buona copertura su qualsiasi cosa si possa trovare
+
+00:07:31.260 --> 00:07:34.260
+in un una tipica biblioteca di riferimento e cosi via.
+
+00:07:34.260 --> 00:07:36.260
+Ma l'obiettivo è di spingersi molto più avanti
+
+00:07:36.260 --> 00:07:39.260
+e, in senso lato, di rendere accessibile a tutti
+
+00:07:39.260 --> 00:07:42.260
+tutto questo tipo di conoscenza,
+
+00:07:42.260 --> 00:07:44.260
+E provare a diventare una fonte
+
+00:07:44.260 --> 00:07:46.260
+autorevole in tutti i campi,
+
+00:07:46.260 --> 00:07:49.260
+essere in grado di calcolare risposte alle domande specifiche della gente,
+
+00:07:49.260 --> 00:07:51.260
+Senza cercare quello che altre persone
+
+00:07:51.260 --> 00:07:53.260
+possano aver scritto precedentemente su quelle cose,
+
+00:07:53.260 --> 00:07:55.260
+Ma utilizzando la conoscenza acquisita
+
+00:07:55.260 --> 00:07:58.260
+per calcolare risposte nuove e fresche a domande specifiche.
+
+00:07:58.260 --> 00:08:00.260
+Ora, certamente Wolfram Alpha
+
+00:08:00.260 --> 00:08:02.260
+è un progetto a lungo termine e di dimensioni monumentali,
+
+00:08:02.260 --> 00:08:04.260
+con molte e molte sfide.
+
+00:08:04.260 --> 00:08:07.260
+Tanto per cominciare è necessario curare un'infinità
+
+00:08:07.260 --> 00:08:10.260
+di fonti diverse di fatti e dati,
+
+00:08:10.260 --> 00:08:13.260
+E per fare questo abbiamo costruito una sorta di collegamento tra l'automazione di Mathematica
+
+00:08:13.260 --> 00:08:16.260
+e gli esperti del dominio umano.
+
+00:08:16.260 --> 00:08:18.260
+Ma questo è solo l'inizio.
+
+00:08:18.260 --> 00:08:20.260
+Dati i fatti o i dati grezzi
+
+00:08:20.260 --> 00:08:22.260
+per rispondere effettivamente alle domande,
+
+00:08:22.260 --> 00:08:24.260
+è necessario il calcolo,
+
+00:08:24.260 --> 00:08:26.260
+è necessario implementare tutti quei metodi, i modelli,
+
+00:08:26.260 --> 00:08:28.260
+gli algoritmi e le altre cose
+
+00:08:28.260 --> 00:08:31.260
+che la scienza e le altre aree hanno costruito nei secoli.
+
+00:08:31.260 --> 00:08:34.260
+Bene, anche partendo da Mathematica,
+
+00:08:34.260 --> 00:08:36.260
+è in ogni caso un'enorme quantità di lavoro.
+
+00:08:36.260 --> 00:08:38.260
+Finora, ci sono circa 8 milioni di linee
+
+00:08:38.260 --> 00:08:40.260
+di codice di Mathematica in Wolfram Alpha
+
+00:08:40.260 --> 00:08:43.260
+costruite da esperti di moltissimi campi differenti.
+
+00:08:43.260 --> 00:08:46.260
+Ebbene, un'idea centrale di Wolfram Alpha
+
+00:08:46.260 --> 00:08:48.260
+è che gli si possa direttamente porre le domande
+
+00:08:48.260 --> 00:08:51.260
+utilizzando un ordinario linguaggio umano,
+
+00:08:51.260 --> 00:08:53.260
+che significa che dobbiamo essere in grado di prendere
+
+00:08:53.260 --> 00:08:56.260
+tutte quelle strane espressioni che la gente digita nella casella di input
+
+00:08:56.260 --> 00:08:58.260
+e capirle.
+
+00:08:58.260 --> 00:09:00.260
+E devo dire che pensavo che questo ostacolo
+
+00:09:00.260 --> 00:09:03.260
+sarebbe stato semplicemente insormontabile.
+
+00:09:04.260 --> 00:09:06.260
+Ma poi sono successe due cose importanti.
+
+00:09:06.260 --> 00:09:09.260
+Dapprima un gruppo di idee nuove sulla linguistica
+
+00:09:09.260 --> 00:09:12.260
+che sono arrivate dallo studio dell'universo computazionale.
+
+00:09:12.260 --> 00:09:15.260
+Successivamente, l'aver compreso che avere a disposizione della vera conoscenza calcolabile
+
+00:09:15.260 --> 00:09:17.260
+cambia completamente il modo in cui si può
+
+00:09:17.260 --> 00:09:20.260
+approcciare la compresione del linguaggio.
+
+00:09:20.260 --> 00:09:22.260
+E certamente, adesso
+
+00:09:22.260 --> 00:09:24.260
+con Wolfram Alpha lì fuori, disponibile a tutti,
+
+00:09:24.260 --> 00:09:26.260
+possiamo imparare dal suo effettivo utilizzo.
+
+00:09:26.260 --> 00:09:28.260
+E infatti c'è stata
+
+00:09:28.260 --> 00:09:30.260
+una interessante co-evoluzione che è andata avanti
+
+00:09:30.260 --> 00:09:32.260
+tra Wolfram Alpha
+
+00:09:32.260 --> 00:09:34.260
+ed i suoi utenti umani.
+
+00:09:34.260 --> 00:09:36.260
+Questo è veramente incoraggiante.
+
+00:09:36.260 --> 00:09:38.260
+Proprio ora, se analizziamo le query web,
+
+00:09:38.260 --> 00:09:41.260
+più dell'80 percento sono gestite correttamente al primo colpo.
+
+00:09:41.260 --> 00:09:43.260
+E se si analizzano cose come l'app per iPhone,
+
+00:09:43.260 --> 00:09:45.260
+la percentuale è significativamente maggiore.
+
+00:09:45.260 --> 00:09:47.260
+Sono piuttosto contento di tutto ciò.
+
+00:09:47.260 --> 00:09:49.260
+Ma, per certi aspetti,
+
+00:09:49.260 --> 00:09:52.260
+siamo ancora ai primordi con Wolfram Alpha.
+
+00:09:52.260 --> 00:09:54.260
+Voglio dire che ogni cosa sta crescendo bene.
+
+00:09:54.260 --> 00:09:56.260
+Stiamo diventando più sicuri.
+
+00:09:56.260 --> 00:09:58.260
+Potete aspettarvi di vedere che la tecnologia di Wolfram Alpha
+
+00:09:58.260 --> 00:10:00.260
+salterà fuori in sempre più occasioni,
+
+00:10:00.260 --> 00:10:03.260
+per essere utilizzata sia con questo tipo di dati pubblici, come sul sito web,
+
+00:10:03.260 --> 00:10:05.260
+sia con conoscenza privata
+
+00:10:05.260 --> 00:10:08.260
+di persone o di aziende.
+
+00:10:08.260 --> 00:10:11.260
+Sapete, io mi sono reso conto che Wolfram Alpha mette effettivamente
+
+00:10:11.260 --> 00:10:13.260
+a disposizione un tipo di calcolo del tutto nuovo
+
+00:10:13.260 --> 00:10:15.260
+che si può chiamare calcolo basato sulla conoscenza,
+
+00:10:15.260 --> 00:10:18.260
+in cui si parte non dal mero calcolo,
+
+00:10:18.260 --> 00:10:21.260
+ma dalla enorme quantità di conoscenza integrata.
+
+00:10:21.260 --> 00:10:23.260
+E quando si fa questo, si cambia veramente
+
+00:10:23.260 --> 00:10:26.260
+l'economia del fornire quelle cose che hanno a che fare con il calcolo,
+
+00:10:26.260 --> 00:10:28.260
+sia che siano sul web che altrove.
+
+00:10:28.260 --> 00:10:31.260
+Sapete, al momento abbiamo una situazione piuttosto interessante.
+
+00:10:31.260 --> 00:10:33.260
+Da una parte abbiamo Mathematica,
+
+00:10:33.260 --> 00:10:36.260
+con il suo linguaggio piuttosto preciso e formale
+
+00:10:36.260 --> 00:10:38.260
+e con una enorme rete
+
+00:10:38.260 --> 00:10:40.260
+di funzionalità progettate con cura
+
+00:10:40.260 --> 00:10:43.260
+in grado di realizzare molto con pochissime linee di codice.
+
+00:10:43.260 --> 00:10:46.260
+Lasciate che vi mostri un paio di esempi.
+
+00:10:47.260 --> 00:10:50.260
+Ecco un semplicissimo frammento di programmazione in Mathematica.
+
+00:10:51.260 --> 00:10:53.260
+Ecco qualcosa in cui abbiamo
+
+00:10:53.260 --> 00:10:56.260
+integrato un bel po' di funzionalità differenti.
+
+00:10:56.260 --> 00:10:59.260
+Qui creiamo con questa linea di codice
+
+00:10:59.260 --> 00:11:02.260
+una piccola interfaccia utente che ci consente
+
+00:11:02.260 --> 00:11:04.260
+di fare queste cosette divertenti.
+
+00:11:05.260 --> 00:11:07.260
+Se vogliamo proseguire, questo è un programma leggermente più complicato
+
+00:11:07.260 --> 00:11:10.260
+che ora sta facendo varie cose a livello di algoritmi
+
+00:11:10.260 --> 00:11:12.260
+e crea un'interfaccia utente.
+
+00:11:12.260 --> 00:11:15.260
+Ma è in ogni caso qualcosa che fa delle cose molto ben definite.
+
+00:11:15.260 --> 00:11:18.260
+è una definizione precisa con un preciso linguaggio formale
+
+00:11:18.260 --> 00:11:21.260
+che fa si che Mathematica sappia cosa fare in questi casi.
+
+00:11:21.260 --> 00:11:24.260
+Ebbene, dall'altra parte abbiamo Wolfram Alpha,
+
+00:11:24.260 --> 00:11:26.260
+con ogni tipo di confusione al mondo
+
+00:11:26.260 --> 00:11:28.260
+e che integra cose come il linguaggio umano.
+
+00:11:28.260 --> 00:11:31.260
+E cosa accade quando si mettono insieme queste cose?
+
+00:11:31.260 --> 00:11:33.260
+Penso sia in effetti piuttosto meraviglioso.
+
+00:11:33.260 --> 00:11:35.260
+Con Wolfram Alpha integrato all'interno di Mathematica,
+
+00:11:35.260 --> 00:11:37.260
+è possibile, per esempio, fare un programma preciso
+
+00:11:37.260 --> 00:11:39.260
+che fa riferimento a dati dal mondo reale.
+
+00:11:39.260 --> 00:11:41.260
+Ecco un esempio molto semplice.
+
+00:11:44.260 --> 00:11:47.260
+Si può anche provare a dare un input generico
+
+00:11:47.260 --> 00:11:49.260
+e poi provare a far si che Wolfram Alpha
+
+00:11:49.260 --> 00:11:51.260
+capisca di cosa si sta parlando.
+
+00:11:51.260 --> 00:11:53.260
+Proviamo questa qui.
+
+00:11:53.260 --> 00:11:56.260
+Ma effettivamente penso che una delle conseguenze più eccitanti di tutto questo
+
+00:11:56.260 --> 00:11:58.260
+sia il fatto di poter avere veramente la possibilità
+
+00:11:58.260 --> 00:12:01.260
+di rendere la programmazione accessibile a tutti.
+
+00:12:01.260 --> 00:12:04.260
+Voglio dire, chiunque sarà in grado di esprimere quello di cui ha bisogno per mezzo del semplice linguaggio,
+
+00:12:04.260 --> 00:12:07.260
+quindi l'idea è che Wolfram Alpha sarà in grado di individuare
+
+00:12:07.260 --> 00:12:09.260
+quali sono i corretti pezzi di codice
+
+00:12:09.260 --> 00:12:11.260
+che possono realizzare ciò che viene richiesto
+
+00:12:11.260 --> 00:12:14.260
+e che potrà mostrare degli esempi da cui si potrà prendere ciò di cui si ha bisogno
+
+00:12:14.260 --> 00:12:17.260
+per costruire programmi puntuali sempre più grandi.
+
+00:12:17.260 --> 00:12:19.260
+Così, talvolta, Wolfram Alpha
+
+00:12:19.260 --> 00:12:21.260
+sarà in grado di completare tutto immediatamente
+
+00:12:21.260 --> 00:12:24.260
+e restituire un intero programma da utilizzare per farci i calcoli.
+
+00:12:24.260 --> 00:12:26.260
+Ed ecco qui un gran sito web
+
+00:12:26.260 --> 00:12:29.260
+dove abbiamo raccolto un sacco di dimostrazioni
+
+00:12:29.260 --> 00:12:32.260
+a scopo di dattico e non solo su molti tipi di cose.
+
+00:12:32.260 --> 00:12:35.260
+Bene, non saprei, vi mostrò un esempio, forse questo.
+
+00:12:36.260 --> 00:12:39.260
+Questo è solo un esempio di uno di questi documenti calcolabili.
+
+00:12:39.260 --> 00:12:41.260
+è probabilmente un piccolo
+
+00:12:41.260 --> 00:12:43.260
+pezzo di codice di Mathematica
+
+00:12:43.260 --> 00:12:45.260
+che è in grado di girare qui.
+
+00:12:47.260 --> 00:12:50.260
+Okay. Torniamo ad una vista d'insieme.
+
+00:12:50.260 --> 00:12:52.260
+Dunque, dato il nostro nuovo tipo di scienza,
+
+00:12:52.260 --> 00:12:55.260
+esiste un modo in generale per utilizzarlo per costruire tecnologia?
+
+00:12:55.260 --> 00:12:57.260
+Per i materiali fisici,
+
+00:12:57.260 --> 00:12:59.260
+siamo abituati tipo ad andare in giro per il mondo
+
+00:12:59.260 --> 00:13:01.260
+e scoprire che un particolare materiale
+
+00:13:01.260 --> 00:13:03.260
+è utile per un particolare
+
+00:13:03.260 --> 00:13:05.260
+fine tecnologico.
+
+00:13:05.260 --> 00:13:07.260
+Ebbene, a quanto pare, possiamo fare proprio la stessa cosa
+
+00:13:07.260 --> 00:13:09.260
+nell'universo computazionale.
+
+00:13:09.260 --> 00:13:12.260
+Là fuori c'è una riserva inesauribile di programmi.
+
+00:13:12.260 --> 00:13:14.260
+La sfida è di vedere come
+
+00:13:14.260 --> 00:13:16.260
+sfruttarli per gli interessi umani.
+
+00:13:16.260 --> 00:13:18.260
+Qualcosa come la regola 30, per esempio,
+
+00:13:18.260 --> 00:13:20.260
+sembra essere un generatore di numeri casuali piuttosto buono.
+
+00:13:20.260 --> 00:13:22.260
+Altri programmi molto semplici modellizzano bene
+
+00:13:22.260 --> 00:13:25.260
+processi del mondo naturale o sociale.
+
+00:13:25.260 --> 00:13:27.260
+E, per esempio, Wolfram Alpha e Mathematica
+
+00:13:27.260 --> 00:13:29.260
+sono effettivamente già pieni di algoritmi
+
+00:13:29.260 --> 00:13:32.260
+che abbiamo scoperto perlustrando l'universo computazionale.
+
+00:13:33.260 --> 00:13:36.260
+E, per esempio, questo - siamo ritornati qui -
+
+00:13:37.260 --> 00:13:39.260
+questo è diventato sorprendentemente popolare
+
+00:13:39.260 --> 00:13:41.260
+tra i compositori
+
+00:13:41.260 --> 00:13:44.260
+potendo trovare forme musicali perlustrando l'universo computazionale.
+
+00:13:45.260 --> 00:13:47.260
+In un certo senso, possiamo usare l'universo computazionale
+
+00:13:47.260 --> 00:13:50.260
+per ottenere creatività di massa per uno scopo specifico.
+
+00:13:50.260 --> 00:13:52.260
+Spero, per esempio, che possiamo
+
+00:13:52.260 --> 00:13:54.260
+utilizzarlo persino per far si che Wolfram Alpha
+
+00:13:54.260 --> 00:13:57.260
+possa automaticamente fare invenzioni e scoperte al volo
+
+00:13:57.260 --> 00:13:59.260
+e che possa trovare ogni tipo di cose straordinarie
+
+00:13:59.260 --> 00:14:01.260
+che nessun ingegnere
+
+00:14:01.260 --> 00:14:04.260
+e che nessun processo di evoluzione incrementale potrebbe mai far saltar fuori.
+
+00:14:05.260 --> 00:14:08.260
+Ebbene, questo ci porta a una domanda fondamentale.
+
+00:14:08.260 --> 00:14:11.260
+Che sia possibile che da qualche parte li fuori nell'universo computazionale
+
+00:14:11.260 --> 00:14:14.260
+ci sia il nostro universo fisico?
+
+00:14:14.260 --> 00:14:16.260
+Forse c'è persino qualche regola piuttosto semplice,
+
+00:14:16.260 --> 00:14:19.260
+qualche semplice programma per il nostro universo.
+
+00:14:19.260 --> 00:14:21.260
+Ebbene, la storia della fisica ci porterebbe a credere
+
+00:14:21.260 --> 00:14:24.260
+che la regola per l'universo dovrebbe essere piuttosto complicata.
+
+00:14:24.260 --> 00:14:26.260
+Ma nell'universo computazionale
+
+00:14:26.260 --> 00:14:29.260
+come abbiamo visto ora ci sono regole che sono incredibilmente semplici
+
+00:14:29.260 --> 00:14:32.260
+e che possono produrre comportamenti incredibilmente ricchi e complessi.
+
+00:14:32.260 --> 00:14:35.260
+E quindi potrebbe essere proprio questo che sta succedendo con il nostro universo?
+
+00:14:36.260 --> 00:14:38.260
+Se le regole per l'universo sono semplici,
+
+00:14:38.260 --> 00:14:40.260
+è in qualche modo inevitabile che siano
+
+00:14:40.260 --> 00:14:42.260
+molto astratte e veramente di basso livello,
+
+00:14:42.260 --> 00:14:44.260
+e che operino, per esempio, molto al di sotto
+
+00:14:44.260 --> 00:14:46.260
+del livello dello spazio o del tempo,
+
+00:14:46.260 --> 00:14:48.260
+che rende le cose difficili da rappresentare.
+
+00:14:48.260 --> 00:14:50.260
+Ma, almeno in una larga classe di situazioni,
+
+00:14:50.260 --> 00:14:52.260
+si può pensare che l'universo sia
+
+00:14:52.260 --> 00:14:54.260
+come una specie di network,
+
+00:14:54.260 --> 00:14:56.260
+che, quando diventa abbastanza grande,
+
+00:14:56.260 --> 00:14:58.260
+si comporta come uno spazio continuo
+
+00:14:58.260 --> 00:15:00.260
+nello stesso modo in cui quando si hanno molte molecole
+
+00:15:00.260 --> 00:15:02.260
+queste si comportano come un fluido continuo.
+
+00:15:02.260 --> 00:15:05.260
+Bene, quindi l'universo si deve evolvere applicando
+
+00:15:05.260 --> 00:15:08.260
+piccole regole che progressivamente aggiornano questo network.
+
+00:15:08.260 --> 00:15:10.260
+Ed ogni possibile regola, in un certo senso,
+
+00:15:10.260 --> 00:15:12.260
+corrisponde ad un universo candidato.
+
+00:15:12.260 --> 00:15:15.260
+In effetti, non ho mostrato questi prima,
+
+00:15:16.260 --> 00:15:19.260
+ma ecco qui alcuni degli universi candidati
+
+00:15:19.260 --> 00:15:21.260
+a cui ho dedicato la mia attenzione.
+
+00:15:21.260 --> 00:15:23.260
+Alcuni di questi universi sono senza speranza,
+
+00:15:23.260 --> 00:15:25.260
+completamente sterili,
+
+00:15:25.260 --> 00:15:27.260
+con malattie come l'assenza di nozione dello spazio
+
+00:15:27.260 --> 00:15:30.260
+o del tempo, senza materia,
+
+00:15:30.260 --> 00:15:32.260
+o altri problemi del genere.
+
+00:15:32.260 --> 00:15:35.260
+Ma la cosa eccitante che ho trovato negli ultimi anni
+
+00:15:35.260 --> 00:15:37.260
+è che in effetti non c'è bisogno di andare troppo lontano
+
+00:15:37.260 --> 00:15:39.260
+nell'universo computazionale
+
+00:15:39.260 --> 00:15:41.260
+prima di trovare universi candidati
+
+00:15:41.260 --> 00:15:44.260
+che non si possa dare per scontato che non siano il nostro universo.
+
+00:15:44.260 --> 00:15:46.260
+Ecco il problema:
+
+00:15:46.260 --> 00:15:49.260
+Ogni serio candidato per il nostro universo,
+
+00:15:49.260 --> 00:15:52.260
+è inevitabilmente pieno di irriducibilità computazionali,
+
+00:15:52.260 --> 00:15:55.260
+che significa che è irriducibilmente difficile
+
+00:15:55.260 --> 00:15:57.260
+trovare come si comporta veramente
+
+00:15:57.260 --> 00:16:00.260
+e se corrisponde al nostro universo fisico.
+
+00:16:01.260 --> 00:16:04.260
+Alcuni anni fa, sono stato piuttosto eccitato quando ho scoperto
+
+00:16:04.260 --> 00:16:07.260
+che ci sono universi candidati con regole incredibilmente semplici
+
+00:16:07.260 --> 00:16:09.260
+che riproducono con successo la relatività speciale
+
+00:16:09.260 --> 00:16:12.260
+e persino la relatività generale e la gravitazione
+
+00:16:12.260 --> 00:16:15.260
+e per lo meno danno cenni di meccanica quantistica.
+
+00:16:15.260 --> 00:16:17.260
+Quindi, troveremo l'intera fisica?
+
+00:16:17.260 --> 00:16:19.260
+Non lo so per certo.
+
+00:16:19.260 --> 00:16:21.260
+Ma ritengo che a questo punto
+
+00:16:21.260 --> 00:16:23.260
+sarebbe piuttosto imbarazzante non fare almeno un tentativo.
+
+00:16:23.260 --> 00:16:25.260
+Non è certo un progetto agevole.
+
+00:16:25.260 --> 00:16:27.260
+è necessario costruire un sacco di tecnologie.
+
+00:16:27.260 --> 00:16:29.260
+è necessario costruire una struttura che probabilmente
+
+00:16:29.260 --> 00:16:31.260
+sarà almeno tanto profonda quanto la fisica corrente.
+
+00:16:31.260 --> 00:16:34.260
+E non sono sicuro di quale sia il miglior modo per organizzare l'intera cosa.
+
+00:16:34.260 --> 00:16:37.260
+Costruire una squadra, renderla aperta, offrire premi e cosi via
+
+00:16:37.260 --> 00:16:39.260
+Ma oggi vi dico
+
+00:16:39.260 --> 00:16:41.260
+che mi sto impegnando per vedere questo progetto completato,
+
+00:16:41.260 --> 00:16:44.260
+per vedere se, entro questa decade,
+
+00:16:44.260 --> 00:16:46.260
+possiamo finalmente ottenere
+
+00:16:46.260 --> 00:16:48.260
+la regola del nostro universo
+
+00:16:48.260 --> 00:16:50.260
+e sapere dove è posizionato il nostro universo
+
+00:16:50.260 --> 00:16:52.260
+nello spazio di tutti i possibili universi
+
+00:16:52.260 --> 00:16:55.260
+ed essere in grado di scrivere in Wolfram Alpha "la teoria dell'universo"
+
+00:16:55.260 --> 00:16:57.260
+e far si che ce la dica.
+
+00:16:57.260 --> 00:16:59.260
+(Risate)
+
+00:17:00.260 --> 00:17:02.260
+Quindi, ho lavorato all'idea del calcolo
+
+00:17:02.260 --> 00:17:04.260
+per più di 30 anni,
+
+00:17:04.260 --> 00:17:07.260
+costruendo strumenti e metodi e trasformando idee astratte
+
+00:17:07.260 --> 00:17:09.260
+in milioni di linee di codice
+
+00:17:09.260 --> 00:17:11.260
+da macinare in batterie di calcolatori.
+
+00:17:11.260 --> 00:17:13.260
+Per ogni anno che passa,
+
+00:17:13.260 --> 00:17:15.260
+mi rendo conto di come sia sempre più potente
+
+00:17:15.260 --> 00:17:17.260
+l'idea del calcolo.
+
+00:17:17.260 --> 00:17:19.260
+Ci ha già portato lontano,
+
+00:17:19.260 --> 00:17:21.260
+ma c'è ancora cosi tanto di più in arrivo.
+
+00:17:21.260 --> 00:17:23.260
+Dalle fondamenta della scienza
+
+00:17:23.260 --> 00:17:25.260
+ai limiti della tecnologia
+
+00:17:25.260 --> 00:17:27.260
+e persino alla definizione della condizione umana,
+
+00:17:27.260 --> 00:17:29.260
+penso che il calcolo sia destinato ad essere
+
+00:17:29.260 --> 00:17:31.260
+l'idea di fondo del nostro futuro.
+
+00:17:31.260 --> 00:17:33.260
+Grazie.
+
+00:17:33.260 --> 00:17:47.260
+(Applausi)
+
+00:17:47.260 --> 00:17:49.260
+Chris Anderson: è stato molto impressionante.
+
+00:17:49.260 --> 00:17:51.260
+Stia qui. Ho una domanda.
+
+00:17:51.260 --> 00:17:55.260
+(Applausi)
+
+00:17:57.260 --> 00:18:00.260
+Dunque, questo è stato, mi sembra giusto dirlo, un discorso impressionante.
+
+00:18:01.260 --> 00:18:04.260
+Sarebbe in grado di dire in una frase o due
+
+00:18:04.260 --> 00:18:07.260
+come questo tipo di pensiero
+
+00:18:07.260 --> 00:18:09.260
+si potrebbe integrare ad un certo punto
+
+00:18:09.260 --> 00:18:11.260
+con cose come la teoria delle stringhe o con quel tipo di cose che la gente ritiene
+
+00:18:11.260 --> 00:18:14.260
+siano le fondamentali spiegazioni dell'universo?
+
+00:18:14.260 --> 00:18:16.260
+Stephen Wolfram: Beh, quelle parti della fisica
+
+00:18:16.260 --> 00:18:18.260
+che in qualche modo sappiamo essere vere,
+
+00:18:18.260 --> 00:18:20.260
+qualcosa come il Modello Standard.
+
+00:18:20.260 --> 00:18:23.260
+Ciò che sto cercando di fare riproduce meglio il Modello Standard
+
+00:18:23.260 --> 00:18:25.260
+o è semplicemente sbagliato.
+
+00:18:25.260 --> 00:18:27.260
+Le cose che la gente ha cercato di fare negli ultimi 25 anni circa
+
+00:18:27.260 --> 00:18:29.260
+con la teoria delle stringhe
+
+00:18:29.260 --> 00:18:31.260
+sono state una esplorazione interessante
+
+00:18:31.260 --> 00:18:34.260
+che ha cercato di ritornare fino al Modello Standard,
+
+00:18:34.260 --> 00:18:36.260
+ma che non c'è ancora riuscita ad arrivare.
+
+00:18:36.260 --> 00:18:39.260
+Suppongo che qualche semplificazione grossolana di ciò che sto facendo
+
+00:18:39.260 --> 00:18:42.260
+potrebbe in effetti avere una risonanza considerevole
+
+00:18:42.260 --> 00:18:44.260
+con ciò che è stato fatto nella teoria delle stringhe,
+
+00:18:44.260 --> 00:18:47.260
+ma è una faccenda che ha complessi aspetti di matematica
+
+00:18:47.260 --> 00:18:50.260
+che ancora non so come andrà a finire.
+
+00:18:50.260 --> 00:18:52.260
+CA: Benoit Mandelbrot è in sala.
+
+00:18:52.260 --> 00:18:54.260
+Anche lui ha mostrato come la complessità
+
+00:18:54.260 --> 00:18:56.260
+possa nascere da un semplice inizio.
+
+00:18:56.260 --> 00:18:58.260
+Il vostro lavoro fa riferimento al suo?
+
+00:18:58.260 --> 00:19:00.260
+SW: Credo di si.
+
+00:19:00.260 --> 00:19:02.260
+Vedo il lavoro di Benoit Mandelbrot
+
+00:19:02.260 --> 00:19:05.260
+per certi aspetti come uno dei contributi fondamentali
+
+00:19:05.260 --> 00:19:08.260
+a quest'area.
+
+00:19:08.260 --> 00:19:10.260
+Benoit si è interessato in particolare
+
+00:19:10.260 --> 00:19:12.260
+ai pattern annidati, ai frattali e cosi via,
+
+00:19:12.260 --> 00:19:14.260
+dove la struttura è qualcosa
+
+00:19:14.260 --> 00:19:16.260
+che per certi versi è ramificata,
+
+00:19:16.260 --> 00:19:18.260
+e dove ci sono dei grandi rami che creano rami più piccoli.
+
+00:19:18.260 --> 00:19:21.260
+e lo stesso fanno i rami più piccoli e cosi via.
+
+00:19:21.260 --> 00:19:23.260
+Questa è una delle vie
+
+00:19:23.260 --> 00:19:26.260
+che esistono verso la vera complessità.
+
+00:19:26.260 --> 00:19:29.260
+Io ritengo che cose come l'automa cellulare della Regola 30
+
+00:19:29.260 --> 00:19:31.260
+ci portino ad un livello differente.
+
+00:19:31.260 --> 00:19:34.260
+In effetti ci portano ad un livello differente in un modo molto preciso
+
+00:19:34.260 --> 00:19:36.260
+perchè sembrano essere cose
+
+00:19:37.260 --> 00:19:40.260
+capaci di una complessità
+
+00:19:40.260 --> 00:19:43.260
+che per certi aspetti è grande quanto deve...
+
+00:19:44.260 --> 00:19:47.260
+Potrei continuare a lungo su questo ma non lo farò.
+
+00:19:47.260 --> 00:19:49.260
+CA: Stephen Wolfram, Grazie.
+
+00:19:49.260 --> 00:19:51.260
+(Applausi)
+

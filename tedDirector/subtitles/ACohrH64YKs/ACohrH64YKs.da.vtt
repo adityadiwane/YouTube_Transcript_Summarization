@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: da
+
+00:00:00.000 --> 00:00:07.000
+Translator: Jonatan L
+Reviewer: Jonas Tholstrup Christensen
+
+00:00:16.260 --> 00:00:19.260
+Lad mig introducere dig til Rezaro
+
+00:00:19.260 --> 00:00:21.260
+Denne lille fyr var udviklet
+
+00:00:21.260 --> 00:00:23.260
+af en gruppe af 10 bachelor studenter
+
+00:00:23.260 --> 00:00:25.260
+ved “the Autonomous Systems Laboratory“
+
+00:00:25.260 --> 00:00:27.260
+i “ETH-Zurich“
+
+00:00:27.260 --> 00:00:29.260
+Vores robot tilhører en familie af robotter
+
+00:00:29.260 --> 00:00:31.260
+der hedder “Ballbots
+
+00:00:31.260 --> 00:00:33.260
+I stedet for hjul, balancerer en “Ballbot“
+
+00:00:33.260 --> 00:00:35.260
+og bevæger sig på en enkel bold
+
+00:00:35.260 --> 00:00:37.260
+Det primære kendetegnet af sådan et system er
+
+00:00:37.260 --> 00:00:40.260
+at der er kun et kontakt punkt til jorden
+
+00:00:40.260 --> 00:00:42.260
+Det betyder at robotten
+
+00:00:42.260 --> 00:00:44.260
+grundlæggende er ustabil.
+
+00:00:44.260 --> 00:00:46.260
+Ligsom når jeg prøver at stå
+
+00:00:46.260 --> 00:00:47.260
+på en fod
+
+00:00:47.260 --> 00:00:49.260
+Du tænker måske, hvad anvendeligheden er
+
+00:00:49.260 --> 00:00:51.260
+ved en robot der er ustabil?
+
+00:00:51.260 --> 00:00:53.260
+Det vil jeg forklare om et sekund.
+
+00:00:53.260 --> 00:00:55.260
+Men først lad mig forklare hvordan “Rezero“
+
+00:00:55.260 --> 00:00:57.260
+holder sin balance
+
+00:00:57.260 --> 00:00:59.260
+“Rezero“ beholder sin balance ved konstant at
+
+00:00:59.260 --> 00:01:02.260
+måle sin vinkel med en sensor
+
+00:01:02.260 --> 00:01:05.260
+Så modvirker den og undgår at vælte
+
+00:01:05.260 --> 00:01:07.260
+ved at dreje motorene passende
+
+00:01:07.260 --> 00:01:09.260
+Dette sker 160 gange i sekundet
+
+00:01:09.260 --> 00:01:11.260
+og hvis noget går galt
+
+00:01:11.260 --> 00:01:14.260
+Vil “Rezero“ øjeblikkeligt falde til jorden
+
+00:01:14.260 --> 00:01:16.260
+For den til at bevæge og balancere,
+
+00:01:16.260 --> 00:01:18.260
+“Rezero“ er nød til at bevæge bolden
+
+00:01:18.260 --> 00:01:20.260
+Bolden er drevet af tre specielle hjul
+
+00:01:20.260 --> 00:01:23.260
+der gør det muligt for “Rezero“ at bevæge sig i alle retninger
+
+00:01:23.260 --> 00:01:25.260
+og også bevæge sig rundt om sin egen akse
+
+00:01:25.260 --> 00:01:29.260
+på samme tid
+
+00:01:29.260 --> 00:01:31.260
+På grund af hans ustabilitet, er “Rezero“ altid
+
+00:01:31.260 --> 00:01:33.260
+i bevægelse. Nu her er trikket
+
+00:01:33.260 --> 00:01:36.260
+det er den ustabilitet der gør det mugligt
+
+00:01:36.260 --> 00:01:38.260
+for robotten at bevæge sig meget dynamisk
+
+00:01:38.260 --> 00:01:40.260
+Lad os lege lidt
+
+00:01:40.260 --> 00:01:42.260
+Du har måske tænkt hvad der sker
+
+00:01:42.260 --> 00:01:45.260
+hvis jeg giver denne robet et lille skub
+
+00:01:47.260 --> 00:01:49.260
+I denne tilstand, prøver han at fastholde
+
+00:01:49.260 --> 00:01:52.260
+sin position
+
+00:01:52.260 --> 00:01:55.260
+For den næste demonstration, vil jeg gerne introducere
+
+00:01:55.260 --> 00:01:58.260
+dig for min kollega Michael, på coputeren
+
+00:01:58.260 --> 00:02:01.260
+og Thomas der vil hjælpe mig på scenen
+
+00:02:02.260 --> 00:02:04.260
+I den næste tilstand er “Rezero“ passiv
+
+00:02:04.260 --> 00:02:07.260
+og vi kan flytte ham rundt
+
+00:02:08.260 --> 00:02:10.260
+Med næsten ingen kræfter, kan jeg kontrollere
+
+00:02:10.260 --> 00:02:13.260
+hans position og hans hastighed
+
+00:02:16.260 --> 00:02:19.260
+jeg kan også få ham til at dreje
+
+00:02:30.260 --> 00:02:32.260
+I den næste tilstand, kan vi få “Rezero“
+
+00:02:32.260 --> 00:02:35.260
+Til at følge efter en person
+
+00:02:35.260 --> 00:02:38.260
+Nu holder han en konstant position til Thomas
+
+00:02:42.260 --> 00:02:44.260
+Dette virker med en laser sensor
+
+00:02:44.260 --> 00:02:46.260
+der er monteret på toppen af “Rezero“
+
+00:02:50.260 --> 00:02:52.260
+Med den samme mettode, kan vi også
+
+00:02:52.260 --> 00:02:55.260
+få ham til at cirkulere om en person
+
+00:02:57.260 --> 00:03:01.260
+Dette kalder vi den kredsende tilstand
+
+00:03:10.260 --> 00:03:12.260
+Ok tak til dig Thomas
+
+00:03:12.260 --> 00:03:16.260
+(bifald)
+
+00:03:16.260 --> 00:03:19.260
+Nu, hvad kan man bruge denne teknologi til?
+
+00:03:22.260 --> 00:03:24.260
+Lige nu er det et eksperiment, men tillad mig
+
+00:03:24.260 --> 00:03:27.260
+at vise jer nogle mulige fremtidige anvendelsesmetoder.
+
+00:03:28.260 --> 00:03:30.260
+“Rezero“ kunne blive brugt i udstillinger eller parker
+
+00:03:30.260 --> 00:03:32.260
+Og med en skærm informere folk eller
+
+00:03:32.260 --> 00:03:35.260
+vise dem rundt i en sjov og underholdende måde
+
+00:03:35.260 --> 00:03:37.260
+I et hospital, kunne den bruges til
+
+00:03:37.260 --> 00:03:39.260
+At bære rundt læge udstyr
+
+00:03:39.260 --> 00:03:41.260
+På grund af dens “Ballbot“ system, har den et meget lille
+
+00:03:41.260 --> 00:03:44.260
+fodspor og den er også nem at flytte rundt
+
+00:03:44.260 --> 00:03:46.260
+Og selvfølgelig hvem ville ikke lide
+
+00:03:46.260 --> 00:03:49.260
+at tage en tur på en af disse
+
+00:03:49.260 --> 00:03:51.260
+Og der er også mere praktiske fuktioner
+
+00:03:51.260 --> 00:03:53.260
+Men der er også en form for elegance
+
+00:03:53.260 --> 00:03:55.260
+i denne teknologi.
+
+00:03:55.260 --> 00:04:04.260
+(Musik)
+
+00:04:58.260 --> 00:04:59.260
+(Bifald)
+
+00:04:59.260 --> 00:05:01.260
+Tak, tak
+
+00:05:01.260 --> 00:05:05.260
+(Bifald)
+
+00:05:05.260 --> 00:05:07.260
+Tak
+

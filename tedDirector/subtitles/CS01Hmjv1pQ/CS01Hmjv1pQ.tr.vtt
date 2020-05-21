@@ -1,0 +1,737 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Taner Tarlakazan
+Gözden geçirme: Meric Aydonat
+
+00:00:15.260 --> 00:00:18.260
+Stuxnet bilgisayar solucanının arkasındaki
+
+00:00:18.260 --> 00:00:20.260
+fikir aslında oldukça basit.
+
+00:00:20.260 --> 00:00:23.260
+İran'ın bomba elde etmesini istemiyoruz.
+
+00:00:23.260 --> 00:00:26.260
+Onların nükleer silah geliştirmeklerinin ana aracı
+
+00:00:26.260 --> 00:00:30.260
+Natanz uranyum zenginleştirme tesisi.
+
+00:00:30.260 --> 00:00:32.260
+Bu gördüğünüz gri kutular,
+
+00:00:32.260 --> 00:00:35.260
+gerçek zamanlı kontrol sistemleri.
+
+00:00:35.260 --> 00:00:38.260
+Eğer çalışma hızını ve vanaları
+
+00:00:38.260 --> 00:00:41.260
+kontrol eden bu sistemleri etkisiz hale getirebilirsek,
+
+00:00:41.260 --> 00:00:44.260
+santrifüjde birçok probleme
+
+00:00:44.260 --> 00:00:46.260
+sebep oluruz.
+
+00:00:46.260 --> 00:00:48.260
+Gri kutular Windows yazılımı kullanmıyorlar;
+
+00:00:48.260 --> 00:00:51.260
+onlar tamamen farklı bir teknoloji.
+
+00:00:51.260 --> 00:00:53.260
+Ama bu gri kutuyu
+
+00:00:53.260 --> 00:00:56.260
+kullanan mühendisin bilgisayarına
+
+00:00:56.260 --> 00:00:58.260
+iyi bir Windows virüsü
+
+00:00:58.260 --> 00:01:00.260
+yüklemeyi başarırsak
+
+00:01:00.260 --> 00:01:03.260
+o zaman iş üzerindeyiz,
+
+00:01:03.260 --> 00:01:05.260
+demektir.
+
+00:01:05.260 --> 00:01:08.260
+Stuxnet'in ardındaki senaryo bu.
+
+00:01:08.260 --> 00:01:13.260
+Yani Windows'u düşürecek bir sistem ile başlıyoruz.
+
+00:01:13.260 --> 00:01:16.260
+Ana yük gri kutuya gidiyor,
+
+00:01:16.260 --> 00:01:18.260
+santrifüje zarar veriyor,
+
+00:01:18.260 --> 00:01:20.260
+ve iran nükleer programı gecikti --
+
+00:01:20.260 --> 00:01:22.260
+görev tamamlandı.
+
+00:01:22.260 --> 00:01:24.260
+Bu kolay, değil mi?
+
+00:01:24.260 --> 00:01:27.260
+Size bunu nasıl başardığımızı anlatmak istiyorum.
+
+00:01:27.260 --> 00:01:30.260
+Altı ay önce Stuxnet üzerinde araştırmamıza başladığımızda,
+
+00:01:30.260 --> 00:01:33.260
+bu şeyin amacının ne olduğu tamamen bilinmiyordu.
+
+00:01:33.260 --> 00:01:35.260
+Bilinen tek şey,
+
+00:01:35.260 --> 00:01:38.260
+Windows kısmının, düşürücü kısmının çok karışık olduğuydu,
+
+00:01:38.260 --> 00:01:41.260
+çoklu sıfır gün zayıf noktaları kullanıldı.
+
+00:01:41.260 --> 00:01:44.260
+Ve bu gri kutular, bu gerçek zamanlı kontrol sistemleri ile
+
+00:01:44.260 --> 00:01:46.260
+birşeyler yapmak istiyormuş gibi gözüyordu.
+
+00:01:46.260 --> 00:01:48.260
+Bu bizim dikkatimizi çekti,
+
+00:01:48.260 --> 00:01:50.260
+ve bir laboratuvar projesi başlattık
+
+00:01:50.260 --> 00:01:54.260
+Çevremizi Stuxnet ile kapladık
+
+00:01:54.260 --> 00:01:56.260
+ve bu şeyi denedik.
+
+00:01:56.260 --> 00:01:59.260
+Ve sonra çok komik şeyler oldu.
+
+00:01:59.260 --> 00:02:02.260
+Stuxnet bir deney faresi gibi davrandı
+
+00:02:02.260 --> 00:02:05.260
+bizim peynirimiz sevmedi --
+
+00:02:05.260 --> 00:02:07.260
+kokladı, ama yemek istemedi.
+
+00:02:07.260 --> 00:02:09.260
+Bana anlamlı gelmedi.
+
+00:02:09.260 --> 00:02:12.260
+Ve farklı tatlar içeren peynirlerle yaptığımız deneylerden sonra,
+
+00:02:12.260 --> 00:02:16.260
+farkettim ki, bu direkt bir atak.
+
+00:02:16.260 --> 00:02:18.260
+Tamamen yönlendirilmiş.
+
+00:02:18.260 --> 00:02:20.260
+Düşürücü, uygun ayarlama bulundugunda
+
+00:02:20.260 --> 00:02:22.260
+virüsü yaymaya çalışan asıl program
+
+00:02:22.260 --> 00:02:25.260
+görevini yapsa dahi
+
+00:02:25.260 --> 00:02:29.260
+gri kutu üzerinde sinsice
+
+00:02:29.260 --> 00:02:31.260
+dolanıyor.
+
+00:02:31.260 --> 00:02:34.260
+Ve euygun ayarlama bulunmadığında, Stuxnet birşey yapmıyor.
+
+00:02:34.260 --> 00:02:36.260
+Bu benim dikkatimi çekti,
+
+00:02:36.260 --> 00:02:38.260
+Ve tam zamanlı olarak bunun
+
+00:02:38.260 --> 00:02:40.260
+üzerinde çalışmaya başladık,
+
+00:02:40.260 --> 00:02:43.260
+çünkü düşündüm ki hedef ne onu bilmiyoruz.
+
+00:02:43.260 --> 00:02:45.260
+Hedef diyelim ki, ABD'de güç santrali,
+
+00:02:45.260 --> 00:02:47.260
+ya da Almanya'da
+
+00:02:47.260 --> 00:02:49.260
+kimyasal bir tesis olabilir.
+
+00:02:49.260 --> 00:02:52.260
+Öncelikle hedef ne onu bulmalıyız.
+
+00:02:52.260 --> 00:02:54.260
+Atak kodunu çıkardık ve tersten
+
+00:02:54.260 --> 00:02:56.260
+kodladık ve keşfettik ki
+
+00:02:56.260 --> 00:02:59.260
+iki dijital bomba üzerine inşa edilmiş --
+
+00:02:59.260 --> 00:03:02.260
+bir büyük bir de küçük.
+
+00:03:02.260 --> 00:03:06.260
+Aynı zamanda gördük ki, içeriden alınmış her türlü
+
+00:03:06.260 --> 00:03:10.260
+bilgiye sahip oldukça profosyonel mühendisler çalışmışlar.
+
+00:03:10.260 --> 00:03:12.260
+Saldıracakları şeyin içini dışını
+
+00:03:12.260 --> 00:03:14.260
+yönlerini biliyorlardı.
+
+00:03:14.260 --> 00:03:17.260
+Büyük ihtimalle işi yürütenin ayakkabı numarasını dahi biliyorlardı.
+
+00:03:17.260 --> 00:03:19.260
+Yani herşeyi biliyorlardı.
+
+00:03:19.260 --> 00:03:22.260
+Ve Stuxnet'in düşürücüsünün karışık ve
+
+00:03:22.260 --> 00:03:24.260
+yüksek teknoloji ürünü olduğunu
+
+00:03:24.260 --> 00:03:26.260
+düşünüyorsanız size şunu söyleyeyim:
+
+00:03:26.260 --> 00:03:28.260
+iş yükü çok karmaşıktı.
+
+00:03:28.260 --> 00:03:30.260
+Daha önce gördüğümüz herşeyden
+
+00:03:30.260 --> 00:03:33.260
+daha zordu.
+
+00:03:33.260 --> 00:03:36.260
+Asıl saldırı kodunun bir örneğini görüyorsunuz.
+
+00:03:36.260 --> 00:03:38.260
+15 bin satırlık bir kaynak
+
+00:03:38.260 --> 00:03:41.260
+kodundan bahsediyoruz.
+
+00:03:41.260 --> 00:03:44.260
+Oldukça eski tip birleştirici diline benziyor.
+
+00:03:44.260 --> 00:03:46.260
+Ve size bu kodlardan nasıl bir
+
+00:03:46.260 --> 00:03:48.260
+anlam çıkardığımızı anlatmak istiyorum.
+
+00:03:48.260 --> 00:03:51.260
+Öncelikle baktığımız şey sistem fonksiyon aramaları,
+
+00:03:51.260 --> 00:03:53.260
+çünkü ne işe yaradığını biliyoruz.
+
+00:03:53.260 --> 00:03:57.260
+Ve sonrasında zamanlayıcılar ve veri yapılarına bakıyorduk
+
+00:03:57.260 --> 00:03:59.260
+ve onları gerçek dünya ile ilişkilendirmeye çalıştırıyorduk --
+
+00:03:59.260 --> 00:04:01.260
+potansiyel gerçek hedeflere.
+
+00:04:01.260 --> 00:04:04.260
+Bu nedenle kanıtlayacağımız veya
+
+00:04:04.260 --> 00:04:07.260
+çürütebileceğimiz hedef teorilerine ihtiyacımız var.
+
+00:04:07.260 --> 00:04:09.260
+Hefef teorilerini elde etmek için,
+
+00:04:09.260 --> 00:04:11.260
+hatırlayalım bu,
+
+00:04:11.260 --> 00:04:13.260
+çok ağır sabotaj,
+
+00:04:13.260 --> 00:04:15.260
+çok yüksek değerli bir hedef olmalı,
+
+00:04:15.260 --> 00:04:18.260
+ve büyük olasılıkla İran'da konuşlanmalı,
+
+00:04:18.260 --> 00:04:22.260
+çünkü orası en fazla bulaşmanın raporlandığı yer.
+
+00:04:22.260 --> 00:04:25.260
+Birkaç bin tane hedef bulmazsınız o bölgede.
+
+00:04:25.260 --> 00:04:27.260
+Basitçe Bushehr nükleer güç tesisi
+
+00:04:27.260 --> 00:04:29.260
+ve Natanz yakıt zenginleştirme
+
+00:04:29.260 --> 00:04:31.260
+tesisi arasında kaldık.
+
+00:04:31.260 --> 00:04:33.260
+Asistanıma,
+
+00:04:33.260 --> 00:04:36.260
+''Müşterilerimizden bütün santrifüf ve güç santrali uzmanlarının bir listesini bana getir.''
+
+00:04:36.260 --> 00:04:38.260
+Ve onlara telefon açtım ve bulduğumuz kod ve
+
+00:04:38.260 --> 00:04:40.260
+veri ile onların uzmanlığını bir araya getirmek
+
+00:04:40.260 --> 00:04:43.260
+için onları ikna ettim.
+
+00:04:43.260 --> 00:04:45.260
+Ve bu gayet iyi işledi.
+
+00:04:45.260 --> 00:04:47.260
+Küçük dijital nükleer başlığı
+
+00:04:47.260 --> 00:04:49.260
+çark kontrolü ile
+
+00:04:49.260 --> 00:04:51.260
+ilişkilendirebildik.
+
+00:04:51.260 --> 00:04:54.260
+Çark, santrifüjün içerisindeki hareket
+
+00:04:54.260 --> 00:04:56.260
+eden siyah parça.
+
+00:04:56.260 --> 00:04:59.260
+Ve eğer bu çarkın hızında oynama yapabilirseniz,
+
+00:04:59.260 --> 00:05:01.260
+çarkı bozabilirsiniz ve eninde sonunda
+
+00:05:01.260 --> 00:05:05.260
+santrifüjü patlatabilirsiniz.
+
+00:05:05.260 --> 00:05:07.260
+Gördüğümüz başka bir
+
+00:05:07.260 --> 00:05:09.260
+şey de saldırının amacı yavaş
+
+00:05:09.260 --> 00:05:12.260
+ve garip bir biçimde olmasıydı --
+
+00:05:12.260 --> 00:05:14.260
+bakım mühendislerini delirtme
+
+00:05:14.260 --> 00:05:17.260
+amacı açıkca görülüyordu,
+
+00:05:17.260 --> 00:05:20.260
+sorunu çabuk çözemeyeceklerdi.
+
+00:05:20.260 --> 00:05:23.260
+Büyük dijital savaş başlığı --
+
+00:05:23.260 --> 00:05:25.260
+veri ve veri yapılarına
+
+00:05:25.260 --> 00:05:27.260
+yakından bakma sonucu bir şansımız vardı.
+
+00:05:27.260 --> 00:05:29.260
+Örnek olarak, 164 numara
+
+00:05:29.260 --> 00:05:31.260
+bu koda karşılık geliyor;
+
+00:05:31.260 --> 00:05:33.260
+gözden kaçıramazsınız.
+
+00:05:33.260 --> 00:05:35.260
+Bilimsel literatürü taramaya başladım
+
+00:05:35.260 --> 00:05:37.260
+bu santrifüjler Natanz'da
+
+00:05:37.260 --> 00:05:39.260
+gerçekte nasıl üretildigini
+
+00:05:39.260 --> 00:05:41.260
+ve kademe olarak isimlendirilen
+
+00:05:41.260 --> 00:05:43.260
+yapıda nasıl bulunduğunu,
+
+00:05:43.260 --> 00:05:47.260
+ve her bir kademe 164 santrifuju taşıyordu araştırdım.
+
+00:05:47.260 --> 00:05:49.260
+Ve bu anlamlı geldi, bir eşleşmeydi.
+
+00:05:49.260 --> 00:05:51.260
+Ve sonra daha da iyiye gitti.
+
+00:05:51.260 --> 00:05:53.260
+İran'daki bu santrifüjler 15 tane
+
+00:05:53.260 --> 00:05:57.260
+bölüm adı verilen yapılara sınıflandırılıyor.
+
+00:05:57.260 --> 00:05:59.260
+Ve tahmin edin saldırı kodunda ne bulduk?
+
+00:05:59.260 --> 00:06:01.260
+Neredeyse eş bir yapı.
+
+00:06:01.260 --> 00:06:04.260
+Yani yine bu iyi bir eşleşmeydi.
+
+00:06:04.260 --> 00:06:07.260
+Ve bu bize ilgilendiğimiz şey ile ilgili yüksek bir güven aşıladı.
+
+00:06:07.260 --> 00:06:10.260
+Şimdi burayı yanlış anlatmayayım, o şekilde gitmedi.
+
+00:06:10.260 --> 00:06:13.260
+Bu sonuçlar birkaç senelik çok sıkı
+
+00:06:13.260 --> 00:06:16.260
+çalışmanın ardından elde edildi.
+
+00:06:16.260 --> 00:06:19.260
+Ve çoğunlukla çıkmaza giriyorduk
+
+00:06:19.260 --> 00:06:21.260
+yeniden başlamamız gerekiyordu.
+
+00:06:21.260 --> 00:06:23.260
+Neyse, anladık ki
+
+00:06:23.260 --> 00:06:25.260
+her iki dijital savaş başlığı da
+
+00:06:25.260 --> 00:06:27.260
+tek ve aynı hedefe odaklanmıştı,
+
+00:06:27.260 --> 00:06:29.260
+ama farklı açılardan.
+
+00:06:29.260 --> 00:06:32.260
+Küçük savaş başlığı bir kademeyi alıyordu,
+
+00:06:32.260 --> 00:06:35.260
+ve rotorları döndürüp onları yavaşlatıyordu,
+
+00:06:35.260 --> 00:06:37.260
+büyük savaş başlığı
+
+00:06:37.260 --> 00:06:39.260
+altı kademeyi alıyordu
+
+00:06:39.260 --> 00:06:41.260
+ve vanaları manipüle ediyordu.
+
+00:06:41.260 --> 00:06:43.260
+Yani, hedefin ne olduğunu bulduğumuz,
+
+00:06:43.260 --> 00:06:45.260
+konusunda oldukça kendimize güveniyorduk.
+
+00:06:45.260 --> 00:06:48.260
+Hedef Natanz ve sadece Natanz.
+
+00:06:48.260 --> 00:06:50.260
+Yani Stuxnet tarafından
+
+00:06:50.260 --> 00:06:52.260
+vurulma olasılığı olan
+
+00:06:52.260 --> 00:06:54.260
+başka hedefler için endişe etmemize gerek yoktu.
+
+00:06:54.260 --> 00:06:57.260
+Burada gördüğümüz beni çok etkileyen
+
+00:06:57.260 --> 00:06:59.260
+bazı şeyler var.
+
+00:06:59.260 --> 00:07:01.260
+Aşağıda bu gri kutu,
+
+00:07:01.260 --> 00:07:04.260
+ve onun üzerinde santrifüjler var.
+
+00:07:04.260 --> 00:07:06.260
+Şimdi bu şeyin yaptığı
+
+00:07:06.260 --> 00:07:09.260
+sensörden gelen giriş verisini yakalamak --
+
+00:07:09.260 --> 00:07:11.260
+mesela basınç sensöründen ve
+
+00:07:11.260 --> 00:07:13.260
+titreşim sensöründen --
+
+00:07:13.260 --> 00:07:16.260
+ve geçerli kodu sağlamak,
+
+00:07:16.260 --> 00:07:18.260
+ki o da saldırı sırasında sahte giriş verisi ile
+
+00:07:18.260 --> 00:07:20.260
+hala çalışıyor.
+
+00:07:20.260 --> 00:07:22.260
+Ve sonuç olarak, bu sahte giriş verisi
+
+00:07:22.260 --> 00:07:25.260
+daha önceden Stuxnet tarafından kaydedilmişti.
+
+00:07:25.260 --> 00:07:27.260
+Yani tıpkı Hollywood filmlerindeki gibi
+
+00:07:27.260 --> 00:07:29.260
+soygun sırasında,
+
+00:07:29.260 --> 00:07:32.260
+gözlem kamerası daha önceden kaydedilmiş video ile kapatılıyor.
+
+00:07:32.260 --> 00:07:34.260
+Bu havalı değil mi?
+
+00:07:35.260 --> 00:07:37.260
+Buradaki fikir açık olarak
+
+00:07:37.260 --> 00:07:40.260
+sadece kontrol odasındaki operatörleri kandırmak değil.
+
+00:07:40.260 --> 00:07:44.260
+Aslında çok daha tehlikeli ve saldırgan.
+
+00:07:44.260 --> 00:07:46.260
+Fikir dijital güvenlik
+
+00:07:46.260 --> 00:07:49.260
+sistemine müdahele edip engellemek.
+
+00:07:50.260 --> 00:07:52.260
+İnsan operatörlerin yeteri kadar çabuk davranamayacakları
+
+00:07:52.260 --> 00:07:55.260
+noktalarda dijital güvenlik sistemlerine ihtiyacımız var.
+
+00:07:55.260 --> 00:07:57.260
+Mesela, bir güç santralinde,
+
+00:07:57.260 --> 00:08:00.260
+buhar türbininiz aşırı hızlandığı zaman,
+
+00:08:00.260 --> 00:08:03.260
+tahliye vanalarını milisaniyeler içinde açmalısınız.
+
+00:08:03.260 --> 00:08:06.260
+Açıkca, bu insan tarafından yapılamaz.
+
+00:08:06.260 --> 00:08:08.260
+Bu yüzden dijital güvenlik sistemlerine ihtiyacımız var.
+
+00:08:08.260 --> 00:08:10.260
+Ve gözardı edildikleri zaman,
+
+00:08:10.260 --> 00:08:13.260
+sonrasında çok fena şeyler olabilir.
+
+00:08:13.260 --> 00:08:15.260
+Santraliniz patlayacak hale gelebilir.
+
+00:08:15.260 --> 00:08:18.260
+Ve operatörleriniz ya da güvenlik sisteminiz bunu anlayamayabilir.
+
+00:08:18.260 --> 00:08:20.260
+Bu korkutucu.
+
+00:08:20.260 --> 00:08:22.260
+Ama daha da kötüleşiyor.
+
+00:08:22.260 --> 00:08:25.260
+Ve bu söyleceğim şey çok önemli.
+
+00:08:25.260 --> 00:08:27.260
+Bunu bir düşünün.
+
+00:08:27.260 --> 00:08:30.260
+Bu saldırı genel.
+
+00:08:30.260 --> 00:08:34.260
+Spesifik olarak santrifüjler ile
+
+00:08:34.260 --> 00:08:36.260
+ya da uranyum zenginleştirmesi
+
+00:08:36.260 --> 00:08:39.260
+ile alakalı değil.
+
+00:08:39.260 --> 00:08:42.260
+Yani, örnek olarak bir güç santralinde de
+
+00:08:42.260 --> 00:08:44.260
+gayet iyi çalışabilir
+
+00:08:44.260 --> 00:08:47.260
+ya da bir otomobil fabrikasında.
+
+00:08:47.260 --> 00:08:49.260
+Bu genel birşey.
+
+00:08:49.260 --> 00:08:51.260
+Ve saldırgan olarak
+
+00:08:51.260 --> 00:08:54.260
+bu iş yükünü USB bellek ile
+
+00:08:54.260 --> 00:08:56.260
+vermek zorunda değilsiniz
+
+00:08:56.260 --> 00:08:58.260
+Stuxnet olayında gördüğümüz gibi.
+
+00:08:58.260 --> 00:09:01.260
+Aynı zamanda yayılma için geleneksel solucan teknolojisini kullanabilirsiniz.
+
+00:09:01.260 --> 00:09:04.260
+Yayabildiğin kadar yay.
+
+00:09:04.260 --> 00:09:06.260
+Ve bunu yaparsanız,
+
+00:09:06.260 --> 00:09:08.260
+sonunda siber bir
+
+00:09:08.260 --> 00:09:13.260
+kitle imha silahı elde edersiniz.
+
+00:09:14.260 --> 00:09:16.260
+Bu yüzleşmek zorunda olduğumuz
+
+00:09:16.260 --> 00:09:19.260
+bir sonuç.
+
+00:09:19.260 --> 00:09:22.260
+Yani maalesef,
+
+00:09:22.260 --> 00:09:25.260
+bu tür saldırıların en yoğun yaşandığı
+
+00:09:25.260 --> 00:09:27.260
+yer Orta Doğu değil.
+
+00:09:27.260 --> 00:09:30.260
+Amerika Birleşik Devletleri, Avrupa ve Japonya.
+
+00:09:30.260 --> 00:09:32.260
+Bütün bu yeşil alanlar,
+
+00:09:32.260 --> 00:09:35.260
+hedef bakımından zengin çevreler.
+
+00:09:35.260 --> 00:09:38.260
+Sonuçlar ile yüzleşmeliyiz,
+
+00:09:38.260 --> 00:09:41.260
+ve hazırlanmaya başlamalıyız.
+
+00:09:41.260 --> 00:09:43.260
+Teşekkürler.
+
+00:09:43.260 --> 00:09:49.260
+(Alkış)
+
+00:09:49.260 --> 00:09:51.260
+Chris Anderson: Bir sorum var.
+
+00:09:53.260 --> 00:09:55.260
+Ralph, çoğu yerde raporlanandığı
+
+00:09:55.260 --> 00:09:57.260
+üzere insanlar bunun asıl sorumlusunun
+
+00:09:57.260 --> 00:09:59.260
+Mossad olduğunu düşünüyor.
+
+00:09:59.260 --> 00:10:02.260
+Sen böyle mi düşünüyorsun?
+
+00:10:02.260 --> 00:10:04.260
+Ralph Langler: Tamam, bunu gerçekten duymak istiyor musun?
+
+00:10:04.260 --> 00:10:06.260
+Evet. Tamam,
+
+00:10:06.260 --> 00:10:09.260
+Bence Mossad işin içinde,
+
+00:10:09.260 --> 00:10:12.260
+ama başı çeken kuvvet İsrail değil.
+
+00:10:12.260 --> 00:10:14.260
+Bunun arkasındaki asıl güç
+
+00:10:14.260 --> 00:10:17.260
+siber süpergüç.
+
+00:10:17.260 --> 00:10:19.260
+Sadece bir tane var,
+
+00:10:19.260 --> 00:10:21.260
+ve bu Amerika Birleşik Devletleri --
+
+00:10:21.260 --> 00:10:23.260
+çok şükür ki.
+
+00:10:23.260 --> 00:10:25.260
+Çünkü diğer türlü,
+
+00:10:25.260 --> 00:10:28.260
+problemlerimiz daha da büyük olurdu.
+
+00:10:28.260 --> 00:10:32.260
+CA: Bizi bu kadar korkuttuğun için teşekkürler.Teşekkürler Ralph.
+
+00:10:32.260 --> 00:10:34.260
+(Alkış)
+

@@ -1,0 +1,737 @@
+WEBVTT
+Kind: captions
+Language: hr
+
+00:00:00.000 --> 00:00:07.000
+Prevoditelj: Eva Juretic
+Recezent: Zlatko Smetisko
+
+00:00:15.260 --> 00:00:18.260
+Ideja koja stoji iza Stuxnet računalnog crva
+
+00:00:18.260 --> 00:00:20.260
+zapravo je prilično jednostavna.
+
+00:00:20.260 --> 00:00:23.260
+Ne želimo da Iran proizvede atomsku bombu.
+
+00:00:23.260 --> 00:00:26.260
+Njihovo je glavno sredstvo za razvijanje nuklearnog oružja
+
+00:00:26.260 --> 00:00:30.260
+Natanz postrojenje za obogaćivanje urana.
+
+00:00:30.260 --> 00:00:32.260
+Sive kutije, koje vidite,
+
+00:00:32.260 --> 00:00:35.260
+jesu kontrolni sistemi.
+
+00:00:35.260 --> 00:00:38.260
+Ako uspijemo onesposobiti te sustave
+
+00:00:38.260 --> 00:00:41.260
+koji kontroliraju brzinu i ventile,
+
+00:00:41.260 --> 00:00:44.260
+možemo stvoriti puno problema
+
+00:00:44.260 --> 00:00:46.260
+s centrifugom.
+
+00:00:46.260 --> 00:00:48.260
+Sive kutije ne podržavaju Windows software;
+
+00:00:48.260 --> 00:00:51.260
+one koriste posve drugačiju tehnologiju.
+
+00:00:51.260 --> 00:00:53.260
+Ali ako uspijemo
+
+00:00:53.260 --> 00:00:56.260
+staviti dobar Windows virus
+
+00:00:56.260 --> 00:00:58.260
+na laptop
+
+00:00:58.260 --> 00:01:00.260
+koji koristi inženjer za održavanje sustava
+
+00:01:00.260 --> 00:01:03.260
+prilikom konfiguriranja sustava,
+
+00:01:03.260 --> 00:01:05.260
+na konju smo.
+
+00:01:05.260 --> 00:01:08.260
+I to je pozadina Stuxneta.
+
+00:01:08.260 --> 00:01:13.260
+Započinjemo Windows "dropper" virusom.
+
+00:01:13.260 --> 00:01:16.260
+Virus uđe u sivu kutiju,
+
+00:01:16.260 --> 00:01:18.260
+ošteti centrifugu
+
+00:01:18.260 --> 00:01:20.260
+i time odgodi iranski nuklearni program --
+
+00:01:20.260 --> 00:01:22.260
+misija završena.
+
+00:01:22.260 --> 00:01:24.260
+Jednostavno, zar ne?
+
+00:01:24.260 --> 00:01:27.260
+Želim vam objasniti kako smo to otkrili.
+
+00:01:27.260 --> 00:01:30.260
+Kada smo prije šest mjeseci započeli istraživati Stuxneta,
+
+00:01:30.260 --> 00:01:33.260
+svrha mu je bila potpuno nepoznata.
+
+00:01:33.260 --> 00:01:35.260
+Jedino što se znalo
+
+00:01:35.260 --> 00:01:38.260
+je njegov iznimno složen softverski dio, složen "dropper" dio
+
+00:01:38.260 --> 00:01:41.260
+te da koristi mnoge neotkrivene slabosti Windowsa.
+
+00:01:41.260 --> 00:01:44.260
+Činilo se kako želi nešto
+
+00:01:44.260 --> 00:01:46.260
+s tim sivim kutijama, odnosno s kontrolnim sustavom.
+
+00:01:46.260 --> 00:01:48.260
+To je privuklo našu pozornost,
+
+00:01:48.260 --> 00:01:50.260
+pa smo počeli s laboratorijskim projektom
+
+00:01:50.260 --> 00:01:54.260
+u kojem smo zarazili našu okolinu sa Stuxnetom
+
+00:01:54.260 --> 00:01:56.260
+i promatrali što se događa.
+
+00:01:56.260 --> 00:01:59.260
+Počele su se događati čudne stvari.
+
+00:01:59.260 --> 00:02:02.260
+Stuxnet se ponašao poput laboratorijskog štakora
+
+00:02:02.260 --> 00:02:05.260
+koji nije želio naš sir --
+
+00:02:05.260 --> 00:02:07.260
+pomirišao ga je, ali ga nije htio jesti.
+
+00:02:07.260 --> 00:02:09.260
+To nije imalo smisla.
+
+00:02:09.260 --> 00:02:12.260
+Nakon što smo eksperimentirali sa sirevima različitih okusa,
+
+00:02:12.260 --> 00:02:16.260
+shvatio sam kako se radi o direktnom napadu.
+
+00:02:16.260 --> 00:02:18.260
+Potpuno je režiran.
+
+00:02:18.260 --> 00:02:20.260
+"Dropper" se aktivno prikrada
+
+00:02:20.260 --> 00:02:22.260
+sivoj kutiji,
+
+00:02:22.260 --> 00:02:25.260
+ako pronađe određenu konfiguraciju
+
+00:02:25.260 --> 00:02:29.260
+i ako se program kojeg pokušava "zaraziti"
+
+00:02:29.260 --> 00:02:31.260
+odvija na željenoj meti.
+
+00:02:31.260 --> 00:02:34.260
+Ako ne, Stuxnet ne čini ništa.
+
+00:02:34.260 --> 00:02:36.260
+To je zaokupilo moju pažnju,
+
+00:02:36.260 --> 00:02:38.260
+i počeli smo neprestano
+
+00:02:38.260 --> 00:02:40.260
+raditi na tome
+
+00:02:40.260 --> 00:02:43.260
+jer sam mislio "Dobro, ne znamo što je meta.
+
+00:02:43.260 --> 00:02:45.260
+Mogla bi to biti, primjerice,
+
+00:02:45.260 --> 00:02:47.260
+američka nuklearna elektrana
+
+00:02:47.260 --> 00:02:49.260
+ili kemijsko postrojenje u Njemačkoj.
+
+00:02:49.260 --> 00:02:52.260
+Bolje nam je da što prije otkrijemo metu.
+
+00:02:52.260 --> 00:02:54.260
+Izdvojili smo i rastavili
+
+00:02:54.260 --> 00:02:56.260
+šifru napada
+
+00:02:56.260 --> 00:02:59.260
+te smo otkrili da je sastavljena u dvije digitalne bombe --
+
+00:02:59.260 --> 00:03:02.260
+manje i veće.
+
+00:03:02.260 --> 00:03:06.260
+Isto tako, shvatili smo da su ih vrlo profesionalno sastavili
+
+00:03:06.260 --> 00:03:10.260
+ljudi koji su očito imali informacije iznutra.
+
+00:03:10.260 --> 00:03:12.260
+Znali su sve sitnice
+
+00:03:12.260 --> 00:03:14.260
+koje su morali napasti.
+
+00:03:14.260 --> 00:03:17.260
+Vjerojatno su znali i veličinu cipela rukovaoca.
+
+00:03:17.260 --> 00:03:19.260
+Znali su sve.
+
+00:03:19.260 --> 00:03:22.260
+Ako ste čuli da je Stuxnetov program za instaliranje virusa
+
+00:03:22.260 --> 00:03:24.260
+kompeksan i visoko tehnološki razvijen,
+
+00:03:24.260 --> 00:03:26.260
+reći ću vam sljedeće:
+
+00:03:26.260 --> 00:03:28.260
+on je zapravo "kvantna fizika".
+
+00:03:28.260 --> 00:03:30.260
+Daleko je iznad svega
+
+00:03:30.260 --> 00:03:33.260
+što smo do sada vidjeli.
+
+00:03:33.260 --> 00:03:36.260
+Ovdje vidite uzorak stvarne šifre napada.
+
+00:03:36.260 --> 00:03:38.260
+Govorimo o
+
+00:03:38.260 --> 00:03:41.260
+otprilikie 15 tisuća redaka programskog koda.
+
+00:03:41.260 --> 00:03:44.260
+Izgleda kao stari asemblerski jezik.
+
+00:03:44.260 --> 00:03:46.260
+I želim vam reći kako smo uspjeli
+
+00:03:46.260 --> 00:03:48.260
+shvatiti smisao tog programskog koda.
+
+00:03:48.260 --> 00:03:51.260
+Prvo smo tražili pozive funkcija sistema
+
+00:03:51.260 --> 00:03:53.260
+jer smo znali što one rade.
+
+00:03:53.260 --> 00:03:57.260
+Onda smo tražili vremenske zapise i strukture podataka
+
+00:03:57.260 --> 00:03:59.260
+i pokušali ih povezati sa stvarnim svijetom --
+
+00:03:59.260 --> 00:04:01.260
+s potencijalnim metama iz stvarnog svijeta.
+
+00:04:01.260 --> 00:04:04.260
+Znači, ipak trebamo teorije o ciljevima
+
+00:04:04.260 --> 00:04:07.260
+kako bismo ih mogli dokazati ili opovrgnuti.
+
+00:04:07.260 --> 00:04:09.260
+Kako bi došli do teorija o ciljevima,
+
+00:04:09.260 --> 00:04:11.260
+trebamo imati na umu
+
+00:04:11.260 --> 00:04:13.260
+kako se sigurno radi o ozbiljnoj sabotaži,
+
+00:04:13.260 --> 00:04:15.260
+visoko vrijednom cilju
+
+00:04:15.260 --> 00:04:18.260
+koji se najvjerojatnije nalazi u Iranu
+
+00:04:18.260 --> 00:04:22.260
+jer je tamo prijavljen najveći broj zaraza ovim crvom.
+
+00:04:22.260 --> 00:04:25.260
+Nećete naći nekoliko tisuća meta u tom području.
+
+00:04:25.260 --> 00:04:27.260
+Načelno se to svodi
+
+00:04:27.260 --> 00:04:29.260
+na nuklearnu elektranu Bushehr
+
+00:04:29.260 --> 00:04:31.260
+i na pogon za obogaćivanje goriva Natanz.
+
+00:04:31.260 --> 00:04:33.260
+Rekao sam svom pomoćniku,
+
+00:04:33.260 --> 00:04:36.260
+"Nabavi mi popis svih stručnjaka za centrifuge i elektrane iz naše baze klijenata."
+
+00:04:36.260 --> 00:04:38.260
+Ja sam ih tada nazvao,
+
+00:04:38.260 --> 00:04:40.260
+te sam se potrudio ukopiti njihove spoznaje
+
+00:04:40.260 --> 00:04:43.260
+s onim što smo našli u programskom kodu i podacima.
+
+00:04:43.260 --> 00:04:45.260
+I to je funkcioniralo prilično dobro.
+
+00:04:45.260 --> 00:04:47.260
+Uspjeli smo povezati
+
+00:04:47.260 --> 00:04:49.260
+malu digitalnu bojnu glavu
+
+00:04:49.260 --> 00:04:51.260
+s kontrolom rotora.
+
+00:04:51.260 --> 00:04:54.260
+Rotor je ovaj pokretni dio unutar centrifuge,
+
+00:04:54.260 --> 00:04:56.260
+crni objekt koji vidite.
+
+00:04:56.260 --> 00:04:59.260
+Ako manipulirate brzinom tog rotora,
+
+00:04:59.260 --> 00:05:01.260
+u mogućnosti ste slomiti rotor
+
+00:05:01.260 --> 00:05:05.260
+i u konačnici postići eksploziju centrifuge.
+
+00:05:05.260 --> 00:05:07.260
+Također smo vidjeli
+
+00:05:07.260 --> 00:05:09.260
+da je cij napada
+
+00:05:09.260 --> 00:05:12.260
+učiniti to sporo i jezivo --
+
+00:05:12.260 --> 00:05:14.260
+očito u nadi
+
+00:05:14.260 --> 00:05:17.260
+da izludite inžinjere održavanja,
+
+00:05:17.260 --> 00:05:20.260
+kako ne bi bili u mogućnosti naći rješenje u kratkom roku.
+
+00:05:20.260 --> 00:05:23.260
+Veliku digitalnu bojnu glavu -- imali smo priliku
+
+00:05:23.260 --> 00:05:25.260
+pomno promatriti
+
+00:05:25.260 --> 00:05:27.260
+podatke i strukture podataka.
+
+00:05:27.260 --> 00:05:29.260
+Tako naprimjer, broj 164
+
+00:05:29.260 --> 00:05:31.260
+se zbilja ističe u tom kodu;
+
+00:05:31.260 --> 00:05:33.260
+ne možete ga previdjeti.
+
+00:05:33.260 --> 00:05:35.260
+Počeo sam istraživati znanstvenu literaturu
+
+00:05:35.260 --> 00:05:37.260
+i otkrio kako su centrifuge
+
+00:05:37.260 --> 00:05:39.260
+zapravo napravljene u Natanzu
+
+00:05:39.260 --> 00:05:41.260
+i saznao sam da su strukturirane
+
+00:05:41.260 --> 00:05:43.260
+u tzv. kaskadu,
+
+00:05:43.260 --> 00:05:47.260
+od kojih svaka sadrži 164 centrifuge.
+
+00:05:47.260 --> 00:05:49.260
+To je imalo smisla te se podudaralo.
+
+00:05:49.260 --> 00:05:51.260
+Čak je postalo bolje.
+
+00:05:51.260 --> 00:05:53.260
+Te su centrifuge u Iranu
+
+00:05:53.260 --> 00:05:57.260
+podijeljene u 15 tzv. faza.
+
+00:05:57.260 --> 00:05:59.260
+Pogodite što smo našli u kodu napada?
+
+00:05:59.260 --> 00:06:01.260
+Gotovo identičnu strukturu.
+
+00:06:01.260 --> 00:06:04.260
+Dakle, to je bila odlična podudarnost.
+
+00:06:04.260 --> 00:06:07.260
+To nam je dalo veliko samopouzdanje u ono što smo proučavali.
+
+00:06:07.260 --> 00:06:10.260
+Nemojte me pogrešno shvatiti, nije išlo lako.
+
+00:06:10.260 --> 00:06:13.260
+Ovi rezultati dobiveni su
+
+00:06:13.260 --> 00:06:16.260
+tijekom nekoliko tjedana zaista teškog rada.
+
+00:06:16.260 --> 00:06:19.260
+I često bi došli do mrtve točke i
+
+00:06:19.260 --> 00:06:21.260
+trebali smo se vratiti natrag.
+
+00:06:21.260 --> 00:06:23.260
+Tako smo shvatili
+
+00:06:23.260 --> 00:06:25.260
+kako su obje digitalne bojne glave
+
+00:06:25.260 --> 00:06:27.260
+zapravo usmjerene na jedan cilj,
+
+00:06:27.260 --> 00:06:29.260
+ali iz različitih kutova.
+
+00:06:29.260 --> 00:06:32.260
+Mala bojna glava zauzima jednu kaskadu,
+
+00:06:32.260 --> 00:06:35.260
+okreće rotore te ih usporava,
+
+00:06:35.260 --> 00:06:37.260
+a velika bojna glava
+
+00:06:37.260 --> 00:06:39.260
+komunicira sa šest kaskada
+
+00:06:39.260 --> 00:06:41.260
+i manipulira ventilima.
+
+00:06:41.260 --> 00:06:43.260
+Dakle jedino u što smo sigurni
+
+00:06:43.260 --> 00:06:45.260
+je da smo zapravo odredili što je cilj.
+
+00:06:45.260 --> 00:06:48.260
+To je Natanz, i to samo Natanz.
+
+00:06:48.260 --> 00:06:50.260
+Ne moramo se brinuti
+
+00:06:50.260 --> 00:06:52.260
+oko drugih meta
+
+00:06:52.260 --> 00:06:54.260
+koje bi mogle biti pogođene Stuxnetom.
+
+00:06:54.260 --> 00:06:57.260
+Evo neke zgodne stvari koju smo uočili --
+
+00:06:57.260 --> 00:06:59.260
+koja me zaista iznenadila.
+
+00:06:59.260 --> 00:07:01.260
+Tu dolje je siva kutija,
+
+00:07:01.260 --> 00:07:04.260
+a na vrhu vidite centrifuge.
+
+00:07:04.260 --> 00:07:06.260
+E sad, ono što ta stvar radi
+
+00:07:06.260 --> 00:07:09.260
+je hvatanje ulaznih vrijednosti sa senzora --
+
+00:07:09.260 --> 00:07:11.260
+tako da se na primjer, sa senzora za pritisak
+
+00:07:11.260 --> 00:07:13.260
+i senzora za vibraciju
+
+00:07:13.260 --> 00:07:16.260
+stvara pravi programski kod
+
+00:07:16.260 --> 00:07:18.260
+koji još uvijek radi za vrijeme napada
+
+00:07:18.260 --> 00:07:20.260
+s lažnim ulaznim podacima.
+
+00:07:20.260 --> 00:07:22.260
+Zapravo su ovi lažni ulazni podaci
+
+00:07:22.260 --> 00:07:25.260
+unaprijed snimljni od strane Stuxneta.
+
+00:07:25.260 --> 00:07:27.260
+To je baš kao u Hollywoodskim filmovima
+
+00:07:27.260 --> 00:07:29.260
+gdje za vrijeme pljačke
+
+00:07:29.260 --> 00:07:32.260
+sigurnosna kamera prikazuje prethodno snimljeni video.
+
+00:07:32.260 --> 00:07:34.260
+To je cool, zar ne?
+
+00:07:35.260 --> 00:07:37.260
+Ovdje očito ideja nije
+
+00:07:37.260 --> 00:07:40.260
+samo zavarati operatere u kontrolnoj sobi.
+
+00:07:40.260 --> 00:07:44.260
+Zapravo je mnogo opasnija i agresivnija.
+
+00:07:44.260 --> 00:07:46.260
+Ideja je
+
+00:07:46.260 --> 00:07:49.260
+nadmudriti digitalni sigurnosni sustav.
+
+00:07:50.260 --> 00:07:52.260
+Trebamo digitalne sigurnosne sustave
+
+00:07:52.260 --> 00:07:55.260
+tamo gdje ljudi ne mogu djelovati dovoljno brzo.
+
+00:07:55.260 --> 00:07:57.260
+Na primjer, u elektrani,
+
+00:07:57.260 --> 00:08:00.260
+gdje velika parna turbina dobiva veliko ubrzanje,
+
+00:08:00.260 --> 00:08:03.260
+morate otvoriti ventile unutar milisekunde.
+
+00:08:03.260 --> 00:08:06.260
+Očito da to ne može obaviti čovjek.
+
+00:08:06.260 --> 00:08:08.260
+Stoga su tu digitalni sigurnosni sistemi zaista potrebni.
+
+00:08:08.260 --> 00:08:10.260
+A kada su kompromitirani,
+
+00:08:10.260 --> 00:08:13.260
+mogu se dogoditi stvarno loše stvari.
+
+00:08:13.260 --> 00:08:15.260
+Vaša elektrana može eksplodirati.
+
+00:08:15.260 --> 00:08:18.260
+A ni vaši operateri niti vaš sigurnosni sistem neće to uočiti.
+
+00:08:18.260 --> 00:08:20.260
+To je strašno.
+
+00:08:20.260 --> 00:08:22.260
+I postaje još gore.
+
+00:08:22.260 --> 00:08:25.260
+Ovo što ću sada reći jako je bitno.
+
+00:08:25.260 --> 00:08:27.260
+Razmislite o ovome:
+
+00:08:27.260 --> 00:08:30.260
+ovaj napad je opći.
+
+00:08:30.260 --> 00:08:34.260
+Nema neke konkretne veze
+
+00:08:34.260 --> 00:08:36.260
+sa centrifugama
+
+00:08:36.260 --> 00:08:39.260
+niti s obogaćivanjem urana.
+
+00:08:39.260 --> 00:08:42.260
+Tako da bi mogao funkcionirao, na primjer,
+
+00:08:42.260 --> 00:08:44.260
+u elektrani
+
+00:08:44.260 --> 00:08:47.260
+ili u automobilskoj tvornici.
+
+00:08:47.260 --> 00:08:49.260
+On je opći.
+
+00:08:49.260 --> 00:08:51.260
+Ne morate -- kao napadač --
+
+00:08:51.260 --> 00:08:54.260
+dostaviti virus
+
+00:08:54.260 --> 00:08:56.260
+preko USB stick-a
+
+00:08:56.260 --> 00:08:58.260
+kao u slučaju Stuxneta.
+
+00:08:58.260 --> 00:09:01.260
+Možete koristiti i uobičajenu metodu zaraze računala putem crva.
+
+00:09:01.260 --> 00:09:04.260
+Samo ga proširite što je više moguće.
+
+00:09:04.260 --> 00:09:06.260
+Ako to učinite,
+
+00:09:06.260 --> 00:09:08.260
+kao rezultat dobit ćete
+
+00:09:08.260 --> 00:09:13.260
+virtualno oružje za masovno uništenje.
+
+00:09:14.260 --> 00:09:16.260
+To je posljedica
+
+00:09:16.260 --> 00:09:19.260
+s kojom se moramo suočiti.
+
+00:09:19.260 --> 00:09:22.260
+Tako da nažalost,
+
+00:09:22.260 --> 00:09:25.260
+najveći broj meta za takve napade
+
+00:09:25.260 --> 00:09:27.260
+nije na Bliskom Istoku.
+
+00:09:27.260 --> 00:09:30.260
+One su u Sjedinjenim Američkim Državama, Europi i Japanu.
+
+00:09:30.260 --> 00:09:32.260
+Sva zelena područja,
+
+00:09:32.260 --> 00:09:35.260
+to su vaše mete.
+
+00:09:35.260 --> 00:09:38.260
+Moramo se součiti s posljedicama,
+
+00:09:38.260 --> 00:09:41.260
+i bolje nam je da se odmah pripremimo na njih.
+
+00:09:41.260 --> 00:09:43.260
+Hvala.
+
+00:09:43.260 --> 00:09:49.260
+(Pljesak)
+
+00:09:49.260 --> 00:09:51.260
+Chris Anderson: Imam pitanje.
+
+00:09:53.260 --> 00:09:55.260
+Ralph, poprilično je zastupljeno mišljenje,
+
+00:09:55.260 --> 00:09:57.260
+ljudi pretpostavljaju da se Mossad
+
+00:09:57.260 --> 00:09:59.260
+krije iza svega.
+
+00:09:59.260 --> 00:10:02.260
+Dijelite li i Vi to mišljenje?
+
+00:10:02.260 --> 00:10:04.260
+Ralph Langner: U redu, stvarno želite čuti?
+
+00:10:04.260 --> 00:10:06.260
+Da, onda uredu.
+
+00:10:06.260 --> 00:10:09.260
+Moje mišljenje je da Mossad je umiješan,
+
+00:10:09.260 --> 00:10:12.260
+ali Izrael nije vodeća sila.
+
+00:10:12.260 --> 00:10:14.260
+Vodeća sila koja stoji iza svega
+
+00:10:14.260 --> 00:10:17.260
+je virtualna supersila.
+
+00:10:17.260 --> 00:10:19.260
+Samo je jedna takva,
+
+00:10:19.260 --> 00:10:21.260
+Sjedinjene Američke Države --
+
+00:10:21.260 --> 00:10:23.260
+na sreću.
+
+00:10:23.260 --> 00:10:25.260
+U protivnom
+
+00:10:25.260 --> 00:10:28.260
+naši bi problemi bili još veći.
+
+00:10:28.260 --> 00:10:32.260
+CA: Hvala vam što ste nas tako isprepadali. Hvala, Ralph.
+
+00:10:32.260 --> 00:10:34.260
+(Pljesak)
+

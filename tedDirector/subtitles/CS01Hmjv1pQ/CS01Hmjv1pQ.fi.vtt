@@ -1,0 +1,763 @@
+WEBVTT
+Kind: captions
+Language: fi
+
+00:00:00.000 --> 00:00:07.000
+Kääntäjä: Valtteri Tamminen
+Oikolukija: Sami Niskanen
+
+00:00:11.820 --> 00:00:14.820
+Stuxnet-madon idea
+
+00:00:14.820 --> 00:00:16.820
+on oikestaan yksinkertainen.
+
+00:00:16.820 --> 00:00:19.820
+Emme halua että Iran saa ydinaseita.
+
+00:00:19.820 --> 00:00:22.820
+Tärkein laitos niitten 
+kehittämiseen Iranissa
+
+00:00:22.820 --> 00:00:26.820
+on Natanzin väkevöintilaitos
+
+00:00:26.820 --> 00:00:28.820
+Nämä harmaat laatikot
+
+00:00:28.820 --> 00:00:31.820
+ovat reaaliaikaisia ohjausjärjestelmiä.
+
+00:00:31.820 --> 00:00:34.820
+Jos sisälle näihin järjestelmiin,
+
+00:00:34.820 --> 00:00:37.820
+jotka kontroloivat koneen
+nopeutta ja venttiilejä,
+
+00:00:37.820 --> 00:00:40.820
+voimme aiheuttaa paljon ongelmia
+
+00:00:40.820 --> 00:00:42.820
+lingolle.
+
+00:00:42.820 --> 00:00:44.820
+Nämä laatikot eivät käytä Windowsia
+
+00:00:44.820 --> 00:00:47.820
+vaan ihan eri teknologiaa.
+
+00:00:47.820 --> 00:00:49.820
+Mutta jos pystymme
+
+00:00:49.820 --> 00:00:52.820
+laittamaan hyvän Windows-viruksen
+
+00:00:52.820 --> 00:00:54.820
+läppärille,
+
+00:00:54.820 --> 00:00:56.820
+jota huoltoinsinööri käyttää
+
+00:00:56.820 --> 00:00:59.820
+laatikon konfiguroimiseen,
+
+00:00:59.820 --> 00:01:01.820
+sitten meillä on homma hanskassa.
+
+00:01:01.820 --> 00:01:04.820
+Tämä on Stuxnetin juoni
+
+00:01:04.820 --> 00:01:09.820
+Aloitamme Windows-tiputtimella.
+
+00:01:09.820 --> 00:01:12.820
+Hyötökuorma menee siihen laatikkoon,
+
+00:01:12.820 --> 00:01:14.820
+tuhoaa lingon,
+
+00:01:14.820 --> 00:01:18.240
+ja Iranin ydinohjelma viivästyy -
+
+00:01:18.280 --> 00:01:19.860
+tehtävä suoritettu.
+
+00:01:20.140 --> 00:01:21.600
+Helppoa, eikö?
+
+00:01:21.700 --> 00:01:23.820
+Haluan kertoa miten saimme tämän selville.
+
+00:01:23.820 --> 00:01:26.820
+Kun aloitimme Stuxnetin 
+tutkimisen 6 kuukautta sitten,
+
+00:01:26.820 --> 00:01:29.820
+sen tehtävä oli meille täysin epäselvä.
+
+00:01:29.820 --> 00:01:31.820
+Ainoa tieto, mikä meillä oli,
+
+00:01:31.820 --> 00:01:34.820
+oli että se on erittäin monimutkainen 
+Windowsin kohdalla, tiputtimella
+
+00:01:34.820 --> 00:01:37.820
+käytti monta nollapäivän aukkoa
+
+00:01:37.820 --> 00:01:40.820
+ja vaikutti siltä että se 
+halusi tehdä jotain
+
+00:01:40.820 --> 00:01:42.820
+näille harmaille laatikoille,
+reaaliaikaisille ohjaukselle.
+
+00:01:42.820 --> 00:01:44.820
+Se sai meidän huomion,
+
+00:01:44.820 --> 00:01:46.820
+ja aloitimme projektin,
+
+00:01:46.820 --> 00:01:50.820
+jossa laitoimme omiin 
+koneisiimme Stuxnetin
+
+00:01:50.820 --> 00:01:52.820
+ja katsoimme mitä tapahtuu.
+
+00:01:52.820 --> 00:01:55.820
+Ja sitten jotain hauskaa tapahtui.
+
+00:01:55.820 --> 00:01:58.820
+Stuxnet oli kuin rotta,
+
+00:01:58.820 --> 00:02:01.820
+joka ei tykännyt meidän juustosta,
+
+00:02:01.820 --> 00:02:03.820
+se nuuski, mutta ei haukannut palaakaan.
+
+00:02:03.820 --> 00:02:05.820
+Se ei ollut minun mielestä järkevää.
+
+00:02:05.820 --> 00:02:08.820
+sen jälkeen kun kokeilimme 
+monta eri juustoa
+
+00:02:08.820 --> 00:02:12.820
+huomasin että tämä on suunnattu hyökkäys.
+
+00:02:12.820 --> 00:02:14.820
+Täysin suunnattu.
+
+00:02:14.820 --> 00:02:16.820
+Tiputin etsii jatkuvasti
+
+00:02:16.820 --> 00:02:18.820
+harmaassa laatikossa,
+
+00:02:18.820 --> 00:02:21.820
+kunnes löytää tietyn kokoonpanon
+
+00:02:21.820 --> 00:02:25.820
+vaikka alkuperäinen ohjelmakoodi
+
+00:02:25.820 --> 00:02:27.820
+on kohteessa.
+
+00:02:27.820 --> 00:02:30.820
+ja jos ei, Stuxnet ei tee mitään
+
+00:02:30.820 --> 00:02:32.820
+Se sai huomioni
+
+00:02:32.820 --> 00:02:34.820
+ja aloimme tutkia tätä
+
+00:02:34.820 --> 00:02:36.820
+lähes ympäri vuorokauden
+
+00:02:36.820 --> 00:02:39.820
+koska ajattelin, "Emme 
+tiedä mikä tämän kohde on.
+
+00:02:39.820 --> 00:02:41.820
+Se voisi esimerkiksi olla
+
+00:02:41.820 --> 00:02:43.820
+voimalaitos USAssa,
+
+00:02:43.820 --> 00:02:45.820
+tai kemikaalitehdas Saksassa."
+
+00:02:45.820 --> 00:02:48.820
+Joten meidän on paras keksiä 
+tämän kohteen ja äkkiä.
+
+00:02:48.820 --> 00:02:50.820
+Kopioimme ja purimme
+
+00:02:50.820 --> 00:02:52.820
+hyökkäyskoodin,
+
+00:02:52.820 --> 00:02:55.820
+ja löysimme kaksi digitaalsita pommia -
+
+00:02:55.820 --> 00:02:58.820
+pienemmän ja suuremman.
+
+00:02:58.820 --> 00:03:02.820
+Näimme että ammattitaitoinen 
+ryhmä oli tehnyt tämän viruksen
+
+00:03:02.820 --> 00:03:06.820
+ja että heillä oli paljon sisäpiiritietoa.
+
+00:03:06.820 --> 00:03:08.820
+He tunsivat kaikki bitit ja tavut,
+
+00:03:08.820 --> 00:03:10.820
+joihin heidän piti hyökätä
+
+00:03:10.820 --> 00:03:13.820
+He tunsivat varmaan 
+käyttäjän kengänkoonkin.
+
+00:03:13.820 --> 00:03:15.820
+Eli he tiesivät kaiken.
+
+00:03:15.820 --> 00:03:18.820
+Ja jos olet kuullut että Stuxnet:n tiputin
+
+00:03:18.820 --> 00:03:20.820
+on monimutkainen,
+
+00:03:20.820 --> 00:03:22.820
+sanokaa minun sanoneen,
+
+00:03:22.820 --> 00:03:24.820
+hyötykuorma on kuin rakettitiedettä.
+
+00:03:24.820 --> 00:03:26.820
+Se on yli kaiken
+
+00:03:26.820 --> 00:03:29.820
+mitä olemme koskaan nähneet.
+
+00:03:29.820 --> 00:03:32.820
+Tässä on näyte sen hyökkäyskoodista.
+
+00:03:32.820 --> 00:03:34.820
+Puhutaan nyt
+
+00:03:34.820 --> 00:03:37.820
+noin 15 000 rivistä koodia
+
+00:03:37.820 --> 00:03:40.820
+Se näyttää vanhanaikaiselta 
+kookoonpanokoodilta
+
+00:03:40.820 --> 00:03:42.820
+Ja haluan kertoa nyt
+
+00:03:42.820 --> 00:03:44.820
+miten saimme tästä selvää.
+
+00:03:44.820 --> 00:03:47.820
+Etsimme ensinnäkin 
+järjestelmän funktiokutsua,
+
+00:03:47.820 --> 00:03:49.820
+koska tiedämme mitä ne tekevät.
+
+00:03:49.820 --> 00:03:53.820
+Ja sitten etsimme tietorakenteita
+
+00:03:53.820 --> 00:03:55.820
+ja yritimme yhdistää ne tosielämään
+
+00:03:55.820 --> 00:03:57.820
+ja mahdollisiin kohteisiin.
+
+00:03:57.820 --> 00:04:00.820
+Tarvitsemme kohdeteorioita,
+
+00:04:00.820 --> 00:04:03.820
+joita voimme todistaa tai kumota.
+
+00:04:03.820 --> 00:04:05.820
+Saadaksemme mahdollisia kohteita
+
+00:04:05.820 --> 00:04:07.820
+muistamme
+
+00:04:07.820 --> 00:04:09.820
+se on varmasti sabotaasia,
+
+00:04:09.820 --> 00:04:11.820
+sen on pakko olla suuri arvokohde
+
+00:04:11.820 --> 00:04:14.820
+ja se on todennäköisesti Iranissa,
+
+00:04:14.820 --> 00:04:18.820
+koska suurin osa viruksista oli siellä.
+
+00:04:18.820 --> 00:04:21.820
+Siellä ei ole monta tuhatta kohdetta.
+
+00:04:21.820 --> 00:04:23.820
+Siellä on periaatteessa vain
+
+00:04:23.820 --> 00:04:25.820
+Bushehrin ydinvoimala
+
+00:04:25.820 --> 00:04:27.820
+ja Natanzin väkevöintilaitos.
+
+00:04:27.820 --> 00:04:29.820
+Joten kerroin avustajalleni
+
+00:04:29.820 --> 00:04:32.820
+"Hanki lista meidän kiihdytin- ja 
+voimala-asiantuntioista"
+
+00:04:32.820 --> 00:04:34.820
+Joten soitin heille ja esitin kysymyksiä
+
+00:04:34.820 --> 00:04:36.820
+sovittaakseni heidän tietonsa
+
+00:04:36.820 --> 00:04:39.820
+siihen, mitä löysimme koodista j datasta.
+
+00:04:39.820 --> 00:04:41.820
+ja se toimi hyvin,
+
+00:04:41.820 --> 00:04:43.820
+joten pystyimme liittämään
+
+00:04:43.820 --> 00:04:45.820
+pienemmän pommin
+
+00:04:45.820 --> 00:04:47.820
+roottorinohjaukseen.
+
+00:04:47.820 --> 00:04:50.820
+Roottori on lingon liikkuva osa,
+
+00:04:50.820 --> 00:04:52.820
+musta osa, jonka näette.
+
+00:04:52.820 --> 00:04:55.820
+Ja jos sen nopeutta manipuloidaan
+
+00:04:55.820 --> 00:04:57.820
+voit särkeä roottorin
+
+00:04:57.820 --> 00:05:01.820
+ja linko voi räjähtää.
+
+00:05:01.820 --> 00:05:03.820
+Näimme myös,
+
+00:05:03.820 --> 00:05:05.820
+että hyökkäyksen tavoite
+
+00:05:05.820 --> 00:05:08.820
+oli tehdä tämä kaikki hitaasti 
+ja kummallisella tavalla
+
+00:05:08.820 --> 00:05:10.820
+selvästi siksi, että se
+
+00:05:10.820 --> 00:05:13.820
+ajaisi kunnosapitoinsinöörit hulluksi,
+
+00:05:13.820 --> 00:05:16.820
+jotta he eivät keksisi syytä heti.
+
+00:05:16.820 --> 00:05:19.820
+Keksimme ison pommin tarkoituksen
+
+00:05:19.820 --> 00:05:21.820
+katsomalla tarkaan
+
+00:05:21.820 --> 00:05:23.820
+sen dataa ja rakennetta.
+
+00:05:23.820 --> 00:05:25.820
+Esimerkiksi numero 164
+
+00:05:25.820 --> 00:05:27.820
+erottuu tästä koodista,
+
+00:05:27.820 --> 00:05:29.820
+sitä ei voi olla huomaamatta.
+
+00:05:29.820 --> 00:05:31.820
+Aloitin tutkia tieteellistä kirjallisuutta
+
+00:05:31.820 --> 00:05:33.820
+näitten linkojen
+
+00:05:33.820 --> 00:05:35.820
+rakentamisesta Natanzissa,
+
+00:05:35.820 --> 00:05:37.820
+ja sain tietää, että ne ovat organisoitu
+
+00:05:37.820 --> 00:05:39.820
+niin kutsutuiksi ryöpyiksi,
+
+00:05:39.820 --> 00:05:43.820
+ja jokaisessa on 164 linkoa.
+
+00:05:43.820 --> 00:05:45.820
+Joten se selvästi sopi kuvaan.
+
+00:05:45.820 --> 00:05:47.820
+ja se parani vielä tästä.
+
+00:05:47.820 --> 00:05:49.820
+Nämä lingot Iranissa
+
+00:05:49.820 --> 00:05:53.820
+on jaettu 15 eri "lavaan"
+
+00:05:53.820 --> 00:05:55.820
+Ja arvatkaa mitä löysin hyökkäyskoodista?
+
+00:05:55.820 --> 00:05:57.820
+Lähes identtisen rakenteen.
+
+00:05:57.820 --> 00:06:00.820
+Sekin sopi hyvin kuvaan.
+
+00:06:00.820 --> 00:06:03.820
+Tästä syystä olimme varmoja sen tehtävästä.
+
+00:06:03.820 --> 00:06:06.820
+Se ei kyllä mennyt ihan näin nopeasti.
+
+00:06:06.820 --> 00:06:09.820
+Sillä nämä tulokset saatiin
+
+00:06:09.820 --> 00:06:12.820
+monen viikon kovan urakan jälkeen
+
+00:06:12.820 --> 00:06:15.820
+ja monesti jouduimme umpikujaan
+
+00:06:15.820 --> 00:06:17.820
+ja jouduimme palaamaan.
+
+00:06:17.820 --> 00:06:19.820
+Mutta keksimme,
+
+00:06:19.820 --> 00:06:21.820
+että molemmat digitaaliset pommit
+
+00:06:21.820 --> 00:06:23.820
+tähtäsivät samaan kohteeseen
+
+00:06:23.820 --> 00:06:25.820
+mutta eri suunnista.
+
+00:06:25.820 --> 00:06:28.820
+Pieni pommi valitsee yhden kaskadin
+
+00:06:28.820 --> 00:06:31.820
+ja nopeuttaa sekä hidastaa roottoreitta
+
+00:06:31.820 --> 00:06:33.820
+kunnes taas iso pommi
+
+00:06:33.820 --> 00:06:35.820
+manipuloi jokaista
+
+00:06:35.820 --> 00:06:37.820
+kuutta venttiiliä.
+
+00:06:37.820 --> 00:06:39.820
+Kaiken kaikkiaan olemme tyytyväisiä,
+
+00:06:39.820 --> 00:06:41.820
+että olemme löytäneet viruksen kohteen.
+
+00:06:41.820 --> 00:06:44.820
+Se on Natanzissa ja vain Natanzissa.
+
+00:06:44.820 --> 00:06:46.820
+Joten ei tarvitse huolehtia
+
+00:06:46.820 --> 00:06:48.820
+muista kohteista
+
+00:06:48.820 --> 00:06:50.820
+johon Stuxnet voisi kohdistua.
+
+00:06:50.820 --> 00:06:53.820
+Ja tässä on jotain jännää mitä löysimme,
+
+00:06:53.820 --> 00:06:55.820
+joka löi minut ällikällä.
+
+00:06:55.820 --> 00:06:57.820
+Tässä näkyy harmaa laatikko,
+
+00:06:57.820 --> 00:07:00.820
+jonka päällä näkyy lingot.
+
+00:07:00.820 --> 00:07:02.820
+Tämä laatikko oikeastaan
+
+00:07:02.820 --> 00:07:05.820
+sieppaa sensorien lähettämän datan
+
+00:07:05.820 --> 00:07:07.820
+esimerkiksi painesensoreilta
+
+00:07:07.820 --> 00:07:09.820
+ja värinäsensoreilta -
+
+00:07:09.820 --> 00:07:12.820
+ja näyttää oikealle ohjelmakoodille,
+
+00:07:12.820 --> 00:07:14.820
+joka toimii vielä hyökkäyksen aikana,
+
+00:07:14.820 --> 00:07:16.820
+väärää dataa.
+
+00:07:16.820 --> 00:07:18.820
+Ja tämä väärä data,
+
+00:07:18.820 --> 00:07:21.820
+on oikeastaan Stuxnetin nauhoittamaa.
+
+00:07:21.820 --> 00:07:23.820
+Eli se on kuin Hollywood-leffoissa,
+
+00:07:23.820 --> 00:07:25.820
+jossa ryöstön aikana
+
+00:07:25.820 --> 00:07:28.820
+turvakameroille näytetään 
+nauhoitettua videota.
+
+00:07:28.820 --> 00:07:30.820
+Aika jännää, eikö?
+
+00:07:31.820 --> 00:07:33.820
+Idea tässä on selvästi
+
+00:07:33.820 --> 00:07:36.820
+ei ainoastaan hämätä 
+ohjaushuoneen insinöörejä.
+
+00:07:36.820 --> 00:07:40.820
+Se on oikeastaan paljon 
+vaarallisempi ja agressiivisempi.
+
+00:07:40.820 --> 00:07:42.820
+Ideana on
+
+00:07:42.820 --> 00:07:45.820
+kiertää digitaalinen puolustusjärjestelmä.
+
+00:07:46.820 --> 00:07:48.820
+Nämä puolustusjärjestelmät ovat tärkeitä
+
+00:07:48.820 --> 00:07:51.820
+koska ihminen ei pysty 
+reagoimaan tarpeeksi nopeasti
+
+00:07:51.820 --> 00:07:53.820
+Esimerkiksi voimalassa,
+
+00:07:53.820 --> 00:07:56.820
+kun höyryturbiini pyörii liian nopeasti,
+
+00:07:56.820 --> 00:07:59.820
+venttiilien pitäisi aueta 
+millisekunnissa.
+
+00:07:59.820 --> 00:08:02.820
+Tähän ei voi siis käyttää 
+ihmistä ohjaukseen.
+
+00:08:02.820 --> 00:08:04.820
+Tähän siis tarvitaan näitä järjestelmiä,
+
+00:08:04.820 --> 00:08:06.820
+ja kun ne eivät toimi,
+
+00:08:06.820 --> 00:08:09.820
+todellakin huonoja tuloksia saatta syntyä.
+
+00:08:09.820 --> 00:08:11.820
+Voimala voi räjähtää.
+
+00:08:11.820 --> 00:08:14.820
+Ja ohjaajat eivätkä 
+puolustusjärjestelmät huomaa.
+
+00:08:14.820 --> 00:08:16.820
+Aika pelottavaa.
+
+00:08:16.820 --> 00:08:18.820
+Mutta tarina muuttuu pahemmaksi.
+
+00:08:18.820 --> 00:08:21.820
+Ja mitä sanon nyt, on erittäin tärkeää.
+
+00:08:21.820 --> 00:08:23.820
+Miettikää tätä:
+
+00:08:23.820 --> 00:08:26.820
+Tämä on yleinen hyökkäys.
+
+00:08:26.820 --> 00:08:30.820
+Sillä ei ole mitään tekemistä 
+
+00:08:30.820 --> 00:08:32.820
+linkojen tai
+
+00:08:32.820 --> 00:08:35.820
+uraanin jalostamisen kanssa.
+
+00:08:35.820 --> 00:08:38.820
+Se toimisi yhtä hyvin esimerkiksi
+
+00:08:38.820 --> 00:08:40.820
+voimalassa
+
+00:08:40.820 --> 00:08:43.820
+tai autotehtaassa.
+
+00:08:43.820 --> 00:08:45.820
+Se on erittäin yleinen.
+
+00:08:45.820 --> 00:08:47.820
+Ja hyökkääjänä ei tarvi
+
+00:08:47.820 --> 00:08:50.820
+toimittaa virusta
+
+00:08:50.820 --> 00:08:52.820
+USB-tikkua käyttäen,
+
+00:08:52.820 --> 00:08:54.820
+kuten Stuxnetissä.
+
+00:08:54.820 --> 00:08:57.820
+Voi myös käyttää perinteistä 
+tietokonevirusteknologiaa
+
+00:08:57.820 --> 00:09:00.820
+Ja levittää se niin 
+laajalti kuin mahdollista.
+
+00:09:00.820 --> 00:09:02.820
+Ja jos teet sen,
+
+00:09:02.820 --> 00:09:04.820
+sinulla on hallussasi
+
+00:09:04.820 --> 00:09:09.820
+kyberjoukkotuhoase.
+
+00:09:10.820 --> 00:09:12.820
+Ja se on seuraus,
+
+00:09:12.820 --> 00:09:15.820
+joka meidän täytyy kohdata.
+
+00:09:15.820 --> 00:09:18.820
+Joten valitettavasti
+
+00:09:18.820 --> 00:09:21.820
+suurin osa tällaisista kohteista
+
+00:09:21.820 --> 00:09:23.820
+eivät ole Lähi-Idässä.
+
+00:09:23.820 --> 00:09:26.820
+Vaan Yhdysvalloissa, 
+Euroopassa ja Japanissa.
+
+00:09:26.820 --> 00:09:28.820
+Eli kaikilla vihreillä alueilla
+
+00:09:28.820 --> 00:09:31.820
+on eniten kohteita.
+
+00:09:31.820 --> 00:09:34.820
+Meidän täytyy kohdata seurakset
+
+00:09:34.820 --> 00:09:37.820
+ja ruveta valmistautumaan niitä varten.
+
+00:09:37.820 --> 00:09:39.820
+Kiitos.
+
+00:09:39.820 --> 00:09:45.820
+(Aplodeja)
+
+00:09:45.820 --> 00:09:47.820
+Chris Anderson: Minulla on kysymys.
+
+00:09:49.820 --> 00:09:51.820
+Ralph, on uutisoitu että,
+
+00:09:51.820 --> 00:09:53.820
+Mossad on todennäköisesti
+
+00:09:53.820 --> 00:09:55.820
+tämän pääarkkitehti.
+
+00:09:55.820 --> 00:09:58.820
+Onko se sinunkin mielipide?
+
+00:09:58.820 --> 00:10:00.820
+Ralph Langner: Okei, 
+haluatteko oieasti tietää?
+
+00:10:00.820 --> 00:10:02.820
+Joo. Okei.
+
+00:10:02.820 --> 00:10:05.820
+Minun mielipiteeni, on että 
+Mossad on ollut osana tätä
+
+00:10:05.820 --> 00:10:08.820
+mutta pääarkkitehti ei ollut Israel.
+
+00:10:08.820 --> 00:10:10.820
+Vaan se on
+
+00:10:10.820 --> 00:10:13.820
+on kybersupervalta.
+
+00:10:13.820 --> 00:10:15.820
+Niitä on vain yksi,
+
+00:10:15.820 --> 00:10:17.820
+Yhdysvallat -
+
+00:10:17.820 --> 00:10:19.820
+Onneksi, onneksi.
+
+00:10:19.820 --> 00:10:21.820
+Koska muuten
+
+00:10:21.820 --> 00:10:24.820
+meillä olisi suurempia ongelmia
+
+00:10:24.820 --> 00:10:30.150
+CA: Kiitos kun säikäytit meidät 
+kaikki kunnolla. Kiitos, Ralph.
+

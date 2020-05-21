@@ -1,0 +1,479 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Denise RQ
+Revisor: Sebastian Betti
+
+00:00:12.564 --> 00:00:16.208
+Mis alumnos y yo trabajamos
+con robots muy pequeños.
+
+00:00:16.209 --> 00:00:18.425
+Podemos verlos como
+versiones robóticas
+
+00:00:18.426 --> 00:00:21.716
+de algo con lo que todos estamos
+muy familiarizados: una hormiga.
+
+00:00:21.716 --> 00:00:24.775
+Todos sabemos que las hormigas
+y otros insectos de este tamaño
+
+00:00:24.776 --> 00:00:27.011
+pueden hacer cosas
+bastante asombrosas.
+
+00:00:27.012 --> 00:00:30.196
+Todos hemos visto a un grupo
+de hormigas, o algo similar,
+
+00:00:30.197 --> 00:00:34.466
+cargando patatas fritas
+en un picnic, por ejemplo.
+
+00:00:34.467 --> 00:00:37.909
+¿Pero cuáles son los verdaderos
+desafíos para construir estas hormigas?
+
+00:00:37.910 --> 00:00:41.860
+Bueno, en primer lugar, ¿cómo conseguimos
+tener las capacidades de una hormiga
+
+00:00:41.861 --> 00:00:43.579
+en un robot del mismo tamaño?
+
+00:00:43.579 --> 00:00:46.512
+Bueno, primero tenemos que averiguar
+cómo hacer que se muevan
+
+00:00:46.513 --> 00:00:47.743
+siendo tan pequeños.
+
+00:00:47.743 --> 00:00:50.442
+Necesitamos mecanismos
+como piernas y motores eficientes
+
+00:00:50.442 --> 00:00:52.181
+para apoyar la locomoción.
+
+00:00:52.181 --> 00:00:54.562
+y sensores, energía y control
+
+00:00:54.563 --> 00:00:58.055
+para juntar todo en un robot hormiga
+semi-inteligente.
+
+00:00:58.055 --> 00:01:01.070
+Y, por último, para hacer
+que estas cosas realmente funcionen,
+
+00:01:01.071 --> 00:01:05.019
+queremos que la mayoría trabajen juntos
+para lograr grandes cosas.
+
+00:01:05.020 --> 00:01:07.709
+Así que empezaré con la movilidad.
+
+00:01:07.710 --> 00:01:10.421
+Los insectos se mueven
+increíblemente bien en su entorno.
+
+00:01:10.421 --> 00:01:12.558
+Este vídeo es de la Universidad de Berkeley.
+
+00:01:12.559 --> 00:01:15.811
+Muestra una cucaracha en movimiento
+sobre un terreno muy accidentado
+
+00:01:15.811 --> 00:01:17.194
+sin que vuelque
+
+00:01:17.194 --> 00:01:21.152
+y es capaz de hacerlo porque sus piernas
+son una combinación de materiales rígidos,
+
+00:01:21.152 --> 00:01:24.024
+que es lo que tradicionalmente
+usamos para hacer robots,
+
+00:01:24.024 --> 00:01:25.344
+y materiales blandos.
+
+00:01:26.184 --> 00:01:29.731
+Saltar es otra forma muy interesante
+de moverse cuando uno es muy pequeño.
+
+00:01:29.731 --> 00:01:32.271
+Así que estos insectos
+almacenan energía en un brinco
+
+00:01:32.283 --> 00:01:38.280
+y la liberan rápidamente para conseguir
+la fuerza necesaria para salir del agua.
+
+00:01:38.281 --> 00:01:41.402
+Así que una de las grandes contribuciones
+de mi laboratorio
+
+00:01:41.403 --> 00:01:44.152
+ha sido combinar materiales rígidos y blandos
+
+00:01:44.153 --> 00:01:46.366
+en mecanismos muy, muy pequeños.
+
+00:01:46.367 --> 00:01:49.531
+Este mecanismo para saltar
+es de unos 4 milímetros,
+
+00:01:49.532 --> 00:01:51.219
+así que es realmente pequeño.
+
+00:01:51.220 --> 00:01:53.374
+El material duro que
+empleamos es el silicio
+
+00:01:53.374 --> 00:01:55.358
+y el blando, caucho de silicona.
+
+00:01:55.358 --> 00:01:57.733
+Y la idea principal es comprimir esto,
+
+00:01:57.733 --> 00:02:00.873
+almacenar la energía en los muelles,
+y luego soltarlo para saltar.
+
+00:02:00.873 --> 00:02:03.877
+Así que no hay motores
+de momento, no hay energía.
+
+00:02:03.877 --> 00:02:06.799
+Esta se acciona con un método
+que llamamos en mi laboratorio
+
+00:02:06.800 --> 00:02:09.172
+"estudiante graduado con pinzas".
+(Risas)
+
+00:02:09.172 --> 00:02:11.455
+Así que lo que van a ver
+en el siguiente vídeo
+
+00:02:11.455 --> 00:02:14.332
+es a este robot que saltará
+increíblemente bien.
+
+00:02:14.333 --> 00:02:17.946
+Este es Aarón, el estudiante
+graduado en cuestión, con las pinzas,
+
+00:02:17.947 --> 00:02:20.627
+y aquí ven un mecanismo de 4 milímetros
+
+00:02:20.630 --> 00:02:22.840
+que salta casi 40 centímetros.
+
+00:02:22.841 --> 00:02:25.264
+Eso es casi 100 veces
+su propio tamaño.
+
+00:02:25.265 --> 00:02:26.901
+Y sobrevive, rebota sobre la mesa,
+
+00:02:26.901 --> 00:02:28.886
+es increíblemente robusto
+y, por supuesto,
+
+00:02:28.898 --> 00:02:31.155
+sobrevive bastante bien
+hasta que lo perdemos
+
+00:02:31.155 --> 00:02:32.721
+porque es muy pequeño.
+
+00:02:32.721 --> 00:02:35.969
+En última instancia, sin embargo,
+queremos añadirle motores también,
+
+00:02:35.970 --> 00:02:39.516
+y tenemos estudiantes en el laboratorio
+trabajando en motores milimétricos
+
+00:02:39.516 --> 00:02:42.685
+para integrarlos en estos
+pequeños robots autónomos.
+
+00:02:42.686 --> 00:02:46.267
+Pero para trabajar la movilidad
+y la locomoción a esta escala
+
+00:02:46.268 --> 00:02:47.911
+hacemos trampa y usamos imanes.
+
+00:02:47.911 --> 00:02:51.247
+Esto muestra lo que finalmente
+pertenecerá a una pierna de microrobot,
+
+00:02:51.247 --> 00:02:53.433
+y pueden ver las juntas
+de la goma de silicona
+
+00:02:53.433 --> 00:02:56.242
+y el imán incorporado que se está
+moviendo de arriba abajo
+
+00:02:56.242 --> 00:02:58.265
+accionado por un campo magnético externo.
+
+00:02:58.266 --> 00:03:01.089
+Así que todo esto nos lleva
+al robot que les mostré antes.
+
+00:03:01.769 --> 00:03:05.109
+Lo realmente interesante es que
+este robot puede ayudarnos a averiguar
+
+00:03:05.110 --> 00:03:07.137
+cómo se mueven
+los insectos a esta escala.
+
+00:03:07.137 --> 00:03:09.591
+Tenemos un modelo muy bueno
+de cómo todos se mueven,
+
+00:03:09.591 --> 00:03:11.493
+desde una cucaracha
+hasta un elefante.
+
+00:03:11.493 --> 00:03:14.227
+Todos nos movemos dando estos saltos
+cuando corremos.
+
+00:03:14.228 --> 00:03:18.512
+Pero cuando uno es realmente pequeño, las
+fuerzas que hay entre los pies y el suelo
+
+00:03:18.513 --> 00:03:20.808
+afectarán la locomoción
+mucho más que la masa,
+
+00:03:20.808 --> 00:03:23.641
+y eso es lo que lleva
+a estos saltos durante el movimiento.
+
+00:03:23.642 --> 00:03:25.197
+Este robot no funciona todavía,
+
+00:03:25.197 --> 00:03:28.421
+pero sí que tenemos versiones ligeramente
+más grandes que funcionan.
+
+00:03:28.421 --> 00:03:32.377
+Este tiene cerca de un centímetro cúbico,
+un centímetro de lado, muy pequeño,
+
+00:03:32.377 --> 00:03:35.169
+y hemos logrado que recorra
+10 veces su tamaño por segundo,
+
+00:03:35.169 --> 00:03:36.824
+eso, 10 centímetros por segundo.
+
+00:03:36.824 --> 00:03:38.987
+Es bastante rápido para
+un pequeñín como este,
+
+00:03:38.987 --> 00:03:41.059
+y solo lo limita
+nuestro sistema de prueba.
+
+00:03:41.059 --> 00:03:44.087
+Pero pueden hacerse una idea
+de cómo funciona en este momento.
+
+00:03:44.087 --> 00:03:47.781
+También podemos imprimir versiones
+en 3D que pueden escalar obstáculos,
+
+00:03:47.781 --> 00:03:51.279
+modelos bastante parecidos
+a la cucaracha que vieron antes.
+
+00:03:51.280 --> 00:03:54.165
+Pero en última instancia, queremos
+añadir todo esto al robot.
+
+00:03:54.166 --> 00:03:57.858
+Queremos que los detectores, la energía,
+los controles, actúen todos juntos,
+
+00:03:57.859 --> 00:04:00.764
+y no todo tiene que ser
+de inspiración biológica.
+
+00:04:00.765 --> 00:04:03.899
+Este es un robot del
+tamaño de un Tic Tac.
+
+00:04:03.900 --> 00:04:07.848
+Y en este caso, en lugar de imanes
+o músculos para moverse,
+
+00:04:07.849 --> 00:04:10.273
+usamos cohetes.
+
+00:04:10.274 --> 00:04:12.939
+Así que este es un material
+energético microfabricado,
+
+00:04:12.940 --> 00:04:15.538
+y podemos crear diminutos píxeles de esto,
+
+00:04:15.539 --> 00:04:19.325
+y podemos poner uno de estos píxeles
+en el vientre de este robot,
+
+00:04:19.326 --> 00:04:23.722
+para que este robot luego salte
+al detectar un aumento de luz.
+
+00:04:24.455 --> 00:04:26.617
+El siguiente vídeo
+es uno de mis favoritos.
+
+00:04:26.618 --> 00:04:29.656
+Tenemos a este robot de 300 miligramos
+
+00:04:29.658 --> 00:04:32.063
+que salta unos 8 centímetros en el aire.
+
+00:04:32.064 --> 00:04:34.973
+Tiene solo 4x4x7 milímetros.
+
+00:04:34.974 --> 00:04:36.690
+Y verán un gran destello al inicio
+
+00:04:36.690 --> 00:04:38.621
+cuando se dispara el material enérgico,
+
+00:04:38.622 --> 00:04:40.529
+y el robot da vueltas por el aire.
+
+00:04:40.530 --> 00:04:42.138
+Aquí hubo un gran destello,
+
+00:04:42.139 --> 00:04:45.335
+y pueden ver al robot
+saltar por los aires.
+
+00:04:45.336 --> 00:04:48.367
+Así que no hay fijaciones,
+no hay cables conectados.
+
+00:04:48.368 --> 00:04:50.861
+Todo está a bordo del robot,
+y saltó en respuesta
+
+00:04:50.862 --> 00:04:55.023
+a que un estudiante simplemente
+encendió una lámpara de escritorio.
+
+00:04:55.023 --> 00:04:58.896
+Así que creo que pueden imaginar todas
+las cosas interesantes que podríamos hacer
+
+00:04:58.897 --> 00:05:03.334
+con robots que pueden correr, gatear
+saltar y rodar a esta escala.
+
+00:05:03.334 --> 00:05:07.314
+Imaginen los escombros que quedan después
+de un desastre natural como un terremoto.
+
+00:05:07.314 --> 00:05:10.632
+Imaginen a estos pequeños robots
+corriendo a través de esos escombros
+
+00:05:10.632 --> 00:05:12.170
+para buscar supervivientes.
+
+00:05:12.171 --> 00:05:15.177
+O imaginen un montón de pequeños robots
+corriendo por un puente
+
+00:05:15.177 --> 00:05:17.825
+para poder inspeccionarlo
+y asegurarse de que es seguro
+
+00:05:17.825 --> 00:05:19.595
+para evitar derrumbes como este,
+
+00:05:19.595 --> 00:05:23.232
+que ocurrió a las afueras
+de Mineápolis en 2007.
+
+00:05:23.233 --> 00:05:24.795
+O imaginen lo que se puede hacer
+
+00:05:24.795 --> 00:05:28.077
+con robots que podrían nadar
+por el torrente sanguíneo.
+
+00:05:28.077 --> 00:05:30.180
+¿No? "El viaje fantástico"
+de Isaac Asimov.
+
+00:05:30.180 --> 00:05:33.636
+O que podrían operar sin tener
+que abrir, para empezar.
+
+00:05:33.636 --> 00:05:36.935
+O podríamos cambiar radicalmente
+la forma de construir cosas
+
+00:05:36.936 --> 00:05:39.233
+si tuviéramos nuestros
+pequeños robots trabajando
+
+00:05:39.233 --> 00:05:41.410
+de la misma manera que trabajan las termitas,
+
+00:05:41.410 --> 00:05:44.627
+que construyen estos increíbles montículos
+de 8 metros de altura,
+
+00:05:44.627 --> 00:05:48.175
+edificios de apartamentos eficientes
+y bien ventilados para otras termitas
+
+00:05:48.175 --> 00:05:49.646
+en África y en Australia.
+
+00:05:49.646 --> 00:05:52.546
+Así que creo que les he ofrecido
+algunas de las posibilidades
+
+00:05:52.546 --> 00:05:54.943
+de lo que podemos hacer con
+estos pequeños robots.
+
+00:05:54.943 --> 00:05:57.194
+Y hemos hecho algunos
+avances hasta el momento,
+
+00:05:57.194 --> 00:05:59.420
+pero todavía hay un largo
+camino por recorrer,
+
+00:05:59.420 --> 00:06:02.568
+y es de esperar que alguno de Uds.
+pueda contribuir a ese destino.
+
+00:06:02.568 --> 00:06:03.606
+Muchas gracias.
+
+00:06:03.606 --> 00:06:04.711
+(Aplausos)
+

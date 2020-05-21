@@ -1,0 +1,890 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Stefan Molnar
+Corector: Ana M
+
+00:00:15.260 --> 00:00:17.260
+Știți
+
+00:00:17.260 --> 00:00:20.260
+că avem peste 1,4 milioane de turnuri radio
+
+00:00:20.260 --> 00:00:22.260
+răspândite pe întreg globul?
+
+00:00:22.260 --> 00:00:24.260
+Și acestea sunt stații de referință.
+
+00:00:24.260 --> 00:00:26.260
+Avem de asemenea
+
+00:00:26.260 --> 00:00:28.260
+mai mult de cinci miliarde
+
+00:00:28.260 --> 00:00:30.260
+de astfel de dispozitive aici.
+
+00:00:30.260 --> 00:00:33.260
+Acestea sunt telefoanele mobile.
+
+00:00:33.260 --> 00:00:35.260
+Cu aceste telefoane mobile,
+
+00:00:35.260 --> 00:00:37.260
+noi transmitem mai mult de 600 de terabiți de date
+
+00:00:37.260 --> 00:00:39.260
+în fiecare lună.
+
+00:00:39.260 --> 00:00:41.260
+Acesta este un 6 cu 14 zerouri --
+
+00:00:41.260 --> 00:00:43.260
+un număr foarte mare.
+
+00:00:43.260 --> 00:00:46.260
+Comunicațiile wireless
+
+00:00:46.260 --> 00:00:49.260
+au devenit o utilitate
+
+00:00:49.260 --> 00:00:51.260
+ca electricitatea și apa.
+
+00:00:51.260 --> 00:00:54.260
+Le folosim în fiecare zi. Le folosim în viețile noastre de zi cu zi --
+
+00:00:54.260 --> 00:00:56.260
+în viețile noastre private, în viețile noastre de afaceri.
+
+00:00:56.260 --> 00:01:00.260
+Și chiar suntem rugați câteodată, foarte frumos,
+
+00:01:00.260 --> 00:01:02.260
+să oprim aceste telefoane la evenimente precum acesta
+
+00:01:02.260 --> 00:01:05.260
+pentru motive bine întemeiate.
+
+00:01:05.260 --> 00:01:07.260
+Și din acest motiv
+
+00:01:07.260 --> 00:01:09.260
+am decis să cercetez problemele
+
+00:01:09.260 --> 00:01:11.260
+pe care această tehnologie le are,
+
+00:01:11.260 --> 00:01:14.260
+pentru că este atât de fundamentală pentru viețile noastre.
+
+00:01:14.260 --> 00:01:16.260
+Una dintre aceste probleme este capacitatea.
+
+00:01:16.260 --> 00:01:19.260
+Modul în care transmitem date wireless este prin utilizarea undelor electromagnetice --
+
+00:01:19.260 --> 00:01:22.260
+mai exact, prin unde radio.
+
+00:01:22.260 --> 00:01:24.260
+Undele radio sunt limitate.
+
+00:01:24.260 --> 00:01:26.260
+Sunt rare; sunt scumpe;
+
+00:01:26.260 --> 00:01:29.260
+și avem decât o parte din ele.
+
+00:01:30.260 --> 00:01:32.260
+Și au această limitare
+
+00:01:32.260 --> 00:01:34.260
+care nu face față
+
+00:01:34.260 --> 00:01:36.260
+cererii de transmisii de date wireless
+
+00:01:36.260 --> 00:01:39.260
+și numărului de octeți și date care sunt transmise lunar.
+
+00:01:39.260 --> 00:01:41.260
+Pur și simplu rămân fără spectru.
+
+00:01:41.260 --> 00:01:43.260
+Aici este o altă problemă.
+
+00:01:43.260 --> 00:01:45.260
+Eficiența.
+
+00:01:45.260 --> 00:01:48.260
+Acești 1,4 milioane de stâlpi radio, sau stații de bază,
+
+00:01:48.260 --> 00:01:50.260
+consumă multă energie.
+
+00:01:50.260 --> 00:01:52.260
+Și gândiți-vă, mare parte din energie
+
+00:01:52.260 --> 00:01:54.260
+nu se folosește pentru a transmite unde radio,
+
+00:01:54.260 --> 00:01:57.260
+ci se folosește pentru a răci stațiile.
+
+00:01:57.260 --> 00:01:59.260
+Astfel eficiența unei astfel de stații
+
+00:01:59.260 --> 00:02:02.260
+este de doar 5%.
+
+00:02:02.260 --> 00:02:05.260
+Și asta creează o mare problemă.
+
+00:02:05.260 --> 00:02:08.260
+Mai există o altă problemă de care sunteți conștienți.
+
+00:02:08.260 --> 00:02:10.260
+Trebuie să îți oprești telefonul mobil
+
+00:02:10.260 --> 00:02:12.260
+în timpul zborurilor.
+
+00:02:12.260 --> 00:02:15.260
+În spitale există probleme de securitate.
+
+00:02:15.260 --> 00:02:18.260
+Și securitatea este o altă problemă.
+
+00:02:18.260 --> 00:02:20.260
+Aceste unde radio trec prin ziduri.
+
+00:02:20.260 --> 00:02:22.260
+Pot fi interceptate,
+
+00:02:22.260 --> 00:02:25.260
+și cineva se poate folosi de rețeaua voastră
+
+00:02:25.260 --> 00:02:27.260
+dacă ar avea intenții rele.
+
+00:02:27.260 --> 00:02:29.260
+Acestea sunt cele 4 probleme principale.
+
+00:02:29.260 --> 00:02:31.260
+Dar pe de altă parte,
+
+00:02:31.260 --> 00:02:33.260
+avem 14 miliarde din acestea:
+
+00:02:33.260 --> 00:02:36.260
+becuri, lumină.
+
+00:02:36.260 --> 00:02:39.260
+Și lumina face parte din spectrul electromagnetic
+
+00:02:39.260 --> 00:02:41.260
+Să ne uităm la asta în contextul
+
+00:02:41.260 --> 00:02:44.260
+întregului spectru electromagnetic, unde avem raze gamma.
+
+00:02:44.260 --> 00:02:46.260
+Nu vrei să te apropii de razele gamma, poate fi periculos.
+
+00:02:46.260 --> 00:02:49.260
+Razele X, folositoare când ajungem la spital.
+
+00:02:49.260 --> 00:02:51.260
+Apoi mai este lumina UV.
+
+00:02:51.260 --> 00:02:53.260
+Este bună pentru bronz,
+
+00:02:53.260 --> 00:02:55.260
+dar totuși periculoasă pentru corpul uman.
+
+00:02:55.260 --> 00:02:57.260
+Infraroșiile--
+
+00:02:57.260 --> 00:02:59.260
+datorită reglementărilor în siguranța ochilor,
+
+00:02:59.260 --> 00:03:01.260
+se pot folosi doar la putere mică.
+
+00:03:01.260 --> 00:03:04.260
+Și apoi avem undele radio, ele au problemele mai sus menționate.
+
+00:03:04.260 --> 00:03:07.260
+În mijloc, avem spectrumul vizibil al luminii.
+
+00:03:07.260 --> 00:03:09.260
+Este lumină,
+
+00:03:09.260 --> 00:03:11.260
+și lumina există de milioane de ani.
+
+00:03:11.260 --> 00:03:14.260
+Și de fapt ne-a creat,
+
+00:03:14.260 --> 00:03:16.260
+a creat viața,
+
+00:03:16.260 --> 00:03:18.260
+a creat toate componentele vieții.
+
+00:03:18.260 --> 00:03:21.260
+Așa că este sigură pentru a fi folosită.
+
+00:03:21.260 --> 00:03:25.260
+Și nu ar fi grozav să o folosim pentru comunicații wireless.
+
+00:03:25.260 --> 00:03:28.260
+Nu numai asta, am comparat-o cu întregul spectru.
+
+00:03:28.260 --> 00:03:30.260
+Am comparat spectrul undelor radio--
+
+00:03:30.260 --> 00:03:32.260
+mărimea lui--
+
+00:03:32.260 --> 00:03:34.260
+cu mărimea spectrului luminii vizibile.
+
+00:03:34.260 --> 00:03:36.260
+Și ghiciți ce am găsit?
+
+00:03:36.260 --> 00:03:39.260
+Avem mai mult de 10.000 de ori din acel spectru,
+
+00:03:39.260 --> 00:03:42.260
+pe care să îl putem folosi.
+
+00:03:42.260 --> 00:03:45.260
+Așa că nu numai că avem acest spectru foarte larg,
+
+00:03:45.260 --> 00:03:47.260
+să le comparăm cu un număr înainte menționat.
+
+00:03:47.260 --> 00:03:49.260
+Avem 1,4 milioane,
+
+00:03:49.260 --> 00:03:51.260
+scump puse,
+
+00:03:51.260 --> 00:03:54.260
+stații radio ineficiente.
+
+00:03:54.260 --> 00:03:56.260
+Și înmulțind asta cu 10.000,
+
+00:03:56.260 --> 00:03:58.260
+avem 14 miliarde.
+
+00:03:58.260 --> 00:04:01.260
+14 miliarde este numărul becurilor deja instalate.
+
+00:04:01.260 --> 00:04:03.260
+Așa că avem deja infrastructura.
+
+00:04:03.260 --> 00:04:06.260
+Priviți tavanul, vedeți toate aceste becuri.
+
+00:04:06.260 --> 00:04:08.260
+Mergeți la etajul principal și vedeți aceste becuri.
+
+00:04:08.260 --> 00:04:10.260
+Putem să le folosim pentru comunicare?
+
+00:04:10.260 --> 00:04:12.260
+Da.
+
+00:04:12.260 --> 00:04:14.260
+Ce trebuie să facem?
+
+00:04:14.260 --> 00:04:16.260
+Singurul lucru care trebuie făcut
+
+00:04:16.260 --> 00:04:19.260
+este că trebuie înlocuite aceste becuri cu incandescență, ineficiente,
+
+00:04:19.260 --> 00:04:22.260
+lumini fluorescente,
+
+00:04:22.260 --> 00:04:24.260
+cu noua tehnologie LED,
+
+00:04:24.260 --> 00:04:26.260
+becuri cu LED.
+
+00:04:26.260 --> 00:04:28.260
+Un LED este un semiconductor. Un dispozitiv electronic.
+
+00:04:28.260 --> 00:04:32.260
+Și are o calitate prevalentă.
+
+00:04:32.260 --> 00:04:35.260
+Intensitatea sa poate fi modulată
+
+00:04:35.260 --> 00:04:37.260
+la viteze foarte mari,
+
+00:04:37.260 --> 00:04:40.260
+și poate fi stins la viteze foarte mari.
+
+00:04:40.260 --> 00:04:42.260
+Și aceasta este calitatea fundamentală
+
+00:04:42.260 --> 00:04:44.260
+pe care am exploatat-o
+
+00:04:44.260 --> 00:04:47.260
+cu tehnologia noastră.
+
+00:04:47.260 --> 00:04:49.260
+Să vă arăt cum se face.
+
+00:04:49.260 --> 00:04:51.260
+Să mergem la cel mai apropiat vecin al spectrului luminii vizibile--
+
+00:04:51.260 --> 00:04:53.260
+la telecomenzi.
+
+00:04:53.260 --> 00:04:55.260
+Ştim că telecomenzile au un LED infraroșu--
+
+00:04:55.260 --> 00:04:58.260
+în mare parte pornești LED-ul, și dacă e închis, îl închizi.
+
+00:04:58.260 --> 00:05:01.260
+Și creează un flux simplu de viteză mică de date
+
+00:05:01.260 --> 00:05:03.260
+de 10.000 biți pe secundă,
+
+00:05:03.260 --> 00:05:05.260
+20.000 de biți pe secundă.
+
+00:05:05.260 --> 00:05:07.260
+Nu e de folosit pentru un clip YouTube.
+
+00:05:07.260 --> 00:05:09.260
+Ce am făcut noi
+
+00:05:09.260 --> 00:05:12.260
+este dezvoltarea unei tehnologii
+
+00:05:12.260 --> 00:05:15.260
+cu care vom putea
+
+00:05:15.260 --> 00:05:17.260
+înlocui telecomanda becului.
+
+00:05:17.260 --> 00:05:19.260
+Transmitem cu tehnologia noastră,
+
+00:05:19.260 --> 00:05:21.260
+nu doar un singur flux de date,
+
+00:05:21.260 --> 00:05:23.260
+ci mii de fluxuri
+
+00:05:23.260 --> 00:05:25.260
+în paralel,
+
+00:05:25.260 --> 00:05:27.260
+la viteze și mai mari.
+
+00:05:27.260 --> 00:05:29.260
+Și tehnologia pe care am dezvoltat-o--
+
+00:05:29.260 --> 00:05:31.260
+se numește SIM OFDM.
+
+00:05:31.260 --> 00:05:33.260
+Este modulație spațială--
+
+00:05:33.260 --> 00:05:36.260
+aceștia sunt termenii tehnici. Nu intru în detalii--
+
+00:05:36.260 --> 00:05:38.260
+dar așa am permis
+
+00:05:38.260 --> 00:05:40.260
+ca sursa de lumină
+
+00:05:40.260 --> 00:05:43.260
+să transmită date.
+
+00:05:43.260 --> 00:05:46.260
+Veți spune. "Bine, e frumos--
+
+00:05:46.260 --> 00:05:48.260
+un slide creat în 10 minute."
+
+00:05:48.260 --> 00:05:50.260
+Dar nu numai asta
+
+00:05:50.260 --> 00:05:52.260
+Ce am făcut noi
+
+00:05:52.260 --> 00:05:55.260
+e că am dezvoltat și o demonstrație.
+
+00:05:55.260 --> 00:05:57.260
+Și o arăt pentru prima dată în public
+
+00:05:57.260 --> 00:05:59.260
+acest demonstrator de lumină vizibilă.
+
+00:05:59.260 --> 00:06:01.260
+Și ce am făcut noi aici
+
+00:06:01.260 --> 00:06:04.260
+este o lampă obișnuită de birou.
+
+00:06:04.260 --> 00:06:06.260
+Am pus un bec LED,
+
+00:06:06.260 --> 00:06:09.260
+cam de 3 dolari,
+
+00:06:09.260 --> 00:06:11.260
+am pus tehnologia noastră de procesare a semnalului.
+
+00:06:11.260 --> 00:06:14.260
+Și am făcut o mică gaură.
+
+00:06:14.260 --> 00:06:16.260
+Și lumina trece prin acea gaură.
+
+00:06:16.260 --> 00:06:18.260
+Acolo este un receptor.
+
+00:06:18.260 --> 00:06:21.260
+Acest receptor va converti micile și subtilele schimbări în amplitudine
+
+00:06:21.260 --> 00:06:23.260
+pe care le creem,
+
+00:06:23.260 --> 00:06:25.260
+într-un semnal electric.
+
+00:06:25.260 --> 00:06:27.260
+Și semnalul electric este convertit înapoi în
+
+00:06:27.260 --> 00:06:29.260
+flux de date de mare viteză.
+
+00:06:29.260 --> 00:06:31.260
+Pe viitor sperăm
+
+00:06:31.260 --> 00:06:33.260
+că putem integra această mică gaură
+
+00:06:33.260 --> 00:06:36.260
+în aceste telefoane.
+
+00:06:36.260 --> 00:06:39.260
+Nu numai să integrăm un detector foto,
+
+00:06:39.260 --> 00:06:42.260
+dar poate să folosim camera.
+
+00:06:43.260 --> 00:06:45.260
+Ce se întâmplă
+
+00:06:45.260 --> 00:06:48.260
+când aprind lumina?
+
+00:06:50.260 --> 00:06:52.260
+Precum vă așteptați,
+
+00:06:52.260 --> 00:06:54.260
+este o lumină, o lampă de birou.
+
+00:06:54.260 --> 00:06:57.260
+Pui cartea sub ea și poți citi.
+
+00:06:57.260 --> 00:06:59.260
+Iluminează spațiul.
+
+00:06:59.260 --> 00:07:03.260
+Dar în același timp vedeți acest video începând.
+
+00:07:03.260 --> 00:07:06.260
+Și este un video HD,
+
+00:07:06.260 --> 00:07:08.260
+care este transmis prin unda de lumină.
+
+00:07:08.260 --> 00:07:10.260
+Sunteți critici.
+
+00:07:10.260 --> 00:07:12.260
+Spuneți "HA, ha, ha.
+
+00:07:12.260 --> 00:07:15.260
+Uite un academician deștept făcând trucuri."
+
+00:07:15.260 --> 00:07:18.260
+Dar stați să fac asta.
+
+00:07:19.260 --> 00:07:24.260
+(Aplauze)
+
+00:07:24.260 --> 00:07:27.260
+Din nou.
+
+00:07:27.260 --> 00:07:30.260
+Tot nu credeți?
+
+00:07:30.260 --> 00:07:32.260
+E această lumină
+
+00:07:32.260 --> 00:07:35.260
+care transmite acest video HD în flux separat.
+
+00:07:36.260 --> 00:07:39.260
+Dacă vă uitați la lumină,
+
+00:07:39.260 --> 00:07:41.260
+luminează după cum v-ați așteptat.
+
+00:07:41.260 --> 00:07:43.260
+Nu observați cu ochiul uman.
+
+00:07:43.260 --> 00:07:46.260
+Nu observați micile schimbări în amplitudine
+
+00:07:46.260 --> 00:07:49.260
+pe care le provocăm becului.
+
+00:07:49.260 --> 00:07:51.260
+Servește iluminării,
+
+00:07:51.260 --> 00:07:54.260
+dar în același timp, putem transmite date.
+
+00:07:54.260 --> 00:07:56.260
+Și puteți vedea
+
+00:07:56.260 --> 00:07:59.260
+că și lumina de la tavan vine spre receptor.
+
+00:07:59.260 --> 00:08:02.260
+Poate ignora lumina constantă,
+
+00:08:02.260 --> 00:08:04.260
+pentru că receptorul este interesat doar de
+
+00:08:04.260 --> 00:08:07.260
+schimbările subtile.
+
+00:08:09.260 --> 00:08:11.260
+Mai aveți întrebări critice.
+
+00:08:11.260 --> 00:08:13.260
+Spuneți, "Ok,
+
+00:08:13.260 --> 00:08:15.260
+trebuie să am lumina aprinsă tot timpul
+
+00:08:15.260 --> 00:08:17.260
+ca să funcționeze?"
+
+00:08:17.260 --> 00:08:19.260
+Răspunsul este da.
+
+00:08:19.260 --> 00:08:23.260
+Dar puteți scădea intensitatea
+
+00:08:23.260 --> 00:08:25.260
+la un nivel care pare minim.
+
+00:08:25.260 --> 00:08:28.260
+Și tot puteți transmite date-- e posibil.
+
+00:08:28.260 --> 00:08:31.260
+V-am menționat cele 4 provocări.
+
+00:08:31.260 --> 00:08:33.260
+Capacitatea:
+
+00:08:33.260 --> 00:08:35.260
+Avem de 10 000 de ori mai mult spectru,
+
+00:08:35.260 --> 00:08:37.260
+de 10 000 de ori mai multe LED-uri
+
+00:08:37.260 --> 00:08:39.260
+deja instalate ca infrastructură.
+
+00:08:39.260 --> 00:08:41.260
+Veți fi de acord cu mine, sper,
+
+00:08:41.260 --> 00:08:43.260
+că nu mai există problema capacității.
+
+00:08:43.260 --> 00:08:45.260
+Eficiență:
+
+00:08:45.260 --> 00:08:47.260
+Date transmise prin iluminare--
+
+00:08:47.260 --> 00:08:49.260
+în primul rând este un dispozitiv de iluminare.
+
+00:08:49.260 --> 00:08:52.260
+Și dacă faceți bugetul pentru energie,
+
+00:08:52.260 --> 00:08:54.260
+transmiterea de date e gratis--
+
+00:08:54.260 --> 00:08:56.260
+foarte eficientă din punct de vedere energetic.
+
+00:08:56.260 --> 00:08:58.260
+Nu menționez eficiența energetică
+
+00:08:58.260 --> 00:09:00.260
+a becurilor LED.
+
+00:09:00.260 --> 00:09:02.260
+Dacă toată lumea le-ar instala,
+
+00:09:02.260 --> 00:09:05.260
+am salva sute de electrocentrale.
+
+00:09:05.260 --> 00:09:07.260
+Asta e deja altceva.
+
+00:09:07.260 --> 00:09:09.260
+Și pe urmă am menționat disponibilitatea
+
+00:09:09.260 --> 00:09:12.260
+Sunteți de acord că avem becuri în spital.
+
+00:09:12.260 --> 00:09:14.260
+Trebuie văzut ce se poate face.
+
+00:09:14.260 --> 00:09:16.260
+Avem lumini în avion.
+
+00:09:16.260 --> 00:09:18.260
+Deci peste tot sunt lumini.
+
+00:09:18.260 --> 00:09:21.260
+Priviți în jur. Peste tot. Uitați-vă la telefon.
+
+00:09:21.260 --> 00:09:23.260
+Are un blitz, un blitz LED.
+
+00:09:23.260 --> 00:09:27.260
+Acestea sunt posibile surse de transmitere de mare viteză a datelor.
+
+00:09:27.260 --> 00:09:30.260
+Și urmează securitatea.
+
+00:09:30.260 --> 00:09:32.260
+Veți fi de acord
+
+00:09:32.260 --> 00:09:35.260
+că lumina nu trece prin ziduri.
+
+00:09:35.260 --> 00:09:37.260
+Și nimeni, dacă am o lumină aici,
+
+00:09:37.260 --> 00:09:39.260
+dacă am date sigure,
+
+00:09:39.260 --> 00:09:41.260
+nimeni de cealaltă parte a zidului
+
+00:09:41.260 --> 00:09:43.260
+nu va putea să-mi citească datele.
+
+00:09:43.260 --> 00:09:46.260
+Și există date doar unde este lumină.
+
+00:09:46.260 --> 00:09:50.260
+Și dacă nu vreau ca receptorul să primească date,
+
+00:09:50.260 --> 00:09:54.260
+aș putea
+
+00:09:54.260 --> 00:09:57.260
+să o mut.
+
+00:09:57.260 --> 00:09:59.260
+Așa că datele merg în acea direcție, nu acolo.
+
+00:09:59.260 --> 00:10:02.260
+Acum putem de fapt vedea unde merg datele.
+
+00:10:05.260 --> 00:10:08.260
+Deci pentru mine,
+
+00:10:08.260 --> 00:10:11.260
+modurile de aplicaţie
+
+00:10:11.260 --> 00:10:15.260
+sunt mai multe decât îmi pot imagina acum.
+
+00:10:15.260 --> 00:10:19.260
+Am avut un secol de dezvoltatori deştepţi de aplicații.
+
+00:10:19.260 --> 00:10:22.260
+Și trebuie doar observat că unde este lumină,
+
+00:10:22.260 --> 00:10:25.260
+este o posibilă modalitate de a transmite date.
+
+00:10:25.260 --> 00:10:28.260
+Dar vă pot da câteva exemple.
+
+00:10:28.260 --> 00:10:31.260
+Puteți vedea impactul acum.
+
+00:10:32.260 --> 00:10:34.260
+Acesta este un vehicul operat de la distanță
+
+00:10:34.260 --> 00:10:36.260
+în oceane.
+
+00:10:36.260 --> 00:10:39.260
+Și folosesc lumina pentru a ilumina spațiul de acolo.
+
+00:10:39.260 --> 00:10:41.260
+Și lumina poate fi folosită pentru a transmite date wireless
+
+00:10:41.260 --> 00:10:44.260
+și aceste lucruri comunică reciproc.
+
+00:10:44.260 --> 00:10:46.260
+Medii intrinsec sigure
+
+00:10:46.260 --> 00:10:48.260
+cum e o fabrică petrochimică--
+
+00:10:48.260 --> 00:10:51.260
+nu se pot folosi frecvențe radio, care pot genera scântei la antene,
+
+00:10:51.260 --> 00:10:54.260
+dar se poate folosi lumina-- se observă destulă lumină acolo.
+
+00:10:54.260 --> 00:10:56.260
+În spitale,
+
+00:10:56.260 --> 00:10:59.260
+pentru noile instrumente medicale;
+
+00:10:59.260 --> 00:11:02.260
+pe străzi pentru controlul traficului.
+
+00:11:02.260 --> 00:11:05.260
+Mașinile au faruri pe bază de LED-uri, stopuri cu LED-uri,
+
+00:11:05.260 --> 00:11:07.260
+și mașinile pot comunica unele cu altele
+
+00:11:07.260 --> 00:11:10.260
+prevenind accidente
+
+00:11:10.260 --> 00:11:13.260
+prin schimbul de informație.
+
+00:11:13.260 --> 00:11:16.260
+Semafoarele pot comunica cu mașinile și așa mai departe.
+
+00:11:16.260 --> 00:11:19.260
+Și după aceea avem milioane de stâlpi de iluminare stradală
+
+00:11:19.260 --> 00:11:22.260
+peste tot în lume.
+
+00:11:22.260 --> 00:11:24.260
+Și fiecare stâlp ar fi un punct de acces gratuit.
+
+00:11:24.260 --> 00:11:26.260
+Îl numim, de fapt, Li-Fi,
+
+00:11:26.260 --> 00:11:28.260
+fidelitatea luminii.
+
+00:11:28.260 --> 00:11:32.260
+Și mai avem cabinele avioanelor.
+
+00:11:32.260 --> 00:11:36.260
+Sunt sute de lumini într-o cabină de avion,
+
+00:11:36.260 --> 00:11:38.260
+și fiecare dintre aceste lumini
+
+00:11:38.260 --> 00:11:41.260
+poate fi un potențial transmițător wireless de date.
+
+00:11:41.260 --> 00:11:44.260
+Ca să vă puteți bucura de clipul TED preferat
+
+00:11:44.260 --> 00:11:46.260
+în timpul lungului zbor spre casă.
+
+00:11:46.260 --> 00:11:49.260
+Viața online. Cred că este o viziune posibilă.
+
+00:11:55.260 --> 00:11:57.260
+Tot ce ar trebui să facem
+
+00:11:57.260 --> 00:11:59.260
+e să punem un microcip
+
+00:11:59.260 --> 00:12:02.260
+fiecărui potențial dizpozitiv de iluminare.
+
+00:12:02.260 --> 00:12:05.260
+Asta ar combina
+
+00:12:05.260 --> 00:12:07.260
+2 funcționalități de bază:
+
+00:12:07.260 --> 00:12:09.260
+iluminarea și transmisia de date wireless.
+
+00:12:09.260 --> 00:12:12.260
+Și cred personal că această simbioză
+
+00:12:12.260 --> 00:12:14.260
+ar putea rezolva cele 4 probleme esențiale
+
+00:12:14.260 --> 00:12:17.260
+pe care le găsim în comunicarea wireless de azi.
+
+00:12:17.260 --> 00:12:19.260
+Și pe viitor,
+
+00:12:19.260 --> 00:12:22.260
+nu am avea doar 14 miliarde de becuri,
+
+00:12:22.260 --> 00:12:25.260
+s-ar putea să avem 14 miliarde de Li-Fi-uri
+
+00:12:25.260 --> 00:12:27.260
+peste tot în lume--
+
+00:12:27.260 --> 00:12:29.260
+pentru un viitor mai curat, mai verde,
+
+00:12:29.260 --> 00:12:31.260
+și chiar mai strălucitor.
+
+00:12:31.260 --> 00:12:33.260
+Vă mulțumesc.
+
+00:12:33.260 --> 00:12:45.260
+(Aplauze)
+

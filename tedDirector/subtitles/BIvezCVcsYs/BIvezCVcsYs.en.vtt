@@ -1,0 +1,1003 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:13.256 --> 00:00:15.116
+In the movie "Interstellar,"
+
+00:00:15.140 --> 00:00:18.467
+we get an up-close look
+at a supermassive black hole.
+
+00:00:18.491 --> 00:00:20.634
+Set against a backdrop of bright gas,
+
+00:00:20.658 --> 00:00:22.776
+the black hole's massive
+gravitational pull
+
+00:00:22.800 --> 00:00:24.235
+bends light into a ring.
+
+00:00:24.259 --> 00:00:26.368
+However, this isn't a real photograph,
+
+00:00:26.392 --> 00:00:28.178
+but a computer graphic rendering --
+
+00:00:28.202 --> 00:00:31.592
+an artistic interpretation
+of what a black hole might look like.
+
+00:00:32.221 --> 00:00:33.387
+A hundred years ago,
+
+00:00:33.411 --> 00:00:37.012
+Albert Einstein first published
+his theory of general relativity.
+
+00:00:37.036 --> 00:00:38.475
+In the years since then,
+
+00:00:38.499 --> 00:00:41.472
+scientists have provided
+a lot of evidence in support of it.
+
+00:00:41.496 --> 00:00:44.580
+But one thing predicted
+from this theory, black holes,
+
+00:00:44.604 --> 00:00:46.954
+still have not been directly observed.
+
+00:00:46.978 --> 00:00:50.184
+Although we have some idea
+as to what a black hole might look like,
+
+00:00:50.208 --> 00:00:52.987
+we've never actually taken
+a picture of one before.
+
+00:00:53.011 --> 00:00:57.290
+However, you might be surprised to know
+that that may soon change.
+
+00:00:57.314 --> 00:01:01.478
+We may be seeing our first picture
+of a black hole in the next couple years.
+
+00:01:01.502 --> 00:01:05.460
+Getting this first picture will come down
+to an international team of scientists,
+
+00:01:05.484 --> 00:01:07.051
+an Earth-sized telescope
+
+00:01:07.075 --> 00:01:09.907
+and an algorithm that puts together
+the final picture.
+
+00:01:09.931 --> 00:01:13.459
+Although I won't be able to show you
+a real picture of a black hole today,
+
+00:01:13.483 --> 00:01:16.394
+I'd like to give you a brief glimpse
+into the effort involved
+
+00:01:16.418 --> 00:01:18.031
+in getting that first picture.
+
+00:01:19.297 --> 00:01:20.734
+My name is Katie Bouman,
+
+00:01:20.758 --> 00:01:23.324
+and I'm a PhD student at MIT.
+
+00:01:23.348 --> 00:01:25.375
+I do research in a computer science lab
+
+00:01:25.399 --> 00:01:28.697
+that works on making computers
+see through images and video.
+
+00:01:28.721 --> 00:01:30.883
+But although I'm not an astronomer,
+
+00:01:30.907 --> 00:01:32.192
+today I'd like to show you
+
+00:01:32.216 --> 00:01:35.119
+how I've been able to contribute
+to this exciting project.
+
+00:01:35.143 --> 00:01:37.974
+If you go out past
+the bright city lights tonight,
+
+00:01:37.998 --> 00:01:40.434
+you may just be lucky enough
+to see a stunning view
+
+00:01:40.458 --> 00:01:41.951
+of the Milky Way Galaxy.
+
+00:01:41.975 --> 00:01:44.437
+And if you could zoom past
+millions of stars,
+
+00:01:44.461 --> 00:01:48.216
+26,000 light-years toward the heart
+of the spiraling Milky Way,
+
+00:01:48.240 --> 00:01:51.761
+we'd eventually reach
+a cluster of stars right at the center.
+
+00:01:51.785 --> 00:01:54.991
+Peering past all the galactic dust
+with infrared telescopes,
+
+00:01:55.015 --> 00:01:58.882
+astronomers have watched these stars
+for over 16 years.
+
+00:01:58.906 --> 00:02:02.495
+But it's what they don't see
+that is the most spectacular.
+
+00:02:02.519 --> 00:02:05.585
+These stars seem to orbit
+an invisible object.
+
+00:02:05.609 --> 00:02:07.932
+By tracking the paths of these stars,
+
+00:02:07.956 --> 00:02:09.250
+astronomers have concluded
+
+00:02:09.274 --> 00:02:12.403
+that the only thing small and heavy
+enough to cause this motion
+
+00:02:12.427 --> 00:02:14.395
+is a supermassive black hole --
+
+00:02:14.419 --> 00:02:18.597
+an object so dense that it sucks up
+anything that ventures too close --
+
+00:02:18.621 --> 00:02:20.115
+even light.
+
+00:02:20.139 --> 00:02:23.200
+But what happens if we were
+to zoom in even further?
+
+00:02:23.224 --> 00:02:27.957
+Is it possible to see something
+that, by definition, is impossible to see?
+
+00:02:28.539 --> 00:02:31.783
+Well, it turns out that if we were
+to zoom in at radio wavelengths,
+
+00:02:31.807 --> 00:02:33.489
+we'd expect to see a ring of light
+
+00:02:33.513 --> 00:02:35.924
+caused by the gravitational
+lensing of hot plasma
+
+00:02:35.948 --> 00:02:37.777
+zipping around the black hole.
+
+00:02:37.801 --> 00:02:38.961
+In other words,
+
+00:02:38.985 --> 00:02:42.156
+the black hole casts a shadow
+on this backdrop of bright material,
+
+00:02:42.180 --> 00:02:44.022
+carving out a sphere of darkness.
+
+00:02:44.046 --> 00:02:47.385
+This bright ring reveals
+the black hole's event horizon,
+
+00:02:47.409 --> 00:02:49.809
+where the gravitational pull
+becomes so great
+
+00:02:49.833 --> 00:02:51.459
+that not even light can escape.
+
+00:02:51.483 --> 00:02:54.342
+Einstein's equations predict
+the size and shape of this ring,
+
+00:02:54.366 --> 00:02:57.574
+so taking a picture of it
+wouldn't only be really cool,
+
+00:02:57.598 --> 00:03:00.216
+it would also help to verify
+that these equations hold
+
+00:03:00.240 --> 00:03:02.706
+in the extreme conditions
+around the black hole.
+
+00:03:02.730 --> 00:03:05.288
+However, this black hole
+is so far away from us,
+
+00:03:05.312 --> 00:03:08.410
+that from Earth, this ring appears
+incredibly small --
+
+00:03:08.434 --> 00:03:12.024
+the same size to us as an orange
+on the surface of the moon.
+
+00:03:12.578 --> 00:03:15.402
+That makes taking a picture of it
+extremely difficult.
+
+00:03:16.465 --> 00:03:17.767
+Why is that?
+
+00:03:18.332 --> 00:03:21.520
+Well, it all comes down
+to a simple equation.
+
+00:03:21.544 --> 00:03:23.960
+Due to a phenomenon called diffraction,
+
+00:03:23.984 --> 00:03:25.339
+there are fundamental limits
+
+00:03:25.363 --> 00:03:28.033
+to the smallest objects
+that we can possibly see.
+
+00:03:28.609 --> 00:03:32.281
+This governing equation says
+that in order to see smaller and smaller,
+
+00:03:32.305 --> 00:03:34.892
+we need to make our telescope
+bigger and bigger.
+
+00:03:34.916 --> 00:03:37.985
+But even with the most powerful
+optical telescopes here on Earth,
+
+00:03:38.009 --> 00:03:40.428
+we can't even get close
+to the resolution necessary
+
+00:03:40.452 --> 00:03:42.650
+to image on the surface of the moon.
+
+00:03:42.674 --> 00:03:46.291
+In fact, here I show one of the highest
+resolution images ever taken
+
+00:03:46.315 --> 00:03:47.712
+of the moon from Earth.
+
+00:03:47.736 --> 00:03:50.293
+It contains roughly 13,000 pixels,
+
+00:03:50.317 --> 00:03:54.367
+and yet each pixel would contain
+over 1.5 million oranges.
+
+00:03:55.216 --> 00:03:57.188
+So how big of a telescope do we need
+
+00:03:57.212 --> 00:03:59.977
+in order to see an orange
+on the surface of the moon
+
+00:04:00.001 --> 00:04:02.215
+and, by extension, our black hole?
+
+00:04:02.239 --> 00:04:04.579
+Well, it turns out
+that by crunching the numbers,
+
+00:04:04.603 --> 00:04:07.213
+you can easily calculate
+that we would need a telescope
+
+00:04:07.237 --> 00:04:08.630
+the size of the entire Earth.
+
+00:04:08.654 --> 00:04:09.678
+(Laughter)
+
+00:04:09.702 --> 00:04:11.821
+If we could build
+this Earth-sized telescope,
+
+00:04:11.845 --> 00:04:14.770
+we could just start to make out
+that distinctive ring of light
+
+00:04:14.794 --> 00:04:16.977
+indicative of the black
+hole's event horizon.
+
+00:04:17.001 --> 00:04:19.919
+Although this picture wouldn't contain
+all the detail we see
+
+00:04:19.943 --> 00:04:21.449
+in computer graphic renderings,
+
+00:04:21.473 --> 00:04:23.772
+it would allow us to safely get
+our first glimpse
+
+00:04:23.796 --> 00:04:26.283
+of the immediate environment
+around a black hole.
+
+00:04:26.307 --> 00:04:27.920
+However, as you can imagine,
+
+00:04:27.944 --> 00:04:31.568
+building a single-dish telescope
+the size of the Earth is impossible.
+
+00:04:31.592 --> 00:04:33.479
+But in the famous words of Mick Jagger,
+
+00:04:33.503 --> 00:04:35.294
+"You can't always get what you want,
+
+00:04:35.318 --> 00:04:37.505
+but if you try sometimes,
+you just might find
+
+00:04:37.529 --> 00:04:38.744
+you get what you need."
+
+00:04:38.768 --> 00:04:41.232
+And by connecting telescopes
+from around the world,
+
+00:04:41.256 --> 00:04:44.794
+an international collaboration
+called the Event Horizon Telescope
+
+00:04:44.818 --> 00:04:47.927
+is creating a computational telescope
+the size of the Earth,
+
+00:04:47.951 --> 00:04:49.488
+capable of resolving structure
+
+00:04:49.512 --> 00:04:51.711
+on the scale of a black
+hole's event horizon.
+
+00:04:51.735 --> 00:04:55.122
+This network of telescopes is scheduled
+to take its very first picture
+
+00:04:55.146 --> 00:04:56.961
+of a black hole next year.
+
+00:04:56.985 --> 00:05:00.323
+Each telescope in the worldwide
+network works together.
+
+00:05:00.347 --> 00:05:03.059
+Linked through the precise timing
+of atomic clocks,
+
+00:05:03.083 --> 00:05:05.740
+teams of researchers at each
+of the sights freeze light
+
+00:05:05.764 --> 00:05:08.726
+by collecting thousands
+of terabytes of data.
+
+00:05:08.750 --> 00:05:13.767
+This data is then processed in a lab
+right here in Massachusetts.
+
+00:05:13.791 --> 00:05:15.585
+So how does this even work?
+
+00:05:15.609 --> 00:05:19.012
+Remember if we want to see the black hole
+in the center of our galaxy,
+
+00:05:19.036 --> 00:05:22.018
+we need to build this impossibly large
+Earth-sized telescope?
+
+00:05:22.042 --> 00:05:24.274
+For just a second,
+let's pretend we could build
+
+00:05:24.298 --> 00:05:26.140
+a telescope the size of the Earth.
+
+00:05:26.164 --> 00:05:28.619
+This would be a little bit
+like turning the Earth
+
+00:05:28.643 --> 00:05:30.390
+into a giant spinning disco ball.
+
+00:05:30.414 --> 00:05:32.614
+Each individual mirror would collect light
+
+00:05:32.638 --> 00:05:35.235
+that we could then combine
+together to make a picture.
+
+00:05:35.259 --> 00:05:37.920
+However, now let's say
+we remove most of those mirrors
+
+00:05:37.944 --> 00:05:39.916
+so only a few remained.
+
+00:05:39.940 --> 00:05:42.817
+We could still try to combine
+this information together,
+
+00:05:42.841 --> 00:05:44.834
+but now there are a lot of holes.
+
+00:05:44.858 --> 00:05:49.231
+These remaining mirrors represent
+the locations where we have telescopes.
+
+00:05:49.255 --> 00:05:53.334
+This is an incredibly small number
+of measurements to make a picture from.
+
+00:05:53.358 --> 00:05:57.196
+But although we only collect light
+at a few telescope locations,
+
+00:05:57.220 --> 00:06:00.643
+as the Earth rotates, we get to see
+other new measurements.
+
+00:06:00.667 --> 00:06:04.486
+In other words, as the disco ball spins,
+those mirrors change locations
+
+00:06:04.510 --> 00:06:07.409
+and we get to observe
+different parts of the image.
+
+00:06:07.433 --> 00:06:11.451
+The imaging algorithms we develop
+fill in the missing gaps of the disco ball
+
+00:06:11.475 --> 00:06:14.508
+in order to reconstruct
+the underlying black hole image.
+
+00:06:14.532 --> 00:06:17.168
+If we had telescopes located
+everywhere on the globe --
+
+00:06:17.192 --> 00:06:19.133
+in other words, the entire disco ball --
+
+00:06:19.157 --> 00:06:20.441
+this would be trivial.
+
+00:06:20.465 --> 00:06:23.787
+However, we only see a few samples,
+and for that reason,
+
+00:06:23.811 --> 00:06:26.199
+there are an infinite number
+of possible images
+
+00:06:26.223 --> 00:06:29.187
+that are perfectly consistent
+with our telescope measurements.
+
+00:06:29.211 --> 00:06:32.227
+However, not all images are created equal.
+
+00:06:32.669 --> 00:06:37.127
+Some of those images look more like
+what we think of as images than others.
+
+00:06:37.151 --> 00:06:40.373
+And so, my role in helping to take
+the first image of a black hole
+
+00:06:40.397 --> 00:06:43.329
+is to design algorithms that find
+the most reasonable image
+
+00:06:43.353 --> 00:06:45.575
+that also fits the telescope measurements.
+
+00:06:46.547 --> 00:06:50.489
+Just as a forensic sketch artist
+uses limited descriptions
+
+00:06:50.513 --> 00:06:54.027
+to piece together a picture using
+their knowledge of face structure,
+
+00:06:54.051 --> 00:06:57.366
+the imaging algorithms I develop
+use our limited telescope data
+
+00:06:57.390 --> 00:07:01.712
+to guide us to a picture that also
+looks like stuff in our universe.
+
+00:07:01.736 --> 00:07:05.387
+Using these algorithms,
+we're able to piece together pictures
+
+00:07:05.411 --> 00:07:07.591
+from this sparse, noisy data.
+
+00:07:07.615 --> 00:07:12.144
+So here I show a sample reconstruction
+done using simulated data,
+
+00:07:12.168 --> 00:07:14.101
+when we pretend to point our telescopes
+
+00:07:14.125 --> 00:07:16.710
+to the black hole
+in the center of our galaxy.
+
+00:07:16.734 --> 00:07:21.189
+Although this is just a simulation,
+reconstruction such as this give us hope
+
+00:07:21.213 --> 00:07:24.666
+that we'll soon be able to reliably take
+the first image of a black hole
+
+00:07:24.690 --> 00:07:27.285
+and from it, determine
+the size of its ring.
+
+00:07:27.938 --> 00:07:31.137
+Although I'd love to go on
+about all the details of this algorithm,
+
+00:07:31.161 --> 00:07:33.335
+luckily for you, I don't have the time.
+
+00:07:33.359 --> 00:07:35.360
+But I'd still like
+to give you a brief idea
+
+00:07:35.384 --> 00:07:37.686
+of how we define
+what our universe looks like,
+
+00:07:37.710 --> 00:07:42.176
+and how we use this to reconstruct
+and verify our results.
+
+00:07:42.200 --> 00:07:44.696
+Since there are an infinite number
+of possible images
+
+00:07:44.720 --> 00:07:47.085
+that perfectly explain
+our telescope measurements,
+
+00:07:47.109 --> 00:07:49.714
+we have to choose
+between them in some way.
+
+00:07:49.738 --> 00:07:51.576
+We do this by ranking the images
+
+00:07:51.600 --> 00:07:54.434
+based upon how likely they are
+to be the black hole image,
+
+00:07:54.458 --> 00:07:56.940
+and then choosing the one
+that's most likely.
+
+00:07:56.964 --> 00:07:59.159
+So what do I mean by this exactly?
+
+00:07:59.682 --> 00:08:01.660
+Let's say we were trying to make a model
+
+00:08:01.684 --> 00:08:04.867
+that told us how likely an image
+were to appear on Facebook.
+
+00:08:04.891 --> 00:08:06.592
+We'd probably want the model to say
+
+00:08:06.616 --> 00:08:10.173
+it's pretty unlikely that someone
+would post this noise image on the left,
+
+00:08:10.197 --> 00:08:12.616
+and pretty likely that someone
+would post a selfie
+
+00:08:12.640 --> 00:08:13.974
+like this one on the right.
+
+00:08:13.998 --> 00:08:15.637
+The image in the middle is blurry,
+
+00:08:15.661 --> 00:08:18.300
+so even though it's more likely
+we'd see it on Facebook
+
+00:08:18.324 --> 00:08:19.684
+compared to the noise image,
+
+00:08:19.708 --> 00:08:22.668
+it's probably less likely we'd see it
+compared to the selfie.
+
+00:08:22.692 --> 00:08:24.982
+But when it comes to images
+from the black hole,
+
+00:08:25.006 --> 00:08:28.508
+we're posed with a real conundrum:
+we've never seen a black hole before.
+
+00:08:28.532 --> 00:08:30.823
+In that case, what is a likely
+black hole image,
+
+00:08:30.847 --> 00:08:33.785
+and what should we assume
+about the structure of black holes?
+
+00:08:33.809 --> 00:08:36.441
+We could try to use images
+from simulations we've done,
+
+00:08:36.465 --> 00:08:38.995
+like the image of the black hole
+from "Interstellar,"
+
+00:08:39.019 --> 00:08:41.957
+but if we did this,
+it could cause some serious problems.
+
+00:08:41.981 --> 00:08:45.361
+What would happen
+if Einstein's theories didn't hold?
+
+00:08:45.385 --> 00:08:49.346
+We'd still want to reconstruct
+an accurate picture of what was going on.
+
+00:08:49.370 --> 00:08:52.741
+If we bake Einstein's equations
+too much into our algorithms,
+
+00:08:52.765 --> 00:08:55.520
+we'll just end up seeing
+what we expect to see.
+
+00:08:55.544 --> 00:08:57.820
+In other words,
+we want to leave the option open
+
+00:08:57.844 --> 00:09:00.767
+for there being a giant elephant
+at the center of our galaxy.
+
+00:09:00.791 --> 00:09:01.848
+(Laughter)
+
+00:09:01.872 --> 00:09:04.861
+Different types of images have
+very distinct features.
+
+00:09:04.885 --> 00:09:08.433
+We can easily tell the difference
+between black hole simulation images
+
+00:09:08.457 --> 00:09:10.733
+and images we take
+every day here on Earth.
+
+00:09:10.757 --> 00:09:13.861
+We need a way to tell our algorithms
+what images look like
+
+00:09:13.885 --> 00:09:17.134
+without imposing one type
+of image's features too much.
+
+00:09:17.685 --> 00:09:19.578
+One way we can try to get around this
+
+00:09:19.602 --> 00:09:22.664
+is by imposing the features
+of different kinds of images
+
+00:09:22.688 --> 00:09:26.818
+and seeing how the type of image we assume
+affects our reconstructions.
+
+00:09:27.532 --> 00:09:31.023
+If all images' types produce
+a very similar-looking image,
+
+00:09:31.047 --> 00:09:33.104
+then we can start to become more confident
+
+00:09:33.128 --> 00:09:37.301
+that the image assumptions we're making
+are not biasing this picture that much.
+
+00:09:37.325 --> 00:09:40.315
+This is a little bit like
+giving the same description
+
+00:09:40.339 --> 00:09:43.335
+to three different sketch artists
+from all around the world.
+
+00:09:43.359 --> 00:09:46.219
+If they all produce
+a very similar-looking face,
+
+00:09:46.243 --> 00:09:48.036
+then we can start to become confident
+
+00:09:48.060 --> 00:09:51.676
+that they're not imposing their own
+cultural biases on the drawings.
+
+00:09:51.700 --> 00:09:55.015
+One way we can try to impose
+different image features
+
+00:09:55.039 --> 00:09:57.480
+is by using pieces of existing images.
+
+00:09:58.034 --> 00:10:00.194
+So we take a large collection of images,
+
+00:10:00.218 --> 00:10:02.936
+and we break them down
+into their little image patches.
+
+00:10:02.960 --> 00:10:07.245
+We then can treat each image patch
+a little bit like pieces of a puzzle.
+
+00:10:07.269 --> 00:10:11.547
+And we use commonly seen puzzle pieces
+to piece together an image
+
+00:10:11.571 --> 00:10:14.023
+that also fits our telescope measurements.
+
+00:10:14.860 --> 00:10:18.603
+Different types of images have
+very distinctive sets of puzzle pieces.
+
+00:10:18.627 --> 00:10:21.433
+So what happens when we take the same data
+
+00:10:21.457 --> 00:10:25.587
+but we use different sets of puzzle pieces
+to reconstruct the image?
+
+00:10:25.611 --> 00:10:30.377
+Let's first start with black hole
+image simulation puzzle pieces.
+
+00:10:30.401 --> 00:10:31.992
+OK, this looks reasonable.
+
+00:10:32.016 --> 00:10:34.710
+This looks like what we expect
+a black hole to look like.
+
+00:10:34.734 --> 00:10:35.927
+But did we just get it
+
+00:10:35.951 --> 00:10:39.265
+because we just fed it little pieces
+of black hole simulation images?
+
+00:10:39.289 --> 00:10:41.169
+Let's try another set of puzzle pieces
+
+00:10:41.193 --> 00:10:43.702
+from astronomical, non-black hole objects.
+
+00:10:44.734 --> 00:10:46.860
+OK, we get a similar-looking image.
+
+00:10:46.884 --> 00:10:49.120
+And then how about pieces
+from everyday images,
+
+00:10:49.144 --> 00:10:51.929
+like the images you take
+with your own personal camera?
+
+00:10:53.132 --> 00:10:55.247
+Great, we see the same image.
+
+00:10:55.271 --> 00:10:58.637
+When we get the same image
+from all different sets of puzzle pieces,
+
+00:10:58.661 --> 00:11:00.707
+then we can start to become more confident
+
+00:11:00.731 --> 00:11:02.697
+that the image assumptions we're making
+
+00:11:02.721 --> 00:11:05.642
+aren't biasing the final
+image we get too much.
+
+00:11:05.666 --> 00:11:08.919
+Another thing we can do is take
+the same set of puzzle pieces,
+
+00:11:08.943 --> 00:11:11.432
+such as the ones derived
+from everyday images,
+
+00:11:11.456 --> 00:11:15.056
+and use them to reconstruct
+many different kinds of source images.
+
+00:11:15.080 --> 00:11:16.351
+So in our simulations,
+
+00:11:16.375 --> 00:11:20.150
+we pretend a black hole looks like
+astronomical non-black hole objects,
+
+00:11:20.174 --> 00:11:24.023
+as well as everyday images like
+the elephant in the center of our galaxy.
+
+00:11:24.047 --> 00:11:27.215
+When the results of our algorithms
+on the bottom look very similar
+
+00:11:27.239 --> 00:11:29.335
+to the simulation's truth image on top,
+
+00:11:29.359 --> 00:11:32.705
+then we can start to become
+more confident in our algorithms.
+
+00:11:32.729 --> 00:11:34.596
+And I really want to emphasize here
+
+00:11:34.620 --> 00:11:36.554
+that all of these pictures were created
+
+00:11:36.578 --> 00:11:39.514
+by piecing together little pieces
+of everyday photographs,
+
+00:11:39.538 --> 00:11:41.753
+like you'd take with your own
+personal camera.
+
+00:11:41.777 --> 00:11:45.053
+So an image of a black hole
+we've never seen before
+
+00:11:45.077 --> 00:11:49.020
+may eventually be created by piecing
+together pictures we see all the time
+
+00:11:49.044 --> 00:11:51.789
+of people, buildings,
+trees, cats and dogs.
+
+00:11:51.813 --> 00:11:54.458
+Imaging ideas like this
+will make it possible for us
+
+00:11:54.482 --> 00:11:57.101
+to take our very first pictures
+of a black hole,
+
+00:11:57.125 --> 00:11:59.572
+and hopefully, verify
+those famous theories
+
+00:11:59.596 --> 00:12:02.017
+on which scientists rely on a daily basis.
+
+00:12:02.041 --> 00:12:04.649
+But of course, getting
+imaging ideas like this working
+
+00:12:04.673 --> 00:12:07.995
+would never have been possible
+without the amazing team of researchers
+
+00:12:08.019 --> 00:12:09.906
+that I have the privilege to work with.
+
+00:12:09.930 --> 00:12:11.093
+It still amazes me
+
+00:12:11.117 --> 00:12:14.468
+that although I began this project
+with no background in astrophysics,
+
+00:12:14.492 --> 00:12:17.111
+what we have achieved
+through this unique collaboration
+
+00:12:17.135 --> 00:12:19.894
+could result in the very first
+images of a black hole.
+
+00:12:19.918 --> 00:12:22.616
+But big projects like
+the Event Horizon Telescope
+
+00:12:22.640 --> 00:12:25.454
+are successful due to all
+the interdisciplinary expertise
+
+00:12:25.478 --> 00:12:27.268
+different people bring to the table.
+
+00:12:27.292 --> 00:12:28.998
+We're a melting pot of astronomers,
+
+00:12:29.022 --> 00:12:31.254
+physicists, mathematicians and engineers.
+
+00:12:31.278 --> 00:12:33.832
+This is what will make it soon possible
+
+00:12:33.856 --> 00:12:36.709
+to achieve something
+once thought impossible.
+
+00:12:36.733 --> 00:12:38.989
+I'd like to encourage all of you to go out
+
+00:12:39.013 --> 00:12:41.109
+and help push the boundaries of science,
+
+00:12:41.133 --> 00:12:45.034
+even if it may at first seem
+as mysterious to you as a black hole.
+
+00:12:45.058 --> 00:12:46.232
+Thank you.
+
+00:12:46.256 --> 00:12:48.653
+(Applause)
+

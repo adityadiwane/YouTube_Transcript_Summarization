@@ -1,0 +1,1283 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: An Thi Linh Vo
+Reviewer: Duong Nguyen
+
+00:00:14.820 --> 00:00:18.820
+Tôi sẽ trình bày về một công nghệ
+mà chúng tôi đang phát triển ở Oxford,
+
+00:00:18.820 --> 00:00:21.820
+mà chúng tôi nghĩ rằng nó sẽ thay đổi
+
+00:00:21.820 --> 00:00:24.820
+cách tạo ra các trò chơi điện tử
+và những bộ phim Hollywood.
+
+00:00:25.820 --> 00:00:28.820
+Đó là công nghệ mô phỏng con người.
+
+00:00:28.820 --> 00:00:31.820
+Cụ thể là mô phỏng một cơ thể con người
+
+00:00:31.820 --> 00:00:34.820
+và mô phỏng hệ thần kinh để
+điều khiển cơ thể ấy.
+
+00:00:35.820 --> 00:00:38.820
+Và bây giờ, trước khi tôi
+nói thêm về công nghệ ấy,
+
+00:00:38.820 --> 00:00:41.820
+hãy nhìn sơ qua nhân vật 
+được tái hiện như thế nào
+
+00:00:41.820 --> 00:00:44.820
+trong trò chơi điện tử.
+
+00:00:44.820 --> 00:00:47.820
+Đây là một đoạn clip
+trong game "Grand Theft Auto 3."
+
+00:00:47.820 --> 00:00:49.820
+Chúng tôi đã xem tóm lược hôm qua rồi.
+
+00:00:49.820 --> 00:00:52.820
+Và các bạn có thể thấy rằng 
+đây là một trò chơi rất hay.
+
+00:00:52.820 --> 00:00:55.820
+Nó là một trong những game
+thành công nhất mọi thời đại.
+
+00:00:55.820 --> 00:00:59.820
+Nhưng các bạn sẽ nhận thấy các chuyển động
+trong game này rất hay lặp lại.
+
+00:00:59.820 --> 00:01:01.820
+Chúng hầu như giống nhau.
+
+00:01:01.820 --> 00:01:04.820
+Ở đây tôi làm cho nhân vật này
+va vào tường liên tục.
+
+00:01:04.820 --> 00:01:06.820
+Bạn có thể thấy anh ta
+luôn chạy một kiểu.
+
+00:01:06.820 --> 00:01:09.820
+Lý do để giải thích điều này
+là những nhân vật trong đó
+
+00:01:09.820 --> 00:01:11.820
+không phải là nhân vật thật sự.
+
+00:01:11.820 --> 00:01:15.820
+Chúng là hình ảnh hóa được đồ họa
+của một nhân vật.
+
+00:01:15.820 --> 00:01:20.820
+Để tạo ra những hình ảnh này, một họa sĩ 
+chuyên về chuyển động sẽ phải phán đoán
+
+00:01:20.820 --> 00:01:23.820
+điều gì sẽ xảy ra trong game,
+
+00:01:23.820 --> 00:01:26.820
+và sau đó phải vẽ chuyển động
+cho hành động đó.
+
+00:01:26.820 --> 00:01:30.820
+Tóm lại, anh hoặc cô ta ngồi xuống, vẽ lại
+và cố phán đoán chuyện gì sẽ xảy ra
+
+00:01:30.820 --> 00:01:33.820
+và rồi những chuyển động cụ thể này
+được lặp lại
+
+00:01:33.820 --> 00:01:36.820
+vào những thời điểm thích hợp trong game.
+
+00:01:36.820 --> 00:01:41.820
+Kết quả là không có sự tương tác thật
+của nhân vật.
+
+00:01:41.820 --> 00:01:44.820
+Tất cả bạn có chỉ là chuyển động
+được lặp lại.
+
+00:01:44.820 --> 00:01:46.820
+vào thời điểm thích hợp
+không ít thì nhiều.
+
+00:01:46.820 --> 00:01:51.820
+Điều này có nghĩa là game
+không có nhiều yếu tố bất ngờ như mong đợi
+
+00:01:51.820 --> 00:01:54.820
+bởi vì bạn chỉ có thế mà thôi
+ít nhất là về khía cạnh nhân vật,
+
+00:01:54.820 --> 00:01:56.820
+những gì bạn thật sự dành cho điều ấy.
+
+00:01:56.820 --> 00:01:58.820
+Ở đây không thực sự nói lên được gì cả.
+
+00:01:58.820 --> 00:02:02.820
+Và thứ ba, như tôi đã nói, hầu hết
+chuyển động rất lặp lại đều vì vậy.
+
+00:02:02.820 --> 00:02:04.820
+Và bây giờ, cách duy nhất để khắc phục
+
+00:02:04.820 --> 00:02:06.820
+là mô phỏng thật sự một cơ thể con người.
+
+00:02:06.820 --> 00:02:11.820
+và để mô phỏng hệ thần kinh của bộ não
+điều khiển cơ thể đó.
+
+00:02:11.820 --> 00:02:14.820
+Và có lẽ, các bạn có thể là luận chứng
+nhanh chóng mà tôi có
+
+00:02:14.820 --> 00:02:16.820
+để cho thấy sự khác biệt là gì
+
+00:02:16.820 --> 00:02:20.820
+bởi vì, ý tôi là, điều đó
+rất, rất là hiển nhiên
+
+00:02:20.820 --> 00:02:23.820
+Ví dụ, nếu tôi đẩy Chris như thế này, 
+anh ấy sẽ phản xạ lại.
+
+00:02:23.820 --> 00:02:26.820
+Nếu tôi đẩy anh ấy từ một góc độ khác,
+anh ấy sẽ phản xạ khác.
+
+00:02:26.820 --> 00:02:28.820
+Bởi vì anh ấy có một cơ thể thật sự.
+
+00:02:28.820 --> 00:02:31.820
+và bởi vì anh ấy có khả năng
+điều khiển cơ thể đó.
+
+00:02:31.820 --> 00:02:33.820
+Điều này thật tầm phào.
+
+00:02:33.820 --> 00:02:35.820
+Chả có tí gì về điều đó trong game lúc này
+
+00:02:35.820 --> 00:02:37.820
+Cám ơn anh rất nhiều.
+Đủ rồi chứ?
+
+00:02:37.820 --> 00:02:39.820
+Vâng, chỉ có thế thôi.
+
+00:02:39.820 --> 00:02:40.820
+Cái ta gắng mô phỏng
+
+00:02:40.820 --> 00:02:44.820
+không chỉ riêng Chris, tôi nên nói là,
+mà con người nói chung.
+
+00:02:45.820 --> 00:02:50.820
+Bây giờ, chúng tôi đã bắt đầu dự án này
+được một thời gian tại Đại học Oxford.
+
+00:02:50.820 --> 00:02:52.820
+và chúng tôi cố gắng bắt đầu rất đơn giản.
+
+00:02:52.820 --> 00:02:55.820
+Những gì chúng tôi cố làm là 
+dạy một hình nhân que cách đi.
+
+00:02:55.820 --> 00:02:58.820
+Nó được mô phỏng như thật.
+Bạn có thể thấy trên màn hình.
+
+00:02:58.820 --> 00:03:01.820
+Nó chịu tác động bởi trọng lực,
+có các khớp cơ, vân vân.
+
+00:03:01.820 --> 00:03:04.820
+Nếu bạn chạy chương trình mô phỏng, 
+nó sẽ đổ gục như thế này.
+
+00:03:04.820 --> 00:03:08.820
+Rắc rối bây giờ là gắn một bộ điều khiển
+bằng trí thông minh nhân tạo cho nó
+
+00:03:08.820 --> 00:03:10.820
+để làm cho hình nhân này hoạt động.
+
+00:03:10.820 --> 00:03:13.820
+Để làm như vậy, chúng tôi dùng mạng nơ-ron
+dựa trên một phần
+
+00:03:13.820 --> 00:03:15.820
+hệ thần kinh chúng ta có ở xương sống
+
+00:03:15.820 --> 00:03:17.820
+điều khiển
+việc di chuyển ở con người
+
+00:03:17.820 --> 00:03:19.820
+Nó gọi là máy tạo hình mẫu trung ương.
+
+00:03:19.820 --> 00:03:22.820
+Chúng tôi đã mô phỏng được điều đó,
+và việc cần làm tiếp theo
+
+00:03:22.820 --> 00:03:24.820
+là dạy hệ thống đó cách di chuyển.
+
+00:03:24.820 --> 00:03:28.820
+Để được như thế, chúng tôi dùng
+tiến hóa nhân tạo, thuật toán về gen.
+
+00:03:28.820 --> 00:03:30.820
+Chúng ta đã nghe về điều đó hôm qua.
+
+00:03:30.820 --> 00:03:33.820
+và tôi nghĩ rằng hầu hết các bạn 
+đã quen với chúng rồi.
+
+00:03:33.820 --> 00:03:35.820
+Nhưng, tóm lại, ý tưởng là
+
+00:03:35.820 --> 00:03:38.820
+bạn tạo ra một số lượng lớn
+các cá thể khác nhau
+
+00:03:38.820 --> 00:03:40.820
+trong trường hợp này là mạng nơ-ron
+
+00:03:40.820 --> 00:03:42.820
+các cá thể này đều ngẫu nhiên từ lúc đầu.
+
+00:03:42.820 --> 00:03:44.820
+Bạn gắn chúng vào, lúc này, là khối cơ ảo
+
+00:03:44.820 --> 00:03:47.820
+của sinh vật hai chân kia ở đây
+
+00:03:47.820 --> 00:03:50.820
+và hy vọng rằng
+nó sẽ tạo ra điều gì đó thú vị.
+
+00:03:50.820 --> 00:03:52.820
+Ban đầu, tất cả chúng đều sẽ rất buồn chán
+
+00:03:52.820 --> 00:03:54.820
+Hầu hết sẽ không chuyển động chút nào,
+
+00:03:54.820 --> 00:03:56.820
+nhưng một số có thể sẽ bước được một chút.
+
+00:03:56.820 --> 00:03:58.820
+Sau đó chúng được chọn bởi thuật toán,
+
+00:03:58.820 --> 00:04:02.820
+được tái tạo lại với biến dị tổ hợp
+để tạo ra giới tính.
+
+00:04:02.820 --> 00:04:04.820
+Và rồi quá trình này được lặp lại,
+
+00:04:04.820 --> 00:04:06.820
+đến khi bạn có một thứ
+di chuyển được
+
+00:04:06.820 --> 00:04:08.820
+theo một đường thẳng như thể này.
+
+00:04:08.820 --> 00:04:10.820
+Và đó là ý tưởng sau những điều này.
+
+00:04:10.820 --> 00:04:13.820
+Khi bắt đầu, chúng tôi thiết lập 
+mô phỏng trong một buổi tối.
+
+00:04:13.820 --> 00:04:16.820
+Mất gần ba đến bốn giờ để chạy mô phỏng.
+
+00:04:16.820 --> 00:04:20.820
+Vào buổi sáng hôm sau, tôi thức dậy
+đến bên máy tính và nhìn vào kết quả,
+
+00:04:20.820 --> 00:04:23.820
+và hy vọng rằng thứ gì đó 
+sẽ di chuyển theo một đường thẳng.
+
+00:04:23.820 --> 00:04:25.820
+Như tôi đã trình bày ở trên.
+
+00:04:25.820 --> 00:04:27.820
+Thay vào đó đây là những gì tôi nhận được.
+
+00:04:27.820 --> 00:04:37.820
+(Bật cười)
+
+00:04:37.820 --> 00:04:40.820
+Vì vậy, chúng tôi phải làm lại từ đầu.
+
+00:04:41.820 --> 00:04:44.820
+Cuối cùng chúng cũng bắt đầu hoạt động,
+
+00:04:44.820 --> 00:04:46.820
+sau khi tùy chỉnh một chút ở đó và ở đây.
+
+00:04:46.820 --> 00:04:49.820
+Là ví dụ của bước chạy tiến hóa thành công
+
+00:04:49.820 --> 00:04:52.820
+Bạn sẽ thấy một động vật hai chân đơn giản
+
+00:04:52.820 --> 00:04:55.820
+Đó chính là việc học cách đi 
+dùng quá trình tiến hóa nhân tạo.
+
+00:04:55.820 --> 00:04:57.820
+Lúc đầu, nó không thể đi được tí nào,
+
+00:04:57.820 --> 00:04:59.820
+nhưng càng ngày sẽ càng tốt hơn
+
+00:05:01.820 --> 00:05:04.820
+Và đây là cái hình nhân không thể 
+đi được tí nào
+
+00:05:04.820 --> 00:05:10.820
+(Tràng cười)
+
+00:05:10.820 --> 00:05:13.820
+Bây giờ, sau năm thế hệ áp dụng 
+quá trình tiến hóa
+
+00:05:13.820 --> 00:05:16.820
+các thuật toán di truyền 
+trở nên tốt hơn một chút.
+
+00:05:16.820 --> 00:05:24.820
+(Tràng cười)
+
+00:05:24.820 --> 00:05:26.820
+Thế hệ 10 sẽ đi thêm được vài bước nữa,
+
+00:05:30.820 --> 00:05:32.820
+Ở đây vẫn chưa khá hơn.
+
+00:05:33.820 --> 00:05:38.820
+Nhưng bây giờ, sau thế hệ 20, nó thật sự 
+đi được trên một đường thẳng mà không ngã
+
+00:05:39.820 --> 00:05:42.820
+Đối với chúng tôi đó là 
+một bước đột phá thật sự.
+
+00:05:42.820 --> 00:05:45.820
+Theo tính hàn lâm, đó là
+một dự án khá nhiều thách thức
+
+00:05:45.820 --> 00:05:48.820
+Và một khi đạt đến bước này,
+chúng tôi tự tin rằng
+
+00:05:48.820 --> 00:05:51.820
+chúng tôi có thể thử làm những thứ khác
+cũng với phương pháp này
+
+00:05:51.820 --> 00:05:53.820
+mô phỏng cơ thể con người thật sự
+
+00:05:53.820 --> 00:05:56.820
+và mô phỏng một bộ phận của hệ thống
+thần kinh điều khiển nó.
+
+00:05:56.820 --> 00:05:59.820
+Bây giờ, ngay tại bước này
+sự thú vị cũng trở nên rõ ràng hẳn
+
+00:05:59.820 --> 00:06:02.820
+đối với những thứ như là trò chơi điện thử
+hay thế giới online.
+
+00:06:02.820 --> 00:06:04.820
+Cái bạn thấy ở đây là nhân vật đang đứng,
+
+00:06:04.820 --> 00:06:06.820
+và chúng tôi đã tạo ra vật cản ở lối đi
+
+00:06:06.820 --> 00:06:11.820
+Và những gì bạn nhìn thấy là 
+nó sẽ ngã bởi vật cản
+
+00:06:11.820 --> 00:06:14.820
+Giờ thì có tí thú vị là nếu 
+dịch vật cản một chút về bên phải
+
+00:06:14.820 --> 00:06:16.820
+là những việc tôi đang làm đây
+
+00:06:16.820 --> 00:06:20.820
+thì nó sẽ ngã theo một cách khác hoàn toàn
+
+00:06:23.820 --> 00:06:28.820
+Lại lần nữa, nếu bạn di chuyển vật cản 
+một chút, nó sẽ lại ngã theo kiểu khác
+
+00:06:28.820 --> 00:06:30.820
+(Tràng cười)
+
+00:06:30.820 --> 00:06:32.820
+Giờ bạn thấy, nhân tiện, ở trên cùng
+
+00:06:32.820 --> 00:06:35.820
+là những sự hoạt hóa nơ-ron được đưa vào
+những cơ bắp ảo.
+
+00:06:35.820 --> 00:06:37.820
+Được rồi. Đó là video. Cám ơn mọi người
+
+00:06:37.820 --> 00:06:40.820
+Điều này có vẻ khá là tầm phào
+nhưng thực sự rất quan trọng
+
+00:06:40.820 --> 00:06:42.820
+bởi vì bạn không thể tìm thấy ngay
+
+00:06:42.820 --> 00:06:44.820
+trong bất cứ tương tác hay thế giới ảo nào
+
+00:06:47.820 --> 00:06:50.820
+Giai đoạn này, chúng tôi quyết định 
+mở công ty và tiến xa hơn
+
+00:06:50.820 --> 00:06:53.820
+bởi vì rõ ràng điều này rất đơn giản,
+khối ô vuông có hai chân.
+
+00:06:53.820 --> 00:06:55.820
+Cái chúng tôi muốn thật là 
+cơ thể đầy đủ
+
+00:06:55.820 --> 00:06:56.820
+Vì vậy đã mở công ty
+
+00:06:56.820 --> 00:07:01.820
+Chúng tôi thuê một nhóm các nhà vật lý,
+kỹ sư phần mềm và các nhà sinh học
+
+00:07:01.820 --> 00:07:04.820
+để thực hiện điều này, và điều đầu tiên
+chúng tôi phải làm
+
+00:07:04.820 --> 00:07:08.820
+là tạo ra một cơ thể con người cơ bản.
+
+00:07:08.820 --> 00:07:11.820
+Nó bắt đầu tương đối nhanh, bạn 
+có thể chạy trên máy thường
+
+00:07:11.820 --> 00:07:14.820
+nhưng đủ chính xác, về cơ bản 
+có vẻ khá là tốt.
+
+00:07:14.820 --> 00:07:17.820
+Vì vậy chúng tôi đưa khá nhiều kiến thức
+sinh cơ học vào đó,
+
+00:07:17.820 --> 00:07:21.820
+và cố gắng làm cho nó càng thật càng tốt.
+
+00:07:21.820 --> 00:07:23.820
+Những gì bạn thấy trên màn hình lúc này
+
+00:07:23.820 --> 00:07:25.820
+là hình ảnh hóa đơn giản của một cơ thể.
+
+00:07:25.820 --> 00:07:29.820
+Tôi nên thêm vào những thứ rất đơn giản để
+thêm vào như là tóc, quần áo, v.v...
+
+00:07:29.820 --> 00:07:32.820
+nhưng điều chúng tôi đã làm là sử dụng
+một hình ảnh hóa đơn giản
+
+00:07:32.820 --> 00:07:34.820
+để bạn có thể tập trung vào chuyển động.
+
+00:07:34.820 --> 00:07:37.820
+Trong lúc này những gì tôi
+định làm ngay bây giờ
+
+00:07:37.820 --> 00:07:40.820
+là đẩy nhân vật này một chút và ta
+sẽ thấy những gì sắp xảy ra.
+
+00:07:45.820 --> 00:07:47.820
+Cơ bản thì chẳng có gì thật sự thú vị.
+
+00:07:47.820 --> 00:07:50.820
+Té ngã, nhưng về cơ bản là 
+ngã như một con búp bê vải.
+
+00:07:50.820 --> 00:07:53.820
+Lý do cho điều này là nó 
+chả có tí thông minh gì.
+
+00:07:53.820 --> 00:07:57.820
+Sẽ thú vị hơn nếu bạn đưa
+trí thông minh nhân tạo vào trong đó.
+
+00:07:57.820 --> 00:08:01.820
+Vì vậy, hiện tại nhân vật này có kỹ năng 
+vận động ở phần trên cơ thể
+
+00:08:01.820 --> 00:08:03.820
+vẫn chưa có gì ở chân, cụ thể nhân vật này
+
+00:08:03.820 --> 00:08:06.820
+Nhưng nó sẽ làm những gì --
+Tôi tính đẩy nó lần nữa
+
+00:08:06.820 --> 00:08:08.820
+Nó sẽ tự động nhận ra rằng
+mình đang bị đẩy
+
+00:08:08.820 --> 00:08:10.820
+Nó định sẽ đưa tay ra.
+
+00:08:10.820 --> 00:08:13.820
+Nó sẽ ngã trở lại, và cố gắng 
+và lại bị ngã.
+
+00:08:19.820 --> 00:08:21.820
+Vậy đó là những gì bạn nhìn thấy.
+
+00:08:21.820 --> 00:08:23.820
+Bây giờ, điều đó thực sự trở nên thú vị
+
+00:08:23.820 --> 00:08:27.820
+nếu bạn cũng thêm trí thông minh nhân tạo
+vào phần dưới cơ thể này.
+
+00:08:27.820 --> 00:08:29.820
+Và đây, chúng ta có nhân vật giống như thế
+
+00:08:29.820 --> 00:08:31.820
+Bây giờ tôi sẽ đẩy mạnh hơn một chút,
+
+00:08:31.820 --> 00:08:33.820
+mạnh hơn lúc tôi đẩy Chris.
+
+00:08:33.820 --> 00:08:37.820
+Nhưng những gì bạn sẽ thấy là, bây giờ 
+nó nhận cú đẩy từ phía bên trái.
+
+00:08:40.820 --> 00:08:42.820
+Bạn thấy nó lùi lại phía sau vài bước,
+
+00:08:42.820 --> 00:08:44.820
+nó cố gắng để đối trọng,
+
+00:08:44.820 --> 00:08:48.820
+cố gắng xem xét nơi mà nó nghĩ 
+mình sẽ ngã xuống.
+
+00:08:48.820 --> 00:08:50.820
+Tôi sẽ cho các bạn thấy lần nữa.
+
+00:08:50.820 --> 00:08:53.820
+Và rồi, cuối cùng cũng ngã xuống sàn.
+
+00:08:54.820 --> 00:08:57.820
+Giờ thì điều này trở nên thú vị thật sự
+
+00:08:57.820 --> 00:09:02.820
+khi bạn đẩy nhân vật đó ở những hướng 
+khác nhau, lại lần nữa, như tôi đã đẩy.
+
+00:09:02.820 --> 00:09:06.820
+Đó là điều mà các bạn sẽ không 
+làm được ngay hiện nay.
+
+00:09:06.820 --> 00:09:09.820
+Hiện tại, bạn chỉ có những đồ họa
+máy tính rỗng trong các game.
+
+00:09:09.820 --> 00:09:12.820
+Một mô phỏng thực tế. 
+Là cái tôi muốn cho bạn thấy lúc này
+
+00:09:12.820 --> 00:09:15.820
+Đây là một nhân vật tương tự 
+với hành vi như tôi đã cho bạn xem
+
+00:09:15.820 --> 00:09:17.820
+Nhưng giờ tôi sẽ đẩy
+từ các hướng khác nhau
+
+00:09:17.820 --> 00:09:19.820
+Đầu tiên, bắt đầu cú đẩy 
+từ phía bên phải.
+
+00:09:22.820 --> 00:09:25.820
+Đây đều là chuyển động chậm, ta sẽ
+xem những gì xảy ra tiếp theo
+
+00:09:25.820 --> 00:09:28.820
+Giờ thì góc độ sẽ thay đổi đôi chút,
+
+00:09:28.820 --> 00:09:32.820
+vậy nên bạn có thể thấy phản ứng khác nhau
+
+00:09:32.820 --> 00:09:35.820
+Lại lần nữa, một cú đẩy, 
+bây giờ là từ phía trước.
+
+00:09:36.820 --> 00:09:38.820
+Và bạn thấy nó ngã theo kiểu khác nhau.
+
+00:09:38.820 --> 00:09:40.820
+Và bây giờ là từ phía bên trái
+
+00:09:42.820 --> 00:09:44.820
+và rồi ngã kiểu khác.
+
+00:09:44.820 --> 00:09:46.820
+Thật thú vị khi thấy điều đó.
+
+00:09:46.820 --> 00:09:48.820
+Đó là lần đầu tiên chúng tôi thấy.
+
+00:09:48.820 --> 00:09:50.820
+Cũng là lần đầu tiên 
+công chúng được thấy,
+
+00:09:50.820 --> 00:09:52.820
+bởi vì chúng tôi đã bật chế độ ẩn.
+
+00:09:52.820 --> 00:09:54.820
+Tôi vẫn chưa cho ai xem cả.
+
+00:09:54.820 --> 00:09:56.820
+Bây giờ, là một điều khá hài hước
+
+00:09:56.820 --> 00:09:58.820
+Chuyện gì sẽ xảy ra nếu bạn 
+đặt nhân vật
+
+00:09:58.820 --> 00:10:00.820
+Là phiên bản gỗ có trí
+thông minh nhân tạo
+
+00:10:00.820 --> 00:10:02.820
+nếu đặt nhân vật
+trên bề mặt trơn như băng
+
+00:10:02.820 --> 00:10:05.820
+Điều này chỉ để gây cười, hãy xem
+những gì sẽ xảy ra
+
+00:10:05.820 --> 00:10:06.820
+(Tràng cười)
+
+00:10:06.820 --> 00:10:08.820
+Và đây là những gì xảy ra.
+
+00:10:08.820 --> 00:10:11.820
+(Tràng cười)
+
+00:10:11.820 --> 00:10:14.820
+(Vỗ tay)
+
+00:10:14.820 --> 00:10:16.820
+Chúng tôi chả làm gì cả
+
+00:10:16.820 --> 00:10:18.820
+Chỉ điều khiển nhân vật như đã nói
+
+00:10:18.820 --> 00:10:21.820
+đặt trên một bề mặt trơn, và đây là
+những gì bạn có.
+
+00:10:21.820 --> 00:10:24.820
+Và phương thức này thật sự tuyệt vời.
+
+00:10:25.820 --> 00:10:28.820
+Hiện tại, khi tới các hãng phim 
+và các nhà phát triển game
+
+00:10:28.820 --> 00:10:31.820
+và cho họ thấy công nghệ này, 
+chúng tôi được phản hồi rất tốt.
+
+00:10:31.820 --> 00:10:35.820
+Đây là những gì họ nói, điều đầu tiên họ 
+cần ngay lập tức là nhân vật đóng thế ảo
+
+00:10:35.820 --> 00:10:39.820
+Vì những pha nhào lộn rõ ràng rất 
+nguy hiểm, chúng rất tốn kém.
+
+00:10:39.820 --> 00:10:41.820
+rõ ràng có những cảnh mà bạn không thể làm
+
+00:10:41.820 --> 00:10:44.820
+vì thật không thể để diễn viên 
+đóng thế tổn thương nghiêm trọng
+
+00:10:44.820 --> 00:10:47.820
+Do đó, họ muốn có phiên bản
+kĩ thuật số của diễn viên đóng thế
+
+00:10:47.820 --> 00:10:49.820
+chính là thứ chúng tôi làm vài tháng trước
+
+00:10:49.820 --> 00:10:54.820
+Và đó là sản phẩm đầu tiên của chúng tôi
+mà dự định sẽ phát hành trong vài tuần tới
+
+00:10:54.820 --> 00:10:59.820
+Và đây là một vài cảnh đơn giản của
+người bị đánh.
+
+00:10:59.820 --> 00:11:01.820
+Là cái con người muốn.
+Cái chúng tôi cho họ
+
+00:11:01.820 --> 00:11:08.820
+(Tràng cười)
+
+00:11:08.820 --> 00:11:10.820
+Như bạn thấy, nó luôn phản ứng.
+
+00:11:10.820 --> 00:11:14.820
+Đây không phải là một thi thể. Về cơ bản,
+là một cơ thể ở trường hợp cụ thể này,
+
+00:11:14.820 --> 00:11:16.820
+nhận thấy áp lực và cố gắng bảo vệ đầu.
+
+00:11:16.820 --> 00:11:18.820
+Chỉ có tôi nghĩ đó lại là một đòn khá mạnh
+
+00:11:18.820 --> 00:11:20.820
+Bạn cảm thấy thương xót cho điều đó,
+
+00:11:20.820 --> 00:11:22.820
+và giờ thì chúng tôi đã thấy rất nhiều lần
+
+00:11:22.820 --> 00:11:24.820
+và thật sự chả quan tâm chút nào nữa.
+
+00:11:24.820 --> 00:11:25.820
+(Tràng cười)
+
+00:11:25.820 --> 00:11:29.820
+Có rất nhiều video tệ hơn thế này nữa,
+nhân tiện những cái tôi đưa ra, nhưng...
+
+00:11:30.820 --> 00:11:32.820
+Giờ là một video khác.
+
+00:11:32.820 --> 00:11:36.820
+Con người muốn có những hành động
+như là một vụ nổ vậy,
+
+00:11:36.820 --> 00:11:38.820
+một siêu năng lực áp dụng cho nhân vật
+
+00:11:38.820 --> 00:11:40.820
+và khiến nhân vật phản ứng
+giữa không trung
+
+00:11:40.820 --> 00:11:42.820
+Thế nên bạn không có nhân vật ẻo lả nào,
+
+00:11:42.820 --> 00:11:45.820
+thật sự nhân vật có thể dùng
+trong phim hành động mà không do dự
+
+00:11:45.820 --> 00:11:47.820
+cũng là kiểu tồn tại giữa không trung.
+
+00:11:47.820 --> 00:11:49.820
+Và rồi nhân vật này sẽ bị 
+tấn công,
+
+00:11:49.820 --> 00:11:51.820
+nhận ra mình đang ở giữa không trung,
+
+00:11:51.820 --> 00:11:54.820
+và cố thử và rồi, thì,
+
+00:11:54.820 --> 00:11:56.820
+vung tay theo hướng rơi xuống
+
+00:11:58.820 --> 00:12:01.820
+Đó là ở một góc độ, đây là một góc độ khác
+
+00:12:01.820 --> 00:12:03.820
+Chủ nghĩa hiện thực chúng ta đạt được
+
+00:12:03.820 --> 00:12:05.820
+đủ tốt để áp dụng vào các bộ phim.
+
+00:12:05.820 --> 00:12:08.820
+Và hãy xem xét một hình ảnh hóa
+có chút khác biệt .
+
+00:12:08.820 --> 00:12:10.820
+Đây là thứ mà tôi có vào tối hôm qua
+
+00:12:10.820 --> 00:12:13.820
+từ hãng phim hoạt hình ở London
+đang dùng phần mềm của chúng tôi
+
+00:12:13.820 --> 00:12:15.820
+và giờ đang thử nghiệm với nó.
+
+00:12:15.820 --> 00:12:18.820
+Và đây là chính xác là hành vi tương tự
+mà các bạn đã thấy,
+
+00:12:18.820 --> 00:12:22.820
+nhưng ở một phiên bản có
+kết xuất đồ họa tốt hơn một chút.
+
+00:12:22.820 --> 00:12:25.820
+Vậy nên nếu bạn xem xét nhân vật 
+kĩ lưỡng hơn,
+
+00:12:25.820 --> 00:12:27.820
+bạn sẽ thấy rất nhiều chuyển động cơ thể,
+
+00:12:27.820 --> 00:12:29.820
+mà không phải mất công
+tạo hiệu ứng như xưa
+
+00:12:29.820 --> 00:12:31.820
+Các nhà làm phim hoạt hình đã tạo ra chúng
+
+00:12:31.820 --> 00:12:33.820
+Sự mô phỏng diễn ra một cách tự động.
+
+00:12:33.820 --> 00:12:35.820
+Đây là một góc độ hơi khác,
+
+00:12:38.820 --> 00:12:40.820
+và lại là một phiên bản chuyển động chậm.
+
+00:12:40.820 --> 00:12:44.820
+Cái này nhanh cực kì. Đang xảy ra trong 
+thời gian thật.
+
+00:12:44.820 --> 00:12:46.820
+Có thể chạy mô phỏng này
+ở thời gian thật,
+
+00:12:46.820 --> 00:12:49.820
+trước mắt bạn, đổi, nếu bạn muốn,
+bạn có hình động ngay lập tức.
+
+00:12:49.820 --> 00:12:51.820
+Hiện tại, nếu thực hiện điều này bằng tay
+
+00:12:51.820 --> 00:12:53.820
+thì bạn sẽ mất cỡ hai ngày.
+
+00:12:54.820 --> 00:12:57.820
+Đây là một hành động khác mà họ yêu cầu.
+
+00:12:57.820 --> 00:12:59.820
+Không chắc về lý do, 
+dù sao cũng đã làm.
+
+00:12:59.820 --> 00:13:01.820
+Hành động cho thấy sức mạnh của cách thức.
+
+00:13:01.820 --> 00:13:03.820
+Trong trường hợp này là tay của nhân vật
+
+00:13:03.820 --> 00:13:05.820
+cố định vào điểm cụ thể trong không gian,
+
+00:13:05.820 --> 00:13:08.820
+và tất cả những gì chúng tôi bảo nhân vật
+làm là chiến đấu.
+
+00:13:08.820 --> 00:13:11.820
+và có vẻ rất hữu hình. Trông rất chân thật
+
+00:13:11.820 --> 00:13:13.820
+Bạn cảm thấy xót cho chàng trai.
+
+00:13:13.820 --> 00:13:16.820
+Thậm chí còn tệ hơn, và một video
+khác tôi mới có vào tối qua,
+
+00:13:16.820 --> 00:13:18.820
+nếu bạn kết xuất đồ họa thực hơn một chút.
+
+00:13:22.820 --> 00:13:24.820
+Tôi đang chiếu cái này
+chỉ để cho bạn thấy
+
+00:13:24.820 --> 00:13:26.820
+cảm giác thật hữu hình, và trông rất thật.
+
+00:13:26.820 --> 00:13:29.820
+Và đây là tất cả mô phỏng vật lý 
+của cơ thể,
+
+00:13:29.820 --> 00:13:32.820
+sử dụng trí thông minh nhân tạo để
+điều khiển cơ bắp ảo.
+
+00:13:34.820 --> 00:13:37.820
+Bây giờ, một điều chúng tôi làm để 
+gây cười
+
+00:13:37.820 --> 00:13:39.820
+là tạo ra cảnh nhào lộn phức tạp hơn chút
+
+00:13:39.820 --> 00:13:42.820
+và một trong những pha nhào lộn nổi tiếng
+nhất là cảnh mà
+
+00:13:42.820 --> 00:13:46.820
+Jame Bonds nhảy ra khỏi một con đập ở
+Thụy Sĩ và rồi nhảy Bungee
+
+00:13:47.820 --> 00:13:49.820
+Có một clip rất ngắn.
+
+00:13:53.820 --> 00:13:55.820
+Vâng, bạn có thể chỉ vừa mới xem.
+
+00:13:55.820 --> 00:13:58.820
+Ở đây, họ đã dùng diễn viên đóng thế. 
+Là một pha rất nguy hiểm.
+
+00:13:58.820 --> 00:14:01.820
+Được bình chọn, tôi nghĩ là Sunday Times, 
+là cảnh ấn tượng nhất
+
+00:14:01.820 --> 00:14:04.820
+Giờ thì, chúng ta đã thử xem xét các
+nhân vật và tự hỏi mình,
+
+00:14:04.820 --> 00:14:06.820
+"Chúng ta cũng có thể tự mình làm chứ?"
+
+00:14:06.820 --> 00:14:08.820
+Ta có thể dùng mô phỏng
+vật lý của nhân vật
+
+00:14:08.820 --> 00:14:10.820
+sử dụng trí thông minh nhân tạo,
+
+00:14:10.820 --> 00:14:12.820
+đưa trí thông minh nhân tạo vào nhân vật,
+
+00:14:12.820 --> 00:14:16.820
+điều khiển cơ bắp ảo, mô phỏng cách anh ấy
+nhảy khỏi con đập,
+
+00:14:16.820 --> 00:14:18.820
+và rồi nhảy dù ngay sau đó,
+
+00:14:18.820 --> 00:14:20.820
+và làm cho anh ấy nhảy bungee sau đó luôn?
+
+00:14:20.820 --> 00:14:23.820
+Chúng tôi đã làm thế, mất toàn bộ 
+hai giờ đồng hồ,
+
+00:14:23.820 --> 00:14:25.820
+khá là nhiều, để tạo ra mô phỏng.
+
+00:14:25.820 --> 00:14:27.820
+Và điều đó trông như thế này.
+
+00:14:36.820 --> 00:14:39.820
+Giờ cần phải làm việc thêm chút nữa. 
+Vẫn ở giai đoạn rất sớm,
+
+00:14:39.820 --> 00:14:41.820
+chúng tôi làm khá nhiều
+chỉ để gây cười,
+
+00:14:41.820 --> 00:14:43.820
+chỉ để xem chúng tôi sẽ có được cái gì.
+
+00:14:43.820 --> 00:14:45.820
+Nhưng cái chúng tôi nhận ra
+vài tháng qua
+
+00:14:45.820 --> 00:14:48.820
+là phương thức này, vượt qua 
+mong đợi của chúng tôi,
+
+00:14:48.820 --> 00:14:50.820
+vô cùng tuyệt vời.
+
+00:14:50.820 --> 00:14:54.820
+Chúng tôi bất ngờ về những gì các bạn
+thật sự thấy về những mô phỏng.
+
+00:14:54.820 --> 00:14:58.820
+Có hành động rất ngạc nhiên và rất thường
+xuyên trước đây bạn không đoán được.
+
+00:14:58.820 --> 00:15:00.820
+Rất nhiều thứ có thể
+làm với cách thức này.
+
+00:15:00.820 --> 00:15:03.820
+Điều đầu tiên, như tôi đã nói,
+sẽ là một diễn viên đóng thế ảo.
+
+00:15:03.820 --> 00:15:07.820
+Một số hãng bây giờ đang sử dụng phần mềm
+này để sản xuất diễn viên đóng thế ảo,
+
+00:15:07.820 --> 00:15:09.820
+và họ sẽ xuất hiện trên màn ảnh sớm thôi,
+
+00:15:09.820 --> 00:15:11.820
+đối với một số sản phẩm chính.
+
+00:15:11.820 --> 00:15:14.820
+Điều thứ hai là video games.
+
+00:15:14.820 --> 00:15:18.820
+Với công nghệ này, các video game sẽ khác 
+nhau và sẽ tạo ra cảm giác rất khác biệt.
+
+00:15:18.820 --> 00:15:21.820
+Lần đầu tiên, sẽ có các diễn viên
+thật sự có cảm giác tương tác,
+
+00:15:21.820 --> 00:15:23.820
+có những cơ thể thật và phản ứng thật.
+
+00:15:23.820 --> 00:15:26.820
+Tôi nghĩ điều đó sẽ vô cùng thú vị.
+
+00:15:26.820 --> 00:15:28.820
+Có thể bắt đầu với những game thể thao,
+
+00:15:28.820 --> 00:15:30.820
+mà sẽ có tính tương tác nhiều hơn.
+
+00:15:30.820 --> 00:15:31.820
+Nhưng tôi thấy thú vị
+
+00:15:31.820 --> 00:15:34.820
+về việc sử dụng công nghệ này 
+vào trong thế giới ảo,
+
+00:15:34.820 --> 00:15:37.820
+kiểu như này, lấy ví dụ, Tom Melcher đã 
+cho chúng ta thấy.
+
+00:15:37.820 --> 00:15:39.820
+Mức độ tương tác bạn sẽ có
+
+00:15:39.820 --> 00:15:42.820
+hoàn toàn khác biệt, tôi nghĩ, so với cái
+bây giờ bạn đang có.
+
+00:15:43.820 --> 00:15:47.820
+Và điều thứ ba chúng ta đang thấy và rất
+thú vị đó là mô phỏng.
+
+00:15:48.820 --> 00:15:50.820
+Chúng tôi đã gặp gỡ vài công ty mô phỏng,
+
+00:15:50.820 --> 00:15:53.820
+nhưng có dự án chúng tôi rất có
+hứng thú bắt đầu trong tháng tới
+
+00:15:53.820 --> 00:15:57.820
+đó là sử dụng công nghệ của chúng tôi,
+cụ thể là công nghệ di chuyển
+
+00:15:57.820 --> 00:16:01.820
+giúp các bác sĩ phẫu thuật cứu giúp
+những trẻ em bị bại não,
+
+00:16:01.820 --> 00:16:04.820
+dự đoán kết quả các cuộc phẫu thuật
+của những trẻ em này.
+
+00:16:04.820 --> 00:16:06.820
+Như các bạn có lẽ biết,
+
+00:16:06.820 --> 00:16:09.820
+Việc dự đoán kết quả của một cuộc 
+phẫu thuật rất là khó khăn
+
+00:16:09.820 --> 00:16:11.820
+nếu bạn cố sửa dáng đi.
+
+00:16:11.820 --> 00:16:14.820
+Trích dẫn kinh điển, theo tôi, chỉ đoán
+được khi dễ đoán nhất
+
+00:16:14.820 --> 00:16:17.820
+là những gì mọi người nghĩ lúc này,
+chính là kết quả.
+
+00:16:17.820 --> 00:16:21.820
+Những gì chúng tôi muốn làm với phần mềm 
+của mình là để các bác sĩ có một công cụ.
+
+00:16:21.820 --> 00:16:24.820
+Chúng tôi sẽ mô phỏng dáng đi của 
+một đứa trẻ cụ thể
+
+00:16:24.820 --> 00:16:27.820
+và rồi bác sĩ có thể làm việc với
+mô phỏng đó
+
+00:16:27.820 --> 00:16:29.820
+cố thử nhiều cách khác nhau để
+cải thiện
+
+00:16:29.820 --> 00:16:32.820
+trước khi ông ấy bắt tay vào
+một cuộc phẫu thuật thực tế.
+
+00:16:32.820 --> 00:16:34.820
+Đó là dự án đầy hứng thú đối với
+chúng tôi,
+
+00:16:34.820 --> 00:16:36.820
+và sẽ được bắt đầu vào tháng tới.
+
+00:16:38.820 --> 00:16:41.820
+Cuối cùng, đây mới chỉ là khởi đầu.
+
+00:16:41.820 --> 00:16:43.820
+Hiện tại, chỉ có thể làm
+một số hành động
+
+00:16:43.820 --> 00:16:46.820
+Trí thông minh nhân tạo chưa đủ tốt
+để mô phỏng cơ thể đầy đủ.
+
+00:16:46.820 --> 00:16:49.820
+Vâng, là cơ thể, nhưng không phải tất cả 
+các kỹ năng vận động.
+
+00:16:49.820 --> 00:16:52.820
+Và, tôi nghĩ, ta ở đây nếu có thể 
+có cái gì đó như khiêu vũ.
+
+00:16:52.820 --> 00:16:54.820
+Hiện giờ, chúng ta không có điều đó
+
+00:16:54.820 --> 00:16:56.820
+nhưng chắc chắn có
+thể ở giai đoạn nào đó.
+
+00:16:56.820 --> 00:16:59.820
+Chúng tôi thật sự vô tình có một vũ công,
+
+00:16:59.820 --> 00:17:01.820
+điều cuối cùng tôi sẽ cho các bạn thấy.
+
+00:17:01.820 --> 00:17:04.820
+Đây là một tạo khối AI đã được 
+sản xuất và phát triển
+
+00:17:04.820 --> 00:17:07.820
+phát triển một nửa, tôi nên nói,
+về cơ bản là tạo sự cân bằng.
+
+00:17:07.820 --> 00:17:10.820
+Vậy nên, bạn đá người kia và anh ta
+được mặc định đối trọng.
+
+00:17:10.820 --> 00:17:13.820
+Đó là những gì chúng tôi nghĩ sẽ 
+cho mọi người thấy.
+
+00:17:13.820 --> 00:17:15.820
+Nhưng cuối cùng đây là
+cái nổi bật nhất
+
+00:17:16.820 --> 00:17:26.820
+(Âm nhạc)
+
+00:17:26.820 --> 00:17:29.820
+Kì lạ thay, cái này không có đầu. Tôi
+không chắc lý do tại sao.
+
+00:17:30.820 --> 00:17:32.820
+Chúng tôi không đưa vào trong này.
+
+00:17:32.820 --> 00:17:36.820
+Anh ta chỉ mới tự tạo ra điệu nhảy đó.
+
+00:17:36.820 --> 00:17:39.820
+Anh ta là một vũ công giỏi
+hơn tôi nhiều, phải nói là như thế.
+
+00:17:40.820 --> 00:17:42.820
+Và những gì bạn nhìn thấy một lúc sau
+
+00:17:42.820 --> 00:17:44.820
+Tôi còn nghĩ anh ta đạt đỉnh ngay kết thúc
+
+00:17:48.820 --> 00:17:51.820
+Và tôi nghĩ, các bạn hãy xem.
+
+00:17:51.820 --> 00:17:53.820
+(Tràng cười)
+
+00:17:53.820 --> 00:17:55.820
+Và tất cả đều tự động diễn ra.
+
+00:17:55.820 --> 00:17:58.820
+Về cơ bản, đó chỉ là các mô phỏng tự tạo.
+
+00:17:58.820 --> 00:18:00.820
+Vậy nên đó chỉ là
+
+00:18:00.820 --> 00:18:01.820
+(Vỗ tay)
+
+00:18:01.820 --> 00:18:03.820
+Cám ơn mọi người.
+
+00:18:04.820 --> 00:18:07.820
+Vẫn chưa phải là John Travolta, nhưng
+cũng sắp rồi đấy.
+
+00:18:07.820 --> 00:18:09.820
+Vâng cám ơn mọi người rất nhiều.
+
+00:18:09.820 --> 00:18:10.820
+Cám ơn đã lắng nghe.
+
+00:18:10.820 --> 00:18:11.820
+(Vỗ tay)
+
+00:18:11.820 --> 00:18:13.820
+Thật đáng kinh ngạc. Quả là điều kinh ngạc
+
+00:18:13.820 --> 00:18:14.820
+Cám ơn rất nhiều
+

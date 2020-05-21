@@ -1,0 +1,1259 @@
+WEBVTT
+Kind: captions
+Language: fr-CA
+
+00:00:00.000 --> 00:00:07.000
+Translator: Valérie Garrel
+Reviewer: David Chouinard
+
+00:00:15.260 --> 00:00:17.260
+Combien d'entre vous ont déjà rempli ce type de formulaire
+
+00:00:17.260 --> 00:00:19.260
+où vous devez lire une séquence de caractères tordue comme celle-là?
+
+00:00:19.260 --> 00:00:21.260
+Combien d'entre vous trouvent ça vraiment, vraiment pénible?
+
+00:00:21.260 --> 00:00:24.260
+Excellent. Donc c'est moi qui l'ait inventé.
+
+00:00:24.260 --> 00:00:26.260
+(Rires)
+
+00:00:26.260 --> 00:00:28.260
+Enfin j'étais une des personnes qui l'a fait.
+
+00:00:28.260 --> 00:00:30.260
+Cette chose s'appelle un CAPTCHA.
+
+00:00:30.260 --> 00:00:32.260
+Et il est là pour s'assurer que l'entité qui remplit le formulaire
+
+00:00:32.260 --> 00:00:35.260
+est bien un humain et non pas un programme
+
+00:00:35.260 --> 00:00:37.260
+écrit pour soumettre le formulaire des millions de fois.
+
+00:00:37.260 --> 00:00:39.260
+Cela fonctionne car les humains,
+
+00:00:39.260 --> 00:00:41.260
+ou au moins les humains qui voient bien,
+
+00:00:41.260 --> 00:00:43.260
+n'ont aucun problème à lire les caractères déformés,
+
+00:00:43.260 --> 00:00:46.260
+alors que les programmes ne peuvent pas encore le faire.
+
+00:00:46.260 --> 00:00:48.260
+Par exemple, dans le cas de Ticketmaster,
+
+00:00:48.260 --> 00:00:50.260
+la raison pour laquelle vous avez ce type de caractères déformés
+
+00:00:50.260 --> 00:00:52.260
+est d'empêcher les spéculateurs d'écrire un programme
+
+00:00:52.260 --> 00:00:54.260
+qui pourrait acheter des millions de tickets, deux par deux.
+
+00:00:54.260 --> 00:00:56.260
+Les CAPTCHAs sont utilisés partout sur internet.
+
+00:00:56.260 --> 00:00:58.260
+Et comme ils sont utilisés très souvent,
+
+00:00:58.260 --> 00:01:00.260
+la séquence aléatoire de caractères présentée à l'utilisateur
+
+00:01:00.260 --> 00:01:02.260
+n'est pas toujours très heureuse.
+
+00:01:02.260 --> 00:01:05.260
+Voilà un exemple sur la page d'inscription de Yahoo.
+
+00:01:05.260 --> 00:01:07.260
+Les caractères aléatoires présentés à l'utilisateur
+
+00:01:07.260 --> 00:01:10.260
+soit W,A,I,T (Attendre en français), épellent bien sûr un nom
+
+00:01:10.260 --> 00:01:13.260
+Mais le meilleur c'est le message
+
+00:01:13.260 --> 00:01:16.260
+reçu par le support client de Yahoo 20 minutes plus tard.
+
+00:01:16.260 --> 00:01:19.260
+"A l'aide! J'ai déjà attendu 20 minutes et rien ne se passe."
+
+00:01:19.260 --> 00:01:23.260
+(Rires)
+
+00:01:23.260 --> 00:01:25.260
+Cette personne a cru qu'elle devait attendre.
+
+00:01:25.260 --> 00:01:28.260
+Evidemment, c'est moins pire que cette pauvre personne. (Restart = Redémarrer)
+
+00:01:28.260 --> 00:01:30.260
+(Rires)
+
+00:01:30.260 --> 00:01:33.260
+CAPTCHA est un projet que nous avons mis sur pied ici à Carnegie Mellon il y a plus de 10 ans,
+
+00:01:33.260 --> 00:01:35.260
+et il a été utilisé partout.
+
+00:01:35.260 --> 00:01:37.260
+Maintenant un projet que nous avons initié quelques années plus tard,
+
+00:01:37.260 --> 00:01:40.260
+qui est une sorte d'évolution du CAPTCHA.
+
+00:01:40.260 --> 00:01:42.260
+Ce projet s'appelle reCAPTCHA,
+
+00:01:42.260 --> 00:01:44.260
+que nous avons commencé ici à Carnegie Mellon,
+
+00:01:44.260 --> 00:01:46.260
+et nous avons ensuite créé une startup.
+
+00:01:46.260 --> 00:01:48.260
+Puis, il y a environ 1 an et demi,
+
+00:01:48.260 --> 00:01:50.260
+Google a acheté la compagnie.
+
+00:01:50.260 --> 00:01:52.260
+Laissez moi vous raconter comment le projet a commencé.
+
+00:01:52.260 --> 00:01:55.260
+Il a commencé avec la constatation suivante:
+
+00:01:55.260 --> 00:01:57.260
+Il se trouve qu'environ 200 millions de CAPTCHAs
+
+00:01:57.260 --> 00:02:00.260
+sont saisis tous les jours dans le monde.
+
+00:02:00.260 --> 00:02:02.260
+Quand j'ai entendu cela, j'étais assez fier de moi.
+
+00:02:02.260 --> 00:02:04.260
+J'ai pensé: "Regarde l'impact de ce projet de recherche".
+
+00:02:04.260 --> 00:02:06.260
+Et puis je me suis senti mal.
+
+00:02:06.260 --> 00:02:08.260
+Parce que vous voyez, chaque fois que vous tapez un CAPTCHA,
+
+00:02:08.260 --> 00:02:11.260
+en fait, vous perdez 10 secondes de votre temps.
+
+00:02:11.260 --> 00:02:13.260
+Et si vous multipliez çà par 200 millions,
+
+00:02:13.260 --> 00:02:16.260
+vous vous retrouverez avec l'humanité qui perd environ 500 000 heures par jour
+
+00:02:16.260 --> 00:02:18.260
+en tapant ces maudits CAPTCHAs.
+
+00:02:18.260 --> 00:02:20.260
+Alors je me suis senti très mal.
+
+00:02:20.260 --> 00:02:22.260
+(Rires)
+
+00:02:22.260 --> 00:02:25.260
+Alors j'ai pensé que, évidemment, on ne pouvait pas supprimer les CAPTCHAs,
+
+00:02:25.260 --> 00:02:27.260
+parce que la sécurité du web dépend d'eux en quelque sorte.
+
+00:02:27.260 --> 00:02:30.260
+Et je me suis demandé s'il y avait une façon d'utiliser cet effort
+
+00:02:30.260 --> 00:02:32.260
+pour quelque chose de bénéfique pour l'humanité?
+
+00:02:32.260 --> 00:02:34.260
+Alors voilà l'affaire.
+
+00:02:34.260 --> 00:02:36.260
+Pendant que vous tapez un CAPTCHA, pendant ces 10 secondes,
+
+00:02:36.260 --> 00:02:38.260
+votre cerveau fait quelque chose d'incroyable.
+
+00:02:38.260 --> 00:02:40.260
+Votre cerveau fait quelque chose que les ordinateurs ne savent pas encore faire.
+
+00:02:40.260 --> 00:02:43.260
+Alors peut-on vous amener à faire quelque chose d'utile de ces 10 secondes?
+
+00:02:43.260 --> 00:02:45.260
+Une autre façon de le présenter est:
+
+00:02:45.260 --> 00:02:47.260
+Y a t'il un problème monstre que nous ne pouvons pas encore demander aux ordinateurs de résoudre,
+
+00:02:47.260 --> 00:02:50.260
+que nous pourrions découper en petites bouchées de 10 secondes,
+
+00:02:50.260 --> 00:02:52.260
+de façon à ce que chaque fois que quelqu'un résout un CAPTCHA
+
+00:02:52.260 --> 00:02:54.260
+il résolve une petite partie du problème?
+
+00:02:54.260 --> 00:02:56.260
+Et la réponse est oui, et c'est ce que nous faisons maintenant.
+
+00:02:56.260 --> 00:02:59.260
+Ce que vous ignorez peut-être c'est que, de nos jours, chaque fois que vous tapez un CAPTCHA,
+
+00:02:59.260 --> 00:03:01.260
+vous ne faites pas que vous authentifier comme humain,
+
+00:03:01.260 --> 00:03:03.260
+mais en plus vous aidez à numériser des livres.
+
+00:03:03.260 --> 00:03:05.260
+Laissez moi vous expliquer comment ça marche.
+
+00:03:05.260 --> 00:03:07.260
+Il y a de nombreux projets en cours pour numériser des livres.
+
+00:03:07.260 --> 00:03:10.260
+Google en a un. Internet Archive en a un.
+
+00:03:10.260 --> 00:03:12.260
+Amazon, maintenant avec le Kindle, essaye de numériser des livres.
+
+00:03:12.260 --> 00:03:14.260
+En fait, la façon dont cela fonctionne
+
+00:03:14.260 --> 00:03:16.260
+est que vous commencez avec un vieux livre.
+
+00:03:16.260 --> 00:03:18.260
+Vous avez déjà vu ce genre de truc n'est ce pas? Un livre?
+
+00:03:18.260 --> 00:03:20.260
+(Rires)
+
+00:03:20.260 --> 00:03:22.260
+Donc vous prenez un livre et vous le scannez.
+
+00:03:22.260 --> 00:03:24.260
+Scanner un livre
+
+00:03:24.260 --> 00:03:26.260
+c'est comme prendre une photo numérique de chaque page du livre.
+
+00:03:26.260 --> 00:03:28.260
+Cela vous donne une image par page.
+
+00:03:28.260 --> 00:03:30.260
+Une image avec du texte pour chaque page de livre.
+
+00:03:30.260 --> 00:03:32.260
+La prochaine étape
+
+00:03:32.260 --> 00:03:35.260
+est que l'ordinateur doit être capable de déchiffrer tous les mots de cette image.
+
+00:03:35.260 --> 00:03:37.260
+On utilise la technologie appelée OCR,
+
+00:03:37.260 --> 00:03:39.260
+pour Optical Character Recognition (Reconnaissance Optique des Caractères)
+
+00:03:39.260 --> 00:03:41.260
+qui prend la photo du texte
+
+00:03:41.260 --> 00:03:43.260
+et essaie de déterminer quel texte est écrit.
+
+00:03:43.260 --> 00:03:45.260
+Mais le problème c'est que l'OCR n'est pas parfait.
+
+00:03:45.260 --> 00:03:47.260
+En particulier pour les plus vieux livres
+
+00:03:47.260 --> 00:03:50.260
+quand l'encre est devenue plus pâle et que les pages ont jaunies,
+
+00:03:50.260 --> 00:03:52.260
+l'OCR ne reconnaît pas beaucoup de mots.
+
+00:03:52.260 --> 00:03:54.260
+Par exemple, les choses qui ont été écrites il y a plus de 50 ans,
+
+00:03:54.260 --> 00:03:57.260
+l'ordinateur ne peut reconnaître que 30% des mots.
+
+00:03:57.260 --> 00:03:59.260
+Alors, ce que nous faisons aujourd'hui
+
+00:03:59.260 --> 00:04:01.260
+c'est que nous prenons tous les mots que l'ordinateur ne peut pas reconnaître
+
+00:04:01.260 --> 00:04:03.260
+et nous demandons à des gens de les lire pour nous
+
+00:04:03.260 --> 00:04:05.260
+pendant qu'ils tapent un CAPTCHA sur internet.
+
+00:04:05.260 --> 00:04:08.260
+Alors la prochaine fois que vous taperez un CAPTCHA, les mots que vous taperez
+
+00:04:08.260 --> 00:04:11.260
+seront en fait des mots venant de livres que l'on numérise
+
+00:04:11.260 --> 00:04:13.260
+mais que l'ordinateur n'a pas su reconnaître.
+
+00:04:13.260 --> 00:04:15.260
+Et maintenant, voilà pourquoi nous avons deux mots maintenant au lieu d'un:
+
+00:04:15.260 --> 00:04:17.260
+c'est que, vous voyez, un des mots
+
+00:04:17.260 --> 00:04:19.260
+est un mot que le système a extrait d'un livre,
+
+00:04:19.260 --> 00:04:22.260
+qu'il n'a pas reconnu et il va vous le présenter
+
+00:04:22.260 --> 00:04:25.260
+Mais comme nous ne savons pas quelle est la bonne réponse, cela ne suffit pas à vous qualifier.
+
+00:04:25.260 --> 00:04:27.260
+Donc nous vous présentons un autre mot,
+
+00:04:27.260 --> 00:04:29.260
+un pour lequel le système connaît la réponse.
+
+00:04:29.260 --> 00:04:31.260
+On ne vous dit pas lequel est lequel et on vous demande de taper les deux.
+
+00:04:31.260 --> 00:04:33.260
+Et si vous saisissez correctement le mot
+
+00:04:33.260 --> 00:04:35.260
+pour lequel le système connaît déjà la réponse,
+
+00:04:35.260 --> 00:04:37.260
+il suppose que vous êtes humain,
+
+00:04:37.260 --> 00:04:39.260
+et il a aussi confiance que vous avez saisi correctement l'autre mot.
+
+00:04:39.260 --> 00:04:42.260
+Et si nous répétons ce procédé avec 10 personnes différentes
+
+00:04:42.260 --> 00:04:44.260
+et qu'elles sont toutes d'accord sur le nouveau mot,
+
+00:04:44.260 --> 00:04:46.260
+nous avons un mot de plus numérisé correctement.
+
+00:04:46.260 --> 00:04:48.260
+Voilà comment cela fonctionne.
+
+00:04:48.260 --> 00:04:51.260
+Et depuis que nous avons lancé cette version il y a 3 ou 4 ans,
+
+00:04:51.260 --> 00:04:53.260
+de nombreux sites ont changé
+
+00:04:53.260 --> 00:04:55.260
+du vieux CAPTCHA qui faisait perdre du temps au gens
+
+00:04:55.260 --> 00:04:57.260
+au nouveau, grâce auquel les gens aident à numériser des livres.
+
+00:04:57.260 --> 00:04:59.260
+Par exemple, Ticketmaster.
+
+00:04:59.260 --> 00:05:02.260
+Donc chaque fois que vous achetez un billet sur Ticketmaster, vous aidez à numériser un livre.
+
+00:05:02.260 --> 00:05:04.260
+Facebook: chaque fois que vous ajoutez un ami ou envoyez un poke,
+
+00:05:04.260 --> 00:05:06.260
+vous aidez à numériser un livre.
+
+00:05:06.260 --> 00:05:09.260
+Twitter et environ 350 000 autres sites utilisent reCAPTCHA.
+
+00:05:09.260 --> 00:05:11.260
+Et en fait, le nombre de sites qui utilisent reCAPTCHA est si important
+
+00:05:11.260 --> 00:05:14.260
+que le nombre de mots que nous numérisons par jour est vraiment, vraiment grand.
+
+00:05:14.260 --> 00:05:16.260
+De l'ordre de 100 millions par jour,
+
+00:05:16.260 --> 00:05:20.260
+ce qui correspond à environ 2,5 millions de livres par an.
+
+00:05:20.260 --> 00:05:22.260
+Et tout cela est fait un mot à la fois
+
+00:05:22.260 --> 00:05:24.260
+par des personnes qui saisissent des CAPTCHAs sur internet.
+
+00:05:24.260 --> 00:05:32.260
+(Applaudissements)
+
+00:05:32.260 --> 00:05:34.260
+Alors évidemment,
+
+00:05:34.260 --> 00:05:36.260
+comme nous utilisons tant de mots par jour,
+
+00:05:36.260 --> 00:05:38.260
+il peut arriver de drôles de situations.
+
+00:05:38.260 --> 00:05:40.260
+Et c'est encore plus vrai maintenant que nous présentons aux gens
+
+00:05:40.260 --> 00:05:42.260
+2 mots choisis au hasard l'un à côté de l'autre.
+
+00:05:42.260 --> 00:05:44.260
+Donc il arrive de drôles de choses.
+
+00:05:44.260 --> 00:05:46.260
+Par exemple, nous avons présenté ce mot.
+
+00:05:46.260 --> 00:05:48.260
+C'est le mot "Chrétiens"; pas de problème avec çà.
+
+00:05:48.260 --> 00:05:51.260
+Mais si vous le présentez avec un autre mot choisi au hasard,
+
+00:05:51.260 --> 00:05:53.260
+les choses peuvent mal tourner.
+
+00:05:53.260 --> 00:05:55.260
+Alors on a eu ça. (mauvais Chrétiens)
+
+00:05:55.260 --> 00:05:58.260
+Mais le pire, c'est que le site sur lequel nous avons présenté ça
+
+00:05:58.260 --> 00:06:01.260
+s'appelle l'Ambassade du Royaume de Dieu.
+
+00:06:01.260 --> 00:06:03.260
+(Rires)
+
+00:06:03.260 --> 00:06:05.260
+Oups.
+
+00:06:05.260 --> 00:06:08.260
+(Rires)
+
+00:06:08.260 --> 00:06:10.260
+En voilà un autre très mauvais.
+
+00:06:10.260 --> 00:06:12.260
+JohnEdwards.com
+
+00:06:12.260 --> 00:06:15.260
+(Maudit libéral)
+
+00:06:15.260 --> 00:06:17.260
+(Rires)
+
+00:06:17.260 --> 00:06:20.260
+Alors on insulte des gens à droite et à gauche tous les jours.
+
+00:06:20.260 --> 00:06:22.260
+Mais évidemment, on ne fait pas qu'insulter les gens.
+
+00:06:22.260 --> 00:06:25.260
+Parce que vous voyez, dés qu'on présente 2 mots choisis au hasard,
+
+00:06:25.260 --> 00:06:27.260
+il peut se passer des choses intéressantes.
+
+00:06:27.260 --> 00:06:29.260
+Cela a donné naissance
+
+00:06:29.260 --> 00:06:32.260
+à un grand mouvement internet
+
+00:06:32.260 --> 00:06:34.260
+auquel des milliers de personnes participent,
+
+00:06:34.260 --> 00:06:36.260
+qui s'appelle CAPTCHA art.
+
+00:06:36.260 --> 00:06:38.260
+Je suis sûr que certains d'entre vous en ont entendu parler.
+
+00:06:38.260 --> 00:06:40.260
+Voilà comment ça marche.
+
+00:06:40.260 --> 00:06:42.260
+Imaginez que vous utilisez internet et voyez un CAPTCHA
+
+00:06:42.260 --> 00:06:44.260
+que vous trouvez vraiment particulier,
+
+00:06:44.260 --> 00:06:46.260
+comme celui là (Grille-pain invisible)
+
+00:06:46.260 --> 00:06:48.260
+Vous en faites une impression écran.
+
+00:06:48.260 --> 00:06:50.260
+Evidemment, vous saisissez le CAPTCHA
+
+00:06:50.260 --> 00:06:52.260
+car vous aidez à numériser un livre.
+
+00:06:52.260 --> 00:06:54.260
+Mais donc, premièrement vous faites une impression écran,
+
+00:06:54.260 --> 00:06:56.260
+et vous dessinez quelque chose qui lui correspond.
+
+00:06:56.260 --> 00:06:58.260
+(Rires)
+
+00:06:58.260 --> 00:07:01.260
+C'est comme ça que ça marche.
+
+00:07:01.260 --> 00:07:04.260
+Il y en a des dizaines de milliers comme ça.
+
+00:07:04.260 --> 00:07:06.260
+Certains sont vraiment mignons. (Je l'ai empoigné)
+
+00:07:06.260 --> 00:07:08.260
+(Rires)
+
+00:07:08.260 --> 00:07:10.260
+Certains sont plus drôles.
+
+00:07:10.260 --> 00:07:13.260
+(Fondateurs drogués)
+
+00:07:13.260 --> 00:07:16.260
+(Rires)
+
+00:07:16.260 --> 00:07:18.260
+Et certains,
+
+00:07:18.260 --> 00:07:21.260
+comme "paleontological shvisle",
+
+00:07:21.260 --> 00:07:23.260
+font apparaître Snoop Dogg.
+
+00:07:23.260 --> 00:07:26.260
+(Rires)
+
+00:07:26.260 --> 00:07:28.260
+Alors, voilà mon chiffre favori sur reCAPTCHA.
+
+00:07:28.260 --> 00:07:31.260
+C'est la chose que je préfère dans tout ce projet.
+
+00:07:31.260 --> 00:07:33.260
+C'est le nombre de personnes différentes
+
+00:07:33.260 --> 00:07:36.260
+qui ont aidé à numériser au moins un mot d'un livre grâce à reCAPTCHA:
+
+00:07:36.260 --> 00:07:38.260
+750 millions,
+
+00:07:38.260 --> 00:07:40.260
+un peu plus de 10% de la population mondiale,
+
+00:07:40.260 --> 00:07:42.260
+a aidé à numériser le savoir humain.
+
+00:07:42.260 --> 00:07:45.260
+Et ce sont des chiffres comme ceux là qui me motivent dans mes recherches.
+
+00:07:45.260 --> 00:07:48.260
+Alors la question qui motive mes recherches est:
+
+00:07:48.260 --> 00:07:50.260
+Si on regarde les réalisations les plus importantes de l'humanité,
+
+00:07:50.260 --> 00:07:52.260
+les plus grandes choses
+
+00:07:52.260 --> 00:07:55.260
+que l'humanité a réalisé historiquement --
+
+00:07:55.260 --> 00:07:57.260
+comme par exemple, construire les pyramides d'Egypte
+
+00:07:57.260 --> 00:07:59.260
+ou le canal de Panama
+
+00:07:59.260 --> 00:08:01.260
+ou envoyer un homme sur la Lune --
+
+00:08:01.260 --> 00:08:03.260
+on constate une chose curieuse
+
+00:08:03.260 --> 00:08:05.260
+c'est qu'elles ont toutes été réalisées avec le même nombre de personnes.
+
+00:08:05.260 --> 00:08:08.260
+C'est bizarre; elles ont été faites avec environ 100 000 personnes.
+
+00:08:08.260 --> 00:08:11.260
+Et c'est parce que, avant internet,
+
+00:08:11.260 --> 00:08:13.260
+coordonner plus de 100 000 personnes,
+
+00:08:13.260 --> 00:08:16.260
+et en plus les payer, était quasiment impossible.
+
+00:08:16.260 --> 00:08:18.260
+Mais maintenant avec internet, je vous ai montré un projet
+
+00:08:18.260 --> 00:08:20.260
+où nous avons 750 millions de personnes
+
+00:08:20.260 --> 00:08:22.260
+pour aider à numériser le savoir humain.
+
+00:08:22.260 --> 00:08:24.260
+Alors la question qui me motive est,
+
+00:08:24.260 --> 00:08:27.260
+si l'on arrive à mettre un homme sur la Lune avec 100 000 personnes,
+
+00:08:27.260 --> 00:08:29.260
+que peut-on faire avec 100 millions?
+
+00:08:29.260 --> 00:08:31.260
+A partir de cette question,
+
+00:08:31.260 --> 00:08:33.260
+nous travaillons sur beaucoup de projets différents.
+
+00:08:33.260 --> 00:08:36.260
+Laissez moi vous parler d'un qui m'intéresse particulièrement.
+
+00:08:36.260 --> 00:08:38.260
+C'est quelque chose sur lequel on travaille discrètement
+
+00:08:38.260 --> 00:08:40.260
+depuis la dernière année et demie.
+
+00:08:40.260 --> 00:08:42.260
+Il n'a pas encore été lancé. Il s'appelle Duolingo.
+
+00:08:42.260 --> 00:08:44.260
+Comme il n'a pas encore été lancé, chut!
+
+00:08:44.260 --> 00:08:46.260
+(Rires)
+
+00:08:46.260 --> 00:08:48.260
+Oui, je peux vous faire confiance là-dessus.
+
+00:08:48.260 --> 00:08:50.260
+Alors voici le projet. Voilà comment il a commencé.
+
+00:08:50.260 --> 00:08:52.260
+J'ai posé une question a un de mes étudiants,
+
+00:08:52.260 --> 00:08:54.260
+Severin Hacker.
+
+00:08:54.260 --> 00:08:56.260
+Voilà Severin Hacker.
+
+00:08:56.260 --> 00:08:58.260
+Donc je lui ai posé la question.
+
+00:08:58.260 --> 00:09:00.260
+Au fait, vous m'avez bien entendu;
+
+00:09:00.260 --> 00:09:02.260
+son nom c'est Hacker.
+
+00:09:02.260 --> 00:09:04.260
+Donc je lui demande:
+
+00:09:04.260 --> 00:09:06.260
+Comment pouvons nous avoir 100 millions de personnes
+
+00:09:06.260 --> 00:09:09.260
+qui traduiraient le web dans toutes les langues principales gratuitement?
+
+00:09:09.260 --> 00:09:11.260
+Il y a beaucoup de choses à dire à ce propos.
+
+00:09:11.260 --> 00:09:13.260
+Premièrement, traduire le web.
+
+00:09:13.260 --> 00:09:16.260
+Aujourd'hui le web est divisé dans de multiples langues.
+
+00:09:16.260 --> 00:09:18.260
+Une grande partie est en anglais.
+
+00:09:18.260 --> 00:09:20.260
+Si vous ne connaissez pas l'anglais, vous ne pouvez pas y avoir accès.
+
+00:09:20.260 --> 00:09:22.260
+Mais il y a de grandes parties dans d'autres langues,
+
+00:09:22.260 --> 00:09:25.260
+et si vous ne les connaissez pas, vous ne pouvez pas y avoir accès.
+
+00:09:25.260 --> 00:09:28.260
+Donc je voudrais traduire le web, ou au moins une grande partie,
+
+00:09:28.260 --> 00:09:30.260
+dans chaque grande langue.
+
+00:09:30.260 --> 00:09:32.260
+C'est ça que je voudrais faire.
+
+00:09:32.260 --> 00:09:35.260
+Vous pourriez me demander, pourquoi ne pas utiliser des ordinateurs pour le faire?
+
+00:09:35.260 --> 00:09:37.260
+Pourquoi ne pas utiliser un traducteur automatique?
+
+00:09:37.260 --> 00:09:39.260
+Les traducteurs automatiques commencent à traduire des phrases çà et là.
+
+00:09:39.260 --> 00:09:41.260
+Pourquoi ne pas les utiliser pour traduire tout le web?
+
+00:09:41.260 --> 00:09:43.260
+Le problème est qu'ils ne sont pas encore assez bons
+
+00:09:43.260 --> 00:09:45.260
+et ne le seront probablement pas avant 15-20 ans.
+
+00:09:45.260 --> 00:09:47.260
+Ils font beaucoup d'erreurs.
+
+00:09:47.260 --> 00:09:49.260
+Et même quand ils ne font pas d'erreurs,
+
+00:09:49.260 --> 00:09:52.260
+comme ils font beaucoup d'erreurs, vous ne savez pas si vous pouvez leur faire confiance.
+
+00:09:52.260 --> 00:09:54.260
+Je vais vous montrer un exemple
+
+00:09:54.260 --> 00:09:56.260
+de quelque chose traduit avec une machine.
+
+00:09:56.260 --> 00:09:58.260
+En fait, c'est une question sur un forum.
+
+00:09:58.260 --> 00:10:01.260
+Quelqu'un essayait de poser une question à propos de JavaScript.
+
+00:10:01.260 --> 00:10:04.260
+Il a été traduit du japonais à l'anglais.
+
+00:10:04.260 --> 00:10:06.260
+Je vous laisse lire.
+
+00:10:06.260 --> 00:10:08.260
+La personne commence en s'excusant
+
+00:10:08.260 --> 00:10:10.260
+pour le fait de l'avoir traduit avec un ordinateur.
+
+00:10:10.260 --> 00:10:13.260
+La phrase suivante est le préambule à sa question.
+
+00:10:13.260 --> 00:10:15.260
+Il explique juste ce qu'il s'est passé.
+
+00:10:15.260 --> 00:10:18.260
+Rappelez vous que c'est une question de JavaScript.
+
+00:10:19.260 --> 00:10:23.260
+(Par souvent, le chèvre-temps installe une erreur est vomi)
+
+00:10:23.260 --> 00:10:27.260
+(Rires)
+
+00:10:27.260 --> 00:10:30.260
+Arrive la première partie de sa question.
+
+00:10:30.260 --> 00:10:34.260
+(Combien de fois comme le vent, un poteau, et le dragon?)
+
+00:10:34.260 --> 00:10:36.260
+(Rires)
+
+00:10:36.260 --> 00:10:39.260
+Et voilà ma partie préférée.
+
+00:10:39.260 --> 00:10:42.260
+(Cela insulte les bijoux du père?)
+
+00:10:42.260 --> 00:10:44.260
+(Rires)
+
+00:10:44.260 --> 00:10:47.260
+Et la fin, ce que je préfère.
+
+00:10:47.260 --> 00:10:51.260
+(Merci de vous excuser de votre bêtise. Il y en a beaucoup merci.)
+
+00:10:51.260 --> 00:10:53.260
+(Rires)
+
+00:10:53.260 --> 00:10:55.260
+Bon, alors, la traduction automatique n'est pas assez bonne
+
+00:10:55.260 --> 00:10:57.260
+Revenons à la question.
+
+00:10:57.260 --> 00:11:00.260
+Nous avons besoin des gens pour traduire le web.
+
+00:11:00.260 --> 00:11:02.260
+La prochaine question que vous avez peut-être,
+
+00:11:02.260 --> 00:11:04.260
+on ne peut pas simplement les payer pour le faire?
+
+00:11:04.260 --> 00:11:07.260
+Nous pourrions payer des traducteurs professionnels pour traduire tout le web.
+
+00:11:07.260 --> 00:11:09.260
+On pourrait le faire.
+
+00:11:09.260 --> 00:11:11.260
+Malheureusement, ce serait très coûteux.
+
+00:11:11.260 --> 00:11:14.260
+Par exemple, traduire une petite, petite part du web, Wikipedia,
+
+00:11:14.260 --> 00:11:17.260
+dans une langue, l'espagnol.
+
+00:11:17.260 --> 00:11:19.260
+Wikipedia existe en espagnol,
+
+00:11:19.260 --> 00:11:21.260
+mais il est vraiment petit comparé à l'anglais.
+
+00:11:21.260 --> 00:11:23.260
+C'est à peu près 20% de l'anglais.
+
+00:11:23.260 --> 00:11:26.260
+Si on veut traduire l'autre 80% en espagnol,
+
+00:11:26.260 --> 00:11:28.260
+cela coûterait au moins 50 millions de dollars --
+
+00:11:28.260 --> 00:11:31.260
+et c'est en utilisant la main d'oeuvre la plus exploitée dans un pays là-bas.
+
+00:11:31.260 --> 00:11:33.260
+Donc ce serait très coûteux.
+
+00:11:33.260 --> 00:11:35.260
+Ce que nous voulons c'est avoir 100 millions de personnes
+
+00:11:35.260 --> 00:11:37.260
+qui traduiraient le web dans toutes les grandes langues
+
+00:11:37.260 --> 00:11:39.260
+gratuitement.
+
+00:11:39.260 --> 00:11:41.260
+Maintenant si c'est ce que vous voulez faire,
+
+00:11:41.260 --> 00:11:43.260
+vous voyez que vous allez être confronté
+
+00:11:43.260 --> 00:11:45.260
+a deux gros obstacles.
+
+00:11:45.260 --> 00:11:48.260
+Le premier est le manque de personnes bilingues.
+
+00:11:48.260 --> 00:11:50.260
+Je ne sais même pas
+
+00:11:50.260 --> 00:11:53.260
+s'il existe 100 millions de personnes qui utilisent le web
+
+00:11:53.260 --> 00:11:55.260
+et qui sont assez bilingues pour nous aider à traduire.
+
+00:11:55.260 --> 00:11:57.260
+C'est un gros problème.
+
+00:11:57.260 --> 00:11:59.260
+L'autre problème auquel vous êtes confronté est le manque de motivation.
+
+00:11:59.260 --> 00:12:01.260
+Comment motiver des gens
+
+00:12:01.260 --> 00:12:03.260
+à traduire le web gratuitement?
+
+00:12:03.260 --> 00:12:06.260
+Normalement, vous devez les payer pour ça.
+
+00:12:06.260 --> 00:12:08.260
+Alors, comment les motiver pour qu'ils le fassent gratuitement?
+
+00:12:08.260 --> 00:12:11.260
+Quand nous avons commencé à réfléchir, nous avons été bloqués par ces deux choses.
+
+00:12:11.260 --> 00:12:13.260
+Mais nous avons réalisé qu'il y a une façon
+
+00:12:13.260 --> 00:12:15.260
+de résoudre ces problèmes en une solution.
+
+00:12:15.260 --> 00:12:17.260
+Il y a une façon de faire d'une pierre deux coups.
+
+00:12:17.260 --> 00:12:20.260
+Et c'est de transformer la traduction
+
+00:12:20.260 --> 00:12:23.260
+en quelque chose que des millions de personnes veulent faire,
+
+00:12:23.260 --> 00:12:26.260
+et cela aide aussi pour le manque de bilingues,
+
+00:12:26.260 --> 00:12:29.260
+et c'est l'apprentissage des langues.
+
+00:12:29.260 --> 00:12:31.260
+Il se trouve qu'aujourd'hui
+
+00:12:31.260 --> 00:12:34.260
+il y a plus de 1,2 milliards de personnes qui apprennent une langue étrangère.
+
+00:12:34.260 --> 00:12:36.260
+Les gens veulent vraiment, vraiment apprendre une autre langue.
+
+00:12:36.260 --> 00:12:39.260
+Et ce n'est pas juste parce qu'ils sont obligés à l'école.
+
+00:12:39.260 --> 00:12:41.260
+Par exemple, rien qu'aux Etats-Unis,
+
+00:12:41.260 --> 00:12:43.260
+il y a plus de 5 millions de personnes qui ont payé plus de 500$
+
+00:12:43.260 --> 00:12:45.260
+pour un logiciel de langue.
+
+00:12:45.260 --> 00:12:47.260
+Donc les gens veulent vraiment, vraiment apprendre une autre langue.
+
+00:12:47.260 --> 00:12:50.260
+Donc on travaille depuis un an et demi sur un nouveau site --
+
+00:12:50.260 --> 00:12:52.260
+il s'appelle Duolingo --
+
+00:12:52.260 --> 00:12:55.260
+et l'idée c'est que les gens apprennent une nouvelle langue gratuitement
+
+00:12:55.260 --> 00:12:57.260
+en même temps qu'ils traduisent le web.
+
+00:12:57.260 --> 00:12:59.260
+Et donc ils apprennent en faisant.
+
+00:12:59.260 --> 00:13:01.260
+Donc la façon dont ça marche
+
+00:13:01.260 --> 00:13:04.260
+c'est que si vous êtes débutant, on vous donne des phrases très très faciles
+
+00:13:04.260 --> 00:13:06.260
+Il y a évidemment beaucoup de phrases très faciles sur le web.
+
+00:13:06.260 --> 00:13:08.260
+On vous donne des phrases très faciles
+
+00:13:08.260 --> 00:13:10.260
+et la signification de chaque mot.
+
+00:13:10.260 --> 00:13:13.260
+Et en les traduisant, et en voyant les autres les traduire,
+
+00:13:13.260 --> 00:13:15.260
+vous commencez à apprendre la langue.
+
+00:13:15.260 --> 00:13:17.260
+Et au fur et à mesure que vous avancez,
+
+00:13:17.260 --> 00:13:19.260
+on vous donne des phrases de plus en plus complexes à traduire.
+
+00:13:19.260 --> 00:13:21.260
+Mais en tout temps, vous apprenez en faisant.
+
+00:13:21.260 --> 00:13:23.260
+Ce qui est fou avec cette méthode
+
+00:13:23.260 --> 00:13:25.260
+c'est que ça marche vraiment.
+
+00:13:25.260 --> 00:13:27.260
+Premièrement, les gens apprennent vraiment la langue.
+
+00:13:27.260 --> 00:13:29.260
+Nous avons presque fini de le construire et nous le testons.
+
+00:13:29.260 --> 00:13:31.260
+Les gens apprennent réellement une langue avec le site.
+
+00:13:31.260 --> 00:13:34.260
+Et ils apprennent aussi bien qu'avec le meilleur logiciel d'apprentissage.
+
+00:13:34.260 --> 00:13:36.260
+Donc les gens apprennent vraiment une langue.
+
+00:13:36.260 --> 00:13:38.260
+Et non seulement ils l'apprennent bien,
+
+00:13:38.260 --> 00:13:40.260
+mais en plus, c'est plus intéressant.
+
+00:13:40.260 --> 00:13:43.260
+Parce qu'avec Duolingo, les gens apprennent avec du vrai contenu.
+
+00:13:43.260 --> 00:13:45.260
+Par opposition à apprendre des phrases toutes faites,
+
+00:13:45.260 --> 00:13:48.260
+les gens apprennent avec du vrai contenu qui est intéressant.
+
+00:13:48.260 --> 00:13:50.260
+Les gens apprennent vraiment une langue.
+
+00:13:50.260 --> 00:13:52.260
+Mais ce qui est peut-être plus étonnant,
+
+00:13:52.260 --> 00:13:55.260
+les traductions que nous obtenons des utilisateurs,
+
+00:13:55.260 --> 00:13:57.260
+même si ce sont juste des débutants,
+
+00:13:57.260 --> 00:14:00.260
+les traductions sont aussi précises que celles des traducteurs professionnels,
+
+00:14:00.260 --> 00:14:02.260
+ce qui est très surprenant.
+
+00:14:02.260 --> 00:14:04.260
+Je vous montre un exemple.
+
+00:14:04.260 --> 00:14:06.260
+Voilà une phrase qui a été traduite de l'allemand à l'anglais.
+
+00:14:06.260 --> 00:14:08.260
+En haut c'est de l'allemand.
+
+00:14:08.260 --> 00:14:10.260
+Au milieu, la traduction en anglais
+
+00:14:10.260 --> 00:14:12.260
+faite par un traducteur professionnel
+
+00:14:12.260 --> 00:14:14.260
+que nous avons payé 20 cents le mot pour cette traduction.
+
+00:14:14.260 --> 00:14:17.260
+Et en bas, la traduction par les utilisateurs de Duolingo
+
+00:14:17.260 --> 00:14:19.260
+qui ne connaissaient pas l'allemand
+
+00:14:19.260 --> 00:14:21.260
+avant de commencer à utiliser le site.
+
+00:14:21.260 --> 00:14:23.260
+Vous voyez que c'est presque parfait.
+
+00:14:23.260 --> 00:14:25.260
+Evidemment, nous avons une astuce ici
+
+00:14:25.260 --> 00:14:27.260
+pour obtenir une traduction aussi bonne que celle d'un professionnel.
+
+00:14:27.260 --> 00:14:30.260
+Nous combinons les traductions de plusieurs débutants
+
+00:14:30.260 --> 00:14:33.260
+pour avoir la qualité d'un seul traducteur professionnel.
+
+00:14:33.260 --> 00:14:38.260
+Mais même en combinant les traductions,
+
+00:14:38.260 --> 00:14:40.260
+le site peut en fait traduire assez rapidement.
+
+00:14:40.260 --> 00:14:42.260
+Je vais vous montrer,
+
+00:14:42.260 --> 00:14:44.260
+voilà une estimation de la vitesse à laquelle nous pourrions traduire Wikipedia
+
+00:14:44.260 --> 00:14:46.260
+de l'anglais à l'espagnol.
+
+00:14:46.260 --> 00:14:49.260
+Rappelez vous que cela vaut 50 millions de dollars.
+
+00:14:49.260 --> 00:14:51.260
+Donc si nous voulions traduire Wikipedia en espagnol,
+
+00:14:51.260 --> 00:14:54.260
+nous pourrions le faire en 5 semaines avec 100 000 utilisateurs actifs.
+
+00:14:54.260 --> 00:14:57.260
+Et en 80 heures avec un million d'utilisateurs actifs.
+
+00:14:57.260 --> 00:15:00.260
+Vu que tous les projets sur lesquels nous avons travaillé à ce jour on eu des millions d'utilisateurs,
+
+00:15:00.260 --> 00:15:02.260
+nous espérons pouvoir traduire
+
+00:15:02.260 --> 00:15:04.260
+très rapidement avec ce nouveau projet.
+
+00:15:04.260 --> 00:15:07.260
+Maintenant ce qui m'intéresse le plus avec Duolingo
+
+00:15:07.260 --> 00:15:10.260
+c'est que je pense que cela donne un bon modèle d'affaires pour l'enseignement des langues.
+
+00:15:10.260 --> 00:15:12.260
+Donc voilà:
+
+00:15:12.260 --> 00:15:14.260
+Le modèle d'affaires actuel
+
+00:15:14.260 --> 00:15:16.260
+est que l'étudiant paie,
+
+00:15:16.260 --> 00:15:18.260
+et concrètement, l'étudiant paie Rosetta Stone 500 dollars.
+
+00:15:18.260 --> 00:15:20.260
+(Rires)
+
+00:15:20.260 --> 00:15:22.260
+C'est le modèle actuel.
+
+00:15:22.260 --> 00:15:24.260
+Le problème avec ce modèle d'affaires
+
+00:15:24.260 --> 00:15:27.260
+c'est que 95% des gens de la planète n'ont pas 500 dollars.
+
+00:15:27.260 --> 00:15:30.260
+Donc c'est très injuste pour les pauvres.
+
+00:15:30.260 --> 00:15:32.260
+C'est complètement orienté vers les riches.
+
+00:15:32.260 --> 00:15:34.260
+Vous voyez, avec Duolingo,
+
+00:15:34.260 --> 00:15:36.260
+puisque pendant que vous apprenez
+
+00:15:36.260 --> 00:15:39.260
+vous créez de la valeur, vous traduisez des choses --
+
+00:15:39.260 --> 00:15:42.260
+nous pourrions par exemple faire payer quelqu'un pour une traduction.
+
+00:15:42.260 --> 00:15:44.260
+Donc voilà comment nous pouvons le monétiser.
+
+00:15:44.260 --> 00:15:46.260
+Puisque les gens créent de la valeur en apprenant,
+
+00:15:46.260 --> 00:15:49.260
+ils n'ont pas à payer avec de l'argent, ils paient avec leur temps.
+
+00:15:49.260 --> 00:15:52.260
+Mais la magie c'est qu'ils paient avec leur temps,
+
+00:15:52.260 --> 00:15:54.260
+mais ce temps aurait été dépensé de toute façon
+
+00:15:54.260 --> 00:15:56.260
+pour apprendre la langue.
+
+00:15:56.260 --> 00:15:59.260
+Donc ce qui est beau avec Duolingo je pense c'est qu'il propose un bon modèle d'affaires --
+
+00:15:59.260 --> 00:16:01.260
+un qui ne discrimine pas les pauvres.
+
+00:16:01.260 --> 00:16:03.260
+Ah et voilà le site. Merci.
+
+00:16:03.260 --> 00:16:11.260
+(Applaudissements)
+
+00:16:11.260 --> 00:16:13.260
+Voilà le site.
+
+00:16:13.260 --> 00:16:15.260
+Nous ne l'avons pas encore lancé,
+
+00:16:15.260 --> 00:16:18.260
+mais si vous y allez, vous pouvez faire partie de notre phase beta privée,
+
+00:16:18.260 --> 00:16:20.260
+qui commencera sûrement d'ici 3 ou 4 semaines.
+
+00:16:20.260 --> 00:16:22.260
+Nous n'avons pas encore lancé Duolingo.
+
+00:16:22.260 --> 00:16:24.260
+Au fait, c'est moi qui parle ici
+
+00:16:24.260 --> 00:16:27.260
+mais Duolingo est le fruit du travail d'une équipe formidable dont certains sont ici aujourd'hui.
+
+00:16:27.260 --> 00:16:29.260
+Alors merci.
+
+00:16:29.260 --> 00:16:33.260
+(Applaudissements)
+

@@ -1,0 +1,737 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Laszlo Kereszturi
+Lektor: Anna Patai
+
+00:00:15.260 --> 00:00:18.260
+A Stuxnet számítógépes féregvírus ötlete
+
+00:00:18.260 --> 00:00:20.260
+tulajdonképpen nagyon egyszerű.
+
+00:00:20.260 --> 00:00:23.260
+Nem akarjuk, hogy Iránnak atombombája legyen.
+
+00:00:23.260 --> 00:00:26.260
+Az ő legfontossabb eszközük a nukleáris fegyverek fejlesztéséhez
+
+00:00:26.260 --> 00:00:30.260
+a natanzi urándúsító létesítmény.
+
+00:00:30.260 --> 00:00:32.260
+Az itt látható szürke dobozok,
+
+00:00:32.260 --> 00:00:35.260
+valós idejű ipari vezérlő rendszerek.
+
+00:00:35.260 --> 00:00:38.260
+Ha sikerül kompromittálni ezeket a rendszereket,
+
+00:00:38.260 --> 00:00:41.260
+amelyek a motorok sebességét és a szelepeket vezérlik,
+
+00:00:41.260 --> 00:00:44.260
+tényleg sok problémát okozhatunk
+
+00:00:44.260 --> 00:00:46.260
+a centrifugákkal.
+
+00:00:46.260 --> 00:00:48.260
+A szürke dobozokon nem Windows szoftver fut,
+
+00:00:48.260 --> 00:00:51.260
+ezek teljesen más technológia.
+
+00:00:51.260 --> 00:00:53.260
+De ha sikerül elhelyezni
+
+00:00:53.260 --> 00:00:56.260
+egy jó Windows-os vírust
+
+00:00:56.260 --> 00:00:58.260
+egy notebookon,
+
+00:00:58.260 --> 00:01:00.260
+amelyiket egy gépész mérnök használ
+
+00:01:00.260 --> 00:01:03.260
+a szürke dobozok beállításához,
+
+00:01:03.260 --> 00:01:05.260
+akkor kész a siker.
+
+00:01:05.260 --> 00:01:08.260
+És ez a Stuxnet forgatókönyve.
+
+00:01:08.260 --> 00:01:13.260
+Tehát egy Windows dropperel - potyogtatóval - indítunk.
+
+00:01:13.260 --> 00:01:16.260
+A hasznos teher, maga a vírus, átmegy a szürke dobozba,
+
+00:01:16.260 --> 00:01:18.260
+károsítja a centrifugát,
+
+00:01:18.260 --> 00:01:20.260
+és az iráni nukleáris program késleltetve van --
+
+00:01:20.260 --> 00:01:22.260
+feladat teljesítve.
+
+00:01:22.260 --> 00:01:24.260
+Ez könnyű, nemde?
+
+00:01:24.260 --> 00:01:27.260
+El akarom mondani, hogy jöttünk erre rá.
+
+00:01:27.260 --> 00:01:30.260
+Amikor hat hónappal ezelőtt elkezdtük a Stuxnet kutatását,
+
+00:01:30.260 --> 00:01:33.260
+a féregvírus célja teljesen ismeretlen volt.
+
+00:01:33.260 --> 00:01:35.260
+Az egyetlen ismert tény az volt,
+
+00:01:35.260 --> 00:01:38.260
+hogy nagyon komplex a Windows része, a dropper része,
+
+00:01:38.260 --> 00:01:41.260
+több javítatlan sérülékenységet használt ki.
+
+00:01:41.260 --> 00:01:44.260
+És úgy tűnt akar valamit tenni ezekkel
+
+00:01:44.260 --> 00:01:46.260
+a szürke dobozokkal, a valós idejű vezérlő rendszerekkel.
+
+00:01:46.260 --> 00:01:48.260
+Tehát ez felkeltette az érdeklődésünket,
+
+00:01:48.260 --> 00:01:50.260
+és elindítottunk egy labor projektet,
+
+00:01:50.260 --> 00:01:54.260
+ahol megfertőztük a környezetünket Stuxnet-el
+
+00:01:54.260 --> 00:01:56.260
+és ellenőriztük ezt a dolgot.
+
+00:01:56.260 --> 00:01:59.260
+És akkor néhány furcsa dolog történt.
+
+00:01:59.260 --> 00:02:02.260
+Stuxnet úgy viselkedett mint egy laborpatkány
+
+00:02:02.260 --> 00:02:05.260
+amelyiknek nem ízlik a mi sajtunk --
+
+00:02:05.260 --> 00:02:07.260
+szimatolt, de nem akarta megenni.
+
+00:02:07.260 --> 00:02:09.260
+Ennek semmi értelme nem volt.
+
+00:02:09.260 --> 00:02:12.260
+És miután kipróbáltunk különböző ízű sajtokat,
+
+00:02:12.260 --> 00:02:16.260
+rájöttem, hogy ez egy célzott támadás.
+
+00:02:16.260 --> 00:02:18.260
+Teljesen célzott.
+
+00:02:18.260 --> 00:02:20.260
+A dropper csak akkor aktiválódik
+
+00:02:20.260 --> 00:02:22.260
+a szürke dobozon
+
+00:02:22.260 --> 00:02:25.260
+ha megtalál egy sajátos konfigurációt,
+
+00:02:25.260 --> 00:02:29.260
+és csak akkor ha a megfertőzendő program
+
+00:02:29.260 --> 00:02:31.260
+valóban fut azon a célponton.
+
+00:02:31.260 --> 00:02:34.260
+És ha nem, akkor a Stuxnet passzív marad.
+
+00:02:34.260 --> 00:02:36.260
+Ez aztán csakugyan felkeltette az érdeklődésemet,
+
+00:02:36.260 --> 00:02:38.260
+és elkezdtünk ezen dolgozni
+
+00:02:38.260 --> 00:02:40.260
+majdnem megállás nélkül,
+
+00:02:40.260 --> 00:02:43.260
+mert azt gondoltam: nem tudjuk mi a célpont.
+
+00:02:43.260 --> 00:02:45.260
+Lehetne, például
+
+00:02:45.260 --> 00:02:47.260
+egy amerikai erőmű,
+
+00:02:47.260 --> 00:02:49.260
+vagy egy németországi kémiai üzem.
+
+00:02:49.260 --> 00:02:52.260
+Tehát jobb, ha minél előbb megtaláljuk a célpontot.
+
+00:02:52.260 --> 00:02:54.260
+Ezért elkülönítettük és visszafejtettük
+
+00:02:54.260 --> 00:02:56.260
+a támadó programot,
+
+00:02:56.260 --> 00:02:59.260
+és felfedeztük, hogy két digitális bombából áll --
+
+00:02:59.260 --> 00:03:02.260
+egy kissebből és egy nagyobból.
+
+00:03:02.260 --> 00:03:06.260
+És azt is láttuk, hogy nagyon profin vannak megtervezve,
+
+00:03:06.260 --> 00:03:10.260
+olyan emberek által, akiknek voltak belső információik.
+
+00:03:10.260 --> 00:03:12.260
+Ők ismerték az összes bitet és bájtot,
+
+00:03:12.260 --> 00:03:14.260
+amit meg kellett támadniuk.
+
+00:03:14.260 --> 00:03:17.260
+Valószínűleg még a kezelő cipőméretét is tudták.
+
+00:03:17.260 --> 00:03:19.260
+Tehát mindent tudtak a célpontról.
+
+00:03:19.260 --> 00:03:22.260
+És hogyha a Stuxnet droppert
+
+00:03:22.260 --> 00:03:24.260
+komplexnek és csúcstechnológiának mondják,
+
+00:03:24.260 --> 00:03:26.260
+hadd mondjam ezt nektek:
+
+00:03:26.260 --> 00:03:28.260
+a hasznos teher - maga a vírus - pedig űrtechnológia.
+
+00:03:28.260 --> 00:03:30.260
+Sokkal fejlettebb bárminél,
+
+00:03:30.260 --> 00:03:33.260
+amit eddig valaha is láttunk.
+
+00:03:33.260 --> 00:03:36.260
+Itt látják a valódi támadó program egy részét.
+
+00:03:36.260 --> 00:03:38.260
+Mi most körülbelül
+
+00:03:38.260 --> 00:03:41.260
+15.000 programsorról beszélünk.
+
+00:03:41.260 --> 00:03:44.260
+Úgy néz ki, mint a régi assembler nyelv.
+
+00:03:44.260 --> 00:03:46.260
+És el akarom mondani, hogyan
+
+00:03:46.260 --> 00:03:48.260
+értettük meg ezt a programot.
+
+00:03:48.260 --> 00:03:51.260
+Amit legelőször kerestünk azok a rendszerfüggvény hívások voltak,
+
+00:03:51.260 --> 00:03:53.260
+mert ezekról tudjuk, mit csinálnak.
+
+00:03:53.260 --> 00:03:57.260
+Azután pedig időzítéseket és adat struktúrákat kerestünk
+
+00:03:57.260 --> 00:03:59.260
+és próbáltuk őket a valós világhoz kötni --
+
+00:03:59.260 --> 00:04:01.260
+potenciális valós világbeli célpontokhoz.
+
+00:04:01.260 --> 00:04:04.260
+Tehát célpont elméletekre volt szükségünk,
+
+00:04:04.260 --> 00:04:07.260
+amiket tudtunk bizonyítani vagy cáfolni.
+
+00:04:07.260 --> 00:04:09.260
+Hogy célpont elméleteket kapjunk,
+
+00:04:09.260 --> 00:04:11.260
+emlékezzünk,
+
+00:04:11.260 --> 00:04:13.260
+hogy ez minden bizonnyal komoly szabotázs,
+
+00:04:13.260 --> 00:04:15.260
+magas értékű célpont ellen,
+
+00:04:15.260 --> 00:04:18.260
+és a célpont nagy valószínűséggel Iránban van,
+
+00:04:18.260 --> 00:04:22.260
+mert onnan jelentették a legtöbb fertőzést.
+
+00:04:22.260 --> 00:04:25.260
+Nos, ebben a zónában nem találsz több ezer célpontot.
+
+00:04:25.260 --> 00:04:27.260
+Tulajdonképpen csak
+
+00:04:27.260 --> 00:04:29.260
+a bushehri atomerőműről
+
+00:04:29.260 --> 00:04:31.260
+és a natanzi üzemanyagdúsítóról lehet szó.
+
+00:04:31.260 --> 00:04:33.260
+Tehát szóltam az asszisztensemnek:
+
+00:04:33.260 --> 00:04:36.260
+"Írj egy listát az összes centrifuga és erőmű szakértőről az adatbázisunkban."
+
+00:04:36.260 --> 00:04:38.260
+Majd felhívtam őket és faggattam őket
+
+00:04:38.260 --> 00:04:40.260
+azért, hogy összeillesszem az ő szakértelmüket
+
+00:04:40.260 --> 00:04:43.260
+azzal, amit találtunk a programban és az adatokban.
+
+00:04:43.260 --> 00:04:45.260
+És ez elég jól ment.
+
+00:04:45.260 --> 00:04:47.260
+Képesek voltunk összekapcsolni
+
+00:04:47.260 --> 00:04:49.260
+a kissebb digitális robbanófejet
+
+00:04:49.260 --> 00:04:51.260
+a centrifuga forgórész vezérlésével.
+
+00:04:51.260 --> 00:04:54.260
+A forgórész a centrifuga mozgó része,
+
+00:04:54.260 --> 00:04:56.260
+a fekete tárgy amit látnak.
+
+00:04:56.260 --> 00:04:59.260
+És hogyha mesterkedsz a forgórész sebességével,
+
+00:04:59.260 --> 00:05:01.260
+valóban képes vagy tönkretenni a forgórészt
+
+00:05:01.260 --> 00:05:05.260
+és végül esetleg a centrifugát is felrobbanthatod.
+
+00:05:05.260 --> 00:05:07.260
+Szintén láttuk még,
+
+00:05:07.260 --> 00:05:09.260
+hogy a támadás célja igazából az volt,
+
+00:05:09.260 --> 00:05:12.260
+hogy lassan és settenkedve történjen,
+
+00:05:12.260 --> 00:05:14.260
+nyilvánvalóan azért, hogy
+
+00:05:14.260 --> 00:05:17.260
+megbolondítsa a karbantartó mérnököket,
+
+00:05:17.260 --> 00:05:20.260
+és ne tudjanak gyorsan rájönni erre.
+
+00:05:20.260 --> 00:05:23.260
+A nagyobbik digitális robbanófej -- ennek is megnéztük
+
+00:05:23.260 --> 00:05:25.260
+nagyon aprólékosan
+
+00:05:25.260 --> 00:05:27.260
+az adatait és az adat struktúráit.
+
+00:05:27.260 --> 00:05:29.260
+Például a 164-es szám
+
+00:05:29.260 --> 00:05:31.260
+kiugrik abban a programban,
+
+00:05:31.260 --> 00:05:33.260
+nem tudsz elsiklani fölötte.
+
+00:05:33.260 --> 00:05:35.260
+Elkezdtem kutatni a tudományos irodalomban
+
+00:05:35.260 --> 00:05:37.260
+hogyan vannak felépítve ezek
+
+00:05:37.260 --> 00:05:39.260
+a centrifugák Natanzban,
+
+00:05:39.260 --> 00:05:41.260
+és azt találtam, hogy
+
+00:05:41.260 --> 00:05:43.260
+fürtökbe vannak szervezve,
+
+00:05:43.260 --> 00:05:47.260
+mindegyik fürtben 164 centrifuga van.
+
+00:05:47.260 --> 00:05:49.260
+Ennek volt értelme, egy megfelelés volt.
+
+00:05:49.260 --> 00:05:51.260
+És még ennél is jobb lett.
+
+00:05:51.260 --> 00:05:53.260
+Azok a centrifugák Iránban
+
+00:05:53.260 --> 00:05:57.260
+fel voltak osztva 15 fázisra.
+
+00:05:57.260 --> 00:05:59.260
+És mit találtunk a támadó programban?
+
+00:05:59.260 --> 00:06:01.260
+Egy majdnem azonos strúktúrát.
+
+00:06:01.260 --> 00:06:04.260
+Ez egy nagyon jó megfelelés volt.
+
+00:06:04.260 --> 00:06:07.260
+És ez nagy bizonyosságot adott a célpont felől.
+
+00:06:07.260 --> 00:06:10.260
+Ne értsenek félre, nem volt ilyen egyszerű.
+
+00:06:10.260 --> 00:06:13.260
+Ezeket az eredményeket
+
+00:06:13.260 --> 00:06:16.260
+több heti kemény labormunka hozta meg.
+
+00:06:16.260 --> 00:06:19.260
+És néha zsákutcába jutottunk
+
+00:06:19.260 --> 00:06:21.260
+és újra kellett kezdeni.
+
+00:06:21.260 --> 00:06:23.260
+Végülis, rájöttünk, hogy
+
+00:06:23.260 --> 00:06:25.260
+mindkét digitális robbanófej
+
+00:06:25.260 --> 00:06:27.260
+valójában ugyanazt a célpontot támadta,
+
+00:06:27.260 --> 00:06:29.260
+de különböző szögből.
+
+00:06:29.260 --> 00:06:32.260
+A kissebbik egy fürtöt támadott,
+
+00:06:32.260 --> 00:06:35.260
+és felgyorsította illetve lelassította a forgórészt,
+
+00:06:35.260 --> 00:06:37.260
+míg a nagyobbik robbanófej
+
+00:06:37.260 --> 00:06:39.260
+egyszerre hat fürtnek
+
+00:06:39.260 --> 00:06:41.260
+a szelepeit manipulálta.
+
+00:06:41.260 --> 00:06:43.260
+Tehát, nagyon biztosak voltunk benne,
+
+00:06:43.260 --> 00:06:45.260
+hogy csakugyan meghatároztuk a célpontot.
+
+00:06:45.260 --> 00:06:48.260
+Ez Natanz és csakis Natanz.
+
+00:06:48.260 --> 00:06:50.260
+Tehát nem kell aggódni,
+
+00:06:50.260 --> 00:06:52.260
+hogy a Stuxnet megtámad
+
+00:06:52.260 --> 00:06:54.260
+más célpontokat.
+
+00:06:54.260 --> 00:06:57.260
+Íme néhány nagyon klassz dolog amit láttunk --
+
+00:06:57.260 --> 00:06:59.260
+igazán mellbe vágott.
+
+00:06:59.260 --> 00:07:01.260
+Itt lenn van a szürke doboz,
+
+00:07:01.260 --> 00:07:04.260
+és felül látják a centrifugákat.
+
+00:07:04.260 --> 00:07:06.260
+Ez a dolog tulajdonképpen
+
+00:07:06.260 --> 00:07:09.260
+elfogja az érzékelők bemeneti értékeit --
+
+00:07:09.260 --> 00:07:11.260
+például a nyomásérzékelőktől
+
+00:07:11.260 --> 00:07:13.260
+és a rezgésérzékelőktől --
+
+00:07:13.260 --> 00:07:16.260
+és hamis adatokat ad
+
+00:07:16.260 --> 00:07:18.260
+az eredeti programnak, amelyik
+
+00:07:18.260 --> 00:07:20.260
+szintén fut a támadás alatt.
+
+00:07:20.260 --> 00:07:22.260
+És valójában ez a hamis adat
+
+00:07:22.260 --> 00:07:25.260
+előre rögzítve van a Stuxnet által.
+
+00:07:25.260 --> 00:07:27.260
+Pont olyan, mint a hollywoodi filmekben,
+
+00:07:27.260 --> 00:07:29.260
+amikor a rablás alatt
+
+00:07:29.260 --> 00:07:32.260
+a megfigyelő kamerát előre rögzített videóval látják el.
+
+00:07:32.260 --> 00:07:34.260
+Ez klassz, nemde?
+
+00:07:35.260 --> 00:07:37.260
+Nyilvánvalóan itt nem csak
+
+00:07:37.260 --> 00:07:40.260
+a vezérlőterembeli kezelőket akarták átverni.
+
+00:07:40.260 --> 00:07:44.260
+Ez ennél sokkal veszélyesebb és agresszívebb.
+
+00:07:44.260 --> 00:07:46.260
+A cél az, hogy
+
+00:07:46.260 --> 00:07:49.260
+kijátsza a digitális biztonsági rendszert.
+
+00:07:50.260 --> 00:07:52.260
+Szükségünk van digitális biztonsági rendszerekre
+
+00:07:52.260 --> 00:07:55.260
+ahol a humán kezelő nem tud elég gyorsan cselekedni.
+
+00:07:55.260 --> 00:07:57.260
+Például, egy erőműben, amikor
+
+00:07:57.260 --> 00:08:00.260
+a nagy gőzturbina túlgyorsul, a biztonsági szelepet
+
+00:08:00.260 --> 00:08:03.260
+egy ezred másodperc alatt ki kell nyitni.
+
+00:08:03.260 --> 00:08:06.260
+Nyilvánvaló, hogy ezt egy humán kezelő nem tudja megtenni.
+
+00:08:06.260 --> 00:08:08.260
+Tehát ilyenkor szükségünk van a digitális biztonsági rendszerekre.
+
+00:08:08.260 --> 00:08:10.260
+És amikor ezek csődöt mondanak,
+
+00:08:10.260 --> 00:08:13.260
+akkor igazán rossz dolgok történhetnek.
+
+00:08:13.260 --> 00:08:15.260
+Felrobbanhat az üzemed.
+
+00:08:15.260 --> 00:08:18.260
+És sem a kezelők, sem a biztonsági rendszer nem veszi észre.
+
+00:08:18.260 --> 00:08:20.260
+Ez ijesztő.
+
+00:08:20.260 --> 00:08:22.260
+De lesz ez rosszabb is.
+
+00:08:22.260 --> 00:08:25.260
+És amit mondani fogok, nagyon fontos.
+
+00:08:25.260 --> 00:08:27.260
+Gondolják el.
+
+00:08:27.260 --> 00:08:30.260
+Ez a támadás általános.
+
+00:08:30.260 --> 00:08:34.260
+A részleteiben semmi dolga
+
+00:08:34.260 --> 00:08:36.260
+a centrifugákkal,
+
+00:08:36.260 --> 00:08:39.260
+az uránium dúsítással.
+
+00:08:39.260 --> 00:08:42.260
+Tehát működött volna például
+
+00:08:42.260 --> 00:08:44.260
+egy erőműben
+
+00:08:44.260 --> 00:08:47.260
+vagy egy személygépkocsi gyárban.
+
+00:08:47.260 --> 00:08:49.260
+Általános.
+
+00:08:49.260 --> 00:08:51.260
+És mint támadó,
+
+00:08:51.260 --> 00:08:54.260
+nem kell USB memóriakártyán
+
+00:08:54.260 --> 00:08:56.260
+szállítani a hasznos terhet,
+
+00:08:56.260 --> 00:08:58.260
+mint a Stuxnet esetében láttuk.
+
+00:08:58.260 --> 00:09:01.260
+Használhatsz hagyományos féreg technológiát a terjesztésre.
+
+00:09:01.260 --> 00:09:04.260
+Csak terjeszd el a legszélesebb körben.
+
+00:09:04.260 --> 00:09:06.260
+És ha ezt megteszed,
+
+00:09:06.260 --> 00:09:08.260
+végül kapsz
+
+00:09:08.260 --> 00:09:13.260
+egy tömegpusztító kibernetikus fegyvert.
+
+00:09:14.260 --> 00:09:16.260
+Ez a következmény,
+
+00:09:16.260 --> 00:09:19.260
+amivel szembe kell nézzünk.
+
+00:09:19.260 --> 00:09:22.260
+Sajnos az ilyen támadások
+
+00:09:22.260 --> 00:09:25.260
+célpontjainak többsége
+
+00:09:25.260 --> 00:09:27.260
+nem a Közel-Keleten van.
+
+00:09:27.260 --> 00:09:30.260
+Hanem az Egyesült Államokban, Európában és Japánban.
+
+00:09:30.260 --> 00:09:32.260
+Ezek a zöld területek mind
+
+00:09:32.260 --> 00:09:35.260
+célpont gazdag környezetek.
+
+00:09:35.260 --> 00:09:38.260
+Szembe kell néznünk a következményekkel,
+
+00:09:38.260 --> 00:09:41.260
+és jobb ha azonnal elkezdünk felkészülni.
+
+00:09:41.260 --> 00:09:43.260
+Köszönöm.
+
+00:09:43.260 --> 00:09:49.260
+(Taps)
+
+00:09:49.260 --> 00:09:51.260
+Chris Anderson: Van egy kérdésem.
+
+00:09:53.260 --> 00:09:55.260
+Ralph, széles körben megírták, hogy
+
+00:09:55.260 --> 00:09:57.260
+feltételezik, hogy a Mossad a fő
+
+00:09:57.260 --> 00:09:59.260
+szereplő emögött a támadás mögött.
+
+00:09:59.260 --> 00:10:02.260
+Ez a te véleményed is?
+
+00:10:02.260 --> 00:10:04.260
+Ralph Langner: Rendben, szóval igazán akarod hallani?
+
+00:10:04.260 --> 00:10:06.260
+Jó, legyen.
+
+00:10:06.260 --> 00:10:09.260
+Szerintem a Mossad benne van,
+
+00:10:09.260 --> 00:10:12.260
+de a vezető erő nem Izrael.
+
+00:10:12.260 --> 00:10:14.260
+A vezető erő emögött
+
+00:10:14.260 --> 00:10:17.260
+a kibernetikai szuperhatalom.
+
+00:10:17.260 --> 00:10:19.260
+Csak egy ilyen van,
+
+00:10:19.260 --> 00:10:21.260
+és ez az Egyesült Államok --
+
+00:10:21.260 --> 00:10:23.260
+szerencsére, szerencsére.
+
+00:10:23.260 --> 00:10:25.260
+Mert máskülönben,
+
+00:10:25.260 --> 00:10:28.260
+még nagyobbak lennének a problémáink.
+
+00:10:28.260 --> 00:10:32.260
+CA: Köszönöm, hogy halálra rémisztettél minket. Köszönöm Ralph.
+
+00:10:32.260 --> 00:10:34.260
+(Taps)
+

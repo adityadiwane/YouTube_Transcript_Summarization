@@ -1,0 +1,533 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Ciro Gomez
+Revisor: Lidia Cámara de la Fuente
+
+00:00:12.840 --> 00:00:15.266
+Lo que comenzó como 
+una plataforma para aficionados
+
+00:00:15.266 --> 00:00:17.856
+está por convertirse en 
+una industria multimillonaria.
+
+00:00:17.880 --> 00:00:21.936
+Inspección, vigilancia del medio ambiente,
+fotografía y cine y periodismo:
+
+00:00:21.960 --> 00:00:25.136
+son algunas de las posibles aplicaciones 
+para drones comerciales,
+
+00:00:25.160 --> 00:00:27.570
+y sus capacidades se están desarrollando
+
+00:00:27.590 --> 00:00:29.736
+en centros de investigación 
+de todo el mundo.
+
+00:00:29.760 --> 00:00:32.376
+Por ejemplo, 
+antes de la entrega aérea de paquetes
+
+00:00:32.400 --> 00:00:34.216
+entrara en nuestra conciencia social,
+
+00:00:34.240 --> 00:00:38.216
+una flota autónoma de drones construyó 
+una torre de 6 metros de altura
+
+00:00:38.240 --> 00:00:40.176
+compuesta de 1500 ladrillos
+
+00:00:40.200 --> 00:00:43.136
+frente de una audiencia en vivo 
+en el Centro FRAC en Francia,
+
+00:00:43.160 --> 00:00:45.736
+y hace varios años, 
+empezaron a volar con cuerdas.
+
+00:00:45.760 --> 00:00:47.176
+Atando máquinas voladoras,
+
+00:00:47.200 --> 00:00:50.976
+pueden alcanzar altas velocidades y 
+aceleraciones en espacios muy reducidos.
+
+00:00:51.000 --> 00:00:54.096
+También pueden construir 
+de forma autónoma estructuras tensadas.
+
+00:00:54.120 --> 00:00:56.536
+Las habilidades aprendidas 
+incluyen llevar cargas,
+
+00:00:56.560 --> 00:00:58.016
+enfrentar perturbaciones,
+
+00:00:58.040 --> 00:01:01.136
+y, en general, cómo interactuar 
+con el mundo físico.
+
+00:01:01.160 --> 00:01:04.496
+Hoy queremos mostrarles algunos 
+nuevos proyectos que hemos trabajado.
+
+00:01:04.520 --> 00:01:07.456
+Su objetivo es empujar los límites 
+de lo que puede lograrse
+
+00:01:07.480 --> 00:01:09.016
+con vuelo autónomo.
+
+00:01:09.040 --> 00:01:11.496
+Para un sistema que funcione 
+de manera autónoma,
+
+00:01:11.520 --> 00:01:15.970
+debe conocer colectivamente la ubicación 
+de sus objetos móviles en el espacio.
+
+00:01:15.970 --> 00:01:17.730
+En nuestro 
+laboratorio en ETH Zurich,
+
+00:01:17.730 --> 00:01:20.590
+a menudo utilizamos cámaras externas 
+para localizar objetos,
+
+00:01:20.590 --> 00:01:22.670
+que nos permiten 
+enfocar nuestros esfuerzos
+
+00:01:22.670 --> 00:01:25.506
+en el rápido desarrollo de las tareas 
+altamente dinámicas.
+
+00:01:25.506 --> 00:01:27.036
+Para las demostraciones de hoy,
+
+00:01:27.036 --> 00:01:30.770
+usaremos tecnologías de localización 
+nuevas desarrolladas por Verity Studios,
+
+00:01:30.770 --> 00:01:32.496
+una escisión de nuestro laboratorio.
+
+00:01:32.520 --> 00:01:34.136
+No hay cámaras externas.
+
+00:01:34.160 --> 00:01:39.216
+Cada máquina de vuelo con sensores a bordo
+para determinar su ubicación en el espacio
+
+00:01:39.240 --> 00:01:42.680
+ya cómputo de abordo para determinar 
+cuáles deben ser sus acciones.
+
+00:01:43.280 --> 00:01:45.736
+Los únicos comandos externos 
+son los de alto nivel
+
+00:01:45.736 --> 00:01:47.100
+como "despegue" y "tierra".
+
+00:02:10.560 --> 00:02:12.456
+Esta es una llamada "tail-sitter".
+
+00:02:12.480 --> 00:02:15.936
+Es un avión que intenta tener 
+su pastel y comérselo.
+
+00:02:15.960 --> 00:02:19.326
+Como otros aviones de ala fija, 
+es eficiente en vuelo hacia adelante,
+
+00:02:19.366 --> 00:02:22.455
+mucho más que los helicópteros 
+y variaciones de los mismos.
+
+00:02:22.459 --> 00:02:24.946
+A diferencia de la mayoría 
+de aeronaves de ala fija,
+
+00:02:24.946 --> 00:02:26.436
+es capaz de vuelo estacionario,
+
+00:02:26.440 --> 00:02:29.576
+que tiene enormes ventajas 
+para el despegue, aterrizaje
+
+00:02:29.600 --> 00:02:30.840
+y versatilidad general.
+
+00:02:31.480 --> 00:02:33.570
+No hay almuerzo gratis, 
+por desgracia.
+
+00:02:33.570 --> 00:02:35.520
+Una de las limitaciones con "tal-sitters"
+
+00:02:35.520 --> 00:02:38.586
+es que son susceptibles a 
+perturbaciones como ráfagas de viento.
+
+00:02:38.586 --> 00:02:41.406
+Estamos desarrollando arquitecturas 
+de control y algoritmos
+
+00:02:41.406 --> 00:02:42.880
+para enfrentar esta limitación.
+
+00:02:50.560 --> 00:02:52.816
+La idea es que la aeronave se recupere
+
+00:02:52.840 --> 00:02:55.480
+no importa en qué estado se encuentre,
+
+00:03:03.400 --> 00:03:06.320
+y con la práctica, 
+mejore su rendimiento en el tiempo.
+
+00:03:15.600 --> 00:03:20.000
+(Aplausos)
+
+00:03:22.000 --> 00:03:23.200
+Bien.
+
+00:03:33.480 --> 00:03:34.696
+Al hacer investigación,
+
+00:03:34.720 --> 00:03:37.696
+a menudo nos hacemos 
+preguntas abstractas fundamentales
+
+00:03:37.720 --> 00:03:40.280
+que tratan de llegar 
+al corazón de la cuestión.
+
+00:03:41.240 --> 00:03:43.456
+Por ejemplo, 
+una cuestión de este tipo sería,
+
+00:03:43.480 --> 00:03:47.496
+¿cuál es el número mínimo de piezas 
+móviles para el vuelo controlado?
+
+00:03:47.520 --> 00:03:49.096
+Ahora, hay razones prácticas
+
+00:03:49.100 --> 00:03:51.776
+por las que se desea saber 
+la respuesta a esta pregunta.
+
+00:03:51.776 --> 00:03:53.016
+Helicópteros, por ejemplo,
+
+00:03:53.040 --> 00:03:56.896
+cariñosamente conocidas como máquinas 
+con un millar de piezas móviles
+
+00:03:56.920 --> 00:03:59.600
+todas conspirando 
+para hacerte daño corporal.
+
+00:04:00.640 --> 00:04:02.380
+Resulta que hace décadas,
+
+00:04:02.410 --> 00:04:05.696
+pilotos cualificados podían
+pilotar aviones por control remoto
+
+00:04:05.720 --> 00:04:07.616
+con solo 2 partes móviles:
+
+00:04:07.640 --> 00:04:09.480
+una hélice y un timón de cola.
+
+00:04:10.000 --> 00:04:13.120
+Recientemente hemos descubierto 
+que se podía hacer con una sola.
+
+00:04:13.600 --> 00:04:14.856
+Este es el "monospinner",
+
+00:04:14.880 --> 00:04:18.136
+la máquina voladora controlable 
+mecánicamente más simple del mundo,
+
+00:04:18.160 --> 00:04:19.936
+inventada hace tan solo unos meses.
+
+00:04:19.960 --> 00:04:23.096
+Tiene una sola parte móvil, una hélice.
+
+00:04:23.120 --> 00:04:26.696
+No tiene aletas, sin bisagras, 
+no hay alerones,
+
+00:04:26.720 --> 00:04:29.645
+no hay otros actuadores, no hay 
+otras superficies de control,
+
+00:04:29.645 --> 00:04:30.770
+solo una hélice simple.
+
+00:04:31.320 --> 00:04:33.375
+A pesar de que es mecánicamente simple,
+
+00:04:33.399 --> 00:04:35.896
+se hace mucho en su 
+pequeño cerebro electrónico
+
+00:04:35.920 --> 00:04:40.136
+para volar establemente y moverse en 
+cualquier lugar que quiera en el espacio.
+
+00:04:40.160 --> 00:04:41.616
+Aun así, todavía no tiene
+
+00:04:41.640 --> 00:04:43.976
+los algoritmos sofisticados 
+del "tail-sitter",
+
+00:04:44.000 --> 00:04:46.000
+lo que significa que para que vuele,
+
+00:04:46.024 --> 00:04:47.744
+tengo que tirarlo a la perfección.
+
+00:04:48.800 --> 00:04:52.816
+Y dada la probabilidad de que 
+lo lance bien es muy baja,
+
+00:04:52.840 --> 00:04:54.736
+dado que todo el mundo me mira,
+
+00:04:54.760 --> 00:04:56.216
+lo que vamos a hacer en cambio
+
+00:04:56.240 --> 00:04:58.616
+es mostrar un vídeo 
+que rodamos ayer por la noche.
+
+00:04:58.636 --> 00:05:00.170
+(Risas)
+
+00:05:10.320 --> 00:05:13.640
+(Aplausos)
+
+00:05:23.080 --> 00:05:26.816
+Si el "monospinner" es 
+un ejercicio de austeridad,
+
+00:05:26.840 --> 00:05:30.296
+esta máquina aquí, 
+el "omnicopter", con sus ocho hélices,
+
+00:05:30.320 --> 00:05:32.400
+es un ejercicio de exceso.
+
+00:05:32.920 --> 00:05:35.056
+¿Qué se puede hacer 
+con todo este excedente?
+
+00:05:35.080 --> 00:05:37.461
+Lo que hay que notar es 
+que es muy simétrico.
+
+00:05:37.920 --> 00:05:40.776
+Como resultado, 
+es ambivalente a la orientación.
+
+00:05:40.800 --> 00:05:43.496
+Esto le da una capacidad extraordinaria.
+
+00:05:43.520 --> 00:05:45.736
+Puede desplazarse a cualquier lugar
+
+00:05:45.760 --> 00:05:48.496
+independientemente del lugar que enfrente
+
+00:05:48.520 --> 00:05:50.320
+e incluso de la forma en que gire.
+
+00:05:51.040 --> 00:05:52.616
+Tiene sus propias complejidades,
+
+00:05:52.616 --> 00:05:55.096
+principalmente con 
+los flujos que interactúan
+
+00:05:55.120 --> 00:05:56.360
+de sus ocho hélices.
+
+00:05:56.680 --> 00:06:00.536
+Algo puede modelarse, mientras que el 
+resto se puede aprender sobre la marcha.
+
+00:06:00.560 --> 00:06:01.760
+Vamos a ver.
+
+00:06:44.760 --> 00:06:48.520
+(Aplausos)
+
+00:06:52.720 --> 00:06:55.625
+Si los drones van a entrar 
+en nuestra vida cotidiana,
+
+00:06:55.649 --> 00:06:58.446
+tendrán que llegar a ser 
+extremadamente seguros y fiables.
+
+00:06:58.760 --> 00:07:00.136
+Esta máquina aquí
+
+00:07:00.160 --> 00:07:03.296
+es en realidad 2 máquinas voladoras 
+de dos hélices separadas.
+
+00:07:03.320 --> 00:07:05.106
+Esta quiere girar en sentido horario.
+
+00:07:05.106 --> 00:07:07.576
+Esta otro quiere girar 
+en sentido antihorario.
+
+00:07:07.600 --> 00:07:08.936
+Cuando se ponen juntas,
+
+00:07:08.960 --> 00:07:11.560
+se comportan como un cuadrocóptero
+de alto rendimiento.
+
+00:07:23.640 --> 00:07:25.296
+Si algo va mal, sin embargo,
+
+00:07:25.320 --> 00:07:29.776
+--un motor falla, una hélice falla, 
+la electrónica, incluso unas baterías--
+
+00:07:29.800 --> 00:07:33.136
+la máquina todavía puede volar, 
+aunque de forma degradada.
+
+00:07:33.160 --> 00:07:36.680
+Vamos a demostrárselo ahora con 
+la desactivación de una de sus mitades.
+
+00:07:56.240 --> 00:07:59.400
+(Aplausos)
+
+00:08:03.320 --> 00:08:04.656
+Esta última demostración
+
+00:08:04.680 --> 00:08:07.120
+es una exploración 
+de enjambres sintéticos.
+
+00:08:07.560 --> 00:08:10.536
+El gran número de 
+entidades autónomas, coordinados
+
+00:08:10.560 --> 00:08:13.296
+ofrece una nueva paleta 
+para la expresión estética.
+
+00:08:13.320 --> 00:08:16.296
+Hemos tomado microcuadricópteros 
+disponibles en el mercado,
+
+00:08:16.320 --> 00:08:18.816
+con un peso de menos de 
+una rebanada de pan,
+
+00:08:18.840 --> 00:08:21.256
+y equipados con nuestra 
+tecnología de localización
+
+00:08:21.280 --> 00:08:22.856
+y algoritmos personalizados.
+
+00:08:22.880 --> 00:08:25.106
+Como cada unidad sabe 
+dónde está en el espacio
+
+00:08:25.126 --> 00:08:26.376
+y es autocontrolada,
+
+00:08:26.400 --> 00:08:28.600
+en realidad no hay límite a su número.
+
+00:08:55.840 --> 00:08:59.280
+(Aplausos)
+
+00:09:19.360 --> 00:09:23.840
+(Aplausos)
+
+00:10:18.040 --> 00:10:21.680
+(Aplausos)
+
+00:10:35.960 --> 00:10:39.056
+Ojalá estas manifestaciones 
+los motiven a soñar
+
+00:10:39.080 --> 00:10:41.480
+nuevas funciones revolucionarias 
+para drones.
+
+00:10:42.560 --> 00:10:44.460
+Ese ultra seguro de allí, por ejemplo,
+
+00:10:44.480 --> 00:10:47.806
+tiene aspiraciones de convertirse en 
+una pantalla volador en Broadway.
+
+00:10:47.816 --> 00:10:49.776
+(Risas)
+
+00:10:49.800 --> 00:10:51.976
+La realidad es que es difícil de predecir
+
+00:10:52.000 --> 00:10:53.890
+el impacto de la tecnología incipiente.
+
+00:10:54.120 --> 00:10:58.976
+Para gente como nosotros, la recompensa 
+verdadera es el viaje y el acto creativo.
+
+00:10:59.000 --> 00:11:00.416
+Es un recordatorio continuo
+
+00:11:00.440 --> 00:11:03.360
+del maravilloso y mágico universo 
+en el que vivimos,
+
+00:11:03.840 --> 00:11:06.776
+que permite a las criaturas 
+inteligentes, creativas,
+
+00:11:06.800 --> 00:11:09.320
+esculpir de una manera 
+tan espectacular.
+
+00:11:09.800 --> 00:11:11.576
+El hecho de que esta tecnología
+
+00:11:11.600 --> 00:11:15.016
+tiene tan enorme potencial 
+comercial y económico
+
+00:11:15.040 --> 00:11:16.456
+es solo la guinda del pastel.
+
+00:11:16.480 --> 00:11:17.696
+Gracias.
+
+00:11:17.720 --> 00:11:20.960
+(Aplausos)
+

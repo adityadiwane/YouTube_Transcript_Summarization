@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: hr
+
+00:00:00.000 --> 00:00:07.000
+Prevoditelj: Jelena Horvat
+Recezent: Tilen Pigac - EFZG
+
+00:00:16.260 --> 00:00:19.260
+Dopustite mi da vam predstavim Rezera.
+
+00:00:19.260 --> 00:00:21.260
+Ovog malog prijatelja izradila je
+
+00:00:21.260 --> 00:00:23.260
+grupa od 10 studenata
+
+00:00:23.260 --> 00:00:25.260
+u Laboratoriju autonomnih sustava
+
+00:00:25.260 --> 00:00:27.260
+pri Švicarskom federalnom institutu za tehnologiju u Zürichu.
+
+00:00:27.260 --> 00:00:29.260
+Naš robot pripada porodici robota
+
+00:00:29.260 --> 00:00:31.260
+koja se zove ballbots.
+
+00:00:31.260 --> 00:00:33.260
+Umjesto na kotačima, ballbot balansira
+
+00:00:33.260 --> 00:00:35.260
+i kreće se na jednoj lopti.
+
+00:00:35.260 --> 00:00:37.260
+Osnovna značajka ovakvog sistema je
+
+00:00:37.260 --> 00:00:40.260
+da postoji samo jedna dodirna točka s tlom.
+
+00:00:40.260 --> 00:00:42.260
+To znači da je robot
+
+00:00:42.260 --> 00:00:44.260
+sam po sebi nestabilan.
+
+00:00:44.260 --> 00:00:46.260
+To je kao kad bih ja pokušao stajati
+
+00:00:46.260 --> 00:00:47.260
+na jednoj nozi.
+
+00:00:47.260 --> 00:00:49.260
+Mogli biste se pitati, kakva korist
+
+00:00:49.260 --> 00:00:51.260
+od toga da je robot nestabilan?
+
+00:00:51.260 --> 00:00:53.260
+Objasnit ću to za koji trenutak.
+
+00:00:53.260 --> 00:00:55.260
+Dopustite mi da prvo objasnim kako Rezero
+
+00:00:55.260 --> 00:00:57.260
+zapravo održava ravnotežu.
+
+00:00:57.260 --> 00:00:59.260
+Rezero održava ravnotežu tako da konstantno
+
+00:00:59.260 --> 00:01:02.260
+senzorom mjeri kut nagiba.
+
+00:01:02.260 --> 00:01:05.260
+On tada suzbija i izbjegava prevrtanja
+
+00:01:05.260 --> 00:01:07.260
+okretanjem motora na odgovarajući način.
+
+00:01:07.260 --> 00:01:09.260
+To se događa 160 puta u sekundi
+
+00:01:09.260 --> 00:01:11.260
+i ako bi štogod zakazalo u tom procesu,
+
+00:01:11.260 --> 00:01:14.260
+Rezero bi odmah pao na tlo.
+
+00:01:14.260 --> 00:01:16.260
+Da bi se kretao i balansirao,
+
+00:01:16.260 --> 00:01:18.260
+Rezero mora okretati loptu.
+
+00:01:18.260 --> 00:01:20.260
+Lopta je vođena s tri specijalna kotača
+
+00:01:20.260 --> 00:01:23.260
+koja dopuštaju Rezeru da se kreće u bilo kojem smjeru
+
+00:01:23.260 --> 00:01:25.260
+i da se istovremeno kreće
+
+00:01:25.260 --> 00:01:29.260
+i oko vlastite osi.
+
+00:01:29.260 --> 00:01:31.260
+Zbog te nestabilnosti, Rezero je uvijek
+
+00:01:31.260 --> 00:01:33.260
+u pokretu. Evo u čemu je trik.
+
+00:01:33.260 --> 00:01:36.260
+Upravo ta nestabilnost omogućuje
+
+00:01:36.260 --> 00:01:38.260
+robotu da se kreće vrlo dinamično.
+
+00:01:38.260 --> 00:01:40.260
+Poigrajmo se malo.
+
+00:01:40.260 --> 00:01:42.260
+Možda se pitate što bi se dogodilo
+
+00:01:42.260 --> 00:01:45.260
+kad bih ga malo gurnuo.
+
+00:01:47.260 --> 00:01:49.260
+U ovom načinu on pokušava zadržati
+
+00:01:49.260 --> 00:01:52.260
+svoju poziciju.
+
+00:01:52.260 --> 00:01:55.260
+Za sljedeću demonstraciju želio bih vas upoznati
+
+00:01:55.260 --> 00:01:58.260
+sa svojim kolegama Michaelom, na računalu,
+
+00:01:58.260 --> 00:02:01.260
+i Thomasom koji će mi pomagati na pozornici.
+
+00:02:02.260 --> 00:02:04.260
+U sljedećem stanju Rezero je pasivan,
+
+00:02:04.260 --> 00:02:07.260
+i možemo ga pokretati.
+
+00:02:08.260 --> 00:02:10.260
+Gotovo bez sile mogu kontrolirati
+
+00:02:10.260 --> 00:02:13.260
+njegovu poziciju i brzinu.
+
+00:02:16.260 --> 00:02:19.260
+Mogu ga i zavrtjeti.
+
+00:02:30.260 --> 00:02:32.260
+U sljedećem stanju Rezero može
+
+00:02:32.260 --> 00:02:35.260
+pratiti osobu.
+
+00:02:35.260 --> 00:02:38.260
+Sada održava stalnu udaljenost od Thomasa.
+
+00:02:42.260 --> 00:02:44.260
+Ovo funkcionira pomoću laserskog senzora
+
+00:02:44.260 --> 00:02:46.260
+koji je montiran na vrh Rezera.
+
+00:02:50.260 --> 00:02:52.260
+Koristeći istu metodu možemo
+
+00:02:52.260 --> 00:02:55.260
+učiniti da kruži oko neke osobe.
+
+00:02:57.260 --> 00:03:01.260
+Nazivamo to orbitirajući način.
+
+00:03:10.260 --> 00:03:12.260
+U redu, hvala, Thomas.
+
+00:03:12.260 --> 00:03:16.260
+(Pljesak)
+
+00:03:16.260 --> 00:03:19.260
+Sada, kako možemo koristiti ovu tehnologiju?
+
+00:03:22.260 --> 00:03:24.260
+Zasad je ovo eksperiment, ali dozvolite da vam
+
+00:03:24.260 --> 00:03:27.260
+pokažem neke od mogućih budućih primjena.
+
+00:03:28.260 --> 00:03:30.260
+Rezero bi se mogao koristiti na izložbama ili u parkovima.
+
+00:03:30.260 --> 00:03:32.260
+Uz ekran mogao bi informirati ljude ili
+
+00:03:32.260 --> 00:03:35.260
+im pokazati uokolo na zabavan način.
+
+00:03:35.260 --> 00:03:37.260
+U bolnici ovaj bi se uređaj mogao koristiti za
+
+00:03:37.260 --> 00:03:39.260
+raznošenje medicinske opreme.
+
+00:03:39.260 --> 00:03:41.260
+Zbog ballbot sistema, ima vrlo mali
+
+00:03:41.260 --> 00:03:44.260
+trag i lako se kreće.
+
+00:03:44.260 --> 00:03:46.260
+I naravno, tko se ne bi poželio
+
+00:03:46.260 --> 00:03:49.260
+provozati na nečem poput ovoga.
+
+00:03:49.260 --> 00:03:51.260
+No to je više praktična primjena.
+
+00:03:51.260 --> 00:03:53.260
+A postoji i određena ljepota
+
+00:03:53.260 --> 00:03:55.260
+u ovoj tehnologiji.
+
+00:03:55.260 --> 00:04:04.260
+(Glazba)
+
+00:04:58.260 --> 00:04:59.260
+(Pljesak)
+
+00:04:59.260 --> 00:05:01.260
+Hvala.
+
+00:05:01.260 --> 00:05:05.260
+(Pljesak)
+
+00:05:05.260 --> 00:05:07.260
+Hvala.
+

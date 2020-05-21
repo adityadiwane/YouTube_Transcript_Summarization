@@ -1,0 +1,1259 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Ondrej Ferby
+Korektor: Petr Bela
+
+00:00:15.260 --> 00:00:17.260
+Kolik z vás už muselo vyplnit nějaký nějaký webový formulář,
+
+00:00:17.260 --> 00:00:19.260
+kde jste byli požádáni o přečtení řetězce zdeformovaných znaků jako jsou tato?
+
+00:00:19.260 --> 00:00:21.260
+Pro kolik z vás to bylo otravné?
+
+00:00:21.260 --> 00:00:24.260
+Dobře, skvělé. To jsem vymyslel já.
+
+00:00:24.260 --> 00:00:26.260
+(Smích)
+
+00:00:26.260 --> 00:00:28.260
+Spíš jsem byl jedním z těch, co to vymysleli.
+
+00:00:28.260 --> 00:00:30.260
+Jmenuje se to CAPTCHA.
+
+00:00:30.260 --> 00:00:32.260
+A je tam proto, aby zjistila, že vy, bytost, která formulář vyplňuje,
+
+00:00:32.260 --> 00:00:35.260
+jste opravdu člověk a ne nějaký typ programu,
+
+00:00:35.260 --> 00:00:37.260
+napsaný tak, aby odesílal formulář milionkrát.
+
+00:00:37.260 --> 00:00:39.260
+Funguje to, protože lidé,
+
+00:00:39.260 --> 00:00:41.260
+alespoň ti bez zrakového postižení,
+
+00:00:41.260 --> 00:00:43.260
+nemají problém se čtením těchto pokroucených znaků,
+
+00:00:43.260 --> 00:00:46.260
+zatímco počítačové programy to zatím tak dobře nesvedou.
+
+00:00:46.260 --> 00:00:48.260
+Například v případě Ticketmasteru,
+
+00:00:48.260 --> 00:00:50.260
+musíte tyto znaky zadat,
+
+00:00:50.260 --> 00:00:52.260
+aby se zabránilo spekulantům v napsání programu,
+
+00:00:52.260 --> 00:00:54.260
+který by po dvou nakoupil miliony lístků.
+
+00:00:54.260 --> 00:00:56.260
+CAPTCHA se používá po celém internetu.
+
+00:00:56.260 --> 00:00:58.260
+A protože se užívá tak hojně,
+
+00:00:58.260 --> 00:01:00.260
+často se stane, že konkrétní řada zobrazených náhodných znaků
+
+00:01:00.260 --> 00:01:02.260
+může být nešťastná.
+
+00:01:02.260 --> 00:01:05.260
+Například tento registrační formulář na Yahoo.
+
+00:01:05.260 --> 00:01:07.260
+Náhodné znaky, které se uživateli zobrazily,
+
+00:01:07.260 --> 00:01:10.260
+byly Č, E, K, E, J, což samozřejmě tvoří slovo.
+
+00:01:10.260 --> 00:01:13.260
+Ale nejlepší část je zpráva,
+
+00:01:13.260 --> 00:01:16.260
+kterou obdržela pomocná linka Yahoo asi za 20 minut.
+
+00:01:16.260 --> 00:01:19.260
+"Pomoc! Už čekám přes 20 minut a nic se neděje."
+
+00:01:19.260 --> 00:01:23.260
+(Smích)
+
+00:01:23.260 --> 00:01:25.260
+Takže si myslel, že musí počkat.
+
+00:01:25.260 --> 00:01:28.260
+Ale tento uživatel na tom byl ještě hůř.
+
+00:01:28.260 --> 00:01:30.260
+(Smích)
+
+00:01:30.260 --> 00:01:33.260
+Projekt CAPTCHA jsme vytvořili zde v Carnegie Mellon před 10 lety
+
+00:01:33.260 --> 00:01:35.260
+a používá se úplně všude.
+
+00:01:35.260 --> 00:01:37.260
+Řeknu vám o projektu, který jsme udělali o pár let později,
+
+00:01:37.260 --> 00:01:40.260
+další krok ve vývoji CAPTCHA.
+
+00:01:40.260 --> 00:01:42.260
+Říkáme mu reCAPTCHA,
+
+00:01:42.260 --> 00:01:44.260
+a je něčím, co jsme začli zde na Carnegie Mellon
+
+00:01:44.260 --> 00:01:46.260
+a časem z toho udělali začínající firmu.
+
+00:01:46.260 --> 00:01:48.260
+A pak, asi před rokem a půl,
+
+00:01:48.260 --> 00:01:50.260
+koupil tuto firmu Google.
+
+00:01:50.260 --> 00:01:52.260
+Řeknu vám, jak to začalo.
+
+00:01:52.260 --> 00:01:55.260
+Když mi došlo následující:
+
+00:01:55.260 --> 00:01:57.260
+Přibližně 200 milionů CAPTCHA
+
+00:01:57.260 --> 00:02:00.260
+se na světě vyplní každý den.
+
+00:02:00.260 --> 00:02:02.260
+Když jsem to slyšel prvně, byl jsem na sebe hrdý.
+
+00:02:02.260 --> 00:02:04.260
+Říkal jsem si, jaký dopad můj výzkum má.
+
+00:02:04.260 --> 00:02:06.260
+Ale pak jsem se začal cítit špatně.
+
+00:02:06.260 --> 00:02:08.260
+Víte, pokaždé, když vyplňujete CAPTCHA,
+
+00:02:08.260 --> 00:02:11.260
+vlastně přijdete o 10 vteřin vašeho času.
+
+00:02:11.260 --> 00:02:13.260
+A když to vynásobíte 200 miliony,
+
+00:02:13.260 --> 00:02:16.260
+zjistíte, že lidstvo jako celek ztrácí asi 500 000 hodin denně
+
+00:02:16.260 --> 00:02:18.260
+při psaní těch otravných CAPTCHA.
+
+00:02:18.260 --> 00:02:20.260
+Tehdy jsem se začal cítit špatně.
+
+00:02:20.260 --> 00:02:22.260
+(Smích)
+
+00:02:22.260 --> 00:02:25.260
+A pak jsem si říkal, no, nemůžeme CAPTCHA odstranit,
+
+00:02:25.260 --> 00:02:27.260
+protože bezpečnost webu na nich závisí.
+
+00:02:27.260 --> 00:02:30.260
+Ale pak jsem si pomyslel, existuje způsob jak z tohoto úsilí
+
+00:02:30.260 --> 00:02:32.260
+získat něco dobrého pro lidstvo?
+
+00:02:32.260 --> 00:02:34.260
+Má se to takto.
+
+00:02:34.260 --> 00:02:36.260
+Zatímco píšete CAPTCHU, během těch 10 vteřin,
+
+00:02:36.260 --> 00:02:38.260
+váš mozek dělá něco úžasného.
+
+00:02:38.260 --> 00:02:40.260
+Vás mozek dělá něco, co počítače zatím nesvedou.
+
+00:02:40.260 --> 00:02:43.260
+Můžete tak dělat během těch 10 vteřin něco užitečného?
+
+00:02:43.260 --> 00:02:45.260
+Jinak řečeno,
+
+00:02:45.260 --> 00:02:47.260
+je tu nějaký velký problém, který počítače nedokáží vyřešit,
+
+00:02:47.260 --> 00:02:50.260
+ale můžeme jej rozdělit na 10 vteřinové úseky,
+
+00:02:50.260 --> 00:02:52.260
+takže když někdo vyřeší CAPTCHA
+
+00:02:52.260 --> 00:02:54.260
+vyřeší i kousek toho problému?
+
+00:02:54.260 --> 00:02:56.260
+A odpověď na to je "ano", a to je to co teď děláme.
+
+00:02:56.260 --> 00:02:59.260
+Takže to co možná nevíte je, že zatímco píšete CAPTCHA,
+
+00:02:59.260 --> 00:03:01.260
+nejen, že se dokazujete, že jste člověk,
+
+00:03:01.260 --> 00:03:03.260
+ale zároveň pomáháte digitalizovat knihy.
+
+00:03:03.260 --> 00:03:05.260
+Vysvětlím vám jak to funguje.
+
+00:03:05.260 --> 00:03:07.260
+Je tu spousty projektů, pokoušejících se o digitalizaci knih.
+
+00:03:07.260 --> 00:03:10.260
+Google jeden má, The Internet Archive jeden má.
+
+00:03:10.260 --> 00:03:12.260
+Amazon, teď když má Kindle, se o to pokouší.
+
+00:03:12.260 --> 00:03:14.260
+V základě to funguje tak,
+
+00:03:14.260 --> 00:03:16.260
+že vezmete starou knihu.
+
+00:03:16.260 --> 00:03:18.260
+Viděli jste ty věci, že? Myslím, knihy?
+
+00:03:18.260 --> 00:03:20.260
+(Smích)
+
+00:03:20.260 --> 00:03:22.260
+Začnete s knihou a naskenujete jí.
+
+00:03:22.260 --> 00:03:24.260
+Ale skenování knihy
+
+00:03:24.260 --> 00:03:26.260
+je jako focení každé její stránky.
+
+00:03:26.260 --> 00:03:28.260
+Z každé stránky máte obrázek.
+
+00:03:28.260 --> 00:03:30.260
+Je to obrázek s textem z každé stránky knihy.
+
+00:03:30.260 --> 00:03:32.260
+V dalším kroku procesu
+
+00:03:32.260 --> 00:03:35.260
+musí počítač dešifrovat všechna ta slova na obrázku.
+
+00:03:35.260 --> 00:03:37.260
+K tomu se používá technologie OCR,
+
+00:03:37.260 --> 00:03:39.260
+optické rozeznávání znaků,
+
+00:03:39.260 --> 00:03:41.260
+které vezme obrázek textu
+
+00:03:41.260 --> 00:03:43.260
+a pokusí se zjistit, jaký text tam je.
+
+00:03:43.260 --> 00:03:45.260
+Problém u OCR je, že je nedokonalý.
+
+00:03:45.260 --> 00:03:47.260
+Hlavně u starších knih,
+
+00:03:47.260 --> 00:03:50.260
+kde inkoust vybledl a stránky zežloutly,
+
+00:03:50.260 --> 00:03:52.260
+OCR nerozpozná hodně slov.
+
+00:03:52.260 --> 00:03:54.260
+Například u knih napsaných před více než 50 roky,
+
+00:03:54.260 --> 00:03:57.260
+počítač nerozpozná okolo 30 procent slov.
+
+00:03:57.260 --> 00:03:59.260
+Takže my děláme to,
+
+00:03:59.260 --> 00:04:01.260
+že sebereme všechna slova, která počítač nerozezná,
+
+00:04:01.260 --> 00:04:03.260
+a dáváme je lidem, aby je pro nás přečetli,
+
+00:04:03.260 --> 00:04:05.260
+když píšou CAPTCHA na internetu.
+
+00:04:05.260 --> 00:04:08.260
+Takže příště až budete psát CAPTCHA, ta slova která píšete,
+
+00:04:08.260 --> 00:04:11.260
+jsou vlastně slova z knih, které se právě digitalizují
+
+00:04:11.260 --> 00:04:13.260
+a počítač je nerozeznal.
+
+00:04:13.260 --> 00:04:15.260
+A důvod proč používáme 2 slova místo jednoho je ten,
+
+00:04:15.260 --> 00:04:17.260
+protože jedno z těch slov
+
+00:04:17.260 --> 00:04:19.260
+je slovo, které systém dostal z knihy,
+
+00:04:19.260 --> 00:04:22.260
+a neví co to to je a ukáže vám ho.
+
+00:04:22.260 --> 00:04:25.260
+Protože ale neví, jaká je správná odpověď, nemůže jí posoudit.
+
+00:04:25.260 --> 00:04:27.260
+Takže vám dáme další slovo,
+
+00:04:27.260 --> 00:04:29.260
+které systém už zná.
+
+00:04:29.260 --> 00:04:31.260
+Neřekneme vám, které je které a poprosíme o vyplnění obou.
+
+00:04:31.260 --> 00:04:33.260
+A když zadáte správné slovo
+
+00:04:33.260 --> 00:04:35.260
+pro to, které systém už zná, tak předpokládá,
+
+00:04:35.260 --> 00:04:37.260
+že jste člověk
+
+00:04:37.260 --> 00:04:39.260
+a také získá důvěru, že jste dobře napsali i to druhé slovo.
+
+00:04:39.260 --> 00:04:42.260
+A když zopakujeme tento proces třeba u 10 různých lidí
+
+00:04:42.260 --> 00:04:44.260
+a všichni se shodnou jaké to nové slovo je,
+
+00:04:44.260 --> 00:04:46.260
+máme jedno nové správné slovo v digitální podobě.
+
+00:04:46.260 --> 00:04:48.260
+Takže takhle to funguje.
+
+00:04:48.260 --> 00:04:51.260
+A od doby před asi třemi nebo čtyřmi lety, kdy jsme s tím začli,
+
+00:04:51.260 --> 00:04:53.260
+spousta stránek začala přecházet
+
+00:04:53.260 --> 00:04:55.260
+ze staré CAPTCHA, kde lidé mrhali svým časem,
+
+00:04:55.260 --> 00:04:57.260
+na novou CAPTCHA, kde lidí pomáhají s digitalizováním knih.
+
+00:04:57.260 --> 00:04:59.260
+Například Ticketmaster.
+
+00:04:59.260 --> 00:05:02.260
+S každou koupí lístku na Ticketmasteru, pomůžete digitalizovat knihu.
+
+00:05:02.260 --> 00:05:04.260
+Facebook: Pokaždé když si někoho přidáte nebo šťouchnete,
+
+00:05:04.260 --> 00:05:06.260
+pomůžete digitalizovat knihu.
+
+00:05:06.260 --> 00:05:09.260
+Twitter a dalších asi 350 000 dalších stránek používá reCAPTCHA.
+
+00:05:09.260 --> 00:05:11.260
+Popravdě to číslo stránek, které reCAPTCHA používají je tak vysoké,
+
+00:05:11.260 --> 00:05:14.260
+že množství slov digitalizovaných denně je opravdu velké.
+
+00:05:14.260 --> 00:05:16.260
+Je to kolem 100 milionu denně,
+
+00:05:16.260 --> 00:05:20.260
+což je asi dva a půl milionu knížek ročně.
+
+00:05:20.260 --> 00:05:22.260
+A to vše napsáno slovo po slově
+
+00:05:22.260 --> 00:05:24.260
+jen lidmi vyplňujícími CAPTCHA na internetu.
+
+00:05:24.260 --> 00:05:32.260
+(Potlesk)
+
+00:05:32.260 --> 00:05:34.260
+Samozřejmě,
+
+00:05:34.260 --> 00:05:36.260
+když máme tolik slov každý den,
+
+00:05:36.260 --> 00:05:38.260
+může se stát něco vtipného.
+
+00:05:38.260 --> 00:05:40.260
+A to hlavně proto, že teď dáváme lidem dvě
+
+00:05:40.260 --> 00:05:42.260
+náhodně vybraná anglická slova vedle sebe.
+
+00:05:42.260 --> 00:05:44.260
+Takže se stávají vtipné věci.
+
+00:05:44.260 --> 00:05:46.260
+Například, objevilo se toto slovo.
+
+00:05:46.260 --> 00:05:48.260
+Slovo "Křesťané", na tom není nic špatného.
+
+00:05:48.260 --> 00:05:51.260
+Když se ale objeví vedle dalšího náhodného slova,
+
+00:05:51.260 --> 00:05:53.260
+může se stát něco špatného.
+
+00:05:53.260 --> 00:05:55.260
+Dostali jsme toto. (Špatní křesťané)
+
+00:05:55.260 --> 00:05:58.260
+Ale je to ještě horší, protože stránka, na které se ukázalo
+
+00:05:58.260 --> 00:06:01.260
+byla "Ambasáda Království božího".
+
+00:06:01.260 --> 00:06:03.260
+(Smích)
+
+00:06:03.260 --> 00:06:05.260
+Hups.
+
+00:06:05.260 --> 00:06:08.260
+(Smích)
+
+00:06:08.260 --> 00:06:10.260
+Tady je další špatná.
+
+00:06:10.260 --> 00:06:12.260
+JohnEdwards.com
+
+00:06:12.260 --> 00:06:15.260
+(Zatracený liberál)
+
+00:06:15.260 --> 00:06:17.260
+(Smích)
+
+00:06:17.260 --> 00:06:20.260
+Takže pořád urážíme lidi v jednom kuse.
+
+00:06:20.260 --> 00:06:22.260
+Samozřejmě lidi jen neurážíme.
+
+00:06:22.260 --> 00:06:25.260
+Jde o to, že když uvádíme dvě náhodná slova,
+
+00:06:25.260 --> 00:06:27.260
+může se stát něco zajímavého.
+
+00:06:27.260 --> 00:06:29.260
+To dalo vzniknout velkému
+
+00:06:29.260 --> 00:06:32.260
+internetovému memu,
+
+00:06:32.260 --> 00:06:34.260
+kterému přispěli desetitisíce lidí,
+
+00:06:34.260 --> 00:06:36.260
+říká se mu CAPTCHA umění.
+
+00:06:36.260 --> 00:06:38.260
+Určitě o něm někteří z vás slyšeli.
+
+00:06:38.260 --> 00:06:40.260
+Takhle to funguje.
+
+00:06:40.260 --> 00:06:42.260
+Představte si, že jste na internetu a vidíte CAPTCHA
+
+00:06:42.260 --> 00:06:44.260
+a pomyslíte si, že je to něco konkrétního,
+
+00:06:44.260 --> 00:06:46.260
+jako zde. (Neviditelný toustovač)
+
+00:06:46.260 --> 00:06:48.260
+Takže uděláte s tím snímek obrazovky.
+
+00:06:48.260 --> 00:06:50.260
+Pak, samozřejmě, vyplníte CAPTCHA,
+
+00:06:50.260 --> 00:06:52.260
+protože pomůžete s digitalizací.
+
+00:06:52.260 --> 00:06:54.260
+Ale nejdřív uděláte snímek,
+
+00:06:54.260 --> 00:06:56.260
+a pak namalujete něco co se k tomu vztahuje.
+
+00:06:56.260 --> 00:06:58.260
+(Smích)
+
+00:06:58.260 --> 00:07:01.260
+To je celá věda.
+
+00:07:01.260 --> 00:07:04.260
+Jsou jich desetitisíce.
+
+00:07:04.260 --> 00:07:06.260
+Některé roztomilé. (Udržel jsem to)
+
+00:07:06.260 --> 00:07:08.260
+(Smích)
+
+00:07:08.260 --> 00:07:10.260
+Některé vtipné.
+
+00:07:10.260 --> 00:07:13.260
+(Sjetí předci)
+
+00:07:13.260 --> 00:07:16.260
+Smích
+
+00:07:16.260 --> 00:07:18.260
+A některé,
+
+00:07:18.260 --> 00:07:21.260
+jako paleontologické ňůňo
+
+00:07:21.260 --> 00:07:23.260
+mohou obsahovat Snoop Dogga.
+
+00:07:23.260 --> 00:07:26.260
+(Smích)
+
+00:07:26.260 --> 00:07:28.260
+Dobře, toto je mé nejoblíbenější číslo z reCAPTCHA.
+
+00:07:28.260 --> 00:07:31.260
+Je to moje nejoblíbenější věc na celém projektu.
+
+00:07:31.260 --> 00:07:33.260
+Je to množství lidí,
+
+00:07:33.260 --> 00:07:36.260
+kteří pomohli zdigitalizovat alespoň jedno slovo přes reCAPTCHA
+
+00:07:36.260 --> 00:07:38.260
+750 milionů,
+
+00:07:38.260 --> 00:07:40.260
+což je něco málo přes 10 procent světové populace,
+
+00:07:40.260 --> 00:07:42.260
+nám pomohlo zdigitalizovat vědění lidstva.
+
+00:07:42.260 --> 00:07:45.260
+A čísla jako jsou tato, mě motivují ve výzkumu.
+
+00:07:45.260 --> 00:07:48.260
+Otázka, která motivuje můj výzkum, je tato:
+
+00:07:48.260 --> 00:07:50.260
+Když se podíváte na největší úspěchy lidstva,
+
+00:07:50.260 --> 00:07:52.260
+ty opravdu největší,
+
+00:07:52.260 --> 00:07:55.260
+které spojily lidstvo a změnily dějiny --
+
+00:07:55.260 --> 00:07:57.260
+například stavba pyramid v Egyptě,
+
+00:07:57.260 --> 00:07:59.260
+Panamského kanálu
+
+00:07:59.260 --> 00:08:01.260
+nebo poslání člověka na Měsíc --
+
+00:08:01.260 --> 00:08:03.260
+všechny mají něco společného,
+
+00:08:03.260 --> 00:08:05.260
+hlavně to, byly dokončeny s podobným množstvím lidí.
+
+00:08:05.260 --> 00:08:08.260
+Zvláštní, ty všechny zvládnuty s asi 100.000 lidmi.
+
+00:08:08.260 --> 00:08:11.260
+A důvod je ten, že před internetem,
+
+00:08:11.260 --> 00:08:13.260
+organizování více než 100.000 lidí,
+
+00:08:13.260 --> 00:08:16.260
+nemluvě o výplatách, byla téměř nemožná.
+
+00:08:16.260 --> 00:08:18.260
+Teď jsem vám ale ukázal projekt, který v době internetu
+
+00:08:18.260 --> 00:08:20.260
+kde spolupracuje 750 milionu lidí
+
+00:08:20.260 --> 00:08:22.260
+na digitalizaci vědění lidstva.
+
+00:08:22.260 --> 00:08:24.260
+Takže otázkou, která mě motivuje je,
+
+00:08:24.260 --> 00:08:27.260
+když zvládneme poslat člověka na Měsíc se 100 000 lidmi,
+
+00:08:27.260 --> 00:08:29.260
+co zvládneme se 100 miliony?
+
+00:08:29.260 --> 00:08:31.260
+A na základě této otázky
+
+00:08:31.260 --> 00:08:33.260
+jsme rozjeli různé projekty, na kterých pracujeme.
+
+00:08:33.260 --> 00:08:36.260
+Ukážu vám jeden, ze kterého jsem opravdu nadšený.
+
+00:08:36.260 --> 00:08:38.260
+Něco, na čem jsme v tichosti pracovali
+
+00:08:38.260 --> 00:08:40.260
+asi poslední rok a půl.
+
+00:08:40.260 --> 00:08:42.260
+Ještě není spuštěn. Jmenuje se Duolingo.
+
+00:08:42.260 --> 00:08:44.260
+A protože nebyl spuštěn, pšššt!
+
+00:08:44.260 --> 00:08:46.260
+(Smích)
+
+00:08:46.260 --> 00:08:48.260
+Věřím vám.
+
+00:08:48.260 --> 00:08:50.260
+To je ten projekt a takhle začal.
+
+00:08:50.260 --> 00:08:52.260
+Začal mou otázkou na mého studenta
+
+00:08:52.260 --> 00:08:54.260
+Severina Hackera.
+
+00:08:54.260 --> 00:08:56.260
+Dobře, to je Severin Hacker.
+
+00:08:56.260 --> 00:08:58.260
+Takže, položil jsem mu svou otázku.
+
+00:08:58.260 --> 00:09:00.260
+Mimochodem, slyšeli jste dobře,
+
+00:09:00.260 --> 00:09:02.260
+jeho příjmení je Hacker.
+
+00:09:02.260 --> 00:09:04.260
+Dal jsem mu tedy tuto otázku:
+
+00:09:04.260 --> 00:09:06.260
+Jak přimějeme 100 milionů lidí
+
+00:09:06.260 --> 00:09:09.260
+přeložit web do všech hlavních jazyků zdarma?
+
+00:09:09.260 --> 00:09:11.260
+Dobře, několik věcí k té otázce.
+
+00:09:11.260 --> 00:09:13.260
+Zaprvé, překládání webu.
+
+00:09:13.260 --> 00:09:16.260
+Web je rozložen do více jazyků.
+
+00:09:16.260 --> 00:09:18.260
+Jeho velká část je v angličtině.
+
+00:09:18.260 --> 00:09:20.260
+Když anglicky neumíte, nedostanete s k ní.
+
+00:09:20.260 --> 00:09:22.260
+Ale jsou i ty velké části v jiných jazycích,
+
+00:09:22.260 --> 00:09:25.260
+které když neznáte, nedostanete se k nim.
+
+00:09:25.260 --> 00:09:28.260
+A my bychom chtěli přeložit web, alespoň jeho většinu,
+
+00:09:28.260 --> 00:09:30.260
+do všech hlavních jazyků.
+
+00:09:30.260 --> 00:09:32.260
+To je to, co bych rád udělal.
+
+00:09:32.260 --> 00:09:35.260
+Někteří možná namítnou, proč nepoužijeme počítače?
+
+00:09:35.260 --> 00:09:37.260
+Proč nemůžeme použít překladače?
+
+00:09:37.260 --> 00:09:39.260
+V současnosti počítačové překlady sem tam přeloží větu.
+
+00:09:39.260 --> 00:09:41.260
+Proč je nepoužijeme pro celý web?
+
+00:09:41.260 --> 00:09:43.260
+No, problém s tímto je, že to není dost dobré
+
+00:09:43.260 --> 00:09:45.260
+a pravděpodobně nebude dalších asi 15 až 20 let.
+
+00:09:45.260 --> 00:09:47.260
+Tvoří spoustu chyb.
+
+00:09:47.260 --> 00:09:49.260
+A i když nechybuje,
+
+00:09:49.260 --> 00:09:52.260
+tak protože dělá tolik chyb, nevíte, zda tomu věřit, či ne.
+
+00:09:52.260 --> 00:09:54.260
+Ukážu vám příklad
+
+00:09:54.260 --> 00:09:56.260
+něčeho přeloženého strojem.
+
+00:09:56.260 --> 00:09:58.260
+Byl to příspěvek na fóru.
+
+00:09:58.260 --> 00:10:01.260
+Někdo se ptal na něco ohledně JavaScriptu.
+
+00:10:01.260 --> 00:10:04.260
+Bylo to přeloženo s japonštiny do angličtiny.
+
+00:10:04.260 --> 00:10:06.260
+Nechám vás číst.
+
+00:10:06.260 --> 00:10:08.260
+Ten člověk začíná omluvou za to,
+
+00:10:08.260 --> 00:10:10.260
+že to bylo přeloženo počítačem.
+
+00:10:10.260 --> 00:10:13.260
+Další věta je úvod k otázce.
+
+00:10:13.260 --> 00:10:15.260
+Takže něco vysvětluje.
+
+00:10:15.260 --> 00:10:18.260
+Pamatujte, je to otázka ohledně JavaScriptu.
+
+00:10:19.260 --> 00:10:23.260
+(Často, kozločas instaluje chyba jsou zvratky.)
+
+00:10:23.260 --> 00:10:27.260
+(Často, kozločas instaluje chyba jsou zvratky.)
+
+00:10:27.260 --> 00:10:30.260
+Pak následuje první část otázky.
+
+00:10:30.260 --> 00:10:34.260
+(Kolikrát jako vítr, stožár a drak?)
+
+00:10:34.260 --> 00:10:36.260
+(Kolikrát jako vítr, stožár a drak?)
+
+00:10:36.260 --> 00:10:39.260
+Pak přichází má oblíbená část otázky.
+
+00:10:39.260 --> 00:10:42.260
+(Není to urážka otcových gulí?)
+
+00:10:42.260 --> 00:10:44.260
+(Není to urážka otcových gulí?)
+
+00:10:44.260 --> 00:10:47.260
+A pak přichází závěr, který je z toho všeho nejlepší.
+
+00:10:47.260 --> 00:10:51.260
+(Prosím omluvte svou hloupost. Pro vás mnohé díky.)
+
+00:10:51.260 --> 00:10:53.260
+(Prosím omluvte svou hloupost. Pro vás mnohé díky.)
+
+00:10:53.260 --> 00:10:55.260
+Takže počítačový překlad ještě není dost dobrý.
+
+00:10:55.260 --> 00:10:57.260
+Zpět k otázce.
+
+00:10:57.260 --> 00:11:00.260
+Takže potřebujeme, aby lidé přeložili web.
+
+00:11:00.260 --> 00:11:02.260
+Takže teď asi budete ptát,
+
+00:11:02.260 --> 00:11:04.260
+proč nemůžeme lidem zaplatit, aby to udělali?
+
+00:11:04.260 --> 00:11:07.260
+Mohli bychom zaplatit profesionální překladatele, aby vše přeložili.
+
+00:11:07.260 --> 00:11:09.260
+To můžeme.
+
+00:11:09.260 --> 00:11:11.260
+Bohužel by to bylo extrémně nákladné.
+
+00:11:11.260 --> 00:11:14.260
+Například, překlad malinkého zlomku celého webu, Wikipedie,
+
+00:11:14.260 --> 00:11:17.260
+do jednoho jazyka, španělštiny.
+
+00:11:17.260 --> 00:11:19.260
+Wikipedia existuje ve španělštině,
+
+00:11:19.260 --> 00:11:21.260
+ale ta je velice malá ve srovnání s anglickou.
+
+00:11:21.260 --> 00:11:23.260
+Je to asi 20 procent velikosti té anglické.
+
+00:11:23.260 --> 00:11:26.260
+Pokud chceme přeložit těch dalších 80 procent do španělštiny,
+
+00:11:26.260 --> 00:11:28.260
+stálo by to asi 50 milionů dolarů --
+
+00:11:28.260 --> 00:11:31.260
+a to v té nejzneužívanější outsourcingové zemi vůbec.
+
+00:11:31.260 --> 00:11:33.260
+Takže by to bylo velice nákladné.
+
+00:11:33.260 --> 00:11:35.260
+Takže my chceme sehnat 100 milionů lidí
+
+00:11:35.260 --> 00:11:37.260
+na překlad webu do všech hlavních jazyků
+
+00:11:37.260 --> 00:11:39.260
+zadarmo.
+
+00:11:39.260 --> 00:11:41.260
+Ale když se do toho pustíte,
+
+00:11:41.260 --> 00:11:43.260
+brzy si uvědomíte, že máte dvě velké trhliny,
+
+00:11:43.260 --> 00:11:45.260
+dvě velké překážky.
+
+00:11:45.260 --> 00:11:48.260
+První je nedostatek bilingvních lidí.
+
+00:11:48.260 --> 00:11:50.260
+Já ani nevím,
+
+00:11:50.260 --> 00:11:53.260
+jestli na světě existuje 100 milionu lidí, kteří používají web
+
+00:11:53.260 --> 00:11:55.260
+a umí dva jazyky tak, aby mohli pomoci.
+
+00:11:55.260 --> 00:11:57.260
+To je velký problém.
+
+00:11:57.260 --> 00:11:59.260
+A ten druhý problém je nedostatek motivace.
+
+00:11:59.260 --> 00:12:01.260
+Jak chceme lidi motivovat,
+
+00:12:01.260 --> 00:12:03.260
+aby opravdu překládali web zdarma?
+
+00:12:03.260 --> 00:12:06.260
+Běžně za to lidem musíte platit.
+
+00:12:06.260 --> 00:12:08.260
+Tak jak je přimět, aby to udělali zdarma?
+
+00:12:08.260 --> 00:12:11.260
+Když o tom začneme přemýšlet, jsme omezeni těmi dvěmi věcmi.
+
+00:12:11.260 --> 00:12:13.260
+Ale pak jsme si uvědomili, že vlastně
+
+00:12:13.260 --> 00:12:15.260
+existuje způsob na řešení obou problémů naráz.
+
+00:12:15.260 --> 00:12:17.260
+Jak zabít dvě mouchy jednou ranou.
+
+00:12:17.260 --> 00:12:20.260
+A to tak, že změníte překládání,
+
+00:12:20.260 --> 00:12:23.260
+v něco, co miliony lidí chtějí dělat,
+
+00:12:23.260 --> 00:12:26.260
+a to také vyřeší problém s nedostatkem bilingválů,
+
+00:12:26.260 --> 00:12:29.260
+a to je výuka jazyků.
+
+00:12:29.260 --> 00:12:31.260
+Ukázalo se, že dnes
+
+00:12:31.260 --> 00:12:34.260
+se asi 1,2 miliardy lidí učí cizí jazyk.
+
+00:12:34.260 --> 00:12:36.260
+Lidé se opravdu chtějí cizí jazyk učit.
+
+00:12:36.260 --> 00:12:39.260
+Ne jen proto, že jsou k tomu nuceni ve škole.
+
+00:12:39.260 --> 00:12:41.260
+Například jen ve Spojených státech
+
+00:12:41.260 --> 00:12:43.260
+je přes 5 milionů lidí, kteří zaplatili přes 500 dolarů
+
+00:12:43.260 --> 00:12:45.260
+za software na výuku jazyků.
+
+00:12:45.260 --> 00:12:47.260
+Lidé se chtějí jazyky učit opravdu hodně.
+
+00:12:47.260 --> 00:12:50.260
+Takže na tom jsme pracovali přibližně poslední rok a půl --
+
+00:12:50.260 --> 00:12:52.260
+stránka jménem Duolingo,
+
+00:12:52.260 --> 00:12:55.260
+kde hlavní myšlenkou je naučit lidi jazyky zdarma
+
+00:12:55.260 --> 00:12:57.260
+a zároveň překládat web.
+
+00:12:57.260 --> 00:12:59.260
+Takže se učí praxí.
+
+00:12:59.260 --> 00:13:01.260
+Funguje to tak,
+
+00:13:01.260 --> 00:13:04.260
+že když jste nováček, dostanete velice snadné věty.
+
+00:13:04.260 --> 00:13:06.260
+Těch je na webu samozřejmě plno.
+
+00:13:06.260 --> 00:13:08.260
+Dáme vám velice snadné věty
+
+00:13:08.260 --> 00:13:10.260
+společně s významem slov.
+
+00:13:10.260 --> 00:13:13.260
+A jak překládáte a koukáte, jak je překládali ostatní,
+
+00:13:13.260 --> 00:13:15.260
+začnete se učit jazyk.
+
+00:13:15.260 --> 00:13:17.260
+A jak se zlepšujete,
+
+00:13:17.260 --> 00:13:19.260
+dostáváte na překlad složitější věty.
+
+00:13:19.260 --> 00:13:21.260
+Ale pořád se učíte praxí.
+
+00:13:21.260 --> 00:13:23.260
+Šílené na tomto způsobu je,
+
+00:13:23.260 --> 00:13:25.260
+že opravdu funguje.
+
+00:13:25.260 --> 00:13:27.260
+Zaprvé, lidé se opravdu učí jazyky.
+
+00:13:27.260 --> 00:13:29.260
+Už to je převážně hotové, teď to testujeme.
+
+00:13:29.260 --> 00:13:31.260
+Lidé se tam tak mohou naučit jazyk.
+
+00:13:31.260 --> 00:13:34.260
+A naučí se ho přibližně stejně jako u nejlepšího výukového programu.
+
+00:13:34.260 --> 00:13:36.260
+Takže lidé se jazyk opravdu naučí.
+
+00:13:36.260 --> 00:13:38.260
+Výuka není jen stejně dobrá,
+
+00:13:38.260 --> 00:13:40.260
+ale i zajímavější.
+
+00:13:40.260 --> 00:13:43.260
+A to proto, že Duolingo používá skutečný obsah.
+
+00:13:43.260 --> 00:13:45.260
+Na rozdíl od vymyšlených vět z učebnic,
+
+00:13:45.260 --> 00:13:48.260
+lidé se učí na skutečném obsahu, který je zajímavější.
+
+00:13:48.260 --> 00:13:50.260
+Takže lidé se doopravdy naučí.
+
+00:13:50.260 --> 00:13:52.260
+Ale co je asi nejpřekvapivější,
+
+00:13:52.260 --> 00:13:55.260
+překlady, které máme od lidí z této stránky,
+
+00:13:55.260 --> 00:13:57.260
+i když jsou jen začátečníci,
+
+00:13:57.260 --> 00:14:00.260
+jsou tak přesné, jako ty od profesionálních překladatelů,
+
+00:14:00.260 --> 00:14:02.260
+což je opravdu překvapivé.
+
+00:14:02.260 --> 00:14:04.260
+Ukážu vám jeden příklad.
+
+00:14:04.260 --> 00:14:06.260
+Toto je věta přeložená z němčiny do angličtiny.
+
+00:14:06.260 --> 00:14:08.260
+Horní je německy.
+
+00:14:08.260 --> 00:14:10.260
+Prostřední je anglický překlad,
+
+00:14:10.260 --> 00:14:12.260
+který dělal profesionální překladatel,
+
+00:14:12.260 --> 00:14:14.260
+kterému bylo zaplaceno 20 centů za každé slovo.
+
+00:14:14.260 --> 00:14:17.260
+A spodní je překlad uživateli Duolinga,
+
+00:14:17.260 --> 00:14:19.260
+kteří vůbec neuměli německy,
+
+00:14:19.260 --> 00:14:21.260
+když stránky začali používat.
+
+00:14:21.260 --> 00:14:23.260
+Vidíte, že je téměř perfektní.
+
+00:14:23.260 --> 00:14:25.260
+Samozřejmě, máme na to malý trik
+
+00:14:25.260 --> 00:14:27.260
+aby překlad byl stejně dobrý jako profesionální.
+
+00:14:27.260 --> 00:14:30.260
+Kombinujeme překlad několika začátečníků
+
+00:14:30.260 --> 00:14:33.260
+na dosáhnutí profesionální kvality.
+
+00:14:33.260 --> 00:14:38.260
+Ale i když kombinujeme překlady,
+
+00:14:38.260 --> 00:14:40.260
+tyto stránky dokáží překládat velice rychle.
+
+00:14:40.260 --> 00:14:42.260
+Něco vám ukážu,
+
+00:14:42.260 --> 00:14:44.260
+toto je odhad, za jak dlouho můžeme přeložit Wikipedii
+
+00:14:44.260 --> 00:14:46.260
+z angličtiny do španělštiny.
+
+00:14:46.260 --> 00:14:49.260
+Nezapomínejme, že to má hodnotu 50 milionů dolarů.
+
+00:14:49.260 --> 00:14:51.260
+Takže kdybychom chtěli přeložit Wikipedii do Španělštiny,
+
+00:14:51.260 --> 00:14:54.260
+šlo by to za 5 týdnů se 100 000 aktivními uživateli.
+
+00:14:54.260 --> 00:14:57.260
+A přibližně za 80 hodin s milionem aktivních uživatelů.
+
+00:14:57.260 --> 00:15:00.260
+Protože všechny projekty, na kterých jsme pracovali, měly miliony uživatelů,
+
+00:15:00.260 --> 00:15:02.260
+doufáme, že s tímto projektem budeme schopni
+
+00:15:02.260 --> 00:15:04.260
+překládat extrémně rychle.
+
+00:15:04.260 --> 00:15:07.260
+To, proč jsem z Duolinga tak nadšený je to,
+
+00:15:07.260 --> 00:15:10.260
+že si myslím, že nabízí poctivý obchodní model výuky jazyka.
+
+00:15:10.260 --> 00:15:12.260
+Jde o tohle:
+
+00:15:12.260 --> 00:15:14.260
+Současný obchodní model výuky jazyků je,
+
+00:15:14.260 --> 00:15:16.260
+že student platí,
+
+00:15:16.260 --> 00:15:18.260
+vlastně platí Rosettově desce 500 dolarů.
+
+00:15:18.260 --> 00:15:20.260
+vlastně platí Rosettově desce 500 dolarů.
+
+00:15:20.260 --> 00:15:22.260
+Takový je současný obchodní model.
+
+00:15:22.260 --> 00:15:24.260
+Problém s tímto modelem je,
+
+00:15:24.260 --> 00:15:27.260
+že 95 procent světové populace nemá 500 dolarů.
+
+00:15:27.260 --> 00:15:30.260
+Takže je extrémně nefér k chudým.
+
+00:15:30.260 --> 00:15:32.260
+A vlastně je zaměřen na bohaté.
+
+00:15:32.260 --> 00:15:34.260
+Ale u Duolinga,
+
+00:15:34.260 --> 00:15:36.260
+protože jak se učíte,
+
+00:15:36.260 --> 00:15:39.260
+tvoříte hodnoty, děláte překlad --
+
+00:15:39.260 --> 00:15:42.260
+za který bychom mohli někomu zaplatit.
+
+00:15:42.260 --> 00:15:44.260
+A takto to můžeme zpeněžit.
+
+00:15:44.260 --> 00:15:46.260
+A protože lidé tvoří hodnoty během učení,
+
+00:15:46.260 --> 00:15:49.260
+nemusí nám platit penězi, platí nám svým časem.
+
+00:15:49.260 --> 00:15:52.260
+Kouzelné na tom je, že sice platí svým časem,
+
+00:15:52.260 --> 00:15:54.260
+ale ten čas by stejně strávili tím,
+
+00:15:54.260 --> 00:15:56.260
+že by se učili jazyk.
+
+00:15:56.260 --> 00:15:59.260
+Takže pěkné na Duolingu je, že nabízí poctivý obchodní model --
+
+00:15:59.260 --> 00:16:01.260
+takový, který nediskriminuje chudé.
+
+00:16:01.260 --> 00:16:03.260
+Toto je ta stránka. Děkuji vám.
+
+00:16:03.260 --> 00:16:11.260
+(Potlesk)
+
+00:16:11.260 --> 00:16:13.260
+Takže toto je ta stránka.
+
+00:16:13.260 --> 00:16:15.260
+Ještě jsme ji nespustili,
+
+00:16:15.260 --> 00:16:18.260
+ale když tam půjdete, můžete se přihlásit do naší soukromé bety,
+
+00:16:18.260 --> 00:16:20.260
+která začne nejspíš za 3 nebo 4 týdny.
+
+00:16:20.260 --> 00:16:22.260
+Ještě jsme toto Duolingo nespustili.
+
+00:16:22.260 --> 00:16:24.260
+Mimochodem, já zde mluvím,
+
+00:16:24.260 --> 00:16:27.260
+ale Duolingo je ve skutečnosti práce úžasného týmu, ze kterého tu část je.
+
+00:16:27.260 --> 00:16:29.260
+Takže, děkuji.
+
+00:16:29.260 --> 00:16:33.260
+(Potlesk)
+

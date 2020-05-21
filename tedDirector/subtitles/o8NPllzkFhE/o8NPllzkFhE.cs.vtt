@@ -1,0 +1,1505 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Vladimír Harašta
+Korektor: Matouš Melecký
+
+00:00:12.760 --> 00:00:14.855
+Chris Anderson:
+Tohle je tak zvláštní věc.
+
+00:00:14.875 --> 00:00:18.817
+Váš software, Linux,
+běží v milonech počítačů,
+
+00:00:18.841 --> 00:00:22.388
+pohání nejspíš velkou část Internetu.
+
+00:00:22.412 --> 00:00:24.175
+A odhaduji, že existuje, řekněme,
+
+00:00:24.199 --> 00:00:27.544
+miliarda a půl aktivních
+zařízení s Androidem.
+
+00:00:27.568 --> 00:00:30.169
+Na každém běží Váš software.
+
+00:00:30.808 --> 00:00:31.958
+To je docela ohromující.
+
+00:00:31.982 --> 00:00:37.017
+Na to všechno musíte mít nějaký
+úžasný štáb, který to všechno řídí.
+
+00:00:37.041 --> 00:00:40.577
+Tohle mi přišlo na mysl ‒ a šokovalo mě,
+když jsem to pak viděl na obrázku.
+
+00:00:40.607 --> 00:00:43.861
+Chci říct, že tohle je ‒
+tohle je celosvětové ústředí Linuxu.
+
+00:00:43.889 --> 00:00:45.859
+(Smích)
+
+00:00:45.883 --> 00:00:49.349
+(Potlesk)
+
+00:00:49.863 --> 00:00:52.199
+Linus Torvalds:
+Opravdu to tak nevypadá.
+
+00:00:52.223 --> 00:00:53.899
+A musím říct,
+
+00:00:53.923 --> 00:00:57.743
+že nejzajímavější částí na tom obrázku,
+
+00:00:57.767 --> 00:00:59.470
+na kterou lidé většinou reagují,
+
+00:00:59.494 --> 00:01:00.937
+je ten stůl s chodícím pásem.
+
+00:01:00.961 --> 00:01:03.660
+Je to nejzajímavější část mé kanceláře
+
+00:01:03.684 --> 00:01:05.644
+a já už ho vlastně nepoužívám.
+
+00:01:05.668 --> 00:01:08.210
+A myslím, že tyto dvě
+věci spolu souvisejí.
+
+00:01:09.206 --> 00:01:11.531
+Způsob mojí práce je takový …
+
+00:01:13.245 --> 00:01:17.594
+nepotřebuji žádnou vnější stimulaci.
+
+00:01:18.170 --> 00:01:23.437
+Možná si povšimnete, že mám
+na stěnách světle zelenou barvu.
+
+00:01:23.461 --> 00:01:27.925
+Slyšel jsem, že ji používají
+v psychiatrických léčebnách.
+
+00:01:27.949 --> 00:01:28.996
+(Smích)
+
+00:01:29.020 --> 00:01:30.805
+Má to být uklidňující barva,
+
+00:01:30.829 --> 00:01:34.036
+není to nic, co by vás
+opravdu stimulovalo.
+
+00:01:35.064 --> 00:01:39.489
+Počítač tady neuvidíte, jenom obrazovku,
+
+00:01:39.513 --> 00:01:42.894
+ale hlavně se bojím,
+aby můj počítač nebyl ‒
+
+00:01:42.918 --> 00:01:46.253
+nechci, aby byl velký a výkonný,
+i když to mám rád ‒
+
+00:01:46.283 --> 00:01:49.253
+ale musí být opravdu neslyšný.
+
+00:01:49.975 --> 00:01:51.986
+Znám lidi, kteří pracují v Google
+
+00:01:52.010 --> 00:01:55.217
+a kteří mají doma svoje vlastní
+malé datové centrum,
+
+00:01:55.241 --> 00:01:56.393
+já tohle nedělám.
+
+00:01:56.417 --> 00:02:00.122
+Moje kancelář je ta nejnudnější,
+jakou jste kdy viděli.
+
+00:02:00.146 --> 00:02:03.660
+A sedím si tam sám v tichu.
+
+00:02:04.136 --> 00:02:06.173
+Když ke mně přijde kočka,
+
+00:02:06.197 --> 00:02:08.024
+sedne si mi na klín
+
+00:02:08.058 --> 00:02:10.248
+a já chci, aby bylo slyšet kočičí předení,
+
+00:02:10.292 --> 00:02:13.446
+a ne zvuk větráků v počítači.
+
+00:02:13.470 --> 00:02:14.779
+CA: Tak to je ohromující,
+
+00:02:14.803 --> 00:02:17.481
+když dokážete tímto stylem práce
+
+00:02:17.505 --> 00:02:20.493
+řídit to rozsáhlé technologické impérium ‒
+
+00:02:20.517 --> 00:02:21.738
+určitě to je impérium ‒
+
+00:02:21.762 --> 00:02:25.462
+tak to je úžasné svědectví
+o síle open source.
+
+00:02:25.486 --> 00:02:29.662
+Řekněte nám, jak jste chápal open source
+
+00:02:29.686 --> 00:02:31.938
+a jak to vedlo k rozvoji Linuxu.
+
+00:02:33.546 --> 00:02:35.051
+LT: Pořád pracuji sám.
+
+00:02:35.075 --> 00:02:38.642
+Opravdu ‒ pracuji sám ve svém domě,
+
+00:02:38.666 --> 00:02:40.056
+často jen v županu.
+
+00:02:40.080 --> 00:02:42.641
+Když se ukáže fotograf, obleču se,
+
+00:02:42.665 --> 00:02:43.951
+takže na sobě mám oblečení.
+
+00:02:43.975 --> 00:02:45.212
+(Smích)
+
+00:02:45.236 --> 00:02:47.308
+A takhle jsem pracoval vždycky.
+
+00:02:47.332 --> 00:02:49.340
+Chci říct, že jsem tak
+začínal i s Linuxem.
+
+00:02:49.364 --> 00:02:53.013
+Linux jsem nerozjížděl
+jako společný projekt.
+
+00:02:53.037 --> 00:02:57.915
+Byl jedním z řady mnoha projektů,
+
+00:02:57.939 --> 00:03:01.736
+které jsem pro svou
+potřebu tou dobou dělal,
+
+00:03:01.760 --> 00:03:03.692
+protože jsem potřeboval ten výsledek,
+
+00:03:03.712 --> 00:03:06.148
+ale i proto, že mě prostě
+bavilo programovat.
+
+00:03:06.172 --> 00:03:10.546
+Takhle bychom se ocitli konci cesty,
+
+00:03:10.570 --> 00:03:13.916
+ke kterému jsme po 25 letech
+ještě stále nedoputovali.
+
+00:03:13.940 --> 00:03:17.657
+Ale doopravdy to bylo o tom,
+že jsem pro sebe hledal nějaký projekt
+
+00:03:17.681 --> 00:03:21.510
+a tehdy jsem si doopravdy
+žádný open source ještě nevyhlédl.
+
+00:03:21.988 --> 00:03:24.000
+A stalo se to …
+
+00:03:24.668 --> 00:03:29.440
+že ten projekt přerostl v cosi,
+s čím se chce každý pochlubit ostatním.
+
+00:03:30.552 --> 00:03:34.669
+Fakt to bylo spíš něco jako:
+„Páni, podívej, co jsem udělal!“
+
+00:03:34.693 --> 00:03:37.358
+A věřte mi ‒ tak skvělé
+to tehdy zase nebylo.
+
+00:03:38.128 --> 00:03:39.746
+Zpřístupnil jsem to veřejnosti,
+
+00:03:39.766 --> 00:03:42.132
+ale v té chvíli to pořád
+ještě nebyl open source.
+
+00:03:42.156 --> 00:03:47.325
+Tehdy to byl otevřený zdrojový kód,
+ale nebylo za tím nic,
+
+00:03:47.349 --> 00:03:50.993
+co by užívalo open-source metodologii,
+
+00:03:51.017 --> 00:03:53.638
+jak ji chápeme dneska,
+totiž aby to vedlo k vylepšování.
+
+00:03:53.662 --> 00:03:54.813
+Chtěl jsem spíš říct:
+
+00:03:54.837 --> 00:03:57.774
+„Podívejte, na tomhle
+jsem půl roku pracoval,
+
+00:03:58.459 --> 00:04:00.198
+rád bych, abyste to okomentovali.“
+
+00:04:00.717 --> 00:04:02.717
+A chodili za mnou další lidé.
+
+00:04:03.217 --> 00:04:04.869
+Na univerzitě v Helsinkách
+
+00:04:04.893 --> 00:04:08.608
+jsem měl přítele, který byl
+stoupencem open source ‒
+
+00:04:08.632 --> 00:04:12.288
+tehdy se tomu nejvíce
+říkalo „svobodný software“ ‒
+
+00:04:12.312 --> 00:04:16.316
+a ten mě vlastně s tím
+pojmem seznámil,
+
+00:04:16.350 --> 00:04:21.967
+hej, vždyť můžeš použít
+open-source licence, které už existují.
+
+00:04:23.994 --> 00:04:26.255
+Chvilku jsem o tom přemýšlel.
+
+00:04:26.279 --> 00:04:29.670
+Ve skutečnosti jsem se obával,
+že do toho vstoupí obchodní zájmy.
+
+00:04:29.694 --> 00:04:34.168
+Většina lidí, kteří začínají,
+se nejvíc obává toho,
+
+00:04:34.192 --> 00:04:39.152
+že z jejich práce bude těžit někdo jiný.
+
+00:04:39.603 --> 00:04:42.979
+A já jsem si usmyslil: „K sakru proč?“
+
+00:04:43.740 --> 00:04:44.890
+A ‒
+
+00:04:44.924 --> 00:04:46.209
+CA: A pak se stalo to,
+
+00:04:46.233 --> 00:04:48.863
+že Vám někdo pomohl s úpravou,
+o které jste si pomyslel:
+
+00:04:48.893 --> 00:04:51.638
+„Páni, tohle je opravdu zajímavé,
+na tohle bych nepřišel.
+
+00:04:51.662 --> 00:04:53.093
+To by to mohlo i vylepšit.“
+
+00:04:53.127 --> 00:04:56.112
+LT: Zpočátku lidé ještě
+úpravami kódu nepřispívali,
+
+00:04:56.136 --> 00:04:59.115
+spíš začali dodávat nápady.
+
+00:04:59.748 --> 00:05:02.994
+A právě skutečnost, že se někdo
+další podívá na váš projekt ‒
+
+00:05:03.018 --> 00:05:05.566
+a jsem si jistý, že jinde to platí také,
+
+00:05:05.590 --> 00:05:07.427
+ale rozhodně to platí u programování ‒
+
+00:05:07.451 --> 00:05:10.740
+vede k tomu, že se někdo další
+začne zajímat o váš program
+
+00:05:10.764 --> 00:05:13.496
+a dozví se toho dost na to,
+aby vám mohl dát zpětnou vazbu
+
+00:05:13.520 --> 00:05:15.409
+a přispěl s nápadem.
+
+00:05:15.433 --> 00:05:17.134
+To pro mě byla obrovská věc.
+
+00:05:17.158 --> 00:05:20.350
+Tou dobou mi bylo 21, byl jsem mladý,
+
+00:05:20.374 --> 00:05:23.611
+ale v podstatě jsem už celou
+polovinu života programoval.
+
+00:05:24.372 --> 00:05:28.344
+Do té doby byl pro mě
+každý projekt úplně soukromá věc
+
+00:05:28.368 --> 00:05:31.475
+a bylo pro mě velkým objevem,
+když lidé začali kód komentovat
+
+00:05:31.499 --> 00:05:34.800
+a poskytovat k němu zpětnou vazbu.
+
+00:05:34.824 --> 00:05:38.596
+Bylo to ještě předtím,
+než začali pomáhat s úpravami,
+
+00:05:38.620 --> 00:05:41.361
+v jedné takové nádherné chvilce
+jsem tuším řekl:
+
+00:05:41.405 --> 00:05:43.258
+„Miluju ostatní lidi!“
+
+00:05:43.282 --> 00:05:46.089
+Abyste si to špatně nevyložili ‒
+jsem vlastně nespolečenský.
+
+00:05:46.111 --> 00:05:49.476
+(Smích)
+
+00:05:49.500 --> 00:05:52.052
+Já doopravdy jiné lidi rád nemám ‒
+
+00:05:52.076 --> 00:05:53.096
+(Smích)
+
+00:05:53.120 --> 00:05:54.746
+Zato mám rád počítače,
+
+00:05:54.770 --> 00:05:56.985
+rád s lidmi komunikuji
+prostřednictvím e-mailů,
+
+00:05:57.009 --> 00:06:00.341
+protože to poskytuje jakýsi odstup.
+
+00:06:00.365 --> 00:06:06.866
+Ale miluju ty lidi, kteří se k mému
+projektu vyjadřují a zapojují se do něho.
+
+00:06:06.890 --> 00:06:08.813
+A to tomu hodně pomohlo.
+
+00:06:09.273 --> 00:06:12.257
+CA: Kdy nastal ten okamžik,
+kdy jste uviděl, co z toho vzniká
+
+00:06:12.281 --> 00:06:14.338
+a že se to najednou rozjíždí,
+
+00:06:14.362 --> 00:06:17.652
+kdy jste si uvědomil: „Moment,
+z toho by mohlo být něco obrovského,
+
+00:06:17.676 --> 00:06:20.502
+ne jenom soukromý projekt,
+na který mám slušnou odezvu,
+
+00:06:20.542 --> 00:06:24.932
+ale něco, čím exploduje vývoj
+v celém technologickém světě?“
+
+00:06:25.821 --> 00:06:27.020
+LT: To tak nebylo.
+
+00:06:27.044 --> 00:06:30.576
+Pro mě nebyla klíčovým momentem chvíle,
+kdy projekt obrovsky narostl,
+
+00:06:30.600 --> 00:06:32.734
+ale chvíle, kdy teprve začínal.
+
+00:06:33.709 --> 00:06:37.226
+Pro mě bylo klíčové, že jsem nebyl sám
+
+00:06:37.250 --> 00:06:40.967
+a když se do projektu zapojilo 10,
+možná 100 lidí ‒
+
+00:06:40.991 --> 00:06:42.470
+to byla rozhodující chvíle.
+
+00:06:42.494 --> 00:06:45.533
+Všechno další se událo velmi pozvolně.
+
+00:06:45.557 --> 00:06:49.816
+Přechod od 100 lidí k milionu
+pro mě není zas tak velká událost.
+
+00:06:49.840 --> 00:06:51.953
+No, možná to může být něco, pokud ‒
+
+00:06:51.973 --> 00:06:55.440
+Pokud chcete prodat výsledek své práce,
+pak je to obrovská věc ‒
+
+00:06:55.464 --> 00:06:56.615
+jestli mě chápete.
+
+00:06:56.659 --> 00:06:59.916
+Ale pokud vás zajímá technologie
+nebo pokud se zajímáte o projekt,
+
+00:06:59.940 --> 00:07:02.435
+pak bylo klíčové získat komunitu.
+
+00:07:02.454 --> 00:07:04.198
+Ta komunita pak postupně narůstala.
+
+00:07:04.222 --> 00:07:07.570
+Vlastně to nebyl žádný
+konkrétní moment, kdy bych si řekl:
+
+00:07:08.166 --> 00:07:10.342
+„Páni, teď se to ale rozjelo!“
+
+00:07:10.366 --> 00:07:13.580
+protože to trvalo relativně dlouho.
+
+00:07:13.604 --> 00:07:16.690
+CA: Všichni technologové mi říkají,
+že je to hlavně Vaše zásluha,
+
+00:07:16.714 --> 00:07:19.588
+že jste od základů změnil jejich práci.
+
+00:07:19.612 --> 00:07:22.705
+A není to jenom Linux,
+ale i záležitost, které se říká Git,
+
+00:07:22.729 --> 00:07:26.741
+což je systém pro řízení vývoje software.
+
+00:07:26.765 --> 00:07:29.550
+Řekněte nám o něm něco a o Vaší roli,
+kterou v tom hrajete.
+
+00:07:30.501 --> 00:07:32.570
+LT: Jedním z problémů, který jsme měli,
+
+00:07:32.594 --> 00:07:35.346
+a chvilku to trvalo,
+než se začal projevovat,
+
+00:07:35.370 --> 00:07:36.525
+bylo to, když …
+
+00:07:37.708 --> 00:07:43.040
+Když se počet lidí pracujících
+na projektu rozroste z 10 nebo 100
+
+00:07:43.064 --> 00:07:45.452
+na 10 000 lidí, kteří ‒
+
+00:07:45.476 --> 00:07:48.942
+chci říct, že jsme teď v situaci,
+kdy je jen do prací na kernelu
+
+00:07:48.966 --> 00:07:52.140
+zapojeno na 1 000 lidí
+při každém vydání nové verze,
+
+00:07:52.164 --> 00:07:55.750
+a ta vychází každé dva měsíce,
+zhruba každé dva až tři měsíce.
+
+00:07:56.336 --> 00:07:58.757
+Někteří z nich toho moc neudělají.
+
+00:07:58.781 --> 00:08:01.364
+Hodně lidí udělá jen malou změnu.
+
+00:08:01.388 --> 00:08:03.634
+Ale když to máte udržovat,
+
+00:08:03.658 --> 00:08:06.547
+s množstvím se mění i způsob,
+jakým to musíte dělat.
+
+00:08:06.571 --> 00:08:08.969
+Zažili jsme s tím spoustu problémů.
+
+00:08:10.713 --> 00:08:17.242
+A celá řada nástrojů dokáže
+udržovat jen zdrojový kód.
+
+00:08:17.266 --> 00:08:20.558
+Jedním z nich je CVS,
+který se k tomu používal nejčastěji
+
+00:08:20.592 --> 00:08:24.479
+a který jsem z duše nenáviděl
+a nechtěl s ním nic mít.
+
+00:08:24.503 --> 00:08:27.566
+Zkoušel jsem něco jiného,
+něco radikálního a zajímavého,
+
+00:08:27.590 --> 00:08:30.246
+něco, co nenáviděli všichni ostatní.
+
+00:08:31.004 --> 00:08:32.378
+CA: (směje se)
+
+00:08:32.402 --> 00:08:34.490
+LT: Ocitli jsme se v nepříjemné situaci,
+
+00:08:34.514 --> 00:08:37.331
+kdy jsme měli tisíce lidí,
+kteří se chtěli podílet,
+
+00:08:37.355 --> 00:08:42.396
+ale v mnoha případech
+kvůli mně stála práce,
+
+00:08:42.420 --> 00:08:44.943
+když jsem nedokázal
+reagovat do té míry,
+
+00:08:44.967 --> 00:08:47.768
+abych mohl spolupracovat
+s tisíci lidmi současně.
+
+00:08:47.792 --> 00:08:50.244
+Git je můj druhý velký projekt,
+
+00:08:50.268 --> 00:08:54.806
+který vznikl kvůli tomu, abych mohl
+spravovat svůj první velký projekt.
+
+00:08:55.433 --> 00:08:57.680
+A přesně takhle pracuji.
+
+00:08:57.704 --> 00:09:00.209
+Neprogramuji, abych ‒
+
+00:09:00.233 --> 00:09:01.955
+no, programuji, protože mě to baví ‒
+
+00:09:01.979 --> 00:09:04.360
+ale chci, aby to bylo něco smysluplného,
+
+00:09:04.384 --> 00:09:08.431
+takže každý z mých projektů
+byl něčím, co jsem potřeboval
+
+00:09:08.455 --> 00:09:09.831
+a ‒
+
+00:09:09.855 --> 00:09:15.448
+CA: Takže Linux a Git vznikly skoro
+jako nezamýšlený důsledek
+
+00:09:15.482 --> 00:09:18.163
+Vašeho přání, abyste nemusel
+spolupracovat s mnoha lidmi.
+
+00:09:18.187 --> 00:09:19.518
+LT: Rozhodně ano.
+
+00:09:19.542 --> 00:09:20.622
+(Smích)
+
+00:09:20.646 --> 00:09:22.296
+CA: To je úžasné.
+LT: Jo.
+
+00:09:22.320 --> 00:09:23.812
+(potlesk)
+
+00:09:23.836 --> 00:09:27.227
+A přece, Vy jste tím mužem,
+který transformoval technologii,
+
+00:09:27.251 --> 00:09:28.568
+ne jednou, ale hned dvakrát
+
+00:09:28.592 --> 00:09:31.175
+a my se musíme snažit porozumět,
+proč tomu tak je.
+
+00:09:31.199 --> 00:09:32.883
+Už jste nám trochu napověděl, ale …
+
+00:09:32.907 --> 00:09:37.548
+Tady Vás máme na fotce jako dítě,
+s Rubikovou kostkou.
+
+00:09:37.572 --> 00:09:43.062
+Zmiňoval jste, že jste programoval od
+svých 10 nebo 11 let, půlku svého života.
+
+00:09:43.105 --> 00:09:46.921
+Byl jste takovým tím počítačovým géniem,
+znáte to, oním polobohem,
+
+00:09:46.945 --> 00:09:49.430
+byl jste školní hvězdou,
+která dokázala cokoliv?
+
+00:09:49.454 --> 00:09:50.986
+Jaký jste byl jako dítě?
+
+00:09:52.130 --> 00:09:54.623
+LT: Jo, myslím, že jsem
+byl prototypem šprta.
+
+00:09:54.647 --> 00:09:55.916
+Tím myslím, že jsem byl …
+
+00:09:57.130 --> 00:09:59.092
+Tenkrát jsem se s lidmi moc nebavil.
+
+00:09:59.116 --> 00:10:01.696
+To je můj mladší bratr.
+
+00:10:01.720 --> 00:10:04.507
+Zjevně mě zajímala Rubikova kostka víc
+
+00:10:04.531 --> 00:10:06.056
+než mého mladšího bratra.
+
+00:10:06.080 --> 00:10:07.167
+(Smích)
+
+00:10:07.191 --> 00:10:10.311
+Moje mladší sestra,
+která na obrázku není,
+
+00:10:10.335 --> 00:10:12.749
+mě vždycky, když se sešla rodina ‒
+
+00:10:12.773 --> 00:10:16.565
+a nejsme zrovna velká rodina,
+ale řekněme, že pár bratranců mám ‒
+
+00:10:16.589 --> 00:10:19.453
+mě vždycky dopředu připravovala.
+
+00:10:19.477 --> 00:10:22.043
+Třeba, než jsem vstoupil
+do místnosti, říkala vždycky:
+
+00:10:22.067 --> 00:10:24.610
+„OK. Tohle je tak a tak …“
+
+00:10:25.925 --> 00:10:29.534
+Protože jsem byl ‒
+byl jsem nekňuba.
+
+00:10:29.547 --> 00:10:32.893
+Byl jsem blázen do počítačů,
+do matiky, do fyziky.
+
+00:10:32.935 --> 00:10:34.216
+V tom jsem byl dobrý.
+
+00:10:34.250 --> 00:10:37.026
+Nemyslím, že bych nějak zvlášť vynikal.
+
+00:10:37.554 --> 00:10:39.945
+Moje sestra by určitě řekla,
+
+00:10:39.969 --> 00:10:46.820
+že jsem mimořádně výjimečný v tom,
+že jsem nikdy nic nenechal být.
+
+00:10:47.618 --> 00:10:50.025
+CA: OK, u toho se zastavme,
+protože to je zajímavé.
+
+00:10:50.039 --> 00:10:51.373
+Nikdy jste nic nenechal být.
+
+00:10:51.397 --> 00:10:54.262
+Není to o tom, že je někdo
+nekňuba nebo že je chytrý,
+
+00:10:54.286 --> 00:10:57.391
+ale že je … paličatý?
+
+00:10:57.415 --> 00:10:58.942
+LT: Je v tom paličatost.
+
+00:10:58.966 --> 00:11:00.354
+Není to o tom, že bych třeba
+
+00:11:01.093 --> 00:11:03.293
+právě s něčím začal
+
+00:11:03.317 --> 00:11:08.767
+a hned řekl: „OK, hotovo,
+pustím se do něčeho jiného ‒
+
+00:11:08.791 --> 00:11:10.208
+Podívej: super, co!“
+
+00:11:10.954 --> 00:11:14.675
+A všímám si toho také v mnoha
+dalších oblastech svého života.
+
+00:11:15.470 --> 00:11:18.720
+Sedm let jsem žil v Silicon Valley.
+
+00:11:18.744 --> 00:11:22.856
+A pracoval jsem tam pořád
+u jedné firmy, v Silicon Valley,
+
+00:11:22.880 --> 00:11:24.594
+celou tu dobu.
+
+00:11:24.618 --> 00:11:26.446
+Kdo to kdy slyšel.
+
+00:11:27.204 --> 00:11:28.971
+V Silicon Valley to takhle nechodí.
+
+00:11:28.995 --> 00:11:32.574
+Celý vtip Silicon Valley
+spočívá v tom, že lidé mění místa,
+
+00:11:32.598 --> 00:11:35.225
+asi aby byl trochu větší zmatek.
+
+00:11:35.249 --> 00:11:37.129
+Já takový nejsem.
+
+00:11:37.153 --> 00:11:39.724
+CA: Ale když probíhal
+vývoj samotného Linuxu,
+
+00:11:39.748 --> 00:11:44.044
+nesla někdy taková tvrdohlavost
+s sebou konflikty mezi lidmi.
+
+00:11:44.445 --> 00:11:46.099
+Řekněte nám o tom něco.
+
+00:11:46.123 --> 00:11:51.667
+Bylo to nezbytné pro udržení
+kvality toho, co se vyvíjelo?
+
+00:11:51.691 --> 00:11:54.016
+Jak byste popsal, co se dělo?
+
+00:11:54.392 --> 00:11:56.475
+LT: Nevím, jestli to bylo nezbytné.
+
+00:11:57.239 --> 00:12:00.384
+Když se vrátím k tomu, že
+„nejsem společenský člověk“ ‒
+
+00:12:00.408 --> 00:12:02.196
+někdy taky …
+
+00:12:04.100 --> 00:12:05.633
+řekněme,
+
+00:12:05.657 --> 00:12:09.077
+„neprokouknu“, jaké mají
+ostatní lidé pocity
+
+00:12:09.667 --> 00:12:14.945
+a někdy kvůli tomu říkám věci,
+které jiným lidem ubližují.
+
+00:12:14.969 --> 00:12:18.737
+A nejsem na to pyšný.
+
+00:12:18.761 --> 00:12:19.875
+(Potlesk)
+
+00:12:19.899 --> 00:12:21.697
+Ale zároveň to je ‒
+
+00:12:22.978 --> 00:12:26.054
+chápu lidi, kteří mi říkají,
+že bych měl být vlídný.
+
+00:12:26.796 --> 00:12:32.464
+A když jim pak zkouším vysvětlit,
+jak oni jsou hodní,
+
+00:12:32.488 --> 00:12:34.742
+že by možná měli být průbojnější,
+
+00:12:34.766 --> 00:12:38.308
+chápou to jako moji upjatost.
+
+00:12:38.332 --> 00:12:40.442
+(Smích)
+
+00:12:40.466 --> 00:12:42.634
+Snažím se tím říct,
+že každý jsme jiný.
+
+00:12:42.658 --> 00:12:44.468
+Nejsem společenský;
+
+00:12:44.492 --> 00:12:46.598
+není to nic, na co bych
+byl obzvlášť pyšný,
+
+00:12:46.622 --> 00:12:48.162
+ale je to součástí mé osobnosti.
+
+00:12:48.186 --> 00:12:51.251
+A jedna z věcí, která se mi
+na open source vážně líbí, je,
+
+00:12:52.265 --> 00:12:56.707
+že opravdu umožňuje
+spolupráci rozdílných lidí.
+
+00:12:56.731 --> 00:12:58.455
+Nemusíme se mít navzájem rádi ‒
+
+00:12:58.479 --> 00:13:00.682
+a někdy se fakt nesnášíme.
+
+00:13:00.706 --> 00:13:04.193
+Opravdu ‒ myslím tím
+fakt hodně ostré hádky.
+
+00:13:04.217 --> 00:13:07.209
+Ale vlastně se dají najít věci,
+o kterých se ‒
+
+00:13:08.327 --> 00:13:10.554
+stejně už dál nechcete dohadovat,
+
+00:13:10.578 --> 00:13:13.624
+prostě protože se zajímáte
+o hodně odlišné věci.
+
+00:13:13.648 --> 00:13:16.551
+A když se vrátím k tomu,
+co jsem říkal dřív,
+
+00:13:16.575 --> 00:13:20.868
+že jsem se obával, že moji práci
+využijí ve svůj prospěch obchodníci,
+
+00:13:20.892 --> 00:13:23.491
+tak se ukázalo, a to velice rychle,
+
+00:13:23.515 --> 00:13:26.481
+že tihle obchodníci
+byli krásní, milí lidé.
+
+00:13:26.505 --> 00:13:30.211
+A udělali všechno to, co jsem
+já vůbec neměl zájem dělat
+
+00:13:30.235 --> 00:13:32.292
+a měli úplně jiné cíle.
+
+00:13:32.316 --> 00:13:37.639
+Využívali open source způsobem,
+kterým jsem já jen nechtěl jít.
+
+00:13:37.663 --> 00:13:39.925
+Ale protože to byl
+open source, mohli to dělat
+
+00:13:39.959 --> 00:13:42.301
+a vlastně to opravdu
+krásně dohromady funguje.
+
+00:13:42.325 --> 00:13:44.349
+Dokonce si myslím,
+že to funguje stejně.
+
+00:13:44.373 --> 00:13:47.578
+Potřebujete mít lidi, kteří jsou
+k ostatním přívětiví, komunikátory,
+
+00:13:47.602 --> 00:13:50.759
+pohodové a přátelské lidi,
+kteří by vás ‒
+
+00:13:50.799 --> 00:13:52.241
+(Smích)
+
+00:13:52.265 --> 00:13:55.315
+vážně chtěli obejmout
+a přijmout vás do komunity.
+
+00:13:55.349 --> 00:13:58.350
+Ale takový každý není.
+A já takový nejsem.
+
+00:13:58.390 --> 00:13:59.847
+Zabývám se technologií.
+
+00:13:59.871 --> 00:14:01.752
+Jsou lidé, kteří se starají o UI.
+
+00:14:01.776 --> 00:14:04.846
+Nemůžu dělat UI, to bych nepřežil.
+
+00:14:04.870 --> 00:14:07.891
+Totiž, kdybych se ocitl
+na opuštěném ostrově
+
+00:14:07.915 --> 00:14:11.315
+a jedinou věcí, jak se odsud dostat,
+by bylo udělat hezké UI,
+
+00:14:11.339 --> 00:14:12.502
+umřel bych tam.
+
+00:14:12.526 --> 00:14:13.677
+(Smích)
+
+00:14:13.701 --> 00:14:15.840
+Takže jsou různé typy lidí
+
+00:14:15.864 --> 00:14:18.729
+a teď se nevymlouvám,
+pokouším se to vysvětlit.
+
+00:14:18.753 --> 00:14:22.779
+CA: Když jsme spolu minulý týden mluvili,
+zmiňoval jste se o jiné vlastnosti,
+
+00:14:22.802 --> 00:14:25.423
+která mi přišla opravdu zajímavá,
+říkáte tomu mít cit.
+
+00:14:25.464 --> 00:14:27.976
+Mám tady pár obrázků.
+
+00:14:28.354 --> 00:14:32.357
+Myslím, že tohle je příklad obzvlášť
+špatného citu pro zápis programu
+
+00:14:32.381 --> 00:14:35.372
+a tohle je napsáno lépe,
+
+00:14:35.396 --> 00:14:37.459
+což je na první pohled zřetelné.
+
+00:14:37.483 --> 00:14:39.456
+Jaký je mezi nimi rozdíl?
+
+00:14:40.639 --> 00:14:41.821
+LT: Takže tohle je ‒
+
+00:14:41.845 --> 00:14:44.522
+Kolik z vás tady vlastně
+někdy programovalo?
+
+00:14:45.671 --> 00:14:47.191
+CA: Panebože.
+
+00:14:47.215 --> 00:14:49.883
+LT: Ručím vám za to,
+že ti, co zvedli ruku,
+
+00:14:49.903 --> 00:14:52.654
+někdy programovali něco,
+čemu se říká jednosměrný seznam.
+
+00:14:52.688 --> 00:14:54.617
+A tak se to učí ‒
+
+00:14:55.115 --> 00:14:58.706
+tím prvním, nepříliš povedeným přístupem,
+
+00:14:58.730 --> 00:15:02.797
+vás to pro jednoduchost naučí na škole,
+když s programováním začínáte.
+
+00:15:02.821 --> 00:15:04.865
+A nemusíte program chápat.
+
+00:15:04.889 --> 00:15:06.945
+Pro mě je nejzajímavější
+
+00:15:06.969 --> 00:15:09.278
+ten poslední příkaz if.
+
+00:15:10.523 --> 00:15:13.193
+Protože u jednosměrného seznamu
+se dostanete do situace ‒
+
+00:15:13.217 --> 00:15:16.867
+kdy se pokoušíte odstranit
+existující prvek ze seznamu ‒
+
+00:15:16.891 --> 00:15:20.733
+a je rozdíl, jestli je to první prvek
+
+00:15:20.757 --> 00:15:22.766
+nebo jestli je někde uprostřed.
+
+00:15:22.780 --> 00:15:24.515
+Protože, jestliže je to první prvek,
+
+00:15:24.539 --> 00:15:27.425
+musíte nastavit ukazatel
+na první prvek v seznamu.
+
+00:15:27.449 --> 00:15:28.647
+Jestliže je uprostřed,
+
+00:15:28.671 --> 00:15:31.092
+musíte změnit ukazatel
+u předchozího prvku.
+
+00:15:31.116 --> 00:15:33.140
+To jsou dva úplně odlišné případy.
+
+00:15:33.164 --> 00:15:35.566
+CA: A takhle to je lepší.
+LT: A tohle je lepší.
+
+00:15:35.940 --> 00:15:38.263
+Nepotřebujete příkaz if.
+
+00:15:38.637 --> 00:15:40.850
+A opravdu o nic moc nejde ‒
+
+00:15:40.874 --> 00:15:44.075
+nechci, abyste chápali,
+proč není příkaz if potřeba,
+
+00:15:44.119 --> 00:15:48.091
+ale chci, abyste pochopili,
+že někdy se dá na problém nahlížet různě
+
+00:15:48.114 --> 00:15:51.468
+a přepsat program tak, aby se
+vyloučily speciální případy
+
+00:15:51.492 --> 00:15:53.369
+a převedly se na ty běžné.
+
+00:15:53.393 --> 00:15:55.172
+A takový program je pak dobrý.
+
+00:15:55.202 --> 00:15:58.248
+Ale tohle je jednoduché,
+ze základního kurzu programování.
+
+00:15:58.275 --> 00:16:01.131
+To důležité není ‒
+třebaže detaily důležité jsou.
+
+00:16:01.798 --> 00:16:05.876
+U lidí, se kterými chci spolupracovat,
+je pro mě dobrým znamením,
+
+00:16:05.900 --> 00:16:08.573
+když mají dobrý cit,
+podle čehož …
+
+00:16:09.295 --> 00:16:10.892
+Poslal jsem vám hloupý příklad,
+
+00:16:10.916 --> 00:16:13.260
+který není výstižný,
+protože je příliš krátký.
+
+00:16:13.743 --> 00:16:15.885
+Mít dobrý cit znamená mnohem víc.
+
+00:16:15.909 --> 00:16:19.930
+Lidé s dobrým citem skutečně
+zpozorují obecné vzory
+
+00:16:19.954 --> 00:16:24.412
+a jaksi instinktivně vědí,
+jak dělat věci správným způsobem.
+
+00:16:24.436 --> 00:16:27.093
+CA: OK, takže když
+to teď tady shrneme.
+
+00:16:27.736 --> 00:16:29.363
+Vy cítíte věci způsobem,
+
+00:16:30.057 --> 00:16:32.394
+který dává smysl jenom programátorům.
+
+00:16:32.418 --> 00:16:33.569
+Jste ‒
+
+00:16:33.593 --> 00:16:35.409
+(Smích)
+
+00:16:35.433 --> 00:16:38.214
+LT: Myslím, že to některým
+lidem tady smysl dávalo.
+
+00:16:39.967 --> 00:16:44.604
+CA: Jste velmi šikovným programátorem
+a jste pekelně tvrdohlavý.
+
+00:16:45.072 --> 00:16:48.848
+Ale musí v tom být ještě něco jiného.
+Chci říct, že už jste změnil budoucnost.
+
+00:16:48.879 --> 00:16:53.052
+Musíte být schopen velkolepých vizí
+do budoucna. Jste vizionářem, je to tak?
+
+00:16:53.081 --> 00:16:55.742
+LT: Vlastně jsem se na TEDu
+poslední dva dny
+
+00:16:55.766 --> 00:17:00.536
+cítil malinko nesvůj, protože
+se tady odehrává plno vizí.
+
+00:17:00.569 --> 00:17:02.266
+A já nejsem vizionář.
+
+00:17:02.290 --> 00:17:04.529
+Nemám plán na další pětiletku.
+
+00:17:04.543 --> 00:17:05.901
+Jsem technik.
+
+00:17:05.925 --> 00:17:07.185
+A myslím ‒
+
+00:17:07.209 --> 00:17:09.708
+totiž ‒ nemám vůbec nic
+proti všem těm lidem,
+
+00:17:09.732 --> 00:17:12.303
+kteří stále chodí s hlavou v oblacích
+
+00:17:12.327 --> 00:17:15.178
+a hledí směrem ke hvězdám a říkají:
+„Tam se chci vydat“.
+
+00:17:15.202 --> 00:17:16.654
+Ale já zůstávám při zemi
+
+00:17:16.678 --> 00:17:19.532
+a chci opravit výmol,
+který je přímo přede mnou,
+
+00:17:19.557 --> 00:17:20.916
+dřív, než do něho spadnu.
+
+00:17:20.941 --> 00:17:22.560
+Takový jsem já.
+
+00:17:22.584 --> 00:17:25.024
+(Potlesk)
+
+00:17:25.055 --> 00:17:28.665
+CA: Minulý týden jste se mnou
+mluvil o těchhle dvou lidech.
+
+00:17:29.358 --> 00:17:31.792
+O koho jde a co s nimi máte společného?
+
+00:17:32.239 --> 00:17:35.840
+LT: No, v technologiích
+je to tak trochu klišé,
+
+00:17:35.865 --> 00:17:37.872
+celý ten souboj Tesly a Edisona,
+
+00:17:37.896 --> 00:17:42.837
+kde Tesla je vnímán jako
+vědec-vizionář a muž bláznivých nápadů.
+
+00:17:42.861 --> 00:17:45.643
+Lidé mají Teslu rádi.
+
+00:17:45.667 --> 00:17:48.654
+Najdou se tací, kteří po něm
+pojmenovávají vlastní firmy.
+
+00:17:48.678 --> 00:17:50.688
+(Smích)
+
+00:17:51.365 --> 00:17:53.977
+Ta druhá osoba je Edison,
+
+00:17:54.001 --> 00:17:57.508
+kterému vlastně často vyčítali,
+že byl jenom pěšák
+
+00:17:57.532 --> 00:17:59.453
+a že byl ‒
+
+00:17:59.477 --> 00:18:02.199
+myslím, že jeho nejznámější citát zní:
+
+00:18:02.223 --> 00:18:06.937
+„Genialita je jedno procento inspirace
+a devadesát devět procent dřiny.“
+
+00:18:07.394 --> 00:18:11.047
+A já jsem na straně Edisona,
+i když ne vždy ho lidé mají rádi.
+
+00:18:11.079 --> 00:18:14.098
+Protože když si ty dva porovnáte,
+
+00:18:14.122 --> 00:18:18.655
+Tesla je typ člověka,
+kterého dnes všichni hned berou,
+
+00:18:18.679 --> 00:18:20.988
+ale kdo skutečně změnil svět?
+
+00:18:21.853 --> 00:18:25.235
+Edison možná nebyl milý člověk,
+
+00:18:25.259 --> 00:18:28.391
+dělal spousty věcí ‒
+
+00:18:28.415 --> 00:18:30.844
+možná nebyl tak vzdělaný,
+
+00:18:30.868 --> 00:18:33.095
+nebyl takový vizionář.
+
+00:18:33.119 --> 00:18:36.780
+Ale myslím, že jsem víc
+Edison než Tesla.
+
+00:18:37.669 --> 00:18:40.057
+CA: Tento týden jsou
+naším tématem na TEDu sny ‒
+
+00:18:40.071 --> 00:18:41.332
+velké, odvážné, smělé sny.
+
+00:18:41.362 --> 00:18:43.544
+Vy opravdu dokážete
+člověka ze snů vyléčit.
+
+00:18:43.584 --> 00:18:45.437
+LT: Ano, snažím se je trochu mírnit.
+
+00:18:45.461 --> 00:18:46.612
+CA: To je dobře.
+
+00:18:46.636 --> 00:18:47.716
+(Smích)
+
+00:18:47.740 --> 00:18:49.585
+Bereme vás tak, přijímáme to.
+
+00:18:51.046 --> 00:18:54.205
+Firmy jako Google a mnohé další,
+na vašem software nepochybně
+
+00:18:54.219 --> 00:18:56.025
+vydělávají miliardy dolarů.
+
+00:18:56.049 --> 00:18:57.200
+Neštve vás to?
+
+00:18:57.224 --> 00:18:58.375
+LT: Ne.
+
+00:18:58.399 --> 00:19:01.033
+Ne, neštve mě to z několika důvodů.
+
+00:19:01.057 --> 00:19:03.067
+Jedním z nich je, že se mi daří dobře.
+
+00:19:03.091 --> 00:19:04.557
+Vede se mi opravdu dobře.
+
+00:19:04.942 --> 00:19:06.526
+Ale dalším důvodem je ‒
+
+00:19:06.550 --> 00:19:11.877
+že totiž pokud by to celé nebyl open
+source a nedal bych tomu volný průběh,
+
+00:19:11.901 --> 00:19:14.127
+Linux by nikdy nebyl tím, čím je.
+
+00:19:14.151 --> 00:19:19.247
+A přinášelo by to věci, které mě
+fakt nebaví, vystupování na veřejnosti,
+
+00:19:19.271 --> 00:19:21.422
+ale zároveň je to zážitek.
+
+00:19:21.446 --> 00:19:22.726
+Věřte mi.
+
+00:19:23.238 --> 00:19:28.381
+Děje se kolem toho spousta věcí,
+díky kterým jsem velmi šťastný
+
+00:19:28.405 --> 00:19:30.934
+a doufám, že jsem se rozhodoval správně.
+
+00:19:30.958 --> 00:19:32.870
+CA: Dosáhla myšlenka open source ‒
+
+00:19:32.894 --> 00:19:34.530
+a u toho myslím můžeme skončit ‒
+
+00:19:34.554 --> 00:19:38.608
+dosáhla myšlenka open source
+ve světě plného uplatnění
+
+00:19:38.632 --> 00:19:41.650
+nebo by se dalo zajít ještě dál,
+
+00:19:41.674 --> 00:19:44.099
+existují ještě nějaké věci,
+které by se daly udělat?
+
+00:19:44.738 --> 00:19:46.972
+LT: Tady jsem sám na vážkách.
+
+00:19:46.996 --> 00:19:51.482
+Myslím, že jedním z důvodů, proč open
+source tak dobře funguje u software, je,
+
+00:19:51.506 --> 00:19:53.915
+že i když zvážím všechno kolem,
+
+00:19:53.939 --> 00:19:57.185
+program bývá většinou
+buď dobrý nebo špatný.
+
+00:19:57.209 --> 00:20:01.366
+Často se dá poměrně úspěšně rozhodnout,
+
+00:20:01.390 --> 00:20:05.336
+co je uděláno správně
+a co se nepovedlo.
+
+00:20:05.360 --> 00:20:07.738
+Program buď funguje a nebo nefunguje,
+
+00:20:07.762 --> 00:20:12.370
+což znamená, že je zde málo
+prostoru na dohadování.
+
+00:20:12.394 --> 00:20:16.025
+A my se přesto hádáme.
+
+00:20:16.049 --> 00:20:17.964
+Ve spoustě dalších oblastí ‒
+
+00:20:17.988 --> 00:20:21.729
+lidé mluví o otevřené politice
+a podobných věcech ‒
+
+00:20:21.753 --> 00:20:24.702
+a někdy je opravdu těžké říct,
+
+00:20:24.726 --> 00:20:28.483
+že ty samé principy lze uplatnit
+i v některých dalších oblastech,
+
+00:20:28.507 --> 00:20:33.946
+prostě protože z černé a bílé
+nevznikne šedá,
+
+00:20:33.970 --> 00:20:35.793
+ale řada různých barev.
+
+00:20:36.339 --> 00:20:40.705
+Je zřejmé, že ve vědě zažívá
+open source comeback.
+
+00:20:40.729 --> 00:20:42.363
+Věda tu byla dřív.
+
+00:20:42.387 --> 00:20:45.054
+Ale nakonec zůstala poměrně uzavřená,
+
+00:20:45.078 --> 00:20:48.702
+s velmi drahými časopisy a dalšími věcmi.
+
+00:20:48.726 --> 00:20:52.562
+S open source zažívá věda comeback,
+
+00:20:52.586 --> 00:20:57.013
+například prostřednictvím arXiv
+nebo volně dostupných časopisů.
+
+00:20:59.262 --> 00:21:01.215
+Wikipedia také změnila svět.
+
+00:21:01.239 --> 00:21:05.183
+Existují i další příklady,
+jsem si jistý, že mnohé ještě přijdou.
+
+00:21:05.660 --> 00:21:07.227
+CA: Ale Vy nejste vizionářem,
+
+00:21:07.251 --> 00:21:09.204
+takže je nemusíte všechny jmenovat.
+
+00:21:09.228 --> 00:21:10.387
+LT: Ne.
+
+00:21:10.411 --> 00:21:11.459
+(Smích)
+
+00:21:11.483 --> 00:21:13.447
+To je na vás, abyste je zrealizovali.
+
+00:21:13.471 --> 00:21:14.734
+CA: Přesně tak.
+
+00:21:14.758 --> 00:21:15.876
+Linusi Torvaldsi,
+
+00:21:15.910 --> 00:21:18.165
+děkujeme Vám za Linux,
+děkujeme Vám za Internet,
+
+00:21:18.199 --> 00:21:19.804
+děkujeme za telefony s Androidem.
+
+00:21:19.838 --> 00:21:23.295
+Díky, že jste přišel sem na TED
+a že jste toho o sobě tolik prozradil.
+
+00:21:23.319 --> 00:21:24.471
+LT: Děkuji.
+
+00:21:24.495 --> 00:21:28.935
+(potlesk)
+

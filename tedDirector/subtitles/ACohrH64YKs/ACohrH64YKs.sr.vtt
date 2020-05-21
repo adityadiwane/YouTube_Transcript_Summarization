@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: sr
+
+00:00:00.000 --> 00:00:07.000
+Prevodilac: Aleksandar Diklić
+Lektor: Ivana Korom
+
+00:00:16.260 --> 00:00:19.260
+Dozvolite da vas upoznam sa Razerom.
+
+00:00:19.260 --> 00:00:21.260
+Ovaj mališan je razvijen
+
+00:00:21.260 --> 00:00:23.260
+od strane grupe od 10 mlađih studenata
+
+00:00:23.260 --> 00:00:25.260
+u labaratoriji Autonomous Systemsa
+
+00:00:25.260 --> 00:00:27.260
+na švajcarskom saveznom institutu za tehnologiju u Cirihu.
+
+00:00:27.260 --> 00:00:29.260
+Naš robot pripada familiji robota
+
+00:00:29.260 --> 00:00:31.260
+zvanih Ballbots.
+
+00:00:31.260 --> 00:00:33.260
+Umesto točkova, ovi roboti balansiraju
+
+00:00:33.260 --> 00:00:35.260
+i pokreću se na jednoj kugli.
+
+00:00:35.260 --> 00:00:37.260
+Osnovna karakteristika ovakvog sistema je
+
+00:00:37.260 --> 00:00:40.260
+ta da postoji samo jedna dodirna tačka sa podlogom.
+
+00:00:40.260 --> 00:00:42.260
+To znači da je robot
+
+00:00:42.260 --> 00:00:44.260
+sam po sebi nestabilan.
+
+00:00:44.260 --> 00:00:46.260
+To je kao kad ja pokušavam da stojim
+
+00:00:46.260 --> 00:00:47.260
+na jednoj nozi.
+
+00:00:47.260 --> 00:00:49.260
+Možda ćete se zapitati, koja je korist
+
+00:00:49.260 --> 00:00:51.260
+robota koji je nestabilan?
+
+00:00:51.260 --> 00:00:53.260
+Sad ćemo objasniti i to, samo sekundu.
+
+00:00:53.260 --> 00:00:55.260
+Provo želim da objasnim kako Razero
+
+00:00:55.260 --> 00:00:57.260
+održava svoju ravnotežu.
+
+00:00:57.260 --> 00:00:59.260
+Razero balansira time što konstantno
+
+00:00:59.260 --> 00:01:02.260
+meri svoj ugao naginjanja senzorom.
+
+00:01:02.260 --> 00:01:05.260
+Nakon čega odreaguje i izbegava prevrtanje
+
+00:01:05.260 --> 00:01:07.260
+okretanjem motora na odgovarajući način.
+
+00:01:07.260 --> 00:01:09.260
+To se događa 160 puta u sekundi,
+
+00:01:09.260 --> 00:01:11.260
+a ako nešto otkaže u ovom procesu,
+
+00:01:11.260 --> 00:01:14.260
+Razero će odmah pasti na zemlju.
+
+00:01:14.260 --> 00:01:16.260
+Da bi se kretao i uspostavio ravnotežu,
+
+00:01:16.260 --> 00:01:18.260
+Razero mora da pokreće kuglu.
+
+00:01:18.260 --> 00:01:20.260
+Kuglu pokreću tri specijalna točkića
+
+00:01:20.260 --> 00:01:23.260
+koji omogućuju Razeru da se pokreće u svim pravcima,
+
+00:01:23.260 --> 00:01:25.260
+a takođe može da se okreće oko svoje ose
+
+00:01:25.260 --> 00:01:29.260
+u isto vreme.
+
+00:01:29.260 --> 00:01:31.260
+Zbog svoje nestabilnosti, Razero je uvek
+
+00:01:31.260 --> 00:01:33.260
+u pokretu. U ovome je trik.
+
+00:01:33.260 --> 00:01:36.260
+Njemu je potrebna baš ta nestabilnost koja omogućava
+
+00:01:36.260 --> 00:01:38.260
+da se kreće vrlo dinamično.
+
+00:01:38.260 --> 00:01:40.260
+Igrajmo se malo.
+
+00:01:40.260 --> 00:01:42.260
+Sigurno ste se zapitali šta se dešava
+
+00:01:42.260 --> 00:01:45.260
+ako ja malo gurnem robota.
+
+00:01:47.260 --> 00:01:49.260
+U ovom režimu, on pokušava da održi
+
+00:01:49.260 --> 00:01:52.260
+svoju poziciju.
+
+00:01:52.260 --> 00:01:55.260
+Za sledeću demonstraciju, želeo bih da vam predstavim
+
+00:01:55.260 --> 00:01:58.260
+moje kolege Majkla, on je za računarom,
+
+00:01:58.260 --> 00:02:01.260
+i Tomasa, koji će mi pomoći na sceni.
+
+00:02:02.260 --> 00:02:04.260
+U sledećem režimu, Razero je pasivan
+
+00:02:04.260 --> 00:02:07.260
+i mi možemo da ga pomeramo.
+
+00:02:08.260 --> 00:02:10.260
+Uz minimalne napore mogu da kontrolišem
+
+00:02:10.260 --> 00:02:13.260
+njegovu poziciju i brzinu.
+
+00:02:16.260 --> 00:02:19.260
+Mogu da ga zavrtim.
+
+00:02:30.260 --> 00:02:32.260
+U sledećem režimu, možemo zadati Razeru
+
+00:02:32.260 --> 00:02:35.260
+da prati osobu.
+
+00:02:35.260 --> 00:02:38.260
+On sada održava konstantnu razdaljinu od Tomasa.
+
+00:02:42.260 --> 00:02:44.260
+Ovo mu omogućava laserski senzor
+
+00:02:44.260 --> 00:02:46.260
+koji je montiran na vrhu Razera.
+
+00:02:50.260 --> 00:02:52.260
+Istim metodom, možemo takođe
+
+00:02:52.260 --> 00:02:55.260
+zadati da kruži oko osobe.
+
+00:02:57.260 --> 00:03:01.260
+Ovo zovemo režim kruženja.
+
+00:03:10.260 --> 00:03:12.260
+U redu, hvala Tomas.
+
+00:03:12.260 --> 00:03:16.260
+(aplauz)
+
+00:03:16.260 --> 00:03:19.260
+Sada, koja je upotreba ove tehnologije?
+
+00:03:22.260 --> 00:03:24.260
+Za sada je eksperiment ali dozvolite mi
+
+00:03:24.260 --> 00:03:27.260
+da vam pokažem neke od mogućih primena u budućnosti.
+
+00:03:28.260 --> 00:03:30.260
+Razero moze biti korišćen na izložbama ili parkovima.
+
+00:03:30.260 --> 00:03:32.260
+Sa ekranom može da informiše ljude ili ih
+
+00:03:32.260 --> 00:03:35.260
+vodi okolo na zanimljiv i zabavan način.
+
+00:03:35.260 --> 00:03:37.260
+U bolnicama, ovaj uređaj može se koristiti za
+
+00:03:37.260 --> 00:03:39.260
+nošenje medicinske opreme.
+
+00:03:39.260 --> 00:03:41.260
+Zahvaljujući Ballbot sistemu, vrlo malo utiče
+
+00:03:41.260 --> 00:03:44.260
+na okolinu i vrlo lako može da se kreće.
+
+00:03:44.260 --> 00:03:46.260
+I naravno, ko ne bi voleo
+
+00:03:46.260 --> 00:03:49.260
+da se provoza jednim od ovih.
+
+00:03:49.260 --> 00:03:51.260
+A ovo su neke od praktičnijih upotreba.
+
+00:03:51.260 --> 00:03:53.260
+Ali takođe postoji određena lepota
+
+00:03:53.260 --> 00:03:55.260
+u ovoj tehnologiji
+
+00:03:55.260 --> 00:04:04.260
+(muzika)
+
+00:04:58.260 --> 00:04:59.260
+(aplauz)
+
+00:04:59.260 --> 00:05:01.260
+Hvala.
+
+00:05:01.260 --> 00:05:05.260
+(aplauz)
+
+00:05:05.260 --> 00:05:07.260
+Hvala.
+

@@ -1,0 +1,896 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:25.000
+Tradutor: Alexandre Marcondes
+Revisor: Belucio Haibara
+
+00:00:25.000 --> 00:00:26.000
+Então, quem sou eu?
+
+00:00:26.000 --> 00:00:29.000
+Eu geralmente falo para as pessoas, quando me perguntam "O que você faz?",
+
+00:00:29.000 --> 00:00:31.000
+eu falo: "eu faço hardware",
+
+00:00:31.000 --> 00:00:33.000
+porque convenientemente isso abrange tudo o que eu faço.
+
+00:00:33.000 --> 00:00:37.000
+E recentemente eu mencionei isso para um investidor de risco
+
+00:00:37.000 --> 00:00:40.000
+num evento no Vale do Silício, e ele respondeu: "Que esquisito!"
+
+00:00:40.000 --> 00:00:42.000
+(Risos)
+
+00:00:42.000 --> 00:00:45.000
+E eu fiquei sem saber o que responder.
+
+00:00:45.000 --> 00:00:47.000
+Eu deveria ter dito algo inteligente.
+
+00:00:47.000 --> 00:00:52.000
+E agora já tive um pouco mais de tempo para pensar sobre isso,
+
+00:00:52.000 --> 00:00:54.000
+e eu teria dito: "Bem, você sabe,
+
+00:00:54.000 --> 00:00:56.000
+se olharmos para os próximos 100 anos
+
+00:00:56.000 --> 00:00:58.000
+e nós vimos todos estes problemas aqui nos últimos dias,
+
+00:00:58.000 --> 00:01:01.000
+a maioria dos grandes problemas como água limpa, energia limpa
+
+00:01:01.000 --> 00:01:03.000
+e ambos são intercambiáveis sob diversos aspectos,
+
+00:01:03.000 --> 00:01:05.000
+e materiais mais limpos e funcionais,
+
+00:01:05.000 --> 00:01:08.000
+todos me parecem ser problemas de hardware.
+
+00:01:08.000 --> 00:01:10.000
+Isso não quer dizer que devamos ignorar o software,
+
+00:01:10.000 --> 00:01:12.000
+ou informação, ou computação.
+
+00:01:12.000 --> 00:01:15.000
+E isso é provavelmente sobre o que eu vou tentar falar para vocês.
+
+00:01:15.000 --> 00:01:18.000
+Essa apresentação será sobre como fazemos coisas
+
+00:01:18.000 --> 00:01:23.000
+e quais são as novas maneiras que usaremos no futuro para fazer coisas.
+
+00:01:23.000 --> 00:01:28.000
+O TED manda bastante "spam" se você é um palestrante
+
+00:01:28.000 --> 00:01:30.000
+dizendo "faça isso, faça aquilo", preencha tais formulários,
+
+00:01:30.000 --> 00:01:33.000
+e no final você não sabe ao certo como eles irão descrevê-lo,
+
+00:01:33.000 --> 00:01:36.000
+e me ocorreu que eles pudessem me apresentar como um futurista.
+
+00:01:36.000 --> 00:01:38.000
+E eu sempre tive ressalvas sobre o termo futurista,
+
+00:01:38.000 --> 00:01:41.000
+porque você parece condenado ao fracasso, pois é impossível prever o futuro.
+
+00:01:41.000 --> 00:01:44.000
+E eu estava rindo sobre isso com os colegas muito inteligentes que eu tenho,
+
+00:01:44.000 --> 00:01:48.000
+e disse "Bem, se eu tiver que falar sobre o futuro, o que ele será?"
+
+00:01:48.000 --> 00:01:53.000
+E George Homsey, um cara fantástico, disse: "O futuro é impressionante.
+
+00:01:53.000 --> 00:01:55.000
+É muito mais estranho do que você imagina.
+
+00:01:55.000 --> 00:01:57.000
+Nós iremos reprogramar as bactérias do seu intestino,
+
+00:01:57.000 --> 00:02:02.000
+e fazer seu cocô ter cheiro de menta."
+
+00:02:02.000 --> 00:02:04.000
+(Risos)
+
+00:02:04.000 --> 00:02:07.000
+Vocês podem achar que isso seja loucura,
+
+00:02:07.000 --> 00:02:09.000
+mas existem algumas coisas muito impressionantes que estão acontecendo
+
+00:02:09.000 --> 00:02:10.000
+que podem tornar isso possível.
+
+00:02:10.000 --> 00:02:14.000
+Isso não é o meu trabalho, mas o trabalho de alguns amigos do MIT.
+
+00:02:14.000 --> 00:02:16.000
+Isso é chamado de repositório de partes biológicas padrão.
+
+00:02:16.000 --> 00:02:18.000
+Isso é encabeçado por Drew Endy e Tom Knight
+
+00:02:18.000 --> 00:02:21.000
+e alguns outros indivíduos muito brilhantes.
+
+00:02:21.000 --> 00:02:24.000
+Basicamente, eles estão olhando para biologia como um sistema programável.
+
+00:02:24.000 --> 00:02:28.000
+Literalmente, pense em proteínas como sub-rotinas
+
+00:02:28.000 --> 00:02:31.000
+que você pode combinar para executar um programa.
+
+00:02:31.000 --> 00:02:36.000
+Isto está se tornando uma idéia muito interessante.
+
+00:02:36.000 --> 00:02:39.000
+Isto é um diagrama de estados. É um computador extremamente simples.
+
+00:02:39.000 --> 00:02:41.000
+Esse aqui é um contador de 2 bits.
+
+00:02:41.000 --> 00:02:47.000
+Que é o equivalente computacional de dois interruptores de luz.
+
+00:02:47.000 --> 00:02:50.000
+E isto está sendo desenvolvido por um grupo de estudantes em Zurique
+
+00:02:50.000 --> 00:02:52.000
+para uma competição de design biológico.
+
+00:02:52.000 --> 00:02:55.000
+E a partir dos resultados da mesma competição do ano passado,
+
+00:02:55.000 --> 00:02:59.000
+uma equipe de estudantes da Universidade do Texas programou uma bactéria
+
+00:02:59.000 --> 00:03:02.000
+para que possam detectar luz e ligá-la e desligá-la.
+
+00:03:02.000 --> 00:03:04.000
+Isso é interessante pois agora pode-se
+
+00:03:04.000 --> 00:03:09.000
+criar comandos do tipo "se isso, faça aquilo" em materiais, em estruturas.
+
+00:03:09.000 --> 00:03:11.000
+Essa é uma tendência bastante interessante.
+
+00:03:11.000 --> 00:03:13.000
+Porque nós estávamos acostumados a viver num mundo onde todos diziam fluentemente,
+
+00:03:13.000 --> 00:03:17.000
+a forma segue a função, mas eu acho que cresci num mundo
+
+00:03:17.000 --> 00:03:20.000
+-- você ouviu ao Neil Gershenfeld ontem,
+
+00:03:20.000 --> 00:03:24.000
+eu estava em um laboratório associado com o dele -- onde é realmente um mundo
+
+00:03:24.000 --> 00:03:27.000
+onde as informações definem a forma e a função.
+
+00:03:27.000 --> 00:03:31.000
+Eu passei seis anos pensando sobre isso,
+
+00:03:31.000 --> 00:03:33.000
+mas para mostrar a vocês o poder da arte sobre a ciência --
+
+00:03:33.000 --> 00:03:36.000
+este é, na verdade, um dos quadrinhos que eu escrevi. São chamados Howtoons.
+
+00:03:36.000 --> 00:03:38.000
+Eu trabalho com um fabuloso ilustrador chamado Nick Dragotta.
+
+00:03:38.000 --> 00:03:40.000
+Levou seis anos, para mim, no MIT,
+
+00:03:40.000 --> 00:03:44.000
+e esse tanto de páginas para descrever o que eu estava fazendo,
+
+00:03:44.000 --> 00:03:49.000
+e levou para ele apenas uma página. E então este é nosso mascote -- Tucker.
+
+00:03:49.000 --> 00:03:51.000
+Ele é um menininho interessante -- e sua irmã, Celine --
+
+00:03:51.000 --> 00:03:53.000
+e o que eles estão fazendo aqui
+
+00:03:53.000 --> 00:03:57.000
+é observar o auto-agrupamento do seu Cheerios em sua vasilha de cereais.
+
+00:03:57.000 --> 00:04:00.000
+E, de fato, você pode programar o auto-agrupamento dessas coisas,
+
+00:04:00.000 --> 00:04:02.000
+de forma que comece com bordas de chocolate,
+
+00:04:02.000 --> 00:04:04.000
+mudando a hibrofobicidade e hidrofilicidade.
+
+00:04:04.000 --> 00:04:06.000
+Teoricamente, se você programá-los suficientemente,
+
+00:04:06.000 --> 00:04:08.000
+você poderia fazer coisas bem interessantes
+
+00:04:08.000 --> 00:04:10.000
+e fazer uma estrutura complexa.
+
+00:04:10.000 --> 00:04:15.000
+Neste caso, ele fez a auto-replicação de uma estrutura 3D complexa.
+
+00:04:15.000 --> 00:04:18.000
+E isto é o que eu pensei por um bom tempo,
+
+00:04:18.000 --> 00:04:20.000
+porque é como nós atualmente fazemos as coisas.
+
+00:04:20.000 --> 00:04:22.000
+Isto é um wafer de silício, e essencialmente
+
+00:04:22.000 --> 00:04:26.000
+que é apenas um punhado de camadas bidimensionais de material, meio que uma por cima da outra.
+
+00:04:26.000 --> 00:04:28.000
+A novidade é -- sabe, as pessoas vão dizer,
+
+00:04:28.000 --> 00:04:30.000
+perto de 65 nanometros agora.
+
+00:04:30.000 --> 00:04:32.000
+À direita, está uma radiolara.
+
+00:04:32.000 --> 00:04:35.000
+É um organismo unicelular que está por todo oceano.
+
+00:04:35.000 --> 00:04:39.000
+E elas produzem coisas de mais ou menos 20 nanometros,
+
+00:04:39.000 --> 00:04:41.000
+e é uma estrutura 3D complexa.
+
+00:04:41.000 --> 00:04:45.000
+Nós poderíamos fazer muito mais com computadores e coisas em geral
+
+00:04:45.000 --> 00:04:48.000
+se soubéssemos como construir coisas desta forma.
+
+00:04:48.000 --> 00:04:51.000
+O segredo da biologia é, ela constrói computação
+
+00:04:51.000 --> 00:04:54.000
+ao mesmo tempo que constrói coisas. Então esta pequena coisa aqui, polimerase,
+
+00:04:54.000 --> 00:04:59.000
+é essencialmente um supercomputador projetado para replicar DNA.
+
+00:04:59.000 --> 00:05:02.000
+E este ribossoma, aqui, é um outro pequeno computador
+
+00:05:02.000 --> 00:05:04.000
+que ajuda na tradução das proteínas.
+
+00:05:04.000 --> 00:05:05.000
+Eu pensei sobre isso
+
+00:05:05.000 --> 00:05:08.000
+no sentido de que é magnífico construir sobre materiais biológicos,
+
+00:05:08.000 --> 00:05:10.000
+mas nós conseguimos fazer coisas similares?
+
+00:05:10.000 --> 00:05:12.000
+Podemos ter comportamentos do tipo auto-replicantes?
+
+00:05:12.000 --> 00:05:16.000
+Podemos ter uma estrutura complexa em 3D construída automaticamente
+
+00:05:16.000 --> 00:05:18.000
+em sistemas inorgânicos?
+
+00:05:18.000 --> 00:05:20.000
+Porque há algumas vantagens em sistemas inorgânicos,
+
+00:05:20.000 --> 00:05:22.000
+como semi-condutores de alta velocidade, etc.
+
+00:05:22.000 --> 00:05:24.000
+Assim, este é um pedaço de meu trabalho
+
+00:05:24.000 --> 00:05:30.000
+sobre como você faz um sistema autônomo auto-replicantes.
+
+00:05:30.000 --> 00:05:32.000
+E isto não é uma espécie de vingança de Babbage.
+
+00:05:32.000 --> 00:05:33.000
+Estes são pequenos computadores mecânicos.
+
+00:05:33.000 --> 00:05:36.000
+São máquinas de estados com cinco estados.
+
+00:05:36.000 --> 00:05:39.000
+Então, é como três interruptores de luz alinhados.
+
+00:05:39.000 --> 00:05:41.000
+Em um estado neutro, eles não se ligarão de forma alguma.
+
+00:05:41.000 --> 00:05:45.000
+Agora, se fizermos uma cadeia deles, uma cadeia de bits,
+
+00:05:45.000 --> 00:05:47.000
+eles serão capazes de replicar-se.
+
+00:05:47.000 --> 00:05:48.000
+Então começamos com branco, azul, azul, branco.
+
+00:05:48.000 --> 00:05:54.000
+Isso codifica; agora irá copiar. De um, surgem dois,
+
+00:05:54.000 --> 00:05:56.000
+e então de dois surgem três.
+
+00:05:56.000 --> 00:06:00.000
+E desta forma você tem uma espécie de sistema de replicação.
+
+00:06:00.000 --> 00:06:02.000
+Foi um trabalho, na realidade, de Lionel Penrose,
+
+00:06:02.000 --> 00:06:05.000
+pai de Roger Penrose, o rapaz dos padrões.
+
+00:06:05.000 --> 00:06:07.000
+Ele fez muito do seu trabalho na década de 60,
+
+00:06:07.000 --> 00:06:09.000
+e então muito desta teoria de lógica foi deixada de lado
+
+00:06:09.000 --> 00:06:12.000
+quando entramos na revolução do computador digital, mas agora está voltando.
+
+00:06:12.000 --> 00:06:16.000
+Agora vou mostrar-lhes a auto-replicação autônoma sem interferências.
+
+00:06:16.000 --> 00:06:18.000
+Nós acomapanhamos no vídeo a cadeia inicial,
+
+00:06:18.000 --> 00:06:20.000
+que era verde, verde, amarelo, amarelo, verde.
+
+00:06:20.000 --> 00:06:24.000
+Nós colocamos ela nessa mesa de hockey com ar.
+
+00:06:24.000 --> 00:06:26.000
+Sabe, a ciência de ponta usa mesas de hockey com ar --
+
+00:06:26.000 --> 00:06:27.000
+(Risadas)
+
+00:06:27.000 --> 00:06:29.000
+-- e se você olhar isso por muito tempo você ficará tonto,
+
+00:06:29.000 --> 00:06:32.000
+mas o você está vendo, na verdade, são cópias da cadeia original
+
+00:06:32.000 --> 00:06:35.000
+emergindo do monte de partes que você tem ali.
+
+00:06:35.000 --> 00:06:40.000
+Então temos a replicação autônoma de uma cadeia de bits.
+
+00:06:40.000 --> 00:06:43.000
+Mas porque você iria querer replicar uma cadeia de bits?
+
+00:06:43.000 --> 00:06:46.000
+Bem, acontece que na biologia há este outro meme muito interessante,
+
+00:06:46.000 --> 00:06:49.000
+que você pode pegar uma cadeia linear, que é uma coisa conveniente para a cópia,
+
+00:06:49.000 --> 00:06:53.000
+e pode dobrá-la arbitrariamente em uma estrutura 3D complexa.
+
+00:06:53.000 --> 00:06:56.000
+Assim como eu estava tentando compreender o lado do engenheiro:
+
+00:06:56.000 --> 00:06:59.000
+Podemos construir um sistema mecânico com materiais inorgânicos
+
+00:06:59.000 --> 00:07:00.000
+que faça a mesma coisa?
+
+00:07:00.000 --> 00:07:05.000
+Então o que eu estou mostrando aqui é que você pode pegar uma forma em 2D --
+
+00:07:05.000 --> 00:07:09.000
+o B -- construí-la com uma cadeia de componentes
+
+00:07:09.000 --> 00:07:11.000
+que segue regras extremamente simples.
+
+00:07:11.000 --> 00:07:14.000
+E todo o ponto de usar regras extremamente simples aqui,
+
+00:07:14.000 --> 00:07:17.000
+e as máquinas de estados extremamente simples do design anterior,
+
+00:07:17.000 --> 00:07:20.000
+é que você não precisa de lógica digital para fazer a computação.
+
+00:07:20.000 --> 00:07:24.000
+E desta forma você pode escalar coisas muito menores do que microchips.
+
+00:07:24.000 --> 00:07:28.000
+Você pode literalmente usá-los como pequenos componentes no processo de construção.
+
+00:07:28.000 --> 00:07:33.000
+Neil Gershenfeld mostrou-lhes este vídeo na quarta-feira, creio eu,
+
+00:07:33.000 --> 00:07:35.000
+mas vou mostrar-lhes novamente.
+
+00:07:35.000 --> 00:07:38.000
+Esta é literalmente a sequência colorida destes padrões.
+
+00:07:38.000 --> 00:07:41.000
+Cada cor diferente tem uma polaridade magnética diferente
+
+00:07:41.000 --> 00:07:46.000
+e a sequência é especificada unicamente na estrutura que está surgindo.
+
+00:07:46.000 --> 00:07:49.000
+Agora, esperamos, que aqueles que conhecem alguma coisa de teoria dos grafos
+
+00:07:49.000 --> 00:07:51.000
+possa olhar para isto, e isto vai convencê-lo
+
+00:07:51.000 --> 00:07:54.000
+de que pode também criar uma estrutura arbitraria em 3D,
+
+00:07:54.000 --> 00:07:59.000
+e de fato, sabe, posso agora pegar um cachorro, desmontá-lo
+
+00:07:59.000 --> 00:08:01.000
+e então reconstruí-lo em uma cadeia linear
+
+00:08:01.000 --> 00:08:03.000
+que se dobrará em uma sequência. E agora
+
+00:08:03.000 --> 00:08:10.000
+posso realmente definir este objeto tridimensional como uma sequência de bits.
+
+00:08:10.000 --> 00:08:13.000
+Sabe, é um mundo muito interessante
+
+00:08:13.000 --> 00:08:15.000
+quando você começa a ver o mundo de maneira um pouco diferente.
+
+00:08:15.000 --> 00:08:18.000
+E o universo agora é um compilador.
+
+00:08:18.000 --> 00:08:20.000
+E estou pensando sobre o que são os programas
+
+00:08:20.000 --> 00:08:23.000
+para programar o universo físico?
+
+00:08:23.000 --> 00:08:26.000
+E como pensamos sobre materiais e estruturas,
+
+00:08:26.000 --> 00:08:29.000
+como informações e problemas computacionais?
+
+00:08:29.000 --> 00:08:32.000
+Não apenas onde você encaixa um micro-controlador na terminação,
+
+00:08:32.000 --> 00:08:37.000
+mas que a estrutura e os mecanismos são a lógica, são os computadores.
+
+00:08:37.000 --> 00:08:42.000
+Sendo totalmente absorvido por esta filosofia,
+
+00:08:42.000 --> 00:08:45.000
+eu comecei a ver muitos problemas de uma maneira um pouco diferente.
+
+00:08:45.000 --> 00:08:46.000
+Com o universo como um computador,
+
+00:08:46.000 --> 00:08:48.000
+você pode olhar para esta gota d'água
+
+00:08:48.000 --> 00:08:50.000
+como tendo feito as computações.
+
+00:08:50.000 --> 00:08:52.000
+Você define um conjunto de condições limitantes, como a gravidade,
+
+00:08:52.000 --> 00:08:56.000
+a tensão superficial, densidade, etc, e então pressiona executar,
+
+00:08:56.000 --> 00:09:01.000
+e magicamente, o universo produz uma lente esférica perfeita.
+
+00:09:01.000 --> 00:09:03.000
+Assim, isso realmente aplicado ao problema
+
+00:09:03.000 --> 00:09:06.000
+-- há meio bilhão a um bilhão de pessoas no mundo
+
+00:09:06.000 --> 00:09:08.000
+que não tem acesso a óculos baratos.
+
+00:09:08.000 --> 00:09:10.000
+Vocês poderiam criar uma máquina
+
+00:09:10.000 --> 00:09:14.000
+que poderia fazer uma lente de qualquer receita médica rapidamente no lugar?
+
+00:09:14.000 --> 00:09:18.000
+É uma máquina em que você literalmente define uma condição limite.
+
+00:09:18.000 --> 00:09:21.000
+Se é circular, você faz uma lente esférica.
+
+00:09:21.000 --> 00:09:24.000
+Se é elíptica, você pode fazer uma lente para astigmatismo.
+
+00:09:24.000 --> 00:09:27.000
+E você pode por uma membrana em que se você aplicar pressão --
+
+00:09:27.000 --> 00:09:29.000
+essa é uma parte extra do programa.
+
+00:09:29.000 --> 00:09:32.000
+E literalmente com apenas estas duas entradas --
+
+00:09:32.000 --> 00:09:34.000
+a forma de sua condição de limite e a pressão --
+
+00:09:34.000 --> 00:09:36.000
+você pode definir um infinito número de lentes
+
+00:09:36.000 --> 00:09:38.000
+que cobrem o espectro de erros refrativos humanos,
+
+00:09:38.000 --> 00:09:43.000
+de dioptrias de menos 12 a mais 8, até quatro dioptrias cilíndricas.
+
+00:09:43.000 --> 00:09:46.000
+Então literalmente, agora você tem um monômero.
+
+00:09:46.000 --> 00:09:49.000
+Eu vou fazer uma Julia Childs aqui.
+
+00:09:49.000 --> 00:09:52.000
+Isto são três minutos de luz ultra-violeta.
+
+00:09:52.000 --> 00:09:55.000
+E se você reverter a pressão na sua membrana
+
+00:09:55.000 --> 00:09:58.000
+depois de cozida. Ela estourará.
+
+00:09:58.000 --> 00:10:01.000
+Eu vi este vídeo, mas ainda não sei se irá terminar bem.
+
+00:10:01.000 --> 00:10:04.000
+(Risadas)
+
+00:10:04.000 --> 00:10:06.000
+E você reverte isso. Este é um filme antigo,
+
+00:10:06.000 --> 00:10:10.000
+então com os novos protótipos, ambas as superfícies são flexíveis,
+
+00:10:10.000 --> 00:10:12.000
+mas isso mostra o ponto.
+
+00:10:12.000 --> 00:10:14.000
+Agora que finalizamos a lente, você pode literalmente estourá-la.
+
+00:10:14.000 --> 00:10:21.000
+O Yves Klein do próximo ano, óculos neste formato.
+
+00:10:21.000 --> 00:10:24.000
+E você pode ver que tem uma receita comum de menos duas dioptrias.
+
+00:10:24.000 --> 00:10:28.000
+E eu rotaciono isso contra este controle lateral, você vai ver que ele tem um cilindro,
+
+00:10:28.000 --> 00:10:29.000
+e que estava programado --
+
+00:10:29.000 --> 00:10:33.000
+literalmente na física do sistema.
+
+00:10:33.000 --> 00:10:36.000
+Este tipo de pensamento sobre as estruturas como computação
+
+00:10:36.000 --> 00:10:41.000
+e esteruturas como informações leva-nos a outros pensamentos, como isto.
+
+00:10:41.000 --> 00:10:44.000
+Isso é algo que meu pessoal no SQUID Labs
+
+00:10:44.000 --> 00:10:46.000
+estão trabalhando no momento, chamado de corda eletrônica.
+
+00:10:46.000 --> 00:10:50.000
+Então, literalmente, pense numa corda. Ela tem uam estrutura muito complexa na sua tecitura.
+
+00:10:50.000 --> 00:10:52.000
+E em uma carga, é uma estrutura.
+
+00:10:52.000 --> 00:10:55.000
+Com uma carga diferente, é uma estrutura diferente. E você pode realmente explorar isto
+
+00:10:55.000 --> 00:10:57.000
+colocando um pequeno número de
+
+00:10:57.000 --> 00:10:59.000
+fibras condutoras para realmente serem um sensor.
+
+00:10:59.000 --> 00:11:02.000
+E agora temos uma corda que conhece a carga na corda
+
+00:11:02.000 --> 00:11:04.000
+em qualquer ponto particular dela.
+
+00:11:04.000 --> 00:11:07.000
+Apenas pense na física do mundo,
+
+00:11:07.000 --> 00:11:09.000
+materiais como computadores,
+
+00:11:09.000 --> 00:11:12.000
+você pode começar a fazer coisas como essa.
+
+00:11:12.000 --> 00:11:15.000
+Eu vou avançar um pouco aqui.
+
+00:11:15.000 --> 00:11:17.000
+Eu acho eu vou apenas comentar casualmente os tipos de coisas
+
+00:11:17.000 --> 00:11:18.000
+que eu penso com isso.
+
+00:11:18.000 --> 00:11:22.000
+Uma coisa que eu estou realmente interessado neste momento é, como,
+
+00:11:22.000 --> 00:11:26.000
+se você está realmente tomando este ponto de vista do universo como um computador,
+
+00:11:26.000 --> 00:11:28.000
+como fazemos as coisas em um sentido bem geral,
+
+00:11:28.000 --> 00:11:32.000
+e como deveríamos compartilhar a forma como fazemos as coisas no geral
+
+00:11:32.000 --> 00:11:35.000
+da mesma forma como compartilhamos hardware de código aberto?
+
+00:11:35.000 --> 00:11:38.000
+E muitas das palestras aqui expuseram os benefícios
+
+00:11:38.000 --> 00:11:40.000
+de se ter muitas pessoas olhando para os problemas,
+
+00:11:40.000 --> 00:11:43.000
+trocando informações e trabalhando nessas coisas em conjunto.
+
+00:11:43.000 --> 00:11:46.000
+Então, uma coisa conveniente sobre ser humano é que você move-se linearmente no tempo,
+
+00:11:46.000 --> 00:11:48.000
+a menos que Lisa Randall mude isso,
+
+00:11:48.000 --> 00:11:51.000
+continuaremos a nos mover linearmente no tempo.
+
+00:11:51.000 --> 00:11:53.000
+Isso quer dizer que qualquer coisa que você faça, ou construa,
+
+00:11:53.000 --> 00:11:55.000
+você produz uma seqüência de passos --
+
+00:11:55.000 --> 00:11:58.000
+e eu acho que Lego nos anos 70 pegou isso,
+
+00:11:58.000 --> 00:11:59.000
+e eles fizeram isso da forma mais elegante.
+
+00:11:59.000 --> 00:12:03.000
+Mas eles podem mostrar como construir coisas na seqüencia.
+
+00:12:03.000 --> 00:12:06.000
+Então, estou pensando em como podemos generalizar
+
+00:12:06.000 --> 00:12:08.000
+a maneira pela qual fazemos todos os tipos de coisas,
+
+00:12:08.000 --> 00:12:10.000
+e você termina com esse tipo de coisa, certo?
+
+00:12:10.000 --> 00:12:15.000
+E eu acho que isso se aplica a uma grande amplitude -- tipo, um monte de conceitos.
+
+00:12:15.000 --> 00:12:17.000
+Sabe, Cameron Sinclair falou ontem:
+
+00:12:17.000 --> 00:12:19.000
+"Como eu faço todos colaborarem no projeto
+
+00:12:19.000 --> 00:12:22.000
+gobal de habitações para a humanidade?"
+
+00:12:22.000 --> 00:12:24.000
+E se você viu a Amy Smith,
+
+00:12:24.000 --> 00:12:28.000
+ela falou sobre como você pega estudantes do MIT
+
+00:12:28.000 --> 00:12:30.000
+para trabalhar com comunidades no Haiti.
+
+00:12:30.000 --> 00:12:32.000
+E eu acho que nós temos que como redefinir e repensar
+
+00:12:32.000 --> 00:12:36.000
+como definimos estruturas e materiais e a construção das coisas,
+
+00:12:36.000 --> 00:12:38.000
+de forma que possamos realmente compartilhar a informação
+
+00:12:38.000 --> 00:12:40.000
+em como você pode fazer essas coisas de uma forma mais profunda
+
+00:12:40.000 --> 00:12:43.000
+e construir sobre o código aberto das estruturas dos outros.
+
+00:12:43.000 --> 00:12:44.000
+Eu não sei ainda como fazer isso,
+
+00:12:44.000 --> 00:12:49.000
+mas, sabe, é algo que está sendo pensado ativamente.
+
+00:12:49.000 --> 00:12:51.000
+Sabe, isso nos leva a algumas questões
+
+00:12:51.000 --> 00:12:55.000
+como, isso é um compilador? É uma sub-rotina?
+
+00:12:55.000 --> 00:12:56.000
+Coisas interessantes como essas.
+
+00:12:56.000 --> 00:12:59.000
+Talvez eu estou sendo um pouco abstrato demais, mas sabe,
+
+00:12:59.000 --> 00:13:02.000
+isso é tipo de -- retornando para nossos personagens cômicos --
+
+00:13:02.000 --> 00:13:04.000
+isso é como o universo, e uma perspectiva diferente do universo
+
+00:13:04.000 --> 00:13:06.000
+que eu penso que será muito difundida no futuro --
+
+00:13:06.000 --> 00:13:09.000
+de biotech para contrução de materiais. Seria muito bom ouvir Bill Joy.
+
+00:13:09.000 --> 00:13:12.000
+Eles estão começando a investir na ciência de materiais,
+
+00:13:12.000 --> 00:13:14.000
+mas essas são as novidades na ciência de materiais.
+
+00:13:14.000 --> 00:13:18.000
+Como colocamos informações reais e estruturas reais em novas idéias,
+
+00:13:18.000 --> 00:13:21.000
+e ver o mundo de uma forma diferente? E não será o código binário
+
+00:13:21.000 --> 00:13:23.000
+que define os computadores do universo --
+
+00:13:23.000 --> 00:13:25.000
+é um tipo de computador analógico.
+
+00:13:25.000 --> 00:13:30.000
+Mas isto é definitivamente uma nova e interessante visão de mundo.
+
+00:13:30.000 --> 00:13:33.000
+Eu fui muito longe. Então parece que é isso.
+
+00:13:33.000 --> 00:13:35.000
+Eu provavelmente tenho alguns minutos para perguntas,
+
+00:13:35.000 --> 00:13:39.000
+ou posso mostrar -- acho que eles também falam que eu faço coisas extremas
+
+00:13:39.000 --> 00:13:43.000
+na introdução, então posso explicar isso.
+
+00:13:43.000 --> 00:13:46.000
+Então talvez farei isso com este vídeo curto.
+
+00:13:46.000 --> 00:13:52.000
+Essa é realmente uma pipa de 300 metros quadrados,
+
+00:13:52.000 --> 00:13:54.000
+que também é uma superfície de energia mínima.
+
+00:13:54.000 --> 00:13:56.000
+Então voltando para aquela gota, novamente,
+
+00:13:56.000 --> 00:13:58.000
+pensando sobre o universo de um novo modo.
+
+00:13:58.000 --> 00:14:00.000
+Esta pipa foi projetada por um cara chamado Dave Kulp.
+
+00:14:00.000 --> 00:14:02.000
+E por que você iria querer uma pipa de 300 metros quadrados?
+
+00:14:02.000 --> 00:14:04.000
+E essa é uma pipa do tamanho da sua casa.
+
+00:14:04.000 --> 00:14:08.000
+E você iria querer ela para puxar barcos rapidamente.
+
+00:14:08.000 --> 00:14:11.000
+E tenho trabalhado nisso, também,
+
+00:14:11.000 --> 00:14:13.000
+com alguns outros rapazes.
+
+00:14:13.000 --> 00:14:15.000
+Mas sabe, é uma outra forma de olhar para --
+
+00:14:15.000 --> 00:14:17.000
+se você abstrair novamente,
+
+00:14:17.000 --> 00:14:21.000
+esta é uma estrutura que está definida na física do universo.
+
+00:14:21.000 --> 00:14:22.000
+Você pode apenas usá-la como lençol para a cama,
+
+00:14:22.000 --> 00:14:24.000
+mas novamente, a computação de toda a física
+
+00:14:24.000 --> 00:14:26.000
+lhe dará uma forma aerodinâmica.
+
+00:14:26.000 --> 00:14:29.000
+E você pode realmente quase dobrar a velocidade de seu barco
+
+00:14:29.000 --> 00:14:36.000
+com sistemas como estes. Então esse é um tipo de outros aspectos interessantes do futuro.
+
+00:14:36.000 --> 00:14:37.000
+(Aplausos)
+

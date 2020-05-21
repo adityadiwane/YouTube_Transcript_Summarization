@@ -1,0 +1,629 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Pedro Moura
+Revisora: Wanderley Jesus
+
+00:00:15.260 --> 00:00:18.260
+Muitos acreditam que conduzir é uma actividade
+
+00:00:18.260 --> 00:00:20.260
+reservada apenas para aqueles que conseguem ver.
+
+00:00:20.260 --> 00:00:23.260
+Um cego a conduzir um veículo de forma segura e independente
+
+00:00:23.260 --> 00:00:26.260
+era suposta ser uma tarefa impossível, até agora.
+
+00:00:26.260 --> 00:00:28.260
+Olá, eu chamo-me Dennis Hong,
+
+00:00:28.260 --> 00:00:30.260
+e estamos a trazer liberdade e independência aos cegos
+
+00:00:30.260 --> 00:00:33.260
+construindo um veículo para os deficientes visuais.
+
+00:00:33.260 --> 00:00:36.260
+Portanto antes de eu falar sobre este carro para os cegos,
+
+00:00:36.260 --> 00:00:38.260
+deixem-me falar-vos de outro projecto em que trabalhei
+
+00:00:38.260 --> 00:00:40.260
+chamado DARPA Urban Challenge.
+
+00:00:40.260 --> 00:00:42.260
+Este era sobre construir um carro robótico
+
+00:00:42.260 --> 00:00:44.260
+que se conduzisse a si mesmo.
+
+00:00:44.260 --> 00:00:46.260
+Carregam em começar, ninguém toca em nada,
+
+00:00:46.260 --> 00:00:49.260
+e ele chega ao destino de forma completamente autónoma.
+
+00:00:49.260 --> 00:00:52.260
+Portanto em 2007, a nossa equipa ganhou meio milhão de dólares
+
+00:00:52.260 --> 00:00:54.260
+por ficar no terceiro lugar desta competição.
+
+00:00:54.260 --> 00:00:56.260
+Por essa altura,
+
+00:00:56.260 --> 00:00:58.260
+a National Federation of the Blind, ou NFB,
+
+00:00:58.260 --> 00:01:00.260
+desafiou o comité de pesquisa
+
+00:01:00.260 --> 00:01:02.260
+para descobrir quem conseguiria desenvolver um carro
+
+00:01:02.260 --> 00:01:04.260
+que deixasse um cego conduzir de forma segura e independente.
+
+00:01:04.260 --> 00:01:06.260
+Decidimos experimentar,
+
+00:01:06.260 --> 00:01:08.260
+porque pensámos, ei, não pode ser muito difícil.
+
+00:01:08.260 --> 00:01:10.260
+Já temos um veículo autónomo.
+
+00:01:10.260 --> 00:01:12.260
+É só pôr alguém cego lá dentro e está feito, certo?
+
+00:01:12.260 --> 00:01:14.260
+(Risos)
+
+00:01:14.260 --> 00:01:16.260
+Não podíamos estar mais errados.
+
+00:01:16.260 --> 00:01:18.260
+O que a NFB queria
+
+00:01:18.260 --> 00:01:21.260
+não era um veículo que conduzisse um cego,
+
+00:01:21.260 --> 00:01:24.260
+mas um veículo onde uma pessoa cega pudesse fazer decisões activas e guiar.
+
+00:01:24.260 --> 00:01:26.260
+Portanto, tivemos de atirar tudo pela janela
+
+00:01:26.260 --> 00:01:28.260
+e começar do nada.
+
+00:01:28.260 --> 00:01:30.260
+Então, para testar esta ideia louca,
+
+00:01:30.260 --> 00:01:32.260
+desenvolvemos um pequeno veículo protótipo, um buggy,
+
+00:01:32.260 --> 00:01:34.260
+para testar a viabilidade.
+
+00:01:34.260 --> 00:01:36.260
+E, no Verão de 2009,
+
+00:01:36.260 --> 00:01:39.260
+convidámos dúzias de jovens cegos de todo o país
+
+00:01:39.260 --> 00:01:41.260
+e demos-lhes a oportunidade de o conduzir.
+
+00:01:41.260 --> 00:01:43.260
+Foi uma experiência absolutamente espetacular.
+
+00:01:43.260 --> 00:01:45.260
+Mas o problema com este carro era que
+
+00:01:45.260 --> 00:01:48.260
+estava feito apenas para ser conduzido num ambiente muito controlado,
+
+00:01:48.260 --> 00:01:50.260
+num parque de estacionamento plano e fechado --
+
+00:01:50.260 --> 00:01:52.260
+até as faixas estavam definidas por cones de trânsito vermelhos.
+
+00:01:52.260 --> 00:01:54.260
+Portanto, com este sucesso,
+
+00:01:54.260 --> 00:01:56.260
+decidimos dar o próximo grande passo,
+
+00:01:56.260 --> 00:01:59.260
+desenvolver um carro verdadeiro que pudesse ser conduzido em estradas verdadeiras.
+
+00:01:59.260 --> 00:02:01.260
+Então como funciona?
+
+00:02:01.260 --> 00:02:03.260
+Bem, é um sistema bastante complexo,
+
+00:02:03.260 --> 00:02:06.260
+mas vou tentar explicá-lo, talvez simplificá-lo.
+
+00:02:06.260 --> 00:02:08.260
+Temos três passos.
+
+00:02:08.260 --> 00:02:10.260
+Temos percepção, computação
+
+00:02:10.260 --> 00:02:12.260
+e interfaces não-visuais.
+
+00:02:12.260 --> 00:02:14.260
+Obviamente o condutor não consegue ver,
+
+00:02:14.260 --> 00:02:16.260
+portanto o sistema tem de perceber o ambiente circundante
+
+00:02:16.260 --> 00:02:18.260
+e armazenar informação para o condutor.
+
+00:02:18.260 --> 00:02:21.260
+Para isso, utilizamos uma unidade de medida inercial.
+
+00:02:21.260 --> 00:02:23.260
+Portanto ela mede aceleração, aceleração angular --
+
+00:02:23.260 --> 00:02:25.260
+tal como um ouvido humano, o ouvido interno.
+
+00:02:25.260 --> 00:02:27.260
+Fundimos essa informação com uma unidade de GPS
+
+00:02:27.260 --> 00:02:30.260
+para obter uma estimativa da localização do carro.
+
+00:02:30.260 --> 00:02:33.260
+Também usamos duas câmaras para detectar as faixas da estrada.
+
+00:02:33.260 --> 00:02:35.260
+E usamos três telémetros laser.
+
+00:02:35.260 --> 00:02:38.260
+Os lasers varrem o ambiente para detectar obstáculos --
+
+00:02:38.260 --> 00:02:40.260
+um carro a aproximar-se pela frente, por trás,
+
+00:02:40.260 --> 00:02:43.260
+e também quaisquer obstáculos que entrem nas estradas,
+
+00:02:43.260 --> 00:02:45.260
+quaisquer obstáculos à volta do veículo.
+
+00:02:45.260 --> 00:02:48.260
+E esta vasta quantidade de informação é então inserida no computador,
+
+00:02:48.260 --> 00:02:50.260
+e o computador pode fazer duas coisas.
+
+00:02:50.260 --> 00:02:53.260
+Uma é, antes de mais, processar esta informação
+
+00:02:53.260 --> 00:02:55.260
+para obter uma compreensão do ambiente --
+
+00:02:55.260 --> 00:02:58.260
+estas são as faixas da estrada, estão ali os obstáculos --
+
+00:02:58.260 --> 00:03:00.260
+e transmitir esta informação ao condutor.
+
+00:03:00.260 --> 00:03:02.260
+O sistema também é inteligente o suficiente
+
+00:03:02.260 --> 00:03:04.260
+para descobrir a maneira mais segura de conduzir o carro.
+
+00:03:04.260 --> 00:03:06.260
+Portanto também podemos gerar instruções
+
+00:03:06.260 --> 00:03:08.260
+sobre como operar os controlos do veículo.
+
+00:03:08.260 --> 00:03:10.260
+Mas o problema é este: Como transmitimos
+
+00:03:10.260 --> 00:03:12.260
+esta informação e instruções
+
+00:03:12.260 --> 00:03:14.260
+a alguém que não consegue ver
+
+00:03:14.260 --> 00:03:17.260
+de forma rápida e precisa o suficiente para que ele consiga conduzir?
+
+00:03:17.260 --> 00:03:19.260
+Então, para isto, desenvolvemos vários tipos diferentes
+
+00:03:19.260 --> 00:03:22.260
+de tecnologia de interface não-visual para utilizadores.
+
+00:03:22.260 --> 00:03:24.260
+Portanto, começámos por um sistema tridimensional de som,
+
+00:03:24.260 --> 00:03:26.260
+um colete de vibração,
+
+00:03:26.260 --> 00:03:29.260
+um volante com comandos de voz, uma tira para a perna,
+
+00:03:29.260 --> 00:03:31.260
+até um sapato que aplica pressão no pé.
+
+00:03:31.260 --> 00:03:33.260
+Mas hoje vamos falar sobre
+
+00:03:33.260 --> 00:03:35.260
+três destas interfaces não-visuais.
+
+00:03:35.260 --> 00:03:38.260
+A primeira interface chama-se DriveGrip.
+
+00:03:38.260 --> 00:03:40.260
+Estas são um par de luvas,
+
+00:03:40.260 --> 00:03:42.260
+e têm elementos vibratórios na parte dos nós dos dedos,
+
+00:03:42.260 --> 00:03:45.260
+para que seja possível transmitir instruções sobre como virar --
+
+00:03:45.260 --> 00:03:47.260
+a direcção e intensidade.
+
+00:03:47.260 --> 00:03:49.260
+Outro dispositivo é a SpeedStrip.
+
+00:03:49.260 --> 00:03:52.260
+Esta é uma cadeira -- na verdade, é uma cadeira de massagens.
+
+00:03:52.260 --> 00:03:56.260
+Nós abrimo-la, e rearranjamos os elementos vibratórios em diferentes padrões.
+
+00:03:56.260 --> 00:03:59.260
+E fazemos com que estes transmitam informação sobre a velocidade,
+
+00:03:59.260 --> 00:04:02.260
+e também instruções em como usar os pedais de aceleração e travagem.
+
+00:04:02.260 --> 00:04:04.260
+Portanto aqui, podem ver
+
+00:04:04.260 --> 00:04:06.260
+como o computador se apercebe do ambiente.
+
+00:04:06.260 --> 00:04:08.260
+E, como não podem ver a vibração,
+
+00:04:08.260 --> 00:04:11.260
+pusemos LEDs vermelhos no condutor, para que possamos ver o que está a acontecer.
+
+00:04:11.260 --> 00:04:13.260
+Estes são os dados sensoriais,
+
+00:04:13.260 --> 00:04:16.260
+e esses dados são transmitidos para os dispositivos pelo computador.
+
+00:04:16.260 --> 00:04:18.260
+Estes dois dispositivos, DriveGrip e SpeedStrip,
+
+00:04:18.260 --> 00:04:20.260
+são bastante efectivos.
+
+00:04:20.260 --> 00:04:22.260
+Mas o problema é
+
+00:04:22.260 --> 00:04:24.260
+que estes são dispositivos de instrução.
+
+00:04:24.260 --> 00:04:26.260
+Logo, isto não é liberdade, certo?
+
+00:04:26.260 --> 00:04:28.260
+O computador indica como conduzir --
+
+00:04:28.260 --> 00:04:30.260
+virar à esquerda, virar à direita, acelerar, parar.
+
+00:04:30.260 --> 00:04:32.260
+Chamamos a isto o problema do pendura.
+
+00:04:32.260 --> 00:04:35.260
+Portanto estamos a afastar-nos deste tipo de dispositivos,
+
+00:04:35.260 --> 00:04:37.260
+e agora estamos a focar-nos mais
+
+00:04:37.260 --> 00:04:39.260
+em dispositivos informacionais.
+
+00:04:39.260 --> 00:04:41.260
+Um bom exemplo para interfaces de informação não-visual
+
+00:04:41.260 --> 00:04:43.260
+chama-se AirPix.
+
+00:04:43.260 --> 00:04:45.260
+Pensem nele como um monitor para cegos.
+
+00:04:45.260 --> 00:04:47.260
+É uma pequena tábua, tem muitos buracos,
+
+00:04:47.260 --> 00:04:49.260
+e sai ar comprimido desses buracos,
+
+00:04:49.260 --> 00:04:51.260
+portanto consegue mesmo desenhar imagens.
+
+00:04:51.260 --> 00:04:53.260
+E mesmo que sejam cegos, podem pôr a mão sobre ela,
+
+00:04:53.260 --> 00:04:55.260
+e ver as faixas da estrada e obstáculos.
+
+00:04:55.260 --> 00:04:58.260
+Na verdade, também é possível mudar a frequência do ar a sair
+
+00:04:58.260 --> 00:05:00.260
+e possivelmente a temperatura.
+
+00:05:00.260 --> 00:05:03.260
+Portanto, é na verdade uma interface multi-dimensional.
+
+00:05:03.260 --> 00:05:06.260
+Aqui vê-se a câmara esquerda e direita do veículo
+
+00:05:06.260 --> 00:05:09.260
+e como o computador as interpreta e envia a informação para o AirPix.
+
+00:05:09.260 --> 00:05:11.260
+Para isto, estamos a mostrar um simulador,
+
+00:05:11.260 --> 00:05:14.260
+uma pessoa cega a conduzir usando o AirPix.
+
+00:05:14.260 --> 00:05:17.260
+Este simulador também foi muito útil para treinar os condutores cegos
+
+00:05:17.260 --> 00:05:19.260
+e testar rapidamente tipos diferentes de ideias
+
+00:05:19.260 --> 00:05:21.260
+para tipos diferentes de interfaces não-visuais.
+
+00:05:21.260 --> 00:05:23.260
+Portanto basicamente é assim que funciona.
+
+00:05:23.260 --> 00:05:25.260
+E apenas há um mês,
+
+00:05:25.260 --> 00:05:27.260
+a 29 de Janeiro,
+
+00:05:27.260 --> 00:05:29.260
+demonstrámos este veículo pela primeira vez em público
+
+00:05:29.260 --> 00:05:32.260
+na mundialmente famosa Daytona International Speedway
+
+00:05:32.260 --> 00:05:34.260
+durante o evento de corridas Rolex 24.
+
+00:05:34.260 --> 00:05:37.260
+Também tivemos algumas surpresas. Vamos dar uma olhadela.
+
+00:05:37.260 --> 00:05:47.260
+(Música)
+
+00:05:47.260 --> 00:05:51.260
+(Vídeo) Narrador: Este é um dia histórico [não está claro].
+
+00:05:51.260 --> 00:05:55.260
+Ele está a chegar à bancada, caros Federistas.
+
+00:05:55.260 --> 00:06:01.260
+(Aplausos)
+
+00:06:01.260 --> 00:06:04.260
+(Buzinas)
+
+00:06:04.260 --> 00:06:06.260
+Lá está a bancada.
+
+00:06:06.260 --> 00:06:10.260
+E ele está a seguir a carrinha que está em frente dele.
+
+00:06:10.260 --> 00:06:12.260
+Bem, lá vem a primeira caixa.
+
+00:06:12.260 --> 00:06:15.260
+Vamos ver agora se o Mark a evita.
+
+00:06:15.260 --> 00:06:18.260
+E evitou. Ele passa-a pela direita.
+
+00:06:20.260 --> 00:06:23.260
+A terceira já foi. A quarta já foi.
+
+00:06:23.260 --> 00:06:26.260
+E ele está a passar perfeitamente entre as duas.
+
+00:06:26.260 --> 00:06:28.260
+Ele está a aproximar-se da carrinha
+
+00:06:28.260 --> 00:06:31.260
+para fazer a ultrapassagem.
+
+00:06:32.260 --> 00:06:34.260
+Bem é isto que se quer,
+
+00:06:34.260 --> 00:06:38.260
+este tipo de demonstração dinâmica de audácia e engenhosa.
+
+00:06:39.260 --> 00:06:42.260
+Ele está a chegar ao fim da linha,
+
+00:06:42.260 --> 00:06:47.260
+passa entre os barris preparados.
+
+00:06:47.260 --> 00:06:50.260
+(Buzinas)
+
+00:06:50.260 --> 00:06:53.260
+(Aplausos)
+
+00:06:56.260 --> 00:06:58.260
+Dennis Hong: Estou muito feliz por si.
+
+00:06:58.260 --> 00:07:00.260
+O Mark vai-me dar uma boleia de volta ao hotel.
+
+00:07:00.260 --> 00:07:02.260
+Mark Riccobono: Sim.
+
+00:07:05.260 --> 00:07:14.260
+(Aplausos)
+
+00:07:14.260 --> 00:07:16.260
+DH: Desde que começámos este projecto,
+
+00:07:16.260 --> 00:07:19.260
+recebemos centenas de cartas, e-mails, chamadas telefónicas
+
+00:07:19.260 --> 00:07:21.260
+de pessoas de todo o mundo.
+
+00:07:21.260 --> 00:07:24.260
+Cartas a agradecerem-nos, mas por vezes também recebemos cartas engraçadas como esta:
+
+00:07:24.260 --> 00:07:28.260
+"Agora já percebi porque é que há Braille num ATM de drive-up."
+
+00:07:28.260 --> 00:07:30.260
+(Risos)
+
+00:07:30.260 --> 00:07:32.260
+Mas por vezes --
+
+00:07:32.260 --> 00:07:34.260
+(Risos)
+
+00:07:34.260 --> 00:07:36.260
+Mas por vezes também recebo --
+
+00:07:36.260 --> 00:07:38.260
+não lhe chamaria cartas de ódio --
+
+00:07:38.260 --> 00:07:40.260
+mas cartas de preocupação bastante forte:
+
+00:07:40.260 --> 00:07:42.260
+"Dr. Hong, é louco,
+
+00:07:42.260 --> 00:07:44.260
+a tentar meter cegos na estrada?
+
+00:07:44.260 --> 00:07:46.260
+Não deve bater bem."
+
+00:07:46.260 --> 00:07:48.260
+"Mas este veículo é um protótipo,
+
+00:07:48.260 --> 00:07:50.260
+e não vai estar na estrada
+
+00:07:50.260 --> 00:07:52.260
+até que se prove que é tão, ou mais seguro que os veículos de hoje.
+
+00:07:52.260 --> 00:07:55.260
+E acredito verdadeiramente que isto pode acontecer.
+
+00:07:55.260 --> 00:07:57.260
+Mas ainda assim, será que a sociedade
+
+00:07:57.260 --> 00:07:59.260
+iria aceitar uma ideia tão radical?
+
+00:07:59.260 --> 00:08:01.260
+Como vamos tratar dos seguros?
+
+00:08:01.260 --> 00:08:03.260
+Como vamos atribuir licenças de condução?
+
+00:08:03.260 --> 00:08:06.260
+Há muitos destes obstáculos para além de desafios tecnológicos
+
+00:08:06.260 --> 00:08:09.260
+que precisamos de resolver antes de tornar isto uma realidade.
+
+00:08:09.260 --> 00:08:11.260
+É claro, o objectivo principal deste projecto
+
+00:08:11.260 --> 00:08:13.260
+é desenvolver um carro para os cegos.
+
+00:08:13.260 --> 00:08:15.260
+Mas potencialmente mais importante que isto
+
+00:08:15.260 --> 00:08:18.260
+é o valor tremendo da tecnologia derivada
+
+00:08:18.260 --> 00:08:20.260
+que pode surgir deste projecto.
+
+00:08:20.260 --> 00:08:22.260
+Os sensores usados conseguem ver pelo escuro,
+
+00:08:22.260 --> 00:08:24.260
+nevoeiro e chuva.
+
+00:08:24.260 --> 00:08:26.260
+E juntamente com este novo tipo de interfaces,
+
+00:08:26.260 --> 00:08:28.260
+podemos usar essas tecnologias
+
+00:08:28.260 --> 00:08:30.260
+e aplicá-las para obter carros mais seguros para pessoas com visão.
+
+00:08:30.260 --> 00:08:33.260
+Ou para os cegos, utensílios caseiros --
+
+00:08:33.260 --> 00:08:35.260
+na educação, nos escritórios.
+
+00:08:35.260 --> 00:08:38.260
+Imaginem, numa aula um professor escreve no quadro
+
+00:08:38.260 --> 00:08:41.260
+e um estudante cego pode ver o que está escrito e ler
+
+00:08:41.260 --> 00:08:43.260
+usando estas interfaces não-visuais.
+
+00:08:43.260 --> 00:08:46.260
+Isto não tem preço.
+
+00:08:46.260 --> 00:08:49.260
+Portanto hoje, as coisas que eu vos mostrei hoje, são apenas o começo.
+
+00:08:49.260 --> 00:08:51.260
+Muito obrigado.
+
+00:08:51.260 --> 00:09:02.260
+(Aplausos)
+

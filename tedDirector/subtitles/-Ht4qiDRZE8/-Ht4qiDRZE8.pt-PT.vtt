@@ -1,0 +1,1429 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Ana Luísa Bernardino
+Revisora: Nuno Couto
+
+00:00:15.260 --> 00:00:17.460
+Já tiveram de preencher
+um formulário na web
+
+00:00:17.460 --> 00:00:20.130
+onde pedem para lerem caracteres
+distorcidos como estes?
+
+00:00:20.130 --> 00:00:21.850
+Não acharam isso muito irritante?
+
+00:00:21.850 --> 00:00:23.130
+(Risos)
+
+00:00:23.130 --> 00:00:25.280
+Espetacular. Fui eu que inventei isso.
+
+00:00:25.280 --> 00:00:27.730
+(Risos)
+
+00:00:27.730 --> 00:00:29.340
+Fui um dos que inventou isso.
+
+00:00:29.340 --> 00:00:30.850
+Esta coisa chama-se um CAPTCHA.
+
+00:00:30.850 --> 00:00:33.480
+Serve para certificar que
+quem preenche o formulário,
+
+00:00:33.480 --> 00:00:35.750
+é uma pessoa e não
+um programa informático
+
+00:00:35.750 --> 00:00:38.390
+desenvolvido para submeter
+o formulário milhões de vezes.
+
+00:00:38.390 --> 00:00:41.290
+Funciona porque as pessoas,
+que não tenham limitações visuais
+
+00:00:41.290 --> 00:00:43.720
+não têm problema em ler
+estes caracteres distorcidos,
+
+00:00:43.720 --> 00:00:46.490
+mas os programas informáticos
+ainda não o conseguem fazer
+
+00:00:46.490 --> 00:00:48.330
+Por exemplo, no caso do Ticketmaster,
+
+00:00:48.330 --> 00:00:50.560
+temos de escrever 
+estes caracteres distorcidos
+
+00:00:50.560 --> 00:00:52.500
+para impedir que os burlões comprem
+
+00:00:52.500 --> 00:00:54.430
+milhões de bilhetes, dois de cada vez.
+
+00:00:54.430 --> 00:00:56.480
+Usam-se CAPTCHAs em toda a Internet.
+
+00:00:56.480 --> 00:00:58.260
+Como são usados com muita frequência,
+
+00:00:58.260 --> 00:01:00.900
+nem sempre é feliz a sequência
+de caracteres aleatórios
+
+00:01:00.900 --> 00:01:02.550
+que é mostrada ao utilizador
+
+00:01:02.550 --> 00:01:05.260
+Este exemplo é da página
+de registo do Yahoo.
+
+00:01:05.260 --> 00:01:07.840
+Os caracteres aleatórios que aparecem
+
+00:01:07.840 --> 00:01:10.640
+são W, A, I, T [esperem],
+que formam uma palavra.
+
+00:01:10.830 --> 00:01:13.260
+Mas a melhor parte é a mensagem
+
+00:01:13.260 --> 00:01:16.090
+que os serviços do Yahoo receberam
+uns 20 minutos depois.
+
+00:01:16.260 --> 00:01:19.740
+[Socorro! Estou à espera há mais
+de 20 minutos e não acontece nada]
+
+00:01:19.980 --> 00:01:22.460
+(Risos)
+
+00:01:23.390 --> 00:01:25.470
+Esta pessoa achava que tinha de esperar.
+
+00:01:25.470 --> 00:01:27.640
+Mas é muito melhor do que este, coitado.
+
+00:01:27.640 --> 00:01:29.210
+[Reiniciar]
+
+00:01:29.210 --> 00:01:30.530
+(Risos)
+
+00:01:30.560 --> 00:01:33.810
+Desenvolvemos o projeto CAPTCHA
+aqui na Carnegie Mellon há 10 anos
+
+00:01:33.810 --> 00:01:35.640
+e está a ser usado por toda a parte.
+
+00:01:35.640 --> 00:01:38.510
+Vou falar-vos de um projeto
+que desenvolvemos anos depois,
+
+00:01:38.510 --> 00:01:40.570
+que é uma espécie de evolução do CAPTCHA.
+
+00:01:40.570 --> 00:01:42.940
+É um projeto a que chamamos reCAPTCHA,
+
+00:01:42.940 --> 00:01:44.750
+que começámos aqui na Carnegie Mellon,
+
+00:01:44.750 --> 00:01:46.990
+e que transformámos depois numa empresa.
+
+00:01:46.990 --> 00:01:48.530
+Há cerca de um ano e meio,
+
+00:01:48.530 --> 00:01:50.460
+a Google comprou esta empresa.
+
+00:01:50.460 --> 00:01:52.580
+Vou dizer-vos o que este projeto começou.
+
+00:01:52.580 --> 00:01:55.260
+Este projeto começou
+através da seguinte perceção:
+
+00:01:55.260 --> 00:01:57.600
+Escrevem-se cerca 
+de 200 milhões de CAPTCHAs
+
+00:01:57.600 --> 00:01:59.850
+todos os dias, por pessoas
+em todo o mundo.
+
+00:02:00.170 --> 00:02:02.810
+Quando soube disto, senti-me
+muito orgulhoso e pensei:
+
+00:02:02.810 --> 00:02:05.180
+"Que impacto 
+que a minha investigação tem tido!".
+
+00:02:05.180 --> 00:02:07.040
+Mas depois comecei a sentir-me mal.
+
+00:02:07.040 --> 00:02:08.990
+Porque, sempre que escrevemos um CAPTCHA,
+
+00:02:08.990 --> 00:02:11.520
+desperdiçamos 10 segundos do nosso tempo.
+
+00:02:11.520 --> 00:02:13.680
+Se multiplicarmos isso por 200 milhões,
+
+00:02:13.680 --> 00:02:16.480
+a humanidade está a gastar
+cerca de 500 000 horas por dia
+
+00:02:16.480 --> 00:02:18.770
+a escrever estes irritantes CAPTCHAs.
+
+00:02:19.030 --> 00:02:20.750
+Por isso, comecei a sentir-me mal.
+
+00:02:20.750 --> 00:02:22.260
+(Risos)
+
+00:02:22.260 --> 00:02:23.590
+Depois comecei a pensar:
+
+00:02:23.590 --> 00:02:25.460
+"Não nos podemos livrar dos CAPTCHAs,
+
+00:02:25.460 --> 00:02:27.800
+"porque a segurança da web depende deles."
+
+00:02:27.800 --> 00:02:30.320
+"Existirá alguma forma 
+de utilizar este esforço
+
+00:02:30.320 --> 00:02:32.530
+"para qualquer coisa boa
+para a humanidade?"
+
+00:02:32.800 --> 00:02:34.260
+Então vejam isto.
+
+00:02:34.260 --> 00:02:36.260
+Nos 10 segundos,
+em que escrevem o CAPTCHA,
+
+00:02:36.260 --> 00:02:38.550
+o cérebro está a fazer algo fascinante.
+
+00:02:38.550 --> 00:02:41.230
+Faz uma coisa que os computadores
+não conseguem fazer.
+
+00:02:41.230 --> 00:02:44.110
+Como conseguir fazer algo útil
+durante esses 10 segundos?
+
+00:02:44.560 --> 00:02:46.150
+Ou seja, há um enorme problema
+
+00:02:46.150 --> 00:02:48.030
+que os computadores não resolvem.
+
+00:02:48.030 --> 00:02:50.850
+Será que podemos dividi-lo
+em períodos de 10 segundos
+
+00:02:50.850 --> 00:02:52.840
+e que, quando alguém escreve um CAPTCHA,
+
+00:02:52.840 --> 00:02:54.760
+se resolva uma parte desse problema?
+
+00:02:54.760 --> 00:02:57.210
+A resposta é "sim",
+e é oque estamos a fazer agora.
+
+00:02:57.210 --> 00:02:59.580
+Por isso, hoje em dia,
+quando escrevem um CAPTCHA,
+
+00:02:59.580 --> 00:03:01.410
+estão a autenticar-se como pessoas,
+
+00:03:01.410 --> 00:03:03.980
+e estão a ajudar-nos a digitalizar livros.
+
+00:03:03.980 --> 00:03:06.060
+Vou explicar como é que isso funciona.
+
+00:03:06.060 --> 00:03:08.370
+Há imensos projetos
+a tentar digitalizar livros.
+
+00:03:08.370 --> 00:03:10.430
+A Google tem um. 
+O Internet Archive tem um.
+
+00:03:10.430 --> 00:03:13.150
+A Amazon, com o Kindle,
+está a tentar digitalizar livros.
+
+00:03:13.150 --> 00:03:14.420
+Isto funciona assim:
+
+00:03:14.420 --> 00:03:16.650
+Começa-se por pegar
+num livro antigo, físico.
+
+00:03:16.650 --> 00:03:18.870
+Já viram uma coisa destas? Um livro?
+
+00:03:18.870 --> 00:03:20.260
+(Risos)
+
+00:03:20.260 --> 00:03:22.920
+Começam com um livro e digitalizam-no.
+
+00:03:22.920 --> 00:03:24.160
+Digitalizar um livro
+
+00:03:24.160 --> 00:03:27.140
+é como tirar uma fotografia digital
+de cada página do livro.
+
+00:03:27.140 --> 00:03:29.030
+Uma imagem para cada página do livro.
+
+00:03:29.030 --> 00:03:31.310
+Uma imagem com texto
+para cada página do livro.
+
+00:03:31.310 --> 00:03:33.940
+O passo seguinte é o computador
+conseguir decifrar
+
+00:03:33.940 --> 00:03:35.650
+todas as palavras nessa imagem.
+
+00:03:35.650 --> 00:03:37.700
+Usa-se uma tecnologia chamada OCR,
+
+00:03:37.700 --> 00:03:39.620
+Reconhecimento Ótico de Caracteres,
+
+00:03:39.620 --> 00:03:41.440
+que tira uma fotografia do texto
+
+00:03:41.440 --> 00:03:43.630
+e tenta descobrir que texto está lá.
+
+00:03:43.630 --> 00:03:45.870
+O problema é que o OCR não é perfeito.
+
+00:03:45.870 --> 00:03:47.860
+Especialmente para livros mais antigos
+
+00:03:47.860 --> 00:03:50.090
+com tinta a falhar
+e páginas amareladas,
+
+00:03:50.090 --> 00:03:52.530
+OCR não consegue reconhecer
+muitas das palavras.
+
+00:03:52.530 --> 00:03:54.900
+Nas coisas que foram escritas
+há mais de 50 anos,
+
+00:03:54.900 --> 00:03:57.460
+o computador não reconhece
+cerca de 30% das palavras.
+
+00:03:57.460 --> 00:03:59.290
+Portanto, extraímos todas as palavras
+
+00:03:59.290 --> 00:04:01.360
+que o computador não consegue reconhecer
+
+00:04:01.360 --> 00:04:03.550
+e pomos pessoas a lê-las para nós
+
+00:04:03.550 --> 00:04:06.030
+enquanto escrevem um CAPTCHA na Internet.
+
+00:04:06.030 --> 00:04:08.560
+Quando escreverem um CAPTCHA,
+a palavra que escreverem
+
+00:04:08.560 --> 00:04:11.580
+é uma palavra que sai de livros
+que estão a ser digitalizados
+
+00:04:11.580 --> 00:04:13.670
+e que o computador
+não conseguiu reconhecer.
+
+00:04:13.670 --> 00:04:15.760
+Agora temos duas palavras, em vez de uma,
+
+00:04:15.760 --> 00:04:18.270
+porque uma das palavras
+foi retirada de um livro
+
+00:04:18.270 --> 00:04:21.410
+que o sistema não conseguia ler.
+
+00:04:21.410 --> 00:04:25.260
+Mas como não sabe a resposta,
+não consegue dizer-vos que palavra é.
+
+00:04:25.260 --> 00:04:27.300
+Por isso, dá-vos outra palavra,
+
+00:04:27.300 --> 00:04:29.260
+para a qual o sistema conhece a resposta.
+
+00:04:29.260 --> 00:04:31.890
+Não dizemos qual é qual.
+Pedimos para escrever as duas.
+
+00:04:31.890 --> 00:04:33.550
+Se escreverem a palavra correta
+
+00:04:33.550 --> 00:04:35.430
+que o sistema já conhece,
+
+00:04:35.430 --> 00:04:37.260
+ele assume que vocês são humanos,
+
+00:04:37.260 --> 00:04:39.360
+e acha que escreveram bem a outra palavra.
+
+00:04:39.360 --> 00:04:41.920
+Se repetirmos este processo 
+com 10 pessoas diferentes
+
+00:04:41.920 --> 00:04:44.280
+e todas elas concordarem
+qual é a nova palavra,
+
+00:04:44.280 --> 00:04:46.980
+então temos mais uma palavra
+digitalizada corretamente.
+
+00:04:46.980 --> 00:04:48.650
+É assim que o sistema funciona.
+
+00:04:48.650 --> 00:04:51.100
+Desde que o lançámos
+há três ou quatro anos,
+
+00:04:51.100 --> 00:04:53.260
+muitos websites já começaram a mudar
+
+00:04:53.260 --> 00:04:55.260
+do CAPTCHA onde as pessoas perdiam tempo
+
+00:04:55.260 --> 00:04:57.890
+para o novo CAPTCHA,
+ajudando a digitalizar livros.
+
+00:04:57.890 --> 00:04:59.260
+Por exemplo, o Ticketmaster.
+
+00:04:59.260 --> 00:05:02.800
+Quando compram bilhetes no Ticketmaster,
+ajudam a digitalizar um livro.
+
+00:05:02.800 --> 00:05:04.520
+Facebook: Quando adicionam um amigo
+
+00:05:04.520 --> 00:05:06.370
+estão a ajudar a digitalizar um livro.
+
+00:05:06.370 --> 00:05:09.660
+O Twitter e cerca de 350 000 websites
+estão a usar o reCAPTCHA.
+
+00:05:09.660 --> 00:05:12.030
+O número de sites a usar 
+o reCAPTCHA é tão grande
+
+00:05:12.030 --> 00:05:15.260
+que o número de palavras que
+digitalizamos por dia é muito grande.
+
+00:05:15.260 --> 00:05:17.170
+É cerca de 100 milhões por dia,
+
+00:05:17.170 --> 00:05:20.920
+o que equivale 
+a dois milhões e meio de livros por ano.
+
+00:05:20.920 --> 00:05:22.850
+Tudo isto é feito, palavra-a-palavra
+
+00:05:22.850 --> 00:05:25.450
+apenas com a escrita 
+de CAPTCHAs na Internet.
+
+00:05:25.610 --> 00:05:28.790
+(Aplausos)
+
+00:05:32.260 --> 00:05:33.630
+Agora, claro,
+
+00:05:33.630 --> 00:05:36.500
+já que estamos a conseguir
+tantas palavras por dia,
+
+00:05:36.500 --> 00:05:38.680
+podem acontecer situações engraçadas.
+
+00:05:38.680 --> 00:05:40.260
+Estamos a dar às pessoas
+
+00:05:40.260 --> 00:05:42.870
+duas palavras escolhidas 
+ao acaso, em conjunto.
+
+00:05:42.870 --> 00:05:44.910
+Podem acontecer coisas engraçadas.
+
+00:05:44.910 --> 00:05:46.880
+Por exemplo, demos a palavra "cristãos".
+
+00:05:46.880 --> 00:05:48.440
+Nada de especial.
+
+00:05:48.440 --> 00:05:51.260
+Mas se a apresentarmos
+com outra escolhida ao acaso,
+
+00:05:51.260 --> 00:05:53.260
+podem acontecer coisas más.
+
+00:05:53.260 --> 00:05:55.260
+Por exemplo. [Maus cristãos]
+
+00:05:55.520 --> 00:05:58.520
+Mas pior ainda, porque o site
+em que mostrámos isto
+
+00:05:58.520 --> 00:06:01.660
+calhou chamar-se 
+"A Embaixada do Reino de Deus".
+
+00:06:01.660 --> 00:06:04.320
+(Risos)
+
+00:06:08.260 --> 00:06:10.260
+Aqui está outra bem má.
+
+00:06:10.770 --> 00:06:12.390
+JohnEdwards.com
+
+00:06:12.520 --> 00:06:14.230
+[Maldito liberal]
+
+00:06:14.320 --> 00:06:16.460
+(Risos)
+
+00:06:17.770 --> 00:06:20.260
+Estamos sempre a insultar
+pessoas por todo o lado.
+
+00:06:20.730 --> 00:06:22.770
+Mas não estamos só a insultar pessoas.
+
+00:06:22.770 --> 00:06:25.630
+Como apresentamos duas palavras
+escolhidas ao acaso,
+
+00:06:25.630 --> 00:06:27.980
+podem acontecer coisas interessantes.
+
+00:06:27.980 --> 00:06:31.690
+Isto gerou um burburinho famoso na Internet
+
+00:06:31.690 --> 00:06:34.260
+em que já participaram
+dezenas de milhares de pessoas
+
+00:06:34.260 --> 00:06:36.500
+que se chama: "CAPTCHA art".
+
+00:06:36.500 --> 00:06:38.460
+Já devem ter ouvido falar nele.
+
+00:06:38.460 --> 00:06:40.260
+Funciona assim:
+
+00:06:40.260 --> 00:06:42.150
+Imaginem que veem um CAPTCHA
+
+00:06:42.150 --> 00:06:44.260
+que acham que é, 
+de certa forma, esquisito,
+
+00:06:44.260 --> 00:06:45.493
+como este CAPTCHA
+
+00:06:45.493 --> 00:06:46.926
+[Torradeira invisível]
+
+00:06:46.926 --> 00:06:48.980
+Depois, supostamente,
+faz-se um printscreen.
+
+00:06:48.980 --> 00:06:50.490
+e preenchem o CAPTCHA,
+
+00:06:50.490 --> 00:06:52.660
+porque estão a ajudar
+a digitalizar um livro.
+
+00:06:52.660 --> 00:06:54.840
+Mas depois, fazem o printscreen
+
+00:06:54.840 --> 00:06:57.180
+e desenham algo relacionado com ele.
+
+00:06:57.180 --> 00:06:58.550
+(Risos)
+
+00:06:59.040 --> 00:07:01.090
+É assim que funciona.
+
+00:07:01.260 --> 00:07:04.260
+Há dezenas de milhares destes.
+
+00:07:04.260 --> 00:07:05.763
+Alguns são adoráveis.
+
+00:07:05.763 --> 00:07:07.066
+[consegui-o]
+
+00:07:07.066 --> 00:07:08.410
+(Risos)
+
+00:07:09.320 --> 00:07:11.200
+Outros são mais divertidos.
+
+00:07:11.200 --> 00:07:13.260
+[Fundadores pedrados]
+
+00:07:13.260 --> 00:07:15.590
+(Risos)
+
+00:07:16.260 --> 00:07:17.850
+E alguns deles,
+
+00:07:17.850 --> 00:07:20.690
+como "paleontological shvisle"
+
+00:07:21.260 --> 00:07:23.440
+contêm o Snoop Dogg.
+
+00:07:23.440 --> 00:07:25.650
+(Risos)
+
+00:07:26.260 --> 00:07:28.650
+Ok, este é o meu número
+preferido do reCAPTCHA.
+
+00:07:28.650 --> 00:07:31.410
+É a minha coisa preferida
+em todo este projeto.
+
+00:07:31.410 --> 00:07:34.260
+É o número de pessoas
+que nos ajudaram a digitalizar
+
+00:07:34.260 --> 00:07:36.960
+pelo menos uma palavra de um livro
+através do reCAPTCHA:
+
+00:07:36.960 --> 00:07:38.380
+750 mil milhões,
+
+00:07:38.380 --> 00:07:40.380
+um pouco mais de 10%
+da população mundial,
+
+00:07:40.380 --> 00:07:42.880
+que nos ajudou a digitalizar
+o conhecimento humano.
+
+00:07:42.880 --> 00:07:45.530
+São números como estes
+que motivam a minha investigação.
+
+00:07:45.530 --> 00:07:48.260
+A questão que motiva 
+a minha investigação é esta:
+
+00:07:48.260 --> 00:07:50.580
+Se virmos as grandes
+conquistas da humanidade,
+
+00:07:50.580 --> 00:07:52.370
+as coisas realmente grandiosas
+
+00:07:52.370 --> 00:07:55.130
+em que a humanidade
+se juntou e fez história
+
+00:07:55.140 --> 00:07:57.660
+— como a construção
+das pirâmides do Egipto
+
+00:07:57.660 --> 00:07:59.530
+ou do canal do Panamá
+
+00:07:59.530 --> 00:08:01.370
+ou pôr um homem na Lua —
+
+00:08:01.370 --> 00:08:03.390
+há um facto curioso relacionado com elas:
+
+00:08:03.390 --> 00:08:06.030
+todas foram feitas com quase
+o mesmo número de pessoas.
+
+00:08:06.030 --> 00:08:09.110
+É estranho; todas foram feitas
+com cerca de 100 000 pessoas.
+
+00:08:09.110 --> 00:08:11.450
+E a razão para isso é que,
+antes da Internet,
+
+00:08:11.450 --> 00:08:14.290
+coordenar mais do que 100 000 pessoas,
+
+00:08:14.290 --> 00:08:16.760
+quanto mais, pagar-lhes, 
+era quase impossível.
+
+00:08:16.760 --> 00:08:19.140
+Mas agora, com a Internet,
+mostrei um projeto
+
+00:08:19.140 --> 00:08:20.940
+em que temos 750 milhões de pessoas
+
+00:08:20.940 --> 00:08:23.340
+que nos ajudam a digitalizar
+o conhecimento humano.
+
+00:08:23.340 --> 00:08:25.470
+Assim, o motive da minha investigação é:
+
+00:08:25.470 --> 00:08:28.120
+se conseguimos pôr um homem
+na Lua com 100 000 pessoas,
+
+00:08:28.120 --> 00:08:30.320
+o que conseguiremos fazer com 100 milhões?
+
+00:08:30.320 --> 00:08:31.440
+Com base nesta questão,
+
+00:08:31.440 --> 00:08:33.940
+estamos a trabalhar
+em muitos projetos diferentes
+
+00:08:33.940 --> 00:08:36.330
+Vou falar-vos sobre aquele
+que mais me entusiasma.
+
+00:08:36.330 --> 00:08:39.130
+É uma coisa em que temos estado
+a trabalhar discretamente
+
+00:08:39.130 --> 00:08:41.090
+no último ano e meio.
+
+00:08:41.090 --> 00:08:43.210
+Ainda não foi lançado. Chama-se Duolingo.
+
+00:08:43.210 --> 00:08:45.180
+Como ainda não foi lançado, shhhhh!
+
+00:08:45.180 --> 00:08:46.550
+(Risos)
+
+00:08:46.550 --> 00:08:48.560
+Sim, confio que vão fazer isso.
+
+00:08:48.850 --> 00:08:50.550
+O projeto é este. Começou assim.
+
+00:08:50.550 --> 00:08:53.280
+Fiz uma pergunta
+a um estudante já licenciado,
+
+00:08:53.280 --> 00:08:54.730
+Severin Hacker.
+
+00:08:54.730 --> 00:08:56.210
+Este é o Severin Hacker.
+
+00:08:56.210 --> 00:08:57.590
+(Risos)
+
+00:08:57.590 --> 00:08:59.260
+Fiz uma pergunta ao meu aluno.
+
+00:08:59.260 --> 00:09:00.810
+Já agora, vocês ouviram bem,
+
+00:09:00.810 --> 00:09:02.660
+o apelido dele é Hacker.
+
+00:09:02.660 --> 00:09:04.310
+Fiz-lhe esta pergunta:
+
+00:09:04.500 --> 00:09:06.820
+"Como conseguir que 100 milhões de pessoas
+
+00:09:06.820 --> 00:09:09.680
+"traduzam a web, de graça,
+para as principais línguas?"
+
+00:09:10.000 --> 00:09:12.010
+Há muitas coisas a dizer acerca disto.
+
+00:09:12.010 --> 00:09:13.840
+Em primeiro lugar: traduzir a Web.
+
+00:09:13.840 --> 00:09:16.380
+A web está dividida em várias línguas.
+
+00:09:16.400 --> 00:09:18.530
+Uma grande parte dela está em inglês.
+
+00:09:18.530 --> 00:09:20.980
+Se não soubermos inglês,
+não conseguimos percebê-la.
+
+00:09:20.980 --> 00:09:22.890
+Mas há grandes frações noutras línguas.
+
+00:09:22.890 --> 00:09:25.420
+Se não soubermos essas línguas, 
+não as percebemos.
+
+00:09:25.420 --> 00:09:28.500
+Por isso, gostaria de traduzir toda a web,
+ou a maior parte dela,
+
+00:09:28.500 --> 00:09:30.260
+em todas as línguas principais.
+
+00:09:30.260 --> 00:09:32.260
+É o que eu gostaria fazer.
+
+00:09:32.260 --> 00:09:33.560
+Poderão dizer:
+
+00:09:33.560 --> 00:09:36.070
+"Porque é que não usamos
+computadores para traduzir?
+
+00:09:36.070 --> 00:09:37.510
+"ou tradução automática?
+
+00:09:37.510 --> 00:09:40.340
+"A tradução automática já começa
+a traduzir algumas frases.
+
+00:09:40.340 --> 00:09:42.130
+"Porque não usá-la para toda a web?"
+
+00:09:42.130 --> 00:09:44.240
+O problema é que ela
+ainda não é grande coisa
+
+00:09:44.240 --> 00:09:46.420
+nem o será, nos próximos 15 ou 20 anos.
+
+00:09:46.420 --> 00:09:47.980
+Faz imensos erros.
+
+00:09:47.980 --> 00:09:51.790
+Por causa disso, não sabemos
+se podemos confiar nela ou não
+
+00:09:52.290 --> 00:09:54.020
+Vou mostrar-vos um exemplo
+
+00:09:54.020 --> 00:09:56.460
+duma coisa que foi traduzida
+automaticamente.
+
+00:09:56.460 --> 00:09:58.600
+Tratava-se de um post de um fórum.
+
+00:09:58.600 --> 00:10:01.700
+Alguém queria fazer uma pergunta
+sobre JavaScript.
+
+00:10:01.700 --> 00:10:04.260
+Foi traduzida de japonês para inglês.
+
+00:10:04.310 --> 00:10:06.780
+[...Agradeço computador traduzir ajudar.
+Desculpem!]
+
+00:10:06.850 --> 00:10:08.660
+Esta pessoa começa por pedir desculpa
+
+00:10:08.690 --> 00:10:10.700
+por estar a traduzir com um computador.
+
+00:10:10.700 --> 00:10:13.010
+A próxima frase é o preâmbulo da questão.
+
+00:10:14.460 --> 00:10:16.000
+Está apenas a explicar.
+
+00:10:16.000 --> 00:10:18.260
+Lembrem-se, é uma questão 
+sobre o JavaScript.
+
+00:10:18.800 --> 00:10:22.980
+[Frequentemente, o tempo de cabra
+instalar um erro é vómito".)
+
+00:10:23.160 --> 00:10:25.960
+(Risos)
+
+00:10:27.260 --> 00:10:29.950
+Depois vem a primeira parte da pergunta.
+
+00:10:29.950 --> 00:10:33.480
+[Quantas vezes como o vento,
+um polo, e o dragão?)
+
+00:10:33.540 --> 00:10:35.540
+(Risos)
+
+00:10:36.840 --> 00:10:39.050
+Depois vem a minha parte
+preferida da pergunta
+
+00:10:39.050 --> 00:10:42.260
+[Este insulto às pedras do pai?]
+
+00:10:42.260 --> 00:10:44.260
+(Risos)
+
+00:10:44.490 --> 00:10:47.260
+E por fim, a minha parte favorita
+disto tudo.
+
+00:10:47.620 --> 00:10:51.400
+[Por favor peçam desculpa 
+pela vossa estupidez. Há imensos obrigado]
+
+00:10:51.400 --> 00:10:53.240
+(Risos)
+
+00:10:53.450 --> 00:10:56.030
+A tradução por computadores,
+ainda não é grande coisa.
+
+00:10:56.030 --> 00:10:58.160
+Voltando à nossa questão:
+
+00:10:58.160 --> 00:11:00.560
+Precisamos de pessoas
+que traduzam toda a web.
+
+00:11:00.560 --> 00:11:02.440
+A próxima pergunta que podem ter é,
+
+00:11:02.440 --> 00:11:04.920
+"Porque é que não pagamos a pessoas
+para fazer isto?
+
+00:11:04.920 --> 00:11:08.100
+Podíamos pagar a tradutores profissionais
+para traduzir toda a web.
+
+00:11:08.100 --> 00:11:11.060
+Podíamos fazer isso
+mas seria extremamente caro.
+
+00:11:11.260 --> 00:11:15.030
+Por exemplo: traduzir uma fração
+minúscula de toda a web, a Wikipédia,
+
+00:11:15.030 --> 00:11:17.280
+para uma outra língua, o espanhol.
+
+00:11:17.540 --> 00:11:19.730
+A Wikipédia existe em espanhol,
+
+00:11:19.730 --> 00:11:22.110
+mas é muito pequena
+quando comparada com o inglês.
+
+00:11:22.110 --> 00:11:23.840
+É cerca de 20% do tamanho em inglês.
+
+00:11:23.840 --> 00:11:26.420
+Se quiséssemos traduzir 
+os outros 80% para espanhol,
+
+00:11:26.420 --> 00:11:28.960
+custar-nos-ia, pelo menos,
+50 milhões de dólares,
+
+00:11:28.960 --> 00:11:31.540
+mesmo no país fornecedor
+mais explorado que existe.
+
+00:11:32.360 --> 00:11:33.840
+Seria extremamente caro.
+
+00:11:33.840 --> 00:11:36.250
+Queremos que haja 100 milhões de pessoas
+
+00:11:36.250 --> 00:11:39.180
+a traduzir a web, de graça,
+em todas as línguas principais,
+
+00:11:39.260 --> 00:11:40.660
+Se queremos fazer isto,
+
+00:11:40.660 --> 00:11:43.260
+percebemos logo que há
+duas barreiras bem grandes,
+
+00:11:43.260 --> 00:11:45.260
+dois grandes obstáculos.
+
+00:11:45.460 --> 00:11:48.260
+A primeira é a falta de bilingues.
+
+00:11:49.050 --> 00:11:52.150
+Nem sei se existem 100 milhões
+de utilizadores da web
+
+00:11:52.170 --> 00:11:55.220
+que sejam suficientemente bilingues
+para nos ajudar a traduzir.
+
+00:11:55.580 --> 00:11:57.260
+Esse é um grande problema.
+
+00:11:57.260 --> 00:11:59.680
+Outro problema é a falta de motivação.
+
+00:11:59.680 --> 00:12:01.450
+Como é que vamos motivar as pessoas
+
+00:12:01.450 --> 00:12:03.760
+a traduzir a web de graça?
+
+00:12:03.760 --> 00:12:06.560
+Normalmente, é preciso pagar para isso.
+
+00:12:06.560 --> 00:12:09.140
+Como é que as vamos motivar
+para o fazerem de graça?
+
+00:12:09.140 --> 00:12:11.830
+A princípio, ficámos bloqueados
+por estes dois aspetos.
+
+00:12:11.830 --> 00:12:13.780
+Mas depois percebemos
+que há uma maneira
+
+00:12:13.780 --> 00:12:16.190
+de resolver ambos os problemas
+com a mesma solução.
+
+00:12:16.190 --> 00:12:18.700
+Podemos matar dois coelhos
+só com uma cajadada.
+
+00:12:18.700 --> 00:12:20.550
+E isso faz-se transformando a tradução
+
+00:12:20.550 --> 00:12:23.400
+numa coisa que milhões
+de pessoas queiram fazer,
+
+00:12:23.400 --> 00:12:26.300
+e que também diminua
+o problema da falta de bilingues.
+
+00:12:26.820 --> 00:12:29.260
+Faz-se isso através
+da educação linguística.
+
+00:12:29.340 --> 00:12:30.930
+Acontece que, hoje em dia,
+
+00:12:30.930 --> 00:12:34.370
+há mais de 1,2mil milhões de pessoas
+a aprender uma língua estrangeira.
+
+00:12:34.370 --> 00:12:37.300
+As pessoas querem imenso
+aprender uma língua estrangeira.
+
+00:12:37.300 --> 00:12:39.850
+Não é por estarem a ser forçadas
+a aprender na escola.
+
+00:12:39.850 --> 00:12:42.470
+Só nos EUA, há mais
+de 5 milhões de pessoas
+
+00:12:42.470 --> 00:12:44.050
+que pagaram mais de 500 dólares
+
+00:12:44.050 --> 00:12:46.190
+por software para aprenderem
+uma nova língua.
+
+00:12:46.190 --> 00:12:48.500
+As pessoas querem mesmo
+aprender uma nova língua.
+
+00:12:48.500 --> 00:12:50.940
+Por isso, no último ano e meio, 
+temos trabalhado
+
+00:12:50.940 --> 00:12:52.660
+num novo website, chamado Duolingo,
+
+00:12:52.660 --> 00:12:56.150
+onde a ideia principal é que as pessoas
+aprendam uma nova língua de graça
+
+00:12:56.150 --> 00:12:57.970
+ao mesmo tempo que traduzem a web.
+
+00:12:58.330 --> 00:13:00.170
+Ou seja, aprendem fazendo.
+
+00:13:00.170 --> 00:13:01.590
+Funciona assim:
+
+00:13:01.590 --> 00:13:04.820
+quando se trata de um principiante,
+damos-lhe frases muito simples.
+
+00:13:04.820 --> 00:13:07.320
+Claro que há imensas frases
+simples na web.
+
+00:13:07.320 --> 00:13:10.480
+Frases muito simples juntamente
+com o significado de cada palavra.
+
+00:13:10.480 --> 00:13:14.150
+À medida que se traduz, à medida que se vê
+como as outras pessoas as traduzem,
+
+00:13:14.150 --> 00:13:15.720
+começa-se a aprender a língua.
+
+00:13:15.720 --> 00:13:17.640
+E à medida que vai avançando,
+
+00:13:17.640 --> 00:13:19.860
+damos-lhe frases mais complexas
+para traduzir.
+
+00:13:19.860 --> 00:13:21.980
+Mas está-se sempre a aprender fazendo.
+
+00:13:21.980 --> 00:13:25.160
+O que é invulgar neste método
+é que realmente funciona.
+
+00:13:25.180 --> 00:13:27.510
+Primeiro, as pessoas
+estão a aprender uma língua.
+
+00:13:27.510 --> 00:13:30.100
+Já acabámos de o construir,
+agora estamos a testá-lo.
+
+00:13:30.100 --> 00:13:31.730
+As pessoas aprendem uma língua
+
+00:13:31.730 --> 00:13:35.160
+tão bem como com o melhor software
+de aprendizagem de línguas.
+
+00:13:35.160 --> 00:13:36.970
+As pessoas aprendem mesmo uma língua.
+
+00:13:36.970 --> 00:13:38.570
+Não só aprendem uma língua,
+
+00:13:38.570 --> 00:13:40.300
+é muito mais interessante.
+
+00:13:40.300 --> 00:13:43.690
+Porque, com o Duolingo, as pessoas
+estão a aprender com conteúdos reais.
+
+00:13:43.690 --> 00:13:45.660
+Em vez de aprenderem com frases feitas,
+
+00:13:45.660 --> 00:13:48.710
+as pessoas aprendem 
+com um conteúdo real, que é interessante.
+
+00:13:48.710 --> 00:13:51.000
+As pessoas aprendem uma língua.
+
+00:13:51.000 --> 00:13:53.040
+Mas talvez mais surpreendente do que isso,
+
+00:13:53.040 --> 00:13:55.860
+as traduções que obtemos
+através dos utilizadores do site,
+
+00:13:55.860 --> 00:13:57.630
+embora sejam de principiantes,
+
+00:13:57.630 --> 00:14:00.990
+são tão precisas como as 
+dos tradutores linguísticos profissionais,
+
+00:14:00.990 --> 00:14:02.810
+o que é bastante surpreendente.
+
+00:14:02.810 --> 00:14:04.260
+Vou mostrar-vos um exemplo.
+
+00:14:04.260 --> 00:14:06.570
+Esta frase foi traduzida 
+de alemão para inglês.
+
+00:14:06.570 --> 00:14:08.390
+A de cima, é o original em alemão.
+
+00:14:08.390 --> 00:14:10.640
+A do meio, é uma tradução em inglês
+
+00:14:10.640 --> 00:14:12.890
+feita por um tradutor profissional inglês
+
+00:14:12.890 --> 00:14:15.390
+a quem pagámos 20 cêntimos
+por palavra pela tradução.
+
+00:14:15.390 --> 00:14:18.100
+A de baixo, é a tradução
+dos utilizadores do Duolingo,
+
+00:14:18.100 --> 00:14:20.050
+nenhum dos quais sabia alemão
+
+00:14:20.050 --> 00:14:21.850
+antes de começar a usar o site.
+
+00:14:21.850 --> 00:14:23.600
+Como podem ver, é quase perfeita.
+
+00:14:23.600 --> 00:14:25.200
+Claro que usamos aqui um truque
+
+00:14:25.200 --> 00:14:28.550
+para tornar as traduções tão boas
+como as dos tradutores profissionais.
+
+00:14:28.550 --> 00:14:30.780
+Combinamos as traduções
+de vários principiantes
+
+00:14:30.780 --> 00:14:34.010
+para conseguir a qualidade
+de um único tradutor profissional.
+
+00:14:34.010 --> 00:14:38.260
+Embora estejamos a combinar as traduções,
+
+00:14:38.260 --> 00:14:40.910
+o website consegue traduzir
+de forma bastante rápida.
+
+00:14:40.910 --> 00:14:42.570
+Vou mostrar a nossa estimativa
+
+00:14:42.570 --> 00:14:44.520
+quanto à rapidez da tradução da Wikipédia
+
+00:14:44.520 --> 00:14:46.420
+de inglês para espanhol.
+
+00:14:46.890 --> 00:14:49.500
+Lembrem-se, isto vale
+50 milhões de dólares.
+
+00:14:49.500 --> 00:14:51.500
+A tradução da Wikipédia para espanhol,
+
+00:14:51.500 --> 00:14:54.780
+podia ser feita, em cinco semanas,
+com 100 000 utilizadores ativos,
+
+00:14:54.780 --> 00:14:57.680
+em cerca de 80 horas, com um milhão
+de utilizadores ativos.
+
+00:14:57.680 --> 00:15:01.440
+Como todos os projetos em que temos
+trabalhado tiveram milhões de utilizadores,
+
+00:15:01.440 --> 00:15:03.510
+temos esperança que conseguiremos traduzir
+
+00:15:03.510 --> 00:15:05.390
+muito depressa, com este projeto.
+
+00:15:05.390 --> 00:15:07.710
+A coisa que mais me entusiasma no Duolingo
+
+00:15:07.710 --> 00:15:10.530
+é que penso que isto proporciona
+um modelo de negócio justo
+
+00:15:10.530 --> 00:15:12.000
+para a educação linguística.
+
+00:15:12.240 --> 00:15:14.580
+No atual modelo 
+para a educação linguística,
+
+00:15:14.580 --> 00:15:16.430
+o aluno paga, ou seja,
+
+00:15:16.430 --> 00:15:19.410
+o aluno paga 500 dólares à Rosetta Stone.
+
+00:15:19.410 --> 00:15:20.880
+(Risos)
+
+00:15:21.620 --> 00:15:23.560
+Este é o modelo de negócio atual.
+
+00:15:23.560 --> 00:15:25.390
+O problema deste modelo de negócio
+
+00:15:25.390 --> 00:15:28.320
+é que 95% da população mundial
+não tem 500 dólares.
+
+00:15:28.320 --> 00:15:31.250
+Por isso, é extremamente injusto 
+para os mais pobres.
+
+00:15:31.250 --> 00:15:33.370
+É completamente favorecedor dos ricos.
+
+00:15:33.370 --> 00:15:35.080
+Agora vejam, no Duolingo,
+
+00:15:35.080 --> 00:15:36.770
+como, enquanto aprendem,
+
+00:15:36.770 --> 00:15:39.710
+estão a criar valor,
+estão a traduzir coisas
+
+00:15:39.710 --> 00:15:42.480
+que podíamos cobrar a alguém 
+pelas traduções.
+
+00:15:42.480 --> 00:15:44.650
+É assim que poderíamos valorizar isto.
+
+00:15:44.650 --> 00:15:47.580
+Como as pessoas estão a criar valor
+enquanto estão a aprender,
+
+00:15:47.580 --> 00:15:49.710
+não têm de pagar nada,
+pagam com o seu tempo.
+
+00:15:49.710 --> 00:15:52.610
+O que é mágico aqui é que elas estão
+a pagar com o seu tempo,
+
+00:15:52.610 --> 00:15:55.370
+mas é o tempo que teriam de gastar
+de qualquer maneira
+
+00:15:55.370 --> 00:15:56.790
+a aprender a língua.
+
+00:15:56.790 --> 00:16:00.040
+O Duolingo é bom porque proporciona
+um modelo de negócio justo
+
+00:16:00.040 --> 00:16:01.960
+que não discrimina as pessoas pobres.
+
+00:16:02.190 --> 00:16:03.736
+O site é este.
+
+00:16:03.776 --> 00:16:05.213
+(Aplausos)
+
+00:16:05.363 --> 00:16:08.160
+Obrigado.
+
+00:16:12.500 --> 00:16:14.110
+O site é este.
+
+00:16:14.110 --> 00:16:15.720
+Ainda não o lançámos,
+
+00:16:15.720 --> 00:16:19.250
+mas se forem lá, podem inscrever-se
+para fazer parte do nosso beta privado,
+
+00:16:19.250 --> 00:16:21.690
+que irá começar dentro
+de três ou quatro semanas.
+
+00:16:21.690 --> 00:16:23.330
+Ainda não lançámos este Duolingo.
+
+00:16:23.330 --> 00:16:24.850
+Já agora, eu sou um porta-voz.
+
+00:16:24.850 --> 00:16:27.220
+O Duolingo é o trabalho
+de uma equipa fantástica,
+
+00:16:27.220 --> 00:16:28.930
+estão aqui alguns dos seus membros.
+
+00:16:28.990 --> 00:16:30.140
+Obrigado.
+
+00:16:30.210 --> 00:16:33.150
+(Aplausos)
+

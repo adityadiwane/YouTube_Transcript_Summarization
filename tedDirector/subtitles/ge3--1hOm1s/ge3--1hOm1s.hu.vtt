@@ -1,0 +1,785 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Péter Pallós
+Lektor: Maria Ruzsane Cseresnyes
+
+00:00:13.280 --> 00:00:16.936
+A laboromban önálló 
+légi robotokat építünk.
+
+00:00:16.960 --> 00:00:18.840
+Olyanokat, mint amely itt röpköd.
+
+00:00:20.720 --> 00:00:24.416
+A kereskedelemben ma kapható 
+drónoktól eltérően
+
+00:00:24.440 --> 00:00:27.080
+ebben a robotban egyáltalán nincs GPS.
+
+00:00:28.160 --> 00:00:29.376
+GPS nélkül
+
+00:00:29.400 --> 00:00:32.680
+az ilyen robotnak nem könnyű 
+meghatároznia a helyzetét.
+
+00:00:34.240 --> 00:00:38.976
+Ez a robot a benne lévő érzékelőket - 
+kamerákat és lézerszkennereket - használja
+
+00:00:39.000 --> 00:00:40.696
+a környezetének letapogatására.
+
+00:00:40.720 --> 00:00:43.776
+Észleli a környezet jellegzetességeit,
+
+00:00:43.800 --> 00:00:46.536
+s a helyzetét hozzájuk képest 
+határozza meg
+
+00:00:46.560 --> 00:00:48.696
+a háromszögelés módszerével.
+
+00:00:48.720 --> 00:00:52.176
+Azután a robot ezeket 
+a jellegzetességeket térképbe egyesíti.
+
+00:00:52.200 --> 00:00:53.936
+Mögöttem ezt láthatják.
+
+00:00:53.960 --> 00:00:57.896
+A robot a térképből tudja, 
+hogy hol vannak akadályok,
+
+00:00:57.920 --> 00:01:00.640
+és ütközés nélkül kormányozza magát.
+
+00:01:01.160 --> 00:01:03.256
+Szeretnék a következőkben bemutatni
+
+00:01:03.280 --> 00:01:06.496
+a laborunkban elvégzett néhány kísérletet,
+
+00:01:06.520 --> 00:01:10.000
+amelyben a robot nagyobb távolságok 
+megtételére volt képes.
+
+00:01:10.400 --> 00:01:15.416
+A jobb fölső sarokban látják, 
+hogy mit észlel a robot kamerája.
+
+00:01:15.440 --> 00:01:16.656
+A nagy képernyőn —
+
+00:01:16.680 --> 00:01:19.136
+persze, négyszeresére fölgyorsítva —,
+
+00:01:19.160 --> 00:01:21.827
+ahogy a robot kidolgozza a térképet.
+
+00:01:21.851 --> 00:01:26.136
+Ez a nagy felbontású térkép 
+laborunk folyosóját ábrázolja.
+
+00:01:26.160 --> 00:01:28.496
+Mindjárt látják, ahogy beröpül a laborba,
+
+00:01:28.520 --> 00:01:31.376
+láthatják az okozott zűrzavarból.
+
+00:01:31.400 --> 00:01:32.416
+(Nevetés)
+
+00:01:32.440 --> 00:01:34.447
+De mindebben a lényeg,
+
+00:01:34.472 --> 00:01:38.056
+hogy a robotok 5 centi felbontású,
+
+00:01:38.080 --> 00:01:40.576
+azaz nagy felbontású térképek 
+kidolgozására képesek,
+
+00:01:40.600 --> 00:01:44.776
+ami a laboron vagy az épületen kívül 
+tartózkodóknak is lehetővé teszi
+
+00:01:44.800 --> 00:01:48.016
+a térképezést, s ehhez nem kell bemenniük.
+
+00:01:48.040 --> 00:01:51.800
+Így következtetni tudnak arra, 
+mi történik benn.
+
+00:01:52.400 --> 00:01:54.640
+Ám ezekkel a robotokkal 
+van egy pár bökkenő.
+
+00:01:55.600 --> 00:01:57.800
+Az első gond, hogy elég nagy.
+
+00:01:58.120 --> 00:01:59.800
+Mivel nagy, súlyos is.
+
+00:02:00.640 --> 00:02:03.680
+Ezek a robotok kilogrammonként 
+220 wattot fogyasztanak.
+
+00:02:04.360 --> 00:02:06.640
+Ezért csak rövid távú feladatokra 
+alkalmasak.
+
+00:02:08.000 --> 00:02:09.456
+A másik gond,
+
+00:02:09.480 --> 00:02:13.376
+hogy a robotokban lévő érzékelők -
+a kamera, a lézerszkenner,
+
+00:02:13.400 --> 00:02:16.840
+valamint a processzorok - nagyon drágák.
+
+00:02:17.280 --> 00:02:20.320
+Ez az egekbe viszi a robot árát.
+
+00:02:21.440 --> 00:02:24.096
+Így hát föltettük magunknak a kérdést:
+
+00:02:24.120 --> 00:02:27.896
+milyen készterméket vehetünk 
+elektronikai boltokban,
+
+00:02:27.920 --> 00:02:34.200
+amely olcsó, pihekönnyű, van rajta 
+érzékelő és számítógép?
+
+00:02:36.080 --> 00:02:38.736
+És föltaláltuk a repülő mobiltelefont.
+
+00:02:38.760 --> 00:02:40.696
+(Nevetés)
+
+00:02:40.720 --> 00:02:46.896
+Tehát robotunk készen kapható 
+Samsung Galaxy okostelefont használ,
+
+00:02:46.920 --> 00:02:50.936
+és csak egy áruházunkból letölthető 
+alkalmazás kell még hozzá.
+
+00:02:50.960 --> 00:02:55.176
+Most a robot a TED betűit olvassa be,
+
+00:02:55.200 --> 00:02:58.136
+figyeli a "T' és az "E" betűk sarkait,
+
+00:02:58.160 --> 00:03:01.640
+azután belőlük háromszögeléssel 
+kiindulva önállóan repül.
+
+00:03:02.720 --> 00:03:05.976
+A botkormány csak azért van itt, 
+hogy ha a robot meghülyülne,
+
+00:03:06.000 --> 00:03:07.416
+Giuseppe tudja semlegesíteni.
+
+00:03:07.440 --> 00:03:09.080
+(Nevetés)
+
+00:03:10.920 --> 00:03:14.736
+A kis robotok építésén kívül még
+
+00:03:14.760 --> 00:03:19.560
+kísérleteztünk az itt látható 
+energikus viselkedéssel is.
+
+00:03:19.920 --> 00:03:25.216
+Ez a robot 2-3 m/sec sebességgel repül,
+
+00:03:25.240 --> 00:03:28.736
+irányváltás közben zuhanva és keringve.
+
+00:03:28.760 --> 00:03:33.016
+A lényeg, hogy kisebb, 
+gyorsabb robotunk lehet,
+
+00:03:33.040 --> 00:03:36.000
+amely nagyon tagolt környezetben is repül.
+
+00:03:37.120 --> 00:03:39.176
+A következő filmen
+
+00:03:39.200 --> 00:03:45.096
+egy sast látnak, amint kecsesen 
+összehangolja a szárnya, szeme
+
+00:03:45.120 --> 00:03:49.416
+és lába mozgását, hogy kikapja 
+zsákmányát a vízből.
+
+00:03:49.440 --> 00:03:51.336
+A mi robotunk is tud halászni.
+
+00:03:51.360 --> 00:03:52.856
+(Nevetés)
+
+00:03:52.880 --> 00:03:56.936
+Esetünkben egy sajtos-sztékes 
+szendvicset kap el a levegőből.
+
+00:03:56.960 --> 00:03:59.360
+(Nevetés)
+
+00:03:59.680 --> 00:04:02.976
+Látják, hogy ez a robot 
+kb. 3 m/sec sebességgel mozog,
+
+00:04:03.000 --> 00:04:08.136
+ez nagyobb, mint egy gyaloglóé; 
+közben összehangolja karját, karmait
+
+00:04:08.160 --> 00:04:12.280
+és repülését hajszálpontos időzítéssel, 
+hogy végrehajtsa a műveletet.
+
+00:04:14.120 --> 00:04:15.336
+Egy másik kísérletben
+
+00:04:15.360 --> 00:04:19.016
+azt akarom bemutatni, hogyan 
+szabályozza a robot a mozgását,
+
+00:04:19.040 --> 00:04:21.416
+ha függő teherrel repül.
+
+00:04:21.440 --> 00:04:25.240
+A felfüggesztés itt hosszabb, 
+mint a keret magassága.
+
+00:04:25.680 --> 00:04:27.376
+A végrehajtás érdekében a robotnak
+
+00:04:27.400 --> 00:04:31.096
+le kell buknia, be kell állítania 
+a magasságát,
+
+00:04:31.120 --> 00:04:33.440
+és át kell lendítenie a terhet a kereten.
+
+00:04:38.920 --> 00:04:41.160
+De mindezt szerettük volna
+
+00:04:41.160 --> 00:04:44.256
+még kisebben is megcsinálni, 
+s ehhez a méhektől kaptunk ihletet.
+
+00:04:44.280 --> 00:04:47.356
+Ha a lassított felvételen 
+figyeljük a méheket,
+
+00:04:47.560 --> 00:04:51.790
+annyira parányiak, 
+a tehetetlenségük leheletnyi...
+
+00:04:51.790 --> 00:04:53.136
+(Nevetés)
+
+00:04:53.160 --> 00:04:56.696
+nem érdekli őket, 
+például visszapattannak a kezemről.
+
+00:04:56.720 --> 00:04:59.880
+Ez a pici robot a méhek viselkedését 
+utánozza.
+
+00:05:00.600 --> 00:05:01.816
+A kisebb egyben jobb is,
+
+00:05:01.840 --> 00:05:05.376
+mert a kisebb mérettel együtt jár
+a kisebb tehetetlenség.
+
+00:05:05.400 --> 00:05:06.936
+Kisebb tehetetlenség mellett
+
+00:05:06.960 --> 00:05:09.816
+(A robot zümmög, nevetés)
+
+00:05:09.840 --> 00:05:12.656
+pedig ellenállóbbak az ütközéssel szemben.
+
+00:05:12.680 --> 00:05:14.400
+Ezáltal masszívabbak.
+
+00:05:15.800 --> 00:05:18.456
+A méhekhez hasonló méretű 
+ilyen kis robotokat építünk.
+
+00:05:18.480 --> 00:05:21.856
+Konkrétan ennek csak 25 gramm a súlya.
+
+00:05:21.880 --> 00:05:24.040
+Csak 6 wattot fogyaszt.
+
+00:05:24.440 --> 00:05:26.976
+Maximum 6 m/sec sebességre képes.
+
+00:05:27.000 --> 00:05:29.336
+A méretéhez képest ez olyan,
+
+00:05:29.360 --> 00:05:33.000
+mintha a Boeing 787 tízszeres 
+hangsebességgel repülne.
+
+00:05:36.000 --> 00:05:38.096
+(Nevetés)
+
+00:05:38.120 --> 00:05:40.040
+Egy példát szeretnék mutatni.
+
+00:05:40.840 --> 00:05:46.096
+Bizonyára ez az első tervezett légi 
+ütközés, a sebesség huszadára lassítva.
+
+00:05:46.120 --> 00:05:48.978
+A robotok egymáshoz viszonyított 
+sebessége 2 m/sec,
+
+00:05:49.002 --> 00:05:51.482
+és a film szemlélteti az alapelvet.
+
+00:05:52.200 --> 00:05:57.176
+A kétgrammos szénszálas ketrec 
+a robot körül óvja a légcsavarokat,
+
+00:05:57.200 --> 00:06:02.496
+elnyeli az ütközést, s a robot reagál rá.
+
+00:06:02.520 --> 00:06:05.080
+Tehát a kicsi egyben biztonságos is.
+
+00:06:05.400 --> 00:06:07.416
+A laboromban a robotok fejlesztését
+
+00:06:07.440 --> 00:06:09.060
+ezekkel a nagy robotokkal kezdtük,
+
+00:06:09.084 --> 00:06:11.896
+mostanra viszont elértünk
+ezekhez a kicsikhez.
+
+00:06:11.920 --> 00:06:15.376
+Mennyi ragtapaszt kellett 
+vennünk a múltban!
+
+00:06:15.400 --> 00:06:17.976
+Mára ezzel már leállhattunk.
+
+00:06:18.000 --> 00:06:19.960
+Mert e robotok tényleg biztonságosak.
+
+00:06:20.760 --> 00:06:23.216
+A kis méretnek vannak hátrányai is,
+
+00:06:23.240 --> 00:06:27.320
+de a természet módot talált 
+az ellensúlyozásukra.
+
+00:06:27.960 --> 00:06:31.960
+Az alapgondolat: nagy csoportokba, 
+azaz rajokba szerveződnek.
+
+00:06:32.320 --> 00:06:36.296
+Ugyanígy, a laborban igyekszünk 
+mesterséges robotrajokat kialakítani.
+
+00:06:36.320 --> 00:06:37.701
+Nem könnyű feladat,
+
+00:06:37.725 --> 00:06:41.045
+mert most már robotok 
+hálózatával van dolgunk.
+
+00:06:41.360 --> 00:06:42.656
+Minden robot esetében
+
+00:06:42.680 --> 00:06:48.296
+gondoskodnunk kell a kommunikáció, az 
+érzékelés, és a számítások összhangjáról,
+
+00:06:48.320 --> 00:06:53.280
+és ettől a hálózatot elég nehéz lesz 
+szabályozni és kezelni.
+
+00:06:54.160 --> 00:06:57.456
+Tehát a természettől 
+3 szervezőelvet kölcsönöztünk,
+
+00:06:57.480 --> 00:07:00.640
+amely lehetővé teszi 
+algoritmusaink fejlesztését.
+
+00:07:01.640 --> 00:07:06.176
+Az első elv: a robotoknak figyelemmel 
+kell lenniük a szomszédjaikra.
+
+00:07:06.200 --> 00:07:09.640
+Érzékelniük kell őket, 
+és kommunikálni kell velük.
+
+00:07:10.040 --> 00:07:12.696
+A film szemlélteti az alapelvet.
+
+00:07:12.720 --> 00:07:14.016
+Négy robotunk van,
+
+00:07:14.040 --> 00:07:18.280
+egyiküket egy irányító személy 
+szó szerint eltérítette.
+
+00:07:19.217 --> 00:07:21.456
+De a robotok kapcsolatban 
+vannak egymással,
+
+00:07:21.480 --> 00:07:23.136
+így érzékelik a szomszédjaikat,
+
+00:07:23.160 --> 00:07:24.456
+és követik egymást.
+
+00:07:24.480 --> 00:07:29.840
+Egy személy vezetni képes 
+a követők hálózatát.
+
+00:07:32.000 --> 00:07:37.056
+Megint csak: nem azért, mintha 
+mindegyik tudná, merre kell mennie,
+
+00:07:37.080 --> 00:07:41.400
+hanem azért, mert reagálnak 
+a szomszédjaik helyzetére.
+
+00:07:43.720 --> 00:07:47.840
+(Nevetés)
+
+00:07:48.280 --> 00:07:53.520
+A következő kísérlet szemlélteti 
+a második szervezőelvet.
+
+00:07:54.920 --> 00:07:58.720
+Ez pedig az ismeretlenség
+elvével kapcsolatos.
+
+00:07:59.400 --> 00:08:03.696
+A fő gondolat,
+
+00:08:03.720 --> 00:08:07.960
+hogy a robotok nem foglalkoznak
+a szomszédjaik kilétével.
+
+00:08:08.440 --> 00:08:11.056
+Kört kellett alakítaniuk,
+
+00:08:11.080 --> 00:08:14.376
+és nem számít, hány robotot 
+iktatunk be az alakzatba
+
+00:08:14.400 --> 00:08:16.976
+vagy veszünk ki belőle,
+
+00:08:17.000 --> 00:08:20.136
+minden robot a szomszédjára reagál.
+
+00:08:20.160 --> 00:08:25.136
+Azt tudja csak, 
+hogy szomszédaival közösen,
+
+00:08:25.160 --> 00:08:27.006
+kört alakítva kell mozogniuk,
+
+00:08:27.006 --> 00:08:30.680
+anélkül, hogy kívülről irányítanák őket.
+
+00:08:31.520 --> 00:08:33.936
+Ha összerakjuk ezeket az elveket,
+
+00:08:33.960 --> 00:08:37.856
+a harmadik elv, hogy alapvetően 
+a kívánt alakzat matematikai leírását
+
+00:08:37.880 --> 00:08:42.176
+adjuk meg robotjaink számára.
+
+00:08:42.200 --> 00:08:45.696
+Azután az alakzatok az idő 
+függvényében változhatnak,
+
+00:08:45.720 --> 00:08:50.216
+s láthatják, hogy a robotok 
+először köralakot öltenek,
+
+00:08:50.240 --> 00:08:53.496
+majd négyszögletes formát, később 
+vonal alakzatot vesznek föl,
+
+00:08:53.520 --> 00:08:54.955
+utána ismét az ellipszisét.
+
+00:08:54.955 --> 00:08:58.536
+Egy pillanat alatt váltanak,
+
+00:08:58.560 --> 00:09:01.840
+ahogy az igazi rajok a természetben.
+
+00:09:03.080 --> 00:09:05.216
+Miért dolgozunk rajokkal?
+
+00:09:05.240 --> 00:09:09.360
+Két alkalmazást említek, 
+amelyek különösen érdekelnek minket.
+
+00:09:10.160 --> 00:09:12.536
+Az első a mezőgazdasággal kapcsolatos,
+
+00:09:12.560 --> 00:09:15.920
+ami valószínűleg a legnagyobb 
+probléma a világon.
+
+00:09:16.760 --> 00:09:18.016
+Mindannyian jól tudjuk,
+
+00:09:18.040 --> 00:09:21.560
+hogy minden hetedik ember éhezik.
+
+00:09:21.920 --> 00:09:25.400
+A megművelhető földek zömét 
+már eddig is művelték.
+
+00:09:25.960 --> 00:09:29.176
+A legtöbb rendszer hatékonysága növekszik,
+
+00:09:29.200 --> 00:09:32.720
+a termelési rendszereké 
+viszont csökken.
+
+00:09:33.080 --> 00:09:37.296
+A fő ok a vízhiány, az éghajlatváltozás 
+és a növénybetegségek,
+
+00:09:37.320 --> 00:09:38.840
+meg még egy pár dolog.
+
+00:09:39.360 --> 00:09:40.840
+Mit tehetnek a robotok?
+
+00:09:41.200 --> 00:09:45.816
+Nos, mi az ún. precíziós mezőgazdaság
+módszerét alkalmazzuk.
+
+00:09:45.840 --> 00:09:51.216
+Az alapelv, hogy a légi robotok 
+berepülik a gyümölcsösöket,
+
+00:09:51.240 --> 00:09:54.360
+és mi létrehozzuk az egyes 
+növények precíziós modelljét.
+
+00:09:54.829 --> 00:09:56.686
+Mint a személyre szabott gyógyításban,
+
+00:09:56.686 --> 00:10:01.336
+ahol minden beteget egyéni módon kezelnek.
+
+00:10:01.360 --> 00:10:05.056
+Szeretnénk létrehozni az egyes 
+növények modelljét,
+
+00:10:05.080 --> 00:10:09.216
+azután közölni a gazdával, 
+melyik növény mit igényel;
+
+00:10:09.240 --> 00:10:13.680
+esetünkben vizet, trágyát 
+vagy növényvédő szert.
+
+00:10:14.640 --> 00:10:18.256
+Itt a robotok az almáskertet járják be,
+
+00:10:18.280 --> 00:10:20.536
+és egy pillanat múlva két társát látják,
+
+00:10:20.560 --> 00:10:22.370
+amint ugyanazt csinálja a bal oldalon.
+
+00:10:22.800 --> 00:10:26.456
+Most állítják össze az almáskert térképét.
+
+00:10:26.480 --> 00:10:29.296
+A térkép tartalmazza a kertben lévő 
+valamennyi növényt.
+
+00:10:29.320 --> 00:10:30.976
+(A robot zümmög)
+
+00:10:31.000 --> 00:10:32.896
+Lássuk, hogy néznek ki a térképek.
+
+00:10:32.920 --> 00:10:37.216
+A következő film mutatja 
+a robotokban lévő kamerákat.
+
+00:10:37.240 --> 00:10:40.480
+A bal felső sarokban 
+egy szokásos színes kamera van.
+
+00:10:41.640 --> 00:10:44.936
+Bal oldalon, középtájon 
+egy infravörös kamera.
+
+00:10:44.960 --> 00:10:48.736
+Bal oldalon, lenn pedig egy hőkamera.
+
+00:10:48.760 --> 00:10:52.096
+A nagy képen láthatják 
+a kertben lévő minden egyes fa
+
+00:10:52.120 --> 00:10:58.240
+3D-s modelljét, miközben 
+az érzékelő elszáll a fák mellett.
+
+00:10:59.640 --> 00:11:03.680
+Ilyen információkkal fölfegyverkezve 
+több dolgot tehetünk.
+
+00:11:04.200 --> 00:11:08.456
+Az első és valószínűleg 
+a legfontosabb nagyon egyszerű:
+
+00:11:08.480 --> 00:11:10.920
+megszámolni az egyes fákon 
+lévő gyümölcsöket.
+
+00:11:11.520 --> 00:11:16.056
+Ezúton közöljük a gazdával, melyik 
+fáról hány gyümölcsre számíthat,
+
+00:11:16.080 --> 00:11:20.336
+és így megbecsülheti a terméshozamot,
+
+00:11:20.360 --> 00:11:23.200
+optimalizálhatja az értékesítési láncot.
+
+00:11:23.640 --> 00:11:25.256
+A másik, amit tehetünk,
+
+00:11:25.280 --> 00:11:29.776
+hogy modellezhetjük a növényeket, 
+3D-s modellt készíthetünk,
+
+00:11:29.800 --> 00:11:32.336
+és abból megítélhetjük 
+a lombkorona méretét,
+
+00:11:32.360 --> 00:11:36.136
+ami korrelál az egyes növényen lévő 
+levelek tömegével.
+
+00:11:36.160 --> 00:11:38.336
+Ezt nevezzük levélfelületi indexnek.
+
+00:11:38.360 --> 00:11:40.296
+Ha ismerjük a levélfelületi indexet,
+
+00:11:40.320 --> 00:11:45.776
+ebből adódik, hogy milyen mértékű 
+fotoszintézis lehetséges növényenként,
+
+00:11:45.800 --> 00:11:48.680
+s ez tájékoztat az egyes növények 
+egészségi állapotáról.
+
+00:11:49.520 --> 00:11:53.736
+A látható és az infravörös tartományból 
+nyert információ kombinálásával indexeket,
+
+00:11:53.760 --> 00:11:57.056
+pl. normalizált vegetációs differencia 
+indexet számíthatunk.
+
+00:11:57.080 --> 00:11:59.896
+Jelen esetben látható,
+
+00:11:59.920 --> 00:12:02.936
+hogy egyes növényeknek rosszabbul 
+megy a soruk, mint másoknak.
+
+00:12:02.960 --> 00:12:07.016
+Ez könnyen fölismerhető az ábrákból,
+
+00:12:07.040 --> 00:12:09.256
+nemcsak a látható zónáéból, 
+hanem a látható
+
+00:12:09.280 --> 00:12:12.056
+és az infravörös tartomány 
+kombinált ábrájából.
+
+00:12:12.080 --> 00:12:13.416
+Végezetül még egy dolog,
+
+00:12:13.440 --> 00:12:17.456
+ami érdekel minket, hogy kimutassuk
+a klorózist még a kezdeti szakaszban.
+
+00:12:17.480 --> 00:12:18.976
+Ez egy narancsfa,
+
+00:12:19.000 --> 00:12:21.560
+amelynek sárgulnak a levelei.
+
+00:12:21.880 --> 00:12:25.776
+De a felettük elrepülő robotok 
+ezt egyszerűen és önállóan észlelhetik,
+
+00:12:25.800 --> 00:12:28.736
+és közölhetik a gazdával, hogy baj van
+
+00:12:28.760 --> 00:12:30.280
+a kertnek ebben a részében.
+
+00:12:30.800 --> 00:12:33.496
+Az ilyen rendszerek tényleg segíthetnek,
+
+00:12:33.520 --> 00:12:39.336
+és olyan terméshozamot tervezünk, 
+amely kb. 10%-os javulást hoz,
+
+00:12:39.360 --> 00:12:42.576
+s ami még fontosabb, légi robotrajokkal
+
+00:12:42.600 --> 00:12:45.880
+az olyan igények, mint az öntözés 
+25%-kal csökkenthetők.
+
+00:12:47.200 --> 00:12:52.936
+Búcsúzóul kérem, hogy tapssal 
+köszöntsék a jövőteremtő kutatóinkat:
+
+00:12:52.960 --> 00:12:57.880
+Yash Mulgaonkart, Sikang Liút 
+és Giuseppe Loiannót.
+
+00:12:57.920 --> 00:13:01.416
+Ők vezették a három itteni bemutatót.
+
+00:13:01.440 --> 00:13:02.616
+Köszönöm.
+
+00:13:02.640 --> 00:13:08.560
+(Taps)
+

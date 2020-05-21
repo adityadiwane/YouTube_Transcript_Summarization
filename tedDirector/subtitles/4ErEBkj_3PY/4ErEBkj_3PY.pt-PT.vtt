@@ -1,0 +1,1108 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Maxwell Black
+Revisora: Margarida Ferreira
+
+00:00:20.680 --> 00:00:22.260
+Bom dia.
+
+00:00:22.970 --> 00:00:24.470
+Estou hoje aqui para falar
+
+00:00:24.470 --> 00:00:27.053
+de bolas de praia voadoras e autónomas.
+
+00:00:27.053 --> 00:00:28.206
+(Risos)
+
+00:00:28.206 --> 00:00:31.170
+Não! De robôs aéreos ágeis como este.
+
+00:00:31.820 --> 00:00:34.550
+Gostava de falar um pouco 
+dos desafios para os construir
+
+00:00:34.550 --> 00:00:36.890
+e de algumas das incríveis oportunidades
+
+00:00:36.890 --> 00:00:38.690
+para aplicar esta tecnologia.
+
+00:00:39.250 --> 00:00:43.600
+Estes robôs são parentes 
+dos veículos aéreos não tripulados.
+
+00:00:44.350 --> 00:00:46.680
+Contudo, os veículos 
+que veem aqui são grandes.
+
+00:00:47.400 --> 00:00:50.350
+Pesam milhares de quilos, 
+não são nada ágeis.
+
+00:00:50.870 --> 00:00:52.650
+Nem sequer são autónomos.
+
+00:00:53.150 --> 00:00:55.040
+Na verdade, muitos destes veículos
+
+00:00:55.040 --> 00:00:57.270
+são manobrados por tripulações
+
+00:00:57.270 --> 00:00:59.710
+que podem incluir vários pilotos,
+
+00:00:59.710 --> 00:01:01.930
+operadores de sensores
+
+00:01:01.930 --> 00:01:03.890
+e coordenadores de missão.
+
+00:01:03.890 --> 00:01:06.760
+Nós estamos interessados 
+em desenvolver robôs como estes.
+
+00:01:06.760 --> 00:01:08.850
+Estas são duas fotografias
+
+00:01:08.850 --> 00:01:11.170
+de robôs que podemos comprar numa loja.
+
+00:01:11.170 --> 00:01:13.700
+Estes são helicópteros com quatro rotores.
+
+00:01:14.680 --> 00:01:18.150
+Têm cerca de um metro de tamanho
+
+00:01:18.150 --> 00:01:19.910
+e pesam vários quilos.
+
+00:01:20.370 --> 00:01:23.540
+Colocamos-lhes sensores e processadores.
+
+00:01:23.540 --> 00:01:27.070
+Estes robôs podem voar 
+em locais fechados, sem GPS.
+
+00:01:27.610 --> 00:01:30.480
+O robô que tenho na minha mão é este
+
+00:01:31.290 --> 00:01:34.150
+e foi criado por dois estudantes,
+
+00:01:34.150 --> 00:01:36.340
+Alex e Daniel.
+
+00:01:36.690 --> 00:01:39.880
+Pesa um pouco mais de 45 gramas.
+
+00:01:39.880 --> 00:01:42.260
+Consome cerca de 15 watts de energia.
+
+00:01:42.270 --> 00:01:44.940
+E, como podem ver, 
+tem cerca de 20 cm de diâmetro.
+
+00:01:46.600 --> 00:01:49.270
+Vou dar uma breve explicação
+
+00:01:49.270 --> 00:01:51.260
+sobre como trabalham estes robôs.
+
+00:01:51.260 --> 00:01:52.730
+Têm quatro rotores.
+
+00:01:52.730 --> 00:01:55.820
+Se girarmos estes rotores 
+à mesma velocidade, o robô paira.
+
+00:01:56.570 --> 00:01:59.430
+Se aumentarmos a velocidade 
+de cada um destes rotores,
+
+00:02:00.010 --> 00:02:02.640
+o robô levanta voo, sobe acelerando.
+
+00:02:02.640 --> 00:02:05.320
+Claro, se o robô for inclinado
+
+00:02:05.320 --> 00:02:06.860
+no sentido horizontal,
+
+00:02:06.860 --> 00:02:09.260
+aceleraria nesta direção.
+
+00:02:09.790 --> 00:02:12.260
+Para rodar, há uma de duas formas.
+
+00:02:12.890 --> 00:02:14.410
+Nesta imagem
+
+00:02:14.410 --> 00:02:16.810
+podem ver que o rotor 4 roda mais rápido
+
+00:02:16.810 --> 00:02:18.850
+e o rotor 2 roda mais devagar.
+
+00:02:19.170 --> 00:02:20.690
+Quando isto acontece,
+
+00:02:20.690 --> 00:02:23.380
+isso faz com que o robô rode.
+
+00:02:24.760 --> 00:02:25.980
+E, ao contrário,
+
+00:02:25.980 --> 00:02:29.020
+se aumentarmos a velocidade do rotor 3
+
+00:02:29.020 --> 00:02:31.600
+e diminuirmos a velocidade do rotor 1,
+
+00:02:31.600 --> 00:02:33.720
+o robô vai para a frente.
+
+00:02:33.880 --> 00:02:35.180
+E, finalmente,
+
+00:02:35.180 --> 00:02:38.040
+se rodarmos um par de rotores opostos,
+
+00:02:38.040 --> 00:02:39.940
+mais rapidamente do que os outros dois,
+
+00:02:39.940 --> 00:02:42.010
+o robô começa a subir na vertical.
+
+00:02:42.660 --> 00:02:44.650
+Um processador incorporado
+
+00:02:44.650 --> 00:02:47.480
+observa os movimentos 
+que é preciso executar,
+
+00:02:47.480 --> 00:02:49.240
+combina estes movimentos
+
+00:02:49.240 --> 00:02:52.530
+e descobre quais os comandos 
+que deve enviar aos motores
+
+00:02:52.530 --> 00:02:54.010
+a 600 vezes por segundo.
+
+00:02:54.010 --> 00:02:55.930
+É basicamente assim que funciona.
+
+00:02:56.470 --> 00:02:58.740
+Portanto, uma das vantagens 
+deste modelo é que,
+
+00:02:58.740 --> 00:03:00.560
+quando diminuímos a escala das coisas,
+
+00:03:00.560 --> 00:03:03.090
+naturalmente o robô torna-se ágil.
+
+00:03:03.570 --> 00:03:05.490
+Aqui o R
+
+00:03:05.490 --> 00:03:07.780
+é o comprimento característico do robô,
+
+00:03:07.780 --> 00:03:09.620
+é metade do diâmetro.
+
+00:03:09.620 --> 00:03:12.580
+Há muitos parâmetros físicos que mudam,
+
+00:03:12.580 --> 00:03:14.930
+à medida que se reduz o R.
+
+00:03:14.930 --> 00:03:16.890
+O parâmetro mais importante
+
+00:03:16.890 --> 00:03:19.660
+é a inércia ou a resistência ao movimento.
+
+00:03:19.660 --> 00:03:22.060
+Acontece que a inércia,
+
+00:03:22.060 --> 00:03:24.270
+que controla o movimento angular,
+
+00:03:24.270 --> 00:03:26.710
+é proporcional à quinta potência de R.
+
+00:03:27.100 --> 00:03:29.060
+Portanto, quanto menor for R,
+
+00:03:29.060 --> 00:03:31.720
+menor será a inércia.
+
+00:03:31.720 --> 00:03:35.080
+Como resultado, a aceleração angular,
+
+00:03:35.080 --> 00:03:37.300
+descrita aqui com a letra grega alfa,
+
+00:03:37.300 --> 00:03:39.010
+passa a ser 1 sobre R.
+
+00:03:39.010 --> 00:03:40.780
+É inversamente proporcional a R.
+
+00:03:40.780 --> 00:03:43.640
+Quanto menor for, mais rapidamente 
+podemos fazê-lo virar.
+
+00:03:44.070 --> 00:03:46.200
+Isso é bastante visível nestes vídeos.
+
+00:03:46.200 --> 00:03:48.910
+Em baixo, à direita, vemos um robô
+
+00:03:48.910 --> 00:03:50.770
+a dar uma cambalhota de 360 graus
+
+00:03:50.770 --> 00:03:52.630
+em menos de meio segundo.
+
+00:03:52.880 --> 00:03:55.740
+Várias cambalhotas, demora um pouco mais.
+
+00:03:56.380 --> 00:03:58.370
+Portanto, aqui, os processadores a bordo
+
+00:03:58.370 --> 00:04:00.420
+recebem informações dos acelerómetros
+
+00:04:00.420 --> 00:04:01.710
+e dos giroscópios a bordo
+
+00:04:01.710 --> 00:04:04.270
+e calculam os comandos, 
+— como eu já disse —
+
+00:04:04.270 --> 00:04:05.820
+a 600 vezes por segundo,
+
+00:04:05.820 --> 00:04:07.740
+para estabilizar este robô.
+
+00:04:08.040 --> 00:04:10.970
+À esquerda, o Daniel 
+está a atirar o robô ao ar.
+
+00:04:10.970 --> 00:04:13.240
+Mostra quão robustos são os controlos.
+
+00:04:13.240 --> 00:04:14.750
+Seja como for que o atirarmos,
+
+00:04:14.750 --> 00:04:17.640
+o robô recupera e volta para ele.
+
+00:04:19.060 --> 00:04:21.040
+Para quê construir robôs destes?
+
+00:04:21.420 --> 00:04:23.930
+Bem, os robôs como este 
+têm muitas aplicações.
+
+00:04:24.420 --> 00:04:27.120
+Podem ser enviados para o interior
+de edifícios como este
+
+00:04:27.120 --> 00:04:30.570
+para procurar intrusos,
+
+00:04:30.570 --> 00:04:35.260
+talvez para procurar fugas de bioquímicos,
+fugas de gases.
+
+00:04:35.290 --> 00:04:39.007
+Também podemos usá-los
+na construção civil.
+
+00:04:39.010 --> 00:04:43.070
+Estes são robôs 
+a transportar vigas, colunas
+
+00:04:43.070 --> 00:04:45.640
+e a montar estruturas cúbicas.
+
+00:04:45.640 --> 00:04:48.260
+Vou falar-vos um pouco mais sobre isso.
+
+00:04:48.820 --> 00:04:51.260
+Os robôs podem ser usados 
+para transportar cargas.
+
+00:04:51.800 --> 00:04:54.470
+Um dos problemas com estes robôs pequenos
+
+00:04:54.470 --> 00:04:56.770
+é a sua capacidade de transportar cargas.
+
+00:04:56.770 --> 00:04:59.996
+É preciso ter vários robôs
+para transportar cargas.
+
+00:05:00.730 --> 00:05:03.410
+Esta é a fotografia duma experiência 
+recente que fizemos
+
+00:05:03.410 --> 00:05:05.050
+— agora já não é tão recente —
+
+00:05:05.050 --> 00:05:07.640
+em Sendai, pouco depois do terramoto.
+
+00:05:08.080 --> 00:05:11.200
+Estes robôs podem ser enviados 
+para os escombros
+
+00:05:11.200 --> 00:05:14.160
+para avaliar danos 
+depois de desastres naturais,
+
+00:05:14.160 --> 00:05:15.980
+ou enviados para centrais nucleares
+
+00:05:15.980 --> 00:05:18.260
+para mapear níveis de radiação.
+
+00:05:19.640 --> 00:05:22.000
+Um problema fundamental
+
+00:05:22.000 --> 00:05:24.780
+que os robôs têm que resolver 
+para serem autónomos
+
+00:05:24.780 --> 00:05:26.260
+é, essencialmente, descobrir
+
+00:05:26.260 --> 00:05:28.260
+como chegar do ponto A ao ponto B.
+
+00:05:29.020 --> 00:05:30.810
+Isso é um pequeno desafio
+
+00:05:30.810 --> 00:05:33.840
+porque as dinâmicas dos robôs 
+são bastante complicadas.
+
+00:05:33.840 --> 00:05:36.320
+Vivem num espaço de 12 dimensões.
+
+00:05:36.320 --> 00:05:38.140
+Portanto usamos um pequeno truque.
+
+00:05:38.140 --> 00:05:41.640
+Tomamos este espaço curvo de 12 dimensões
+
+00:05:41.640 --> 00:05:45.540
+e transformamo-lo num espaço plano 
+de quatro dimensões.
+
+00:05:45.560 --> 00:05:47.070
+Este espaço a quatro dimensões
+
+00:05:47.070 --> 00:05:49.890
+consiste em X, Y, Z 
+e o ângulo de inclinação.
+
+00:05:49.890 --> 00:05:55.560
+Este robô planeia o que chamamos 
+a trajetória de tração mínima.
+
+00:05:56.210 --> 00:05:57.860
+Para vos recordar a física,
+
+00:05:57.860 --> 00:06:00.120
+temos a posição, a derivada, a velocidade,
+
+00:06:00.120 --> 00:06:01.860
+depois a aceleração,
+
+00:06:01.860 --> 00:06:03.670
+depois o impulso
+
+00:06:03.670 --> 00:06:05.720
+e a seguir a tração.
+
+00:06:05.720 --> 00:06:08.260
+Este robô minimiza a tração.
+
+00:06:08.570 --> 00:06:10.500
+O que faz efetivamente
+
+00:06:10.500 --> 00:06:12.660
+é produzir um movimento gracioso e suave.
+
+00:06:13.150 --> 00:06:16.320
+Faz isso evitando os obstáculos.
+
+00:06:16.320 --> 00:06:19.230
+Estas trajetórias de tração mínima, 
+neste espaço plano,
+
+00:06:19.230 --> 00:06:21.210
+são depois transformadas
+
+00:06:21.210 --> 00:06:23.310
+neste espaço complicado a 12 dimensões
+
+00:06:23.310 --> 00:06:26.250
+que o robô tem que fazer 
+para controlo e execução.
+
+00:06:26.790 --> 00:06:28.560
+Vou mostrar-vos alguns exemplos
+
+00:06:28.560 --> 00:06:30.950
+do aspeto dessas trajetórias 
+de tração mínima.
+
+00:06:31.260 --> 00:06:32.630
+No primeiro vídeo
+
+00:06:32.630 --> 00:06:34.800
+podemos ver o robô a ir 
+do ponto A ao ponto B
+
+00:06:34.800 --> 00:06:37.085
+através de um ponto intermédio.
+
+00:06:43.370 --> 00:06:47.203
+O robô obviamente é capaz
+de executar qualquer trajetória curva.
+
+00:06:47.230 --> 00:06:51.466
+Estas são trajetórias circulares
+em que o robô atinge cerca de 2 G.
+
+00:06:53.050 --> 00:06:56.770
+Em cima, temos câmaras 
+de deteção de movimento
+
+00:06:56.770 --> 00:06:59.770
+que dizem ao robô onde ele está 
+umas 100 vezes por segundo.
+
+00:06:59.770 --> 00:07:02.520
+Também dizem ao robô 
+onde estão estes obstáculos.
+
+00:07:03.590 --> 00:07:05.160
+Os obstáculos pode mover-se.
+
+00:07:05.160 --> 00:07:07.550
+Veem aqui o Daniel a atirar o arco ao ar
+
+00:07:07.550 --> 00:07:10.290
+enquanto o robô calcula a posição do arco
+
+00:07:10.290 --> 00:07:13.260
+e tenta descobrir a melhor maneira 
+de atravessar o arco.
+
+00:07:13.980 --> 00:07:15.480
+Enquanto universitários,
+
+00:07:15.480 --> 00:07:17.620
+somos sempre treinados 
+para atravessar arcos,
+
+00:07:17.620 --> 00:07:19.570
+para arranjar fundos 
+para os laboratórios
+
+00:07:19.570 --> 00:07:21.630
+e pomos os nossos robôs a fazê-lo.
+
+00:07:22.060 --> 00:07:25.360
+(Aplausos)
+
+00:07:28.570 --> 00:07:30.460
+Outra coisa que o robô consegue fazer
+
+00:07:30.460 --> 00:07:32.500
+é lembrar-se de partes duma trajetória
+
+00:07:32.500 --> 00:07:35.570
+que aprende ou 
+para que foi pré-programado.
+
+00:07:35.570 --> 00:07:38.783
+Vemos aqui o robô
+a combinar um movimento
+
+00:07:38.810 --> 00:07:40.530
+que ganha velocidade,
+
+00:07:40.530 --> 00:07:43.420
+depois muda de orientação 
+e depois recupera.
+
+00:07:44.000 --> 00:07:47.320
+Tem que fazer isto,
+porque esta abertura na janela
+
+00:07:47.320 --> 00:07:50.530
+é pouco maior que a largura do robô.
+
+00:07:51.220 --> 00:07:54.240
+Assim como um nadador num trampolim
+
+00:07:54.240 --> 00:07:56.410
+salta dela para ganhar impulso,
+
+00:07:56.410 --> 00:07:58.970
+depois faz uma pirueta, 
+dois mortais e meio
+
+00:07:58.970 --> 00:08:00.980
+e depois recupera graciosamente,
+
+00:08:00.980 --> 00:08:02.770
+este robô faz basicamente o mesmo.
+
+00:08:02.770 --> 00:08:05.620
+Sabe como combinar 
+bocadinhos de trajetórias
+
+00:08:05.620 --> 00:08:09.190
+para fazer estas tarefas mais difíceis.
+
+00:08:10.160 --> 00:08:11.730
+Mudando de assunto.
+
+00:08:11.730 --> 00:08:15.120
+Uma das desvantagens 
+destes pequenos robôs é o seu tamanho.
+
+00:08:15.990 --> 00:08:17.250
+E disse-vos há bocado
+
+00:08:17.250 --> 00:08:19.260
+que talvez queiramos empregar muitos robôs
+
+00:08:19.260 --> 00:08:21.600
+para superar as limitações de tamanho.
+
+00:08:22.080 --> 00:08:23.740
+Uma dificuldade
+
+00:08:23.740 --> 00:08:26.260
+é como se coordenam muitos robôs destes?
+
+00:08:26.580 --> 00:08:28.650
+Portanto olhámos para a natureza.
+
+00:08:28.650 --> 00:08:30.840
+Assim quero mostrar-vos um vídeo
+
+00:08:30.840 --> 00:08:33.440
+das formigas Aphaenogaster do deserto
+
+00:08:33.440 --> 00:08:36.800
+no laboratório do Professor Stephen Pratt 
+a transportar um objeto.
+
+00:08:36.800 --> 00:08:38.230
+Isto é um bocado de um figo.
+
+00:08:38.230 --> 00:08:40.710
+Pega-se em qualquer objeto 
+coberto com sumo de figo
+
+00:08:40.710 --> 00:08:42.750
+e as formigas carregam-no para o ninho.
+
+00:08:43.090 --> 00:08:46.230
+Estas formigas não têm 
+um coordenador central.
+
+00:08:46.820 --> 00:08:48.450
+Elas detetam as vizinhas.
+
+00:08:48.450 --> 00:08:50.570
+Não existe comunicação explicita.
+
+00:08:50.570 --> 00:08:52.230
+Mas, como detetam as vizinhas
+
+00:08:52.230 --> 00:08:54.190
+e como detetam o objeto,
+
+00:08:54.190 --> 00:08:57.160
+têm uma coordenação implícita 
+em todo o grupo.
+
+00:08:57.720 --> 00:08:59.420
+Este é o tipo de coordenação
+
+00:08:59.420 --> 00:09:01.660
+que queremos que os nossos robôs tenham.
+
+00:09:01.660 --> 00:09:04.110
+Assim, quando temos um robô
+
+00:09:04.110 --> 00:09:06.580
+que está rodeado de vizinhos,
+
+00:09:06.580 --> 00:09:08.920
+— olhem para o robô I e para o robô J —
+
+00:09:08.920 --> 00:09:12.624
+queremos que os robôs 
+monitorizem o intervalo entre eles
+
+00:09:12.624 --> 00:09:14.690
+enquanto voam em formação.
+
+00:09:14.690 --> 00:09:16.260
+Depois queremos garantir
+
+00:09:16.260 --> 00:09:18.900
+que esse intervalo está dentro 
+de níveis aceitáveis.
+
+00:09:19.430 --> 00:09:21.770
+Aqui, outra vez, 
+os robôs monitorizam o erro
+
+00:09:21.770 --> 00:09:24.370
+e calculam os comandos de controlo
+
+00:09:24.370 --> 00:09:26.210
+a 100 vezes por segundo,
+
+00:09:26.210 --> 00:09:29.400
+que depois traduzem comandos 
+para o motor, 600 vezes por segundo.
+
+00:09:29.420 --> 00:09:32.726
+Isto também tem que ser feito
+duma maneira descentralizada.
+
+00:09:33.040 --> 00:09:35.370
+De novo, se tiverem muitos robôs,
+
+00:09:35.370 --> 00:09:38.045
+é impossível coordenar 
+centralmente toda a informação,
+
+00:09:38.045 --> 00:09:41.440
+de modo suficientemente rápido
+para que os robôs cumpram a tarefa.
+
+00:09:41.690 --> 00:09:44.600
+Mais, os robôs têm 
+que basear as suas ações
+
+00:09:44.600 --> 00:09:46.350
+apenas em informações locais,
+
+00:09:46.350 --> 00:09:48.250
+a noção que têm dos vizinhos.
+
+00:09:48.250 --> 00:09:49.880
+E, finalmente,
+
+00:09:49.880 --> 00:09:52.160
+insistimos em que os robôs não conheçam
+
+00:09:52.160 --> 00:09:53.840
+a identidade dos seus vizinhos.
+
+00:09:53.840 --> 00:09:56.260
+Isto é o que chamamos de anonimato.
+
+00:09:57.370 --> 00:09:59.730
+A seguir quero mostrar
+
+00:09:59.730 --> 00:10:02.550
+um vídeo de 20 destes pequenos robôs
+
+00:10:04.002 --> 00:10:06.270
+a voar em formação.
+
+00:10:06.270 --> 00:10:09.230
+Estão a monitorizar a posição dos vizinhos.
+
+00:10:09.230 --> 00:10:11.260
+Estão a manter a formação.
+
+00:10:11.260 --> 00:10:13.000
+A formação pode mudar.
+
+00:10:13.000 --> 00:10:14.690
+Podem ser formações planas,
+
+00:10:14.690 --> 00:10:16.510
+podem ser formações tridimensionais.
+
+00:10:17.490 --> 00:10:18.750
+Como podem ver aqui,
+
+00:10:18.750 --> 00:10:20.766
+eles desmancham a formação tridimensional
+
+00:10:20.766 --> 00:10:22.422
+e passam para uma formação plana.
+
+00:10:22.422 --> 00:10:24.240
+Para voarem através de obstáculos
+
+00:10:24.240 --> 00:10:27.460
+podem adaptar as formações de improviso.
+
+00:10:28.010 --> 00:10:30.900
+Assim, estes robôs aproximam-se 
+muito uns dos outros.
+
+00:10:30.900 --> 00:10:32.920
+Como veem neste voo em forma de oito,
+
+00:10:32.920 --> 00:10:35.260
+aproximam-se a centímetros uns dos outros.
+
+00:10:35.730 --> 00:10:38.320
+E, apesar das interações aerodinâmicas
+
+00:10:38.320 --> 00:10:40.070
+destas pás de propulsão,
+
+00:10:40.070 --> 00:10:42.120
+são capazes de manter um voo estável.
+
+00:10:42.320 --> 00:10:45.760
+(Aplausos)
+
+00:10:49.590 --> 00:10:51.400
+Depois de saberem voar em formação,
+
+00:10:51.400 --> 00:10:53.520
+podem apanhar objetos em cooperação.
+
+00:10:53.520 --> 00:10:55.260
+Isto mostra apenas
+
+00:10:55.260 --> 00:10:57.410
+que podemos duplicar, triplicar,
+
+00:10:57.410 --> 00:10:59.200
+quadruplicar a força do robô.
+
+00:10:59.200 --> 00:11:02.040
+pondo-os trabalhar em equipa 
+com os outros, como aqui veem.
+
+00:11:02.500 --> 00:11:04.870
+Uma das desvantagens de fazer isto
+
+00:11:04.870 --> 00:11:06.670
+é que, ao aumentar o seu número,
+
+00:11:06.670 --> 00:11:09.110
+— se houver muitos robôs 
+a carregar a mesma coisa —
+
+00:11:09.110 --> 00:11:11.690
+está-se a aumentar a inércia
+
+00:11:11.690 --> 00:11:14.560
+e, como tal, paga-se um preço: 
+não são tão ágeis.
+
+00:11:15.050 --> 00:11:17.800
+Mas ganha-se em termos 
+de capacidade de carga.
+
+00:11:18.220 --> 00:11:19.960
+Quero mostrar-vos outra aplicação.
+
+00:11:19.960 --> 00:11:21.330
+Isto é no nosso laboratório.
+
+00:11:21.330 --> 00:11:24.460
+É um trabalho do Quentin Lindsey 
+que é um aluno licenciado.
+
+00:11:24.460 --> 00:11:27.180
+O seu algoritmo diz a estes robôs
+
+00:11:27.180 --> 00:11:31.380
+como construir, autonomamente,
+estruturas cúbicas
+
+00:11:31.380 --> 00:11:33.410
+a partir de elementos de treliça.
+
+00:11:34.520 --> 00:11:36.820
+O algoritmo dele diz ao robô
+
+00:11:36.820 --> 00:11:38.490
+qual a parte a apanhar,
+
+00:11:38.490 --> 00:11:40.330
+quando e onde a colocar.
+
+00:11:40.760 --> 00:11:42.040
+Neste vídeo vemos,
+
+00:11:42.040 --> 00:11:44.280
+— está acelerado 10 ou 14 vezes —
+
+00:11:44.280 --> 00:11:47.560
+vemos estes robôs a construir 
+três estruturas diferentes.
+
+00:11:47.560 --> 00:11:49.600
+Mais uma vez, tudo é autónomo.
+
+00:11:49.600 --> 00:11:51.660
+Quentin só tem que lhes arranjar
+
+00:11:51.670 --> 00:11:54.950
+uma planta da estrutura 
+que quer construir.
+
+00:11:57.340 --> 00:12:00.060
+Todas estas experiências 
+que viram até agora,
+
+00:12:00.060 --> 00:12:01.390
+todas estas demonstrações,
+
+00:12:01.390 --> 00:12:04.390
+foram feitas com a ajuda 
+de sistemas de deteção de movimento.
+
+00:12:05.350 --> 00:12:07.750
+O que acontece 
+quando se sai do laboratório
+
+00:12:07.750 --> 00:12:09.690
+e se passa para o mundo real?
+
+00:12:10.090 --> 00:12:12.260
+E se não houver GPS?
+
+00:12:12.950 --> 00:12:17.220
+Este robô está equipado com uma câmara
+
+00:12:17.220 --> 00:12:19.730
+e um varredor "laser", 
+um "scanner" a " laser".
+
+00:12:20.320 --> 00:12:21.970
+Utiliza estes sensores
+
+00:12:21.970 --> 00:12:24.210
+para construir um mapa do ambiente.
+
+00:12:24.210 --> 00:12:27.290
+Esse mapa consiste em características
+
+00:12:27.290 --> 00:12:31.430
+— como portais, janelas,
+pessoas, mobília —
+
+00:12:31.440 --> 00:12:33.440
+e depois descobre qual a sua posição
+
+00:12:33.440 --> 00:12:35.130
+em relação a estas características.
+
+00:12:35.130 --> 00:12:37.260
+Não existe um sistema global 
+de coordenadas.
+
+00:12:37.260 --> 00:12:40.010
+O sistema de coordenadas 
+é definido com base no robô,
+
+00:12:40.010 --> 00:12:42.540
+onde é que ele está 
+e para onde está a olhar.
+
+00:12:42.540 --> 00:12:45.580
+Navega em relação a essas características.
+
+00:12:46.490 --> 00:12:47.740
+Quero mostrar-vos um vídeo
+
+00:12:47.740 --> 00:12:49.140
+dos algoritmos desenvolvidos
+
+00:12:49.140 --> 00:12:51.830
+pelo Frank Shen
+e pelo Professor Nathan Michael
+
+00:12:51.830 --> 00:12:55.470
+que mostra este robô a entrar 
+num edifício pela primeira vez
+
+00:12:55.470 --> 00:12:58.480
+e a criar este mapa de improviso.
+
+00:12:58.920 --> 00:13:02.020
+Depois o robô descobre 
+quais são as características.
+
+00:13:02.020 --> 00:13:03.260
+Constrói o mapa.
+
+00:13:03.260 --> 00:13:06.180
+Descobre onde está 
+em relação às características
+
+00:13:06.180 --> 00:13:08.350
+e depois calcula a sua posição,
+
+00:13:08.350 --> 00:13:10.070
+a 100 vezes por segundo,
+
+00:13:10.070 --> 00:13:12.290
+permitindo-nos usar 
+o algoritmo de controlo
+
+00:13:12.290 --> 00:13:14.030
+que vos descrevi antes.
+
+00:13:14.030 --> 00:13:16.000
+Este robô está a ser comandado
+
+00:13:16.000 --> 00:13:17.760
+remotamente pelo Frank.
+
+00:13:18.350 --> 00:13:20.350
+Mas o robô também pode descobrir
+
+00:13:20.350 --> 00:13:22.140
+onde ir por si próprio.
+
+00:13:22.140 --> 00:13:24.420
+Suponhamos que eu o enviava 
+para um edifício
+
+00:13:24.420 --> 00:13:26.540
+e não fazia ideia de como era o edifício.
+
+00:13:26.540 --> 00:13:29.500
+Posso pedir a este robô 
+para entrar, criar um mapa
+
+00:13:30.300 --> 00:13:33.350
+e depois voltar e dizer-me 
+como é o edifício.
+
+00:13:33.350 --> 00:13:36.280
+O robô não só está a resolver o problema
+
+00:13:36.280 --> 00:13:39.030
+de como ir do ponto A 
+para o ponto B neste mapa,
+
+00:13:39.030 --> 00:13:40.930
+mas está sempre a descobrir
+
+00:13:40.930 --> 00:13:43.410
+qual é o melhor ponto B.
+
+00:13:43.410 --> 00:13:45.630
+Essencialmente sabe onde ir
+
+00:13:45.630 --> 00:13:48.290
+à procura de sítios 
+onde há menos informação.
+
+00:13:48.290 --> 00:13:50.570
+É assim que preenche este mapa.
+
+00:13:51.030 --> 00:13:52.460
+Quero deixar-vos
+
+00:13:52.460 --> 00:13:54.790
+com uma última aplicação.
+
+00:13:55.350 --> 00:13:57.760
+Existem muitas aplicações 
+desta tecnologia.
+
+00:13:57.990 --> 00:14:00.360
+Sou professor, 
+e somos apaixonados pelo ensino.
+
+00:14:00.360 --> 00:14:02.820
+Robôs destes podem mudar 
+a forma como ensinamos,
+
+00:14:02.820 --> 00:14:04.760
+do jardim de infância ao secundário.
+
+00:14:04.760 --> 00:14:06.560
+Mas estamos no sul da Califórnia,
+
+00:14:06.560 --> 00:14:08.170
+perto de Los Angeles,
+
+00:14:08.170 --> 00:14:09.500
+portanto tenho que concluir
+
+00:14:09.500 --> 00:14:11.780
+com algo virado para o entretenimento.
+
+00:14:12.580 --> 00:14:14.390
+Quero concluir com um vídeo de música.
+
+00:14:14.390 --> 00:14:17.460
+Apresento os seus criadores, 
+o Alex e o Daniel,
+
+00:14:17.460 --> 00:14:18.810
+que criaram o vídeo.
+
+00:14:19.000 --> 00:14:22.590
+(Aplausos)
+
+00:14:26.040 --> 00:14:27.660
+Antes de reproduzir o vídeo,
+
+00:14:27.660 --> 00:14:30.770
+quero dizer-vos que eles o criaram 
+nos últimos três dias
+
+00:14:30.770 --> 00:14:32.910
+depois de receberem uma chamada do Chris.
+
+00:14:32.910 --> 00:14:35.210
+Os robôs que aparecem no vídeo
+
+00:14:35.210 --> 00:14:36.980
+são completamente autónomos.
+
+00:14:36.980 --> 00:14:40.140
+Vão ver nove robôs a tocar 
+seis instrumentos diferentes.
+
+00:14:40.660 --> 00:14:43.260
+E, claro, feito exclusivamente 
+para a TED 2012.
+
+00:14:44.330 --> 00:14:46.260
+Vamos ver.
+
+00:15:19.610 --> 00:15:23.350
+(Sons sincopados)
+
+00:16:24.150 --> 00:16:27.670
+(Aplausos)
+

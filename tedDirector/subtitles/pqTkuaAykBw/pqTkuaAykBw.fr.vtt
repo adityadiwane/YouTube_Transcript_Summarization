@@ -1,0 +1,1244 @@
+WEBVTT
+Kind: captions
+Language: fr
+
+00:00:00.000 --> 00:00:07.000
+Traducteur: Patrick Brault
+Relecteur: Elisabeth Buffard
+
+00:00:15.260 --> 00:00:19.260
+Je vais commencer par lancer un tout petit défi,
+
+00:00:19.260 --> 00:00:22.260
+le problème du traitement des données,
+
+00:00:22.260 --> 00:00:24.260
+des données que nous devons traiter
+
+00:00:24.260 --> 00:00:26.260
+dans le contexte médical.
+
+00:00:26.260 --> 00:00:28.260
+C'est vraiment un énorme défi pour nous.
+
+00:00:28.260 --> 00:00:30.260
+Et ceci est notre bête de somme.
+
+00:00:30.260 --> 00:00:32.260
+C'est un appareil à tomographie calculée par ordinateur --
+
+00:00:32.260 --> 00:00:34.260
+un scanner CT.
+
+00:00:34.260 --> 00:00:36.260
+C'est un appareil extraordinaire.
+
+00:00:36.260 --> 00:00:38.260
+Il utilise les rayons X, des faisceaux de rayons X,
+
+00:00:38.260 --> 00:00:41.260
+qui tournent très rapidement autour du corps humain.
+
+00:00:41.260 --> 00:00:43.260
+Il faut environ 30 secondes pour passer à travers tout l'appareil
+
+00:00:43.260 --> 00:00:45.260
+et d'énormes quantités d'informations sont produites
+
+00:00:45.260 --> 00:00:47.260
+en sortie de la machine.
+
+00:00:47.260 --> 00:00:49.260
+C'est une machine extraordinaire
+
+00:00:49.260 --> 00:00:51.260
+que nous pouvons utiliser
+
+00:00:51.260 --> 00:00:53.260
+pour améliorer les soins de santé.
+
+00:00:53.260 --> 00:00:55.260
+Mais, comme je l'ai dit, c'est aussi un défi à relever.
+
+00:00:55.260 --> 00:00:58.260
+Toute l'ampleur du problème se trouve sur cette image.
+
+00:00:58.260 --> 00:01:00.260
+Il s'agit de l'explosion des données médicales
+
+00:01:00.260 --> 00:01:02.260
+qui se produit en ce moment même.
+
+00:01:02.260 --> 00:01:04.260
+C'est le problème auquel nous sommes confrontés.
+
+00:01:04.260 --> 00:01:06.260
+Laissez-moi revenir en arrière.
+
+00:01:06.260 --> 00:01:09.260
+Revenons quelques années en arrière, et observons ce qui se passait à l'époque.
+
+00:01:09.260 --> 00:01:11.260
+Les appareils qui sortaient alors --
+
+00:01:11.260 --> 00:01:13.260
+ils ont commencé à arriver dans les années 70 --
+
+00:01:13.260 --> 00:01:15.260
+scannaient le corps humain,
+
+00:01:15.260 --> 00:01:17.260
+et produisaient environ une centaine d'images
+
+00:01:17.260 --> 00:01:19.260
+de ce corps.
+
+00:01:19.260 --> 00:01:21.260
+J'ai pris la liberté, pour que ce soit plus clair,
+
+00:01:21.260 --> 00:01:24.260
+de traduire cela en termes de données numériques.
+
+00:01:24.260 --> 00:01:26.260
+Ça correspondrait à environ 50 Mo,
+
+00:01:26.260 --> 00:01:28.260
+ce qui est peu
+
+00:01:28.260 --> 00:01:31.260
+quand vous pensez aux quantités de données que nous pouvons manipuler de nos jours
+
+00:01:31.260 --> 00:01:33.260
+rien que sur nos portables normaux.
+
+00:01:33.260 --> 00:01:35.260
+Si vous traduisez ça en annuaires,
+
+00:01:35.260 --> 00:01:38.260
+ça fait une pile d'annuaires d'environ un mètre de haut.
+
+00:01:38.260 --> 00:01:40.260
+Quand on voit ce que l'on peut faire aujourd'hui
+
+00:01:40.260 --> 00:01:42.260
+avec les machines dont nous disposons,
+
+00:01:42.260 --> 00:01:44.260
+on peut, en seulement quelques secondes,
+
+00:01:44.260 --> 00:01:46.260
+obtenir 24 000 images d'un corps.
+
+00:01:46.260 --> 00:01:49.260
+Cela correspondrait à environ 20 Go,
+
+00:01:49.260 --> 00:01:51.260
+ou 800 annuaires.
+
+00:01:51.260 --> 00:01:53.260
+La pile d'annuaires ferait alors 200 mètres de haut.
+
+00:01:53.260 --> 00:01:55.260
+Ce qui va se produire --
+
+00:01:55.260 --> 00:01:57.260
+et nous le voyons déjà, ça commence --
+
+00:01:57.260 --> 00:01:59.260
+c'est une tendance technologique qui arrive en ce moment même,
+
+00:01:59.260 --> 00:02:02.260
+est que nous commençons également à regarder les images en temps réel.
+
+00:02:02.260 --> 00:02:05.260
+Nous obtenons également la dynamique du corps.
+
+00:02:05.260 --> 00:02:07.260
+Supposez seulement
+
+00:02:07.260 --> 00:02:10.260
+que nous ne recueillions des données que sur une durée de cinq secondes,
+
+00:02:10.260 --> 00:02:12.260
+cela correspondrait à un téraoctet de données.
+
+00:02:12.260 --> 00:02:14.260
+C'est à dire 800 000 annuaires,
+
+00:02:14.260 --> 00:02:16.260
+une pile de 16 km de haut.
+
+00:02:16.260 --> 00:02:18.260
+Et cela pour un seul patient, un seul examen.
+
+00:02:18.260 --> 00:02:20.260
+Voilà ce à quoi nous devons faire face.
+
+00:02:20.260 --> 00:02:23.260
+C'est vraiment l'énorme défi qui se présente à nous.
+
+00:02:23.260 --> 00:02:26.260
+Et dès aujourd'hui -- il s'agit de 25 000 images.
+
+00:02:26.260 --> 00:02:28.260
+Imaginez l'époque
+
+00:02:28.260 --> 00:02:30.260
+où les radiologues travaillaient de cette façon.
+
+00:02:30.260 --> 00:02:32.260
+Ils auraient affiché 25 000 clichés,
+
+00:02:32.260 --> 00:02:35.260
+et ils auraient dit 25 000 fois :" Tout va bien, tout va bien,
+
+00:02:35.260 --> 00:02:37.260
+Ah, voilà le problème. "
+
+00:02:37.260 --> 00:02:39.260
+On ne peut plus faire ça, c'est impossible.
+
+00:02:39.260 --> 00:02:42.260
+Alors on doit trouver quelque chose d'un peu plus intelligent que ça.
+
+00:02:43.260 --> 00:02:45.260
+Ce que nous faisons donc, c'est de regrouper toutes ces coupes.
+
+00:02:45.260 --> 00:02:48.260
+Imaginez que vous découpez votre corps dans tous les sens,
+
+00:02:48.260 --> 00:02:51.260
+et puis vous essayez de remettre les tranches ensemble
+
+00:02:51.260 --> 00:02:53.260
+pour former une pile de données, un bloc de données.
+
+00:02:53.260 --> 00:02:55.260
+C'est ce que nous faisons en réalité.
+
+00:02:55.260 --> 00:02:58.260
+Ce gigaoctet, ou téraoctet de données, nous le mettons dans ce bloc.
+
+00:02:58.260 --> 00:03:00.260
+Mais, bien sûr, le bloc de données
+
+00:03:00.260 --> 00:03:02.260
+n'indique que la quantité de rayons X
+
+00:03:02.260 --> 00:03:04.260
+qui a été absorbée par chaque point du corps humain.
+
+00:03:04.260 --> 00:03:06.260
+Nous devons donc trouver un moyen
+
+00:03:06.260 --> 00:03:09.260
+de voir les choses que nous voulons observer
+
+00:03:09.260 --> 00:03:12.260
+et de rendre transparentes les choses que nous ne voulons pas observer.
+
+00:03:12.260 --> 00:03:14.260
+C'est-à-dire de transformer l'ensemble des données
+
+00:03:14.260 --> 00:03:16.260
+en quelque chose qui ressemble à ça.
+
+00:03:16.260 --> 00:03:18.260
+Et c'est très difficile.
+
+00:03:18.260 --> 00:03:21.260
+Le défi pour nous est énorme.
+
+00:03:21.260 --> 00:03:24.260
+En utilisant des ordinateurs, même s'ils deviennent tout le temps plus rapides et meilleurs,
+
+00:03:24.260 --> 00:03:26.260
+il est très difficile de traiter des gigaoctets de données,
+
+00:03:26.260 --> 00:03:28.260
+des téraoctets de données,
+
+00:03:28.260 --> 00:03:30.260
+et d'en extraire les informations utiles.
+
+00:03:30.260 --> 00:03:32.260
+Je veux observer le cœur,
+
+00:03:32.260 --> 00:03:34.260
+je veux observer les vaisseaux sanguins, je veux observer le foie,
+
+00:03:34.260 --> 00:03:36.260
+peut-être même détecter une tumeur
+
+00:03:36.260 --> 00:03:38.260
+dans certains cas.
+
+00:03:39.260 --> 00:03:41.260
+Et voilà où ce petit amour entre en jeu.
+
+00:03:41.260 --> 00:03:43.260
+C'est ma fille.
+
+00:03:43.260 --> 00:03:45.260
+A 9 h 00, ce matin même.
+
+00:03:45.260 --> 00:03:47.260
+Elle joue à un jeu sur ordinateur.
+
+00:03:47.260 --> 00:03:49.260
+Elle n'a que deux ans,
+
+00:03:49.260 --> 00:03:51.260
+et elle s'éclate.
+
+00:03:51.260 --> 00:03:54.260
+C'est elle la vraie force motrice
+
+00:03:54.260 --> 00:03:57.260
+qui pousse au développement des cartes graphiques.
+
+00:03:58.260 --> 00:04:00.260
+Aussi longtemps que les gamins joueront à des jeux sur ordinateur,
+
+00:04:00.260 --> 00:04:02.260
+le traitement graphique continuera à s'améliorer de plus en plus.
+
+00:04:02.260 --> 00:04:04.260
+Alors rentrez chez vous, s'il vous plaît, et dites à vos enfants de jouer plus souvent,
+
+00:04:04.260 --> 00:04:06.260
+parce que j'en ai besoin.
+
+00:04:06.260 --> 00:04:08.260
+C'est ce qui est à l'intérieur de cet appareil
+
+00:04:08.260 --> 00:04:10.260
+qui me permet de faire ce que je j'accomplis
+
+00:04:10.260 --> 00:04:12.260
+avec les données médicales.
+
+00:04:12.260 --> 00:04:15.260
+Ce que je fais en vérité, c'est que j'utilise ces petits appareils extraordinaires.
+
+00:04:15.260 --> 00:04:17.260
+Et vous savez, si je reviens
+
+00:04:17.260 --> 00:04:19.260
+peut-être dix ans en arrière
+
+00:04:19.260 --> 00:04:21.260
+quand j'ai obtenu le financement
+
+00:04:21.260 --> 00:04:23.260
+pour acheter mon premier ordinateur de traitement graphique.
+
+00:04:23.260 --> 00:04:25.260
+C'était une énorme machine.
+
+00:04:25.260 --> 00:04:28.260
+C'était des rangées de processeurs, de stockage, de tout cela.
+
+00:04:28.260 --> 00:04:31.260
+J'ai payé cette machine aux alentours d'un million de dollars.
+
+00:04:32.260 --> 00:04:35.260
+Et elle était à peu près aussi rapide que mon iPhone aujourd'hui.
+
+00:04:37.260 --> 00:04:39.260
+Chaque mois il y a de nouvelles cartes graphiques qui sortent.
+
+00:04:39.260 --> 00:04:42.260
+En voici quelques unes des dernières mises en vente --
+
+00:04:42.260 --> 00:04:45.260
+NVIDIA, ATI. Intel est également présent.
+
+00:04:45.260 --> 00:04:47.260
+Et vous savez, pour quelques centaines d'euros,
+
+00:04:47.260 --> 00:04:49.260
+vous pouvez les acquérir et les mettre dans votre ordinateur,
+
+00:04:49.260 --> 00:04:52.260
+et vous pouvez faire des choses extraordinaires avec ces cartes graphiques.
+
+00:04:52.260 --> 00:04:54.260
+C'est donc ce qui nous permet de faire face
+
+00:04:54.260 --> 00:04:57.260
+à l'explosion des données en médecine,
+
+00:04:57.260 --> 00:04:59.260
+ajouté à l'élaboration de quelques solutions très habiles
+
+00:04:59.260 --> 00:05:01.260
+en termes d'algorithmes --
+
+00:05:01.260 --> 00:05:03.260
+de compression des données,
+
+00:05:03.260 --> 00:05:06.260
+d'extraction des informations utiles aux travaux des chercheurs.
+
+00:05:06.260 --> 00:05:09.260
+Je vais vous montrer quelques exemples de ce que nous pouvons faire.
+
+00:05:09.260 --> 00:05:12.260
+Voici un ensemble de données qui ont été relevées par un scanner CT.
+
+00:05:12.260 --> 00:05:15.260
+Vous pouvez voir que ces données sont complètes.
+
+00:05:15.260 --> 00:05:18.260
+C'est une femme. Vous pouvez voir les cheveux.
+
+00:05:18.260 --> 00:05:21.260
+Vous pouvez voir chaque organe de cette femme séparément.
+
+00:05:21.260 --> 00:05:24.260
+Vous pouvez voir qu'il y a un éparpillement de rayons X
+
+00:05:24.260 --> 00:05:26.260
+sur les dents, le métal des dents.
+
+00:05:26.260 --> 00:05:29.260
+C'est la raison de ces traces.
+
+00:05:29.260 --> 00:05:31.260
+Mais de façon complètement interactive,
+
+00:05:31.260 --> 00:05:34.260
+avec une carte graphique standard, sur un ordinateur normal,
+
+00:05:34.260 --> 00:05:36.260
+je peux faire une coupe plane.
+
+00:05:36.260 --> 00:05:38.260
+Et bien sûr, toutes les données sont à l'intérieur,
+
+00:05:38.260 --> 00:05:41.260
+je peux donc la faire tourner, je peux la voir sous différents angles,
+
+00:05:41.260 --> 00:05:44.260
+et je peux voir que cette femme a eu un problème.
+
+00:05:44.260 --> 00:05:46.260
+Elle a eu une hémorragie au cerveau,
+
+00:05:46.260 --> 00:05:48.260
+qui a été soignée par un petit stent,
+
+00:05:48.260 --> 00:05:50.260
+un tube en métal qui renforce le vaisseau.
+
+00:05:50.260 --> 00:05:52.260
+Et rien qu'en changeant les réglages,
+
+00:05:52.260 --> 00:05:55.260
+je peux décider de ce qui va être transparent,
+
+00:05:55.260 --> 00:05:57.260
+et de ce qui va être visible.
+
+00:05:57.260 --> 00:05:59.260
+Je peux observer la structure crânienne,
+
+00:05:59.260 --> 00:06:02.260
+et je peux voir que, oui, c'est là qu'on a ouvert le crâne de cette femme,
+
+00:06:02.260 --> 00:06:04.260
+et c'est par là qu'on est entré.
+
+00:06:04.260 --> 00:06:06.260
+Ce sont des images extraordinaires.
+
+00:06:06.260 --> 00:06:08.260
+Elles sont de très haute définition,
+
+00:06:08.260 --> 00:06:10.260
+et sont vraiment un exemple de ce qu'on peut faire aujourd'hui
+
+00:06:10.260 --> 00:06:13.260
+avec des cartes graphiques standard.
+
+00:06:13.260 --> 00:06:15.260
+Alors on s'en est vraiment servi,
+
+00:06:15.260 --> 00:06:18.260
+et on a essayé de faire entrer plein de données
+
+00:06:18.260 --> 00:06:20.260
+dans le système.
+
+00:06:20.260 --> 00:06:22.260
+L'une des utilisations sur lesquelles nous travaillons --
+
+00:06:22.260 --> 00:06:25.260
+et cela a suscité quelque intérêt dans le monde entier --
+
+00:06:25.260 --> 00:06:27.260
+est le programme d'autopsies virtuelles.
+
+00:06:27.260 --> 00:06:29.260
+Une fois de plus, en partant de très très grands ensembles de données,
+
+00:06:29.260 --> 00:06:32.260
+vous avez vu ces scans en pied que nous pouvons faire.
+
+00:06:32.260 --> 00:06:35.260
+Nous faisons juste passer le corps à travers le scanner CT,
+
+00:06:35.260 --> 00:06:38.260
+et en seulement quelques secondes nous pouvons obtenir l'ensemble des données du corps entier.
+
+00:06:38.260 --> 00:06:40.260
+Ceci provient d'une autopsie virtuelle.
+
+00:06:40.260 --> 00:06:42.260
+Vous pouvez voir comment j'enlève progressivement les couches.
+
+00:06:42.260 --> 00:06:45.260
+En premier vous avez vu le sac dans lequel le corps est arrivé,
+
+00:06:45.260 --> 00:06:48.260
+puis j'enlève la peau -- vous pouvez voir les muscles --
+
+00:06:48.260 --> 00:06:51.260
+et finalement vous pouvez voir le squelette de cette femme.
+
+00:06:51.260 --> 00:06:54.260
+A ce stade, je voudrais aussi souligner que,
+
+00:06:54.260 --> 00:06:56.260
+avec le plus grand respect
+
+00:06:56.260 --> 00:06:58.260
+pour les personnes que je vais maintenant vous montrer --
+
+00:06:58.260 --> 00:07:00.260
+je vais vous montrer quelques cas d'autopsies virtuelles --
+
+00:07:00.260 --> 00:07:02.260
+c'est avec un grand respect pour ces personnes
+
+00:07:02.260 --> 00:07:04.260
+qui sont mortes dans des circonstances violentes
+
+00:07:04.260 --> 00:07:07.260
+que je vous montre ces images.
+
+00:07:08.260 --> 00:07:10.260
+Dans le cadre médico-légal --
+
+00:07:10.260 --> 00:07:12.260
+il y a eu jusqu'ici
+
+00:07:12.260 --> 00:07:14.260
+environ 400 cas,
+
+00:07:14.260 --> 00:07:16.260
+rien que dans la région de Suède d'où je viens,
+
+00:07:16.260 --> 00:07:18.260
+qui ont subi une autopsie virtuelle
+
+00:07:18.260 --> 00:07:20.260
+durant ces quatre dernières années.
+
+00:07:20.260 --> 00:07:23.260
+Voilà le déroulement de la situation typique :
+
+00:07:23.260 --> 00:07:25.260
+La police va décider --
+
+00:07:25.260 --> 00:07:27.260
+dans la soirée, quand un cas se présente --
+
+00:07:27.260 --> 00:07:30.260
+ils vont décider, d'accord, voilà un cas qui nécessite une autopsie.
+
+00:07:30.260 --> 00:07:33.260
+Le lendemain, entre six et sept heures du matin,
+
+00:07:33.260 --> 00:07:35.260
+le corps est transporté dans son sac
+
+00:07:35.260 --> 00:07:37.260
+jusqu'à notre Centre,
+
+00:07:37.260 --> 00:07:39.260
+et il est passé dans l'un de nos scanners CT.
+
+00:07:39.260 --> 00:07:41.260
+Puis le radiologue, en compagnie du pathologiste
+
+00:07:41.260 --> 00:07:43.260
+et parfois du médecin légiste,
+
+00:07:43.260 --> 00:07:45.260
+examinent les données qui sortent,
+
+00:07:45.260 --> 00:07:47.260
+et ils se concertent.
+
+00:07:47.260 --> 00:07:50.260
+Ils décident alors de ce qu'ils vont faire lors de la vraie autopsie qui va suivre.
+
+00:07:52.260 --> 00:07:54.260
+Voyons maintenant quelques cas,
+
+00:07:54.260 --> 00:07:56.260
+voici l'un de nos tout premiers.
+
+00:07:56.260 --> 00:07:59.260
+Vous pouvez vraiment voir les détails de l'ensemble de données ;
+
+00:07:59.260 --> 00:08:01.260
+c'est à très haute définition.
+
+00:08:01.260 --> 00:08:03.260
+Et ce sont nos algorithmes qui nous permettent
+
+00:08:03.260 --> 00:08:05.260
+d'agrandir chaque détail.
+
+00:08:05.260 --> 00:08:07.260
+Là aussi, c'est totalement interactif,
+
+00:08:07.260 --> 00:08:09.260
+vous pouvez le faire pivoter et voir les choses en temps réel
+
+00:08:09.260 --> 00:08:11.260
+sur ces systèmes là.
+
+00:08:11.260 --> 00:08:13.260
+Sans trop en dire sur ce cas,
+
+00:08:13.260 --> 00:08:15.260
+il s'agit d'un accident de circulation,
+
+00:08:15.260 --> 00:08:17.260
+un chauffard ivre a renversé une femme.
+
+00:08:17.260 --> 00:08:20.260
+Il est très très facile de voir les dégâts sur le squelette.
+
+00:08:20.260 --> 00:08:23.260
+Et la cause du décès qui est la nuque brisée.
+
+00:08:23.260 --> 00:08:25.260
+Cette femme a de plus fini sous la voiture,
+
+00:08:25.260 --> 00:08:27.260
+alors elle est assez gravement abîmée
+
+00:08:27.260 --> 00:08:29.260
+par l'accident.
+
+00:08:29.260 --> 00:08:32.260
+Voici un autre cas, une attaque au couteau.
+
+00:08:32.260 --> 00:08:34.260
+Ça nous montre une fois encore ce que nous pouvons faire.
+
+00:08:34.260 --> 00:08:36.260
+Il est très facile d'observer les objets en métal,
+
+00:08:36.260 --> 00:08:39.260
+nous pouvons les montrer à l'intérieur du corps.
+
+00:08:39.260 --> 00:08:42.260
+Vous pouvez aussi voir des objets dans la mâchoire --
+
+00:08:42.260 --> 00:08:44.260
+ce sont en réalité les plombages --
+
+00:08:44.260 --> 00:08:47.260
+mais c'est parce que j'ai réglé les fonctions pour faire apparaître le métal
+
+00:08:47.260 --> 00:08:49.260
+et rendre tout le reste transparent.
+
+00:08:49.260 --> 00:08:52.260
+Voici un autre cas de violence. Ce n'est pas vraiment ça qui a tué la personne.
+
+00:08:52.260 --> 00:08:54.260
+Elle a été tuée par des coups de poignard dans le cœur,
+
+00:08:54.260 --> 00:08:56.260
+mais ils se sont simplement débarrassé du couteau
+
+00:08:56.260 --> 00:08:58.260
+en l'enfonçant dans l'un des globes oculaires.
+
+00:08:58.260 --> 00:09:00.260
+Voici un autre cas.
+
+00:09:00.260 --> 00:09:02.260
+C'est très intéressant pour nous
+
+00:09:02.260 --> 00:09:04.260
+de pouvoir observer des choses comme les coups de couteau.
+
+00:09:04.260 --> 00:09:07.260
+Ici vous pouvez voir que le couteau a transpercé le cœur.
+
+00:09:07.260 --> 00:09:09.260
+On peut facilement voir comment l'air a fui
+
+00:09:09.260 --> 00:09:11.260
+d'un endroit à l'autre,
+
+00:09:11.260 --> 00:09:14.260
+ce qui est difficile dans une autopsie normale, standard.
+
+00:09:14.260 --> 00:09:16.260
+Cela aide énormément
+
+00:09:16.260 --> 00:09:18.260
+l'enquête criminelle
+
+00:09:18.260 --> 00:09:20.260
+à établir la cause du décès,
+
+00:09:20.260 --> 00:09:23.260
+et dans certains cas, à orienter l'enquête dans la bonne direction
+
+00:09:23.260 --> 00:09:25.260
+pour découvrir qui est vraiment le meurtrier.
+
+00:09:25.260 --> 00:09:27.260
+Voici un autre cas que je trouve intéressant.
+
+00:09:27.260 --> 00:09:29.260
+Vous pouvez voir ici une balle
+
+00:09:29.260 --> 00:09:32.260
+qui s'est logée juste à côté de la colonne vertébrale de cette personne.
+
+00:09:32.260 --> 00:09:35.260
+Et ce que nous avons fait, c'est de transformer cette balle en source lumineuse,
+
+00:09:35.260 --> 00:09:37.260
+de façon à ce que la balle brille réellement,
+
+00:09:37.260 --> 00:09:40.260
+ce qui rend la recherche des fragments très facile.
+
+00:09:40.260 --> 00:09:42.260
+Lors d'une autopsie physique,
+
+00:09:42.260 --> 00:09:44.260
+si vous devez réellement fouiller le corps pour retrouver les fragments,
+
+00:09:44.260 --> 00:09:46.260
+c'est vraiment assez dur à faire.
+
+00:09:48.260 --> 00:09:50.260
+Une des choses que je suis très très heureux
+
+00:09:50.260 --> 00:09:53.260
+de pouvoir vous montrer aujourd'hui
+
+00:09:53.260 --> 00:09:55.260
+est notre table d'autopsie virtuelle.
+
+00:09:55.260 --> 00:09:57.260
+C'est un appareil tactile que nous avons élaboré
+
+00:09:57.260 --> 00:10:00.260
+basé sur ces algorithmes, et qui utilise un processeur graphique standard.
+
+00:10:00.260 --> 00:10:02.260
+Voici de quoi cela a l'air en vrai,
+
+00:10:02.260 --> 00:10:05.260
+juste pour vous donner un idée de ce à quoi cela ressemble.
+
+00:10:05.260 --> 00:10:08.260
+Ça marche vraiment comme un énorme iPhone.
+
+00:10:08.260 --> 00:10:10.260
+Nous avons implémenté
+
+00:10:10.260 --> 00:10:13.260
+tous les gestes que vous pouvez faire sur une table classique,
+
+00:10:13.260 --> 00:10:17.260
+vous pouvez voir cela comme une énorme interface tactile.
+
+00:10:17.260 --> 00:10:19.260
+Alors si vous aviez l'intention d'acheter un iPad,
+
+00:10:19.260 --> 00:10:22.260
+laissez tomber, voilà ce qu'il vous faut à la place.
+
+00:10:22.260 --> 00:10:25.260
+Steve, j'espère bien que tu nous écoutes.
+
+00:10:26.260 --> 00:10:28.260
+C'est un petit appareil très sympa.
+
+00:10:28.260 --> 00:10:30.260
+Alors si vous en avez l'occasion, essayez-le.
+
+00:10:30.260 --> 00:10:33.260
+C'est vraiment une expérience concrète.
+
+00:10:33.260 --> 00:10:36.260
+Nous avons eu des réactions favorables, et nous essayons de le développer,
+
+00:10:36.260 --> 00:10:38.260
+et de l'utiliser à des fins pédagogiques,
+
+00:10:38.260 --> 00:10:40.260
+mais aussi, peut-être à l'avenir,
+
+00:10:40.260 --> 00:10:43.260
+dans un contexte plus clinique.
+
+00:10:43.260 --> 00:10:45.260
+Il y a une vidéo sur YouTube que vous pouvez télécharger et regarder,
+
+00:10:45.260 --> 00:10:47.260
+si vous voulez relayer l'information sur les autopsies virtuelles
+
+00:10:47.260 --> 00:10:50.260
+vers d'autres personnes.
+
+00:10:50.260 --> 00:10:52.260
+Bon, puisque nous parlons de toucher,
+
+00:10:52.260 --> 00:10:54.260
+passons à la possibilité de toucher réellement les données.
+
+00:10:54.260 --> 00:10:56.260
+C'est un peu de la science-fiction, là,
+
+00:10:56.260 --> 00:10:59.260
+on se projette dans le futur.
+
+00:10:59.260 --> 00:11:02.260
+Ça n'est pas vraiment ce que les médecins utilisent actuellement,
+
+00:11:02.260 --> 00:11:04.260
+mais j'espère qu'ils le feront à l'avenir.
+
+00:11:04.260 --> 00:11:07.260
+Ce que vous voyez à gauche est un appareil tactile.
+
+00:11:07.260 --> 00:11:09.260
+C'est un petit stylet mécanique
+
+00:11:09.260 --> 00:11:12.260
+qui a des moteurs pas à pas extrêmement rapides à l'intérieur.
+
+00:11:12.260 --> 00:11:14.260
+Je peux donc produire un retour de force.
+
+00:11:14.260 --> 00:11:16.260
+Alors, quand je touche virtuellement les données
+
+00:11:16.260 --> 00:11:19.260
+cela va produire des retours de force dans le stylet, et j'obtiens ainsi une réaction.
+
+00:11:19.260 --> 00:11:21.260
+Dans ce cas précis,
+
+00:11:21.260 --> 00:11:23.260
+il s'agit du scan d'une personne vivante.
+
+00:11:23.260 --> 00:11:26.260
+J'ai ce stylet, et j'examine les données,
+
+00:11:26.260 --> 00:11:28.260
+je déplace le stylet vers la tête,
+
+00:11:28.260 --> 00:11:30.260
+et tout à coup, je sens une résistance.
+
+00:11:30.260 --> 00:11:32.260
+Et ainsi je peux sentir la peau.
+
+00:11:32.260 --> 00:11:34.260
+Si j'appuie un peu plus fort, je vais traverser la peau,
+
+00:11:34.260 --> 00:11:37.260
+et je pourrai sentir l'os à l'intérieur.
+
+00:11:37.260 --> 00:11:39.260
+Si j'appuie encore plus fort, je traverserai le crâne,
+
+00:11:39.260 --> 00:11:42.260
+particulièrement près de l'oreille, où l'os est très tendre.
+
+00:11:42.260 --> 00:11:45.260
+Et alors je pourrai sentir le cerveau à l'intérieur, et ça aura une consistance de neige fondue, comme ceci.
+
+00:11:45.260 --> 00:11:47.260
+C'est vraiment bien.
+
+00:11:47.260 --> 00:11:50.260
+Et pour aller encore plus loin, voilà un cœur.
+
+00:11:50.260 --> 00:11:53.260
+C'est aussi grâce à ces nouveaux scanners extraordinaires,
+
+00:11:53.260 --> 00:11:55.260
+avec lesquels, en seulement 0,3 secondes,
+
+00:11:55.260 --> 00:11:57.260
+je peux scanner la totalité du cœur,
+
+00:11:57.260 --> 00:11:59.260
+et je peux le faire avec une dimension temporelle.
+
+00:11:59.260 --> 00:12:01.260
+Et donc, pour observer ce cœur,
+
+00:12:01.260 --> 00:12:03.260
+je peux faire tourner une vidéo.
+
+00:12:03.260 --> 00:12:05.260
+Voici Karljohan, l'un de mes étudiants de troisième cycle,
+
+00:12:05.260 --> 00:12:07.260
+qui travaille sur ce projet.
+
+00:12:07.260 --> 00:12:10.260
+Il est assis devant l'appareil haptique, le système de retour de force,
+
+00:12:10.260 --> 00:12:13.260
+et il déplace le stylet vers le cœur,
+
+00:12:13.260 --> 00:12:15.260
+et le cœur bat maintenant devant lui,
+
+00:12:15.260 --> 00:12:17.260
+pour qu'il puisse voir comment il bat.
+
+00:12:17.260 --> 00:12:19.260
+Il a pris le stylet, et il le déplace vers le cœur,
+
+00:12:19.260 --> 00:12:21.260
+il le pose sur le cœur,
+
+00:12:21.260 --> 00:12:24.260
+et il sent les battements de cœur du véritable patient en vie.
+
+00:12:24.260 --> 00:12:26.260
+Il peut alors examiner les mouvements du cœur.
+
+00:12:26.260 --> 00:12:28.260
+Il peut entrer à l'intérieur, pénétrer à l'intérieur du cœur,
+
+00:12:28.260 --> 00:12:31.260
+et sentir vraiment comment les valves bougent.
+
+00:12:31.260 --> 00:12:34.260
+Ceci, je crois, est vraiment l'avenir pour les chirurgiens cardiaques.
+
+00:12:34.260 --> 00:12:37.260
+Je veux dire, c'est probablement le plus grand fantasme pour un chirurgien du cœur
+
+00:12:37.260 --> 00:12:40.260
+que de pouvoir aller voir à l'intérieur du cœur du patient
+
+00:12:40.260 --> 00:12:42.260
+avant de passer à l'acte chirurgical,
+
+00:12:42.260 --> 00:12:44.260
+et de faire cela avec des données de qualité haute définition.
+
+00:12:44.260 --> 00:12:46.260
+C'est vraiment super.
+
+00:12:47.260 --> 00:12:50.260
+Maintenant nous allons encore un peu plus loin dans la science-fiction.
+
+00:12:50.260 --> 00:12:53.260
+Nous avons un peu entendu parler de l'IRM fonctionnelle.
+
+00:12:53.260 --> 00:12:56.260
+Voilà un projet vraiment intéressant.
+
+00:12:56.260 --> 00:12:58.260
+L'IRM utilise des champs magnétiques
+
+00:12:58.260 --> 00:13:00.260
+et des fréquences radio
+
+00:13:00.260 --> 00:13:03.260
+pour scanner le cerveau, ou n'importe quelle partie du corps.
+
+00:13:03.260 --> 00:13:05.260
+Ce que l'on obtient en réalité
+
+00:13:05.260 --> 00:13:07.260
+ce sont des informations sur la structure du cerveau,
+
+00:13:07.260 --> 00:13:09.260
+mais on peut aussi mesurer la différence de propriétés magnétiques
+
+00:13:09.260 --> 00:13:12.260
+entre le sang qui est oxygéné
+
+00:13:12.260 --> 00:13:15.260
+et le sang qui s'est appauvri en oxygène.
+
+00:13:15.260 --> 00:13:17.260
+Cela signifie qu'il est possible
+
+00:13:17.260 --> 00:13:19.260
+d'établir une carte de l'activité du cerveau.
+
+00:13:19.260 --> 00:13:21.260
+C'est quelque chose sur quoi nous travaillons.
+
+00:13:21.260 --> 00:13:24.260
+Vous venez juste de voir Motts, notre ingénieur d'étude,
+
+00:13:24.260 --> 00:13:26.260
+entrer dans la machine d'IRM,
+
+00:13:26.260 --> 00:13:28.260
+et il portait des lunettes.
+
+00:13:28.260 --> 00:13:30.260
+Pour qu'il puisse voir des choses dans les lunettes, en fait.
+
+00:13:30.260 --> 00:13:33.260
+Pour que je puisse lui montrer des choses pendant qu'il est dans le scanner.
+
+00:13:33.260 --> 00:13:35.260
+Et c'est un peu bizarre,
+
+00:13:35.260 --> 00:13:37.260
+parce que ce que Motts voit, c'est en fait ceci.
+
+00:13:37.260 --> 00:13:40.260
+Il voit son propre cerveau.
+
+00:13:40.260 --> 00:13:42.260
+Motts fait quelque chose, là.
+
+00:13:42.260 --> 00:13:44.260
+Il fait probablement comme ça avec sa main droite,
+
+00:13:44.260 --> 00:13:46.260
+parce que le côté gauche du cortex de la motricité
+
+00:13:46.260 --> 00:13:48.260
+est actif.
+
+00:13:48.260 --> 00:13:50.260
+Et il peut voir ceci en même temps.
+
+00:13:50.260 --> 00:13:52.260
+Ces représentations sont toutes nouvelles.
+
+00:13:52.260 --> 00:13:55.260
+C'est quelque chose sur quoi nous menons des recherches depuis un certain temps.
+
+00:13:55.260 --> 00:13:58.260
+Voici une autre séquence du cerveau de Motts.
+
+00:13:58.260 --> 00:14:01.260
+Ici, nous avons demandé à Motts de compter à rebours à partir de 100.
+
+00:14:01.260 --> 00:14:03.260
+Il fait : " 100, 97, 94..."
+
+00:14:03.260 --> 00:14:05.260
+Il le fait à l'envers.
+
+00:14:05.260 --> 00:14:08.260
+Et vous pouvez voir comment le petit processeur mathématique travaille dans son cerveau,
+
+00:14:08.260 --> 00:14:10.260
+et illumine tout le cerveau.
+
+00:14:10.260 --> 00:14:12.260
+Eh bien, c'est extraordinaire. On peut faire ça en temps réel.
+
+00:14:12.260 --> 00:14:14.260
+On peut étudier des tas de choses. On peut lui demander de faire des trucs.
+
+00:14:14.260 --> 00:14:16.260
+Vous pouvez aussi voir que son cortex visuel
+
+00:14:16.260 --> 00:14:18.260
+est actif, à l'arrière de sa tête,
+
+00:14:18.260 --> 00:14:20.260
+parce que c'est là qu'il voit, il voit son propre cerveau.
+
+00:14:20.260 --> 00:14:22.260
+Et il entend également nos instructions
+
+00:14:22.260 --> 00:14:24.260
+quand nous lui disons de faire quelque chose.
+
+00:14:24.260 --> 00:14:26.260
+De plus, le signal est vraiment profond à l'intérieur du cerveau,
+
+00:14:26.260 --> 00:14:28.260
+mais il brille au travers,
+
+00:14:28.260 --> 00:14:30.260
+parce qu'il y a toutes les données à l'intérieur de ce volume.
+
+00:14:30.260 --> 00:14:32.260
+Dans juste un instant vous allez voir --
+
+00:14:32.260 --> 00:14:34.260
+Bien, là, Motts, maintenant bouge ton pied gauche.
+
+00:14:34.260 --> 00:14:36.260
+Il fait comme ça.
+
+00:14:36.260 --> 00:14:38.260
+Pendant 20 secondes, il fait comme ça,
+
+00:14:38.260 --> 00:14:40.260
+et tout à coup, ça s'illumine là-haut.
+
+00:14:40.260 --> 00:14:42.260
+Nous avons le cortex moteur qui s'active là-haut.
+
+00:14:42.260 --> 00:14:44.260
+C'est vraiment, vraiment bien.
+
+00:14:44.260 --> 00:14:46.260
+Je pense que c'est un outil formidable.
+
+00:14:46.260 --> 00:14:48.260
+Et en rapport avec la conférence qui m'a précédé ici,
+
+00:14:48.260 --> 00:14:50.260
+c'est quelque chose que nous pourrions utiliser comme outil
+
+00:14:50.260 --> 00:14:52.260
+pour comprendre vraiment
+
+00:14:52.260 --> 00:14:54.260
+comment marchent les neurones, comment marche le cerveau,
+
+00:14:54.260 --> 00:14:57.260
+et nous pouvons le faire avec de la très, très bonne qualité visuelle
+
+00:14:57.260 --> 00:15:00.260
+et une résolution très rapide.
+
+00:15:00.260 --> 00:15:02.260
+Il nous arrive aussi de nous amuser au Centre.
+
+00:15:02.260 --> 00:15:05.260
+Ceci est un CAT scan -- Computer Aided Tomography.
+
+00:15:06.260 --> 00:15:08.260
+C'est Elsa, une lionne du zoo de notre région,
+
+00:15:08.260 --> 00:15:11.260
+près de Norrkoping, dans la forêt de Kolmarden.
+
+00:15:11.260 --> 00:15:13.260
+Elle est arrivée au Centre,
+
+00:15:13.260 --> 00:15:15.260
+et ils l'ont endormie,
+
+00:15:15.260 --> 00:15:17.260
+et passée directement dans le scanner.
+
+00:15:17.260 --> 00:15:20.260
+Ensuite, bien sûr, j'obtiens tout l'ensemble des données de la lionne.
+
+00:15:20.260 --> 00:15:22.260
+Et je peux faire de très jolies images comme celle-ci.
+
+00:15:22.260 --> 00:15:24.260
+Je peux enlever des couches de la lionne.
+
+00:15:24.260 --> 00:15:26.260
+Je peux observer l'intérieur.
+
+00:15:26.260 --> 00:15:28.260
+Nous avons testé cela.
+
+00:15:28.260 --> 00:15:30.260
+Et je pense que c'est une application formidable
+
+00:15:30.260 --> 00:15:32.260
+pour l'avenir de cette technologie.
+
+00:15:32.260 --> 00:15:35.260
+Parce qu'on en sait très peu sur l'anatomie animale.
+
+00:15:35.260 --> 00:15:38.260
+Le seul savoir disponible pour les vétérinaires est très basique, en somme.
+
+00:15:38.260 --> 00:15:40.260
+Nous pouvons scanner toutes sortes de choses,
+
+00:15:40.260 --> 00:15:42.260
+toutes sortes d'animaux.
+
+00:15:42.260 --> 00:15:45.260
+Le seul problème est de les faire entrer dans la machine.
+
+00:15:45.260 --> 00:15:47.260
+Voici un ours.
+
+00:15:47.260 --> 00:15:49.260
+Ça a été un peu dur de le faire rentrer.
+
+00:15:49.260 --> 00:15:52.260
+L'ours est un animal affectueux, amical.
+
+00:15:52.260 --> 00:15:55.260
+Le voilà. Voilà le nez de l'ours.
+
+00:15:55.260 --> 00:15:58.260
+Vous pourriez avoir envie de câliner celui-ci,
+
+00:15:58.260 --> 00:16:01.260
+jusqu'à ce que vous changiez les réglages et que vous voyiez ceci.
+
+00:16:01.260 --> 00:16:03.260
+Alors, attention aux ours.
+
+00:16:03.260 --> 00:16:05.260
+Pour finir,
+
+00:16:05.260 --> 00:16:07.260
+je voudrais remercier toutes les personnes
+
+00:16:07.260 --> 00:16:09.260
+qui m'ont aidé à produire ces images.
+
+00:16:09.260 --> 00:16:11.260
+C'est un énorme travail que de réussir cela,
+
+00:16:11.260 --> 00:16:14.260
+rassembler les données, développer les algorithmes,
+
+00:16:14.260 --> 00:16:16.260
+écrire tous les programmes.
+
+00:16:16.260 --> 00:16:19.260
+Ces personnes ont énormément de talent.
+
+00:16:19.260 --> 00:16:22.260
+Ma devise est toujours : " N'embauche que des gens plus intelligents que toi",
+
+00:16:22.260 --> 00:16:24.260
+et la plupart d'entre eux sont plus intelligents que moi.
+
+00:16:24.260 --> 00:16:26.260
+Merci beaucoup.
+
+00:16:26.260 --> 00:16:30.260
+(Applaudissements)
+

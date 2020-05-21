@@ -1,0 +1,1495 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Cristina Correia
+Revisora: Wanderley Jesus
+
+00:00:25.845 --> 00:00:29.581
+Em 1962, Charles Van Doren, que viria a ser
+editor sénior na Britannica,
+
+00:00:29.581 --> 00:00:32.018
+disse que a enciclopédia ideal
+devia ser radical
+
+00:00:32.018 --> 00:00:33.763
+— devia deixar de ser prudente.
+
+00:00:33.763 --> 00:00:36.654
+Mas se conhecem a história
+da Britannica desde 1962,
+
+00:00:36.654 --> 00:00:38.381
+sabem que é tudo menos radical.
+
+00:00:38.381 --> 00:00:42.209
+continua ser uma enciclopédica
+cautelosa e pesada.
+
+00:00:43.009 --> 00:00:46.981
+A Wikipedia, por outro lado,
+começa com uma ideia muito radical,
+
+00:00:47.663 --> 00:00:49.472
+a de imaginarmos todos um mundo
+
+00:00:49.472 --> 00:00:51.490
+em que cada pessoa no planeta
+
+00:00:51.490 --> 00:00:54.236
+tem acesso livre à totalidade
+do conhecimento humano.
+
+00:00:54.236 --> 00:00:56.236
+E é isso que fazemos.
+
+00:00:56.236 --> 00:01:00.000
+Portanto a Wikipedia — acabaram de ver
+uma pequena demonstração —
+
+00:01:00.000 --> 00:01:02.318
+é uma enciclopédia de domínio público.
+
+00:01:02.318 --> 00:01:06.000
+É escrita por milhares de voluntários
+em todo o mundo, em muitas línguas.
+
+00:01:06.309 --> 00:01:08.581
+É escrita com recurso a um software Wiki
+
+00:01:08.581 --> 00:01:11.045
+que é o tipo de software
+que ele acaba de demonstrar
+
+00:01:11.045 --> 00:01:12.881
+Qualquer pessoa pode editar e guardar,
+
+00:01:12.881 --> 00:01:15.245
+e é publicado na Internet imediatamente.
+
+00:01:16.000 --> 00:01:20.690
+Tudo na Wikipedia é gerido por uma equipa
+praticamente toda voluntária.
+
+00:01:20.690 --> 00:01:25.000
+Portanto, quando Yochai fala
+em novos métodos de organização,
+
+00:01:25.000 --> 00:01:28.463
+está exatamente a descrever a Wikipedia.
+
+00:01:28.463 --> 00:01:32.318
+Hoje vou falar um pouco mais
+sobre como funciona por dentro.
+
+00:01:33.745 --> 00:01:37.390
+A Wikipedia pertence
+à Fundação Wikimedia, que eu fundei,
+
+00:01:37.472 --> 00:01:39.445
+uma organização sem fins lucrativos.
+
+00:01:39.445 --> 00:01:43.000
+O nosso objetivo, a meta central
+da Fundação Wikimedia,
+
+00:01:43.000 --> 00:01:46.609
+é fazer chegar uma enciclopédia gratuita
+a cada uma das pessoas no planeta.
+
+00:01:46.609 --> 00:01:48.300
+Se pensarmos no que isso significa,
+
+00:01:48.300 --> 00:01:50.900
+é muito mais do que
+construir apenas um website giro.
+
+00:01:50.900 --> 00:01:55.163
+Estamos mesmo interessados nos temas
+da divisão digital, da pobreza mundial,
+
+00:01:55.163 --> 00:01:59.000
+permitir que por todo o lado as pessoas
+tenham a informação de que precisam
+
+00:01:59.000 --> 00:02:00.490
+para tomar boas decisões.
+
+00:02:00.490 --> 00:02:04.336
+Assim, vamos ter de fazer muito trabalho
+que vai para além da Internet.
+
+00:02:04.336 --> 00:02:07.654
+Foi em grande parte por isso
+que optámos pelo modelo de licença livre,
+
+00:02:07.654 --> 00:02:09.690
+porque isso torna os empresários locais
+
+00:02:09.690 --> 00:02:12.336
+— ou quem quiser — aptos a pegar 
+nos nossos conteúdos
+
+00:02:12.336 --> 00:02:15.563
+e a fazer o que quiserem com eles
+— podem copiá-los, redistribuí-los
+
+00:02:15.563 --> 00:02:17.818
+e podem fazê-lo
+com fins comerciais ou não.
+
+00:02:17.818 --> 00:02:21.263
+Vão surgir, portanto, muitas oportunidades
+em torno da Wikipedia
+
+00:02:21.263 --> 00:02:22.881
+por todo o mundo.
+
+00:02:23.681 --> 00:02:26.000
+Somos financiados
+por donativos do público,
+
+00:02:26.000 --> 00:02:28.481
+e uma das coisas
+mais interessantes sobre isso
+
+00:02:28.481 --> 00:02:32.000
+é que é preciso muito pouco dinheiro
+para gerir a Wikipedia.
+
+00:02:32.154 --> 00:02:36.181
+Yochai mostrou-vos o gráfico
+do custo de uma impressora.
+
+00:02:37.363 --> 00:02:40.072
+E eu vou dizer-vos
+quanto custa a Wikipedia,
+
+00:02:40.072 --> 00:02:42.309
+mas primeiro vou mostrar a sua dimensão.
+
+00:02:42.309 --> 00:02:45.781
+Temos mais de 600 mil artigos em inglês.
+
+00:02:46.272 --> 00:02:50.545
+Temos um total de 2 milhões de artigos
+em muitas línguas diferentes.
+
+00:02:50.872 --> 00:02:54.000
+As maiores línguas são
+o alemão, o japonês, o francês.
+
+00:02:54.572 --> 00:02:57.809
+Todos os idiomas do leste europeu
+estão muito representados.
+
+00:02:57.809 --> 00:03:01.427
+Mas apenas cerca de um terço
+de todo o tráfego para a nossa rede
+
+00:03:01.427 --> 00:03:04.572
+se agrupa na Wikipedia inglesa,
+o que surpreende muita gente.
+
+00:03:04.572 --> 00:03:07.954
+Muita gente pensa na Internet
+em termos muito anglocêntricos,
+
+00:03:07.954 --> 00:03:10.227
+mas nós somos realmente globais.
+
+00:03:10.227 --> 00:03:12.172
+Estamos em muitas línguas.
+
+00:03:12.172 --> 00:03:13.627
+A que popularidade chegámos?
+
+00:03:13.627 --> 00:03:17.554
+Estamos na lista dos 50 sítios de topo,
+somos mais populares que o New York Times.
+
+00:03:17.554 --> 00:03:21.836
+É aqui que chegamos à discussão de Yochai.
+
+00:03:22.245 --> 00:03:25.881
+Isto mostra o crescimento da Wikipedia
+— somos aquela linha azul —
+
+00:03:25.918 --> 00:03:28.272
+e ali está o New York Times.
+
+00:03:28.272 --> 00:03:31.327
+O interessante é que
+o site do New York Times
+
+00:03:31.327 --> 00:03:33.536
+é uma gigantesca operação empresarial,
+
+00:03:33.536 --> 00:03:36.718
+nem faço ideia de quantas
+centenas de empregados tem.
+
+00:03:36.718 --> 00:03:39.000
+Nós temos exatamente um só funcionário,
+
+00:03:39.000 --> 00:03:42.000
+que é o responsável
+pelo desenvolvimento do software.
+
+00:03:42.000 --> 00:03:44.863
+E só é nosso empregado
+desde janeiro de 2005,
+
+00:03:44.863 --> 00:03:46.800
+todo o crescimento foi antes disso.
+
+00:03:46.800 --> 00:03:50.000
+Os servidores são geridos por um grupo
+de voluntários arraia-miúda,
+
+00:03:50.000 --> 00:03:52.390
+toda a edição é feita por voluntários.
+
+00:03:52.390 --> 00:03:53.936
+Não estamos organizados
+
+00:03:53.936 --> 00:03:56.545
+como uma organização
+tradicional que possam imaginar.
+
+00:03:56.545 --> 00:03:59.490
+As pessoas estão sempre a perguntar:
+"Quem é que manda nisto?"
+
+00:03:59.490 --> 00:04:01.236
+ou "Quem é que faz isso?"
+
+00:04:01.236 --> 00:04:03.109
+A resposta é: "Quem quiser contribuir".
+
+00:04:03.109 --> 00:04:05.972
+É uma coisa muito caótica
+e pouco habitual.
+
+00:04:06.527 --> 00:04:09.236
+Temos mais de 90 servidores
+atualmente, em três locais.
+
+00:04:09.236 --> 00:04:14.236
+São geridos por administradores
+de sistema voluntários que estão online.
+
+00:04:14.236 --> 00:04:16.627
+Posso ligar-me a qualquer hora
+do dia ou da noite
+
+00:04:16.627 --> 00:04:20.636
+e vejo oito a dez pessoas à minha espera
+
+00:04:20.636 --> 00:04:23.709
+para perguntar qualquer coisa,
+sobre os servidores.
+
+00:04:24.200 --> 00:04:26.945
+Isto seria insustentável numa empresa.
+
+00:04:26.945 --> 00:04:30.336
+Nunca seria sustentável ter uma equipa
+de pessoas de serviço
+
+00:04:30.336 --> 00:04:34.036
+24 horas por dia a fazer
+o que nós fazemos na Wikipedia.
+
+00:04:35.000 --> 00:04:38.000
+Estamos nos 1400 milhões
+de visualizações de página por mês,
+
+00:04:38.000 --> 00:04:40.627
+portanto tornou-se
+uma coisa realmente enorme.
+
+00:04:40.790 --> 00:04:43.000
+Tudo é gerido pelos voluntários.
+
+00:04:43.000 --> 00:04:47.009
+O custo total mensal para a nossa largura
+de banda é de cerca de 5 mil dólares.
+
+00:04:47.009 --> 00:04:49.290
+Esse é essencialmente
+o nosso custo principal.
+
+00:04:49.290 --> 00:04:51.863
+Podíamos na realidade
+prescindir do funcionário.
+
+00:04:52.136 --> 00:04:56.000
+Contratámos o Brian porque, há dois anos,
+ele trabalhava só a meio-tempo
+
+00:04:56.000 --> 00:04:57.772
+e a tempo inteiro na Wikipedia,
+
+00:04:57.772 --> 00:05:00.272
+então contratámo-lo
+para ele poder ter vida própria
+
+00:05:00.272 --> 00:05:02.200
+e ir ao cinema de vez em quando.
+
+00:05:02.200 --> 00:05:05.400
+Quando se tem uma organização tão caótica
+impõe-se a pergunta:
+
+00:05:05.400 --> 00:05:09.354
+Porque é que não é uma porcaria?
+Porque é que o sítio é tão bom como é?
+
+00:05:09.354 --> 00:05:11.136
+Antes de mais, até que ponto é bom?
+
+00:05:11.136 --> 00:05:12.445
+É bastante bom.
+
+00:05:12.445 --> 00:05:15.227
+Não é perfeito, mas é muito melhor
+do que se podia esperar,
+
+00:05:15.227 --> 00:05:17.181
+dado o nosso modelo
+completamente caótico.
+
+00:05:17.181 --> 00:05:20.872
+Quando o veem editar a minha página
+com qualquer coisa ridícula, vocês pensam:
+
+00:05:20.872 --> 00:05:23.772
+"isto vai degenerar e tornar-se lixo".
+
+00:05:23.981 --> 00:05:27.981
+Mas quando vemos testes de qualidade
+— ainda não houve muitos
+
+00:05:27.981 --> 00:05:30.518
+e encorajo as pessoas a fazerem mais —
+
+00:05:30.681 --> 00:05:34.681
+que compararam a Wikipedia
+a coisas tradicionais, ganhámos de caras.
+
+00:05:34.890 --> 00:05:37.718
+Uma revista alemã
+comparou a Wikipedia alemã,
+
+00:05:37.718 --> 00:05:40.618
+que é bastante
+mais pequena do que a inglesa,
+
+00:05:40.618 --> 00:05:44.318
+ao Encarta da Microsoft
+e à Brockhaus Multimedia,
+
+00:05:44.518 --> 00:05:46.518
+e nós ganhámos a todos os níveis.
+
+00:05:46.518 --> 00:05:49.881
+Contrataram especialistas para analisar
+artigos e comparar a qualidade,
+
+00:05:49.881 --> 00:05:52.545
+e ficámos muito satisfeitos
+com o resultado.
+
+00:05:52.690 --> 00:05:57.000
+Muita gente já ouviu falar na controvérsia
+Bush-Kerry na Wikipedia.
+
+00:05:57.527 --> 00:06:01.000
+Os "media" cobriram amplamente o assunto.
+
+00:06:01.000 --> 00:06:03.827
+Começou com um artigo
+na revista Red Herring.
+
+00:06:03.827 --> 00:06:06.509
+Os jornalistas ligaram-me e 
+— enfim, devo dizer
+
+00:06:06.509 --> 00:06:10.736
+que soletraram bem o meu nome,
+mas queriam era dizer
+
+00:06:10.736 --> 00:06:14.000
+era que a eleição Bush-Kerry
+era tão conflituosa,
+
+00:06:14.000 --> 00:06:16.391
+que estava a desfazer
+a comunidade da Wikipedia.
+
+00:06:16.391 --> 00:06:18.000
+Então citaram-me dizendo:
+
+00:06:18.000 --> 00:06:20.490
+"São as mais conflituosas
+na história da Wikipedia."
+
+00:06:20.490 --> 00:06:23.081
+O que eu disse foi
+que não eram contenciosas de todo.
+
+00:06:23.081 --> 00:06:25.509
+Portanto é um ligeiro erro de citação.
+
+00:06:26.454 --> 00:06:29.063
+Os artigos estavam a ser
+bastante editados.
+
+00:06:29.063 --> 00:06:32.663
+Na verdade tivemos que trancá-los
+em diversas ocasiões.
+
+00:06:32.663 --> 00:06:35.000
+A revista Time escreveu recentemente que
+
+00:06:35.000 --> 00:06:37.409
+"Por vezes, são necessárias ações extremas
+
+00:06:37.409 --> 00:06:39.954
+"e Wales trancou os artigos
+sobre Kerry e Bush
+
+00:06:39.954 --> 00:06:41.981
+"durante grande parte de 2004."
+
+00:06:42.200 --> 00:06:46.190
+Isto depois de eu ter dito ao jornalista
+que tivemos de trancá-los
+
+00:06:46.190 --> 00:06:48.400
+ocasionalmente um pouco aqui e ali.
+
+00:06:48.781 --> 00:06:52.000
+De modo geral, a verdade
+é que o tipo de polémicas
+
+00:06:52.000 --> 00:06:54.954
+que poderíamos pensar haver
+no seio da comunidade Wikipedia
+
+00:06:54.954 --> 00:06:56.609
+não são polémicas de todo.
+
+00:06:57.790 --> 00:07:00.572
+Os artigos sobre temas controversos
+são muito editados,
+
+00:07:00.572 --> 00:07:03.090
+mas não causam muita controvérsia
+na comunidade.
+
+00:07:03.290 --> 00:07:05.218
+O motivo é que a maioria das pessoas
+
+00:07:05.218 --> 00:07:07.600
+entende a necessidade
+de manter a neutralidade.
+
+00:07:09.845 --> 00:07:13.936
+A verdadeira luta não é
+entre a direita e a esquerda
+
+00:07:13.936 --> 00:07:16.809
+— parece que é isso o que
+a maior parte das pessoas presume —
+
+00:07:16.809 --> 00:07:19.645
+mas entre o partido dos sensatos
+e o partido dos idiotas.
+
+00:07:19.645 --> 00:07:23.500
+E nenhum lado do espetro político
+tem o monopólio dessas qualidades.
+
+00:07:24.000 --> 00:07:26.927
+A verdade sobre o caso específico
+do incidente Bush-Kerry
+
+00:07:26.927 --> 00:07:29.600
+é que os artigos Bush-Kerry
+
+00:07:29.600 --> 00:07:32.509
+estiveram trancados durante
+menos de 1% do tempo em 2004,
+
+00:07:32.509 --> 00:07:34.245
+e não porque eram polémicos;
+
+00:07:34.245 --> 00:07:36.909
+mas apenas devido ao vandalismo rotineiro
+
+00:07:36.909 --> 00:07:40.700
+que às vezes acontece até no palco,
+por pessoas...
+
+00:07:41.690 --> 00:07:45.409
+por vezes até jornalistas que me disseram
+ter vandalizado a Wikipedia
+
+00:07:45.409 --> 00:07:48.327
+e ficaram surpreendidos com a rapidez
+com que foi consertado.
+
+00:07:48.327 --> 00:07:51.854
+E eu disse — digo sempre —
+por favor não façam isso, não é bom.
+
+00:07:52.118 --> 00:07:53.709
+Então como é que fazemos isto?
+
+00:07:53.709 --> 00:07:55.963
+Como gerimos o controlo de qualidade?
+
+00:07:55.963 --> 00:07:57.945
+Como é que funciona?
+
+00:07:59.436 --> 00:08:01.227
+Há alguns elementos,
+
+00:08:01.227 --> 00:08:04.463
+sobretudo políticas sociais
+e alguns elementos de software.
+
+00:08:04.654 --> 00:08:08.654
+O mais importante é a nossa política
+do ponto de vista neutro.
+
+00:08:08.727 --> 00:08:11.263
+Foi uma coisa que instituí
+desde o princípio
+
+00:08:11.509 --> 00:08:15.072
+como princípio-base da comunidade
+absolutamente indiscutível.
+
+00:08:15.800 --> 00:08:18.690
+É um conceito social de cooperação,
+
+00:08:18.690 --> 00:08:22.245
+portanto não falamos muito
+de verdade e objetividade.
+
+00:08:22.245 --> 00:08:26.790
+Isto porque, se dissermos que só vamos
+escrever a verdade sobre um tema,
+
+00:08:26.790 --> 00:08:29.645
+isso não nos ajuda nada a saber
+o que havemos de escrever,
+
+00:08:29.645 --> 00:08:32.318
+porque posso não concordar convosco
+qual é a verdade.
+
+00:08:32.318 --> 00:08:35.000
+Mas temos este calão de "neutralidade",
+
+00:08:35.000 --> 00:08:37.381
+com a sua longa história na comunidade,
+
+00:08:37.381 --> 00:08:41.000
+que basicamente diz que,
+sempre que há um assunto controverso,
+
+00:08:41.000 --> 00:08:43.681
+a Wikipedia não deverá tomar posição.
+
+00:08:43.681 --> 00:08:47.000
+Devemos apenas relatar o que
+fontes credíveis disseram sobre o tema.
+
+00:08:47.000 --> 00:08:50.000
+Esta política de neutralidade
+é muito importante para nós,
+
+00:08:50.000 --> 00:08:53.209
+porque permite que uma comunidade
+muito diversificada
+
+00:08:53.209 --> 00:08:55.454
+possa unir-se e trabalhar em conjunto.
+
+00:08:55.454 --> 00:08:57.900
+Temos colaboradores muito diversificados,
+
+00:08:57.900 --> 00:09:00.509
+em termos de contexto político,
+religioso e cultural.
+
+00:09:00.654 --> 00:09:02.918
+Ao termos esta firme política
+de neutralidade,
+
+00:09:02.918 --> 00:09:04.800
+que é não-negociável desde o início,
+
+00:09:04.800 --> 00:09:07.000
+garantimos que as pessoas
+trabalham em conjunto
+
+00:09:07.000 --> 00:09:09.081
+e que as entradas
+não se tornam numa guerra
+
+00:09:09.081 --> 00:09:11.127
+entre a esquerda e a direita.
+
+00:09:11.127 --> 00:09:13.390
+Se alguém se envolver
+nesse comportamento,
+
+00:09:13.390 --> 00:09:15.363
+é convidado a sair da comunidade.
+
+00:09:16.790 --> 00:09:18.600
+A revisão por pares, em tempo real.
+
+00:09:18.600 --> 00:09:21.481
+Cada alteração é assinalada
+na página de alterações recentes.
+
+00:09:21.481 --> 00:09:24.572
+Assim que é feita uma mudança,
+ela vai para essa página.
+
+00:09:24.600 --> 00:09:28.827
+Essa página de alterações
+também foi carregada para o canal IRC,
+
+00:09:28.827 --> 00:09:30.827
+que é um canal de conversa na Internet
+
+00:09:30.827 --> 00:09:33.963
+que as pessoas monitorizam
+com diversas ferramentas de software.
+
+00:09:34.509 --> 00:09:36.745
+Podem receber por RSS,
+
+00:09:36.745 --> 00:09:39.745
+podem receber notificações
+de mudanças por correio eletrónico.
+
+00:09:39.745 --> 00:09:42.381
+Os utilizadores podem definir
+uma lista a observar.
+
+00:09:42.381 --> 00:09:45.000
+A minha página está na lista
+de bastantes voluntários,
+
+00:09:45.000 --> 00:09:47.209
+porque às vezes é vandalizada.
+
+00:09:48.136 --> 00:09:52.581
+Portanto, o que se passa é que alguém
+vai reparar na modificação muito depressa,
+
+00:09:52.672 --> 00:09:55.872
+e depois simplesmente anulam-na.
+
+00:09:56.063 --> 00:09:58.272
+Há um "feed" de páginas novas,
+por exemplo,
+
+00:09:58.290 --> 00:10:00.290
+Podemos ir a uma dada página da Wikipedia
+
+00:10:00.290 --> 00:10:02.454
+e ver cada nova página
+à medida que é criada.
+
+00:10:02.454 --> 00:10:04.954
+Isto é muito importante,
+porque muitas páginas novas
+
+00:10:04.954 --> 00:10:07.481
+são apenas lixo que tem que ser apagado.
+
+00:10:07.663 --> 00:10:10.954
+Mas são das coisas mais interessantes
+e engraçadas sobre a Wikipedia,
+
+00:10:10.954 --> 00:10:12.581
+alguns dos novos artigos.
+
+00:10:12.581 --> 00:10:15.109
+Alguém começa um artigo
+sobre um assunto interessante,
+
+00:10:15.109 --> 00:10:17.000
+outras pessoas acham intrigante,
+
+00:10:17.000 --> 00:10:19.000
+intervêm e ajudam
+a torná-lo muito melhor.
+
+00:10:19.000 --> 00:10:21.227
+Há alterações feitas
+por utilizadores anónimos,
+
+00:10:21.227 --> 00:10:24.545
+o que é uma das coisas mais controversas
+e intrigantes da Wikipedia.
+
+00:10:24.545 --> 00:10:27.881
+Chris pôde fazer a alteração
+— não teve sequer de fazer login,
+
+00:10:27.881 --> 00:10:30.963
+apenas foi ao sítio e fez uma alteração.
+
+00:10:31.200 --> 00:10:34.200
+Acontece que só cerca de 18%
+de todas as alterações no site
+
+00:10:34.200 --> 00:10:36.200
+são feitas por utilizadores anónimos.
+
+00:10:36.200 --> 00:10:38.200
+É muito importante que se perceba
+
+00:10:38.200 --> 00:10:41.472
+que a vasta maioria
+das alterações publicadas no site
+
+00:10:41.472 --> 00:10:45.063
+provêm de uma comunidade muito coesa
+de cerca de 600 a 1000 pessoas
+
+00:10:45.090 --> 00:10:47.090
+que estão em constante comunicação.
+
+00:10:47.090 --> 00:10:49.581
+E temos mais de 40 canais IRC,
+40 listas de correio.
+
+00:10:49.600 --> 00:10:52.927
+Toda esta gente se conhece. Comunicam.
+Temos reuniões fora da rede.
+
+00:10:52.972 --> 00:10:55.690
+Estas são as pessoas
+que fazem a maioria do sítio,
+
+00:10:55.690 --> 00:10:59.490
+e, de certa forma,
+são semiprofissionais no que fazem,
+
+00:10:59.736 --> 00:11:04.554
+já que os níveis que definimos
+para nós mesmos são iguais ou mais altos
+
+00:11:04.554 --> 00:11:06.736
+do que os níveis
+de qualidade profissionais.
+
+00:11:06.736 --> 00:11:09.600
+Nem sempre atingimos esse nível,
+mas é o que tentamos fazer.
+
+00:11:09.600 --> 00:11:12.281
+Assim, é esta comunidade unida
+quem toma conta do sítio,
+
+00:11:12.281 --> 00:11:15.072
+e são algumas das pessoas
+mais inteligentes que já conheci.
+
+00:11:15.072 --> 00:11:18.009
+Claro que faz parte do meu trabalho
+dizer isso, mas é verdade.
+
+00:11:18.009 --> 00:11:21.681
+O tipo de pessoa atraída pela ideia
+de escrever uma enciclopédia por diversão
+
+00:11:21.681 --> 00:11:24.000
+tende a ser bastante inteligente.
+
+00:11:24.054 --> 00:11:27.336
+As ferramentas e o software.
+Há muitas ferramentas que nos permitem
+
+00:11:27.336 --> 00:11:30.309
+— a nós, a comunidade — autogerir-nos
+e gerir todo o trabalho.
+
+00:11:30.309 --> 00:11:33.436
+Este é um exemplo do histórico
+de uma página sobre a terra plana,
+
+00:11:33.436 --> 00:11:35.500
+e vemos algumas mudanças
+que foram feitas.
+
+00:11:35.500 --> 00:11:38.509
+O bom desta página
+é que podemos olhar para isto
+
+00:11:38.509 --> 00:11:40.818
+e pensar de imediato: "Ok, já percebi."
+
+00:11:40.818 --> 00:11:43.209
+Quando alguém olha para ela,
+vê que alguém
+
+00:11:43.209 --> 00:11:46.000
+— um número IP anónimo —
+fez uma alteração na minha página.
+
+00:11:46.000 --> 00:11:48.354
+Isso parece suspeito
+— quem é esta pessoa?
+
+00:11:48.354 --> 00:11:50.600
+e vê de imediato
+todas as alterações a vermelho,
+
+00:11:50.609 --> 00:11:52.963
+todas a alterações que foram feitas.
+
+00:11:53.000 --> 00:11:57.000
+"Ok, estas palavras foram mudadas",
+coisas assim.
+
+00:11:57.000 --> 00:11:59.000
+É uma das ferramentas que podemos usar
+
+00:11:59.000 --> 00:12:02.000
+para rapidamente gerir
+o histórico de uma página.
+
+00:12:02.000 --> 00:12:04.554
+Outra coisa que fazemos
+no seio da comunidade
+
+00:12:04.554 --> 00:12:07.409
+é deixar tudo bastante inacabado.
+
+00:12:07.518 --> 00:12:10.909
+A maior parte das regras sociais
+e dos métodos de trabalho
+
+00:12:10.909 --> 00:12:13.463
+são deixados totalmente
+em aberto no software.
+
+00:12:13.463 --> 00:12:15.445
+Tudo está em páginas Wiki.
+
+00:12:15.445 --> 00:12:18.381
+E assim não há nada na programação
+que imponha as regras.
+
+00:12:18.500 --> 00:12:21.718
+O exemplo que apresento aqui
+é a página de Artigos Para Eliminar.
+
+00:12:22.509 --> 00:12:24.818
+Como mencionei há pouco,
+escreve-se ASDFASDF
+
+00:12:24.818 --> 00:12:26.154
+precisa de ser apagado.
+
+00:12:26.154 --> 00:12:29.027
+Em casos como esse,
+os administradores apagam a página.
+
+00:12:29.027 --> 00:12:31.000
+Não há motivo para grande debate.
+
+00:12:31.000 --> 00:12:34.190
+Mas, como podem imaginar,
+há muitas outras áreas onde a questão é:
+
+00:12:34.190 --> 00:12:36.254
+"Terá valor para entrar
+numa enciclopédia?
+
+00:12:36.254 --> 00:12:40.245
+"A informação é corroborável?
+Será um embuste? Será verdade? O que é?"
+
+00:12:40.463 --> 00:12:43.463
+Precisávamos de um método social
+para obtermos as respostas.
+
+00:12:43.636 --> 00:12:46.454
+Então o método que surgiu
+naturalmente dentro da comunidade
+
+00:12:46.454 --> 00:12:48.136
+foi o "Páginas Para Eliminar".
+
+00:12:48.136 --> 00:12:50.745
+No caso concreto que temos aqui,
+trata-se de um filme,
+
+00:12:50.745 --> 00:12:53.000
+"Twisted Issues", e a primeira pessoa diz:
+
+00:12:53.000 --> 00:12:56.863
+"Supostamente isto é um filme.
+Chumba miseravelmente no teste do Google."
+
+00:12:56.863 --> 00:12:59.500
+O teste do Google é procurar
+no Google e ver se lá está,
+
+00:12:59.500 --> 00:13:01.627
+porque se uma coisa
+não aparece no Google,
+
+00:13:01.627 --> 00:13:03.454
+provavelmente é porque não existe.
+
+00:13:03.454 --> 00:13:05.272
+Não é uma regra perfeita,
+
+00:13:05.272 --> 00:13:07.981
+mas é um bom ponto de partida
+para uma pesquisa rápida.
+
+00:13:08.163 --> 00:13:11.218
+Então alguém diz: 
+"Apaga, por favor. Não é digno de nota."
+
+00:13:11.218 --> 00:13:13.200
+Depois alguém diz: "Espera, encontrei-o.
+
+00:13:13.200 --> 00:13:15.618
+"Encontrei-o no livro
+Film Threat Video Guide:
+
+00:13:15.618 --> 00:13:18.000
+"Os 20 Filmes Underground
+Que Você Precisa de Ver."
+
+00:13:18.000 --> 00:13:19.881
+Ok. Vem outro e diz: "Arruma isso."
+
+00:13:19.881 --> 00:13:22.736
+Outro diz: "Encontrei-o no IMDB.
+É de manter."
+
+00:13:23.509 --> 00:13:26.127
+O interessante nisto é que o software é...
+
+00:13:26.190 --> 00:13:29.400
+— estes votos são apenas
+texto digitado numa página.
+
+00:13:29.654 --> 00:13:33.400
+Não é bem uma votação
+mas antes um diálogo.
+
+00:13:33.954 --> 00:13:35.954
+É verdade que ao fim do dia
+
+00:13:35.954 --> 00:13:38.954
+um administrador
+pode rever tudo isto e dizer:
+
+00:13:39.318 --> 00:13:42.227
+"Ok, 18 para apagar,
+dois para manter, apagamos".
+
+00:13:42.454 --> 00:13:46.918
+Mas noutros casos, pode haver 18 para apagar
+e dois para manter e nós mantemos,
+
+00:13:46.918 --> 00:13:49.309
+porque se os últimos dois
+para manter disseram:
+
+00:13:49.309 --> 00:13:52.100
+"Esperem lá. Ninguém viu isto
+mas eu encontrei-o num livro,
+
+00:13:52.100 --> 00:13:55.081
+"descobri um link para uma página
+e vou limpá-lo amanhã,
+
+00:13:55.081 --> 00:13:56.690
+"Por favor não o apaguem."
+
+00:13:56.699 --> 00:13:58.618
+então o artigo sobreviverá.
+
+00:13:58.618 --> 00:14:01.072
+Também é relevante
+quem são as pessoas a votar.
+
+00:14:01.072 --> 00:14:03.000
+Como eu digo, é uma comunidade coesa.
+
+00:14:03.000 --> 00:14:05.354
+Cá em baixo:
+"Manter, filme verdadeiro", Rick Kay.
+
+00:14:05.354 --> 00:14:07.872
+Rick Kay é um wikipediano muito conhecido
+
+00:14:07.872 --> 00:14:10.636
+que faz um enorme trabalho
+com o vandalismo, os embustes
+
+00:14:10.636 --> 00:14:12.372
+e votos para eliminação.
+
+00:14:12.445 --> 00:14:14.854
+A voz dele tem bastante peso na comunidade
+
+00:14:14.854 --> 00:14:16.563
+porque ele sabe o que faz.
+
+00:14:17.754 --> 00:14:19.754
+Então, como se governa tudo isto?
+
+00:14:20.000 --> 00:14:22.990
+As pessoas querem saber
+sobre administradores, coisas dessas.
+
+00:14:23.881 --> 00:14:26.990
+O modelo de governação da Wikipedia,
+a governação da comunidade,
+
+00:14:26.990 --> 00:14:30.545
+é uma mistura de consensos
+muito confusa mas funcional
+
+00:14:30.545 --> 00:14:33.709
+— ou seja, tentamos não votar
+no conteúdo de artigos,
+
+00:14:33.709 --> 00:14:36.727
+porque a opinião da maioria
+não é necessariamente neutra.
+
+00:14:37.345 --> 00:14:39.945
+Alguma democracia,
+todos os administradores
+
+00:14:40.000 --> 00:14:42.227
+— os que têm a capacidade
+de eliminar páginas,
+
+00:14:42.227 --> 00:14:44.545
+mas não têm o direito
+de eliminar páginas,
+
+00:14:44.545 --> 00:14:48.245
+têm sempre de seguir todas as regras
+— mas são eleitos pela comunidade.
+
+00:14:48.536 --> 00:14:51.299
+Por vezes, há pessoas 
+— iscas casuais da Internet —
+
+00:14:51.299 --> 00:14:54.236
+que gostam de acusar-me de escolher
+os administradores a dedo,
+
+00:14:54.236 --> 00:14:56.372
+para influenciar
+o conteúdo da enciclopédia.
+
+00:14:56.372 --> 00:14:59.890
+Rio-me sempre disto porque, por acaso,
+não faço ideia de como são eleitos.
+
+00:15:00.000 --> 00:15:02.000
+Há um certo grau de aristocracia.
+
+00:15:02.000 --> 00:15:04.063
+Tiveram uma indicação disso
+quando mencionei
+
+00:15:04.063 --> 00:15:07.518
+que a voz de Rick Kay pesaria mais
+do que alguém que não conhecemos.
+
+00:15:07.727 --> 00:15:12.209
+Às vezes faço esta palestra com a Angela,
+que acaba de ser reeleita
+
+00:15:12.209 --> 00:15:14.663
+pela comunidade
+para o Conselho da Fundação,
+
+00:15:14.663 --> 00:15:17.936
+com mais do dobro dos votos
+da pessoa que não ganhou.
+
+00:15:18.190 --> 00:15:22.509
+E envergonho-a sempre
+porque digo que a Angela, por exemplo,
+
+00:15:22.509 --> 00:15:25.509
+podia fazer , impunemente,
+o que lhe apetecesse na Wikipedia,
+
+00:15:25.645 --> 00:15:27.981
+porque é muito admirada e poderosa.
+
+00:15:28.000 --> 00:15:31.545
+Mas a ironia é que Angela pode fazer isso
+porque é aquela pessoa
+
+00:15:31.545 --> 00:15:34.627
+que se sabe que nunca quebraria
+qualquer regra da Wikipedia.
+
+00:15:34.681 --> 00:15:36.954
+Também gostava de dizer
+que ela é a única pessoa
+
+00:15:36.954 --> 00:15:40.054
+que conhece todas as regras da Wikipedia.
+
+00:15:40.218 --> 00:15:43.172
+Depois há a monarquia,
+e esse é o meu papel na comunidade.
+
+00:15:46.000 --> 00:15:48.000
+Uma vez descrevi isto em Berlim
+
+00:15:48.000 --> 00:15:50.872
+e, no dia seguinte,
+o cabeçalho do jornal dizia:
+
+00:15:51.118 --> 00:15:53.200
+"Sou a Rainha da Inglaterra"
+
+00:15:54.236 --> 00:15:56.299
+Não foi bem isso que eu disse.
+
+00:15:58.027 --> 00:16:00.381
+A questão é que o meu papel
+na comunidade,
+
+00:16:00.381 --> 00:16:04.872
+no mundo do software livre
+há uma longa tradição
+
+00:16:04.872 --> 00:16:08.545
+do modelo do ditador benevolente.
+
+00:16:08.581 --> 00:16:11.709
+Se olharem para a maioria
+dos grandes projetos de software livre,
+
+00:16:11.709 --> 00:16:13.636
+têm apenas uma pessoa responsável
+
+00:16:13.663 --> 00:16:16.663
+que todos concordam
+que é o ditador benevolente.
+
+00:16:16.663 --> 00:16:19.272
+Eu não gosto do termo ditador benevolente,
+
+00:16:19.272 --> 00:16:23.000
+e não penso que a minha função
+ou papel no mundo das ideias
+
+00:16:23.000 --> 00:16:24.763
+seja ser o ditador do futuro
+
+00:16:24.763 --> 00:16:27.500
+de todo o conhecimento humano
+compilado pelo mundo.
+
+00:16:27.500 --> 00:16:29.390
+Simplesmente não é apropriado.
+
+00:16:29.390 --> 00:16:32.436
+Mesmo assim, é necessário
+um certo grau de monarquia,
+
+00:16:32.436 --> 00:16:35.300
+por vezes temos de tomar uma decisão,
+
+00:16:35.300 --> 00:16:37.490
+e não queremos ficar demasiado atolados
+
+00:16:37.490 --> 00:16:40.609
+em processos formais de decisão.
+
+00:16:41.000 --> 00:16:44.181
+Como exemplo de como isto tem sido
+
+00:16:44.181 --> 00:16:46.018
+ou de como isto pode ser importante,
+
+00:16:46.018 --> 00:16:47.663
+recentemente tivemos uma situação
+
+00:16:47.663 --> 00:16:50.472
+em que um sítio neonazi
+descobriu a Wikipedia e disseram:
+
+00:16:50.472 --> 00:16:54.436
+"Isto é horrível, este sítio
+de conspiração judaica.
+
+00:16:54.436 --> 00:16:57.290
+"vamos apagar certos artigos
+que não nos agradam.
+
+00:16:57.290 --> 00:16:59.690
+"Vemos que eles têm um processo de votação
+
+00:16:59.690 --> 00:17:03.154
+"— temos 40 mil membros
+e vamos mandá-los para ali.
+
+00:17:03.154 --> 00:17:05.645
+"Vão todos votar
+para apagar estas páginas."
+
+00:17:06.000 --> 00:17:08.454
+Conseguiram que aparecessem 18 pessoas .
+
+00:17:08.454 --> 00:17:10.399
+Aí têm a matemática neonazi.
+
+00:17:11.000 --> 00:17:14.000
+Acham sempre que têm 40 mil membros
+quando têm 18.
+
+00:17:14.000 --> 00:17:16.181
+Mas lá conseguiram
+que aparecessem 18 pessoas
+
+00:17:16.181 --> 00:17:18.100
+que votaram de forma bastante absurda
+
+00:17:18.100 --> 00:17:20.545
+para a eliminação de um artigo
+perfeitamente válido.
+
+00:17:20.545 --> 00:17:23.381
+Claro que a votação
+terminou cerca de 85 a 18,
+
+00:17:23.381 --> 00:17:26.472
+portanto não foi um perigo real
+para o nosso processo democrático.
+
+00:17:26.472 --> 00:17:29.572
+Por outro lado, as pessoas disseram:
+"O que vamos fazer?
+
+00:17:29.572 --> 00:17:33.318
+"Quer dizer, isto pode acontecer.
+e se algum grupo se organizar a sério
+
+00:17:33.318 --> 00:17:34.900
+"e quiser votar?"
+
+00:17:35.872 --> 00:17:38.890
+Então eu disse: "Bem, que se dane,
+vamos mudar as regras."
+
+00:17:38.890 --> 00:17:40.736
+Esse é o meu trabalho na comunidade:
+
+00:17:40.736 --> 00:17:44.000
+dizer que não permitiremos
+que a nossa abertura e liberdade
+
+00:17:44.000 --> 00:17:46.645
+enfraqueçam a qualidade dos conteúdos.
+
+00:17:47.000 --> 00:17:50.000
+Enquanto confiarem em mim
+para fazer o meu papel,
+
+00:17:50.000 --> 00:17:52.000
+então é uma posição válida para mim.
+
+00:17:52.000 --> 00:17:55.127
+Claro que, se eu fizer um mau trabalho,
+
+00:17:55.127 --> 00:17:57.272
+os voluntários são livres de ir embora
+
+00:17:57.272 --> 00:17:59.563
+não posso dizer a ninguém o que fazer.
+
+00:17:59.563 --> 00:18:03.818
+A conclusão é que, para compreender
+como funciona a Wikipedia,
+
+00:18:03.818 --> 00:18:07.445
+é importante entender que o modelo Wiki
+é a nossa forma de trabalhar,
+
+00:18:07.445 --> 00:18:10.945
+mas não somos
+anarquistas fanáticas da web.
+
+00:18:10.945 --> 00:18:14.100
+Na realidade, somos muito flexíveis
+quanto a metodologia social,
+
+00:18:14.100 --> 00:18:16.527
+porque em última instância,
+a paixão da comunidade
+
+00:18:16.527 --> 00:18:18.481
+é pela qualidade do trabalho,
+
+00:18:18.481 --> 00:18:21.563
+não necessariamente pelo processo
+que usamos para o gerar.
+
+00:18:21.736 --> 00:18:22.972
+Obrigado.
+
+00:18:23.036 --> 00:18:26.036
+(Aplausos)
+
+00:18:27.472 --> 00:18:29.472
+Ben Saunders: Olá, sou Ben Saunders.
+
+00:18:29.472 --> 00:18:33.472
+Jimmy, mencionou que a imparcialidade
+era uma chave para o sucesso da Wikipedia.
+
+00:18:33.490 --> 00:18:37.490
+Parece-me que muitos dos manuais
+
+00:18:37.490 --> 00:18:40.581
+usados para educar as nossas crianças
+são tendenciosos.
+
+00:18:40.590 --> 00:18:44.045
+Tem visto a Wikipedia ser usada
+por professores,
+
+00:18:44.045 --> 00:18:46.554
+e pensa que a Wikipedia
+pode mudar a educação?
+
+00:18:46.554 --> 00:18:49.581
+Jimmy Wales: Sim, muitos professores
+começam a usar a Wikipedia.
+
+00:18:49.818 --> 00:18:55.181
+Até há uma história mediática
+sobre a Wikipedia, que julgo que é falsa.
+
+00:18:55.309 --> 00:18:58.409
+Baseia-se na história
+dos blogues contra os jornais.
+
+00:18:58.763 --> 00:19:01.954
+E a história é:
+há esta loucura, a Wikipedia,
+
+00:19:01.954 --> 00:19:05.081
+mas os académicos
+e os professores odeiam-na.
+
+00:19:05.654 --> 00:19:08.009
+Acontece que isso não é verdade.
+
+00:19:08.009 --> 00:19:10.945
+A última vez que recebi um email 
+de um jornalista que dizia:
+
+00:19:10.945 --> 00:19:13.436
+"Porque é que os académicos
+detestam a Wikipedia?"
+
+00:19:13.436 --> 00:19:15.127
+respondi do meu email de Harvard,
+
+00:19:15.127 --> 00:19:17.572
+porque fui lá recentemente
+nomeado membro:
+
+00:19:17.572 --> 00:19:19.554
+"Bem, nem todos a detestam."
+
+00:19:19.827 --> 00:19:22.600
+Mas acho que haverá um enorme impacto.
+
+00:19:22.781 --> 00:19:26.327
+Temos mesmo um projeto
+que me entusiasma pessoalmente,
+
+00:19:26.327 --> 00:19:27.854
+que é o projeto Wikibooks,
+
+00:19:27.854 --> 00:19:31.000
+um esforço para criar manuais
+em todas as línguas.
+
+00:19:31.000 --> 00:19:35.945
+Isso é um projeto muito maior,
+vai levar uns 20 anos a pôr em prática.
+
+00:19:36.881 --> 00:19:39.263
+Mas parte disso é cumprir a nossa missão
+
+00:19:39.263 --> 00:19:42.000
+de dar uma enciclopédia
+a cada uma das pessoas no planeta.
+
+00:19:42.000 --> 00:19:44.663
+Não quer dizer que os vamos
+inundar de CDs tipo AOL.
+
+00:19:44.663 --> 00:19:47.500
+Quer dizer que vamos dar-lhes
+uma ferramenta que podem usar.
+
+00:19:47.500 --> 00:19:49.018
+Para muita gente no mundo,
+
+00:19:49.018 --> 00:19:51.863
+se lhes der uma enciclopédia
+escrita a nível universitário,
+
+00:19:51.863 --> 00:19:53.572
+não lhes servirá de nada
+
+00:19:53.572 --> 00:19:55.699
+sem uma panóplia de materiais de literacia
+
+00:19:55.699 --> 00:19:58.300
+para levá-los até ao ponto
+em que podem usufruir dela.
+
+00:19:58.300 --> 00:20:00.754
+O projeto Wikibooks
+é um esforço nesse sentido.
+
+00:20:01.972 --> 00:20:03.827
+— pode até nem vir de nós,
+
+00:20:03.827 --> 00:20:05.736
+há inovação de todos os tipos por aí.
+
+00:20:05.736 --> 00:20:10.000
+Mas manuais escolares de domínio público
+são a próxima grande novidade na educação.
+

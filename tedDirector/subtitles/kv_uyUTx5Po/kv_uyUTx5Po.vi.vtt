@@ -1,0 +1,756 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Ha Nguyen Thu
+Reviewer: Nhu PHAM
+
+00:00:12.562 --> 00:00:15.623
+Eric Berlow: Tôi là nhà sinh thái học,
+và Sean là nhà vật lí học,
+
+00:00:15.623 --> 00:00:17.731
+chúng tôi cùng nghiên cứu 
+các mạng phức hợp.
+
+00:00:17.731 --> 00:00:19.566
+Chúng tôi đã gặp nhau vài năm trước
+khi phát hiện ra
+
+00:00:19.566 --> 00:00:21.566
+cả hai đều có bài nói ngắn
+trên TED Talk
+
+00:00:21.566 --> 00:00:23.869
+về chiến tranh sinh thái,
+
+00:00:23.869 --> 00:00:25.316
+và nhận ra rằng 
+cả hai có liên hệ với nhau
+
+00:00:25.316 --> 00:00:28.134
+qua các ý tưởng được chia sẻ
+từ trước cả khi chúng tôi gặp nhau.
+
+00:00:28.134 --> 00:00:29.690
+Rồi sau đó chúng tôi nghĩ, như các bạn biết đó, 
+có hàng nghìn
+
+00:00:29.690 --> 00:00:31.804
+các bài nói, đặc biệt là TEDx Talk,
+
+00:00:31.804 --> 00:00:34.015
+đang được lan rộng 
+khắp nơi trên thế giới.
+
+00:00:34.015 --> 00:00:34.938
+Làm thế nào mà chúng được kết nối,
+
+00:00:34.938 --> 00:00:36.948
+và cuộc hội thoại toàn cầu đó 
+diễn ra thế nào?
+
+00:00:36.948 --> 00:00:39.758
+Sau đây, Sean sẽ nói một chút 
+về công việc mà chúng tôi đã làm.
+
+00:00:39.758 --> 00:00:43.525
+Đúng vậy. Chúng tôi thu thập 
+24.000 bài nói chuyện TEDx
+
+00:00:43.525 --> 00:00:46.571
+từ khắp nơi trên thế giới, 
+147 nước khác nhau,
+
+00:00:46.571 --> 00:00:48.694
+và lấy những bài nói chuyện này 
+và chúng tôi muốn tìm hiểu
+
+00:00:48.694 --> 00:00:50.734
+cấu trúc toán học ẩn sâu bên trong
+
+00:00:50.734 --> 00:00:52.456
+các ý tưởng đằng sau các bài nói.
+
+00:00:52.456 --> 00:00:53.826
+Và chúng tôi muốn làm việc đó 
+để xem
+
+00:00:53.826 --> 00:00:55.879
+liệu chúng liên quan với nhau 
+như thế nào.
+
+00:00:55.879 --> 00:00:57.555
+Và dĩ nhiên rằng, nếu làm công việc này
+
+00:00:57.555 --> 00:00:58.511
+các bạn cần rất nhiều dữ liệu.
+
+00:00:58.511 --> 00:01:02.197
+Và dữ liệu mà các bạn có 
+là một thứ tuyệt vời gọi là YouTube,
+
+00:01:02.197 --> 00:01:03.965
+và chúng ta có thể truy cập
+
+00:01:03.965 --> 00:01:06.232
+và xem tất cả thông tin mở
+trên YouTube,
+
+00:01:06.232 --> 00:01:08.581
+tất cả các lời bình luận, 
+tất cả các lượt xem, ai đang xem
+
+00:01:08.581 --> 00:01:11.360
+xem ở đâu, nói gì trong phần bình luận.
+
+00:01:11.360 --> 00:01:14.652
+Nhưng chúng ta cũng có thể trích dẫn, 
+sử dụng công cụ dịch giọng nói ra văn bản,
+
+00:01:14.652 --> 00:01:16.780
+chúng ta có thể trích toàn bộ văn bản
+
+00:01:16.780 --> 00:01:19.460
+nó thậm chí còn nhận được giọng của người 
+có kiểu giọng buồn cười giống như tôi.
+
+00:01:19.460 --> 00:01:21.566
+Như vậy, chúng ta có thể lấy bản dịch
+
+00:01:21.566 --> 00:01:23.664
+và làm những việc hay ho từ đó.
+
+00:01:23.664 --> 00:01:25.824
+Chúng ta có thể dùng thuật toán
+xử lí ngôn ngữ gốc
+
+00:01:25.824 --> 00:01:28.453
+để đọc từng dòng một
+trên máy tính,
+
+00:01:28.453 --> 00:01:30.812
+trích rút các khái niệm quan trọng ở đó.
+
+00:01:30.812 --> 00:01:33.337
+Và chúng tôi lấy những khái niệm chủ chốt
+và chúng tạo nên
+
+00:01:33.337 --> 00:01:36.902
+cấu trúc toán học về ý tưởng này.
+
+00:01:36.902 --> 00:01:38.659
+Chúng tôi gọi nó là meme-ome.
+
+00:01:38.659 --> 00:01:40.810
+Và cái meme-ome đó, như các bạn biết, 
+rất đơn giản,
+
+00:01:40.810 --> 00:01:43.236
+là toán học nằm sau một khái niệm.
+
+00:01:43.236 --> 00:01:45.168
+và chúng tôi tiến hành 
+một số phân tích thú vị với nó,
+
+00:01:45.168 --> 00:01:47.149
+và tôi muốn chia sẻ nó
+với các bạn bây giờ.
+
+00:01:47.149 --> 00:01:49.339
+Như vậy, mỗi ý niệm 
+có một meme-ome riêng,
+
+00:01:49.339 --> 00:01:51.290
+và mỗi ý niệm đó 
+đều có điểm đặc trưng riêng,
+
+00:01:51.290 --> 00:01:53.778
+nhưng tất nhiên, các ý niệm, 
+chúng vay mượn lẫn nhau,
+
+00:01:53.778 --> 00:01:54.962
+chúng đôi khi còn đánh cắp 
+lẫn nhau nữa,
+
+00:01:54.962 --> 00:01:56.789
+và chúng chắc chắn được xây dựng
+dựa vào nhau,
+
+00:01:56.789 --> 00:01:58.405
+và chúng tôi có thể kiểm tra
+về mặt toán học
+
+00:01:58.405 --> 00:02:00.245
+và lấy được meme-ome
+từ một bài nói chuyện
+
+00:02:00.245 --> 00:02:02.699
+so sánh nó với meme-ome 
+từ các bài nói chuyện khác,
+
+00:02:02.699 --> 00:02:04.672
+và nếu có sự tương đồng 
+giữa hai cái,
+
+00:02:04.672 --> 00:02:07.922
+chúng tôi có thể tạo ra 
+một liên kết và biểu diễn nó lên biểu đồ,
+
+00:02:07.922 --> 00:02:10.316
+giống như Eric và tôi 
+liên kết với nhau.
+
+00:02:10.316 --> 00:02:11.710
+Như vậy, đó là lí thuyết, 
+thật tuyệt vời.
+
+00:02:11.710 --> 00:02:14.236
+Chúng ta cùng xem 
+nó làm việc thế nào trong thực tế.
+
+00:02:14.236 --> 00:02:17.024
+Vậy là, chúng ta đã có ở đây
+dấu tích toàn cầu
+
+00:02:17.024 --> 00:02:19.317
+của tất cả các bài nói chuyện TEDx
+trong bốn năm qua
+
+00:02:19.317 --> 00:02:20.867
+lan tỏa ra toàn thế giới
+
+00:02:20.867 --> 00:02:24.196
+từ New York xuống đến 
+tận góc nhỏ của New Zealand.
+
+00:02:24.196 --> 00:02:28.031
+Và những gì chúng tôi đã làm 
+đó là phân tích 25% bài nói hàng đầu,
+
+00:02:28.031 --> 00:02:30.565
+và xem xét sự kết nối này 
+bắt nguồn từ đầu,
+
+00:02:30.565 --> 00:02:32.102
+từ đâu mà chúng kết nối với nhau.
+
+00:02:32.102 --> 00:02:33.976
+Cameron Russell nói về
+những hình ảnh và nét đẹp
+
+00:02:33.976 --> 00:02:35.551
+liên hệ trực tiếp với Châu Âu.
+
+00:02:35.551 --> 00:02:37.963
+Chúng ta có một cuộc đối thoại lớn hơn 
+về Israel và Palestine
+
+00:02:37.963 --> 00:02:40.218
+lan ra ngoài từ phía Trung Đông.
+
+00:02:40.218 --> 00:02:41.516
+Và chúng ta có một vài thứ lớn hơn
+
+00:02:41.516 --> 00:02:43.672
+như dữ liệu lớn 
+với dấu vết toàn cầu thật sự
+
+00:02:43.672 --> 00:02:45.851
+gợi nhớ về một cuộc trò chuyện
+
+00:02:45.851 --> 00:02:47.867
+đã diễn ra ở khắp mọi nơi.
+
+00:02:47.867 --> 00:02:50.040
+Vì vậy từ đó, chúng tôi gần như 
+đi ngược lại với giới hạn
+
+00:02:50.040 --> 00:02:52.570
+của những gì 
+mà chúng tôi làm với dự án địa lý,
+
+00:02:52.570 --> 00:02:54.622
+nhưng may thay, công nghệ máy tính
+đã cho phép chúng tôi
+
+00:02:54.622 --> 00:02:56.168
+với tới không gian đa chiều.
+
+00:02:56.168 --> 00:02:58.043
+Vì thế, chúng tôi có thể
+lấy dự án mạng lưới của mình
+
+00:02:58.043 --> 00:02:59.793
+và áp dụng một động cơ vật lý vào đó,
+
+00:02:59.793 --> 00:03:01.678
+và những bài nói tương tự 
+sẽ được gộp lại với nhau,
+
+00:03:01.678 --> 00:03:03.682
+và những bài khác biệt
+thì sẽ tách ra,
+
+00:03:03.682 --> 00:03:05.754
+và những gì chúng tôi để lại 
+là những thứ rất đẹp.
+
+00:03:05.754 --> 00:03:08.711
+EB: Vì thế tôi muốn chỉ ra ở đây
+mỗi giao điểm là một bài thuyết trình,
+
+00:03:08.711 --> 00:03:11.300
+chúng được kết nối với nhau 
+nếu chia sẻ những ý tưởng tương đồng,
+
+00:03:11.300 --> 00:03:13.384
+được lấy từ chiếc máy thông dịch
+
+00:03:13.384 --> 00:03:15.451
+của toàn bộ văn bản bài nói chuyện,
+
+00:03:15.451 --> 00:03:17.682
+và rồi tất cả những đề tài này 
+sẽ nổi bật lên,
+
+00:03:17.682 --> 00:03:19.472
+không phải từ các thẻ và từ khoá.
+
+00:03:19.472 --> 00:03:21.197
+Chúng bắt nguồn từ cấu trúc mạng lưới
+
+00:03:21.197 --> 00:03:23.365
+của những ý tưởng liên kết với nhau. 
+Cứ tiếp tục như vậy.
+
+00:03:23.365 --> 00:03:25.387
+SG: Tất nhiên. 
+Vì thế tôi nói hơi nhanh về nó,
+
+00:03:25.387 --> 00:03:26.862
+nhưng anh ấy đang làm tôi chậm lại.
+
+00:03:26.862 --> 00:03:28.896
+Chúng tôi có sự giáo dục 
+liên quan tới cách kể chuyện
+
+00:03:28.896 --> 00:03:30.539
+theo hình tam giác 
+bên cạnh các phương tiện truyền thông xã hội.
+
+00:03:30.539 --> 00:03:33.014
+Bạn có, tất nhiên, não phải của con người 
+ngay kế bên việc chăm sóc sức khoẻ,
+
+00:03:33.014 --> 00:03:34.400
+điều mà bạn có thể đang mong đợi,
+
+00:03:34.400 --> 00:03:36.795
+bạn còn có được những trò chơi điện tử, 
+thứ đại loại là sự liền kề,
+
+00:03:36.795 --> 00:03:39.535
+vì hai không gian của chúng
+giao tiếp với nhau.
+
+00:03:39.535 --> 00:03:41.070
+Nhưng tôi muốn đưa bạn
+vào một trong những nhóm
+
+00:03:41.070 --> 00:03:43.938
+mà quan trọng đối với tôi, 
+và đó là môi trường.
+
+00:03:43.938 --> 00:03:45.431
+Và tôi muốn đi sâu vào nó và xem
+
+00:03:45.431 --> 00:03:47.794
+nếu chúng ta có thể có 
+nhiều độ phân giải hơn.
+
+00:03:47.794 --> 00:03:50.141
+Vì thế, khi đi đến đây, 
+những gì chúng ta bắt đầu nhìn thấy,
+
+00:03:50.141 --> 00:03:51.645
+áp dụng các động cơ vật lý 
+một lần nữa,
+
+00:03:51.645 --> 00:03:53.321
+chúng ta nhìn thấy rằng
+một cuộc nói chuyện
+
+00:03:53.321 --> 00:03:55.881
+là sự kết hợp 
+giữa những cuộc nói chuyện nhỏ hơn.
+
+00:03:55.881 --> 00:03:57.810
+Cấu trúc bắt đầu nổi lên
+
+00:03:57.810 --> 00:03:59.880
+từ nơi mà chúng ta thấy 
+một loạt phân đoạn các hành vi
+
+00:03:59.880 --> 00:04:01.499
+của những từ ngữ và ngôn ngữ
+mà chúng ta sử dụng
+
+00:04:01.499 --> 00:04:03.201
+để miêu tả những điều quan trọng 
+đối với mình
+
+00:04:03.201 --> 00:04:04.634
+ở mọi nơi trên trái đất.
+
+00:04:04.634 --> 00:04:06.966
+bạn có được ngành kinh tế thực phẩm 
+và thực phẩm địa phương ở hàng đầu,
+
+00:04:06.966 --> 00:04:09.685
+bạn có khí nhà kính, 
+năng lượng mặt trời và chất thải hạt nhân.
+
+00:04:09.685 --> 00:04:12.316
+Những gì bạn đang có
+là một loạt những cuộc hội thoại,
+
+00:04:12.316 --> 00:04:14.617
+liên kết với nhau 
+qua những ý tưởng
+
+00:04:14.617 --> 00:04:15.918
+và ngôn ngữ ,
+
+00:04:15.918 --> 00:04:18.368
+sáng tạo ra 
+một khái niệm rộng hơn về môi trường.
+
+00:04:18.368 --> 00:04:19.900
+Và tất nhiên, từ đây, 
+chúng ta có thể đi tới
+
+00:04:19.900 --> 00:04:23.434
+và phóng to để nhìn, và có lẽ, 
+người trẻ đang nhìn vào những gì?
+
+00:04:23.434 --> 00:04:25.779
+Và họ đang tìm hiểu về công nghệ năng lượng 
+và hợp nhất hạt nhân nguyên tử.
+
+00:04:25.779 --> 00:04:27.453
+Đây là loại cộng hưởng của chúng
+
+00:04:27.453 --> 00:04:29.859
+cho cuộc nói chuyện xung quanh môi trường.
+
+00:04:29.859 --> 00:04:31.758
+Nếu phân chia theo dòng giới tính,
+
+00:04:31.758 --> 00:04:33.745
+chúng ta có thể nhìn thấy 
+phụ nữ có cộng hưởng mạnh mẽ
+
+00:04:33.745 --> 00:04:37.390
+với nền kinh tế thực phẩm, 
+và còn sự hy vọng và lạc quan.
+
+00:04:37.390 --> 00:04:39.872
+Và vì thế có rất nhiều những thứ rất thú vị
+mà chúng ta có thể làm ở đây,
+
+00:04:39.872 --> 00:04:41.634
+tôi sẽ để Eric nói phần tiếp theo.
+
+00:04:41.634 --> 00:04:43.236
+EB: Vâng, ý tôi là, chỉ ra ở đây,
+
+00:04:43.236 --> 00:04:44.774
+bạn không thể hiểu được
+loại quan điểm này
+
+00:04:44.774 --> 00:04:48.134
+từ một từ khoá đơn giản 
+trên Youtube.
+
+00:04:48.134 --> 00:04:52.322
+Giờ hãy phóng rộng ra
+toàn bộ cuộc nói chuyện trên toàn cầu
+
+00:04:52.322 --> 00:04:54.856
+nằm ngoài môi trường,
+và cùng nhìn vào tất cả những buổi nói chuyện.
+
+00:04:54.856 --> 00:04:57.783
+Thường thì giờ đây, 
+khi đối mặt với số lượng nội dung này,
+
+00:04:57.783 --> 00:05:00.214
+chúng ta làm một vài điều 
+để đơn giản hoá nó.
+
+00:05:00.214 --> 00:05:01.528
+Chúng ta có thể nói, như,
+
+00:05:01.528 --> 00:05:04.357
+Buổi nói chuyện nào là nổi tiếng nhất ?
+
+00:05:04.357 --> 00:05:05.754
+Và một số vấn đề nổi cộm,
+
+00:05:05.754 --> 00:05:07.582
+Có một cuộc nói chuyện 
+về lòng biết ơn.
+
+00:05:07.582 --> 00:05:10.926
+Có cuộc nói chuyện khác 
+về sức khoẻ và dinh dưỡng cá nhân.
+
+00:05:10.926 --> 00:05:13.855
+Và tất nhiên, 
+sẽ có một cái về đề tài khiêu dâm, phải không?
+
+00:05:13.855 --> 00:05:17.089
+Và vì thế, chúng ta có thể nói, 
+rồi về lòng biết ơn, nó đã
+
+00:05:17.089 --> 00:05:19.611
+Bây giờ thì xu hướng là gì? 
+Cuộc nói chuyện nào là phổ biến?
+
+00:05:19.611 --> 00:05:22.932
+Và chúng ta có thể xem 
+đề tài mới nổi và xu hướng
+
+00:05:22.932 --> 00:05:25.598
+là về tính riêng tư kỹ thuật số.
+
+00:05:25.598 --> 00:05:27.291
+Vì thế nó rất tuyệt. 
+Nó đơn giản hoá mọi điều.
+
+00:05:27.291 --> 00:05:29.118
+Nhưng có quá nhiều nội dung sáng tạo
+
+00:05:29.118 --> 00:05:31.039
+vừa bị chôn vùi dưới đáy.
+
+00:05:31.039 --> 00:05:34.357
+Và tôi ghét điều đó. 
+Làm thế nào để đẩy chúng lên trên bề mặt
+
+00:05:34.357 --> 00:05:36.815
+khi mà chúng có thể
+thực sự sáng tạo và thú vị?
+
+00:05:36.815 --> 00:05:39.746
+Vậy thì, chúng ta có thể quay lại 
+cấu trúc mạng lưới ý tưởng
+
+00:05:39.746 --> 00:05:41.176
+để làm điều đó.
+
+00:05:41.176 --> 00:05:43.290
+Nhớ rằng, đó là cấu trúc mạng lưới
+
+00:05:43.290 --> 00:05:45.558
+mà sáng tạo ra những đề tài nổi bật,
+
+00:05:45.558 --> 00:05:47.073
+và hãy nói rằng
+chúng ta có thể làm cả hai điều đó,
+
+00:05:47.073 --> 00:05:50.120
+giống như những thành phố và di truyền học, 
+đó là bất cứ cuộc nói chuyện nào
+
+00:05:50.120 --> 00:05:52.689
+sáng tạo cầu nối giữa hai lĩnh vực khác nhau.
+
+00:05:52.689 --> 00:05:54.964
+Và đó - Quan trọng là, 
+sự hòa trộn sáng tạo này
+
+00:05:54.964 --> 00:05:56.804
+là một trong những tâm điểm
+của sự cải tiến.
+
+00:05:56.804 --> 00:05:58.410
+Và đây là một bài nói của Jessica Green
+
+00:05:58.410 --> 00:06:00.789
+về hệ sinh thái thu nhỏ 
+của các toà nhà.
+
+00:06:00.789 --> 00:06:02.799
+Nó định nghĩa một lĩnh vực mới.
+
+00:06:02.799 --> 00:06:04.902
+Và chúng ta quay lại 
+những đề tài này và nói, thì
+
+00:06:04.902 --> 00:06:07.670
+bài nói nào là tâm điểm 
+của những cuộc nói chuyện này?
+
+00:06:07.670 --> 00:06:09.360
+Ở cụm thành phố, 
+một trong những bài nói trung tâm
+
+00:06:09.360 --> 00:06:13.312
+là bài nói của Mitch Joachim 
+vềcác thành phố sinh thái,
+
+00:06:13.312 --> 00:06:15.032
+và trong cụm di truyền học,
+
+00:06:15.032 --> 00:06:18.225
+chúng ta có cuộc nói chuyện 
+về sinh học tổng hợp của Craig Venter.
+
+00:06:18.225 --> 00:06:21.578
+Đây là những bài nói được kết nối 
+từ nhiều bài nói chuyện khác cùng lĩnh vực.
+
+00:06:21.578 --> 00:06:23.421
+Chúng ta có thể đi theo hướng khác
+và nói, thì,
+
+00:06:23.421 --> 00:06:25.693
+những gì những cuộc nói chuyện
+tổng hợp được
+
+00:06:25.693 --> 00:06:27.141
+mở rộng ra nhiều lĩnh vực khác nhau.
+
+00:06:27.141 --> 00:06:29.674
+Chúng ta đã dùng thước đo về sự đa dạng sinh thái
+để hiểu về nó.
+
+00:06:29.674 --> 00:06:32.410
+Giống như, một buổi nói chuyện của Steven Pinker 
+về lịch sử của bạo lực,
+
+00:06:32.410 --> 00:06:33.590
+rất tổng quát.
+
+00:06:33.590 --> 00:06:35.668
+Và rồi, tất nhiên, có nhiều bài nói rất đặc biệt
+
+00:06:35.668 --> 00:06:38.758
+chúng dường như ra khỏi tầng bình lưu, 
+trong một không gian đặc biệt,
+
+00:06:38.758 --> 00:06:41.272
+và chúng ta gọi 
+đó là chỉ số của Collegn Flanagan.
+
+00:06:41.272 --> 00:06:44.306
+Và nếu như bạn không biết Collen, 
+cố ấy là một hoạ sỹ,
+
+00:06:44.306 --> 00:06:45.849
+và tôi hỏi cô ấy,"Sẽ như thế nào khi ở đó,
+
+00:06:45.849 --> 00:06:47.521
+ở tầng bình lưu 
+của không gian ý tưởng của chúng ta?
+
+00:06:47.521 --> 00:06:50.776
+Và chắc rằng
+chúng có mùi như thịt xộng khói.
+
+00:06:50.776 --> 00:06:52.567
+Tôi cũng không biết.
+
+00:06:52.567 --> 00:06:54.815
+Vì thế, chúng tôi sử dụng mô- tuýp mạng lưới
+
+00:06:54.815 --> 00:06:56.001
+để tìm ra những bài nói đặc biệt
+
+00:06:56.001 --> 00:06:58.711
+những bài nói 
+tổng hợp nhiều lĩnh vực khác nhau
+
+00:06:58.711 --> 00:07:00.370
+những bài trung tâm
+trong chủ đề của chúng,
+
+00:07:00.370 --> 00:07:03.744
+và những bài nói
+là cầu nối của những lĩnh vực khác nhau.
+
+00:07:03.744 --> 00:07:05.846
+Okay? Chúng ta sẽ chẳng bao giờ tìm ra 
+những thứ mà ta ám ảnh
+
+00:07:05.846 --> 00:07:08.159
+với những gì đang trở thành xu hướn
+g hiện nay.
+
+00:07:08.159 --> 00:07:11.045
+Và tất cả chúng 
+đều từ kiến trúc của sự phức tạp
+
+00:07:11.045 --> 00:07:14.005
+hoặc những phương thức
+mà ở đó mọi thứ liên kết với nhau.
+
+00:07:14.005 --> 00:07:15.630
+SG: Đúng như vậy.
+
+00:07:15.630 --> 00:07:18.109
+Chúng tôi đã tự đưa mình 
+vào một thế giới
+
+00:07:18.109 --> 00:07:20.153
+cực kỳ phức tạp
+
+00:07:20.153 --> 00:07:23.020
+and sử dụng các thuật toán 
+để sàng lọc
+
+00:07:23.020 --> 00:07:24.806
+những thứ mà ta có thể điều hướng.
+
+00:07:24.806 --> 00:07:27.144
+Và những thuật toán đó, 
+mặc dù khá hữu dụng
+
+00:07:27.144 --> 00:07:30.620
+nhưng rất có giới hạn, 
+và chúng ta có thể làm hơn thế,
+
+00:07:30.620 --> 00:07:33.186
+bởi vì ta nhận ra sự phức tạp đó 
+không phải là ngẫu nhiên.
+
+00:07:33.186 --> 00:07:35.140
+Chúng có cấu trúc toán học,
+
+00:07:35.140 --> 00:07:36.943
+và chúng ta có thể sử dụng 
+cấu trúc toán học đó
+
+00:07:36.943 --> 00:07:39.157
+để khám phá những điều 
+như thế giới của ý tưởng
+
+00:07:39.157 --> 00:07:42.157
+để nhìn thấy những gì đã được nói tới, 
+những gì chưa được nhắc đến,
+
+00:07:42.157 --> 00:07:43.564
+và một chút gì đó con người hơn
+
+00:07:43.564 --> 00:07:45.431
+và, hy vọng rằng, thông minh hơn một chút
+
+00:07:45.431 --> 00:07:46.397
+Xin cám ơn.
+
+00:07:46.397 --> 00:07:50.617
+(Vỗ tay)
+

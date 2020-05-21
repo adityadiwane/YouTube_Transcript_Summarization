@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+00:00:00.000 --> 00:00:07.000
+Vertaald door: Els De Keyser
+Nagekeken door: Wouter Valvekens
+
+00:00:16.260 --> 00:00:19.260
+Ik stel jullie graag voor aan Rezero.
+
+00:00:19.260 --> 00:00:21.260
+Dit kereltje werd ontwikkeld
+
+00:00:21.260 --> 00:00:23.260
+door een groep van 10 bachelorstudenten
+
+00:00:23.260 --> 00:00:25.260
+aan het Laboratorium voor Autonome Systemen
+
+00:00:25.260 --> 00:00:27.260
+van ETH Zürich.
+
+00:00:27.260 --> 00:00:29.260
+Onze robot behoort tot de robotfamilie
+
+00:00:29.260 --> 00:00:31.260
+van de balbots.
+
+00:00:31.260 --> 00:00:33.260
+Een balbot heeft geen wielen, maar balanceert
+
+00:00:33.260 --> 00:00:35.260
+en beweegt op één enkele bal.
+
+00:00:35.260 --> 00:00:37.260
+Het belangrijkste kenmerk van zo'n systeem is
+
+00:00:37.260 --> 00:00:40.260
+dat er één enkel contactpunt met de grond is.
+
+00:00:40.260 --> 00:00:42.260
+Dat betekent dat de robot
+
+00:00:42.260 --> 00:00:44.260
+wezenlijk onstabiel is.
+
+00:00:44.260 --> 00:00:46.260
+Het is alsof ik probeer te staan
+
+00:00:46.260 --> 00:00:47.260
+op één voet.
+
+00:00:47.260 --> 00:00:49.260
+Je kan je afvragen wat het nut is
+
+00:00:49.260 --> 00:00:51.260
+van een onstabiele robot.
+
+00:00:51.260 --> 00:00:53.260
+Dat leg ik zometeen uit.
+
+00:00:53.260 --> 00:00:55.260
+Laat me eerst toelichten hoe Rezero
+
+00:00:55.260 --> 00:00:57.260
+zijn evenwicht bewaart.
+
+00:00:57.260 --> 00:00:59.260
+Rezero bewaart zijn evenwicht door constant
+
+00:00:59.260 --> 00:01:02.260
+zijn steekkegelhoek te meten met een sensor.
+
+00:01:02.260 --> 00:01:05.260
+Hij stuurt dan bij en vermijdt omvallen
+
+00:01:05.260 --> 00:01:07.260
+door de motoren gepast te draaien.
+
+00:01:07.260 --> 00:01:09.260
+Dit gebeurt 160 keer per seconde.
+
+00:01:09.260 --> 00:01:11.260
+Als er iets in dit proces verkeerd gaat,
+
+00:01:11.260 --> 00:01:14.260
+dan zou Rezero onmiddellijk op de grond vallen.
+
+00:01:14.260 --> 00:01:16.260
+Om te bewegen en te balanceren,
+
+00:01:16.260 --> 00:01:18.260
+moet Rezero de bal draaien.
+
+00:01:18.260 --> 00:01:20.260
+De bal wordt aangestuurd door drie speciale wielen
+
+00:01:20.260 --> 00:01:23.260
+waarmee Rezero in elke richting kan bewegen
+
+00:01:23.260 --> 00:01:25.260
+en tegelijk ook om zijn eigen as
+
+00:01:25.260 --> 00:01:29.260
+kan draaien.
+
+00:01:29.260 --> 00:01:31.260
+Door zijn instabiliteit is Rezero altijd
+
+00:01:31.260 --> 00:01:33.260
+in beweging. Dit is de truc.
+
+00:01:33.260 --> 00:01:36.260
+Het is net die instabiliteit waardoor een robot
+
+00:01:36.260 --> 00:01:38.260
+erg dynamisch kan bewegen.
+
+00:01:38.260 --> 00:01:40.260
+Laten we wat spelen.
+
+00:01:40.260 --> 00:01:42.260
+Je kan je afvragen wat er gebeurt
+
+00:01:42.260 --> 00:01:45.260
+als ik de robot een duwtje geef.
+
+00:01:47.260 --> 00:01:49.260
+In deze modus probeert hij
+
+00:01:49.260 --> 00:01:52.260
+zijn positie te handhaven.
+
+00:01:52.260 --> 00:01:55.260
+Voor de volgende demo stel ik jullie graag voor
+
+00:01:55.260 --> 00:01:58.260
+aan mijn collega's Michael, op de computer,
+
+00:01:58.260 --> 00:02:01.260
+en Thomas, mijn assistent op het podium.
+
+00:02:02.260 --> 00:02:04.260
+In de volgende modus is Rezero passief
+
+00:02:04.260 --> 00:02:07.260
+en kunnen we hem verplaatsen.
+
+00:02:08.260 --> 00:02:10.260
+Haast zonder enige kracht kan ik
+
+00:02:10.260 --> 00:02:13.260
+zijn positie en zijn snelheid controleren.
+
+00:02:16.260 --> 00:02:19.260
+Ik kan hem ook doen tollen.
+
+00:02:30.260 --> 00:02:32.260
+In de volgende modus kunnen we Rezero
+
+00:02:32.260 --> 00:02:35.260
+een persoon doen volgen.
+
+00:02:35.260 --> 00:02:38.260
+Hij blijft nu op een vaste afstand van Thomas.
+
+00:02:42.260 --> 00:02:44.260
+Dit werkt met een lasersensor
+
+00:02:44.260 --> 00:02:46.260
+die boven op Rezero is bevestigd.
+
+00:02:50.260 --> 00:02:52.260
+Met dezelfde methode kunnen we hem ook
+
+00:02:52.260 --> 00:02:55.260
+rond een persoon doen draaien.
+
+00:02:57.260 --> 00:03:01.260
+Dat noemen we de baanmodus.
+
+00:03:10.260 --> 00:03:12.260
+Oké, dankjewel, Thomas.
+
+00:03:12.260 --> 00:03:16.260
+(Applaus)
+
+00:03:16.260 --> 00:03:19.260
+Wat is het nut van deze technologie?
+
+00:03:22.260 --> 00:03:24.260
+Momenteel is het een experiment, maar laat me
+
+00:03:24.260 --> 00:03:27.260
+enkele van de mogelijk toekomstige toepassingen tonen.
+
+00:03:28.260 --> 00:03:30.260
+Hij zou op tentoonstellingen of parken kunnen dienen.
+
+00:03:30.260 --> 00:03:32.260
+Met een scherm zou hij mensen kunnen informeren
+
+00:03:32.260 --> 00:03:35.260
+of de weg wijzen op een grappige manier.
+
+00:03:35.260 --> 00:03:37.260
+In een ziekenhuis zou dit kunnen worden gebruikt
+
+00:03:37.260 --> 00:03:39.260
+om medische instrumenten rond te brengen.
+
+00:03:39.260 --> 00:03:41.260
+Door het balbotsysteem heeft het een heel kleine
+
+00:03:41.260 --> 00:03:44.260
+voetafdruk en kan het gemakkelijk bewegen.
+
+00:03:44.260 --> 00:03:46.260
+Uiteraard, wie zou hier geen
+
+00:03:46.260 --> 00:03:49.260
+ritje op willen maken?
+
+00:03:49.260 --> 00:03:51.260
+Dit zijn meer praktische toepassingen.
+
+00:03:51.260 --> 00:03:53.260
+Er is ook een zekere schoonheid
+
+00:03:53.260 --> 00:03:55.260
+aan deze technologie.
+
+00:03:55.260 --> 00:04:04.260
+(Muziek)
+
+00:04:58.260 --> 00:04:59.260
+(Applaus)
+
+00:04:59.260 --> 00:05:01.260
+Dankuwel.
+
+00:05:01.260 --> 00:05:05.260
+(Applaus)
+
+00:05:05.260 --> 00:05:07.260
+Dankuwel.
+

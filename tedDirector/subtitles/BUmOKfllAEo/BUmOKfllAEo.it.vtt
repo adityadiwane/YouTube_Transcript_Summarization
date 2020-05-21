@@ -1,0 +1,965 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:07.000
+Traduttore: Andrea Bravi
+Revisore: Maria Gitto
+
+00:00:19.330 --> 00:00:24.330
+Benvenuti. Potrei avere la prima slide, per favore?
+
+00:00:33.330 --> 00:00:38.330
+Al contrario dei calcoli fatti dagli ingegneri, le api possono volare,
+
+00:00:38.330 --> 00:00:45.330
+i delfini possono nuotare, e i gechi possono addirittura scalare
+
+00:00:45.330 --> 00:00:51.330
+le superfici più liscie. Ora, quello che voglio fare con il poco tempo che ho a disposizione,
+
+00:00:51.330 --> 00:00:55.330
+è provare a permettere a ognuno di voi di provare,
+
+00:00:55.330 --> 00:01:01.330
+più o meno, il brivido di scoprire i progetti della natura.
+
+00:01:01.330 --> 00:01:03.330
+Io lo faccio ogni volta, ed è semplicemente incredibile.
+
+00:01:03.330 --> 00:01:09.330
+Voglio provare a condividere con voi questa sensazione durante la presentazione.
+
+00:01:09.330 --> 00:01:11.330
+La sfida è guardare ai progetti della natura
+
+00:01:11.330 --> 00:01:15.330
+e io vi dirò come noi li percepiamo, e come li usiamo.
+
+00:01:15.330 --> 00:01:17.330
+Chiaramente la sfida è di rispondere a questa domanda:
+
+00:01:17.330 --> 00:01:20.330
+Cosa permette agli animali di mostrare delle prestazioni così straordinarie,
+
+00:01:20.330 --> 00:01:23.330
+in grado di renderli capaci di fare qualsiasi cosa?
+
+00:01:23.330 --> 00:01:30.330
+E se riuscissimo a capirlo, come potremmo implementare queste idee?
+
+00:01:30.330 --> 00:01:33.330
+Dunque, molti biologi diranno agli ingegneri
+
+00:01:33.330 --> 00:01:36.330
+che gli organismi hanno avuto milioni di anni per fare le cose ammodo,
+
+00:01:36.330 --> 00:01:39.330
+che sono spettacolari, che possono fare qualsiasi cosa in modo magnifico.
+
+00:01:39.330 --> 00:01:43.330
+Quindi la risposta sarebbe la bio mimetica -- cioè copiare direttamente la natura
+
+00:01:43.330 --> 00:01:48.330
+Lavorando a contatto con gli animali sappiamo che la verità
+
+00:01:48.330 --> 00:01:52.330
+è che questo è esattamente ciò che non si deve fare. Il motivo è che l'evoluzione funziona
+
+00:01:52.330 --> 00:01:55.330
+sulla base del principio del "basta che funzioni", non secondo quello della perfezione.
+
+00:01:55.330 --> 00:01:59.330
+Le difficoltà nel costruire un qualsiasi organismo
+
+00:01:59.330 --> 00:02:04.330
+sono molto forti. La tecnologia che la natura produce ha dei vincoli incredibili.
+
+00:02:04.330 --> 00:02:07.330
+Pensateci. Se foste degli ingegnere e io vi dicessi
+
+00:02:07.330 --> 00:02:12.330
+che dovete costruire un'automobile, ma cominciando da queste dimensioni,
+
+00:02:12.330 --> 00:02:16.330
+che deve poter crescere per raggiungere le sue piene dimensioni e che deve funzionare sempre.
+
+00:02:16.330 --> 00:02:20.330
+Pensate al fatto che se riuscirete a costruire un'automobile, io vi chiederò di metterci dentro
+
+00:02:20.330 --> 00:02:24.330
+una fabbrica in grado di produrre un'altra automobile.
+
+00:02:24.330 --> 00:02:26.330
+(Risate)
+
+00:02:26.330 --> 00:02:30.330
+E voi non potrete mai, assolutamente mai, a causa della storia
+
+00:02:30.330 --> 00:02:34.330
+e dei piani ereditati, cominciare da zero.
+
+00:02:34.330 --> 00:02:37.330
+Gli esseri viventi condividono questa storia importante.
+
+00:02:37.330 --> 00:02:42.330
+L'evoluzione funziona per davvero più come un aggiustatutto che come un ingegnere.
+
+00:02:42.330 --> 00:02:45.330
+E questo è molto importante quando si comincia ad osservare gli animali.
+
+00:02:45.330 --> 00:02:52.330
+Al contrario, noi pensiamo che ci sia bisogno di essere ispirati dalla biologia.
+
+00:02:52.330 --> 00:02:56.330
+C'è bisogno di scoprire i principi generali usati dalla natura
+
+00:02:56.330 --> 00:02:59.330
+e usarli come riferimento quando questo è vantaggioso.
+
+00:03:02.330 --> 00:03:05.330
+Questa è una grande sfida poiché gli animali,
+
+00:03:05.330 --> 00:03:08.330
+quando si comincia ad osservarli attentamente, a vedere come funzionano,
+
+00:03:08.330 --> 00:03:12.330
+risultano essere di una complessità impressionante. Non è possibile trovare
+
+00:03:12.330 --> 00:03:15.330
+da nessuna parte progetti che ne descrivano il funzionamento.
+
+00:03:15.330 --> 00:03:19.330
+I loro giunti sono in grado di compiere troppi movimenti, hanno troppi muscoli,
+
+00:03:19.330 --> 00:03:22.330
+anche il più semplice degli animali a cui si possa pensare, qualcosa come ad esempio un insetto,
+
+00:03:22.330 --> 00:03:25.330
+ha più neuroni e connessioni di quante si possa immaginare.
+
+00:03:25.330 --> 00:03:30.330
+Come capire qualcosa da tutto questo? Bene, noi crediamo
+
+00:03:30.330 --> 00:03:35.330
+- e abbiamo ipotizzato - che gli animali funzionino,
+
+00:03:35.330 --> 00:03:38.330
+come se il controllo dei loro movimenti avvenisse
+
+00:03:38.330 --> 00:03:44.330
+direttamente a livello del loro corpo.
+
+00:03:44.330 --> 00:03:51.330
+Abbiamo scoperto che animali a due, quattro, sei e otto zampe
+
+00:03:51.330 --> 00:03:54.330
+producono tutti le stesse forze a contatto col suolo quando si muovono.
+
+00:03:54.330 --> 00:03:58.330
+Funzionano tutti come questo canguro, saltano
+
+00:03:58.330 --> 00:04:02.330
+e possono essere modellati da un sistema fatto da una molla e un peso, che noi chiamiamo sistema molla-massa
+
+00:04:02.330 --> 00:04:05.330
+poiché siamo biomeccanici, anche se in effetti non è altro che un trampolo a molla.
+
+00:04:05.330 --> 00:04:09.330
+Si muovono tutti come un trampolo a molla. Com'è possibile?
+
+00:04:09.330 --> 00:04:15.330
+Una gamba umana funziona come due zampe di un cane,
+
+00:04:15.330 --> 00:04:19.330
+o come tre zampe di un insetto messe insieme,
+
+00:04:19.330 --> 00:04:21.330
+o quattro zampe di un granchio.
+
+00:04:21.330 --> 00:04:25.330
+Tutte si alternano nella spinta,
+
+00:04:25.330 --> 00:04:30.330
+ma il movimento che fanno è lo stesso. Funziona così per tutti gli organismi che abbiamo studiato.
+
+00:04:30.330 --> 00:04:32.330
+Come vedrete la prossima settimana - giusto per darvi un indizio -
+
+00:04:32.330 --> 00:04:35.330
+ci sarà un articolo che spiegherà come esseri davvero grossi
+
+00:04:35.330 --> 00:04:39.330
+come un T. Rex, probabilmente non potevano farlo, ma lo vedrete la prossima settimana.
+
+00:04:39.330 --> 00:04:41.330
+Ora, ciò che è interessante è come questi animali saltino
+
+00:04:41.330 --> 00:04:44.330
+sul piano verticale in questo modo, e in una collaborazione con Pixar
+
+00:04:44.330 --> 00:04:46.330
+per "A Bug's Life", abbiamo discusso
+
+00:04:46.330 --> 00:04:49.330
+la natura bipede dei personaggi formiche.
+
+00:04:49.330 --> 00:04:51.330
+Noi li informammo che loro muovono anche in un altro piano, chiaramente,
+
+00:04:51.330 --> 00:04:54.330
+e loro ci chiesero: "Perché fare un modello che
+
+00:04:54.330 --> 00:04:56.330
+descrive movimenti solo sul piano sagittale o verticale
+
+00:04:56.330 --> 00:04:58.330
+quando ci stai dicendo che questi animali si muovono
+
+00:04:58.330 --> 00:05:01.330
+sul piano orizzontale?" Beh, ottima domanda.
+
+00:05:01.330 --> 00:05:04.330
+Nessun biologo l'ha mai modellato in questo modo.
+
+00:05:04.330 --> 00:05:08.330
+Seguendo il loro consiglio abbiamo modellizzato il movimento degli animali
+
+00:05:08.330 --> 00:05:11.330
+anche sul piano orizzontale. Abbiamo preso le loro tre zampe,
+
+00:05:11.330 --> 00:05:12.330
+le abbiamo unite in una sola.
+
+00:05:12.330 --> 00:05:15.330
+Abbiamo chiamato da Princeton uno dei migliori matematici al mondo
+
+00:05:15.330 --> 00:05:17.330
+per lavorare su questo problema.
+
+00:05:17.330 --> 00:05:20.330
+E siamo stati capaci di creare un modello
+
+00:05:20.330 --> 00:05:21.330
+dove gli animali non saltano solo su e giù,
+
+00:05:21.330 --> 00:05:25.330
+ma saltano anche avanti e indietro allo stesso tempo.
+
+00:05:25.330 --> 00:05:27.330
+Molto esseri viventi seguono questo genere di movimenti.
+
+00:05:27.330 --> 00:05:29.330
+Ora, perché è importante avere questo modello?
+
+00:05:29.330 --> 00:05:32.330
+Perché è veramente interessante. Se si prende questo modello
+
+00:05:32.330 --> 00:05:35.330
+e si perturba, si da una spinta,
+
+00:05:35.330 --> 00:05:39.330
+non appena incorre in qualcosa, si stabilizza da solo, senza usare il cervello,
+
+00:05:39.330 --> 00:05:43.330
+senza usare riflessi, semplicemente usando la sua struttura.
+
+00:05:43.330 --> 00:05:48.330
+E' un modello bellissimo. Diamo un'occhiata alla matematica che ci sta dietro.
+
+00:05:48.330 --> 00:05:50.330
+(Risate)
+
+00:05:50.330 --> 00:05:51.330
+Ok, è abbastanza!
+
+00:05:51.330 --> 00:05:55.330
+(Risate)
+
+00:05:55.330 --> 00:05:57.330
+Quando uno osserva gli animali correre
+
+00:05:57.330 --> 00:06:00.330
+sembra che questi si stabilizzino da soli in questo modo,
+
+00:06:00.330 --> 00:06:03.330
+usando principalmente zampe a molla. Proprio così, le zampe sono in grado
+
+00:06:03.330 --> 00:06:06.330
+di fare calcoli da sole. E' come se gli algoritmi di controllo fossero
+
+00:06:06.330 --> 00:06:09.330
+integrati nella forma stessa dell'animale.
+
+00:06:09.330 --> 00:06:16.330
+Perché l'uomo non si è mai ispirato alla natura e a questo tipo di scoperte?
+
+00:06:16.330 --> 00:06:20.330
+Ebbene, io risponderei che la tecnologia umana è veramente differente
+
+00:06:20.330 --> 00:06:23.330
+dalla tecnologia della natura, o per lo meno lo è stata fino ad ora.
+
+00:06:23.330 --> 00:06:28.330
+Pensate al primo robot che vi viene in mente.
+
+00:06:28.330 --> 00:06:31.330
+La tecnologia umana tende ad essere grande, piatta,
+
+00:06:31.330 --> 00:06:36.330
+spigolosa, rigida, fatta di metallo. Si hanno dispositivi che ruotano
+
+00:06:36.330 --> 00:06:39.330
+e assi. Ci sono pochissimi motori e sensori.
+
+00:06:39.330 --> 00:06:44.330
+Al contrario la natura tende ad essere piccola, ricurva,
+
+00:06:44.330 --> 00:06:47.330
+si piega e si torce, ha zampe al posto di appendici,
+
+00:06:47.330 --> 00:06:50.330
+ha molti muscoli e moltissimi sensori.
+
+00:06:50.330 --> 00:06:54.330
+Perciò il design è molto differente. Ad ogni modo, ciò che sta cambiando,
+
+00:06:54.330 --> 00:06:56.330
+ciò che è più entusiasmante - ve ne mostrerò alcuni esempi a breve -
+
+00:06:56.330 --> 00:06:59.330
+è che non appena la tecnologia umana prende le caratteristiche
+
+00:06:59.330 --> 00:07:05.330
+della natura, la natura diventa un'insegnante ancora più utile.
+
+00:07:05.330 --> 00:07:07.330
+E qui c'è un esempio che è davvero spettacolare.
+
+00:07:07.330 --> 00:07:09.330
+Questa è una collaborazione che abbiamo con Stanford.
+
+00:07:09.330 --> 00:07:13.330
+Loro hanno sviluppato una nuova tecnica chiamata Fabbricazione a Deposizione di Forma
+
+00:07:13.330 --> 00:07:17.330
+che è una tecnica dove si possono unire più materiali insieme e formare qualsiasi forma
+
+00:07:17.330 --> 00:07:21.330
+si voglia, trasferendoci le proprietà dei materiali utilizzati.
+
+00:07:21.330 --> 00:07:24.330
+All'interno della forma si possono integrare anche sensori ed attuatori.
+
+00:07:24.330 --> 00:07:29.330
+Ad esempio, qui c'è una zampa - la parte trasparente è rigida,
+
+00:07:29.330 --> 00:07:32.330
+la parte bianca è morbida, e non serve nessun asse o altro.
+
+00:07:32.330 --> 00:07:35.330
+Semplicemente si piega da sola. Bellissimo.
+
+00:07:35.330 --> 00:07:38.330
+Perciò, si possono mettere queste proprietà. Questa li ha ispirati nel
+
+00:07:38.330 --> 00:07:44.330
+realizzare un piccolo robot che hanno chiamato Sprawl.
+
+00:07:44.330 --> 00:07:48.330
+Il nostro lavoro ha ispirato anche un altro robot, un robot bioispirato che salta,
+
+00:07:48.330 --> 00:07:50.330
+che viene dall'università del Michigan e McGill
+
+00:07:50.330 --> 00:07:58.330
+di nome RHex, un robot esapode, e questo è autonomo.
+
+00:07:58.330 --> 00:08:01.330
+Andiamo ora al video, vi mostrerò come alcuni di questi animali si muovono,
+
+00:08:01.330 --> 00:08:03.330
+e quindi alcuni semplici robot
+
+00:08:03.330 --> 00:08:06.330
+che sono stati ispirati dalle nostre scoperte.
+
+00:08:06.330 --> 00:08:10.330
+Questo è un po' di quello che avete fatto stamani, anche se l'avete fatto all'aperto
+
+00:08:10.330 --> 00:08:12.330
+non su un tapis roulant.
+
+00:08:12.330 --> 00:08:15.330
+Questo è quello che facciamo.
+
+00:08:15.330 --> 00:08:17.330
+(Risate)
+
+00:08:17.330 --> 00:08:22.330
+Questa è una specie di blatta - questa è una blatta Americana
+
+00:08:22.330 --> 00:08:23.330
+che pensate di non avere in cucina.
+
+00:08:23.330 --> 00:08:30.330
+Questo è uno scorpione con otto zampe, una formica con sei e un centipiede con quarantaquattro zampe.
+
+00:08:30.330 --> 00:08:33.330
+Se ricordate, vi ho detto che tutti questi animali funzionano un po' come un trampolo a molla.
+
+00:08:33.330 --> 00:08:37.330
+Saltano quando si muovono, e lo potete vedere
+
+00:08:37.330 --> 00:08:40.330
+in questo granchio delle spiagge di Panama e della Carolina del Nord.
+
+00:08:40.330 --> 00:08:43.330
+Arriva fino a quattro metri al secondo quando corre.
+
+00:08:43.330 --> 00:08:46.330
+In effetti si stacca verso l'alto e ha una fase aerea
+
+00:08:46.330 --> 00:08:50.330
+quando fa così, come un cavallo - qui potete vedere che salta.
+
+00:08:50.330 --> 00:08:53.330
+Quello che abbiamo scoperto è che, sia che si guardi alle gambe di un uomo
+
+00:08:53.330 --> 00:08:59.330
+come Richard, o alle zampe di una blatta, o di un granchio, o di un canguro,
+
+00:08:59.330 --> 00:09:04.330
+la rigidità relativa di quella molla è la stessa per tutto ciò che abbiamo visto fino a ora.
+
+00:09:04.330 --> 00:09:06.330
+Ora, a cosa sono buone delle zampe a molla, cosa possono fare?
+
+00:09:06.330 --> 00:09:08.330
+Bene, noi volevamo studiare se queste permettessero agli animali
+
+00:09:08.330 --> 00:09:11.330
+di avere una maggiore stabilità e manovrabilità.
+
+00:09:11.330 --> 00:09:15.330
+Per questo abbiamo costruito un terreno pieno di ostacoli alti tre volte l'altezza dell'anca
+
+00:09:15.330 --> 00:09:16.330
+degli animali che stavamo studiando,
+
+00:09:16.330 --> 00:09:20.330
+sicuri che non ce l'avrebbero fatta. Questo è quello che sono riusciti a fare.
+
+00:09:20.330 --> 00:09:23.330
+L'animale ci ha corso sopra, senza rallentare neanche un po'.
+
+00:09:23.330 --> 00:09:25.330
+Non ha per niente diminuito la sua velocità.
+
+00:09:25.330 --> 00:09:28.330
+Non potevamo credere che ci potesse riuscire. Ci ha rivelato
+
+00:09:28.330 --> 00:09:33.330
+che se fossimo in grado di costruire un robot con zampe a molla veramente semplici,
+
+00:09:33.330 --> 00:09:39.330
+saremmo in grado di creare qualcosa di più manovrabile di qualsiasi altra cosa che sia mai stata costruita.
+
+00:09:39.330 --> 00:09:41.330
+Ecco il primo esempio di questo, si tratta di un robot fatto da Stanford
+
+00:09:41.330 --> 00:09:44.330
+tramite la Fabbricazione a Deposizione di Forma, chiamato Sprawl.
+
+00:09:44.330 --> 00:09:50.330
+Ha sei zampe - là ci sono le zampe a molla.
+
+00:09:50.330 --> 00:09:53.330
+Si muove con un passo che userebbe un insetto ed eccolo
+
+00:09:53.330 --> 00:10:00.330
+che si muove su un tapis roulant. Ora, quello che è importante di questo robot,
+
+00:10:00.330 --> 00:10:03.330
+rispetto ad altri robot, è che non può vedere niente,
+
+00:10:03.330 --> 00:10:09.330
+non può provare niente, non ha un cervello, ma lo stesso si può muovere
+
+00:10:09.330 --> 00:10:15.330
+oltre questi ostacoli senza la minima difficoltà.
+
+00:10:15.330 --> 00:10:19.330
+Tutto ciò grazie al fatto che abbiamo trasferito le proprietà all'interno della forma.
+
+00:10:19.330 --> 00:10:22.330
+Questo è uno studente magistrale, si tratta di parte del suo lavoro di tesi,
+
+00:10:22.330 --> 00:10:24.330
+fa un certo effetto quando uno studente
+
+00:10:24.330 --> 00:10:26.330
+fa qualcosa del genere sul proprio progetto di tesi.
+
+00:10:26.330 --> 00:10:27.330
+(Risate)
+
+00:10:27.330 --> 00:10:31.330
+Questo invece viene dalla McGill e dall'Università del Michigan, si tratta di RHex,
+
+00:10:31.330 --> 00:10:34.330
+alla sua prima dimostrazione all'aperto.
+
+00:10:34.330 --> 00:10:38.330
+(Risate)
+
+00:10:38.330 --> 00:10:43.330
+Stesso principio. Si tratta solo di sei parti mobili.
+
+00:10:43.330 --> 00:10:49.330
+Sei motori, ma ha molle, zampe adatte. Si muove con il passo di un insetto
+
+00:10:49.330 --> 00:10:53.330
+le zampe di mezzo si muovono in sincronia con quelle davanti
+
+00:10:53.330 --> 00:10:57.330
+e quelle dietro dall'altra parte. Una sorta di tripode alternato,
+
+00:10:57.330 --> 00:11:01.330
+che può superare ostacoli proprio come un animale.
+
+00:11:01.330 --> 00:11:07.330
+(Risate)
+
+00:11:07.330 --> 00:11:08.330
+O mio Dio.
+
+00:11:08.330 --> 00:11:13.330
+(Applausi)
+
+00:11:13.330 --> 00:11:15.330
+Può andare su diversi tipi di superfici - ecco terreno sabbioso
+
+00:11:15.330 --> 00:11:20.330
+non abbiamo ancora perfezionato le zampe, ma di questo ne parlerò dopo.
+
+00:11:20.330 --> 00:11:23.330
+Ora RHex entra nel bosco.
+
+00:11:23.330 --> 00:11:25.330
+(Risate)
+
+00:11:38.330 --> 00:11:42.330
+Come dicevo, questo robot non può vedere nulla, non può provare nulla,
+
+00:11:42.330 --> 00:11:48.330
+non ha cervello. Funziona solo tramite un sistema meccanico calibrato
+
+00:11:48.330 --> 00:11:58.330
+con componenti veramente semplici, ma ispirati dalla dinamica alla base dell'animale.
+
+00:11:58.330 --> 00:12:06.330
+Ah, lo amo Bob. Ecco che scende una strada.
+
+00:12:06.330 --> 00:12:09.330
+Ho presentato questo video al Jet Propulsion Lab della NASA - hanno detto
+
+00:12:09.330 --> 00:12:13.330
+di non avere la capacità di scendere un cratere per cercare del ghiaccio e,
+
+00:12:13.330 --> 00:12:17.330
+in ultima istanza, la vita su Marte. Questo
+
+00:12:17.330 --> 00:12:19.330
+in particolare con robot con zampe a causa della loro intrinseca complicatezza.
+
+00:12:19.330 --> 00:12:24.330
+Nessuno poteva farlo - Allora ho parlato io. Gli ho mostrato questo video
+
+00:12:24.330 --> 00:12:27.330
+con il semplice design di RHex qui, e solo per convincerli che
+
+00:12:27.330 --> 00:12:31.330
+siamo in grado di andare su Marte nel 2011, ho tinto il video di arancione
+
+00:12:31.330 --> 00:12:34.330
+giusto per dargli l'impressione di essere su Marte.
+
+00:12:34.330 --> 00:12:35.330
+(Risate)
+
+00:12:35.330 --> 00:12:41.330
+(Applausi)
+
+00:12:43.330 --> 00:12:46.330
+Un'altra ragione per cui gli animali sono in grado di prestazioni straordinarie
+
+00:12:46.330 --> 00:12:49.330
+e possono andare ovunque, è che interagiscono efficacemente
+
+00:12:49.330 --> 00:12:52.330
+con l'ambiente. L'animale che sto per mostrarvi,
+
+00:12:52.330 --> 00:12:56.330
+che abbiamo studiato è il geco.
+
+00:12:56.330 --> 00:13:03.330
+Eccone qua uno, notate la sua posizione: è fermo.
+
+00:13:03.330 --> 00:13:06.330
+Vi sfido. Vi mostrerò un video
+
+00:13:06.330 --> 00:13:08.330
+uno degli animali corre su un piano
+
+00:13:08.330 --> 00:13:12.330
+l'altro corre su per un muro. Quale è quale?
+
+00:13:12.330 --> 00:13:17.330
+Stanno andando ad un metro al secondo. Quanti di voi pensano che sia quello sulla sinistra
+
+00:13:17.330 --> 00:13:19.330
+che corre su per il muro?
+
+00:13:19.330 --> 00:13:23.330
+(Applausi)
+
+00:13:23.330 --> 00:13:28.330
+Ok. Il punto è che è molto difficile a dirsi, non è vero? E' incredibile.
+
+00:13:28.330 --> 00:13:30.330
+Abbiamo chiesto a degli studenti e non sono stati in grado di rispondere.
+
+00:13:30.330 --> 00:13:33.330
+Possono correre su un muro ad un metro al secondo, quindici passi al secondo
+
+00:13:33.330 --> 00:13:37.330
+e sembra che stiano correndo su un piano. Com'è possibile?
+
+00:13:37.330 --> 00:13:43.330
+E' fenomenale. Quello sulla destra è quello che stava scalando.
+
+00:13:43.330 --> 00:13:47.330
+Come fanno? Hanno delle dita bizzarre - hanno delle dita
+
+00:13:47.330 --> 00:13:51.330
+che si aprono completamente come le trombette quando ci soffiamo dentro,
+
+00:13:51.330 --> 00:13:54.330
+e si attaccano alla superficie come un nastro adesivo.
+
+00:13:54.330 --> 00:13:56.330
+Come se avessimo un pezzo di nastro adesivo e lo attaccassimo in questo modo.
+
+00:13:56.330 --> 00:14:03.330
+Loro lo fanno con le loro dita. E' bizzarro. Questo modo di attaccarsi ha ispirato
+
+00:14:03.330 --> 00:14:06.330
+iRobot, un'azienda che lavora con noi, nella costruzione di Mecho-Geckos.
+
+00:14:06.330 --> 00:14:13.330
+C'è una versione con zampe e una a carro armato, e una a bulldozer.
+
+00:14:13.330 --> 00:14:15.330
+Vediamo in qualche video come si muovono alcuni di questi gechi,
+
+00:14:15.330 --> 00:14:18.330
+in seguito vi mostrerò come si agganciano.
+
+00:14:18.330 --> 00:14:21.330
+Ecco il geco che corre su una superficie verticale, ecco che va,
+
+00:14:21.330 --> 00:14:28.330
+in tempo reale, ecco che va ancora. Ovviamente dobbiamo rallentare un po'.
+
+00:14:28.330 --> 00:14:30.330
+Non si possono usare telecamere normali.
+
+00:14:30.330 --> 00:14:33.330
+Si devono catturare mille immagini al secondo per vederlo.
+
+00:14:33.330 --> 00:14:36.330
+Ed ecco il video a mille immagini al secondo.
+
+00:14:36.330 --> 00:14:38.330
+Ora voglio che guardiate la colonna vertebrale dell'animale.
+
+00:14:38.330 --> 00:14:41.330
+Vedete come si curva? Non riusciamo a capire come faccia -
+
+00:14:41.330 --> 00:14:44.330
+è un mistero irrisolto. Non sappiamo come funzioni.
+
+00:14:44.330 --> 00:14:47.330
+Se avete un figlio o una figlia che vuole venire a Berkeley,
+
+00:14:47.330 --> 00:14:51.330
+mandatela nel mio laboratorio e lo scopriremo. Davvero, mandateli alla Berkeley
+
+00:14:51.330 --> 00:14:54.330
+perché questo è quello che farei io. Ecco un tapis roulant per gechi.
+
+00:14:54.330 --> 00:14:55.330
+(Risate)
+
+00:14:55.330 --> 00:14:58.330
+E' un complesso di telecamera e tapis roulant,
+
+00:14:58.330 --> 00:15:01.330
+così possiamo vedere i piedi dell'animale e registrarli
+
+00:15:01.330 --> 00:15:04.330
+attraverso il nastro, per vedere come si muovono.
+
+00:15:04.330 --> 00:15:08.330
+Ecco l'animale che corre su una superficie verticale.
+
+00:15:08.330 --> 00:15:14.330
+Scegliete una zampa e provate a osservarne le dita, tentate di capire cosa sta facendo l'animale.
+
+00:15:14.330 --> 00:15:16.330
+Vedete come allarga ed aggancia le dita.
+
+00:15:16.330 --> 00:15:23.330
+Ci mette 14 millisecondi. E' incredibile.
+
+00:15:23.330 --> 00:15:27.330
+Ora arriviamo ai robot che sono stati ispirati, il Mecho-Gecko della iRobot.
+
+00:15:27.330 --> 00:15:32.330
+Possiamo vedere le dita dell'animale attaccarsi - guardate!
+
+00:15:32.330 --> 00:15:36.330
+Ed ecco l'azione adesiva del Mecho-Gecko
+
+00:15:36.330 --> 00:15:39.330
+usa un adesivo sensibile alla pressione per farlo.
+
+00:15:39.330 --> 00:15:42.330
+Ecco l'azione adesiva dell'animale, ecco quella del Mecho-Gecko,
+
+00:15:42.330 --> 00:15:45.330
+che permette loro di scalare in modo autonomo, andare su una superficie piatta,
+
+00:15:45.330 --> 00:15:48.330
+passare su un muro e quindi finire su un tetto.
+
+00:15:48.330 --> 00:15:54.330
+C'è anche la versione bulldozer. Dunque, l'animale non usa colla
+
+00:15:54.330 --> 00:15:56.330
+sensibile alla pressione.
+
+00:15:56.330 --> 00:15:58.330
+Ma questo è ciò a cui siamo limitati al momento.
+
+00:15:58.330 --> 00:16:03.330
+Come fa l'animale? Ha delle strane dita
+
+00:16:03.330 --> 00:16:07.330
+e se si guarda a queste dita si vede che ci sono delle piccole foglie,
+
+00:16:07.330 --> 00:16:09.330
+e se si ingrandiscono si può vedere
+
+00:16:09.330 --> 00:16:12.330
+che ci sono delle piccole striature in queste foglie,
+
+00:16:12.330 --> 00:16:19.330
+e se si ingrandisce 270 volte, si può vedere una sorta di tappeto.
+
+00:16:19.330 --> 00:16:22.330
+E se si ingrandisce fino a 900 volte,
+
+00:16:22.330 --> 00:16:27.330
+si può vedere che ci sono peli, piccoli peli, e se si guarda più attentamente
+
+00:16:27.330 --> 00:16:33.330
+si nota che questi peli hanno striature. E se si ingrandisce una di quelle 30.000 volte,
+
+00:16:33.330 --> 00:16:36.330
+vedrete che ogni pelo finisce con molte estremità.
+
+00:16:36.330 --> 00:16:41.330
+E se si ingrandiscono si vedono delle piccole strutture.
+
+00:16:41.330 --> 00:16:43.330
+L'estremità più piccola dei peli sembra come un mestolo
+
+00:16:43.330 --> 00:16:50.330
+e un animale come questo ha 1 miliardo di queste estremità di dimensioni nanometriche
+
+00:16:50.330 --> 00:16:55.330
+per aderire il più possibile alla superficie. Infatti, se questo è il diametro di un capello,
+
+00:16:55.330 --> 00:17:01.330
+un geco ha 2 milioni di questi e ogni pelo ha da 100 a 1000 estremità.
+
+00:17:01.330 --> 00:17:04.330
+Pensate al contatto che riescono a creare.
+
+00:17:04.330 --> 00:17:06.330
+Siamo stati fortunati a lavorare con un altro gruppo
+
+00:17:06.330 --> 00:17:08.330
+a Stanford che ci ha costruito uno speciale tipo di sensore
+
+00:17:08.330 --> 00:17:11.330
+con cui siamo stati in grado di misurare la foza di un singolo pelo.
+
+00:17:11.330 --> 00:17:16.330
+Ecco un singolo pelo con qualche estremità,
+
+00:17:16.330 --> 00:17:18.330
+quando abbiamo misurato le forze, queste erano enormi,
+
+00:17:18.330 --> 00:17:21.330
+così grandi che con un gruppo di peli di circa queste dimensioni,
+
+00:17:21.330 --> 00:17:25.330
+la zampa di un geco potrebbe sorreggere il peso di un bambino piccolo -
+
+00:17:25.330 --> 00:17:29.330
+circa 18 Kg con facilità. Come riescono a farlo?
+
+00:17:29.330 --> 00:17:33.330
+Lo abbiamo scoperto recentemente. Sfruttano l'attrito?
+
+00:17:33.330 --> 00:17:36.330
+No, la forza è troppo poca. Sfruttano le cariche elettrostatiche?
+
+00:17:36.330 --> 00:17:38.330
+No, si può cambiare la carica e loro rimangono attaccati.
+
+00:17:38.330 --> 00:17:41.330
+Sfruttano la rugosità dei materiali? Intendo come una sorta di velcro.
+
+00:17:41.330 --> 00:17:44.330
+No, si possono mettere sulle delle superfici liscie a livello molecolare - non lo fanno.
+
+00:17:44.330 --> 00:17:48.330
+Cosa dire invece della suzione? Aderiscono nel vuoto.
+
+00:17:48.330 --> 00:17:51.330
+Cosa dire invece dell'adesione umida? O adesione capillare?
+
+00:17:51.330 --> 00:17:54.330
+Non hanno nessun adesivo e possono rimanere attaccati tranquillamente anche sott'acqua.
+
+00:17:54.330 --> 00:17:56.330
+Se si mette la loro zampa sott'acqua la presa non cede.
+
+00:17:56.330 --> 00:18:00.330
+Come fanno, quindi? Che ci crediate o no, rimangono attaccati
+
+00:18:00.330 --> 00:18:04.330
+grazie a forze intermolecolari chiamate forze di van der Waals.
+
+00:18:04.330 --> 00:18:06.330
+Probabilmente le avrete studiate tempo fa in un corso di chimica.
+
+00:18:06.330 --> 00:18:08.330
+Ci sono due atomi, vicini,
+
+00:18:08.330 --> 00:18:11.330
+e gli elettroni si muovono attorno. Quella piccola forza è sufficiente
+
+00:18:11.330 --> 00:18:14.330
+a fargli fare quello che fanno perché è sommata così tante volte
+
+00:18:14.330 --> 00:18:17.330
+tramite quelle piccole strutture.
+
+00:18:17.330 --> 00:18:22.330
+Quello che stiamo facendo è trarre ispirazione da quei peli,
+
+00:18:22.330 --> 00:18:27.330
+e con un altro collega a Berkeley, le stiamo costruendo.
+
+00:18:27.330 --> 00:18:30.330
+Solo recentemente abbiamo comunicato che crediamo
+
+00:18:30.330 --> 00:18:35.330
+che saremo capaci di creare il primo adesivo secco, sintetico, e autopulente.
+
+00:18:35.330 --> 00:18:40.330
+Molte compagnie ne sono interessate.
+
+00:18:40.330 --> 00:18:43.330
+(Risate)
+
+00:18:43.330 --> 00:18:45.330
+Lo abbiamo presentato anche alla Nike.
+
+00:18:45.330 --> 00:18:48.330
+(Risate)
+
+00:18:48.330 --> 00:18:54.330
+(Applausi)
+
+00:18:54.330 --> 00:18:57.330
+Vedremo come andrà a finire. Eravamo così eccitati per questo
+
+00:18:57.330 --> 00:19:00.330
+che abbiamo capito che queste piccole dimensioni,
+
+00:19:00.330 --> 00:19:03.330
+dove tutto diventa adesivo e la gravità non conta più,
+
+00:19:03.330 --> 00:19:06.330
+ci portavano a guardare alle formiche e alle loro dita, perché
+
+00:19:06.330 --> 00:19:11.330
+uno dei miei altri colleghi a Berkeley ha costruito un robot in silicone
+
+00:19:11.330 --> 00:19:14.330
+di sei millimetri con zampe, ma rimane bloccato, non si muove molto bene.
+
+00:19:14.330 --> 00:19:17.330
+Ma le formiche sono in grado di farlo e noi capiremo come, così che alla fine
+
+00:19:17.330 --> 00:19:20.330
+lo faremo muovere. Immaginate, sarà possibile
+
+00:19:20.330 --> 00:19:25.330
+avere sciami di questi robot di sei millimetri che corrono in giro.
+
+00:19:25.330 --> 00:19:28.330
+Dove andrà a finire? Penso che lo abbiate già capito.
+
+00:19:28.330 --> 00:19:32.330
+Chiaramente Internet ha già occhi ed orecchie,
+
+00:19:32.330 --> 00:19:36.330
+avete webcam e altro. Ma arriverà ad avere anche gambe e mani.
+
+00:19:36.330 --> 00:19:38.330
+Sarete in grado di programmare
+
+00:19:38.330 --> 00:19:42.330
+il vostro lavoro tramite questo tipo di robot, così che sarete liberi di andare a correre,
+
+00:19:42.330 --> 00:19:51.330
+volare e nuotare ovunque. Abbiamo visto David Kelly all'inizio con il suo pesce.
+
+00:19:51.330 --> 00:19:53.330
+Quindi, in conclusione, penso che il messaggio sia chiaro.
+
+00:19:53.330 --> 00:19:57.330
+Se vi serve una morale, se la natura non è abbastanza, se vi interessa
+
+00:19:57.330 --> 00:19:59.330
+cercare e salvare persone, o ripulire un campo minato, o curare,
+
+00:19:59.330 --> 00:20:03.330
+o qualsiasi altra cosa su cui stiamo lavorando, dobbiami capire che dobbiamo
+
+00:20:03.330 --> 00:20:07.330
+preservare i progetti creati dalla natura, altrimenti questi segreti andranno persi per sempre.
+
+00:20:07.330 --> 00:20:08.330
+Grazie.
+
+00:20:08.330 --> 00:20:17.330
+(Applausi)
+

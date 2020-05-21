@@ -1,0 +1,302 @@
+WEBVTT
+Kind: captions
+Language: sq
+
+00:00:00.000 --> 00:00:07.000
+Translator: Sokol Dollani
+Reviewer: Helena Bedalli
+
+00:00:16.804 --> 00:00:20.773
+Për ta kuptuar botën ku jetojmë,
+ne tregojmë histori.
+
+00:00:20.773 --> 00:00:24.243
+Dhe ndërkohë që ripunimi dhe shpërndarja
+përdoren për të përcaktuar
+
+00:00:24.243 --> 00:00:25.824
+web, siç e njohim,
+
+00:00:25.824 --> 00:00:29.659
+të gjithë ne mund të bëhemi pjesë e asaj
+historie nëpërmjet mjeteve të thjeshta,
+
+00:00:29.659 --> 00:00:32.124
+që na lejojnë të bëjmë gjëra në internet.
+
+00:00:32.124 --> 00:00:36.206
+Por videoja është lënë jashtë.
+Ajo mbërriti në web
+
+00:00:36.206 --> 00:00:38.952
+në një kutizë të vogël, dhe aty ka ngelur,
+
+00:00:38.952 --> 00:00:42.041
+tërësisht e shkëputur nga mesazhi
+dhe përmbajtja
+
+00:00:42.041 --> 00:00:43.913
+rreth saj.
+
+00:00:43.913 --> 00:00:45.825
+Në fakt, në më shumë se një dekadë në web,
+gjëja e vetme
+
+00:00:45.825 --> 00:00:49.421
+që ka ndryshuar rreth videos
+është madhësia e kutizës
+
+00:00:49.421 --> 00:00:52.298
+dhe cilësia e fotografisë.
+
+00:00:52.298 --> 00:00:55.466
+Popcorn-i e ndryshon të gjithën këtë.
+
+00:00:55.466 --> 00:00:58.579
+Është një mjet në internet që lejon çdokënd
+të kombinojë videon
+
+00:00:58.579 --> 00:01:01.964
+me përmbajtjen e tërhequr direkt nga web.
+
+00:01:01.964 --> 00:01:05.499
+Videot e krijuara me Popcorn
+sillen si vetë web:
+
+00:01:05.499 --> 00:01:09.546
+dinamike, plot me lidhje,
+dhe tërësisht të kombinueshme,
+
+00:01:09.546 --> 00:01:13.845
+dhe më në fund të lejuara
+për t'u shkëputur nga korniza.
+
+00:01:13.845 --> 00:01:16.249
+Dua t'ju demonstroj një prototip
+
+00:01:16.249 --> 00:01:18.289
+që po punojmë dhe do ta hedhim
+në internet këtë vjeshtë.
+
+00:01:18.289 --> 00:01:23.235
+Do të jetë plotësisht e lirë,
+dhe do të punojë në çdo shfletues.
+
+00:01:23.235 --> 00:01:26.301
+Kështu, çdo produksion Popcorn
+fillon me videon,
+
+00:01:26.301 --> 00:01:28.687
+prandaj kam përgatitur një klip
+të shkurtër 20 sekondash,
+
+00:01:28.687 --> 00:01:32.438
+duke përdorur një model lajmesh
+që ne përdorim në praktiken tone.
+
+00:01:32.438 --> 00:01:36.122
+Le ta shohim. Do t'i rikthehemi,
+dhe do t'ju tregojmë se si e realizuam.
+
+00:01:36.122 --> 00:01:38.874
+Përshëndetje, dhe mirëserdhët
+në lajmet e mia të reja.
+
+00:01:38.874 --> 00:01:41.315
+Kam shtuar vendndodhjen time
+me Hartën e Google,
+
+00:01:41.315 --> 00:01:44.683
+dhe është drejtpërdrejt,
+pra provoni të lëvizni vërdallë.
+
+00:01:44.683 --> 00:01:48.075
+Ju mund të shtoni reklama nderhyrese me lidhje
+të drejtpërdrejta dhe ikona të personalizuara,
+
+00:01:48.075 --> 00:01:51.539
+ose të fusni përmbajtje
+nga çdo shërbim web, si Flickr,
+
+00:01:51.539 --> 00:01:56.369
+apo të shtoni artikuj, apo postime ditari
+me lidhje, që të çojnë në përmbajtjen e plotë.
+
+00:01:56.369 --> 00:02:00.008
+Pra le të kthehemi pas, dhe do t'jua shpjegoj
+çfarë patë. Ka shumë gjëra aty.
+
+00:02:00.008 --> 00:02:03.434
+Pra ky është minutazhi, dhe nëse
+keni përpunuar ndonjëherë video,
+
+00:02:03.434 --> 00:02:06.353
+jeni familjar me këtë, por në vend
+të klipeve në minutazh,
+
+00:02:06.353 --> 00:02:09.939
+ajo çfarë shihni janë ngjarje ne web
+të futura në video.
+
+00:02:09.939 --> 00:02:12.330
+Tani në këtë produksion Popcorn që kemi
+
+00:02:12.330 --> 00:02:16.083
+etiketa e titullit, kemi një Hartë te Google
+që na shfaqet
+
+00:02:16.083 --> 00:02:18.570
+pamje-pas-pamje, më pas Popcorn
+e lejon të zgjerohet
+
+00:02:18.570 --> 00:02:21.930
+jashtë kornizës dhe të zaptojë
+ekranin e plotë.
+
+00:02:21.930 --> 00:02:24.599
+Janë dy reklama nderhyrese që sjellin
+informacione të tjera
+
+00:02:24.599 --> 00:02:28.977
+dhe një artikull final me një lidhje
+për te artikulli origjinal.
+
+00:02:28.977 --> 00:02:32.511
+Le të shkojmë te kjo Hartë e Google,
+dhe do t'ju tregoj si ta përpunoni.
+
+00:02:32.511 --> 00:02:35.760
+Gjithçka që duhet të bëni, shkoni te
+minutazhi, dopio-klikoni artikullin,
+
+00:02:35.760 --> 00:02:38.019
+dhe e kam caktuar në Toronto,
+sepse prej andej jam.
+
+00:02:38.019 --> 00:02:41.541
+Le ta caktojmë diku tjetër.
+
+00:02:41.541 --> 00:02:44.672
+Popcorn menjëherë shkon në web,
+
+00:02:44.672 --> 00:02:47.729
+komunikon me Google, merr hartën,
+dhe e vendos në ekran.
+
+00:02:47.729 --> 00:02:49.335
+Dhe është e njëjta gjë
+
+00:02:49.335 --> 00:02:51.071
+për njerëzit që shohin produksionin tuaj.
+
+00:02:51.071 --> 00:02:53.582
+Dhe është drejtpërdrejt. Nuk është imazh.
+Pra e klikoni,
+
+00:02:53.582 --> 00:02:57.812
+e afroni, direkt në pamjen e rrugës,
+po të doni.
+
+00:02:57.812 --> 00:03:00.819
+Tani në këtë video, përmenda shtimin
+e një furnizuesi të drejtpërdrejtë,
+
+00:03:00.819 --> 00:03:04.000
+të cilin mund ta bëjmë tani, pra,
+le të shtojmë një furnizim të drejtpërdrejtë
+
+00:03:04.000 --> 00:03:06.884
+nga Flickr. Shkoni sipër në anën e djathtë,
+
+00:03:06.884 --> 00:03:09.273
+zgjidhni Flickr nga lista e opsioneve,
+
+00:03:09.273 --> 00:03:11.520
+zvarriteni për te minutazhi,
+
+00:03:11.520 --> 00:03:13.994
+dhe vendoseni aty ku doni të shfaqet,
+
+00:03:13.994 --> 00:03:16.457
+dhe menjëherë ai shkon te Flickr dhe
+fillon të tërheqë
+
+00:03:16.457 --> 00:03:19.469
+imazhe të bazuara në etiketa.
+Tani, programuesit e mi
+
+00:03:19.469 --> 00:03:23.329
+i pëlqejnë kuajt e rinj (poni),
+prandaj e vunë si etikete standart.
+
+00:03:23.329 --> 00:03:26.445
+Le të provojmë diçka tjetër,
+
+00:03:26.445 --> 00:03:30.013
+mbase diçka më me lidhje për sot.
+
+00:03:30.013 --> 00:03:32.743
+Këto janë imazhet e drejtpërdrejta
+të tërhequra direkt nga furnizuesi.
+
+00:03:32.743 --> 00:03:34.331
+Nëse vini ta shihni këtë mbas një jave,
+
+00:03:34.331 --> 00:03:35.875
+kjo do të jetë tërësisht e ndryshme,
+
+00:03:35.875 --> 00:03:38.384
+dinamike, ashtu si web, dhe po si web,
+
+00:03:38.384 --> 00:03:40.436
+gjithçka ka burimin,
+pra klikoni lidhjen tuaj,
+
+00:03:40.436 --> 00:03:44.229
+dhe shkoni direkt te Flickr dhe
+shikoni imazhin burimor.
+
+00:03:44.229 --> 00:03:46.475
+Gjithçka që patë sot është ndërtuar me
+
+00:03:46.475 --> 00:03:50.035
+blloqet elementare të web:
+HTML, CSS dhe JavaScript.
+
+00:03:50.035 --> 00:03:51.954
+Që do të thotë se është tërësisht
+e përpunueshme. Gjithashtu do të thotë
+
+00:03:51.954 --> 00:03:54.518
+që nuk ka program të patentuar.
+Gjithçka ju duhet
+
+00:03:54.518 --> 00:03:57.477
+është një shfletues i web.
+
+00:03:57.477 --> 00:04:00.847
+Pra imagjinoni sikur çdo video
+që keni parë në web
+
+00:04:00.847 --> 00:04:03.893
+të funksiononte si web,
+tërësisht e ripunueshme,
+
+00:04:03.893 --> 00:04:06.640
+e lidhur me përmbajtjen burimore,
+dhe ndërvepruese
+
+00:04:06.640 --> 00:04:09.021
+për çdokënd që e shikon atë.
+
+00:04:09.021 --> 00:04:12.017
+Mendoj se Popcorn mund të ndryshojë mënyrën
+se si i tregojmë historitë në web,
+
+00:04:12.017 --> 00:04:14.395
+dhe mënyrën se si e kuptojmë botën
+ku jetojmë.
+
+00:04:14.395 --> 00:04:20.081
+Faleminderit. (Duartrokitje)
+

@@ -1,0 +1,497 @@
+WEBVTT
+Kind: captions
+Language: sk
+
+00:00:00.000 --> 00:00:07.000
+Translator: Richard Hrdlovič
+Reviewer: Matej Badin
+
+00:00:16.260 --> 00:00:18.260
+Pred niekoľkými rokmi, tu na TED, Peter Skillman
+
+00:00:18.260 --> 00:00:20.260
+prišiel s niečim,
+
+00:00:20.260 --> 00:00:22.260
+čo nazval marshmallow problém.
+
+00:00:22.260 --> 00:00:24.260
+V podstate sa nejedna o nič zložité.
+
+00:00:24.260 --> 00:00:26.260
+Tímy po štyroch musia postaviť najvyššiu štruktúru,
+
+00:00:26.260 --> 00:00:28.260
+a to z 20 špagiet,
+
+00:00:28.260 --> 00:00:30.260
+asi 1 metra pásky a špagátu,
+
+00:00:30.260 --> 00:00:32.260
+a z marshmallow.
+
+00:00:32.260 --> 00:00:34.260
+Marshmallow musí byť na vrchole.
+
+00:00:34.260 --> 00:00:37.260
+A i keď sa to zdá byť vcelku jednoduché, opak je pravdou,
+
+00:00:37.260 --> 00:00:39.260
+pretože to vyžaduje aby ľudia medzi sebou spolupracovali
+
+00:00:39.260 --> 00:00:41.260
+a to dosť rýchlo.
+
+00:00:41.260 --> 00:00:43.260
+A keďže som si myslel, že to je dosť zaujímavý nápad,
+
+00:00:43.260 --> 00:00:46.260
+tak som to začlenil do jedného z mojich design workshopov.
+
+00:00:46.260 --> 00:00:48.260
+A bol to obrovský úspech.
+
+00:00:48.260 --> 00:00:50.260
+Od tej doby som vykonal
+
+00:00:50.260 --> 00:00:52.260
+asi 70 design workshopov po celom svete,
+
+00:00:52.260 --> 00:00:54.260
+so študentami, dizajnérmi, architektmi,
+
+00:00:54.260 --> 00:00:57.260
+dokonca i s CTO z Fortune 50,
+
+00:00:57.260 --> 00:00:59.260
+a na tejto úlohe je niečo,
+
+00:00:59.260 --> 00:01:01.260
+čo nám odhaľuje hlbšiu podstatu
+
+00:01:01.260 --> 00:01:03.260
+toho, ako spolupracujeme.
+
+00:01:03.260 --> 00:01:05.260
+Rád by som sa o nej teda s vami podelil.
+
+00:01:05.260 --> 00:01:08.260
+Normálne väčšina ľudí začne tým,
+
+00:01:08.260 --> 00:01:11.260
+že sa orientuje na úlohu samotnú,
+
+00:01:11.260 --> 00:01:14.260
+rozprávajú o nej, pokúšajú sa jej prísť na koreň veci,
+
+00:01:14.260 --> 00:01:16.260
+dohadujú sa, kto má pravdu,
+
+00:01:16.260 --> 00:01:18.260
+a potom určitý čas strávia plánovaním a organizovaním.
+
+00:01:18.260 --> 00:01:21.260
+Spravia si nákres a potom si rozložia špagety.
+
+00:01:21.260 --> 00:01:23.260
+Väčšinu svojho času strávia
+
+00:01:23.260 --> 00:01:26.260
+spájaním týchto špagiet do rastúcej štruktúry
+
+00:01:26.260 --> 00:01:29.260
+a potom, takmer ku koncu,
+
+00:01:29.260 --> 00:01:31.260
+niekto vezme marshmallow,
+
+00:01:31.260 --> 00:01:34.260
+a opatrne ho položí na vrchol,
+
+00:01:34.260 --> 00:01:37.260
+ustupia, a Ta-dá!,
+
+00:01:37.260 --> 00:01:39.260
+obdivujú svoju prácu.
+
+00:01:39.260 --> 00:01:41.260
+Ale k čomu u väčšiny prípadov dochádza,
+
+00:01:41.260 --> 00:01:44.260
+je to, že ten "tá-da" moment sa často premení v "Nie!" moment,
+
+00:01:44.260 --> 00:01:46.260
+pretože hmotnosť marshmallow obvykle spôsobí,
+
+00:01:46.260 --> 00:01:48.260
+že sa celá štruktúru podlomí a spadne.
+
+00:01:48.260 --> 00:01:50.260
+A existujú určitý ľudia,
+
+00:01:50.260 --> 00:01:53.260
+ktorí majú oveľa viac "Nie!" momentov ako iní,
+
+00:01:53.260 --> 00:01:56.260
+a medzi tými s najhoršími výsledkami sú čerství absolventi ekonómie.
+
+00:01:56.260 --> 00:01:59.260
+(Smiech)
+
+00:01:59.260 --> 00:02:02.260
+Klamú, podvádzajú, sú roztržitý,
+
+00:02:02.260 --> 00:02:04.260
+a produkujú naozaj úbohé štruktúry.
+
+00:02:04.260 --> 00:02:06.260
+Samozrejme sú tam i tímy,
+
+00:02:06.260 --> 00:02:08.260
+ktoré majú oveľa viac "ta-d8" stavieb,
+
+00:02:08.260 --> 00:02:11.260
+a medzi tými najlepšími sú čerství absolventi materskej školy.
+
+00:02:11.260 --> 00:02:13.260
+(Smiech)
+
+00:02:13.260 --> 00:02:15.260
+A je to naozaj úžasné.
+
+00:02:15.260 --> 00:02:17.260
+Ako nám hovorí Peter,
+
+00:02:17.260 --> 00:02:19.260
+nielen že produkujú najvyššie stavby,
+
+00:02:19.260 --> 00:02:22.260
+ale i tie z najzaujímavejších stavieb.
+
+00:02:22.260 --> 00:02:24.260
+Takže určite si kladiete otázku:
+
+00:02:24.260 --> 00:02:26.260
+Ako to? Prečo? Čo je na nich také?
+
+00:02:26.260 --> 00:02:28.260
+A Peter rád hovorí, že:
+
+00:02:28.260 --> 00:02:30.260
+"Nikto z detí totiž netrávi čas
+
+00:02:30.260 --> 00:02:33.260
+snahou stať sa CEO Špagety a.s." Pravda.
+
+00:02:33.260 --> 00:02:35.260
+Nehašteria sa o moc.
+
+00:02:35.260 --> 00:02:37.260
+Ale je tu ešte ďalší dôvod.
+
+00:02:37.260 --> 00:02:39.260
+A dôvodom je, že študenti ekonómie sú vyškolení
+
+00:02:39.260 --> 00:02:42.260
+aby našli to jediné správne riešenie.
+
+00:02:42.260 --> 00:02:44.260
+A potom daný plán uskutočnia.
+
+00:02:44.260 --> 00:02:46.260
+A potom, sa stane to, že ak dajú marshmallow na vrchol,
+
+00:02:46.260 --> 00:02:48.260
+ako im dochádza čas, že
+
+00:02:48.260 --> 00:02:50.260
+príde kríza.
+
+00:02:50.260 --> 00:02:53.260
+Znie to povedomé?
+
+00:02:53.260 --> 00:02:55.260
+To čo deti z materskej školy robia inak,
+
+00:02:55.260 --> 00:02:57.260
+je to, že začínajú s marshmallow,
+
+00:02:57.260 --> 00:03:00.260
+stavajú prototypy, úspešné prototypy,
+
+00:03:00.260 --> 00:03:02.260
+pričom vždy držia marshmallow na vrchole,
+
+00:03:02.260 --> 00:03:05.260
+a preto majú kopec času opravovať prípadne zlé prototypy.
+
+00:03:05.260 --> 00:03:08.260
+Dizajnéri považujú tento postup ako kľúčový
+
+00:03:08.260 --> 00:03:11.260
+pre možnosť opakovať proces.
+
+00:03:11.260 --> 00:03:13.260
+A s každou verziou, deti dostať okamžitú spätnú väzbu o tom,
+
+00:03:13.260 --> 00:03:16.260
+čo funguje a čo nefunguje.
+
+00:03:16.260 --> 00:03:19.260
+Takže možnosť sa hrať s prototypom je naozaj zásadná,
+
+00:03:19.260 --> 00:03:22.260
+ale pozrime sa, ako si viedli rôzne tímy.
+
+00:03:22.260 --> 00:03:25.260
+Priemerná výška u väčšiny stavieb je asi pol metra,
+
+00:03:25.260 --> 00:03:27.260
+u študentov ekonómie, asi len polovica toho,
+
+00:03:27.260 --> 00:03:30.260
+u právnikov, o niečo lepšia, ale nie až o moc lepšia,
+
+00:03:30.260 --> 00:03:32.260
+a u deti z materskej škole, lepšia ako u väčšiny dospelých.
+
+00:03:32.260 --> 00:03:34.260
+A kto stavia tie najlepšie konštrukcie?
+
+00:03:34.260 --> 00:03:37.260
+Architekti a inžinieri, našťastie.
+
+00:03:37.260 --> 00:03:42.260
+(Smiech)
+
+00:03:42.260 --> 00:03:45.260
+Necelý jeden meter vysoká stavba je zatiaľ tá najväčšia, čo som videl.
+
+00:03:45.260 --> 00:03:48.260
+A prečo tomu tak je? Pretože architekti a inžinieri vedia, že trojuholníky
+
+00:03:48.260 --> 00:03:50.260
+a samopodperné geometrické vzory
+
+00:03:50.260 --> 00:03:52.260
+sú kľúčom k budovaniu
+
+00:03:52.260 --> 00:03:54.260
+stabilných štruktúr.
+
+00:03:54.260 --> 00:03:57.260
+Taktiež riaditelia firiem si viedli o trochu lepšie ako priemer.
+
+00:03:57.260 --> 00:03:59.260
+Ale tu to začína byť zaujímavé.
+
+00:03:59.260 --> 00:04:01.260
+Ak dáte výkonného riaditeľa do tímu,
+
+00:04:01.260 --> 00:04:03.260
+tak si povedú výrazne lepšie.
+
+00:04:03.260 --> 00:04:05.260
+(Smiech)
+
+00:04:06.260 --> 00:04:08.260
+Je to neuveriteľné. Viete, rozhliadnete sa okolo, a poviete si: "Oh, tento tím to vyhrá."
+
+00:04:08.260 --> 00:04:10.260
+Môžete to povedať vopred. Ale prečo je tomu tak?
+
+00:04:10.260 --> 00:04:12.260
+Vzhľadom k tomu, že majú špecifické schopnosti
+
+00:04:12.260 --> 00:04:14.260
+ako napomáhať.
+
+00:04:14.260 --> 00:04:16.260
+Riadia celý proces, a chápu jeho podstatu.
+
+00:04:16.260 --> 00:04:18.260
+A hocktorý tím, ktorý riadi
+
+00:04:18.260 --> 00:04:21.260
+a venuje veľkú pozornosť práci
+
+00:04:21.260 --> 00:04:24.260
+si významne zlepší výkonnosť.
+
+00:04:24.260 --> 00:04:27.260
+Špecializované schopnosti a schopnosť ako vedeť napomáhať
+
+00:04:27.260 --> 00:04:30.260
+sú kombináciou, ktorá vedie k úspechu.
+
+00:04:30.260 --> 00:04:32.260
+Ak máte 10 tímov,
+
+00:04:32.260 --> 00:04:34.260
+tak približne šesť z nich budú mať stabilné štruktúry.
+
+00:04:34.260 --> 00:04:36.260
+A vyskúšal som niečo zaujímavé.
+
+00:04:36.260 --> 00:04:39.260
+Rozhodol som sa ich odmeniť za ich výkon.
+
+00:04:39.260 --> 00:04:42.260
+Ponúkol som preto pre víťaza software v hodnote 10 000$.
+
+00:04:42.260 --> 00:04:45.260
+Čo si myslite, že sa stalo u študentov dizajnu?
+
+00:04:45.260 --> 00:04:47.260
+Akého výsledku dosiahli?
+
+00:04:48.260 --> 00:04:50.260
+Stalo sa to,
+
+00:04:50.260 --> 00:04:53.260
+že ani jeden tím nepostavil stojacu konštrukciu.
+
+00:04:54.260 --> 00:04:57.260
+Ak by hockto postavil, čo len stavbu veľkostí jedného cm,
+
+00:04:57.260 --> 00:04:59.260
+tak by si vzal cenu.
+
+00:04:59.260 --> 00:05:01.260
+Zaujímavé je, že ak sa o niečo hraje,
+
+00:05:01.260 --> 00:05:03.260
+tak to ma silný vplyv na výkonnosť.
+
+00:05:03.260 --> 00:05:05.260
+Zopakovali sme rovnaké cvičenie opäť s tými samými študentmi.
+
+00:05:05.260 --> 00:05:07.260
+Čo si myslite, že sa stalo?
+
+00:05:07.260 --> 00:05:10.260
+Pochopili už aký prínos majú prototypy.
+
+00:05:13.260 --> 00:05:15.260
+Z najhoršieho sa tak obratom ruky stal
+
+00:05:15.260 --> 00:05:17.260
+jeden z najlepších tímov.
+
+00:05:17.260 --> 00:05:20.260
+Postavili najvyššie štruktúry za minimálni čas.
+
+00:05:20.260 --> 00:05:22.260
+Plynie z toho hlboké ponaučenie,
+
+00:05:22.260 --> 00:05:25.260
+čo sa týka previazanosti odmien s úspechom.
+
+00:05:25.260 --> 00:05:27.260
+Takže sa možno pýtate: Prečo by niekto
+
+00:05:27.260 --> 00:05:30.260
+trávil čas písaním o marshmallow probléme?
+
+00:05:30.260 --> 00:05:32.260
+A dôvod je, že pomáham vytvárať
+
+00:05:32.260 --> 00:05:34.260
+digitálne nástroje a procesy,
+
+00:05:34.260 --> 00:05:36.260
+ktoré pomáhajú tímom stavať autá a vytvárať video hry,
+
+00:05:36.260 --> 00:05:38.260
+či tvoriť vizuálne efekty.
+
+00:05:38.260 --> 00:05:40.260
+A to, čo marshmallow problém robí,
+
+00:05:40.260 --> 00:05:43.260
+je to, že im pomáha identifikovať ich skryté domnienky.
+
+00:05:43.260 --> 00:05:45.260
+Pretože, úprimne povedané,
+
+00:05:45.260 --> 00:05:48.260
+každý projekt má svoj vlastný „marshmallow“, či nie?
+
+00:05:48.260 --> 00:05:50.260
+Marshmallow problém poskytuje priestor pre spoločnú skúsenosť,
+
+00:05:50.260 --> 00:05:52.260
+spoločnú reč,
+
+00:05:52.260 --> 00:05:54.260
+a pre spoločný náhľad pri budovaní toho správneho prototypu.
+
+00:05:54.260 --> 00:05:56.260
+A toto je tou hodnotou, ktorá stojí za touto skúsenosťou,
+
+00:05:56.260 --> 00:05:58.260
+za týmto jednoduchým cvičením.
+
+00:05:58.260 --> 00:06:00.260
+A tí z vás, ktorí majú záujem,
+
+00:06:00.260 --> 00:06:02.260
+môžu navštíviť marshmallowchallenge.com.
+
+00:06:02.260 --> 00:06:04.260
+Je to blog, kde sa môžete pozrieť na to,
+
+00:06:04.260 --> 00:06:06.260
+ako vybudovať stavby z marshmallow.
+
+00:06:06.260 --> 00:06:08.260
+Nájdete tam návod krok-za-krokom.
+
+00:06:08.260 --> 00:06:11.260
+Sú tam i šialené príklady z celého sveta,
+
+00:06:11.260 --> 00:06:13.260
+kde si ľudia vyladili a prispôsobili systém.
+
+00:06:13.260 --> 00:06:15.260
+Padajú tam svetové rekordy.
+
+00:06:15.260 --> 00:06:17.260
+Verím, že základnou lekciou je to,
+
+00:06:17.260 --> 00:06:19.260
+že dizajn je naozaj
+
+00:06:19.260 --> 00:06:21.260
+tímový šport.
+
+00:06:21.260 --> 00:06:24.260
+Vyžaduje, aby sme pri úkole, ktorý pred nami stojí,
+
+00:06:24.260 --> 00:06:26.260
+zapojili všetky naše zmysly,
+
+00:06:26.260 --> 00:06:29.260
+naše pocity, a začali uvažovať
+
+00:06:29.260 --> 00:06:31.260
+a robiť veci naplno.
+
+00:06:31.260 --> 00:06:34.260
+A niekedy, trochu skúsenosti z hry ako táto,
+
+00:06:34.260 --> 00:06:36.260
+je tým, čo dokáže premeniť
+
+00:06:36.260 --> 00:06:38.260
+"uh-oh" moment na "ta-da" moment.
+
+00:06:38.260 --> 00:06:40.260
+A to môže urobiť dosť.
+
+00:06:40.260 --> 00:06:42.260
+Ďakujem.
+
+00:06:42.260 --> 00:06:44.260
+(Potlesk)
+

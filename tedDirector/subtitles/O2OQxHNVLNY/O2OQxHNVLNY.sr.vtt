@@ -1,0 +1,629 @@
+WEBVTT
+Kind: captions
+Language: sr
+
+00:00:00.000 --> 00:00:07.000
+Prevodilac: Bojan Kostic
+Lektor: Mateja Nenadovic
+
+00:00:15.260 --> 00:00:18.260
+Mnogi veruju da je vožnja aktivnost
+
+00:00:18.260 --> 00:00:20.260
+rezervisana isključivo za one koji vide.
+
+00:00:20.260 --> 00:00:23.260
+Mogućnost slepe osobe koja bezbedno i nezavisno vozi
+
+00:00:23.260 --> 00:00:26.260
+se smatralo nemogućim zadatakom, sve do sada.
+
+00:00:26.260 --> 00:00:28.260
+Zdravo, moje ime je Denis Hong,
+
+00:00:28.260 --> 00:00:30.260
+i mi uvodimo slobodu i nezavisnost za slepe osobe
+
+00:00:30.260 --> 00:00:33.260
+praveći vozilo za osobe sa oštećenim vidom.
+
+00:00:33.260 --> 00:00:36.260
+Pre nego što počnem da govorim o automobilu za slepe osobe,
+
+00:00:36.260 --> 00:00:38.260
+ukratko ću vam reći o još jednom projektu na kome sam radio
+
+00:00:38.260 --> 00:00:40.260
+koji se naziva DARPA Urbani Izazov.
+
+00:00:40.260 --> 00:00:42.260
+Ovde se radilo o pravljenju robotskog automobila
+
+00:00:42.260 --> 00:00:44.260
+koji može sam da vozi.
+
+00:00:44.260 --> 00:00:46.260
+Pritisnete start, niko ne dira ništa,
+
+00:00:46.260 --> 00:00:49.260
+i on može da stigne do svog odredišta potpuno autonomno.
+
+00:00:49.260 --> 00:00:52.260
+Naš tim je 2007. godine osvojio pola miliona dolara,
+
+00:00:52.260 --> 00:00:54.260
+osvojivši treće mesto na ovom takmičenju.
+
+00:00:54.260 --> 00:00:56.260
+U to vreme,
+
+00:00:56.260 --> 00:00:58.260
+Nacionalna federacija slepih, ili NFB,
+
+00:00:58.260 --> 00:01:00.260
+uputila je izazov istraživačkom komitetu
+
+00:01:00.260 --> 00:01:02.260
+vezan za to ko može da razvije automobil
+
+00:01:02.260 --> 00:01:04.260
+koji omogućava slepoj osobi da vozi bezbedno i nezavisno.
+
+00:01:04.260 --> 00:01:06.260
+Odlučili smo da pokušamo
+
+00:01:06.260 --> 00:01:08.260
+i mislili smo “Koliko to teško može da bude?“
+
+00:01:08.260 --> 00:01:10.260
+Mi već imamo autonomno vozilo.
+
+00:01:10.260 --> 00:01:12.260
+Samo stavimo slepu osobu unutra i to je to, je li tako?
+
+00:01:12.260 --> 00:01:14.260
+(Smeh)
+
+00:01:14.260 --> 00:01:16.260
+Nismo mogli više da pogrešimo.
+
+00:01:16.260 --> 00:01:18.260
+Ono što je NFB želela
+
+00:01:18.260 --> 00:01:21.260
+nije vozilo koje može da vozi slepu osobu,
+
+00:01:21.260 --> 00:01:24.260
+već vozilo gde slepa osoba može da donosi aktivne odluke i da upravlja vozilom.
+
+00:01:24.260 --> 00:01:26.260
+Morali smo da se odreknemo svega
+
+00:01:26.260 --> 00:01:28.260
+i da počnemo ispočetka.
+
+00:01:28.260 --> 00:01:30.260
+Da bi testirali ovu ludu ideju,
+
+00:01:30.260 --> 00:01:32.260
+razvili smo malo prototip vozilo za vožnju po pesku
+
+00:01:32.260 --> 00:01:34.260
+da testiramo izvodljivost toga.
+
+00:01:34.260 --> 00:01:36.260
+U leto 2009.,
+
+00:01:36.260 --> 00:01:39.260
+pozvali smo desetine slepih mladih ljudi iz cele zemlje
+
+00:01:39.260 --> 00:01:41.260
+i dali smo im šansu da isprobaju vozilo.
+
+00:01:41.260 --> 00:01:43.260
+To je bilo apsolutno neverovatno iskustvo.
+
+00:01:43.260 --> 00:01:45.260
+Problem sa ovim automobilom je bio taj
+
+00:01:45.260 --> 00:01:48.260
+da je bio projektovan samo za vožnju u veoma kontrolisanom okruženju,
+
+00:01:48.260 --> 00:01:50.260
+na ravnom, zatvorenom parkingu –
+
+00:01:50.260 --> 00:01:52.260
+čak su i saobraćajne trake bile definisane crvenim saobraćajnim kupama.
+
+00:01:52.260 --> 00:01:54.260
+Sa ovim uspehom,
+
+00:01:54.260 --> 00:01:56.260
+odlučili smo da napravimo sledeći veliki korak,
+
+00:01:56.260 --> 00:01:59.260
+da razvijemo stvarni automobil, koji se može voziti na pravim putevima.
+
+00:01:59.260 --> 00:02:01.260
+Kako to funkcioniše?
+
+00:02:01.260 --> 00:02:03.260
+Dakle, to je veoma složen sistem,
+
+00:02:03.260 --> 00:02:06.260
+ali dozvolite mi da pokušam da objasnim, ili da ga pojednostavim.
+
+00:02:06.260 --> 00:02:08.260
+Postoje tri koraka.
+
+00:02:08.260 --> 00:02:10.260
+Postoje percepcija, obrada
+
+00:02:10.260 --> 00:02:12.260
+i ne-vizuelni interfejsi.
+
+00:02:12.260 --> 00:02:14.260
+Očigleno je da vozač ne može da vidi,
+
+00:02:14.260 --> 00:02:16.260
+tako da sistem mora da opaža okruženje
+
+00:02:16.260 --> 00:02:18.260
+i prikuplja informacije za vozača.
+
+00:02:18.260 --> 00:02:21.260
+Za ovu svrhu, koristi se početna merna jedinica.
+
+00:02:21.260 --> 00:02:23.260
+Ona meri ubrzanje, ugaono ubrzanje –
+
+00:02:23.260 --> 00:02:25.260
+kao ljudsko uho, unutrašnje uho.
+
+00:02:25.260 --> 00:02:27.260
+Te informacije se spajaju sa GPS jedinicom
+
+00:02:27.260 --> 00:02:30.260
+da bi se dobila procena lokacije automobila.
+
+00:02:30.260 --> 00:02:33.260
+Takođe se koriste dve kamere za detektovanje saobraćajnih traka na putu.
+
+00:02:33.260 --> 00:02:35.260
+Koriste se i tri laserska detektora.
+
+00:02:35.260 --> 00:02:38.260
+Laseri skeniraju okruženje da bi detektovali prepreke –
+
+00:02:38.260 --> 00:02:40.260
+vozilo koje se približava sa prednje strane, sa zadnje strane
+
+00:02:40.260 --> 00:02:43.260
+i bilo koje prepreke koje se nalaze na putu,
+
+00:02:43.260 --> 00:02:45.260
+kao i prepreke koje se nalaze oko vozila.
+
+00:02:45.260 --> 00:02:48.260
+Ova ogromna količina informacija se zatim šalje u kompjuter,
+
+00:02:48.260 --> 00:02:50.260
+i kompjuter može da radi dve stvari.
+
+00:02:50.260 --> 00:02:53.260
+Jedna je, pre svega, obrada ovih informacija
+
+00:02:53.260 --> 00:02:55.260
+zbog razumevanja okruženja –
+
+00:02:55.260 --> 00:02:58.260
+to su trake na putu, prepreke –
+
+00:02:58.260 --> 00:03:00.260
+i da prenese ove informacije vozaču.
+
+00:03:00.260 --> 00:03:02.260
+Sistem je dovoljno pametan
+
+00:03:02.260 --> 00:03:04.260
+da odredi najbezbedniji put za kretanje vozila.
+
+00:03:04.260 --> 00:03:06.260
+Takođe mogu da se naprave instrukcije
+
+00:03:06.260 --> 00:03:08.260
+kako upravljati komandama u vozilu.
+
+00:03:08.260 --> 00:03:10.260
+Ali problem je sledeći: Kako da prenesemo
+
+00:03:10.260 --> 00:03:12.260
+ove informacije i instrukcije
+
+00:03:12.260 --> 00:03:14.260
+osobi koja ne može da vidi
+
+00:03:14.260 --> 00:03:17.260
+dovoljno brzo i precizno da vidi da bi mogla da vozi?
+
+00:03:17.260 --> 00:03:19.260
+Za ovu svrhu, razvili smo mnogo različitih tipova
+
+00:03:19.260 --> 00:03:22.260
+tehnologija ne-vizuelnih, korisničkih interfejsa.
+
+00:03:22.260 --> 00:03:24.260
+Počevši sa trodimenzionalnim ping zvučnim sistemom,
+
+00:03:24.260 --> 00:03:26.260
+vibrirajućim prslukom,
+
+00:03:26.260 --> 00:03:29.260
+volanom sa dugmićima i zvučnim komandama, nožnom trakom,
+
+00:03:29.260 --> 00:03:31.260
+čak i cipelom koja prenosi pritisak na stopalo.
+
+00:03:31.260 --> 00:03:33.260
+Danas ćemo govoriti
+
+00:03:33.260 --> 00:03:35.260
+o tri od ovih ne-vizuelnih interfejsa.
+
+00:03:35.260 --> 00:03:38.260
+Prvi interfejs se zove Upravljačko rukovanje.
+
+00:03:38.260 --> 00:03:40.260
+To je par rukavica
+
+00:03:40.260 --> 00:03:42.260
+koje poseduju vibrirajuće elemente u predelu šake
+
+00:03:42.260 --> 00:03:45.260
+i omogućavaju prenošenje instrukcije koje se tiču upravljanja –
+
+00:03:45.260 --> 00:03:47.260
+smer i intenzitet.
+
+00:03:47.260 --> 00:03:49.260
+Drugi uređaj se zove Brzinska oprema.
+
+00:03:49.260 --> 00:03:52.260
+To je stolica – u stvari, to je stolica koja masira.
+
+00:03:52.260 --> 00:03:56.260
+Rekonstruisali smo je, preuredili smo vibrirajuće elemente na različite načine
+
+00:03:56.260 --> 00:03:59.260
+i aktivirali smo ih da prenose informacije o brzini,
+
+00:03:59.260 --> 00:04:02.260
+takođe i instrukcije kako se koriste pedale gasa i kočnice.
+
+00:04:02.260 --> 00:04:04.260
+Ovde možete videti
+
+00:04:04.260 --> 00:04:06.260
+kako kompjuter razume okruženje,
+
+00:04:06.260 --> 00:04:08.260
+i zato što vi ne možete da vidite vibraciju,
+
+00:04:08.260 --> 00:04:11.260
+stavili smo crvene LED svetiljke na vozača tako da možete da vidite šta se dešava.
+
+00:04:11.260 --> 00:04:13.260
+Ovo su podaci sa senzora,
+
+00:04:13.260 --> 00:04:16.260
+i ti podaci se prenose u uređaje pomoću kompjutera.
+
+00:04:16.260 --> 00:04:18.260
+Ova dva uređaja, Upravljačko rukovanje i Brzinska oprema,
+
+00:04:18.260 --> 00:04:20.260
+su veoma efektivni.
+
+00:04:20.260 --> 00:04:22.260
+Problem je
+
+00:04:22.260 --> 00:04:24.260
+što su to uređaji koji daju instrukcije.
+
+00:04:24.260 --> 00:04:26.260
+Ovo nije u stvari sloboda, zar ne?
+
+00:04:26.260 --> 00:04:28.260
+Kompjuter vam govori kako da vozite –
+
+00:04:28.260 --> 00:04:30.260
+skreni levo, skreni desno, ubrzaj, zaustavi se.
+
+00:04:30.260 --> 00:04:32.260
+Mi ovo nazivamo "problem da vam stalno neko suflira".
+
+00:04:32.260 --> 00:04:35.260
+Mi se udaljavamo od uređaja koji daju instrukcije,
+
+00:04:35.260 --> 00:04:37.260
+i sada se više fokusiramo
+
+00:04:37.260 --> 00:04:39.260
+na informativne uređaje.
+
+00:04:39.260 --> 00:04:41.260
+Dobar primer ovih informativnih ne-vizuelnih korisničkih interfejsa
+
+00:04:41.260 --> 00:04:43.260
+se naziva Vazdušna fotografija.
+
+00:04:43.260 --> 00:04:45.260
+To zamislite kao monitor za slepe ljude.
+
+00:04:45.260 --> 00:04:47.260
+To je mala ploča, ima mnogo otvora u sebi,
+
+00:04:47.260 --> 00:04:49.260
+kompresovani vazduh izlazi napolje,
+
+00:04:49.260 --> 00:04:51.260
+tako da on u stvari može da pravi slike.
+
+00:04:51.260 --> 00:04:53.260
+Čak iako ste slepi, možete da stavite ruku preko njega
+
+00:04:53.260 --> 00:04:55.260
+i da vidite saobraćajne trake na putu i prepreke.
+
+00:04:55.260 --> 00:04:58.260
+Takođe možete da promenite učestalost vazduha koji izlazi
+
+00:04:58.260 --> 00:05:00.260
+kao i temperaturu.
+
+00:05:00.260 --> 00:05:03.260
+To je u stvari multidimenzionalni korisnički interfejs.
+
+00:05:03.260 --> 00:05:06.260
+Ovde možete da vidite levu kameru, desnu kameru vozila
+
+00:05:06.260 --> 00:05:09.260
+i kako kompjuter to interpretira i šalje te informacije Vazdušnoj fotografiji.
+
+00:05:09.260 --> 00:05:11.260
+Za ovu svrhu, pokazujemo simulator,
+
+00:05:11.260 --> 00:05:14.260
+slepa osoba koja vozi koristeći Vazdušnu fotografiju.
+
+00:05:14.260 --> 00:05:17.260
+Ovaj simulator je takođe veoma bio koristan za obuku slepih vozača
+
+00:05:17.260 --> 00:05:19.260
+kao i za brzo testiranje različitih tipova ideja
+
+00:05:19.260 --> 00:05:21.260
+za različite tipove ne-vizuelnih, korisničkih interfejsa.
+
+00:05:21.260 --> 00:05:23.260
+U osnovi to radi ovako.
+
+00:05:23.260 --> 00:05:25.260
+Pre samo mesec dana,
+
+00:05:25.260 --> 00:05:27.260
+29. januara,
+
+00:05:27.260 --> 00:05:29.260
+po prvi put smo prikazali ovo vozilo javnosti
+
+00:05:29.260 --> 00:05:32.260
+na svetski poznatoj Dejtona međunarodnoj stazi
+
+00:05:32.260 --> 00:05:34.260
+tokom Roleks 24 trkačkog događaja.
+
+00:05:34.260 --> 00:05:37.260
+Imali smo i nekoliko iznenađenja. Hajde da pogledamo.
+
+00:05:37.260 --> 00:05:47.260
+(Muzika)
+
+00:05:47.260 --> 00:05:51.260
+(Video) Spiker: Ovo je istorijski dan u januaru.
+
+00:05:51.260 --> 00:05:55.260
+On izlazi na pozornicu, drugovi naši.
+
+00:05:55.260 --> 00:06:01.260
+(Ovacije)
+
+00:06:01.260 --> 00:06:04.260
+(Trubljenje)
+
+00:06:04.260 --> 00:06:06.260
+Tamo je sada pozornica.
+
+00:06:06.260 --> 00:06:10.260
+I on [nejasno] prati taj kombi koji je ispred njega.
+
+00:06:10.260 --> 00:06:12.260
+Dolazi prva kutija.
+
+00:06:12.260 --> 00:06:15.260
+Da vidimo da li će je Mark izbeći.
+
+00:06:15.260 --> 00:06:18.260
+Izbegava je. On je prolazi sa desne strane.
+
+00:06:20.260 --> 00:06:23.260
+Treća kutija je izbačena. Četvrta kutija je izbačena.
+
+00:06:23.260 --> 00:06:26.260
+On savršeno pronalazi put između dve kutije.
+
+00:06:26.260 --> 00:06:28.260
+Približava se kombiju
+
+00:06:28.260 --> 00:06:31.260
+da bi ga pretekao.
+
+00:06:32.260 --> 00:06:34.260
+U ovome je suština,
+
+00:06:34.260 --> 00:06:38.260
+vrsta dinamičnog monitora sa zvukovima i genijalnošću.
+
+00:06:39.260 --> 00:06:42.260
+On se približava kraju staze
+
+00:06:42.260 --> 00:06:47.260
+i pronalazi put između buradi koja je tamo postavljena.
+
+00:06:47.260 --> 00:06:50.260
+(Trubljenje)
+
+00:06:50.260 --> 00:06:53.260
+(Aplauz)
+
+00:06:56.260 --> 00:06:58.260
+Denis Hong: Veoma sam srećan zbog tebe.
+
+00:06:58.260 --> 00:07:00.260
+Mark će me odvesti nazad do hotela.
+
+00:07:00.260 --> 00:07:02.260
+Mark Rikobono: Da.
+
+00:07:05.260 --> 00:07:14.260
+(Aplauz)
+
+00:07:14.260 --> 00:07:16.260
+DH: Od kada smo započeli ovaj projekat,
+
+00:07:16.260 --> 00:07:19.260
+dobijamo stotine pisama, mejlova, telefonskih poziva
+
+00:07:19.260 --> 00:07:21.260
+od ljudi iz čitavog sveta.
+
+00:07:21.260 --> 00:07:24.260
+Pisma u kojima nam se zahvaljuju, a ponekad dobijemo i neko zabavno pismo kao što je ovo:
+
+00:07:24.260 --> 00:07:28.260
+“Sad razumem zašto se Brajevo pismo nalazi na bankomatu kome se može prići kolima.”
+
+00:07:28.260 --> 00:07:30.260
+(Smeh)
+
+00:07:30.260 --> 00:07:32.260
+Ponekad –
+
+00:07:32.260 --> 00:07:34.260
+(Smeh)
+
+00:07:34.260 --> 00:07:36.260
+Ponekad stvarno dobijem –
+
+00:07:36.260 --> 00:07:38.260
+ne bih to nazvao mejlom mržnje –
+
+00:07:38.260 --> 00:07:40.260
+već pisma veoma velike zabrinutosti:
+
+00:07:40.260 --> 00:07:42.260
+“Dr Hong, da li ste vi normalni,
+
+00:07:42.260 --> 00:07:44.260
+pokušavate da stavite slepe ljude da voze?
+
+00:07:44.260 --> 00:07:46.260
+Mora da ste van pameti.”
+
+00:07:46.260 --> 00:07:48.260
+Ovo vozilo je prototip vozilo
+
+00:07:48.260 --> 00:07:50.260
+i neće se naći na ulicama dok se ne dokaže
+
+00:07:50.260 --> 00:07:52.260
+kao podjednako bezbedno ili bezbednije od današnjeg vozila.
+
+00:07:52.260 --> 00:07:55.260
+Ja zaista verujem da se ovo može dogoditi.
+
+00:07:55.260 --> 00:07:57.260
+Ali da li će društvo
+
+00:07:57.260 --> 00:07:59.260
+prihvatiti ovako radikalnu ideju?
+
+00:07:59.260 --> 00:08:01.260
+Kako će se rešiti osiguranje?
+
+00:08:01.260 --> 00:08:03.260
+Kako će se izdavati vozačke dozvole?
+
+00:08:03.260 --> 00:08:06.260
+Postoji mnogo različitih poteškoća pored tehničkih izazova
+
+00:08:06.260 --> 00:08:09.260
+koje moramo da rešimo pre nego što ovo postane realnost.
+
+00:08:09.260 --> 00:08:11.260
+Naravno, glavni cilj ovog projekta
+
+00:08:11.260 --> 00:08:13.260
+je da se razvije automobil za slepe ljude.
+
+00:08:13.260 --> 00:08:15.260
+Još važnije od ovoga potencijalno
+
+00:08:15.260 --> 00:08:18.260
+može biti ogromna vrednost nove tehnologije
+
+00:08:18.260 --> 00:08:20.260
+koja može da se izrodi iz ovog projekta.
+
+00:08:20.260 --> 00:08:22.260
+Senzori koji se koriste mogu da vide
+
+00:08:22.260 --> 00:08:24.260
+po mraku, magli i kiši.
+
+00:08:24.260 --> 00:08:26.260
+Zajedno sa ovim novim tipom interfejsa,
+
+00:08:26.260 --> 00:08:28.260
+možemo da koristimo ove tehnologije
+
+00:08:28.260 --> 00:08:30.260
+i primenimo ih na bezbednije automobile za osobe sa dobrim vidom.
+
+00:08:30.260 --> 00:08:33.260
+I za slepe ljude, svakodnevne kućne uređaje –
+
+00:08:33.260 --> 00:08:35.260
+u obrazovnom okruženju, u kancelarijskom okruženju.
+
+00:08:35.260 --> 00:08:38.260
+Samo zamislite, u učionici nastavnik piče na tabli
+
+00:08:38.260 --> 00:08:41.260
+a slepi student može da vidi šta je napisano i čita
+
+00:08:41.260 --> 00:08:43.260
+pomoću ovih ne-vizuelnih interfejsa.
+
+00:08:43.260 --> 00:08:46.260
+To je neprocenjivo.
+
+00:08:46.260 --> 00:08:49.260
+Stvari koje sam vam pokazao danas, su samo početak.
+
+00:08:49.260 --> 00:08:51.260
+Hvala vam puno.
+
+00:08:51.260 --> 00:09:02.260
+(Aplauz)
+

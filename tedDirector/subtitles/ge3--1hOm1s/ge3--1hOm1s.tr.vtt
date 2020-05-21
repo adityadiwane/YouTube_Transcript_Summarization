@@ -1,0 +1,816 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Eren Gokce
+Gözden geçirme: Onur ŞAHİN
+
+00:00:13.280 --> 00:00:16.936
+Laboratuvarımda otonom 
+hava robotları geliştiriyoruz,
+
+00:00:16.960 --> 00:00:18.840
+burada uçarken gördüğünüz gibi.
+
+00:00:20.720 --> 00:00:24.416
+Bugün ticari olarak satılan
+mevcut dronların aksine,
+
+00:00:24.440 --> 00:00:27.080
+bu robotun üzerinde GPS 
+(Küresel konumlandırma sistemi) yok.
+
+00:00:28.160 --> 00:00:29.376
+GPS olmadan,
+
+00:00:29.400 --> 00:00:32.680
+bunun gibi robotların yönlerini 
+saptamaları zordur.
+
+00:00:34.240 --> 00:00:38.976
+Bu robot çevreyi taramak için 
+yerleşik sensörler, kameralar
+
+00:00:39.000 --> 00:00:40.696
+ve lazer tarayıcılar kullanır.
+
+00:00:40.720 --> 00:00:43.776
+Çevredeki özellikleri saptamak suretiyle,
+
+00:00:43.800 --> 00:00:46.536
+nirengi metodunu kullanarak 
+bu özelliklere göreli olarak
+
+00:00:46.560 --> 00:00:48.696
+nerede olduğunu saptar.
+
+00:00:48.720 --> 00:00:52.176
+Sonra bütün bu özellikleri bir 
+harita olarak bir araya getirir,
+
+00:00:52.200 --> 00:00:53.936
+arkamda görmüş olduğunuz gibi.
+
+00:00:53.960 --> 00:00:57.896
+Ardından bu harita robotun engellerin 
+nerede olduğunu anlamasını
+
+00:00:57.920 --> 00:01:00.640
+ve çarpmayacak şekilde gitmesini sağlar.
+
+00:01:01.160 --> 00:01:03.256
+Size bundan sonra göstermek istediğim şey,
+
+00:01:03.280 --> 00:01:06.496
+laboratuvarımızda 
+yaptığımız bir dizi deney,
+
+00:01:06.520 --> 00:01:10.000
+bunlarla bu robotun daha uzun mesafeler 
+boyunca gitmesini sağladık.
+
+00:01:10.400 --> 00:01:15.416
+Burada sağ üstte robotun kamerayla 
+ne gördüğüne bakabilirsiniz.
+
+00:01:15.440 --> 00:01:16.656
+Ana ekranda ise --
+
+00:01:16.680 --> 00:01:19.136
+ve elbette bu dört katına 
+hızlandırılmış hâli --
+
+00:01:19.160 --> 00:01:21.827
+ana ekranda oluşturduğu 
+haritayı göreceksiniz.
+
+00:01:21.851 --> 00:01:26.136
+Bu laboratuvarımızın çevresindeki 
+koridorun yüksek çözünürlüklü haritası.
+
+00:01:26.160 --> 00:01:28.586
+Bir dakika içinde laboratuvarımıza 
+girdiğini göreceksiniz,
+
+00:01:28.586 --> 00:01:31.376
+ki göreceğiniz karışıklıktan 
+bu anlaşılıyor.
+
+00:01:31.400 --> 00:01:32.416
+(Gülüşmeler)
+
+00:01:32.440 --> 00:01:34.507
+Ancak size aktarmak 
+istediğim ana nokta şu ki,
+
+00:01:34.507 --> 00:01:38.056
+bu robotlar beş santimetre çözünürlükle
+yüksek çözünürlüklü haritalar
+
+00:01:38.080 --> 00:01:40.576
+yapma yeteneğine sahipler,
+
+00:01:40.600 --> 00:01:44.776
+bu durum da laboratuvar dışındaki 
+veya bina dışındaki birinin
+
+00:01:44.800 --> 00:01:48.016
+aslında içeri girmeden ve binanın 
+içinde olanları anlamaya
+
+00:01:48.040 --> 00:01:51.800
+çalışmadan bunları 
+görevlendirmesini sağlıyor.
+
+00:01:52.400 --> 00:01:54.640
+Ancak bunun gibi robotlarla 
+ilgili bir sorun var.
+
+00:01:55.600 --> 00:01:57.800
+İlk sorun, oldukça büyükler.
+
+00:01:58.120 --> 00:01:59.800
+Büyük oldukları için ağırlar.
+
+00:02:00.640 --> 00:02:03.680
+Bu robotlar libre (453,6 gr) 
+başına 100 vat harcıyorlar.
+
+00:02:04.360 --> 00:02:06.660
+Bu da çok kısa bir uçuş süresi 
+anlamına geliyor.
+
+00:02:08.000 --> 00:02:09.456
+İkinci sorun,
+
+00:02:09.480 --> 00:02:13.376
+bu robotların üzerinde çok pahalıya 
+mal olan sensörler var --
+
+00:02:13.400 --> 00:02:16.840
+bir lazer tarayıcı, 
+bir kamera ve işlemciler.
+
+00:02:17.280 --> 00:02:20.320
+Bunlar da bu robotun fiyatını yükseltiyor.
+
+00:02:21.440 --> 00:02:24.096
+O yüzden kendimize bir soru sorduk:
+
+00:02:24.120 --> 00:02:27.896
+Bir elektronik mağazasından 
+ucuz, hafif olup üzerinde
+
+00:02:27.920 --> 00:02:34.200
+algılayıcı ve ölçümleyici olan 
+hangi tüketici ürününü alabilirsiniz?
+
+00:02:36.080 --> 00:02:38.736
+Biz de uçan telefonu icat ettk.
+
+00:02:38.760 --> 00:02:40.696
+(Gülüşmeler)
+
+00:02:40.720 --> 00:02:46.896
+Bu robot, mağazadan alabileceğiniz 
+Samsung Galaxy akıllı telefonu kullanıyor
+
+00:02:46.920 --> 00:02:50.936
+ve tek ihtiyacınız olan şey uygulama 
+mağazamızdan indirilebilen bir uygulama.
+
+00:02:50.960 --> 00:02:55.176
+Bu robotun bu durumda "TED" harflerini 
+okuduğunu görüyorsunuz,
+
+00:02:55.200 --> 00:02:58.136
+"T" ve "E"nin köşelerine bakıp 
+ondan üçgenleme yaparak
+
+00:02:58.160 --> 00:03:01.640
+otonom olarak uçuyor.
+
+00:03:02.720 --> 00:03:05.976
+Kumanda kolu orada, çünkü
+robot çılgın şeyler yaparsa,
+
+00:03:06.000 --> 00:03:07.416
+Giuseppe işini bitirebilir.
+
+00:03:07.440 --> 00:03:09.080
+(Gülüşmeler)
+
+00:03:10.920 --> 00:03:14.736
+Bu küçük robotları geliştirme yanında,
+
+00:03:14.760 --> 00:03:19.560
+burada gördüğünüz gibi agresif 
+davranışlarla ilgili de deneyler yaptık.
+
+00:03:19.920 --> 00:03:25.216
+İşte bu robot saniyede iki ila 
+üç metre hızla seyahat ediyor,
+
+00:03:25.240 --> 00:03:28.736
+yön değiştirdikçe agresifçe 
+savrulup dönüyor.
+
+00:03:28.760 --> 00:03:33.016
+Ana nokta, daha hızlı giden 
+ve bu yapılandırılmamış
+
+00:03:33.040 --> 00:03:36.000
+çevrelerde yol alan daha küçük 
+robotlarımızın olabileceği.
+
+00:03:37.120 --> 00:03:39.176
+Bir sonraki videoda gördüğünüz gibi,
+
+00:03:39.200 --> 00:03:45.096
+aynı bu kuşun, kartalın zerafetle 
+sudan avını kapmak için
+
+00:03:45.120 --> 00:03:49.416
+kanatlarını, gözlerini ve ayaklarını 
+koordine etmesi gibi,
+
+00:03:49.440 --> 00:03:51.336
+robotumuz da balığa gidebilir.
+
+00:03:51.360 --> 00:03:52.856
+(Gülüşmeler)
+
+00:03:52.880 --> 00:03:56.936
+Burada birdenbire
+bir bonfile sandviçi kapıyor.
+
+00:03:56.960 --> 00:03:59.360
+(Gülüşmeler)
+
+00:03:59.680 --> 00:04:02.976
+Bu robotun saniyede yaklaşık üç metre 
+hızla gittiğini görüyorsunuz,
+
+00:04:03.000 --> 00:04:08.136
+ki bu yürüyüş hızından fazla; 
+kollarını, pençelerini ve uçuşunu
+
+00:04:08.160 --> 00:04:12.280
+yarım saniye zamanlamayla bu 
+manevraya ulaşmak için koordine ediyor.
+
+00:04:14.120 --> 00:04:15.336
+Başka bir deneyde,
+
+00:04:15.360 --> 00:04:19.016
+uzunluğu esasen bu pencerenin 
+genişliğinden büyük olan
+
+00:04:19.040 --> 00:04:21.416
+askıdaki yükünü kontrol etmek için
+
+00:04:21.440 --> 00:04:25.240
+uçuşunu nasıl ayarladığını 
+size göstermek istiyorum.
+
+00:04:25.680 --> 00:04:27.376
+Bunu başarmak için
+
+00:04:27.400 --> 00:04:31.096
+aslında irtifayı düşürüp ayarlaması
+
+00:04:31.120 --> 00:04:33.440
+ve yükü içeriye doğru sallaması gerekiyor.
+
+00:04:38.920 --> 00:04:41.246
+Ama elbette ki bunları 
+daha da küçük yapmak istiyoruz
+
+00:04:41.246 --> 00:04:44.256
+ve özellikle bal arılarından esinlendik.
+
+00:04:44.280 --> 00:04:47.536
+Eğer bal arılarına bakarsanız
+ve bu yavaşlatılmış bir video,
+
+00:04:47.560 --> 00:04:51.280
+çok küçükler, 
+ataleti öylesine önemsiz ki --
+
+00:04:51.960 --> 00:04:53.136
+(Gülüşmeler)
+
+00:04:53.160 --> 00:04:56.696
+umursamıyorlar -- 
+elimden sekiyorlar, örnek olarak.
+
+00:04:56.720 --> 00:04:59.880
+Bu bal arısı davranışını
+taklit eden küçük bir robot.
+
+00:05:00.600 --> 00:05:01.816
+Küçüldükçe daha iyi,
+
+00:05:01.840 --> 00:05:05.376
+çünkü boyutunun küçüklüğüyle beraber 
+daha az atalet elde ediyorsunuz.
+
+00:05:05.400 --> 00:05:06.936
+Düşük ataletle --
+
+00:05:06.960 --> 00:05:09.816
+(Robot vızıldıyor, gülüşmeler)
+
+00:05:09.840 --> 00:05:12.656
+düşük ataletle, 
+çarpışmalara dirençlisiniz.
+
+00:05:12.680 --> 00:05:14.400
+Bu da sizi daha güçlü yapıyor.
+
+00:05:15.800 --> 00:05:18.456
+Yani aynı bal arıları gibi
+küçük robotlar yapıyoruz.
+
+00:05:18.480 --> 00:05:21.856
+Bu ise sadece 25 gram ağırlığında.
+
+00:05:21.880 --> 00:05:24.040
+Yalnızca altı vat güç harcıyor.
+
+00:05:24.440 --> 00:05:26.976
+Saniyede altı metreye 
+kadar yol alabiliyor.
+
+00:05:27.000 --> 00:05:29.336
+Eğer büyüklüğüne göre normalize edersem,
+
+00:05:29.360 --> 00:05:33.000
+bu Boeing 787'nin ses hızının 
+on katında yol alması gibi.
+
+00:05:36.000 --> 00:05:38.096
+(Gülüşmeler)
+
+00:05:38.120 --> 00:05:40.040
+Size bir örnek göstermek istiyorum.
+
+00:05:40.840 --> 00:05:46.096
+Bu muhtemelen ilk planlanan havada 
+çarpışma, normal hızın yirmide biri.
+
+00:05:46.120 --> 00:05:48.978
+Bunlar saniyede iki metre 
+relatif hızla gidiyor
+
+00:05:49.002 --> 00:05:51.482
+ve bu temel prensibi gösteriyor.
+
+00:05:52.200 --> 00:05:57.176
+Etrafındaki iki gramlık karbon fiber kafes
+pervanelerin dolaşmasını engelliyor;
+
+00:05:57.200 --> 00:06:02.496
+ancak aslında çarpışma absorbe ediliyor 
+ve robot çarpışmaya cevap veriyor.
+
+00:06:02.520 --> 00:06:05.120
+Bu kadar küçük olması güvenli 
+olması anlamına da geliyor.
+
+00:06:05.400 --> 00:06:07.456
+Laboratuvarımda bu 
+robotları geliştirirken,
+
+00:06:07.456 --> 00:06:09.060
+büyük robotlarla başlıyoruz
+
+00:06:09.084 --> 00:06:11.896
+ve sonra bu küçük robotlara 
+kadar geliyoruz.
+
+00:06:11.920 --> 00:06:15.376
+Geçmişte sipariş ettiğimiz 
+bantların sayısına dair bir
+
+00:06:15.400 --> 00:06:17.976
+histogram çizerseniz, artık biraz azaldı.
+
+00:06:18.000 --> 00:06:19.960
+Çünkü bu robotlar gerçekten güvenli.
+
+00:06:20.760 --> 00:06:23.216
+Küçük boyutun bazı dezavantajları var
+
+00:06:23.240 --> 00:06:27.320
+ve bu dezavantajları telafi etmek için 
+doğa bir sürü yol bulmuş.
+
+00:06:27.960 --> 00:06:31.960
+Ana fikir, büyük grupları veya sürüleri 
+oluşturmak için bir araya gelmeleri.
+
+00:06:32.320 --> 00:06:36.296
+Benzer şekilde biz de laboratuvarımızda 
+yapay robot sürüleri yaratmaya çalışıyoruz.
+
+00:06:36.320 --> 00:06:37.701
+Bu oldukça zor,
+
+00:06:37.725 --> 00:06:41.045
+çünkü artık robot ağlarını 
+düşünmek zorundasınız.
+
+00:06:41.360 --> 00:06:42.656
+Her robot için de
+
+00:06:42.680 --> 00:06:48.296
+algılama, iletişim, hesaplama 
+etkileşimini düşünmek zorundasınız --
+
+00:06:48.320 --> 00:06:53.280
+sonrasında bu ağı kontrol etmek ve 
+yönetmek oldukça zor hâle geliyor.
+
+00:06:54.160 --> 00:06:57.456
+Bundan dolayı, doğadan aslında
+algoritmalarımızı geliştirmemizi
+
+00:06:57.480 --> 00:07:00.640
+sağlayacak üç düzenleyici 
+prensip alıyoruz.
+
+00:07:01.640 --> 00:07:06.176
+İlk fikir, robotların komşularının 
+farkında olmak zorunda olması.
+
+00:07:06.200 --> 00:07:09.640
+Komşularını algılamak ve 
+iletişim kurmak durumundalar.
+
+00:07:10.040 --> 00:07:12.696
+Bu video, temel fikri açıklıyor.
+
+00:07:12.720 --> 00:07:14.016
+Dört robotunuz var --
+
+00:07:14.040 --> 00:07:18.280
+robotlardan biri insan operatör tarafından
+tam anlamıyla gasp edilmiş durumda.
+
+00:07:19.217 --> 00:07:21.456
+Ancak robotlar birbirleriyle 
+etkileştiği için,
+
+00:07:21.480 --> 00:07:23.136
+yanındakileri algılayarak
+
+00:07:23.160 --> 00:07:24.456
+esasen takip ediyorlar.
+
+00:07:24.480 --> 00:07:29.840
+İşte burada takipçi ağını
+yönlendiren tek bir kişi var.
+
+00:07:32.000 --> 00:07:37.056
+Aslında bunun nedeni robotların 
+nereye gideceklerini bilmeleri değil,
+
+00:07:37.080 --> 00:07:41.400
+yanındakilere tepki vermelerinden 
+dolayı böyle oluyor.
+
+00:07:43.720 --> 00:07:47.840
+(Gülüşmeler)
+
+00:07:48.280 --> 00:07:53.520
+Bir sonraki deney, ikinci düzenleyici 
+prensibi göstermektedir.
+
+00:07:54.920 --> 00:07:58.720
+Bu prensip anonimlik prensibiyle ilgili.
+
+00:07:59.400 --> 00:08:03.696
+Burada ana fikir,
+
+00:08:03.720 --> 00:08:07.960
+robotların yakınındakilerin 
+kimliklerini bilmemesi.
+
+00:08:08.440 --> 00:08:11.056
+Dairesel bir şekil oluşturmaları istendi
+
+00:08:11.080 --> 00:08:14.376
+ve grubun içine kaç tane 
+robot katarsanız katın
+
+00:08:14.400 --> 00:08:16.976
+ya da kaç robot çıkarırsanız çıkarın,
+
+00:08:17.000 --> 00:08:20.136
+her robot sadece 
+yanındakine tepki veriyor.
+
+00:08:20.160 --> 00:08:25.136
+Dairesel bir şekil oluşturması 
+gerektiğinin farkında;
+
+00:08:25.160 --> 00:08:26.936
+ancak yanındakilerle işbirliği yaparak
+
+00:08:26.960 --> 00:08:30.680
+merkezî bir eşgüdüm 
+olmadan şekli oluşturuyor.
+
+00:08:31.520 --> 00:08:33.936
+Bu fikirleri bir araya koyunca
+
+00:08:33.960 --> 00:08:37.856
+üçüncü fikir, robotlara esasen
+oluşturmaları gereken şeklin
+
+00:08:37.880 --> 00:08:42.176
+matematiksel tanımlarını vermek.
+
+00:08:42.200 --> 00:08:45.696
+Bu şekiller zamanın fonksiyonu 
+olarak çeşitlilik gösterebilir
+
+00:08:45.720 --> 00:08:50.216
+ve bu robotların dairesel bir biçimle 
+başladığını, dikdörtgen biçime
+
+00:08:50.240 --> 00:08:53.496
+dönüştüğünü, düz bir çizgi olarak 
+uzadığını, tekrar elips hâline
+
+00:08:53.520 --> 00:08:54.895
+geldiğini göreceksiniz.
+
+00:08:54.919 --> 00:08:58.536
+Bunu doğal sürülerde, 
+doğada gördüğünüz türden
+
+00:08:58.560 --> 00:09:01.840
+yarım saniyelik eşgüdümle yapıyorlar.
+
+00:09:03.080 --> 00:09:05.216
+Peki neden sürülerle çalışılıyor?
+
+00:09:05.240 --> 00:09:09.360
+Size çok ilgimizi çeken 
+iki uygulamadan bahsedeyim.
+
+00:09:10.160 --> 00:09:12.536
+İlki tarımla ilgili,
+
+00:09:12.560 --> 00:09:15.920
+ki bu muhtemelen dünyada 
+karşılaştığımız en önemli sorun.
+
+00:09:16.760 --> 00:09:18.016
+Bildiğiniz gibi,
+
+00:09:18.040 --> 00:09:21.560
+dünyada her yedi kişiden 
+biri yetersiz besleniyor.
+
+00:09:21.920 --> 00:09:25.400
+Ekilebilecek toprakların 
+çoğu zaten ekili.
+
+00:09:25.960 --> 00:09:29.176
+Dünyadaki sistemlerin 
+çoğunun verimi artıyor,
+
+00:09:29.200 --> 00:09:32.720
+ancak üretim sistemlerinin 
+verimi aslında giderek düşüyor.
+
+00:09:33.080 --> 00:09:37.296
+Bunun en büyük nedenleri, su kıtlığı, 
+ekinlerdeki hastalıklar, iklim değişimi
+
+00:09:37.320 --> 00:09:38.840
+ve başka birkaç şey daha.
+
+00:09:39.360 --> 00:09:40.940
+O zaman robotlar ne yapabilirler?
+
+00:09:41.200 --> 00:09:45.816
+Toplumda Hassas Tarım olarak adlandırılan 
+bir yaklaşımı benimsiyoruz.
+
+00:09:45.840 --> 00:09:51.216
+Ana fikir şu; hava robotlarını 
+bahçelerde uçurup
+
+00:09:51.240 --> 00:09:54.360
+sonra bitkilerin tek tek 
+hassas modellerini geliştiriyoruz.
+
+00:09:54.829 --> 00:09:56.496
+Her hastaya özel tedavi 
+
+00:09:56.520 --> 00:10:01.336
+uygulanmasının istendiği, 
+kişiselleştirilen ilaçlarla olduğu gibi,
+
+00:10:01.360 --> 00:10:05.056
+bizim yapmak istediğimiz şey de tek tek 
+bitkilerin modellerini geliştirmek
+
+00:10:05.080 --> 00:10:09.216
+ve sonra çiftçiye her bitkinin ne tür 
+bir girdiye ihtiyacı olduğunu söylemek --
+
+00:10:09.240 --> 00:10:13.680
+bu durumda girdiler, su, gübre 
+ve tarım ilaçlarıdır.
+
+00:10:14.640 --> 00:10:18.256
+Burada elma bahçesinde 
+dolaşan robotları görüyorsunuz
+
+00:10:18.280 --> 00:10:20.536
+ve bir dakika içinde 
+sol tarafta aynı şeyi
+
+00:10:20.560 --> 00:10:22.370
+yapan iki üyeyi daha göreceksiniz.
+
+00:10:22.800 --> 00:10:26.456
+Aslında yaptıkları şey 
+bahçenin bir haritasını çizmek.
+
+00:10:26.480 --> 00:10:29.296
+Harita içinde, bu bahçedeki 
+her bitkinin bir haritası var.
+
+00:10:29.320 --> 00:10:30.976
+(Robot vızıldıyor)
+
+00:10:31.000 --> 00:10:32.926
+Bu haritaların neye benzediğini görelim.
+
+00:10:32.926 --> 00:10:37.216
+Bir sonraki videoda, bu robotta 
+kullanılan kameraları göreceksiniz.
+
+00:10:37.240 --> 00:10:40.480
+Sol üstte esasen standart 
+renkli bir kamera var.
+
+00:10:41.640 --> 00:10:44.936
+Solda ortada kızılötesi 
+bir kamera var.
+
+00:10:44.960 --> 00:10:48.736
+Sol altta ise termal bir kamera var.
+
+00:10:48.760 --> 00:10:52.176
+Ana panelde, sensörler ağaçların yanından 
+geçtikçe bahçedeki her ağacın
+
+00:10:52.176 --> 00:10:58.240
+yeniden üç boyutlu olarak 
+oluşturulmasını görüyorsunuz.
+
+00:10:59.640 --> 00:11:03.680
+Böyle bir bilgiyle donanınca 
+birçok şey yapabiliriz.
+
+00:11:04.200 --> 00:11:08.456
+Yapabileceğimiz ilk ve muhtemelen 
+en önemli şey çok basit:
+
+00:11:08.480 --> 00:11:10.920
+Her ağaçtaki meyve adetini saymak.
+
+00:11:11.520 --> 00:11:16.056
+Böyle yaparak çiftçiye her ağaçtaki 
+meyve sayısını söylersiniz
+
+00:11:16.080 --> 00:11:20.336
+ve bahçedeki hâsılatı 
+tahmin etmesini sağlarsınız,
+
+00:11:20.360 --> 00:11:23.200
+bununla üretim zinciri boyunca 
+optimizasyon sağlarsınız.
+
+00:11:23.640 --> 00:11:25.256
+Yapabileceğimiz ikinci şey,
+
+00:11:25.280 --> 00:11:29.776
+bitkilerin modellerini almak, 
+üç boyutlu olarak yeniden oluşturmak
+
+00:11:29.800 --> 00:11:32.336
+ve böylece bitki örtüsünün 
+büyüklüğünü tahmin etmek,
+
+00:11:32.360 --> 00:11:36.136
+sonra örtünün büyüklüğünü her bitkideki 
+yaprak alanın miktarı ile ilintilemek.
+
+00:11:36.160 --> 00:11:38.336
+Buna yaprak alan indeksi denir.
+
+00:11:38.360 --> 00:11:40.326
+Eğer yaprak alanı indeksini biliyorsanız,
+
+00:11:40.326 --> 00:11:45.776
+aslında her bitkide ne kadar fotosentez 
+mümkün olduğuna dair ölçünüz olur,
+
+00:11:45.800 --> 00:11:48.680
+bu da size her bitkinin ne kadar 
+sağlıklı olduğunu söyler.
+
+00:11:49.520 --> 00:11:53.736
+Görsel ve kızılötesi 
+bilgiyi birleştirerek,
+
+00:11:53.760 --> 00:11:57.126
+NDVI (normalize edilmiş fark bitki örtüsü 
+indeksi) gibi indisleri de hesaplayabiliriz.
+
+00:11:57.126 --> 00:11:59.896
+Buradaki durumda, aslında 
+bazı ürünlerin diğer ürünler
+
+00:11:59.920 --> 00:12:02.936
+kadar iyi durumda olmadığını görüyorsunuz.
+
+00:12:02.960 --> 00:12:07.016
+Bu durum, görüntüde rahatlıkla 
+ayırt edilebiliyor;
+
+00:12:07.040 --> 00:12:09.256
+sadece görsel imgeyle değil,
+
+00:12:09.280 --> 00:12:12.056
+görsel imgeyi, kızılötesi 
+imgeyle birleştirerek.
+
+00:12:12.080 --> 00:12:13.416
+Son olarak,
+
+00:12:13.440 --> 00:12:17.456
+yapmak istediğimiz bir şey de kloroz 
+başlangıcını erkenden tespit etmek --
+
+00:12:17.480 --> 00:12:18.976
+ve bu bir portakal ağacı --
+
+00:12:19.000 --> 00:12:21.560
+bu aslında yaprakların 
+sararmasından anlaşılabilir.
+
+00:12:21.880 --> 00:12:25.776
+Ancak tepede uçan robotlar bunu 
+kolaylıkla kendileri fark edebilir
+
+00:12:25.800 --> 00:12:28.736
+ve sonra çiftçiye bahçenin 
+bu kısmında bir sorun
+
+00:12:28.760 --> 00:12:30.280
+olduğunu raporlayabilirler.
+
+00:12:30.800 --> 00:12:33.496
+Bunun gibi sistemler 
+gerçekten yardımcı olabilir
+
+00:12:33.520 --> 00:12:39.336
+ve hava robotu sürüleri kullanarak 
+hâsılatın yaklaşık yüzde 10 artabileceğini
+
+00:12:39.360 --> 00:12:42.576
+ve daha da önemlisi su 
+gibi girdilerin miktarının
+
+00:12:42.600 --> 00:12:45.880
+yüzde 25 oranında 
+azalabileceğini öngörüyoruz.
+
+00:12:47.200 --> 00:12:52.936
+Son olarak, aslında geleceği yaratan 
+insanları alkışlamanızı istiyorum,
+
+00:12:52.960 --> 00:12:57.880
+Yash Mulgaonkar, Sikang Liu
+ve Giuseppe Loianno,
+
+00:12:57.920 --> 00:13:01.416
+kendileri gördüğünüz 
+üç demodan sorumlular.
+
+00:13:01.440 --> 00:13:02.616
+Teşekkürler.
+
+00:13:02.640 --> 00:13:08.560
+(Alkış)
+

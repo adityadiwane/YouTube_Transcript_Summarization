@@ -1,0 +1,848 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Soraia Martins
+Revisora: Miguel Cabral de Pinho
+
+00:00:15.260 --> 00:00:17.260
+Hoje vou falar-vos
+
+00:00:17.260 --> 00:00:20.260
+sobre o design da tecnologia médica para sistemas de recursos limitados.
+
+00:00:20.260 --> 00:00:22.260
+Eu estudo os sistemas de saúde nestes países.
+
+00:00:22.260 --> 00:00:24.260
+E uma das maiores falhas em termos de cuidados médicos,
+
+00:00:24.260 --> 00:00:26.260
+de forma geral,
+
+00:00:26.260 --> 00:00:28.260
+é o acesso a cirurgias seguras.
+
+00:00:28.260 --> 00:00:31.260
+Um dos maiores obstáculos que encontrámos
+
+00:00:31.260 --> 00:00:34.260
+e que tem vindo a impedir o acesso, em primeiro lugar,
+
+00:00:34.260 --> 00:00:36.260
+e a segurança das cirurgias que, de facto, acontecem
+
+00:00:36.260 --> 00:00:38.260
+é a anestesia.
+
+00:00:38.260 --> 00:00:40.260
+E, na verdade, é o modelo que esperamos que funcione
+
+00:00:40.260 --> 00:00:42.260
+para fornecer anestesia
+
+00:00:42.260 --> 00:00:44.260
+nestes meios.
+
+00:00:44.260 --> 00:00:46.260
+Esta é uma cena que pode ser vista
+
+00:00:46.260 --> 00:00:49.260
+em qualquer sala de operações nos EUA ou em qualquer outro país desenvolvido.
+
+00:00:49.260 --> 00:00:51.260
+Ali ao fundo
+
+00:00:51.260 --> 00:00:53.260
+está uma máquina de anestesia muito sofisticada.
+
+00:00:53.260 --> 00:00:55.260
+E esta máquina tem a capacidade
+
+00:00:55.260 --> 00:00:57.260
+de permitir cirurgias e de salvar vidas
+
+00:00:57.260 --> 00:00:59.260
+porque foi concebida
+
+00:00:59.260 --> 00:01:01.260
+de modo a ter em conta este tipo de ambientes.
+
+00:01:01.260 --> 00:01:04.260
+Para que funcione correctamente, esta máquina necessita de um certo número de coisas
+
+00:01:04.260 --> 00:01:06.260
+que este hospital tem para oferecer.
+
+00:01:06.260 --> 00:01:09.260
+Necessita de um anestesista extremamente bem treinado
+
+00:01:09.260 --> 00:01:11.260
+com anos de experiência em máquinas complexas
+
+00:01:11.260 --> 00:01:14.260
+para ajudá-la a monitorizar os fluxos de gás
+
+00:01:14.260 --> 00:01:16.260
+e a manter os seus doentes em segurança e anestesiados
+
+00:01:16.260 --> 00:01:18.260
+durante a cirurgia.
+
+00:01:18.260 --> 00:01:21.260
+É uma máquina delicada que funciona através de algoritmos
+
+00:01:21.260 --> 00:01:24.260
+e que exige um cuidado especial para se manter em boas condições,
+
+00:01:24.260 --> 00:01:26.260
+avariando muito facilmente.
+
+00:01:26.260 --> 00:01:29.260
+E, quando isso acontece, precisa de uma equipa de engenheiros biomédicos
+
+00:01:29.260 --> 00:01:31.260
+que compreenda as suas complexidades,
+
+00:01:31.260 --> 00:01:33.260
+que a consiga reparar, encontrar as peças
+
+00:01:33.260 --> 00:01:35.260
+e a mantenha a salvar vidas.
+
+00:01:35.260 --> 00:01:37.260
+É uma máquina bastante cara.
+
+00:01:37.260 --> 00:01:39.260
+Necessita de um hospital
+
+00:01:39.260 --> 00:01:41.260
+cujo orçamento permita suportar uma máquina
+
+00:01:41.260 --> 00:01:44.260
+que custa para cima de 50 ou 100 mil dólares.
+
+00:01:44.260 --> 00:01:46.260
+E talvez o mais evidente,
+
+00:01:46.260 --> 00:01:48.260
+e talvez o mais importante --
+
+00:01:48.260 --> 00:01:50.260
+e o caminho para os conceitos de que ouvimos falar
+
+00:01:50.260 --> 00:01:52.260
+ilustram isto mesmo,
+
+00:01:52.260 --> 00:01:54.260
+é que necessita de uma infraestrutura
+
+00:01:54.260 --> 00:01:56.260
+que possua uma fonte ininterrupta
+
+00:01:56.260 --> 00:01:59.260
+de electricidade, de oxigénio comprimido
+
+00:01:59.260 --> 00:02:01.260
+e de outros materiais médicos
+
+00:02:01.260 --> 00:02:03.260
+essenciais para o funcionamento
+
+00:02:03.260 --> 00:02:05.260
+desta máquina.
+
+00:02:05.260 --> 00:02:08.260
+Por outras palavras, esta máquina precisa de muita coisa
+
+00:02:08.260 --> 00:02:10.260
+que este hospital não consegue providenciar.
+
+00:02:10.260 --> 00:02:12.260
+Este é o quadro de electricidade
+
+00:02:12.260 --> 00:02:14.260
+de um hospital na zona rural de Malawi.
+
+00:02:14.260 --> 00:02:16.260
+Neste hospital,
+
+00:02:16.260 --> 00:02:18.260
+existe uma pessoa qualificada para fornecer anestesia,
+
+00:02:18.260 --> 00:02:20.260
+e é qualificada
+
+00:02:20.260 --> 00:02:22.260
+porque tem 12, talvez 18 meses
+
+00:02:22.260 --> 00:02:24.260
+de treino com anestesia.
+
+00:02:24.260 --> 00:02:26.260
+No hospital e na região inteira
+
+00:02:26.260 --> 00:02:28.260
+não há um único engenheiro biomédico.
+
+00:02:28.260 --> 00:02:30.260
+Ou seja, quando a máquina avaria,
+
+00:02:30.260 --> 00:02:32.260
+e as máquinas com as quais têm de trabalhar avariam,
+
+00:02:32.260 --> 00:02:35.260
+resta-lhes tentar perceber como repará-las, mas, na maioria das vezes, não há nada a fazer.
+
+00:02:35.260 --> 00:02:38.260
+O destino destas máquinas é a sucata.
+
+00:02:38.260 --> 00:02:41.260
+E o preço da máquina que mencionei
+
+00:02:41.260 --> 00:02:43.260
+pode representar talvez um quarto ou um terço
+
+00:02:43.260 --> 00:02:45.260
+do orçamento anual
+
+00:02:45.260 --> 00:02:47.260
+deste hospital.
+
+00:02:47.260 --> 00:02:50.260
+E, por fim, creio que conseguem ver que a infraestrutura não é muito forte.
+
+00:02:50.260 --> 00:02:53.260
+Este hospital está ligado a uma rede energética muito fraca
+
+00:02:53.260 --> 00:02:55.260
+que vai abaixo frequentemente.
+
+00:02:55.260 --> 00:02:57.260
+E, muitas vezes, faz com que o hospital opere
+
+00:02:57.260 --> 00:02:59.260
+apenas com um gerador,
+
+00:02:59.260 --> 00:03:01.260
+E, podem imaginar, o gerador pode avariar
+
+00:03:01.260 --> 00:03:03.260
+ou ficar sem combustível.
+
+00:03:03.260 --> 00:03:05.260
+E o Banco Mundial vê isto
+
+00:03:05.260 --> 00:03:08.260
+e estima que um hospital neste cenário, num país de rendimentos reduzidos
+
+00:03:08.260 --> 00:03:11.260
+pode esperar até 18 apagões
+
+00:03:11.260 --> 00:03:13.260
+por mês.
+
+00:03:13.260 --> 00:03:15.260
+Da mesma forma, oxigénio comprimido e outros materiais
+
+00:03:15.260 --> 00:03:17.260
+são mesmo um luxo
+
+00:03:17.260 --> 00:03:19.260
+e podem, muitas vezes, ficar esgotados
+
+00:03:19.260 --> 00:03:21.260
+durante meses ou, até, um ano.
+
+00:03:21.260 --> 00:03:24.260
+Por isso, parece uma loucura, mas o modelo que temos agora
+
+00:03:24.260 --> 00:03:26.260
+está a pegar nestas máquinas
+
+00:03:26.260 --> 00:03:28.260
+que foram concebidas para o primeiro ambiente que vos mostrei
+
+00:03:28.260 --> 00:03:30.260
+e a doá-las ou a vendê-las
+
+00:03:30.260 --> 00:03:33.260
+a hospitais neste meio.
+
+00:03:33.260 --> 00:03:35.260
+Não é somente inapropriado,
+
+00:03:35.260 --> 00:03:38.260
+torna-se mesmo perigoso.
+
+00:03:38.260 --> 00:03:40.260
+Um dos nossos colegas no Johns Hopkins
+
+00:03:40.260 --> 00:03:43.260
+estava a observar cirurgias na Serra Leoa
+
+00:03:43.260 --> 00:03:45.260
+há cerca de um ano.
+
+00:03:45.260 --> 00:03:48.260
+E a primeira cirurgia do dia foi um caso de obstetrícia.
+
+00:03:48.260 --> 00:03:51.260
+Uma mulher entrou e precisava de uma cesariana de emergência
+
+00:03:51.260 --> 00:03:54.260
+para salvar a sua vida e a vida do seu bebé.
+
+00:03:54.260 --> 00:03:56.260
+E tudo começou de forma bastante promissora.
+
+00:03:56.260 --> 00:03:58.260
+O cirurgião estava de serviço e preparou-se para a cirurgia.
+
+00:03:58.260 --> 00:04:00.260
+A enfermeira estava presente.
+
+00:04:00.260 --> 00:04:02.260
+Conseguiu anestesiá-la rapidamente,
+
+00:04:02.260 --> 00:04:05.260
+o que era importante devido à natureza urgente da situação.
+
+00:04:05.260 --> 00:04:07.260
+E tudo começou bem
+
+00:04:07.260 --> 00:04:10.260
+até que a energia foi abaixo.
+
+00:04:10.260 --> 00:04:12.260
+E agora, a meio da cirurgia,
+
+00:04:12.260 --> 00:04:15.260
+o cirurgião luta contra o tempo para finalizar a operação,
+
+00:04:15.260 --> 00:04:17.260
+o que, de facto, consegue -- tem uma lâmpada frontal.
+
+00:04:17.260 --> 00:04:19.260
+Contudo, a enfermeira está literalmente
+
+00:04:19.260 --> 00:04:22.260
+a correr de um lado para outro na sala de operações às escuras
+
+00:04:22.260 --> 00:04:24.260
+a tentar encontrar qualquer coisa para anestesiar a doente,
+
+00:04:24.260 --> 00:04:26.260
+para a manter adormecida,
+
+00:04:26.260 --> 00:04:29.260
+pois a sua máquina não funciona quando não há energia eléctrica.
+
+00:04:30.260 --> 00:04:33.260
+E esta cirurgia de rotina, que muitos de vós provavelmente já experienciaram,
+
+00:04:33.260 --> 00:04:35.260
+e outros são provavelmente o produto de alguma,
+
+00:04:35.260 --> 00:04:38.260
+transformou-se numa tragédia.
+
+00:04:38.260 --> 00:04:41.260
+E o mais frustrante é que este não é um acontecimento pontual;
+
+00:04:41.260 --> 00:04:43.260
+isto acontece em todos os países em desenvolvimento.
+
+00:04:43.260 --> 00:04:46.260
+35 milhões de cirurgias são iniciadas todos os anos
+
+00:04:46.260 --> 00:04:48.260
+sem anestesia segura.
+
+00:04:48.260 --> 00:04:50.260
+O meu colega, o Dr. Paul Fenton,
+
+00:04:50.260 --> 00:04:52.260
+viveu nesta realidade.
+
+00:04:52.260 --> 00:04:54.260
+Foi chefe de anestesiologia
+
+00:04:54.260 --> 00:04:56.260
+num hospital do Malawi, um hospital universitário.
+
+00:04:56.260 --> 00:04:58.260
+Ia trabalhar todos os dias
+
+00:04:58.260 --> 00:05:00.260
+para um cenário como este,
+
+00:05:00.260 --> 00:05:03.260
+tentando administrar anestesia e ensinar outros a fazê-lo
+
+00:05:03.260 --> 00:05:05.260
+utilizando o mesmo equipamento
+
+00:05:05.260 --> 00:05:07.260
+que se tornou tão duvidoso e francamente inseguro
+
+00:05:07.260 --> 00:05:09.260
+no seu hospital.
+
+00:05:09.260 --> 00:05:11.260
+E após diversas cirurgias
+
+00:05:11.260 --> 00:05:14.260
+e, como podem imaginar, tragédias indescritíveis,
+
+00:05:14.260 --> 00:05:16.260
+disse apenas: "Pronto. Acabou. Já chega.
+
+00:05:16.260 --> 00:05:18.260
+Tem de haver algo melhor do que isto".
+
+00:05:18.260 --> 00:05:20.260
+Então foi até à sala
+
+00:05:20.260 --> 00:05:22.260
+onde estavam guardadas todas as máquinas que os deixaram na mão --
+
+00:05:22.260 --> 00:05:24.260
+creio que é este o termo científico --
+
+00:05:24.260 --> 00:05:26.260
+e começou simplesmente a mexer nelas.
+
+00:05:26.260 --> 00:05:28.260
+Pegou numa peça daqui e outra dali
+
+00:05:28.260 --> 00:05:30.260
+e tentou inventar uma máquina
+
+00:05:30.260 --> 00:05:33.260
+que fosse capaz de funcionar naquela realidade.
+
+00:05:33.260 --> 00:05:36.260
+E o que ele inventou foi isto,
+
+00:05:36.260 --> 00:05:39.260
+o protótipo da Máquina de Anestesia Universal --
+
+00:05:39.260 --> 00:05:41.260
+uma máquina que poderia funcionar
+
+00:05:41.260 --> 00:05:43.260
+e anestesiar os seus doentes
+
+00:05:43.260 --> 00:05:47.260
+independentemente das circunstâncias que o hospital tivesse para oferecer.
+
+00:05:47.260 --> 00:05:49.260
+Aqui está ela de volta
+
+00:05:49.260 --> 00:05:52.260
+ao mesmo hospital, mais desenvolvida, 12 anos mais tarde,
+
+00:05:52.260 --> 00:05:55.260
+a trabalhar com doentes da pediatria à geriatria.
+
+00:05:55.260 --> 00:05:58.260
+Agora deixem-me mostrar-vos um pouco como é que esta máquina funciona.
+
+00:05:58.260 --> 00:06:00.260
+Voilá!
+
+00:06:00.260 --> 00:06:02.260
+Aqui está ela.
+
+00:06:02.260 --> 00:06:04.260
+Quando tem electricidade,
+
+00:06:04.260 --> 00:06:06.260
+tudo nesta máquina começa na base:
+
+00:06:06.260 --> 00:06:09.260
+há um concentrador de oxigénio embutido ali em baixo.
+
+00:06:09.260 --> 00:06:12.260
+Já me ouviram mencionar oxigénio várias vezes.
+
+00:06:12.260 --> 00:06:14.260
+Essencialmente, para administrar anestesia,
+
+00:06:14.260 --> 00:06:16.260
+quer-se obter a maior quantidade de oxigénio puro possível,
+
+00:06:16.260 --> 00:06:18.260
+pois vai acabar-se por diluí-lo essencialmente
+
+00:06:18.260 --> 00:06:20.260
+com o gás.
+
+00:06:20.260 --> 00:06:22.260
+E a mistura que o doente inala
+
+00:06:22.260 --> 00:06:24.260
+necessita de ter, pelo menos, uma determinada percentagem de oxigénio,
+
+00:06:24.260 --> 00:06:26.260
+ou pode tornar-se perigoso.
+
+00:06:26.260 --> 00:06:28.260
+Portanto, quando há electricidade,
+
+00:06:28.260 --> 00:06:31.260
+o concentrador de oxigénio capta o ar da sala.
+
+00:06:31.260 --> 00:06:34.260
+Sabemos que o ar da sala é completamente grátis,
+
+00:06:34.260 --> 00:06:36.260
+abundante,
+
+00:06:36.260 --> 00:06:38.260
+e já contém 21% de oxigénio.
+
+00:06:38.260 --> 00:06:41.260
+Por isso, o que este concentrador faz é captar o ar da sala, filtrá-lo
+
+00:06:41.260 --> 00:06:43.260
+e enviar 95% de oxigénio puro
+
+00:06:43.260 --> 00:06:45.260
+aqui para cima
+
+00:06:45.260 --> 00:06:48.260
+onde se mistura com o agente anestésico.
+
+00:06:48.260 --> 00:06:50.260
+Antes da mistura
+
+00:06:50.260 --> 00:06:52.260
+chegar aos pulmões do doente,
+
+00:06:52.260 --> 00:06:54.260
+irá passar por aqui --
+
+00:06:54.260 --> 00:06:56.260
+não conseguem ver, mas há um sensor de oxigénio aqui --
+
+00:06:56.260 --> 00:06:58.260
+que vai acusar neste ecrã
+
+00:06:58.260 --> 00:07:01.260
+a percentagem de oxigénio a ser administrado.
+
+00:07:01.260 --> 00:07:03.260
+Agora, se não tiver electricidade,
+
+00:07:03.260 --> 00:07:06.260
+ou, Deus queira que não, a electricidade for cortada a meio de uma cirurgia,
+
+00:07:06.260 --> 00:07:08.260
+esta máquina passa automaticamente,
+
+00:07:08.260 --> 00:07:10.260
+sem ser preciso tocar-lhe sequer,
+
+00:07:10.260 --> 00:07:13.260
+a extrair o ar da sala por esta entrada.
+
+00:07:13.260 --> 00:07:15.260
+Tudo o resto é igual.
+
+00:07:15.260 --> 00:07:17.260
+A única diferença é que agora
+
+00:07:17.260 --> 00:07:20.260
+está-se a trabalhar apenas com 21% de oxigénio.
+
+00:07:20.260 --> 00:07:23.260
+Esta situação costumava ser um perigoso jogo de suposições,
+
+00:07:23.260 --> 00:07:26.260
+pois só se conseguiria perceber que tinha sido aplicado pouco oxigénio quando algo mau acontecia,
+
+00:07:26.260 --> 00:07:29.260
+mas colocámos uma bateria de reserva aqui.
+
+00:07:29.260 --> 00:07:31.260
+Esta é a única peça que tem uma bateria de reserva.
+
+00:07:31.260 --> 00:07:33.260
+mas isto dá controlo ao fornecedor,
+
+00:07:33.260 --> 00:07:35.260
+haja electricidade ou não,
+
+00:07:35.260 --> 00:07:37.260
+porque podem ajustar o fluxo
+
+00:07:37.260 --> 00:07:40.260
+baseando-se na percentagem de oxigénio que estão a dar ao doente.
+
+00:07:40.260 --> 00:07:42.260
+Em ambos os casos,
+
+00:07:42.260 --> 00:07:44.260
+caso se tenha electricidade ou não,
+
+00:07:44.260 --> 00:07:46.260
+por vezes, o paciente necessita de ajuda a respirar.
+
+00:07:46.260 --> 00:07:49.260
+É uma realidade da anestesia. Os pulmões podem estar paralisados.
+
+00:07:49.260 --> 00:07:51.260
+Portanto, acrescentámos apenas este fole manual.
+
+00:07:51.260 --> 00:07:54.260
+Já vimos cirurgias de três ou quatro horas
+
+00:07:54.260 --> 00:07:57.260
+em que o doente é ventilado desta forma.
+
+00:07:57.260 --> 00:08:00.260
+Trata-se de uma máquina fácil de compreender.
+
+00:08:00.260 --> 00:08:02.260
+Até estremeço se disser simples;
+
+00:08:02.260 --> 00:08:04.260
+é fácil de compreender.
+
+00:08:04.260 --> 00:08:06.260
+E foi concebida exactamente dessa forma.
+
+00:08:06.260 --> 00:08:08.260
+E não é preciso ser
+
+00:08:08.260 --> 00:08:11.260
+um anestesista especializado e muito bem treinado para utilizar esta máquina,
+
+00:08:11.260 --> 00:08:14.260
+o que é bom, pois nestes hospitais rurais
+
+00:08:14.260 --> 00:08:17.260
+não se encontra esse nível de treino.
+
+00:08:17.260 --> 00:08:20.260
+Também foi concebida para o ambiente em que será utilizada.
+
+00:08:20.260 --> 00:08:22.260
+Esta é uma máquina incrivelmente resistente.
+
+00:08:22.260 --> 00:08:24.260
+Tem de aguentar
+
+00:08:24.260 --> 00:08:26.260
+o calor e o desgaste que acontecem
+
+00:08:26.260 --> 00:08:29.260
+nos hospitais destas regiões rurais.
+
+00:08:29.260 --> 00:08:31.260
+E, portanto, não se vai avariar tão facilmente,
+
+00:08:31.260 --> 00:08:34.260
+mas se isso acontecer, todas as peças desta máquina
+
+00:08:34.260 --> 00:08:37.260
+podem ser trocadas e substituídas
+
+00:08:37.260 --> 00:08:40.260
+com uma chave inglesa e uma chave de fendas.
+
+00:08:40.260 --> 00:08:42.260
+E finalmente, tem um preço acessível.
+
+00:08:42.260 --> 00:08:44.260
+Esta máquina custa
+
+00:08:44.260 --> 00:08:46.260
+um oitavo
+
+00:08:46.260 --> 00:08:49.260
+da máquina convencional que mostrei anteriormente.
+
+00:08:49.260 --> 00:08:52.260
+Por outras palavras, o que temos aqui
+
+00:08:52.260 --> 00:08:55.260
+é uma máquina que pode permitir cirurgias e salvar vidas
+
+00:08:55.260 --> 00:08:58.260
+porque foi concebida para o seu próprio ambiente,
+
+00:08:58.260 --> 00:09:00.260
+tal como a primeira máquina que vos mostrei.
+
+00:09:00.260 --> 00:09:02.260
+Mas não nos ficamos por aqui:
+
+00:09:02.260 --> 00:09:04.260
+está a funcionar?
+
+00:09:04.260 --> 00:09:06.260
+Será este o modelo que funcionará no local?
+
+00:09:06.260 --> 00:09:08.260
+Bem, até agora temos visto bons resultados.
+
+00:09:08.260 --> 00:09:11.260
+Esta máquina está em 13 hospitais de quatro países,
+
+00:09:11.260 --> 00:09:13.260
+e, desde 2010,
+
+00:09:13.260 --> 00:09:15.260
+já foi bem-sucedida em mais de 2 mil cirurgias
+
+00:09:15.260 --> 00:09:17.260
+sem qualquer tipo de adversidades clínicas.
+
+00:09:17.260 --> 00:09:19.260
+Portanto, estamos entusiasmados.
+
+00:09:19.260 --> 00:09:23.260
+Esta parece ser uma solução eficiente e ampliável
+
+00:09:23.260 --> 00:09:26.260
+para um problema verdadeiramente generalizado.
+
+00:09:26.260 --> 00:09:28.260
+Mas queremos ter mesmo a certeza
+
+00:09:28.260 --> 00:09:30.260
+que este é o dispositivo mais eficaz e seguro
+
+00:09:30.260 --> 00:09:32.260
+que conseguimos colocar nos hospitais.
+
+00:09:32.260 --> 00:09:34.260
+Por isso, pusemos uma série de parcerias em prática
+
+00:09:34.260 --> 00:09:36.260
+com ONGs e universidades
+
+00:09:36.260 --> 00:09:39.260
+para recolher dados relativos à interface do utilizador
+
+00:09:39.260 --> 00:09:41.260
+e perceber para que tipo de cirurgias é adequada
+
+00:09:41.260 --> 00:09:43.260
+e que caminhos podemos seguir para melhorar o dispositivo.
+
+00:09:43.260 --> 00:09:45.260
+Uma dessas parcerias
+
+00:09:45.260 --> 00:09:48.260
+é com o hospital Johns Hopkins, aqui em Baltimore.
+
+00:09:48.260 --> 00:09:52.260
+Lá têm um laboratório fantástico de simulação de anestesia.
+
+00:09:52.260 --> 00:09:54.260
+Então, pegámos nesta máquina
+
+00:09:54.260 --> 00:09:57.260
+e recriámos algumas crises das salas de operações
+
+00:09:57.260 --> 00:09:59.260
+que esta máquina poderia enfrentar
+
+00:09:59.260 --> 00:10:01.260
+num dos hospitais para o qual está destinada,
+
+00:10:01.260 --> 00:10:04.260
+e num ambiente seguro e restrito,
+
+00:10:04.260 --> 00:10:06.260
+avaliámos a sua eficácia.
+
+00:10:06.260 --> 00:10:09.260
+Aí é possível comparar os resultados desse estudo
+
+00:10:09.260 --> 00:10:11.260
+com a experiência no mundo real,
+
+00:10:11.260 --> 00:10:13.260
+pois vamos colocar duas destas em hospitais
+
+00:10:13.260 --> 00:10:15.260
+da Serra Leoa com os quais o Johns Hopkins trabalha,
+
+00:10:15.260 --> 00:10:18.260
+incluindo o hospital onde aconteceu aquela cesariana de emergência.
+
+00:10:20.260 --> 00:10:23.260
+Falei muito sobre anestesia e tenho tendência para o fazer.
+
+00:10:23.260 --> 00:10:25.260
+Acho que é extremamente fascinante
+
+00:10:25.260 --> 00:10:27.260
+e uma componente importante da saúde.
+
+00:10:27.260 --> 00:10:30.260
+E parece mesmo algo insignificante, nunca pensamos nela,
+
+00:10:30.260 --> 00:10:32.260
+até não termos acesso a ela;
+
+00:10:32.260 --> 00:10:34.260
+e aí transforma-se num fator decisivo:
+
+00:10:34.260 --> 00:10:36.260
+Quem pode ter uma cirurgia e quem não pode?
+
+00:10:36.260 --> 00:10:39.260
+Quem tem cirurgias seguras e quem não tem?
+
+00:10:39.260 --> 00:10:42.260
+Mas sabem, esta é apenas uma das diversas maneiras
+
+00:10:42.260 --> 00:10:45.260
+em como o design, o design apropriado
+
+00:10:45.260 --> 00:10:48.260
+pode ter impacto nos resultados em saúde.
+
+00:10:48.260 --> 00:10:50.260
+Se mais pessoas nos serviços de saúde
+
+00:10:50.260 --> 00:10:53.260
+que trabalham para contrariar alguns destes desafios em países de recursos reduzidos
+
+00:10:53.260 --> 00:10:55.260
+pudessem iniciar o processo de design,
+
+00:10:55.260 --> 00:10:57.260
+a busca por soluções,
+
+00:10:57.260 --> 00:10:59.260
+fora desses termos tradicionais
+
+00:10:59.260 --> 00:11:01.260
+e dentro do hospital --
+
+00:11:01.260 --> 00:11:03.260
+por outras palavras, se pudéssemos conceber
+
+00:11:03.260 --> 00:11:06.260
+para o ambiente que existe em tantas partes do mundo,
+
+00:11:06.260 --> 00:11:08.260
+em vez de conceber para um que gostássemos que existisse --
+
+00:11:08.260 --> 00:11:11.260
+talvez conseguíssemos salvar muitas vidas.
+
+00:11:11.260 --> 00:11:13.260
+Muito obrigada.
+
+00:11:13.260 --> 00:11:17.260
+(Aplausos)
+

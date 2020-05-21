@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Simon Buryan
+Korektor: Martin Francis Gilbert Máik
+
+00:00:16.260 --> 00:00:19.260
+Dovolte mi Vám představit Rezera.
+
+00:00:19.260 --> 00:00:21.260
+Tento malý chlapík byl vyroben
+
+00:00:21.260 --> 00:00:23.260
+skupinou deseti vysokoškoláků
+
+00:00:23.260 --> 00:00:25.260
+v laboratoři Autonomous Systems Laboratory
+
+00:00:25.260 --> 00:00:27.260
+při ETH-Curich.
+
+00:00:27.260 --> 00:00:29.260
+Náš robot patři do rodiny robotů nazývaných
+
+00:00:29.260 --> 00:00:31.260
+Ballbot - robot stojící na kouli.
+
+00:00:31.260 --> 00:00:33.260
+Namísto kol Ballbot balancuje
+
+00:00:33.260 --> 00:00:35.260
+a pohybuje se na jediném míči.
+
+00:00:35.260 --> 00:00:37.260
+Hlavními charakteristikami takového systému je,
+
+00:00:37.260 --> 00:00:40.260
+že existuje jen jeden kontaktní bod se zemí.
+
+00:00:40.260 --> 00:00:42.260
+To znamená, že robot
+
+00:00:42.260 --> 00:00:44.260
+je ze své podstatvy nestabilní.
+
+00:00:44.260 --> 00:00:46.260
+Je to jako bych zkoušel stát
+
+00:00:46.260 --> 00:00:47.260
+na jedné noze.
+
+00:00:47.260 --> 00:00:49.260
+Můžete si klázt otázku, k čemu je dobré
+
+00:00:49.260 --> 00:00:51.260
+mít nestabilního robota.
+
+00:00:51.260 --> 00:00:53.260
+K tomu se dostaneme za chvíli.
+
+00:00:53.260 --> 00:00:55.260
+Dovolte mi nejdříve vysvětlit, jak Rezero
+
+00:00:55.260 --> 00:00:57.260
+vlastně udržuje svůj balanc.
+
+00:00:57.260 --> 00:00:59.260
+Rezero udržuje svůj balanc neustálým
+
+00:00:59.260 --> 00:01:02.260
+měřením odchylového úhlu svým senzorem.
+
+00:01:02.260 --> 00:01:05.260
+Poté reaguje a zamezí tomu, aby přepadl,
+
+00:01:05.260 --> 00:01:07.260
+tím, že patřičně pohne motory.
+
+00:01:07.260 --> 00:01:09.260
+Toto se děje 160x za sekundu,
+
+00:01:09.260 --> 00:01:11.260
+a pokud cokoli selže během tohoto procesu,
+
+00:01:11.260 --> 00:01:14.260
+Rezero by okamžitě spadnul k zemi.
+
+00:01:14.260 --> 00:01:16.260
+Aby se Rezero pohyboval,
+
+00:01:16.260 --> 00:01:18.260
+Rezero musí otáčet míčem.
+
+00:01:18.260 --> 00:01:20.260
+Míč je řízen třemi speciálními koly
+
+00:01:20.260 --> 00:01:23.260
+a ty umožňují Rezerovi hýbat se v jakémkoli směru,
+
+00:01:23.260 --> 00:01:25.260
+a také se hýbat kolem vlastní osy
+
+00:01:25.260 --> 00:01:29.260
+v ten samý okamžik.
+
+00:01:29.260 --> 00:01:31.260
+Kvůli jeho nestabilitě, Rezero je neustále
+
+00:01:31.260 --> 00:01:33.260
+v pohybu. Tady je fígl.
+
+00:01:33.260 --> 00:01:36.260
+Je to právě ta nestabilita, která umožňuje
+
+00:01:36.260 --> 00:01:38.260
+robotovi dynamický pohyb.
+
+00:01:38.260 --> 00:01:40.260
+Zkusme si něco zahrát.
+
+00:01:40.260 --> 00:01:42.260
+Můžete se ptát, co se stane,
+
+00:01:42.260 --> 00:01:45.260
+když do robota lehce zatlačím.
+
+00:01:47.260 --> 00:01:49.260
+V tomto režimu se snaží udržet si
+
+00:01:49.260 --> 00:01:52.260
+svoji pozici.
+
+00:01:52.260 --> 00:01:55.260
+Kvůli další zkoušce, bych vám rád představil
+
+00:01:55.260 --> 00:01:58.260
+mého kolegu Michaela, při počítači,
+
+00:01:58.260 --> 00:02:01.260
+a Thomase, který asistuje na pódiu.
+
+00:02:02.260 --> 00:02:04.260
+V dalším režimu je Rezero pasivní,
+
+00:02:04.260 --> 00:02:07.260
+můžeme jím hýbat naokolo.
+
+00:02:08.260 --> 00:02:10.260
+Téměř bez síly mohu kontrolovat
+
+00:02:10.260 --> 00:02:13.260
+jeho pozici a jeho rychlost.
+
+00:02:16.260 --> 00:02:19.260
+Můžu ho také nechat rotovat.
+
+00:02:30.260 --> 00:02:32.260
+V dalším režimu můžeme Rezera nechat
+
+00:02:32.260 --> 00:02:35.260
+následovat někoho.
+
+00:02:35.260 --> 00:02:38.260
+Teď udržuje stejnou vzdálenost od Thomase.
+
+00:02:42.260 --> 00:02:44.260
+Děje se tak díky laserovému senzoru,
+
+00:02:44.260 --> 00:02:46.260
+který je zabudován na vršku Rezera.
+
+00:02:50.260 --> 00:02:52.260
+Díky stejnému principu můžeme ho nechat
+
+00:02:52.260 --> 00:02:55.260
+kroužit kolem osoby.
+
+00:02:57.260 --> 00:03:01.260
+Říkáme tomu orbitální režim.
+
+00:03:10.260 --> 00:03:12.260
+Dobře, díky Thomasi.
+
+00:03:12.260 --> 00:03:16.260
+(Potlesk)
+
+00:03:16.260 --> 00:03:19.260
+K čemu je tedy tato technologie dobrá?
+
+00:03:22.260 --> 00:03:24.260
+V tuto chvíli to je jen experiment, ale nechte mě
+
+00:03:24.260 --> 00:03:27.260
+vám ukázat možné budoucí aplikace.
+
+00:03:28.260 --> 00:03:30.260
+Rezero může být použit při výstavách nebo veletrzích.
+
+00:03:30.260 --> 00:03:32.260
+S obrazovkou může informovat lidi
+
+00:03:32.260 --> 00:03:35.260
+na místě zábavnou formou.
+
+00:03:35.260 --> 00:03:37.260
+V nemocnicích může být toto zařízení použito
+
+00:03:37.260 --> 00:03:39.260
+k přenášení zdravotnického vybavení.
+
+00:03:39.260 --> 00:03:41.260
+Díky systému "Ballbot" má úzkou kontaktní plochu
+
+00:03:41.260 --> 00:03:44.260
+a jednoduše se jím manipuluje okolo.
+
+00:03:44.260 --> 00:03:46.260
+A samozřejmě, kdo by si nechtěl
+
+00:03:46.260 --> 00:03:49.260
+zajezdit na jednom z těhle.
+
+00:03:49.260 --> 00:03:51.260
+A existuje mnoho praktičtějších aplikací.
+
+00:03:51.260 --> 00:03:53.260
+Ale existuje jistá krása
+
+00:03:53.260 --> 00:03:55.260
+v této technologii.
+
+00:03:55.260 --> 00:04:04.260
+(Hudba)
+
+00:04:58.260 --> 00:04:59.260
+(Potlesk)
+
+00:04:59.260 --> 00:05:01.260
+Děkuji vám.
+
+00:05:01.260 --> 00:05:05.260
+(Potlesk)
+
+00:05:05.260 --> 00:05:07.260
+Děkuji vám.
+

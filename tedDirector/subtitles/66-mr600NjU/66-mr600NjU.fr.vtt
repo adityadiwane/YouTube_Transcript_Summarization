@@ -1,0 +1,1293 @@
+WEBVTT
+Kind: captions
+Language: fr
+
+00:00:00.000 --> 00:00:07.000
+Traducteur: Alain Rinder
+Relecteur: eric vautier
+
+00:00:12.588 --> 00:00:15.619
+Je suis enseignant en informatique,
+
+00:00:15.619 --> 00:00:17.932
+mon domaine d'expertise est
+
+00:00:17.932 --> 00:00:20.131
+la sécurité des systèmes d'information.
+
+00:00:20.131 --> 00:00:22.451
+Quand j'étais à l'Université,
+
+00:00:22.451 --> 00:00:25.052
+j'ai eu l'occasion d'entendre ma grand-mère
+
+00:00:25.052 --> 00:00:29.186
+décrire à l'un des pensionnaires
+de sa maison de retraite
+
+00:00:29.186 --> 00:00:31.555
+ce que je faisais comme travail.
+
+00:00:31.555 --> 00:00:35.117
+Apparemment, j'étais chargé de m'assurer
+
+00:00:35.117 --> 00:00:39.017
+que personne ne volait
+les ordinateurs de l'université. (Rires)
+
+00:00:39.017 --> 00:00:41.761
+C'est une hypothèse raisonnable de sa part
+
+00:00:41.761 --> 00:00:43.681
+puisque je lui avais expliqué que je travaillais
+
+00:00:43.681 --> 00:00:45.188
+dans la sécurité informatique,
+
+00:00:45.188 --> 00:00:48.785
+et ça a été intéressant d'avoir son point de vue.
+
+00:00:48.785 --> 00:00:51.402
+Mais ce n'est pas la chose la plus ridicule
+que j'ai entendue
+
+00:00:51.402 --> 00:00:53.419
+au sujet de mon travail.
+
+00:00:53.419 --> 00:00:55.703
+C'est plutôt ceci :
+
+00:00:55.703 --> 00:00:58.837
+j'étais à un dîner, et une femme a entendu
+
+00:00:58.837 --> 00:01:00.620
+que je travaillais dans la sécurité informatique.
+
+00:01:00.620 --> 00:01:04.137
+Elle me demande si son ordinateur,
+
+00:01:04.137 --> 00:01:07.573
+infecté par un virus -- elle était très angoissée --
+
+00:01:07.573 --> 00:01:11.524
+pouvait le lui transmettre et la rendre malade. 
+(Rires)
+
+00:01:11.524 --> 00:01:14.467
+Je ne suis pas médecin, mais je l'ai rassurée
+
+00:01:14.467 --> 00:01:17.611
+en affirmant que c'était très peu probable,
+
+00:01:17.611 --> 00:01:20.412
+mais que si cela la rassurait, elle pouvait utiliser
+
+00:01:20.412 --> 00:01:22.260
+son ordinateur avec des gants en latex,
+
+00:01:22.260 --> 00:01:25.652
+que cela ne lui ferait pas de mal.
+
+00:01:25.652 --> 00:01:28.159
+Je vais revenir sur cette idée d'infection virale
+
+00:01:28.159 --> 00:01:31.667
+par l'ordinateur, un peu plus sérieusement.
+
+00:01:31.667 --> 00:01:33.307
+Ce dont je vais vous parler aujourd'hui
+
+00:01:33.307 --> 00:01:38.153
+c'est de piratage,
+de cyber-attaques réelles que les gens
+
+00:01:38.153 --> 00:01:40.707
+de ma communauté
+-- celle de la recherche universitaire --
+
+00:01:40.707 --> 00:01:43.501
+ont réalisées. Je pense que
+
+00:01:43.501 --> 00:01:44.709
+peu de personnes sont au courant
+
+00:01:44.709 --> 00:01:47.737
+alors que c'est à la fois intéressant et effrayant.
+
+00:01:47.737 --> 00:01:50.178
+Cet exposé est une sorte de "best of"
+
+00:01:50.178 --> 00:01:53.169
+des attaques de la communauté universitaire
+de sécurité informatique.
+
+00:01:53.169 --> 00:01:55.156
+Aucun de ces résultats n'est le mien. C'est le fruit
+
+00:01:55.156 --> 00:01:57.330
+des travaux de mes collègues, et je leur ai demandé
+
+00:01:57.330 --> 00:01:59.887
+si je pouvais utiliser leurs diapositives
+dans cet exposé.
+
+00:01:59.887 --> 00:02:01.629
+La première attaque que je vais aborder
+
+00:02:01.629 --> 00:02:04.303
+concerne les dispositifs médicaux
+implantés dans l'organisme.
+
+00:02:04.303 --> 00:02:07.343
+Ces dispositifs ont déjà
+un long parcours technologique.
+
+00:02:07.343 --> 00:02:11.199
+Le premier pacemaker a été inventé en 1926,
+
+00:02:11.199 --> 00:02:14.751
+et en 1960, le premier pacemaker interne
+a été implanté.
+
+00:02:14.751 --> 00:02:17.303
+J'espère qu'il était un peu plus petit
+que celui que vous pouvez voir ici.
+
+00:02:17.303 --> 00:02:20.271
+Depuis, la technologie n'a cessé de progresser.
+
+00:02:20.271 --> 00:02:24.904
+En 2006, on a atteint
+une étape importante dans le domaine
+
+00:02:24.904 --> 00:02:28.071
+de la sécurité informatique.
+
+00:02:28.071 --> 00:02:29.412
+Pourquoi est-ce que je dis cela ?
+
+00:02:29.412 --> 00:02:32.302
+Parce que c'est à cette époque
+que les appareils implantés dans l'organisme
+
+00:02:32.302 --> 00:02:35.047
+ont commencé à pouvoir communiquer en réseau.
+
+00:02:35.047 --> 00:02:36.927
+Parmi les choses qui nous font
+prendre conscience de cela,
+
+00:02:36.927 --> 00:02:39.632
+le dispositif de Dick Cheney : un appareil
+
+00:02:39.632 --> 00:02:43.501
+chargé de pomper le sang depuis une artère
+pour l'envoyer dans une autre partie du cœur.
+
+00:02:43.501 --> 00:02:44.684
+Comme vous pouvez le voir en bas,
+
+00:02:44.684 --> 00:02:47.693
+cet appareil était contrôlé par un ordinateur ;
+
+00:02:47.693 --> 00:02:50.210
+Si vous n'avez jamais pensé
+que la fiabilité d'un logiciel
+
+00:02:50.210 --> 00:02:53.799
+puisse être importante, faites-vous donc implanter
+l'un de ces appareils dans votre organisme.
+
+00:02:53.799 --> 00:02:57.494
+L'une des équipes de recherche a mis la main
+
+00:02:57.494 --> 00:02:58.914
+sur ce qu'on appelle un DAI.
+
+00:02:58.914 --> 00:03:00.984
+C'est un défibrillateur : un appareil
+
+00:03:00.984 --> 00:03:05.320
+qu'on implante pour contrôler
+le rythme cardiaque.
+
+00:03:05.320 --> 00:03:07.658
+Ces appareils ont déjà sauvé de nombreuses vies.
+
+00:03:07.658 --> 00:03:10.130
+Pour éviter d'avoir à opérer le patient,
+
+00:03:10.130 --> 00:03:12.324
+chaque fois que vous voulez reprogrammer l'appareil
+
+00:03:12.324 --> 00:03:14.779
+ou le vérifier, ils ont fait en sorte que
+
+00:03:14.779 --> 00:03:17.881
+le dispositif puisse communiquer sans fil.
+L'équipe de recherche a fait
+
+00:03:17.881 --> 00:03:20.491
+de la rétro-ingénierie
+sur le protocole de communication sans fil,
+
+00:03:20.491 --> 00:03:22.363
+puis a créé la machine que vous voyez ici,
+
+00:03:22.363 --> 00:03:25.123
+qui pouvait, grâce à une petite antenne,
+communiquer
+
+00:03:25.123 --> 00:03:29.598
+avec l'appareil, et donc le contrôler.
+
+00:03:29.598 --> 00:03:32.287
+Pour rendre leur expérience plus réelle
+
+00:03:32.287 --> 00:03:34.759
+-- ils n'ont pas trouvé de volontaires --
+
+00:03:34.759 --> 00:03:36.903
+ils ont pris du steak haché et du bacon
+
+00:03:36.903 --> 00:03:38.691
+ont emballé tout ça pour que cela ait la taille
+
+00:03:38.691 --> 00:03:41.489
+de la partie du corps humain
+où l'appareil devrait se loger,
+
+00:03:41.489 --> 00:03:42.943
+puis ils ont installé le dispositif à l'intérieur
+
+00:03:42.943 --> 00:03:46.075
+afin de réaliser leur expérience
+en conditions quasi réelles.
+
+00:03:46.075 --> 00:03:49.095
+Ils ont réussi beaucoup d'attaques,
+
+00:03:49.095 --> 00:03:52.151
+comme changer le nom du patient.
+
+00:03:52.151 --> 00:03:53.144
+Je ne sais pas pourquoi vous voudriez faire ça,
+
+00:03:53.144 --> 00:03:55.248
+mais je suis sûr que je ne voudrais pas
+qu'on me le fasse.
+
+00:03:55.248 --> 00:03:57.579
+Ils ont également réussi à changer le traitement,
+
+00:03:57.579 --> 00:04:00.074
+notamment en désactivant l'appareil
+
+00:04:00.074 --> 00:04:01.970
+-- un appareil standard du commerce --
+
+00:04:01.970 --> 00:04:04.016
+simplement par rétro-ingénierie du protocole,
+puis par envoi sans fil
+
+00:04:04.016 --> 00:04:07.005
+de signaux à l'appareil.
+
+00:04:07.005 --> 00:04:10.585
+Dans un article sur NPR, il était dit que certains DAI
+
+00:04:10.585 --> 00:04:13.007
+pouvaient voir leur fonctionnement perturbé
+
+00:04:13.007 --> 00:04:16.658
+par la simple présence d'écouteurs posés dessus.
+
+00:04:16.658 --> 00:04:18.067
+Bien évidemment, les technologies sans fil et Internet
+
+00:04:18.067 --> 00:04:19.719
+peuvent grandement améliorer les services de santé.
+
+00:04:19.719 --> 00:04:21.806
+Il y a plusieurs exemples, affichés à l'écran,
+
+00:04:21.806 --> 00:04:24.913
+de situations où les docteurs
+préfèrent implanter des appareils
+
+00:04:24.913 --> 00:04:27.778
+dans le corps des patients, et tous ces systèmes
+
+00:04:27.778 --> 00:04:30.903
+communiquent désormais sans fil, c'est la norme.
+
+00:04:30.903 --> 00:04:32.315
+Je pense que c'est une bonne chose,
+
+00:04:32.315 --> 00:04:35.420
+mais sans une pleine compréhension
+de la fiabilité informatique,
+
+00:04:35.420 --> 00:04:37.827
+des possibilités d'attaques
+
+00:04:37.827 --> 00:04:39.974
+et des risques de sécurité inhérents,
+
+00:04:39.974 --> 00:04:42.364
+le danger est grand.
+
+00:04:42.364 --> 00:04:43.841
+Passons à la vitesse supérieure
+en changeant de cible.
+
+00:04:43.841 --> 00:04:45.929
+Je vais vous montrer quelques cibles potentielles
+
+00:04:45.929 --> 00:04:48.846
+c'est mon sujet du jour.
+Intéressons-nous aux voitures.
+
+00:04:48.846 --> 00:04:51.742
+De nos jours, une voiture possède
+
+00:04:51.742 --> 00:04:53.362
+de nombreux composants électroniques.
+
+00:04:53.362 --> 00:04:57.739
+En réalité, on y trouve
+plusieurs ordinateurs embarqués
+
+00:04:57.739 --> 00:05:00.894
+-- plus de Pentiums
+que dans le laboratoire de mon université --
+
+00:05:00.894 --> 00:05:04.533
+ces ordinateurs sont connectés
+par un réseau filaire.
+
+00:05:04.533 --> 00:05:07.964
+Une voiture possède également un réseau sans fil
+
+00:05:07.964 --> 00:05:11.197
+accessible de différentes manières :
+
+00:05:11.197 --> 00:05:14.898
+par Bluetooth, par radio FM, par radio satellite,
+
+00:05:14.898 --> 00:05:17.718
+également par Wi-Fi. Des capteurs dans les roues
+
+00:05:17.718 --> 00:05:19.871
+transmettent en sans fil la pression des pneus
+
+00:05:19.871 --> 00:05:21.677
+à un contrôleur embarqué.
+
+00:05:21.677 --> 00:05:26.595
+La voiture moderne est
+un dispositif informatique complexe.
+
+00:05:26.595 --> 00:05:29.917
+Que se passerait-il si quelqu'un piratait ce système ?
+
+00:05:29.917 --> 00:05:31.234
+Eh bien, c'est ce qu'ont fait les chercheurs
+
+00:05:31.234 --> 00:05:33.105
+dont je vais vous parler.
+
+00:05:33.105 --> 00:05:36.082
+En gros, ils ont placé un programme pirate
+sur le réseau filaire
+
+00:05:36.082 --> 00:05:38.404
+et sur le réseau sans fil.
+
+00:05:38.404 --> 00:05:41.103
+Ainsi, ils ont deux angles d'attaque :
+
+00:05:41.103 --> 00:05:43.141
+le premier, à courte portée en sans fil, permettant
+
+00:05:43.141 --> 00:05:44.922
+de communiquer avec le système à proximité
+
+00:05:44.922 --> 00:05:47.059
+par Bluetooth ou Wi-Fi ;
+
+00:05:47.059 --> 00:05:49.233
+le second, à longue portée,
+permettant de communiquer
+
+00:05:49.233 --> 00:05:51.015
+avec la voiture par le réseau de téléphonie mobile
+
+00:05:51.015 --> 00:05:52.975
+ou par une station de radio.
+
+00:05:52.975 --> 00:05:56.024
+Réfléchissez-y : quand une voiture
+reçoit un signal radio,
+
+00:05:56.024 --> 00:05:58.225
+il est traité par un logiciel.
+
+00:05:58.225 --> 00:06:01.286
+Ce logiciel reçoit et décode le signal radio,
+
+00:06:01.286 --> 00:06:02.405
+puis déduit ce qu'il doit en faire
+
+00:06:02.405 --> 00:06:05.429
+même s'il s'agit seulement
+de musique pour l'autoradio.
+
+00:06:05.429 --> 00:06:07.697
+Si ce logiciel qui décode le signal
+
+00:06:07.697 --> 00:06:10.790
+a des bugs, il peut être à l'origine d'une faille
+
+00:06:10.790 --> 00:06:13.825
+que l'on peut exploiter pour pirater la voiture.
+
+00:06:13.825 --> 00:06:16.777
+Voici comment ont procédé les chercheurs :
+
+00:06:16.777 --> 00:06:21.000
+Ils ont étudié le logiciel présent
+sur les puces électroniques
+
+00:06:21.000 --> 00:06:24.193
+présentes dans la voiture, puis ont utilisé
+
+00:06:24.193 --> 00:06:25.607
+des outils complexes de rétro-ingénierie
+
+00:06:25.607 --> 00:06:27.662
+afin de déterminer ce que le logiciel faisait.
+
+00:06:27.662 --> 00:06:30.703
+Ils ont trouvé des failles dans ce logiciel
+
+00:06:30.703 --> 00:06:34.049
+puis ont développé
+des programmes exploitant ces failles.
+
+00:06:34.049 --> 00:06:36.431
+Ils ont enfin réalisé leur attaque
+dans des conditions réelles.
+
+00:06:36.431 --> 00:06:37.781
+Ils ont acheté deux voitures -- j'imagine
+
+00:06:37.781 --> 00:06:40.699
+qu'ils ont de meilleurs budgets que moi.
+
+00:06:40.699 --> 00:06:43.289
+La première expérience devait permettre de voir
+
+00:06:43.289 --> 00:06:45.433
+ce qu'un hacker pouvait faire s'il accédait
+
+00:06:45.433 --> 00:06:47.486
+au réseau interne de la voiture.
+
+00:06:47.486 --> 00:06:50.089
+Imaginez : quelqu'un s'introduit dans votre voiture,
+
+00:06:50.089 --> 00:06:52.993
+y bidouille quelque chose, puis s'en va.
+
+00:06:52.993 --> 00:06:55.361
+Que risquez-vous désormais ?
+
+00:06:55.361 --> 00:06:58.153
+La seconde expérience consiste à pirater la voiture
+
+00:06:58.153 --> 00:07:00.610
+en temps réel par un réseau sans fil
+
+00:07:00.610 --> 00:07:02.665
+-- comme celui de téléphonie mobile ou un autre --
+
+00:07:02.665 --> 00:07:06.665
+sans jamais avoir besoin d'accéder
+physiquement à cette voiture.
+
+00:07:06.665 --> 00:07:09.489
+Voici à quoi ressemblait leur installation
+dans le premier cas,
+
+00:07:09.489 --> 00:07:11.172
+avec un accès à la voiture.
+
+00:07:11.172 --> 00:07:14.559
+Ils ont utilisé un ordinateur portable
+qu'ils ont connecté à l'unité de diagnostic
+
+00:07:14.559 --> 00:07:17.498
+du réseau interne de la voiture,
+puis ont fait toutes sortes de choses stupides
+
+00:07:17.498 --> 00:07:20.281
+comme le montre cette image du compteur de vitesse
+
+00:07:20.281 --> 00:07:23.097
+indiquant 220 km / h à l'arrêt.
+
+00:07:23.097 --> 00:07:25.470
+Une fois qu'on a le contrôle
+sur les ordinateurs embarqués,
+
+00:07:25.470 --> 00:07:26.389
+on peut faire ce qu'on veut.
+
+00:07:26.389 --> 00:07:28.005
+Peut-être vous dites-vous :
+"Bon, ça c'est ridicule."
+
+00:07:28.005 --> 00:07:29.664
+Mais qu'en serait-il
+si le compteur affichait systématiquement
+
+00:07:29.664 --> 00:07:32.405
+la vitesse réduite de 30 km / h ?
+
+00:07:32.405 --> 00:07:34.947
+Certainement un grand nombre d'amendes
+pour excès de vitesse.
+
+00:07:34.947 --> 00:07:38.803
+Puis ils sont allés sur une piste d'atterrissage
+désaffectée avec deux voitures
+
+00:07:38.803 --> 00:07:41.548
+-- une voiture cible et une voiture de poursuite --
+
+00:07:41.548 --> 00:07:44.294
+et ont lancé plusieurs autres attaques.
+
+00:07:44.294 --> 00:07:47.060
+Ils ont notamment réussi à actionner les freins
+
+00:07:47.060 --> 00:07:49.034
+de la voiture cible depuis la voiture de poursuite,
+
+00:07:49.034 --> 00:07:50.594
+simplement en piratant l'ordinateur de bord.
+
+00:07:50.594 --> 00:07:53.025
+Ils ont aussi pu désactiver les freins.
+
+00:07:53.025 --> 00:07:56.203
+Ils ont enfin réussi à installer
+un virus qui ne se déclenche
+
+00:07:56.203 --> 00:07:58.628
+que lorsque la voiture effectue une action
+
+00:07:58.628 --> 00:08:02.374
+comme dépasser les 30 km / h par exemple.
+
+00:08:02.374 --> 00:08:05.132
+Les résultats sont stupéfiants, et même
+
+00:08:05.132 --> 00:08:06.848
+quand ils les ont présentés lors d'une conférence
+
+00:08:06.848 --> 00:08:08.574
+destinée à des chercheurs en sécurité informatique,
+
+00:08:08.574 --> 00:08:10.274
+tous étaient stupéfaits.
+
+00:08:10.274 --> 00:08:13.973
+Ils ont pu prendre le contrôle
+de plusieurs ordinateurs critiques
+
+00:08:13.973 --> 00:08:17.734
+de la voiture : le contrôleur des freins, de l'éclairage,
+
+00:08:17.734 --> 00:08:20.561
+du moteur, du tableau de bord, de la radio, etc.
+
+00:08:20.561 --> 00:08:22.854
+Et ils ont pu faire cela sur des voitures
+
+00:08:22.854 --> 00:08:25.881
+achetées dans le commerce,
+en les piratant par radio.
+
+00:08:25.881 --> 00:08:28.884
+Ils ont réussi à compromettre
+
+00:08:28.884 --> 00:08:31.350
+chacune des parties du logiciel qui contrôle
+
+00:08:31.350 --> 00:08:34.365
+toutes les fonctions sans fil de la voiture.
+
+00:08:34.365 --> 00:08:36.878
+Toutes ces attaques ont été couronnées de succès.
+
+00:08:36.878 --> 00:08:39.230
+Comment ferait-on pour voler une voiture
+avec cette méthode ?
+
+00:08:39.230 --> 00:08:42.910
+Eh bien, vous exploitez une faille de &lt;i&gt;buffer overflow&lt;/i&gt;
+
+00:08:42.910 --> 00:08:45.437
+dans le logiciel, ou quelque chose du genre.
+
+00:08:45.437 --> 00:08:47.640
+Puis vous localisez la voiture à l'aide du GPS intégré.
+
+00:08:47.640 --> 00:08:49.835
+À distance, vous ouvrez
+les portières en accédant
+
+00:08:49.835 --> 00:08:52.973
+à l'ordinateur qui contrôle le verrouillage,
+vous démarrez le moteur, vous contournez l'antivol
+
+00:08:52.973 --> 00:08:54.641
+et vous avez votre voiture.
+
+00:08:54.641 --> 00:08:57.128
+Autre aspect très intéressant : la surveillance.
+
+00:08:57.128 --> 00:09:00.337
+Les auteurs de l'étude montrent dans une vidéo
+
+00:09:00.337 --> 00:09:02.886
+comment ils ont pris le contrôle d'une voiture,
+
+00:09:02.886 --> 00:09:05.647
+ont allumé le micro embarqué pour écouter,
+
+00:09:05.647 --> 00:09:08.998
+tandis que la voiture était pistée
+par GPS sur une carte,
+
+00:09:08.998 --> 00:09:10.711
+et tout cela de manière
+à ce que les personnes à bord
+
+00:09:10.711 --> 00:09:12.879
+ne se rendent compte de rien.
+
+00:09:12.879 --> 00:09:15.013
+Déjà effrayés ?
+
+00:09:15.013 --> 00:09:16.956
+En voici encore quelques-unes intéressantes.
+
+00:09:16.956 --> 00:09:18.789
+Voici celles que j'ai découvertes
+lors d'une conférence ;
+
+00:09:18.789 --> 00:09:20.722
+j'en suis tombé à la renverse, et je me suis dit
+
+00:09:20.722 --> 00:09:22.548
+qu'il fallait que je le partage avec d'autres.
+
+00:09:22.548 --> 00:09:24.171
+Le travail du laboratoire dirigé par Fabian Monrose
+
+00:09:24.171 --> 00:09:27.627
+à l'université de Caroline du Nord
+
+00:09:27.627 --> 00:09:29.702
+consiste à quelque chose d'intuitif
+
+00:09:29.702 --> 00:09:31.416
+mais plutôt surprenant.
+
+00:09:31.416 --> 00:09:33.675
+Ils ont filmé des personnes dans un bus
+
+00:09:33.675 --> 00:09:36.515
+puis ont traité la vidéo en postproduction.
+
+00:09:36.515 --> 00:09:38.978
+Ce que vous voyez là au numéro 1,
+
+00:09:38.978 --> 00:09:43.361
+c'est la reflet du smartphone d'une personne
+
+00:09:43.361 --> 00:09:44.786
+dans ses lunettes.
+
+00:09:44.786 --> 00:09:46.761
+Ils ont écrit un programme pour stabiliser
+
+00:09:46.761 --> 00:09:48.126
+-- même dans un bus
+
+00:09:48.126 --> 00:09:51.337
+ou avec un certain angle de vue --
+
+00:09:51.337 --> 00:09:53.707
+l'image du téléphone et la traiter.
+
+00:09:53.707 --> 00:09:55.592
+Vous savez, quand vous entrez
+un mot de passe sur votre smartphone,
+
+00:09:55.592 --> 00:09:58.531
+les touches sur lesquelles on appuie
+se mettent légèrement en surbrillance.
+
+00:09:58.531 --> 00:10:01.371
+Ils ont pu utiliser cela
+pour reconstituer ce que l'utilisateur entrait,
+
+00:10:01.371 --> 00:10:05.692
+et définir un modèle de langage
+pour détecter un texte tapé.
+
+00:10:05.692 --> 00:10:08.027
+Ce qui est intéressant,
+c'est qu'en filmant dans un bus,
+
+00:10:08.027 --> 00:10:10.156
+ils ont pu reconstituer exactement
+ce que les personnes
+
+00:10:10.156 --> 00:10:12.307
+avaient tapé sur leurs smartphones.
+
+00:10:12.307 --> 00:10:14.567
+Puis ils ont eu la surprise de constater
+
+00:10:14.567 --> 00:10:17.331
+que leur logiciel l'avait fait
+non seulement pour la personne ciblée
+
+00:10:17.331 --> 00:10:18.734
+mais également pour les autres personnes
+
+00:10:18.734 --> 00:10:20.820
+apparaissant accidentellement sur la vidéo.
+Ils ont pu reconstituer
+
+00:10:20.820 --> 00:10:23.547
+ce que ces personnes tapaient ;
+c'était une sorte d'effet
+
+00:10:23.547 --> 00:10:27.164
+secondaire involontaire de leur logiciel.
+
+00:10:27.164 --> 00:10:31.467
+Je vais vous en montrer encore deux.
+Tout d'abord, les radios P25.
+
+00:10:31.467 --> 00:10:34.267
+Les radios P25 sont utilisées par la police
+
+00:10:34.267 --> 00:10:37.674
+ainsi que toutes sortes d'agences gouvernementales
+
+00:10:37.674 --> 00:10:39.410
+ou même les soldats au front, pour communiquer.
+
+00:10:39.410 --> 00:10:42.243
+Ces téléphones possèdent une option d'encodage.
+
+00:10:42.243 --> 00:10:44.971
+Voici à quoi ressemble ce téléphone.
+Ce n'est pas vraiment un téléphone,
+
+00:10:44.971 --> 00:10:46.177
+plutôt un émetteur-récepteur.
+
+00:10:46.177 --> 00:10:49.499
+Motorola produit le modèle le plus utilisé,
+et vous pouvez voir
+
+00:10:49.499 --> 00:10:52.148
+qu'il est utilisé par les services secrets,
+par les soldats au front, etc.
+
+00:10:52.148 --> 00:10:55.250
+C'est très commun aux États-Unis et ailleurs.
+
+00:10:55.250 --> 00:10:57.555
+La question que se sont posée les chercheurs,
+
+00:10:57.555 --> 00:11:00.259
+était : pourrait-on bloquer ces communications ?
+
+00:11:00.259 --> 00:11:01.842
+Pourrait-on provoquer un déni de service
+
+00:11:01.842 --> 00:11:03.666
+sur ces communications d'urgence ?
+
+00:11:03.666 --> 00:11:05.467
+Est-ce qu'une organisation terroriste
+pourrait aveugler
+
+00:11:05.467 --> 00:11:09.955
+les communications de la police
+et des pompiers lors d'une urgence ?
+
+00:11:09.955 --> 00:11:13.027
+Ils ont découvert qu'un appareil de GirlTech permettant d'échanger des SMS
+
+00:11:13.027 --> 00:11:15.745
+utilise exactement la même fréquence
+
+00:11:15.745 --> 00:11:18.016
+que les radios P25 ; ils ont donc conçu
+ce qu'ils ont appelé
+
+00:11:18.016 --> 00:11:22.350
+"Mon Premier Brouilleur".
+(Rires)
+
+00:11:22.350 --> 00:11:24.728
+Si vous observez attentivement l'appareil,
+
+00:11:24.728 --> 00:11:28.358
+il y a un interrupteur pour encoder ou non.
+
+00:11:28.358 --> 00:11:31.408
+Laissez-moi passer à la diapositive suivante,
+puis revenir à celle-ci.
+
+00:11:31.408 --> 00:11:33.955
+Vous voyez la différence ?
+
+00:11:33.955 --> 00:11:36.512
+Ici on est en texte clair. Là, c'est encodé.
+
+00:11:36.512 --> 00:11:39.069
+Il y a un petit point qui apparaît sur l'écran,
+
+00:11:39.069 --> 00:11:41.154
+et un petit changement au niveau de l'interrupteur.
+
+00:11:41.154 --> 00:11:43.058
+Les chercheurs se sont donc demandé
+
+00:11:43.058 --> 00:11:47.315
+combien de fois des conversations
+très sensibles et importantes
+
+00:11:47.315 --> 00:11:48.938
+sont transmises avec ces émetteurs-récepteurs
+
+00:11:48.938 --> 00:11:51.848
+où l'option d'encodage a été oubliée
+sans que les interlocuteurs ne le remarquent.
+
+00:11:51.848 --> 00:11:55.187
+Ils se sont donc procurés un scanner radio,
+un dispositif parfaitement légal aux États-Unis.
+
+00:11:55.187 --> 00:11:58.645
+Ils l'ont utilisé à la fréquence des radios P25
+
+00:11:58.645 --> 00:12:00.412
+et ont parcouru les fréquences environnantes
+
+00:12:00.412 --> 00:12:02.922
+puis ont développé un logiciel d'écoute.
+
+00:12:02.922 --> 00:12:05.556
+S'ils trouvaient une communication encodée,
+ils restaient
+
+00:12:05.556 --> 00:12:07.242
+sur cette fréquence, en indiquant que cette fréquence
+
+00:12:07.242 --> 00:12:09.030
+était utilisée par ces personnes pour communiquer,
+
+00:12:09.030 --> 00:12:10.652
+ces agents de maintien de l'ordre.
+
+00:12:10.652 --> 00:12:14.043
+Ainsi, ils sont allés dans 20 agglomérations
+et ont écouté
+
+00:12:14.043 --> 00:12:17.518
+les conversations transmises sur ces fréquences.
+
+00:12:17.518 --> 00:12:20.757
+Ils ont découvert que
+dans chacune de ces agglomérations
+
+00:12:20.757 --> 00:12:22.911
+ils captaient plus de 20 minutes de communication
+
+00:12:22.911 --> 00:12:25.286
+en clair par jour.
+
+00:12:25.286 --> 00:12:27.286
+Et de quoi parlaient ces personnes ?
+
+00:12:27.286 --> 00:12:28.770
+Eh bien, de noms et d'informations
+
+00:12:28.770 --> 00:12:31.622
+concernant des informateurs ; d'informations
+
+00:12:31.622 --> 00:12:33.824
+enregistrées lors d'écoutes téléphoniques ;
+
+00:12:33.824 --> 00:12:36.534
+d'un certain nombre de délits examinés
+
+00:12:36.534 --> 00:12:37.696
+et d'informations sensibles,
+
+00:12:37.696 --> 00:12:41.059
+principalement policières et criminelles.
+
+00:12:41.059 --> 00:12:42.893
+Ils l'ont signalé aux agences de maintien
+
+00:12:42.893 --> 00:12:44.916
+de l'ordre, après avoir anonymisé les données.
+
+00:12:44.916 --> 00:12:47.916
+La faille ici était simplement due à une mauvaise
+
+00:12:47.916 --> 00:12:49.310
+interface utilisateur. Si vous êtes en train de discuter
+
+00:12:49.310 --> 00:12:52.126
+de sujets sensibles qui doivent être sécurisés,
+il faudrait
+
+00:12:52.126 --> 00:12:55.419
+que la conversation soit
+clairement indiquée comme encodée.
+
+00:12:55.419 --> 00:12:57.305
+Cette faille est facile à corriger.
+
+00:12:57.305 --> 00:12:58.974
+La dernière chose que je trouvais
+vraiment, vraiment génial,
+
+00:12:58.974 --> 00:13:01.787
+je vais juste vous le montrer ;
+ça ne va sûrement pas
+
+00:13:01.787 --> 00:13:02.792
+vous empêcher de dormir
+
+00:13:02.792 --> 00:13:04.583
+comme les voitures ou les défibrillateurs.
+
+00:13:04.583 --> 00:13:07.606
+Il s'agit de reconnaissance de frappe au clavier.
+
+00:13:07.606 --> 00:13:10.353
+Les smartphones ont été étudiés
+sous toutes les coutures.
+
+00:13:10.353 --> 00:13:12.543
+Tout expert en sécurité souhaite
+pirater un smartphone ;
+
+00:13:12.543 --> 00:13:17.155
+on s'est intéressé au port USB,
+au GPS pour pister le téléphone,
+
+00:13:17.155 --> 00:13:20.363
+à la caméra, au micro, mais personne jusque-là
+
+00:13:20.363 --> 00:13:21.943
+ne s'est intéressé à l'accéléromètre.
+
+00:13:21.943 --> 00:13:23.590
+L'accéléromètre est le composant qui détermine
+
+00:13:23.590 --> 00:13:27.084
+l'orientation verticale du smartphone.
+
+00:13:27.084 --> 00:13:28.501
+Ils ont donc mis au point une installation simple :
+
+00:13:28.501 --> 00:13:31.259
+après avoir placé un téléphone
+à proximité d'un clavier,
+
+00:13:31.259 --> 00:13:33.971
+ils ont demandé à des personnes
+de taper au clavier ; leur but était
+
+00:13:33.971 --> 00:13:36.827
+d'exploiter les vibrations
+créées par la frappe des touches,
+
+00:13:36.827 --> 00:13:41.067
+pour mesurer les changements de l'accéléromètre
+
+00:13:41.067 --> 00:13:44.243
+permettant ainsi de déterminer 
+ce que la personne écrit.
+
+00:13:44.243 --> 00:13:46.819
+Avec un iPhone 3GS,
+
+00:13:46.819 --> 00:13:49.588
+voici le graphe des perturbations créées
+
+00:13:49.588 --> 00:13:52.829
+lors de la frappe : comme vous pouvez le voir,
+il est difficile
+
+00:13:52.829 --> 00:13:55.907
+de déterminer quand quelqu'un écrit
+ou ce qu'il écrit ;
+
+00:13:55.907 --> 00:13:58.997
+mais l'accéléromètre de l'iPhone 4
+a été grandement amélioré,
+
+00:13:58.997 --> 00:14:02.477
+et avec les mêmes mesures,
+
+00:14:02.477 --> 00:14:04.309
+on obtient ce graphe.
+
+00:14:04.309 --> 00:14:06.795
+Cela vous donne beaucoup d'informations
+quand quelqu'un
+
+00:14:06.795 --> 00:14:10.036
+écrit quelque chose ; les chercheurs ont utilisé
+
+00:14:10.036 --> 00:14:13.043
+des techniques avancées d'intelligence artificielle
+comme l'apprentissage automatique
+
+00:14:13.043 --> 00:14:14.474
+afin d'établir une phase d'apprentissage.
+
+00:14:14.474 --> 00:14:16.710
+Puis ils ont demandé certainement
+à des étudiants diplômés
+
+00:14:16.710 --> 00:14:20.499
+d'écrire tout un tas de choses
+afin que le système puisse
+
+00:14:20.499 --> 00:14:23.267
+-- grâce aux outils d'apprentissage automatique --
+
+00:14:23.267 --> 00:14:26.130
+apprendre à reconnaître
+ce que les personnes écrivaient
+
+00:14:26.130 --> 00:14:28.957
+et l'apparier
+
+00:14:28.957 --> 00:14:31.434
+avec les mesures de l'accéléromètre.
+
+00:14:31.434 --> 00:14:33.069
+Vient ensuite la phase d'attaque,
+
+00:14:33.069 --> 00:14:35.880
+où quelqu'un écrit quelque chose que l'on ignore
+
+00:14:35.880 --> 00:14:37.177
+mais grâce au modèle défini
+
+00:14:37.177 --> 00:14:40.619
+par la phase d'apprentissage,
+on détermine ce qu'il écrit.
+
+00:14:40.619 --> 00:14:44.103
+Leurs résultats étaient plutôt bons.
+Voici un article d'USA Today.
+
+00:14:44.103 --> 00:14:46.712
+Il y est écrit : "La Cour Suprême de l'Illinois a décrété
+
+00:14:46.712 --> 00:14:49.674
+que Rahm Emanuel a droit de se présenter
+au poste de maire de Chicago"
+
+00:14:49.674 --> 00:14:51.028
+-- remarquez le lien avec la dernière conférence --
+
+00:14:51.028 --> 00:14:53.146
+"et le somme de rester en lice."
+
+00:14:53.146 --> 00:14:55.917
+Le système a un comportement intéressant :
+il a retrouvé
+
+00:14:55.917 --> 00:14:58.803
+les deux premiers mots
+mais ensuite n'était pas certain.
+
+00:14:58.803 --> 00:15:00.753
+Le modèle a donc proposé une liste de possibilités.
+
+00:15:00.753 --> 00:15:03.462
+C'est là la beauté de certaines techniques
+d'intelligence artificielle :
+
+00:15:03.462 --> 00:15:05.712
+les ordinateurs sont bons dans certains domaines,
+
+00:15:05.712 --> 00:15:07.246
+les humains dans d'autres.
+
+00:15:07.246 --> 00:15:09.177
+Il s'agit de choisir le meilleur des deux : ici l'humain.
+
+00:15:09.177 --> 00:15:10.559
+Ne perdez pas de temps
+à faire calculer les ordinateurs.
+
+00:15:10.559 --> 00:15:12.695
+Un être humain saura
+qu'il ne s'agit pas du Pouvoir Suprême
+
+00:15:12.695 --> 00:15:14.435
+mais de la Cour Suprême, n'est-ce pas ?
+
+00:15:14.435 --> 00:15:16.965
+Et ainsi, ensemble, nous sommes capables
+de retrouver ce qui est écrit
+
+00:15:16.965 --> 00:15:19.914
+simplement en observant
+les mesures de l'accéléromètre.
+
+00:15:19.914 --> 00:15:23.416
+Pourquoi est-ce important ? Eh bien, sur Androïd
+
+00:15:23.416 --> 00:15:27.549
+par exemple, les développeurs ont un manifeste
+
+00:15:27.564 --> 00:15:30.148
+sur lequel chaque dispositif -- le micro, etc. --
+
+00:15:30.148 --> 00:15:32.104
+doit être déclaré si vous voulez l'utiliser :
+
+00:15:32.104 --> 00:15:34.420
+ainsi les pirates ne peuvent en prendre le contrôle,
+
+00:15:34.420 --> 00:15:37.528
+mais personne ne contrôle l'accéléromètre.
+
+00:15:37.528 --> 00:15:39.744
+Quelle est l'idée derrière cela ?
+Vous pouvez laisser votre iPhone à côté
+
+00:15:39.744 --> 00:15:41.850
+du clavier de quelqu'un,
+puis simplement quitter la pièce ;
+
+00:15:41.850 --> 00:15:43.489
+plus tard, vous récupèrerez ce qui a été écrit,
+
+00:15:43.489 --> 00:15:45.200
+même sans l'usage d'un micro.
+
+00:15:45.200 --> 00:15:47.374
+Si quelqu'un parvient à installer
+une appli malveillante sur votre iPhone,
+
+00:15:47.374 --> 00:15:50.222
+il pourrait peut-être récupérer
+ce que vous écrivez
+
+00:15:50.222 --> 00:15:52.543
+lorsque vous laissez votre iPhone
+à côté de votre clavier.
+
+00:15:52.543 --> 00:15:54.814
+Il y a pas mal d'autres attaques remarquables
+dont je n'ai
+
+00:15:54.814 --> 00:15:56.945
+malheureusement pas le temps de parler,
+mais je voulais
+
+00:15:56.945 --> 00:15:59.222
+attirer votre attention sur un groupe
+de l'Université du Michigan
+
+00:15:59.222 --> 00:16:01.663
+qui ont pu récupérer des machines à voter,
+
+00:16:01.663 --> 00:16:04.161
+des Sequoia AVC Edge DRE
+
+00:16:04.161 --> 00:16:05.716
+qui allaient être utilisées
+lors d'une élection dans le New Jersey.
+
+00:16:05.716 --> 00:16:07.877
+Ces machines étaient laissées dans le hall.
+Ils ont installé Pac-Man dessus.
+
+00:16:07.877 --> 00:16:11.500
+Ils ont donc pu jouer à Pac-Man.
+
+00:16:11.500 --> 00:16:13.247
+Qu'est-ce que tout cela signifie ?
+
+00:16:13.247 --> 00:16:16.894
+Eh bien, je pense que notre société a tendance
+à adopter de nouvelles technologies
+
+00:16:16.894 --> 00:16:19.718
+très rapidement.
+On est séduit par le prochain gadget génial.
+
+00:16:19.718 --> 00:16:22.332
+Mais c'est très important,
+comme nous le démontrent ces chercheurs,
+
+00:16:22.332 --> 00:16:23.692
+que les développeurs travaillant dans ce domaine
+
+00:16:23.692 --> 00:16:26.557
+doivent prendre en compte la sécurité dès le début
+
+00:16:26.557 --> 00:16:29.342
+et réaliser que malgré leur modèle de risques
+
+00:16:29.342 --> 00:16:31.804
+les pirates n'auront peut-être pas la décence
+
+00:16:31.804 --> 00:16:33.581
+de s'y limiter ;
+
+00:16:33.581 --> 00:16:36.118
+il faut donc penser hors des chemins battus.
+
+00:16:36.118 --> 00:16:37.696
+Nous pouvons prendre conscience
+
+00:16:37.696 --> 00:16:40.175
+que tout dispositif peut être compromis,
+
+00:16:40.175 --> 00:16:41.874
+et que tout ce qui comporte du logiciel
+
+00:16:41.874 --> 00:16:44.523
+est susceptible d'être vulnérable.
+Il y aura forcément des bugs.
+
+00:16:44.523 --> 00:16:48.020
+Merci beaucoup.
+(Applaudissements)
+

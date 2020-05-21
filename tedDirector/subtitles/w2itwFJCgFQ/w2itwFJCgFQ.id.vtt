@@ -1,0 +1,779 @@
+WEBVTT
+Kind: captions
+Language: id
+
+00:00:00.000 --> 00:00:07.000
+Translator: Teddy Budiwan
+Reviewer: Lisa Santika Onggrid
+
+00:00:23.307 --> 00:00:26.491
+Jadi apa artinya bagi mesin menjadi atletis?
+
+00:00:26.491 --> 00:00:29.908
+Kami akan mendemostrasikan konsep atletis pada mesin
+
+00:00:29.908 --> 00:00:31.628
+dan penelitian yang diperlukan untuk mencapainya
+
+00:00:31.628 --> 00:00:34.139
+dengan pertolongan dari mesin terbang bernama quadrocopters ini,
+
+00:00:34.139 --> 00:00:36.026
+atau disingkat quad.
+
+00:00:38.034 --> 00:00:40.563
+Quad sudah ada sejak lama.
+
+00:00:40.563 --> 00:00:42.162
+Mereka sangat populer belakangan ini
+
+00:00:42.162 --> 00:00:44.127
+karena secara mekanisme mereka sederhana.
+
+00:00:44.127 --> 00:00:46.235
+Dengan mengendalikan ke 4 baling-baling ini,
+
+00:00:46.235 --> 00:00:49.283
+mesin ini dapat melakukan roll, pitch, yaw,
+
+00:00:49.283 --> 00:00:52.108
+dan mempercepat kecepatan sepanjang arah yang ditujunya.
+
+00:00:52.108 --> 00:00:55.179
+Mereka mengandung baterai, komputer,
+
+00:00:55.179 --> 00:00:59.133
+berbagai sensor dan radio nirkabel.
+
+00:00:59.133 --> 00:01:03.762
+Quads sangat lincah, namun sebagai gantinya ada kerugian.
+
+00:01:03.762 --> 00:01:06.754
+Mereka sangat tidak stabil, dan mereka memerlukan beberapa bentuk
+
+00:01:06.754 --> 00:01:10.726
+umpan balik kontrol otomatis untuk bisa terbang.
+
+00:01:16.259 --> 00:01:19.497
+Jadi, bagaimana cara ia melakukannya?
+
+00:01:19.497 --> 00:01:21.315
+Kamera di langit-langit dan sebuah laptop
+
+00:01:21.315 --> 00:01:23.891
+berfungsi sebagai global positioning system indoor.
+
+00:01:23.891 --> 00:01:26.076
+Hal ini digunakan untuk menemukan objek dalam ruang
+
+00:01:26.076 --> 00:01:28.603
+yang memiliki tanda-tanda reflektif ini.
+
+00:01:28.603 --> 00:01:30.664
+Data ini kemudian dikirim ke laptop lain
+
+00:01:30.664 --> 00:01:32.875
+yang menjalankan estimasi dan algoritma kontrol,
+
+00:01:32.875 --> 00:01:34.761
+yang kemudian mengirim perintah ke quad,
+
+00:01:34.761 --> 00:01:38.246
+yang juga menjalankan estimasi dan algoritma kontrol.
+
+00:01:41.620 --> 00:01:44.130
+Sebagian besar penelitian kami adalah mengenai algoritma.
+
+00:01:44.130 --> 00:01:48.291
+Itu adalah keajaiban yang membuat mesin ini hidup.
+
+00:01:48.291 --> 00:01:50.334
+Jadi bagaimana mendesain algoritma
+
+00:01:50.334 --> 00:01:52.611
+yang menciptakan sebuah atlet mesin?
+
+00:01:52.611 --> 00:01:55.491
+Kami menggunakan sesuatu yang disebut desain berbasis model.
+
+00:01:55.491 --> 00:01:58.645
+Kami menangkap gerak fisika dengan model matematika
+
+00:01:58.645 --> 00:02:00.779
+bagaimana mesin berperilaku.
+
+00:02:00.779 --> 00:02:03.076
+Lalu kami menggunakan cabang dari matematika
+
+00:02:03.076 --> 00:02:05.907
+yang disebut teori kontrol untuk menganalisis model ini
+
+00:02:05.907 --> 00:02:09.820
+dan juga untuk mensintesis algoritma untuk mengendalikan mereka.
+
+00:02:09.820 --> 00:02:12.868
+Sebagai contoh, itu adalah bagaimana kita dapat membuat quad melakukan hover.
+
+00:02:12.868 --> 00:02:14.276
+Kami menangkap dinamikanya
+
+00:02:14.276 --> 00:02:16.182
+dengan serangkaian persamaan diferensial.
+
+00:02:16.182 --> 00:02:18.531
+Kita kemudian memanipulasi persamaan dengan bantuan
+
+00:02:18.531 --> 00:02:23.171
+dari teori kontrol untuk membuat algoritma yang menstabilkan quad.
+
+00:02:23.171 --> 00:02:26.117
+Biarkan aku tunjukkan kekuatan dari pendekatan ini.
+
+00:02:29.198 --> 00:02:31.747
+Katakan kita ingin quad ini tidak hanya melayang
+
+00:02:31.747 --> 00:02:34.529
+tetapi juga menyeimbangkan tiang ini.
+
+00:02:34.529 --> 00:02:36.373
+Dengan sedikit latihan,
+
+00:02:36.373 --> 00:02:38.764
+Hal ini cukup sederhana untuk dilakukan manusia.
+
+00:02:38.764 --> 00:02:40.519
+Meskipun kita memiliki keuntungan memiliki
+
+00:02:40.519 --> 00:02:41.847
+dua kaki di tanah
+
+00:02:41.847 --> 00:02:44.804
+dan penggunaan tangan kita yang sangat serba bisa.
+
+00:02:44.804 --> 00:02:47.273
+Hal ini menjadi sedikit lebih sulit
+
+00:02:47.273 --> 00:02:49.569
+ketika saya hanya memiliki satu kaki di atas tanah
+
+00:02:49.569 --> 00:02:52.368
+dan tidak menggunakan tangan saya.
+
+00:02:52.368 --> 00:02:55.319
+Perhatikan bagaimana tiang ini memiliki penanda reflektif di atas,
+
+00:02:55.319 --> 00:02:59.213
+yang berarti bahwa itu dapat ditentukan di ruang.
+
+00:03:04.971 --> 00:03:10.947
+(Tepuk tangan)
+
+00:03:10.947 --> 00:03:13.773
+Anda dapat melihat bahwa quad ini membuat penyesuaian halus
+
+00:03:13.773 --> 00:03:15.968
+untuk menjaga tiang seimbang.
+
+00:03:15.968 --> 00:03:19.027
+Bagaimana kita melakukan desain algoritma untuk melakukan hal ini?
+
+00:03:19.027 --> 00:03:21.132
+Kami menambahkan model matematis kutub
+
+00:03:21.132 --> 00:03:22.623
+dengan quad.
+
+00:03:22.644 --> 00:03:25.605
+Setelah kita memiliki model sistem gabungan quad-tiang,
+
+00:03:25.605 --> 00:03:30.538
+kita dapat menggunakan teori kontrol untuk membuat algoritma untuk mengendalikannya.
+
+00:03:30.538 --> 00:03:32.126
+Anda bisa melihat bahwa itu stabil,
+
+00:03:32.126 --> 00:03:34.819
+dan bahkan jika saya memberikan sedikit dorongan,
+
+00:03:34.819 --> 00:03:40.222
+ia kembali ke posisi seimbang.
+
+00:03:40.222 --> 00:03:41.885
+Kami juga dapat menambah model untuk menyertakan
+
+00:03:41.885 --> 00:03:44.326
+dimana kita inginkan quad berada dalam ruang.
+
+00:03:44.326 --> 00:03:47.395
+Menggunakan pointer ini, terbuat dari penanda reflektif,
+
+00:03:47.395 --> 00:03:49.619
+Saya dapat menunjukkan ke mana saya ingin quad berada dalam ruang
+
+00:03:49.619 --> 00:03:52.986
+dalam jarak yang tetap dari Saya.
+
+00:04:07.763 --> 00:04:10.665
+Kunci dari manuver akrobatik ini adalah algoritma,
+
+00:04:10.665 --> 00:04:13.091
+yang dirancang dengan bantuan model-model matematik
+
+00:04:13.091 --> 00:04:15.041
+dan kontrol teori.
+
+00:04:15.041 --> 00:04:17.255
+Mari perintahkan quad untuk datang kembali ke sini
+
+00:04:17.255 --> 00:04:19.074
+dan biarkan tiangnya jatuh,
+
+00:04:19.074 --> 00:04:20.992
+dan berikutnya saya akan menunjukkan betapa pentingnya
+
+00:04:20.992 --> 00:04:23.111
+memahami model fisika
+
+00:04:23.111 --> 00:04:27.231
+dan cara kerja dunia fisik.
+
+00:04:37.462 --> 00:04:39.232
+Perhatikan bagaimana quad kehilangan ketinggian
+
+00:04:39.232 --> 00:04:41.314
+ketika saya meletakkan segelas air di atasnya.
+
+00:04:41.314 --> 00:04:44.115
+Tidak seperti menyeimbangkan tiang, saya tidak menyertakan
+
+00:04:44.115 --> 00:04:46.699
+model matematika gelas ke dalam sistem.
+
+00:04:46.699 --> 00:04:49.618
+Pada kenyataannya, sistem bahkan tidak tahu ada segelas air.
+
+00:04:49.618 --> 00:04:52.910
+Seperti sebelumnya, aku bisa menggunakan pointer untuk memberitahu quad
+
+00:04:52.910 --> 00:04:55.499
+mana aku ingin ia berada di ruang.
+
+00:04:55.499 --> 00:05:05.096
+(Tepuk tangan)
+
+00:05:05.096 --> 00:05:07.206
+Oke, Anda harus bertanya pada diri sendiri,
+
+00:05:07.206 --> 00:05:09.715
+mengapa airnya tidak tumpah?
+
+00:05:09.715 --> 00:05:12.926
+Dua fakta: yang pertama adalah gaya gravitasi
+
+00:05:12.926 --> 00:05:15.051
+berpengaruh pada semua objek dengan cara yang sama.
+
+00:05:15.051 --> 00:05:17.515
+Yang kedua adalah semua baling-baling menunjuk
+
+00:05:17.515 --> 00:05:20.642
+dalam arah yang sama dengan gelas, yaitu ke atas.
+
+00:05:20.642 --> 00:05:23.019
+Dengan kedua hal ini, hasil akhirnya
+
+00:05:23.019 --> 00:05:25.306
+adalah bahwa semua gaya samping pada gelas adalah kecil
+
+00:05:25.306 --> 00:05:28.091
+dan lebih banyak didominasi oleh efek aerodinamis,
+
+00:05:28.091 --> 00:05:31.932
+dimana dapat diabaikan pada kecepatan ini.
+
+00:05:35.336 --> 00:05:37.407
+Dan itulah mengapa Anda tidak perlu model gelas.
+
+00:05:37.407 --> 00:05:41.255
+Itu tidak akan tumpah, apapun yang dilakukan quad.
+
+00:05:50.651 --> 00:05:57.702
+(Tepuk tangan)
+
+00:05:57.702 --> 00:06:01.718
+Pelajaran di sini adalah bahwa beberapa tugas kinerja tinggi
+
+00:06:01.718 --> 00:06:03.115
+lebih mudah daripada yang lain,
+
+00:06:03.115 --> 00:06:05.411
+dan bahwa pemahaman fisika dari masalah
+
+00:06:05.411 --> 00:06:08.027
+memberitahu Anda mana mudah dan mana sulit.
+
+00:06:08.027 --> 00:06:10.386
+Dalam contoh ini, membawa segelas air sangat mudah.
+
+00:06:10.386 --> 00:06:14.171
+Menyeimbangkan tiang sulit.
+
+00:06:14.171 --> 00:06:15.973
+Kita semua telah mendengar cerita tentang atlet
+
+00:06:15.973 --> 00:06:18.466
+yang melakukan prestasi sementara secara fisik terluka.
+
+00:06:18.466 --> 00:06:19.985
+Dapatkah mesin berkinerja
+
+00:06:19.985 --> 00:06:22.636
+dengan kerusakan fisik yang ekstrim?
+
+00:06:22.636 --> 00:06:24.362
+Kebijaksanaan konvensional menyatakan bahwa Anda perlu
+
+00:06:24.362 --> 00:06:28.052
+setidaknya empat baling-baling motor untuk terbang,
+
+00:06:28.052 --> 00:06:30.164
+karena ada empat derajat kebebasan yang perlu dikontrol:
+
+00:06:30.164 --> 00:06:33.192
+Roll, pitch, yaw dan percepatan.
+
+00:06:33.192 --> 00:06:36.437
+Hexacopters dan octocopters, dengan baling-baling enam sampai delapan,
+
+00:06:36.437 --> 00:06:37.920
+dapat menyediakan redundansi,
+
+00:06:37.920 --> 00:06:39.909
+Tapi quadrocopters jauh lebih populer
+
+00:06:39.909 --> 00:06:41.724
+karena mereka memiliki
+
+00:06:41.724 --> 00:06:44.200
+jumlah baling-baling motor paling minim: empat.
+
+00:06:44.200 --> 00:06:46.165
+Benarkah?
+
+00:07:01.476 --> 00:07:04.076
+Jika kita menganalisis model matematis mesin ini
+
+00:07:04.076 --> 00:07:06.252
+dengan hanya 2 baling-baling yang bekerja,
+
+00:07:06.252 --> 00:07:13.008
+kita menemukan cara yang tidak biasa untuk terbang.
+
+00:07:19.980 --> 00:07:21.686
+Kita melepaskan kendali yaw,
+
+00:07:21.686 --> 00:07:24.756
+Tapi roll, pitch dan percepatan masih dapat dikontrol
+
+00:07:24.756 --> 00:07:30.208
+dengan algoritma yang mengeksploitasi konfigurasi baru ini.
+
+00:07:33.668 --> 00:07:36.100
+Model-model matematik memberitahu kami persis kapan
+
+00:07:36.100 --> 00:07:38.172
+dan mengapa ini dapat dilakukan.
+
+00:07:38.172 --> 00:07:40.540
+Dalam contoh ini, pengetahuan ini memungkinkan kita untuk desain
+
+00:07:40.540 --> 00:07:42.796
+arsitektur mesin baru
+
+00:07:42.796 --> 00:07:46.972
+atau untuk mendesain algoritma cerdas yang dapat menangani kerusakan,
+
+00:07:46.972 --> 00:07:48.696
+sama seperti yang dilakukan atlet manusia,
+
+00:07:48.696 --> 00:07:52.519
+alih-alih membangun mesin dengan redundansi.
+
+00:07:52.519 --> 00:07:54.631
+Kita pasti menahan napas ketika menonton
+
+00:07:54.631 --> 00:07:57.068
+seorang penyelam jungkir balik menyelam ke air,
+
+00:07:57.068 --> 00:07:58.858
+atau ketika atlit lompat tinggi berputar di udara,
+
+00:07:58.858 --> 00:08:00.576
+dan tanah bergerak mendekat dengan cepat.
+
+00:08:00.576 --> 00:08:03.144
+Apakah penyelam akan menyelam dengan sedikit cipratan air?
+
+00:08:03.144 --> 00:08:05.144
+Akan atlit lompat tinggi berhasil melompat?
+
+00:08:05.144 --> 00:08:06.812
+Misalkan kita ingin quad ini
+
+00:08:06.812 --> 00:08:09.263
+untuk melakukan jungkir balik tiga kali dan berakhir
+
+00:08:09.263 --> 00:08:11.532
+di tempat yang persis sama.
+
+00:08:11.532 --> 00:08:13.879
+Manuver ini akan terjadi begitu cepat
+
+00:08:13.879 --> 00:08:17.508
+sehingga kita tidak dapat menggunakan umpan balik posisi untuk memperbaiki gerak selama eksekusi.
+
+00:08:17.508 --> 00:08:19.782
+Waktunya tidak cukup.
+
+00:08:19.782 --> 00:08:23.476
+Sebaliknya, apa yang quad dapat lakukan adalah melakukan manuver secara buta,
+
+00:08:23.476 --> 00:08:25.708
+mengamati bagaimana hasilnya setelah melakukan manuver,
+
+00:08:25.708 --> 00:08:28.132
+dan kemudian menggunakan informasi tersebut untuk memodifikasi perilakunya
+
+00:08:28.132 --> 00:08:30.421
+sehingga jungkir balik berikutnya menjadi lebih baik.
+
+00:08:30.421 --> 00:08:32.233
+Mirip dengan penyelam dan atlit lompat tinggi,
+
+00:08:32.233 --> 00:08:34.152
+hanya melalui latihan yang diulang-ulang
+
+00:08:34.152 --> 00:08:36.077
+manuver dapat dipelajari dan dieksekusi
+
+00:08:36.077 --> 00:08:38.210
+dengan standar tertinggi.
+
+00:08:46.412 --> 00:08:51.164
+(Tepuk tangan)
+
+00:08:51.164 --> 00:08:54.636
+Memukul bola yang bergerak adalah keterampilan yang diperlukan dalam banyak olahraga.
+
+00:08:54.636 --> 00:08:56.431
+Bagaimana kita membuat sebuah mesin melakukan sesuatu
+
+00:08:56.431 --> 00:09:00.184
+yang dapat dilakukan dengan mudah oleh seorang atlet?
+
+00:09:15.943 --> 00:09:22.542
+(Tepuk tangan)
+
+00:09:22.542 --> 00:09:25.192
+Quad ini memiliki raket yang diikat di kepalanya
+
+00:09:25.192 --> 00:09:28.679
+dengan sweet spot kira-kira ukuran sebuah apel, jadi tidak terlalu besar.
+
+00:09:28.679 --> 00:09:31.846
+Perhitungan berikut dibuat setiap 20 milidetik,
+
+00:09:31.846 --> 00:09:33.602
+atau 50 kali per detik.
+
+00:09:33.602 --> 00:09:36.414
+Pertama kami menghitung arah bola.
+
+00:09:36.414 --> 00:09:38.851
+Kemudian kami menghitung bagaimana quad harus memukul bola
+
+00:09:38.851 --> 00:09:41.950
+sehingga ia akan terbang dari asal lemparan.
+
+00:09:41.950 --> 00:09:46.406
+Ketiga, lintasan direncanakan yang membawa quad
+
+00:09:46.406 --> 00:09:49.430
+dari kondisi saat itu ke titik tubrukan dengan bola.
+
+00:09:49.430 --> 00:09:53.239
+Keempat, kami hanya menjalankan strategi selama 20 milidetik.
+
+00:09:53.239 --> 00:09:56.046
+20 milidetik kemudian, seluruh proses diulang
+
+00:09:56.046 --> 00:09:58.289
+sampai quad memukul bola.
+
+00:10:07.560 --> 00:10:10.206
+(Tepuk tangan)
+
+00:10:10.206 --> 00:10:13.578
+Mesin tidak hanya dapat melakukan manuver dinamis sendiri,
+
+00:10:13.578 --> 00:10:15.441
+mereka dapat melakukannya secara kolektif.
+
+00:10:15.441 --> 00:10:19.028
+Ketiga quad ini membawa net.
+
+00:10:28.574 --> 00:10:33.985
+(Tepuk tangan)
+
+00:10:33.985 --> 00:10:36.182
+Mereka melakukan manuver yang ekstrim
+
+00:10:36.182 --> 00:10:38.350
+secara kolektif
+
+00:10:38.350 --> 00:10:40.042
+untuk memantulkan bola kembali ke Saya.
+
+00:10:40.042 --> 00:10:43.553
+Perhatikan, pada posisi ekstensi maksimum, posisi quad ini vertikal.
+
+00:10:48.486 --> 00:10:50.258
+(Tepuk tangan)
+
+00:10:50.258 --> 00:10:52.545
+Bahkan ketika sepenuhnya dibentangkan
+
+00:10:52.545 --> 00:10:55.230
+ini kira-kira lima kali lebih besar daripada apa yang dirasakan bungee jumper
+
+00:10:55.230 --> 00:10:59.818
+pada akhir peluncuran mereka.
+
+00:11:03.009 --> 00:11:05.686
+Algoritma untuk melakukan hal ini sangat mirip
+
+00:11:05.686 --> 00:11:09.070
+dengan yang digunakan oleh quad tunggal untuk memukul bola kembali ke saya.
+
+00:11:09.070 --> 00:11:11.934
+Model matematika digunakan untuk terus-menerus merencanakan kembali
+
+00:11:11.934 --> 00:11:16.449
+strategi kerjasama 50 kali per detik.
+
+00:11:16.449 --> 00:11:18.326
+Segala sesuatu yang telah kita lihat sejauh ini
+
+00:11:18.326 --> 00:11:20.789
+adalah mengenai mesin dan kemampuan mereka.
+
+00:11:20.789 --> 00:11:23.804
+Apa yang terjadi ketika kita pasangkan atletisme mesin ini
+
+00:11:23.804 --> 00:11:25.580
+dengan atletisme manusia?
+
+00:11:25.580 --> 00:11:29.385
+Apa yang saya miliki di depan saya adalah sensor gerakan komersial
+
+00:11:29.385 --> 00:11:30.694
+yang biasa digunakan dalam game.
+
+00:11:30.694 --> 00:11:32.498
+Itu mengenali apa yang dilakukan oleh bagian tubuh saya
+
+00:11:32.498 --> 00:11:34.546
+dalam real time.
+
+00:11:34.546 --> 00:11:36.662
+Mirip dengan pointer yang saya gunakan sebelumnya,
+
+00:11:36.662 --> 00:11:39.454
+kita dapat menggunakan ini sebagai masukan ke sistem.
+
+00:11:39.454 --> 00:11:41.850
+Kini kita memiliki cara yang alami untuk berinteraksi
+
+00:11:41.850 --> 00:11:46.794
+dengan atletisme mentah dari quad ini menggunakan gerak tubuh saya.
+
+00:12:22.453 --> 00:12:26.853
+(Tepuk tangan)
+
+00:12:35.982 --> 00:12:39.989
+Interaksi tidak harus berupa virtual. Hal ini dapat berupa fisik.
+
+00:12:39.989 --> 00:12:41.714
+Contohnya quad ini.
+
+00:12:41.714 --> 00:12:44.342
+Ia mencoba untuk tetap di titik tertentu dalam ruang.
+
+00:12:44.342 --> 00:12:48.179
+Jika saya mencoba untuk memindahkannya, ia akan melawan saya,
+
+00:12:48.179 --> 00:12:52.334
+dan bergerak kembali.
+
+00:12:52.334 --> 00:12:55.373
+Kita dapat mengubah perilaku ini.
+
+00:12:55.373 --> 00:12:57.072
+Kita dapat menggunakan model-model matematik
+
+00:12:57.072 --> 00:13:00.205
+untuk memperkirakan kekuatan yang saya terapkan terhadap quad.
+
+00:13:00.205 --> 00:13:03.443
+Setelah kita mengetahui kekuatan ini, kita juga dapat mengubah hukum fisika,
+
+00:13:03.443 --> 00:13:07.942
+sejauh yang diperlukan oleh quad, tentu saja.
+
+00:13:07.942 --> 00:13:10.205
+Di sini quad berperilaku seolah-olah
+
+00:13:10.205 --> 00:13:14.570
+dalam cairan kental.
+
+00:13:14.570 --> 00:13:16.744
+Sekarang kita memiliki cara yang intim
+
+00:13:16.744 --> 00:13:18.593
+untuk berinteraksi dengan mesin.
+
+00:13:18.593 --> 00:13:21.099
+Saya akan menggunakan kemampuan baru untuk memposisikan
+
+00:13:21.099 --> 00:13:23.676
+quad yang membawa kamera ini ke lokasi yang sesuai
+
+00:13:23.676 --> 00:13:26.862
+untuk merekam sisa demonstrasi ini.
+
+00:13:36.222 --> 00:13:38.990
+Jadi kita dapat berinteraksi secara fisik dengan quad ini
+
+00:13:38.990 --> 00:13:41.393
+dan dapat mengubah hukum fisika.
+
+00:13:41.393 --> 00:13:43.706
+Mari kita bersenang-senang dengan hal ini.
+
+00:13:43.706 --> 00:13:45.410
+Yang akan Anda lihat selanjutnya, quad ini
+
+00:13:45.410 --> 00:13:48.906
+pada awalnya bersikap seolah-olah mereka berada di Pluto.
+
+00:13:48.906 --> 00:13:51.218
+Seiring waktu, gravitasi akan meningkat
+
+00:13:51.218 --> 00:13:53.338
+sampai kita semua kembali di planet Bumi,
+
+00:13:53.338 --> 00:13:55.057
+tapi saya bisa memastikan kami tidak akan sampai ke sana.
+
+00:13:55.057 --> 00:13:58.558
+Oke, kita mulai.
+
+00:14:05.667 --> 00:14:09.079
+(Tertawa)
+
+00:14:34.778 --> 00:14:37.986
+(Tertawa)
+
+00:14:37.986 --> 00:14:41.372
+(Tepuk tangan)
+
+00:14:41.372 --> 00:14:42.579
+Wah!
+
+00:14:46.779 --> 00:14:48.296
+Tentu Anda semua berpikir,
+
+00:14:48.296 --> 00:14:50.271
+orang-orang ini terlalu banyak bersenang-senang,
+
+00:14:50.271 --> 00:14:52.350
+dan Anda mungkin juga bertanya pada diri sendiri,
+
+00:14:52.350 --> 00:14:56.286
+mengapa mereka membangun mesin atlet?
+
+00:14:56.286 --> 00:14:58.938
+Beberapa dugaan adalah peran bermain di dunia binatang
+
+00:14:58.938 --> 00:15:01.690
+adalah untuk mengasah keterampilan dan mengembangkan kemampuan.
+
+00:15:01.690 --> 00:15:03.756
+Orang lain berpikir bahwa bermain lebih memiliki peran sosial,
+
+00:15:03.756 --> 00:15:05.430
+itu digunakan untuk mengikat kelompok.
+
+00:15:05.430 --> 00:15:08.963
+Demikian pula, kami menggunakan analogi olahraga dan atletis
+
+00:15:08.963 --> 00:15:11.042
+untuk membuat algoritma baru untuk mesin
+
+00:15:11.042 --> 00:15:13.189
+untuk mendorong mereka ke batas-batas mereka.
+
+00:15:13.189 --> 00:15:16.866
+Apakah dampak dari kecepatan mesin terhadap hidup kita?
+
+00:15:16.866 --> 00:15:19.255
+Seperti semua kreasi dan inovasi kita di masa lalu,
+
+00:15:19.255 --> 00:15:22.082
+mereka dapat digunakan untuk meningkatkan kondisi manusia
+
+00:15:22.082 --> 00:15:24.583
+atau mereka mungkin disalahgunakan dan dimanfaatkan berlebihan.
+
+00:15:24.583 --> 00:15:26.506
+Kita tidak menghadapi pilihan teknis,
+
+00:15:26.506 --> 00:15:28.261
+ini adalah pilihan sosial.
+
+00:15:28.261 --> 00:15:29.651
+Mari membuat pilihan yang tepat,
+
+00:15:29.651 --> 00:15:32.056
+pilihan yang menghasilkan yang terbaik di masa depan mesin,
+
+00:15:32.056 --> 00:15:33.868
+seperti atletisme dalam olahraga
+
+00:15:33.868 --> 00:15:36.029
+memberikan yang terbaik dalam diri kita.
+
+00:15:36.029 --> 00:15:39.479
+Izinkan saya memperkenalkan Anda ke penyihir di balik tirai hijau.
+
+00:15:39.479 --> 00:15:42.379
+Mereka anggota tim peneliti terkini Flying Machine Arena.
+
+00:15:42.379 --> 00:15:47.148
+(Tepuk tangan)
+
+00:15:47.148 --> 00:15:50.194
+Federico Augugliaro, Dario Brescianini, Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+Sergei Lupashin, Mark Muller dan Robin Ritz.
+
+00:15:53.018 --> 00:15:54.950
+Perhatikan mereka. Mereka ditakdirkan untuk hal-hal besar.
+
+00:15:54.950 --> 00:15:56.128
+Terima kasih.
+
+00:15:56.128 --> 00:16:02.482
+(Tepuk tangan)
+

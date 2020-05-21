@@ -1,0 +1,1225 @@
+WEBVTT
+Kind: captions
+Language: da
+
+00:00:00.000 --> 00:00:07.000
+Translator: Anders Finn Jørgensen
+Reviewer: 
+
+00:00:12.588 --> 00:00:15.619
+Jeg er professor i datalogi,
+
+00:00:15.619 --> 00:00:17.932
+og er ekspert indenfor
+
+00:00:17.932 --> 00:00:20.131
+computer- og informationssikkerhed.
+
+00:00:20.131 --> 00:00:22.451
+Da jeg læste på universitet
+
+00:00:22.451 --> 00:00:25.052
+overhørte jeg hvordan min bedstemor
+
+00:00:25.052 --> 00:00:29.186
+beskrev overfor en af hendes ældre venner
+
+00:00:29.186 --> 00:00:31.555
+hvad jeg arbejde med.
+
+00:00:31.555 --> 00:00:35.117
+Tilsyneladende, havde jeg ansvaret for at
+
+00:00:35.117 --> 00:00:39.017
+ingen stjal computere fra universitetet. (latter)
+
+00:00:39.017 --> 00:00:41.761
+Og, som I ved, det er en ganske fornuftig ting
+
+00:00:41.761 --> 00:00:43.681
+for hende at tro, fordi jeg havde fortalt hende at jeg
+
+00:00:43.681 --> 00:00:45.188
+arbejde med computersikkerhed,
+
+00:00:45.188 --> 00:00:48.785
+og det var interessant at se det fra hendes perspektiv.
+
+00:00:48.785 --> 00:00:51.402
+Men det er ikke det mest morsomme jeg har hørt
+
+00:00:51.402 --> 00:00:53.419
+nogen sige om mit arbejde.
+
+00:00:53.419 --> 00:00:55.703
+Det mest latterlige jeg endnu har hørt var -
+
+00:00:55.703 --> 00:00:58.837
+Jeg var til en selskab og en kvinde hørte
+
+00:00:58.837 --> 00:01:00.620
+at jeg arbejde med computersikkerhed
+
+00:01:00.620 --> 00:01:04.137
+og hun spurgte mig -- hun sagde at hendes computer var blevet
+
+00:01:04.137 --> 00:01:07.573
+smittet med en virus, og hun var meget bekymret for
+
+00:01:07.573 --> 00:01:11.524
+hun kunne blive syg af den virus. (Latter)
+
+00:01:11.524 --> 00:01:14.467
+Jeg er ikke en læge, men jeg forsikrede hende om
+
+00:01:14.467 --> 00:01:17.611
+at det var meget meget usandsynligt at det ville ske,
+
+00:01:17.611 --> 00:01:20.412
+men hvis hun følte sig mere sikker kunne hun bruge
+
+00:01:20.412 --> 00:01:22.260
+gummihandsker når hun brugte sin computer
+
+00:01:22.260 --> 00:01:25.652
+og der ville ikke være noget farligt i det.
+
+00:01:25.652 --> 00:01:28.159
+Jeg vil vende tilbage til den opfattelse 
+at det er muligt
+
+00:01:28.159 --> 00:01:31.667
+at få en virus fra sin computer, i en alvorligt sag.
+
+00:01:31.667 --> 00:01:33.307
+Hvad jeg vil tale med jer om i dag
+
+00:01:33.307 --> 00:01:38.153
+er nogle hacks, nogle virkelige 
+cyber-angreb som folk
+
+00:01:38.153 --> 00:01:40.707
+i mit samfund, det videnskabelige forskningssamfund,
+
+00:01:40.707 --> 00:01:43.501
+har udført og som jeg ikke tror
+
+00:01:43.501 --> 00:01:44.709
+at mange mennesker har hørt om.
+
+00:01:44.709 --> 00:01:47.737
+og jeg syntes de er meget interessante og skræmmende
+
+00:01:47.737 --> 00:01:50.178
+og denne tale er en slags greatest hits
+
+00:01:50.178 --> 00:01:53.169
+af hacks indenfor det akademiske samfund.
+
+00:01:53.169 --> 00:01:55.156
+Intet af dette arbejde er mit arbejde, 
+det er alt sammen
+
+00:01:55.156 --> 00:01:57.330
+udført af mine kollegaer og jeg har bedt dem
+
+00:01:57.330 --> 00:01:59.887
+om nogen af deres slides og 
+lagt dem ind i denne tale.
+
+00:01:59.887 --> 00:02:01.629
+Så, det første jeg vil tale om
+
+00:02:01.629 --> 00:02:04.303
+er indopererede medicotekniske apparater.
+
+00:02:04.303 --> 00:02:07.343
+Nu er medicotekniske apparater kommet 
+langt teknologisk.
+
+00:02:07.343 --> 00:02:11.199
+Dette er den første opfindelse af 
+en pacemaker fra 1926.
+
+00:02:11.199 --> 00:02:14.751
+i 1960 den første indre pacemaker var indopereret,
+
+00:02:14.751 --> 00:02:17.303
+forhåbentligt en smule mindre end den I ser her,
+
+00:02:17.303 --> 00:02:20.271
+og teknologien har forsat bevæget sig fremad
+
+00:02:20.271 --> 00:02:24.904
+I 2006, ramte vi en vigtig milesten set ud fra
+
+00:02:24.904 --> 00:02:28.071
+computersikkerhed.
+
+00:02:28.071 --> 00:02:29.412
+Og hvorfor siger jeg dette?
+
+00:02:29.412 --> 00:02:32.302
+Fordi det var dengang man begyndte at indoperere
+
+00:02:32.302 --> 00:02:35.047
+apparater med netværksadgang.
+
+00:02:35.047 --> 00:02:36.927
+En ting som er bekendt vi kan kigge
+
+00:02:36.927 --> 00:02:39.632
+på er Dick Cheney's apparat, han har et apparat
+
+00:02:39.632 --> 00:02:43.501
+som pumper blod fra aorta til en anden del af hjertet,
+
+00:02:43.501 --> 00:02:44.684
+og som I kan se nede i bunden her
+
+00:02:44.684 --> 00:02:47.693
+var det kontrolleret af en computer
+
+00:02:47.693 --> 00:02:50.210
+og hvis I nogensinde har tænkt at software troværdighed
+
+00:02:50.210 --> 00:02:53.799
+var meget vigtigt, så prøv at få en af disse ind i dig.
+
+00:02:53.799 --> 00:02:57.494
+Hvad et forskningshold gjorde var at de fik fat på
+
+00:02:57.494 --> 00:02:58.914
+hvad der kaldes en ICD.
+
+00:02:58.914 --> 00:03:00.984
+Det er en defibrillator, og det er et apparat
+
+00:03:00.984 --> 00:03:05.320
+som placeres inde i personer for at 
+kontrollere deres hjerterytme
+
+00:03:05.320 --> 00:03:07.658
+og disse har reddet mange liv.
+
+00:03:07.658 --> 00:03:10.130
+Okay, for ikke at åbne op ind i personen
+
+00:03:10.130 --> 00:03:12.324
+hver gang vi ønsker at reprogrammere apparatet
+
+00:03:12.324 --> 00:03:14.779
+eller lave noget diagnostik, de har gjort 
+dimsen i stand til
+
+00:03:14.779 --> 00:03:17.881
+at kommunikere trådløst, og hvad dette forskningsteam gjorde
+
+00:03:17.881 --> 00:03:20.491
+var at reverse engineere den trådløse protokol
+
+00:03:20.491 --> 00:03:22.363
+og bygge dette apparat I ser her,
+
+00:03:22.363 --> 00:03:25.123
+med en lille antenne, som kunne tale med
+
+00:03:25.123 --> 00:03:29.598
+apparatet og derved kontrollere det.
+
+00:03:29.598 --> 00:03:32.287
+For at gøre deres eksperiment naturtro -- 
+de kunne ikke
+
+00:03:32.287 --> 00:03:34.759
+nogen frivillige, så de tog noget
+
+00:03:34.759 --> 00:03:36.903
+kød og noget bacon
+
+00:03:36.903 --> 00:03:38.691
+og om bandt det sammen
+
+00:03:38.691 --> 00:03:41.489
+så det svarede til en menneskekrop
+
+00:03:41.489 --> 00:03:42.943
+og de placerede apparatet inde i det
+
+00:03:42.943 --> 00:03:46.075
+for at udføre deres eksperiment 
+nogenlunde realistisk.
+
+00:03:46.075 --> 00:03:49.095
+De gennemførte mange succesfulde angreb.
+
+00:03:49.095 --> 00:03:52.151
+En som jeg vil fremhæve her er at ændre 
+patientens navn.
+
+00:03:52.151 --> 00:03:53.144
+Jeg ved ikke hvorfor du skulle ønske at gøre det,
+
+00:03:53.144 --> 00:03:55.248
+men jeg er sikker på at jeg ikke ønskede 
+at det skete for mig.
+
+00:03:55.248 --> 00:03:57.579
+Og de kunne ændre på behandlinger,
+
+00:03:57.579 --> 00:04:00.074
+herunder at slå apparatet fra -- og dette med ægte,
+
+00:04:00.074 --> 00:04:01.970
+kommercielle, apparater i handlen --
+
+00:04:01.970 --> 00:04:04.016
+kun ved at lave reverse engineering og sende
+
+00:04:04.016 --> 00:04:07.005
+trådløse signaler til det.
+
+00:04:07.005 --> 00:04:10.585
+Der var en udsendelse på NPR, 
+at nogle af disse ICD'er
+
+00:04:10.585 --> 00:04:13.007
+kan få deres funktion forstyrret
+
+00:04:13.007 --> 00:04:16.658
+ved bare at holde et par hovedtelefoner hen til dem.
+
+00:04:16.658 --> 00:04:18.067
+Okay, trådløst netværk og internettet
+
+00:04:18.067 --> 00:04:19.719
+kan forbedre sundhedspleje enormt.
+
+00:04:19.719 --> 00:04:21.806
+Der er adskillelige eksempler på skærmen
+
+00:04:21.806 --> 00:04:24.913
+med situationer hvor læger kan kigge på implanterede apparater
+
+00:04:24.913 --> 00:04:27.778
+inde i folk, og alle disse apparater kan som
+
+00:04:27.778 --> 00:04:30.903
+standard kommunikere trådløst,
+
+00:04:30.903 --> 00:04:32.315
+og jeg syntes det er fantastisk,
+
+00:04:32.315 --> 00:04:35.420
+men uden fuld forståelse for sikre computere,
+
+00:04:35.420 --> 00:04:37.827
+og uden forståelse for hvad hackere kan gøre
+
+00:04:37.827 --> 00:04:39.974
+og sikkerhedsrisici fra begyndelsen,
+
+00:04:39.974 --> 00:04:42.364
+så er der mange farer ved det.
+
+00:04:42.364 --> 00:04:43.841
+Okay, lad mig skifte gear og vise jer et andet mål.
+
+00:04:43.841 --> 00:04:45.929
+Jeg vil vise jer nogle andre typer mål som dette,
+
+00:04:45.929 --> 00:04:48.846
+og det er min tale. Så vi vil kigge på biler.
+
+00:04:48.846 --> 00:04:51.742
+Dette er en bil og den har en masse komponenter,
+
+00:04:51.742 --> 00:04:53.362
+en masse elektronik i den i dag.
+
+00:04:53.362 --> 00:04:57.739
+Faktisk indeholder den en masse computere,
+
+00:04:57.739 --> 00:05:00.894
+flere pentiumer end mit laboratorium havde da jeg gik i college,
+
+00:05:00.894 --> 00:05:04.533
+og de er forbundne med et kablet netværk.
+
+00:05:04.533 --> 00:05:07.964
+Der er også et trådløst netværk i bilen,
+
+00:05:07.964 --> 00:05:11.197
+som man kan tilgå på en række forskellige måder.
+
+00:05:11.197 --> 00:05:14.898
+Der er Bluetooth, der er FM og der er XM radio,
+
+00:05:14.898 --> 00:05:17.718
+der er faktisk Wifi, der er sensorer i hjulene
+
+00:05:17.718 --> 00:05:19.871
+som trådløst kan kommunikere dæktrykket
+
+00:05:19.871 --> 00:05:21.677
+til et kontrolpanel.
+
+00:05:21.677 --> 00:05:26.595
+Den moderne bil er et sofistikeret multicomputerapparat.
+
+00:05:26.595 --> 00:05:29.917
+Og hvad sker der hvis nogen prøver at angribe det?
+
+00:05:29.917 --> 00:05:31.234
+Well, det var hvad forskerne gjorde.
+
+00:05:31.234 --> 00:05:33.105
+det vil jeg fortælle om i dag.
+
+00:05:33.105 --> 00:05:36.082
+Basalt set koblede en angriber sig på netværket både det kablede
+
+00:05:36.082 --> 00:05:38.404
+og det trådløse netværk.
+
+00:05:38.404 --> 00:05:41.103
+Så, de havde to områder hvor de kunne angribe.
+
+00:05:41.103 --> 00:05:43.141
+Et var det kortrækkende trådløse, 
+hvor du faktisk kan kommunikere
+
+00:05:43.141 --> 00:05:44.922
+med apparatet på tæt hold,
+
+00:05:44.922 --> 00:05:47.059
+enten gennem Bluetooth eller wi-fi,
+
+00:05:47.059 --> 00:05:49.233
+og det andet var langtrækkende hvor 
+du kan kommunikere
+
+00:05:49.233 --> 00:05:51.015
+med bilen vha. mobilnettet,
+
+00:05:51.015 --> 00:05:52.975
+eller gennem en af radiostationerne.
+
+00:05:52.975 --> 00:05:56.024
+Tænk på det. Når bilen modtager et radiosignal,
+
+00:05:56.024 --> 00:05:58.225
+bliver det behandlet af software.
+
+00:05:58.225 --> 00:06:01.286
+Denne software skal modtage og afkode radiosignalet,
+
+00:06:01.286 --> 00:06:02.405
+for derefter at beslutte hvad den skal gøre med det,
+
+00:06:02.405 --> 00:06:05.429
+selvom det bare er musik der skal spilles i radioen,
+
+00:06:05.429 --> 00:06:07.697
+og den software som udfører afkodningen,
+
+00:06:07.697 --> 00:06:10.790
+hvis der er en fejl i den, kan føre til 
+en sårbarhed der kan
+
+00:06:10.790 --> 00:06:13.825
+udnyttes af nogen til at hacke bilen.
+
+00:06:13.825 --> 00:06:16.777
+Måden forskerne gjorde dette var at
+
+00:06:16.777 --> 00:06:21.000
+de læste softwaren i de computerchips
+
+00:06:21.000 --> 00:06:24.193
+der var i bilen og de brugte sofistikerede
+
+00:06:24.193 --> 00:06:25.607
+reverse engineering værktøjer
+
+00:06:25.607 --> 00:06:27.662
+for at finde ud af hvordan softwaren fungerede,
+
+00:06:27.662 --> 00:06:30.703
+og de fandt sårbarheder i denne software,
+
+00:06:30.703 --> 00:06:34.049
+og de byggede exploits for at udnytte disse.
+
+00:06:34.049 --> 00:06:36.431
+De udførte faktisk deres angreb i virkeligheden.
+
+00:06:36.431 --> 00:06:37.781
+De købte to biler, og jeg tror
+
+00:06:37.781 --> 00:06:40.699
+de har bedre budgetter end jeg.
+
+00:06:40.699 --> 00:06:43.289
+Den første trusselsmodel var at se om 
+hvad en angriber kunne gøre
+
+00:06:43.289 --> 00:06:45.433
+hvis han faktisk fik adgang
+
+00:06:45.433 --> 00:06:47.486
+til bilens interne netværk.
+
+00:06:47.486 --> 00:06:50.089
+Okay, forstil dig at nogle kommer hen til din bil,
+
+00:06:50.089 --> 00:06:52.993
+de piler ved den og går igen,
+
+00:06:52.993 --> 00:06:55.361
+og hvilke problemer er du så i?
+
+00:06:55.361 --> 00:06:58.153
+Den anden trusselsmodel er at de kontakter dig
+
+00:06:58.153 --> 00:07:00.610
+direkte over et trådløse netværk
+
+00:07:00.610 --> 00:07:02.665
+f.eks. mobilnettet eller noget tilsvarende,
+
+00:07:02.665 --> 00:07:06.665
+og faktisk aldrig har haft fysisk adgang til bilen.
+
+00:07:06.665 --> 00:07:09.489
+Dette er hvordan deres setup så ud i 
+den første model,
+
+00:07:09.489 --> 00:07:11.172
+hvor de har adgang til bilen.
+
+00:07:11.172 --> 00:07:14.559
+De tog en laptop og forbandt den til vedligeholdelsesenheden
+
+00:07:14.559 --> 00:07:17.498
+i bilene netværk, og de gjorde 
+en masse underlige ting,
+
+00:07:17.498 --> 00:07:20.281
+som her et billede af speedometeret
+
+00:07:20.281 --> 00:07:23.097
+som viser 225 km/t mens bilen står parkeret.
+
+00:07:23.097 --> 00:07:25.470
+Ligeså snart du har kontrol over bilens computere,
+
+00:07:25.470 --> 00:07:26.389
+kan du gøre hvad som helst.
+
+00:07:26.389 --> 00:07:28.005
+Nu kan du sige at det er underligt
+
+00:07:28.005 --> 00:07:29.664
+Men, hvad hvis du fik speedometeret til altid at sige
+
+00:07:29.664 --> 00:07:32.405
+at farten er 30 km/t langsommere end 
+den faktisk er?
+
+00:07:32.405 --> 00:07:34.947
+Du vil modtage en masse fartbøder.
+
+00:07:34.947 --> 00:07:38.803
+Så tog de til en nedlagt lufthavn med to biler,
+
+00:07:38.803 --> 00:07:41.548
+bilen der var mål og en forfølger,
+
+00:07:41.548 --> 00:07:44.294
+og de udførte en række andre angreb.
+
+00:07:44.294 --> 00:07:47.060
+En ting de var istand til fra forfølgerbilen
+
+00:07:47.060 --> 00:07:49.034
+var at styre bremserne i den anden bil,
+
+00:07:49.034 --> 00:07:50.594
+ved at hacke dens computer.
+
+00:07:50.594 --> 00:07:53.025
+De var istand til at slå bremserne fra.
+
+00:07:53.025 --> 00:07:56.203
+De var også istand til at installere 
+malware som ikke
+
+00:07:56.203 --> 00:07:58.628
+ville udføre noget før bilen gjorde noget som at
+
+00:07:58.628 --> 00:08:02.374
+køre over 30 km/t eller noget tilsvarende.
+
+00:08:02.374 --> 00:08:05.132
+Resultaterne var forbløffende og da de præsenterede dem,
+
+00:08:05.132 --> 00:08:06.848
+selvom de gjorde det til en konference
+
+00:08:06.848 --> 00:08:08.574
+til en samling computersikkerhedsforskere,
+
+00:08:08.574 --> 00:08:10.274
+gispede alle.
+
+00:08:10.274 --> 00:08:13.973
+De var istand til at overtage en håndfuld 
+kritiske computere
+
+00:08:13.973 --> 00:08:17.734
+inde i bilen: Bremsernes computer, 
+lysenes computer,
+
+00:08:17.734 --> 00:08:20.561
+motoren, instrumentbrættet, radioen, osv.,
+
+00:08:20.561 --> 00:08:22.854
+og de var istand til at gøre det med en rigtig bil
+
+00:08:22.854 --> 00:08:25.881
+som de overtog ved at bruge radioen.
+
+00:08:25.881 --> 00:08:28.884
+De var istand til at bryde ind i hver enkelt
+
+00:08:28.884 --> 00:08:31.350
+stykke software som kontrollerede hver enkelt
+
+00:08:31.350 --> 00:08:34.365
+af de trådløse muligheder i bilen.
+
+00:08:34.365 --> 00:08:36.878
+Alt dette var succesfuldt udført.
+
+00:08:36.878 --> 00:08:39.230
+Hvordan vil du stjæle en bil af denne model?
+
+00:08:39.230 --> 00:08:42.910
+Well, du angriber med en buffer overflow
+
+00:08:42.910 --> 00:08:45.437
+sårbarhed i softwaren eller tilsvarende.
+
+00:08:45.437 --> 00:08:47.640
+Du bruger GPS'en til at finde den.
+
+00:08:47.640 --> 00:08:49.835
+Du åbner døren ved at fjernbetjene dem 
+gennem computeren
+
+00:08:49.835 --> 00:08:52.973
+som kontrollere dem, starter motoren 
+og forbigår tyverikontrollen
+
+00:08:52.973 --> 00:08:54.641
+og du har fået dig en bil.
+
+00:08:54.641 --> 00:08:57.128
+Overvågning er virkeligt interessant.
+
+00:08:57.128 --> 00:09:00.337
+Forfatterne til studiet viste en video hvor
+
+00:09:00.337 --> 00:09:02.886
+havde taget kontrol over bilen og tændt for
+
+00:09:02.886 --> 00:09:05.647
+mikrofonen i bilen og lyttede til hvad de blev sagt
+
+00:09:05.647 --> 00:09:08.998
+samtidigt med at bilen blev fulgt 
+vha GPS på et kort,
+
+00:09:08.998 --> 00:09:10.711
+og det kunne sket uden at bilens fører
+
+00:09:10.711 --> 00:09:12.879
+fandt ud af det skete.
+
+00:09:12.879 --> 00:09:15.013
+Har jeg fået skræmt jer?
+
+00:09:15.013 --> 00:09:16.956
+Jeg har nogle flere spændende eksempler.
+
+00:09:16.956 --> 00:09:18.789
+Der er en fra en konference jeg deltog i,
+
+00:09:18.789 --> 00:09:20.722
+og min hjerne bare skreg og jeg sagde,
+
+00:09:20.722 --> 00:09:22.548
+"Jeg må fortælle andre om dette"
+
+00:09:22.548 --> 00:09:24.171
+Dette er fra Fabian Monrose's lab
+
+00:09:24.171 --> 00:09:27.627
+på University of North Carolina, 
+og hvad de gjorde var
+
+00:09:27.627 --> 00:09:29.702
+noget meget intuitiv når I har set det
+
+00:09:29.702 --> 00:09:31.416
+men noget overraskende.
+
+00:09:31.416 --> 00:09:33.675
+De videofilmede folk i en bus,
+
+00:09:33.675 --> 00:09:36.515
+og de efterbehandlede videoen.
+
+00:09:36.515 --> 00:09:38.978
+Hvad I ser her er de numre der
+
+00:09:38.978 --> 00:09:43.361
+reflekteres i ens briller fra en smartphone
+
+00:09:43.361 --> 00:09:44.786
+som de taster ind.
+
+00:09:44.786 --> 00:09:46.761
+De skrev noget software til at stabilisere --
+
+00:09:46.761 --> 00:09:48.126
+og selvom de var med en bus
+
+00:09:48.126 --> 00:09:51.337
+og at nogle hold deres telefon i en vinkel --
+
+00:09:51.337 --> 00:09:53.707
+til at stabilisere telefonen, behandle det
+
+00:09:53.707 --> 00:09:55.592
+og som I ved på jeres smartphone, 
+når i taster
+
+00:09:55.592 --> 00:09:58.531
+et password, talene vises et kort sekund, 
+og de var i stand
+
+00:09:58.531 --> 00:10:01.371
+til at bruge dette til at rekonstruere 
+hvad personen tastede,
+
+00:10:01.371 --> 00:10:05.692
+og havde en sprogmodel til at opfatte indtastningen.
+
+00:10:05.692 --> 00:10:08.027
+Det interessante er at ved at videofilme i en bus
+
+00:10:08.027 --> 00:10:10.156
+er man i stand til at reproducere præcist hvad folk
+
+00:10:10.156 --> 00:10:12.307
+skrev på deres smartphones,
+
+00:10:12.307 --> 00:10:14.567
+og deres overraskende resultat, som er at
+
+00:10:14.567 --> 00:10:17.331
+deres software ikke kun angreb deres mål,
+
+00:10:17.331 --> 00:10:18.734
+men også andre folk som tilfældigvis
+
+00:10:18.734 --> 00:10:20.820
+var i billedet, de kunne genskabe
+
+00:10:20.820 --> 00:10:23.547
+hvad disse folk havde tastet, og det var en slags
+
+00:10:23.547 --> 00:10:27.164
+tilfældig egenskab ved hvad deres software gjorde.
+
+00:10:27.164 --> 00:10:31.467
+Jeg vil vise jer to eksempler mere. 
+Den første er P25 radioer.
+
+00:10:31.467 --> 00:10:34.267
+P25 radioer bruges af politiet
+
+00:10:34.267 --> 00:10:37.674
+og en række statslige tjenester
+
+00:10:37.674 --> 00:10:39.410
+og soldater til at kommunikere,
+
+00:10:39.410 --> 00:10:42.243
+og der er en krypteringsmulighed på disse telefoner.
+
+00:10:42.243 --> 00:10:44.971
+Her kan I se hvordan telefonen ser ud. 
+Det er ikke en rigtig telefon.
+
+00:10:44.971 --> 00:10:46.177
+Det er mere en tovejs radio.
+
+00:10:46.177 --> 00:10:49.499
+Motorola laver den mest udbredte, 
+og som I kan se
+
+00:10:49.499 --> 00:10:52.148
+er de brugt af Secret Service, de er brugt i kamp,
+
+00:10:52.148 --> 00:10:55.250
+det er en meget, meget udbredt standard i USA 
+og andre steder.
+
+00:10:55.250 --> 00:10:57.555
+Så en af de ting forskerne spurgte sig selv om var:
+
+00:10:57.555 --> 00:11:00.259
+Kan man blokere sådan en ting?
+
+00:11:00.259 --> 00:11:01.842
+Kan man udføre et denial-of-service angreb,
+
+00:11:01.842 --> 00:11:03.666
+fordi den bruges på stedet?
+
+00:11:03.666 --> 00:11:05.467
+Så, kunne en terroristorganisation 
+forsøge at mørkelægge
+
+00:11:05.467 --> 00:11:09.955
+muligheden for at politi og brandvæsen 
+kan kommunikere i en ulykke?
+
+00:11:09.955 --> 00:11:13.027
+De fandt denne GirlTech dims brugt til SMS
+
+00:11:13.027 --> 00:11:15.745
+som viste sig at bruge de eksakt samme frekvenser
+
+00:11:15.745 --> 00:11:18.016
+som P25'eren, og de byggede hvad de kaldte
+
+00:11:18.016 --> 00:11:22.350
+"Min første Jammer". (Latter)
+
+00:11:22.350 --> 00:11:24.728
+Hvis du kigger grundigt på apparatet,
+
+00:11:24.728 --> 00:11:28.358
+har det en vælger for kryptering eller klartekst.
+
+00:11:28.358 --> 00:11:31.408
+Lad mig skifte slide og nu gå tilbage.
+
+00:11:31.408 --> 00:11:33.955
+Kan I se forskellen?
+
+00:11:33.955 --> 00:11:36.512
+Dette er klartekst. Dette er krypteret.
+
+00:11:36.512 --> 00:11:39.069
+Der er en lille prik som bliver vist på skærmen,
+
+00:11:39.069 --> 00:11:41.154
+og et lille drej på kontakten.
+
+00:11:41.154 --> 00:11:43.058
+Og forskerne spurgte dem selv; "Gad vide hvor
+
+00:11:43.058 --> 00:11:47.315
+mange gange meget hemmelige, vigtige 
+og følsomme samtaler
+
+00:11:47.315 --> 00:11:48.938
+foregår med disse tovejsradioer, hvor de har glemt
+
+00:11:48.938 --> 00:11:51.848
+at kryptere og de ikke har opdaget 
+at de ikke kryptere?"
+
+00:11:51.848 --> 00:11:55.187
+Så de købte en skanner, 
+hvilket er fuldstændigt lovligt
+
+00:11:55.187 --> 00:11:58.645
+og kørte den på samme de frekvenser som P25,
+
+00:11:58.645 --> 00:12:00.412
+og hvad de gjorde var at hoppe 
+rundt mellem disse frekvenser
+
+00:12:00.412 --> 00:12:02.922
+og de skrev software for at lytte til med.
+
+00:12:02.922 --> 00:12:05.556
+Hvis de fandt krypteret kommunikation, de blev
+
+00:12:05.556 --> 00:12:07.242
+på kanalen og noterede at på den kanal
+
+00:12:07.242 --> 00:12:09.030
+var de folk som brugte den
+
+00:12:09.030 --> 00:12:10.652
+politiet
+
+00:12:10.652 --> 00:12:14.043
+og de var i 20 storbyområder og lyttede med
+
+00:12:14.043 --> 00:12:17.518
+på de samtaler som foregik på disse frekvenser.
+
+00:12:17.518 --> 00:12:20.757
+De fandt at i hvert storbyområde,
+
+00:12:20.757 --> 00:12:22.911
+kunne de opfange over 20 minutters daglig
+
+00:12:22.911 --> 00:12:25.286
+ukrypteret kommunikation.
+
+00:12:25.286 --> 00:12:27.286
+Og hvad var det for ting folk talte om?
+
+00:12:27.286 --> 00:12:28.770
+Well, de fandt navne og information om
+
+00:12:28.770 --> 00:12:31.622
+om hemmelige meddelere. De fandt information
+
+00:12:31.622 --> 00:12:33.824
+som var blevet optaget af aflytningsudstyr,
+
+00:12:33.824 --> 00:12:36.534
+en flok kriminelle der diskuterede,
+
+00:12:36.534 --> 00:12:37.696
+følsomme oplysninger.
+
+00:12:37.696 --> 00:12:41.059
+Det var mest politi og kriminelle.
+
+00:12:41.059 --> 00:12:42.893
+De rapporterede det til politiet
+
+00:12:42.893 --> 00:12:44.916
+efter at have anonymiseret det,
+
+00:12:44.916 --> 00:12:47.916
+og sårbarheden her er simpelthen at brugergrænsefladen
+
+00:12:47.916 --> 00:12:49.310
+ikke er god nok. Hvis du taler om noget
+
+00:12:49.310 --> 00:12:52.126
+som er virkeligt hemmeligt og følsomt, 
+så skal det være helt klart
+
+00:12:52.126 --> 00:12:55.419
+for dig at samtalen er krypteret.
+
+00:12:55.419 --> 00:12:57.305
+Den er forholdsvis enkelt af ordne.
+
+00:12:57.305 --> 00:12:58.974
+Den sidste er rigtig, rigtig cool,
+
+00:12:58.974 --> 00:13:01.787
+og jeg vil vise den til jer, det er ikke noget
+
+00:13:01.787 --> 00:13:02.792
+der vil holde jer søvnløse om natten
+
+00:13:02.792 --> 00:13:04.583
+som bilerne eller defibrillatorene,
+
+00:13:04.583 --> 00:13:07.606
+men det er at stjæle tastetryk.
+
+00:13:07.606 --> 00:13:10.353
+Vi kender smartphones oppefra og ned.
+
+00:13:10.353 --> 00:13:12.543
+Hver eneste sikkerhedsekspert ønsker 
+at hacke en smartphone,
+
+00:13:12.543 --> 00:13:17.155
+og vi kiggede på USB porten, GPS'en for tracking,
+
+00:13:17.155 --> 00:13:20.363
+kameraet, mikrofonen, men ingen har hidtil
+
+00:13:20.363 --> 00:13:21.943
+kigget på accelerometerne.
+
+00:13:21.943 --> 00:13:23.590
+Et accelerometer er den ting som måler den
+
+00:13:23.590 --> 00:13:27.084
+den lodrette orientering af smartphonen.
+
+00:13:27.084 --> 00:13:28.501
+De havde et simpelt setup.
+
+00:13:28.501 --> 00:13:31.259
+De placerede en smartphone 
+ved siden af keyboardet,
+
+00:13:31.259 --> 00:13:33.971
+og de havde folk til at taste og deres mål var
+
+00:13:33.971 --> 00:13:36.827
+at bruge vibrationerne som var skabt ved at taste
+
+00:13:36.827 --> 00:13:41.067
+til at måle ændringer i accelerometeret
+
+00:13:41.067 --> 00:13:44.243
+for at bestemme hvad person skrev.
+
+00:13:44.243 --> 00:13:46.819
+Da de prøvede det med en iPhone 3GS,
+
+00:13:46.819 --> 00:13:49.588
+er dette en graf over rystelserne som blev skabt
+
+00:13:49.588 --> 00:13:52.829
+af tastningerne. Og som I kan se er det 
+meget vanskeligt
+
+00:13:52.829 --> 00:13:55.907
+at afgøre om nogen taster eller hvad de taster,
+
+00:13:55.907 --> 00:13:58.997
+men iPhone 4 har et meget forbedret accelerometer,
+
+00:13:58.997 --> 00:14:02.477
+og den samme måling
+
+00:14:02.477 --> 00:14:04.309
+skabte denne graf.
+
+00:14:04.309 --> 00:14:06.795
+Dette gav dem en masse information mens nogen
+
+00:14:06.795 --> 00:14:10.036
+tastede, og hvad de gjorde var 
+at anvende en avanceret
+
+00:14:10.036 --> 00:14:13.043
+kunstig intelligensteknik kaldet maskinlæring
+
+00:14:13.043 --> 00:14:14.474
+til at have en træningsfase,
+
+00:14:14.474 --> 00:14:16.710
+hvor de havde en masse studerende
+
+00:14:16.710 --> 00:14:20.499
+til at taste en masse ind, og de satte
+
+00:14:20.499 --> 00:14:23.267
+systemet til at bruge dette maskinlæringsværktøj
+
+00:14:23.267 --> 00:14:26.130
+som var istand til at lære hvad folkene tastede,
+
+00:14:26.130 --> 00:14:28.957
+og de sammenlignede dette med
+
+00:14:28.957 --> 00:14:31.434
+målingerne fra accelerometeret.
+
+00:14:31.434 --> 00:14:33.069
+Og der er en angrebsfase, hvor du får nogen
+
+00:14:33.069 --> 00:14:35.880
+til at taste noget ind, som du ikke ved hvad er,
+
+00:14:35.880 --> 00:14:37.177
+men du bruger den model du har skabt
+
+00:14:37.177 --> 00:14:40.619
+i træningsfasen til at regne ud hvad de taster.
+
+00:14:40.619 --> 00:14:44.103
+De havde temmelig god succes. 
+Dette er en artikel fra USA Today.
+
+00:14:44.103 --> 00:14:46.712
+De tastede følgende: 
+"The Illinois Supreme Court has ruled
+
+00:14:46.712 --> 00:14:49.674
+that Rahm Emanuel is eligible 
+to run for Mayor of Chicago"
+
+00:14:49.674 --> 00:14:51.028
+— se, jeg forbinder den med den forrige taler —
+
+00:14:51.028 --> 00:14:53.146
+"and ordered him to stay on the ballot."
+
+00:14:53.146 --> 00:14:55.917
+Se! systemet er interessant, fordi det producerede
+
+00:14:55.917 --> 00:14:58.803
+"Illinois Supreme" og så var det usikkert.
+
+00:14:58.803 --> 00:15:00.753
+Modellen producerede en række muligheder,
+
+00:15:00.753 --> 00:15:03.462
+og skønheden ved mange kunstig intelligensteknikker,
+
+00:15:03.462 --> 00:15:05.712
+er at computere er gode til nogle ting,
+
+00:15:05.712 --> 00:15:07.246
+mennesker er gode til andre.
+
+00:15:07.246 --> 00:15:09.177
+Tag det bedste fra begge og 
+lad mennesker løse denne.
+
+00:15:09.177 --> 00:15:10.559
+Spil ikke compterkraft på det.
+
+00:15:10.559 --> 00:15:12.695
+Et menneske vil ikke tænke at det er 
+"Supreme might".
+
+00:15:12.695 --> 00:15:14.435
+Det er "Supreme Court", ikke sandt?
+
+00:15:14.435 --> 00:15:16.965
+og videre, vi er istand til at rekonstruere 
+hvad der blev tastet
+
+00:15:16.965 --> 00:15:19.914
+simpelthen ved at måle med accelerometeret.
+
+00:15:19.914 --> 00:15:23.416
+Hvorfor er dette vigtigt? Fordi, 
+på Android platformen,
+
+00:15:23.416 --> 00:15:27.549
+for eksempel, har udviklerne et manifest
+
+00:15:27.564 --> 00:15:30.148
+hvor hvert apparat der, mikrofonen, osv,
+
+00:15:30.148 --> 00:15:32.104
+skal vi at at du er i gang med at bruge det
+
+00:15:32.104 --> 00:15:34.420
+så hackere ikke kan overtage det,
+
+00:15:34.420 --> 00:15:37.528
+men ingen kontrollerer accelerometeret.
+
+00:15:37.528 --> 00:15:39.744
+Så hvad er pointen? 
+Du kan lægge din iPhone ved siden af
+
+00:15:39.744 --> 00:15:41.850
+en eller andens keyboard og forlade rummet
+
+00:15:41.850 --> 00:15:43.489
+og senere genskabe hvad de gjorde,
+
+00:15:43.489 --> 00:15:45.200
+endda uden at bruge mikrofonen.
+
+00:15:45.200 --> 00:15:47.374
+Hvis nogen kan installere malware på din iPhone,
+
+00:15:47.374 --> 00:15:50.222
+kunne de muligvis se hvad du skriver
+
+00:15:50.222 --> 00:15:52.543
+hver gang du lægger din iPhone 
+ved siden af dit keyboard.
+
+00:15:52.543 --> 00:15:54.814
+Der er flere andre nævneværdige angreb 
+som jeg desværre
+
+00:15:54.814 --> 00:15:56.945
+ikke har tid til at komme ind på, 
+men en som jeg ønsker at
+
+00:15:56.945 --> 00:15:59.222
+fremhæve er lavet af en gruppe fra 
+University of Michigan
+
+00:15:59.222 --> 00:16:01.663
+som var istand til at tage en stemmemaskine,
+
+00:16:01.663 --> 00:16:04.161
+Sequoia AVC Edge DRE, som skal
+
+00:16:04.161 --> 00:16:05.716
+bruges i New Jersey til afstemningen
+
+00:16:05.716 --> 00:16:07.877
+som var efterladt i en gang, 
+og installerede Pac-Man på den.
+
+00:16:07.877 --> 00:16:11.500
+Hvorefter de spillede Pac-Man.
+
+00:16:11.500 --> 00:16:13.247
+Hvad betyder alt dette?
+
+00:16:13.247 --> 00:16:16.894
+Well, jeg tror at samfundet har en tendens 
+til at tage teknologien til sig
+
+00:16:16.894 --> 00:16:19.718
+meget hurtigt. Jeg elsker de nyeste cool gadgets.
+
+00:16:19.718 --> 00:16:22.332
+Men det er meget vigtigt, og disse forskere viser
+
+00:16:22.332 --> 00:16:23.692
+at udviklerne af disse ting
+
+00:16:23.692 --> 00:16:26.557
+skal tænke sikkerhed ind fra begyndelsen,
+
+00:16:26.557 --> 00:16:29.342
+og de må indse at de skal have en trusselsmodel,
+
+00:16:29.342 --> 00:16:31.804
+og at angriberne næppe er så venlige
+
+00:16:31.804 --> 00:16:33.581
+til at begrænse sig til den trusselsmodel,
+
+00:16:33.581 --> 00:16:36.118
+og at at man skal kunne tænke ud af boksen.
+
+00:16:36.118 --> 00:16:37.696
+Hvad vi kan gøre er at være opmærksomme på
+
+00:16:37.696 --> 00:16:40.175
+at apparater kan blive kompromitteret,
+
+00:16:40.175 --> 00:16:41.874
+og at alt hvad der har software i sig
+
+00:16:41.874 --> 00:16:44.523
+vil være sårbart. Det vil have fejl.
+
+00:16:44.523 --> 00:16:48.020
+Mange tak for jeres opmærksomhed. (Bifald)
+

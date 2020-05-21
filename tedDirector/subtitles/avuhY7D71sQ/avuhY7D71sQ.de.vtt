@@ -1,0 +1,1197 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.000 --> 00:00:07.000
+Übersetzung: Reimund Schultz
+Lektorat: Angelika Lueckert Leon
+
+00:00:12.516 --> 00:00:16.134
+Sie gehen zum Arzt
+und lassen sich untersuchen.
+
+00:00:16.134 --> 00:00:19.502
+Dieser stellt bei Ihnen 
+einen hohen Cholesterinwert fest,
+
+00:00:19.502 --> 00:00:22.748
+der mit einem Medikament
+behandelt werden kann.
+
+00:00:22.748 --> 00:00:25.028
+Sie erhalten eine Arzneidose.
+
+00:00:25.028 --> 00:00:26.200
+Sie sind zuversichtlich.
+
+00:00:26.200 --> 00:00:28.476
+Auch Ihr Arzt vertraut
+auf diese Behandlung.
+
+00:00:28.476 --> 00:00:31.406
+Das Herstellerunternehmen
+unterzog es mehreren Studien,
+
+00:00:31.406 --> 00:00:32.436
+legte es der FDA vor.
+
+00:00:32.436 --> 00:00:36.361
+Sie prüften es sorgfältig,
+kritisch, gaben es dann frei.
+
+00:00:36.361 --> 00:00:38.836
+Sie haben eine grobe Vorstellung
+wie es funktioniert,
+
+00:00:38.836 --> 00:00:40.413
+welche Nebenwirkungen es auslöst.
+
+00:00:40.413 --> 00:00:42.001
+Es sollte okay sein.
+
+00:00:42.541 --> 00:00:46.716
+In den kommenden Sprechstunden
+zeigt sich der Arzt ein wenig besorgt,
+
+00:00:46.716 --> 00:00:48.266
+weil sie etwas deprimiert waren,
+
+00:00:48.266 --> 00:00:50.216
+sich nicht wie sich selbst gefühlt haben,
+
+00:00:50.216 --> 00:00:53.456
+sich nicht wie gewohnt an
+den Dingen des Lebens erfreuen konnten.
+
+00:00:53.456 --> 00:00:56.856
+Ihr Arzt sagt Ihnen: "Ich denke,
+Sie haben Depressionen.
+
+00:00:56.856 --> 00:01:00.552
+Ich werde ihnen ein weiteres Medikament
+verschreiben müssen."
+
+00:01:00.552 --> 00:01:02.968
+Also sprechen wir nun
+von zwei Medikamenten.
+
+00:01:02.968 --> 00:01:05.849
+Auch diese Pille wurde
+von Millionen Menschen genommen,
+
+00:01:05.849 --> 00:01:08.989
+vom Unternehmen geprüft,
+und von der FDA bewilligt.
+
+00:01:08.989 --> 00:01:10.079
+Alles in Ordnung.
+
+00:01:10.079 --> 00:01:12.467
+Es sollte gut verlaufen.
+
+00:01:13.127 --> 00:01:15.016
+Es sollte gut verlaufen.
+
+00:01:15.016 --> 00:01:16.334
+Aber warten Sie!
+
+00:01:16.334 --> 00:01:20.668
+Warum haben wir diese beiden
+gemeinsam getestet?
+
+00:01:20.668 --> 00:01:22.606
+Nun, es ist sehr schwierig, das zu tun.
+
+00:01:22.606 --> 00:01:24.807
+Üblicherweise wird das nicht gemacht.
+
+00:01:24.807 --> 00:01:30.471
+Wir sind komplett auf sogenannte
+"Anwendungsbeobachtungen" angewiesen,
+
+00:01:30.471 --> 00:01:32.841
+nachdem die Arzneimittel
+auf den Markt gelangen.
+
+00:01:32.841 --> 00:01:36.326
+Wie können wir herausfinden,
+
+00:01:36.326 --> 00:01:38.488
+dass zwei, drei, fünf oder sieben
+
+00:01:38.488 --> 00:01:40.196
+Medikamenten sich nicht vertragen?
+
+00:01:40.196 --> 00:01:42.724
+Fragen Sie einen Liebsten
+mit mehreren Diagnosen,
+
+00:01:42.724 --> 00:01:44.454
+wie viele Medikamente er einnimmt.
+
+00:01:44.454 --> 00:01:46.783
+Weshalb interessiert mich
+dieses Problem so sehr?
+
+00:01:46.783 --> 00:01:51.355
+Ich bin ein Mensch der Informatik
+und Data Science und meiner Meinung nach
+
+00:01:51.355 --> 00:01:55.069
+ist die einzig wirkliche Hoffnung,
+diese Interaktionen zu verstehen,
+
+00:01:55.069 --> 00:01:58.000
+viele verschiedene Datenquellen
+gegeneinander auszuwerten,
+
+00:01:58.000 --> 00:02:02.150
+um herauszufinden, wann diese Medikamente
+sicher zusammen eingenommen werden können
+
+00:02:02.150 --> 00:02:03.985
+und wann es eben nicht sicher ist.
+
+00:02:03.985 --> 00:02:06.779
+Ich erzähle Ihnen eine
+Data-Science-Geschichte
+
+00:02:06.779 --> 00:02:08.688
+und sie beginnt mit meinem Schüler Nick.
+
+00:02:08.688 --> 00:02:11.294
+Nennen wir ihn "Nick",
+denn so heißt er ja auch.
+
+00:02:11.294 --> 00:02:12.992
+(Gelächter)
+
+00:02:12.992 --> 00:02:14.429
+Nick war ein jüngerer Schüler
+
+00:02:14.429 --> 00:02:16.638
+und ich sagte zu ihm:
+"Wir müssen verstehen,
+
+00:02:16.638 --> 00:02:19.427
+wie Arzneien miteinander
+und getrennt funktionieren.
+
+00:02:19.427 --> 00:02:21.297
+Davon haben wir kein gutes Verständnis.
+
+00:02:21.297 --> 00:02:24.109
+Aber die FDA hat uns den Zugang
+zu dieser Datenbank gewährt.
+
+00:02:24.109 --> 00:02:26.600
+Eine Datenbank der negativen Folgen
+solcher Arzneien.
+
+00:02:26.600 --> 00:02:28.079
+Sie haben es ins Netz gestellt.
+
+00:02:28.079 --> 00:02:31.035
+Es ist öffentlich zugänglich.
+Sie könnten es jetzt runterladen.
+
+00:02:31.035 --> 00:02:34.251
+Hunderttausende Berichte
+nachteiliger Fälle
+
+00:02:34.251 --> 00:02:38.119
+von Patienten, Ärzten,
+Pharmaunternehmen, Apothekern.
+
+00:02:38.119 --> 00:02:40.309
+Diese Berichte
+sind ziemlich unkompliziert:
+
+00:02:40.309 --> 00:02:42.595
+Sie umfassen alle Erkrankungen
+der Patienten,
+
+00:02:42.595 --> 00:02:44.534
+die Arzneimittel die sie einnehmen,
+
+00:02:44.534 --> 00:02:48.285
+und die Nebenwirkungen, die sie erleiden.
+
+00:02:48.285 --> 00:02:51.707
+Es sind nicht alle solcher Fälle,
+die heute in den USA vorkommen,
+
+00:02:51.707 --> 00:02:54.536
+aber es sind Hunderttausende
+von Medikamenten.
+
+00:02:54.536 --> 00:02:55.684
+So sagte ich zu Nick:
+
+00:02:55.684 --> 00:02:57.711
+"Denken wir über Glukose nach.
+
+00:02:57.711 --> 00:03:01.419
+Glukose ist sehr wichtig und wir wissen,
+dass sie mit Diabetes zusammenhängt.
+
+00:03:01.419 --> 00:03:05.196
+Schauen wir mal, ob wir
+Glukosereaktionen verstehen können."
+
+00:03:05.196 --> 00:03:06.906
+Ich schickte Nick fort.
+
+00:03:06.916 --> 00:03:08.041
+Nick kam zurück.
+
+00:03:08.041 --> 00:03:09.720
+"Russ," sagte er,
+
+00:03:09.720 --> 00:03:12.450
+"ich habe einen Klassifizierer erstellt,
+
+00:03:12.450 --> 00:03:15.300
+der anhand der Nebenwirkungen
+einer Arznei,
+
+00:03:15.300 --> 00:03:17.081
+basierend auf dieser Datenbank,
+
+00:03:17.081 --> 00:03:21.340
+bestimmen kann, ob das Medikament
+den Glukosespiegel verändert oder nicht."
+
+00:03:21.340 --> 00:03:23.518
+Er schaffte es. Es war
+irgendwie sehr einfach.
+
+00:03:23.518 --> 00:03:27.198
+Er nahm alle Medikamente, von denen
+man wusste, dass sie Glukose beeinflussen
+
+00:03:27.198 --> 00:03:29.002
+und einige andere, die das nicht tun,
+
+00:03:29.002 --> 00:03:32.113
+und sagte: "Worin liegt der Unterschied
+bei den Nebenwirkungen?
+
+00:03:32.113 --> 00:03:35.895
+Der Müdigkeit? Dem Appetit? Dem Harnlass?"
+
+00:03:35.895 --> 00:03:39.045
+All diese Dinge fügten sich zu einem
+sehr guten Prädiktor zusammen.
+
+00:03:39.045 --> 00:03:42.024
+Er sagte: "Russ, ich kann mit
+93%-iger Genauigkeit voraussagen,
+
+00:03:42.024 --> 00:03:43.754
+ob eine Arznei Glukose beeinflusst."
+
+00:03:43.754 --> 00:03:44.853
+Ich sagte: "Großartig!"
+
+00:03:44.853 --> 00:03:47.343
+Er ist noch jung. Man muss
+seine Zuversicht aufbauen.
+
+00:03:47.343 --> 00:03:48.069
+(Gelächter)
+
+00:03:48.079 --> 00:03:49.769
+"Aber Nick, es gibt da ein Problem.
+
+00:03:49.769 --> 00:03:53.507
+Jeder Arzt auf der Welt kennt
+die glukoseverändernden Medikamente,
+
+00:03:53.507 --> 00:03:55.609
+weil es fundamental
+für unsere Praktiken ist.
+
+00:03:55.609 --> 00:03:58.400
+Also gut gemacht,
+aber eigentlich nicht interessant,
+
+00:03:58.400 --> 00:04:00.330
+auf jeden Fall nicht veröffentlichbar."
+
+00:04:00.330 --> 00:04:01.256
+(Gelächter)
+
+00:04:01.256 --> 00:04:04.136
+Er sagte: "Ich dachte mir,
+du würdest das sagen."
+
+00:04:04.136 --> 00:04:05.384
+Nick ist schlau.
+
+00:04:05.384 --> 00:04:08.856
+"Ich dachte, du würdest das sagen,
+also machte ich noch ein Experiment.
+
+00:04:08.856 --> 00:04:12.577
+Ich schaute nach Leuten in der Datenbank,
+die zwei Medikamente zu sich nahmen.
+
+00:04:12.577 --> 00:04:14.527
+Ich suchte nach ähnlichen Signalen
+
+00:04:14.527 --> 00:04:16.301
+-- glukoseändernde Signale --
+
+00:04:16.301 --> 00:04:18.053
+für Patienten mit zwei Arzneien,
+
+00:04:18.053 --> 00:04:23.315
+wobei jedes Medikament an sich
+den Glukosewert nicht beeinflusst.
+
+00:04:23.315 --> 00:04:25.727
+Zusammen jedoch,
+sah ich ein starkes Signal."
+
+00:04:25.727 --> 00:04:28.869
+Und ich sagte: "Du bist clever.
+Gute Idee. Zeig mir die Liste."
+
+00:04:28.869 --> 00:04:31.445
+Es war ein Haufen Medikamente.
+Nicht sehr spannend.
+
+00:04:31.445 --> 00:04:35.569
+Aber was mir ins Auge fiel,
+waren zwei besondere Medikamente:
+
+00:04:35.569 --> 00:04:39.788
+Paroxetin, oder Paxil,
+ein Antidepressivum;
+
+00:04:39.788 --> 00:04:43.518
+und Pravastatin, oder Pravachol,
+eine Cholesterinarznei.
+
+00:04:43.518 --> 00:04:47.875
+Ich sagte: "Es gibt Millionen Amerikaner,
+die diese beiden Medikamente benötigen."
+
+00:04:47.875 --> 00:04:49.719
+Tatsächlich erfuhren wir später,
+
+00:04:49.719 --> 00:04:52.836
+dass 15 Millionen Amerikaner
+damals auf Paroxetin waren,
+
+00:04:52.836 --> 00:04:55.446
+15 Millionen auf Pravastatin,
+
+00:04:55.446 --> 00:04:58.243
+und eine Millionen,
+so schätzten wir, auf beiden.
+
+00:04:58.243 --> 00:04:59.933
+Das sind eine Million Menschen,
+
+00:04:59.933 --> 00:05:02.568
+die vielleicht einige Probleme
+mit ihrer Glukose haben,
+
+00:05:02.568 --> 00:05:05.576
+falls dieser Hokuspokus
+mit der FDA-Datenbank
+
+00:05:05.576 --> 00:05:06.778
+tatsächlich funktioniert.
+
+00:05:06.778 --> 00:05:09.305
+Aber ich sagte: "Es ist immer
+noch nicht publizierbar.
+
+00:05:09.305 --> 00:05:11.189
+Mich begeistert zwar dein Hokuspokus,
+
+00:05:11.189 --> 00:05:13.202
+das selbst-lernende Verfahren,
+
+00:05:13.202 --> 00:05:17.435
+aber es ist dennoch kein zuverlässiger
+Beweis, den wir hier haben."
+
+00:05:17.435 --> 00:05:19.197
+Also müssen wir etwas anderes machen.
+
+00:05:19.197 --> 00:05:21.910
+Begutachten wir die medizinischen
+Akten von Stanford.
+
+00:05:21.910 --> 00:05:24.356
+Unsere Kopie davon ist
+für Nachforschungen geeignet.
+
+00:05:24.356 --> 00:05:26.312
+Wir entfernten persönliche Informationen.
+
+00:05:26.312 --> 00:05:29.546
+Ich sagte: "Sehen wir nach, ob Leute
+beim Gebrauch beider Medikamente
+
+00:05:29.546 --> 00:05:31.184
+Probleme mit ihrer Glukose haben."
+
+00:05:31.184 --> 00:05:32.844
+Es gibt Abertausende von Menschen
+
+00:05:32.844 --> 00:05:35.958
+in diesem Protokoll, die Paroxetin
+und Pravastatin zu sich nehmen.
+
+00:05:35.958 --> 00:05:38.138
+Aber wir brauchten besondere Patienten.
+
+00:05:38.138 --> 00:05:41.061
+Wir brauchten Patienten,
+die eines der Medikamente einnahmen
+
+00:05:41.061 --> 00:05:43.064
+und dann eine Glukosemessung unternahmen,
+
+00:05:43.064 --> 00:05:46.464
+dann die andere Arznei nahmen
+und den Glukosewert erneut messen ließen.
+
+00:05:46.464 --> 00:05:50.531
+Dies sollte in einem Zeitraum
+von etwa zwei Monaten geschehen sein.
+
+00:05:50.531 --> 00:05:53.729
+Als wir das taten,
+fanden wir zehn Patienten.
+
+00:05:54.479 --> 00:05:58.769
+Allerdings zeigten 8 dieser 10
+eine Erhöhung ihrer Glukosewerte auf,
+
+00:05:58.769 --> 00:06:00.489
+als sie das zweite P zu sich nahmen.
+
+00:06:00.489 --> 00:06:02.628
+Wir nennen die Arzneien P und P.
+
+00:06:02.628 --> 00:06:04.926
+Beide hätten zuerst
+eingenommen werden können.
+
+00:06:04.926 --> 00:06:06.067
+Taucht das Zweite auf,
+
+00:06:06.067 --> 00:06:08.646
+stieg die Glukose
+um 20 Milligramm pro Deziliter.
+
+00:06:08.646 --> 00:06:09.634
+Nur zur Erinnerung:
+
+00:06:09.634 --> 00:06:13.219
+Als Nicht-Diabetiker hat man
+normalerweise einem Glukosewert von 90.
+
+00:06:13.219 --> 00:06:15.301
+Steigt dieser auf 120, 125,
+
+00:06:15.301 --> 00:06:19.052
+veranlasst das Ihren Arzt, an eine
+potenzielle Diabetes-Diagnose zu denken.
+
+00:06:19.052 --> 00:06:22.540
+Also ist ein Anstieg von 20
+ziemlich ausschlaggebend.
+
+00:06:22.540 --> 00:06:25.086
+Ich sagte: "Nick, das ist
+alles schön und gut.
+
+00:06:25.090 --> 00:06:28.469
+Aber so leid es mir tut, es genügt
+noch nicht für eine Veröffentlichung.
+
+00:06:28.469 --> 00:06:31.245
+Es sind bloß 10 Patienten
+und das genügt nicht.
+
+00:06:31.245 --> 00:06:33.670
+Also fragten wir uns,
+was wir unternehmen könnten.
+
+00:06:33.670 --> 00:06:36.434
+Und wir sagten: "Rufen wir
+Havert und Vanderbilt an
+
+00:06:36.434 --> 00:06:38.827
+-- Harvard in Boston,
+Vanderbilt in Nashville --
+
+00:06:38.827 --> 00:06:41.094
+die ähnliche elektronische
+Krankenakten haben."
+
+00:06:41.094 --> 00:06:43.425
+Schauen wir mal, ob sie
+ähnliche Patienten finden
+
+00:06:43.425 --> 00:06:46.651
+mit dem einen und dem anderen P
+und den Glukosemesswerten,
+
+00:06:46.651 --> 00:06:48.753
+in dem Umfang, den wir benötigen.
+
+00:06:48.766 --> 00:06:53.863
+Gesegnet sollen sie sein: Innerhalb einer
+Woche fand Vanderbilt 40 solcher Patienten
+
+00:06:53.863 --> 00:06:54.924
+-- gleicher Trend.
+
+00:06:55.784 --> 00:06:59.094
+Harvard fand 100
+solcher Patienten, gleicher Trend.
+
+00:06:59.398 --> 00:07:03.614
+Am Ende hatten wir also 150 Patienten von
+drei verschiedenen medizinischen Zentren,
+
+00:07:03.614 --> 00:07:07.044
+die uns sagten, dass Patienten
+beim Gebrauch beider Medikamente
+
+00:07:07.044 --> 00:07:09.647
+einen deutlichen Anstieg
+ihres Glukosewerts erfuhren.
+
+00:07:10.271 --> 00:07:13.010
+Interessanterer Weise beachteten
+wir nicht die Diabetiker,
+
+00:07:13.010 --> 00:07:15.164
+da deren Glukose bereits beeinflusst war.
+
+00:07:15.164 --> 00:07:17.615
+Als wir die Glukose
+der Diabetiker betrachteten,
+
+00:07:17.615 --> 00:07:21.744
+stieg sie sogar um 60 Milligramm
+pro Deziliter anstatt um 20.
+
+00:07:21.744 --> 00:07:25.157
+Das war große Sache und wir meinten:
+"Wir müssen das veröffentlichen."
+
+00:07:25.157 --> 00:07:26.737
+Wir reichten die Abhandlung ein.
+
+00:07:26.737 --> 00:07:28.554
+Es bestand alles aus Datennachweisen,
+
+00:07:28.744 --> 00:07:29.744
+Daten von der FDA,
+
+00:07:29.904 --> 00:07:30.962
+Daten von Stanford,
+
+00:07:31.082 --> 00:07:32.154
+Daten von Vanderbilt,
+
+00:07:32.264 --> 00:07:33.166
+Daten von Harvard.
+
+00:07:33.166 --> 00:07:35.889
+Wir hatten kein einziges
+Experiment durchgeführt.
+
+00:07:36.539 --> 00:07:38.339
+Aber wir waren nervös.
+
+00:07:38.351 --> 00:07:41.992
+Also ging Nick ins Labor, während
+die Veröffentlichung überprüft wurde.
+
+00:07:41.992 --> 00:07:44.665
+Wir fanden jemanden,
+der sich mit Laborarbeiten auskennt.
+
+00:07:44.665 --> 00:07:46.031
+Ich mache so etwas nicht.
+
+00:07:46.031 --> 00:07:49.467
+Ich sorge mich um Patienten,
+und hantiere nicht mit Pipetten.
+
+00:07:49.467 --> 00:07:52.918
+Sie zeigten uns, wie man
+Mäuse mit Arzneien füttert.
+
+00:07:52.918 --> 00:07:55.353
+Wir nahmen Mäuse
+und gaben ihnen ein P, Paroxetin.
+
+00:07:55.353 --> 00:07:57.725
+Wir gaben anderen Mäusen Pravastatin.
+
+00:07:57.725 --> 00:08:01.908
+Und einer dritten Gruppe
+von Mäusen gaben wir beides.
+
+00:08:01.908 --> 00:08:04.083
+Und siehe da, die Glukose der Mäuse
+
+00:08:04.083 --> 00:08:06.586
+stieg um 20 - 60 Milligram pro Deziliter.
+
+00:08:06.586 --> 00:08:09.928
+Die Abhandlung wurde basierend auf
+den Informatiknachweisen angenommen,
+
+00:08:09.928 --> 00:08:11.726
+aber wir fügten eine Notiz hinzu,
+
+00:08:11.726 --> 00:08:14.869
+die besagt, dass Glukose steigt,
+wenn man sie an Mäuse verabreicht.
+
+00:08:14.869 --> 00:08:15.589
+Das war toll.
+
+00:08:15.589 --> 00:08:17.885
+Die Geschichte hätte dort
+ihr Ende nehmen können.
+
+00:08:17.885 --> 00:08:19.906
+Aber mir bleiben noch
+sechseinhalb Minuten.
+
+00:08:19.906 --> 00:08:22.436
+(Gelächter)
+
+00:08:22.436 --> 00:08:24.954
+Nun saßen wir da und
+dachten über das Ganze nach.
+
+00:08:24.954 --> 00:08:27.733
+Ich erinnere mich nicht, wer darauf kam,
+aber jemand sagte:
+
+00:08:27.733 --> 00:08:31.051
+"Ich frage mich, ob Patienten,
+die beide Medikamente einnehmen,
+
+00:08:31.051 --> 00:08:34.700
+Hyperglykämie als Nebenwirkung verspüren.
+
+00:08:34.700 --> 00:08:36.777
+Sie könnten und sollten es.
+
+00:08:36.777 --> 00:08:39.197
+Wie können wir das feststellen?"
+
+00:08:39.197 --> 00:08:41.122
+Wir sagten: "Nun, was würde man machen?"
+
+00:08:41.122 --> 00:08:43.543
+Man nimmt ein Medikament,
+dann ein neues oder zwei,
+
+00:08:43.543 --> 00:08:45.206
+und bemerkt ein seltsames Gefühl.
+
+00:08:45.206 --> 00:08:46.322
+Was unternimmt man?
+
+00:08:46.322 --> 00:08:47.349
+Man geht auf Google,
+
+00:08:47.349 --> 00:08:50.832
+gibt die ein oder zwei Medikamente ein,
+die man einnimmt,
+
+00:08:50.832 --> 00:08:52.462
+und fügt "Nebenwirkungen" hinzu.
+
+00:08:52.462 --> 00:08:53.890
+Welche Wirkungen verspürt man?
+
+00:08:54.191 --> 00:08:55.232
+Also sagten wir: "Okay,
+
+00:08:55.232 --> 00:08:58.473
+fragen wir Google, ob wir
+ihre Suchprotokoll einsehen dürfen,"
+
+00:08:58.473 --> 00:09:00.102
+sodass wir feststellen können,
+
+00:09:00.102 --> 00:09:02.135
+ob Patienten solche
+Suchbegriffe verwenden.
+
+00:09:02.773 --> 00:09:06.569
+Es tut mir leid, das zu sagen,
+aber Google verweigerte es uns.
+
+00:09:06.569 --> 00:09:07.808
+Ziemlich entmutigend.
+
+00:09:07.808 --> 00:09:10.614
+Ich war mit einem Kollegen
+von Microsoft Research Abendessen
+
+00:09:10.614 --> 00:09:12.917
+und sagte: "Wir wollten
+diese Studie durchführen,
+
+00:09:12.917 --> 00:09:14.422
+doch Google lehnte ab. Schade."
+
+00:09:14.422 --> 00:09:17.807
+Er sagte: "Nun, wir haben
+das Suchprotokoll von Bing."
+
+00:09:18.551 --> 00:09:21.372
+(Gelächter)
+
+00:09:22.747 --> 00:09:23.593
+Na ja.
+
+00:09:24.196 --> 00:09:24.987
+Das ist schön.
+
+00:09:24.987 --> 00:09:26.457
+Nun fühlte ich mich als --
+
+00:09:26.457 --> 00:09:27.493
+(Gelächter)
+
+00:09:27.493 --> 00:09:30.286
+Ich fühlte mich, als
+spräche ich wieder mit Nick.
+
+00:09:30.286 --> 00:09:32.873
+Er arbeitet für eines
+der größten Unternehmen der Welt,
+
+00:09:32.873 --> 00:09:34.934
+und ich versuchte,
+ihn ein wenig zu trösten.
+
+00:09:34.934 --> 00:09:37.135
+Aber er sagte: "Nein,
+Russ, du verstehst nicht.
+
+00:09:37.135 --> 00:09:38.705
+Es gibt nicht nur die Bing-Suche,
+
+00:09:38.705 --> 00:09:40.757
+wir nutzen auch den Internet Explorer,
+
+00:09:40.757 --> 00:09:44.867
+für Suchen auf Google,
+Yahoo, Bing oder sonstwo,
+
+00:09:44.877 --> 00:09:48.017
+dann behalten wir diese Daten
+18 Monate für "Forschungszwecke" .
+
+00:09:48.017 --> 00:09:50.212
+Ich sagte: "Das hört sich
+schon besser an!"
+
+00:09:50.212 --> 00:09:52.542
+Es war Eric Horvitz,
+mein Freund bei Microsoft.
+
+00:09:52.542 --> 00:09:54.182
+Also unternahmen wir eine Studie,
+
+00:09:54.182 --> 00:09:58.691
+bei der wir 50 Begriffe aussuchten,
+die eine normale Person eingeben würde,
+
+00:09:58.691 --> 00:10:00.324
+wenn sie Hyperglykämie hätte,
+
+00:10:00.324 --> 00:10:02.964
+wie "Müdigkeit", "Appetitlosigkeit",
+
+00:10:02.964 --> 00:10:05.054
+"häufiges Urinieren",
+"häufiges Pinkeln" --
+
+00:10:05.054 --> 00:10:07.762
+Verzeihung, aber wahrscheinlich
+würden Sie das eintippen.
+
+00:10:07.762 --> 00:10:10.867
+Also hatten wir 50 Phrasen,
+die wir die "Diabeteswörter" nannten.
+
+00:10:10.867 --> 00:10:12.796
+Zuerst erzeugten wir einen Ausgangswert.
+
+00:10:12.796 --> 00:10:15.574
+Jedoch ungefähr 0,5 bis 1 %
+aller Suchen im Internet
+
+00:10:15.574 --> 00:10:18.486
+beinhalten eines dieser Wörter.
+
+00:10:18.486 --> 00:10:20.583
+Also ist das die Rate
+unseres Ausgangswerts.
+
+00:10:20.583 --> 00:10:24.291
+Wenn jemand "Paroxetin" oder "Paxil"
+-- das sind Synonyme --
+
+00:10:24.291 --> 00:10:25.824
+und eines dieser Wörter eingibt,
+
+00:10:25.824 --> 00:10:28.468
+steigt die Rate auf ungefähr 2 %
+
+00:10:28.468 --> 00:10:30.660
+der Diabetes-artigen Wörter,
+
+00:10:30.660 --> 00:10:34.172
+falls man bereits weiß, dass
+das "Paroxetin-Wort" eingegeben wurde.
+
+00:10:34.177 --> 00:10:39.089
+Wenn es "Pravastatin" ist, steigt die Rate
+um ungefähr 3 % vom Ausgangswert.
+
+00:10:39.089 --> 00:10:43.565
+Wenn sowohl "Paroxetin" als auch
+"Pravastatin" eingegeben wurden,
+
+00:10:43.565 --> 00:10:45.440
+steigt sie um 10 %.
+
+00:10:45.442 --> 00:10:48.562
+Ein enormer drei- bis vierfacher Anstieg
+
+00:10:48.562 --> 00:10:52.316
+in den Suchen mit den zwei
+Medikamenten, die uns interessieren,
+
+00:10:52.316 --> 00:10:55.963
+und den Diabetes-artigen oder
+Hyperglykämie-artigen Wörtern.
+
+00:10:56.271 --> 00:10:57.461
+Wir veröffentlichten das,
+
+00:10:57.461 --> 00:10:59.220
+und es erhielt einige Aufmerksamkeit.
+
+00:10:59.220 --> 00:11:01.261
+Es verdient Beachtung,
+
+00:11:01.261 --> 00:11:03.400
+weil Patienten uns durch die Suchmaschinen
+
+00:11:03.400 --> 00:11:06.236
+ihre Nebenwirkungen indirekt mitteilen.
+
+00:11:06.236 --> 00:11:08.351
+Wir machten die FDA darauf aufmerksam.
+
+00:11:08.351 --> 00:11:09.669
+Sie waren interessiert.
+
+00:11:09.669 --> 00:11:13.247
+Sie haben Überwachungsprogramme
+auf sozialen Medienseiten gestartet,
+
+00:11:13.247 --> 00:11:15.399
+um mit Microsoft zu kollaborieren,
+
+00:11:15.399 --> 00:11:19.067
+die bereits eine nette Infrastruktur
+dafür, und anderes, haben,
+
+00:11:19.067 --> 00:11:20.995
+um Twitter- und Facebookfeeds zu folgen,
+
+00:11:20.995 --> 00:11:22.581
+um Suchverläufe zu beobachten,
+
+00:11:22.581 --> 00:11:25.462
+um frühe Anzeichen zu erkennen,
+dass Medikamente,
+
+00:11:25.462 --> 00:11:28.676
+einzeln oder gemischt,
+Probleme verursachen.
+
+00:11:28.676 --> 00:11:30.958
+Was kann ich dem entnehmen?
+Warum die Geschichte?
+
+00:11:30.958 --> 00:11:32.074
+Erstens:
+
+00:11:32.074 --> 00:11:36.245
+Wir haben nun den Vorteil
+großer und mittelgroßer Datensätze,
+
+00:11:36.245 --> 00:11:38.904
+um Wechselwirkungen von Arzneimitteln
+
+00:11:38.904 --> 00:11:41.524
+und Medikamentenwirkung
+grundlegend zu verstehen.
+
+00:11:41.524 --> 00:11:43.144
+Wie funktionieren Medikamente?
+
+00:11:43.144 --> 00:11:45.881
+Eben das wird und hat bereits
+ein neues Umfeld ermöglicht,
+
+00:11:45.881 --> 00:11:49.449
+um Arzneimittelwirkungen zu verstehen
+und deren Gebrauch zu optimieren.
+
+00:11:50.343 --> 00:11:52.921
+Nick ist nun Professor an der Columbia.
+
+00:11:52.921 --> 00:11:57.025
+Er führte dies für seine Doktorarbeit mit
+Hunderten von Medikamentenpaaren durch.
+
+00:11:57.025 --> 00:11:59.418
+Er fand einige sehr wichtige Verhältnisse.
+
+00:11:59.418 --> 00:12:00.784
+Also bildeten wir diese nach
+
+00:12:00.784 --> 00:12:03.431
+und zeigten, dass diese Methoden
+wirklich funktionieren,
+
+00:12:03.431 --> 00:12:05.970
+um Wechselwirkungen von Arzneien
+ausfindig zu machen.
+
+00:12:06.220 --> 00:12:08.292
+Allerdings gibt es
+noch einiges zu beachten.
+
+00:12:08.292 --> 00:12:11.939
+Wir benutzen zeitgleich
+nicht bloß zwei Medikamente.
+
+00:12:11.939 --> 00:12:16.003
+Wie gesagt gibt es Patienten, die drei,
+fünf, sieben, neun Arzneien einnehmen.
+
+00:12:16.003 --> 00:12:19.527
+Wurden diese hinsichtlich ihrer
+neunwegigen Wechselwirkungen geprüft?
+
+00:12:19.527 --> 00:12:23.856
+Ja, wir können dies paarweise durchführen:
+A und B, A und C, A und D.
+
+00:12:23.856 --> 00:12:28.194
+Aber wie steht es mit
+A, B, C, D, E, F, G zusammen,
+
+00:12:28.194 --> 00:12:29.938
+eingenommen von einem Patienten,
+
+00:12:29.938 --> 00:12:32.047
+vielleicht miteinander interagierend,
+
+00:12:32.047 --> 00:12:35.809
+sodass sie entweder
+mehr oder weniger effektiv sind
+
+00:12:35.809 --> 00:12:38.183
+oder unerwartete
+Nebenwirkungen hervorrufen?
+
+00:12:38.429 --> 00:12:40.115
+Da haben wir keine Ahnung.
+
+00:12:40.315 --> 00:12:43.827
+Es stehen uns noch viele Möglichkeiten
+beim Gebrauch solcher Daten offen,
+
+00:12:43.827 --> 00:12:46.715
+um die Wechselwirkung zwischen
+Medikamenten zu verstehen.
+
+00:12:46.859 --> 00:12:48.177
+Zwei weitere Schlusspunkte:
+
+00:12:48.177 --> 00:12:51.539
+Ich möchte, dass Sie über
+die Kraft nachdenken,
+
+00:12:51.539 --> 00:12:53.876
+die wir aus den Daten
+der Menschen gewannen,
+
+00:12:53.876 --> 00:12:56.551
+die ihre schlechteren Erfahrungen
+mit den Medikamenten
+
+00:12:56.551 --> 00:13:00.257
+durch ihren Apotheker, durch sich selbst,
+oder durch ihren Arzt weitergaben --
+
+00:13:00.257 --> 00:13:04.087
+die Leute, die ermöglichten, dass wir die
+Daten von Stanford, Harvard, Vanderbilt
+
+00:13:04.087 --> 00:13:06.207
+für unsere Nachforschungen
+verwenden konnten.
+
+00:13:06.207 --> 00:13:07.607
+Leute sorgen sich um Daten;
+
+00:13:07.607 --> 00:13:10.328
+um ihre Privatsphäre
+und Sicherheit, und das sollten sie.
+
+00:13:10.328 --> 00:13:12.027
+Wir brauchen gesicherte Systeme.
+
+00:13:12.027 --> 00:13:15.304
+Aber wir können kein System haben,
+welches Daten unzugänglich macht,
+
+00:13:15.304 --> 00:13:18.301
+weil es eine zu wertvolle Quelle
+
+00:13:18.301 --> 00:13:21.876
+für Inspiration, Innovation
+und Entdeckungen ist,
+
+00:13:21.876 --> 00:13:24.233
+hinsichtlich neuer Erkenntnisse
+in der Medizin.
+
+00:13:24.233 --> 00:13:26.149
+Letztendlich möchte ich noch eines sagen:
+
+00:13:26.149 --> 00:13:29.725
+In diesem Fall fanden wir zwei Arzneien,
+mit einer traurigen Geschichte.
+
+00:13:29.725 --> 00:13:31.517
+Sie verursachten wirkliche Probleme.
+
+00:13:31.517 --> 00:13:33.298
+Sie erhöhten Glukose.
+
+00:13:33.298 --> 00:13:35.544
+Sie ließen Menschen an Diabetes erkranken,
+
+00:13:35.544 --> 00:13:37.398
+die sonst nicht daran leiden würden.
+
+00:13:37.398 --> 00:13:40.809
+Deshalb würde man die zwei Arzneien
+nur vorsichtig miteinander anwenden,
+
+00:13:40.809 --> 00:13:42.490
+vielleicht ausschließlich getrennt,
+
+00:13:42.490 --> 00:13:44.547
+oder andere Arzneien verschreiben.
+
+00:13:44.547 --> 00:13:46.533
+Aber es gab eine weitere Möglichkeit.
+
+00:13:46.533 --> 00:13:48.817
+Wir hätten zwei oder drei
+Arzneien finden können,
+
+00:13:48.817 --> 00:13:51.054
+die vorteilhaft interagierten.
+
+00:13:51.054 --> 00:13:54.415
+Wir hätten neue Wirkungen
+von Medikamenten finden können,
+
+00:13:54.415 --> 00:13:56.375
+die keine der beiden allein verursacht,
+
+00:13:56.375 --> 00:13:58.951
+aber zusammen, anstatt eine
+Nebenwirkung hervorzurufen,
+
+00:13:58.951 --> 00:14:01.035
+könnten sie eine neuartige Behandlung
+
+00:14:01.035 --> 00:14:03.086
+für nicht zu behandelnde
+Krankheiten bilden
+
+00:14:03.086 --> 00:14:05.162
+oder wo die bisherigen
+nicht effektiv waren.
+
+00:14:05.162 --> 00:14:07.932
+Wenn wir an heutige medikamentöse
+Behandlungen denken,
+
+00:14:07.932 --> 00:14:09.585
+an alle großen Durchbrüche
+
+00:14:09.585 --> 00:14:13.850
+-- für HIV, für Tuberkulose,
+für Depression, für Diabetes --
+
+00:14:13.850 --> 00:14:16.742
+ist es immer ein Arzneimittelcocktail.
+
+00:14:16.742 --> 00:14:18.309
+Also ist das Positive hier,
+
+00:14:18.309 --> 00:14:21.234
+und das Thema eines anderen TEDTalks
+an einem anderen Tag,
+
+00:14:21.234 --> 00:14:24.076
+wie wir die gleichen
+Datenquellen nutzen können,
+
+00:14:24.076 --> 00:14:27.163
+um gute Wirkungen von
+Arzneikombinationen zu finden,
+
+00:14:27.163 --> 00:14:29.321
+die uns neue Behandlungsmethoden
+nahe legen,
+
+00:14:29.321 --> 00:14:32.151
+neue Einsichten in die Funktionen
+von Medikamenten gewähren,
+
+00:14:32.151 --> 00:14:35.420
+und uns ermöglichen Patienten
+besser zu versorgen?
+
+00:14:35.588 --> 00:14:36.431
+Vielen Dank.
+
+00:14:36.701 --> 00:14:39.764
+(Applaus)
+

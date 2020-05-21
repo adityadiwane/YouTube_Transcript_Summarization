@@ -1,0 +1,857 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Csaba Lóki
+Lektor: Laszlo Kereszturi
+
+00:00:12.899 --> 00:00:16.566
+Intelligencia -- mi is az valójában?
+
+00:00:16.566 --> 00:00:18.857
+Ha visszatekintünk az intelligencia
+
+00:00:18.857 --> 00:00:21.481
+értelmezésének történetére,
+
+00:00:21.481 --> 00:00:25.099
+az egyik jellemző nézetet
+
+00:00:25.099 --> 00:00:28.576
+Edsger Dijkstra híres idézete tükrözi, miszerint
+
+00:00:28.576 --> 00:00:31.687
+"azt kérdezni, hogy egy gép tud-e gondolkodni,
+
+00:00:31.687 --> 00:00:32.997
+majdnem olyan érdekes,
+
+00:00:32.997 --> 00:00:35.968
+mint azt kérdezni, hogy egy tengeralattjáró
+
+00:00:35.968 --> 00:00:37.758
+tud-e úszni."
+
+00:00:37.758 --> 00:00:41.602
+Nos, amikor Edsger Dijkstra ezt írta,
+
+00:00:41.602 --> 00:00:43.656
+akkor ezt a számítástechnika úttörőinek,
+
+00:00:43.656 --> 00:00:46.656
+mint például Alan Turingnak
+
+00:00:46.656 --> 00:00:48.403
+célzott kritikának szánta.
+
+00:00:48.403 --> 00:00:50.902
+Ha azonban visszatekintünk egy kicsit,
+
+00:00:50.902 --> 00:00:52.867
+és elgondolkozunk azon, hogy melyek voltak
+
+00:00:52.867 --> 00:00:54.863
+a leghatásosabb újítások,
+
+00:00:54.863 --> 00:00:56.742
+amelyek lehetővé tették,
+
+00:00:56.742 --> 00:00:58.976
+hogy úszni, vagy gondolkodni tudó
+
+00:00:58.976 --> 00:01:01.549
+mesterséges gépeket készítsünk,
+
+00:01:01.549 --> 00:01:05.096
+azt látjuk, hogy az úszás és a repülés
+
+00:01:05.096 --> 00:01:07.704
+mögötti fizikai mechanizmusok
+
+00:01:07.704 --> 00:01:10.483
+megértése tette lehetővé
+
+00:01:10.483 --> 00:01:13.655
+ezeknek a gépeknek a megépítését.
+
+00:01:13.655 --> 00:01:15.911
+Évekkel ezelőtt
+
+00:01:15.911 --> 00:01:19.160
+belevágtam egy programba, amely
+
+00:01:19.160 --> 00:01:21.794
+az intelligencia mögötti mechanizmusok
+
+00:01:21.794 --> 00:01:24.562
+megértésére irányult.
+
+00:01:24.562 --> 00:01:26.422
+Induljunk egy kicsit messzebbről.
+
+00:01:26.422 --> 00:01:29.571
+Kezdjük egy gondolatkísérlettel!
+
+00:01:29.571 --> 00:01:32.425
+Képzeljük el, hogy egy idegen faj vagyunk,
+
+00:01:32.425 --> 00:01:35.466
+amely semmit sem tud a földi biológiáról,
+
+00:01:35.466 --> 00:01:38.582
+a földi idegtudományról, vagy a földi intelligenciáról,
+
+00:01:38.582 --> 00:01:40.774
+de vannak remek teleszkópjaink,
+
+00:01:40.774 --> 00:01:43.136
+és meg tudjuk figyelni a Földet,
+
+00:01:43.136 --> 00:01:45.468
+és mivel rendkívül hosszú életűek vagyunk,
+
+00:01:45.468 --> 00:01:46.967
+évmilliókig, vagy akár évmilliárdokig
+
+00:01:46.967 --> 00:01:50.409
+szemmel tarthatjuk a Földet.
+
+00:01:50.409 --> 00:01:53.424
+Egy igen különleges jelenséget figyelhetünk meg.
+
+00:01:53.424 --> 00:01:57.736
+Azt látjuk, hogy egy évezred alatt
+
+00:01:57.736 --> 00:02:02.021
+a Földet folyamatosan bombázzák az aszteroidák,
+
+00:02:02.021 --> 00:02:04.108
+egy bizonyos pontig,
+
+00:02:04.108 --> 00:02:05.639
+és ezen bizonyos ponton,
+
+00:02:05.639 --> 00:02:09.831
+körülbelül az i.e. 2000. év környékén
+
+00:02:09.831 --> 00:02:11.547
+az összeütközési pályán
+
+00:02:11.547 --> 00:02:13.478
+a Föld felé haladó aszteroidák,
+
+00:02:13.478 --> 00:02:15.453
+amelyek egyébként a Földnek ütköznének,
+
+00:02:15.453 --> 00:02:17.868
+rejtélyes módon eltérítődnek,
+
+00:02:17.868 --> 00:02:20.940
+vagy felrobbannak, mielőtt elérnék a Földet.
+
+00:02:20.940 --> 00:02:23.023
+Nos, mint földlakók, természetesen
+
+00:02:23.023 --> 00:02:24.567
+tudjuk, hogy ennek oka az lehet,
+
+00:02:24.567 --> 00:02:26.323
+hogy próbáljuk megmenteni magunkat.
+
+00:02:26.323 --> 00:02:29.403
+Próbáljuk megelőzni az ütközést.
+
+00:02:29.403 --> 00:02:31.114
+De ha egy idegen faj vagyunk,
+
+00:02:31.114 --> 00:02:32.260
+akik erről mit sem tudnak,
+
+00:02:32.260 --> 00:02:34.774
+és fogalmuk sincs a földi intelligenciáról,
+
+00:02:34.774 --> 00:02:36.502
+akkor kénytelenek vagyunk összerakni
+
+00:02:36.502 --> 00:02:39.420
+egy fizikai elméletet, amely megmagyarázza,
+
+00:02:39.420 --> 00:02:41.958
+hogy azok az aszteroidák, amelyek egy adott
+
+00:02:41.958 --> 00:02:46.407
+időpontig folyamatosan pusztították 
+a Föld felszínét,
+
+00:02:46.407 --> 00:02:49.638
+egyszer csak felhagynak ezzel.
+
+00:02:49.638 --> 00:02:53.842
+És én azt állítom, hogy ez ugyanaz a feladat,
+
+00:02:53.842 --> 00:02:57.840
+mint az intelligencia fizikai természetének megismerése.
+
+00:02:57.840 --> 00:03:01.722
+Ebben a programban tehát, amelybe 
+évekkel ezelőtt belevágtam,
+
+00:03:01.722 --> 00:03:04.487
+megvizsgáltam számos összefüggést
+
+00:03:04.487 --> 00:03:07.649
+a tudomány számos szakterületén,
+
+00:03:07.649 --> 00:03:09.541
+amelyek véleményem szerint
+
+00:03:09.541 --> 00:03:12.089
+az intelligencia hátterében rejtőző
+
+00:03:12.089 --> 00:03:13.670
+mechanizmus irányába mutatnak.
+
+00:03:13.670 --> 00:03:16.216
+A kozmológiában például
+
+00:03:16.216 --> 00:03:18.963
+számos különböző dolog van, ami azt bizonyítja,
+
+00:03:18.963 --> 00:03:22.370
+hogy az univerzumunk nagyon 
+finoman van hangolva
+
+00:03:22.370 --> 00:03:24.523
+az intelligencia kifejlesztésére,
+
+00:03:24.523 --> 00:03:26.912
+és különösen azoknak az univerzális
+
+00:03:26.912 --> 00:03:28.798
+állapotoknak a kifejlesztésére,
+
+00:03:28.798 --> 00:03:32.896
+amelyek maximalizálják a lehetséges jövők változatosságát.
+
+00:03:32.896 --> 00:03:35.240
+A táblajátékokban, mint például a go-ban --
+
+00:03:35.240 --> 00:03:38.265
+mindannyian emlékszünk 1997-re,
+
+00:03:38.265 --> 00:03:42.216
+amikor az IBM Deep Blue gépe legyőzte sakkban Garry Kaszparovot --
+
+00:03:42.216 --> 00:03:43.739
+kevesen tudják, hogy
+
+00:03:43.739 --> 00:03:45.757
+az elmúlt, nagyjából 10 évben
+
+00:03:45.757 --> 00:03:46.955
+a go játék is --
+
+00:03:46.955 --> 00:03:48.911
+ami sokkal nagyobb kihívást jelent
+
+00:03:48.911 --> 00:03:51.336
+a lehetséges elágazások nagy száma miatt --
+
+00:03:51.336 --> 00:03:53.038
+elkezdte megadni magát
+
+00:03:53.038 --> 00:03:54.903
+a go-t játszó számítógépeknek,
+
+00:03:54.903 --> 00:03:56.476
+mégpedig ugyanezen ok miatt
+
+00:03:56.476 --> 00:03:59.276
+a go-t játszó gépek számára jelenleg 
+azok a legjobb technikák,
+
+00:03:59.276 --> 00:04:02.972
+amelyek maximalizálni igyekeznek 
+a jövőbeni opciók számát
+
+00:04:02.972 --> 00:04:04.986
+a játék során.
+
+00:04:04.986 --> 00:04:08.567
+Végül pedig, a robotikai mozgástervezésben
+
+00:04:08.567 --> 00:04:10.749
+számos olyan technika létezik,
+
+00:04:10.749 --> 00:04:12.651
+amelyek megpróbálják kihasználni
+
+00:04:12.651 --> 00:04:15.797
+a robotoknak a jövőbeni cselekvési szabadságuk
+
+00:04:15.797 --> 00:04:17.303
+maximalizálására irányuló képességét,
+
+00:04:17.303 --> 00:04:20.400
+azért, hogy összetett feladatokat is 
+el tudjanak végezni.
+
+00:04:20.400 --> 00:04:22.755
+Ha tehát fogjuk ezeket a különböző területeket,
+
+00:04:22.755 --> 00:04:24.377
+és egymás mellé tesszük őket,
+
+00:04:24.377 --> 00:04:27.017
+tettem fel a kérdést évekkel ezelőtt,
+
+00:04:27.017 --> 00:04:29.867
+találunk-e valamiféle intelligencia-mechanizmust,
+
+00:04:29.867 --> 00:04:31.540
+ami közös ezekben
+
+00:04:31.540 --> 00:04:33.314
+a különböző területekben?
+
+00:04:33.314 --> 00:04:37.907
+Létezik-e az intelligenciának egy általános egyenlete?
+
+00:04:37.907 --> 00:04:41.278
+A válasz, szerintem: Igen. ["F = T ∇Sτ"]
+
+00:04:41.278 --> 00:04:43.191
+Amit itt látnak, az valószínűleg
+
+00:04:43.191 --> 00:04:46.485
+az általam látott legközelebbi megfelelője
+
+00:04:46.485 --> 00:04:49.315
+az intelligencia E = mc² egyenletének.
+
+00:04:49.315 --> 00:04:51.017
+Amit itt látnak,
+
+00:04:51.017 --> 00:04:53.686
+az annak a kijelentése,
+
+00:04:53.686 --> 00:04:58.121
+hogy az intelligencia egy F erő,
+
+00:04:58.121 --> 00:05:02.771
+ami a jövőbeni cselekvési szabadság 
+maximalizálására törekszik.
+
+00:05:02.771 --> 00:05:05.146
+Úgy hat, hogy a jövőbeni cselekvési szabadság maximális legyen,
+
+00:05:05.146 --> 00:05:06.774
+vagy nyitva hagyjon lehetőségeket,
+
+00:05:06.774 --> 00:05:08.999
+valamilyen T erősséggel,
+
+00:05:08.999 --> 00:05:13.776
+a lehetséges elérhető jövők S változatosságával,
+
+00:05:13.776 --> 00:05:16.326
+egy bizonyos jövőbeni τ (tau) időtávon.
+
+00:05:16.326 --> 00:05:19.535
+Röviden: az intelligencia kerüli a csapdákat.
+
+00:05:19.535 --> 00:05:22.590
+Az intelligencia igyekszik maximalizálni a jövőbeni cselekvési szabadságot,
+
+00:05:22.590 --> 00:05:25.263
+és nyitva tartja a lehetőségeket.
+
+00:05:25.263 --> 00:05:27.696
+Nos, ha van egy ilyen egyenletünk, 
+joggal kérdezhetik:
+
+00:05:27.696 --> 00:05:30.228
+"És mire jó ez nekünk?"
+
+00:05:30.228 --> 00:05:31.579
+Mennyire alkalmas az előrejelzésre?
+
+00:05:31.579 --> 00:05:33.714
+Előrejelzi az emberi intelligenciát?
+
+00:05:33.714 --> 00:05:36.532
+Előrejelzi a mesterséges intelligenciát?
+
+00:05:36.532 --> 00:05:38.574
+Válaszul bemutatok önöknek egy videót,
+
+00:05:38.574 --> 00:05:41.994
+ami talán megvilágítja
+
+00:05:41.994 --> 00:05:44.282
+ennek az egyszerű egyenletnek
+
+00:05:44.282 --> 00:05:46.601
+néhány izgalmas alkalmazási területét.
+
+00:05:46.601 --> 00:05:48.580
+(Video) Narrátor: Napjaink kozmológiai kutatásai
+
+00:05:48.580 --> 00:05:50.627
+szerint a rendezetlenséget, vagy "entrópiát"
+
+00:05:50.627 --> 00:05:54.108
+termelő univerzumok létezésük során
+
+00:05:54.108 --> 00:05:56.586
+egyre kedvezőbb feltételeket teremtenek
+
+00:05:56.586 --> 00:05:59.602
+a hozzánk hasonló intelligens lények 
+létezése számára.
+
+00:05:59.602 --> 00:06:02.176
+De mi a helyzet, ha ez az esetleges
+kozmológiai összefüggés
+
+00:06:02.176 --> 00:06:04.019
+az entrópia és az intelligencia között
+
+00:06:04.019 --> 00:06:05.790
+valami mélyebb kapcsolatra utal?
+
+00:06:05.790 --> 00:06:08.354
+Mi történik, ha az intelligens viselkedés 
+nem csupán összefügg
+
+00:06:08.354 --> 00:06:10.198
+a hosszú távú entrópia-termeléssel,
+
+00:06:10.198 --> 00:06:12.516
+hanem egyenesen belőle származik?
+
+00:06:12.516 --> 00:06:14.922
+Hogy ezt megtudjuk, kifejlesztettük az Entropica
+
+00:06:14.922 --> 00:06:17.425
+szoftvert, melynek feladata maximalizálni
+
+00:06:17.425 --> 00:06:19.193
+a hosszú távú entrópia-termelését
+
+00:06:19.193 --> 00:06:21.769
+minden olyan rendszernek, 
+amelybe csak beépül.
+
+00:06:21.769 --> 00:06:23.924
+Csodálatos módon, az Entropica képes volt
+
+00:06:23.924 --> 00:06:27.380
+átmenni állatok intelligencia-tesztjén, 
+emberi játékokat játszani,
+
+00:06:27.380 --> 00:06:29.526
+és még tőzsdén pénzt keresni is anélkül,
+
+00:06:29.526 --> 00:06:31.637
+hogy erre utasítást kapott volna.
+
+00:06:31.637 --> 00:06:34.155
+Nézzük meg pár példán az Entropica-t 
+működés közben!
+
+00:06:34.155 --> 00:06:37.360
+Éppen úgy, ahogy álló ember nem esik el,
+
+00:06:37.360 --> 00:06:38.590
+itt látjuk az Entropica-t,
+
+00:06:38.590 --> 00:06:41.475
+amint egy kocsi segítségével, 
+automatikusan egyensúlyoz egy rudat.
+
+00:06:41.475 --> 00:06:43.487
+Ez igen figyelemre méltó viselkedés,
+
+00:06:43.487 --> 00:06:45.818
+ugyanis az Entropica soha 
+nem kapott erre utasítást.
+
+00:06:45.818 --> 00:06:48.975
+Önállóan döntött úgy, hogy egyensúlyoz a rúddal.
+
+00:06:48.975 --> 00:06:51.107
+Ez az egyensúlyozás nagyon hasznos lesz
+
+00:06:51.107 --> 00:06:52.504
+a humanoid robotika terén,
+
+00:06:52.504 --> 00:06:55.019
+valamint az embert segítő technológiákban.
+
+00:06:55.019 --> 00:06:57.020
+Akár az állatok, amelyek képesek a környezetükben
+
+00:06:57.020 --> 00:06:58.462
+lévő tárgyakat szerszámként használva
+
+00:06:58.462 --> 00:07:00.449
+benyúlni szűk üregekbe,
+
+00:07:00.449 --> 00:07:02.331
+itt látjuk, ahogy az Entropica --
+
+00:07:02.331 --> 00:07:04.169
+ismét csak saját kezdeményezésére --
+
+00:07:04.169 --> 00:07:07.079
+képes volt ezt az állatot jelképező 
+nagy korongot úgy mozgatni,
+
+00:07:07.079 --> 00:07:09.424
+hogy a szerszámot jelentő kis koronggal
+
+00:07:09.424 --> 00:07:12.195
+elérje a zárt térben lévő
+
+00:07:12.195 --> 00:07:13.732
+harmadik korongot,
+
+00:07:13.732 --> 00:07:16.704
+és azt kimozdítsa kezdeti pozíciójából.
+
+00:07:16.704 --> 00:07:18.893
+Ez a szerszámhasználati képesség
+
+00:07:18.893 --> 00:07:21.252
+az "okos" gyártósorokon és 
+a mezőgazdaságban hasznosítható.
+
+00:07:21.252 --> 00:07:23.196
+Mindezeken túl, ahogy más állatok
+
+00:07:23.196 --> 00:07:25.892
+képesek együttműködve, egy kötél két végét 
+azonos időben
+
+00:07:25.892 --> 00:07:27.945
+meghúzni a táplálék megszerzése érdekében,
+
+00:07:27.945 --> 00:07:30.240
+itt láthatjuk, amint az Entropica is képes végrehajtani
+
+00:07:30.240 --> 00:07:32.228
+a feladat modellváltozatát.
+
+00:07:32.228 --> 00:07:34.750
+Ez a kooperatív képesség érdekes alkalmazásokra lelhet
+
+00:07:34.750 --> 00:07:38.185
+a gazdasági tervezés, és egy sor más területen.
+
+00:07:38.185 --> 00:07:40.256
+Az Entropica széleskörűen alkalmazható
+
+00:07:40.256 --> 00:07:42.199
+számos szakterületen.
+
+00:07:42.199 --> 00:07:44.641
+Itt például azt látjuk, amint sikeresen
+
+00:07:44.641 --> 00:07:47.200
+pingpongozik önmaga ellen,
+
+00:07:47.200 --> 00:07:49.543
+demonstrálva, hogy játszani is képes.
+
+00:07:49.543 --> 00:07:51.462
+Itt az Entropica a kapcsolatokat menedzseli
+
+00:07:51.462 --> 00:07:53.301
+egy közösségi hálóban,
+
+00:07:53.301 --> 00:07:56.061
+amelyben a barátok kapcsolatai folyton megszakadnak,
+
+00:07:56.061 --> 00:07:58.917
+és sikerrel tartja fenn a hálózat folytonosságát.
+
+00:07:58.917 --> 00:08:01.215
+Ez a fajta hálózatmenedzselési képesség
+
+00:08:01.215 --> 00:08:03.543
+jól használható az egészségügyben,
+
+00:08:03.543 --> 00:08:06.775
+az energetikában, és a hírszerzésben.
+
+00:08:06.775 --> 00:08:08.860
+Ebben a példában az Entropica hajóflották
+
+00:08:08.860 --> 00:08:10.346
+útvonalait irányítja,
+
+00:08:10.346 --> 00:08:13.521
+sikeresen felfedezve és kihasználva a Panama-csatornát,
+
+00:08:13.521 --> 00:08:15.979
+melyen keresztül a hajók az Atlanti-óceánról eljuthatnak
+
+00:08:15.979 --> 00:08:17.508
+a Csendes-óceánra.
+
+00:08:17.508 --> 00:08:19.235
+Ezzel a képességgel az Entropica
+
+00:08:19.235 --> 00:08:20.855
+széleskörűen alkalmazható 
+autonóm védelmi rendszerekben,
+
+00:08:20.855 --> 00:08:26.157
+a logisztikában és a szállításban 
+felmerülő problémákra.
+
+00:08:26.173 --> 00:08:28.203
+Végül pedig itt látjuk, amint az Entropica
+
+00:08:28.203 --> 00:08:30.926
+párhuzamosan elemez és hajt végre
+
+00:08:30.926 --> 00:08:32.993
+egy végy-olcsón, adj-el-drágán stratégiát
+
+00:08:32.993 --> 00:08:35.171
+egy szimulált részvénypiacon,
+
+00:08:35.171 --> 00:08:37.502
+sikeresen, exponenciálisan növelve
+
+00:08:37.502 --> 00:08:38.926
+a kezelésében lévő eszközöket.
+
+00:08:38.926 --> 00:08:40.234
+Ez a kockázatkezelési képesség
+
+00:08:40.234 --> 00:08:42.721
+kiterjedt alkalmazásra számíthat a pénzügyi
+
+00:08:42.721 --> 00:08:46.049
+és a biztosítási területeken.
+
+00:08:46.049 --> 00:08:48.140
+Alex Wissner-Gross: Amit most láttak,
+
+00:08:48.140 --> 00:08:52.532
+azok példák az emberi intelligencia
+
+00:08:52.532 --> 00:08:54.289
+kognitív viselkedésére,
+
+00:08:54.289 --> 00:08:57.120
+mint például a szerszámhasználatra, a felegyenesedett járásra,
+
+00:08:57.120 --> 00:08:59.149
+és a társas együttműködésre.
+
+00:08:59.149 --> 00:09:02.121
+Valamennyi példa egyetlen egyenletből 
+származik,
+
+00:09:02.121 --> 00:09:04.053
+ami a rendszert a jövőbeni 
+cselekvési szabadságának
+
+00:09:04.053 --> 00:09:07.964
+maximalizálására ösztönzi.
+
+00:09:07.964 --> 00:09:10.971
+És van ebben valami mély irónia.
+
+00:09:10.971 --> 00:09:12.995
+Ha visszamegyünk a kezdetekig,
+
+00:09:12.995 --> 00:09:16.268
+a "robot" szó megjelenéséig,
+
+00:09:16.268 --> 00:09:19.171
+Karel Čapek "RUR" című darabjáig;
+
+00:09:19.171 --> 00:09:21.406
+akkor mindig fellelhető az a gondolat,
+
+00:09:21.406 --> 00:09:24.632
+hogy a gépi intelligencia kifejlesztése
+
+00:09:24.632 --> 00:09:27.659
+egy kiberlázadásba fog torkollani.
+
+00:09:27.659 --> 00:09:31.210
+Hogy a gépek fel fognak lázadni ellenünk.
+
+00:09:31.210 --> 00:09:33.529
+Ennek a munkának ez egyik fontos 
+következtetése,
+
+00:09:33.529 --> 00:09:36.298
+hogy talán ezek alatt az évtizedek alatt
+
+00:09:36.298 --> 00:09:39.274
+az egész kiberlázadásos elképzelés
+
+00:09:39.274 --> 00:09:41.285
+fordítottja zajlott.
+
+00:09:41.285 --> 00:09:44.564
+Nem az történt, hogy a gépek először 
+intelligensek lettek,
+
+00:09:44.564 --> 00:09:46.579
+majd megalomániásak,
+
+00:09:46.579 --> 00:09:48.803
+és megpróbálták meghódítani a világot.
+
+00:09:48.803 --> 00:09:50.237
+Éppen ellenkezőleg,
+
+00:09:50.237 --> 00:09:53.143
+az összes lehetséges jövő
+
+00:09:53.143 --> 00:09:55.404
+kontrollálására való törekvés
+
+00:09:55.404 --> 00:09:57.522
+valójában egy alaptétel,
+
+00:09:57.522 --> 00:09:58.885
+nem pedig az intelligencia kérdése,
+
+00:09:58.885 --> 00:10:02.585
+és hogy valójában az intelligencia
+
+00:10:02.585 --> 00:10:06.144
+lehet ennek a kontrollra törekvésnek a következménye,
+
+00:10:06.144 --> 00:10:10.329
+mintsem fordítva.
+
+00:10:10.329 --> 00:10:14.098
+Egy másik fontos következtetés a célkeresésre vonatkozik.
+
+00:10:14.098 --> 00:10:18.458
+Gyakran hallom a kérdést: Hogyan származhat
+
+00:10:18.458 --> 00:10:20.078
+a célkeresés képessége ebből a fajta keretrendszerből?
+
+00:10:20.078 --> 00:10:23.106
+A válasz pedig az, hogy a célkeresés képessége
+
+00:10:23.106 --> 00:10:24.988
+egyenes következménye az előzőeknek,
+
+00:10:24.988 --> 00:10:26.822
+mégpedig ebben az értelemben:
+
+00:10:26.822 --> 00:10:29.687
+mintha egy alagúton keresztül haladnánk,
+
+00:10:29.687 --> 00:10:32.192
+mintha egy szűk csatornán keresztül 
+lépnénk át a jövőbe,
+
+00:10:32.192 --> 00:10:34.063
+hogy ott később számos újabb
+
+00:10:34.063 --> 00:10:36.084
+és változatos célt találjunk,
+
+00:10:36.084 --> 00:10:38.456
+vagy mintha egy értékpapírba
+
+00:10:38.456 --> 00:10:40.243
+fektetnénk,
+
+00:10:40.243 --> 00:10:42.480
+csökkentve rövid távú likviditásunkat
+
+00:10:42.480 --> 00:10:44.880
+a hosszú távú vagyongyarapodás érdekében,
+
+00:10:44.880 --> 00:10:47.217
+a célkeresés egyenes következménye
+
+00:10:47.217 --> 00:10:48.946
+a jövőbeni cselekvési szabadság 
+maximalizálására
+
+00:10:48.946 --> 00:10:52.983
+irányuló hosszú távú hatásnak.
+
+00:10:52.983 --> 00:10:56.511
+Végül, Richard Feynman, a híres fizikus
+
+00:10:56.511 --> 00:11:00.183
+azt írta, hogy ha az emberi civilizáció megsemmisülne,
+
+00:11:00.183 --> 00:11:02.076
+és csak egyetlen gondolatot
+
+00:11:02.076 --> 00:11:03.447
+hagyhatnánk az utánunk következőkre,
+
+00:11:03.447 --> 00:11:05.754
+hogy segítsük a civilizáció újjáépítését,
+
+00:11:05.754 --> 00:11:07.440
+akkor ez a gondolat az lenne,
+
+00:11:07.440 --> 00:11:09.292
+hogy körülöttünk minden anyag
+
+00:11:09.292 --> 00:11:11.615
+apró kis építőelemekből áll,
+
+00:11:11.615 --> 00:11:14.123
+amelyek vonzzák egymást, amikor 
+egymástól távol vannak,
+
+00:11:14.123 --> 00:11:17.453
+és taszítják, amikor egymás közelébe kerülnek.
+
+00:11:17.453 --> 00:11:19.234
+Az én verzióm arra,
+
+00:11:19.234 --> 00:11:20.502
+hogy mit kéne átadnunk az utódainknak,
+
+00:11:20.502 --> 00:11:23.214
+hogy képesek legyenek mesterséges 
+intelligenciát építeni,
+
+00:11:23.214 --> 00:11:26.163
+vagy az emberi intelligenciát megérteni,
+
+00:11:26.163 --> 00:11:27.430
+így hangzik:
+
+00:11:27.430 --> 00:11:29.483
+Az intelligenciát egy fizikai folyamatnak
+
+00:11:29.483 --> 00:11:30.896
+kell tekintenünk,
+
+00:11:30.896 --> 00:11:33.861
+amely igyekszik maximalizálni 
+a jövőbeni cselekvési szabadságot,
+
+00:11:33.861 --> 00:11:37.477
+és elkerülni a jövőbeni korlátokat.
+
+00:11:37.477 --> 00:11:38.835
+Köszönöm.
+
+00:11:38.835 --> 00:11:42.835
+(Taps)
+

@@ -1,0 +1,929 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:15.260
+Tradutor: Rafael Martins
+Revisor: Marcelo Lopes
+
+00:00:15.260 --> 00:00:18.260
+Meu nome é Seth Priebatsch. Sou chefe ninja do SCVNGR.
+
+00:00:18.260 --> 00:00:20.260
+Sou orgulhosamente um aluno que abandonou Princeton.
+
+00:00:20.260 --> 00:00:22.260
+Também tenho orgulho de ter me mudado para Boston,
+
+00:00:22.260 --> 00:00:24.260
+onde na verdade eu cresci.
+
+00:00:24.260 --> 00:00:26.260
+Sim, Boston.
+
+00:00:26.260 --> 00:00:29.260
+Ganhos fáceis. Eu devia apenas citar os municípios que temos por aqui.
+
+00:00:29.260 --> 00:00:31.260
+Então, também estou bem determinado a testar e construir
+
+00:00:31.260 --> 00:00:33.260
+uma camada de jogo acima do mundo.
+
+00:00:33.260 --> 00:00:35.260
+E isso é meio que um conceito novo, e é muito importante.
+
+00:00:35.260 --> 00:00:37.260
+Pois ao mesmo tempo que a última década
+
+00:00:37.260 --> 00:00:39.260
+foi a década do social
+
+00:00:39.260 --> 00:00:41.260
+e a década onde o sistema
+
+00:00:41.260 --> 00:00:43.260
+no qual nos conectamos com outras pessoas foi construído,
+
+00:00:43.260 --> 00:00:45.260
+a próxima década será a década onde
+
+00:00:45.260 --> 00:00:47.260
+o sistema de jogos será construído,
+
+00:00:47.260 --> 00:00:50.260
+onde as motivações que usamos para de fato influenciar o comportamento,
+
+00:00:50.260 --> 00:00:52.260
+e o sistema no qual isso é construído
+
+00:00:52.260 --> 00:00:54.260
+é decidido, e isso é realmente importante.
+
+00:00:54.260 --> 00:00:57.260
+Então digo que quero construir uma camada de jogo acima do mundo,
+
+00:00:57.260 --> 00:00:59.260
+mas isso não é totalmente verdade
+
+00:00:59.260 --> 00:01:01.260
+pois isso já está em construção; já está acontecendo.
+
+00:01:01.260 --> 00:01:03.260
+E se parece com isso agora.
+
+00:01:03.260 --> 00:01:06.260
+Parece com a internet de 1997, certo?
+
+00:01:06.260 --> 00:01:08.260
+Isso não é muito bom. Está bagunçado.
+
+00:01:08.260 --> 00:01:10.260
+Está repleto de várias coisas diferentes
+
+00:01:10.260 --> 00:01:12.260
+que, basicamente, não são tão legais.
+
+00:01:12.260 --> 00:01:15.260
+Existem programas de cartões de crédito e de milhas aéreas,
+
+00:01:15.260 --> 00:01:18.260
+cartões de cupom e todos esses programas de fidelidade
+
+00:01:18.260 --> 00:01:20.260
+que na verdade usam dinâmica de jogos
+
+00:01:20.260 --> 00:01:23.260
+e estão construindo a camada de jogo, mas eles são uma droga.
+
+00:01:23.260 --> 00:01:26.260
+Não são muito bem feitos, certo?
+
+00:01:26.260 --> 00:01:28.260
+Pois é, infelizmente.
+
+00:01:28.260 --> 00:01:30.260
+Mas com sorte, como meu herói favorito,
+
+00:01:30.260 --> 00:01:32.260
+Bob o Construtor, diz,
+
+00:01:32.260 --> 00:01:34.260
+"Nós podemos fazer melhor. Nós podemos construir isso melhor."
+
+00:01:34.260 --> 00:01:36.260
+E as ferramentas, os recursos
+
+00:01:36.260 --> 00:01:38.260
+que usamos para construir uma camada de jogo
+
+00:01:38.260 --> 00:01:40.260
+são a própria dinâmica de jogos.
+
+00:01:40.260 --> 00:01:42.260
+Então o ponto crucial dessa apresentação passará por
+
+00:01:42.260 --> 00:01:45.260
+quatro dinâmicas de jogos realmente importantes, coisas realmente interessantes,
+
+00:01:45.260 --> 00:01:47.260
+que, se usadas conscientemente,
+
+00:01:47.260 --> 00:01:50.260
+podem influenciar o comportamento,
+
+00:01:50.260 --> 00:01:52.260
+tanto para o bem, quanto para o mal, ou um misto disso.
+
+00:01:52.260 --> 00:01:54.260
+Espero que para o bem.
+
+00:01:54.260 --> 00:01:56.260
+Mas esses são meio que os passos importantes
+
+00:01:56.260 --> 00:01:58.260
+nos quais esse sistema será construído,
+
+00:01:58.260 --> 00:02:01.260
+então queremos que todos pensem sobre eles conscientemente agora.
+
+00:02:01.260 --> 00:02:04.260
+Antes de começarmos, existe uma questão: por que isso é importante?
+
+00:02:04.260 --> 00:02:07.260
+Eu estou meio que fazendo essa afirmação que existe uma camada de jogo acima do mundo,
+
+00:02:07.260 --> 00:02:10.260
+e que é muito importante que ela seja construída corretamente.
+
+00:02:10.260 --> 00:02:12.260
+A razão dessa importância é que, na última década,
+
+00:02:12.260 --> 00:02:15.260
+o que vimos foi a construção dessa camada social,
+
+00:02:15.260 --> 00:02:18.260
+foi esse sistema de conexões,
+
+00:02:18.260 --> 00:02:21.260
+e a construção dessa camada está encerrada, terminou.
+
+00:02:21.260 --> 00:02:23.260
+Existe muito ainda a ser explorado.
+
+00:02:23.260 --> 00:02:25.260
+Existem ainda muitas pessoas que estão tentando entender o social
+
+00:02:25.260 --> 00:02:27.260
+e como aproveitamos e usamos isso,
+
+00:02:27.260 --> 00:02:29.260
+mas o sistema em si está pronto,
+
+00:02:29.260 --> 00:02:32.260
+e é chamado de Facebook.
+
+00:02:32.260 --> 00:02:35.260
+E isso é bom, certo? Muitas pessoas estão felizes com o Facebook.
+
+00:02:35.260 --> 00:02:37.260
+Eu gosto muito dele.
+
+00:02:37.260 --> 00:02:39.260
+Eles criaram essa coisa chamada Open Graph,
+
+00:02:39.260 --> 00:02:41.260
+e eles possuem todas nossas conexões.
+
+00:02:41.260 --> 00:02:43.260
+Eles possuem meio bilhão de pessoas.
+
+00:02:43.260 --> 00:02:45.260
+Então quando você quer construir algo na camada social,
+
+00:02:45.260 --> 00:02:48.260
+o sistema já está escolhido; é a API Open Graph.
+
+00:02:48.260 --> 00:02:50.260
+E se você está feliz com isso, ótimo.
+
+00:02:50.260 --> 00:02:53.260
+Se não está, que pena. Você não pode fazer nada.
+
+00:02:53.260 --> 00:02:56.260
+Mas na próxima década -- e isso é real...
+
+00:02:56.260 --> 00:02:58.260
+Quero dizer, queremos construir sistemas
+
+00:02:58.260 --> 00:03:01.260
+de uma forma que seja aceitável
+
+00:03:01.260 --> 00:03:03.260
+e produtivo a longo prazo.
+
+00:03:03.260 --> 00:03:06.260
+Então, a camada social tem a ver com todas essas conexões.
+
+00:03:06.260 --> 00:03:08.260
+A camada de jogo tem tudo a ver com influência.
+
+00:03:08.260 --> 00:03:10.260
+Não tem a ver com a inserção de uma malha social na Web
+
+00:03:10.260 --> 00:03:12.260
+e conectar você a outras pessoas
+
+00:03:12.260 --> 00:03:14.260
+onde quer que esteja e pra onde quer que vá.
+
+00:03:14.260 --> 00:03:17.260
+Tem a ver com usar dinâmicas, forças,
+
+00:03:17.260 --> 00:03:19.260
+para influenciar o comportamento
+
+00:03:19.260 --> 00:03:21.260
+de onde você está, o que você faz e como você o faz.
+
+00:03:21.260 --> 00:03:24.260
+Isso é muito, muito poderoso, e será mais importante que a camada social.
+
+00:03:24.260 --> 00:03:26.260
+Vai afetar nossas vidas de forma mais profunda
+
+00:03:26.260 --> 00:03:28.260
+e talvez menos visível.
+
+00:03:28.260 --> 00:03:30.260
+Portanto é extremamente crucial
+
+00:03:30.260 --> 00:03:32.260
+que neste momento, enquanto está sendo construída,
+
+00:03:32.260 --> 00:03:35.260
+enquanto sistemas como Facebook, como o Open Graph,
+
+00:03:35.260 --> 00:03:37.260
+estão sendo criados para os equivalentes da camada de jogo,
+
+00:03:37.260 --> 00:03:39.260
+que nós pensemos sobre isso de forma muito consciente,
+
+00:03:39.260 --> 00:03:41.260
+e que tentemos fazer isso de forma aberta,
+
+00:03:41.260 --> 00:03:43.260
+disponível, e que seja proveitada para o bem.
+
+00:03:43.260 --> 00:03:45.260
+Então é isso que eu quero conversar sobre dinâmica de jogos,
+
+00:03:45.260 --> 00:03:47.260
+pois a construção já começou,
+
+00:03:47.260 --> 00:03:49.260
+e quanto mais conscientemente conseguirmos pensar sobre isso,
+
+00:03:49.260 --> 00:03:51.260
+melhor conseguiremos usá-la
+
+00:03:51.260 --> 00:03:53.260
+para tudo o que quisermos.
+
+00:03:53.260 --> 00:03:56.260
+Então, como eu disse, a forma como você usa e constrói sobre a camada de jogo
+
+00:03:56.260 --> 00:03:59.260
+não é com vidro, metal e cimento.
+
+00:03:59.260 --> 00:04:01.260
+Os recursos que usamos não são esses
+
+00:04:01.260 --> 00:04:04.260
+pedaços bi-dimensionais de terra que temos.
+
+00:04:04.260 --> 00:04:07.260
+Os recursos são o mindshare e ferramentas, as matérias-primas são estas dinâmicas de jogos.
+
+00:04:07.260 --> 00:04:10.260
+Então temos algumas dinâmicas de jogos para discutir.
+
+00:04:10.260 --> 00:04:12.260
+Quatro. Lá na SCVNGR, gostamos de brincar
+
+00:04:12.260 --> 00:04:15.260
+que com sete dinâmicas de jogos, você consegue que qualquer um faça qualquer coisa.
+
+00:04:15.260 --> 00:04:17.260
+E portanto hoje, vou mostrar quatro,
+
+00:04:17.260 --> 00:04:20.260
+porque espero que no final disso eu ainda tenha uma vantagem competitiva.
+
+00:04:20.260 --> 00:04:23.260
+(Risadas)
+
+00:04:23.260 --> 00:04:25.260
+Então a primeira, é uma dinâmica de jogos bem simples.
+
+00:04:25.260 --> 00:04:27.260
+É chamada de dinâmica do compromisso.
+
+00:04:27.260 --> 00:04:29.260
+E essa é uma dinâmica na qual, para serem bem sucedidos,
+
+00:04:29.260 --> 00:04:31.260
+os jogadores devem fazer algo num tempo pré-definido,
+
+00:04:31.260 --> 00:04:33.260
+geralmente num lugar pré-definido.
+
+00:04:33.260 --> 00:04:35.260
+E essas dinâmicas são meio assustadoras às vezes,
+
+00:04:35.260 --> 00:04:37.260
+pois você acha que
+
+00:04:37.260 --> 00:04:39.260
+outras pessoas podem estar usando forças que vão manipular
+
+00:04:39.260 --> 00:04:42.260
+como eu interajo, o que eu faço, onde eu faço, quando eu faço.
+
+00:04:42.260 --> 00:04:44.260
+Essa perda de livre arbítrio que ocorre em jogos
+
+00:04:44.260 --> 00:04:46.260
+pode ser assustadora,
+
+00:04:46.260 --> 00:04:48.260
+então com cada dinâmica, vou dar três exemplos.
+
+00:04:48.260 --> 00:04:51.260
+Um que mostra como ela já está sendo usada no mundo real,
+
+00:04:51.260 --> 00:04:53.260
+para que vocês possam racionalizá-la um pouco.
+
+00:04:53.260 --> 00:04:56.260
+Outra que a apresenta no que consideramos um jogo convencional.
+
+00:04:56.260 --> 00:04:58.260
+Eu acho que tudo é um jogo, isso é
+
+00:04:58.260 --> 00:05:01.260
+mais o que você pensaria que um jogo é, num tabuleiro ou numa tela de computador.
+
+00:05:01.260 --> 00:05:03.260
+E a outra que mostra como isso pode ser usado para o bem,
+
+00:05:03.260 --> 00:05:05.260
+para que possamos ver que essas forças podem ser realmente poderosas.
+
+00:05:05.260 --> 00:05:08.260
+Então o primeiro -- a dinâmica de compromisso mais famosa do mundo --
+
+00:05:08.260 --> 00:05:11.260
+é algo chamado de happy hour.
+
+00:05:11.260 --> 00:05:14.260
+Então, eu recentemente abandonei Princeton
+
+00:05:14.260 --> 00:05:16.260
+e acabei em um bar pela primeira vez,
+
+00:05:16.260 --> 00:05:19.260
+e eu vi esses happy hours por todo o lugar, certo.
+
+00:05:19.260 --> 00:05:21.260
+E isso é simplesmente uma dinâmica de compromisso.
+
+00:05:21.260 --> 00:05:23.260
+Venha aqui em um certo horário, tome seus drinks pela metade do preço.
+
+00:05:23.260 --> 00:05:26.260
+Para vencer, basta que você apareça no lugar certo na hora certa.
+
+00:05:27.260 --> 00:05:29.260
+Essa dinâmica de jogos é tão poderosa,
+
+00:05:29.260 --> 00:05:32.260
+que não apenas influencia nosso comportamento, mas toda nossa cultura.
+
+00:05:32.260 --> 00:05:34.260
+É um pensamento assustador,
+
+00:05:34.260 --> 00:05:37.260
+que uma dinâmica de jogos pode mudar as coisas de forma tão poderosa.
+
+00:05:37.260 --> 00:05:39.260
+Também existe em formas mais convencionais de jogos.
+
+00:05:39.260 --> 00:05:41.260
+Estou certo que todos já ouviram falar de Farmville.
+
+00:05:41.260 --> 00:05:43.260
+Se não ouviram, recomendo jogarem.
+
+00:05:43.260 --> 00:05:45.260
+Não vão fazer mais nada o resto do dia.
+
+00:05:45.260 --> 00:05:48.260
+Farmville tem mais usuários ativos do que o Twitter.
+
+00:05:48.260 --> 00:05:50.260
+É incrivelmente poderoso, e usa essa dinâmica
+
+00:05:50.260 --> 00:05:52.260
+na qual você tem que retornar em um certo horário
+
+00:05:52.260 --> 00:05:55.260
+para irrigar suas plantações -- falsas -- ou elas secam.
+
+00:05:55.260 --> 00:05:58.260
+E isso é tão poderoso que, quando eles mexem nos números,
+
+00:05:58.260 --> 00:06:00.260
+quando eles dizem que suas plantações murcham
+
+00:06:00.260 --> 00:06:03.260
+após oito horas, ou após seis horas, ou após 24 horas,
+
+00:06:03.260 --> 00:06:05.260
+isso muda o ciclo de vida
+
+00:06:05.260 --> 00:06:07.260
+de 70 milhões de pessoas durante o dia.
+
+00:06:07.260 --> 00:06:10.260
+Elas retornarão de forma mecânica em horários diferentes.
+
+00:06:10.260 --> 00:06:13.260
+Então se eles quisessem que o mundo acabasse, se eles quisessem que a produtividade parasse,
+
+00:06:13.260 --> 00:06:15.260
+eles poderiam fazer disso um ciclo de 30 minutos.
+
+00:06:15.260 --> 00:06:17.260
+e ninguém poderia fazer nada.
+
+00:06:17.260 --> 00:06:19.260
+(Risadas)
+
+00:06:19.260 --> 00:06:21.260
+Isso é um pouco assustador.
+
+00:06:21.260 --> 00:06:23.260
+Mas isso também poderia ser usado para o bem.
+
+00:06:23.260 --> 00:06:25.260
+Esta é uma companhia local chamada Vitality, e eles criaram um produto
+
+00:06:25.260 --> 00:06:27.260
+para ajudar pessoas a tomar seus remédios no horário.
+
+00:06:27.260 --> 00:06:29.260
+Isso é um compromisso.
+
+00:06:29.260 --> 00:06:31.260
+É algo que as pessoas não fazem muito bem.
+
+00:06:31.260 --> 00:06:34.260
+E eles tem esses GlowCaps que, você sabe, piscam e mandam emails
+
+00:06:34.260 --> 00:06:36.260
+e fazem várias coisas legais para lembrá-lo de tomar seu remédio.
+
+00:06:36.260 --> 00:06:38.260
+Esse é um que não é ainda um jogo, mas deveria ser.
+
+00:06:38.260 --> 00:06:40.260
+Você deveria ganhar pontos por fazer isso no horário.
+
+00:06:40.260 --> 00:06:42.260
+Você deveria perder pontos por não fazer.
+
+00:06:42.260 --> 00:06:44.260
+Eles deviam conscientemente reconhecer
+
+00:06:44.260 --> 00:06:46.260
+que eles criaram uma dinâmica de compromisso e aproveitar os jogos.
+
+00:06:46.260 --> 00:06:49.260
+E então você pode realmente fazer o bem de formas interessantes.
+
+00:06:49.260 --> 00:06:51.260
+Acho que vamos pular para a próxima. Sim
+
+00:06:51.260 --> 00:06:53.260
+Influência e status.
+
+00:06:53.260 --> 00:06:55.260
+Essa é uma das dinâmicas de jogos mais famosas.
+
+00:06:55.260 --> 00:06:57.260
+É usada em todo lugar.
+
+00:06:57.260 --> 00:06:59.260
+Está sendo utilizada nas suas carteiras, agora mesmo.
+
+00:06:59.260 --> 00:07:01.260
+Todos queremos aquele cartão da esquerda
+
+00:07:01.260 --> 00:07:03.260
+porque é categoria Black.
+
+00:07:03.260 --> 00:07:05.260
+E você vê alguém na CVS ou --
+
+00:07:05.260 --> 00:07:08.260
+não no CVS -- na loja Christian Dior ou algo assim, e então ...
+
+00:07:08.260 --> 00:07:11.260
+Não sei. Não tenho um cartão Black; tenho um cartão de débito.
+
+00:07:11.260 --> 00:07:14.260
+(Risadas)
+
+00:07:14.260 --> 00:07:16.260
+Então eles sacam o cartão. E vocês percebem que eles têm aquele cartão Black.
+
+00:07:16.260 --> 00:07:18.260
+Eu quero esse cartão porque significa que eles são mais legais que eu,
+
+00:07:18.260 --> 00:07:20.260
+e eu preciso disso.
+
+00:07:20.260 --> 00:07:22.260
+E isso é usado em jogos também.
+
+00:07:22.260 --> 00:07:25.260
+"Modern Warfare," um dos jogos mais vendidos de todos os tempos.
+
+00:07:25.260 --> 00:07:28.260
+Eu sou apenas nível quatro, mas quero desesperadamente ser nível 10,
+
+00:07:28.260 --> 00:07:30.260
+pois eles possuem aquele distintivo vermelho legal,
+
+00:07:30.260 --> 00:07:33.260
+e isso significa que são de alguma forma melhor que todos os outros.
+
+00:07:33.260 --> 00:07:36.260
+E isso é muito poderoso pra mim. Status é um motivador muito bom.
+
+00:07:36.260 --> 00:07:38.260
+Também é usado em situações mais convencionais.
+
+00:07:38.260 --> 00:07:41.260
+e pode ser usado de forma mais consciente em situações convencionais.
+
+00:07:41.260 --> 00:07:44.260
+Escola -- e lembrem-se, eu consegui aguentar um ano,
+
+00:07:44.260 --> 00:07:46.260
+então eu acredito que estou qualificado para falar sobre escola --
+
+00:07:46.260 --> 00:07:49.260
+é um jogo, só não é muito bem projetado.
+
+00:07:49.260 --> 00:07:52.260
+Existem níveis. Existe o C, Existe o B. Existe o A.
+
+00:07:52.260 --> 00:07:55.260
+Existem diversos status. Quero dizer, o que é "número um da turma", além de status?
+
+00:07:55.260 --> 00:07:59.260
+Se chamássemos o "número um" de "cavaleiro branco paladino nível 20,"
+
+00:07:59.260 --> 00:08:02.260
+eu acho que as pessoas iriam provavelmente se esforçar muito mais.
+
+00:08:02.260 --> 00:08:04.260
+(Risadas)
+
+00:08:05.260 --> 00:08:08.260
+Então a escola é um jogo, e foram feitos diversos testes
+
+00:08:08.260 --> 00:08:10.260
+sobre como fazer isso da forma correta.
+
+00:08:10.260 --> 00:08:13.260
+Mas vamos pensar bem. Por que há jogos em que você pode perder?
+
+00:08:13.260 --> 00:08:15.260
+Por que ir do A para o F ou do B para o C?
+
+00:08:15.260 --> 00:08:17.260
+Isso é uma droga. Por que não subir de nível?
+
+00:08:17.260 --> 00:08:19.260
+E em Princeton, eles experimentaram isso,
+
+00:08:19.260 --> 00:08:21.260
+você tem questionários nos quais ganha pontos de experiência,
+
+00:08:21.260 --> 00:08:23.260
+e você sobe do nível B para o A.
+
+00:08:23.260 --> 00:08:25.260
+E é muito poderoso.
+
+00:08:25.260 --> 00:08:28.260
+Pode ser usado de formas bem interessantes.
+
+00:08:28.260 --> 00:08:30.260
+O terceiro que quero discutir rapidamente é a dinâmica de progressão,
+
+00:08:30.260 --> 00:08:32.260
+na qual você tem que fazer progresso,
+
+00:08:32.260 --> 00:08:35.260
+você tem que se mover por diferentes passos de uma forma bem devagar.
+
+00:08:35.260 --> 00:08:38.260
+Isso é usado em todo lugar, incluindo LinkedIn,
+
+00:08:38.260 --> 00:08:40.260
+onde eu sou indivíduo não-completo.
+
+00:08:40.260 --> 00:08:43.260
+Sou estou 85% completo no LinkedIn,
+
+00:08:43.260 --> 00:08:45.260
+e isso me incomoda.
+
+00:08:45.260 --> 00:08:48.260
+E isso está tão profundo na nossa mente
+
+00:08:48.260 --> 00:08:50.260
+que, quando nos apresentam uma barra de progresso
+
+00:08:50.260 --> 00:08:52.260
+e alguns passos fáceis e sequênciais
+
+00:08:52.260 --> 00:08:55.260
+para realizar e tentar completar a barra de progresso, nós o fazemos.
+
+00:08:55.260 --> 00:08:57.260
+Nós vamos encontrar uma forma de mover essa linha azul.
+
+00:08:57.260 --> 00:09:00.260
+Até o final, à direita da tela.
+
+00:09:00.260 --> 00:09:02.260
+Isso também é usado em jogos convencionais.
+
+00:09:02.260 --> 00:09:04.260
+Quero dizer, isso é um paladino nível 10,
+
+00:09:04.260 --> 00:09:06.260
+e isso é um paladino nível 20,
+
+00:09:06.260 --> 00:09:09.260
+e se você fosse lutar com ogros nos campos de Mordor
+
+00:09:09.260 --> 00:09:11.260
+contra os Raz al Ghul,
+
+00:09:11.260 --> 00:09:13.260
+você gostaria de ser o maior, certo.
+
+00:09:13.260 --> 00:09:15.260
+Eu gostaria.
+
+00:09:15.260 --> 00:09:17.260
+Então pessoas se esforçam muito para subir de nível.
+
+00:09:17.260 --> 00:09:20.260
+"World of Warcraft" é um dos jogos mais bem sucedidos da história.
+
+00:09:20.260 --> 00:09:22.260
+O jogador médio gasta algo como
+
+00:09:22.260 --> 00:09:24.260
+seis, seis horas e meia por dia nele.
+
+00:09:24.260 --> 00:09:27.260
+Para os jogadores mais dedicados, é um trabalho em tempo integral.
+
+00:09:27.260 --> 00:09:30.260
+É insano. E eles possuem esses sistemas nos quais você pode subir de nível.
+
+00:09:30.260 --> 00:09:33.260
+E isso é muito poderoso. Progressão é poderoso.
+
+00:09:34.260 --> 00:09:37.260
+Isso também pode ser usado para o bem de formas interessantes.
+
+00:09:37.260 --> 00:09:39.260
+Uma das coisas que trabalhamos na SCVNGR
+
+00:09:39.260 --> 00:09:42.260
+é como usar jogos para direcionar tráfego e negócios para as empresas locais,
+
+00:09:42.260 --> 00:09:44.260
+para algo que é muito importante para a economia.
+
+00:09:44.260 --> 00:09:47.260
+E aqui temos um jogo que as pessoas jogam.
+
+00:09:47.260 --> 00:09:49.260
+Elas vão aos lugares, fazem desafios, ganham pontos.
+
+00:09:49.260 --> 00:09:51.260
+E introduzimos uma dinâmica de progressão nele,
+
+00:09:51.260 --> 00:09:53.260
+onde, indo ao mesmo lugar diversas vezes,
+
+00:09:53.260 --> 00:09:55.260
+fazendo desafios, entrando em negócios,
+
+00:09:55.260 --> 00:09:58.260
+você move uma barra verde do lado esquerdo da tela até o lado direito,
+
+00:09:58.260 --> 00:10:00.260
+e eventualmente recebe recompensas.
+
+00:10:00.260 --> 00:10:02.260
+E isso é tão poderoso que podemos ver
+
+00:10:02.260 --> 00:10:04.260
+que as pessoas são envolvidas nessas dinâmicas,
+
+00:10:04.260 --> 00:10:06.260
+são puxadas aos mesmos locais de negócio,
+
+00:10:06.260 --> 00:10:08.260
+criando grande lealdade, criando compromissos,
+
+00:10:08.260 --> 00:10:10.260
+e consegue gerar lucros significativos
+
+00:10:10.260 --> 00:10:12.260
+e diversão e engajamento nos negócios.
+
+00:10:12.260 --> 00:10:14.260
+Essas dinâmicas de progressão são poderosas
+
+00:10:14.260 --> 00:10:16.260
+e podem ser usadas no mundo real.
+
+00:10:16.260 --> 00:10:19.260
+A última que quero discutir -- uma ótima para terminar --
+
+00:10:19.260 --> 00:10:21.260
+é esse conceito de descoberta comunitária,
+
+00:10:21.260 --> 00:10:24.260
+uma dinâmica na qual todos precisam trabalhar juntos
+
+00:10:24.260 --> 00:10:26.260
+para conseguir algo.
+
+00:10:26.260 --> 00:10:28.260
+E a descoberta comunitária é poderosa pois aproveira
+
+00:10:28.260 --> 00:10:30.260
+a rede que é a sociedade
+
+00:10:30.260 --> 00:10:33.260
+para resolver problemas.
+
+00:10:33.260 --> 00:10:36.260
+Isso é usado em alguns tipos famosos de sites de indicação,
+
+00:10:36.260 --> 00:10:38.260
+como o Digg, o qual estou certo que todos já conhecem.
+
+00:10:38.260 --> 00:10:40.260
+Digg é uma dinâmica comunitária
+
+00:10:40.260 --> 00:10:42.260
+para tentar encontrar as melhores fontes de notícias,
+
+00:10:42.260 --> 00:10:44.260
+as histórias mais interessantes.
+
+00:10:44.260 --> 00:10:46.260
+E eles construíram um jogo, inicialmente.
+
+00:10:46.260 --> 00:10:49.260
+Eles tinham um painel de líderes, onde, se você recomendasse as melhores histórias,
+
+00:10:49.260 --> 00:10:51.260
+você conseguiria pontos.
+
+00:10:51.260 --> 00:10:53.260
+E isso realmente motivou as pessoas a encontrar as melhores histórias.
+
+00:10:53.260 --> 00:10:56.260
+Mas isso se tornou tão poderoso, que houve uma conspiração,
+
+00:10:56.260 --> 00:10:59.260
+um grupo de pessoas, os primeiros sete do ranking,
+
+00:10:59.260 --> 00:11:02.260
+que trabalhavam juntos para manter suas posições.
+
+00:11:02.260 --> 00:11:04.260
+E eles recomendavam histórias de outras pessoas.
+
+00:11:04.260 --> 00:11:06.260
+E o jogo se tornou mais poderoso do que o objetivo.
+
+00:11:06.260 --> 00:11:08.260
+E eles acabaram tendo que desativar o painel de líderes
+
+00:11:08.260 --> 00:11:10.260
+pois, apesar de efetivo,
+
+00:11:10.260 --> 00:11:12.260
+era tão poderoso que pararam de indicar as melhores histórias
+
+00:11:12.260 --> 00:11:15.260
+e começaram a trabalhar apenas para manter a liderança.
+
+00:11:15.260 --> 00:11:17.260
+Então temos que usar isso com precaução.
+
+00:11:17.260 --> 00:11:19.260
+Isso também é usado em coisas como o Banco Imobiliário do McDonald's
+
+00:11:19.260 --> 00:11:21.260
+onde o jogo não é o Banco Imobiliário que você está jogando,
+
+00:11:21.260 --> 00:11:23.260
+mas os tipos de indústrias caseiras que se formam
+
+00:11:23.260 --> 00:11:25.260
+para tentar conseguir o Calçadão, certo.
+
+00:11:25.260 --> 00:11:28.260
+E agora eles estão procurando por um adesivo que diz "Calçadão".
+
+00:11:28.260 --> 00:11:30.260
+Mas isso também pode ser usado para encontrar coisas reais.
+
+00:11:30.260 --> 00:11:32.260
+Esse é o desafio de balões DARPA,
+
+00:11:32.260 --> 00:11:35.260
+no qual eles esconderam alguns balões nos Estados Unidos
+
+00:11:35.260 --> 00:11:37.260
+e disseram, "Usem redes.
+
+00:11:37.260 --> 00:11:40.260
+Tentem encontrar os balões o mais rápido possível, e o vencedor ganhará $40,000."
+
+00:11:40.260 --> 00:11:42.260
+E os vencedores foram um grupo do MIT,
+
+00:11:42.260 --> 00:11:44.260
+que criou um tipo de esquema de pirâmide, uma rede,
+
+00:11:44.260 --> 00:11:46.260
+onde a primeira pessoa que recomendasse o local de um balão
+
+00:11:46.260 --> 00:11:49.260
+ganharia $2,000 e qualquer um que reforçasse a recomendação
+
+00:11:49.260 --> 00:11:51.260
+também ganhou uma parte do prêmio.
+
+00:11:51.260 --> 00:11:53.260
+E em 12 horas, eles conseguiram encontrar
+
+00:11:53.260 --> 00:11:55.260
+todos os balões, por todo o país, certo.
+
+00:11:55.260 --> 00:11:57.260
+Dinâmica muito poderosa.
+
+00:11:57.260 --> 00:12:00.260
+Então, eu tenho uns 20 segundos ainda.
+
+00:12:00.260 --> 00:12:02.260
+A informação que eu deixo para vocês é que
+
+00:12:02.260 --> 00:12:04.260
+a última década foi a década do social.
+
+00:12:04.260 --> 00:12:06.260
+E a próxima década será a década dos jogos.
+
+00:12:06.260 --> 00:12:08.260
+Usamos dinâmicas de jogos para construir nessa camada. Construímos com mindshare.
+
+00:12:08.260 --> 00:12:10.260
+Podemos influenciar comportamento.
+
+00:12:10.260 --> 00:12:12.260
+É muito poderoso e muito excitante.
+
+00:12:12.260 --> 00:12:15.260
+Vamos todos construir juntos, vamos fazer direito e nos divertir.
+

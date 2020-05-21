@@ -1,0 +1,454 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:25.000 --> 00:00:27.000
+Thứ mà tôi sẽ trình bày đến các bạn trước, một cách nhanh nhất có thể
+
+00:00:27.000 --> 00:00:31.000
+là một công trình cơ bản, một công nghệ mới
+
+00:00:31.000 --> 00:00:34.000
+mà chúng tôi đã mang đến Microsoft trong cuộc sát nhập
+
+00:00:34.000 --> 00:00:37.000
+cách đây một năm. Đây là Seadragon.
+
+00:00:37.000 --> 00:00:40.000
+Là một môi trường mà bạn có thể tương tác trong phạm vi
+
+00:00:40.000 --> 00:00:43.000
+xa hoặc gần với nhiều loại dữ liệu hình ảnh.
+
+00:00:43.000 --> 00:00:46.000
+Chúng ta đang nhìn thấy rất nhiều Gb ảnh điện tử ở đây
+
+00:00:46.000 --> 00:00:49.000
+và gần như đang liên tục thu hẹp lại,
+
+00:00:50.000 --> 00:00:52.000
+xoay trái phải, xếp đặt lại chúng bằng mọi cách mà ta muốn
+
+00:00:52.000 --> 00:00:56.000
+Và không quan trọng chuyện lượng thông tin ta cần đến lớn bao nhiêu,
+
+00:00:56.000 --> 00:00:59.000
+những bộ sưu tập này và những hình ảnh đó lớn bao nhiêu.
+
+00:00:59.000 --> 00:01:01.000
+Tất cả đều là những hình ảnh chụp từ máy ảnh số,
+
+00:01:01.000 --> 00:01:04.000
+nhưng cái này chẳng hạn, là bản quét từ Thư viện Quốc hội,
+
+00:01:05.000 --> 00:01:07.000
+và có khối lượng khoảng 300 mega điểm ảnh.
+
+00:01:08.000 --> 00:01:09.000
+Những cũng chẳng có gì khác biệt
+
+00:01:09.000 --> 00:01:12.000
+vì điều duy nhất làm giới hạn khả năng
+
+00:01:12.000 --> 00:01:15.000
+của một hệ thống như thế này chính là số điểm ảnh trên màn hình của bạn
+
+00:01:15.000 --> 00:01:18.000
+tại bất cứ thời điểm nào. Kiến trúc của nó cũng rất đa dạng.
+
+00:01:18.000 --> 00:01:21.000
+Đây là một quyển sách, ví dụ về dữ liệu không hình ảnh.
+
+00:01:22.000 --> 00:01:27.000
+Đây là quyển Ngôi nhà lạnh lẽo của Dickens. Mỗi cột là một chương.
+
+00:01:27.000 --> 00:01:31.000
+Để chứng minh với các bạn rằng đây chính là một văn bản và không phải là hình ảnh,
+
+00:01:31.000 --> 00:01:33.000
+chúng ta có thể làm như thế này, để thực sự thấy rằng
+
+00:01:33.000 --> 00:01:36.000
+đây là phần trình bày của một văn bản; nó không phải là một bức tranh.
+
+00:01:37.000 --> 00:01:39.000
+Có thể đây là một cách để đọc một quyển sách điện tử
+
+00:01:39.000 --> 00:01:40.000
+Tôi không khuyến khích cách này.
+
+00:01:40.000 --> 00:01:43.000
+Đây là một trường hợp thực tế hơn. Đây là một số báo của tờ The Guardian.
+
+00:01:43.000 --> 00:01:45.000
+Mỗi bức ảnh to bắt đầu một mục.
+
+00:01:45.000 --> 00:01:48.000
+Và nó thực sự mang lại cho bạn sự hứng khởi và vui vẻ
+
+00:01:48.000 --> 00:01:53.000
+khi đọc một tờ báo thực sự
+
+00:01:54.000 --> 00:01:55.000
+và là một phương tiện đa dạng xuyên suốt.
+
+00:01:56.000 --> 00:01:57.000
+Chúng tôi đã làm thay đổi một chút
+
+00:01:57.000 --> 00:02:00.000
+với góc của tờ báo The Guardian này.
+
+00:02:00.000 --> 00:02:03.000
+Chúng tôi đã tạo ra một mẩu quảng cáo với độ phân giải cao--
+
+00:02:03.000 --> 00:02:05.000
+cao hơn hẳn cái thường có ở quảng cáo thông thường --
+
+00:02:05.000 --> 00:02:07.000
+và chúng tôi đính thêm nhiều nội dung khác.
+
+00:02:07.000 --> 00:02:09.000
+Nếu bạn muốn xem các nét đặc trưng của chiếc xe này, bạn có thể xem ở đây.
+
+00:02:10.000 --> 00:02:14.000
+Cũng có thể xem các mẫu khác, thậm chí cả đặc tính kĩ thuật.
+
+00:02:15.000 --> 00:02:17.000
+Và điều này mang đến một vài ý tưởng
+
+00:02:18.000 --> 00:02:22.000
+về việc vượt qua giới hạn trên màn hình.
+
+00:02:22.000 --> 00:02:24.000
+Chúng tôi mong rằng điều này có nghĩa là sẽ không còn các quảng cáo dạng pop-up
+
+00:02:24.000 --> 00:02:26.000
+và các dạng tương tự -- chúng không cần thiết.
+
+00:02:27.000 --> 00:02:29.000
+Tất nhiên, bản đồ là một trong những ứng dụng thiết yếu
+
+00:02:29.000 --> 00:02:31.000
+cho công nghệ dạng này.
+
+00:02:31.000 --> 00:02:33.000
+Và tôi sẽ không dành thời gian nói nhiều về nói
+
+00:02:33.000 --> 00:02:35.000
+ngoài việc nói rằng chúng tôi cũng đóng góp vào lĩnh vực này.
+
+00:02:37.000 --> 00:02:39.000
+Nhưng đó là những con đường ở nước Mỹ
+
+00:02:39.000 --> 00:02:43.000
+được xếp chồng trên bản đồ của NASA.
+
+00:02:44.000 --> 00:02:46.000
+Nên hãy kéo lên, bây giờ, xem một thứ khác.
+
+00:02:46.000 --> 00:02:49.000
+Nó đã có ở trên trang web và bạn có thể tìm hiểu thêm.
+
+00:02:49.000 --> 00:02:50.000
+Đây là một dự án tên gọi Photosynth,
+
+00:02:51.000 --> 00:02:52.000
+kết hợp hai công nghệ khác nhau.
+
+00:02:52.000 --> 00:02:53.000
+Một trong số đó là Seadragon
+
+00:02:54.000 --> 00:02:56.000
+và công nghệ còn lại là một nghiên cứu tầm nhìn điện tử
+
+00:02:57.000 --> 00:02:59.000
+bởi Noah Snavely, sinh viên cao học của trường đại học Washington,
+
+00:03:00.000 --> 00:03:02.000
+đồng chỉ đạo bởi Steve Seitz ở UW
+
+00:03:02.000 --> 00:03:06.000
+và Rick Szeliski ở Trung tâm nghiên cứu Microsoft. Một sự hợp tác rất tuyệt vời.
+
+00:03:07.000 --> 00:03:09.000
+Dự án này đã có trên mạng. Được cấp nguồn bởi Seadragon.
+
+00:03:09.000 --> 00:03:11.000
+Bạn có thể thấy khi chúng tôi tiến hành thử những góc nhìn này,
+
+00:03:12.000 --> 00:03:13.000
+khi chúng tôi lướt qua các hình ảnh
+
+00:03:14.000 --> 00:03:15.000
+và có sự trải nghiệm về sự phân giải nhiều lớp.
+
+00:03:16.000 --> 00:03:20.000
+Nhưng sự sắp đặp không gian của các hình ảnh ở đây rất có ý nghĩa.
+
+00:03:20.000 --> 00:03:23.000
+Các thuật toán máy tính đã xắp xếp những hình ảnh này cùng nhau.
+
+00:03:23.000 --> 00:03:27.000
+và chúng tương ứng với không gian thật, trong đó những bức hình này --
+
+00:03:27.000 --> 00:03:29.000
+tất cả được chụp gần Grassi Lakes ở Canadian Rockies --
+
+00:03:31.000 --> 00:03:33.000
+Giờ các bạn có thể thấy ở đây những yếu tố
+
+00:03:33.000 --> 00:03:37.000
+của slide-show được ổn định hoặc toàn bộ hình ảnh,
+
+00:03:40.000 --> 00:03:42.000
+và những thứ này được liên hệ không gian với nhau.
+
+00:03:42.000 --> 00:03:45.000
+Tôi không chắc mình có đủ thời gian để trình bày về các môi trường khác.
+
+00:03:45.000 --> 00:03:46.000
+Có một vài môi trường với nhiều không gian hơn rất nhiều.
+
+00:03:47.000 --> 00:03:50.000
+Tôi muốn đề cập thẳng đến một trong những bộ dữ liệu nguyên bản của Noah --
+
+00:03:50.000 --> 00:03:52.000
+có nguồn gốc từ một mẫu nguyên thủy của Photosynth
+
+00:03:52.000 --> 00:03:54.000
+mà chúng tôi bắt đầu nghiên cứu lần đầu vào mùa hè --
+
+00:03:54.000 --> 00:03:55.000
+để trình bày cho các bạn những gì tôi nghĩ
+
+00:03:55.000 --> 00:03:58.000
+là điểm nút đằng sau công nghệ này,
+
+00:03:59.000 --> 00:04:01.000
+công nghệ Photosynth. Và nó thực sự không rõ rệt
+
+00:04:01.000 --> 00:04:04.000
+nếu chỉ nhìn vào những môi trường được tạo dựng trên trang web.
+
+00:04:04.000 --> 00:04:06.000
+Chúng tôi đã phải lo lắng về luật sư và những điều khác.
+
+00:04:07.000 --> 00:04:08.000
+Đây là bản tái thiết nhà thờ Notre Dame
+
+00:04:09.000 --> 00:04:11.000
+đã được làm hoàn toàn bằng máy tính
+
+00:04:11.000 --> 00:04:14.000
+từ những hình ảnh lấy từ Flickr. Bạn chỉ cần đánh "Notre Dame" vào Flickr,
+
+00:04:14.000 --> 00:04:17.000
+và bạn có thể thấy hình ảnh những cậu sinh viên mặc áo phông, hoặc ảnh của trường
+
+00:04:17.000 --> 00:04:21.000
+và nhiều nữa. Và mỗi hình nón màu cam này báo hiệu một hình ảnh
+
+00:04:22.000 --> 00:04:24.000
+được coi là thuộc mẫu hình này.
+
+00:04:26.000 --> 00:04:28.000
+Và đây là tất cả những hình ảnh lấy từ Flickr,
+
+00:04:28.000 --> 00:04:31.000
+và chúng được liên kết không gian theo cách này.
+
+00:04:31.000 --> 00:04:33.000
+Chúng ta chỉ cần tìm hiểu chúng một cách rất đơn giản.
+
+00:04:35.000 --> 00:04:44.000
+(Vỗ tay).
+
+00:04:44.000 --> 00:04:46.000
+Bạn biết đấy, tôi chưa từng nghĩ rằng cuối cùng mình lại làm việc ở Microsoft.
+
+00:04:46.000 --> 00:04:50.000
+Và thật phấn khởi khi được đón nhận như thế này.
+
+00:04:50.000 --> 00:04:53.000
+(Cười).
+
+00:04:53.000 --> 00:04:56.000
+Tôi nghĩ các bạn có thể thấy
+
+00:04:56.000 --> 00:04:58.000
+ở đây có rất nhiều các loại máy ảnh:
+
+00:04:58.000 --> 00:05:01.000
+nó có tất cả từ máy ảnh điện thoại đến máy SLR chuyên nghiệp,
+
+00:05:02.000 --> 00:05:03.000
+một số lớn trong chúng được cài vào
+
+00:05:03.000 --> 00:05:04.000
+trong môi trường này.
+
+00:05:04.000 --> 00:05:06.000
+Và nếu có thể, tôi sẽ tìm những loại kì cục nhất.
+
+00:05:08.000 --> 00:05:11.000
+Có rất nhiều loại được bít kín bởi các mặt, và nhiều hơn nữa.
+
+00:05:13.000 --> 00:05:14.000
+Vài nơi trong này thực ra đã có một series
+
+00:05:15.000 --> 00:05:16.000
+các bức ảnh -- chúng ta bắt đầu.
+
+00:05:17.000 --> 00:05:20.000
+Đây là một bức ảnh của Notre Dame được đăng kí đúng.
+
+00:05:21.000 --> 00:05:23.000
+Chúng ta có thể khám phá bức ảnh này
+
+00:05:24.000 --> 00:05:27.000
+để có cái nhìn của môi trường này.
+
+00:05:31.000 --> 00:05:34.000
+Ý chính ở đây là chúng ta có thể làm những điều tương tự
+
+00:05:34.000 --> 00:05:39.000
+với môi trường xã hội. Giờ nó đang lấy dữ liệu từ tất cả mọi người --
+
+00:05:39.000 --> 00:05:40.000
+từ một bộ nhớ
+
+00:05:40.000 --> 00:05:42.000
+về hình ảnh trái đất
+
+00:05:43.000 --> 00:05:44.000
+và nối chúng lại với nhau.
+
+00:05:44.000 --> 00:05:46.000
+Tất cả những bức ảnh đó được nối lại với nhau
+
+00:05:46.000 --> 00:05:47.000
+và nó tạo nên những thứ
+
+00:05:47.000 --> 00:05:49.000
+còn tuyệt vời hơn tất cả các phần góp lại.
+
+00:05:49.000 --> 00:05:51.000
+Giờ ta có một mẫu mô phỏng toàn bộ Trái đất.
+
+00:05:51.000 --> 00:05:56.000
+Hãy coi nó như bản thêm của chương trình Trái đất Ảo của Stepehn Lawler.
+
+00:05:56.000 --> 00:05:58.000
+Và đây là thứ mà càng trở nên phức tạp
+
+00:05:58.000 --> 00:06:01.000
+khi người ta sử dụng, và lợi ích từ nó càng trở nên lớn hơn
+
+00:06:01.000 --> 00:06:03.000
+cho người dùng.
+
+00:06:03.000 --> 00:06:05.000
+Những bức ảnh của người dùng sẽ được đính với dữ liệu dang meta
+
+00:06:05.000 --> 00:06:06.000
+khi một người khác nhập vào.
+
+00:06:07.000 --> 00:06:10.000
+Nếu có ai đó có thể tag tất cả những vị thánh này
+
+00:06:10.000 --> 00:06:13.000
+và điền thông tin về họ, thì bức ảnh về nhà thờ Notre Dame của tôi
+
+00:06:13.000 --> 00:06:15.000
+sẽ cập nhật những thông tin này luôn,
+
+00:06:15.000 --> 00:06:18.000
+và tôi có thể dùng nó như điểm vào để lướt vào không gian đó,
+
+00:06:18.000 --> 00:06:20.000
+dữ liệu đó, sử dụng hình ảnh của những người khác,
+
+00:06:21.000 --> 00:06:23.000
+và thực hiện thao tác xuyên mô hình
+
+00:06:25.000 --> 00:06:28.000
+và xuyên mạng lưới người xử dụng.
+
+00:06:28.000 --> 00:06:29.000
+Và tất nhiên, sản phẩm đi kèm sau đó
+
+00:06:30.000 --> 00:06:32.000
+là những mô hình giàu tính hình ảnh
+
+00:06:32.000 --> 00:06:34.000
+về những khu vực thú vị của thế giới, được thu thập
+
+00:06:35.000 --> 00:06:38.000
+không chỉ từ những ảnh chụp từ trên máy bay hay vệ tinh
+
+00:06:38.000 --> 00:06:40.000
+mà còn từ bộ nhớ có tính năng thu thập dữ liệu.
+
+00:06:40.000 --> 00:06:42.000
+Cảm ơn các bạn rất nhiều.
+
+00:06:42.000 --> 00:06:53.000
+(Vỗ tay)
+
+00:06:53.000 --> 00:06:57.000
+Chris Anderson: Không biết tôi hiểu có đúng không? Rằng điều mà phần mềm của ngài đang cho phép,
+
+00:06:58.000 --> 00:07:00.000
+đó là tại một thời điểm nào đó, trong vòng vài năm tới,
+
+00:07:01.000 --> 00:07:05.000
+tất cả những bức ảnh được chia sẻ bởi bất cứ ai trên thế giới
+
+00:07:05.000 --> 00:07:07.000
+chúng sẽ được kết nối với nhau?
+
+00:07:07.000 --> 00:07:09.000
+BAA: Đúng vậy. Những gì phầm mềm này là để khám phá.
+
+00:07:09.000 --> 00:07:12.000
+Nó tạo nên những siêu kết nối giữa những hình ảnh.
+
+00:07:12.000 --> 00:07:13.000
+Và nó làm điều đó
+
+00:07:13.000 --> 00:07:14.000
+dựa trên nội dung bên trong bức ảnh.
+
+00:07:14.000 --> 00:07:17.000
+và điều đó làm bạn thực sự phấn khích khi nghĩ đến những
+
+00:07:17.000 --> 00:07:19.000
+thông tin phong phú mà những hình ảnh này có.
+
+00:07:19.000 --> 00:07:21.000
+Chẳng hạn khi bạn thực hiện lệnh tìm kiếm hình ảnh trên mạng,
+
+00:07:22.000 --> 00:07:24.000
+bạn gõ vào những cụm từ, và những từ khóa trên trang web
+
+00:07:24.000 --> 00:07:27.000
+chứa rất nhiều thông tin về bức ảnh đó.
+
+00:07:27.000 --> 00:07:29.000
+Giờ, nếu bức ảnh đó được kết nối với tất cả những bức ảnh của bạn thì sao?
+
+00:07:29.000 --> 00:07:31.000
+Thì khối lượng của liên kết ngữ nghĩa
+
+00:07:31.000 --> 00:07:32.000
+và khối lượng thông tin phong phú kèm với nó
+
+00:07:32.000 --> 00:07:35.000
+là rất lớn. Đây chính là hiệu ứng mạng lưới điển hình.
+
+00:07:35.000 --> 00:07:37.000
+CA: Blaise, điều này thực sự kì diệu. Xin chúc mừng.
+
+00:07:37.000 --> 00:07:38.000
+BAA: Cảm ơn rất nhiều.
+

@@ -1,0 +1,789 @@
+WEBVTT
+Kind: captions
+Language: no
+
+00:00:00.000 --> 00:00:07.000
+Translator: Theodor Tonum
+Reviewer: Jon Arne Toft
+
+00:00:23.307 --> 00:00:26.491
+Så hva vil det si at en maskin er atletisk?
+
+00:00:26.491 --> 00:00:29.908
+Vi skal demonstrere konseptet atletiske maskiner
+
+00:00:29.908 --> 00:00:31.628
+og forskningen som står bak
+
+00:00:31.628 --> 00:00:34.139
+ved hjelp av disse flyvemaskinene kalt quadracopters
+
+00:00:34.139 --> 00:00:36.026
+ofte forkortet til quads.
+
+00:00:38.034 --> 00:00:40.563
+Vi har hatt disse en god stund.
+
+00:00:40.563 --> 00:00:42.162
+Grunnen til at de er blitt så populære nå
+
+00:00:42.162 --> 00:00:44.127
+er fordi de er mekanisk enkle.
+
+00:00:44.127 --> 00:00:46.235
+Ved å kontrollere hastigheten til disse fire propellene
+
+00:00:46.235 --> 00:00:49.283
+kan maskinene rulle, pitche, dreie
+
+00:00:49.283 --> 00:00:52.108
+og aksellerere rundt deres felles orientasjon.
+
+00:00:52.108 --> 00:00:55.179
+Om bord finnes også et batteri, en datamaskin,
+
+00:00:55.179 --> 00:00:59.133
+forskjellige sensorer og trådløse radioer.
+
+00:00:59.133 --> 00:01:03.762
+De er ekstremt smidige, men denne smidigheten har sin pris.
+
+00:01:03.762 --> 00:01:06.754
+De er inneboende ustabile, og trenger en eller annen form
+
+00:01:06.754 --> 00:01:10.726
+for automatisk tilbakemelding for å kunne fly.
+
+00:01:16.259 --> 00:01:19.497
+Så hvordan fikk jeg til det?
+
+00:01:19.497 --> 00:01:21.315
+I taket finnes det kameraer koblet til en bærbar PC
+
+00:01:21.315 --> 00:01:23.891
+som fungerer som en innendørs GPS.
+
+00:01:23.891 --> 00:01:26.076
+Disse brukes for å lokalisere objekter i rommet
+
+00:01:26.076 --> 00:01:28.603
+som har disse reflekterende markørene på seg.
+
+00:01:28.603 --> 00:01:30.664
+Dataene blir deretter sendt til en annen bærbar datamaskin
+
+00:01:30.664 --> 00:01:32.875
+som går igjennom estimering- og kontrollalgoritmer
+
+00:01:32.875 --> 00:01:34.761
+for igjen å sende kommandoer til helikopteret
+
+00:01:34.761 --> 00:01:38.246
+som også kjører estimering- og kontrollalgoritmer.
+
+00:01:41.620 --> 00:01:44.130
+Brorparten av vår forskning er algoritmer.
+
+00:01:44.130 --> 00:01:48.291
+De står for magien som gjør maskinene levende.
+
+00:01:48.291 --> 00:01:50.334
+Så hvordan designer man algoritmer
+
+00:01:50.334 --> 00:01:52.611
+som skaper en atletisk maskin?
+
+00:01:52.611 --> 00:01:55.491
+Vi bruker noe som utbredt kalles modellbasert design.
+
+00:01:55.491 --> 00:01:58.645
+Først finner vi ut av fysikken, med en matematisk modell,
+
+00:01:58.645 --> 00:02:00.779
+for hvordan maskinene oppfører seg.
+
+00:02:00.779 --> 00:02:03.076
+Deretter bruker vi en gren av matematikk
+
+00:02:03.076 --> 00:02:05.907
+kalt kontrollteori for å analysere disse modellene
+
+00:02:05.907 --> 00:02:09.820
+samt komponere algoritmer for å kontrollere de.
+
+00:02:09.820 --> 00:02:12.868
+Det er for eksempel slik vi kan la helikopteret sveve på samme plass i luften.
+
+00:02:12.868 --> 00:02:14.276
+Først fant vi ut av dynamikken
+
+00:02:14.276 --> 00:02:16.182
+ved hjelp av et sett differensialligninger.
+
+00:02:16.182 --> 00:02:18.531
+Deretter manipulerte vi disse ligningende ved hjelp av
+
+00:02:18.531 --> 00:02:23.171
+kontrollteori for å skape algoritmer som stabliserer helikopteret.
+
+00:02:23.171 --> 00:02:26.117
+La meg demonstrere styrken ved denne strategien.
+
+00:02:29.198 --> 00:02:31.747
+Hva om vi ikke bare vil at helikopteret skal stå stille,
+
+00:02:31.747 --> 00:02:34.529
+men også skal balansere denne pålen.
+
+00:02:34.529 --> 00:02:36.373
+Ved hjelp av litt øving er det
+
+00:02:36.373 --> 00:02:38.764
+ganske lett for et menneske å lære seg dette,
+
+00:02:38.764 --> 00:02:40.519
+men vi har riktignok fordelene ved å ha
+
+00:02:40.519 --> 00:02:41.847
+to bein i bakken
+
+00:02:41.847 --> 00:02:44.804
+samt svært anvendelige hender.
+
+00:02:44.804 --> 00:02:47.273
+Det blir litt vanskeligere
+
+00:02:47.273 --> 00:02:49.569
+når jeg står på ett bein
+
+00:02:49.569 --> 00:02:52.368
+og ikke bruker hendene.
+
+00:02:52.368 --> 00:02:55.319
+Legg merke til at denne pålen har en reflektiv markør på toppen,
+
+00:02:55.319 --> 00:02:59.213
+noe som betyr at den kan lokaliseres i rommet.
+
+00:03:04.971 --> 00:03:10.947
+(Applaus)
+
+00:03:10.947 --> 00:03:13.773
+Du kan se at helikopteret gjør små justeringer
+
+00:03:13.773 --> 00:03:15.968
+for å holde pålen balansert.
+
+00:03:15.968 --> 00:03:19.027
+Hvordan designet vi algoritmene til å gjøre dette?
+
+00:03:19.027 --> 00:03:21.132
+Vi la inn den matematiske modellen til pålen
+
+00:03:21.132 --> 00:03:22.651
+til helikopterets modell.
+
+00:03:22.651 --> 00:03:25.605
+Så fort vi har en modell for det kombinerte quad-påle-systemet
+
+00:03:25.605 --> 00:03:30.538
+kan vi bruke kontrollteori for å styre den.
+
+00:03:30.538 --> 00:03:32.126
+Her ser dere at den er stabil,
+
+00:03:32.126 --> 00:03:34.819
+og selv om jeg gir den et lite dult,
+
+00:03:34.819 --> 00:03:40.222
+går den tilbake til en rolig og balansert posisjon.
+
+00:03:40.222 --> 00:03:41.885
+Vi kan også endre modellen til å inkludere
+
+00:03:41.885 --> 00:03:44.326
+hvor vi ønsker å plassere helikopteret i rommet.
+
+00:03:44.326 --> 00:03:47.395
+Ved hjelp av denne pekeren, laget av reflektive markører,
+
+00:03:47.395 --> 00:03:49.619
+kan jeg peke på hvor jeg vil at den skal være i rommet
+
+00:03:49.619 --> 00:03:52.986
+en bestemt avstand ifra meg.
+
+00:04:07.763 --> 00:04:10.665
+Nøkkelen til disse akrobatiske manøvrene er algoritmer
+
+00:04:10.665 --> 00:04:13.091
+designet ved hjelp av matematiske modeller
+
+00:04:13.091 --> 00:04:15.041
+og kontrollteori.
+
+00:04:15.041 --> 00:04:17.255
+La oss be helikopteret komme tilbake hit,
+
+00:04:17.255 --> 00:04:19.074
+legge fra seg pålen,
+
+00:04:19.074 --> 00:04:20.992
+så skal jeg videre demonstrere viktigheten av
+
+00:04:20.992 --> 00:04:23.111
+forståelse for fysiske modeller
+
+00:04:23.111 --> 00:04:27.231
+og hvordan den fysiske verden fungerer.
+
+00:04:37.462 --> 00:04:39.232
+Legg merke til hvordan helikopteret mistet høyde
+
+00:04:39.232 --> 00:04:41.314
+når jeg puttet dette vannglasset på den.
+
+00:04:41.314 --> 00:04:44.115
+Til forskjell fra når vi balanserte pålen, så har jeg
+
+00:04:44.115 --> 00:04:46.699
+ikke inkludert den matematiske modellen av glasset i systemet.
+
+00:04:46.699 --> 00:04:49.618
+Faktisk så er ikke systemet en gang klar over at glasset med vann er der.
+
+00:04:49.618 --> 00:04:52.910
+Som tidligere så kan jeg bruke pekeren for å si
+
+00:04:52.910 --> 00:04:55.499
+hvor jeg vil at helikopteret skal befinne seg.
+
+00:04:55.499 --> 00:05:05.096
+(Applaus)
+
+00:05:05.096 --> 00:05:07.206
+Ok, så du spør kanskje deg selv,
+
+00:05:07.206 --> 00:05:09.715
+hvorfor går ikke vannet ut av glasset?
+
+00:05:09.715 --> 00:05:12.926
+Det er to grunner: Først av alt så vil tyngdekraften
+
+00:05:12.926 --> 00:05:15.051
+påvirke alle objekter på lik måte.
+
+00:05:15.051 --> 00:05:17.515
+For det andre peker alle propellene
+
+00:05:17.515 --> 00:05:20.642
+i samme retning som glasset - oppover.
+
+00:05:20.642 --> 00:05:23.019
+Når man setter disse to tingene sammen er resulatet
+
+00:05:23.019 --> 00:05:25.306
+at alle krefter fra sidene på glasset er små
+
+00:05:25.306 --> 00:05:28.091
+og er stort sett dominert av luftmotsand
+
+00:05:28.091 --> 00:05:31.932
+som er svært liten i denne hastigheten.
+
+00:05:35.336 --> 00:05:37.407
+Derfor trenger man ikke å modellere glasset.
+
+00:05:37.407 --> 00:05:41.255
+Det vil på naturlig vis ikke renne over uansett hva helikopteret gjør.
+
+00:05:50.651 --> 00:05:57.702
+(Applaus)
+
+00:05:57.702 --> 00:06:01.718
+Det vi kan lære av dette er at noen oppgaver som
+
+00:06:01.718 --> 00:06:03.115
+krever høy ytelse er enklere enn andre,
+
+00:06:03.115 --> 00:06:05.411
+og at forståelse for fysikken i et problem forteller
+
+00:06:05.411 --> 00:06:08.027
+noe om hvilke som er enkle og vanskelige
+
+00:06:08.027 --> 00:06:10.386
+I dette tilfellet er det å balansere et glass enkelt.
+
+00:06:10.386 --> 00:06:14.171
+Å balansere en påle er vanskelig.
+
+00:06:14.171 --> 00:06:15.973
+Vi har alle hørt om atleter som
+
+00:06:15.973 --> 00:06:18.466
+yter selv når de er fysisk skadet.
+
+00:06:18.466 --> 00:06:19.985
+Er det mulig for en maskin også
+
+00:06:19.985 --> 00:06:22.636
+å yte med ekstreme fysiske skader?
+
+00:06:22.636 --> 00:06:24.362
+Sunn fornuft tilsier at du trenger minst
+
+00:06:24.362 --> 00:06:28.052
+fire fastmonterte propellerpar for å kunne fly,
+
+00:06:28.052 --> 00:06:30.164
+fordi det er fire grader av frihet som kontrolleres:
+
+00:06:30.164 --> 00:06:33.192
+rulle, pitch, dreie og aksellerasjon.
+
+00:06:33.192 --> 00:06:36.437
+Hexakoptere og oktokoptere, med seks og åtte propeller
+
+00:06:36.437 --> 00:06:37.920
+kan tilby redundans,
+
+00:06:37.920 --> 00:06:39.909
+men kvadrakoptere er langt mer populære
+
+00:06:39.909 --> 00:06:41.724
+fordi de har det minste antallet
+
+00:06:41.724 --> 00:06:44.200
+påkrevde fastmonterte propellpar: fire.
+
+00:06:44.200 --> 00:06:46.165
+Eller?
+
+00:07:01.476 --> 00:07:04.076
+Dersom vi analyserer de matematiske modellene av denne maskinen
+
+00:07:04.076 --> 00:07:06.252
+med kun to fungerende propeller,
+
+00:07:06.252 --> 00:07:13.008
+oppdater vi at det er en uordinær måte å fly den på.
+
+00:07:19.980 --> 00:07:21.686
+Vi kan ikke lenger dreie,
+
+00:07:21.686 --> 00:07:24.756
+men det er fortsatt mulig å rulle, pitche og aksellerere
+
+00:07:24.756 --> 00:07:30.208
+med algoritmer som utnytter den nye konfigurasjonen.
+
+00:07:33.668 --> 00:07:36.100
+Matematiske modeller forteller oss nøyaktig når
+
+00:07:36.100 --> 00:07:38.172
+og hvorfor dette er mulig.
+
+00:07:38.172 --> 00:07:40.540
+I dette tilfellet gjør denne kunnskapen det mulig for
+
+00:07:40.540 --> 00:07:42.796
+oss å designe nye maskinarkitekturer
+
+00:07:42.796 --> 00:07:46.972
+eller smarte algoritmer som elegant håndterer skader,
+
+00:07:46.972 --> 00:07:48.696
+på samme måte som menneskelige atleter,
+
+00:07:48.696 --> 00:07:52.519
+i stedet for å bygge maskiner med redundans.
+
+00:07:52.519 --> 00:07:54.631
+Det er vanskelig å ikke holde pusten når vi ser
+
+00:07:54.631 --> 00:07:57.068
+en stuper tar en saltomortale mot vannet,
+
+00:07:57.068 --> 00:07:58.858
+eller når en høydehopper snur seg i luften,
+
+00:07:58.858 --> 00:08:00.576
+og faller raskt mot bakken.
+
+00:08:00.576 --> 00:08:03.144
+Klarer stuperen en perfekt inngang?
+
+00:08:03.144 --> 00:08:05.144
+Vil høydehopperen lande riktig.
+
+00:08:05.144 --> 00:08:06.812
+La oss si at vi vil at dette helikopteret
+
+00:08:06.812 --> 00:08:09.263
+skal ta tre saltoer og avslutte på
+
+00:08:09.263 --> 00:08:11.532
+nøyaktig det samme sted som det startet.
+
+00:08:11.532 --> 00:08:13.879
+Denne manøveren kommer til å skje så raskt
+
+00:08:13.879 --> 00:08:17.508
+at vi kan ikke bruke posisjonssystemet for å korrigere bevegelsene underveis.
+
+00:08:17.508 --> 00:08:19.782
+Det er rett og slett ikke nok tid.
+
+00:08:19.782 --> 00:08:23.476
+I stedet kan helikopteret få utføre manøveren blindt,
+
+00:08:23.476 --> 00:08:25.708
+observere hvordan den avslutter,
+
+00:08:25.708 --> 00:08:28.132
+for deretter å bruke informasjonen til å endre sin
+
+00:08:28.132 --> 00:08:30.421
+oppførsel slik at det neste forsøket blir bedre.
+
+00:08:30.421 --> 00:08:32.233
+Til sammenligning med stuperen og høydehopperen
+
+00:08:32.233 --> 00:08:34.152
+er det kun gjennom repetert øvelse
+
+00:08:34.152 --> 00:08:36.077
+at manøveren kan bli lært og utført
+
+00:08:36.077 --> 00:08:38.210
+til høyeste standard.
+
+00:08:46.412 --> 00:08:51.164
+(Applaus)
+
+00:08:51.164 --> 00:08:54.636
+I mange sporter er det å treffe en ball i bevegelse er en nødvendig ferdighet.
+
+00:08:54.636 --> 00:08:56.431
+Hvordan kan vi få en maskin til
+
+00:08:56.431 --> 00:09:00.184
+å gjøre det en atlét gjør tilsynelatende enkelt?
+
+00:09:15.943 --> 00:09:22.542
+(Applaus)
+
+00:09:22.542 --> 00:09:25.192
+Dette helikopteret har en racket festet til hodet
+
+00:09:25.192 --> 00:09:28.679
+med et treffpunkt på omtrentlig størrelse med et eple. Altså ikke veldig stort.
+
+00:09:28.679 --> 00:09:31.846
+De påfølgende kalkuleringene blir gjort hver 20. millisekund,
+
+00:09:31.846 --> 00:09:33.602
+eller 50 ganger per sekund.
+
+00:09:33.602 --> 00:09:36.414
+Først må vi finne ut hvor ballen skal hen.
+
+00:09:36.414 --> 00:09:38.851
+Deretter må vi kalkulere hvordan helikopteret skal treffe ballen
+
+00:09:38.851 --> 00:09:41.950
+slik at den flyr tilbake der den kom fra.
+
+00:09:41.950 --> 00:09:46.406
+Så planlegges en bane som helikopteret kan fly i fra
+
+00:09:46.406 --> 00:09:49.430
+der den er nå til punktet der ballen treffer.
+
+00:09:49.430 --> 00:09:53.239
+Denne strategien kjøres kun 20 millisekunder av gangen.
+
+00:09:53.239 --> 00:09:56.046
+Tjue millisekunder senere så gjentas hele prosessen
+
+00:09:56.046 --> 00:09:58.289
+på nytt til helikopteret treffer ballen.
+
+00:10:07.560 --> 00:10:10.206
+(Applaus)
+
+00:10:10.206 --> 00:10:13.578
+Maskiner kan ikke bare gjennomføre dynamiske
+manøvre på egenhånd,
+
+00:10:13.578 --> 00:10:15.441
+de kan også gjøre det kollektivt.
+
+00:10:15.441 --> 00:10:19.028
+Disse tre helikopterne holder et nett sammen.
+
+00:10:28.574 --> 00:10:33.985
+(Applaus)
+
+00:10:33.985 --> 00:10:36.182
+De gjennomfører en ekstremt dynamisk
+
+00:10:36.182 --> 00:10:38.350
+og kollektiv manøver
+
+00:10:38.350 --> 00:10:40.042
+for å slå ballen tilbake til meg.
+
+00:10:40.042 --> 00:10:43.553
+Legg merke til at når nettet er fullt utstrekt står helikoptrene vertikalt.
+
+00:10:48.486 --> 00:10:50.258
+(Applaus)
+
+00:10:50.258 --> 00:10:52.545
+Faktisk er kraften som påføres
+
+00:10:52.545 --> 00:10:55.230
+helikopterne omtrent fem ganger så kraftig
+
+00:10:55.230 --> 00:10:59.818
+sammenlignet med en strikkhopper.
+
+00:11:03.009 --> 00:11:05.686
+Algoritmene for å gjøre dette er veldig like
+
+00:11:05.686 --> 00:11:09.070
+sammenlignet med det ene helikopteret som returnerte ballen til meg.
+
+00:11:09.070 --> 00:11:11.934
+Matematiske modeller blir brukt kontinuerlig for å
+
+00:11:11.934 --> 00:11:16.449
+planlegge strategien for samarbeidet 50 ganger i sekunder.
+
+00:11:16.449 --> 00:11:18.326
+Alt vi har sett så langt har handlet om
+
+00:11:18.326 --> 00:11:20.789
+maskiner og deres evner.
+
+00:11:20.789 --> 00:11:23.804
+Hva skjer når vi kobler de atletiske evnene til maskinene
+
+00:11:23.804 --> 00:11:25.580
+med menneskets evner?
+
+00:11:25.580 --> 00:11:29.385
+Foran meg har jeg en kommersiell bevegelsessensor
+
+00:11:29.385 --> 00:11:30.694
+som primært er brukt til videospill.
+
+00:11:30.694 --> 00:11:32.498
+Den kan gjenkjenne hva de forskjellige kroppsdelene
+
+00:11:32.498 --> 00:11:34.546
+mine gjøre i sanntid.
+
+00:11:34.546 --> 00:11:36.662
+Ikke ulikt hvordan jeg brukte
+pekeren tidligere
+
+00:11:36.662 --> 00:11:39.454
+kan vi benytte dette som input til systemet.
+
+00:11:39.454 --> 00:11:41.850
+Vi har nå en naturlig måte å kombinere
+
+00:11:41.850 --> 00:11:46.794
+maskinenes atletiske ferdigheter med mine bevegelser.
+
+00:12:22.453 --> 00:12:26.853
+(Applaus)
+
+00:12:35.982 --> 00:12:39.989
+Interaksjonen trenger ikke være virtuell.
+Den kan også være fysisk.
+
+00:12:39.989 --> 00:12:41.714
+Ta for eksempel dette helikopteret.
+
+00:12:41.714 --> 00:12:44.342
+Det forsøker å sveve på et bestemt sted i rommet.
+
+00:12:44.342 --> 00:12:48.179
+Dersom jeg forsøker å flytte det vekk,
+stritter den i mot.
+
+00:12:48.179 --> 00:12:52.334
+Det flytter seg tilbake der den vil være.
+
+00:12:52.334 --> 00:12:55.373
+Vi kan riktignok forandre denne oppførselen.
+
+00:12:55.373 --> 00:12:57.072
+Vi kan benytte matematiske modeller
+
+00:12:57.072 --> 00:13:00.205
+for å anslå kraften som jeg påfører helikopteret.
+
+00:13:00.205 --> 00:13:03.443
+Når vi vet om denne kraften kan vi også endre fysikkens lover,
+
+00:13:03.443 --> 00:13:07.942
+for alt helikopteret vet, naturligvis.
+
+00:13:07.942 --> 00:13:10.205
+Her oppfører helikopteret seg som om det
+
+00:13:10.205 --> 00:13:14.570
+flyter i en tjukk væske.
+
+00:13:14.570 --> 00:13:16.744
+Vi har nå en intim måte for
+
+00:13:16.744 --> 00:13:18.593
+å oppnå interaksjon med maskinen.
+
+00:13:18.593 --> 00:13:21.099
+Jeg skal benytte denne muligheten for å
+
+00:13:21.099 --> 00:13:23.676
+plassere dette kamera-helikopteret på 
+en passelig plass
+
+00:13:23.676 --> 00:13:26.862
+slik at den kan filme resten av demonstrasjonen.
+
+00:13:36.222 --> 00:13:38.990
+Vi kan altså fysisk påvirke disse maskinene
+
+00:13:38.990 --> 00:13:41.393
+og vi kan endre fysikkens lover.
+
+00:13:41.393 --> 00:13:43.706
+La oss ha det litt moro med dette.
+
+00:13:43.706 --> 00:13:45.410
+I den neste delen vil disse helikopterne
+
+00:13:45.410 --> 00:13:48.906
+opprinnelig oppføre seg som om de var på Pluto.
+
+00:13:48.906 --> 00:13:51.218
+Etter hvert som tiden går vil tyngdekraften økes
+
+00:13:51.218 --> 00:13:53.338
+til vi er tilbake på jorden,
+
+00:13:53.338 --> 00:13:55.057
+men jeg kan garantere at vi ikke kommer dit.
+
+00:13:55.057 --> 00:13:58.558
+Okay, da prøver vi.
+
+00:14:05.667 --> 00:14:09.079
+(Latter)
+
+00:14:34.778 --> 00:14:37.986
+(Latter)
+
+00:14:37.986 --> 00:14:41.372
+(Applaus)
+
+00:14:41.372 --> 00:14:42.579
+Whew!
+
+00:14:46.779 --> 00:14:48.296
+Dere tenker sikkert nå at
+
+00:14:48.296 --> 00:14:50.271
+disse gutta har det alt for moro.
+
+00:14:50.271 --> 00:14:52.350
+Du spør sikkert også
+
+00:14:52.350 --> 00:14:56.286
+hvorfor bygger vi disse maskinatletene?
+
+00:14:56.286 --> 00:14:58.938
+Noen påstår at lekens rolle i dyreriket
+
+00:14:58.938 --> 00:15:01.690
+er å finpusse ferdigheter og utvikle evner.
+
+00:15:01.690 --> 00:15:03.756
+Andre mener at det har en sosial rolle,
+
+00:15:03.756 --> 00:15:05.430
+at det binder gruppen sammen.
+
+00:15:05.430 --> 00:15:08.963
+På same måte bruker vi analogien med
+sport og atleter
+
+00:15:08.963 --> 00:15:11.042
+for å skape nye algoritmer for maskiner
+
+00:15:11.042 --> 00:15:13.189
+og presse de til grensene deres.
+
+00:15:13.189 --> 00:15:16.866
+Hvor kraftig vil maskiners hurtighet
+påvirke vår levemåte?
+
+00:15:16.866 --> 00:15:19.255
+På samme måte som tidligere
+oppfinnelser og innovasjoner
+
+00:15:19.255 --> 00:15:22.082
+kan de brukes for å forbedre menneskets tilstand
+
+00:15:22.082 --> 00:15:24.583
+eller bli misbrukt og utnyttet.
+
+00:15:24.583 --> 00:15:26.506
+Det er ikke teknisk valg vi står ovenfor;
+
+00:15:26.506 --> 00:15:28.261
+det er et sosialt.
+
+00:15:28.261 --> 00:15:29.651
+La oss ta det riktige valget.
+
+00:15:29.651 --> 00:15:32.056
+Valget som bringer det beste
+ut av maskinenes fremtid
+
+00:15:32.056 --> 00:15:33.868
+på samme måte som atletiske ferdigheter
+
+00:15:33.868 --> 00:15:36.029
+i sport bringer frem det beste i oss.
+
+00:15:36.029 --> 00:15:39.479
+La meg introdusere dere for tryllemennene
+bak det grønne teppet.
+
+00:15:39.479 --> 00:15:42.379
+De er nåværende medlemmer av forskningsteamet the Flying Machine Arena
+
+00:15:42.379 --> 00:15:47.148
+(Applaus)
+
+00:15:47.148 --> 00:15:50.194
+Federico Augugliaro, Dario Brescianini , Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+Sergei Lupashin, Mark Muller and Robin Ritz.
+
+00:15:53.018 --> 00:15:54.950
+Hold et øye med dem. De er ment for store ting.
+
+00:15:54.950 --> 00:15:56.128
+Takk.
+
+00:15:56.128 --> 00:16:02.482
+(Applaus)
+

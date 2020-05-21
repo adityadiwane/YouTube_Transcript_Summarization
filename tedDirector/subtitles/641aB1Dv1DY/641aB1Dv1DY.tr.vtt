@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Bora Yüret
+Gözden geçirme: Diba Szamosi
+
+00:00:16.804 --> 00:00:20.773
+Yaşadığımız dünyayı anlamak için, hikayeler anlatırız.
+
+00:00:20.773 --> 00:00:24.243
+Ve bildiğimiz gibi web'i tanımlamak için
+
+00:00:24.243 --> 00:00:25.824
+yeniden düzenleme(remix) ve paylaşma geldi,
+
+00:00:25.824 --> 00:00:29.659
+şimdi hepimiz olayları online hale getirmemizi sağlayan
+
+00:00:29.659 --> 00:00:32.124
+basit araçlarla bu hikayenin parçası olabiliriz.
+
+00:00:32.124 --> 00:00:36.206
+Ama video ihmal edildi. Web'e küçük bir kutu içinde geldi
+
+00:00:36.206 --> 00:00:38.952
+ve orada kaldı,
+
+00:00:38.952 --> 00:00:42.041
+etrafındaki veri ve içerikten
+
+00:00:42.041 --> 00:00:43.913
+bütünüyle bağını koparmış olarak.
+
+00:00:43.913 --> 00:00:45.825
+Aslında, on yıl boyunca web üzerindeki videolarda,
+
+00:00:45.825 --> 00:00:49.421
+tek değişen kutunun boyutu
+
+00:00:49.421 --> 00:00:52.298
+ve resmin kalitesi oldu.
+
+00:00:52.298 --> 00:00:55.466
+Popcorn bunu değiştiriyor.
+
+00:00:55.466 --> 00:00:58.579
+Herhangi birisinin web üzerinden direk olarak çekilen içerikle
+
+00:00:58.579 --> 00:01:01.964
+videoyu birleştirebilmesini sağlayan online bir araç.
+
+00:01:01.964 --> 00:01:05.499
+Popcorn ile yaratılan videolar, web'in kendisi gibi olacak:
+
+00:01:05.499 --> 00:01:09.546
+dinamik, linklerle dolu, bütünüyle yeniden düzenlenebilir
+
+00:01:09.546 --> 00:01:13.845
+ve son olarak çerçeveden kurtulabilecek.
+
+00:01:13.845 --> 00:01:16.249
+Size bu sonbaharın sonuna doğru sunmak için üzerinde çalıştığımız
+
+00:01:16.249 --> 00:01:18.289
+bir prototipin demosunu izlettirmek istiyorum.
+
+00:01:18.289 --> 00:01:23.235
+Tamamen ücretsiz olacak ve her internet tarayıcısında çalışabilecek.
+
+00:01:23.235 --> 00:01:26.301
+Her Popcorn üretimi video ile başlar,
+
+00:01:26.301 --> 00:01:28.687
+ben de bunun için workshop'larda kullandığımız haber spikeri şablonunu kullanarak
+
+00:01:28.687 --> 00:01:32.438
+20 saniyelik kısa bir klip hazırladım.
+
+00:01:32.438 --> 00:01:36.122
+Bunu izleyelim. Daha sonra geriye gideceğiz ve nasıl yaptığımı anlatacağım.
+
+00:01:36.122 --> 00:01:38.874
+Merhaba, haber yayınıma hoşgeldiniz.
+
+00:01:38.874 --> 00:01:41.315
+Google Map kullanarak yerimi ekledim
+
+00:01:41.315 --> 00:01:44.683
+ve harita canlı, gezinmeyi deneyin.
+
+00:01:44.683 --> 00:01:48.075
+Canlı linkler ve özel ikonlar içeren açılır pencereler ekleyebilirsiniz,
+
+00:01:48.075 --> 00:01:51.539
+ya da Flickr benzeri herhangi bir web servisinden veri çekebilirsiniz,
+
+00:01:51.539 --> 00:01:56.369
+ya da tam içeriğe linkler içeren yazılar ya da blog yazıları ekleyebilirsiniz.
+
+00:01:56.369 --> 00:02:00.008
+Geriye gidelim ve gördüklerinizi göstereyim. Çok şey içeriyordu.
+
+00:02:00.008 --> 00:02:03.434
+Bu zaman çizelgesi(timeline), ve daha önce video düzenlediyseniz,
+
+00:02:03.434 --> 00:02:06.353
+buna aşinasınızdır, ama bu sefer zaman çizelgesinde klipler yerine,
+
+00:02:06.353 --> 00:02:09.939
+videonun içinde gösterilen web olayları var.
+
+00:02:09.939 --> 00:02:12.330
+Şimdi bu Popcorn üretiminde başlık kartımız var,
+
+00:02:12.330 --> 00:02:16.083
+resim içinde resim gösteren Google Map haritamız var,
+
+00:02:16.083 --> 00:02:18.570
+ve Popcorn haritanın çerçeve dışına çıkabilmesini ve
+
+00:02:18.570 --> 00:02:21.930
+bütün ekranı kaplayabilmesini sağlıyor.
+
+00:02:21.930 --> 00:02:24.599
+Başka bilgiler getiren iki açılır pencere
+
+00:02:24.599 --> 00:02:28.977
+ve son olarak orjinal yazıya link içeren bir yazı var.
+
+00:02:28.977 --> 00:02:32.511
+Google Map'e gidelim ve onu nasıl değiştirebileceğinizi göstereyim.
+
+00:02:32.511 --> 00:02:35.760
+Bütün yapacağınız, zaman çizelgesine gitmek, ilgili nesneye çift tıklamak,
+
+00:02:35.760 --> 00:02:38.019
+ve ben Torontolu olduğum için orası olarak ayarladım.
+
+00:02:38.019 --> 00:02:41.541
+Başka bir yer olarak ayarlayalım.
+
+00:02:41.541 --> 00:02:44.672
+Popcorn hemen web üzerinden Google ile konuşuyor,
+
+00:02:44.672 --> 00:02:47.729
+haritayı alıyor ve gösteriyor.
+
+00:02:47.729 --> 00:02:49.335
+Ve bu sizin videonuzu izleyen insanlar için de,
+
+00:02:49.335 --> 00:02:51.071
+tamamen aynı.
+
+00:02:51.071 --> 00:02:53.582
+Ve canlı. Resim değil. Üzerine tıklayabiliyorsunuz,
+
+00:02:53.582 --> 00:02:57.812
+yakınlaştırabiliyorsunuz, isterseniz sokak görünümüne geçebiliyorsunuz.
+
+00:02:57.812 --> 00:03:00.819
+Videoda canlı bilgilendirme (live feed) eklemekten bahsettim,
+
+00:03:00.819 --> 00:03:04.000
+şimdi onu yapalım, Flickr'dan canlı bilgilendirme ekleyelim.
+
+00:03:04.000 --> 00:03:06.884
+Sağ tarafa gidin,
+
+00:03:06.884 --> 00:03:09.273
+listedeki seçeneklerden Flickr'i seçin
+
+00:03:09.273 --> 00:03:11.520
+ve zaman çizelgesine sürükleyin,
+
+00:03:11.520 --> 00:03:13.994
+çizelgede istediğiniz bir yere koyun
+
+00:03:13.994 --> 00:03:16.457
+ve canlı bilgilendirme hemen Flickr'a gidecek ve
+
+00:03:16.457 --> 00:03:19.469
+etiketlerle(tag) ilgili resimleri çekmeye başlayacak. Yazılım geliştiricilerim
+
+00:03:19.469 --> 00:03:23.329
+küçük atları sevdikleri için, varsayılan etiket olarak onu ayarlamışlar.
+
+00:03:23.329 --> 00:03:26.445
+Başka bir şey deneyelim,
+
+00:03:26.445 --> 00:03:30.013
+belki bugünle daha fazla ilgili birşey.
+
+00:03:30.013 --> 00:03:32.743
+Bunlar bilgilendirmeden gelen canlı resimler.
+
+00:03:32.743 --> 00:03:34.331
+Bu videoyu bir hafta sonra gelip yeniden izlerseniz,
+
+00:03:34.331 --> 00:03:35.875
+tamamıyla farklı olacak,
+
+00:03:35.875 --> 00:03:38.384
+web gibi dinamik olacak
+
+00:03:38.384 --> 00:03:40.436
+ve web gibi kaynağına bağlı olacak, bağlantıya tıklayın
+
+00:03:40.436 --> 00:03:44.229
+ve doğruca Flickr'a gidip kaynak resmi görebileceksiniz.
+
+00:03:44.229 --> 00:03:46.475
+Burada gördüğünüz herşey basit web blokları kullanılarak yapıldı:
+
+00:03:46.475 --> 00:03:50.035
+HTML, CSS ve JavaScript.
+
+00:03:50.035 --> 00:03:51.954
+Yani tamamen yeniden düzenlenebilir. Ve de
+
+00:03:51.954 --> 00:03:54.518
+tescilli yazılım yok. Tüm ihtiyacınız
+
+00:03:54.518 --> 00:03:57.477
+bir web tarayıcısı.
+
+00:03:57.477 --> 00:04:00.847
+web üzerinde izlediğimiz her videonun
+
+00:04:00.847 --> 00:04:03.893
+web gibi çalıştığını hayal edin, bütünüyle yeniden düzenlenebilir,
+
+00:04:03.893 --> 00:04:06.640
+kaynak içeriğine linklerle bağlı
+
+00:04:06.640 --> 00:04:09.021
+ve görüntüieyen herkes için etkileşimli(interactive).
+
+00:04:09.021 --> 00:04:12.017
+Bence Popcorn web üzerinde hikayeler anlatma yolumuzu ve
+
+00:04:12.017 --> 00:04:14.395
+yaşadığımız dünyayı anlama yolunu değiştirecek.
+
+00:04:14.395 --> 00:04:20.081
+Teşekkür ederim. (Alkışlar)
+

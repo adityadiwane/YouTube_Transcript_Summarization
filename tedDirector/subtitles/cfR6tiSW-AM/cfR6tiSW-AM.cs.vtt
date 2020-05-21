@@ -1,0 +1,1136 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Marek Vanžura
+Korektor: Michaela Jez
+
+00:00:15.260 --> 00:00:18.260
+Takže, první robot, o kterém budu mluvit, se jmenuje STriDER.
+
+00:00:18.260 --> 00:00:20.260
+Je to zkratka pro Samobudivý
+
+00:00:20.260 --> 00:00:22.260
+Třínohý Dynamický Experimentální Robot.
+
+00:00:22.260 --> 00:00:24.260
+Je to robot, který má tři nohy,
+
+00:00:24.260 --> 00:00:27.260
+je inspirovaný přírodou.
+
+00:00:27.260 --> 00:00:29.260
+Ale viděli jste něco v přírodě,
+
+00:00:29.260 --> 00:00:31.260
+zvíře, které má tři nohy?
+
+00:00:31.260 --> 00:00:33.260
+Pravděpodobně ne. Tak proč jej označuji
+
+00:00:33.260 --> 00:00:35.260
+jako biologicky inspirovaného robota? Jak je to možné?
+
+00:00:35.260 --> 00:00:38.260
+Ale předtím se pojďme podívat do populární kultury.
+
+00:00:38.260 --> 00:00:41.260
+Znáte "Válku světů“ H. G. Wellse, román a film.
+
+00:00:41.260 --> 00:00:43.260
+A co vidíte tady, je velmi populární
+
+00:00:43.260 --> 00:00:45.260
+počítačová hra.
+
+00:00:45.260 --> 00:00:48.260
+V této fikci popisují mimozemská stvoření,
+
+00:00:48.260 --> 00:00:50.260
+roboty mající tři nohy, kteří terorizují Zemi.
+
+00:00:50.260 --> 00:00:54.260
+Ale můj robot, STriDER, se jako oni nepohybuje.
+
+00:00:54.260 --> 00:00:57.260
+Takže toto je animace skutečné dynamické simulace.
+
+00:00:57.260 --> 00:00:59.260
+Chci vám ukázat, jak robot pracuje.
+
+00:00:59.260 --> 00:01:02.260
+Otáčí své tělo o 180 stupňů,
+
+00:01:02.260 --> 00:01:05.260
+a švihá třetí nohou mezi dvěma nohama a tím zabraňuje pádu.
+
+00:01:05.260 --> 00:01:07.260
+Tedy takto pracuje. Ale když se podíváte na nás,
+
+00:01:07.260 --> 00:01:09.260
+lidské bytosti, dvounohou chůzi,
+
+00:01:09.260 --> 00:01:11.260
+tak ve skutečnosti nepoužíváte svaly
+
+00:01:11.260 --> 00:01:14.260
+ke zvednutí nohy, jako to dělá robot. Správně?
+
+00:01:14.260 --> 00:01:17.260
+Co skutečně děláte, je, že švihnete svou nohou a zabráníte pádu,
+
+00:01:17.260 --> 00:01:20.260
+znovu se postavíte, švihnete nohou a zabráníte pádu.
+
+00:01:20.260 --> 00:01:23.260
+Používáte své zabudované dynamiky, fyziky svého těla,
+
+00:01:23.260 --> 00:01:25.260
+stejně jako kyvadlo.
+
+00:01:25.260 --> 00:01:29.260
+Nazýváme to konceptem pasivní dynamické lokomoce.
+
+00:01:29.260 --> 00:01:31.260
+To, co děláte, je, když se postavíte,
+
+00:01:31.260 --> 00:01:33.260
+přeměníte potenciální energii na kinetickou energii,
+
+00:01:33.260 --> 00:01:35.260
+potenciální energii na kinetickou energii.
+
+00:01:35.260 --> 00:01:37.260
+Je to proces neustálého padání.
+
+00:01:37.260 --> 00:01:40.260
+Takže, ačkoli v přírodě není nic, co by vypadalo jako toto,
+
+00:01:40.260 --> 00:01:42.260
+ve skutečnosti jsme byli inspirováni biologií
+
+00:01:42.260 --> 00:01:44.260
+a aplikovali jsme principy chůze
+
+00:01:44.260 --> 00:01:47.260
+na tohoto robota. Tedy je biologicky inspirovaným robotem.
+
+00:01:47.260 --> 00:01:49.260
+Co vidíte tady, je to, co chceme dělat dále.
+
+00:01:49.260 --> 00:01:53.260
+Chceme nohy složit a vymrštit je tak, abychom dosáhli pohybu na dlouhé vzdálenosti.
+
+00:01:53.260 --> 00:01:56.260
+A to vyžaduje takové nohy -- vypadá to skoro jako z "Hvězdných válek“ --
+
+00:01:56.260 --> 00:01:59.260
+které při přistání absorbují náraz a dovolí chodit.
+
+00:01:59.260 --> 00:02:02.260
+Co vidíte tady, tuto žlutou věc, to není paprsek smrti. (Smích)
+
+00:02:02.260 --> 00:02:04.260
+Slouží to jenom k předvedení toho, že když máte kamery
+
+00:02:04.260 --> 00:02:06.260
+anebo jiné typy senzorů --
+
+00:02:06.260 --> 00:02:08.260
+protože je vysoký, měří na výšku 1, 8 metru --
+
+00:02:08.260 --> 00:02:11.260
+můžete vidět přes překážky jako jsou keře a podobně.
+
+00:02:11.260 --> 00:02:13.260
+Máme dva prototypy.
+
+00:02:13.260 --> 00:02:16.260
+První verze, vzadu, to je STriDER I.
+
+00:02:16.260 --> 00:02:18.260
+Ten vepředu, ten menší, je STriDER II.
+
+00:02:18.260 --> 00:02:20.260
+Problém, který jsme měli se STriDERem I, byl,
+
+00:02:20.260 --> 00:02:23.260
+že měl příliš těžký trup. Měli jsme příliš mnoho motorů,
+
+00:02:23.260 --> 00:02:25.260
+víte, pro vyrovnávání kloubů a podobně.
+
+00:02:25.260 --> 00:02:29.260
+A tak jsme se rozhodli spojit pohyblivý mechanismus tak,
+
+00:02:29.260 --> 00:02:32.260
+abychom se vyhnuli všem těmto motorům, a tak jen s jedním motorem
+
+00:02:32.260 --> 00:02:34.260
+mohli koordinovat všechny pohyby.
+
+00:02:34.260 --> 00:02:37.260
+Je to mechanické řešení problému namísto mechatronického.
+
+00:02:37.260 --> 00:02:40.260
+Díky tomuto je nyní trup dostatečně lehký. Takže chodí v naší laboratoři.
+
+00:02:40.260 --> 00:02:43.260
+Toto byl úplně první úspěšný krok.
+
+00:02:43.260 --> 00:02:45.260
+Stále není úplně vyladěný, stále ještě padá,
+
+00:02:45.260 --> 00:02:48.260
+takže stále s ním máme dost práce.
+
+00:02:48.260 --> 00:02:51.260
+Druhým robotem, o kterém chci povídat, je IMPASS.
+
+00:02:51.260 --> 00:02:55.260
+Je to anglická zkratka pro Inteligentní Mobilní Platforma se Systémem Pohyblivých Špic.
+
+00:02:55.260 --> 00:02:58.260
+Je to robot, který kombinuje kola a nohy.
+
+00:02:58.260 --> 00:03:00.260
+Představte si kolo bez ráfku,
+
+00:03:00.260 --> 00:03:02.260
+jen samotné špice na středové ose,
+
+00:03:02.260 --> 00:03:05.260
+ale špice se pohybují samostatně dovnitř a ven ve středové ose,
+
+00:03:05.260 --> 00:03:07.260
+takže jde o kombinaci kola a nohou.
+
+00:03:07.260 --> 00:03:09.260
+Zde doslova znovu vynalézáme kolo.
+
+00:03:09.260 --> 00:03:12.260
+Dovolte mi demonstrovat, jak pracuje.
+
+00:03:12.260 --> 00:03:14.260
+V tomto videu používáme přístup
+
+00:03:14.260 --> 00:03:16.260
+zvaný reaktivní přístup.
+
+00:03:16.260 --> 00:03:19.260
+Jednoduše používá dotykové senzory na noze,
+
+00:03:19.260 --> 00:03:21.260
+snaží se jít přes měnící se terén,
+
+00:03:21.260 --> 00:03:24.260
+měkký terén, který se mění, když na něj zatlačí.
+
+00:03:24.260 --> 00:03:26.260
+A čistě jen díky dotykové informaci
+
+00:03:26.260 --> 00:03:29.260
+úspěšně přejde přes tento typ terénu.
+
+00:03:29.260 --> 00:03:33.260
+Ale když narazí na velmi extrémní terén,
+
+00:03:33.260 --> 00:03:36.260
+jako v tomto případě, kdy je překážka více než třikrát vyšší
+
+00:03:36.260 --> 00:03:38.260
+než robot,
+
+00:03:38.260 --> 00:03:40.260
+pak se přepne do obezřetného módu,
+
+00:03:40.260 --> 00:03:42.260
+ve kterém používá laserový dálkoměr
+
+00:03:42.260 --> 00:03:44.260
+a kamerové systémy, aby poznal překážku a její velikost,
+
+00:03:44.260 --> 00:03:47.260
+a naplánoval, pečlivě naplánoval pohyb špic
+
+00:03:47.260 --> 00:03:49.260
+jejich koordinaci, takže díky tomu může předvádět
+
+00:03:49.260 --> 00:03:51.260
+tento druh velice velice působivé mobility.
+
+00:03:51.260 --> 00:03:53.260
+Pravděpodobně jste neviděli nic podobného.
+
+00:03:53.260 --> 00:03:56.260
+Toto je vysoce mobilní robot,
+
+00:03:56.260 --> 00:03:59.260
+kterého jsme vyvinuli, jmenuje se IMPASS.
+
+00:03:59.260 --> 00:04:01.260
+No není skvělý?
+
+00:04:01.260 --> 00:04:04.260
+Když řídíte auto,
+
+00:04:04.260 --> 00:04:06.260
+když zatáčíte, používáte metodu
+
+00:04:06.260 --> 00:04:08.260
+zvanou Ackermannovo řízení.
+
+00:04:08.260 --> 00:04:10.260
+Přední kola se otáčejí takhle.
+
+00:04:10.260 --> 00:04:13.260
+Pro většinu malých kolových robotů
+
+00:04:13.260 --> 00:04:15.260
+se používá metoda zvaná diferenciální řízení,
+
+00:04:15.260 --> 00:04:18.260
+kde se levé a pravé kolo točí opačným směrem.
+
+00:04:18.260 --> 00:04:21.260
+IMPASS se dokáže pohybovat různými typy pohybů.
+
+00:04:21.260 --> 00:04:24.260
+Například, v tomto případě, i když levé a pravé kolo je spojeno
+
+00:04:24.260 --> 00:04:26.260
+jednou osou a otáčejí se stejnou úhlovou rychlostí,
+
+00:04:26.260 --> 00:04:29.260
+jednoduše jenom změníme délku špice.
+
+00:04:29.260 --> 00:04:31.260
+To ovlivní průměr a pak může zatočit doleva, či doprava.
+
+00:04:31.260 --> 00:04:33.260
+Takže toto jsou jen nějaké příklady věcí,
+
+00:04:33.260 --> 00:04:36.260
+které můžeme s IMPASSem dělat.
+
+00:04:36.260 --> 00:04:38.260
+Tento robot se jmenuje CLIMBeR:
+
+00:04:38.260 --> 00:04:41.260
+anglická zkratka pro Lanově Zavěšený Robot Inteligentně Pohybující Končetinami.
+
+00:04:41.260 --> 00:04:44.260
+Mluvil jsem s mnoha vědci z NASA JPL (Laboratoř proudového pohonu)
+
+00:04:44.260 --> 00:04:46.260
+-- JPL je známé především díky vozítkám pro Mars --
+
+00:04:46.260 --> 00:04:48.260
+a vědci, geologové mi vždy říkají,
+
+00:04:48.260 --> 00:04:51.260
+že opravdu vědecky zajímavé,
+
+00:04:51.260 --> 00:04:54.260
+pro vědu nejzajímavější místa, jsou vždy útesy.
+
+00:04:54.260 --> 00:04:56.260
+Ale současná vozítka se tam nedostanou.
+
+00:04:56.260 --> 00:04:58.260
+Takže inspirováni touto potřebou jsme chtěli postavit robota,
+
+00:04:58.260 --> 00:05:01.260
+který dokáže šplhat po komplikovaných prostředích útesů.
+
+00:05:01.260 --> 00:05:03.260
+Tedy toto je CLIMBeR.
+
+00:05:03.260 --> 00:05:05.260
+Jak tedy pracuje, když má tři nohy. Jde to patrně špatně vidět,
+
+00:05:05.260 --> 00:05:08.260
+ale má nahoře naviják a lanko --
+
+00:05:08.260 --> 00:05:10.260
+a snaží se najít nejlepší místo, kam umístit nohu.
+
+00:05:10.260 --> 00:05:12.260
+A pak, když na to přijde,
+
+00:05:12.260 --> 00:05:15.260
+v reálném čase vypočítá rozložení sil:
+
+00:05:15.260 --> 00:05:18.260
+kolik síly potřebuje na povrch vyvíjet,
+
+00:05:18.260 --> 00:05:20.260
+aby neuklouzl.
+
+00:05:20.260 --> 00:05:22.260
+Jakmile toto vyřeší, zvedne nohu,
+
+00:05:22.260 --> 00:05:26.260
+a pak díky navijáku může šplhat po podobných místech.
+
+00:05:26.260 --> 00:05:28.260
+Rovněž je vhodný jako robot pro pátrací a záchranné akce.
+
+00:05:28.260 --> 00:05:30.260
+Před pěti lety jsem pracoval v Laboratoři proudového pohonu (NASA JPL)
+
+00:05:30.260 --> 00:05:32.260
+během léta jako výzkumník na fakultě.
+
+00:05:32.260 --> 00:05:36.260
+Měli už šestinohého robota jménem LEMUR.
+
+00:05:36.260 --> 00:05:39.260
+Tento z něj vychází. Tento robot je nazvaný MARS:
+
+00:05:39.260 --> 00:05:42.260
+MnohaKončetinový Robotický Systém. Je to šestinohý robot.
+
+00:05:42.260 --> 00:05:44.260
+Vyvinuli jsme přizpůsobivý plánovač chůze.
+
+00:05:44.260 --> 00:05:46.260
+Tady na něm máme velice zajímavý náklad.
+
+00:05:46.260 --> 00:05:48.260
+Studenti mají rádi legraci. A tady můžete vidět,
+
+00:05:48.260 --> 00:05:51.260
+že se pohybuje přes neupravený terén.
+
+00:05:51.260 --> 00:05:53.260
+Snaží se jít přes hrbolatý terén,
+
+00:05:53.260 --> 00:05:55.260
+písečnou oblast,
+
+00:05:55.260 --> 00:06:00.260
+ale v závislosti na vlhkosti a zrnitosti písku
+
+00:06:00.260 --> 00:06:02.260
+se mu boří nohy do písku.
+
+00:06:02.260 --> 00:06:06.260
+A tak se snaží přizpůsobit chůzi, aby úspěšně prošel.
+
+00:06:06.260 --> 00:06:08.260
+A jak si dovedete představit, provádí přitom legrační věci.
+
+00:06:08.260 --> 00:06:11.260
+Naši laboratoř navštěvuje mnoho návštěvníků.
+
+00:06:11.260 --> 00:06:13.260
+A když nějaký návštěvník přijde, MARS vyleze k počítači
+
+00:06:13.260 --> 00:06:15.260
+a začne psát: "Ahoj, mé jméno je MARS.
+
+00:06:15.260 --> 00:06:17.260
+Vítejte v RoMeLa,
+
+00:06:17.260 --> 00:06:21.260
+Laboratoři Robotických Mechanismů na Virginia Tech.“
+
+00:06:21.260 --> 00:06:23.260
+Toto je robot měňavka.
+
+00:06:23.260 --> 00:06:26.260
+Nemáme teď čas, abychom šli do technických podrobností,
+
+00:06:26.260 --> 00:06:28.260
+takže vám jen ukáži nějaké experimenty.
+
+00:06:28.260 --> 00:06:30.260
+Toto je jeden z prvních provedených experimentů.
+
+00:06:30.260 --> 00:06:34.260
+Uložili jsme potenciální energii do elastické kůže, aby se mohl pohybovat.
+
+00:06:34.260 --> 00:06:36.260
+Nebo používáme pružiny pro pohyb
+
+00:06:36.260 --> 00:06:39.260
+dopředu a dozadu. Jmenuje se ChIMERA.
+
+00:06:39.260 --> 00:06:41.260
+Rovněž jsme pracovali s pár vědci
+
+00:06:41.260 --> 00:06:43.260
+a inženýry z Pennsylvánské univerzity,
+
+00:06:43.260 --> 00:06:45.260
+se kterými jsme dospěli k chemicky poháněné verzi
+
+00:06:45.260 --> 00:06:47.260
+tohoto měňavkovitého robota.
+
+00:06:47.260 --> 00:06:49.260
+Něco uděláme
+
+00:06:49.260 --> 00:06:55.260
+a skoro jako zázrakem se pohne. Sliz.
+
+00:06:55.260 --> 00:06:57.260
+Tento robot je velmi nedávný projekt. Jmenuje se RAPHaEL.
+
+00:06:57.260 --> 00:07:00.260
+Robotická Vzduchem Poháněná Ruka s Elastickými Vazy.
+
+00:07:00.260 --> 00:07:04.260
+Na trhu existuje mnoho opravdu povedených a velmi dobrých robotických ruk.
+
+00:07:04.260 --> 00:07:08.260
+Problémem je, že jsou příliš drahé, desítky tisíc dolarů.
+
+00:07:08.260 --> 00:07:10.260
+Pro protetické použití to pravděpodobně příliš praktické není,
+
+00:07:10.260 --> 00:07:12.260
+protože nejsou dostupné.
+
+00:07:12.260 --> 00:07:16.260
+Snažili jsme se tento problém vyřešit velmi odlišným způsobem.
+
+00:07:16.260 --> 00:07:19.260
+Namísto použití elektrických motorů a elektromechanických ovladačů,
+
+00:07:19.260 --> 00:07:21.260
+jsme užili stlačený vzduch.
+
+00:07:21.260 --> 00:07:23.260
+Vyvinuli jsme nové ovladače kloubů.
+
+00:07:23.260 --> 00:07:26.260
+Jsou vyhovující. Můžete měnit sílu
+
+00:07:26.260 --> 00:07:28.260
+jednoduše změnou tlaku vzduchu.
+
+00:07:28.260 --> 00:07:30.260
+Dovede zmačkat prázdnou plechovku limonády.
+
+00:07:30.260 --> 00:07:33.260
+Dovede zvednout velmi křehké objekty, jako syrové vajíčko,
+
+00:07:33.260 --> 00:07:36.260
+či v tomto případě žárovku.
+
+00:07:36.260 --> 00:07:40.260
+A to nejlepší na něm je, že postavení prototypu stálo pouze 200 dolarů.
+
+00:07:40.260 --> 00:07:43.260
+Tento robot je z rodiny hadovitých robotů,
+
+00:07:43.260 --> 00:07:45.260
+nazýváme ho HyDRAS.
+
+00:07:45.260 --> 00:07:47.260
+Znamená to: Robotická Kloubová Stočenina s Vysokým Stupněm volnosti.
+
+00:07:47.260 --> 00:07:50.260
+Jde o robota, který dovede šplhat.
+
+00:07:50.260 --> 00:07:52.260
+Toto je ruka HyDRASu.
+
+00:07:52.260 --> 00:07:54.260
+Je to robotická ruka s 12 stupni volnosti.
+
+00:07:54.260 --> 00:07:56.260
+Ale ta skvělá část je uživatelské rozhraní.
+
+00:07:56.260 --> 00:07:59.260
+Tento kabel je optické vlákno.
+
+00:07:59.260 --> 00:08:01.260
+A tato studentka, používá to zřejmě poprvé,
+
+00:08:01.260 --> 00:08:03.260
+ale dovede tím pohybovat mnoha různými způsoby.
+
+00:08:03.260 --> 00:08:06.260
+Takže na příklad v Iráku, jak víte, válečné zóně,
+
+00:08:06.260 --> 00:08:08.260
+jsou výbušniny na cestách. V současnosti se používají
+
+00:08:08.260 --> 00:08:11.260
+k jejich zneškodnění dálkově ovládaná vozidla s rukama.
+
+00:08:11.260 --> 00:08:13.260
+Zabere to opravdu hodně času a zároveň je drahé
+
+00:08:13.260 --> 00:08:17.260
+vyškolit operátora k ovládání složité ruky.
+
+00:08:17.260 --> 00:08:19.260
+V našem případě je to velice intuitivní.
+
+00:08:19.260 --> 00:08:23.260
+Tento student, i když ji pravděpodobně používá poprvé, dělá velmi složité manipulační úkony,
+
+00:08:23.260 --> 00:08:25.260
+zvedá předměty a manipuluje s nimi,
+
+00:08:25.260 --> 00:08:28.260
+jak vidíte. Velmi intuitivní.
+
+00:08:30.260 --> 00:08:32.260
+A nyní, toto je v současnosti náš vlajkový robot.
+
+00:08:32.260 --> 00:08:35.260
+Máme dokonce fan klub tohoto robota. DARwIn:
+
+00:08:35.260 --> 00:08:38.260
+Dynamický Antropomorfní Robot s Inteligencí.
+
+00:08:38.260 --> 00:08:40.260
+Jak víte, velice se zajímáme
+
+00:08:40.260 --> 00:08:42.260
+o humanoidní roboty, lidskou chůzi,
+
+00:08:42.260 --> 00:08:44.260
+a tak jsme se rozhodli postavit malého humanoidního robota.
+
+00:08:44.260 --> 00:08:46.260
+Bylo to v roce 2004.
+
+00:08:46.260 --> 00:08:48.260
+Tehdy to bylo něco opravdu revolučního.
+
+00:08:48.260 --> 00:08:50.260
+Byla to spíše studie o proveditelnosti:
+
+00:08:50.260 --> 00:08:52.260
+Jaké typy motorů bychom měli použít?
+
+00:08:52.260 --> 00:08:54.260
+Je to vůbec možné? Jaké druhy ovládání použít?
+
+00:08:54.260 --> 00:08:56.260
+Tento nemá žádné senzory.
+
+00:08:56.260 --> 00:08:58.260
+Je to robot bez zpětné vazby.
+
+00:08:58.260 --> 00:09:00.260
+Pro ty, kteří možná ví, pokud nemáte žádné senzory
+
+00:09:00.260 --> 00:09:02.260
+a v okolí jsou nějaké překážky, víte, co se stane.
+
+00:09:05.260 --> 00:09:06.260
+(Smích)
+
+00:09:06.260 --> 00:09:08.260
+Po tomto úspěchu jsme následující rok
+
+00:09:08.260 --> 00:09:11.260
+udělali vlastní mechanický návrh
+
+00:09:11.260 --> 00:09:13.260
+začínající kinematikou.
+
+00:09:13.260 --> 00:09:15.260
+A tak se v roce 2005 narodil DARwIn I.
+
+00:09:15.260 --> 00:09:17.260
+Postaví se, chodí -- velmi působivé.
+
+00:09:17.260 --> 00:09:19.260
+Avšak stále, jak můžete vidět,
+
+00:09:19.260 --> 00:09:23.260
+má kabel, pupeční šňůru. Stále používáme externí pohonný zdroj
+
+00:09:23.260 --> 00:09:25.260
+a externí výpočty.
+
+00:09:25.260 --> 00:09:29.260
+V roce 2006 byl čas na trochu zábavy.
+
+00:09:29.260 --> 00:09:32.260
+Dejme mu inteligenci. Dáme mu všechnu výpočetní sílu, kterou potřebuje:
+
+00:09:32.260 --> 00:09:34.260
+1, 5 GHz Pentium M mikroprocesor,
+
+00:09:34.260 --> 00:09:36.260
+dvě Fire Wire kamery, gyroskopy, akcelerometry,
+
+00:09:36.260 --> 00:09:39.260
+čtyři senzory sil na nohou, lithium-polymerové baterie.
+
+00:09:39.260 --> 00:09:43.260
+A DARwIn II je kompletně samostatný.
+
+00:09:43.260 --> 00:09:45.260
+Není dálkově ovládaný.
+
+00:09:45.260 --> 00:09:48.260
+Není na žádných řetězech. Rozhlíží se kolem sebe, hledá míč,
+
+00:09:48.260 --> 00:09:51.260
+rozhlíží se, hledá míč, a snaží se hrát fotbal.
+
+00:09:51.260 --> 00:09:54.260
+Samostatně: umělá inteligence.
+
+00:09:54.260 --> 00:09:57.260
+Podívejme se, jak to dělá. Tohle byl úplně první pokus.
+
+00:09:57.260 --> 00:10:02.260
+A ... Diváci (Video): Gól!
+
+00:10:03.260 --> 00:10:06.260
+Dennis Hong: Existuje soutěž jménem RoboCup.
+
+00:10:06.260 --> 00:10:08.260
+Nevím, kolik z vás o ní slyšelo.
+
+00:10:08.260 --> 00:10:13.260
+Je to mezinárodní soutěž autonomních robotů ve fotbale.
+
+00:10:13.260 --> 00:10:16.260
+A cíl RoboCupu, skutečný cíl je,
+
+00:10:16.260 --> 00:10:18.260
+abychom v roce 2050
+
+00:10:18.260 --> 00:10:21.260
+měli autonomní humanoidní roboty ve velikosti člověka,
+
+00:10:21.260 --> 00:10:25.260
+kteří budou hrát Mistrovství světa ve fotbale proti lidem,
+
+00:10:25.260 --> 00:10:27.260
+a vyhrají.
+
+00:10:27.260 --> 00:10:29.260
+Je to opravdu skutečný cíl. Je to velice ambiciózní cíl,
+
+00:10:29.260 --> 00:10:31.260
+ale věříme, že to dokážeme.
+
+00:10:31.260 --> 00:10:34.260
+Tohle je loňský ročník v Číně.
+
+00:10:34.260 --> 00:10:36.260
+Byli jsme úplně první tým ze Spojených států, který se kvalifikoval
+
+00:10:36.260 --> 00:10:38.260
+v soutěži RoboCup humanoidních robotů.
+
+00:10:38.260 --> 00:10:41.260
+Tento rok se soutěž koná v Rakousku.
+
+00:10:41.260 --> 00:10:43.260
+Tady máte možnost vidět hru, tři proti třem,
+
+00:10:43.260 --> 00:10:45.260
+zcela samostatně.
+
+00:10:45.260 --> 00:10:47.260
+Hrají. Ano!
+
+00:10:48.260 --> 00:10:50.260
+Roboti hru sledují a týmově
+
+00:10:50.260 --> 00:10:53.260
+hrají proti sobě.
+
+00:10:53.260 --> 00:10:55.260
+Je to velice působivé. A ve skutečnosti to je výzkum
+
+00:10:55.260 --> 00:10:59.260
+zabalený v mnohem více vzrušujícím soutěžním utkání.
+
+00:10:59.260 --> 00:11:01.260
+Tady vidíte krásný
+
+00:11:01.260 --> 00:11:03.260
+pohár Louis Vuitton Cup.
+
+00:11:03.260 --> 00:11:05.260
+Je pro nejlepšího humanoida,
+
+00:11:05.260 --> 00:11:07.260
+a my bychom jej velice rádi poprvé přivezli do Spojených států
+
+00:11:07.260 --> 00:11:09.260
+příští rok, tak nám držte palce.
+
+00:11:09.260 --> 00:11:11.260
+(Potlesk)
+
+00:11:11.260 --> 00:11:14.260
+Děkuji.
+
+00:11:14.260 --> 00:11:16.260
+DARwIn má rovněž hodně jiných dovedností.
+
+00:11:16.260 --> 00:11:19.260
+V loňském roce dirigoval Symfonický orchestr Roanoke
+
+00:11:19.260 --> 00:11:22.260
+během prázdninových koncertů.
+
+00:11:22.260 --> 00:11:25.260
+Toto je další generace robota, DARwIn IV,
+
+00:11:25.260 --> 00:11:28.260
+je chytřejší, rychlejší, silnější.
+
+00:11:28.260 --> 00:11:30.260
+A snaží se předvést své schopnosti:
+
+00:11:30.260 --> 00:11:33.260
+"Jsem frajer, jsem silný.
+
+00:11:33.260 --> 00:11:36.260
+Dovedu provádět pohyby jako Jackie Chan,
+
+00:11:36.260 --> 00:11:39.260
+pohyby z bojových umění."
+
+00:11:39.260 --> 00:11:41.260
+(Smích)
+
+00:11:41.260 --> 00:11:43.260
+A teď odchází. Takže toto je DARwIn IV.
+
+00:11:43.260 --> 00:11:45.260
+Opět jej budete moci vidět v hale.
+
+00:11:45.260 --> 00:11:47.260
+Plně věříme, že bude úplně prvním běhajícím
+
+00:11:47.260 --> 00:11:50.260
+humanoidním robotem ve Spojených státech. Takže se můžete těšit.
+
+00:11:50.260 --> 00:11:53.260
+Dobře. Takže jsem vám ukázal některé z našich úžasných robotů v praxi.
+
+00:11:53.260 --> 00:11:56.260
+Takže co je tajemstvím našeho úspěchu?
+
+00:11:56.260 --> 00:11:58.260
+Odkud jsme přišli k těmto nápadům?
+
+00:11:58.260 --> 00:12:00.260
+Jak rozvíjíme tyto druhy nápadů?
+
+00:12:00.260 --> 00:12:02.260
+Máme plně autonomní vozidlo,
+
+00:12:02.260 --> 00:12:04.260
+které dovede jezdit v městských prostředích. Vyhráli jsme půl milionu dolarů
+
+00:12:04.260 --> 00:12:06.260
+v DARPA Urban Challenge.
+
+00:12:06.260 --> 00:12:08.260
+Rovněž máme světově první vozidlo,
+
+00:12:08.260 --> 00:12:10.260
+které mohou řídit slepí.
+
+00:12:10.260 --> 00:12:12.260
+Nazýváme jej Blind Driver Challenge, je to hodně vzrušující.
+
+00:12:12.260 --> 00:12:16.260
+A mnoho mnoho dalších robotických projektů, o kterých chci mluvit.
+
+00:12:16.260 --> 00:12:18.260
+Tohle jsou ceny, které jsme získali na podzim 2007
+
+00:12:18.260 --> 00:12:21.260
+na soutěžích v robotice a podobných záležitostech.
+
+00:12:21.260 --> 00:12:23.260
+Ve skutečnosti máme pět tajemství.
+
+00:12:23.260 --> 00:12:25.260
+První je: Kde získáváme inspiraci?
+
+00:12:25.260 --> 00:12:27.260
+Kde získáváme tyto záblesky představ?
+
+00:12:27.260 --> 00:12:30.260
+Toto je pravdivý příběh, můj osobní příběh.
+
+00:12:30.260 --> 00:12:32.260
+V noci, když jdu spát, kolem třetí či čtvrté hodiny ráno,
+
+00:12:32.260 --> 00:12:35.260
+lehnu si, zavřu oči a kolem mě se prohánějí křivky a kruhy
+
+00:12:35.260 --> 00:12:37.260
+a nejrůznější tvary.
+
+00:12:37.260 --> 00:12:40.260
+A ty se skládají, čímž utváří tyhle druhy mechanismů.
+
+00:12:40.260 --> 00:12:42.260
+A tuhle si pomyslím: "Tohle je skvělé!“
+
+00:12:42.260 --> 00:12:44.260
+A tak vedle postele mám sešit
+
+00:12:44.260 --> 00:12:47.260
+se speciálním perem, které má zabudované světlo, LED diodu,
+
+00:12:47.260 --> 00:12:49.260
+protože nechci zapínat světlo, abych nevzbudil manželku.
+
+00:12:49.260 --> 00:12:51.260
+Takže, vše, co mě napadne, si načmárám, nakreslím,
+
+00:12:51.260 --> 00:12:53.260
+pak jdu spát.
+
+00:12:53.260 --> 00:12:55.260
+Každý den ráno
+
+00:12:55.260 --> 00:12:57.260
+první věc, kterou udělám předtím, než si dám šálek kávy
+
+00:12:57.260 --> 00:12:59.260
+a než si vyčistím zuby, je, že otevřu svůj sešit.
+
+00:12:59.260 --> 00:13:01.260
+Častokrát je prázdný,
+
+00:13:01.260 --> 00:13:03.260
+občas v něm něco mám -- pokud v něm něco je, občas to je brak --
+
+00:13:03.260 --> 00:13:06.260
+ale nejčastěji se stává, že to po sobě nedokážu přečíst.
+
+00:13:06.260 --> 00:13:09.260
+Ale tak co byste čekali ve čtyři ráno, že?
+
+00:13:09.260 --> 00:13:11.260
+A tak potřebuji rozluštit, co jsem si zapsal.
+
+00:13:11.260 --> 00:13:14.260
+Ale občas v tom vidím geniální nápad,
+
+00:13:14.260 --> 00:13:16.260
+a tak mám přesně ten heuréka okamžik.
+
+00:13:16.260 --> 00:13:18.260
+Utíkám přímo do své domácí kanceláře posadit se před počítač,
+
+00:13:18.260 --> 00:13:20.260
+procházím myšlenkami, načrtávám nápady
+
+00:13:20.260 --> 00:13:23.260
+a ukládám je do databáze nápadů.
+
+00:13:23.260 --> 00:13:25.260
+Tak když máme výzvy k předkládání návrhů,
+
+00:13:25.260 --> 00:13:27.260
+snažím se nalézt spojitost mezi
+
+00:13:27.260 --> 00:13:29.260
+svými nápady
+
+00:13:29.260 --> 00:13:31.260
+a problémem. Je-li shoda, vypíšeme návrh na výzkumný projekt,
+
+00:13:31.260 --> 00:13:35.260
+dostaneme financování výzkumu, a tak začneme náš výzkumný program.
+
+00:13:35.260 --> 00:13:38.260
+Ale jen záblesk nápadu nestačí.
+
+00:13:38.260 --> 00:13:40.260
+Jak rozvíjíme tyto druhy nápadů?
+
+00:13:40.260 --> 00:13:43.260
+V naší laboratoři RoMeLa, Laboratoři Robotických Mechanismů,
+
+00:13:43.260 --> 00:13:46.260
+máme úžasná brainstormingová setkání.
+
+00:13:46.260 --> 00:13:48.260
+Sejdeme se, diskutujeme o problémech
+
+00:13:48.260 --> 00:13:50.260
+a společenských problémech a mluvíme o tom všem.
+
+00:13:50.260 --> 00:13:53.260
+Ale předtím než začneme, ustanovíme zlaté pravidlo.
+
+00:13:53.260 --> 00:13:55.260
+Pravidlo zní:
+
+00:13:55.260 --> 00:13:58.260
+Nikdo nekritizuje nápady druhých.
+
+00:13:58.260 --> 00:14:00.260
+Nikdo nekritizuje ničí názor.
+
+00:14:00.260 --> 00:14:02.260
+Toto je důležité, protože mnohokrát mají studenti strach,
+
+00:14:02.260 --> 00:14:05.260
+anebo jim není příjemné to, jak budou o jejich názorech a myšlenkách
+
+00:14:05.260 --> 00:14:07.260
+přemýšlet jiní.
+
+00:14:07.260 --> 00:14:09.260
+Když to jednou uděláte, je fascinující,
+
+00:14:09.260 --> 00:14:11.260
+jak se studenti rozhovoří.
+
+00:14:11.260 --> 00:14:14.260
+Mají bláznivé, úžasné, střelené, hluboké myšlenky,
+
+00:14:14.260 --> 00:14:17.260
+a celá místnost je tak elektrizována kreativní energií.
+
+00:14:17.260 --> 00:14:20.260
+A takto my rozvíjíme své nápady.
+
+00:14:20.260 --> 00:14:23.260
+Nuže, už nám dochází čas. Ještě jedna věc, o které chci mluvit, je,
+
+00:14:23.260 --> 00:14:27.260
+víte, že pouhý záblesk nápadu a jeho rozvoj nestačí.
+
+00:14:27.260 --> 00:14:29.260
+Byl zde na TED úžasný moment,
+
+00:14:29.260 --> 00:14:32.260
+myslím, že to byl pan Ken Robinson.
+
+00:14:32.260 --> 00:14:34.260
+Mluvil o tom, jak vzdělání
+
+00:14:34.260 --> 00:14:36.260
+a škola zabíjejí kreativitu.
+
+00:14:36.260 --> 00:14:39.260
+Nuže, ve skutečnosti jsou zde dvě strany této mince.
+
+00:14:39.260 --> 00:14:42.260
+Nelze všechno udělat jen
+
+00:14:42.260 --> 00:14:44.260
+s geniálním nápadem,
+
+00:14:44.260 --> 00:14:47.260
+kreativitou a dobrou inženýrskou intuicí.
+
+00:14:47.260 --> 00:14:49.260
+Jestliže chcete jít dál za pouhé bastlení,
+
+00:14:49.260 --> 00:14:51.260
+jestliže chcete jít za zálibu v robotice,
+
+00:14:51.260 --> 00:14:54.260
+a skutečně se utkat s těmi největšími výzvami robotiky
+
+00:14:54.260 --> 00:14:56.260
+prostřednictvím přísného výzkumu,
+
+00:14:56.260 --> 00:14:59.260
+pak potřebujeme více než toto. A to je místem, kde přichází škola ke slovu.
+
+00:14:59.260 --> 00:15:02.260
+Batman, který bojuje proti zločincům,
+
+00:15:02.260 --> 00:15:04.260
+má svůj úžasný opasek s nástroji, má záchytný hák,
+
+00:15:04.260 --> 00:15:06.260
+má nejrůznější typy vychytávek.
+
+00:15:06.260 --> 00:15:08.260
+Pro nás robotiky, inženýry a vědce
+
+00:15:08.260 --> 00:15:13.260
+jsou tyto věci zadáními, kterými se zabýváme v našich kurzech na školách.
+
+00:15:13.260 --> 00:15:15.260
+Matematika, diferenciální rovnice.
+
+00:15:15.260 --> 00:15:17.260
+Mám lineární algebru, vědu, fyziku,
+
+00:15:17.260 --> 00:15:20.260
+v současnosti i chemii a biologii, jak jste sami viděli.
+
+00:15:20.260 --> 00:15:22.260
+Tohle všechno jsou nástroje, které potřebujeme.
+
+00:15:22.260 --> 00:15:24.260
+Takže čím více věcí Batman má,
+
+00:15:24.260 --> 00:15:26.260
+tím efektivnější je jeho boj se zločinci,
+
+00:15:26.260 --> 00:15:30.260
+tak i pro nás, více nástrojů slouží k lepšímu boji s těžkými problémy.
+
+00:15:30.260 --> 00:15:33.260
+Takže vzdělání je velice důležité.
+
+00:15:33.260 --> 00:15:35.260
+Ale není to o tomto,
+
+00:15:35.260 --> 00:15:37.260
+jenom o tomto. Musíte také pracovat opravdu, ale opravdu tvrdě.
+
+00:15:37.260 --> 00:15:39.260
+A tak vždy svým studentům říkám:
+
+00:15:39.260 --> 00:15:41.260
+"Pracuj chytře, pak pracuj tvrdě.“
+
+00:15:41.260 --> 00:15:44.260
+Tento obrázek vzadu byl pořízen ve 3 hodiny po půlnoci.
+
+00:15:44.260 --> 00:15:46.260
+Zaručuji vám, že když přijdete do naší laboratoře mezi třetí a čtvrtou hodinou ráno,
+
+00:15:46.260 --> 00:15:48.260
+narazíte zde na pracující studenty.
+
+00:15:48.260 --> 00:15:51.260
+Nikoli proto, že bych jim to nařídil, ale proto, že nás to opravdu hodně baví.
+
+00:15:51.260 --> 00:15:53.260
+Což vede k poslednímu tématu:
+
+00:15:53.260 --> 00:15:55.260
+Nezapomínejte se bavit.
+
+00:15:55.260 --> 00:15:58.260
+Tohle je skutečným tajemstvím našeho úspěchu, užíváme si mnoho legrace.
+
+00:15:58.260 --> 00:16:01.260
+Opravdu jsem přesvědčen, že nejvyšší produktivita přichází, když se bavíte,
+
+00:16:01.260 --> 00:16:03.260
+a to my děláme.
+
+00:16:03.260 --> 00:16:05.260
+Tak vidíte. Mockrát vám děkuji.
+
+00:16:05.260 --> 00:16:10.260
+(Potlesk)
+

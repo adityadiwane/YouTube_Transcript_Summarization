@@ -1,0 +1,1430 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Péter Pallós
+Lektor: Maria Ruzsane Cseresnyes
+
+00:00:12.650 --> 00:00:15.363
+Valaha, ha azt akartuk, hogy 
+a számítógép
+
+00:00:15.363 --> 00:00:18.447
+csináljon meg valamit, előtte 
+be kellett rá programoznunk.
+
+00:00:18.447 --> 00:00:21.858
+Azoknak, akik sohasem programoztak:
+a programozás
+
+00:00:21.858 --> 00:00:26.020
+annyit tesz, hogy célunk érdekében 
+aprólékosan, lépésenként
+
+00:00:26.020 --> 00:00:28.727
+részletesen közölni kell a géppel,
+
+00:00:28.727 --> 00:00:31.089
+mikor mit csináljon.
+
+00:00:31.089 --> 00:00:34.585
+De ha olyat akarunk tenni, 
+amiről mi sem tudjuk, miként kell,
+
+00:00:34.585 --> 00:00:37.238
+az ám az igazi kunszt!
+
+00:00:37.238 --> 00:00:40.131
+Ilyen feladattal találkozott 
+Arthur Samuel.
+
+00:00:40.131 --> 00:00:43.658
+1956-ban szerette volna,
+
+00:00:43.658 --> 00:00:46.548
+ha a számítógép legyőzi dámajátékban.
+
+00:00:46.548 --> 00:00:48.588
+Hogy lehet megírni egy programot
+
+00:00:48.588 --> 00:00:52.394
+minden apró részletében, 
+hogy a számítógép győzzön?
+
+00:00:52.394 --> 00:00:54.116
+Támadt egy ötlete:
+
+00:00:54.116 --> 00:00:57.840
+A gépet önmaga ellen játszatta 
+több ezerszer,
+
+00:00:57.840 --> 00:01:01.004
+hogy a gép tanulja, hogyan kell játszani.
+
+00:01:01.004 --> 00:01:03.544
+A dolog sikerült, és 1962-re
+
+00:01:03.544 --> 00:01:07.561
+a számítógép legyőzte 
+Connecticut állam bajnokát.
+
+00:01:07.561 --> 00:01:10.534
+Úgyhogy Samuelt a gépi 
+tanulás atyjának nevezhetjük.
+
+00:01:10.534 --> 00:01:12.251
+Le vagyok kötelezve neki,
+
+00:01:12.251 --> 00:01:15.014
+mert gépi tanulással foglalkozom.
+
+00:01:15.014 --> 00:01:16.759
+A Kaggle elnöke voltam, a közösségé,
+
+00:01:16.759 --> 00:01:19.867
+ahol 200.000-nél többen foglalkoznak 
+gépi tanulással.
+
+00:01:19.867 --> 00:01:21.925
+A Kaggle versenyeket 
+szervez nekik,
+
+00:01:21.925 --> 00:01:25.633
+hogy oldjanak meg eddig 
+megoldatlan problémákat,
+
+00:01:25.633 --> 00:01:29.470
+s ezek több száz alkalommal 
+bizonyultak sikeresnek.
+
+00:01:29.470 --> 00:01:31.940
+Ebből a pozícióból
+rá tudtam jönni sok mindenre:
+
+00:01:31.940 --> 00:01:35.890
+mire volt képes a gépi tanulás 
+a múltban, mire a jelenben
+
+00:01:35.890 --> 00:01:38.252
+és mit fog tudni a jövőben.
+
+00:01:38.252 --> 00:01:42.675
+Valószínűleg az első üzleti siker a 
+gépi tanulásban a Google volt.
+
+00:01:42.675 --> 00:01:45.784
+A Google bizonyította, hogy lehet 
+gépi algoritmus alapján
+
+00:01:45.784 --> 00:01:47.536
+adatokhoz jutni, és
+
+00:01:47.536 --> 00:01:50.437
+ez az algoritmus 
+gépi tanuláson alapul.
+
+00:01:50.437 --> 00:01:53.573
+Azóta sok, gépi tanuláson alapuló 
+üzleti sikertörténetet ismerünk.
+
+00:01:53.593 --> 00:01:56.850
+Olyan cégek, mint az Amazon 
+és a Netflix a gépi tanulás módszerével
+
+00:01:56.850 --> 00:01:59.876
+ajánlják termékeiket megvételre
+
+00:01:59.876 --> 00:02:01.896
+illetve filmjeiket megnézésre.
+
+00:02:01.896 --> 00:02:03.703
+Néha ez, mondhatni, elég ijesztő.
+
+00:02:03.703 --> 00:02:05.657
+Mások, mint a LinkedIn és a Facebook
+
+00:02:05.657 --> 00:02:08.251
+néha megmondják, kik lehetnének 
+a barátaink,
+
+00:02:08.251 --> 00:02:10.228
+és fogalmunk sincs, hogy csinálják.
+
+00:02:10.228 --> 00:02:13.195
+A gépi tanulásban rejlő
+lehetőségeket használják.
+
+00:02:13.195 --> 00:02:16.152
+Ezek az algoritmusok sokkal inkább 
+az adatokból tanulnak,
+
+00:02:16.152 --> 00:02:19.399
+semmint a kézzel írt programokból.
+
+00:02:19.399 --> 00:02:22.807
+Így lett sikeres az IBM is: Watson 
+nevű gépe legyőzte
+
+00:02:22.807 --> 00:02:25.739
+a "Jeopardy" kvízműsor 
+két világbajnokát,
+
+00:02:25.739 --> 00:02:28.294
+mert válaszolt körmönfont
+és bonyolult kérdésekre; pl.
+
+00:02:28.294 --> 00:02:31.899
+[Ennek a városnak a múzeumából tűnt el 
+az ókori Nimród oroszlánja 2003-ban]
+
+00:02:31.909 --> 00:02:35.034
+Így jelentek meg az első, 
+vezető nélküli autók.
+
+00:02:35.034 --> 00:02:37.856
+Elég fontos, hogy 
+meg tudjuk mondani, mi a különbség,
+
+00:02:37.856 --> 00:02:40.308
+mondjuk, egy fa és egy gyalogos között.
+
+00:02:40.308 --> 00:02:43.075
+Nem tudjuk, hogyan kell manuálisan 
+megírni a programokat,
+
+00:02:43.075 --> 00:02:46.072
+de gépi tanulással erre 
+most megvan a lehetőség.
+
+00:02:46.072 --> 00:02:48.870
+Tény, hogy ez a kocsi már
+több millió kilométert tett meg
+
+00:02:48.870 --> 00:02:52.186
+baleset nélkül átlagos utakon.
+
+00:02:52.196 --> 00:02:56.110
+Tudjuk tehát, hogy a számítógépek 
+tudnak tanulni, és képesek megtanulni,
+
+00:02:56.110 --> 00:02:58.010
+hogyan végezzenek el feladatokat,
+
+00:02:58.010 --> 00:03:00.848
+amelyeknél néha mi magunk 
+tanácstalanok vagyunk,
+
+00:03:00.848 --> 00:03:03.733
+vagy talán ügyesebben végzik el nálunk.
+
+00:03:03.733 --> 00:03:07.618
+A gépi tanulás egyik legpompásabb 
+példáját
+
+00:03:07.618 --> 00:03:10.320
+egy általam irányított Kaggle-
+projektnél tapasztaltam,
+
+00:03:10.320 --> 00:03:13.061
+ahol a Torontói Egyetem csoportja,
+
+00:03:13.061 --> 00:03:15.463
+amelyet Geoffrey Hinton vezetett, 
+megnyert
+
+00:03:15.463 --> 00:03:18.140
+egy automatizált 
+gyógyszer-kifejlesztési versenyt.
+
+00:03:18.140 --> 00:03:21.477
+Nemcsak az volt rendhagyó, 
+hogy legyőzték a Merck
+
+00:03:21.477 --> 00:03:25.000
+és más nemzetközi tudóscsoportok
+algoritmusait,
+
+00:03:25.000 --> 00:03:29.001
+hanem hogy egyikük sem volt járatos 
+a kémiában, a biológiában
+
+00:03:29.001 --> 00:03:32.230
+vagy az élettudományokban, s 
+mindezt két hét alatt!
+
+00:03:32.230 --> 00:03:33.611
+Hogy sikerült nekik?
+
+00:03:34.421 --> 00:03:37.342
+Rendhagyó algoritmust 
+alkalmaztak, az ú.n. mély tanulást.
+
+00:03:37.342 --> 00:03:40.291
+Annyira fontos eredmény volt ez, 
+hogy a The New York Times
+
+00:03:40.291 --> 00:03:43.412
+címoldalon tudósított róla pár hét múlva.
+
+00:03:43.412 --> 00:03:46.147
+Balra látható Geoffrey Hinton.
+
+00:03:46.147 --> 00:03:49.858
+A mély tanulás olyan algoritmus, 
+amelyet az emberi agy működése ihletett.
+
+00:03:49.858 --> 00:03:52.300
+Az algoritmusnak nincs 
+elméleti korlátja
+
+00:03:52.300 --> 00:03:55.881
+abból a szempontból, hogy 
+mi mindenre lehet képes.
+
+00:03:55.881 --> 00:03:58.174
+Minél több adatot és gépidőt 
+adunk neki,
+
+00:03:58.174 --> 00:04:00.276
+annál jobbak lesznek az eredmények.
+
+00:04:00.276 --> 00:04:02.615
+A The New York Times írt cikkében 
+a mély tanulás
+
+00:04:02.615 --> 00:04:04.857
+egy másik rendkívüli eredményéről is,
+
+00:04:04.857 --> 00:04:06.739
+amelyről rögtön szólni fogok.
+
+00:04:07.569 --> 00:04:12.510
+Ez azt mutatja, hogy a számítógépek 
+képesek hangot érzékelni és értelmezni.
+
+00:04:12.510 --> 00:04:15.221
+(Video) Richard Rashid:
+Az utolsó lépés, s ezt szeretném,
+
+00:04:15.221 --> 00:04:18.246
+hogy hozzá tudjam tenni a folyamathoz:
+
+00:04:18.246 --> 00:04:22.961
+kínaiul beszélni önökhöz.
+
+00:04:22.961 --> 00:04:25.596
+Ennek kulcsa, hogy képesek voltunk
+
+00:04:25.596 --> 00:04:30.598
+nagy mennyiségű információt 
+átvenni sok kínai beszédjéből,
+
+00:04:30.598 --> 00:04:33.128
+létrehozni egy "szövegből beszédet"
+rendszert, amely
+
+00:04:33.128 --> 00:04:37.801
+a kínai szöveget átalakítja 
+kínai beszéddé.
+
+00:04:37.801 --> 00:04:41.929
+Azután az én hangmintámból felvettünk 
+egy órányit,
+
+00:04:41.929 --> 00:04:43.820
+s ezzel moduláltuk a szokásos
+
+00:04:43.820 --> 00:04:48.364
+"szövegből beszédet" rendszert, 
+amely aztán az én hangomon szólalt meg.
+
+00:04:48.364 --> 00:04:50.904
+Az eredmény nem tökéletes.
+
+00:04:50.904 --> 00:04:53.552
+Tény, hogy elég sok a hiba.
+
+00:04:53.552 --> 00:04:56.036
+(kínaiul)
+
+00:04:56.036 --> 00:05:00.073
+(taps)
+
+00:05:01.446 --> 00:05:05.022
+Elég sok feladat van még ezen a területen.
+
+00:05:05.022 --> 00:05:08.667
+(kínaiul)
+
+00:05:08.667 --> 00:05:12.960
+(taps)
+
+00:05:13.345 --> 00:05:16.744
+Howard: Ez egy gépi tanulási
+konferencián történt, Kínában.
+
+00:05:16.744 --> 00:05:19.114
+Valóban ritka, hogy egy 
+tudományos tanácskozáson
+
+00:05:19.114 --> 00:05:21.011
+spontán tapsot hall az ember,
+
+00:05:21.011 --> 00:05:24.027
+bár néha TEDx konferenciákon igen.
+
+00:05:24.027 --> 00:05:27.482
+Amit itt láttak, mind a mély tanulással 
+kapcsolatos.
+
+00:05:27.482 --> 00:05:29.007
+(taps) Köszönöm.
+
+00:05:29.007 --> 00:05:31.289
+A fonetikus átírás angolra 
+mély tanulás volt.
+
+00:05:31.289 --> 00:05:34.701
+A kínaira fordítás és a szöveg 
+a jobb fölső sarokban szintén,
+
+00:05:34.701 --> 00:05:38.008
+és a hangképzés úgyszintén 
+mély tanulás volt.
+
+00:05:38.008 --> 00:05:41.242
+Úgy hogy a mély tanulás különleges dolog.
+
+00:05:41.242 --> 00:05:44.341
+Egyszerű algoritmus, de úgy látszik, 
+majdnem mindenre alkalmas,
+
+00:05:44.341 --> 00:05:47.452
+erre tavaly jöttem rá. 
+Látni is megtanult már.
+
+00:05:47.452 --> 00:05:49.628
+Egy kevéssé ismert német versenyen,
+
+00:05:49.628 --> 00:05:52.225
+amely a közlekedési jelzések
+felismerésére irányul,
+
+00:05:52.225 --> 00:05:55.618
+a mély tanulás megtanulta fölismerni 
+a közlekedési jelzéseket.
+
+00:05:55.618 --> 00:05:57.712
+Nemcsak jobban ismeri föl 
+őket,
+
+00:05:57.712 --> 00:05:59.470
+mint bármely más algoritmus,
+
+00:05:59.470 --> 00:06:02.189
+az eredményjelző kimutatta, 
+hogy az embernél is jobban,
+
+00:06:02.189 --> 00:06:04.041
+kb. kétszer jobban mint az ember.
+
+00:06:04.041 --> 00:06:06.037
+2011-re megvolt az első példány az
+
+00:06:06.037 --> 00:06:09.442
+embernél is jobban látó 
+számítógépből.
+
+00:06:09.442 --> 00:06:11.491
+Azóta sok minden történt.
+
+00:06:11.491 --> 00:06:14.685
+2012-ben a Google közölte, 
+hogy van egy mély tanuló algoritmusuk,
+
+00:06:14.685 --> 00:06:16.420
+amely figyeli a YouTube videókat, és
+
+00:06:16.420 --> 00:06:19.857
+egy hónap alatt átrágta magát 
+16.000 gép adatain,
+
+00:06:19.857 --> 00:06:23.878
+és a gép önállóan megtanult olyan 
+fogalmakat mint "ember", vagy
+
+00:06:23.878 --> 00:06:26.027
+"macska", csupán csak a videókat figyelve.
+
+00:06:26.027 --> 00:06:28.109
+Az emberek nagyon hasonlóan tanulnak.
+
+00:06:28.109 --> 00:06:31.119
+Az emberek nem úgy tanulnak, 
+hogy megmondják nekik, mit látnak,
+
+00:06:31.119 --> 00:06:34.450
+hanem maguknak tanítják meg,
+mik ezek a dolgok.
+
+00:06:34.450 --> 00:06:37.819
+2012-ben az említett Geoffrey Hinton
+
+00:06:37.819 --> 00:06:40.677
+megnyert egy nagyon népszerű 
+ImageNet versenyt, ahol
+
+00:06:40.677 --> 00:06:44.818
+másfél millió képről kellett
+
+00:06:44.818 --> 00:06:46.256
+eldönteni, melyik mit ábrázol.
+
+00:06:46.256 --> 00:06:49.789
+2014-re elértük a képfelismerésben
+
+00:06:49.789 --> 00:06:51.242
+a 6%-os hibaszintet.
+
+00:06:51.242 --> 00:06:53.268
+Ez megint az emberekénél jobb eredmény.
+
+00:06:53.268 --> 00:06:57.037
+Tehát a gépek ebben rendkívül
+jó munkát végeznek, és
+
+00:06:57.037 --> 00:06:59.306
+az eredményeket ma 
+az iparban is hasznosítják.
+
+00:06:59.306 --> 00:07:02.348
+Például a Google tavaly bejelentette,
+
+00:07:02.348 --> 00:07:06.933
+hogy két óra alatt feltérképezte 
+egész Franciaországot,
+
+00:07:06.933 --> 00:07:10.380
+mindezt úgy, hogy betáplálták 
+az utcai látképeket egy
+
+00:07:10.380 --> 00:07:14.699
+mélyen tanuló algoritmusba, 
+az fölismerte és beolvasta
+
+00:07:14.699 --> 00:07:16.919
+a házszámokat.
+Korábban meddig tartott volna!
+
+00:07:16.919 --> 00:07:20.274
+Tucatnyi ember, több év.
+
+00:07:20.274 --> 00:07:22.185
+Ez történik most Kínában is.
+
+00:07:22.185 --> 00:07:26.221
+A Baidu olyasmi, mint egy kínai Google,
+
+00:07:26.221 --> 00:07:28.504
+és a bal fölső sarokban látható 
+egy kép, amelyet
+
+00:07:28.504 --> 00:07:32.478
+feltöltöttem a Baidu mély tanuló 
+rendszerébe,
+
+00:07:32.478 --> 00:07:36.247
+alatta pedig látják, hogy a rendszer 
+megértette, mi ez a kép,
+
+00:07:36.247 --> 00:07:38.483
+és talált hasonló képeket.
+
+00:07:38.483 --> 00:07:41.219
+A hasonló képnek egyébként 
+hasonló a háttere,
+
+00:07:41.219 --> 00:07:42.877
+az állatok pofája egyfelé fordul,
+
+00:07:42.877 --> 00:07:44.665
+némelyik még a nyelvét is kiölti.
+
+00:07:44.665 --> 00:07:47.045
+Ez nem ugyanaz, 
+mint egy szöveg a weboldalon.
+
+00:07:47.045 --> 00:07:49.107
+Mindössze egy képet töltöttem föl.
+
+00:07:49.107 --> 00:07:53.128
+Tehát a mai számítógépeink 
+tényleg értik, amit látnak,
+
+00:07:53.128 --> 00:07:54.752
+és százmilliónyi képet tartalmazó 
+
+00:07:54.752 --> 00:07:58.306
+adatbázist nézhetnek át valós időben.
+
+00:07:58.306 --> 00:08:01.536
+De mit jelent az, hogy 
+a számítógépek látnak?
+
+00:08:01.536 --> 00:08:03.553
+Nos, nemcsak, hogy látnak.
+
+00:08:03.553 --> 00:08:05.792
+Valójában a mély tanulás 
+ennél többet ért el.
+
+00:08:05.792 --> 00:08:08.570
+Az összetett, finoman árnyalt 
+mondatok mint ez,
+
+00:08:08.570 --> 00:08:11.154
+mély tanuló algoritmusokkal 
+ma már érthetők.
+
+00:08:11.154 --> 00:08:12.697
+A felül látható piros pöttyel
+
+00:08:12.697 --> 00:08:15.465
+ez a stanfordi rendszer jelzi,
+
+00:08:15.465 --> 00:08:19.384
+hogy ez a mondat 
+negatív érzelmet fejez ki.
+
+00:08:19.384 --> 00:08:23.120
+A mély tanulás ma már tényleg 
+megközelíti az emberi teljesítményt abban,
+
+00:08:23.120 --> 00:08:27.923
+miről szól a mondat, és 
+mit állít ezekről a dolgokról.
+
+00:08:27.923 --> 00:08:30.651
+A mély tanulás révén olvasunk kínaiul,
+
+00:08:30.651 --> 00:08:33.807
+kb. egy született kínai szintjén.
+
+00:08:33.807 --> 00:08:36.365
+Ez az algoritmus svájci, 
+s akik kifejlesztették,
+
+00:08:36.365 --> 00:08:39.331
+nem beszélnek, és nem értenek kínaiul.
+
+00:08:39.331 --> 00:08:41.382
+A mély tanulás alkalmazása
+
+00:08:41.382 --> 00:08:43.601
+erre talán a világ legjobb rendszere,
+
+00:08:43.601 --> 00:08:48.718
+akár összevetve a természetes 
+emberi megértéssel.
+
+00:08:48.718 --> 00:08:51.682
+Ezt a rendszert raktuk össze 
+a cégemnél, mely
+
+00:08:51.682 --> 00:08:53.728
+megmutatja, hogyan kell ezeket összerakni.
+
+00:08:53.728 --> 00:08:56.189
+Ezekhez a képekhez nem társul szöveg,
+
+00:08:56.189 --> 00:08:58.541
+és ahogy mondatokat írok be ide,
+
+00:08:58.541 --> 00:09:01.510
+ez valós időben megérti ezeket a képeket, és
+
+00:09:01.510 --> 00:09:03.189
+kitalálja, miről szólnak, és
+
+00:09:03.189 --> 00:09:06.352
+talál a beírt szöveghez hasonló képeket.
+
+00:09:06.352 --> 00:09:09.108
+Ez azt jelenti, hogy valójában 
+érti a mondataimat,
+
+00:09:09.108 --> 00:09:11.332
+és valójában érti a képeket.
+
+00:09:11.332 --> 00:09:13.891
+Tudom, hogy hasonlót 
+már láttak a Google-on,
+
+00:09:13.891 --> 00:09:16.666
+ahol beírják a szavakat, 
+és megjelennek a képek,
+
+00:09:16.666 --> 00:09:20.090
+de az úgy működik, hogy a gép 
+a weboldalon szöveget keres.
+
+00:09:20.090 --> 00:09:23.091
+Az teljesen más, mint 
+képeket fölismerni.
+
+00:09:23.091 --> 00:09:25.843
+Ilyesmit számítógépek csak 
+az utóbbi hónapokban
+
+00:09:25.843 --> 00:09:29.091
+voltak képesek első ízben megcsinálni.
+
+00:09:29.091 --> 00:09:33.182
+A számítógépek nemcsak 
+látnak, hanem olvasnak is,
+
+00:09:33.182 --> 00:09:36.947
+megmutattuk:
+értik is, amit hallanak.
+
+00:09:36.947 --> 00:09:40.389
+Talán nem meglepő, ha elmondom, 
+hogy írni is tudnak.
+
+00:09:40.389 --> 00:09:45.172
+Itt egy szöveg, amelyet tegnap egy 
+mély tanuló algoritmussal írattam.
+
+00:09:45.172 --> 00:09:48.686
+Itt egy szöveg, 
+melyet a stanfordi algoritmus írt.
+
+00:09:48.686 --> 00:09:50.860
+Minden mondatot mély tanuló algoritmus
+
+00:09:50.860 --> 00:09:55.109
+állított elő a képek leírása céljából.
+
+00:09:55.109 --> 00:09:59.581
+Az algoritmus korábban soha nem látott 
+fekete inges, gitározó embert.
+
+00:09:59.581 --> 00:10:01.801
+Látott korábban embert, 
+látott fekete színt,
+
+00:10:01.801 --> 00:10:03.400
+látott korábban gitárt,
+
+00:10:03.400 --> 00:10:07.694
+de önállóan állította elő
+a kép új leírását.
+
+00:10:07.694 --> 00:10:11.196
+Ez még nem üti meg az 
+emberi teljesítmény szintjét, de közelíti.
+
+00:10:11.196 --> 00:10:14.904
+A tesztekben az esetek negyedében
+jobban tetszik az embernek
+
+00:10:14.904 --> 00:10:16.791
+a számítógép-generálta képaláírás.
+
+00:10:16.791 --> 00:10:18.855
+Nos, ez a rendszer csupán kéthetes,
+
+00:10:18.855 --> 00:10:20.701
+tehát valószínűleg egy éven belül
+
+00:10:20.701 --> 00:10:23.502
+a számítógépes algoritmus
+
+00:10:23.502 --> 00:10:25.364
+felülmúlja az emberi teljesítményt.
+
+00:10:25.364 --> 00:10:28.413
+Tehát a számítógép írni is tud.
+
+00:10:28.413 --> 00:10:31.888
+Ha mindent összerakunk, 
+ez izgalmas lehetőségekhez vezet.
+
+00:10:31.888 --> 00:10:33.380
+Például a gyógyításban,
+
+00:10:33.380 --> 00:10:35.905
+egy bostoni csoport bejelentette, 
+hogy felfedeztek
+
+00:10:35.905 --> 00:10:38.854
+több tucat klinikailag fontos 
+daganat-jellemzőt,
+
+00:10:38.854 --> 00:10:43.120
+amelyek segítenek az orvosoknak 
+a rák előrejelzésében.
+
+00:10:44.220 --> 00:10:46.516
+Hasonlóképpen, Stanfordban
+
+00:10:46.516 --> 00:10:50.179
+bejelentették, hogy kifejlesztettek 
+egy gépi tanuló rendszert,
+
+00:10:50.179 --> 00:10:52.560
+amely a szöveteket nagyításban vizsgálva
+
+00:10:52.560 --> 00:10:55.142
+a rákosok túlélési esélyeinek 
+előrejelzésében
+
+00:10:55.142 --> 00:10:59.519
+tényleg jobban teljesít, 
+mint a patológusok.
+
+00:10:59.519 --> 00:11:02.764
+Mindkét esetben az előrejelzések 
+nemcsak pontosabbak voltak,
+
+00:11:02.764 --> 00:11:05.266
+hanem új tudományos eredményt hoztak.
+
+00:11:05.276 --> 00:11:06.781
+A radiológia esetében
+
+00:11:06.781 --> 00:11:09.876
+ezek új klinikai mutatók, amelyeket 
+az ember képes értelmezni.
+
+00:11:09.876 --> 00:11:11.668
+A patológiai esetben
+
+00:11:11.668 --> 00:11:16.168
+a számítógépes rendszer végeredményben
+felfedezte, hogy
+
+00:11:16.168 --> 00:11:18.948
+a rák körüli sejtek a diagnózis 
+fölállításában
+
+00:11:18.948 --> 00:11:21.260
+ugyanolyan fontosak, mint maguk
+a rákos sejtek.
+
+00:11:21.260 --> 00:11:26.621
+A patológusoknak évtizedeken át
+pont az ellenkezőjét tanították.
+
+00:11:26.621 --> 00:11:29.913
+Mindkét esetben ezek olyan 
+rendszerek, melyeket
+
+00:11:29.913 --> 00:11:33.534
+az orvos és a gépi tanulás 
+szakértők együtt
+
+00:11:33.534 --> 00:11:36.275
+fejlesztettek ki. Tavaly óta 
+ezt is túlhaladtuk.
+
+00:11:36.275 --> 00:11:39.824
+Itt egy példa arra, ahogyan 
+mikroszkóp alatt azonosítják
+
+00:11:39.824 --> 00:11:42.354
+az emberi szövet rákos területét.
+
+00:11:42.354 --> 00:11:46.967
+A bemutatott rendszer pontosabban vagy kb.
+ugyanolyan pontossággal tudja azonosítani
+
+00:11:46.967 --> 00:11:49.742
+azokat a területeket, mint egy patológus.
+
+00:11:49.742 --> 00:11:53.134
+Mély tanulással alakították ki 
+a rendszert, orvosi szakértelem nélkül,
+
+00:11:53.134 --> 00:11:55.660
+olyanok, akiknek nincs semmi hátterük
+a témában.
+
+00:11:56.460 --> 00:11:59.285
+Azután itt van az idegsejtek 
+szelvényezése. Már majdnem
+
+00:11:59.285 --> 00:12:02.953
+olyan precízen tudjuk szelvényezni 
+az idegsejteket, mint az emberek,
+
+00:12:02.953 --> 00:12:05.670
+és a rendszert mély tanulással 
+azok alakították ki,
+
+00:12:05.670 --> 00:12:08.921
+akiknek nem volt előzetes 
+orvosi tapasztalatuk.
+
+00:12:08.921 --> 00:12:12.148
+Úgy éreztem, hogy 
+orvosi háttér nélkül is
+
+00:12:12.148 --> 00:12:15.875
+eléggé képzett vagyok, hogy 
+orvosi céget alapítsak.
+
+00:12:15.875 --> 00:12:17.411
+Meg is tettem.
+
+00:12:17.411 --> 00:12:19.761
+Kissé féltem tőle, 
+de az elmélet azt sugallta,
+
+00:12:19.761 --> 00:12:22.650
+hogy hasznára válhatnánk a gyógyításnak
+
+00:12:22.650 --> 00:12:28.142
+csupán ilyen adatelemző módszerek 
+alkalmazásával.
+
+00:12:28.142 --> 00:12:30.622
+Hálás vagyok a fantasztikus fogadtatásért,
+
+00:12:30.622 --> 00:12:33.418
+nemcsak a média, hanem 
+az orvosi közösség részéről is,
+
+00:12:33.418 --> 00:12:35.322
+akik nagyon támogattak.
+
+00:12:35.322 --> 00:12:39.471
+Az elmélet szerint a gyógyítás 
+folyamatában a középső részt lecseréljük
+
+00:12:39.471 --> 00:12:42.364
+adatelemzésre lehetőség szerint, és
+azt hagyjuk az orvosokra,
+
+00:12:42.364 --> 00:12:45.429
+amihez legjobban értenek.
+
+00:12:45.429 --> 00:12:48.591
+Mondok rá példát. Ma 15 perc
+
+00:12:48.591 --> 00:12:51.975
+egy új diagnosztikai teszt kidolgozása.
+
+00:12:51.975 --> 00:12:53.929
+Megmutatom ezt önöknek valós 
+időben, de én három percbe
+
+00:12:53.929 --> 00:12:57.416
+sűrítettem be, mert elhagytam 
+egyes elemeit.
+
+00:12:57.416 --> 00:13:00.477
+Ahelyett, hogy megmutatnám, hogy 
+készül egy diagnosztikai teszt,
+
+00:13:00.477 --> 00:13:03.846
+lássuk inkább autót ábrázoló képek 
+diagnosztikai tesztjét,
+
+00:13:03.846 --> 00:13:06.068
+mert azt mindenki érteni fogja.
+
+00:13:06.068 --> 00:13:09.269
+Kb. másfél millió, autót 
+ábrázoló képpel kezdünk,
+
+00:13:09.269 --> 00:13:12.475
+és szeretnék létrehozni valamit, 
+ami aszerint rendezi őket,
+
+00:13:12.475 --> 00:13:14.698
+hogy milyen szögből készült a felvétel.
+
+00:13:14.698 --> 00:13:18.586
+A képek címkézetlenek, ezért 
+az alapoktól kell kezdenem.
+
+00:13:18.586 --> 00:13:20.451
+Mély tanuló algoritmusunkkal
+
+00:13:20.451 --> 00:13:24.158
+azonosítani lehet 
+az egyes részekhez tartozó területeket.
+
+00:13:24.158 --> 00:13:27.778
+Az ember és a gép pompásan 
+együtt tud működni.
+
+00:13:27.778 --> 00:13:29.956
+Az ember, ahogy itt látható,
+
+00:13:29.956 --> 00:13:32.631
+megmondja a gépnek, mely
+területek érdeklik,
+
+00:13:32.631 --> 00:13:37.281
+melyeken szeretné, hogy próbáljon 
+javítani a gép az algoritmusa szerint.
+
+00:13:37.281 --> 00:13:41.577
+Ezek a mély tanuló rendszerek egy 
+16.000-dimenziós térben vannak,
+
+00:13:41.577 --> 00:13:45.009
+látják, ahogy a gép ezt pörgeti 
+azon a téren keresztül,
+
+00:13:45.009 --> 00:13:46.761
+és próbál új területeket találni.
+
+00:13:46.761 --> 00:13:49.162
+Amint eredményt ér el, 
+az őt irányító ember
+
+00:13:49.162 --> 00:13:52.786
+megjelölheti az érdekes területeket.
+
+00:13:52.786 --> 00:13:55.208
+A gépnek sikerült területeket találnia,
+
+00:13:55.208 --> 00:13:57.770
+például sarkokat.
+
+00:13:57.770 --> 00:13:59.376
+Ahogy végigvisszük a folyamatot,
+
+00:13:59.376 --> 00:14:01.716
+fokozatosan egyre többet közlünk 
+a géppel arról,
+
+00:14:01.716 --> 00:14:03.784
+miféle struktúrát keresünk.
+
+00:14:03.784 --> 00:14:05.916
+Képzeljenek el egy diagnosztikai tesztben
+
+00:14:05.916 --> 00:14:09.266
+egy patológust, amint meghatározza
+a patologikus részeket,
+
+00:14:09.266 --> 00:14:14.292
+vagy egy radiológust, 
+amint kimutatja a gócokat.
+
+00:14:14.292 --> 00:14:16.851
+Néha nehéz az algoritmus számára.
+
+00:14:16.851 --> 00:14:18.815
+Most egy kissé összezavarodott.
+
+00:14:18.815 --> 00:14:21.365
+Összekeveri a kocsik elejét a hátuljával.
+
+00:14:21.365 --> 00:14:23.437
+Egy kicsit jobban kell vigyáznunk, és
+
+00:14:23.437 --> 00:14:26.669
+nekünk kell előbb különválogatnunk 
+a kocsik elejét és a hátulját,
+
+00:14:26.669 --> 00:14:30.505
+azután megmondjuk a gépnek,
+
+00:14:30.505 --> 00:14:33.523
+hogy ez a csoport érdekes 
+nekünk.
+
+00:14:33.523 --> 00:14:36.200
+Ez eltart egy ideig, ugrunk egyet,
+
+00:14:36.200 --> 00:14:38.446
+és okítjuk a párszáz dologra támaszkodó
+
+00:14:38.446 --> 00:14:40.420
+gépi tanuló algoritmust,
+
+00:14:40.420 --> 00:14:42.445
+és reméljük, hogy erősen följavul.
+
+00:14:42.445 --> 00:14:45.518
+Látják, kezd elhalványulni egy néhány kép,
+
+00:14:45.518 --> 00:14:50.226
+tehát már felismeri, ezek hogyan értendők.
+
+00:14:50.226 --> 00:14:53.128
+Majd alkalmazhatjuk ezt az elvet
+hasonló képekre,
+
+00:14:53.128 --> 00:14:55.222
+és a hasonló képeknél, látják,
+
+00:14:55.222 --> 00:14:59.241
+már képes a kocsiknak az elejét
+hibátlanul megtalálni.
+
+00:14:59.241 --> 00:15:02.189
+Itt az ember mondhatja a gépnek:
+
+00:15:02.189 --> 00:15:05.202
+OK, jó munkát végeztél.
+
+00:15:05.652 --> 00:15:07.837
+Persze, néha még itt is
+
+00:15:07.837 --> 00:15:11.511
+bonyolult szétválasztani a csoportokat,
+
+00:15:11.511 --> 00:15:15.395
+esetünkben, bár hagytuk a 
+gépet egy ideig pörögni,
+
+00:15:15.399 --> 00:15:18.744
+mégis találunk összekeveredve
+
+00:15:18.744 --> 00:15:20.222
+jobb és bal oldalas képeket.
+
+00:15:20.222 --> 00:15:22.362
+Adhatunk további útbaigazításokat 
+a gépnek,
+
+00:15:22.362 --> 00:15:25.338
+mondhatjuk, hogy próbálkozz, és találj 
+olyan szempontot, ami
+
+00:15:25.338 --> 00:15:27.945
+minél jobban szétválogatja 
+a jobb és bal oldalakat
+
+00:15:27.945 --> 00:15:30.067
+mély tanuló algoritmussal.
+
+00:15:30.067 --> 00:15:33.009
+S lám, a tanácsunk --
+OK, sikeres volt.
+
+00:15:33.009 --> 00:15:35.891
+Sikerült olyan szempontok szerint 
+vizsgálni a tárgyakat,
+
+00:15:35.891 --> 00:15:38.271
+amelyek alkalmasak szétválogatásukra.
+
+00:15:38.271 --> 00:15:40.709
+S eszünkbe jut egy gondolat.
+
+00:15:40.709 --> 00:15:48.906
+Esetünkben a gép 
+nem helyettesíti az embert,
+
+00:15:48.906 --> 00:15:51.546
+hanem együtt munkálkodnak.
+
+00:15:51.546 --> 00:15:55.096
+Ami egy 5-6 fős csoportnak
+
+00:15:55.096 --> 00:15:57.098
+kb. hét évébe tellett volna korábban,
+
+00:15:57.098 --> 00:15:59.703
+azt ezzel az eszközzel 
+15 perc alatt
+
+00:15:59.703 --> 00:16:02.208
+egyetlen személy elvégezi egyedül.
+
+00:16:02.208 --> 00:16:06.158
+Ez a folyamat 4-5 közelítő lépésből áll.
+
+00:16:06.158 --> 00:16:08.017
+Látják, hogy a gép a másfél millió kép
+
+00:16:08.017 --> 00:16:10.976
+62%-át helyesen osztályozta.
+
+00:16:10.976 --> 00:16:13.448
+Most kezdhetjük gyorsan
+
+00:16:13.448 --> 00:16:14.745
+nagy vonalakban
+
+00:16:14.745 --> 00:16:17.664
+átnézni, nincs-e hiba valahol.
+
+00:16:17.664 --> 00:16:21.616
+Ahol hiba van, közölhetjük a géppel.
+
+00:16:21.616 --> 00:16:24.661
+Minden elkülönített csoportra alkalmazva
+valami ilyen eljárást
+
+00:16:24.661 --> 00:16:27.148
+most a 80%-os helyességi aránynál tartunk
+
+00:16:27.148 --> 00:16:29.563
+a másfél millió kép osztályozásakor.
+
+00:16:29.563 --> 00:16:31.641
+Most még találunk egynéhány
+
+00:16:31.641 --> 00:16:35.220
+eltévedt képet,
+
+00:16:35.220 --> 00:16:38.108
+és megpróbáljuk megérteni, 
+mi ennek az oka.
+
+00:16:38.108 --> 00:16:39.851
+Ugyanazzal a módszerrel 
+
+00:16:39.851 --> 00:16:43.972
+15 perc alatt 97%-os helyességi arányt 
+érünk el.
+
+00:16:43.972 --> 00:16:48.572
+Az ilyen technika lehetővé tenné, hogy 
+kezelni tudjunk egy jelentős problémát,
+
+00:16:48.578 --> 00:16:51.614
+azt, hogy hiány van orvosi szakértelemből
+a világban.
+
+00:16:51.614 --> 00:16:55.103
+A Világgazdasági Fórumon elhangzott,
+
+00:16:55.103 --> 00:16:57.727
+hogy a fejlődő országokban 
+10-20-szoros az orvoshiány,
+
+00:16:57.727 --> 00:16:59.840
+és mintegy 300 évbe telne,
+
+00:16:59.840 --> 00:17:02.404
+hogy a gond megoldására elég 
+orvost képezzenek ki.
+
+00:17:02.404 --> 00:17:05.619
+Képzeljék csak el, milyen jó lenne, 
+ha a mély tanulás módszerével
+
+00:17:05.619 --> 00:17:08.458
+növelhetnénk az orvosok hatékonyságát?
+
+00:17:08.458 --> 00:17:10.690
+Egészen fölvillanyoznak a lehetőségek.
+
+00:17:10.690 --> 00:17:13.279
+Engem is aggaszt ez a gond.
+
+00:17:13.279 --> 00:17:16.053
+Az a probléma, hogy 
+a kékkel jelölt területek ott vannak,
+
+00:17:16.053 --> 00:17:19.182
+ahol a szolgáltatások aránya
+80% fölötti a foglalkoztatottságban.
+
+00:17:19.182 --> 00:17:21.159
+Mik is kellenek a szolgáltatásokhoz?
+
+00:17:21.159 --> 00:17:24.223
+[Írás-olvasás, Beszéd-figyelem],
+[Szemlélet, Tudás összegzése]
+
+00:17:24.223 --> 00:17:27.627
+Pont e dolgokkal épp most tanult meg 
+a gép bánni.
+
+00:17:27.627 --> 00:17:31.431
+Tehát a fejlett világ dolgozóinak 
+80%-a olyan munkát végez,
+
+00:17:31.431 --> 00:17:33.963
+amire épp most vált képessé a számítógép.
+
+00:17:33.963 --> 00:17:34.913
+Mit jelent ez?
+
+00:17:34.913 --> 00:17:37.986
+Minden rendben lesz. 
+A régiek helyett új állások keletkeznek.
+
+00:17:37.986 --> 00:17:40.693
+Például több állás lesz az 
+adattudósok számára.
+
+00:17:40.693 --> 00:17:41.510
+Nem igazán.
+
+00:17:41.510 --> 00:17:44.628
+Nem tart soká a számukra
+kifejleszteni ezeket a dolgokat.
+
+00:17:44.628 --> 00:17:47.880
+Például, e négy algoritmust 
+ugyanaz a fickó hozta létre.
+
+00:17:47.880 --> 00:17:50.318
+Ha azt hiszik: ó, régen is megtörtént,
+
+00:17:50.318 --> 00:17:54.126
+láttunk már ilyet, hogy új dolgok jönnek,
+
+00:17:54.126 --> 00:17:56.378
+és a régieket új állások váltják föl,
+
+00:17:56.378 --> 00:17:58.494
+no de milyenek lesznek az új állások?
+
+00:17:58.494 --> 00:18:00.365
+Nagyon nehezen tudjuk megítélni,
+
+00:18:00.365 --> 00:18:03.104
+mert az emberi teljesítmény 
+fokozatosan nő,
+
+00:18:03.104 --> 00:18:05.666
+de most itt van a mély tanulás rendszere,
+
+00:18:05.666 --> 00:18:08.893
+tudjuk róla, hogy a teljesítménye 
+rohamosan nő.
+
+00:18:08.893 --> 00:18:09.948
+Itt tartunk.
+
+00:18:09.948 --> 00:18:12.559
+Mostanában a dolgok láttán
+sokan azt mondják:
+
+00:18:12.559 --> 00:18:15.235
+"Ó, a számítógépek még mindig elég 
+ostobák." Igaz?
+
+00:18:15.235 --> 00:18:18.664
+De öt éven belül a helyzet megváltozik.
+
+00:18:18.664 --> 00:18:22.529
+Már most el kell kezdenünk 
+gondolkozni a gépek képességeiről.
+
+00:18:22.529 --> 00:18:24.579
+Ilyet már tapasztaltunk,
+
+00:18:24.579 --> 00:18:25.966
+az ipari forradalom idején,
+
+00:18:25.966 --> 00:18:28.817
+ahogy a gépek megjelenésével
+lépést kellett váltani.
+
+00:18:29.667 --> 00:18:32.805
+De egy idő után a dolgok elsimultak,
+
+00:18:32.805 --> 00:18:34.507
+Megzavarta a társadalmat,
+
+00:18:34.507 --> 00:18:37.946
+de amikor energiatermelésre 
+már mindenütt gépeket használtak,
+
+00:18:37.946 --> 00:18:40.300
+a dolgok lecsillapodtak.
+
+00:18:40.300 --> 00:18:41.773
+A "gépi tanulás forradalma"
+
+00:18:41.773 --> 00:18:44.682
+egészen más lesz, mint az
+ipari forradalom,
+
+00:18:44.682 --> 00:18:47.472
+mert a "gépi tanulás forradalma" 
+soha nem csillapodik le.
+
+00:18:47.472 --> 00:18:50.614
+Minél többet tudnak a számítógépek,
+
+00:18:50.614 --> 00:18:54.862
+annál jobb képességű 
+számítógépeket tudnak megépíteni,
+
+00:18:54.862 --> 00:18:56.770
+ez olyan váltás lesz, amit a világ eddig
+
+00:18:56.770 --> 00:18:59.578
+még soha nem tapasztalt, ezért 
+korábbi fogalmaik arról,
+
+00:18:59.578 --> 00:19:02.554
+hogy mi a lehetséges,
+teljesen megváltoznak.
+
+00:19:02.974 --> 00:19:04.754
+Mindez már hatással van ránk.
+
+00:19:04.754 --> 00:19:08.384
+Az utóbbi 25 évben a tőke 
+termelékenysége nőtt,
+
+00:19:08.400 --> 00:19:12.588
+a munka termelékenysége maradt, 
+sőt, valamit csökkent is.
+
+00:19:13.408 --> 00:19:16.149
+Szeretném, ha már elkezdenénk
+ezt az eszmecserét.
+
+00:19:16.149 --> 00:19:19.176
+Amikor a jelen helyzetről 
+beszélgetek emberekkel,
+
+00:19:19.176 --> 00:19:20.666
+gyakran teljesen elutasítók.
+
+00:19:20.666 --> 00:19:22.339
+Jó, a számítógépek valójában 
+nem tudnak gondolkodni,
+
+00:19:22.339 --> 00:19:25.367
+nem fejeznek ki érzelmeket, 
+nem értik a költészetet,
+
+00:19:25.367 --> 00:19:27.888
+mi igazából nem értjük, 
+hogyan működnek.
+
+00:19:27.888 --> 00:19:29.374
+Na és?
+
+00:19:29.374 --> 00:19:31.178
+A számítógépek már most 
+meg tudnak tenni dolgokat,
+
+00:19:31.178 --> 00:19:33.897
+amelyek az emberek munkaidejének 
+nagy részét kitöltik.
+
+00:19:33.897 --> 00:19:35.628
+Ideje elkezdeni a gondolkodást:
+
+00:19:35.628 --> 00:19:40.015
+hogyan igazítsuk át a társadalom 
+és a gazdaság szerkezetét
+
+00:19:40.015 --> 00:19:41.855
+az új realitások fényében.
+
+00:19:41.855 --> 00:19:43.388
+Köszönöm
+
+00:19:43.388 --> 00:19:44.190
+(taps)
+

@@ -1,0 +1,1076 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.000 --> 00:00:07.000
+Übersetzung: Nikolas Engelhard
+Lektorat: Judith Matz
+
+00:00:20.260 --> 00:00:22.260
+Guten Morgen.
+
+00:00:22.260 --> 00:00:24.260
+Ich bin heute hier,
+
+00:00:24.260 --> 00:00:27.260
+um über autonome, fliegende Strandbälle zu sprechen.
+
+00:00:27.260 --> 00:00:31.260
+Nein, wendige, fliegende Roboter wie diesen hier.
+
+00:00:31.260 --> 00:00:34.260
+Ich würde Ihnen gerne etwas über die Herausforderungen bei ihrem Bau erzählen
+
+00:00:34.260 --> 00:00:36.260
+und über die großartigen Möglichkeiten
+
+00:00:36.260 --> 00:00:38.260
+für die Anwendung dieser Technologie.
+
+00:00:38.260 --> 00:00:40.260
+Diese Roboter
+
+00:00:40.260 --> 00:00:43.260
+sind verwandt mit unbemannten Luftfahrzeugen.
+
+00:00:43.260 --> 00:00:46.260
+Die Fahrzeuge, die Sie hier sehen, sind jedoch sehr groß.
+
+00:00:46.260 --> 00:00:48.260
+Sie wiegen tausende von Kilos
+
+00:00:48.260 --> 00:00:50.260
+und sind wirklich nicht wendig.
+
+00:00:50.260 --> 00:00:52.260
+Sie sind nicht einmal autonom.
+
+00:00:52.260 --> 00:00:54.260
+Sie werden vielmehr von einer
+
+00:00:54.260 --> 00:00:56.260
+ganzen Mannschaft geflogen,
+
+00:00:56.260 --> 00:00:59.260
+die aus mehreren Piloten,
+
+00:00:59.260 --> 00:01:01.260
+Technikern für die Sensorik
+
+00:01:01.260 --> 00:01:03.260
+und Missionskoordinatoren bestehen kann.
+
+00:01:03.260 --> 00:01:05.260
+Wir interessieren uns für die Entwicklung von Robotern wie diesem –
+
+00:01:05.260 --> 00:01:07.260
+und hier sind noch zwei Bilder
+
+00:01:07.260 --> 00:01:10.260
+von Robotern, die man so im Laden kaufen kann.
+
+00:01:10.260 --> 00:01:13.260
+Das sind Helikopter mit vier Rotoren,
+
+00:01:13.260 --> 00:01:17.260
+die etwa einen Meter groß sind.
+
+00:01:17.260 --> 00:01:19.260
+und ein paar Kilos wiegen.
+
+00:01:19.260 --> 00:01:22.260
+Wir erweitern sie mit ein paar Sensoren und Prozessoren,
+
+00:01:22.260 --> 00:01:24.260
+und diese Roboter können drinnen fliegen
+
+00:01:24.260 --> 00:01:26.260
+ohne GPS.
+
+00:01:26.260 --> 00:01:28.260
+Der Roboter, den ich hier in meiner Hand halte,
+
+00:01:28.260 --> 00:01:30.260
+ist der hier,
+
+00:01:30.260 --> 00:01:33.260
+und er wurde von zwei Studenten gebaut,
+
+00:01:33.260 --> 00:01:35.260
+Alex und Daniel.
+
+00:01:35.260 --> 00:01:37.260
+Er wiegt nur etwas mehr
+
+00:01:37.260 --> 00:01:39.260
+als 50 Gramm.
+
+00:01:39.260 --> 00:01:41.260
+Und hat einen Energieverbrauch von 15 Watt.
+
+00:01:41.260 --> 00:01:43.260
+Wie Sie sehen können,
+
+00:01:43.260 --> 00:01:45.260
+hat er einen Durchmesser von etwa 20 cm.
+
+00:01:45.260 --> 00:01:48.260
+Lassen Sie mich Ihnen wirklich nur kurz erklären,
+
+00:01:48.260 --> 00:01:50.260
+wie diese Roboter funktionieren.
+
+00:01:50.260 --> 00:01:52.260
+Er hat vier Rotoren.
+
+00:01:52.260 --> 00:01:54.260
+Wenn sich die Rotoren mit der gleichen Geschwindigkeit drehen,
+
+00:01:54.260 --> 00:01:56.260
+schwebt der Roboter.
+
+00:01:56.260 --> 00:01:59.260
+Wenn Sie die Geschwindigkeit jedes Rotors erhöhen,
+
+00:01:59.260 --> 00:02:02.260
+steigt der Roboter auf und beschleunigt.
+
+00:02:02.260 --> 00:02:04.260
+Natürlich, wenn der Roboter gekippt wäre,
+
+00:02:04.260 --> 00:02:06.260
+also wenn er nicht ganz horizontal wäre,
+
+00:02:06.260 --> 00:02:09.260
+würde er in diese Richtung beschleunigen.
+
+00:02:09.260 --> 00:02:12.260
+Um ihn zu kippen, gibt es zwei Möglichkeiten.
+
+00:02:12.260 --> 00:02:14.260
+In diesem Bild hier
+
+00:02:14.260 --> 00:02:16.260
+sehen Sie, dass sich Robot vier schneller dreht.
+
+00:02:16.260 --> 00:02:18.260
+und Rotor zwei langsamer.
+
+00:02:18.260 --> 00:02:20.260
+Und sobald das passiert,
+
+00:02:20.260 --> 00:02:23.260
+entsteht ein Moment, das den Roboter kippt.
+
+00:02:23.260 --> 00:02:25.260
+Und andersrum,
+
+00:02:25.260 --> 00:02:28.260
+wenn Sie die Geschwindigkeit von Rotor drei erhöhen
+
+00:02:28.260 --> 00:02:30.260
+und die von Rotor eins absenken
+
+00:02:30.260 --> 00:02:33.260
+kippt der Roboter nach vorne.
+
+00:02:33.260 --> 00:02:35.260
+Und schließlich,
+
+00:02:35.260 --> 00:02:37.260
+wenn Sie zwei gegenüberliegende Rotoren
+
+00:02:37.260 --> 00:02:39.260
+schneller als das andere Paar drehen,
+
+00:02:39.260 --> 00:02:41.260
+dreht sich der Roboter um die senkrechte Achse.
+
+00:02:41.260 --> 00:02:43.260
+Der eingebaute Prozessor
+
+00:02:43.260 --> 00:02:46.260
+betrachtet im Wesentlichen, welche Bewegungen ausgeführt werden müssen,
+
+00:02:46.260 --> 00:02:48.260
+er kombiniert diese Bewegungen
+
+00:02:48.260 --> 00:02:51.260
+und rechnet aus, welche Befehle zu den Motoren geschickt werden müssen
+
+00:02:51.260 --> 00:02:53.260
+und das 600 Mal pro Sekunde.
+
+00:02:53.260 --> 00:02:55.260
+Und so funktionieren diese Dinger grundsätzlich.
+
+00:02:55.260 --> 00:02:57.260
+Einer der Vorteile dieses Designs ist,
+
+00:02:57.260 --> 00:02:59.260
+dass wenn Sie alles verkleinern,
+
+00:02:59.260 --> 00:03:02.260
+die Roboter viel wendiger werden.
+
+00:03:02.260 --> 00:03:04.260
+R ist hier
+
+00:03:04.260 --> 00:03:06.260
+die charakteristische Länge des Roboters
+
+00:03:06.260 --> 00:03:09.260
+es ist eigentlich der halbe Durchmesser.
+
+00:03:09.260 --> 00:03:12.260
+Und es gibt viele physikalische Parameter, die sich ändern,
+
+00:03:12.260 --> 00:03:14.260
+sobald man R verringert.
+
+00:03:14.260 --> 00:03:16.260
+Der wichtigste ist die Trägheit
+
+00:03:16.260 --> 00:03:18.260
+oder der Bewegungswiderstand.
+
+00:03:18.260 --> 00:03:20.260
+Es ist so,
+
+00:03:20.260 --> 00:03:23.260
+dass die Trägheit, die die Rotationsbewegung beeinflusst,
+
+00:03:23.260 --> 00:03:26.260
+mit der fünften Potenz von R skaliert.
+
+00:03:26.260 --> 00:03:28.260
+Wenn Sie nun R verkleinern,
+
+00:03:28.260 --> 00:03:31.260
+nimmt die Trägheit drastisch ab.
+
+00:03:31.260 --> 00:03:34.260
+Ein Ergebnis davon ist, dass die Rotationsbeschleunigung,
+
+00:03:34.260 --> 00:03:36.260
+hier mit dem griechischen Buchstaben Alpha bezeichnet,
+
+00:03:36.260 --> 00:03:38.260
+mit 1 über R verläuft.
+
+00:03:38.260 --> 00:03:40.260
+Sie ist umgekehrt proportional zu R.
+
+00:03:40.260 --> 00:03:43.260
+Je kleiner Sie sie machen, desto schneller können Sie drehen.
+
+00:03:43.260 --> 00:03:45.260
+Das sollte bei diesen Videos klar werden.
+
+00:03:45.260 --> 00:03:48.260
+Unten rechts sehen Sie einen Roboter,
+
+00:03:48.260 --> 00:03:50.260
+der einen 360°-Salto
+
+00:03:50.260 --> 00:03:52.260
+in weniger als einer halben Sekunde vollführt.
+
+00:03:52.260 --> 00:03:55.260
+Mehrere Saltos, ein bisschen mehr Zeit.
+
+00:03:55.260 --> 00:03:57.260
+Die Prozessoren
+
+00:03:57.260 --> 00:03:59.260
+bekommen Rückmeldungen von den Beschleunigungsmessern
+
+00:03:59.260 --> 00:04:01.260
+und Gyroskopen an Bord
+
+00:04:01.260 --> 00:04:03.260
+und berechnen, wie ich vorhin schon gesagt habe,
+
+00:04:03.260 --> 00:04:05.260
+600 Mal pro Sekunde Befehle,
+
+00:04:05.260 --> 00:04:07.260
+um den Roboter zu stabilisieren.
+
+00:04:07.260 --> 00:04:10.260
+Links sehen Sie, wie Daniel den Roboter in die Luft wirft.
+
+00:04:10.260 --> 00:04:12.260
+Und man sieht, wie robust die Kontrolle ist.
+
+00:04:12.260 --> 00:04:14.260
+Egal wie Sie ihn werfen,
+
+00:04:14.260 --> 00:04:18.260
+der Roboter fängt sich und kommt wieder zu ihm zurück.
+
+00:04:18.260 --> 00:04:20.260
+Warum baut man solche Roboter?
+
+00:04:20.260 --> 00:04:23.260
+Nun, Roboter wie diese haben viele Anwendungen.
+
+00:04:23.260 --> 00:04:26.260
+Man kann sie in Gebäude wie dieses schicken
+
+00:04:26.260 --> 00:04:29.260
+um als erste nach Eindringlingen zu suchen,
+
+00:04:29.260 --> 00:04:32.260
+vielleicht nach biochemischen Lecks zu suchen,
+
+00:04:32.260 --> 00:04:34.260
+oder Gaslecks.
+
+00:04:34.260 --> 00:04:36.260
+Man kann sie aber auch
+
+00:04:36.260 --> 00:04:38.260
+zum Bauen einsetzen.
+
+00:04:38.260 --> 00:04:42.260
+Hier sehen Sie Roboter, die Träger und Säulen tragen
+
+00:04:42.260 --> 00:04:45.260
+und würfelförmige Strukturen zusammenbauen.
+
+00:04:45.260 --> 00:04:48.260
+Ich werde Ihnen noch etwas mehr darüber erzählen.
+
+00:04:48.260 --> 00:04:51.260
+Diese Roboter können im Frachttransport eingesetzt werden.
+
+00:04:51.260 --> 00:04:54.260
+Eines der Probleme dieser kleinen Roboter
+
+00:04:54.260 --> 00:04:56.260
+ist ihre geringe Zuladung.
+
+00:04:56.260 --> 00:04:58.260
+Daher wollen Sie vielleicht mehrere Roboter einsetzen,
+
+00:04:58.260 --> 00:05:00.260
+um die Ladung zu tragen.
+
+00:05:00.260 --> 00:05:02.260
+Das ist ein Bild von einem unserer letzten Experimente –
+
+00:05:02.260 --> 00:05:04.260
+wobei das doch schon eine Weile her ist –
+
+00:05:04.260 --> 00:05:07.260
+in Sendai, kurz nach dem Erdbeben.
+
+00:05:07.260 --> 00:05:10.260
+Roboter wie dieser konnten in eingestürzte Gebäude geschickt werden,
+
+00:05:10.260 --> 00:05:12.260
+um den Schaden nach Naturkatastrophen zu beurteilen,
+
+00:05:12.260 --> 00:05:15.260
+oder in Reaktorgebäude,
+
+00:05:15.260 --> 00:05:18.260
+um eine Strahlungskarte aufzubauen.
+
+00:05:19.260 --> 00:05:21.260
+Ein grundlegendes Problem
+
+00:05:21.260 --> 00:05:24.260
+das die Roboter lösen müssen, wenn sie autonom sein sollen,
+
+00:05:24.260 --> 00:05:26.260
+ist im Grunde genommen,
+
+00:05:26.260 --> 00:05:28.260
+wie sie von Punkt A zu Punkt B kommen.
+
+00:05:28.260 --> 00:05:30.260
+Das ist eine ziemliche Herausforderung
+
+00:05:30.260 --> 00:05:33.260
+da die Dynamik so eines Roboters recht kompliziert ist.
+
+00:05:33.260 --> 00:05:35.260
+Tatsächlich leben sie in einem 12-dimensionalen Raum.
+
+00:05:35.260 --> 00:05:37.260
+Also benutzen wir einen kleinen Trick.
+
+00:05:37.260 --> 00:05:40.260
+Wir nehmen diesen gekrümmten 12-dimensionalen Raum
+
+00:05:40.260 --> 00:05:42.260
+und wandeln ihn
+
+00:05:42.260 --> 00:05:44.260
+in einen flachen vier-dimensionalen Raum um.
+
+00:05:44.260 --> 00:05:46.260
+Und dieser vier-dimensionale Raum
+
+00:05:46.260 --> 00:05:49.260
+besteht aus X, Y, Z und dem Gierwinkel.
+
+00:05:49.260 --> 00:05:51.260
+Der Roboter also
+
+00:05:51.260 --> 00:05:55.260
+plant etwas, das wir eine Bahnkurve mit minimalem Snap nennen.
+
+00:05:55.260 --> 00:05:57.260
+Eine kurze Auffrischung Ihrer Physikkenntnisse:
+
+00:05:57.260 --> 00:05:59.260
+Es gibt den Ort, die Geschwindigkeit als Ableitung,
+
+00:05:59.260 --> 00:06:01.260
+dann Beschleunigung,
+
+00:06:01.260 --> 00:06:03.260
+und dann kommt Ruck,
+
+00:06:03.260 --> 00:06:05.260
+und dann kommt "Snap".
+
+00:06:05.260 --> 00:06:08.260
+Und dieser Roboter minimiert Snap.
+
+00:06:08.260 --> 00:06:10.260
+Und was das im Endeffekt ergibt,
+
+00:06:10.260 --> 00:06:12.260
+ist eine glatte und anmutige Bewegung.
+
+00:06:12.260 --> 00:06:15.260
+Und er macht das, während er Hindernissen ausweicht.
+
+00:06:15.260 --> 00:06:18.260
+Diese Trajektorien mit minimalem Snap in diesem flachen Raum
+
+00:06:18.260 --> 00:06:20.260
+werden dann zurücktransformiert
+
+00:06:20.260 --> 00:06:22.260
+in diesen komplizierten 12-dimensionalen Raum,
+
+00:06:22.260 --> 00:06:24.260
+und das muss der Roboter für die Kontrolle
+
+00:06:24.260 --> 00:06:26.260
+und die spätere Ausführung tun.
+
+00:06:26.260 --> 00:06:28.260
+Lassen Sie mich ein paar Beispiele zeigen,
+
+00:06:28.260 --> 00:06:30.260
+wie diese Flugbahnen mit minimalem Snap aussehen.
+
+00:06:30.260 --> 00:06:32.260
+In dem ersten Video
+
+00:06:32.260 --> 00:06:34.260
+werden Sie sehen, wie der Roboter von A nach B fliegt
+
+00:06:34.260 --> 00:06:36.260
+durch einen Zwischenpunkt.
+
+00:06:42.260 --> 00:06:44.260
+Der Roboter ist offensichtlich in der Lage,
+
+00:06:44.260 --> 00:06:46.260
+jede Bahnkurve auszuführen.
+
+00:06:46.260 --> 00:06:48.260
+Das hier sind kreisförmige Bahnkurven,
+
+00:06:48.260 --> 00:06:51.260
+bei denen auf den Roboter 2 G wirken.
+
+00:06:52.260 --> 00:06:56.260
+Oben befinden sich Motion-Capture-Kameras,
+
+00:06:56.260 --> 00:06:59.260
+die dem Roboter 100 Mal pro Sekunde sagen, wo er ist.
+
+00:06:59.260 --> 00:07:02.260
+Sie sagen dem Roboter auch, wo diese Hindernisse sind.
+
+00:07:02.260 --> 00:07:04.260
+Und diese Hindernisse können sich auch bewegen.
+
+00:07:04.260 --> 00:07:07.260
+Und hier sehen Sie, wie Daniel diesen Reifen in die Luft wirft,
+
+00:07:07.260 --> 00:07:09.260
+während der Roboter die Position vom Reifen berechnet
+
+00:07:09.260 --> 00:07:13.260
+und versucht auszurechnen, wie er am Besten durch den Reifen kommt.
+
+00:07:13.260 --> 00:07:15.260
+Als Akademiker
+
+00:07:15.260 --> 00:07:18.260
+müssen wir ständig durch Reifen springen, um Sponsoren aufzutreiben,
+
+00:07:18.260 --> 00:07:21.260
+und wir lassen unsere Roboter das machen.
+
+00:07:21.260 --> 00:07:27.260
+(Applaus)
+
+00:07:27.260 --> 00:07:29.260
+Außerdem kann der Roboter sich
+
+00:07:29.260 --> 00:07:32.260
+Abschnitte der Flugbahnen merken,
+
+00:07:32.260 --> 00:07:34.260
+die er lernt, oder die vorher einprogrammiert wurden.
+
+00:07:34.260 --> 00:07:36.260
+Hier sehen Sie, wie der Roboter
+
+00:07:36.260 --> 00:07:38.260
+eine Bewegung kombiniert,
+
+00:07:38.260 --> 00:07:40.260
+um Schwung zu holen
+
+00:07:40.260 --> 00:07:43.260
+und dann seine Ausrichtung ändert und sich wieder fängt.
+
+00:07:43.260 --> 00:07:46.260
+Er muss das machen, da dieses Loch im Fenster
+
+00:07:46.260 --> 00:07:50.260
+nur etwas größer als die Breite des Roboters ist.
+
+00:07:50.260 --> 00:07:53.260
+Also genau wie ein Turmspringer auf dem Sprungbrett,
+
+00:07:53.260 --> 00:07:55.260
+der hinabspringt um Schwung zu holen
+
+00:07:55.260 --> 00:07:58.260
+und dann diese Pirouette vollführt, diesen zweieinhalbfachen Salto
+
+00:07:58.260 --> 00:08:00.260
+und sich dann elegant wieder fängt,
+
+00:08:00.260 --> 00:08:02.260
+dieser Roboter macht im Wesentlichen das Gleiche.
+
+00:08:02.260 --> 00:08:05.260
+Er weiß also wie man diese Teile der Bahnkurven kombiniert,
+
+00:08:05.260 --> 00:08:09.260
+um diese ziemlich schwierigen Aufgaben zu lösen.
+
+00:08:09.260 --> 00:08:11.260
+Kurzer Themenwechsel.
+
+00:08:11.260 --> 00:08:14.260
+Einer der Nachteile dieser kleinen Roboter ist ihre Größe.
+
+00:08:14.260 --> 00:08:16.260
+Und ich habe Ihnen schon vorhin gesagt,
+
+00:08:16.260 --> 00:08:18.260
+dass wir vielleicht sehr viele Roboter einsetzen wollen,
+
+00:08:18.260 --> 00:08:21.260
+um die Beschränkungen durch die Größe zu umgehen.
+
+00:08:21.260 --> 00:08:23.260
+Eine Schwierigkeit
+
+00:08:23.260 --> 00:08:26.260
+ist, wie kann man viele Roboter koordinieren?
+
+00:08:26.260 --> 00:08:28.260
+Daher haben wir uns die Natur angeschaut.
+
+00:08:28.260 --> 00:08:30.260
+Ich möchte Ihnen einen kurzen Film zeigen,
+
+00:08:30.260 --> 00:08:32.260
+von Aphaenogaster Wüstenameisen,
+
+00:08:32.260 --> 00:08:35.260
+wie sie in Professor Stephen Pratts Labor einen Gegenstand tragen.
+
+00:08:35.260 --> 00:08:37.260
+Das ist ein Stück einer Feige.
+
+00:08:37.260 --> 00:08:39.260
+Sie können irgendein mit Feigensaft getränktes Objekt hinlegen
+
+00:08:39.260 --> 00:08:42.260
+und die Ameisen werden es zurück zum Nest tragen.
+
+00:08:42.260 --> 00:08:45.260
+Diese Ameisen haben keinen zentralen Koordinator.
+
+00:08:45.260 --> 00:08:47.260
+Sie nehmen ihre Nachbarn wahr.
+
+00:08:47.260 --> 00:08:49.260
+Es gibt keine explizite Kommunikation.
+
+00:08:49.260 --> 00:08:51.260
+Aber weil sie ihre Nachbarn spüren
+
+00:08:51.260 --> 00:08:53.260
+und weil sie das Objekt spüren,
+
+00:08:53.260 --> 00:08:56.260
+haben sie eine implizite Koordination innerhalb der Gruppe.
+
+00:08:56.260 --> 00:08:58.260
+Und diese Art der Koordination
+
+00:08:58.260 --> 00:09:01.260
+sollen auch unsere Roboter haben.
+
+00:09:01.260 --> 00:09:03.260
+Wenn wir also einen Roboter haben,
+
+00:09:03.260 --> 00:09:05.260
+der von seinen Nachbarn umgeben ist –
+
+00:09:05.260 --> 00:09:07.260
+schauen wir uns Roboter I und J an –
+
+00:09:07.260 --> 00:09:09.260
+was wir von den Robotern wollen,
+
+00:09:09.260 --> 00:09:12.260
+ist, dass sie den Abstand zwischen sich überwachen,
+
+00:09:12.260 --> 00:09:14.260
+während sie in der Formation fliegen.
+
+00:09:14.260 --> 00:09:16.260
+Und dann muss man sicherstellen,
+
+00:09:16.260 --> 00:09:18.260
+dass dieser Abstand innerhalb akzeptabler Schranken ist.
+
+00:09:18.260 --> 00:09:21.260
+Die Roboter überwachen also diesen Fehler
+
+00:09:21.260 --> 00:09:23.260
+und berechnen die Kontrollbefehle
+
+00:09:23.260 --> 00:09:25.260
+100 Mal pro Sekunde,
+
+00:09:25.260 --> 00:09:28.260
+die dann in Motorbefehle 600 Mal pro Sekunde übersetzt werden.
+
+00:09:28.260 --> 00:09:30.260
+Das muss auch auf eine
+
+00:09:30.260 --> 00:09:32.260
+dezentrale Art geschehen.
+
+00:09:32.260 --> 00:09:34.260
+Nochmal, wenn Sie sehr viele dieser Roboter haben,
+
+00:09:34.260 --> 00:09:38.260
+ist es unmöglich, all diese Informationen zentral zu koordinieren,
+
+00:09:38.260 --> 00:09:41.260
+schnell genug, damit die Roboter die Aufgabe lösen können.
+
+00:09:41.260 --> 00:09:43.260
+Zusätzlich müssen die Roboter ihre Entscheidungen
+
+00:09:43.260 --> 00:09:45.260
+nur aufgrund der lokalen Informationen fällen,
+
+00:09:45.260 --> 00:09:47.260
+nämlich, was sie von ihren Nachbarn wahrnehmen.
+
+00:09:47.260 --> 00:09:49.260
+Und schließlich
+
+00:09:49.260 --> 00:09:51.260
+bestehen wir darauf, dass die Roboter nicht wissen,
+
+00:09:51.260 --> 00:09:53.260
+wer ihre Nachbarn sind.
+
+00:09:53.260 --> 00:09:56.260
+Das ist etwas, das wir Anonymität nennen.
+
+00:09:56.260 --> 00:09:58.260
+Was ich Ihnen als nächstes zeigen will,
+
+00:09:58.260 --> 00:10:00.260
+ist ein Video
+
+00:10:00.260 --> 00:10:03.260
+von 20 dieser kleinen Roboter,
+
+00:10:03.260 --> 00:10:05.260
+wie sie in einer Formation fliegen.
+
+00:10:05.260 --> 00:10:08.260
+Sie überwachen die Position ihrer Nachbarn.
+
+00:10:08.260 --> 00:10:10.260
+Und erhalten die Formation.
+
+00:10:10.260 --> 00:10:12.260
+Die Formationen können sich ändern.
+
+00:10:12.260 --> 00:10:14.260
+Sie können flache Formationen sein,
+
+00:10:14.260 --> 00:10:16.260
+sie können drei-dimensionale Formationen sein.
+
+00:10:16.260 --> 00:10:18.260
+Wie Sie hier sehen können,
+
+00:10:18.260 --> 00:10:21.260
+kollabieren sie von einer 3D-Formation in eine ebene Formation.
+
+00:10:21.260 --> 00:10:23.260
+Und um durch Hindernisse zu fliegen,
+
+00:10:23.260 --> 00:10:27.260
+können sie ihre Formation im Flug anpassen.
+
+00:10:27.260 --> 00:10:30.260
+Und Sie sehen, diese Roboter kommen sich wirklich nah.
+
+00:10:30.260 --> 00:10:32.260
+Wie Sie hier bei dem Flug in Form einer Acht sehen,
+
+00:10:32.260 --> 00:10:34.260
+nähern sie sich bis auf wenige Zentimeter.
+
+00:10:34.260 --> 00:10:37.260
+Und trotz der aerodynamischen Wechselwirkungen
+
+00:10:37.260 --> 00:10:39.260
+von diesen Propellerflügeln,
+
+00:10:39.260 --> 00:10:41.260
+sind sie in der Lage stabil zu fliegen.
+
+00:10:41.260 --> 00:10:48.260
+(Applaus)
+
+00:10:48.260 --> 00:10:50.260
+Sobald man weiß, wie man in einer Formation fliegt,
+
+00:10:50.260 --> 00:10:52.260
+kann man auch gemeinsam Objekte anheben.
+
+00:10:52.260 --> 00:10:54.260
+Das hier zeigt,
+
+00:10:54.260 --> 00:10:57.260
+dass wir die Roboterkraft verdoppeln,
+
+00:10:57.260 --> 00:10:59.260
+verdreifachen, vervierfachen können,
+
+00:10:59.260 --> 00:11:01.260
+in dem wir sie dazu bringen, Teams zu bilden, wie Sie hier sehen können.
+
+00:11:01.260 --> 00:11:04.260
+Einer der Nachteile davon ist,
+
+00:11:04.260 --> 00:11:06.260
+sobald Sie alles vergrößern –
+
+00:11:06.260 --> 00:11:08.260
+also wenn Sie viele Roboter haben, die das gleiche Objekt tragen,
+
+00:11:08.260 --> 00:11:11.260
+vergrößern Sie damit die Trägheit,
+
+00:11:11.260 --> 00:11:14.260
+und damit zahlen Sie einen Preis; sie sind nicht mehr so wendig.
+
+00:11:14.260 --> 00:11:17.260
+Aber Sie gewinnen einen Zuwachs an Traglast.
+
+00:11:17.260 --> 00:11:19.260
+Eine andere Anwendug, die ich Ihnen zeigen will –
+
+00:11:19.260 --> 00:11:21.260
+das ist wieder in unserem Labor.
+
+00:11:21.260 --> 00:11:23.260
+Das ist die Arbeit von Quentin Lindsey, der ein Doktorand ist.
+
+00:11:23.260 --> 00:11:26.260
+Sein Algorithmus sagt diesen Robotern,
+
+00:11:26.260 --> 00:11:28.260
+wie sie autonom
+
+00:11:28.260 --> 00:11:30.260
+würfelförmige Stukturen
+
+00:11:30.260 --> 00:11:33.260
+aus diesen Streben bauen können.
+
+00:11:33.260 --> 00:11:35.260
+Sein Algorithmus sagt dem Roboter,
+
+00:11:35.260 --> 00:11:37.260
+welches Stück er anheben soll,
+
+00:11:37.260 --> 00:11:39.260
+und wann und wo er es platzieren soll.
+
+00:11:39.260 --> 00:11:41.260
+Und in diesem Video sehen Sie –
+
+00:11:41.260 --> 00:11:43.260
+und es ist 10- oder 14-fach beschleunigt –
+
+00:11:43.260 --> 00:11:46.260
+Sie sehen, wie diese Roboter drei verschiedene Strukturen bauen.
+
+00:11:46.260 --> 00:11:48.260
+Und wieder, alles ist autonom,
+
+00:11:48.260 --> 00:11:50.260
+und alles, was Quentin machen muss,
+
+00:11:50.260 --> 00:11:52.260
+ist ihnen eine Blaupause zu besorgen
+
+00:11:52.260 --> 00:11:56.260
+von dem Design, das er bauen will.
+
+00:11:56.260 --> 00:11:59.260
+All die Experimente, die Sie bisher gesehen haben,
+
+00:11:59.260 --> 00:12:01.260
+all diese Demonstrationen,
+
+00:12:01.260 --> 00:12:04.260
+wurden mit Hilfe eines Motion-Capture-Systems durchgeführt.
+
+00:12:04.260 --> 00:12:06.260
+Was passiert also, wenn man das Labor verlässt,
+
+00:12:06.260 --> 00:12:09.260
+und nach draußen in die wirkliche Welt geht?
+
+00:12:09.260 --> 00:12:12.260
+Und was, wenn es dort kein GPS gibt?
+
+00:12:12.260 --> 00:12:14.260
+Dieser Roboter
+
+00:12:14.260 --> 00:12:16.260
+wurde mit einer Kamera ausgestattet,
+
+00:12:16.260 --> 00:12:19.260
+und einem Laser-Entfernungsmesser, einem Laser-Scanner.
+
+00:12:19.260 --> 00:12:21.260
+Und er benutzt diese Sensoren,
+
+00:12:21.260 --> 00:12:23.260
+um eine Karte der Umgebung aufzubauen.
+
+00:12:23.260 --> 00:12:26.260
+Diese Karte besteht aus besonderen Merkmalen
+
+00:12:26.260 --> 00:12:28.260
+wie Türen, Fenster
+
+00:12:28.260 --> 00:12:30.260
+Personen, Möbelstücke –
+
+00:12:30.260 --> 00:12:32.260
+und bestimmt dann seine Position
+
+00:12:32.260 --> 00:12:34.260
+relativ zu diesen Merkmalen.
+
+00:12:34.260 --> 00:12:36.260
+Es gibt also kein globales Koordinatensystem.
+
+00:12:36.260 --> 00:12:39.260
+Das Koordinatensystem basiert auf dem Roboter,
+
+00:12:39.260 --> 00:12:42.260
+wo er ist und was er anschaut.
+
+00:12:42.260 --> 00:12:45.260
+Und er navigiert relativ zu diesen Merkmalen.
+
+00:12:45.260 --> 00:12:47.260
+Ich möchte in einem kurzen Film
+
+00:12:47.260 --> 00:12:49.260
+Algorithmen zeigen, die von Frank Shen
+
+00:12:49.260 --> 00:12:51.260
+und Professor Nathan Michael entwickelt werden.
+
+00:12:51.260 --> 00:12:55.260
+Er zeigt, wie ein Roboter ein Haus zum ersten Mal betritt
+
+00:12:55.260 --> 00:12:58.260
+und im Flug diese Karte erstellt.
+
+00:12:58.260 --> 00:13:01.260
+Dieser Roboter findet heraus, was diese Merkmale sind.
+
+00:13:01.260 --> 00:13:03.260
+Und erstellt die Karte.
+
+00:13:03.260 --> 00:13:05.260
+Er berechnet, wo er sich relativ zu den Merkmalen befindet,
+
+00:13:05.260 --> 00:13:07.260
+und schätzt dann seine Position
+
+00:13:07.260 --> 00:13:09.260
+100 Mal pro Sekunde,
+
+00:13:09.260 --> 00:13:11.260
+was uns erlaubt, die Kontrollalgorithmen zu benutzen,
+
+00:13:11.260 --> 00:13:13.260
+die ich vorher beschrieben habe.
+
+00:13:13.260 --> 00:13:15.260
+Dieser Roboter hier wird tatsächlich
+
+00:13:15.260 --> 00:13:17.260
+von Frank ferngesteuert.
+
+00:13:17.260 --> 00:13:19.260
+Aber der Roboter kann auch alleine
+
+00:13:19.260 --> 00:13:21.260
+herausfinden, wo er hin will.
+
+00:13:21.260 --> 00:13:23.260
+Angenommen, ich müsste ihn in ein Gebäude schicken
+
+00:13:23.260 --> 00:13:25.260
+und ich wüsste überhaupt nicht, wie es aussieht,
+
+00:13:25.260 --> 00:13:27.260
+Ich kann den Roboter bitten, hinein zu gehen,
+
+00:13:27.260 --> 00:13:29.260
+eine Karte zu erstellen
+
+00:13:29.260 --> 00:13:32.260
+wiederzukommen und mir zu sagen, wie das Gebäude aussieht.
+
+00:13:32.260 --> 00:13:35.260
+In diesem Fall löst der Roboter nicht nur das Problem
+
+00:13:35.260 --> 00:13:38.260
+wie er von Punkt A zu Punkt B in dieser Karte kommt,
+
+00:13:38.260 --> 00:13:40.260
+sonder er findet auch heraus,
+
+00:13:40.260 --> 00:13:42.260
+was der beste Punkt B zu jedem Zeitpunkt ist.
+
+00:13:42.260 --> 00:13:45.260
+Im Wesentlichen weiß er, wohin er gehen muss,
+
+00:13:45.260 --> 00:13:47.260
+um nach Orten zu suchen, über die er am wenigsten weiß.
+
+00:13:47.260 --> 00:13:50.260
+Und auf diese Weise erstellt er die Karte.
+
+00:13:50.260 --> 00:13:52.260
+Ich würde Ihnen gern
+
+00:13:52.260 --> 00:13:54.260
+noch eine letzte Anwendung zeigen.
+
+00:13:54.260 --> 00:13:57.260
+Und es gibt viele Anwendungen für diese Technologie.
+
+00:13:57.260 --> 00:13:59.260
+Ich bin ein Professor und wir haben eine Leidenschaft für die Ausbildung.
+
+00:13:59.260 --> 00:14:01.260
+Roboter wie dieser können wirklich den Unterricht
+
+00:14:01.260 --> 00:14:03.260
+vom Kindergarten bis zum Schulabschluss veränden.
+
+00:14:03.260 --> 00:14:05.260
+Aber wir sind hier in Südkalifornien,
+
+00:14:05.260 --> 00:14:07.260
+in der Nähe von Los Angeles,
+
+00:14:07.260 --> 00:14:09.260
+daher muss ich am Ende
+
+00:14:09.260 --> 00:14:11.260
+den Fokus auf die Unterhaltung richten.
+
+00:14:11.260 --> 00:14:13.260
+Ich würde gerne mit einem Musikvideo schließen.
+
+00:14:13.260 --> 00:14:16.260
+Ich würde gerne die Urheber vorstellen, Alex und Daniel,
+
+00:14:16.260 --> 00:14:18.260
+die dieses Video gedreht haben.
+
+00:14:18.260 --> 00:14:25.260
+(Applaus)
+
+00:14:25.260 --> 00:14:27.260
+Aber bevor ich das Video abspiele,
+
+00:14:27.260 --> 00:14:30.260
+möche ich Ihnen sagen, dass sie es in den letzten drei Tagen gedreht haben,
+
+00:14:30.260 --> 00:14:32.260
+nachdem Chris sie angerufen hatte.
+
+00:14:32.260 --> 00:14:34.260
+Und die Roboter, die im Video spielen,
+
+00:14:34.260 --> 00:14:36.260
+sind völlig autonom.
+
+00:14:36.260 --> 00:14:39.260
+Sie werden neun Roboter sehen, die sechs verschiedene Instrumente spielen.
+
+00:14:39.260 --> 00:14:43.260
+Und natürlich wurde es exklusiv für TED 2012 gemacht.
+
+00:14:43.260 --> 00:14:46.260
+Schauen wir es uns an.
+
+00:15:19.260 --> 00:15:29.260
+(Musik)
+
+00:16:23.260 --> 00:16:40.260
+(Applaus)
+

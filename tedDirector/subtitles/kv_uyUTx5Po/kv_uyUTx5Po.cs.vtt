@@ -1,0 +1,620 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Zuzana Vobecka
+Korektor: Vladimír Harašta
+
+00:00:12.562 --> 00:00:15.623
+Eric Berlow: Já jsem ekolog a Sean je fyzik,
+
+00:00:15.623 --> 00:00:17.731
+a oba zkoumáme komplexní sítě.
+
+00:00:17.731 --> 00:00:19.566
+Potkali jsme se před pár lety, kdy jsme zjistili,
+
+00:00:19.566 --> 00:00:21.566
+že jsme už oba měli krátkou přednášku na TEDu
+
+00:00:21.566 --> 00:00:23.869
+na téma ekologie války
+
+00:00:23.869 --> 00:00:25.316
+a uvědomili jsme si, že jsme byli spjati
+
+00:00:25.316 --> 00:00:28.134
+společnými myšlenkami dávno před tím, než jsme se potkali.
+
+00:00:28.134 --> 00:00:29.690
+Víte, přemýšleli jsme pak nad tím, že existují tisíce
+
+00:00:29.690 --> 00:00:31.804
+dalších přednášek, hlavně na TEDx Talks,
+
+00:00:31.804 --> 00:00:34.015
+které se objevují po celém světě.
+
+00:00:34.015 --> 00:00:34.938
+Jak jsou propojeny
+
+00:00:34.938 --> 00:00:36.948
+a jak taková celosvětová konverzace vypadá?
+
+00:00:36.948 --> 00:00:39.758
+Sean vám teď řekne něco málo o tom, jak jsme to udělali.
+
+00:00:39.758 --> 00:00:43.525
+Sean Gourley: Přesně. Vzali jsme 24 000 TEDx přednášek
+
+00:00:43.525 --> 00:00:46.571
+z celého světa, ze 147 různých zemí,
+
+00:00:46.571 --> 00:00:48.694
+vzali jsme je a chtěli jsme najít
+
+00:00:48.694 --> 00:00:50.734
+matematickou konstrukci, která tvoří základ
+
+00:00:50.734 --> 00:00:52.456
+myšlenek na jejich pozadí.
+
+00:00:52.456 --> 00:00:53.826
+Chtěli jsme to udělat, abychom mohli usoudit,
+
+00:00:53.826 --> 00:00:55.879
+jak jsou mezi sebou propojené.
+
+00:00:55.879 --> 00:00:57.555
+Pochopitelně, když se chystáte něco takového provést,
+
+00:00:57.555 --> 00:00:58.511
+potřebujete spoustu dat.
+
+00:00:58.511 --> 00:01:02.197
+Zdrojem těch dat, která máme, je úžasná věc nazývaná YouTube
+
+00:01:02.197 --> 00:01:03.965
+a my tam můžeme vstoupit a v podstatě odtud vytahat
+
+00:01:03.965 --> 00:01:06.232
+všechny volně dostupné informace,
+
+00:01:06.232 --> 00:01:08.581
+všechny ty komentáře, názory, kdo co sleduje,
+
+00:01:08.581 --> 00:01:11.360
+kde to sleduje, k čemu se lidé zrovna vyjadřují.
+
+00:01:11.360 --> 00:01:14.652
+Za pomoci strojového překladu řeči do textu jsme také schopni
+
+00:01:14.652 --> 00:01:16.780
+získat kompletní přepis přednášky
+
+00:01:16.780 --> 00:01:19.460
+a funguje to i u lidí s komickým přízvukem jako mám já.
+
+00:01:19.460 --> 00:01:21.566
+Můžeme vzít přepis přednášky
+
+00:01:21.566 --> 00:01:23.664
+a vlastně s ním udělat dost senzační věci.
+
+00:01:23.664 --> 00:01:25.824
+Pomocí algoritmů na rozpoznávání lidské řeči ho můžeme
+
+00:01:25.824 --> 00:01:28.453
+nechat přečíst počítačem, řádek po řádku
+
+00:01:28.453 --> 00:01:30.812
+a získat z něho klíčové pojmy.
+
+00:01:30.812 --> 00:01:33.337
+Klíčové pojmy vezmeme a zformujeme z nich
+
+00:01:33.337 --> 00:01:36.902
+matematickou konstrukci myšlenky.
+
+00:01:36.902 --> 00:01:38.659
+Říkáme tomu meme-ome.
+
+00:01:38.659 --> 00:01:40.810
+A meme-ome, víte, je prostě
+
+00:01:40.810 --> 00:01:43.236
+matematika, která tvoří základ myšlenky.
+
+00:01:43.236 --> 00:01:45.168
+S ní pak můžeme provádět docela zajímavé analýzy
+
+00:01:45.168 --> 00:01:47.149
+a o ty bych se s vámi teď chtěl podělit.
+
+00:01:47.149 --> 00:01:49.339
+Každá myšlenka má tedy svůj meme-ome,
+
+00:01:49.339 --> 00:01:51.290
+a ten určuje její jedinečnost,
+
+00:01:51.290 --> 00:01:53.778
+ale samozřejmě, nápady si vzájemně půjčujeme,
+
+00:01:53.778 --> 00:01:54.962
+někdy se svým způsobem kradou,
+
+00:01:54.962 --> 00:01:56.789
+a ovšem i staví jeden na druhém.
+
+00:01:56.789 --> 00:01:58.405
+Můžeme se nimi matematicky probírat,
+
+00:01:58.405 --> 00:02:00.245
+vzít meme-one z jedné přednášky
+
+00:02:00.245 --> 00:02:02.699
+porovnat ho s meme-ome kterékoliv jiné přednášky
+
+00:02:02.699 --> 00:02:04.672
+a pokud je mezi nimi nějaká podobnost,
+
+00:02:04.672 --> 00:02:07.922
+můžeme je propojit a spojení vyjádřit grafem,
+
+00:02:07.922 --> 00:02:10.316
+zrovna tak jako jsme propojeni já a Eric.
+
+00:02:10.316 --> 00:02:11.710
+Tak to je teorie, to je skvělé.
+
+00:02:11.710 --> 00:02:14.236
+Podívejme se, jak to funguje v běžné praxi.
+
+00:02:14.236 --> 00:02:17.024
+Tady jsme zachytili celkovou podobu
+
+00:02:17.024 --> 00:02:19.317
+všech TEDx Talks za poslední 4 roky,
+
+00:02:19.317 --> 00:02:20.867
+jak explodují po celém světě
+
+00:02:20.867 --> 00:02:24.196
+cestou od New Yorku až po trochu starý Nový Zéland v rohu.
+
+00:02:24.196 --> 00:02:28.031
+A pak jsme analyzovali nejaktivnějších 25 procent,
+
+00:02:28.031 --> 00:02:30.565
+a začali jsme sledovat, ve kterém místě propojení vznikají
+
+00:02:30.565 --> 00:02:32.102
+a kde se na sebe napojují.
+
+00:02:32.102 --> 00:02:33.976
+Cameron Russell, hovořící o obrazu a kráse,
+
+00:02:33.976 --> 00:02:35.551
+se propojil do Evropy.
+
+00:02:35.551 --> 00:02:37.963
+Máme velké téma o Izraeli a Palestině
+
+00:02:37.963 --> 00:02:40.218
+paprskovitě vycházející ze Středního východu.
+
+00:02:40.218 --> 00:02:41.516
+A máme i něco trochu širšího,
+
+00:02:41.516 --> 00:02:43.672
+něco jako velká data se skutečně globálním vlivem,
+
+00:02:43.672 --> 00:02:45.851
+upomínající na téma,
+
+00:02:45.851 --> 00:02:47.867
+které se probíralo všude.
+
+00:02:47.867 --> 00:02:50.040
+Tady jakýmsi způsobem narážíme na hranice toho,
+
+00:02:50.040 --> 00:02:52.570
+co lze vlastně zeměpisnou projekcí vyjádřit.
+
+00:02:52.570 --> 00:02:54.622
+Naštěstí nám ale počítačová technologie umožňuje přejít
+
+00:02:54.622 --> 00:02:56.168
+do vícerozměrného prostoru.
+
+00:02:56.168 --> 00:02:58.043
+A tak můžeme vzít naší síťovou projekci
+
+00:02:58.043 --> 00:02:59.793
+a aplikovat na ni fyzikální model.
+
+00:02:59.793 --> 00:03:01.678
+Přednášky s podobnými tématy se zbortí k sobě,
+
+00:03:01.678 --> 00:03:03.682
+ty s odlišnými se oddálí
+
+00:03:03.682 --> 00:03:05.754
+a to co z toho zůstane, je něco velmi krásného.
+
+00:03:05.754 --> 00:03:08.711
+EB: Jen bych tu chtěl zdůraznit, že každý z uzlů je přednáška,
+
+00:03:08.711 --> 00:03:11.300
+které jsou propojené, pokud sdílí společnou myšlenku.
+
+00:03:11.300 --> 00:03:13.384
+Text je získaný strojovým čtením
+
+00:03:13.384 --> 00:03:15.451
+všech přepisů přednášek
+
+00:03:15.451 --> 00:03:17.682
+a potom se všechna témata, která vyplují na povrch,
+
+00:03:17.682 --> 00:03:19.472
+nesestávají jen ze štítků a klíčových slov.
+
+00:03:19.472 --> 00:03:21.197
+Pocházejí z propojených myšlenek
+
+00:03:21.197 --> 00:03:23.365
+celé struktury sítě. Pokračuj.
+
+00:03:23.365 --> 00:03:25.387
+SG: Přesně tak, Já jsem to trochu urychlil,
+
+00:03:25.387 --> 00:03:26.862
+ale on mě zpomalí.
+
+00:03:26.862 --> 00:03:28.896
+Máme tady vzdělání spojené s řečnictvím
+
+00:03:28.896 --> 00:03:30.539
+v trojúhelníku se sociálními médii.
+
+00:03:30.539 --> 00:03:33.014
+Samozřejmě, lidský mozek je hned vedle zdravotní péče,
+
+00:03:33.014 --> 00:03:34.400
+což se snad dá očekávat,
+
+00:03:34.400 --> 00:03:36.795
+ale poblíž jsou také video hry,
+
+00:03:36.795 --> 00:03:39.535
+protože tyto obory spolu mají styčné body.
+
+00:03:39.535 --> 00:03:41.070
+Ale já bych vám chtěl ukázat jedno seskupení,
+
+00:03:41.070 --> 00:03:43.938
+které je pro mě obzvlášť důležité, a to se týká životního prostředí.
+
+00:03:43.938 --> 00:03:45.431
+Rád bych si ho trochu zvětšil
+
+00:03:45.431 --> 00:03:47.794
+a podíval se na něho pod drobnohledem.
+
+00:03:47.794 --> 00:03:50.141
+Jak se přibližujeme, vidíme,
+
+00:03:50.141 --> 00:03:51.645
+opět po aplikaci fyzikálního modelu,
+
+00:03:51.645 --> 00:03:53.321
+že jedna konverzace
+
+00:03:53.321 --> 00:03:55.881
+se vlastně skládá z mnoha menších.
+
+00:03:55.881 --> 00:03:57.810
+Začne se vynořovat struktura,
+
+00:03:57.810 --> 00:03:59.880
+kde vidíme jakési fraktálové křivky
+
+00:03:59.880 --> 00:04:01.499
+ze slov a jazyka, který používáme
+
+00:04:01.499 --> 00:04:03.201
+k popisu věcí, které jsou pro nás důležité
+
+00:04:03.201 --> 00:04:04.634
+na celém světě.
+
+00:04:04.634 --> 00:04:06.966
+Hospodaření s potravinami a místní kuchyně jsou na vrcholu,
+
+00:04:06.966 --> 00:04:09.685
+skleníkové plyny, odpad z výroby solárních panelů a jaderných elektráren.
+
+00:04:09.685 --> 00:04:12.316
+Dostáváme řadu menších konverzací,
+
+00:04:12.316 --> 00:04:14.617
+které jsou propojené společnou myšlenkou
+
+00:04:14.617 --> 00:04:15.918
+a společným jazykem
+
+00:04:15.918 --> 00:04:18.368
+a vyvářejí tak širší pojetí životního prostředí.
+
+00:04:18.368 --> 00:04:19.900
+A samozřejmě, odtud můžeme pokračovat,
+
+00:04:19.900 --> 00:04:23.434
+zaměřovat se a sledovat, no, třeba o co se teď zajímají mladí lidé?
+
+00:04:23.434 --> 00:04:25.779
+Zajímají se o technologie bezpečné výroby energií a jadernou fúzi.
+
+00:04:25.779 --> 00:04:27.453
+Je to jejich způsob souznění
+
+00:04:27.453 --> 00:04:29.859
+s tématem životního prostředí.
+
+00:04:29.859 --> 00:04:31.758
+Když je rozdělíme podle pohlaví,
+
+00:04:31.758 --> 00:04:33.745
+můžeme vidět, že ženy se hodně zajímají
+
+00:04:33.745 --> 00:04:37.390
+o hospodaření s potravinami, ale mimo to také o naději a optimizmus.
+
+00:04:37.390 --> 00:04:39.872
+Je spousta vzrušujících věcí, které se tady dají dělat,
+
+00:04:39.872 --> 00:04:41.634
+a tím nahrávám do další části Ericovi.
+
+00:04:41.634 --> 00:04:43.236
+EB: Ano, jen bych rád podotkl,
+
+00:04:43.236 --> 00:04:44.774
+že není možné pořídit takto ucelený obraz
+
+00:04:44.774 --> 00:04:48.134
+jen z jednoduchého hledání štítků na YouTube.
+
+00:04:48.134 --> 00:04:52.322
+Pojďme teď znova vyzoomovat ze životního prostředí na celou
+
+00:04:52.322 --> 00:04:54.856
+globální konverzaci a podívejme se na všechny přednášky dohromady.
+
+00:04:54.856 --> 00:04:57.783
+Často, když se probíráme takovým množstvím dat,
+
+00:04:57.783 --> 00:05:00.214
+uděláme pár kroků pro zjednodušení.
+
+00:05:00.214 --> 00:05:01.528
+Můžeme říct, no,
+
+00:05:01.528 --> 00:05:04.357
+jaké tam máme nejoblíbenější přednášky?
+
+00:05:04.357 --> 00:05:05.754
+A pár jich vypluje na povrch.
+
+00:05:05.754 --> 00:05:07.582
+Máme tu přednášku o vděčnosti.
+
+00:05:07.582 --> 00:05:10.926
+Jinou o osobní hygieně a výživě.
+
+00:05:10.926 --> 00:05:13.855
+A samozřejmě, musí tu být také nějaká o pornu, že?
+
+00:05:13.855 --> 00:05:17.089
+A pak můžeme říct, no, vděčnost vládla minulý rok.
+
+00:05:17.089 --> 00:05:19.611
+Co je v módě dnes? Která přednáška je oblíbená teď?
+
+00:05:19.611 --> 00:05:22.932
+Vidíme, že nové, rostoucí, módní téma,
+
+00:05:22.932 --> 00:05:25.598
+je digitální soukromí.
+
+00:05:25.598 --> 00:05:27.291
+Je to skvělé. Ulehčuje nám to práci.
+
+00:05:27.291 --> 00:05:29.118
+Ale je tu také sposta tvůrčího obsahu,
+
+00:05:29.118 --> 00:05:31.039
+který je ukrytý u dna.
+
+00:05:31.039 --> 00:05:34.357
+A to nesnáším. Jak vybublají na povrch věci,
+
+00:05:34.357 --> 00:05:36.815
+které mohou být opravdu tvůrčí a zajímavé?
+
+00:05:36.815 --> 00:05:39.746
+No, můžeme se vrátit zpátky k síťové struktuře myšlenek,
+
+00:05:39.746 --> 00:05:41.176
+abychom je našli.
+
+00:05:41.176 --> 00:05:43.290
+Vzpomeňte si, že právě ona síťová struktura
+
+00:05:43.290 --> 00:05:45.558
+vytváří tato nenadálá témata
+
+00:05:45.558 --> 00:05:47.073
+a řekněme, že vezmeme dvě z nich,
+
+00:05:47.073 --> 00:05:50.120
+třeba města a genetiku, a zkusíme se podívat, jestli existují přednášky,
+
+00:05:50.120 --> 00:05:52.689
+které tvůrčím způsobem přemosťují tyto dva obory.
+
+00:05:52.689 --> 00:05:54.964
+A toto - v podstatě takový druh tvůrčího remixu,
+
+00:05:54.964 --> 00:05:56.804
+je jeden z charakteristických znaků inovace.
+
+00:05:56.804 --> 00:05:58.410
+Tady je jedna od Jessicy Greenové
+
+00:05:58.410 --> 00:06:00.789
+o mikrobiální ekologii budov.
+
+00:06:00.789 --> 00:06:02.799
+Doslova definuje nový obor.
+
+00:06:02.799 --> 00:06:04.902
+A tak bychom se mohli vracet k tématům a ptát se,
+
+00:06:04.902 --> 00:06:07.670
+které z přednášek hrají v konverzacích ústřední roli?
+
+00:06:07.670 --> 00:06:09.360
+Ve skupině o městech byla jedna z nejdůležitějších
+
+00:06:09.360 --> 00:06:13.312
+ta od Mitche Joachima o ekologických městech
+
+00:06:13.312 --> 00:06:15.032
+a ve skupině o genetice
+
+00:06:15.032 --> 00:06:18.225
+máme přednášku o syntetické biologii od Craiga Ventera.
+
+00:06:18.225 --> 00:06:21.578
+Toto jsou přednášky, které v rámci oboru odkazují na mnoho dalších.
+
+00:06:21.578 --> 00:06:23.421
+Mohli bychom se vydat jiným směrem a ptát se,
+
+00:06:23.421 --> 00:06:25.693
+které z těch přednášek úplně uměle vytvářejí
+
+00:06:25.693 --> 00:06:27.141
+mnohá různorodá odvětví?
+
+00:06:27.141 --> 00:06:29.674
+K nalezení odpovědi jsme použili míru ekologické různorodosti.
+
+00:06:29.674 --> 00:06:32.410
+Třeba přednáška Stevena Pinkera o historii násilí
+
+00:06:32.410 --> 00:06:33.590
+odvětví hodně slučuje.
+
+00:06:33.590 --> 00:06:35.668
+A pak jsou samozřejmě přednášky, které jsou tak unikátní,
+
+00:06:35.668 --> 00:06:38.758
+jakoby někde ve stratosféře, ve svém vlastním zvláštním světě,
+
+00:06:38.758 --> 00:06:41.272
+které jsme pojmenovali index Colleen Flanaganové.
+
+00:06:41.272 --> 00:06:44.306
+A pokud Colleen neznáte, je to umělkyně,
+
+00:06:44.306 --> 00:06:45.849
+které jsem se zeptal: "Jaké je to tam
+
+00:06:45.849 --> 00:06:47.521
+ve stratosféře našeho vesmíru nápadů?"
+
+00:06:47.521 --> 00:06:50.776
+Údajně to voní jako slanina.
+
+00:06:50.776 --> 00:06:52.567
+To jsem netušil.
+
+00:06:52.567 --> 00:06:54.815
+Takže my používáme tyto síťové motivy
+
+00:06:54.815 --> 00:06:56.001
+k nalezení přednášek, které jsou jedinečné,
+
+00:06:56.001 --> 00:06:58.711
+těch, které tvůrčím způsobem uměle vytváří mnoho různorodých odvětví,
+
+00:06:58.711 --> 00:07:00.370
+těch, které jsou nejdůležitější k danému tématu
+
+00:07:00.370 --> 00:07:03.744
+a těch, které opravdu tvůrčím způsobem překlenují různá odvětví.
+
+00:07:03.744 --> 00:07:05.846
+Dobrá? Nikdy bychom je nenašli bez posedlosti vědět,
+
+00:07:05.846 --> 00:07:08.159
+jaké jsou dnes trendy.
+
+00:07:08.159 --> 00:07:11.045
+A to vše pochází ze skladby složitosti
+
+00:07:11.045 --> 00:07:14.005
+nebo z obrazců, které tvoří propojené věci.
+
+00:07:14.005 --> 00:07:15.630
+SG: Je to přesně tak.
+
+00:07:15.630 --> 00:07:18.109
+Dostali jsme se do světa,
+
+00:07:18.109 --> 00:07:20.153
+který je hrozně složitý
+
+00:07:20.153 --> 00:07:23.020
+a my jsme použili algoritmy pro jakýsi druh odfiltrovávání,
+
+00:07:23.020 --> 00:07:24.806
+abychom v něm mohli navigovat.
+
+00:07:24.806 --> 00:07:27.144
+A tyto algoritmy, i když vlastně užitečné,
+
+00:07:27.144 --> 00:07:30.620
+jsou zároveň velmi, velmi omezené a dá se na to jít lépe,
+
+00:07:30.620 --> 00:07:33.186
+protože si uvědomujeme, že jejich složitost není náhodná.
+
+00:07:33.186 --> 00:07:35.140
+Je to matematická konstrukce
+
+00:07:35.140 --> 00:07:36.943
+a my ji můžeme využít
+
+00:07:36.943 --> 00:07:39.157
+k prozkoumání světa nápadů
+
+00:07:39.157 --> 00:07:42.157
+a najít, co bylo i nebylo řečeno
+
+00:07:42.157 --> 00:07:43.564
+a být trochu lidštější
+
+00:07:43.564 --> 00:07:45.431
+a snad i chytřejší.
+
+00:07:45.431 --> 00:07:46.397
+Děkuji.
+
+00:07:46.397 --> 00:07:50.617
+(Potlesk)
+

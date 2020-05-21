@@ -1,0 +1,1513 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: pinar sadi
+Gözden geçirme: Sancak Gülgen
+
+00:00:12.350 --> 00:00:13.880
+Eskiden bilgisayarınıza
+
+00:00:13.880 --> 00:00:16.453
+yeni bir şeyler yaptırmak isteseniz
+
+00:00:16.453 --> 00:00:18.257
+programlamanız gerekirdi.
+
+00:00:18.257 --> 00:00:20.898
+Şimdi, programlama; burada hiç yapmayanlar
+
+00:00:20.898 --> 00:00:23.950
+için söylüyorum, her adımı, her detayı
+
+00:00:23.950 --> 00:00:27.317
+bilgisayarın yapmasını istediğin 
+her şeyi amacına
+
+00:00:27.317 --> 00:00:30.869
+ulaşman için tasarlaman gerekir.
+
+00:00:30.869 --> 00:00:33.595
+Nasıl yapacağını bilmediğin bir şeyi
+
+00:00:33.595 --> 00:00:36.648
+yapmak istiyorsan bu çok zorlu olacak.
+
+00:00:36.648 --> 00:00:40.131
+Arthur Samuel de bunu yaptı.
+
+00:00:40.131 --> 00:00:43.548
+1956'da bilgisayarının onu
+
+00:00:43.548 --> 00:00:46.548
+damada yenebilmesini istiyordu.
+
+00:00:46.548 --> 00:00:49.108
+Her detayıyla nasıl bir 
+program tasarlayarak
+
+00:00:49.108 --> 00:00:52.594
+damada senden daha iyi 
+olmasını sağlayabilirsin?
+
+00:00:52.594 --> 00:00:54.116
+Bu soruna bir çözüm buldu:
+
+00:00:54.116 --> 00:00:57.840
+Binlerce kez bilgisayarıyla dama oynayacak
+
+00:00:57.840 --> 00:01:00.364
+ve böylece bilgisayara damayı öğrenecekti.
+
+00:01:00.364 --> 00:01:03.544
+Bu işe yaradı ve 1962'de bilgisayar
+
+00:01:03.544 --> 00:01:07.561
+Connecticut eyaleti şampiyonunu yendi.
+
+00:01:07.561 --> 00:01:10.534
+Bu şekilde Arthur Samuel, 
+makine öğrenmenin
+
+00:01:10.534 --> 00:01:12.251
+fikir öncüsüydü ve ona borçluyum,
+
+00:01:12.251 --> 00:01:15.014
+çünkü bir makine öğrenimi uygulayıcısıyım.
+
+00:01:15.014 --> 00:01:16.479
+200 bini aşkın uygulayıcıyı
+
+00:01:16.479 --> 00:01:19.867
+biraraya getiren Kaggle'ın başkanıydım.
+
+00:01:19.867 --> 00:01:21.925
+Kaggle yarışmalar düzenleyip çözülememiş
+
+00:01:21.925 --> 00:01:25.633
+problemleri çözmeye çalışıyordu ve
+
+00:01:25.633 --> 00:01:29.470
+yüzlerce kez başarılı oldular.
+
+00:01:29.470 --> 00:01:31.940
+Bu açıdan bakıldığında, makine öğreniminin
+
+00:01:31.940 --> 00:01:35.890
+geçmişte, günümüzde ve gelecekte planlanan
+
+00:01:35.890 --> 00:01:38.252
+çalışmaları hakkında çok şey öğrendim.
+
+00:01:38.252 --> 00:01:39.726
+Ticari anlamda belki de
+
+00:01:39.726 --> 00:01:41.200
+makine öğreniminin
+
+00:01:41.200 --> 00:01:42.675
+ilk başarısı Google'dır.
+
+00:01:42.675 --> 00:01:45.494
+Google bilgisayar algoritması ile
+
+00:01:45.494 --> 00:01:47.536
+bilgilere erişmeyi mümkün kılar ve
+
+00:01:47.536 --> 00:01:50.437
+bu algoritma makine öğrenimini temel alır.
+
+00:01:50.437 --> 00:01:54.317
+Bugüne kadar birçok ticari 
+olarak başarılı uygulaması oldu.
+
+00:01:54.317 --> 00:01:56.773
+Amazon, Netflix gibi bir çok
+
+00:01:56.773 --> 00:01:58.570
+başarılı şirket makine öğrenimini
+
+00:01:58.570 --> 00:01:59.876
+ürünlerini ve filmlerini
+
+00:01:59.876 --> 00:02:01.896
+satmak için kullanmışlardır.
+
+00:02:01.896 --> 00:02:03.703
+Bu bazen ürkütücü olabilir.
+
+00:02:03.703 --> 00:02:05.917
+LinkedIn ve Facebook gibi
+şirketler bazen size
+
+00:02:05.917 --> 00:02:08.251
+tanıyor olabileceğiniz kişileri 
+gösterir ve siz
+
+00:02:08.251 --> 00:02:10.228
+bunu nasıl yaptığını bilemezsiniz; işte
+
+00:02:10.228 --> 00:02:13.195
+bu makine öğreniminin eseridir.
+
+00:02:13.195 --> 00:02:16.152
+Bu sistem, programlanmak yerine datadan
+
+00:02:16.152 --> 00:02:19.399
+öğrenen algoritmalardan oluşur.
+
+00:02:19.399 --> 00:02:21.877
+Bu IBM'in Watson ile Jeopardy yarışmasında
+
+00:02:21.877 --> 00:02:25.739
+oldukça zor ve karışık soruları doğru
+
+00:02:25.739 --> 00:02:28.964
+cevaplayarak nasıl iki dünya şampiyonunu
+
+00:02:28.964 --> 00:02:31.799
+yenmeyi başardığını açıklar.
+
+00:02:31.799 --> 00:02:35.034
+İnsansız arabalar da 
+bu sistem ile çalışır.
+
+00:02:35.034 --> 00:02:37.856
+Yaya ile ağaç arasındaki farkı söylemek
+
+00:02:37.856 --> 00:02:40.488
+isterseniz buyrun, söyleyin bu çok önemli.
+
+00:02:40.488 --> 00:02:43.075
+Bu programların elle nasıl yazıldığını
+
+00:02:43.075 --> 00:02:46.072
+bilmiyoruz ama makine öğrenimi ile mümkün.
+
+00:02:46.072 --> 00:02:48.110
+Ve bu arabalar bir düz yolda
+
+00:02:48.110 --> 00:02:51.178
+kaza yapmadan 1 milyon mili aştı.
+
+00:02:52.798 --> 00:02:54.326
+Böylece bilgisayarların, 
+öğrenebildiğini
+
+00:02:54.326 --> 00:02:56.110
+ve bazen bizim yapmayı bilmediğimiz
+
+00:02:56.110 --> 00:02:58.010
+şeyleri yapmayı öğrenebildiklerini
+
+00:02:58.010 --> 00:03:00.848
+veya bizden bunları bizden daha
+
+00:03:00.848 --> 00:03:03.733
+iyi yapabileceklerini görüyoruz.
+
+00:03:03.733 --> 00:03:06.478
+Makine öğreniminin en iyi örneklerini
+
+00:03:06.478 --> 00:03:09.650
+Kaggle'da yürüttüğümüz bir projede gördüm:
+
+00:03:09.940 --> 00:03:13.911
+Toronto Üniversitesi'nden Geoffrey Hinton
+
+00:03:13.911 --> 00:03:15.840
+ve ekibi otomatik uyuşturucu tespiti
+
+00:03:15.840 --> 00:03:18.130
+alanında yarışmayı kazandı.
+
+00:03:18.140 --> 00:03:19.140
+Burada ilginç olansa;
+
+00:03:19.140 --> 00:03:22.277
+Merck veya uluslararası akademik çevrenin
+
+00:03:22.277 --> 00:03:24.540
+geliştirdiği bütün algoritmaları kimya
+
+00:03:24.540 --> 00:03:27.061
+ve biyoloji gibi alanlarda geçmişi
+
+00:03:27.061 --> 00:03:30.061
+olmayan kişilerin algoritmayı 
+çözmeleri değil bunu
+
+00:03:30.061 --> 00:03:32.230
+2 haftada yapmış olmaları.
+
+00:03:32.230 --> 00:03:33.611
+Peki bunu nasıl başardılar?
+
+00:03:34.421 --> 00:03:37.342
+Derin Öğrenme denilen olağanüstü
+bir algoritma kullandılar.
+
+00:03:37.342 --> 00:03:40.291
+Bu o kadar önemli bir başarıydı ki birkaç
+
+00:03:40.291 --> 00:03:43.412
+hafta sonra New York Times'ın 
+kapağında yer aldı.
+
+00:03:43.412 --> 00:03:46.147
+Sol kenarda Geoffrey Hinton vardı.
+
+00:03:46.147 --> 00:03:49.558
+Derin Öğrenme, insan beyninin 
+çalışmasından
+
+00:03:49.558 --> 00:03:51.960
+ilham alınarak
+oluşturulmuş bir algoritmadır
+
+00:03:51.960 --> 00:03:55.971
+ve kapasitesi konusunda
+teorik kısıtlamalar içermez.
+
+00:03:55.971 --> 00:03:58.474
+Ona ne kadar çok veri ve zaman verirseniz
+
+00:03:58.474 --> 00:04:00.276
+o kadar iyi sonuçlar 
+elde edersiniz.
+
+00:04:00.276 --> 00:04:02.615
+New York Times'ın haberinde derin öğrenme
+
+00:04:02.615 --> 00:04:03.615
+ile elde edilen
+
+00:04:03.615 --> 00:04:04.857
+bir sonuç daha vardı;
+
+00:04:04.857 --> 00:04:06.147
+onu da şimdi göstereceğim:
+
+00:04:06.977 --> 00:04:08.189
+Sonuca göre:
+
+00:04:08.189 --> 00:04:10.500
+Bilgisayarlar dinleyebilir
+
+00:04:10.500 --> 00:04:12.510
+ve anlayabilir.
+
+00:04:12.820 --> 00:04:15.400
+Richard Rashid:"Bu yöntemde
+
+00:04:15.400 --> 00:04:17.047
+son aşamada gelebilmek
+
+00:04:17.047 --> 00:04:18.913
+istediğim nokta
+
+00:04:18.913 --> 00:04:21.913
+sizinle Çince konuşmak.
+
+00:04:22.961 --> 00:04:24.306
+Olay şu ki;
+
+00:04:24.306 --> 00:04:27.058
+bir çok Çinliden çok miktarda
+
+00:04:27.058 --> 00:04:30.378
+bilgi alma imkanımız oldu
+
+00:04:30.378 --> 00:04:33.408
+ve Çince bir metni alan ve
+
+00:04:33.408 --> 00:04:36.908
+Çin diline çeviren yani yazıyı
+
+00:04:36.908 --> 00:04:39.881
+konuşmaya dönüştüren
+bir sistem oluşturduk.
+
+00:04:39.881 --> 00:04:43.509
+Sonra konuşmamın bir saatlik kısmını aldık
+
+00:04:43.509 --> 00:04:45.720
+ve standart metni konuşma sistemine
+
+00:04:45.720 --> 00:04:47.070
+modüle ettik sonuç olarak
+
+00:04:47.070 --> 00:04:49.314
+benim konuşmam gibi olmalıydı.
+
+00:04:49.314 --> 00:04:50.904
+Sonuç mükemmel olmadı elbette.
+
+00:04:50.904 --> 00:04:53.552
+Hatta bir çok hata vardı.
+
+00:04:53.552 --> 00:04:56.036
+(Çince)
+
+00:04:56.036 --> 00:05:00.153
+(Alkışlar)
+
+00:05:01.446 --> 00:05:05.022
+Bu alanda daha çok çalışılması gerekiyor.
+
+00:05:05.022 --> 00:05:08.667
+(Çince)
+
+00:05:08.667 --> 00:05:12.100
+(Alkışlar)
+
+00:05:13.345 --> 00:05:16.744
+Bu, Çinde makine öğrenimi konferansıydı.
+
+00:05:16.744 --> 00:05:19.114
+Genelde akademik konferanslarda
+
+00:05:19.114 --> 00:05:21.011
+spontane alkışlamalar olmaz ancak
+
+00:05:21.011 --> 00:05:24.407
+TEDx konferanslarında rastlanabilir.
+
+00:05:24.407 --> 00:05:25.892
+Burada gördüğünüz her şey
+
+00:05:25.892 --> 00:05:27.862
+derin öğrenme ile gerçekleşiyor.
+
+00:05:27.862 --> 00:05:29.007
+(Alkışlar) 
+Teşekkürler.
+
+00:05:29.007 --> 00:05:31.289
+İngilizce uyarlama derin
+öğrenme ile yapıldı.
+
+00:05:31.289 --> 00:05:34.701
+Çince çeviri ve sağ üstteki 
+metin derin öğrenmeyle,
+
+00:05:34.701 --> 00:05:38.008
+ve yine sesin entegre edilmesi 
+de derin öğrenme ile yapıldı.
+
+00:05:38.008 --> 00:05:40.972
+Derin öğrenme alışılmışın dışında bir şey.
+
+00:05:40.972 --> 00:05:42.242
+Tek bir algoritma
+neredeyse
+
+00:05:42.242 --> 00:05:44.341
+her şeyi yapabilecek gibi duruyor
+
+00:05:44.341 --> 00:05:47.242
+ve geçen sene öğrendim ki 
+görmeyi de öğrenmiş.
+
+00:05:47.242 --> 00:05:49.628
+Almanya'da Alman Trafik
+İşaretleri Karşılaştırması
+
+00:05:49.628 --> 00:05:52.225
+olarak adlandırılan yarışmada
+
+00:05:52.225 --> 00:05:55.618
+derin öğrenme bu gibi
+işaretleri algılamayı öğrendi.
+
+00:05:55.618 --> 00:05:57.712
+Diğer algoritmalardan daha iyi algılamakla
+
+00:05:57.712 --> 00:06:00.170
+kalmayıp, yarışmanın 
+sıralamasına bakıldığında
+
+00:06:00.170 --> 00:06:02.189
+insanlardan da daha iyi tanıdı;
+
+00:06:02.189 --> 00:06:04.041
+hatta iki katı daha fazla.
+
+00:06:04.041 --> 00:06:06.037
+2011 yılında, bilgisayarların insanlardan
+
+00:06:06.037 --> 00:06:09.442
+daha iyi görebildiğini anladık.
+
+00:06:09.442 --> 00:06:11.491
+O zamandan beri sayısız çalışma yapıldı.
+
+00:06:11.491 --> 00:06:14.505
+2012'de Google; Youtube 
+videolarını izleyen
+
+00:06:14.505 --> 00:06:17.270
+ve aylık 16.000 bilgisayardaki
+veriyi sıkıştırabilen
+
+00:06:17.270 --> 00:06:20.187
+derin öğrenme algoritmaları
+olduğunu açıkladı.
+
+00:06:20.187 --> 00:06:23.028
+Ayrıca bilgisayarlar
+ayrı ayrı insan ve kedi
+
+00:06:23.028 --> 00:06:26.027
+gibi konseptleri izleyerek öğrendi.
+
+00:06:26.027 --> 00:06:28.379
+Bu insanların öğrenmesine benziyor.
+
+00:06:28.379 --> 00:06:31.119
+İnsanlar gördüklerinin
+anlatılmasıyla değil
+
+00:06:31.119 --> 00:06:34.300
+kendileri başlarına öğrenirler.
+
+00:06:34.460 --> 00:06:37.949
+Yine 2012'de az önce 
+gördüğümüz Geoffrey Hinton
+
+00:06:37.949 --> 00:06:42.397
+1.5 milyon fotoğrafa 
+bakarak neyin fotoğrafları
+
+00:06:42.397 --> 00:06:44.368
+olduğunu çözmeye çalışarak
+
+00:06:44.368 --> 00:06:47.126
+popüler olan ImageNet yarışmasını kazandı.
+
+00:06:47.126 --> 00:06:49.259
+2014 yılında görüntü tanımada
+
+00:06:49.259 --> 00:06:50.789
+%6 lık hata payına düştük.
+
+00:06:50.789 --> 00:06:53.268
+Bu da insanlardan daha iyi.
+
+00:06:53.268 --> 00:06:56.436
+Makinalar gerçekten bu alanda
+harika işler yapıyor
+
+00:06:56.436 --> 00:06:59.206
+ve artık endüstride de kullanılıyor.
+
+00:06:59.206 --> 00:07:01.824
+Mesela Google, geçen yıl Fransa'daki
+
+00:07:01.824 --> 00:07:04.390
+her bir konumu 2 saatte haritada
+
+00:07:04.390 --> 00:07:06.100
+işaretlediğini duyurdu ve
+
+00:07:06.100 --> 00:07:09.089
+cadde numaralarını okumak ve tanımlamak
+
+00:07:09.089 --> 00:07:10.979
+için cadde görüntülerini
+
+00:07:10.979 --> 00:07:14.039
+bir derin öğrenme
+algoritmasında kullandılar.
+
+00:07:14.039 --> 00:07:16.849
+Bunun önceleri ne kadar sürdüğünü düşünün:
+
+00:07:16.849 --> 00:07:19.029
+binlerce insan, bir çok yıl.
+
+00:07:20.759 --> 00:07:22.144
+Bu Çin'de de oldu.
+
+00:07:22.144 --> 00:07:26.426
+Baidu bir çeşit Çin'in Google'ı, sanırım,
+
+00:07:26.426 --> 00:07:28.708
+sol üst köşede gördüğünüz Baidu'nun
+
+00:07:28.708 --> 00:07:30.322
+derin öğrenme sistemine
+
+00:07:30.322 --> 00:07:32.794
+yüklediğim görüntünün örneği
+
+00:07:32.794 --> 00:07:35.548
+ve arkaplanda ise sistemin görüntüyü
+
+00:07:35.548 --> 00:07:38.637
+tanımlayıp benzerlerini
+bulduğunu görebilirsiniz.
+
+00:07:38.637 --> 00:07:41.213
+Benzer resimler gerçekten de
+benzer arka planlara,
+
+00:07:41.213 --> 00:07:43.059
+benzer yüz açılarına sahip
+
+00:07:43.059 --> 00:07:44.777
+hatta bazılarında dilleri dışarıda.
+
+00:07:44.777 --> 00:07:47.985
+Tam olarak web sayfasının 
+metnine bakmak gibi değil.
+
+00:07:47.985 --> 00:07:50.235
+Tek yaptığım resim yüklemekti.
+
+00:07:50.235 --> 00:07:52.027
+O halde gördüklerini anlayabilen ve
+
+00:07:52.027 --> 00:07:54.368
+bu sayede gerçek zamanlı olarak yüz
+
+00:07:54.368 --> 00:07:56.432
+milyonlarca görüntüyü veritabanlarında
+
+00:07:56.432 --> 00:07:58.306
+arayabilen bilgisayarlar var.
+
+00:07:58.306 --> 00:08:01.436
+Peki bilgisayarların görmesi 
+ne anlama geliyor?
+
+00:08:01.436 --> 00:08:03.453
+Sadece görebilmesini sağlamak değil
+
+00:08:03.453 --> 00:08:05.852
+aslında derin öğrenme
+bundan daha fazlasını yaptı.
+
+00:08:05.852 --> 00:08:08.570
+Bu gibi karmaşık ve incelikli cümleler
+
+00:08:08.570 --> 00:08:11.394
+artık derin öğrenme
+algoritmalarıyla anlaşılabilir.
+
+00:08:11.394 --> 00:08:12.697
+Gördüğünüz üzere;
+
+00:08:12.697 --> 00:08:15.465
+Stanford-tabanlı sistem, üstteki kırmızı
+
+00:08:15.465 --> 00:08:19.384
+noktanın negatif bir
+his ifade ettiğini anlıyor.
+
+00:08:19.384 --> 00:08:21.072
+Derin öğrenme hatta
+
+00:08:21.072 --> 00:08:23.283
+cümlelerin ne hakkında olduğunu
+
+00:08:23.283 --> 00:08:25.041
+ve anlamlarını anlamada insan
+
+00:08:25.041 --> 00:08:27.437
+performansına yaklaşmış durumda.
+
+00:08:27.777 --> 00:08:30.425
+Aynı zamanda derin öğrenme Çin
+
+00:08:30.425 --> 00:08:34.131
+anadil seviyesinde Çince
+okumada da kullanıldı.
+
+00:08:34.131 --> 00:08:36.652
+Bu algoritma Çince konuşamayan ve
+
+00:08:36.652 --> 00:08:39.701
+anlamayan insanlar
+tarafından İsviçre'de geliştirildi.
+
+00:08:39.701 --> 00:08:42.568
+Bahsettiğim gibi derin
+öğrenme kullanma bu işte
+
+00:08:42.568 --> 00:08:45.788
+dünyadaki en iyi sistem yerel insanların
+
+00:08:45.788 --> 00:08:48.718
+anlama performansına göre bile.
+
+00:08:48.718 --> 00:08:51.682
+Bu sistem şirketimde oluşturuldu
+
+00:08:51.682 --> 00:08:54.448
+ve bu tarz şeyleri bir arada
+toplamayı gösteriyor.
+
+00:08:54.448 --> 00:08:56.699
+Bu resimlere eklenmiş metin yok ve
+
+00:08:56.699 --> 00:08:59.031
+ben buraya cümle yazarken gerçek
+
+00:08:59.031 --> 00:09:01.510
+zamanlı olarak resimleri algılıyor,
+
+00:09:01.510 --> 00:09:03.789
+ne hakkında olduklarını çözüyor ve
+
+00:09:03.789 --> 00:09:06.352
+yazdığım metne benzer resimleri buluyor.
+
+00:09:06.352 --> 00:09:09.108
+Görüyorsunuz, bu aslında
+cümlelerimi anlama
+
+00:09:09.108 --> 00:09:11.332
+ve bu resimleri anlama.
+
+00:09:11.332 --> 00:09:13.891
+Benzerini Google'da
+gördüğünüzü düşünüyorum;
+
+00:09:13.891 --> 00:09:16.666
+bir şeyleri yazarken size
+resimler gösterir ama
+
+00:09:16.666 --> 00:09:20.090
+asıl yaptığı web sayfalarında
+yazdıklarınızı aramaktır.
+
+00:09:20.090 --> 00:09:23.091
+Bu aslında resimleri anlamaktan
+oldukça farklı.
+
+00:09:23.091 --> 00:09:25.843
+Bu son bir kaç ayda ilk kez
+
+00:09:25.843 --> 00:09:28.543
+bilgisayarların yapabildiği bir şey.
+
+00:09:29.091 --> 00:09:31.192
+O halde görüyoruz ki bilgisayarlar
+
+00:09:31.192 --> 00:09:33.182
+görebilmekle kalmıyor aynı zamanda
+
+00:09:33.182 --> 00:09:34.832
+okuyabiliyor ve zaten duyduklarını
+
+00:09:34.832 --> 00:09:36.947
+anlayabildiklerini de göstermiştik.
+
+00:09:36.947 --> 00:09:38.707
+Belki yazabildiklerini söylesem
+
+00:09:38.707 --> 00:09:40.537
+artık şaşırtıcı gelmez.
+
+00:09:40.537 --> 00:09:42.927
+İşte burada dün derin
+öğrenme algoritmasıyla
+
+00:09:42.927 --> 00:09:45.607
+oluşturduğum metin.
+
+00:09:45.607 --> 00:09:49.159
+Ve burada algoritma tarafından
+geliştirilen metinler var.
+
+00:09:49.159 --> 00:09:52.102
+Bu cümlelerin her biri
+resimleri tanımlamak
+
+00:09:52.102 --> 00:09:54.892
+için derin öğrenme
+algoritmasıyla geliştirildi .
+
+00:09:54.892 --> 00:09:57.202
+Algoritma daha önce siyah tişörtlü
+
+00:09:57.202 --> 00:09:59.356
+gitar çalan birini hiç görmemişti.
+
+00:09:59.356 --> 00:10:02.170
+Önceden adamı görmüştü, siyahi görmüştü,
+
+00:10:02.170 --> 00:10:04.709
+gitarı görmüştü ama bu resmin roman
+
+00:10:04.709 --> 00:10:07.111
+tasvirini ayrı olarak yaptı.
+
+00:10:08.231 --> 00:10:10.541
+Hala tam olarak insan performansında
+
+00:10:10.541 --> 00:10:11.701
+değiliz ama yakınız.
+
+00:10:11.701 --> 00:10:14.260
+Testlerde 1/4 oranında
+insanlar, bilgisayar
+
+00:10:14.260 --> 00:10:16.714
+tarafından oluşturulan yazıları seçiyor.
+
+00:10:16.714 --> 00:10:18.826
+Bu sistem şuan sadece 2 haftalık
+
+00:10:18.826 --> 00:10:20.855
+ama muhtemelen gelecek yıl içerisinde
+
+00:10:20.855 --> 00:10:22.651
+bu oranlarda devam ederse
+
+00:10:22.651 --> 00:10:24.321
+algoritma insan performansını
+
+00:10:24.321 --> 00:10:26.172
+hayli geçmiş olacak.
+
+00:10:26.172 --> 00:10:28.534
+Yani bilgisayarlar yazabiliyor da.
+
+00:10:28.534 --> 00:10:30.073
+Tüm bunları birleştirdik
+
+00:10:30.073 --> 00:10:32.088
+ve durum heyecan verici fırsatlar yarattı.
+
+00:10:32.088 --> 00:10:35.170
+Örneğin; sağlık alanında
+Boston'da bir takım,
+
+00:10:35.170 --> 00:10:37.675
+doktorların kanser teşhisine yardımcı
+
+00:10:37.675 --> 00:10:40.614
+düzinelerce kliniksel
+olarak ilişkili tümör
+
+00:10:40.614 --> 00:10:43.540
+özellikleri keşfettiklerini duyurdu.
+
+00:10:43.810 --> 00:10:45.906
+Benzer olarak Stanford' da
+
+00:10:45.906 --> 00:10:48.889
+büyüme altındaki dokulara bakan bir grup;
+
+00:10:48.889 --> 00:10:52.350
+kanser hastalarının sağkalım
+oranlarını ölçmede
+
+00:10:52.350 --> 00:10:54.772
+patoloji uzmanlarından daha iyi olan,
+
+00:10:54.772 --> 00:10:58.829
+makine öğrenmesine dayalı
+bir sistem geliştirdi.
+
+00:10:58.829 --> 00:11:01.224
+Bu iki durumda da tahminlerin daha
+
+00:11:01.224 --> 00:11:03.296
+hatasız olmasının yanı sıra kavrama
+
+00:11:03.296 --> 00:11:05.701
+açısından güçlü yeni
+bir bilim geliştirdiler.
+
+00:11:05.701 --> 00:11:07.876
+Radyoloji vakasındakiler insanların
+
+00:11:07.876 --> 00:11:10.258
+anlayabileceği yeni
+kliniksel indikatörlerdi.
+
+00:11:10.258 --> 00:11:12.318
+Patoloji vakasında ise bilgisayar,
+
+00:11:12.318 --> 00:11:15.888
+tanı yapılırken kanser
+etrafındaki hücrelerin kanser
+
+00:11:15.888 --> 00:11:21.260
+hücreleri kadar önemli olduğunu keşfetti.
+
+00:11:21.260 --> 00:11:23.851
+Bu patoloji uzmanlarına onlarca
+
+00:11:23.851 --> 00:11:26.413
+yıldır öğretilenlerin tam tersi.
+
+00:11:27.423 --> 00:11:29.754
+Bu iki vakada da tıp uzmanları ve
+
+00:11:29.754 --> 00:11:32.075
+makine öğrenmesi uzmanlarının
+
+00:11:32.075 --> 00:11:34.184
+birleşip geliştirdiği bir sistemdi
+
+00:11:34.184 --> 00:11:36.364
+ancak geçen yıl bunu da geçtik.
+
+00:11:36.364 --> 00:11:38.587
+Bu örnek mikroskop altındaki insan
+
+00:11:38.587 --> 00:11:42.412
+dokusunun kanserli bölgelerini
+tanımlamak üzerine.
+
+00:11:42.412 --> 00:11:45.314
+Burada gösterilen sistem bu alanları daha
+
+00:11:45.314 --> 00:11:47.860
+isabetli olarak belirleyebiliyor,
+
+00:11:47.860 --> 00:11:50.135
+ya da en az patoloji uzmanı kadar
+
+00:11:50.135 --> 00:11:52.583
+ama tümüyle derin öğrenme kullanılarak ve
+
+00:11:52.583 --> 00:11:54.830
+herhangi bir tıp geçmişi olmayan
+
+00:11:54.830 --> 00:11:56.651
+insanlar tarafından geliştirildi.
+
+00:11:56.651 --> 00:11:59.578
+Benzer olarak nöron segmentasyonu da.
+
+00:11:59.578 --> 00:12:01.298
+Şu an nöronları insanlar kadar
+
+00:12:01.298 --> 00:12:02.948
+isabetli segmentleyebiliyoruz
+
+00:12:02.948 --> 00:12:04.355
+ki bu sistem derin öğrenme
+
+00:12:04.355 --> 00:12:05.985
+kullanılarak hiç bir tıbbi geçmişi
+
+00:12:05.985 --> 00:12:07.901
+olmayan kişiler tarafından geliştirildi.
+
+00:12:09.381 --> 00:12:11.941
+Aynı şekilde ben de, hiç bir tıbbi geçmişim
+
+00:12:11.941 --> 00:12:14.070
+olmadığı halde medikal alanında
+
+00:12:14.070 --> 00:12:16.830
+yeni bir şirket açabilirim ki açtım da.
+
+00:12:17.660 --> 00:12:20.982
+Şirketi açma konusunda
+biraz korkmuştum ama
+
+00:12:20.982 --> 00:12:24.442
+teoride bu veri analiz 
+tekniklerini kullanarak
+
+00:12:24.442 --> 00:12:27.742
+yararlı ilaçlar yapmak mümkün görünüyordu.
+
+00:12:27.752 --> 00:12:29.942
+Neyse ki geri dönüşler harikaydı
+
+00:12:29.942 --> 00:12:32.292
+sadece medya değil tıp çevresinde de
+
+00:12:32.292 --> 00:12:34.862
+ki aynı zamanda çok da destekleyicilerdi.
+
+00:12:34.862 --> 00:12:37.718
+Teoride, medikal sürecin 
+orta bölümünü alıp
+
+00:12:37.718 --> 00:12:41.172
+mümkün olduğunca veri analizine çevirerek
+
+00:12:41.172 --> 00:12:44.171
+doktorları en iyi oldukları
+alana yoğunlaştırabiliriz.
+
+00:12:45.071 --> 00:12:46.874
+Bir örnek vermek istiyorum.
+
+00:12:46.874 --> 00:12:48.989
+Yeni bir tıbbi teşhis testini
+
+00:12:48.989 --> 00:12:52.139
+üretmek 15 dakikamızı alır
+
+00:12:52.139 --> 00:12:54.341
+ve gerçek zamanlı olarak da göstereceğim
+
+00:12:54.341 --> 00:12:56.105
+ama bazı parçalarını keserek
+
+00:12:56.105 --> 00:12:57.715
+süreci 3 dakikaya indirdim.
+
+00:12:57.715 --> 00:13:00.629
+Tıbbi teşhis testini oluşturmayı
+göstermek yerine
+
+00:13:00.629 --> 00:13:02.206
+daha anlaşılır olduğu için
+
+00:13:02.206 --> 00:13:05.867
+araba görüntülerini tanımlama
+testini göstereceğim.
+
+00:13:05.867 --> 00:13:09.146
+Yaklaşık 1.5 milyon araba
+resmiyle başlıyoruz ve
+
+00:13:09.146 --> 00:13:11.228
+çekildikleri açılara göre onları
+
+00:13:11.228 --> 00:13:14.519
+ayırabilecek bir şey yaratmak istiyorum.
+
+00:13:14.519 --> 00:13:16.705
+Bütün resimler etiketsiz bu yüzden
+
+00:13:16.705 --> 00:13:18.328
+sıfırdan başlamak zorundayım.
+
+00:13:19.028 --> 00:13:21.626
+Derin öğrenme algoritmamızla resimlerdeki
+
+00:13:21.626 --> 00:13:24.471
+yapıların alanlarını otomatik
+olarak algılayabilir.
+
+00:13:24.471 --> 00:13:26.198
+Güzel olan, şu andan itibaren
+
+00:13:26.198 --> 00:13:27.988
+insan ile bilgisayar 
+artık ortak çalışabilir.
+
+00:13:27.988 --> 00:13:30.616
+Gördüğünüz gibi insan burada bilgisayara;
+
+00:13:30.616 --> 00:13:32.811
+daha sonra deneyip, algoritmasını
+
+00:13:32.811 --> 00:13:34.881
+geliştirmede kullanması için
+
+00:13:34.881 --> 00:13:37.131
+ilgi alanlarını söylüyor.
+
+00:13:37.131 --> 00:13:39.121
+Bu derin öğrenme sistemleri
+
+00:13:39.121 --> 00:13:40.961
+aslında 16.000 boyutlu uzay
+
+00:13:40.961 --> 00:13:42.797
+ve gördüğünüz gibi
+bilgisayar burada
+
+00:13:42.797 --> 00:13:45.009
+uzay boyunca döndürüp yeni yapı
+
+00:13:45.009 --> 00:13:47.001
+alanları bulmaya çalışıyor.
+
+00:13:47.001 --> 00:13:50.052
+Başarıyla yapınca da daha sonra bunu süren
+
+00:13:50.052 --> 00:13:52.786
+kişi ilgi çekici olan alanları gösteriyor.
+
+00:13:52.786 --> 00:13:56.298
+Ve burada bilgisayar başarılı
+bir şekilde alanları buldu.
+
+00:13:56.298 --> 00:13:57.770
+Örneğin: Açılar.
+
+00:13:57.770 --> 00:13:59.776
+Bu süreç devam ederken,
+
+00:13:59.776 --> 00:14:02.106
+bilgisayara aradığımız yapı türlerini
+
+00:14:02.106 --> 00:14:03.844
+adım adım söylüyoruz.
+
+00:14:03.844 --> 00:14:06.116
+Teşhis testinde pataloji uzmanının
+
+00:14:06.116 --> 00:14:09.266
+patoz alanlarını tanımlaması
+gibi düşünebilirsin
+
+00:14:09.266 --> 00:14:11.302
+ya da örneğin radyolojistin sıkıntı
+
+00:14:11.302 --> 00:14:14.151
+yaratabilecek nodülleri göstermesi gibi.
+
+00:14:14.151 --> 00:14:17.075
+Bazen algoritma için sıkıntılı olabilir.
+
+00:14:17.075 --> 00:14:19.095
+Bu vaka da biraz kafası karışmış.
+
+00:14:19.095 --> 00:14:21.507
+Arabaların önleri ve 
+arkaları karmakarışık.
+
+00:14:21.507 --> 00:14:23.809
+Burada biraz daha dikkatli olmalıyız,
+
+00:14:23.809 --> 00:14:26.115
+arkalara karşılık önleri elle seçmekte ve
+
+00:14:26.115 --> 00:14:28.653
+daha sonra bunun ilgilendiğimiz tipte
+
+00:14:28.653 --> 00:14:32.310
+bir grup olduğunu söylemekte.
+
+00:14:33.570 --> 00:14:35.986
+Bunu biraz yapıyoruz, 
+biraz atlıyoruz bunu,
+
+00:14:35.986 --> 00:14:38.270
+sonra makine öğrenmesi algoritmasını
+
+00:14:38.270 --> 00:14:39.500
+bu yüzlerce kadar olan
+
+00:14:39.500 --> 00:14:41.295
+şeylere dayanarak eğitiyoruz
+
+00:14:41.295 --> 00:14:43.198
+ve daha iyi olmasını ümit ediyoruz.
+
+00:14:43.198 --> 00:14:46.096
+Bazı resimlerin solmaya
+başladığını görebilirsiniz
+
+00:14:46.096 --> 00:14:48.288
+ve bize bazılarını kendisinin önceden
+
+00:14:48.288 --> 00:14:50.712
+nasıl anlaması gerektiğini
+farkettiğini gösteriyor.
+
+00:14:50.712 --> 00:14:53.341
+Bu benzer resimler 
+konseptini kullanabiliriz
+
+00:14:53.341 --> 00:14:55.839
+ve benzer resimleri 
+kullanarak bilgisayarın
+
+00:14:55.839 --> 00:14:57.612
+bu noktada arabaların sadece
+
+00:14:57.612 --> 00:14:59.547
+önlerini bulabildiğini görebilirsiniz.
+
+00:14:59.547 --> 00:15:02.011
+Bu aşamada bilgisayar insana:
+
+00:15:02.011 --> 00:15:04.245
+"Tamam, peki, iyi iş çıkardın." diyebilir.
+
+00:15:04.245 --> 00:15:07.550
+Bazen, elbette, bu noktada bile
+
+00:15:07.550 --> 00:15:10.560
+grupların arasından seçmek zor.
+
+00:15:10.930 --> 00:15:13.898
+Bu durumda, bilgisayarın
+biraz çevirmesine izin
+
+00:15:13.898 --> 00:15:16.808
+verdikten sonra bile sağ ve sol taraftaki
+
+00:15:16.808 --> 00:15:19.854
+resimlerin karmakarışık
+olarak bulabiliriz.
+
+00:15:19.854 --> 00:15:22.395
+Yine bilgisayara bir takım
+ipuçları verebiliriz,
+
+00:15:22.395 --> 00:15:25.347
+ve diyebiliriz ki :"Tamam, derin 
+öğrenme algoritmasını
+
+00:15:25.347 --> 00:15:27.569
+kullanarak sağ ve sol tarafları mümkün
+
+00:15:27.569 --> 00:15:30.201
+olduğunca ayırabilecek 
+bir projeksiyon bulmaya çalış. "
+
+00:15:30.201 --> 00:15:32.481
+Ve ipucunu verince başarılı oldu.
+
+00:15:32.481 --> 00:15:35.139
+Objeleri birbirinden 
+ayırabilmek için gereken
+
+00:15:35.139 --> 00:15:37.316
+düşünme şeklini birlikte bulabildiler.
+
+00:15:38.096 --> 00:15:40.206
+Yani buradaki fikri anladınız.
+
+00:15:41.646 --> 00:15:45.896
+Buradaki durum; insanın
+yerine bilgisayarın geçmesi
+
+00:15:48.286 --> 00:15:51.068
+değil birlikte çalışmaları.
+
+00:15:51.068 --> 00:15:53.623
+Burada yaptığımız ise; 6 ya da 7 kişilik
+
+00:15:53.623 --> 00:15:57.068
+bir takımın yaklaşık 7 
+senede yapacağı bir şeyi,
+
+00:15:57.068 --> 00:15:59.208
+bir kişinin yaklaşık 15 dakikada
+
+00:15:59.208 --> 00:16:01.718
+yapacağı bir şeyle değiştirmek.
+
+00:16:01.718 --> 00:16:05.547
+Bu süreç yaklaşık 4 ya da
+5 yineleme içeriyor.
+
+00:16:05.547 --> 00:16:08.696
+Gördüğünüz gibi şuan 1.5 milyon resmimizin
+
+00:16:08.696 --> 00:16:10.718
+%62 si doğru bir şekilde sınıflandırıldı.
+
+00:16:10.718 --> 00:16:12.985
+Gelinen noktada, oldukça kolay bir şekilde
+
+00:16:12.985 --> 00:16:15.234
+büyük bölümleri alıp hata olmadığına
+
+00:16:15.234 --> 00:16:17.246
+emin olmak için kontrol edebiliriz.
+
+00:16:17.246 --> 00:16:20.121
+Hata olan yerlerde ise
+bilgisayara bildirebiliriz.
+
+00:16:20.741 --> 00:16:24.128
+Her farklı grup için bu tür
+bir süreç kullanarak
+
+00:16:24.128 --> 00:16:26.683
+1.5 milyon görüntüyü sınıflandırmada
+
+00:16:26.683 --> 00:16:28.861
+%80 başarı yüzdesine çıktık.
+
+00:16:29.611 --> 00:16:31.620
+Bu noktada konu sadece
+
+00:16:31.620 --> 00:16:33.250
+doğru sınıflandırılmamış olan
+
+00:16:33.250 --> 00:16:35.038
+küçük numarayı bulmak ve
+
+00:16:35.038 --> 00:16:37.691
+sebebini anlamaya çalışmak üzerine.
+
+00:16:37.811 --> 00:16:40.922
+Bu yaklaşımı kullanarak; 15 dakikada
+
+00:16:40.922 --> 00:16:43.928
+%97' lik sınıflandırma oranına ulaştık.
+
+00:16:43.928 --> 00:16:46.094
+Bu tarz bir teknik bize çok önemli
+
+00:16:46.094 --> 00:16:48.343
+bir problemi çözmeye izin verebilir;
+
+00:16:48.343 --> 00:16:51.087
+dünyada tıbbi uzmanlığın
+olmadığı yerlerde.
+
+00:16:51.087 --> 00:16:53.290
+Dünya Ekonomik Forumu'na göre;
+
+00:16:53.290 --> 00:16:56.124
+gelişen dünyada doktor
+kıtlığı 10 ile 20 katı
+
+00:16:56.124 --> 00:16:59.189
+arasında ve 300 yıl alacaktır bu problemi
+
+00:16:59.189 --> 00:17:02.448
+çözmek için yeterli insan yetiştirmek.
+
+00:17:02.448 --> 00:17:05.420
+Düşünün ki derin öğrenme
+yaklaşımını kullanarak
+
+00:17:05.420 --> 00:17:08.539
+verimliliklerini artırmaya
+yardım edebilsek?
+
+00:17:08.539 --> 00:17:10.983
+Fırsatlar konusunda oldukça heycanlıyım.
+
+00:17:10.983 --> 00:17:13.452
+Aynı zamanda
+problemlerle de ilgileniyorum.
+
+00:17:13.452 --> 00:17:15.569
+Buradaki problem ise; haritadaki
+
+00:17:15.569 --> 00:17:17.563
+her mavi alanda servisler
+
+00:17:17.563 --> 00:17:19.757
+istihdamın %80 den fazla.
+
+00:17:19.757 --> 00:17:21.761
+Servisler nedir?
+
+00:17:21.761 --> 00:17:23.113
+İşte servisler.
+
+00:17:23.113 --> 00:17:25.453
+Bunlar aynı zamanda bilgisayarın
+
+00:17:25.453 --> 00:17:27.446
+yapılma şeklini öğrendiği şeyler.
+
+00:17:27.446 --> 00:17:29.983
+Yani gelişen dünyadaki
+istihdamın %80 'inin
+
+00:17:29.983 --> 00:17:32.140
+yaptığı şeyler aynı zamanda bilgisayarın
+
+00:17:32.140 --> 00:17:34.138
+nasıl yapılacağını öğrendiği şeyler.
+
+00:17:34.138 --> 00:17:36.860
+Bu ne anlama geliyor? 
+Tamam, bir şey olmayacak.
+
+00:17:36.860 --> 00:17:38.708
+Başka işlerle yer değiştirilcekler.
+
+00:17:38.708 --> 00:17:41.146
+Örneğin; Veri bilimciler 
+için daha fazla iş olacak.
+
+00:17:41.146 --> 00:17:42.458
+Aslında öyle değil.
+
+00:17:42.458 --> 00:17:44.238
+Veri bilimcilerin bunları yapmaları
+
+00:17:44.238 --> 00:17:45.544
+çok zamanlarını almaz.
+
+00:17:45.544 --> 00:17:47.025
+Örneğin; bu 4 algoritma da aynı
+
+00:17:47.025 --> 00:17:48.594
+adam tarafından geliştirildi.
+
+00:17:48.594 --> 00:17:51.206
+Yani eğer; daha önceden de olmuştu,
+
+00:17:51.206 --> 00:17:53.753
+yeni işlerin gelip yer değiştirdiği
+
+00:17:53.753 --> 00:17:55.948
+zamanların sonuçlarını gördük.
+
+00:17:55.948 --> 00:17:57.879
+Bu yeni işlere ne olacak?
+
+00:17:57.879 --> 00:18:00.205
+Bunu kestirmek bizim için oldukça zor
+
+00:18:00.205 --> 00:18:03.094
+çünkü insan performansı 
+bu şekilde kademeli olarak
+
+00:18:03.094 --> 00:18:05.499
+artıyor ama artık biz bir sisteme,
+derin öğrenmeye
+
+00:18:05.499 --> 00:18:07.999
+sahibiz yani katlanarak
+büyüme kapasitesine
+
+00:18:07.999 --> 00:18:09.586
+sahip olduğunu biliyoruz.
+
+00:18:09.586 --> 00:18:10.536
+Ve burdayız.
+
+00:18:10.536 --> 00:18:13.027
+Şu anda, etrafımızdaki
+şeyleri görüyoruz ve:
+
+00:18:13.027 --> 00:18:15.135
+"Bilgisayarlar hala aptal." değil mi?
+
+00:18:15.135 --> 00:18:17.037
+Ama 5 yıllık süre içinde bilgisayarlar
+
+00:18:17.037 --> 00:18:18.786
+bu çizelgenin dışında olacak.
+
+00:18:18.786 --> 00:18:22.100
+Yani bu kabiliyeti hemen
+düşünmeye başlamalıyız.
+
+00:18:22.100 --> 00:18:24.403
+Bunu daha önceden görmüştük, elbette.
+
+00:18:24.403 --> 00:18:26.782
+Sanayi devriminde, motorlar sayesinde
+
+00:18:26.782 --> 00:18:29.292
+kapasitede kademe atlamayı gördük.
+
+00:18:29.292 --> 00:18:31.594
+Mesele şu ki, yine de bir süre sonra
+
+00:18:31.594 --> 00:18:32.632
+işler düzeliyor.
+
+00:18:32.632 --> 00:18:34.770
+Sosyal bozulma vardı ama bir kez
+
+00:18:34.770 --> 00:18:36.838
+motorlar güç üretmek için kullanıldı
+
+00:18:36.838 --> 00:18:40.024
+ve tüm durumlar, her şey düzene oturdu.
+
+00:18:40.024 --> 00:18:43.067
+Makine Öğrenmesi Devrimi
+Sanayi devriminden
+
+00:18:43.067 --> 00:18:44.830
+çok daha farklı olacak çünkü
+
+00:18:44.830 --> 00:18:47.570
+Makine Öğrenmesi Devrimi 
+asla durulmayacak.
+
+00:18:47.570 --> 00:18:50.490
+Bilgisayarlar entelektüel 
+aktiviteler de iyiye gittikçe,
+
+00:18:50.490 --> 00:18:52.189
+entelektüel kapasitede daha
+
+00:18:52.189 --> 00:18:54.249
+iyi olan bilgisayarlar üretilecek.
+
+00:18:54.249 --> 00:18:57.146
+Yani bu dünyanın daha önce tanık olmadığı
+
+00:18:57.146 --> 00:18:59.496
+türde bir değişim olacak bu yüzden
+
+00:18:59.496 --> 00:19:01.869
+neyin mümkün olduğu konusunda ki
+
+00:19:01.869 --> 00:19:03.297
+önceki anlayışınız farklı.
+
+00:19:03.297 --> 00:19:04.848
+Şimdiden bizi etkiliyor.
+
+00:19:04.848 --> 00:19:08.304
+Son 25 yılda, kapital üretim arttıkça
+
+00:19:08.304 --> 00:19:12.608
+işçi verimliliği sabitti
+hatta biraz inişteydi.
+
+00:19:13.298 --> 00:19:15.357
+Bu yüzden bu konuyu tartışmaya
+
+00:19:15.357 --> 00:19:16.908
+başlamamızı istiyorum.
+
+00:19:16.908 --> 00:19:18.895
+İnsanlara bu durum hakkında çoğu kez
+
+00:19:18.895 --> 00:19:21.485
+bahsettiğimde, insanlar 
+oldukça ilgisiz olabiliyor.
+
+00:19:21.485 --> 00:19:24.028
+Bilgisayarlar gerçek anlamda düşünemez,
+
+00:19:24.028 --> 00:19:26.290
+duygusal davranmaz, şiirden anlamaz,
+
+00:19:26.290 --> 00:19:28.400
+nasıl çalıştıklarını tam
+olarak anlamıyoruz.
+
+00:19:28.400 --> 00:19:29.330
+Ne fark eder?
+
+00:19:29.330 --> 00:19:31.560
+Bilgisayarlar şu an 
+insanların ücret alarak
+
+00:19:31.560 --> 00:19:34.440
+zamanlarının çoğunu
+harcadıkları şeyleri yapabiliyor.
+
+00:19:34.440 --> 00:19:37.930
+O zaman sosyal ve ekonomik
+yapımızı nasıl uyduracağımızı
+
+00:19:37.930 --> 00:19:40.180
+düşünmeye başlamamızın
+ve bu yeni gerçekliğin
+
+00:19:40.180 --> 00:19:42.460
+farkında olmamızın tam zamanı.
+
+00:19:42.460 --> 00:19:43.400
+Teşekkürler.
+
+00:19:43.400 --> 00:19:44.190
+(Alkışlar)
+

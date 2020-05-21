@@ -1,0 +1,1071 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Juliana Rodrigues
+Revisora: Margarida Ferreira
+
+00:00:15.604 --> 00:00:17.580
+Vou mostrar-vos uma coisa.
+
+00:00:18.113 --> 00:00:21.736
+(Vídeo) Menina: Isto é um gato
+sentado numa cama.
+
+00:00:22.260 --> 00:00:25.281
+O rapaz está a fazer festas ao elefante.
+
+00:00:26.690 --> 00:00:29.958
+Isso são pessoas a ir para um avião.
+
+00:00:30.654 --> 00:00:32.616
+É um grande avião.
+
+00:00:33.464 --> 00:00:35.670
+Fei-Fei Li: Esta é uma criança de 3 anos
+
+00:00:35.670 --> 00:00:38.977
+a descrever o que vê num 
+conjunto de fotografias.
+
+00:00:39.349 --> 00:00:42.194
+Ela poderá ter ainda muito
+para aprender neste mundo,
+
+00:00:42.194 --> 00:00:46.743
+mas já é especialista
+numa tarefa muito importante:
+
+00:00:46.743 --> 00:00:49.427
+dar sentido ao que vê.
+
+00:00:50.229 --> 00:00:54.264
+A nossa sociedade
+está mais avançada do que nunca.
+
+00:00:54.455 --> 00:00:58.084
+Enviamos pessoas para a lua,
+fazemos telefones que falam connosco
+
+00:00:58.084 --> 00:01:03.030
+ou personalizamos estações de rádio
+que apenas tocam música de que gostamos.
+
+00:01:03.325 --> 00:01:07.085
+No entanto, as nossas máquinas
+e computadores mais avançados
+
+00:01:07.085 --> 00:01:09.588
+ainda têm dificuldade
+em realizar esta tarefa.
+
+00:01:09.988 --> 00:01:13.447
+Por isso estou aqui hoje,
+para vos dar um relato
+
+00:01:13.447 --> 00:01:17.494
+sobre os últimos avanços do nosso trabalho
+em visão computacional,
+
+00:01:17.494 --> 00:01:22.493
+uma das tecnologias mais inovadoras
+e potencialmente mais revolucionárias
+
+00:01:22.493 --> 00:01:24.432
+da ciência informática.
+
+00:01:24.861 --> 00:01:29.412
+É verdade que já temos protótipos
+de carros que conduzem sozinhos,
+
+00:01:29.412 --> 00:01:33.265
+mas sem visão inteligente,
+eles não conseguem distinguir
+
+00:01:33.265 --> 00:01:37.235
+entre um saco de papel amarrotado,
+que o carro pode atropelar,
+
+00:01:37.235 --> 00:01:40.879
+e uma pedra do mesmo tamanho, 
+que deve ser evitada.
+
+00:01:41.415 --> 00:01:44.805
+Criámos fabulosas câmaras de megapixéis,
+
+00:01:44.805 --> 00:01:48.820
+mas não conseguimos devolver
+a visão a pessoas cegas.
+
+00:01:48.420 --> 00:01:51.725
+Os drones conseguem voar 
+sobre uma área extensa de terra,
+
+00:01:51.725 --> 00:01:53.859
+mas não têm a tecnologia
+de visualização
+
+00:01:53.859 --> 00:01:56.805
+necessária para detetar
+alterações nas florestas tropicais
+
+00:01:57.320 --> 00:02:00.270
+Temos câmaras de segurança
+por todo o lado,
+
+00:02:00.270 --> 00:02:05.451
+mas elas não nos alertam quando uma
+criança se está a afogar numa piscina.
+
+00:02:06.167 --> 00:02:09.760
+As fotografias e os vídeos
+estão a tornar-se
+
+00:02:09.760 --> 00:02:11.762
+parte integrante da vida em todo o mundo.
+
+00:02:11.762 --> 00:02:15.944
+São gerados a um ritmo muito mais rápido
+do que qualquer ser humano,
+
+00:02:15.944 --> 00:02:18.632
+ou equipas de seres humanos
+poderiam esperar ver.
+
+00:02:18.632 --> 00:02:22.619
+Nós estamos neste momento a contribuir
+para este fenómeno, com este evento TED.
+
+00:02:22.619 --> 00:02:28.385
+No entanto, até o software mais avançado
+tem ainda dificuldades em compreender
+
+00:02:28.385 --> 00:02:31.813
+e gerir uma quantidade
+de dados tão grande.
+
+00:02:31.889 --> 00:02:36.466
+Por outras palavras, enquanto sociedade,
+
+00:02:36.466 --> 00:02:38.679
+nós somos bastante cegos,
+
+00:02:38.679 --> 00:02:42.170
+porque as nossas máquinas
+mais inteligentes ainda são cegas.
+
+00:02:43.526 --> 00:02:45.852
+"Porque é isto tão difícil?"
+poderão perguntar.
+
+00:02:46.452 --> 00:02:49.145
+As câmaras fotográficas 
+tiram fotografias como esta,
+
+00:02:49.145 --> 00:02:53.139
+convertendo luzes 
+numa tabela com números,
+
+00:02:53.139 --> 00:02:54.989
+conhecidos como pixéis,
+
+00:02:54.989 --> 00:02:57.240
+mas são apenas números sem vida.
+
+00:02:57.240 --> 00:03:00.270
+Por si só não têm significado.
+
+00:03:00.151 --> 00:03:04.494
+Pela mesma razão que ouvir
+não é o mesmo que escutar,
+
+00:03:04.494 --> 00:03:08.534
+tirar fotografias
+não é o mesmo que ver,
+
+00:03:08.534 --> 00:03:12.363
+e por ver entenda-se compreender.
+
+00:03:13.293 --> 00:03:19.470
+Na verdade, a Mãe Natureza precisou
+de 540 milhões de anos de trabalho duro
+
+00:03:19.470 --> 00:03:21.443
+para realizar esta tarefa.
+
+00:03:21.443 --> 00:03:23.324
+Muito desse esforço
+
+00:03:23.324 --> 00:03:28.595
+foi para o desenvolvimento do mecanismo
+de processamento visual do cérebro,
+
+00:03:28.595 --> 00:03:30.546
+e não para os olhos.
+
+00:03:31.242 --> 00:03:33.989
+Portanto, a visão começa nos olhos,
+
+00:03:33.989 --> 00:03:37.345
+mas onde realmente acontece é no cérebro.
+
+00:03:38.715 --> 00:03:43.347
+Há já 15 anos, desde
+o meu doutoramento em Caltech,
+
+00:03:43.347 --> 00:03:46.273
+e depois como diretora
+do laboratório Stanford's Vision,
+
+00:03:46.273 --> 00:03:50.669
+tenho trabalhado com os meus mentores,
+colaboradores e estudantes
+
+00:03:50.669 --> 00:03:53.558
+para ensinar os computadores a ver.
+
+00:03:54.372 --> 00:03:56.239
+A nossa área de investigação chama-se
+
+00:03:56.239 --> 00:03:58.436
+visão computacional
+e aprendizagem automática.
+
+00:03:58.436 --> 00:04:01.972
+Faz parte do campo mais geral
+da inteligência artificial.
+
+00:04:03.466 --> 00:04:08.493
+Em ultima análise, queremos ensinar
+as máquinas a ver, tal como nós vemos:
+
+00:04:08.493 --> 00:04:13.880
+nomear objetos, identificar pessoas,
+inferir a geometria 3D das coisas,
+
+00:04:13.880 --> 00:04:19.139
+entender relações, emoções,
+ações e intenções.
+
+00:04:19.568 --> 00:04:25.721
+Todos imaginamos e criamos histórias
+sobre pessoas, lugares e objetos
+
+00:04:25.721 --> 00:04:28.170
+mal lhes deitamos a vista em cima.
+
+00:04:29.307 --> 00:04:34.538
+O primeiro passo para este objetivo
+é ensinar um computador a ver objetos,
+
+00:04:34.538 --> 00:04:37.467
+os blocos de construção do mundo visual.
+
+00:04:37.906 --> 00:04:42.340
+Na sua forma mais simples, imaginem
+este processo de ensinar os computadores
+
+00:04:42.340 --> 00:04:45.335
+como o ato de lhes mostrar 
+imagens de um dado objeto
+
+00:04:45.335 --> 00:04:48.656
+para treino, por exemplo gatos,
+
+00:04:48.656 --> 00:04:53.393
+e conceber um modelo que aprende
+a partir dessas imagens para treino.
+
+00:04:53.393 --> 00:04:55.437
+Quão difícil será fazer isto?
+
+00:04:55.437 --> 00:04:59.489
+Afinal de contas, um gato não é mais
+que um conjunto de formas e cores,
+
+00:04:59.489 --> 00:05:03.575
+e foi o que fizemos nos primeiros
+tempos da modelação de objetos.
+
+00:05:03.575 --> 00:05:07.197
+Dizíamos ao algoritmo do computador,
+em linguagem matemática,
+
+00:05:07.197 --> 00:05:10.540
+que um gato tem uma face redonda,
+um corpo volumoso,
+
+00:05:10.540 --> 00:05:12.839
+duas orelhas pontiagudas,
+uma cauda comprida,
+
+00:05:12.839 --> 00:05:14.744
+e esse modelo parecia bem assim.
+
+00:05:14.859 --> 00:05:16.972
+Mas o que acontece com este gato?
+
+00:05:16.972 --> 00:05:18.910
+(Risos)
+
+00:05:18.910 --> 00:05:19.689
+Está todo enrolado.
+
+00:05:19.689 --> 00:05:24.408
+Agora vamos ter de adicionar
+outra forma e perspetiva ao modelo.
+
+00:05:24.408 --> 00:05:26.694
+E se os gatos estiverem escondidos?
+
+00:05:27.143 --> 00:05:29.762
+E quanto a estes gatos patetas?
+
+00:05:31.397 --> 00:05:33.529
+Agora compreendem o meu problema.
+
+00:05:33.529 --> 00:05:36.896
+Até mesmo algo tão simples
+quanto um animal doméstico
+
+00:05:36.896 --> 00:05:41.400
+pode ter um número infinito
+de variações relativamente ao modelo
+
+00:05:41.400 --> 00:05:44.128
+e estamos a falar de um único objeto.
+
+00:05:44.573 --> 00:05:47.065
+Então, há cerca de oito anos,
+
+00:05:47.065 --> 00:05:52.295
+uma observação muito simples e profunda
+mudou a minha forma de pensar.
+
+00:05:53.425 --> 00:05:56.110
+Ninguém diz a uma criança como se vê,
+
+00:05:56.110 --> 00:05:58.371
+especialmente nos primeiros anos de vida.
+
+00:05:58.371 --> 00:06:02.837
+As crianças aprendem isso através
+de experiências e exemplos da vida real.
+
+00:06:03.371 --> 00:06:06.111
+Se considerarmos os olhos de uma criança
+
+00:06:06.111 --> 00:06:08.665
+como duas máquinas fotográficas biológicas,
+
+00:06:08.665 --> 00:06:12.845
+elas tiram uma fotografia a cada
+200 millisegundos aproximadamente,
+
+00:06:12.845 --> 00:06:15.979
+o tempo médio que demora
+um movimento ocular.
+
+00:06:15.979 --> 00:06:21.529
+Assim, aos três anos, uma criança
+terá visto centenas de milhões de imagens
+
+00:06:21.529 --> 00:06:23.363
+do mundo real.
+
+00:06:23.363 --> 00:06:25.643
+São imensos exemplos para treino.
+
+00:06:26.383 --> 00:06:32.372
+Deste modo, em vez de me focar apenas
+em algoritmos cada vez melhores,
+
+00:06:32.372 --> 00:06:37.644
+a minha ideia foi treinar os algoritmos
+com o mesmo tipo de dados
+
+00:06:37.644 --> 00:06:40.963
+que uma criança recebe
+através das suas experiências,
+
+00:06:40.963 --> 00:06:43.945
+tanto em quantidade como qualidade.
+
+00:06:44.841 --> 00:06:46.699
+Depois de percebermos isto,
+
+00:06:46.699 --> 00:06:49.670
+sabíamos que teríamos de reunir
+um conjunto de dados
+
+00:06:49.670 --> 00:06:54.129
+com muito mais imagens
+do que alguma vez tínhamos tido,
+
+00:06:54.129 --> 00:06:56.706
+talvez mesmo milhares de vezes mais.
+
+00:06:56.706 --> 00:07:00.817
+Juntamente com o Professor Kai Li
+na Universidade de Princeton,
+
+00:07:00.817 --> 00:07:04.568
+iniciámos o projeto ImageNet, em 2007.
+
+00:07:06.350 --> 00:07:09.407
+Felizmente, não precisámos de montar
+uma câmara na cabeça
+
+00:07:09.407 --> 00:07:11.171
+e esperar vários anos.
+
+00:07:11.171 --> 00:07:12.852
+Recorremos à Internet,
+
+00:07:12.852 --> 00:07:17.070
+o maior tesouro de imagens 
+que o Homem alguma vez criou.
+
+00:07:17.070 --> 00:07:20.111
+Descarregámos cerca 
+de mil milhões de imagens
+
+00:07:20.111 --> 00:07:23.505
+e utilizámos tecnologias
+de contribuição voluntária,
+
+00:07:23.505 --> 00:07:26.290
+como a plataforma Amazon Mechanical Turk,
+
+00:07:26.290 --> 00:07:28.330
+para nos ajudar a rotular essas imagens.
+
+00:07:28.558 --> 00:07:33.230
+No seu auge, o ImageNet
+era um dos maiores empregadores
+
+00:07:33.230 --> 00:07:36.226
+da Amazon Mechanical Turk.
+
+00:07:36.445 --> 00:07:40.508
+No total, quase 50 mil trabalhadores
+
+00:07:40.508 --> 00:07:44.120
+de 167 países de todo o mundo
+
+00:07:44.120 --> 00:07:48.067
+ajudaram-nos a limpar, ordenar e rotular
+
+00:07:48.067 --> 00:07:51.642
+cerca de mil milhões
+de imagens candidatas.
+
+00:07:52.612 --> 00:07:55.941
+Foi quanto custou captar
+
+00:07:55.941 --> 00:07:59.165
+uma fração de todas as imagens
+
+00:07:59.165 --> 00:08:03.310
+que uma criança vê nos seus
+primeiros anos de desenvolvimento.
+
+00:08:04.148 --> 00:08:08.316
+Em retrospetiva, esta ideia
+de usar grandes volumes de dados
+
+00:08:08.316 --> 00:08:12.600
+para treinar algoritmos em computadores
+pode hoje parecer óbvia,
+
+00:08:12.600 --> 00:08:16.395
+mas em 2007 não era assim tão óbvia.
+
+00:08:16.710 --> 00:08:20.588
+Estivemos sozinhos neste percurso
+durante algum tempo.
+
+00:08:20.588 --> 00:08:25.591
+Alguns colegas amáveis aconselharam-me
+a fazer algo mais útil no meu mandato,
+
+00:08:25.591 --> 00:08:29.933
+e estávamos constantemente a lutar
+por financiamento para a investigação.
+
+00:08:29.933 --> 00:08:32.418
+Uma vez até disse, a brincar,
+aos meus alunos
+
+00:08:32.418 --> 00:08:34.852
+que ia reabrir a minha loja
+de limpeza a seco,
+
+00:08:34.852 --> 00:08:36.604
+para financiar o ImageNet.
+
+00:08:36.604 --> 00:08:38.813
+Afinal de contas,
+foi assim que eu financiei
+
+00:08:38.813 --> 00:08:41.242
+os meus estudos na universidade.
+
+00:08:41.242 --> 00:08:43.145
+E assim continuámos o trabalho.
+
+00:08:43.145 --> 00:08:46.813
+Em 2009, o ImageNet disponibilizou
+
+00:08:46.813 --> 00:08:50.855
+uma base de dado
+com 15 milhões de imagens
+
+00:08:50.855 --> 00:08:55.660
+ao longo de 22 mil classes
+de objetos e coisas,
+
+00:08:55.660 --> 00:08:58.694
+organizados por palavras
+inglesas de uso comum.
+
+00:08:58.980 --> 00:09:01.906
+Tanto em quantidade como em qualidade,
+
+00:09:01.906 --> 00:09:04.878
+tratou-se de uma escala sem precedentes.
+
+00:09:05.725 --> 00:09:08.596
+Como exemplo disto temos,
+no caso dos gatos,
+
+00:09:08.596 --> 00:09:11.233
+mais de 62 mil gatos
+
+00:09:11.233 --> 00:09:15.258
+de todos os tipos e em variadas poses,
+
+00:09:15.258 --> 00:09:19.585
+assim como todas as espécies
+de gatos domésticos e selvagens.
+
+00:09:20.481 --> 00:09:23.825
+Estávamos muito entusiasmados
+por termos construído o ImageNet
+
+00:09:23.825 --> 00:09:27.563
+e queríamos que toda a pesquisa mundial
+pudesse beneficiar dele,
+
+00:09:27.563 --> 00:09:31.604
+por isso, à boa maneira do TED,
+disponibilizámos toda a base de dados
+
+00:09:31.604 --> 00:09:35.196
+para a comunidade de pesquisa
+mundial, gratuitamente.
+
+00:09:35.950 --> 00:09:38.997
+(Aplausos)
+
+00:09:41.416 --> 00:09:45.954
+Agora que já temos os dados para alimentar
+o cérebro do nosso computador,
+
+00:09:45.954 --> 00:09:49.138
+estamos prontos para voltar
+a trabalhar nos algoritmos.
+
+00:09:49.691 --> 00:09:54.869
+Como se veio a perceber, a riqueza
+de informações fornecidas pelo ImageNet
+
+00:09:54.869 --> 00:09:59.675
+era perfeita para uma classe particular
+de algoritmos de aprendizagem automática
+
+00:09:59.675 --> 00:10:02.128
+designada por "rede neural convoluta",
+
+00:10:02.128 --> 00:10:07.499
+lançada por Kunihiko Fukushima,
+Geoff Hinton e Yann LeCun,
+
+00:10:07.499 --> 00:10:10.144
+nos anos 70 e 80.
+
+00:10:10.983 --> 00:10:12.859
+À semelhança do cérebro,
+
+00:10:12.859 --> 00:10:16.706
+formado por milhares de milhões
+de neurónios altamente ligados,
+
+00:10:16.706 --> 00:10:20.456
+uma operação unitária básica
+numa rede neural
+
+00:10:20.456 --> 00:10:22.871
+é idêntica a um nodo de neurónios.
+
+00:10:22.871 --> 00:10:25.425
+Esse nodo recebe e envia informações
+
+00:10:25.425 --> 00:10:27.876
+de outros nodos e para outros nodos.
+
+00:10:28.143 --> 00:10:32.856
+Além disso, essas centenas de milhares
+ou mesmo milhões de nodos
+
+00:10:32.856 --> 00:10:36.083
+estão organizados em camadas hierárquicas,
+
+00:10:36.083 --> 00:10:38.637
+à semelhança do que se passa no cérebro.
+
+00:10:38.637 --> 00:10:40.877
+Numa rede neural típica que usamos,
+
+00:10:40.877 --> 00:10:43.715
+para treinar o modelo
+de reconhecimento de objetos
+
+00:10:43.715 --> 00:10:46.601
+existem 24 milhões de nodos,
+
+00:10:46.601 --> 00:10:49.498
+140 milhões de parâmetros
+
+00:10:49.498 --> 00:10:52.137
+e 15 mil milhões de ligações.
+
+00:10:52.661 --> 00:10:54.590
+É um modelo enorme.
+
+00:10:55.076 --> 00:10:58.977
+Abastecido pelos imensos dados do ImageNet
+
+00:10:58.977 --> 00:11:04.410
+dos CPUs e GPUs modernos para treinar
+um modelo tão pesado quanto este,
+
+00:11:04.410 --> 00:11:06.779
+a rede neural convoluta
+
+00:11:06.779 --> 00:11:09.900
+floresceu de um modo que ninguém esperava.
+
+00:11:10.215 --> 00:11:13.940
+Tornou-se na arquitetura vencedora
+
+00:11:13.940 --> 00:11:17.348
+para a geração de resultados
+sensacionais no reconhecimento de objetos.
+
+00:11:18.063 --> 00:11:20.873
+Aqui temos um computador a dizer-nos
+
+00:11:20.873 --> 00:11:23.173
+que esta imagem tem um gato
+
+00:11:23.173 --> 00:11:25.076
+e a localização do gato na imagem.
+
+00:11:25.076 --> 00:11:27.188
+É claro que há mais coisas além de gatos,
+
+00:11:27.188 --> 00:11:29.902
+e assim temos aqui um algoritmo
+de computador a dizer-nos
+
+00:11:29.902 --> 00:11:32.900
+que a imagem contém um rapaz
+e um ursinho de peluche,
+
+00:11:32.900 --> 00:11:36.713
+um cão, uma pessoa
+e um pequeno papagaio ao fundo,
+
+00:11:37.266 --> 00:11:40.401
+ou uma imagem com muitos elementos,
+
+00:11:40.401 --> 00:11:45.045
+tais como um homem, um "skate",
+grades, um poste de iluminação, etc.
+
+00:11:45.321 --> 00:11:50.990
+Por vezes, quando o computador 
+não está seguro do que vê,
+
+00:11:51.498 --> 00:11:54.164
+ensinámo-lo a ser
+suficientemente inteligente
+
+00:11:54.164 --> 00:11:57.652
+para nos dar uma resposta segura
+em vez de se comprometer demasiado,
+
+00:11:57.652 --> 00:11:59.396
+tal como nós faríamos.
+
+00:12:00.463 --> 00:12:05.129
+Mas outras vezes o nosso algoritmo
+é brilhante a dizer exatamente
+
+00:12:05.129 --> 00:12:07.382
+quais são os objetos na imagem,
+
+00:12:07.382 --> 00:12:10.808
+como a marca, o modelo
+e o ano de fabrico dos carros.
+
+00:12:11.151 --> 00:12:16.204
+Aplicámos este algoritmo a milhões
+de imagens do Google Street View
+
+00:12:16.204 --> 00:12:19.339
+a centenas de cidades norte-americanas
+
+00:12:19.339 --> 00:12:22.436
+e aprendemos algo muito interessante:
+
+00:12:22.436 --> 00:12:25.585
+primeiro, confirmou a sabedoria comum
+
+00:12:25.585 --> 00:12:28.875
+que diz que os preços dos carros
+estão fortemente correlacionados
+
+00:12:28.875 --> 00:12:31.220
+com os rendimentos familiares.
+
+00:12:31.220 --> 00:12:35.747
+Mas, surpreendentemente, os preços
+dos carros também estão correlacionados
+
+00:12:35.747 --> 00:12:38.475
+com as taxas de criminalidade em cidades,
+
+00:12:38.702 --> 00:12:42.112
+ou padrões de votação por código postal.
+
+00:12:43.850 --> 00:12:46.427
+Mas esperem. É mesmo assim?
+
+00:12:46.427 --> 00:12:51.419
+O computador já conseguiu mesmo igualar
+ou até ultrapassar as capacidades humanas?
+
+00:12:51.666 --> 00:12:53.557
+Vamos com calma.
+
+00:12:53.737 --> 00:12:58.108
+Até agora, apenas ensinámos
+o computador a ver objetos.
+
+00:12:58.480 --> 00:13:02.771
+Isto é o equivalente a uma criança
+que aprende a pronunciar alguns nomes.
+
+00:13:03.124 --> 00:13:05.794
+É um feito incrível,
+
+00:13:05.794 --> 00:13:08.250
+mas é apenas o primeiro passo.
+
+00:13:08.254 --> 00:13:12.016
+As crianças atingem rapidamente
+um novo marco no seu desenvolvimento,
+
+00:13:12.016 --> 00:13:15.477
+começando a comunicar com frases.
+
+00:13:16.543 --> 00:13:19.682
+Ou seja, em vez de dizer
+que há um gato na imagem,
+
+00:13:19.701 --> 00:13:24.445
+já ouvimos a menina dizer-nos
+que é um gato deitado numa cama.
+
+00:13:25.341 --> 00:13:30.498
+Para ensinar um computador
+a gerar frases a partir de uma imagem,
+
+00:13:30.498 --> 00:13:32.250
+é agora preciso que o casamento
+
+00:13:32.250 --> 00:13:34.826
+entre o volume de dados
+e a aprendizagem automática
+
+00:13:34.826 --> 00:13:36.397
+dê mais um passo.
+
+00:13:36.530 --> 00:13:40.877
+Agora, o computador terá que aprender,
+não só a partir de imagens,
+
+00:13:40.877 --> 00:13:43.733
+como também frases naturais da linguagem
+
+00:13:43.733 --> 00:13:46.055
+geradas pelos seres humanos.
+
+00:13:47.055 --> 00:13:51.298
+Tal como o cérebro integra
+a visão e a linguagem,
+
+00:13:51.298 --> 00:13:56.109
+nós desenvolvemos um modelo
+que relaciona partes de coisas visuais,
+
+00:13:56.109 --> 00:13:58.013
+tais como fragmentos visuais,
+
+00:13:58.013 --> 00:14:01.615
+com palavras e expressões em frases.
+
+00:14:03.187 --> 00:14:04.979
+Há cerca de 4 meses,
+
+00:14:04.979 --> 00:14:07.626
+conseguimos finalmente conjugar tudo isto
+
+00:14:07.626 --> 00:14:11.410
+e produzir um dos primeiros
+modelos de visão computacional
+
+00:14:11.410 --> 00:14:15.404
+capaz de gerar uma frase semelhante
+à gerada por um ser humano,
+
+00:14:15.404 --> 00:14:18.500
+quando vê uma imagem pela primeira vez.
+
+00:14:18.910 --> 00:14:23.554
+Agora, estou pronta para vos mostrar
+o que o computador diz
+
+00:14:23.554 --> 00:14:25.529
+quando vê a imagem
+
+00:14:25.529 --> 00:14:28.978
+que a menina viu no início desta palestra.
+
+00:14:31.195 --> 00:14:34.310
+(Vídeo) Computador: 
+Um homem está ao pé de um elefante.
+
+00:14:36.393 --> 00:14:40.141
+Um avião de grande porte 
+poisado na pista de um aeroporto.
+
+00:14:41.057 --> 00:14:45.411
+FFL: Claro que ainda estamos a trabalhar
+arduamente para melhorar os algoritmos,
+
+00:14:45.411 --> 00:14:47.855
+e o computador ainda tem
+muito que aprender.
+
+00:14:47.893 --> 00:14:50.937
+(Aplausos)
+
+00:14:51.556 --> 00:14:54.480
+O computador ainda faz erros.
+
+00:14:54.877 --> 00:14:58.100
+(Vídeo) Computador:
+Um gato deitado numa cama num cobertor.
+
+00:14:58.268 --> 00:15:00.821
+FFL: Claro que, depois de ver
+muitos gatos,
+
+00:15:00.821 --> 00:15:03.347
+ele pensa que tudo é um gato.
+
+00:15:05.317 --> 00:15:08.181
+(Video) Computador: Um menino
+segura um taco de basebol.
+
+00:15:08.352 --> 00:15:09.946
+(Risos)
+
+00:15:09.946 --> 00:15:12.709
+FFL: Ou, se o computador
+nunca viu uma escova de dentes,
+
+00:15:12.709 --> 00:15:15.610
+confunde-a com um taco de basebol.
+
+00:15:15.309 --> 00:15:18.743
+(Vídeo) Computador: Um homem a cavalo
+desce uma rua ao pé de um edifício.
+
+00:15:18.952 --> 00:15:20.766
+(Risos)
+
+00:15:20.851 --> 00:15:24.460
+FFL: Não ensinámos aos computadores
+a disciplina de Introdução à Arte.
+
+00:15:25.768 --> 00:15:28.471
+(Vídeo) Computador: 
+Uma zebra num relvado.
+
+00:15:28.575 --> 00:15:32.850
+FFL: Também não aprenderam ainda
+a apreciar o esplendor da natureza,
+
+00:15:32.850 --> 00:15:34.457
+como vocês e eu fazemos.
+
+00:15:34.457 --> 00:15:37.410
+Portanto, tem sido um longo percurso.
+
+00:15:37.289 --> 00:15:41.172
+Ir dos zero aos três anos foi difícil.
+
+00:15:41.267 --> 00:15:46.844
+O verdadeiro desafio será ir
+dos três anos aos treze e para além disso.
+
+00:15:47.820 --> 00:15:51.171
+Vou mostrar-vos novamente
+esta imagem do rapaz e do bolo.
+
+00:15:51.476 --> 00:15:55.863
+Até agora, ensinámos
+o computador a ver objetos
+
+00:15:55.863 --> 00:15:59.998
+ou mesmo a contar-nos uma pequena história
+quando vê uma imagem.
+
+00:15:59.998 --> 00:16:02.783
+(Vídeo) Computador: Uma pessoa
+sentada à mesa com um bolo.
+
+00:16:03.574 --> 00:16:06.700
+FFL: Mas há muito mais nesta imagem
+
+00:16:06.800 --> 00:16:08.474
+do que somente uma pessoa e um bolo.
+
+00:16:08.474 --> 00:16:12.941
+O que o computador não consegue ver
+é que se trata de um bolo italiano especial
+
+00:16:12.941 --> 00:16:15.558
+que só se serve durante a Páscoa.
+
+00:16:16.158 --> 00:16:19.363
+O rapaz está a usar
+a sua T-shirt preferida
+
+00:16:19.363 --> 00:16:23.850
+que o pai lhe ofereceu
+após uma viagem a Sydney.
+
+00:16:23.333 --> 00:16:27.226
+Tanto eu como vocês conseguimos ver
+como o rapaz está feliz
+
+00:16:27.226 --> 00:16:30.344
+e o que se passa exatamente
+na sua mente nesse momento.
+
+00:16:31.214 --> 00:16:33.786
+Este é o meu filho Leo.
+
+00:16:34.339 --> 00:16:36.963
+Na minha busca pela inteligência visual,
+
+00:16:36.963 --> 00:16:39.354
+penso frequentemente no Leo
+
+00:16:39.354 --> 00:16:41.980
+e no mundo em que ele viverá no futuro.
+
+00:16:42.257 --> 00:16:44.278
+Quando as máquinas conseguirem ver,
+
+00:16:44.278 --> 00:16:48.990
+médicos e enfermeiros irão ter
+um par adicional de olhos incansáveis
+
+00:16:48.990 --> 00:16:52.739
+para os ajudar a diagnosticar
+e cuidar dos seus doentes.
+
+00:16:53.082 --> 00:16:57.465
+Os automóveis irão andar na estrada
+de modo mais inteligente e seguro.
+
+00:16:57.655 --> 00:17:00.159
+Os robôs, não apenas os seres humanos,
+
+00:17:00.159 --> 00:17:02.360
+irão ajudar-nos a enfrentar
+
+00:17:02.360 --> 00:17:05.216
+zonas de catástrofe,
+salvando feridos e encarcerados.
+
+00:17:05.655 --> 00:17:09.594
+Iremos descobrir novas espécies,
+melhores materiais,
+
+00:17:09.594 --> 00:17:14.103
+e explorar limites nunca antes vistos
+com a ajuda de máquinas.
+
+00:17:15.113 --> 00:17:19.280
+Pouco a pouco, estamos a dar
+às máquinas a capacidade de ver.
+
+00:17:19.280 --> 00:17:21.630
+Primeiro, ensinamo-las a ver.
+
+00:17:22.078 --> 00:17:24.707
+Depois, elas ajudam-nos a ver melhor.
+
+00:17:24.841 --> 00:17:29.006
+Pela primeira vez, os olhos humanos
+não estarão sozinhos
+
+00:17:29.006 --> 00:17:31.673
+na exploração e compreensão
+do nosso mundo.
+
+00:17:31.940 --> 00:17:35.400
+Iremos usar máquinas
+não somente pela sua inteligência,
+
+00:17:35.400 --> 00:17:38.131
+mas também para colaborar com elas
+
+00:17:38.131 --> 00:17:40.959
+de formas que ainda
+não conseguimos imaginar.
+
+00:17:41.579 --> 00:17:43.740
+Esta é a minha missão:
+
+00:17:43.740 --> 00:17:46.909
+dar inteligência visual aos computadores
+
+00:17:46.947 --> 00:17:50.887
+e criar um futuro melhor
+para o Leo e para o mundo.
+
+00:17:51.363 --> 00:17:52.879
+Obrigada.
+
+00:17:52.965 --> 00:17:56.260
+(Aplausos)
+

@@ -1,0 +1,1100 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Andres Silva
+Revisor: Sebastian Betti
+
+00:00:15.160 --> 00:00:19.160
+Hoy voy a hablar acerca de una tecnología que estamos desarrollando actualmente en Oxford
+
+00:00:19.160 --> 00:00:22.160
+la que pensamos va a cambiar la forma de
+
+00:00:22.160 --> 00:00:25.160
+crear los juegos de computadoras y las películas de Hollywood.
+
+00:00:26.160 --> 00:00:29.160
+Dicha tecnología esta simulando a seres humanos.
+
+00:00:29.160 --> 00:00:32.160
+Son humanos simulados con cuerpo simulado.
+
+00:00:32.160 --> 00:00:35.160
+y un sistema nervioso simulado para controlar dicho cuerpo.
+
+00:00:36.160 --> 00:00:39.160
+Bueno, antes de hablar más sobre esta tecnología
+
+00:00:39.160 --> 00:00:42.160
+démosle una mirada rápida a cómo son los personajes humanos
+
+00:00:42.160 --> 00:00:45.160
+en los juegos de computadoras actuales.
+
+00:00:45.160 --> 00:00:48.160
+este es un video de un juego que se llama "Grand Theft Auto 3".
+
+00:00:48.160 --> 00:00:50.160
+Ayer vimos esto de forma breve.
+
+00:00:50.160 --> 00:00:53.160
+Y lo que se puede ver es, de hecho, un juego muy bueno.
+
+00:00:53.160 --> 00:00:56.160
+Es uno de los juegos más exitosos de todos los tiempos.
+
+00:00:56.160 --> 00:01:00.160
+pero se darán cuenta de que todas las animaciones en este juego son muy repetitivas.
+
+00:01:00.160 --> 00:01:02.160
+Se ven igual.
+
+00:01:02.160 --> 00:01:05.160
+He hecho que corra hacia el muro, una y otra vez.
+
+00:01:05.160 --> 00:01:07.160
+Y ustedes pueden ver que él siempre se ve igual.
+
+00:01:07.160 --> 00:01:10.160
+La razón de este comportamiento es que estos personajes
+
+00:01:10.160 --> 00:01:12.160
+no son reales.
+
+00:01:12.160 --> 00:01:16.160
+Son la visualización gráfica de un personaje.
+
+00:01:16.160 --> 00:01:21.160
+Para crear estas animaciones un animador tiene que anticipar
+
+00:01:21.160 --> 00:01:24.160
+lo que va a pasar en realidad en el juego
+
+00:01:24.160 --> 00:01:27.160
+y luego tiene que animar dicha secuencia.
+
+00:01:27.160 --> 00:01:31.160
+Él o ella se sienta, lo anima y entonces trata de anticipar lo que va a pasar.
+
+00:01:31.160 --> 00:01:34.160
+y luego estas animaciones son reproducidas nuevamente
+
+00:01:34.160 --> 00:01:37.160
+en momentos apropiados durante el juego.
+
+00:01:37.160 --> 00:01:42.160
+Ahora bien, el resultado de esto es que uno no puede tener una interactividad real.
+
+00:01:42.160 --> 00:01:45.160
+Todo lo que hoy son animaciones que se repiten
+
+00:01:45.160 --> 00:01:47.160
+en momentos oportunos, más o menos.
+
+00:01:47.160 --> 00:01:52.160
+Esto también quiere decir que los juegos no van a ser tan sorpresivos como pudieran ser
+
+00:01:52.160 --> 00:01:55.160
+porque uno solo saca, por lo menos en términos del personaje,
+
+00:01:55.160 --> 00:01:57.160
+aquello que se le pone.
+
+00:01:57.160 --> 00:01:59.160
+Aqui no hay ningún descubrimiento.
+
+00:01:59.160 --> 00:02:03.160
+Lo tercero, como dije, es que por esa razón la mayoría de las animaciones son repetitivas.
+
+00:02:03.160 --> 00:02:05.160
+Bueno, la única manera de evitar esto
+
+00:02:05.160 --> 00:02:07.160
+es que se simule el cuerpo humano
+
+00:02:07.160 --> 00:02:12.160
+y simular la parte del sistema nervioso en el cerebro que controla ese cuerpo.
+
+00:02:12.160 --> 00:02:15.160
+Y tal vez, si pudiera venir para una rápida demostración
+
+00:02:15.160 --> 00:02:17.160
+para mostrar cuál es la diferencia
+
+00:02:17.160 --> 00:02:21.160
+porque, digo, es muy pero muy efímera.
+
+00:02:21.160 --> 00:02:24.160
+Si empujo a Chris, de esta manera por ejemplo, él va a reaccionar.
+
+00:02:24.160 --> 00:02:27.160
+Si lo empujo desde un ángulo diferente él va a reaccionar de forma diferente,
+
+00:02:27.160 --> 00:02:29.160
+y eso se debe a que tiene un cuerpo físico,
+
+00:02:29.160 --> 00:02:32.160
+y porque tiene habilidades motoras que controlan su cuerpo.
+
+00:02:32.160 --> 00:02:34.160
+Es algo bastante trivial.
+
+00:02:34.160 --> 00:02:36.160
+Esto es algo que no se ve para nada en los juegos de computadoras actuales.
+
+00:02:36.160 --> 00:02:38.160
+Muchas gracias. Chris Anderson: ¿Es todo?
+
+00:02:38.160 --> 00:02:40.160
+Torsten Reil: Sí.
+
+00:02:40.160 --> 00:02:41.160
+Entonces, lo que estamos tratando de simular
+
+00:02:41.160 --> 00:02:45.160
+no a Chris específicamente, diría, sino a los humanos en general.
+
+00:02:46.160 --> 00:02:51.160
+Bien, nosotros comenzamos a trabajar en esto hace mucho tiempo en la Universidad de Oxford,
+
+00:02:51.160 --> 00:02:53.160
+y tratamos de comenzar de una manera bien simple.
+
+00:02:53.160 --> 00:02:56.160
+Lo que hicimos fue enseñarle a un dibujo a caminar.
+
+00:02:56.160 --> 00:02:59.160
+Ese dibujo está siendo estimulado físicamente. Pueden verlo en pantalla.
+
+00:02:59.160 --> 00:03:02.160
+Esta sujeto a la gravedad, tiene articulaciones, etc.
+
+00:03:02.160 --> 00:03:05.160
+Si echamos a andar la simulación se va a caer, así.
+
+00:03:05.160 --> 00:03:09.160
+La parte complicada es ponerle un controlador de IA
+
+00:03:09.160 --> 00:03:11.160
+que le haga moverse de verdad.
+
+00:03:11.160 --> 00:03:14.160
+Y para esto, usamos una red neural que basamos en
+
+00:03:14.160 --> 00:03:16.160
+la parte del sistema nervioso que llevamos en nuestra espina dorsal
+
+00:03:16.160 --> 00:03:18.160
+que controla el caminar en los humanos.
+
+00:03:18.160 --> 00:03:20.160
+Se llama el generador central de patrones.
+
+00:03:20.160 --> 00:03:23.160
+Entonces estimulamos esa parte también, y luego la parte más complicada
+
+00:03:23.160 --> 00:03:25.160
+fue enseñarle a esta red a caminar.
+
+00:03:25.160 --> 00:03:29.160
+Para esto utilizamos evolución artificial, algorítmos genéticos.
+
+00:03:29.160 --> 00:03:31.160
+Oímos sobre esto ayer
+
+00:03:31.160 --> 00:03:34.160
+y creo que casi todos están familiarizados con esto.
+
+00:03:34.160 --> 00:03:36.160
+Pero, brevemente, el concepto es que
+
+00:03:36.160 --> 00:03:39.160
+uno cree gran cantidad de individuos diferentes,
+
+00:03:39.160 --> 00:03:41.160
+redes neuronales en este caso,
+
+00:03:41.160 --> 00:03:43.160
+todos son aleatorios al principio.
+
+00:03:43.160 --> 00:03:45.160
+Uno los conecta, en este caso a los músculos virtuales
+
+00:03:45.160 --> 00:03:48.160
+de esta criatura de dos patas,
+
+00:03:48.160 --> 00:03:51.160
+y esperemos que haga algo interesante.
+
+00:03:51.160 --> 00:03:53.160
+Al principio todos van a ser bastante aburridos.
+
+00:03:53.160 --> 00:03:55.160
+La mayoría ni siquiera se van a mover,
+
+00:03:55.160 --> 00:03:57.160
+pero algunos darán un pequeño paso.
+
+00:03:57.160 --> 00:03:59.160
+Esos son seleccionados por el algoritmo,
+
+00:03:59.160 --> 00:04:03.160
+reproducidos con mutación y recombinados para darles atributos sexuales.
+
+00:04:03.160 --> 00:04:05.160
+Y este proceso se repite una y otra vez
+
+00:04:05.160 --> 00:04:07.160
+hasta que uno tiene algo que camina,
+
+00:04:07.160 --> 00:04:09.160
+en este caso en una línea recta, así.
+
+00:04:09.160 --> 00:04:11.160
+Esa era la idea detrás de esto.
+
+00:04:11.160 --> 00:04:14.160
+Cuando comenzamos esto dejé lista la simulación una noche.
+
+00:04:14.160 --> 00:04:17.160
+Tardó unas 3 a 4 horas para echar a andar la simulación.
+
+00:04:17.160 --> 00:04:21.160
+Cuando me levanté a la mañana siguiente fui a la computadora y me fijé en los resultados,
+
+00:04:21.160 --> 00:04:24.160
+y esperaba que hubiera algo que caminara en línea recta,
+
+00:04:24.160 --> 00:04:26.160
+tal como les acabo de demostrar,
+
+00:04:26.160 --> 00:04:28.160
+Pero en cambio esto fue lo que vi.
+
+00:04:28.160 --> 00:04:38.160
+(Risas)
+
+00:04:38.160 --> 00:04:41.160
+Así que volvimos a nuestro pizarrón de dibujo.
+
+00:04:42.160 --> 00:04:45.160
+Finalmente logramos que funcionara
+
+00:04:45.160 --> 00:04:47.160
+después de hacer unos ajustes por aquí y por allá.
+
+00:04:47.160 --> 00:04:50.160
+Y este es un ejemplo de una carrera evolutiva exitosa.
+
+00:04:50.160 --> 00:04:53.160
+Lo que van a ver en un momento es un bípedo muy simple
+
+00:04:53.160 --> 00:04:56.160
+que está aprendiendo a caminar usando la evolución artificial.
+
+00:04:56.160 --> 00:04:58.160
+Al principio ni siquiera puede caminar,
+
+00:04:58.160 --> 00:05:00.160
+pero va a mejorar con el tiempo.
+
+00:05:02.160 --> 00:05:05.160
+Entonces, este es uno que no puede caminar para nada.
+
+00:05:05.160 --> 00:05:11.160
+(Risas)
+
+00:05:11.160 --> 00:05:14.160
+Ahora bien, después de 5 generaciones de aplicar el proceso evolutivo,
+
+00:05:14.160 --> 00:05:17.160
+y el algorítmo genético está volviéndose cada vez mejor.
+
+00:05:17.160 --> 00:05:25.160
+(Risas)
+
+00:05:25.160 --> 00:05:27.160
+En la generación 10 va a dar unos pasos más.
+
+00:05:31.160 --> 00:05:33.160
+Aún nada concreto.
+
+00:05:34.160 --> 00:05:39.160
+Pero después de la generación 20 camina de verdad en línea recta sin caerse.
+
+00:05:40.160 --> 00:05:43.160
+Este fue un gran descubrimiento para nosotros.
+
+00:05:43.160 --> 00:05:46.160
+Fue un proyecto realmente desafiante para el intelecto,
+
+00:05:46.160 --> 00:05:49.160
+y una vez que alcanzamos esta etapa tuvimos gran confianza
+
+00:05:49.160 --> 00:05:52.160
+de que podíamos intentarlo y hacer otras cosas con este sistema,
+
+00:05:52.160 --> 00:05:54.160
+de hecho, simular el cuerpo
+
+00:05:54.160 --> 00:05:57.160
+y simular la parte del sistema nervioso que lo controla.
+
+00:05:57.160 --> 00:06:00.160
+Ahora bien, en este punto también se hizo claro que esto podría ser bastante emocionante
+
+00:06:00.160 --> 00:06:03.160
+para cosas como los juegos de computadora o mundos virtuales.
+
+00:06:03.160 --> 00:06:05.160
+Lo que se aprecia aquí es el personaje que está de pie,
+
+00:06:05.160 --> 00:06:07.160
+y hay un obstáculo que ponemos en su camino.
+
+00:06:07.160 --> 00:06:12.160
+Y lo que se ve es que se va a caer con el obstáculo.
+
+00:06:12.160 --> 00:06:15.160
+Ahora bien, la parte interesante es si muevo el obstáculo un poquito a la derecha,
+
+00:06:15.160 --> 00:06:17.160
+que es lo que estoy haciendo ahora, justo aquí,
+
+00:06:17.160 --> 00:06:21.160
+se va a caer de una forma completamente diferente.
+
+00:06:24.160 --> 00:06:29.160
+Nuevamente, si uno mueve el obstáculo un poquito, se va a caer de una manera diferente.
+
+00:06:29.160 --> 00:06:31.160
+(Risas)
+
+00:06:31.160 --> 00:06:33.160
+Lo que ven, por cierto, allá arriba,
+
+00:06:33.160 --> 00:06:36.160
+son algunas de las activaciones neuronales que se le están dando a los músculos virtuales.
+
+00:06:36.160 --> 00:06:38.160
+Bien. Ese era el video. Gracias.
+
+00:06:38.160 --> 00:06:41.160
+Esto les puede parecer trivial pero es muy importante en realidad
+
+00:06:41.160 --> 00:06:43.160
+porque no es algo que se vea hoy
+
+00:06:43.160 --> 00:06:45.160
+en los mundos virtuales o interactivos.
+
+00:06:48.160 --> 00:06:51.160
+Y hemos decidido en esta etapa comenzar una compañía y echar esto a andar
+
+00:06:51.160 --> 00:06:54.160
+porque este bípedo bien cuadrado es bastante simple.
+
+00:06:54.160 --> 00:06:56.160
+Lo que en verdad queríamos era un cuerpo humano completo,
+
+00:06:56.160 --> 00:06:57.160
+así que empezamos una compañía.
+
+00:06:57.160 --> 00:07:02.160
+Contratamos a un equipo de físicos, ingenieros de software y biólogos
+
+00:07:02.160 --> 00:07:05.160
+para que trabajaran en esto, y la primera cosa en la que tuvimos que trabajar fue
+
+00:07:05.160 --> 00:07:09.160
+básicamente en crear un cuerpo humano.
+
+00:07:09.160 --> 00:07:12.160
+Tiene que ser relativamente rápido para que pueda correr en una máquina normal,
+
+00:07:12.160 --> 00:07:15.160
+pero debe ser precisa para que se vea bien, básicamente.
+
+00:07:15.160 --> 00:07:18.160
+Le ponemos bastante conocimiento biomecánico,
+
+00:07:18.160 --> 00:07:22.160
+y lo tratamos de hacer lo más realista posible.
+
+00:07:22.160 --> 00:07:24.160
+Lo que se ve aquí en pantalla
+
+00:07:24.160 --> 00:07:26.160
+es una visualización simple de ese cuerpo.
+
+00:07:26.160 --> 00:07:30.160
+Debería decir también que es muy simple añadir pelo, ropa, etc.,
+
+00:07:30.160 --> 00:07:33.160
+pero lo que hicimos aquí es una animación simple
+
+00:07:33.160 --> 00:07:35.160
+para que uno se concentre en el movimiento.
+
+00:07:35.160 --> 00:07:38.160
+Lo que voy a hacer ahora, en un momento,
+
+00:07:38.160 --> 00:07:41.160
+es nada más empujar a este personaje y veremos lo que pasa.
+
+00:07:46.160 --> 00:07:48.160
+Nada muy interesante la verdad.
+
+00:07:48.160 --> 00:07:51.160
+Se cae pero se cae como una muñeca de trapo.
+
+00:07:51.160 --> 00:07:54.160
+La razón de eso es que no hay inteligencia en ella.
+
+00:07:54.160 --> 00:07:58.160
+Se vuelve intersante cuando uno le pone inteligencia artificial.
+
+00:07:58.160 --> 00:08:02.160
+Así que ahora este personaje tiene habilidades motoras en su parte superior.
+
+00:08:02.160 --> 00:08:04.160
+No hay nada en las piernas aún en este ejemplo en particular.
+
+00:08:04.160 --> 00:08:07.160
+Pero lo que voy a hacer, lo voy a empujar nuevamente.
+
+00:08:07.160 --> 00:08:09.160
+Se dará cuenta autónomamente que se le está empujando.
+
+00:08:09.160 --> 00:08:11.160
+Va a sacar sus manos.
+
+00:08:11.160 --> 00:08:14.160
+Se dará una vuelta hacia la caída y va a tratar de agarrarla.
+
+00:08:20.160 --> 00:08:22.160
+Y eso es lo que ven aquí.
+
+00:08:22.160 --> 00:08:24.160
+Ahora sí que se pone muy interesante
+
+00:08:24.160 --> 00:08:28.160
+si yo le agrego IA también a la parte baja de su cuerpo.
+
+00:08:28.160 --> 00:08:30.160
+Entonces aquí tenemos al mismo personaje.
+
+00:08:30.160 --> 00:08:32.160
+Lo voy a empujar un poco más fuerte esta vez,
+
+00:08:32.160 --> 00:08:34.160
+más fuerte de lo que empujé a Chris.
+
+00:08:34.160 --> 00:08:38.160
+Pero ahora van a ver un empujón desde la izquierda.
+
+00:08:41.160 --> 00:08:43.160
+Lo que ven es que da un paso hacia atrás...
+
+00:08:43.160 --> 00:08:45.160
+trata de hacer contrapeso,
+
+00:08:45.160 --> 00:08:49.160
+trata de ver el lugar en donde piensa que se va a caer.
+
+00:08:49.160 --> 00:08:51.160
+Se los voy a mostrar otra vez.
+
+00:08:51.160 --> 00:08:54.160
+Y finalmente toca el suelo.
+
+00:08:55.160 --> 00:08:58.160
+Esto sí que se vuelve entretenido
+
+00:08:58.160 --> 00:09:03.160
+cuando uno empuja al personaje en direcciones diferentes, tal cual lo he hecho.
+
+00:09:03.160 --> 00:09:07.160
+Eso es algo que uno no puede hacer ahora.
+
+00:09:07.160 --> 00:09:10.160
+Por el momento en los juegos sólo tenemos gráficos vacíos.
+
+00:09:10.160 --> 00:09:13.160
+Lo de ahora es una simulación real. Esto es lo que quería mostrarles.
+
+00:09:13.160 --> 00:09:16.160
+Entonces, aquí tenemos al mismo personaje con el mismo comportamiento que les he mostrado,
+
+00:09:16.160 --> 00:09:18.160
+pero lo voy a empujar en direcciones diferentes.
+
+00:09:18.160 --> 00:09:20.160
+Lo primero es comenzar con un empujón a la derecha.
+
+00:09:23.160 --> 00:09:26.160
+Esto es todo en cámara lenta, por cierto, para que podamos ver lo que sucede.
+
+00:09:26.160 --> 00:09:29.160
+Ahora voy a cambiar el ángulo ligeramente
+
+00:09:29.160 --> 00:09:33.160
+para que puedan ver que la reacción es diferente.
+
+00:09:33.160 --> 00:09:36.160
+Nuevamente, un empujón, esta vez desde el frente.
+
+00:09:37.160 --> 00:09:39.160
+Y se pude ver que cae de forma diferente.
+
+00:09:39.160 --> 00:09:41.160
+Y ahora desde la izquierda.
+
+00:09:43.160 --> 00:09:45.160
+Y cae de forma diferente.
+
+00:09:45.160 --> 00:09:47.160
+Para nosotros ver esto fue algo emocionante.
+
+00:09:47.160 --> 00:09:49.160
+Esa fue la primera vez que lo logramos.
+
+00:09:49.160 --> 00:09:51.160
+Esta es también la primera vez que el público lo ve
+
+00:09:51.160 --> 00:09:53.160
+porque hemos visto el modo sigiloso.
+
+00:09:53.160 --> 00:09:55.160
+No le he mostrado esto a nadie aún.
+
+00:09:55.160 --> 00:09:57.160
+Ahora, algo chistoso.
+
+00:09:57.160 --> 00:09:59.160
+Qué pasa si uno pone a este personaje --
+
+00:09:59.160 --> 00:10:01.160
+esta es una versión en madera, pero tiene la misma IA dentro
+
+00:10:01.160 --> 00:10:03.160
+y si se pone a este personaje en una superficie resbaladiza, como el hielo.
+
+00:10:03.160 --> 00:10:06.160
+Sólo lo hicimos para reírnos, sólo para ver que pasaba.
+
+00:10:06.160 --> 00:10:07.160
+(Risas)
+
+00:10:07.160 --> 00:10:09.160
+Y esto es lo que pasa.
+
+00:10:09.160 --> 00:10:12.160
+(Risas)
+
+00:10:12.160 --> 00:10:15.160
+(Aplausos)
+
+00:10:15.160 --> 00:10:17.160
+No pretendíamos nada con esto.
+
+00:10:17.160 --> 00:10:19.160
+Sólo usamos este personaje del que hablamos,
+
+00:10:19.160 --> 00:10:22.160
+lo pusimos en una superficie resbaladiza, y esto es lo que pasa.
+
+00:10:22.160 --> 00:10:25.160
+Y esto es lo fascinante de este proyecto.
+
+00:10:26.160 --> 00:10:29.160
+Ahora, cuando fuimos a los estudios de filmación y desarrolladores de juegos
+
+00:10:29.160 --> 00:10:32.160
+y les mostramos esta tecnología, obtuvimos una muy buena respuesta.
+
+00:10:32.160 --> 00:10:36.160
+Y lo que nos dijeron fue, lo primero, que necesitaban un doble virtual.
+
+00:10:36.160 --> 00:10:40.160
+Porque las proezas son obviamente peligrosas, y son muy caras,
+
+00:10:40.160 --> 00:10:42.160
+y hay muchas escenas de riesgo que no pueden hacerse
+
+00:10:42.160 --> 00:10:45.160
+porque uno no puede permitir que el doble salga afectado.
+
+00:10:45.160 --> 00:10:48.160
+Entonces ellos querían tener una versión digital de un doble.
+
+00:10:48.160 --> 00:10:50.160
+En esto hemos estado trabajando durante meses.
+
+00:10:50.160 --> 00:10:55.160
+Y este es el primer producto que vamos a lanzar en un par de semanas.
+
+00:10:55.160 --> 00:11:00.160
+Y aquí unas escenas muy simples del tipo recibiendo puntapies.
+
+00:11:00.160 --> 00:11:02.160
+Eso es lo que la gente quiere. Eso es lo que les estamos dando.
+
+00:11:02.160 --> 00:11:09.160
+(Risas)
+
+00:11:09.160 --> 00:11:11.160
+Como ven, siempre está reaccionando.
+
+00:11:11.160 --> 00:11:15.160
+Este no es un cuerpo muerto. Es un cuerpo que, básicamente, en este caso en particular
+
+00:11:15.160 --> 00:11:17.160
+siente la fuerza y trata de proteger su cabeza.
+
+00:11:17.160 --> 00:11:19.160
+Sólo que creo que es un gran golpe.
+
+00:11:19.160 --> 00:11:21.160
+Uno se siente un poco mal por estas cosas
+
+00:11:21.160 --> 00:11:23.160
+pero lo hemos visto tantas veces que
+
+00:11:23.160 --> 00:11:25.160
+la verdad, ya no nos importa.
+
+00:11:25.160 --> 00:11:26.160
+(Risas)
+
+00:11:26.160 --> 00:11:30.160
+He mostrado videos peores que este, por cierto, pero...
+
+00:11:31.160 --> 00:11:33.160
+aquí hay otro.
+
+00:11:33.160 --> 00:11:37.160
+Lo que la gente quería como comportamiento era tener una explosión,
+
+00:11:37.160 --> 00:11:39.160
+una fuerza enorme aplicada hacia el personaje,
+
+00:11:39.160 --> 00:11:41.160
+y hacer que el personaje reaccione en el aire.
+
+00:11:41.160 --> 00:11:43.160
+Para que no se tenga un personaje que se vea discapacitado,
+
+00:11:43.160 --> 00:11:46.160
+sino un personaje que uno puede usar en películas de acción inmediatamente
+
+00:11:46.160 --> 00:11:48.160
+que se vea más o menos vivo en el aire también.
+
+00:11:48.160 --> 00:11:50.160
+Este personaje será golpeado por una fuerza,
+
+00:11:50.160 --> 00:11:52.160
+se dará cuenta de que está en el aire
+
+00:11:52.160 --> 00:11:55.160
+y va a tratar y, bueno,
+
+00:11:55.160 --> 00:11:57.160
+sacar su brazo en la dirección donde va a caer.
+
+00:11:59.160 --> 00:12:02.160
+Ese es un ángulo, aquí tenemos otro ángulo.
+
+00:12:02.160 --> 00:12:04.160
+Ahora pensamos que el realismo que estamos logrando con esto
+
+00:12:04.160 --> 00:12:06.160
+es suficiente para ser usado en películas.
+
+00:12:06.160 --> 00:12:09.160
+Y ahora demos una mirada a una visualización un poco diferente.
+
+00:12:09.160 --> 00:12:11.160
+Esto es algo que apenas me llegó anoche
+
+00:12:11.160 --> 00:12:14.160
+de un estudio de animación de Londres que está usando nuestro programa
+
+00:12:14.160 --> 00:12:16.160
+y experimentando con él por ahora.
+
+00:12:16.160 --> 00:12:19.160
+Este es el mismo comportamiento que vieron,
+
+00:12:19.160 --> 00:12:23.160
+pero con una versión mejorada.
+
+00:12:23.160 --> 00:12:26.160
+Si ven al personaje con cuidado
+
+00:12:26.160 --> 00:12:28.160
+se ven varios movimientos corporales,
+
+00:12:28.160 --> 00:12:30.160
+pero ninguno se tiene que animar como en los viejos tiempos.
+
+00:12:30.160 --> 00:12:32.160
+Los animadores tenían que imitarlos.
+
+00:12:32.160 --> 00:12:34.160
+Esto está pasando en la simulación de forma automática.
+
+00:12:34.160 --> 00:12:36.160
+Este es un ángulo diferente,
+
+00:12:39.160 --> 00:12:41.160
+y una versión en cámara lenta.
+
+00:12:41.160 --> 00:12:45.160
+Esto es realmente rápido. Está pasando en tiempo real.
+
+00:12:45.160 --> 00:12:47.160
+Uno puede echar a andar esta simulación en tiempo real, en vivo,
+
+00:12:47.160 --> 00:12:50.160
+cambiarla si uno quiere, y se obtiene la animación.
+
+00:12:50.160 --> 00:12:52.160
+Ahora, hacer algo así a mano
+
+00:12:52.160 --> 00:12:54.160
+llevaría, tal vez, un par de días.
+
+00:12:55.160 --> 00:12:58.160
+Este es otro tipo de comportamiento que se pidió.
+
+00:12:58.160 --> 00:13:00.160
+No sé por qué, pero igual lo hicimos.
+
+00:13:00.160 --> 00:13:02.160
+Es un comportamiento simple que muestra el poder de este enfoque.
+
+00:13:02.160 --> 00:13:04.160
+En este caso las manos del personaje
+
+00:13:04.160 --> 00:13:06.160
+están fijas a un punto en el espacio,
+
+00:13:06.160 --> 00:13:09.160
+y le hemos dicho al personaje que batalle.
+
+00:13:09.160 --> 00:13:12.160
+Se ve orgánico. Se ve real.
+
+00:13:12.160 --> 00:13:14.160
+Uno se siente un poco mal por ese tipo.
+
+00:13:14.160 --> 00:13:17.160
+Es peor... y este es otro video que recibí anoche...
+
+00:13:17.160 --> 00:13:19.160
+si uno lo hace más realista.
+
+00:13:23.160 --> 00:13:25.160
+Bueno, les estoy mostrando esto para que vean
+
+00:13:25.160 --> 00:13:27.160
+cuán orgánico se siente, y qué tan realista puede verse.
+
+00:13:27.160 --> 00:13:30.160
+Y todo esto es una simulación física del cuerpo,
+
+00:13:30.160 --> 00:13:33.160
+usando IA para dotar a ese cuerpo de músculos virtuales.
+
+00:13:35.160 --> 00:13:38.160
+Ahora, una cosa que hicimos para reirnos un poco fue
+
+00:13:38.160 --> 00:13:40.160
+crear una escena un poco más compleja,
+
+00:13:40.160 --> 00:13:43.160
+y una de las piruetas más famosas es esa que James Bond
+
+00:13:43.160 --> 00:13:47.160
+salta desde una presa en Suiza y después queda suspendido de un bunjee.
+
+00:13:48.160 --> 00:13:50.160
+Aquí tengo un video alusivo.
+
+00:13:54.160 --> 00:13:56.160
+Sí, se puede ver aquí.
+
+00:13:56.160 --> 00:13:59.160
+En este caso ellos estaban usando un doble real. Era una pirueta muy difícil.
+
+00:13:59.160 --> 00:14:02.160
+En el Sunday Times, la votaron como una de las piruetas más impresionantes.
+
+00:14:02.160 --> 00:14:05.160
+Ahora, nos fijamos en nuestro personaje y nos preguntamos:
+
+00:14:05.160 --> 00:14:07.160
+"¿Podremos hacerlo también?"
+
+00:14:07.160 --> 00:14:09.160
+¿Podemos usar la simulación física del personaje,
+
+00:14:09.160 --> 00:14:11.160
+usar inteligencia artificial,
+
+00:14:11.160 --> 00:14:13.160
+poner esa inteligencia artificial en el personaje,
+
+00:14:13.160 --> 00:14:17.160
+mover los músculos virtuales, simular la forma en que salta de la presa,
+
+00:14:17.160 --> 00:14:19.160
+y después salta,
+
+00:14:19.160 --> 00:14:21.160
+y queda pendiendo de un bunjee?
+
+00:14:21.160 --> 00:14:24.160
+Lo hicimos. Nos llevó como 2 horas,
+
+00:14:24.160 --> 00:14:26.160
+más o menos, crear la simulación.
+
+00:14:26.160 --> 00:14:28.160
+Y así es como quedó.
+
+00:14:37.160 --> 00:14:40.160
+Ahora, esto necesita un poco más de trabajo. Aún está en sus etapas iniciales,
+
+00:14:40.160 --> 00:14:42.160
+y sólo lo hicimos para reírnos un poco
+
+00:14:42.160 --> 00:14:44.160
+sólo para ver lo que pasaba.
+
+00:14:44.160 --> 00:14:46.160
+Pero lo que encontramos durante los meses pasados
+
+00:14:46.160 --> 00:14:49.160
+es que este enfoque que es estándar
+
+00:14:49.160 --> 00:14:51.160
+es bastante poderoso.
+
+00:14:51.160 --> 00:14:55.160
+Incluso estamos sorprendidos con los resultados de las simulaciones.
+
+00:14:55.160 --> 00:14:59.160
+Casi siempre encontramos comportamientos que no habíamos predicho.
+
+00:14:59.160 --> 00:15:01.160
+Hay tantas cosas que podemos hacer ahora.
+
+00:15:01.160 --> 00:15:04.160
+Lo primero, como dije, es el doble virtual.
+
+00:15:04.160 --> 00:15:08.160
+Mucho estudios están usando este software para crear dobles de riesgo virtuales,
+
+00:15:08.160 --> 00:15:10.160
+y van a estar en la pantalla grande muy pronto, de hecho,
+
+00:15:10.160 --> 00:15:12.160
+en grandes producciones.
+
+00:15:12.160 --> 00:15:15.160
+Lo segundo son los juegos de video.
+
+00:15:15.160 --> 00:15:19.160
+Con esta tecnología los juegos de video se verán y sentirán diferentes.
+
+00:15:19.160 --> 00:15:22.160
+Por primera vez se tendrán actores realmente interactivos,
+
+00:15:22.160 --> 00:15:24.160
+con cuerpos reales y que reaccionan de verdad.
+
+00:15:24.160 --> 00:15:27.160
+Creo que eso va a ser increíble.
+
+00:15:27.160 --> 00:15:29.160
+Probablemente, empezando con juegos deportivos,
+
+00:15:29.160 --> 00:15:31.160
+que van a ser más interactivos.
+
+00:15:31.160 --> 00:15:32.160
+Pero estoy particularmente entusiasmado
+
+00:15:32.160 --> 00:15:35.160
+por usar esta tecnología en mundos virtuales,
+
+00:15:35.160 --> 00:15:38.160
+como por ejemplo, lo que Tom Melcher nos mostró.
+
+00:15:38.160 --> 00:15:40.160
+El grado de interactividad que van a tener
+
+00:15:40.160 --> 00:15:43.160
+es completamente diferente, creo, a partir de lo que tienen ahora.
+
+00:15:44.160 --> 00:15:48.160
+Una tercera cosa que estamos investigando y nos interesa es la simulación.
+
+00:15:49.160 --> 00:15:51.160
+Se nos han acercado muchas compañías de simulación,
+
+00:15:51.160 --> 00:15:54.160
+pero un proyecto que nos tiene en vilo, que estamos empezando el mes que viene,
+
+00:15:54.160 --> 00:15:58.160
+es usar nuestra tecnología, y en particular, la tecnología para caminar,
+
+00:15:58.160 --> 00:16:02.160
+para ayudar a cirujanos que trabajan con niños con parálisis cerebral,
+
+00:16:02.160 --> 00:16:05.160
+a predecir el resultado de las operaciones de estos niños.
+
+00:16:05.160 --> 00:16:07.160
+Como han se saber,
+
+00:16:07.160 --> 00:16:10.160
+es muy difícil predecir lo que va a pasar en una operación si
+
+00:16:10.160 --> 00:16:12.160
+uno intenta corregir el modo de andar.
+
+00:16:12.160 --> 00:16:15.160
+La cita clásica es, creo, es impredecible en el mejor de los casos,
+
+00:16:15.160 --> 00:16:18.160
+es lo que la gente piensa ahora, es el resultado.
+
+00:16:18.160 --> 00:16:22.160
+Lo que queremos hacer con nuestro software es permitirle a los cirujanos tener una herramienta.
+
+00:16:22.160 --> 00:16:25.160
+Vamos a simular el andar de un niño en particular
+
+00:16:25.160 --> 00:16:28.160
+y el cirujano puede trabajar en la simulación
+
+00:16:28.160 --> 00:16:30.160
+y probar formas diferentes de mejorar su andar
+
+00:16:30.160 --> 00:16:33.160
+antes de hacer una cirugía real.
+
+00:16:33.160 --> 00:16:35.160
+Eso es algo que nos entusiasma mucho,
+
+00:16:35.160 --> 00:16:37.160
+y va a comenzar el mes que viene.
+
+00:16:39.160 --> 00:16:42.160
+Finalmente, esto es sólo el comienzo.
+
+00:16:42.160 --> 00:16:44.160
+Ahora podemos simular varios comportamientos.
+
+00:16:44.160 --> 00:16:47.160
+La inteligencia artificial no es tan buena como para simular todo el cuerpo humano.
+
+00:16:47.160 --> 00:16:50.160
+Sí el cuerpo, pero no todas las habilidades motoras que poseemos.
+
+00:16:50.160 --> 00:16:53.160
+Y, creo que lo habremos logrado cuando podamos hacer bailar ballet.
+
+00:16:53.160 --> 00:16:55.160
+Todavía no lo logramos
+
+00:16:55.160 --> 00:16:57.160
+pero estoy seguro de que seremos capaces de hacerlo en algún momento.
+
+00:16:57.160 --> 00:17:00.160
+De hecho, sí tenemos un bailarín involuntario
+
+00:17:00.160 --> 00:17:02.160
+es lo último que quería mostrarles.
+
+00:17:02.160 --> 00:17:05.160
+Esto es una inteligencia artificial que produjimos y evolucionó --
+
+00:17:05.160 --> 00:17:08.160
+evolucionó a medias, diría, para producir equilibrio.
+
+00:17:08.160 --> 00:17:11.160
+Uno patea al tipo y se supone que tiene que equilibrarse.
+
+00:17:11.160 --> 00:17:14.160
+Eso era lo que pensamos que resultaría de esto.
+
+00:17:14.160 --> 00:17:16.160
+Pero esto es lo que finalmente pasó.
+
+00:17:17.160 --> 00:17:27.160
+(Música)
+
+00:17:27.160 --> 00:17:30.160
+No tiene cabeza y no sabemos por qué.
+
+00:17:31.160 --> 00:17:33.160
+Esto no es algo que hayamos puesto.
+
+00:17:33.160 --> 00:17:37.160
+Él comenzó a crear el baile por sí mismo.
+
+00:17:37.160 --> 00:17:40.160
+Es mejor bailarín que yo, debo decir.
+
+00:17:41.160 --> 00:17:43.160
+Y lo que ven después de un rato...
+
+00:17:43.160 --> 00:17:45.160
+creo que llega a un clímax al final.
+
+00:17:49.160 --> 00:17:52.160
+Creo... ahí va.
+
+00:17:52.160 --> 00:17:54.160
+(Risas)
+
+00:17:54.160 --> 00:17:56.160
+Así que todo eso pasó automáticamente sin agregarle nada.
+
+00:17:56.160 --> 00:17:59.160
+Es la simulación la que, básicamente, crea esto por sí misma.
+
+00:17:59.160 --> 00:18:01.160
+Es sólo...
+
+00:18:01.160 --> 00:18:02.160
+(Aplausos)
+
+00:18:02.160 --> 00:18:04.160
+Gracias.
+
+00:18:05.160 --> 00:18:08.160
+No es John Travolta, todavía, pero estamos en eso también.
+
+00:18:08.160 --> 00:18:10.160
+Gracias por su tiempo.
+
+00:18:10.160 --> 00:18:11.160
+Gracias.
+
+00:18:11.160 --> 00:18:12.160
+(Aplausos)
+
+00:18:12.160 --> 00:18:14.160
+Chris Anderson: Inceríble. Fue realmente increíble.
+
+00:18:14.160 --> 00:18:15.160
+Tosten Reil: Gracias.
+

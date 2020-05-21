@@ -1,0 +1,1127 @@
+WEBVTT
+Kind: captions
+Language: pt
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Fernando Gonçalves
+Revisor: Georgina Flores
+
+00:00:12.760 --> 00:00:14.600
+Este é o Pleurobô.
+
+00:00:15.400 --> 00:00:18.740
+Ele é um robô que foi projetado
+para imitar a espécie das salamandras
+
+00:00:18.740 --> 00:00:20.440
+chamada: "Pleurodeles waltl".
+
+00:00:21.240 --> 00:00:23.490
+Ele consegue andar, como podem ver,
+
+00:00:23.490 --> 00:00:25.560
+e também consegue nadar,
+como verão adiante.
+
+00:00:26.120 --> 00:00:28.691
+Pode surgir a pergunta:
+"Por que projetamos este robô?"
+
+00:00:28.960 --> 00:00:32.722
+Ele foi projetado como uma ferramenta
+científica para a neurociência.
+
+00:00:33.400 --> 00:00:35.820
+De fato, o desenvolvemos
+com neurobiologistas
+
+00:00:35.820 --> 00:00:37.810
+para entender como os animais se movem
+
+00:00:37.810 --> 00:00:40.740
+e, especialmente, como a medula espinhal
+controla o movimento.
+
+00:00:41.340 --> 00:00:43.300
+Mas quanto mais trabalho em biorrobótica,
+
+00:00:43.300 --> 00:00:45.661
+mais me impressiono pela locomoção animal.
+
+00:00:45.920 --> 00:00:50.210
+Se pensarmos num golfinho nadando,
+num gato correndo ou pulando por aí...
+
+00:00:50.210 --> 00:00:51.810
+ou ate mesmo em nós, humanos,
+
+00:00:51.810 --> 00:00:53.650
+quando corremos ou jogamos tênis,
+
+00:00:53.650 --> 00:00:55.050
+fazemos coisas incríveis.
+
+00:00:55.880 --> 00:01:00.000
+E de fato, nosso sistema nervoso resolve
+um problema de controle muito complexo.
+
+00:01:00.000 --> 00:01:03.120
+Ele tem que coordenar, mais ou menos,
+200 músculos perfeitamente,
+
+00:01:03.120 --> 00:01:06.880
+porque se a coordenação for ruim,
+cairemos ou nos locomoveremos mal.
+
+00:01:07.560 --> 00:01:10.280
+E meu objetivo é entender
+como isso funciona.
+
+00:01:11.120 --> 00:01:14.080
+Há quatro componentes principais
+por trás da locomoção animal.
+
+00:01:14.800 --> 00:01:16.750
+O primeiro componente é o corpo em si,
+
+00:01:16.750 --> 00:01:18.240
+e nunca deveríamos subestimar
+
+00:01:18.240 --> 00:01:22.240
+em que medida a biomecânica
+já simplifica a locomoção em animais.
+
+00:01:22.920 --> 00:01:24.326
+Depois, há a medula espinhal,
+
+00:01:24.326 --> 00:01:26.360
+e nela há os reflexos;
+
+00:01:26.360 --> 00:01:29.840
+múltiplos reflexos que criam
+um circuito de coordenação sensório-motora
+
+00:01:29.840 --> 00:01:33.440
+entre a atividade neuronal
+na medula espinhal e a atividade mecânica.
+
+00:01:34.000 --> 00:01:36.976
+O terceiro componente
+são os geradores de padrão central.
+
+00:01:36.980 --> 00:01:40.850
+São circuitos bem interessantes
+na medula espinhal de animais vertebrados
+
+00:01:40.850 --> 00:01:42.530
+que podem gerar, por si mesmos,
+
+00:01:42.530 --> 00:01:45.230
+padrões rítmicos de atividade
+bem coordenados
+
+00:01:45.230 --> 00:01:47.750
+enquanto recebem apenas
+sinais de entrada bem simples.
+
+00:01:47.750 --> 00:01:48.966
+E esses sinais de entrada
+
+00:01:48.966 --> 00:01:52.066
+que vêm da modulação descendente
+das partes mais altas do cérebro,
+
+00:01:52.066 --> 00:01:54.500
+como o córtex motor, o cerebelo,
+os gânglios basais,
+
+00:01:54.500 --> 00:01:56.730
+irão modular a atividade
+da medula espinhal
+
+00:01:56.730 --> 00:01:58.360
+enquanto nos locomovemos.
+
+00:01:58.360 --> 00:02:01.600
+Mas o interessante é que apenas
+um componente de baixo nível,
+
+00:02:01.600 --> 00:02:03.230
+a medula espinhal, com o corpo,
+
+00:02:03.230 --> 00:02:05.770
+já resolve a maior parte
+do problema de locomoção.
+
+00:02:05.770 --> 00:02:08.642
+Sabe-se disso, pois se a cabeça
+de uma galinha for arrancada,
+
+00:02:08.642 --> 00:02:09.927
+ela ainda correrá um pouco,
+
+00:02:09.927 --> 00:02:12.756
+mostrando que apenas a parte baixa,
+medula espinhal e corpo,
+
+00:02:12.756 --> 00:02:14.783
+já resolve uma grande parte da locomoção.
+
+00:02:15.453 --> 00:02:17.850
+Agora, entender como isso funciona
+é bem complexo,
+
+00:02:17.850 --> 00:02:19.150
+porque, em primeiro lugar,
+
+00:02:19.150 --> 00:02:21.814
+registrar a atividade
+na medula espinhal é muito difícil.
+
+00:02:21.814 --> 00:02:24.590
+É mais fácil implantar eletrodos
+no córtex motor
+
+00:02:24.590 --> 00:02:27.680
+do que na medula espinhal,
+já que ela é protegida pelas vértebras.
+
+00:02:27.680 --> 00:02:29.560
+É muito difícil de se fazer em humanos.
+
+00:02:29.560 --> 00:02:33.330
+A segunda dificuldade é que a locomoção
+se dá numa complicadíssima
+
+00:02:33.330 --> 00:02:36.400
+e muito dinâmica interação
+entre esses quatro componentes.
+
+00:02:36.400 --> 00:02:39.680
+Então é bem difícil descobrir
+qual é o papel de cada um o tempo todo.
+
+00:02:40.880 --> 00:02:44.530
+É aí que os biorrobôs, como o Pleurobô
+e modelos matemáticos
+
+00:02:44.530 --> 00:02:45.840
+podem ajudar.
+
+00:02:47.420 --> 00:02:48.670
+O que são os biorrobôs?
+
+00:02:48.670 --> 00:02:51.490
+Os biorrobôs são um campo bem ativo
+de pesquisa na Robótica,
+
+00:02:51.490 --> 00:02:53.976
+no qual as pessoas querem
+se inspirar nos animais
+
+00:02:53.980 --> 00:02:56.440
+para fazer com que os robôs
+saiam ao ar livre,
+
+00:02:56.440 --> 00:02:59.000
+como os robôs de manutenção,
+de pesquisa e resgate
+
+00:02:59.000 --> 00:03:00.360
+ou de campo.
+
+00:03:00.800 --> 00:03:03.000
+E o maior objetivo
+é se inspirar nos animais
+
+00:03:03.000 --> 00:03:05.280
+para que os robôs lidem
+com terrenos complexos:
+
+00:03:05.280 --> 00:03:07.440
+escadas, montanhas, florestas,
+
+00:03:07.440 --> 00:03:11.340
+lugares onde eles ainda têm dificuldades
+e onde os animais se viram muito melhor.
+
+00:03:11.340 --> 00:03:14.206
+O robô pode ser uma maravilhosa
+ferramenta científica também.
+
+00:03:14.206 --> 00:03:16.504
+Há uns projetos legais
+em que os robôs são usados
+
+00:03:16.504 --> 00:03:19.500
+como uma ferramenta científica
+para a neurociência, biomecânica
+
+00:03:19.500 --> 00:03:20.880
+ou hidrodinâmica.
+
+00:03:20.880 --> 00:03:23.170
+E essa é exatamente
+a finalidade do Pleurobô.
+
+00:03:23.400 --> 00:03:26.590
+E o que fazemos no meu laboratório
+é colaborar com neurobiologistas,
+
+00:03:26.590 --> 00:03:29.826
+como Jean-Marie Cabelguen,
+um neurobiologista de Bordeaux, na França,
+
+00:03:29.826 --> 00:03:33.940
+e queremos fazer modelos
+de medula espinhal e validá-los nos robôs.
+
+00:03:34.390 --> 00:03:35.846
+E queremos começar do básico.
+
+00:03:35.846 --> 00:03:37.900
+Então é bom começar com animais simples,
+
+00:03:37.900 --> 00:03:40.340
+como as lampreias,
+que são peixes bem primitivos
+
+00:03:40.340 --> 00:03:42.870
+e aos poucos avançar
+para a locomoção mais complexa,
+
+00:03:42.870 --> 00:03:44.160
+como a das salamandras,
+
+00:03:44.160 --> 00:03:45.690
+mas também a dos gatos, humanos
+
+00:03:45.690 --> 00:03:46.920
+e mamíferos.
+
+00:03:47.820 --> 00:03:50.250
+E aqui o robô torna-se
+uma interessante ferramenta
+
+00:03:50.250 --> 00:03:52.070
+para validar nossos modelos.
+
+00:03:52.070 --> 00:03:55.406
+De fato, para mim, o Pleurobô
+é um tipo de sonho se tornando realidade.
+
+00:03:55.406 --> 00:03:58.430
+Há mais ou menos 20 anos,
+eu já trabalhava no computador
+
+00:03:58.440 --> 00:04:01.306
+fazendo simulações da locomoção
+das lampreias e salamandras,
+
+00:04:01.306 --> 00:04:02.776
+durante meu doutorado.
+
+00:04:02.780 --> 00:04:06.170
+Mas eu sempre soube que minhas simulações
+eram apenas aproximações.
+
+00:04:06.170 --> 00:04:10.110
+Por exemplo, simular a física na água,
+ou na lama, ou num terreno complexo;
+
+00:04:10.110 --> 00:04:12.840
+é muito difícil simular isso
+adequadamente num computador.
+
+00:04:12.840 --> 00:04:15.010
+Por que não ter um robô real
+e física real?
+
+00:04:15.600 --> 00:04:18.730
+Dentre todos esses animais,
+um dos meus favoritos é a salamandra.
+
+00:04:18.730 --> 00:04:22.210
+Dá para questionar o porquê disso;
+a razão é que, como um anfíbio,
+
+00:04:22.210 --> 00:04:24.600
+é um animal chave
+do ponto de vista evolutivo.
+
+00:04:24.600 --> 00:04:26.970
+Ela faz uma maravilhosa ligação
+entre o nado,
+
+00:04:26.970 --> 00:04:29.080
+como se vê nas enguias ou peixes,
+
+00:04:29.080 --> 00:04:33.370
+e a locomoção quadrúpede,
+como se vê nos mamíferos, gatos e humanos.
+
+00:04:34.000 --> 00:04:35.540
+Na verdade, a salamandra moderna
+
+00:04:35.540 --> 00:04:37.790
+é bem próxima do primeiro
+vertebrado terrestre,
+
+00:04:37.790 --> 00:04:39.640
+então ela é quase um fóssil vivo
+
+00:04:39.640 --> 00:04:41.730
+que nos dá acesso ao nosso ancestral,
+
+00:04:41.730 --> 00:04:44.680
+o ancestral de todos
+os tetrápodes terrestres.
+
+00:04:45.240 --> 00:04:46.570
+A salamandra nada
+
+00:04:46.570 --> 00:04:48.720
+ao fazer o que se chama
+natação anguiliforme.
+
+00:04:48.720 --> 00:04:52.680
+Ela propaga uma interessante onda
+de atividade muscular, da cabeça à cauda.
+
+00:04:53.430 --> 00:04:55.150
+E se a salamandra for posta no chão,
+
+00:04:55.150 --> 00:04:57.810
+ela muda para o que se chama
+caminhada em marcha.
+
+00:04:57.810 --> 00:05:00.757
+Neste caso, há uma interessante
+ativação periódica dos membros,
+
+00:05:00.757 --> 00:05:05.140
+que são muito bem coordenados,
+com esta ondulação estacionária do corpo,
+
+00:05:05.140 --> 00:05:08.780
+e esta é exatamente a marcha
+que se vê aqui no Pleurobô.
+
+00:05:08.780 --> 00:05:11.870
+Agora, uma coisa que é bem surpreendente
+e fascinante, na verdade,
+
+00:05:11.870 --> 00:05:15.770
+é o fato de que tudo isso pode ser gerado
+apenas pela medula espinhal e o corpo.
+
+00:05:15.790 --> 00:05:18.154
+Então, se pegarmos
+uma salamandra sem o cérebro...
+
+00:05:18.154 --> 00:05:20.254
+não é tão legal,
+pois se remove sua cabeça...
+
+00:05:20.264 --> 00:05:22.590
+e estimularmos eletricamente
+a medula espinhal,
+
+00:05:22.590 --> 00:05:25.970
+num nível baixo de estimulação,
+isso induzirá a uma caminhada em marcha.
+
+00:05:25.970 --> 00:05:28.510
+Se a estimulação for um pouco maior,
+a marcha acelera.
+
+00:05:28.510 --> 00:05:30.440
+Em determinado ponto, há um limiar
+
+00:05:30.440 --> 00:05:32.490
+e, automaticamente,
+o animal começa a nadar.
+
+00:05:32.900 --> 00:05:34.160
+Isso é incrível!
+
+00:05:34.180 --> 00:05:37.660
+Apenas mudando o estímulo global,
+como se estivesse pisando no acelerador
+
+00:05:37.670 --> 00:05:39.760
+da modulação descendente
+à medula espinhal,
+
+00:05:39.760 --> 00:05:43.230
+faz com que ocorra uma mudança completa
+entre duas marchas bem diferentes.
+
+00:05:44.440 --> 00:05:46.790
+O mesmo fenômeno foi observado em gatos.
+
+00:05:46.790 --> 00:05:48.980
+Estimulando a medula espinhal de um gato,
+
+00:05:48.980 --> 00:05:51.430
+pode-se mudar entre o caminhar,
+o trote e o galope.
+
+00:05:51.430 --> 00:05:54.020
+Ou em pássaros, pode-se mudar
+entre caminhada,
+
+00:05:54.020 --> 00:05:55.510
+num nível baixo de estimulação,
+
+00:05:55.510 --> 00:05:58.350
+e o bater de asas num nível alto.
+
+00:05:58.350 --> 00:06:00.400
+E isso mostra que a medula espinhal
+
+00:06:00.400 --> 00:06:02.730
+é um controlador de locomoção
+muito sofisticado.
+
+00:06:02.730 --> 00:06:05.400
+Então estudamos a locomoção
+da salamandra detalhadamente,
+
+00:06:05.400 --> 00:06:08.430
+e conseguimos ter acesso
+a uma máquina de vídeo de raio X
+
+00:06:08.430 --> 00:06:12.040
+do Professor Martin Fischer
+na Universidade de Jena, na Alemanha.
+
+00:06:12.040 --> 00:06:14.380
+E graças a isso, há uma máquina incrível
+
+00:06:14.380 --> 00:06:17.160
+para registrar toda a movimentação
+de ossos detalhadamente.
+
+00:06:17.160 --> 00:06:18.400
+Foi isso o que fizemos.
+
+00:06:18.400 --> 00:06:21.610
+Basicamente, descobrimos quais ossos
+são importantes para nós
+
+00:06:21.610 --> 00:06:24.200
+e coletamos seus movimentos em 3D.
+
+00:06:24.200 --> 00:06:27.360
+O que fizemos foi coletar
+um banco de dados completo de movimentos,
+
+00:06:27.360 --> 00:06:28.700
+tanto na terra como na água,
+
+00:06:28.700 --> 00:06:31.459
+para ter um banco de dados pleno
+dos comportamentos motores
+
+00:06:31.459 --> 00:06:32.848
+que um animal de verdade tem.
+
+00:06:32.848 --> 00:06:35.893
+E nosso trabalho como roboticistas
+foi replicar isso no robô.
+
+00:06:35.893 --> 00:06:39.460
+Fizemos um completo processo de otimização
+para encontrar a estrutura certa,
+
+00:06:39.460 --> 00:06:42.080
+onde colocar os motores, como conectá-los,
+
+00:06:42.080 --> 00:06:45.280
+para ser capaz de reproduzir os movimentos
+da melhor forma possível.
+
+00:06:45.680 --> 00:06:48.040
+E foi assim que o Pleurobô veio à vida.
+
+00:06:49.200 --> 00:06:52.086
+Vamos ver então a sua semelhança
+em relação a um animal real.
+
+00:06:52.960 --> 00:06:55.440
+O que se vê aqui
+é quase uma comparação direta
+
+00:06:55.440 --> 00:06:58.170
+entre o caminhar de um animal real
+e o Pleurobô.
+
+00:06:58.170 --> 00:07:00.920
+Pode-se notar que temos
+uma reprodução quase exata
+
+00:07:00.920 --> 00:07:02.190
+da caminhada em marcha.
+
+00:07:02.190 --> 00:07:04.840
+Se formos lentamente, 
+a percepção é ainda melhor.
+
+00:07:07.520 --> 00:07:09.700
+Mas melhor ainda, podemos fazê-lo nadar.
+
+00:07:09.700 --> 00:07:12.950
+Para isso temos um traje impermeável
+que colocamos pelo robô inteiro;
+
+00:07:12.950 --> 00:07:14.030
+(Risos)
+
+00:07:14.030 --> 00:07:17.240
+e então podemos colocá-lo na água
+e a começar a reproduzir o nado.
+
+00:07:17.240 --> 00:07:20.550
+Ficamos muito felizes aqui,
+porque isso é bem difícil de se fazer.
+
+00:07:20.550 --> 00:07:22.590
+A física de interação é complexa.
+
+00:07:22.590 --> 00:07:24.920
+Nosso robô é muito maior
+do que um animal pequeno,
+
+00:07:24.920 --> 00:07:28.250
+então fizemos o que se chama
+de escalonamento dinâmico das frequências,
+
+00:07:28.250 --> 00:07:30.940
+para assegurar que tínhamos
+as mesmas interações físicas.
+
+00:07:30.940 --> 00:07:33.320
+Mas nota-se que obtivemos
+uma relação bem próxima
+
+00:07:33.320 --> 00:07:35.230
+e ficamos muito, muito felizes com isso.
+
+00:07:35.480 --> 00:07:37.680
+Vamos então para a medula espinhal.
+
+00:07:37.680 --> 00:07:39.990
+O que fizemos aqui
+com Jean-Marie Cabelguen
+
+00:07:39.990 --> 00:07:42.280
+é um modelo de circuitos
+da medula espinhal.
+
+00:07:43.040 --> 00:07:45.080
+O interessante é que a salamandra
+
+00:07:45.080 --> 00:07:46.864
+manteve um circuito muito primitivo,
+
+00:07:46.864 --> 00:07:49.480
+que é muito parecido
+com o que encontramos na lampreia,
+
+00:07:49.480 --> 00:07:51.350
+esta enguia primitiva;
+
+00:07:51.350 --> 00:07:52.890
+e parece que durante a evolução,
+
+00:07:52.890 --> 00:07:56.340
+novos osciladores neuronais foram 
+adicionados para controlar os membros,
+
+00:07:56.340 --> 00:07:57.830
+para fazer a locomoção da pata.
+
+00:07:57.830 --> 00:07:59.560
+Sabemos onde estão
+esses osciladores,
+
+00:07:59.560 --> 00:08:01.800
+mas o que fizemos
+foi criar um modelo matemático
+
+00:08:01.800 --> 00:08:03.760
+para ver como eles poderiam ser acoplados
+
+00:08:03.760 --> 00:08:06.740
+para permitir a transição entre esses dois
+movimentos díspares.
+
+00:08:06.740 --> 00:08:09.320
+E testamos isso a bordo de um robô.
+
+00:08:09.680 --> 00:08:11.130
+E é assim que fica.
+
+00:08:18.920 --> 00:08:21.890
+O que se vê aqui
+é a versão anterior do Pleurobô
+
+00:08:21.890 --> 00:08:25.040
+que é completamente controlada
+pelo nosso modelo de medula espinhal
+
+00:08:25.040 --> 00:08:26.680
+programada a bordo do robô.
+
+00:08:27.100 --> 00:08:28.410
+E a única coisa que fazemos
+
+00:08:28.410 --> 00:08:30.480
+é enviar ao robô,
+por um controle remoto,
+
+00:08:30.480 --> 00:08:33.180
+os dois sinais descendentes
+que ele normalmente receberia
+
+00:08:33.180 --> 00:08:34.840
+da parte superior do cérebro.
+
+00:08:35.480 --> 00:08:37.400
+E ao brincar com esses sinais,
+
+00:08:37.400 --> 00:08:41.000
+podemos controlar completamente
+a velocidade, direção e tipo de movimento.
+
+00:08:41.600 --> 00:08:42.760
+Por exemplo,
+
+00:08:42.760 --> 00:08:46.250
+quando estimulamos num nível baixo,
+temos o movimento de caminhada,
+
+00:08:46.250 --> 00:08:48.390
+e num determinado ponto,
+se estimulamos muito,
+
+00:08:48.390 --> 00:08:50.600
+rapidamente ele muda para o nado.
+
+00:08:51.250 --> 00:08:53.880
+E finalmente, podemos também
+fazer desvios com destreza,
+
+00:08:53.880 --> 00:08:57.240
+apenas ao estimular mais um lado
+da medula espinhal do que outro.
+
+00:08:58.200 --> 00:08:59.800
+Eu acho muito bonito,
+
+00:08:59.800 --> 00:09:02.070
+o modo como a natureza
+distribuiu o controle
+
+00:09:02.070 --> 00:09:04.730
+para dar à medula espinhal
+muita responsabilidade,
+
+00:09:04.760 --> 00:09:08.390
+assim, a parte superior do cérebro
+não precisa se preocupar com cada músculo,
+
+00:09:08.390 --> 00:09:11.020
+mas apenas com a modulação de alto nível,
+
+00:09:11.020 --> 00:09:14.410
+e esse é o trabalho da medula espinhal
+para coordenar todos os músculos.
+
+00:09:14.810 --> 00:09:18.360
+Vamos agora para a locomoção dos gatos
+e a importância da biomecânica.
+
+00:09:19.080 --> 00:09:20.330
+Este é outro projeto,
+
+00:09:20.330 --> 00:09:22.770
+no qual estudamos a biomecânica dos gatos
+
+00:09:22.770 --> 00:09:26.650
+e queremos ver o quanto a morfologia
+ajuda na locomoção.
+
+00:09:26.650 --> 00:09:30.320
+E encontramos três critérios
+importantes nas propriedades
+
+00:09:30.320 --> 00:09:31.680
+dos membros, basicamente.
+
+00:09:32.320 --> 00:09:34.290
+A primeira é que o membro de um gato
+
+00:09:34.290 --> 00:09:36.990
+parece mais ou menos
+como uma estrutura pantográfica.
+
+00:09:36.990 --> 00:09:39.250
+Um pantógrafo é uma estrutura mecânica
+
+00:09:39.250 --> 00:09:42.770
+que mantém o segmento superior
+e inferior sempre paralelos.
+
+00:09:43.600 --> 00:09:46.690
+Um sistema geométrico simples
+que coordena um pouco
+
+00:09:46.690 --> 00:09:48.410
+o movimento interno dos segmentos.
+
+00:09:48.410 --> 00:09:51.660
+A segunda propriedade dos membros
+dos gatos é que eles são bem leves.
+
+00:09:51.660 --> 00:09:53.490
+A maioria dos músculos está no tronco,
+
+00:09:53.490 --> 00:09:55.970
+uma boa ideia, já que os membros
+têm baixa inércia
+
+00:09:55.970 --> 00:09:58.190
+e podem se mover bem rápido.
+
+00:09:58.190 --> 00:10:01.870
+O último item importante
+é este jeito elástico dos membros felinos,
+
+00:10:01.870 --> 00:10:04.730
+para lidar com impactos e forças.
+
+00:10:04.730 --> 00:10:07.070
+E é assim como projetamos o Cheetah-Cub.
+
+00:10:07.070 --> 00:10:09.320
+Vamos chamar o Cheetah-Cub ao palco.
+
+00:10:14.160 --> 00:10:17.800
+Este é Peter Eckert,
+que faz seu doutorado neste robô,
+
+00:10:17.800 --> 00:10:19.890
+e como se pode ver, é um robozinho bonito.
+
+00:10:19.890 --> 00:10:20.920
+Parece um brinquedo,
+
+00:10:20.920 --> 00:10:23.300
+mas foi usado mesmo
+como uma ferramenta científica
+
+00:10:23.300 --> 00:10:26.560
+para investigar as propriedades
+das patas dos gatos.
+
+00:10:26.560 --> 00:10:29.190
+Como se nota, ele é bem dócil, bem leve
+
+00:10:29.190 --> 00:10:30.490
+e também bem elástico;
+
+00:10:30.490 --> 00:10:33.180
+então dá até para pressioná-lo
+que ele não vai quebrar.
+
+00:10:33.180 --> 00:10:34.760
+Ele vai apenas pular, na verdade.
+
+00:10:34.760 --> 00:10:37.680
+E essa propriedade bem elástica
+é também muito importante.
+
+00:10:39.030 --> 00:10:41.330
+E dá para ver também
+um pouco dessas propriedades
+
+00:10:41.330 --> 00:10:43.680
+desses três segmentos
+da pata como um pantógrafo.
+
+00:10:44.280 --> 00:10:47.040
+O que é mais interessante
+é que esta caminhada bem dinâmica
+
+00:10:47.040 --> 00:10:48.950
+é obtida exclusivamente em malha aberta,
+
+00:10:48.950 --> 00:10:52.110
+ou seja, sem sensores,
+sem malhas complexas de feedback.
+
+00:10:52.110 --> 00:10:54.570
+E isso é interessante, já que significa
+
+00:10:54.570 --> 00:10:58.540
+que apenas a mecânica conseguiu 
+estabilizar esta marcha bem rápida
+
+00:10:58.540 --> 00:11:02.790
+e que a boa mecânica
+praticamente simplifica a locomoção.
+
+00:11:02.790 --> 00:11:06.120
+Na medida em que pudermos
+dificultar um pouco a locomoção,
+
+00:11:06.120 --> 00:11:07.810
+como se pode ver no próximo vídeo,
+
+00:11:07.810 --> 00:11:11.720
+em que fazemos um exercício
+no qual o robô desce um degrau,
+
+00:11:11.720 --> 00:11:13.320
+e ele não cai,
+
+00:11:13.320 --> 00:11:14.960
+o que foi uma surpresa para nós.
+
+00:11:14.960 --> 00:11:16.300
+Este é um pequeno obstáculo.
+
+00:11:16.300 --> 00:11:18.540
+Eu esperava que o robô
+fosse cair imediatamente,
+
+00:11:18.540 --> 00:11:21.120
+pois não há sensores,
+nenhuma malha rápida de feedback.
+
+00:11:21.120 --> 00:11:23.410
+Mas não, somente a mecânica
+estabilizou a marcha,
+
+00:11:23.410 --> 00:11:25.120
+e o robô não cai.
+
+00:11:25.120 --> 00:11:28.270
+Claro, se você aumentar o degrau
+e se você tiver obstáculos,
+
+00:11:28.270 --> 00:11:31.930
+será preciso malhas de controle completas,
+reflexos e tudo mais.
+
+00:11:31.930 --> 00:11:34.770
+Mas o que importa aqui
+é que para um pequeno obstáculo,
+
+00:11:34.770 --> 00:11:36.100
+a mecânica é justa.
+
+00:11:36.100 --> 00:11:38.390
+E creio que isso seja
+uma mensagem bem importante
+
+00:11:38.390 --> 00:11:40.675
+da biomecânica e da robótica
+para a neurociência,
+
+00:11:40.675 --> 00:11:45.495
+dizendo para não subestimar o poder
+do corpo em ajudar na locomoção.
+
+00:11:47.320 --> 00:11:49.900
+Agora, qual é a relação disso
+com a locomoção humana?
+
+00:11:49.900 --> 00:11:53.600
+A locomoção humana é mais complexa
+do que a de um gato ou salamandra,
+
+00:11:54.250 --> 00:11:57.100
+mas, ao mesmo tempo,
+o sistema nervoso humano é bem similar
+
+00:11:57.100 --> 00:11:58.860
+ao dos outros vertebrados.
+
+00:11:58.860 --> 00:12:00.450
+Particularmente a medula espinhal
+
+00:12:00.450 --> 00:12:03.320
+é também o controle fundamental
+para a locomoção nos humanos.
+
+00:12:03.650 --> 00:12:05.980
+É por isso que se há
+uma lesão na medula espinhal,
+
+00:12:05.980 --> 00:12:07.690
+ocorrem danos graves.
+
+00:12:07.690 --> 00:12:10.470
+A pessoa pode ficar
+paraplégica ou tetraplégica.
+
+00:12:10.470 --> 00:12:12.870
+Isso porque o cérebro
+perde a comunicação
+
+00:12:12.870 --> 00:12:14.130
+com a medula espinhal.
+
+00:12:14.130 --> 00:12:16.390
+Precisamente, ele perde
+a modulação descendente
+
+00:12:16.390 --> 00:12:18.360
+para iniciar e modular a locomoção.
+
+00:12:19.550 --> 00:12:21.320
+Um grande objetivo da neuroprostética
+
+00:12:21.320 --> 00:12:23.720
+é ser capaz de reativar essa comunicação
+
+00:12:23.720 --> 00:12:26.200
+usando estimulações elétricas e químicas.
+
+00:12:26.840 --> 00:12:29.430
+E há várias equipes no mundo
+que fazem exatamente isso,
+
+00:12:29.430 --> 00:12:30.480
+especialmente na EPFL.
+
+00:12:30.480 --> 00:12:33.150
+Meus colegas Grégoire Courtine
+e Silvestro Micera,
+
+00:12:33.150 --> 00:12:34.800
+com os quais eu colaboro.
+
+00:12:35.960 --> 00:12:39.030
+Mas para fazer isso adequadamente,
+é muito importante entender
+
+00:12:39.030 --> 00:12:40.800
+como funciona a medula espinhal,
+
+00:12:40.800 --> 00:12:42.520
+como ela interage com o corpo
+
+00:12:42.520 --> 00:12:45.100
+e como o cérebro se comunica com ela.
+
+00:12:45.800 --> 00:12:48.670
+É aí que os robôs e modelos
+que eu apresentei hoje
+
+00:12:48.670 --> 00:12:50.580
+terão, tomara, um papel fundamental
+
+00:12:50.580 --> 00:12:53.290
+em direção a esses importantes objetivos.
+
+00:12:53.290 --> 00:12:54.360
+Obrigado.
+
+00:12:54.360 --> 00:12:59.120
+(Aplausos)
+
+00:13:03.970 --> 00:13:06.776
+Bruno Giussani: Auke, eu vi
+outros robôs em seu laboratório
+
+00:13:06.776 --> 00:13:09.200
+que fazem coisas como nadar na poluição
+
+00:13:09.200 --> 00:13:11.670
+e medi-la enquanto nadam.
+
+00:13:11.670 --> 00:13:12.880
+Mas este aqui,
+
+00:13:12.880 --> 00:13:16.440
+você citou na sua palestra,
+como um projeto à parte,
+
+00:13:17.640 --> 00:13:18.830
+faz busca e regate,
+
+00:13:18.830 --> 00:13:21.050
+e ele tem uma câmera no nariz.
+
+00:13:21.050 --> 00:13:23.350
+Auke Ijspeert: Claro. O robô...
+
+00:13:23.350 --> 00:13:24.833
+Temos alguns projetos derivados
+
+00:13:24.833 --> 00:13:28.270
+que gostaríamos de ter os robôs
+fazendo inspeções de busca e resgate,
+
+00:13:28.270 --> 00:13:30.070
+então agora o robô está vendo você.
+
+00:13:30.070 --> 00:13:33.270
+E o grande sonho é que se você tiver
+uma situação complicada,
+
+00:13:33.270 --> 00:13:36.770
+como um prédio desmoronado
+ou que está inundado,
+
+00:13:36.770 --> 00:13:40.220
+e isso é muito perigoso
+para equipes ou mesmo cães de resgate,
+
+00:13:40.220 --> 00:13:43.030
+por que não enviar um robô
+que pode rastejar, nadar, andar,
+
+00:13:43.050 --> 00:13:46.230
+com uma câmera a bordo para inspecionar,
+identificar sobreviventes
+
+00:13:46.230 --> 00:13:48.910
+e talvez criar um link
+de comunicação com o sobrevivente?
+
+00:13:48.910 --> 00:13:51.910
+BG: Claro, considerando
+que os sobreviventes não fiquem com medo
+
+00:13:51.910 --> 00:13:52.950
+pela forma disso.
+
+00:13:52.950 --> 00:13:55.960
+AI: É, nós devíamos
+mudar um pouco a aparência,
+
+00:13:55.960 --> 00:13:58.970
+porque eu acho que aqui o sobrevivente
+poderia morrer de infarto
+
+00:13:58.970 --> 00:14:01.300
+ao temer que isso fosse
+se alimentar dele.
+
+00:14:01.300 --> 00:14:03.820
+Mas ao mudarmos a aparência
+e torná-lo mais robusto,
+
+00:14:03.820 --> 00:14:05.820
+estou certo de que será
+uma boa ferramenta.
+
+00:14:05.820 --> 00:14:08.236
+BG: Muito obrigado.
+Obrigado a você e à sua equipe.
+

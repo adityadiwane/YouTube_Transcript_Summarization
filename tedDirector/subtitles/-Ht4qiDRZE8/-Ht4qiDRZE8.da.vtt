@@ -1,0 +1,1259 @@
+WEBVTT
+Kind: captions
+Language: da
+
+00:00:00.000 --> 00:00:07.000
+Translator: Bjarne Poulsen
+Reviewer: Morten Kelder Skouboe
+
+00:00:15.260 --> 00:00:17.260
+Hvor mange her har prøvet at udfylde en formular på internettet,
+
+00:00:17.260 --> 00:00:19.260
+hvor I blev bedt om at læse en forvrænget række af tegn som denne?
+
+00:00:19.260 --> 00:00:21.260
+Hvor mange af jer syntes, det var virkelig, virkelig irriterende?
+
+00:00:21.260 --> 00:00:24.260
+Udmærket. Det var mig, der opfandt det.
+
+00:00:24.260 --> 00:00:26.260
+(Latter)
+
+00:00:26.260 --> 00:00:28.260
+Eller jeg var med til at lave det.
+
+00:00:28.260 --> 00:00:30.260
+Sådan en kaldes en CAPTCHA.
+
+00:00:30.260 --> 00:00:32.260
+Den er der, fordi den skal sikre, at du - den enhed, der udfylder formularen -
+
+00:00:32.260 --> 00:00:35.260
+- er et menneske og ikke et computerprogram
+
+00:00:35.260 --> 00:00:37.260
+der skal bruges til at sende formularen flere millioner gange.
+
+00:00:37.260 --> 00:00:39.260
+Den virker, fordi mennesker -
+
+00:00:39.260 --> 00:00:41.260
+- eller i hvert fald mennesker uden synsbesvær -
+
+00:00:41.260 --> 00:00:43.260
+sagtens kan læse disse forvrængede og snørklede tegn,
+
+00:00:43.260 --> 00:00:46.260
+men det er computerprogammer ikke så gode til endnu.
+
+00:00:46.260 --> 00:00:48.260
+F.eks. som det er tilfældet for Ticketmaster,
+
+00:00:48.260 --> 00:00:50.260
+skal du skrive disse disse forvrængede tegn
+
+00:00:50.260 --> 00:00:52.260
+så billethajer ikke skriver et program,
+
+00:00:52.260 --> 00:00:54.260
+der kan købe millioner af billetter - to ad gangen.
+
+00:00:54.260 --> 00:00:56.260
+CAPTCHA'er bruges overalt på internettet.
+
+00:00:56.260 --> 00:00:58.260
+Og eftersom de bruges så ofte,
+
+00:00:58.260 --> 00:01:00.260
+vil den nøjagtige rækkefølge af tilfældige tegn, som brugeren får vist,
+
+00:01:00.260 --> 00:01:02.260
+ikke være specielt heldig.
+
+00:01:02.260 --> 00:01:05.260
+Her er et eksempel fra Yahoo's tilmeldingsside.
+
+00:01:05.260 --> 00:01:07.260
+De tilfældige tegn, som brugeren fik vist,
+
+00:01:07.260 --> 00:01:10.260
+var W, A, I, T, som jo giver et ord, der betyder VENT.
+
+00:01:10.260 --> 00:01:13.260
+Men det bedste er den meddelelse, som
+
+00:01:13.260 --> 00:01:16.260
+Yahoo's kundehjælp modtog 20 minutter senere.
+
+00:01:16.260 --> 00:01:19.260
+Teks: "Hjælp! Jeg har ventet i over 20 minutter, og der sker ingenting."
+
+00:01:19.260 --> 00:01:23.260
+(Latter)
+
+00:01:23.260 --> 00:01:25.260
+Denne person troede, man skulle vente.
+
+00:01:25.260 --> 00:01:28.260
+Dette er selvfølgelig ikke så slemt, som for denne stakkel.
+
+00:01:28.260 --> 00:01:30.260
+(Latter)
+
+00:01:30.260 --> 00:01:33.260
+Vi gennemførte CAPTCHA-projektet her på Carnegie Mellon for over 10 år siden,
+
+00:01:33.260 --> 00:01:35.260
+og det bliver brugt overalt.
+
+00:01:35.260 --> 00:01:37.260
+Lad mig fortælle om et projekt, som vi gennemførte nogle få år senere,
+
+00:01:37.260 --> 00:01:40.260
+og som kan kaldes næste trin i CAPTCHA's udvikling.
+
+00:01:40.260 --> 00:01:42.260
+Dette er et projekt, som vi kalder reCAPTCHA,
+
+00:01:42.260 --> 00:01:44.260
+som vi startede her på Carnegie Mellon,
+
+00:01:44.260 --> 00:01:46.260
+hvorefter vi gjorde det til en opstartsvirksomhed.
+
+00:01:46.260 --> 00:01:48.260
+Og så for halvandet år siden,
+
+00:01:48.260 --> 00:01:50.260
+har Google faktisk købt denne virksomhed.
+
+00:01:50.260 --> 00:01:52.260
+Lad mig fortælle jer, hvad dette projekt satte i gang.
+
+00:01:52.260 --> 00:01:55.260
+Projektet blev startet ud fra følgende observation:
+
+00:01:55.260 --> 00:01:57.260
+Det viser sig, at ca. 200 millioner CAPTCHA'er
+
+00:01:57.260 --> 00:02:00.260
+indtastes af mennesker hver dag i hele verden.
+
+00:02:00.260 --> 00:02:02.260
+Da vi hørte det første gang, blev jeg ret stolt af mig selv.
+
+00:02:02.260 --> 00:02:04.260
+Jeg tænkte "Se, hvilken indvirkning min forskning har haft".
+
+00:02:04.260 --> 00:02:06.260
+Men så blev jeg ked af det.
+
+00:02:06.260 --> 00:02:08.260
+Sagen er, at hver gang du indtaster en CAPTCHA,
+
+00:02:08.260 --> 00:02:11.260
+spilder du 10 sekunder af din tid.
+
+00:02:11.260 --> 00:02:13.260
+Og hvis du ganger det med 200 millioner,
+
+00:02:13.260 --> 00:02:16.260
+bliver resultatet, at menneskeheden spilder ca. 500.000 timer hver dag
+
+00:02:16.260 --> 00:02:18.260
+på at indtaste irriterende CAPTCHA'er.
+
+00:02:18.260 --> 00:02:20.260
+Så jeg begyndte at føle mig ked af det.
+
+00:02:20.260 --> 00:02:22.260
+(Latter)
+
+00:02:22.260 --> 00:02:25.260
+Og så tænkte jeg, at vi kan selvfølgelig ikke bare afskaffe CAPTCHA'er,
+
+00:02:25.260 --> 00:02:27.260
+fordi sikkerheden på internettet er ligesom afhængig af dem.
+
+00:02:27.260 --> 00:02:30.260
+Men jeg begyndt at tænke, om der er en måde, hvorpå vi kan bruge denne indsats
+
+00:02:30.260 --> 00:02:32.260
+til noget, der er godt for menneskeheden?
+
+00:02:32.260 --> 00:02:34.260
+Så dette er, hvad det drejer sig om.
+
+00:02:34.260 --> 00:02:36.260
+Mens du indtaster en CAPTCHA - i de 10 sekunder -
+
+00:02:36.260 --> 00:02:38.260
+gør din hjerne noget fantastisk.
+
+00:02:38.260 --> 00:02:40.260
+Din hjerne gør noget, som computere ikke kan gøre.
+
+00:02:40.260 --> 00:02:43.260
+Kan vi få dig til at gøre et nyttigt stykke arbejde i de 10 sekunder?
+
+00:02:43.260 --> 00:02:45.260
+Formuleret på en anden måde:
+
+00:02:45.260 --> 00:02:47.260
+Er der et eller andet kæmpe problem, som vi ikke kan få computere til at løse?
+
+00:02:47.260 --> 00:02:50.260
+og som vi kan opdele i 10-sekunders bidder,
+
+00:02:50.260 --> 00:02:52.260
+sådan at hver gang nogen løser en CAPTCHA,
+
+00:02:52.260 --> 00:02:54.260
+løser vedkommende en lille del af dette problem?
+
+00:02:54.260 --> 00:02:56.260
+Og svaret på det spørgsmål er "ja", og det er, hvad vi gør nu.
+
+00:02:56.260 --> 00:02:59.260
+Det som du muligvis ikke ved er, at når du indtaster en CAPTCHA i dag,
+
+00:02:59.260 --> 00:03:01.260
+er du ikke bare i færd med at bekræfte, at du er et menneske,
+
+00:03:01.260 --> 00:03:03.260
+men du hjælper os også med at digitalisere bøger.
+
+00:03:03.260 --> 00:03:05.260
+Lad mig forklare, hvordan det virker.
+
+00:03:05.260 --> 00:03:07.260
+Der findes en masse projekter, hvor man forsøger at digitalisere bøger.
+
+00:03:07.260 --> 00:03:10.260
+Google har et projekt, og Internet Archive har et.
+
+00:03:10.260 --> 00:03:12.260
+Amazon, med Kindle, prøver at digitalisere bøger.
+
+00:03:12.260 --> 00:03:14.260
+De fungerer grundlæggende ved,
+
+00:03:14.260 --> 00:03:16.260
+at du begynder med en gammel bog.
+
+00:03:16.260 --> 00:03:18.260
+Du har set sådan nogen, ikke? En bog?
+
+00:03:18.260 --> 00:03:20.260
+(Latter)
+
+00:03:20.260 --> 00:03:22.260
+Du starter med en bog, og så scanner du den.
+
+00:03:22.260 --> 00:03:24.260
+Det at scanne en bog
+
+00:03:24.260 --> 00:03:26.260
+er som at tage et digitalt fotografi af hver side i bogen.
+
+00:03:26.260 --> 00:03:28.260
+Det giver dig et billede for hver side i bogen.
+
+00:03:28.260 --> 00:03:30.260
+Dette er et billede med tekst for hver side i bogen.
+
+00:03:30.260 --> 00:03:32.260
+Det næste trin i processen er,
+
+00:03:32.260 --> 00:03:35.260
+at computeren skal kunne tyde alle ordene i billedet.
+
+00:03:35.260 --> 00:03:37.260
+Det sker ved hjælp af en teknologi, der kaldes OCR,
+
+00:03:37.260 --> 00:03:39.260
+optisk tegngenkendelse,
+
+00:03:39.260 --> 00:03:41.260
+som tager et billede af teksten
+
+00:03:41.260 --> 00:03:43.260
+og forsøger at finde ud af, hvilken tekst det indeholder.
+
+00:03:43.260 --> 00:03:45.260
+Problemet er, at OCR ikke er perfekt.
+
+00:03:45.260 --> 00:03:47.260
+Særligt med gamle bøger,
+
+00:03:47.260 --> 00:03:50.260
+hvor tryksværten er blegnet, og siderne er blevet gule,
+
+00:03:50.260 --> 00:03:52.260
+kan OCR ikke genkende en stor del af ordene.
+
+00:03:52.260 --> 00:03:54.260
+F.eks. ved tekster, der er skrevet for over 50 års siden,
+
+00:03:54.260 --> 00:03:57.260
+kan computeren ikke genkende omkring 30 procent af ordene.
+
+00:03:57.260 --> 00:03:59.260
+Så det vi gør nu,
+
+00:03:59.260 --> 00:04:01.260
+er at tage alle de ord, som computeren ikke kan genkende,
+
+00:04:01.260 --> 00:04:03.260
+og får mennesker til at læse dem for os,
+
+00:04:03.260 --> 00:04:05.260
+mens de indtaster CAPTCHA'er på internettet.
+
+00:04:05.260 --> 00:04:08.260
+Så næste gang, du indtaster en CAPTCHA, vil de ord, du skriver,
+
+00:04:08.260 --> 00:04:11.260
+faktisk være ord, som kommer fra digitaliserede bøger,
+
+00:04:11.260 --> 00:04:13.260
+og som computeren ikke kunne genkende.
+
+00:04:13.260 --> 00:04:15.260
+Og nu til årsagen til, at vi har to ord i dag i stedet for et:
+
+00:04:15.260 --> 00:04:17.260
+Det er fordi, at et af ordene
+
+00:04:17.260 --> 00:04:19.260
+er et ord, som systemet fandt i en bog,
+
+00:04:19.260 --> 00:04:22.260
+det kunne ikke genkende ordet, og systemet viser dig det.
+
+00:04:22.260 --> 00:04:25.260
+Men eftersom systemet ikke kender svaret, kan det ikke validere det for dig.
+
+00:04:25.260 --> 00:04:27.260
+Derfor giver vi dig et andet ord,
+
+00:04:27.260 --> 00:04:29.260
+som systemet kender svaret på.
+
+00:04:29.260 --> 00:04:31.260
+Vi fortæller ikke, hvilket ord der er hvad, og vi beder dig indtaste dem begge.
+
+00:04:31.260 --> 00:04:33.260
+Og hvis du skriver det rigtige ord
+
+00:04:33.260 --> 00:04:35.260
+for det ord, som systemet kender svaret på,
+
+00:04:35.260 --> 00:04:37.260
+antager det, at du er menneske,
+
+00:04:37.260 --> 00:04:39.260
+og det får også en vis tillid til, at du har skrevet det andet ord rigtigt.
+
+00:04:39.260 --> 00:04:42.260
+Og hvis vi gentager denne proces for f.eks. 10 forskellige personer,
+
+00:04:42.260 --> 00:04:44.260
+og de alle er enige om, hvad ordet er,
+
+00:04:44.260 --> 00:04:46.260
+har vi fået digitaliseret endnu et ord korrekt.
+
+00:04:46.260 --> 00:04:48.260
+Det er altså sådan systemet virker.
+
+00:04:48.260 --> 00:04:51.260
+Og siden vi frigav det for 3 - 4 år siden,
+
+00:04:51.260 --> 00:04:53.260
+er mange websteder begyndt at skifte
+
+00:04:53.260 --> 00:04:55.260
+fra den gamle CAPTCHA, hvor folk spildte deres tid,
+
+00:04:55.260 --> 00:04:57.260
+til den nye CAPTCHA, hvor folk er med til at digitalisere bøger.
+
+00:04:57.260 --> 00:04:59.260
+For eksempel Ticketmaster.
+
+00:04:59.260 --> 00:05:02.260
+Hver gang, du køber billetter på Ticketmaster, er du med til at digitalisere en bog.
+
+00:05:02.260 --> 00:05:04.260
+Facebook: Hver gang du tilføjer en ven eller prikker til nogen,
+
+00:05:04.260 --> 00:05:06.260
+er du med til at digitalisere en bog.
+
+00:05:06.260 --> 00:05:09.260
+Twitter og ca. 350.000 andre websteder bruger alle reCAPTCHA.
+
+00:05:09.260 --> 00:05:11.260
+Og faktisk er der så mange websteder, der bruger reCAPTCHA,
+
+00:05:11.260 --> 00:05:14.260
+at antallet af ord, som vi digitaliserer hver dag, er virkelig, virkelig stort.
+
+00:05:14.260 --> 00:05:16.260
+Det er cirka 100 millioner om dagen,
+
+00:05:16.260 --> 00:05:20.260
+hvilket svarer til cirka 2,5 millioner bøger om året.
+
+00:05:20.260 --> 00:05:22.260
+Og dette gøres et ord ad gangen
+
+00:05:22.260 --> 00:05:24.260
+bare ved at folk indtaster CAPTCHA'er på internettet.
+
+00:05:24.260 --> 00:05:32.260
+(Bifald)
+
+00:05:32.260 --> 00:05:34.260
+Men selvfølgelig...
+
+00:05:34.260 --> 00:05:36.260
+eftersom vi laver så mange ord om dagen,
+
+00:05:36.260 --> 00:05:38.260
+kan der ske sjove ting.
+
+00:05:38.260 --> 00:05:40.260
+Og dette gør sig særligt gældende nu, hvor vi giver folk
+
+00:05:40.260 --> 00:05:42.260
+to tilfældige engelske ord ved siden af hinanden.
+
+00:05:42.260 --> 00:05:44.260
+Så der kan ske sjove ting.
+
+00:05:44.260 --> 00:05:46.260
+For eksempel viste vi dette ord.
+
+00:05:46.260 --> 00:05:48.260
+Det er ordet "Kristne", og der er intet galt med det.
+
+00:05:48.260 --> 00:05:51.260
+Men hvis du viser det ved siden af et andet tilfældigt ord,
+
+00:05:51.260 --> 00:05:53.260
+kan der ske slemme ting.
+
+00:05:53.260 --> 00:05:55.260
+Så får vi dette. (Tekst: slemme kristne)
+
+00:05:55.260 --> 00:05:58.260
+Men det er værre endnu, fordi det websted, hvor vi viste dette,
+
+00:05:58.260 --> 00:06:01.260
+hedder faktisk "Ambassaden for Guds Kongerige".
+
+00:06:01.260 --> 00:06:03.260
+(Latter)
+
+00:06:03.260 --> 00:06:05.260
+Ups.
+
+00:06:05.260 --> 00:06:08.260
+(Latter)
+
+00:06:08.260 --> 00:06:10.260
+Her er en anden virkelig slem en.
+
+00:06:10.260 --> 00:06:12.260
+JohnEdwards.com
+
+00:06:12.260 --> 00:06:15.260
+(Tekst: Forbandet liberal)
+
+00:06:15.260 --> 00:06:17.260
+(Latter)
+
+00:06:17.260 --> 00:06:20.260
+Så vi bliver ved at fornærme folk hver eneste dag.
+
+00:06:20.260 --> 00:06:22.260
+Vi nøjes selvfølgelig ikke med at fornærme folk.
+
+00:06:22.260 --> 00:06:25.260
+Sagen er, at eftersom vi viser to tilfældigt valgte ord,
+
+00:06:25.260 --> 00:06:27.260
+kan der ske interessante ting.
+
+00:06:27.260 --> 00:06:29.260
+Dette har faktisk startet
+
+00:06:29.260 --> 00:06:32.260
+et virkelig stort internetfænomen,
+
+00:06:32.260 --> 00:06:34.260
+som titusindvis af mennesker har deltaget i,
+
+00:06:34.260 --> 00:06:36.260
+der kaldes CAPTCHA-kunst.
+
+00:06:36.260 --> 00:06:38.260
+Jeg er sikker på, at nogle af jer har hørt om det.
+
+00:06:38.260 --> 00:06:40.260
+Det virker sådan her.
+
+00:06:40.260 --> 00:06:42.260
+Forestil dig, at du bruger internettet og ser en CAPTCHA,
+
+00:06:42.260 --> 00:06:44.260
+som du synes er lidt mærkelig,
+
+00:06:44.260 --> 00:06:46.260
+f.eks. denne CAPTCHA. (Tekst: usynlig brødrister)
+
+00:06:46.260 --> 00:06:48.260
+Det du så skal gøre, er at tage et skærmbillede af den.
+
+00:06:48.260 --> 00:06:50.260
+Og så skal du selvfølgelig lige udfylde CAPTCHA'en,
+
+00:06:50.260 --> 00:06:52.260
+fordi du hjælper os med at digitalisere en bog.
+
+00:06:52.260 --> 00:06:54.260
+Men altså, først skal du tage et skærmbillede,
+
+00:06:54.260 --> 00:06:56.260
+og derefter tegner du noget, der har relation til den.
+
+00:06:56.260 --> 00:06:58.260
+(Latter)
+
+00:06:58.260 --> 00:07:01.260
+Det er sådan, det fungerer.
+
+00:07:01.260 --> 00:07:04.260
+Der er titusindvis af dem.
+
+00:07:04.260 --> 00:07:06.260
+Nogle af dem er meget søde. (Tekst: knyttede den)
+
+00:07:06.260 --> 00:07:08.260
+(Latter)
+
+00:07:08.260 --> 00:07:10.260
+Nogle af dem er sjovere.
+
+00:07:10.260 --> 00:07:13.260
+(Tekst: stenede grundlæggere)
+
+00:07:13.260 --> 00:07:16.260
+(Latter)
+
+00:07:16.260 --> 00:07:18.260
+Og nogle af dem,
+
+00:07:18.260 --> 00:07:21.260
+som palæontologisk shvisle,
+
+00:07:21.260 --> 00:07:23.260
+indeholder Snoop Dogg.
+
+00:07:23.260 --> 00:07:26.260
+(Latter)
+
+00:07:26.260 --> 00:07:28.260
+OK, det her er mit yndlingstal for reCAPTCHA.
+
+00:07:28.260 --> 00:07:31.260
+Det er, hvad jeg allerbedst kan lide ved hele projektet.
+
+00:07:31.260 --> 00:07:33.260
+Det er antallet af individuelle personer,
+
+00:07:33.260 --> 00:07:36.260
+der har hjulpet os med at digitalisere mindst ét ord i en bog via reCAPTCHA:
+
+00:07:36.260 --> 00:07:38.260
+750 millioner,
+
+00:07:38.260 --> 00:07:40.260
+hvilket er lidt over 10 procent af verdens befolkning,
+
+00:07:40.260 --> 00:07:42.260
+har hjulpet os med at digitalisere menneskelig viden.
+
+00:07:42.260 --> 00:07:45.260
+Og det er tal som disse, der motiverer mig i min forskning.
+
+00:07:45.260 --> 00:07:48.260
+Det spørgsmål, der motiverer min forskning, er følgende:
+
+00:07:48.260 --> 00:07:50.260
+Hvis man ser på, hvad menneskeheden har opnået af store ting,
+
+00:07:50.260 --> 00:07:52.260
+de virkelig store ting,
+
+00:07:52.260 --> 00:07:55.260
+som menneskeheden historisk har lavet i fællesskab -
+
+00:07:55.260 --> 00:07:57.260
+f.eks. pyramiderne i Egypten
+
+00:07:57.260 --> 00:07:59.260
+eller Panamakanalen
+
+00:07:59.260 --> 00:08:01.260
+eller at sende en mand til månen -
+
+00:08:01.260 --> 00:08:03.260
+er der en besynderlig ting, de har til fælles,
+
+00:08:03.260 --> 00:08:05.260
+og det er, at de alle blev udført af det samme antal mennesker.
+
+00:08:05.260 --> 00:08:08.260
+Det er mærkeligt. De blev alle udført af ca. 100.000 personer.
+
+00:08:08.260 --> 00:08:11.260
+Og grunden til dette er, at før internettet, var det
+
+00:08:11.260 --> 00:08:13.260
+at koordinere mere end 100.000 mennesker
+
+00:08:13.260 --> 00:08:16.260
+for ikke at tale om at betale dem - stort set umuligt.
+
+00:08:16.260 --> 00:08:18.260
+Men nu, hvor vi har internettet, har jeg lige vist jer et projekt,
+
+00:08:18.260 --> 00:08:20.260
+hvor vi har 750 millioner mennesker,
+
+00:08:20.260 --> 00:08:22.260
+der hjælper os med at digitalisere menneskelig viden.
+
+00:08:22.260 --> 00:08:24.260
+Så det spørgsmål, der motiverer min forskning er,
+
+00:08:24.260 --> 00:08:27.260
+hvis vi kan sende en mand til månen med 100.000,
+
+00:08:27.260 --> 00:08:29.260
+hvad kan vi så gøre med 100 millioner?
+
+00:08:29.260 --> 00:08:31.260
+Så på grundlag af dette spørgsmål
+
+00:08:31.260 --> 00:08:33.260
+har vi arbejdet på mange forskellige projekter.
+
+00:08:33.260 --> 00:08:36.260
+Lad mig fortælle jer om et projekt, jeg er meget spændt på.
+
+00:08:36.260 --> 00:08:38.260
+Det er noget, vi har arbejdet på lidt i det stille
+
+00:08:38.260 --> 00:08:40.260
+i det sidste halvandet års tid.
+
+00:08:40.260 --> 00:08:42.260
+Det er ikke offentliggjort endnu. Det kaldes Duolingo.
+
+00:08:42.260 --> 00:08:44.260
+Og da det ikke er offentliggjort, så...shyyy.
+
+00:08:44.260 --> 00:08:46.260
+(Latter)
+
+00:08:46.260 --> 00:08:48.260
+Ja, jeg kan stole på, at I gør det.
+
+00:08:48.260 --> 00:08:50.260
+Det her er projektet. Sådan startede det.
+
+00:08:50.260 --> 00:08:52.260
+Det startede ved at jeg stillede min ph.d.-studerende,
+
+00:08:52.260 --> 00:08:54.260
+Severin Hacker, et spørgsmål.
+
+00:08:54.260 --> 00:08:56.260
+OK, det er Severin Hacker.
+
+00:08:56.260 --> 00:08:58.260
+Jeg stillede min ph.d.-studerende et spørgsmål.
+
+00:08:58.260 --> 00:09:00.260
+Og ja, I hørte rigtigt:
+
+00:09:00.260 --> 00:09:02.260
+Hans efternavn er Hacker.
+
+00:09:02.260 --> 00:09:04.260
+Jeg stillede ham dette spørgsmål:
+
+00:09:04.260 --> 00:09:06.260
+Hvordan kan vi få 100 millioner mennesker
+
+00:09:06.260 --> 00:09:09.260
+til at oversætte internettet til alle hovedsprog gratis?
+
+00:09:09.260 --> 00:09:11.260
+OK, der er meget, man kan sige om dette spørgsmål.
+
+00:09:11.260 --> 00:09:13.260
+For det første om at oversætte internettet.
+
+00:09:13.260 --> 00:09:16.260
+Lige nu er internettet opdelt i flere sprog.
+
+00:09:16.260 --> 00:09:18.260
+En stor del af det er på engelsk.
+
+00:09:18.260 --> 00:09:20.260
+Hvis du ikke kan engelsk, har du ikke adgang til den.
+
+00:09:20.260 --> 00:09:22.260
+Men der er store dele på andre sprog,
+
+00:09:22.260 --> 00:09:25.260
+og hvis du ikke kan disse sprog, har du ikke adgang til dem.
+
+00:09:25.260 --> 00:09:28.260
+Altså vil jeg gerne oversætte hele internettet, eller i det mindste det meste af internettet,
+
+00:09:28.260 --> 00:09:30.260
+til hver hovedsprog.
+
+00:09:30.260 --> 00:09:32.260
+Det er, hvad jeg kunne tænke mig at gøre.
+
+00:09:32.260 --> 00:09:35.260
+Nogle af jer vil måske sige, hvorfor kan vi ikke bruge computere til at oversætte med?
+
+00:09:35.260 --> 00:09:37.260
+Hvorfor kan vi ikke bruge maskinoversættelse?
+
+00:09:37.260 --> 00:09:39.260
+Maskinoversættelse i dag er begyndt at oversætte nogle sætninger her og der.
+
+00:09:39.260 --> 00:09:41.260
+Hvorfor kan vi ikke bruge det til at oversætte hele internettet?
+
+00:09:41.260 --> 00:09:43.260
+Tja, problemet er, at det ikke er godt nok endnu,
+
+00:09:43.260 --> 00:09:45.260
+og det bliver det sikkert ikke de næste 15 til 20 år.
+
+00:09:45.260 --> 00:09:47.260
+Der laves en masse fejl.
+
+00:09:47.260 --> 00:09:49.260
+Selv når det ikke laver fejl,
+
+00:09:49.260 --> 00:09:52.260
+netop fordi det laver så mange fejl, kan du ikke være sikker på, om du kan stole på oversættelsen.
+
+00:09:52.260 --> 00:09:54.260
+Lad mig vise jer et eksempel
+
+00:09:54.260 --> 00:09:56.260
+på noget, der er oversat af en maskine.
+
+00:09:56.260 --> 00:09:58.260
+Det er faktisk et indlæg fra et forum.
+
+00:09:58.260 --> 00:10:01.260
+En person forsøgte at stille et spørgsmål om JavaScript.
+
+00:10:01.260 --> 00:10:04.260
+Det blev oversat fra japansk til engelsk.
+
+00:10:04.260 --> 00:10:06.260
+I kan bare få lov at læse.
+
+00:10:06.260 --> 00:10:08.260
+Denne person begynder med at undskylde
+
+00:10:08.260 --> 00:10:10.260
+for, at det er oversat med en computer.
+
+00:10:10.260 --> 00:10:13.260
+Så den næste sætning vil være indledningen til spørgsmålet.
+
+00:10:13.260 --> 00:10:15.260
+Han forklarer bare noget.
+
+00:10:15.260 --> 00:10:18.260
+Husk, det er et spørgsmål vedrørende JavaScript.
+
+00:10:19.260 --> 00:10:23.260
+(Tekst: Ofte gede-tiden installerer en fejl er opkast.)
+
+00:10:23.260 --> 00:10:27.260
+(Latter)
+
+00:10:27.260 --> 00:10:30.260
+Derefter kommer den første del af spørgsmålet.
+
+00:10:30.260 --> 00:10:34.260
+(Tekst: Hvor mange gange som vinden, en pæl og dragen?)
+
+00:10:34.260 --> 00:10:36.260
+(Latter)
+
+00:10:36.260 --> 00:10:39.260
+Derefter kommer den del af spørgsmålet, jeg holder mest af.
+
+00:10:39.260 --> 00:10:42.260
+(Tekst: Dette fornærmelse til fars sten?)
+
+00:10:42.260 --> 00:10:44.260
+(Latter)
+
+00:10:44.260 --> 00:10:47.260
+Og så afslutningen, som er det allerbedste af det hele.
+
+00:10:47.260 --> 00:10:51.260
+(Tekst: Undskyld venligst for Deres dumhed. Der er mange tak.)
+
+00:10:51.260 --> 00:10:53.260
+(Latter)
+
+00:10:53.260 --> 00:10:55.260
+OK, så maskinoversættelse er ikke godt nok endnu.
+
+00:10:55.260 --> 00:10:57.260
+Tilbage til spørgsmålet.
+
+00:10:57.260 --> 00:11:00.260
+Vi vil gerne have, at mennesker oversætter hele internettet.
+
+00:11:00.260 --> 00:11:02.260
+Det næste spørgsmål, I måske vil stille, er,
+
+00:11:02.260 --> 00:11:04.260
+hvorfor kan vi ikke bare betale nogen for at gøre det?
+
+00:11:04.260 --> 00:11:07.260
+Vi kunne betale professionelle oversættere for at oversætte hele internettet.
+
+00:11:07.260 --> 00:11:09.260
+Det kunne vi.
+
+00:11:09.260 --> 00:11:11.260
+Desværre ville det være ekstremt dyrt.
+
+00:11:11.260 --> 00:11:14.260
+For eksempel ville prisen for at oversætte en lille-bitte del af hele internettet, Wikipedia,
+
+00:11:14.260 --> 00:11:17.260
+til et andet sprog, spansk.
+
+00:11:17.260 --> 00:11:19.260
+Wikipedia findes på spansk,
+
+00:11:19.260 --> 00:11:21.260
+men det er meget lille sammenlignet med størrelsen på engelsk.
+
+00:11:21.260 --> 00:11:23.260
+Spansk er ca. 20 procent af størrelsen af engelsk.
+
+00:11:23.260 --> 00:11:26.260
+Hvis vi ønskede at oversætte de sidste 80 procent til spansk,
+
+00:11:26.260 --> 00:11:28.260
+ville det koste mindst 50 millioner dollars -
+
+00:11:28.260 --> 00:11:31.260
+og det ville være i selv det grovest udnyttede, outsourcing-land vi kunne finde.
+
+00:11:31.260 --> 00:11:33.260
+Så det ville være dyrt.
+
+00:11:33.260 --> 00:11:35.260
+Det vi vil gøre i stedet er at få 100 millioner mennesker
+
+00:11:35.260 --> 00:11:37.260
+til at oversætte internettet til alle hovedsprog
+
+00:11:37.260 --> 00:11:39.260
+gratis.
+
+00:11:39.260 --> 00:11:41.260
+Hvis det er det, du gerne vil,
+
+00:11:41.260 --> 00:11:43.260
+vil du hurtigt finde ud af, at du støder på to ganske store hurdler,
+
+00:11:43.260 --> 00:11:45.260
+to store forhindringer.
+
+00:11:45.260 --> 00:11:48.260
+Den første er manglen på tosprogede.
+
+00:11:48.260 --> 00:11:50.260
+Jeg ved ikke engang,
+
+00:11:50.260 --> 00:11:53.260
+om der findes 100 millioner mennesker derude, som bruger internettet,
+
+00:11:53.260 --> 00:11:55.260
+og som er tilstrækkeligt tosprogede til at hjælpe os med at oversætte.
+
+00:11:55.260 --> 00:11:57.260
+Det er et stort problem.
+
+00:11:57.260 --> 00:11:59.260
+Det andet problem, du vil støde på, er manglende motivation.
+
+00:11:59.260 --> 00:12:01.260
+Hvordan vil vi motivere folk
+
+00:12:01.260 --> 00:12:03.260
+til faktisk at oversætte internettet gratis?
+
+00:12:03.260 --> 00:12:06.260
+Normalt bliver man nødt til at betale folk for at gøre det.
+
+00:12:06.260 --> 00:12:08.260
+Hvordan vil vi så motivere dem til at gøre det gratis?
+
+00:12:08.260 --> 00:12:11.260
+Da vi begyndte at tænke på dette, blev vi blokeret af disse to spørgsmål.
+
+00:12:11.260 --> 00:12:13.260
+Men så fandt vi ud af, at der faktisk er en måde,
+
+00:12:13.260 --> 00:12:15.260
+hvorpå vi kan løse begge disse problemer med samme løsning.
+
+00:12:15.260 --> 00:12:17.260
+Der var en måde, vi kunne slå to fluer med ét smæk.
+
+00:12:17.260 --> 00:12:20.260
+Det er, hvis vi laver oversættelse af sprog
+
+00:12:20.260 --> 00:12:23.260
+om til noget, som millioner af mennesker gerne vil,
+
+00:12:23.260 --> 00:12:26.260
+og som også hjælper på problemet med manglen på tosprogede,
+
+00:12:26.260 --> 00:12:29.260
+og det er sproglig uddannelse.
+
+00:12:29.260 --> 00:12:31.260
+Det viser sig, at der i dag
+
+00:12:31.260 --> 00:12:34.260
+er over 1,2 milliarder mennesker, der er ved at lære et fremmedsprog.
+
+00:12:34.260 --> 00:12:36.260
+Folk vil virkelig, virkelig gerne lære et fremmedsprog.
+
+00:12:36.260 --> 00:12:39.260
+Og det er ikke bare, fordi de bliver tvunget til det i skolen.
+
+00:12:39.260 --> 00:12:41.260
+For eksempel er der alene i USA
+
+00:12:41.260 --> 00:12:43.260
+over 5 millioner mennesker, der har betalt over 500 $
+
+00:12:43.260 --> 00:12:45.260
+for software, der kan bruges til at lære et nyt sprog.
+
+00:12:45.260 --> 00:12:47.260
+Så folk vil virkelig, virkelig gerne lære et nyt sprog.
+
+00:12:47.260 --> 00:12:50.260
+Det som vi har arbejdet på det seneste halvandet år, er et nyt websted -
+
+00:12:50.260 --> 00:12:52.260
+det hedder Duolingo -
+
+00:12:52.260 --> 00:12:55.260
+hvor den grundlæggende tanke er, at folk lærer et nyt sprog gratis,
+
+00:12:55.260 --> 00:12:57.260
+mens de samtidig oversætter internettet.
+
+00:12:57.260 --> 00:12:59.260
+Så helt basalt er det læring ved praktisk arbejde.
+
+00:12:59.260 --> 00:13:01.260
+Det virker på den måde, at
+
+00:13:01.260 --> 00:13:04.260
+hvis du bare er begynder, giver vi dig meget, meget simple sætninger.
+
+00:13:04.260 --> 00:13:06.260
+Der er selvfølgelig mange meget simple sætninger på internettet.
+
+00:13:06.260 --> 00:13:08.260
+Vi giver dig meget, meget simple sætninger
+
+00:13:08.260 --> 00:13:10.260
+sammen med oplysninger om, hvad hvert ord betyder.
+
+00:13:10.260 --> 00:13:13.260
+Og mens du oversætter dem, og når du kan se, hvordan andre mennesker oversætter dem,
+
+00:13:13.260 --> 00:13:15.260
+begynder du at lære sproget.
+
+00:13:15.260 --> 00:13:17.260
+Og efterhåndens som du stiger i niveau,
+
+00:13:17.260 --> 00:13:19.260
+giver vi dig mere komplicerede sætninger at oversætte.
+
+00:13:19.260 --> 00:13:21.260
+Men du lærer hele tiden, mens du oversætter.
+
+00:13:21.260 --> 00:13:23.260
+Det skøre ved denne metode er,
+
+00:13:23.260 --> 00:13:25.260
+at den faktisk virker.
+
+00:13:25.260 --> 00:13:27.260
+For det første vil folk virkelig, virkelig gerne lære et sprog.
+
+00:13:27.260 --> 00:13:29.260
+Vi er næsten færdige med det, og vi er ved at teste det.
+
+00:13:29.260 --> 00:13:31.260
+Folk kan virkelig lære et sprog med det.
+
+00:13:31.260 --> 00:13:34.260
+Og de lærer det cirka lige så hurtigt som ved hjælp af den førende software til sprogundervisning.
+
+00:13:34.260 --> 00:13:36.260
+Så folk lærer faktisk et sprog.
+
+00:13:36.260 --> 00:13:38.260
+Og ikke alene lærer de det lige så godt,
+
+00:13:38.260 --> 00:13:40.260
+men det er faktisk mere interessant.
+
+00:13:40.260 --> 00:13:43.260
+Fordi med Duoling lærer man faktisk med virkeligt indhold.
+
+00:13:43.260 --> 00:13:45.260
+Modsat når man lærer med sætninger, der er opdigtet,
+
+00:13:45.260 --> 00:13:48.260
+lærer folk med virkeligt indhold, som helt naturligt vil være interessant.
+
+00:13:48.260 --> 00:13:50.260
+Så folk lærer virkelig et sprog.
+
+00:13:50.260 --> 00:13:52.260
+Men det som er mere overraskende er,
+
+00:13:52.260 --> 00:13:55.260
+at de oversættelser, vi får fra personer, der bruger webstedet,
+
+00:13:55.260 --> 00:13:57.260
+også selv om de bare er begyndere,
+
+00:13:57.260 --> 00:14:00.260
+de oversættelser, vi får, er ligeså korrekte, som oversætteler fra professionelle oversætter,
+
+00:14:00.260 --> 00:14:02.260
+og det er meget overraskende.
+
+00:14:02.260 --> 00:14:04.260
+Lad mig vise jer et eksempel.
+
+00:14:04.260 --> 00:14:06.260
+Dette er en sætning, der er blevet oversat fra tysk til engelsk.
+
+00:14:06.260 --> 00:14:08.260
+Den øverste er tysk.
+
+00:14:08.260 --> 00:14:10.260
+Den midterste er en engelsk oversættelse,
+
+00:14:10.260 --> 00:14:12.260
+der er lavet af en, som var professionel engelsk-oversætter,
+
+00:14:12.260 --> 00:14:14.260
+som vi har betalt 20 cent pr. ord for denne oversættelse.
+
+00:14:14.260 --> 00:14:17.260
+Den nederste oversættelse er lavet af brugere af Duolingo,
+
+00:14:17.260 --> 00:14:19.260
+hvoraf ingen kunne tysk,
+
+00:14:19.260 --> 00:14:21.260
+før de begyndte at bruge webstedet.
+
+00:14:21.260 --> 00:14:23.260
+I kan se, at det er nærmest perfekt.
+
+00:14:23.260 --> 00:14:25.260
+Vi bruger selvfølgelig et trick her,
+
+00:14:25.260 --> 00:14:27.260
+så oversættelserne bliver ligeså gode som dem fra professionelle oversættere.
+
+00:14:27.260 --> 00:14:30.260
+Vi kombinerer oversættelserne fra flere begyndere,
+
+00:14:30.260 --> 00:14:33.260
+så vi får samme kvalitet som fra en enkelt professionel oversætter.
+
+00:14:33.260 --> 00:14:38.260
+Selv om vi kombinerer oversættelserne,
+
+00:14:38.260 --> 00:14:40.260
+kan webstedet faktisk oversætte ret hurtigt.
+
+00:14:40.260 --> 00:14:42.260
+Lad mig vise jer det.
+
+00:14:42.260 --> 00:14:44.260
+Dette er, hvor lang tid vi regner med, det vil tage at oversætte Wikipedia
+
+00:14:44.260 --> 00:14:46.260
+fra engelsk til spansk.
+
+00:14:46.260 --> 00:14:49.260
+Husk, det har en værdi af 50 millioner dollars.
+
+00:14:49.260 --> 00:14:51.260
+Så hvis vi ville oversætte Wikipedia til spansk,
+
+00:14:51.260 --> 00:14:54.260
+kunne vi gøre det på fem uger med 100.000 aktive brugere.
+
+00:14:54.260 --> 00:14:57.260
+Og vi kunne gøre det på ca. 80 timer med en million aktive brugere.
+
+00:14:57.260 --> 00:15:00.260
+eftersom alle projekter, min gruppe har arbejdet på indtil nu, har fået millioner af brugere,
+
+00:15:00.260 --> 00:15:02.260
+har vi gode forhåbninger til, at vi vil kunne
+
+00:15:02.260 --> 00:15:04.260
+oversætte meget hurtigt med dette projekt.
+
+00:15:04.260 --> 00:15:07.260
+Det som jeg synes er mest spændende ved Duolingo,
+
+00:15:07.260 --> 00:15:10.260
+er, at det efter min mening giver en fair forretningsmodel for sprogundervisning.
+
+00:15:10.260 --> 00:15:12.260
+Det jeg mener, er dette:
+
+00:15:12.260 --> 00:15:14.260
+Den nuværende forretningsmodel for sprogundervisning er,
+
+00:15:14.260 --> 00:15:16.260
+at den studerende betaler,
+
+00:15:16.260 --> 00:15:18.260
+og særligt: den studerende betaler Rosetta Stone 500 dollar.
+
+00:15:18.260 --> 00:15:20.260
+(Latter)
+
+00:15:20.260 --> 00:15:22.260
+Det er den nuværende forretningsmodel.
+
+00:15:22.260 --> 00:15:24.260
+Problemet med denne forretningsmodel er,
+
+00:15:24.260 --> 00:15:27.260
+at 95 procent af verdens befolkning ikke har 500 dollar.
+
+00:15:27.260 --> 00:15:30.260
+Derfor er det ekstremt urimeligt i forhold til de fattige.
+
+00:15:30.260 --> 00:15:32.260
+Denne model tilgodeser kun de rige.
+
+00:15:32.260 --> 00:15:34.260
+Men se, i Duolingo
+
+00:15:34.260 --> 00:15:36.260
+eftersom du, mens du lærer,
+
+00:15:36.260 --> 00:15:39.260
+faktisk skaber værdi - du oversætter noget -
+
+00:15:39.260 --> 00:15:42.260
+som vi f.eks. kunne tage betaling for oversættelser.
+
+00:15:42.260 --> 00:15:44.260
+Dette er en måde, vi kunne gøre dette kommercielt på
+
+00:15:44.260 --> 00:15:46.260
+Da folk skaber værdi, mens de lærer,
+
+00:15:46.260 --> 00:15:49.260
+behøver de ikke at betale med penge, men de betaler med deres tid.
+
+00:15:49.260 --> 00:15:52.260
+Men det magiske her er, at de betaler med deres tid,
+
+00:15:52.260 --> 00:15:54.260
+men det er tid, som de ville have været nødt til at bruge alligevel,
+
+00:15:54.260 --> 00:15:56.260
+mens de lærte sproget.
+
+00:15:56.260 --> 00:15:59.260
+Så det fine ved Duolingo, synes jeg, er, at det giver en fair forretningsmodel -
+
+00:15:59.260 --> 00:16:01.260
+en model, der ikke diskriminerer mod fattige mennesker.
+
+00:16:01.260 --> 00:16:03.260
+Så her er webstedet. Mange tak.
+
+00:16:03.260 --> 00:16:11.260
+(Bifald)
+
+00:16:11.260 --> 00:16:13.260
+Så her er webstedet.
+
+00:16:13.260 --> 00:16:15.260
+Vi har ikke offentliggjort det endnu,
+
+00:16:15.260 --> 00:16:18.260
+men hvis i besøger siden, kan I tilmelde jer og blive end del af vores private betagruppe,
+
+00:16:18.260 --> 00:16:20.260
+som sikkert starter om tre til fire uger.
+
+00:16:20.260 --> 00:16:22.260
+Vi har ikke startet denne version af Duolingo endnu.
+
+00:16:22.260 --> 00:16:24.260
+Forresten, nu er det er mig, der taler her,
+
+00:16:24.260 --> 00:16:27.260
+men faktisk er Duolingo lavet af et virkelig fantastisk team, hvor af nogen er her i dag.
+
+00:16:27.260 --> 00:16:29.260
+Så mange tak.
+
+00:16:29.260 --> 00:16:33.260
+(Bifald)
+

@@ -1,0 +1,737 @@
+WEBVTT
+Kind: captions
+Language: lt
+
+00:00:00.000 --> 00:00:07.000
+Translator: Donatas Bakanas
+Reviewer: Andrius Burnickas
+
+00:00:15.260 --> 00:00:18.260
+Stuxnet kirmino idėja
+
+00:00:18.260 --> 00:00:20.260
+iš tiesų yra gana paprasta.
+
+00:00:20.260 --> 00:00:23.260
+Mes nenorime, kad Iranas sukurtų bombą.
+
+00:00:23.260 --> 00:00:26.260
+Jų pagrindinis centras kuriant branduolinius ginklus
+
+00:00:26.260 --> 00:00:30.260
+yra Natanz urano sodrinimo gamykla.
+
+00:00:30.260 --> 00:00:32.260
+Pilkos dėžės, kurias jūs matote,
+
+00:00:32.260 --> 00:00:35.260
+yra realaus laiko valdymo sistemos.
+
+00:00:35.260 --> 00:00:38.260
+Jei mes sugebėtume sutrikdyti šias sistemas,
+
+00:00:38.260 --> 00:00:41.260
+kurios kontroliuoja motorų greitį ir vožtuvus,
+
+00:00:41.260 --> 00:00:44.260
+tai mes, iš tikro, sukeltume daug problemų
+
+00:00:44.260 --> 00:00:46.260
+centrifugai.
+
+00:00:46.260 --> 00:00:48.260
+Pilkosiose dėžėse veikia ne Windows programinė įranga;
+
+00:00:48.260 --> 00:00:51.260
+tai visiškai kita technologija.
+
+00:00:51.260 --> 00:00:53.260
+Bet jei sugebėtume
+
+00:00:53.260 --> 00:00:56.260
+įdiegti gerą Windows virusą
+
+00:00:56.260 --> 00:00:58.260
+į nešiojamą kompiuterį,
+
+00:00:58.260 --> 00:01:00.260
+kurį naudoja įrengimų inžinierius
+
+00:01:00.260 --> 00:01:03.260
+šių pilkųjų dėžių konfigūravimui,
+
+00:01:03.260 --> 00:01:05.260
+tai galėtume kažką nuveikti.
+
+00:01:05.260 --> 00:01:08.260
+Kaip tik toks ir yra Stuxnet veikimo būdas.
+
+00:01:08.260 --> 00:01:13.260
+Taigi, pradedame su Windows užkratu.
+
+00:01:13.260 --> 00:01:16.260
+Kovinis užtaisas nukeliauja į pilkąją dėžę,
+
+00:01:16.260 --> 00:01:18.260
+pažeidžia cetrifugą,
+
+00:01:18.260 --> 00:01:20.260
+Irano branduolinė programa pristabdyta -
+
+00:01:20.260 --> 00:01:22.260
+misija baigta.
+
+00:01:22.260 --> 00:01:24.260
+Lengva, tiesa?
+
+00:01:24.260 --> 00:01:27.260
+Aš noriu papasakoti, kaip mes tai išsiaiškinome.
+
+00:01:27.260 --> 00:01:30.260
+Kai pradėjome Stuxnet tyrimą prieš šešis mėnesius,
+
+00:01:30.260 --> 00:01:33.260
+visiškai nenutuokėme, koks šio daikto tikslas.
+
+00:01:33.260 --> 00:01:35.260
+Vienintelis dalykas, kurį žinojome, buvo
+
+00:01:35.260 --> 00:01:38.260
+tai, kad jis labai labai sudėtingas iš Windows - užkrato - pusės,
+
+00:01:38.260 --> 00:01:41.260
+išnaudojantis daugybę "nulinės dienos" spragų.
+
+00:01:41.260 --> 00:01:44.260
+Ir atrodė, kad jis norėjo kažką padaryti,
+
+00:01:44.260 --> 00:01:46.260
+su tomis pilkosiomis dėžėmis, tomis realaus laiko kontrolės sistemomis.
+
+00:01:46.260 --> 00:01:48.260
+Tai atkreipė mūsų dėmesį
+
+00:01:48.260 --> 00:01:50.260
+ir mes pradėjome laboratorinį tyrimą,
+
+00:01:50.260 --> 00:01:54.260
+kuriame užkrėtėme mūsų įrenginius Stuxnet'u
+
+00:01:54.260 --> 00:01:56.260
+ir stebėjome, kas bus.
+
+00:01:56.260 --> 00:01:59.260
+Nutiko labai smagių dalykų.
+
+00:01:59.260 --> 00:02:02.260
+Stuxnet elgėsi kaip laboratorinė žiurkė,
+
+00:02:02.260 --> 00:02:05.260
+kuriai nepatiko mūsų sūris -
+
+00:02:05.260 --> 00:02:07.260
+pauostė, bet ėsti nenorėjo.
+
+00:02:07.260 --> 00:02:09.260
+Man tai neatrodė logiška.
+
+00:02:09.260 --> 00:02:12.260
+Po to, kai mes išbandėme skirtingus sūrio skonius,
+
+00:02:12.260 --> 00:02:16.260
+aš supratau - tai tikslinga ataka.
+
+00:02:16.260 --> 00:02:18.260
+Visiškai tikslinga.
+
+00:02:18.260 --> 00:02:20.260
+Užkratas aktyviai seka,
+
+00:02:20.260 --> 00:02:22.260
+ar pilkojoje dėžėje
+
+00:02:22.260 --> 00:02:25.260
+yra specifinė konfigūracija
+
+00:02:25.260 --> 00:02:29.260
+ir net ar tikroji programa, kurią norima užkrėsti
+
+00:02:29.260 --> 00:02:31.260
+iš tikro veikia tame taikinyje.
+
+00:02:31.260 --> 00:02:34.260
+Jei ne, Stuxnet nieko nedaro.
+
+00:02:34.260 --> 00:02:36.260
+Tai stipriai patraukė mano dėmesį
+
+00:02:36.260 --> 00:02:38.260
+ir mes pradėjome darbą
+
+00:02:38.260 --> 00:02:40.260
+vos ne kiaurą parą,
+
+00:02:40.260 --> 00:02:43.260
+nes aš pagalvojau, kad mes nežinome, kas yra taikinys.
+
+00:02:43.260 --> 00:02:45.260
+Tai gali būti, pavyzdžiui,
+
+00:02:45.260 --> 00:02:47.260
+JAV elektrinė
+
+00:02:47.260 --> 00:02:49.260
+ar chemijos gamykla Vokietijoje.
+
+00:02:49.260 --> 00:02:52.260
+Todėl geriau būtų kuo greičiau išsiaiškinti, kas yra taikinys.
+
+00:02:52.260 --> 00:02:54.260
+Taigi, mes ištraukėme ir išskaidėme
+
+00:02:54.260 --> 00:02:56.260
+atakos kodą
+
+00:02:56.260 --> 00:02:59.260
+ir aptikome, kad jis susideda iš dviejų skaitmeninių bombų -
+
+00:02:59.260 --> 00:03:02.260
+mažesnės ir didesnės.
+
+00:03:02.260 --> 00:03:06.260
+Taip pat pamatėme, kad jos sukurtos labai profesionaliai
+
+00:03:06.260 --> 00:03:10.260
+žmonių, kurie akivaizdžiai turėjo visą vidinę informaciją.
+
+00:03:10.260 --> 00:03:12.260
+Jie žinojo kiekvieną smulkmeną apie įrangą,
+
+00:03:12.260 --> 00:03:14.260
+kurią turėjo atakuoti.
+
+00:03:14.260 --> 00:03:17.260
+Jie tikriausiai žinojo net operatoriaus batų dydį.
+
+00:03:17.260 --> 00:03:19.260
+Taigi, jie žinojo viską.
+
+00:03:19.260 --> 00:03:22.260
+Jei jūs girdėjote, jog Stuxnet užkratas
+
+00:03:22.260 --> 00:03:24.260
+yra sudėtingas ir aukščiausios technologijos,
+
+00:03:24.260 --> 00:03:26.260
+tai leiskite pasakyti štai ką:
+
+00:03:26.260 --> 00:03:28.260
+tas užtaisas - "raketų mokslas".
+
+00:03:28.260 --> 00:03:30.260
+Tai daug sudėtingiau už viską,
+
+00:03:30.260 --> 00:03:33.260
+ką mes esame matę iki šiol.
+
+00:03:33.260 --> 00:03:36.260
+Čia jūs matote pavyzdį iš tikrojo atakos kodo.
+
+00:03:36.260 --> 00:03:38.260
+Mes kalbame apie
+
+00:03:38.260 --> 00:03:41.260
+maždaug 15 000 kodo eilučių.
+
+00:03:41.260 --> 00:03:44.260
+Atrodo panašiai į senąją asemblerio kalbą.
+
+00:03:44.260 --> 00:03:46.260
+Aš noriu papasakoti, kaip mums pavyko
+
+00:03:46.260 --> 00:03:48.260
+iššifruoti šį kodą.
+
+00:03:48.260 --> 00:03:51.260
+Taigi, pirmiausia pradėjome ieškoti kreipinių į sistemos veiksmus,
+
+00:03:51.260 --> 00:03:53.260
+nes žinojome, ką jie daro.
+
+00:03:53.260 --> 00:03:57.260
+Po to ieškojome laikmačių ir duomenų struktūrų,
+
+00:03:57.260 --> 00:03:59.260
+bandėme susieti juos su realiu pasauliu -
+
+00:03:59.260 --> 00:04:01.260
+su tikrais realaus pasaulio taikiniais.
+
+00:04:01.260 --> 00:04:04.260
+Taigi, mums reikėjo ieškoti teorinių taikinių,
+
+00:04:04.260 --> 00:04:07.260
+kuriuos galėtume patvirtinti arba atmesti.
+
+00:04:07.260 --> 00:04:09.260
+Kurdami tokias teorijas
+
+00:04:09.260 --> 00:04:11.260
+mes turėjome galvoje,
+
+00:04:11.260 --> 00:04:13.260
+kad tai labai aukšto lygio sabotažas,
+
+00:04:13.260 --> 00:04:15.260
+taigi taikinys turi būti labai svarbus,
+
+00:04:15.260 --> 00:04:18.260
+ir labiausiai tikėtina, kad jis yra Irane,
+
+00:04:18.260 --> 00:04:22.260
+nes iš ten atėjo daugiausiai pranešimų apie užkrėtimus.
+
+00:04:22.260 --> 00:04:25.260
+Toje teritorijoje nerasite tūkstančių tokių taikinių.
+
+00:04:25.260 --> 00:04:27.260
+Iš esmės visi keliai veda
+
+00:04:27.260 --> 00:04:29.260
+į Bushehr atominę elektrinę
+
+00:04:29.260 --> 00:04:31.260
+ir į Natanz atominio kuro sodrinimo gamyklą.
+
+00:04:31.260 --> 00:04:33.260
+Taigi, aš pasakiau savo asistentui,
+
+00:04:33.260 --> 00:04:36.260
+"Suraskite mūsų duomenų bazėje visus centrifugų ir elektrinių ekspertus".
+
+00:04:36.260 --> 00:04:38.260
+Tada aš jiems paskambinau ir apklausiau
+
+00:04:38.260 --> 00:04:40.260
+tam, kad susieti jų ekspertines žinias
+
+00:04:40.260 --> 00:04:43.260
+su tuo, ką mes radome kode ir duomenyse.
+
+00:04:43.260 --> 00:04:45.260
+Tai visai neblogai pavyko.
+
+00:04:45.260 --> 00:04:47.260
+Taigi, mes susiejome
+
+00:04:47.260 --> 00:04:49.260
+mažąją skaitmeninę bombą
+
+00:04:49.260 --> 00:04:51.260
+su rotoriaus kontrole.
+
+00:04:51.260 --> 00:04:54.260
+Rotorius - tai judanti centrifugos dalis,
+
+00:04:54.260 --> 00:04:56.260
+juodas objektas, kurį matote.
+
+00:04:56.260 --> 00:04:59.260
+Manipuliuojant šio rotoriaus greičiu
+
+00:04:59.260 --> 00:05:01.260
+galima suskaldyti rotorių
+
+00:05:01.260 --> 00:05:05.260
+ir taip sukelti centrifugos sprogimą.
+
+00:05:05.260 --> 00:05:07.260
+Mes taip pat pamatėme,
+
+00:05:07.260 --> 00:05:09.260
+kad atakos tikslas
+
+00:05:09.260 --> 00:05:12.260
+buvo tai padaryti lėtai ir bauginančiai -
+
+00:05:12.260 --> 00:05:14.260
+akivaizdžiai stengiantis
+
+00:05:14.260 --> 00:05:17.260
+inžinierius išvesti iš proto,
+
+00:05:17.260 --> 00:05:20.260
+kad jie greitai nesuprastų, kas vyksta.
+
+00:05:20.260 --> 00:05:23.260
+Didžioji skaitmeninė bomba - apie ją spėjome
+
+00:05:23.260 --> 00:05:25.260
+akylai žiūrėdami į
+
+00:05:25.260 --> 00:05:27.260
+duomenis ir jų struktūrą.
+
+00:05:27.260 --> 00:05:29.260
+Pavyzdžiui, skaičius 164
+
+00:05:29.260 --> 00:05:31.260
+išsiskiria visame kode;
+
+00:05:31.260 --> 00:05:33.260
+jo nepastebėti negalima.
+
+00:05:33.260 --> 00:05:35.260
+Aš pradėjau studijuoti mokslinę literatūrą,
+
+00:05:35.260 --> 00:05:37.260
+kaip centrifugos
+
+00:05:37.260 --> 00:05:39.260
+yra sukonstruotos Natanz'e
+
+00:05:39.260 --> 00:05:41.260
+ir pastebėjau, jog jos sugrupuotos
+
+00:05:41.260 --> 00:05:43.260
+taip vadinamomis kaskadomis,
+
+00:05:43.260 --> 00:05:47.260
+o kiekvienoje kaskadoje yra 164 centrifugos.
+
+00:05:47.260 --> 00:05:49.260
+Taigi, tai buvo sąsaja.
+
+00:05:49.260 --> 00:05:51.260
+Toliau buvo dar geriau.
+
+00:05:51.260 --> 00:05:53.260
+Šios centrifugos Irane
+
+00:05:53.260 --> 00:05:57.260
+yra dar suskirstytos į 15 lygių.
+
+00:05:57.260 --> 00:05:59.260
+Ir spėkite, ką mes radome atakos kode?
+
+00:05:59.260 --> 00:06:01.260
+Beveik tokią pat struktūrą.
+
+00:06:01.260 --> 00:06:04.260
+Taigi, pakartosiu - tai buvo tikrai aiškus ryšys.
+
+00:06:04.260 --> 00:06:07.260
+Tai mus suteikė pasitikėjimo tuo, ką mes tyrėme.
+
+00:06:07.260 --> 00:06:10.260
+Tačiau nesupraskite manęs klaidingai, tai nevyko taip sklandžiai.
+
+00:06:10.260 --> 00:06:13.260
+Šie rezultatai gauti
+
+00:06:13.260 --> 00:06:16.260
+po kelių savaičių sunkaus darbo.
+
+00:06:16.260 --> 00:06:19.260
+Dažnai atsidurdavome aklavietėje,
+
+00:06:19.260 --> 00:06:21.260
+tačiau turėjome atsitiesti.
+
+00:06:21.260 --> 00:06:23.260
+Bet kuriuo atveju, mes išsiaiškinome,
+
+00:06:23.260 --> 00:06:25.260
+kad abi skaitmeninės bombos
+
+00:06:25.260 --> 00:06:27.260
+taikėsi į tą patį taikinį,
+
+00:06:27.260 --> 00:06:29.260
+tačiau iš skirtingų pusių.
+
+00:06:29.260 --> 00:06:32.260
+Mažoji bomba taikėsi į vieną kaskadą
+
+00:06:32.260 --> 00:06:35.260
+ir kaitaliojo rotorių sukimosi greitį,
+
+00:06:35.260 --> 00:06:37.260
+o didžioji bomba
+
+00:06:37.260 --> 00:06:39.260
+valdė šešias kaskadas
+
+00:06:39.260 --> 00:06:41.260
+bei manipuliavo vožtuvais.
+
+00:06:41.260 --> 00:06:43.260
+Taigi, mes buvome pakankamai tikri,
+
+00:06:43.260 --> 00:06:45.260
+kad nustatėme taikinį.
+
+00:06:45.260 --> 00:06:48.260
+Tai Natanz ir tik Natanz.
+
+00:06:48.260 --> 00:06:50.260
+Taigi, neturėjome baimintis,
+
+00:06:50.260 --> 00:06:52.260
+kad kiti taikiniai
+
+00:06:52.260 --> 00:06:54.260
+gali būti paveikti Stuxnet.
+
+00:06:54.260 --> 00:06:57.260
+Čia labai šaunūs dalykai, kuriuos išvydome
+
+00:06:57.260 --> 00:06:59.260
+ir tai mane išvertė iš klumpių.
+
+00:06:59.260 --> 00:07:01.260
+Apačioje yra pilkoji dėžė,
+
+00:07:01.260 --> 00:07:04.260
+o virš jos matote centrifugas.
+
+00:07:04.260 --> 00:07:06.260
+Šitas virusas
+
+00:07:06.260 --> 00:07:09.260
+perima duomenis iš daviklių -
+
+00:07:09.260 --> 00:07:11.260
+pavyzdžiui, iš spaudimo
+
+00:07:11.260 --> 00:07:13.260
+ar vibracijos daviklių -
+
+00:07:13.260 --> 00:07:16.260
+ir siunčia įrangos sistemoms,
+
+00:07:16.260 --> 00:07:18.260
+kurios atakos metu vis dar veikia,
+
+00:07:18.260 --> 00:07:20.260
+netikrus duomenis.
+
+00:07:20.260 --> 00:07:22.260
+Beje, netikri duomenys
+
+00:07:22.260 --> 00:07:25.260
+yra įrašyti Stuxnet iš anksto.
+
+00:07:25.260 --> 00:07:27.260
+Taigi, tai kaip Holivudo filmuose,
+
+00:07:27.260 --> 00:07:29.260
+kai vykdant vagystes
+
+00:07:29.260 --> 00:07:32.260
+stebėjimo kamerose matosi iš anksto paruoštas vaizdas.
+
+00:07:32.260 --> 00:07:34.260
+Šaunu, ar ne?
+
+00:07:35.260 --> 00:07:37.260
+Ši idėja akivaizdžiai skirta
+
+00:07:37.260 --> 00:07:40.260
+ne tik apkvailinti operatorius prie valdymo pulto.
+
+00:07:40.260 --> 00:07:44.260
+Ji daug pavojingesnė ir agresyvesnė.
+
+00:07:44.260 --> 00:07:46.260
+Idėja yra
+
+00:07:46.260 --> 00:07:49.260
+pergudrauti skaitmeninę saugumo sistemą.
+
+00:07:50.260 --> 00:07:52.260
+Mums reikia skaitmeninių saugumo sistemų,
+
+00:07:52.260 --> 00:07:55.260
+nes žmogus operatorius negali pakankamai greitai sureaguoti.
+
+00:07:55.260 --> 00:07:57.260
+Pavyzdžiui, elektrinėje,
+
+00:07:57.260 --> 00:08:00.260
+kai didelė garo turbina pradeda per greitai suktis,
+
+00:08:00.260 --> 00:08:03.260
+reikia tam tikrus vožtuvus atidaryti per milisekundę.
+
+00:08:03.260 --> 00:08:06.260
+Akivaizdu, kad žmogus to padaryti negalėtų.
+
+00:08:06.260 --> 00:08:08.260
+Štai čia reikalingos skaitmeninės saugumo sistemos.
+
+00:08:08.260 --> 00:08:10.260
+O kai jos yra sugadinamos,
+
+00:08:10.260 --> 00:08:13.260
+gali nutikti tikrai blogų dalykų.
+
+00:08:13.260 --> 00:08:15.260
+Elektrinė gali sprogti.
+
+00:08:15.260 --> 00:08:18.260
+Ir nei operatoriai, nei saugumo sistemos to net nepastebės.
+
+00:08:18.260 --> 00:08:20.260
+Baisoka.
+
+00:08:20.260 --> 00:08:22.260
+Bet yra dar blogiau.
+
+00:08:22.260 --> 00:08:25.260
+Ir tai labai svarbu, ką dabar pasakysiu.
+
+00:08:25.260 --> 00:08:27.260
+Pagalvokite apie tai.
+
+00:08:27.260 --> 00:08:30.260
+Ši ataka yra bendrinė.
+
+00:08:30.260 --> 00:08:34.260
+Iš esmės ji nesusijusi konkrečiai
+
+00:08:34.260 --> 00:08:36.260
+su centrifugomis
+
+00:08:36.260 --> 00:08:39.260
+ar urano sodrinimu.
+
+00:08:39.260 --> 00:08:42.260
+Taigi, ji taip pat sėkmingai veiktų, pavyzdžiui,
+
+00:08:42.260 --> 00:08:44.260
+elektrinėje
+
+00:08:44.260 --> 00:08:47.260
+ar automobilių gamykloje.
+
+00:08:47.260 --> 00:08:49.260
+Ji yra bendrinė.
+
+00:08:49.260 --> 00:08:51.260
+Ir jūs, kaip puolantysis,
+
+00:08:51.260 --> 00:08:54.260
+viruso neprivalote paleisti
+
+00:08:54.260 --> 00:08:56.260
+iš USB atmintinės,
+
+00:08:56.260 --> 00:08:58.260
+kaip matėme Stuxnet atveju.
+
+00:08:58.260 --> 00:09:01.260
+Jūs galite naudoti įprastą kirmino technologiją paskleidimui.
+
+00:09:01.260 --> 00:09:04.260
+Tik paskleiskite kiek galima plačiau.
+
+00:09:04.260 --> 00:09:06.260
+Jei tai padarysite,
+
+00:09:06.260 --> 00:09:08.260
+tai gausite
+
+00:09:08.260 --> 00:09:13.260
+skaitmeninį masinio naikinimo ginklą.
+
+00:09:14.260 --> 00:09:16.260
+Tai pasekmės,
+
+00:09:16.260 --> 00:09:19.260
+su kuriomis teks susidurti.
+
+00:09:19.260 --> 00:09:22.260
+Nelaimei,
+
+00:09:22.260 --> 00:09:25.260
+daugiausiai taikinių tokioms atakoms
+
+00:09:25.260 --> 00:09:27.260
+yra ne Artimuosiuose Rytuose.
+
+00:09:27.260 --> 00:09:30.260
+Jie yra JAV, Europoje ir Japonijoje.
+
+00:09:30.260 --> 00:09:32.260
+Visos žalios zonos,
+
+00:09:32.260 --> 00:09:35.260
+tai daugiausiai taikinių turinčios vietos.
+
+00:09:35.260 --> 00:09:38.260
+Mes turėsime susidurti su pasekmėmis
+
+00:09:38.260 --> 00:09:41.260
+ir geriau joms ruoštis jau dabar.
+
+00:09:41.260 --> 00:09:43.260
+Ačiū.
+
+00:09:43.260 --> 00:09:49.260
+(Plojimai)
+
+00:09:49.260 --> 00:09:51.260
+Chris Anderson: Aš turiu klausimą.
+
+00:09:53.260 --> 00:09:55.260
+Ralfai, buvo plačiai nušviesta,
+
+00:09:55.260 --> 00:09:57.260
+kad daugelio manymu Mossad
+
+00:09:57.260 --> 00:09:59.260
+yra pagrindinis šios atakos organizatorius.
+
+00:09:59.260 --> 00:10:02.260
+Kokia tavo nuomonė?
+
+00:10:02.260 --> 00:10:04.260
+Ralph Langner: Gerai, jūs tikrai norite tai išgirsti?
+
+00:10:04.260 --> 00:10:06.260
+Gerai.
+
+00:10:06.260 --> 00:10:09.260
+Mano nuomone Mossad yra įsivėlęs,
+
+00:10:09.260 --> 00:10:12.260
+bet pagrindinis veikėjas nėra Izraelis.
+
+00:10:12.260 --> 00:10:14.260
+Pagrindinis iniciatorius
+
+00:10:14.260 --> 00:10:17.260
+yra kompiuterinė supervalstybė.
+
+00:10:17.260 --> 00:10:19.260
+Tokia yra tik viena,
+
+00:10:19.260 --> 00:10:21.260
+ir tai Jungtinės Amerikos Valstijos -
+
+00:10:21.260 --> 00:10:23.260
+laimei, laimei.
+
+00:10:23.260 --> 00:10:25.260
+Nes kitaip
+
+00:10:25.260 --> 00:10:28.260
+mūsų problemos būtų netgi didesnės.
+
+00:10:28.260 --> 00:10:32.260
+CA: Ačiū, kad mirtinai mus išgąsdinai. Ačiū, Ralfai.
+
+00:10:32.260 --> 00:10:34.260
+(Plojimai)
+

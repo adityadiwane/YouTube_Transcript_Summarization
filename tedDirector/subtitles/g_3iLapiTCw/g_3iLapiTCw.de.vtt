@@ -1,0 +1,980 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.000 --> 00:00:07.000
+Übersetzung: Matthias Daues
+Lektorat: Tonia David
+
+00:00:12.502 --> 00:00:17.787
+Frugal Digital ist im Wesentlichen 
+eine kleine Forschungsgruppe bei C.I.D.,
+
+00:00:17.787 --> 00:00:19.930
+die nach Möglichkeiten sucht,
+
+00:00:19.930 --> 00:00:24.470
+eine digital-integrative Gesellschaft 
+zu schaffen.
+
+00:00:24.470 --> 00:00:26.278
+Das ist unser Ziel. Wir tun
+
+00:00:26.278 --> 00:00:28.458
+das, weil wir überzeugt sind,
+
+00:00:28.458 --> 00:00:31.732
+dass Silicon-Technologie heutzutage
+
+00:00:31.732 --> 00:00:33.484
+eine Kultur des Überflusses ist.
+
+00:00:33.484 --> 00:00:35.657
+Jeder will das schnellste,
+
+00:00:35.657 --> 00:00:38.087
+effizienteste, auffälligste Gerät,
+
+00:00:38.087 --> 00:00:40.985
+während zwei Drittel der Weltbevölkerung
+
+00:00:40.985 --> 00:00:44.669
+kaum an die einfachsten Teile 
+dieser Technologie kommen,
+
+00:00:44.669 --> 00:00:48.252
+die die elementarsten Bedürfnisse 
+des Lebens abdecken,
+
+00:00:48.252 --> 00:00:50.420
+Gesundheitspflege, Ausbildung
+
+00:00:50.420 --> 00:00:54.499
+und alle diese sehr grundlegenden 
+Dinge inbegriffen.
+
+00:00:54.499 --> 00:00:57.744
+Als Einleitung habe ich eine kleine Anekdote
+
+00:00:57.744 --> 00:01:01.767
+über einen Mann, dem ich in Mumbai begegnete.
+
+00:01:01.767 --> 00:01:03.954
+Dieser Mann ist Sathi Shri.
+
+00:01:03.954 --> 00:01:06.060
+Als Kleinunternehmer ist er
+
+00:01:06.060 --> 00:01:08.202
+eine besondere Person.
+
+00:01:08.202 --> 00:01:09.944
+Er hat irgendwo in Mumbai
+
+00:01:09.944 --> 00:01:11.947
+einen kleinen Laden.
+
+00:01:11.947 --> 00:01:14.995
+In diesem kleinen 10m²-Laden spielt sich
+
+00:01:14.995 --> 00:01:17.145
+alles Mögliche ab.
+
+00:01:17.145 --> 00:01:19.050
+Ich traute meinen Augen nicht,
+
+00:01:19.050 --> 00:01:21.533
+als ich zufällig vorbeikam.
+
+00:01:21.533 --> 00:01:23.658
+Er bietet all diese Dienste an,
+
+00:01:23.658 --> 00:01:26.411
+Überweisungen, Tickets buchen und so
+
+00:01:26.411 --> 00:01:29.744
+kleine Sachen, die man kurz online macht,
+
+00:01:29.744 --> 00:01:31.933
+aber für Leute, die er so erst
+
+00:01:31.933 --> 00:01:33.930
+mit der digitalen Welt verbindet.
+
+00:01:33.930 --> 00:01:35.435
+Sein Geld macht er
+
+00:01:35.435 --> 00:01:38.028
+eigentlich durch den Verkauf von Guthaben
+
+00:01:38.028 --> 00:01:40.303
+für Prepaid-Telefonkarten.
+
+00:01:40.303 --> 00:01:43.544
+Aber hinten im Laden
+hat er so eine kleine Ecke
+
+00:01:43.544 --> 00:01:46.117
+mit ein paar Angestellten, die
+
+00:01:46.117 --> 00:01:48.701
+so ungefähr alles reparieren können.
+
+00:01:48.701 --> 00:01:51.959
+Sie reparieren jedes Gerät,
+das man ihnen bringt.
+
+00:01:51.959 --> 00:01:55.077
+Unglaublich – ich hatte mein iPhone dabei,
+
+00:01:55.077 --> 00:01:57.246
+und er so: »Klar – wollen Sie
+
+00:01:57.246 --> 00:01:59.564
+ein Upgrade?« »Bestimmt.« (Lachen)
+
+00:01:59.564 --> 00:02:01.504
+Ich war eher skeptisch, also
+
+00:02:01.504 --> 00:02:06.137
+gab ich ihm stattdessen
+lieber ein Nokia. (Lachen)
+
+00:02:06.137 --> 00:02:11.352
+Was mich so erstaunt hat, ist 
+dieses Reverse Engineering
+
+00:02:11.352 --> 00:02:16.304
+und das auf zwei Metern 
+zusammengeballte Know-how.
+
+00:02:16.304 --> 00:02:18.895
+Sie haben ausgetüftelt, wie man Dinge
+
+00:02:18.895 --> 00:02:20.921
+zerlegt, Schaltkreise ummodelt,
+
+00:02:20.921 --> 00:02:23.880
+Firmware flasht, kurz: alles, was man will,
+
+00:02:23.880 --> 00:02:25.847
+mit dem Telefon zu machen,
+
+00:02:25.847 --> 00:02:28.416
+und sie reparieren alles rasend schnell.
+
+00:02:28.416 --> 00:02:30.416
+Man gibt sein Gerät morgens ab
+
+00:02:30.416 --> 00:02:32.336
+und mittags ist es fertig.
+
+00:02:32.336 --> 00:02:34.256
+Eigentlich unglaublich.
+
+00:02:34.256 --> 00:02:35.827
+Die Frage war: Ist das
+
+00:02:35.827 --> 00:02:38.369
+Phänomen nur lokal oder weltweit so?
+
+00:02:38.369 --> 00:02:40.619
+Darum untersuchten wir systematisch,
+
+00:02:40.619 --> 00:02:42.338
+worum es in dieser
+
+00:02:42.338 --> 00:02:44.454
+Bastelwirtschaft geht, die es
+
+00:02:44.454 --> 00:02:46.059
+ja nicht nur an
+
+00:02:46.059 --> 00:02:48.091
+irgendeiner Straßenecke in Mumbai gibt.
+
+00:02:48.091 --> 00:02:51.205
+Tatsächlich gibt es sie im ganzen Land.
+
+00:02:51.205 --> 00:02:53.466
+Sogar in Afrika. Wir haben das für
+
+00:02:53.466 --> 00:02:55.513
+Kapstadt ausgiebig erforscht.
+
+00:02:55.513 --> 00:02:58.708
+Sogar hier in Doha gibt es 
+diese Winkel, wo sie
+
+00:02:58.708 --> 00:03:01.595
+Wecker und Uhren reparieren, 
+wo es um viele
+
+00:03:01.595 --> 00:03:04.796
+Kleinteile geht. Einfach ist das nicht.
+
+00:03:04.796 --> 00:03:06.909
+Das muss man selbst probieren.
+
+00:03:06.909 --> 00:03:08.463
+Was treibt das alles?
+
+00:03:08.463 --> 00:03:11.971
+Da ist dieses Ökosystem 
+aus Billigteilen
+
+00:03:11.971 --> 00:03:15.277
+und Zubehör, die in der ganzen Welt 
+hergestellt werden
+
+00:03:15.277 --> 00:03:19.043
+und dann innerhalb dieser
+Industrie vertrieben werden,
+
+00:03:19.043 --> 00:03:21.214
+und sogar den Ausschuss kann man kaufen.
+
+00:03:21.214 --> 00:03:23.370
+Man muss nicht notwendigerweise
+
+00:03:23.370 --> 00:03:25.833
+Neues kaufen. Ausschussrechner
+
+00:03:25.833 --> 00:03:27.140
+werden geschlachtet,
+
+00:03:27.140 --> 00:03:28.710
+und aus Gebrauchtteilen
+
+00:03:28.710 --> 00:03:32.531
+und anderem kann man 
+Neues zusammensetzen.
+
+00:03:32.531 --> 00:03:36.012
+Was haben wir von dieser neuen Denkweise?
+
+00:03:36.012 --> 00:03:37.932
+Das ist die eigentliche Frage,
+
+00:03:37.932 --> 00:03:40.157
+weil das Teil jeder Gesellschaft
+
+00:03:40.157 --> 00:03:42.523
+ist, die knapp an Ressourcen ist.
+
+00:03:42.523 --> 00:03:44.420
+Ein interessantes Denkmuster:
+
+00:03:44.420 --> 00:03:45.912
+herkömmliches gegen
+
+00:03:45.912 --> 00:03:47.915
+technologisiertes Handwerk.
+
+00:03:47.915 --> 00:03:50.123
+Das technologisierte entsteht erst.
+
+00:03:50.123 --> 00:03:52.195
+Das ist nichts Etabliertes.
+
+00:03:52.195 --> 00:03:54.862
+und auch nichts Institutionalisiertes.
+
+00:03:54.862 --> 00:03:56.633
+Man lernt es nicht an der Uni,
+
+00:03:56.633 --> 00:03:58.356
+sondern durch Überlieferung –
+
+00:03:58.356 --> 00:04:00.265
+die Ausbildung ist informell.
+
+00:04:00.265 --> 00:04:03.067
+Also fragten wir uns: 
+»Was haben wir davon?
+
+00:04:03.067 --> 00:04:05.801
+Welche Vorteile erwachsen uns daraus?«
+
+00:04:05.801 --> 00:04:08.146
+Die Hauptsache, das »mach es vor Ort«,
+
+00:04:08.146 --> 00:04:10.486
+ist ideal, weil so ein Produkt
+
+00:04:10.486 --> 00:04:12.531
+oder eine Dienstleistung ohne
+
+00:04:12.531 --> 00:04:15.139
+viel Bürokratie erstellt werden kann.
+
+00:04:15.139 --> 00:04:18.218
+Die preiswerte Erstellung
+ist auch ideal,
+
+00:04:18.218 --> 00:04:20.250
+weil dadurch viel mehr machbar wird.
+
+00:04:20.250 --> 00:04:22.564
+Das Wichtigste ist: wir bekommen
+
+00:04:22.564 --> 00:04:24.940
+große Zahlen zu kleinen Kosten.
+
+00:04:24.940 --> 00:04:27.269
+Damit kann man jetzt
+
+00:04:27.269 --> 00:04:30.794
+ziemlich raffinierte Algorithmen
+und viele andere
+
+00:04:30.794 --> 00:04:34.452
+erweiterbare Ideen in an sich
+einfache Geräte stecken.
+
+00:04:34.452 --> 00:04:39.260
+Deshalb nennen wir es
+die ›Silicon-Heimarbeit‹.
+
+00:04:39.260 --> 00:04:42.206
+Jetzt wiederholen sich 
+System und Denkweise
+
+00:04:42.206 --> 00:04:44.670
+von vor der industriellen Revolution
+
+00:04:44.670 --> 00:04:47.678
+völlig neu in kleinen digitalen Werkstätten
+
+00:04:47.678 --> 00:04:50.759
+in Entwicklungsländern der ganzen Welt.
+
+00:04:50.759 --> 00:04:54.893
+Wir haben mit der Idee rumgespielt
+und uns gefragt:
+
+00:04:54.893 --> 00:04:56.571
+»Was kann man damit anfangen?
+
+00:04:56.571 --> 00:04:59.099
+Kann man daraus ein Produkt machen?«
+
+00:04:59.099 --> 00:05:01.519
+Zuerst haben wir uns 
+an eine Multimedia-Plattform
+
+00:05:01.519 --> 00:05:03.915
+gemacht, die wir Lunchbox (Brotdose) nennen.
+
+00:05:03.915 --> 00:05:06.666
+Ein Umfeld, das wir uns vornahmen,
+
+00:05:06.666 --> 00:05:10.153
+waren Schulen in entlegenen Teilen Indiens.
+
+00:05:10.153 --> 00:05:13.412
+Da gibt es das Konzept der Einklassenschule.
+
+00:05:13.412 --> 00:05:16.114
+Ein einziger multitasking-fähiger Lehrer
+
+00:05:16.114 --> 00:05:18.591
+unterrichtet die ganze kleine Gruppe.
+
+00:05:18.591 --> 00:05:20.128
+Das ist informell,
+
+00:05:20.128 --> 00:05:22.287
+aber ganzheitliche Ausbildung.
+
+00:05:22.287 --> 00:05:23.525
+Ihnen fehlen Zugang
+
+00:05:23.525 --> 00:05:25.919
+zu Ressourcen, oft Schulbücher,
+
+00:05:25.919 --> 00:05:28.746
+ein anständiger Lehrplan.
+
+00:05:28.746 --> 00:05:32.250
+Wir fragten uns: 
+»Wie verhelfen wir diesen Lehrern
+
+00:05:32.250 --> 00:05:35.062
+zu mehr, zum Anschluss 
+an die digitale Welt?«
+
+00:05:35.062 --> 00:05:37.624
+wie machen wir sie vom Hüter
+
+00:05:37.624 --> 00:05:40.028
+der Information zu deren Vermittler?«
+
+00:05:40.028 --> 00:05:43.412
+Die Frage war: 
+»Wie macht man aus diesem Lehrer
+
+00:05:43.412 --> 00:05:46.067
+einen Zugang zur digitalen Welt, und wie
+
+00:05:46.067 --> 00:05:48.599
+macht man billig eine Multimedia-Plattform,
+
+00:05:48.599 --> 00:05:51.591
+die man vor Ort bauen und reparieren kann?«
+
+00:05:51.591 --> 00:05:53.934
+Also zogen wir los und suchten
+
+00:05:53.934 --> 00:05:56.224
+auf Märkten in der Nähe die Antwort
+
+00:05:56.224 --> 00:06:00.245
+auf die Frage: »Was hier 
+könnten wir dafür nehmen?«
+
+00:06:00.245 --> 00:06:02.772
+Wir fanden ein kleines Mobiltelefon
+
+00:06:02.772 --> 00:06:05.979
+mit einem Winzigst-Projektor
+
+00:06:05.979 --> 00:06:08.316
+für ungefähr 50 Euro, und dazu
+
+00:06:08.316 --> 00:06:10.772
+eine Stablampe mit Riesen-Batterie
+
+00:06:10.772 --> 00:06:12.562
+und ein paar kleine Lautsprecher.
+
+00:06:12.562 --> 00:06:14.860
+Mit dem Mobiltelefon haben wir
+
+00:06:14.860 --> 00:06:16.784
+eine Multimedia-Plattform.
+
+00:06:16.784 --> 00:06:20.269
+Damit können wir Dateien 
+in verschiedenen Formaten
+
+00:06:20.269 --> 00:06:22.620
+hochladen und sie abspielen.
+
+00:06:22.620 --> 00:06:25.646
+Die Stablampe hat ein 
+sehr helles LED-Licht
+
+00:06:25.646 --> 00:06:28.637
+und einen Akku, 
+der sechs Stunden hält.
+
+00:06:28.637 --> 00:06:30.853
+Die Lunchbox ist ein nettes Päckchen,
+
+00:06:30.853 --> 00:06:32.900
+in das alles reinpasst, und
+
+00:06:32.900 --> 00:06:34.463
+mit den Lautsprechern ist sie
+
+00:06:34.463 --> 00:06:35.881
+auch laut genug.
+
+00:06:35.881 --> 00:06:39.420
+Glauben Sie mir – diese kleinen 
+Klassenzimmer sind echt laut.
+
+00:06:39.420 --> 00:06:42.013
+Die Kinder schreien und kreischen,
+
+00:06:42.013 --> 00:06:43.673
+das muss man übertönen.
+
+00:06:43.673 --> 00:06:46.394
+Wir brachten alles in die Bastelstube
+
+00:06:46.394 --> 00:06:48.484
+eines Telefon-Reparaturladens,
+
+00:06:48.484 --> 00:06:49.912
+und dann – das Wunder.
+
+00:06:49.912 --> 00:06:51.293
+Auseinandernehmen,
+
+00:06:51.293 --> 00:06:53.650
+neu zusammensetzen, die
+
+00:06:53.650 --> 00:06:55.828
+Hardware vermanschen, und der
+
+00:06:55.828 --> 00:06:58.437
+Mann wird dabei geschult, 
+wie man das macht.
+
+00:06:58.437 --> 00:07:01.892
+Und heraus kommt die Lunchbox – 
+tolles Design, oder?
+
+00:07:01.892 --> 00:07:08.718
+(Beifall)
+
+00:07:08.718 --> 00:07:11.736
+Wir haben in Einsatzerprobungen mehrere
+
+00:07:11.736 --> 00:07:14.104
+Runden gedreht, weil wir dabei
+
+00:07:14.104 --> 00:07:16.621
+wichtige Lektionen lernen konnten.
+
+00:07:16.621 --> 00:07:19.316
+Die meisten Probleme machte der Akku.
+
+00:07:19.316 --> 00:07:23.294
+Leuchtkraft war wegen des 
+grellen Sonnenlichts ein Problem:
+
+00:07:23.294 --> 00:07:25.846
+Oft sind die Dächer kaputt, so dass man
+
+00:07:25.846 --> 00:07:28.974
+das Klassenzimmer 
+nicht dunkel genug bekommt.
+
+00:07:28.974 --> 00:07:31.816
+Wir bohrten die Idee auf 
+und testeten wieder.
+
+00:07:31.816 --> 00:07:34.394
+Version zwei hat Solarzellen, aber
+
+00:07:34.394 --> 00:07:36.774
+man kann sie auch an eine
+
+00:07:36.774 --> 00:07:39.573
+Autobatterie anschließen, weil die
+
+00:07:39.573 --> 00:07:42.567
+an Orten, wo es nicht genug oder
+
+00:07:42.567 --> 00:07:44.774
+nicht dauerhaft Strom gibt,
+
+00:07:44.774 --> 00:07:46.734
+als Stromquelle immer da ist.
+
+00:07:46.734 --> 00:07:48.703
+Als andere Hauptänderung hat
+
+00:07:48.703 --> 00:07:51.165
+die Box einen USB-Anschluss spendiert
+
+00:07:51.165 --> 00:07:54.519
+bekommen. Obwohl es theoretisch 
+GPRS und so gibt,
+
+00:07:54.519 --> 00:07:57.094
+stellte es sich als viel effizienter
+
+00:07:57.094 --> 00:08:00.984
+heraus, per Post 
+einen USB-Stick zu verschicken.
+
+00:08:00.984 --> 00:08:02.824
+Das dauert vielleicht länger,
+
+00:08:02.824 --> 00:08:05.198
+aber es kommt in HD und in
+
+00:08:05.198 --> 00:08:07.413
+gleichbleibender Qualität an.
+
+00:08:07.413 --> 00:08:09.695
+Wir machten die Box neu
+
+00:08:09.695 --> 00:08:11.230
+und testeten und drehten
+
+00:08:11.230 --> 00:08:12.779
+wieder viele Runden.
+
+00:08:12.779 --> 00:08:15.748
+Wir sind nicht auf ein Gebiet beschränkt.
+
+00:08:15.748 --> 00:08:17.614
+Messtechnik lässt sich auch
+
+00:08:17.614 --> 00:08:19.626
+auf anderen Gebieten einsetzen,
+
+00:08:19.626 --> 00:08:21.534
+Ich erzähl Ihnen was dazu.
+
+00:08:21.534 --> 00:08:23.989
+Es geht um diesen ›Medi-Meter‹.
+
+00:08:23.989 --> 00:08:27.356
+Es ist ein kleines 
+Gesundheitsüberwachungsgerät.
+
+00:08:27.356 --> 00:08:30.683
+In Indien gibt es Medizinalassistenten,
+
+00:08:30.683 --> 00:08:32.962
+die fantastischen ASHA-Aktivisten,
+
+00:08:32.962 --> 00:08:35.379
+die Infanterie des Gesundheitssystems.
+
+00:08:35.379 --> 00:08:37.763
+Sie leben in den Dörfern und kennen
+
+00:08:37.763 --> 00:08:40.331
+einfache Medizin-Geräte und -Konzepte.
+
+00:08:40.331 --> 00:08:44.093
+Ihre Hauptaufgabe ist es, 
+den Menschen beizubringen,
+
+00:08:44.093 --> 00:08:47.626
+wie man ein besseres Leben führt, aber auch
+
+00:08:47.626 --> 00:08:50.854
+Empfehlungen abzugeben, 
+welche medizinische
+
+00:08:50.854 --> 00:08:53.528
+Versorgung sie in Anspruch nehmen sollen.
+
+00:08:53.528 --> 00:08:56.240
+Sie sind so etwas wie Überweisungsdienste.
+
+00:08:56.240 --> 00:08:58.548
+Das Problem: Man hat festgestellt,
+
+00:08:58.548 --> 00:09:02.738
+dass sie Leute ganz gut 
+in die nächste Klinik schicken können,
+
+00:09:02.738 --> 00:09:05.218
+aber dort bilden sich dann
+
+00:09:05.218 --> 00:09:08.091
+unheimlich lange Warteschlangen.
+
+00:09:08.091 --> 00:09:12.169
+Zu viele Patienten verstopfen 
+das System, weil es
+
+00:09:12.169 --> 00:09:14.979
+einfach nicht genügend Personal
+
+00:09:14.979 --> 00:09:17.545
+für die vielen Menschen gibt,
+
+00:09:17.545 --> 00:09:19.747
+die dort hingeschickt werden.
+
+00:09:19.747 --> 00:09:21.866
+Alles von gewöhnlicher Erkältung
+
+00:09:21.866 --> 00:09:24.526
+bis zum ernsten Malaria-Fall bekommt
+
+00:09:24.526 --> 00:09:27.570
+unterschiedslos die gleiche Aufmerksamkeit.
+
+00:09:27.570 --> 00:09:29.641
+Wir sagten uns: »Also – das geht
+
+00:09:29.641 --> 00:09:31.442
+bestimmt auch besser!«
+
+00:09:31.442 --> 00:09:34.019
+Also fragten wir: »Wie erreichen wir
+
+00:09:34.019 --> 00:09:37.950
+zusammen mit dem ASHA-Aktivisten, 
+dass er mehr
+
+00:09:37.950 --> 00:09:40.465
+als ein nützlicher Filter, nämlich
+
+00:09:40.465 --> 00:09:43.946
+eine Überweisungsinstanz wird, 
+die im ganzen Netz
+
+00:09:43.946 --> 00:09:47.885
+eine ausgewogene Lastverteilung schafft 
+und die Patienten
+
+00:09:47.885 --> 00:09:51.765
+situationsgerecht zu den 
+richtigen Stellen lenkt?«
+
+00:09:51.765 --> 00:09:53.746
+Die Hauptfrage war also:
+
+00:09:53.746 --> 00:09:55.414
+»Wie stärken wir diese Frau?
+
+00:09:55.414 --> 00:09:57.341
+Welche einfachen Hilfsmittel,
+
+00:09:57.341 --> 00:10:00.292
+gar nicht mal diagnostisch, eher sichtend,
+
+00:10:00.292 --> 00:10:04.072
+haben wir, damit sie Patienten 
+besser beraten kann?«
+
+00:10:04.072 --> 00:10:06.100
+Das würde einen
+
+00:10:06.100 --> 00:10:11.018
+großen Unterschied auf 
+das System machen, weil die nötige
+
+00:10:11.018 --> 00:10:12.938
+Reise- und Wartezeit für
+
+00:10:12.938 --> 00:10:15.611
+einen einfachen Gesundheitscheck,
+
+00:10:15.611 --> 00:10:21.074
+oft 7 bis 15 Kilometer, teilweise zu Fuß, 
+manchmal so abschreckend ist,
+
+00:10:21.074 --> 00:10:23.528
+dass es Menschen davon abbringt,
+
+00:10:23.528 --> 00:10:25.537
+zu einem Medizinzentrum zu gehen.
+
+00:10:25.537 --> 00:10:27.572
+Wenn man da was tun könnte,
+
+00:10:27.572 --> 00:10:28.681
+wäre das toll.
+
+00:10:28.681 --> 00:10:31.742
+Wir haben dann aus diesem Gerät hier ein
+
+00:10:31.742 --> 00:10:33.559
+medizinisches Gerät gemacht.
+
+00:10:33.559 --> 00:10:34.835
+Ich zeige das mal,
+
+00:10:34.835 --> 00:10:37.508
+weil es wirklich ganz einfach ist.
+
+00:10:37.508 --> 00:10:39.917
+Bruno, würdest du mal ...? (Bravos)
+
+00:10:39.917 --> 00:10:46.119
+Komm zu mir. (Beifall)
+
+00:10:46.119 --> 00:10:49.044
+Wir werden mal ein paar wichtige Parameter
+
+00:10:49.044 --> 00:10:52.016
+inklusive deines Pulses und
+
+00:10:52.016 --> 00:10:54.871
+der Menge Sauerstoff
+
+00:10:54.871 --> 00:10:56.744
+in deinem Blut überprüfen.
+
+00:10:56.744 --> 00:11:00.035
+Steck mal deinen Daumen da drauf.
+
+00:11:00.035 --> 00:11:01.809
+Bruno Giussani: So etwa?
+
+00:11:01.809 --> 00:11:03.475
+Vinay Venkatraman: Ja, gut.
+
+00:11:03.475 --> 00:11:07.483
+BG: OK. 
+VV: Ich starte das mal. Ich hoffe, es funktioniert.
+
+00:11:07.483 --> 00:11:11.833
+(Pieptöne) Es piept sogar. Kein Wunder – 
+war ja mal ein Wecker.
+
+00:11:11.833 --> 00:11:13.845
+So – (Gelächter)
+
+00:11:13.845 --> 00:11:18.236
+Ich setze es mal auf ›Start‹, und dann
+
+00:11:18.236 --> 00:11:21.848
+drücke ich auf den Erfassen-Knopf. (Piepser)
+
+00:11:21.848 --> 00:11:27.329
+Jetzt nimmt es deine Werte. (Piepser)
+
+00:11:27.329 --> 00:11:30.107
+Der Zeiger hat dann drei Möglichkeiten.
+
+00:11:30.107 --> 00:11:33.382
+Mal sehen, was er hier tut. (Piepser) –
+
+00:11:33.382 --> 00:11:35.465
+Bruno, du kannst beruhigt sein.
+
+00:11:35.465 --> 00:11:39.301
+BG: Gut – das hör ich gern. (Beifall)
+
+00:11:39.301 --> 00:11:41.646
+VV: Also – (Beifall)
+
+00:11:41.646 --> 00:11:44.863
+Hätte der Zeiger dummerweise 
+auf den roten Punkt gezeigt,
+
+00:11:44.863 --> 00:11:48.968
+brächten wir dich sofort ins Hospital.
+
+00:11:48.968 --> 00:11:50.814
+Hat er aber nicht.
+
+00:11:50.814 --> 00:11:54.934
+Hätte er auf den orangenen 
+oder bernsteinfarbenen gezeigt,
+
+00:11:54.934 --> 00:11:57.763
+hättest du eine weitergehende Untersuchung
+
+00:11:57.763 --> 00:12:00.807
+beim Gesundheitsdienst gebraucht.
+
+00:12:00.807 --> 00:12:03.158
+Diese einfache Vorfelddiagnostik
+
+00:12:03.158 --> 00:12:05.273
+könnte durchaus neue Gleichungen
+
+00:12:05.273 --> 00:12:08.013
+für das Gesundheitswesen schreiben.
+
+00:12:08.013 --> 00:12:09.910
+BG: Danke für die gute Nachricht.
+
+00:12:09.910 --> 00:12:14.303
+VV: Gerne. (Beifall)
+
+00:12:14.303 --> 00:12:17.743
+Ich erklär mal kurz, 
+was dahinter steckt, weil
+
+00:12:17.743 --> 00:12:20.033
+das der interessantere Teil ist.
+
+00:12:20.033 --> 00:12:22.727
+Im Wesentlichen braucht man drei Dinge,
+
+00:12:22.727 --> 00:12:27.255
+um dieses Teil hier 
+zu diesem Teil werden zu lassen:
+
+00:12:27.255 --> 00:12:31.384
+eine billige Fernbedienung
+für einen Fernseher,
+
+00:12:31.384 --> 00:12:34.295
+die findet man heute in fast jedem Haushalt,
+
+00:12:34.295 --> 00:12:38.009
+einige Teile einer Computer-Maus,
+
+00:12:38.009 --> 00:12:41.872
+die man für kleines Geld auftreiben kann,
+
+00:12:41.872 --> 00:12:44.783
+und ein paar vorprogrammierte Teile.
+
+00:12:44.783 --> 00:12:47.184
+Das ist ein Micro-Controller mit
+
+00:12:47.184 --> 00:12:49.979
+ein paar extra Teilen, den man günstig
+
+00:12:49.979 --> 00:12:52.972
+verschicken kann, und mehr braucht man
+
+00:12:52.972 --> 00:12:55.363
+außer lokalem Basteltalent nicht,
+
+00:12:55.363 --> 00:12:58.150
+um dieses Gerät 
+in ein anderes umzuwandeln.
+
+00:12:58.150 --> 00:13:01.546
+Wir machen gerade systematische Feldtests,
+
+00:13:01.546 --> 00:13:04.596
+um sicherzustellen, 
+dass das Gerät sich für
+
+00:13:04.596 --> 00:13:06.163
+ASHA-Aktivisten eignet.
+
+00:13:06.163 --> 00:13:09.707
+Wir gleichen es auch mit Profi-Geräten ab,
+
+00:13:09.707 --> 00:13:13.165
+damit die Ergebnisse stimmen, 
+und schauen, ob es
+
+00:13:13.165 --> 00:13:15.487
+das Leben der Menschen ändert.
+
+00:13:15.487 --> 00:13:18.095
+Das Wichtigste aber ist herauszufinden,
+
+00:13:18.095 --> 00:13:19.890
+ob wir das im großen Maßstab
+
+00:13:19.890 --> 00:13:22.144
+machen können, weil es über
+
+00:13:22.144 --> 00:13:24.831
+250.000 dieser tollen 
+ASHA-Infanteristen
+
+00:13:24.831 --> 00:13:27.568
+gibt. Wenn wir zumindest
+
+00:13:27.568 --> 00:13:31.128
+einem Teil von denen 
+Zugang zu diesen Dingen
+
+00:13:31.128 --> 00:13:34.086
+verschaffen könnten, würde das schon
+
+00:13:34.086 --> 00:13:37.097
+die Wirtschaftlichkeit 
+des Gesundheitswesens
+
+00:13:37.097 --> 00:13:41.363
+ändern – nicht nur auf System-Ebene, 
+sondern auch auf
+
+00:13:41.363 --> 00:13:44.548
+der untersten Ebene, von unten nach oben.
+
+00:13:44.548 --> 00:13:47.349
+Wir hoffen, das auch 
+im Großen tun zu können.
+
+00:13:47.349 --> 00:13:50.507
+Vielen Dank. (Beifall)
+
+00:13:50.507 --> 00:13:59.153
+(Beifall)
+

@@ -1,0 +1,779 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Phuong Dao Thi
+Reviewer: Tran Le
+
+00:00:23.307 --> 00:00:26.491
+Nếu một chiếc máy có thể trở thành một vận động viên thì điều này có ý nghĩa gì?
+
+00:00:26.491 --> 00:00:29.908
+Chúng tôi sẽ trình bày về mô hình của một vận động viên bằng máy
+
+00:00:29.908 --> 00:00:31.628
+cũng như phương pháp nghiên cứu để tạo ra thiết bị này
+
+00:00:31.628 --> 00:00:34.139
+cùng với sự trợ giúp của các thiết bị bay được gọi là máy bay bốn cánh,
+
+00:00:34.139 --> 00:00:36.026
+hay nói ngắn gọn là quad
+
+00:00:38.034 --> 00:00:40.563
+Quad đã tồn tại trong một khoảng thời gian dài
+
+00:00:40.563 --> 00:00:42.162
+Lý do mà ngày nay quad trở nên rất phổ biến
+
+00:00:42.162 --> 00:00:44.127
+là vì nó được cấu tạo rất đơn giản
+
+00:00:44.127 --> 00:00:46.235
+Bằng việc điều khiển tốc độ của 4 cánh quạt,
+
+00:00:46.235 --> 00:00:49.283
+thiết bị này có thể cuộn tròn, ném bóng, đảo lái
+
+00:00:49.283 --> 00:00:52.108
+đồng thời tăng tốc theo các hướng phổ biến.
+
+00:00:52.108 --> 00:00:55.179
+Phía trên của nó là một cục pin, một máy vi tính,
+
+00:00:55.179 --> 00:00:59.133
+rất nhiều thiết bị cảm ứng và thiết bị phát sóng không dây.
+
+00:00:59.133 --> 00:01:03.762
+Quads cực kỳ nhanh lẹ, nhưng chính sự nhanh lẹ này cũng sẽ tăng giá thành của nó.
+
+00:01:03.762 --> 00:01:06.754
+Thiết bị này vốn đã không cân bằng, do vậy nó cần một vài
+
+00:01:06.754 --> 00:01:10.726
+bộ điều khiển hồi tiếp tự động giúp nó có thể bay lên được
+
+00:01:16.259 --> 00:01:19.497
+Vậy quy trình đó diễn ra thế nào?
+
+00:01:19.497 --> 00:01:21.315
+Máy quay trên trần nhà và một máy tính cá nhân
+
+00:01:21.315 --> 00:01:23.891
+sẽ đóng vai trò như một hệ thống định vị toàn cầu trong nhà
+
+00:01:23.891 --> 00:01:26.076
+Nó được dùng để xác định các vật thể trong không gian
+
+00:01:26.076 --> 00:01:28.603
+những vật thể này có được gắn thiết bị phản chiếu
+
+00:01:28.603 --> 00:01:30.664
+dữ liệu từ các thiết bị phản chiếu này sau đó sẽ được gửi đến một máy tính cá nhân khác
+
+00:01:30.664 --> 00:01:32.875
+máy tính này thực hiện việc tính toán và kiểm soát các thuật toán
+
+00:01:32.875 --> 00:01:34.761
+sau đó sẽ gửi các câu lệnh cho máy quad
+
+00:01:34.761 --> 00:01:38.246
+máy quad cũng tính toán và thực hiện các thuật toán
+
+00:01:41.620 --> 00:01:44.130
+Và đối tượng nghiên cứu của chúng tôi là các thuật toán
+
+00:01:44.130 --> 00:01:48.291
+Thật kì diệu khi những thiết bị như quad có thể được hiện thực hóa
+
+00:01:48.291 --> 00:01:50.334
+Vậy thì các thuật toán đã được thiết kế thế nào
+
+00:01:50.334 --> 00:01:52.611
+để có thể tạo ra một vận động viên bằng máy?
+
+00:01:52.611 --> 00:01:55.491
+Chúng tôi sử dụng khá rộng rãi một thiết kế được gọi là thiết kế mô hình
+
+00:01:55.491 --> 00:01:58.645
+Đầu tiên chúng tôi sử dụng mô hình toán học để hiển thị các chuyển động vật lý
+
+00:01:58.645 --> 00:02:00.779
+về cách thức thiết bị này vận hành
+
+00:02:00.779 --> 00:02:03.076
+Sau đó chúng tôi sử dụng một phép toán
+
+00:02:03.076 --> 00:02:05.907
+được gọi là thuyết điều khiển để phân tích các mô hình này
+
+00:02:05.907 --> 00:02:09.820
+đồng thời cũng đồng bộ hóa các thuật toán để điều khiển các mô hình
+
+00:02:09.820 --> 00:02:12.868
+Ví dụ, để làm cho quad bay liệng được
+
+00:02:12.868 --> 00:02:14.276
+Trước hết chúng tôi ghi các chuyển động
+
+00:02:14.276 --> 00:02:16.182
+bằng một loạt các phép toán khác nhau
+
+00:02:16.182 --> 00:02:18.531
+Sau đó chúng tôi thực hiện các phép toán này với sự trợ giúp
+
+00:02:18.531 --> 00:02:23.171
+của thuyết điều khiển nhằm tạo ra các thuật toán giữ thăng bằng cho quad.
+
+00:02:23.171 --> 00:02:26.117
+Bây giờ tôi sẽ mô tả sức mạnh của cách làm này
+
+00:02:29.198 --> 00:02:31.747
+Ví dụ chúng tôi muốn thiết bị quad này không chỉ bay liệng
+
+00:02:31.747 --> 00:02:34.529
+mà còn giữ thăng bằng được cái cọc này
+
+00:02:34.529 --> 00:02:36.373
+Bằng một chút thực hành
+
+00:02:36.373 --> 00:02:38.764
+thì rõ ràng con người cũng có thể thực hiện được
+
+00:02:38.764 --> 00:02:40.519
+mặc dù chúng ta có lợi thế là
+
+00:02:40.519 --> 00:02:41.847
+có thể đứng thẳng 2 chân trên mặt đất
+
+00:02:41.847 --> 00:02:44.804
+và sử dụng đôi bàn tay rất khéo léo
+
+00:02:44.804 --> 00:02:47.273
+Thì cũng sẽ hơi khó khăn một chút
+
+00:02:47.273 --> 00:02:49.569
+khi chúng ta chỉ đứng một chân trên sàn
+
+00:02:49.569 --> 00:02:52.368
+và khi không sử dụng đôi tay của mình
+
+00:02:52.368 --> 00:02:55.319
+Hãy chú ý cách chúng tôi đặt thiết bị phản chiếu trên đầu chiếc cọc này
+
+00:02:55.319 --> 00:02:59.213
+Điều đó có nghĩa là có thể định vị được chiếc cọc trong không gian
+
+00:03:04.971 --> 00:03:10.947
+(Vỗ tay)
+
+00:03:10.947 --> 00:03:13.773
+Bạn có thể thấy rằng chiếc máy quad này điều chỉnh rất hợp lý
+
+00:03:13.773 --> 00:03:15.968
+để giữ thăng bằng chiếc cọc
+
+00:03:15.968 --> 00:03:19.027
+Vậy chúng tôi đã thiết kế các thuật toán để thực hiện động tác này ra sao?
+
+00:03:19.027 --> 00:03:21.132
+Chúng tôi đã thêm mô hình toán học của chiếc cọc
+
+00:03:21.132 --> 00:03:22.651
+vào mô hình toán học của quad
+
+00:03:22.651 --> 00:03:25.605
+Khi đã có được một mô hình hệ thống liên kết quad và cọc
+
+00:03:25.605 --> 00:03:30.538
+chúng tôi có thể sử dụng thuyết điều khiển để tạo ra các thuật toán điều khiển cọc
+
+00:03:30.538 --> 00:03:32.126
+Đây, các bạn có thể thấy chiếc cọc thăng bằng
+
+00:03:32.126 --> 00:03:34.819
+và ngay cả khi tôi huých nhẹ
+
+00:03:34.819 --> 00:03:40.222
+thì nó vẫn trở về vị trí thăng bằng rất tốt.
+
+00:03:40.222 --> 00:03:41.885
+Chúng tôi cũng có thể tăng khả năng của mô hình lên
+
+00:03:41.885 --> 00:03:44.326
+bao gồm việc lựa chọn điểm di chuyển trong không gian cho quad
+
+00:03:44.326 --> 00:03:47.395
+Sử dụng thiết bị này, cũng có gắn bộ phận phản hồi,
+
+00:03:47.395 --> 00:03:49.619
+Tôi có thể chỉ vào nơi tôi muốn máy quad đến
+
+00:03:49.619 --> 00:03:52.986
+ở cách tôi một ví trí xa
+
+00:04:07.763 --> 00:04:10.665
+Điểm mấu chốt của chuyển động biểu diễn này là các thuật toán
+
+00:04:10.665 --> 00:04:13.091
+được thiết kế với sự trợ giúp từ các mô hình toán học
+
+00:04:13.091 --> 00:04:15.041
+cũng như thuyết điều khiển.
+
+00:04:15.041 --> 00:04:17.255
+BÂy giờ tôi sẽ yêu cầu quad quay trở lại đây
+
+00:04:17.255 --> 00:04:19.074
+và thả chiếc cọc xuống
+
+00:04:19.074 --> 00:04:20.992
+và sau đó tôi sẽ diễn tả tầm quan trọng của việc
+
+00:04:20.992 --> 00:04:23.111
+hiểu rõ các mô hình vật lý
+
+00:04:23.111 --> 00:04:27.231
+đồng thời hiểu được cơ chế vận hành của thế giới vật lý
+
+00:04:37.462 --> 00:04:39.232
+Hãy chú ý cách quad hạ độ cao
+
+00:04:39.232 --> 00:04:41.314
+Khi tôi đặt cốc nước này lên quad
+
+00:04:41.314 --> 00:04:44.115
+Không giống như chiếc cọc giữ thăng bằng, tôi sẽ không
+
+00:04:44.115 --> 00:04:46.699
+tích hợp mô hình toán học của cốc nước vào hệ thống của quad.
+
+00:04:46.699 --> 00:04:49.618
+Mà thực tế là, hệ thống này thậm chí còn không biết là cốc nước đang ở trên quad.
+
+00:04:49.618 --> 00:04:52.910
+Cũng như lần trước, tôi cũng sẽ dùng thiết bị chỉ này để yêu cầu quad
+
+00:04:52.910 --> 00:04:55.499
+di chuyển đến nơi tôi muốn .
+
+00:04:55.499 --> 00:05:05.096
+(Vỗ tay)
+
+00:05:05.096 --> 00:05:07.206
+Được rồi, bây giờ chắc bạn đang tự hỏi
+
+00:05:07.206 --> 00:05:09.715
+Tại sao nước không bị đổ ?
+
+00:05:09.715 --> 00:05:12.926
+Có hai sự thật: Một là, trọng lực tác động lên
+
+00:05:12.926 --> 00:05:15.051
+mọi vật theo cùng một cách.
+
+00:05:15.051 --> 00:05:17.515
+Hai là các cánh quạt của máy quad đều chỉ
+
+00:05:17.515 --> 00:05:20.642
+vào cùng một hướng với chiếc cốc, cùng chỉ lên trên.
+
+00:05:20.642 --> 00:05:23.019
+Bây giờ kết hợp hai diều này với nhau, sẽ ra kết quả
+
+00:05:23.019 --> 00:05:25.306
+là mọi lực tác động lên chiếc cốc
+
+00:05:25.306 --> 00:05:28.091
+đều nhỏ và chủ yếu chịu tác động của khí động học,
+
+00:05:28.091 --> 00:05:31.932
+khi đó tốc độ đều bị triệt tiêu
+
+00:05:35.336 --> 00:05:37.407
+do vậy bạn sẽ không cần phải tạo mô hình chiếc cốc.
+
+00:05:37.407 --> 00:05:41.255
+cho dù quad có làm gì thì nước cũng không đổ ra được
+
+00:05:50.651 --> 00:05:57.702
+(Vỗ tay)
+
+00:05:57.702 --> 00:06:01.718
+Có một bài học ở đây là một vài nhiệm vụ khó hơn
+
+00:06:01.718 --> 00:06:03.115
+lại thường trở nên dễ dàng hơn so với những nhiệm vụ khác
+
+00:06:03.115 --> 00:06:05.411
+và khi hiểu được cơ chế vật lý của vấn đề
+
+00:06:05.411 --> 00:06:08.027
+có thể giúp bạn biết cái gì khó và cái gì dễ
+
+00:06:08.027 --> 00:06:10.386
+Trong trường hợp này, việc mang một cốc nước là dễ dàng
+
+00:06:10.386 --> 00:06:14.171
+Việc giữ thăng bằng chiếc cọc lại là việc khó khăn.
+
+00:06:14.171 --> 00:06:15.973
+Ai trong số chúng ta cũng đều nghe về các câu chuyện của các vận động viên
+
+00:06:15.973 --> 00:06:18.466
+có thể thực hiện các màn biểu diễn trong khi đang bị chấn thương
+
+00:06:18.466 --> 00:06:19.985
+Vậy liệu một chiếc máy như quad có thể thực hiện được
+
+00:06:19.985 --> 00:06:22.636
+nhiệm vụ khi bị hư hỏng nặng không?
+
+00:06:22.636 --> 00:06:24.362
+Theo lẽ thường thì bạn cần
+
+00:06:24.362 --> 00:06:28.052
+ít nhất là 4 cánh để có thể giúp cho quad bay lên
+
+00:06:28.052 --> 00:06:30.164
+vì có 4 khả năng mà quad có thể thực hiện như:
+
+00:06:30.164 --> 00:06:33.192
+cuộn tròn, lao xuống, bay liệng và tăng tốc.
+
+00:06:33.192 --> 00:06:36.437
+với những máy bay sáu và tám cánh
+
+00:06:36.437 --> 00:06:37.920
+thì có thể thiếu một số cánh cũng không sao
+
+00:06:37.920 --> 00:06:39.909
+nhưng với máy bay 4 cánh thì phổ biến
+
+00:06:39.909 --> 00:06:41.724
+bởi nó chỉ có tối thiểu
+
+00:06:41.724 --> 00:06:44.200
+4 cánh cố định
+
+00:06:44.200 --> 00:06:46.165
+Vậy chúng có thể làm được điều tôi vừa nói không?
+
+00:07:01.476 --> 00:07:04.076
+Nếu phân tích mô hình toán học của quad
+
+00:07:04.076 --> 00:07:06.252
+với duy nhất 2 cánh có khả năng hoạt động
+
+00:07:06.252 --> 00:07:13.008
+chúng ta sẽ phát hiện ra rằng có một cách để nó bay
+
+00:07:19.980 --> 00:07:21.686
+Chúng tôi bỏ khả năng điều khiển việc bay liệng
+
+00:07:21.686 --> 00:07:24.756
+nhưng những khả năng còn lại như cuộn tròn, lao xuống và tăng tốc vẫn điều khiển được
+
+00:07:24.756 --> 00:07:30.208
+bằng các thuật toán sẽ giúp tìm ra cấu hình mới này
+
+00:07:33.668 --> 00:07:36.100
+các mô hình toán học sẽ nói cho chúng ta biết chính xác khi nào
+
+00:07:36.100 --> 00:07:38.172
+và tại sao có thể làm được như vậy.
+
+00:07:38.172 --> 00:07:40.540
+Trong ví dụ này, với kiến thức đó đã cho phép chúng tôi thiết kê
+
+00:07:40.540 --> 00:07:42.796
+nên những thiết kế máy mới lạ
+
+00:07:42.796 --> 00:07:46.972
+hoặc thiết kế các thuật toán thông minh giúp xử lý các hỏng hóc một cách êm xuôi
+
+00:07:46.972 --> 00:07:48.696
+giống như các vận động viên thật
+
+00:07:48.696 --> 00:07:52.519
+thay vì tạo ra các máy bay thừa cánh
+
+00:07:52.519 --> 00:07:54.631
+Chúng tôi không thể không nín thở khi xem một
+
+00:07:54.631 --> 00:07:57.068
+vận động viên nhào lộn trong nước,
+
+00:07:57.068 --> 00:07:58.858
+hoặc khi vận động viên nhẩy xào lộn vào trên không
+
+00:07:58.858 --> 00:08:00.576
+sau đó nhanh chóng tiếp đất.
+
+00:08:00.576 --> 00:08:03.144
+Liệu vận động viên lặn có thể thực hiện trọn vẹn cú lao xuống nước
+
+00:08:03.144 --> 00:08:05.144
+Liệu vận động viên nhẩy xào có thể tiếp đất chính xác?
+
+00:08:05.144 --> 00:08:06.812
+Giả dụ chúng ta muốn quad
+
+00:08:06.812 --> 00:08:09.263
+thực hiện màn bay vụt 3 lần và hoàn thành
+
+00:08:09.263 --> 00:08:11.532
+đúng điểm mà nó bắt đầu.
+
+00:08:11.532 --> 00:08:13.879
+Màn trình diễn này có thể xảy ra rất nhanh đến nỗi
+
+00:08:13.879 --> 00:08:17.508
+chúng ta không thể sử dụng việc phản hồi vị trí để chỉnh sửa chuyển động khi đang bay
+
+00:08:17.508 --> 00:08:19.782
+Vì đơn giản là không đủ thời gian.
+
+00:08:19.782 --> 00:08:23.476
+Thay vào đó, việc quad có thể thực hiện là trình diễn một cách mò mẫm
+
+00:08:23.476 --> 00:08:25.708
+hãy xem nó hoàn thành màn trình diễn này thế nào
+
+00:08:25.708 --> 00:08:28.132
+và sau đó chúng tôi sử dụng thông tin để chỉnh sửa hành vi của quad
+
+00:08:28.132 --> 00:08:30.421
+để lần bay tiếp theo sẽ diễn ra tốt đẹp hơn.
+
+00:08:30.421 --> 00:08:32.233
+Tương tự như vận động viên lặn và nhẩy xào,
+
+00:08:32.233 --> 00:08:34.152
+chỉ với việc thực hành liên tục
+
+00:08:34.152 --> 00:08:36.077
+thì màn trình diễn có thể được thực hiện và rút kinh nghiệm
+
+00:08:36.077 --> 00:08:38.210
+để đạt được hiệu quả cao nhất
+
+00:08:46.412 --> 00:08:51.164
+(Vỗ tay)
+
+00:08:51.164 --> 00:08:54.636
+Việc đánh trúng một quả bóng đang chuyển động là một kĩ năng cần thiết đối với nhiều môn thể thao
+
+00:08:54.636 --> 00:08:56.431
+Làm thế nào để một chiếc máy có thể thực hiện được
+
+00:08:56.431 --> 00:09:00.184
+Liệu một vận động viên có thể biểu diễn mà không cần nỗ lực không?
+
+00:09:15.943 --> 00:09:22.542
+(Vỗ tay)
+
+00:09:22.542 --> 00:09:25.192
+Ngay trên đầu của quad có một cái vợt
+
+00:09:25.192 --> 00:09:28.679
+với một đốm nhỏ bằng quả táo, không quá to
+
+00:09:28.679 --> 00:09:31.846
+Cứ sau 20 phần nghìn giây thì các phép toán sau được thực hiện
+
+00:09:31.846 --> 00:09:33.602
+tương đương 50 lần mỗi giây
+
+00:09:33.602 --> 00:09:36.414
+Trước hết chúng tôi xác định vị trí quả bóng sẽ bay đến
+
+00:09:36.414 --> 00:09:38.851
+Sau đó chúng tôi tính toán xem quad sẽ đánh bóng thế nào
+
+00:09:38.851 --> 00:09:41.950
+để nó có thể bay đến vị trí bóng được ném tới
+
+00:09:41.950 --> 00:09:46.406
+Thứ 3, có một quỹ đạo được tạo ra để đưa quad
+
+00:09:46.406 --> 00:09:49.430
+từ vị trí hiện tại đến vị trí tương tác với bóng
+
+00:09:49.430 --> 00:09:53.239
+Thứ 4, Chúng tôi chỉ thực hiện giá trị của 20 phần nghìn giây cho quy trình đó
+
+00:09:53.239 --> 00:09:56.046
+Hai mươi phần nghìn giây sau, toàn bộ quy trình được lặp lại
+
+00:09:56.046 --> 00:09:58.289
+cho đến khi quad có thể đánh trúng quả bóng.
+
+00:10:07.560 --> 00:10:10.206
+(Vỗ tay)
+
+00:10:10.206 --> 00:10:13.578
+Những cỗ máy không chỉ tự thực hiện các màn biểu diễn vận động
+
+00:10:13.578 --> 00:10:15.441
+mà còn thực hiện các màn biểu diễn cùng nhiều cỗ máy khác
+
+00:10:15.441 --> 00:10:19.028
+Và đây là màn trình diễn phối hợp của 3 máy bay quad để nâng tấm lưới lên
+
+00:10:28.574 --> 00:10:33.985
+(Vỗ tay)
+
+00:10:33.985 --> 00:10:36.182
+Chúng trình diễn cực kỳ xuất sắc
+
+00:10:36.182 --> 00:10:38.350
+và mang tính phối hợp cao
+
+00:10:38.350 --> 00:10:40.042
+để tung quả bóng trả lại cho tôi.
+
+00:10:40.042 --> 00:10:43.553
+Các bạn chú ý nhé, khi duỗi hết ra, những máy bay quad này sẽ ở vị trí thẳng đứng
+
+00:10:48.486 --> 00:10:50.258
+(Vỗ tay)
+
+00:10:50.258 --> 00:10:52.545
+Thực tế, khi mở rộng hết cỡ
+
+00:10:52.545 --> 00:10:55.230
+nó sẽ lớn hơn gấp 5 lần so với những gì mà một vận động viên nhẩy mạo hiểm có thể cảm nhận
+
+00:10:55.230 --> 00:10:59.818
+khi kết thúc cú lăng người
+
+00:11:03.009 --> 00:11:05.686
+Các thuật toán để thực hiện được động tác này thì tương tự như
+
+00:11:05.686 --> 00:11:09.070
+khi một chiếc quad đánh bóng lại phía tôi.
+
+00:11:09.070 --> 00:11:11.934
+Các mô hình toán được sử dụng nhằm không ngừng lặp lại
+
+00:11:11.934 --> 00:11:16.449
+quy trình phối hợp 50 lần mỗi giây.
+
+00:11:16.449 --> 00:11:18.326
+Những gì mà chúng ta vừa chứng kiến từ đầu tới giờ
+
+00:11:18.326 --> 00:11:20.789
+về những chiếc máy bay và khả năng của chúng.
+
+00:11:20.789 --> 00:11:23.804
+Vậy điều gì sẽ xảy ra khi chúng ta kết hợp chiếc máy thể thao này
+
+00:11:23.804 --> 00:11:25.580
+với khả năng thể thao của một con người?
+
+00:11:25.580 --> 00:11:29.385
+Trước mặt tôi lúc này là một thiết bị thương mại cảm biến hành vi
+
+00:11:29.385 --> 00:11:30.694
+chủ yếu được sử dụng để chơi trò chơi.
+
+00:11:30.694 --> 00:11:32.498
+Thiết bị này có thể nhận dạng được các bộ phận khác nhau trên cơ thể tôi
+
+00:11:32.498 --> 00:11:34.546
+khi tôi di chuyển thực tế ở ngoài
+
+00:11:34.546 --> 00:11:36.662
+Cũng tương tự như thiết bị điều khiển tôi dùng để chỉ lúc trước
+
+00:11:36.662 --> 00:11:39.454
+chúng ta cũng sử dụng thiết bị cảm biến này như một thiết bị đầu vào của hệ thống
+
+00:11:39.454 --> 00:11:41.850
+Bây giờ chúng ta có một cách tương tác tự nhiên
+
+00:11:41.850 --> 00:11:46.794
+với thuật toán của các máy quad thông qua các cử động của tôi
+
+00:12:22.453 --> 00:12:26.853
+(Vỗ tay)
+
+00:12:35.982 --> 00:12:39.989
+Tương tác này không cần phải ảo. Nó có thể thực tế.
+
+00:12:39.989 --> 00:12:41.714
+Ví dụ như chiếc máy bay quad này.
+
+00:12:41.714 --> 00:12:44.342
+Nó đang cố gắng đứng yên ở một điểm cố định trong không gian.
+
+00:12:44.342 --> 00:12:48.179
+Nếu tôi cố gắng di chuyển nó đi chỗ khác, nó sẽ kháng cự lại,
+
+00:12:48.179 --> 00:12:52.334
+và sau đó lại trở về vị trí mà nó muốn.
+
+00:12:52.334 --> 00:12:55.373
+Tuy nhiên, chúng ta có thể thay đổi hành vi này.
+
+00:12:55.373 --> 00:12:57.072
+Chúng ta có thể sử dụng các mô hình toán học
+
+00:12:57.072 --> 00:13:00.205
+để tính toán lực tác động lên quad.
+
+00:13:00.205 --> 00:13:03.443
+Khi mà chúng ta biết được lực này, chúng ta có thể thay đổi các quy luật vật lý,
+
+00:13:03.443 --> 00:13:07.942
+tất nhiên là phải phù hợp với quad
+
+00:13:07.942 --> 00:13:10.205
+Và đây, máy bay quad đang chuyển động như thể nó đang
+
+00:13:10.205 --> 00:13:14.570
+ở trong một dung dịch lỏng.
+
+00:13:14.570 --> 00:13:16.744
+Giờ đây chúng ta có một cách tối ưu
+
+00:13:16.744 --> 00:13:18.593
+để tương tác với một chiếc máy.
+
+00:13:18.593 --> 00:13:21.099
+Tôi sẽ sử dụng khả năng mới này để điều khiển
+
+00:13:21.099 --> 00:13:23.676
+chiếc máy bay có gắn máy quay này tới một vị trí phù hợp
+
+00:13:23.676 --> 00:13:26.862
+để có thể ghi hình phần còn lại của quá trình mô tả này.
+
+00:13:36.222 --> 00:13:38.990
+Và như vậy chúng ta đã có thể tương tác vật lý với những chiếc máy bay bốn cánh quad
+
+00:13:38.990 --> 00:13:41.393
+đồng thời có thể thay đổi quy luật vật lý.
+
+00:13:41.393 --> 00:13:43.706
+Chúng ta cùng làm một thí dụ vui nhé.
+
+00:13:43.706 --> 00:13:45.410
+Tiếp theo bạn sẽ được chứng kiến những chiếc máy bay bốn cánh này
+
+00:13:45.410 --> 00:13:48.906
+ban đầu sẽ di chuyển như thể chúng đang ở trên sao Diêm Vương
+
+00:13:48.906 --> 00:13:51.218
+Và khi trọng lực tăng dần lên
+
+00:13:51.218 --> 00:13:53.338
+cho đến khi tất cả chúng ta quay trở về Trái đất,
+
+00:13:53.338 --> 00:13:55.057
+nhưng tôi đảm bảo với các bạn là chúng ta sẽ không thể lên đó được đâu
+
+00:13:55.057 --> 00:13:58.558
+Được rồi, bắt đầu nhé
+
+00:14:05.667 --> 00:14:09.079
+(Cười)
+
+00:14:34.778 --> 00:14:37.986
+(Cười)
+
+00:14:37.986 --> 00:14:41.372
+(Vỗ tay)
+
+00:14:41.372 --> 00:14:42.579
+Úi chà!
+
+00:14:46.779 --> 00:14:48.296
+Chắc hẳn lúc này các bạn đang nghĩ
+
+00:14:48.296 --> 00:14:50.271
+những chiếc máy bay này đang vui vẻ lắm
+
+00:14:50.271 --> 00:14:52.350
+có lẽ các bạn cũng đang tự hỏi
+
+00:14:52.350 --> 00:14:56.286
+Tại sao họ lại tạo ra một cách chính xác được những vận động viên máy ?
+
+00:14:56.286 --> 00:14:58.938
+Một vài phỏng đoán về việc đóng vai trong thế giới động vật
+
+00:14:58.938 --> 00:15:01.690
+đó là các kĩ năng mài và phát triển các năng lực của bản thân.
+
+00:15:01.690 --> 00:15:03.756
+Những người khác nghĩ rằng có nhiều vai trò xã hội hơn,
+
+00:15:03.756 --> 00:15:05.430
+và nó được dùng để kết nối nhóm lại.
+
+00:15:05.430 --> 00:15:08.963
+Tương tự chúng tôi sử dụng sự bắt chước các động tác trong thể thao và các môn điền kinh
+
+00:15:08.963 --> 00:15:11.042
+để tạo ra những thuật toán mới cho các thiết bị điện tử
+
+00:15:11.042 --> 00:15:13.189
+để thúc đẩy các thiết bị này đạt đến những giới hạn của mình.
+
+00:15:13.189 --> 00:15:16.866
+Tốc độ của các thiết bị điện tử này sẽ có tác động gì lên cuộc sống của chúng ta?
+
+00:15:16.866 --> 00:15:19.255
+Cũng giống như tất cả những sáng tạo và sự cải tiến trước đây
+
+00:15:19.255 --> 00:15:22.082
+chúng đều được dùng để cải thiện khả năng của con người
+
+00:15:22.082 --> 00:15:24.583
+hoặc cũng có thể bị lạm dụng hoặc sử dụng sai mục đích
+
+00:15:24.583 --> 00:15:26.506
+Đây không phải là một lựa chọn kĩ thuật;
+
+00:15:26.506 --> 00:15:28.261
+mà là lựa chọn xã hội.
+
+00:15:28.261 --> 00:15:29.651
+Vậy thì chúng ta hãy lựa chọn cho đúng,
+
+00:15:29.651 --> 00:15:32.056
+lựa chọn đó có thể giúp tương lai của các thiết bị điện tử này trở nên tốt hơn,
+
+00:15:32.056 --> 00:15:33.868
+giống như khả năng điền kinh trong các môn thể thao
+
+00:15:33.868 --> 00:15:36.029
+có thể mang lại sự tối ưu cho chúng ta.
+
+00:15:36.029 --> 00:15:39.479
+Bây giờ cho phép tôi giới thiệu với các bạn những ông phù thủy phía sau tấm phông xanh này
+
+00:15:39.479 --> 00:15:42.379
+Hiện tại họ là những thành viên của nhóm nghiên cứu Sân khấu trình diễn của các thiết bị bay này.
+
+00:15:42.379 --> 00:15:47.148
+(Vỗ tay)
+
+00:15:47.148 --> 00:15:50.194
+Họ là Federico Augugliaro, Dario Brescianini, Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+Sergei Lupashin, Mark Muller và Robin Ritz.
+
+00:15:53.018 --> 00:15:54.950
+Xin hãy nhìn họ. Họ sinh ra để làm nên những điều tuyệt vời.
+
+00:15:54.950 --> 00:15:56.128
+Xin chân thành cảm ơn các bạn.
+
+00:15:56.128 --> 00:16:02.482
+(Vỗ tay)
+

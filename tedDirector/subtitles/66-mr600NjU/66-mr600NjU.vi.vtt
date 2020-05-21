@@ -1,0 +1,1166 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Hoa Tran
+Reviewer: Hoàng Linh
+
+00:00:12.588 --> 00:00:15.619
+Tôi là một giáo sư tin học,`
+
+00:00:15.619 --> 00:00:17.932
+và lĩnh vực chuyên môn của tôi là
+
+00:00:17.932 --> 00:00:20.131
+máy tính và bảo mật thông tin.
+
+00:00:20.131 --> 00:00:22.451
+Khi tôi học đại học,
+
+00:00:22.451 --> 00:00:25.052
+Tôi đã có dịp nghe lén bà nội tôi
+
+00:00:25.052 --> 00:00:29.186
+miêu tả cho một cụ khác
+
+00:00:29.186 --> 00:00:31.555
+những gì mà tôi đang làm để kiếm sống.
+
+00:00:31.555 --> 00:00:35.117
+Rõ ràng, trách nhiệm của tôi là phải đảm bảo
+
+00:00:35.117 --> 00:00:39.017
+không ai ăn trộm máy tính của trường. (Tiếng cười)
+
+00:00:39.017 --> 00:00:41.761
+Và, như bạn đã biết, đó là một điều hoàn toàn hợp lý
+
+00:00:41.761 --> 00:00:43.681
+khi bà nội tôi nghĩ như vậy, vì tôi đã kể với bà là tôi đã làm việc
+
+00:00:43.681 --> 00:00:45.188
+trong lĩnh vực bảo vệ máy tính,
+
+00:00:45.188 --> 00:00:48.785
+và công việc đó đủ thú vị để được đưa vào thế giới quan của bà tôi.
+
+00:00:48.785 --> 00:00:51.402
+Nhưng đó không phải là điều buồn cười nhất tôi đã từng nghe
+
+00:00:51.402 --> 00:00:53.419
+một người nào đó nói về công việc của tôi.
+
+00:00:53.419 --> 00:00:55.703
+Điều lố bịch nhất mà tôi đã từng nghe là,
+
+00:00:55.703 --> 00:00:58.837
+khi tôi đang ở một bữa tiệc, và một người phụ nữ khi nghe thấy
+
+00:00:58.837 --> 00:01:00.620
+tôi làm việc trong lĩnh vực bảo mật máy tính,
+
+00:01:00.620 --> 00:01:04.137
+đã hỏi tôi liệu--cô nói rằng máy tính của mình đã
+
+00:01:04.137 --> 00:01:07.573
+bị nhiễm virus, và cô ấy đã rất lo lắng rằng cô
+
+00:01:07.573 --> 00:01:11.524
+cũng có thể bị bệnh, lo là cô có thể bị lây con vi rút này. (Tiếng cười)
+
+00:01:11.524 --> 00:01:14.467
+Và tôi không phải là một bác sĩ, nhưng tôi đã trấn an cô ấy
+
+00:01:14.467 --> 00:01:17.611
+rằng đó là điều rất, rất khó xảy ra,
+
+00:01:17.611 --> 00:01:20.412
+nhưng nếu cô ấy muốn cảm thấy thoải mái hơn, cô ấy có thể tự do sử dụng
+
+00:01:20.412 --> 00:01:22.260
+găng tay cao su khi cô ấy dùng máy tính,
+
+00:01:22.260 --> 00:01:25.652
+và điều đó sẽ không gây bất cứ tác hại nào.
+
+00:01:25.652 --> 00:01:28.159
+Tôi sẽ trở lại khái niệm mà bạn có thể bị lây
+
+00:01:28.159 --> 00:01:31.667
+virus từ máy tính của bạn một cách nghiêm túc hơn.
+
+00:01:31.667 --> 00:01:33.307
+Những gì tôi sẽ nói với các bạn ngày hôm nay
+
+00:01:33.307 --> 00:01:38.153
+là có một số người hack (bí mật xâm nhập vào máy tính của bạn), một số cuộc tấn công mạng toàn cầu mà mọi người
+
+00:01:38.153 --> 00:01:40.707
+trong cộng đồng của tôi, cộng đồng nghiên cứu học thuật,
+
+00:01:40.707 --> 00:01:43.501
+đã thực hiện, mà tôi nghĩ rằng
+
+00:01:43.501 --> 00:01:44.709
+hầu hết mọi người không biết về điều này,
+
+00:01:44.709 --> 00:01:47.737
+và tôi nghĩ rằng chúng rất thú vị và đáng sợ,
+
+00:01:47.737 --> 00:01:50.178
+và buổi nói chuyện hôm nay đại loại là một trong những chấn động lớn nhất
+
+00:01:50.178 --> 00:01:53.169
+trong việc đánh cắp thông tin của cộng đồng an ninh học thuật.
+
+00:01:53.169 --> 00:01:55.156
+Không có việc nào trong số đó là việc của tôi. Đó là tất cả công việc
+
+00:01:55.156 --> 00:01:57.330
+mà đồng nghiệp của tôi đã làm, và tôi thực sự đã hỏi họ
+
+00:01:57.330 --> 00:01:59.887
+về các bài trình bày của họ và kết hợp chúng vào buổi chuyện này.
+
+00:01:59.887 --> 00:02:01.629
+Vì vậy, thứ đầu tiên tôi muốn nói tới
+
+00:02:01.629 --> 00:02:04.303
+là thiết bị cấy ghép y tế.
+
+00:02:04.303 --> 00:02:07.343
+Bây giờ thiết bị y tế đã được công nghệ hoá một chặng đường dài.
+
+00:02:07.343 --> 00:02:11.199
+Như bạn đã biết, vào năm 1926 máy điều hoà nhịp tim đầu tiên đã được phát minh.
+
+00:02:11.199 --> 00:02:14.751
+năm 1960, máy điều hoà nhịp tim đầu tiên được cấy ghép vào bên trong cơ thể,
+
+00:02:14.751 --> 00:02:17.303
+đáng phấn khởi là nó nhỏ hơn một chút so với cái mà bạn đang thấy ở đó,
+
+00:02:17.303 --> 00:02:20.271
+và công nghệ đã tiếp tục tiến về phía trước.
+
+00:02:20.271 --> 00:02:24.904
+Trong năm 2006, chúng tôi đã đến được một cột mốc quan trọng trong việc
+
+00:02:24.904 --> 00:02:28.071
+bảo mật máy tính.
+
+00:02:28.071 --> 00:02:29.412
+Và tại sao tôi lại nói như vậy?
+
+00:02:29.412 --> 00:02:32.302
+Bởi vì sự thật là khi cấy ghép các thiết bị bên trong cơ thể con người
+
+00:02:32.302 --> 00:02:35.047
+cũng là lúc khả năng kết nối mạng bắt đầu.
+
+00:02:35.047 --> 00:02:36.927
+Một điều mà đã mang chúng tôi đến gần với kết luận là khi chúng tôi xem xét
+
+00:02:36.927 --> 00:02:39.632
+thiết bị của Dick Cheney, anh ta đã có một thiết bị
+
+00:02:39.632 --> 00:02:43.501
+bơm máu từ một động mạch chủ đến một ngăn tim khác,
+
+00:02:43.501 --> 00:02:44.684
+và như bạn có thể thấy ở dưới đáy,
+
+00:02:44.684 --> 00:02:47.693
+nó được kiểm soát bởi một bộ điều khiển máy tính,
+
+00:02:47.693 --> 00:02:50.210
+và nếu bạn đã từng nghĩ rằng trách nhiệm pháp lý cho các phần mềm này
+
+00:02:50.210 --> 00:02:53.799
+là rất quan trọng, hãy cấy ghép một trong những thiết bị này vào bên trong cơ thể bạn.
+
+00:02:53.799 --> 00:02:57.494
+Bây giờ những gì mà một nhóm nghiên cứu đã làm là họ bắt tay vào làm
+
+00:02:57.494 --> 00:02:58.914
+một thứ được gọi là ICD.
+
+00:02:58.914 --> 00:03:00.984
+Đây là một máy khử rung tim, và đây là một thiết bị
+
+00:03:00.984 --> 00:03:05.320
+được cấy ghép vào cơ thể con người để kiểm soát nhịp tim,
+
+00:03:05.320 --> 00:03:07.658
+và những máy này đã cứu nhiều mạng sống.
+
+00:03:07.658 --> 00:03:10.130
+Vâng, để không phải phẫu thuật bệnh nhân
+
+00:03:10.130 --> 00:03:12.324
+mỗi khi bạn muốn lập trình lại thiết bị của họ
+
+00:03:12.324 --> 00:03:14.779
+hoặc làm một số chẩn đoán về thiết bị đó, họ đã làm cho thiết bị đó có thể
+
+00:03:14.779 --> 00:03:17.881
+giao tiếp không dây, và những gì đội ngũ nghiên cứu này đã làm
+
+00:03:17.881 --> 00:03:20.491
+là họ đảo ngược thiết kế giao thức không dây,
+
+00:03:20.491 --> 00:03:22.363
+và họ đã thiết kế một thiết bị mà bạn thấy trong hình,
+
+00:03:22.363 --> 00:03:25.123
+với một ăng-ten nhỏ, mà có thể giao tiếp
+
+00:03:25.123 --> 00:03:29.598
+với thiết bị, và nhờ đó kiểm soát được thiết bị đó.
+
+00:03:29.598 --> 00:03:32.287
+Để làm cho thí nghiệm của họ trở thành thực - họ đã không thể
+
+00:03:32.287 --> 00:03:34.759
+tìm được bất kỳ tình nguyện viên nào, và vì vậy họ đã đi
+
+00:03:34.759 --> 00:03:36.903
+và họ đã lấy một số thịt bò đã được nghiền và một số thịt xông khói
+
+00:03:36.903 --> 00:03:38.691
+và họ bọc tất cả chúng lại cho tới khi nó đạt được kích thước
+
+00:03:38.691 --> 00:03:41.489
+của một khu vực trong cơ thể con người - nơi mà sẽ được cấy ghép thiết bị,
+
+00:03:41.489 --> 00:03:42.943
+và họ cấy ghép thiết bị vào bên trong nó
+
+00:03:42.943 --> 00:03:46.075
+để làm cho thí nghiệm của họ thực tế hơn một chút.
+
+00:03:46.075 --> 00:03:49.095
+Họ đã tiến hành rất rất nhiều các vụ tấn công thành công.
+
+00:03:49.095 --> 00:03:52.151
+Tôi sẽ nói về một trong số đó nhưng tên bệnh nhân đã được thay đổi.
+
+00:03:52.151 --> 00:03:53.144
+Tôi không biết tại sao bạn muốn làm điều đó,
+
+00:03:53.144 --> 00:03:55.248
+nhưng tôi chắc chắn rằng tôi không muốn người ta làm điều đó với tôi.
+
+00:03:55.248 --> 00:03:57.579
+Và họ đã có thể thay đổi phương pháp điều trị,
+
+00:03:57.579 --> 00:04:00.074
+bao gồm việc vô hiệu hóa thiết bị - và điều này là với một
+
+00:04:00.074 --> 00:04:01.970
+thiết bị thương mại thực, không có trên kệ hàng--
+
+00:04:01.970 --> 00:04:04.016
+đơn giản chỉ cần thực hiện đảo ngược kỹ thuật và gửi
+
+00:04:04.016 --> 00:04:07.005
+các tín hiệu không dây tới thiết bị này.
+
+00:04:07.005 --> 00:04:10.585
+Đó là một mảnh của NPR mà một số máy ICD này
+
+00:04:10.585 --> 00:04:13.007
+có thể thực sự bị gián đoạn khi đang vận hành
+
+00:04:13.007 --> 00:04:16.658
+đơn giản chỉ bằng cách áp một cặp tai nghe vào chúng.
+
+00:04:16.658 --> 00:04:18.067
+Bây giờ, mạng không dây (wireless) và mạng Internet
+
+00:04:18.067 --> 00:04:19.719
+có thể cải thiện việc chăm sóc sức khỏe rất nhiều.
+
+00:04:19.719 --> 00:04:21.806
+Trên màn hình là một số ví dụ
+
+00:04:21.806 --> 00:04:24.913
+về các tình huống mà các bác sĩ đang xem xét để cấy ghép thiết bị
+
+00:04:24.913 --> 00:04:27.778
+vào bên trong cơ thể người, và tất cả các thiết bị này bây giờ,
+
+00:04:27.778 --> 00:04:30.903
+tiêu chuẩn là các thiết bị này phải có khả năng giao tiếp không dây,
+
+00:04:30.903 --> 00:04:32.315
+và tôi nghĩ rằng điều này thật tuyệt vời,
+
+00:04:32.315 --> 00:04:35.420
+nhưng mà nếu không có sự hiểu biết đầy đủ về tin học,
+
+00:04:35.420 --> 00:04:37.827
+và nếu không có sự hiểu biết về những gì những kẻ tấn công có thể làm
+
+00:04:37.827 --> 00:04:39.974
+và những rủi ro về bảo mật ngay từ đầu,
+
+00:04:39.974 --> 00:04:42.364
+có rất nhiều mối nguy hiểm trong việc này.
+
+00:04:42.364 --> 00:04:43.841
+Vâng, để có một luồng gió mới, hãy để tôi chỉ cho bạn một mục tiêu khác.
+
+00:04:43.841 --> 00:04:45.929
+Tôi sẽ cho bạn thấy một vài mục tiêu khác như vậy,
+
+00:04:45.929 --> 00:04:48.846
+và đó là câu chuyện của tôi. Vì vậy chúng ta sẽ xem xét xe ô tô.
+
+00:04:48.846 --> 00:04:51.742
+Đây là một chiếc xe, và nó có rất nhiều thành phần,
+
+00:04:51.742 --> 00:04:53.362
+và hiện nay, bên trong có rất nhiều thiết bị điện tử.
+
+00:04:53.362 --> 00:04:57.739
+Trong thực tế, nó có nhiều, rất nhiều máy tính khác nhau bên trong nó,
+
+00:04:57.739 --> 00:05:00.894
+nó có nhiều máy tính Pentiums hơn phòng thí nghiệm của tôi đã có khi tôi học đại học,
+
+00:05:00.894 --> 00:05:04.533
+và chúng được kết nối bới một mạng có dây.
+
+00:05:04.533 --> 00:05:07.964
+Cũng có một mạng không dây trong xe,
+
+00:05:07.964 --> 00:05:11.197
+mà có thể được truy cập bằng nhiều cách khác nhau.
+
+00:05:11.197 --> 00:05:14.898
+Vì vậy, có Bluetooth, có đài phát thanh FM và XM,
+
+00:05:14.898 --> 00:05:17.718
+có mạng không dây (wi-fi) thực sự, có bộ cảm biến ở các bánh xe
+
+00:05:17.718 --> 00:05:19.871
+các bộ cảm biến này sẽ truyền thông tin áp suất ở lốp xe
+
+00:05:19.871 --> 00:05:21.677
+đến một bộ điều khiển trong xe thông qua mạng không dây.
+
+00:05:21.677 --> 00:05:26.595
+Xe hơi hiện đại là một thiết bị đa máy tính phức tạp.
+
+00:05:26.595 --> 00:05:29.917
+Và điều gì sẽ xảy ra nếu ai đó muốn tấn công hệ thống này?
+
+00:05:29.917 --> 00:05:31.234
+Vâng, đó là những gì các nhà nghiên cứu
+
+00:05:31.234 --> 00:05:33.105
+mà tôi sẽ nói về họ ngày hôm nay đã làm.
+
+00:05:33.105 --> 00:05:36.082
+Về căn bản là họ làm cho một kẻ tấn công bị mắc kẹt trong mạng có dây
+
+00:05:36.082 --> 00:05:38.404
+và trong mạng không dây.
+
+00:05:38.404 --> 00:05:41.103
+Bây giờ, có hai khu vực mà họ có thể tấn công.
+
+00:05:41.103 --> 00:05:43.141
+Một là không dây tầm ngắn, nơi bạn có thể thực sự
+
+00:05:43.141 --> 00:05:44.922
+giao tiếp với thiết bị gần đó,
+
+00:05:44.922 --> 00:05:47.059
+hoặc thông qua Bluetooth hoặc wi-fi
+
+00:05:47.059 --> 00:05:49.233
+và cách khác là tầm xa, nơi bạn có thể giao tiếp
+
+00:05:49.233 --> 00:05:51.015
+với xe thông qua các mạng di động,
+
+00:05:51.015 --> 00:05:52.975
+hoặc thông qua một trạm phát sóng radio.
+
+00:05:52.975 --> 00:05:56.024
+Hãy nghĩ về điều đó. Khi một chiếc xe nhận được tín hiệu vô tuyến,
+
+00:05:56.024 --> 00:05:58.225
+nó được xử lý bằng phần mềm.
+
+00:05:58.225 --> 00:06:01.286
+Phần mềm đó phải nhận và giải mã tín hiệu vô tuyến,
+
+00:06:01.286 --> 00:06:02.405
+và sau đó chỉ ra những gì phải làm với nó,
+
+00:06:02.405 --> 00:06:05.429
+ngay cả khi chỉ là bài hát mà nó cần để phát trên đài,
+
+00:06:05.429 --> 00:06:07.697
+và phần mềm đó đảm nhận việc giải mã,
+
+00:06:07.697 --> 00:06:10.790
+Nếu có bất kỳ lỗi nào bên trong, có thể tạo ra một lỗ hổng
+
+00:06:10.790 --> 00:06:13.825
+để ai đó có thể bí mật thâm nhập vào xe.
+
+00:06:13.825 --> 00:06:16.777
+Cách mà các nhà nghiên cứu đã làm công việc này là,
+
+00:06:16.777 --> 00:06:21.000
+họ đọc phần mềm trong các chip máy tính
+
+00:06:21.000 --> 00:06:24.193
+trong xe, và sau đó họ sử dụng
+
+00:06:24.193 --> 00:06:25.607
+công cụ kỹ thuật đảo ngược tinh vi
+
+00:06:25.607 --> 00:06:27.662
+để tìm hiểu xem những gì phần mềm đó đã làm,
+
+00:06:27.662 --> 00:06:30.703
+và sau đó họ tìm thấy lỗ hổng trong phần mềm đó,
+
+00:06:30.703 --> 00:06:34.049
+và sau đó họ xây dựng những điểm khai thác để khai thác những lỗ hổng đó.
+
+00:06:34.049 --> 00:06:36.431
+Họ thực sự tiến hành vụ tấn công của họ trong thực tế.
+
+00:06:36.431 --> 00:06:37.781
+Họ đã mua hai chiếc xe, và tôi đoán
+
+00:06:37.781 --> 00:06:40.699
+họ có ngân sách nhiều hơn hơn tôi.
+
+00:06:40.699 --> 00:06:43.289
+Mô hình mối đe dọa đầu tiên là để xem ai đó có thể làm gì
+
+00:06:43.289 --> 00:06:45.433
+Nếu một kẻ tấn công thực sự đã truy cập được
+
+00:06:45.433 --> 00:06:47.486
+vào mạng nội bộ trên xe.
+
+00:06:47.486 --> 00:06:50.089
+Vâng, do đó hãy nghĩ về điều đó, như ai đó vào xe của bạn,
+
+00:06:50.089 --> 00:06:52.993
+họ xáo trộn mọi thứ, và sau đó bỏ đi,
+
+00:06:52.993 --> 00:06:55.361
+và bây giờ, bạn đang gặp những rắc rối nào?
+
+00:06:55.361 --> 00:06:58.153
+Một mô hình mối đe dọa khác là họ liên lạc với bạn
+
+00:06:58.153 --> 00:07:00.610
+trong thời gian thực bằng một trong các mạng không dây
+
+00:07:00.610 --> 00:07:02.665
+giống như điện thoại di động, hoặc một cái gì đó tương tự,
+
+00:07:02.665 --> 00:07:06.665
+không bao giờ có quyền đột nhập thực sự vào xe của bạn.
+
+00:07:06.665 --> 00:07:09.489
+Đây là những gì mà họ thiết lập cho mô hình đầu tiên,
+
+00:07:09.489 --> 00:07:11.172
+nơi bạn có thể có quyền truy cập vào xe hơi.
+
+00:07:11.172 --> 00:07:14.559
+Họ đặt một máy tính xách tay, và họ kết nối với các đơn vị chẩn đoán
+
+00:07:14.559 --> 00:07:17.498
+trên mạng trong xe hơi, và họ đã làm tất cả những điều ngớ ngẩn,
+
+00:07:17.498 --> 00:07:20.281
+giống như đây là hình ảnh của đồng hồ đo tốc độ
+
+00:07:20.281 --> 00:07:23.097
+đang hiển thị 140 dặm một giờ khi xe đang ở trong công viên.
+
+00:07:23.097 --> 00:07:25.470
+Một khi bạn có quyền kiểm soát máy tính của xe,
+
+00:07:25.470 --> 00:07:26.389
+bạn có thể làm bất cứ điều gì.
+
+00:07:26.389 --> 00:07:28.005
+Bây giờ bạn có thể nói, "Vâng, thật là ngớ ngẩn."
+
+00:07:28.005 --> 00:07:29.664
+Vâng, điều gì sẽ xảy ra nếu bạn làm cho chiếc xe luôn luôn hiển thị là
+
+00:07:29.664 --> 00:07:32.405
+nó đang chạy chậm hơn tốc độ nó thực sự đang chạy là 20 dặm một giờ ?
+
+00:07:32.405 --> 00:07:34.947
+Bạn có thể bị phạt nhiều lần vì chạy quá tốc độ.
+
+00:07:34.947 --> 00:07:38.803
+Sau đó họ đến một sân bay bỏ hoang với hai chiếc xe,
+
+00:07:38.803 --> 00:07:41.548
+một chiếc xe là nạn nhân mục tiêu và một chiếc xe săn đuổi,
+
+00:07:41.548 --> 00:07:44.294
+và họ tiến hành một loạt các cuộc tấn công khác.
+
+00:07:44.294 --> 00:07:47.060
+Một trong những điều mà họ có thể làm từ chiếc ô tô săn đuổi
+
+00:07:47.060 --> 00:07:49.034
+là sử dụng phanh trên chiếc xe kia,
+
+00:07:49.034 --> 00:07:50.594
+chỉ đơn giản bằng cách bí mật truy cập vào máy tính.
+
+00:07:50.594 --> 00:07:53.025
+Họ có thể vô hiệu hóa các hệ thống phanh.
+
+00:07:53.025 --> 00:07:56.203
+Họ cũng có thể cài đặt phần mềm độc hại mà sẽ không có tác dụng
+
+00:07:56.203 --> 00:07:58.628
+và sẽ không bị kích hoạt cho đến khi chiếc xe làm một cái gì đó
+
+00:07:58.628 --> 00:08:02.374
+như là chạy hơn 20 dặm một giờ, hoặc một cái gì đó như thế.
+
+00:08:02.374 --> 00:08:05.132
+Kết quả thật đáng kinh ngạc, và khi họ nói về vấn đề này,
+
+00:08:05.132 --> 00:08:06.848
+ngay cả khi họ thảo luận về vấn đề này tại một hội nghị
+
+00:08:06.848 --> 00:08:08.574
+với một loạt các nhà nghiên cứu về bảo mật máy tính,
+
+00:08:08.574 --> 00:08:10.274
+tất cả mọi người đã há hốc vì kinh ngạc.
+
+00:08:10.274 --> 00:08:13.973
+Họ có thể xâm nhập vào một loạt các máy tính quan trọng
+
+00:08:13.973 --> 00:08:17.734
+bên trong xe: máy tính điều khiển phanh, ánh sáng,
+
+00:08:17.734 --> 00:08:20.561
+động cơ, bảng điều khiển, đài phát thanh, v.v..,
+
+00:08:20.561 --> 00:08:22.854
+và họ có thể thực hiện những việc này trên những chiếc xe
+
+00:08:22.854 --> 00:08:25.881
+thực tế ngoài thị trường mà họ mua, bằng cách sử dụng mạng vô tuyến.
+
+00:08:25.881 --> 00:08:28.884
+Họ đã có thể sắp xếp tất cả mỗi phần nhỏ
+
+00:08:28.884 --> 00:08:31.350
+của phần mềm điều khiển tất cả mỗi phần nhỏ
+
+00:08:31.350 --> 00:08:34.365
+của các chức năng không dây của xe.
+
+00:08:34.365 --> 00:08:36.878
+Tất cả đều đã được thực hiện thành công.
+
+00:08:36.878 --> 00:08:39.230
+Bạn sẽ ăn cắp một chiếc xe theo mô hình này như thế nào?
+
+00:08:39.230 --> 00:08:42.910
+Vâng, bạn dàn xếp chiếc xe bằng một lỗi tràn bộ đệm
+
+00:08:42.910 --> 00:08:45.437
+dễ bị tổn thương trong phần mềm, một cái gì đó như thế.
+
+00:08:45.437 --> 00:08:47.640
+Bạn sử dụng GPS trong xe để định vị nó.
+
+00:08:47.640 --> 00:08:49.835
+Bạn mở khóa cửa từ xa thông qua máy tính
+
+00:08:49.835 --> 00:08:52.973
+điều khiển cửa đó, khởi động máy, vượt qua phần mềm chống trộm,
+
+00:08:52.973 --> 00:08:54.641
+và bạn đã có cho mình một chiếc xe hơi.
+
+00:08:54.641 --> 00:08:57.128
+Việc theo dõi thực sự thú vị.
+
+00:08:57.128 --> 00:09:00.337
+Các tác giả của nghiên cứu này có một video trong đo họ cho thấy
+
+00:09:00.337 --> 00:09:02.886
+họ đang chiếm lấy một chiếc xe và sau đó bật
+
+00:09:02.886 --> 00:09:05.647
+micro trong xe, và lắng nghe trên xe
+
+00:09:05.647 --> 00:09:08.998
+trong khi theo dõi nó thông qua GPS trên bản đồ,
+
+00:09:08.998 --> 00:09:10.711
+và do đó, đó là một điều gì đó mà những người lái xe
+
+00:09:10.711 --> 00:09:12.879
+sẽ không bao giờ biết là đang xảy ra.
+
+00:09:12.879 --> 00:09:15.013
+Tôi đã làm bạn sợ chưa?
+
+00:09:15.013 --> 00:09:16.956
+Tôi cũng biết một vài thứ nữa về những điều thú vị này.
+
+00:09:16.956 --> 00:09:18.789
+Đây là những bức ảnh nơi mà tôi đã đến dự một hội nghị,
+
+00:09:18.789 --> 00:09:20.722
+tâm trí của tôi như được vỡ ra, và tôi đã nói,
+
+00:09:20.722 --> 00:09:22.548
+"Tôi phải chia sẻ điều này với người khác."
+
+00:09:22.548 --> 00:09:24.171
+Đây là phòng thí nghiệm Fabian Monrose
+
+00:09:24.171 --> 00:09:27.627
+tại trường đại học Bắc Carolina, và những gì họ đã làm là
+
+00:09:27.627 --> 00:09:29.702
+một cái gì đó trực quan khi bạn nhìn thấy nó,
+
+00:09:29.702 --> 00:09:31.416
+nhưng đó là việc gây ngạc nhiên.
+
+00:09:31.416 --> 00:09:33.675
+Họ quay phim các hành khách trên một xe buýt,
+
+00:09:33.675 --> 00:09:36.515
+và sau đó họ hậu xử lý video.
+
+00:09:36.515 --> 00:09:38.978
+Những gì bạn nhìn thấy ở đây trong hình một là một
+
+00:09:38.978 --> 00:09:43.361
+hình ảnh phản chiếu của chiếc điện thoại thông minh trong mắt kính của ai đó
+
+00:09:43.361 --> 00:09:44.786
+chiếc điện thoại mà họ đang sử dụng để nhắn tin.
+
+00:09:44.786 --> 00:09:46.761
+Họ đã viết phần mềm để ổn định--
+
+00:09:46.761 --> 00:09:48.126
+ngay cả khi họ đang ở trên xe buýt
+
+00:09:48.126 --> 00:09:51.337
+và có lẽ một người nào đó đang cầm điện thoại của họ ở một góc--
+
+00:09:51.337 --> 00:09:53.707
+để giữ thăng bằng cho điện thoại, xử lý nó, và
+
+00:09:53.707 --> 00:09:55.592
+bạn có thể biết về điện thoại thông minh của bạn, khi bạn gõ
+
+00:09:55.592 --> 00:09:58.531
+một mật khẩu, các phím bật ra một chút, và họ đã có thể
+
+00:09:58.531 --> 00:10:01.371
+sử dụng điều đó để tạo lại những gì người đó đã gõ,
+
+00:10:01.371 --> 00:10:05.692
+và có một mô hình ngôn ngữ để phát hiện những gì bạn gõ.
+
+00:10:05.692 --> 00:10:08.027
+Điều thú vị là, bằng cách quay phim trên một xe buýt,
+
+00:10:08.027 --> 00:10:10.156
+họ đã có thể dựng lại chính xác là những gì mà mọi người
+
+00:10:10.156 --> 00:10:12.307
+đã gõ trên điện thoại thông minh của họ,
+
+00:10:12.307 --> 00:10:14.567
+và sau đó họ đã có một kết quả đáng ngạc nhiên, là
+
+00:10:14.567 --> 00:10:17.331
+phần mềm của họ đã không chỉ đạt được mục tiêu của họ,
+
+00:10:17.331 --> 00:10:18.734
+mà những người vô tình xuất hiện
+
+00:10:18.734 --> 00:10:20.820
+trong đoạn phim, họ cũng có thể tạo lại
+
+00:10:20.820 --> 00:10:23.547
+những gì mà những người đó đã gõ, và đại khái đó là
+
+00:10:23.547 --> 00:10:27.164
+một mẫu thu thập tình cờ của những gì mà phần mềm của họ đã làm.
+
+00:10:27.164 --> 00:10:31.467
+Tôi sẽ chỉ cho bạn thêm 2 thứ nữa. Một là P25 Radio.
+
+00:10:31.467 --> 00:10:34.267
+P25 radio được sử dụng bởi các cơ quan thực thi pháp luật
+
+00:10:34.267 --> 00:10:37.674
+và tất cả các cơ quan của chính phủ
+
+00:10:37.674 --> 00:10:39.410
+và những người mà đang ở chiến trận muốn giao tiếp,
+
+00:10:39.410 --> 00:10:42.243
+và có một tùy chọn mã hóa trên các điện thoại này.
+
+00:10:42.243 --> 00:10:44.971
+Chiếc điện thoại đó trông như thế này. Nó không phải là một điện thoại thực sự.
+
+00:10:44.971 --> 00:10:46.177
+INó giống một đài phát thanh hai chiều hơn
+
+00:10:46.177 --> 00:10:49.499
+Motorola sản xuất loại được sử dụng rộng rãi nhất, và bạn có thể thấy
+
+00:10:49.499 --> 00:10:52.148
+là chúng đang được sử dụng bởi dịch vụ bí mật, chúng đang được sử dụng trong chiến đấu,
+
+00:10:52.148 --> 00:10:55.250
+nó là một tiêu chuẩn rất, rất phổ biến tại Hoa Kỳ và các nơi khác.
+
+00:10:55.250 --> 00:10:57.555
+Vì vậy một câu hỏi các nhà nghiên cứu tự hỏi chính mình là,
+
+00:10:57.555 --> 00:11:00.259
+bạn có thể chặn điều này, phải không?
+
+00:11:00.259 --> 00:11:01.842
+Bạn có thể chạy một phần mềm từ chối các dịch vụ,
+
+00:11:01.842 --> 00:11:03.666
+bởi vì đây là những phản ứng đầu tiên?
+
+00:11:03.666 --> 00:11:05.467
+Vì vậy, một tổ chức khủng bố có thể muốn chặn
+
+00:11:05.467 --> 00:11:09.955
+khả năng của cảnh sát và hỏa lực để giao tiếp trong trường hợp khẩn cấp hay không?
+
+00:11:09.955 --> 00:11:13.027
+Họ phát hiện rằng thiết bị GirlTech này được sử dụng để nhắn tin
+
+00:11:13.027 --> 00:11:15.745
+thiết bị này vô tình hoạt động ở tần số hoàn toàn giống với
+
+00:11:15.745 --> 00:11:18.016
+P25, và họ đã xây dựng những gì họ gọi là
+
+00:11:18.016 --> 00:11:22.350
+Jammer-Đầu-Tiên-Của-Tôi (My First Jammer). (Tiếng cười)
+
+00:11:22.350 --> 00:11:24.728
+Nếu bạn nhìn thiết bị này gần hơn,
+
+00:11:24.728 --> 00:11:28.358
+nó có một công tắc để mã hóa hoặc không mã hoá.
+
+00:11:28.358 --> 00:11:31.408
+Hãy để tôi cho bạn xem trước slide, và bây giờ tôi sẽ quay trở lại.
+
+00:11:31.408 --> 00:11:33.955
+Bạn thấy sự khác biệt?
+
+00:11:33.955 --> 00:11:36.512
+Đây là văn bản thuần tuý. Đây là văn bản đã được mã hóa.
+
+00:11:36.512 --> 00:11:39.069
+Có một dấu chấm nhỏ xuất hiện trên màn hình,
+
+00:11:39.069 --> 00:11:41.154
+và công tắc dịch chuyển một chút.
+
+00:11:41.154 --> 00:11:43.058
+Và do đó, các nhà nghiên cứu tự hỏi, "Tôi tự hỏi làm thế nào
+
+00:11:43.058 --> 00:11:47.315
+rất nhiều lần, các cuộc hội thoại rất an toàn, quan trọng, nhạy cảm
+
+00:11:47.315 --> 00:11:48.938
+đang diễn ra trên các radio hai chiều nơi họ quên
+
+00:11:48.938 --> 00:11:51.848
+mã hoá và họ không để ý là họ không mã hóa? "
+
+00:11:51.848 --> 00:11:55.187
+Vì vậy, họ đã mua một máy quét. Việc này hoàn toàn hợp pháp
+
+00:11:55.187 --> 00:11:58.645
+và họ chạy ở tần số P25,
+
+00:11:58.645 --> 00:12:00.412
+và những gì họ đã làm là họ nhảy từ tần số này đến tần số khác
+
+00:12:00.412 --> 00:12:02.922
+và họ đã viết phần mềm để lắng nghe.
+
+00:12:02.922 --> 00:12:05.556
+Nếu họ tìm thấy thông tin liên lạc được mã hóa, họ vẫn
+
+00:12:05.556 --> 00:12:07.242
+ở lại trên kênh đó và họ đã ghi chú, đó là một kênh
+
+00:12:07.242 --> 00:12:09.030
+mà những người giao tiếp trong đó,
+
+00:12:09.030 --> 00:12:10.652
+các cơ quan thực thi pháp luật đó,
+
+00:12:10.652 --> 00:12:14.043
+và họ đã đến 20 khu vực đô thị và nghe
+
+00:12:14.043 --> 00:12:17.518
+rất nhiều cuộc hội thoại đang diễn ra trên những tần số đó.
+
+00:12:17.518 --> 00:12:20.757
+Họ thấy rằng ở mỗi khu vực đô thị,
+
+00:12:20.757 --> 00:12:22.911
+họ đã ghi được hơn 20 phút mỗi ngày
+
+00:12:22.911 --> 00:12:25.286
+các giao tiếp văn bản thuần tuý.
+
+00:12:25.286 --> 00:12:27.286
+Và những người này đang nói về những chuyện gì?
+
+00:12:27.286 --> 00:12:28.770
+Vâng, họ tìm thấy tên và thông tin
+
+00:12:28.770 --> 00:12:31.622
+của những người cung cấp thông tin bí mật. Họ tìm thấy thông tin
+
+00:12:31.622 --> 00:12:33.824
+được ghi lại bằng việc nghe trộm điện thoại,
+
+00:12:33.824 --> 00:12:36.534
+một loạt các tội phạm đã được thảo luận,
+
+00:12:36.534 --> 00:12:37.696
+thông tin nhạy cảm.
+
+00:12:37.696 --> 00:12:41.059
+Chủ yếu là thực thi pháp luật và tội phạm.
+
+00:12:41.059 --> 00:12:42.893
+Họ đã báo cáo điều này cho các cơ quan thực thi pháp luật
+
+00:12:42.893 --> 00:12:44.916
+sau khi đã ẩn danh nó,
+
+00:12:44.916 --> 00:12:47.916
+và điểm yếu ở đây chỉ đơn giản là giao diện người dùng
+
+00:12:47.916 --> 00:12:49.310
+không đủ tốt. Nếu bạn đang nói chuyện
+
+00:12:49.310 --> 00:12:52.126
+về một cái gì đó thực sự an toàn và nhạy cảm,
+
+00:12:52.126 --> 00:12:55.419
+bạn phải thực sự chắc là cuộc hội thoại này được mã hóa.
+
+00:12:55.419 --> 00:12:57.305
+Việc sửa chữa cũng khá là dễ dàng.
+
+00:12:57.305 --> 00:12:58.974
+Điều cuối cùng tôi nghĩ là thực sự, thực sự ấn tượng,
+
+00:12:58.974 --> 00:13:01.787
+và tôi chỉ phải cho bạn thấy, nó có lẽ không phải là một cái gì đó
+
+00:13:01.787 --> 00:13:02.792
+mà bạn phải mất ngủ vì nó
+
+00:13:02.792 --> 00:13:04.583
+giống như những chiếc xe ô tô hoặc máy khử rung tim,
+
+00:13:04.583 --> 00:13:07.606
+đó là việc ăn cắp các tổ hợp phím.
+
+00:13:07.606 --> 00:13:10.353
+Bây giờ, tất cả chúng ta đã có một cái nhìn hoàn toàn khác về điện thoại thông minh.
+
+00:13:10.353 --> 00:13:12.543
+Mỗi chuyên gia bảo mật đều muốn bí mật thâm nhập một điện thoại thông minh,
+
+00:13:12.543 --> 00:13:17.155
+và chúng tôi có xu hướng xem xét cổng USB, GPS để theo dõi,
+
+00:13:17.155 --> 00:13:20.363
+máy ảnh, micro, nhưng không có ai đến thời điểm này
+
+00:13:20.363 --> 00:13:21.943
+đã xem xét các gia tốc.
+
+00:13:21.943 --> 00:13:23.590
+Gia tốc là điều mà xác định
+
+00:13:23.590 --> 00:13:27.084
+định hướng thẳng đứng của điện thoại thông minh.
+
+00:13:27.084 --> 00:13:28.501
+Và vì vậy họ đã có một thiết lập đơn giản.
+
+00:13:28.501 --> 00:13:31.259
+Họ đặt một điện thoại thông minh bên cạnh một bàn phím,
+
+00:13:31.259 --> 00:13:33.971
+và họ cho người gõ vào bàn phím, và sau đó mục tiêu của họ là
+
+00:13:33.971 --> 00:13:36.827
+sử dụng những rung động được tạo ra bằng cách gõ bàn phím
+
+00:13:36.827 --> 00:13:41.067
+để đo sự thay đổi trong gia tốc khi đọc
+
+00:13:41.067 --> 00:13:44.243
+để xác định những gì người đó đã gõ.
+
+00:13:44.243 --> 00:13:46.819
+Bây giờ, khi họ đã thử điều này trên một chiếc iPhone 3GS,
+
+00:13:46.819 --> 00:13:49.588
+đây là đồ thị của sự nhiễu loạn đã được tạo ra
+
+00:13:49.588 --> 00:13:52.829
+bằng cách gõ, và bạn có thể thấy rằng rất khó
+
+00:13:52.829 --> 00:13:55.907
+để biết ai đó gõ khi nào hoặc đã gõ những gì
+
+00:13:55.907 --> 00:13:58.997
+nhưng iPhone 4 đã cải thiện đáng kể các gia tốc,
+
+00:13:58.997 --> 00:14:02.477
+và do đó với cùng một cách đo đạc
+
+00:14:02.477 --> 00:14:04.309
+đã cho ra đời đồ thị này.
+
+00:14:04.309 --> 00:14:06.795
+Bây giờ điều đó đã cho bạn rất nhiều thông tin trong khi ai đó
+
+00:14:06.795 --> 00:14:10.036
+đang gõ, và những gì họ đã làm sau đó là sử dụng
+
+00:14:10.036 --> 00:14:13.043
+kỹ thuật trí tuệ nhân tạo cao cấp được gọi là máy học
+
+00:14:13.043 --> 00:14:14.474
+để có một giai đoạn huấn luyện,
+
+00:14:14.474 --> 00:14:16.710
+và vì vậy họ đã nhờ rất nhiều sinh viên tốt nghiệp đại học
+
+00:14:16.710 --> 00:14:20.499
+gõ một loạt thứ vào, và tìm hiểu,
+
+00:14:20.499 --> 00:14:23.267
+để có hệ thống sử dụng các công cụ học tập bằng máy móc mà
+
+00:14:23.267 --> 00:14:26.130
+đã có sẵn để tìm hiểu những gì những người đó đã đánh máy
+
+00:14:26.130 --> 00:14:28.957
+và để kết nối chúng
+
+00:14:28.957 --> 00:14:31.434
+với các phép đo trong gia tốc kế.
+
+00:14:31.434 --> 00:14:33.069
+Và sau đó là giai đoạn tấn công, nơi bạn có thể nhờ
+
+00:14:33.069 --> 00:14:35.880
+ai đó nhập vào một cái gì đó, bạn không biết nó là cái gì,
+
+00:14:35.880 --> 00:14:37.177
+nhưng bạn sử dụng các mô hình mà bạn đã tạo
+
+00:14:37.177 --> 00:14:40.619
+trong giai đoạn đào tạo để tìm ra những gì họ đã nhập.
+
+00:14:40.619 --> 00:14:44.103
+Họ đã thành công tốt đẹp. Đây là một bài báo từ USA Today.
+
+00:14:44.103 --> 00:14:46.712
+Họ gõ vào, "Tòa án tối cao Illinois đã ra phán quyết
+
+00:14:46.712 --> 00:14:49.674
+Rahm Emanuel đủ điều kiện để tranh cử cho chức thị trưởng của Chicago"
+
+00:14:49.674 --> 00:14:51.028
+— hãy xem, tôi gắn nó vào câu chuyện cuối —
+
+00:14:51.028 --> 00:14:53.146
+"và ra lệnh cho ông ấy phải ở lại trong khi tranh cử."
+
+00:14:53.146 --> 00:14:55.917
+Bây giờ, hệ thống thì thú vị, bởi vì nó tạo ra
+
+00:14:55.917 --> 00:14:58.803
+"Illinois tối cao" và sau đó nó đã không chắc chắn.
+
+00:14:58.803 --> 00:15:00.753
+Các mô hình tạo ra một loạt các tùy chọn,
+
+00:15:00.753 --> 00:15:03.462
+và đây là vẻ đẹp của một số các kỹ thuật trí tuệ nhân tạo,
+
+00:15:03.462 --> 00:15:05.712
+là các máy tính chuyên một số thứ,
+
+00:15:05.712 --> 00:15:07.246
+con người giỏi những thứ khác,
+
+00:15:07.246 --> 00:15:09.177
+hãy tận dụng những điều tốt nhất từ cả hai và hãy để nhân loại giải quyết vấn đề này.
+
+00:15:09.177 --> 00:15:10.559
+Đừng lãng phí chu kỳ của máy tính.
+
+00:15:10.559 --> 00:15:12.695
+Loài người sẽ chẳng nghĩ rằng đó là khả năng tối cao.
+
+00:15:12.695 --> 00:15:14.435
+Đây là Tòa án Tối cao, phải không?
+
+00:15:14.435 --> 00:15:16.965
+Và vì vậy, cùng với nhau chúng ta có thể tạo lại những gì bạn gõ
+
+00:15:16.965 --> 00:15:19.914
+đơn giản chỉ cần bằng cách đo gia tốc.
+
+00:15:19.914 --> 00:15:23.416
+Tại sao điều này quan trọng? Vâng, trong nền Android,
+
+00:15:23.416 --> 00:15:27.549
+Ví dụ, các nhà phát triển có bản kê khai
+
+00:15:27.564 --> 00:15:30.148
+nơi mọi thiết bị trên đó, micrô, v.v..,
+
+00:15:30.148 --> 00:15:32.104
+phải đăng ký nếu bạn đang sử dụng nó
+
+00:15:32.104 --> 00:15:34.420
+để tin tặc không thể chiếm lấy nó,
+
+00:15:34.420 --> 00:15:37.528
+nhưng không ai kiểm soát các gia tốc.
+
+00:15:37.528 --> 00:15:39.744
+Vì vậy, vấn đề là gì? Bạn có thể để iPhone của bạn bên cạnh
+
+00:15:39.744 --> 00:15:41.850
+bàn phím của một ai đó, và chỉ rời phòng,
+
+00:15:41.850 --> 00:15:43.489
+và sau đó khôi phục lại những gì họ đã làm,
+
+00:15:43.489 --> 00:15:45.200
+ngay cả khi không sử dụng micrô.
+
+00:15:45.200 --> 00:15:47.374
+Nếu có ai đó có thể cài phần mềm độc hại trên iPhone của bạn,
+
+00:15:47.374 --> 00:15:50.222
+có lẽ sau đó họ có thể biết những gì mà bạn đã gõ
+
+00:15:50.222 --> 00:15:52.543
+bất cứ khi nào bạn đặt iPhone của bạn bên cạnh bàn phím của bạn.
+
+00:15:52.543 --> 00:15:54.814
+Có một số các cuộc tấn công đáng chú ý mà không may là
+
+00:15:54.814 --> 00:15:56.945
+tôi không có thời gian để trình bày, nhưng tôi muốn chỉ ra
+
+00:15:56.945 --> 00:15:59.222
+một trong số đó là một nhóm từ trường Đại học Michigan
+
+00:15:59.222 --> 00:16:01.663
+họ có thể chiếm lấy máy bỏ phiếu,
+
+00:16:01.663 --> 00:16:04.161
+Sequoia AVC Edge DREs mà
+
+00:16:04.161 --> 00:16:05.716
+sẽ được sử dụng ở bang New Jersey trong cuộc bầu cử
+
+00:16:05.716 --> 00:16:07.877
+mà đã được để lại trên một hành lang, và đặt Pac-Man trên nó.
+
+00:16:07.877 --> 00:16:11.500
+Vì vậy, họ chơi trò Pac-Man.
+
+00:16:11.500 --> 00:16:13.247
+Tất cả chuyện này có ý nghĩa gì?
+
+00:16:13.247 --> 00:16:16.894
+Vâng, tôi nghĩ rằng xã hội có xu hướng áp dụng công nghệ
+
+00:16:16.894 --> 00:16:19.718
+thực sự nhanh chóng. Tôi yêu thích các đồ vật thú vị nhất kế tiếp.
+
+00:16:19.718 --> 00:16:22.332
+Nhưng điều đó rất quan trọng, và các nhà nghiên cứu đang cho chúng ta thấy,
+
+00:16:22.332 --> 00:16:23.692
+điều mà các nhà phát triển của những thứ này
+
+00:16:23.692 --> 00:16:26.557
+cần phải xem xét việc bảo mật ngay từ đầu,
+
+00:16:26.557 --> 00:16:29.342
+và cần phải nhận ra rằng họ có thể có một mô hình đe dọa,
+
+00:16:29.342 --> 00:16:31.804
+nhưng những kẻ tấn công có thể không đủ tốt bụng
+
+00:16:31.804 --> 00:16:33.581
+để hạn chế bản thân họ trong mô hình đe dọa đó,
+
+00:16:33.581 --> 00:16:36.118
+và vì vậy bạn cần phải suy nghĩ thoáng hơn.
+
+00:16:36.118 --> 00:16:37.696
+Những gì chúng tôi có thể làm là nhận thức
+
+00:16:37.696 --> 00:16:40.175
+rằng các thiết bị có thể được thỏa hiệp,
+
+00:16:40.175 --> 00:16:41.874
+và bất cứ thứ gì mà có phần mềm bên trong
+
+00:16:41.874 --> 00:16:44.523
+sẽ dễ bị tổn thương. Chúng sẽ có chỗ sai sót.
+
+00:16:44.523 --> 00:16:48.020
+Cảm ơn rất nhiều. (Vỗ tay)
+

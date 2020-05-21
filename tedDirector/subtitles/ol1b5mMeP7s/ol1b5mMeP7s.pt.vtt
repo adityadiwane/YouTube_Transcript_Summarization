@@ -1,0 +1,1190 @@
+WEBVTT
+Kind: captions
+Language: pt
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Daiana Buffulin
+Revisor: Gustavo Rocha
+
+00:00:12.927 --> 00:00:15.108
+Eu quero falar com vocês sobre uma coisa
+
+00:00:15.108 --> 00:00:16.864
+e apenas uma coisa,
+
+00:00:16.864 --> 00:00:20.620
+que tem a ver com quando 
+as pessoas me perguntam
+
+00:00:20.620 --> 00:00:23.567
+O que você faz?
+
+00:00:23.567 --> 00:00:25.767
+E intuitivamente eu respondo:
+
+00:00:25.767 --> 00:00:28.632
+eu faço música computacional
+
+00:00:28.907 --> 00:00:30.852
+Agora, algumas pessoas
+
+00:00:30.852 --> 00:00:33.089
+param de me dar atenção aí,
+
+00:00:33.089 --> 00:00:35.502
+e o restante que sobrou geralmente tem
+
+00:00:35.502 --> 00:00:37.750
+uma interrogação no olhar,
+
+00:00:37.750 --> 00:00:39.919
+como se falassem, " o que isso significa?"
+
+00:00:39.919 --> 00:00:42.137
+E eu sinto que, na verdade,
+estou privando-os
+
+00:00:42.137 --> 00:00:45.342
+de informação falando assim,
+
+00:00:45.342 --> 00:00:47.070
+então geralmente entro em pânico
+
+00:00:47.070 --> 00:00:50.080
+digo a primeira coisa
+que me vem em mente, que é
+
+00:00:50.080 --> 00:00:52.372
+eu não tenho ideia do que estou fazendo.
+
+00:00:52.372 --> 00:00:54.054
+O que é verdade.
+
+00:00:54.054 --> 00:00:56.910
+Isso geralmente é seguido 
+por um segundo pensamento
+
+00:00:56.910 --> 00:01:00.210
+que é, seja lá o que eu estiver fazendo,
+
+00:01:00.210 --> 00:01:01.902
+eu amo.
+
+00:01:01.902 --> 00:01:05.699
+E hoje, eu quero, bem,
+
+00:01:05.699 --> 00:01:07.870
+dividir com vocês uma coisa que eu amo,
+
+00:01:07.870 --> 00:01:09.354
+e também por quê.
+
+00:01:09.354 --> 00:01:12.973
+E acho que vamos 
+começar com esta pergunta:
+
+00:01:12.973 --> 00:01:14.620
+O que é música computacional?
+
+00:01:14.620 --> 00:01:18.400
+E eu vou tentar o meu melhor
+para dar a definição.
+
+00:01:18.400 --> 00:01:20.131
+Talvez contando uma históra
+
+00:01:20.131 --> 00:01:21.778
+que mostra algumas das coisas
+
+00:01:21.778 --> 00:01:23.524
+em que tenho trabalhado.
+
+00:01:23.524 --> 00:01:25.516
+E a primeira coisa em nossa história
+
+00:01:25.516 --> 00:01:29.544
+vai ser algo chamado ChucK.
+
+00:01:30.384 --> 00:01:33.437
+ChucK é uma linguagem
+de programação para música,
+
+00:01:33.437 --> 00:01:36.066
+é <i>open-source</i>,
+está disponível gratuitamente,
+
+00:01:36.066 --> 00:01:38.186
+e gosto de pensar que ele trava muito bem
+
+00:01:38.186 --> 00:01:40.410
+em todos os sistemas
+operacionais modernos.
+
+00:01:40.410 --> 00:01:43.370
+E em vez de falar mais sobre ele,
+
+00:01:43.370 --> 00:01:45.016
+vou fazer uma demonstração.
+
+00:01:45.016 --> 00:01:46.532
+Aliás, eu vou dar uma de <i>nerd</i>
+
+00:01:46.532 --> 00:01:47.981
+por alguns minutos aqui,
+
+00:01:47.981 --> 00:01:50.009
+então diria, não se apavorem.
+
+00:01:50.009 --> 00:01:52.870
+Na verdade, eu os convidaria todos 
+a se juntarem a mim
+
+00:01:52.870 --> 00:01:54.034
+nesta tarefa de <i>nerd</i>.
+
+00:01:54.034 --> 00:01:57.096
+Se nunca escreveram uma 
+linha de código na vida,
+
+00:01:57.096 --> 00:01:58.282
+não se preocupem.
+
+00:01:58.282 --> 00:02:01.799
+Eu aposto que vão conseguir entender.
+
+00:02:01.799 --> 00:02:03.218
+A primeira coisas é fazer
+
+00:02:03.218 --> 00:02:05.051
+um oscilador de onda senoidal
+
+00:02:05.051 --> 00:02:08.085
+e vamos chamar o oscilador
+de onda senoidal
+
+00:02:08.085 --> 00:02:10.567
+"Ge".
+
+00:02:10.567 --> 00:02:12.637
+E então vamos conectar o Ge ao DAC.
+
+00:02:12.637 --> 00:02:14.091
+Este é um tipo de abstração
+
+00:02:14.091 --> 00:02:16.699
+do som que sai do meu computador.
+
+00:02:16.699 --> 00:02:19.469
+Assim, eu me conectei ao microfone.
+
+00:02:19.469 --> 00:02:21.781
+Em seguida, vamos dizer
+que minha frequência
+
+00:02:21.781 --> 00:02:23.459
+é 440 hertz,
+
+00:02:23.459 --> 00:02:27.278
+e vou deixar dois segundos
+
+00:02:27.278 --> 00:02:30.000
+adiantados nesta operação.
+
+00:02:30.000 --> 00:02:34.068
+Então, se eu tocar isto...
+
+00:02:34.068 --> 00:02:36.180
+(Som)
+
+00:02:36.180 --> 00:02:39.311
+Vocês ouvem uma onda senoidal
+de 440 hertz por dois segundos
+
+00:02:39.311 --> 00:02:42.187
+Ok, ótimo. Agora eu copio e colo isto,
+
+00:02:42.187 --> 00:02:43.931
+e aí mudo alguns destes números,
+
+00:02:43.931 --> 00:02:47.891
+220,5; 440 vou deixar assim,
+
+00:02:47.891 --> 00:02:50.331
+e 0,5 e 880.
+
+00:02:50.331 --> 00:02:51.693
+Duplicando a frequência,
+
+00:02:51.693 --> 00:02:53.950
+nós estamos subindo oitavas sucessivas
+
+00:02:53.950 --> 00:02:55.547
+e então temos esta sequência...
+
+00:02:55.547 --> 00:02:57.674
+(Som) de tons.
+
+00:02:57.674 --> 00:02:59.380
+Ok, ótimo. Agora eu posso criar
+
+00:02:59.380 --> 00:03:01.712
+todos tipos de pedaços de música horrível
+
+00:03:01.712 --> 00:03:03.420
+de onda senoidal com isto,
+
+00:03:03.420 --> 00:03:06.332
+mas vou fazer algo
+em que computadores são muito bons,
+
+00:03:06.332 --> 00:03:08.156
+que é repetição.
+
+00:03:08.156 --> 00:03:09.860
+Vou colocar tudo isto em repetição,
+
+00:03:09.860 --> 00:03:11.376
+e não precisamos indentar,
+
+00:03:11.376 --> 00:03:13.280
+mas só por razões puramente estéticas.
+
+00:03:13.280 --> 00:03:14.884
+É uma boa prática.
+
+00:03:14.884 --> 00:03:16.464
+E quando fazemos isto...
+
+00:03:16.464 --> 00:03:20.331
+(Sons)
+
+00:03:20.331 --> 00:03:22.134
+Vai continuar por um tempo.
+
+00:03:22.134 --> 00:03:23.628
+Na verdade, não vai parar
+
+00:03:23.628 --> 00:03:25.411
+até que o computador desintegre.
+
+00:03:25.411 --> 00:03:28.110
+E posso provar isso
+empiricamente para vocês,
+
+00:03:28.110 --> 00:03:31.414
+mas eu espero que acreditem em mim.
+
+00:03:31.779 --> 00:03:33.655
+Próximo passo, eu vou mudar este 220
+
+00:03:33.655 --> 00:03:36.061
+para math.random2f
+
+00:03:36.061 --> 00:03:38.279
+Eu vou gerar um número aleatório
+
+00:03:38.279 --> 00:03:40.879
+entre 30 e 1000 e enviá-lo
+
+00:03:40.879 --> 00:03:42.965
+para a minha frequência.
+
+00:03:42.965 --> 00:03:45.065
+E eu vou fazer isso a cada meio segundo
+
+00:03:45.065 --> 00:03:48.007
+(Sons)
+
+00:03:48.007 --> 00:03:50.668
+Vamos fazer isso
+a cada 200 milissegundos.
+
+00:03:50.668 --> 00:03:55.290
+(Sons)
+
+00:03:55.290 --> 00:03:56.745
+Cem.
+
+00:03:56.745 --> 00:03:58.357
+(Sons)
+
+00:03:58.357 --> 00:03:59.591
+Certo.
+
+00:03:59.591 --> 00:04:01.415
+Nesse ponto, nós alcançamos algo
+
+00:04:01.415 --> 00:04:03.485
+que eu gosto de encarar como
+
+00:04:03.485 --> 00:04:06.626
+música computacional canônica
+
+00:04:06.626 --> 00:04:10.443
+Isto é, para mim, o som que os mainframes
+
+00:04:10.443 --> 00:04:11.565
+deveriam fazer
+
+00:04:11.565 --> 00:04:14.807
+quando eles estão pensando muito.
+
+00:04:14.807 --> 00:04:16.900
+Este som é como,
+
+00:04:16.900 --> 00:04:20.471
+a raíz quadrada de 5 milhões.
+
+00:04:22.427 --> 00:04:26.211
+Então, será que isso
+é música computacional?
+
+00:04:26.211 --> 00:04:28.020
+Eu acho que sim pela definição,
+
+00:04:28.020 --> 00:04:29.535
+é tipo música computacional.
+
+00:04:29.535 --> 00:04:32.403
+Esse provavelmente não é
+o tipo de música que você
+
+00:04:32.403 --> 00:04:33.891
+ouviria dirigindo na estrada,
+
+00:04:33.891 --> 00:04:38.907
+mas é a base da música 
+gerada em computador,
+
+00:04:38.907 --> 00:04:41.110
+e usando ChucK
+
+00:04:41.110 --> 00:04:42.803
+nós já criamos instrumentos
+
+00:04:42.803 --> 00:04:44.699
+na Stanford Laptop Orchestra,
+
+00:04:44.699 --> 00:04:46.717
+que fica aqui no Centro Stanford
+
+00:04:46.717 --> 00:04:49.235
+para Pesquisa Computacional
+em Música e Acústica.
+
+00:04:49.235 --> 00:04:51.483
+A Laptop Orchestra
+é um conjunto de <i>laptops</i>,
+
+00:04:51.483 --> 00:04:54.412
+pessoas e uma série de auto-falantes 
+hemisféricos especiais.
+
+00:04:54.412 --> 00:04:55.909
+A razão pela qual temos isso
+
+00:04:55.909 --> 00:04:58.379
+é para que os instrumentos que nós criamos
+
+00:04:58.379 --> 00:05:00.603
+dos <i>laptops</i>, nós queremos que o som
+
+00:05:00.603 --> 00:05:03.123
+que sai em algum lugar
+perto do instrumento
+
+00:05:03.123 --> 00:05:04.491
+e do músico
+
+00:05:04.491 --> 00:05:07.193
+muito mais como instrumento
+acústico tradicional,
+
+00:05:07.193 --> 00:05:09.079
+como se eu tocasse violino aqui,
+
+00:05:09.079 --> 00:05:11.190
+o som não sairia naturalmente do
+
+00:05:11.190 --> 00:05:13.964
+sistema PA mas do próprio instrumento.
+
+00:05:13.964 --> 00:05:16.751
+Esses auto-falantes
+são feitos para emular isso.
+
+00:05:16.751 --> 00:05:18.710
+Na verdade, eu vou mostrar a vocês
+
+00:05:18.710 --> 00:05:21.053
+como nós os construímos.
+
+00:05:21.243 --> 00:05:23.197
+O primeiro passo foi ir para o IKEA
+
+00:05:23.197 --> 00:05:25.187
+e comprar uma tigela para salada.
+
+00:05:25.187 --> 00:05:27.917
+Esta é uma Blanda Matt de 28cm.
+
+00:05:27.917 --> 00:05:29.415
+Este é o nome de verdade,
+
+00:05:29.415 --> 00:05:30.837
+e eu uso mesmo uma dessas
+
+00:05:30.837 --> 00:05:33.065
+para fazer salada em casa, de verdade.
+
+00:05:33.065 --> 00:05:35.566
+E o primeiro passo é virá-la
+de ponta-cabeça
+
+00:05:36.456 --> 00:05:38.711
+e fazer buracos,
+
+00:05:38.711 --> 00:05:41.220
+seis buracos por cada metade
+
+00:05:41.220 --> 00:05:42.934
+e então faz um prato de base,
+
+00:05:42.934 --> 00:05:45.614
+coloca auto-falantes de carro
+
+00:05:45.614 --> 00:05:47.995
+com alguns amplificadores no fechamento,
+
+00:05:47.995 --> 00:05:49.559
+e coloca tudo junto e temos
+
+00:05:49.559 --> 00:05:51.683
+estas séries
+de auto-falantes hemisféricos.
+
+00:05:51.683 --> 00:05:53.516
+Adicione pessoas, adicione laptops,
+
+00:05:53.516 --> 00:05:55.804
+e temos uma orquestra de <i>laptops</i>.
+
+00:05:55.804 --> 00:05:59.114
+E como é o som
+de uma orquestra de <i>laptop</i>?
+
+00:05:59.114 --> 00:06:01.033
+Bem, deixem-me dar uma demonstração
+
+00:06:01.033 --> 00:06:04.268
+dos aproximadamente 200 instrumentos
+
+00:06:04.268 --> 00:06:06.901
+que nós criamos
+até agora para a Laptop Orchestra.
+
+00:06:07.051 --> 00:06:09.938
+E o que eu vou fazer é
+caminhar até esta coisa.
+
+00:06:09.938 --> 00:06:12.143
+Esta coisa que eu tenho aqui em frente
+
+00:06:12.143 --> 00:06:15.355
+é usada como um <i>commodity</i>
+de controle de videogame
+
+00:06:15.355 --> 00:06:16.945
+chamado de Gametrak
+
+00:06:16.945 --> 00:06:19.261
+Ele tem uma luva em que
+dá para colocar as mãos
+
+00:06:19.261 --> 00:06:20.581
+Fica preso à base,
+
+00:06:20.581 --> 00:06:23.110
+e vai rastrear a posição de suas mãos
+
+00:06:23.110 --> 00:06:24.163
+em tempo real.
+
+00:06:24.163 --> 00:06:27.537
+Esta luva foi criada
+para ser um controle de golfe
+
+00:06:27.537 --> 00:06:29.453
+para detectar movimentos de balanço,
+
+00:06:29.453 --> 00:06:31.984
+e acabou sendo um grande
+
+00:06:31.984 --> 00:06:33.688
+fracasso comercial,
+
+00:06:33.688 --> 00:06:36.802
+até um ponto em que baixaram
+o preço para 10 dólares,
+
+00:06:36.802 --> 00:06:39.570
+até o ponto em que pesquisadores
+de música computacional
+
+00:06:39.570 --> 00:06:41.508
+disseram: "Isso é maravilhoso!"
+
+00:06:41.508 --> 00:06:44.257
+"Podemos fazer protótipos 
+de instrumentos com isso!"
+
+00:06:44.257 --> 00:06:47.201
+Então, deixa eu mostrar um instrumento que
+
+00:06:47.201 --> 00:06:49.113
+nós criamos, um de muitos,
+
+00:06:49.113 --> 00:06:50.682
+que é chamado "Crepúsculo",
+
+00:06:50.682 --> 00:06:53.368
+e isto significa usar uma metáfora
+
+00:06:53.368 --> 00:06:56.401
+para extrair som do chão.
+
+00:06:56.401 --> 00:06:59.752
+Então, vamos ver se funciona.
+
+00:06:59.752 --> 00:07:03.258
+(Música)
+
+00:07:08.968 --> 00:07:10.791
+De volta ao lugar.
+
+00:07:10.791 --> 00:07:12.987
+Se for pra esquerda...
+
+00:07:12.987 --> 00:07:14.503
+(Som)
+
+00:07:14.503 --> 00:07:15.152
+Direita...
+
+00:07:15.152 --> 00:07:18.291
+(Som)
+
+00:07:21.881 --> 00:07:25.231
+Parece um elefante em dor.
+
+00:07:25.231 --> 00:07:28.259
+Este é um som suavemente metálico.
+
+00:07:28.259 --> 00:07:31.613
+Ajustando um pouquinho
+
+00:07:31.613 --> 00:07:34.569
+(Som)
+
+00:07:37.211 --> 00:07:40.785
+É como um carro flutuante.
+
+00:07:44.406 --> 00:07:45.799
+Ok.
+
+00:07:45.799 --> 00:07:49.965
+Este terceiro é como uma catraca, então
+
+00:07:51.360 --> 00:07:53.911
+vou ajustar
+
+00:07:56.915 --> 00:08:00.250
+(Som)
+
+00:08:02.068 --> 00:08:03.948
+Uma interação levemente diferente.
+
+00:08:03.948 --> 00:08:05.922
+O quarto é um <i>drone</i>.
+
+00:08:07.583 --> 00:08:10.780
+(Música)
+
+00:08:20.613 --> 00:08:22.999
+E finalmente,
+
+00:08:22.999 --> 00:08:25.130
+esta é uma interação
+totalmente diferente,
+
+00:08:25.130 --> 00:08:27.260
+e acho que vocês têm
+que imaginar que há
+
+00:08:27.260 --> 00:08:29.872
+um tambor invisível gigante 
+bem aqui no palco
+
+00:08:29.872 --> 00:08:32.315
+e eu vou tocá-lo
+
+00:08:34.255 --> 00:08:36.902
+(Tambor)
+
+00:08:36.902 --> 00:08:39.689
+(Risos)
+
+00:08:40.241 --> 00:08:42.685
+E então aqui está um dos muitos
+
+00:08:42.685 --> 00:08:44.455
+instrumentos na Laptop Orchestra
+
+00:08:44.455 --> 00:08:45.999
+(Aplausos)
+
+00:08:48.009 --> 00:08:49.540
+Obrigado.
+
+00:08:50.290 --> 00:08:52.396
+E quando os juntamos,
+
+00:08:52.396 --> 00:08:56.464
+temos algo que soa assim.
+
+00:08:56.464 --> 00:09:00.084
+(Música)
+
+00:09:44.840 --> 00:09:47.340
+Ok, eu acho que dessa experiência
+
+00:09:47.340 --> 00:09:50.483
+de construir muitos instrumentos
+para a Laptop Ochestra
+
+00:09:50.483 --> 00:09:52.847
+e acho que da curiosidade de imaginar,
+
+00:09:52.847 --> 00:09:54.030
+e se a nós pegássemos
+
+00:09:54.030 --> 00:09:56.242
+esses instrumentos
+possivelmente expressivos
+
+00:09:56.242 --> 00:09:58.575
+e os levássemos a muitas pessoas
+
+00:09:58.575 --> 00:10:00.982
+e então num ataque saudável de insanidade;
+
+00:10:00.982 --> 00:10:02.471
+juntar as três coisas;
+
+00:10:02.471 --> 00:10:05.987
+me levou a co-fundar uma empresa inovadora
+
+00:10:05.987 --> 00:10:08.446
+em 2008, chamada Smule.
+
+00:10:08.446 --> 00:10:10.366
+A missão da Smule é criar
+
+00:10:10.366 --> 00:10:14.223
+coisas musicais expressivas móveis,
+
+00:10:14.223 --> 00:10:18.985
+e um dos primeiros instrumentos musicais
+
+00:10:18.985 --> 00:10:20.845
+que criamos é chamado de Ocarina.
+
+00:10:20.845 --> 00:10:23.610
+E eu vou demonstrar rapidamente.
+
+00:10:27.234 --> 00:10:29.650
+Então, a Ocarina...
+
+00:10:29.650 --> 00:10:33.248
+(Som)
+
+00:10:33.248 --> 00:10:36.111
+é baseada neste antigo instumento parecido
+
+00:10:36.111 --> 00:10:37.780
+com a flauta, chamado ocarina.
+
+00:10:37.780 --> 00:10:41.163
+e esta é o tubo inglês de quatro furos
+
+00:10:41.163 --> 00:10:44.566
+e você literalmente sopra no microfone
+
+00:10:44.566 --> 00:10:46.472
+pra fazer o som.
+
+00:10:47.232 --> 00:10:49.125
+E existe um pouco de linguagem ChucK
+
+00:10:49.125 --> 00:10:50.293
+rodando aqui que detecta
+
+00:10:50.293 --> 00:10:51.775
+a força do seu sopro
+
+00:10:51.775 --> 00:10:53.893
+e também produz o som
+
+00:10:53.893 --> 00:10:57.478
+(Música)
+
+00:10:57.478 --> 00:11:00.808
+E o vibrato é mapeado pelo acelerômetro
+
+00:11:00.808 --> 00:11:02.461
+então há...
+
+00:11:02.461 --> 00:11:05.790
+(Música)
+
+00:11:05.790 --> 00:11:09.500
+Certo. Vou tocar
+um pequena cantiga para vocês
+
+00:11:11.113 --> 00:11:12.749
+Um pouco de Bach
+
+00:11:12.749 --> 00:11:15.941
+E aqui, dá para ouvir
+o acompanhamento com a melodia
+
+00:11:15.941 --> 00:11:18.509
+O acompanhamento,
+na verdade, segue a melodia,
+
+00:11:18.509 --> 00:11:20.030
+e não o contrário.
+
+00:11:22.120 --> 00:11:25.485
+(Música)
+
+00:11:34.702 --> 00:11:36.349
+E isto foi desenhado
+
+00:11:36.349 --> 00:11:38.065
+para deixar o tempo necessário
+
+00:11:38.065 --> 00:11:41.270
+para descobrir onde é
+seu espaço expressivo
+
+00:11:41.270 --> 00:11:43.077
+e podem esperar aqui
+
+00:11:43.077 --> 00:11:46.139
+por enquanto, para ter um efeito
+realmente dramático, se quiserem
+
+00:11:46.139 --> 00:11:49.205
+e quando estiverem prontos --
+
+00:11:49.205 --> 00:11:52.277
+(Música)
+
+00:12:05.541 --> 00:12:06.649
+E nestas notas longas
+
+00:12:06.649 --> 00:12:09.080
+eu vou usar mais vibrato no fim das notas
+
+00:12:09.082 --> 00:12:12.134
+pra dar um pouco mais
+de qualidade expressiva.
+
+00:12:12.134 --> 00:12:15.290
+(Música)
+
+00:12:19.473 --> 00:12:23.160
+Uh, este é um bom acorde
+para terminar esta parte.
+
+00:12:23.160 --> 00:12:26.131
+(Aplausos)
+
+00:12:26.691 --> 00:12:27.976
+Obrigado.
+
+00:12:32.011 --> 00:12:35.746
+Acho que uma boa pergunta
+sobre a Ocarina é
+
+00:12:35.746 --> 00:12:38.878
+Isso é um brinquedo ou um instrumento?
+
+00:12:38.878 --> 00:12:40.040
+Talvez os dois
+
+00:12:40.070 --> 00:12:42.502
+mas pra mim, acho
+que a pergunta mais importante é,
+
+00:12:42.502 --> 00:12:44.043
+será que é expressivo?
+
+00:12:44.253 --> 00:12:45.887
+E ao mesmo tempo eu penso
+
+00:12:45.887 --> 00:12:47.771
+que criar estes tipos de intrumentos
+
+00:12:47.771 --> 00:12:50.783
+levantam a questão
+sobre o papel da tecnologia
+
+00:12:50.783 --> 00:12:52.477
+e como fazemos música com ela.
+
+00:12:52.477 --> 00:12:54.214
+Aparentemente, por exemplo,
+
+00:12:54.214 --> 00:12:56.120
+não há muito tempo, há apenas cem anos;
+
+00:12:56.120 --> 00:12:58.120
+nem tanto tempo assim na história humana,
+
+00:12:58.120 --> 00:12:59.621
+as famílias daquele tempo
+
+00:12:59.621 --> 00:13:01.509
+faziam música juntos
+
+00:13:01.509 --> 00:13:03.777
+como forma comum de entretenimento
+
+00:13:03.777 --> 00:13:05.802
+Não acho que isso acontece hoje em dia
+
+00:13:05.802 --> 00:13:07.097
+tanto quanto antes.
+
+00:13:07.097 --> 00:13:09.007
+Isso era antes do rádio, da gravação.
+
+00:13:09.007 --> 00:13:11.214
+Nos últimos cem anos,
+com toda esta tecnologia,
+
+00:13:11.214 --> 00:13:13.388
+agora temos muito mais acesso à música
+
+00:13:13.388 --> 00:13:15.021
+como ouvintes e consumidores
+
+00:13:15.021 --> 00:13:18.084
+mas de algum jeito,
+estamos criando menos música
+
+00:13:18.084 --> 00:13:19.770
+do que nunca.
+
+00:13:19.770 --> 00:13:21.401
+Não sei bem por quê.
+
+00:13:21.401 --> 00:13:24.050
+Talvez porque é muito fácil
+só apertar o <i>play</i>.
+
+00:13:24.050 --> 00:13:26.509
+E enquanto ouvir música é maravilhoso
+
+00:13:26.509 --> 00:13:29.918
+existe um prazer especial em fazer música,
+
+00:13:29.918 --> 00:13:31.233
+que é todo dele mesmo.
+
+00:13:31.233 --> 00:13:32.836
+E acho que essa é uma parte
+
+00:13:32.836 --> 00:13:34.926
+do motivo pelo qual faço o que faço.
+
+00:13:34.926 --> 00:13:39.002
+É um pouco como nos levar
+para o passado, certo?
+
+00:13:39.002 --> 00:13:41.232
+Agora, se esse é um objetivo, o outro é
+
+00:13:41.232 --> 00:13:42.892
+olhar para o futuro e pensar sobre
+
+00:13:42.892 --> 00:13:45.229
+que tipo de novas coisas
+musicais podemos fazer
+
+00:13:45.229 --> 00:13:47.822
+para as quais talvez
+nem tenhamos nome ainda
+
+00:13:47.822 --> 00:13:50.685
+que a tecnologia possibilita,
+mas no fim das contas
+
+00:13:50.685 --> 00:13:53.126
+pode mudar o modo
+como criamos música.
+
+00:13:53.126 --> 00:13:55.498
+E eu vou dar um exemplo aqui,
+
+00:13:55.498 --> 00:14:00.003
+esta é uma outra
+característica da Ocarina.
+
+00:14:01.723 --> 00:14:03.910
+Este é um globo,
+
+00:14:03.910 --> 00:14:06.683
+e aqui dá para escutar
+
+00:14:06.683 --> 00:14:08.735
+outros usuários da Ocarina
+
+00:14:08.735 --> 00:14:12.715
+soprarem seus iPhones
+para tocar alguma coisa.
+
+00:14:12.715 --> 00:14:16.628
+Este é "G.I.R." do Texas,
+
+00:14:17.568 --> 00:14:22.531
+"R.I.K.", não sei porque estes nomes
+com três letras, de Los Angeles.
+
+00:14:23.501 --> 00:14:28.519
+Eles estão tocando bem,
+
+00:14:28.519 --> 00:14:31.879
+de alguma forma
+há um mínimo de música aqui.
+
+00:14:31.879 --> 00:14:35.317
+(Sons)
+
+00:14:37.327 --> 00:14:39.933
+E a ideia é que
+
+00:14:39.933 --> 00:14:43.850
+tecnologia não deve ficar
+em segundo plano aqui,
+
+00:14:43.850 --> 00:14:45.933
+e... (Risos)
+
+00:14:45.933 --> 00:14:48.646
+Nós fomos pioneiros.
+
+00:14:48.646 --> 00:14:50.153
+A primeira ideia é que
+
+00:14:50.153 --> 00:14:53.343
+tem alguém em algum lugar lá fora
+
+00:14:53.343 --> 00:14:54.613
+tocando música
+
+00:14:54.613 --> 00:14:56.393
+e é uma conexão humana pequena,
+
+00:14:56.393 --> 00:14:57.853
+mas importante para fazer
+
+00:14:57.853 --> 00:15:00.611
+que talvez a tecnologia permita.
+
+00:15:00.611 --> 00:15:02.305
+Como um exemplo final,
+
+00:15:03.435 --> 00:15:04.790
+e talvez o meu favorito,
+
+00:15:04.790 --> 00:15:07.941
+após o terremoto de 2011
+
+00:15:07.941 --> 00:15:10.427
+e o tsunami que atingiram o Japão
+
+00:15:10.427 --> 00:15:13.270
+uma mulher acionou
+um dos nossos aplicativos de canto
+
+00:15:13.270 --> 00:15:16.157
+para tentar reunir pessoas
+para cantar com ela
+
+00:15:16.157 --> 00:15:17.762
+a versão de "Lean on Me".
+
+00:15:17.762 --> 00:15:20.810
+Nesses aplicativos,
+tem uma coisa que permite
+
+00:15:20.810 --> 00:15:22.511
+qualquer usuário adicionar sua voz
+
+00:15:22.511 --> 00:15:25.109
+em uma gravação feita
+por qualquer outro usuário
+
+00:15:25.109 --> 00:15:26.363
+ou grupo de usuários,
+
+00:15:26.363 --> 00:15:28.388
+então de certa forma, ela criou
+
+00:15:28.388 --> 00:15:31.772
+esse tipo de coral global
+espontâneo de estranhos,
+
+00:15:31.772 --> 00:15:33.980
+e em uma semana, milhares de pessoas
+
+00:15:33.980 --> 00:15:35.612
+se conectaram,
+
+00:15:35.612 --> 00:15:37.991
+e dá para ver pessoas de todo o mundo
+
+00:15:37.991 --> 00:15:40.272
+e todas estas linhas
+convergindo para a origem
+
+00:15:40.272 --> 00:15:42.620
+onde a primeira versão
+da música foi cantada,
+
+00:15:42.620 --> 00:15:44.254
+em Tóquio.
+
+00:15:44.254 --> 00:15:47.686
+É assim que soa
+quando há mil pessoas.
+
+00:15:47.686 --> 00:15:49.770
+Isto são mil vozes.
+
+00:15:49.770 --> 00:15:50.624
+(Gravação)
+
+00:15:50.624 --> 00:15:53.940
+♪ Às vezes na nossa vida ♪
+
+00:15:53.940 --> 00:16:01.260
+♪ Todos nós sentimos dor,
+todos sentimos tristeza ♪
+
+00:16:01.260 --> 00:16:05.100
+♪ Mas se formos sábios ♪
+
+00:16:05.100 --> 00:16:10.990
+♪ Nós sabemos que sempre há o amanhã ♪
+
+00:16:10.990 --> 00:16:13.497
+♪ Apoie-se em mim ♪
+
+00:16:13.497 --> 00:16:16.310
+♪ Quando você não tiver força ♪
+
+00:16:16.310 --> 00:16:18.950
+♪ Eu serei seu amigo ♪
+
+00:16:18.950 --> 00:16:23.235
+♪ Eu vou te ajudar a continuar ♪
+
+00:16:23.235 --> 00:16:27.248
+♪ Porque não vai demorar muito ♪
+
+00:16:27.248 --> 00:16:29.976
+♪ Até eu precisar ♪
+
+00:16:29.976 --> 00:16:33.372
+♪ De alguém para me apoiar ♪
+
+00:16:33.372 --> 00:16:34.926
+♪ Então apoie-se... ♪
+
+00:16:35.726 --> 00:16:37.296
+Será que isso é música computacional?
+
+00:16:37.296 --> 00:16:40.034
+(Aplausos)
+
+00:16:42.518 --> 00:16:44.486
+Será que era música computacional?
+
+00:16:44.486 --> 00:16:46.743
+Bem, eu acredito que sim,
+é algo que jamais
+
+00:16:46.743 --> 00:16:49.028
+faríamos sem computadores.
+
+00:16:49.028 --> 00:16:53.264
+Mas, ao mesmo tempo é algo apenas humano,
+
+00:16:53.264 --> 00:16:56.353
+e eu acho que o que respondi
+até agora, essencialmente,
+
+00:16:56.353 --> 00:16:59.757
+é talvez por que faço as coisas que faço.
+
+00:16:59.757 --> 00:17:02.136
+Vamos voltar à primeira pergunta:
+
+00:17:02.136 --> 00:17:04.248
+O que é "música computacional"?
+
+00:17:04.248 --> 00:17:05.972
+E eu acho que a pegada aqui é,
+
+00:17:05.972 --> 00:17:08.088
+pelo menos pra mim, música computacional
+
+00:17:08.088 --> 00:17:09.656
+não se trata de computador.
+
+00:17:09.656 --> 00:17:11.182
+E sim de pessoas.
+
+00:17:11.182 --> 00:17:12.816
+Trata-se de como usamos tecnologia
+
+00:17:12.816 --> 00:17:14.862
+para mudar o modo
+como pensamos e fazemos,
+
+00:17:14.862 --> 00:17:16.306
+e como fazemos música,
+
+00:17:16.306 --> 00:17:19.992
+e talvez até mesmo
+acrescentar como podemos
+
+00:17:19.992 --> 00:17:22.502
+nos conectar através da música.
+
+00:17:22.502 --> 00:17:24.655
+E com iso eu quero dizer
+
+00:17:24.655 --> 00:17:26.220
+que isso é musica computacional
+
+00:17:26.220 --> 00:17:27.965
+e obrigado por ouvirem.
+
+00:17:27.965 --> 00:17:30.332
+(Aplausos)
+

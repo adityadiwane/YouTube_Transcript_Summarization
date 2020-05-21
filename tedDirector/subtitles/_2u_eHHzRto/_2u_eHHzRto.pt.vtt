@@ -1,0 +1,881 @@
+WEBVTT
+Kind: captions
+Language: pt
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Raissa Mendes
+Revisor: Leonardo Silva
+
+00:00:12.875 --> 00:00:14.991
+Os algoritmos estão por toda parte.
+
+00:00:15.951 --> 00:00:19.236
+Eles selecionam e separam
+os vencedores dos perdedores.
+
+00:00:20.019 --> 00:00:24.077
+Os vencedores conseguem o emprego
+ou a oferta de um bom cartão de crédito.
+
+00:00:24.077 --> 00:00:26.945
+Os perdedores não conseguem
+nem mesmo uma entrevista.
+
+00:00:27.590 --> 00:00:29.927
+Ou pagam mais caro pelo seu seguro.
+
+00:00:30.197 --> 00:00:33.746
+Estamos sendo avaliados
+com fórmulas secretas que não entendemos,
+
+00:00:34.675 --> 00:00:38.632
+que geralmente não têm
+como serem contestadas.
+
+00:00:39.240 --> 00:00:40.536
+Isso coloca uma questão:
+
+00:00:40.560 --> 00:00:43.473
+e se os algoritmos estiverem errados?
+
+00:00:44.550 --> 00:00:46.964
+Precisamos de duas coisas
+para criar um algoritmo:
+
+00:00:46.964 --> 00:00:50.624
+de dados, o que aconteceu no passado,
+e uma definição de sucesso,
+
+00:00:50.624 --> 00:00:53.211
+aquilo que estamos procurando
+e geralmente esperando.
+
+00:00:53.235 --> 00:00:58.272
+Treinamos um algoritmo
+procurando, calculando.
+
+00:00:58.296 --> 00:01:01.615
+O algoritmo descobre
+o que está associado com o sucesso,
+
+00:01:01.659 --> 00:01:04.502
+que situação leva ao sucesso.
+
+00:01:04.881 --> 00:01:06.643
+Na verdade, todos usamos algoritmos,
+
+00:01:06.667 --> 00:01:09.155
+apenas não os formalizamos
+num código escrito.
+
+00:01:09.169 --> 00:01:10.411
+Querem um exemplo?
+
+00:01:10.411 --> 00:01:13.687
+Todo dia uso um algoritmo pra preparar
+as refeições da minha família.
+
+00:01:14.121 --> 00:01:15.597
+Os dados que uso
+
+00:01:16.394 --> 00:01:19.483
+são os ingredientes da minha cozinha,
+o tempo disponível,
+
+00:01:19.633 --> 00:01:20.861
+minha ambição,
+
+00:01:20.885 --> 00:01:22.594
+e quem seleciona os dados sou eu.
+
+00:01:22.618 --> 00:01:26.869
+Não conto um pacote de Miojo como comida.
+
+00:01:26.893 --> 00:01:28.762
+(Risos)
+
+00:01:28.786 --> 00:01:30.631
+Minha definição de sucesso é:
+
+00:01:30.655 --> 00:01:33.794
+uma refeição é um sucesso
+quando meus filhos comem verduras.
+
+00:01:34.181 --> 00:01:37.035
+Muito diferente se meu filho
+mais novo estiver no comando.
+
+00:01:37.059 --> 00:01:40.337
+Para ele, sucesso
+é comer montes de Nutella.
+
+00:01:41.179 --> 00:01:43.405
+Mas eu é que escolho o que é sucesso.
+
+00:01:43.429 --> 00:01:46.136
+Eu estou no comando; minha opinião conta.
+
+00:01:46.160 --> 00:01:48.835
+Essa é a primeira regra dos algoritmos.
+
+00:01:48.859 --> 00:01:52.319
+Algoritmos são opiniões
+embutidas num código.
+
+00:01:53.562 --> 00:01:57.225
+Bem diferente do que a maioria
+de nós pensa sobre os algoritmos.
+
+00:01:57.249 --> 00:02:01.753
+Achamos que os algoritmos são
+objetivos, verdadeiros e científicos.
+
+00:02:02.387 --> 00:02:04.506
+Esse é um truque de marketing.
+
+00:02:05.269 --> 00:02:07.394
+É também um truque de marketing
+
+00:02:07.418 --> 00:02:10.572
+intimidar vocês com algoritmos,
+
+00:02:10.596 --> 00:02:14.257
+fazê-los acreditar nos algoritmos
+ou ter medo deles
+
+00:02:14.281 --> 00:02:17.109
+porque acreditamos
+na matemática, e temos medo dela.
+
+00:02:17.477 --> 00:02:22.867
+Muita coisa pode dar errado
+quando confiamos cegamente no Big Data.
+
+00:02:23.514 --> 00:02:27.057
+Esta é Kiri Soares,
+diretora de um colégio no Brooklyn.
+
+00:02:27.081 --> 00:02:29.121
+Em 2011, ela me disse que seus professores
+
+00:02:29.121 --> 00:02:32.302
+estavam sendo avaliados
+por um algoritmo complexo e secreto,
+
+00:02:32.322 --> 00:02:34.271
+chamado "modelo de valor agregado".
+
+00:02:34.375 --> 00:02:36.911
+Disse a ela: "Descubra
+a fórmula dele e me mostre.
+
+00:02:36.911 --> 00:02:38.842
+Aí, posso explicá-lo a você".
+
+00:02:39.002 --> 00:02:42.887
+Ela disse: "Tentei conseguir a fórmula,
+mas meu contato na Secretaria de Educação
+
+00:02:42.887 --> 00:02:46.123
+me falou que era matemática
+e que eu não iria entender".
+
+00:02:47.266 --> 00:02:48.604
+E a história só fica pior.
+
+00:02:48.628 --> 00:02:52.158
+O "New York Post" protocolou
+um pedido de transparência,
+
+00:02:52.182 --> 00:02:55.141
+pegou o nome de todos os professores,
+e todas suas avaliações
+
+00:02:55.165 --> 00:02:58.497
+e publicou como um ato
+para expor os professores.
+
+00:02:59.084 --> 00:03:02.814
+Quando tentei conseguir as fórmulas,
+o código-fonte, através dos mesmos meios,
+
+00:03:02.868 --> 00:03:06.037
+me disseram que não podia, me foi negado.
+
+00:03:06.069 --> 00:03:10.465
+Descobri mais tarde que ninguém em
+Nova Iorque tinha acesso àquela fórmula.
+
+00:03:10.489 --> 00:03:12.414
+Ninguém a entendia.
+
+00:03:13.929 --> 00:03:17.153
+Então, Gary Rubenstein,
+um cara muito inteligente, se envolveu.
+
+00:03:17.177 --> 00:03:20.752
+Ele descobriu 665 professores
+naqueles dados do "New York Post"
+
+00:03:20.752 --> 00:03:22.728
+que na verdade tinham duas avaliações.
+
+00:03:22.728 --> 00:03:27.063
+Aquilo podia acontecer se eles ensinavam
+matemática na sétima e na oitava série.
+
+00:03:27.080 --> 00:03:28.618
+Ele decidiu marcá-los.
+
+00:03:28.642 --> 00:03:30.835
+Cada ponto representa um professor.
+
+00:03:31.104 --> 00:03:33.483
+(Risos)
+
+00:03:33.507 --> 00:03:35.028
+O que é isto?
+
+00:03:35.052 --> 00:03:36.329
+(Risos)
+
+00:03:36.353 --> 00:03:39.753
+Isso nunca deveria ter sido usado
+numa avaliação individual.
+
+00:03:39.753 --> 00:03:41.633
+É quase um gerador aleatório de número.
+
+00:03:41.633 --> 00:03:44.193
+(Aplausos) (Vivas)
+
+00:03:44.193 --> 00:03:45.309
+Mas foi usado.
+
+00:03:45.309 --> 00:03:46.749
+Esta é Sarah Wysocki.
+
+00:03:46.749 --> 00:03:49.394
+Ela foi demitida, juntamente
+com 205 outros professores,
+
+00:03:49.394 --> 00:03:51.914
+da superintendência de ensino 
+de Washington, D.C.,
+
+00:03:51.914 --> 00:03:56.553
+mesmo tendo excelente recomendação
+de sua diretora e dos pais das crianças.
+
+00:03:57.020 --> 00:04:00.226
+Muitos aqui devem estar pensando,
+especialmente cientistas de dados,
+
+00:04:00.226 --> 00:04:01.823
+os especialistas em IA:
+
+00:04:01.823 --> 00:04:06.183
+"Eu nunca faria um algoritmo
+inconsistente assim".
+
+00:04:06.703 --> 00:04:08.450
+Mas os algoritmos podem dar errado,
+
+00:04:08.450 --> 00:04:13.158
+mesmo os bem-intencionados podem ter
+efeitos profundamente destrutivos.
+
+00:04:14.531 --> 00:04:18.900
+E enquanto um avião mal projetado
+cai, e todo mundo vê,
+
+00:04:18.910 --> 00:04:21.005
+um algoritmo mal projetado
+
+00:04:22.245 --> 00:04:26.410
+pode continuar a causar destruição
+de forma silenciosa, por um longo tempo.
+
+00:04:27.748 --> 00:04:29.318
+Este é Roger Ailes.
+
+00:04:29.342 --> 00:04:31.342
+(Risos)
+
+00:04:32.524 --> 00:04:35.142
+Ele fundou a Fox News em 1996.
+
+00:04:35.436 --> 00:04:38.001
+Mais de 20 mulheres
+reclamaram de assédio sexual.
+
+00:04:38.001 --> 00:04:41.276
+Elas disseram que não lhes foi
+permitido subir na Fox News.
+
+00:04:41.300 --> 00:04:43.820
+Ele foi afastado ano passado,
+mas vimos recentemente
+
+00:04:43.844 --> 00:04:46.804
+que os problemas continuaram.
+
+00:04:47.654 --> 00:04:49.054
+Uma pergunta se impõe aqui:
+
+00:04:49.078 --> 00:04:52.262
+o que a Fox News deveria fazer
+para virar essa página?
+
+00:04:53.245 --> 00:04:56.286
+Que tal se eles substituírem
+seu processo de contratação
+
+00:04:56.310 --> 00:04:59.604
+por um algoritmo de aprendizado
+de máquina? Parece boa ideia, né?
+
+00:04:59.607 --> 00:05:00.907
+Pensem bem.
+
+00:05:00.931 --> 00:05:03.036
+Os dados, quais seriam os dados?
+
+00:05:03.060 --> 00:05:08.007
+Uma escolha razoável seria os últimos
+21 anos de contratação da Fox News.
+
+00:05:08.031 --> 00:05:09.533
+Bem razoável.
+
+00:05:09.557 --> 00:05:11.675
+E a definição de sucesso?
+
+00:05:11.921 --> 00:05:15.055
+Seria uma escolha racional:
+quem é bem-sucedido para a Fox News?
+
+00:05:15.071 --> 00:05:18.651
+Digamos que seja alguém
+que tenha ficado lá por quatro anos
+
+00:05:18.675 --> 00:05:20.509
+e promovido pelo menos uma vez.
+
+00:05:20.816 --> 00:05:22.377
+Parece razoável.
+
+00:05:22.401 --> 00:05:24.755
+E então o algoritmo poderia ser treinado.
+
+00:05:24.779 --> 00:05:29.026
+Seria treinado para procurar pessoas
+para aprender o que leva ao sucesso,
+
+00:05:29.069 --> 00:05:33.441
+que tipo de contratações
+historicamente levaram ao sucesso
+
+00:05:33.441 --> 00:05:35.225
+segundo aquela definição.
+
+00:05:36.200 --> 00:05:37.975
+Agora pensem sobre o que aconteceria
+
+00:05:37.999 --> 00:05:41.014
+se aplicado a um conjunto
+atual de pedidos de emprego.
+
+00:05:41.119 --> 00:05:43.098
+Ele filtraria as mulheres,
+
+00:05:43.663 --> 00:05:47.593
+pois aparentemente elas não
+tiveram sucesso no passado.
+
+00:05:51.752 --> 00:05:54.289
+Os algoritmos não tornam as coisas justas
+
+00:05:54.313 --> 00:05:57.007
+se forem aplicados
+de forma cega e displicente.
+
+00:05:57.031 --> 00:05:58.513
+Não tornam as coisas justas.
+
+00:05:58.537 --> 00:06:01.656
+Eles repetem nossas práticas
+passadas, nossos padrões.
+
+00:06:01.656 --> 00:06:04.185
+Eles automatizam o status quo.
+
+00:06:04.568 --> 00:06:07.107
+Isso seria ótimo se tivéssemos
+um mundo perfeito,
+
+00:06:07.905 --> 00:06:09.217
+mas não temos.
+
+00:06:09.241 --> 00:06:13.343
+E mais: a maioria das empresas
+não inclui os litígios constrangedores,
+
+00:06:14.446 --> 00:06:17.034
+mas os cientistas de dados dessas empresas
+
+00:06:17.058 --> 00:06:19.247
+são orientados a seguirem os dados,
+
+00:06:19.271 --> 00:06:21.414
+a terem rigor.
+
+00:06:22.273 --> 00:06:23.654
+Pensem no que isso significa.
+
+00:06:23.678 --> 00:06:27.705
+Como todos somos tendenciosos, significa
+que poderiam estar codificando sexismo
+
+00:06:27.729 --> 00:06:30.395
+ou qualquer outro tipo de intolerância.
+
+00:06:31.488 --> 00:06:34.099
+Vamos fazer um exercício
+intelectual, pois gosto deles:
+
+00:06:35.574 --> 00:06:38.929
+uma sociedade inteiramente segregada,
+
+00:06:40.067 --> 00:06:43.575
+racialmente segregada,
+todas as cidades, todos os bairros,
+
+00:06:43.599 --> 00:06:47.806
+e onde enviamos a polícia apenas
+a bairros de minorias atrás de crimes.
+
+00:06:48.451 --> 00:06:51.300
+Os dados sobre os presos
+seriam muito tendenciosos.
+
+00:06:51.851 --> 00:06:54.426
+E se, além disso, pegássemos
+cientistas de dados
+
+00:06:54.450 --> 00:06:58.861
+e pagássemos a eles para predizerem
+onde vai ocorrer o próximo crime?
+
+00:06:59.275 --> 00:07:00.762
+Bairros de minorias.
+
+00:07:01.285 --> 00:07:04.750
+Ou predizer quem será o próximo criminoso?
+
+00:07:04.888 --> 00:07:06.283
+Alguém das minorias.
+
+00:07:07.949 --> 00:07:12.460
+Os cientistas de dados se gabariam
+da excelência e da precisão de seu modelo,
+
+00:07:12.835 --> 00:07:14.134
+e estariam certos.
+
+00:07:15.951 --> 00:07:20.566
+Bem, a realidade não é drástica assim,
+mas temos graves segregações
+
+00:07:20.590 --> 00:07:23.327
+em muitas cidades e vilas,
+e muitas evidências
+
+00:07:23.818 --> 00:07:26.776
+de dados policiais
+e judiciários tendenciosos.
+
+00:07:27.632 --> 00:07:30.447
+Na verdade, predizemos focos de crise,
+
+00:07:30.471 --> 00:07:32.281
+lugares onde crimes podem ocorrer.
+
+00:07:32.401 --> 00:07:36.267
+E predizemos, de fato,
+a criminalidade individual,
+
+00:07:36.291 --> 00:07:38.651
+a criminalidade dos indivíduos.
+
+00:07:38.972 --> 00:07:42.509
+A organização de notícias ProPublica
+recentemente estudou
+
+00:07:42.529 --> 00:07:46.093
+um desses algoritmos,
+chamados de "risco de recidiva",
+
+00:07:46.124 --> 00:07:49.898
+que têm sido usados por juízes
+na Flórida para proferirem sentenças.
+
+00:07:50.251 --> 00:07:54.426
+Bernard, à esquerda,
+o homem negro, atingiu dez em dez.
+
+00:07:55.179 --> 00:07:57.186
+Dylan, à direita, três em dez.
+
+00:07:57.210 --> 00:08:00.071
+Então, dez em dez, alto risco;
+três em dez, baixo risco.
+
+00:08:00.598 --> 00:08:02.983
+Ambos foram pegos por posse de droga.
+
+00:08:03.007 --> 00:08:06.971
+Ambos tinham antecedentes,
+e Dylan tinha um delito grave,
+
+00:08:07.015 --> 00:08:08.761
+mas Bernard não.
+
+00:08:09.818 --> 00:08:12.884
+Isso é importante,
+pois, quanto maior a pontuação,
+
+00:08:12.908 --> 00:08:16.381
+maior a chance de se receber
+uma sentença mais severa.
+
+00:08:18.294 --> 00:08:20.058
+O que que está havendo?
+
+00:08:20.416 --> 00:08:22.268
+Branqueamento dos dados.
+
+00:08:22.930 --> 00:08:27.357
+É um processo por meio do qual tecnólogos
+escondem verdades sujas
+
+00:08:27.381 --> 00:08:30.832
+dentro da caixa-preta dos algoritmos,
+e os chamam de objetivos,
+
+00:08:31.320 --> 00:08:33.738
+de meritocráticos.
+
+00:08:34.908 --> 00:08:39.943
+Cunhei um termo para esses algoritmos
+secretos, importantes e destrutivos:
+
+00:08:40.038 --> 00:08:42.037
+"armas de destruição em matemática".
+
+00:08:42.061 --> 00:08:44.995
+(Aplausos) (Vivas)
+
+00:08:46.577 --> 00:08:49.081
+Eles estão por toda parte,
+e isso não é um erro.
+
+00:08:49.695 --> 00:08:53.368
+Trata-se de empresas privadas
+criando algoritmos privados
+
+00:08:53.392 --> 00:08:54.894
+para fins privados.
+
+00:08:55.214 --> 00:08:58.428
+Mesmos aqueles que mencionei,
+para os professores e a polícia,
+
+00:08:58.452 --> 00:09:02.351
+foram criados por empresas privadas
+e vendidos a instituições governamentais.
+
+00:09:02.470 --> 00:09:06.633
+Eles os chamam de seu "molho secreto",
+e por isso não nos contam sobre eles.
+
+00:09:06.649 --> 00:09:09.589
+Isso é poder privado também.
+
+00:09:09.924 --> 00:09:14.879
+Eles estão lucrando para exercerem
+a autoridade do inescrutável.
+
+00:09:16.994 --> 00:09:20.818
+Vocês podem achar, já que isso é privado
+e não há competição,
+
+00:09:20.828 --> 00:09:23.470
+que talvez o livre comércio
+resolva o problema.
+
+00:09:23.584 --> 00:09:24.833
+Não vai resolver.
+
+00:09:24.857 --> 00:09:28.397
+Há muito dinheiro
+a ser ganho com a injustiça.
+
+00:09:29.127 --> 00:09:32.726
+Além disso, não somos
+agentes econômicos racionais.
+
+00:09:33.031 --> 00:09:34.703
+Somos todos tendenciosos.
+
+00:09:34.960 --> 00:09:38.337
+Somos todos racistas e intolerantes
+de maneiras que desejávamos não ser,
+
+00:09:38.361 --> 00:09:41.090
+de maneiras das nem temos consciência.
+
+00:09:41.352 --> 00:09:44.433
+No entanto, sabemos disso
+
+00:09:44.457 --> 00:09:47.677
+porque os sociólogos têm
+demonstrado isso consistentemente
+
+00:09:47.701 --> 00:09:51.696
+com experimentos nos quais
+enviam um monte de currículos,
+
+00:09:51.696 --> 00:09:53.142
+todos igualmente qualificados,
+
+00:09:53.142 --> 00:09:56.563
+mas alguns com nomes que parecem
+ser de brancos, e outros, de negros,
+
+00:09:56.563 --> 00:09:59.151
+e os resultados são sempre frustrantes.
+
+00:09:59.360 --> 00:10:01.281
+Então, nós somos tendenciosos,
+
+00:10:01.305 --> 00:10:04.734
+e estamos instilando
+esses preconceitos nos algoritmos
+
+00:10:04.758 --> 00:10:06.570
+quando escolhemos quais dados coletar,
+
+00:10:06.594 --> 00:10:10.907
+como quando escolhi descartar o Miojo,
+porque decidi que ele era irrelevante.
+
+00:10:11.010 --> 00:10:16.694
+Mas, ao confiar em dados
+que se baseiam em práticas do passado
+
+00:10:16.718 --> 00:10:18.732
+e ao escolher a definição de sucesso,
+
+00:10:18.756 --> 00:10:22.739
+como podemos esperar
+que os algoritmos saiam incólumes?
+
+00:10:22.763 --> 00:10:25.579
+Não dá, temos de fiscalizá-los.
+
+00:10:26.165 --> 00:10:27.874
+Temos de checar se são justos.
+
+00:10:27.898 --> 00:10:30.609
+A boa notícia é que isso é possível.
+
+00:10:30.633 --> 00:10:33.985
+Os algoritmos podem ser questionados,
+
+00:10:34.009 --> 00:10:36.043
+e eles sempre vão nos dizer a verdade.
+
+00:10:36.067 --> 00:10:38.560
+E podemos repará-los, aperfeiçoá-los.
+
+00:10:38.584 --> 00:10:40.959
+Podemos chamar de auditoria de algoritmos,
+
+00:10:40.983 --> 00:10:42.662
+e vou mostrar como seria.
+
+00:10:42.686 --> 00:10:45.612
+Primeiro, temos de checar
+a integridade dos dados.
+
+00:10:46.132 --> 00:10:48.789
+Para o algoritmo de risco
+de recidiva que mencionei,
+
+00:10:49.582 --> 00:10:53.155
+checar a integridade dos dados
+significa aceitarmos o fato
+
+00:10:53.179 --> 00:10:56.705
+de que, nos EUA, brancos e negros
+fumam maconha na mesma proporção,
+
+00:10:56.729 --> 00:10:59.214
+mas os negros têm
+muito mais chance de serem presos,
+
+00:10:59.238 --> 00:11:02.762
+quatro ou cinco vezes mais,
+dependendo da região.
+
+00:11:03.317 --> 00:11:06.143
+E como esse viés surge
+em outras categorias de crime
+
+00:11:06.167 --> 00:11:07.978
+e como justificamos isso?
+
+00:11:08.162 --> 00:11:11.201
+Segundo, devemos pensar
+na definição de sucesso,
+
+00:11:11.225 --> 00:11:12.606
+auditar esse conceito.
+
+00:11:12.630 --> 00:11:15.382
+Lembram-se do algoritmo
+de contratação de que falei?
+
+00:11:15.406 --> 00:11:18.571
+Alguém que trabalhou por quatro anos
+e foi promovido uma vez?
+
+00:11:18.595 --> 00:11:20.434
+Bem, esse é um empregado de sucesso,
+
+00:11:20.434 --> 00:11:23.467
+mas é também um empregado
+que tem apoio da cultura da empresa.
+
+00:11:23.789 --> 00:11:25.905
+Isso pode ser bem tendencioso.
+
+00:11:25.905 --> 00:11:28.104
+Precisamos separar essas duas coisas.
+
+00:11:28.128 --> 00:11:31.694
+Deveríamos nos mirar
+na audição às cegas de orquestras.
+
+00:11:31.698 --> 00:11:34.554
+É quando os examinadores
+ficam atrás de uma planilha.
+
+00:11:34.946 --> 00:11:36.877
+O importante aí
+
+00:11:36.901 --> 00:11:40.318
+é que os examinadores
+decidem o que é importante
+
+00:11:40.342 --> 00:11:42.371
+e o que não é,
+
+00:11:42.395 --> 00:11:44.744
+e não se distraem com outras coisas.
+
+00:11:44.961 --> 00:11:47.710
+Quando as audições às cegas
+de orquestras começaram,
+
+00:11:47.734 --> 00:11:51.428
+o número de mulheres em orquestras
+cresceu cinco vezes mais.
+
+00:11:52.253 --> 00:11:54.808
+Depois, temos de considerar o rigor.
+
+00:11:55.043 --> 00:11:59.327
+É aí que o modelo valor agregado para
+professores fracassaria imediatamente.
+
+00:11:59.578 --> 00:12:01.740
+Nenhum algoritmo é perfeito, claro,
+
+00:12:02.620 --> 00:12:06.575
+assim, temos de partir
+do pressuposto de que todos erram.
+
+00:12:06.676 --> 00:12:11.195
+Qual a frequência desses erros,
+e com quem esse modelo falha?
+
+00:12:11.850 --> 00:12:13.568
+Qual o preço desse fracasso?
+
+00:12:14.434 --> 00:12:16.641
+E, finalmente, temos de considerar
+
+00:12:17.973 --> 00:12:20.699
+os efeitos de longo prazo dos algoritmos,
+
+00:12:20.796 --> 00:12:23.413
+os círculos viciosos que são gerados.
+
+00:12:23.446 --> 00:12:26.472
+Isso parece abstrato, mas imaginem
+se os engenheiros do Facebook
+
+00:12:26.472 --> 00:12:28.300
+tivessem considerado isso
+
+00:12:28.300 --> 00:12:33.485
+antes de decidirem nos mostrar
+apenas coisas que nossos amigos postam.
+
+00:12:33.761 --> 00:12:37.305
+Tenho mais duas mensagens,
+uma para os cientistas de dados.
+
+00:12:37.450 --> 00:12:40.859
+Cientistas de dados: não devemos
+ser os árbitros da verdade.
+
+00:12:41.520 --> 00:12:45.303
+Devemos ser tradutores
+dos debates éticos que ocorrem
+
+00:12:45.327 --> 00:12:46.981
+na sociedade como um todo.
+
+00:12:47.579 --> 00:12:49.712
+(Aplausos) (Vivas)
+
+00:12:49.736 --> 00:12:51.702
+E os demais,
+
+00:12:52.011 --> 00:12:55.547
+os que não são cientistas de dados:
+isso não é um teste de matemática.
+
+00:12:55.632 --> 00:12:57.990
+Essa é uma luta política.
+
+00:12:58.587 --> 00:13:02.844
+Precisamos exigir prestação de contas
+dos "senhores dos algoritmos".
+
+00:13:03.468 --> 00:13:05.617
+(Aplausos) (Vivas)
+
+00:13:05.641 --> 00:13:09.730
+A era da fé cega
+no Big Data tem de acabar.
+
+00:13:09.730 --> 00:13:11.057
+Muito obrigada.
+
+00:13:11.081 --> 00:13:13.994
+(Aplausos) (Vivas)
+

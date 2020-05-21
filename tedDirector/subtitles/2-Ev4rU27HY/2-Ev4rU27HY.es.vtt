@@ -1,0 +1,831 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Sebastian Betti
+Revisor: Máximo Hdez
+
+00:00:12.285 --> 00:00:15.178
+Esta es una imagen 
+del planeta Tierra.
+
+00:00:15.178 --> 00:00:18.271
+Se parece mucho 
+a las imágenes del Apolo,
+
+00:00:18.271 --> 00:00:19.882
+tan bien conocidas.
+
+00:00:19.882 --> 00:00:21.952
+Hay algo diferente;
+
+00:00:21.952 --> 00:00:23.399
+se les puede hacer clic,
+
+00:00:23.399 --> 00:00:24.597
+y al hacerlo
+
+00:00:24.597 --> 00:00:27.669
+uno se acerca a casi 
+cualquier sitio del planeta.
+
+00:00:27.669 --> 00:00:29.668
+Por ejemplo, esta es 
+una vista de pájaro
+
+00:00:29.668 --> 00:00:32.334
+del campus de la EPFL.
+
+00:00:32.334 --> 00:00:34.442
+En muchos casos, 
+también podemos tener
+
+00:00:34.442 --> 00:00:38.182
+la vista de un edificio 
+desde una calle cercana.
+
+00:00:38.182 --> 00:00:39.604
+Esto es bastante sorprendente.
+
+00:00:39.604 --> 00:00:43.031
+Pero hay algo que falta en 
+este recorrido maravilloso:
+
+00:00:43.031 --> 00:00:45.219
+el tiempo.
+
+00:00:45.219 --> 00:00:48.289
+No estoy muy seguro de cuándo 
+se tomó esta foto.
+
+00:00:48.289 --> 00:00:49.701
+Ni siquiera estoy seguro 
+de que fuera tomada
+
+00:00:49.701 --> 00:00:55.784
+en el mismo momento que 
+la vista a vuelo de pájaro.
+
+00:00:55.784 --> 00:00:57.993
+En mi laboratorio 
+desarrollamos herramientas
+
+00:00:57.993 --> 00:00:59.757
+para viajar no solo en el espacio
+
+00:00:59.757 --> 00:01:02.315
+sino también en el tiempo.
+
+00:01:02.315 --> 00:01:04.185
+El tipo de pregunta que 
+estamos haciendo es:
+
+00:01:04.185 --> 00:01:05.578
+¿Es posible construir algo
+
+00:01:05.578 --> 00:01:07.756
+como Google Maps del pasado?
+
+00:01:07.756 --> 00:01:11.066
+¿Puedo añadir un control deslizante 
+en la parte superior de Google Maps
+
+00:01:11.066 --> 00:01:12.869
+y cambiar el año,
+
+00:01:12.869 --> 00:01:14.660
+viendo como fue 100 años antes,
+
+00:01:14.660 --> 00:01:16.329
+1000 años antes?
+
+00:01:16.329 --> 00:01:18.452
+¿Es posible?
+
+00:01:18.452 --> 00:01:20.704
+¿Puedo reconstruir las redes 
+sociales del pasado?
+
+00:01:20.704 --> 00:01:23.753
+¿Puedo hacer un Facebook 
+de la Edad Media?
+
+00:01:23.753 --> 00:01:27.529
+¿Puedo construir máquinas del tiempo?
+
+00:01:27.529 --> 00:01:30.094
+Tal vez solo podemos decir:
+"No, no es posible".
+
+00:01:30.094 --> 00:01:33.904
+O, quizá, podemos pensar en ello 
+desde el punto de vista informativo.
+
+00:01:33.904 --> 00:01:37.094
+Esto es lo que yo llamo 
+el hongo de información.
+
+00:01:37.094 --> 00:01:38.677
+En el eje vertical está el tiempo.
+
+00:01:38.677 --> 00:01:41.417
+En el horizontal, la cantidad de 
+información digital disponible.
+
+00:01:41.417 --> 00:01:44.899
+Obviamente, en los últimos 10 años, 
+tenemos mucha información.
+
+00:01:44.899 --> 00:01:48.447
+Y, obviamente, cuanto más vamos al pasado, 
+menos información tenemos.
+
+00:01:48.447 --> 00:01:50.765
+Si queremos construir 
+un Google Maps del pasado,
+
+00:01:50.765 --> 00:01:52.259
+o un Facebook del pasado,
+
+00:01:52.259 --> 00:01:53.833
+tenemos que ampliar este espacio,
+
+00:01:53.833 --> 00:01:55.771
+tenemos que transformarlo 
+en un rectángulo.
+
+00:01:55.771 --> 00:01:57.281
+¿Cómo lo hacemos?
+
+00:01:57.281 --> 00:01:59.379
+Una forma es la digitalización.
+
+00:01:59.395 --> 00:02:01.174
+Hay mucho material disponible:
+
+00:02:01.190 --> 00:02:07.460
+periódicos, libros impresos, 
+miles de libros impresos.
+
+00:02:07.460 --> 00:02:09.228
+Puedo digitalizar todo.
+
+00:02:09.228 --> 00:02:11.965
+Puedo extraer información de allí.
+
+00:02:11.965 --> 00:02:15.508
+Claro, cuanto más nos adentramos en 
+el pasado, menos información habrá.
+
+00:02:15.508 --> 00:02:18.154
+Puede no ser suficiente.
+
+00:02:18.154 --> 00:02:20.562
+Entonces puedo hacer 
+como los historiadores.
+
+00:02:20.562 --> 00:02:22.086
+Puedo extrapolar.
+
+00:02:22.086 --> 00:02:26.556
+Esto es lo que llamamos, en ciencias 
+de la computación, simulación.
+
+00:02:26.556 --> 00:02:28.307
+Si tomo un libro de registro,
+
+00:02:28.307 --> 00:02:30.711
+puedo considerar que no solo es
+el libro de registro
+
+00:02:30.711 --> 00:02:33.683
+de un capitán veneciano que 
+hizo un viaje en particular.
+
+00:02:33.683 --> 00:02:35.326
+Puedo considerar que es 
+un libro de registro
+
+00:02:35.326 --> 00:02:37.908
+representativo de muchos 
+viajes de la época.
+
+00:02:37.908 --> 00:02:40.153
+Estoy extrapolando.
+
+00:02:40.153 --> 00:02:42.191
+Si tengo la pintura de una fachada,
+
+00:02:42.191 --> 00:02:44.942
+puedo considerar que no solo es
+de ese edificio en particular,
+
+00:02:44.942 --> 00:02:48.874
+sino que quizá también 
+comparte la misma gramática
+
+00:02:48.874 --> 00:02:52.915
+de los edificios en los que 
+hemos perdido información.
+
+00:02:52.915 --> 00:02:55.773
+Así que si queremos construir 
+una máquina del tiempo,
+
+00:02:55.773 --> 00:02:57.112
+necesitamos 2 cosas.
+
+00:02:57.112 --> 00:02:59.346
+Necesitamos archivos muy grandes
+
+00:02:59.346 --> 00:03:02.088
+y excelentes especialistas.
+
+00:03:02.088 --> 00:03:03.962
+La Máquina del Tiempo Veneciana,
+
+00:03:03.962 --> 00:03:05.767
+el proyecto del que les hablaré,
+
+00:03:05.767 --> 00:03:08.787
+es un proyecto conjunto entre la EPFL
+
+00:03:08.787 --> 00:03:11.765
+y la Universidad de Venecia Ca'Foscari.
+
+00:03:11.765 --> 00:03:13.930
+Hay algo muy peculiar en Venecia,
+
+00:03:13.930 --> 00:03:16.604
+y es que su administración ha sido
+
+00:03:16.604 --> 00:03:18.798
+muy, muy burocrática.
+
+00:03:18.798 --> 00:03:20.991
+Ellos han hecho seguimiento de todo,
+
+00:03:20.991 --> 00:03:23.906
+casi como Google hoy.
+
+00:03:23.906 --> 00:03:25.420
+En el Archivio di Stato,
+
+00:03:25.420 --> 00:03:27.184
+hay 80 kilómetros de archivos
+
+00:03:27.184 --> 00:03:29.193
+que documentan cada aspecto
+
+00:03:29.193 --> 00:03:31.439
+de la vida de Venecia durante
+más de 1000 años.
+
+00:03:31.439 --> 00:03:33.359
+Están todos los botes que zarparon,
+
+00:03:33.359 --> 00:03:34.435
+todos los botes que arribaron.
+
+00:03:34.435 --> 00:03:37.232
+Están todo los cambios 
+realizados en la ciudad.
+
+00:03:37.232 --> 00:03:40.523
+Todo eso está allí.
+
+00:03:40.523 --> 00:03:44.431
+Estamos estableciendo un programa 
+de digitalización a 10 años
+
+00:03:44.431 --> 00:03:46.108
+con el objetivo de transformar
+
+00:03:46.108 --> 00:03:47.492
+este archivo inmenso
+
+00:03:47.492 --> 00:03:49.918
+en un gigante sistema de información.
+
+00:03:49.918 --> 00:03:51.775
+El objetivo es digitalizar
+
+00:03:51.775 --> 00:03:56.501
+450 libros al día.
+
+00:03:56.501 --> 00:03:58.748
+Por supuesto, digitalizar 
+no es suficiente
+
+00:03:58.748 --> 00:04:00.035
+porque la mayor parte 
+de estos documentos
+
+00:04:00.035 --> 00:04:02.674
+está en latín, en toscano,
+
+00:04:02.689 --> 00:04:04.204
+en dialecto veneciano,
+
+00:04:04.204 --> 00:04:05.879
+así que hay que transcribirlos,
+
+00:04:05.879 --> 00:04:07.560
+traducirlos en algunos casos,
+
+00:04:07.560 --> 00:04:08.680
+para indexarlos,
+
+00:04:08.680 --> 00:04:10.844
+y esto obviamente no es fácil.
+
+00:04:10.844 --> 00:04:14.688
+En particular, el método óptico tradicional 
+de reconocimiento de caracteres
+
+00:04:14.688 --> 00:04:16.112
+que puede usarse para 
+manuscritos impresos,
+
+00:04:16.112 --> 00:04:20.116
+no funciona bien en 
+documentos escritos a mano.
+
+00:04:20.116 --> 00:04:22.246
+La solución es inspirarse
+
+00:04:22.246 --> 00:04:25.147
+en otro dominio: 
+el reconocimiento de voz.
+
+00:04:25.147 --> 00:04:27.202
+Este es un dominio de algo
+que parece imposible,
+
+00:04:27.202 --> 00:04:29.739
+que puede hacerse,
+
+00:04:29.739 --> 00:04:31.933
+poniendo restricciones adicionales.
+
+00:04:31.933 --> 00:04:33.519
+Si uno tiene un muy buen modelo
+
+00:04:33.519 --> 00:04:35.045
+de un lenguaje empleado,
+
+00:04:35.045 --> 00:04:37.131
+si uno tiene un muy buen 
+modelo de un documento,
+
+00:04:37.131 --> 00:04:38.563
+si están bien estructurados
+
+00:04:38.563 --> 00:04:39.916
+--estos son documentos 
+administrativos,
+
+00:04:39.931 --> 00:04:42.063
+están muy bien estructurados 
+en muchos casos--
+
+00:04:42.063 --> 00:04:45.371
+si uno divide este archivo enorme
+en subconjuntos más pequeños
+
+00:04:45.371 --> 00:04:48.248
+que compartan características similares,
+
+00:04:48.248 --> 00:04:52.279
+entonces hay una posibilidad de éxito.
+
+00:04:54.761 --> 00:04:57.196
+Si llegamos a esa etapa, 
+entonces hay algo más:
+
+00:04:57.196 --> 00:05:00.718
+podemos extraer eventos 
+de este documento.
+
+00:05:00.718 --> 00:05:03.016
+Quizá puedan obtenerse 
+10 000 millones
+
+00:05:03.016 --> 00:05:04.947
+de eventos de este archivo.
+
+00:05:04.947 --> 00:05:06.671
+Y este gigante sistema de información
+
+00:05:06.671 --> 00:05:08.487
+puede buscarse de muchas formas.
+
+00:05:08.487 --> 00:05:09.855
+Uno puede preguntar cosas como:
+
+00:05:09.855 --> 00:05:12.615
+"¿Quién vivió en este palacio en 1323?"
+
+00:05:12.615 --> 00:05:14.837
+"¿Cuánto costaba un besugo 
+en el mercado de Realto
+
+00:05:14.837 --> 00:05:16.561
+en 1434?"
+
+00:05:16.561 --> 00:05:18.021
+"¿Cuál era el salario
+
+00:05:18.021 --> 00:05:20.066
+de un fabricante de vidrio en Murano
+
+00:05:20.066 --> 00:05:21.472
+en una década?&amp;quot;
+
+00:05:21.472 --> 00:05:22.894
+Uno puede hacer incluso 
+preguntas más grandes
+
+00:05:22.894 --> 00:05:25.632
+porque estará 
+codificado semánticamente.
+
+00:05:25.632 --> 00:05:27.772
+Y luego se lo puede 
+poner en el espacio
+
+00:05:27.772 --> 00:05:29.945
+porque mucha de esta 
+información es espacial.
+
+00:05:29.945 --> 00:05:31.880
+Y a partir de esto 
+se pueden hacer cosas
+
+00:05:31.880 --> 00:05:33.993
+como reconstruir este 
+viaje extraordinario
+
+00:05:33.993 --> 00:05:37.349
+de esa ciudad que logró tener 
+un desarrollo sustentable
+
+00:05:37.349 --> 00:05:39.475
+durante más de 1000 años,
+
+00:05:39.475 --> 00:05:41.095
+logrando tener todo el tiempo
+
+00:05:41.095 --> 00:05:43.956
+una forma de equilibrio 
+con su medio ambiente.
+
+00:05:43.956 --> 00:05:45.204
+Uno puede reconstruir ese viaje,
+
+00:05:45.204 --> 00:05:48.100
+y visualizarlo de muchas 
+maneras diferentes.
+
+00:05:48.100 --> 00:05:50.799
+Pero, claro, no se puede comprender
+Venecia si solo se mira la ciudad.
+
+00:05:50.799 --> 00:05:53.195
+Hay que ponerla en un 
+contexto europeo más grande.
+
+00:05:53.195 --> 00:05:56.016
+Por eso la idea es 
+documentar también
+
+00:05:56.016 --> 00:05:58.439
+las cosas a nivel europeo.
+
+00:05:58.439 --> 00:06:00.403
+Podemos reconstruir también el viaje
+
+00:06:00.403 --> 00:06:02.393
+del imperio marítimo veneciano.
+
+00:06:02.393 --> 00:06:05.559
+Cómo fue que controló de manera 
+progresiva el Mar Adriático,
+
+00:06:05.559 --> 00:06:09.305
+cómo se transformó en el 
+imperio medieval más poderoso
+
+00:06:09.305 --> 00:06:10.866
+de su tiempo,
+
+00:06:10.866 --> 00:06:13.038
+controlando la mayor parte 
+de las rutas marítimas
+
+00:06:13.038 --> 00:06:15.971
+desde el este hacia el sur.
+
+00:06:17.305 --> 00:06:19.621
+Pero también se pueden 
+hacer otras cosas,
+
+00:06:19.621 --> 00:06:21.898
+porque en estas rutas marítimas
+
+00:06:21.898 --> 00:06:23.873
+hay patrones regulares.
+
+00:06:23.889 --> 00:06:26.382
+Podemos ir un paso más allá
+
+00:06:26.382 --> 00:06:28.502
+y crear un sistema de simulación,
+
+00:06:28.502 --> 00:06:31.317
+crear un simulador mediterráneo
+
+00:06:31.317 --> 00:06:33.910
+capaz de reconstruir
+
+00:06:33.910 --> 00:06:36.112
+incluso la información perdida
+
+00:06:36.112 --> 00:06:39.100
+que nos permitiría hacer preguntas
+
+00:06:39.100 --> 00:06:42.088
+como si tuviésemos un 
+planificador de rutas.
+
+00:06:42.088 --> 00:06:45.159
+"Si estoy en Corfú en junio de 1323
+
+00:06:45.159 --> 00:06:47.685
+y quiero ir a Constantinopla,
+
+00:06:47.685 --> 00:06:49.828
+¿dónde puedo tomar un bote?"
+
+00:06:49.828 --> 00:06:51.195
+Probablemente podemos 
+responder esta pregunta
+
+00:06:51.195 --> 00:06:55.668
+con 1, 2 o 3 días de precisión.
+
+00:06:55.668 --> 00:06:57.275
+"¿Cuánto costará?"
+
+00:06:57.275 --> 00:07:00.867
+"¿Cuáles son las probabilidades 
+de encontrarse con piratas?"
+
+00:07:00.867 --> 00:07:02.678
+Por supuesto, como comprenderán,
+
+00:07:02.678 --> 00:07:05.287
+el reto científico central 
+de un proyecto como este
+
+00:07:05.287 --> 00:07:09.016
+es calificar, 
+cuantificar y representar
+
+00:07:09.016 --> 00:07:12.346
+la incertidumbre y la inconsistencia
+en cada paso del proceso.
+
+00:07:12.346 --> 00:07:15.058
+Hay errores en todas partes;
+
+00:07:15.058 --> 00:07:17.547
+errores en el documento,
+error en el nombre del capitán,
+
+00:07:17.547 --> 00:07:20.760
+algunos de los barcos nunca zarparon.
+
+00:07:20.760 --> 00:07:25.617
+Hay errores de traducción, 
+sesgos interpretativos,
+
+00:07:25.624 --> 00:07:29.090
+y encima de eso, si sumamos 
+procesos algorítmicos,
+
+00:07:29.090 --> 00:07:32.039
+tendremos errores de reconocimiento,
+
+00:07:32.039 --> 00:07:34.000
+errores en la extracción,
+
+00:07:34.000 --> 00:07:38.481
+por eso tenemos datos 
+muy, muy inciertos.
+
+00:07:38.481 --> 00:07:42.238
+Entonces, ¿cómo podemos detectar 
+y corregir estas inconsistencias?
+
+00:07:42.238 --> 00:07:45.898
+¿Cómo podemos representar 
+esa incertidumbre?
+
+00:07:45.898 --> 00:07:47.995
+Es difícil. Algo que podemos hacer
+
+00:07:47.995 --> 00:07:50.221
+es documentar cada paso del proceso,
+
+00:07:50.221 --> 00:07:52.669
+no solo codificar 
+la información histórica
+
+00:07:52.669 --> 00:07:55.348
+sino también lo que llamamos 
+la información meta-histórica,
+
+00:07:55.348 --> 00:07:58.011
+cómo se construye 
+el conocimiento histórico,
+
+00:07:58.011 --> 00:08:00.009
+documentar cada paso.
+
+00:08:00.009 --> 00:08:01.654
+Eso no garantizará la convergencia
+
+00:08:01.654 --> 00:08:04.104
+hacia una única historia de Venecia,
+
+00:08:04.104 --> 00:08:06.242
+pero probablemente podamos reconstruir
+
+00:08:06.242 --> 00:08:09.290
+una historia potencial de Venecia
+totalmente documentada.
+
+00:08:09.290 --> 00:08:10.749
+Tal vez no haya un solo mapa.
+
+00:08:10.749 --> 00:08:12.869
+Quizá haya varios mapas.
+
+00:08:12.869 --> 00:08:15.085
+El sistema debe permitir eso,
+
+00:08:15.085 --> 00:08:17.944
+porque tenemos que enfrentar
+una nueva forma de incertidumbre,
+
+00:08:17.944 --> 00:08:22.585
+algo nuevo para este tipo 
+de gigantescas bases de datos.
+
+00:08:22.585 --> 00:08:24.775
+Y ¿cómo deberíamos comunicar
+
+00:08:24.790 --> 00:08:28.769
+esta nueva investigación 
+a un público más amplio?
+
+00:08:28.769 --> 00:08:31.432
+Una vez más, Venecia es 
+extraordinaria para eso.
+
+00:08:31.432 --> 00:08:33.603
+Con los millones de visitantes
+que recibe cada año
+
+00:08:33.603 --> 00:08:35.366
+es uno de los mejores lugares
+
+00:08:35.366 --> 00:08:38.354
+para tratar de inventar
+el museo del futuro.
+
+00:08:38.354 --> 00:08:41.658
+Imaginen que en el eje horizontal 
+ven el mapa reconstruido
+
+00:08:41.658 --> 00:08:42.944
+de un año dado,
+
+00:08:42.944 --> 00:08:45.902
+y en el vertical, ven el documento
+
+00:08:45.902 --> 00:08:47.413
+usado para la reconstrucción,
+
+00:08:47.413 --> 00:08:50.813
+pinturas, por ejemplo.
+
+00:08:50.813 --> 00:08:53.393
+Imaginen un sistema 
+inmersivo que permita
+
+00:08:53.393 --> 00:08:56.895
+meterse, bucear y reconstruir
+la Venecia de un año dado,
+
+00:08:56.895 --> 00:08:59.610
+una experiencia que podría 
+compartirse en grupo.
+
+00:08:59.610 --> 00:09:01.856
+O al contrario, 
+imaginen que parten
+
+00:09:01.856 --> 00:09:04.063
+de un documento, 
+un manuscrito veneciano,
+
+00:09:04.063 --> 00:09:07.112
+y muestran lo que se puede 
+construir a partir de eso,
+
+00:09:07.112 --> 00:09:08.884
+cómo se decodifica,
+
+00:09:08.884 --> 00:09:11.299
+cómo puede recrearse el 
+contexto de ese documento.
+
+00:09:11.299 --> 00:09:13.184
+Esta es la imagen de una muestra
+
+00:09:13.184 --> 00:09:15.460
+que actualmente se lleva 
+a cabo en Ginebra
+
+00:09:15.460 --> 00:09:17.814
+con ese tipo de sistema.
+
+00:09:17.814 --> 00:09:19.989
+Para concluir, podemos decir que
+
+00:09:19.989 --> 00:09:23.068
+la investigación en humanidades
+está a punto de experimentar
+
+00:09:23.068 --> 00:09:24.870
+una evolución quizá similar
+
+00:09:24.870 --> 00:09:29.452
+a lo ocurrido con las ciencias 
+de la vida hace 30 años.
+
+00:09:29.452 --> 00:09:34.128
+Es realmente una cuestión de escala.
+
+00:09:34.130 --> 00:09:37.433
+Vemos proyectos que exceden
+
+00:09:37.433 --> 00:09:41.276
+lo que puede hacer un simple 
+equipo de investigación
+
+00:09:41.276 --> 00:09:43.519
+y esto es realmente nuevo 
+para las humanidades,
+
+00:09:43.519 --> 00:09:47.388
+que muy a menudo tienen 
+el hábito de trabajar
+
+00:09:47.388 --> 00:09:51.396
+en pequeños grupos o solo 
+con un par de investigadores.
+
+00:09:51.396 --> 00:09:53.514
+Cuando uno visita 
+el Archivio di Stato
+
+00:09:53.514 --> 00:09:56.336
+siente que excede el trabajo 
+de un solo equipo,
+
+00:09:56.336 --> 00:10:00.170
+y que debe ser un esfuerzo 
+conjunto y mancomunado.
+
+00:10:00.170 --> 00:10:03.276
+Este cambio de paradigma requiere
+
+00:10:03.276 --> 00:10:05.178
+fomentar una nueva generación
+
+00:10:05.178 --> 00:10:06.715
+de "humanistas digitales"
+
+00:10:06.715 --> 00:10:08.805
+que estén preparados para el cambio.
+
+00:10:08.805 --> 00:10:10.764
+Muchas gracias.
+
+00:10:10.764 --> 00:10:14.764
+(Aplausos)
+

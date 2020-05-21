@@ -1,0 +1,855 @@
+WEBVTT
+Kind: captions
+Language: da
+
+00:00:00.000 --> 00:00:07.000
+Translator: David J. Kreps Finnemann
+Reviewer: Anders Finn Jørgensen
+
+00:00:23.307 --> 00:00:26.491
+Hvad betyder det for en maskine at være atletisk?
+
+00:00:26.491 --> 00:00:29.908
+Vi vil demonstrere konceptet om maskinadræthed
+
+00:00:29.908 --> 00:00:31.628
+og forskningen til at opnå det
+
+00:00:31.628 --> 00:00:34.139
+ved hjælp af disse flyvende maskiner der hedder 'quadrocopters',
+
+00:00:34.139 --> 00:00:36.026
+eller 'quads', som afkortning.
+
+00:00:38.034 --> 00:00:40.563
+Quads har været her i lang tid.
+
+00:00:40.563 --> 00:00:42.162
+Grunden til de er så populære nu til dags
+
+00:00:42.162 --> 00:00:44.127
+er at de mekanisk set er simple.
+
+00:00:44.127 --> 00:00:46.235
+Ved at kontrollere hastigheden af de fire propeller,
+
+00:00:46.235 --> 00:00:49.283
+disse maskiner kan rulle, pitch, yaw,
+
+00:00:49.283 --> 00:00:52.108
+og accelerere i den retning de flyver.
+
+00:00:52.108 --> 00:00:55.179
+Der er også et batteri om bord, en computer,
+
+00:00:55.179 --> 00:00:59.133
+forskellige sensorer og trådløse radioer.
+
+00:00:59.133 --> 00:01:03.762
+Quads er utrolig adrætte, 
+men denne adræthed har sin pris.
+
+00:01:03.762 --> 00:01:06.754
+De er generelt ustabile, 
+og de har brug for en form for
+
+00:01:06.754 --> 00:01:10.726
+automatisk feedback-styring 
+for at være i stand til at flyve.
+
+00:01:16.259 --> 00:01:19.497
+Så, hvordan gjorde den lige det?
+
+00:01:19.497 --> 00:01:21.315
+Kameraer i loftet og en bærbar computer
+
+00:01:21.315 --> 00:01:23.891
+fungerer som et indendørs globalt positionssystem.
+
+00:01:23.891 --> 00:01:26.076
+Det bruges til at lokalisere objekter i rummet
+
+00:01:26.076 --> 00:01:28.603
+der har disse reflekterende afmærkninger på sig.
+
+00:01:28.603 --> 00:01:30.664
+Denne data bliver sendt til 
+en anden bærbar computer
+
+00:01:30.664 --> 00:01:32.875
+der kører estimerings og kontrolalgoritmer,
+
+00:01:32.875 --> 00:01:34.761
+som til gengæld sender kommandoer til quaden,
+
+00:01:34.761 --> 00:01:38.246
+som også kører estimerings- og kontrolalgoritmer.
+
+00:01:41.620 --> 00:01:44.130
+Størstedelen af vores forskning er algoritmer.
+
+00:01:44.130 --> 00:01:48.291
+Det er den magi der giver liv til disse maskiner.
+
+00:01:48.291 --> 00:01:50.334
+Så hvordan designer man algoritmerne
+
+00:01:50.334 --> 00:01:52.611
+der skaber en maskinatlet?
+
+00:01:52.611 --> 00:01:55.491
+Vi bruger noget der bredt kaldes
+for modelbaseret design.
+
+00:01:55.491 --> 00:01:58.645
+Vi fanger først det fysiske 
+med en matematisk model
+
+00:01:58.645 --> 00:02:00.779
+over hvordan maskinerne opfører sig.
+
+00:02:00.779 --> 00:02:03.076
+Så bruger vi en gren af matematikken
+
+00:02:03.076 --> 00:02:05.907
+der kaldes kontrolteori til at 
+analysere disse modeller
+
+00:02:05.907 --> 00:02:09.820
+og også til at syntetisere 
+algoritmerne til at kontrollere dem.
+
+00:02:09.820 --> 00:02:12.868
+For eksempel, er det sådan vi kan få 
+quaden til at stå stille i luften.
+
+00:02:12.868 --> 00:02:14.276
+Vi fanger først dynamikken
+
+00:02:14.276 --> 00:02:16.182
+med et sæt differentialligninger.
+
+00:02:16.182 --> 00:02:18.531
+Så manipulerer vi disse ligninger ved hjælp
+
+00:02:18.531 --> 00:02:23.171
+af kontrolteori til at skabe 
+algoritmer der stabiliserer quaden.
+
+00:02:23.171 --> 00:02:26.117
+Lad mig demonstrere styrken
+ved denne fremgangsmåde.
+
+00:02:29.198 --> 00:02:31.747
+Forestil jer at vi vil have denne 
+quad til ikke kun at svæve i luften
+
+00:02:31.747 --> 00:02:34.529
+men også at balancere denne pæl.
+
+00:02:34.529 --> 00:02:36.373
+Men en lille smule øvelse,
+
+00:02:36.373 --> 00:02:38.764
+er det temmelig ukompliceret 
+for et menneske at gøre dette,
+
+00:02:38.764 --> 00:02:40.519
+selvom vi har den fordel at vi har
+
+00:02:40.519 --> 00:02:41.847
+to fødder på jorden
+
+00:02:41.847 --> 00:02:44.804
+og brugen af vores meget alsidige hænder.
+
+00:02:44.804 --> 00:02:47.273
+Det bliver lidt sværere
+
+00:02:47.273 --> 00:02:49.569
+når jeg kun har en fod på jorden
+
+00:02:49.569 --> 00:02:52.368
+og når jeg ikke bruger mine hænder.
+
+00:02:52.368 --> 00:02:55.319
+Læg mærke til hvordan denne pæl 
+har et reflekterende mærke i toppen,
+
+00:02:55.319 --> 00:02:59.213
+hvilket betyder at den kan lokaliseres i rummet.
+
+00:03:04.971 --> 00:03:10.947
+(Bifald)
+
+00:03:10.947 --> 00:03:13.773
+Man kan se at denne quad 
+kommer med små justeringer
+
+00:03:13.773 --> 00:03:15.968
+for at balancere pælen.
+
+00:03:15.968 --> 00:03:19.027
+Hvordan designer vi 
+algoritmerne til at gøre dette?
+
+00:03:19.027 --> 00:03:21.132
+Vi tilføjede matematiske modeller af pælen
+
+00:03:21.132 --> 00:03:22.651
+til quadens.
+
+00:03:22.651 --> 00:03:25.605
+Når vi har en model af det 
+kombinerede quad-pæl system,
+
+00:03:25.605 --> 00:03:30.538
+vi kan bruge kontrolteori til at skabe 
+algoritmer for at kontrollere den.
+
+00:03:30.538 --> 00:03:32.126
+Her, ser man at den er stabil,
+
+00:03:32.126 --> 00:03:34.819
+og selv hvis jeg giver den små skub,
+
+00:03:34.819 --> 00:03:40.222
+smutter den tilbage til den fine, 
+balancerede position.
+
+00:03:40.222 --> 00:03:41.885
+Vi kan også supplere modellen så den inkluderer
+
+00:03:41.885 --> 00:03:44.326
+hvor vi vil have quaden til at være i rummet.
+
+00:03:44.326 --> 00:03:47.395
+Ved hjælp af denne pegepind, 
+lavet af reflekterende markører,
+
+00:03:47.395 --> 00:03:49.619
+kan jeg pege derhen hvor jeg vil have 
+quaden til at være i rummet
+
+00:03:49.619 --> 00:03:52.986
+på et fast punkt fra mig.
+
+00:04:07.763 --> 00:04:10.665
+Nøglen til disse akrobatiske 
+manøvrer er algoritmer,
+
+00:04:10.665 --> 00:04:13.091
+designet med hjælp af matematiske modeller
+
+00:04:13.091 --> 00:04:15.041
+og kontrolteori.
+
+00:04:15.041 --> 00:04:17.255
+Lad os fortælle quaden at komme tilbage hertil
+
+00:04:17.255 --> 00:04:19.074
+og smide pælen,
+
+00:04:19.074 --> 00:04:20.992
+og jeg vil demonstrere vigtigheden
+
+00:04:20.992 --> 00:04:23.111
+af at forstå fysiske modeller
+
+00:04:23.111 --> 00:04:27.231
+og hvordan den fysiske verden fungerer.
+
+00:04:37.462 --> 00:04:39.232
+Læg mærke til hvordan quaden tabte højde
+
+00:04:39.232 --> 00:04:41.314
+da jeg satte dette glas vand på den.
+
+00:04:41.314 --> 00:04:44.115
+Ulig at balancere pælen, inkluderede jeg ikke
+
+00:04:44.115 --> 00:04:46.699
+den matematiske model af glasset i systemet.
+
+00:04:46.699 --> 00:04:49.618
+Faktisk, ved systemet ikke engang 
+at glasset med vand er der.
+
+00:04:49.618 --> 00:04:52.910
+Ligesom før, kunne jeg bruge 
+pegepinden til at fortælle quaden
+
+00:04:52.910 --> 00:04:55.499
+hvor jeg vil have at den skal være i rummet.
+
+00:04:55.499 --> 00:05:05.096
+(Bifald)
+
+00:05:05.096 --> 00:05:07.206
+Okay, man burde spørge sig selv,
+
+00:05:07.206 --> 00:05:09.715
+hvorfor falder vandet ikke ud af glasset?
+
+00:05:09.715 --> 00:05:12.926
+To faktum: Den første er at 
+tyngdekræften påvirker
+
+00:05:12.926 --> 00:05:15.051
+alle objekter på samme måde.
+
+00:05:15.051 --> 00:05:17.515
+Den anden er at propellerne alle peger
+
+00:05:17.515 --> 00:05:20.642
+i samme retning som glasset, peger opad.
+
+00:05:20.642 --> 00:05:23.019
+Sætter man disse to ting sammen, er resultatet
+
+00:05:23.019 --> 00:05:25.306
+at alle kræfter på siden af glasset er små
+
+00:05:25.306 --> 00:05:28.091
+og bliver hovedsageligt styret af 
+de aerodynamiske påvirkninger,
+
+00:05:28.091 --> 00:05:31.932
+som er ubetydelige ved disse hastigheder.
+
+00:05:35.336 --> 00:05:37.407
+Og det er grunden til at man ikke 
+behøver at tage højde for glasset.
+
+00:05:37.407 --> 00:05:41.255
+Det spilder naturligt ikke, 
+uanset hvad quaden gør.
+
+00:05:50.651 --> 00:05:57.702
+(Bifald)
+
+00:05:57.702 --> 00:06:01.718
+Lektionen her er at der er nogle 
+højt belastende opgaver
+
+00:06:01.718 --> 00:06:03.115
+er nemmere end andre,
+
+00:06:03.115 --> 00:06:05.411
+og at forstå fysikken bag problemet
+
+00:06:05.411 --> 00:06:08.027
+fortæller en hvilke der er nemme 
+og hvilke der er svære.
+
+00:06:08.027 --> 00:06:10.386
+I dette tilfælde, at bære et glas vand er nemt.
+
+00:06:10.386 --> 00:06:14.171
+At balancere en pæl en svært.
+
+00:06:14.171 --> 00:06:15.973
+Vi har alle hørt historier om atleter
+
+00:06:15.973 --> 00:06:18.466
+der udfører præstationer 
+mens de har en fysisk skade.
+
+00:06:18.466 --> 00:06:19.985
+Kan en maskine også præstere
+
+00:06:19.985 --> 00:06:22.636
+med ekstrem fysisk skade?
+
+00:06:22.636 --> 00:06:24.362
+Traditionel visdom siger at man har brug
+
+00:06:24.362 --> 00:06:28.052
+for mindst fire faste motorpropeller
+par for at kunne flyve,
+
+00:06:28.052 --> 00:06:30.164
+fordi der er fire grader af frihed 
+man skal kontrollere:
+
+00:06:30.164 --> 00:06:33.192
+rul, pitch, yaw og acceleration.
+
+00:06:33.192 --> 00:06:36.437
+Hexakoptere og octokoptere, 
+med seks og otte propeller,
+
+00:06:36.437 --> 00:06:37.920
+skaffer redundans,
+
+00:06:37.920 --> 00:06:39.909
+men quadrokoptere er meget mere populære
+
+00:06:39.909 --> 00:06:41.724
+fordi de har minimumsantallet
+
+00:06:41.724 --> 00:06:44.200
+af faste motor propelpar: fire.
+
+00:06:44.200 --> 00:06:46.165
+Eller har de?
+
+00:07:01.476 --> 00:07:04.076
+Hvis vi analyserer den matematiske 
+model af denne maskine
+
+00:07:04.076 --> 00:07:06.252
+med kun to fungerende propeller,
+
+00:07:06.252 --> 00:07:13.008
+opdager vi at der er en ukonventionel 
+måde at flyve den på.
+
+00:07:19.980 --> 00:07:21.686
+Vi slipper kontrollen over yaw,
+
+00:07:21.686 --> 00:07:24.756
+men rul, pitch og acceleration 
+kan stadig kontrolleres
+
+00:07:24.756 --> 00:07:30.208
+med algoritmer der udnytter 
+denne nye konfiguration.
+
+00:07:33.668 --> 00:07:36.100
+Matematiske modeller 
+fortæller os præcis hvornår
+
+00:07:36.100 --> 00:07:38.172
+og hvorfor dette er muligt.
+
+00:07:38.172 --> 00:07:40.540
+I dette tilfælde, denne viden 
+tillader os at designe
+
+00:07:40.540 --> 00:07:42.796
+nye maskinarkitekturer
+
+00:07:42.796 --> 00:07:46.972
+eller at designe snedige algoritmer der 
+på en yndefuld måde håndterer skader,
+
+00:07:46.972 --> 00:07:48.696
+ligesom menneskelige atleter gør,
+
+00:07:48.696 --> 00:07:52.519
+i stedet for at bygge maskiner med redundanser.
+
+00:07:52.519 --> 00:07:54.631
+Vi kan ikke lade være med at holde vejret når vi ser
+
+00:07:54.631 --> 00:07:57.068
+en dykker der laver en saltomortale ud i vandet,
+
+00:07:57.068 --> 00:07:58.858
+eller når en stangspringer vrider sig i luften,
+
+00:07:58.858 --> 00:08:00.576
+og jorden nærmer sig hurtigt.
+
+00:08:00.576 --> 00:08:03.144
+Vil dykkeren være i stand til at klare 
+en flænsende landing?
+
+00:08:03.144 --> 00:08:05.144
+Vil stangspringeren klare landingen?
+
+00:08:05.144 --> 00:08:06.812
+Forestil jer at vi vil have denne quad
+
+00:08:06.812 --> 00:08:09.263
+til at udføre en tredobbelt salto og slutte
+
+00:08:09.263 --> 00:08:11.532
+på præcis det samme punkt som den startede.
+
+00:08:11.532 --> 00:08:13.879
+Denne manøvre vil ske så hurtigt
+
+00:08:13.879 --> 00:08:17.508
+at vi ikke kan bruge feedback om positionen 
+til at korrigere bevægelsen under udførelsen.
+
+00:08:17.508 --> 00:08:19.782
+Der er simpelthen ikke tid nok.
+
+00:08:19.782 --> 00:08:23.476
+I stedet, kan quaden udføre manøvren i blinde,
+
+00:08:23.476 --> 00:08:25.708
+observere hvordan den afslutter manøvren,
+
+00:08:25.708 --> 00:08:28.132
+og så bruge den information til 
+at moderere dens adfærd
+
+00:08:28.132 --> 00:08:30.421
+så den næste salto er bedre.
+
+00:08:30.421 --> 00:08:32.233
+Tilsvarende dykkerens og stangspringerens,
+
+00:08:32.233 --> 00:08:34.152
+er det kun gennem gentaget øvelse
+
+00:08:34.152 --> 00:08:36.077
+at den manøvre kan læres og udføres
+
+00:08:36.077 --> 00:08:38.210
+til den højeste standard.
+
+00:08:46.412 --> 00:08:51.164
+(Bifald)
+
+00:08:51.164 --> 00:08:54.636
+At ramme en bevægende kugle er en 
+nødvendig færdighed i mange sportsgrene.
+
+00:08:54.636 --> 00:08:56.431
+Hvordan får vi en maskine til at
+
+00:08:56.431 --> 00:09:00.184
+gøre det en atlet tilsyneladende 
+gør uden anstrengelse?
+
+00:09:15.943 --> 00:09:22.542
+(Bifald)
+
+00:09:22.542 --> 00:09:25.192
+Denne quad har en ketcher bundet til sit hoved
+
+00:09:25.192 --> 00:09:28.679
+med et sweet spot der groft set er på størrelse
+med et æble, så ikke for stort.
+
+00:09:28.679 --> 00:09:31.846
+De følgende beregninger bliver 
+udført hvert 20. millisekund,
+
+00:09:31.846 --> 00:09:33.602
+eller 50 gange per sekund.
+
+00:09:33.602 --> 00:09:36.414
+Først regner vi ud hvor bolden er på vej hen.
+
+00:09:36.414 --> 00:09:38.851
+Derefter regner vi ud hvordan 
+quaden skal ramme bolden
+
+00:09:38.851 --> 00:09:41.950
+så den flyver tilbage til der hvor den blev kastet fra.
+
+00:09:41.950 --> 00:09:46.406
+For det tredje, bliver der planlagt 
+en bane der får quaden
+
+00:09:46.406 --> 00:09:49.430
+fra den nuværende tilstand til 
+sammenstødspunktet med bolden.
+
+00:09:49.430 --> 00:09:53.239
+For det fjerde, udfører vi kun 
+20 millisekunder af den strategi.
+
+00:09:53.239 --> 00:09:56.046
+Tyve millisekunder senere, 
+bliver hele processen gentaget
+
+00:09:56.046 --> 00:09:58.289
+indtil quaden rammer bolden.
+
+00:10:07.560 --> 00:10:10.206
+(Bifald)
+
+00:10:10.206 --> 00:10:13.578
+Maskiner kan ikke kun udføre 
+dynamiske manøvrer på egen hånd,
+
+00:10:13.578 --> 00:10:15.441
+de kan gøre det kollektivt.
+
+00:10:15.441 --> 00:10:19.028
+Disse quader bærer sammen et net.
+
+00:10:28.574 --> 00:10:33.985
+(Bifald)
+
+00:10:33.985 --> 00:10:36.182
+De udfører en ekstrem dynamisk
+
+00:10:36.182 --> 00:10:38.350
+og kollektiv manøvre
+
+00:10:38.350 --> 00:10:40.042
+til at skyde bolden tilbage til mig.
+
+00:10:40.042 --> 00:10:43.553
+Læg mærke til, ved fuld forlængelse,
+er disse quads vertikale.
+
+00:10:48.486 --> 00:10:50.258
+(Bifald)
+
+00:10:50.258 --> 00:10:52.545
+Faktisk, når de forlænger fuldt,
+
+00:10:52.545 --> 00:10:55.230
+er dette groft set fem gange stærkere 
+end det en bungeehopper føler
+
+00:10:55.230 --> 00:10:59.818
+ved slutningen af deres hop.
+
+00:11:03.009 --> 00:11:05.686
+Algoritmerne til at gøre dette er meget lig
+
+00:11:05.686 --> 00:11:09.070
+det en enkelt quad bruger til 
+at slå bolden tilbage til mig.
+
+00:11:09.070 --> 00:11:11.934
+Matematisk modeller bruges 
+konstant til at replanlægge
+
+00:11:11.934 --> 00:11:16.449
+en samarbejdende strategi 50 gange i sekundet.
+
+00:11:16.449 --> 00:11:18.326
+Alt vi har set indtil videre har handlet
+
+00:11:18.326 --> 00:11:20.789
+om maskinerne og deres evner.
+
+00:11:20.789 --> 00:11:23.804
+Hvad sker der hvis vi kobler 
+denne maskines adræthed
+
+00:11:23.804 --> 00:11:25.580
+med et menneskes?
+
+00:11:25.580 --> 00:11:29.385
+Det jeg har foran mig er en 
+kommerciel bevægelsessensor
+
+00:11:29.385 --> 00:11:30.694
+der hovedsagelig bliver brugt til gaming.
+
+00:11:30.694 --> 00:11:32.498
+Den kan genkende det mine forskellige kropsdele
+
+00:11:32.498 --> 00:11:34.546
+gør i realtid.
+
+00:11:34.546 --> 00:11:36.662
+I stil med den pegepind jeg brugte tidligere,
+
+00:11:36.662 --> 00:11:39.454
+kan vi bruge dette som input i systemet.
+
+00:11:39.454 --> 00:11:41.850
+Nu har vi en naturlig måde til at interagere
+
+00:11:41.850 --> 00:11:46.794
+med den rå adræthed af 
+disse quads med mine gestus.
+
+00:12:22.453 --> 00:12:26.853
+(Bifald)
+
+00:12:35.982 --> 00:12:39.989
+Interaktion behøver ikke at være virtuel.
+Det kan være fysisk.
+
+00:12:39.989 --> 00:12:41.714
+Tag denne quad, for eksempel.
+
+00:12:41.714 --> 00:12:44.342
+Den prøver at forblive på et fast punkt i rummet.
+
+00:12:44.342 --> 00:12:48.179
+Hvis jeg prøver at flytte den væk,
+kæmper den imod mig,
+
+00:12:48.179 --> 00:12:52.334
+og flytter sig tilbage til hvor den vil være.
+
+00:12:52.334 --> 00:12:55.373
+Vi kan, dog, ændre denne adfærd.
+
+00:12:55.373 --> 00:12:57.072
+Vi kan bruge matematiske modeller
+
+00:12:57.072 --> 00:13:00.205
+til at vurdere den kraft som jeg bruger imod quaden.
+
+00:13:00.205 --> 00:13:03.443
+Når vi kender denne kraft, 
+kan vi også ændre fysikkens love,
+
+00:13:03.443 --> 00:13:07.942
+når det handler om quaden, selvfølgelig.
+
+00:13:07.942 --> 00:13:10.205
+Her opfører quaden sig som om den opholdte
+
+00:13:10.205 --> 00:13:14.570
+sig i en tyktflydende væske.
+
+00:13:14.570 --> 00:13:16.744
+Nu har vi en intim måde
+
+00:13:16.744 --> 00:13:18.593
+til at interagere med maskinen på.
+
+00:13:18.593 --> 00:13:21.099
+Jeg vil bruge denne nye evne til at positionere
+
+00:13:21.099 --> 00:13:23.676
+denne kamera bærende quad 
+til den passende placering
+
+00:13:23.676 --> 00:13:26.862
+til at filme resten af denne demonstration.
+
+00:13:36.222 --> 00:13:38.990
+Så vi kan fysisk interagere med disse quads
+
+00:13:38.990 --> 00:13:41.393
+og vi kan ændre fysikkens love.
+
+00:13:41.393 --> 00:13:43.706
+Lad os more os en smule med dette.
+
+00:13:43.706 --> 00:13:45.410
+Det I vil se næst, vil disse quads
+
+00:13:45.410 --> 00:13:48.906
+til at starte med at opføre sig 
+som om de er på Pluto.
+
+00:13:48.906 --> 00:13:51.218
+Som tiden går, vil tyngdekraften tiltage
+
+00:13:51.218 --> 00:13:53.338
+indtil vi er tilbage på planeten jorden,
+
+00:13:53.338 --> 00:13:55.057
+men jeg forsikrer jer om 
+at vi ikke kommer dertil.
+
+00:13:55.057 --> 00:13:58.558
+Okay, så starter vi.
+
+00:14:05.667 --> 00:14:09.079
+(Latter)
+
+00:14:34.778 --> 00:14:37.986
+(Latter)
+
+00:14:37.986 --> 00:14:41.372
+(Bifald)
+
+00:14:41.372 --> 00:14:42.579
+Puha!
+
+00:14:46.779 --> 00:14:48.296
+Nu tænker I allesammen,
+
+00:14:48.296 --> 00:14:50.271
+at disse gutter fornøjer sig alt for meget,
+
+00:14:50.271 --> 00:14:52.350
+og I spørger sikkert også jer selv om,
+
+00:14:52.350 --> 00:14:56.286
+hvorfor er det helt præcis at 
+de bygger maskinatleter?
+
+00:14:56.286 --> 00:14:58.938
+En formodning om rollen af leg i dyreriget
+
+00:14:58.938 --> 00:15:01.690
+er at finpudse og udvikle evner.
+
+00:15:01.690 --> 00:15:03.756
+Andre tænker at det er mere end social rolle,
+
+00:15:03.756 --> 00:15:05.430
+at det bliver brugt til at binde gruppen sammen.
+
+00:15:05.430 --> 00:15:08.963
+På samme måde bruger vi 
+analogien om sport og adræthed
+
+00:15:08.963 --> 00:15:11.042
+til at skabe nye algoritmer til maskiner
+
+00:15:11.042 --> 00:15:13.189
+til at skubbe dem til deres grænse.
+
+00:15:13.189 --> 00:15:16.866
+Hvilken betydning vil maskiners 
+hastighed have på vores levevis?
+
+00:15:16.866 --> 00:15:19.255
+Ligesom alle vores tidligere 
+opfindelser og innovationer,
+
+00:15:19.255 --> 00:15:22.082
+kan de bruges til at forbedre 
+de menneskelige forudsætninger
+
+00:15:22.082 --> 00:15:24.583
+eller de kan misbruges og mishandles.
+
+00:15:24.583 --> 00:15:26.506
+Dette er ikke et teknisk valg vi står overfor;
+
+00:15:26.506 --> 00:15:28.261
+det er et socialt valg.
+
+00:15:28.261 --> 00:15:29.651
+Lad os tage det rigtige valg,
+
+00:15:29.651 --> 00:15:32.056
+valget der frembringer det 
+bedste i maskinernes fremtid,
+
+00:15:32.056 --> 00:15:33.868
+ligesom adræthed i sport
+
+00:15:33.868 --> 00:15:36.029
+kan frembringe det bedste i os.
+
+00:15:36.029 --> 00:15:39.479
+Lad mig introducere jer for troldmændene
+bag det grønne gardin.
+
+00:15:39.479 --> 00:15:42.379
+De er nuværende medlemmer af 
+Flying machine Arena research team.
+
+00:15:42.379 --> 00:15:47.148
+(Bifald)
+
+00:15:47.148 --> 00:15:50.194
+Federico Augugliaro, Dario Brescianini , 
+Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+Sergei Lupashin, Mark Muller and Robin Ritz.
+
+00:15:53.018 --> 00:15:54.950
+Hold øje med dem. De er bestemt til store ting.
+
+00:15:54.950 --> 00:15:56.128
+Tak.
+
+00:15:56.128 --> 00:16:02.482
+(Bifald)
+

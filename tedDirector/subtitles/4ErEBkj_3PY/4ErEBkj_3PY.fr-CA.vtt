@@ -1,0 +1,1076 @@
+WEBVTT
+Kind: captions
+Language: fr-CA
+
+00:00:00.000 --> 00:00:07.000
+Translator: Mélanie Chambaretaud
+Reviewer: Iwona Chałuś (Chalus)
+
+00:00:20.260 --> 00:00:22.260
+Bonjour.
+
+00:00:22.260 --> 00:00:24.260
+Je suis ici ce matin pour parler
+
+00:00:24.260 --> 00:00:27.260
+de ballons de plages autonomes et volants.
+
+00:00:27.260 --> 00:00:31.260
+Non, d'habiles robots aériens tels que celui-ci.
+
+00:00:31.260 --> 00:00:34.260
+J'aimerais vous parler un peu des défis dans leur construction
+
+00:00:34.260 --> 00:00:36.260
+et de certaines des incroyables options
+
+00:00:36.260 --> 00:00:38.260
+d'application de cette technologie.
+
+00:00:38.260 --> 00:00:40.260
+Donc ces robots
+
+00:00:40.260 --> 00:00:43.260
+sont proches de véhicules aériens inhabités.
+
+00:00:43.260 --> 00:00:46.260
+Cependant, les véhicules que vous voyez ici sont grands.
+
+00:00:46.260 --> 00:00:48.260
+Ils pèsent des milliers de livres,
+
+00:00:48.260 --> 00:00:50.260
+et ne sont en aucune manière agiles.
+
+00:00:50.260 --> 00:00:52.260
+Ils ne sont même pas autonomes.
+
+00:00:52.260 --> 00:00:54.260
+En fait, nombre de ces véhicules
+
+00:00:54.260 --> 00:00:56.260
+sont dirigés par des équipages de vol
+
+00:00:56.260 --> 00:00:59.260
+qui peuvent compter plusieurs pilotes,
+
+00:00:59.260 --> 00:01:01.260
+responsables de capteurs
+
+00:01:01.260 --> 00:01:03.260
+et chefs de mission.
+
+00:01:03.260 --> 00:01:05.260
+Nous nous intéressons à développer des robots comme ceux-là --
+
+00:01:05.260 --> 00:01:07.260
+et voici deux autres photos
+
+00:01:07.260 --> 00:01:10.260
+de robots que vous pouvez acheter directement sur l'étagère.
+
+00:01:10.260 --> 00:01:13.260
+Donc ce sont des hélicoptères avec quatre rotors,
+
+00:01:13.260 --> 00:01:17.260
+ils font environ un mètre de large
+
+00:01:17.260 --> 00:01:19.260
+et pèsent plusieurs livres.
+
+00:01:19.260 --> 00:01:22.260
+donc nous les réduisons avec des capteurs et des processeurs
+
+00:01:22.260 --> 00:01:24.260
+et ces robots peuvent volet en intérieur.
+
+00:01:24.260 --> 00:01:26.260
+sans GPS.
+
+00:01:26.260 --> 00:01:28.260
+Le robot que je tiens dans ma main
+
+00:01:28.260 --> 00:01:30.260
+est un de ceux-là
+
+00:01:30.260 --> 00:01:33.260
+et il a été créé par deux étudiants,
+
+00:01:33.260 --> 00:01:35.260
+Alex et Daniel.
+
+00:01:35.260 --> 00:01:37.260
+Il pèse un peu plus
+
+00:01:37.260 --> 00:01:39.260
+de 45 grammes.
+
+00:01:39.260 --> 00:01:41.260
+Il consomme environ 15 watts d'électricité.
+
+00:01:41.260 --> 00:01:43.260
+Et ainsi que vous pouvez le voir,
+
+00:01:43.260 --> 00:01:45.260
+il fait à peu près 20 cm de diamètre.
+
+00:01:45.260 --> 00:01:48.260
+Laissez-moi vous donner un cours rapide
+
+00:01:48.260 --> 00:01:50.260
+sur comment ces robots fonctionnent.
+
+00:01:50.260 --> 00:01:52.260
+Il a quatre rotors.
+
+00:01:52.260 --> 00:01:54.260
+Si vous faites tourner ces rotors à la même vitesse,
+
+00:01:54.260 --> 00:01:56.260
+le robot lévite.
+
+00:01:56.260 --> 00:01:59.260
+Si vous augmentez la vitesse de chacun des rotors,
+
+00:01:59.260 --> 00:02:02.260
+le robot s'élève, il accélère vers le haut.
+
+00:02:02.260 --> 00:02:04.260
+Bien sûr, si le robot était penché,
+
+00:02:04.260 --> 00:02:06.260
+incliné à l'horizontale,
+
+00:02:06.260 --> 00:02:09.260
+alors il accélèrerait dans cette direction.
+
+00:02:09.260 --> 00:02:12.260
+Donc pour l'incliner, il y a deux façons de faire.
+
+00:02:12.260 --> 00:02:14.260
+Sur cette image
+
+00:02:14.260 --> 00:02:16.260
+vous voyez que le rotor n°4 tourne plus vite
+
+00:02:16.260 --> 00:02:18.260
+et que le rotor n°2 tourne moins vite.
+
+00:02:18.260 --> 00:02:20.260
+Quand cela arrive,
+
+00:02:20.260 --> 00:02:23.260
+vient le moment où le robot roule sur lui-même.
+
+00:02:23.260 --> 00:02:25.260
+Et dans l'autre sens,
+
+00:02:25.260 --> 00:02:28.260
+si vous accélérez le rotor n°3
+
+00:02:28.260 --> 00:02:30.260
+et décélérez le rotor n°1,
+
+00:02:30.260 --> 00:02:33.260
+le robot pique vers l'avant.
+
+00:02:33.260 --> 00:02:35.260
+Enfin,
+
+00:02:35.260 --> 00:02:37.260
+si vous faites tourner une paire de rotors opposés
+
+00:02:37.260 --> 00:02:39.260
+plus vite que l'autre paire,
+
+00:02:39.260 --> 00:02:41.260
+alors le robot fait une embardée verticale.
+
+00:02:41.260 --> 00:02:43.260
+Le processeur embarqué
+
+00:02:43.260 --> 00:02:46.260
+s'intéresse donc principalement à quels mouvements doivent être exécutés,
+
+00:02:46.260 --> 00:02:48.260
+combine ces mouvements
+
+00:02:48.260 --> 00:02:51.260
+et détermine quels ordres envoyer aux moteurs
+
+00:02:51.260 --> 00:02:53.260
+600 fois par seconde.
+
+00:02:53.260 --> 00:02:55.260
+Voilà comment ceci fonctionne, en gros.
+
+00:02:55.260 --> 00:02:57.260
+L'un des avantages de ce design
+
+00:02:57.260 --> 00:02:59.260
+c'est que, lorsqu'on réduit les choses,
+
+00:02:59.260 --> 00:03:02.260
+le robot devient naturellement plus agile.
+
+00:03:02.260 --> 00:03:04.260
+Ici, R
+
+00:03:04.260 --> 00:03:06.260
+est la longueur du robot
+
+00:03:06.260 --> 00:03:09.260
+C'est en fait la moitié du diamètre.
+
+00:03:09.260 --> 00:03:12.260
+Et de nombreux paramètres physiques changent
+
+00:03:12.260 --> 00:03:14.260
+au fur et à mesure que l'on réduit R.
+
+00:03:14.260 --> 00:03:16.260
+Le plus important
+
+00:03:16.260 --> 00:03:18.260
+est l'inertie ou la résistance au mouvement.
+
+00:03:18.260 --> 00:03:20.260
+Il apparaît
+
+00:03:20.260 --> 00:03:23.260
+que l'inertie, qui gouverne le déplacement angulaire
+
+00:03:23.260 --> 00:03:26.260
+est égale à R puissance 5.
+
+00:03:26.260 --> 00:03:28.260
+Donc plus vous réduisez R,
+
+00:03:28.260 --> 00:03:31.260
+plus l'inertie diminue vite.
+
+00:03:31.260 --> 00:03:34.260
+En résultat, l'accélération angulaire,
+
+00:03:34.260 --> 00:03:36.260
+représentée ici par la lettre grecque alpha,
+
+00:03:36.260 --> 00:03:38.260
+est 1 sur R.
+
+00:03:38.260 --> 00:03:40.260
+C'est inversement proportionnel à R.
+
+00:03:40.260 --> 00:03:43.260
+Plus R est petit, plus vite vous pouvez tourner.
+
+00:03:43.260 --> 00:03:45.260
+Ceci devrait être clair dans ces vidéos.
+
+00:03:45.260 --> 00:03:48.260
+En bas à droite, vous voyez un robot
+
+00:03:48.260 --> 00:03:50.260
+en train de faire un salto à 360°
+
+00:03:50.260 --> 00:03:52.260
+en moins d'une demi-seconde.
+
+00:03:52.260 --> 00:03:55.260
+Plusieurs saltos, un peu plus de temps.
+
+00:03:55.260 --> 00:03:57.260
+Les processeurs embarqués
+
+00:03:57.260 --> 00:03:59.260
+récupèrent des informations des accéléromètres
+
+00:03:59.260 --> 00:04:01.260
+et des gyroscopes embarqués
+
+00:04:01.260 --> 00:04:03.260
+et calculent, comme je le disais tout à l'heure,
+
+00:04:03.260 --> 00:04:05.260
+des ordres 600 fois par seconde
+
+00:04:05.260 --> 00:04:07.260
+pour stabiliser ce robot.
+
+00:04:07.260 --> 00:04:10.260
+Donc à gauche, vous voyez Daniel en train de lancer ce robot en l'air.
+
+00:04:10.260 --> 00:04:12.260
+Et il vous montre combien ce contrôle est fiable.
+
+00:04:12.260 --> 00:04:14.260
+Peu importe comment vous le lancez,
+
+00:04:14.260 --> 00:04:18.260
+le robot se rétablit et revient vers lui.
+
+00:04:18.260 --> 00:04:20.260
+Alors pourquoi construire de tels robots ?
+
+00:04:20.260 --> 00:04:23.260
+Eh bien, des robots comme ceux-ci ont de nombreuses applications.
+
+00:04:23.260 --> 00:04:26.260
+Vous pouvez les envoyer dans des bâtiments comme celui-ci
+
+00:04:26.260 --> 00:04:29.260
+comme premiers intervenants pour chercher des intrus,
+
+00:04:29.260 --> 00:04:32.260
+peut-être chercher des fuites biochimiques
+
+00:04:32.260 --> 00:04:34.260
+ou gazeuses.
+
+00:04:34.260 --> 00:04:36.260
+Vous pouvez aussi les utiliser
+
+00:04:36.260 --> 00:04:38.260
+pour des applications comme la construction.
+
+00:04:38.260 --> 00:04:42.260
+Voici des robots portant des poutres, des colonnes
+
+00:04:42.260 --> 00:04:45.260
+et assemblant des structures cubiques.
+
+00:04:45.260 --> 00:04:48.260
+Je vais vous en dire un peu plus là-dessus.
+
+00:04:48.260 --> 00:04:51.260
+Ces robots peuvent être utilisés pour du transport cargo.
+
+00:04:51.260 --> 00:04:54.260
+Un des problèmes de ces petits robots
+
+00:04:54.260 --> 00:04:56.260
+est leur faible capacité de transport.
+
+00:04:56.260 --> 00:04:58.260
+Donc on pourrait vouloir plusieurs robots
+
+00:04:58.260 --> 00:05:00.260
+portant des charges.
+
+00:05:00.260 --> 00:05:02.260
+Voici la photo d'une expérience qu'on a faite récemment --
+
+00:05:02.260 --> 00:05:04.260
+plus si récemment que ça, en fait --
+
+00:05:04.260 --> 00:05:07.260
+à Sendai, juste après le tremblement de terre.
+
+00:05:07.260 --> 00:05:10.260
+De tels robots pouvaient être envoyés dans des bâtiments effondrés
+
+00:05:10.260 --> 00:05:12.260
+pour estimer les dégâts après des catastrophes naturelles,
+
+00:05:12.260 --> 00:05:15.260
+ou envoyés dans des bâtiments irradiés
+
+00:05:15.260 --> 00:05:18.260
+pour cartographier les niveaux de radiation.
+
+00:05:19.260 --> 00:05:21.260
+Un problème fondamental
+
+00:05:21.260 --> 00:05:24.260
+que les robots doivent résoudre s'ils doivent être autonomes
+
+00:05:24.260 --> 00:05:26.260
+est principalement trouver
+
+00:05:26.260 --> 00:05:28.260
+comment se rendre d'un point A à un point B.
+
+00:05:28.260 --> 00:05:30.260
+Ceci devient un peu délicat
+
+00:05:30.260 --> 00:05:33.260
+car la dynamique de ce robot est assez compliquée.
+
+00:05:33.260 --> 00:05:35.260
+En fait, ils vivent dans un espace en 12 dimensions.
+
+00:05:35.260 --> 00:05:37.260
+Donc nous utilisons une petite astuce.
+
+00:05:37.260 --> 00:05:40.260
+Nous prenons cet espace courbe en 12 dimensions
+
+00:05:40.260 --> 00:05:42.260
+et le transformons
+
+00:05:42.260 --> 00:05:44.260
+en un espace plat en 4 dimensions.
+
+00:05:44.260 --> 00:05:46.260
+Cet espace quadri-dimensionnel
+
+00:05:46.260 --> 00:05:49.260
+se compose de X, Y, Z et de cet angle de lacet.
+
+00:05:49.260 --> 00:05:51.260
+Et ce que fait le robot
+
+00:05:51.260 --> 00:05:55.260
+est qu'il planifie ce que l'on appelle ...
+
+00:05:55.260 --> 00:05:57.260
+Pour vous rafraîchir en physique,
+
+00:05:57.260 --> 00:05:59.260
+vous avez la position, la dérivée, la vitesse,
+
+00:05:59.260 --> 00:06:01.260
+ensuite l'accélération,
+
+00:06:01.260 --> 00:06:03.260
+puis les saccades
+
+00:06:03.260 --> 00:06:05.260
+et enfin "snap".
+
+00:06:05.260 --> 00:06:08.260
+Ce robot minimise donc le "snap".
+
+00:06:08.260 --> 00:06:10.260
+Ce que cela fait concrètement
+
+00:06:10.260 --> 00:06:12.260
+est que ça produit un déplacement harmonieux et gracieux.
+
+00:06:12.260 --> 00:06:15.260
+Et ça le fait en évitant des obstacles.
+
+00:06:15.260 --> 00:06:18.260
+Ces trajectoires ... dans cet espace plat
+
+00:06:18.260 --> 00:06:20.260
+sont alors retranscrites
+
+00:06:20.260 --> 00:06:22.260
+dans ce complexe espace dodéca-dimensionnel
+
+00:06:22.260 --> 00:06:24.260
+ce que le robot doit faire
+
+00:06:24.260 --> 00:06:26.260
+pour le contrôle et aussi l'exécution.
+
+00:06:26.260 --> 00:06:28.260
+Laissez moi vous montrer quelques exemples
+
+00:06:28.260 --> 00:06:30.260
+de ce à quoi ces trajectoires ... ressemblent.
+
+00:06:30.260 --> 00:06:32.260
+Dans la première vidéo,
+
+00:06:32.260 --> 00:06:34.260
+vous allez voir le robot aller d'un point A à un point B
+
+00:06:34.260 --> 00:06:36.260
+en passant par un point intermédiaire.
+
+00:06:42.260 --> 00:06:44.260
+Le robot est manifestement capable
+
+00:06:44.260 --> 00:06:46.260
+d'exécuter n'importer quelle trajectoire en courbe.
+
+00:06:46.260 --> 00:06:48.260
+Ceci sont des trajectoires circulaires
+
+00:06:48.260 --> 00:06:51.260
+dans lesquelles le robot soutient environ deux G.
+
+00:06:52.260 --> 00:06:56.260
+Ici, il y a des caméras de capture de mouvement sur le dessus du robot
+
+00:06:56.260 --> 00:06:59.260
+qui lui dit où il se trouve 100 fois par seconde.
+
+00:06:59.260 --> 00:07:02.260
+Elles lui signalent également où se trouvent les obstacles.
+
+00:07:02.260 --> 00:07:04.260
+Et les obstacles peuvent être mobiles.
+
+00:07:04.260 --> 00:07:07.260
+Ici, vous voyez Daniel lancer ce cerceau en l'air,
+
+00:07:07.260 --> 00:07:09.260
+alors que le robot recalcule la position du cerceau
+
+00:07:09.260 --> 00:07:13.260
+et décide comment au mieux passer dans le cerceau.
+
+00:07:13.260 --> 00:07:15.260
+En tant qu'universitaire,
+
+00:07:15.260 --> 00:07:18.260
+nous sommes formés à sauter à travers des cerceaux pour lever des fonds pour nos laboratoires
+
+00:07:18.260 --> 00:07:21.260
+et nous faisons faire la même chose à nos robots.
+
+00:07:21.260 --> 00:07:27.260
+(Applaudissements)
+
+00:07:27.260 --> 00:07:29.260
+Une autre chose que le robot peut faire
+
+00:07:29.260 --> 00:07:32.260
+est de se souvenir de sections de trajectoires
+
+00:07:32.260 --> 00:07:34.260
+qu'il apprend ou qui sont pré-programmées.
+
+00:07:34.260 --> 00:07:36.260
+Ici vous voyez le robot
+
+00:07:36.260 --> 00:07:38.260
+combiner un mouvement
+
+00:07:38.260 --> 00:07:40.260
+qui génère un élan
+
+00:07:40.260 --> 00:07:43.260
+et change son orientation et ensuite récupérer.
+
+00:07:43.260 --> 00:07:46.260
+Il doit faire cela car le trou dans la fenêtre
+
+00:07:46.260 --> 00:07:50.260
+n'est que légèrement plus grand que la largeur du robot.
+
+00:07:50.260 --> 00:07:53.260
+Donc en fait, le plongeur saute d'un plongeoir
+
+00:07:53.260 --> 00:07:55.260
+afin de gagner de l'élan
+
+00:07:55.260 --> 00:07:58.260
+avant de faire sa pirouette, ce double saut périlleux,
+
+00:07:58.260 --> 00:08:00.260
+et ensuite se rétablit gracieusement,
+
+00:08:00.260 --> 00:08:02.260
+et le robot fait la même chose.
+
+00:08:02.260 --> 00:08:05.260
+Donc il sait comment réunir de petits bouts de trajectoires
+
+00:08:05.260 --> 00:08:09.260
+pour faire ces tâches assez difficiles.
+
+00:08:09.260 --> 00:08:11.260
+Donc il faut changer de vitesse.
+
+00:08:11.260 --> 00:08:14.260
+L'un des inconvénients de ces petits robots est leur taille.
+
+00:08:14.260 --> 00:08:16.260
+Comme je vous le disais plus tôt,
+
+00:08:16.260 --> 00:08:18.260
+on pourrait envisager d'utiliser beaucoup de robots
+
+00:08:18.260 --> 00:08:21.260
+pour compenser les limitations de leur taille.
+
+00:08:21.260 --> 00:08:23.260
+Donc une difficulté
+
+00:08:23.260 --> 00:08:26.260
+est dans comment coordonner ces nombreux robots ?
+
+00:08:26.260 --> 00:08:28.260
+Nous nous sommes tournés vers la nature.
+
+00:08:28.260 --> 00:08:30.260
+Je voudrais vous montrer une vidéo
+
+00:08:30.260 --> 00:08:32.260
+des fourmis du désert Aphaenogaster
+
+00:08:32.260 --> 00:08:35.260
+portant un objet au laboratoire du Docteur Stephen Pratt.
+
+00:08:35.260 --> 00:08:37.260
+Il s'agit en fait d'un morceau de figue.
+
+00:08:37.260 --> 00:08:39.260
+Si vous prenez n'importe quel objet et que vous le couvrez de jus de figue,
+
+00:08:39.260 --> 00:08:42.260
+les fourmis vont l'emporter au nid.
+
+00:08:42.260 --> 00:08:45.260
+Ces fourmis n'ont pas de coordination centrale.
+
+00:08:45.260 --> 00:08:47.260
+Elles perçoivent leurs voisines.
+
+00:08:47.260 --> 00:08:49.260
+Il n'y a pas de communication explicite.
+
+00:08:49.260 --> 00:08:51.260
+Mais comme elles perçoivent leurs voisines
+
+00:08:51.260 --> 00:08:53.260
+ainsi que l'objet
+
+00:08:53.260 --> 00:08:56.260
+elles ont une coordination implicite parmi le groupe.
+
+00:08:56.260 --> 00:08:58.260
+C'est le type de coordination
+
+00:08:58.260 --> 00:09:01.260
+que nous souhaitons que nos robots aient.
+
+00:09:01.260 --> 00:09:03.260
+Donc notre robot
+
+00:09:03.260 --> 00:09:05.260
+est entouré de ses voisins --
+
+00:09:05.260 --> 00:09:07.260
+regardons les robots I et J --
+
+00:09:07.260 --> 00:09:09.260
+ce que nous voulons des robots
+
+00:09:09.260 --> 00:09:12.260
+c'est qu'ils gèrent l'espace entre eux
+
+00:09:12.260 --> 00:09:14.260
+alors qu'ils volent en formation.
+
+00:09:14.260 --> 00:09:16.260
+Ensuite, il faut s'assurer
+
+00:09:16.260 --> 00:09:18.260
+que la taille de cet écart est acceptable.
+
+00:09:18.260 --> 00:09:21.260
+Le robot suit cet écart
+
+00:09:21.260 --> 00:09:23.260
+et calcule les commandes
+
+00:09:23.260 --> 00:09:25.260
+100 fois par seconde,
+
+00:09:25.260 --> 00:09:28.260
+ce qui se transforme en ordres aux rotors 600 fois par seconde.
+
+00:09:28.260 --> 00:09:30.260
+Cela aussi doit être fait
+
+00:09:30.260 --> 00:09:32.260
+de façon décentralisée.
+
+00:09:32.260 --> 00:09:34.260
+Encore une fois, si vous avez de très nombreux robots,
+
+00:09:34.260 --> 00:09:38.260
+il est impossible de coordonner cette information centralement
+
+00:09:38.260 --> 00:09:41.260
+assez vite pour que les robots accomplissent leurs tâches.
+
+00:09:41.260 --> 00:09:43.260
+De plus, les robots doivent baser leurs actions
+
+00:09:43.260 --> 00:09:45.260
+uniquement sur des informations locales,
+
+00:09:45.260 --> 00:09:47.260
+ce qu'ils perçoivent de leurs voisins.
+
+00:09:47.260 --> 00:09:49.260
+Enfin,
+
+00:09:49.260 --> 00:09:51.260
+nous pensons qu'il est nécessaire que les robots ignorent
+
+00:09:51.260 --> 00:09:53.260
+qui leurs voisins sont.
+
+00:09:53.260 --> 00:09:56.260
+On appelle cela anonymat.
+
+00:09:56.260 --> 00:09:58.260
+Je voudrais maintenant vous montrer
+
+00:09:58.260 --> 00:10:00.260
+une vidéo
+
+00:10:00.260 --> 00:10:03.260
+de 20 de ces petits robots
+
+00:10:03.260 --> 00:10:05.260
+volant en formation.
+
+00:10:05.260 --> 00:10:08.260
+Ils suivent la position de leurs voisins.
+
+00:10:08.260 --> 00:10:10.260
+Ils maintiennent la formation.
+
+00:10:10.260 --> 00:10:12.260
+Les formations peuvent changer.
+
+00:10:12.260 --> 00:10:14.260
+Cela peut être des formations planes
+
+00:10:14.260 --> 00:10:16.260
+ou en 3D.
+
+00:10:16.260 --> 00:10:18.260
+Comme vous le voyez ici,
+
+00:10:18.260 --> 00:10:21.260
+ils passent d'une formation en 3D à une formation en 2D.
+
+00:10:21.260 --> 00:10:23.260
+Et pour voler au travers d'obstacles,
+
+00:10:23.260 --> 00:10:27.260
+ils peuvent adapter la formation au cours du vol.
+
+00:10:27.260 --> 00:10:30.260
+Une fois de plus, ces robots peuvent vraiment se rapprocher les uns des autres.
+
+00:10:30.260 --> 00:10:32.260
+Comme vous le voyez avec ce huit de chiffre,
+
+00:10:32.260 --> 00:10:34.260
+il s'approchent à quelques centimètres les uns des autres.
+
+00:10:34.260 --> 00:10:37.260
+Malgré les interactions aérodynamiques
+
+00:10:37.260 --> 00:10:39.260
+de ces pales
+
+00:10:39.260 --> 00:10:41.260
+ils arrivent à maintenir un vol stable.
+
+00:10:41.260 --> 00:10:48.260
+(Applaudissements)
+
+00:10:48.260 --> 00:10:50.260
+Une fois que vous savez comment voler en formation,
+
+00:10:50.260 --> 00:10:52.260
+vous pouvez en fait soulever des objets en commun.
+
+00:10:52.260 --> 00:10:54.260
+Cela montre simplement
+
+00:10:54.260 --> 00:10:57.260
+que vous pouvez doubler, tripler, quadrupler
+
+00:10:57.260 --> 00:10:59.260
+la force du robot
+
+00:10:59.260 --> 00:11:01.260
+simplement en les regroupant en équipes, comme ici.
+
+00:11:01.260 --> 00:11:04.260
+Un des avantages de cela
+
+00:11:04.260 --> 00:11:06.260
+est que, à mesure que vous augmentez les proportions --
+
+00:11:06.260 --> 00:11:08.260
+si vous avez plus de robots portant la même chose,
+
+00:11:08.260 --> 00:11:11.260
+vous augmentez surtout l'inertie
+
+00:11:11.260 --> 00:11:14.260
+et pour cela vous payez le prix : ils ne sont plus aussi agiles.
+
+00:11:14.260 --> 00:11:17.260
+Mais vous y gagnez en termes de capacité de chargement.
+
+00:11:17.260 --> 00:11:19.260
+Une autre application que je veux vous montrer --
+
+00:11:19.260 --> 00:11:21.260
+à nouveau, c'est dans notre labo.
+
+00:11:21.260 --> 00:11:23.260
+Ce travail est fait par Quentin Lindsey qui est un doctorant.
+
+00:11:23.260 --> 00:11:26.260
+En gros, son algorythme dit aux robots
+
+00:11:26.260 --> 00:11:28.260
+comment construire en autonomie
+
+00:11:28.260 --> 00:11:30.260
+des structures cubiques
+
+00:11:30.260 --> 00:11:33.260
+avec des éléments en forme de bottes.
+
+00:11:33.260 --> 00:11:35.260
+L'algorythme dit au robot
+
+00:11:35.260 --> 00:11:37.260
+quel élément prendre,
+
+00:11:37.260 --> 00:11:39.260
+quand et où le placer.
+
+00:11:39.260 --> 00:11:41.260
+Sur cette vidéo, vous voyez --
+
+00:11:41.260 --> 00:11:43.260
+et c'est accéléré 10, 14 fois --
+
+00:11:43.260 --> 00:11:46.260
+vous voyez différentes structures construites par ces robots.
+
+00:11:46.260 --> 00:11:48.260
+Encore une fois, tout est autonome,
+
+00:11:48.260 --> 00:11:50.260
+et tout ce que Quentin a à faire
+
+00:11:50.260 --> 00:11:52.260
+est de leur donner un plan
+
+00:11:52.260 --> 00:11:56.260
+de l'architecture qu'il souhaite construire.
+
+00:11:56.260 --> 00:11:59.260
+Toutes les expériences que vous avez vues jusqu'à présent,
+
+00:11:59.260 --> 00:12:01.260
+toutes les démonstrations,
+
+00:12:01.260 --> 00:12:04.260
+ont été faites avec l'aide de systèmes de capture de mouvement.
+
+00:12:04.260 --> 00:12:06.260
+Que se passe-t'il quand vous quittez votre labo
+
+00:12:06.260 --> 00:12:09.260
+et allez dans le monde extérieur ?
+
+00:12:09.260 --> 00:12:12.260
+Et que se passe-t'il s'il n'y a pas de GPS ?
+
+00:12:12.260 --> 00:12:14.260
+Ce robot
+
+00:12:14.260 --> 00:12:16.260
+est en fait équipé d'une caméra,
+
+00:12:16.260 --> 00:12:19.260
+d'un laser télémétrique et d'un scanner laser.
+
+00:12:19.260 --> 00:12:21.260
+Et il utilise ces capteurs
+
+00:12:21.260 --> 00:12:23.260
+pour dessiner une carte de son environnement.
+
+00:12:23.260 --> 00:12:26.260
+Cette carte consiste en des élements --
+
+00:12:26.260 --> 00:12:28.260
+comme des portes, des fenêtres,
+
+00:12:28.260 --> 00:12:30.260
+des gens, des meubles --
+
+00:12:30.260 --> 00:12:32.260
+et ensuite, le robot détermine où il se trouve
+
+00:12:32.260 --> 00:12:34.260
+par rapport à ces éléments.
+
+00:12:34.260 --> 00:12:36.260
+Donc il n'y a pas de système central de coordination.
+
+00:12:36.260 --> 00:12:39.260
+Le système de coordination est défini en fonction du robot,
+
+00:12:39.260 --> 00:12:42.260
+où il se trouve et ce à quoi il s'intéresse.
+
+00:12:42.260 --> 00:12:45.260
+Et il s'oriente en fonction de ces éléments.
+
+00:12:45.260 --> 00:12:47.260
+Je voudrais vous montrer une vidéo
+
+00:12:47.260 --> 00:12:49.260
+d'algorithmes développés par Frank Shen
+
+00:12:49.260 --> 00:12:51.260
+et le Docteur Nathan Michael
+
+00:12:51.260 --> 00:12:55.260
+qui montre ce robot entrant dans un bâtiment pour la toute première fois
+
+00:12:55.260 --> 00:12:58.260
+et créant la carte au fil de son vol.
+
+00:12:58.260 --> 00:13:01.260
+Le robot détermine ce que sont les éléments.
+
+00:13:01.260 --> 00:13:03.260
+Il dessine la carte.
+
+00:13:03.260 --> 00:13:05.260
+Il détermine où il se trouve par rapport aux éléments
+
+00:13:05.260 --> 00:13:07.260
+et ensuite calcule sa position
+
+00:13:07.260 --> 00:13:09.260
+100 fois par seconde
+
+00:13:09.260 --> 00:13:11.260
+nous permettant d'utiliser les algorithmes de contrôle
+
+00:13:11.260 --> 00:13:13.260
+que je vous ai décrit plus tôt.
+
+00:13:13.260 --> 00:13:15.260
+Ce robot est en fait commandé
+
+00:13:15.260 --> 00:13:17.260
+à distance par Frank.
+
+00:13:17.260 --> 00:13:19.260
+Mais le robot peut aussi décider
+
+00:13:19.260 --> 00:13:21.260
+par lui même où aller.
+
+00:13:21.260 --> 00:13:23.260
+Imaginons que j'envoie ceci dans ce bâtiment
+
+00:13:23.260 --> 00:13:25.260
+et que je n'aie aucune idée de ce à quoi peut ressembler le bâtiment,
+
+00:13:25.260 --> 00:13:27.260
+je peux demander au robot d'entrer,
+
+00:13:27.260 --> 00:13:29.260
+de dessiner une carte
+
+00:13:29.260 --> 00:13:32.260
+et ensuite de revenir me dire à quoi ressemble le bâtiment.
+
+00:13:32.260 --> 00:13:35.260
+Ici, le robot ne résoud pas seulement le problème
+
+00:13:35.260 --> 00:13:38.260
+de comment aller d'un point A à un point B dans cette carte,
+
+00:13:38.260 --> 00:13:40.260
+mais il détermine aussi
+
+00:13:40.260 --> 00:13:42.260
+à chaque instant quel est le meilleur point B.
+
+00:13:42.260 --> 00:13:45.260
+En bref, il sait où aller
+
+00:13:45.260 --> 00:13:47.260
+pour trouver les endroits sur lesquels il a le moins d'information.
+
+00:13:47.260 --> 00:13:50.260
+Et c'est ainsi qu'il remplit sa carte.
+
+00:13:50.260 --> 00:13:52.260
+Je voudrais vous laisser
+
+00:13:52.260 --> 00:13:54.260
+avec une dernière application.
+
+00:13:54.260 --> 00:13:57.260
+Il y a de nombreuses applications pour cette technologie.
+
+00:13:57.260 --> 00:13:59.260
+Je suis un universitaire, et nous sommes véhéments en ce qui concerne l'éducation.
+
+00:13:59.260 --> 00:14:01.260
+De tels robots peuvent vraiment changer
+
+00:14:01.260 --> 00:14:03.260
+la façon dont nous faisons "K par 12" dans l'éducation.
+
+00:14:03.260 --> 00:14:05.260
+Mais nous sommes en Californie du Sud,
+
+00:14:05.260 --> 00:14:07.260
+près de Los Angeles,
+
+00:14:07.260 --> 00:14:09.260
+donc il me faut conclure
+
+00:14:09.260 --> 00:14:11.260
+sur quelque chose de lié à l'amusement.
+
+00:14:11.260 --> 00:14:13.260
+Je souhaite donc finir avec une vidéo de musique.
+
+00:14:13.260 --> 00:14:16.260
+Je voudrais vous présenter les créateurs, Alex et Daniel,
+
+00:14:16.260 --> 00:14:18.260
+qui ont fait cette vidéo.
+
+00:14:18.260 --> 00:14:25.260
+(Applaudissements)
+
+00:14:25.260 --> 00:14:27.260
+Avant de lancer cette vidéo,
+
+00:14:27.260 --> 00:14:30.260
+je voudrais vous dire qu'ils l'ont montée ces 3 derniers jours
+
+00:14:30.260 --> 00:14:32.260
+après qu'ils aient eu Chris au téléphone.
+
+00:14:32.260 --> 00:14:34.260
+Et les robots que vous verrez
+
+00:14:34.260 --> 00:14:36.260
+sont totalement autonomes.
+
+00:14:36.260 --> 00:14:39.260
+Vous verrez 9 robots jouer de 6 instruments différents.
+
+00:14:39.260 --> 00:14:43.260
+Et bien sûr, c'est fait exclusivement pour TED 2012.
+
+00:14:43.260 --> 00:14:46.260
+Regardons.
+
+00:15:19.260 --> 00:15:29.260
+(Musique)
+
+00:16:23.260 --> 00:16:40.260
+(Applaudissements)
+

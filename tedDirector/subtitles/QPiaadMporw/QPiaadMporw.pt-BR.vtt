@@ -1,0 +1,902 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:15.260
+Tradutor: Raissa Mendes
+Revisor: Rudi Feijó
+
+00:00:15.752 --> 00:00:20.602
+Eu vou falar um pouco sobre segurança de código aberto,
+
+00:00:20.602 --> 00:00:22.626
+pois nós precisamos melhorar em segurança
+
+00:00:22.626 --> 00:00:24.646
+neste século XXI.
+
+00:00:24.646 --> 00:00:29.333
+Deixe-me começar olhando em retrospectiva para o século XX,
+
+00:00:29.333 --> 00:00:33.002
+para termos uma noção de como aquele modelo de segurança
+
+00:00:33.002 --> 00:00:34.480
+funcionou para nós.
+
+00:00:34.480 --> 00:00:37.772
+Este é Verdun, um campo de batalha na França,
+
+00:00:37.772 --> 00:00:41.089
+bem ao norte do quartel-general da OTAN na Bélgica.
+
+00:00:41.089 --> 00:00:47.705
+Em Verdun, em 1916, num período de 300 dias,
+
+00:00:47.705 --> 00:00:50.833
+700.000 pessoas foram mortas,
+
+00:00:50.833 --> 00:00:52.892
+aproximadamente 2.000 pessoas por dia.
+
+00:00:52.892 --> 00:00:57.220
+Se avançarmos no tempo a questão da segurança no século XX,
+
+00:00:57.220 --> 00:01:00.123
+até a Segunda Guerra Mundial,
+
+00:01:00.123 --> 00:01:02.605
+podemos ver a Batalha de Stalingrado,
+
+00:01:02.605 --> 00:01:06.173
+300 dias, 2 milhões de pessoas mortas.
+
+00:01:06.173 --> 00:01:08.959
+Entramos na Guerra Fria e continuamos
+
+00:01:08.959 --> 00:01:11.738
+a construir muros.
+
+00:01:11.738 --> 00:01:15.790
+Nós fomos da guerra de trincheira da Primeira Guerra Mundial
+
+00:01:15.790 --> 00:01:19.369
+para a Linha Maginot da Segunda Guerra Mundial,
+
+00:01:19.369 --> 00:01:21.798
+e então entramos na Guerra Fria,
+
+00:01:21.798 --> 00:01:24.736
+a Cortina de Ferro, o Muro de Berlim.
+
+00:01:24.736 --> 00:01:26.963
+Muros não funcionam.
+
+00:01:26.963 --> 00:01:31.295
+Minha tese para nós hoje é que, em vez de construir muros
+
+00:01:31.295 --> 00:01:34.951
+para nos sentirmos seguros, nós precisamos construir pontes.
+
+00:01:34.951 --> 00:01:37.375
+Esta é uma ponte famosa na Europa.
+
+00:01:37.375 --> 00:01:39.497
+Fica na Bósnia-Herzegovina.
+
+00:01:39.497 --> 00:01:41.736
+É a ponte sobre o rio Drina,
+
+00:01:41.736 --> 00:01:44.562
+tema de um romance de Ivo Andrić,
+
+00:01:44.562 --> 00:01:46.320
+que conta como
+
+00:01:46.320 --> 00:01:50.186
+naquela parte tão tumultuada da Europa e dos Bálcãs,
+
+00:01:50.186 --> 00:01:54.329
+houve, ao longo do tempo, uma construção enorme de muros.
+
+00:01:54.329 --> 00:01:57.420
+Mais recentemente, na última década, começamos a ver
+
+00:01:57.420 --> 00:02:01.110
+essas comunidades começarem, ainda de forma hesitante,
+
+00:02:01.110 --> 00:02:02.663
+a se unir.
+
+00:02:02.663 --> 00:02:06.836
+Eu diria, mais uma vez, que a segurança de código aberto
+
+00:02:06.836 --> 00:02:09.672
+consiste em conectar o internacional,
+
+00:02:09.672 --> 00:02:13.419
+o interinstitucional, o público privado,
+
+00:02:13.419 --> 00:02:17.184
+e conjugar isso tudo por meio da comunicação estratégica,
+
+00:02:17.184 --> 00:02:19.652
+principalmente nas redes sociais.
+
+00:02:19.652 --> 00:02:24.017
+Então deixem-me falar um pouco sobre por que precisamos fazer isso.
+
+00:02:24.017 --> 00:02:27.764
+É porque nosso patrimônio mundial está sob diferentes
+
+00:02:27.764 --> 00:02:29.747
+formas de ataque,
+
+00:02:29.747 --> 00:02:33.513
+e nenhuma das fontes de ameaça ao patrimônio mundial
+
+00:02:33.513 --> 00:02:36.342
+será enfrentada com a construção de muros.
+
+00:02:36.342 --> 00:02:38.648
+Bem, eu sou um marinheiro, é óbvio.
+
+00:02:38.648 --> 00:02:43.257
+Este é um navio, um transatlântico, singrando pelo Oceano Índico.
+
+00:02:43.257 --> 00:02:45.878
+O que há de errado com esta foto?
+
+00:02:45.878 --> 00:02:49.389
+O navio tem arame farpado nas suas laterais.
+
+00:02:49.389 --> 00:02:52.145
+É para prevenir ataques de piratas.
+
+00:02:52.145 --> 00:02:55.252
+A pirataria é uma ameaça bastante ativa nos dias de hoje
+
+00:02:55.252 --> 00:02:58.581
+em todo o mundo. Este é o Oceano Índico.
+
+00:02:58.581 --> 00:03:02.372
+A pirataria é muito ativa também no Estreito de Málaga.
+
+00:03:02.372 --> 00:03:04.448
+É ativa no Golfo da Guiné.
+
+00:03:04.448 --> 00:03:06.205
+Acontece também no Caribe.
+
+00:03:06.205 --> 00:03:08.992
+Representa um prejuízo de 10 bilhões de dólares por ano
+
+00:03:08.992 --> 00:03:12.558
+no sistema de transporte mundial.
+
+00:03:12.558 --> 00:03:16.013
+Ano passado, nessa mesma época, havia 20 embarcações
+
+00:03:16.013 --> 00:03:18.600
+e 500 marinheiros feitos reféns.
+
+00:03:18.600 --> 00:03:22.223
+Isso é um ataque ao patrimônio mundial.
+
+00:03:22.223 --> 00:03:25.009
+Precisamos achar uma forma de combatê-la.
+
+00:03:25.009 --> 00:03:27.459
+Vamos falar agora de um tipo diferente de oceano,
+
+00:03:27.459 --> 00:03:29.837
+O ciberoceano.
+
+00:03:29.837 --> 00:03:33.074
+Aqui estão as fotos de dois jovens.
+
+00:03:33.074 --> 00:03:35.471
+No momento, eles estão presos.
+
+00:03:35.471 --> 00:03:40.950
+Eles cometeram uma fraude com cartão de crédito que rendeu a eles
+
+00:03:40.950 --> 00:03:44.270
+mais de 10 bilhões de dólares.
+
+00:03:44.270 --> 00:03:49.296
+Isso faz parte da criminalidade cibernética, que causa um rombo
+
+00:03:49.296 --> 00:03:52.322
+de 2 trilhões de dólares por ano na economia mundial.
+
+00:03:52.322 --> 00:03:53.668
+Dois trilhões de dólares por ano.
+
+00:03:53.668 --> 00:03:57.130
+O que corresponde a um pouco menos que o PIB da Grã-Bretanha.
+
+00:03:57.130 --> 00:04:00.057
+Então, esse ciberoceano, que conhecemos tão bem,
+
+00:04:00.057 --> 00:04:04.053
+é a peça chave da transparência radical,
+
+00:04:04.053 --> 00:04:08.583
+e está bastante ameaçado também.
+
+00:04:08.583 --> 00:04:11.606
+Outra coisa que me preocupa sobre o patrimônio mundial
+
+00:04:11.606 --> 00:04:14.366
+é a ameaça representada pelo tráfico,
+
+00:04:14.366 --> 00:04:18.900
+pelo tráfico de narcóticos, de ópio
+
+00:04:18.900 --> 00:04:22.264
+que vem do Afeganistão através da Europa
+
+00:04:22.264 --> 00:04:23.674
+até os Estados Unidos.
+
+00:04:23.674 --> 00:04:25.831
+Nós nos preocupamos com a cocaína
+
+00:04:25.831 --> 00:04:28.216
+que vem do norte da Cordilheira dos Andes.
+
+00:04:28.216 --> 00:04:31.434
+Nós nos preocupamos com a comércio de armas ilegais
+
+00:04:31.434 --> 00:04:33.853
+e com o tráfico. Talvez, mais que tudo,
+
+00:04:33.853 --> 00:04:37.824
+nós nos preocupamos com o tráfico humano e seu terrível custo.
+
+00:04:37.824 --> 00:04:40.479
+O tráfico se move principalmente no mar,
+
+00:04:40.479 --> 00:04:42.966
+mas também em outras partes do patrimônio mundial.
+
+00:04:42.966 --> 00:04:47.579
+Esta é uma foto, e quem dera eu pudesse dizer
+
+00:04:47.579 --> 00:04:52.451
+que este é um equipamento de alta tecnologia da Marinha americana
+
+00:04:52.451 --> 00:04:55.140
+que estamos usando para deter o tráfico.
+
+00:04:55.140 --> 00:04:56.940
+A má notícia é que
+
+00:04:56.940 --> 00:05:02.565
+isto é um semi-submersível comandado pelos cartéis de droga.
+
+00:05:02.565 --> 00:05:06.738
+Ele foi construído nas selvas da América do Sul.
+
+00:05:06.738 --> 00:05:11.600
+Nós capturamos ele com aquele bote de tecnologia barata — (Risos) —
+
+00:05:11.600 --> 00:05:15.482
+e ele estava transportando seis toneladas de cocaína.
+
+00:05:15.482 --> 00:05:19.953
+Tripulação de quatro. Sistema de varredura de comunicação sofisticado.
+
+00:05:19.953 --> 00:05:25.015
+Esse tipo de tráfico, de narcóticos, de humanos, de armas e,
+
+00:05:25.015 --> 00:05:27.920
+Deus nos livre, de armas de destruição em massa,
+
+00:05:27.920 --> 00:05:30.809
+é parte da ameaça ao patrimônio mundial.
+
+00:05:30.809 --> 00:05:34.963
+E vamos dar uma olhada no Afeganistão hoje.
+
+00:05:34.963 --> 00:05:37.709
+Este é um campo de papoulas no Afeganistão.
+
+00:05:37.709 --> 00:05:41.017
+Entre 80 e 90 por cento da papoula do mundo,
+
+00:05:41.017 --> 00:05:44.336
+ópio e heroína vêm do Afeganistão.
+
+00:05:44.336 --> 00:05:47.115
+Nós também temos lá, é claro, o terrorismo.
+
+00:05:47.115 --> 00:05:49.417
+Aqui é a base da al Qaeda.
+
+00:05:49.417 --> 00:05:54.023
+Nós também vemos uma forte insurgência enraizada aí.
+
+00:05:54.023 --> 00:05:57.803
+Assim, a preocupação com o terrorismo também é parte
+
+00:05:57.803 --> 00:06:01.876
+da preocupação com o patrimônio mundial, e nós temos de enfrentá-lo.
+
+00:06:01.876 --> 00:06:05.189
+Então aqui estamos nós, século XXI.
+
+00:06:05.189 --> 00:06:08.908
+A gente sabe que nossas ferramentas do século XX não funcionam mais.
+
+00:06:08.908 --> 00:06:11.473
+Então, o que devemos fazer?
+
+00:06:11.473 --> 00:06:16.238
+Eu diria que nós não vamos garantir a segurança
+
+00:06:16.238 --> 00:06:18.691
+exclusivamente com o cano de uma espingarda.
+
+00:06:18.691 --> 00:06:22.854
+Nós não vamos garantir a segurança exclusivamente com o cano de uma espingarda.
+
+00:06:22.854 --> 00:06:25.757
+Nós vamos precisar de usar força militar.
+
+00:06:25.757 --> 00:06:28.851
+Quando fizermos isso, nós temos de fazer direito, e de forma competente.
+
+00:06:28.851 --> 00:06:35.016
+Mas minha tese é que a segurança de código aberto tem a ver com o internacional,
+
+00:06:35.016 --> 00:06:39.551
+o interinstitucional, o público-privado, articulados
+
+00:06:39.551 --> 00:06:45.840
+por essa ideia de comunicação estratégica na internet.
+
+00:06:45.840 --> 00:06:49.401
+Deixe-me dar a vocês alguns exemplos de como isso funciona de forma positiva.
+
+00:06:49.401 --> 00:06:53.872
+Este é o Afeganistão. Estes são soldados afegãos.
+
+00:06:53.872 --> 00:06:56.190
+Todos eles estão segurando um livro.
+
+00:06:56.190 --> 00:07:00.994
+Vocês devem estar pensando: "Que estranho. Eu acho que já li
+
+00:07:00.994 --> 00:07:04.490
+alguma estatística dizendo que, no Afeganistão, os jovens, homens
+
+00:07:04.490 --> 00:07:09.459
+e mulheres com idade entre 20 e 30 anos, seriam em sua maioria analfabetos".
+
+00:07:09.459 --> 00:07:11.200
+Vocês estariam corretos.
+
+00:07:11.200 --> 00:07:13.397
+Oitenta e cinco por cento deles não sabem ler
+
+00:07:13.397 --> 00:07:16.457
+quando entram para as forças de segurança do Afeganistão.
+
+00:07:16.457 --> 00:07:19.604
+Por quê? Porque o Talibã lhes negou educação
+
+00:07:19.604 --> 00:07:22.888
+na época em que esses homens e mulheres
+
+00:07:22.888 --> 00:07:24.279
+deveriam ter aprendido a ler.
+
+00:07:24.279 --> 00:07:26.022
+Então, a pergunta é:
+
+00:07:26.022 --> 00:07:29.363
+por que eles estão todos ali em pé com um livro na mão?
+
+00:07:29.363 --> 00:07:33.056
+A resposta é: nós estamos ensinando eles a ler
+
+00:07:33.056 --> 00:07:36.424
+em cursos de alfabetização ministrados pela OTAN
+
+00:07:36.424 --> 00:07:39.919
+em parceria com entidades do setor privado,
+
+00:07:39.919 --> 00:07:43.306
+em parceria com órgãos de desenvolvimento.
+
+00:07:43.306 --> 00:07:47.767
+Nós ensinamos a bem mais que 200.000 afegãos das forças de segurança
+
+00:07:47.767 --> 00:07:50.315
+a ler e a escrever num nível básico.
+
+00:07:50.315 --> 00:07:53.098
+Quando se sabe ler e escrever no Afeganistão,
+
+00:07:53.098 --> 00:07:56.237
+tradicionalmente se põe uma caneta no bolso.
+
+00:07:56.237 --> 00:07:58.825
+Nas cerimônias, quando esses jovens homens e mulheres
+
+00:07:58.825 --> 00:08:02.369
+se formam, eles carregam aquela caneta com um orgulho imenso,
+
+00:08:02.369 --> 00:08:04.469
+e a colocam no bolso.
+
+00:08:04.469 --> 00:08:07.411
+Isso é juntar o internacional
+
+00:08:07.411 --> 00:08:10.257
+— existem 50 nações envolvidas nessa missão —,
+
+00:08:10.257 --> 00:08:13.103
+o interinstitucional — esses órgãos de desenvolvimento —
+
+00:08:13.103 --> 00:08:17.193
+e o público-privado, para dar conta desse tipo de segurança.
+
+00:08:17.193 --> 00:08:20.827
+Bem, nós também ensinamos técnicas de combate, é claro,
+
+00:08:20.827 --> 00:08:23.595
+mas eu ponderaria que segurança de código aberto
+
+00:08:23.595 --> 00:08:26.279
+significa conectar de modo a criar
+
+00:08:26.279 --> 00:08:29.131
+efeito de segurança a longo prazo.
+
+00:08:29.131 --> 00:08:31.431
+Eis aqui um outro exemplo.
+
+00:08:31.431 --> 00:08:34.870
+Este é um navio de guerra americano.
+
+00:08:34.870 --> 00:08:36.789
+O nome dele é Comfort (Conforto).
+
+00:08:36.789 --> 00:08:39.526
+Existe um navio irmão chamado Mercy (Misericórdia).
+
+00:08:39.526 --> 00:08:41.661
+Eles são navios-hospital.
+
+00:08:41.661 --> 00:08:43.743
+Este aqui, o Comfort, opera
+
+00:08:43.743 --> 00:08:47.354
+no Caribe e na costa atlântica da América do Sul
+
+00:08:47.354 --> 00:08:49.342
+tratando de pacientes.
+
+00:08:49.342 --> 00:08:54.083
+Numa missão típica, eles cuidam de 400.000 pacientes.
+
+00:08:54.083 --> 00:08:57.874
+É tripulado não apenas com militares,
+
+00:08:57.874 --> 00:09:01.778
+mas com uma combinação de organizações humanitárias:
+
+00:09:01.778 --> 00:09:05.046
+"Operação Esperança", "Projeto Sorriso".
+
+00:09:05.046 --> 00:09:08.632
+Outras organizações enviam voluntários.
+
+00:09:08.632 --> 00:09:10.887
+Médicos interinstitucionais participam.
+
+00:09:10.887 --> 00:09:13.016
+Eles todos fazem parte disso.
+
+00:09:13.016 --> 00:09:15.921
+Só para lhes dar um exemplo do impacto que isso tem,
+
+00:09:15.921 --> 00:09:19.150
+este menininho de oito anos de idade
+
+00:09:19.150 --> 00:09:22.369
+andou a pé dois dias com a mãe
+
+00:09:22.369 --> 00:09:25.461
+para chegar à clínica de olhos do Comfort.
+
+00:09:25.461 --> 00:09:30.829
+Quando recebeu óculos para seus olhos extremamente míopes,
+
+00:09:30.829 --> 00:09:33.975
+ele de repente olhou para cima e disse:
+
+00:09:33.975 --> 00:09:37.213
+"Mamma, veo el mundo."
+
+00:09:37.213 --> 00:09:40.101
+"Mamãe, estou vendo o mundo."
+
+00:09:40.101 --> 00:09:43.559
+Multipliquem isso por 400.000 pacientes tratados,
+
+00:09:43.559 --> 00:09:48.228
+a parceria público-privado com as forças de segurança,
+
+00:09:48.228 --> 00:09:50.297
+e se começa a ver o poder
+
+00:09:50.297 --> 00:09:54.093
+de garantir a segurança de um jeito bem diferente.
+
+00:09:54.093 --> 00:09:58.390
+Aqui vocês veem jogadores de beisebol.
+
+00:09:58.390 --> 00:10:02.210
+Será que vocês conseguem apontar os dois soldados do Exército
+
+00:10:02.210 --> 00:10:04.167
+americano nessa fotografia?
+
+00:10:04.167 --> 00:10:06.362
+São os dois jovens em ambos os lados
+
+00:10:06.362 --> 00:10:09.377
+desses meninos. Essa é parte de uma série
+
+00:10:09.377 --> 00:10:13.220
+de oficinas de beisebol, em que contamos com a colaboração
+
+00:10:13.220 --> 00:10:15.328
+entre a Liga Principal de Beisebol americana,
+
+00:10:15.328 --> 00:10:16.684
+o Ministério do Exterior,
+
+00:10:16.684 --> 00:10:19.075
+que organiza a parte diplomática do projeto,
+
+00:10:19.075 --> 00:10:23.300
+militares jogadores de beisebol, que são soldados de verdade
+
+00:10:23.300 --> 00:10:27.333
+com habilidades de verdade para participar dessa missão,
+
+00:10:27.333 --> 00:10:29.235
+e eles realizam oficinas
+
+00:10:29.235 --> 00:10:31.321
+na América Latina e no Caribe,
+
+00:10:31.321 --> 00:10:34.681
+em Honduras, na Nicarágua,
+
+00:10:34.681 --> 00:10:39.383
+em todos os países da América Central e do Caribe
+
+00:10:39.383 --> 00:10:41.173
+onde o beisebol é muito popular,
+
+00:10:41.173 --> 00:10:43.429
+e isso cria segurança.
+
+00:10:43.429 --> 00:10:45.887
+Eles servem como bons exemplos para os jovens homens e mulheres
+
+00:10:45.887 --> 00:10:49.487
+de saúde e de vida que eu acredito
+
+00:10:49.487 --> 00:10:53.652
+que ajuda a criar segurança para nós.
+
+00:10:53.652 --> 00:10:56.249
+Outro aspecto dessa parceria
+
+00:10:56.249 --> 00:10:58.200
+está no auxílio imediato a catástrofes.
+
+00:10:58.200 --> 00:11:01.947
+Este é um helicóptero da Força Aérea americana prestando
+
+00:11:01.947 --> 00:11:08.901
+socorro depois do tsunami de 2004 que matou 250.000 pessoas.
+
+00:11:08.901 --> 00:11:13.412
+Em cada um desses grandes desastres - o tsunami de 2004,
+
+00:11:13.412 --> 00:11:20.286
+250.000 mortos, o terremoto na Caxemira paquistanesa, 2005,
+
+00:11:20.286 --> 00:11:22.312
+85.000 mortos,
+
+00:11:22.312 --> 00:11:26.981
+o terremoto no Haiti, aproximadamente 300.000 mortos,
+
+00:11:26.981 --> 00:11:31.872
+mais recentemente a terrível combinação de terremoto-tsunami
+
+00:11:31.872 --> 00:11:35.236
+que abalou o Japão e sua indústria nuclear —
+
+00:11:35.236 --> 00:11:38.323
+em todas essas instâncias, nós vemos parcerias
+
+00:11:38.323 --> 00:11:41.645
+entre atores internacionais,
+
+00:11:41.645 --> 00:11:45.553
+interinstitucionais e o público-privado trabalhando com forças de segurança
+
+00:11:45.553 --> 00:11:49.379
+para fazer frente a esse tipo de desastre natural.
+
+00:11:49.379 --> 00:11:53.731
+Então esses são exemplos dessa ideia de segurança de código aberto.
+
+00:11:53.731 --> 00:11:58.402
+Nós conjugamos tudo isso cada vez fazendo ações desse tipo.
+
+00:11:58.402 --> 00:12:01.313
+Bem, vocês devem estar olhando para o slide e pensando: "Ah, almirante,
+
+00:12:01.313 --> 00:12:04.499
+essas devem ser as vias marítimas de comunicação,
+
+00:12:04.499 --> 00:12:07.299
+ou esses devem ser cabos de fibra ótica."
+
+00:12:07.299 --> 00:12:12.491
+Não. Este é um gráfico do mundo de acordo com o Twitter.
+
+00:12:12.491 --> 00:12:19.059
+As linhas roxas são os tweets. As linhas verdes são a localização geográfica.
+
+00:12:19.059 --> 00:12:21.105
+O branco é a síntese.
+
+00:12:21.105 --> 00:12:25.190
+É uma perfeita evocação daquele famoso censo populacional.
+
+00:12:25.190 --> 00:12:28.937
+As seis maiores nações do mundo em ordem decrescente são:
+
+00:12:28.937 --> 00:12:31.615
+a China, a Índia, o Facebook, os Estados Unidos,
+
+00:12:31.615 --> 00:12:35.937
+o Twitter e a Indonésia. (Risos)
+
+00:12:35.937 --> 00:12:37.700
+Por que nós queremos entrar nessas redes?
+
+00:12:37.700 --> 00:12:39.510
+Por que nós queremos participar?
+
+00:12:39.510 --> 00:12:41.366
+Nós falamos mais cedo sobre a Primavera Árabe,
+
+00:12:41.366 --> 00:12:42.767
+e o poder disso tudo.
+
+00:12:42.767 --> 00:12:44.110
+Vou lhes dar um outro exemplo
+
+00:12:44.110 --> 00:12:46.363
+sobre como se transmite essa mensagem.
+
+00:12:46.363 --> 00:12:48.696
+Eu dei uma palestra como esta em Londres algum tempo atrás
+
+00:12:48.696 --> 00:12:52.084
+sobre essa questão. Eu disse lá, como estou dizendo a vocês agora,
+
+00:12:52.084 --> 00:12:54.230
+que eu estou no Facebook. E pedi: me adicionem como amigo.
+
+00:12:54.230 --> 00:12:56.357
+Consegui tirar risos da plateia.
+
+00:12:56.357 --> 00:13:01.588
+Um artigo da Associated Press sobre isso caiu na rede.
+
+00:13:01.588 --> 00:13:04.104
+Foi acessado em dois lugares no mundo:
+
+00:13:04.104 --> 00:13:06.452
+Finlândia e Indonésia.
+
+00:13:06.452 --> 00:13:10.342
+A manchete era: Almirante da OTAN precisa de amigos.
+
+00:13:10.342 --> 00:13:11.825
+(Risos)
+
+00:13:11.825 --> 00:13:14.369
+Obrigado. (Aplausos)
+
+00:13:14.369 --> 00:13:16.923
+O que de fato eu preciso. (Risos)
+
+00:13:16.923 --> 00:13:19.480
+E a estória foi um catalisador,
+
+00:13:19.480 --> 00:13:22.199
+e na manhã seguinte eu tinha centenas
+
+00:13:22.199 --> 00:13:23.834
+de pedidos de amizade no Facebook
+
+00:13:23.834 --> 00:13:26.351
+de indonésios e finlandeses,
+
+00:13:26.351 --> 00:13:29.333
+a maioria deles dizendo: "Almirante, nós ficamos sabendo que você precisa de um amigo,
+
+00:13:29.333 --> 00:13:32.935
+e ah, a propósito, o que que é OTAN?"
+
+00:13:32.935 --> 00:13:34.987
+Bem ... (Risos)
+
+00:13:34.987 --> 00:13:39.073
+É, a gente riu muito, mas foi assim que passamos a mensagem,
+
+00:13:39.073 --> 00:13:41.808
+e passar aquela mensagem é como conjugamos
+
+00:13:41.808 --> 00:13:44.259
+o internacional, o interinstitucional, o público-privado
+
+00:13:44.259 --> 00:13:48.129
+e essas redes sociais para ajudar a criar segurança.
+
+00:13:48.129 --> 00:13:51.562
+Bem, deixe-me tocar num tema sombrio.
+
+00:13:51.562 --> 00:13:55.320
+Esta é a foto de um bravo soldado britânico.
+
+00:13:55.320 --> 00:13:57.526
+Ele está na Guarda Escocesa.
+
+00:13:57.526 --> 00:13:59.272
+Ele está montando guarda em Helmand,
+
+00:13:59.272 --> 00:14:01.536
+no Sul do Afeganistão.
+
+00:14:01.536 --> 00:14:04.192
+Eu coloquei ele aqui para nos lembrar
+
+00:14:04.192 --> 00:14:07.519
+que eu não queria que ninguém saísse desta sala aqui hoje pensando
+
+00:14:07.519 --> 00:14:11.732
+que não precisamos de militares capazes e competentes
+
+00:14:11.732 --> 00:14:14.967
+que conseguem criar um efeito militar real.
+
+00:14:14.967 --> 00:14:18.062
+Este é o âmago de quem somos nós e do que fazemos,
+
+00:14:18.062 --> 00:14:22.118
+e fazemos isso para proteger a liberdade, a liberdade de expressão
+
+00:14:22.118 --> 00:14:25.083
+e todas as coisas que valorizamos em nossas sociedades.
+
+00:14:25.083 --> 00:14:29.342
+Mas, vocês sabem, a vida não é como um botão liga-desliga.
+
+00:14:29.342 --> 00:14:31.731
+Nós não temos de ter um militar que ou está
+
+00:14:31.731 --> 00:14:35.534
+no duro combate ou está no quartel.
+
+00:14:35.534 --> 00:14:40.317
+Eu diria que a vida é um reostato.
+
+00:14:40.317 --> 00:14:42.846
+É preciso ajustá-la,
+
+00:14:42.846 --> 00:14:46.115
+e quando eu penso como criar segurança
+
+00:14:46.115 --> 00:14:48.767
+neste século XXI, vai ter momentos
+
+00:14:48.767 --> 00:14:53.896
+que vamos usar a força na verdadeira guerra e crise,
+
+00:14:53.896 --> 00:14:55.817
+mas vai haver muitas instâncias,
+
+00:14:55.817 --> 00:14:57.575
+como as que abordamos aqui hoje,
+
+00:14:57.575 --> 00:15:00.767
+em que nossos militares podem participar da criação
+
+00:15:00.767 --> 00:15:04.821
+da segurança no século XXI, internacional,
+
+00:15:04.821 --> 00:15:07.229
+interinstitucional, público-privado,
+
+00:15:07.229 --> 00:15:11.785
+ligado com comunicação competente.
+
+00:15:11.785 --> 00:15:16.272
+Eu quero terminar dizendo que ouvimos mais cedo hoje
+
+00:15:16.272 --> 00:15:20.235
+sobre a Wikipédia. Eu uso a Wikipédia o tempo todo
+
+00:15:20.235 --> 00:15:23.396
+para fazer pesquisa e, como todos bem sabem,
+
+00:15:23.396 --> 00:15:27.549
+a Wikipédia não é feita por 12 pessoas brilhantes
+
+00:15:27.549 --> 00:15:30.024
+fechadas numa sala escrevendo artigos.
+
+00:15:30.024 --> 00:15:33.737
+A Wikipédia, todos os dias, tem lá milhares de pessoas
+
+00:15:33.737 --> 00:15:38.537
+colocando informação, e todo dia milhões de pessoas
+
+00:15:38.537 --> 00:15:40.400
+usando aquela informação.
+
+00:15:40.400 --> 00:15:44.020
+É a imagem perfeita para o ponto fundamental
+
+00:15:44.020 --> 00:15:48.642
+de que nenhum de nós sozinho é tão inteligente quanto todos nós pensando juntos.
+
+00:15:48.642 --> 00:15:52.302
+Ninguém, nenhuma aliança, nenhum país,
+
+00:15:52.302 --> 00:15:57.083
+nenhum de nós sozinho é tão inteligente quanto todos nós pensando juntos.
+
+00:15:57.083 --> 00:16:01.765
+A declaração de objetivos da Wikipédia é muito simples:
+
+00:16:01.765 --> 00:16:04.879
+um mundo em que todos seres humanos possam compartilhar livremente
+
+00:16:04.879 --> 00:16:06.512
+a soma de todo o conhecimento.
+
+00:16:06.512 --> 00:16:10.990
+Minha tese para vocês é que se combinarmos o internacional,
+
+00:16:10.990 --> 00:16:15.160
+o interinstitucional, o público-privado e comunicação estratégica,
+
+00:16:15.160 --> 00:16:18.625
+juntos, neste século XXI,
+
+00:16:18.625 --> 00:16:21.892
+nós podemos criar a soma de toda a segurança.
+
+00:16:21.892 --> 00:16:24.349
+Obrigado. (Aplausos)
+
+00:16:24.349 --> 00:16:28.575
+Muito obrigado. Obrigado. Obrigado. (Aplausos)
+

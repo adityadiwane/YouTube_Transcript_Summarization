@@ -1,0 +1,1578 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:07.000
+Traduttore: Stefano Carpi
+Revisore: Silvia Fornasiero
+
+00:00:13.460 --> 00:00:15.565
+Chris Anderson:
+C'è una cosa che mi colpisce:
+
+00:00:15.565 --> 00:00:18.831
+Il tuo software, Linux,
+è in milioni di computer
+
+00:00:18.841 --> 00:00:22.412
+e probabilmente fa funzionare
+gran parte di Internet.
+
+00:00:22.412 --> 00:00:24.199
+E penso ci siano
+
+00:00:24.199 --> 00:00:27.574
+un miliardo e mezzo
+di dispositivi Android attivi in giro.
+
+00:00:27.574 --> 00:00:30.819
+Il tuo software è in ognuno di questi.
+
+00:00:30.819 --> 00:00:32.048
+Sono numeri enormi,
+
+00:00:32.048 --> 00:00:37.017
+e pensavo ci fosse un enorme
+quartier generale, dietro tutto ciò.
+
+00:00:37.041 --> 00:00:40.347
+Lo pensavo, poi ho visto
+questa foto scioccante.
+
+00:00:40.375 --> 00:00:43.845
+Ecco il quartier generale
+mondiale di Linux.
+
+00:00:43.869 --> 00:00:45.859
+(Risate)
+
+00:00:45.883 --> 00:00:49.889
+(Applausi)
+
+00:00:49.913 --> 00:00:52.319
+Linus Torvalds : Lo ammetto,
+non sembra un granché.
+
+00:00:52.319 --> 00:00:57.693
+E devo dire che la parte
+più interessante di questa foto,
+
+00:00:57.693 --> 00:00:59.446
+quella che la gente
+nota maggiormente
+
+00:00:59.470 --> 00:01:00.913
+è il piano di lavoro in piedi.
+
+00:01:00.937 --> 00:01:03.686
+È la parte più interessante
+nel mio ufficio,
+
+00:01:03.686 --> 00:01:05.644
+e in realtà non la sto più usando.
+
+00:01:05.668 --> 00:01:08.626
+Penso che le due cose siano collegate.
+
+00:01:08.656 --> 00:01:12.591
+Il mio modo di lavorare è ...
+
+00:01:12.601 --> 00:01:17.594
+non voglio avere stimoli esterni.
+
+00:01:17.600 --> 00:01:22.768
+Avete notato
+il verde chiaro dei muri?
+
+00:01:22.778 --> 00:01:28.068
+Mi han detto che usano lo stesso colore
+sui muri degli ospedali psichiatrici.
+
+00:01:28.068 --> 00:01:28.996
+(Risate)
+
+00:01:29.020 --> 00:01:30.805
+Perché è un colore rilassante,
+
+00:01:30.829 --> 00:01:33.923
+che smorza la tensione.
+
+00:01:33.923 --> 00:01:39.489
+Qui non vedete il computer,
+ma solo lo schermo.
+
+00:01:39.513 --> 00:01:42.894
+Quando scelgo un computer,
+l'aspetto più importante è
+
+00:01:42.918 --> 00:01:46.111
+- non deve essere per forza
+grande e potente, anche se mi piace.
+
+00:01:46.431 --> 00:01:49.825
+Deve essere però assolutamente silenzioso.
+
+00:01:49.825 --> 00:01:51.986
+Conosco persone che lavorano per Google
+
+00:01:51.986 --> 00:01:55.161
+e hanno a casa 
+un loro piccolo centro dati.
+
+00:01:55.161 --> 00:01:56.393
+Ma io non faccio così:
+
+00:01:56.417 --> 00:02:00.122
+il mio è l'ufficio più noioso 
+che potrete mai vedere.
+
+00:02:00.146 --> 00:02:03.660
+Mi siedo lì da solo, in pace.
+
+00:02:04.136 --> 00:02:06.173
+Se il gatto mi salta sopra,
+
+00:02:06.197 --> 00:02:08.034
+si accomoda sul mio grembo
+
+00:02:08.058 --> 00:02:10.248
+e voglio sentire le sue fusa,
+
+00:02:10.272 --> 00:02:13.446
+non il rumore delle ventole del computer.
+
+00:02:13.470 --> 00:02:17.509
+CA: Ed è impressionante
+come questo approccio dimesso
+
+00:02:17.509 --> 00:02:20.457
+ti permetta di gestire
+un vasto impero tecnologico.
+
+00:02:20.457 --> 00:02:21.988
+Perché Linux è un impero, ormai.
+
+00:02:21.988 --> 00:02:25.462
+Questa è una straordinaria testimonianza
+del potere dell'open source.
+
+00:02:25.486 --> 00:02:29.662
+Dicci come sei arrivato 
+a capire l'open source
+
+00:02:29.686 --> 00:02:32.168
+e come ha portato
+allo sviluppo di Linux.
+
+00:02:33.546 --> 00:02:35.051
+LT: Io lavoro ancora da solo.
+
+00:02:35.075 --> 00:02:38.446
+Davvero, lavoro da solo, a casa,
+
+00:02:38.446 --> 00:02:39.990
+spesso in accappatoio.
+
+00:02:39.990 --> 00:02:42.565
+Quando arriva un fotografo, mi preparo
+
+00:02:42.565 --> 00:02:44.001
+e mi faccio trovare
+coi vestiti addosso.
+
+00:02:44.001 --> 00:02:45.212
+(Risate)
+
+00:02:45.236 --> 00:02:47.308
+E ho lavorato sempre così.
+
+00:02:47.332 --> 00:02:49.340
+È così che ho iniziato anche con Linux.
+
+00:02:49.364 --> 00:02:53.013
+Non ho iniziato Linux 
+come un progetto collaborativo.
+
+00:02:53.037 --> 00:02:57.915
+L'ho iniziato come uno
+di una lunga serie di progetti
+
+00:02:57.939 --> 00:03:01.896
+che a quel tempo 
+avevo fatto per me stesso,
+
+00:03:01.920 --> 00:03:03.822
+in parte perché volevo un risultato,
+
+00:03:03.846 --> 00:03:06.148
+ma soprattutto perché
+amavo programmare.
+
+00:03:06.172 --> 00:03:10.546
+Volevo arrivare alla fine di un percorso,
+
+00:03:10.570 --> 00:03:13.916
+che però dopo 25 anni
+non abbiamo ancora completato.
+
+00:03:13.940 --> 00:03:17.657
+Ma il vero motivo per cui ho iniziato
+era che cercavo un progetto tutto mio,
+
+00:03:17.681 --> 00:03:21.498
+e nelle mie intenzioni iniziali
+l'open source non era contemplato.
+
+00:03:21.498 --> 00:03:24.947
+Poi è successo che..
+
+00:03:24.957 --> 00:03:29.360
+il progetto cresce e diventa qualcosa
+che vuoi mostrare alla gente.
+
+00:03:30.552 --> 00:03:34.669
+È un po' come dire:
+"Ehi, guarda cosa sono riuscito a fare!"
+
+00:03:34.693 --> 00:03:37.408
+E credetemi, allora non era un granché.
+
+00:03:38.128 --> 00:03:40.002
+Lo resi disponibile a tutti
+
+00:03:40.026 --> 00:03:42.202
+e nemmeno a quel punto
+era open source.
+
+00:03:42.202 --> 00:03:47.325
+Avevo sì pubblicato il codice,
+ma senza l'intenzionalità,
+
+00:03:47.349 --> 00:03:52.463
+dietro a quella metodologia
+che oggi chiamiamo open source,
+
+00:03:52.487 --> 00:03:53.638
+di lasciarlo migliorare.
+
+00:03:53.662 --> 00:03:54.813
+Era una cosa del tipo:
+
+00:03:54.837 --> 00:03:57.774
+"Guardate, ci ho lavorato per sei mesi,
+
+00:03:58.459 --> 00:04:00.198
+mi piacerebbe avere dei commenti."
+
+00:04:00.717 --> 00:04:02.717
+Altre persone mi contattarono.
+
+00:04:03.217 --> 00:04:04.869
+All'Università di Helsinki,
+
+00:04:04.893 --> 00:04:08.608
+avevo un amico coinvolto
+nel movimento dell'open source
+
+00:04:08.632 --> 00:04:12.288
+- allora lo chiamavano
+perlopiù "free software" -
+
+00:04:12.312 --> 00:04:16.586
+e fu lui che mi introdusse all'idea
+
+00:04:16.610 --> 00:04:23.637
+di poter usare queste licenze
+open source che erano a disposizione.
+
+00:04:23.654 --> 00:04:26.155
+Ci pensai per un po'.
+
+00:04:26.179 --> 00:04:29.670
+Ero seriamente preoccupato
+per gli interessi commerciali in gioco.
+
+00:04:29.694 --> 00:04:34.168
+Penso sia una delle principali
+preoccupazioni iniziali,
+
+00:04:34.192 --> 00:04:39.152
+che qualcun altro tragga vantaggio
+dal loro lavoro, giusto?
+
+00:04:39.603 --> 00:04:42.859
+E decisi: "Al diavolo!"
+
+00:04:43.740 --> 00:04:44.890
+E ...
+
+00:04:44.914 --> 00:04:46.023
+CA: E a un certo punto,
+
+00:04:46.023 --> 00:04:48.773
+qualcuno ha aggiunto qualche riga
+di codice e hai pensato:
+
+00:04:48.773 --> 00:04:51.838
+" Wow davvero interessante,
+non ci avevo pensato.
+
+00:04:51.838 --> 00:04:53.477
+Questo potrà migliorarlo."?
+
+00:04:53.477 --> 00:04:56.232
+LT: I contributi esterni, all'inizio,
+non erano in codice:
+
+00:04:56.232 --> 00:04:59.115
+era più un contributo di idee.
+
+00:04:59.748 --> 00:05:02.994
+Anche il solo fatto che qualcuno
+dia un occhiata al tuo progetto
+
+00:05:03.018 --> 00:05:05.566
+(son sicuro che succede
+anche per altre cose,
+
+00:05:05.590 --> 00:05:07.427
+ma di certo è vero per un programma),
+
+00:05:07.451 --> 00:05:10.950
+qualcun altro si interessa
+al tuo programma,
+
+00:05:10.974 --> 00:05:15.426
+lo segue abbastanza da darti 
+un feedback e delle idee.
+
+00:05:15.433 --> 00:05:17.134
+Questa era una grande cosa per me.
+
+00:05:17.158 --> 00:05:20.350
+All'epoca avevo 21 anni, ero giovane,
+
+00:05:20.374 --> 00:05:23.611
+ma avevo già programmato,
+in pratica, per metà della mia vita.
+
+00:05:24.372 --> 00:05:28.344
+E ogni progetto precedente
+era stato completamente personale,
+
+00:05:28.368 --> 00:05:30.199
+e fu una rivelazione quando la gente
+
+00:05:30.199 --> 00:05:34.800
+iniziò a commentare,
+a dare un feedback sul codice.
+
+00:05:34.824 --> 00:05:38.596
+E prima ancora che iniziassero
+a contribuire con righe di codice,
+
+00:05:38.620 --> 00:05:41.361
+ci fu un grande momento in cui dissi:
+
+00:05:41.385 --> 00:05:43.258
+"Io adoro gli altri!"
+
+00:05:43.282 --> 00:05:46.099
+Non fraintendetemi:
+non sono una persona socievole.
+
+00:05:46.111 --> 00:05:49.476
+(Risate)
+
+00:05:49.500 --> 00:05:52.052
+In realtà non amo la gente --
+
+00:05:52.076 --> 00:05:53.096
+(Risate)
+
+00:05:53.120 --> 00:05:54.746
+Ma amo i computer,
+
+00:05:54.770 --> 00:05:56.985
+mi piace interagire tramite e-mail,
+
+00:05:57.009 --> 00:06:00.341
+perché ti garantisce
+una distanza di sicurezza.
+
+00:06:00.365 --> 00:06:06.866
+Però mi piace molto chi si unisce
+al mio lavoro e lo commenta.
+
+00:06:06.890 --> 00:06:08.693
+E lo migliorano tantissmo.
+
+00:06:09.083 --> 00:06:12.107
+CA: C'è stato un momento
+in cui hai visto cosa si sviluppava
+
+00:06:12.131 --> 00:06:14.338
+e all'improvviso stava decollando,
+
+00:06:14.362 --> 00:06:17.652
+e hai pensato: "Aspetta un secondo,
+questo potrebbe essere enorme.
+
+00:06:17.676 --> 00:06:20.588
+Non solo un progetto personale
+che mi dà buoni riscontri,
+
+00:06:20.612 --> 00:06:24.932
+ma una sorta di sviluppo esplosivo
+nell'intero mondo tecnologico"?
+
+00:06:25.821 --> 00:06:26.980
+LT: Non proprio.
+
+00:06:27.004 --> 00:06:30.576
+Il momento importante, per me,
+non fu quando stava diventando enorme,
+
+00:06:30.600 --> 00:06:32.734
+ma quando stava diventando piccolo.
+
+00:06:33.709 --> 00:06:37.226
+La cosa importante per me 
+era non essere solo
+
+00:06:37.250 --> 00:06:40.967
+e avere 10, forse 100
+persone coinvolte -
+
+00:06:40.991 --> 00:06:42.470
+questo era il punto principale.
+
+00:06:42.494 --> 00:06:45.533
+Tutto il resto fu graduale.
+
+00:06:45.557 --> 00:06:49.816
+Passare da 100 persone a un milione
+non è chissà cosa - per me.
+
+00:06:49.840 --> 00:06:51.673
+Beh, voglio dire forse si se ...
+
+00:06:51.697 --> 00:06:52.698
+(Risate)
+
+00:06:52.722 --> 00:06:55.464
+Se vuoi vendere il tuo prodotto
+allora è importantissimo -
+
+00:06:55.464 --> 00:06:56.579
+non fraintendetemi.
+
+00:06:56.579 --> 00:06:58.766
+Ma se sei interessato alla tecnologia
+
+00:06:58.790 --> 00:07:00.645
+e sei interessato al progetto,
+
+00:07:00.669 --> 00:07:02.550
+la parte rilevante
+è avviare un gruppo.
+
+00:07:02.574 --> 00:07:04.298
+Poi il gruppo crescerà gradualmente.
+
+00:07:04.298 --> 00:07:07.570
+In realtà non c'è stato
+un momento in cui ho pensato:
+
+00:07:08.166 --> 00:07:10.342
+"Wow, adesso è decollato!" perché ...
+
+00:07:10.366 --> 00:07:13.690
+Sì, c'è voluto molto tempo.
+
+00:07:13.714 --> 00:07:16.690
+CA: Tutti i tecnici con cui parlo
+ti attribuiscono il merito
+
+00:07:16.714 --> 00:07:19.588
+di aver cambiato totalmente
+il loro lavoro.
+
+00:07:19.612 --> 00:07:21.235
+E non solo per Linux:
+
+00:07:21.259 --> 00:07:22.705
+c'è questa cosa chiamata Git,
+
+00:07:22.729 --> 00:07:26.741
+che è un sistema di gestione
+per lo sviluppo del software.
+
+00:07:26.765 --> 00:07:29.550
+Parlaci brevemente
+del tuo ruolo in questo.
+
+00:07:30.481 --> 00:07:32.270
+LT: Un problema che abbiamo avuto,
+
+00:07:32.294 --> 00:07:35.346
+e ci ha messo un po' a manifestarsi,
+
+00:07:35.370 --> 00:07:36.525
+è stato quando...
+
+00:07:37.708 --> 00:07:43.040
+quando si passa da un gruppo iniziale
+di 10 o 100 persone su un progetto
+
+00:07:43.064 --> 00:07:45.452
+fino a 10.000 ...
+
+00:07:45.476 --> 00:07:48.942
+ora siamo a un punto
+in cui, solo sul kernel,
+
+00:07:48.966 --> 00:07:52.136
+1000 persone sono coinvolte
+in ogni singola versione,
+
+00:07:52.136 --> 00:07:56.151
+e questo circa ogni 2 mesi,
+ogni 2 o 3 mesi.
+
+00:07:56.181 --> 00:07:58.738
+Alcuni non fanno molto.
+
+00:07:58.738 --> 00:08:01.594
+Molte persone fanno piccole variazioni.
+
+00:08:01.608 --> 00:08:03.987
+Ma per mantenere gestibile
+tutto questo,
+
+00:08:04.001 --> 00:08:06.179
+gli strumenti devono
+adeguarsi alla scala.
+
+00:08:06.179 --> 00:08:11.166
+Ci furono un sacco di problemi.
+
+00:08:11.166 --> 00:08:17.248
+Ci sono interi progetti per la sola
+manutenzione del codice sorgente.
+
+00:08:17.252 --> 00:08:21.319
+CVS era il più usato,
+
+00:08:21.323 --> 00:08:24.806
+ma io io odiavo di tutto cuore
+e mi rifiutavo di usarlo.
+
+00:08:24.840 --> 00:08:28.316
+Così ho provato qualcosa
+di inedito, interessante...
+
+00:08:28.704 --> 00:08:31.178
+... e che tutti gli altri odiavano.
+
+00:08:31.202 --> 00:08:32.814
+CA: (Risata)
+
+00:08:32.814 --> 00:08:35.041
+LT: Eravamo in una brutta situazione:
+
+00:08:35.045 --> 00:08:37.376
+migliaia di persone
+volevano partecipare,
+
+00:08:37.376 --> 00:08:42.654
+ma per molti versi ero giunto
+ad un punto di rottura,
+
+00:08:42.682 --> 00:08:45.578
+non riuscivo a cambiare al punto
+
+00:08:45.578 --> 00:08:47.893
+da poter lavorare
+con migliaia di persone.
+
+00:08:47.893 --> 00:08:50.254
+Git è stato quindi
+il mio secondo grande progetto,
+
+00:08:50.254 --> 00:08:54.989
+creato da me al solo scopo di mantenere
+il mio primo grande progetto.
+
+00:08:55.043 --> 00:08:57.839
+Ed è esattamente così che lavoro.
+
+00:08:57.839 --> 00:08:59.984
+Non programmo per
+
+00:08:59.984 --> 00:09:01.885
+-- be', sì, programmo per divertimento,
+
+00:09:01.885 --> 00:09:04.381
+ma voglio programmare
+qualcosa di significativo.
+
+00:09:04.381 --> 00:09:08.778
+Ho avviato ogni mio progetto
+perché avevo bisogno di qualcosa,
+
+00:09:08.812 --> 00:09:09.868
+e --
+
+00:09:09.868 --> 00:09:13.187
+CA: Sia Linux che Git,
+quindi, sono quasi nati
+
+00:09:13.187 --> 00:09:15.672
+come conseguenze inattese
+
+00:09:15.672 --> 00:09:17.756
+del tuo desiderio di non voler
+lavorare con troppa gente.
+
+00:09:17.756 --> 00:09:19.790
+LT: Assolutamente, si.
+
+00:09:19.790 --> 00:09:20.646
+(Risate)
+
+00:09:20.646 --> 00:09:22.331
+CA: È sbalorditivo.
+LT: Sì.
+
+00:09:22.331 --> 00:09:23.852
+(Applausi)
+
+00:09:23.852 --> 00:09:27.249
+Eppure sei l'uomo
+che ha trasformato la tecnologia
+
+00:09:27.249 --> 00:09:28.587
+non solo una ma due volte,
+
+00:09:28.587 --> 00:09:31.092
+e dobbiamo provare a capire
+perché è successo.
+
+00:09:31.092 --> 00:09:32.796
+Ci hai dato qualche indizio, ma ...
+
+00:09:32.796 --> 00:09:37.055
+C'è una foto di te da bambino,
+con il cubo di Rubik.
+
+00:09:37.055 --> 00:09:41.705
+Hai detto che programmi
+da quando avevi 10 o 11 anni,
+
+00:09:41.705 --> 00:09:43.114
+metà della tua vita.
+
+00:09:43.114 --> 00:09:46.950
+Eri una sorta di genio
+del computer, tipo un super nerd,
+
+00:09:46.950 --> 00:09:49.447
+eri la stella della scuola
+che poteva fare tutto ?
+
+00:09:49.447 --> 00:09:52.130
+Com'eri da bambino?
+
+00:09:52.130 --> 00:09:54.646
+LT: Penso di essere stato
+il prototipo del secchione.
+
+00:09:54.646 --> 00:09:57.130
+Cioè ero ...
+
+00:09:57.130 --> 00:09:59.121
+Non ero socievole
+neanche allora.
+
+00:09:59.121 --> 00:10:01.720
+Questo è mio fratello minore.
+
+00:10:01.720 --> 00:10:04.531
+Ero sicuramente più interessato
+al cubo di Rubik
+
+00:10:04.531 --> 00:10:06.075
+che al mio fratellino.
+
+00:10:06.075 --> 00:10:07.193
+(Risate)
+
+00:10:07.193 --> 00:10:10.339
+Mia sorella minore,
+che non è nella foto,
+
+00:10:10.339 --> 00:10:12.767
+quando c'era una riunione familiare--
+
+00:10:12.767 --> 00:10:16.587
+e non è una grande famiglia,
+ma ho un paio di cugini --
+
+00:10:16.587 --> 00:10:19.475
+mi avvisava prima.
+
+00:10:19.475 --> 00:10:22.068
+Ad esempio, prima di entrare
+nella stanza diceva:
+
+00:10:22.068 --> 00:10:25.927
+"OK. È così e così ..."
+
+00:10:25.927 --> 00:10:28.027
+Perché non ero --
+
+00:10:28.027 --> 00:10:29.660
+Ero un fanatico della tecnologia.
+
+00:10:29.660 --> 00:10:30.775
+Pensavo ai computer,
+
+00:10:30.775 --> 00:10:31.950
+pensavo alla matematica,
+
+00:10:31.950 --> 00:10:33.074
+alla fisica
+
+00:10:33.074 --> 00:10:34.239
+e in quello ero bravo.
+
+00:10:34.239 --> 00:10:37.548
+Non penso fossi eccezionale.
+
+00:10:37.548 --> 00:10:39.969
+Mia sorella diceva
+
+00:10:39.969 --> 00:10:46.807
+che la mia più grande qualità
+era la tenacia.
+
+00:10:47.617 --> 00:10:50.196
+CA: Ok parliamo di questo,
+perché è interessante.
+
+00:10:50.196 --> 00:10:51.395
+Tu non mollavi.
+
+00:10:51.395 --> 00:10:54.286
+Non perché sei
+un secchione o intelligente,
+
+00:10:54.286 --> 00:10:57.423
+ma perché sei ... ostinato ?
+
+00:10:57.423 --> 00:10:58.967
+LT: Questo perché sono testardo.
+
+00:10:58.967 --> 00:11:01.091
+Questo perché,
+
+00:11:01.091 --> 00:11:03.314
+non cominci qualcosa
+
+00:11:03.324 --> 00:11:08.790
+e poi dici: "OK, basta,
+facciamo altro --
+
+00:11:08.790 --> 00:11:10.954
+Guarda, grandioso! "
+
+00:11:10.954 --> 00:11:15.470
+L'ho notato anche
+in altre situazioni della mia vita.
+
+00:11:15.470 --> 00:11:18.738
+Ho vissuto sette anni
+nella Silicon Valley.
+
+00:11:18.738 --> 00:11:22.884
+E quand'ero lì, ho lavorato sempre
+per la stessa azienda,
+
+00:11:22.884 --> 00:11:24.595
+per tutto il tempo.
+
+00:11:24.615 --> 00:11:27.198
+È una cosa inaudita, da quelle parti.
+
+00:11:27.198 --> 00:11:29.149
+Semplicemente non funzionano così.
+
+00:11:29.149 --> 00:11:32.603
+La forza della Silicon Valley è la gente
+che passa da un lavoro all'altro
+
+00:11:32.603 --> 00:11:35.248
+come se rimestasse una pentola.
+
+00:11:35.248 --> 00:11:37.145
+Io non sono quel tipo di persona.
+
+00:11:37.145 --> 00:11:39.753
+CA: Ma durante lo sviluppo 
+dello stesso Linux,
+
+00:11:39.753 --> 00:11:44.451
+la testardaggine talvolta
+ti ha messo in conflitto con gli altri.
+
+00:11:44.451 --> 00:11:46.122
+Parlaci un po' di questo.
+
+00:11:46.122 --> 00:11:51.689
+Era essenziale per mantenere
+la qualità di quello che costruivi?
+
+00:11:51.689 --> 00:11:54.388
+Come potresti descrivere
+quello che è successo?
+
+00:11:54.388 --> 00:11:57.240
+LT: Non so se è determinante.
+
+00:11:57.240 --> 00:12:00.407
+Tornando al capitolo:
+"Non sono una persona socievole"--
+
+00:12:00.407 --> 00:12:04.097
+qualche volta sono anche...
+
+00:12:04.097 --> 00:12:05.659
+potrei dire,
+
+00:12:05.659 --> 00:12:09.671
+"miope" nei riguardi
+delle sensazioni altrui,
+
+00:12:09.671 --> 00:12:14.969
+e talvolta dici cose
+che urtano gli altri.
+
+00:12:14.969 --> 00:12:18.758
+Non ne sono orgoglioso.
+
+00:12:18.758 --> 00:12:19.896
+(Applausi)
+
+00:12:19.896 --> 00:12:22.978
+Ma allo stesso tempo è --
+
+00:12:22.978 --> 00:12:26.796
+Capisco le persone che mi dicono
+che dovrei essere gentile.
+
+00:12:26.796 --> 00:12:32.492
+Poi, quando cerco di spiegare
+
+00:12:32.492 --> 00:12:34.766
+che forse dovrebbero essere loro
+più aggressive,
+
+00:12:34.766 --> 00:12:38.328
+mi guardano come fossi
+uno scorbutico.
+
+00:12:38.328 --> 00:12:40.472
+(Risate)
+
+00:12:40.472 --> 00:12:42.602
+Quello che cerco di dire
+è che siamo diversi.
+
+00:12:42.602 --> 00:12:44.266
+Io non sono socievole;
+
+00:12:44.266 --> 00:12:46.765
+non ne vado particolarmente orgoglioso,
+
+00:12:46.765 --> 00:12:48.191
+ma è una parte di me.
+
+00:12:48.191 --> 00:12:50.919
+E una delle cose che più
+mi piace dell'open source
+
+00:12:50.919 --> 00:12:56.726
+è il modo in cui permette
+la collaborazione tra persone diverse.
+
+00:12:56.726 --> 00:12:58.477
+Non dobbiamo piacerci--
+
+00:12:58.477 --> 00:13:00.707
+e talvolta non ci piacciamo proprio.
+
+00:13:00.707 --> 00:13:04.218
+Veramente -- ci sono sempre
+polemiche molto accese.
+
+00:13:04.218 --> 00:13:08.328
+Ma è possibile trovare,
+nel lavoro degli altri, cose che --
+
+00:13:08.328 --> 00:13:10.575
+con cui non sei d'accordo o in disaccordo,
+
+00:13:10.575 --> 00:13:13.652
+dai solo più importanza ad altre cose.
+
+00:13:13.652 --> 00:13:16.575
+E tornando a quello
+che ho detto prima,
+
+00:13:16.575 --> 00:13:20.585
+al timore che i commerciali
+si avvantaggino del tuo lavoro,
+
+00:13:20.585 --> 00:13:23.515
+si è scoperto, in brevissimo tempo,
+
+00:13:23.515 --> 00:13:26.506
+che questi commerciali
+sono persone molto amabili.
+
+00:13:26.506 --> 00:13:30.233
+E facevano tutto quello che
+non ero interessato a fare,
+
+00:13:30.243 --> 00:13:32.319
+e avevano obiettivi completamente diversi.
+
+00:13:32.319 --> 00:13:37.655
+E usavano l'open source per strade
+dove io non volevo andare.
+
+00:13:37.655 --> 00:13:39.953
+Ma essendo un open source
+lo potevano fare,
+
+00:13:39.953 --> 00:13:42.332
+e in realtà funziona 
+davvero bene insieme.
+
+00:13:42.332 --> 00:13:44.373
+Penso funzioni nella stessa direzione.
+
+00:13:44.373 --> 00:13:47.599
+Noi abbiamo bisogno
+di comunicatori,
+
+00:13:47.599 --> 00:13:49.045
+gente cordiale e amichevole
+
+00:13:49.045 --> 00:13:50.789
+a cui piace --
+
+00:13:50.789 --> 00:13:52.274
+(Risate)
+
+00:13:52.274 --> 00:13:55.340
+chd vogliano veramente abbracciarti
+e averti nella comunità.
+
+00:13:55.340 --> 00:13:56.931
+Ma non è da tutti.
+
+00:13:56.931 --> 00:13:58.386
+E non è da me.
+
+00:13:58.386 --> 00:13:59.870
+Io mi interesso di tecnologia.
+
+00:13:59.870 --> 00:14:01.775
+C'è chi si interessa
+all'interfaccia grafica.
+
+00:14:01.775 --> 00:14:04.869
+Non mi occuperei di UI 
+per tutto l'oro del mondo.
+
+00:14:04.869 --> 00:14:07.916
+Se fossi su un'isola deserta,
+
+00:14:07.916 --> 00:14:11.331
+e l'unica via per lasciarla
+fosse fare una bella UI,
+
+00:14:11.331 --> 00:14:12.534
+morirei là.
+
+00:14:12.534 --> 00:14:13.703
+(Risate)
+
+00:14:13.703 --> 00:14:15.863
+Ci sono diversi tipi di persone,
+
+00:14:15.863 --> 00:14:18.302
+non sto cercando scuse,
+sto cercando di spiegare.
+
+00:14:18.302 --> 00:14:20.533
+CA: Quando abbiamo parlato
+la scorsa settimana,
+
+00:14:20.533 --> 00:14:22.954
+abbiamo parlato di altre
+tue caratteristiche
+
+00:14:22.954 --> 00:14:24.574
+che ho trovato molto interessanti.
+
+00:14:24.574 --> 00:14:25.971
+Una è il "gusto" nel codice.
+
+00:14:25.971 --> 00:14:28.346
+Ho portato un coppia di immagini.
+
+00:14:28.346 --> 00:14:32.383
+Penso questo non sia un esempio
+di buon gusto nella programmazione,
+
+00:14:32.383 --> 00:14:35.399
+e questo è un tratto migliore,
+
+00:14:35.399 --> 00:14:37.445
+si vede immediatamente.
+
+00:14:37.445 --> 00:14:39.811
+Qual è la differenza tra i due?
+
+00:14:40.641 --> 00:14:41.845
+LT: Questo è --
+
+00:14:41.845 --> 00:14:45.674
+Quante persone hanno mai programmato, qui?
+
+00:14:45.674 --> 00:14:47.043
+CA: Oh mio Dio.
+
+00:14:47.043 --> 00:14:48.198
+LT: Vi garantisco,
+
+00:14:48.198 --> 00:14:50.045
+tutti quelli che hanno alzato la mano
+
+00:14:50.045 --> 00:14:52.610
+hanno fatto la cosiddetta 
+lista concatenata semplice.
+
+00:14:52.610 --> 00:14:55.121
+E a scuola --
+
+00:14:55.121 --> 00:14:58.729
+questo modo di scrivere codice,
+non molto buono,
+
+00:14:58.729 --> 00:15:02.819
+è quello che in sostanza ti insegnano
+quando inizi a programmare.
+
+00:15:02.819 --> 00:15:04.893
+E non devi capire il software.
+
+00:15:04.893 --> 00:15:06.967
+La parte più interessante, per me,
+
+00:15:06.967 --> 00:15:10.341
+è l'ultima struttura "if".
+
+00:15:10.341 --> 00:15:13.217
+Perché quel che accade
+in una lista collegata semplice
+
+00:15:13.217 --> 00:15:16.890
+-- qui si sta cercando di rimuovere 
+un input esistente da un elenco --
+
+00:15:16.890 --> 00:15:20.759
+e c'è una differenza
+tra un inserimento in testa
+
+00:15:20.759 --> 00:15:22.779
+o un inserimento successivo.
+
+00:15:22.779 --> 00:15:24.411
+Perché se è in testa,
+
+00:15:24.411 --> 00:15:27.346
+devi cambiare il puntatore
+del primo inserimento.
+
+00:15:27.346 --> 00:15:28.514
+Se è nel mezzo,
+
+00:15:28.514 --> 00:15:31.200
+devi cambiare il puntatore
+di un inserimento precedente.
+
+00:15:31.200 --> 00:15:33.160
+Sono due casi completamente differenti.
+
+00:15:33.160 --> 00:15:34.427
+CA: E questo è migliore.
+
+00:15:34.427 --> 00:15:35.944
+LT: È migliore,
+
+00:15:35.944 --> 00:15:38.639
+perché non ha il blocco "If".
+
+00:15:38.639 --> 00:15:40.865
+E il punto non è --
+
+00:15:40.865 --> 00:15:44.104
+non voglio che capiate
+perché non ha il blocco "If":
+
+00:15:44.104 --> 00:15:45.472
+voglio che capiate
+
+00:15:45.472 --> 00:15:48.143
+come talvolta si possa vedere
+un problema in modo diverso
+
+00:15:48.143 --> 00:15:51.488
+e si possa riscrivere in modo
+da ricondurre un'apparente eccezione
+
+00:15:51.488 --> 00:15:53.392
+a un caso normale.
+
+00:15:53.392 --> 00:15:55.325
+E questo è un buon codice.
+
+00:15:55.325 --> 00:15:56.898
+Ma è un programma semplice.
+
+00:15:56.898 --> 00:15:58.280
+Questo è CS 101.
+
+00:15:58.280 --> 00:16:01.795
+Non è così importante --
+ma i suoi dettagli lo sono.
+
+00:16:01.795 --> 00:16:05.896
+Per me, la caratteristica della gente 
+con cui voglio lavorare
+
+00:16:05.896 --> 00:16:09.093
+è che abbiano buon gusto,
+che è come ...
+
+00:16:09.093 --> 00:16:10.919
+ti ho mandato 
+questo stupido esempio
+
+00:16:10.919 --> 00:16:13.744
+che non è significativo
+perché è troppo piccolo.
+
+00:16:13.744 --> 00:16:15.906
+Il buon gusto è molto più grande di così.
+
+00:16:15.906 --> 00:16:19.946
+Il buon gusto è vedere 
+il quadro d'insieme del progetto
+
+00:16:19.946 --> 00:16:24.457
+e capire istintivamente
+qual è il modo giusto di fare le cose.
+
+00:16:24.457 --> 00:16:27.738
+CA: Ok, stiamo mettendo 
+i pezzi al loro posto.
+
+00:16:27.738 --> 00:16:30.063
+Tu hai una forma di gusto,
+
+00:16:30.063 --> 00:16:32.423
+che i programmatori apprezzano.
+
+00:16:32.423 --> 00:16:33.587
+Tu sei --
+
+00:16:33.587 --> 00:16:35.428
+(Risate)
+
+00:16:35.428 --> 00:16:39.972
+LT: Penso sia significativo
+anche per alcuni, qui.
+
+00:16:39.972 --> 00:16:42.912
+CA: .. sei un programmatore
+molto intelligente,
+
+00:16:42.912 --> 00:16:45.619
+e sei un testardo tremendo.
+
+00:16:45.619 --> 00:16:47.226
+Ma ci deve essere qualcos'altro.
+
+00:16:47.226 --> 00:16:48.881
+Hai cambiato il futuro.
+
+00:16:48.881 --> 00:16:51.866
+Devi avere le capacità
+di queste grandi visioni del futuro.
+
+00:16:51.866 --> 00:16:53.150
+Sei un visionario, vero?
+
+00:16:53.150 --> 00:16:55.769
+LT: In realtà mi sono sentito
+un po' a disagio, a TED,
+
+00:16:55.769 --> 00:16:57.950
+negli ultimi due giorni,
+
+00:16:57.950 --> 00:17:00.573
+perché ci sono molte
+visioni del futuro, vero?
+
+00:17:00.573 --> 00:17:02.285
+E io non sono un visionario.
+
+00:17:02.285 --> 00:17:04.539
+Non ho un piano quinquennale.
+
+00:17:04.539 --> 00:17:05.932
+Sono un ingegnere.
+
+00:17:05.932 --> 00:17:07.917
+E penso sia realmente --
+
+00:17:07.917 --> 00:17:09.762
+sono felice
+che ci siano persone
+
+00:17:09.762 --> 00:17:12.328
+che passeggiano fissando le nuvole,
+
+00:17:12.328 --> 00:17:15.197
+guardando le stelle
+e dicendo "voglio andare là".
+
+00:17:15.197 --> 00:17:16.681
+Ma io guardo a terra,
+
+00:17:16.681 --> 00:17:19.564
+voglio sistemare la buca
+proprio di fronte a me
+
+00:17:19.564 --> 00:17:20.939
+prima di caderci dentro.
+
+00:17:20.939 --> 00:17:22.575
+Io sono così.
+
+00:17:22.575 --> 00:17:23.718
+(Segni di approvazione)
+
+00:17:23.718 --> 00:17:25.059
+(Applausi)
+
+00:17:25.059 --> 00:17:29.355
+CA: Mi hai parlato di questi 2
+personaggi la scorsa settimana.
+
+00:17:29.355 --> 00:17:32.206
+Chi sono, e che rapporti
+hai con loro ?
+
+00:17:32.206 --> 00:17:35.871
+LT: È una specie di cliché
+nel mondo della tecnologia,
+
+00:17:35.871 --> 00:17:37.897
+la storia di Tesla contro Edison,
+
+00:17:37.897 --> 00:17:42.858
+dove Tesla appare come un visionario
+con idee pazze.
+
+00:17:42.858 --> 00:17:45.665
+La gente ama Tesla.
+
+00:17:45.665 --> 00:17:48.681
+Ci sono persone che danno
+il suo nome alla loro azienda.
+
+00:17:48.681 --> 00:17:51.372
+(Risate)
+
+00:17:51.372 --> 00:17:53.997
+L'altra persona è Edison,
+
+00:17:53.997 --> 00:17:57.533
+che spesso è denigrato 
+come fosse mediocre
+
+00:17:57.533 --> 00:17:59.484
+ed è --
+
+00:17:59.484 --> 00:18:02.221
+la sua citazione più famosa è:
+
+00:18:02.221 --> 00:18:07.389
+"Il genio è 1% ispirazione
+e 99% traspirazione".
+
+00:18:07.389 --> 00:18:08.872
+E io sto dalla parte di Edison,
+
+00:18:08.872 --> 00:18:11.079
+anche se affascina meno la gente.
+
+00:18:11.079 --> 00:18:14.123
+Perché se paragoni i due,
+
+00:18:14.123 --> 00:18:18.679
+Tesla ha il tipo di idee
+che fanno presa, in questi tempi;
+
+00:18:18.679 --> 00:18:21.845
+ma chi ha realmente cambiato il mondo?
+
+00:18:21.845 --> 00:18:25.258
+Edison può non essere stato
+simpatico come persona,
+
+00:18:25.258 --> 00:18:28.419
+ma ha fatto molto --
+
+00:18:28.419 --> 00:18:30.869
+forse non era così cerebrale,
+
+00:18:30.869 --> 00:18:33.121
+cosi visionario.
+
+00:18:33.121 --> 00:18:37.672
+Ma io sono più Edison che Tesla.
+
+00:18:37.672 --> 00:18:40.128
+CA: Il tema di TED questa
+settimana sono i sogni:
+
+00:18:40.128 --> 00:18:41.581
+sogni grandi, fieri, audaci.
+
+00:18:41.581 --> 00:18:43.326
+Tu ne sei il vero antidoto.
+
+00:18:43.326 --> 00:18:45.460
+LT: Sto cercando 
+di sgonfiare un po', sì.
+
+00:18:45.460 --> 00:18:46.636
+CA: E va bene.
+
+00:18:46.636 --> 00:18:47.739
+(Risate)
+
+00:18:47.739 --> 00:18:50.879
+Sei il benvenuto.
+
+00:18:50.879 --> 00:18:53.824
+Aziende come Google e molti altri
+hanno fatto, probabilmente,
+
+00:18:53.824 --> 00:18:56.049
+miliardi di dollari
+con il tuo software.
+
+00:18:56.049 --> 00:18:57.217
+La cosa non ti fa incavolare?
+
+00:18:57.217 --> 00:18:58.401
+LT: No.
+
+00:18:58.401 --> 00:19:01.062
+No, non mi fa arrabbiare 
+per alcune ragioni.
+
+00:19:01.062 --> 00:19:03.090
+La prima è che la vita
+mi sta andando bene.
+
+00:19:03.090 --> 00:19:04.941
+Veramente bene.
+
+00:19:04.941 --> 00:19:06.551
+L'altra ragione è che --
+
+00:19:06.551 --> 00:19:11.901
+Senza pubblicare l'intero codice
+e lasciarlo andare,
+
+00:19:11.901 --> 00:19:14.146
+Linux non sarebbe mai stato quello che è.
+
+00:19:14.146 --> 00:19:19.268
+Mi ha fatto fare cose che non amo,
+come parlare in pubblico;
+
+00:19:19.268 --> 00:19:21.445
+ma allo stesso tempo, 
+questa è un esperienza.
+
+00:19:21.445 --> 00:19:23.238
+Credetemi.
+
+00:19:23.238 --> 00:19:28.414
+Ci sono un sacco di cose in corso
+che mi rendono molto felice
+
+00:19:28.414 --> 00:19:30.964
+e mi fanno pensare
+di aver fatto le scelte giuste.
+
+00:19:30.964 --> 00:19:32.892
+CA: L'idea dell'open source
+
+00:19:32.892 --> 00:19:34.554
+-- penso finiremo qui --
+
+00:19:34.554 --> 00:19:38.628
+l'idea dell'open source è
+pienamente realizzata nel mondo,
+
+00:19:38.628 --> 00:19:41.666
+o si potrebbe andare oltre,
+
+00:19:41.666 --> 00:19:44.736
+ci sono altre cose che potrebbe fare?
+
+00:19:44.736 --> 00:19:46.999
+LT: Ho due idee sul punto.
+
+00:19:46.999 --> 00:19:51.509
+Una ragione per cui l'open source 
+funziona cosi bene in un programma
+
+00:19:51.509 --> 00:19:53.940
+è che alla fine
+
+00:19:53.940 --> 00:19:57.210
+il software tende a essere bianco o nero.
+
+00:19:57.210 --> 00:20:01.392
+Spesso c'è un modo
+abbastanza buono per decidere
+
+00:20:01.392 --> 00:20:05.364
+che quel programma
+è scritto bene e questo no.
+
+00:20:05.364 --> 00:20:07.759
+I programmi o funzionano
+o non funzionano,
+
+00:20:07.759 --> 00:20:12.388
+il che significa che c'è
+meno spazio per le discussioni.
+
+00:20:12.388 --> 00:20:16.053
+E nonostante questo
+ci sono comunque discussioni!
+
+00:20:16.053 --> 00:20:17.986
+In molte altre aree --
+
+00:20:17.986 --> 00:20:21.747
+voglio dire, la gente ha parlato
+di politiche aperte e altre cose così --
+
+00:20:21.747 --> 00:20:24.730
+e talvolta è difficile stabilire
+
+00:20:24.730 --> 00:20:28.509
+se sia possibile applicare
+gli stessi principi ad altre aree
+
+00:20:28.509 --> 00:20:33.969
+perché il bianco e il nero 
+possono diventare non solo grigio,
+
+00:20:33.969 --> 00:20:36.337
+ma colori completamente diversi.
+
+00:20:36.337 --> 00:20:40.728
+Ovviamente nella scienza 
+l'open source sta tornando.
+
+00:20:40.728 --> 00:20:42.386
+La scienza era "aperta", prima.
+
+00:20:42.386 --> 00:20:45.166
+Ma poi ha finito 
+per "chiudersi",
+
+00:20:45.166 --> 00:20:48.732
+con riviste molto costose
+e altre cose così.
+
+00:20:48.732 --> 00:20:52.589
+L'open source sta tornando
+nella scienza,
+
+00:20:52.589 --> 00:20:59.257
+con cose come arXiv
+e riviste ad accesso aperto.
+
+00:20:59.257 --> 00:21:01.240
+Anche Wikipedia ha cambiato il mondo.
+
+00:21:01.240 --> 00:21:02.721
+Ci sono altri esempi,
+
+00:21:02.721 --> 00:21:05.658
+e sono sicuro che ne arriveranno altri.
+
+00:21:05.658 --> 00:21:07.251
+CA: Ma tu non sei visionario,
+
+00:21:07.251 --> 00:21:09.233
+e non sta a te citarli.
+
+00:21:09.233 --> 00:21:10.411
+LT: No.
+
+00:21:10.411 --> 00:21:11.478
+(Risate)
+
+00:21:11.478 --> 00:21:13.470
+Sta a voi ragazzi farlo, giusto ?
+
+00:21:13.470 --> 00:21:14.759
+CA: Esatto.
+
+00:21:14.759 --> 00:21:15.938
+Linus Torvalds,
+
+00:21:15.938 --> 00:21:18.209
+grazie per Linux,
+grazie per Internet,
+
+00:21:18.209 --> 00:21:20.095
+grazie per tutti i telefoni Android.
+
+00:21:20.095 --> 00:21:23.317
+Grazie per essere venuto qui a TED
+a parlarci così tanto di te.
+
+00:21:23.317 --> 00:21:24.503
+LT: Grazie.
+
+00:21:24.503 --> 00:21:28.933
+(Applausi)
+

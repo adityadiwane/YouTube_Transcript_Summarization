@@ -1,0 +1,452 @@
+WEBVTT
+Kind: captions
+Language: sr
+
+00:00:00.000 --> 00:00:07.000
+Prevodilac: Stefan Zrnović
+Lektor: Mile Živković
+
+00:00:12.564 --> 00:00:16.209
+Moji studenti i ja radimo
+na veoma malim robotima.
+
+00:00:16.209 --> 00:00:18.426
+Možete ih smatrati robotičkim verzijama
+
+00:00:18.426 --> 00:00:22.016
+nečega što vam je veoma poznato: mrav.
+
+00:00:22.016 --> 00:00:24.776
+Svi znamo da mravi i drugi insekti
+ove veličine
+
+00:00:24.776 --> 00:00:27.012
+mogu da urade gotovo neverovatne stvari.
+
+00:00:27.012 --> 00:00:30.197
+Svi smo videli grupu mrava,
+ili neki oblik toga,
+
+00:00:30.197 --> 00:00:34.467
+kako mili po vašem čipsu
+na pikniku, na primer.
+
+00:00:34.467 --> 00:00:37.910
+Ali koji su pravi izazovi
+pri konstruisanju ovih mrava?
+
+00:00:37.910 --> 00:00:41.861
+Pre svega, kako da ostvarimo
+sposobnost mrava
+
+00:00:41.861 --> 00:00:43.909
+u robotu iste veličine?
+
+00:00:43.909 --> 00:00:46.513
+Prvo treba da shvatimo
+kako ih pokrenuti
+
+00:00:46.513 --> 00:00:47.923
+kada su toliko mali.
+
+00:00:47.923 --> 00:00:50.223
+Treba nam mehanizam poput nogu
+i efikasnih motora
+
+00:00:50.223 --> 00:00:52.072
+kako bi potpomogli to kretanje,
+
+00:00:52.072 --> 00:00:54.563
+i trebaju nam senzori, struja i kontrola
+
+00:00:54.563 --> 00:00:58.525
+kako bismo sve sastavili
+u poluinteligentnog robota mrava.
+
+00:00:58.525 --> 00:01:01.071
+I na kraju, da bismo učinili
+ove stvari funkcionalnim,
+
+00:01:01.071 --> 00:01:05.019
+želimo da dosta njih funkcioniše
+skladno kako bi postigli više.
+
+00:01:05.019 --> 00:01:07.710
+Počeću sa pokretljivošću.
+
+00:01:07.710 --> 00:01:10.871
+Insekti se neverovatno dobro kreću.
+
+00:01:10.871 --> 00:01:12.559
+Ovo je video sa Berklija.
+
+00:01:12.559 --> 00:01:15.672
+On prikazuje bubašvabu kako se kreće
+po neverovatno teškom terenu
+
+00:01:15.672 --> 00:01:17.465
+bez prevrtanja, a ovo može da uradi
+
+00:01:17.465 --> 00:01:21.192
+jer su joj noge sačinjenje
+od kombinacije čvrstih materijala,
+
+00:01:21.192 --> 00:01:23.545
+koje tradicionalno koistimo
+za pravljenje robota,
+
+00:01:23.545 --> 00:01:25.144
+i mekih materijala.
+
+00:01:26.374 --> 00:01:30.201
+Skakanje je drugi veoma interesantan
+način kretanja kada ste sićušni.
+
+00:01:30.201 --> 00:01:34.270
+Ovi insekti energiju skladište u odskoku
+i oslobađaju je veoma brzo da bi imali
+
+00:01:34.270 --> 00:01:38.281
+dosta snage koja im je potrebna
+da iskoče iz vode, na primer.
+
+00:01:38.281 --> 00:01:41.403
+Jedan od velikih doprinosa
+iz moje laboratorije
+
+00:01:41.403 --> 00:01:44.153
+bio je kombinovanje tvrdih
+i mekih materijala,
+
+00:01:44.153 --> 00:01:46.367
+u veoma, veoma malim mehanizmima.
+
+00:01:46.367 --> 00:01:49.532
+Ovaj skačući mehanizam
+je prečnika četiri milimetara,
+
+00:01:49.532 --> 00:01:51.220
+dakle veoma je mali.
+
+00:01:51.220 --> 00:01:55.058
+Tvrdi materijal je ovde silikon,
+a meki materijal je silikonska gumica.
+
+00:01:55.058 --> 00:01:57.953
+Osnovni plan je da ovo kompresujemo,
+
+00:01:57.953 --> 00:02:00.654
+smestimo energiju u federe,
+a onda je pustimo da skače.
+
+00:02:00.654 --> 00:02:04.037
+Dakle, trenutno nema nikakvih
+motora niti struje.
+
+00:02:04.037 --> 00:02:06.800
+Ovo je podstaknuto metodom koju
+u mojoj laboratoriji zovemo
+
+00:02:06.800 --> 00:02:09.472
+"diplomac sa pincetom" 
+(Smeh)
+
+00:02:09.472 --> 00:02:11.306
+Ono što ćete videti u narednom videu
+
+00:02:11.306 --> 00:02:14.333
+je ovaj momak koji radi
+iznenađujuće dobar skok.
+
+00:02:14.333 --> 00:02:17.947
+Ovo je Eron, diplomac sa pincetama,
+
+00:02:17.947 --> 00:02:20.630
+i to što vidite je mehanizam
+veličine četiri milimetara
+
+00:02:20.630 --> 00:02:22.841
+kako skače skoro 40
+centimetara u visinu.
+
+00:02:22.841 --> 00:02:25.265
+To je skoro 100 puta više
+od njegove dužine.
+
+00:02:25.265 --> 00:02:27.221
+I preživljava, odbija se o sto,
+
+00:02:27.221 --> 00:02:30.735
+neverovatno je otporan, i naravno
+preživljava dobro dok ga ne izgubimo
+
+00:02:30.735 --> 00:02:33.361
+jer je veoma mali.
+
+00:02:33.361 --> 00:02:35.970
+Na kraju želimo da dodamo motore ovome,
+
+00:02:35.970 --> 00:02:39.546
+i imamo studente u laboratoriji koji
+rade na motorima milimetarske veličine
+
+00:02:39.546 --> 00:02:42.686
+koji bi se na kraju integrisali
+u male, autonomne robote.
+
+00:02:42.686 --> 00:02:46.267
+Ali da bismo posmatrali mobilnost
+i kretanje na ovoj veličini,
+
+00:02:46.267 --> 00:02:48.241
+moramo da varamo
+i koristimo magnete.
+
+00:02:48.241 --> 00:02:51.317
+Ovo pokazuje ono što će na kraju
+biti deo mikro-robotske noge,
+
+00:02:51.317 --> 00:02:53.334
+i možete videti zglobove
+od silikonske gume
+
+00:02:53.334 --> 00:02:55.963
+i tu je i utisnuti magnet koji se pokreće
+
+00:02:55.963 --> 00:02:58.266
+spoljašnjim magnetnim poljem.
+
+00:02:58.266 --> 00:03:00.949
+Ovo dovodi do robota kojeg
+sam vam pokazala.
+
+00:03:01.509 --> 00:03:05.110
+Istinski zanimljiva stvar je da ovaj robot
+može da nam pomogne da shvatimo
+
+00:03:05.110 --> 00:03:07.117
+kako se insekti kreću u toj veličini.
+
+00:03:07.117 --> 00:03:09.342
+Imamo stvarno dobar model
+za kretanje svega
+
+00:03:09.342 --> 00:03:11.304
+od bubašvabe pa do slona.
+
+00:03:11.304 --> 00:03:14.228
+Svi se krećemo na ovaj poskakujući način
+kada trčimo.
+
+00:03:14.228 --> 00:03:18.513
+Ali kada sam stvarno mala, sile među
+mojim stopalima i zemljom
+
+00:03:18.513 --> 00:03:21.288
+uticaće na moju pokretljivost mnogo više
+nego moja masa,
+
+00:03:21.288 --> 00:03:23.642
+što uzrokuje skačuće kretanje.
+
+00:03:23.642 --> 00:03:25.317
+Ovaj momak još uvek ne funkcioniše,
+
+00:03:25.317 --> 00:03:28.392
+ali imamo malo veće verzije koje
+trče unaokolo.
+
+00:03:28.392 --> 00:03:32.277
+Ovo je veličine jednog kubnog centimetra,
+dakle veoma maleno,
+
+00:03:32.277 --> 00:03:35.179
+i došli smo do trčanja brzinom
+10 telesnih dužina po sekundi,
+
+00:03:35.179 --> 00:03:36.765
+što je 10 centimetara po sekundi.
+
+00:03:36.765 --> 00:03:38.598
+Ovo je prilično brzo za mališu,
+
+00:03:38.598 --> 00:03:40.960
+i ograničen je samo našom test postavkom.
+
+00:03:40.960 --> 00:03:43.607
+Ipak, ovo vam daje ideju kako to
+trenutno funkcioniše.
+
+00:03:43.657 --> 00:03:47.781
+Možemo i da napravimo 3D štampane verzije
+ovog robta koji može da prebrodi prepreke,
+
+00:03:47.781 --> 00:03:51.280
+poput bubašvabe koju ste prethodno videli.
+
+00:03:51.280 --> 00:03:54.166
+Na kraju želimo da dodamo sve
+na telo robota.
+
+00:03:54.166 --> 00:03:57.859
+Želimo čulnost, struju, kontrolu,
+impulse sve zajedno,
+
+00:03:57.859 --> 00:04:00.765
+ali ne treba sve da bude inspirisano
+prirodom.
+
+00:04:00.765 --> 00:04:03.900
+Ovaj robot veličine je Tiktaka.
+
+00:04:03.900 --> 00:04:07.849
+U ovom slučaju, umesto magneta
+ili mišića za pokretanje,
+
+00:04:07.849 --> 00:04:10.274
+koristimo rakete.
+
+00:04:10.274 --> 00:04:12.940
+Ovo je mikroskopski energetski materijal,
+
+00:04:12.940 --> 00:04:15.539
+i možemo da napravimo male piksele,
+
+00:04:15.539 --> 00:04:19.533
+i možemo da stavimo jedan od tih piksela
+na stomak ovog robota,
+
+00:04:19.533 --> 00:04:23.722
+a zatim će on odskočiti kada
+oseti pojačanje svetla.
+
+00:04:24.085 --> 00:04:26.618
+Sledeći video je jedan od mojih omiljenih.
+
+00:04:26.618 --> 00:04:29.658
+Imate ovog robota od 300 miligrama
+
+00:04:29.658 --> 00:04:32.064
+koji skače oko osam centimetara u visinu.
+
+00:04:32.064 --> 00:04:34.974
+Veličine je samo 4x4x7 milimetara.
+
+00:04:34.974 --> 00:04:37.130
+Videćete veliki odsjaj na početku
+
+00:04:37.130 --> 00:04:38.952
+kada se oslobodi energetski
+potencijal,
+
+00:04:38.952 --> 00:04:40.530
+i robot se kreće kroz vazduh.
+
+00:04:40.530 --> 00:04:42.139
+Tu je taj veliki odsjaj
+
+00:04:42.139 --> 00:04:45.336
+i možete videti robota
+kako skače kroz vazduh.
+
+00:04:45.336 --> 00:04:48.368
+Nema povodaca niti žica povezanih na ovo.
+
+00:04:48.368 --> 00:04:50.862
+Sve je na samom robotu
+i on je skočio reagujući
+
+00:04:50.862 --> 00:04:55.243
+na stonu lampu
+koju uključuje student pored njega.
+
+00:04:55.243 --> 00:04:58.897
+Mislim da možete da zamislite sve
+fine stvari koje bismo mogli da uradimo
+
+00:04:58.897 --> 00:05:03.604
+sa robotima koji mogu da trče, puze,
+skaču i kotrljaju se na ovoj veličini.
+
+00:05:03.604 --> 00:05:07.394
+Zamislite ruševine nakon
+prirodne katastrofe poput zemljotresa.
+
+00:05:07.394 --> 00:05:09.953
+Zamislite ove male robote
+kako trče kroz taj šljunak
+
+00:05:09.953 --> 00:05:12.171
+da bi pronašli preživele.
+
+00:05:12.171 --> 00:05:15.127
+Ili zamislite gomilu malih
+robota kako trče oko mosta
+
+00:05:15.127 --> 00:05:17.416
+kako bi ga istražili i proverili
+da li je siguran
+
+00:05:17.416 --> 00:05:19.326
+da ne biste imali lomove poput ovih,
+
+00:05:19.326 --> 00:05:22.883
+što se desilo u predgrađu
+Mineapolisa 2007. godine.
+
+00:05:22.883 --> 00:05:24.995
+Ili samo zamislite šta biste
+mogli da uradite
+
+00:05:24.995 --> 00:05:27.638
+kad biste imali robote koji
+mogu da plivaju kroz vašu krv.
+
+00:05:27.638 --> 00:05:29.851
+Zar ne? "Fantastično putovanje",
+Isaka Asimova.
+
+00:05:29.851 --> 00:05:33.636
+Ili bi mogli da operišu,
+a da vas uopšte ne otvaraju.
+
+00:05:33.636 --> 00:05:36.936
+Ili bismo mogli da drastično promenimo
+način na koji gradimo stvari
+
+00:05:36.936 --> 00:05:40.343
+da naši mali roboti rade
+isto što i termiti,
+
+00:05:40.343 --> 00:05:43.108
+i grade ove neverovatne
+nasipe visine osam metara,
+
+00:05:43.108 --> 00:05:47.196
+dobro ventilisane zgrade za druge termite
+
+00:05:47.196 --> 00:05:49.287
+u Africi i Australiji.
+
+00:05:49.287 --> 00:05:51.717
+Stoga mislim da sam vam dala
+neke mogućnosti
+
+00:05:51.717 --> 00:05:54.154
+onoga što možemo da učinimo
+sa ovim malim robotima.
+
+00:05:54.154 --> 00:05:58.561
+I do sada smo ostvarili određene napretke,
+ali predstoji nam dugačak put,
+
+00:05:58.561 --> 00:06:01.419
+i nadam se neki od vas mogu
+da doprinesu ka toj destinaciji.
+
+00:06:01.419 --> 00:06:03.187
+Hvala vam mnogo.
+
+00:06:03.187 --> 00:06:05.391
+(Aplauz)
+

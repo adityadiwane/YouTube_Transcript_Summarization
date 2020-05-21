@@ -1,0 +1,458 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Carlos Espírito Santo
+Revisora: Margarida Ferreira
+
+00:00:12.564 --> 00:00:16.209
+Eu e os meus alunos trabalhamos
+com robôs muito pequenos.
+
+00:00:16.209 --> 00:00:18.426
+Podem pensar neles como
+versões robóticas
+
+00:00:18.426 --> 00:00:22.346
+de algo com que estão todos
+familiarizados: uma formiga.
+
+00:00:22.346 --> 00:00:25.166
+Todos sabemos que as formigas
+e outros insetos a esta escala
+
+00:00:25.166 --> 00:00:27.012
+podem fazer coisas incríveis.
+
+00:00:27.012 --> 00:00:30.197
+Todos vimos já um grupo
+de formigas ou algo parecido,
+
+00:00:30.197 --> 00:00:34.467
+a carregar uma batata frita
+num piquenique, por exemplo.
+
+00:00:34.467 --> 00:00:37.910
+Quais são os verdadeiros desafios
+de construir estas formigas?
+
+00:00:37.910 --> 00:00:41.861
+Em primeiro lugar, como conseguimos
+as capacidades de uma formiga
+
+00:00:41.861 --> 00:00:43.909
+num robô do mesmo tamanho?
+
+00:00:43.909 --> 00:00:46.343
+Primeiro temos que descobrir
+como fazê-los andar,
+
+00:00:46.343 --> 00:00:47.603
+sendo tão pequenos.
+
+00:00:47.603 --> 00:00:50.363
+Precisamos de mecanismos como
+pernas e motores eficientes
+
+00:00:50.363 --> 00:00:52.072
+de modo a apoiar essa locomoção.
+
+00:00:52.072 --> 00:00:54.563
+Precisamos de sensores,
+potência e controlo
+
+00:00:54.563 --> 00:00:58.525
+para juntar tudo num robô formiga
+semi-inteligente.
+
+00:00:58.525 --> 00:01:01.071
+Finalmente, para tornar isto
+realmente funcional
+
+00:01:01.071 --> 00:01:05.019
+queremos que trabalhem em conjunto
+para fazerem coisas mais importantes.
+
+00:01:05.019 --> 00:01:07.710
+Vou começar com a mobilidade.
+
+00:01:07.710 --> 00:01:10.871
+Os insetos deslocam-se muito bem.
+
+00:01:10.871 --> 00:01:12.469
+Este vídeo é da UC Berkeley.
+
+00:01:12.469 --> 00:01:15.342
+Mostra uma barata a mover-se
+sobre terreno muito irregular,
+
+00:01:15.342 --> 00:01:17.195
+sem tombar.
+
+00:01:17.195 --> 00:01:21.192
+Ela consegue fazer isto porque as suas
+pernas combinam materiais rígidos,
+
+00:01:21.192 --> 00:01:23.545
+que usamos tradicionalmente
+para fazer robôs,
+
+00:01:23.545 --> 00:01:25.144
+com materiais macios.
+
+00:01:26.374 --> 00:01:30.201
+Quando se é muito pequeno, outra forma
+interessante de deslocação é saltar.
+
+00:01:30.201 --> 00:01:34.270
+Estes insetos armazenam energia numa mola
+e libertam-na muito rapidamente,
+
+00:01:34.270 --> 00:01:38.281
+para conseguirem a potência necessária
+para sair da água, por exemplo.
+
+00:01:38.281 --> 00:01:41.403
+Uma das grandes contribuições
+do meu laboratório
+
+00:01:41.403 --> 00:01:44.153
+tem sido combinar
+materiais rígidos e macios
+
+00:01:44.153 --> 00:01:46.367
+em mecanismos muito, muito pequenos.
+
+00:01:46.367 --> 00:01:49.532
+Este mecanismo de salto tem cerca
+de quatro milímetros de lado.
+
+00:01:49.532 --> 00:01:51.220
+É muito pequeno.
+
+00:01:51.220 --> 00:01:55.388
+O material rígido aqui é silicone,
+e o macio é borracha de silicone.
+
+00:01:55.388 --> 00:01:57.953
+A ideia básica é que vamos
+comprimir isto,
+
+00:01:57.953 --> 00:02:00.854
+armazenar energia nas molas
+e depois soltá-la para saltar.
+
+00:02:00.854 --> 00:02:04.037
+Ainda não estamos a usar
+motores ou potência.
+
+00:02:04.037 --> 00:02:07.090
+Isto é acionado com um método a que
+chamamos, no meu laboratório,
+
+00:02:07.090 --> 00:02:09.472
+"universitário com pinças".
+(Risos)
+
+00:02:09.472 --> 00:02:11.306
+O que verão no próximo vídeo
+
+00:02:11.306 --> 00:02:14.333
+é um tipo a portar-se muito
+bem nos seus saltos.
+
+00:02:14.333 --> 00:02:17.947
+Este é o Aaron, o universitário
+em questão, com as pinças.
+
+00:02:17.947 --> 00:02:20.630
+O que veem é um mecanismo
+de quatro milímetros
+
+00:02:20.630 --> 00:02:22.841
+a saltar cerca de 40
+centímetros em altura.
+
+00:02:22.841 --> 00:02:25.265
+É quase 100 vezes o seu comprimento.
+
+00:02:25.265 --> 00:02:27.221
+Ele sobrevive, balança na mesa,
+
+00:02:27.221 --> 00:02:30.735
+é incrivelmente robusto e sobrevive
+muito bem até que o perdemos,
+
+00:02:30.735 --> 00:02:33.651
+por ser tão pequeno.
+
+00:02:33.651 --> 00:02:36.390
+Em última análise, queremos
+acrescentar motores a isto.
+
+00:02:36.390 --> 00:02:39.576
+Temos estudantes no laboratório
+a trabalhar em motores milimétricos,
+
+00:02:39.576 --> 00:02:43.026
+para serem integrados em robôs
+pequenos e autónomos.
+
+00:02:43.026 --> 00:02:46.567
+De modo a trabalhar a mobilidade e a
+locomoção a esta escala, para começar,
+
+00:02:46.567 --> 00:02:48.487
+estamos a fazer batota e a usar ímanes.
+
+00:02:48.487 --> 00:02:51.417
+Isto mostra o que poderá ser parte
+da perna de um micro-robô.
+
+00:02:51.417 --> 00:02:53.474
+Podem ver as juntas
+de borracha de silicone.
+
+00:02:53.474 --> 00:02:55.963
+Existe um íman incorporado
+que está a ser deslocado
+
+00:02:55.963 --> 00:02:58.266
+por um campo magnético externo.
+
+00:02:58.266 --> 00:03:00.949
+Isto leva-nos ao robô
+que vos mostrei antes.
+
+00:03:01.959 --> 00:03:05.000
+A coisa mais interessante que este
+robô nos ajuda a perceber
+
+00:03:05.000 --> 00:03:07.007
+é como os insetos se movem, a esta escala.
+
+00:03:07.007 --> 00:03:09.392
+Temos um modelo realmente bom
+de como tudo se move,
+
+00:03:09.392 --> 00:03:11.304
+desde uma barata até a um elefante.
+
+00:03:11.304 --> 00:03:14.228
+Todos nos movemos de um modo
+saltitante quando corremos.
+
+00:03:14.228 --> 00:03:18.513
+Quando se é muito pequeno,
+as forças entre os pés e o chão
+
+00:03:18.513 --> 00:03:21.288
+afetam muito mais a locomoção
+do que a massa,
+
+00:03:21.288 --> 00:03:23.642
+que é o que causa aquele
+movimento saltitante.
+
+00:03:23.642 --> 00:03:25.317
+Este tipo ainda não funciona,
+
+00:03:25.317 --> 00:03:28.392
+mas temos versões ligeiramente
+maiores que conseguem correr.
+
+00:03:28.392 --> 00:03:32.657
+Isto tem cerca de um centímetro cúbico,
+um centímetro de lado, muito pequeno.
+
+00:03:32.657 --> 00:03:36.645
+Pusemo-lo a correr 10 comprimentos do seu
+corpo por segundo, ou 10 cm por segundo.
+
+00:03:36.645 --> 00:03:38.739
+Bastante rápido, 
+para um tipo tão pequeno,
+
+00:03:38.739 --> 00:03:40.820
+e só está limitado pelo nossos testes.
+
+00:03:40.820 --> 00:03:44.037
+Isto dá-nos uma ideia de como
+as coisas funcionam neste momento.
+
+00:03:44.037 --> 00:03:47.781
+Também podemos fazer versões impressas
+em 3D que conseguem trepar obstáculos,
+
+00:03:47.781 --> 00:03:51.280
+como a barata, que viram antes.
+
+00:03:51.280 --> 00:03:54.166
+Em última análise, queremos
+acrescentar tudo a este robô.
+
+00:03:54.166 --> 00:03:57.859
+Queremos sensores, potência,
+controlo, tudo acionado em conjunto.
+
+00:03:57.859 --> 00:04:00.765
+Nem tudo tem que ser
+inspirado na biologia.
+
+00:04:00.765 --> 00:04:03.900
+Este robô tem cerca
+do tamanho de um Tic Tac.
+
+00:04:03.900 --> 00:04:07.849
+Neste caso, em vez de ímanes
+ou músculos para se mover,
+
+00:04:07.849 --> 00:04:10.274
+usamos foguetes.
+
+00:04:10.274 --> 00:04:12.940
+Isto é um material energético
+micro fabricado.
+
+00:04:12.940 --> 00:04:15.539
+Podemos criar pequenos
+pontos deste material,
+
+00:04:15.539 --> 00:04:19.326
+e podemos pôr um desses pontos
+na barriga deste robô.
+
+00:04:19.326 --> 00:04:23.722
+Assim, este robô vai saltar quando
+sentir um aumento de luz.
+
+00:04:24.645 --> 00:04:26.618
+O próximo vídeo é um dos meus favoritos.
+
+00:04:26.618 --> 00:04:29.658
+Temos aqui um robô de 300 miligramas
+
+00:04:29.658 --> 00:04:32.064
+a saltar oito centímetros no ar.
+
+00:04:32.064 --> 00:04:34.974
+Só tem quatro por quatro por sete
+milímetros de tamanho.
+
+00:04:34.974 --> 00:04:37.130
+Verão um grande clarão no início,
+
+00:04:37.130 --> 00:04:38.622
+quando a energia for libertada,
+
+00:04:38.622 --> 00:04:40.530
+e o robô aos tombos pelo ar.
+
+00:04:40.530 --> 00:04:42.139
+Aí está o grande clarão,
+
+00:04:42.139 --> 00:04:45.336
+e podemos ver o robô
+a subir através do ar.
+
+00:04:45.336 --> 00:04:48.368
+Não há aqui amarras nem fios de ligação.
+
+00:04:48.368 --> 00:04:50.862
+Está tudo integrado e saltou em resposta
+
+00:04:50.862 --> 00:04:54.673
+ao facto de o estudante ter apenas
+ligado o candeeiro ao seu lado.
+
+00:04:55.823 --> 00:04:58.897
+Poderão imaginar todas as coisas
+fixes que podemos fazer
+
+00:04:58.897 --> 00:05:03.604
+com robôs que conseguem correr,
+rastejar, pular e rolar, a esta escala.
+
+00:05:03.604 --> 00:05:07.394
+Imaginem os destroços resultantes de um
+desastre natural como um terramoto.
+
+00:05:07.394 --> 00:05:10.043
+Imaginem estes robôs a correr
+através desses destroços,
+
+00:05:10.043 --> 00:05:12.171
+à procura de sobreviventes.
+
+00:05:12.171 --> 00:05:15.127
+Ou imaginem uma série de pequenos
+robôs a correr por uma ponte,
+
+00:05:15.127 --> 00:05:17.506
+para poderem inspecioná-la
+e garantir que é segura,
+
+00:05:17.506 --> 00:05:19.326
+para evitar colapsos como este,
+
+00:05:19.326 --> 00:05:23.233
+que sucedeu nos arredores
+de Mineápolis em 2007.
+
+00:05:23.233 --> 00:05:24.995
+Imaginem o que poderíamos fazer
+
+00:05:24.995 --> 00:05:27.808
+se tivéssemos robôs que nadassem
+através do nosso sangue.
+
+00:05:27.808 --> 00:05:29.851
+Certo? "Viagem Fantástica",
+de Isaac Asimov.
+
+00:05:29.851 --> 00:05:34.206
+Se conseguissem operar sem terem
+que nos cortar e abrir, em primeiro lugar.
+
+00:05:34.206 --> 00:05:37.156
+Se pudéssemos mudar radicalmente
+o modo de construir as coisas,
+
+00:05:37.156 --> 00:05:40.343
+se tivéssemos os nossos pequenos robôs
+a trabalhar como as térmitas,
+
+00:05:40.343 --> 00:05:43.108
+construindo incríveis montes
+de oito metros de altura,
+
+00:05:43.108 --> 00:05:47.196
+prédios de apartamentos muito bem
+ventilados, para outras térmitas,
+
+00:05:47.196 --> 00:05:49.687
+em África e na Austrália.
+
+00:05:49.687 --> 00:05:51.797
+Penso ter-vos dado
+algumas das possibilidades
+
+00:05:51.797 --> 00:05:54.154
+do que podemos fazer
+com estes pequenos robôs.
+
+00:05:54.154 --> 00:05:58.561
+Já fizemos alguns avanços, até agora, 
+mas há ainda um longo caminho a percorrer.
+
+00:05:58.561 --> 00:06:01.419
+Espero que alguns de vós possam
+contribuir para esse objetivo.
+
+00:06:01.419 --> 00:06:02.687
+Muito obrigado.
+
+00:06:02.687 --> 00:06:05.391
+(Aplausos)
+

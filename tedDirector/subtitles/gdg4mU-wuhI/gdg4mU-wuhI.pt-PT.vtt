@@ -1,0 +1,1411 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Samuel Almeida
+Revisora: Margarida Ferreira
+
+00:00:17.170 --> 00:00:19.570
+Como normalmente assumo o papel
+
+00:00:19.570 --> 00:00:21.679
+de tentar explicar às pessoas
+
+00:00:21.679 --> 00:00:25.701
+quão maravilhosas vão ser 
+as novas tecnologias que aí vêm,
+
+00:00:25.779 --> 00:00:29.013
+pensei que, como aqui estava entre amigos,
+
+00:00:29.013 --> 00:00:32.446
+vos contaria o que realmente penso
+
+00:00:32.446 --> 00:00:33.998
+e tentaria olhar para trás
+
+00:00:33.998 --> 00:00:38.120
+e compreender o que realmente se passa
+
+00:00:38.120 --> 00:00:42.661
+com estes surpreendentes
+saltos da tecnologia
+
+00:00:42.683 --> 00:00:46.072
+que parecem tão rápidos 
+que mal damos conta deles.
+
+00:00:46.590 --> 00:00:48.438
+Portanto, começo por mostrar apenas
+
+00:00:48.455 --> 00:00:50.633
+um diapositivo de tecnologia muito chato.
+
+00:00:52.080 --> 00:00:55.569
+— agradeço que mostrem 
+o diapositivo que está ligado.
+
+00:00:57.073 --> 00:00:59.458
+Isto é apenas um diapositivo aleatório
+
+00:00:59.458 --> 00:01:01.620
+que selecionei do meu ficheiro.
+
+00:01:01.620 --> 00:01:04.398
+O que vos quero mostrar 
+não são tanto os detalhes,
+
+00:01:04.409 --> 00:01:05.967
+mas a sua forma geral.
+
+00:01:05.967 --> 00:01:08.856
+Acontece que isto é sobre uma análise
+que estamos a fazer
+
+00:01:08.856 --> 00:01:11.985
+sobre o poder dos microprocessadores RISC,
+
+00:01:11.985 --> 00:01:14.541
+em comparação com o poder de redes locais.
+
+00:01:14.910 --> 00:01:18.852
+O que é interessante 
+é que este diapositivo
+
+00:01:18.852 --> 00:01:22.741
+— como tantos outros diapositivos 
+de tecnologia, a que estamos habituados —
+
+00:01:22.741 --> 00:01:26.241
+é como uma linha reta 
+numa curva semi-log.
+
+00:01:26.563 --> 00:01:28.774
+Por outras palavras, cada passo aqui
+
+00:01:28.774 --> 00:01:31.596
+representa uma ordem de grandeza
+numa escala de desempenho.
+
+00:01:32.148 --> 00:01:34.726
+E isto é uma coisa nova,
+
+00:01:34.726 --> 00:01:37.981
+falarmos de tecnologia 
+com curvas semi-log.
+
+00:01:38.238 --> 00:01:40.838
+Algo muito estranho está a acontecer aqui.
+
+00:01:40.847 --> 00:01:42.858
+E é sobre isso que vou falar.
+
+00:01:42.947 --> 00:01:45.369
+Portanto, se puderem aumentar a luz.
+
+00:01:48.660 --> 00:01:50.568
+Podem aumentar a luz um pouco mais,
+
+00:01:50.574 --> 00:01:53.219
+porque agora vou usar 
+apenas uma folha de papel.
+
+00:01:53.219 --> 00:01:56.586
+Porque é que desenhamos 
+curvas tecnológicas em curvas semi-log?
+
+00:01:56.642 --> 00:01:59.720
+A resposta é, se a desenhasse
+numa curva normal
+
+00:01:59.720 --> 00:02:02.165
+onde, por exemplo, aqui são anos,
+
+00:02:02.165 --> 00:02:04.387
+isto é uma medida de tempo qualquer,
+
+00:02:04.429 --> 00:02:07.073
+e aqui é uma medida qualquer de tecnologia
+
+00:02:07.073 --> 00:02:10.629
+que estou a tentar pôr em gráfico,
+
+00:02:10.696 --> 00:02:13.196
+os gráficos parecem um pouco patetas.
+
+00:02:13.225 --> 00:02:15.159
+Ficam assim.
+
+00:02:16.869 --> 00:02:18.669
+E não nos dizem muito.
+
+00:02:20.025 --> 00:02:22.114
+Mas se fizesse um gráfico, por exemplo,
+
+00:02:22.114 --> 00:02:24.770
+sobre a tecnologia de transportes,
+
+00:02:24.770 --> 00:02:26.436
+numa curva semi-log,
+
+00:02:26.440 --> 00:02:28.984
+ficava muito estúpido, 
+pareceria uma linha a direito.
+
+00:02:29.018 --> 00:02:30.829
+Quando algo como isto acontece,
+
+00:02:30.829 --> 00:02:32.907
+as coisas estão a mudar qualitativamente.
+
+00:02:32.907 --> 00:02:36.518
+Portanto, se a tecnologia de transportes
+estivesse a mover-se tão rapidamente
+
+00:02:36.518 --> 00:02:38.873
+como a tecnologia de microprocessadores,
+
+00:02:38.873 --> 00:02:40.462
+então, depois de amanhã,
+
+00:02:40.462 --> 00:02:44.390
+eu podia entrar num táxi
+e chegar a Tóquio em 30 segundos.
+
+00:02:44.390 --> 00:02:46.106
+Mas não está a mover-se assim.
+
+00:02:46.106 --> 00:02:47.704
+E não há nada precedente
+
+00:02:47.704 --> 00:02:50.048
+na história do desenvolvimento tecnológico,
+
+00:02:50.048 --> 00:02:52.205
+deste tipo de crescimento autoalimentado
+
+00:02:52.205 --> 00:02:55.148
+em que se passa por várias
+ordens de grandeza em poucos anos.
+
+00:02:55.618 --> 00:02:58.451
+A pergunta que gostaria de fazer é,
+
+00:02:58.451 --> 00:03:01.640
+se olharem para estas curvas exponenciais,
+
+00:03:01.640 --> 00:03:03.757
+elas não evoluem infinitamente.
+
+00:03:04.547 --> 00:03:08.658
+As coisas não podem continuar a mudar
+à velocidade que estão.
+
+00:03:09.066 --> 00:03:11.088
+Uma de duas coisas vai acontecer.
+
+00:03:11.602 --> 00:03:14.747
+Ou vai mudar para uma curva-S clássica,
+como esta,
+
+00:03:15.719 --> 00:03:18.975
+até surgir uma coisa totalmente diferente
+
+00:03:19.615 --> 00:03:22.615
+ou talvez faça isto.
+
+00:03:23.045 --> 00:03:24.845
+Pouco mais pode fazer.
+
+00:03:24.959 --> 00:03:26.537
+Eu sou otimista,
+
+00:03:26.537 --> 00:03:29.203
+portanto penso que provavelmente
+fará uma coisa assim.
+
+00:03:29.637 --> 00:03:31.948
+Se assim for, isso significa que,
+neste momento,
+
+00:03:31.965 --> 00:03:34.398
+estamos no meio de uma transição.
+
+00:03:34.411 --> 00:03:36.222
+Estamos nesta linha,
+
+00:03:36.222 --> 00:03:39.067
+numa transição entre a forma 
+como o mundo era
+
+00:03:39.067 --> 00:03:41.122
+e a forma como o mundo é.
+
+00:03:41.430 --> 00:03:44.910
+O que eu estou a perguntar, 
+o que tenho questionado,
+
+00:03:44.925 --> 00:03:47.025
+é que forma nova de mundo é este?
+
+00:03:47.025 --> 00:03:49.369
+Qual é o novo estado 
+para o qual o mundo caminha?
+
+00:03:49.748 --> 00:03:52.681
+Porque a transição parece muito, 
+muito confusa
+
+00:03:52.681 --> 00:03:55.059
+quando estamos mesmo no meio dela.
+
+00:03:55.527 --> 00:03:58.382
+Quando eu era miúdo,
+
+00:03:58.382 --> 00:04:00.779
+o futuro era o ano 2000.
+
+00:04:00.792 --> 00:04:03.537
+As pessoas falavam sobre 
+o que aconteceria no ano 2000.
+
+00:04:05.570 --> 00:04:09.415
+Hoje temos aqui uma conferência
+em que pessoas falam sobre o futuro
+
+00:04:09.421 --> 00:04:12.566
+e hão de notar que o futuro 
+continua a ser o ano 2000.
+
+00:04:12.601 --> 00:04:14.446
+É o mais longe que vamos.
+
+00:04:14.481 --> 00:04:17.025
+Por outras palavras, 
+o futuro tem estado a diminuir
+
+00:04:17.025 --> 00:04:21.457
+um ano, por cada ano
+durante toda a minha vida.
+
+00:04:21.457 --> 00:04:23.500
+(Risos)
+
+00:04:23.577 --> 00:04:27.010
+Penso que a razão
+é que todos sentimos
+
+00:04:27.019 --> 00:04:29.426
+que algo está a acontecer ali.
+
+00:04:29.426 --> 00:04:31.948
+Aquela transição está a acontecer. 
+Podemos senti-la.
+
+00:04:31.963 --> 00:04:34.007
+E sabemos que não faz lá muito sentido
+
+00:04:34.007 --> 00:04:35.985
+pensar em daqui a 30, 50 anos.
+
+00:04:35.985 --> 00:04:38.029
+Tudo vai ser tão diferente
+
+00:04:38.068 --> 00:04:41.230
+que uma simples extrapolação 
+do que estamos a fazer
+
+00:04:40.363 --> 00:04:42.496
+simplesmente não faz sentido.
+
+00:04:43.054 --> 00:04:46.520
+Portanto, gostaria de falar
+sobre o que isso poderia ser,
+
+00:04:46.535 --> 00:04:49.367
+sobre que transição poderia ser 
+aquela pela qual passamos.
+
+00:04:50.099 --> 00:04:53.044
+E para fazer isso
+
+00:04:53.076 --> 00:04:55.609
+terei que falar sobre 
+um conjunto de coisas
+
+00:04:55.610 --> 00:04:58.719
+que não tem nada a ver
+com tecnologia e computadores.
+
+00:04:58.719 --> 00:05:00.930
+Penso que a única forma
+de compreender isto
+
+00:05:00.930 --> 00:05:04.742
+é afastarmo-nos e olhar para as coisas 
+numa grande escala temporal.
+
+00:05:05.610 --> 00:05:08.589
+A escala temporal que gostaria de usar
+
+00:05:08.589 --> 00:05:11.890
+é a escala temporal da vida na Terra.
+
+00:05:14.042 --> 00:05:16.475
+Penso que esta imagem faz sentido
+
+00:05:16.475 --> 00:05:19.553
+se olharmos para ela 
+em milhares de milhões de anos de cada vez.
+
+00:05:20.032 --> 00:05:24.098
+Portanto, se voltarmos atrás
+cerca de 2500 milhões de anos,
+
+00:05:24.098 --> 00:05:26.926
+a Terra era um grande rochedo estéril
+
+00:05:26.926 --> 00:05:29.137
+com muitos químicos a flutuar à sua volta.
+
+00:05:30.735 --> 00:05:34.079
+Se olharem para a forma
+como os químicos se organizaram,
+
+00:05:34.097 --> 00:05:36.975
+começamos a perceber 
+como é que o conseguiram.
+
+00:05:38.156 --> 00:05:40.867
+Penso que existem teorias 
+que começam a perceber
+
+00:05:40.886 --> 00:05:42.675
+como tudo começou com o ARN,
+
+00:05:42.692 --> 00:05:44.969
+mas vou contar 
+uma pequena história sobre isso.
+
+00:05:45.252 --> 00:05:49.574
+Naquele tempo,
+havia pequenas gotas de óleo a flutuar
+
+00:05:49.617 --> 00:05:52.395
+que continham vários tipos 
+de receitas de químicos.
+
+00:05:53.258 --> 00:05:54.970
+Algumas dessas gotas de óleo
+
+00:05:54.970 --> 00:05:57.634
+continham uma combinação 
+particular de químicos
+
+00:05:57.634 --> 00:06:00.967
+que as levavam a incorporar
+químicos do exterior
+
+00:06:00.974 --> 00:06:03.029
+e aumentarem essas gotas de óleo.
+
+00:06:03.029 --> 00:06:06.696
+As gotas em que isso acontecia
+começaram a separar-se e a dividir-se.
+
+00:06:07.207 --> 00:06:09.818
+Foram as formas 
+mais primitivas das células,
+
+00:06:09.818 --> 00:06:11.840
+aquelas gotas de óleo.
+
+00:06:12.127 --> 00:06:14.749
+Mas aquelas gotas de óleo 
+não estavam vivas,
+
+00:06:14.778 --> 00:06:18.923
+porque cada uma delas
+era uma receita aleatória de químicos.
+
+00:06:19.017 --> 00:06:20.939
+Cada vez que se dividiam,
+
+00:06:20.939 --> 00:06:25.954
+dividiam de forma desigual
+os químicos que continham.
+
+00:06:26.123 --> 00:06:28.845
+Portanto, cada gota 
+era ligeiramente diferente.
+
+00:06:28.895 --> 00:06:31.217
+De facto, as gotas eram 
+diferentes de uma forma
+
+00:06:31.255 --> 00:06:33.211
+que as levava a serem melhores
+
+00:06:33.233 --> 00:06:35.422
+e a incorporarem os químicos à sua volta,
+
+00:06:35.434 --> 00:06:38.712
+a crescerem mais, a incorporarem
+mais químicos e a dividirem-se mais.
+
+00:06:38.712 --> 00:06:41.874
+Essas viviam durante mais tempo
+e eram mais representadas.
+
+00:06:43.646 --> 00:06:47.946
+Isso é uma simples
+forma química da vida
+
+00:06:47.972 --> 00:06:50.916
+mas as coisas tornaram-se interessantes
+
+00:06:50.958 --> 00:06:54.880
+quando as gotas aprenderam 
+o truque da asbtração.
+
+00:06:55.955 --> 00:06:59.744
+Por uma qualquer forma 
+que ainda não compreendemos,
+
+00:06:59.768 --> 00:07:02.590
+essas pequenas gotas 
+aprenderam a escrever informação.
+
+00:07:02.602 --> 00:07:04.446
+Aprenderam a gravar a informação
+
+00:07:04.446 --> 00:07:06.535
+que era a receita de célula
+
+00:07:06.535 --> 00:07:09.480
+num químico muito particular
+chamado ADN.
+
+00:07:09.968 --> 00:07:11.846
+Por outras palavras, resolveram,
+
+00:07:11.846 --> 00:07:15.246
+duma forma evolutiva desajeitada,
+
+00:07:15.246 --> 00:07:18.535
+uma forma de escrever 
+que lhes permitia escrever o que eram
+
+00:07:18.545 --> 00:07:21.960
+para que essa forma de escrever 
+pudesse ser copiada.
+
+00:07:21.521 --> 00:07:24.209
+A coisa fascinante 
+é que essa forma de escrever
+
+00:07:24.209 --> 00:07:26.043
+parece ter-se estabilizado
+
+00:07:26.046 --> 00:07:28.591
+desde que evoluiu há 2500 milhões de anos.
+
+00:07:28.591 --> 00:07:30.835
+De facto, a nossa receita,
+os nossos genes,
+
+00:07:30.844 --> 00:07:33.676
+são exatamente esse mesmo código
+e essa forma de escrever.
+
+00:07:33.676 --> 00:07:36.533
+De facto, cada criatura viva é escrita
+
+00:07:36.533 --> 00:07:39.880
+com o mesmo conjunto de letras 
+e com o mesmo código.
+
+00:07:39.920 --> 00:07:42.404
+Uma das coisas que fiz
+apenas para me entreter
+
+00:07:42.415 --> 00:07:45.159
+é que agora podemos 
+escrever coisas neste código.
+
+00:07:45.362 --> 00:07:50.206
+Tenho aqui uns 100 microgramas 
+de pó branco,
+
+00:07:50.206 --> 00:07:54.395
+— que evito mostrar ao pessoal 
+de segurança dos aeroportos.
+
+00:07:54.806 --> 00:07:56.606
+(Risos)
+
+00:07:57.376 --> 00:07:58.809
+Mas dentro disto
+
+00:07:58.809 --> 00:08:00.754
+— o que fiz foi tirar este código,
+
+00:08:00.779 --> 00:08:03.924
+o código tem letras padrão 
+que usamos para o simbolizar —
+
+00:08:03.975 --> 00:08:06.919
+escrevi o meu cartão de visita
+num pedaço de ADN
+
+00:08:06.948 --> 00:08:09.793
+e amplifiquei-o à escala 
+de 10 elevado a 22.
+
+00:08:10.023 --> 00:08:13.101
+Portanto, se alguém quiser 100 milhões 
+de cópias do meu cartão,
+
+00:08:13.159 --> 00:08:15.404
+eu tenho que cheguem para todos
+
+00:08:15.435 --> 00:08:17.635
+e mesmo para toda a gente
+no mundo inteiro.
+
+00:08:17.789 --> 00:08:19.712
+Estão mesmo aqui.
+
+00:08:20.591 --> 00:08:24.124
+(Risos)
+
+00:08:27.437 --> 00:08:28.993
+Se tivesse sido egoísta,
+
+00:08:28.993 --> 00:08:31.737
+tê-lo-ia colocado num vírus 
+e espalhava-o pela sala.
+
+00:08:32.116 --> 00:08:34.861
+(Risos)
+
+00:08:39.517 --> 00:08:41.617
+Então qual foi o passo seguinte?
+
+00:08:41.617 --> 00:08:44.140
+Escrever o ADN foi um passo interessante.
+
+00:08:44.530 --> 00:08:46.020
+Isso fez com que as células
+
+00:08:46.020 --> 00:08:48.640
+vivessem felizes durante 
+mais 1000 milhões de anos.
+
+00:08:48.707 --> 00:08:50.794
+Mas depois ocorreu
+outro passo interessante
+
+00:08:50.794 --> 00:08:53.233
+em que as coisas ficaram 
+completamente diferentes.
+
+00:08:53.233 --> 00:08:56.054
+As células começaram a trocar informações
+e a comunicar.
+
+00:08:56.072 --> 00:08:58.416
+e começaram a formar 
+comunidades de células.
+
+00:08:58.777 --> 00:09:02.144
+Não sei se sabem isto,
+mas as bactérias conseguem trocar ADN.
+
+00:09:02.321 --> 00:09:05.772
+É por isso que, por exemplo,
+a resistência antibiótica tem evoluído.
+
+00:09:05.772 --> 00:09:08.684
+Umas bactérias quaisquer 
+perceberam como evitar a penicilina
+
+00:09:08.684 --> 00:09:13.849
+e começaram a criar a sua informação
+de ADN com outras bactérias
+
+00:09:13.928 --> 00:09:16.861
+e agora temos muitas bactérias
+resistentes à penicilina,
+
+00:09:16.861 --> 00:09:19.039
+porque as bactérias comunicam.
+
+00:09:19.465 --> 00:09:21.631
+Ora, o que esta comunicação permitiu
+
+00:09:21.631 --> 00:09:23.898
+foi que se formassem comunidades
+
+00:09:23.898 --> 00:09:27.064
+que, de certa forma, 
+estavam no mesmo barco e eram sinérgicas.
+
+00:09:27.432 --> 00:09:30.726
+Portanto ou sobreviviam
+ou falhavam em conjunto,
+
+00:09:30.726 --> 00:09:33.381
+o que significa que, 
+se uma comunidade tivesse sucesso,
+
+00:09:33.416 --> 00:09:35.783
+todos os indivíduos dessa comunidade
+
+00:09:35.783 --> 00:09:39.161
+repetiam-se mais vezes
+e eram favorecidos pela evolução.
+
+00:09:40.511 --> 00:09:42.540
+O ponto de transição ocorreu
+
+00:09:42.540 --> 00:09:44.788
+quando estas comunidades 
+se aproximaram tanto
+
+00:09:44.788 --> 00:09:46.155
+que se juntaram
+
+00:09:46.155 --> 00:09:49.877
+e decidiram escrever a receita 
+completa para a comunidade
+
+00:09:49.877 --> 00:09:51.752
+numa única linha de ADN.
+
+00:09:52.621 --> 00:09:54.870
+E assim a fase seguinte 
+de interesse na vida
+
+00:09:54.893 --> 00:09:56.971
+demorou mais 1000 milhões de anos.
+
+00:09:56.971 --> 00:09:59.737
+Nessa fase,
+temos comunidades multicelulares,
+
+00:10:00.032 --> 00:10:02.499
+comunidades com muitas
+células de tipos diferentes
+
+00:10:02.499 --> 00:10:04.889
+a trabalhar em conjunto 
+como um único organismo.
+
+00:10:04.889 --> 00:10:07.811
+De facto, nós somos 
+uma comunidade multicelular desse tipo.
+
+00:10:07.811 --> 00:10:11.010
+Temos muitas células
+que já não são independentes.
+
+00:10:11.096 --> 00:10:13.319
+As células da pele são inúteis
+
+00:10:13.890 --> 00:10:16.490
+sem células do coração, dos músculos,
+
+00:10:16.490 --> 00:10:18.413
+do cérebro e por aí fora.
+
+00:10:18.413 --> 00:10:20.668
+Portanto, estas comunidades evoluíram
+
+00:10:20.668 --> 00:10:23.757
+de tal forma que o interessante nível 
+em que decorria a evolução
+
+00:10:23.757 --> 00:10:25.436
+já não era uma célula,
+
+00:10:25.436 --> 00:10:28.062
+mas uma comunidade 
+a que chamamos organismo.
+
+00:10:29.362 --> 00:10:31.484
+Ora, o passo seguinte que ocorreu
+
+00:10:31.484 --> 00:10:33.517
+foi dentro destas comunidades.
+
+00:10:33.534 --> 00:10:35.255
+Estas comunidades de células,
+
+00:10:35.255 --> 00:10:37.233
+novamente, começaram
+a resumir informações
+
+00:10:37.410 --> 00:10:39.697
+Começaram a construir 
+estruturas muito especiais
+
+00:10:39.697 --> 00:10:42.620
+que apenas processavam 
+informações dentro da comunidade.
+
+00:10:42.664 --> 00:10:45.075
+Essas estruturas
+são as estruturas neurais.
+
+00:10:45.075 --> 00:10:48.370
+Portanto os neurónios são o aparelho 
+de processamento da informação
+
+00:10:48.386 --> 00:10:50.541
+que essas comunidades 
+de células construíram.
+
+00:10:50.541 --> 00:10:53.474
+De facto, começaram a formar 
+especialistas na comunidade
+
+00:10:53.474 --> 00:10:55.174
+e estruturas especiais
+
+00:10:55.190 --> 00:10:57.256
+que eram responsáveis pela gravação,
+
+00:10:57.520 --> 00:11:00.031
+compreensão e aprendizagem de informações.
+
+00:11:00.111 --> 00:11:04.177
+Isso era o cérebro e o sistema nervoso
+dessas comunidades.
+
+00:11:04.590 --> 00:11:06.571
+Isso deu-lhes uma vantagem evolutiva.
+
+00:11:06.683 --> 00:11:10.040
+Porque, a partir daquele momento,
+
+00:11:10.040 --> 00:11:12.972
+podia ocorrer uma aprendizagem individual
+
+00:11:13.026 --> 00:11:15.593
+durante o tempo de vida 
+de um único organismo,
+
+00:11:15.602 --> 00:11:18.090
+em vez de durante 
+todo o tempo de evolução.
+
+00:11:18.738 --> 00:11:21.083
+Um organismo podia, por exemplo,
+
+00:11:21.083 --> 00:11:23.450
+aprender a não comer 
+determinado tipo de fruta
+
+00:11:23.450 --> 00:11:26.601
+porque tinha mau sabor e ficara doente
+da última vez que a comera.
+
+00:11:26.644 --> 00:11:29.488
+Isso podia acontecer no espaço de vida 
+dum único organismo.
+
+00:11:29.488 --> 00:11:31.788
+enquanto que anteriormente 
+tinham que construir
+
+00:11:31.791 --> 00:11:33.980
+as estruturas 
+de processamento de informações
+
+00:11:33.980 --> 00:11:36.391
+que tinham que ser aprendidas 
+de forma evolutiva,
+
+00:11:36.412 --> 00:11:39.179
+ao longo de centenas de milhares de anos
+
+00:11:39.179 --> 00:11:42.168
+pela morte dos indivíduos 
+que comiam essa fruta.
+
+00:11:42.603 --> 00:11:44.103
+Aquele sistema nervoso,
+
+00:11:44.103 --> 00:11:47.070
+o facto de terem construído 
+essas estruturas de informação,
+
+00:11:47.070 --> 00:11:50.004
+acelerou muito todo o processo da evolução.
+
+00:11:50.029 --> 00:11:54.029
+Porque a evolução pôde passar a decorrer
+dentro de um indivíduo.
+
+00:11:54.097 --> 00:11:56.686
+Pôde acontecer em escalas 
+de aprendizagem temporais.
+
+00:11:56.743 --> 00:11:58.488
+Mas o que aconteceu depois
+
+00:11:58.509 --> 00:12:01.750
+foi que os indivíduos descobriram,
+truques para comunicarem.
+
+00:12:01.995 --> 00:12:03.155
+Por exemplo,
+
+00:12:03.155 --> 00:12:06.699
+a forma mais sofisticada que conhecemos
+é a linguagem humana.
+
+00:12:07.027 --> 00:12:10.138
+É uma invenção extraordinária,
+se pensarmos nisso.
+
+00:12:10.138 --> 00:12:13.833
+Tenho uma ideia muito complicada, 
+desorganizada, confusa
+
+00:12:13.833 --> 00:12:15.444
+dentro da minha cabeça.
+
+00:12:15.466 --> 00:12:17.888
+Estou aqui, basicamente, 
+a fazer grunhidos,
+
+00:12:17.915 --> 00:12:21.726
+na esperança de construir uma ideia 
+confusa e desorganizada na vossa cabeça
+
+00:12:21.726 --> 00:12:23.815
+que estabeleça uma ligação com a minha.
+
+00:12:23.843 --> 00:12:25.895
+Estou a pegar numa coisa 
+muito complicada,
+
+00:12:25.895 --> 00:12:28.830
+a transformá-la em som, 
+sequências de sons,
+
+00:12:28.830 --> 00:12:31.578
+e a produzir uma coisa 
+muito complicada no vosso cérebro.
+
+00:12:31.726 --> 00:12:34.681
+Isto permite-nos agora
+
+00:12:34.681 --> 00:12:37.615
+começar a funcionar
+como um único organismo.
+
+00:12:38.993 --> 00:12:43.793
+Então, o que a humanidade tem feito,
+
+00:12:43.846 --> 00:12:46.113
+é começara a abstrair.
+
+00:12:46.369 --> 00:12:50.129
+Estamos a passar pelos mesmo níveis
+que os organismos multicelulares passaram
+
+00:12:50.129 --> 00:12:53.051
+— a abstrair os nossos métodos de gravação,
+
+00:12:53.051 --> 00:12:55.462
+de apresentação e de processamento 
+de informações.
+
+00:12:55.486 --> 00:12:57.509
+Por exemplo, a invenção da linguagem
+
+00:12:57.509 --> 00:12:59.786
+foi um pequeno passo nessa direção.
+
+00:12:59.816 --> 00:13:02.050
+A telefonia, os computadores
+
+00:13:02.050 --> 00:13:04.972
+as cassetes de vídeo, os CD-ROMs e outros
+
+00:13:05.004 --> 00:13:07.182
+são mecanismos especializados
+
+00:13:07.182 --> 00:13:09.649
+que construímos dentro da sociedade
+
+00:13:09.671 --> 00:13:11.615
+para lidar com essas informações.
+
+00:13:11.615 --> 00:13:18.715
+Isso liga-nos uns aos outros
+numa coisa que é muito maior
+
+00:13:18.721 --> 00:13:21.743
+muito mais rápida e capaz de evoluir
+
+00:13:21.790 --> 00:13:23.768
+do que éramos antes.
+
+00:13:24.114 --> 00:13:27.636
+A evolução pode ocorrer agora
+numa escala de microssegundos.
+
+00:13:27.720 --> 00:13:30.608
+Vocês viram o exemplo evolutivo do Ty,
+
+00:13:30.635 --> 00:13:32.902
+em que ele fez uma espécie de evolução
+
+00:13:32.902 --> 00:13:36.000
+no programa Convolução 
+mesmo à vossa frente.
+
+00:13:36.140 --> 00:13:38.237
+Mais uma vez acelerámos 
+as escalas do tempo.
+
+00:13:38.237 --> 00:13:40.424
+Os primeiros passos 
+da história que vos contei
+
+00:13:40.424 --> 00:13:42.850
+demoraram 1000 milhões de anos cada um.
+
+00:13:42.850 --> 00:13:45.629
+E os passos seguintes,
+como o sistema nervoso e o cérebro,
+
+00:13:45.629 --> 00:13:48.229
+demoraram umas centenas
+de milhões de anos.
+
+00:13:48.229 --> 00:13:50.829
+Os passos seguintes, 
+como a linguagem e o resto
+
+00:13:50.845 --> 00:13:52.912
+demoraram menos de um milhão de anos.
+
+00:13:52.987 --> 00:13:54.994
+E os próximos passos, como a eletrónica,
+
+00:13:54.994 --> 00:13:57.138
+parecem estar a demorar 
+apenas umas décadas.
+
+00:13:57.138 --> 00:13:59.060
+O processo alimenta-se de si próprio
+
+00:13:59.060 --> 00:14:02.716
+e torna-se, suponho, 
+autocatalítico — é a palavra certa
+
+00:14:02.716 --> 00:14:05.416
+quando algo reforça
+o seu ritmo de mudança.
+
+00:14:05.416 --> 00:14:07.583
+Quanto mais muda, mais rápido muda.
+
+00:14:07.948 --> 00:14:11.226
+Penso que é isso que estamos a ver 
+aqui, nesta curva de explosão.
+
+00:14:11.226 --> 00:14:13.593
+Estamos a ver este processo 
+de autoalimentação.
+
+00:14:14.832 --> 00:14:17.860
+Eu trabalho no desenho de computadores,
+
+00:14:17.860 --> 00:14:21.543
+e sei que os mecanismos
+que uso para desenhar computadores
+
+00:14:21.966 --> 00:14:26.055
+seriam impossíveis sem os recentes 
+avanços nos computadores.
+
+00:14:26.707 --> 00:14:28.390
+E agora, o que faço
+
+00:14:28.390 --> 00:14:30.607
+é desenhar objetos 
+com tanta complexidade
+
+00:14:30.619 --> 00:14:34.208
+que na realidade é impossível 
+desenhá-los duma forma tradicional.
+
+00:14:34.213 --> 00:14:37.135
+Eu não sei o que é que faz
+cada transístor numa máquina.
+
+00:14:37.835 --> 00:14:40.460
+São milhares de milhões.
+
+00:14:40.543 --> 00:14:41.810
+Mas, o que eu faço
+
+00:14:41.810 --> 00:14:44.766
+e o que os desenhadores 
+da Thinking Machines fazem
+
+00:14:44.781 --> 00:14:47.672
+é pensarmos num certo nível de abstração
+
+00:14:47.672 --> 00:14:49.374
+e depois entregamos isso à máquina.
+
+00:14:49.374 --> 00:14:52.536
+A máquina leva isso a um ponto 
+para além do que seríamos capazes,
+
+00:14:52.536 --> 00:14:54.918
+mais longe e mais depressa
+do que seríamos capazes.
+
+00:14:54.918 --> 00:14:57.074
+De facto, às vezes, fá-lo com métodos
+
+00:14:57.082 --> 00:14:59.482
+que nem sequer compreendemos.
+
+00:14:59.698 --> 00:15:02.387
+Um método particularmente interessante
+
+00:15:02.387 --> 00:15:05.031
+que tenho utilizado recentemente
+
+00:15:05.031 --> 00:15:06.876
+é a própria evolução.
+
+00:15:07.383 --> 00:15:11.072
+Portanto, o que fazemos
+é colocar dentro da máquina
+
+00:15:11.072 --> 00:15:12.594
+um processo de evolução
+
+00:15:12.615 --> 00:15:15.690
+que decorre numa escala temporal 
+de microssegundos.
+
+00:15:15.573 --> 00:15:18.618
+Por exemplo, nos casos mais extremos,
+
+00:15:18.662 --> 00:15:21.385
+podemos desenvolver um programa
+
+00:15:21.385 --> 00:15:24.361
+começando com uma série
+aleatória de instruções.
+
+00:15:24.362 --> 00:15:26.721
+Dizemos; "Computador, por favor,
+
+00:15:26.721 --> 00:15:29.566
+"faça cem milhões de sequências 
+aleatórias de instruções.
+
+00:15:29.579 --> 00:15:32.979
+"E agora, por favor, corra essas sequências
+aleatórias de instruções,
+
+00:15:32.979 --> 00:15:34.712
+corra esses programas todos,
+
+00:15:34.712 --> 00:15:37.512
+"e escolha os que mais se aproximam
+daquilo que eu quero."
+
+00:15:38.507 --> 00:15:40.701
+Por outras palavras, 
+eu defino o que quero.
+
+00:15:40.701 --> 00:15:42.579
+Imaginem que eu queria ordenar números,
+
+00:15:42.579 --> 00:15:44.440
+como fiz num pequeno exemplo.
+
+00:15:44.440 --> 00:15:47.650
+Encontre os programas que mais se aproximam
+dos que ordenam números.
+
+00:15:47.681 --> 00:15:50.047
+Claro que sequências 
+aleatórias de instruções
+
+00:15:50.055 --> 00:15:52.378
+provavelmente não ordenarão números,
+
+00:15:52.436 --> 00:15:54.191
+portanto nenhuma fará isso.
+
+00:15:54.240 --> 00:15:55.707
+Mas uma dessas, por acaso,
+
+00:15:55.707 --> 00:15:57.951
+poderá colocar dois números 
+na ordem correta.
+
+00:15:58.019 --> 00:16:01.068
+E eu digo,: "Computador, por favor,
+
+00:16:01.068 --> 00:16:04.546
+"selecione os 10% das sequências 
+que fizeram o melhor trabalho.
+
+00:16:04.628 --> 00:16:07.195
+"Guarde essas. Elimine as restantes.
+
+00:16:07.195 --> 00:16:09.029
+"Agora vamos reproduzir
+
+00:16:09.029 --> 00:16:11.507
+"as que ordenaram os números 
+da forma mais correta.
+
+00:16:11.507 --> 00:16:14.440
+"E vamos reproduzi-las através 
+de um processo de recombinação
+
+00:16:14.440 --> 00:16:15.850
+"semelhante ao sexo."
+
+00:16:15.850 --> 00:16:18.490
+Pega-se em dois programas 
+e eles produzem filhos
+
+00:16:18.490 --> 00:16:20.528
+pela troca de sub-rotinas.
+
+00:16:20.559 --> 00:16:24.048
+Os filhos herdam as características 
+das sub-rotinas dos dois programas.
+
+00:16:24.713 --> 00:16:27.102
+Agora tenho uma nova geração de programas
+
+00:16:27.103 --> 00:16:29.026
+que são produzidos pelas combinações
+
+00:16:29.045 --> 00:16:31.960
+dos programas que fizeram 
+um trabalho melhor.
+
+00:16:31.960 --> 00:16:33.545
+Dizemos, "Repita o processo.
+
+00:16:33.545 --> 00:16:35.022
+"Registe-os novamente.
+
+00:16:35.022 --> 00:16:37.536
+"Introduza talvez algumas mutações.
+
+00:16:37.536 --> 00:16:39.866
+"Tente isso várias vezes 
+e faça outra geração".
+
+00:16:39.961 --> 00:16:42.994
+Cada uma dessas gerações 
+demora apenas alguns milissegundos.
+
+00:16:43.550 --> 00:16:47.830
+Portanto posso fazer o equivalente
+a milhões de anos de evolução
+
+00:16:47.489 --> 00:16:50.660
+dentro dum computador, em poucos minutos,
+
+00:16:50.660 --> 00:16:52.889
+ou em casos complicados, em poucas horas.
+
+00:16:52.928 --> 00:16:55.072
+No fim disso, tenho um programa
+
+00:16:55.072 --> 00:16:57.461
+que é perfeito na ordenação de números.
+
+00:16:57.491 --> 00:16:59.930
+De facto, são programas 
+muito mais eficazes
+
+00:16:59.930 --> 00:17:02.730
+do que os programas 
+que eu poderia ter feito pessoalmente.
+
+00:17:02.775 --> 00:17:04.608
+Se eu olhar para esses programas,
+
+00:17:04.608 --> 00:17:06.075
+não sei dizer como funcionam.
+
+00:17:06.091 --> 00:17:08.735
+Já tentei olhar para eles 
+para explicar como funcionam.
+
+00:17:08.735 --> 00:17:10.635
+São programas estranhos e obscuros.
+
+00:17:10.635 --> 00:17:12.579
+Mas fazem o trabalho.
+
+00:17:12.579 --> 00:17:15.113
+De facto, confio que conseguem
+fazer o trabalho
+
+00:17:15.113 --> 00:17:16.513
+porque são originários
+
+00:17:16.518 --> 00:17:19.396
+de centenas de milhares de programas
+que fizeram o trabalho.
+
+00:17:19.396 --> 00:17:22.450
+A vida deles dependia 
+de serem capazes de fazer o trabalho.
+
+00:17:22.450 --> 00:17:24.666
+(Risos)
+
+00:17:28.158 --> 00:17:30.769
+Uma vez ia num 747
+com o Marvin Minsky.
+
+00:17:31.202 --> 00:17:34.580
+Ele puxa dum cartão e diz:
+"Olha. Olha para isto.
+
+00:17:34.603 --> 00:17:38.636
+O cartão diz: 'Este avião tem centenas 
+de milhares de pequenas partes
+
+00:17:38.671 --> 00:17:41.590
+"que trabalham em conjunto 
+para garantir um voo seguro'.
+
+00:17:41.800 --> 00:17:44.214
+"Não se sente confiante?"
+
+00:17:44.433 --> 00:17:45.761
+(Risos)
+
+00:17:45.761 --> 00:17:49.210
+De facto, sabemos que os processos 
+de engenharia não funcionam muito bem
+
+00:17:49.210 --> 00:17:50.921
+quando as coisas se complicam.
+
+00:17:50.946 --> 00:17:53.435
+Estamos a começar a depender 
+muito dos computadores
+
+00:17:53.435 --> 00:17:56.924
+para fazer um processo 
+muito diferente da engenharia.
+
+00:17:57.189 --> 00:18:00.244
+E permite-nos produzir coisas
+com muito mais complexidade
+
+00:18:00.244 --> 00:18:02.644
+que a engenharia normal nos permite.
+
+00:18:02.769 --> 00:18:04.893
+Contudo, não percebemos bem
+as suas opções.
+
+00:18:04.893 --> 00:18:07.260
+Portanto, de certa foram, 
+está a ultrapassar-nos.
+
+00:18:07.260 --> 00:18:09.566
+Estamos agora a usar esses programas
+
+00:18:09.586 --> 00:18:11.586
+para fazer computadores ainda mais rápidos
+
+00:18:11.586 --> 00:18:14.410
+para podermos correr 
+este processo ainda mais depressa.
+
+00:18:14.410 --> 00:18:16.747
+Portanto, está a alimentar-se 
+de si próprio.
+
+00:18:16.747 --> 00:18:18.481
+A coisa está a tornar-se mais rápida
+
+00:18:18.505 --> 00:18:21.039
+e é por isso que a acho tão confusa.
+
+00:18:21.064 --> 00:18:24.253
+Porque todas estas tecnologias 
+estão a alimentar-se de si próprias.
+
+00:18:24.253 --> 00:18:26.131
+Estamos a levantar voo.
+
+00:18:26.131 --> 00:18:29.886
+E estamos agora num momento análogo
+
+00:18:29.901 --> 00:18:31.968
+ao tempo em que os organismos unicelulares
+
+00:18:31.968 --> 00:18:34.568
+se estavam a transformar
+em organismos multicelulares.
+
+00:18:34.568 --> 00:18:36.047
+Somos as amebas
+
+00:18:36.047 --> 00:18:38.850
+e não sabemos bem
+que raio é isto que estamos a criar.
+
+00:18:38.850 --> 00:18:41.384
+Estamos mesmo nesse ponto de transição.
+
+00:18:41.403 --> 00:18:44.514
+Mas acho que existe algo
+que virá a seguir.
+
+00:18:44.514 --> 00:18:46.680
+Penso que é arrogante da nossa parte
+
+00:18:46.680 --> 00:18:49.036
+pensarmos que somos 
+o produto final da evolução.
+
+00:18:49.036 --> 00:18:52.458
+Penso que todos nós
+estamos a ajudar a produzir
+
+00:18:52.520 --> 00:18:54.431
+o quer que seja que aí vem.
+
+00:18:55.397 --> 00:18:58.086
+O que aí vem é o almoço,
+
+00:18:58.109 --> 00:18:59.987
+e penso que vou parar neste ponto,
+
+00:18:59.987 --> 00:19:01.866
+antes que corram comigo.
+
+00:19:01.977 --> 00:19:04.855
+(Aplausos)
+

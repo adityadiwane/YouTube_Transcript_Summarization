@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Zeynep Duygu Tamer
+Gözden geçirme: Sancak Gülgen
+
+00:00:16.260 --> 00:00:19.260
+Sizi Rezero ile tanıştırayım.
+
+00:00:19.260 --> 00:00:21.260
+Bu küçük dostumuz, ETH-Zurich'teki
+
+00:00:21.260 --> 00:00:23.260
+Otonom Sistemler Laboratuvarı'nda
+
+00:00:23.260 --> 00:00:25.260
+10 üniversite öğrencisinden oluşan bir grup
+
+00:00:25.260 --> 00:00:27.260
+tarafından geliştirildi.
+
+00:00:27.260 --> 00:00:29.260
+Robotumuz Ballbots adı verilen bir robot
+
+00:00:29.260 --> 00:00:31.260
+ailesine mensup.
+
+00:00:31.260 --> 00:00:33.260
+Tekerlekler yerine, bir Ballbot robotu tek bir top üzerinde
+
+00:00:33.260 --> 00:00:35.260
+dengede duruyor ve hareket ediyor.
+
+00:00:35.260 --> 00:00:37.260
+Böyle bir sistemin temel özelliği,
+
+00:00:37.260 --> 00:00:40.260
+yere yalnız bir zemin noktası olması.
+
+00:00:40.260 --> 00:00:42.260
+Bu da robotun doğuştan
+
+00:00:42.260 --> 00:00:44.260
+dengesiz olduğu anlamına geliyor.
+
+00:00:44.260 --> 00:00:46.260
+Örneğin benim tek ayak üstünde
+
+00:00:46.260 --> 00:00:47.260
+durmaya çalışmam gibi.
+
+00:00:47.260 --> 00:00:49.260
+Kendinize şunu sorabilirsiniz, dengesiz bir robot
+
+00:00:49.260 --> 00:00:51.260
+ne işe yarar?
+
+00:00:51.260 --> 00:00:53.260
+Bunu birazdan açıklayacağız.
+
+00:00:53.260 --> 00:00:55.260
+Öncelikle Rezero'nun sahiden nasıl
+
+00:00:55.260 --> 00:00:57.260
+dengesini koruduğunu açıklayayım.
+
+00:00:57.260 --> 00:00:59.260
+Rezero eğim açısını bir sensör ile sürekli
+
+00:00:59.260 --> 00:01:02.260
+ölçerek dengesini koruyor.
+
+00:01:02.260 --> 00:01:05.260
+Sonra etkisiz hale geliyor ve motorunu uygun olarak
+
+00:01:05.260 --> 00:01:07.260
+aktive ederek düşmesini önlüyor.
+
+00:01:07.260 --> 00:01:09.260
+Bu saniyede 160 kez gerçekleşiyor,
+
+00:01:09.260 --> 00:01:11.260
+ve eğer bu süreçte herhangi birşey
+
+00:01:11.260 --> 00:01:14.260
+başarısızlığa uğrarsa, Rezero anında yere düşer.
+
+00:01:14.260 --> 00:01:16.260
+Hareket etmesi ve dengede durması için,
+
+00:01:16.260 --> 00:01:18.260
+Rezero'nun topu döndürmesi gerekli.
+
+00:01:18.260 --> 00:01:20.260
+Top Rezero'nun herhangi bir yöne doğru
+
+00:01:20.260 --> 00:01:23.260
+ve aynı zamanda kendi ekseni etrafında
+
+00:01:23.260 --> 00:01:25.260
+hareket etmesini sağlayan üç özel tekerlek
+
+00:01:25.260 --> 00:01:29.260
+tarafından sürülüyor.
+
+00:01:29.260 --> 00:01:31.260
+Dengesizliği yüzünden, Rezero sürekli
+
+00:01:31.260 --> 00:01:33.260
+hareket halinde. İşte işin sırrı burada.
+
+00:01:33.260 --> 00:01:36.260
+Gerçekten bir robotun çok dinamik bir şekilde
+
+00:01:36.260 --> 00:01:38.260
+hareket etmesini tam da bu dengesizlik sağlıyor.
+
+00:01:38.260 --> 00:01:40.260
+Hadi biraz oynayalım.
+
+00:01:40.260 --> 00:01:42.260
+Robotu biraz ittiğimde ne olduğunu
+
+00:01:42.260 --> 00:01:45.260
+merak etmiş olabilirsiniz.
+
+00:01:47.260 --> 00:01:49.260
+Bu modunda, konumunu korumaya
+
+00:01:49.260 --> 00:01:52.260
+çalışıyor.
+
+00:01:52.260 --> 00:01:55.260
+Bir sonraki demo için, meslektaşlarım
+
+00:01:55.260 --> 00:01:58.260
+bilgisayar başındaki Michael ve sahnede bana
+
+00:01:58.260 --> 00:02:01.260
+yardım eden Thomas'ı takdim etmek istiyorum.
+
+00:02:02.260 --> 00:02:04.260
+Bir sonraki modunda, Rezero pasif,
+
+00:02:04.260 --> 00:02:07.260
+ve onu hareket ettirebiliriz.
+
+00:02:08.260 --> 00:02:10.260
+Neredeyse hiç kuvvet kullanmadan, konumunu
+
+00:02:10.260 --> 00:02:13.260
+ve süratini kontrol edebiliyorum.
+
+00:02:16.260 --> 00:02:19.260
+Onu ayrıca döndürebilirim.
+
+00:02:30.260 --> 00:02:32.260
+Bir sonraki modunda, Rezero'nun bir insanı
+
+00:02:32.260 --> 00:02:35.260
+takip ettirebiliyoruz.
+
+00:02:35.260 --> 00:02:38.260
+Şu an Thomas ile arasında sabit bir mesafe tutuyor.
+
+00:02:42.260 --> 00:02:44.260
+Bu Rezero'nun başında takılı
+
+00:02:44.260 --> 00:02:46.260
+bir lazer sensör ile çalışıyor.
+
+00:02:50.260 --> 00:02:52.260
+Aynı yöntem ile, bir insanın etrafında
+
+00:02:52.260 --> 00:02:55.260
+dolaşmasını da sağlayabiliyoruz.
+
+00:02:57.260 --> 00:03:01.260
+Biz buna yörüngeleme modu diyoruz.
+
+00:03:10.260 --> 00:03:12.260
+Peki, teşekkürler, Thomas.
+
+00:03:12.260 --> 00:03:16.260
+(Alkış)
+
+00:03:16.260 --> 00:03:19.260
+Peki, bu teknolojinin faydası nedir?
+
+00:03:22.260 --> 00:03:24.260
+Şimdilik, bu bir deney, ama izin verin
+
+00:03:24.260 --> 00:03:27.260
+size bazı olası gelecek uygulamalarını göstereyim.
+
+00:03:28.260 --> 00:03:30.260
+Rezero sergilerde ya da parklarda kullanılabilir.
+
+00:03:30.260 --> 00:03:32.260
+Bir ekran ile insanları bilgilendirebilir ya da
+
+00:03:32.260 --> 00:03:35.260
+onlara eğlenceli bir şekilde etrafı gösterebilir.
+
+00:03:35.260 --> 00:03:37.260
+Bir hastanede, bu cihaz tıbbi malzeme taşımak
+
+00:03:37.260 --> 00:03:39.260
+için kullanılabilir.
+
+00:03:39.260 --> 00:03:41.260
+Ballbot sisteminden dolayı, çok küçük bir ayakizine sahip
+
+00:03:41.260 --> 00:03:44.260
+ve hareket ettirmesi de kolay.
+
+00:03:44.260 --> 00:03:46.260
+Ve elbette, kim bunlardan birini
+
+00:03:46.260 --> 00:03:49.260
+sürmek istemez ki.
+
+00:03:49.260 --> 00:03:51.260
+Bunlar daha çok pratik uygulamalar.
+
+00:03:51.260 --> 00:03:53.260
+Ama bu teknoloji içerisinde
+
+00:03:53.260 --> 00:03:55.260
+kuşkusuz bir güzellik barındırıyor.
+
+00:03:55.260 --> 00:04:04.260
+(Müzik)
+
+00:04:58.260 --> 00:04:59.260
+(Alkış)
+
+00:04:59.260 --> 00:05:01.260
+Teşekkürler.
+
+00:05:01.260 --> 00:05:05.260
+(Alkış)
+
+00:05:05.260 --> 00:05:07.260
+Teşekkürler.
+

@@ -1,0 +1,754 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Miriam Hidalgo Prieto
+Revisora: Margarida Ferreira
+
+00:00:13.014 --> 00:00:17.224
+Hoje vou falar sobre nós
+e sobre a Inteligência Artificial.
+
+00:00:18.206 --> 00:00:20.349
+Os investigadores da IA sempre disseram
+
+00:00:20.373 --> 00:00:22.923
+que os seres humanos,
+não precisam de se preocupar
+
+00:00:22.991 --> 00:00:26.421
+porque só os trabalhos menores
+serão assumidos pelas máquinas.
+
+00:00:27.274 --> 00:00:28.997
+Será mesmo verdade?
+
+00:00:30.365 --> 00:00:33.962
+Também disseram 
+que a IA criará novos empregos,
+
+00:00:34.216 --> 00:00:37.837
+de modo que as pessoas que ficam
+sem trabalho hão de encontrar outro.
+
+00:00:38.264 --> 00:00:39.619
+Claro.
+
+00:00:39.643 --> 00:00:41.605
+Mas a verdadeira questão é:
+
+00:00:41.839 --> 00:00:45.844
+Quantos dos que perdem 
+o seu trabalho para a IA
+
+00:00:45.968 --> 00:00:47.967
+conseguirão um novo emprego,
+
+00:00:48.481 --> 00:00:54.001
+sendo a AI mais esperta
+para aprender melhor do que nós?
+
+00:00:55.397 --> 00:00:57.672
+Permitam-me fazer uma pergunta:
+
+00:00:58.666 --> 00:01:03.214
+Quantos de vocês pensam que uma AI
+passará no exame de admissão
+
+00:01:03.248 --> 00:01:06.582
+a uma universidade de elite em 2020?
+
+00:01:07.836 --> 00:01:09.933
+Não muitos. Ok.
+
+00:01:11.531 --> 00:01:14.559
+Haverá quem diga:
+"Claro que sim!"
+
+00:01:15.369 --> 00:01:17.753
+Isso põe a questão da singularidade.
+
+00:01:18.590 --> 00:01:21.375
+Outros dirão "Talvez,
+
+00:01:21.709 --> 00:01:26.217
+"porque a AI já venceu
+um grande jogador de Go".
+
+00:01:27.953 --> 00:01:31.284
+Outros poderão dizer:
+"Não, nunca".
+
+00:01:32.195 --> 00:01:35.788
+Quer dizer que ainda
+não sabemos a resposta, não é?
+
+00:01:36.888 --> 00:01:41.228
+Por esta razão comecei 
+o Projeto Robô Todai,
+
+00:01:41.272 --> 00:01:45.124
+criar uma IA que passe
+no exame de admissão
+
+00:01:45.148 --> 00:01:47.437
+da Universidade de Tóquio,
+
+00:01:47.651 --> 00:01:50.298
+a melhor universidade do Japão.
+
+00:01:51.464 --> 00:01:54.012
+Este é o nosso robô Todai.
+
+00:01:56.881 --> 00:02:01.811
+Claro, o cérebro do robô
+trabalha num servidor remoto.
+
+00:02:02.747 --> 00:02:06.649
+Agora está a escrever
+um ensaio de 600 palavras
+
+00:02:06.993 --> 00:02:10.892
+sobre comércio marítimo no século XVII.
+
+00:02:11.136 --> 00:02:12.981
+O que vos parece?
+
+00:02:14.113 --> 00:02:18.217
+Porque é que usei o exame de admissão 
+como ponto de referência?
+
+00:02:19.098 --> 00:02:23.669
+Porque eu pensei que tínhamos
+que estudar o desempenho da IA
+
+00:02:23.863 --> 00:02:25.977
+em comparação com os seres humanos,
+
+00:02:26.001 --> 00:02:28.861
+especialmente nas aptidões e na experiência
+
+00:02:28.915 --> 00:02:32.823
+que se crê que são adquiridas
+só pelos seres humanos
+
+00:02:32.997 --> 00:02:35.382
+e só através do ensino.
+
+00:02:35.782 --> 00:02:39.425
+Para entrar em Todai,
+a Universidade de Tóquio,
+
+00:02:39.849 --> 00:02:43.980
+é preciso passar
+por dois tipos de exames diferentes.
+
+00:02:44.294 --> 00:02:48.054
+O primeiro é um exame padronizado nacional
+
+00:02:48.078 --> 00:02:50.121
+de opções múltiplas.
+
+00:02:50.505 --> 00:02:52.700
+É preciso escolher sete matérias
+
+00:02:52.984 --> 00:02:55.039
+e tem que se obter uma qualificação alta
+
+00:02:55.103 --> 00:02:59.735
+— eu diria serem necessários
+uns 84% ou mais de respostas certas —
+
+00:02:59.759 --> 00:03:03.846
+para se poder passar 
+para a segunda parte do exame escrito
+
+00:03:03.870 --> 00:03:06.139
+preparado pela Todai.
+
+00:03:06.994 --> 00:03:12.001
+Primeiro vou explicar
+como funciona a IA moderna,
+
+00:03:12.335 --> 00:03:15.404
+tomando como exemplo
+o concurso "Jeopardy!"
+
+00:03:17.539 --> 00:03:20.458
+Esta é uma típica pergunta de "Jeopardy!":
+
+00:03:20.642 --> 00:03:24.983
+"A última sinfonia de Mozart partilha
+o seu nome com este planeta".
+
+00:03:26.195 --> 00:03:29.298
+Curiosamente, as perguntas de "Jeopardy!"
+
+00:03:29.332 --> 00:03:32.770
+sempre terminam com "este":
+
+00:03:33.584 --> 00:03:36.411
+"este" planeta, "este" país,
+
+00:03:36.435 --> 00:03:38.423
+"este" roqueiro, etc.
+
+00:03:39.067 --> 00:03:43.366
+Quero dizer, as perguntas do "Jeopardy!"
+não são de muitos tipos diferentes,
+
+00:03:43.390 --> 00:03:45.397
+são perguntas de um tipo só,
+
+00:03:45.431 --> 00:03:47.977
+a que chamamos "perguntas factoides"
+
+00:03:48.975 --> 00:03:51.212
+A propósito, sabem a resposta?
+
+00:03:53.980 --> 00:03:58.035
+Caso não saibam a resposta
+e queiram sabê-la,
+
+00:03:58.059 --> 00:03:59.656
+o que é que vocês fazem?
+
+00:04:00.160 --> 00:04:02.842
+Pesquisar no Google, não é?
+Claro.
+
+00:04:03.316 --> 00:04:04.596
+Porque não?
+
+00:04:04.820 --> 00:04:08.412
+Mas precisamos de escolher 
+as palavras chave apropriadas
+
+00:04:08.576 --> 00:04:12.920
+como "Mozart", "última"
+e "sinfonia" para fazer a pesquisa.
+
+00:04:13.462 --> 00:04:15.972
+Basicamente a máquina faz o mesmo.
+
+00:04:16.457 --> 00:04:21.427
+Então aparece-nos primeiro
+esta página da Wikipedia.
+
+00:04:21.840 --> 00:04:23.748
+Depois a máquina lê a página.
+
+00:04:23.882 --> 00:04:25.113
+Não, não.
+
+00:04:25.470 --> 00:04:28.932
+Infelizmente, nenhuma AI moderna,
+
+00:04:28.956 --> 00:04:32.924
+incluindo a Watson,
+a Siri e o robô Todai,
+
+00:04:32.948 --> 00:04:34.609
+sabe ler.
+
+00:04:35.437 --> 00:04:39.237
+Mas são boas a otimizar as suas pesquisas.
+
+00:04:40.158 --> 00:04:42.181
+Vai reconhecer
+
+00:04:42.866 --> 00:04:45.801
+que as palavras chave "Mozart",
+"última" e "sinfonia"
+
+00:04:45.825 --> 00:04:48.478
+vão aparecer várias vezes.
+
+00:04:49.790 --> 00:04:53.815
+Se encontrar uma palavra
+que é um planeta
+
+00:04:54.189 --> 00:04:57.537
+e é concorrente com as palavras chave,
+
+00:04:57.861 --> 00:05:00.090
+a resposta deve ser essa.
+
+00:05:00.762 --> 00:05:05.948
+Assim, neste caso, a Watson
+encontra a resposta "Júpiter".
+
+00:05:08.433 --> 00:05:12.482
+O Robô Todai trabalha da mesma forma,
+mas é um pouco mais esperto
+
+00:05:12.506 --> 00:05:16.545
+respondendo a perguntas de História
+"sim ou não", do tipo:
+
+00:05:17.340 --> 00:05:22.133
+"Carlos Magno afugentou os magiares.
+Isto é verdadeiro ou falso?"
+
+00:05:23.181 --> 00:05:26.734
+O nosso robô produz, por si mesmo,
+uma pergunta factoide,
+
+00:05:27.278 --> 00:05:32.227
+como "Carlos Magno afugentou 
+[este tipo de pessoa]".
+
+00:05:32.995 --> 00:05:37.747
+Então, aparece "Ávaros"
+em primeiro lugar em vez de "Magiares".
+
+00:05:38.357 --> 00:05:41.406
+É provável que esta frase seja falsa.
+
+00:05:42.772 --> 00:05:47.632
+O nosso robô não lê,
+não compreende,
+
+00:05:48.335 --> 00:05:52.479
+mas, estatisticamente,
+está correto em muitos casos.
+
+00:05:54.147 --> 00:05:56.655
+Na segunda etapa, o exame escrito,
+
+00:05:56.679 --> 00:06:01.575
+deve-se escrever um ensaio
+de 600 palavras como este
+
+00:06:01.629 --> 00:06:04.177
+[Analisa o aumento e a queda
+do comércio marítimo...]
+
+00:06:04.307 --> 00:06:06.264
+Como eu já mostrei,
+
+00:06:06.468 --> 00:06:12.002
+o nosso robô foi buscar frases
+aos manuais e à Wikipedia,
+
+00:06:12.066 --> 00:06:13.767
+combinou-os
+
+00:06:13.971 --> 00:06:17.370
+e otimizou-os para produzir um ensaio
+
+00:06:17.814 --> 00:06:19.841
+sem compreender nada.
+
+00:06:20.045 --> 00:06:21.582
+(Risos)
+
+00:06:21.806 --> 00:06:26.701
+Mas, surpreendentemente, 
+escreveu um ensaio bastante melhor
+
+00:06:26.725 --> 00:06:28.416
+do que muitos estudantes.
+
+00:06:28.510 --> 00:06:30.451
+(Risos)
+
+00:06:30.725 --> 00:06:32.634
+Que tal a matemática?
+
+00:06:33.354 --> 00:06:36.512
+Uma máquina que automaticamente 
+resolve problemas
+
+00:06:36.536 --> 00:06:38.307
+tem sido um sonho
+
+00:06:38.351 --> 00:06:42.870
+desde o nascimento da expressão
+"inteligência artificial",
+
+00:06:43.785 --> 00:06:49.592
+mas manteve-se no nível da aritmética 
+durante muito tempo.
+
+00:06:51.530 --> 00:06:56.580
+O ano passado, finalmente, 
+conseguimos desenvolver um sistema
+
+00:06:56.904 --> 00:07:02.017
+que resolve por completo problemas 
+de nível pré-universitário
+
+00:07:02.101 --> 00:07:03.653
+como este.
+
+00:07:05.648 --> 00:07:09.160
+Este problema, originalmente,
+está escrito em japonês,
+
+00:07:09.674 --> 00:07:14.071
+e tivemos de ensinar-lhe 
+2000 axiomas matemáticos
+
+00:07:14.095 --> 00:07:16.669
+e 8000 palavras japonesas
+
+00:07:16.893 --> 00:07:21.451
+para poder aceitar problemas
+escritas na sua linguagem natural.
+
+00:07:22.234 --> 00:07:25.776
+Agora traduz os problemas originais
+
+00:07:25.800 --> 00:07:28.939
+em fórmulas legíveis para a máquina.
+
+00:07:30.578 --> 00:07:36.267
+É estranho, mas acho que agora
+está preparada para resolvê-lo.
+
+00:07:36.701 --> 00:07:38.192
+Resolve-o!
+
+00:07:38.818 --> 00:07:43.102
+Sim! Agora executa cálculo simbólico.
+
+00:07:44.030 --> 00:07:45.610
+Ainda mais estranho,
+
+00:07:45.634 --> 00:07:50.349
+mas provavelmente, esta é a parte 
+mais divertida para a máquina.
+
+00:07:50.483 --> 00:07:52.474
+(Risos)
+
+00:07:52.858 --> 00:07:55.673
+Agora ela produz a resposta correta,
+
+00:07:55.777 --> 00:08:00.484
+embora a prova seja impossível
+de ler, mesmo para matemáticos.
+
+00:08:04.293 --> 00:08:09.734
+No ano passado, o nosso robô
+ficou entre 1% dos melhores
+
+00:08:10.199 --> 00:08:13.832
+na segunda fase do exame
+escrito de matemática.
+
+00:08:15.502 --> 00:08:17.862
+(Aplausos)
+
+00:08:18.412 --> 00:08:19.723
+Obrigada.
+
+00:08:19.747 --> 00:08:22.218
+Então, entrou em Todai?
+
+00:08:22.981 --> 00:08:26.399
+Não, não, tal como eu esperava.
+
+00:08:26.783 --> 00:08:28.182
+Porquê?
+
+00:08:28.206 --> 00:08:30.845
+Porque ele não compreende
+nenhum significado.
+
+00:08:32.308 --> 00:08:36.367
+Vou mostrar-vos um erro típico
+que ele cometeu no teste de inglês.
+
+00:08:36.391 --> 00:08:40.198
+[- Não ataste os atacadores há bocado?
+- Atei, mas estão sempre a desapertar-se.]
+
+00:08:40.278 --> 00:08:41.946
+Há duas pessoas a falar.
+
+00:08:42.130 --> 00:08:44.734
+Para nós, que entendemos a situação,
+
+00:08:44.874 --> 00:08:47.647
+[1. "Caminhámos muito tempo".
+2. "Estamos quase a chegar."
+
+00:08:47.681 --> 00:08:50.793
+[3. "Tens uns sapatos caros".
+4. "Tens o atacador solto.]
+
+00:08:50.837 --> 00:08:53.530
+é óbvio que o número quatro
+é a resposta correta, não é?
+
+00:08:53.610 --> 00:08:55.972
+Mas o robô Todai escolheu o número dois,
+
+00:08:56.716 --> 00:09:02.076
+mesmo depois de aprender
+15 mil milhões de frases em inglês
+
+00:09:02.100 --> 00:09:05.278
+usando tecnologias
+de aprendizagem profunda.
+
+00:09:09.300 --> 00:09:12.032
+Agora vocês podem entender 
+o que eu disse:
+
+00:09:12.399 --> 00:09:14.727
+As IA modernas não leem,
+
+00:09:15.071 --> 00:09:16.684
+não compreendem.
+
+00:09:17.516 --> 00:09:20.845
+Apenas parece que compreendem.
+
+00:09:24.867 --> 00:09:27.488
+Este é o gráfico de distribuição
+
+00:09:27.872 --> 00:09:33.649
+de meio milhão de estudantes
+que fizeram o mesmo exame que o robô.
+
+00:09:34.558 --> 00:09:40.363
+O nosso robô Todai
+está entre os 20% dos melhores alunos
+
+00:09:40.986 --> 00:09:43.401
+e conseguiu passar
+
+00:09:43.425 --> 00:09:47.366
+em mais de 60% das universidades do Japão,
+
+00:09:47.390 --> 00:09:49.077
+mas não na Todai.
+
+00:09:50.116 --> 00:09:54.141
+Mas vejam como ele está
+acima da zona com maior quantidade
+
+00:09:54.165 --> 00:09:57.309
+dos futuros empregados de escritório.
+
+00:10:00.060 --> 00:10:03.278
+Vocês podem pensar 
+que fiquei muito satisfeita.
+
+00:10:03.939 --> 00:10:08.010
+Afinal, o meu robô superou
+estudantes de todo o lado.
+
+00:10:09.022 --> 00:10:11.713
+Em vez disso, fiquei assustada.
+
+00:10:13.086 --> 00:10:18.693
+Como era possível que uma máquina
+sem inteligência superasse os alunos,
+
+00:10:18.717 --> 00:10:20.009
+os nossos filhos?
+
+00:10:20.103 --> 00:10:21.256
+Não é?
+
+00:10:22.101 --> 00:10:26.503
+Decidi investigar o que estava
+a acontecer no mundo humano.
+
+00:10:28.542 --> 00:10:33.651
+Agarrei em centenas de frases 
+de manuais do ensino médio
+
+00:10:33.859 --> 00:10:36.952
+e elaborei testes fáceis 
+de escolha múltipla.
+
+00:10:37.126 --> 00:10:41.489
+Pedi a milhares de alunos 
+do ensino médio que respondessem.
+
+00:10:42.690 --> 00:10:44.076
+Este é um exemplo:
+
+00:10:44.190 --> 00:10:46.588
+[... o cristianismo espalhou-se...
+pela Oceânia...
+
+00:10:46.617 --> 00:10:49.067
+Os problemas originais
+estão escritos em japonês,
+
+00:10:49.111 --> 00:10:50.466
+na língua materna deles.
+
+00:10:50.560 --> 00:10:52.295
+[ (______) espalhou-se pela Oceânia.
+
+00:10:52.349 --> 00:10:54.986
+[1. Hinduísmo 2. Cristianismo
+3. Islamismo 4. Budismo]
+
+00:10:55.050 --> 00:10:57.529
+Obviamente, a resposta
+é cristianismo, não é?
+
+00:10:58.023 --> 00:10:59.787
+Está lá escrito!
+
+00:11:01.482 --> 00:11:05.618
+O robô Todai também 
+escolheu a resposta correta.
+
+00:11:06.758 --> 00:11:11.377
+Mas um terço dos alunos do ensino médio
+
+00:11:11.661 --> 00:11:14.513
+não conseguiu responder bem
+a esta pergunta.
+
+00:11:16.456 --> 00:11:19.125
+Vocês acham que acontece apenas no Japão?
+
+00:11:19.639 --> 00:11:21.335
+Penso que não,
+
+00:11:21.639 --> 00:11:28.010
+porque o Japão é sempre classificado 
+entre os melhores nos testes PISA da OCDE,
+
+00:11:28.094 --> 00:11:31.961
+que medem o desempenho de alunos
+de 15 anos em matemática,
+
+00:11:31.985 --> 00:11:33.949
+em ciências e na leitura
+
+00:11:33.973 --> 00:11:35.779
+de três em três anos.
+
+00:11:39.390 --> 00:11:43.423
+Acreditamos que todos podem aprender
+
+00:11:43.534 --> 00:11:45.439
+e aprender bem,
+
+00:11:45.463 --> 00:11:49.160
+desde que lhes proporcionemos
+bons materiais de aprendizagem
+
+00:11:49.184 --> 00:11:50.639
+gratuitos na Internet,
+
+00:11:50.756 --> 00:11:53.406
+e lhes tenham acesso em qualquer sítio.
+
+00:11:53.756 --> 00:11:59.615
+Mas esses materiais extraordinários
+só beneficiam quem consegue ler bem,
+
+00:12:00.534 --> 00:12:03.839
+e a percentagem daqueles que leem bem
+
+00:12:04.493 --> 00:12:07.601
+talvez seja mais baixa do que esperamos.
+
+00:12:10.040 --> 00:12:14.091
+Como é que os seres humanos
+vão coexistir com a IA?
+
+00:12:14.305 --> 00:12:17.577
+Isto é uma coisa que temos
+que pensar cuidadosamente,
+
+00:12:17.731 --> 00:12:20.248
+com base em evidências sólidas.
+
+00:12:21.063 --> 00:12:24.640
+Ao mesmo tempo, devemos 
+apressar-nos em pensar
+
+00:12:25.064 --> 00:12:27.616
+porque o tempo está a esgotar-se.
+
+00:12:28.106 --> 00:12:29.268
+Obrigada.
+
+00:12:29.546 --> 00:12:32.739
+(Aplausos)
+
+00:12:34.211 --> 00:12:36.291
+Chris Anderson: Noriko, obrigado.
+
+00:12:36.315 --> 00:12:37.790
+Noriko Arai; Obrigada.
+
+00:12:38.104 --> 00:12:43.408
+CA: Na sua palestra, de forma magnífica,
+você dá uma ideia de como pensa uma IA,
+
+00:12:43.432 --> 00:12:46.616
+o que podem fazer de modo incrível
+e o que não podem fazer.
+
+00:12:46.739 --> 00:12:48.383
+Mas, se bem compreendi,
+
+00:12:48.417 --> 00:12:53.067
+você pensa que precisamos
+duma revolução urgente no ensino
+
+00:12:53.551 --> 00:12:57.706
+para ajudar as crianças a fazer as coisas
+que o homem pode fazer melhor que as IA?
+
+00:12:57.730 --> 00:12:59.058
+NA: Sim, sim.
+
+00:12:59.082 --> 00:13:02.897
+Porque nós, seres humanos, 
+compreendemos o significado.
+
+00:13:03.141 --> 00:13:07.807
+Isso é algo que falta bastante na IA.
+
+00:13:08.071 --> 00:13:12.389
+Mas a maioria dos estudantes
+apenas engole o conhecimento
+
+00:13:12.463 --> 00:13:16.206
+sem compreender 
+o significado desse conhecimento.
+
+00:13:16.390 --> 00:13:19.199
+Isso não é conhecimento,
+é apenas memorização,
+
+00:13:19.223 --> 00:13:21.483
+e a IA pode fazer o mesmo.
+
+00:13:21.697 --> 00:13:24.988
+Temos então que pensar
+num novo tipo de ensino.
+
+00:13:25.352 --> 00:13:28.641
+CA: Uma mudança do conhecimento,
+da memorização para o significado.
+
+00:13:28.665 --> 00:13:29.866
+NA: É isso.
+
+00:13:29.910 --> 00:13:32.840
+CA: Um desafio para os educadores.
+Muito obrigado
+
+00:13:32.914 --> 00:13:34.382
+NA: Muito obrigada.
+
+00:13:34.436 --> 00:13:36.011
+(Aplausos)
+

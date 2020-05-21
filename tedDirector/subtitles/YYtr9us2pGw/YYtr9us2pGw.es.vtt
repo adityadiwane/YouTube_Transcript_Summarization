@@ -1,0 +1,212 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Andrea Valencia
+Revisor: Daniel Garcia
+
+00:00:19.330 --> 00:00:21.330
+En 1952, Buckminster Fuller
+
+00:00:21.330 --> 00:00:25.330
+presentó una propuesta particularmente audaz para el Geoscope.
+
+00:00:25.330 --> 00:00:28.330
+Era una esfera geodesica de 200 pies de diámetro
+
+00:00:28.330 --> 00:00:33.330
+que estaría suspendida sobre el Río Este en la ciudad de Nueva York, a la vista de las Naciones Unidas.
+
+00:00:33.330 --> 00:00:39.330
+Era una gran idea, por supuesto, y era una que él sentía que verdaderamente podía informar
+
+00:00:39.330 --> 00:00:43.330
+y profundamente afectar la toma de decisiones de este organismo
+
+00:00:43.330 --> 00:00:47.330
+a través de animaciones de información global, tendencias
+
+00:00:47.330 --> 00:00:51.330
+y otro tipo de información relacionada con el mundo, en esta esfera.
+
+00:00:51.330 --> 00:00:54.330
+Y hoy, 45 años después,
+
+00:00:54.330 --> 00:00:57.330
+está claro que no necesitamos más este tipo de claridad ni de pespectiva,
+
+00:00:57.330 --> 00:01:00.330
+pero lo que sí tenemos es una tecnología que se ha perfeccionado.
+
+00:01:00.330 --> 00:01:03.330
+Hoy en día, no necesitamos un millón de focos para crear una pantalla esférica.
+
+00:01:03.330 --> 00:01:05.330
+Podemos utilizar LEDs.
+
+00:01:05.330 --> 00:01:10.330
+Los LEDs son más pequeños, baratos, durables y eficientes.
+
+00:01:10.330 --> 00:01:12.330
+Y lo más importante para esto, son más rápidos.
+
+00:01:12.330 --> 00:01:16.330
+Y esta velocidad, combinada con los micro controladores de alto rendimiento de hoy en día
+
+00:01:16.330 --> 00:01:19.330
+nos permiten simular, en esta pieza,
+
+00:01:19.330 --> 00:01:23.330
+más de 17,000 LEDs --utilizando sólo 64.
+
+00:01:24.330 --> 00:01:28.330
+Y la manera en que esto sucede es a través del fenómeno de la persistencia de la visión.
+
+00:01:28.330 --> 00:01:32.330
+Pero este anillo rota aproximadamente a 1,700 rpm --es decir, 28 veces por segundo.
+
+00:01:33.330 --> 00:01:36.330
+La velocidad del ecuador es de alrededor de 60 millas por hora.
+
+00:01:36.330 --> 00:01:38.330
+Existen cuatro micro controladores internos
+
+00:01:38.330 --> 00:01:41.330
+que, cada vez que este anillo lo rota,
+
+00:01:41.330 --> 00:01:43.330
+mientras pasa por la parte trasera del visualizador,
+
+00:01:43.330 --> 00:01:45.330
+detecta una señal de ubicación
+
+00:01:45.330 --> 00:01:47.330
+y de ahí, los micro controladores internos
+
+00:01:47.330 --> 00:01:52.330
+pueden extrapolar la posición del anillo en todos los puntos de la revolución
+
+00:01:52.330 --> 00:01:55.330
+y mostrar arbitrariamente imágenes y animaciones.
+
+00:01:55.330 --> 00:01:58.330
+Pero en realidad esto es sólo el comienzo.
+
+00:01:58.330 --> 00:02:01.330
+Además de versiones de mayor resolución de visualización,
+
+00:02:01.330 --> 00:02:04.330
+mi padre y yo estamos trabajando en un nuevo diseño con patente pendiente
+
+00:02:04.330 --> 00:02:07.330
+para una pantalla completamente volumétrica usando el mismo fenómeno.
+
+00:02:07.330 --> 00:02:10.330
+Ésto lo logra al hacer rotar los LEDs alrededor de dos ejes.
+
+00:02:10.330 --> 00:02:13.330
+Así que, como puede ver aquí, este es un tablero de circuito de 11 pulgadas de diámetro.
+
+00:02:13.330 --> 00:02:15.330
+Estos bloques representan los LEDs.
+
+00:02:15.330 --> 00:02:19.330
+Y así puede ver que, mientras este disco rota alrededor de este eje,
+
+00:02:19.330 --> 00:02:22.330
+creará un disco de luz que podemos controlar.
+
+00:02:22.330 --> 00:02:24.330
+Eso no es nada nuevo, eso es un reloj de hélice.
+
+00:02:24.330 --> 00:02:27.330
+Esos son los rines que puede comprar para su coche.
+
+00:02:27.330 --> 00:02:32.330
+Pero lo que sí es nuevo, es que al rotar este disco alrededor de este eje,
+
+00:02:32.330 --> 00:02:35.330
+ahora el disco de luz en realidad se convierte en una esfera de luz.
+
+00:02:35.330 --> 00:02:37.330
+Y por lo tanto, podemos controlar esto con los micro controladores
+
+00:02:37.330 --> 00:02:43.330
+y crear una pantalla tridimensional completamente volumétrica con sólo 256 LEDs.
+
+00:02:43.330 --> 00:02:45.330
+Actualmente esta pieza está en proceso --
+
+00:02:45.330 --> 00:02:50.330
+saldrá en Mayo, pero lo que hemos hecho es crear una pequeña demostración,
+
+00:02:50.330 --> 00:02:54.330
+sólo para mostrar la traducción geométrica de puntos en una esfera.
+
+00:02:54.330 --> 00:02:56.330
+Tengo para mostrarles un video corto,
+
+00:02:56.330 --> 00:03:00.330
+pero tengan en cuenta que esto es sin control electrónico,
+
+00:03:00.330 --> 00:03:02.330
+y que además funciona con sólo cuatro LEDs.
+
+00:03:02.330 --> 00:03:05.330
+Esto es en realidad sólo el 1.5% de lo que será la pantalla terminada en Mayo.
+
+00:03:05.330 --> 00:03:07.330
+Así que, echen un vistazo.
+
+00:03:09.330 --> 00:03:13.330
+Y aquí puede ver que solamente está rotando alrededor del eje vertical, creando círculos.
+
+00:03:17.330 --> 00:03:19.330
+Y después, mientras los otros ejes se integran
+
+00:03:19.330 --> 00:03:21.330
+aquéllos se disipan en un volumen.
+
+00:03:21.330 --> 00:03:23.330
+Y la velocidad del disparador de la cámara
+
+00:03:23.330 --> 00:03:26.330
+en realidad lo hace ligeramente menos efectivo en este caso.
+
+00:03:26.330 --> 00:03:28.330
+Pero esta pieza saldrá en Mayo.
+
+00:03:28.330 --> 00:03:31.330
+Se mostrará en el Interactive Telecommunications Spring Show
+
+00:03:31.330 --> 00:03:33.330
+en Greenwich Village en Nueva York --estará abierto al público,
+
+00:03:33.330 --> 00:03:37.330
+por supuesto los invito a todos a asistir --es un espectáculo fantástico.
+
+00:03:37.330 --> 00:03:41.330
+Hay cientos de estudiantes innovadores con proyectos fantásticos.
+
+00:03:41.330 --> 00:03:43.330
+Esta pieza, en realidad, se mostrará
+
+00:03:43.330 --> 00:03:45.330
+abajo en el Sierra Simulcast Lounge
+
+00:03:45.330 --> 00:03:47.330
+en los descansos que haya desde ahora y hasta el fin del espectáculo.
+
+00:03:47.330 --> 00:03:49.330
+Así que me encantaría hablar con todos ustedes, e invitarlos
+
+00:03:49.330 --> 00:03:51.330
+a que vengan y vean el proyecto más de cerca.
+
+00:03:51.330 --> 00:03:53.330
+Es un honor estar aquí, muchas gracias.
+
+00:03:53.330 --> 00:03:54.330
+(Aplausos)
+

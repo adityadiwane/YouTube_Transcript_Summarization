@@ -1,0 +1,1142 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:07.000
+Traduttore: Martina Borgnese
+Revisore: Filomena Pelosi
+
+00:00:12.760 --> 00:00:14.600
+Questo è Pleurobot.
+
+00:00:15.400 --> 00:00:19.016
+Pleurobot è stato progettato per imitare 
+una specie di salamandra
+
+00:00:19.040 --> 00:00:20.440
+detta Pleurodeles waltl.
+
+00:00:21.240 --> 00:00:23.496
+Pleurobot cammina, come potete vedere,
+
+00:00:23.520 --> 00:00:25.560
+e come vedremo dopo, sa anche nuotare.
+
+00:00:26.280 --> 00:00:28.471
+Vi chiederete
+perché l'abbiamo progettato?
+
+00:00:28.960 --> 00:00:32.962
+In realtà è stato progettato
+come strumento per le neuroscienze.
+
+00:00:33.400 --> 00:00:35.896
+Infatti abbiamo lavorato
+con dei neurobiologi
+
+00:00:35.920 --> 00:00:37.816
+per capire come si muovono gli animali
+
+00:00:37.840 --> 00:00:40.600
+e specialmente come la spina dorsale
+controlla i movimenti.
+
+00:00:41.560 --> 00:00:43.256
+Ma più lavoro in biorobotica,
+
+00:00:43.280 --> 00:00:45.661
+più la locomozione degli animali
+mi stupisce.
+
+00:00:45.920 --> 00:00:50.216
+Se pensate ad un delfino che nuota
+o ad un gatto che corre o salta,
+
+00:00:50.240 --> 00:00:51.806
+o persino a noi umani,
+
+00:00:51.840 --> 00:00:53.656
+quando corriamo o giochiamo a tennis,
+
+00:00:53.680 --> 00:00:55.100
+facciamo cose straordinarie.
+
+00:00:55.880 --> 00:01:00.016
+Il nostro sistema nervoso risolve
+un problema di controllo molto complesso.
+
+00:01:00.040 --> 00:01:03.136
+Deve coordinare perfettamente
+più o meno 200 muscoli,
+
+00:01:03.160 --> 00:01:07.060
+e se la coordinazione non è buona
+cadiamo o ci spostiamo male.
+
+00:01:07.560 --> 00:01:10.280
+Il mio obiettivo è capire
+come tutto questo funziona.
+
+00:01:11.160 --> 00:01:14.000
+Sono quattro le componenti principali
+della locomozione animale.
+
+00:01:14.800 --> 00:01:16.736
+La prima componente è soltanto il corpo,
+
+00:01:16.760 --> 00:01:18.736
+e non dovremmo mai sottovalutare
+
+00:01:18.760 --> 00:01:22.240
+fino a che punto la biomeccanica
+semplifichi già la locomozione animale.
+
+00:01:22.920 --> 00:01:24.376
+Poi c'è la spina dorsale,
+
+00:01:24.400 --> 00:01:26.376
+e lì troviamo i riflessi,
+
+00:01:26.400 --> 00:01:29.856
+riflessi multipli che creano
+un circuito coordinativo sensorimotorio
+
+00:01:29.880 --> 00:01:33.360
+tra l'attività neurale nella spina dorsale
+e l'attività meccanica.
+
+00:01:34.000 --> 00:01:36.976
+Infine ci sono
+i generatori centrali di configurazione.
+
+00:01:37.000 --> 00:01:40.896
+Sono circuiti molto interessanti
+nella spina dorsale dei vertebrati
+
+00:01:40.920 --> 00:01:42.536
+che possono generare da soli
+
+00:01:42.560 --> 00:01:45.296
+configurazioni ritmiche di attività
+molto coordinate
+
+00:01:45.320 --> 00:01:47.696
+ricevendo solo input
+molto semplici.
+
+00:01:47.720 --> 00:01:48.936
+E questi input
+
+00:01:48.960 --> 00:01:52.016
+provenienti dalla modulazione discendente
+da parti più alte del cervello,
+
+00:01:52.040 --> 00:01:54.736
+come la corteccia motoria,
+il cervelletto, il ganglio basale
+
+00:01:54.760 --> 00:01:56.896
+regolano tutti l'attività
+della spina dorsale
+
+00:01:56.920 --> 00:01:58.376
+mentre ci muoviamo.
+
+00:01:58.400 --> 00:02:01.616
+La cosa interessante è come
+una componente di basso livello,
+
+00:02:01.640 --> 00:02:03.576
+la spina dorsale, assieme al corpo,
+
+00:02:03.600 --> 00:02:06.056
+risolvono già una gran parte
+della locomozione.
+
+00:02:06.080 --> 00:02:08.582
+Forse lo sapete per il fatto
+che se si taglia la testa ad un pollo
+
+00:02:08.592 --> 00:02:10.291
+questo può correre per un po',
+
+00:02:10.291 --> 00:02:13.140
+dimostrando che la parte inferiore,
+spina dorsale e corpo,
+
+00:02:13.140 --> 00:02:15.273
+risolve gran parte della locomozione.
+
+00:02:15.397 --> 00:02:17.856
+Ora, capire come ciò avviene
+è molto complesso,
+
+00:02:17.880 --> 00:02:19.176
+perché prima di tutto,
+
+00:02:19.200 --> 00:02:21.820
+registrare l'attività nella spina dorsale
+è molto difficile.
+
+00:02:21.844 --> 00:02:24.616
+È più facile impiantare elettrodi
+nella corteccia motoria
+
+00:02:24.640 --> 00:02:27.696
+che nella spina dorsale,
+perché è protetta dalle vertebre.
+
+00:02:27.720 --> 00:02:29.536
+Specialmente negli umani.
+
+00:02:29.560 --> 00:02:33.336
+Una seconda difficoltà è che il movimento
+è dovuto ad una interazione
+
+00:02:33.360 --> 00:02:36.416
+molto complessa e dinamica
+tra queste quattro componenti.
+
+00:02:36.440 --> 00:02:39.680
+Quindi è molto difficile scoprire
+che ruolo abbia ognuna nel tempo.
+
+00:02:40.880 --> 00:02:44.616
+È qui che i biorobot come Pleurobot
+e modelli matematici
+
+00:02:44.640 --> 00:02:45.840
+possono davvero aiutare.
+
+00:02:47.480 --> 00:02:48.736
+Allora cos'è la biorobotica?
+
+00:02:48.760 --> 00:02:51.496
+È un campo molto attivo
+della ricerca in robotica
+
+00:02:51.520 --> 00:02:53.976
+in cui si vuole
+prendere ispirazione dagli animali
+
+00:02:54.000 --> 00:02:56.456
+per fare robot che vadano all'esterno,
+
+00:02:56.480 --> 00:02:59.136
+come robot di servizio
+o robot di ricerca e soccorso
+
+00:02:59.160 --> 00:03:00.360
+o robot sul campo.
+
+00:03:00.880 --> 00:03:03.576
+L'obiettivo qui
+è prendere ispirazione dagli animali
+
+00:03:03.600 --> 00:03:05.936
+per fare robot che se la cavino
+su terreni difficili --
+
+00:03:05.960 --> 00:03:07.576
+scale, montagne, foreste,
+
+00:03:07.600 --> 00:03:09.616
+luoghi in cui i robot
+fanno ancora fatica
+
+00:03:09.640 --> 00:03:11.696
+e in cui gli animali
+riescono molto meglio.
+
+00:03:11.720 --> 00:03:14.216
+Il robot può anche essere
+uno strumento scientifico fantastico.
+
+00:03:14.240 --> 00:03:16.860
+Ci sono progetti molto belli
+in cui i robot sono usati,
+
+00:03:16.884 --> 00:03:20.856
+come strumento per le neuroscienze,
+per la biomeccanica o per l'idrodinamica.
+
+00:03:20.880 --> 00:03:23.000
+E questo è esattamente
+lo scopo di Pleurobot.
+
+00:03:23.600 --> 00:03:26.536
+Quindi nel mio laboratorio si collabora
+con neurobiologi
+
+00:03:26.560 --> 00:03:29.776
+come Jean-Marie Cabulguen,
+un neurobiologo a Bordeaux in Francia,
+
+00:03:29.800 --> 00:03:33.840
+e vogliamo fare modelli di spina dorsale
+e convalidarli sui robot.
+
+00:03:34.480 --> 00:03:36.096
+E per iniziare in modo semplice
+
+00:03:36.120 --> 00:03:38.096
+è meglio iniziare con animali semplici
+
+00:03:38.120 --> 00:03:40.376
+come le lamprede, 
+pesci molto primitivi,
+
+00:03:40.400 --> 00:03:42.896
+per poi passare 
+a una locomozione più complessa,
+
+00:03:42.920 --> 00:03:44.176
+come nelle salamandre,
+
+00:03:44.200 --> 00:03:45.696
+ma anche nei gatti e negli umani,
+
+00:03:45.720 --> 00:03:46.920
+nei mammiferi.
+
+00:03:47.880 --> 00:03:50.256
+E qui un robot diventa
+uno strumento interessante
+
+00:03:50.280 --> 00:03:52.216
+per convalidare i nostri modelli.
+
+00:03:52.240 --> 00:03:55.256
+E in effetti, per me, Pleurobot
+è un sogno diventato realtà.
+
+00:03:55.280 --> 00:03:58.536
+Circa 20 anni fa
+stavo già lavorando su un computer
+
+00:03:58.560 --> 00:04:01.216
+su simulazioni di locomozione
+delle lamprede e delle salamandre
+
+00:04:01.240 --> 00:04:02.776
+durante il mio dottorato.
+
+00:04:02.800 --> 00:04:06.176
+Ma ho sempre saputo che le mie simulazioni
+erano solo approssimazioni.
+
+00:04:06.200 --> 00:04:10.176
+Come simulare la fisica in acqua
+o con fango o terreni difficili,
+
+00:04:10.200 --> 00:04:12.856
+è molto difficile simularli
+correttamente al computer.
+
+00:04:12.880 --> 00:04:14.920
+Perché non un robot
+e una fisica veri?
+
+00:04:15.600 --> 00:04:18.736
+Quindi tra tutti questi animali,
+uno dei miei preferiti è la salamandra.
+
+00:04:18.760 --> 00:04:22.216
+Vi chiederete perché.
+Il motivo è che in quanto anfibio,
+
+00:04:22.240 --> 00:04:25.096
+è un animale chiave
+da un punto di vista evoluzionistico.
+
+00:04:25.120 --> 00:04:27.176
+È un collegamento fantastico
+tra il nuoto,
+
+00:04:27.200 --> 00:04:29.096
+come nelle anguille o nei pesci,
+
+00:04:29.120 --> 00:04:33.240
+e la locomozione dei quadrupedi,
+come i mammiferi, i gatti e gli umani.
+
+00:04:34.160 --> 00:04:35.816
+In effetti, la salamandra moderna
+
+00:04:35.840 --> 00:04:38.216
+è molto simile al primo
+vertebrato terrestre,
+
+00:04:38.240 --> 00:04:39.776
+è quasi un fossile vivente,
+
+00:04:39.800 --> 00:04:41.736
+che ci dà accesso ai nostri antenati,
+
+00:04:41.760 --> 00:04:44.680
+antenati di tutti i tetrapodi terrestri.
+
+00:04:45.240 --> 00:04:46.616
+Quindi la salamandra nuota
+
+00:04:46.640 --> 00:04:49.136
+con un'andatura natatoria
+detta anguilliforme,
+
+00:04:49.160 --> 00:04:52.800
+e propagano un'ondata
+di attività muscolare da testa a coda.
+
+00:04:53.440 --> 00:04:55.616
+E se si mette
+la salamandra a terra,
+
+00:04:55.640 --> 00:04:57.976
+si converte all'andatura
+detta al passo e trotto.
+
+00:04:58.000 --> 00:05:00.863
+In questo caso, c'è un'attivazione
+periodica degli arti
+
+00:05:00.887 --> 00:05:02.496
+che si coordinano con armonia
+
+00:05:02.520 --> 00:05:05.176
+con quest'ondulazione del corpo
+ad onda statica,
+
+00:05:05.200 --> 00:05:08.856
+ed è esattamente l'andatura
+che state vedendo ora su Pleurobot.
+
+00:05:08.880 --> 00:05:11.856
+Una cosa veramente sorprendente
+e affascinante
+
+00:05:11.880 --> 00:05:16.016
+è che tutto questo può essere generato
+solo dalla spina dorsale e dal corpo.
+
+00:05:16.040 --> 00:05:18.040
+Quindi se si prende
+un animale decerebrato -
+
+00:05:18.064 --> 00:05:20.080
+non è bello
+ma se si rimuove la testa -
+
+00:05:20.104 --> 00:05:22.776
+e se si stimola
+elettricamente la spina dorsale,
+
+00:05:22.800 --> 00:05:26.056
+ad una bassa stimolazione
+verrà indotta una sorta di andatura.
+
+00:05:26.080 --> 00:05:28.536
+Se si stimola un po' di più,
+l'andatura accelera.
+
+00:05:28.560 --> 00:05:30.456
+E ad un certo punto c'è un limite,
+
+00:05:30.480 --> 00:05:33.016
+e automaticamente,
+l'animale inizia a nuotare.
+
+00:05:33.040 --> 00:05:34.416
+È fantastico.
+
+00:05:34.440 --> 00:05:35.936
+Si cambia la trasmissione,
+
+00:05:35.960 --> 00:05:37.696
+come se premendo l'acceleratore
+
+00:05:37.720 --> 00:05:39.856
+della modulazione discendente
+alla spina dorsale,
+
+00:05:39.880 --> 00:05:42.880
+ci fosse un cambio completo
+tra due andature molto diverse.
+
+00:05:44.440 --> 00:05:47.016
+In realtà, la stessa cosa
+è stata osservata nei gatti.
+
+00:05:47.040 --> 00:05:49.056
+Stimolando la spina dorsale di un gatto,
+
+00:05:49.080 --> 00:05:51.296
+si può cambiare 
+tra passo, trotto e galoppo.
+
+00:05:51.320 --> 00:05:54.056
+O negli uccelli, si può cambiare 
+tra camminare,
+
+00:05:54.080 --> 00:05:55.536
+ad una bassa stimolazione,
+
+00:05:55.560 --> 00:05:58.376
+e sbattere le ali
+ad un'alta stimolazione.
+
+00:05:58.400 --> 00:06:00.416
+Questo dimostra che la spina dorsale
+
+00:06:00.440 --> 00:06:02.856
+controlla la locomozione
+in modo molto sofisticato.
+
+00:06:02.880 --> 00:06:05.336
+Abbiamo studiato il movimento
+della salamandra nei dettagli,
+
+00:06:05.360 --> 00:06:08.456
+abbiamo avuto accesso
+ad una macchina a raggi X
+
+00:06:08.480 --> 00:06:12.056
+del Prof. Martin Fischer
+dell'Università di Jena in Germania.
+
+00:06:12.080 --> 00:06:14.656
+E grazie a quella,
+abbiamo una macchina fantastica
+
+00:06:14.680 --> 00:06:17.136
+per registrare tutti i movimenti ossei
+in dettaglio.
+
+00:06:17.160 --> 00:06:18.416
+Ecco cos'abbiamo fatto.
+
+00:06:18.440 --> 00:06:21.616
+In pratica abbiamo scoperto
+quali ossa erano importanti per noi
+
+00:06:21.640 --> 00:06:24.656
+e registrato il loro movimento in 3D.
+
+00:06:24.680 --> 00:06:27.376
+Abbiamo raccolto
+un intero database di movimenti,
+
+00:06:27.400 --> 00:06:29.056
+sia su terra che in acqua,
+
+00:06:29.080 --> 00:06:31.564
+per raccogliere un database
+di comportamenti motori
+
+00:06:31.589 --> 00:06:32.833
+che un animale può fare.
+
+00:06:32.858 --> 00:06:36.008
+Il nostro lavoro di robotici
+è stato replicarli nel nostro robot.
+
+00:06:36.033 --> 00:06:39.416
+È stato fatto un processo di ottimizzazione
+per trovare la struttura giusta,
+
+00:06:39.440 --> 00:06:42.096
+dove posizionare i motori,
+come connetterli tra di loro,
+
+00:06:42.120 --> 00:06:45.000
+per poter ripetere
+i movimenti il meglio possibile.
+
+00:06:45.680 --> 00:06:48.040
+Ed è così che è nato Pleurobot.
+
+00:06:49.200 --> 00:06:51.616
+Vediamo quanto è simile
+all'animale vero.
+
+00:06:52.960 --> 00:06:55.456
+Quello che vedete 
+è quasi un paragone diretto
+
+00:06:55.480 --> 00:06:58.176
+tra la camminata
+dell'animale e Pleurobot.
+
+00:06:58.200 --> 00:07:00.936
+Potete vedere che c'è
+una ripetizione quasi identica
+
+00:07:00.960 --> 00:07:02.216
+della camminata.
+
+00:07:02.240 --> 00:07:04.840
+Andando indietro al rallentatore
+si vede anche meglio.
+
+00:07:07.520 --> 00:07:09.896
+Ma ancora meglio è il nuoto.
+
+00:07:09.920 --> 00:07:12.936
+Abbiamo una muta
+che mettiamo addosso al robot --
+
+00:07:12.960 --> 00:07:14.056
+(Risate)
+
+00:07:14.080 --> 00:07:17.256
+possiamo andare in acqua
+e riprodurre l'andatura natatoria.
+
+00:07:17.280 --> 00:07:20.616
+Qui siamo stati molto contenti,
+perché questo era difficile da fare.
+
+00:07:20.640 --> 00:07:22.856
+La fisica dell'interazione è complessa.
+
+00:07:22.880 --> 00:07:25.296
+Il nostro robot è molto più grande
+di un piccolo animale,
+
+00:07:25.320 --> 00:07:28.376
+perciò siamo ricorsi
+all'ingrandimento dinamico delle frequenze
+
+00:07:28.400 --> 00:07:30.736
+per ottenere
+la stessa fisica delle interazioni.
+
+00:07:30.760 --> 00:07:33.176
+Ma alla fine vedete
+una buona corrispondenza,
+
+00:07:33.200 --> 00:07:35.080
+ed eravamo davvero contenti.
+
+00:07:35.480 --> 00:07:37.696
+Passiamo alla spina dorsale.
+
+00:07:37.720 --> 00:07:40.016
+Quello che abbiamo fatto
+con Jean-Marie Cabelguen
+
+00:07:40.040 --> 00:07:42.280
+è stato modellare i circuiti della colonna.
+
+00:07:43.040 --> 00:07:45.176
+La cosa interessante
+è che la salamandra
+
+00:07:45.200 --> 00:07:46.820
+ha un circuito molto primitivo,
+
+00:07:46.844 --> 00:07:49.496
+molto simile
+a quello della lampreda,
+
+00:07:49.520 --> 00:07:51.586
+questo pesce primitivo 
+simile all'anguilla,
+
+00:07:51.586 --> 00:07:53.256
+e sembra in evoluzione,
+
+00:07:53.280 --> 00:07:56.216
+abbiamo aggiunto oscillatori neurali
+per controllare gli arti,
+
+00:07:56.240 --> 00:07:57.656
+per il movimento delle zampe.
+
+00:07:57.680 --> 00:07:59.856
+E sappiamo dove si trovano
+questi oscillatori
+
+00:07:59.880 --> 00:08:02.136
+ma noi abbiamo fatto
+un modello matematico
+
+00:08:02.160 --> 00:08:03.776
+per vedere come accoppiarli
+
+00:08:03.800 --> 00:08:06.736
+per permettere il passaggio
+tra due andature molto diverse.
+
+00:08:06.760 --> 00:08:09.320
+E l'abbiamo testato su un robot.
+
+00:08:09.680 --> 00:08:10.880
+Ecco il risultato.
+
+00:08:18.920 --> 00:08:21.936
+Quello che vedete
+è una versione precedente di Pleurobot
+
+00:08:21.960 --> 00:08:25.056
+completamente controllata
+dal nostro modello di spina dorsale
+
+00:08:25.080 --> 00:08:26.680
+programmata sul robot.
+
+00:08:27.280 --> 00:08:28.496
+L'unica cosa che facciamo
+
+00:08:28.520 --> 00:08:30.696
+è mandare al robot
+tramite un telecomando
+
+00:08:30.720 --> 00:08:33.216
+i due segnali discendenti
+che di solito riceve
+
+00:08:33.240 --> 00:08:34.840
+dalla parte superiore del cervello.
+
+00:08:35.480 --> 00:08:38.176
+La cosa interessante è che,
+giocando con questi segnali,
+
+00:08:38.200 --> 00:08:41.060
+possiamo controllare 
+velocità, direzione e tipo di andatura.
+
+00:08:41.600 --> 00:08:42.816
+Per esempio,
+
+00:08:42.840 --> 00:08:46.416
+Quando lo stimolo è a livello inferiore,
+otteniamo una camminata,
+
+00:08:46.440 --> 00:08:48.416
+e ad un certo punto, se stimoliamo molto,
+
+00:08:48.440 --> 00:08:50.600
+cambia rapidamente
+nell'andatura natatoria.
+
+00:08:51.480 --> 00:08:53.696
+Infine, possiamo anche
+girare molto bene
+
+00:08:53.720 --> 00:08:57.240
+solo stimolando di più un lato
+della spina dorsale rispetto all'altro.
+
+00:08:58.200 --> 00:08:59.816
+Penso sia bellissimo
+
+00:08:59.840 --> 00:09:02.096
+come la natura 
+abbia distribuito il controllo
+
+00:09:02.120 --> 00:09:04.976
+per dare davvero molta responsabilità
+alla spina dorsale
+
+00:09:05.000 --> 00:09:08.826
+così che la parte superiore del cervello
+non si deve preoccupare di ogni muscolo.
+
+00:09:08.826 --> 00:09:11.616
+Si deve solo preoccupare
+della modulazione ad alto livello,
+
+00:09:11.616 --> 00:09:14.816
+ed è la spina dorsale
+a dover coordinare tutti i muscoli.
+
+00:09:14.840 --> 00:09:18.360
+Passiamo alla locomozione dei gatti
+e all'importanza della biomeccanica.
+
+00:09:19.080 --> 00:09:20.336
+Questo è un altro progetto
+
+00:09:20.360 --> 00:09:22.776
+in cui abbiamo studiato
+la biomeccanica dei gatti,
+
+00:09:22.800 --> 00:09:26.696
+per vedere quanto
+la morfologia aiuti la locomozione.
+
+00:09:26.720 --> 00:09:30.336
+Abbiamo trovato tre criteri
+importanti nelle proprietà,
+
+00:09:30.360 --> 00:09:31.680
+in pratica, degli arti.
+
+00:09:32.320 --> 00:09:34.296
+Il primo è che l'arto di un gatto
+
+00:09:34.320 --> 00:09:37.016
+ha una struttura più o meno
+simile al pantografo.
+
+00:09:37.040 --> 00:09:39.256
+Un pantografo è una struttura meccanica
+
+00:09:39.280 --> 00:09:42.680
+che mantiene il segmento superiore
+sempre parallelo a quello inferiore.
+
+00:09:43.600 --> 00:09:46.696
+Quindi un semplice sistema geometrico
+che coordina un po'
+
+00:09:46.720 --> 00:09:48.536
+i movimenti interni dei segmenti.
+
+00:09:48.560 --> 00:09:51.616
+La seconda proptità degli arti
+è che sono molto leggeri.
+
+00:09:51.640 --> 00:09:53.566
+La maggior parte dei muscoli
+è nel busto,
+
+00:09:53.566 --> 00:09:56.416
+che è una buona idea,
+così gli arti hanno una bassa inerzia
+
+00:09:56.440 --> 00:09:58.216
+e possono muoversi rapidamente.
+
+00:09:58.240 --> 00:10:02.056
+L'ultima importante proprietà 
+è questa grande elasticità dell'arto,
+
+00:10:02.080 --> 00:10:04.736
+per sopportare urti e forze.
+
+00:10:04.760 --> 00:10:07.096
+È così che abbiamo progettato Cheetah-Cub.
+
+00:10:07.120 --> 00:10:09.320
+Invitiamo Cheeta-Cub sul palco.
+
+00:10:14.160 --> 00:10:17.816
+Questo è Peter Eckert,
+che fa il dottorato su questo robot,
+
+00:10:17.840 --> 00:10:19.896
+e come vedete è un grazioso robottino.
+
+00:10:19.920 --> 00:10:21.176
+Sembra un giocattolo,
+
+00:10:21.200 --> 00:10:23.256
+ma è stato usato
+come strumento scientifico
+
+00:10:23.280 --> 00:10:26.576
+per studiare queste proprietà
+delle gambe dei gatti.
+
+00:10:26.600 --> 00:10:29.216
+Vedete, è molto adattabile,
+molto leggero,
+
+00:10:29.240 --> 00:10:30.496
+e anche molto elastico,
+
+00:10:30.520 --> 00:10:33.296
+lo sì può facilmente schiacciare
+e non si rompe.
+
+00:10:33.320 --> 00:10:34.776
+In effetti, fa solo un salto.
+
+00:10:34.800 --> 00:10:37.680
+E questa proprietà così elastica
+è anche molto importante.
+
+00:10:39.160 --> 00:10:41.056
+E si vedono anche un po' le proprietà
+
+00:10:41.080 --> 00:10:43.480
+di questi tre segmenti
+delle gambe come pantografo.
+
+00:10:44.280 --> 00:10:47.056
+Ora, l'interessante è
+che quest'andatura così dinamica
+
+00:10:47.080 --> 00:10:49.076
+è ottenuta semplicemente 
+a circuito aperto
+
+00:10:49.076 --> 00:10:52.136
+cioè senza sensori,
+senza complessi circuiti di feedback.
+
+00:10:52.160 --> 00:10:54.576
+Ed è interessante perché significa
+
+00:10:54.600 --> 00:10:58.616
+che solo la meccanica
+stabilizza già quest'andatura rapida,
+
+00:10:58.640 --> 00:11:02.816
+e che la meccanica veramente buona
+semplifica la locomozione già alla base.
+
+00:11:02.840 --> 00:11:06.136
+Al punto che possiamo persino
+disturbare un po' la locomozione,
+
+00:11:06.160 --> 00:11:07.816
+come vedremo nel prossimo video,
+
+00:11:07.840 --> 00:11:11.736
+dove per esempio possiamo fare esercizi
+in cui il robot scende uno scalino,
+
+00:11:11.760 --> 00:11:13.376
+senza che il robot cada,
+
+00:11:13.400 --> 00:11:14.976
+che per noi è stata una sorpresa.
+
+00:11:15.000 --> 00:11:16.486
+Questo è un piccolo turbamento.
+
+00:11:16.486 --> 00:11:19.066
+Mi aspettavo che il robot
+si ribaltasse immediatamente,
+
+00:11:19.066 --> 00:11:21.816
+perché non ci sono sensori,
+o circuiti di feedback veloce.
+
+00:11:21.816 --> 00:11:23.646
+Ma no, la sola meccanica
+ha stabilizzato l'andatura,
+
+00:11:23.646 --> 00:11:25.136
+e il robot non si ribalta.
+
+00:11:25.160 --> 00:11:28.296
+Ovviamente, se si fa un passo più lungo,
+e in presenza di ostacoli,
+
+00:11:28.320 --> 00:11:31.976
+c'è bisogno di ogni circuito di controllo
+e dei riflessi, eccetera.
+
+00:11:32.000 --> 00:11:34.936
+Ma la cosa importante è 
+che solo per un piccolo turbamento
+
+00:11:34.960 --> 00:11:36.456
+la meccanica è corretta.
+
+00:11:36.480 --> 00:11:38.576
+Penso che sia
+un messaggio molto importante
+
+00:11:38.600 --> 00:11:40.791
+da biomeccanica e robotica
+a neuroscienza,
+
+00:11:40.815 --> 00:11:45.495
+che dice di non sottovalutare quanto
+il corpo aiuti già la locomozione.
+
+00:11:47.440 --> 00:11:49.810
+Ora, cosa c'entra questo
+con la locomozione umana?
+
+00:11:49.960 --> 00:11:53.600
+La locomozione umana è più complessa
+di quella dei gatti e delle salamandre,
+
+00:11:54.360 --> 00:11:57.496
+ma allo stesso tempo il sistema nervoso
+umano è molto simile
+
+00:11:57.520 --> 00:11:59.096
+a quello degli altri vertebrati.
+
+00:11:59.120 --> 00:12:00.576
+Specialmente la spina dorsale
+
+00:12:00.600 --> 00:12:03.240
+è la chiave per il controllo
+della locomozione umana.
+
+00:12:03.760 --> 00:12:06.176
+Ecco perché se c'è una lesione
+della spina dorsale
+
+00:12:06.200 --> 00:12:07.766
+le conseguenze sono drammatiche.
+
+00:12:07.766 --> 00:12:10.496
+La persona può diventare
+paraplegica o tetraplegica.
+
+00:12:10.520 --> 00:12:12.896
+Questo perché il cervello
+perde la comunicazione
+
+00:12:12.920 --> 00:12:14.176
+con la spina dorsale.
+
+00:12:14.200 --> 00:12:16.736
+In particolare, perde questa
+modulazione discendente
+
+00:12:16.736 --> 00:12:18.700
+per indurre e modulare la locomozione.
+
+00:12:19.640 --> 00:12:21.516
+Quindi un obiettivo della neuroprotesi
+
+00:12:21.516 --> 00:12:23.736
+è riuscire a riattivare
+quella comunicazione
+
+00:12:23.760 --> 00:12:26.200
+usando stimolazioni elettriche o chimiche.
+
+00:12:26.840 --> 00:12:29.776
+Ci sono vari team
+nel mondo che fanno proprio questo,
+
+00:12:29.800 --> 00:12:31.016
+specialmente a EPFL.
+
+00:12:31.040 --> 00:12:33.576
+Il miei colleghi Grégoire Courtine
+e Silvestro Micera,
+
+00:12:33.576 --> 00:12:34.800
+con i quali collaboro.
+
+00:12:35.960 --> 00:12:39.056
+Ma per farlo come si deve,
+è molto importante capire
+
+00:12:39.080 --> 00:12:40.816
+come funziona la spina dorsale,
+
+00:12:40.840 --> 00:12:42.536
+come interagisce con il corpo,
+
+00:12:42.560 --> 00:12:45.040
+e come il cervello
+comunica con la spina dorsale.
+
+00:12:45.800 --> 00:12:48.696
+Questo è dove i robot
+e i modelli che ho presentato oggi
+
+00:12:48.720 --> 00:12:50.616
+giocheranno forse un ruolo chiave
+
+00:12:50.640 --> 00:12:53.296
+verso questo obiettivo molto importante.
+
+00:12:53.320 --> 00:12:54.536
+Grazie.
+
+00:12:54.560 --> 00:12:59.120
+(Applausi)
+
+00:13:04.100 --> 00:13:06.736
+Bruno Giussani: Auke, ho visto
+altri robot nel tuo laboratorio
+
+00:13:06.760 --> 00:13:09.216
+che fanno cose come nuotare 
+nell'inquinamento
+
+00:13:09.240 --> 00:13:11.696
+misurando l'inquinamento mentre nuotano.
+
+00:13:11.720 --> 00:13:12.936
+Ma questo qui,
+
+00:13:12.960 --> 00:13:16.440
+l'hai detto nella presentazione,
+come progetto parallelo,
+
+00:13:17.640 --> 00:13:18.856
+ricerca e soccorso,
+
+00:13:18.880 --> 00:13:21.056
+ha una videocamera sul naso.
+
+00:13:21.080 --> 00:13:23.576
+Auke Ijspeert: Certo. Dunque il robot --
+
+00:13:23.600 --> 00:13:25.029
+abbiamo dei progetti spin-off
+
+00:13:25.053 --> 00:13:28.496
+in cui vorremmo usare i robot
+per fare ispezioni di ricerca e soccorso --
+
+00:13:28.520 --> 00:13:30.096
+ora questo robot ti vede.
+
+00:13:30.120 --> 00:13:33.296
+E il sogno è,
+se c'è una situazione difficile
+
+00:13:33.320 --> 00:13:36.936
+come un edificio crollato
+o un edificio inondato,
+
+00:13:36.960 --> 00:13:40.296
+molto pericolosa per una squadra di soccorso
+o persino per i cani,
+
+00:13:40.320 --> 00:13:43.416
+perché non mandare un robot
+che può strisciare, nuotare, camminare
+
+00:13:43.416 --> 00:13:46.616
+con una videocamera per fare 
+ispezioni e identifica resopravvissuti
+
+00:13:46.616 --> 00:13:49.216
+e magari comunicazre
+con il sopravvissuto.
+
+00:13:49.240 --> 00:13:52.816
+BG: Certo, supponendo che i sopravvissuti
+non si spaventino della sua forma.
+
+00:13:52.840 --> 00:13:56.136
+AI: Sì, forse dovremmo cambiarne
+un po' l'aspetto,
+
+00:13:56.160 --> 00:13:58.976
+perché penso che il sopravvissuto
+potrebbe morire di infarto
+
+00:13:59.000 --> 00:14:01.536
+solo pensando 
+che si possa nutrire di lui.
+
+00:14:01.560 --> 00:14:04.416
+Ma cambiando l'apparenza
+e rendendolo più robusto,
+
+00:14:04.440 --> 00:14:06.496
+sono sicuro che si possa
+farne un buono strumento.
+
+00:14:06.520 --> 00:14:08.806
+BG: Grazie mille.
+Grazie a te a al tuo team.
+

@@ -1,0 +1,737 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Hoa Nguyen
+Reviewer: Minh Trang Lai
+
+00:00:15.260 --> 00:00:18.260
+Ý tưởng đằng sau sâu máy tính Stuxnet
+
+00:00:18.260 --> 00:00:20.260
+thật ra rất đơn giản.
+
+00:00:20.260 --> 00:00:23.260
+Chúng ta không muốn Iran có được bom hạt nhân.
+
+00:00:23.260 --> 00:00:26.260
+Công cụ chính của họ để phát triển vũ khí hạt nhân
+
+00:00:26.260 --> 00:00:30.260
+là cơ sở làm giàu uranium Natanz.
+
+00:00:30.260 --> 00:00:32.260
+Những hộp màu xám mà bạn thấy
+
+00:00:32.260 --> 00:00:35.260
+là những hệ thống điều khiển thời gian thực
+
+00:00:35.260 --> 00:00:38.260
+dùng để điều khiển tốc độ truyền động và các van.
+
+00:00:38.260 --> 00:00:41.260
+Nếu chúng ta thành công trong việc làm hỏng các hệ thống này
+
+00:00:41.260 --> 00:00:44.260
+chúng ta thật sự có thể tạo ra nhiều rắc rối
+
+00:00:44.260 --> 00:00:46.260
+cho lò ly tâm.
+
+00:00:46.260 --> 00:00:48.260
+Hộp xám không chạy phần mềm Windows;
+
+00:00:48.260 --> 00:00:51.260
+chúng là một công nghệ khác hoàn toàn.
+
+00:00:51.260 --> 00:00:53.260
+Nhưng nếu ta có thể
+
+00:00:53.260 --> 00:00:56.260
+cài một virus Windows tốt
+
+00:00:56.260 --> 00:00:58.260
+trong máy tính xách tay
+
+00:00:58.260 --> 00:01:00.260
+của một kĩ sư máy chịu trách nhiệm
+
+00:01:00.260 --> 00:01:03.260
+điều chỉnh cái hộp xám này
+
+00:01:03.260 --> 00:01:05.260
+thì ta có thể hành động.
+
+00:01:05.260 --> 00:01:08.260
+Và đó là âm mưu của Stuxnet.
+
+00:01:08.260 --> 00:01:13.260
+Thế là chúng tôi bắt đầu với một chương trình cài mã (dropper) trong Windows.
+
+00:01:13.260 --> 00:01:16.260
+Mã phá hoại thâm nhập hộp xám,
+
+00:01:16.260 --> 00:01:18.260
+làm hư lò ly tâm,
+
+00:01:18.260 --> 00:01:20.260
+và chương trình hạt nhân của Iran bị đình hoãn --
+
+00:01:20.260 --> 00:01:22.260
+thì nhiệm vụ hoàn thành.
+
+00:01:22.260 --> 00:01:24.260
+Nghe thật dễ dàng phải không?
+
+00:01:24.260 --> 00:01:27.260
+Để tôi nói cho các bạn biết cách chúng tôi khám phá ra chuyện đó.
+
+00:01:27.260 --> 00:01:30.260
+Khi chúng tôi bắt đầu nghiên cứu Stuxnet 6 tháng về trước,
+
+00:01:30.260 --> 00:01:33.260
+không một ai biết mục đích của nó là gì.
+
+00:01:33.260 --> 00:01:35.260
+Điều duy nhất được biết,
+
+00:01:35.260 --> 00:01:38.260
+là nó rất là phức tạp bên phần Windows, phần cài mã,
+
+00:01:38.260 --> 00:01:41.260
+sử dụng nhiều lỗ hổng zero-day.
+
+00:01:41.260 --> 00:01:44.260
+Và nó có vẻ muốn làm gì đó
+
+00:01:44.260 --> 00:01:46.260
+với các hộp xám này, các hệ thống điều khiển thời gian thực.
+
+00:01:46.260 --> 00:01:48.260
+Nó làm chúng tôi chú ý,
+
+00:01:48.260 --> 00:01:50.260
+và chúng tôi thử một thí nghiệm
+
+00:01:50.260 --> 00:01:54.260
+trong đó chúng tôi lây nhiễm Stuxnet vào môi trường của mình
+
+00:01:54.260 --> 00:01:56.260
+và thử kiểm tra nó.
+
+00:01:56.260 --> 00:01:59.260
+Và có vài chuyện rất thú vị đã xảy ra.
+
+00:01:59.260 --> 00:02:02.260
+Stuxnet xử sự như một con chuột thí nghiệm
+
+00:02:02.260 --> 00:02:05.260
+không thích phô mai của chúng tôi --
+
+00:02:05.260 --> 00:02:07.260
+ngửi ngửi, nhưng không muốn ăn.
+
+00:02:07.260 --> 00:02:09.260
+Tôi không hiểu tại sao hết.
+
+00:02:09.260 --> 00:02:12.260
+Và sau khi chúng tôi thử nghiệm với những mùi vị phô mai khác nhau,
+
+00:02:12.260 --> 00:02:16.260
+Tôi nhận ra rằng, đây là cách tấn công trực tiếp.
+
+00:02:16.260 --> 00:02:18.260
+Hoàn toàn trực tiếp.
+
+00:02:18.260 --> 00:02:20.260
+Chương trình cài sẽ chủ động săn tìm
+
+00:02:20.260 --> 00:02:22.260
+trong hộp xám
+
+00:02:22.260 --> 00:02:25.260
+nếu thấy được một cấu hình đặc trưng
+
+00:02:25.260 --> 00:02:29.260
+và thậm chí nếu cái chương trình mà nó đang tìm cách lây nhiễm
+
+00:02:29.260 --> 00:02:31.260
+đang thật sự chạy trên mục tiêu.
+
+00:02:31.260 --> 00:02:34.260
+Còn nếu không thì Stuxnet không làm gì cả.
+
+00:02:34.260 --> 00:02:36.260
+Chuyện đó làm tôi rất chú ý,
+
+00:02:36.260 --> 00:02:38.260
+và chúng tôi bắt đầu xử lý chuyện này
+
+00:02:38.260 --> 00:02:40.260
+từ sáng tới tối,
+
+00:02:40.260 --> 00:02:43.260
+vì tôi nghĩ rằng chúng tôi không biết thật sự mục tiêu là gì.
+
+00:02:43.260 --> 00:02:45.260
+Ví dụ như, nó có thể là
+
+00:02:45.260 --> 00:02:47.260
+một nhà máy điện của Mĩ,
+
+00:02:47.260 --> 00:02:49.260
+hoặc một nhà máy hóa chất của Đức.
+
+00:02:49.260 --> 00:02:52.260
+Vì thế chúng tôi buộc phải tìm ra mục tiêu là gì thật sớm.
+
+00:02:52.260 --> 00:02:54.260
+Thế là chúng tôi trích ra và phục hồi
+
+00:02:54.260 --> 00:02:56.260
+mã tấn công,
+
+00:02:56.260 --> 00:02:59.260
+và chúng tôi khám phá ra là nó được chèn trong 2 trái bom kĩ thuật số --
+
+00:02:59.260 --> 00:03:02.260
+một trái nhỏ và một trái lớn.
+
+00:03:02.260 --> 00:03:06.260
+Và chúng tôi cũng thấy được là chúng được thiết kế rất chuyên nghiệp
+
+00:03:06.260 --> 00:03:10.260
+bởi những người rõ ràng nắm được thông tin bên trong.
+
+00:03:10.260 --> 00:03:12.260
+Họ biết từng chút một
+
+00:03:12.260 --> 00:03:14.260
+về những thứ mà họ phải tấn công.
+
+00:03:14.260 --> 00:03:17.260
+Có lẽ họ còn biết cả cỡ giày của người vận hành nữa.
+
+00:03:17.260 --> 00:03:19.260
+Vậy là họ biết mọi thứ.
+
+00:03:19.260 --> 00:03:22.260
+Và nếu bạn đã nghe là chương trình cài mã của Stuxnet
+
+00:03:22.260 --> 00:03:24.260
+phức tạp và có công nghệ cao,
+
+00:03:24.260 --> 00:03:26.260
+để tôi nói cho bạn biết:
+
+00:03:26.260 --> 00:03:28.260
+mã phá hoại còn cao cấp hơn nhiều.
+
+00:03:28.260 --> 00:03:30.260
+Nó cao cấp hơn mọi thứ
+
+00:03:30.260 --> 00:03:33.260
+mà chúng tôi từng biết.
+
+00:03:33.260 --> 00:03:36.260
+Ở đây bạn có thể thấy một phần của chính mã tấn công này.
+
+00:03:36.260 --> 00:03:38.260
+Chúng tôi đang nói về --
+
+00:03:38.260 --> 00:03:41.260
+khoảng 15.000 dòng lệnh.
+
+00:03:41.260 --> 00:03:44.260
+Trông rất giống mã assembler ngày xưa.
+
+00:03:44.260 --> 00:03:46.260
+Giờ tôi muốn nói với các bạn bằng cách nào mà chúng tôi
+
+00:03:46.260 --> 00:03:48.260
+hiểu được mã lệnh này.
+
+00:03:48.260 --> 00:03:51.260
+Cái mà chũng tôi tìm đầu tiên là hàm gọi hệ thống,
+
+00:03:51.260 --> 00:03:53.260
+vì chúng tôi biết chúng làm gì.
+
+00:03:53.260 --> 00:03:57.260
+Rồi chúng tôi tìm bộ timer và cấu trúc dữ liệu
+
+00:03:57.260 --> 00:03:59.260
+và cố liên hệ chúng với thế giới thực --
+
+00:03:59.260 --> 00:04:01.260
+tới các mục tiêu trong thế giới thực.
+
+00:04:01.260 --> 00:04:04.260
+Vì thế chúng tôi cần các giả thuyết về mục tiêu
+
+00:04:04.260 --> 00:04:07.260
+để kiểm chứng và so sánh với mã lệnh.
+
+00:04:07.260 --> 00:04:09.260
+Để có được các giả thuyết mục tiêu,
+
+00:04:09.260 --> 00:04:11.260
+chúng tôi nhớ rằng
+
+00:04:11.260 --> 00:04:13.260
+vì rõ ràng nó chỉ nhằm mục đích phá hoại,
+
+00:04:13.260 --> 00:04:15.260
+nên phải là một mục tiêu có giá trị cao,
+
+00:04:15.260 --> 00:04:18.260
+và nhiều phần là nằm ở Iran,
+
+00:04:18.260 --> 00:04:22.260
+vì đó là nơi mà hầu hết các vụ gây nhiễm được báo cáo.
+
+00:04:22.260 --> 00:04:25.260
+Bạn không thể tìm thấy hàng ngàn mục tiêu như vậy ở đó được.
+
+00:04:25.260 --> 00:04:27.260
+Rõ ràng chỉ có
+
+00:04:27.260 --> 00:04:29.260
+nhà máy điện hạt nhân Bushehr
+
+00:04:29.260 --> 00:04:31.260
+và cơ sở làm giàu thanh nhiên liệu Natanz.
+
+00:04:31.260 --> 00:04:33.260
+Thế là tôi yêu cầu trợ lý,
+
+00:04:33.260 --> 00:04:36.260
+"Cho tôi danh sách của tất cả các chuyên gia về lò ly tâm và nhà máy điện trong dữ liệu khách hàng."
+
+00:04:36.260 --> 00:04:38.260
+Và tôi gọi họ và xin ý kiến
+
+00:04:38.260 --> 00:04:40.260
+để đối chiếu kiến thức chuyên môn của họ
+
+00:04:40.260 --> 00:04:43.260
+với cái mà chúng tôi có trong mã và dữ liệu.
+
+00:04:43.260 --> 00:04:45.260
+Kết quả khá thành công.
+
+00:04:45.260 --> 00:04:47.260
+Chúng tôi đã có thể liên hệ được
+
+00:04:47.260 --> 00:04:49.260
+giữa trái bom kĩ thuật số bé xíu này
+
+00:04:49.260 --> 00:04:51.260
+với bộ điều khiển rotor.
+
+00:04:51.260 --> 00:04:54.260
+Rotor là bộ phận chuyển động bên trong lò ly tâm,
+
+00:04:54.260 --> 00:04:56.260
+cái vật màu đen mà bạn thấy ở đây.
+
+00:04:56.260 --> 00:04:59.260
+Và nếu bạn có thể can thiệp vào vận tốc của chiếc rotor này,
+
+00:04:59.260 --> 00:05:01.260
+bạn thực sự có thể làm gãy nó
+
+00:05:01.260 --> 00:05:05.260
+và sau cùng làm cả lò ly tâm nổ tung.
+
+00:05:05.260 --> 00:05:07.260
+Chúng tôi cũng thấy rằng
+
+00:05:07.260 --> 00:05:09.260
+mục tiêu của cuộc tấn công
+
+00:05:09.260 --> 00:05:12.260
+là thật sự tiến hành một cách từ từ và đáng sợ --
+
+00:05:12.260 --> 00:05:14.260
+để rõ ràng là làm cho
+
+00:05:14.260 --> 00:05:17.260
+các kỹ sư bảo trì phải phát điên lên,
+
+00:05:17.260 --> 00:05:20.260
+đến nỗi họ không thể khám phá ra nhanh chóng.
+
+00:05:20.260 --> 00:05:23.260
+Chúng tôi hiểu được trái bom kĩ thuật số lớn
+
+00:05:23.260 --> 00:05:25.260
+bằng cách tìm hiểu thật kĩ
+
+00:05:25.260 --> 00:05:27.260
+dữ liệu và cấu trúc dữ liệu.
+
+00:05:27.260 --> 00:05:29.260
+Ví dụ như, con số 164
+
+00:05:29.260 --> 00:05:31.260
+rõ ràng nổi bật trong mã lệnh;
+
+00:05:31.260 --> 00:05:33.260
+bạn không thể bỏ qua nó.
+
+00:05:33.260 --> 00:05:35.260
+Tôi bắt đầu nghiên cứu các bài báo khoa học
+
+00:05:35.260 --> 00:05:37.260
+về cách các lò ly tâm
+
+00:05:37.260 --> 00:05:39.260
+được xây dựng ở Natanz
+
+00:05:39.260 --> 00:05:41.260
+và thấy rằng chúng được xây trong
+
+00:05:41.260 --> 00:05:43.260
+các tầng,
+
+00:05:43.260 --> 00:05:47.260
+và mỗi tầng chứa 164 lò ly tâm.
+
+00:05:47.260 --> 00:05:49.260
+Vậy là rõ, 2 thứ phù hợp với nhau.
+
+00:05:49.260 --> 00:05:51.260
+Và mọi chuyện còn tốt hơn nữa.
+
+00:05:51.260 --> 00:05:53.260
+Các lò ly tâm ở Iran
+
+00:05:53.260 --> 00:05:57.260
+được chia thành 15 giai đoạn.
+
+00:05:57.260 --> 00:05:59.260
+Và hãy đoán xem chúng tôi đã tìm thấy gì trong mã tấn công?
+
+00:05:59.260 --> 00:06:01.260
+Một cấu trúc hoàn toàn tương tự.
+
+00:06:01.260 --> 00:06:04.260
+Lại một lần nữa, mọi thứ rất ăn nhập với nhau.
+
+00:06:04.260 --> 00:06:07.260
+Chuyện này làm chúng tôi rất tự tin về cái chúng tôi đang quan sát.
+
+00:06:07.260 --> 00:06:10.260
+Nhưng đừng hiểu lầm, mọi chuyện không đơn giản đâu.
+
+00:06:10.260 --> 00:06:13.260
+Các kết quả này đạt được
+
+00:06:13.260 --> 00:06:16.260
+qua nhiều tuần làm việc khó nhọc.
+
+00:06:16.260 --> 00:06:19.260
+Và chúng tôi thường đi vào ngõ cụt
+
+00:06:19.260 --> 00:06:21.260
+và phải làm lại từ đầu.
+
+00:06:21.260 --> 00:06:23.260
+Dù sao đi nữa, chúng tôi đã hiểu ra
+
+00:06:23.260 --> 00:06:25.260
+là cả 2 trái bom kĩ thuật số
+
+00:06:25.260 --> 00:06:27.260
+đều nhằm vào cùng một mục tiêu,
+
+00:06:27.260 --> 00:06:29.260
+nhưng từ những góc khác nhau.
+
+00:06:29.260 --> 00:06:32.260
+Bom nhỏ tấn công một tầng,
+
+00:06:32.260 --> 00:06:35.260
+rồi xoay nhanh rotor và làm chậm chúng lại,
+
+00:06:35.260 --> 00:06:37.260
+còn bom lớn thì
+
+00:06:37.260 --> 00:06:39.260
+xử lý 6 tầng khác
+
+00:06:39.260 --> 00:06:41.260
+và điều khiển các van.
+
+00:06:41.260 --> 00:06:43.260
+Như vậy chúng tôi rất tự tin
+
+00:06:43.260 --> 00:06:45.260
+rằng chúng tôi đã xác định được mục tiêu là gì.
+
+00:06:45.260 --> 00:06:48.260
+Là Nataz, chỉ Natanz mà thôi.
+
+00:06:48.260 --> 00:06:50.260
+Vì thế chúng tôi không phải lo là
+
+00:06:50.260 --> 00:06:52.260
+những mục tiêu khác
+
+00:06:52.260 --> 00:06:54.260
+có thể bị Stuxnet đánh.
+
+00:06:54.260 --> 00:06:57.260
+Có cái này rất hay
+
+00:06:57.260 --> 00:06:59.260
+đã làm tôi rất ngạc nhiên.
+
+00:06:59.260 --> 00:07:01.260
+Ở dưới đây là hộp xám,
+
+00:07:01.260 --> 00:07:04.260
+và ở trên đỉnh bạn có thể thấy các lò ly tâm.
+
+00:07:04.260 --> 00:07:06.260
+Bây giờ cái mà thứ này làm là
+
+00:07:06.260 --> 00:07:09.260
+ngăn chặn quá trình nhập dữ liệu từ các cảm biến --
+
+00:07:09.260 --> 00:07:11.260
+ví dụ như, từ cảm biến áp suất
+
+00:07:11.260 --> 00:07:13.260
+và cảm biến rung động --
+
+00:07:13.260 --> 00:07:16.260
+và nó tạo ra các mã hợp pháp,
+
+00:07:16.260 --> 00:07:18.260
+vẫn tiếp tục chạy trong suốt cuộc tấn công,
+
+00:07:18.260 --> 00:07:20.260
+với dữ liệu cung cấp giả.
+
+00:07:20.260 --> 00:07:22.260
+Thật sự là dữ liệu giả này
+
+00:07:22.260 --> 00:07:25.260
+đã được ghi trước bởi Stuxnet.
+
+00:07:25.260 --> 00:07:27.260
+Nó giống như là trong phim Hollywood
+
+00:07:27.260 --> 00:07:29.260
+khi vụ trộm diễn ra,
+
+00:07:29.260 --> 00:07:32.260
+camera an ninh bị chồng lên bằng video thu sẵn.
+
+00:07:32.260 --> 00:07:34.260
+Hay quá phải không?
+
+00:07:35.260 --> 00:07:37.260
+Ý tưởng ở đây rõ ràng là
+
+00:07:37.260 --> 00:07:40.260
+không chỉ đánh lừa những người điều hành trong phòng điều khiển.
+
+00:07:40.260 --> 00:07:44.260
+Thật ra nó nguy hiểm và hung hăng hơn nhiều.
+
+00:07:44.260 --> 00:07:46.260
+Ý tưởng này là
+
+00:07:46.260 --> 00:07:49.260
+là phá hỏng một hệ thống an toàn kĩ thuật số.
+
+00:07:50.260 --> 00:07:52.260
+Chúng ta cần các hệ thống an toàn kĩ thuật số
+
+00:07:52.260 --> 00:07:55.260
+ở những nơi mà con người không phản ứng đủ nhanh.
+
+00:07:55.260 --> 00:07:57.260
+Chẳng hạn như trong nhà máy điện,
+
+00:07:57.260 --> 00:08:00.260
+khi tua bin hơi nước chạy nhanh quá,
+
+00:08:00.260 --> 00:08:03.260
+bạn phải mở van xả trong vòng một phần nghìn giây.
+
+00:08:03.260 --> 00:08:06.260
+Rõ ràng là chuyện này con người không làm được.
+
+00:08:06.260 --> 00:08:08.260
+Vì vậy đây là chỗ ta cần hệ thống an toàn kĩ thuật số.
+
+00:08:08.260 --> 00:08:10.260
+Và khi chúng bị phá hoại,
+
+00:08:10.260 --> 00:08:13.260
+thì những chuyện tồi tệ sẽ xảy ra.
+
+00:08:13.260 --> 00:08:15.260
+Nhà máy có thể nổ tung.
+
+00:08:15.260 --> 00:08:18.260
+mà người điều hành và hệ thống an toàn không hay biết.
+
+00:08:18.260 --> 00:08:20.260
+Thật là đáng sợ.
+
+00:08:20.260 --> 00:08:22.260
+Nhưng mọi sự còn tệ hơn nữa.
+
+00:08:22.260 --> 00:08:25.260
+Và cái tôi sắp nói rất quan trọng.
+
+00:08:25.260 --> 00:08:27.260
+Các bạn thử nghĩ xem.
+
+00:08:27.260 --> 00:08:30.260
+Cuộc tấn công này là chung chung.
+
+00:08:30.260 --> 00:08:34.260
+Không có gì đặc trưng để nói cả,
+
+00:08:34.260 --> 00:08:36.260
+nó chỉ nhắm tới lò ly tâm
+
+00:08:36.260 --> 00:08:39.260
+hay là chỉ nhắm tới việc làm giàu uranium.
+
+00:08:39.260 --> 00:08:42.260
+Cho nên nó cũng có thể dành cho, ví dụ như,
+
+00:08:42.260 --> 00:08:44.260
+một nhà máy điện
+
+00:08:44.260 --> 00:08:47.260
+hay là một nhà máy xe hơi.
+
+00:08:47.260 --> 00:08:49.260
+Nó chung chung.
+
+00:08:49.260 --> 00:08:51.260
+Và với vai trò là kẻ thực hiện cuộc tấn công,
+
+00:08:51.260 --> 00:08:54.260
+bạn không phải mất công chuyển mã phá hoại
+
+00:08:54.260 --> 00:08:56.260
+bằng thẻ USB
+
+00:08:56.260 --> 00:08:58.260
+như chúng ta đã thấy trong trường hợp của Stuxnet.
+
+00:08:58.260 --> 00:09:01.260
+Bạn cũng có thể dùng công nghệ sâu thông thường để lây lan.
+
+00:09:01.260 --> 00:09:04.260
+Chỉ cần lây nhiễm nó càng rộng càng tốt.
+
+00:09:04.260 --> 00:09:06.260
+Và nếu bạn làm vậy,
+
+00:09:06.260 --> 00:09:08.260
+cuối cùng bạn sẽ có
+
+00:09:08.260 --> 00:09:13.260
+một thứ vũ khí hủy diệt hàng loạt trong không gian điều khiển.
+
+00:09:14.260 --> 00:09:16.260
+Đó là hệ quả
+
+00:09:16.260 --> 00:09:19.260
+mà chúng ta phải đối mặt.
+
+00:09:19.260 --> 00:09:22.260
+Rất đáng tiếc là,
+
+00:09:22.260 --> 00:09:25.260
+phần lớn các mục tiêu cho những cuộc tấn công kiểu này
+
+00:09:25.260 --> 00:09:27.260
+không nằm ở khu vực Trung Đông.
+
+00:09:27.260 --> 00:09:30.260
+Chúng ở Mĩ, châu Âu và Nhật Bản.
+
+00:09:30.260 --> 00:09:32.260
+Tất cả những vùng màu xanh,
+
+00:09:32.260 --> 00:09:35.260
+chúng là môi trường đầy mục tiêu.
+
+00:09:35.260 --> 00:09:38.260
+Chúng ta phải đối mặt với các hệ quả,
+
+00:09:38.260 --> 00:09:41.260
+và chúng ta nên bắt đầu chuẩn bị từ bây giờ.
+
+00:09:41.260 --> 00:09:43.260
+Xin cảm ơn.
+
+00:09:43.260 --> 00:09:49.260
+(Vỗ tay)
+
+00:09:49.260 --> 00:09:51.260
+Chris Anderson: Tôi có một câu hỏi.
+
+00:09:53.260 --> 00:09:55.260
+Ralph, có nhiều nguồn tin
+
+00:09:55.260 --> 00:09:57.260
+cho là Mossad
+
+00:09:57.260 --> 00:09:59.260
+là tổ chức chính đứng sau việc này.
+
+00:09:59.260 --> 00:10:02.260
+Ý kiến của anh thế nào?
+
+00:10:02.260 --> 00:10:04.260
+Ralph Langer: Okay, anh thật tình muốn biết sao?
+
+00:10:04.260 --> 00:10:06.260
+Được rồi. Okay.
+
+00:10:06.260 --> 00:10:09.260
+Theo ý tôi, Mossad có liên quan,
+
+00:10:09.260 --> 00:10:12.260
+nhưng Israel không đóng vai trò dẫn dắt.
+
+00:10:12.260 --> 00:10:14.260
+Cho nên thế lực cầm đầu vụ này
+
+00:10:14.260 --> 00:10:17.260
+là một siêu cường trong không gian điều khiển.
+
+00:10:17.260 --> 00:10:19.260
+Chỉ có một siêu cường như vậy mà thôi,
+
+00:10:19.260 --> 00:10:21.260
+và đó là Hoa Kỳ --
+
+00:10:21.260 --> 00:10:23.260
+Như vậy cũng may
+
+00:10:23.260 --> 00:10:25.260
+Bởi vì nếu khác đi,
+
+00:10:25.260 --> 00:10:28.260
+thì các vấn đề của chúng ta còn lớn hơn nữa.
+
+00:10:28.260 --> 00:10:32.260
+CA: Cám ơn đã làm chúng tôi sợ đến vậy. Cám ơn Ralph.
+
+00:10:32.260 --> 00:10:34.260
+(Vỗ tay)
+

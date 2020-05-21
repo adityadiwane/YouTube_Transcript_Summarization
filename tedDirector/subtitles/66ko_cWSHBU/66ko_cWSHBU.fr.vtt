@@ -1,0 +1,907 @@
+WEBVTT
+Kind: captions
+Language: fr
+
+00:00:00.000 --> 00:00:07.000
+Traducteur: Elisabeth Buffard
+Relecteur: Lison Hasse
+
+00:00:12.660 --> 00:00:16.597
+Mes collègues et moi sommes fascinés
+par la science des « points mobiles ».
+
+00:00:16.597 --> 00:00:18.127
+Alors, c'est quoi ces points ?
+
+00:00:18.127 --> 00:00:19.468
+Eh bien, c'est nous tous.
+
+00:00:19.468 --> 00:00:23.991
+Nous nous déplaçons chez nous,
+au bureau, au magasin, en voyage
+
+00:00:23.991 --> 00:00:26.957
+à travers les villes et
+autour du monde.
+
+00:00:26.958 --> 00:00:30.509
+Ça ne serait pas génial si on pouvait
+comprendre tous ces mouvements ?
+
+00:00:30.509 --> 00:00:33.803
+Si on pouvait trouver des schémas,
+leur sens et mieux les comprendre ?
+
+00:00:33.803 --> 00:00:36.074
+Nous avons la chance de vivre à une époque
+
+00:00:36.074 --> 00:00:40.565
+où nous excellons à capturer 
+des informations sur nous-mêmes.
+
+00:00:40.807 --> 00:00:44.510
+Donc que ce soit par des capteurs,
+des vidéos ou des applications,
+
+00:00:44.510 --> 00:00:47.775
+on peut suivre nos mouvements
+d'une façon incroyablement détaillée.
+
+00:00:48.092 --> 00:00:52.504
+En fait, un des secteurs dans lequel
+nous avons les meilleures données
+
+00:00:52.504 --> 00:00:54.706
+sur le mouvement est le sport.
+
+00:00:54.706 --> 00:01:00.045
+Que ce soit le basket, le baseball,
+le foot ou le football américain,
+
+00:01:00.045 --> 00:01:03.945
+nous équipons nos stades et nos joueurs
+afin de suivre leurs mouvements
+
+00:01:03.945 --> 00:01:05.818
+à chaque fraction de seconde.
+
+00:01:05.818 --> 00:01:10.168
+En fait nous transformons
+nos athlètes en –
+
+00:01:10.168 --> 00:01:12.197
+vous avez surement deviné,
+
+00:01:12.197 --> 00:01:13.587
+des points mobiles.
+
+00:01:13.946 --> 00:01:18.816
+Nous avons donc des tonnes de points
+mobiles ; comme toutes les données brutes,
+
+00:01:18.816 --> 00:01:21.334
+c'est difficile à traiter
+et pas vraiment intéressant.
+
+00:01:21.334 --> 00:01:25.198
+Mais il y a des choses que les entraîneurs
+de basket, par exemple, veulent savoir.
+
+00:01:25.198 --> 00:01:29.106
+Le problème, c'est que pour les obtenir,
+il faudrait qu'ils regardent
+
+00:01:29.113 --> 00:01:32.256
+chaque seconde de chaque match, 
+s'en rappellent et les analysent.
+
+00:01:32.256 --> 00:01:33.941
+Personne n'est capable de le faire,
+
+00:01:33.941 --> 00:01:35.700
+mais une machine le peut.
+
+00:01:35.700 --> 00:01:39.423
+Le problème, c'est qu'elle ne peut
+pas voir avec les yeux de l'entraîneur.
+
+00:01:39.423 --> 00:01:41.624
+Du moins pas jusqu'à maintenant.
+
+00:01:42.228 --> 00:01:44.867
+Alors qu'a-t-on appris
+à la machine pour qu'elle voie ?
+
+00:01:45.569 --> 00:01:47.566
+On a commencé simplement.
+
+00:01:47.566 --> 00:01:51.229
+On lui a d'abord appris des choses comme
+les passes, les tirs et les rebonds –
+
+00:01:51.229 --> 00:01:53.658
+que la plupart des fans
+devraient connaître.
+
+00:01:53.658 --> 00:01:56.444
+Et puis on est passé à des choses 
+un peu plus compliquées.
+
+00:01:56.444 --> 00:02:01.422
+Des choses comme des post-ups,
+des pick and rolls et des isolements.
+
+00:02:01.422 --> 00:02:05.304
+Peut-être ne les connaissez-vous pas, mais
+la plupart des joueurs les connaissent.
+
+00:02:05.560 --> 00:02:10.930
+De nos jours, les machines comprennent
+des événements complexes
+
+00:02:10.930 --> 00:02:14.077
+comme orienter et poser des écrans.
+
+00:02:14.077 --> 00:02:16.747
+Des choses que seuls 
+les professionnels connaissent.
+
+00:02:16.751 --> 00:02:21.159
+Nous avons appris à une machine à voir
+avec les yeux d'un entraîneur.
+
+00:02:22.009 --> 00:02:23.866
+Alors, comment y sommes-nous parvenus ?
+
+00:02:24.511 --> 00:02:27.564
+Si je demandais à un entraîneur 
+de décrire un pick and roll,
+
+00:02:27.564 --> 00:02:29.343
+ils me donneraient une description.
+
+00:02:29.343 --> 00:02:32.437
+Et si je l'encodais en un algorithme,
+ce serait très mauvais.
+
+00:02:33.026 --> 00:02:37.364
+Il se trouve que le pick and roll est 
+cette danse au basket entre 4 joueurs,
+
+00:02:37.364 --> 00:02:39.206
+deux à l'attaque et deux à la défense.
+
+00:02:39.206 --> 00:02:41.127
+Et voilà à peu près comment ça se passe.
+
+00:02:41.128 --> 00:02:43.701
+Du côté de l'attaque, 
+il y a ce type sans le ballon
+
+00:02:43.701 --> 00:02:46.858
+et il se met près du type qui
+couvre le type qui a le ballon,
+
+00:02:46.858 --> 00:02:48.169
+et il reste là
+
+00:02:48.169 --> 00:02:50.279
+et tous les deux bougent 
+et le jeu continue,
+
+00:02:50.279 --> 00:02:52.123
+et voilà : un pick and roll.
+
+00:02:52.123 --> 00:02:53.805
+(Rires)
+
+00:02:53.805 --> 00:02:56.287
+C'est aussi un exemple
+d'un très mauvais algorithme.
+
+00:02:56.913 --> 00:03:01.277
+Donc si le joueur interférant, 
+celui qu'on appelle le garde--
+
+00:03:01.278 --> 00:03:04.190
+s'approche mais ne s'arrête pas,
+
+00:03:04.190 --> 00:03:06.592
+il ne s'agit sans doute pas
+d'un pick and roll.
+
+00:03:06.592 --> 00:03:10.535
+Ou bien s'il s'arrête, 
+mais pas assez près,
+
+00:03:10.535 --> 00:03:12.665
+il ne s'agit sûrement pas
+d'un pick and roll.
+
+00:03:12.665 --> 00:03:15.718
+Ou, s'il s'approche vraiment 
+et il s'arrête
+
+00:03:15.718 --> 00:03:19.246
+mais ça se passe sous le panier,
+ce n'est sans doute pas un pick and roll.
+
+00:03:19.246 --> 00:03:20.246
+Ou alors je me trompe
+
+00:03:20.246 --> 00:03:22.874
+et tous ces exemples 
+sont des pick and roll.
+
+00:03:22.874 --> 00:03:26.572
+Tout dépend du timing,
+des distances et des emplacements,
+
+00:03:26.572 --> 00:03:28.577
+et c'est ça qui est difficile à apprécier.
+
+00:03:28.579 --> 00:03:32.667
+Mais heureusement, on peut apprendre
+aux machines à décrire les choses
+
+00:03:32.667 --> 00:03:35.385
+qu'on connaît, bien au-delà 
+de nos capacités.
+
+00:03:35.385 --> 00:03:36.605
+Alors comment ça marche ?
+
+00:03:36.605 --> 00:03:38.289
+Eh bien, on utilise des exemples.
+
+00:03:38.289 --> 00:03:40.990
+On va voir la machine et on lui dit :
+« Bonjour, machine.
+
+00:03:40.990 --> 00:03:44.520
+Voila des exemples de pick and roll,
+et voici des choses qui n'en sont pas.
+
+00:03:44.520 --> 00:03:47.204
+S'il te plaît, trouve un moyen 
+de faire la différence. »
+
+00:03:47.204 --> 00:03:50.358
+Il s'agit de trouver les caractéristiques
+permettant la séparation.
+
+00:03:50.358 --> 00:03:52.143
+Alors pour lui enseigner
+la différence
+
+00:03:52.143 --> 00:03:53.585
+entre une pomme et une orange,
+
+00:03:53.585 --> 00:03:56.337
+pourquoi ne pas utiliser
+les couleurs et les formes ?
+
+00:03:56.337 --> 00:03:59.074
+Et le problème à résoudre c'est,
+quelles sont ces choses ?
+
+00:03:59.074 --> 00:04:00.760
+Quelles sont les caractéristiques
+
+00:04:00.760 --> 00:04:02.530
+permettant à l'ordinateur de naviguer
+
+00:04:02.530 --> 00:04:04.708
+dans le monde des points mobiles ?
+
+00:04:04.708 --> 00:04:06.458
+Comprendre toutes ces relations
+
+00:04:06.458 --> 00:04:08.432
+avec des positions relatives et absolues,
+
+00:04:08.432 --> 00:04:11.472
+la distance, le temps, les vélocités –
+
+00:04:11.472 --> 00:04:14.972
+c'est vraiment le cœur de la science
+des points mobiles,
+
+00:04:14.972 --> 00:04:16.392
+ou bien, comme on l'appelle :
+
+00:04:16.392 --> 00:04:19.956
+schéma spatio-temporel de reconnaissance
+en langage académique.
+
+00:04:19.956 --> 00:04:22.913
+Parce que tout d'abord, 
+il faut que ça sonne compliqué.
+
+00:04:22.913 --> 00:04:24.215
+Parce que ça l'est.
+
+00:04:24.215 --> 00:04:27.365
+Mais, pour les entraîneurs,
+le problème n'est pas de savoir
+
+00:04:27.365 --> 00:04:29.228
+s'il s'agit d'un pick and roll ou non.
+
+00:04:29.228 --> 00:04:32.037
+Ils veulent savoir comment
+le pick and roll a pu avoir lieu.
+
+00:04:32.037 --> 00:04:34.654
+Et pourquoi c'est important
+pour eux ? Je vous explique.
+
+00:04:34.654 --> 00:04:36.746
+Il se trouve que 
+dans le basketball moderne,
+
+00:04:36.746 --> 00:04:39.754
+ce pick and roll est peut-être le type
+de jeu le plus important.
+
+00:04:39.754 --> 00:04:42.155
+Savoir comment l'initier
+et en assurer sa défense,
+
+00:04:42.155 --> 00:04:45.079
+est ce qui détermine la plupart
+des victoires et des défaites.
+
+00:04:45.079 --> 00:04:48.451
+Si bien que cette danse a beaucoup
+de formes différentes
+
+00:04:48.451 --> 00:04:51.956
+et pouvoir identifier ces variations
+est vraiment ce qui compte,
+
+00:04:51.956 --> 00:04:55.138
+et c'est pour ça qu'il faut que ce système
+soit vraiment bon.
+
+00:04:55.138 --> 00:04:55.978
+Un exemple :
+
+00:04:55.978 --> 00:04:58.041
+2 joueurs en attaque,
+2 en défense,
+
+00:04:58.041 --> 00:05:00.260
+prêts à interpréter la danse 
+du pick and roll.
+
+00:05:00.260 --> 00:05:03.310
+Celui qui a le ballon peut
+prendre ou laisser.
+
+00:05:03.310 --> 00:05:07.134
+Son coéquipier peut se diriger vers une 
+zone de terrain libre ou poser un écran.
+
+00:05:07.134 --> 00:05:10.157
+Celui qui défend le ballon peut passer
+au dessus ou en dessous.
+
+00:05:10.157 --> 00:05:13.949
+Son coéquipier peut se tenir à
+distance ou jouer « soft »
+
+00:05:13.949 --> 00:05:17.308
+et ensemble ils peuvent passer le ballon
+ou détruire le pick and roll
+
+00:05:17.308 --> 00:05:19.819
+et je ne connaissais pas tout ça
+quand j'ai commencé.
+
+00:05:19.819 --> 00:05:24.042
+Ça serait super si tout le monde
+pouvait suivre les flêches.
+
+00:05:24.042 --> 00:05:27.735
+Ça rendrait notre vie bien plus simple,
+mais les mouvements sont désordonnés.
+
+00:05:27.735 --> 00:05:32.525
+Les gens gigotent beaucoup
+et identifier ces variations
+
+00:05:32.525 --> 00:05:34.522
+avec une grande netteté,
+
+00:05:34.522 --> 00:05:36.874
+quant à la précision et au recalcul,
+est difficile
+
+00:05:36.874 --> 00:05:40.385
+parce que c'est ce qui est nécessaire
+pour que l'entraîneur croit en vous.
+
+00:05:40.385 --> 00:05:44.062
+Malgré toutes les difficultés à trouver
+les traits spatiotemporels corrects,
+
+00:05:44.062 --> 00:05:45.018
+on a réussi.
+
+00:05:45.018 --> 00:05:49.245
+Les entraineurs font confiance à nos
+machines pour identifier les variations.
+
+00:05:49.478 --> 00:05:53.071
+Nous sommes au point où
+presque toutes les équipes
+
+00:05:53.071 --> 00:05:54.874
+en NBA cette année
+
+00:05:54.874 --> 00:05:59.160
+utilisent notre logiciel, construit
+sur une machine qui comprend
+
+00:05:59.160 --> 00:06:00.748
+les points mobiles du basketball.
+
+00:06:01.872 --> 00:06:06.929
+Nous avons même fourni des conseils
+qui ont changé les stratégies
+
+00:06:06.929 --> 00:06:10.152
+qui ont aidé des équipes à gagner
+des matchs très importants,
+
+00:06:10.152 --> 00:06:14.151
+et c'est vraiment passionnant parce qu'il 
+y a des entraîneurs qui sont en NBA
+
+00:06:14.151 --> 00:06:17.248
+depuis 30 ans, qui acceptent 
+les avis d'une machine.
+
+00:06:17.874 --> 00:06:20.774
+Et c'est passionnant,
+c'est bien plus que le pick and roll.
+
+00:06:20.774 --> 00:06:22.880
+Nos ordinateurs sont partis
+de choses simples
+
+00:06:22.880 --> 00:06:25.011
+et ont appris des choses plus complexes
+
+00:06:25.011 --> 00:06:26.920
+et maintenant ils savent tant de choses.
+
+00:06:26.920 --> 00:06:29.462
+Franchement, je ne comprends
+pas tout ce qu'il fait,
+
+00:06:29.462 --> 00:06:33.105
+et bien que ça ne soit pas si 
+étonnant d'être plus intelligent que moi,
+
+00:06:33.105 --> 00:06:36.783
+on s'est demandé, est-ce qu'une machine
+peut en savoir plus qu'un entraîneur ?
+
+00:06:36.783 --> 00:06:38.882
+Peut-elle en savoir plus qu'une personne ?
+
+00:06:38.882 --> 00:06:40.858
+Et il se trouve que la réponse est oui.
+
+00:06:40.858 --> 00:06:43.088
+On veut que les joueurs
+fassent de bons tirs.
+
+00:06:43.088 --> 00:06:44.699
+Donc si je suis près du panier
+
+00:06:44.699 --> 00:06:46.984
+et qu'il n'y a personne autour,
+c'est un bon tir.
+
+00:06:46.984 --> 00:06:50.961
+Si je suis loin du panier entouré de 
+défenseurs, c'est un mauvais tir.
+
+00:06:50.961 --> 00:06:55.819
+Mais avant, on ne savait pas
+quantifier le bon et le mauvais
+
+00:06:55.819 --> 00:06:57.346
+jusqu'à maintenant.
+
+00:06:57.346 --> 00:07:00.716
+Donc, ce qu'on peut faire, c'est utiliser
+les traits spatio-temporels,
+
+00:07:00.716 --> 00:07:02.247
+on a étudié tous les tirs.
+
+00:07:02.251 --> 00:07:05.250
+On peut voir : Où est le tir ?
+Quel est l'angle avec le panier ?
+
+00:07:05.250 --> 00:07:08.092
+Où se tiennent les défenseurs ?
+A quelle distance ?
+
+00:07:08.092 --> 00:07:09.253
+Quels sont leurs angles ?
+
+00:07:09.253 --> 00:07:13.238
+Quand il y a plusieurs défenseurs, on peut
+regarder comment les joueurs se déplacent
+
+00:07:13.238 --> 00:07:14.487
+et prédire le type de tir.
+
+00:07:14.487 --> 00:07:17.907
+On peut étudier leur vélocité
+et construire un modèle qui prédit
+
+00:07:17.907 --> 00:07:22.029
+les chances que ce tir réussisse
+dans ces circonstances.
+
+00:07:22.188 --> 00:07:23.943
+Alors, pourquoi c'est important ?
+
+00:07:24.102 --> 00:07:26.955
+On peut prendre le tir,
+
+00:07:26.955 --> 00:07:29.649
+qui était une seule chose
+et qui en devient deux :
+
+00:07:29.649 --> 00:07:32.284
+la qualité du tir
+et la qualité du tireur.
+
+00:07:33.680 --> 00:07:36.992
+Voici un graphique à bulles,
+indispensable dans une conférence TED.
+
+00:07:36.992 --> 00:07:37.954
+(Rires)
+
+00:07:37.954 --> 00:07:39.365
+Voici des joueurs du NBA.
+
+00:07:39.365 --> 00:07:42.509
+Cette taille est la taille du joueur
+et la couleur, sa position.
+
+00:07:42.509 --> 00:07:44.665
+En abscisse,
+on a la probabilité du tir.
+
+00:07:44.665 --> 00:07:46.912
+Les gens sur la gauche
+font des tirs difficiles
+
+00:07:46.912 --> 00:07:48.935
+sur la droite, des tirs faciles.
+
+00:07:48.935 --> 00:07:51.281
+En ordonnée, on trouve 
+leur habileté au tir.
+
+00:07:51.281 --> 00:07:53.887
+Ceux qui sont bons sont en haut
+et les mauvais en bas.
+
+00:07:53.887 --> 00:07:55.621
+Par exemple, s'il y avait un joueur
+
+00:07:55.621 --> 00:07:57.718
+qui réussissait généralement
+47% de ses tirs,
+
+00:07:57.718 --> 00:07:59.418
+c'était tout ce qu'on savait avant.
+
+00:07:59.418 --> 00:08:04.245
+Mais maintenant, ce joueur fait des tirs
+qu'un joueur du NBA moyen
+
+00:08:04.245 --> 00:08:06.250
+réussirait 49% du temps,
+
+00:08:06.250 --> 00:08:07.888
+donc il est moins bon de 2 points.
+
+00:08:08.266 --> 00:08:12.781
+La raison pour laquelle c'est important:
+il y a beaucoup de 47 sur le marché.
+
+00:08:13.714 --> 00:08:16.303
+Donc, c'est vraiment important de savoir
+
+00:08:16.303 --> 00:08:20.293
+si le 47 à qui vous envisagez de donner 
+100 millions de dollars
+
+00:08:20.293 --> 00:08:23.382
+est un bon tireur qui fait de mauvais tirs
+
+00:08:23.382 --> 00:08:25.743
+ou un mauvais tireur qui fait
+de bons tirs.
+
+00:08:26.553 --> 00:08:30.447
+La compréhension de la machine ne change
+pas comment nous voyons les joueurs,
+
+00:08:30.447 --> 00:08:32.385
+ça change la manière de voir le jeu.
+
+00:08:32.385 --> 00:08:36.068
+Il y a deux ans, il y a eu
+une finale passionnante.
+
+00:08:36.068 --> 00:08:38.834
+Miami perdait par trois points
+et il restait 20 secondes.
+
+00:08:38.834 --> 00:08:41.515
+Ils étaient sur le point de perdre
+le titre de champion.
+
+00:08:41.515 --> 00:08:44.763
+Un homme nommé Lebron James a tiré
+pour essayer d'égaliser le score.
+
+00:08:44.763 --> 00:08:45.887
+Il a manqué.
+
+00:08:45.887 --> 00:08:47.882
+Son coéquipier Chris Bosh a eu le rebond,
+
+00:08:47.882 --> 00:08:49.951
+l'a passé à un autre coéquipier, 
+Ray Allen.
+
+00:08:49.951 --> 00:08:52.363
+Il a marqué 3 points.
+Il y a eu prolongation.
+
+00:08:52.363 --> 00:08:54.495
+Ils ont gagné le match et le championnat.
+
+00:08:54.495 --> 00:08:57.381
+C'était un des meilleurs matchs
+de l'histoire du basketball.
+
+00:08:57.381 --> 00:09:00.053
+Et notre capacité à connaître la
+probabilité des tirs
+
+00:09:00.053 --> 00:09:01.801
+pour chaque joueur à chaque seconde,
+
+00:09:01.801 --> 00:09:04.694
+et les chances qu'ils ont d'avoir
+un rebond à chaque seconde
+
+00:09:04.694 --> 00:09:08.526
+peut éclairer ce moment comme
+jamais auparavant.
+
+00:09:09.358 --> 00:09:12.130
+Malheureusement, je ne peux pas 
+vous montrer cette vidéo.
+
+00:09:12.130 --> 00:09:16.767
+Mais nous avons reconstruit 
+ce moment pour vous
+
+00:09:16.767 --> 00:09:19.338
+lors de notre match hebdomadaire
+il y a 3 semaines.
+
+00:09:19.338 --> 00:09:21.424
+(Rires)
+
+00:09:21.424 --> 00:09:25.263
+Et nous avons recréé
+ce moment de révélation.
+
+00:09:25.263 --> 00:09:29.122
+Alors, nous voilà.
+Nous sommes à Chinatown à Los Angeles,
+
+00:09:29.122 --> 00:09:31.401
+dans un parc où nous jouons
+toutes les semaines,
+
+00:09:31.401 --> 00:09:33.721
+et nous voilà recréant
+le moment de Ray Allen
+
+00:09:33.721 --> 00:09:35.550
+et tout le pistage qui va avec.
+
+00:09:36.772 --> 00:09:38.319
+Voilà le tir.
+
+00:09:38.319 --> 00:09:40.889
+Je vais vous montrer cette partie
+
+00:09:40.889 --> 00:09:43.520
+et les coulisses de ce moment.
+
+00:09:43.520 --> 00:09:47.028
+La seule différence : au lieu de joueurs
+professionnels, c'est nous,
+
+00:09:47.028 --> 00:09:49.790
+et à la place d'un commentateur
+professionnel, c'est moi.
+
+00:09:49.790 --> 00:09:51.857
+Alors accrochez-vous.
+
+00:09:53.153 --> 00:09:54.303
+Miami.
+
+00:09:54.671 --> 00:09:55.964
+Trois points de retard.
+
+00:09:56.107 --> 00:09:57.257
+20 secondes restantes.
+
+00:09:59.385 --> 00:10:00.583
+Jeff apporte le ballon.
+
+00:10:02.504 --> 00:10:04.191
+Josh l'attrape, et marque 3 points.
+
+00:10:04.631 --> 00:10:06.480
+(Calcul de probabilité du tir)
+
+00:10:07.278 --> 00:10:08.428
+(Qualité du tir)
+
+00:10:09.048 --> 00:10:10.833
+(Probabilité de rebond)
+
+00:10:12.373 --> 00:10:13.606
+Il ne rentre pas !
+
+00:10:13.606 --> 00:10:15.016
+(Probabilité de rebond)
+
+00:10:15.777 --> 00:10:17.083
+Rebond, Noel.
+
+00:10:17.083 --> 00:10:18.207
+Passe à Daria.
+
+00:10:18.509 --> 00:10:21.874
+(Qualité de tir)
+
+00:10:22.676 --> 00:10:24.356
+Trois points !
+
+00:10:24.356 --> 00:10:26.517
+Égalité à 5 secondes de la fin !
+
+00:10:26.880 --> 00:10:28.568
+La foule est en délire.
+
+00:10:28.568 --> 00:10:30.140
+(Rires)
+
+00:10:30.140 --> 00:10:32.467
+C'est à peu près comment 
+ça s'est passé.
+
+00:10:32.467 --> 00:10:34.176
+A peu près.
+
+00:10:34.176 --> 00:10:35.681
+(Applaudissements)
+
+00:10:35.688 --> 00:10:41.490
+Cet instant avait à peu près 9%
+de chance d'arriver pendant la finale,
+
+00:10:41.490 --> 00:10:43.990
+et on sait ça et 
+beaucoup d'autres choses.
+
+00:10:43.990 --> 00:10:47.359
+Je ne vous dirai pas combien
+d'essais il nous a fallu pour y arriver.
+
+00:10:47.359 --> 00:10:49.090
+(Rires)
+
+00:10:49.090 --> 00:10:51.072
+Bon d'accord ! Quatre.
+
+00:10:51.076 --> 00:10:52.001
+(Rires)
+
+00:10:52.001 --> 00:10:53.286
+Bravo Daria.
+
+00:10:53.647 --> 00:10:57.854
+Mais ce qui est important dans cette vidéo
+
+00:10:57.854 --> 00:11:02.449
+et les connaissances qu'elle apporte sur
+chaque seconde du match -- n'est pas ça.
+
+00:11:02.449 --> 00:11:06.563
+C'est le fait qu'on puisse suivre les
+déplacements de toutes sortes d'équipes.
+
+00:11:06.563 --> 00:11:10.870
+Il n'est pas nécessaire d'être un joueur
+professionnel pour étudier les mouvements.
+
+00:11:10.870 --> 00:11:14.622
+En fait, la technologie s'adapte hors
+du sport parce qu'on se déplace partout.
+
+00:11:15.654 --> 00:11:18.023
+On bouge dans nos maisons,
+
+00:11:21.428 --> 00:11:22.633
+dans nos bureaux,
+
+00:11:24.238 --> 00:11:26.928
+quand on fait des courses,
+quand on voyage
+
+00:11:28.908 --> 00:11:30.571
+dans les villes
+
+00:11:32.065 --> 00:11:33.683
+et autour du monde.
+
+00:11:35.270 --> 00:11:37.635
+Qu'est-ce qu'on va apprendre
+à connaître ?
+
+00:11:37.635 --> 00:11:40.134
+Peut-être qu'au lieu d'identifier des
+pick and rolls,
+
+00:11:40.134 --> 00:11:42.988
+une machine peut identifier
+le moment et me dire
+
+00:11:42.988 --> 00:11:44.975
+quand ma fille commence à marcher.
+
+00:11:44.975 --> 00:11:47.571
+Ce qui pourrait d'ailleurs arriver
+sous peu.
+
+00:11:48.140 --> 00:11:52.102
+On pourrait apprendre à mieux utiliser
+nos immeubles, mieux planifier nos villes.
+
+00:11:52.102 --> 00:11:56.439
+Je crois qu'avec le développement
+de la science des points mobiles,
+
+00:11:56.439 --> 00:12:00.202
+on se déplacera mieux, 
+plus intelligemment, on ira de l'avant.
+
+00:12:00.607 --> 00:12:01.866
+Merci beaucoup.
+
+00:12:01.866 --> 00:12:06.865
+(Applaudissements)
+

@@ -1,0 +1,716 @@
+WEBVTT
+Kind: captions
+Language: no
+
+00:00:00.000 --> 00:00:07.000
+Translator: Joachim Grønhaug
+Reviewer: Martin Hassel
+
+00:00:16.260 --> 00:00:18.260
+Frem til nå, har vår kommunikasjon med maskiner
+
+00:00:18.260 --> 00:00:20.260
+alltid vært begrenset
+
+00:00:20.260 --> 00:00:22.260
+til bevisste og direkte former.
+
+00:00:22.260 --> 00:00:24.260
+Uansett om det det er noe så enkelt
+
+00:00:24.260 --> 00:00:26.260
+som å skru på lysene med en bryter,
+
+00:00:26.260 --> 00:00:29.260
+eller noe så komplisert som å programmere roboter,
+
+00:00:29.260 --> 00:00:32.260
+har vi alltid måtte gi maskinen en kommando,
+
+00:00:32.260 --> 00:00:34.260
+i noen tilfeller, flere kommandoer,
+
+00:00:34.260 --> 00:00:37.260
+for å få maskinen til å gjøre noe for oss.
+
+00:00:37.260 --> 00:00:39.260
+Kommunikasjon mellom mennesker derimot,
+
+00:00:39.260 --> 00:00:42.260
+er mer komplisert og mye mer interessant,
+
+00:00:42.260 --> 00:00:44.260
+fordi vi må ta hensyn til
+
+00:00:44.260 --> 00:00:47.260
+så mye mer enn det som blir sagt verbalt.
+
+00:00:47.260 --> 00:00:50.260
+Vi observerer ansiktsuttrykk og kroppsspråk,
+
+00:00:50.260 --> 00:00:52.260
+og vi kan merke følelser og humør
+
+00:00:52.260 --> 00:00:55.260
+fra samtalene vi har med hverandre.
+
+00:00:55.260 --> 00:00:57.260
+Disse inntrykkene danner faktisk en stor del
+
+00:00:57.260 --> 00:00:59.260
+av vår beslutningsprosess.
+
+00:00:59.260 --> 00:01:01.260
+Vårt mål er å introdusere
+
+00:01:01.260 --> 00:01:04.260
+dette nye området innenfor menneskelig samhandling
+
+00:01:04.260 --> 00:01:06.260
+inn i en menneske-maskin samhandling,
+
+00:01:06.260 --> 00:01:08.260
+slik at maskiner kan forstå
+
+00:01:08.260 --> 00:01:10.260
+ikke bare hva du styrer de til å gjøre,
+
+00:01:10.260 --> 00:01:12.260
+men at de også svarer
+
+00:01:12.260 --> 00:01:14.260
+til dine ansiktsuttrykk
+
+00:01:14.260 --> 00:01:16.260
+og følelsemessige opplevelser.
+
+00:01:16.260 --> 00:01:18.260
+Hvilken bedre måte finnes da,
+
+00:01:18.260 --> 00:01:20.260
+enn at maskinen tolker signaler
+
+00:01:20.260 --> 00:01:22.260
+som produseres naturlig av hjernen vår,
+
+00:01:22.260 --> 00:01:25.260
+senteret vårt for kontroll og erfaring.
+
+00:01:25.260 --> 00:01:27.260
+Vel, det virker nok som en rimelig god idé,
+
+00:01:27.260 --> 00:01:29.260
+men denne oppgaven, som Bruno nevnte,
+
+00:01:29.260 --> 00:01:32.260
+er ikke så lett, på grunn av to årsaker:
+
+00:01:32.260 --> 00:01:35.260
+Først, deteksjonsalgoritmen:
+
+00:01:35.260 --> 00:01:37.260
+Hjernen vår er laget av
+
+00:01:37.260 --> 00:01:39.260
+milliarder av aktive nerveceller;
+
+00:01:39.260 --> 00:01:42.260
+ca. 170 000 km
+
+00:01:42.260 --> 00:01:44.260
+med aksoner.
+
+00:01:44.260 --> 00:01:46.260
+Når hjernens nerveceller kommuniserer,
+
+00:01:46.260 --> 00:01:48.260
+avgis det en elektrisk impuls, som følge av en kjemisk reaksjon,
+
+00:01:48.260 --> 00:01:50.260
+som kan måles.
+
+00:01:50.260 --> 00:01:53.260
+Mesteparten av vår funksjonelle hjerne
+
+00:01:53.260 --> 00:01:55.260
+er fordelt over
+
+00:01:55.260 --> 00:01:57.260
+den ytre overflaten av hjernen.
+
+00:01:57.260 --> 00:02:00.260
+For å øke overflaten, som er tilgjengelig for mental kapasitet,
+
+00:02:00.260 --> 00:02:03.260
+er hjernens overflate, i stor del, foldet.
+
+00:02:03.260 --> 00:02:05.260
+Denne foldingen
+
+00:02:05.260 --> 00:02:07.260
+skaper en vesentlig utfordring
+
+00:02:07.260 --> 00:02:10.260
+i tolkningen av elektriske overflate-impulser.
+
+00:02:10.260 --> 00:02:12.260
+Hver persons hjernebark
+
+00:02:12.260 --> 00:02:14.260
+er foldet forskjellig,
+
+00:02:14.260 --> 00:02:16.260
+ikke ulikt fingeravtrykk.
+
+00:02:16.260 --> 00:02:18.260
+Så selv om et signal
+
+00:02:18.260 --> 00:02:21.260
+kommer fra samme funksjonelle hjernedel hos et menneske,
+
+00:02:21.260 --> 00:02:23.260
+er det forskjell på hvordan hjernedelen har blitt foldet.
+
+00:02:23.260 --> 00:02:25.260
+Signalets fysiske plassering
+
+00:02:25.260 --> 00:02:27.260
+er veldig forskjelig fra person til person,
+
+00:02:27.260 --> 00:02:30.260
+til og med eneggede tvillinger.
+
+00:02:30.260 --> 00:02:32.260
+Det finnes altså ikke noen sammenheng
+
+00:02:32.260 --> 00:02:34.260
+i overflatesignalene.
+
+00:02:34.260 --> 00:02:36.260
+Vårt gjennombrudd var å lage en algoritme
+
+00:02:36.260 --> 00:02:38.260
+som foldet ut hjernebarken,
+
+00:02:38.260 --> 00:02:40.260
+slik at vi kunne kartlegge signalene
+
+00:02:40.260 --> 00:02:42.260
+nærmere deres opprinnelige kilde,
+
+00:02:42.260 --> 00:02:45.260
+og derfor gjøre det mulig å jobbe med en stor befolkning.
+
+00:02:46.260 --> 00:02:48.260
+Den andre utfordringen
+
+00:02:48.260 --> 00:02:51.260
+er apparatet for observasjon av hjernebølger.
+
+00:02:51.260 --> 00:02:53.260
+Ofte involverer EEG-målinger
+
+00:02:53.260 --> 00:02:56.260
+et hårnett fullt av sensorer,
+
+00:02:56.260 --> 00:02:59.260
+slik som dere kan se på bildet.
+
+00:02:59.260 --> 00:03:01.260
+En tekniker setter elektrodene
+
+00:03:01.260 --> 00:03:03.260
+på hodebunnen
+
+00:03:03.260 --> 00:03:05.260
+ved hjelp av en ledende gelé eller krem,
+
+00:03:05.260 --> 00:03:08.260
+vanligvis etter en klargjøring av hodebunnen,
+
+00:03:08.260 --> 00:03:10.260
+ved rensing.
+
+00:03:10.260 --> 00:03:12.260
+Dette tar veldig lang tid
+
+00:03:12.260 --> 00:03:14.260
+og er ikke en veldig komfortabel prosess.
+
+00:03:14.260 --> 00:03:16.260
+Og på toppen av det, er disse systemene
+
+00:03:16.260 --> 00:03:19.260
+kostbare, opp til titusener av dollar.
+
+00:03:20.260 --> 00:03:23.260
+Med det vil jeg gjerne invitere
+
+00:03:23.260 --> 00:03:25.260
+Evan Grant til scenen, en av fjorårets foredragsholdere,
+
+00:03:25.260 --> 00:03:27.260
+som gikk med på
+
+00:03:27.260 --> 00:03:29.260
+å hjelpe til med demonstrasjonen
+
+00:03:29.260 --> 00:03:31.260
+av det vi har klart å utvikle.
+
+00:03:31.260 --> 00:03:37.260
+(Applaus)
+
+00:03:37.260 --> 00:03:39.260
+Apparatet du ser
+
+00:03:39.260 --> 00:03:41.260
+er en 14-kanals, Hi-Fi
+
+00:03:41.260 --> 00:03:43.260
+EEG-ervervings system.
+
+00:03:43.260 --> 00:03:46.260
+Det trenger ingen klargjøring av hodebunnen,
+
+00:03:46.260 --> 00:03:48.260
+heller ingen ledende gelé eller krem.
+
+00:03:48.260 --> 00:03:51.260
+Det tar få minutter å sette på,
+
+00:03:51.260 --> 00:03:53.260
+og kalibrere signaler.
+
+00:03:53.260 --> 00:03:55.260
+Den er også trådløs,
+
+00:03:55.260 --> 00:03:58.260
+så du kan bevege deg fritt.
+
+00:03:58.260 --> 00:04:01.260
+Sammenlignet med titusener av dollar
+
+00:04:01.260 --> 00:04:04.260
+for et tradisjonelt EEG-system,
+
+00:04:04.260 --> 00:04:06.260
+koster dette headsettet
+
+00:04:06.260 --> 00:04:08.260
+bare noen hundre dollar.
+
+00:04:08.260 --> 00:04:11.260
+Nå til deteksjonsalgoritmene.
+
+00:04:11.260 --> 00:04:13.260
+Ansiktsuttrykk --
+
+00:04:13.260 --> 00:04:15.260
+som jeg nevnte tidligere under følelsesmessige opplevelser --
+
+00:04:15.260 --> 00:04:17.260
+er faktisk designet til å virke umiddelbart,
+
+00:04:17.260 --> 00:04:19.260
+og er med få justeringer av følsomhet
+
+00:04:19.260 --> 00:04:22.260
+tilgjengelig for personlig tilpassing.
+
+00:04:22.260 --> 00:04:24.260
+Men med begrenset tid
+
+00:04:24.260 --> 00:04:26.260
+vil jeg gjerne vise den kognitive pakken,
+
+00:04:26.260 --> 00:04:28.260
+som er muligheten din
+
+00:04:28.260 --> 00:04:31.260
+til å flytte virtuelle objekter med tankene dine.
+
+00:04:32.260 --> 00:04:34.260
+Dette system er nytt for Evan,
+
+00:04:34.260 --> 00:04:36.260
+så det vi må gjøre først
+
+00:04:36.260 --> 00:04:38.260
+er å lage en profil til han.
+
+00:04:38.260 --> 00:04:41.260
+Han er tydeligvis ikke Joanne - så vi "legger til en bruker".
+
+00:04:41.260 --> 00:04:43.260
+Evan. Ok.
+
+00:04:43.260 --> 00:04:46.260
+Den første tingen vi trenger å gjøre med den kognitive pakken
+
+00:04:46.260 --> 00:04:48.260
+er å starte med treningen
+
+00:04:48.260 --> 00:04:50.260
+av et nøytralt signal.
+
+00:04:50.260 --> 00:04:52.260
+Med nøytral, menes det at det er ikke noe spesielt
+
+00:04:52.260 --> 00:04:54.260
+som Evan trenger å gjøre.
+
+00:04:54.260 --> 00:04:56.260
+Han tar det med ro. Han er avslappet.
+
+00:04:56.260 --> 00:04:58.260
+Og idéen er å etablere en basis
+
+00:04:58.260 --> 00:05:00.260
+eller normaltilstand for hjernen hans,
+
+00:05:00.260 --> 00:05:02.260
+fordi ingen hjerner er like.
+
+00:05:02.260 --> 00:05:04.260
+Det tar åtte sekunder å gjøre dette.
+
+00:05:04.260 --> 00:05:06.260
+Og nå som det er ferdig,
+
+00:05:06.260 --> 00:05:08.260
+kan vi velge en bevegelsesbasert handling.
+
+00:05:08.260 --> 00:05:10.260
+Evan, velg noe
+
+00:05:10.260 --> 00:05:12.260
+som du kan se klart i hodet ditt.
+
+00:05:12.260 --> 00:05:14.260
+Evan Grant: La oss prøve "dra".
+
+00:05:14.260 --> 00:05:16.260
+Tan Le: Ok. La oss velge "dra."
+
+00:05:16.260 --> 00:05:18.260
+Tanken her nå
+
+00:05:18.260 --> 00:05:20.260
+er at Evan trenger å
+
+00:05:20.260 --> 00:05:22.260
+forestille seg objektet komme
+
+00:05:22.260 --> 00:05:24.260
+mot skjermen.
+
+00:05:24.260 --> 00:05:27.260
+En fremdriftsindikator vil vises på skjermen
+
+00:05:27.260 --> 00:05:29.260
+mens han gjør det.
+
+00:05:29.260 --> 00:05:31.260
+Første gangen vil ingenting skje,
+
+00:05:31.260 --> 00:05:34.260
+fordi systemet ikke vet at han tenker på "dra".
+
+00:05:34.260 --> 00:05:36.260
+Men hold tanken
+
+00:05:36.260 --> 00:05:38.260
+alle åtte sekundene.
+
+00:05:38.260 --> 00:05:41.260
+En, to, tre, kjør.
+
+00:05:49.260 --> 00:05:51.260
+Ok.
+
+00:05:51.260 --> 00:05:53.260
+Med en gang vi godtar dette,
+
+00:05:53.260 --> 00:05:55.260
+blir kuben levende.
+
+00:05:55.260 --> 00:05:57.260
+Så, la oss se om Evan
+
+00:05:57.260 --> 00:06:00.260
+faktisk kan prøve, og tenke, "dra,"
+
+00:06:00.260 --> 00:06:02.260
+Bra jobba!
+
+00:06:02.260 --> 00:06:05.260
+(Applaus)
+
+00:06:05.260 --> 00:06:07.260
+Det er ganske utrolig.
+
+00:06:07.260 --> 00:06:11.260
+(Applaus)
+
+00:06:11.260 --> 00:06:13.260
+Vi har litt mer tid igjen,
+
+00:06:13.260 --> 00:06:15.260
+så jeg kommer til å spørre Evan
+
+00:06:15.260 --> 00:06:17.260
+om å gjøre en vanskelig oppgave.
+
+00:06:17.260 --> 00:06:19.260
+Og denne er vanskelig
+
+00:06:19.260 --> 00:06:22.260
+fordi det hele handler om å klare å visualisere noe
+
+00:06:22.260 --> 00:06:24.260
+som ikke eksisterer i vår fysiske verden.
+
+00:06:24.260 --> 00:06:26.260
+Dette er "forsvinn."
+
+00:06:26.260 --> 00:06:28.260
+Det du vil, iallefall med bevegelsesbaserte handlinger,
+
+00:06:28.260 --> 00:06:31.260
+som vi gjør hele tiden, slik at du kan visualisere det.
+
+00:06:31.260 --> 00:06:33.260
+Med med "forsvinn," er det egentlig ingen analogier.
+
+00:06:33.260 --> 00:06:35.260
+Evan, det du må gjøre her
+
+00:06:35.260 --> 00:06:38.260
+er å forestille deg at kuben tones ut sakte.
+
+00:06:38.260 --> 00:06:41.260
+Samme som i stad. En, to, tre, kjør.
+
+00:06:50.260 --> 00:06:53.260
+Okey. La oss prøve.
+
+00:06:53.260 --> 00:06:56.260
+Herregud. Han er litt for flink.
+
+00:06:57.260 --> 00:06:59.260
+La oss prøve igjen.
+
+00:07:04.260 --> 00:07:06.260
+EG: Jeg mister konsentrasjonen.
+
+00:07:06.260 --> 00:07:08.260
+(Latter)
+
+00:07:08.260 --> 00:07:10.260
+TL: Men vi kan faktisk se at det virker,
+
+00:07:10.260 --> 00:07:12.260
+selv om du bare klarer å holde tanken
+
+00:07:12.260 --> 00:07:14.260
+en liten stund.
+
+00:07:14.260 --> 00:07:17.260
+Som jeg sa, det er en veldig vanskelig prosess
+
+00:07:17.260 --> 00:07:19.260
+å forestille seg dette.
+
+00:07:19.260 --> 00:07:21.260
+Og den beste tingen med dette er at
+
+00:07:21.260 --> 00:07:23.260
+vi kun ga programvaren et forsøk
+
+00:07:23.260 --> 00:07:26.260
+på hvordan han tenkte "forsvinn."
+
+00:07:26.260 --> 00:07:29.260
+Siden det er en læringsalgoritme i maskinen --
+
+00:07:29.260 --> 00:07:33.260
+(Applaus)
+
+00:07:33.260 --> 00:07:35.260
+Takk.
+
+00:07:35.260 --> 00:07:38.260
+Bra jobba. Bra jobba.
+
+00:07:38.260 --> 00:07:40.260
+(Applaus)
+
+00:07:40.260 --> 00:07:43.260
+Takk skal du ha, Evan. Du er et fantastisk, fantastisk
+
+00:07:43.260 --> 00:07:46.260
+eksempel på teknologien.
+
+00:07:46.260 --> 00:07:48.260
+Som dere så i stad,
+
+00:07:48.260 --> 00:07:51.260
+er det et nivåsystem innebygd i programvaren
+
+00:07:51.260 --> 00:07:53.260
+slik at ettersom Evan, eller hvilken som helst bruker,
+
+00:07:53.260 --> 00:07:55.260
+blir kjent med systemet,
+
+00:07:55.260 --> 00:07:58.260
+kan de fortsette å legge til fler og fler deteksjoner,
+
+00:07:58.260 --> 00:08:00.260
+slik at system begynner å skille
+
+00:08:00.260 --> 00:08:03.260
+mellom ulike bestemte tanker.
+
+00:08:04.260 --> 00:08:06.260
+Og når du har trent opp deteksjonene,
+
+00:08:06.260 --> 00:08:08.260
+kan tankene tilordnes eller kartlegges
+
+00:08:08.260 --> 00:08:10.260
+til hvilken som helst platform,
+
+00:08:10.260 --> 00:08:12.260
+program eller enhet.
+
+00:08:12.260 --> 00:08:14.260
+Jeg vil vise dere et par eksempler,
+
+00:08:14.260 --> 00:08:16.260
+fordi det er mange mulige bruksområder
+
+00:08:16.260 --> 00:08:18.260
+for dette nye grensesnittet.
+
+00:08:19.260 --> 00:08:21.260
+For eksempel, i spill og virtuelle verdener,
+
+00:08:21.260 --> 00:08:23.260
+kan dine ansiktsuttrykk
+
+00:08:23.260 --> 00:08:25.260
+naturlig og intuitivt bli brukt
+
+00:08:25.260 --> 00:08:28.260
+til å kontrollere en avatar eller en virtuell figur.
+
+00:08:29.260 --> 00:08:31.260
+Selvfølgelig kan du oppleve magi
+
+00:08:31.260 --> 00:08:34.260
+og kontrollere verden med tankene dine.
+
+00:08:36.260 --> 00:08:39.260
+Også farger, belysning,
+
+00:08:39.260 --> 00:08:41.260
+lyd og effekter,
+
+00:08:41.260 --> 00:08:43.260
+kan reagere dynamisk på bakgrunn av ditt humør
+
+00:08:43.260 --> 00:08:46.260
+for å øke opplevelsen du får, i sanntid.
+
+00:08:47.260 --> 00:08:49.260
+Videre til noen tilpassede programmer
+
+00:08:49.260 --> 00:08:52.260
+laget av utviklere og forskere omkring i verden,
+
+00:08:52.260 --> 00:08:55.260
+med roboter og enkle maskiner, for eksempel --
+
+00:08:55.260 --> 00:08:57.260
+i dette tilfelle, å fly et lekehelikopter
+
+00:08:57.260 --> 00:09:00.260
+kun ved å tenke "løft" med hodet ditt.
+
+00:09:00.260 --> 00:09:02.260
+Teknologien kan også brukes
+
+00:09:02.260 --> 00:09:04.260
+i den virkelig verden --
+
+00:09:04.260 --> 00:09:06.260
+i dette eksempelet, et smarthus.
+
+00:09:06.260 --> 00:09:09.260
+Fra menyen i kontrollsystemet,
+
+00:09:09.260 --> 00:09:11.260
+til å åpne gardiner,
+
+00:09:11.260 --> 00:09:14.260
+eller lukke dem.
+
+00:09:22.260 --> 00:09:25.260
+Og selvfølgelig også belysningen --
+
+00:09:25.260 --> 00:09:28.260
+skru på,
+
+00:09:28.260 --> 00:09:30.260
+eller av.
+
+00:09:30.260 --> 00:09:32.260
+Og til slutt,
+
+00:09:32.260 --> 00:09:34.260
+til livsforvandlende bruksområder,
+
+00:09:34.260 --> 00:09:37.260
+som å klare å styre en elektrisk rullestol.
+
+00:09:37.260 --> 00:09:39.260
+I dette eksempelet,
+
+00:09:39.260 --> 00:09:42.260
+er ansiktsuttrykk koblet til bevegelseskommandoene.
+
+00:09:42.260 --> 00:09:45.260
+Mann: Blunk med høyre for å gå til høyre.
+
+00:09:50.260 --> 00:09:53.260
+Blunk med venstre for å snu tilbake.
+
+00:10:02.260 --> 00:10:05.260
+Smil for å gå rett frem.
+
+00:10:08.260 --> 00:10:10.260
+TL: Vi... -- Takk skal dere ha.
+
+00:10:10.260 --> 00:10:15.260
+(Applaus)
+
+00:10:15.260 --> 00:10:18.260
+Vi skraper kun på overflaten av hva som er mulig i dag.
+
+00:10:18.260 --> 00:10:20.260
+Og med innspill fra fellesskapet,
+
+00:10:20.260 --> 00:10:22.260
+i tillegg til utviklerenes involvering,
+
+00:10:22.260 --> 00:10:25.260
+og forskerne omkring i verden,
+
+00:10:25.260 --> 00:10:27.260
+håper vi at du kan hjelpe oss å forme
+
+00:10:27.260 --> 00:10:30.260
+denne teknologien videre. Takk skal dere ha.
+

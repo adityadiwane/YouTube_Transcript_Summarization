@@ -1,0 +1,1136 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.000 --> 00:00:07.000
+Übersetzung: David Bauer
+Lektorat: Alex Boos
+
+00:00:15.260 --> 00:00:18.260
+Also, der erste Roboter über den ich sprechen will heißt STriDER.
+
+00:00:18.260 --> 00:00:20.260
+Das steht für Selbsterregter
+
+00:00:20.260 --> 00:00:22.260
+Dreifüßiger Dynamischer Experimenteller Roboter.
+
+00:00:22.260 --> 00:00:24.260
+Es ist ein Roboter, der drei Beine hat,
+
+00:00:24.260 --> 00:00:27.260
+dies ist von der Natur inspiriert
+
+00:00:27.260 --> 00:00:29.260
+Aber haben Sie schon einmal irgendetwas in der Natur gesehen
+
+00:00:29.260 --> 00:00:31.260
+ein Tier gesehen, das drei Beine hat?
+
+00:00:31.260 --> 00:00:33.260
+Wahrscheinlich nicht. Also, warum ich nenne ihn dann
+
+00:00:33.260 --> 00:00:35.260
+einen biologisch inspirierten Roboter? Wie könnte das funktionieren?
+
+00:00:35.260 --> 00:00:38.260
+Aber zuerst wollen wir einen Blick auf die Popkultur werfen.
+
+00:00:38.260 --> 00:00:41.260
+Sie kennen also H.G. Wells Kieg der Welten als Buch und Film.
+
+00:00:41.260 --> 00:00:43.260
+Und was Sie hier sehen können ist ein sehr beliebtes
+
+00:00:43.260 --> 00:00:45.260
+Videospiel
+
+00:00:45.260 --> 00:00:48.260
+In der Fiktion werden diese Außerirdischen
+
+00:00:48.260 --> 00:00:50.260
+als dreifüßige Roboter, welche die Erde terrorisieren beschrieben.
+
+00:00:50.260 --> 00:00:54.260
+Aber mein Roboter STriDER, bewegt sich nicht auf diese Weise.
+
+00:00:54.260 --> 00:00:57.260
+Dies ist also, eine tatsächliche dynamisch simulierte Animation.
+
+00:00:57.260 --> 00:00:59.260
+Ich werde ihnen nun zeigen wie der Roboter funktioniert.
+
+00:00:59.260 --> 00:01:02.260
+Er dreht seinen Körper um 180 Grad.
+
+00:01:02.260 --> 00:01:05.260
+Er schwingt einen Fuß zwischen den beiden andern hindurch, um den Fall abzufangen.
+
+00:01:05.260 --> 00:01:07.260
+So geht er also. Aber sehen sie nur auf uns
+
+00:01:07.260 --> 00:01:09.260
+die Menschen, wir gehen auf zwei Füßen,
+
+00:01:09.260 --> 00:01:11.260
+wir benutzen nicht wirklich unsere Muskeln
+
+00:01:11.260 --> 00:01:14.260
+um den Fuß zu heben und wie ein Roboter zu gehen. Stimmts?
+
+00:01:14.260 --> 00:01:17.260
+Was wir tatsächlich tun, ist unseren Fuß nach vorne zu bewegen und den Fall zu abfangen,
+
+00:01:17.260 --> 00:01:20.260
+wieder aufzustehen, den Fuß nach vorne zu bewegen und wieder den Fall zu abfangen.
+
+00:01:20.260 --> 00:01:23.260
+Man bedient sich des im eigenen Körperbau eingebauten Kräftespiels,
+
+00:01:23.260 --> 00:01:25.260
+genauso wie ein Pendel.
+
+00:01:25.260 --> 00:01:29.260
+Wir nennen dies das Konzept der Fortbewegung durch passives Kräftespiel.
+
+00:01:29.260 --> 00:01:31.260
+Was sie tun, wenn sie aufstehen ist,
+
+00:01:31.260 --> 00:01:33.260
+potentielle Energie umwandeln zu kinetischer Energie,
+
+00:01:33.260 --> 00:01:35.260
+potentielle Energie zu kinetischer Energie.
+
+00:01:35.260 --> 00:01:37.260
+Es ist ein Prozess des ständigen Fallens.
+
+00:01:37.260 --> 00:01:40.260
+Und obwohl es nichts in der Natur gibt, dass so aussieht wie das,
+
+00:01:40.260 --> 00:01:42.260
+wurden wir tatsächlich von der Biologie inspiriert.
+
+00:01:42.260 --> 00:01:44.260
+und weil wir die Gesetzmäßigkeiten des Gehens
+
+00:01:44.260 --> 00:01:47.260
+an diesem Roboter angewendet haben, ist es ein biologisch inspirierter Roboter.
+
+00:01:47.260 --> 00:01:49.260
+Was Sie hier sehen können, ist was wir als nächstes tun wollen.
+
+00:01:49.260 --> 00:01:53.260
+Wir wollen die Beine zusammenfalten und ihn über weite Distanzen schießen.
+
+00:01:53.260 --> 00:01:56.260
+Und er verwendet die Beine, es sieht fast aus wie in Star Wars
+
+00:01:56.260 --> 00:01:59.260
+um beim landen den Stoß abzufangen und er beginnt zu gehen.
+
+00:01:59.260 --> 00:02:02.260
+Was sie hier sehen, dieses gelbe Ding, das ist kein Todesstrahl,
+
+00:02:02.260 --> 00:02:04.260
+das wird nur benutzt um zu zeigen, dass wenn man Kameras hat
+
+00:02:04.260 --> 00:02:06.260
+oder andere Sensoren
+
+00:02:06.260 --> 00:02:08.260
+weil er hoch ist, er ist 1 Meter 80 groß,
+
+00:02:08.260 --> 00:02:11.260
+man über Hindernisse über Büsche und dererlei hinwegsehen kann.
+
+00:02:11.260 --> 00:02:13.260
+Wir halben also zwei Prototypen.
+
+00:02:13.260 --> 00:02:16.260
+Die erste Version, die Hintere, das ist STriDER I.
+
+00:02:16.260 --> 00:02:18.260
+Der Vordere, der kleinere, ist STriDER II.
+
+00:02:18.260 --> 00:02:20.260
+Das Problem, welches wir mit STriDER I hatten ist,
+
+00:02:20.260 --> 00:02:23.260
+dass das Gehäuse einfach zu schwer war. Wir hatten zu viele Motoren,
+
+00:02:23.260 --> 00:02:25.260
+sie wissen schon, welche die Gelenke adjustierten und dergleichen.
+
+00:02:25.260 --> 00:02:29.260
+Also entschieden wir uns einen mechanischen Mechanismus einzubauen
+
+00:02:29.260 --> 00:02:32.260
+mit dessen Hilfe wir und all die Motoren sparen konnten. Und mit einem einzigen Motor
+
+00:02:32.260 --> 00:02:34.260
+können wir all diese Bewegungen koordinieren.
+
+00:02:34.260 --> 00:02:37.260
+Wir benutzen Mechanik, um dieses Problem zu lösen anstelle von Mechatronik.
+
+00:02:37.260 --> 00:02:40.260
+Mit dieser Anpassung ist der obere Teil des Gehäuses leicht genug um im Labor zu gehen.
+
+00:02:40.260 --> 00:02:43.260
+Dies war der erste äußerst erfolgreiche Schritt.
+
+00:02:43.260 --> 00:02:45.260
+Er ist noch nicht perfekt. Sein Kaffee fällt hinunter,
+
+00:02:45.260 --> 00:02:48.260
+wir haben als noch eine Menge Arbeit vor uns
+
+00:02:48.260 --> 00:02:51.260
+Der zweite Roboter über den ich sprechen möchte heißt IMPASS.
+
+00:02:51.260 --> 00:02:55.260
+Das steht für Intelligentes Mobiles Plattform System mit Beweglichen Speichen.
+
+00:02:55.260 --> 00:02:58.260
+Es ist also ein Rad-Fuß-Hybrid-Roboter.
+
+00:02:58.260 --> 00:03:00.260
+Denken Sie an ein felgenloses Rad
+
+00:03:00.260 --> 00:03:02.260
+oder ein Speichenrad
+
+00:03:02.260 --> 00:03:05.260
+Aber die Speichen bewegen sich unabhängig voneinander in und aus der Radnabe
+
+00:03:05.260 --> 00:03:07.260
+Er ist also ein Rad-Fuß-Hybrid.
+
+00:03:07.260 --> 00:03:09.260
+Wir erfinden hier tatsächlich das Rad neu.
+
+00:03:09.260 --> 00:03:12.260
+Ich werde ihnen zeigen wie er funktioniert.
+
+00:03:12.260 --> 00:03:14.260
+Also, in diesem Video zeigen wir eine Methode,
+
+00:03:14.260 --> 00:03:16.260
+die reaktives Verfahren genannt wird.
+
+00:03:16.260 --> 00:03:19.260
+Lediglich die Berührungssensoren an den Füßen benutzend,
+
+00:03:19.260 --> 00:03:21.260
+versucht er über sich veränderndes Terrain zu gehen,
+
+00:03:21.260 --> 00:03:24.260
+ein weiches Terrain das sich wegrücken und verändern lässt.
+
+00:03:24.260 --> 00:03:26.260
+Und nur durch ertastete Informationen
+
+00:03:26.260 --> 00:03:29.260
+überquert er derartiges Terrain.
+
+00:03:29.260 --> 00:03:33.260
+Aber wenn er sehr extremes Terrain überqueren soll,
+
+00:03:33.260 --> 00:03:36.260
+in diesem Fall hat das Hindernis mehr als die dreifache
+
+00:03:36.260 --> 00:03:38.260
+Höhe des Roboters,
+
+00:03:38.260 --> 00:03:40.260
+schaltet der er auf einen Planungs-Modus um,
+
+00:03:40.260 --> 00:03:42.260
+in diesem verwendet er eine LASER-Abstandsmessgerät
+
+00:03:42.260 --> 00:03:44.260
+und Kameras, um das Hindernis und dessen Größe zu erfassen
+
+00:03:44.260 --> 00:03:47.260
+und dann plant er vorsichtig die Bewegung der Radspeichen
+
+00:03:47.260 --> 00:03:49.260
+und stimmt diese so auf einander ab, dass er sich auf diese
+
+00:03:49.260 --> 00:03:51.260
+ausnehmend beeindruckende Weise fortbewegen kann.
+
+00:03:51.260 --> 00:03:53.260
+Sie haben wahrscheinlich bis jetzt nichts dergleichen gesehen.
+
+00:03:53.260 --> 00:03:56.260
+Dies ist ein hoch mobiler Roboter,
+
+00:03:56.260 --> 00:03:59.260
+den wir entwickelt und IMPASS genannt haben
+
+00:03:59.260 --> 00:04:01.260
+Ah! ist das nicht cool?
+
+00:04:01.260 --> 00:04:04.260
+Wenn sie mit dem Auto fahren,
+
+00:04:04.260 --> 00:04:06.260
+wenn Sie ihr Auto lenken, verwenden sie eine Methode,
+
+00:04:06.260 --> 00:04:08.260
+welche Achsschenkellenkung genannt wird.
+
+00:04:08.260 --> 00:04:10.260
+Die Vorderräder rotieren auf diese Weise.
+
+00:04:10.260 --> 00:04:13.260
+Für die meisten kleinrädrigen Roboter
+
+00:04:13.260 --> 00:04:15.260
+wird eine Methode verwendet, die man Differentiallenkung nennt,
+
+00:04:15.260 --> 00:04:18.260
+bei ihr drehen sich das rechte und das linke Rad in verschiedene Richtungen.
+
+00:04:18.260 --> 00:04:21.260
+IMPASS kann sich verschiedenster Arten der Fortbewegung bedienen.
+
+00:04:21.260 --> 00:04:24.260
+Zum Beispiel: In diesem Fall, obwohl das linke und das rechte Rad mit einer
+
+00:04:24.260 --> 00:04:26.260
+einzigen Achse verbunden sind und sich daher gleich schnell drehen,
+
+00:04:26.260 --> 00:04:29.260
+ändern wir einfach die Länge der Speiche,
+
+00:04:29.260 --> 00:04:31.260
+das beeinflusst den Durchmesser und dann dreht er sich links und dreht sich nach rechts.
+
+00:04:31.260 --> 00:04:33.260
+Dies sind nur Beispiele einiger netter Dinge,
+
+00:04:33.260 --> 00:04:36.260
+die wir tun können mit IMPASS.
+
+00:04:36.260 --> 00:04:38.260
+Dieser Roboter heißt CLIMBeR
+
+00:04:38.260 --> 00:04:41.260
+Kabel-aufgehängter Intelligenter Passend Verhaltender Roboter mit Gliedmaßen.
+
+00:04:41.260 --> 00:04:44.260
+Ich habe also mit vielen NASA JPL Wissenschaftlern gesprochen,
+
+00:04:44.260 --> 00:04:46.260
+JPL ist berühmt für die Mars Rovers.
+
+00:04:46.260 --> 00:04:48.260
+Und die Wissenschaftler, die Geologen sagen mir immer,
+
+00:04:48.260 --> 00:04:51.260
+dass die tasächlich interessante Wissenschaft,
+
+00:04:51.260 --> 00:04:54.260
+die wissenschaftlich interessanten Gebiete, immer an Klippen sind.
+
+00:04:54.260 --> 00:04:56.260
+Aber die jetzigen Rover können diese nicht erreichen,
+
+00:04:56.260 --> 00:04:58.260
+Also, machte ich mich, inspiriert von dem was sie wollten, daran einen Roboter zu bauen,
+
+00:04:58.260 --> 00:05:01.260
+der Klippen mit Strukturen erklettern kann.
+
+00:05:01.260 --> 00:05:03.260
+Also, dies ist CLIMBeR.
+
+00:05:03.260 --> 00:05:05.260
+So funktioniert er: er hat drei Beine. Wahrscheinlich ist es schwer zu erkennen,
+
+00:05:05.260 --> 00:05:08.260
+aber er hat eine Seilwinde und ein Seil an der Oberseite
+
+00:05:08.260 --> 00:05:10.260
+und er versucht die beste Stelle für seinen Fuß zu finden.
+
+00:05:10.260 --> 00:05:12.260
+Wenn er sie gefunden hat
+
+00:05:12.260 --> 00:05:15.260
+dann errechnet er fast gleichzeitig die Kräfteverteilung,
+
+00:05:15.260 --> 00:05:18.260
+und wie viel Kraft er auf die Oberfläche übertragen muss
+
+00:05:18.260 --> 00:05:20.260
+um nicht wegzukippen oder abzurutschen.
+
+00:05:20.260 --> 00:05:22.260
+Wenn er sicher steht, hebt er ein Bein
+
+00:05:22.260 --> 00:05:26.260
+und mithilfe der Seilwinde ist es möglich, derartige Oberflächen hinauf zu klettern.
+
+00:05:26.260 --> 00:05:28.260
+Auch Finden-und-Retten-Missionen.
+
+00:05:28.260 --> 00:05:30.260
+Vor fünf Jahren arbeitete ich tatsächlich bei NASA JPL,
+
+00:05:30.260 --> 00:05:32.260
+während eines Sommerpraktikums.
+
+00:05:32.260 --> 00:05:36.260
+Und dort gab es schon damals einen sechsfüßigen Roboter namens LEMUR.
+
+00:05:36.260 --> 00:05:39.260
+Also dieser hier basiert tatsächlich darauf. Dieser Roboter heißt MARS,
+
+00:05:39.260 --> 00:05:42.260
+Multi-Fortsatz Roboter System. Er ist also ein sechsfüßiger Roboter.
+
+00:05:42.260 --> 00:05:44.260
+Wir haben unseren anpassungsfähigen Gang-Planer entwickelt.
+
+00:05:44.260 --> 00:05:46.260
+Hier haben wir eine wirklich interessante Ladung.
+
+00:05:46.260 --> 00:05:48.260
+Die Studenten machen gern Blödsinn. Und hier können sie sehen wie er
+
+00:05:48.260 --> 00:05:51.260
+über unstrukturiertes Terrain geht.
+
+00:05:51.260 --> 00:05:53.260
+Er versucht auf grobkörnigem Terrain zu gehen,
+
+00:05:53.260 --> 00:05:55.260
+einem Sandfeld,
+
+00:05:55.260 --> 00:06:00.260
+abhängig von der Feuchtigkeit oder der Größe der Sandkörner
+
+00:06:00.260 --> 00:06:02.260
+verändert sich die das Rechenmodell für das Einsinken.
+
+00:06:02.260 --> 00:06:06.260
+Daher versucht er seinen Gang anzupassen um derartiges Terrain zu überqueren.
+
+00:06:06.260 --> 00:06:08.260
+Und er kann auch ein paar lustige Sachen. Wie Sie sich sicher vorstellen können,
+
+00:06:08.260 --> 00:06:11.260
+haben wir eine Menge Besucher in unserem Labor.
+
+00:06:11.260 --> 00:06:13.260
+Wenn die Besucher also kommen, geht Mars zum Computer,
+
+00:06:13.260 --> 00:06:15.260
+beginnt zu schreiben: "Hallo mein Name ist MARS.
+
+00:06:15.260 --> 00:06:17.260
+Willkommen bei RoMeLa,
+
+00:06:17.260 --> 00:06:21.260
+dem Roboter Mechanik Labor von Virgina Tech."
+
+00:06:21.260 --> 00:06:23.260
+Dies Roboter ist ein Amöben-Roboter.
+
+00:06:23.260 --> 00:06:26.260
+Nun, wir haben nicht genug Zeit um uns mit den technischen Details zu beschäftigen,
+
+00:06:26.260 --> 00:06:28.260
+Ich will ihnen einfach ein paar der Experimente zeigen.
+
+00:06:28.260 --> 00:06:30.260
+Dies ist eine frühe Machbarkeitsstudie.
+
+00:06:30.260 --> 00:06:34.260
+Wir speichern potentielle Energie in der elastischen Hülle und versetzen ihn in Bewegung.
+
+00:06:34.260 --> 00:06:36.260
+oder wir benutzten ein Seil unter Spannung, um ihn
+
+00:06:36.260 --> 00:06:39.260
+vorwärts und rückwärts zu bewegen. Er heißt ChIMERA.
+
+00:06:39.260 --> 00:06:41.260
+Wir haben auch mit ein Wissenschaftlern
+
+00:06:41.260 --> 00:06:43.260
+und Ingenieuren vom UPenn zussanmmengearbeitet
+
+00:06:43.260 --> 00:06:45.260
+um eine chemisch gesteuerten Version
+
+00:06:45.260 --> 00:06:47.260
+dieses Amöben-Roboters zu entwickeln.
+
+00:06:47.260 --> 00:06:49.260
+Wir vermischen also etwas mit irgendetwas anderem
+
+00:06:49.260 --> 00:06:55.260
+und wie durch Magie, bewegt er sich, der Tropfen.
+
+00:06:55.260 --> 00:06:57.260
+Dieser Roboter ist ein sehr neues Projekt. Er heißt RAPHaEL.
+
+00:06:57.260 --> 00:07:00.260
+Robotische LuftBetriebene Hand mit Elastischen Fortsätzen
+
+00:07:00.260 --> 00:07:04.260
+Es gibt sehr viele sehr nette, sehr gute Roboterhände auf dem Markt.
+
+00:07:04.260 --> 00:07:08.260
+Das einzige Problem ist, dass sie zu teuer sind, zehntausende Dollars.
+
+00:07:08.260 --> 00:07:10.260
+Daher sind sie für die Verwendung als Prothesen nicht all zu praktikabel,
+
+00:07:10.260 --> 00:07:12.260
+weil sie nicht erschwinglich sind.
+
+00:07:12.260 --> 00:07:16.260
+Wir wollen dieses Problem auf eine sehr andere Weise angehen.
+
+00:07:16.260 --> 00:07:19.260
+Anstelle von elektrischen Motoren und elektrischen Bedienteilen
+
+00:07:19.260 --> 00:07:21.260
+verwenden wir Druckluft.
+
+00:07:21.260 --> 00:07:23.260
+Wir entwickelten diese neuartigen Steuerelemente für Gelenke.
+
+00:07:23.260 --> 00:07:26.260
+Sie sind nachgiebig. Man kann tatsächlich die Kraft verändern,
+
+00:07:26.260 --> 00:07:28.260
+indem man einfach den Luftdruck ändert.
+
+00:07:28.260 --> 00:07:30.260
+Und er kann tatsächlich eine Getränkedose zerdrücken.
+
+00:07:30.260 --> 00:07:33.260
+Er kann sehr zerbrechliche Objekte aufheben, wie ein rohes Ei
+
+00:07:33.260 --> 00:07:36.260
+oder in diesem Fall eine Glühbirne.
+
+00:07:36.260 --> 00:07:40.260
+Und das Beste ist, es hat nur 200$ gekostet den ersten Prototypen herzustellen.
+
+00:07:40.260 --> 00:07:43.260
+Dieser Roboter gehört eigentlich einer Roboterart an,
+
+00:07:43.260 --> 00:07:45.260
+die wir HyDRAS nennen,
+
+00:07:45.260 --> 00:07:47.260
+Über Grade-von-Freiheit frei-bewegliche Roboter-Schlange.
+
+00:07:47.260 --> 00:07:50.260
+Dieser Roboter kann Strukturen erklettern.
+
+00:07:50.260 --> 00:07:52.260
+Dies ist der Arm eines HyDRAS.
+
+00:07:52.260 --> 00:07:54.260
+Er ist ein Roboterarm mit 12 Freiheitsgraden.
+
+00:07:54.260 --> 00:07:56.260
+Aber die coole Sache daran ist die Benutzerschnittstelle.
+
+00:07:56.260 --> 00:07:59.260
+Dieses Kabel dort, besteht aus Glasfaser.
+
+00:07:59.260 --> 00:08:01.260
+Und diese Studentin, sie verwendet es vermutlich zum ersten Mal,
+
+00:08:01.260 --> 00:08:03.260
+aber sie kann ihn auf die verschiedensten Weisen bewegen.
+
+00:08:03.260 --> 00:08:06.260
+Zum Beispiel im Irak, Sie wissen schon, im Kriegsgebiet
+
+00:08:06.260 --> 00:08:08.260
+gibt es Straßenbomben. Derzeit schickt man ein
+
+00:08:08.260 --> 00:08:11.260
+ferngesteuertes bewaffnetes Fahrzeug.
+
+00:08:11.260 --> 00:08:13.260
+Und es kostet viel Zeit und Geld
+
+00:08:13.260 --> 00:08:17.260
+um den Operator zu lehren diesen komplexen Arm zu bedienen.
+
+00:08:17.260 --> 00:08:19.260
+In diesem Fall verläuft das sehr intuitiv.
+
+00:08:19.260 --> 00:08:23.260
+Diese Studentin, die ihn wahrscheinlich zum ersten Mal benutzt, führt sehr komplexe Handgriffe aus,
+
+00:08:23.260 --> 00:08:25.260
+sie hebt Objekte auf und hantiert mit ihnen
+
+00:08:25.260 --> 00:08:28.260
+einfach so, sehr intuitiv.
+
+00:08:30.260 --> 00:08:32.260
+Nun, dieser Roboter ist unser derzeitiger Starroboter.
+
+00:08:32.260 --> 00:08:35.260
+Es gibt wirklich einen Fanclub für diesen Roboter, DARwin,
+
+00:08:35.260 --> 00:08:38.260
+Dynamischer Menschenähnlicher Roboter Mit Intelligenz.
+
+00:08:38.260 --> 00:08:40.260
+Wie Sie wissen interessieren wir uns sehr für
+
+00:08:40.260 --> 00:08:42.260
+humanoide Roboter, den menschlichen Gang,
+
+00:08:42.260 --> 00:08:44.260
+daher haben wir beschlossen einen kleinen humanoiden Roboter zu bauen.
+
+00:08:44.260 --> 00:08:46.260
+Das war 2004, zu dieser Zeit
+
+00:08:46.260 --> 00:08:48.260
+war das ziemlich revolutionär.
+
+00:08:48.260 --> 00:08:50.260
+Es war mehr eine Möglichkeitsstudie
+
+00:08:50.260 --> 00:08:52.260
+welche Art von Motoren sollten wir verwenden?
+
+00:08:52.260 --> 00:08:54.260
+Ist es tatsächlich möglich?
+
+00:08:54.260 --> 00:08:56.260
+Dieser hier hat keinerlei Sensoren.
+
+00:08:56.260 --> 00:08:58.260
+Es läuft nach einer Programmschleife.
+
+00:08:58.260 --> 00:09:00.260
+Für diejenigen unter ihnen, die wahrscheinlich wissen, wenn man keine Sensoren hat
+
+00:09:00.260 --> 00:09:02.260
+und es irgendwelche Störungen gibt, Sie wissen ja was passiert.
+
+00:09:05.260 --> 00:09:06.260
+(Gelächter)
+
+00:09:06.260 --> 00:09:08.260
+Basierend auf diesem Erfolg, im nächsten Jahr
+
+00:09:08.260 --> 00:09:11.260
+gingen wir das genaue mechanische Design an
+
+00:09:11.260 --> 00:09:13.260
+beginnend bei der Bewegungslehre.
+
+00:09:13.260 --> 00:09:15.260
+Und siehe da DARwin I wurde 2005 geboren.
+
+00:09:15.260 --> 00:09:17.260
+Er kann aufstehen, er geht, sehr eindrucksvoll.
+
+00:09:17.260 --> 00:09:19.260
+Aber wie sie sehen können
+
+00:09:19.260 --> 00:09:23.260
+hängt er noch immer an einer Nabelschnur. Das heißt wir verwenden noch immer eine externe Energiequelle
+
+00:09:23.260 --> 00:09:25.260
+und externe Recheneinheiten.
+
+00:09:25.260 --> 00:09:29.260
+Im Jahr 2006 also, war es Zeit wirklich Spaß zu haben.
+
+00:09:29.260 --> 00:09:32.260
+Verpassen wir ihm Intelligenz. Wir gegen ihm all die Rechenleistung die er braucht,
+
+00:09:32.260 --> 00:09:34.260
+einen 1.5 Gigahertz Pentium M Chip
+
+00:09:34.260 --> 00:09:36.260
+zwei Firewire-Kameras, acht Giromotoren, einen Beschleunigungsmesser,
+
+00:09:36.260 --> 00:09:39.260
+vier Drehmoment-Sensoren auf den Füßen, Lithium-Ionen-Akkus
+
+00:09:39.260 --> 00:09:43.260
+Und nun war DARwin II vollständig selbstständig.
+
+00:09:43.260 --> 00:09:45.260
+Er ist nicht ferngesteuert
+
+00:09:45.260 --> 00:09:48.260
+Es gibt keine Fangleinen. Er sieht sich um sucht den Ball,
+
+00:09:48.260 --> 00:09:51.260
+schaut sich um, sucht nach dem Ball und er versucht Fußball zu spielen,
+
+00:09:51.260 --> 00:09:54.260
+unabhängige, künstliche Intelligenz.
+
+00:09:54.260 --> 00:09:57.260
+Mal sehen wie er sich macht. Dies war unser aller erster Versuch,
+
+00:09:57.260 --> 00:10:02.260
+und.... Video: Tooooor!
+
+00:10:03.260 --> 00:10:06.260
+Und es gibt tatsächlich einen Wettbewerb der sich RoboCup nennt.
+
+00:10:06.260 --> 00:10:08.260
+Ich weiß nicht wie viele von Ihnen schon vom RoboCub gehört haben.
+
+00:10:08.260 --> 00:10:13.260
+Es handelt sich um ein unabhängiges Roboter Fußballtunier
+
+00:10:13.260 --> 00:10:16.260
+Und das Ziel des RoboCups, das tatsächliche Ziel ist es,
+
+00:10:16.260 --> 00:10:18.260
+im Jahr 2050
+
+00:10:18.260 --> 00:10:21.260
+unabhängige humanoide Roboter in Originalgröße zu haben,
+
+00:10:21.260 --> 00:10:25.260
+die Fußball gegen die menschlichen Weltmeisterschaftsgewinner spielen
+
+00:10:25.260 --> 00:10:27.260
+und gewinnen.
+
+00:10:27.260 --> 00:10:29.260
+Das ist ein wirkliches Ziel. Es ist ein sehr ehrgeiziges Ziel,
+
+00:10:29.260 --> 00:10:31.260
+aber glauben fest, dass wir es erreichen können.
+
+00:10:31.260 --> 00:10:34.260
+So, das war letztes Jahr in China.
+
+00:10:34.260 --> 00:10:36.260
+Wir waren das erste Team aus den Vereinigten Staaten das sich qualifiziert hat
+
+00:10:36.260 --> 00:10:38.260
+für den Wettbewerb humanoider Roboter.
+
+00:10:38.260 --> 00:10:41.260
+Dieses Jahr war er in Österreich.
+
+00:10:41.260 --> 00:10:43.260
+Sie werden nun das tatsächliche Spiel sehen, drei gegen drei,
+
+00:10:43.260 --> 00:10:45.260
+vollständig unabhängig.
+
+00:10:45.260 --> 00:10:47.260
+Na bitte. Ja!
+
+00:10:48.260 --> 00:10:50.260
+Die Roboter finden und spielen,
+
+00:10:50.260 --> 00:10:53.260
+Teams spielen zusammen.
+
+00:10:53.260 --> 00:10:55.260
+Es ist sehr eindrucksvoll. Es ist ein echtes Forschungstreffen
+
+00:10:55.260 --> 00:10:59.260
+verpackt in einem sehr spannenden Wettbewerb.
+
+00:10:59.260 --> 00:11:01.260
+Was Sie hier sehen können ist wunderschön
+
+00:11:01.260 --> 00:11:03.260
+den Louis Vuitton Cup Pokal.
+
+00:11:03.260 --> 00:11:05.260
+Also, der ist für den besten Humanoiden,
+
+00:11:05.260 --> 00:11:07.260
+und wir wünschen uns ihn als erstes US-Amerikanisches Team zu gewinnen,
+
+00:11:07.260 --> 00:11:09.260
+nächstes Jahr, also halten sie uns die Daumen.
+
+00:11:09.260 --> 00:11:11.260
+Danke sehr.
+
+00:11:11.260 --> 00:11:14.260
+(Applaus)
+
+00:11:14.260 --> 00:11:16.260
+DARwin hat auch viele andere Talente.
+
+00:11:16.260 --> 00:11:19.260
+Letztes Jahr dirigierte er tatsächlich das Roanoke Symphonie Orchester
+
+00:11:19.260 --> 00:11:22.260
+beim Ferienkonzert.
+
+00:11:22.260 --> 00:11:25.260
+Dies ist die nächste Robotergeneration DARwin IV,
+
+00:11:25.260 --> 00:11:28.260
+er ist schlauer, schneller und stärker.
+
+00:11:28.260 --> 00:11:30.260
+und er versucht mit seinen Fähigkeiten anzugeben.
+
+00:11:30.260 --> 00:11:33.260
+"Ich bin ein Macho, ich bin stark"
+
+00:11:33.260 --> 00:11:36.260
+Ich kann sogar Jackie Chan nachmachen
+
+00:11:36.260 --> 00:11:39.260
+Kampfsport-Bewegungen.
+
+00:11:39.260 --> 00:11:41.260
+(Lachen)
+
+00:11:41.260 --> 00:11:43.260
+Und er geht davon. Dies ist also DARwin IV,
+
+00:11:43.260 --> 00:11:45.260
+wiederum ist er in der Lobby zu sehen.
+
+00:11:45.260 --> 00:11:47.260
+Wir glauben tatsächlich, dass dies der erste laufende
+
+00:11:47.260 --> 00:11:50.260
+humanoide Roboter in den US sein wird. Also, bleiben sie dran.
+
+00:11:50.260 --> 00:11:53.260
+In Ordnung, ich habe Ihnen also einige der spannenden Roboter gezeigt an denen wir arbeiten.
+
+00:11:53.260 --> 00:11:56.260
+Aber was ist das Geheimnis unseres Erfolges?
+
+00:11:56.260 --> 00:11:58.260
+Wie kommen wir auf all diese Ideen?
+
+00:11:58.260 --> 00:12:00.260
+Woher nehmen wir all die Ideen?
+
+00:12:00.260 --> 00:12:02.260
+Wir haben ein vollkommen selbständiges Fahrzeug,
+
+00:12:02.260 --> 00:12:04.260
+dass in der Stadt fahren kann. Wir gewannen eine halbe Million Dollar
+
+00:12:04.260 --> 00:12:06.260
+bei der DARPA Urban Calllenge.
+
+00:12:06.260 --> 00:12:08.260
+Wir haben auch das weltweit erst Fahrzeug,
+
+00:12:08.260 --> 00:12:10.260
+dass von Blinden gefahren werden kann.
+
+00:12:10.260 --> 00:12:12.260
+Wir nennen das die Blinder-Fahrer-Herausforderung, sehr spannende Sache
+
+00:12:12.260 --> 00:12:16.260
+und viele andere Roboterprojekte über die ich sprechen möchte.
+
+00:12:16.260 --> 00:12:18.260
+Dies sind allein die Preise, die wir im Herbst 2007 gewonnen haben,
+
+00:12:18.260 --> 00:12:21.260
+bei Roboter Wettbewerben und dererlei.
+
+00:12:21.260 --> 00:12:23.260
+Also wir haben fünf Geheimnisse.
+
+00:12:23.260 --> 00:12:25.260
+Erstens, woher haben wir unsere Inspiration
+
+00:12:25.260 --> 00:12:27.260
+woher bekommen wir diesen Funken der Vorstellungskriaft
+
+00:12:27.260 --> 00:12:30.260
+Dies ist eine wahre Geschichte, meine eigene Geschichte.
+
+00:12:30.260 --> 00:12:32.260
+Wenn ich Nachts in Bett gehe, um 3 oder 4 in der Früh,
+
+00:12:32.260 --> 00:12:35.260
+Lege ich mich nieder und schließe meine Augen und ich sehe diese Linien und Kreise
+
+00:12:35.260 --> 00:12:37.260
+and andere Formen herum schweben
+
+00:12:37.260 --> 00:12:40.260
+und diese gliedern sich und formen diese Mechanismen.
+
+00:12:40.260 --> 00:12:42.260
+und ich denke: "Ah das ist cool."
+
+00:12:42.260 --> 00:12:44.260
+Also, habe ich gleich neben meinem Bett ein Notizbuch,
+
+00:12:44.260 --> 00:12:47.260
+ein Tagebuch, mit einem speziellen Stift, der ein LED-Licht hat,
+
+00:12:47.260 --> 00:12:49.260
+weil ich das Licht, um meine Frau nicht zu wecken, nicht einschalten will.
+
+00:12:49.260 --> 00:12:51.260
+Also, ich sehe das alles und schreibe alles auf und zeichne Dinge
+
+00:12:51.260 --> 00:12:53.260
+und dann gehe ich schlafen.
+
+00:12:53.260 --> 00:12:55.260
+Jeden Morgen,
+
+00:12:55.260 --> 00:12:57.260
+ist die erste Sache, die ich mache – noch vor meinem ersten Kaffee –
+
+00:12:57.260 --> 00:12:59.260
+bevor ich mir die Zähne putze, öffne ich mein Notizbuch.
+
+00:12:59.260 --> 00:13:01.260
+Oft ist es leer,
+
+00:13:01.260 --> 00:13:03.260
+aber manchmal finde ich etwas das totaler Schwachsinn ist,
+
+00:13:03.260 --> 00:13:06.260
+aber meistens kann ich nicht einmal meine eigene Handschrift lesen.
+
+00:13:06.260 --> 00:13:09.260
+Na ja, 4 in der Früh, was kann man schon erwarten, stimmts?
+
+00:13:09.260 --> 00:13:11.260
+Ich muss also entziffern was ich geschrieben habe.
+
+00:13:11.260 --> 00:13:14.260
+Aber manchmal sehe ich diese geniale Idee dort
+
+00:13:14.260 --> 00:13:16.260
+und ich habe diesen "Eureka-Moment"
+
+00:13:16.260 --> 00:13:18.260
+Ich laufe direkt in meinem Heimbüro, setze mich an meinem Computer,
+
+00:13:18.260 --> 00:13:20.260
+tippe die Ideen ein und mache Skizzen
+
+00:13:20.260 --> 00:13:23.260
+und ich habe eine Datenbank voller Ideen.
+
+00:13:23.260 --> 00:13:25.260
+Wenn uns also jemand fragt ob wir eine Idee zur Lösung eines Problems haben
+
+00:13:25.260 --> 00:13:27.260
+versuche ich eine Übereinstimmung mit meinen
+
+00:13:27.260 --> 00:13:29.260
+möglichen Ideen zu finden
+
+00:13:29.260 --> 00:13:31.260
+und das Problem kann, wenn es eine Übereinstimmung gibt und wir einen Vorschlag einreichen
+
+00:13:31.260 --> 00:13:35.260
+gefördert werden und so starten wir unsere Projekte.
+
+00:13:35.260 --> 00:13:38.260
+Aber nur von einem Funken der Vorstellungskraft zu sprechen ist nicht genug.
+
+00:13:38.260 --> 00:13:40.260
+Wie entwickeln wir diese Ideen weiter?
+
+00:13:40.260 --> 00:13:43.260
+In unserem Labor RoMeLa, dem Roboter Mechanik Labor,
+
+00:13:43.260 --> 00:13:46.260
+haben wir diese fantastischen Brainstorming-Sitzungen.
+
+00:13:46.260 --> 00:13:48.260
+Wir treffen uns also und wir besprechen die Probleme
+
+00:13:48.260 --> 00:13:50.260
+und die sozialen Probleme und reden darüber.
+
+00:13:50.260 --> 00:13:53.260
+Aber bevor wir anfangen, setzen wir eine goldene Regel fest
+
+00:13:53.260 --> 00:13:55.260
+Diese Regel ist:
+
+00:13:55.260 --> 00:13:58.260
+"Niemand kritisiert eines anderen Ideen.
+
+00:13:58.260 --> 00:14:00.260
+Niemand kritisiert irgendeine Meinung."
+
+00:14:00.260 --> 00:14:02.260
+Das ist wichtig, denn oft fürchten sich Studenten
+
+00:14:02.260 --> 00:14:05.260
+oder sind sich nicht sicher wie andere denken mögen
+
+00:14:05.260 --> 00:14:07.260
+über ihre Meinungen und Gedanken.
+
+00:14:07.260 --> 00:14:09.260
+Wenn man das macht ist es unglaublich
+
+00:14:09.260 --> 00:14:11.260
+wie sehr sich die Studenten öffnen.
+
+00:14:11.260 --> 00:14:14.260
+Sie haben diese absolut wahnsinnigen, coolen, verrückten brillanten Ideen,
+
+00:14:14.260 --> 00:14:17.260
+der ganze Raum ist wie unter Spannung mit kreativer Energie.
+
+00:14:17.260 --> 00:14:20.260
+Und so entwickeln wir unsere Ideen.
+
+00:14:20.260 --> 00:14:23.260
+Gut, uns geht die Zeit aus und ich will noch über eine andere Sache reden.
+
+00:14:23.260 --> 00:14:27.260
+Sie wissen, dass das der Funke der Idee und die Entwicklung nicht genug sind.
+
+00:14:27.260 --> 00:14:29.260
+Da gab es einen großartigen TED-Moment,
+
+00:14:29.260 --> 00:14:32.260
+ich denke es war Sir Ken Robinson, oder?
+
+00:14:32.260 --> 00:14:34.260
+Er sprach darüber wie wir Kinder erziehen sollten
+
+00:14:34.260 --> 00:14:36.260
+und dass Schule Kreativität zerstört.
+
+00:14:36.260 --> 00:14:39.260
+Nun, es gibt tatsächlich zwei Seiten der Geschichte.
+
+00:14:39.260 --> 00:14:42.260
+Man kann nicht alles erreichen
+
+00:14:42.260 --> 00:14:44.260
+nur mit genialen Ideen
+
+00:14:44.260 --> 00:14:47.260
+und Kreativität und hervorragender Bau-Intuition.
+
+00:14:47.260 --> 00:14:49.260
+Wenn man über das Basteln hinaus will
+
+00:14:49.260 --> 00:14:51.260
+und wenn man über das Hobby Roboter hinaus will
+
+00:14:51.260 --> 00:14:54.260
+und die wirklich großen Herausforderungen der Robotik angehen will
+
+00:14:54.260 --> 00:14:56.260
+mithilfe genauester Forschung,
+
+00:14:56.260 --> 00:14:59.260
+brauchen wir mehr als nur das. Das ist wo die Schule ins Spiel kommt.
+
+00:14:59.260 --> 00:15:02.260
+wenn Batman gegen die Bösewicht kämpft,
+
+00:15:02.260 --> 00:15:04.260
+dann hat er seinen Ausrüstungsgürtel und seinen Enterhaken
+
+00:15:04.260 --> 00:15:06.260
+und all diese verschiedenen Ausrüstungsgegenstände.
+
+00:15:06.260 --> 00:15:08.260
+Für uns Robotiker, Ingenieure und Wissenschaftler,
+
+00:15:08.260 --> 00:15:13.260
+sind diese Ausrüstungsgegenstände, Lehrgänge und Sparten über die wir in der Schule lernen.
+
+00:15:13.260 --> 00:15:15.260
+Mathe, differenzieren.
+
+00:15:15.260 --> 00:15:17.260
+Ich habe lineare Algebra, Naturwissenschaften, Physik,
+
+00:15:17.260 --> 00:15:20.260
+heutzutage sogar Chemie und Biologie, wie Sie gesehen haben.
+
+00:15:20.260 --> 00:15:22.260
+Dies sind all die Werkzeuge, die wir brauchen.
+
+00:15:22.260 --> 00:15:24.260
+Das heißt, je mehr Ausrüstungsgegenstände für Batman man hat
+
+00:15:24.260 --> 00:15:26.260
+desto effektiver bekämpft Batman die Bösen
+
+00:15:26.260 --> 00:15:30.260
+für uns sind es mehr Werkzeuge um derartige Probleme anzugehen.
+
+00:15:30.260 --> 00:15:33.260
+Auf diese Art ist Bildung sehr wichtig
+
+00:15:33.260 --> 00:15:35.260
+Also geht es nicht nur darum
+
+00:15:35.260 --> 00:15:37.260
+sonder nur darum, man muss auch sehr sehr hart arbeiten.
+
+00:15:37.260 --> 00:15:39.260
+Ich sage also immer zu meinen Schülern
+
+00:15:39.260 --> 00:15:41.260
+arbeitet schlau, dann arbeitet hart.
+
+00:15:41.260 --> 00:15:44.260
+Dieses Bild im Hintergrund, das wurde um 3 in der Früh gemacht.
+
+00:15:44.260 --> 00:15:46.260
+Ich garantiere wenn man um 3 oder 4 in der Früh in unser Labor kommt
+
+00:15:46.260 --> 00:15:48.260
+dann arbeiten dort Studenten,
+
+00:15:48.260 --> 00:15:51.260
+und das nicht weil ich es ihnen befehle sonder, weil wir zu viel Spaß haben.
+
+00:15:51.260 --> 00:15:53.260
+Was uns zu unserem letzten Thema führt.
+
+00:15:53.260 --> 00:15:55.260
+Vergiss nicht Spaß zu haben.
+
+00:15:55.260 --> 00:15:58.260
+Das ist das tatsächliche Geheimnis unseres Erfolges. Wir haben zu viel Spaß.
+
+00:15:58.260 --> 00:16:01.260
+Ich glaube fest daran, dass man die höchste Produktivität erreicht wenn man Spaß hat.
+
+00:16:01.260 --> 00:16:03.260
+Und das ist was wir tun.
+
+00:16:03.260 --> 00:16:05.260
+Bitte sehr. Vielen Dank.
+
+00:16:05.260 --> 00:16:10.260
+(Applaus)
+

@@ -1,0 +1,920 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Maria Ruzsane Cseresnyes
+Lektor: Zeta Mansart
+
+00:00:13.160 --> 00:00:16.160
+A történet 1877-ben kezdődik, Németországban,
+
+00:00:16.160 --> 00:00:18.160
+egy Georg Cantor nevű matematikussal.
+
+00:00:18.160 --> 00:00:23.160
+Cantor gondolt egyet, vett egy vonalat, kiradírozta a középső harmadát,
+
+00:00:23.160 --> 00:00:28.160
+és vette az így kapott egy-egy vonalat, és most ezekre alkalmazta az előbbi eljárást, egy rekurzív eljárást.
+
+00:00:28.160 --> 00:00:30.160
+Tehát kezdi egy szakasszal, folytatja kettővel,
+
+00:00:30.160 --> 00:00:33.160
+azután néggyel, majd 16-tal, és így tovább.
+
+00:00:33.160 --> 00:00:36.160
+Ha ezt végtelen sokszor megcsinálja, ami a matematikában megtehető,
+
+00:00:36.160 --> 00:00:38.160
+akkor végül végtelen sok vonalat kap,
+
+00:00:38.160 --> 00:00:41.160
+amelyek mindegyikének végtelen sok pontja van.
+
+00:00:41.160 --> 00:00:45.160
+Így rájött, hogy van itt egy halmaz, amelynek az elemszáma nagyobb, mint végtelen.
+
+00:00:45.160 --> 00:00:48.160
+Ettől becsavarodott. Szó szerint. Bevonult egy szanatóriumba. (Nevetés)
+
+00:00:48.160 --> 00:00:50.160
+Amikor kijött a szanatóriumból,
+
+00:00:50.160 --> 00:00:56.160
+meg volt győződve róla, hogy az az ő küldetése a Földön, hogy megalapozza a transzfinit halmazelméletet,
+
+00:00:56.160 --> 00:00:59.160
+mert a legnagyobb végtelen halmaz talán maga Isten.
+
+00:00:59.160 --> 00:01:00.160
+Nagyon vallásos ember volt.
+
+00:01:00.160 --> 00:01:02.160
+Egy matematikus, akinek küldetése van.
+
+00:01:02.160 --> 00:01:04.160
+Más matematikusok is csináltak hasonló dolgot.
+
+00:01:04.160 --> 00:01:06.160
+A svéd von Koch
+
+00:01:06.160 --> 00:01:10.160
+arra gondolt, hogy ahelyett, hogy elhagyna a vonalakból, inkább hozzájuk rak.
+
+00:01:10.160 --> 00:01:12.160
+És így állt elő ezzel a gyönyörű görbével.
+
+00:01:12.160 --> 00:01:15.160
+Nincs semmi különösebb okunk rá, hogy pont ilyen csíra-alakzatból induljunk ki;
+
+00:01:15.160 --> 00:01:19.160
+bármilyen csíra-alakzatot használhatunk.
+
+00:01:19.160 --> 00:01:23.160
+Kicserélem másra, és ezt ragasztom be helyette -- ide le, rendben? --
+
+00:01:23.160 --> 00:01:30.160
+és most, az iteráció során a csíra-alakzatból egy egészen másképp kinéző struktúra bontakozik ki.
+
+00:01:30.160 --> 00:01:32.160
+Ezek mindegyike rendelkezik az ön-hasonlóság tulajdonságával:
+
+00:01:32.160 --> 00:01:34.160
+hogy a rész pont ugyanúgy néz ki, mint maga az egész.
+
+00:01:34.160 --> 00:01:36.160
+Ugyanaz a minta, különféle méretekben.
+
+00:01:37.160 --> 00:01:39.160
+Hát, a matematikusok úgy gondolták, hogy ez nagyon különös,
+
+00:01:39.160 --> 00:01:44.160
+mert ahogy egyre rövidebb mércét használunk, egyre nagyobb és nagyobb hosszot mérünk.
+
+00:01:44.160 --> 00:01:46.160
+És, mivel végtelen sok iterációt hajtunk végre,
+
+00:01:46.160 --> 00:01:52.160
+ahogy a mérce hossza végtelen kicsire húzódik össze, a hossz nő a végtelen felé.
+
+00:01:52.160 --> 00:01:53.160
+Ennek így semmi értelme nem volt,
+
+00:01:53.160 --> 00:01:56.160
+így elásták az ilyen görbéket a matematikakönyvek mélyébe.
+
+00:01:56.160 --> 00:02:00.160
+Azt mondták, hogy ezek amolyan elfajzott görbék, és nem kell foglalkoznunk velük.
+
+00:02:00.160 --> 00:02:01.160
+(Nevetés)
+
+00:02:01.160 --> 00:02:03.160
+És ez így működött vagy száz éven keresztül.
+
+00:02:04.160 --> 00:02:09.160
+És akkor, 1977-ben Benoit Mandelbrot, francia matematikus
+
+00:02:09.160 --> 00:02:14.160
+rájött, hogy ha számítógépes grafikát készítünk és ilyen alakzatokat használunk, amiket ő fraktálnak nevezett el,
+
+00:02:14.160 --> 00:02:16.160
+akkor a természet alakzatait kapjuk.
+
+00:02:16.160 --> 00:02:20.160
+Megkapjuk az emberi tüdőt, az akáciát, a páfrányt,
+
+00:02:20.160 --> 00:02:22.160
+ezeket a gyönyörű természeti formákat.
+
+00:02:22.160 --> 00:02:26.160
+Ha vesszük a hüvelyk- és a mutatóujjunkat és jól megnézzük, hogy hol találkoznak --
+
+00:02:26.160 --> 00:02:28.160
+próbálják csak meg, csináljanak így --
+
+00:02:28.160 --> 00:02:31.160
+-- lazítsák el a kezüket, látni fognak egy redőt,
+
+00:02:31.160 --> 00:02:34.160
+azután egy ráncot a redőben, és egy redőt a ráncban. Igaz?
+
+00:02:34.160 --> 00:02:36.160
+A testünk is tele van fraktálokkal.
+
+00:02:36.160 --> 00:02:39.160
+Talán bizony azok a matematikusok, akik ezt mondták, amolyan elfajzott alakok lettek volna?
+
+00:02:39.160 --> 00:02:41.160
+Fraktáltüdejükből rebegték el azokat a szavakat.
+
+00:02:41.160 --> 00:02:45.160
+Nagyon ironikus. Mutatok mindjárt önöknek egy természetes rekurziót.
+
+00:02:45.160 --> 00:02:50.160
+Tehát még egyszer: vesszük ezeket a vonalakat és rekurzív módon helyettesítjük őket a teljes alakzattal.
+
+00:02:50.160 --> 00:02:55.160
+Így itt a második iteráció, a harmadik, a negyedik, stb.
+
+00:02:55.160 --> 00:02:57.160
+Tehát a természetnek megvan ez az ön-hasonló szerkezete.
+
+00:02:57.160 --> 00:02:59.160
+A természet önszerveződő rendszereket használ.
+
+00:02:59.160 --> 00:03:02.160
+Az 1980-as években teljesen véletlenül észrevettem,
+
+00:03:02.160 --> 00:03:06.160
+hogy ha egy afrikai falu légifotóját nézzük, akkor fraktálokat látunk.
+
+00:03:06.160 --> 00:03:10.160
+És úgy gondoltam, hogy ez valami csodálatos, és vajon miért van így?
+
+00:03:10.160 --> 00:03:12.160
+És persze el kellett, hogy menjek Afrikába, megkérdezni az ottaniakat, hogy miért.
+
+00:03:12.160 --> 00:03:18.160
+Kaptam egy Fulbright-ösztöndíjat csak azért, hogy egy éven keresztül utazgassak Afrikában,
+
+00:03:18.160 --> 00:03:20.160
+és kérdezgessem az embereket, hogy miért építenek fraktálokat,
+
+00:03:20.160 --> 00:03:22.160
+Ez nagyszerű állás, már ha megkapja az ember.
+
+00:03:22.160 --> 00:03:23.160
+(Nevetés)
+
+00:03:23.160 --> 00:03:30.160
+Így végül eljutottam ebbe a városba, és elkészítettem egy kis fraktálmodellt a városról,
+
+00:03:30.160 --> 00:03:33.160
+csak azért, hogy lássuk, hogyan bontakozik ki --
+
+00:03:33.160 --> 00:03:36.160
+de amikor eljutottam oda, és ott voltam a főnök palotájánál,
+
+00:03:36.160 --> 00:03:39.160
+valami ilyesmit találtam mondani -- mert hogy nem vagyok valami jó franciából -- :
+
+00:03:39.160 --> 00:03:42.160
+"Matematikus vagyok, és a háztetőjén szeretnék tartózkodni."
+
+00:03:42.160 --> 00:03:45.160
+De ő jól fogadta és felhozott ide,
+
+00:03:45.160 --> 00:03:46.160
+és elbeszélgettünk a fraktálokról.
+
+00:03:46.160 --> 00:03:49.160
+És azt mondta: "Ó, igen, igen! Tudtunk róla: téglalap a téglalapban,
+
+00:03:49.160 --> 00:03:51.160
+tudunk róla mindent."
+
+00:03:51.160 --> 00:03:55.160
+És kiderült, hogy a királyi címerben van egy téglalap egy másik téglalapban, ami egy harmadik téglalap belsejében van,
+
+00:03:55.160 --> 00:03:59.160
+és a királyi palotán átvezető út meg ez a spirál.
+
+00:03:59.160 --> 00:04:03.160
+És ahogyan megyünk az úton, egyre illedelmesebbnek és illedelmesebbnek kell lennünk.
+
+00:04:03.160 --> 00:04:06.160
+Tehát a társadalmi viszonyokat leképezik geometriai viszonyokká;
+
+00:04:06.160 --> 00:04:11.160
+ez nagyon is tudatos minta. Nem öntudatlan, mint egy termeszhalom fraktálja.
+
+00:04:11.160 --> 00:04:13.160
+Ez egy falu Dél-Zambiában.
+
+00:04:13.160 --> 00:04:17.160
+Ezt a falvat a Ba-lla törzs építette, az átmérője 400 méter.
+
+00:04:17.160 --> 00:04:19.160
+Van egy nagy gyűrű.
+
+00:04:19.160 --> 00:04:25.160
+A gyűrűk, amik a család körletét jelzik, egyre nagyobbak lesznek, ahogyan a vége fele haladunk,
+
+00:04:26.160 --> 00:04:30.160
+és itt van a főnöki gyűrű, a vége felé,
+
+00:04:30.160 --> 00:04:33.160
+és a főnök közvetlen családja ebben a gyűrűben.
+
+00:04:33.160 --> 00:04:34.160
+Itt van egy kis fraktálmodell hozzá.
+
+00:04:34.160 --> 00:04:37.160
+Ez egy ház áldozati oltárral,
+
+00:04:37.160 --> 00:04:40.160
+itt van a házak háza, a családi körlet,
+
+00:04:40.160 --> 00:04:43.160
+emberekkel azon a helyen, ahol az előbb az áldozati oltár volt,
+
+00:04:43.160 --> 00:04:45.160
+és itt a falu, a falu a maga egészében --
+
+00:04:45.160 --> 00:04:50.160
+a gyűrűk gyűrűjének gyűrűje a főnök kiterjesztett családjával, itt meg a főnök közvetlen családja,
+
+00:04:50.160 --> 00:04:53.160
+és van itt egy falucska, épp csak ekkora.
+
+00:04:53.160 --> 00:04:57.160
+Kérdezhetnék, hogyan férnek el emberek egy ekkora falucskában?
+
+00:04:57.160 --> 00:05:00.160
+Úgy, hogy ezek szellemek. Az ősök.
+
+00:05:00.160 --> 00:05:05.160
+És persze a szellemeknek van egy miniatűr falucskájuk a falujukban, igaz?
+
+00:05:05.160 --> 00:05:08.160
+Olyan ez az egész, ahogy Cantor mondta: a rekurzió a végtelenségig folytatódik.
+
+00:05:08.160 --> 00:05:12.160
+Ez itt a Mandara-hegység, közel a nigériai határhoz, Mokoulek, Kamerunban.
+
+00:05:12.160 --> 00:05:15.160
+Megláttam ezt az ábrát, amit egy francia építész rajzolt,
+
+00:05:15.160 --> 00:05:17.160
+és azt gondoltam, "Hinnye, de gyünyörű fraktál!"
+
+00:05:17.160 --> 00:05:23.160
+Próbáltam rájönni, hogy milyen csíra-alakzat hozza ezt létre az iteráció során, hogyan bontakozik ez ki.
+
+00:05:23.160 --> 00:05:25.160
+Erre a struktúrára jutottam itt.
+
+00:05:25.160 --> 00:05:29.160
+Nézzük az első iterációt, a másodikat, a harmadikat, a negyediket.
+
+00:05:29.160 --> 00:05:31.160
+Miután végrehajtottam a szimulációt,
+
+00:05:31.160 --> 00:05:34.160
+rájöttem, hogy az egész falu olyan, mint egy spirál, akárcsak ez,
+
+00:05:34.160 --> 00:05:40.160
+és ez itt az ismétlő vonal, egy önmagát ismétlő vonal, ami fraktállá bontakozik ki.
+
+00:05:40.160 --> 00:05:45.160
+Észrevettem, hogy ez a vonal a körül van, ahol a falu egyetlen kocka alakú háza áll.
+
+00:05:45.160 --> 00:05:47.160
+Így, amikor megérkeztem a faluba, azt kértem:
+
+00:05:47.160 --> 00:05:49.160
+"El tudnának vinni a kockaházhoz?
+
+00:05:49.160 --> 00:05:51.160
+Azt hiszem, lesz ott valami."
+
+00:05:51.160 --> 00:05:54.160
+És azt válaszolták: " Elvihetjük, de be nem mehet,
+
+00:05:54.160 --> 00:05:57.160
+mert az az áldozati oltár, ahol minden évben áldozatot mutatunk be,
+
+00:05:57.160 --> 00:06:00.160
+hogy a föld éves termékenységi ciklusa megmaradjon."
+
+00:06:00.160 --> 00:06:02.160
+És kezdtem megérteni, hogy a termékenységi ciklusok
+
+00:06:02.160 --> 00:06:06.160
+pont olyanok, mint azok a rekurzív ciklusok a geometriai algoritmusban, amik ezt felépítik.
+
+00:06:06.160 --> 00:06:10.160
+És a falvak közül néhányban a rekurzió egészen apró részletekig folytatódik.
+
+00:06:10.160 --> 00:06:12.160
+Itt van ez a nankani falu, Maliban.
+
+00:06:12.160 --> 00:06:15.160
+Láthatják, bemegyünk a családi körletbe --
+
+00:06:15.160 --> 00:06:19.160
+bemegyünk, és vannak itt edények a tűzhelyen, rekurzív módon felhalmozva,.
+
+00:06:19.160 --> 00:06:23.160
+Itt vannak ezek a rumbatök-edények, amiket Issa épp akkor mutatott,
+
+00:06:23.160 --> 00:06:25.160
+és ezek rekurzív módon vannak elhelyezve.
+
+00:06:25.160 --> 00:06:27.160
+A legkisebb rumbatök itt tartalmazza az asszony lelkét.
+
+00:06:27.160 --> 00:06:29.160
+Amikor meghal, akkor egy szertartás keretében
+
+00:06:29.160 --> 00:06:34.160
+megtörik a halmot, amit zalangának hívnak, és az asszony lelke kiszáll az örökkévalóságba.
+
+00:06:34.160 --> 00:06:37.160
+Még egyszer, a végtelenség nagyon lényeges.
+
+00:06:38.160 --> 00:06:42.160
+Ezen a ponton három kérdés vetődik fel.
+
+00:06:42.160 --> 00:06:46.160
+Vajon ezek az egymásban ismétlődő minták minden bennszülött építményre általánosan jellemzőek?
+
+00:06:46.160 --> 00:06:48.160
+Ez volt az én eredeti feltevésem.
+
+00:06:48.160 --> 00:06:50.160
+Amikor először láttam azokat az afrikai fraktálokat,
+
+00:06:50.160 --> 00:06:54.160
+azt gondoltam: "Óh, azoknak a bennszülött csoportoknak, amelyeknek nincsen államszervezetük,
+
+00:06:54.160 --> 00:06:57.160
+ilyen a hierarchiaféleségük, bizonyára valamilyen alulról felfelé terjedő építkezésük kell, hogy legyen."
+
+00:06:57.160 --> 00:06:59.160
+De kiderült, hogy ez nem igaz.
+
+00:06:59.160 --> 00:07:03.160
+Elkezdtem légifelvételeket gyűjteni amerikai őslakosok és dél-csendes-óceáni népek építményeiről,
+
+00:07:03.160 --> 00:07:05.160
+és csak az afrikaiak voltak fraktálok.
+
+00:07:05.160 --> 00:07:11.160
+És ha utánagondolunk, ezek a különböző társadalmak mind másféle geometriai motívumokat használnak.
+
+00:07:11.160 --> 00:07:17.160
+Például az amerikai őslakosok a körszimetria és negyedrendű szimmetria kombinációját használják.
+
+00:07:17.160 --> 00:07:19.160
+Láthatjuk ezt az edényeiken és a kosaraikon.
+
+00:07:19.160 --> 00:07:22.160
+Itt van egy légifelvétel az anasazi romokról;
+
+00:07:22.160 --> 00:07:27.160
+láthatjuk rajta, hogy az egész egy körbe van foglalva, de a kisebb részletek már téglalapok, igaz?
+
+00:07:27.160 --> 00:07:31.160
+Ez már nem ugyanaz a minta két különböző méretben.
+
+00:07:31.160 --> 00:07:32.160
+A másik, amit kérdezhetnének:
+
+00:07:32.160 --> 00:07:35.160
+"Oké, Dr Eglash, de nem feledkezett meg az afrikai kultúrák közti kölönbözőségről?"
+
+00:07:36.160 --> 00:07:38.160
+És a válasz: nem, nem és nem.
+
+00:07:38.160 --> 00:07:42.160
+Először is, egyetértek Mudimbe nagyszerű könyvével, a "The Invention of Africa" -val,
+
+00:07:42.160 --> 00:07:45.160
+hogy Afrika az első gyarmatosítás, és azután
+
+00:07:45.160 --> 00:07:47.160
+az ellenállási mozgalmak mesterséges terméke.
+
+00:07:47.160 --> 00:07:52.160
+Nem, mert a széles körben elterjedt díszítési gyakorlatból nem okvetlen következik a kultúra egységessége,
+
+00:07:52.160 --> 00:07:55.160
+és semmiképp nincs a zsigerekben.
+
+00:07:55.160 --> 00:07:57.160
+És végül, a fraktálok "ön-hasonlóak",
+
+00:07:57.160 --> 00:08:01.160
+tehát hasonlók saját részükhöz, de nem szükségképp hasonlók egymáshoz --
+
+00:08:01.160 --> 00:08:03.160
+a fraktálokra nagyon különböző példákat látni.
+
+00:08:03.160 --> 00:08:05.160
+Általánosan elterjedt technológia Afrikában.
+
+00:08:06.160 --> 00:08:09.160
+És végül is, nem pusztán ösztönös dolog ez az egész?
+
+00:08:09.160 --> 00:08:11.160
+Ez nem igazi matematikai tudás.
+
+00:08:11.160 --> 00:08:14.160
+Nem valószínű, hogy az afrikaiak valóban fraktál-geometriát használnának, igaz?
+
+00:08:14.160 --> 00:08:16.160
+Az az 1970-es évekig ismeretlen volt.
+
+00:08:17.160 --> 00:08:22.160
+Igen, az igaz, hogy némely afrikai fraktál, úgy gondolom, puszta intuíció.
+
+00:08:22.160 --> 00:08:25.160
+Néhányról közülük, ha megkérdezném az embereket Dakar
+
+00:08:25.160 --> 00:08:28.160
+utcáin, hogy "mi az algoritmus, milyen szabály szerint képezik?"
+
+00:08:28.160 --> 00:08:29.160
+akkor bizonyára ezt felelnék:
+
+00:08:29.160 --> 00:08:32.160
+"Csak úgy csináljuk, mert hogy jól néz ki, te értetlen". (Nevetés)
+
+00:08:32.160 --> 00:08:35.160
+De néha más a helyzet.
+
+00:08:35.160 --> 00:08:40.160
+Néhány esetben valóban vannak algoritmusok, nagyon is kifinomultak.
+
+00:08:40.160 --> 00:08:43.160
+Így például a manghetu szobrokon láthatják ezt a rekurzív geometriát.
+
+00:08:43.160 --> 00:08:48.160
+Az etióp kereszteken láthatjuk a formának ezt a gyünyörű kibontását.
+
+00:08:48.160 --> 00:08:52.160
+Angolában a csokve emberek vonalakat rajzolnak a homokba,
+
+00:08:52.160 --> 00:08:55.160
+az ilyet nevezte a német matematikus, Euler gráfnak;
+
+00:08:55.160 --> 00:08:57.160
+mi úgy hívjuk ezt most, hogy Euler-vonal --
+
+00:08:57.160 --> 00:08:59.160
+úgy rajzoljuk, hogy sosem emeljük fel a tollunkat
+
+00:08:59.160 --> 00:09:02.160
+és egyetlen vonalon sem megyünk át kétszer.
+
+00:09:02.160 --> 00:09:05.160
+De ők ezt rekurzív módon teszik, és életkorok szerinti rendszerben,
+
+00:09:05.160 --> 00:09:08.160
+így a kisgyerekek ezt tanulják meg, a nagyobbak ezt,
+
+00:09:08.160 --> 00:09:11.160
+és a következő beavatáskor pedig megtanulják ezt.
+
+00:09:11.160 --> 00:09:14.160
+És az algortimus minden iterációjával
+
+00:09:14.160 --> 00:09:16.160
+megtanuljuk a mítosz megközelítését.
+
+00:09:16.160 --> 00:09:18.160
+Megtanuljuk a tudás következő szintjét.
+
+00:09:19.160 --> 00:09:21.160
+És végül: egész Afrikában láthatjuk ezt a táblajátékot.
+
+00:09:21.160 --> 00:09:24.160
+Ghanaban, ahol megismertem owarinak nevezik,
+
+00:09:24.160 --> 00:09:29.160
+a keleti parton mancalának, Kenyában baonak, másutt sogónak.
+
+00:09:29.160 --> 00:09:34.160
+Önszerveződő mintákat látunk, amik itt a táblás játékban spontán módon fordulnak elő.
+
+00:09:34.160 --> 00:09:37.160
+És Ghánában ismertek ezek az önszerveződő minták,
+
+00:09:37.160 --> 00:09:39.160
+és stratégiailag használják őket.
+
+00:09:39.160 --> 00:09:41.160
+Ez tehát egy nagyon is tudatos tudás.
+
+00:09:41.160 --> 00:09:43.160
+Itt van egy gyönyörű fraktál.
+
+00:09:43.160 --> 00:09:47.160
+Bármerre is megyünk Sahelben, mindenütt látni ezeket a szélvédő kerítéseket.
+
+00:09:47.160 --> 00:09:51.160
+És persze a kerítések mindenütt a világon a felszínre merőlegesek, szigorúan vonalakból állnak.
+
+00:09:51.160 --> 00:09:55.160
+De itt, Afrikában, vannak ezek a nem vonalakból álló, hanem réteges kerítések.
+
+00:09:55.160 --> 00:09:57.160
+Felkutattam hát valakit, aki ezeket csinálja,
+
+00:09:57.160 --> 00:10:01.160
+egy fickót Maliban, Bamako külterületén, és megkérdeztem:
+
+00:10:01.160 --> 00:10:03.160
+"Hogyan jutott eszébe, hogy fraktál-ketítéseket csináljon? Mert mások nem ilyet csinálnak."
+
+00:10:03.160 --> 00:10:05.160
+Nagyon érdekes volt a válasza.
+
+00:10:05.160 --> 00:10:10.160
+Azt mondta: "Ha az őserdőben élnék, csak hosszú szalmakötegeket használnék,
+
+00:10:10.160 --> 00:10:12.160
+mert az nagyon gyors és olcsó.
+
+00:10:12.160 --> 00:10:15.160
+Nem kell hozzá sok idő, sok szalma.
+
+00:10:15.160 --> 00:10:17.160
+De átfúj rajta a szél, átsöpri rajta a koszt.
+
+00:10:17.160 --> 00:10:21.160
+Ezek a tömör sorok a legtetején, ezek valóban megfogják a szelet és a koszt.
+
+00:10:21.160 --> 00:10:26.160
+De sok időre és sok szalmára van szükség hozzá, mert ez tényleg nagyon tömör. "
+
+00:10:26.160 --> 00:10:28.160
+"Na mármost" -- mondta --, "tapasztalatból tudjuk,
+
+00:10:28.160 --> 00:10:33.160
+hogy minél feljebb megyünk a talajtól, annál erősebb a szél."
+
+00:10:33.160 --> 00:10:36.160
+Értik? Ez tisztára egy költség-érték elemzés.
+
+00:10:36.160 --> 00:10:38.160
+És lemértem a szalma hosszát,
+
+00:10:38.160 --> 00:10:40.160
+ábrázoltam egy log-log görbén, megkaptam az arányossági kitevőt,
+
+00:10:40.160 --> 00:10:45.160
+és az szinte pontosan megfelelt a szél-méretezési kézikönyvek
+
+00:10:45.160 --> 00:10:46.160
+szélsebesség-magasság arány kitevőjének.
+
+00:10:46.160 --> 00:10:51.160
+Tehát ezek a fickók járatosak a méretezési technológiában.
+
+00:10:51.160 --> 00:10:56.160
+A legösszetettebb példa, amit a fraktálok algoritmusának szemléltetéséhez találtam,
+
+00:10:56.160 --> 00:10:58.160
+nem is a geometriában volt, hanem a szimbolikus kódolásban,
+
+00:10:58.160 --> 00:11:01.160
+éspedig a bamana homok-jövendölés.
+
+00:11:01.160 --> 00:11:04.160
+Ezt a jövendölés-rendszert megtalálni egész Afrikában.
+
+00:11:04.160 --> 00:11:09.160
+Meg lehet találni a keleti és a nyugati parton egyaránt,
+
+00:11:09.160 --> 00:11:11.160
+és a jelképekben alig van eltérés az egyes helyeken,
+
+00:11:11.160 --> 00:11:17.160
+így minden egyes szimbólumnak négy bitje van -- ezek 4-bites bináris szavak --,
+
+00:11:17.160 --> 00:11:22.160
+ezeket véletlenszerűen rajzolják a homokba, és a végén leszámlálják,
+
+00:11:22.160 --> 00:11:24.160
+ha ez páratlan szám, akkor húzunk egy vonást,
+
+00:11:24.160 --> 00:11:26.160
+ha páros, akkor kettőt.
+
+00:11:26.160 --> 00:11:29.160
+Ők ezt villámgyorsan csinálják,
+
+00:11:29.160 --> 00:11:31.160
+és fel nem foghattam, hogy honnan veszik --
+
+00:11:31.160 --> 00:11:33.160
+ezt a véletlenszerű dolgot négyszer csinálják --
+
+00:11:33.160 --> 00:11:35.160
+nem értettem, honnan veszik a másik 12 szimbólumot.
+
+00:11:35.160 --> 00:11:37.160
+És nem akarták elárulni.
+
+00:11:37.160 --> 00:11:39.160
+Azt mondták": Nem, nem, nem beszélhetek róla."
+
+00:11:39.160 --> 00:11:41.160
+Erre azt mondtam: "Nézze, megfizetem érte, a tanítványa leszek,
+
+00:11:41.160 --> 00:11:43.160
+jövök minden nap és fizetek."
+
+00:11:43.160 --> 00:11:46.160
+Ők erre azt mondták: "Ez nem pénzkérdés. Ez vallási ügy."
+
+00:11:46.160 --> 00:11:47.160
+És végül, kétségbeesésemben ezt mondtam:
+
+00:11:47.160 --> 00:11:50.160
+"Hagy meséljek Georg Cantorról, 1877-ből."
+
+00:11:50.160 --> 00:11:54.160
+És elkezdtem magyarázni, hogy mit is keresek Afrikában,
+
+00:11:54.160 --> 00:11:56.160
+és nagyon izgatottak lettek, amikor meglátták a Cantor-halmazt.
+
+00:11:56.160 --> 00:12:00.160
+Valaki közülük ezt mondta: "Gyere csak, tudok neked segíteni."
+
+00:12:00.160 --> 00:12:05.160
+Végigvezetett a bamana papi beavatási szertartáson.
+
+00:12:05.160 --> 00:12:07.160
+És persze engem csak a matematika érdekelt belőle,
+
+00:12:07.160 --> 00:12:09.160
+így egész idő alatt csóválta a fejét.
+
+00:12:09.160 --> 00:12:10.160
+"Tudod, én ezt nem így tanultam."
+
+00:12:10.160 --> 00:12:14.160
+De azért úgy kellett, hogy aludjak, hogy az ágyam mellett, a homokban egy kola dió volt elásva,
+
+00:12:14.160 --> 00:12:17.160
+és hét érmét kellett adjak hét bélpoklosnak, stb.
+
+00:12:17.160 --> 00:12:21.160
+És végül felfedte a dolog titkát.
+
+00:12:22.160 --> 00:12:26.160
+És kiderült, hogy ez egy pszeudovéletlen-számgenerátor, ami a determisztikus káoszt használja.
+
+00:12:26.160 --> 00:12:32.160
+Ha van egy 4-bites szimbólumunk, akkor azt hozzáírjuk egy másikhoz az egyik oldalról.
+
+00:12:32.160 --> 00:12:34.160
+Így páros plusz páratlan: páratlan lesz.
+
+00:12:34.160 --> 00:12:36.160
+Páratlan plusz páros: páratlan lesz.
+
+00:12:36.160 --> 00:12:39.160
+Páros plusz páros: az páros. Páratlan plusz páratlan: az páros.
+
+00:12:39.160 --> 00:12:43.160
+Ez egy összeadás modulo 2, akárcsak a paritás-ellenőrzés a számítógépünkön.
+
+00:12:43.160 --> 00:12:47.160
+És vesszük az így kapott szimbólumot, és ezt tesszük vissza,
+
+00:12:47.160 --> 00:12:49.160
+és így önmagát generáló szimbólum-sorozatot kapunk.
+
+00:12:49.160 --> 00:12:53.160
+Valóban egyfajta deteminisztikus káoszt használnak ehhez.
+
+00:12:53.160 --> 00:12:55.160
+Nos, ez egy bináris kód,
+
+00:12:55.160 --> 00:12:57.160
+ezt akár meg is valósíthatjuk egy hardverben --
+
+00:12:57.160 --> 00:13:02.160
+ami egy fantasztikus oktatási segédeszköz lehetne egy afrikai mérnöki iskolában.
+
+00:13:02.160 --> 00:13:05.160
+De a legérdekesebb dolog, amit találtam ezzel kapcsolatban, az történelmi vonatkozású volt.
+
+00:13:05.160 --> 00:13:11.160
+A 13. században Santallai Hugó hozta Spanyolországba az iszlám misztikusoktól.
+
+00:13:11.160 --> 00:13:17.160
+És úgy került be az alkimisták közösségébe, mint geomancia:
+
+00:13:17.160 --> 00:13:19.160
+-- jövendőmondás földből.
+
+00:13:19.160 --> 00:13:24.160
+Ez ll. Richárd király geomancia-táblázata 1390-ből.
+
+00:13:24.160 --> 00:13:27.160
+Leibniz, a német matematikus
+
+00:13:27.160 --> 00:13:31.160
+foglalkozott a geomanciával a "De Combinatorica" című dolgozatában.
+
+00:13:31.160 --> 00:13:35.160
+És azt mondta: "Ahelyett, hogy egy vonást vagy két vonást használnánk,
+
+00:13:35.160 --> 00:13:39.160
+használjunk egyet vagy nullát, és vegyük a kettő ennek megfelelő hatványát."
+
+00:13:39.160 --> 00:13:41.160
+Rendben? Nullák és egyek -- a bináris kód.
+
+00:13:41.160 --> 00:13:44.160
+George Boole fogta Leibniz bináris kódját és megalkotta a Boole-algebrát,
+
+00:13:44.160 --> 00:13:47.160
+és Neumann János fogta a Boole-algebrát és megalkotta a számítógépet.
+
+00:13:47.160 --> 00:13:50.160
+Így hát mindezek a kis PDA-k és laptopok --
+
+00:13:50.160 --> 00:13:53.160
+a világ összes digitális áramköre -- Afrikából indult.
+
+00:13:53.160 --> 00:13:58.160
+Tudom, hogy Brian Eno azt állítja, hogy nincs elég Afrika a számítógépekben;
+
+00:13:58.160 --> 00:14:03.160
+én meg nem hiszem, hogy elegendő Afrika-történelem lenne Brian Eno fejében.
+
+00:14:03.160 --> 00:14:06.160
+(Taps)
+
+00:14:06.160 --> 00:14:10.160
+Befejezésül hagy mondjak néhány szót arról, hogy milyen alkalmazásokat találtunk erre.
+
+00:14:10.160 --> 00:14:12.160
+És ha felmennek a honlapunkra,
+
+00:14:12.160 --> 00:14:14.160
+az appletek ingyenesek, futnak a böngésző alatt.
+
+00:14:14.160 --> 00:14:16.160
+Bárki a világon használhatja őket.
+
+00:14:16.160 --> 00:14:21.160
+A National Science Foundation "Broadening Participation in Computing program"-jától
+
+00:14:21.160 --> 00:14:28.160
+mostanában nyertünk el egy ösztöndíjat, hogy elkészítsük ezeknek a tervezőeszközöknek a programozható változatát,
+
+00:14:28.160 --> 00:14:30.160
+így remélhetőleg három éven belül bárki felmehet a hálózatra
+
+00:14:30.160 --> 00:14:33.160
+és létrehozhatja saját szimulációját és műalkotását.
+
+00:14:33.160 --> 00:14:38.160
+Elsősorban az USA-ban tanuló afroamerikai diákokra, az indiánokra és a latin-amerikaiakra gondoltunk.
+
+00:14:38.160 --> 00:14:44.160
+Statisztikailag is kimutatható fejlődést értünk el a szoftverrel a gyerekek körében a matematika oktatásban,
+
+00:14:44.160 --> 00:14:47.160
+összehasonlítva egy kontrollcsoporttal, akik nem használták ezt a szoftvert.
+
+00:14:47.160 --> 00:14:53.160
+Így hát valóban nagyon sikeresek voltunk abban, hogy megtanítsuk a gyerekeknek, hogy matematikai örökségük is van,
+
+00:14:53.160 --> 00:14:57.160
+nem csupán zenei és táncos.
+
+00:14:57.160 --> 00:15:00.160
+Elkezdtünk egy kísérleti programot Ghánában,
+
+00:15:00.160 --> 00:15:05.160
+kaptunk egy kis kezdő támogatást annak a kiderítésére, hogy az ottaniak hajlandóak-e az együttműködésre,
+
+00:15:05.160 --> 00:15:08.160
+nagyon izgulunk a további lehetőségeket illetően.
+
+00:15:08.160 --> 00:15:10.160
+Dolgoztunk a designnal kapcsolatban is.
+
+00:15:10.160 --> 00:15:15.160
+Nem írtam fel ide a nevét -- a kollégám, Kerry, Kenyából jött a nagy ötlettel,
+
+00:15:15.160 --> 00:15:20.160
+hogy használjunk fraktál-struktúrát azoknak a falvaknak a postai címzésére, amelyek fraktál-struktúrájúak,
+
+00:15:20.160 --> 00:15:24.160
+mert ha rácsos postai rendszert használunk egy fraktál-faluban,
+
+00:15:24.160 --> 00:15:26.160
+az nem felel meg kellőképp a célnak.
+
+00:15:26.160 --> 00:15:31.160
+Bernard Tschumi a Columbia Egyetemről épp most fejezett be egy tervet az afrikai művészetek múzeuma számára ennek felhasználásával.
+
+00:15:31.160 --> 00:15:39.160
+David Hughes az Ohio Állami Egyetemről írt egy bevezető jellegű művet a fekete hagyományokra támaszkodó építészetről,
+
+00:15:39.160 --> 00:15:41.160
+amelyben felhasznált ezek közül a fraktálok közül néhányat.
+
+00:15:41.160 --> 00:15:46.160
+És végül, szeretnék emlékeztetni arra, hogy az önszerveződésnek a gondolata,
+
+00:15:46.160 --> 00:15:48.160
+ahogyan azt már korábban is hallottuk, a tudatunkban van.
+
+00:15:48.160 --> 00:15:53.160
+Benne van a Google keresőmotorjában.
+
+00:15:53.160 --> 00:15:55.160
+Valóban, hogy a Google ilyen sikeres, annak az az oka,
+
+00:15:55.160 --> 00:15:59.160
+hogy elsőként használta ki a háló önszerveződő tulajdonságát.
+
+00:15:59.160 --> 00:16:01.160
+Benne van az ekológiai fenntarthatóságban.
+
+00:16:01.160 --> 00:16:03.160
+Benne van a vállalkozás fejlődésre való képességében
+
+00:16:03.160 --> 00:16:05.160
+a demokrácia etikai erejében.
+
+00:16:06.160 --> 00:16:08.160
+Néhány rossz dologban is persze.
+
+00:16:08.160 --> 00:16:11.160
+Az önszerveződés az oka annak is, hogy az AIDS vírusa olyan gyorsan terjed.
+
+00:16:11.160 --> 00:16:15.160
+És ha nem vesszük észre, hogy a kapitalizmusnak, ami önszerveződő, lehetnek destruktív hatásai is,
+
+00:16:15.160 --> 00:16:17.160
+akkor nem járunk eléggé nyitott szemmel.
+
+00:16:17.160 --> 00:16:21.160
+El kell hát gondolkozzunk, ahogyan korábban is említettük,
+
+00:16:21.160 --> 00:16:23.160
+a hagyományos afrikai módszerek alkalmazásán az önszerveződés terén.
+
+00:16:23.160 --> 00:16:25.160
+Ezek nagyon hatékony algoritmusok.
+
+00:16:26.160 --> 00:16:29.160
+Ezek olyan módszerek az önszerveződésre -- a vállalkozások építésére --,
+
+00:16:29.160 --> 00:16:31.160
+amelyek békések, egyenlőségre törekvők.
+
+00:16:31.160 --> 00:16:35.160
+Ha tehát valami jobb utat akarunk találni az ilyen munkák végrehajtására,
+
+00:16:35.160 --> 00:16:40.160
+akkor nem kell messzebb menni, mint Afrika, hogy megtaláljuk ezeket a hatékony önszervező algoritmusokat.
+
+00:16:40.160 --> 00:16:41.160
+Köszönöm.
+

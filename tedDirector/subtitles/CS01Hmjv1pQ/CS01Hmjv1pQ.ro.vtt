@@ -1,0 +1,737 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Laszlo Kereszturi
+Corector: Magda Marcu
+
+00:00:15.260 --> 00:00:18.260
+Idea din spatele viermelui de calculatoare Stuxnet
+
+00:00:18.260 --> 00:00:20.260
+e de fapt destul de simplă.
+
+00:00:20.260 --> 00:00:23.260
+Nu vrem ca Iranul să aibă Bomba.
+
+00:00:23.260 --> 00:00:26.260
+Resursa lor principală pentru dezvoltarea armelor nucleare
+
+00:00:26.260 --> 00:00:30.260
+e instalația de îmbogățire a uraniului din Natanz.
+
+00:00:30.260 --> 00:00:32.260
+Cutiile gri pe care le vedeți
+
+00:00:32.260 --> 00:00:35.260
+sunt sisteme de control în timp real.
+
+00:00:35.260 --> 00:00:38.260
+Dacă reușim să compromitem aceste sisteme
+
+00:00:38.260 --> 00:00:41.260
+care controlează vitezele și supapele,
+
+00:00:41.260 --> 00:00:44.260
+putem de fapt produce o mulțime de probleme
+
+00:00:44.260 --> 00:00:46.260
+cu centrifuga.
+
+00:00:46.260 --> 00:00:48.260
+Cutiile gri nu rulează software Windows;
+
+00:00:48.260 --> 00:00:51.260
+ele sunt o tehnologie complet diferită.
+
+00:00:51.260 --> 00:00:53.260
+Dar dacă reușim
+
+00:00:53.260 --> 00:00:56.260
+să plasăm un virus Windows capabil
+
+00:00:56.260 --> 00:00:58.260
+pe un notebook
+
+00:00:58.260 --> 00:01:00.260
+care e utilizat de un inginer specialist
+
+00:01:00.260 --> 00:01:03.260
+ca să configureze această cutie gri,
+
+00:01:03.260 --> 00:01:05.260
+atunci suntem pe calea bună.
+
+00:01:05.260 --> 00:01:08.260
+Și acesta e scenariul din spatele lui Stuxnet.
+
+00:01:08.260 --> 00:01:13.260
+Deci pornim cu un virus Windows care injectează altele.
+
+00:01:13.260 --> 00:01:16.260
+Sarcina utilă trece în cutia gri,
+
+00:01:16.260 --> 00:01:18.260
+strică centrifuga,
+
+00:01:18.260 --> 00:01:20.260
+iar programul nuclear iranian e întârziat --
+
+00:01:20.260 --> 00:01:22.260
+misiune îndeplinită.
+
+00:01:22.260 --> 00:01:24.260
+E ușor, nu?
+
+00:01:24.260 --> 00:01:27.260
+Vreau să vă spun cum am aflat asta.
+
+00:01:27.260 --> 00:01:30.260
+În urmă cu șase luni când am început cercetarea Stuxnet,
+
+00:01:30.260 --> 00:01:33.260
+scopul lui era complet necunoscut.
+
+00:01:33.260 --> 00:01:35.260
+Singurul lucru cunoscut
+
+00:01:35.260 --> 00:01:38.260
+era partea Windows, foarte complexă, cea care injectează sarcina utilă,
+
+00:01:38.260 --> 00:01:41.260
+folosind multiple vulnerabilități nerezolvate.
+
+00:01:41.260 --> 00:01:44.260
+Și părea că vrea să facă ceva
+
+00:01:44.260 --> 00:01:46.260
+cu aceste cutii gri, aceste sisteme de control în timp real.
+
+00:01:46.260 --> 00:01:48.260
+Asta ne-a atras atenția,
+
+00:01:48.260 --> 00:01:50.260
+și am început un proiect de laborator
+
+00:01:50.260 --> 00:01:54.260
+unde am infectat mediul nostru cu Stuxnet
+
+00:01:54.260 --> 00:01:56.260
+și am verificat acest lucru.
+
+00:01:56.260 --> 00:01:59.260
+Și atunci s-a întâmplat ceva amuzant.
+
+00:01:59.260 --> 00:02:02.260
+Stuxnet s-a comportat ca un șoarece de laborator
+
+00:02:02.260 --> 00:02:05.260
+căruia nu-i place brânza noastră --
+
+00:02:05.260 --> 00:02:07.260
+a mirosit-o, dar n-a vrut s-o mănânce.
+
+00:02:07.260 --> 00:02:09.260
+Nu avea sens pentru mine.
+
+00:02:09.260 --> 00:02:12.260
+Și după ce am experimentat cu diferite arome de brânză,
+
+00:02:12.260 --> 00:02:16.260
+am înțeles: păi, asta-i un atac țintit.
+
+00:02:16.260 --> 00:02:18.260
+Este complet țintit.
+
+00:02:18.260 --> 00:02:20.260
+Virusul umblă activ după pradă
+
+00:02:20.260 --> 00:02:22.260
+pe cutia gri
+
+00:02:22.260 --> 00:02:25.260
+dacă o anumită configurație e găsită,
+
+00:02:25.260 --> 00:02:29.260
+și numai dacă programul pe care încearcă să-l infecteze
+
+00:02:29.260 --> 00:02:31.260
+chiar rulează pe acea țintă.
+
+00:02:31.260 --> 00:02:34.260
+Iar dacă nu, atunci Stuxnet e pasiv.
+
+00:02:34.260 --> 00:02:36.260
+Asta chiar mi-a atras atenția,
+
+00:02:36.260 --> 00:02:38.260
+și am început să lucrăm la asta
+
+00:02:38.260 --> 00:02:40.260
+aproape continuu,
+
+00:02:40.260 --> 00:02:43.260
+fiindcă m-am gândit că nu știm care e ținta.
+
+00:02:43.260 --> 00:02:45.260
+Ar putea fi de exemplu
+
+00:02:45.260 --> 00:02:47.260
+o centrală energetică din SUA,
+
+00:02:47.260 --> 00:02:49.260
+sau o uzină chimică din Germania.
+
+00:02:49.260 --> 00:02:52.260
+Așa că mai bine găsim repede care e ținta.
+
+00:02:52.260 --> 00:02:54.260
+Așa că am extras și am decompilat
+
+00:02:54.260 --> 00:02:56.260
+codul de atac,
+
+00:02:56.260 --> 00:02:59.260
+și am descoperit că e structurat în două bombe digitale --
+
+00:02:59.260 --> 00:03:02.260
+una mai mică și una mai mare.
+
+00:03:02.260 --> 00:03:06.260
+Și am mai văzut că sunt concepute foarte profesionist
+
+00:03:06.260 --> 00:03:10.260
+de către oameni care evident aveau informații din interior.
+
+00:03:10.260 --> 00:03:12.260
+Ei știau toți biții și octeții
+
+00:03:12.260 --> 00:03:14.260
+care trebuiau atacați.
+
+00:03:14.260 --> 00:03:17.260
+Probabil știau și ce mărime de pantof poartă operatorul.
+
+00:03:17.260 --> 00:03:19.260
+Deci știau totul.
+
+00:03:19.260 --> 00:03:22.260
+Și dacă auziți că partea de injectare din Stuxnet
+
+00:03:22.260 --> 00:03:24.260
+este complexă și tehnologie de vârf,
+
+00:03:24.260 --> 00:03:26.260
+vă spun doar atât:
+
+00:03:26.260 --> 00:03:28.260
+sarcina e știință extremă.
+
+00:03:28.260 --> 00:03:30.260
+E cu mult peste orice
+
+00:03:30.260 --> 00:03:33.260
+am văzut înainte.
+
+00:03:33.260 --> 00:03:36.260
+Aveți aici o mostră din acest cod de atac real.
+
+00:03:36.260 --> 00:03:38.260
+Vorbim despre
+
+00:03:38.260 --> 00:03:41.260
+aproximativ 15000 de linii de cod.
+
+00:03:41.260 --> 00:03:44.260
+Pare asemănător cu limbajul clasic de asamblare.
+
+00:03:44.260 --> 00:03:46.260
+Și vreau să vă spun cum am fost în stare
+
+00:03:46.260 --> 00:03:48.260
+să înțelegem acest cod.
+
+00:03:48.260 --> 00:03:51.260
+Ceea ce căutăm întâi sunt apelurile de funcții sistem,
+
+00:03:51.260 --> 00:03:53.260
+fiindcă știm ce fac ele.
+
+00:03:53.260 --> 00:03:57.260
+Iar apoi ne uităm după temporizări și structuri de date
+
+00:03:57.260 --> 00:03:59.260
+și încercăm să le legăm de lumea reală --
+
+00:03:59.260 --> 00:04:01.260
+de ținte potențiale din lumea reală.
+
+00:04:01.260 --> 00:04:04.260
+Deci avem nevoie de teorii despre ținte
+
+00:04:04.260 --> 00:04:07.260
+pe care le putem confirma sau infirma.
+
+00:04:07.260 --> 00:04:09.260
+Pentru a obține teorii despre ținte,
+
+00:04:09.260 --> 00:04:11.260
+ne aducem aminte
+
+00:04:11.260 --> 00:04:13.260
+că asta e clar sabotaj de vârf,
+
+00:04:13.260 --> 00:04:15.260
+deci trebuie să fie o țintă de valoare mare,
+
+00:04:15.260 --> 00:04:18.260
+și cel mai probabil e localizat în Iran,
+
+00:04:18.260 --> 00:04:22.260
+fiindcă de acolo au fost raportate cele mai multe infecții.
+
+00:04:22.260 --> 00:04:25.260
+În acea zonă nu găsești mii de ținte.
+
+00:04:25.260 --> 00:04:27.260
+De fapt se reduce
+
+00:04:27.260 --> 00:04:29.260
+la centrala nucleară Bushehr
+
+00:04:29.260 --> 00:04:31.260
+și la instalația de îmbogățirea a uraniului din Natanz.
+
+00:04:31.260 --> 00:04:33.260
+Așa că am spus asistentului meu:
+
+00:04:33.260 --> 00:04:36.260
+"Fă-mi rost de o listă a tuturor experților în centrifuge și centrale."
+
+00:04:36.260 --> 00:04:38.260
+Și i-am sunat pe toți și am profitat de creierul lor
+
+00:04:38.260 --> 00:04:40.260
+într-un efort de a potrivi experiența lor
+
+00:04:40.260 --> 00:04:43.260
+cu ce am găsit în cod și date.
+
+00:04:43.260 --> 00:04:45.260
+Și asta a mers destul de bine.
+
+00:04:45.260 --> 00:04:47.260
+Așa că am fost în stare să asociem
+
+00:04:47.260 --> 00:04:49.260
+micul focos digital
+
+00:04:49.260 --> 00:04:51.260
+cu controlul rotorului.
+
+00:04:51.260 --> 00:04:54.260
+Rotorul este partea mobilă din centrifugă,
+
+00:04:54.260 --> 00:04:56.260
+obiectul negru pe care-l vedeți.
+
+00:04:56.260 --> 00:04:59.260
+Și dacă manipulezi viteza acestui rotor,
+
+00:04:59.260 --> 00:05:01.260
+ești de fapt în stare să strici rotorul
+
+00:05:01.260 --> 00:05:05.260
+și centrifuga poate chiar să explodeze.
+
+00:05:05.260 --> 00:05:07.260
+Ceea ce am mai văzut
+
+00:05:07.260 --> 00:05:09.260
+e că scopul atacului
+
+00:05:09.260 --> 00:05:12.260
+era s-o facă încet și înfiorător --
+
+00:05:12.260 --> 00:05:14.260
+într-un evident efort
+
+00:05:14.260 --> 00:05:17.260
+de a înnebuni inginerii de întreținere,
+
+00:05:17.260 --> 00:05:20.260
+astfel încât să nu-și dea seama repede.
+
+00:05:20.260 --> 00:05:23.260
+Marele focos digital -- am încercat și cu asta
+
+00:05:23.260 --> 00:05:25.260
+prin examinarea detaliată
+
+00:05:25.260 --> 00:05:27.260
+a datelor și a structurilor de date.
+
+00:05:27.260 --> 00:05:29.260
+De exemplu, numărul 164
+
+00:05:29.260 --> 00:05:31.260
+iese în evidență în acel cod,
+
+00:05:31.260 --> 00:05:33.260
+nu poți s-o treci cu vederea.
+
+00:05:33.260 --> 00:05:35.260
+Am început să cercetez literatura științifică
+
+00:05:35.260 --> 00:05:37.260
+despre cum au fost centrifugele
+
+00:05:37.260 --> 00:05:39.260
+construite de fapt în Natanz
+
+00:05:39.260 --> 00:05:41.260
+și am găsit că sunt grupate
+
+00:05:41.260 --> 00:05:43.260
+în ceea ce se numește o cascadă,
+
+00:05:43.260 --> 00:05:47.260
+și că fiecare cascadă conține 164 de centrifuge.
+
+00:05:47.260 --> 00:05:49.260
+Așa că a avut sens, a fost o potrivire.
+
+00:05:49.260 --> 00:05:51.260
+Și a devenit chiar mai bun.
+
+00:05:51.260 --> 00:05:53.260
+Aceste centrifuge din Iran
+
+00:05:53.260 --> 00:05:57.260
+sunt subdivizate în 15 faze.
+
+00:05:57.260 --> 00:05:59.260
+Și ghiciți ce am găsit în codul de atac?
+
+00:05:59.260 --> 00:06:01.260
+O structură aproape identică.
+
+00:06:01.260 --> 00:06:04.260
+Deci din nou, asta a fost o potrivire foarte bună.
+
+00:06:04.260 --> 00:06:07.260
+Și asta ne-a dat foarte multă încredere cu privire la rezultate.
+
+00:06:07.260 --> 00:06:10.260
+Să nu mă înțelegeți greșit, nu a mers chiar așa simplu.
+
+00:06:10.260 --> 00:06:13.260
+Aceste rezultate au fost obținute
+
+00:06:13.260 --> 00:06:16.260
+în multe săptămâni de muncă grea.
+
+00:06:16.260 --> 00:06:19.260
+Și adesea am ajuns într-o fundătură
+
+00:06:19.260 --> 00:06:21.260
+și a trebuit s-o luăm de la capăt.
+
+00:06:21.260 --> 00:06:23.260
+Oricum, am descifrat
+
+00:06:23.260 --> 00:06:25.260
+că ambele focoase digitale
+
+00:06:25.260 --> 00:06:27.260
+ținteau de fapt aceeași țintă,
+
+00:06:27.260 --> 00:06:29.260
+dar din unghiuri diferite.
+
+00:06:29.260 --> 00:06:32.260
+Focosul mic lua o cascadă,
+
+00:06:32.260 --> 00:06:35.260
+și învârtea rotoarele mai repede, apoi mai încet,
+
+00:06:35.260 --> 00:06:37.260
+iar focosul mare
+
+00:06:37.260 --> 00:06:39.260
+comanda șase cascade
+
+00:06:39.260 --> 00:06:41.260
+și manipula supapele.
+
+00:06:41.260 --> 00:06:43.260
+Deci în final, suntem foarte siguri
+
+00:06:43.260 --> 00:06:45.260
+că am determinat care era ținta reală.
+
+00:06:45.260 --> 00:06:48.260
+E Natanz și numai Natanz.
+
+00:06:48.260 --> 00:06:50.260
+Deci nu trebuie să ne îngrijorăm
+
+00:06:50.260 --> 00:06:52.260
+că alte ținte
+
+00:06:52.260 --> 00:06:54.260
+ar putea fi lovite de Stuxnet.
+
+00:06:54.260 --> 00:06:57.260
+Iată aici niște lucruri grozave pe care le-am văzut --
+
+00:06:57.260 --> 00:06:59.260
+chiar m-au impresionat.
+
+00:06:59.260 --> 00:07:01.260
+Acolo jos este cutia gri,
+
+00:07:01.260 --> 00:07:04.260
+și sus vedeți centrifugele.
+
+00:07:04.260 --> 00:07:06.260
+Acest lucru interceptează
+
+00:07:06.260 --> 00:07:09.260
+valorile de intrare de la senzori --
+
+00:07:09.260 --> 00:07:11.260
+de exemplu senzorul de presiune
+
+00:07:11.260 --> 00:07:13.260
+și de vibrații --
+
+00:07:13.260 --> 00:07:16.260
+și furnizează codului legitim,
+
+00:07:16.260 --> 00:07:18.260
+care rulează încă în timpul atacului,
+
+00:07:18.260 --> 00:07:20.260
+date de intrare false.
+
+00:07:20.260 --> 00:07:22.260
+Și de fapt aceste date de intrare false
+
+00:07:22.260 --> 00:07:25.260
+sunt preînregistrate de Stuxnet.
+
+00:07:25.260 --> 00:07:27.260
+Deci e exact ca în filmele hollywoodiene
+
+00:07:27.260 --> 00:07:29.260
+unde în timpul unui jaf,
+
+00:07:29.260 --> 00:07:32.260
+camera de supraveghere e alimentată cu o secvență video preînregistrată.
+
+00:07:32.260 --> 00:07:34.260
+Grozav, nu?
+
+00:07:35.260 --> 00:07:37.260
+Evident, ideea e nu numai
+
+00:07:37.260 --> 00:07:40.260
+de a păcăli operatorii din camera de control.
+
+00:07:40.260 --> 00:07:44.260
+E de fapt mult mai periculoasă și agresivă.
+
+00:07:44.260 --> 00:07:46.260
+Ideea e de a
+
+00:07:46.260 --> 00:07:49.260
+ocoli un sistem de siguranță digital.
+
+00:07:50.260 --> 00:07:52.260
+Avem nevoie de sisteme de siguranță digitale
+
+00:07:52.260 --> 00:07:55.260
+acolo unde operatorul uman nu poate acționa suficient de repede.
+
+00:07:55.260 --> 00:07:57.260
+De exemplu, într-o centrală de energie,
+
+00:07:57.260 --> 00:08:00.260
+când turbinele cu aburi se rotesc prea repede,
+
+00:08:00.260 --> 00:08:03.260
+trebuie să deschizi supapele de descărcare într-o milisecundă.
+
+00:08:03.260 --> 00:08:06.260
+Evident, asta nu poate fi făcut de un operator uman.
+
+00:08:06.260 --> 00:08:08.260
+Deci aici avem nevoie de sisteme de siguranță digitale.
+
+00:08:08.260 --> 00:08:10.260
+Și când ele sunt compromise,
+
+00:08:10.260 --> 00:08:13.260
+se pot întâmpla lucruri foarte rele.
+
+00:08:13.260 --> 00:08:15.260
+Instalația poate exploda.
+
+00:08:15.260 --> 00:08:18.260
+Și nici operatorul, nici sistemul de siguranță nu va observa.
+
+00:08:18.260 --> 00:08:20.260
+Asta e înspăimântător.
+
+00:08:20.260 --> 00:08:22.260
+Dar devine și mai rău.
+
+00:08:22.260 --> 00:08:25.260
+Și ce voi spune acum e foarte important.
+
+00:08:25.260 --> 00:08:27.260
+Gândiți-vă la asta.
+
+00:08:27.260 --> 00:08:30.260
+Acest atac e generic.
+
+00:08:30.260 --> 00:08:34.260
+Nu are de a face, în caracteristici,
+
+00:08:34.260 --> 00:08:36.260
+cu centrifugele,
+
+00:08:36.260 --> 00:08:39.260
+cu îmbogățirea uraniului.
+
+00:08:39.260 --> 00:08:42.260
+Deci ar funcționa la fel de bine,
+
+00:08:42.260 --> 00:08:44.260
+de exemplu într-o centrală energetică
+
+00:08:44.260 --> 00:08:47.260
+sau într-o fabrică de mașini.
+
+00:08:47.260 --> 00:08:49.260
+E generic.
+
+00:08:49.260 --> 00:08:51.260
+Și nu trebuie -- ca și atacator --
+
+00:08:51.260 --> 00:08:54.260
+nu trebuie să livrezi această sarcină
+
+00:08:54.260 --> 00:08:56.260
+printr-un stick USB,
+
+00:08:56.260 --> 00:08:58.260
+așa cum am văzut în cazul Stuxnet.
+
+00:08:58.260 --> 00:09:01.260
+Poți utiliza pentru răspândire tehnologie convențională de vierme.
+
+00:09:01.260 --> 00:09:04.260
+Doar răspândește-l cît mai larg posibil.
+
+00:09:04.260 --> 00:09:06.260
+Și dacă faci asta,
+
+00:09:06.260 --> 00:09:08.260
+ceea ce vei obține
+
+00:09:08.260 --> 00:09:13.260
+e o ciber-armă de distrugere în masă.
+
+00:09:14.260 --> 00:09:16.260
+Aceasta e consecința
+
+00:09:16.260 --> 00:09:19.260
+cu care trebuie să ne înfruntăm.
+
+00:09:19.260 --> 00:09:22.260
+Deci din păcate,
+
+00:09:22.260 --> 00:09:25.260
+cel mai mare număr de ținte pentru asemenea atacuri
+
+00:09:25.260 --> 00:09:27.260
+nu sunt în Orientul de Mijloc.
+
+00:09:27.260 --> 00:09:30.260
+Ele sunt in SUA, Europa și Japonia.
+
+00:09:30.260 --> 00:09:32.260
+Toate zonele verzi
+
+00:09:32.260 --> 00:09:35.260
+sunt mediile bogate în ținte.
+
+00:09:35.260 --> 00:09:38.260
+Trebuie să înfruntăm consecințele,
+
+00:09:38.260 --> 00:09:41.260
+și ar fi bine să începem să ne pregătim chiar acum.
+
+00:09:41.260 --> 00:09:43.260
+Mulțumesc.
+
+00:09:43.260 --> 00:09:49.260
+(Aplauze)
+
+00:09:49.260 --> 00:09:51.260
+Chris Anderson: Am o întrebare.
+
+00:09:53.260 --> 00:09:55.260
+Ralph, e destul de larg răspândită știrea
+
+00:09:55.260 --> 00:09:57.260
+că oamenii presupun că Mossad
+
+00:09:57.260 --> 00:09:59.260
+e principala entitate din spatele acestui caz.
+
+00:09:59.260 --> 00:10:02.260
+E asta și opinia ta?
+
+00:10:02.260 --> 00:10:04.260
+Ralph Langner: În regulă, chiar vrei să auzi asta?
+
+00:10:04.260 --> 00:10:06.260
+Da. În regulă.
+
+00:10:06.260 --> 00:10:09.260
+Opinia mea este că Mossad este implicat,
+
+00:10:09.260 --> 00:10:12.260
+dar forța conducătoare nu e Israel.
+
+00:10:12.260 --> 00:10:14.260
+Forța conducătoare din spatele acestui caz
+
+00:10:14.260 --> 00:10:17.260
+este ciber-superputerea.
+
+00:10:17.260 --> 00:10:19.260
+Există doar una singură,
+
+00:10:19.260 --> 00:10:21.260
+și asta e SUA --
+
+00:10:21.260 --> 00:10:23.260
+din fericire, din fericire.
+
+00:10:23.260 --> 00:10:25.260
+Fiindcă altfel,
+
+00:10:25.260 --> 00:10:28.260
+problemele noastre ar fi și mai mari.
+
+00:10:28.260 --> 00:10:32.260
+CA: Mulțumesc că ne-ai speriat de moarte. Mulțumesc Ralph.
+
+00:10:32.260 --> 00:10:34.260
+(Aplauze)
+

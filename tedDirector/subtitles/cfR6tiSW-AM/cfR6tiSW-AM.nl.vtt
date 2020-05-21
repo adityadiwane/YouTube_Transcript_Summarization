@@ -1,0 +1,1136 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+00:00:00.000 --> 00:00:07.000
+Vertaald door: Rik Delaet
+Nagekeken door: Christel Foncke
+
+00:00:15.260 --> 00:00:18.260
+De eerste robot waarover we het gaan hebben heet STriDER.
+
+00:00:18.260 --> 00:00:20.260
+Dat staat voor Self-exited
+
+00:00:20.260 --> 00:00:22.260
+Tripedal Dynamic Experimental Robot.
+
+00:00:22.260 --> 00:00:24.260
+Het is een robot met 3 poten,
+
+00:00:24.260 --> 00:00:27.260
+geïnspireerd op de natuur.
+
+00:00:27.260 --> 00:00:29.260
+Maar heb je ooit in de natuur
+
+00:00:29.260 --> 00:00:31.260
+een dier gezien dat drie poten heeft?
+
+00:00:31.260 --> 00:00:33.260
+Waarschijnlijk niet. Waarom noem ik dit
+
+00:00:33.260 --> 00:00:35.260
+een biologisch geïnspireerde robot? Hoe zou dat werken?
+
+00:00:35.260 --> 00:00:38.260
+Maar laten we eerst eens naar de popcultuur kijken.
+
+00:00:38.260 --> 00:00:41.260
+Jullie kennen vast H.G. Wells' boek 'War of the Worlds' en de daarop gebaseerde film.
+
+00:00:41.260 --> 00:00:43.260
+Wat je hier ziet, is een erg populair
+
+00:00:43.260 --> 00:00:45.260
+videospel.
+
+00:00:45.260 --> 00:00:48.260
+Hier worden die buitenaardse wezens beschreven
+
+00:00:48.260 --> 00:00:50.260
+als robots met drie poten die de aarde terroriseren.
+
+00:00:50.260 --> 00:00:54.260
+Maar mijn robot, STriDER, beweegt niet zo.
+
+00:00:54.260 --> 00:00:57.260
+Dit is een actuele dynamische simulatie-animatie.
+
+00:00:57.260 --> 00:00:59.260
+Ik zal laten zien hoe de robot werkt.
+
+00:00:59.260 --> 00:01:02.260
+Hij zwiert zijn lijf 180 graden om en zwaait
+
+00:01:02.260 --> 00:01:05.260
+een poot tussen de twee andere poten door om zijn val te breken.
+
+00:01:05.260 --> 00:01:07.260
+Zo loopt hij. Maar als je naar ons
+
+00:01:07.260 --> 00:01:09.260
+menselijk tweebenig lopen kijkt,
+
+00:01:09.260 --> 00:01:11.260
+zie je dat je geen spieren gebruikt
+
+00:01:11.260 --> 00:01:14.260
+om je been op te tillen en als een robot te lopen.
+
+00:01:14.260 --> 00:01:17.260
+Wat je doet is je been uitzwaaien om niet te vallen,
+
+00:01:17.260 --> 00:01:20.260
+overeind komen en weer je been uitzwaaien om niet te vallen.
+
+00:01:20.260 --> 00:01:23.260
+Je gebruikt je ingebouwde dynamiek, de fysica van je lichaam,
+
+00:01:23.260 --> 00:01:25.260
+net als een slinger.
+
+00:01:25.260 --> 00:01:29.260
+We noemen dat het concept van passief-dynamische voortbeweging.
+
+00:01:29.260 --> 00:01:31.260
+Bij elke uitzwaai van je been wordt
+
+00:01:31.260 --> 00:01:33.260
+potentiële energie omgezet naar kinetische energie,
+
+00:01:33.260 --> 00:01:35.260
+potentiële energie naar kinetische energie.
+
+00:01:35.260 --> 00:01:37.260
+Het is een continu valproces.
+
+00:01:37.260 --> 00:01:40.260
+Zelfs zonder voorbeeld uit de natuur dat er zo uitziet,
+
+00:01:40.260 --> 00:01:42.260
+waren we geinspireerd door de biologie
+
+00:01:42.260 --> 00:01:44.260
+en hebben we de principes van het lopen toegepast
+
+00:01:44.260 --> 00:01:47.260
+op deze robot, daarom is het een biologisch geïnspireerde robot.
+
+00:01:47.260 --> 00:01:49.260
+Wat je hier ziet, is wat we hierna willen gaan doen.
+
+00:01:49.260 --> 00:01:53.260
+We willen de poten opvouwen en hem de lucht inschieten voor grotere afstanden.
+
+00:01:53.260 --> 00:01:56.260
+Hij vouwt zijn poten uit, je zou zeggen Star Wars.
+
+00:01:56.260 --> 00:01:59.260
+Als hij landt, absorbeert hij de schok en begint te lopen.
+
+00:01:59.260 --> 00:02:02.260
+Dit gele ding hier is geen dodelijke straal.
+
+00:02:02.260 --> 00:02:04.260
+Dit laat zien dat dat hij met camera's
+
+00:02:04.260 --> 00:02:06.260
+of verschillende soorten sensors
+
+00:02:06.260 --> 00:02:08.260
+door zijn grootte van 1,8 meter
+
+00:02:08.260 --> 00:02:11.260
+over obstakels zoals struiken en dergelijke heen kan kijken.
+
+00:02:11.260 --> 00:02:13.260
+We hebben dus twee prototypes.
+
+00:02:13.260 --> 00:02:16.260
+De eerste versie, achterin, dat is STriDER I.
+
+00:02:16.260 --> 00:02:18.260
+De kleinere op de voorgrond is STriDER II.
+
+00:02:18.260 --> 00:02:20.260
+Het probleem met STriDER I was
+
+00:02:20.260 --> 00:02:23.260
+dat het lijf te zwaar was. We hadden teveel motoren
+
+00:02:23.260 --> 00:02:25.260
+om de gewrichten uit te lijnen en dergelijke.
+
+00:02:25.260 --> 00:02:29.260
+We besloten een mechanisme te maken
+
+00:02:29.260 --> 00:02:32.260
+zodat alle motoren konden worden vervangen door een enkele motor
+
+00:02:32.260 --> 00:02:34.260
+om alle bewegingen te coördineren.
+
+00:02:34.260 --> 00:02:37.260
+Het is een mechanische oplossing voor een probleem in plaats van door mechatronica.
+
+00:02:37.260 --> 00:02:40.260
+Hierdoor werd het lijf licht genoeg. Hier zie je hem in het lab rondlopen.
+
+00:02:40.260 --> 00:02:43.260
+Dit was de allereerste succesvolle stap.
+
+00:02:43.260 --> 00:02:45.260
+Het is nog niet perfect. Hij morst de koffie,
+
+00:02:45.260 --> 00:02:48.260
+het werk is nog niet af.
+
+00:02:48.260 --> 00:02:51.260
+De tweede robot waar ik over wil praten heet IMPASS.
+
+00:02:51.260 --> 00:02:55.260
+Dat staat voor Intelligent Mobility Platform met Actuated Spoke System.
+
+00:02:55.260 --> 00:02:58.260
+Het is dus een wiel-poot-hybride robot.
+
+00:02:58.260 --> 00:03:00.260
+Denk aan een wiel zonder velg
+
+00:03:00.260 --> 00:03:02.260
+of een spaakwiel.
+
+00:03:02.260 --> 00:03:05.260
+Maar de spaken bewegen individueel in en uit de as.
+
+00:03:05.260 --> 00:03:07.260
+Daarom is het een wiel-poot-hybride.
+
+00:03:07.260 --> 00:03:09.260
+We vinden hier letterlijk opnieuw het wiel uit.
+
+00:03:09.260 --> 00:03:12.260
+Laat me demonstreren hoe het werkt.
+
+00:03:12.260 --> 00:03:14.260
+In deze video gebruiken we een benadering
+
+00:03:14.260 --> 00:03:16.260
+die de reactieve benadering heet.
+
+00:03:16.260 --> 00:03:19.260
+Door tactiele sensoren op de poten te gebruiken
+
+00:03:19.260 --> 00:03:21.260
+probeert hij over een veranderend terrein te lopen,
+
+00:03:21.260 --> 00:03:24.260
+een zacht terrein waarop hij druk uitoefent en zich aanpast.
+
+00:03:24.260 --> 00:03:26.260
+Enkel door de tactiele informatie
+
+00:03:26.260 --> 00:03:29.260
+beweegt hij met succes over deze soorten terrein.
+
+00:03:29.260 --> 00:03:33.260
+Maar als hij een erg extreem soort terrein tegenkomt,
+
+00:03:33.260 --> 00:03:36.260
+in dit geval is het obstakel meer dan drie keer
+
+00:03:36.260 --> 00:03:38.260
+de hoogte van de robot,
+
+00:03:38.260 --> 00:03:40.260
+dan schakelt hij naar een doelbewuste stand
+
+00:03:40.260 --> 00:03:42.260
+waarbij hij een laser-afstandsmeter en
+
+00:03:42.260 --> 00:03:44.260
+camerasystemen gebruikt om het obstakel en de grootte ervan
+
+00:03:44.260 --> 00:03:47.260
+vast te stellen, hij plant behoedzaam de beweging van de spaken
+
+00:03:47.260 --> 00:03:49.260
+en coördineert ze, zodat hij
+
+00:03:49.260 --> 00:03:51.260
+deze zeer indrukwekkende mobiliteit kan laten zien.
+
+00:03:51.260 --> 00:03:53.260
+Waarschijnlijk heb je nog nergens iets dergelijks gezien.
+
+00:03:53.260 --> 00:03:56.260
+Dit is een zeer mobiele robot die
+
+00:03:56.260 --> 00:03:59.260
+we hebben ontwikkeld, IMPASS genaamd.
+
+00:03:59.260 --> 00:04:01.260
+Is hij niet cool?
+
+00:04:01.260 --> 00:04:04.260
+Als je autorijdt, je auto bestuurt,
+
+00:04:04.260 --> 00:04:06.260
+gebruik je een methode die
+
+00:04:06.260 --> 00:04:08.260
+Ackermann-sturing heet.
+
+00:04:08.260 --> 00:04:10.260
+De voorwielen draaien zo.
+
+00:04:10.260 --> 00:04:13.260
+Voor de meeste kleine robots met wielen
+
+00:04:13.260 --> 00:04:15.260
+wordt differentieelbesturing gebruikt
+
+00:04:15.260 --> 00:04:18.260
+waarbij het linkerwiel tegengesteld draait aan het rechterwiel.
+
+00:04:18.260 --> 00:04:21.260
+Voor IMPASS kunnen we veel verschillende types beweging toepassen.
+
+00:04:21.260 --> 00:04:24.260
+Bijvoorbeeld hier, zelfs als het linkerwiel en het rechterwiel door een enkele as
+
+00:04:24.260 --> 00:04:26.260
+met dezelfde hoeksnelheid zijn verbonden.
+
+00:04:26.260 --> 00:04:29.260
+We veranderen simpelweg de lengte van de spaken.
+
+00:04:29.260 --> 00:04:31.260
+Dat verandert de diameter en zo draait hij naar links of rechts.
+
+00:04:31.260 --> 00:04:33.260
+Dit zijn enkele voorbeelden van de mooie dingen
+
+00:04:33.260 --> 00:04:36.260
+die we met IMPASS kunnen doen.
+
+00:04:36.260 --> 00:04:38.260
+Deze robot heet CLIMBeR,
+
+00:04:38.260 --> 00:04:41.260
+Cable-suspended Limbed Intelligent Matching Behavior Robot.
+
+00:04:41.260 --> 00:04:44.260
+Ik heb veel NASA JPL-wetenschappers gesproken,
+
+00:04:44.260 --> 00:04:46.260
+bij JPL zijn ze bekend om hun Mars-rovers.
+
+00:04:46.260 --> 00:04:48.260
+De wetenschappers en geologen vertellen me altijd
+
+00:04:48.260 --> 00:04:51.260
+dat de interessantste plekken voor de wetenschap
+
+00:04:51.260 --> 00:04:54.260
+altijd bij de kliffen liggen.
+
+00:04:54.260 --> 00:04:56.260
+Maar de huidige rovers kunnen daar niet komen.
+
+00:04:56.260 --> 00:04:58.260
+Daardoor geïnspireerd wilden we een robot maken
+
+00:04:58.260 --> 00:05:01.260
+die een klif met allerlei structuren kan beklimmen.
+
+00:05:01.260 --> 00:05:03.260
+Dit is CLIMBeR.
+
+00:05:03.260 --> 00:05:05.260
+Hij heeft drie poten. Misschien moeilijk te zien,
+
+00:05:05.260 --> 00:05:08.260
+maar bovenin zit een lier en een kabel.
+
+00:05:08.260 --> 00:05:10.260
+Hij bekijkt wat de beste plek is om zijn poten neer te zetten.
+
+00:05:10.260 --> 00:05:12.260
+Als hij dat heeft uitgevist,
+
+00:05:12.260 --> 00:05:15.260
+berekent hij in realtime de krachtverdeling
+
+00:05:15.260 --> 00:05:18.260
+en hoeveel kracht hij op het oppervlak moet uitoefenen
+
+00:05:18.260 --> 00:05:20.260
+om niet om te vallen of uit te glijden.
+
+00:05:20.260 --> 00:05:22.260
+Zodra hij stabiel is, tilt hij een poot op
+
+00:05:22.260 --> 00:05:26.260
+en dan kan hij met de lier naar boven klimmen.
+
+00:05:26.260 --> 00:05:28.260
+Ook geschikt voor reddingsoperaties.
+
+00:05:28.260 --> 00:05:30.260
+Vijf jaar geleden werkte ik gedurende de zomer
+
+00:05:30.260 --> 00:05:32.260
+bij NASA JPL als faculteitscollega.
+
+00:05:32.260 --> 00:05:36.260
+Ze hadden al een robot met zes poten, LEMUR.
+
+00:05:36.260 --> 00:05:39.260
+Deze robot is daarop gebaseerd en heet MARS,
+
+00:05:39.260 --> 00:05:42.260
+Multi-Appendage Robotic System. Het is een zespotige robot.
+
+00:05:42.260 --> 00:05:44.260
+We ontwikkelden onze adaptieve-loop-planner.
+
+00:05:44.260 --> 00:05:46.260
+Daar zit zelfs een interessant vrachtje op.
+
+00:05:46.260 --> 00:05:48.260
+De studenten houden van een geintje. Hier kun je zien dat
+
+00:05:48.260 --> 00:05:51.260
+hij over ongestructureerd terrein loopt.
+
+00:05:51.260 --> 00:05:53.260
+Hij probeert op het ruwe terrein
+
+00:05:53.260 --> 00:05:55.260
+in het zanderige gebied te lopen.
+
+00:05:55.260 --> 00:06:00.260
+Afhankelijk van het vochtgehalte of de zandkorrelgrootte
+
+00:06:00.260 --> 00:06:02.260
+verandert de manier waarop de poot in de grond zakt.
+
+00:06:02.260 --> 00:06:06.260
+Hij probeert zijn gang aan te passen om er goed overheen te komen.
+
+00:06:06.260 --> 00:06:08.260
+Hij kan ook wat leuke dingen doen zoals je je kunt voorstellen.
+
+00:06:08.260 --> 00:06:11.260
+We krijgen zoveel bezoekers in ons laboratorium.
+
+00:06:11.260 --> 00:06:13.260
+MARS gaat dan naar de computer en
+
+00:06:13.260 --> 00:06:15.260
+typt "Hallo, mijn naam is MARS.
+
+00:06:15.260 --> 00:06:17.260
+Welkom bij RoMeLa,
+
+00:06:17.260 --> 00:06:21.260
+het Robotics Mechanisms Laboratory van Virginia Tech."
+
+00:06:21.260 --> 00:06:23.260
+Deze robot is een amoebe-robot.
+
+00:06:23.260 --> 00:06:26.260
+We hebben niet genoeg tijd voor de technische details,
+
+00:06:26.260 --> 00:06:28.260
+maar ik zal je wat experimenten laten zien.
+
+00:06:28.260 --> 00:06:30.260
+Dit is een van de vroege onderzoeken over wat hij kan.
+
+00:06:30.260 --> 00:06:34.260
+Potentiële energie wordt opgeslagen in de elastische huid om hem te laten bewegen.
+
+00:06:34.260 --> 00:06:36.260
+Ofwel gebruikt hij actieve spanningssnoeren om vooruit
+
+00:06:36.260 --> 00:06:39.260
+en achteruit te bewegen. Het ding heet ChIMERA.
+
+00:06:39.260 --> 00:06:41.260
+Ook hebben we met een aantal wetenschappers
+
+00:06:41.260 --> 00:06:43.260
+en ingenieurs van de universiteit van Pennsylvania
+
+00:06:43.260 --> 00:06:45.260
+samengewerkt om een chemisch aangedreven versie
+
+00:06:45.260 --> 00:06:47.260
+van deze amoebe-robot te ontwikkelen.
+
+00:06:47.260 --> 00:06:49.260
+We doen ergens iets aan
+
+00:06:49.260 --> 00:06:55.260
+en hij beweegt als bij toverslag. De blob.
+
+00:06:55.260 --> 00:06:57.260
+Deze robot is een heel recent project, RAPHaEL.
+
+00:06:57.260 --> 00:07:00.260
+Robotic Air Powered Hand with Elastic Ligaments.
+
+00:07:00.260 --> 00:07:04.260
+Er zijn veel echt mooie en erg goede robothanden op de markt.
+
+00:07:04.260 --> 00:07:08.260
+Het probleem is dat ze veel te duur zijn, tienduizenden dollars.
+
+00:07:08.260 --> 00:07:10.260
+Waarschijnlijk niet geschikt voor prothese-toepassingen
+
+00:07:10.260 --> 00:07:12.260
+wegens te duur.
+
+00:07:12.260 --> 00:07:16.260
+We wilden dit probleem heel anders aanpakken.
+
+00:07:16.260 --> 00:07:19.260
+In plaats van elektrische motoren en elektromechanische actuatoren,
+
+00:07:19.260 --> 00:07:21.260
+gebruiken we perslucht.
+
+00:07:21.260 --> 00:07:23.260
+We ontwikkelden deze nieuwe actuatoren voor gewrichten.
+
+00:07:23.260 --> 00:07:26.260
+Ze passen zich aan. Je verandert de kracht
+
+00:07:26.260 --> 00:07:28.260
+simpelweg door middel van de luchtdruk.
+
+00:07:28.260 --> 00:07:30.260
+Hij kan zelfs een leeg blikje frisdrank samenpletten.
+
+00:07:30.260 --> 00:07:33.260
+Maar hij kan ook zeer delicate objecten zoals een rauw ei oppakken
+
+00:07:33.260 --> 00:07:36.260
+of, in dit geval, een gloeilamp.
+
+00:07:36.260 --> 00:07:40.260
+Maar het kostte slechts 200 dollar om het eerste prototype te maken.
+
+00:07:40.260 --> 00:07:43.260
+Deze robot behoort eigenlijk tot een familie van slangrobots
+
+00:07:43.260 --> 00:07:45.260
+die wij HyDRAS noemen,
+
+00:07:45.260 --> 00:07:47.260
+Hyper Degrees-of-freedom Robotic Articulated Serpentine.
+
+00:07:47.260 --> 00:07:50.260
+Hij kan allerlei structuren beklimmen.
+
+00:07:50.260 --> 00:07:52.260
+Dit is de arm van een HyDRAS.
+
+00:07:52.260 --> 00:07:54.260
+Het is een robotarm met 12 graden van vrijheid.
+
+00:07:54.260 --> 00:07:56.260
+Maar het coole deel is de gebruikersinterface.
+
+00:07:56.260 --> 00:07:59.260
+Die kabel daar is een optische vezel.
+
+00:07:59.260 --> 00:08:01.260
+Deze studente, die hem waarschijnlijk voor de eerste keer gebruikt,
+
+00:08:01.260 --> 00:08:03.260
+kan hem op veel verschillende manieren laten draaien.
+
+00:08:03.260 --> 00:08:06.260
+In Irak, in het oorlogsgebied
+
+00:08:06.260 --> 00:08:08.260
+zijn er bermbommen. Nu stuurt men deze gewapende,
+
+00:08:08.260 --> 00:08:11.260
+op afstand bediende voertuigen er op af.
+
+00:08:11.260 --> 00:08:13.260
+Het kost heel veel tijd en het is duur
+
+00:08:13.260 --> 00:08:17.260
+om de operator deze complexe arm te leren bedienen.
+
+00:08:17.260 --> 00:08:19.260
+In dit geval is het zeer intuïtief.
+
+00:08:19.260 --> 00:08:23.260
+Deze student doet er erg complexe manipulaties mee, al is het waarschijnlijk de eerste keer dat hij hem gebruikt.
+
+00:08:23.260 --> 00:08:25.260
+Het oppakken en manipuleren van objecten
+
+00:08:25.260 --> 00:08:28.260
+verloopt zeer vlot. Zeer intuïtief.
+
+00:08:30.260 --> 00:08:32.260
+Deze robot is onze sterrobot.
+
+00:08:32.260 --> 00:08:35.260
+Deze DARwIn, Dynamic Anthropomorphic Robot with Intelligence,
+
+00:08:35.260 --> 00:08:38.260
+heeft zijn eigen fanclub.
+
+00:08:38.260 --> 00:08:40.260
+Wij zijn zeer geïnteresseerd in humanoïde robots,
+
+00:08:40.260 --> 00:08:42.260
+die kunnen lopen als een mens.
+
+00:08:42.260 --> 00:08:44.260
+We besloten om een ​kleine humanoïde robot te bouwen.
+
+00:08:44.260 --> 00:08:46.260
+Dat was in 2004.
+
+00:08:46.260 --> 00:08:48.260
+Toen nog iets heel revolutionairs.
+
+00:08:48.260 --> 00:08:50.260
+Het was meer een haalbaarheidsstudie:
+
+00:08:50.260 --> 00:08:52.260
+wat voor soort motoren moeten we gebruiken?
+
+00:08:52.260 --> 00:08:54.260
+Is het zelfs mogelijk? Welke controles moeten we doen?
+
+00:08:54.260 --> 00:08:56.260
+Deze heeft zelfs geen sensoren.
+
+00:08:56.260 --> 00:08:58.260
+Het is een open-luscontrole.
+
+00:08:58.260 --> 00:09:00.260
+Zonder sensors
+
+00:09:00.260 --> 00:09:02.260
+en met wat hindernissen, kan je dit verwachten.
+
+00:09:05.260 --> 00:09:06.260
+(Gelach)
+
+00:09:06.260 --> 00:09:08.260
+Na dit succes kwamen we het volgende jaar
+
+00:09:08.260 --> 00:09:11.260
+met een goed mechanisch ontwerp
+
+00:09:11.260 --> 00:09:13.260
+op basis van kinematica.
+
+00:09:13.260 --> 00:09:15.260
+DARwIn I kwam in 2005 ter wereld.
+
+00:09:15.260 --> 00:09:17.260
+Hij staat recht, hij loopt - zeer indrukwekkend.
+
+00:09:17.260 --> 00:09:19.260
+Maar zoals jullie kunnen zien,
+
+00:09:19.260 --> 00:09:23.260
+heeft hij nog een soort navelstreng. We zijn nog altijd aangewezen op een externe energiebron
+
+00:09:23.260 --> 00:09:25.260
+en externe berekening.
+
+00:09:25.260 --> 00:09:29.260
+In 2006 begon het echt leuk te worden.
+
+00:09:29.260 --> 00:09:32.260
+Hij werd intelligent. We geven hem alle rekenkracht die hij nodig had:
+
+00:09:32.260 --> 00:09:34.260
+een 1,5 gigahertz Pentium M-chip,
+
+00:09:34.260 --> 00:09:36.260
+twee FireWire-camera's, snelheidsgyro's, accelerometers,
+
+00:09:36.260 --> 00:09:39.260
+vier krachtsensoren in de voet, lithium-polymeerbatterijen.
+
+00:09:39.260 --> 00:09:43.260
+Nu is DARwIn II volledig autonoom.
+
+00:09:43.260 --> 00:09:45.260
+Geen afstandsbediening meer.
+
+00:09:45.260 --> 00:09:48.260
+Geen draden. Hij kijkt rond, zoekt de bal,
+
+00:09:48.260 --> 00:09:51.260
+kijkt om zich heen, zoekt de bal en hij probeert een potje voetbal te spelen.
+
+00:09:51.260 --> 00:09:54.260
+Autonoom: kunstmatige intelligentie.
+
+00:09:54.260 --> 00:09:57.260
+Laten we eens kijken hoe het eraan toe gaat. Dit was onze allereerste proef
+
+00:09:57.260 --> 00:10:02.260
+en ... Toeschouwers (Video): Goal!
+
+00:10:03.260 --> 00:10:06.260
+Dennis Hong: Er bestaat een wedstrijd RoboCup genaamd.
+
+00:10:06.260 --> 00:10:08.260
+Ik weet niet hoeveel van jullie al over RoboCup hebben gehoord.
+
+00:10:08.260 --> 00:10:13.260
+Het is een internationale voetbalcompetitie voor autonome robots.
+
+00:10:13.260 --> 00:10:16.260
+Het eigenlijke doel van RoboCup is
+
+00:10:16.260 --> 00:10:18.260
+om in het jaar 2050
+
+00:10:18.260 --> 00:10:21.260
+autonome humanoïde robots van normale grootte
+
+00:10:21.260 --> 00:10:25.260
+te laten voetballen tegen de menselijke wereldbekerkampioenen.
+
+00:10:25.260 --> 00:10:27.260
+En te winnen!
+
+00:10:27.260 --> 00:10:29.260
+Het is een echt doel. En wel een zeer ambitieus doel,
+
+00:10:29.260 --> 00:10:31.260
+maar wij geloven dat we het kunnen.
+
+00:10:31.260 --> 00:10:34.260
+Dit was vorig jaar in China.
+
+00:10:34.260 --> 00:10:36.260
+Wij waren het eerste team in de Verenigde Staten dat zich plaatste
+
+00:10:36.260 --> 00:10:38.260
+voor de humanoïde RoboCupcompetitie.
+
+00:10:38.260 --> 00:10:41.260
+Dit is dit jaar in Oostenrijk.
+
+00:10:41.260 --> 00:10:43.260
+Je gaat de actie kunnen zien, drie tegen drie,
+
+00:10:43.260 --> 00:10:45.260
+volledig autonoom.
+
+00:10:45.260 --> 00:10:47.260
+Daar ga je. Ja!
+
+00:10:48.260 --> 00:10:50.260
+De robots volgen en ze
+
+00:10:50.260 --> 00:10:53.260
+doen aan spelverdeling.
+
+00:10:53.260 --> 00:10:55.260
+Erg indrukwekkend. Het is echt een onderzoeksgebeuren
+
+00:10:55.260 --> 00:10:59.260
+onder de vorm van een spannende wedstrijd.
+
+00:10:59.260 --> 00:11:01.260
+Hier zie je de prachtige
+
+00:11:01.260 --> 00:11:03.260
+Louis Vuitton Cup trofee.
+
+00:11:03.260 --> 00:11:05.260
+Dit is voor de beste humanoïde.
+
+00:11:05.260 --> 00:11:07.260
+We zouden hem graag volgend jaar voor de eerste keer naar de Verenigde Staten
+
+00:11:07.260 --> 00:11:09.260
+willen halen. Wens ons maar succes.
+
+00:11:09.260 --> 00:11:11.260
+(Applaus)
+
+00:11:11.260 --> 00:11:14.260
+Dank je.
+
+00:11:14.260 --> 00:11:16.260
+DARwIn heeft ook veel andere talenten.
+
+00:11:16.260 --> 00:11:19.260
+Vorig jaar dirigeerde hij het vakantieconcert
+
+00:11:19.260 --> 00:11:22.260
+van het Roanoke Symphony Orchestra.
+
+00:11:22.260 --> 00:11:25.260
+Dit is de robot van de volgende generatie, DARwIn IV,
+
+00:11:25.260 --> 00:11:28.260
+maar slimmer, sneller, sterker.
+
+00:11:28.260 --> 00:11:30.260
+Hij pronkt met zijn kunnen:
+
+00:11:30.260 --> 00:11:33.260
+"Ik ben macho, ik ben sterk.
+
+00:11:33.260 --> 00:11:36.260
+Ik kan ook wat Jackie Chan-bewegingen doen,
+
+00:11:36.260 --> 00:11:39.260
+krijgskunstbewegingen."
+
+00:11:39.260 --> 00:11:41.260
+(Gelach)
+
+00:11:41.260 --> 00:11:43.260
+Daar gaat ie. Dat was DARwIn IV.
+
+00:11:43.260 --> 00:11:45.260
+Jullie kunnen hem bekijken in de lobby.
+
+00:11:45.260 --> 00:11:47.260
+We geloven echt dat dit de eerste lopende
+
+00:11:47.260 --> 00:11:50.260
+humanoïde robot gaat zijn in de Verenigde Staten. Blijf het volgen.
+
+00:11:50.260 --> 00:11:53.260
+Ik toonde jullie enkele van onze fantastische robots aan het werk.
+
+00:11:53.260 --> 00:11:56.260
+Wat is het geheim van ons succes?
+
+00:11:56.260 --> 00:11:58.260
+Waar vinden we deze ideeën?
+
+00:11:58.260 --> 00:12:00.260
+Hoe ontwikkelen we dit soort ideeën?
+
+00:12:00.260 --> 00:12:02.260
+We hebben een volledig autonoom voertuig
+
+00:12:02.260 --> 00:12:04.260
+dat kan rijden in stedelijke omgevingen. We wonnen een half miljoen dollar
+
+00:12:04.260 --> 00:12:06.260
+in de DARPA Urban Challenge.
+
+00:12:06.260 --> 00:12:08.260
+We hebben ook 's werelds eerste
+
+00:12:08.260 --> 00:12:10.260
+voertuig dat kan worden bestuurd door een blinde.
+
+00:12:10.260 --> 00:12:12.260
+We noemen het de Blind Driver Challenge, heel spannend.
+
+00:12:12.260 --> 00:12:16.260
+En vele, vele andere roboticaprojecten waarover ik wil praten.
+
+00:12:16.260 --> 00:12:18.260
+Dit zijn de prijzen die we wonnen in de herfst van 2007
+
+00:12:18.260 --> 00:12:21.260
+bij roboticawedstrijden en dat soort dingen.
+
+00:12:21.260 --> 00:12:23.260
+We hebben vijf geheimen.
+
+00:12:23.260 --> 00:12:25.260
+Het eerste is: waar halen we inspiratie vandaan?
+
+00:12:25.260 --> 00:12:27.260
+Vanwaar deze vonk van verbeelding?
+
+00:12:27.260 --> 00:12:30.260
+Dit is een waar verhaal, mijn persoonlijke verhaal.
+
+00:12:30.260 --> 00:12:32.260
+Als ik om 3 à 4 uur in de ochtend ga slapen,
+
+00:12:32.260 --> 00:12:35.260
+sluit ik mijn ogen en zie ik lijnen, cirkels
+
+00:12:35.260 --> 00:12:37.260
+en verschillende vormen rondzweven.
+
+00:12:37.260 --> 00:12:40.260
+Ze komen samen en vormen dit soort mechanismen.
+
+00:12:40.260 --> 00:12:42.260
+Dan denk ik: "Ach, dat is cool."
+
+00:12:42.260 --> 00:12:44.260
+Naast mijn bed ligt een aantekenboekje,
+
+00:12:44.260 --> 00:12:47.260
+met een speciale pen met LED verlichting,
+
+00:12:47.260 --> 00:12:49.260
+zo maak ik mijn vrouw niet wakker door het licht aan te doen.
+
+00:12:49.260 --> 00:12:51.260
+Ik teken alles op wat ik zie
+
+00:12:51.260 --> 00:12:53.260
+en ga weer slapen.
+
+00:12:53.260 --> 00:12:55.260
+En 's morgens,
+
+00:12:55.260 --> 00:12:57.260
+het eerste wat ik doe vóór mijn eerste kop koffie,
+
+00:12:57.260 --> 00:12:59.260
+voordat ik mijn tanden poets, is in mijn aantekenboekje kijken.
+
+00:12:59.260 --> 00:13:01.260
+Meestal is het leeg,
+
+00:13:01.260 --> 00:13:03.260
+soms staat er iets - soms staat er wat onzin -
+
+00:13:03.260 --> 00:13:06.260
+maar meestal kan ik niet eens lezen wat ik opschreef.
+
+00:13:06.260 --> 00:13:09.260
+Wat verwacht je om 4 uur in de ochtend, toch?
+
+00:13:09.260 --> 00:13:11.260
+Ik moet ontcijferen wat ik schreef.
+
+00:13:11.260 --> 00:13:14.260
+Maar soms staat er een ingenieus idee in
+
+00:13:14.260 --> 00:13:16.260
+en heb ik een eureka-belevenis.
+
+00:13:16.260 --> 00:13:18.260
+Ik loop naar mijn bureau, ga voor mijn computer zitten,
+
+00:13:18.260 --> 00:13:20.260
+typ de ideeën uit, maak tekeningen
+
+00:13:20.260 --> 00:13:23.260
+en houd alles bij in een ideeëndatabase.
+
+00:13:23.260 --> 00:13:25.260
+Als we vragen voor toepassingen krijgen,
+
+00:13:25.260 --> 00:13:27.260
+probeer ik overeenkomsten te vinden
+
+00:13:27.260 --> 00:13:29.260
+tussen potentiële ideeën en het probleem.
+
+00:13:29.260 --> 00:13:31.260
+Vind ik een overeenkomst, dan schrijven we een onderzoeksvoorstel uit
+
+00:13:31.260 --> 00:13:35.260
+voor de financiering ervan. Zo beginnen we onze onderzoeksprogramma's.
+
+00:13:35.260 --> 00:13:38.260
+Maar alleen maar een vonk van de verbeelding is niet genoeg.
+
+00:13:38.260 --> 00:13:40.260
+Hoe ontwikkelen we dit soort ideeën?
+
+00:13:40.260 --> 00:13:43.260
+Bij ons lab RoMeLa, het Robotica en Mechanismen Laboratorium,
+
+00:13:43.260 --> 00:13:46.260
+hebben we deze fantastische brainstormsessies.
+
+00:13:46.260 --> 00:13:48.260
+We komen bij elkaar, bespreken de problemen,
+
+00:13:48.260 --> 00:13:50.260
+ook de sociale problemen.
+
+00:13:50.260 --> 00:13:53.260
+Maar voordat we beginnen,
+
+00:13:53.260 --> 00:13:55.260
+leggen we een gouden regel vast:
+
+00:13:55.260 --> 00:13:58.260
+'Bekritiseer niemands ideeën.
+
+00:13:58.260 --> 00:14:00.260
+Bekritiseer geen enkel uitgebracht advies.'
+
+00:14:00.260 --> 00:14:02.260
+Dat is belangrijk, omdat studenten vaak vrezen
+
+00:14:02.260 --> 00:14:05.260
+of zich ongemakkelijk voelen over wat anderen zouden kunnen denken
+
+00:14:05.260 --> 00:14:07.260
+over hun meningen en gedachten.
+
+00:14:07.260 --> 00:14:09.260
+Zodra je dit doet, is het verbazingwekkend
+
+00:14:09.260 --> 00:14:11.260
+hoe de leerlingen ontdooien.
+
+00:14:11.260 --> 00:14:14.260
+Ze hebben de meest gekke, leuke, dolle, briljante ideeën en
+
+00:14:14.260 --> 00:14:17.260
+de hele kamer is als geëlektrificeerd met creatieve energie.
+
+00:14:17.260 --> 00:14:20.260
+Zo ontwikkelen we onze ideeën.
+
+00:14:20.260 --> 00:14:23.260
+Mijn tijd raakt op. Nog een ding waarover ik wil praten,
+
+00:14:23.260 --> 00:14:27.260
+is dat alleen maar een idee niet goed genoeg is.
+
+00:14:27.260 --> 00:14:29.260
+Er was ooit een groot TED-moment
+
+00:14:29.260 --> 00:14:32.260
+met Sir Ken Robinson, dacht ik.
+
+00:14:32.260 --> 00:14:34.260
+Hij gaf een lezing over hoe het onderwijs
+
+00:14:34.260 --> 00:14:36.260
+en de school de creativiteit doden.
+
+00:14:36.260 --> 00:14:39.260
+Er zijn eigenlijk twee kanten aan dat verhaal.
+
+00:14:39.260 --> 00:14:42.260
+Met alleen maar ingenieuze ideeën,
+
+00:14:42.260 --> 00:14:44.260
+creativiteit en een goede technische intuïtie
+
+00:14:44.260 --> 00:14:47.260
+geraak je er niet.
+
+00:14:47.260 --> 00:14:49.260
+Als je verder wil gaan dan wat knutselen,
+
+00:14:49.260 --> 00:14:51.260
+als je verder wil gaan dan een roboticahobby
+
+00:14:51.260 --> 00:14:54.260
+en echt de grote uitdagingen van de robotica aanpakken
+
+00:14:54.260 --> 00:14:56.260
+door middel van grondig onderzoek,
+
+00:14:56.260 --> 00:14:59.260
+heb je meer nodig dan dat. Daar is scholing voor nodig.
+
+00:14:59.260 --> 00:15:02.260
+Batman heeft in zijn strijd tegen de slechteriken
+
+00:15:02.260 --> 00:15:04.260
+zijn gordel met accessoires, zijn enterhaak,
+
+00:15:04.260 --> 00:15:06.260
+allerlei soorten gadgets.
+
+00:15:06.260 --> 00:15:08.260
+Voor ons robotici, ingenieurs en wetenschappers
+
+00:15:08.260 --> 00:15:13.260
+zijn dat de cursussen en lessen die je op school krijgt.
+
+00:15:13.260 --> 00:15:15.260
+Wiskunde, differentiaalvergelijkingen.
+
+00:15:15.260 --> 00:15:17.260
+Ook lineaire algebra, fysica,
+
+00:15:17.260 --> 00:15:20.260
+vandaag zelfs scheikunde en biologie, zoals je hebt gezien.
+
+00:15:20.260 --> 00:15:22.260
+Dit zijn de gereedschappen die we nodig hebben.
+
+00:15:22.260 --> 00:15:24.260
+Hoe meer gereedschap Batman heeft,
+
+00:15:24.260 --> 00:15:26.260
+des te effectiever hij de slechteriken kan bestrijden.
+
+00:15:26.260 --> 00:15:30.260
+Voor ons zijn dat de gereedschappen om dit soort grote problemen te lijf te gaan.
+
+00:15:30.260 --> 00:15:33.260
+Ja, onderwijs is erg belangrijk.
+
+00:15:33.260 --> 00:15:35.260
+Maar daar gaat het niet over,
+
+00:15:35.260 --> 00:15:37.260
+tenminste niet alleen daarover. Je moet ook echt, echt hard werken.
+
+00:15:37.260 --> 00:15:39.260
+Dus zeg ik altijd tegen mijn studenten:
+
+00:15:39.260 --> 00:15:41.260
+"Werk met verstand voordat je hard gaat werken."
+
+00:15:41.260 --> 00:15:44.260
+Deze foto werd om 3 uur in de ochtend genomen.
+
+00:15:44.260 --> 00:15:46.260
+Ik garandeer je dat als je om 3 à 4 uur 's nachts naar het lab komt,
+
+00:15:46.260 --> 00:15:48.260
+er studenten aan het werk zijn.
+
+00:15:48.260 --> 00:15:51.260
+Niet omdat ik ze verplicht, maar omdat we er veel plezier aan beleven.
+
+00:15:51.260 --> 00:15:53.260
+Dat brengt me bij het laatste onderwerp:
+
+00:15:53.260 --> 00:15:55.260
+"Vergeet niet om plezier te hebben."
+
+00:15:55.260 --> 00:15:58.260
+Dat is echt het geheim van ons succes: we hebben veel plezier.
+
+00:15:58.260 --> 00:16:01.260
+Ik geloof echt dat de hoogste productiviteit komt wanneer je er plezier aan hebt.
+
+00:16:01.260 --> 00:16:03.260
+Zo doen we dat.
+
+00:16:03.260 --> 00:16:05.260
+Zo gaat dat. Dank je wel.
+
+00:16:05.260 --> 00:16:10.260
+(Applaus)
+

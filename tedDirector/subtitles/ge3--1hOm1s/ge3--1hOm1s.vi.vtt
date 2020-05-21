@@ -1,0 +1,821 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Tuan Mach
+Reviewer: Trinh Tran
+
+00:00:13.280 --> 00:00:16.936
+Trong phòng thí nghiệm, chúng tôi chế tạo 
+những robot bay tự động
+
+00:00:16.960 --> 00:00:18.840
+như thiết bị bay mà bạn thấy ở đây.
+
+00:00:20.720 --> 00:00:24.416
+Không như những máy bay không người lái 
+thương mại bạn có thể mua hiện nay,
+
+00:00:24.440 --> 00:00:27.080
+robot này không trang bị GPS.
+
+00:00:28.160 --> 00:00:29.376
+Vì không có GPS,
+
+00:00:29.400 --> 00:00:32.680
+rất khó để những robot như thế này
+xác định được vị trí của chúng.
+
+00:00:34.240 --> 00:00:38.976
+Robot này sử dụng các bộ cảm biến tích hợp,
+máy quay và thiết bị quét laser,
+
+00:00:39.000 --> 00:00:40.696
+để quét môi trường xung quanh.
+
+00:00:40.720 --> 00:00:43.776
+Nó phát hiện ra những đặc điểm 
+của môi trường,
+
+00:00:43.800 --> 00:00:46.536
+và xác định vị trí tương đối của nó so với
+những đặc điểm đó,
+
+00:00:46.560 --> 00:00:48.696
+bằng phương pháp đối chiếu tam giác.
+
+00:00:48.720 --> 00:00:52.176
+Và sau đó nó có thể tập hợp
+những đặc điểm đó lên trên bản đồ,
+
+00:00:52.200 --> 00:00:53.936
+như cái các bạn thấy phía sau tôi.
+
+00:00:53.960 --> 00:00:57.896
+Bản đồ này cho phép robot
+biết được vị trí các chướng ngại vật
+
+00:00:57.920 --> 00:01:00.640
+và di chuyển mà không va vào chúng.
+
+00:01:01.160 --> 00:01:03.256
+Điều tiếp theo tôi muốn chỉ cho các bạn
+
+00:01:03.280 --> 00:01:06.496
+là một loạt các thí nghiệm mà chúng tôi
+đã thực hiện trong phòng thí nghiệm,
+
+00:01:06.520 --> 00:01:10.000
+nơi mà robot này có khả năng
+xa hơn thế nữa,
+
+00:01:10.400 --> 00:01:15.416
+Ở đây các bạn sẽ thấy, góc trên bên phải
+là những gì robot thấy qua camera.
+
+00:01:15.440 --> 00:01:16.656
+Và trên màn hình chính --
+
+00:01:16.680 --> 00:01:19.136
+hiển nhiên đây là hình ảnh
+được tua nhanh 4 lần --
+
+00:01:19.160 --> 00:01:21.827
+trên màn hình chính các bạn sẽ thấy
+tấm bản đồ mà nó đang tạo ra.
+
+00:01:21.851 --> 00:01:26.136
+Đây là một bản đồ có độ phân giải cao
+của dãy hành lang quanh phòng thí nghiệm của chúng tôi.
+
+00:01:26.160 --> 00:01:28.496
+Và sau đó quý vị sẽ thấy nó đi vào trong phòng thí nghiệm,
+
+00:01:28.520 --> 00:01:31.376
+nơi rất dễ nhận biết bởi
+sự lộn xộn các bạn đang thấy.
+
+00:01:31.400 --> 00:01:32.416
+(Cười)
+
+00:01:32.440 --> 00:01:34.447
+Nhưng ý chính mà tôi muốn nói với các bạn
+
+00:01:34.472 --> 00:01:38.056
+đó là những robot này có khả năng vẽ
+những tấm bản đồ có độ phân giải cao
+
+00:01:38.080 --> 00:01:40.576
+với độ chính xác đến 5cm,
+
+00:01:40.600 --> 00:01:44.776
+điều đó cho phép ai đó ở ngoài phòng,
+hoặc bên ngoài tòa nhà
+
+00:01:44.800 --> 00:01:48.016
+có thể biết được tường tận mọi thứ
+mà không cần vào bên trong,
+
+00:01:48.040 --> 00:01:51.800
+và cố sức suy đoán
+điều gì xảy ra bên trong tòa nhà.
+
+00:01:52.400 --> 00:01:54.640
+Hiện nay có một vấn đề
+với loại robot như thế này.
+
+00:01:55.600 --> 00:01:57.800
+Vấn đề đầu tiên là nó tương đối lớn.
+
+00:01:58.120 --> 00:01:59.800
+Vì lớn, nên nó nặng.
+
+00:02:00.640 --> 00:02:03.680
+Và những robot thế này
+tiêu thụ khoảng 100 watt mỗi pound.
+
+00:02:04.360 --> 00:02:06.640
+Và điều đó rút ngắn tuổi thọ 
+hoạt động của chúng.
+
+00:02:08.000 --> 00:02:09.456
+Vấn đề thứ hai
+
+00:02:09.480 --> 00:02:13.376
+là những robot này mang theo
+những cảm biến rất đắt tiền --
+
+00:02:13.400 --> 00:02:16.840
+bộ quét laser, camera
+và các bộ vi xử lý.
+
+00:02:17.280 --> 00:02:20.320
+Điều này làm tăng giá thành của robot.
+
+00:02:21.440 --> 00:02:24.096
+Vì thế chúng tôi tự hỏi:
+
+00:02:24.120 --> 00:02:27.896
+sản phẩm nào chúng ta có thể mua 
+trong một cửa hàng điện tử
+
+00:02:27.920 --> 00:02:34.200
+không mắc tiền lại nhẹ mà 
+có trang bị cảm biến và chức năng tính toán?
+
+00:02:36.080 --> 00:02:38.736
+Và chúng tôi phát minh ra điện thoại bay.
+
+00:02:38.760 --> 00:02:40.696
+(Cười)
+
+00:02:40.720 --> 00:02:46.896
+Robot này sử dụng một smartphone 
+Samsung Galaxy mà ai cũng có thể mua ở cửa hàng,
+
+00:02:46.920 --> 00:02:50.936
+và tất cả những thứ bạn cần chỉ là một app
+mà bạn có thể tải về từ app store.
+
+00:02:50.960 --> 00:02:55.176
+Và bạn thấy đấy, robot này
+đang đọc chữ "TED",
+
+00:02:55.200 --> 00:02:58.136
+nhìn vào góc của chữ "T" và "E"
+
+00:02:58.160 --> 00:03:01.640
+và sau đó dùng phép đối chiếu tam giác, 
+bay một cách tự động.
+
+00:03:02.720 --> 00:03:05.976
+Cần điều khiển ở ngay kia để bảo đảm 
+nếu robot trở nên bất thường.
+
+00:03:06.000 --> 00:03:07.416
+Giuseppe có thể tiêu diệt nó.
+
+00:03:07.440 --> 00:03:09.080
+(Cười)
+
+00:03:10.920 --> 00:03:14.736
+Bên cạnh việc chế tạo 
+những con robot nhỏ này,
+
+00:03:14.760 --> 00:03:19.560
+chúng tôi còn thực hiện thí nghiệm với các 
+động tác có phần dữ dội, như các bạn thấy đây.
+
+00:03:19.920 --> 00:03:25.216
+Con robot này đang di chuyển với tốc độ 
+2-3 mét/giây,
+
+00:03:25.240 --> 00:03:28.736
+chao liệng và quay tròn liên tục
+khi nó thay đổi hướng.
+
+00:03:28.760 --> 00:03:33.016
+Điểm mấu chốt ở đây là chúng ta có thể có
+những con robot chạy nhanh hơn
+
+00:03:33.040 --> 00:03:36.000
+và di chuyển trong những môi trường 
+lộn xộn.
+
+00:03:37.120 --> 00:03:39.176
+Trong video tiếp theo này,
+
+00:03:39.200 --> 00:03:45.096
+như bạn thấy con chim này, một con 
+đại bàng, phối hợp duyên dáng đôi cánh,
+
+00:03:45.120 --> 00:03:49.416
+mắt và chân để tóm lấy con mồi 
+ra khỏi mặt nước,
+
+00:03:49.440 --> 00:03:51.336
+robot của chúng tôi cũng có thể đi câu.
+
+00:03:51.360 --> 00:03:52.856
+(Cười)
+
+00:03:52.880 --> 00:03:56.936
+Trong trường hợp này, đây là một miếng sandwich Philly 
+mà nó tóm lấy bất ngờ từ trên không.
+
+00:03:56.960 --> 00:03:59.360
+(Cười)
+
+00:03:59.680 --> 00:04:02.976
+Thế nên bạn có thể thấy con robot này 
+đang di chuyển với tốc độ khoảng 3 mét/giây,
+
+00:04:03.000 --> 00:04:08.136
+nhanh hơn tốc độ đi bộ, nó phối hợp tay, 
+móng vuốt,
+
+00:04:08.160 --> 00:04:12.280
+và khả năng bay của nó trong thời gian
+tính bằng giây để thực hiện được động tác này.
+
+00:04:14.120 --> 00:04:15.336
+Trong một thí nghiệm khác,
+
+00:04:15.360 --> 00:04:19.016
+tôi muốn cho các bạn thấy làm thế nào để 
+robot điều chỉnh cách bay
+
+00:04:19.040 --> 00:04:21.416
+để kiểm soát gói hàng 
+treo bên dưới,
+
+00:04:21.440 --> 00:04:25.240
+khi chiều dài của nó
+lớn hơn độ rộng của cửa sổ.
+
+00:04:25.680 --> 00:04:27.376
+Để thực hiện được việc này,
+
+00:04:27.400 --> 00:04:31.096
+nó thật sự phải lao xuống, 
+điều chỉnh độ cao,
+
+00:04:31.120 --> 00:04:33.440
+và đưa gói hàng qua.
+
+00:04:38.920 --> 00:04:41.216
+Nhưng tất nhiên chúng tôi muốn làm 
+chúng nhỏ hơn nữa,
+
+00:04:41.240 --> 00:04:44.256
+và chúng tôi đã lấy cảm hứng
+từ loài ong mật.
+
+00:04:44.280 --> 00:04:47.536
+Nếu các bạn quan sát loài ong mật, 
+và đây là một đoạn phim quay chậm
+
+00:04:47.560 --> 00:04:51.280
+chúng rất nhỏ, 
+lực quán tính rất nhỏ --
+
+00:04:51.960 --> 00:04:53.136
+(Cười)
+
+00:04:53.160 --> 00:04:56.696
+đến mức chúng chẳng cần bận tâm --
+chúng bay vụt ra khỏi tay tôi, ví dụ vậy.
+
+00:04:56.720 --> 00:04:59.880
+Đây là một con robot nhỏ bắt chước
+hành vi của loài ong mật.
+
+00:05:00.600 --> 00:05:01.816
+Và càng nhỏ thì càng tốt,
+
+00:05:01.840 --> 00:05:05.376
+vì kích thước nhỏ mang đến cho bạn 
+lực quán tính nhỏ hơn.
+
+00:05:05.400 --> 00:05:06.936
+Cùng với lực quán tính nhỏ hơn --
+
+00:05:06.960 --> 00:05:09.816
+(Robot kêu vo vo, khán giả cười)
+
+00:05:09.840 --> 00:05:12.656
+cùng với lực quán tính nhỏ hơn,
+các bạn có thể tăng sức bền khi va chạm.
+
+00:05:12.680 --> 00:05:14.400
+Điều đó khiến bạn trở cứng cáp hơn.
+
+00:05:15.800 --> 00:05:18.456
+Dựa trên những con ong mật này, 
+chúng tôi tạo ra những con robot nhỏ.
+
+00:05:18.480 --> 00:05:21.856
+Và đây là một con đặc biệt 
+chỉ nặng 25 gram.
+
+00:05:21.880 --> 00:05:24.040
+Nó chỉ tiêu thụ 6 watt năng lượng.
+
+00:05:24.440 --> 00:05:26.976
+Và nó có thể di chuyển
+với tốc độ lên tới 6 mét/giây.
+
+00:05:27.000 --> 00:05:29.336
+Vậy nếu như căn tỉ lệ tốc độ 
+với kích thước của chúng,
+
+00:05:29.360 --> 00:05:33.000
+nó giống như một chiếc Boeing 787 với
+vận tốc gấp 10 lần vận tốc âm thanh.
+
+00:05:36.000 --> 00:05:38.096
+(Cười)
+
+00:05:38.120 --> 00:05:40.040
+Tôi muốn cho các bạn xem một ví dụ.
+
+00:05:40.840 --> 00:05:46.096
+Đây có lẽ là va chạm trên không có chủ đích đầu tiên, với tốc độ bằng 1/20 tốc độ thường
+
+00:05:46.120 --> 00:05:48.978
+Chúng đang bay với tốc độ tương đối 
+là 2 mét/giây
+
+00:05:49.002 --> 00:05:51.482
+và điều này minh họa cho
+một nguyên tắc cơ bản.
+
+00:05:52.200 --> 00:05:57.176
+Chiếc lồng nặng 2 gram bằng sợi carbon 
+giúp các cánh quạt không mắc vào nhau,
+
+00:05:57.200 --> 00:06:02.496
+nhưng quan trọng là cú va chạm được nhận biết và robot phản ứng lại sự va chạm ấy.
+
+00:06:02.520 --> 00:06:05.080
+Thế nên nhỏ cũng đồng nghĩa với an toàn.
+
+00:06:05.400 --> 00:06:07.416
+Trong phòng thí nghiệm, 
+khi chúng tôi phát triển loại robot này,
+
+00:06:07.440 --> 00:06:09.060
+chúng tôi bắt đầu với những con robot lớn,
+
+00:06:09.084 --> 00:06:11.896
+và sau đó giảm kích thước xuống thành 
+những con robot nhỏ này.
+
+00:06:11.920 --> 00:06:15.376
+Và nếu các bạn vẽ một biểu đồ về số lượng
+băng cá nhân chúng tôi đã đặt mua
+
+00:06:15.400 --> 00:06:17.976
+thì nó sẽ giảm xuống thế này.
+
+00:06:18.000 --> 00:06:19.960
+Bởi vì những con robot này rất an toàn.
+
+00:06:20.760 --> 00:06:23.216
+Kích thước nhỏ có một số bất lợi,
+
+00:06:23.240 --> 00:06:27.320
+và tạo hóa đã tìm ra một số cách để 
+bù đắp cho những bất lợi ấy.
+
+00:06:27.960 --> 00:06:31.960
+Ý tưởng cơ bản là chúng tập hợp lại thành
+những nhóm lớn, hay bầy đàn.
+
+00:06:32.320 --> 00:06:36.296
+Tương tự như vậy, trong phòng thí nghiệm, chúng tôi cố gắng tạo ra những bầy robot nhân tạo.
+
+00:06:36.320 --> 00:06:37.701
+Và điều này khá cam go
+
+00:06:37.725 --> 00:06:41.045
+bởi vì lúc này bạn phải nghĩ đến 
+mạng lưới các robot.
+
+00:06:41.360 --> 00:06:42.656
+Và bên trong mỗi con robot,
+
+00:06:42.680 --> 00:06:48.296
+bạn phải nghĩ về sự tương tác 
+của cảm biến, thông tin, khả năng tính toán --
+
+00:06:48.320 --> 00:06:53.280
+và hệ thống này trở nên khá khó 
+để kiểm soát và quản lý.
+
+00:06:54.160 --> 00:06:57.456
+Thế nên, từ tự nhiên, chúng tôi 
+học được 3 nguyên tắc tổ chức
+
+00:06:57.480 --> 00:07:00.640
+cần thiết để cho phép chúng tôi 
+phát triển thuật toán của mình.
+
+00:07:01.640 --> 00:07:06.176
+Ý tưởng đầu tiên là các robot cần phải 
+biết được những robot lân cận chúng.
+
+00:07:06.200 --> 00:07:09.640
+Chúng cần phải có khả năng cảm nhận 
+và thông tin với các robot lân cận.
+
+00:07:10.040 --> 00:07:12.696
+Video này minh họa ý tưởng cơ bản này.
+
+00:07:12.720 --> 00:07:14.016
+Chúng tôi có 4 robot --
+
+00:07:14.040 --> 00:07:18.280
+một trong số chúng bị kiểm soát bởi 
+một người điều khiển.
+
+00:07:19.217 --> 00:07:21.456
+Thế nhưng bởi vì các robot 
+tương tác với nhau,
+
+00:07:21.480 --> 00:07:23.136
+chúng cảm nhận được nhau,
+
+00:07:23.160 --> 00:07:24.456
+nên chúng di chuyển theo.
+
+00:07:24.480 --> 00:07:29.840
+Và ở đây, có một người có khả năng dẫn dắt
+mạng lưới các robot đi theo.
+
+00:07:32.000 --> 00:07:37.056
+Một lần nữa, không phải bởi vì tất cả 
+robot biết nơi chúng cần đi.
+
+00:07:37.080 --> 00:07:41.400
+Nhưng là bởi vì chúng phản ứng lại vị trí 
+của những robot lân cận.
+
+00:07:43.720 --> 00:07:47.840
+(Cười)
+
+00:07:48.280 --> 00:07:53.520
+Thí nghiệm tiếp theo mô phỏng 
+nguyên tắc tổ chức thứ hai.
+
+00:07:54.920 --> 00:07:58.720
+Và nguyên tắc này vận hành theo
+nguyên tắc nặc danh.
+
+00:07:59.400 --> 00:08:03.696
+Ý tưởng chính ở đây là
+
+00:08:03.720 --> 00:08:07.960
+những con robot không biết được danh tính 
+của những con lân cận chúng.
+
+00:08:08.440 --> 00:08:11.056
+Chúng được yêu cầu thiết lập một 
+vòng tròn,
+
+00:08:11.080 --> 00:08:14.376
+và bất kể bạn muốn có bao nhiêu con robot 
+cho việc thiết lập này,
+
+00:08:14.400 --> 00:08:16.976
+hay có bao nhiêu con robot bạn lấy ra,
+
+00:08:17.000 --> 00:08:20.136
+mỗi robot chỉ đơn thuần phản ứng lại với 
+những con lân cận.
+
+00:08:20.160 --> 00:08:25.136
+Nó biết rằng nó cần phải thiết lập 
+một vòng tròn,
+
+00:08:25.160 --> 00:08:26.936
+và cộng tác với những con robot kế cận nó
+
+00:08:26.960 --> 00:08:30.680
+để tạo hình mà không cần đến 
+sự điều phối trung tâm.
+
+00:08:31.520 --> 00:08:33.936
+Giờ đây nếu các bạn kết hợp 
+những ý tưởng đó lại,
+
+00:08:33.960 --> 00:08:37.856
+ý tưởng thứ ba là chúng tôi đưa 
+cho những con robot này
+
+00:08:37.880 --> 00:08:42.176
+những mô tả hình học của hình dạng 
+mà chúng cần thực hiện.
+
+00:08:42.200 --> 00:08:45.696
+Và những hình dạng này có thể 
+thay đổi theo thời gian,
+
+00:08:45.720 --> 00:08:50.216
+và các bạn sẽ thấy những con robot này 
+bắt đầu từ việc tạo thành một vòng tròn,
+
+00:08:50.240 --> 00:08:53.496
+rồi sau đó đổi thành hình tam giác, 
+kéo dài thành một đường thẳng,
+
+00:08:53.520 --> 00:08:54.895
+và trở lại hình ê-líp.
+
+00:08:54.919 --> 00:08:58.536
+Và chúng làm điều này với cùng 
+một kiểu phối hợp tính theo giây
+
+00:08:58.560 --> 00:09:01.840
+mà các bạn nhìn thấy ở những bầy đàn 
+trong tự nhiên.
+
+00:09:03.080 --> 00:09:05.216
+Tại sao phải nghiên cứu 
+những bầy đàn?
+
+00:09:05.240 --> 00:09:09.360
+Để tôi kể cho các bạn nghe hai ứng dụng 
+mà chúng tôi đang rất quan tâm.
+
+00:09:10.160 --> 00:09:12.536
+Đầu tiên là thứ liên quan đến nông nghiệp,
+
+00:09:12.560 --> 00:09:15.920
+có thể là một vấn đề lớn nhất mà 
+chúng ta đang đối mặt khắp thế giới.
+
+00:09:16.760 --> 00:09:18.016
+Như các bạn cũng biết,
+
+00:09:18.040 --> 00:09:21.560
+trên trái đất, cứ 7 người thì có 1 người
+bị suy dinh dưỡng.
+
+00:09:21.920 --> 00:09:25.400
+Hầu hết đất đai mà chúng ta có thể 
+trồng trọt đều đã được sử dụng.
+
+00:09:25.960 --> 00:09:29.176
+Và độ hiệu quả của hầu hết các hệ thống 
+trên thế giới đang được cải thiện,
+
+00:09:29.200 --> 00:09:32.720
+thế nhưng hiệu suất sản lượng thật sự 
+lại đi xuống.
+
+00:09:33.080 --> 00:09:37.296
+Và hầu hết là bởi việc thiếu nước, 
+bệnh cây trồng, biến đổi khí hậu
+
+00:09:37.320 --> 00:09:38.840
+và một vài nguyên nhân khác.
+
+00:09:39.360 --> 00:09:40.840
+Vậy các robot có thể làm được gì?
+
+00:09:41.200 --> 00:09:45.816
+À, chúng ta ứng dụng một phương pháp có 
+tên là Nông nghiệp Chính xác 
+trong cộng đồng.
+
+00:09:45.840 --> 00:09:51.216
+Ý tưởng cơ bản là chúng ta cho các robot
+bay qua các vườn cây,
+
+00:09:51.240 --> 00:09:54.360
+và sau đó xây dựng những mô hình chính xác 
+của từng cây một.
+
+00:09:54.829 --> 00:09:56.496
+Giống như một loại thuốc được cá nhân hóa,
+
+00:09:56.520 --> 00:10:01.336
+khi các bạn có thể tưởng tượng ra việc
+chữa cho từng bệnh nhân một,
+
+00:10:01.360 --> 00:10:05.056
+thì điều chúng tôi muốn làm là tạo ra
+mô hình của từng cây một,
+
+00:10:05.080 --> 00:10:09.216
+và sau đó cho người nông dân biết 
+nhu cầu của từng cây --
+
+00:10:09.240 --> 00:10:13.680
+có thể là nước, phân bón, 
+hay thuốc trừ sâu.
+
+00:10:14.640 --> 00:10:18.256
+Ở đây, các bạn sẽ thấy những con robot 
+đang di chuyển qua một vườn táo
+
+00:10:18.280 --> 00:10:20.536
+và trong 1 phút bạn sẽ thấy 
+2 người bạn của nó
+
+00:10:20.560 --> 00:10:22.370
+cũng đang làm điều tương tự ở phía tay trái.
+
+00:10:22.800 --> 00:10:26.456
+Điều chúng đang làm là xây dựng 
+bản đồ của mảnh vườn.
+
+00:10:26.480 --> 00:10:29.296
+Và bên trong bản đồ đó là bản đồ của 
+từng cây trong vườn.
+
+00:10:29.320 --> 00:10:30.976
+(Tiếng robot kêu)
+
+00:10:31.000 --> 00:10:32.896
+Hãy xem thử những bản đồ ấy 
+trông như thế nào.
+
+00:10:32.920 --> 00:10:37.216
+Ở video tiếp theo, các bạn sẽ thấy 
+các camera đang được robot sử dụng.
+
+00:10:37.240 --> 00:10:40.480
+Bên phía góc trái bên trên là 
+một camera màu chuẩn.
+
+00:10:41.640 --> 00:10:44.936
+Góc trái, ở giữa là một camera hồng ngoại.
+
+00:10:44.960 --> 00:10:48.736
+Và góc trái dưới cùng là một camera nhiệt.
+
+00:10:48.760 --> 00:10:52.096
+Và trên màn hình chính, 
+các bạn đang thấy một cấu trúc 3D tái lập
+
+00:10:52.120 --> 00:10:58.240
+mỗi cây trong vườn khi các cảm biến
+bay ngang qua các cây.
+
+00:10:59.640 --> 00:11:03.680
+Khi được trang bị những thông tin thế này,
+chúng ta có thể làm được nhiều thứ.
+
+00:11:04.200 --> 00:11:08.456
+Đầu tiên và có thể là thứ quan trọng nhất
+chúng ta có thể làm, rất đơn giản là
+
+00:11:08.480 --> 00:11:10.920
+đếm số lượng quả trên mỗi cây.
+
+00:11:11.520 --> 00:11:16.056
+Bằng cách này, chúng ta có thể cho người 
+nông dân biết số lượng trái trên từng cây,
+
+00:11:16.080 --> 00:11:20.336
+và cho phép họ ước tính 
+sản lượng của vườn,
+
+00:11:20.360 --> 00:11:23.200
+tối ưu mạch sản xuất.
+
+00:11:23.640 --> 00:11:25.256
+Điều thứ hai chúng ta có thể làm
+
+00:11:25.280 --> 00:11:29.776
+là lấy mô hình của cây trồng, 
+thiết lập hình ảnh 3D,
+
+00:11:29.800 --> 00:11:32.336
+từ đó ước tính kích thước vòm lá,
+
+00:11:32.360 --> 00:11:36.136
+và độ tương quan giữa kích thước vòm lá 
+với diện tích lá của mỗi cây,
+
+00:11:36.160 --> 00:11:38.336
+Cái này được gọi là chỉ số diện tích lá.
+
+00:11:38.360 --> 00:11:40.296
+Nếu các bạn biết chỉ số diện tích lá,
+
+00:11:40.320 --> 00:11:45.776
+về cơ bản bạn có thể tính được khả năng 
+quang hợp của mỗi cây,
+
+00:11:45.800 --> 00:11:48.680
+từ đó bạn biết được sức khỏe của cây.
+
+00:11:49.520 --> 00:11:53.736
+Bằng việc kết hợp thông tin hình ảnh 
+và hồng ngoại,
+
+00:11:53.760 --> 00:11:57.056
+chúng ta cũng có thể tính được 
+các chỉ số như NDVI.
+
+00:11:57.080 --> 00:11:59.896
+Và trong trường hợp cụ thể này, 
+bạn có thể thấy được rằng
+
+00:11:59.920 --> 00:12:02.936
+có một số cây trồng hiện không phát triển tốt 
+như các cây khác.
+
+00:12:02.960 --> 00:12:07.016
+Điều này có thể dễ dàng nhận ra từ 
+các hình ảnh,
+
+00:12:07.040 --> 00:12:09.256
+không chỉ là hình ảnh trực quan, 
+nhưng còn là kết hợp
+
+00:12:09.280 --> 00:12:12.056
+của cả hình ảnh trực quan và 
+hình ảnh hồng ngoại.
+
+00:12:12.080 --> 00:12:13.416
+Và cuối cùng,
+
+00:12:13.440 --> 00:12:17.456
+có một thứ chúng tôi đang quan tâm là 
+việc phát hiện ra bệnh vàng lá giai đoạn đầu --
+
+00:12:17.480 --> 00:12:18.976
+và đây là một cây cam --
+
+00:12:19.000 --> 00:12:21.560
+có thể nhận biết bởi độ vàng của lá.
+
+00:12:21.880 --> 00:12:25.776
+Tuy nhiên, các robot bay phía trên có thể 
+dễ dàng phát hiện ra chúng một cách tự động
+
+00:12:25.800 --> 00:12:28.736
+và báo cho người nông dân rằng 
+họ đang gặp vấn đề
+
+00:12:28.760 --> 00:12:30.280
+ở khu vực này trong vườn cây.
+
+00:12:30.800 --> 00:12:33.496
+Những hệ thống như thế này rất có ích,
+
+00:12:33.520 --> 00:12:39.336
+và chúng tôi đang hướng đến mục tiêu 
+có thể tăng năng suất khoảng 10%
+
+00:12:39.360 --> 00:12:42.576
+và, quan trọng hơn, là giảm 
+các chỉ số đầu vào, như lượng nước
+
+00:12:42.600 --> 00:12:45.880
+xuống 25% bằng cách sử dụng 
+những đám robot bay.
+
+00:12:47.200 --> 00:12:52.936
+Cuối cùng, tôi muốn các bạn hoan nghênh
+những người đã thật sự tạo ra tương lai,
+
+00:12:52.960 --> 00:12:57.880
+Yash Mulgaonkar, Sikang Liu
+và Giuseppe Loianno,
+
+00:12:57.920 --> 00:13:01.416
+những người phụ trách cho
+ba màn minh họa mà các bạn đã xem.
+
+00:13:01.440 --> 00:13:02.616
+Cảm ơn.
+
+00:13:02.640 --> 00:13:08.560
+(Vỗ tay)
+

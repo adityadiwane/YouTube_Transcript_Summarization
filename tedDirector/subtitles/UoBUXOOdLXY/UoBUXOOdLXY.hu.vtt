@@ -1,0 +1,1163 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Krisztian Stancz
+Lektor: Boglarka Szerencse
+
+00:00:15.285 --> 00:00:17.982
+Néhány hete egy barátom
+
+00:00:17.982 --> 00:00:20.236
+ezt a játék autót adta
+
+00:00:20.236 --> 00:00:21.847
+a 8 éves fiának.
+
+00:00:21.847 --> 00:00:24.668
+Nem egy boltba ment, és megvette rendesen,
+
+00:00:24.668 --> 00:00:27.463
+mint mi tennénk, hanem felment erre
+
+00:00:27.463 --> 00:00:29.378
+a honlapra, és letöltött
+
+00:00:29.378 --> 00:00:31.547
+egy fájlt, aztán kinyomtatta
+
+00:00:31.547 --> 00:00:33.402
+ezen a nyomtatón.
+
+00:00:33.402 --> 00:00:35.381
+Szóval ez az ötlet, hogy
+
+00:00:35.381 --> 00:00:37.328
+tárgyakat gyárthatunk
+
+00:00:37.328 --> 00:00:38.891
+digitálisan, így,
+
+00:00:38.891 --> 00:00:40.569
+az valami olyasmi, amit a The Economist
+
+00:00:40.569 --> 00:00:43.199
+folyóirat harmadik ipari forradalomként definiált.
+
+00:00:43.199 --> 00:00:47.042
+Szerintem egyébként egy másik forradalom is
+
+00:00:47.042 --> 00:00:49.640
+folyik, mégpedig az, amelyik a nyílt forráskódú hardverről és
+
+00:00:49.640 --> 00:00:52.168
+az építők mozgalmáról szól, mert
+
+00:00:52.168 --> 00:00:55.927
+a nyomtató, amit a barátom használt, hogy
+
+00:00:55.927 --> 00:00:58.544
+kinyomtassa a játékot, tulajdonképpen nyílt forráskódú.
+
+00:00:58.544 --> 00:01:02.037
+Szóval felmehetünk ugyanarra a honlapra, letölthetünk mindent,
+
+00:01:02.037 --> 00:01:05.794
+amire szükségünk van, hogy a nyomtatót megépítsük:
+
+00:01:05.794 --> 00:01:09.306
+az építési fájlokat, a hardvert, a szoftvert,
+
+00:01:09.306 --> 00:01:12.115
+minden instrukció ott van.
+
+00:01:12.115 --> 00:01:14.235
+És ez ráadásul része egy nagy
+
+00:01:14.235 --> 00:01:16.835
+közösségnek, amiben több ezer ember van
+
+00:01:16.835 --> 00:01:18.795
+szerte a világon, akik ténylegesen
+
+00:01:18.795 --> 00:01:20.338
+megépítik ezeket a nyomtatókat,
+
+00:01:20.338 --> 00:01:21.810
+és egy csomó innováció
+
+00:01:21.810 --> 00:01:23.724
+történik, mert ez az egész nyílt forráskódú.
+
+00:01:23.724 --> 00:01:27.612
+Senkinek az engedélye nem kell ahhoz, hogy valami igazán nagyot alkossunk.
+
+00:01:27.612 --> 00:01:29.973
+És ez a szegmens olyan, mint
+
+00:01:29.973 --> 00:01:32.769
+a személyi számítógép 1976-ban,
+
+00:01:32.769 --> 00:01:35.126
+mint amikor az Apple-ök és más cégek harcolnak,
+
+00:01:35.127 --> 00:01:37.508
+és látni fogjuk néhány éven belül, hogy
+
+00:01:37.508 --> 00:01:40.635
+eljön ennek a piacnak a saját Apple-je.
+
+00:01:40.641 --> 00:01:44.444
+Nos, van még egy érdekes dolog: mondtam, hogy az elektronika
+
+00:01:44.444 --> 00:01:46.408
+nyílt forráskódú, mert ennek a nyomtatónak
+
+00:01:46.408 --> 00:01:49.389
+a szívében van valami, ami közel áll hozzám:
+
+00:01:49.389 --> 00:01:52.340
+ezek az Arduino áramkörök: az alaplap, ami tulajdonképpen
+
+00:01:52.340 --> 00:01:54.547
+működteti a nyomtatót; egy olyan projekt,
+
+00:01:54.547 --> 00:01:56.970
+amin az elmúlt hét évben dolgoztam.
+
+00:01:56.970 --> 00:01:58.531
+Ez egy nyílt forráskódú projekt.
+
+00:01:58.531 --> 00:02:01.552
+Ezekkel a barátaimmal dolgoztam együtt, akik itt láthatóak.
+
+00:02:01.552 --> 00:02:04.206
+Tehát öten, két amerikai, két olasz
+
+00:02:04.206 --> 00:02:07.187
+és egy spanyol, mi -- (Nevetés)
+
+00:02:07.187 --> 00:02:10.262
+Tudják, ez egy világméretű projekt. (Nevetés)
+
+00:02:10.262 --> 00:02:12.131
+Mi itt találkoztunk,
+
+00:02:12.131 --> 00:02:14.754
+ebben a tervező intézetben, az Interaction Design Institute-ban
+
+00:02:14.754 --> 00:02:16.903
+Ivreában, amely interakció tervezést
+
+00:02:16.903 --> 00:02:19.201
+tanított. Ez az a gondolat, hogy
+
+00:02:19.201 --> 00:02:21.752
+vehetjük egy egyszerű forma dizájnját,
+
+00:02:21.752 --> 00:02:23.529
+azt továbbvihetjük, hogy megtervezzük azt,
+
+00:02:23.529 --> 00:02:25.573
+ahogyan kölcsönhatásba kerülünk a tárgyakkal.
+
+00:02:25.581 --> 00:02:28.473
+Ha egy olyan tárgyat tervezünk, ami kölcsönhatásba fog lépni
+
+00:02:28.473 --> 00:02:30.281
+egy emberi lénnyel, akkor semmi értelme sincs,
+
+00:02:30.281 --> 00:02:33.104
+hogy habszivacsból modellezzünk egy telefont.
+
+00:02:33.104 --> 00:02:34.610
+Olyasmire van szükségünk, ami
+
+00:02:34.610 --> 00:02:37.117
+ténylegesen kölcsönhatásba lép az emberrel.
+
+00:02:37.117 --> 00:02:40.236
+Így dolgoztunk az Arduinón, és
+
+00:02:40.236 --> 00:02:42.052
+sok más projekten, hogy
+
+00:02:42.052 --> 00:02:43.953
+olyan platformokat hozzunk létre, amiket
+
+00:02:43.953 --> 00:02:46.137
+a diákjaink egyszerűen tudnak használni,
+
+00:02:46.137 --> 00:02:48.598
+meg tudnak építeni működő dolgokat,
+
+00:02:48.598 --> 00:02:52.656
+de nem kell öt évet tanulniuk, hogy villamosmérnökök legyenek. Egy hónapunk van.
+
+00:02:52.656 --> 00:02:55.311
+Szóval hogyan csinálok valamit, amit még egy gyerek is használni tud?
+
+00:02:55.311 --> 00:02:58.212
+És tulajdonképpen, az Arduinóval,
+
+00:02:58.212 --> 00:03:00.635
+vannak gyerekek, mint Sylvia akit itt látnak,
+
+00:03:00.635 --> 00:03:02.507
+akik valóban építettek Arduino projekteket.
+
+00:03:02.507 --> 00:03:05.115
+11 éves gyerekek állítanak meg és mutatják meg
+
+00:03:05.115 --> 00:03:07.934
+mi mindent építettek az Arduinóval. Ez tényleg
+
+00:03:07.934 --> 00:03:09.675
+ijesztő, látni a kölykök képességeit,
+
+00:03:09.675 --> 00:03:12.098
+ha eszközöket adunk nekik.
+
+00:03:12.098 --> 00:03:15.078
+Nézzük meg mi történik, amikor készítünk egy eszközt,
+
+00:03:15.078 --> 00:03:17.922
+amihez bárki hozzájuthat, és építhet vele gyorsan.
+
+00:03:17.925 --> 00:03:19.793
+Az egyik példa, amivel szeretem a
+
+00:03:19.793 --> 00:03:21.707
+beszélgetéseket indítani: ez a
+
+00:03:21.707 --> 00:03:23.437
+példa erre a macskaetetőre.
+
+00:03:23.437 --> 00:03:26.004
+Az úrnak, aki ezt építette, két macskája volt.
+
+00:03:26.004 --> 00:03:27.738
+Az egyik beteg volt, a másik pedig
+
+00:03:27.738 --> 00:03:30.116
+egészséges, így biztosítania kellett,
+
+00:03:30.116 --> 00:03:31.804
+hogy a megfelelő ételt eszik.
+
+00:03:31.804 --> 00:03:33.963
+Megcsinálta ezt a dolgot, ami felismeri a macskát
+
+00:03:33.963 --> 00:03:36.100
+egy chipről, ami a macska nyakörvének a
+
+00:03:36.100 --> 00:03:38.820
+belsejére van szerelve, és kinyitja az ajtót,
+
+00:03:38.820 --> 00:03:40.564
+és a macska pedig megeheti az ételt.
+
+00:03:40.564 --> 00:03:42.354
+Újrahasznosított régi CD-lejátszóból készült,
+
+00:03:42.354 --> 00:03:44.561
+ami egy kiöregedett számítógépből jött,
+
+00:03:44.567 --> 00:03:48.023
+ragasztószalagból, érzékelőkből, LED-ekből,
+
+00:03:48.023 --> 00:03:50.811
+és már készen is van egy új eszköz. Építhetünk valamit,
+
+00:03:50.811 --> 00:03:52.748
+amit nem találnánk meg a piacon.
+
+00:03:52.748 --> 00:03:55.512
+Én szeretem ezt a kifejezést: "Magad uram, ha szolgád nincsen!"
+
+00:03:55.512 --> 00:03:58.107
+Ha van egy ötleted, valósítsd meg saját magad!
+
+00:03:58.107 --> 00:04:00.056
+Ez egyenértékű a papírra skicceléssel,
+
+00:04:00.056 --> 00:04:02.628
+csak az elektronikában.
+
+00:04:02.628 --> 00:04:04.376
+Tehát az egyik sajátosság, ami
+
+00:04:04.376 --> 00:04:06.204
+fontos a munkánkban,
+
+00:04:06.204 --> 00:04:08.976
+az a hardverünk, ami azon túl, hogy
+
+00:04:08.976 --> 00:04:11.166
+sok szeretettel készült Olaszországban --
+
+00:04:11.166 --> 00:04:12.919
+mint látható a
+
+00:04:12.919 --> 00:04:14.948
+az áramkör hátulján -- (Nevetés)
+
+00:04:14.948 --> 00:04:16.788
+az, hogy nyitott forráskódú,
+
+00:04:16.788 --> 00:04:18.756
+tehát közzétesszük az összes tervezési
+
+00:04:18.756 --> 00:04:20.484
+fájlt az áramkörhöz online,
+
+00:04:20.484 --> 00:04:22.467
+így letölthető, és
+
+00:04:22.467 --> 00:04:24.307
+ténylegesen használható valami új
+
+00:04:24.307 --> 00:04:26.940
+elkészítéséhez, módosításhoz, vagy a tanuláshoz.
+
+00:04:26.940 --> 00:04:28.209
+Úgy tanultam programozni,
+
+00:04:28.209 --> 00:04:30.086
+hogy mások programjait néztem,
+
+00:04:30.086 --> 00:04:33.515
+vagy mások áramköreit a magazinokban.
+
+00:04:33.515 --> 00:04:35.731
+És ez egy jó módja a tanulásnak,
+
+00:04:35.731 --> 00:04:37.972
+más emberek munkáját tanulmányozni.
+
+00:04:37.972 --> 00:04:40.564
+Tehát a projekt különböző elemei mind nyitottak,
+
+00:04:40.564 --> 00:04:42.267
+a hardvert is úgy adtuk ki,
+
+00:04:42.267 --> 00:04:44.331
+Creative Commons licenccel.
+
+00:04:44.331 --> 00:04:46.357
+Tetszik az, hogy a hardver
+
+00:04:46.357 --> 00:04:48.496
+a kultúra egy darabjává válik, amit megoszthatunk,
+
+00:04:48.496 --> 00:04:50.455
+építhetünk rá, mintha egy közös
+
+00:04:50.455 --> 00:04:54.092
+dal vagy egy vers volna, a Creative Commons alatt.
+
+00:04:54.092 --> 00:04:56.768
+Vagy a szoftver GPL, így nyílt forráskódú az is.
+
+00:04:56.768 --> 00:05:00.195
+A dokumentáció és a gyakorlati oktatás
+
+00:05:00.195 --> 00:05:03.778
+módszertana is nyílt forráskódú, és a Creative Commons alatt jelent meg.
+
+00:05:03.778 --> 00:05:05.781
+Csak a név védett,
+
+00:05:05.781 --> 00:05:08.527
+így biztosítjuk, hogy meg tudjuk mondani az embereknek, hogy
+
+00:05:08.527 --> 00:05:11.167
+mi az Arduino és mi nem az.
+
+00:05:11.167 --> 00:05:12.839
+Nos, az Arduino maga,
+
+00:05:12.839 --> 00:05:15.079
+sok különböző nyílt forrású komponensből áll,
+
+00:05:15.079 --> 00:05:17.830
+amit egyenként talán nehezen tudna használni
+
+00:05:17.830 --> 00:05:19.937
+egy 12 éves gyerek, így az Arduino
+
+00:05:19.937 --> 00:05:21.790
+mindent egybepakol, egy
+
+00:05:21.790 --> 00:05:24.056
+nyílt forráskódú technológiák mashupjába,
+
+00:05:24.056 --> 00:05:25.928
+amivel igyekszünk a legjobb
+
+00:05:25.928 --> 00:05:28.135
+élményt nyújtani a gyors építkezéshez.
+
+00:05:28.135 --> 00:05:31.006
+Így vannak ilyen helyzetek,
+
+00:05:31.006 --> 00:05:32.944
+mint az a néhány ember Chilében, aki
+
+00:05:32.944 --> 00:05:35.736
+elhatározta, hogy saját áramkört épít, és nem megveszi,
+
+00:05:35.742 --> 00:05:37.667
+műhelytalálkozókat rendeznek,
+
+00:05:37.667 --> 00:05:40.767
+és így pénzt takarítanak meg. Vagy vannak
+
+00:05:40.767 --> 00:05:42.712
+vállalatok, amelyek saját Arduino
+
+00:05:42.712 --> 00:05:44.481
+variációkat építenek, amik jól passzolnak
+
+00:05:44.481 --> 00:05:46.232
+egy bizonyos piacra,
+
+00:05:46.232 --> 00:05:48.945
+talán van belőlük vagy 150
+
+00:05:48.945 --> 00:05:50.737
+nagyjából, ebben a pillanatban.
+
+00:05:50.737 --> 00:05:52.625
+Ezt egy cég készítette,
+
+00:05:52.625 --> 00:05:54.569
+amit úgy neveznek, hogy Adafruit, és ez
+
+00:05:54.569 --> 00:05:56.881
+a hölgy vezeti, Limor Fried,
+
+00:05:56.881 --> 00:05:58.488
+más néven Ladyada, aki
+
+00:05:58.488 --> 00:06:01.209
+a nyílt forráskódú hardver mozgalom egyik hőse,
+
+00:06:01.209 --> 00:06:02.743
+és az építő mozgalomé is.
+
+00:06:02.743 --> 00:06:05.697
+Szóval, ez a gondolat, hogy van egy újfajta,
+
+00:06:05.697 --> 00:06:08.481
+felturbózott, csináld magad közösség, aki
+
+00:06:08.481 --> 00:06:10.161
+hisz a nyílt forráskódban,
+
+00:06:10.161 --> 00:06:12.361
+az együttműködésben, együttműködik
+
+00:06:12.361 --> 00:06:14.802
+online, és különböző helyeken.
+
+00:06:14.802 --> 00:06:17.924
+Van egy magazin, a neve Make, ami összegyűjtötte ezeket
+
+00:06:17.924 --> 00:06:19.464
+az embereket, és összehozta őket
+
+00:06:19.464 --> 00:06:21.896
+mint közösség, és látják,
+
+00:06:21.896 --> 00:06:23.924
+egy nagyon technikai projektet magyaráz el
+
+00:06:23.924 --> 00:06:26.781
+nagyon egyszerű nyelven, gyönyörűen megformázva.
+
+00:06:26.781 --> 00:06:28.349
+Vagy vannak weboldalak,
+
+00:06:28.349 --> 00:06:30.610
+mint ez is: az Instructables, ahol
+
+00:06:30.610 --> 00:06:32.614
+az emberek egymást tanítják mindenről.
+
+00:06:32.614 --> 00:06:34.359
+Szóval ez az Arduino projektek oldala,
+
+00:06:34.359 --> 00:06:37.920
+a lap amit képernyőn látnak, de tulajdonképpen itt azt is
+
+00:06:37.920 --> 00:06:40.498
+megtanulhatják, hogy hogyan kell tortát sütni, de bármi mást is.
+
+00:06:40.498 --> 00:06:43.298
+Nézzünk meg néhány projektet!
+
+00:06:43.298 --> 00:06:44.914
+Ez egy quadcopter.
+
+00:06:44.914 --> 00:06:46.629
+Egy apró modell helikopter.
+
+00:06:46.629 --> 00:06:48.899
+Bizonyos értelemben játék, nem?
+
+00:06:48.899 --> 00:06:51.192
+Ez katonai technológia volt
+
+00:06:51.192 --> 00:06:53.113
+néhány évvel ezelőtt, és most már
+
+00:06:53.113 --> 00:06:55.755
+nyílt forráskódú, könnyen kezelhető, és online megvásárolható.
+
+00:06:55.755 --> 00:06:59.673
+DIY Drones a közösség; ők építik ezt amit úgy hívnak ArduCopter.
+
+00:06:59.673 --> 00:07:02.684
+De aztán valaki elindította ezt a start-up céget,
+
+00:07:02.686 --> 00:07:04.879
+a Matternetet, ahol rájöttek, hogy ezt
+
+00:07:04.879 --> 00:07:07.177
+ténylegesen lehet szállításra használni,
+
+00:07:07.177 --> 00:07:09.610
+az egyik faluból a másikba Afrikában,
+
+00:07:09.610 --> 00:07:11.178
+mivel ez elérhető,
+
+00:07:11.178 --> 00:07:13.790
+nyílt forráskódú, bütykölhető, lehetővé vált, hogy
+
+00:07:13.790 --> 00:07:15.928
+a cégük prototípusát gyorsan létrehozzák.
+
+00:07:15.928 --> 00:07:18.617
+Vagy más projektek. Matt Richardson: Elegem van,
+
+00:07:18.617 --> 00:07:21.873
+hogy ugyanazokról az emberekről hallok a tévében újra és újra és újra,
+
+00:07:21.873 --> 00:07:25.083
+ezért úgy döntöttem, hogy teszek ellene.
+
+00:07:25.083 --> 00:07:26.497
+Ez az Arduino projekt, amit úgy hívok,
+
+00:07:26.497 --> 00:07:29.859
+"Most már elég!", elnémítja a tévét bármikor,
+
+00:07:29.872 --> 00:07:31.847
+amikor ezeket a túlexponált celebeket
+
+00:07:31.847 --> 00:07:33.079
+említik. (Nevetés)
+
+00:07:33.079 --> 00:07:37.927
+Megmutatom, hogyan csináltam. (Taps)
+
+00:07:37.927 --> 00:07:39.751
+MB: Ezt kapd ki!
+
+00:07:39.751 --> 00:07:41.708
+MR: Producereink utolérték Kim Kardashiant ma
+
+00:07:41.708 --> 00:07:44.611
+délelőtt, hogy megtudják, mit tervez viselni a... --
+
+00:07:44.611 --> 00:07:46.002
+MB: Nos? (Nevetés)
+
+00:07:46.002 --> 00:07:47.904
+MR: Egészen jól működhet arra, hogy
+
+00:07:47.904 --> 00:07:49.571
+megóvjon minket a részletektől
+
+00:07:49.571 --> 00:07:51.367
+Kim Kardashian esküvőjéről.
+
+00:07:51.367 --> 00:07:55.924
+MB: Oké. Szóval tudják, ismét, ami érdekes itt,
+
+00:07:55.924 --> 00:07:58.894
+hogy Matt talált egy modult,
+
+00:07:58.894 --> 00:08:01.126
+amivel az Arduino feldolgozza a
+
+00:08:01.126 --> 00:08:03.015
+tévé jeleit, talált némi programot, amit
+
+00:08:03.015 --> 00:08:05.844
+valaki más írt, hogy infravörös jeleket adjon a tévének,
+
+00:08:05.844 --> 00:08:08.194
+összerakta, majd létrehozta ezt a remek projektet.
+
+00:08:08.194 --> 00:08:10.246
+Szintén használják, az Arduinót használják
+
+00:08:10.246 --> 00:08:13.133
+komoly helyeken is, mint a nagy hadronütköztetőben.
+
+00:08:13.146 --> 00:08:15.855
+Van ott néhány Arduino kártya, amik adatokat gyűjtenek,
+
+00:08:15.855 --> 00:08:17.655
+és néhány paramétert mérnek.
+
+00:08:17.655 --> 00:08:19.974
+Vagy alkalmazzák --
+
+00:08:19.974 --> 00:08:30.686
+(Zene)
+
+00:08:30.686 --> 00:08:33.127
+Tehát ez egy zenei interfész, amit
+
+00:08:33.127 --> 00:08:35.246
+egy diák épített Olaszországban,
+
+00:08:35.246 --> 00:08:37.366
+és éppen termékké
+
+00:08:37.366 --> 00:08:39.224
+alakítja. Mert ez egy
+
+00:08:39.224 --> 00:08:41.455
+hallgatói projekt volt, amiből termék lett.
+
+00:08:41.455 --> 00:08:43.399
+Vagy segédeszközt lehet belőle készíteni.
+
+00:08:43.399 --> 00:08:45.389
+Ez egy kesztyű, amely megérti
+
+00:08:45.389 --> 00:08:47.536
+a jelnyelvet, és átalakítja
+
+00:08:47.536 --> 00:08:49.735
+a gesztusokat hangokká
+
+00:08:49.735 --> 00:08:53.051
+és kiírja a szavakat, amiket jelbeszéddel mutogatunk, egy kijelzőre.
+
+00:08:53.051 --> 00:08:54.397
+És ez is különböző részekből áll,
+
+00:08:54.397 --> 00:08:57.346
+olyan honlapokról, amik Arduino-kompatibilis részeket árulnak,
+
+00:08:57.346 --> 00:08:59.430
+és ezeket összerakhatjuk egy projektté.
+
+00:08:59.430 --> 00:09:02.751
+Vagy ez a projekt, ami az ITP-n készült a New York Egyetemen,
+
+00:09:02.751 --> 00:09:04.478
+ahol találkoztak ezzel a fiúval,
+
+00:09:04.478 --> 00:09:07.495
+aki súlyosan fogyatékos, nem tud játszani a PS3-mal,
+
+00:09:07.496 --> 00:09:09.439
+ezért megépítették ezt a készüléket, ami
+
+00:09:09.439 --> 00:09:11.886
+lehetővé teszi, hogy a srác baseballozzon,
+
+00:09:11.886 --> 00:09:13.783
+bár erősen
+
+00:09:13.783 --> 00:09:16.159
+mozgáskorlátozott.
+
+00:09:16.159 --> 00:09:18.309
+Vagy megtalálható művészeti projektekben.
+
+00:09:18.309 --> 00:09:20.624
+Ez a txtBomber.
+
+00:09:20.624 --> 00:09:22.261
+Beírunk egy üzenetet a készülékbe, majd
+
+00:09:22.261 --> 00:09:25.104
+végiggördítjük a falon. Lényegében
+
+00:09:25.104 --> 00:09:27.006
+mágnesszelepei vannak, amik
+
+00:09:27.006 --> 00:09:28.798
+lenyomják a festékszórók szórófejét,
+
+00:09:28.798 --> 00:09:30.434
+szóval csak végighúzzuk a falon,
+
+00:09:30.434 --> 00:09:32.161
+és ez pedig a falra írja
+
+00:09:32.161 --> 00:09:34.623
+a politikai üzeneteket.
+
+00:09:34.623 --> 00:09:37.254
+Szóval, igen. (Taps)
+
+00:09:37.254 --> 00:09:39.294
+Aztán itt van ez a növény.
+
+00:09:39.294 --> 00:09:41.184
+Úgy hívják: Botanicalls,
+
+00:09:41.184 --> 00:09:44.379
+mert van egy Arduino kártya egy wifi modullal ellátva
+
+00:09:44.379 --> 00:09:46.980
+a cserépben, és ez méri
+
+00:09:46.980 --> 00:09:48.495
+a növény jól-létét,
+
+00:09:48.495 --> 00:09:50.485
+és létrehoz egy Twitter fiókot,
+
+00:09:50.485 --> 00:09:54.014
+ahol kommunikálhatunk a növénnyel. (Nevetés)
+
+00:09:54.014 --> 00:09:55.944
+Szóval, tudják, a növény
+
+00:09:55.944 --> 00:09:58.423
+elkezdi mondani, hogy "Nagyon meleg van", vagy
+
+00:09:58.423 --> 00:10:02.494
+van egy csomó, "Vizet kérek, most!" (Nevetés)
+
+00:10:02.494 --> 00:10:05.917
+Tehát személyiséget ad a növényünknek.
+
+00:10:05.917 --> 00:10:08.584
+Vagy ez itt, ami twittel, amikor
+
+00:10:08.584 --> 00:10:10.550
+a baba a terhes mama hasában
+
+00:10:10.550 --> 00:10:13.158
+rugdal. (Nevetés)
+
+00:10:13.158 --> 00:10:14.749
+Vagy itt ez a 14 éves gyerek Chiléből,
+
+00:10:14.749 --> 00:10:16.869
+aki olyan rendszert épített, ami észleli
+
+00:10:16.869 --> 00:10:19.193
+a földrengéseket, és közzéteszi a Twitteren.
+
+00:10:19.193 --> 00:10:21.681
+280 ezer követője van.
+
+00:10:21.681 --> 00:10:23.825
+14 éves, és beelőzött egy
+
+00:10:23.825 --> 00:10:27.464
+kormányzati projektet egy évvel. (Taps)
+
+00:10:27.464 --> 00:10:31.205
+Vagy megint egy másik projekt, ahol
+
+00:10:31.205 --> 00:10:32.951
+egy család Twitter csatornájának
+
+00:10:32.951 --> 00:10:34.887
+elemzésével rámutathatunk,
+
+00:10:34.887 --> 00:10:37.629
+hogy tulajdonképpen hol vannak, mint a "Harry Potter" c. filmben.
+
+00:10:37.629 --> 00:10:40.445
+Mindent megtudhatnak erről a projektről a honlapon.
+
+00:10:40.445 --> 00:10:45.126
+Vagy, valaki készített egy széket, ami twittel, ha valaki fingik. (Nevetés)
+
+00:10:45.126 --> 00:10:48.209
+Érdekes, ahogy 2009-ben
+
+00:10:48.209 --> 00:10:50.591
+a Gizmodo úgy határozott, azt mondták,
+
+00:10:50.591 --> 00:10:53.354
+hogy ez a projekt végre értelmet ad a Twitternek,
+
+00:10:53.354 --> 00:10:56.615
+szóval ez... sok mindent megváltoztatott. (Nevetés)
+
+00:10:56.615 --> 00:10:58.059
+Egy komoly projekt.
+
+00:10:58.059 --> 00:11:00.266
+Amikor a fukushimai katasztrófa történt,
+
+00:11:00.266 --> 00:11:03.268
+sok japán ráébredt, hogy a hírek, amiket
+
+00:11:03.268 --> 00:11:05.823
+a kormány közölt, nem voltak igazán nyíltak és
+
+00:11:05.823 --> 00:11:07.573
+ténylegesen megbízhatók, ezért építették
+
+00:11:07.573 --> 00:11:10.349
+ezt a Geiger-számlálót Arduinóval és hálózati
+
+00:11:10.349 --> 00:11:12.281
+csatolóval. Készítettek 100-at,
+
+00:11:12.281 --> 00:11:15.846
+kiosztották az embereknek Japán-szerte, és lényegében
+
+00:11:15.859 --> 00:11:18.119
+a begyűjtött adatokat ezen a honlapon publikálják,
+
+00:11:18.119 --> 00:11:20.268
+aminek Cosm a neve -- ez még egy honlap amit
+
+00:11:20.268 --> 00:11:23.909
+készítettek --, így aztán szavahihető, valós idejű
+
+00:11:23.909 --> 00:11:25.734
+információkat kaphatunk a terepről,
+
+00:11:25.734 --> 00:11:29.341
+és elfogulatlan tájékoztatást.
+
+00:11:29.341 --> 00:11:31.224
+Vagy itt ez a gép, ez a
+
+00:11:31.224 --> 00:11:33.664
+a csináld magad biomozgalomból van, egyike azon
+
+00:11:33.664 --> 00:11:35.988
+lépéseknek, amik kellenek a DNS-feldolgozáshoz
+
+00:11:35.988 --> 00:11:39.366
+és ez is teljesen nyílt forráskódú, az alapjaitól kezdve.
+
+00:11:39.366 --> 00:11:42.758
+Vagy vannak diákok fejlődő országokban, akik
+
+00:11:42.760 --> 00:11:45.749
+tudományos eszközöket másolnak, olyanokat,
+
+00:11:45.749 --> 00:11:47.660
+amik rengeteg pénzbe kerülnének.
+
+00:11:47.660 --> 00:11:50.250
+Így egyszerűen megépítik maguk, sokkal kevesebbért,
+
+00:11:50.250 --> 00:11:51.483
+Arduinóból és pár alkatrészből.
+
+00:11:51.483 --> 00:11:53.379
+Ez egy pH-szonda.
+
+00:11:53.379 --> 00:11:56.777
+Vagy vegyük ezeket a srácokat Spanyolországból.
+
+00:11:56.777 --> 00:11:59.635
+Megtanulták, hogyan kell programozni, és robotokat építeni,
+
+00:11:59.641 --> 00:12:02.310
+kb. amikor 11 évesek voltak, aztán elkezdtek Arduinót használni,
+
+00:12:02.310 --> 00:12:04.303
+hogy ezek a robotok focizni tudjanak.
+
+00:12:04.303 --> 00:12:07.145
+Világbajnokok lettek az Arduino-alapú robotokkal.
+
+00:12:07.145 --> 00:12:09.021
+És amikor el kellett készítenünk
+
+00:12:09.021 --> 00:12:11.831
+a saját oktatási robotunkat, akkor azt mondtuk nekik:
+
+00:12:11.833 --> 00:12:14.181
+"Tervezzétek meg ti, mert ti tudjátok pontosan,
+
+00:12:14.181 --> 00:12:17.911
+mi az egy jó robotban, ami izgalomba hozza a gyerekeket."
+
+00:12:17.911 --> 00:12:19.587
+Nem én. Én egy öreg fickó vagyok.
+
+00:12:19.587 --> 00:12:22.123
+Mit kéne nekem izgalomba hoznom? (Nevetés)
+
+00:12:22.123 --> 00:12:26.058
+De ahogy... Mármint oktatási szempontból. (Nevetés)
+
+00:12:26.058 --> 00:12:27.956
+Vannak cégek is, mint a Google,
+
+00:12:27.956 --> 00:12:29.907
+akik arra használják a technológiát,
+
+00:12:29.907 --> 00:12:32.781
+hogy interfészeket hozzanak létre
+
+00:12:32.781 --> 00:12:36.174
+mobiltelefonok, tabletek és a valós világ között.
+
+00:12:36.174 --> 00:12:37.194
+Az Accessory Development Kit
+
+00:12:37.194 --> 00:12:39.246
+a Google-től nyílt forráskódú,
+
+00:12:39.246 --> 00:12:40.628
+és Arduino-alapú, szemben
+
+00:12:40.628 --> 00:12:42.285
+az Apple-ével, amely
+
+00:12:42.285 --> 00:12:44.789
+zárt forráskódú, titoktartási nyilatkozattal,
+
+00:12:44.789 --> 00:12:47.354
+írj alá az Apple-nek egy életre! Tessék.
+
+00:12:47.354 --> 00:12:49.934
+Ez egy hatalmas labirintus, Joey benne ül, és a
+
+00:12:49.934 --> 00:12:54.118
+labirintus mozog, amikor megdöntjük a tabletet.
+
+00:12:54.118 --> 00:12:57.089
+Valamint, én olasz vagyok, és a dizájn nagyon fontos
+
+00:12:57.090 --> 00:12:59.437
+Olaszországban, de mégis nagyon konzervatív.
+
+00:12:59.437 --> 00:13:00.854
+Összefogtunk egy dizájnstúdióval
+
+00:13:00.854 --> 00:13:03.020
+Milánóban, úgy hívják Habits, és megcsináltuk
+
+00:13:03.020 --> 00:13:05.708
+ezt a tükröt, ami teljesen nyílt forráskódú.
+
+00:13:05.708 --> 00:13:08.893
+Úgy is használható, mint egy iPod hangszóró.
+
+00:13:08.893 --> 00:13:12.530
+Tehát az az elképzelés, hogy a hardver, a szoftver,
+
+00:13:12.530 --> 00:13:13.998
+a dizájn, az előállítás,
+
+00:13:13.998 --> 00:13:16.483
+minden ebben a projektben nyílt forráskódú,
+
+00:13:16.483 --> 00:13:18.353
+és csináld magad.
+
+00:13:18.353 --> 00:13:20.707
+Szeretnénk, hogy más tervezők tanuljanak belőle,
+
+00:13:20.707 --> 00:13:23.318
+hogyan lehet nagyszerű eszközöket készíteni, tanulják meg, hogyan
+
+00:13:23.318 --> 00:13:24.996
+lehet interaktív terméket
+
+00:13:24.996 --> 00:13:27.765
+előállítani, kiindulva valami létezőből.
+
+00:13:27.765 --> 00:13:30.166
+De ha már van egy ilyen ötletük,
+
+00:13:30.166 --> 00:13:32.079
+tudják, mi történik az összes ilyen ötlettel?
+
+00:13:32.079 --> 00:13:33.957
+Van, mondjuk, több ezer ötlet, amit én...
+
+00:13:33.957 --> 00:13:36.117
+Tudják hét órán át tartana, ha
+
+00:13:36.117 --> 00:13:37.997
+mindegyiket megmutatnám.
+
+00:13:37.997 --> 00:13:41.045
+Nem fogok hét egész órát beszélni. Köszönöm.
+
+00:13:41.045 --> 00:13:43.061
+De induljunk ki ebből a példából.
+
+00:13:43.061 --> 00:13:44.989
+Egy csapat, aki elkezdte
+
+00:13:44.989 --> 00:13:47.400
+ezt a céget, amit Pebble-nek hívnak, készített
+
+00:13:47.400 --> 00:13:51.092
+egy prototípus órát, amely Bluetooth-on keresztül kommunikál a telefonnal,
+
+00:13:51.092 --> 00:13:52.628
+és meg tud jeleníteni információkat.
+
+00:13:52.628 --> 00:13:54.900
+És a prototípust
+
+00:13:54.900 --> 00:13:56.845
+egy régi Nokiából vett LCD-képernyőből csinálták
+
+00:13:56.845 --> 00:13:59.253
+és egy Arduinóból.
+
+00:13:59.253 --> 00:14:01.086
+És amikor összeállt
+
+00:14:01.086 --> 00:14:03.494
+a projekt, felmentek a Kickstarterre,
+
+00:14:03.494 --> 00:14:06.113
+és 100.000 dollárt kértek, hogy azért, hogy
+
+00:14:06.113 --> 00:14:07.968
+készítsenek belőle párat eladásra.
+
+00:14:07.968 --> 00:14:10.039
+10 millió dollárt kaptak.
+
+00:14:10.039 --> 00:14:11.574
+Kaptak egy teljesen
+
+00:14:11.574 --> 00:14:14.269
+feltőkésített start-upot, és nem kellet, hogy
+
+00:14:14.287 --> 00:14:16.139
+befektetőkhöz forduljanak,
+
+00:14:16.139 --> 00:14:18.972
+csak az emberek érdeklődését kellett felkelteni, a nagyszerű projektjükkel.
+
+00:14:19.007 --> 00:14:21.291
+Az utolsó projekt, amit meg akarok mutatni, az ez.
+
+00:14:21.291 --> 00:14:25.029
+A neve ArduSat és jelenleg a Kickstarteren van,
+
+00:14:25.029 --> 00:14:27.336
+tehát ha segíteni szeretnének, kérem, tegyék meg.
+
+00:14:27.336 --> 00:14:30.146
+Ez egy műhold, ami az űrbe megy, ami talán
+
+00:14:30.146 --> 00:14:32.068
+az elképzelhető legkevésbé nyílt dolog,
+
+00:14:32.068 --> 00:14:34.119
+és van benne egy Arduino
+
+00:14:34.119 --> 00:14:37.229
+egy csomó érzékelővel. Így aki tudja, hogyan kell Arduinót használni,
+
+00:14:37.229 --> 00:14:39.685
+az feltöltheti a kísérleteit
+
+00:14:39.685 --> 00:14:41.876
+erre a műholdra, és futtathatja őket.
+
+00:14:41.876 --> 00:14:44.512
+Képzeljék csak el, ha mint egy középiskola, használhatnák a műholdat
+
+00:14:44.512 --> 00:14:46.861
+egy hétig, és csinálhatnának ilyen műholdalapú
+
+00:14:46.861 --> 00:14:49.513
+űrkísérleteket.
+
+00:14:49.513 --> 00:14:52.269
+Szóval, mint mondtam, rengeteg ilyen példa van,
+
+00:14:52.269 --> 00:14:53.828
+és itt megállok. És csak
+
+00:14:53.828 --> 00:14:56.344
+szeretném megköszönni az Arduino közösségnek,
+
+00:14:56.344 --> 00:14:58.014
+hogy ők a legjobbak, és
+
+00:14:58.014 --> 00:15:00.206
+minden nap sok-sok projektet csinálnak.
+
+00:15:00.206 --> 00:15:03.670
+Köszönöm. (Taps)
+
+00:15:03.670 --> 00:15:05.997
+(Taps)
+
+00:15:05.997 --> 00:15:08.484
+És köszönet a közösségnek.
+
+00:15:08.484 --> 00:15:10.457
+Chris Anderson: Massimo,
+
+00:15:10.457 --> 00:15:13.062
+mesélted nekem, hogy fogalmad sem volt, persze,
+
+00:15:13.062 --> 00:15:14.534
+hogy ez így be fog indulni.
+
+00:15:14.534 --> 00:15:15.323
+MB: Nem.
+
+00:15:15.323 --> 00:15:17.119
+CA: Milyen az, amikor
+
+00:15:17.119 --> 00:15:19.620
+olvasol ezekről és látod, hogy mit indítottál el?
+
+00:15:19.620 --> 00:15:22.436
+MB: Ez egy csomó ember munkája, így mi, mint közösség
+
+00:15:22.439 --> 00:15:24.233
+lehetővé tesszük,
+
+00:15:24.233 --> 00:15:26.717
+hogy mások nagyszerű dolgokat alkossanak, és ez felemelő.
+
+00:15:26.735 --> 00:15:28.904
+Ezt nehéz leírni.
+
+00:15:28.904 --> 00:15:30.918
+Minden reggel, amikor felkelek, és megnézem, amit
+
+00:15:30.918 --> 00:15:33.104
+a Google Alerts elküld nekem, és ez
+
+00:15:33.104 --> 00:15:34.639
+egyszerűen lenyűgöző. Ez megy
+
+00:15:34.639 --> 00:15:37.312
+minden téren, amit csak el tudsz képzelni.
+
+00:15:37.312 --> 00:15:39.304
+CA: Köszönöm szépen. (Taps)
+
+00:15:39.304 --> 00:15:42.566
+(Taps)
+

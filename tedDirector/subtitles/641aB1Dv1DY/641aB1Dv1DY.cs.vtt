@@ -1,0 +1,252 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Marek Petrik
+Korektor: Mirek Mráz
+
+00:00:16.804 --> 00:00:20.773
+Abychom pochopili svět, ve kterém žijeme, vyprávíme příběhy.
+
+00:00:20.773 --> 00:00:24.243
+A když je přetváříme a sdílíme, dostáváme se k definici
+
+00:00:24.243 --> 00:00:25.824
+webu tak, jak ho známe.
+
+00:00:25.824 --> 00:00:29.659
+Každý z nás je součástí toho příběhu díky jednoduchým nástrojům,
+
+00:00:29.659 --> 00:00:32.124
+které nám umožňují dávat věci na síť.
+
+00:00:32.124 --> 00:00:36.206
+Ale video stojí stranou. Přišlo na web
+
+00:00:36.206 --> 00:00:38.952
+v malém rámečku, 
+a tam také zůstalo,
+
+00:00:38.952 --> 00:00:42.041
+naprosto odpojené
+
+00:00:42.041 --> 00:00:43.913
+od okolních dat a obsahu.
+
+00:00:43.913 --> 00:00:45.825
+Ve skutečnosti jediná věc, 
+která se na videu změnila
+
+00:00:45.825 --> 00:00:49.421
+za víc než dekádu, 
+je velikost toho rámečku
+
+00:00:49.421 --> 00:00:52.298
+a kvalita obrazu.
+
+00:00:52.298 --> 00:00:55.466
+Popcorn to všechno mění.
+
+00:00:55.466 --> 00:00:58.579
+Je to online nástroj, který umožňuje každému kombinovat video s obsahem,
+
+00:00:58.579 --> 00:01:01.964
+který rovnou stahuje přímo z webu.
+
+00:01:01.964 --> 00:01:05.499
+Videa vytvořená pomocí Popcornu 
+se chovají stejně jako web:
+
+00:01:05.499 --> 00:01:09.546
+jsou dynamická, plná odkazů a mohou být upravována
+
+00:01:09.546 --> 00:01:13.845
+a konečně se mohou vyloupnout z okénka.
+
+00:01:13.845 --> 00:01:16.249
+Chci vám předvést ukázku prototypu,
+
+00:01:16.249 --> 00:01:18.289
+na kterém pracujeme a který spustíme na konci podzimu.
+
+00:01:18.289 --> 00:01:23.235
+Bude naprosto zdarma a bude fungovat v každém prohlížeči.
+
+00:01:23.235 --> 00:01:26.301
+Tvorba v Popcornu pokaždé začíná videem.
+
+00:01:26.301 --> 00:01:28.687
+Proto jsem pomocí novinářské šablony vytvořil krátký,
+
+00:01:28.687 --> 00:01:32.438
+20 sekundový klip, který používáme na workshopech.
+
+00:01:32.438 --> 00:01:36.122
+Pustíme si ho. Pak vám ukážu, jak jsme ho udělali.
+
+00:01:36.122 --> 00:01:38.874
+Ahoj, vítejte na mém zpravodajském kanálu.
+
+00:01:38.874 --> 00:01:41.315
+Svou polohu jsem přidal na Google Map,
+
+00:01:41.315 --> 00:01:44.683
+a děje se to živě, takže s tím můžeme posouvat.
+
+00:01:44.683 --> 00:01:48.075
+Můžete přidat vyskakovací okna s odkazy a vlastní ikonky
+
+00:01:48.075 --> 00:01:51.539
+nebo stahovat obsah z jakékoli webové služby, jako je Flickr,
+
+00:01:51.539 --> 00:01:56.369
+nebo přidávat články a blogové příspěvky s odkazy na plné znění.
+
+00:01:56.369 --> 00:02:00.008
+Vrátíme se a ukážu vám, co jste viděli. Bylo toho celkem dost.
+
+00:02:00.008 --> 00:02:03.434
+Toto je časová osa a pokud jste někdy stříhali video,
+
+00:02:03.434 --> 00:02:06.353
+tak ji dobře znáte. Místo klipů na časové ose
+
+00:02:06.353 --> 00:02:09.939
+ale vidíte webové akce, které se budou stahovat do videa.
+
+00:02:09.939 --> 00:02:12.330
+V tomto projektu máme v Popcornu titulek,
+
+00:02:12.330 --> 00:02:16.083
+máme Google mapu, která se objevuje
+
+00:02:16.083 --> 00:02:18.570
+uvnitř obrazu a potom ji Popcorn vytlačí
+
+00:02:18.570 --> 00:02:21.930
+mimo obraz a zabere celou obrazovku.
+
+00:02:21.930 --> 00:02:24.599
+Jsou tu dvě vyskakující okna, která obsahují nějaké další informace
+
+00:02:24.599 --> 00:02:28.977
+a poslední článek s odkazem na původní článek.
+
+00:02:28.977 --> 00:02:32.511
+Půjdeme na Google Map a ukážu vám, jak to můžete upravovat.
+
+00:02:32.511 --> 00:02:35.760
+Jediné, co je k tomu třeba, je jít na časovou osu, dvakrát kliknout na obsah
+
+00:02:35.760 --> 00:02:38.019
+a nastavit Toronto, protože odtamtud pocházím.
+
+00:02:38.019 --> 00:02:41.541
+Můžeme to nastavit na něco jiného.
+
+00:02:41.541 --> 00:02:44.672
+Popcorn okamžitě jde na web,
+
+00:02:44.672 --> 00:02:47.729
+navštíví Google, stáhne mapu a umístí ji na obrazovku.
+
+00:02:47.729 --> 00:02:49.335
+A to je úplně stejné pro lidi,
+
+00:02:49.335 --> 00:02:51.071
+kteří sledují váš pořad.
+
+00:02:51.071 --> 00:02:53.582
+Děje se to živě. Není to obrázek. Když na to kliknete,
+
+00:02:53.582 --> 00:02:57.812
+můžete si to přiblížit až třeba na uliční pohled, pokud chcete.
+
+00:02:57.812 --> 00:03:00.819
+Ve videu jsem se zmínil o přidávání aktuálního obsahu.
+
+00:03:00.819 --> 00:03:04.000
+Můžeme to udělat rovnou, takže přidáme obsah
+
+00:03:04.000 --> 00:03:06.884
+z Flickru. Najedeme na pravou stranu,
+
+00:03:06.884 --> 00:03:09.273
+vybereme z nabídky Flickru,
+
+00:03:09.273 --> 00:03:11.520
+přetáhneme ho na časovou osu
+
+00:03:11.520 --> 00:03:13.994
+a umístíme ho tam, kde chceme,
+
+00:03:13.994 --> 00:03:16.457
+a on okamžitě jde na Flickr a začne stahovat
+
+00:03:16.457 --> 00:03:19.469
+obrázky podle tagů. Moji programátoři
+
+00:03:19.469 --> 00:03:23.329
+mají prostě rádi poníky, a tak to nastavili jako výchozí tag.
+
+00:03:23.329 --> 00:03:26.445
+Zkusíme něco jiného,
+
+00:03:26.445 --> 00:03:30.013
+možná něco relevantnějšího.
+
+00:03:30.013 --> 00:03:32.743
+A teď se objeví obrázky stažené přímo z webu.
+
+00:03:32.743 --> 00:03:34.331
+Pokud se na to budete dívat za týden,
+
+00:03:34.331 --> 00:03:35.875
+bude to úplně jiné,
+
+00:03:35.875 --> 00:03:38.384
+dynamické, zkrátka jako web,
+
+00:03:38.384 --> 00:03:40.436
+na kterém je všechno uložené, takže kliknete na odkaz
+
+00:03:40.436 --> 00:03:44.229
+a jdete přímo na Flickr a vidíte zdrojový obrázek.
+
+00:03:44.229 --> 00:03:46.475
+Všechno, co tu dnes vidíte je vytvořeno pomocí základních
+
+00:03:46.475 --> 00:03:50.035
+stavebních kamenů webu: HTML, CSS a JavaScriptu.
+
+00:03:50.035 --> 00:03:51.954
+To znamená, že je to možné kompletně předělat. Také to znamená,
+
+00:03:51.954 --> 00:03:54.518
+že to není žádný speciální software. Stačí vám
+
+00:03:54.518 --> 00:03:57.477
+jenom webový prohlížeč.
+
+00:03:57.477 --> 00:04:00.847
+Představte si, že by každé video, které na webu sledujete
+
+00:04:00.847 --> 00:04:03.893
+pracovalo jako web, umožňovalo by předělávání,
+
+00:04:03.893 --> 00:04:06.640
+s odkazy na zdrojový obsah a interaktivní
+
+00:04:06.640 --> 00:04:09.021
+pro všechny, co se na něj dívají.
+
+00:04:09.021 --> 00:04:12.017
+Myslím si, že by Popcorn mohl změnit způsob, jakým vyprávíme příběhy na webu,
+
+00:04:12.017 --> 00:04:14.395
+a to jak chápeme svět ve kterém žijeme.
+
+00:04:14.395 --> 00:04:20.081
+Děkuji. (Potlesk)
+

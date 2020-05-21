@@ -1,0 +1,1107 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Tayfun Günal
+Gözden geçirme: Ramazan Şen
+
+00:00:12.760 --> 00:00:14.600
+Bu Pleurobot.
+
+00:00:15.400 --> 00:00:19.016
+Pleurobot, Pleurodeles waltl isimli
+semender ırkına çok benzeyecek şekilde
+
+00:00:19.040 --> 00:00:20.440
+tasarladığımız bir robottur.
+
+00:00:21.240 --> 00:00:23.496
+Burada gördüğünüz gibi
+Pleurobot yürüyebiliyor
+
+00:00:23.520 --> 00:00:25.820
+ve ileride göreceğiniz gibi
+aynı zamanda yüzüyor.
+
+00:00:26.280 --> 00:00:28.471
+Bu robotu neden
+tasarladığımızı sorabilirsiniz.
+
+00:00:28.960 --> 00:00:32.722
+Aslında bu robot sinirbilimi
+için bilimsel bir araç olarak tasarlandı.
+
+00:00:33.400 --> 00:00:36.076
+Aslında, bu robotu
+sinirbilimcilerle birlikte tasarladık.
+
+00:00:36.076 --> 00:00:38.176
+Hayvanların nasıl hareket
+ettiğini anlamak ve
+
+00:00:38.176 --> 00:00:41.560
+özellikle omurganın, hareketi nasıl
+kontrol ettiğini anlamak için tasarlandı.
+
+00:00:41.560 --> 00:00:43.206
+Biyorobotlarla çalıştıkça
+
+00:00:43.206 --> 00:00:45.871
+hayvanların hareketlerinden 
+daha çok etkileniyorum.
+
+00:00:45.871 --> 00:00:50.216
+Bir yunusun yüzmesini, bir kedinin 
+koşmasını veya etrafta zıplamasını
+
+00:00:50.240 --> 00:00:52.230
+düşünürseniz veya biz
+insanlar olarak bile
+
+00:00:52.250 --> 00:00:53.656
+koşarken veya tenis oynarken
+
+00:00:53.680 --> 00:00:54.990
+şaşırtıcı şeyler yapıyoruz.
+
+00:00:55.880 --> 00:01:00.016
+Sinir sistemimiz, oldukça karmaşık
+olan bir kontrol problemini çözüyor.
+
+00:01:00.040 --> 00:01:03.406
+Neredeyse 200'e yakın kası kusursuz
+bir şekilde koordine etmek zorunda.
+
+00:01:03.406 --> 00:01:07.190
+Çünkü, eğer koordinasyon kötü olursa 
+düşer veya kötü bir hareket yapmış oluruz.
+
+00:01:07.440 --> 00:01:10.530
+Ve benim amacım bunun 
+nasıl çalıştığını anlamak.
+
+00:01:11.160 --> 00:01:14.000
+Hayvan hareketlerini sağlayan
+dört ana bileşen vardır
+
+00:01:14.800 --> 00:01:16.796
+Birinci bileşen hayvanlarda
+hareketi
+
+00:01:16.796 --> 00:01:18.976
+kolaylaştıran biyomekaniği 
+kapsayan bedendir
+
+00:01:18.976 --> 00:01:22.240
+ve bu asla küçümsenmemelidir.
+
+00:01:22.920 --> 00:01:24.376
+Sonra omurga
+
+00:01:24.400 --> 00:01:26.376
+ve omurgada bulunan refleksler,
+
+00:01:26.400 --> 00:01:29.856
+omurgadaki nöral aktivite ve
+mekanik aktivite arasında
+
+00:01:29.880 --> 00:01:33.360
+sensorimotor kordinasyon döngüsünü
+yaratan çoklu refleksler gelir.
+
+00:01:34.000 --> 00:01:36.976
+Üçüncü bileşen, merkezi 
+desen jeneratörleridir.
+
+00:01:37.000 --> 00:01:40.896
+Bunlar, omurgalı hayvanların
+omuriliklerinde bulunan,
+
+00:01:40.920 --> 00:01:42.986
+sadece çok basit giriş
+sinyallerini alarak,
+
+00:01:42.986 --> 00:01:45.296
+koordineli ritmik aktivite
+desenleri yaratabilen
+
+00:01:45.320 --> 00:01:47.696
+çok ilginç devrelerdir.
+
+00:01:47.720 --> 00:01:48.936
+Ve bu giriş sinyalleri,
+
+00:01:48.960 --> 00:01:52.066
+beynin üst bölümlerindeki motor
+korteks, beyincik, bazal gangliyon
+
+00:01:52.066 --> 00:01:54.736
+gibi azalan modülasyondan gelir.
+
+00:01:54.760 --> 00:01:56.896
+Biz hareket ederken, omurilik tüm
+
+00:01:56.920 --> 00:01:58.376
+modülasyon aktivitesini yapar.
+
+00:01:58.400 --> 00:02:01.616
+Fakat asıl ilginç olan,
+alt seviye bir bileşen,
+
+00:02:01.640 --> 00:02:03.966
+omurilik ve vücut birlikte
+hareket probleminin
+
+00:02:03.966 --> 00:02:05.660
+büyük bir bölümünü zaten çözer.
+
+00:02:05.660 --> 00:02:09.502
+Muhtemelen, kafası kesildiği 
+halde halen koşabilen
+
+00:02:09.532 --> 00:02:10.983
+tavuk olayını biliyorsunuzdur.
+
+00:02:10.983 --> 00:02:13.476
+Bu olay, alt bölümün, omurilik 
+ve vücutla birilikte,
+
+00:02:13.500 --> 00:02:15.373
+hareketi sağladığını gösterir.
+
+00:02:15.397 --> 00:02:17.856
+Bunun nasıl çalıştığını 
+anlamak çok karmaşıktır
+
+00:02:17.880 --> 00:02:19.176
+çünkü her şeyden önce
+
+00:02:19.200 --> 00:02:21.820
+omurilikteki kayıt aktivitesi çok zordur.
+
+00:02:21.844 --> 00:02:24.656
+Elektrodların, motor kortekse 
+yerleştirilmesi, omuriliğe
+
+00:02:24.676 --> 00:02:27.416
+yerleştirilmesinden daha kolaydır
+çünkü omurga tarafından korunur.
+
+00:02:27.416 --> 00:02:29.496
+Özellikle insanlarda,
+bu çok daha zordur.
+
+00:02:29.496 --> 00:02:33.336
+İkinci bir zorluk da, hareketin,
+bu dört bileşen
+
+00:02:33.360 --> 00:02:36.416
+arasında, çok kompleks ve 
+dinamik bir etkileşim olmasıdır.
+
+00:02:36.440 --> 00:02:39.680
+Zaman içinde, her birinin 
+rolünü bulmak çok zordur.
+
+00:02:40.880 --> 00:02:44.616
+Pleurobot gibi biyorobotlar ve
+matematiksel modeller, bize bu noktada
+
+00:02:44.640 --> 00:02:45.840
+yardımcı olacaktır.
+
+00:02:47.480 --> 00:02:48.736
+Peki, biyorobotik nedir?
+
+00:02:48.760 --> 00:02:51.496
+Biyorobotik, insanların hayvanlardan
+
+00:02:51.520 --> 00:02:53.976
+ilham alarak, dışarı çıkabilen,
+
+00:02:54.000 --> 00:02:56.456
+servis, araştırma, kurtarma
+
+00:02:56.480 --> 00:02:59.526
+veya arazi robotları yapmalarını sağlayan,
+robot araştırmalarının
+
+00:03:00.880 --> 00:03:03.576
+Büyük hedef, hayvanlardan ilham alarak,
+
+00:03:03.600 --> 00:03:05.936
+robotların halen zorluk yaşadığı ama
+
+00:03:05.960 --> 00:03:07.576
+hayvanların çok iyi olduğu
+
+00:03:07.600 --> 00:03:09.616
+merdiven, dağ, orman 
+gibi arazilerle
+
+00:03:09.640 --> 00:03:11.696
+baş edebilecek robotlar yapmaktır.
+
+00:03:11.720 --> 00:03:14.216
+Robot mükemmel bir 
+bilimsel araç da olabilir.
+
+00:03:14.240 --> 00:03:16.860
+Biyomekanik veya hidromekanik
+alanlarında, robotların
+
+00:03:16.884 --> 00:03:20.856
+nörobilim için bilimsel araç gibi
+kullanıldığı çok güzel projeler vardır.
+
+00:03:20.880 --> 00:03:23.140
+Ve bu tam olarak Pleurobotun 
+varoluş amacıdır.
+
+00:03:23.600 --> 00:03:26.536
+Biz laboratuvarda,
+Fransa Bordeaux'dan bir
+
+00:03:26.560 --> 00:03:30.346
+nörobiyolog olan Jean-Marie Cabelguen
+gibi nörobiyologlar ile omurilik modelleri 
+
+00:03:30.346 --> 00:03:33.840
+yapmak ve onları robotlar 
+üzerinde doğrulamak istiyoruz.
+
+00:03:34.480 --> 00:03:36.096
+Basitten başlamak istiyoruz.
+
+00:03:36.120 --> 00:03:38.096
+Bu durumda, ilkel bir 
+balık olan bofa
+
+00:03:38.120 --> 00:03:40.376
+gibi basit hayvanlarla 
+başlamak ve sonrasında
+
+00:03:40.400 --> 00:03:42.896
+daha komplike harekete
+sahip semender, kedi
+
+00:03:42.920 --> 00:03:44.176
+ve insan gibi memelilere
+
+00:03:44.200 --> 00:03:45.696
+doğru gitmek
+
+00:03:45.720 --> 00:03:46.920
+daha mantıklıcadır.
+
+00:03:47.880 --> 00:03:50.256
+Ve işte robot, bizim
+modelimizi doğrulayacak
+
+00:03:50.280 --> 00:03:52.216
+ilginç bir araç haline geliyor.
+
+00:03:52.240 --> 00:03:55.256
+Ve aslında Pleurobot,
+benim için bir hayalin
+
+00:03:55.280 --> 00:03:58.536
+gerçeğe dönüşmesidir.
+Bundan yaklaşık 20 yıl önce,
+
+00:03:58.560 --> 00:04:01.216
+doktoram sırasında, bofa ve 
+semender hareketi üzerine
+
+00:04:01.240 --> 00:04:02.776
+simülasyon yapıyordum.
+
+00:04:02.800 --> 00:04:06.276
+Fakat her zaman simülasyonlarımın 
+sadece yaklaşımlar olduğunu biliyordum.
+
+00:04:06.276 --> 00:04:10.176
+Fiziği; suda, çamurda veya 
+komplike arazide simüle
+
+00:04:10.200 --> 00:04:12.986
+etmek gibi bunu da bilgisayarda 
+simüle etmek çok zor.
+
+00:04:12.986 --> 00:04:15.170
+Niye gerçek robot veya 
+gerçek fizik olmasın?
+
+00:04:15.600 --> 00:04:18.736
+Tüm bu hayvanlar içinde semender
+en favori olanlarımdan biridir.
+
+00:04:18.760 --> 00:04:22.216
+Niye diye sorabilirsiniz; çünkü o, 
+evrimsel bakış açısından,
+
+00:04:22.240 --> 00:04:25.096
+bir amfibi olarak,
+anahtar bir hayvandır.
+
+00:04:25.120 --> 00:04:27.176
+Yılan balığı 
+veya balıklardaki
+
+00:04:27.200 --> 00:04:29.096
+yüzme özelliği;
+memeliler, kediler
+
+00:04:29.120 --> 00:04:33.240
+ve insanlardaki dört ayaklı hareket 
+arasında mükemmel bir bağlantı kurar.
+
+00:04:34.160 --> 00:04:35.816
+Ve aslında modern semender
+
+00:04:35.840 --> 00:04:38.216
+ilk karasal omurgalıya çok benzer,
+
+00:04:38.240 --> 00:04:40.006
+bu nedenle adeta yaşayan bir fosildir ve
+
+00:04:40.006 --> 00:04:41.736
+tüm karasal omurgalıların atası olan
+
+00:04:41.760 --> 00:04:44.680
+atalarımıza ulaşma şansını verir.
+
+00:04:45.240 --> 00:04:46.616
+Semender kıvrılarak yüzer
+
+00:04:46.640 --> 00:04:49.136
+gibi hareket eder ve kafadan
+kuyruğa kadar olan kas
+
+00:04:49.160 --> 00:04:52.800
+hareketlerinin dalgasını yayar.
+
+00:04:53.440 --> 00:04:55.616
+Eğer semenderi yere koyarsanız,
+
+00:04:55.640 --> 00:04:57.976
+tırıs yürüyüş şekline geçiş yapar.
+
+00:04:58.000 --> 00:05:00.863
+Bu durumda bacakların güzel
+
+00:05:00.887 --> 00:05:02.496
+koordineli hareketi ortaya çıkar
+
+00:05:02.520 --> 00:05:05.176
+ve bu gördüğünüz tam olarak
+
+00:05:05.200 --> 00:05:08.856
+Pleurobot'un yürüyüş şeklidir.
+
+00:05:08.880 --> 00:05:11.856
+Şimdi çok şaşırtıcı ve aslında 
+büyüleyici olan şey
+
+00:05:11.880 --> 00:05:16.016
+tüm bunların, omurilik ve vücut 
+tarafından yapılıyor olmasıdır.
+
+00:05:16.040 --> 00:05:18.040
+Eğer beyni çıkarılmış, 
+güzel değil fakat
+
+00:05:18.064 --> 00:05:20.080
+kafası kesilmiş bir semenderin
+
+00:05:20.104 --> 00:05:22.776
+omuriliğine elektriksel 
+uyarıda bulunursanız,
+
+00:05:22.800 --> 00:05:26.056
+uyarının alt seviyelerinde 
+yürüme hareketini elde edersiniz.
+
+00:05:26.080 --> 00:05:28.636
+Biraz daha çok uyarıda
+bulunursanız, yürüyüşü hızlanır.
+
+00:05:28.636 --> 00:05:30.456
+Ve bir eşik noktasında,
+
+00:05:30.480 --> 00:05:33.016
+hayvan otomatik olarak
+yüzme hareketine geçiş yapar.
+
+00:05:33.040 --> 00:05:34.416
+Bu inanılmazdır.
+
+00:05:34.440 --> 00:05:35.936
+Araba sürme hareketinde
+
+00:05:35.960 --> 00:05:37.696
+olduğu gibi, gaz pedalına basarken de
+
+00:05:37.720 --> 00:05:39.856
+omuriliğimizin azalan modülasyonuyla,
+
+00:05:39.880 --> 00:05:42.880
+iki çok farklı yürüyüş şekli
+arasında geçiş yapmış oluruz.
+
+00:05:44.440 --> 00:05:47.016
+Ve aslında aynı olay
+kedilerde de gözlenmiştir.
+
+00:05:47.040 --> 00:05:49.056
+Eğer kedinin omuriliğini uyarırsanız,
+
+00:05:49.080 --> 00:05:51.666
+yürüyüş, tırıs ve koşma
+arasında geçiş yapabilirsiniz.
+
+00:05:51.666 --> 00:05:54.056
+Veya kuşlarda, uyarının alt 
+seviyelerinde yürüyüş,
+
+00:05:54.080 --> 00:05:55.536
+üst seviyelerinde kanat çırpma
+
+00:05:55.560 --> 00:05:58.376
+arasında geçiş yapabilirsiniz.
+
+00:05:58.400 --> 00:06:00.416
+Ve bu gerçekten omuriliğin çok sofistike
+
+00:06:00.440 --> 00:06:02.856
+bir hareket kontrolcüsü 
+olduğunu gösterir.
+
+00:06:02.880 --> 00:06:05.336
+Semenderin hareketini 
+daha detaylı inceledik ve
+
+00:06:05.360 --> 00:06:08.456
+Almanya'daki Jena Üniversitesinden,
+Profesör Martin Fischer'in
+
+00:06:08.480 --> 00:06:12.056
+röntgen makinasını kullanma şansımız oldu.
+
+00:06:12.080 --> 00:06:14.656
+Bu sayede tüm kemik hareketlerini
+
+00:06:14.680 --> 00:06:17.136
+detaylı olarak kaydedebildik.
+
+00:06:17.160 --> 00:06:18.416
+Yaptığımız buydu.
+
+00:06:18.440 --> 00:06:21.616
+Böylelikle hangi kemiklerin
+bizim için önemli olduğunu belirledik
+
+00:06:21.640 --> 00:06:24.656
+ve onların hareketini
+3 boyutlu olarak topladık.
+
+00:06:24.680 --> 00:06:27.376
+Hem karadaki hem de sudaki
+
+00:06:27.400 --> 00:06:29.056
+tüm hareketleri toplayarak,
+
+00:06:29.080 --> 00:06:31.564
+gerçek bir hayvanın 
+yapabileceği tüm davranışların
+
+00:06:31.589 --> 00:06:32.833
+veritabanını oluşturduk.
+
+00:06:32.858 --> 00:06:36.008
+Bizim görevimiz bu hareketleri
+kendi robotumuza eklemekti.
+
+00:06:36.033 --> 00:06:39.756
+Böylece biz doğru yapıyı bulabilmek için;
+motorları nereye yerleştireceğimizi,
+
+00:06:39.756 --> 00:06:42.506
+nasıl bağlıyacağımızı ve 
+hareketlerin mümkün olan en iyi
+
+00:06:42.506 --> 00:06:45.700
+şekilde yapılabilmesi amacıyla,
+tam bir optimizasyon işlemi yaptık.
+
+00:06:45.700 --> 00:06:48.040
+Pleurobot işte böyle hayat buldu.
+
+00:06:49.200 --> 00:06:51.906
+Şimdi gerçek bir hayvana
+ne kadar yakın olduğuna bakalım.
+
+00:06:52.960 --> 00:06:55.456
+Burda gördüğünüz şey,
+gerçek bir hayvan ile
+
+00:06:55.480 --> 00:06:58.176
+Pleurobot'un neredeyse
+direkt karşılaştırmasıdır.
+
+00:06:58.200 --> 00:07:00.936
+Yürüyüş şeklinin,
+neredeyse birebir tekrarı
+
+00:07:00.960 --> 00:07:02.216
+olduğunu görebilirsiniz.
+
+00:07:02.240 --> 00:07:04.840
+Geri gidip yavaşça izlerseniz
+daha iyi göreceksiniz.
+
+00:07:07.520 --> 00:07:09.896
+Fakat bundan da iyisi biz
+yüzebiliyoruz.
+
+00:07:09.920 --> 00:07:12.976
+Bunun için robotun üstüne 
+giydirdiğimiz bir takım elbisemiz var.
+
+00:07:12.976 --> 00:07:14.056
+(Gülüşmeler)
+
+00:07:14.080 --> 00:07:17.656
+Ve sonra biz suya girebiliyoruz 
+ve yüzme şekilllerini tekrarlayabiliyoruz.
+
+00:07:17.656 --> 00:07:20.616
+Ve burda biz çok mutluyuz
+çünkü bunu yapmak çok zor.
+
+00:07:20.640 --> 00:07:22.856
+Etkileşimin fiziği komplekstir.
+
+00:07:22.880 --> 00:07:25.296
+Robotumuz küçük bir
+hayvandan çok daha büyüktür.
+
+00:07:25.320 --> 00:07:28.376
+Bu yüzden, biz aynı fiziksel
+etkileşimlerden emin olmak için
+
+00:07:28.400 --> 00:07:30.736
+frekansların değişken
+ölçeklemesini yapmalıydık.
+
+00:07:30.760 --> 00:07:33.376
+Fakat sonunda ne kadar
+yaklaştığımızı ve bizim ne kadar
+
+00:07:33.376 --> 00:07:35.080
+mutlu olduğumuzu göreceksiniz.
+
+00:07:35.480 --> 00:07:37.696
+Haydi şimdi omuriliğe gidelim.
+
+00:07:37.720 --> 00:07:40.016
+Buradaki Jean-Marie Cabelguen
+ile modellediğimiz
+
+00:07:40.040 --> 00:07:42.280
+omurilik devreleri.
+
+00:07:43.040 --> 00:07:45.286
+İlginç olan, semender,
+aynı yılanımsı balık olan
+
+00:07:45.286 --> 00:07:46.900
+bofa gibi ilkel bir devreye sahip
+
+00:07:46.900 --> 00:07:49.496
+ve öyle görünüyor ki
+
+00:07:49.520 --> 00:07:51.496
+evrim sırasında
+
+00:07:51.520 --> 00:07:53.256
+yeni sinirsel osilatörler
+
+00:07:53.280 --> 00:07:56.216
+bacak hareketlerini
+
+00:07:56.240 --> 00:07:57.656
+yapmak için eklenmişlerdir.
+
+00:07:57.680 --> 00:08:00.346
+Biz bu sinirsel osilatörlerin
+nerede olduğunu biliyoruz
+
+00:08:00.346 --> 00:08:02.706
+fakat bizim yaptığımız;
+bu birbirinden çok farklı
+
+00:08:02.706 --> 00:08:05.996
+hareket şekilleri arasında geçişe 
+izin veren sinirsel osilatörlerin
+
+00:08:05.996 --> 00:08:09.406
+nasıl çiftleştiklerini görmek için 
+matematiksel bir model oluşturmaktı.
+
+00:08:09.406 --> 00:08:11.390
+Ve biz bunu bir robot
+üzerinde test ettik.
+
+00:08:11.390 --> 00:08:12.680
+Ve bu nasıl görüdüğü.
+
+00:08:18.920 --> 00:08:21.936
+Burada gördüğünüz
+Pleurobot'un
+
+00:08:21.960 --> 00:08:25.056
+tamamen omurilik 
+tarafından kontrol edilen
+
+00:08:25.080 --> 00:08:26.680
+önceki bir versiyonudur.
+
+00:08:27.280 --> 00:08:28.496
+Bizim yaptığımız tek şey,
+
+00:08:28.520 --> 00:08:30.696
+normalde beynin
+üst bölgesinden
+
+00:08:30.720 --> 00:08:33.216
+gelmesi gereken iki sinyali,
+
+00:08:33.240 --> 00:08:35.090
+uzaktan kumandayla robota göndermekti.
+
+00:08:35.480 --> 00:08:38.176
+İlginç olan şey hız, yönelim ve 
+hareket şeklinin tipini,
+
+00:08:38.200 --> 00:08:41.000
+sinyallerle oynayarak
+tamamen kontrol edebiliyoruz.
+
+00:08:41.600 --> 00:08:42.816
+Örneğin,
+
+00:08:42.840 --> 00:08:46.416
+alt seviyede uyarırsak 
+yürüyüş şeklini elde ederiz
+
+00:08:46.440 --> 00:08:48.416
+ve bir noktada eğer çok fazla
+
+00:08:48.440 --> 00:08:50.600
+ve sık uyarırsak 
+yüzme şekline geçiş yapar.
+
+00:08:51.480 --> 00:08:53.986
+Ve son olarak, omuriliğin
+bir tarafını diğer tarafa
+
+00:08:53.986 --> 00:08:57.240
+göre daha fazla uyararak dönüşleri 
+çok güzel yapabiliyoruz.
+
+00:08:58.200 --> 00:08:59.816
+Beynin üst bölgesinin
+
+00:08:59.840 --> 00:09:02.096
+her bir kas hareketinden 
+sorumlu olması yerine,
+
+00:09:02.120 --> 00:09:04.976
+doğanın bu işleri omuriliğe
+
+00:09:05.000 --> 00:09:08.656
+dağıtmasını çok güzel buluyorum.
+
+00:09:08.680 --> 00:09:11.506
+Beynin üst bölgesi sadece yüksek
+seviyeli modülasyonlardan
+
+00:09:11.506 --> 00:09:14.816
+sorumludur ve kasların koordinasyonu
+gerçekten omuriliğin işidir.
+
+00:09:14.840 --> 00:09:18.360
+O zaman şimdi kedinin hareketine 
+ve biomekaniğin önemine gidelim.
+
+00:09:19.080 --> 00:09:20.336
+Bu, kedinin biomekaniğini
+
+00:09:20.360 --> 00:09:22.776
+çalıştığımız başka bir projedir
+ve biz morfolojinin
+
+00:09:22.800 --> 00:09:26.696
+harekete ne kadar yardım 
+ettiğini görmek istedik.
+
+00:09:26.720 --> 00:09:30.336
+Özelliklerde, temel olarak bacaklarda,
+
+00:09:30.360 --> 00:09:31.680
+üç farklı kriter bulduk.
+
+00:09:32.320 --> 00:09:34.296
+İlki, az çok pantograf yapıya
+
+00:09:34.320 --> 00:09:37.016
+benzeyen kedi bacağıdır.
+
+00:09:37.040 --> 00:09:39.256
+Pantograf, üst ve alt segmentleri
+
+00:09:39.280 --> 00:09:42.680
+daima paralel tutan mekanik bir yapıdır.
+
+00:09:43.600 --> 00:09:46.696
+Bunun gibi basit bir 
+geometrik sistem, segmentlerin
+
+00:09:46.720 --> 00:09:48.746
+iç hareketlerini bir parça kontrol eder.
+
+00:09:48.746 --> 00:09:51.776
+Kedinin bacaklarının ikinci
+bir özelliği ise hafif olmalarıdır.
+
+00:09:51.776 --> 00:09:53.496
+Kasların çoğu gövdededir.
+
+00:09:53.520 --> 00:09:56.546
+Bu iyi bir fikirdir çünkü böylece
+bacakların ataleti düşük olur
+
+00:09:56.556 --> 00:09:58.216
+ve hızlıca hareket edebilir.
+
+00:09:58.240 --> 00:10:02.106
+Kedi bacağının son önemli özelliği 
+çok esnek bir yapıda olmasıdır.
+
+00:10:02.106 --> 00:10:04.736
+Böylece darbelere ve
+dış güçlere dayanaklıdır.
+
+00:10:04.760 --> 00:10:07.096
+Buradaki de çıta yavrusunun tasarımı.
+
+00:10:07.120 --> 00:10:09.320
+O zaman çıta yavrusunu 
+sahneye davet edelim.
+
+00:10:14.160 --> 00:10:17.816
+Bu Peter Eckert. Doktorasını 
+bu robot üzerine yapıyor
+
+00:10:17.840 --> 00:10:20.026
+ve gördüğünüz gibi 
+o küçük sevimli bir robot.
+
+00:10:20.026 --> 00:10:21.176
+Biraz oyuncağa benziyor
+
+00:10:21.200 --> 00:10:23.256
+fakat kedi bacaklarının özelliklerini
+
+00:10:23.280 --> 00:10:26.576
+incelemek için bilimsel
+bir araç olarak kullanıldı.
+
+00:10:26.600 --> 00:10:29.216
+Gördüğünüz gibi çok komplike ve hafif
+
+00:10:29.240 --> 00:10:30.496
+ve ayrıca çok esnek.
+
+00:10:30.520 --> 00:10:33.296
+Kolayca üzerine basabiliyorsunuz
+fakat kırılmıyor.
+
+00:10:33.320 --> 00:10:34.776
+Aslında sadece zıplıyor.
+
+00:10:34.800 --> 00:10:37.680
+Ve bu çok esnek özellik 
+gerçekten çok önemli.
+
+00:10:39.160 --> 00:10:41.056
+Pantografın bacağı gibi üç segmentli
+
+00:10:41.080 --> 00:10:43.480
+bir bacağın özelliklerini de 
+görüyorsunuz.
+
+00:10:44.280 --> 00:10:47.056
+Şimdi ilginç olan; bu oldukça
+dinamik yürüyüş şekli, tamamen
+
+00:10:47.080 --> 00:10:48.976
+açık döngü olarak elde edildi.
+
+00:10:49.000 --> 00:10:52.136
+Yani sensörler ve komplike döngüler yok.
+
+00:10:52.160 --> 00:10:54.576
+Ve bu ilginç. Çünkü sadece mekaniğin
+
+00:10:54.600 --> 00:10:58.616
+bu oldukça hızlı yürüyüş şeklini
+zaten sabitlediği ve iyi mekaniğin
+
+00:10:58.640 --> 00:11:02.816
+gerçekten temel olarak hareketi
+kolaylaştırdığı anlamına geliyor.
+
+00:11:02.840 --> 00:11:06.136
+Bir ölçüde harekete 
+müdahale de edebiliyoruz.
+
+00:11:06.160 --> 00:11:07.816
+Bir sonraki videoda göreceksiniz.
+
+00:11:07.840 --> 00:11:11.736
+Örneğin biraz egzersiz yapabiliriz 
+veya bir basamak inmesini sağlayabiliriz.
+
+00:11:11.760 --> 00:11:13.376
+Buna rağmen robot düşmeyecek,
+
+00:11:13.400 --> 00:11:14.976
+ki, bu bizim için şaşırtıcıdır.
+
+00:11:15.000 --> 00:11:16.416
+Bu küçük bir pertürbasyon.
+
+00:11:16.440 --> 00:11:18.856
+Robotun hemen düşmesini bekliyordum
+
+00:11:18.880 --> 00:11:21.316
+çünkü hiç sensör veya hızlı döngü yok.
+
+00:11:21.340 --> 00:11:23.536
+Fakat hayır, sadece mekanik 
+yürüyüş şeklini
+
+00:11:23.560 --> 00:11:25.136
+sabitledi ve robot düşmedi.
+
+00:11:25.160 --> 00:11:28.296
+Belli ki, eğer adımı büyütürseniz
+ve engeller varsa,
+
+00:11:28.320 --> 00:11:31.976
+tam kontrol döngülerine ve
+reflekslere ihtiyacınız var.
+
+00:11:32.000 --> 00:11:34.936
+Fakat burada önemli olan
+sadece küçük pertübrasyon için
+
+00:11:34.960 --> 00:11:36.456
+mekaniğin kuralları doğrudur.
+
+00:11:36.480 --> 00:11:38.756
+Ve bunun, biyomekanik ve 
+robotikten, nörobilime
+
+00:11:38.756 --> 00:11:41.261
+gönderilen "vücudun harekete ne ölçüde
+yardımı
+
+00:11:41.261 --> 00:11:45.495
+olduğunu küçümseme" mesajının 
+çok önemli olduğunu düşünüyorum.
+
+00:11:47.440 --> 00:11:49.600
+Şimdi bu, insan hareketiyle
+nasıl ilişkili?
+
+00:11:49.960 --> 00:11:53.600
+Açıkça, insan hareketi, kedi ve semender
+hareketinden çok daha karmaşıktır.
+
+00:11:54.360 --> 00:11:57.496
+Fakat aynı zamanda, sinir sistemi
+diğer omurgalılarla çok
+
+00:11:57.520 --> 00:11:59.096
+benzer yapıdadır.
+
+00:11:59.120 --> 00:12:00.576
+Ve özellikle omurilik,
+
+00:12:00.600 --> 00:12:03.240
+insan hareketlerinde anahtar
+kontrolcüdür.
+
+00:12:03.760 --> 00:12:06.176
+Bu nedenle, eğer omurilikte
+bir lezyon varsa
+
+00:12:06.200 --> 00:12:07.696
+bunun dramatik etkileri olur.
+
+00:12:07.720 --> 00:12:10.496
+Kişi kısmi veya tam felçli olabilir.
+
+00:12:10.520 --> 00:12:12.896
+Bu yüzden beyin omurilikle
+
+00:12:12.920 --> 00:12:14.176
+iletişimi kaybedebilir.
+
+00:12:14.200 --> 00:12:16.416
+Özellikle hareketi başlatan
+ve devam ettiren
+
+00:12:16.440 --> 00:12:18.360
+azalan modülasyonu kaybeder.
+
+00:12:19.640 --> 00:12:21.336
+Nöral protezlerin amacı
+
+00:12:21.360 --> 00:12:23.736
+elektiriksel ve kimyasal
+uyarılar kullanarak
+
+00:12:23.760 --> 00:12:26.200
+iletişimi tekrar aktif hale getirmektir.
+
+00:12:26.840 --> 00:12:29.776
+Dünyada, özellikle EPFL'de, 
+tam olarak bu işle uğraşan
+
+00:12:29.800 --> 00:12:31.016
+ekipler vardır.
+
+00:12:31.040 --> 00:12:33.536
+Birllikte çalıştığım iş arkadaşlarım
+
+00:12:33.560 --> 00:12:35.440
+Grégoire Courtine
+ve Silvestro Micera.
+
+00:12:35.960 --> 00:12:39.056
+Fakat bunu düzgün yapmak için, 
+omuriliğin nasıl çalıştığını,
+
+00:12:39.080 --> 00:12:41.006
+vücutla nasıl etkileşimde bulunduğunu
+
+00:12:41.006 --> 00:12:42.536
+ve beynin omurilikle
+
+00:12:42.560 --> 00:12:45.040
+nasıl iletişim kurduğunu
+anlamak çok önemlidir.
+
+00:12:45.800 --> 00:12:49.766
+Bugün sunumunu yaptığım
+modellerin, bu hedeflere ulaşmak için
+
+00:12:49.766 --> 00:12:53.106
+anahtar bir rol üstleneceğini umuyorum.
+
+00:12:53.320 --> 00:12:54.536
+Teşekkür ederim.
+
+00:12:54.560 --> 00:12:59.120
+(Alkışlar)
+
+00:13:04.100 --> 00:13:06.736
+Bruno Giussani: Auke,
+laboratuvarınızda kirli su içinde
+
+00:13:06.760 --> 00:13:09.216
+yüzen ve kirlilik seviyesini ölçen
+
+00:13:09.240 --> 00:13:11.696
+başka robotlar görmüştüm.
+
+00:13:11.720 --> 00:13:12.936
+Fakat bunun için
+
+00:13:12.960 --> 00:13:16.440
+konuşmanızda, arama ve kurtarma
+
+00:13:17.640 --> 00:13:19.376
+amaçlı yan proje olarak bahsettiniz.
+
+00:13:19.376 --> 00:13:21.056
+Ve onun burnunda bir kamera var.
+
+00:13:21.080 --> 00:13:23.576
+Auke Ijspeert: Kesinlikle. 
+Böylece robot --
+
+00:13:23.600 --> 00:13:25.029
+Arama ve kurtarma amaçlı
+
+00:13:25.053 --> 00:13:28.496
+robot kullanımıyla ilgili
+projelerimiz var.
+
+00:13:28.520 --> 00:13:30.096
+Bu robot şimdi sizi görüyor.
+
+00:13:30.120 --> 00:13:33.296
+Ve asıl büyük hayal; yıkılmış veya 
+sel altında kalmış bir bina
+
+00:13:33.320 --> 00:13:36.936
+düşünün. Böyle zor durumlar, kurtarma 
+ekipleri ve kurtarma köpekleri
+
+00:13:36.960 --> 00:13:40.296
+için bile çok tehlikelidir.
+
+00:13:40.320 --> 00:13:43.366
+Niye bu gibi durumlarda yürüyerek,
+yüzerek gezebilen, hayatta
+
+00:13:43.366 --> 00:13:46.416
+kalanları tespit ederek, onlarla
+iletişimi sağlayabilecek
+
+00:13:46.440 --> 00:13:49.216
+bir robot göndermeyelim.
+
+00:13:49.240 --> 00:13:52.816
+BG: Elbette bunun şeklinin 
+kazazedeleri korkutmaması gerekiyor.
+
+00:13:52.840 --> 00:13:56.136
+AI: Evet, muhtemelen görünüşünü
+biraz değiştirmemiz gerekiyor.
+
+00:13:56.160 --> 00:13:58.976
+Çünkü bir kazazede
+bunun kendini yiyeceğini
+
+00:13:59.000 --> 00:14:01.536
+düşünüp kalp krizi geçirebilir.
+
+00:14:01.560 --> 00:14:04.416
+Fakat görünüşünü değiştirip
+onu daha sağlam yaparak,
+
+00:14:04.440 --> 00:14:06.446
+çok iyi bir araç
+yaratabileceğimize eminim.
+
+00:14:06.460 --> 00:14:09.125
+BG: Çok teşekkür ederim.
+Size ve takımınıza teşekkürler.
+

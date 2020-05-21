@@ -1,0 +1,1259 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Minh-Tuan Ta
+Reviewer: Ha Thu Hai
+
+00:00:15.260 --> 00:00:17.260
+Bao nhiêu trong các bạn phải điền một vài mẫu trang web nào đó
+
+00:00:17.260 --> 00:00:19.260
+mà bạn được yêu cầu là đọc một chuỗi ký tự bị làm nhiễu như thế này?
+
+00:00:19.260 --> 00:00:21.260
+Bao nhiêu trong các bạn thấy là nó thật sự là rất phiền?
+
+00:00:21.260 --> 00:00:24.260
+Tuyệt. Vì tôi đã sáng chế ra nó đó.
+
+00:00:24.260 --> 00:00:26.260
+(Tiếng cười)
+
+00:00:26.260 --> 00:00:28.260
+Hay là tôi là một trong những người đã tạo ra nó.
+
+00:00:28.260 --> 00:00:30.260
+Cái đó được gọi là CAPTCHA.
+
+00:00:30.260 --> 00:00:32.260
+Và lý do nó ở đó là để chắc chắn rằng bạn, thực thể đang điền cái biểu mẫu,
+
+00:00:32.260 --> 00:00:35.260
+thực sự là con người mà không phải là một loại chương trình máy tính nào đó
+
+00:00:35.260 --> 00:00:37.260
+được viết để điền biểu mẫu hàng triệu triệu lần.
+
+00:00:37.260 --> 00:00:39.260
+Và lý do nó hoạt động được vì con người,
+
+00:00:39.260 --> 00:00:41.260
+ít nhất là những người không bị khiếm thị,
+
+00:00:41.260 --> 00:00:43.260
+không có vấn đề gì khi đọc những ký tự bị làm nhiễu,
+
+00:00:43.260 --> 00:00:46.260
+trong khi các chương trình máy tính đơn giản là không thể làm điều đó tốt được.
+
+00:00:46.260 --> 00:00:48.260
+Ví dụ như là trang Ticketmaster (một trang bán vé đủ mọi thể loại của nước ngoài),
+
+00:00:48.260 --> 00:00:50.260
+lý do bạn phải gõ những từ bị nhiễu kia
+
+00:00:50.260 --> 00:00:52.260
+là để chống lại những kẻ đầu cơ vé viết các chương trình máy tính
+
+00:00:52.260 --> 00:00:54.260
+có thể mua hàng triệu vé, 2 vé một lần.
+
+00:00:54.260 --> 00:00:56.260
+CAPTCHA được dùng khắp Internet.
+
+00:00:56.260 --> 00:00:58.260
+Và vì chúng được dùng quá thường xuyên,
+
+00:00:58.260 --> 00:01:00.260
+nhiều lần các chuỗi ký tự ngẫu nhiên được đưa ra cho người dùng gõ
+
+00:01:00.260 --> 00:01:02.260
+không hay chút nào.
+
+00:01:02.260 --> 00:01:05.260
+Ví dụ này là từ trang đăng ký của Yahoo.
+
+00:01:05.260 --> 00:01:07.260
+Chuỗi ký tự ngẫu nhiên xuất hiện
+
+00:01:07.260 --> 00:01:10.260
+là W, A, I, T (wait nghĩa là chờ đợi trong tiếng Anh), mà đánh vần được một từ.
+
+00:01:10.260 --> 00:01:13.260
+Nhưng phần hay nhất là tin nhắn
+
+00:01:13.260 --> 00:01:16.260
+mà ban trợ giúp của Yahoo nhận được 20 phút sau.
+
+00:01:16.260 --> 00:01:19.260
+Tin nhắn: "Giúp tôi với! Tôi đã đợi hơn 20 phút, và không có gì xảy ra."
+
+00:01:19.260 --> 00:01:23.260
+(Tiếng cười)
+
+00:01:23.260 --> 00:01:25.260
+Người đó nghĩ là anh ta phải đợi.
+
+00:01:25.260 --> 00:01:28.260
+Điều đó tất nhiên là không tệ bằng người tội nghiệp này.
+
+00:01:28.260 --> 00:01:30.260
+(Tiếng cười)
+
+00:01:30.260 --> 00:01:33.260
+Dự án CAPTCHA là dự án mà chúng tôi đã làm ở Carnegie Mellon hơn 10 năm trước,
+
+00:01:33.260 --> 00:01:35.260
+và nó được dùng khắp mọi nơi.
+
+00:01:35.260 --> 00:01:37.260
+Để tôi kể cho các bạn về dự án mà chúng tôi làm vài năm sau đó,
+
+00:01:37.260 --> 00:01:40.260
+nó giống như là bước tiến hóa của CAPTCHA.
+
+00:01:40.260 --> 00:01:42.260
+Dự án này mà chúng tôi gọi là reCAPTCHA,
+
+00:01:42.260 --> 00:01:44.260
+là dự án mà chúng tôi đã bắt đầu ở Carnegie Mellon,
+
+00:01:44.260 --> 00:01:46.260
+rồi chúng tôi biến nó thành một công ty.
+
+00:01:46.260 --> 00:01:48.260
+Và rồi khoảng một năm rưỡi sau,
+
+00:01:48.260 --> 00:01:50.260
+Google thực sự mua lại công ty này.
+
+00:01:50.260 --> 00:01:52.260
+Vì vậy để kể các bạn nghe cái mà dự án này bắt đầu.
+
+00:01:52.260 --> 00:01:55.260
+Dự án này đã bắt đầu từ những nhận xét sau:
+
+00:01:55.260 --> 00:01:57.260
+Thống kê là khoảng 200 triệu CAPTCHA
+
+00:01:57.260 --> 00:02:00.260
+được con người gõ mỗi ngày khắp thế giới.
+
+00:02:00.260 --> 00:02:02.260
+Khi tôi mới nghe điều này, tôi khá là tự hào về bản thân.
+
+00:02:02.260 --> 00:02:04.260
+Tôi đã nghĩ là: nhìn xem sự ảnh hưởng của nghiên cứu của tôi như thế nào.
+
+00:02:04.260 --> 00:02:06.260
+Nhưng rồi tôi bắt đầu cảm thấy buồn.
+
+00:02:06.260 --> 00:02:08.260
+Và đây là lý do: mỗi lần bạn gõ một CAPTCHA
+
+00:02:08.260 --> 00:02:11.260
+cơ bản là bạn phí phạm 10 giây thời gian của bạn.
+
+00:02:11.260 --> 00:02:13.260
+Và nếu bạn nhân thời gian đó lên 200 triệu,
+
+00:02:13.260 --> 00:02:16.260
+và bạn sẽ thấy là nhân loại, gộp lại, phí phạm khoảng 500.000 giờ mỗi ngày
+
+00:02:16.260 --> 00:02:18.260
+gõ những cái CAPTCHA phiền phức đó.
+
+00:02:18.260 --> 00:02:20.260
+Vì vậy tôi cảm thấy tồi tệ.
+
+00:02:20.260 --> 00:02:22.260
+(Tiếng cười)
+
+00:02:22.260 --> 00:02:25.260
+Và rồi tôi nghĩ: tất nhiên là chúng ta không thể bỏ CAPTCHA,
+
+00:02:25.260 --> 00:02:27.260
+vì bảo mật trên Web dựa vào chúng.
+
+00:02:27.260 --> 00:02:30.260
+Nhưng rồi tôi bắt đầu nghĩ, có cách nào mà chúng ta có thể dùng những lần gõ CAPTCHA đó
+
+00:02:30.260 --> 00:02:32.260
+cho cái gì đó tốt cho nhân loại?
+
+00:02:32.260 --> 00:02:34.260
+Chính vậy.
+
+00:02:34.260 --> 00:02:36.260
+Trong khi các bạn gõ CAPTCHA, trong 10 giây đó,
+
+00:02:36.260 --> 00:02:38.260
+não của các bạn đang làm điều gì đó phi thường.
+
+00:02:38.260 --> 00:02:40.260
+Não của các bạn đang làm điều mà máy tính chưa thể làm được.
+
+00:02:40.260 --> 00:02:43.260
+Vì vậy chúng tôi có thể làm cho bạn làm một việc có ích trong 10 giây đó không?
+
+00:02:43.260 --> 00:02:45.260
+nói cách khác,
+
+00:02:45.260 --> 00:02:47.260
+có một vấn đề lớn mà chúng ta không thể làm cho máy tính giải được,
+
+00:02:47.260 --> 00:02:50.260
+nhưng chúng ta có thể chia nhỏ ra thành các phần 10 giây
+
+00:02:50.260 --> 00:02:52.260
+là thời gian mà một người nào đó gõ một cái CAPTCHA
+
+00:02:52.260 --> 00:02:54.260
+họ giải một phần nhỏ của vấn đề?
+
+00:02:54.260 --> 00:02:56.260
+Và câu trả lời là "có", và đây chính là cái mà chúng tôi đang làm.
+
+00:02:56.260 --> 00:02:59.260
+Vì vậy cái mà các bạn không biết là hiện tại, trong khi các bạn đang gõ CAPTCHA,
+
+00:02:59.260 --> 00:03:01.260
+không chỉ bạn đang chứng thực bạn là con người,
+
+00:03:01.260 --> 00:03:03.260
+mà hơn nữa bạn đang thực sự giúp đỡ chúng tôi điện tử hóa sách.
+
+00:03:03.260 --> 00:03:05.260
+Để tôi giải thích nó hoạt động như thế nào.
+
+00:03:05.260 --> 00:03:07.260
+Có nhiều dự án đang cố gắng số hóa sách.
+
+00:03:07.260 --> 00:03:10.260
+Google có một cái. The Internet Archive có một cái.
+
+00:03:10.260 --> 00:03:12.260
+Amazon, hiện tại với Kindle, đang cố gắng số hóa sách.
+
+00:03:12.260 --> 00:03:14.260
+Cơ bản cách nó hoạt động
+
+00:03:14.260 --> 00:03:16.260
+là bạn bắt đầu với một cuốn sách cũ.
+
+00:03:16.260 --> 00:03:18.260
+Bạn đã từng thấy rồi phải không? Một quyển sách ấy mà?
+
+00:03:18.260 --> 00:03:20.260
+(Tiếng cười)
+
+00:03:20.260 --> 00:03:22.260
+Và các bạn bắt đầu với một cuốn sách, và rồi các bạn scan nó.
+
+00:03:22.260 --> 00:03:24.260
+Bây giờ scan một cuốn sách
+
+00:03:24.260 --> 00:03:26.260
+giống như là chụp mỗi trang sách.
+
+00:03:26.260 --> 00:03:28.260
+Nó tạo ra một tấm hình cho mỗi trang sách.
+
+00:03:28.260 --> 00:03:30.260
+Đây là hình ảnh với chữ cho mỗi trang sách.
+
+00:03:30.260 --> 00:03:32.260
+Bước kế tiếp
+
+00:03:32.260 --> 00:03:35.260
+là máy tính cần phải có thể giải mã tất cả các từ trong bức ảnh.
+
+00:03:35.260 --> 00:03:37.260
+Bằng cách sử dụng một công nghệ gọi là OCR,
+
+00:03:37.260 --> 00:03:39.260
+viết tắt của nhận dạng ký tự quang học (Optical Character Recognition),
+
+00:03:39.260 --> 00:03:41.260
+nó nhận một bức ảnh có văn bản
+
+00:03:41.260 --> 00:03:43.260
+và cố gắng nhận dạng văn bản trong đó.
+
+00:03:43.260 --> 00:03:45.260
+Hiện tại vấn đề là OCR không hoàn hảo.
+
+00:03:45.260 --> 00:03:47.260
+Đặc biệt là với các sách cũ
+
+00:03:47.260 --> 00:03:50.260
+mà mực đã phai màu và giấy đã ngã vàng,
+
+00:03:50.260 --> 00:03:52.260
+OCR không thể nhận diện được nhiều từ.
+
+00:03:52.260 --> 00:03:54.260
+Ví dụ, với những cuốn sách được viết cách đây trên 50 năm,
+
+00:03:54.260 --> 00:03:57.260
+Máy tính không thể nhận diện được 30 phần trăm.
+
+00:03:57.260 --> 00:03:59.260
+Vì vậy cái mà chúng tôi đang làm hiện tại
+
+00:03:59.260 --> 00:04:01.260
+là chúng tôi đang đem tất cả những từ mà máy tính không thể nhận diện
+
+00:04:01.260 --> 00:04:03.260
+và chúng tôi để con người đọc chúng cho chúng tôi
+
+00:04:03.260 --> 00:04:05.260
+trong khi họ đang gõ CAPTCHA trên Internet.
+
+00:04:05.260 --> 00:04:08.260
+Vì vậy lần tới khi bạn gõ CAPTCHA, những từ các bạn gõ
+
+00:04:08.260 --> 00:04:11.260
+là những từ thật sự được lấy ra từ những cuốn sách đang được số hóa
+
+00:04:11.260 --> 00:04:13.260
+mà máy tính không thể nhận diện
+
+00:04:13.260 --> 00:04:15.260
+Và lý do hiện tại bạn thấy hai từ thay vì một từ
+
+00:04:15.260 --> 00:04:17.260
+là vì, bạn thấy, một trong hai từ
+
+00:04:17.260 --> 00:04:19.260
+là từ mà hệ thống lấy ra từ một cuốn sách,
+
+00:04:19.260 --> 00:04:22.260
+hệ thống không biết nó là cái gì, và nó đưa cho bạn.
+
+00:04:22.260 --> 00:04:25.260
+Nhưng vì nó không biết câu trả lời, nó không thể kiểm tra bạn.
+
+00:04:25.260 --> 00:04:27.260
+Vì vậy cái mà chúng tôi làm là đưa bạn một từ khác,
+
+00:04:27.260 --> 00:04:29.260
+từ mà hệ thống biết câu trả lời.
+
+00:04:29.260 --> 00:04:31.260
+Chúng tôi không nói cho bạn biết cái nào là cái nào, xin hãy gõ cả hai.
+
+00:04:31.260 --> 00:04:33.260
+Và nếu bạn gõ một từ chính xác
+
+00:04:33.260 --> 00:04:35.260
+cho từ mà hệ thống biết câu trả lời,
+
+00:04:35.260 --> 00:04:37.260
+nó cho rằng bạn là con người,
+
+00:04:37.260 --> 00:04:39.260
+và nó cũng tin tưởng rằng bạn gõ từ còn lại đúng.
+
+00:04:39.260 --> 00:04:42.260
+Và nếu chúng ta lặp lại quá trình này cho 10 người khác nhau
+
+00:04:42.260 --> 00:04:44.260
+và tất cả họ đồng ý với từ mới,
+
+00:04:44.260 --> 00:04:46.260
+thì chúng ta có một từ được điện tử hóa đúng.
+
+00:04:46.260 --> 00:04:48.260
+Và đó là cách mà hệ thống làm việc.
+
+00:04:48.260 --> 00:04:51.260
+Và cơ bản, từ khi chúng tôi đưa nó vào hoạt động 3 hay 4 năm trước,
+
+00:04:51.260 --> 00:04:53.260
+rất nhiều trang web đã bắt đầu chuyển
+
+00:04:53.260 --> 00:04:55.260
+từ CAPTCHA cũ, cái mà người ta phí phạm thời gian,
+
+00:04:55.260 --> 00:04:57.260
+sang dùng CAPTCHA mới, cái mà người ta giúp số hóa sách.
+
+00:04:57.260 --> 00:04:59.260
+Ví dụ, Ticketmaster.
+
+00:04:59.260 --> 00:05:02.260
+Và mỗi lần bạn mua vé trên Ticketmaster, bạn đã giúp số hóa sách.
+
+00:05:02.260 --> 00:05:04.260
+Facebook: Mỗi lần bạn thêm bạn mới hay chọc ai đó,
+
+00:05:04.260 --> 00:05:06.260
+bạn giúp số hóa sách.
+
+00:05:06.260 --> 00:05:09.260
+Twitter và khoảng 350.000 trang web khác tất cả đang sử dụng reCAPTCHA.
+
+00:05:09.260 --> 00:05:11.260
+Và thực sự, số lượng trang web đang sử dụng reCAPTCHA là rất cao
+
+00:05:11.260 --> 00:05:14.260
+đến nỗi số lượng từ mà chúng tôi số hóa mỗi ngày thực sự rất lớn.
+
+00:05:14.260 --> 00:05:16.260
+Khoảng 100 triệu từ một ngày,
+
+00:05:16.260 --> 00:05:20.260
+tương đương khoảng 2 triệu rưỡi quyển sách mỗi năm.
+
+00:05:20.260 --> 00:05:22.260
+Và tất cả đều được làm từng từ một
+
+00:05:22.260 --> 00:05:24.260
+bằng những người gõ CAPTCHA trên Internet.
+
+00:05:24.260 --> 00:05:32.260
+(Vỗ tay)
+
+00:05:32.260 --> 00:05:34.260
+Tất nhiên,
+
+00:05:34.260 --> 00:05:36.260
+vì chúng tôi làm quá nhiều từ mỗi ngày,
+
+00:05:36.260 --> 00:05:38.260
+những điều buồn cười có thể xảy ra.
+
+00:05:38.260 --> 00:05:40.260
+Và đây là điều có thật vì bây giờ chúng tôi đang đưa cho người ta
+
+00:05:40.260 --> 00:05:42.260
+2 từ tiếng Anh ngẫu nhiên cạnh nhau.
+
+00:05:42.260 --> 00:05:44.260
+để những điều buồn cười có thể xảy ra.
+
+00:05:44.260 --> 00:05:46.260
+Ví dụ, chúng tôi đã đưa ra từ này.
+
+00:05:46.260 --> 00:05:48.260
+Nó là từ "Christians" (nghĩa là người theo công giáo); không có gì sai ở đây.
+
+00:05:48.260 --> 00:05:51.260
+Nhưng nếu bạn để nó cạnh một từ ngẫu nhiên,
+
+00:05:51.260 --> 00:05:53.260
+điều tồi tệ có thể xảy ra.
+
+00:05:53.260 --> 00:05:55.260
+Và chúng tôi có từ này. Trên màn hình: bad christians (nghĩa là người công giáo xấu xa)
+
+00:05:55.260 --> 00:05:58.260
+Nó thậm chí tồi tệ hơn, bởi vì trang web đưa ra từ này
+
+00:05:58.260 --> 00:06:01.260
+tình cờ lại là trang The Embassy of the Kingdom of God (Một trang web về đạo công giáo).
+
+00:06:01.260 --> 00:06:03.260
+(Tiếng cười)
+
+00:06:03.260 --> 00:06:05.260
+Oops.
+
+00:06:05.260 --> 00:06:08.260
+(Tiếng cười)
+
+00:06:08.260 --> 00:06:10.260
+Đây là một ví dụ rất tệ khác.
+
+00:06:10.260 --> 00:06:12.260
+JohnEdwards.com (một trang ủng hộ cho chính trị gia này, ông này thuộc đảng dân chủ)
+
+00:06:12.260 --> 00:06:15.260
+Màn hình: Damn liberal (nghĩa là Đảng dân chủ khốn kiếp)
+
+00:06:15.260 --> 00:06:17.260
+(Tiếng cười)
+
+00:06:17.260 --> 00:06:20.260
+Và chúng tôi tiếp tục lăng mạ người ta mỗi ngày.
+
+00:06:20.260 --> 00:06:22.260
+Và, tất nhiên, chúng tôi không chỉ lăng mạ người khác.
+
+00:06:22.260 --> 00:06:25.260
+Đây là vấn đề, vì chúng tôi đưa ra 2 từ ngẫu nhiên,
+
+00:06:25.260 --> 00:06:27.260
+điều thú vị có thể xảy ra.
+
+00:06:27.260 --> 00:06:29.260
+Và điều này thực sự tạo nên
+
+00:06:29.260 --> 00:06:32.260
+của một trào lưu trên Internet
+
+00:06:32.260 --> 00:06:34.260
+mà hàng vạn người tham gia,
+
+00:06:34.260 --> 00:06:36.260
+được gọi là nghệ thuật CAPTCHA.
+
+00:06:36.260 --> 00:06:38.260
+Tôi chắc rằng vài người trong số các bạn đã nghe tới nó.
+
+00:06:38.260 --> 00:06:40.260
+Và cách nó hoạt động như sau.
+
+00:06:40.260 --> 00:06:42.260
+Tưởng tượng bạn đang dùng Internet và bạn thấy một cái CAPTCHA
+
+00:06:42.260 --> 00:06:44.260
+mà bạn nghĩ là nó thú vị,
+
+00:06:44.260 --> 00:06:46.260
+giống như cái CAPTCHA này. Màn hình: máy nướng tàng hình (invisible toaster)
+
+00:06:46.260 --> 00:06:48.260
+Rồi cái mà bạn làm là bạn chụp màn hình đó lại.
+
+00:06:48.260 --> 00:06:50.260
+Và dĩ nhiên, bạn điền cái CAPTCHA
+
+00:06:50.260 --> 00:06:52.260
+vì bạn giúp chúng tôi số hóa sách.
+
+00:06:52.260 --> 00:06:54.260
+Nhưng đầu tiên là bạn chụp màn hình,
+
+00:06:54.260 --> 00:06:56.260
+và rồi bạn vẽ vời cái gì đó liên quan tới cụm từ đó.
+
+00:06:56.260 --> 00:06:58.260
+(Tiếng cười)
+
+00:06:58.260 --> 00:07:01.260
+Nó như vậy đó.
+
+00:07:01.260 --> 00:07:04.260
+Có hàng vạn tác phẩm như vậy.
+
+00:07:04.260 --> 00:07:06.260
+Vài tác phẩm rất dễ thương. Màn hình: Clenched it (nghiến nó)
+
+00:07:06.260 --> 00:07:08.260
+(Tiếng cười)
+
+00:07:08.260 --> 00:07:10.260
+Vài tác phẩm buồn cười hơn.
+
+00:07:10.260 --> 00:07:13.260
+Văn bản: stoned founders (các nhà sáng lập hóa đá, founder ở đây ý nói những vị lãnh tựu thành lập nước Mỹ)
+
+00:07:13.260 --> 00:07:16.260
+(Tiếng cười)
+
+00:07:16.260 --> 00:07:18.260
+Và cái,
+
+00:07:18.260 --> 00:07:21.260
+như là "paleontological shvisle",
+
+00:07:21.260 --> 00:07:23.260
+chúng có "Snoop Dogg".
+
+00:07:23.260 --> 00:07:26.260
+(Tiếng cười)
+
+00:07:26.260 --> 00:07:28.260
+Và đây là còn số yêu thích của tôi về reCAPTCHA.
+
+00:07:28.260 --> 00:07:31.260
+Và đây là điều yêu thích của tôi về dự án này.
+
+00:07:31.260 --> 00:07:33.260
+Đây là số lượng người khác nhau
+
+00:07:33.260 --> 00:07:36.260
+đã giúp chúng tôi số hóa ít nhất một từ trong sách thông qua reCAPTCHA:
+
+00:07:36.260 --> 00:07:38.260
+750 triệu,
+
+00:07:38.260 --> 00:07:40.260
+hơn 10% dân số thế giới một chút,
+
+00:07:40.260 --> 00:07:42.260
+đã giúp chúng tôi số hóa kiến thức nhân loại.
+
+00:07:42.260 --> 00:07:45.260
+Và những con số như vậy đã là động lực thúc đẩy công tác nghiên cứu của tôi.
+
+00:07:45.260 --> 00:07:48.260
+Vì vậy câu hỏi thúc đẩy nghiên cứu của tôi là:
+
+00:07:48.260 --> 00:07:50.260
+Nếu bạn nhìn vào các thành tựu lớn của nhân loại,
+
+00:07:50.260 --> 00:07:52.260
+những cái thực sự lớn
+
+00:07:52.260 --> 00:07:55.260
+mà nhân loại đã tập hợp lại và cùng làm nên lịch sử --
+
+00:07:55.260 --> 00:07:57.260
+ví dụ như là xây các kim tự tháp ở Ai Cập
+
+00:07:57.260 --> 00:07:59.260
+hay là kênh đào Panama
+
+00:07:59.260 --> 00:08:01.260
+hay là đưa người lên mặt trăng --
+
+00:08:01.260 --> 00:08:03.260
+có một sự thật đáng tò mò về họ,
+
+00:08:03.260 --> 00:08:05.260
+và đó chính là các điều đó được làm với số lượng người gần giống nhau.
+
+00:08:05.260 --> 00:08:08.260
+Nó thật lạ; tất cả điều đó được làm với khoảng 100.000 người.
+
+00:08:08.260 --> 00:08:11.260
+Và lý do là vì, trước khi có Internet,
+
+00:08:11.260 --> 00:08:13.260
+điều hành hơn 100.000 người,
+
+00:08:13.260 --> 00:08:16.260
+đừng nói đến là cả trả lương họ, dường như là không tưởng rồi.
+
+00:08:16.260 --> 00:08:18.260
+Nhưng với Internet, chúng tôi chỉ mới cho các bạn xem một dự án
+
+00:08:18.260 --> 00:08:20.260
+mà chúng tôi có 750 triệu người
+
+00:08:20.260 --> 00:08:22.260
+giúp chúng tôi số hóa kiến thức nhân loại.
+
+00:08:22.260 --> 00:08:24.260
+Vì vậy câu hỏi thúc đẩy nghiên cứu của tôi là,
+
+00:08:24.260 --> 00:08:27.260
+nếu chúng ta có thể đưa người lên mặt trăng với 100.000 người,
+
+00:08:27.260 --> 00:08:29.260
+chúng ta sẽ có thể làm gì với 100 triệu?
+
+00:08:29.260 --> 00:08:31.260
+Và dựa trên câu hỏi này,
+
+00:08:31.260 --> 00:08:33.260
+chúng tôi đã có nhiều dự án khác nhau mà chúng tôi đang làm.
+
+00:08:33.260 --> 00:08:36.260
+Để tôi kể các bạn về một cái mà tôi hứng thú nhất.
+
+00:08:36.260 --> 00:08:38.260
+Đây là cái mà chúng tôi đã làm một cách bán-lặng lẽ
+
+00:08:38.260 --> 00:08:40.260
+trong khoảng một năm rưỡi.
+
+00:08:40.260 --> 00:08:42.260
+Nó vẫn chưa ra mắt. Nó được gọi là Duolingo.
+
+00:08:42.260 --> 00:08:44.260
+Vì nó chưa ra mắt nên, suỵt!
+
+00:08:44.260 --> 00:08:46.260
+(Tiếng cười)
+
+00:08:46.260 --> 00:08:48.260
+Vâng, tôi có thể tin tưởng các bạn.
+
+00:08:48.260 --> 00:08:50.260
+Và dự án này, nó bắt đầu thế này.
+
+00:08:50.260 --> 00:08:52.260
+Nó bắt đầu bằng việc tôi đưa ra một câu hỏi cho sinh viên sau đại học của tôi,
+
+00:08:52.260 --> 00:08:54.260
+Severin Hacker.
+
+00:08:54.260 --> 00:08:56.260
+Vâng, đó là Severin Hacker.
+
+00:08:56.260 --> 00:08:58.260
+Và tôi đă ra một câu hỏi cho sinh viên sau đại học của tôi.
+
+00:08:58.260 --> 00:09:00.260
+Các bạn nghe rõ chứ,
+
+00:09:00.260 --> 00:09:02.260
+họ của anh ta là Hacker.
+
+00:09:02.260 --> 00:09:04.260
+Và tôi đưa ra câu hỏi này cho anh ta:
+
+00:09:04.260 --> 00:09:06.260
+Làm cách nào chúng ta có thể làm cho 100 triệu người
+
+00:09:06.260 --> 00:09:09.260
+dịch trang web sang tất cả các ngôn ngữ chính miễn phí?
+
+00:09:09.260 --> 00:09:11.260
+Vâng, có nhiều thứ để nói về câu hỏi này.
+
+00:09:11.260 --> 00:09:13.260
+Đầu tiên, dịch trang web.
+
+00:09:13.260 --> 00:09:16.260
+Hiện tại web được phân vùng thành nhiều ngôn ngữ.
+
+00:09:16.260 --> 00:09:18.260
+Phần lớn là Tiếng Anh.
+
+00:09:18.260 --> 00:09:20.260
+Nếu bạn không biết Tiếng Anh, bạn không thể sử dụng chúng được.
+
+00:09:20.260 --> 00:09:22.260
+Nhưng có một phần lớn khác là các ngôn ngữ khác,
+
+00:09:22.260 --> 00:09:25.260
+và nếu bạn không biết những ngôn ngữ đó, bạn không thể sử dụng được.
+
+00:09:25.260 --> 00:09:28.260
+Vì vậy tôi muốn dịch tất cả trên Web, hay là ít nhất là phần lớn Web,
+
+00:09:28.260 --> 00:09:30.260
+sang tất cả ngôn ngữ chính.
+
+00:09:30.260 --> 00:09:32.260
+Và đó là cái mà tôi muốn làm.
+
+00:09:32.260 --> 00:09:35.260
+Vài người trong các bạn có thể nói, tại sao chúng ta không thể sử dụng máy tính để dịch?
+
+00:09:35.260 --> 00:09:37.260
+Tại sao không dịch bằng máy?
+
+00:09:37.260 --> 00:09:39.260
+Dịch bằng máy hiện tại bắt đầu dịch vài câu lẻ tẻ.
+
+00:09:39.260 --> 00:09:41.260
+Tại sao chúng ta không dùng nó để dịch các trang web?
+
+00:09:41.260 --> 00:09:43.260
+Thực ra vấn đề là dịch máy chưa đủ tốt
+
+00:09:43.260 --> 00:09:45.260
+và nó có thể sẽ không đủ tốt trong 15 hay 20 năm tới.
+
+00:09:45.260 --> 00:09:47.260
+Nó có nhiều sai lầm.
+
+00:09:47.260 --> 00:09:49.260
+Thậm chí khi nó không mắc sai lầm,
+
+00:09:49.260 --> 00:09:52.260
+vì nó mắc nhiều sai lầm, bạn không biết khi nào nên tin nó hay là không.
+
+00:09:52.260 --> 00:09:54.260
+Để tôi lấy một ví dụ cho các bạn
+
+00:09:54.260 --> 00:09:56.260
+về vài thứ đã được dịch bằng máy.
+
+00:09:56.260 --> 00:09:58.260
+Thực ra nó là một bài đăng trên forum.
+
+00:09:58.260 --> 00:10:01.260
+Có ai đó muốn hỏi một câu hỏi về JavaScript.
+
+00:10:01.260 --> 00:10:04.260
+Nó được dịch từ tiếng Nhật sang tiếng Anh.
+
+00:10:04.260 --> 00:10:06.260
+Và tôi sẽ để các bạn tự đọc.
+
+00:10:06.260 --> 00:10:08.260
+Người này bắt đầu bằng việc xin lỗi
+
+00:10:08.260 --> 00:10:10.260
+về việc bài đăng này được dịch với một máy tính.
+
+00:10:10.260 --> 00:10:13.260
+Và câu kế là phần mào đầu của câu hỏi.
+
+00:10:13.260 --> 00:10:15.260
+Và anh ta chỉ giải thích gì đó.
+
+00:10:15.260 --> 00:10:18.260
+Nên nhớ, nó là một câu hỏi về JavaScript.
+
+00:10:19.260 --> 00:10:23.260
+Chữ: Thường xuyên, thời gian dê cài đặt một lỗi là nôn (Máy tính dịch)
+
+00:10:23.260 --> 00:10:27.260
+(Tiếng cười)
+
+00:10:27.260 --> 00:10:30.260
+Và rồi tới phần đầu của câu hỏi.
+
+00:10:30.260 --> 00:10:34.260
+Chữ: Làm thế nào nhiều lần như gió, trụ, và con rồng?
+
+00:10:34.260 --> 00:10:36.260
+(Tiếng cười)
+
+00:10:36.260 --> 00:10:39.260
+Và rồi tới phần yêu thích nhất của tôi trong câu hỏi này.
+
+00:10:39.260 --> 00:10:42.260
+Chữ: Điều này xúc phạm đến đá của cha?
+
+00:10:42.260 --> 00:10:44.260
+(Tiếng cười)
+
+00:10:44.260 --> 00:10:47.260
+Và rồi đến phần cuối, phần yêu thích nhất của tôi trong toàn bộ.
+
+00:10:47.260 --> 00:10:51.260
+Chữ: Xin vui lòng xin lỗi cho sự ngu dốt của bạn. Có một rất nhiều cảm ơn bạn.
+
+00:10:51.260 --> 00:10:53.260
+(Tiếng cười)
+
+00:10:53.260 --> 00:10:55.260
+Đó là tại sao dịch bằng máy chưa đủ tốt.
+
+00:10:55.260 --> 00:10:57.260
+Và quay lại câu hỏi.
+
+00:10:57.260 --> 00:11:00.260
+Chúng tôi cần người để dịch toàn bộ Web.
+
+00:11:00.260 --> 00:11:02.260
+Và câu hỏi tiếp theo bạn có thể có là,
+
+00:11:02.260 --> 00:11:04.260
+tại sao bạn không trả công cho người ta để dịch?
+
+00:11:04.260 --> 00:11:07.260
+Chúng tôi có thể trả cho chuyên gia dịch thuật để dịch toàn bộ Web.
+
+00:11:07.260 --> 00:11:09.260
+Chúng tôi có thể làm điều đó.
+
+00:11:09.260 --> 00:11:11.260
+Nhưng không may là nó sẽ cực kỳ mắc.
+
+00:11:11.260 --> 00:11:14.260
+Ví dụ, dịch một phần nhỏ, rất nhỏ của toàn bộ Web, trang Wikipedia,
+
+00:11:14.260 --> 00:11:17.260
+sang một ngôn ngữ khác, tiếng Tây Ban Nha chẳng hạn.
+
+00:11:17.260 --> 00:11:19.260
+Wikipedia có phiên bản tiếng Tây Ban Nha,
+
+00:11:19.260 --> 00:11:21.260
+nhưng nó rất nhỏ so với phiên bản tiếng Anh.
+
+00:11:21.260 --> 00:11:23.260
+Nó khoảng 20 phần trăm kích thước của bản tiếng Anh.
+
+00:11:23.260 --> 00:11:26.260
+Nếu chúng ta muốn dịch 80 phần trăm kia sang tiếng Tây Ban Nha,
+
+00:11:26.260 --> 00:11:28.260
+nó sẽ tốn tối thiểu 50 triệu đô la Mỹ --
+
+00:11:28.260 --> 00:11:31.260
+và thậm chí đây là một quốc gia nhận dịch thuật rẻ nhất (ý nói đến Mexico, không phải nói tới Tây Ban Nha)
+
+00:11:31.260 --> 00:11:33.260
+Nó sẽ rất mắc.
+
+00:11:33.260 --> 00:11:35.260
+Vì vậy cái mà chúng tôi muốn làm là có 100 triệu người
+
+00:11:35.260 --> 00:11:37.260
+dịch Web sang mọi ngôn ngữ chính
+
+00:11:37.260 --> 00:11:39.260
+miễn phí.
+
+00:11:39.260 --> 00:11:41.260
+Hiện tại nếu đây là cái mà bạn muốn làm,
+
+00:11:41.260 --> 00:11:43.260
+bạn sẽ sớm nhận ra bạn sẽ gặp phải 2 trở ngại khá lớn,
+
+00:11:43.260 --> 00:11:45.260
+2 trở ngại lớn.
+
+00:11:45.260 --> 00:11:48.260
+Đầu tiên là thiếu người biết 2 thứ tiếng.
+
+00:11:48.260 --> 00:11:50.260
+Và tôi thậm chí không biết
+
+00:11:50.260 --> 00:11:53.260
+nếu mà tồn tại 100 triệu người đang sử dụng Web
+
+00:11:53.260 --> 00:11:55.260
+mà biết hai thử tiếng đủ để giúp chúng tôi dịch.
+
+00:11:55.260 --> 00:11:57.260
+Đó là một vấn đề lớn.
+
+00:11:57.260 --> 00:11:59.260
+Vấn đề khác bạn sẽ gặp phải là thiếu động lực.
+
+00:11:59.260 --> 00:12:01.260
+Làm cách nào bạn thúc đẩy người ta
+
+00:12:01.260 --> 00:12:03.260
+dịch trang web miễn phí?
+
+00:12:03.260 --> 00:12:06.260
+Bình thường bạn phải trả công cho người ta để làm điều này.
+
+00:12:06.260 --> 00:12:08.260
+Vì vậy làm cách nào bạn thúc đẩy họ làm điều này miễn phí?
+
+00:12:08.260 --> 00:12:11.260
+Khi mà chúng tôi bắt đầu nghĩ về điều này, chúng tôi đã bị vướng 2 điều trên.
+
+00:12:11.260 --> 00:12:13.260
+Nhưng rồi chúng tôi nhận ra, thực sự có một cách
+
+00:12:13.260 --> 00:12:15.260
+để giải quyết cả 2 vấn đề này với cùng một lời giải.
+
+00:12:15.260 --> 00:12:17.260
+Cố một cách mà một mũi tên bắn trúng 2 con nhạn.
+
+00:12:17.260 --> 00:12:20.260
+Đó là biến đổi dịch thuật
+
+00:12:20.260 --> 00:12:23.260
+thành một thứ mà hàng triệu người muốn làm,
+
+00:12:23.260 --> 00:12:26.260
+và điều đó cũng giải quyết vấn đề thiếu người biết song ngữ,
+
+00:12:26.260 --> 00:12:29.260
+và đó là dạy tiếng.
+
+00:12:29.260 --> 00:12:31.260
+Hiện tại,
+
+00:12:31.260 --> 00:12:34.260
+có hang 1,2 tỉ người học tiếng nước ngoài.
+
+00:12:34.260 --> 00:12:36.260
+Người ta rất, rất muốn học một ngoại ngữ.
+
+00:12:36.260 --> 00:12:39.260
+Và nó không chỉ vì họ bị bắt buộc phải học.
+
+00:12:39.260 --> 00:12:41.260
+Ví dụ, chỉ ở đơn cử ở Mỹ,
+
+00:12:41.260 --> 00:12:43.260
+có hơn 5 triệu người đã trả hơn 500 đô la Mỹ
+
+00:12:43.260 --> 00:12:45.260
+để mua phần mềm học ngoại ngữ.
+
+00:12:45.260 --> 00:12:47.260
+Vì người ta rất, rất muốn học ngoại ngữ.
+
+00:12:47.260 --> 00:12:50.260
+Vì vậy cái mà chúng tôi đang làm trong một năm rưỡi nay là một trang web mới --
+
+00:12:50.260 --> 00:12:52.260
+nó được gọi là Duolingo --
+
+00:12:52.260 --> 00:12:55.260
+với ý tưởng cơ bản là mọi nguwofi học một ngôn ngữ mới miễn phí
+
+00:12:55.260 --> 00:12:57.260
+trong khi dịch Web.
+
+00:12:57.260 --> 00:12:59.260
+Và cơ bản là học học bằng cách làm.
+
+00:12:59.260 --> 00:13:01.260
+Và cách nó hoạt động
+
+00:13:01.260 --> 00:13:04.260
+là khi bạn là một người mới học, chúng tôi cho các bạn những câu rất, rất đơn giản.
+
+00:13:04.260 --> 00:13:06.260
+Và tất nhiên là có rất nhiều câu rất đơn giản trên Web.
+
+00:13:06.260 --> 00:13:08.260
+Chúng tôi cho các bạn những câu rất, rất đơn giản
+
+00:13:08.260 --> 00:13:10.260
+cùng với nghĩa của mỗi từ.
+
+00:13:10.260 --> 00:13:13.260
+Và trong khi các bạn dịch chúng, và thấy cách người khác dịch chúng,
+
+00:13:13.260 --> 00:13:15.260
+bạn bắt đầu học ngoại ngữ đó.
+
+00:13:15.260 --> 00:13:17.260
+Và càng ngày bạn càng tiến bộ,
+
+00:13:17.260 --> 00:13:19.260
+chúng tôi cho các bạn các câu phức tạp hơn để dịch.
+
+00:13:19.260 --> 00:13:21.260
+Nhưng toàn bộ thời gian, các bạn học bằng cách làm.
+
+00:13:21.260 --> 00:13:23.260
+Và điều điên rồi về phương pháp này
+
+00:13:23.260 --> 00:13:25.260
+là nó thực sự khả thi.
+
+00:13:25.260 --> 00:13:27.260
+Đầu tiên, người ta rất, rất muốn học ngoại ngữ.
+
+00:13:27.260 --> 00:13:29.260
+Chúng tôi hầu như xây dựng xong nó, và chúng tôi đang thử nghiệm nó.
+
+00:13:29.260 --> 00:13:31.260
+Người ta có thể thực sự học ngoại ngữ với nó.
+
+00:13:31.260 --> 00:13:34.260
+Và họ học nó tốt như là với các phần mềm ngôn ngữ hàng đầu.
+
+00:13:34.260 --> 00:13:36.260
+Vì vậy người ta thực sự học ngoại ngữ.
+
+00:13:36.260 --> 00:13:38.260
+Và không chỉ học nó,
+
+00:13:38.260 --> 00:13:40.260
+mà còn học một cách thú vị.
+
+00:13:40.260 --> 00:13:43.260
+Vì bạn thấy với Duolingo, người ta thực sự học với nội dung thực.
+
+00:13:43.260 --> 00:13:45.260
+Ngược lại với học bằng những câu nghĩ ra,
+
+00:13:45.260 --> 00:13:48.260
+người ta học với nội dung thật, những câu thực sự thú vị.
+
+00:13:48.260 --> 00:13:50.260
+Vì vậy họ thực sự học một ngôn ngữ.
+
+00:13:50.260 --> 00:13:52.260
+Nhưng thậm chí bất ngờ hơn,
+
+00:13:52.260 --> 00:13:55.260
+bản dịch mà chúng tôi lấy từ người dùng trang web,
+
+00:13:55.260 --> 00:13:57.260
+thậm chí họ chỉ là người mới học,
+
+00:13:57.260 --> 00:14:00.260
+bản dịch từ học chính xác như là những người dịch chuyên nghiệp,
+
+00:14:00.260 --> 00:14:02.260
+điều đó rất bất ngờ.
+
+00:14:02.260 --> 00:14:04.260
+Để tôi lấy một ví dụ cho bạn xem.
+
+00:14:04.260 --> 00:14:06.260
+Đây là một câu được dịch từ tiếng Đức sang tiếng Anh.
+
+00:14:06.260 --> 00:14:08.260
+Trên cùng là tiếng Đức.
+
+00:14:08.260 --> 00:14:10.260
+Ở giữa là bản dịch tiếng Anh
+
+00:14:10.260 --> 00:14:12.260
+được dịch bởi một người dịch chuyên nghiệp
+
+00:14:12.260 --> 00:14:14.260
+được trả 20 xu cho mỗi từ mà anh ta dịch.
+
+00:14:14.260 --> 00:14:17.260
+Và dưới cùng là câu được dịch bởi những người dùng Duoling,
+
+00:14:17.260 --> 00:14:19.260
+không ai trong số họ từng biết tiếng Đức
+
+00:14:19.260 --> 00:14:21.260
+trước khi họ dùng trang web.
+
+00:14:21.260 --> 00:14:23.260
+Các bạn có thể thấy là nó khác là hoàn hảo.
+
+00:14:23.260 --> 00:14:25.260
+Hiện tại, tất nhiên là chúng tôi dùng mẹo ở đây
+
+00:14:25.260 --> 00:14:27.260
+để làm cho những bản dịch đó tốt như là người dịch chuyên nghiệp.
+
+00:14:27.260 --> 00:14:30.260
+Chúng tôi kết hợp bản dịch của nhiều người mới học lại
+
+00:14:30.260 --> 00:14:33.260
+để tạo nên một bản dịch chất lượng cao.
+
+00:14:33.260 --> 00:14:38.260
+Và thậm chí khi chúng tôi kết hợp các bản dịch,
+
+00:14:38.260 --> 00:14:40.260
+trang web vẫn thực sự dịch khá nhanh.
+
+00:14:40.260 --> 00:14:42.260
+Để tôi cho các bạn xem,
+
+00:14:42.260 --> 00:14:44.260
+đây là ước lượng của chúng tôi về việc dịch Wikipedia nhanh như thế nào
+
+00:14:44.260 --> 00:14:46.260
+từ tiếng Anh sang tiếng Tây Ban Nha.
+
+00:14:46.260 --> 00:14:49.260
+Nên nhớ, đây là một dự án đáng giá 50 triệu đô la Mỹ.
+
+00:14:49.260 --> 00:14:51.260
+Và nếu chúng tôi muốn Wikipedia sang tiếng Tây Ban Nha,
+
+00:14:51.260 --> 00:14:54.260
+chúng tôi có thể làm trong vòng 5 tuần với 100.000 người dùng.
+
+00:14:54.260 --> 00:14:57.260
+Và chúng tôi có thể làm trong vòng 80 giờ với một triệu người dùng.
+
+00:14:57.260 --> 00:15:00.260
+Vì tất cả các dự án nhóm chúng tôi từng làm tới hiện tại đều có hàng triệu người dùng,
+
+00:15:00.260 --> 00:15:02.260
+chúng tôi hy vọng rằng chúng tôi sẽ có thể dịch
+
+00:15:02.260 --> 00:15:04.260
+cực nhanh bằng dự án này.
+
+00:15:04.260 --> 00:15:07.260
+Và điều mà tôi hứng thú nhất về Duolingo
+
+00:15:07.260 --> 00:15:10.260
+là tôi nghĩ điều này cung cấp một hình mẫu kinh tế công bằng cho giáo dục ngoại ngữ.
+
+00:15:10.260 --> 00:15:12.260
+Đó chính là:
+
+00:15:12.260 --> 00:15:14.260
+Hình mẫu kinh tế hiện tại của giáo dục ngoại ngữ
+
+00:15:14.260 --> 00:15:16.260
+là học sinh trả tiền,
+
+00:15:16.260 --> 00:15:18.260
+và cụ thể là, học sinh trả cho Rosetta Stone 500 đô la Mỹ.
+
+00:15:18.260 --> 00:15:20.260
+(Tiếng cười)
+
+00:15:20.260 --> 00:15:22.260
+Đó là hình mẫu kinh tế hiện tại.
+
+00:15:22.260 --> 00:15:24.260
+Vấn đề với hình mẫu kinh tế này
+
+00:15:24.260 --> 00:15:27.260
+là 95 phần trăm dân số thế giới không có 500 đô la Mỹ.
+
+00:15:27.260 --> 00:15:30.260
+Vì vậy nó cực kỳ bất công với người nghèo.
+
+00:15:30.260 --> 00:15:32.260
+Điều này hoàn toàn nghiên về người giàu.
+
+00:15:32.260 --> 00:15:34.260
+Và bây giờ, với Duolingo,
+
+00:15:34.260 --> 00:15:36.260
+vì trong khi bạn học
+
+00:15:36.260 --> 00:15:39.260
+bạn thực sự đang tạo ra giá trị, bạn đang dịch web --
+
+00:15:39.260 --> 00:15:42.260
+và công việc đó, bạn có thể tính tiền ai đó cho việc dịch của bạn.
+
+00:15:42.260 --> 00:15:44.260
+Và đây chính là cách mà chúng tôi có thể lưu hành nó.
+
+00:15:44.260 --> 00:15:46.260
+Vì người ta đang tạo ra giá trị trong khi họ đang học,
+
+00:15:46.260 --> 00:15:49.260
+họ không phải trả tiền, họ trả bằng thời gian của họ.
+
+00:15:49.260 --> 00:15:52.260
+Nhưng điều kỳ diệu ở đây là họ trả với thời gian của họ,
+
+00:15:52.260 --> 00:15:54.260
+mà thời gian đó dù sao cũng phải dùng
+
+00:15:54.260 --> 00:15:56.260
+để học ngoại ngữ.
+
+00:15:56.260 --> 00:15:59.260
+Vì vậy điều tuyệt diệu ở đây về Duolingo là tôi nghĩ nó cung cấp một hình mẫu kinh tế công bằng --
+
+00:15:59.260 --> 00:16:01.260
+người ta không phân biệt đối xử với người nghèo.
+
+00:16:01.260 --> 00:16:03.260
+Và đây là trang web. Xin cảm ơn.
+
+00:16:03.260 --> 00:16:11.260
+(Vỗ tay)
+
+00:16:11.260 --> 00:16:13.260
+Và đây là trang web.
+
+00:16:13.260 --> 00:16:15.260
+Chúng tôi chưa ra mắt,
+
+00:16:15.260 --> 00:16:18.260
+nhưng nếu bạn vào, bạn đăng ký sử dụng bản thử nghiệm,
+
+00:16:18.260 --> 00:16:20.260
+sẽ bắt đầu khoảng 3 hay 4 tuần nữa.
+
+00:16:20.260 --> 00:16:22.260
+Chúng tôi vẫn chưa ra mắt Duolingo.
+
+00:16:22.260 --> 00:16:24.260
+Tiện thể, tôi là người đang nói ở đây,
+
+00:16:24.260 --> 00:16:27.260
+nhưng thực sự Duolingo là sản phẩm của một đội ngũ tuyệt vời, vài người trong số họ có mặt tại đây.
+
+00:16:27.260 --> 00:16:29.260
+Xin cảm ơn.
+
+00:16:29.260 --> 00:16:33.260
+(Vỗ tay)
+

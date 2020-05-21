@@ -1,0 +1,866 @@
+WEBVTT
+Kind: captions
+Language: de
+
+00:00:00.000 --> 00:00:07.000
+Übersetzung: Norbert Langkau
+Lektorat: Daniel Hoffmann
+
+00:00:23.307 --> 00:00:26.491
+Wann ist eine Maschine athletisch?
+
+00:00:26.491 --> 00:00:29.908
+Wir werden das Konzept 
+von Maschinenathletik
+
+00:00:29.908 --> 00:00:31.628
+und die benötigte Forschung
+
+00:00:31.628 --> 00:00:34.139
+mit Hilfe dieser Fluggeräte, den Quadrocoptern
+
+00:00:34.139 --> 00:00:36.026
+oder kurz ›Quads‹, demonstrieren.
+
+00:00:38.034 --> 00:00:39.566
+Quads gibt es schon eine ganze Zeit.
+
+00:00:39.566 --> 00:00:41.792
+Sie sind heute so populär,
+
+00:00:41.792 --> 00:00:44.127
+weil sie mechanisch einfach sind.
+
+00:00:44.127 --> 00:00:46.235
+Durch die Steuerung der vier Propeller
+
+00:00:46.235 --> 00:00:49.283
+können diese Maschinen
+rollen, kippen, gieren
+
+00:00:49.283 --> 00:00:52.108
+und in alle gängigen Richtungen 
+beschleunigen.
+
+00:00:52.108 --> 00:00:55.179
+Mit an Bord sind eine Batterie,
+ein Computer,
+
+00:00:55.179 --> 00:00:59.133
+verschiedene Sensoren und Funkgeräte.
+
+00:00:59.133 --> 00:01:03.762
+Quads sind extrem wendig, aber
+diese Wendigkeit hat ihren Preis.
+
+00:01:03.762 --> 00:01:06.754
+Sie sind von Natur aus instabil,
+und brauchen
+
+00:01:06.754 --> 00:01:10.726
+zum Fliegen eine Art
+automatische Rückkopplungsregelung.
+
+00:01:16.259 --> 00:01:19.497
+Wie hat er das gerade gemacht?
+
+00:01:19.497 --> 00:01:21.315
+Kameras an der Decke und ein Laptop
+
+00:01:21.315 --> 00:01:23.891
+dienen als ein Innenraum-GPS.
+
+00:01:23.891 --> 00:01:26.076
+Damit lassen sich Objekte im Raum,
+
+00:01:26.076 --> 00:01:28.603
+die solche Reflektoren besitzen, lokalisieren.
+
+00:01:28.603 --> 00:01:30.664
+Die Daten werden an einen 
+weiteren Laptop
+
+00:01:30.664 --> 00:01:32.875
+mit Schätz- und Regelalgorithmen geschickt
+
+00:01:32.881 --> 00:01:38.246
+und von dort an den Quad, 
+der ebenfalls solche Algorithmen ausführt.
+
+00:01:41.620 --> 00:01:44.130
+Wir forschen hauptsächlich an Algorithmen.
+
+00:01:44.130 --> 00:01:48.291
+Sie sind der Zauber, der
+diese Maschinen zum Leben erweckt.
+
+00:01:48.291 --> 00:01:50.334
+Wie entwirft man also Algorithmen,
+
+00:01:50.334 --> 00:01:52.611
+die eine Maschine so sportlich machen?
+
+00:01:52.611 --> 00:01:55.491
+Wir verwenden den sog. modellbasierten Ansatz.
+
+00:01:55.491 --> 00:01:58.645
+Zuerst bilden wir
+das physikalische Verhalten der Maschinen
+
+00:01:58.645 --> 00:02:00.779
+in einem
+mathematischen Modell ab.
+
+00:02:00.779 --> 00:02:03.076
+Dann analysieren wir diese Modelle 
+mithilfe eines Teilgebiets der Mathematik,
+
+00:02:03.076 --> 00:02:05.857
+der Regelungstheorie,
+
+00:02:05.857 --> 00:02:09.820
+die dann automatisch die Algorithmen
+für deren Steuerung liefert.
+
+00:02:09.820 --> 00:02:12.868
+Ein Beispiel ist dieser schwebende Quad:
+
+00:02:12.868 --> 00:02:14.276
+Zuerst haben wir die Dynamik
+
+00:02:14.276 --> 00:02:16.182
+in mehreren Differentialgleichungen abgebildet,
+
+00:02:16.182 --> 00:02:18.531
+die wir dann mit Hilfe 
+der Regelungstheorie verändern
+
+00:02:18.531 --> 00:02:23.171
+und so Algorithmen
+zur Stabilisierung des Quads bekommen.
+
+00:02:23.171 --> 00:02:26.117
+Ich will Ihnen die Stärken
+dieses Ansatzes zeigen.
+
+00:02:29.198 --> 00:02:31.947
+Nehmen wir an, der Quad soll 
+zusätzlich zum Schweben
+
+00:02:31.947 --> 00:02:34.529
+noch diesen Stab balancieren.
+
+00:02:34.529 --> 00:02:36.373
+Mit etwas Übung ist das
+
+00:02:36.373 --> 00:02:38.764
+für Menschen eine machbare Aufgabe,
+
+00:02:38.764 --> 00:02:40.519
+wobei wir zu unserem Vorteil
+
+00:02:40.519 --> 00:02:41.847
+zwei Füße auf dem Boden
+
+00:02:41.847 --> 00:02:44.804
+und unsere sehr geschickten Hände haben.
+
+00:02:44.804 --> 00:02:47.273
+Ein bisschen schwieriger wird das
+
+00:02:47.273 --> 00:02:49.569
+mit nur einem Fuß auf dem Boden
+
+00:02:49.569 --> 00:02:52.368
+und ohne Hände.
+
+00:02:52.368 --> 00:02:55.319
+Der Stab hat an der Spitze
+einen Reflektor,
+
+00:02:55.319 --> 00:02:59.213
+so dass er im Raum lokalisiert werden kann.
+
+00:03:04.971 --> 00:03:10.947
+(Beifall)
+
+00:03:10.947 --> 00:03:13.773
+Man sieht, wie der Quad
+durch kleine Anpassungen
+
+00:03:13.773 --> 00:03:15.968
+den Stab im Gleichgewicht hält.
+
+00:03:15.968 --> 00:03:19.027
+Wie haben wir den Algorithmus
+dafür entworfen?
+
+00:03:19.027 --> 00:03:21.132
+Wir haben das mathematische Modell
+des Stabes
+
+00:03:21.132 --> 00:03:22.561
+dem des Quads hinzugefügt.
+
+00:03:22.561 --> 00:03:25.605
+Auf das verbundene Quad-Stab-System 
+kann man wieder die Regeltheorie anwenden,
+
+00:03:25.605 --> 00:03:30.188
+um so Algorithmen für 
+die Steuerung zu bekommen.
+
+00:03:30.188 --> 00:03:32.126
+Sie sehen, das System ist stabil,
+
+00:03:32.126 --> 00:03:34.819
+und selbst wenn ich ihm kleine Stupser gebe,
+
+00:03:34.819 --> 00:03:40.222
+geht es in eine schön 
+ausbalancierte Position zurück.
+
+00:03:40.222 --> 00:03:41.885
+Wir können das Modell auch
+
+00:03:41.885 --> 00:03:44.326
+um eine gewünschte Position erweitern.
+
+00:03:44.326 --> 00:03:47.395
+Mit diesem Zeiger aus Reflektoren kann ich
+
+00:03:47.395 --> 00:03:49.619
+dahin zeigen, wo ich den Quad im Raum
+
+00:03:49.619 --> 00:03:52.986
+in einer festen Entfernung von mir haben will.
+
+00:04:07.935 --> 00:04:10.665
+Der Schlüssel zu dieser Akrobatik 
+sind Algorithmen,
+
+00:04:10.665 --> 00:04:13.091
+die mit Hilfe mathematischer Modelle
+
+00:04:13.091 --> 00:04:15.041
+und der Regelungstheorie entwickelt wurden.
+
+00:04:15.041 --> 00:04:17.255
+Jetzt soll der Quad hierher zurückkommen
+
+00:04:17.255 --> 00:04:19.074
+und den Stab fallen lassen.
+
+00:04:19.074 --> 00:04:20.992
+Als Nächstes will ich zeigen, wie wichtig
+
+00:04:20.992 --> 00:04:23.111
+das Verständnis physikalischer Modelle
+
+00:04:23.111 --> 00:04:26.231
+und deren Zusammenhänge 
+in der physischen Welt ist.
+
+00:04:37.462 --> 00:04:39.232
+Man sieht, dass er an Höhe verliert,
+
+00:04:39.232 --> 00:04:41.314
+wenn ich dieses Glas Wasser draufstelle.
+
+00:04:41.314 --> 00:04:43.095
+Anders als bei dem Balancestab habe ich
+
+00:04:43.095 --> 00:04:46.699
+hier das Modell des Glases
+nicht in das System eingefügt.
+
+00:04:46.699 --> 00:04:49.618
+Eigentlich weiß das System gar nicht,
+dass das Wasserglas da ist.
+
+00:04:49.618 --> 00:04:52.910
+Wie zuvor kann ich den Quad
+mit dem Zeiger anweisen,
+
+00:04:52.910 --> 00:04:55.499
+wo im Raum ich ihn haben will.
+
+00:04:55.499 --> 00:05:05.096
+(Beifall)
+
+00:05:05.096 --> 00:05:07.206
+An der Stelle fragt man sich:
+
+00:05:07.206 --> 00:05:09.715
+»Wieso fließt das Wasser
+nicht aus dem Glas?«
+
+00:05:09.715 --> 00:05:12.926
+Aus zwei Gründen: Zum einen
+wirkt die Schwerkraft
+
+00:05:12.926 --> 00:05:15.051
+auf alle Objekte gleich;
+
+00:05:15.051 --> 00:05:17.515
+zum anderen weisen alle Propeller in
+
+00:05:17.515 --> 00:05:20.642
+die gleiche Richtung wie
+das Glas, nach oben.
+
+00:05:20.642 --> 00:05:23.019
+Beides zusammen bewirkt,
+
+00:05:23.019 --> 00:05:25.306
+dass die Seitenkräfte auf das Glas klein
+
+00:05:25.306 --> 00:05:28.091
+und überwiegend aerodynamische Effekte sind,
+
+00:05:28.091 --> 00:05:31.932
+die man bei diesen Geschwindigkeiten
+vernachlässigen kann.
+
+00:05:35.336 --> 00:05:37.407
+Deshalb braucht man das Modell des Glases 
+nicht einzufügen.
+
+00:05:37.407 --> 00:05:41.255
+Es wird nichts verschüttet, ganz gleich,
+was der Quad macht.
+
+00:05:50.651 --> 00:05:57.702
+(Beifall)
+
+00:05:57.702 --> 00:06:01.718
+Die Lehre, die wir daraus ziehen,
+ist, dass einige Hochleistungen
+
+00:06:01.718 --> 00:06:03.115
+einfacher sind als andere,
+
+00:06:03.115 --> 00:06:05.411
+und dass die Physik bei dem Problem
+
+00:06:05.411 --> 00:06:08.027
+einem sagt, was einfach
+und was schwierig ist.
+
+00:06:08.027 --> 00:06:10.386
+Hier zum Beispiel ist es leicht, 
+ein Wasserglas zu befördern,
+
+00:06:10.386 --> 00:06:14.171
+aber schwierig, den Stab zu balancieren.
+
+00:06:14.171 --> 00:06:15.973
+Wir alle haben von Athleten gehört,
+
+00:06:15.973 --> 00:06:18.466
+die auch verletzt
+Meisterleistungen abliefern.
+
+00:06:18.466 --> 00:06:19.985
+Kann eine Maschine so etwas auch,
+
+00:06:19.985 --> 00:06:22.636
+selbst wenn sie schwer beschädigt ist?
+
+00:06:22.636 --> 00:06:24.362
+Herkömmlicherweise braucht man
+
+00:06:24.362 --> 00:06:28.052
+mindestens vier fest angebrachte, angetriebene 
+Propellerpaare, um zu fliegen,
+
+00:06:28.052 --> 00:06:30.164
+weil es vier Freiheitsgrade gibt:
+
+00:06:30.164 --> 00:06:33.192
+Rollen, Kippen, Gieren und Beschleunigung.
+
+00:06:33.192 --> 00:06:36.437
+Hexacopter und Octocopter, 
+mit sechs und acht Propellern,
+
+00:06:36.437 --> 00:06:37.920
+sind redundant,
+
+00:06:37.920 --> 00:06:39.909
+aber Quadrocopter sind viel beliebter,
+
+00:06:39.909 --> 00:06:41.724
+weil sie die kleinste Anzahl
+
+00:06:41.724 --> 00:06:44.200
+fest angebrachter, angetriebener 
+Propellerpaare haben: vier.
+
+00:06:44.200 --> 00:06:46.165
+Oder doch nicht?
+
+00:07:01.476 --> 00:07:04.076
+Das mathematische Modell dieser Maschine
+
+00:07:04.076 --> 00:07:06.252
+mit nur zwei intakten Propellern zeigt,
+
+00:07:06.252 --> 00:07:13.008
+dass es eine unkonventionelle Art
+gibt, sie zu fliegen.
+
+00:07:19.980 --> 00:07:21.686
+Wir verzichten auf das Gieren,
+
+00:07:21.686 --> 00:07:25.716
+steuern aber Rollen, Kippen
+und Beschleunigung
+
+00:07:25.716 --> 00:07:30.208
+durch Algorithmen, die wir aus der Auswertung 
+dieser neuen Anordnung erhalten.
+
+00:07:33.668 --> 00:07:36.100
+Mathematische Modelle sagen uns genau,
+
+00:07:36.100 --> 00:07:38.172
+wann und wieso das möglich ist.
+
+00:07:38.172 --> 00:07:40.540
+Hier erlaubt uns dieses Wissen,
+
+00:07:40.540 --> 00:07:42.796
+neuartige Maschinenarchitekturen
+
+00:07:42.796 --> 00:07:46.972
+oder schlaue Algorithmen zu entwerfen,
+die mit Zerstörung genauso gut
+
+00:07:46.972 --> 00:07:48.696
+umgehen wie Athleten,
+
+00:07:48.696 --> 00:07:52.519
+statt Maschinen mit Redundanz
+bauen zu müssen.
+
+00:07:52.519 --> 00:07:54.631
+Uns stockt der Atem, wenn wir sehen,
+
+00:07:54.631 --> 00:07:57.068
+wie ein Turmspringer 
+einen Salto ins Wasser macht,
+
+00:07:57.068 --> 00:07:58.858
+oder ein Stabhochspringer sich
+in der Luft verbiegt,
+
+00:07:58.858 --> 00:08:00.596
+und schnell dem Boden nahe kommt.
+
+00:08:00.596 --> 00:08:03.144
+Wird der Turmspringer glatt eintauchen?
+
+00:08:03.144 --> 00:08:05.144
+Wird der Stabhochspringer
+die Landung stehen?
+
+00:08:05.144 --> 00:08:06.812
+Dieser Quad hier soll einen
+
+00:08:06.812 --> 00:08:09.263
+dreifachen Salto machen und wieder
+
+00:08:09.263 --> 00:08:11.532
+da ankommen, wo er gestartet ist.
+
+00:08:11.532 --> 00:08:13.879
+Dieses Manöver passiert so schnell,
+
+00:08:13.879 --> 00:08:17.508
+dass wir während der Bewegung
+nicht rückkoppeln können –
+
+00:08:17.508 --> 00:08:19.782
+dazu ist einfach nicht genug Zeit.
+
+00:08:19.782 --> 00:08:23.476
+Stattdessen kann der Quad
+das Manöver blind fliegen,
+
+00:08:23.476 --> 00:08:25.708
+sich das Ergebnis anschauen
+
+00:08:25.708 --> 00:08:28.132
+und dann aus dieser Information lernen,
+
+00:08:28.132 --> 00:08:30.421
+so dass die nächste Rolle besser wird.
+
+00:08:30.421 --> 00:08:32.233
+Wie für die Springer gilt,
+
+00:08:32.233 --> 00:08:34.152
+dass das Manöver nur
+
+00:08:34.152 --> 00:08:36.077
+durch wiederholtes Üben gelernt
+
+00:08:36.077 --> 00:08:38.210
+und optimal ausgeführt werden kann.
+
+00:08:46.412 --> 00:08:51.164
+(Beifall)
+
+00:08:51.164 --> 00:08:54.636
+Bei vielen Sportarten muss man
+einen sich bewegenden Ball treffen können.
+
+00:08:54.636 --> 00:08:56.431
+Wie lässt man eine Maschine
+
+00:08:56.431 --> 00:09:00.184
+etwas tun, was für einen Athleten
+mühelos erscheint?
+
+00:09:15.943 --> 00:09:22.542
+(Beifall)
+
+00:09:22.542 --> 00:09:25.192
+Dieser Quad hat einen Schläger 
+auf dem Kopf montiert,
+
+00:09:25.192 --> 00:09:28.679
+dessen Schlagfläche nicht 
+sehr groß ist, etwa apfelgroß.
+
+00:09:28.679 --> 00:09:31.846
+Alle 20 Millisekunden, 
+also 50 mal pro Sekunde,
+
+00:09:31.846 --> 00:09:33.602
+berechnen wir Folgendes:
+
+00:09:33.602 --> 00:09:36.414
+Zuerst rechnen wir aus,
+wohin der Ball fliegt.
+
+00:09:36.414 --> 00:09:38.851
+Dann, wie der Quad den Ball
+schlagen soll,
+
+00:09:38.851 --> 00:09:41.950
+so dass er zum Werfer zurückfliegt.
+
+00:09:41.950 --> 00:09:46.406
+Drittens wird eine Flugbahn geplant,
+die den Quad von seiner Position
+
+00:09:46.406 --> 00:09:49.430
+zu seinem Aufschlagpunkt für den Ball bringt.
+
+00:09:49.430 --> 00:09:53.239
+Viertens: Wir befolgen diese Strategie
+nur 20 Millisekunden lang.
+
+00:09:53.239 --> 00:09:56.046
+Danach wird der Prozess so lange wiederholt,
+
+00:09:56.046 --> 00:09:58.289
+bis der Quad den Ball trifft.
+
+00:10:07.560 --> 00:10:10.206
+(Beifall)
+
+00:10:10.206 --> 00:10:13.578
+Maschinen können solche Manöver
+nicht nur alleine ausführen,
+
+00:10:13.578 --> 00:10:15.441
+sondern auch im Verbund.
+
+00:10:15.441 --> 00:10:19.028
+Diese drei Quads halten zusammen
+ein Netz in der Luft.
+
+00:10:28.574 --> 00:10:33.985
+(Beifall)
+
+00:10:33.985 --> 00:10:36.182
+Sie vollführen ein extrem dynamisches
+
+00:10:36.182 --> 00:10:38.350
+und aufeinander abgestimmtes Manöver,
+
+00:10:38.350 --> 00:10:40.042
+um mir den Ball zurückzuschießen.
+
+00:10:40.042 --> 00:10:43.553
+Sehen Sie – bei voller Ausdehnung
+stehen die Quads vertikal.
+
+00:10:48.486 --> 00:10:50.258
+(Beifall)
+
+00:10:50.258 --> 00:10:52.545
+Tatsächlich sind die Kräfte bei
+
+00:10:52.545 --> 00:10:55.230
+voller Ausdehnung etwa fünf mal so groß 
+wie die, die ein Bungeespringer
+
+00:10:55.230 --> 00:10:59.818
+am Ende des Sprungs verspürt.
+
+00:11:03.009 --> 00:11:05.686
+Die nötigen Algorithmen sind denen
+
+00:11:05.686 --> 00:11:09.070
+für den einzelnen Quad, um
+den Ball zurückzuwerfen, sehr ähnlich.
+
+00:11:09.070 --> 00:11:11.934
+Man benutzt also mathematische Modelle,
+
+00:11:11.934 --> 00:11:16.449
+um die abgestimmte Strategie
+50 mal pro Sekunde neu zu berechnen.
+
+00:11:16.449 --> 00:11:18.326
+Bis jetzt ging es uns
+
+00:11:18.326 --> 00:11:20.789
+um Maschinen und ihre Fähigkeiten.
+
+00:11:20.789 --> 00:11:23.804
+Was passiert, wenn wir
+diese Maschinenathletik mit
+
+00:11:23.804 --> 00:11:25.580
+der eines Menschen koppeln?
+
+00:11:25.580 --> 00:11:29.385
+Das hier ist ein normaler
+Gestenerkennungssensor,
+
+00:11:29.385 --> 00:11:30.694
+wie er bei Videospielen benutzt wird.
+
+00:11:30.694 --> 00:11:32.498
+Er erkennt in Echtzeit,
+
+00:11:32.498 --> 00:11:34.546
+was meine Körperteile gerade tun.
+
+00:11:34.546 --> 00:11:36.662
+Ähnlich wie den Zeiger vorhin
+
+00:11:36.662 --> 00:11:39.454
+können wir ihn als Eingabemedium benutzen.
+
+00:11:39.454 --> 00:11:41.850
+Jetzt haben wir eine natürliche Methode,
+
+00:11:41.850 --> 00:11:46.794
+die ungezähmte Athletik dieser Quads
+mit meinen Gesten zu steuern.
+
+00:12:22.453 --> 00:12:26.853
+(Beifall)
+
+00:12:35.982 --> 00:12:39.989
+Die Interaktion muss nicht virtuell bleiben,
+sie kann physisch werden.
+
+00:12:39.989 --> 00:12:41.714
+Nehmen wir diesen Quad hier.
+
+00:12:41.714 --> 00:12:44.342
+Er versucht, seine Position beizubehalten.
+
+00:12:44.342 --> 00:12:48.179
+Wenn ich versuche, ihn weg zu bewegen,
+setzt er sich zur Wehr
+
+00:12:48.179 --> 00:12:52.334
+und bewegt sich zu der Position zurück,
+die er beibehalten will.
+
+00:12:52.334 --> 00:12:55.373
+Aber wir können dieses Verhalten ändern.
+
+00:12:55.373 --> 00:12:57.072
+Mit mathematischen Modellen
+
+00:12:57.072 --> 00:13:00.205
+kann man die Kraft abschätzen,
+die auf den Quad wirkt.
+
+00:13:00.205 --> 00:13:03.443
+Damit können wir
+die Gesetze der Physik ändern –
+
+00:13:03.443 --> 00:13:07.942
+natürlich nur, insoweit sie
+den Quad betreffen.
+
+00:13:07.942 --> 00:13:10.205
+Hier verhält sich der Quad,
+
+00:13:10.205 --> 00:13:14.570
+als wäre er in einer zähen Flüssigkeit.
+
+00:13:14.570 --> 00:13:16.744
+Jetzt haben wir eine Methode,
+
+00:13:16.744 --> 00:13:18.593
+eng mit der Maschine zu interagieren.
+
+00:13:18.593 --> 00:13:21.099
+Damit kann ich diesen Quad so positionieren,
+
+00:13:21.099 --> 00:13:23.676
+dass er den Rest der Demonstration
+
+00:13:23.676 --> 00:13:26.862
+mit der montierten Kamera
+von oben filmen kann.
+
+00:13:36.222 --> 00:13:38.990
+Wir können also
+mit diesen Quads interagieren
+
+00:13:38.990 --> 00:13:41.393
+und die Gesetze der Physik ändern.
+
+00:13:41.393 --> 00:13:43.706
+Damit machen wir uns jetzt einen Spaß.
+
+00:13:43.706 --> 00:13:45.410
+Als Nächstes verhalten sich
+
+00:13:45.410 --> 00:13:48.906
+die Quads anfänglich,
+als wären sie auf dem Pluto.
+
+00:13:48.906 --> 00:13:51.218
+Mit der Zeit wird die Schwerkraft erhöht,
+
+00:13:51.218 --> 00:13:53.338
+bis wir wieder zurück auf der Erde sind,
+
+00:13:53.338 --> 00:13:55.057
+aber da kommen wir nie an.
+
+00:13:55.057 --> 00:13:58.558
+O. k., auf geht's.
+
+00:14:05.667 --> 00:14:09.079
+(Lachen)
+
+00:14:34.778 --> 00:14:37.986
+(Lachen)
+
+00:14:37.986 --> 00:14:41.372
+(Beifall)
+
+00:14:41.372 --> 00:14:42.579
+Uff!
+
+00:14:46.779 --> 00:14:48.296
+Sie denken jetzt sicher:
+
+00:14:48.296 --> 00:14:50.271
+»Die Typen haben zu viel Spaß«,
+
+00:14:50.271 --> 00:14:52.350
+und wahrscheinlich fragen Sie sich:
+
+00:14:52.350 --> 00:14:56.286
+»Warum bauen sie eigentlich
+Maschinenathleten?«
+
+00:14:56.286 --> 00:14:58.938
+Man vermutet, dass Tiere spielen,
+
+00:14:58.938 --> 00:15:01.690
+um Geschicklichkeit und Fertigkeiten
+zu entwickeln.
+
+00:15:01.690 --> 00:15:03.756
+Andere denken, es wirkt sozial
+
+00:15:03.756 --> 00:15:05.430
+und sorgt für den Gruppenzusammenhalt.
+
+00:15:05.430 --> 00:15:08.963
+Wir benutzen die Analogie
+zwischen Sport und Athletik,
+
+00:15:08.963 --> 00:15:11.042
+um neue Algorithmen zu entwickeln,
+
+00:15:11.042 --> 00:15:13.189
+die die Maschinen ausreizen können.
+
+00:15:13.189 --> 00:15:16.866
+Wie beeinflusst die Geschwindigkeit
+der Maschinen unser Leben?
+
+00:15:16.866 --> 00:15:19.255
+Wie alle menschlichen Erfindungen
+und Innovationen
+
+00:15:19.255 --> 00:15:22.082
+können sie das menschliche Leben
+verbessern –
+
+00:15:22.082 --> 00:15:24.583
+aber sie können auch missbraucht werden.
+
+00:15:24.583 --> 00:15:26.506
+Das ist keine technische Entscheidung –
+
+00:15:26.506 --> 00:15:28.261
+sondern eine soziale.
+
+00:15:28.261 --> 00:15:29.651
+Mit der richtigen Wahl
+
+00:15:29.651 --> 00:15:32.056
+schaffen wir für die Zukunft der Maschinen
+
+00:15:32.056 --> 00:15:33.868
+wie durch die Athletik im Sport bei uns
+
+00:15:33.868 --> 00:15:36.029
+die besten Ergebnisse.
+
+00:15:36.029 --> 00:15:39.479
+Jetzt zu den Zauberern
+hinter dem grünen Vorhang.
+
+00:15:39.479 --> 00:15:42.379
+Sie bilden das
+Flying-Machine-Arena-Forschungsteam.
+
+00:15:42.379 --> 00:15:47.148
+(Beifall)
+
+00:15:47.148 --> 00:15:50.194
+Federico Augugliaro, Dario Brescianini,
+Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+Sergei Lupashin, Mark Muller und
+Robin Ritz.
+
+00:15:53.018 --> 00:15:54.950
+Aus denen wird noch mal etwas!
+
+00:15:54.950 --> 00:15:56.128
+Vielen Dank.
+
+00:15:56.128 --> 00:16:02.482
+(Beifall)
+

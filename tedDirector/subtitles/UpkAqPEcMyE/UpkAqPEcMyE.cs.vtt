@@ -1,0 +1,689 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Vojta Plíva
+Korektor: Václav Pelc
+
+00:00:12.881 --> 00:00:14.111
+Mám otázku.
+
+00:00:15.422 --> 00:00:17.365
+Může počítač napsat báseň?
+
+00:00:18.959 --> 00:00:21.036
+Je to provokativní otázka.
+
+00:00:21.715 --> 00:00:23.433
+Jenom o tom na minutku popřemýšlejte
+
+00:00:23.457 --> 00:00:26.047
+a najednou máte hromadu dalších
+otázek jako:
+
+00:00:26.769 --> 00:00:28.150
+Co je to počítač?
+
+00:00:28.710 --> 00:00:30.285
+Co je to poezie?
+
+00:00:30.707 --> 00:00:32.396
+Co je to kreativita?
+
+00:00:33.650 --> 00:00:34.822
+Ale to jsou otázky,
+
+00:00:34.846 --> 00:00:37.916
+na které se lidé snaží
+odpovědět celý svůj život,
+
+00:00:37.940 --> 00:00:40.164
+ne v jednom TED Talku.
+
+00:00:40.188 --> 00:00:42.633
+Budeme tedy muset
+vyzkoušet odlišný přístup.
+
+00:00:42.657 --> 00:00:44.800
+Tady nahoře máme dvě básně.
+
+00:00:45.839 --> 00:00:48.115
+Jedna je napsána člověkem
+
+00:00:48.139 --> 00:00:50.241
+a druhá zase počítačem.
+
+00:00:50.754 --> 00:00:53.164
+Zeptám se vás,
+která je která.
+
+00:00:53.858 --> 00:00:55.014
+Zkuste to:
+
+00:01:09.100 --> 00:01:11.489
+Dobře, čas vypršel.
+
+00:01:11.513 --> 00:01:15.609
+Zvedněte ruku, pokud si myslíte, že 
+báseň 1 napsal člověk.
+
+00:01:17.547 --> 00:01:19.037
+OK, většina z vás.
+
+00:01:19.061 --> 00:01:22.084
+Zvedněte ruku, pokud si myslíte, že
+báseň 2 napsal člověk.
+
+00:01:23.172 --> 00:01:24.362
+To je od vás odvážné,
+
+00:01:24.855 --> 00:01:29.140
+protože první báseň byla napsána
+lidským básníkem Williamem Blakem.
+
+00:01:29.784 --> 00:01:32.733
+Druhá byla napsána algoritmem,
+
+00:01:32.757 --> 00:01:36.449
+jenž vzal k určitému datu všechnu
+slovní zásobu z mého Facebooku
+
+00:01:36.473 --> 00:01:39.236
+a poté ji algoritmicky znovu sestavil
+
+00:01:39.260 --> 00:01:42.850
+podle metod, které vám popíši
+o něco později.
+
+00:01:43.218 --> 00:01:45.622
+Tak pojďme na další test.
+
+00:01:46.398 --> 00:01:48.491
+Znova, nemáte na čtení celou věčnost,
+
+00:01:48.515 --> 00:01:50.127
+tak jen věřte svému instinktu.
+
+00:02:10.812 --> 00:02:12.180
+Dobrá, čas vypršel.
+
+00:02:12.204 --> 00:02:15.341
+Jestliže myslíte, že první báseň
+byla napsána člověkem,
+
+00:02:15.365 --> 00:02:16.580
+zvedněte ruku.
+
+00:02:17.687 --> 00:02:18.841
+OK.
+
+00:02:18.865 --> 00:02:21.540
+Jestliže myslíte, že druhá báseň
+byla napsána člověkem,
+
+00:02:21.564 --> 00:02:22.719
+ruku nahoru.
+
+00:02:23.779 --> 00:02:27.589
+Máme to víceméně půl na půl.
+
+00:02:28.157 --> 00:02:29.593
+Tohle bylo mnohem težší.
+
+00:02:29.617 --> 00:02:31.329
+Odpověď je
+
+00:02:31.353 --> 00:02:34.836
+první báseň byla vygenerována
+algoritmem zvaným Racter,
+
+00:02:34.860 --> 00:02:37.862
+vytvořeným v 70. letech 19. století.
+
+00:02:37.886 --> 00:02:41.075
+a druhá byla napsána chlápkem
+jménem Frank O'Hara,
+
+00:02:41.099 --> 00:02:43.767
+který je jedním z mých
+oblíbených lidských básníků.
+
+00:02:44.631 --> 00:02:47.689
+(smích)
+
+00:02:48.046 --> 00:02:51.274
+To, co jsme pravě udělali 
+je Turingův test poezie.
+
+00:02:52.018 --> 00:02:56.565
+Turingův test byl poprvé navržen tímto 
+pánem, Alanem Turingem, v roce 1950,
+
+00:02:56.589 --> 00:02:58.153
+aby zodpověděl otázku,
+
+00:02:58.177 --> 00:02:59.814
+může počítač myslet?
+
+00:03:00.245 --> 00:03:03.015
+Alan Turing věřil, že dokázal-li počítač
+
+00:03:03.039 --> 00:03:06.117
+konverzovat s člověkem pomocí textu
+
+00:03:06.141 --> 00:03:08.911
+s takovou kvalitou,
+že člověk nemohl určit,
+
+00:03:08.935 --> 00:03:11.901
+zda hovoří s počítačem nebo člověkem,
+
+00:03:11.925 --> 00:03:14.781
+lze o počítači říci,
+že je inteligentní.
+
+00:03:15.270 --> 00:03:18.565
+V roce 2013, můj přítel
+Benjamin Laird a já
+
+00:03:18.589 --> 00:03:21.577
+jsme stvořili online Turingův test poezie.
+
+00:03:21.601 --> 00:03:22.878
+Jmenuje se Bot, nebo ne
+
+00:03:22.902 --> 00:03:24.946
+a můžete si ho sami zkusit.
+
+00:03:24.970 --> 00:03:27.221
+Ale je to prakticky hra,
+kterou jsme teď hráli.
+
+00:03:27.245 --> 00:03:28.773
+Je vám prezentována báseň,
+
+00:03:28.797 --> 00:03:31.119
+nevíte, zda ji napsal člověk nebo počítač,
+
+00:03:31.129 --> 00:03:32.345
+a musíte hádat.
+
+00:03:32.609 --> 00:03:36.180
+Tisíce lidí ten test zkusily
+
+00:03:36.204 --> 00:03:37.703
+takže máme výsledky.
+
+00:03:37.727 --> 00:03:39.155
+A jaké ty výsledky jsou?
+
+00:03:39.704 --> 00:03:42.583
+Turing řekl, že pokud by počítač
+dokázal člověka oklamat
+
+00:03:42.607 --> 00:03:45.626
+ve 30 procentech případů, že je člověk,
+
+00:03:45.650 --> 00:03:48.047
+pak splňuje Turingův test inteligence.
+
+00:03:48.625 --> 00:03:51.063
+Máme básně v databázi Bot, nebo ne,
+
+00:03:51.087 --> 00:03:54.066
+u kterých si 65 procent lidských
+čtenářů mylně myslelo,
+
+00:03:54.090 --> 00:03:55.485
+že byly napsány člověkem.
+
+00:03:55.959 --> 00:03:58.776
+Myslím, že máme odpověď na naši otázku.
+
+00:03:59.546 --> 00:04:01.894
+Podle logiky Turingova testu,
+
+00:04:01.918 --> 00:04:03.846
+může počítač psát poezii?
+
+00:04:03.870 --> 00:04:06.221
+Ano, rozhodně může.
+
+00:04:07.782 --> 00:04:10.718
+Ale pokud s touto odpovědí
+máte trochu problém,
+
+00:04:10.728 --> 00:04:12.079
+je to v pořádku.
+
+00:04:12.103 --> 00:04:14.369
+Pokud máte řadu instinktivních otázek,
+
+00:04:14.373 --> 00:04:17.648
+to je také v pořádku,
+protože to není konec.
+
+00:04:18.594 --> 00:04:20.918
+Pojďme si zahrát náš třetí a poslední test.
+
+00:04:22.000 --> 00:04:23.750
+Opět, budete muset číst
+
+00:04:23.774 --> 00:04:25.683
+a říct mi, která je od člověka.
+
+00:04:44.372 --> 00:04:46.531
+OK, čas vypršel.
+
+00:04:46.555 --> 00:04:50.392
+Ruce nahoru, kdo má za to,
+že báseň 1 je od člověka.
+
+00:04:51.973 --> 00:04:55.011
+Ruce nahoru, kdo myslí,
+že báseň 2 je od člověka.
+
+00:04:55.035 --> 00:04:57.366
+Páni, to je mnohem více lidí.
+
+00:04:58.327 --> 00:05:01.295
+Tak to budete překvapeni,
+když zjistíte, že báseň 1
+
+00:05:01.319 --> 00:05:05.312
+byla napsána velmi lidskou
+spisovatelkou Gertrude Steinovou.
+
+00:05:06.100 --> 00:05:11.138
+A druhá byla vygenerována
+algoritmem jménem RKCP.
+
+00:05:11.162 --> 00:05:14.481
+Než se posuneme, nechte mne
+velmi rychle a jednoduše popsat,
+
+00:05:14.505 --> 00:05:16.286
+jak RKCP funguje.
+
+00:05:16.873 --> 00:05:20.723
+RKCP je algoritmus
+navržený Rayem Kurzweilem,
+
+00:05:20.747 --> 00:05:22.969
+což je ředitel vývoje v Googlu
+
+00:05:22.993 --> 00:05:25.353
+a pevný zastánce
+umělé inteligence.
+
+00:05:25.822 --> 00:05:29.813
+RKCP dáte zdroj textu,
+
+00:05:29.837 --> 00:05:34.306
+ten je zanalyzován kvůli způsobu,
+jakým je v něm použita slovní zásoba,
+
+00:05:34.330 --> 00:05:36.278
+a ta je pak přeskládána tak,
+
+00:05:36.302 --> 00:05:38.830
+aby napodobovala první text.
+
+00:05:38.854 --> 00:05:40.967
+V případě básně,
+kterou jsme zrovna viděli,
+
+00:05:40.991 --> 00:05:43.616
+básně 2, u které jste si
+mysleli, že ji psal člověk,
+
+00:05:43.640 --> 00:05:45.190
+RKCP dostal řadu básní
+
+00:05:45.214 --> 00:05:47.249
+od básnířky Emily Dickinsonové,
+
+00:05:47.273 --> 00:05:49.462
+podíval se, jak používá slovní zásobu,
+
+00:05:49.486 --> 00:05:50.651
+naučil se model,
+
+00:05:50.675 --> 00:05:54.933
+a pak přeskládal model
+podle stejné struktury.
+
+00:05:56.732 --> 00:05:58.910
+Důležitá věc o RKCP,
+kterou bychom měli vědět,
+
+00:05:58.934 --> 00:06:01.772
+je, že nezná význam
+slov, která používá.
+
+00:06:02.359 --> 00:06:04.635
+Jazyk je jenom syrový materiál,
+
+00:06:04.659 --> 00:06:06.819
+mohla to být čínština,
+mohla to být švédština,
+
+00:06:06.843 --> 00:06:11.022
+mohla to být slovní zásoba
+jednoho dne na vašem Facebooku.
+
+00:06:11.046 --> 00:06:12.698
+Je to jen surový materiál.
+
+00:06:13.380 --> 00:06:16.077
+Nicméně, algoritmus je
+schopen vytvořit báseň,
+
+00:06:16.101 --> 00:06:19.428
+která se zda být více lidská
+než báseň Gertrude Steinové,
+
+00:06:19.452 --> 00:06:21.605
+a Gertrude Steinová je člověk.
+
+00:06:22.846 --> 00:06:26.918
+Takže to, co jsme zde dělali, je
+víceméně obrácený Turingův test
+
+00:06:27.940 --> 00:06:33.119
+Gertrude Steinová, která je
+člověk, dokáže napsat báseň,
+
+00:06:33.143 --> 00:06:36.881
+která většinu lidských soudců
+oklame tak, že si myslí,
+
+00:06:36.905 --> 00:06:38.731
+že byla napsána počítačem.
+
+00:06:39.176 --> 00:06:43.317
+Tudíž, podle logiky
+obráceného Turingova testu,
+
+00:06:43.341 --> 00:06:45.257
+Gertrude Steinová je počítač.
+
+00:06:45.281 --> 00:06:46.743
+(smích)
+
+00:06:47.358 --> 00:06:48.652
+Cítíte se zmatení?
+
+00:06:49.193 --> 00:06:50.708
+Myslím, že se vám ani nedivím.
+
+00:06:51.546 --> 00:06:55.662
+Zatím jsme měli lidi,
+kteří píší jako lidé,
+
+00:06:55.686 --> 00:06:58.797
+počítače, kteří píší jako počítače,
+
+00:06:58.821 --> 00:07:01.876
+počítače, kteří píší jako lidé,
+
+00:07:01.900 --> 00:07:05.532
+ale také máme, což je
+asi nejvíce zarážející,
+
+00:07:05.556 --> 00:07:07.931
+lidi, kteří píší jako počítače.
+
+00:07:08.938 --> 00:07:10.704
+Takže, co si z toho můžeme vzít?
+
+00:07:11.611 --> 00:07:14.768
+Můžeme říct, že William Blake
+je nějakým způsobem lidštější
+
+00:07:14.792 --> 00:07:16.041
+než Gertrude Steinová?
+
+00:07:16.065 --> 00:07:19.111
+Nebo že Gertrude Steinová je
+více počítač než William Blake?
+
+00:07:19.135 --> 00:07:20.687
+(smích)
+
+00:07:20.711 --> 00:07:23.034
+To jsou otázky, které jsem si kladl
+
+00:07:23.058 --> 00:07:24.523
+již asi dva roky,
+
+00:07:24.547 --> 00:07:26.856
+a nemám na ně žádné odpovědi.
+
+00:07:26.880 --> 00:07:29.210
+Ale co mám, je hromada nových náhledů
+
+00:07:29.234 --> 00:07:31.768
+na náš vztah s technologií.
+
+00:07:32.999 --> 00:07:36.608
+Moje první zjištění je,
+že z nějakého důvodu
+
+00:07:36.632 --> 00:07:39.743
+spojujeme poezii s tím, že jsme lidé.
+
+00:07:40.197 --> 00:07:43.912
+Takže když se pak zeptáme,
+"Může počítač psát poezii?",
+
+00:07:43.936 --> 00:07:45.129
+tak se zároveň ptáme,
+
+00:07:45.153 --> 00:07:46.951
+"Co znamená být člověkem
+
+00:07:46.975 --> 00:07:50.147
+a kde jsou hranice této kategorie?
+
+00:07:50.171 --> 00:07:53.829
+Jak můžeme určit, kdo nebo co
+může být součástí této kategorie?"
+
+00:07:54.376 --> 00:07:57.727
+Věřím, že je to především
+filozofická otázka
+
+00:07:57.751 --> 00:07:59.980
+a nemůže být zodpovězena
+prostým ano, nebo ne
+
+00:08:00.004 --> 00:08:01.331
+jako při Turingově testu.
+
+00:08:01.805 --> 00:08:04.850
+Též věřím, že to Alan Turing chápal,
+
+00:08:04.874 --> 00:08:08.179
+a že když navrhl
+svůj test v roce 1950,
+
+00:08:08.203 --> 00:08:11.005
+měla to být filozofická provokace.
+
+00:08:13.124 --> 00:08:18.665
+Mé druhé zjištění je, že když děláme
+Turingův test poezie,
+
+00:08:18.689 --> 00:08:22.149
+ve skutečnosti nezkoušíme
+možnosti počítačů,
+
+00:08:22.173 --> 00:08:25.066
+protože algoritmy generátorů poezie
+
+00:08:25.090 --> 00:08:29.653
+jsou dost jednoduché a existují
+už zhruba od 50. let 19. století.
+
+00:08:31.055 --> 00:08:34.173
+To, co děláme Turingovým testem poezie,
+
+00:08:34.197 --> 00:08:38.812
+je spíš sbírání názorů o tom,
+co představuje lidskost.
+
+00:08:40.313 --> 00:08:43.042
+Na co jsem přišel,
+
+00:08:43.066 --> 00:08:46.038
+už jsme to dnes viděli,
+
+00:08:46.062 --> 00:08:48.540
+řekněme, že William Blake
+je více člověk
+
+00:08:48.564 --> 00:08:50.129
+než Gertrude Steinová.
+
+00:08:50.153 --> 00:08:52.615
+Samozřejmě to neznamená,
+že William Blake
+
+00:08:52.639 --> 00:08:54.467
+je opravdu více člověk
+
+00:08:54.491 --> 00:08:56.818
+nebo že Gertrude Steinová 
+je více počítač.
+
+00:08:57.533 --> 00:09:02.247
+Jednoduše to znamená,
+že kategorie člověka je nestabilní.
+
+00:09:03.450 --> 00:09:05.524
+To mě vedlo k porozumění,
+
+00:09:05.548 --> 00:09:08.311
+že člověk není jen chladný holý fakt.
+
+00:09:08.832 --> 00:09:11.964
+Spíše je to něco, co je
+utvářeno našimi názory,
+
+00:09:11.988 --> 00:09:14.843
+a něco, co se časem mění.
+
+00:09:16.671 --> 00:09:21.150
+Takže mé poslední zjištění je,
+že počítač, více či méně,
+
+00:09:21.174 --> 00:09:25.180
+funguje jako zrcadlo, kde se odráží
+všechny myšlenky o člověku,
+
+00:09:25.204 --> 00:09:26.579
+které mu ukážeme.
+
+00:09:26.958 --> 00:09:28.842
+Ukážeme mu Emily Dickinsonovou,
+
+00:09:28.866 --> 00:09:31.187
+a on nám Emily Dickinsonovou vrátí zpět.
+
+00:09:31.768 --> 00:09:33.602
+Ukážeme mu Williama Blakea
+
+00:09:33.626 --> 00:09:35.911
+a to je to, co nám on ukáže nazpět.
+
+00:09:35.935 --> 00:09:37.774
+Ukážeme tomu Gertrude Steinovou,
+
+00:09:37.798 --> 00:09:40.268
+a dostaneme nazpět Gertrude Steinovou.
+
+00:09:41.083 --> 00:09:43.451
+Více než kterákoliv jiná část technologie,
+
+00:09:43.475 --> 00:09:48.640
+počítač je zrcadlo, které odráží všechny 
+myšlenky o člověku, které ho naučíme.
+
+00:09:50.061 --> 00:09:51.762
+Jsem si jistý, že mnoho z vás
+
+00:09:51.762 --> 00:09:55.234
+poslední dobou slyšelo
+hodně o umělé inteligenci.
+
+00:09:56.694 --> 00:09:59.524
+A valná část konverzace je o tom,
+
+00:10:00.292 --> 00:10:01.481
+zdali ji můžeme vytvořit.
+
+00:10:02.383 --> 00:10:05.518
+Dokážeme postavit inteligentní počítač?
+
+00:10:05.542 --> 00:10:08.305
+Dokážeme postavit kreativní počítač?
+
+00:10:08.329 --> 00:10:10.592
+Na co se nejspíše ptáme pořád dokola je:
+
+00:10:10.606 --> 00:10:13.250
+dokážeme postavit počítač,
+který by byl jako člověk?
+
+00:10:13.961 --> 00:10:15.517
+Ale to co jsme právě viděli je,
+
+00:10:15.541 --> 00:10:18.629
+že člověk není vědecký fakt,
+
+00:10:18.653 --> 00:10:22.183
+ale je to stále se vyvíjející,
+řetězící se myšlenka
+
+00:10:22.207 --> 00:10:24.738
+taková, která se mění s časem.
+
+00:10:24.762 --> 00:10:27.914
+Takže když začneme
+zápasit s myšlenkami
+
+00:10:27.938 --> 00:10:30.324
+o umělé inteligenci v budoucnosti,
+
+00:10:30.348 --> 00:10:32.253
+neměli bychom se sami sebe tázat jen:
+
+00:10:32.277 --> 00:10:33.645
+"Dokážeme ji postavit?"
+
+00:10:33.669 --> 00:10:35.563
+Ale měli bychom se také ptát,
+
+00:10:35.587 --> 00:10:39.300
+"Jaké představy o člověku
+chceme, aby nám odrážela zpět?"
+
+00:10:39.820 --> 00:10:42.513
+To je především filozofická myšlenka
+
+00:10:42.537 --> 00:10:45.534
+a ta nemůže být zodpovězena
+jen samotným softwarem,
+
+00:10:45.558 --> 00:10:50.535
+ale, myslím si, vyžaduje okamžik
+celodruhové existenciální reflexe.
+
+00:10:51.040 --> 00:10:52.193
+Děkuji vám.
+
+00:10:52.217 --> 00:10:54.912
+(potlesk)
+

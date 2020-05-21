@@ -1,0 +1,816 @@
+WEBVTT
+Kind: captions
+Language: pl
+
+00:00:00.000 --> 00:00:07.000
+Tłumaczenie: Daniel Szymanek
+Korekta: Dorota Konowrocka
+
+00:00:23.307 --> 00:00:26.568
+Co to znaczy,
+że maszyna jest wysportowana?
+
+00:00:26.891 --> 00:00:29.906
+Zaprezentujemy ideę wysportowanych maszyn
+
+00:00:29.908 --> 00:00:31.628
+i stan badań nad nimi
+
+00:00:31.628 --> 00:00:34.139
+przy pomocy latających maszyn
+
+00:00:34.139 --> 00:00:36.026
+zwanych kwadrokopterami.
+
+00:00:38.034 --> 00:00:40.563
+Są znane od dawna,
+
+00:00:40.563 --> 00:00:42.162
+a ostatnio bardzo popularne,
+
+00:00:42.162 --> 00:00:44.127
+bo są proste w budowie.
+
+00:00:44.127 --> 00:00:46.235
+Kontrolując szybkość czterech śmigieł,
+
+00:00:46.235 --> 00:00:49.283
+mogą wzbijać się, spadać, kręcić
+
+00:00:49.283 --> 00:00:52.108
+i przyspieszać w danym kierunku.
+
+00:00:52.108 --> 00:00:55.179
+Mają baterię, komputer,
+
+00:00:55.179 --> 00:00:58.040
+czujniki i bezprzewodowe odbiorniki.
+
+00:00:59.321 --> 00:01:03.762
+Kwadrokoptery są zwinne,
+ale pewnym kosztem.
+
+00:01:03.762 --> 00:01:06.754
+Są z natury niestabilne, więc potrzebują
+
+00:01:06.754 --> 00:01:10.726
+pomocy automatów, żeby latać.
+
+00:01:16.259 --> 00:01:19.497
+Jak on to zrobił?
+
+00:01:19.497 --> 00:01:21.315
+Kamery na suficie i laptop
+
+00:01:21.315 --> 00:01:23.891
+działają jako system pozycyjny.
+
+00:01:23.891 --> 00:01:26.076
+Używamy go do lokalizowania obiektów,
+
+00:01:26.076 --> 00:01:28.603
+mających odblaskowe wskaźniki.
+
+00:01:28.603 --> 00:01:30.664
+Dane wysyłane są do laptopa,
+
+00:01:30.664 --> 00:01:32.875
+przeliczającego algorytmy
+szacujące i sterujące,
+
+00:01:32.875 --> 00:01:34.761
+który wysyła polecenia do maszyny,
+
+00:01:34.761 --> 00:01:38.246
+która także prowadzi obliczenia.
+
+00:01:41.620 --> 00:01:44.130
+Badamy głównie algorytmy.
+
+00:01:44.130 --> 00:01:48.291
+To magia pobudzająca maszyny do życia.
+
+00:01:48.291 --> 00:01:50.334
+Jak napisać algorytm
+
+00:01:50.334 --> 00:01:52.611
+który stworzy maszynę-sportowca?
+
+00:01:52.611 --> 00:01:55.491
+Używamy projektowania
+opartego na wzorcach.
+
+00:01:55.491 --> 00:01:58.645
+Ujmujemy modelem matematycznym
+
+00:01:58.645 --> 00:02:00.779
+zachowanie danej maszyny.
+
+00:02:00.779 --> 00:02:03.286
+Posługując się teorią sterowania,
+
+00:02:03.286 --> 00:02:05.907
+analizujemy wzorce
+
+00:02:05.907 --> 00:02:09.820
+i opracowujemy algorytmy sterujące.
+
+00:02:09.820 --> 00:02:12.688
+Tak powodujemy uniesienie się maszyny.
+
+00:02:12.688 --> 00:02:14.276
+Opisaliśmy dynamikę ruchu
+
+00:02:14.276 --> 00:02:16.182
+zestawem równań różniczkowych.
+
+00:02:16.182 --> 00:02:18.941
+Przekształciliśmy je
+z pomocą teorii sterowania,
+
+00:02:18.941 --> 00:02:23.171
+by stworzyć algorytmy stabilizujące.
+
+00:02:23.171 --> 00:02:26.117
+Pokażę zalety tej metody.
+
+00:02:29.198 --> 00:02:31.747
+Maszyna ma nie tylko unieść się,
+
+00:02:31.747 --> 00:02:34.529
+ale i utrzymać tyczkę w równowadze.
+
+00:02:34.529 --> 00:02:36.373
+Przy odrobinie ćwiczeń,
+
+00:02:36.373 --> 00:02:38.764
+człowiekowi przychodzi to dość łatwo,
+
+00:02:38.764 --> 00:02:40.519
+chociaż my mamy przewagę
+
+00:02:40.519 --> 00:02:42.187
+stania na dwóch nogach
+
+00:02:42.187 --> 00:02:44.804
+i dużej zręczności rąk.
+
+00:02:44.804 --> 00:02:47.273
+Trudność pojawia się,
+
+00:02:47.273 --> 00:02:49.569
+gdy stoję na jednej nodze
+
+00:02:49.569 --> 00:02:52.368
+i nie używam rąk.
+
+00:02:52.368 --> 00:02:55.319
+Na szczycie tyczki
+jest odblaskowy znacznik,
+
+00:02:55.319 --> 00:02:59.213
+pozwalający ją zlokalizować w przestrzeni.
+
+00:03:04.971 --> 00:03:10.947
+(Brawa)
+
+00:03:10.947 --> 00:03:13.773
+Maszyna wprowadza korekty,
+
+00:03:13.773 --> 00:03:15.968
+by utrzymać tyczkę w równowadze.
+
+00:03:15.968 --> 00:03:18.777
+Jak zaprojektowaliśmy te algorytmy?
+
+00:03:18.777 --> 00:03:21.132
+Dodaliśmy model matematyczny tyczki
+
+00:03:21.132 --> 00:03:22.651
+do modelu maszyny.
+
+00:03:22.651 --> 00:03:25.605
+Mając połączony model maszyny i tyczki,
+
+00:03:25.605 --> 00:03:30.538
+wykorzystujemy teorię sterowania,
+by stworzyć algorytm sterujący.
+
+00:03:30.538 --> 00:03:32.126
+Maszyna jest stabilna,
+
+00:03:32.126 --> 00:03:34.819
+nawet jeśli ją trącam,
+
+00:03:34.819 --> 00:03:39.912
+powraca do swojej pozycji.
+
+00:03:39.922 --> 00:03:42.455
+Możemy uzupełnić model o wskazówki,
+
+00:03:42.455 --> 00:03:44.326
+gdzie ma się znaleźć w przestrzeni.
+
+00:03:44.326 --> 00:03:47.395
+Dzięki wskaźnikowi
+z odblaskowych znaczników
+
+00:03:47.395 --> 00:03:49.959
+mogę wskazać, gdzie chcę umieścić maszynę
+
+00:03:49.959 --> 00:03:52.986
+w określonej odległości ode mnie.
+
+00:04:07.763 --> 00:04:10.665
+Kluczem do tych akrobacji jest algorytm,
+
+00:04:10.665 --> 00:04:13.091
+stworzony przy pomocy
+modeli matematycznych
+
+00:04:13.091 --> 00:04:15.041
+i teorii sterowania.
+
+00:04:15.041 --> 00:04:17.255
+Każmy maszynie wrócić
+
+00:04:17.255 --> 00:04:19.074
+i upuścić tyczkę.
+
+00:04:19.074 --> 00:04:20.992
+Zademonstruję znaczenie
+
+00:04:20.992 --> 00:04:23.111
+zrozumienia modeli fizycznych
+
+00:04:23.111 --> 00:04:25.521
+i działania fizyki w praktyce.
+
+00:04:37.462 --> 00:04:39.232
+Maszyna straciła wysokość,
+
+00:04:39.232 --> 00:04:41.314
+gdy postawiłem na niej szklankę wody.
+
+00:04:41.314 --> 00:04:44.115
+Nie uwzględniłem w systemie
+
+00:04:44.115 --> 00:04:46.699
+modelu matematycznego szklanki wody.
+
+00:04:46.699 --> 00:04:49.618
+System nie wie nawet,
+że szklanka tam jest.
+
+00:04:49.618 --> 00:04:52.910
+Mogę użyć wskaźnika, żeby wskazać maszynie
+
+00:04:52.910 --> 00:04:55.499
+gdzie ma się znaleźć.
+
+00:04:55.499 --> 00:05:05.096
+(Brawa)
+
+00:05:05.096 --> 00:05:07.206
+Pewnie jesteście ciekawi,
+
+00:05:07.206 --> 00:05:09.715
+dlaczego woda się nie wylewa?
+
+00:05:09.715 --> 00:05:12.926
+Dwie sprawy: grawitacja oddziałuje
+
+00:05:12.926 --> 00:05:15.051
+na wszystkie przedmioty tak samo.
+
+00:05:15.051 --> 00:05:17.515
+Po drugie, śmigła są skierowane w górę,
+
+00:05:17.515 --> 00:05:20.642
+w stronę szklanki.
+
+00:05:20.642 --> 00:05:23.019
+W rezultacie okazuje się,
+
+00:05:23.019 --> 00:05:25.306
+że siły działające
+na szklankę z boku są małe
+
+00:05:25.306 --> 00:05:28.091
+i zrównoważone przez wpływ aerodynamiki,
+
+00:05:28.091 --> 00:05:31.932
+i można je pominąć.
+
+00:05:35.336 --> 00:05:37.407
+Dlatego nie trzeba modelować szklanki.
+
+00:05:37.407 --> 00:05:41.255
+Woda się nie wyleje,
+niezależnie od ruchów maszyny.
+
+00:05:50.651 --> 00:05:57.702
+(Brawa)
+
+00:05:57.702 --> 00:06:01.718
+Pewne skomplikowane zadania
+
+00:06:01.718 --> 00:06:03.115
+są łatwiejsze od innych.
+
+00:06:03.115 --> 00:06:05.411
+Zrozumienie fizyki problemu
+
+00:06:05.411 --> 00:06:08.027
+wyjaśnia, które zadania
+są łatwe, a które trudne.
+
+00:06:08.027 --> 00:06:10.386
+Trzymanie szklanki jest łatwe.
+
+00:06:10.386 --> 00:06:14.171
+Utrzymywanie tyczki jest trudne.
+
+00:06:14.171 --> 00:06:15.973
+Słyszeliśmy historie o sportowcach
+
+00:06:15.973 --> 00:06:18.466
+dokonujących wyczynów mimo obrażeń.
+
+00:06:18.466 --> 00:06:19.985
+Czy maszyna też może działać
+
+00:06:19.985 --> 00:06:22.316
+przy dużym fizycznym uszkodzeniu?
+
+00:06:22.316 --> 00:06:24.852
+Rozsądek podpowiada,
+że potrzeba przynajmniej
+
+00:06:24.852 --> 00:06:27.772
+czterech działających śmigieł do latania,
+
+00:06:27.772 --> 00:06:30.164
+ponieważ do kontrolowania
+są cztery parametry:
+
+00:06:30.164 --> 00:06:33.192
+obrót, kołysanie się,
+odchylenie i przyspieszenie.
+
+00:06:33.192 --> 00:06:36.437
+Heksakoptery i oktokoptery
+z 6 i 8 śmigłami
+
+00:06:36.437 --> 00:06:37.920
+mają nadmiarowe śmigła,
+
+00:06:37.920 --> 00:06:39.909
+ale kwadrokoptery są popularniejsze,
+
+00:06:39.909 --> 00:06:41.724
+bo mają minimalną liczbę
+
+00:06:41.724 --> 00:06:44.200
+śmigieł do latania: cztery.
+
+00:06:44.200 --> 00:06:46.165
+Czyżby?
+
+00:07:01.476 --> 00:07:04.076
+Analizując model matematyczny tej maszyny
+
+00:07:04.076 --> 00:07:06.252
+z tylko dwoma działającymi śmigłami
+
+00:07:06.252 --> 00:07:13.008
+odkryliśmy nietypowy
+sposób, by mogła latać.
+
+00:07:19.980 --> 00:07:21.686
+Rezygnujemy z kontroli odchylenia,
+
+00:07:21.686 --> 00:07:24.756
+ale nadal można sterować obrotem,
+kołysaniem i przyspieszeniem
+
+00:07:24.756 --> 00:07:30.208
+dzięki algorytmom wykorzystującym
+nową konfigurację.
+
+00:07:33.668 --> 00:07:36.100
+Modele wyjaśniają dokładnie,
+
+00:07:36.100 --> 00:07:38.172
+kiedy i dlaczego jest to możliwe.
+
+00:07:38.172 --> 00:07:40.540
+Ta wiedza pozwala nam projektować
+
+00:07:40.540 --> 00:07:42.796
+nowatorską architekturę maszyn
+
+00:07:42.796 --> 00:07:46.972
+i inteligentne algorytmy,
+które radzą sobie z uszkodzeniami
+
+00:07:46.972 --> 00:07:48.696
+jak ludzcy sportowcy.
+
+00:07:48.696 --> 00:07:52.519
+zamiast budować maszyny
+z nadmiarowymi elementami.
+
+00:07:52.519 --> 00:07:54.631
+Zapiera nam dech w piersiach, gdy widzimy
+
+00:07:54.631 --> 00:07:57.068
+pływaka robiącego salto do wody
+
+00:07:57.068 --> 00:07:58.858
+albo tyczkarza wirującego w powietrzu,
+
+00:07:58.858 --> 00:08:01.486
+gdy ziemia szybko się zbliża.
+
+00:08:01.486 --> 00:08:04.114
+Czy pływakowi uda się wbić w wodę?
+
+00:08:04.114 --> 00:08:06.662
+Czy tyczkarz dobrze wyląduje?
+
+00:08:06.662 --> 00:08:09.797
+Załóżmy, że ten kwadrokopter
+ma wykonać potrójny obrót
+
+00:08:09.797 --> 00:08:12.042
+i wrócić na swoją pozycję.
+
+00:08:12.042 --> 00:08:14.114
+Taki manewr odbywa się tak szybko,
+
+00:08:14.114 --> 00:08:17.996
+że nie można użyć pozycjonowania
+do kontroli ruchu.
+
+00:08:17.996 --> 00:08:19.858
+Nie ma na to czasu.
+
+00:08:19.858 --> 00:08:23.920
+Kwadrokopter wykona
+więc manewr "na ślepo",
+
+00:08:23.920 --> 00:08:25.658
+zidentyfikuje położenie
+
+00:08:25.658 --> 00:08:27.516
+i użyje tej informacji,
+
+00:08:27.516 --> 00:08:30.124
+by kolejny obrót wyszedł lepiej.
+
+00:08:30.124 --> 00:08:32.509
+Zupełnie jak pływak i tyczkarz
+
+00:08:32.509 --> 00:08:34.854
+trenują do perfekcji, by kolejna próba
+
+00:08:34.854 --> 00:08:37.784
+została wykonana bezbłędnie.
+
+00:08:46.214 --> 00:08:49.214
+(Brawa)
+
+00:08:50.894 --> 00:08:55.114
+Rzucanie piłką jest kluczową umiejętnością
+w wielu sportach.
+
+00:08:55.114 --> 00:08:57.404
+Jak nauczyć robota czynności,
+
+00:08:57.404 --> 00:09:01.294
+którą sportowiec wykonuje
+niemal bez wysiłku?
+
+00:09:22.496 --> 00:09:25.628
+Ten kwadrokopter ma rakietę
+przymocowaną na wierzchu
+
+00:09:25.628 --> 00:09:29.246
+z punktem odbicia wielkości jabłka,
+więc niedużym.
+
+00:09:29.246 --> 00:09:33.572
+Obliczenia są robione co 20 ms,
+czyli 50 razy na sekundę.
+
+00:09:33.582 --> 00:09:36.691
+Najpierw określamy, gdzie leci piłka.
+
+00:09:36.691 --> 00:09:39.500
+Potem obliczamy,
+jak robot powinien uderzyć,
+
+00:09:39.500 --> 00:09:41.918
+by piłka wróciła do punktu wyjścia.
+
+00:09:41.918 --> 00:09:44.496
+Po trzecie, ustalana jest trajektoria,
+
+00:09:44.496 --> 00:09:49.015
+która przenosi robota
+w miejsce odbicia piłki.
+
+00:09:49.185 --> 00:09:53.411
+Po czwarte, wykonujemy
+tylko 20ms tej strategii
+
+00:09:53.411 --> 00:09:56.432
+Po 20 ms cały proces jest powtarzany
+
+00:09:56.432 --> 00:09:58.577
+aż do momentu uderzenia piłki.
+
+00:10:07.317 --> 00:10:09.942
+(Brawa)
+
+00:10:10.081 --> 00:10:13.731
+Maszyny potrafią działać
+nie tylko w pojedynkę,
+
+00:10:13.731 --> 00:10:15.597
+mogą działać razem.
+
+00:10:15.597 --> 00:10:19.733
+Te 3 kwadrokoptery wspólnie unoszą siatkę.
+
+00:10:28.013 --> 00:10:32.481
+(Brawa)
+
+00:10:33.713 --> 00:10:36.383
+Wykonują niebywale dynamiczny
+
+00:10:36.385 --> 00:10:38.285
+wspólny manewr,
+
+00:10:38.285 --> 00:10:40.252
+by odrzucić mi piłkę.
+
+00:10:40.252 --> 00:10:42.640
+Zwróćcie uwagę, że w punkcie kulminacyjnym
+
+00:10:42.640 --> 00:10:44.687
+roboty są w pionie.
+
+00:10:48.587 --> 00:10:50.258
+(Brawa)
+
+00:10:50.258 --> 00:10:52.870
+Wtedy też poddane są przeciążeniu
+
+00:10:52.870 --> 00:10:57.572
+5 razy większemu
+niż w końcówce skoku na bungee.
+
+00:11:03.392 --> 00:11:06.236
+Zastosowane algorytmy są bardzo podobne
+
+00:11:06.236 --> 00:11:09.070
+do tych, które umożliwiają odbicie piłki.
+
+00:11:09.070 --> 00:11:11.934
+Modele matematyczne służą
+
+00:11:11.934 --> 00:11:15.709
+do ciągłej aktualizacji wspólnej
+strategii, 50 razy na sekundę.
+
+00:11:16.449 --> 00:11:19.116
+Wszystko, co pokazałem,
+
+00:11:19.116 --> 00:11:20.789
+dotyczyło robotów i ich zdolności.
+
+00:11:20.789 --> 00:11:24.034
+A jeżeli połączymy zwinność maszyn
+
+00:11:24.034 --> 00:11:25.460
+ze zwinnością ludzi?
+
+00:11:25.460 --> 00:11:28.635
+Mam przed sobą popularny czujnik gestów,
+
+00:11:28.635 --> 00:11:30.624
+używany głównie podczas gier.
+
+00:11:30.624 --> 00:11:32.388
+Rozpoznaje on "na żywo"
+
+00:11:32.388 --> 00:11:34.546
+ruchy poszczególne części mojego ciała.
+
+00:11:34.546 --> 00:11:37.152
+Podobnie jak wcześniejszy wskaźnik,
+
+00:11:37.152 --> 00:11:39.454
+może być użyty do wprowadzenia danych.
+
+00:11:39.454 --> 00:11:41.850
+To naturalny sposób sterowania
+
+00:11:41.850 --> 00:11:45.929
+manewrami maszyn przy pomocy gestów.
+
+00:12:22.363 --> 00:12:26.651
+(Brawa)
+
+00:12:35.921 --> 00:12:39.989
+Interakcja nie musi być wirtualna,
+może być fizyczna.
+
+00:12:39.989 --> 00:12:41.794
+Spójrzmy na ten kwadrokopter.
+
+00:12:41.794 --> 00:12:44.342
+Stara się utrzymać swoją pozycję.
+
+00:12:44.342 --> 00:12:48.179
+Jeżeli nim poruszę, przeciwstawia mi się
+
+00:12:48.179 --> 00:12:51.584
+i wraca na swoje miejsce.
+
+00:12:52.094 --> 00:12:55.193
+Możemy to jednak zmienić.
+
+00:12:55.193 --> 00:12:57.072
+Przy pomocy modeli matematycznych
+
+00:12:57.072 --> 00:13:00.205
+możemy oszacować siłę, jakiej używam.
+
+00:13:00.205 --> 00:13:03.443
+Gdy ją znamy, możemy zmienić prawa fizyki
+
+00:13:03.443 --> 00:13:06.372
+Tylko dla robota, rzecz jasna.
+
+00:13:07.942 --> 00:13:10.205
+Teraz kwadrokopter porusza się tak,
+
+00:13:10.205 --> 00:13:14.570
+jakby znajdował się w lepkiej cieczy.
+
+00:13:14.570 --> 00:13:17.554
+Mamy możliwość bliskiej interakcji
+
+00:13:17.554 --> 00:13:18.593
+z maszyną.
+
+00:13:18.593 --> 00:13:21.099
+Użyję tej możliwości, by ustawić
+
+00:13:21.099 --> 00:13:23.676
+robota z kamerą w dobrym miejscu
+
+00:13:23.676 --> 00:13:26.862
+do filmowania reszty prezentacji.
+
+00:13:36.122 --> 00:13:38.990
+Możemy fizycznie wpływać na maszyny
+
+00:13:38.990 --> 00:13:41.393
+i zmieniać prawa fizyki.
+
+00:13:41.418 --> 00:13:43.688
+Zabawmy się.
+
+00:13:43.706 --> 00:13:46.730
+Teraz zobaczycie,
+jak roboty zachowywałyby się
+
+00:13:46.730 --> 00:13:48.906
+na Plutonie.
+
+00:13:48.906 --> 00:13:51.218
+Z upływem czasu grawitacja
+będzie zwiększana,
+
+00:13:51.218 --> 00:13:53.664
+aż do osiągnięcia wartości ziemskiej,
+
+00:13:53.664 --> 00:13:56.130
+ale zapewniam, że to się nie uda.
+
+00:13:56.130 --> 00:13:57.818
+Uwaga.
+
+00:14:04.517 --> 00:14:07.929
+(Śmiech)
+
+00:14:34.540 --> 00:14:37.766
+(Śmiech)
+
+00:14:37.968 --> 00:14:41.468
+(Brawa)
+
+00:14:41.482 --> 00:14:42.689
+Uff!
+
+00:14:46.779 --> 00:14:48.296
+Myślicie teraz,
+
+00:14:48.296 --> 00:14:50.341
+że za dobrze się bawimy,
+
+00:14:50.341 --> 00:14:52.430
+i zadajecie sobie pytanie:
+
+00:14:52.430 --> 00:14:56.076
+po co budować zwinne maszyny?
+
+00:14:56.076 --> 00:14:59.048
+Niektórzy sądzą, że rolą zwierzęcej zabawy
+
+00:14:59.048 --> 00:15:01.690
+jest doskonalenie
+umiejętności i zdolności.
+
+00:15:01.690 --> 00:15:03.856
+Inni myślą, że rozwój
+umiejętności społecznych,
+
+00:15:03.856 --> 00:15:05.430
+integrowanie grupy.
+
+00:15:05.430 --> 00:15:08.963
+Używamy analogii sportu
+i sprawności fizycznej
+
+00:15:08.963 --> 00:15:11.042
+do tworzenia nowych algorytmów dla maszyn,
+
+00:15:11.042 --> 00:15:13.189
+by przesunąć granice ich możliwości.
+
+00:15:13.189 --> 00:15:16.866
+Jaki wpływ wywrze na nasze życie
+szybkość maszyn?
+
+00:15:16.866 --> 00:15:19.255
+Tak jak nasze poprzednie
+dzieła i innowacje,
+
+00:15:19.255 --> 00:15:22.082
+mogą być użyte
+do poprawienia jakości życia
+
+00:15:22.082 --> 00:15:24.583
+lub użyte w złym celu.
+
+00:15:24.583 --> 00:15:26.686
+Nie stoimy przed problemem technicznym,
+
+00:15:26.686 --> 00:15:28.161
+lecz społecznym.
+
+00:15:28.161 --> 00:15:29.651
+Podejmijmy właściwą decyzję,
+
+00:15:29.651 --> 00:15:32.056
+która przyniesie nam
+pożytek z rozwoju maszyn,
+
+00:15:32.056 --> 00:15:33.868
+tak jak sprawność fizyczna w sporcie
+
+00:15:33.868 --> 00:15:36.219
+potrafi wydobyć z nas to, co najlepsze.
+
+00:15:36.219 --> 00:15:39.479
+Przedstawię wam magików zza kurtyny.
+
+00:15:39.479 --> 00:15:43.219
+To obecni członkowie zespołu
+badawczego Flying Machine Arena.
+
+00:15:43.219 --> 00:15:47.148
+(Brawa)
+
+00:15:47.148 --> 00:15:50.194
+Federico Augugliaro,
+Dario Brescianini, Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+Sergei Lupashin, Mark Muller i Robin Ritz.
+
+00:15:53.018 --> 00:15:55.870
+Jeszcze o nich usłyszycie.
+Są stworzeni do wielkich rzeczy.
+
+00:15:55.870 --> 00:15:57.090
+Dziękuję!
+
+00:15:57.090 --> 00:16:01.380
+(Brawa)
+

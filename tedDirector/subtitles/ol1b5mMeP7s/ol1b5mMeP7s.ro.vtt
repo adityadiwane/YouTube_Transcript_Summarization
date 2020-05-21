@@ -1,0 +1,872 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Denise RQ
+Corector: Delia Bogdan
+
+00:00:12.927 --> 00:00:16.657
+Aș vrea să vă vorbesc 
+despre un singur lucru.
+
+00:00:16.864 --> 00:00:23.239
+E legat de faptul că oamenii 
+mă întreabă cu ce mă ocup.
+
+00:00:23.867 --> 00:00:27.986
+De obicei, răspund:
+,,Compun muzică pe calculator."
+
+00:00:28.907 --> 00:00:32.791
+O parte dintre ei 
+încetează imediat să-mi vorbească,
+
+00:00:33.149 --> 00:00:37.911
+iar restul, mă privesc inexpresiv,
+
+00:00:37.911 --> 00:00:40.398
+parcă ar spune ,,Ce înseamnă asta?".
+
+00:00:40.398 --> 00:00:43.906
+Eu mă simt ca şi cum aş avea 
+informaţii de ascuns,
+
+00:00:43.972 --> 00:00:47.069
+moment în care mă panichez
+
+00:00:47.070 --> 00:00:49.489
+și trântesc primul lucru
+care îmi vine în minte:
+
+00:00:49.490 --> 00:00:52.101
+,,Habar n-am ce fac".
+
+00:00:52.442 --> 00:00:54.053
+Ceea ce-i adevărat.
+
+00:00:54.294 --> 00:00:59.449
+Următorul gând e că:
+oricare ar fi lucrul pe care îl fac,
+
+00:01:00.200 --> 00:01:01.901
+îmi place la nebunie.
+
+00:01:02.142 --> 00:01:09.218
+Ei bine, azi vreau să vă împărtăşesc 
+ceva ce-mi place și de ce-mi place.
+
+00:01:09.354 --> 00:01:13.162
+Vom începe
+doar cu această întrebare:
+
+00:01:13.163 --> 00:01:14.619
+Ce e muzica de calculator?
+
+00:01:14.620 --> 00:01:17.919
+Îmi voi da silinţa să o definesc,
+
+00:01:18.750 --> 00:01:22.920
+poate cel mai bine printr-o poveste
+despre câteva din obiectele mele de lucru.
+
+00:01:23.344 --> 00:01:27.675
+Primul lucru din poveste
+va fi ceva numit ChucK.
+
+00:01:28.064 --> 00:01:33.436
+ChucK e un limbaj de programare
+pentru muzică.
+
+00:01:33.947 --> 00:01:38.185
+E open-source şi gratuit, mi-ar plăcea 
+să cred că se blochează la fel de ușor
+
+00:01:38.186 --> 00:01:41.689
+pe toate sistemele de operare moderne. 
+(Râsete)
+
+00:01:42.130 --> 00:01:44.859
+În loc să vă povestesc despre el,
+mai bine vă pun un demo.
+
+00:01:45.576 --> 00:01:50.261
+O să fac pe tocilarul câteva minute,
+dar să nu vă panicaţi.
+
+00:01:50.619 --> 00:01:54.399
+De fapt, mai bine haideţi 
+să ne entuziasmăm împreună.
+
+00:01:54.399 --> 00:01:57.305
+Dacă nu ați scris niciodată
+în viața voastră o linie de cod,
+
+00:01:57.306 --> 00:01:58.481
+nu vă îngrijorați.
+
+00:01:58.482 --> 00:02:01.278
+Sigur veți reuşi să țineți pasul.
+
+00:02:01.799 --> 00:02:05.027
+Prima dată voi face 
+un oscilator sinusoidal,
+
+00:02:05.051 --> 00:02:09.314
+pe care-l vom denumi ,,ge".
+
+00:02:10.847 --> 00:02:12.976
+Apoi îl conectăm pe ,,ge" cu ,,dac" -
+
+00:02:13.037 --> 00:02:16.900
+- abstractizare pentru ieșirea de sunet
+la calculatorul meu, înţelegeţi?
+
+00:02:16.950 --> 00:02:19.898
+Aşadar m-am conectat la difuzor.
+
+00:02:19.899 --> 00:02:23.160
+În continuare specific frecvența la 440 Hz
+
+00:02:23.459 --> 00:02:29.217
+și-i dau timp 2 secunde pentru asta.
+
+00:02:30.000 --> 00:02:33.028
+Dacă-i dau să cânte:
+
+00:02:33.158 --> 00:02:36.540
+(Ton) --
+
+00:02:36.740 --> 00:02:39.780
+ați auzi o sinusoidă de 440Hz
+timp de două secunde.
+
+00:02:39.781 --> 00:02:44.616
+Minunat. Fac un copy-paste
+şi schimb câteva cifre:
+
+00:02:44.631 --> 00:02:50.240
+220,5, 440 rămâne așa 
+și 0,5, și 880.
+
+00:02:50.331 --> 00:02:54.062
+Dublând frecvența,
+urcăm în octave succesive,
+
+00:02:54.210 --> 00:02:56.136
+și obţinem secvența asta de tonuri:
+
+00:02:56.136 --> 00:02:57.513
+(Tonuri)
+
+00:02:57.514 --> 00:03:03.839
+OK. Acum îmi pot imagina crearea
+a tot felul de sinusoide sinistre cu asta,
+
+00:03:03.890 --> 00:03:06.662
+dar voi face ceva la ce
+calculatoarele sunt foarte bune,
+
+00:03:06.662 --> 00:03:08.285
+adică repetiție.
+
+00:03:08.286 --> 00:03:11.139
+Le pun într-o buclă ,,while",
+nu-i nevoie să indentezi,
+
+00:03:11.156 --> 00:03:13.279
+asta se face doar din motive estetice,
+
+00:03:13.280 --> 00:03:14.883
+dar e bine să te obişnuieşti aşa.
+
+00:03:14.884 --> 00:03:16.463
+Când facem asta:
+
+00:03:16.464 --> 00:03:20.181
+(Tonuri)
+
+00:03:20.741 --> 00:03:22.133
+va cânta tot aşa.
+
+00:03:22.134 --> 00:03:25.887
+Probabil se va opri doar atunci
+când calculatorul se va dezintegra.
+
+00:03:25.941 --> 00:03:30.579
+Nu vă pot demonstra asta empiric,
+dar sper că mă credeţi pe cuvânt.
+
+00:03:31.779 --> 00:03:36.324
+Apoi înlocuiesc pe 220 cu math.random2f.
+
+00:03:36.461 --> 00:03:42.608
+Generez un număr aleator între 30 și 1.000
+și îl asociez frecvenței mele.
+
+00:03:42.965 --> 00:03:45.204
+Fac asta la fiecare 1/2 secunde.
+
+00:03:45.205 --> 00:03:48.006
+(Tonuri)
+
+00:03:48.007 --> 00:03:50.667
+Să facem asta la fiecare 200 milisecunde.
+
+00:03:50.668 --> 00:03:55.289
+(Tonuri)
+
+00:03:55.290 --> 00:03:56.744
+O sută.
+
+00:03:56.745 --> 00:03:58.356
+(Tonuri)
+
+00:03:58.357 --> 00:03:59.590
+Bine.
+
+00:03:59.591 --> 00:04:03.154
+Am obţinut ceva ce eu definesc ca:
+
+00:04:03.265 --> 00:04:06.625
+muzică de calculator canonică.
+(Râsete)
+
+00:04:06.626 --> 00:04:10.442
+Ăsta e pentru mine sunetul 
+pe care mainframe-urile
+
+00:04:10.443 --> 00:04:13.934
+ar trebui să le facă
+când gândesc din greu.
+
+00:04:14.807 --> 00:04:19.949
+Sunetul ăsta e ca 
+radical din cinci milioane.
+
+00:04:22.427 --> 00:04:25.740
+Deci e asta muzică de calculator?
+
+00:04:26.211 --> 00:04:29.909
+Da, conform definiției, 
+e un fel de muzică de calculator.
+
+00:04:30.105 --> 00:04:34.112
+Probabil nu genul pe care l-ai asculta 
+la volan, pe autostradă,
+
+00:04:34.130 --> 00:04:38.906
+dar stă la baza muzicii 
+generate pe calculator,
+
+00:04:38.907 --> 00:04:42.633
+și folosind ChucK, 
+chiar am construit instrumente
+
+00:04:42.633 --> 00:04:44.779
+în Stanford Laptop Orchestra,
+
+00:04:44.779 --> 00:04:49.159
+de la Centrul Stanford pentru Cercetare
+Computerizată în Muzică și Acustică.
+
+00:04:49.370 --> 00:04:52.032
+Orchestra de laptop-uri 
+e un ansamblu de laptop-uri,
+
+00:04:52.033 --> 00:04:54.641
+oameni şi numeroase difuzoare 
+semisferice speciale.
+
+00:04:54.642 --> 00:05:04.138
+Avem nevoie de ele pentru ca sunetul 
+să vină de lângă laptop şi interpret,
+
+00:05:04.207 --> 00:05:07.278
+ca în cazul unui instrument 
+acustic tradițional.
+
+00:05:07.279 --> 00:05:10.408
+De exemplu, dacă aș cânta la vioară aici,
+sunetul ar veni natural
+
+00:05:10.408 --> 00:05:13.809
+şi nu dinspre sistemul de amplificare,
+ci chiar dinspre artefact.
+
+00:05:14.334 --> 00:05:17.170
+Difuzoarele au rolul să imite asta.
+
+00:05:17.171 --> 00:05:20.999
+Chiar am să vă arăt cum le-am construit.
+
+00:05:21.243 --> 00:05:25.106
+Primul pas e să mergi la IKEA
+și să cumperi un castron pentru salată.
+
+00:05:25.227 --> 00:05:27.916
+Ăsta e un Blanda Matt 11-inch.
+
+00:05:27.917 --> 00:05:33.704
+Chiar aşa se numeşte și am şi acasă
+unul din astea pentru salată. Nu glumesc.
+
+00:05:33.706 --> 00:05:36.235
+Primul pas: îl întorci cu fundul în sus,
+
+00:05:36.236 --> 00:05:41.180
+apoi faci 6 găuri în fiecare.
+
+00:05:41.220 --> 00:05:45.513
+Apoi faci o placă de bază,
+pui drivere de difuzoare auto în ele,
+
+00:05:45.614 --> 00:05:48.188
+împreună cu amplificatoarele, în nişe.
+
+00:05:48.189 --> 00:05:51.742
+Cu toate la un loc obţii 
+difuzoarele semisferice.
+
+00:05:51.743 --> 00:05:55.495
+Adaugi oameni, laptop-uri,
+și ai o orchestră de laptop-uri.
+
+00:05:57.204 --> 00:05:59.113
+Cum sună această orchestră?
+
+00:05:59.114 --> 00:06:04.222
+Fac o demonstrație cu cele 200 
+de instrumente create până acum
+
+00:06:04.272 --> 00:06:06.580
+pentru orchestra de laptop-uri.
+
+00:06:07.511 --> 00:06:09.937
+Vin până aici.
+
+00:06:09.938 --> 00:06:16.602
+Acest obiect e un controler de jocuri,
+numit Gametrak.
+
+00:06:17.145 --> 00:06:20.800
+Asta ar fi o mănușă pe care ţi-o pui,
+o conectezi la bază,
+
+00:06:20.801 --> 00:06:23.979
+și ea va urmări poziția mâinilor tale
+în timp real.
+
+00:06:24.030 --> 00:06:26.983
+Asta a fost creată iniţial
+ca şi controler pentru golf
+
+00:06:27.354 --> 00:06:29.879
+pentru a detecta balansul la lovire.
+
+00:06:29.880 --> 00:06:33.703
+S-a dovedit a fi un mare eșec comercial,
+
+00:06:33.704 --> 00:06:37.441
+aşa că i-au redus prețul la 10 dolari,
+
+00:06:37.442 --> 00:06:40.030
+iar cercetătorii de muzică 
+pe calculator au spus:
+
+00:06:40.030 --> 00:06:44.148
+,,Super! Putem face
+instrumente prototip din ele."
+
+00:06:44.149 --> 00:06:48.002
+Să vă arăt unul din instrumentele
+create de noi,
+
+00:06:48.002 --> 00:06:50.762
+mai sunt multe, se numește ,,Amurg"
+
+00:06:50.763 --> 00:06:53.367
+și e menit să se potrivească 
+cu această metaforă
+
+00:06:53.368 --> 00:06:56.400
+parcă ar scoate un sunet din pământ.
+
+00:06:56.401 --> 00:06:58.701
+Să văd dacă merge.
+
+00:07:01.042 --> 00:07:08.608
+(Muzică)
+
+00:07:08.738 --> 00:07:10.491
+Și-o pui la loc.
+
+00:07:10.821 --> 00:07:14.885
+Dacă dai spre stânga,
+
+00:07:14.886 --> 00:07:16.331
+dreapta...
+
+00:07:16.331 --> 00:07:21.646
+(Sunete)
+
+00:07:21.646 --> 00:07:24.561
+...sună ca un elefant îndurerat.
+(Râsete)
+
+00:07:25.231 --> 00:07:27.828
+Ăsta e un sunet ușor metalic.
+
+00:07:28.459 --> 00:07:30.573
+Îl pornesc acum.
+
+00:07:31.203 --> 00:07:37.139
+(Muzică)
+
+00:07:37.211 --> 00:07:39.785
+E ca o mașină plutitoare.
+
+00:07:44.406 --> 00:07:45.798
+Bine.
+
+00:07:45.799 --> 00:07:52.425
+Al treilea e ca o interacțiune
+cu clichet. Staţi să-l pornesc.
+
+00:07:56.915 --> 00:08:01.660
+(Muzică)
+
+00:08:02.068 --> 00:08:03.947
+E o interacțiune ușor diferită.
+
+00:08:03.948 --> 00:08:05.842
+Al patrulea e o dronă.
+
+00:08:07.583 --> 00:08:19.870
+(Muzică)
+
+00:08:20.613 --> 00:08:23.318
+Și în final, să vedem,
+
+00:08:23.319 --> 00:08:26.979
+e o interacțiune total diferită.
+Cred că trebuie să vă imaginați
+
+00:08:26.980 --> 00:08:29.871
+o tobă invizibilă imensă
+chiar aici pe scenă,
+
+00:08:29.872 --> 00:08:32.315
+și eu o s-o lovesc.
+
+00:08:34.255 --> 00:08:36.901
+(Bătaie de tobă)
+
+00:08:36.902 --> 00:08:39.389
+(Râsete)
+
+00:08:40.241 --> 00:08:41.564
+Asta e!
+
+00:08:41.565 --> 00:08:45.264
+E unul din multele instrumente
+din Orchestra de laptop-uri.
+
+00:08:45.284 --> 00:08:47.649
+(Aplauze)
+
+00:08:48.009 --> 00:08:50.009
+Mulțumesc.
+
+00:08:50.289 --> 00:08:55.565
+Când le pui pe toate la un loc,
+obții ceva ce sună așa:
+
+00:08:56.464 --> 00:09:45.403
+(Muzică)
+
+00:09:45.470 --> 00:09:50.859
+Prin prisma experienței în a construi
+multe instrumente pentru Orchestră
+
+00:09:51.133 --> 00:09:55.964
+și întrebându-mă ce ar fi dacă am lua
+aceste instrumente probabil expresive
+
+00:09:55.965 --> 00:09:58.574
+și le-am da mai multor oameni,
+
+00:09:58.575 --> 00:10:00.971
+plus un strop sănătos de nebunie
+
+00:10:00.972 --> 00:10:02.470
+- trei lucruri puse împreună -
+
+00:10:02.471 --> 00:10:08.086
+m-au condus la întemeierea
+unei companii în 2008, numită Smule.
+
+00:10:08.457 --> 00:10:14.066
+Scopul lui Smule e să creeze
+obiecte muzicale mobile și expresive.
+
+00:10:14.223 --> 00:10:20.714
+Unul din primele instrumente muzicale
+create de noi, se numește Ocarina.
+
+00:10:20.845 --> 00:10:24.120
+Vă fac repede o demonstraţie.
+
+00:10:27.234 --> 00:10:29.649
+Deci Ocarina --
+
+00:10:29.650 --> 00:10:32.958
+(Muzică) --
+
+00:10:33.248 --> 00:10:36.370
+se bazează pe acest instrument
+străvechi de tip flaut,
+
+00:10:36.371 --> 00:10:37.779
+numit ocarină,
+
+00:10:37.780 --> 00:10:41.162
+și acesta e modelul englezesc 
+cu patru găuri,
+
+00:10:41.163 --> 00:10:46.295
+și trebuie să sufli în microfon 
+ca să scoată sunete.
+
+00:10:47.276 --> 00:10:51.673
+Un script mic din ChucK 
+detectează puterea cu care sufli
+
+00:10:51.674 --> 00:10:53.582
+şi sintetizează sunetul.
+
+00:10:53.582 --> 00:10:57.128
+(Muzică)
+
+00:10:57.478 --> 00:11:02.437
+și vibrato e dat de o aplicaţie
+legată la accelerometru, ca să obţii: ...
+
+00:11:02.461 --> 00:11:05.789
+(Muzică)
+
+00:11:06.040 --> 00:11:12.950
+Să vă cânt un cântecel.
+Puțin Bach.
+
+00:11:13.349 --> 00:11:15.940
+Veți auzi un mic acompaniament cu melodia.
+
+00:11:15.941 --> 00:11:20.368
+Acompaniamentul urmăreşte melodia,
+și nu invers.
+
+00:11:22.290 --> 00:11:33.515
+(Muzică)
+
+00:11:35.132 --> 00:11:41.098
+A fost proiectat ca să vă lase în voie
+să vă găsiţi spaţiul de expresie.
+
+00:11:41.270 --> 00:11:46.006
+Puteți să vă opriţi puţin aici 
+pentru un efect dramatic, dacă vreți,
+
+00:11:46.139 --> 00:11:49.075
+și oricând doriţi...
+
+00:11:49.205 --> 00:12:04.797
+(Muzică)
+
+00:12:05.469 --> 00:12:09.389
+Pe aceste note mai lungi, 
+folosesc mult vibrato spre sfârșitul lor
+
+00:12:09.390 --> 00:12:12.133
+să le dau o calitate mai expresivă.
+
+00:12:12.134 --> 00:12:19.430
+(Muzică)
+
+00:12:19.473 --> 00:12:23.159
+Mmm... e un acord plăcut
+de încheiere a fragmentului.
+
+00:12:23.160 --> 00:12:26.421
+(Aplauze)
+
+00:12:26.581 --> 00:12:28.251
+Mulțumesc.
+
+00:12:33.750 --> 00:12:39.195
+O întrebare bună despre Ocarină ar fi:
+e o jucărie sau un instrument?
+
+00:12:39.613 --> 00:12:44.381
+Poate e ambele, dar pentru mine 
+e importantă întrebarea: e expresivă?
+
+00:12:44.463 --> 00:12:50.656
+Cred că crearea de asemenea instrumente
+ridică întrebări despre rolul tehnologiei,
+
+00:12:50.783 --> 00:12:53.316
+și locul ei în modul în care facem muzică.
+
+00:12:53.317 --> 00:12:56.342
+Nu mult timp în urmă, 
+cam acum100 de ani,
+
+00:12:56.343 --> 00:12:58.339
+- nu e mult pentru istoria omenirii -
+
+00:12:58.340 --> 00:13:04.167
+familiile făceau muzică împreună
+ca o formă obişnuită de divertisment.
+
+00:13:04.447 --> 00:13:07.311
+Nu cred că asta se mai întâmplă des azi.
+
+00:13:07.312 --> 00:13:09.306
+Asta e înainte de radio, de înregistrări.
+
+00:13:09.307 --> 00:13:11.763
+În ultimii 100 de ani,
+cu toată această tehnologie,
+
+00:13:11.764 --> 00:13:15.197
+avem mai mult acces la muzică 
+ca ascultători și consumatori,
+
+00:13:15.198 --> 00:13:19.543
+dar într-un fel, cred că producem
+mai puțină muzică decât oricând înainte.
+
+00:13:19.944 --> 00:13:21.614
+Nu-s sigur de ce-i aşa.
+
+00:13:21.615 --> 00:13:24.409
+Poate fiindcă e prea ușor
+să apăsăm pe butonul de play.
+
+00:13:24.410 --> 00:13:26.508
+Deși să asculți muzică e minunat,
+
+00:13:27.149 --> 00:13:31.037
+e o bucurie aparte să faci muzica ta.
+
+00:13:31.638 --> 00:13:39.240
+Cred că, în parte, ceea ce fac 
+e ca să ne întoarcem puţin în trecut.
+
+00:13:39.682 --> 00:13:42.691
+Dacă ăsta e un scop, 
+altul ar fi să privim în viitor,
+
+00:13:42.691 --> 00:13:48.251
+la ce fel de obiecte muzicale putem face,
+pentru care poate încă nu avem nici nume,
+
+00:13:48.345 --> 00:13:53.034
+cu ajutorul tehnologiei şi care ar schimba
+modul în care facem muzică.
+
+00:13:53.126 --> 00:13:55.740
+Vă dau un exemplu aici:
+
+00:13:55.790 --> 00:14:00.104
+o altă însuşire a Ocarinei.
+
+00:14:01.894 --> 00:14:03.909
+E un glob terestru
+
+00:14:04.270 --> 00:14:08.552
+și aici ascultați
+alți utilizatori ai Ocarinei,
+
+00:14:08.735 --> 00:14:12.714
+suflând în iPhone-le lor
+pentru a cânta ceva.
+
+00:14:12.715 --> 00:14:16.957
+Este ,,G.I.R." din Texas,
+
+00:14:17.798 --> 00:14:22.890
+,,R.I.K." - nu știu de ce-s trigrame 
+zilele astea - din Los Angeles.
+
+00:14:23.501 --> 00:14:25.878
+Toți cântă frumos,
+
+00:14:28.519 --> 00:14:31.559
+un fel de muzică minimală aici.
+
+00:14:31.559 --> 00:14:36.147
+(Muzică)
+
+00:14:37.327 --> 00:14:43.592
+Ideea aici e că tehnologia 
+n-ar trebui pusă în prim-plan aici şi,
+
+00:14:43.850 --> 00:14:45.932
+(Râsete)
+
+00:14:45.933 --> 00:14:49.975
+Când deschidem aplicaţia asta,
+primul gând e că:
+
+00:14:50.063 --> 00:14:54.552
+,,undeva, cineva cântă muzică",
+
+00:14:54.613 --> 00:14:58.002
+Cred că asta e o conexiune umană
+mică dar importantă,
+
+00:14:58.003 --> 00:15:00.610
+pe care tehnologia ne-o permite.
+
+00:15:00.611 --> 00:15:03.174
+Ca ultim exemplu,
+
+00:15:03.175 --> 00:15:04.789
+și poate preferatul meu,
+
+00:15:04.790 --> 00:15:10.310
+e că în urma cutremurului din 2011
+și a tsunami-ului dezastruos din Japonia,
+
+00:15:10.427 --> 00:15:13.199
+o femeie a folosit o aplicație 
+de-a noastră pentru muzică
+
+00:15:13.200 --> 00:15:17.846
+ca să-i facă pe oameni să cânte cu ea 
+o versiune a lui ,,Lean on Me".
+
+00:15:17.922 --> 00:15:22.781
+Cu aceste aplicații, 
+utilizatorii îşi pot adăuga propria voce
+
+00:15:22.781 --> 00:15:26.788
+la melodia oricărui alt utilizator 
+sau grup de utilizatori.
+
+00:15:26.789 --> 00:15:31.297
+Într-un fel, ea a creat un cor ad-hoc
+de străini la nivel global.
+
+00:15:31.868 --> 00:15:35.175
+În câteva săptămâni,
+mii de oameni s-au alăturat,
+
+00:15:35.176 --> 00:15:38.464
+și-i poți vedea, 
+oameni din toate colțurile lumii,
+
+00:15:38.465 --> 00:15:40.511
+cu aceste linii convergând la origine,
+
+00:15:40.512 --> 00:15:44.049
+unde s-a cântat prima versiune,
+adică în Tokyo.
+
+00:15:44.314 --> 00:15:47.685
+Așa sună 1.000 de oameni.
+
+00:15:47.686 --> 00:15:49.463
+Sunt 1.000 de voci.
+
+00:15:49.463 --> 00:15:53.939
+(Cor)
+♪ Câteodată în viață ♪
+
+00:15:53.940 --> 00:16:00.580
+♪ Toți avem durere şi întristare ♪
+
+00:16:01.260 --> 00:16:05.099
+♪ Dar dacă suntem înțelepți ♪
+
+00:16:05.100 --> 00:16:10.989
+♪ Ştim că întotdeauna există mâine ♪
+
+00:16:10.990 --> 00:16:13.496
+♪ Bazează-te pe mine ♪
+
+00:16:13.497 --> 00:16:16.309
+♪ Când nu ești puternic ♪
+
+00:16:16.310 --> 00:16:18.949
+♪ Îţi voi fi prieten ♪
+
+00:16:18.950 --> 00:16:23.234
+♪ Te voi ajuta să mergi mai departe ♪
+
+00:16:23.235 --> 00:16:27.247
+♪ Pentru că nu va dura mult ♪
+
+00:16:27.248 --> 00:16:29.975
+♪ Până când voi avea nevoie ♪
+
+00:16:29.976 --> 00:16:33.371
+♪ De cineva pe care să mă bazez ♪
+
+00:16:33.372 --> 00:16:35.495
+♪ Doar bazează-te pe mine ... ♪
+
+00:16:35.496 --> 00:16:37.295
+E asta muzică de calculator?
+
+00:16:37.296 --> 00:16:41.414
+(Aplauze)
+
+00:16:42.728 --> 00:16:44.695
+A fost muzică de calculator?
+
+00:16:44.696 --> 00:16:49.030
+Da, așa cred. 
+N-aţi fi putut-o face fără calculatoare.
+
+00:16:49.031 --> 00:16:53.263
+Dar e şi umană în acelaşi timp,
+
+00:16:53.264 --> 00:16:59.422
+și cred că am răspuns la întrebarea 
+de ce fac ceea ce fac.
+
+00:17:00.083 --> 00:17:04.244
+Să ne întoarcem la prima întrebare:
+,,Ce e muzica de calculator?"
+
+00:17:04.248 --> 00:17:09.413
+După mine, muzica de calculator
+nu e despre calculatoare.
+
+00:17:09.482 --> 00:17:11.181
+E despre oameni.
+
+00:17:11.182 --> 00:17:14.575
+E despre cum folosim tehnologia
+ca să ne schimbăm modul de gândire
+
+00:17:14.576 --> 00:17:16.575
+și modul cum facem muzică.
+
+00:17:16.576 --> 00:17:22.221
+Poate chiar să adăugăm noi modalităţi
+prin care muzica să ne lege.
+
+00:17:22.502 --> 00:17:25.794
+Închei spunându-vă că:
+asta e muzică de calculator
+
+00:17:25.795 --> 00:17:27.891
+și vă mulțumesc că ați ascultat.
+
+00:17:27.892 --> 00:17:29.492
+(Aplauze)
+

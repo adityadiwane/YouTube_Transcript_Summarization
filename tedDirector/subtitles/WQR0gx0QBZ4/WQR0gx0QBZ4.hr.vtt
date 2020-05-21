@@ -1,0 +1,1427 @@
+WEBVTT
+Kind: captions
+Language: hr
+
+00:00:00.000 --> 00:00:07.000
+Prevoditelj: Dario Lecic
+Recezent: Ivan Stamenković
+
+00:00:25.000 --> 00:00:29.000
+1962. Charles van Doren, kasnije
+urednik Britannice, rekao je
+
+00:00:29.000 --> 00:00:33.000
+da savršena enciklopedija mora biti
+radikalna - ne smije više biti sigurna.
+
+00:00:33.000 --> 00:00:36.000
+Ali ako znate išta
+o povijesti Britannice od 1962.,
+
+00:00:36.000 --> 00:00:38.000
+znat ćete da je bila
+sve osim radikalne:
+
+00:00:38.000 --> 00:00:43.000
+još uvijek savršeno sigurna,
+glomazna enciklopedija.
+
+00:00:43.000 --> 00:00:47.270
+S druge strane, Wikipedija
+počinje vrlo radikalnom idejom
+
+00:00:47.270 --> 00:00:51.010
+da svatko od nas zamisli svijet
+u kojem svaka osoba na planetu
+
+00:00:51.010 --> 00:00:54.040
+ima slobodan pristup
+cjelokupnom ljudskom znanju.
+
+00:00:54.040 --> 00:00:56.060
+I to je ono što radimo.
+
+00:00:56.450 --> 00:00:59.800
+Dakle, Wikipedija, čiji ste
+prikaz upravo vidjeli,
+
+00:00:59.800 --> 00:01:02.240
+je slobodno dostupna enciklopedija.
+
+00:01:02.240 --> 00:01:06.300
+Autori su joj tisuće ljudi širom svijeta
+na mnogo, mnogo jezika.
+
+00:01:06.300 --> 00:01:09.990
+Piše se pomoću softvera Wiki,
+koji je maloprije prikazan,
+
+00:01:09.990 --> 00:01:12.470
+tako da bilo tko može
+nabrzinu urediti i spremiti
+
+00:01:12.470 --> 00:01:15.060
+te se istog trenutka
+objavljuje na Internetu.
+
+00:01:15.570 --> 00:01:18.660
+Wikipedijom, i svime što ima veze s njom,
+
+00:01:18.660 --> 00:01:21.880
+upravlja u potpunosti volonterski tim.
+
+00:01:21.880 --> 00:01:25.280
+Kad je Yochai pričao
+o novim metodama organizacije,
+
+00:01:25.280 --> 00:01:27.910
+opisivao je upravo Wikipediju.
+
+00:01:27.910 --> 00:01:30.240
+Ono o čemu ću vam ja danas govoriti
+
+00:01:30.240 --> 00:01:33.120
+bit će kako ona zaista
+funkcionira iznutra.
+
+00:01:34.000 --> 00:01:38.630
+Vlasnik Wikipedije je Zaklada Wikimedia,
+neproftina udruga koju sam ja osnovao.
+
+00:01:38.630 --> 00:01:43.930
+Glavni cilj Zaklade je
+svaku osobu na planetu
+
+00:01:43.930 --> 00:01:45.910
+opskrbiti besplatnom enciklopedijom.
+
+00:01:45.910 --> 00:01:48.200
+Ako razmislite što točno to znači,
+
+00:01:48.200 --> 00:01:51.000
+znači mnogo više od pravljenja
+zanimljive web stranice.
+
+00:01:51.000 --> 00:01:55.130
+Zaista nas zanimaju svi problemi
+digitalnog raskola, siromaštvo u svijetu,
+
+00:01:55.130 --> 00:01:58.480
+omogućavanje da svi ljudi imaju
+sve informacije koje su im potrebne
+
+00:01:58.480 --> 00:02:00.650
+kako bi mogli donositi valjane odluke.
+
+00:02:00.650 --> 00:02:04.030
+Stoga ćemo imati puno posla,
+i to ne samo što se tiče interneta.
+
+00:02:04.030 --> 00:02:07.820
+To je jedan od glavnih razloga zašto smo
+odabrali model besplatnog licenciranja,
+
+00:02:07.820 --> 00:02:10.010
+jer on daje pravo
+lokalnim poduzetnicima,
+
+00:02:10.010 --> 00:02:12.480
+ili bilo kome tko želi,
+da koristi naše sadržaje
+
+00:02:12.480 --> 00:02:15.320
+i s njim radi što god želi -
+možete ga kopirati, slati dalje
+
+00:02:15.320 --> 00:02:17.990
+i to možete raditi
+bilo komercijalno bilo nekomercijalno.
+
+00:02:17.990 --> 00:02:23.220
+Znači da bi širom svijeta moglo osvanuti
+mnogo prilika zahvaljujući Wikipediji.
+
+00:02:23.220 --> 00:02:26.180
+Financiramo se pomoću donacija javnosti,
+
+00:02:26.180 --> 00:02:28.800
+a ono što je zanimljivo u vezi s tim je
+
+00:02:28.800 --> 00:02:32.440
+koliko malo novca je potrebno
+da bi Wikipedija funkcionirala.
+
+00:02:32.440 --> 00:02:37.250
+Yochai vam je pokazao dijagram
+koliko je prije koštala tiskarska preša.
+
+00:02:37.250 --> 00:02:39.770
+A ja ću vam reći koliko košta Wikipedija.
+
+00:02:39.770 --> 00:02:42.780
+Ali prvo ću vam pokazati koliko je velika.
+
+00:02:42.780 --> 00:02:46.000
+Imamo preko 600 tisuća članaka
+na engleskom.
+
+00:02:46.000 --> 00:02:50.220
+Ukupno imamo preko dva milijuna članaka
+na mnogo, mnogo različitih jezika.
+
+00:02:50.220 --> 00:02:53.650
+Najveći jezici su njemački,
+japanski, francuski -
+
+00:02:53.650 --> 00:02:56.590
+svi ostali jezici zapadne Europe
+također su dosta zastupljeni.
+
+00:02:57.470 --> 00:03:00.630
+Međutim, samo trećina
+našeg ukupnog prometa na internetu
+
+00:03:00.630 --> 00:03:04.260
+odnosi se na englesku Wikipediju,
+što je iznenađenje mnogima.
+
+00:03:04.260 --> 00:03:07.510
+Mnogo ljudi ima 
+anglocentrički pogled na internet,
+
+00:03:07.510 --> 00:03:10.020
+ali iz naše perspektive,
+mi smo uistinu globalni.
+
+00:03:10.020 --> 00:03:12.230
+Pojavljujemo se na mnogo, mnogo jezika.
+
+00:03:12.230 --> 00:03:15.430
+Koliko smo popularni -
+među 50 smo najposjećenijih web stranica
+
+00:03:15.430 --> 00:03:17.760
+i popularniji smo od New York Timesa.
+
+00:03:17.760 --> 00:03:21.850
+Ovdje dolazimo do Yochaijevog izlaganja.
+
+00:03:21.850 --> 00:03:24.300
+Ovaj dijagram prikazuje Wikipedijin rast,
+
+00:03:24.300 --> 00:03:25.980
+mi smo ova plava crta,
+
+00:03:25.980 --> 00:03:28.340
+a ono ondje je New York Times.
+
+00:03:28.340 --> 00:03:31.580
+Ono što je zanimljivo je da je
+stranica New York Timesa
+
+00:03:31.580 --> 00:03:36.040
+ogromna korporativna djelatnost
+s ne znam koliko stotina zaposlenih.
+
+00:03:36.050 --> 00:03:38.300
+Mi imamo točno jednog zaposlenika.
+
+00:03:38.300 --> 00:03:41.300
+To je naš glavni softverski programer.
+
+00:03:41.300 --> 00:03:44.160
+A zaposlili smo ga tek u siječnju 2005.
+
+00:03:44.160 --> 00:03:46.550
+Sav se porast odnosi 
+na razdoblje prije toga.
+
+00:03:46.550 --> 00:03:50.000
+Dakle, svim serverima upravlja
+ekipa raznovrsnih volontera.
+
+00:03:50.000 --> 00:03:52.100
+Svo uređivanje također
+obavljaju volonteri.
+
+00:03:52.100 --> 00:03:53.890
+Način na koji smo organizirani
+
+00:03:53.890 --> 00:03:56.600
+ne možete naći ni u jednoj
+tradicionalnoj organizaciji.
+
+00:03:56.600 --> 00:04:00.570
+Ljudi uvijek pitaju: - Tko je na čelu
+ovoga? Ili: - Tko je zadužen za ovo?
+
+00:04:00.570 --> 00:04:03.100
+I odgovor je: bilo tko
+tko želi dati svoj doprinos.
+
+00:04:03.100 --> 00:04:06.190
+Vrlo neobična i kaotična situacija.
+
+00:04:06.190 --> 00:04:09.100
+Imamo preko 90 servera
+na tri lokacije.
+
+00:04:09.100 --> 00:04:13.950
+Njima putem interneta 
+upravljaju administratori-volonteri.
+
+00:04:13.950 --> 00:04:16.600
+Ja se mogu spojiti u bilo koje doba
+dana i noći
+
+00:04:16.600 --> 00:04:20.070
+i tamo ću naći 8-10 ljudi
+koji već čekaju
+
+00:04:20.070 --> 00:04:23.700
+da mi postave pitanje
+ili bilo što vezano uz servere.
+
+00:04:23.700 --> 00:04:26.600
+Takvo nešto si nikako ne možete
+priuštiti u kompaniji.
+
+00:04:26.600 --> 00:04:28.980
+Ne možete si priuštiti da imate hrpu ljudi
+
+00:04:28.980 --> 00:04:31.510
+koji su u stanju pripravnosti
+24 sata dnevno
+
+00:04:31.510 --> 00:04:34.860
+i koji rade ono
+što radimo mi u Wikipediji.
+
+00:04:34.860 --> 00:04:37.870
+Naše stranice imaju
+oko 1,4 milijuna pogleda mjesečno.
+
+00:04:37.870 --> 00:04:40.860
+Dakle, napravili smo nešto veliko.
+
+00:04:40.860 --> 00:04:43.000
+A svim time upravljaju volonteri.
+
+00:04:43.000 --> 00:04:46.880
+Ukupan trošak naše širokopojasne veze
+je oko 5 000 dolara mjesečno.
+
+00:04:46.880 --> 00:04:49.310
+I to je u biti naš jedini trošak.
+
+00:04:49.310 --> 00:04:51.980
+I bez ovog jednog zaposlenika bismo mogli.
+
+00:04:51.980 --> 00:04:55.060
+Briana smo zaposlili zato što je
+dvije godine radio u Wikipediji,
+
+00:04:55.060 --> 00:04:57.030
+što honorarno, što na puno radno vrijeme,
+
+00:04:57.030 --> 00:05:01.520
+pa smo ga zaposlili kako bi si našao život
+i mogao otići u kino s vremena na vrijeme.
+
+00:05:02.130 --> 00:05:06.300
+Kad imate ovako kaotičnu organizaciju,
+glavno pitanje je zašto sve to nije smeće?
+
+00:05:06.300 --> 00:05:09.030
+Zašto je stranica tako dobra kao što je?
+
+00:05:09.030 --> 00:05:12.070
+Kao prvo, koliko je zapravo dobra?
+Pa, dosta je dobra.
+
+00:05:12.070 --> 00:05:14.820
+Nije savršena, ali je
+mnogo bolja nego što biste očekivali
+
+00:05:14.820 --> 00:05:17.290
+s obzirom na naš potpuno kaotičan
+model upravljanja.
+
+00:05:17.290 --> 00:05:20.410
+Kad ste vidjeli njega kako je napisao
+neku glupost o meni,
+
+00:05:20.410 --> 00:05:23.660
+pomislili ste da će to vjerojatno
+s vremenom postati smeće.
+
+00:05:23.660 --> 00:05:27.200
+Ali kad smo vidjeli testove kvalitete,
+kojih još uvijek nije bilo dovoljno,
+
+00:05:27.200 --> 00:05:30.270
+i potičem ljude da ih prave što više,
+
+00:05:30.270 --> 00:05:34.470
+u usporedbi s tradicionalnim izvorima,
+Wikipedija s lakoćom pobjeđuje.
+
+00:05:34.470 --> 00:05:37.530
+Jedan njemački časopis usporedio je
+njemačku Wikipediju,
+
+00:05:37.530 --> 00:05:40.500
+koja je mnogo manja od engleske,
+
+00:05:40.500 --> 00:05:43.780
+s Microsoftovom Encartom
+i s Brockhaus Multimediom
+
+00:05:43.780 --> 00:05:46.150
+i u svim smo pogledima pobijedili.
+
+00:05:46.150 --> 00:05:50.040
+Unajmili su stručnjake koji su pogledali
+članke i usporedili njihovu kvalitetu
+
+00:05:50.040 --> 00:05:52.710
+i bili smo jako zadovoljni tim rezultatom.
+
+00:05:52.710 --> 00:05:56.990
+Mnogo je ljudi čulo za
+Wikipedijinu polemiku Bush-Kerry.
+
+00:05:56.990 --> 00:06:00.500
+Mediji su to dosta opsežno pratili.
+
+00:06:00.500 --> 00:06:03.490
+Sve je počelo člankom
+u časopisu Red Herring.
+
+00:06:03.490 --> 00:06:07.260
+Novinari su me nazvali i -
+moram reći, ime su mi dobro napisali -
+
+00:06:07.260 --> 00:06:12.130
+ali ono što su stvarno htjeli reći
+je da su izbori između Busha i Kerryja
+
+00:06:12.130 --> 00:06:15.260
+toliko sporni da unose razdor
+u Wikipedijinu zajednicu.
+
+00:06:15.260 --> 00:06:19.590
+I onda napišu da sam ja rekao da su
+"najsporniji u povijesti Wikipedije."
+
+00:06:19.590 --> 00:06:22.800
+Ono što sam ja ustvari rekao je
+da uopće nisu sporni.
+
+00:06:22.800 --> 00:06:25.530
+Zanemariva greška u citatu.
+(Smijeh)
+
+00:06:26.650 --> 00:06:28.810
+Članci su intenzivno uređivani.
+
+00:06:28.810 --> 00:06:32.000
+I istina je da smo nekoliko puta
+morali zaključati članke.
+
+00:06:32.000 --> 00:06:34.790
+Časopis Time je nedavno napisao
+
+00:06:34.790 --> 00:06:37.510
+da se "ponekad moraju donijeti
+izuzetne mjere,
+
+00:06:37.510 --> 00:06:42.020
+te da je Wales zaključao unose za Kerryja
+i Busha kroz veći dio 2004."
+
+00:06:42.020 --> 00:06:44.910
+Ovo je napisano
+nakon što sam rekao novinaru
+
+00:06:44.910 --> 00:06:48.100
+da smo povremeno 
+tu i tamo koji članak morali zaključati.
+
+00:06:49.000 --> 00:06:52.000
+Istina je da ovakve vrste polemika,
+
+00:06:52.000 --> 00:06:54.970
+za koje biste pomislili
+da ih imamo u Wikipedijinoj zajednici,
+
+00:06:54.970 --> 00:06:57.040
+zapravo i nisu polemike.
+
+00:06:58.000 --> 00:07:00.350
+Često uređujemo članke
+o kontroverznim temama,
+
+00:07:00.350 --> 00:07:03.220
+ali sami članci ne izazivaju
+mnogo polemike unutar zajednice.
+
+00:07:03.220 --> 00:07:07.050
+Razlog tome je što većina ljudi
+razumije potrebu da se ostane neutralan.
+
+00:07:09.240 --> 00:07:14.040
+Prava borba nije između ljevice i desnice,
+
+00:07:14.040 --> 00:07:16.040
+kao što većina ljudi pretpostavlja,
+
+00:07:16.040 --> 00:07:18.570
+već između stranke promišljenih
+i stranke budala.
+
+00:07:18.570 --> 00:07:23.510
+I niti jedna strana političkog spektra
+nema monopol na bilo koju od tih osobina.
+
+00:07:23.510 --> 00:07:26.930
+Prava istina o tom incidentu Bush-Kerry
+
+00:07:26.930 --> 00:07:29.300
+je da su članci o Bushu i Kerryju
+
+00:07:29.300 --> 00:07:32.190
+bili zaključani manje od jedan posto
+vremena tijekom 2004.,
+
+00:07:32.190 --> 00:07:34.090
+i to ne zato što su bili sporni,
+
+00:07:34.090 --> 00:07:37.070
+već jednostavno zato što je dolazilo do
+uobičajenog vandalizma,
+
+00:07:37.070 --> 00:07:40.020
+do kojeg nekad dolazi čak i na pozornici.
+
+00:07:41.000 --> 00:07:44.510
+Ljudi, čak i novinari, su mi rekli da
+vandaliziraju Wikipediju
+
+00:07:44.510 --> 00:07:46.940
+i da ih iznenađuje
+kako brzo se to popravi.
+
+00:07:46.940 --> 00:07:52.020
+A ja im uvijek kažem: - Molim vas,
+nemojte to raditi; to nije dobro.
+
+00:07:52.020 --> 00:07:53.590
+Kako onda to radimo?
+
+00:07:53.590 --> 00:07:55.930
+Kako uspijevamo kontrolirati kvalitetu?
+
+00:07:55.930 --> 00:07:58.090
+Kako to funkcionira?
+
+00:07:59.000 --> 00:08:01.020
+Postoji nekoliko elemenata,
+
+00:08:01.020 --> 00:08:05.000
+uglavnom su to društvene norme
+i poneki dijelovi softvera.
+
+00:08:05.000 --> 00:08:08.480
+Najveći i najvažniji element je
+naša politka neutralnog gledišta.
+
+00:08:08.480 --> 00:08:11.020
+Nju sam ja odredio već na samom početku
+
+00:08:11.020 --> 00:08:15.510
+kao ključni princip zajednice
+o kojem uopće nema diskusije.
+
+00:08:15.510 --> 00:08:19.000
+Radi se o društvenoj ideji suradnje,
+
+00:08:19.000 --> 00:08:21.950
+tako da nema puno govora
+o istini i objektivnosti.
+
+00:08:21.950 --> 00:08:26.480
+Razlog tome je da ako kažemo
+da ćemo pisati samo "istinu" o nekoj temi,
+
+00:08:26.480 --> 00:08:29.500
+to nam neće mnogo pomoći da dokučimo
+o čemu ćemo pisati
+
+00:08:29.500 --> 00:08:32.000
+jer se ja ne slažem s vama
+o tome što je istina.
+
+00:08:32.000 --> 00:08:35.000
+Međutim, koristimo 
+taj termin neutralnost,
+
+00:08:35.000 --> 00:08:37.000
+koji ima dugu povijest unutar zajednice
+
+00:08:37.000 --> 00:08:40.480
+i koji kaže da svaki put kad je riječ
+o nekoj kontroverznoj temi,
+
+00:08:40.480 --> 00:08:43.530
+Wikipedija neće stati ni na jednu stranu
+u toj polemici.
+
+00:08:43.530 --> 00:08:47.000
+Samo ćemo izvijestiti što je svaka strana
+imala za reći o tom pitanju.
+
+00:08:47.000 --> 00:08:50.970
+Ta nam je politika neutralnosti
+vrlo važna jer omogućava zajednici,
+
+00:08:50.970 --> 00:08:53.150
+koja je sama po sebi vrlo raznolika,
+
+00:08:53.150 --> 00:08:55.840
+da se ujedini i nešto uspješno obavi.
+
+00:08:55.840 --> 00:08:57.670
+Autori naših članaka su vrlo raznoliki
+
+00:08:57.670 --> 00:09:00.910
+što se tiče njihovih političkih,
+vjerskih i kulturoloških temelja.
+
+00:09:00.910 --> 00:09:02.780
+Zahvaljujući toj politici neutralnosti,
+
+00:09:02.780 --> 00:09:04.710
+o kojoj nema pregovora od samog početka,
+
+00:09:04.710 --> 00:09:06.770
+omogućavamo ljudima da mogu raditi zajedno
+
+00:09:06.770 --> 00:09:10.990
+i da tekstovi ne postanu ratna zona
+između ljevice i desnice
+
+00:09:10.990 --> 00:09:13.290
+Ako se upustite u takvu vrstu ophođenja,
+
+00:09:13.290 --> 00:09:15.540
+od vas će se zatražiti
+da napustite zajednicu.
+
+00:09:16.470 --> 00:09:18.300
+Dakle, recenzija u realnom vremenu.
+
+00:09:18.300 --> 00:09:21.510
+Svaka promjena na stranici odlazi
+na stranicu s nedavnim promjenama.
+
+00:09:21.510 --> 00:09:24.600
+Čim je on napravio onu promjenu,
+ona je otišla na tu stranicu.
+
+00:09:24.600 --> 00:09:28.760
+Ta se stranica učitava u IRC kanal.
+
+00:09:28.760 --> 00:09:30.520
+To je internetski chat kanal
+
+00:09:30.520 --> 00:09:33.000
+koji posjetitelji mogu pratiti
+pomoću raznih softverskih alata.
+
+00:09:33.970 --> 00:09:36.650
+Korisnici također mogu dobiti RSS izvore,
+
+00:09:36.650 --> 00:09:40.000
+mogu dobiti obavijesti o promjenama
+putem e-maila
+
+00:09:40.000 --> 00:09:42.290
+i tako mogu postaviti
+vlastitu listu za praćenje.
+
+00:09:42.290 --> 00:09:45.010
+Moja stranica je na listama za praćenje
+nekoliko volontera
+
+00:09:45.010 --> 00:09:47.260
+budući da je se ponekad vandalizira.
+
+00:09:48.000 --> 00:09:53.000
+Ono što će se dogoditi je da će netko
+brzo primijetiti promjenu
+
+00:09:53.000 --> 00:09:55.950
+i onda će je samo poništiti.
+
+00:09:55.950 --> 00:09:58.190
+Postoji alat za praćenje novih stranica.
+
+00:09:58.190 --> 00:10:00.060
+Možete otići na određenu stranicu
+
+00:10:00.060 --> 00:10:02.320
+i vidjeti svaku novu stranicu
+čim bude stvorena.
+
+00:10:02.320 --> 00:10:05.140
+Ovo je vrlo važno jer je
+mnogo novostvorenih stranica smeće
+
+00:10:05.140 --> 00:10:07.420
+koje se mora obrisati
+što je prije moguće.
+
+00:10:07.420 --> 00:10:10.350
+Ali neke od najzanimljivijih
+i zabavnih stvari na Wikipediji
+
+00:10:10.350 --> 00:10:11.870
+su upravo ti novi članci.
+
+00:10:11.870 --> 00:10:14.240
+Netko započne članak
+o nekoj zanimljivoj temi,
+
+00:10:14.240 --> 00:10:16.100
+netko drugi to smatra zanimljivim,
+
+00:10:16.100 --> 00:10:18.700
+i onda ta osoba uskoči
+i učini ga mnogo boljim.
+
+00:10:18.700 --> 00:10:21.000
+Dakle, anonimni korisnici
+mogu mijenjati članke,
+
+00:10:21.000 --> 00:10:24.960
+što je jedna od najkontroverznijih
+i najzanimljivijih stvari na Wikipediji.
+
+00:10:24.960 --> 00:10:28.510
+Chris je mogao napraviti tu promjenu -
+nije se morao ulogirati ni ništa;
+
+00:10:28.510 --> 00:10:31.010
+jednostavno je otišao na stranicu
+i promijenio.
+
+00:10:31.010 --> 00:10:35.780
+Međutim, samo 18% svih izmjena na stranici
+prave anonimni korisnici.
+
+00:10:35.780 --> 00:10:37.970
+I to je jako bitno za razumjeti.
+
+00:10:37.970 --> 00:10:41.150
+Da većinu ispravaka stranica
+
+00:10:41.150 --> 00:10:44.780
+radi usko povezana zajednica
+u kojoj je možda 600 do 1 000 ljudi
+
+00:10:44.780 --> 00:10:46.820
+koji neprestano komuniciraju.
+
+00:10:46.820 --> 00:10:49.510
+Imamo preko 40 IRC kanala,
+40 grupnih e-mail lista.
+
+00:10:49.510 --> 00:10:51.700
+Svi se ti ljudi poznaju.
+Svi oni komuniciraju.
+
+00:10:51.700 --> 00:10:53.320
+Imamo i sastanke offline.
+
+00:10:53.320 --> 00:10:55.470
+Ti ljudi odrađuju većinu posla na stranici
+
+00:10:55.470 --> 00:10:59.820
+i oni su, na neki način, poluprofesionalci
+u onome što rade.
+
+00:11:01.230 --> 00:11:03.340
+Standardi koje smo postavili sami sebi
+
+00:11:03.340 --> 00:11:06.050
+su jednaki ili viši nego
+standardi kvalitete u struci.
+
+00:11:06.050 --> 00:11:09.000
+Ne ispunjavamo uvijek te standarde,
+ali tome težimo.
+
+00:11:09.000 --> 00:11:12.410
+Članovi te uske zajednice su oni koji
+zapravo brinu o stranici,
+
+00:11:12.410 --> 00:11:15.050
+a to su neke od najpametnijih osoba
+koje sam ikada sreo.
+
+00:11:15.050 --> 00:11:17.960
+Naravno, posao mi je da to kažem,
+ali je stvarno istina.
+
+00:11:17.960 --> 00:11:21.490
+Tip ljudi koje privlači ideja
+pisanja enciklopedija za zabavu
+
+00:11:21.490 --> 00:11:24.000
+su obično dosta pametni ljudi.
+(Smijeh)
+
+00:11:24.000 --> 00:11:25.330
+Alati i softver:
+
+00:11:25.330 --> 00:11:28.080
+ima mnogo alata koji nam omogućavaju,
+nama kao zajednici,
+
+00:11:28.080 --> 00:11:30.460
+da nadziremo sami sebe i cjelokupan rad.
+
+00:11:30.460 --> 00:11:33.270
+Ovo je primjer povijesti stranice
+na temu "ravne Zemlje"
+
+00:11:33.270 --> 00:11:35.640
+i ovdje možete vidjeti promjene
+koje su unesene.
+
+00:11:35.640 --> 00:11:38.750
+Ono što je dobro na ovoj stranici je
+što kad vidite ovakvo nešto,
+
+00:11:38.750 --> 00:11:40.870
+možete reći: - U redu, sad razumijem.
+
+00:11:40.870 --> 00:11:44.050
+Kad netko dođe i vidi da je netko,
+neki anonimni IP broj,
+
+00:11:44.050 --> 00:11:46.810
+izmijenio moju stranicu,
+to zvuči sumnjivo.
+
+00:11:46.810 --> 00:11:48.040
+Tko je ta osoba?
+
+00:11:48.040 --> 00:11:53.040
+Ako pogledate ovdje, sve unesene promjene
+su označene crveno
+
+00:11:53.040 --> 00:11:56.530
+i možete vidjeti
+koje su riječi promijenjene itd.
+
+00:11:56.530 --> 00:12:01.230
+To je jedan od alata koji možemo koristiti
+kako bismo nadzirali povijest stranice.
+
+00:12:01.230 --> 00:12:04.590
+Još jedna stvar koju radimo
+unutar zajednice
+
+00:12:04.590 --> 00:12:07.440
+je to da sve ostavljamo otvoreno.
+
+00:12:07.440 --> 00:12:10.630
+Većina društvenih pravila i metoda rada
+
+00:12:10.630 --> 00:12:13.250
+ostaje potpuno otvorena u softveru.
+
+00:12:13.250 --> 00:12:15.920
+Sve se to nalazi samo na Wiki stranicama.
+
+00:12:15.920 --> 00:12:18.520
+U softveru nema ništa
+što bi nalagalo neka pravila.
+
+00:12:18.520 --> 00:12:22.420
+Primjer koji sam naveo je stranica
+Votes for Deletion (Glas za brisanje).
+
+00:12:22.420 --> 00:12:23.610
+Kao što sam već rekao,
+
+00:12:23.610 --> 00:12:26.470
+netko će napisati svakakve gluposti
+i to se treba obrisati.
+
+00:12:26.470 --> 00:12:29.310
+U ovakvim slučajevima, administratori
+to jednostavno obrišu.
+
+00:12:29.310 --> 00:12:31.500
+Nema potrebe za nekom velikom raspravom.
+
+00:12:31.500 --> 00:12:33.940
+Ali možete zamisliti mnogo situacija
+gdje se pitate
+
+00:12:33.940 --> 00:12:36.310
+je li ovo dovoljno bitno
+da uđe u enciklopediju?
+
+00:12:36.340 --> 00:12:38.000
+Mogu li se podaci provjeriti?
+
+00:12:38.000 --> 00:12:40.210
+Jesu li lažni? Jesu li istiniti?
+Znače li išta?
+
+00:12:40.210 --> 00:12:43.730
+Zato smo trebali društvenu metodu
+kako bismo otkrili odgovor na to pitanje.
+
+00:12:43.730 --> 00:12:46.360
+Metoda koja je nastala sama od sebe
+unutar zajednice
+
+00:12:46.360 --> 00:12:48.280
+je ova stranica Glas za brisanje.
+
+00:12:48.280 --> 00:12:51.750
+I u ovom konkretnom primjeru imamo film
+Twisted Issues (Uvrnuta pitanja).
+
+00:12:51.750 --> 00:12:56.240
+Prva osoba kaže: - Ovo je navodno film.
+Pao je na Google testu.
+
+00:12:56.240 --> 00:12:59.560
+Google test znači da upišete nešto
+u Google i provjerite je li tamo.
+
+00:12:59.560 --> 00:13:03.480
+Jer ako nečega nema na Googleu,
+vjerojatno uopće ne postoji.
+
+00:13:03.480 --> 00:13:08.000
+Nije savršeno pravilo, ali je
+dobar početak za daljnje istraživanje.
+
+00:13:08.000 --> 00:13:10.770
+I netko kaže: - Obriši ovo, molim te.
+Obriši, nebitno je.
+
+00:13:10.770 --> 00:13:13.660
+I onda netko drugi kaže:
+- Čekaj, našao sam ga u nekoj knjizi
+
+00:13:13.660 --> 00:13:17.300
+"Vodič kroz filmske prijetnje: 20
+underground filmova koje morate vidjeti."
+
+00:13:17.300 --> 00:13:19.510
+U redu. Onda druga osoba kaže:
+- Počisti to.
+
+00:13:19.510 --> 00:13:23.120
+Netko drugi kaže: - Našao sam na IMDB-u.
+Zadrži, zadrži.
+
+00:13:23.120 --> 00:13:26.510
+Zanimljiva stvar kod ovog softvera je -
+
+00:13:26.510 --> 00:13:30.000
+- ovi su glasovi samo tekst
+upisan na stranicu.
+
+00:13:30.000 --> 00:13:34.000
+Više je razgovor nego što je glasovanje.
+
+00:13:34.000 --> 00:13:38.700
+Naravno, na kraju cijele priče
+administrator može proći stranicom i reći:
+
+00:13:38.700 --> 00:13:42.280
+- U redu, 18 glasova za brisanje
+i 2 za ostavljanje: brišemo.
+
+00:13:42.280 --> 00:13:44.850
+Ali u drugim slučajevima
+ovo je moglo biti
+
+00:13:44.850 --> 00:13:47.440
+18 glasova "briši" i 2 "ostavi",
+ali bismo ga ostavili.
+
+00:13:47.440 --> 00:13:48.750
+Jer ako zadnje dvoje kaže:
+
+00:13:48.750 --> 00:13:51.820
+- Čekajte. Nitko drugi ovo nije vidio,
+ali ovo sam našao u knjizi
+
+00:13:51.820 --> 00:13:54.000
+i našao sam link na stranicu
+koja to opisuje
+
+00:13:54.000 --> 00:13:56.760
+i sutra ću to počistiti.
+Molim vas, nemojte obrisati.
+
+00:13:56.760 --> 00:13:58.750
+U tom će slučaju preživjeti.
+
+00:13:58.750 --> 00:14:01.050
+Također je bitno tko su
+ti ljudi koji glasuju.
+
+00:14:01.050 --> 00:14:03.070
+Kao što sam rekao,
+usko povezana zajednica.
+
+00:14:03.070 --> 00:14:05.500
+Dolje na dnu imate:
+- Ostavi, film postoji. Rick Kay
+
+00:14:05.500 --> 00:14:07.810
+Rick Kay je poznati Wikipedijin autor
+
+00:14:07.810 --> 00:14:11.890
+koji radi ogroman posao po pitanju
+vandalizma, prevara i glasa za brisanje.
+
+00:14:11.890 --> 00:14:14.890
+Njegov glas ima veliku težinu
+unutar zajednice
+
+00:14:14.890 --> 00:14:16.890
+zato što on zna što radi.
+
+00:14:18.000 --> 00:14:19.870
+Kako se ovim svime upravlja?
+
+00:14:19.870 --> 00:14:24.000
+Ljudi stvarno žele znati
+o administratorima i takvim stvarima.
+
+00:14:24.000 --> 00:14:26.970
+Wikipedijin model upravljanja,
+upravljanja zajednicom,
+
+00:14:26.970 --> 00:14:31.010
+je vrlo zbunjujuća,
+ali efikasna mješavina dogovora.
+
+00:14:31.010 --> 00:14:33.560
+To znači da ne glasamo o sadržaju članaka
+
+00:14:33.560 --> 00:14:37.290
+zato što stajalište većine
+nije nužno i neutralno stajalište.
+
+00:14:37.290 --> 00:14:39.490
+Postoji jedna razina demokracije.
+
+00:14:39.490 --> 00:14:42.260
+Svi administratori su u mogućnosti
+brisati stranice,
+
+00:14:42.260 --> 00:14:44.560
+ali to ne znači da imaju pravo
+brisati stranice.
+
+00:14:44.560 --> 00:14:46.730
+Još uvijek moraju slijediti sva pravila.
+
+00:14:46.730 --> 00:14:49.020
+Ali oni su izabrani,
+biraju ih članovi zajednice.
+
+00:14:49.020 --> 00:14:53.460
+Ponekad me ljudi, uljezi na internetu
+optužuju da ručno biram administratore
+
+00:14:53.460 --> 00:14:56.000
+kako bih utjecao na sadržaj enciklopedije.
+
+00:14:56.000 --> 00:15:00.000
+Uvijek se nasmijem na ovo jer
+iskreno nemam pojma kako se oni biraju.
+
+00:15:00.000 --> 00:15:02.300
+Postoji određena razina aristokracije.
+
+00:15:02.300 --> 00:15:05.510
+Spomenuo sam maloprije
+da će glas Ricka Kaya imati veću težinu
+
+00:15:05.510 --> 00:15:08.000
+nego glas nekoga koga ne znamo.
+
+00:15:08.000 --> 00:15:11.030
+Ponekad ovo izlaganje držim
+zajedno s Angelom,
+
+00:15:11.030 --> 00:15:15.000
+koju je zajednica upravo ponovno izabrala
+u odbor Zaklade.
+
+00:15:15.000 --> 00:15:19.000
+Dobila je dvostruko više glasova
+nego osoba koja nije ušla.
+
+00:15:19.000 --> 00:15:23.000
+Uvijek je osramotim kad kažem
+da Angela, primjerice,
+
+00:15:23.000 --> 00:15:25.760
+može raditi što god poželi na Wikipediji
+
+00:15:25.760 --> 00:15:27.740
+zato što je toliko cijenjena i moćna.
+
+00:15:27.740 --> 00:15:30.500
+Ali ironija je u tome što
+Angela može napraviti nešto takvo
+
+00:15:30.500 --> 00:15:33.460
+zato što je ona takva osoba
+koja ama baš nikada ne bi prekršila
+
+00:15:33.460 --> 00:15:35.160
+niti jedno pravilo Wikipedije.
+
+00:15:35.160 --> 00:15:37.150
+Također želim reći da je
+ona jedina osoba
+
+00:15:37.150 --> 00:15:40.040
+koja zapravo zna sva pravila Wikipedije.
+
+00:15:40.040 --> 00:15:43.050
+Onda imamo monarhiju.
+To je moja uloga u zajednici.
+
+00:15:43.050 --> 00:15:45.320
+(Smijeh.)
+
+00:15:45.320 --> 00:15:48.510
+Opisivao sam ovo jednom u Berlinu
+
+00:15:48.510 --> 00:15:53.090
+i sljedeći dan u novinama je izašao naslov
+"Ja sam engleska kraljica."
+
+00:15:54.000 --> 00:15:57.000
+Nisam rekao točno to, ali ... (Smijeh)
+
+00:15:57.970 --> 00:16:00.510
+Uglavnom, moja uloga u zajednici -
+
+00:16:00.510 --> 00:16:06.890
+u svijetu besplatnog softvera 
+već dugo vremena postoji tradicija
+
+00:16:06.890 --> 00:16:09.010
+modela "dobronamjernog diktatora".
+
+00:16:09.010 --> 00:16:11.770
+Ako pogledate većinu
+velikih projekata besplatnih softvera,
+
+00:16:11.770 --> 00:16:13.620
+svi oni imaju jednu osobu na čelu
+
+00:16:13.620 --> 00:16:16.500
+za koju se svi slažu da je
+dobronamjerni diktator.
+
+00:16:16.500 --> 00:16:19.060
+Ja ne volim taj izraz
+
+00:16:19.060 --> 00:16:23.270
+i ne mislim da je moja zadaća
+i moj posao u svijetu ideja
+
+00:16:23.270 --> 00:16:27.550
+biti diktatorom budućnosti svega znanja
+koje je čovječanstvo nakupilo.
+
+00:16:27.550 --> 00:16:29.480
+Jednostavno nije prikladno.
+
+00:16:29.480 --> 00:16:33.520
+Ali potrebna je jedna razina monarhije.
+
+00:16:33.520 --> 00:16:35.530
+Ponekad trebamo donijeti odluku,
+
+00:16:35.530 --> 00:16:41.260
+a ne želimo previše zaglibiti
+u formalne procese odlučivanja.
+
+00:16:41.270 --> 00:16:45.000
+Primjer zašto je ovo bilo,
+ili zašto može biti važno -
+
+00:16:45.000 --> 00:16:48.010
+nedavno smo imali situaciju
+da je jedna neonacistička stranica
+
+00:16:48.010 --> 00:16:50.000
+otkrila Wikipediju i rekli su:
+
+00:16:50.000 --> 00:16:55.000
+- Ovo je grozno, ova stranica je
+židovska urota;
+
+00:16:55.000 --> 00:16:57.320
+neke članke koji nam se ne sviđaju
+ćemo obrisati.
+
+00:16:57.320 --> 00:16:59.040
+Vidimo da imaju proces glasovanja
+
+00:16:59.040 --> 00:17:03.480
+pa ćemo poslati - imamo 40 000 članova
+i sve ćemo ih poslati tamo
+
+00:17:03.480 --> 00:17:06.000
+i svi će glasovati i obrisat ćemo
+sve te stranice.
+
+00:17:06.000 --> 00:17:08.470
+Na kraju su uspjeli dovesti 18 osoba.
+
+00:17:08.470 --> 00:17:11.000
+To vam je neonacistička matematika.
+
+00:17:11.000 --> 00:17:14.500
+Uvijek misle da imaju 40 000 članova,
+a imaju ih 18.
+
+00:17:14.500 --> 00:17:18.180
+Ali uspjeli su dovesti 18 osoba
+koji su prilično apsurdno glasovali
+
+00:17:18.180 --> 00:17:20.270
+za brisanje
+jednog potpuno ispravnog članka.
+
+00:17:20.270 --> 00:17:23.040
+Naravno, rezultat glasovanja
+bio je nekih 85 naprama 18.
+
+00:17:23.040 --> 00:17:26.490
+Znači da nije bilo prave prijetnje
+našem demokratskom procesu.
+
+00:17:26.490 --> 00:17:29.640
+S druge strane, ljudi su se pitali,
+- Što ćemo sada?
+
+00:17:29.640 --> 00:17:31.270
+Ovo se može dogoditi ponovno.
+
+00:17:31.270 --> 00:17:33.330
+Što ako se neka skupina
+ozbiljno organizira
+
+00:17:33.330 --> 00:17:35.440
+i dođe i želi glasovati?
+
+00:17:35.440 --> 00:17:38.420
+Onda sam ja rekao:
+- J*** ga, promijenit ćemo pravila.
+
+00:17:38.420 --> 00:17:41.940
+Moj je posao u zajednici reći
+da nećemo dopustiti
+
+00:17:41.940 --> 00:17:46.900
+da naša sloboda i otvorenost
+naruše kvalitetu sadržaja.
+
+00:17:46.900 --> 00:17:50.000
+Sve dok ljudi vjeruju meni
+u mojoj ulozi,
+
+00:17:50.000 --> 00:17:52.000
+to je tamo gdje trebam biti.
+
+00:17:52.000 --> 00:17:54.040
+Naravno, zbog slobodnog licenciranja,
+
+00:17:54.040 --> 00:17:57.070
+ako ja napravim nešto loše,
+volonteri se mogu pokupiti i otići.
+
+00:17:57.070 --> 00:17:59.670
+Ja ne mogu nikome naređivati
+što će raditi.
+
+00:17:59.670 --> 00:18:04.000
+Na kraju, kako biste razumjeli
+kako Wikipedija radi,
+
+00:18:04.000 --> 00:18:07.430
+važno je razumjeti da je naš Wiki model
+način na koji radimo,
+
+00:18:07.430 --> 00:18:11.050
+ali da nismo fanatični web anarhisti.
+
+00:18:11.050 --> 00:18:14.600
+Naprotiv, vrlo smo fleksibilni
+što se tiče društvene metodologije
+
+00:18:14.600 --> 00:18:19.000
+jer na kraju krajeva, zajednica pokazuje
+strast prema kvalitetno obavljenom poslu,
+
+00:18:19.000 --> 00:18:22.030
+a ne nužno prema procesu
+kojim se do njega došlo.
+
+00:18:22.030 --> 00:18:23.960
+Hvala.
+
+00:18:23.960 --> 00:18:27.240
+(Pljesak)
+
+00:18:27.240 --> 00:18:29.080
+Pozdrav, ja sam Ben Saunders.
+
+00:18:29.080 --> 00:18:33.110
+Jimmy, spomenuo si nepristranost
+kao ključnu odliku uspjeha Wikipedije.
+
+00:18:33.110 --> 00:18:40.060
+Iznenađuje me što je mnogo udžbenika
+koje koriste naša djeca zapravo pristrano.
+
+00:18:40.060 --> 00:18:43.870
+Jesi li primijetio da se Wikipedijom
+koriste nastavnici
+
+00:18:43.870 --> 00:18:46.800
+i možeš li zamisliti da će
+Wikipedija izmijeniti obrazovanje?
+
+00:18:46.800 --> 00:18:51.030
+Jimmy Wales: Da, mnogo nastavnika
+počinje koristiti Wikipediju.
+
+00:18:51.030 --> 00:18:55.470
+Postoji priča u medijima o Wikipediji
+za koju mislim da je lažna.
+
+00:18:55.470 --> 00:18:59.000
+Nastavlja se na priču o sukobu
+između blogera i novina.
+
+00:18:59.000 --> 00:19:03.000
+A priča ide ovako: postoji
+neka glupost pod imenom Wikipedija
+
+00:19:03.000 --> 00:19:08.020
+koju mrze akademici i nastavnici.
+Međutim, to zapravo nije istina.
+
+00:19:08.020 --> 00:19:10.530
+Nedavno sam dobio e-mail
+od jednog novinara koji me upitao:
+
+00:19:10.530 --> 00:19:12.330
+- Zašto akademici mrze Wikipediju?
+
+00:19:12.330 --> 00:19:14.510
+Odgovorio sam mu
+s harvardske e-mail adrese,
+
+00:19:14.510 --> 00:19:16.810
+budući da sam nedavno zaposlen
+kao asistent tamo.
+
+00:19:16.810 --> 00:19:20.480
+Rekao sam mu: - Ne mrze je svi.
+(Smijeh)
+
+00:19:20.480 --> 00:19:23.000
+Ali mislim da će imati ogroman utjecaj.
+
+00:19:23.000 --> 00:19:26.340
+Štoviše, radimo projekt zbog kojega
+sam veoma uzbuđen,
+
+00:19:26.340 --> 00:19:28.070
+projekt Wiki Books (Wiki knjige),
+
+00:19:28.070 --> 00:19:30.820
+kojemu je cilj stvoriti udžbenike
+na svim jezicima.
+
+00:19:30.820 --> 00:19:33.000
+I to je mnogo veći projekt.
+
+00:19:33.000 --> 00:19:37.000
+Trebat će oko 20 godina
+da ugleda svjetlo dana.
+
+00:19:37.000 --> 00:19:39.000
+Isto tako, kako bismo ispunili
+našu misiju
+
+00:19:39.000 --> 00:19:42.000
+da svakoj osobi na planetu
+damo enciklopediju,
+
+00:19:42.000 --> 00:19:44.710
+to ne znači da ćemo ih natrpati
+ogromnim CD-ovima.
+
+00:19:44.710 --> 00:19:47.050
+Znači da ćemo im dati alat
+koji će moći koristiti.
+
+00:19:47.050 --> 00:19:48.730
+I za većinu ljudi na svijetu,
+
+00:19:48.730 --> 00:19:52.000
+ako vam dam enciklopediju
+pisanu akademskim stilom,
+
+00:19:52.000 --> 00:19:53.480
+neće vam puno pomoći
+
+00:19:53.480 --> 00:19:56.280
+ako nemate pristup ostalom materijalu
+koji morate savladati
+
+00:19:56.280 --> 00:19:57.840
+kako biste ju mogli koristiti.
+
+00:19:57.840 --> 00:20:00.050
+Projektom Wiki knjiga
+pokušavamo upravo to.
+
+00:20:00.050 --> 00:20:02.320
+I mislim da ćemo primijetiti jednu pravu -
+
+00:20:02.320 --> 00:20:03.920
+možda čak i ne dođe od nas.
+
+00:20:03.920 --> 00:20:05.500
+Postoje raznorazne inovacije.
+
+00:20:05.500 --> 00:20:09.612
+Ali slobodno dostupni udžbenici
+su nova moda u obrazovanju.
+

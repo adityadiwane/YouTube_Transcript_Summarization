@@ -1,0 +1,329 @@
+WEBVTT
+Kind: captions
+Language: ca
+
+00:00:00.000 --> 00:00:07.000
+Translator: Alba Mas
+Reviewer: Carl Luc Campbell
+
+00:00:13.344 --> 00:00:18.257
+(sorolls aquàtics)
+
+00:00:20.811 --> 00:00:22.714
+Aquest vídeo es va filmar
+
+00:00:22.714 --> 00:00:25.146
+al laboratori subaquàtic Aquarius,
+
+00:00:25.146 --> 00:00:26.999
+a 6 quilòmetres de la costa de Cayo,
+
+00:00:26.999 --> 00:00:29.577
+uns 20 metres sota l'aigua.
+
+00:00:29.577 --> 00:00:31.301
+La NASA fa servir aquest ambient extrem
+
+00:00:31.301 --> 00:00:33.725
+per entrenar astronautes i aiguanautes,
+
+00:00:33.725 --> 00:00:37.087
+i l'any passat, ens van convidar a fer-hi un volt.
+
+00:00:37.087 --> 00:00:39.971
+Tot es va filmar des del nostre OpenROV
+
+00:00:39.971 --> 00:00:44.458
+que és un robot que vam construir al nostre garatge.
+
+00:00:44.458 --> 00:00:48.026
+ROV són les sigles (angleses) de
+vehicle amb control remot,
+
+00:00:48.026 --> 00:00:49.553
+que, en el nostre cas, vol dir que el nostre robotet
+
+00:00:49.553 --> 00:00:51.817
+envia imatges en directe
+
+00:00:51.817 --> 00:00:53.735
+per aquest nus ultra prim
+
+00:00:53.735 --> 00:00:56.163
+cap a l'ordinador a la superfície.
+
+00:00:56.163 --> 00:00:58.141
+Té codi obert, és a dir que publiquem
+
+00:00:58.141 --> 00:01:00.186
+i compartim tots els arxius de disseny
+
+00:01:00.186 --> 00:01:01.694
+i tot el nostre codi a la xarxa
+
+00:01:01.694 --> 00:01:03.728
+perquè qualsevol pugui modificar
+
+00:01:03.728 --> 00:01:06.077
+o millorar, o canviar el disseny.
+
+00:01:06.077 --> 00:01:08.380
+La majoria de components són comprades en botigues,
+
+00:01:08.380 --> 00:01:10.215
+i té un cost uns 1000 vegades més barat
+
+00:01:10.215 --> 00:01:12.094
+que els ROVs que James Cameron va usar
+
+00:01:12.094 --> 00:01:15.699
+per explorar el Titànic.
+
+00:01:15.699 --> 00:01:17.909
+Així que els ROVs no són una novetat,
+
+00:01:17.909 --> 00:01:19.617
+fa dècades que existeixen:
+
+00:01:19.617 --> 00:01:22.653
+els científics els fan servir per explorar els oceans;
+
+00:01:22.653 --> 00:01:25.472
+les petrolieres els fan servir per explorar
+
+00:01:25.472 --> 00:01:27.019
+i construir.
+
+00:01:27.019 --> 00:01:29.781
+El que hem construït no és únic.
+
+00:01:29.781 --> 00:01:32.655
+És COM ho hem fet, que és únic.
+
+00:01:32.655 --> 00:01:35.636
+Us vull explicar ben ràpid com va començar.
+
+00:01:35.636 --> 00:01:37.907
+Fa pocs anys, el meu amic Eric i jo
+
+00:01:37.907 --> 00:01:40.107
+vam decidir que volíem explorar una cova submarina
+
+00:01:40.107 --> 00:01:41.965
+a la falda de les Sierras.
+
+00:01:41.965 --> 00:01:43.868
+Hi havia una llegenda sobre or perdut
+
+00:01:43.868 --> 00:01:46.386
+d'un robatori durant la Febre de l'Or,
+i volíem anar-hi.
+
+00:01:46.386 --> 00:01:48.044
+Desgràciadament, no teníem diners,
+
+00:01:48.044 --> 00:01:49.867
+ni eines per fer-ho.
+
+00:01:49.867 --> 00:01:53.067
+L'Eric havia fet un disseny inicial per a un robot,
+
+00:01:53.067 --> 00:01:55.840
+però no sabíem com fer cadascuna de les parts,
+
+00:01:55.840 --> 00:01:58.052
+així que vam fer el que faria qualsevol 
+a la nostra situació:
+
+00:01:58.052 --> 00:02:00.090
+vam demanar ajuda a internet.
+
+00:02:00.090 --> 00:02:02.622
+Concretament, vam crear aquesta web,
+
+00:02:02.622 --> 00:02:05.517
+openROV.com, on vam explicar
+les nostres intencions i plans.
+
+00:02:05.517 --> 00:02:07.907
+Durant els primers mesos, només hi érem l'Eric i jo,
+
+00:02:07.907 --> 00:02:10.437
+parlant entre nosaltres als fòrums,
+
+00:02:10.437 --> 00:02:12.525
+però ben aviat, vam començar a rebre comentaris
+
+00:02:12.525 --> 00:02:14.368
+de fabricants i amateurs,
+
+00:02:14.368 --> 00:02:16.362
+i després de veritables enginyers navals
+
+00:02:16.362 --> 00:02:19.894
+que ens feien suggeriments sobre què havíem de fer.
+
+00:02:19.894 --> 00:02:21.658
+Vam continuar-hi treballant. Vam aprendre moltes coses.
+
+00:02:21.658 --> 00:02:23.683
+Vam seguir construint prototips i, al final,
+
+00:02:23.683 --> 00:02:26.402
+vam decidir que volíem anar
+a la cova. Estàvem preparats.
+
+00:02:26.402 --> 00:02:29.842
+En aquell moment, la nostra petita expedició
+ja s'havia convertit en notícia
+
+00:02:29.842 --> 00:02:31.863
+i ens la va cobrir la New York Times.
+
+00:02:31.863 --> 00:02:33.675
+Nosaltres estàvem més aviat aclaparats
+
+00:02:33.675 --> 00:02:35.458
+per l'interès de la gent que volia un kit
+
+00:02:35.458 --> 00:02:37.979
+a partir del qual poguessin construir 
+el seu propi OpenROV.
+
+00:02:37.979 --> 00:02:41.268
+Vam decidir publicar el projecte a Kickstarter,
+
+00:02:41.268 --> 00:02:42.500
+i en fer-ho,
+
+00:02:42.500 --> 00:02:44.575
+vam arribar a l'objectiu que teníem en dues hores,
+
+00:02:44.575 --> 00:02:47.780
+i de cop i volta,
+teníem prou diners per fer els kits.
+
+00:02:47.780 --> 00:02:49.975
+Però havíem d'aprendre com fer-los.
+
+00:02:49.975 --> 00:02:52.140
+És a dir, havíem d'aprendre
+a manufacturar petits lots.
+
+00:02:52.140 --> 00:02:55.400
+No vam tardar gaire en adonar-nos
+que el nostre garatge
+
+00:02:55.400 --> 00:02:58.079
+no era prou gran per encabir el nou negoci.
+
+00:02:58.079 --> 00:03:00.235
+Però ho vam aconseguir, vam fer tots els kits,
+
+00:03:00.235 --> 00:03:02.942
+moltes gràcies a TechShop,
+que ens va ajudar molt,
+
+00:03:02.942 --> 00:03:05.927
+i vam enviar els kits per tot el món,
+
+00:03:05.927 --> 00:03:07.756
+just abans del Nadal passat,
+
+00:03:07.756 --> 00:03:09.538
+és a dir, fa només uns mesos.
+
+00:03:09.538 --> 00:03:11.446
+Però ja comencem a rebre vídeos
+
+00:03:11.446 --> 00:03:13.044
+i fotos des de tot arreu del món,
+
+00:03:13.044 --> 00:03:16.074
+com ara aquesta imatge, des de sota el gel de l'Antàrtida.
+
+00:03:16.074 --> 00:03:19.474
+També hem après que 
+els pingüins adoren els robots.
+
+00:03:19.474 --> 00:03:21.487
+(Riure)
+
+00:03:21.487 --> 00:03:24.655
+Així que seguim pujant tots els dissenys a internet,
+
+00:03:24.655 --> 00:03:26.773
+animant a tothom a construir-se'n un.
+
+00:03:26.773 --> 00:03:29.176
+És l'única manera com ho podríem haver fet.
+
+00:03:29.176 --> 00:03:30.835
+Tenir codi obert ens ha permès crear
+
+00:03:30.835 --> 00:03:33.099
+aquesta xarxa estesa d'I+D,
+
+00:03:33.099 --> 00:03:36.895
+i ens movem més ràpid que 
+qualsevol competidor amb inversors.
+
+00:03:36.895 --> 00:03:40.100
+Però el robot en si és només la meitat de la història.
+
+00:03:40.100 --> 00:03:42.596
+El potencial real, el potencial a llarg termini,
+
+00:03:42.596 --> 00:03:45.273
+és en aquesta comunitat d'exploradors de l'oceà que s'ho fan ells mateixos
+
+00:03:45.273 --> 00:03:47.669
+que s'està formant arreu del planeta.
+
+00:03:47.669 --> 00:03:49.203
+Què podem arribar a descobrir,
+
+00:03:49.203 --> 00:03:51.107
+quan hi ha milers d'aparellets d'aquests
+
+00:03:51.107 --> 00:03:53.153
+passejant pels mars?
+
+00:03:53.153 --> 00:03:55.429
+Probablement us ho pregunteu: la cova.
+
+00:03:55.429 --> 00:03:57.255
+Vau trobar l'or?
+
+00:03:57.255 --> 00:03:58.807
+Bé, no en vam trobar pas,
+
+00:03:58.807 --> 00:04:02.036
+però vam decidir que el que vam trobar
+era molt més valuós.
+
+00:04:02.036 --> 00:04:04.508
+Va ser entreveure el futur potencial
+
+00:04:04.508 --> 00:04:06.183
+de l'exploració oceànica.
+
+00:04:06.183 --> 00:04:09.093
+No és una cosa limitada als
+James Camerons del món,
+
+00:04:09.093 --> 00:04:11.688
+sinó que tots hi participem.
+
+00:04:11.688 --> 00:04:13.021
+És un món submarí
+
+00:04:13.021 --> 00:04:15.532
+que explorem tots junts.
+
+00:04:15.532 --> 00:04:17.707
+Gràcies.
+
+00:04:17.707 --> 00:04:21.707
+(Aplaudiments)
+

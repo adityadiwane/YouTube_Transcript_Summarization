@@ -1,0 +1,624 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Ana-Elena Vasile
+Corector: Ariana Bleau Lugo
+
+00:00:12.562 --> 00:00:15.623
+Eric Berlow: Sunt ecologist, iar Sean este fizician,
+
+00:00:15.623 --> 00:00:17.731
+și amândoi studiem rețele complexe.
+
+00:00:17.731 --> 00:00:19.566
+Ne-am cunoscut în urmă cu câțiva ani când am descoperit
+
+00:00:19.566 --> 00:00:21.566
+că amândoi ținuserăm un scurt discurs în cadrul unui eveniment TEDx
+
+00:00:21.566 --> 00:00:23.869
+cu privire la ecologia războiului,
+
+00:00:23.869 --> 00:00:25.316
+și ne-am dat seama că se crease o legătură între noi
+
+00:00:25.316 --> 00:00:28.134
+la nivelul ideilor pe care le împărtășeam înainte de a ne fi întâlnit.
+
+00:00:28.134 --> 00:00:29.690
+Și apoi ne-am gândit că există mii
+
+00:00:29.690 --> 00:00:31.804
+de alte discursuri, în special TEDx Talks,
+
+00:00:31.804 --> 00:00:34.015
+care sunt difuzate în lumea întreagă.
+
+00:00:34.015 --> 00:00:34.938
+Care este legătura dintre acestea
+
+00:00:34.938 --> 00:00:36.948
+și cum se prezintă conversația globală?
+
+00:00:36.948 --> 00:00:39.758
+Sean vă va povesti pe scurt cum am stabilit legătura.
+
+00:00:39.758 --> 00:00:43.525
+Sean Gourley: Exact. Am luat 24.000 de discursuri publicate pe site-ul TED
+
+00:00:43.525 --> 00:00:46.571
+din lumea întreagă, din 147 de țări,
+
+00:00:46.571 --> 00:00:48.694
+și cu ajutorul acestor discursuri ne-am dorit să găsim
+
+00:00:48.694 --> 00:00:50.734
+structurile matematice care evidențiază
+
+00:00:50.734 --> 00:00:52.456
+ideile din spatele acestora.
+
+00:00:52.456 --> 00:00:53.826
+Am dorit acest lucru pentru a vedea
+
+00:00:53.826 --> 00:00:55.879
+care este legătura dintre ele.
+
+00:00:55.879 --> 00:00:57.555
+Bineînțeles că, dacă îți dorești asta
+
+00:00:57.555 --> 00:00:58.511
+ai nevoie de multe date.
+
+00:00:58.511 --> 00:01:02.197
+Datele pot fi găsite într-un loc minunat numit YouTube,
+
+00:01:02.197 --> 00:01:03.965
+și accesăm YouTube și extragem efectiv
+
+00:01:03.965 --> 00:01:06.232
+toate informațiile accesibile de pe YouTube,
+
+00:01:06.232 --> 00:01:08.581
+toate comentariile, toate vizualizările, cine vede ce,
+
+00:01:08.581 --> 00:01:11.360
+pe ce platformă sunt văzute, ce spun în comentarii.
+
+00:01:11.360 --> 00:01:14.652
+Dar putem extrage informații și cu ajutorul traducerii discurs-text,
+
+00:01:14.652 --> 00:01:16.780
+putem extrage întreaga transcriere,
+
+00:01:16.780 --> 00:01:19.460
+și funcționează chiar și în cazul persoanelor cu accente amuzante ca al meu.
+
+00:01:19.460 --> 00:01:21.566
+Așadar, putem lua transcrierea
+
+00:01:21.566 --> 00:01:23.664
+și o folosim pentru niște chestii grozave.
+
+00:01:23.664 --> 00:01:25.824
+Apelăm la algoritmi de prelucrare a limbii
+
+00:01:25.824 --> 00:01:28.453
+pentru a parcurge un text cu ajutorul unui calculator, rând cu rând,
+
+00:01:28.453 --> 00:01:30.812
+extrăgând în același timp concepte cheie,
+
+00:01:30.812 --> 00:01:33.337
+Și cu ajutorul acestor concepte cheie formăm
+
+00:01:33.337 --> 00:01:36.902
+o structură matematică a unei idei.
+
+00:01:36.902 --> 00:01:38.659
+Numim acest lucru meme-ome.
+
+00:01:38.659 --> 00:01:40.810
+Iar meme-ome-ul e pur și simplu
+
+00:01:40.810 --> 00:01:43.236
+matematica de la baza unei idei,
+
+00:01:43.236 --> 00:01:45.168
+și putem face o analiză interesantă cu ajutorul ei,
+
+00:01:45.168 --> 00:01:47.149
+pe care doresc să v-o împărtășesc.
+
+00:01:47.149 --> 00:01:49.339
+Fiecare idee are propriul meme-ome,
+
+00:01:49.339 --> 00:01:51.290
+și, astfel, fiecare idee este unică,
+
+00:01:51.290 --> 00:01:53.778
+dar, evident, ideile împrumută unele de la altele,
+
+00:01:53.778 --> 00:01:54.962
+într-un fel fură uneori
+
+00:01:54.962 --> 00:01:56.789
+și sigur se construiesc bazându-se una pe cealaltă.
+
+00:01:56.789 --> 00:01:58.405
+Continuăm cu algoritmul matematic
+
+00:01:58.405 --> 00:02:00.245
+și luăm meme-ome-ul dintr-un discurs
+
+00:02:00.245 --> 00:02:02.699
+și îl comparăm cu meme-ome-ul din orice alt discurs,
+
+00:02:02.699 --> 00:02:04.672
+iar dacă există similitudine între cele două,
+
+00:02:04.672 --> 00:02:07.922
+putem crea o legătură și reprezenta sub forma unui grafic,
+
+00:02:07.922 --> 00:02:10.316
+exact așa cum Eric și eu suntem conectați.
+
+00:02:10.316 --> 00:02:11.710
+Asta-i teorie, e minunat.
+
+00:02:11.710 --> 00:02:14.236
+Să vedem cum funcționează efectiv în practică.
+
+00:02:14.236 --> 00:02:17.024
+Ceea ce vedeți acum e amprenta globală
+
+00:02:17.024 --> 00:02:19.317
+a tuturor discursurilor TED din ultimii patru ani
+
+00:02:19.317 --> 00:02:20.867
+care au explodat în lume
+
+00:02:20.867 --> 00:02:24.196
+de la New York până la micuța și vechea Noua Zeelandă din colț.
+
+00:02:24.196 --> 00:02:28.031
+Am analizat primele 25 de procente din aceste discursuri
+
+00:02:28.031 --> 00:02:30.565
+și am început să vedem unde se produceau legături,
+
+00:02:30.565 --> 00:02:32.102
+și dacă exista o legătură între acestea.
+
+00:02:32.102 --> 00:02:33.976
+Discursul lui Cameron Russel despre imagine și frumusețe
+
+00:02:33.976 --> 00:02:35.551
+se asocia cu Europa.
+
+00:02:35.551 --> 00:02:37.963
+A mai existat o conversație mai amplă despre Israel și Palestina
+
+00:02:37.963 --> 00:02:40.218
+radiind dinspre Orientul Mijlociu.
+
+00:02:40.218 --> 00:02:41.516
+Și am descoperit ceva mai amplu
+
+00:02:41.516 --> 00:02:43.672
+ca big data lăsând o amprentă, cu adevărat, globală
+
+00:02:43.672 --> 00:02:45.851
+care amintea de o conversație
+
+00:02:45.851 --> 00:02:47.867
+existentă pretutindeni.
+
+00:02:47.867 --> 00:02:50.040
+De aici, ne-am cam confruntat cu limitele
+
+00:02:50.040 --> 00:02:52.570
+a ce puteam realiza efectiv cu o proiecție geografică
+
+00:02:52.570 --> 00:02:54.622
+dar, din fericire, tehnologia IT ne permite să accesăm
+
+00:02:54.622 --> 00:02:56.168
+un spațiu multidimensional.
+
+00:02:56.168 --> 00:02:58.043
+Așadar ne putem lua proiecția de rețea
+
+00:02:58.043 --> 00:02:59.793
+și îi putem aplica un motor din fizică
+
+00:02:59.793 --> 00:03:01.678
+și am putea spune că discursurile similare se ciocnesc,
+
+00:03:01.678 --> 00:03:03.682
+în timp ce discursurile diferite zboară în direcții diferite,
+
+00:03:03.682 --> 00:03:05.754
+și ceea ce ne--a rămas e ceva frumos.
+
+00:03:05.754 --> 00:03:08.711
+EB: Vreau să evidențiez că fiecare nod e un discurs,
+
+00:03:08.711 --> 00:03:11.300
+sunt legate între ele dacă împărtășesc aceleași idei,
+
+00:03:11.300 --> 00:03:13.384
+și acesta e rezultatul unei mașini care citește
+
+00:03:13.384 --> 00:03:15.451
+integral transcrierile discursurilor
+
+00:03:15.451 --> 00:03:17.682
+deci, toate aceste subiecte care apar
+
+00:03:17.682 --> 00:03:19.472
+nu sunt rezultatul tag-urilor și al cuvintelor cheie.
+
+00:03:19.472 --> 00:03:21.197
+Provin din structura rețelei
+
+00:03:21.197 --> 00:03:23.365
+care evidențiază ideile interconectate. 
+Continuă.
+
+00:03:23.365 --> 00:03:25.387
+SG: Absolut. Eu am parcurs destul de rapid acest subiect,
+
+00:03:25.387 --> 00:03:26.862
+dar el mă domolește.
+
+00:03:26.862 --> 00:03:28.896
+Avem educația legată de relatarea de povești
+
+00:03:28.896 --> 00:03:30.539
+care formează un triunghi cu mediile sociale.
+
+00:03:30.539 --> 00:03:33.014
+Binențeles că avem creierul omenesc lângă sănătate,
+
+00:03:33.014 --> 00:03:34.400
+așa cum vă așteptați,
+
+00:03:34.400 --> 00:03:36.795
+dar avem și jocuri video, care sunt oarecum adiacente,
+
+00:03:36.795 --> 00:03:39.535
+deoarece aceste două spații sunt interdependente.
+
+00:03:39.535 --> 00:03:41.070
+Dar vreau să vă prezint un fascicul
+
+00:03:41.070 --> 00:03:43.938
+care are o importantă deosebită pentru mine, mediul.
+
+00:03:43.938 --> 00:03:45.431
+Aș vrea să măresc imaginea acestuia,
+
+00:03:45.431 --> 00:03:47.794
+să vedem dacă putem obține o rezoluție mai bună.
+
+00:03:47.794 --> 00:03:50.141
+Cu cât avem o rezoluție mai mare, 
+ceea ce vedem,
+
+00:03:50.141 --> 00:03:51.645
+după ce am apelat din nou la motorul de fizică,
+
+00:03:51.645 --> 00:03:53.321
+reprezintă o conversație,
+
+00:03:53.321 --> 00:03:55.881
+respectiv un fascicul compus din mai multe mici conversații
+
+00:03:55.881 --> 00:03:57.810
+Structura începe să iasă în evidență
+
+00:03:57.810 --> 00:03:59.880
+acolo unde observăm un tip de comportament fractal
+
+00:03:59.880 --> 00:04:01.499
+al cuvintelor și al limbajului pe care îl utilizăm
+
+00:04:01.499 --> 00:04:03.201
+pentru a descrie lucrurile importante pentru noi
+
+00:04:03.201 --> 00:04:04.634
+la nivel mondial.
+
+00:04:04.634 --> 00:04:06.966
+În vârf avem economia alimentației și alimentația locală
+
+00:04:06.966 --> 00:04:09.685
+avem gaze cu efect de seră, deșeuri solare și nucleare.
+
+00:04:09.685 --> 00:04:12.316
+Am obținut o gamă de conversații mai mici,
+
+00:04:12.316 --> 00:04:14.617
+fiecare legate între ele prin ideile
+
+00:04:14.617 --> 00:04:15.918
+și prin limbajul pe care îl au în comun,
+
+00:04:15.918 --> 00:04:18.368
+creând un concept mai larg privind mediul.
+
+00:04:18.368 --> 00:04:19.900
+Și, bineînțeles, de aici,
+
+00:04:19.900 --> 00:04:23.434
+mărim imaginea și vedem ce îi interesează pe tineri.
+
+00:04:23.434 --> 00:04:25.779
+Vizionează discursuri de tehnologia din domeniul energetic și fuziune nucleară.
+
+00:04:25.779 --> 00:04:27.453
+La aceste domenii care se raportează la mediu
+
+00:04:27.453 --> 00:04:29.859
+rezonează tinerii.
+
+00:04:29.859 --> 00:04:31.758
+Dacă facem o diferențiere în funcție de sexe,
+
+00:04:31.758 --> 00:04:33.745
+vedem că sexul feminin rezonează puternic
+
+00:04:33.745 --> 00:04:37.390
+la economia alimentației, dar și la speranță și optimism.
+
+00:04:37.390 --> 00:04:39.872
+Deci, aici putem jongla cu foarte multe elemente interesante.
+
+00:04:39.872 --> 00:04:41.634
+Eric vă va prezenta următoarea parte.
+
+00:04:41.634 --> 00:04:43.236
+EB: Da, nu vreau decât să evidențiez
+
+00:04:43.236 --> 00:04:44.774
+că nu poți obține acest tip de perspectivă
+
+00:04:44.774 --> 00:04:48.134
+cu o simplă căutare de tag pe YouTube.
+
+00:04:48.134 --> 00:04:52.322
+Să micșorăm imaginea pentru a vedea întreaga conversație globală
+
+00:04:52.322 --> 00:04:54.856
+să ieșim din fasciculul privind mediul și să aruncăm o privire tuturor discursurilor per ansamblu.
+
+00:04:54.856 --> 00:04:57.783
+Când ne confruntăm cu acest volum de conținut,
+
+00:04:57.783 --> 00:05:00.214
+facem câteva lucruri pentru a-l simplifica.
+
+00:05:00.214 --> 00:05:01.528
+Am putea spune doar, ei bine,
+
+00:05:01.528 --> 00:05:04.357
+care sunt cele mai populare discursuri?
+
+00:05:04.357 --> 00:05:05.754
+Și ies la suprafață câteva.
+
+00:05:05.754 --> 00:05:07.582
+Un discurs despre recunoștință.
+
+00:05:07.582 --> 00:05:10.926
+Mai e unul despre sănătate personală și nutriție.
+
+00:05:10.926 --> 00:05:13.855
+Și, bineînțeles, trebuie să fie unul despre pornografie, nu-i așa?
+
+00:05:13.855 --> 00:05:17.089
+Așadar, am putea spune, recunoștință, asta era anul trecut.
+
+00:05:17.089 --> 00:05:19.611
+Ce-i la modă acum? Care e, în prezent, cel mai popular discurs?
+
+00:05:19.611 --> 00:05:22.932
+Observăm că noul subiect la modă
+
+00:05:22.932 --> 00:05:25.598
+e protecția vieții private în mediul digital.
+
+00:05:25.598 --> 00:05:27.291
+E minunat. Simplifică lucrurile.
+
+00:05:27.291 --> 00:05:29.118
+Dar există și un conținut extrem de creativ
+
+00:05:29.118 --> 00:05:31.039
+îngropat adânc.
+
+00:05:31.039 --> 00:05:34.357
+Păcat. Cum extragem la suprafață
+
+00:05:34.357 --> 00:05:36.815
+un conținut cu adevărat creativ și interesant?
+
+00:05:36.815 --> 00:05:39.746
+Ei bine, pentru a acționa în acest sens,
+
+00:05:39.746 --> 00:05:41.176
+revenim la structura rețelei de idei.
+
+00:05:41.176 --> 00:05:43.290
+Rețineți, e acea structură a rețelei
+
+00:05:43.290 --> 00:05:45.558
+care creează aceste subiecte emergente.
+
+00:05:45.558 --> 00:05:47.073
+Să presupunem că am putea lua două dintre acestea,
+
+00:05:47.073 --> 00:05:50.120
+precum orașele și genetica, și să spunem, ei bine, există discursuri
+
+00:05:50.120 --> 00:05:52.689
+care leagă creativ aceste două discipline total diferite.
+
+00:05:52.689 --> 00:05:54.964
+Asta reprezintă, în esență, acest tip de remix creativ,
+
+00:05:54.964 --> 00:05:56.804
+unul dintre elementele distinctive ale inovației.
+
+00:05:56.804 --> 00:05:58.410
+Ei bine, avem aici un discurs de Jessica Green
+
+00:05:58.410 --> 00:06:00.789
+despre ecologia microbiană a clădirilor.
+
+00:06:00.789 --> 00:06:02.799
+Definește efectiv un nou domeniu.
+
+00:06:02.799 --> 00:06:04.902
+Am putea reveni la acele subiecte și spune, ei bine,
+
+00:06:04.902 --> 00:06:07.670
+ce discursuri aduc în prim plan aceste subiecte?
+
+00:06:07.670 --> 00:06:09.360
+În fasciculul orașe, printre cele mai semnificative
+
+00:06:09.360 --> 00:06:13.312
+a fost discursul lui Mitch Joachim cu privire la orașele ecologice,
+
+00:06:13.312 --> 00:06:15.032
+iar în fasciculul genetică,
+
+00:06:15.032 --> 00:06:18.225
+avem un discurs despre biologie sintetică al lui Craig Venter.
+
+00:06:18.225 --> 00:06:21.578
+Acestea sunt discursuri care conectează multe discursuri din sfera disciplinei lor.
+
+00:06:21.578 --> 00:06:23.421
+Am putea merge în sensul opus și spune, ei bine,
+
+00:06:23.421 --> 00:06:25.693
+care sunt discursurile care sintetizează cel mai bine
+
+00:06:25.693 --> 00:06:27.141
+o mulțime de domenii diferite.
+
+00:06:27.141 --> 00:06:29.674
+Pentru asta, am utilizat o măsură a diversității ecologice.
+
+00:06:29.674 --> 00:06:32.410
+Respectiv, un discurs al lui Steven Pinker cu privire la istoria violenței,
+
+00:06:32.410 --> 00:06:33.590
+extrem de sintetic.
+
+00:06:33.590 --> 00:06:35.668
+Și apoi, bineînțeles, sunt discursurile care sunt atât de unice
+
+00:06:35.668 --> 00:06:38.758
+că plutesc în stratosferă, am putea spune, 
+ocupând locul special care le revine,
+
+00:06:38.758 --> 00:06:41.272
+și denumim asta, indexul Colleen Flanagan.
+
+00:06:41.272 --> 00:06:44.306
+Iar dacă nu o cunoașteți pe Colleen, este o artistă,
+
+00:06:44.306 --> 00:06:45.849
+și am întrebat-o: „Cum e acolo
+
+00:06:45.849 --> 00:06:47.521
+în stratosfera ideilor noastre?”
+
+00:06:47.521 --> 00:06:50.776
+Aparent, miroase a bacon.
+
+00:06:50.776 --> 00:06:52.567
+N-am de unde să știu.
+
+00:06:52.567 --> 00:06:54.815
+Așadar, folosim aceste motive
+
+00:06:54.815 --> 00:06:56.001
+pentru a găsi discursuri unice
+
+00:06:56.001 --> 00:06:58.711
+care sintetizează creativ multe domenii diferite,
+
+00:06:58.711 --> 00:07:00.370
+cele de o importanță semnificativă pentru subiectul lor,
+
+00:07:00.370 --> 00:07:03.744
+și cele care construiesc creativ o punte între diferite domenii.
+
+00:07:03.744 --> 00:07:05.846
+Din cauza obsesiei noastre de a descoperi ce e la modă acum
+
+00:07:05.846 --> 00:07:08.159
+nu le-am fi găsit niciodată pe acestea.
+
+00:07:08.159 --> 00:07:11.045
+Și toate vin din arhitectura complexității,
+
+00:07:11.045 --> 00:07:14.005
+sau a tiparelor cu privire la modalitatea în care lucrurile sunt interconectate.
+
+00:07:14.005 --> 00:07:15.630
+SG: Corect.
+
+00:07:15.630 --> 00:07:18.109
+Ne aflăm într-o lume
+
+00:07:18.109 --> 00:07:20.153
+extrem de complicată,
+
+00:07:20.153 --> 00:07:23.020
+și am folosit algoritmi pentru a o filtra
+
+00:07:23.020 --> 00:07:24.806
+ca să navigăm prin ea.
+
+00:07:24.806 --> 00:07:27.144
+Și acești algoritmi, deși utili,
+
+00:07:27.144 --> 00:07:30.620
+sunt și foarte, foarte limitați. 
+Putem realiza mai mult de atât,
+
+00:07:30.620 --> 00:07:33.186
+Realizăm că acestă complexitate a lor nu e aleatorie.
+
+00:07:33.186 --> 00:07:35.140
+Are o structură matematică,
+
+00:07:35.140 --> 00:07:36.943
+și putem utiliza acea structură matematică
+
+00:07:36.943 --> 00:07:39.157
+pentru a explora lucruri precum lumea ideilor
+
+00:07:39.157 --> 00:07:42.157
+pentru a vedea ce se spune, ce nu se spune
+
+00:07:42.157 --> 00:07:43.564
+și pentru a fi un pic mai umani
+
+00:07:43.564 --> 00:07:45.431
+și, să sperăm, un pic mai inteligenți.
+
+00:07:45.431 --> 00:07:46.397
+Mulțumesc.
+
+00:07:46.397 --> 00:07:50.617
+(Aplauze)
+

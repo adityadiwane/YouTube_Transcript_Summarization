@@ -1,0 +1,1505 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:12.000
+Tradutor: Maricene Crus
+Revisor: Joemio Freire
+
+00:00:12.753 --> 00:00:14.892
+Essa é uma peça chamada "Sell/Buy/Date".
+
+00:00:14.892 --> 00:00:17.963
+É minha primeira desde
+"Bridge and Tunnel", que fiz na Broadway,
+
+00:00:17.963 --> 00:00:21.333
+e esta, eu -- obrigada --
+
+00:00:21.333 --> 00:00:25.995
+selecionei para vocês, e aqui está.
+
+00:00:29.553 --> 00:00:32.901
+Certo. Turma, vamos nos certificar
+
+00:00:32.901 --> 00:00:37.618
+de que todos os aparelhos eletrônicos
+estejam desligados antes de começarmos?
+
+00:00:38.268 --> 00:00:43.665
+Então, classe, espero que reconheçam
+o que acabaram de me ouvir dizer como...?
+
+00:00:43.665 --> 00:00:47.199
+Muito bem, o anúncio do telefone celular.
+
+00:00:47.199 --> 00:00:51.378
+Isso também ficou conhecido
+como "telefone móvel".
+
+00:00:51.378 --> 00:00:53.607
+Então se lembram que pessoas daquela época
+
+00:00:53.607 --> 00:00:58.483
+tinham um aparelho eletrônico externo,
+
+00:00:58.483 --> 00:01:00.434
+algo assim,
+
+00:01:00.434 --> 00:01:03.370
+e todos carregavam
+um desses com eles por aí,
+
+00:01:03.370 --> 00:01:06.749
+e entre um dos maiores de seus pavores
+estava a mais pura tortura
+
+00:01:06.749 --> 00:01:10.139
+de que um desses tocasse
+em algum momento inoportuno.
+
+00:01:10.139 --> 00:01:12.540
+Apenas alguns detalhes
+daquela época para vocês.
+
+00:01:12.540 --> 00:01:15.100
+(Risos)
+
+00:01:15.100 --> 00:01:17.851
+Então o formato da aula de hoje é
+
+00:01:17.851 --> 00:01:21.793
+que vou apresentar
+módulos BERT múltiplos hoje
+
+00:01:21.793 --> 00:01:24.163
+daquele período da história,
+
+00:01:24.163 --> 00:01:26.973
+então começarei por volta de 2016.
+
+00:01:26.973 --> 00:01:31.320
+E lembrem-se, esse foi o primeiro ano
+do programa BERT.
+
+00:01:31.320 --> 00:01:33.690
+Então temos alguns desses para cobrir.
+
+00:01:33.690 --> 00:01:37.697
+Tenham em mente que estarei vivendo
+em vários corpos diferentes,
+
+00:01:37.697 --> 00:01:39.495
+idades diferentes,
+
+00:01:39.495 --> 00:01:43.403
+e também o que eles na época
+chamavam de raças ou grupos étnicos,
+
+00:01:43.403 --> 00:01:45.493
+como se lembrarão da Unidade 1.
+
+00:01:45.493 --> 00:01:48.813
+E... (Risos) na escala contínua do gênero,
+
+00:01:48.813 --> 00:01:51.321
+estarei representando os machos também.
+
+00:01:51.321 --> 00:01:52.991
+Aquela foi uma época muito binária.
+
+00:01:52.991 --> 00:01:54.550
+(Risos)
+
+00:01:54.550 --> 00:01:57.867
+Também, não se esqueçam,
+estamos lendo o módulo do livro
+
+00:01:57.867 --> 00:01:59.842
+da semana que vem focando o gênero.
+
+00:01:59.842 --> 00:02:03.885
+Sei que alguns de vocês pediram
+o livro no formato de pílula.
+
+00:02:03.885 --> 00:02:08.201
+Sei que as pessoas ainda acreditam
+que ingeri-lo é melhor para a retenção,
+
+00:02:08.201 --> 00:02:13.300
+mas como estamos tentando experimentar
+o que nossos antepassados fizeram,
+
+00:02:13.300 --> 00:02:18.737
+vamos então considerar
+fazer a leitura ocular, certo?
+
+00:02:18.737 --> 00:02:24.222
+E também, quantos de vocês estão
+com seus desvios emocionais ligados?
+
+00:02:24.222 --> 00:02:26.916
+Certo. Por favor, desativem-nos, ok?
+
+00:02:26.916 --> 00:02:30.751
+Sei que é um desafio,
+mas quero que sejam capazes
+
+00:02:30.751 --> 00:02:33.719
+de sentir toda a gama "emo" natural, ok?
+
+00:02:33.719 --> 00:02:36.988
+É essencial para essa parte
+do programa de estudos.
+
+00:02:37.888 --> 00:02:39.126
+Sim, Macy?
+
+00:02:39.756 --> 00:02:43.627
+Certo. Entendi.
+Se você não está a fim de...
+
+00:02:43.627 --> 00:02:45.996
+Certo, podemos discutir isso após a aula.
+
+00:02:45.996 --> 00:02:48.429
+Sim, vamos discutir as suas preocupações.
+
+00:02:48.429 --> 00:02:52.799
+Relaxe. Ninguém morreu e virou adubo.
+(Risos)
+
+00:02:52.799 --> 00:02:55.893
+Depois da aula, tudo bem? Após a aula.
+
+00:02:57.133 --> 00:02:59.144
+Vamos começar.
+
+00:02:59.144 --> 00:03:05.552
+Esse primeiro entrevistado identificado
+como uma dona de casa de classe média.
+
+00:03:05.552 --> 00:03:07.851
+Lembrem-se, esses primeiros módulos
+
+00:03:07.851 --> 00:03:11.984
+sobre a completa identidade
+dessas pessoas foram protegidos,
+
+00:03:11.984 --> 00:03:15.250
+e isso permitiu que elas falassem
+mais livremente sobre nosso tópico,
+
+00:03:15.250 --> 00:03:18.503
+o qual, para muitas delas, era um tabu.
+
+00:03:19.730 --> 00:03:23.732
+Querido, estou pronta se quiser começar.
+
+00:03:23.732 --> 00:03:26.960
+Não, querido, eu disse
+que estou pronta se quiser começar.
+
+00:03:28.060 --> 00:03:29.351
+Estou congelando.
+
+00:03:30.061 --> 00:03:33.206
+Esse estúdio de gravação
+é gelado como um frigorífico.
+
+00:03:33.206 --> 00:03:35.806
+Deveria ter trazido uma roupa velha.
+
+00:03:35.806 --> 00:03:39.405
+Toda essa tecnologia chique,
+mas não podem pagar pela calefação?
+
+00:03:40.105 --> 00:03:43.678
+O que ele está dizendo?
+Não consigo ouvir você!
+
+00:03:43.678 --> 00:03:46.557
+Não consigo ouvir pelo vidro, querido!
+
+00:03:46.557 --> 00:03:49.320
+Aí está você, no meu ouvido.
+
+00:03:49.320 --> 00:03:51.920
+Oh, você consegue me ouvir?
+
+00:03:51.920 --> 00:03:53.778
+O tempo todo.
+
+00:03:53.778 --> 00:03:56.864
+Estou com um pouco de frio.
+
+00:03:57.980 --> 00:04:03.553
+A temperatura fria é para as máquinas,
+a nova tecnologia.
+
+00:04:03.553 --> 00:04:09.304
+Explique-me de novo, você não está apenas
+gravando minha voz, mas meus sentimentos?
+
+00:04:09.304 --> 00:04:11.604
+E minhas lembranças? Certo.
+
+00:04:12.414 --> 00:04:14.433
+Sim, BERT, sim, li a respeito disso.
+
+00:04:14.433 --> 00:04:17.484
+Tecnologia Ressonante Bio-Empática.
+
+00:04:17.484 --> 00:04:22.101
+Certo, então as pessoas poderão
+sentir a minha experiência
+
+00:04:22.101 --> 00:04:24.063
+e minhas lembranças? Certo.
+
+00:04:24.063 --> 00:04:26.128
+Não, certo, estou pronta.
+
+00:04:26.128 --> 00:04:29.155
+Achei que ia fazer um teste para ver
+como anda a minha memória.
+
+00:04:29.155 --> 00:04:33.542
+Eu ia dizer que chegou atrasado,
+pois ela já se foi faz tempo.
+
+00:04:34.847 --> 00:04:37.388
+Não, continue, querido.
+
+00:04:37.388 --> 00:04:39.984
+Oh, essa é a primeira pergunta?
+
+00:04:39.984 --> 00:04:42.868
+O que eu acho da prostituição?
+
+00:04:42.868 --> 00:04:47.509
+Está se insinuando para mim, meu jovem?
+(Risos)
+
+00:04:47.509 --> 00:04:52.522
+Ouvi falar de namoro de velhas com jovens,
+mas quantos anos você tem, uns 20?
+
+00:04:52.522 --> 00:04:54.844
+Dezoito? Dezoito anos.
+
+00:04:57.124 --> 00:05:00.463
+Devo ter balinhas na minha bolsa
+mais velhas que isso.
+
+00:05:00.463 --> 00:05:01.941
+(Risos)
+
+00:05:03.701 --> 00:05:08.520
+Estou brincando contigo, querido.
+Fico confortável com qualquer pergunta.
+
+00:05:09.560 --> 00:05:15.111
+Claro. E quanto à prostituição...
+oh, profissional do sexo, tudo bem.
+
+00:05:15.111 --> 00:05:19.920
+Não, é que no meu tempo, chamávamos
+prostituição e não profissional do sexo.
+
+00:05:19.920 --> 00:05:22.666
+Isso inclui a pornografia também?
+
+00:05:22.666 --> 00:05:24.037
+Tudo bem.
+
+00:05:24.037 --> 00:05:26.659
+Não, bem, quando eu era garota,
+
+00:05:26.659 --> 00:05:29.167
+também não tínhamos um nome para isso.
+
+00:05:29.167 --> 00:05:34.522
+Teríamos dito revistas indecentes,
+suponho, ou filmes obscenos.
+
+00:05:34.522 --> 00:05:37.840
+Não era o que temos hoje com a Internet.
+
+00:05:37.840 --> 00:05:41.636
+Não, não me importo de compartilhar.
+
+00:05:41.636 --> 00:05:46.628
+Meu falecido marido e eu,
+éramos um casal muito romântico.
+
+00:05:47.558 --> 00:05:50.714
+Muito carinho, você entende.
+
+00:05:51.794 --> 00:05:55.164
+Conforme você envelhece, num dado momento,
+achei que o meu marido
+
+00:05:55.164 --> 00:05:59.317
+poderia ser ajudado usando algumas
+das pílulas que os homens tomam,
+
+00:06:01.317 --> 00:06:04.413
+mas ele não estava interessado nelas.
+
+00:06:04.413 --> 00:06:10.474
+Então pensei: "Que tal talvez assistirmos
+a um filme adulto na Internet?"
+
+00:06:10.474 --> 00:06:13.908
+Apenas para inspiração, você entende.
+
+00:06:13.908 --> 00:06:18.906
+Bem, na época, nenhum de nós
+sabia usar bem o computador.
+
+00:06:18.906 --> 00:06:21.619
+Normalmente, se precisávamos
+de ajuda com a Internet,
+
+00:06:21.619 --> 00:06:26.187
+chamávamos os nossos filhos ou netos,
+
+00:06:26.187 --> 00:06:30.163
+mas, obviamente, nesse caso,
+não seria uma opção.
+
+00:06:30.163 --> 00:06:35.398
+Então pensei:
+"Eu mesma vou olhar, só pra ver.
+
+00:06:35.398 --> 00:06:38.127
+Será tão difícil assim?"
+
+00:06:38.127 --> 00:06:41.760
+Você procura
+algumas palavras chave e vê...
+
+00:06:41.760 --> 00:06:43.955
+Caramba mesmo, meu jovem!
+
+00:06:43.955 --> 00:06:46.672
+Não pode imaginar o que vi.
+
+00:06:46.672 --> 00:06:51.618
+Bem, primeiramente,
+só estava tentando encontrar casais,
+
+00:06:51.618 --> 00:06:54.163
+casais normais fazendo amor,
+
+00:06:54.163 --> 00:06:59.791
+mas isso, tanta gente junta de uma vez só!
+
+00:06:59.791 --> 00:07:03.599
+Não dava para dizer a quem pertencia
+a parte de cada corpo.
+
+00:07:03.599 --> 00:07:07.778
+Como conseguiram que a câmera filmasse
+um pouco daquilo, eu não saberia dizer.
+
+00:07:07.778 --> 00:07:13.518
+Mas uma coisa que não conseguiram filmar
+foi o ato de fazer amor.
+
+00:07:14.428 --> 00:07:19.388
+Eles estavam fazendo muito de algo,
+
+00:07:19.388 --> 00:07:23.497
+mas a parte do amor ficou de fora,
+a diversão.
+
+00:07:23.497 --> 00:07:27.421
+Era tudo muito radical, sabe?
+
+00:07:27.421 --> 00:07:31.109
+Como vocês diriam com esportes radicais.
+
+00:07:31.109 --> 00:07:34.378
+Havia muita resistência,
+
+00:07:34.378 --> 00:07:37.990
+mas nenhum carinho, mas deixa pra lá.
+
+00:07:37.990 --> 00:07:44.116
+Não preciso nem dizer que foram US$ 19,95
+que jamais terei de volta... (Risos)
+
+00:07:44.116 --> 00:07:48.945
+mas que apareceram no extrato do cartão
+como "serviços de entretenimento".
+
+00:07:48.945 --> 00:07:51.732
+Meu marido não ficou nada mais sábio,
+
+00:07:51.732 --> 00:07:54.083
+e, depois de tudo aquilo,
+
+00:07:55.133 --> 00:07:57.572
+bem, pode-se dizer que no final das contas
+
+00:07:57.572 --> 00:08:01.412
+ele não precisava da inspiração extra.
+
+00:08:02.262 --> 00:08:07.567
+Certo, o próximo entrevistado
+é uma jovem... (Aplausos)
+
+00:08:07.567 --> 00:08:11.164
+Próximo entrevistado, turma,
+é uma jovem chamada Bella,
+
+00:08:11.164 --> 00:08:14.768
+uma universitária entrevistada em 2016,
+
+00:08:14.768 --> 00:08:18.507
+durante o que foi chamado de "Aula
+de Introdução ao Pornô Feminista",
+
+00:08:18.507 --> 00:08:23.282
+como parte de sua formação em
+Trabalho Sexual na faculdade na Bay Area.
+
+00:08:23.282 --> 00:08:25.719
+(Risos)
+
+00:08:26.069 --> 00:08:28.918
+Sim, eu só quero, tipo,
+ter uma gravação de, tipo,
+
+00:08:28.918 --> 00:08:31.787
+vocês, tipo, me gravando,
+
+00:08:31.787 --> 00:08:34.611
+tipo uma meta gravação ou coisa assim.
+
+00:08:34.611 --> 00:08:38.581
+É, tipo, toda essa experiência
+é, tipo, realmente incrível,
+
+00:08:38.581 --> 00:08:41.961
+e eu queria gravar isso pra, tipo,
+"Instagram" e meu "Tumblr".
+
+00:08:41.961 --> 00:08:45.166
+Então, tipo, oi pessoal, sou eu, Bella,
+
+00:08:45.166 --> 00:08:48.813
+e eu estou, tipo, sendo entrevistada agora
+
+00:08:48.813 --> 00:08:55.505
+para essa, tipo, incrível Tecnologia
+Ressonante Bio-Empática
+
+00:08:55.505 --> 00:09:01.290
+que é, tipo, basicamente eles estão,
+tipo, gravando, como podem ver
+
+00:09:01.290 --> 00:09:03.702
+desses, sei lá, tipo, eletrodos,
+
+00:09:03.702 --> 00:09:09.200
+de formação de, tipo, neuropeptídios
+no meu hipocampo ou coisa assim.
+
+00:09:09.200 --> 00:09:12.920
+Eles mais tarde vão reconstituir isso
+
+00:09:12.920 --> 00:09:18.930
+como, tipo, minhas lembranças,
+como experiências reais,
+
+00:09:18.930 --> 00:09:23.645
+assim outras pessoas podem, tipo,
+sentir o que estou sentindo agora.
+
+00:09:24.320 --> 00:09:26.572
+Certo, certo.
+
+00:09:26.572 --> 00:09:32.330
+Então, tipo, olá BERT pessoa do futuro
+que está me conhecendo.
+
+00:09:32.330 --> 00:09:36.557
+É assim que se sente ao ser, tipo,
+uma caloura na faculdade,
+
+00:09:36.557 --> 00:09:41.781
+e também a, tipo, dor de cabeça
+que você está sentindo através de mim
+
+00:09:41.781 --> 00:09:48.200
+é, tipo, o efeito residual das doses
+de Jell-O que tomei ontem à noite
+
+00:09:48.200 --> 00:09:51.115
+na festa bi-semanal feminista
+da "dança do pole",
+
+00:09:51.115 --> 00:09:54.157
+da qual sou coanfitriã às quartas-feiras.
+
+00:09:54.157 --> 00:09:59.389
+Chama-se "Não seja tão Pole-mica"...
+(Risos)
+
+00:09:59.389 --> 00:10:02.092
+e acontece no Beekman Hall,
+
+00:10:02.092 --> 00:10:04.250
+e, o que mais, tipo,
+
+00:10:04.250 --> 00:10:08.297
+doses de Jell-O sem álcool também
+são servidas para veganos,
+
+00:10:08.297 --> 00:10:12.660
+e, tipo, claro, totalmente, sim,
+
+00:10:12.660 --> 00:10:17.270
+deveríamos focar suas perguntas, também.
+
+00:10:17.270 --> 00:10:22.182
+Para os seus registros, meu curso,
+tipo, é em Trabalho Sexual
+
+00:10:22.182 --> 00:10:24.457
+com habilitação em mídias sociais
+
+00:10:24.457 --> 00:10:27.151
+com a concentração
+nos notáveis memes do Youtube.
+
+00:10:27.151 --> 00:10:29.289
+(Risos)
+
+00:10:29.699 --> 00:10:33.490
+Sim, bem, claro, tipo,
+eu me considero, tipo,
+
+00:10:33.490 --> 00:10:35.579
+obviamente, tipo, feminista.
+
+00:10:35.579 --> 00:10:40.571
+Eu recebi o nome de Bella Abzug,
+que foi, tipo, uma famosa, tipo,
+
+00:10:40.571 --> 00:10:42.986
+feminista na história,
+
+00:10:42.986 --> 00:10:49.255
+e, tipo, sinto que é, tipo, importante,
+tipo, representar mulheres
+
+00:10:49.255 --> 00:10:52.945
+que são, tipo, feministas sexo-positivas.
+
+00:10:53.844 --> 00:10:56.941
+O que é sexo-negativa?
+
+00:10:56.941 --> 00:11:01.399
+Bem, tipo, acho que eu perguntaria,
+tipo, o que você acha
+
+00:11:01.399 --> 00:11:04.417
+que é sexo-negativo? (Risos)
+
+00:11:04.417 --> 00:11:09.314
+Sim, porque, tipo, os termos que usamos
+são, tipo, tão importantes, porque, tipo,
+
+00:11:09.314 --> 00:11:16.352
+chamamos de trabalho sexual porque ajuda
+pessoas a entender que, tipo, é trabalho
+
+00:11:16.352 --> 00:11:21.228
+e, tipo, sabe, assim como existem, tipo,
+provedores de cuidados com a saúde
+
+00:11:21.228 --> 00:11:23.712
+e, tipo, provedores de seguros,
+
+00:11:23.712 --> 00:11:29.401
+tipo, pensamos nesses profissionais como,
+tipo, provedores de cuidados sexuais.
+
+00:11:30.111 --> 00:11:34.184
+Sim, mas tipo, não me vejo como tipo,
+fornecendo serviços diretos
+
+00:11:34.184 --> 00:11:38.433
+de cuidados sexuais assim dito, tipo,
+sendo um requisito
+
+00:11:38.433 --> 00:11:40.894
+para eu ser, tipo, uma defensora.
+
+00:11:40.894 --> 00:11:44.563
+Tipo, apoio os direitos das mulheres
+de escolher isso voluntariamente, tipo,
+
+00:11:44.563 --> 00:11:46.676
+se elas curtirem.
+
+00:11:46.676 --> 00:11:49.509
+Sim, mas, tipo, me vejo seguindo adiante
+
+00:11:49.509 --> 00:11:54.037
+muito provavelmente, tipo, protegendo
+as liberdades e direitos legais,
+
+00:11:54.037 --> 00:11:56.288
+tipo, dos profissionais sexuais.
+
+00:11:56.288 --> 00:12:01.523
+Sim, então, tipo, basicamente,
+estou planejando me tornar advogada.
+
+00:12:01.523 --> 00:12:03.835
+Certo, turma. (Risos) (Aplausos)
+
+00:12:03.835 --> 00:12:07.921
+Esses dois próximos módulos
+também são próximos de 2016.
+
+00:12:07.921 --> 00:12:11.175
+uma das entrevistadas é uma irlandesa
+com uma relação
+
+00:12:11.175 --> 00:12:14.657
+particularmente notável a esse tema,
+
+00:12:14.657 --> 00:12:18.509
+mas primeiro falaremos
+com uma indiana ocidental,
+
+00:12:18.509 --> 00:12:20.831
+que se descreve como acompanhante,
+
+00:12:20.831 --> 00:12:26.241
+que foi gravada no protesto e desfile
+sobre direitos das profissionais do sexo.
+
+00:12:26.241 --> 00:12:30.562
+Ela foi entrevistada enquanto desfilava
+com ornamento de carnaval na cabeça
+
+00:12:30.562 --> 00:12:32.950
+e quase nada mais.
+
+00:12:35.765 --> 00:12:38.379
+Certo, querem que eu comece a falar agora.
+
+00:12:38.379 --> 00:12:41.509
+Sim, disse a vocês, podem colocar
+esses fios onde bem entenderem
+
+00:12:41.509 --> 00:12:44.536
+desde que eles não atrapalhem.
+
+00:12:45.164 --> 00:12:50.069
+Sim, não, mas, diga novamente
+o seu nome de... BERT? BERT.
+
+00:12:50.069 --> 00:12:53.378
+Sim, eu estava dizendo, sabem,
+acho que em toda minha carreira
+
+00:12:53.378 --> 00:12:56.797
+tive pelo menos um cliente com esse nome,
+então não será a primeira vez
+
+00:12:56.797 --> 00:12:59.396
+que tive um BERT em cima de mim.
+
+00:13:03.575 --> 00:13:04.728
+Oh, desculpe,
+
+00:13:04.728 --> 00:13:08.100
+mas você tem que entrar no espírito
+da coisa se vai me entrevistar.
+
+00:13:08.100 --> 00:13:10.006
+Certo? Pode dizer.
+
+00:13:10.006 --> 00:13:12.964
+Nenhuma justiça, nenhum pedaço!
+Nenhuma justiça, nenhum pedaço!
+
+00:13:12.964 --> 00:13:18.878
+Mas vê o sinal? Entendeu? P-E-D-A-Ç-O.
+Nenhuma justiça, nenhum pedaço de nós.
+
+00:13:18.878 --> 00:13:20.000
+Entende?
+
+00:13:20.000 --> 00:13:23.244
+Certo, essa é a parte
+na qual eu estava dizendo a você
+
+00:13:23.244 --> 00:13:27.609
+que quando vim para esse país,
+aceitei todo o emprego que pude encontrar.
+
+00:13:27.609 --> 00:13:32.299
+Eu fui babá; fui cuidadora
+de vários idosos diferentes,
+
+00:13:32.299 --> 00:13:36.422
+e então eu disse: "Se tiver que tocar
+no traseiro de outro branquelo,
+
+00:13:36.422 --> 00:13:41.211
+mereço ganhar muito mais
+do que isso, entende?
+
+00:13:41.211 --> 00:13:44.490
+Sabe o quanto é difícil ser doméstica?
+
+00:13:44.490 --> 00:13:46.729
+Alguns desses homens são pesados.
+
+00:13:46.729 --> 00:13:49.528
+Você precisa levantá-los
+e virá-los para o outro lado.
+
+00:13:49.528 --> 00:13:53.986
+Agora, deixo que eles me peguem
+e me virem do outro lado, entendeu?
+
+00:13:53.986 --> 00:13:57.399
+Bem, acho que você tem que ter
+senso de humor pra isso.
+
+00:13:57.399 --> 00:13:59.349
+Não, mas veja, escute,
+
+00:13:59.349 --> 00:14:02.739
+encontre-me alguém que não odeia
+alguma coisa no seu trabalho.
+
+00:14:02.739 --> 00:14:06.912
+Tem muita coisa nesse trabalho que odeio,
+mas o dinheiro não é uma delas,
+
+00:14:06.912 --> 00:14:09.891
+e digo a você, com tanto que essa seja
+a melhor possibilidade
+
+00:14:09.891 --> 00:14:11.655
+para que eu ganhar dinheiro,
+
+00:14:11.655 --> 00:14:15.811
+vou ser Jamaicana-Nada-Falsa
+se é isso que querem me chamar.
+
+00:14:15.811 --> 00:14:19.318
+Não, eu nem sou da Jamaica.
+É assim que eles me promovem.
+
+00:14:19.318 --> 00:14:22.845
+Minha família é de Trinidad
+e as Ilhas Virgens.
+
+00:14:22.845 --> 00:14:25.711
+Eles não sabem o que eu faço,
+mas quer saber?
+
+00:14:25.711 --> 00:14:28.977
+Meus filhos sabem
+que a escola deles é paga,
+
+00:14:28.977 --> 00:14:31.484
+eles têm os livros e computador deles,
+
+00:14:31.484 --> 00:14:34.456
+e desse modo, sei que terão uma chance.
+
+00:14:34.456 --> 00:14:37.266
+Então vou dizer o que faço, é fácil.
+
+00:14:37.266 --> 00:14:41.398
+Vou dizer que me sinto...
+o que foi que você disse, livre?
+
+00:14:41.398 --> 00:14:45.260
+Mas vou dizer a você que me sinto paga.
+
+00:14:46.060 --> 00:14:48.419
+(Aplausos) Certo.
+
+00:14:50.872 --> 00:14:53.496
+Obrigada, que gentileza,
+só uma xícara de chá, querido,
+
+00:14:53.496 --> 00:14:55.470
+e um pouquinho de uísque.
+
+00:14:55.470 --> 00:15:00.200
+Está perfeito, ficou ótimo.
+Só mais uma gota. Um bocado. Perfeito.
+
+00:15:00.200 --> 00:15:03.550
+Qual era o seu nome? Peter?
+É isso, então, Peter?
+
+00:15:03.550 --> 00:15:06.708
+Certo. Essa é a parte singular para mim,
+
+00:15:06.708 --> 00:15:09.401
+que acabei em ambos.
+
+00:15:10.281 --> 00:15:14.550
+Primeiro no convento e depois
+na prostituição. Isso mesmo.
+
+00:15:14.550 --> 00:15:16.160
+(Risos)
+
+00:15:16.160 --> 00:15:20.120
+Uma mulher na universidade aqui em Dublin
+escreveu sobre mim:
+
+00:15:20.120 --> 00:15:25.820
+"Maureen Fitzroy é a personificação
+viva da dicotomia prostituta virgem."
+
+00:15:25.820 --> 00:15:27.341
+Certo? (Risos)
+
+00:15:27.341 --> 00:15:30.359
+Não parece algo que faria você
+ir para o hospital?
+
+00:15:30.359 --> 00:15:33.858
+Bem, tenho essa terrível dicotomia.
+Não parece?
+
+00:15:33.858 --> 00:15:37.119
+Certo. Bem, pra mim, quando era garota,
+tudo começou com meu pai.
+
+00:15:37.119 --> 00:15:40.394
+Quero dizer, metade do tempo,
+quando ele falava com a gente,
+
+00:15:40.394 --> 00:15:44.856
+dizia que éramos idiotas imprestáveis
+e que não tínhamos moral, coisa do tipo.
+
+00:15:44.856 --> 00:15:48.177
+E eu não me fiz nenhum favor.
+
+00:15:48.177 --> 00:15:50.406
+Quando estava com 16 anos,
+
+00:15:50.406 --> 00:15:53.285
+comecei a me envolver
+com um cara mais velho,
+
+00:15:53.285 --> 00:15:56.837
+ele queria que fosse nosso segredinho,
+
+00:15:56.837 --> 00:15:59.535
+e atendi ao pedido dele.
+
+00:16:00.735 --> 00:16:06.172
+Quando meu pai descobriu,
+me mandou direto para o convento.
+
+00:16:06.172 --> 00:16:10.690
+Bem, não, aquele cara mais velho
+ainda ia me encontrar no convento.
+
+00:16:10.690 --> 00:16:12.766
+Sério, ele deixava bilhetes
+
+00:16:12.766 --> 00:16:15.821
+enfiados nos buracos dos tijolos,
+nos fundos da loja de caridade,
+
+00:16:15.821 --> 00:16:17.338
+pra gente se encontrar.
+
+00:16:17.338 --> 00:16:20.915
+E me dizia que ia deixar a mulher dele,
+
+00:16:20.915 --> 00:16:25.141
+e acreditei nele, até ficar grávida.
+
+00:16:25.141 --> 00:16:30.458
+Fiquei, Peter, e deixei um recado
+pra ele no nosso local especial,
+
+00:16:30.458 --> 00:16:33.477
+e nunca mais tive notícias dele.
+
+00:16:33.477 --> 00:16:38.960
+Não, eu o entreguei pra adoção
+pra que ele tivesse uma vida decente,
+
+00:16:38.960 --> 00:16:42.485
+e aí não me deixaram voltar
+para o convento.
+
+00:16:42.485 --> 00:16:46.273
+Não, minha única irmã Virgínia
+me deu dinheiro para o ônibus para Dublin,
+
+00:16:46.273 --> 00:16:48.351
+e foi assim que vim parar aqui.
+
+00:16:48.361 --> 00:16:53.120
+Bem, grande surpresa: me apaixonei
+por um cara bem mais velho do que eu,
+
+00:16:53.120 --> 00:16:59.019
+e sempre digo que fiquei tão feliz
+porque ele não bebia,
+
+00:16:59.019 --> 00:17:01.682
+que me casei com o desgraçado.
+
+00:17:02.062 --> 00:17:06.564
+Ele não bebia, mas tinha um probleminha
+com heroína, não tinha?
+
+00:17:06.564 --> 00:17:09.279
+Isso mesmo, e sem que me desse conta,
+
+00:17:09.279 --> 00:17:13.573
+foi ele que me apresentou
+à prostituição, meu próprio marido!
+
+00:17:13.573 --> 00:17:17.504
+Ele me fez sustentar a nós dois.
+Eu tinha 18 anos.
+
+00:17:17.504 --> 00:17:21.089
+Bem, não foi nada
+como "Uma Linda Mulher", posso garantir.
+
+00:17:22.509 --> 00:17:24.356
+Aquela Julia Roberts,
+
+00:17:25.136 --> 00:17:29.289
+se ela tivesse que dormir com um homem
+para colocar umas libras no bolso dela,
+
+00:17:29.289 --> 00:17:32.110
+não acho que teria feito aquele filme.
+
+00:17:32.110 --> 00:17:34.339
+Bem, para os seus registros,
+
+00:17:34.339 --> 00:17:38.290
+minha opinião sobre a legalização,
+eu diria que sou contra.
+
+00:17:38.290 --> 00:17:40.864
+Não me importa
+o que essas garotas jovens dizem.
+
+00:17:40.864 --> 00:17:43.975
+Sabe, viver desse jeito...
+você está perdida,
+
+00:17:43.975 --> 00:17:46.483
+e, sabe, eu tenho 63 anos.
+
+00:17:46.483 --> 00:17:49.163
+Ainda estou tentando descobrir
+quem eu sou.
+
+00:17:49.163 --> 00:17:53.240
+Eu nunca fui esposa ou freira,
+
+00:17:53.240 --> 00:17:56.560
+nem mesmo prostituta, não mesmo.
+
+00:17:56.560 --> 00:17:59.648
+Ninguém nunca me perguntou
+quem eu queria ser.
+
+00:17:59.648 --> 00:18:01.482
+Eles só me disseram.
+
+00:18:01.482 --> 00:18:03.433
+Se vocês legalizarem isso,
+
+00:18:03.433 --> 00:18:07.264
+estarão dizendo a essas garotas:
+"Vão e se percam para se manter",
+
+00:18:07.264 --> 00:18:09.872
+e muitas delas farão o que disserem.
+
+00:18:10.292 --> 00:18:15.299
+Então, quatro perspectivas
+de quatro bem... (Aplausos)
+
+00:18:15.299 --> 00:18:17.829
+quatro vozes bem diferentes, certo?
+
+00:18:17.829 --> 00:18:22.566
+Uma mulher dizendo que sexo é natural,
+mas a indústria do sexo meio que parece
+
+00:18:22.566 --> 00:18:24.794
+mecanizá-lo e industrializá-lo.
+
+00:18:24.794 --> 00:18:29.162
+A segunda mulher considerou o trabalho
+com o sexo capacitador,
+
+00:18:29.162 --> 00:18:32.991
+libertador e feminista, apesar
+de que ela mesma, particularmente,
+
+00:18:32.991 --> 00:18:35.568
+não pareceu muito a fim de fazer isso.
+
+00:18:35.568 --> 00:18:39.725
+A terceira mulher, que era, na verdade,
+a chamada "profissional do sexo"
+
+00:18:39.725 --> 00:18:42.990
+não concordou que isso era libertador,
+mas ela queria o direito
+
+00:18:42.990 --> 00:18:44.730
+à emancipação econômica.
+
+00:18:44.730 --> 00:18:48.082
+Depois ouvimos a quarta mulher
+dizendo não apenas que a prostituição,
+
+00:18:48.082 --> 00:18:50.678
+mas os papéis proscritos
+para mulheres em geral,
+
+00:18:50.678 --> 00:18:54.008
+a impediram de descobrir
+quem ela era, certo?
+
+00:18:54.008 --> 00:18:56.395
+Outro fato que muita gente não sabia
+
+00:18:56.395 --> 00:19:01.760
+era a idade média de uma garota em risco
+sendo apresentada à indústria do sexo,
+
+00:19:01.760 --> 00:19:03.760
+de 12 ou 13 anos.
+
+00:19:03.760 --> 00:19:07.236
+Também considerem a idade de
+todas essas garotas nessa sociedade
+
+00:19:07.236 --> 00:19:10.941
+quando foram expostas pela primeira vez
+a imagens sexualizadas de mulheres
+
+00:19:10.941 --> 00:19:13.345
+foi um pouco mais cedo, certo?
+
+00:19:13.345 --> 00:19:17.695
+Essa era uma boneca chamada Barbie, certo?
+
+00:19:17.695 --> 00:19:21.882
+Inicialmente achei que era uma ferramenta
+na educação da prevenção à anorexia,
+
+00:19:21.882 --> 00:19:23.142
+(Risos)
+
+00:19:23.142 --> 00:19:26.209
+mas, na verdade,
+ela foi considerada por muitos
+
+00:19:26.209 --> 00:19:30.232
+como um símbolo saudável da feminilidade,
+
+00:19:30.232 --> 00:19:33.685
+e muitas vezes garotas jovens passaram
+a fazer o que se chamava de dieta.
+
+00:19:33.685 --> 00:19:37.854
+Lembram-se disso? Restringir
+a alimentação de propósito
+
+00:19:37.854 --> 00:19:40.174
+a partir dos seis anos de idade,
+e se definir
+
+00:19:40.174 --> 00:19:43.781
+baseadas no poder de atração
+mais ou menos nessa idade. Certo?
+
+00:19:43.781 --> 00:19:45.332
+Sim?
+
+00:19:45.332 --> 00:19:47.756
+Certo, Bradley, certo, um ponto excelente.
+
+00:19:47.756 --> 00:19:52.585
+Havia um mercado lucrativo naquela
+sociedade que convencia todo mundo
+
+00:19:52.585 --> 00:19:56.463
+de que eles precisavam ter uma aparência
+até mesmo para ter uma vida sexual.
+
+00:19:56.463 --> 00:20:01.618
+Mas garotas, especialmente, deveriam
+ser "sensuais" enquanto evitavam
+
+00:20:01.618 --> 00:20:04.970
+ser vistas como "vagabundas"
+por serem sensuais. Certo?
+
+00:20:04.970 --> 00:20:07.067
+Existe aquela vergonha
+da qual ouvimos falar.
+
+00:20:07.067 --> 00:20:08.549
+Sim.
+
+00:20:08.549 --> 00:20:10.696
+Valerie, certo? Muito bem.
+
+00:20:10.696 --> 00:20:15.444
+Claro, homens também estavam fazendo sexo,
+mas vocês se lembrarão da leitura,
+
+00:20:15.444 --> 00:20:18.005
+como os homens "galinhas" eram chamados?
+
+00:20:18.005 --> 00:20:23.351
+Isso mesmo, eram chamados de homens.
+(Risos) (Aplausos)
+
+00:20:23.351 --> 00:20:28.249
+Não era fácil viver
+em um mundo como esse, certo?
+
+00:20:28.249 --> 00:20:30.711
+Mas não era uma má notícia também.
+
+00:20:30.711 --> 00:20:34.217
+Muitas mulheres no início dos anos 2000
+se consideravam capacitadas,
+
+00:20:34.217 --> 00:20:37.940
+e os homens geralmente sentiam
+que haviam evoluído nessa área.
+
+00:20:37.940 --> 00:20:41.300
+Na verdade, muitas pessoas
+estavam cientes desses problemas,
+
+00:20:41.300 --> 00:20:43.235
+como o tráfico de pessoas,
+
+00:20:43.235 --> 00:20:45.636
+mas teriam visto isso
+como algo totalmente separado
+
+00:20:45.636 --> 00:20:48.427
+do entretenimento adulto de passatempo.
+
+00:20:48.427 --> 00:20:51.030
+Então seremos breves, turma...
+não temos muito tempo...
+
+00:20:51.030 --> 00:20:53.775
+vamos ouvir brevemente um homem
+
+00:20:53.775 --> 00:20:55.839
+falar sobre nosso tópico nesse ponto.
+
+00:20:55.839 --> 00:21:01.474
+Este foi entrevistado
+na noite de sua festa de solteiro.
+
+00:21:03.036 --> 00:21:06.979
+Cara, vocês podem falar mais baixo?
+
+00:21:06.979 --> 00:21:09.185
+Estou tentando falar com o BERT agora.
+
+00:21:09.185 --> 00:21:11.258
+Oh, seu nome não é BERT!
+
+00:21:11.258 --> 00:21:13.573
+BERT é o nome do... oh, certo.
+
+00:21:13.573 --> 00:21:16.638
+Não, não, está tudo bem.
+
+00:21:16.638 --> 00:21:19.473
+Estou bem sóbrio, não, é,
+eu só quero ser útil.
+
+00:21:20.073 --> 00:21:23.892
+E eu totalmente acredito em causas,
+tipo, todas essas coisas.
+
+00:21:23.892 --> 00:21:25.332
+(Risos)
+
+00:21:25.332 --> 00:21:29.004
+E, na verdade, estou usando Toms agora.
+(Risos)
+
+00:21:29.004 --> 00:21:32.560
+Sim, Toms, tipo, os sapatos,
+
+00:21:32.560 --> 00:21:36.627
+tipo, você compra um par e aí uma criança
+na África recebe água potável.
+
+00:21:36.627 --> 00:21:38.394
+É. Totalmente.
+
+00:21:38.394 --> 00:21:41.181
+Mas qual era mesmo a pergunta? Desculpe.
+
+00:21:41.181 --> 00:21:45.889
+Claro que acredito nos direitos da mulher.
+Estou me casando com uma.
+
+00:21:45.889 --> 00:21:48.389
+(Risos)
+
+00:21:48.389 --> 00:21:52.018
+Não, só porque estou no estacionamento
+de uma boate de striptease
+
+00:21:52.018 --> 00:21:55.042
+não significa que eu seja, tipo,
+sexista ou coisa assim.
+
+00:21:55.042 --> 00:21:59.454
+Minha noiva é totalmente incrível,
+ela é uma garota poderosa, mulher,
+
+00:21:59.454 --> 00:22:01.949
+inteligente, tipo, a coisa toda.
+
+00:22:01.949 --> 00:22:04.908
+Sim, ela sabe que estou aqui
+e deve estar numa boate agora,
+
+00:22:04.908 --> 00:22:07.120
+tipo, como uma brincadeira, como eu.
+
+00:22:07.120 --> 00:22:10.322
+Eu disse ao meu padrinho
+que ele poderia me surpreender,
+
+00:22:10.322 --> 00:22:14.250
+e ele achou que isso seria hilário,
+mas não é algo que...
+
+00:22:14.250 --> 00:22:16.850
+Nós todos estudamos
+na mesma Escola de Negócios.
+
+00:22:16.850 --> 00:22:18.400
+Wharton.
+
+00:22:18.400 --> 00:22:19.894
+(Risos)
+
+00:22:19.894 --> 00:22:22.171
+Então, cara, vocês podem...
+
+00:22:22.171 --> 00:22:24.357
+Certo, mas é minha despedida de solteiro,
+
+00:22:24.357 --> 00:22:28.265
+e posso ficar no estacionamento
+com Anderson Cooper, se quiser, falou?
+
+00:22:28.265 --> 00:22:30.896
+Certo, vejo vocês lá.
+
+00:22:30.896 --> 00:22:33.214
+Certo, então Anderson,
+
+00:22:33.214 --> 00:22:37.111
+então, tipo, primeiro, fazer striptease,
+
+00:22:37.111 --> 00:22:39.725
+mas, tipo, as outras coisas
+que você estava falando,
+
+00:22:39.725 --> 00:22:42.823
+prostituição e tudo o mais,
+isso não é a mesma coisa.
+
+00:22:42.823 --> 00:22:46.769
+Sabe? Tipo, você continua chamando
+isso de indústria do sexo ou o que for,
+
+00:22:46.769 --> 00:22:50.605
+mas é, tipo, se a garota
+quer ser uma dançarina exótica
+
+00:22:50.605 --> 00:22:54.072
+e ela tem 18 anos, é o direito dela.
+
+00:22:55.092 --> 00:22:58.340
+Espera aí, eu entendo,
+mas sinto que as pessoas
+
+00:22:58.340 --> 00:23:01.976
+querem fazer parecer que todos
+os caras são, tipo, predadores
+
+00:23:01.976 --> 00:23:05.114
+e iríamos automaticamente
+procurar uma prostituta ou coisa assim.
+
+00:23:05.114 --> 00:23:10.140
+Mesmo, tipo, quando eu jurei,
+tipo, na cerimônia do grêmio.
+
+00:23:10.140 --> 00:23:13.337
+Meus irmãos mais próximos,
+são todos caras como eu.
+
+00:23:13.337 --> 00:23:17.290
+Somos pessoas normais, mas, tipo,
+existe um mito de que devemos
+
+00:23:17.290 --> 00:23:21.928
+ser um cara tipo babaca, tipo,
+todos os manos antes das minas.
+
+00:23:21.928 --> 00:23:26.433
+Na verdade, manos antes das minas,
+não é o que parece ser.
+
+00:23:26.433 --> 00:23:30.300
+É só um jeito maneiro de dizer
+que, tipo, você se importa com os manos
+
+00:23:30.300 --> 00:23:33.046
+e coloca eles em primeiro lugar.
+
+00:23:33.046 --> 00:23:35.576
+Mas, não se pode culpar a mídia, também.
+
+00:23:35.576 --> 00:23:38.110
+Se você assistir "Se Beber, Não Case 2",
+
+00:23:38.110 --> 00:23:40.264
+e acha que aquilo é
+um manual de instruções
+
+00:23:40.264 --> 00:23:42.800
+para a sua vida, tipo,
+não sei o que dizer a você.
+
+00:23:42.800 --> 00:23:44.862
+Sabe? Você não assiste "Identidade Bourne"
+
+00:23:44.862 --> 00:23:49.106
+e sai dirigindo seu carro por cima
+de uma gôndola em Veneza! (Risos)
+
+00:23:49.736 --> 00:23:54.746
+Bem, certo, se você é uma criancinha
+ou coisa assim, claro é diferente, mas...
+
+00:23:54.746 --> 00:23:59.060
+Sim, certo, me lembro de uma coisa dessas.
+
+00:23:59.060 --> 00:24:02.480
+Eu estava na casa de um garoto
+uma vez jogando GTA...
+
+00:24:02.920 --> 00:24:05.020
+Grand Theft Auto?
+
+00:24:05.020 --> 00:24:09.413
+Cara, você é do Canadá? (Risos)
+
+00:24:09.413 --> 00:24:12.986
+Que seja, com o Grand Theft Auto,
+
+00:24:12.986 --> 00:24:16.160
+você é, tipo, um cara
+circulando ou coisa assim,
+
+00:24:16.160 --> 00:24:19.092
+e basicamente, tipo,
+quanto mais policiais você matar,
+
+00:24:19.092 --> 00:24:21.763
+mais pontos você ganha, e por aí vai.
+
+00:24:21.763 --> 00:24:24.601
+Mas também, pode encontrar prostitutas
+
+00:24:24.601 --> 00:24:27.798
+e obviamente pode fazer sexo com elas,
+
+00:24:27.798 --> 00:24:32.165
+mas pode, tipo, matar elas
+e pegar a sua grana de volta.
+
+00:24:32.165 --> 00:24:36.466
+Esse garoto atropelou algumas delas
+algumas vezes com o carro dele
+
+00:24:36.466 --> 00:24:39.320
+e conseguiu um monte de pontos.
+
+00:24:39.320 --> 00:24:41.755
+A gente tinha, tipo, uns 10 anos, acho.
+
+00:24:43.295 --> 00:24:45.937
+Foi terrível, na verdade.
+
+00:24:45.937 --> 00:24:52.215
+Não, não acho que eu disse nada,
+só terminei o jogo e fui pra casa.
+
+00:24:52.845 --> 00:24:55.320
+Muito bem, turma,
+houve homens que tiveram
+
+00:24:55.320 --> 00:24:59.335
+mais do que um relacionamento passageiro
+nesse assunto. (Aplausos)
+
+00:24:59.335 --> 00:25:04.220
+O próximo entrevistado se descreve
+como um cafetão convertido e arrependido
+
+00:25:04.220 --> 00:25:08.936
+que se tornou palestrante motivacional,
+instrutor da vida e terapeuta,
+
+00:25:08.936 --> 00:25:12.934
+mas se quiserem saber mais sobre ele,
+terão que assistir à peça toda.
+
+00:25:12.934 --> 00:25:16.060
+Muito obrigada, plateia linda TED.
+
+00:25:16.060 --> 00:25:18.716
+Vejo vocês em "Sell/Buy/Date".
+
+00:25:18.716 --> 00:25:21.837
+(Aplausos)
+

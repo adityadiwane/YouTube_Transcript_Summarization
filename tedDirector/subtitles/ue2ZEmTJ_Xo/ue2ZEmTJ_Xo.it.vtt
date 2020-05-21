@@ -1,0 +1,853 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:07.000
+Traduttore: Anna Cristiana Minoli
+Revisore: Carlo Schiatti
+
+00:00:12.899 --> 00:00:16.566
+Intelligenza, cos'è?
+
+00:00:16.566 --> 00:00:18.857
+Se guardiamo indietro alla storia
+
+00:00:18.857 --> 00:00:21.481
+di come veniva vista l'intelligenza,
+
+00:00:21.481 --> 00:00:25.099
+un esempio fondamentale è stata
+
+00:00:25.099 --> 00:00:28.576
+la famosa citazione di Edsger Dijkstra:
+
+00:00:28.576 --> 00:00:31.687
+"Chiedersi se un computer possa pensare
+
+00:00:31.687 --> 00:00:32.997
+non è più interessante
+
+00:00:32.997 --> 00:00:35.968
+del chiedersi se un sottomarino
+
+00:00:35.968 --> 00:00:37.758
+possa nuotare."
+
+00:00:37.758 --> 00:00:41.602
+Quando Edsger Dijkstra ha scritto questo,
+
+00:00:41.602 --> 00:00:43.656
+lo ha inteso come critica
+
+00:00:43.656 --> 00:00:46.656
+ai primi pionieri dell'informatica,
+
+00:00:46.656 --> 00:00:48.403
+come Alan Turing.
+
+00:00:48.403 --> 00:00:50.902
+Tuttavia, se tornate indietro
+
+00:00:50.902 --> 00:00:52.867
+e pensate a quelle che sono state
+
+00:00:52.867 --> 00:00:54.863
+le più grandi innovazioni
+
+00:00:54.863 --> 00:00:56.742
+che ci hanno permesso di costruire
+
+00:00:56.742 --> 00:00:58.976
+macchine artificiali che nuotano
+
+00:00:58.976 --> 00:01:01.549
+e macchine artificiali che volano,
+
+00:01:01.549 --> 00:01:05.096
+scoprite che è stato solo attraverso la comprensione
+
+00:01:05.096 --> 00:01:07.704
+dei principi fisici sottostanti
+
+00:01:07.704 --> 00:01:10.483
+il nuoto e il volo
+
+00:01:10.483 --> 00:01:13.655
+che siamo stati in grado di costruire queste macchine.
+
+00:01:13.655 --> 00:01:15.911
+Diversi anni fa,
+
+00:01:15.911 --> 00:01:19.160
+mi sono cimentato in un programma 
+per cercare di capire
+
+00:01:19.160 --> 00:01:21.794
+i meccanismi fisici fondamentali
+
+00:01:21.794 --> 00:01:24.562
+alla base dell'intelligenza.
+
+00:01:24.562 --> 00:01:26.422
+Facciamo un passo indietro.
+
+00:01:26.422 --> 00:01:29.571
+Cominciamo con un esperimento del pensiero.
+
+00:01:29.571 --> 00:01:32.425
+Fate finta di essere una razza aliena
+
+00:01:32.425 --> 00:01:35.466
+che non sa niente della biologia della Terra
+
+00:01:35.466 --> 00:01:38.582
+o di neuroscienza o intelligenza della Terra,
+
+00:01:38.582 --> 00:01:40.774
+ma di avere meravigliosi telescopi
+
+00:01:40.774 --> 00:01:43.136
+di essere in grado di guardare la Terra,
+
+00:01:43.136 --> 00:01:45.468
+di poter vivere molto a lungo
+
+00:01:45.468 --> 00:01:46.967
+e essere in grado di guardare la Terra
+
+00:01:46.967 --> 00:01:50.409
+per milioni o miliardi di anni.
+
+00:01:50.409 --> 00:01:53.424
+Osservate un effetto molto strano.
+
+00:01:53.424 --> 00:01:57.736
+Osservate che nei millenni,
+
+00:01:57.736 --> 00:02:02.021
+la Terra è continuamente bombardata da asteroidi
+
+00:02:02.021 --> 00:02:04.108
+fino a un punto,
+
+00:02:04.108 --> 00:02:05.639
+e a un certo punto,
+
+00:02:05.639 --> 00:02:09.831
+che corrisponde all'incirca al nostro anno 2000,
+
+00:02:09.831 --> 00:02:11.547
+asteroidi che sono
+
+00:02:11.547 --> 00:02:13.478
+in rotta di collisione con la Terra
+
+00:02:13.478 --> 00:02:15.453
+che altrimenti l'avrebbero colpita
+
+00:02:15.453 --> 00:02:17.868
+misteriosamente vengono deviati
+
+00:02:17.868 --> 00:02:20.940
+o esplodono prima di colpire la Terra.
+
+00:02:20.940 --> 00:02:23.023
+Ovviamente, in quanto terrestri,
+
+00:02:23.023 --> 00:02:24.567
+sappiamo che è perché
+
+00:02:24.567 --> 00:02:26.323
+stiamo cercando di salvarci.
+
+00:02:26.323 --> 00:02:29.403
+Stiamo cercando di impedire l'impatto.
+
+00:02:29.403 --> 00:02:31.114
+Ma se siete alieni
+
+00:02:31.114 --> 00:02:32.260
+che non lo sanno,
+
+00:02:32.260 --> 00:02:34.774
+che non hanno idea dell'intelligenza terrestre,
+
+00:02:34.774 --> 00:02:36.502
+sareste costretti a mettere insieme
+
+00:02:36.502 --> 00:02:39.420
+una teoria fisica che spieghi come,
+
+00:02:39.420 --> 00:02:41.958
+fino a un certo punto nel tempo,
+
+00:02:41.958 --> 00:02:46.407
+asteroidi che demolivano la superficie di un pianeta
+
+00:02:46.407 --> 00:02:49.638
+misteriosamente smettono di farlo.
+
+00:02:49.638 --> 00:02:53.842
+Sostengo che sia come
+
+00:02:53.842 --> 00:02:57.840
+cercare di capire la natura fisica dell'intelligenza.
+
+00:02:57.840 --> 00:03:01.722
+In questo programma che ho iniziato diversi anni fa,
+
+00:03:01.722 --> 00:03:04.487
+ho osservato diverse teorie
+
+00:03:04.487 --> 00:03:07.649
+scientifiche, di diverse discipline,
+
+00:03:07.649 --> 00:03:09.541
+che puntavano, credo,
+
+00:03:09.541 --> 00:03:12.089
+verso un singolo meccanismo alla base
+
+00:03:12.089 --> 00:03:13.670
+dell'intelligenza.
+
+00:03:13.670 --> 00:03:16.216
+In cosmologia, per esempio,
+
+00:03:16.216 --> 00:03:18.963
+ci sono stati diverse prove a sostegno del fatto
+
+00:03:18.963 --> 00:03:22.370
+che il nostro universo appare sintonizzato
+
+00:03:22.370 --> 00:03:24.523
+per lo sviluppo dell'intelligenza,
+
+00:03:24.523 --> 00:03:26.912
+e, in particolare, per lo sviluppo
+
+00:03:26.912 --> 00:03:28.798
+di stati universali
+
+00:03:28.798 --> 00:03:32.896
+che massimizzano la diversità di possibili futuri.
+
+00:03:32.896 --> 00:03:35.240
+Nel gioco, per esempio, in Go --
+
+00:03:35.240 --> 00:03:38.265
+tutti ricordano nel 1997
+
+00:03:38.265 --> 00:03:42.216
+quando Deep Blue di IBM 
+ha battuto Garry Kasparov a scacchi --
+
+00:03:42.216 --> 00:03:43.739
+pochi sanno
+
+00:03:43.739 --> 00:03:45.757
+che negli ultimi 10 anni,
+
+00:03:45.757 --> 00:03:46.955
+il gioco Go,
+
+00:03:46.955 --> 00:03:48.911
+probabilmente un gioco molto più impegnativo
+
+00:03:48.911 --> 00:03:51.336
+perché ha molti più diramazioni possibili,
+
+00:03:51.336 --> 00:03:53.038
+ha anche lui iniziato a soccombere
+
+00:03:53.038 --> 00:03:54.903
+di fronte a avversari computer
+
+00:03:54.903 --> 00:03:56.476
+per lo stesso motivo:
+
+00:03:56.476 --> 00:03:59.276
+oggi le migliori tecniche 
+per i computer che giocano a Go
+
+00:03:59.276 --> 00:04:02.972
+sono tecniche che cercano di massimizzare 
+le opzioni future
+
+00:04:02.972 --> 00:04:04.986
+durante il gioco.
+
+00:04:04.986 --> 00:04:08.567
+Infine, nella pianificazione 
+delle mosse robotiche,
+
+00:04:08.567 --> 00:04:10.749
+ci sono state diverse tecniche recenti
+
+00:04:10.749 --> 00:04:12.651
+che hanno cercato di trarre vantaggio
+
+00:04:12.651 --> 00:04:15.797
+dalle abilità dei robot per massimizzare
+
+00:04:15.797 --> 00:04:17.303
+la futura libertà di azione
+
+00:04:17.303 --> 00:04:20.400
+allo scopo di compiere compiti complessi.
+
+00:04:20.400 --> 00:04:22.755
+Quindi, prendendo tutte queste diverse teorie
+
+00:04:22.755 --> 00:04:24.377
+e mettendole insieme,
+
+00:04:24.377 --> 00:04:27.017
+diversi anni fa, mi sono chiesto
+
+00:04:27.017 --> 00:04:29.867
+se esistesse un meccanismo alla base dell'intelligenza
+
+00:04:29.867 --> 00:04:31.540
+che possiamo estrarre
+
+00:04:31.540 --> 00:04:33.314
+da queste diverse teorie.
+
+00:04:33.314 --> 00:04:37.907
+Esiste una singola equazione dell'intelligenza?
+
+00:04:37.907 --> 00:04:41.278
+E credo che la risposta sia positiva. 
+["F = T ∇ Sτ"]
+
+00:04:41.278 --> 00:04:43.191
+Quello che vedete è probabilmente
+
+00:04:43.191 --> 00:04:46.485
+quello che più si avvicina a E = mc²
+
+00:04:46.485 --> 00:04:49.315
+per l'intelligenza, che io abbia visto.
+
+00:04:49.315 --> 00:04:51.017
+Quello che vedete qui
+
+00:04:51.017 --> 00:04:53.686
+è una dichiarazione di corrispondenza
+
+00:04:53.686 --> 00:04:58.121
+che l'intelligenza è una forza, F,
+
+00:04:58.121 --> 00:05:02.771
+che agisce per massimizzare la futura 
+libertà di azione.
+
+00:05:02.771 --> 00:05:05.146
+Agisce per massimizzare la futura libertà di azione,
+
+00:05:05.146 --> 00:05:06.774
+o mantenere le opzioni aperte,
+
+00:05:06.774 --> 00:05:08.999
+con una certa forza T,
+
+00:05:08.999 --> 00:05:13.776
+con la diversità di possibili futuri accessibili, S,
+
+00:05:13.776 --> 00:05:16.326
+fino a un certo orizzonte temporale, tau.
+
+00:05:16.326 --> 00:05:19.535
+In breve, all'intelligenza non piace rimanere intrappolata.
+
+00:05:19.535 --> 00:05:22.590
+L'intelligenza cerca di massimizzare 
+la futura libertà di azione
+
+00:05:22.590 --> 00:05:25.263
+e mantenere le opzioni aperte.
+
+00:05:25.263 --> 00:05:27.696
+Quindi, data questa singola equazione,
+
+00:05:27.696 --> 00:05:30.228
+viene naturale chiedersi che cosa farsene.
+
+00:05:30.228 --> 00:05:31.579
+Quanto prevede?
+
+00:05:31.579 --> 00:05:33.714
+Prevede il livello di intelligenza umana?
+
+00:05:33.714 --> 00:05:36.532
+Prevede l'intelligenza artificiale?
+
+00:05:36.532 --> 00:05:38.574
+Vi mostrerò un video
+
+00:05:38.574 --> 00:05:41.994
+che, credo, dimostrerà
+
+00:05:41.994 --> 00:05:44.282
+alcune fantastiche applicazioni
+
+00:05:44.282 --> 00:05:46.601
+di questa singola equazione.
+
+00:05:46.601 --> 00:05:48.580
+(Video) Narratore: Ricerche recenti in cosmologia
+
+00:05:48.580 --> 00:05:50.627
+suggeriscono che universi che producono
+
+00:05:50.627 --> 00:05:54.108
+più disordine, o "entropia", durante la loro vita
+
+00:05:54.108 --> 00:05:56.586
+dovrebbe tendere ad avere condizioni più favorevoli
+
+00:05:56.586 --> 00:05:59.602
+per l'esistenza di esseri intelligenti come siamo noi.
+
+00:05:59.602 --> 00:06:02.176
+E se quella tentata connessione cosmologica
+
+00:06:02.176 --> 00:06:04.019
+tra entropia e intelligenza
+
+00:06:04.019 --> 00:06:05.790
+rivelasse una relazione più profonda?
+
+00:06:05.790 --> 00:06:08.354
+E se il comportamento intelligente non fosse 
+solo legato
+
+00:06:08.354 --> 00:06:10.198
+alla produzione di entropia a lungo termine,
+
+00:06:10.198 --> 00:06:12.516
+ma ne emergesse direttamente?
+
+00:06:12.516 --> 00:06:14.922
+Per scoprirlo, abbiamo sviluppato un software
+
+00:06:14.922 --> 00:06:17.425
+chiamato Entropica, progettato per massimizzare
+
+00:06:17.425 --> 00:06:19.193
+la produzione di entropia a lungo termine
+
+00:06:19.193 --> 00:06:21.769
+di qualunque sistema in cui si trova.
+
+00:06:21.769 --> 00:06:23.924
+Straordinariamente, 
+Entropica è stato in grado di passare
+
+00:06:23.924 --> 00:06:27.380
+molteplici test di intelligenza animale, 
+giocare a giochi per umani,
+
+00:06:27.380 --> 00:06:29.526
+e persino guadagnare in borsa,
+
+00:06:29.526 --> 00:06:31.637
+tutto senza essere istruito a farlo.
+
+00:06:31.637 --> 00:06:34.155
+Ecco alcuni esempi di Entropica in azione.
+
+00:06:34.155 --> 00:06:37.360
+Proprio come un essere umano che sta in piedi 
+senza cadere,
+
+00:06:37.360 --> 00:06:38.590
+qui vediamo Entropica
+
+00:06:38.590 --> 00:06:41.475
+che mantiene automaticamente in equilibrio 
+un palo utilizzando un carrello.
+
+00:06:41.475 --> 00:06:43.487
+Questo comportamento è notevole
+
+00:06:43.487 --> 00:06:45.818
+in parte perché non abbiamo mai dato 
+a Entropica un obiettivo.
+
+00:06:45.818 --> 00:06:48.975
+Decide semplicemente da solo 
+di tenere in equilibrio il palo.
+
+00:06:48.975 --> 00:06:51.107
+Questa capacità di equilibrio avrà applicazioni
+
+00:06:51.107 --> 00:06:52.504
+per i robot umanoidi
+
+00:06:52.504 --> 00:06:55.019
+e tecnologie di assistenza all'uomo.
+
+00:06:55.019 --> 00:06:57.020
+Proprio come alcuni animali possono usare oggetti
+
+00:06:57.020 --> 00:06:58.462
+come strumenti nei loro ambienti
+
+00:06:58.462 --> 00:07:00.449
+per raggiungere spazi ristretti,
+
+00:07:00.449 --> 00:07:02.331
+qui vediamo Entropica,
+
+00:07:02.331 --> 00:07:04.169
+di nuovo di propria iniziativa,
+
+00:07:04.169 --> 00:07:07.079
+in grado di spostare un grande disco 
+che rappresenta un animale
+
+00:07:07.079 --> 00:07:09.424
+così da permettere a un disco piccolo,
+
+00:07:09.424 --> 00:07:12.195
+che rappresenta uno strumento, 
+di raggiungere uno spazio ristretto
+
+00:07:12.195 --> 00:07:13.732
+tenendo un terzo disco
+
+00:07:13.732 --> 00:07:16.704
+e rilasciare il terzo disco 
+dalla sua posizione iniziale fissa.
+
+00:07:16.704 --> 00:07:18.893
+Questa capacità di uso degli strumenti avrà applicazioni
+
+00:07:18.893 --> 00:07:21.252
+per produzioni e agricolture intelligenti.
+
+00:07:21.252 --> 00:07:23.196
+Inoltre, proprio come altri animali
+
+00:07:23.196 --> 00:07:25.892
+sono in grado di cooperare 
+tirando dai lati opposti di una corda
+
+00:07:25.892 --> 00:07:27.945
+nello stesso tempo per rilasciare cibo,
+
+00:07:27.945 --> 00:07:30.240
+qui vediamo che Entropica è in grado di compiere
+
+00:07:30.240 --> 00:07:32.228
+una versione modello di questo compito.
+
+00:07:32.228 --> 00:07:34.750
+Questa capacità di cooperare ha implicazioni interessanti
+
+00:07:34.750 --> 00:07:38.185
+per la pianificazione economica e in diversi altri campi.
+
+00:07:38.185 --> 00:07:40.256
+Entropica è ampiamente applicabile
+
+00:07:40.256 --> 00:07:42.199
+a tutta una serie di settori.
+
+00:07:42.199 --> 00:07:44.641
+Per esempio, qui vediamo che gioca
+
+00:07:44.641 --> 00:07:47.200
+a pong contro se stesso,
+
+00:07:47.200 --> 00:07:49.543
+illustrando il suo potenziale nel gioco.
+
+00:07:49.543 --> 00:07:51.462
+Qui vediamo Entropica che orchestra
+
+00:07:51.462 --> 00:07:53.301
+nuove connessioni in un social network
+
+00:07:53.301 --> 00:07:56.061
+i cui amici si perdono continuamente di vista
+
+00:07:56.061 --> 00:07:58.917
+e mantiene la rete ben connessa.
+
+00:07:58.917 --> 00:08:01.215
+Questa stessa capacità di orchestrazione della rete
+
+00:08:01.215 --> 00:08:03.543
+ha anche applicazioni nella sanità,
+
+00:08:03.543 --> 00:08:06.775
+nell'energia e nell'intelligenza.
+
+00:08:06.775 --> 00:08:08.860
+Qui vediamo Entropica che guida il percorso
+
+00:08:08.860 --> 00:08:10.346
+di una flotta di navi,
+
+00:08:10.346 --> 00:08:13.521
+scoprendo e utilizzando il Canale di Panama
+
+00:08:13.521 --> 00:08:15.979
+per estendere globalmente la sua portata dall'Atlantico
+
+00:08:15.979 --> 00:08:17.508
+al Pacifico.
+
+00:08:17.508 --> 00:08:19.235
+Con lo stesso metodo, Entropica
+
+00:08:19.235 --> 00:08:20.855
+è ampiamente applicabile a problemi
+
+00:08:20.855 --> 00:08:26.157
+di autodifesa, logistica e trasporti.
+
+00:08:26.173 --> 00:08:28.203
+Infine, qui vediamo Entropica
+
+00:08:28.203 --> 00:08:30.926
+che scopre spontaneamente e esegue
+
+00:08:30.926 --> 00:08:32.993
+una strategia di acquisto a prezzi bassi 
+e vendita a prezzi alti
+
+00:08:32.993 --> 00:08:35.171
+su una serie di titoli finanziari simulati,
+
+00:08:35.171 --> 00:08:37.502
+accrescendo con successo i titoli sotto controllo
+
+00:08:37.502 --> 00:08:38.926
+in maniera esponenziale.
+
+00:08:38.926 --> 00:08:40.234
+Questa capacità di gestione del rischio
+
+00:08:40.234 --> 00:08:42.721
+avrà ampie applicazioni in finanza
+
+00:08:42.721 --> 00:08:46.049
+e nelle assicurazioni.
+
+00:08:46.049 --> 00:08:48.140
+Alex Wissner-Gross: Avete appena visto che
+
+00:08:48.140 --> 00:08:52.532
+una varietà di comportamenti cognitivi
+
+00:08:52.532 --> 00:08:54.289
+tipici dell'intelligenza umana
+
+00:08:54.289 --> 00:08:57.120
+come l'uso degli strumenti, camminare eretti
+
+00:08:57.120 --> 00:08:59.149
+e la cooperazione
+
+00:08:59.149 --> 00:09:02.121
+derivano tutti da una singola equazione,
+
+00:09:02.121 --> 00:09:04.053
+che guida un sistema
+
+00:09:04.053 --> 00:09:07.964
+per massimizzare la futura libertà di azione.
+
+00:09:07.964 --> 00:09:10.971
+C'è una profonda ironia in tutto questo.
+
+00:09:10.971 --> 00:09:12.995
+Tornare agli inizi
+
+00:09:12.995 --> 00:09:16.268
+dell'uso del termine robot,
+
+00:09:16.268 --> 00:09:19.171
+il gioco "RUR";
+
+00:09:19.171 --> 00:09:21.406
+c'è sempre stato un concetto
+
+00:09:21.406 --> 00:09:24.632
+per cui se sviluppiamo l'intelligenza delle macchine,
+
+00:09:24.632 --> 00:09:27.659
+ci sarà una rivolta cibernetica.
+
+00:09:27.659 --> 00:09:31.210
+Le macchine si solleveranno contro di noi.
+
+00:09:31.210 --> 00:09:33.529
+Un'importante conseguenza di questo lavoro
+
+00:09:33.529 --> 00:09:36.298
+è che forse in tutti questi decenni,
+
+00:09:36.298 --> 00:09:39.274
+abbiamo visto al contrario l'intero concetto
+
+00:09:39.274 --> 00:09:41.285
+della rivolta cibernetica.
+
+00:09:41.285 --> 00:09:44.564
+Non sono le macchine a diventare prima intelligenti
+
+00:09:44.564 --> 00:09:46.579
+e poi megalomani
+
+00:09:46.579 --> 00:09:48.803
+che cercano di controllare il mondo.
+
+00:09:48.803 --> 00:09:50.237
+È l'opposto.
+
+00:09:50.237 --> 00:09:53.143
+Il desiderio di prendere il controllo
+
+00:09:53.143 --> 00:09:55.404
+di tutti i possibili futuri
+
+00:09:55.404 --> 00:09:57.522
+è un principio più fondamentale
+
+00:09:57.522 --> 00:09:58.885
+di quello dell'intelligenza,
+
+00:09:58.885 --> 00:10:02.585
+che l'intelligenza generale potrebbe di fatto emergere
+
+00:10:02.585 --> 00:10:06.144
+direttamente da questa specie di controllo,
+
+00:10:06.144 --> 00:10:10.329
+invece che viceversa.
+
+00:10:10.329 --> 00:10:14.098
+Un'altra importante conseguenza 
+è il perseguimento di un obiettivo.
+
+00:10:14.098 --> 00:10:18.458
+Mi viene spesso chiesto, come la capacità 
+di perseguire un obiettivo
+
+00:10:18.458 --> 00:10:20.078
+derivi da questa specie di quadro.
+
+00:10:20.078 --> 00:10:23.106
+La risposta è che 
+la capacità di perseguire un obiettivo
+
+00:10:23.106 --> 00:10:24.988
+ne deriva direttamente
+
+00:10:24.988 --> 00:10:26.822
+in questo senso:
+
+00:10:26.822 --> 00:10:29.687
+così come viaggereste attraverso un tunnel,
+
+00:10:29.687 --> 00:10:32.192
+un collo di bottiglia nel vostro futuro percorso,
+
+00:10:32.192 --> 00:10:34.063
+per poter raggiungere
+
+00:10:34.063 --> 00:10:36.084
+molti altri obiettivi più avanti,
+
+00:10:36.084 --> 00:10:38.456
+o così come investireste
+
+00:10:38.456 --> 00:10:40.243
+in titoli finanziari,
+
+00:10:40.243 --> 00:10:42.480
+riducendo la vostra liquidità a breve termine
+
+00:10:42.480 --> 00:10:44.880
+per poter aumentare la vostra ricchezza 
+nel lungo termine,
+
+00:10:44.880 --> 00:10:47.217
+il perseguimento di un obiettivo 
+emerge direttamente
+
+00:10:47.217 --> 00:10:48.946
+dalla spinta a lungo termine
+
+00:10:48.946 --> 00:10:52.983
+ad aumentare la futura libertà di azione.
+
+00:10:52.983 --> 00:10:56.511
+Infine, Richard Feynman, un famoso fisico,
+
+00:10:56.511 --> 00:11:00.183
+ha scritto una volta che se la civiltà umana 
+venisse distrutta
+
+00:11:00.183 --> 00:11:02.076
+e potesse trasmettere un singolo concetto
+
+00:11:02.076 --> 00:11:03.447
+alla propria discendenza
+
+00:11:03.447 --> 00:11:05.754
+per aiutarla a ricostruire la civiltà,
+
+00:11:05.754 --> 00:11:07.440
+quel concetto dovrebbe essere
+
+00:11:07.440 --> 00:11:09.292
+che tutta la materia che ci circonda
+
+00:11:09.292 --> 00:11:11.615
+è costituita di minuscoli elementi
+
+00:11:11.615 --> 00:11:14.123
+che si attraggono l'un l'altro quando sono lontani,
+
+00:11:14.123 --> 00:11:17.453
+ma si respingono quando sono vicini.
+
+00:11:17.453 --> 00:11:19.234
+Il mio equivalente di quella dichiarazione
+
+00:11:19.234 --> 00:11:20.502
+da passare alla discendenza
+
+00:11:20.502 --> 00:11:23.214
+per aiutarla a costruire l'intelligenza artificiale
+
+00:11:23.214 --> 00:11:26.163
+o per aiutarla a capire l'intelligenza umana,
+
+00:11:26.163 --> 00:11:27.430
+è la seguente:
+
+00:11:27.430 --> 00:11:29.483
+l'intelligenza dovrebbe essere vista
+
+00:11:29.483 --> 00:11:30.896
+come un processo fisico
+
+00:11:30.896 --> 00:11:33.861
+che cerca di massimizzare la futura libertà di azione
+
+00:11:33.861 --> 00:11:37.477
+e evitare i limiti del proprio futuro.
+
+00:11:37.477 --> 00:11:38.835
+Grazie infinite.
+
+00:11:38.835 --> 00:11:42.835
+(Applausi)
+

@@ -1,0 +1,1076 @@
+WEBVTT
+Kind: captions
+Language: hr
+
+00:00:00.000 --> 00:00:07.000
+Prevoditelj: 
+Recezent: Tilen Pigac - EFZG
+
+00:00:20.260 --> 00:00:22.260
+Dobro jutro.
+
+00:00:22.260 --> 00:00:24.260
+Danas ću govoriti
+
+00:00:24.260 --> 00:00:27.260
+o samoupravljajućim, letećim... loptama za plažu.
+
+00:00:27.260 --> 00:00:31.260
+Ma ne, o okretnim lebdećim robotima poput ovog.
+
+00:00:31.260 --> 00:00:34.260
+Nekoliko riječi o izazovima pri građenju robota
+
+00:00:34.260 --> 00:00:36.260
+kao i mogućnostima koje pruža
+
+00:00:36.260 --> 00:00:38.260
+primjena ove tehnologije.
+
+00:00:38.260 --> 00:00:40.260
+Dakle, ovi roboti
+
+00:00:40.260 --> 00:00:43.260
+su svojevrsne bezpilotne letjelice.
+
+00:00:43.260 --> 00:00:46.260
+Međutim ovdje prikazane letjelice su velike.
+
+00:00:46.260 --> 00:00:48.260
+Budući da teže stotine kilograma、
+
+00:00:48.260 --> 00:00:50.260
+pokretljivost im je otežana.
+
+00:00:50.260 --> 00:00:52.260
+Štoviše nisu niti samoupravljajuće.
+
+00:00:52.260 --> 00:00:54.260
+U stvarnosti, mnoge od ovih letjelica
+
+00:00:54.260 --> 00:00:56.260
+su upravljane stručnim osobljem
+
+00:00:56.260 --> 00:00:59.260
+poput grupe pilota
+
+00:00:59.260 --> 00:01:01.260
+kontrolorima senzora
+
+00:01:01.260 --> 00:01:03.260
+i zapovjednicima misije.
+
+00:01:03.260 --> 00:01:05.260
+Mi smo se pozabavili razvojem robota poput ovih --
+
+00:01:05.260 --> 00:01:07.260
+prikazana su dva primjera
+
+00:01:07.260 --> 00:01:10.260
+robota koji se mogu kupiti u trgovini.
+
+00:01:10.260 --> 00:01:13.260
+Dakle to su helikopteri sa četiri rotora-propelera
+
+00:01:13.260 --> 00:01:17.260
+otprilike promjera jednog metra
+
+00:01:17.260 --> 00:01:19.260
+i teže koji kilogram.
+
+00:01:19.260 --> 00:01:22.260
+Opremili smo ih sa senzorima i procesorima,
+
+00:01:22.260 --> 00:01:24.260
+da bi mogli letjeti u zatvorenom prostoru
+
+00:01:24.260 --> 00:01:26.260
+bez GPSa.
+
+00:01:26.260 --> 00:01:28.260
+Robot kojeg držim
+
+00:01:28.260 --> 00:01:30.260
+...ovaj...
+
+00:01:30.260 --> 00:01:33.260
+su kreirala dva studenta.
+
+00:01:33.260 --> 00:01:35.260
+Alex i Daniel.
+
+00:01:35.260 --> 00:01:37.260
+Težak je jedva
+
+00:01:37.260 --> 00:01:39.260
+40-tak grama
+
+00:01:39.260 --> 00:01:41.260
+i pokreće ga snaga od 15 wati.
+
+00:01:41.260 --> 00:01:43.260
+Kao što možete ocijeniti
+
+00:01:43.260 --> 00:01:45.260
+u promjeru je oko 20 cm.
+
+00:01:45.260 --> 00:01:48.260
+Dopustite da ukratko pojasnim
+
+00:01:48.260 --> 00:01:50.260
+na koji način ovi roboti rade.
+
+00:01:50.260 --> 00:01:52.260
+Robot ima četiri propelera.
+
+00:01:52.260 --> 00:01:54.260
+Ako se svi propeleri okreću istom brzinom
+
+00:01:54.260 --> 00:01:56.260
+robot lebdi u zraku.
+
+00:01:56.260 --> 00:01:59.260
+Kada povećamo okretaje propelera
+
+00:01:59.260 --> 00:02:02.260
+robot se uzdiže.
+
+00:02:02.260 --> 00:02:04.260
+Ako je robot nagnut
+
+00:02:04.260 --> 00:02:06.260
+prema horizontali
+
+00:02:06.260 --> 00:02:09.260
+onda će se kretati u tom smjeru.
+
+00:02:09.260 --> 00:02:12.260
+Evo jednog od dva načina kako nakrenuti robota.
+
+00:02:12.260 --> 00:02:14.260
+Na ovoj slici
+
+00:02:14.260 --> 00:02:16.260
+uočite kako se 4. propeler okreće brže,
+
+00:02:16.260 --> 00:02:18.260
+a 2. propeler se okreće sporije.
+
+00:02:18.260 --> 00:02:20.260
+U tom trenutku
+
+00:02:20.260 --> 00:02:23.260
+robot se nakrene.
+
+00:02:23.260 --> 00:02:25.260
+I drugi način je
+
+00:02:25.260 --> 00:02:28.260
+da povećate brzinu 3. propelera
+
+00:02:28.260 --> 00:02:30.260
+i smanjite brzinu 1. propelera,
+
+00:02:30.260 --> 00:02:33.260
+čime je robot usmjeren prema naprijed.
+
+00:02:33.260 --> 00:02:35.260
+Konačno
+
+00:02:35.260 --> 00:02:37.260
+ako ubrzate dva
+
+00:02:37.260 --> 00:02:39.260
+nasuprotna propelera
+
+00:02:39.260 --> 00:02:41.260
+robot će se okretati oko vertikalne osi.
+
+00:02:41.260 --> 00:02:43.260
+U osnovi, ugrađeni procesor
+
+00:02:43.260 --> 00:02:46.260
+opaža koje kretnje trebaju biti izvršene,
+
+00:02:46.260 --> 00:02:48.260
+usklađuje kretnje
+
+00:02:48.260 --> 00:02:51.260
+te šalje primjerenu naredbu motorima
+
+00:02:51.260 --> 00:02:53.260
+600 puta u sekundi.
+
+00:02:53.260 --> 00:02:55.260
+Tako u osnovi robot radi.
+
+00:02:55.260 --> 00:02:57.260
+Prednost ovakvog dizajna
+
+00:02:57.260 --> 00:02:59.260
+je, da s manjim komponentama
+
+00:02:59.260 --> 00:03:02.260
+robot postaje okretniji.
+
+00:03:02.260 --> 00:03:04.260
+Na ovoj slici R predstavlja
+
+00:03:04.260 --> 00:03:06.260
+karakterističnu duljinu robota.
+
+00:03:06.260 --> 00:03:09.260
+U osnovi to je radius robota.
+
+00:03:09.260 --> 00:03:12.260
+Mnogi fizikalni parametri se mijenjaju
+
+00:03:12.260 --> 00:03:14.260
+kako smanjujemo R.
+
+00:03:14.260 --> 00:03:16.260
+Najvažniji parametar
+
+00:03:16.260 --> 00:03:18.260
+je tromost, ili otpor kretanju.
+
+00:03:18.260 --> 00:03:20.260
+Ispada da je
+
+00:03:20.260 --> 00:03:23.260
+tromost, o kojoj ovisi kretanje pod kutom,
+
+00:03:23.260 --> 00:03:26.260
+proporcionalna R na petu potenciju.
+
+00:03:26.260 --> 00:03:28.260
+Sa smanjivanjem R
+
+00:03:28.260 --> 00:03:31.260
+tromost dramatično pada.
+
+00:03:31.260 --> 00:03:34.260
+To rezultira kutnom akceleracijom
+
+00:03:34.260 --> 00:03:36.260
+označenom grčkim slovom alfa
+
+00:03:36.260 --> 00:03:38.260
+približno 1/R.
+
+00:03:38.260 --> 00:03:40.260
+Dakle, obrnuto proporcionalna s R.
+
+00:03:40.260 --> 00:03:43.260
+Što je robot manji, to je okretniji.
+
+00:03:43.260 --> 00:03:45.260
+Što je očito iz ovih snimki.
+
+00:03:45.260 --> 00:03:48.260
+Promotrite robota, desno dolje,
+
+00:03:48.260 --> 00:03:50.260
+kako se okrenuo 360 stupnjeva.
+
+00:03:50.260 --> 00:03:52.260
+u djeliću sekunde.
+
+00:03:52.260 --> 00:03:55.260
+Višestruki okreti - malo više vremena.
+
+00:03:55.260 --> 00:03:57.260
+Ugrađeni procesori
+
+00:03:57.260 --> 00:03:59.260
+zaprimaju informaciju od ugrađenih
+
+00:03:59.260 --> 00:04:01.260
+akcelerometara i žiroskopa
+
+00:04:01.260 --> 00:04:03.260
+te procesiraju, kao što rekoh,
+
+00:04:03.260 --> 00:04:05.260
+te informacije 600 puta u sekundi
+
+00:04:05.260 --> 00:04:07.260
+stabilizirajući robota.
+
+00:04:07.260 --> 00:04:10.260
+Na dnu lijevo, uočite Daniela kako baca robota u zrak
+
+00:04:10.260 --> 00:04:12.260
+demonstrirajući koliko je robot robustan.
+
+00:04:12.260 --> 00:04:14.260
+Bez obzira kako ga bacite
+
+00:04:14.260 --> 00:04:18.260
+robot se dočeka na noge i doleti nazad.
+
+00:04:18.260 --> 00:04:20.260
+Koja je svrha graditi ovakve robote?
+
+00:04:20.260 --> 00:04:23.260
+Može biti višestruka.
+
+00:04:23.260 --> 00:04:26.260
+Robote možete poslati u zgrade pod ugrozom
+
+00:04:26.260 --> 00:04:29.260
+primjerice kao izvidnicu za otkrivanje provalnika,
+
+00:04:29.260 --> 00:04:32.260
+otkrivanje biokemijskog hazarda,
+
+00:04:32.260 --> 00:04:34.260
+ili curenja plina.
+
+00:04:34.260 --> 00:04:36.260
+Možete ih koristiti i kao
+
+00:04:36.260 --> 00:04:38.260
+programirane graditelje.
+
+00:04:38.260 --> 00:04:42.260
+Uočite kako roboti nose gredice i stupiće
+
+00:04:42.260 --> 00:04:45.260
+i sklapaju ih u kockaste konstrukcije.
+
+00:04:45.260 --> 00:04:48.260
+O tome malo više kasnije.
+
+00:04:48.260 --> 00:04:51.260
+Ove robote možemo koristiti i za prijenos tereta.
+
+00:04:51.260 --> 00:04:54.260
+Međutim, s obzirom na njihovu veličinu
+
+00:04:54.260 --> 00:04:56.260
+kapacitet nosivosti je malen.
+
+00:04:56.260 --> 00:04:58.260
+Stoga bi bilo dobro udružiti robote
+
+00:04:58.260 --> 00:05:00.260
+za prijenos tereta.
+
+00:05:00.260 --> 00:05:02.260
+Evo snimke nedavnog pokusa --
+
+00:05:02.260 --> 00:05:04.260
+doduše već ima tome --
+
+00:05:04.260 --> 00:05:07.260
+u Sendaiu, netom iza potresa.
+
+00:05:07.260 --> 00:05:10.260
+Roboti mogu biti poslani u ruševine
+
+00:05:10.260 --> 00:05:12.260
+kako bi se procjenila šteta
+
+00:05:12.260 --> 00:05:15.260
+ili u objekte s reaktorima
+
+00:05:15.260 --> 00:05:18.260
+da izmjere razinu radijacije.
+
+00:05:19.260 --> 00:05:21.260
+Osnovni problem
+
+00:05:21.260 --> 00:05:24.260
+s kojim se roboti moraju nositi, samoinicijativno
+
+00:05:24.260 --> 00:05:26.260
+je u biti zaključivanje
+
+00:05:26.260 --> 00:05:28.260
+kako doći od točke A do točke B.
+
+00:05:28.260 --> 00:05:30.260
+Dakle stvari postaju složenije
+
+00:05:30.260 --> 00:05:33.260
+s porašću dinamike robota.
+
+00:05:33.260 --> 00:05:35.260
+U načelu, roboti žive u 12-dimenzionalnom prostoru.
+
+00:05:35.260 --> 00:05:37.260
+Pa smo morali tome doskočiti.
+
+00:05:37.260 --> 00:05:40.260
+Uzeli smo zakrivljeni 12-dimenzionalni prostor
+
+00:05:40.260 --> 00:05:42.260
+i transformirali ga
+
+00:05:42.260 --> 00:05:44.260
+u ravninski 4-dimenzionalni prostor.
+
+00:05:44.260 --> 00:05:46.260
+Ovaj 4-dimenzionalni prostor
+
+00:05:46.260 --> 00:05:49.260
+se sastoji od X, Y, Z i osnog kuta.
+
+00:05:49.260 --> 00:05:51.260
+Što je robotu činiti
+
+00:05:51.260 --> 00:05:55.260
+je isplanirati putanju najmanje akceleracije.
+
+00:05:55.260 --> 00:05:57.260
+Da se prisjetimo fizike,
+
+00:05:57.260 --> 00:05:59.260
+imamo položaj, te 1. derivaciju položaja - brzinu,
+
+00:05:59.260 --> 00:06:01.260
+zatim akceleraciju - 2. vremenska derivacija položaja (d2x/dt2)
+
+00:06:01.260 --> 00:06:03.260
+impuls - 3. derivacija položaja (d3x/dt3)
+
+00:06:03.260 --> 00:06:05.260
+'cimanje' - 4. derivacija položaja (d4x/dt4).
+
+00:06:05.260 --> 00:06:08.260
+Robot minimizira cimanje.
+
+00:06:08.260 --> 00:06:10.260
+Rezultat toga je
+
+00:06:10.260 --> 00:06:12.260
+glatko, ravnomjerno kretanje robota.
+
+00:06:12.260 --> 00:06:15.260
+I to pri zaobilaženju zapreka.
+
+00:06:15.260 --> 00:06:18.260
+Dakle, putanje najmanje akceleracije u ovom ravninskom prostoru
+
+00:06:18.260 --> 00:06:20.260
+potom transformiramo nazad
+
+00:06:20.260 --> 00:06:22.260
+u složeni 12-dimenzionalni prostor,
+
+00:06:22.260 --> 00:06:24.260
+koje robot mora slijediti
+
+00:06:24.260 --> 00:06:26.260
+radi provjere i potom izvršavanja.
+
+00:06:26.260 --> 00:06:28.260
+Evo nekoliko primjera
+
+00:06:28.260 --> 00:06:30.260
+kako putanje najmanje akceleracije izgledaju.
+
+00:06:30.260 --> 00:06:32.260
+U prvoj snimci
+
+00:06:32.260 --> 00:06:34.260
+vidjet ćete kretanje robota od točke A do točke B
+
+00:06:34.260 --> 00:06:36.260
+ali kroz zadanu točku.
+
+00:06:42.260 --> 00:06:44.260
+Robot je sposoban
+
+00:06:44.260 --> 00:06:46.260
+pratiti zakrivljene putanje.
+
+00:06:46.260 --> 00:06:48.260
+Ovo su kružne putanje
+
+00:06:48.260 --> 00:06:51.260
+na kojima robot potegne 2G.
+
+00:06:52.260 --> 00:06:56.260
+Ovdje imamo stropne kamere
+
+00:06:56.260 --> 00:06:59.260
+koje signaliziraju robotu njegov položaj 100 puta u sekundi.
+
+00:06:59.260 --> 00:07:02.260
+Također daju robotu do znanja gdje su prepreke.
+
+00:07:02.260 --> 00:07:04.260
+Te prepreke mogu biti pokretne.
+
+00:07:04.260 --> 00:07:07.260
+Ovdje vidite Daniela kako baca kolut u zrak,
+
+00:07:07.260 --> 00:07:09.260
+a robot računa položaj koluta
+
+00:07:09.260 --> 00:07:13.260
+pokušavajući odrediti pravi trenutak za prolazak kroz kolut.
+
+00:07:13.260 --> 00:07:15.260
+Kao znanstvenici, primorani smo izvoditi
+
+00:07:15.260 --> 00:07:18.260
+akrobacije kako bi fondovi za naše projekte bili odobreni,
+
+00:07:18.260 --> 00:07:21.260
+pa smo odlučili i robote naučiti akrobacijama.
+
+00:07:21.260 --> 00:07:27.260
+(Pljesak)
+
+00:07:27.260 --> 00:07:29.260
+Dodatna stvar koju robot može učiniti
+
+00:07:29.260 --> 00:07:32.260
+je memoriranje dijelova putanje
+
+00:07:32.260 --> 00:07:34.260
+koju je savladao ili mu je predprogramirana.
+
+00:07:34.260 --> 00:07:36.260
+Ovdje vidite robota
+
+00:07:36.260 --> 00:07:38.260
+kako kombinira kretnje
+
+00:07:38.260 --> 00:07:40.260
+i vreba pravi trenutak
+
+00:07:40.260 --> 00:07:43.260
+u kojem će se nagnuti i potom vratiti u početni položaj.
+
+00:07:43.260 --> 00:07:46.260
+Na to je prisiljen jer svjetli otvor prozora
+
+00:07:46.260 --> 00:07:50.260
+je tijesan za njegovu širinu.
+
+00:07:50.260 --> 00:07:53.260
+Poput skakača s daske
+
+00:07:53.260 --> 00:07:55.260
+kada odskoči da bi dobio zamah,
+
+00:07:55.260 --> 00:07:58.260
+potreban za piruetu, i dvostruki salto
+
+00:07:58.260 --> 00:08:00.260
+da bi se na kraju ponovo ispružio,
+
+00:08:00.260 --> 00:08:02.260
+ovaj robot u osnovi čini isto.
+
+00:08:02.260 --> 00:08:05.260
+Dakle zna kako usuglasiti više manjih putanja
+
+00:08:05.260 --> 00:08:09.260
+u jednu znatno složeniju.
+
+00:08:09.260 --> 00:08:11.260
+Promjenimo temu.
+
+00:08:11.260 --> 00:08:14.260
+Jedan od nedostataka robota je veličina.
+
+00:08:14.260 --> 00:08:16.260
+I kao što rekoh
+
+00:08:16.260 --> 00:08:18.260
+trebat ćemo upregnuti veliki broj robota
+
+00:08:18.260 --> 00:08:21.260
+da bi nadomjestili taj nedostatak.
+
+00:08:21.260 --> 00:08:23.260
+Prva poteškoća je
+
+00:08:23.260 --> 00:08:26.260
+kako koordinirati jato robota?
+
+00:08:26.260 --> 00:08:28.260
+Okrenuli smo se majci prirodi.
+
+00:08:28.260 --> 00:08:30.260
+Pogledajmo slijedeći prilog
+
+00:08:30.260 --> 00:08:32.260
+s pustinjskim mravima Aphaenogaster.
+
+00:08:32.260 --> 00:08:35.260
+kako nose teret, u laboratoriju profesora Stephen Pratta.
+
+00:08:35.260 --> 00:08:37.260
+Ovo je komadić smokve.
+
+00:08:37.260 --> 00:08:39.260
+Ako im podmetnete bilo koji predmet preliven smokvinim sokom
+
+00:08:39.260 --> 00:08:42.260
+mravi će ga odvući u mravinjak.
+
+00:08:42.260 --> 00:08:45.260
+Mravi očito nemaju koordinatora.
+
+00:08:45.260 --> 00:08:47.260
+Ali osjećaju ostale iz skupine.
+
+00:08:47.260 --> 00:08:49.260
+Ne postoji izravna komunikacija.
+
+00:08:49.260 --> 00:08:51.260
+Ali kako osjećaju ostale u skupini
+
+00:08:51.260 --> 00:08:53.260
+i kako osjećaju predmet,
+
+00:08:53.260 --> 00:08:56.260
+koordinacija je ostvarena posredno.
+
+00:08:56.260 --> 00:08:58.260
+Takvu sličnu koordinaciju
+
+00:08:58.260 --> 00:09:01.260
+smo željeli ostvariti kod robota.
+
+00:09:01.260 --> 00:09:03.260
+Ako imamo robota
+
+00:09:03.260 --> 00:09:05.260
+grupiranog u jato
+
+00:09:05.260 --> 00:09:07.260
+promotrimo robota I i robota J --
+
+00:09:07.260 --> 00:09:09.260
+želimo robote osvijestiti
+
+00:09:09.260 --> 00:09:12.260
+da paze na međusobni razmak
+
+00:09:12.260 --> 00:09:14.260
+kada tvore formaciju.
+
+00:09:14.260 --> 00:09:16.260
+Želimo da se taj razmak
+
+00:09:16.260 --> 00:09:18.260
+održava unutar određene tolerancije.
+
+00:09:18.260 --> 00:09:21.260
+Da ponovimo, roboti prate ovu toleranciju
+
+00:09:21.260 --> 00:09:23.260
+i proračunavaju kontrolne naredbe
+
+00:09:23.260 --> 00:09:25.260
+100 puta u sekundi,
+
+00:09:25.260 --> 00:09:28.260
+što znači da motor zaprima 600 naredbi u sekundi.
+
+00:09:28.260 --> 00:09:30.260
+I to treba biti učinjeno
+
+00:09:30.260 --> 00:09:32.260
+decentralizirano.
+
+00:09:32.260 --> 00:09:34.260
+Ako imate jato robota,
+
+00:09:34.260 --> 00:09:38.260
+bilo bi nemoguće koordinirati ih centralno
+
+00:09:38.260 --> 00:09:41.260
+zadovoljavajućom brzinom za ostvarenje zadaće.
+
+00:09:41.260 --> 00:09:43.260
+Dodatno, roboti moraju zasnivati kretnje
+
+00:09:43.260 --> 00:09:45.260
+isključivo na lokalnim informacijama
+
+00:09:45.260 --> 00:09:47.260
+koje zaprimaju od susjednih robota.
+
+00:09:47.260 --> 00:09:49.260
+I napokon
+
+00:09:49.260 --> 00:09:51.260
+inzistirali smo da su roboti agnostični
+
+00:09:51.260 --> 00:09:53.260
+prema susjedima.
+
+00:09:53.260 --> 00:09:56.260
+To smo nazvali anonimnost.
+
+00:09:56.260 --> 00:09:58.260
+Sada ću vam pokazati
+
+00:09:58.260 --> 00:10:00.260
+snimak
+
+00:10:00.260 --> 00:10:03.260
+sa 20 robota
+
+00:10:03.260 --> 00:10:05.260
+koji lete u formaciji.
+
+00:10:05.260 --> 00:10:08.260
+Svaki robot promatra položaj susjeda.
+
+00:10:08.260 --> 00:10:10.260
+I tako održavaju formaciju.
+
+00:10:10.260 --> 00:10:12.260
+Formacija se može mijenjati.
+
+00:10:12.260 --> 00:10:14.260
+Može biti ravninska
+
+00:10:14.260 --> 00:10:16.260
+ili prostorna.
+
+00:10:16.260 --> 00:10:18.260
+Kao što ovdje vidite,
+
+00:10:18.260 --> 00:10:21.260
+roboti iz prostorne formacije tvore ravninsku.
+
+00:10:21.260 --> 00:10:23.260
+I da bi letjeli kroz prepreke
+
+00:10:23.260 --> 00:10:27.260
+sposobni su prilagoditi formaciju u letu.
+
+00:10:27.260 --> 00:10:30.260
+Roboti mogu prići blizu jedan drugom.
+
+00:10:30.260 --> 00:10:32.260
+Kao što vidite u ovoj formaciji u obliku osmice,
+
+00:10:32.260 --> 00:10:34.260
+roboti prilaze jedni drugima unutar par centimetara.
+
+00:10:34.260 --> 00:10:37.260
+I unatoč aerodinamičnom utjecaju
+
+00:10:37.260 --> 00:10:39.260
+propelerskih elisa
+
+00:10:39.260 --> 00:10:41.260
+održavaju stabilan let.
+
+00:10:41.260 --> 00:10:48.260
+(Pljesak)
+
+00:10:48.260 --> 00:10:50.260
+Kada ih jednom naučite letjeti u formaciji
+
+00:10:50.260 --> 00:10:52.260
+možete podići predmete surađujući.
+
+00:10:52.260 --> 00:10:54.260
+To ujedno znači
+
+00:10:54.260 --> 00:10:57.260
+da možemo udvostručiti, utrostručiti ili učetverostručiti
+
+00:10:57.260 --> 00:10:59.260
+snagu robota
+
+00:10:59.260 --> 00:11:01.260
+usklađujući njihovo djelovanje, kao što je prikazano.
+
+00:11:01.260 --> 00:11:04.260
+Jedan od nedostataka ovakvog pristupa
+
+00:11:04.260 --> 00:11:06.260
+je, kako teret postaje teži...
+
+00:11:06.260 --> 00:11:08.260
+i ako uposlite jato robota za prijenos tereta
+
+00:11:08.260 --> 00:11:11.260
+u osnovi povećavate tromost,
+
+00:11:11.260 --> 00:11:14.260
+čime naravno jato postaje manje okretno.
+
+00:11:14.260 --> 00:11:17.260
+Ali tako možete prenašati teže objekte.
+
+00:11:17.260 --> 00:11:19.260
+Još jedna primjena koju želim pokazati --
+
+00:11:19.260 --> 00:11:21.260
+ponovo, u našem laboratoriju.
+
+00:11:21.260 --> 00:11:23.260
+Ovo je napravio naš postdiplomac Quentin Lindsey.
+
+00:11:23.260 --> 00:11:26.260
+Njegov algoritam u osnovi naređuje robotima
+
+00:11:26.260 --> 00:11:28.260
+kako da samostalno sklope
+
+00:11:28.260 --> 00:11:30.260
+prostorne rešetkaste konstrukcije
+
+00:11:30.260 --> 00:11:33.260
+iz gredica.
+
+00:11:33.260 --> 00:11:35.260
+Njegov algoritam govori robotu
+
+00:11:35.260 --> 00:11:37.260
+koji dio podići,
+
+00:11:37.260 --> 00:11:39.260
+te kada i gdje ga ugraditi.
+
+00:11:39.260 --> 00:11:41.260
+Na ovoj snimci možete vidjeti --
+
+00:11:41.260 --> 00:11:43.260
+ubrzano 10 - 14 puta --
+
+00:11:43.260 --> 00:11:46.260
+tri različite konstrukcije sklapane robotima.
+
+00:11:46.260 --> 00:11:48.260
+Roboti su samoupravljajući,
+
+00:11:48.260 --> 00:11:50.260
+i sve što Quentin treba učiniti
+
+00:11:50.260 --> 00:11:52.260
+je dostaviti im nacrt
+
+00:11:52.260 --> 00:11:56.260
+konstrukcije koja treba biti sklopljena.
+
+00:11:56.260 --> 00:11:59.260
+Dakle, svi ovi pokusi koje ste vidjeli,
+
+00:11:59.260 --> 00:12:01.260
+sve ove demonstracije,
+
+00:12:01.260 --> 00:12:04.260
+su ostvarene uz pomoć sustava za praćenje kretnji.
+
+00:12:04.260 --> 00:12:06.260
+Međutim, što se događa kada napustite laboratorij
+
+00:12:06.260 --> 00:12:09.260
+i otisnete se u stvaran svijet?
+
+00:12:09.260 --> 00:12:12.260
+I što kada nema GPSa?
+
+00:12:12.260 --> 00:12:14.260
+Primjerice, ovaj robot
+
+00:12:14.260 --> 00:12:16.260
+je opremljen kamerom
+
+00:12:16.260 --> 00:12:19.260
+i laserskim daljinomjerom, laserskim skenerom.
+
+00:12:19.260 --> 00:12:21.260
+I koristi ove senzore
+
+00:12:21.260 --> 00:12:23.260
+kako bi izgradio kartu okruženja.
+
+00:12:23.260 --> 00:12:26.260
+Takva karta sadrži objekte --
+
+00:12:26.260 --> 00:12:28.260
+poput vrata, prozora,
+
+00:12:28.260 --> 00:12:30.260
+ljudi, namještaja --
+
+00:12:30.260 --> 00:12:32.260
+i onda robot procjenjuje gdje se nalazi
+
+00:12:32.260 --> 00:12:34.260
+u odnosu na te objekte.
+
+00:12:34.260 --> 00:12:36.260
+Sve bez globalnog koordinatnog sustava (GPS).
+
+00:12:36.260 --> 00:12:39.260
+Koordinatni sustav je definiran robotom,
+
+00:12:39.260 --> 00:12:42.260
+njegovim položajem, i time što promatra.
+
+00:12:42.260 --> 00:12:45.260
+I navođenje se odvija u odnosu na te objekte.
+
+00:12:45.260 --> 00:12:47.260
+Evo isječka
+
+00:12:47.260 --> 00:12:49.260
+s algoritmima koje je razvio Frank Shen
+
+00:12:49.260 --> 00:12:51.260
+i profesor Nathan Michael
+
+00:12:51.260 --> 00:12:55.260
+koji prikazuje robota kako ulazi u zgradu po prvi puta
+
+00:12:55.260 --> 00:12:58.260
+i stvara kartu u letu.
+
+00:12:58.260 --> 00:13:01.260
+Robot razaznaje objekte i
+
+00:13:01.260 --> 00:13:03.260
+iscrtava kartu (model).
+
+00:13:03.260 --> 00:13:05.260
+Izračunavajući udaljenosti do objekata
+
+00:13:05.260 --> 00:13:07.260
+robot određuje svoj položaj
+
+00:13:07.260 --> 00:13:09.260
+100 puta u sekundi
+
+00:13:09.260 --> 00:13:11.260
+uz korištenje kontrolnog algoritma
+
+00:13:11.260 --> 00:13:13.260
+koji sam opisao ranije.
+
+00:13:13.260 --> 00:13:15.260
+Dakle ovaj robot zaprima
+
+00:13:15.260 --> 00:13:17.260
+Frankove naredbe sa udaljene lokacije.
+
+00:13:17.260 --> 00:13:19.260
+Ali robot također može
+
+00:13:19.260 --> 00:13:21.260
+samostalno procijeniti gdje treba ići.
+
+00:13:21.260 --> 00:13:23.260
+Recimo da želim poslati robota u zgradu
+
+00:13:23.260 --> 00:13:25.260
+za koju nemam predodžbu o unutrašnjosti.
+
+00:13:25.260 --> 00:13:27.260
+Jednostavno pošaljem robota da
+
+00:13:27.260 --> 00:13:29.260
+kreira kartu (model)
+
+00:13:29.260 --> 00:13:32.260
+i pozovem ga nazad da mi predoči što je zabilježio.
+
+00:13:32.260 --> 00:13:35.260
+Dakle, robot ne samo da rješava problem
+
+00:13:35.260 --> 00:13:38.260
+kako stići od točke A do točke B na ovoj karti,
+
+00:13:38.260 --> 00:13:40.260
+nego i procjenjuje
+
+00:13:40.260 --> 00:13:42.260
+koja je optimalna točka B.
+
+00:13:42.260 --> 00:13:45.260
+U osnovi, robot zna da treba ići
+
+00:13:45.260 --> 00:13:47.260
+prema lokacijama o kojima ima najmanje informacija.
+
+00:13:47.260 --> 00:13:50.260
+I na taj način iscrtava kartu (model).
+
+00:13:50.260 --> 00:13:52.260
+I da zaključim
+
+00:13:52.260 --> 00:13:54.260
+s još jednom primjenom robota.
+
+00:13:54.260 --> 00:13:57.260
+A postoje i mnoge druge primjene.
+
+00:13:57.260 --> 00:13:59.260
+Ja sam profesor, i kao takav strastven za edukaciju.
+
+00:13:59.260 --> 00:14:01.260
+Ovakvi roboti mogu promijeniti
+
+00:14:01.260 --> 00:14:03.260
+način na koji se odvija nastava.
+
+00:14:03.260 --> 00:14:05.260
+Ali s obzirom da smo u Južnoj Kaliforniji,
+
+00:14:05.260 --> 00:14:07.260
+blizu Los Angelesa,
+
+00:14:07.260 --> 00:14:09.260
+morat ću zaključiti
+
+00:14:09.260 --> 00:14:11.260
+u holivudskom tonu.
+
+00:14:11.260 --> 00:14:13.260
+Neka to bude glazbeni video.
+
+00:14:13.260 --> 00:14:16.260
+Želim predstaviti Alexa i Daniela,
+
+00:14:16.260 --> 00:14:18.260
+kreatore videa.
+
+00:14:18.260 --> 00:14:25.260
+(Pljesak)
+
+00:14:25.260 --> 00:14:27.260
+No prije nego prikažemo video,
+
+00:14:27.260 --> 00:14:30.260
+želim napomenuti da su ga snimili u zadnja tri dana
+
+00:14:30.260 --> 00:14:32.260
+nakon poziva od Chrisa (TED kuratora).
+
+00:14:32.260 --> 00:14:34.260
+I roboti koji sviraju na snimci
+
+00:14:34.260 --> 00:14:36.260
+su potpuno samostalni.
+
+00:14:36.260 --> 00:14:39.260
+Vidjet ćete 9 robota kako svira 6 instrumenata.
+
+00:14:39.260 --> 00:14:43.260
+Naravno, eksluzivno za TED 2012.
+
+00:14:43.260 --> 00:14:46.260
+Pogledajmo.
+
+00:15:19.260 --> 00:15:29.260
+(Glazba)
+
+00:16:23.260 --> 00:16:40.260
+(Pljesak)
+

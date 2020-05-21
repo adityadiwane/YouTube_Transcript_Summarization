@@ -1,0 +1,823 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Ciro Gomez
+Revisor: Lidia Cámara de la Fuente
+
+00:00:13.280 --> 00:00:16.936
+En mi laboratorio, 
+construimos robots aéreos autónomos
+
+00:00:16.960 --> 00:00:18.840
+como el que ven volar aquí.
+
+00:00:20.720 --> 00:00:24.416
+A diferencia de los drones que 
+se pueden comprar hoy en el mercado,
+
+00:00:24.440 --> 00:00:27.080
+este robot no tiene ningún GPS a bordo.
+
+00:00:28.160 --> 00:00:29.376
+Así que sin GPS,
+
+00:00:29.400 --> 00:00:32.680
+es difícil para los robots como este 
+determinar su posición.
+
+00:00:34.240 --> 00:00:38.976
+Este robot utiliza sensores a bordo, 
+cámaras y escáneres láser,
+
+00:00:39.000 --> 00:00:40.696
+para escanear el medio ambiente.
+
+00:00:40.720 --> 00:00:43.693
+Detecta las características del entorno,
+
+00:00:43.700 --> 00:00:46.582
+y determina dónde está 
+en relación con esas características,
+
+00:00:46.602 --> 00:00:48.696
+utilizando un método de triangulación.
+
+00:00:48.720 --> 00:00:52.176
+Entonces puede reunir todas 
+estas características en un mapa,
+
+00:00:52.200 --> 00:00:53.936
+como se ve detrás de mí.
+
+00:00:53.960 --> 00:00:57.896
+Este mapa permite que el robot 
+comprenda dónde están los obstáculos
+
+00:00:57.920 --> 00:01:00.640
+y navegar libre de colisiones.
+
+00:01:01.160 --> 00:01:03.256
+Lo que quiero mostrarles a continuación
+
+00:01:03.280 --> 00:01:06.496
+es un conjunto de experimentos 
+que hicimos en nuestro laboratorio,
+
+00:01:06.520 --> 00:01:10.000
+en los que este robot fue capaz de ir 
+a distancias más largas.
+
+00:01:10.400 --> 00:01:15.416
+Verán, en la parte superior derecha, 
+lo que el robot ve con la cámara.
+
+00:01:15.440 --> 00:01:16.656
+En la pantalla principal
+
+00:01:16.680 --> 00:01:19.136
+--por supuesto acelerado 
+por un factor de cuatro--
+
+00:01:19.160 --> 00:01:21.827
+verán el mapa que está construyendo.
+
+00:01:21.851 --> 00:01:26.136
+Este es un mapa de alta resolución del 
+corredor de nuestro laboratorio.
+
+00:01:26.160 --> 00:01:28.649
+En un minuto verán que entra 
+en nuestro laboratorio,
+
+00:01:28.676 --> 00:01:31.376
+que es reconocible 
+por el desorden que se ve.
+
+00:01:31.400 --> 00:01:32.416
+(Risas)
+
+00:01:32.440 --> 00:01:34.447
+Pero el punto que quiero transmitirles
+
+00:01:34.472 --> 00:01:38.056
+es que estos robots son capaces 
+de construir mapas de alta resolución
+
+00:01:38.080 --> 00:01:40.576
+a resoluciones de 5 cm,
+
+00:01:40.600 --> 00:01:44.776
+permitiendo a alguien que esté fuera 
+del laboratorio, o fuera del edificio
+
+00:01:44.800 --> 00:01:48.016
+realizarlos sin tener que entrar,
+
+00:01:48.040 --> 00:01:51.800
+y tratar de inferir lo que sucede 
+en el interior del edificio.
+
+00:01:52.400 --> 00:01:54.640
+Hay un problema con los robots como éste.
+
+00:01:55.600 --> 00:01:57.800
+El primer problema 
+es que es bastante grande.
+
+00:01:58.120 --> 00:01:59.800
+Como es grande, es pesado.
+
+00:02:00.640 --> 00:02:03.680
+Y estos robots consumen 
+alrededor de 220 vatios por kilo,
+
+00:02:04.360 --> 00:02:06.640
+que hace su tiempo 
+de misión muy corto.
+
+00:02:08.000 --> 00:02:09.456
+El segundo problema
+
+00:02:09.480 --> 00:02:13.376
+es que estos robots tienen sensores 
+a bordo que terminan siendo muy caros:
+
+00:02:13.400 --> 00:02:16.840
+un escáner láser, una cámara 
+y los procesadores.
+
+00:02:17.280 --> 00:02:20.320
+Eso aumenta el costo de este robot.
+
+00:02:21.440 --> 00:02:24.096
+Así que nos hicimos una pregunta:
+
+00:02:24.120 --> 00:02:27.896
+¿qué productos de consumo se pueden 
+comprar en una tienda de electrónica
+
+00:02:27.920 --> 00:02:34.200
+que sean de bajo costo, ligeros, que 
+hagan detección a bordo y computación?
+
+00:02:36.080 --> 00:02:38.736
+E inventamos el teléfono volador.
+
+00:02:38.760 --> 00:02:40.696
+(Risas)
+
+00:02:40.720 --> 00:02:46.896
+Este robot utiliza un Samsung Galaxy 
+que se puede comprar comercialmente,
+
+00:02:46.920 --> 00:02:50.936
+y todo lo que se necesita es una 
+aplicación descargable en nuestra tienda.
+
+00:02:50.960 --> 00:02:55.176
+Se puede ver a este robot leyendo 
+las letras, "TED" en este caso,
+
+00:02:55.200 --> 00:02:58.136
+mirando las esquinas de la "T" y la "E"
+
+00:02:58.160 --> 00:03:01.640
+y luego triangulando eso, 
+volando de forma autónoma.
+
+00:03:02.720 --> 00:03:05.976
+Esa palanca está ahí para asegurar 
+que si el robot se vuelve loco,
+
+00:03:06.000 --> 00:03:07.416
+Giuseppe puede matarlo.
+
+00:03:07.440 --> 00:03:09.080
+(Risas)
+
+00:03:10.920 --> 00:03:14.736
+Además de la construcción 
+de estos pequeños robots,
+
+00:03:14.760 --> 00:03:19.560
+también experimentamos con 
+comportamientos agresivos, como ven aquí.
+
+00:03:19.920 --> 00:03:25.216
+Este robot está ahora viajando 
+a dos o tres m por segundo,
+
+00:03:25.240 --> 00:03:28.736
+con cabeceo y balanceo agresivo, 
+ya que cambia de dirección.
+
+00:03:28.760 --> 00:03:33.016
+El punto principal es que podemos tener 
+robots más pequeños que vayan más rápido
+
+00:03:33.040 --> 00:03:36.000
+y luego viajar en estos ambientes 
+muy desestructurados.
+
+00:03:37.120 --> 00:03:39.176
+En el siguiente video,
+
+00:03:39.200 --> 00:03:45.096
+igual que vemos esta ave, un águila, 
+coordinando con gracia sus alas,
+
+00:03:45.120 --> 00:03:49.416
+sus ojos y pies para agarrar 
+presas fuera del agua,
+
+00:03:49.440 --> 00:03:51.402
+nuestro robot puede ir a pescar, también.
+
+00:03:51.422 --> 00:03:52.856
+(Risas)
+
+00:03:52.880 --> 00:03:56.936
+En este caso, un embutido 
+que está agarrado de la nada.
+
+00:03:56.960 --> 00:03:59.360
+(Risas)
+
+00:03:59.680 --> 00:04:02.976
+Pueden ver este robot que va a 
+unos 3 m por segundo,
+
+00:04:03.000 --> 00:04:08.136
+más rápido que la velocidad al caminar, 
+coordinando sus brazos, sus garras
+
+00:04:08.160 --> 00:04:12.280
+y su vuelo en fracciones de segundo 
+para lograr esta maniobra.
+
+00:04:14.120 --> 00:04:15.336
+En otro experimento,
+
+00:04:15.360 --> 00:04:19.016
+Quiero mostrar cómo 
+el robot adapta su vuelo
+
+00:04:19.040 --> 00:04:21.416
+para controlar su carga suspendida,
+
+00:04:21.440 --> 00:04:25.240
+cuya longitud es en realidad mayor 
+que la anchura de la ventana.
+
+00:04:25.680 --> 00:04:27.376
+Para lograr esto,
+
+00:04:27.400 --> 00:04:31.096
+en realidad tiene que lanzar 
+y ajustar la altitud
+
+00:04:31.120 --> 00:04:33.440
+y oscilar la carga.
+
+00:04:38.920 --> 00:04:41.216
+Por supuesto, queremos 
+hacer esto aún menor,
+
+00:04:41.240 --> 00:04:44.256
+y estamos inspirados 
+en particular por las abejas.
+
+00:04:44.280 --> 00:04:47.536
+Si nos fijamos en las abejas, 
+y este es un vídeo ralentizado,
+
+00:04:47.560 --> 00:04:51.280
+son tan pequeñas, la inercia es tan ligera
+
+00:04:51.960 --> 00:04:53.136
+(Risas)
+
+00:04:53.160 --> 00:04:56.696
+que no les importa, 
+rebotan en mi mano, por ejemplo.
+
+00:04:56.720 --> 00:04:59.880
+Este es un pequeño robot 
+que imita a las abejas.
+
+00:05:00.600 --> 00:05:01.816
+Y más pequeño es mejor,
+
+00:05:01.840 --> 00:05:05.376
+porque junto con el pequeño tamaño 
+se obtiene más baja inercia.
+
+00:05:05.400 --> 00:05:06.936
+Junto con menor inercia
+
+00:05:06.960 --> 00:05:09.816
+(Robot zumbando, risas)
+
+00:05:09.840 --> 00:05:12.656
+junto con una menor inercia, 
+se es resistente a colisiones.
+
+00:05:12.680 --> 00:05:14.400
+Y eso te hace más fuerte.
+
+00:05:15.800 --> 00:05:18.456
+Así como estas abejas, 
+construimos pequeños robots.
+
+00:05:18.480 --> 00:05:21.856
+Este en particular es de solo 
+25 gr peso.
+
+00:05:21.880 --> 00:05:24.040
+Consume solo 6 vatios de potencia.
+
+00:05:24.440 --> 00:05:26.976
+Y puede viajar hasta 
+a 6 m por segundo.
+
+00:05:27.000 --> 00:05:29.336
+Si lo normalizo a su tamaño,
+
+00:05:29.360 --> 00:05:33.000
+es como un Boeing 787 viajando 
+a 10 veces la velocidad del sonido.
+
+00:05:36.000 --> 00:05:38.096
+(Risas)
+
+00:05:38.120 --> 00:05:40.040
+Quiero mostrarles un ejemplo.
+
+00:05:40.840 --> 00:05:46.096
+Esta es probablemente la primera colisión en vuelo planeado, a una vigésima de la velocidad normal.
+
+00:05:46.120 --> 00:05:48.978
+Estos van a una velocidad relativa 
+de 2 m por segundo,
+
+00:05:49.002 --> 00:05:51.482
+y esto ilustra el principio básico.
+
+00:05:52.200 --> 00:05:57.176
+La jaula de fibra de carbono de 2 gr 
+impide que las hélices se enreden,
+
+00:05:57.200 --> 00:06:02.496
+pero en esencia la colisión es absorbida 
+y el robot responde a las colisiones.
+
+00:06:02.520 --> 00:06:05.080
+Y muy pequeño también significa seguro.
+
+00:06:05.400 --> 00:06:07.635
+En mi laboratorio, al 
+desarrollar estos robots,
+
+00:06:07.662 --> 00:06:09.339
+comenzamos con estos grandes robots
+
+00:06:09.360 --> 00:06:11.896
+y luego ahora bajamos 
+a estos pequeños robots.
+
+00:06:11.920 --> 00:06:15.376
+Si se traza un histograma 
+del número de banditas que pedimos
+
+00:06:15.400 --> 00:06:17.976
+en el pasado, mostraría 
+un cola disminuyendo. (Risas)
+
+00:06:18.000 --> 00:06:19.960
+Porque estos robots 
+son muy seguros.
+
+00:06:20.760 --> 00:06:23.216
+El tamaño pequeño 
+tiene algunas desventajas,
+
+00:06:23.240 --> 00:06:27.320
+y la naturaleza ha encontrado formas 
+de compensar estas desventajas.
+
+00:06:27.960 --> 00:06:31.960
+La idea básica es que ellas se unen para 
+formar grandes grupos o enjambres.
+
+00:06:32.320 --> 00:06:36.296
+Del mismo modo, en nuestro laboratorio, 
+tratamos de crear enjambres de robots.
+
+00:06:36.320 --> 00:06:37.701
+Y esto es todo un reto
+
+00:06:37.725 --> 00:06:41.045
+porque ahora tienes que pensar 
+en redes de robots.
+
+00:06:41.360 --> 00:06:42.656
+Y dentro de cada robot,
+
+00:06:42.680 --> 00:06:48.296
+tienes que pensar en la interacción de 
+detección, comunicación, computación,
+
+00:06:48.320 --> 00:06:53.280
+y esta red se vuelve muy difícil 
+de controlar y gestionar.
+
+00:06:54.160 --> 00:06:57.456
+Así que de la naturaleza nos llevamos 
+3 principios organizativos
+
+00:06:57.480 --> 00:07:00.640
+que, básicamente, nos permiten 
+desarrollar nuestros algoritmos.
+
+00:07:01.640 --> 00:07:06.176
+La primera idea es que los robots tienen 
+que ser conscientes de sus vecinos.
+
+00:07:06.200 --> 00:07:09.640
+Tienen que ser capaces de sentir 
+y comunicarse con sus vecinos.
+
+00:07:10.040 --> 00:07:12.696
+Así que este video ilustra la idea básica.
+
+00:07:12.720 --> 00:07:14.016
+Tienes cuatro robots,
+
+00:07:14.040 --> 00:07:18.280
+uno ha sido secuestrado por 
+un operador humano, literalmente.
+
+00:07:19.217 --> 00:07:21.456
+Pero debido a que los robots 
+interactúan entre sí,
+
+00:07:21.480 --> 00:07:23.136
+sienten a sus vecinos,
+
+00:07:23.160 --> 00:07:24.456
+que en esencia siguen.
+
+00:07:24.480 --> 00:07:29.840
+Y aquí hay una sola persona capaz 
+de liderar esta red de seguidores.
+
+00:07:32.000 --> 00:07:37.056
+Así que de nuevo, no es porque todos los 
+robots saben dónde se supone que deben ir.
+
+00:07:37.080 --> 00:07:41.400
+Es porque sólo están reaccionando 
+a las posiciones de sus vecinos.
+
+00:07:43.720 --> 00:07:47.840
+(Risas)
+
+00:07:48.280 --> 00:07:53.520
+El siguiente experimento ilustra 
+el segundo principio de organización.
+
+00:07:54.920 --> 00:07:58.720
+Y este principio tiene que ver con 
+el principio de anonimato.
+
+00:07:59.400 --> 00:08:03.696
+Aquí la idea clave es que
+
+00:08:03.720 --> 00:08:07.960
+los robots son agnósticos 
+a la identidad de sus vecinos.
+
+00:08:08.440 --> 00:08:11.056
+Se les pide que hagan 
+una forma circular,
+
+00:08:11.080 --> 00:08:14.376
+y no importa cuántos robots 
+se introducen dentro de la formación,
+
+00:08:14.400 --> 00:08:16.976
+o cuántos robots se sacan,
+
+00:08:17.000 --> 00:08:20.136
+cada robot está simplemente 
+reaccionando a su vecino.
+
+00:08:20.160 --> 00:08:25.136
+Es consciente del hecho de que 
+se necesita para hacer la forma circular,
+
+00:08:25.160 --> 00:08:26.936
+pero colaborando con sus vecinos
+
+00:08:26.960 --> 00:08:30.680
+hace esta forma sin coordinación central.
+
+00:08:31.520 --> 00:08:33.936
+Ahora bien, 
+si uno pone estas ideas juntas,
+
+00:08:33.960 --> 00:08:37.856
+la tercera idea es que esencialmente 
+damos a estos robots
+
+00:08:37.880 --> 00:08:42.176
+descripciones matemáticas de la forma 
+que necesitan ejecutar.
+
+00:08:42.200 --> 00:08:45.696
+Y estas formas pueden ser variables 
+en función del tiempo,
+
+00:08:45.720 --> 00:08:50.216
+y verán a estos robots comenzar 
+a partir de una formación circular,
+
+00:08:50.240 --> 00:08:53.496
+cambiar a una formación rectangular, 
+estirada a una línea recta,
+
+00:08:53.520 --> 00:08:54.895
+de nuevo a una elipse.
+
+00:08:54.919 --> 00:08:58.536
+Y lo hacen con el mismo tipo de 
+coordinación de fracción de segundo
+
+00:08:58.560 --> 00:09:01.840
+que se ve en los enjambres naturales, 
+en la naturaleza.
+
+00:09:03.080 --> 00:09:05.216
+¿Por qué trabajar con enjambres?
+
+00:09:05.240 --> 00:09:09.360
+Déjenme decirles de 2 aplicaciones 
+en las que estamos muy interesados.
+
+00:09:10.160 --> 00:09:12.536
+La primera tiene que ver 
+con la agricultura,
+
+00:09:12.560 --> 00:09:15.920
+que es probablemente el mayor problema 
+que enfrentando en el mundo.
+
+00:09:16.760 --> 00:09:18.016
+Como bien saben,
+
+00:09:18.040 --> 00:09:21.560
+1 de cada 7 personas 
+en la Tierra está desnutrida.
+
+00:09:21.920 --> 00:09:25.400
+La mayor parte de la tierra que 
+podemos cultivar ya ha sido cultivada.
+
+00:09:25.960 --> 00:09:29.176
+La eficiencia de la mayoría de 
+sistemas en el mundo está mejorando,
+
+00:09:29.200 --> 00:09:32.720
+pero nuestra eficiencia del sistema 
+de producción está disminuyendo,
+
+00:09:33.080 --> 00:09:37.296
+debido a falta de agua, enfermedades 
+de los cultivos, cambio climático
+
+00:09:37.320 --> 00:09:38.840
+y un par de otras cosas.
+
+00:09:39.360 --> 00:09:40.840
+¿Qué pueden hacer los robots?
+
+00:09:41.200 --> 00:09:45.816
+Bueno, adoptamos un enfoque que se llama 
+agricultura de precisión en la comunidad.
+
+00:09:45.840 --> 00:09:51.420
+Y la idea básica es que volamos 
+robots a través de los huertos,
+
+00:09:51.730 --> 00:09:54.360
+y luego construimos modelos 
+de precisión de las plantas individuales.
+
+00:09:54.829 --> 00:09:56.496
+Así como la medicina personalizada,
+
+00:09:56.520 --> 00:10:01.336
+mientras que uno puede imaginar tratar 
+a cada paciente de forma individual,
+
+00:10:01.360 --> 00:10:05.056
+lo que nos gustaría hacer es construir 
+modelos de plantas individuales
+
+00:10:05.080 --> 00:10:09.216
+y luego decirle al agricultor qué tipo 
+de insumos necesita cada planta;
+
+00:10:09.240 --> 00:10:13.680
+las entradas en este caso son 
+el agua, fertilizantes y pesticidas.
+
+00:10:14.640 --> 00:10:18.256
+Aquí podrán ver los robots viajar 
+a través de un huerto de manzanas,
+
+00:10:18.280 --> 00:10:20.536
+y en un minuto verán 
+2 de sus compañeros
+
+00:10:20.560 --> 00:10:22.370
+haciendo lo mismo a la izquierda.
+
+00:10:22.800 --> 00:10:26.456
+Y lo que están construyendo 
+esencialmente es un mapa de la huerta.
+
+00:10:26.480 --> 00:10:29.296
+Dentro del mapa hay uno de 
+las plantas en este huerto.
+
+00:10:29.320 --> 00:10:30.976
+(Zumbido de robot)
+
+00:10:31.000 --> 00:10:32.896
+Veamos cómo se ven esos mapas parecen.
+
+00:10:32.920 --> 00:10:37.216
+En el siguiente video, verán las cámaras 
+que está utilizando este robot.
+
+00:10:37.240 --> 00:10:40.480
+Arriba a la izquierda esencialmente 
+una cámara de color destacada.
+
+00:10:41.640 --> 00:10:44.936
+A la izquierda en el centro 
+una cámara infrarroja.
+
+00:10:44.960 --> 00:10:48.736
+Y en la parte inferior izquierda 
+una cámara térmica.
+
+00:10:48.760 --> 00:10:52.096
+Y en el panel principal, se ve 
+una reconstrucción tridimensional
+
+00:10:52.120 --> 00:10:58.240
+de todo árbol del huerto al pasar los 
+sensores sobre los árboles.
+
+00:10:59.640 --> 00:11:03.680
+Armados con información de este tipo, 
+podemos hacer varias cosas.
+
+00:11:04.200 --> 00:11:08.456
+Primero y posiblemente 
+lo más importante es muy simple:
+
+00:11:08.480 --> 00:11:10.920
+contar el número de frutas en cada árbol.
+
+00:11:11.520 --> 00:11:16.056
+Hacer esto, le dice al agricultor 
+cuántas frutas que tiene en cada árbol
+
+00:11:16.080 --> 00:11:20.336
+y le permitirá estimar 
+el rendimiento del huerto,
+
+00:11:20.360 --> 00:11:23.200
+optimizar la cadena 
+de producción aguas abajo.
+
+00:11:23.640 --> 00:11:25.256
+La segunda cosa que podemos hacer
+
+00:11:25.280 --> 00:11:29.776
+es tomar los modelos de las plantas, 
+la reconstrucción tridimensional,
+
+00:11:29.800 --> 00:11:32.336
+y de allí estimar el tamaño del manto,
+
+00:11:32.360 --> 00:11:36.136
+y luego correlacionar el manto con 
+la cantidad de área foliar en cada planta.
+
+00:11:36.160 --> 00:11:38.336
+Esto se llama el índice de área foliar.
+
+00:11:38.360 --> 00:11:40.296
+Si uno sabe este índice de área foliar,
+
+00:11:40.320 --> 00:11:45.776
+esencialmente hace medición de qué 
+tanta fotosíntesis hace cada planta,
+
+00:11:45.800 --> 00:11:48.680
+que a su vez dice qué tan saludable 
+es cada planta.
+
+00:11:49.520 --> 00:11:53.736
+Mediante la combinación 
+de información visual y de infrarrojos,
+
+00:11:53.760 --> 00:11:57.056
+también podemos 
+calcular índices como el NDVI.
+
+00:11:57.080 --> 00:11:59.896
+Y en este caso en particular, 
+en esencia se puede ver que
+
+00:11:59.920 --> 00:12:02.936
+algunos cultivos no lo están 
+haciendo tan bien como otros.
+
+00:12:02.960 --> 00:12:07.016
+Esto es fácilmente perceptible 
+a partir de imágenes,
+
+00:12:07.040 --> 00:12:09.256
+no solo las imágenes visuales, 
+sino combinadas
+
+00:12:09.280 --> 00:12:12.056
+tanto imágenes visuales 
+como de infrarrojos.
+
+00:12:12.080 --> 00:12:13.416
+Y por último,
+
+00:12:13.440 --> 00:12:17.456
+algo que nos interesa hacer es detectar 
+la aparición temprana de la clorosis
+
+00:12:17.480 --> 00:12:18.976
+--esto es un árbol de naranja--
+
+00:12:19.000 --> 00:12:21.846
+que se ve esencialmente por 
+el amarillamiento de las hojas.
+
+00:12:21.880 --> 00:12:25.776
+Pero los robots pueden detectar 
+fácilmente esto de manera autónoma
+
+00:12:25.800 --> 00:12:28.736
+y luego informar al agricultor
+que él o ella tiene un problema
+
+00:12:28.760 --> 00:12:30.280
+en esta parte de la huerta.
+
+00:12:30.800 --> 00:12:33.496
+Sistemas como estos 
+realmente pueden ayudar,
+
+00:12:33.520 --> 00:12:39.336
+y estamos proyectando rendimientos 
+mejores en alrededor de un 10 %
+
+00:12:39.360 --> 00:12:42.576
+y, sobre todo, disminuir 
+la cantidad de insumos como el agua
+
+00:12:42.600 --> 00:12:45.880
+un 25 % mediante el uso 
+de enjambres de robots aéreos.
+
+00:12:47.200 --> 00:12:52.936
+Por último, quiero aplaudir a la gente 
+que realmente crea el futuro,
+
+00:12:52.960 --> 00:12:57.880
+Yash Mulgaonkar, Sikang Liu 
+y Giuseppe Loianno,
+
+00:12:57.920 --> 00:13:01.416
+quienes son responsables de las 3 
+demostraciones que vieron.
+
+00:13:01.440 --> 00:13:02.616
+Gracias.
+
+00:13:02.640 --> 00:13:08.560
+(Aplausos)
+

@@ -1,0 +1,620 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Enis Başol
+Gözden geçirme: Ali Geris
+
+00:00:12.562 --> 00:00:15.623
+Eric Berlow: Ben çevrebilimciyim, Sean da fizikçi.
+
+00:00:15.623 --> 00:00:17.731
+ikimiz de karmaşık ağlar üzerine çalışıyoruz.
+
+00:00:17.731 --> 00:00:19.566
+Birkaç sene önce ikimiz de savaş ekolojisi
+
+00:00:19.566 --> 00:00:21.566
+üzerine kısa birer TED konuşması yaptığımız
+
+00:00:21.566 --> 00:00:23.869
+zaman tanıştık.
+
+00:00:23.869 --> 00:00:25.316
+Tanışmadan önce paylaştığımız ortak fikirler aracılığıyla
+
+00:00:25.316 --> 00:00:28.134
+bağlantılı olduğumuzun farkına vardık.
+
+00:00:28.134 --> 00:00:29.690
+Daha sonra, sizin de bildiğiniz gibi, dünyanın her tarafında yapılan,
+
+00:00:29.690 --> 00:00:31.804
+özellikle TEDx Konuşmaları başta olmak üzere binlerce
+
+00:00:31.804 --> 00:00:34.015
+konuşma var diye düşündük.
+
+00:00:34.015 --> 00:00:34.938
+Bu konuşmalar birbirleriyle nasıl bağlantılı oluyor ve
+
+00:00:34.938 --> 00:00:36.948
+bu küresel konuşma neye benziyor?
+
+00:00:36.948 --> 00:00:39.758
+İşte Sean şimdi size bunu nasıl yaptığımızdan biraz bahsedecek.
+
+00:00:39.758 --> 00:00:43.525
+Sean Gourley: Kesinlikle. Dünyanın her yerinden 147 farklı ülkeden
+
+00:00:43.525 --> 00:00:46.571
+24.000 TEDx Konuşmasını aldık.
+
+00:00:46.571 --> 00:00:48.694
+Bu konuşmaları ele aldık, çünkü bunların
+
+00:00:48.694 --> 00:00:50.734
+altında yatan matematiksel yapıları
+
+00:00:50.734 --> 00:00:52.456
+bulmak istiyorduk.
+
+00:00:52.456 --> 00:00:53.826
+Bu konuşmaların birbiriyle nasıl ilintili olduğunu
+
+00:00:53.826 --> 00:00:55.879
+görebilmek için bunu yapmak istiyorduk.
+
+00:00:55.879 --> 00:00:57.555
+Tabii ki bu tarz şeyler yapacaksanız
+
+00:00:57.555 --> 00:00:58.511
+bir sürü veriye ihtiyacınız var.
+
+00:00:58.511 --> 00:01:02.197
+Elinizdeki veri ise YouTube denen muhteşem şey.
+
+00:01:02.197 --> 00:01:03.965
+Bilgisayarın başına oturup temel olarak YouTube'daki tüm
+
+00:01:03.965 --> 00:01:06.232
+yorumlara, görüntülemelere, kimin izlediğine,
+
+00:01:06.232 --> 00:01:08.581
+nerede izlediğine, ne yorum yaptığına dair
+
+00:01:08.581 --> 00:01:11.360
+tüm açık bilgileri çekebiliyoruz.
+
+00:01:11.360 --> 00:01:14.652
+Ama tabii ki konuşmadan yazıya aktarımla çeviriyi kullanarak
+
+00:01:14.652 --> 00:01:16.780
+tümünü yazıya dökebiliyoruz.
+
+00:01:16.780 --> 00:01:19.460
+Bu benim gibi komik aksanı olan insanlar için bile işe yarayabiliyor.
+
+00:01:19.460 --> 00:01:21.566
+Sonra yazı dökümünü alabiliyoruz,
+
+00:01:21.566 --> 00:01:23.664
+aslında baya havalı şeyler yapıyoruz.
+
+00:01:23.664 --> 00:01:25.824
+Doğal lisan işleme algoritmaları ile,
+
+00:01:25.824 --> 00:01:28.453
+- baştan sona, satır satır okuma yapabilen bir tür bilgisayar -
+
+00:01:28.453 --> 00:01:30.812
+anahtar kavramları ortaya çıkarıyoruz.
+
+00:01:30.812 --> 00:01:33.337
+Aldığımız bu anahtar kavramlar
+
+00:01:33.337 --> 00:01:36.902
+bir fikrin matematiksel yapısını oluşturuyor.
+
+00:01:36.902 --> 00:01:38.659
+Buna meme-ome diyoruz.
+
+00:01:38.659 --> 00:01:40.810
+Basitçe, bildiğiniz meme-ome
+
+00:01:40.810 --> 00:01:43.236
+bir fikrin altında yatan matematiğe denir
+
+00:01:43.236 --> 00:01:45.168
+ve bunlar ile ilginç bazı çözümlemeler yapabiliyoruz.
+
+00:01:45.168 --> 00:01:47.149
+Şimdi sizinle bunları paylaşmak istiyorum.
+
+00:01:47.149 --> 00:01:49.339
+Her fikir için bir meme-ome vardır ve bu
+
+00:01:49.339 --> 00:01:51.290
+her fikrin kendine özgüdür.
+
+00:01:51.290 --> 00:01:53.778
+Ama, tabii ki, fikirler birbirinden ödünç alırlar.
+
+00:01:53.778 --> 00:01:54.962
+Hatta bazen çalarlar bile.
+
+00:01:54.962 --> 00:01:56.789
+Ama kesin olarak birbiri üzerine inşa edilirler
+
+00:01:56.789 --> 00:01:58.405
+ve biz bunu matematiksel olarak inceleyebiliriz.
+
+00:01:58.405 --> 00:02:00.245
+Mesela, bir konuşmadan bir meme-ome alıp
+
+00:02:00.245 --> 00:02:02.699
+onu diğer tüm konuşmalardaki meme-ome'larla karşılaştırabiliriz.
+
+00:02:02.699 --> 00:02:04.672
+Eğer ikisi arasında bir benzerlik varsa,
+
+00:02:04.672 --> 00:02:07.922
+arada bir bağlantı oluşturabilir ve bunu da bir grafik olarak gösterebiliriz.
+
+00:02:07.922 --> 00:02:10.316
+tıpkı Eric ve benim kurduğumuz bağlantı gibi.
+
+00:02:10.316 --> 00:02:11.710
+Yani teori bu ve müthiş bir şey.
+
+00:02:11.710 --> 00:02:14.236
+Pratikte nasıl işlediğine bir bakalım.
+
+00:02:14.236 --> 00:02:17.024
+Burada, elimizde şuan New York'dan
+
+00:02:17.024 --> 00:02:19.317
+ta Yeni Zellanda'ya kadar son dört yılda
+
+00:02:19.317 --> 00:02:20.867
+dünyanın her yerinde yapılan
+
+00:02:20.867 --> 00:02:24.196
+TEDx Konuşmalarının iz düşümleri var.
+
+00:02:24.196 --> 00:02:28.031
+Yaptığımız şey, bunların en iyi yüzde 25'ini çözümlemek,
+
+00:02:28.031 --> 00:02:30.565
+bağlantıların nerelerde olduğunu ve
+
+00:02:30.565 --> 00:02:32.102
+birbirleriyle nasıl ilişkilendirildiklerini anlamaya başlamak oldu.
+
+00:02:32.102 --> 00:02:33.976
+Görüntü ve güzellik hakkında konuşan Cameron Russell
+
+00:02:33.976 --> 00:02:35.551
+Avrupa'dan bağlanmış.
+
+00:02:35.551 --> 00:02:37.963
+Filistin ve İsrail hakkında Ortadoğu'dan gelen
+
+00:02:37.963 --> 00:02:40.218
+daha büyük bir konuşmamız da var.
+
+00:02:40.218 --> 00:02:41.516
+Elimizde biraz daha büyük,
+
+00:02:41.516 --> 00:02:43.672
+her yerde yapılan bir konuşmanın
+
+00:02:43.672 --> 00:02:45.851
+gerçek anlamda küresel bir ayak izini anımsatmış
+
+00:02:45.851 --> 00:02:47.867
+olan bir konuşma var.
+
+00:02:47.867 --> 00:02:50.040
+Yani bundan yola çıkarak, coğrafi izdüşümle
+
+00:02:50.040 --> 00:02:52.570
+yapabileceğimiz şeylerin sınırlarını zorluyoruz.
+
+00:02:52.570 --> 00:02:54.622
+Şansımıza, bilgisayar teknolojisi çok boyutlu boşluğa
+
+00:02:54.622 --> 00:02:56.168
+açılmamıza olanak sağlıyor.
+
+00:02:56.168 --> 00:02:58.043
+Biz de ağ izdüşümünü alıyoruz ve
+
+00:02:58.043 --> 00:02:59.793
+buna bir fizik motoru uyguluyoruz.
+
+00:02:59.793 --> 00:03:01.678
+Bu şekilde benzer konuşmalar eşleşirken
+
+00:03:01.678 --> 00:03:03.682
+farklı olanları da ayrılıyor.
+
+00:03:03.682 --> 00:03:05.754
+Aldığımız netice ise oldukça güzel.
+
+00:03:05.754 --> 00:03:08.711
+EB: Burada göstermek istediğim şey, her düğüm bir konuşma.
+
+00:03:08.711 --> 00:03:11.300
+Benzer fikirleri paylaşıyorlarsa, bağlanıyorlar.
+
+00:03:11.300 --> 00:03:13.384
+Bunu yapan, tüm konuşmaların
+
+00:03:13.384 --> 00:03:15.451
+yazıya dökülmüş halini okuyabilen bir makine.
+
+00:03:15.451 --> 00:03:17.682
+Sonra, tüm bu ortaya çıkan konular,
+
+00:03:17.682 --> 00:03:19.472
+etiketlerden veya kilit kelimelerden değiller.
+
+00:03:19.472 --> 00:03:21.197
+Birbiriyle bağlı fikirlerin
+
+00:03:21.197 --> 00:03:23.365
+ağ yapısından geliyorlar. Sen devam et.
+
+00:03:23.365 --> 00:03:25.387
+SG: Kesinlikle. Onu hızlı geçecektim,
+
+00:03:25.387 --> 00:03:26.862
+ama bu beni yavaşlatacak.
+
+00:03:26.862 --> 00:03:28.896
+Sosyal medyanın hemen yanında,
+
+00:03:28.896 --> 00:03:30.539
+üçgensel yapıda hikayeciliğe bağlı eğitim var.
+
+00:03:30.539 --> 00:03:33.014
+Tabii ki, sağlık hizmetinin hemen yanında insan beyni var.
+
+00:03:33.014 --> 00:03:34.400
+Aynen beklediğiniz gibi.
+
+00:03:34.400 --> 00:03:36.795
+Ama iki boşluk birbiriyle bağlandığından
+
+00:03:36.795 --> 00:03:39.535
+hemen bitişikte video oyunları da var.
+
+00:03:39.535 --> 00:03:41.070
+Ama benim için özellikle önemli olan bir kümeyi
+
+00:03:41.070 --> 00:03:43.938
+size göstermek istiyorum. Bu küme çevre.
+
+00:03:43.938 --> 00:03:45.431
+Buraya biraz daha yakından bakmak ve
+
+00:03:45.431 --> 00:03:47.794
+çözünürlüğü biraz daha netleştirmek istiyorum.
+
+00:03:47.794 --> 00:03:50.141
+Yani buraya girdiğimizde, görmeye başladığımız şey,
+
+00:03:50.141 --> 00:03:51.645
+fizik motorunu bir daha uygularsak,
+
+00:03:51.645 --> 00:03:53.321
+herhangi bir konuşmanın aslında
+
+00:03:53.321 --> 00:03:55.881
+birçok küçük konuşmadan oluştuğunu görürüz.
+
+00:03:55.881 --> 00:03:57.810
+Yapı ortaya çıkmaya başladı.
+
+00:03:57.810 --> 00:03:59.880
+Dünyanın her yerinde
+
+00:03:59.880 --> 00:04:01.499
+bizim için önemli olan şeyleri anlatırken
+
+00:04:01.499 --> 00:04:03.201
+kullandığımız dilin ve kelimelerin bir çeşit kesirsel
+
+00:04:03.201 --> 00:04:04.634
+davranışını görebiliyoruz.
+
+00:04:04.634 --> 00:04:06.966
+Zirvede gıda ekonomisi ve yerel gıda var,
+
+00:04:06.966 --> 00:04:09.685
+sera gazları, güneşsel ve nükleer atıklar var.
+
+00:04:09.685 --> 00:04:12.316
+Elde ettiğiniz, her biri paylaştıkları dil ve
+
+00:04:12.316 --> 00:04:14.617
+fikirler yoluyla birbirine bağlı,
+
+00:04:14.617 --> 00:04:15.918
+daha geniş bir çevre kavramı oluşturan
+
+00:04:15.918 --> 00:04:18.368
+çeşitli daha küçük konuşmalar.
+
+00:04:18.368 --> 00:04:19.900
+Tabiki, buradan şöyle
+
+00:04:19.900 --> 00:04:23.434
+yakınlaşabilir ve gençlerin neye baktığını görebilirsiniz.
+
+00:04:23.434 --> 00:04:25.779
+Gençler enerji teknolojisi ve nükleer füzyona bakıyorlar.
+
+00:04:25.779 --> 00:04:27.453
+Bu çevre hakkındaki konuşmalar için
+
+00:04:27.453 --> 00:04:29.859
+onların sesinin yankısı.
+
+00:04:29.859 --> 00:04:31.758
+Eğer cinsiyet hatlarını bölersek,
+
+00:04:31.758 --> 00:04:33.745
+kadınların daha çok yiyecek ekonomisi,
+
+00:04:33.745 --> 00:04:37.390
+umut ve iyimserlikte yankı bulduklarını görebiliriz.
+
+00:04:37.390 --> 00:04:39.872
+Yani burada yapabileceğimiz bir sürü heyecan verici şey var.
+
+00:04:39.872 --> 00:04:41.634
+Bir sonraki kısmı Eric'e havale ediyorum.
+
+00:04:41.634 --> 00:04:43.236
+EB: Evet, yani, söylemem gereken,
+
+00:04:43.236 --> 00:04:44.774
+bu tür bir bakış açısını
+
+00:04:44.774 --> 00:04:48.134
+YouTube'da basit bir etiket aramasından elde edemezsiniz.
+
+00:04:48.134 --> 00:04:52.322
+Şimdi çevrenin de dışına çıkıp tüm küresel konuşmalara geri
+
+00:04:52.322 --> 00:04:54.856
+dönelim ve konuşmalara birlikte bakalım.
+
+00:04:54.856 --> 00:04:57.783
+Sıklıkla bu miktarda içerikle karşı karşıya kaldığımızda,
+
+00:04:57.783 --> 00:05:00.214
+onu basitleştirmek için birkaç şey yaparız.
+
+00:05:00.214 --> 00:05:01.528
+Mesela, en çok tutulan konuşmalar
+
+00:05:01.528 --> 00:05:04.357
+hangileridir diyebiliriz.
+
+00:05:04.357 --> 00:05:05.754
+Sonra birkaçı yüzeye çıkar.
+
+00:05:05.754 --> 00:05:07.582
+Minnettarlıkla alakalı bir konuşma var.
+
+00:05:07.582 --> 00:05:10.926
+Kişisel sağlık ve beslenme ile alakalı başka bir tane var.
+
+00:05:10.926 --> 00:05:13.855
+Tabii ki, porno ile ilgili de bir tane olmalı, değil mi?
+
+00:05:13.855 --> 00:05:17.089
+Sonra, minnettarlık geçen seneydi diyebiliriz.
+
+00:05:17.089 --> 00:05:19.611
+Şimdi ne tutuluyor? Şimdi en revaçta olan konuşma ne?
+
+00:05:19.611 --> 00:05:22.932
+Yeni yeni tutulmaya başlayan konuşmanın
+
+00:05:22.932 --> 00:05:25.598
+dijital mahremiyet hakkında olduğunu görebiliriz.
+
+00:05:25.598 --> 00:05:27.291
+Bu muhteşem. İşleri kolaylaştırıyor.
+
+00:05:27.291 --> 00:05:29.118
+Ama dipte gömülen
+
+00:05:29.118 --> 00:05:31.039
+çok fazla orijinal içerik var.
+
+00:05:31.039 --> 00:05:34.357
+Bundan nefret ediyorum. Çok orijinal ve ilgi çekici şeyleri
+
+00:05:34.357 --> 00:05:36.815
+nasıl su yüzüne çıkartabiliriz?
+
+00:05:36.815 --> 00:05:39.746
+Bunu yapmak için fikirlerin ağ yapısına geri
+
+00:05:39.746 --> 00:05:41.176
+dönmemiz lazım.
+
+00:05:41.176 --> 00:05:43.290
+Unutmayın, ortaya çıkan bu konuları
+
+00:05:43.290 --> 00:05:45.558
+oluşturan bu ağ yapısı ve
+
+00:05:45.558 --> 00:05:47.073
+diyelim ki şehirler ve genetik gibi
+
+00:05:47.073 --> 00:05:50.120
+iki tanesini alabiliyoruz ve acaba, bu iki gerçekten farklı disiplini
+
+00:05:50.120 --> 00:05:52.689
+orijinal bir biçimde birbirine bağlayan hiç konuşma var mı?
+
+00:05:52.689 --> 00:05:54.964
+Aslında, bu çeşit orijinal karışımlar
+
+00:05:54.964 --> 00:05:56.804
+yeniliğin köşe taşlarından biridir.
+
+00:05:56.804 --> 00:05:58.410
+Burada binaların mikrobik ekolojisi
+
+00:05:58.410 --> 00:06:00.789
+hakkında Jessica Green tarafından yapılmış bir konuşma var.
+
+00:06:00.789 --> 00:06:02.799
+Gerçekten yeni bir alanı tanımlıyor.
+
+00:06:02.799 --> 00:06:04.902
+Tabi bu konu başlıklarına geri dönüp bu küçük konuşmalara
+
+00:06:04.902 --> 00:06:07.670
+hangi kapsamlı konuşmaların merkez teşkil ettiğini söyleyebiliriz.
+
+00:06:07.670 --> 00:06:09.360
+Şehirler kümesinde en merkezde olanlardan birisi
+
+00:06:09.360 --> 00:06:13.312
+ekolojik şehirler hakkında Mitch Joachim tarafından yapılan konuşma.
+
+00:06:13.312 --> 00:06:15.032
+Genetik kümesinde ise,
+
+00:06:15.032 --> 00:06:18.225
+Craig Venter tarafından yapılmış sentetik biyoloji hakkında bir konuşma var.
+
+00:06:18.225 --> 00:06:21.578
+Bunlar kendi disiplinlerinde birçok konuşmayı bağlayan konuşmalar.
+
+00:06:21.578 --> 00:06:23.421
+Bu kez diğer yöne gidip
+
+00:06:23.421 --> 00:06:25.693
+birçok farklı alanı sentezleyen konuşmaların
+
+00:06:25.693 --> 00:06:27.141
+hangileri olduğunu söyleyebiliriz.
+
+00:06:27.141 --> 00:06:29.674
+Bunu elde etmek için ekolojik çeşitlilik ölçüsünü kullandık.
+
+00:06:29.674 --> 00:06:32.410
+Steven Pinker'ın şiddetin tarihi hakkındaki
+
+00:06:32.410 --> 00:06:33.590
+çok sentetik konuşması gibi.
+
+00:06:33.590 --> 00:06:35.668
+Sonra, benzersiz, kendine özgü konuşmalar da var.
+
+00:06:35.668 --> 00:06:38.758
+Bunlar sanki stratosferdeki kendi özel yerlerindeler.
+
+00:06:38.758 --> 00:06:41.272
+Buna Colleen Flanagan endeksi diyoruz.
+
+00:06:41.272 --> 00:06:44.306
+Colleen'ı tanımıyorsanız, o bir sanatçı.
+
+00:06:44.306 --> 00:06:45.849
+Ona bir gün sordum: "Fikir evrenimizin
+
+00:06:45.849 --> 00:06:47.521
+stratosferinde olmak nasıl bir şey?" diye
+
+00:06:47.521 --> 00:06:50.776
+Açıkçası pastırma gibi kokuyor.
+
+00:06:50.776 --> 00:06:52.567
+Bilemezdim.
+
+00:06:52.567 --> 00:06:54.815
+Yani bu ağ motiflerini;
+
+00:06:54.815 --> 00:06:56.001
+orjinal bir biçimde bir sürü farklı alanı sentezleyen,
+
+00:06:56.001 --> 00:06:58.711
+kendi alanlarında merkezi yere sahip olan ve
+
+00:06:58.711 --> 00:07:00.370
+gerçekten ayrı alanlar arasında köprü kuran
+
+00:07:00.370 --> 00:07:03.744
+benzersiz konuşmaları bulmak için kullanıyoruz.
+
+00:07:03.744 --> 00:07:05.846
+Tamam mı? Bu aralar neyin revaçta olduğu takıntısıyla
+
+00:07:05.846 --> 00:07:08.159
+bunları asla bulamazdık.
+
+00:07:08.159 --> 00:07:11.045
+Bunların tamamı karmaşıklık mimarisinden
+
+00:07:11.045 --> 00:07:14.005
+ya da nesnelerin bağlanış modelinden gelir.
+
+00:07:14.005 --> 00:07:15.630
+SG: Kesinlikle doğru.
+
+00:07:15.630 --> 00:07:18.109
+Müthiş karmaşık
+
+00:07:18.109 --> 00:07:20.153
+bir dünyada bulunuyoruz ve
+
+00:07:20.153 --> 00:07:23.020
+bunu bir çeşit filtrelemek için algoritmaları kullanıyoruz.
+
+00:07:23.020 --> 00:07:24.806
+Böylece bazı şeyleri daha iyi anlayabiliyoruz.
+
+00:07:24.806 --> 00:07:27.144
+Bu algoritmalar çok kullanışlı olmalarına rağmen,
+
+00:07:27.144 --> 00:07:30.620
+aynı zamanda çok ama çok dardırlar ve bundan daha iyisini yapabiliriz.
+
+00:07:30.620 --> 00:07:33.186
+Çünkü karmaşıklıklarının rastgele olmadığını fark edebiliyoruz.
+
+00:07:33.186 --> 00:07:35.140
+Matematiksel bir yapısı var ve
+
+00:07:35.140 --> 00:07:36.943
+bu matematiksel yapıyı;
+
+00:07:36.943 --> 00:07:39.157
+fikirlerin dünyası gibi şeyleri keşfetmek,
+
+00:07:39.157 --> 00:07:42.157
+nelerin söylenip nelerin söylenmediğini görmek,
+
+00:07:42.157 --> 00:07:43.564
+biraz daha fazla insan ve
+
+00:07:43.564 --> 00:07:45.431
+biraz daha akıllı olmak için kullanabiliriz.
+
+00:07:45.431 --> 00:07:46.397
+Teşekkürler.
+
+00:07:46.397 --> 00:07:50.617
+(Alkış)
+

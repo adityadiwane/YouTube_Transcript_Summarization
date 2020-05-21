@@ -1,0 +1,866 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Tomáš Brukner
+Korektor: Petra Aquamarine
+
+00:00:13.114 --> 00:00:20.606
+Během několika posledních století nám
+mikroskopy pomohly změnit pohled na svět.
+
+00:00:21.036 --> 00:00:26.252
+Odhalily nám miniaturní svět 
+věcí, života a struktur,
+
+00:00:26.252 --> 00:00:29.158
+které jsou příliš malé na to,
+abychom je prostým okem viděli.
+
+00:00:29.158 --> 00:00:32.177
+Jsou ohromným přínosem
+pro vědu a techniku.
+
+00:00:32.177 --> 00:00:35.404
+Dnes vám představím nový typ mikroskopu,
+
+00:00:35.404 --> 00:00:37.982
+mikroskop změn.
+
+00:00:37.982 --> 00:00:40.884
+Nepoužívá, jako normální mikroskop,
+
+00:00:40.884 --> 00:00:42.881
+ke zvětšení malých věcí optiku,
+
+00:00:42.881 --> 00:00:47.257
+ale videokameru a techniky 
+zpracování obrazu
+
+00:00:47.257 --> 00:00:52.513
+k odhalení těch nejmenších změn
+v pohybu a barvách věcí i lidí.
+
+00:00:52.513 --> 00:00:56.355
+Změn tak malých, že je 
+lidské oko nepostřehne.
+
+00:00:56.355 --> 00:01:00.475
+To nám umožňuje se na svět 
+dívat úplně novým způsobem.
+
+00:01:00.475 --> 00:01:02.385
+Co mám na mysli tou změnou barvy?
+
+00:01:02.385 --> 00:01:05.217
+Například naše kůže mění 
+lehounce svou barvu,
+
+00:01:05.217 --> 00:01:07.214
+když pod ní protéká krev.
+
+00:01:07.214 --> 00:01:09.618
+Tato změna je neuvěřitelně drobná,
+
+00:01:09.618 --> 00:01:11.674
+a proto, když se díváme na ostatní lidi,
+
+00:01:11.674 --> 00:01:13.925
+když se podíváte na člověka,
+co sedí vedle vás,
+
+00:01:13.925 --> 00:01:17.500
+tak nezpozorujete v jeho obličeji
+ani na kůži žádnou změnu barvy.
+
+00:01:17.500 --> 00:01:21.860
+Když si přehrajeme video Steva,
+tak nám připadá jako statický obraz;
+
+00:01:21.860 --> 00:01:25.720
+ale když se na toto video podíváme
+naším novým speciálním mikroskopem,
+
+00:01:25.720 --> 00:01:28.320
+najednou vidíme jinou věc.
+
+00:01:28.320 --> 00:01:32.250
+To, co vidíme, jsou malé změny
+v barvě Steveova obličeje,
+
+00:01:32.250 --> 00:01:36.686
+stokrát zvětšené,
+a tedy pro nás viditelné.
+
+00:01:36.686 --> 00:01:39.953
+Můžeme dokonce i vidět jeho puls.
+
+00:01:39.953 --> 00:01:43.180
+Můžeme nejen vidět, jak rychle
+Steveovo srdce bije,
+
+00:01:43.180 --> 00:01:48.535
+ale též kudy přesně krev
+proudí v jeho obličeji.
+
+00:01:48.544 --> 00:01:51.175
+Náš mikroskop můžeme použít
+nejen k vizualizaci tepu,
+
+00:01:51.175 --> 00:01:54.646
+ale též ke zjištění srdečního rytmu
+
+00:01:54.646 --> 00:01:56.439
+a jeho změření.
+
+00:01:56.439 --> 00:02:00.892
+A zvládáme to s pomocí normálních kamer, 
+bez dotyku s pacientem.
+
+00:02:00.892 --> 00:02:06.509
+Tady vidíte tep a srdeční rytmus,
+který jsme změřili u kojence
+
+00:02:06.509 --> 00:02:09.390
+z videa pořízeného normální DSLR kamerou.
+
+00:02:09.390 --> 00:02:11.206
+Takto získané měření
+
+00:02:11.206 --> 00:02:15.887
+je stejně přesné jako měření získané
+ze srdečního monitoru v nemocnici.
+
+00:02:15.887 --> 00:02:18.819
+Dokonce to ani nemusí být video,
+které jsme sami nahráli.
+
+00:02:18.819 --> 00:02:21.654
+Zvládneme to i s cizími videi.
+
+00:02:21.654 --> 00:02:25.555
+Tady jsem jen vzal krátký záběr
+z filmu "Batman začíná",
+
+00:02:25.555 --> 00:02:27.459
+abych ukázal puls Christiana Balea.
+
+00:02:27.459 --> 00:02:29.281
+(Smích)
+
+00:02:29.281 --> 00:02:31.404
+Víte, patrně má na sobě makeup,
+
+00:02:31.404 --> 00:02:33.357
+takže světlo je zde trochu problematické,
+
+00:02:33.357 --> 00:02:36.308
+ale stejně, jen z tohoto videa, 
+jsme vyextrahovali jeho puls
+
+00:02:36.308 --> 00:02:38.326
+a názorně ho ukázali.
+
+00:02:38.326 --> 00:02:40.246
+Takže jak to vše dokážeme?
+
+00:02:40.246 --> 00:02:44.844
+V podstatě analyzujeme
+změny světla v záznamu,
+
+00:02:44.844 --> 00:02:47.115
+pro každý pixel v průběhu času,
+
+00:02:47.115 --> 00:02:48.913
+a pak tyto změny zvětšíme.
+
+00:02:48.913 --> 00:02:51.075
+Zvětšíme je, abychom je lépe viděli.
+
+00:02:51.075 --> 00:02:52.977
+Záludná část je, že ty signály,
+
+00:02:52.977 --> 00:02:55.910
+ty změny, co se snažíme změřit,
+jsou extrémně malé,
+
+00:02:55.910 --> 00:02:58.689
+takže je musíme opatrně oddělit
+
+00:02:58.689 --> 00:03:02.520
+od šumu, který je vždy
+ve videích přítomen.
+
+00:03:02.520 --> 00:03:05.515
+Proto používáme chytré
+techniky zpracování obrazu,
+
+00:03:05.515 --> 00:03:09.509
+abychom získali velmi přesně
+barvu každého pixelu ve videu.
+
+00:03:09.509 --> 00:03:12.179
+Z toho zjistíme, jak se ta barva
+v průběhu času mění,
+
+00:03:12.179 --> 00:03:14.872
+a nakonec tyto změny zvětšíme.
+
+00:03:14.872 --> 00:03:18.852
+Zvětšíme je, abychom vytvořili
+takto vylepšená videa,
+
+00:03:18.852 --> 00:03:21.024
+která názorně ukazují změny.
+
+00:03:21.024 --> 00:03:25.262
+Ale ukázalo se, že můžeme udělat
+to samé nejen k zobrazení změn barev,
+
+00:03:25.262 --> 00:03:27.503
+ale též miniaturních pohybů.
+
+00:03:27.503 --> 00:03:31.079
+A to díky tomu, že světlo,
+které kamera zaznamená,
+
+00:03:31.079 --> 00:03:33.889
+se změní nejen tehdy,
+když objekt změní barvu,
+
+00:03:33.889 --> 00:03:36.257
+ale i když se pohne.
+
+00:03:36.257 --> 00:03:39.893
+Tady je má dcera, 
+když jí byly asi dva měsíce.
+
+00:03:39.893 --> 00:03:42.892
+Toto video jsem pořídil
+asi tak tři roky zpátky.
+
+00:03:42.892 --> 00:03:46.100
+Jako čerství rodiče si chceme být jistí,
+že jsou naše děti zdravé,
+
+00:03:46.100 --> 00:03:48.642
+že dýchají a že jsou naživu.
+
+00:03:48.642 --> 00:03:50.784
+Pořídil jsem si baby monitor,
+
+00:03:50.784 --> 00:03:53.253
+abych mohl vidět dceru, když spí.
+
+00:03:53.253 --> 00:03:56.780
+Toto je v podstatě to samé,
+co uvidíte se standardním monitorem.
+
+00:03:56.780 --> 00:04:00.462
+Vidíte, že díte spí, 
+ale víc informací se nedozvíte.
+
+00:04:00.474 --> 00:04:02.078
+Moc toho nelze vidět.
+
+00:04:02.078 --> 00:04:04.902
+Nebylo by lepší, 
+víc informativní či užitečné,
+
+00:04:04.902 --> 00:04:07.892
+kdybychom se na to mohli podívat takto?
+
+00:04:07.892 --> 00:04:14.248
+Tady jsem zvětšil
+všechny pohyby třicetkrát,
+
+00:04:14.248 --> 00:04:18.074
+a teď můžete jasně vidět, že má dcera
+je skutečně živá a že dýchá.
+
+00:04:18.074 --> 00:04:20.327
+(Smích)
+
+00:04:20.327 --> 00:04:22.249
+Tady je porovnání vedle sebe.
+
+00:04:22.249 --> 00:04:24.732
+A znovu, v původním videu,
+
+00:04:24.732 --> 00:04:26.368
+toho není příliš vidět.
+
+00:04:26.368 --> 00:04:30.075
+Ale jakmile zvětšíme změny,
+dýchání je mnohem viditelnější.
+
+00:04:30.075 --> 00:04:32.145
+A jak se ukazuje,
+existuje spousta věcí,
+
+00:04:32.145 --> 00:04:35.768
+které můžeme ukázat a zvětšit
+naším novým pohybovým mikroskopem.
+
+00:04:35.768 --> 00:04:40.332
+Můžeme vidět, jak naše
+žíly a cévy pulzují.
+
+00:04:40.332 --> 00:04:42.960
+Můžeme vidět, že se 
+naše oči stále pohybují
+
+00:04:42.960 --> 00:04:44.847
+v tomto viklavém pohybu.
+
+00:04:44.847 --> 00:04:46.356
+Toto je mé oko.
+
+00:04:46.356 --> 00:04:49.421
+Video bylo též pořízeno krátce poté,
+co se má dcera narodila,
+
+00:04:49.421 --> 00:04:53.623
+takže můžete vidět, že jsem 
+toho moc nenaspal. (Smích)
+
+00:04:53.623 --> 00:04:56.339
+I o člověku, který v klidu sedí,
+
+00:04:56.339 --> 00:04:58.383
+je hodně informací,
+které můžeme získat:
+
+00:04:58.383 --> 00:05:01.912
+jeho vzor dýchání
+či malé výrazy tváře.
+
+00:05:01.912 --> 00:05:03.537
+Možná můžeme využít tyto pohyby,
+
+00:05:03.537 --> 00:05:06.691
+aby nám prozradili něco
+o našich myšlenkách či emocích.
+
+00:05:06.691 --> 00:05:09.946
+Můžeme též zvětšit malé mechanické pohyby,
+
+00:05:09.946 --> 00:05:11.501
+jako vibrace motorů,
+
+00:05:11.501 --> 00:05:15.193
+což může pomoci inženýrům detekovat a
+diagnostikovat problémy se stroji,
+
+00:05:15.193 --> 00:05:19.931
+nebo vidět budovy a stavby,
+jak se kývají ve větru.
+
+00:05:19.931 --> 00:05:24.512
+To jsou všechno věci, které dnes
+umíme měřit různými způsoby,
+
+00:05:24.512 --> 00:05:26.965
+ale měření pohybů je jedna věc,
+
+00:05:26.965 --> 00:05:29.241
+zatímco schopnost vidět,
+jak se právě dějí,
+
+00:05:29.241 --> 00:05:31.795
+je věc úplně jiná.
+
+00:05:31.795 --> 00:05:34.836
+Jakmile jsme vytvořili
+tuto novou technologii,
+
+00:05:34.836 --> 00:05:38.789
+zpřístupnili jsme ji online, aby i ostatní
+ji mohli vyzkoušet a experimentovat s ní.
+
+00:05:38.789 --> 00:05:40.664
+Je velmi jednoduché ji použít.
+
+00:05:40.664 --> 00:05:42.708
+Umí pracovat s vašimi vlastními videi.
+
+00:05:42.708 --> 00:05:45.901
+Naši kolegové z Quanta Research
+dokonce vytvořili tuto stránku,
+
+00:05:45.901 --> 00:05:48.579
+kde můžete nahrát svá videa
+a zpracovat je online,
+
+00:05:48.579 --> 00:05:52.395
+takže i pokud nemáte žádné zkušenosti
+s informatikou či programováním,
+
+00:05:52.395 --> 00:05:55.331
+můžete snadno experimentovat
+s naším novým mikroskopem.
+
+00:05:55.331 --> 00:05:57.735
+Chtěl bych vám ukázat pár příkladů toho,
+
+00:05:57.735 --> 00:06:00.470
+jak ostatní experimentovali.
+
+00:06:00.470 --> 00:06:05.787
+Toto video bylo vytvořeno
+uživatelem YouTube s přezdívkou Tamez85.
+
+00:06:05.787 --> 00:06:07.250
+Nevím, kdo ten uživatel je,
+
+00:06:07.250 --> 00:06:09.595
+ale on nebo ona použil náš program
+
+00:06:09.595 --> 00:06:13.310
+ke zvětšení malých pohybů břicha
+během těhotenství.
+
+00:06:13.310 --> 00:06:14.912
+Je to trochu strašidelné.
+
+00:06:14.912 --> 00:06:16.525
+(Smích)
+
+00:06:16.525 --> 00:06:21.486
+Lidé náš program použili
+ke zvětšení pulzujících žil v rukách.
+
+00:06:21.486 --> 00:06:25.268
+A jak víte, nic není skutečná věda,
+dokud nepoužijete morčata.
+
+00:06:25.268 --> 00:06:28.658
+Toto morče se patrně jmenuje Tiffany.
+
+00:06:28.658 --> 00:06:31.607
+Tento uživatel YouTube tvrdí,
+že je to první hlodavec na Zemi,
+
+00:06:31.607 --> 00:06:34.295
+jehož pohyb byl takto zvětšen.
+
+00:06:34.295 --> 00:06:36.483
+Lze vytvořit i nové umění.
+
+00:06:36.483 --> 00:06:39.501
+Toto video mi zaslala studentka
+designu z univerzity Yale.
+
+00:06:39.501 --> 00:06:41.638
+Chtěla vidět, jestli jsou rozdíly v tom,
+
+00:06:41.638 --> 00:06:43.160
+jak se její spolužáci pohybují.
+
+00:06:43.160 --> 00:06:47.369
+Nechala je všechny v klidu stát,
+a pak zvětšila jejich pohyby.
+
+00:06:47.369 --> 00:06:50.747
+Je to jako vidět fotografii ožít.
+
+00:06:50.747 --> 00:06:53.180
+A skvělá věc na všech
+těchto příkladech je,
+
+00:06:53.180 --> 00:06:55.476
+že my s nimi nemáme nic společného.
+
+00:06:55.476 --> 00:06:59.330
+My jsme jen zpřístupnili nový nástroj,
+nový způsob, jak se dívat na svět,
+
+00:06:59.330 --> 00:07:04.462
+a potom lidé přišli s novými, zajímavými
+a kreativními způsoby, jak jej využít.
+
+00:07:04.462 --> 00:07:06.226
+Ale my jsme u toho nezůstali.
+
+00:07:06.226 --> 00:07:09.477
+Tento nástroj nám nejen
+dává nový pohled na svět,
+
+00:07:09.477 --> 00:07:11.845
+ale také redefinuje to, co umíme dělat,
+
+00:07:11.845 --> 00:07:15.026
+a posouvá limity toho,
+co zvládneme s kamerou.
+
+00:07:15.026 --> 00:07:17.255
+Takže jsme jako vědci začali bádat:
+
+00:07:17.255 --> 00:07:21.040
+jaké další fyzikální jevy
+produkují miniaturní pohyby,
+
+00:07:21.040 --> 00:07:23.943
+které by naše kamery mohly zachytit?
+
+00:07:23.943 --> 00:07:27.944
+A jeden z těchto jevů, kterému se
+v poslední době věnujeme, je zvuk.
+
+00:07:27.944 --> 00:07:30.049
+Zvuk jsou ve své podstatě změny v tlaku,
+
+00:07:30.049 --> 00:07:32.232
+které se pohybují vzduchem.
+
+00:07:32.232 --> 00:07:35.853
+Tyto tlakové vlny narážejí do předmětů
+a vytváří v nich malé vibrace,
+
+00:07:35.853 --> 00:07:38.385
+díky kterým slyšíme a zaznamenáváme zvuk.
+
+00:07:38.385 --> 00:07:42.053
+Ale ukazuje se, že zvuk
+produkuje i vizuální pohyby.
+
+00:07:42.053 --> 00:07:44.886
+Tyto pohyby nejsou viditelné pro nás,
+
+00:07:44.886 --> 00:07:47.887
+ale jsou viditelné pro kameru
+se správným zpracováním.
+
+00:07:47.887 --> 00:07:49.460
+Takže tady máme dva příklady.
+
+00:07:49.460 --> 00:07:52.074
+Tady prezentuji své
+skvělé pěvecké schopnosti.
+
+00:07:53.064 --> 00:07:54.698
+(Zpěv)
+
+00:07:54.698 --> 00:07:56.134
+(Smích)
+
+00:07:56.134 --> 00:07:59.120
+Vytvořil jsem vysokorychlostní
+video svého krku.
+
+00:07:59.120 --> 00:08:00.884
+Pokud se na něj podíváme,
+
+00:08:00.884 --> 00:08:02.960
+moc toho neuvidíme,
+
+00:08:02.960 --> 00:08:07.292
+ale pokud zvětšíme pohyby stokrát,
+můžeme je vidět na krku spolu s vlnami,
+
+00:08:07.292 --> 00:08:10.566
+které souvisí s tvorbou zvuku.
+
+00:08:10.566 --> 00:08:13.306
+Ten signál je tam, ve videu.
+
+00:08:13.306 --> 00:08:15.976
+Též víme, že zpěváci
+zvládnou rozbít sklenici,
+
+00:08:15.976 --> 00:08:17.439
+pokud trefí správný tón.
+
+00:08:17.439 --> 00:08:19.204
+Takže tady pouštíme tón,
+
+00:08:19.204 --> 00:08:21.730
+který má rezonanční frekvenci sklenice,
+
+00:08:21.730 --> 00:08:23.778
+do reproduktoru vedle ní.
+
+00:08:23.778 --> 00:08:28.197
+Po zapnutí a zvětšení pohybů 250 krát
+
+00:08:28.197 --> 00:08:30.535
+můžeme jasně vidět, jak sklo vibruje
+
+00:08:30.535 --> 00:08:34.105
+a rezonuje kvůli zvuku.
+
+00:08:34.105 --> 00:08:36.525
+To není něco, co vidíte každý den.
+
+00:08:36.525 --> 00:08:40.054
+Ale to nás donutilo se zamyslet.
+A přivedlo nás to k šílenému nápadu.
+
+00:08:40.054 --> 00:08:45.662
+Můžeme otočit tento proces
+a získat zvuk z videa tím,
+
+00:08:45.662 --> 00:08:49.697
+že zanalyzujeme miniaturní vibrace,
+vytvořené zvukovými vlnami v objektech,
+
+00:08:49.697 --> 00:08:54.474
+a převést je zpět na zvuk?
+
+00:08:54.474 --> 00:08:58.931
+Tímto způsobem můžeme proměnit
+obyčejné věci v mikrofony.
+
+00:08:58.931 --> 00:09:01.163
+A přesně to jsme udělali.
+
+00:09:01.163 --> 00:09:03.979
+Tady máme prázdný obal
+od čipsů ležící na stole
+
+00:09:03.979 --> 00:09:06.804
+a my ho proměníme v mikrofon tím,
+
+00:09:06.804 --> 00:09:08.395
+že ho nahrajeme videokamerou
+
+00:09:08.395 --> 00:09:11.623
+a zanalyzujeme miniaturní pohyby
+vytvořené zvukem.
+
+00:09:11.623 --> 00:09:14.419
+Tento zvuk jsme přehráli v místnosti.
+
+00:09:14.419 --> 00:09:18.853
+(Hudba: "Mary Had a Little Lamb")
+
+00:09:22.007 --> 00:09:25.032
+Nahráli jsme vysokorychlostní video
+obalu od chipsů.
+
+00:09:25.032 --> 00:09:26.306
+Hudba zase hraje.
+
+00:09:26.306 --> 00:09:30.692
+Na tom videu nemáte šanci nic zpozorovat,
+
+00:09:30.706 --> 00:09:33.690
+ale tady je zvuk, který jsme
+zrekonstruovali z toho videa
+
+00:09:33.690 --> 00:09:35.873
+analýzou miniaturních pohybů.
+
+00:09:35.873 --> 00:09:38.682
+(Hudba: "Mary Had a Little Lamb")
+
+00:09:52.985 --> 00:09:54.471
+Říkáme tomu - díky.
+
+00:09:54.471 --> 00:09:59.696
+(Potlesk)
+
+00:10:01.878 --> 00:10:04.223
+Říkáme tomu vizuální mikrofon.
+
+00:10:04.223 --> 00:10:07.613
+Opravdu extrahujeme zvukový signál
+ze signálu videa.
+
+00:10:07.613 --> 00:10:10.794
+Abyste měli představu o velikosti pohybů,
+které se zde odehrávají:
+
+00:10:10.799 --> 00:10:16.135
+velmi hlasitý zvuk způsobí,
+že se ten obal pohne o méně než mikrometr.
+
+00:10:16.135 --> 00:10:18.874
+To je tisícina milimetru.
+
+00:10:18.874 --> 00:10:22.435
+Tak miniaturní pohyby 
+teď zvládneme rozeznat
+
+00:10:22.435 --> 00:10:25.678
+pouhým pozorováním
+odrazů světla od objektů
+
+00:10:25.678 --> 00:10:27.814
+našimi kamerami.
+
+00:10:27.814 --> 00:10:31.064
+Můžeme získat zvuk 
+i z jiných předmětů, třeba květin.
+
+00:10:31.064 --> 00:10:37.380
+(Hudba: "Mary Had a Little Lamb")
+
+00:10:39.214 --> 00:10:41.211
+Zvládneme též extrahovat řeč.
+
+00:10:41.211 --> 00:10:43.788
+Tady v místnosti hovoří člověk.
+
+00:10:43.788 --> 00:10:47.991
+Hlas: Mary měla jehňátko
+s vlnou bílou jako sníh,
+
+00:10:47.991 --> 00:10:52.221
+a všude kam Mary šla,
+jehňátko šlo s ní.
+
+00:10:52.221 --> 00:10:54.980
+Michael Rubinstein: Tady je ta řeč získaná
+
+00:10:54.980 --> 00:10:58.254
+z videa z obalu od chipsů.
+
+00:10:58.254 --> 00:11:03.085
+Hlas: Mary měla jehňátko
+s vlnou bílou jako sníh,
+
+00:11:03.085 --> 00:11:07.944
+a všude kam Mary šla,
+jehňátko šlo s ní.
+
+00:11:07.944 --> 00:11:10.290
+MR: Použili jsme "Mary Had a Little Lamb",
+
+00:11:10.290 --> 00:11:12.413
+protože to měla být první slova,
+
+00:11:12.413 --> 00:11:16.574
+která pronesl Thomas Edison
+do svého fonografu v roce 1877.
+
+00:11:16.574 --> 00:11:19.802
+Byl to první zaznamenaný zvuk v historii.
+
+00:11:19.802 --> 00:11:23.129
+V podstatě navedl zvuk na membránu,
+
+00:11:23.129 --> 00:11:27.208
+která rozvibrovala jehlu
+a ta vyryla zvuk na alobal,
+
+00:11:27.208 --> 00:11:29.483
+který byl obalen kolem válečku.
+
+00:11:29.483 --> 00:11:35.426
+Zde je ukážka záznamu a
+přehrání zvuku Edisonovým fonografem.
+
+00:11:35.426 --> 00:11:38.446
+(Video) Hlas: Test, test, jedna dvě tři.
+
+00:11:38.446 --> 00:11:41.859
+Mary měla jehňátko
+s vlnou bílou jako sníh,
+
+00:11:41.859 --> 00:11:45.528
+a všude kam Mary šla,
+jehňátko šlo s ní.
+
+00:11:45.528 --> 00:11:48.268
+Test, test, jedna dvě tři.
+
+00:11:48.268 --> 00:11:52.424
+Mary měla jehňátko
+s vlnou bílou jako sníh,
+
+00:11:52.424 --> 00:11:57.648
+a všude kam Mary šla,
+jehňátko šlo s ní.
+
+00:11:57.648 --> 00:12:01.665
+MR: A nyní, o 137 let později,
+
+00:12:01.665 --> 00:12:05.752
+můžeme získat zvuk v podobné kvalitě
+
+00:12:05.752 --> 00:12:09.831
+pouhým pozorováním objektů kamerou,
+jak kvůli zvuku vibrují,
+
+00:12:09.831 --> 00:12:11.765
+a dokonce to zvládneme s kamerou
+
+00:12:11.765 --> 00:12:15.999
+vzdálenou 4.5 metru, za zvukotěsným sklem.
+
+00:12:15.999 --> 00:12:19.219
+V tomto případě jsme zvládli
+zrekonstruovat tento zvuk.
+
+00:12:19.219 --> 00:12:24.513
+Hlas: Mary měla jehňátko
+s vlnou bílou jako sníh,
+
+00:12:24.513 --> 00:12:29.272
+a všude kam Mary šla,
+jehňátko šlo s ní.
+
+00:12:29.404 --> 00:12:33.034
+MR: První využití, které napadne
+každého, je odposlech.
+
+00:12:33.034 --> 00:12:36.029
+(Smích)
+
+00:12:36.029 --> 00:12:40.085
+Ale může to být dobré i pro jiné věci.
+
+00:12:40.085 --> 00:12:42.925
+Možná díky tomu například
+zvládneme v budoucnu
+
+00:12:42.925 --> 00:12:45.177
+zrekonstruovat zvuk napříč vesmírem,
+
+00:12:45.177 --> 00:12:48.753
+neboť zvuk se ve vesmíru nešíří,
+ale světlo ano.
+
+00:12:48.753 --> 00:12:51.157
+Jen začínáme objevovat
+
+00:12:51.157 --> 00:12:54.176
+další využití této nové technologie.
+
+00:12:54.176 --> 00:12:57.278
+Díky ní lze vidět fyzické procesy,
+o kterých víme, že existují,
+
+00:12:57.278 --> 00:13:00.564
+ale které jsme zatím nebyli schopni
+pozorovat vlastníma očima.
+
+00:13:00.564 --> 00:13:01.768
+Toto je náš tým.
+
+00:13:01.768 --> 00:13:04.647
+Vše, co jsem vám dnes ukázal,
+je výsledkem spolupráce
+
+00:13:04.647 --> 00:13:06.838
+s touto skvělou skupinou lidí
+
+00:13:06.838 --> 00:13:10.005
+a já vám doporučuji navštívit
+naši internetovou stránku,
+
+00:13:10.005 --> 00:13:11.451
+vyzkoušejte si to sami,
+
+00:13:11.451 --> 00:13:14.423
+a pojďte s námi objevovat
+svět miniaturních pohybů.
+
+00:13:14.423 --> 00:13:16.048
+Díky.
+
+00:13:16.048 --> 00:13:17.302
+(Potlesk)
+

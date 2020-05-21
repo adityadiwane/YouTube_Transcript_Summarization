@@ -1,0 +1,737 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: João Gil
+Revisora: Wanderley Jesus
+
+00:00:15.260 --> 00:00:18.260
+A ideia por detrás do vírus informático Stuxnet
+
+00:00:18.260 --> 00:00:20.260
+é na verdade bastante simples.
+
+00:00:20.260 --> 00:00:23.260
+Não queremos que o Irão tenha a bomba.
+
+00:00:23.260 --> 00:00:26.260
+O seu maior recurso para o desenvolvimento de armas nucleares
+
+00:00:26.260 --> 00:00:30.260
+é o complexo de enriquecimento de urânio em Natanz.
+
+00:00:30.260 --> 00:00:32.260
+As caixas cinzentas que vêem
+
+00:00:32.260 --> 00:00:35.260
+são sistemas de controlo em tempo real.
+
+00:00:35.260 --> 00:00:38.260
+Agora se conseguirmos comprometer estes sistemas
+
+00:00:38.260 --> 00:00:41.260
+que controlam a velocidade de accionadores e válvulas,
+
+00:00:41.260 --> 00:00:44.260
+conseguimos causar imensos problemas
+
+00:00:44.260 --> 00:00:46.260
+com o centrifugador.
+
+00:00:46.260 --> 00:00:48.260
+As caixas cinzentas não utilizam o software Windows;
+
+00:00:48.260 --> 00:00:51.260
+são uma tecnologia completamente diferente.
+
+00:00:51.260 --> 00:00:53.260
+Mas se conseguirmos
+
+00:00:53.260 --> 00:00:56.260
+colocar um bom vírus Windows
+
+00:00:56.260 --> 00:00:58.260
+num computador portátil
+
+00:00:58.260 --> 00:01:00.260
+que é usado por um engenheiro de manutenção
+
+00:01:00.260 --> 00:01:03.260
+para configurar esta caixa cinzenta,
+
+00:01:03.260 --> 00:01:05.260
+então aí estaremos em acção.
+
+00:01:05.260 --> 00:01:08.260
+E esta é a história por detrás do Stuxnet.
+
+00:01:08.260 --> 00:01:13.260
+Portanto começamos com um disseminador Windows.
+
+00:01:13.260 --> 00:01:16.260
+A carga entra na caixa cinzenta,
+
+00:01:16.260 --> 00:01:18.260
+danifica o centrifugador,
+
+00:01:18.260 --> 00:01:20.260
+e o programa nuclear do Irão é atrasado --
+
+00:01:20.260 --> 00:01:22.260
+missão cumprida.
+
+00:01:22.260 --> 00:01:24.260
+É simples, não?
+
+00:01:24.260 --> 00:01:27.260
+Quero contar-vos como é que descobrimos isto.
+
+00:01:27.260 --> 00:01:30.260
+Quando começámos a investigar o Stuxnext há seis meses,
+
+00:01:30.260 --> 00:01:33.260
+era-nos completamente desconhecido qual o objectivo desta coisa.
+
+00:01:33.260 --> 00:01:35.260
+A única coisa que era conhecida
+
+00:01:35.260 --> 00:01:38.260
+era a sua extremamente complexa parte Windows, do disseminador,
+
+00:01:38.260 --> 00:01:41.260
+que usou múltiplas vulnerabilidades previamente desconhecidas.
+
+00:01:41.260 --> 00:01:44.260
+E ele parecia querer fazer algo
+
+00:01:44.260 --> 00:01:46.260
+com estas caixas cinzentas, estes controladores em tempo real.
+
+00:01:46.260 --> 00:01:48.260
+Isso despertou a nossa atenção,
+
+00:01:48.260 --> 00:01:50.260
+então começámos um projecto laboratorial
+
+00:01:50.260 --> 00:01:54.260
+onde infectámos o nosso ambiente com o Stuxnet
+
+00:01:54.260 --> 00:01:56.260
+e vimos como isto funcionava.
+
+00:01:56.260 --> 00:01:59.260
+Depois algo muito engraçado aconteceu.
+
+00:01:59.260 --> 00:02:02.260
+O Stuxnet comportou-se como um rato de laboratório
+
+00:02:02.260 --> 00:02:05.260
+que não gostava do nosso queijo --
+
+00:02:05.260 --> 00:02:07.260
+cheirava, mas não queria comer.
+
+00:02:07.260 --> 00:02:09.260
+Isto não fazia sentido.
+
+00:02:09.260 --> 00:02:12.260
+Depois de experimentarmos diferentes sabores de queijo,
+
+00:02:12.260 --> 00:02:16.260
+apercebi-me que isto era um ataque com um alvo específico.
+
+00:02:16.260 --> 00:02:18.260
+É completamente específico.
+
+00:02:18.260 --> 00:02:20.260
+O disseminador procura activamente
+
+00:02:20.260 --> 00:02:22.260
+na caixa cinzenta,
+
+00:02:22.260 --> 00:02:25.260
+por uma configuração específica,
+
+00:02:25.260 --> 00:02:29.260
+e até mesmo se o programa que está a tentar infectar
+
+00:02:29.260 --> 00:02:31.260
+está a correr naquele alvo.
+
+00:02:31.260 --> 00:02:34.260
+Caso não esteja, o Stuxnet não faz nada.
+
+00:02:34.260 --> 00:02:36.260
+Isso chamou-me imenso à atenção,
+
+00:02:36.260 --> 00:02:38.260
+e começámos a trabalhar nisto
+
+00:02:38.260 --> 00:02:40.260
+quase 24 horas por dia,
+
+00:02:40.260 --> 00:02:43.260
+porque eu pensava, bem, nós não sabemos qual é o alvo.
+
+00:02:43.260 --> 00:02:45.260
+Poderia ser, por exemplo,
+
+00:02:45.260 --> 00:02:47.260
+uma central de energia dos Estados Unidos,
+
+00:02:47.260 --> 00:02:49.260
+ou uma central química Alemã.
+
+00:02:49.260 --> 00:02:52.260
+Por isso é bom que saibamos qual é o alvo depressa.
+
+00:02:52.260 --> 00:02:54.260
+Por isso extraímos e descompilámos
+
+00:02:54.260 --> 00:02:56.260
+o código do ataque,
+
+00:02:56.260 --> 00:02:59.260
+e descobrimos que está estruturado em duas bombas digitais --
+
+00:02:59.260 --> 00:03:02.260
+uma mais pequena e outra maior.
+
+00:03:02.260 --> 00:03:06.260
+E verificámos também que são muito profissionalmente desenhados
+
+00:03:06.260 --> 00:03:10.260
+por pessoas que têm, claramente, informação interna.
+
+00:03:10.260 --> 00:03:12.260
+Eles sabiam todos os bits e bites
+
+00:03:12.260 --> 00:03:14.260
+que teriam de atacar.
+
+00:03:14.260 --> 00:03:17.260
+Eles sabiam provavelmente o número do sapato do operator.
+
+00:03:17.260 --> 00:03:19.260
+Eles sabem tudo.
+
+00:03:19.260 --> 00:03:22.260
+E se ouviram dizer que o disseminador do Stuxnet
+
+00:03:22.260 --> 00:03:24.260
+é complexo e alta-tecnologia,
+
+00:03:24.260 --> 00:03:26.260
+deixem-me que lhes diga:
+
+00:03:26.260 --> 00:03:28.260
+a carga é ainda mais complexa.
+
+00:03:28.260 --> 00:03:30.260
+É muito mais do que qualquer
+
+00:03:30.260 --> 00:03:33.260
+outra coisa que tenhamos visto antes.
+
+00:03:33.260 --> 00:03:36.260
+Aqui podem ver uma amostra do código de ataque.
+
+00:03:36.260 --> 00:03:38.260
+Estamos a falar de cerca -
+
+00:03:38.260 --> 00:03:41.260
+cerca de 15.000 linhas de código.
+
+00:03:41.260 --> 00:03:44.260
+Parecem-se bastante com linguagem assembly da velha guarda.
+
+00:03:44.260 --> 00:03:46.260
+E queria dizer-vos como fomos capazes
+
+00:03:46.260 --> 00:03:48.260
+de decifrar este código.
+
+00:03:48.260 --> 00:03:51.260
+O que nós estávamos à procura acima de tudo eram invocações de funções do sistema
+
+00:03:51.260 --> 00:03:53.260
+porque nós sabemos o que elas fazem.
+
+00:03:53.260 --> 00:03:57.260
+Depois procurámos temporizadores e estruturas de dados
+
+00:03:57.260 --> 00:03:59.260
+e tentámos relacioná-las com o mundo real --
+
+00:03:59.260 --> 00:04:01.260
+com potenciais alvos do mundo real.
+
+00:04:01.260 --> 00:04:04.260
+Então precisámos de teorias de alvos
+
+00:04:04.260 --> 00:04:07.260
+que depois podemos provar ou não.
+
+00:04:07.260 --> 00:04:09.260
+De modo a obter as teorias dos alvos,
+
+00:04:09.260 --> 00:04:11.260
+lembramo-nos
+
+00:04:11.260 --> 00:04:13.260
+que é definitivamente sabotagem hardcore.
+
+00:04:13.260 --> 00:04:15.260
+Deve ser um alvo de grande valor,
+
+00:04:15.260 --> 00:04:18.260
+e a sua localização mais provável é no Irão,
+
+00:04:18.260 --> 00:04:22.260
+porque é onde a maioria das infecções foram reportadas.
+
+00:04:22.260 --> 00:04:25.260
+Não encontrámos vários milhares de alvos naquela área.
+
+00:04:25.260 --> 00:04:27.260
+Resume-se apenas
+
+00:04:27.260 --> 00:04:29.260
+à central nuclear de Bushehr
+
+00:04:29.260 --> 00:04:31.260
+e à central de enriquecimento de combustíveis de Natanz.
+
+00:04:31.260 --> 00:04:33.260
+Por isso eu disse ao meu assistente:
+
+00:04:33.260 --> 00:04:36.260
+"Traga-me uma lista de todos os peritos em centrifugadoras e centrais de energia da nossa base de clientes."
+
+00:04:36.260 --> 00:04:38.260
+Eu telefonei-lhes e tentei compreender como pensavam
+
+00:04:38.260 --> 00:04:40.260
+num esforço para combinar o seu conhecimento
+
+00:04:40.260 --> 00:04:43.260
+com a que encontrámos no código e nos dados.
+
+00:04:43.260 --> 00:04:45.260
+E funcionou muito bem.
+
+00:04:45.260 --> 00:04:47.260
+Por isso conseguimos associar
+
+00:04:47.260 --> 00:04:49.260
+a mais pequena bomba digital
+
+00:04:49.260 --> 00:04:51.260
+com o controlador do rotor.
+
+00:04:51.260 --> 00:04:54.260
+O rotor é aquela parte dentro da centrifugador que se mexe,
+
+00:04:54.260 --> 00:04:56.260
+o objecto preto que vêem.
+
+00:04:56.260 --> 00:04:59.260
+E se manipularem a velocidade deste rotor,
+
+00:04:59.260 --> 00:05:01.260
+são mesmo capazes de o partir,
+
+00:05:01.260 --> 00:05:05.260
+e eventualmente fazer com que a centrifugadora expluda.
+
+00:05:05.260 --> 00:05:07.260
+O que também vimos
+
+00:05:07.260 --> 00:05:09.260
+é que o objectivo do ataque
+
+00:05:09.260 --> 00:05:12.260
+era fazê-lo devagar e sorrateiramente --
+
+00:05:12.260 --> 00:05:14.260
+obviamente numa tentativa
+
+00:05:14.260 --> 00:05:17.260
+de levar os engenheiros de manutenção à loucura,
+
+00:05:17.260 --> 00:05:20.260
+pois não seriam capazes de descobrir a origem do problema rapidamente.
+
+00:05:20.260 --> 00:05:23.260
+A bomba digital maior -- decidimos atacá-la
+
+00:05:23.260 --> 00:05:25.260
+olhando muito atentamente
+
+00:05:25.260 --> 00:05:27.260
+para os dados e as estruturas de dados.
+
+00:05:27.260 --> 00:05:29.260
+Por exemplo, o número 164
+
+00:05:29.260 --> 00:05:31.260
+destaca-se bastante no código;
+
+00:05:31.260 --> 00:05:33.260
+não se pode desprezar.
+
+00:05:33.260 --> 00:05:35.260
+Comecei a pesquisar literatura científica
+
+00:05:35.260 --> 00:05:37.260
+sobre como estes centrifugadores
+
+00:05:37.260 --> 00:05:39.260
+são realmente construídos em Natanz
+
+00:05:39.260 --> 00:05:41.260
+e descobri que eles são estruturados
+
+00:05:41.260 --> 00:05:43.260
+naquilo a que se chama uma cascata,
+
+00:05:43.260 --> 00:05:47.260
+e cada cascata contém 164 centrifugadoras.
+
+00:05:47.260 --> 00:05:49.260
+Portanto isso fazia sentido, era uma ligação.
+
+00:05:49.260 --> 00:05:51.260
+E ficou ainda melhor.
+
+00:05:51.260 --> 00:05:53.260
+Estas centrifugadoras no Irão
+
+00:05:53.260 --> 00:05:57.260
+estão subdivididos em 15 chamados estágios.
+
+00:05:57.260 --> 00:05:59.260
+E advinhem o que é que encontrámos no código do ataque?
+
+00:05:59.260 --> 00:06:01.260
+Uma estrutura quase idêntica.
+
+00:06:01.260 --> 00:06:04.260
+O que era novamente uma boa ligação.
+
+00:06:04.260 --> 00:06:07.260
+E isto deu-nos muita confiança no que estávamos a fazer.
+
+00:06:07.260 --> 00:06:10.260
+Não me interpretem mal, não foi assim que aconteceu.
+
+00:06:10.260 --> 00:06:13.260
+Estes resultados foram obtidos
+
+00:06:13.260 --> 00:06:16.260
+durante várias semanas de árduo trabalho.
+
+00:06:16.260 --> 00:06:19.260
+E muitas vezes bloqueávamos
+
+00:06:19.260 --> 00:06:21.260
+e tínhamos que recuperar.
+
+00:06:21.260 --> 00:06:23.260
+Continuando, nós descobrimos
+
+00:06:23.260 --> 00:06:25.260
+que ambas as bombas digitais
+
+00:06:25.260 --> 00:06:27.260
+estavam de facto a apontar ao mesmo alvo,
+
+00:06:27.260 --> 00:06:29.260
+mas de diferentes ângulos.
+
+00:06:29.260 --> 00:06:32.260
+A bomba mais pequena pega numa cascata,
+
+00:06:32.260 --> 00:06:35.260
+e interfere com os rotores e abranda-os,
+
+00:06:35.260 --> 00:06:37.260
+e a bomba maior
+
+00:06:37.260 --> 00:06:39.260
+interfere com seis cascatas
+
+00:06:39.260 --> 00:06:41.260
+manipulando válvulas.
+
+00:06:41.260 --> 00:06:43.260
+Por isso, no geral, estavamos muito confiantes
+
+00:06:43.260 --> 00:06:45.260
+que tínhamos descoberto qual era o alvo.
+
+00:06:45.260 --> 00:06:48.260
+É Natanz, e é apenas Natanz.
+
+00:06:48.260 --> 00:06:50.260
+Por isso não nos temos de preocupar
+
+00:06:50.260 --> 00:06:52.260
+que outros alvos
+
+00:06:52.260 --> 00:06:54.260
+possam ser atingidos pelo Stuxnet.
+
+00:06:54.260 --> 00:06:57.260
+Aqui estão umas coisas muito fixes que vímos --
+
+00:06:57.260 --> 00:06:59.260
+que me deixaram perplexo.
+
+00:06:59.260 --> 00:07:01.260
+Aqui em baixo está a caixa cinzenta,
+
+00:07:01.260 --> 00:07:04.260
+e no topo vêem os centrifugadores.
+
+00:07:04.260 --> 00:07:06.260
+O que esta coisa faz
+
+00:07:06.260 --> 00:07:09.260
+é interceptar os valores devolvidos pelos sensores --
+
+00:07:09.260 --> 00:07:11.260
+como, por exemplo, pelos sensores de pressão
+
+00:07:11.260 --> 00:07:13.260
+e pelos sensores de vibração -
+
+00:07:13.260 --> 00:07:16.260
+e fornece ao código legítimo,
+
+00:07:16.260 --> 00:07:18.260
+que ainda está a correr durante o ataque,
+
+00:07:18.260 --> 00:07:20.260
+com dados falsos dos sensores.
+
+00:07:20.260 --> 00:07:22.260
+Aliás, estes dados falsos de entrada
+
+00:07:22.260 --> 00:07:25.260
+até já vêm pré-configurados pelo Stuxnet.
+
+00:07:25.260 --> 00:07:27.260
+Por isso é como nos filmes de Hollywood
+
+00:07:27.260 --> 00:07:29.260
+em que durante o assalto,
+
+00:07:29.260 --> 00:07:32.260
+a câmara de grande plano é alimentada com vídeo gravado previamente.
+
+00:07:32.260 --> 00:07:34.260
+É fixe, não é?
+
+00:07:35.260 --> 00:07:37.260
+A ideia aqui obviamente
+
+00:07:37.260 --> 00:07:40.260
+não é só enganar os operadores na sala de controlo.
+
+00:07:40.260 --> 00:07:44.260
+É na verdade muito mais perigosa e agressiva.
+
+00:07:44.260 --> 00:07:46.260
+A ideia
+
+00:07:46.260 --> 00:07:49.260
+é ultrapassar um sistema de segurança digital.
+
+00:07:50.260 --> 00:07:52.260
+Precisamos de sistemas de segurança digitais
+
+00:07:52.260 --> 00:07:55.260
+para situações em que um operador humano não reage atempadamente.
+
+00:07:55.260 --> 00:07:57.260
+Por exemplo, numa central eléctrica,
+
+00:07:57.260 --> 00:08:00.260
+quando uma grande turbina a vapor acelera demais,
+
+00:08:00.260 --> 00:08:03.260
+devem ser abertas válvulas de compensação num milisegundo.
+
+00:08:03.260 --> 00:08:06.260
+Obviamente que isto não pode ser feito por um operador humano.
+
+00:08:06.260 --> 00:08:08.260
+É aqui que precisamos de sistemas de defesa digitais.
+
+00:08:08.260 --> 00:08:10.260
+E quando eles são comprometidos,
+
+00:08:10.260 --> 00:08:13.260
+coisas muito más podem acontecer.
+
+00:08:13.260 --> 00:08:15.260
+A fábrica pode explodir.
+
+00:08:15.260 --> 00:08:18.260
+E nem os operadores nem o sistema de segurança dariam conta.
+
+00:08:18.260 --> 00:08:20.260
+É assustador.
+
+00:08:20.260 --> 00:08:22.260
+Mas ainda se torna pior.
+
+00:08:22.260 --> 00:08:25.260
+E isto é muito importante, o que eu vou dizer.
+
+00:08:25.260 --> 00:08:27.260
+Pensem nisto.
+
+00:08:27.260 --> 00:08:30.260
+O ataque é genérico.
+
+00:08:30.260 --> 00:08:34.260
+Não tem nada que ver especificamente
+
+00:08:34.260 --> 00:08:36.260
+com centrifugadores,
+
+00:08:36.260 --> 00:08:39.260
+com enriquecimento de urânio.
+
+00:08:39.260 --> 00:08:42.260
+Por isso, funcionaria bem, por exemplo,
+
+00:08:42.260 --> 00:08:44.260
+numa central eléctrica
+
+00:08:44.260 --> 00:08:47.260
+ou numa fábrica de automóveis.
+
+00:08:47.260 --> 00:08:49.260
+É genérico.
+
+00:08:49.260 --> 00:08:51.260
+E não é necessário -- como atacante --
+
+00:08:51.260 --> 00:08:54.260
+depositar a carga
+
+00:08:54.260 --> 00:08:56.260
+via uma drive USB,
+
+00:08:56.260 --> 00:08:58.260
+como vimos no caso do Stuxnet.
+
+00:08:58.260 --> 00:09:01.260
+Poderão ser usados também métodos convencionais de disseminação viral.
+
+00:09:01.260 --> 00:09:04.260
+Simplesmente espalha-se ao máximo possível.
+
+00:09:04.260 --> 00:09:06.260
+E se isso for feito,
+
+00:09:06.260 --> 00:09:08.260
+o que se obtém
+
+00:09:08.260 --> 00:09:13.260
+é uma cyber-arma de destruição em massa.
+
+00:09:14.260 --> 00:09:16.260
+Esta é a consequência
+
+00:09:16.260 --> 00:09:19.260
+com que temos de lidar.
+
+00:09:19.260 --> 00:09:22.260
+Por isso, infelizmente,
+
+00:09:22.260 --> 00:09:25.260
+a maioria dos alvos de tais ataques
+
+00:09:25.260 --> 00:09:27.260
+não está no Médio Oriente.
+
+00:09:27.260 --> 00:09:30.260
+Está nos Estados Unidos, Europa e Japão.
+
+00:09:30.260 --> 00:09:32.260
+Todas estas áreas verdes,
+
+00:09:32.260 --> 00:09:35.260
+são os ambientes ricos em alvos.
+
+00:09:35.260 --> 00:09:38.260
+Temos de enfrentar as consequências,
+
+00:09:38.260 --> 00:09:41.260
+devemos começar a preparar-nos agora.
+
+00:09:41.260 --> 00:09:43.260
+Obrigado.
+
+00:09:43.260 --> 00:09:49.260
+(Aplausos)
+
+00:09:49.260 --> 00:09:51.260
+Chris Anderson: Eu tenho uma pergunta.
+
+00:09:53.260 --> 00:09:55.260
+Ralph, tem sido bastante noticiado
+
+00:09:55.260 --> 00:09:57.260
+que as pessoas assumem que a Mossad
+
+00:09:57.260 --> 00:09:59.260
+é a principal entidade por detrás disto.
+
+00:09:59.260 --> 00:10:02.260
+Partilhas desta opinião?
+
+00:10:02.260 --> 00:10:04.260
+Ralph Langner : Okay, queres mesmo ouvir isso?
+
+00:10:04.260 --> 00:10:06.260
+Okay.
+
+00:10:06.260 --> 00:10:09.260
+A minha opinião é que a Mossad está envolvida,
+
+00:10:09.260 --> 00:10:12.260
+mas que a principal força não é Israel.
+
+00:10:12.260 --> 00:10:14.260
+A principal força por detrás disto
+
+00:10:14.260 --> 00:10:17.260
+é a superpotência tecnológica.
+
+00:10:17.260 --> 00:10:19.260
+Há apenas uma,
+
+00:10:19.260 --> 00:10:21.260
+que são os Estados Unidos -
+
+00:10:21.260 --> 00:10:23.260
+felizmente, felizmente.
+
+00:10:23.260 --> 00:10:25.260
+Porque de outro modo
+
+00:10:25.260 --> 00:10:28.260
+os nossos problemas seriam ainda maiores.
+
+00:10:28.260 --> 00:10:32.260
+CA: Obrigado por nos assustares de morte. Obrigado Ralph.
+
+00:10:32.260 --> 00:10:34.260
+(Aplausos)
+

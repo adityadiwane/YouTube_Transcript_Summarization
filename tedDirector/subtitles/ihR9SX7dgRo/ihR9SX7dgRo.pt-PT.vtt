@@ -1,0 +1,724 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Mariana Silva
+Revisora: Margarida Ferreira
+
+00:00:12.769 --> 00:00:14.729
+É emocionante estar aqui esta noite
+
+00:00:14.802 --> 00:00:17.081
+para partilhar algo
+em que estivemos a trabalhar
+
+00:00:17.126 --> 00:00:19.420
+durante mais de dois anos.
+
+00:00:19.062 --> 00:00:21.561
+É na área da manufatura aditiva,
+
+00:00:21.643 --> 00:00:24.760
+também conhecida como impressão 3D.
+
+00:00:24.333 --> 00:00:26.160
+Vejam este objeto aqui.
+
+00:00:26.369 --> 00:00:29.804
+Parece bastante simples,
+mas ao mesmo tempo é muito complexo.
+
+00:00:30.369 --> 00:00:33.574
+É um conjunto de estruturas
+geodésicas concêntricas
+
+00:00:33.620 --> 00:00:36.205
+com ligações entre cada uma delas.
+
+00:00:37.760 --> 00:00:42.453
+Neste contexto, não é fabricável
+com técnicas tradicionais de manufatura.
+
+00:00:43.163 --> 00:00:46.700
+A sua simetria torna impossível
+moldá-la por injeção.
+
+00:00:47.291 --> 00:00:50.753
+Não é sequer possível fabricá-la
+através de moagem.
+
+00:00:51.199 --> 00:00:53.764
+Este é um trabalho para uma impressora 3D,
+
+00:00:54.170 --> 00:00:57.808
+mas a maioria das impressoras 3D levaria
+três a dez horas para fabricá-la,
+
+00:00:58.345 --> 00:01:02.644
+e vamos correr o risco esta noite
+de tentar fabricá-la no palco
+
+00:01:02.753 --> 00:01:05.002
+ao longo desta palestra de 10 minutos.
+
+00:01:05.221 --> 00:01:06.732
+Desejem-nos sorte.
+
+00:01:08.170 --> 00:01:11.316
+Impressão 3D é um nome errado.
+
+00:01:11.444 --> 00:01:15.260
+É, na verdade, impressão 2D
+repetidas vezes,
+
+00:01:15.739 --> 00:01:19.781
+e, de facto, usa as tecnologias
+associadas com a impressão 2D.
+
+00:01:20.266 --> 00:01:22.615
+Pensem na impressão com jato de tinta,
+
+00:01:22.688 --> 00:01:25.752
+que coloca tinta na página
+para escrever letras
+
+00:01:25.833 --> 00:01:29.593
+e façam isso repetidas vezes
+até construir um objeto tridimensional.
+
+00:01:30.166 --> 00:01:32.237
+Na microeletrónica, usam uma coisa,
+
+00:01:32.291 --> 00:01:34.566
+de seu nome litografia
+para fazer a mesma coisa,
+
+00:01:34.638 --> 00:01:37.620
+para criar transístores
+e circuitos integrados
+
+00:01:37.360 --> 00:01:39.420
+e construir uma estrutura várias vezes.
+
+00:01:38.971 --> 00:01:41.419
+Todas essas técnicas são de impressão 2D.
+
+00:01:42.309 --> 00:01:45.661
+Sou químico,
+e também engenheiro de materiais
+
+00:01:45.807 --> 00:01:48.531
+e os meus colegas
+são também engenheiros de materiais,
+
+00:01:48.594 --> 00:01:50.393
+um químico, um físico.
+
+00:01:50.830 --> 00:01:53.728
+Começámos a interessar-nos
+pela impressão 3D.
+
+00:01:54.119 --> 00:01:59.123
+Muito frequentemente, como sabem,
+novas ideias são simplesmente ligações
+
+00:01:59.351 --> 00:02:03.650
+entre pessoas com experiências distintas
+em comunidades diferentes,
+
+00:02:03.039 --> 00:02:04.689
+e é essa a nossa história.
+
+00:02:06.311 --> 00:02:07.942
+Fomos inspirados
+
+00:02:08.005 --> 00:02:12.531
+pela cena do T-1000 no filme
+"Exterminador Implacável 2",
+
+00:02:13.158 --> 00:02:14.373
+e pensámos:
+
+00:02:14.546 --> 00:02:17.991
+Porque não poderá uma impressora 3D
+operar desta maneira
+
+00:02:18.555 --> 00:02:22.363
+quando existe um objeto 
+a erguer-se fora de uma poça
+
+00:02:22.872 --> 00:02:24.803
+em tempo real,
+
+00:02:25.340 --> 00:02:27.278
+praticamente sem desperdícios,
+
+00:02:27.569 --> 00:02:29.627
+para fazer um grande objeto?
+
+00:02:29.891 --> 00:02:31.308
+Tal como nos filmes.
+
+00:02:31.380 --> 00:02:34.697
+Poderíamos ser inspirados por Hollywood
+
+00:02:34.760 --> 00:02:37.731
+e encontrar maneiras de realmente
+fazer com que isto funcione?
+
+00:02:38.204 --> 00:02:40.042
+Foi esse o nosso desafio.
+
+00:02:40.579 --> 00:02:42.373
+A nossa abordagem seria:
+
+00:02:42.500 --> 00:02:44.081
+Se conseguíssemos fazê-lo,
+
+00:02:44.136 --> 00:02:47.491
+podíamos resolver os três problemas
+que impedem a impressão 3D
+
+00:02:47.536 --> 00:02:49.706
+de ser um processo de manufatura.
+
+00:02:49.906 --> 00:02:52.300
+Primeiro, a impressão 3D leva séculos.
+
+00:02:52.437 --> 00:02:56.555
+Há cogumelos que crescem mais depressa
+do que as impressões 3D.
+
+00:02:56.682 --> 00:02:58.510
+(Risos)
+
+00:02:59.010 --> 00:03:01.173
+O processo camada por camada
+
+00:03:01.382 --> 00:03:04.075
+leva a defeitos
+nas propriedades mecânicas.
+
+00:03:04.139 --> 00:03:07.513
+Se conseguíssemos maior velocidade,
+podíamos eliminar esses defeitos.
+
+00:03:08.004 --> 00:03:10.618
+Se conseguíssemos uma grande velocidade,
+
+00:03:10.672 --> 00:03:15.062
+podíamos começar a utilizar
+materiais autopolimerizáveis
+
+00:03:15.152 --> 00:03:18.320
+e podíamos ter propriedades fantásticas.
+
+00:03:18.600 --> 00:03:21.452
+Portanto, se isto resultasse,
+imitando Hollywood,
+
+00:03:22.600 --> 00:03:24.932
+podíamos, de facto,
+conseguir a manufatura 3D.
+
+00:03:26.522 --> 00:03:29.773
+A nossa abordagem é a utilização
+de conhecimentos básicos
+
+00:03:30.250 --> 00:03:31.727
+na química dos polímeros
+
+00:03:32.373 --> 00:03:38.026
+para aproveitar a luz e o oxigénio
+para um fabrico continuado.
+
+00:03:38.972 --> 00:03:41.609
+A luz e o oxigénio
+funcionam de formas diferentes.
+
+00:03:41.973 --> 00:03:44.961
+A luz pode pegar numa resina
+e transformá-la num objeto sólido,
+
+00:03:45.033 --> 00:03:47.024
+pode transformar um líquido num sólido.
+
+00:03:47.396 --> 00:03:50.249
+O oxigénio inibe esse processo.
+
+00:03:50.603 --> 00:03:54.160
+Por isso, a luz e o oxigénio
+são o oposto um do outro
+
+00:03:53.900 --> 00:03:55.808
+do ponto de vista químico.
+
+00:03:56.408 --> 00:03:59.584
+Se conseguíssemos controlar
+a luz e o oxigénio no espaço,
+
+00:03:59.821 --> 00:04:02.480
+podíamos controlar este processo.
+
+00:04:02.108 --> 00:04:05.559
+Referimo-nos a isto como PCIL.
+[Interface de Produção Contínua Líquida]
+
+00:04:05.668 --> 00:04:08.320
+Possui três componentes funcionais.
+
+00:04:08.285 --> 00:04:11.991
+Primeiro, tem um reservatório
+que contém a poça,
+
+00:04:12.146 --> 00:04:13.925
+tal como o T-1000.
+
+00:04:14.025 --> 00:04:16.441
+No fundo do reservatório
+há uma janela especial.
+
+00:04:16.486 --> 00:04:18.195
+Volto a isso mais tarde.
+
+00:04:18.286 --> 00:04:21.648
+Além disso, tem uma plataforma
+que se baixa em direção à poça,
+
+00:04:21.712 --> 00:04:24.055
+e puxa o objeto para fora do líquido.
+
+00:04:24.301 --> 00:04:28.105
+O terceiro componente
+é um sistema de projeção de luz digital
+
+00:04:28.132 --> 00:04:30.243
+por baixo do reservatório,
+
+00:04:30.325 --> 00:04:33.507
+iluminando a região com luz ultravioleta.
+
+00:04:34.186 --> 00:04:37.245
+A chave é precisamente que a janela
+no fundo deste reservatório,
+
+00:04:37.345 --> 00:04:40.220
+é um compósito,
+uma janela muito especial.
+
+00:04:39.970 --> 00:04:43.343
+Não só é transparente para a luz
+como é permeável para o oxigénio.
+
+00:04:43.616 --> 00:04:46.538
+Tem as características
+das lentes de contacto.
+
+00:04:47.700 --> 00:04:49.699
+Vejamos como funciona o processo.
+
+00:04:49.763 --> 00:04:53.020
+Podem começar a ver que,
+enquanto a plataforma baixa,
+
+00:04:52.959 --> 00:04:57.810
+num processo tradicional,
+com uma janela impermeável ao oxigénio,
+
+00:04:57.129 --> 00:04:59.304
+gera-se um padrão bidimensional.
+
+00:04:59.828 --> 00:05:03.190
+Isso acaba por aderir à janela
+com uma janela tradicional,
+
+00:05:03.326 --> 00:05:05.751
+e assim, para introduzir
+a camada seguinte,
+
+00:05:05.787 --> 00:05:07.325
+temos de separá-la,
+
+00:05:07.389 --> 00:05:10.216
+introduzir nova resina, reposicioná-la,
+
+00:05:10.271 --> 00:05:12.757
+e repetir este processo vezes sem conta.
+
+00:05:13.174 --> 00:05:15.054
+Mas com a nossa janela especial,
+
+00:05:15.144 --> 00:05:18.255
+com o oxigénio a partir da zona baixa,
+
+00:05:18.383 --> 00:05:20.208
+enquanto a luz o atinge,
+
+00:05:21.076 --> 00:05:23.627
+conseguimos que o oxigénio iniba a reação,
+
+00:05:23.746 --> 00:05:25.942
+e formamos uma zona vazia.
+
+00:05:26.370 --> 00:05:30.089
+Esta zona vazia tem dezenas
+de mícrones de espessura,
+
+00:05:30.552 --> 00:05:33.797
+— o que equivale a dois ou três diâmetros
+de um glóbulo vermelho —
+
+00:05:33.943 --> 00:05:36.528
+e na plataforma da janela
+permanece o líquido.
+
+00:05:36.574 --> 00:05:38.460
+Puxamos este objeto para cima.
+
+00:05:38.560 --> 00:05:40.789
+Como referimos num artigo científico,
+
+00:05:41.140 --> 00:05:44.711
+ao mudar o conteúdo do oxigénio,
+mudamos a espessura da zona vazia.
+
+00:05:45.502 --> 00:05:48.120
+Assim, temos um número de variáveis
+que controlamos:
+
+00:05:48.165 --> 00:05:49.448
+o conteúdo de oxigénio,
+
+00:05:49.503 --> 00:05:52.459
+a luz, a intensidade da luz, as doses,
+
+00:05:52.531 --> 00:05:54.284
+a viscosidade, a geometria,
+
+00:05:54.330 --> 00:05:58.260
+e utilizamos um software sofisticado
+para controlar este processo.
+
+00:05:58.517 --> 00:06:01.052
+O resultado é surpreendente.
+
+00:06:01.280 --> 00:06:05.261
+É 25 a 100 vezes mais rápido
+do que as impressoras 3D tradicionais,
+
+00:06:06.083 --> 00:06:07.799
+o que muda muita coisa.
+
+00:06:07.990 --> 00:06:12.198
+Além disso, a nossa capacidade
+de levar o líquido a esta plataforma,
+
+00:06:12.526 --> 00:06:15.629
+permitirá aumentar a velocidade
+umas 1000 vezes, segundo creio.
+
+00:06:16.066 --> 00:06:19.586
+Isso dá-nos a oportunidade
+de gerar grandes quantidades de calor.
+
+00:06:20.023 --> 00:06:23.422
+Enquanto engenheiro químico,
+a transferência de calor entusiasma-me
+
+00:06:23.949 --> 00:06:27.928
+e também a ideia de que poderemos um dia
+ter impressoras 3D refrigeradas por água
+
+00:06:28.001 --> 00:06:30.175
+porque funcionam muito depressa.
+
+00:06:30.257 --> 00:06:33.738
+Além disso, como criamos objetos,
+eliminamos as camadas,
+
+00:06:34.320 --> 00:06:36.294
+e as partes são monolíticas.
+
+00:06:36.375 --> 00:06:38.393
+Não vemos a estrutura da superfície.
+
+00:06:38.438 --> 00:06:40.877
+Temos superfícies molecularmente lisas.
+
+00:06:40.949 --> 00:06:44.926
+E as propriedades mecânicas
+dos objetos feitos numa impressora 3D
+
+00:06:45.126 --> 00:06:49.449
+são notáveis por terem propriedades
+que dependem da orientação
+
+00:06:49.567 --> 00:06:52.992
+com a qual são impressos,
+devido à sua estrutura por camadas.
+
+00:06:53.174 --> 00:06:55.564
+Mas quando criamos objetos desta forma,
+
+00:06:55.646 --> 00:06:58.924
+as propriedades não variam
+consoante a direção da impressão.
+
+00:06:59.188 --> 00:07:02.170
+Estas partes parecem ter sido injetadas,
+
+00:07:02.137 --> 00:07:05.112
+o que é muito diferente
+das manufaturas 3D tradicionais.
+
+00:07:06.030 --> 00:07:09.079
+Além disso, podemos utilizar
+
+00:07:09.142 --> 00:07:12.382
+qualquer polímero referido
+no manual de química
+
+00:07:12.536 --> 00:07:16.555
+e podemos conceber químicas
+com as propriedades
+
+00:07:16.646 --> 00:07:19.069
+que realmente queremos num objeto 3D.
+
+00:07:19.197 --> 00:07:21.225
+(Aplausos)
+
+00:07:21.461 --> 00:07:23.177
+Aqui está. É ótimo.
+
+00:07:25.869 --> 00:07:29.356
+Corremos sempre o risco de algo como isto
+não funcionar em palco, não é?
+
+00:07:29.997 --> 00:07:32.876
+Mas podemos ter materiais
+com ótimas propriedades mecânicas.
+
+00:07:33.012 --> 00:07:35.314
+Pela primeira vez, podemos ter elastómeros
+
+00:07:35.323 --> 00:07:38.180
+com grande elasticidade
+e grande amortecimento.
+
+00:07:37.965 --> 00:07:41.233
+Pensem no controlo de vibrações
+ou em boas sapatilhas, por exemplo.
+
+00:07:41.297 --> 00:07:44.043
+Podemos criar materiais
+com uma força incrível,
+
+00:07:44.648 --> 00:07:48.224
+com materiais muito fortes,
+numa proporção força-peso,
+
+00:07:48.296 --> 00:07:50.337
+excelentes elastómeros.
+
+00:07:50.455 --> 00:07:52.607
+Vou atirar isto para o público.
+
+00:07:53.062 --> 00:07:55.279
+Ótimas propriedades materiais.
+
+00:07:56.025 --> 00:07:59.176
+A oportunidade agora,
+se realmente criarmos uma parte
+
+00:07:59.258 --> 00:08:03.238
+que tem as propriedades necessárias
+para ser um produto final,
+
+00:08:03.347 --> 00:08:05.956
+e o fizermos numa velocidade recorde,
+
+00:08:06.020 --> 00:08:08.680
+é podermos realmente mudar a manufatura.
+
+00:08:08.770 --> 00:08:11.536
+Neste momento, a manufatura
+
+00:08:11.590 --> 00:08:13.690
+inclui a chamada cadeia digital.
+
+00:08:13.736 --> 00:08:16.161
+Na manufatura digital,
+passamos de um esboço CAD,
+
+00:08:16.215 --> 00:08:19.537
+para um desenho,
+para um protótipo de manufatura.
+
+00:08:19.637 --> 00:08:22.469
+Muitas vezes, a cadeia digital
+rompe-se logo no protótipo,
+
+00:08:22.532 --> 00:08:25.010
+não podemos avançar
+diretamente para a manufatura
+
+00:08:25.055 --> 00:08:28.552
+porque muitas das partes não têm
+as propriedades de um produto final.
+
+00:08:28.661 --> 00:08:31.230
+Podemos agora interligar a cadeia digital
+
+00:08:30.961 --> 00:08:34.774
+desde o desenho até ao protótipo
+e até à manufatura.
+
+00:08:35.047 --> 00:08:38.232
+Essa oportunidade abre a porta
+a todo o tipo de inovações,
+
+00:08:38.277 --> 00:08:43.139
+como carros mais eficientes 
+com grandes propriedades estruturais
+
+00:08:43.221 --> 00:08:45.200
+e com enorme proporção força-peso,
+
+00:08:45.263 --> 00:08:48.164
+novas pás de turbinas,
+todo o tipo de coisas maravilhosas.
+
+00:08:49.524 --> 00:08:54.443
+Imaginem que precisam de um "stent"
+numa situação de emergência.
+
+00:08:54.515 --> 00:08:58.413
+Em vez de o médico ir buscar
+um "stent" à prateleira
+
+00:08:58.431 --> 00:09:00.514
+com tamanhos normalizados,
+
+00:09:00.669 --> 00:09:04.570
+ter um "stent" personalizado
+para a nossa anatomia,
+
+00:09:04.688 --> 00:09:06.627
+com as nossas características,
+
+00:09:06.672 --> 00:09:09.399
+impresso numa situação de emergência
+em tempo real,
+
+00:09:09.427 --> 00:09:12.939
+com a vantagem de este "stent"
+perder a validade em 18 meses.
+
+00:09:13.005 --> 00:09:14.669
+Realmente muda tudo.
+
+00:09:14.733 --> 00:09:17.253
+Ou na odontologia, criando
+esse tipo de estruturas
+
+00:09:17.298 --> 00:09:20.224
+exatamente quando estamos sentados
+na cadeira do dentista.
+
+00:09:20.770 --> 00:09:23.395
+Observem as estruturas
+que os meus alunos estão a fazer
+
+00:09:23.431 --> 00:09:25.324
+na Universidade da Carolina do Norte.
+
+00:09:25.396 --> 00:09:27.951
+São estruturas incríveis à micro escala.
+
+00:09:28.133 --> 00:09:30.992
+Sabem, o mundo é realmente bom
+em nano fabrico.
+
+00:09:31.792 --> 00:09:35.309
+A Lei de Moore proporcionou objetos
+com 10 mícrones ou menos.
+
+00:09:35.419 --> 00:09:37.102
+Somos realmente bons nisto,
+
+00:09:37.175 --> 00:09:40.951
+mas, na verdade, é muito difícil
+criar objetos de 10 a 1000 mícrones,
+
+00:09:41.061 --> 00:09:42.735
+à mesoescala.
+
+00:09:43.081 --> 00:09:46.210
+As técnicas subtrativas
+da indústria do silicone
+
+00:09:45.914 --> 00:09:47.330
+não fazem isto muito bem,
+
+00:09:47.366 --> 00:09:49.188
+materiais semicondutores, por exemplo.
+
+00:09:49.251 --> 00:09:51.083
+Mas este processo é tão suave
+
+00:09:51.119 --> 00:09:53.495
+que podemos criar estes objetos
+desde a sua base
+
+00:09:53.550 --> 00:09:55.410
+usando manufatura aditiva
+
+00:09:55.446 --> 00:09:57.663
+e criar coisas incríveis, em segundos,
+
+00:09:57.717 --> 00:09:59.752
+criando novas tecnologias sensoriais,
+
+00:09:59.788 --> 00:10:02.373
+novas técnicas de administração
+de medicamentos,
+
+00:10:02.427 --> 00:10:05.969
+novas aplicações "lab-on-a-chip",
+enormes mudanças.
+
+00:10:07.069 --> 00:10:11.593
+Assim, a oportunidade de criar
+um objeto em tempo real
+
+00:10:11.803 --> 00:10:14.436
+que tem as propriedades
+de um produto final
+
+00:10:14.636 --> 00:10:17.484
+possibilita realmente a manufatura 3D.
+
+00:10:17.993 --> 00:10:20.812
+Para nós, isto é entusiasmante,
+porque isto é conseguir
+
+00:10:20.939 --> 00:10:26.972
+a intersecção entre hardware,
+software e ciência molecular.
+
+00:10:27.409 --> 00:10:31.456
+Mal posso esperar para ver o que
+"designers" e engenheiros de todo o mundo
+
+00:10:31.720 --> 00:10:34.149
+conseguirão fazer
+com esta incrível ferramenta.
+
+00:10:34.319 --> 00:10:36.192
+Obrigado pela vossa atenção.
+
+00:10:36.301 --> 00:10:39.356
+(Aplausos)
+

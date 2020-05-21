@@ -1,0 +1,1259 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: David Bernhardt
+Lektor: Laszlo Kereszturi
+
+00:00:15.260 --> 00:00:17.260
+Hány embernek kellett már Önök közül kitöltenie egy webes űrlapot,
+
+00:00:17.260 --> 00:00:19.260
+ahol arra kérték, hogy értelmezzen egy eltorzult karaktersort,
+
+00:00:19.260 --> 00:00:21.260
+mint mondjuk ez itt?
+
+00:00:21.260 --> 00:00:24.260
+Hányan találták ezt nagyon idegesítőnek?
+
+00:00:24.260 --> 00:00:26.260
+Rendben, kiváló. Ezt én találtam fel. (Nevetés)
+
+00:00:26.260 --> 00:00:28.260
+Vagyis egyike voltam azoknak, akik feltalálták.
+
+00:00:28.260 --> 00:00:30.260
+Ezt nevezik CAPTCHA-nak.
+
+00:00:30.260 --> 00:00:32.260
+És azért van ott, hogy biztosítsa, hogy Ön, vagyis az entitás, aki kitölti az űrlapot
+
+00:00:32.260 --> 00:00:35.260
+valóban egy ember és nem valamilyen számítógépes program,
+
+00:00:35.260 --> 00:00:37.260
+amit azért írtak, hogy milliószor és milliószor kitöltse az űrlapot.
+
+00:00:37.260 --> 00:00:39.260
+Azért működik, mert az emberek,
+
+00:00:39.260 --> 00:00:41.260
+legalábbis a nem-látássérült emberek,
+
+00:00:41.260 --> 00:00:43.260
+könnyedén el tudják olvasni ezeket az eltorzult, girbegurba karaktereket,
+
+00:00:43.260 --> 00:00:46.260
+míg a számítógépes programok még nem igazán képesek erre.
+
+00:00:46.260 --> 00:00:48.260
+Tehát például a Ticketmaster esetében
+
+00:00:48.260 --> 00:00:50.260
+azért kell Önnek begépelnie ezeket az eltorzult karaktereket,
+
+00:00:50.260 --> 00:00:52.260
+hogy megakadályozzuk a jegyüzéreket egy olyan program írásában,
+
+00:00:52.260 --> 00:00:54.260
+mellyel kettesével ugyan, de jegyek millióit vehetnék meg.
+
+00:00:54.260 --> 00:00:56.260
+CAPTCHA-kat szerte az interneten használnak,
+
+00:00:56.260 --> 00:00:58.260
+és mivel olyan gyakran használják őket, előfordul,
+
+00:00:58.260 --> 00:01:00.260
+hogy a véletlenszerű karakterek konkrét sorrendje, amit a felhasználó lát
+
+00:01:00.260 --> 00:01:02.260
+nem épp a legszerencsésebb.
+
+00:01:02.260 --> 00:01:05.260
+Itt egy példa a Yahoo regisztrációs oldaláról.
+
+00:01:05.260 --> 00:01:07.260
+A véletlenszerű karakterek, amiket a felhasználó látott
+
+00:01:07.260 --> 00:01:10.260
+W, A, I és T voltak, amik persze kiadnak egy szót. ("Várj")
+
+00:01:10.260 --> 00:01:13.260
+De a történet legszebb része az az üzenet,
+
+00:01:13.260 --> 00:01:16.260
+amit a Yahoo ügyfélszolgálata kapott úgy 20 perccel később.
+
+00:01:16.260 --> 00:01:19.260
+"Segítség! Több mint 20 perce várok, és nem történik semmi."
+
+00:01:19.260 --> 00:01:23.260
+(Nevetés)
+
+00:01:23.260 --> 00:01:25.260
+A felhasználó azt hitte várnia kell.
+
+00:01:25.260 --> 00:01:28.260
+Ez persze nem olyan rossz, mint ez a szegény felhasználó.
+
+00:01:28.260 --> 00:01:30.260
+"Restart" - "Újraindítás"
+
+00:01:30.260 --> 00:01:33.260
+A CAPTCHA Projektet úgy 10 éve kezdtük itt a Carnegie Melllon Egyetemen (Pennsylvania, USA),
+
+00:01:33.260 --> 00:01:35.260
+és azóta mindenütt használják.
+
+00:01:35.260 --> 00:01:37.260
+Hadd meséljek most egy másik projektről, ami pár évvel később kezdtünk,
+
+00:01:37.260 --> 00:01:40.260
+ami nagyjából a CAPTCHA következő fejlődési állomása.
+
+00:01:40.260 --> 00:01:42.260
+Ezt a projektet úgy hívjuk, hogy reCAPTCHA,
+
+00:01:42.260 --> 00:01:44.260
+és szintén itt a Carnegie Mellon Egyetemen kezdtünk hozzá,
+
+00:01:44.260 --> 00:01:46.260
+majd alapítottunk egy céget a folytatáshoz.
+
+00:01:46.260 --> 00:01:48.260
+Aztán úgy másfél évvel ezelőtt
+
+00:01:48.260 --> 00:01:50.260
+a Google megvette ezt a céget.
+
+00:01:50.260 --> 00:01:52.260
+Hadd meséljem el mibe kezdett bele ez a projekt.
+
+00:01:52.260 --> 00:01:55.260
+Ez a projekt a következő felismerésből indult:
+
+00:01:55.260 --> 00:01:57.260
+Kiderült, hogy hozzávetőlegesen 200 millió CAPTCHA-t
+
+00:01:57.260 --> 00:02:00.260
+gépelnek be az emberek naponta, szerte a világon.
+
+00:02:00.260 --> 00:02:02.260
+Mikor ezt először hallottam, elég büszke voltam magamra.
+
+00:02:02.260 --> 00:02:04.260
+Azt gondoltam, nézzenek oda micsoda hatása lett a kutatásomnak.
+
+00:02:04.260 --> 00:02:06.260
+Viszont nem sokkal később rossz érzésem támadt.
+
+00:02:06.260 --> 00:02:08.260
+Az a helyzet, hogy minden alkalommal mikor valaki begépel egy CAPTCHA-t,
+
+00:02:08.260 --> 00:02:11.260
+tulajdonképpen veszít 10 másodpercet az életéből,
+
+00:02:11.260 --> 00:02:13.260
+és ha ezt megszorozzuk 200 millióval, azt kapjuk,
+
+00:02:13.260 --> 00:02:16.260
+hogy az egész emberiség úgy 500.000 órát pazarol el naponta arra,
+
+00:02:16.260 --> 00:02:18.260
+hogy ezeket az idegesítő CAPTCHA-kat begépelje.
+
+00:02:18.260 --> 00:02:20.260
+Ekkor kezdtem magam rosszul érezni.
+
+00:02:20.260 --> 00:02:22.260
+(Nevetés)
+
+00:02:22.260 --> 00:02:25.260
+Először arra gondoltam, hogy nem szabadulhatunk meg csak úgy a CAPTCHA-któl
+
+00:02:25.260 --> 00:02:27.260
+hiszen a web biztonsága részben ezektől függ.
+
+00:02:27.260 --> 00:02:30.260
+Aztán azon kezdtem gondolkozni, hogy nem tudnánk-e felhasználni ezt az erőfeszítést
+
+00:02:30.260 --> 00:02:32.260
+valamire, ami hasznos az emberiségnek?
+
+00:02:32.260 --> 00:02:34.260
+Nos... a következőre jöttünk rá.
+
+00:02:34.260 --> 00:02:36.260
+Amikor valaki begépel egy CAPTCHA-t, abban a 10 másodpercben
+
+00:02:36.260 --> 00:02:38.260
+az illető agya valami csodálatos dolgot művel.
+
+00:02:38.260 --> 00:02:40.260
+Az emberi agy olyasmikre képes, amikre a számítógépek még nem.
+
+00:02:40.260 --> 00:02:43.260
+Szóval hogyan hasznosíthatnánk ezeket a 10 másodperceket?
+
+00:02:43.260 --> 00:02:45.260
+Másképpen fogalmazva,
+
+00:02:45.260 --> 00:02:47.260
+létezik-e olyan hatalmas probléma, amit még nem tudunk számítógépekkel megoldani,
+
+00:02:47.260 --> 00:02:50.260
+de fel tudunk darabolni picinyke 10 másodperces szeletekre,
+
+00:02:50.260 --> 00:02:52.260
+amiket egy felhasználó könnyedén meg tud oldani,
+
+00:02:52.260 --> 00:02:54.260
+mialatt megold egy CAPTCHA-t?
+
+00:02:54.260 --> 00:02:56.260
+A válasz "igen", és pontosan ez az amit jelenleg csinálunk.
+
+00:02:56.260 --> 00:02:59.260
+Talán nem tudják, de ha mostanában begépelnek egy CAPTCHA-t,
+
+00:02:59.260 --> 00:03:01.260
+nem csak hitelesítik magukat, mint emberi lények,
+
+00:03:01.260 --> 00:03:03.260
+de ráadásul segítenek nekünk könyveket digitalizálni.
+
+00:03:03.260 --> 00:03:05.260
+Hadd magyarázzam el hogyan is működik ez.
+
+00:03:05.260 --> 00:03:07.260
+Sok projekt létezik, melyben könyveket próbálnak digitalizálni.
+
+00:03:07.260 --> 00:03:10.260
+A Google-nek is van egy ilyen projektje, és az Internet Archívumnak is.
+
+00:03:10.260 --> 00:03:12.260
+Az Amazon is, most épp a Kindle e-book olvasójához, szintén próbál könyveket digitalizálni.
+
+00:03:12.260 --> 00:03:14.260
+Ez alapvetően úgy történik,
+
+00:03:14.260 --> 00:03:16.260
+hogy fognak egy régi könyvet...
+
+00:03:16.260 --> 00:03:18.260
+Láttak már ilyen dolgokat ugye? Mármint könyveket...
+
+00:03:18.260 --> 00:03:20.260
+(Nevetés)
+
+00:03:20.260 --> 00:03:22.260
+Szóval fognak egy könyvet, és beszkennelik az egészet.
+
+00:03:22.260 --> 00:03:24.260
+Namármost beszkennelni egy könyvet, olyan
+
+00:03:24.260 --> 00:03:26.260
+mintha a könyv minden oldaláról készítenénk egy digitális fotót.
+
+00:03:26.260 --> 00:03:28.260
+Lesz egy képünk a könyv összes oldaláról,
+
+00:03:28.260 --> 00:03:30.260
+ahol mindegyik képen rengeteg szöveg van.
+
+00:03:30.260 --> 00:03:32.260
+A folyamat következő lépése, hogy a számítógépnek
+
+00:03:32.260 --> 00:03:35.260
+képesnek kell lennie felismerni a képen található összes szót.
+
+00:03:35.260 --> 00:03:37.260
+Ehhez egy OCR nevű technológiát használnak,
+
+00:03:37.260 --> 00:03:39.260
+ami az 'Optical Character Recognition' rövidítése, (optikai karakterfelismerés)
+
+00:03:39.260 --> 00:03:41.260
+ami fog egy képet egy szövegről,
+
+00:03:41.260 --> 00:03:43.260
+és megpróbálja kitalálni, hogy milyen szöveg van benne.
+
+00:03:43.260 --> 00:03:45.260
+A probléma az, hogy az OCR nem tökéletes.
+
+00:03:45.260 --> 00:03:47.260
+Különösen régi könyvek esetén,
+
+00:03:47.260 --> 00:03:50.260
+ahol elmosódott a tinta és megsárgultak a lapok,
+
+00:03:50.260 --> 00:03:52.260
+az OCR sok szót nem képes felismerni.
+
+00:03:52.260 --> 00:03:54.260
+Például ha valamit több mint 50 évvel ezelőtt írtak,
+
+00:03:54.260 --> 00:03:57.260
+a számítógép úgy a szavak 30 százalékát nem képes felismerni.
+
+00:03:57.260 --> 00:03:59.260
+Tehát, amit mi csinálunk az az, hogy
+
+00:03:59.260 --> 00:04:01.260
+fogjuk az összes szót, amit a számítógép nem ismer fel,
+
+00:04:01.260 --> 00:04:03.260
+és embereket veszünk rá, hogy értelmezzék őket,
+
+00:04:03.260 --> 00:04:05.260
+mialatt begépelnek egy CAPTCHA-t az interneten.
+
+00:04:05.260 --> 00:04:08.260
+Tehát a következő alkalommal mikor begépelnek egy CAPTCHA-t, ezek a szavak, amiket begépelnek
+
+00:04:08.260 --> 00:04:11.260
+valójában digitalizálás alatt álló könyvekből való szavak,
+
+00:04:11.260 --> 00:04:13.260
+amiket a számítógép nem tudott felismerni.
+
+00:04:13.260 --> 00:04:15.260
+Azért láthatnak mostanában két szót egy helyett,
+
+00:04:15.260 --> 00:04:17.260
+mert ezen szavak egyike, egy olyan szó,
+
+00:04:17.260 --> 00:04:19.260
+amit a rendszer épp most szedett ki egy könyvből,
+
+00:04:19.260 --> 00:04:22.260
+mivel nem tudta mi az, és így Önöknek fogja megmutatni.
+
+00:04:22.260 --> 00:04:25.260
+De mivel a rendszer nem tudja mi a szó, így nem képes értékelni a válaszok helyességét.
+
+00:04:25.260 --> 00:04:27.260
+Ezért adunk egy másik szót is,
+
+00:04:27.260 --> 00:04:29.260
+aminek a rendszer ténylegesen tudja a jelentését.
+
+00:04:29.260 --> 00:04:31.260
+Nem mondjuk meg melyik szó melyik, csak arra kérjük, hogy gépelje be mindkettőt.
+
+00:04:31.260 --> 00:04:33.260
+És ha begépelik a megfelelő szót,
+
+00:04:33.260 --> 00:04:35.260
+aminek a rendszer már tudja a jelentését,
+
+00:04:35.260 --> 00:04:37.260
+akkor feltételezi, hogy Önök emberek,
+
+00:04:37.260 --> 00:04:39.260
+és bizalommal feltételezi, hogy a másik szót is helyesen gépelték be.
+
+00:04:39.260 --> 00:04:42.260
+És ha ezt az eljárást megismételjük 10 különböző emberrel,
+
+00:04:42.260 --> 00:04:44.260
+és mindegyikük egyetért az új szó helyes begépelésében,
+
+00:04:44.260 --> 00:04:46.260
+akkor sikerült egy újabb szót pontosan digitalizálnunk.
+
+00:04:46.260 --> 00:04:48.260
+Tehát így működik a rendszer.
+
+00:04:48.260 --> 00:04:51.260
+És mivel úgy négy vagy öt éve tettük közzé,
+
+00:04:51.260 --> 00:04:53.260
+sok weboldal átállt a régi CAPTCHA-ról,
+
+00:04:53.260 --> 00:04:55.260
+amivel az emberek az idejüket vesztegették, az új CAPTHCA-ra,
+
+00:04:55.260 --> 00:04:57.260
+amivel segítenek nekünk könyveket digitalizálni.
+
+00:04:57.260 --> 00:04:59.260
+Tehát például a Ticketmaster.
+
+00:04:59.260 --> 00:05:02.260
+Minden alkalommal, mikor vesznek egy jegyet a Ticketmasteren, segítenek digitalizálni egy könyvet.
+
+00:05:02.260 --> 00:05:04.260
+Facebook: minden alkalommal mikor megjelölnek valakit ismerősként, vagy megböknek valakit,
+
+00:05:04.260 --> 00:05:06.260
+segítenek digitalizálni egy könyvet.
+
+00:05:06.260 --> 00:05:09.260
+A Twitter is, és körülbelül 350.000 másik weboldal is a reCAPTCHA-t használ.
+
+00:05:09.260 --> 00:05:11.260
+Valójában olyan magas a reCAPTCHA-t használó weboldalak száma,
+
+00:05:11.260 --> 00:05:14.260
+hogy a naponta digitalizált szavak száma igencsak óriási.
+
+00:05:14.260 --> 00:05:16.260
+Körülbelül 100 millió naponta,
+
+00:05:16.260 --> 00:05:20.260
+ami úgy 2.5 millió könyvnek felel meg évente.
+
+00:05:20.260 --> 00:05:22.260
+És mindezt szavanként érjük el,
+
+00:05:22.260 --> 00:05:24.260
+azzal, hogy az emberek CAPTCHA-kat gépelnek az interneten.
+
+00:05:24.260 --> 00:05:32.260
+(Taps)
+
+00:05:32.260 --> 00:05:34.260
+Természetesen,
+
+00:05:34.260 --> 00:05:36.260
+mivel ilyen sok szóval dolgozunk naponta,
+
+00:05:36.260 --> 00:05:38.260
+vicces dolgok fordulhatnak elő.
+
+00:05:38.260 --> 00:05:40.260
+És ez most ráadásul különösen igaz, mivel most már két,
+
+00:05:40.260 --> 00:05:42.260
+véletlenszerűen választott angol szót adunk az embereknek egymás mellett.
+
+00:05:42.260 --> 00:05:44.260
+Így valóban vicces dolgok történhetnek.
+
+00:05:44.260 --> 00:05:46.260
+Egyszer például ezt a szót jelenítettük meg.
+
+00:05:46.260 --> 00:05:48.260
+Ez a "Keresztények" szó, semmi baj nincs vele.
+
+00:05:48.260 --> 00:05:51.260
+Azonban ha egy másik véletlenszerűen választott szóval együtt jelenítjük meg,
+
+00:05:51.260 --> 00:05:53.260
+szörnyű dolgok történhetnek.
+
+00:05:53.260 --> 00:05:55.260
+Így láthatjuk például ezt: "rossz keresztények"
+
+00:05:55.260 --> 00:05:58.260
+De a helyzet még ennél is rosszabb, hiszen a weboldal, ahol ezt a két szót mutattuk,
+
+00:05:58.260 --> 00:06:01.260
+éppenséggel az "Isten Királyságának Követsége" nevet viselte.
+
+00:06:01.260 --> 00:06:03.260
+(Nevetés)
+
+00:06:03.260 --> 00:06:05.260
+Hoppá.
+
+00:06:05.260 --> 00:06:08.260
+(Nevetés)
+
+00:06:08.260 --> 00:06:10.260
+Itt egy másik borzasztó eset.
+
+00:06:10.260 --> 00:06:12.260
+JohnEdwards.com (liberális politikus az Egyesült Államokban)
+
+00:06:12.260 --> 00:06:15.260
+"Átkozott liberális"
+
+00:06:15.260 --> 00:06:17.260
+(Nevetés)
+
+00:06:17.260 --> 00:06:20.260
+Szóval naponta sértegetjük az embereket bal és jobb oldalon egyaránt.
+
+00:06:20.260 --> 00:06:22.260
+Persze nem csak sértegetjük őket.
+
+00:06:22.260 --> 00:06:25.260
+Tudják az a helyzet, hogy mióta két véletlenszerű szót mutatunk,
+
+00:06:25.260 --> 00:06:27.260
+érdekes dolgok tudnak megesni.
+
+00:06:27.260 --> 00:06:29.260
+Igazából a jelenség egy meglehetősen nagy
+
+00:06:29.260 --> 00:06:32.260
+internetes mémmé nőtte ki magát,
+
+00:06:32.260 --> 00:06:34.260
+amiben emberek tízezrei vettek részt,
+
+00:06:34.260 --> 00:06:36.260
+és amit CAPTCHA művészetnek hívunk.
+
+00:06:36.260 --> 00:06:38.260
+Bizonyára néhányan már hallottak róla.
+
+00:06:38.260 --> 00:06:40.260
+A következőképpen működik.
+
+00:06:40.260 --> 00:06:42.260
+Képzeljék el, hogy internetezés közben látnak egy CAPTCHA-t,
+
+00:06:42.260 --> 00:06:44.260
+amit valamiért különlegesnek tartanak,
+
+00:06:44.260 --> 00:06:46.260
+mint például ez a CAPTCHA: "láthatatlan kenyérpirító".
+
+00:06:46.260 --> 00:06:48.260
+Ilyenkor készítenek egy képernyőképet,
+
+00:06:48.260 --> 00:06:50.260
+aztán persze kitöltik a CAPTCHA-t,
+
+00:06:50.260 --> 00:06:52.260
+mert segítenek nekünk könyveket digitalizálni,
+
+00:06:52.260 --> 00:06:54.260
+de aztán... először csinálnak egy képernyőképet,
+
+00:06:54.260 --> 00:06:56.260
+és aztán rajzolnak valami odaillőt.
+
+00:06:56.260 --> 00:06:58.260
+"láthatatlan kenyérpirító" (Nevetés)
+
+00:06:58.260 --> 00:07:01.260
+Ez így működik.
+
+00:07:01.260 --> 00:07:04.260
+Több tízezer van ezekből.
+
+00:07:04.260 --> 00:07:06.260
+Némelyikük nagyon édes: "összeszorítottam"
+
+00:07:06.260 --> 00:07:08.260
+"összeszorítottam" (Nevetés)
+
+00:07:08.260 --> 00:07:10.260
+Némelyik viccesebb.
+
+00:07:10.260 --> 00:07:13.260
+"betépett alapítók"
+
+00:07:13.260 --> 00:07:16.260
+"betépett alapítók" (Nevetés)
+
+00:07:16.260 --> 00:07:18.260
+És némelyiken,
+
+00:07:18.260 --> 00:07:21.260
+mint a "paleontológikus shvizén"-n,
+
+00:07:21.260 --> 00:07:23.260
+még Snoop Dogg is feltűnik.
+
+00:07:23.260 --> 00:07:26.260
+(Nevetés)
+
+00:07:26.260 --> 00:07:28.260
+Oké, ez a kedvenc reCAPTCHA-s számom,
+
+00:07:28.260 --> 00:07:31.260
+vagyis ez az, amit leginkább kedvelek ebben a projektben.
+
+00:07:31.260 --> 00:07:33.260
+Ez a különböző emberek száma, akik segítettek nekünk
+
+00:07:33.260 --> 00:07:36.260
+a reCAPTCHA-n keresztül digitalizálni akár csak egyetlen szavát egy könyvnek.
+
+00:07:36.260 --> 00:07:38.260
+750 millió ember,
+
+00:07:38.260 --> 00:07:40.260
+ami valamivel több, mint a világ lakosságának 10 százaléka,
+
+00:07:40.260 --> 00:07:42.260
+segített nekünk az emberi tudás digitalizálásában.
+
+00:07:42.260 --> 00:07:45.260
+És ezek azok a számok, amik leginkább motiválják a kutatási céljaimat.
+
+00:07:45.260 --> 00:07:48.260
+A következő kérdés motiválja a kutatásaimat:
+
+00:07:48.260 --> 00:07:50.260
+Ha az emberiség nagyléptékű eredményeit tekintjük,
+
+00:07:50.260 --> 00:07:52.260
+azokat melyek igazán hatalmasak,
+
+00:07:52.260 --> 00:07:55.260
+melyekben az emberiség összefogott egy történelmi tettre,
+
+00:07:55.260 --> 00:07:57.260
+mint például az egyiptomi piramisok megépítése,
+
+00:07:57.260 --> 00:07:59.260
+vagy a Panama Csatorna megépítése,
+
+00:07:59.260 --> 00:08:01.260
+vagy az első ember Holdra juttatása.
+
+00:08:01.260 --> 00:08:03.260
+Van egy közös vonás mindezekben,
+
+00:08:03.260 --> 00:08:05.260
+mégpedig az, hogy mindegyikhez körülbelül ugyanannyi ember munkája kellett,
+
+00:08:05.260 --> 00:08:08.260
+ami elég fura. Mindegyik úgy 100.000 ember munkájával jött létre.
+
+00:08:08.260 --> 00:08:11.260
+És ennek az az oka, hogy az internet előtt
+
+00:08:11.260 --> 00:08:13.260
+100.000 embernél többet koordinálni,
+
+00:08:13.260 --> 00:08:16.260
+nemhogy megfizetni, lényegében lehetetlen volt.
+
+00:08:16.260 --> 00:08:18.260
+De manapság van internetünk, és épp most mutattam Önöknek
+
+00:08:18.260 --> 00:08:20.260
+egy projektet, melyben 750 millió ember
+
+00:08:20.260 --> 00:08:22.260
+segít nekünk digitalizálni az emberi tudást.
+
+00:08:22.260 --> 00:08:24.260
+Tehát a kérdés, ami a kutatásaimat motiválja az az,
+
+00:08:24.260 --> 00:08:27.260
+hogy ha képesek vagyunk 100.000 emberrel embert juttatni a Holdra,
+
+00:08:27.260 --> 00:08:29.260
+akkor mire vagyunk képesek 100 millió emberrel?
+
+00:08:29.260 --> 00:08:31.260
+Erre a kérdésre alapozva,
+
+00:08:31.260 --> 00:08:33.260
+rengeteg különböző projekttel foglalkoztunk.
+
+00:08:33.260 --> 00:08:36.260
+Az egyikkel kapcsolatban különösen izgatott vagyok.
+
+00:08:36.260 --> 00:08:38.260
+Az elmúlt másfél évben ezen dolgoztunk,
+
+00:08:38.260 --> 00:08:40.260
+viszonylag csendesen.
+
+00:08:40.260 --> 00:08:42.260
+Hivatalosan még nem indult el. Duolingo a neve.
+
+00:08:42.260 --> 00:08:44.260
+Mivel még nem indult el, pssszt!
+
+00:08:44.260 --> 00:08:46.260
+(Nevetés)
+
+00:08:46.260 --> 00:08:48.260
+Oké, megbízom magukban.
+
+00:08:48.260 --> 00:08:50.260
+Tehát erről szól a projekt, és a következőképp indult.
+
+00:08:50.260 --> 00:08:52.260
+Azzal kezdődött, hogy feltettem egy kérdést az egyik végzős hallgatómnak,
+
+00:08:52.260 --> 00:08:54.260
+Severin Hacker-nek.
+
+00:08:54.260 --> 00:08:56.260
+Oké, ő itt Severin Hacker.
+
+00:08:56.260 --> 00:08:58.260
+Szóval feltettem a kérdést egy végzős hallgatómnak.
+
+00:08:58.260 --> 00:09:00.260
+Egyébként jól hallották,
+
+00:09:00.260 --> 00:09:02.260
+a vezetékneve Hacker.
+
+00:09:02.260 --> 00:09:04.260
+Feltettem neki a kérdést:
+
+00:09:04.260 --> 00:09:06.260
+Hogyan tehetünk szert 100 millió emberre,
+
+00:09:06.260 --> 00:09:09.260
+akik ingyen lefordítják a webet minden nagyobb nyelvre?
+
+00:09:09.260 --> 00:09:11.260
+Rendben, tehát egy jó pár dolgot el kell mondani a kérdésről.
+
+00:09:11.260 --> 00:09:13.260
+Először is a web lefordítása.
+
+00:09:13.260 --> 00:09:16.260
+Ebben a pillanatban a web számos nyelvre van felosztva.
+
+00:09:16.260 --> 00:09:18.260
+Egy nagy része angol.
+
+00:09:18.260 --> 00:09:20.260
+Ha nem tudnak angolul, nem tudnak hozzáférni.
+
+00:09:20.260 --> 00:09:22.260
+De vannak hatalmas részei más nyelveken is,
+
+00:09:22.260 --> 00:09:25.260
+melyekhez szintén nem fér hozzá, aki nem beszél azokon a nyelveken.
+
+00:09:25.260 --> 00:09:28.260
+Én az egész webet szeretném lefordítani, legalábbis a nagy részét
+
+00:09:28.260 --> 00:09:30.260
+minden nagyobb nyelvre.
+
+00:09:30.260 --> 00:09:32.260
+Ezt szeretném tenni.
+
+00:09:32.260 --> 00:09:35.260
+Néhányan talán most azt kérdezik, hogy miért nem használunk számítógépeket a fordításhoz?
+
+00:09:35.260 --> 00:09:37.260
+Miért nem használhatunk gépi fordítást?
+
+00:09:37.260 --> 00:09:39.260
+A gépi fordítás manapság már lefordít néhány mondatot itt-ott.
+
+00:09:39.260 --> 00:09:41.260
+Miért nem használjuk arra, hogy lefordítsuk az egész webet?
+
+00:09:41.260 --> 00:09:43.260
+Nos a probléma ezzel az, hogy még nem elég pontos,
+
+00:09:43.260 --> 00:09:45.260
+és valószínűleg nem is lesz az a következő 15-20 évben.
+
+00:09:45.260 --> 00:09:47.260
+Sokat hibázik.
+
+00:09:47.260 --> 00:09:49.260
+És még akkor is, mikor nem téved,
+
+00:09:49.260 --> 00:09:52.260
+mivel olyan sok hibát vét, nem tudhatjuk, hogy megbízhatunk-e benne.
+
+00:09:52.260 --> 00:09:54.260
+Hadd mutassak egy példát
+
+00:09:54.260 --> 00:09:56.260
+valamire, ami gépi fordítással készült.
+
+00:09:56.260 --> 00:09:58.260
+Igazából ez egy fórum hozzászólás.
+
+00:09:58.260 --> 00:10:01.260
+Valaki a JavaScriptről próbált kérdezni valamit.
+
+00:10:01.260 --> 00:10:04.260
+Japánról lett angolra fordítva.
+
+00:10:04.260 --> 00:10:06.260
+Oké, hagyom, hogy elolvassák.
+
+00:10:06.260 --> 00:10:08.260
+Az író bocsánatkéréssel kezdi
+
+00:10:08.260 --> 00:10:10.260
+amiért a fordítást géppel végezte.
+
+00:10:10.260 --> 00:10:13.260
+A következő mondat a kérdés bevezetője,
+
+00:10:13.260 --> 00:10:15.260
+szóval az író csak magyaráz valamit.
+
+00:10:15.260 --> 00:10:18.260
+Ne feledjék, a kérdés a JavaScript nyelvről szól.
+
+00:10:19.260 --> 00:10:23.260
+"Gyakran a kecske-idő telepítésekor az hiba hányódik."
+
+00:10:23.260 --> 00:10:27.260
+(Nevetés)
+
+00:10:27.260 --> 00:10:30.260
+Aztán jön a kérdés első része.
+
+00:10:30.260 --> 00:10:34.260
+"Milyen sokszor mint a szél, egy rúd és egy sárkány?"
+
+00:10:34.260 --> 00:10:36.260
+(Nevetés)
+
+00:10:36.260 --> 00:10:39.260
+Aztán a kedvenc részem következik.
+
+00:10:39.260 --> 00:10:42.260
+"Ez sérti az apák köveit?"
+
+00:10:42.260 --> 00:10:44.260
+(Nevetés)
+
+00:10:44.260 --> 00:10:47.260
+Aztán jön a lezárás, ami a kedvencem az egész szövegben.
+
+00:10:47.260 --> 00:10:51.260
+"Elnézést kérek a butaságotokért. Nagyon sok köszönet van nektek."
+
+00:10:51.260 --> 00:10:53.260
+(Nevetés)
+
+00:10:53.260 --> 00:10:55.260
+Oké, tehát a gépi fordítás még nem elég jó.
+
+00:10:55.260 --> 00:10:57.260
+Tehát vissza a kérdéshez.
+
+00:10:57.260 --> 00:11:00.260
+Emberekre van szükségünk, hogy lefordítsuk a webet.
+
+00:11:00.260 --> 00:11:02.260
+A következő kérdés, amit feltehetnének,
+
+00:11:02.260 --> 00:11:04.260
+hogy miért nem fizethetünk ezért az embereknek?
+
+00:11:04.260 --> 00:11:07.260
+Felvehetnénk hivatásos fordítókat, hogy lefordítsák az egész webet.
+
+00:11:07.260 --> 00:11:09.260
+Megtehetnénk.
+
+00:11:09.260 --> 00:11:11.260
+Sajnálatos módon ez elképesztően drága lenne.
+
+00:11:11.260 --> 00:11:14.260
+Vegyük például a web egy aprócska részének, a Wikipédiának a
+
+00:11:14.260 --> 00:11:17.260
+lefordítását egyetlen más nyelvre, spanyolra.
+
+00:11:17.260 --> 00:11:19.260
+A Wikipédia létezik spanyol nyelven is,
+
+00:11:19.260 --> 00:11:21.260
+de igen kicsi az angol nyelvű változathoz képest.
+
+00:11:21.260 --> 00:11:23.260
+Körülbelül az angol változat 20 százaléka.
+
+00:11:23.260 --> 00:11:26.260
+Ha le akarnánk fordítani a másik 80 százalékot spanyolra,
+
+00:11:26.260 --> 00:11:28.260
+az legalább 50 millió dollárba kerülne,
+
+00:11:28.260 --> 00:11:31.260
+még ha a legkihasználhatóbb, legszegényebb országba helyezzük is ki a munkát.
+
+00:11:31.260 --> 00:11:33.260
+Tehát nagyon drága lenne.
+
+00:11:33.260 --> 00:11:35.260
+Amit mi szeretnénk, az 100 millió ember,
+
+00:11:35.260 --> 00:11:37.260
+akik minden nagyobb nyelvre lefordítják a webet,
+
+00:11:37.260 --> 00:11:39.260
+ráadásul ingyen.
+
+00:11:39.260 --> 00:11:41.260
+Ha ilyesmit szeretnének csinálni,
+
+00:11:41.260 --> 00:11:43.260
+elég hamar be fogják látni, hogy két elég magas lécet is át kell ugraniuk,
+
+00:11:43.260 --> 00:11:45.260
+két igen nagy akadályt.
+
+00:11:45.260 --> 00:11:48.260
+Az első a kétnyelvűek hiánya.
+
+00:11:48.260 --> 00:11:50.260
+Még azt sem tudom,
+
+00:11:50.260 --> 00:11:53.260
+hogy létezik-e egyáltalán 100 millió internethasználó a világon,
+
+00:11:53.260 --> 00:11:55.260
+akik elég jól beszélnek két nyelven ahhoz, hogy segíteni tudjanak.
+
+00:11:55.260 --> 00:11:57.260
+Ez egy nagy probléma.
+
+00:11:57.260 --> 00:11:59.260
+A másik akadály, amibe bele fognak futni, az a motiváció hiánya.
+
+00:11:59.260 --> 00:12:01.260
+Hogyan fogjuk ösztönözni az embereket,
+
+00:12:01.260 --> 00:12:03.260
+hogy ingyen lefordítsák a webet?
+
+00:12:03.260 --> 00:12:06.260
+Általában ezért fizetni kell az embereknek.
+
+00:12:06.260 --> 00:12:08.260
+Hogyan fogjuk rávenni őket, hogy ingyen csinálják?
+
+00:12:08.260 --> 00:12:11.260
+Amikor elkezdtünk gondolkozni az ügyön, ez a két dolog leblokkolt minket.
+
+00:12:11.260 --> 00:12:13.260
+De aztán rájöttünk, hogy valójában van egy módja annak,
+
+00:12:13.260 --> 00:12:15.260
+hogy egyszerre oldjuk meg mind a két problémát.
+
+00:12:15.260 --> 00:12:17.260
+Lehetséges két legyet ütni egy csapásra.
+
+00:12:17.260 --> 00:12:20.260
+Mégpedig azáltal, hogy átformáljuk a fordítást
+
+00:12:20.260 --> 00:12:23.260
+valamivé, amit emberek milliói szeretnének csinálni,
+
+00:12:23.260 --> 00:12:26.260
+és ami megoldja a kétnyelvűek hiányának problémáját is.
+
+00:12:26.260 --> 00:12:29.260
+Ez pedig a nyelvtanulás.
+
+00:12:29.260 --> 00:12:31.260
+Kiderült, hogy napjainkban
+
+00:12:31.260 --> 00:12:34.260
+több mint 1.2 milliárd ember tanul valamilyen idegen nyelvet.
+
+00:12:34.260 --> 00:12:36.260
+Az emberek nagyon szeretnek idegen nyelveket tanulni.
+
+00:12:36.260 --> 00:12:39.260
+És nem csak azért, mert erre kényszerítik őket az iskolában.
+
+00:12:39.260 --> 00:12:41.260
+Például csak az Egyesült Államokban
+
+00:12:41.260 --> 00:12:43.260
+több mint öt millióan költöttek több mint 500 dollárt
+
+00:12:43.260 --> 00:12:45.260
+nyelvtanulást segítő szoftverre.
+
+00:12:45.260 --> 00:12:47.260
+Tehát az emberek tényleg nagyon szeretnek idegen nyelvet tanulni.
+
+00:12:47.260 --> 00:12:50.260
+Így mi egy új weblapon dolgoztunk az elmúlt másfél évben,
+
+00:12:50.260 --> 00:12:52.260
+melynek Duolingo a neve,
+
+00:12:52.260 --> 00:12:55.260
+melynek az alapötlete az, hogy az emberek ingyen tanulhatnak meg
+
+00:12:55.260 --> 00:12:57.260
+egy nyelvet, miközben a webet fordítják.
+
+00:12:57.260 --> 00:12:59.260
+Tehát tulajdonképpen azzal tanulják, hogy csinálják.
+
+00:12:59.260 --> 00:13:01.260
+Ez úgy működik, hogy ha valaki teljesen kezdő,
+
+00:13:01.260 --> 00:13:04.260
+akkor nagyon egyszerű mondatokat adunk neki.
+
+00:13:04.260 --> 00:13:06.260
+Természetesen rengeteg nagyon egyszerű mondat van a weben.
+
+00:13:06.260 --> 00:13:08.260
+Mi nagyon egyszerű mondatokat adunk a felhasználónak,
+
+00:13:08.260 --> 00:13:10.260
+a mondatban lévő szavak jelentésével együtt.
+
+00:13:10.260 --> 00:13:13.260
+És ahogy ezeket fordítják, és látják mások miként fordítják őket,
+
+00:13:13.260 --> 00:13:15.260
+az emberek elkezdik megtanulni a nyelvet.
+
+00:13:15.260 --> 00:13:17.260
+És ahogy egyre ügyesebbek lesznek,
+
+00:13:17.260 --> 00:13:19.260
+úgy adunk egyre összetettebb mondatokat.
+
+00:13:19.260 --> 00:13:21.260
+De minden esetben azáltal tanulnak, hogy csinálják.
+
+00:13:21.260 --> 00:13:23.260
+Az igazán őrült dolog ebben a módszerben
+
+00:13:23.260 --> 00:13:25.260
+az az, hogy ténylegesen működik.
+
+00:13:25.260 --> 00:13:27.260
+Először is a felhasználók ezáltal tényleg megtanulnak egy nyelvet.
+
+00:13:27.260 --> 00:13:29.260
+Nagyjából kész vagyunk a fejlesztéssel és most teszteljük.
+
+00:13:29.260 --> 00:13:31.260
+Az emberek tényleg képesek nyelvet tanulni vele.
+
+00:13:31.260 --> 00:13:34.260
+Méghozzá körülbelül annyira jól mint egy vezető nyelvtanulást segítő szoftverrel.
+
+00:13:34.260 --> 00:13:36.260
+Tehát az emberek tényleg megtanulnak egy nyelvet.
+
+00:13:36.260 --> 00:13:38.260
+És nem csak azonos hatékonysággal tanulják meg,
+
+00:13:38.260 --> 00:13:40.260
+de így sokkal érdekesebb is.
+
+00:13:40.260 --> 00:13:43.260
+Mert a Duolingoval az emberek valós szövegekkel tanulnak,
+
+00:13:43.260 --> 00:13:45.260
+nem nyelvtanuláshoz kreált mondatokkal.
+
+00:13:45.260 --> 00:13:48.260
+Az emberek valós tartalommal tanulnak, ami természeténél fogva érdekes.
+
+00:13:48.260 --> 00:13:50.260
+Szóval az emberek tényleg megtanulnak egy nyelvet.
+
+00:13:50.260 --> 00:13:52.260
+De ami talán ennél is meglepőbb,
+
+00:13:52.260 --> 00:13:55.260
+a fordítás, amit a felhasználóktól kapunk,
+
+00:13:55.260 --> 00:13:57.260
+annak ellenére, hogy még csak kezdők,
+
+00:13:57.260 --> 00:14:00.260
+a fordítások épp olyan pontosak mint a hivatásos fordítók fordításai,
+
+00:14:00.260 --> 00:14:02.260
+ami eléggé meglepő.
+
+00:14:02.260 --> 00:14:04.260
+Hadd mutassak egy példát.
+
+00:14:04.260 --> 00:14:06.260
+Ezt a mondatot németből fordították angolra.
+
+00:14:06.260 --> 00:14:08.260
+A felső a német.
+
+00:14:08.260 --> 00:14:10.260
+A középső egy angol fordítás,
+
+00:14:10.260 --> 00:14:12.260
+amit egy hivatásos angol fordító készített,
+
+00:14:12.260 --> 00:14:14.260
+akinek szavanként 20 centet fizettünk a fordításért.
+
+00:14:14.260 --> 00:14:17.260
+Az alsó pedig a Duolingo felhasználóinak a fordítása,
+
+00:14:17.260 --> 00:14:19.260
+akik közül egyik sem tudott egy szót sem németül,
+
+00:14:19.260 --> 00:14:21.260
+mielőtt használni kezdték volna a weboldalt.
+
+00:14:21.260 --> 00:14:23.260
+Amint látják, a fordítás tulajdonképpen tökéletes.
+
+00:14:23.260 --> 00:14:25.260
+Persze itt trükközünk egy kicsit,
+
+00:14:25.260 --> 00:14:27.260
+hogy a fordítások olyan jók legyenek mint a hivatásos fordítóké.
+
+00:14:27.260 --> 00:14:30.260
+Több kezdő felhasználó fordítását kombináljuk,
+
+00:14:30.260 --> 00:14:33.260
+hogy elérjük az egyetlen hivatásos fordító által nyújtott minőséget.
+
+00:14:33.260 --> 00:14:38.260
+De még azzal együtt is, hogy kombináljuk a fordításokat,
+
+00:14:38.260 --> 00:14:40.260
+a weboldal igen gyorsan képes fordítani.
+
+00:14:40.260 --> 00:14:42.260
+Hadd mutassam meg
+
+00:14:42.260 --> 00:14:44.260
+a becslésünket arról, hogy milyen gyorsan tudnánk lefordítani
+
+00:14:44.260 --> 00:14:46.260
+a Wikipédiát angolról spanyolra.
+
+00:14:46.260 --> 00:14:49.260
+Ne feledjék, ez itt 50 millió dollárnyi érték.
+
+00:14:49.260 --> 00:14:51.260
+Tehát ha spanyolra akarjuk fordítani a Wikipédiát,
+
+00:14:51.260 --> 00:14:54.260
+akkor ezt meg tudjuk tenni öt hét alatt, 100.000 aktív felhasználóval.
+
+00:14:54.260 --> 00:14:57.260
+Ugyanezt meg tudjuk tenni 80 óra alatt egymillió aktív felhasználóval.
+
+00:14:57.260 --> 00:15:00.260
+Mivel az összes projektnek, amin a csoportom eddig dolgozott,
+
+00:15:00.260 --> 00:15:02.260
+több millió felhasználója volt, reménytelien hisszük,
+
+00:15:02.260 --> 00:15:04.260
+hogy elképesztően gyorsan fogunk tudni fordítani ezzel a projekttel.
+
+00:15:04.260 --> 00:15:07.260
+Leginkább amiatt vagyok izgatott a Duolingoval kapcsolatban,
+
+00:15:07.260 --> 00:15:10.260
+hogy szerintem ez egy korrekt üzleti modellt kínál a nyelvoktatáshoz.
+
+00:15:10.260 --> 00:15:12.260
+A helyzet a következő:
+
+00:15:12.260 --> 00:15:14.260
+A nyelvoktatás jelenlegi üzleti modellje szerint
+
+00:15:14.260 --> 00:15:16.260
+a tanuló fizet,
+
+00:15:16.260 --> 00:15:18.260
+mondjuk a Rosetta Stone cégnek 500 dollárt.
+
+00:15:18.260 --> 00:15:20.260
+(Nevetés)
+
+00:15:20.260 --> 00:15:22.260
+Ez a jelenlegi üzleti modell.
+
+00:15:22.260 --> 00:15:24.260
+Ezzel a modellel az a probléma,
+
+00:15:24.260 --> 00:15:27.260
+hogy a Föld lakosságának 95 százalékának nincs 500 dollárja.
+
+00:15:27.260 --> 00:15:30.260
+Tehát ez kimondottan igazságtalan a szegényekkel szemben,
+
+00:15:30.260 --> 00:15:32.260
+és elfogult a gazdagok felé.
+
+00:15:32.260 --> 00:15:34.260
+Namármost a Duolingoval,
+
+00:15:34.260 --> 00:15:36.260
+mivel a tanulással egyidejűleg a felhasználó értéket teremt,
+
+00:15:36.260 --> 00:15:39.260
+azzal hogy dolgokat fordít,
+
+00:15:39.260 --> 00:15:42.260
+amit mi kiszámlázhatunk másoknak mint fordítási díj.
+
+00:15:42.260 --> 00:15:44.260
+Így néz ki az anyagi oldal.
+
+00:15:44.260 --> 00:15:46.260
+Mivel az emberek értéket teremtenek tanulás közben,
+
+00:15:46.260 --> 00:15:49.260
+nem a pénzükkel fizetnek, hanem az idejükkel.
+
+00:15:49.260 --> 00:15:52.260
+De a varázslatos dolog az, hogy olyan idejükkel fizetnek,
+
+00:15:52.260 --> 00:15:54.260
+amit amúgy is azzal töltöttek volna,
+
+00:15:54.260 --> 00:15:56.260
+hogy tanulják a nyelvet.
+
+00:15:56.260 --> 00:15:59.260
+Szóval a Duolingoban az a szép, hogy korrekt üzleti modellt nyújt,
+
+00:15:59.260 --> 00:16:01.260
+ami nem diszkriminálja a szegényeket.
+
+00:16:01.260 --> 00:16:03.260
+Ez hát a Duolingo. Köszönöm.
+
+00:16:03.260 --> 00:16:11.260
+(Taps)
+
+00:16:11.260 --> 00:16:13.260
+Ez tehát a weboldal.
+
+00:16:13.260 --> 00:16:15.260
+Még nem indítottuk el,
+
+00:16:15.260 --> 00:16:18.260
+de ha ellátogatnak az oldalra, részt vehetnek a privát béta verzióban,
+
+00:16:18.260 --> 00:16:20.260
+ami valószínűleg elindul a következő három-négy hétben.
+
+00:16:20.260 --> 00:16:22.260
+Még nem indítottuk el a Duolingot.
+
+00:16:22.260 --> 00:16:24.260
+Egyébként, most csak én beszélek itt,
+
+00:16:24.260 --> 00:16:27.260
+de a Duolingo valójában egy fantasztikus csapat munkája, melynek itt látható néhány tagja.
+
+00:16:27.260 --> 00:16:29.260
+Köszönöm.
+
+00:16:29.260 --> 00:16:33.260
+(Taps)
+

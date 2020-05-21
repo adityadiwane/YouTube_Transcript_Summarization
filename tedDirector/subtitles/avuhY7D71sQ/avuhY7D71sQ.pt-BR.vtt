@@ -1,0 +1,1126 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:12.000
+Tradutor: Thais Leo
+Revisor: Fernando Gonçalves
+
+00:00:12.811 --> 00:00:16.132
+Você vai ao médico e faz alguns exames.
+
+00:00:16.774 --> 00:00:19.294
+o médico considera
+que seu colesterol está alto
+
+00:00:19.298 --> 00:00:22.688
+e que você deveria
+tomar uma medicação para tratá-lo.
+
+00:00:22.981 --> 00:00:24.907
+Então você compra uma caixa de remédios.
+
+00:00:25.507 --> 00:00:26.734
+Você está confiante,
+
+00:00:26.734 --> 00:00:29.449
+seu médico está confiante
+de que isso vai funcionar.
+
+00:00:29.449 --> 00:00:33.036
+A empresa que inventou o remédio
+fez muitos estudos e enviou para o FDA.
+
+00:00:33.036 --> 00:00:36.297
+Eles fizeram estudos criteriosos,
+céticos, e deram a aprovação.
+
+00:00:36.297 --> 00:00:38.210
+Eles têm uma ideia de como ele funciona,
+
+00:00:38.210 --> 00:00:40.497
+têm uma ideia
+de quais são os efeitos colaterais.
+
+00:00:40.497 --> 00:00:41.937
+Deve dar certo.
+
+00:00:42.864 --> 00:00:45.666
+Você conversa mais com seu médico
+
+00:00:45.666 --> 00:00:48.343
+e o médico está preocupado
+porque você anda deprimido,
+
+00:00:48.343 --> 00:00:50.020
+não tem se sentido como você mesmo,
+
+00:00:50.020 --> 00:00:53.741
+não tem conseguido curtir
+as coisas da vida como antes.
+
+00:00:53.745 --> 00:00:56.951
+O médico diz: "Sabe,
+acho que você está meio deprimido.
+
+00:00:57.792 --> 00:01:00.227
+Vou ter que te dar outro remédio."
+
+00:01:00.934 --> 00:01:03.411
+Então, agora estamos falando
+de duas medicações.
+
+00:01:03.411 --> 00:01:06.399
+Este remédio também:
+milhões de pessoas já o tomaram,
+
+00:01:06.399 --> 00:01:07.823
+a empresa pesquisou,
+
+00:01:07.823 --> 00:01:10.823
+a FDA deu uma olhada.
+Está tudo bem.
+
+00:01:10.823 --> 00:01:12.864
+Deve dar tudo certo.
+
+00:01:12.864 --> 00:01:15.095
+Deve dar tudo certo.
+
+00:01:15.095 --> 00:01:16.558
+Espera um minuto.
+
+00:01:16.558 --> 00:01:20.105
+Pesquisamos sobre esses dois juntos?
+
+00:01:20.630 --> 00:01:22.914
+É muito difícil fazer isso.
+
+00:01:22.914 --> 00:01:25.084
+Na verdade, normalmente, não é feito.
+
+00:01:25.088 --> 00:01:30.470
+Dependemos totalmente da chamada
+"fiscalização pós-marketing",
+
+00:01:30.470 --> 00:01:32.986
+depois que o remédio chegou ao mercado.
+
+00:01:32.986 --> 00:01:35.838
+Como podemos descobrir
+se coisas ruins acontecem
+
+00:01:35.838 --> 00:01:37.255
+entre dois medicamentos?
+
+00:01:37.255 --> 00:01:39.389
+Três? Cinco? Sete?
+
+00:01:39.539 --> 00:01:41.113
+Pergunte à pessoa próxima a você,
+
+00:01:41.113 --> 00:01:44.391
+diagnosticada com várias coisas,
+quantos medicamentos ela toma.
+
+00:01:44.391 --> 00:01:46.994
+Por que eu me importo com isso?
+Eu me importo muito.
+
+00:01:46.994 --> 00:01:49.343
+Sou um cara da informática,
+da ciência de dados,
+
+00:01:49.343 --> 00:01:55.382
+e na minha opinião a única esperança,
+a única, para entender essas interações
+
+00:01:55.382 --> 00:01:58.462
+é confrontar muitas
+fontes diferentes de dados
+
+00:01:58.462 --> 00:02:02.108
+para descobrir quando remédios
+podem ser usados juntos e de forma segura
+
+00:02:02.108 --> 00:02:04.159
+e quando não é tão seguro.
+
+00:02:04.615 --> 00:02:06.660
+Vou contar uma história
+de ciência de dados.
+
+00:02:06.660 --> 00:02:08.838
+Tudo começou com meu aluno Nick.
+
+00:02:08.838 --> 00:02:11.242
+Vamos chamá-lo de "Nick",
+porque é esse o seu nome.
+
+00:02:11.242 --> 00:02:12.758
+(Risos)
+
+00:02:12.758 --> 00:02:14.093
+Nick era um estudante jovem.
+
+00:02:14.093 --> 00:02:17.266
+Eu disse: "Nick, temos que entender
+como esses remédios funcionam
+
+00:02:17.266 --> 00:02:19.676
+e como funcionam juntos
+e como funcionam separados,
+
+00:02:19.676 --> 00:02:21.472
+e não sabemos muita coisa."
+
+00:02:21.472 --> 00:02:24.201
+Mas o FDA disponibilizou
+uma base de dados incrível.
+
+00:02:24.201 --> 00:02:26.151
+Uma base de dados de efeitos adversos.
+
+00:02:26.151 --> 00:02:27.967
+Eles literalmente colocaram na web,
+
+00:02:27.967 --> 00:02:31.090
+disponível ao público,
+todos vocês podem baixar agora mesmo,
+
+00:02:31.090 --> 00:02:34.757
+centenas de milhares
+de relatórios de efeitos adversos
+
+00:02:34.761 --> 00:02:38.535
+de pacientes, médicos,
+empresas e farmacêuticos.
+
+00:02:38.535 --> 00:02:40.308
+Estes relatórios são bem simples:
+
+00:02:40.308 --> 00:02:42.950
+têm todas as doenças
+das quais o paciente sofre,
+
+00:02:42.950 --> 00:02:44.821
+todos os remédios que ele está tomando,
+
+00:02:44.821 --> 00:02:48.613
+todos os efeitos adversos
+ou colaterais que ele sentiu.
+
+00:02:48.613 --> 00:02:52.083
+Não são todos os efeitos adversos
+que estão ocorrendo nos EUA hoje,
+
+00:02:52.083 --> 00:02:54.665
+mas são centenas e centenas
+de milhares de remédios.
+
+00:02:54.665 --> 00:02:55.988
+Então eu disse ao Nick:
+
+00:02:55.988 --> 00:02:57.828
+"Vamos pensar sobre glicose.
+
+00:02:57.828 --> 00:03:01.429
+Glicose é muito importante
+e sabemos que tem a ver com a diabetes.
+
+00:03:01.429 --> 00:03:05.443
+Vejamos se conseguimos
+entender a resposta da glicose."
+
+00:03:05.443 --> 00:03:07.931
+O Nick foi. O Nick voltou.
+
+00:03:08.248 --> 00:03:10.034
+"Russ", ele disse,
+
+00:03:10.351 --> 00:03:15.447
+"criei um 'categorizador' que consegue
+analisar efeitos colaterais de um remédio
+
+00:03:15.447 --> 00:03:17.538
+a partir da análise dessa base de dados,
+
+00:03:17.542 --> 00:03:21.697
+e dizer se aquele remédio
+pode ou não alterar a glicose."
+
+00:03:21.697 --> 00:03:23.697
+Ele conseguiu.
+Foi simples, de certa forma.
+
+00:03:23.697 --> 00:03:26.602
+Ele pegou todos os remédios
+associados a alterações na glicose
+
+00:03:26.602 --> 00:03:28.939
+e um monte que não alteram a glicose,
+
+00:03:28.939 --> 00:03:31.851
+e disse: "Qual é a diferença
+nos efeitos colaterais deles?
+
+00:03:31.851 --> 00:03:36.727
+Diferenças na fadiga? Apetite?
+Frequência de urinar?"
+
+00:03:36.727 --> 00:03:39.491
+Tudo isso conspirou para
+lhe dar um ótimo "prognosticador".
+
+00:03:39.491 --> 00:03:41.973
+Ele disse: "Russ, consigo prever
+com 93% de precisão
+
+00:03:41.973 --> 00:03:43.693
+quando um remédio altera a glicose."
+
+00:03:43.693 --> 00:03:45.075
+Eu disse: "Nick, que bacana".
+
+00:03:45.075 --> 00:03:48.239
+Ele é um estudante jovem,
+preciso fomentar sua autoconfiança.
+
+00:03:48.239 --> 00:03:49.653
+"Mas, Nick, há um problema.
+
+00:03:49.653 --> 00:03:53.637
+Todos os médicos do mundo
+sabem quais remédios mexem na glicose,
+
+00:03:53.637 --> 00:03:55.689
+porque é crucial para nossa prática.
+
+00:03:55.689 --> 00:03:59.255
+Então, bacana, bom trabalho,
+mas isso não é tão interessante
+
+00:03:59.255 --> 00:04:01.000
+e com certeza não dá para publicar."
+
+00:04:01.000 --> 00:04:02.074
+(Risos)
+
+00:04:02.074 --> 00:04:05.372
+Ele disse: "Eu sei, Russ.
+Achei que diria isso." O Nick é esperto.
+
+00:04:06.162 --> 00:04:08.957
+"Achei que diria isso,
+então fiz outro experimento.
+
+00:04:08.957 --> 00:04:11.969
+Analisei na base de dados
+as pessoas que tomam dois remédios.
+
+00:04:11.969 --> 00:04:16.395
+Procurei sinais parecidos,
+sinais de alterações na glicose,
+
+00:04:16.395 --> 00:04:18.063
+em pessoas que tomam dois remédios,
+
+00:04:18.063 --> 00:04:23.646
+nas quais cada remédio, sozinho,
+não alterou a glicose,
+
+00:04:23.646 --> 00:04:26.140
+mas que, usados juntos,
+deixam um sinal relevante."
+
+00:04:26.140 --> 00:04:29.303
+Eu disse: "Ah! Você é inteligente.
+Boa ideia. Me mostre a lista."
+
+00:04:29.303 --> 00:04:31.657
+Tinha um monte de remédios,
+não muito eletrizante.
+
+00:04:31.657 --> 00:04:35.537
+Mas o que chamou minha atenção,
+foram dois remédios na lista:
+
+00:04:35.537 --> 00:04:38.970
+paroxetina, ou Paxil, um antidepressivo;
+
+00:04:39.756 --> 00:04:43.326
+e pravastatina, ou Pravachol,
+remédio para o colesterol.
+
+00:04:43.936 --> 00:04:48.203
+Eu disse: "Hum. Há milhões
+de norte-americanos tomando os dois".
+
+00:04:48.203 --> 00:04:49.473
+Descobrimos depois,
+
+00:04:49.473 --> 00:04:55.545
+15 milhões nos EUA tomavam paroxetina,
+e 15 milhões tomavam pravastatina.
+
+00:04:55.559 --> 00:04:58.386
+Um milhão, estimamos, tomavam ambos.
+
+00:04:58.767 --> 00:05:00.051
+Então um milhão de pessoas
+
+00:05:00.051 --> 00:05:02.482
+talvez estivesse com problemas
+em sua glicose
+
+00:05:02.482 --> 00:05:05.722
+se a máquina de analisar o "blábláblá"
+da base de dados do FDA
+
+00:05:05.722 --> 00:05:06.990
+realmente funcionasse.
+
+00:05:06.990 --> 00:05:10.941
+Eu disse: "Ainda não dá pra publicar,
+porque adoro o que fez com o 'blábláblá',
+
+00:05:10.941 --> 00:05:12.281
+com a máquina que analisa,
+
+00:05:12.281 --> 00:05:16.435
+mas essas evidências ainda
+não estão no padrão necessário."
+
+00:05:17.478 --> 00:05:19.137
+Então temos que fazer outra coisa.
+
+00:05:19.137 --> 00:05:22.021
+Vamos aos registros médicos
+eletrônicos de Stanford.
+
+00:05:22.021 --> 00:05:23.989
+Temos uma cópia,
+está boa para a pesquisa,
+
+00:05:23.989 --> 00:05:26.395
+e removemos as identificações.
+
+00:05:26.395 --> 00:05:29.078
+Eu disse: "Vamos ver se as pessoas
+tomando esses remédios
+
+00:05:29.078 --> 00:05:30.877
+têm problemas com a glicose."
+
+00:05:31.242 --> 00:05:33.443
+Há milhares e milhares de pessoas
+
+00:05:33.443 --> 00:05:36.916
+nos registros médicos de Stanford
+tomando paroxetina e pravastatina.
+
+00:05:36.916 --> 00:05:38.845
+Mas precisamos de pacientes especiais.
+
+00:05:38.845 --> 00:05:41.030
+Precisamos de pacientes
+que tomaram uma delas
+
+00:05:41.030 --> 00:05:43.400
+e mediram sua glicose,
+
+00:05:43.400 --> 00:05:46.833
+e aí tomaram a outra
+e mediram de novo sua glicose,
+
+00:05:46.833 --> 00:05:50.488
+tudo isso dentro de um tempo razoável,
+algo como dois meses.
+
+00:05:50.492 --> 00:05:53.931
+Fizemos isso e achamos dez pacientes.
+
+00:05:54.592 --> 00:05:59.124
+Porém, oito desses dez
+tiveram aumento da glicose
+
+00:05:59.124 --> 00:06:01.773
+quando tomaram o segundo P,
+chamamos de "P&amp;P",
+
+00:06:01.773 --> 00:06:03.117
+quando tomaram o segundo P.
+
+00:06:03.117 --> 00:06:05.839
+Qualquer um pode ser o primeiro,
+quando o segundo aparece,
+
+00:06:05.839 --> 00:06:08.590
+a glicose sobe 20 mg/dL.
+
+00:06:08.604 --> 00:06:09.616
+Só para lembrar:
+
+00:06:09.616 --> 00:06:12.141
+você anda por aí numa boa,
+se você não for diabético,
+
+00:06:12.141 --> 00:06:13.594
+com a glicose por volta de 90.
+
+00:06:13.594 --> 00:06:15.598
+Se subir para 120, 125,
+
+00:06:15.598 --> 00:06:19.078
+seu médico começa a considerar
+um diagnóstico de diabetes.
+
+00:06:19.092 --> 00:06:22.093
+Então uma alta de 20 é bem significativa.
+
+00:06:22.601 --> 00:06:24.735
+Eu disse: "Nick, isso é muito legal.
+
+00:06:25.616 --> 00:06:27.613
+Mas, desculpe,
+ainda não temos um artigo,
+
+00:06:27.613 --> 00:06:29.986
+porque são só dez pacientes
+e, fala sério,
+
+00:06:29.986 --> 00:06:31.525
+não são pacientes suficientes."
+
+00:06:31.525 --> 00:06:32.871
+Então pensamos no que fazer.
+
+00:06:32.875 --> 00:06:35.685
+Decidimos chamar nossos amigos
+em Harvard e em Vanderbilt,
+
+00:06:35.685 --> 00:06:38.542
+que também, Harvard em Boston,
+Vanderbilt em Nashville,
+
+00:06:38.542 --> 00:06:41.327
+têm registros médicos eletrônicos
+parecidos com o nossos.
+
+00:06:41.331 --> 00:06:43.371
+Vejamos se eles acham
+pacientes similares
+
+00:06:43.375 --> 00:06:46.665
+com um P, o outro P,
+as medições da glicose
+
+00:06:46.665 --> 00:06:48.295
+no limite que precisamos.
+
+00:06:48.787 --> 00:06:52.096
+Deus abençoe, Vanderbilt
+achou em uma semana
+
+00:06:52.096 --> 00:06:55.165
+40 pacientes com a mesma tendência.
+
+00:06:55.804 --> 00:06:59.418
+Harvard achou 100 com a mesma tendência.
+
+00:06:59.418 --> 00:07:03.723
+Ao final, achamos 150 pacientes
+desses três centros médicos diferentes
+
+00:07:03.723 --> 00:07:07.034
+que diziam que pacientes tomando
+esses dois medicamentos
+
+00:07:07.034 --> 00:07:09.777
+sofriam aumento da glicose
+de forma significativa.
+
+00:07:10.317 --> 00:07:13.121
+Mais interessante:
+deixamos de fora diabéticos,
+
+00:07:13.121 --> 00:07:15.452
+porque eles já têm a glicose bem alterada.
+
+00:07:15.452 --> 00:07:17.714
+Quando analisamos a glicose de diabéticos,
+
+00:07:17.714 --> 00:07:21.189
+estava subindo 60 mg/dL, não só 20.
+
+00:07:21.760 --> 00:07:25.206
+Isso era considerável e dissemos:
+"Temos que publicar isso."
+
+00:07:25.206 --> 00:07:26.445
+Enviamos o artigo.
+
+00:07:26.445 --> 00:07:28.534
+Tudo tinha base em dados,
+
+00:07:28.534 --> 00:07:31.041
+dados do FDA, dados de Stanford,
+
+00:07:31.041 --> 00:07:33.011
+dados de Vanderbilt e dados de Harvard.
+
+00:07:33.011 --> 00:07:35.447
+Não tínhamos feito
+nenhum experimento físico.
+
+00:07:36.495 --> 00:07:37.791
+Mas estávamos nervosos.
+
+00:07:38.201 --> 00:07:41.931
+Então Nick, enquanto o artigo
+estava sob avaliação, foi ao laboratório.
+
+00:07:41.935 --> 00:07:44.401
+Achamos alguém que entende
+de coisas de laboratório.
+
+00:07:44.401 --> 00:07:45.834
+Eu não faço isso.
+
+00:07:45.838 --> 00:07:48.275
+Eu cuido de pacientes, não de pipetas.
+
+00:07:49.420 --> 00:07:52.473
+Nos ensinaram a dar remédio a ratos.
+
+00:07:52.864 --> 00:07:55.278
+Pegamos os ratos
+e demos um P, paroxetina.
+
+00:07:55.282 --> 00:07:57.804
+Demos a outros a pravastatina.
+
+00:07:57.804 --> 00:08:01.429
+Ao terceiro grupo, demos ambas.
+
+00:08:01.893 --> 00:08:06.543
+"Voilà": a glicose subiu
+entre 20 e 60 mg/dL nos ratos.
+
+00:08:06.938 --> 00:08:10.170
+O artigo foi aceito com base apenas
+nas evidências informacionais,
+
+00:08:10.170 --> 00:08:11.898
+mas adicionamos uma notinha no final
+
+00:08:11.898 --> 00:08:14.868
+alertando que a glicose aumentará
+se derem ambas aos ratos.
+
+00:08:14.868 --> 00:08:17.589
+Foi ótimo e a história podia terminar aí.
+
+00:08:17.593 --> 00:08:19.610
+Mas ainda tenho seis minutos e meio.
+
+00:08:19.614 --> 00:08:22.425
+(Risos)
+
+00:08:22.425 --> 00:08:25.144
+Então estávamos lá, pensando nisso,
+
+00:08:25.144 --> 00:08:27.533
+e não lembro de quem foi a ideia,
+mas alguém disse:
+
+00:08:27.533 --> 00:08:31.264
+"Será que os pacientes
+tomando os dois remédios
+
+00:08:31.268 --> 00:08:34.841
+estão notando efeitos colaterais
+de hiperglicemia?
+
+00:08:34.845 --> 00:08:36.361
+Eles poderiam e deveriam.
+
+00:08:36.761 --> 00:08:38.638
+Como poderíamos determinar isso?"
+
+00:08:39.551 --> 00:08:40.994
+Pensamos, bem, o que você faz?
+
+00:08:40.998 --> 00:08:43.598
+Você toma um remédio,
+um remédio novo ou dois,
+
+00:08:43.602 --> 00:08:45.160
+e se sente meio esquisito.
+
+00:08:45.164 --> 00:08:46.335
+O que você faz?
+
+00:08:46.339 --> 00:08:47.504
+Você vai ao Google
+
+00:08:47.504 --> 00:08:50.867
+digita os dois remédios ou o remédio
+que você está tomando
+
+00:08:50.867 --> 00:08:52.504
+e digita "efeitos colaterais".
+
+00:08:52.504 --> 00:08:53.890
+O que você está sentindo?
+
+00:08:54.099 --> 00:08:55.274
+Dissemos: "Ok.
+
+00:08:55.274 --> 00:08:58.470
+vamos perguntar ao Google
+se compartilhariam os históricos conosco
+
+00:08:58.474 --> 00:09:00.567
+para analisarmos
+esses históricos de pesquisa
+
+00:09:00.567 --> 00:09:03.096
+e saber se os pacientes
+estão fazendo essas buscas.
+
+00:09:03.096 --> 00:09:06.215
+O Google, infelizmente, negou o pedido.
+
+00:09:06.729 --> 00:09:07.844
+Fiquei chateado.
+
+00:09:07.844 --> 00:09:10.984
+Eu estava jantando com um colega
+que trabalha na Microsoft Research
+
+00:09:10.984 --> 00:09:12.849
+e disse: "Queríamos fazer uma pesquisa,
+
+00:09:12.849 --> 00:09:14.663
+o Google disse não. É meio chato."
+
+00:09:14.663 --> 00:09:17.139
+Ele disse: "Bem, temos
+as pesquisas do Bing".
+
+00:09:18.195 --> 00:09:21.678
+(Risos)
+
+00:09:22.805 --> 00:09:24.112
+É.
+
+00:09:24.112 --> 00:09:25.241
+Que legal.
+
+00:09:25.241 --> 00:09:26.422
+Achei que estava...
+
+00:09:26.426 --> 00:09:27.430
+(Risos)
+
+00:09:27.430 --> 00:09:29.882
+que estava falando com o Nick de novo.
+
+00:09:30.327 --> 00:09:32.705
+Ele trabalha para uma das maiores
+empresas do mundo
+
+00:09:32.705 --> 00:09:35.011
+e eu tentando fazê-lo
+se sentir melhor.
+
+00:09:35.011 --> 00:09:38.544
+Ele disse: "Russ, acho que não entendeu.
+Não temos só as pesquisas do Bing.
+
+00:09:38.544 --> 00:09:42.648
+Se você usar o Internet Explorer
+para pesquisar no Google,
+
+00:09:42.652 --> 00:09:44.537
+Yahoo, Bing, qualquer um...
+
+00:09:44.537 --> 00:09:48.224
+E, por 18 meses, mantemos
+esses dados só para fins de pesquisa."
+
+00:09:48.224 --> 00:09:50.184
+Eu disse: "Agora sim!"
+
+00:09:50.184 --> 00:09:52.406
+Foi o Eric Horvitz,
+meu amigo na Microsoft.
+
+00:09:52.406 --> 00:09:54.125
+Fizemos um estudo.
+
+00:09:54.125 --> 00:09:58.648
+Definimos 50 palavras
+que uma pessoa comum talvez digite
+
+00:09:58.648 --> 00:10:00.540
+se estiver com hiperglicemia.
+
+00:10:00.540 --> 00:10:05.020
+Como "fadiga", "falta de apetite",
+"urinando muito", "fazendo muito xixi",
+
+00:10:05.020 --> 00:10:07.781
+desculpa, mas essa é uma das coisas
+que você talvez digite.
+
+00:10:07.781 --> 00:10:10.785
+Tínhamos 50 frases
+que denominamos "palavras de diabetes".
+
+00:10:10.785 --> 00:10:12.872
+Primeiro estabelecemos uma medida padrão.
+
+00:10:12.872 --> 00:10:15.590
+Acontece que entre 0,5% a 1%
+
+00:10:15.590 --> 00:10:18.606
+de todas as pesquisas na Internet
+envolvem essas palavras.
+
+00:10:18.606 --> 00:10:20.378
+Essa era nossa medida padrão.
+
+00:10:20.392 --> 00:10:24.529
+Se digitarem "paroxetina"
+ou "Paxil", são sinônimos,
+
+00:10:24.529 --> 00:10:25.778
+e uma dessas palavras,
+
+00:10:25.778 --> 00:10:30.698
+a taxa sobe cerca de 2%
+das palavras de diabetes,
+
+00:10:30.702 --> 00:10:33.766
+se você já souber que existe
+a palavra "paroxetina".
+
+00:10:34.191 --> 00:10:38.738
+Se for "pravastatina", a taxa sobre
+cerca de 3% do padrão.
+
+00:10:39.171 --> 00:10:43.561
+Se ambas estiverem presentes na pesquisa
+
+00:10:43.565 --> 00:10:45.238
+sobe até 10%,
+
+00:10:45.238 --> 00:10:48.739
+um aumento enorme
+de três vezes a quatro vezes
+
+00:10:48.743 --> 00:10:52.146
+nas pesquisas com os dois remédios
+nos quais estamos interessados
+
+00:10:52.146 --> 00:10:55.742
+e palavras de diabetes
+ou palavras de hiperglicemia.
+
+00:10:56.216 --> 00:10:57.475
+Publicamos isso
+
+00:10:57.475 --> 00:10:58.971
+e recebeu alguma atenção.
+
+00:10:58.975 --> 00:11:00.757
+A razão pela qual merece atenção
+
+00:11:00.757 --> 00:11:04.983
+é que os pacientes estão nos dizendo
+indiretamente os efeitos colaterais
+
+00:11:04.983 --> 00:11:06.283
+por meio de suas pesquisas.
+
+00:11:06.283 --> 00:11:08.445
+Levamos isso ao FDA.
+
+00:11:08.445 --> 00:11:09.708
+Eles se interessaram.
+
+00:11:09.708 --> 00:11:13.374
+Eles têm programas
+de monitoramento de mídias socias
+
+00:11:13.378 --> 00:11:15.149
+para colaborar com a Microsoft,
+
+00:11:15.153 --> 00:11:17.821
+que tem uma boa infraestrutura
+para fazer isso, e outras,
+
+00:11:17.821 --> 00:11:19.403
+para olhar "feeds" do Twitter,
+
+00:11:19.403 --> 00:11:20.957
+"feeds" do Facebook,
+
+00:11:20.957 --> 00:11:22.408
+olhar históricos de pesquisa,
+
+00:11:22.408 --> 00:11:27.245
+tentar ver sinais precoces que remédios,
+seja individualmente ou em conjunto,
+
+00:11:27.245 --> 00:11:28.858
+estejam causando problemas.
+
+00:11:28.858 --> 00:11:31.076
+O que tiro disso?
+Por que contar essa história?
+
+00:11:31.076 --> 00:11:32.307
+Primeiramente,
+
+00:11:32.307 --> 00:11:36.378
+agora temos a promessa
+da "big data" e dados de tamanho médio
+
+00:11:36.378 --> 00:11:39.310
+para nos ajudar a entender
+a interação de remédios
+
+00:11:39.310 --> 00:11:41.764
+e, fundamentalmente, ações dos remédios.
+
+00:11:41.764 --> 00:11:43.191
+Como remédios funcionam?
+
+00:11:43.191 --> 00:11:46.051
+Isso vai criar, e já criou,
+um novo ecossistema
+
+00:11:46.051 --> 00:11:49.358
+para entender como remédios funcionam
+e para otimizar seu uso.
+
+00:11:50.303 --> 00:11:52.946
+Nick continuou.
+Ele é professor em Columbia agora.
+
+00:11:52.946 --> 00:11:57.052
+Ele fez isso em seu doutorado
+com centenas de pares de remédios.
+
+00:11:57.052 --> 00:11:59.593
+Ele encontrou várias
+interações muito importantes
+
+00:11:59.593 --> 00:12:00.837
+então replicamos isso
+
+00:12:00.841 --> 00:12:03.435
+e mostramos que essa
+é uma forma que funciona
+
+00:12:03.439 --> 00:12:05.798
+para descobrir interações entre remédios.
+
+00:12:06.282 --> 00:12:08.010
+Porém, há algumas coisas.
+
+00:12:08.010 --> 00:12:11.080
+Não só usamos pares de remédios por vez.
+
+00:12:11.080 --> 00:12:15.939
+Como disse, há pacientes
+tomando três, cinco, sete, nove remédios.
+
+00:12:15.939 --> 00:12:19.617
+Será que já foram estudados em relação
+às interações dos nove ao mesmo tempo?
+
+00:12:19.617 --> 00:12:23.849
+Sim, podemos fazer com base em pares.
+"A" e "B", "A" e "C", "A" e "D".
+
+00:12:23.849 --> 00:12:28.149
+Mas e "A, B, C, D, E, F, G" todos juntos,
+
+00:12:28.149 --> 00:12:29.951
+tomados pelo mesmo paciente,
+
+00:12:29.955 --> 00:12:32.087
+talvez interagindo entre si
+
+00:12:32.087 --> 00:12:35.879
+de forma que talvez os deixem
+mais, ou menos, eficientes;
+
+00:12:35.879 --> 00:12:38.235
+ou causem efeitos colaterais inesperados?
+
+00:12:38.235 --> 00:12:40.086
+Realmente não sabemos.
+
+00:12:40.086 --> 00:12:43.876
+É um céu azul, campo aberto,
+para usarmos dados
+
+00:12:43.876 --> 00:12:46.408
+para tentar entender
+a interação de remédios.
+
+00:12:46.848 --> 00:12:48.218
+Duas outras lições:
+
+00:12:48.222 --> 00:12:52.435
+quero que pensem
+sobre o poder que pudemos gerar
+
+00:12:52.435 --> 00:12:57.170
+com dados de pessoas que voluntariamente
+informaram suas reações adversas
+
+00:12:57.170 --> 00:13:00.223
+por meio de farmacêuticos,
+médicos, ou elas próprias;
+
+00:13:00.223 --> 00:13:04.124
+com as pessoas que deram acesso aos
+dados de Stanford, Harvard e Vanderbilt
+
+00:13:04.124 --> 00:13:05.719
+para serem usados para pesquisa.
+
+00:13:05.719 --> 00:13:07.354
+As pessoas se preocupam com dados.
+
+00:13:07.354 --> 00:13:09.875
+Preocupam-se com sua privacidade
+e segurança, e devem.
+
+00:13:09.875 --> 00:13:11.770
+Precisamos de sistemas seguros.
+
+00:13:11.770 --> 00:13:15.174
+Mas não podemos ter sistemas
+que enclausuram os dados,
+
+00:13:15.174 --> 00:13:17.950
+porque são uma fonte muito rica
+
+00:13:17.950 --> 00:13:21.961
+de inspiração, inovação e descoberta
+
+00:13:21.965 --> 00:13:24.023
+de novas coisas para a medicina.
+
+00:13:24.494 --> 00:13:26.282
+Finalmente, quero dizer:
+
+00:13:26.282 --> 00:13:29.663
+nesse caso, achamos dois remédios
+e a história foi meio triste.
+
+00:13:29.663 --> 00:13:31.608
+São dois remédios que causam problemas.
+
+00:13:31.608 --> 00:13:33.097
+Aumentavam a glicose.
+
+00:13:33.097 --> 00:13:35.577
+Poderiam levar alguém à diabetes,
+
+00:13:35.577 --> 00:13:37.895
+que em outra situação não a teria.
+
+00:13:37.895 --> 00:13:40.794
+então deve-se usar os dois juntos
+com muito cuidado,
+
+00:13:40.794 --> 00:13:42.275
+talvez não usá-los juntos,
+
+00:13:42.279 --> 00:13:44.633
+fazer outras escolhas ao prescrever.
+
+00:13:44.633 --> 00:13:46.509
+Mas tem outra possibilidade.
+
+00:13:46.513 --> 00:13:48.851
+Poderíamos ter encontrado
+dois ou três remédios
+
+00:13:48.851 --> 00:13:51.162
+que interagissem de forma benéfica.
+
+00:13:51.616 --> 00:13:54.322
+Poderíamos ter achado
+novos efeitos de remédios
+
+00:13:54.322 --> 00:13:56.506
+que nenhum tem quando sozinho,
+
+00:13:56.506 --> 00:13:59.003
+mas juntos, ao invés
+de causar um efeito colateral,
+
+00:13:59.003 --> 00:14:01.478
+poderiam ser um novo tratamento
+
+00:14:01.482 --> 00:14:03.378
+para doenças que não têm tratamento
+
+00:14:03.378 --> 00:14:05.409
+ou cujos tratamentos são ineficientes.
+
+00:14:05.409 --> 00:14:07.834
+Se pensarmos em tratamentos
+com remédios hoje,
+
+00:14:07.838 --> 00:14:09.604
+os avanços mais importantes,
+
+00:14:09.604 --> 00:14:13.945
+contra HIV, tuberculose,
+depressão, diabetes,
+
+00:14:13.945 --> 00:14:16.769
+são sempre um coquetel de remédios.
+
+00:14:16.769 --> 00:14:18.533
+Então tem um lado positivo aqui.
+
+00:14:18.533 --> 00:14:21.396
+E um tema para outro dia,
+para outra palestra TED.
+
+00:14:21.396 --> 00:14:24.029
+Será assim que poderemos usar
+as mesmas fontes de dados
+
+00:14:24.033 --> 00:14:27.610
+para achar bons efeitos
+em combinações de remédios
+
+00:14:27.610 --> 00:14:29.729
+que forneceriam novos tratamentos,
+
+00:14:29.729 --> 00:14:31.841
+nova compreensão
+de como remédios funcionam,
+
+00:14:31.841 --> 00:14:35.465
+e nos permitam cuidar de forma
+ainda melhor de nossos pacientes?
+
+00:14:35.465 --> 00:14:36.675
+Muito obrigado.
+
+00:14:36.675 --> 00:14:40.214
+(Aplausos)
+

@@ -1,0 +1,1442 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Ngọc Hà LÊ
+Reviewer: Hồng Khánh Lê
+
+00:00:12.880 --> 00:00:16.893
+Ngày xưa nếu bạn muốn máy tính
+thực hiện thao tác mới,
+
+00:00:16.893 --> 00:00:18.447
+thì bạn phải lập trình nó trước.
+
+00:00:18.447 --> 00:00:21.858
+Đối với những bạn ở đây
+chưa từng lập trình,
+
+00:00:21.858 --> 00:00:25.360
+việc này đòi hỏi phải lập sơ đồ chi tiết
+
+00:00:25.360 --> 00:00:28.727
+từng bước một cho điều
+bạn muốn máy tính thực hiện
+
+00:00:28.727 --> 00:00:31.089
+để đạt được mục tiêu của bạn.
+
+00:00:31.089 --> 00:00:34.585
+Nếu bạn muốn làm một việc mà chính bạn
+cũng không biết cách làm,
+
+00:00:34.585 --> 00:00:36.648
+thì đây sẽ là một thử thách khá lớn.
+
+00:00:36.648 --> 00:00:40.131
+Đây là thử thách mà người đàn ông này, 
+Arthur Samuel, gặp phải.
+
+00:00:40.131 --> 00:00:44.208
+Vào năm 1956, ông muốn chiếc máy tính này
+
+00:00:44.208 --> 00:00:46.548
+có thể đánh bại ông trong môn cờ tướng.
+
+00:00:46.548 --> 00:00:48.588
+Làm sao mà bạn có thể viết ra chương trình
+
+00:00:48.588 --> 00:00:52.394
+tỉ mỉ, chi tiết về cách chơi 
+cờ tướng giỏi hơn chính bạn ?
+
+00:00:52.394 --> 00:00:54.116
+Vậy là ông nảy ra một ý tưởng:
+
+00:00:54.116 --> 00:00:57.840
+ông để máy tính tự chơi lại hàng ngàn lần
+
+00:00:57.840 --> 00:01:00.364
+và tự học cách chơi cờ.
+
+00:01:00.364 --> 00:01:03.544
+Và quả nhiên cách này hiệu quả,
+và thật sự, đến năm 1962,
+
+00:01:03.544 --> 00:01:07.561
+chiếc máy này đã đánh bại 
+quán quân bang Connecticut.
+
+00:01:07.561 --> 00:01:10.534
+Arthur Samuel là cha đẻ của 
+lĩnh vực machine learning,
+
+00:01:10.534 --> 00:01:12.251
+và tôi rất biết ơn ông,
+
+00:01:12.251 --> 00:01:15.014
+bởi tôi là một người làm trong 
+ngành "máy biết học".
+
+00:01:15.014 --> 00:01:16.479
+Tôi từng là Chủ tịch ở Kaggle
+
+00:01:16.479 --> 00:01:19.867
+một cộng đồng gồm hơn 200,000 
+chuyên gia về "máy biết học".
+
+00:01:19.867 --> 00:01:21.925
+Kaggle tổ chức các cuộc thi
+
+00:01:21.925 --> 00:01:25.633
+với thử thách là 
+những vấn đề chưa có lời giải,
+
+00:01:25.633 --> 00:01:29.470
+và họ đã thành công hàng trăm lần.
+
+00:01:29.470 --> 00:01:31.940
+Với vị thế thuận lợi đó, 
+tôi đã khám phá ra
+
+00:01:31.940 --> 00:01:35.890
+rất nhiều thứ mà "máy biết học" có thể 
+làm được trước đây, làm được bây giờ,
+
+00:01:35.890 --> 00:01:38.252
+và những gì nó có thể làm trong tương lai.
+
+00:01:38.252 --> 00:01:42.675
+Có lẽ sự thành công vang dội đầu tiên 
+của "máy biết học" là Google
+
+00:01:42.675 --> 00:01:45.784
+Google cho ta thấy nó có thể 
+tìm kiếm thông tin
+
+00:01:45.784 --> 00:01:47.536
+bằng cách sử dụng thuật toán,
+
+00:01:47.536 --> 00:01:50.437
+và thuật toán này dựa trên
+"máy biết học",
+
+00:01:50.437 --> 00:01:54.323
+Kể từ đó, đã có rất nhiều thành công
+về mặt thương mại của "máy biết học".
+
+00:01:54.323 --> 00:01:56.160
+Công ty như Amazon và Netflix
+
+00:01:56.160 --> 00:01:59.876
+sử dụng "máy biết học"để gợi ý 
+những sản phẩm bạn có thể muốn mua,
+
+00:01:59.876 --> 00:02:01.896
+các bộ phim bạn có thể muốn xem.
+
+00:02:01.896 --> 00:02:03.703
+Đôi khi nó làm ta 
+rùng mình.
+
+00:02:03.703 --> 00:02:05.657
+Các công ty như LinkedIn và Facebook
+
+00:02:05.657 --> 00:02:08.251
+đôi khi sẽ nói cho bạn biết ai có thể
+là bạn bè của bạn
+
+00:02:08.251 --> 00:02:10.228
+và bạn không hiểu nổi làm sao họ tìm ra,
+
+00:02:10.228 --> 00:02:13.195
+và đó là vì họ dùng đến sức mạnh của
+"máy biết học".
+
+00:02:13.195 --> 00:02:16.152
+Đây là thuật toán tự học cách xử lý
+từ cơ sở dữ liệu,
+
+00:02:16.152 --> 00:02:19.399
+thay vì được lập trình sẵn trước đó.
+
+00:02:19.399 --> 00:02:21.877
+Đây cũng là cách IBM thành công
+
+00:02:21.877 --> 00:02:25.739
+trong việc khiến cho Watson đánh bại 
+hai nhà vô địch chương trình "Jeopardy",
+
+00:02:25.739 --> 00:02:28.964
+bằng cách trả lời những câu hỏi hóc 
+búa và phức tạp như :
+
+00:02:28.964 --> 00:02:31.799
+[Sư tử Nimrud bị mất tại bảo tàng 
+quốc gia thành phố ...
+
+00:02:31.799 --> 00:02:35.034
+Đây cũng là cơ sở cho
+những xe hơi tự lái đầu tiên.
+
+00:02:35.034 --> 00:02:37.856
+Nếu chúng phân biệt 
+được sự khác nhau giữa
+
+00:02:37.856 --> 00:02:40.488
+cây xanh và người đi bộ,
+thì đó là việc rất quan trọng.
+
+00:02:40.488 --> 00:02:43.075
+Chúng ta không biết cách viết 
+những chương trình này,
+
+00:02:43.075 --> 00:02:46.072
+nhưng với "máy biết học", điều đó
+trở thành có thể.
+
+00:02:46.072 --> 00:02:48.680
+Và thực tế, loại xe này đã đi được 
+cả triệu dặm
+
+00:02:48.680 --> 00:02:52.186
+trên những con đường bình thường 
+mà không gây tai nạn nào.
+
+00:02:52.196 --> 00:02:56.110
+Bây giờ chúng ta biết máy tính
+có thể học được,
+
+00:02:56.110 --> 00:02:58.010
+và chúng có thể học
+cách làm những việc
+
+00:02:58.010 --> 00:03:00.848
+mà đôi khi chính chúng ta 
+không biết cách làm,
+
+00:03:00.848 --> 00:03:03.733
+hoặc có thể chúng làm tốt hơn ta.
+
+00:03:03.733 --> 00:03:07.928
+Một trong những ví dụ ngoạn mục nhất
+về "máy biết học" tôi từng thấy
+
+00:03:07.928 --> 00:03:10.320
+là dự án tôi tham gia ở Kaggle
+
+00:03:10.320 --> 00:03:13.911
+nơi đó có một anh chàng điều khiển 
+một nhóm, anh ta tên là Geofrey Hinton
+
+00:03:13.911 --> 00:03:15.463
+đến từ Đại học Toronto
+
+00:03:15.463 --> 00:03:18.140
+nhóm này thắng cuộc thi về
+chế tạo máy phát hiện ma túy.
+
+00:03:18.140 --> 00:03:20.987
+Bây giờ, điều phi thường ở đây 
+không phải là họ đánh bại
+
+00:03:20.987 --> 00:03:25.000
+tất cả các giải thuật phát triển bới Merk
+hay các cộng đồng học thuật quốc tế khác
+
+00:03:25.000 --> 00:03:30.061
+mà chính là họ không có thành viên nào 
+chuyên về hóa, sinh hay khoa học đời sống,
+
+00:03:30.061 --> 00:03:32.230
+và họ đã tạo ra chiếc máy 
+chỉ trong 2 tuần.
+
+00:03:32.230 --> 00:03:33.611
+Làm thế nào mà họ làm được?
+
+00:03:34.421 --> 00:03:37.342
+Họ dùng 1 siêu giải thuật
+gọi là deep learning: "học sâu".
+
+00:03:37.342 --> 00:03:40.291
+Thành công này quan trọng 
+đến mức đã được lên
+
+00:03:40.291 --> 00:03:43.412
+trang bìa tờ New York Times
+vài tuần sau đó.
+
+00:03:43.412 --> 00:03:46.147
+Đây là Geoffrey Hinton ở đây bên bìa trái.
+
+00:03:46.147 --> 00:03:50.488
+"Học sâu" là một giải thuật lấy 
+cảm hứng từ cách làm việc của não người,
+
+00:03:50.488 --> 00:03:52.300
+và kết quả là giải thuật này
+
+00:03:52.300 --> 00:03:56.141
+về lý thuyết, không có giới hạn cho 
+những gì nó có thể làm.
+
+00:03:56.141 --> 00:03:58.964
+Bạn đưa vào càng nhiều dữ liệu và
+cho càng nhiều thời gian,
+
+00:03:58.964 --> 00:04:00.276
+thì nó càng làm tốt.
+
+00:04:00.276 --> 00:04:02.615
+Trong bài báo này, Tờ New York Times
+cũng nói về
+
+00:04:02.615 --> 00:04:04.857
+một kết quả tuyệt vời khác 
+của "học sâu"
+
+00:04:04.857 --> 00:04:07.569
+mà tôi sẽ cho các bạn xem bây giờ.
+
+00:04:07.569 --> 00:04:12.510
+Đó là máy tính có thể nghe và hiểu.
+
+00:04:12.510 --> 00:04:15.221
+(Video) Richard Rashid: 
+Bây giờ là bước cuối cùng
+
+00:04:15.221 --> 00:04:18.246
+mà tôi muốn làm trong quá trình này
+
+00:04:18.246 --> 00:04:22.961
+là nói chuyện với các bạn bằng 
+tiếng Trung.
+
+00:04:22.961 --> 00:04:25.596
+Điểm mấu chốt đó là,
+
+00:04:25.596 --> 00:04:30.598
+chúng tôi có thể lấy lượng lớn
+thông tin từ những người nói tiếng Trung
+
+00:04:30.598 --> 00:04:33.128
+và tạo ra hệ thống chuyển văn bản 
+thành giọng nói
+
+00:04:33.128 --> 00:04:37.801
+nó giúp lấy văn bản tiếng Trung chuyển 
+thành tiếng Trung,
+
+00:04:37.801 --> 00:04:41.929
+và sau đó chúng tôi đã thực hiện khoảng 
+1 giờ để lấy giọng của chính tôi
+
+00:04:41.929 --> 00:04:43.820
+từ đó chúng tôi đã điều chỉnh
+
+00:04:43.820 --> 00:04:48.364
+hệ thống chuyển 'văn bản-lời nói'
+để cho ra được giọng nói giống tôi.
+
+00:04:48.364 --> 00:04:50.904
+Lần nữa, kết quả không hoàn hảo.
+
+00:04:50.904 --> 00:04:53.552
+Thực tế vẫn còn một vài lỗi.
+
+00:04:53.552 --> 00:04:56.036
+( tiếng Trung).
+
+00:04:56.036 --> 00:04:59.403
+(vỗ tay)
+
+00:05:01.446 --> 00:05:05.022
+Còn nhiều việc để làm trong lĩnh vực này.
+
+00:05:05.022 --> 00:05:08.667
+( tiếng Trung)
+
+00:05:08.667 --> 00:05:12.100
+( vỗ tay)
+
+00:05:13.345 --> 00:05:16.744
+Jeremy Howard: đó là trong một hội thảo
+về "máy biết học" ở Trung Quốc.
+
+00:05:16.744 --> 00:05:19.114
+Thực ra ở hội thảo học thuật, các bạn
+
+00:05:19.114 --> 00:05:21.011
+thường ít nghe tiếng vỗ tay tự phát,
+
+00:05:21.011 --> 00:05:24.687
+ngay cả ở các hội thảo của TEDx,
+hay vỗ tay thoải mái đi.
+
+00:05:24.687 --> 00:05:27.482
+Những điều bạn thấy đó
+đang diễn ra với "học sâu".
+
+00:05:27.482 --> 00:05:29.007
+( vỗ tay) Cảm ơn.
+
+00:05:29.007 --> 00:05:31.289
+Viết lại lời tiếng tiếng Anh
+bằng "học sâu".
+
+00:05:31.289 --> 00:05:34.701
+Dịch sang tiếng Trung có văn bản
+ở trên bên phải, do "học sâu",
+
+00:05:34.701 --> 00:05:38.008
+và xây dựng giọng nói cũng nhờ 
+"học sâu".
+
+00:05:38.008 --> 00:05:41.242
+"Học sâu" thật sự phi thường.
+
+00:05:41.242 --> 00:05:44.341
+Nó là một giải thuật đơn giản mà có vẻ 
+làm được hầu hết mọi thứ,
+
+00:05:44.341 --> 00:05:47.452
+và tôi phát hiện trước đó một năm,
+nó còn học nhìn thấy.
+
+00:05:47.452 --> 00:05:49.628
+Trong cuộc thi ở Đức,
+
+00:05:49.628 --> 00:05:52.225
+cuộc thi 'Nhận biết Tín hiệu
+Giao thông Benchmark',
+
+00:05:52.225 --> 00:05:55.618
+"học sâu" nhận biết các 
+tín hiệu giao thông,như cái này.
+
+00:05:55.618 --> 00:05:57.712
+Nó không chỉ nhận biết tín hiệu giao thông
+
+00:05:57.712 --> 00:05:59.470
+tốt hơn bất kỳ giải thuật nào khác,
+
+00:05:59.470 --> 00:06:02.189
+mà còn làm tốt hơn cả con người,
+
+00:06:02.189 --> 00:06:04.041
+tốt hơn gấp đôi.
+
+00:06:04.041 --> 00:06:06.037
+Năm 2011, chúng tôi có thử nghiệm đầu tiên
+
+00:06:06.037 --> 00:06:09.442
+cho thấy máy tính có thể nhìn
+tốt hơn con người.
+
+00:06:09.442 --> 00:06:11.491
+Từ đó, rất nhiều điều đã xảy ra.
+
+00:06:11.491 --> 00:06:15.005
+Năm 2012, Google thông báo họ đã có một
+giải thuật "học sâu"
+
+00:06:15.005 --> 00:06:16.420
+xem được video trên YouTube
+
+00:06:16.420 --> 00:06:19.857
+và lấy dữ liệu từ 16,000 máy tính trong
+một tháng,
+
+00:06:19.857 --> 00:06:24.218
+và máy tính đã học một cách độc lập
+các khái niệm "người" và "mèo"
+
+00:06:24.218 --> 00:06:26.027
+chỉ bằng việc xem các videos.
+
+00:06:26.027 --> 00:06:28.379
+Cách này rất giống
+cách học của con người.
+
+00:06:28.379 --> 00:06:31.119
+Không cần khái niệm có sẵn,
+ta học từ cái ta nhìn thấy,
+
+00:06:31.119 --> 00:06:34.450
+ta có thể hiểu trực tiếp
+bản chất của sự vật đó.
+
+00:06:34.450 --> 00:06:37.819
+Cũng trong năm 2012, Geoffrey Hinton,
+
+00:06:37.819 --> 00:06:40.677
+chiến thắng cuộc thi
+ImageNet rất nổi tiếng,
+
+00:06:40.677 --> 00:06:44.818
+vì đã tìm ra cách để xác định 
+một trong số nửa triệu tấm ảnh
+
+00:06:44.818 --> 00:06:46.256
+được giao trước.
+
+00:06:46.256 --> 00:06:49.789
+Từ 2014, chúng tôi đã giảm
+còn 6% tỉ lệ lỗi
+
+00:06:49.789 --> 00:06:51.242
+trong việc nhận diện hình ảnh.
+
+00:06:51.242 --> 00:06:53.268
+Với dạng việc này, 
+máy cũng hơn con người.
+
+00:06:53.268 --> 00:06:57.037
+Thật vậy, máy rất siêu trong lĩnh vực này,
+
+00:06:57.037 --> 00:06:59.306
+và đang được ứng dụng trong công nghiệp.
+
+00:06:59.306 --> 00:07:02.348
+Ví dụ, năm ngoái Google thông báo
+
+00:07:02.348 --> 00:07:06.933
+họ đã lập bản đồ mọi địa điểm ở Pháp 
+trong 2 giờ,
+
+00:07:06.933 --> 00:07:10.380
+và cách họ làm là nạp những hình ảnh 
+đường phố
+
+00:07:10.380 --> 00:07:14.699
+vào giải thuật "học sâu" để nhận diện
+và đọc số nhà.
+
+00:07:14.699 --> 00:07:16.919
+Hãy tưởng tượng trước đây 
+mất bao lâu:
+
+00:07:16.919 --> 00:07:20.274
+vài chục người làm việc trong nhiều năm.
+
+00:07:20.274 --> 00:07:22.185
+Điều này cũng diễn ra ở Trung Quốc.
+
+00:07:22.185 --> 00:07:26.221
+Tôi thấy Baidu cũng là một dạng 
+Google ở Trung Quốc,
+
+00:07:26.221 --> 00:07:28.504
+và những gì bạn thấy ở trên bên góc trái
+
+00:07:28.504 --> 00:07:32.478
+là một ví dụ về một bức ảnh tôi tải lên 
+hệ thống "học sâu" của Baidu
+
+00:07:32.478 --> 00:07:36.247
+và ở dưới bạn có thể thấy kết quả 
+hệ thống xử lý bức ảnh
+
+00:07:36.247 --> 00:07:38.483
+và nó đã tìm ra những bức hình tương tự.
+
+00:07:38.483 --> 00:07:41.219
+Những bức hình tương tự thực ra có 
+nền tương tự,
+
+00:07:41.219 --> 00:07:42.877
+hướng của khuôn mặt tương tự,
+
+00:07:42.877 --> 00:07:44.665
+và cả một số hình có lưỡi thè ra.
+
+00:07:44.665 --> 00:07:47.695
+Đây không phải là đối chiếu văn bản 
+của trang web.
+
+00:07:47.695 --> 00:07:49.107
+Tôi chỉ upload một tấm ảnh.
+
+00:07:49.107 --> 00:07:53.128
+Vậy chúng ta đang có những chiếc máy tính
+thực sự hiểu được những gì chúng nhìn thấy
+
+00:07:53.128 --> 00:07:54.752
+và có thể nhờ đó tìm dữ liệu
+
+00:07:54.752 --> 00:07:58.306
+của hàng trăm triệu tấm ảnh.
+
+00:07:58.306 --> 00:08:01.536
+Điều đó có nghĩa là gì khi máy tính 
+có thể nhìn thấy?
+
+00:08:01.536 --> 00:08:03.553
+À, máy tính không chỉ có thể
+nhìn thấy.
+
+00:08:03.553 --> 00:08:05.622
+Thật ra, "học sâu"
+còn làm được nhiều hơn.
+
+00:08:05.622 --> 00:08:08.570
+Những câu phức tạp và đầy 
+nét khác biệt tinh tế như câu này
+
+00:08:08.570 --> 00:08:11.394
+giờ đã được hiểu bởi giải thuật "học sâu".
+
+00:08:11.394 --> 00:08:12.697
+Như các bạn thấy ở đây,
+
+00:08:12.697 --> 00:08:15.465
+hệ thống nền Stanford này đang chiếu điểm
+đỏ ở trên
+
+00:08:15.465 --> 00:08:19.384
+đã tìm ra rằng câu này thể hiện tình cảm
+tiêu cực.
+
+00:08:19.384 --> 00:08:22.790
+"học sâu" thực sự đang gần giống như
+con người
+
+00:08:22.802 --> 00:08:27.923
+trong việc hiểu chủ đề các câu 
+và nội dung diễn đạt.
+
+00:08:27.923 --> 00:08:30.651
+"học sâu" có thể đọc tiếng Trung,
+
+00:08:30.651 --> 00:08:33.807
+giống như người nói tiếng Trung bản xứ.
+
+00:08:33.807 --> 00:08:35.975
+Giải thuật này phát triển ở Thụy Sĩ
+
+00:08:35.975 --> 00:08:39.331
+bởi những người không 
+biết tí gì tiếng Trung.
+
+00:08:39.331 --> 00:08:41.382
+Như tôi đã nói, "học sâu"
+
+00:08:41.382 --> 00:08:43.601
+là phương tiện tốt nhất 
+trong lĩnh vực này,
+
+00:08:43.601 --> 00:08:48.718
+vì nó có thể hiểu 
+thậm chí như người bản địa.
+
+00:08:48.718 --> 00:08:51.682
+Đây là hệ thống chúng tôi trang bị
+ở công ty tôi,
+
+00:08:51.682 --> 00:08:53.728
+công ty tôi muốn sử dụng 
+và kết hợp tất cả.
+
+00:08:53.728 --> 00:08:56.189
+Đây là những tấm hình không kèm theo
+dòng chữ nào,
+
+00:08:56.189 --> 00:08:58.541
+vì tôi viết những câu vào chỗ này,
+
+00:08:58.541 --> 00:09:01.510
+nhờ đó nó hiểu những tấm hình này
+
+00:09:01.510 --> 00:09:03.189
+và tìm ra chúng nói về cái gì
+
+00:09:03.189 --> 00:09:06.352
+và tìm những tấm hình có ý 
+tương tự với dòng chữ tôi đang viết.
+
+00:09:06.352 --> 00:09:09.108
+Vậy các bạn thấy đó, nó thực sự hiểu
+được câu tôi viết
+
+00:09:09.108 --> 00:09:11.332
+và thực sự hiểu những tấm hình này.
+
+00:09:11.332 --> 00:09:13.891
+Tôi biết các bạn từng thấy điều tương tự
+trên Google,
+
+00:09:13.891 --> 00:09:16.666
+khi bạn viết điều gì đó và chúng hiện
+lên các tấm ảnh,
+
+00:09:16.666 --> 00:09:20.090
+nhưng thực sự những gì nó đang làm là 
+tìm những trang web theo dòng chữ.
+
+00:09:20.090 --> 00:09:23.091
+Điều này rất khác với việc thực việc hiểu
+những tấm ảnh.
+
+00:09:23.091 --> 00:09:25.843
+Đây là điều mà máy tính chỉ có thể làm
+
+00:09:25.843 --> 00:09:29.091
+lần đầu tiên cách đây vài tháng.
+
+00:09:29.091 --> 00:09:33.182
+Chúng ta thấy máy tính không chỉ 
+nhìn thấy được mà chúng còn đọc được,
+
+00:09:33.182 --> 00:09:36.947
+và dĩ nhiên chúng tôi cho thấy chúng còn
+hiểu được những gì chúng nghe.
+
+00:09:36.947 --> 00:09:40.389
+Có lẽ không còn ngạc nhiên khi tôi nói 
+với các bạn chúng có thể viết.
+
+00:09:40.389 --> 00:09:45.172
+Ở đây là những dòng văn bản tôi tạo ra
+bằng giải thuật "học sâu" hôm qua.
+
+00:09:45.172 --> 00:09:49.096
+Và đây là những văn bản giải thuật ở 
+Stanford tạo ra.
+
+00:09:49.096 --> 00:09:50.860
+Mỗi câu được tạo ra
+
+00:09:50.860 --> 00:09:55.109
+bằng giải thuật "học sâu" nhằm mô tả
+những bức ảnh này.
+
+00:09:55.109 --> 00:09:59.581
+Trước đây giải thuật này chưa bao giờ
+thấy một người đàn ông áo đen chơi ghita
+
+00:09:59.581 --> 00:10:01.801
+Nhưng nó đã thấy đàn ông,
+và đã thấy màu đen,
+
+00:10:01.801 --> 00:10:03.400
+và nó cũng đã thấy đàn ghita,
+
+00:10:03.400 --> 00:10:07.694
+rồi nó đã tự tạo ra 
+chú thích của tấm ảnh này.
+
+00:10:07.694 --> 00:10:11.196
+Máy vẫn chưa đạt đến mức như 
+con người, nhưng cũng khá gần rồi.
+
+00:10:11.196 --> 00:10:15.264
+Trong các thí nghiệm máy viết phụ đề
+cho hình, số phụ đề được người ta chọn
+
+00:10:15.264 --> 00:10:16.791
+chỉ ở tỉ lệ 1/4.
+
+00:10:16.791 --> 00:10:18.855
+Nhưng hệ thống này giờ 
+chỉ mới 2 tuần tuổi,
+
+00:10:18.855 --> 00:10:20.701
+nên có thể trong năm tới,
+
+00:10:20.701 --> 00:10:23.502
+giải thuật máy tính sẽ còn
+hơn cả con người
+
+00:10:23.502 --> 00:10:25.364
+và tỉ lệ được chọn sẽ cao hơn.
+
+00:10:25.364 --> 00:10:28.413
+Máy tính cũng có thể viết.
+
+00:10:28.413 --> 00:10:31.888
+Chúng tôi kết hợp tất cả lại và nó 
+dẫn đến những cơ hội rất thú vị.
+
+00:10:31.888 --> 00:10:33.380
+Ví dụ, trong ngành y,
+
+00:10:33.380 --> 00:10:35.905
+một nhóm ở Boston thông báo họ đã tìm ra
+
+00:10:35.905 --> 00:10:38.854
+hàng chục tính năng lâm sàng mới
+
+00:10:38.854 --> 00:10:43.120
+của các khối u để giúp các
+bác sĩ tiên đoán bệnh ung thư.
+
+00:10:44.220 --> 00:10:46.516
+Tương tự, ở Stanford,
+
+00:10:46.516 --> 00:10:50.179
+một nhóm thông báo rằng, dựa vào 
+các hình phóng đại của mô,
+
+00:10:50.179 --> 00:10:52.560
+họ phát triển hệ thống "máy biết học"
+
+00:10:52.560 --> 00:10:55.142
+còn tốt hơn cả các nhà nghiên cứu bệnh học
+
+00:10:55.142 --> 00:10:59.519
+nhờ thế làm tăng khả năng sống sót
+của các bệnh nhân ung thư.
+
+00:10:59.519 --> 00:11:02.764
+Trong cả hai trường hợp, không chỉ việc 
+tiên đoán chính xác hơn,
+
+00:11:02.764 --> 00:11:05.266
+mà còn tạo ra ngành 
+khoa học mới rất triển vọng.
+
+00:11:05.276 --> 00:11:06.781
+Trong lĩnh vực X-quang,
+
+00:11:06.781 --> 00:11:09.876
+chúng là những chỉ số lâm sàng
+mới mà con người có thể hiểu.
+
+00:11:09.876 --> 00:11:11.668
+Trong lĩnh vực bệnh học,
+
+00:11:11.668 --> 00:11:16.168
+hệ thống máy tính đã cho thấy rằng 
+những tế bào xung quanh khối u
+
+00:11:16.168 --> 00:11:19.508
+cũng quan trọng như chính tế bào ung thư
+
+00:11:19.508 --> 00:11:21.260
+trong việc chẩn đoán bệnh.
+
+00:11:21.260 --> 00:11:26.621
+Điều này ngược với những gì các nhà 
+bệnh học được dạy trong nhiều thập kỷ qua.
+
+00:11:26.621 --> 00:11:29.913
+Trong mỗi trường hợp trên,
+chúng là các hệ thống được phát triển
+
+00:11:29.913 --> 00:11:33.534
+bởi sự hợp tác của các chuyên gia y tế
+và các chuyên gia "máy biết học",
+
+00:11:33.534 --> 00:11:36.275
+nhưng từ năm trước,
+chúng tôi đã tiến khá xa.
+
+00:11:36.275 --> 00:11:39.824
+Đây là một ví dụ về xác định khu vực 
+ung thư
+
+00:11:39.824 --> 00:11:42.354
+của mô người dưới kính hiển vi.
+
+00:11:42.354 --> 00:11:46.967
+Hệ thống có thể xác định những 
+khu vực chính xác hơn
+
+00:11:46.967 --> 00:11:49.742
+hoặc tương đương các nhà bệnh học,
+
+00:11:49.742 --> 00:11:53.134
+nhưng vì nó được xây dựng với 
+"học sâu" không có chuyên gia ngành y
+
+00:11:53.134 --> 00:11:55.660
+nên những người không chuyên 
+cũng có thể dùng.
+
+00:11:56.730 --> 00:11:59.285
+Ví dụ như việc phân đoạn nơ ron này.
+
+00:11:59.285 --> 00:12:02.953
+Máy giúp chúng tôi phân đoạn nơ ron 
+chính xác như các chuyên gia,
+
+00:12:02.953 --> 00:12:05.670
+nhưng hệ thống này lại được thiết kế với
+"học sâu"
+
+00:12:05.670 --> 00:12:08.921
+bởi những người không có 
+chuyên môn y khoa.
+
+00:12:08.921 --> 00:12:12.148
+Còn tôi, cũng không có nền tảng về y khoa,
+
+00:12:12.148 --> 00:12:15.875
+thế mà tôi dường như có đầy đủ năng lực 
+để mở một công ty về ngành y,
+
+00:12:15.875 --> 00:12:18.021
+và tôi đã làm.
+
+00:12:18.021 --> 00:12:19.761
+Tôi đã từng sợ trước khi bắt đầu,
+
+00:12:19.761 --> 00:12:22.650
+nhưng lý thuyết cho thấy mọi người có thể
+
+00:12:22.650 --> 00:12:28.142
+dùng những kỹ thuật phân tích dữ liệu 
+để có được một nền y học hiệu quả.
+
+00:12:28.142 --> 00:12:30.622
+Và may mắn là tôi nhận được 
+những phản hồi rất tốt,
+
+00:12:30.622 --> 00:12:32.978
+không chỉ từ truyền thông 
+mà còn từ giới y khoa,
+
+00:12:32.978 --> 00:12:35.322
+họ luôn ủng hộ.
+
+00:12:35.322 --> 00:12:39.471
+Về lý thuyết, chúng tôi có thể lấy phần 
+giữa của quy trình
+
+00:12:39.471 --> 00:12:42.364
+và làm phân tích dữ liệu 
+càng nhiều càng tốt,
+
+00:12:42.364 --> 00:12:45.429
+phần còn lại dành cho bác sĩ.
+
+00:12:45.429 --> 00:12:47.031
+Tôi muốn đưa ra một ví dụ.
+
+00:12:47.031 --> 00:12:51.975
+Thông thường ta cần 15 phút 
+để làm một xét nghiệm chẩn đoán
+
+00:12:51.975 --> 00:12:53.929
+và tôi sẽ làm cho bạn xem
+
+00:12:53.929 --> 00:12:57.416
+tôi nén nó thành 3 phút 
+bằng cách cắt bớt bỏ một số phần.
+
+00:12:57.416 --> 00:13:00.477
+Thay vì cho bạn xem quá trình 
+một xét nghiệm chẩn đoán y học,
+
+00:13:00.477 --> 00:13:03.846
+tôi sẽ cho các bạn xem một xét nghiệm
+chẩn đoán hình ảnh xe hơi,
+
+00:13:03.846 --> 00:13:06.068
+vì như thế sẽ dễ hiểu cho mọi người.
+
+00:13:06.068 --> 00:13:09.269
+Chúng tôi bắt đầu với khoảng 1,5 triệu 
+hình ảnh xe hơi,
+
+00:13:09.269 --> 00:13:12.475
+tôi muốn tạo tiêu chuẩn để 
+gom chúng lại vào góc
+
+00:13:12.475 --> 00:13:14.698
+của bức hình đang được chụp.
+
+00:13:14.698 --> 00:13:18.586
+Những bức hình này không gắn nhãn trước,
+nên tôi phải bắt đầu từ số không.
+
+00:13:18.586 --> 00:13:20.451
+Giải thuật "học sâu"
+
+00:13:20.451 --> 00:13:24.158
+có thể tự xác định 
+vùng cấu trúc trong những bức ảnh này.
+
+00:13:24.158 --> 00:13:27.778
+Rất thuận lợi, bây giờ con người 
+và máy tính có thể làm việc cùng nhau.
+
+00:13:27.778 --> 00:13:29.956
+Như các bạn đang thấy đây, con người
+
+00:13:29.956 --> 00:13:32.631
+đang nói cho máy tính biết 
+lĩnh vực cần quan tâm
+
+00:13:32.631 --> 00:13:37.281
+mà họ muốn máy tính sử dụng để 
+cải thiện giải thuật của nó.
+
+00:13:37.281 --> 00:13:41.577
+Những hệ thống "học sâu" này thực ra là
+không gian 16,000 chiều,
+
+00:13:41.577 --> 00:13:45.009
+bạn có thể thấy ở đây máy tính quay
+quanh không gian đó,
+
+00:13:45.009 --> 00:13:47.001
+cố gắng tìm vùng mới của cấu trúc.
+
+00:13:47.001 --> 00:13:48.782
+Và khi nó làm thành công,
+
+00:13:48.782 --> 00:13:52.786
+người sử dụng máy có thể tìm thấy
+khu vực đáng quan tâm.
+
+00:13:52.786 --> 00:13:55.208
+Ở đây, máy tính đã tìm ra những vùng đó,
+
+00:13:55.208 --> 00:13:57.770
+ví dụ, các góc.
+
+00:13:57.770 --> 00:13:59.376
+Khi chúng tôi thực hiện,
+
+00:13:59.376 --> 00:14:01.716
+chúng tôi lần lượt nói cho máy tính
+
+00:14:01.716 --> 00:14:04.144
+các loại mảng cấu trúc 
+mà chúng tôi tìm kiếm.
+
+00:14:04.144 --> 00:14:05.916
+Hãy liên tưởng xét nghiệm chuẩn đoán,
+
+00:14:05.916 --> 00:14:09.266
+ví dụ, một chuyên gia bệnh học 
+xác định những vùng của bệnh ,
+
+00:14:09.266 --> 00:14:14.292
+hoặc một bác sĩ X-quang cho thấy nốt sần
+có thể gây phiền phức,
+
+00:14:14.292 --> 00:14:16.851
+và đôi khi nó gây khó cho giải thuật.
+
+00:14:16.851 --> 00:14:18.815
+Trong trường hợp này, giải thuật hơi rối.
+
+00:14:18.815 --> 00:14:21.365
+Phần trước và sau của xe rất
+giống nhau nên dễ nhầm.
+
+00:14:21.365 --> 00:14:23.437
+Chúng tôi phải cẩn thận hơn,
+
+00:14:23.437 --> 00:14:26.669
+chọn bằng tay phần trước để thấy 
+sự khác biệt với phần sau,
+
+00:14:26.669 --> 00:14:32.175
+sau đó bảo với máy tính rằng đây là
+tiêu chuẩn nhận dạng nhóm
+
+00:14:32.175 --> 00:14:33.523
+mà chúng tôi quan tâm.
+
+00:14:33.523 --> 00:14:36.200
+Chúng tôi làm điều đó,
+thỉnh thoảng bỏ qua,
+
+00:14:36.200 --> 00:14:38.446
+sau đó luyện tập giải thuật 
+cho "máy biết học"
+
+00:14:38.446 --> 00:14:40.420
+dựa trên hàng trăm lần như thế này,
+
+00:14:40.420 --> 00:14:42.445
+chúng tôi hy vọng nó hoàn thiện hơn.
+
+00:14:42.445 --> 00:14:45.518
+Các bạn thấy đó, nó đang bắt đầu làm mờ
+vài bức ảnh,
+
+00:14:45.518 --> 00:14:50.226
+cho thấy rằng nó đã nhận ra cách 
+để hiểu những hình đó.
+
+00:14:50.226 --> 00:14:53.128
+Chúng tôi có thể dùng khái niệm này cho
+các bức ảnh tương tự,
+
+00:14:53.128 --> 00:14:55.222
+và dùng các bức ảnh tương tự, bạn thấy đó,
+
+00:14:55.222 --> 00:14:59.241
+máy tính có thể tìm thấy
+phần trước của chiếc xe.
+
+00:14:59.241 --> 00:15:02.189
+Lúc này, con người có thể nói cho máy tính
+
+00:15:02.189 --> 00:15:04.482
+ok, đúng rồi, bạn đã làm rất tốt.
+
+00:15:05.652 --> 00:15:07.837
+Nhưng đôi khi, đối với máy
+
+00:15:07.837 --> 00:15:11.511
+việc tách các nhóm hình vẫn còn khó.
+
+00:15:11.511 --> 00:15:15.395
+Ngay cả khi chúng tôi để nhiều thời gian 
+cho máy tính xoay xở,
+
+00:15:15.399 --> 00:15:18.744
+nhưng chúng tôi vẫn thấy phía trái 
+và phía phải bức ảnh
+
+00:15:18.744 --> 00:15:20.222
+bị chọn nhầm lẫn.
+
+00:15:20.222 --> 00:15:22.362
+Để cho máy tính thêm vài gợi ý,
+
+00:15:22.362 --> 00:15:25.338
+chúng tôi nói: ok, hãy thử và tìm 
+một chi tiết
+
+00:15:25.338 --> 00:15:27.945
+khác biệt rõ ràng nhất
+giữa bên trái và bên phải
+
+00:15:27.945 --> 00:15:30.067
+bằng giải thuật "học sâu" này.
+
+00:15:30.067 --> 00:15:33.009
+Và với gợi ý đó, à, nó đã thành công.
+
+00:15:33.009 --> 00:15:35.891
+Nó được giao nhiệm vụ tìm ra cách
+nhận ra các đối tượng này
+
+00:15:35.891 --> 00:15:38.271
+rồi tách rời chúng ra.
+
+00:15:38.271 --> 00:15:40.709
+Các bạn đã nắm được cách làm này.
+
+00:15:40.709 --> 00:15:48.906
+Trong trường hợp này máy tính 
+không thể thay con người,
+
+00:15:48.906 --> 00:15:51.546
+nhưng cả hai làm việc chung với nhau.
+
+00:15:51.546 --> 00:15:55.096
+Điều chúng tôi đang làm là thay thế 
+những thứ mà trước đây cần một đội
+
+00:15:55.096 --> 00:15:57.098
+5 hoặc 6 người làm trong 7 năm
+
+00:15:57.098 --> 00:15:59.703
+bằng một công việc trong 15 phút
+
+00:15:59.703 --> 00:16:02.208
+của một người.
+
+00:16:02.208 --> 00:16:06.158
+Quá trình nhận ra và tách hình 
+được lặp lại 4 hoặc 5 lần.
+
+00:16:06.158 --> 00:16:08.017
+Các bạn thấy chúng tôi có 62%
+
+00:16:08.017 --> 00:16:10.976
+trong số 1.5 triệu bức ảnh 
+được phân loại chính xác.
+
+00:16:10.976 --> 00:16:13.448
+Và ở mức độ này, chúng tôi có thể
+bắt đầu với
+
+00:16:13.448 --> 00:16:14.745
+những nhóm lớn,
+
+00:16:14.745 --> 00:16:17.664
+kiểm tra chúng để bảo đảm không còn lỗi.
+
+00:16:17.664 --> 00:16:21.616
+Nơi nào có lỗi, chúng tôi sẽ cho
+máy tính biết.
+
+00:16:21.616 --> 00:16:24.661
+Và dùng dạng quá trình này cho từng nhóm
+khác nhau,
+
+00:16:24.661 --> 00:16:27.148
+bây giờ, chúng tôi đạt đến 80% tỉ lệ 
+thành công
+
+00:16:27.148 --> 00:16:29.563
+trong việc phân loại 1.5 triệu tấm ảnh.
+
+00:16:29.563 --> 00:16:31.641
+Lúc này, với trường hợp
+
+00:16:31.641 --> 00:16:35.220
+tìm thấy những tấm 
+không được phân loại đúng,
+
+00:16:35.220 --> 00:16:38.108
+chúng tôi cố gắng tìm hiểu lý do.
+
+00:16:38.108 --> 00:16:39.851
+Và sử dụng cách tiếp cận trên,
+
+00:16:39.851 --> 00:16:43.972
+với 15 phút chúng tôi đạt tỉ lệ phân loại
+97%.
+
+00:16:43.972 --> 00:16:48.572
+Vậy kỹ thuật này có thể cho chúng ta
+chỉnh sửa một vấn đề lớn,
+
+00:16:48.578 --> 00:16:51.614
+mà toàn bộ chuyên gia trên 
+thế giới cũng không đủ số để làm.
+
+00:16:51.614 --> 00:16:55.103
+Diễn đàn Kinh tế Thế giới nói rằng 
+vào giữa thập kỷ 2010 và 2020
+
+00:16:55.103 --> 00:16:57.727
+số lượng bác sĩ bị thiếu 
+so với nhu cầu của thế giới,
+
+00:16:57.727 --> 00:16:59.840
+và phải mất khoảng 300 năm
+
+00:16:59.840 --> 00:17:02.734
+để đào tạo đủ số nhân sự cho vấn đề này.
+
+00:17:02.734 --> 00:17:05.619
+Hãy tưởng tượng, liệu chúng ta có thể 
+nâng hiệu năng của họ
+
+00:17:05.619 --> 00:17:08.458
+qua cách tiếp cận "học sâu"?
+
+00:17:08.458 --> 00:17:10.690
+Tôi rất thích việc tạo ra những cơ hội.
+
+00:17:10.690 --> 00:17:13.279
+Tôi cũng quan tâm đến 
+các vấn đề khó cần giải quyết.
+
+00:17:13.279 --> 00:17:16.403
+Vấn đề ở đây là ở mỗi khu vực 
+màu xanh da trời trên bản đồ,
+
+00:17:16.403 --> 00:17:20.172
+ngành dịch vụ chiếm 80% nhân lực.
+
+00:17:20.172 --> 00:17:21.959
+Ngành dịch vụ gì vậy?
+
+00:17:21.959 --> 00:17:23.473
+Các dịch vụ trong bảng này.
+
+00:17:23.473 --> 00:17:27.627
+Máy tính cũng vừa mới học 
+được cách làm các dịch vụ này.
+
+00:17:27.627 --> 00:17:31.431
+Vậy công việc của 80% nhân lực 
+trong các nước phát triển
+
+00:17:31.431 --> 00:17:33.963
+sẽ được máy tính học để làm thay.
+
+00:17:33.963 --> 00:17:35.403
+Điều đó có nghĩa là gì?
+
+00:17:35.403 --> 00:17:37.986
+À, sẽ ổn thôi.
+Họ sẽ làm các công việc khác.
+
+00:17:37.986 --> 00:17:40.693
+Ví dụ, sẽ có nhiều việc hơn cho
+các nhà khoa học dữ liệu.
+
+00:17:40.693 --> 00:17:41.510
+À cũng không hẳn.
+
+00:17:41.510 --> 00:17:44.628
+Vì các nhà khoa học dữ liệu 
+không cần nhiều thời gian nữa.
+
+00:17:44.628 --> 00:17:47.880
+Ví dụ, bốn giải thuật này được xây dựng
+bởi cùng một người.
+
+00:17:47.880 --> 00:17:50.318
+Các bạn nghĩ chuyện này 
+đã xảy ra trước đây rồi,
+
+00:17:50.318 --> 00:17:54.126
+trong quá khứ nhiều máy móc 
+được làm ra và tiếp theo là
+
+00:17:54.126 --> 00:17:56.378
+và nhiều người đã phải 
+chuyển sang việc mới,
+
+00:17:56.378 --> 00:17:58.494
+nhưng việc mới của thời nay này sẽ là gì?
+
+00:17:58.494 --> 00:18:00.365
+Thật khó để dự đoán được điều này,
+
+00:18:00.365 --> 00:18:03.104
+vì khả năng của con người 
+thì chỉ tăng từng bước,
+
+00:18:03.104 --> 00:18:05.666
+nhưng với một hệ thống "học sâu",
+
+00:18:05.666 --> 00:18:08.893
+chúng ta có khả năng phát triển rất nhanh.
+
+00:18:08.893 --> 00:18:10.498
+Và chúng ta ở đây.
+
+00:18:10.498 --> 00:18:12.559
+Chúng ta thấy những thứ xung quanh
+
+00:18:12.559 --> 00:18:15.235
+và chúng ta nói: "Ôi, máy tính
+vẫn ngốc lắm", lo gì ?
+
+00:18:15.235 --> 00:18:18.664
+Nhưng trong 5 năm nữa, máy tính
+sẽ không còn như vậy.
+
+00:18:18.664 --> 00:18:22.529
+Chúng ta cần suy nghĩ tới 
+khả năng này ngay từ bây giờ.
+
+00:18:22.529 --> 00:18:24.579
+Chúng ta thấy một lần
+như vậy trước đây rồi.
+
+00:18:24.579 --> 00:18:25.966
+Trong cách mạng công nghiệp,
+
+00:18:25.966 --> 00:18:28.817
+chúng ta đã thấy những thay đổi 
+nhờ các động cơ.
+
+00:18:29.667 --> 00:18:32.805
+Mặc dù vậy, sau đó mọi thứ
+trở nên bình thường.
+
+00:18:32.805 --> 00:18:34.507
+Đã có vài đảo lộn trong xã hội,
+
+00:18:34.507 --> 00:18:37.946
+nhưng một khi động cơ được dùng 
+để tạo ra những thuận lợi cho cuộc sống,
+
+00:18:37.946 --> 00:18:40.300
+thì mọi thứ đi vào ổn định.
+
+00:18:40.300 --> 00:18:41.773
+Cuộc cách mạng "máy biết học"
+
+00:18:41.773 --> 00:18:44.682
+sẽ rất khác với 
+Cuộc cách mạng công nghiệp,
+
+00:18:44.682 --> 00:18:47.632
+vì Cách mạng "máy biết học sẽ
+không bao giờ dừng lại.
+
+00:18:47.632 --> 00:18:50.614
+Máy tính càng giỏi 
+trong các hoạt động trí tuệ,
+
+00:18:50.614 --> 00:18:54.862
+thì chúng tạo nên những 
+máy tính càng thông minh hơn,
+
+00:18:54.862 --> 00:18:56.770
+và đây chính là kiểu thay đổi
+
+00:18:56.770 --> 00:18:59.248
+mà thế giới chưa bao giờ trải qua,
+
+00:18:59.248 --> 00:19:02.554
+những phán đoán trước đây của bạn 
+có thể sẽ không chính xác.
+
+00:19:02.974 --> 00:19:04.754
+Điều này tác động lên chính chúng ta.
+
+00:19:04.754 --> 00:19:08.384
+Trong 25 năm trước, khi năng suất
+thiết bị tăng,
+
+00:19:08.400 --> 00:19:12.588
+thì năng suất lao động không tăng, 
+mà thậm chí còn hơi giảm.
+
+00:19:13.408 --> 00:19:16.149
+Tôi nghĩ chúng ta cần
+thảo luận về vấn đề này từ bây giờ.
+
+00:19:16.149 --> 00:19:19.176
+Khi tôi nói với mọi người 
+về tình hình này,
+
+00:19:19.176 --> 00:19:20.666
+họ thường tỏ vẻ coi thường.
+
+00:19:20.666 --> 00:19:22.339
+Đúng, máy tính không thể suy nghĩ,
+
+00:19:22.339 --> 00:19:25.367
+chúng không có cảm xúc, không hiểu thơ ca,
+
+00:19:25.367 --> 00:19:27.888
+nhưng ta không lường 
+trước được cách chúng làm việc.
+
+00:19:27.888 --> 00:19:29.374
+Vậy chuyện gì đây?
+
+00:19:29.374 --> 00:19:31.178
+Bây giờ, máy tính có thể làm
+
+00:19:31.178 --> 00:19:33.897
+những việc mà con người 
+cần cả đời để thực hiện,
+
+00:19:33.897 --> 00:19:35.628
+đây là thời điểm để
+chúng ta nghĩ tới
+
+00:19:35.628 --> 00:19:40.015
+cách điều chỉnh cấu trúc xã hội
+và cấu trúc kinh tế
+
+00:19:40.015 --> 00:19:41.855
+để thận trọng với hiện thực mới này.
+
+00:19:41.855 --> 00:19:43.388
+Xin cảm ơn.
+
+00:19:43.388 --> 00:19:44.190
+(Tiếng vỗ tay)
+

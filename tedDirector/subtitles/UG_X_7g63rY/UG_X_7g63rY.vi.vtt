@@ -1,0 +1,577 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Thuy Nguyen Thanh
+Reviewer: Nguyet Minh Doan
+
+00:00:12.861 --> 00:00:15.995
+Xin chào, Tôi là Joy, một nhà thơ viết mã,
+
+00:00:16.019 --> 00:00:21.012
+đang thực hiện nhiệm vụ ngăn chặn một
+một lực lượng vô hình đang gia tăng,
+
+00:00:21.036 --> 00:00:23.892
+một lực lượng mà tôi gọi là
+"the coded gaze,"
+
+00:00:23.916 --> 00:00:27.225
+là từ tôi nói về
+sự thiên vị thuật toán.
+
+00:00:27.249 --> 00:00:31.549
+Thiên vị thuật toán, giống như thiên vị
+con người, sẽ đưa đến sự bất công.
+
+00:00:31.573 --> 00:00:37.595
+Tuy nhiên, thuật toán, giống như virút, có
+thể phát tán sự thiên vị trên quy mô lớn
+
+00:00:37.619 --> 00:00:39.201
+với tốc độ nhanh chóng.
+
+00:00:39.763 --> 00:00:44.150
+Thiên vị thuật toán có thể dẫn đến
+nhiều trải nghiệm bị loại trừ ra
+
+00:00:44.174 --> 00:00:46.302
+và các hành vi phân biệt đối xử.
+
+00:00:46.326 --> 00:00:48.387
+Tôi sẽ cho các bạn thấy điều tôi muốn nói.
+
+00:00:48.800 --> 00:00:51.236
+(Video) Joy: Chào camera.
+Tôi có một khuôn mặt.
+
+00:00:51.982 --> 00:00:53.846
+Bạn có thấy mặt tôi không?
+
+00:00:53.871 --> 00:00:55.496
+Khuôn mặt không đeo kính ấy?
+
+00:00:55.521 --> 00:00:57.735
+Bạn có thể thấy mặt cô ấy.
+
+00:00:58.057 --> 00:01:00.302
+Thế còn mặt của tôi?
+
+00:01:03.710 --> 00:01:07.460
+Tôi có một mặt nạ. Bạn có thấy mặt nạ
+của tôi không?
+
+00:01:08.294 --> 00:01:10.659
+Joy Buolamwini: Việc này là thế nào?
+
+00:01:10.683 --> 00:01:13.824
+Tại sao tôi đang ngồi trước máy tính
+
+00:01:13.848 --> 00:01:15.272
+đeo mặt nạ trắng,
+
+00:01:15.296 --> 00:01:18.946
+cố dò khuôn mặt mình bằng một
+webcam rẽ tiền?
+
+00:01:18.970 --> 00:01:21.261
+Vâng, tôi không chống lại
+the coded gaze
+
+00:01:21.285 --> 00:01:22.805
+với vai trò một nhà thơ viết mã
+
+00:01:22.829 --> 00:01:26.101
+Tôi là sinh viên tốt nghiệp
+tại MIT Media Lab,
+
+00:01:26.125 --> 00:01:31.042
+và ở đó, tôi có cơ hội làm việc với mọi
+loại dự án kỳ quặc,
+
+00:01:31.066 --> 00:01:33.093
+bao gồm dự án Aspire Mirror,
+
+00:01:33.117 --> 00:01:38.251
+dự án này tôi đã thực hiện nên tôi có thể
+chiếu các mặt nạ số phản ánh tâm trạng tôi
+
+00:01:38.275 --> 00:01:40.625
+vào buổi sáng, nếu tôi muốn
+cảm thấy mạnh mẽ
+
+00:01:40.649 --> 00:01:42.083
+Tôi có thể đeo mặt nạ sư tử.
+
+00:01:42.107 --> 00:01:45.603
+Nếu tôi muốn được lên tinh thần,
+tôi có thể có một viện dẫn.
+
+00:01:45.627 --> 00:01:48.616
+Và tôi đã sử dụng một phần mềm
+nhận diện khuôn mặt thông dụng
+
+00:01:48.640 --> 00:01:49.991
+để xây dựng hệ thống,
+
+00:01:50.015 --> 00:01:55.118
+nhưng tôi nhận ra rằng rất khó để
+chạy thử nó trừ khi tôi đeo mặt nạ trắng
+
+00:01:56.102 --> 00:02:00.448
+Thật không may, trước đây tôi cũng đã
+gặp sự cố này.
+
+00:02:00.472 --> 00:02:04.775
+Khi tôi còn là sinh viên nghiên cứu khoa
+học máy tính ở Georgia Tech,
+
+00:02:04.799 --> 00:02:06.854
+tôi đã từng làm các robot xã hội,
+
+00:02:06.878 --> 00:02:10.655
+và một trong những công việc của tôi là
+cài đặt robot chơi trò "Ú òa",
+
+00:02:10.679 --> 00:02:12.362
+một trò chơi luân phiên đơn giản
+
+00:02:12.386 --> 00:02:16.707
+trong đó các người chơi che mặt lại
+và tháo mặt ra và nói "Ú òa!"
+
+00:02:16.731 --> 00:02:21.160
+Vấn đề là, tôi sẽ không Ú Òa nếu 
+không nhìn thấy bạn,
+
+00:02:21.184 --> 00:02:23.683
+và robot của tôi đã không thấy tôi.
+
+00:02:23.707 --> 00:02:27.657
+Nhưng khi tôi mượn khuôn mặt của bạn
+cùng phòng để thực hiện dự án,
+
+00:02:27.681 --> 00:02:29.061
+nộp bài tập,
+
+00:02:29.085 --> 00:02:32.838
+và tham gia, bạn biết không, ai sẽ giải
+quyết vấn đề này.
+
+00:02:33.489 --> 00:02:35.492
+Không lâu sau đó,
+
+00:02:35.516 --> 00:02:39.675
+Tôi đã đến Hong Kong để tham gia một
+cuộc thi làm doanh nhân.
+
+00:02:40.159 --> 00:02:42.853
+Các nhà tổ chức đã quyết định đưa những
+người tham gia
+
+00:02:42.877 --> 00:02:45.249
+đi tham quan các startup địa phương.
+
+00:02:45.273 --> 00:02:47.988
+Một trong các startup đó có một
+robot xã hội,
+
+00:02:48.012 --> 00:02:49.924
+và họ đã quyết định demo.
+
+00:02:49.948 --> 00:02:52.928
+Việc demo thực hiện với mọi người
+và khi đến lược tôi
+
+00:02:52.952 --> 00:02:54.875
+và bạn có lẽ cùng đoán được.
+
+00:02:54.899 --> 00:02:57.864
+Nó không nhận diện được khuôn mặt tôi.
+
+00:02:57.888 --> 00:03:00.399
+Tôi đã hỏi người phát triển nó
+chuyện gì xãy ra vậy,
+
+00:03:00.423 --> 00:03:05.956
+và hóa ra chúng tôi đã sử dụng cùng một
+phần mềm nhận diện khuôn mặt đó.
+
+00:03:05.980 --> 00:03:07.630
+Nữa vòng trái đất,
+
+00:03:07.654 --> 00:03:11.506
+Tôi đã học được rằng sự thiên vị
+thuật toán có thể di chuyển nhanh như
+
+00:03:11.530 --> 00:03:14.700
+việc tải một số file từ internet.
+
+00:03:15.565 --> 00:03:18.641
+Vậy điều gì đang xãy ra?
+Tại sao khuôn mặt tôi không nhận ra được
+
+00:03:18.665 --> 00:03:22.021
+Vâng, chúng ta phải xem lại cách chúng ta
+cho máy tính nhìn.
+
+00:03:22.045 --> 00:03:25.454
+Thi giác máy tính sử dụng các công nghệ
+học máy để nhìn
+
+00:03:25.478 --> 00:03:27.358
+để nhận diện khuôn mặt.
+
+00:03:27.382 --> 00:03:31.279
+Và cách làm là, ta tạo ra một một tập huấn
+luyện với các ví dụ về khuôn mặt.
+
+00:03:31.303 --> 00:03:34.121
+Đây là khuôn mặt. Đây là khuôn mặt.
+Còn đây thì không.
+
+00:03:34.145 --> 00:03:38.664
+và qua thời gian, ta có thể dạy máy tính
+cách nhận ra các khuôn mặt khác.
+
+00:03:38.688 --> 00:03:42.677
+Tuy nhiên, nếu tập huấn luyện
+không đa dạng,
+
+00:03:42.701 --> 00:03:46.050
+bất kỳ khuôn mặt nào mà khác quá nhiều
+so với chuẩn đã thiết lập
+
+00:03:46.074 --> 00:03:47.723
+sẽ khó dò tìm hơn,
+
+00:03:47.747 --> 00:03:49.710
+đó chính là trường hợp xãy ra với tôi.
+
+00:03:49.734 --> 00:03:52.116
+Nhưng đừng lo - có một vài tin tốt.
+
+00:03:52.140 --> 00:03:54.911
+Các tập huấn luyện không tồn tại ở
+cõi hư vô.
+
+00:03:54.935 --> 00:03:56.723
+Mà do chính chúng ta tạo ra.
+
+00:03:56.747 --> 00:04:00.923
+Do vậy chúng ta có cơ hội tạo ra các tập
+huấn luyện phủ kín các trường hợp
+
+00:04:00.947 --> 00:04:04.771
+và phản ánh một bức tranh đầy đủ hơn
+về con người.
+
+00:04:04.795 --> 00:04:07.016
+Bây giờ bạn đã thấy trong các ví dụ
+của tôi
+
+00:04:07.040 --> 00:04:08.808
+các robot xã hội nó ra sao
+
+00:04:08.832 --> 00:04:13.443
+cách tôi đã tìm ra sự sai sót về
+thiên vị thuật toán.
+
+00:04:13.467 --> 00:04:18.282
+Nhưng sự thiên vị thuật toán có thể dẫn
+đến các hành vi phân biệt đối xử.
+
+00:04:19.257 --> 00:04:20.710
+Khắp nước Mỹ,
+
+00:04:20.734 --> 00:04:24.932
+các sở cảnh sát đang bắt đầu đưa
+phần mềm nhận dạng khuôn mặt
+
+00:04:24.956 --> 00:04:27.415
+vào kho vũ khí chống tội phạm của họ.
+
+00:04:27.439 --> 00:04:29.452
+Trường luật Georgetown công bố một
+báo cáo
+
+00:04:29.476 --> 00:04:36.239
+cho thấy 1/2 người lớn ở Mỹ
+-- có đến 117 triệu người --
+
+00:04:36.263 --> 00:04:39.797
+có khuôn mặt trong các mạng lưới
+nhận dạng khuôn mặt.
+
+00:04:39.821 --> 00:04:44.373
+Hiện tại các sở cảnh sát có thể nhìn
+vào các mạng lưới không được kiểm soát này
+
+00:04:44.397 --> 00:04:48.683
+sử dụng các thuật toán không được kiểm tra
+để bảo đảm sự chính xác.
+
+00:04:48.707 --> 00:04:52.571
+Nhưng chúng ta biết nhận dạng khuôn mặt
+không phải là không có sai sót
+
+00:04:52.595 --> 00:04:56.774
+và đánh nhãn khuôn mặt một cách chắc chắn
+vẫn còn là một thách thức.
+
+00:04:56.798 --> 00:04:58.560
+Bạn có thể thấy điều này
+trên Facebook
+
+00:04:58.584 --> 00:05:01.572
+Tôi và các bạn tôi luôn cười khi thấy
+những người khác
+
+00:05:01.596 --> 00:05:04.054
+bị đánh nhãn sai trong các bức hình
+của chúng tôi.
+
+00:05:04.078 --> 00:05:09.669
+Nhưng nhận diện sai một nghi phạm
+không phải là một chuyện để cười,
+
+00:05:09.693 --> 00:05:12.520
+cũng không phải là vi phạm
+quyền tự do dân sự.
+
+00:05:12.544 --> 00:05:15.749
+Công nghệ học máy đang được sử dụng
+để nhận diện khuôn mặt,
+
+00:05:15.773 --> 00:05:20.278
+nhưng nó cũng đang mở rộng vượt quá lĩnh
+vực thị giác máy tính.
+
+00:05:21.086 --> 00:05:25.102
+Trong cuốn sách "Vũ khí hủy diệt toán học"
+
+00:05:25.126 --> 00:05:31.807
+của cô Cathy O'Neil, một nhà khoa học
+dữ liệu, nói các loại WMD đang gia tăng --
+
+00:05:31.831 --> 00:05:36.184
+các giải thuật hủy diệt, thần bí và
+phổ biến rộng rãi
+
+00:05:36.208 --> 00:05:39.172
+đang ngày càng được sử dụng để đưa
+ra quyết định
+
+00:05:39.196 --> 00:05:42.373
+mà ảnh hưởng đến nhiều lĩnh vực của
+cuộc sống.
+
+00:05:42.397 --> 00:05:44.267
+Vậy ai được tuyển dụng hoặc sa thải?
+
+00:05:44.291 --> 00:05:46.403
+Bạn có khoản vay đó?
+Bạn có bảo hiểm không?
+
+00:05:46.427 --> 00:05:49.930
+Bạn có được tiếp nhận vào trường đại học
+mà bạn muốn?
+
+00:05:49.954 --> 00:05:53.463
+Bạn và tôi có trả cùng giá
+cho cùng sản phẩm
+
+00:05:53.487 --> 00:05:55.929
+được mua trên cùng một nền tảng?
+
+00:05:55.953 --> 00:05:59.712
+Việc thực thi luật pháp cũng đang bắt đầu
+sử dụng công nghệ học máy
+
+00:05:59.736 --> 00:06:02.025
+để dự báo tình hình phạm pháp
+
+00:06:02.049 --> 00:06:05.543
+Một số thẩm phán sử dụng điểm số rủi ro
+do máy tạo ra để xác định
+
+00:06:05.567 --> 00:06:09.969
+một cá nhân sẽ đi tù trong bao lâu.
+
+00:06:09.993 --> 00:06:12.447
+Do vậy chúng ta phải nghĩ về những
+quyết định này.
+
+00:06:12.471 --> 00:06:13.653
+Chúng có công bằng?
+
+00:06:13.677 --> 00:06:16.567
+Và chúng ta đã thấy rằng
+sự thiên vị thuật toán
+
+00:06:16.591 --> 00:06:19.965
+không nhất thiết luôn cho ra kết quả
+công bằng
+
+00:06:19.989 --> 00:06:21.953
+Vậy ta có thể làm gì với chúng?
+
+00:06:21.977 --> 00:06:25.657
+Vâng, ta có thể bắt đầu nghĩ về cách
+tạo ra mã lệnh bao hàm nhiều hơn
+
+00:06:25.681 --> 00:06:28.671
+và sử dụng các hoạt động viết mã có
+tính bao hàm.
+
+00:06:28.695 --> 00:06:31.004
+Nó thực sự bắt đầu với con người.
+
+00:06:31.528 --> 00:06:33.489
+Vậy ai viết các mã lệnh đó.
+
+00:06:33.513 --> 00:06:37.632
+Có phải chúng ta đang tạo ra các nhóm
+đầy đủ với các cá nhân đa dạng
+
+00:06:37.656 --> 00:06:40.067
+những người có thể kiểm tra các điểm mù
+lẫn nhau?
+
+00:06:40.091 --> 00:06:43.636
+Về mặt kỹ thuật,
+chúng ta viết các mã lệnh đó như thế nào
+
+00:06:43.660 --> 00:06:47.311
+Chúng ta có đang tính đến yếu tố công bằng
+khi xây dựng hệ thống/
+
+00:06:47.335 --> 00:06:50.248
+Và cuối cùng, tại sao chúng ta viết những
+mã lệnh đó.
+
+00:06:50.605 --> 00:06:55.688
+Chúng ta đã sử dụng các công cụ sáng tạo
+tính toán để mở khóa sự giàu có to lớn.
+
+00:06:55.712 --> 00:07:00.159
+Giờ đây chúng ta có cơ hội mở khóa
+sự bình đẳng to lớn hơn
+
+00:07:00.183 --> 00:07:03.113
+nếu chúng ta tạo ra sự thay đổi xã hội
+một sự ưu tiên
+
+00:07:03.137 --> 00:07:05.307
+và không suy nghĩ lại
+
+00:07:05.828 --> 00:07:10.350
+Và đây là 3 nguyên lý mà sẽ tạo nên
+phong trào "incoding".
+
+00:07:10.374 --> 00:07:12.026
+Ai viết mã lệnh đó,
+
+00:07:12.050 --> 00:07:13.593
+chúng ta viết mã lệnh đó ra sao
+
+00:07:13.617 --> 00:07:15.640
+và tại sao ta viết mã lệnh đó.
+
+00:07:15.664 --> 00:07:18.763
+Do đó để hướng đến sự viết mã tận tâm,
+ta có thể bắt đầu nghĩ về
+
+00:07:18.787 --> 00:07:21.951
+xây dựng các nền tảng mà có thể
+nhận diện sự thiên vị
+
+00:07:21.975 --> 00:07:25.053
+bằng cách tập hợp trải nghiệm của
+mọi người như tôi đã chia sẽ
+
+00:07:25.077 --> 00:07:28.147
+nhưng cũng kiểm tra các phần mềm hiện tại.
+
+00:07:28.171 --> 00:07:31.936
+Chúng ta cũng có thể bắt đầu tạo ra
+những tập huấn luyện bao hàm hơn
+
+00:07:31.960 --> 00:07:34.763
+Hãy tưởng tượng một chiến dịch
+"Tự sướng để hòa nhập"
+
+00:07:34.787 --> 00:07:38.442
+ở đó bạn và tôi có thể giúp các
+nhà phát triển kiểm thử và tạo ra
+
+00:07:38.466 --> 00:07:40.559
+các tập huấn luyện bao hàm hơn.
+
+00:07:41.122 --> 00:07:43.950
+Và chúng ta cũng bắt đầu suy nghĩ
+một cách tận tâm hơn
+
+00:07:43.974 --> 00:07:49.365
+về sự ảnh hưởng xã hội của công nghệ
+mà ta đang phát triển.
+
+00:07:49.389 --> 00:07:51.782
+Để bắt đầu phong trào viết mã tận tâm
+
+00:07:51.806 --> 00:07:54.653
+Tôi đã khởi xướng Liên minh công lý
+thuật toán,
+
+00:07:54.677 --> 00:08:00.549
+ở đó bất cứ ai quan tâm đến sự công bằng
+đều có thể giúp chống lại the coded gaze.
+
+00:08:00.573 --> 00:08:03.869
+trên codedgaze.com, nơi bạn có thể
+báo cáo lại các thiên vị,
+
+00:08:03.893 --> 00:08:06.338
+đề nghị sự kiểm tra, trở thành
+người kiểm thử
+
+00:08:06.362 --> 00:08:09.133
+và tham gia vào các cuộc nói chuyện
+
+00:08:09.157 --> 00:08:11.444
+#codedgaze.
+
+00:08:12.562 --> 00:08:15.049
+Tôi mời bạn tham gia với tôi
+
+00:08:15.073 --> 00:08:18.792
+để tạo ra một thế giới ở đó công nghệ
+phục vụ cho tất cả chúng ta,
+
+00:08:18.816 --> 00:08:20.713
+không phải chỉ với một số người,
+
+00:08:20.737 --> 00:08:25.325
+một thế giới ở đó chúng ta đề cao sự hòa
+nhập và thay đổi xã hội làm trung tâm
+
+00:08:25.349 --> 00:08:26.524
+Xin cảm ơn.
+
+00:08:26.548 --> 00:08:30.819
+(Vỗ tay)
+
+00:08:32.693 --> 00:08:35.547
+Nhưng tôi còn một câu hỏi:
+
+00:08:35.571 --> 00:08:37.630
+Bạn có cùng tôi vào
+cuộc chiến này không?
+
+00:08:37.654 --> 00:08:38.939
+(Cười)
+
+00:08:38.963 --> 00:08:42.650
+(Vỗ tay)
+

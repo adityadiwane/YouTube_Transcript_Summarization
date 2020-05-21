@@ -1,0 +1,1259 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Yasemin Bayraktar
+Gözden geçirme: Zeynep Duygu Tamer
+
+00:00:15.260 --> 00:00:17.260
+Kaçınız buna benzer şekli bozulmuş bir karakter dizisini
+
+00:00:17.260 --> 00:00:19.260
+okumanızı gerektiren bir web formu doldurmak zorunda kaldınız?
+
+00:00:19.260 --> 00:00:21.260
+Kaçınız bunu gerçekten ama gerçekten sinir bozucu buluyor?
+
+00:00:21.260 --> 00:00:24.260
+Pekala, harika. Bunu ben icat ettim.
+
+00:00:24.260 --> 00:00:26.260
+(Gülüşmeler)
+
+00:00:26.260 --> 00:00:28.260
+Ya da icat edenlerden biriydim.
+
+00:00:28.260 --> 00:00:30.260
+Bu şeye CAPTCHA deniyor.
+
+00:00:30.260 --> 00:00:32.260
+Ve bunun orada olmasının nedeni formu dolduran kişinin, sizin,
+
+00:00:32.260 --> 00:00:35.260
+formu milyonlarca defa göndermeye programlanmış bir
+
+00:00:35.260 --> 00:00:37.260
+bilgisayar programı değil, insan olduğunuzdan emin olmak.
+
+00:00:37.260 --> 00:00:39.260
+İşe yarıyor çünkü insanlar,
+
+00:00:39.260 --> 00:00:41.260
+en azından görme engelli olmayan insanlar,
+
+00:00:41.260 --> 00:00:43.260
+şekli bozulmuş dalgalı karakterleri okumakta sorun yaşamıyorlar,
+
+00:00:43.260 --> 00:00:46.260
+fakat bilgisayarlar bunu henüz yapamıyorlar.
+
+00:00:46.260 --> 00:00:48.260
+Örneğin, Ticketmaster'ın durumunda,
+
+00:00:48.260 --> 00:00:50.260
+bu şekli bozuk karakterleri yazmanızın nedeni,
+
+00:00:50.260 --> 00:00:52.260
+bilet karaborsacılarının ikişer defa milyonlarca
+
+00:00:52.260 --> 00:00:54.260
+bilet alabilen bir program yazmalarını engellemek.
+
+00:00:54.260 --> 00:00:56.260
+CAPTCHA'lar bütün İnternet'te kullanılıyor.
+
+00:00:56.260 --> 00:00:58.260
+Ve çok sık kullanıldıklarından,
+
+00:00:58.260 --> 00:01:00.260
+birçok kez kullanıcının karşısına rastgele karakterlerin düzgün
+
+00:01:00.260 --> 00:01:02.260
+sıralanmış olarak çıkması olağan.
+
+00:01:02.260 --> 00:01:05.260
+Örneğin bu Yahoo'nun kayıt sayfası.
+
+00:01:05.260 --> 00:01:07.260
+Kullanıcının karşısına çıkan rastgele karakterler şunlardı
+
+00:01:07.260 --> 00:01:10.260
+W,A,I,T (bekle), tabi ki bu aynı zamanda bir kelime.
+
+00:01:10.260 --> 00:01:13.260
+Ama işin en iyi kısmı Yahoo'nun
+
+00:01:13.260 --> 00:01:16.260
+yardım masasına 20 dakika sonra gelen mesaj.
+
+00:01:16.260 --> 00:01:19.260
+Yazı: "Yardım edin! 20 dakikadır bekliyorum ama hiçbir şey olmuyor."
+
+00:01:19.260 --> 00:01:23.260
+(Gülüşmeler)
+
+00:01:23.260 --> 00:01:25.260
+Bu kişi beklemeleri gerektiğini düşünmüş.
+
+00:01:25.260 --> 00:01:28.260
+Bu tabi ki, bu zavallı kişininki kadar kötü değil.
+
+00:01:28.260 --> 00:01:30.260
+(Gülüşmeler)
+
+00:01:30.260 --> 00:01:33.260
+CAPTCHA Projesi burada Carnegie Mellon'da 10 yıl önce yaptığımız birşey,
+
+00:01:33.260 --> 00:01:35.260
+ve her yerde kullanılıyor.
+
+00:01:35.260 --> 00:01:37.260
+Şimdi size bundan birkaç yıl sonra yaptığımız bir projeden bahsedeyim,
+
+00:01:37.260 --> 00:01:40.260
+ki bu CAPTCHA'nın bir çeşit evrimleşmiş hali.
+
+00:01:40.260 --> 00:01:42.260
+Bu projeye reCAPTCHA diyoruz,
+
+00:01:42.260 --> 00:01:44.260
+burada Carnegie Mellon'da başlattığımız birşey,
+
+00:01:44.260 --> 00:01:46.260
+sonra bunu yeni kurulmuş bir şirkete çevirdik.
+
+00:01:46.260 --> 00:01:48.260
+Ve yaklaşık bir buçuk yıl sonra,
+
+00:01:48.260 --> 00:01:50.260
+aslında Google bu şirketi satın aldı.
+
+00:01:50.260 --> 00:01:52.260
+Size bu projenin neyi başlattığını anlatayım.
+
+00:01:52.260 --> 00:01:55.260
+Bu proje arka arkaya gelen kavrayışlarla başladı:
+
+00:01:55.260 --> 00:01:57.260
+Anlaşıldı ki dünyanın her yerinde insanlar hergün
+
+00:01:57.260 --> 00:02:00.260
+yaklaşık 200 milyon CAPTCHA yazıyor.
+
+00:02:00.260 --> 00:02:02.260
+Bunu ilk duyduğumda, kendimle gerçekten gurur duydum.
+
+00:02:02.260 --> 00:02:04.260
+Şöyle düşündüm, araştırmamın yarattığı etkiye bakın.
+
+00:02:04.260 --> 00:02:06.260
+Ama sonra kendimi kötü hissetmeye başladım.
+
+00:02:06.260 --> 00:02:08.260
+Olay şu, her bir CAPTCHA yazışınızda,
+
+00:02:08.260 --> 00:02:11.260
+aslında hayatınızın 10 saniyesini harcıyorsunuz.
+
+00:02:11.260 --> 00:02:13.260
+Ve bunu 200 milyonla çarptığınızda,
+
+00:02:13.260 --> 00:02:16.260
+şu sonuç çıkıyor, tüm insanlık hergün bu sinir bozucu CAPTCHA'ları
+
+00:02:16.260 --> 00:02:18.260
+yazarak günde yaklaşık 500,000 saat harcıyor.
+
+00:02:18.260 --> 00:02:20.260
+Sonra kendimi kötü hissetmeye başladım.
+
+00:02:20.260 --> 00:02:22.260
+(Gülüşmeler)
+
+00:02:22.260 --> 00:02:25.260
+Ve sonra düşünmeye başladım, tabi ki, CAPTCHA'lardan vazgeçemeyiz,
+
+00:02:25.260 --> 00:02:27.260
+çünkü Web güvenliği bir şekilde onlara dayanıyor.
+
+00:02:27.260 --> 00:02:30.260
+Ama sonra bu uğraşıyı insanlığa faydalı olacak bir şekilde
+
+00:02:30.260 --> 00:02:32.260
+kullanabilir miyiz diye düşünmeye başladım?
+
+00:02:32.260 --> 00:02:34.260
+Görüyorsunuz, olay bu.
+
+00:02:34.260 --> 00:02:36.260
+Bir CAPTCHA yazarkenki 10 saniye içinde,
+
+00:02:36.260 --> 00:02:38.260
+beyniniz muhteşem birşey yapıyor.
+
+00:02:38.260 --> 00:02:40.260
+Beyniniz henüz bilgisayarların yapamadığı birşeyi yapıyor.
+
+00:02:40.260 --> 00:02:43.260
+Peki size bu 10 saniye içinde bu faydalı işi yaptırabilir miyiz?
+
+00:02:43.260 --> 00:02:45.260
+Başka bir deyişle,
+
+00:02:45.260 --> 00:02:47.260
+henüz bilgisayarların çözemediği, bir kişinin her CAPTCHA
+
+00:02:47.260 --> 00:02:50.260
+çözüşünde bu sorunun da bir kısmını
+
+00:02:50.260 --> 00:02:52.260
+çözmesini sağlayan 10 saniyelik küçük parçalara
+
+00:02:52.260 --> 00:02:54.260
+bölebileceğimiz büyük sorunlar var mı?
+
+00:02:54.260 --> 00:02:56.260
+Ve bunun cevabı "evet", ve şu an bunu yapıyoruz.
+
+00:02:56.260 --> 00:02:59.260
+Şunu bilmiyor olabilirsiniz ama bugünlerde CAPTCHA'yı yazarken
+
+00:02:59.260 --> 00:03:01.260
+sadece insan olduğunuzu doğrulamakla kalmıyor,
+
+00:03:01.260 --> 00:03:03.260
+aynı zamanda aslında bize kitapları dijitalleştirmemizde yardımcı oluyorsunuz.
+
+00:03:03.260 --> 00:03:05.260
+Size nasıl çalıştığını anlatayım.
+
+00:03:05.260 --> 00:03:07.260
+Kitapları dijitalleştirmeye çalışan çok fazla proje var.
+
+00:03:07.260 --> 00:03:10.260
+Google'ın var.The Internet Archive'in var.
+
+00:03:10.260 --> 00:03:12.260
+Amazon, şimdi Kindle ile, kitapları dijitalleştirmeye çalışıyor.
+
+00:03:12.260 --> 00:03:14.260
+Temelde şöyle çalışıyor
+
+00:03:14.260 --> 00:03:16.260
+eski bir kitapla başlıyorsunuz.
+
+00:03:16.260 --> 00:03:18.260
+Bunlardan daha önce gördünüz, değil mi? Kitap gibi?
+
+00:03:18.260 --> 00:03:20.260
+(Gülüşmeler)
+
+00:03:20.260 --> 00:03:22.260
+Bir kitapla başlıyorsunuz ve sonra onu tarıyorsunuz.
+
+00:03:22.260 --> 00:03:24.260
+Şimdi bir kitabı taramak
+
+00:03:24.260 --> 00:03:26.260
+kitabın her sayfasının dijital fotoğrafını çekmek gibi birşey.
+
+00:03:26.260 --> 00:03:28.260
+Kitabın her sayfası için bir resim veriyor size.
+
+00:03:28.260 --> 00:03:30.260
+Bu kitabın her sayfası için bir yazılı resim.
+
+00:03:30.260 --> 00:03:32.260
+Süreçteki bir sonraki adımda
+
+00:03:32.260 --> 00:03:35.260
+bilgisayarın bu resimdeki tüm kelimeleri deşifre etmesi gerekiyor.
+
+00:03:35.260 --> 00:03:37.260
+Bunun için OCR isimli bir teknoloji kullanıyor,
+
+00:03:37.260 --> 00:03:39.260
+optik karakter tanımlaması için,
+
+00:03:39.260 --> 00:03:41.260
+yazının fotoğrafı gerekiyor
+
+00:03:41.260 --> 00:03:43.260
+ve yazıyı çözmeye çalışıyor.
+
+00:03:43.260 --> 00:03:45.260
+Sorun şu ki OCR mükemmel değil.
+
+00:03:45.260 --> 00:03:47.260
+Özellikle mürekkebin
+
+00:03:47.260 --> 00:03:50.260
+solduğu ve sayfaların sarardığı daha eski kitaplarda,
+
+00:03:50.260 --> 00:03:52.260
+OCR tüm kelimeleri tanıyamıyor.
+
+00:03:52.260 --> 00:03:54.260
+Örneğin, 50 yıl önce yazılmış şeylerde,
+
+00:03:54.260 --> 00:03:57.260
+bilgisayar kelimelerin yaklaşık yüzde 30'unu tanıyamıyor.
+
+00:03:57.260 --> 00:03:59.260
+Bu yüzden şunu yapıyoruz,
+
+00:03:59.260 --> 00:04:01.260
+bilgisayarın tanıyamadığı bütün kelimeleri alıyoruz
+
+00:04:01.260 --> 00:04:03.260
+ve insanların İnternette bir CAPTCHA yazarken
+
+00:04:03.260 --> 00:04:05.260
+bunları bizim için okumalarını sağlıyoruz.
+
+00:04:05.260 --> 00:04:08.260
+Yani bir daha ki sefere bir CAPTCHA yazdığınızda, yazdığınız kelimeler
+
+00:04:08.260 --> 00:04:11.260
+aslında dijitalleştirilmekte olan kitapların bilgisayarın
+
+00:04:11.260 --> 00:04:13.260
+tanıyamadığı kelimeleri olacak.
+
+00:04:13.260 --> 00:04:15.260
+Ve artık günümüzde bir yerine iki kelimenin olmasının nedeni şu,
+
+00:04:15.260 --> 00:04:17.260
+görüyorsunuz, kelimelerden biri
+
+00:04:17.260 --> 00:04:19.260
+sistemin kitaptan bulduğu bir kelime,
+
+00:04:19.260 --> 00:04:22.260
+ne olduğunu bilmiyordu ve bunu size sunacak.
+
+00:04:22.260 --> 00:04:25.260
+Ama bunu cevabını bilmediği için bunu sizin için puanlayamaz.
+
+00:04:25.260 --> 00:04:27.260
+Bu yüzden size bir kelime daha veriyoruz,
+
+00:04:27.260 --> 00:04:29.260
+bilgisayarın cevabını bildiği bir kelime.
+
+00:04:29.260 --> 00:04:31.260
+Size hangisinin hangisi olduğunu söylemiyoruz ve ikisini de yazmanızı istiyoruz.
+
+00:04:31.260 --> 00:04:33.260
+Ve eğer sistemin çoktan
+
+00:04:33.260 --> 00:04:35.260
+cevabını bildiği doğru kelimeyi yazarsanız,
+
+00:04:35.260 --> 00:04:37.260
+sizi insan olarak kabul eder,
+
+00:04:37.260 --> 00:04:39.260
+ve ayrıca diğer kelimeyi de doğru yazdığınızı düşünür.
+
+00:04:39.260 --> 00:04:42.260
+Ve bu süreci 10 farklı kişi için tekrar edersek ve hepsi
+
+00:04:42.260 --> 00:04:44.260
+yeni kelimenin ne olduğu konusunda hem fikir olursa,
+
+00:04:44.260 --> 00:04:46.260
+bir kelimeyi daha doğru bir şekilde dijitalleştirmiş oluyoruz.
+
+00:04:46.260 --> 00:04:48.260
+Yani sistem bu şekilde işliyor.
+
+00:04:48.260 --> 00:04:51.260
+Ve aslında, bunu yapmaya başlayalı üç ya da dört yıl geçti,
+
+00:04:51.260 --> 00:04:53.260
+birçok websitesi insanların vakitlerini harcadıkları
+
+00:04:53.260 --> 00:04:55.260
+eski CAPTCHA'yı insanların kitapları dijitalleştirmeye
+
+00:04:55.260 --> 00:04:57.260
+yardımcı olduğu yeni CAPTCHA ile değiştirmeye başladı.
+
+00:04:57.260 --> 00:04:59.260
+Örneğin, Ticketmaster.
+
+00:04:59.260 --> 00:05:02.260
+Yani Ticketmaster'dan her bilet alışınızda bir kitabı dijitalleştirmeye yardım ediyorsunuz.
+
+00:05:02.260 --> 00:05:04.260
+Facebook: Her yeni arkadaş eklediğinizde veya birini dürttüğünüzde,
+
+00:05:04.260 --> 00:05:06.260
+bir kitabı dijitalleştirmeye yardım ediyorsunuz.
+
+00:05:06.260 --> 00:05:09.260
+Twitter ve yaklaşık 350,000 başka site reCAPTCHA'yı kullanıyor.
+
+00:05:09.260 --> 00:05:11.260
+Ve aslında, reCAPTCHA'yı kullanan sitelerin sayısı o kadar fazla ki,
+
+00:05:11.260 --> 00:05:14.260
+bir günde dijitalleştirdiğimiz kelimelerin sayısı gerçekten çok fazla.
+
+00:05:14.260 --> 00:05:16.260
+Günde yaklaşık 100 milyon,
+
+00:05:16.260 --> 00:05:20.260
+ki bu da yılda yaklaşık iki buçuk milyon kitaba eşdeğer.
+
+00:05:20.260 --> 00:05:22.260
+Ve bu insanların İnternette CAPTCHA'ları yazmasıyla
+
+00:05:22.260 --> 00:05:24.260
+her seferde tek kelime ile oluyor.
+
+00:05:24.260 --> 00:05:32.260
+(Alkış)
+
+00:05:32.260 --> 00:05:34.260
+Tabi ki,
+
+00:05:34.260 --> 00:05:36.260
+günde çok fazla kelime yazdığımız için,
+
+00:05:36.260 --> 00:05:38.260
+komik şeyler olabiliyor.
+
+00:05:38.260 --> 00:05:40.260
+Bu gerçekten doğru çünkü insanlara rastgele seçilmiş
+
+00:05:40.260 --> 00:05:42.260
+İngilizce kelimeleri yan yana veriyoruz.
+
+00:05:42.260 --> 00:05:44.260
+Çok komik şeyler olabiliyor.
+
+00:05:44.260 --> 00:05:46.260
+Örneğin, bu kelimeyi sunduk.
+
+00:05:46.260 --> 00:05:48.260
+"Christians" (Hristiyanlar) kelimesi, bunda bir sorun yok.
+
+00:05:48.260 --> 00:05:51.260
+Ama bunu rastgele seçilen başka bir kelimeyle sunduğunuzda,
+
+00:05:51.260 --> 00:05:53.260
+kötü şeyler olabilir.
+
+00:05:53.260 --> 00:05:55.260
+Başımıza bu geliyor. (Yazı: kötü hristiyanlar)
+
+00:05:55.260 --> 00:05:58.260
+Daha da kötüsü, bunu gösterdiğimiz sitenin adı
+
+00:05:58.260 --> 00:06:01.260
+Tanrı'nın Krallığının Elçiliği'ydi.
+
+00:06:01.260 --> 00:06:03.260
+(Gülüşmeler)
+
+00:06:03.260 --> 00:06:05.260
+Oops.
+
+00:06:05.260 --> 00:06:08.260
+(Gülüşmeler)
+
+00:06:08.260 --> 00:06:10.260
+İşte gerçekten kötü olan başka bir tanesi.
+
+00:06:10.260 --> 00:06:12.260
+JohnEdwards.com
+
+00:06:12.260 --> 00:06:15.260
+(Yazı: Kahrolası liberal)
+
+00:06:15.260 --> 00:06:17.260
+(Gülüşmeler)
+
+00:06:17.260 --> 00:06:20.260
+Yani hergün solcu ve sağcıları aşağılamaya devam ediyoruz.
+
+00:06:20.260 --> 00:06:22.260
+Tabi ki, sadece insanları aşağılamakla kalmıyoruz.
+
+00:06:22.260 --> 00:06:25.260
+Olay şu, iki rastgele seçilmiş kelime sunduğumuz için,
+
+00:06:25.260 --> 00:06:27.260
+ilginç şeyler olabiliyor.
+
+00:06:27.260 --> 00:06:29.260
+Hatta bu durum
+
+00:06:29.260 --> 00:06:32.260
+on binlerce insanın katıldığı bir
+
+00:06:32.260 --> 00:06:34.260
+İnternet etkinliğine neden oldu,
+
+00:06:34.260 --> 00:06:36.260
+buna CAPTCHA sanatı deniyor.
+
+00:06:36.260 --> 00:06:38.260
+Eminim bir kaçınız bunu duymuştur.
+
+00:06:38.260 --> 00:06:40.260
+Bu şekilde oluyor.
+
+00:06:40.260 --> 00:06:42.260
+Düşünün ki İnterneti kullanıyorsunuz ve bir şekilde
+
+00:06:42.260 --> 00:06:44.260
+tuhaf olduğunu düşündüğünüz bir CAPTCHA görüyorsunuz,
+
+00:06:44.260 --> 00:06:46.260
+bu CAPTCHA gibi. (Yazı: görünmez tost makinesi)
+
+00:06:46.260 --> 00:06:48.260
+Sonra yapmanız gereken şey bunun ekran resmini çekmek.
+
+00:06:48.260 --> 00:06:50.260
+Sonra tabi ki, CAPTCHA dolduruyorsunuz
+
+00:06:50.260 --> 00:06:52.260
+çünkü bize bir kitabı dijitalleştirmede yardım ediyorsunuz.
+
+00:06:52.260 --> 00:06:54.260
+Ama sonra, önce ekran resmi çekiyorsunuz,
+
+00:06:54.260 --> 00:06:56.260
+ve sonra onunla alakalı birşey çiziyorsunuz.
+
+00:06:56.260 --> 00:06:58.260
+(Gülüşmeler)
+
+00:06:58.260 --> 00:07:01.260
+İşte bu şekilde çalışıyor.
+
+00:07:01.260 --> 00:07:04.260
+Bunlardan on binlerce var.
+
+00:07:04.260 --> 00:07:06.260
+Bazıları çok sevimli. (Yazı: avucumun içinde)
+
+00:07:06.260 --> 00:07:08.260
+(Gülüşmeler)
+
+00:07:08.260 --> 00:07:10.260
+Bazıları daha komik.
+
+00:07:10.260 --> 00:07:13.260
+(Yazı: Kafası güzel kurucular)
+
+00:07:13.260 --> 00:07:16.260
+(Gülüşmeler)
+
+00:07:16.260 --> 00:07:18.260
+Ve bazılarında,
+
+00:07:18.260 --> 00:07:21.260
+paleontolojik shvisle gibi,
+
+00:07:21.260 --> 00:07:23.260
+Snoop Dogg kullanılıyor.
+
+00:07:23.260 --> 00:07:26.260
+(Gülüşmeler)
+
+00:07:26.260 --> 00:07:28.260
+Pekala, bu benim favori reCAPTCHA rakamım.
+
+00:07:28.260 --> 00:07:31.260
+Bu tüm projeyle ilgili en sevdiğim şey.
+
+00:07:31.260 --> 00:07:33.260
+Bu reCAPTCHA sayesinde bir kitabın
+
+00:07:33.260 --> 00:07:36.260
+en az bir kelimesini dijitalleştirmede yardımcı olan net kişi sayısı:
+
+00:07:36.260 --> 00:07:38.260
+750 milyon,
+
+00:07:38.260 --> 00:07:40.260
+bu, dünya nüfusunun yüzde 10'undan biraz fazla,
+
+00:07:40.260 --> 00:07:42.260
+bu kadar kişi bilgiyi dijitalleştirmemize yardım etti.
+
+00:07:42.260 --> 00:07:45.260
+Ve bunun gibi rakamlar araştırma gündemimi harekete geçiriyor.
+
+00:07:45.260 --> 00:07:48.260
+Beni araştırmaya sevk eden şey şu:
+
+00:07:48.260 --> 00:07:50.260
+Eğer insanların büyük ölçekli başarılarına bakarsanız,
+
+00:07:50.260 --> 00:07:52.260
+insanlığın tarihi açıdan
+
+00:07:52.260 --> 00:07:55.260
+beraber yaptıkları gerçekten büyük şeyler --
+
+00:07:55.260 --> 00:07:57.260
+örneğin, Mısır piramitlarini ya da Panama Kanalını
+
+00:07:57.260 --> 00:07:59.260
+inşa etmek ya da
+
+00:07:59.260 --> 00:08:01.260
+Ay'a adam göndermek --
+
+00:08:01.260 --> 00:08:03.260
+bunlarla ilgili garip bir gerçek var,
+
+00:08:03.260 --> 00:08:05.260
+ve bu da şu, bunların hepsi aynı sayıda insanla yapıldı.
+
+00:08:05.260 --> 00:08:08.260
+Çok garip; hepsi yaklaşık 100,000 insanla yapıldılar.
+
+00:08:08.260 --> 00:08:11.260
+Ve bunun nedeni, İnternetten önce,
+
+00:08:11.260 --> 00:08:13.260
+100,000 insanı bir araya getirmek,
+
+00:08:13.260 --> 00:08:16.260
+onlara ödeme yapmayı bir kenara bırakın, kesinlikle imkansız.
+
+00:08:16.260 --> 00:08:18.260
+Ama şimdi İnternetle, size bilgiyi dijitalleştirmemize
+
+00:08:18.260 --> 00:08:20.260
+yardım eden 750 milyon insanın
+
+00:08:20.260 --> 00:08:22.260
+katıldığı bir projeyi gösterdim.
+
+00:08:22.260 --> 00:08:24.260
+Yani beni araştırmaya sevk eden soru şuydu,
+
+00:08:24.260 --> 00:08:27.260
+eğer 100,000 kişiyle bir adamı Ay'a gönderebiliyorsak,
+
+00:08:27.260 --> 00:08:29.260
+100 milyon kişiyle ne yapabiliriz?
+
+00:08:29.260 --> 00:08:31.260
+Bu soruyu temel alarak,
+
+00:08:31.260 --> 00:08:33.260
+üzerinde çalıştığımız çok farklı projeler geliştirdik.
+
+00:08:33.260 --> 00:08:36.260
+Size beni en çok heyecanlandıranından bahsedeyim.
+
+00:08:36.260 --> 00:08:38.260
+Bu yaklaşık bir buçuk yıldır üzerinde çok da ses çıkarmadan
+
+00:08:38.260 --> 00:08:40.260
+çalıştığımız bir proje.
+
+00:08:40.260 --> 00:08:42.260
+Site henüz açılmadı. Adı Duolingo.
+
+00:08:42.260 --> 00:08:44.260
+Henüz açılmadığı için, şişt!
+
+00:08:44.260 --> 00:08:46.260
+(Gülüşmeler)
+
+00:08:46.260 --> 00:08:48.260
+Evet, size güvenebilirim.
+
+00:08:48.260 --> 00:08:50.260
+Proje bu. Şu şekilde başladı.
+
+00:08:50.260 --> 00:08:52.260
+Mezun olmuş bir öğrencime bir soru yöneltmemle başladı,
+
+00:08:52.260 --> 00:08:54.260
+Severin Hacker'a.
+
+00:08:54.260 --> 00:08:56.260
+Evet, bu Severin Hacker.
+
+00:08:56.260 --> 00:08:58.260
+Mezun olan öğrencime bir soru yönelttim.
+
+00:08:58.260 --> 00:09:00.260
+Bu arada, beni doğru duydunuz;
+
+00:09:00.260 --> 00:09:02.260
+soyadı Hacker (Bilgisayar korsanı)
+
+00:09:02.260 --> 00:09:04.260
+Ona şu soruyu sordum:
+
+00:09:04.260 --> 00:09:06.260
+Nasıl 100 milyon insana
+
+00:09:06.260 --> 00:09:09.260
+Web'i ücretsiz olarak her anadile çevirtebiliriz?
+
+00:09:09.260 --> 00:09:11.260
+Bu soruyla ilgili söylenebilecek çok şey var.
+
+00:09:11.260 --> 00:09:13.260
+Öncelikle, Web'i çevirmek.
+
+00:09:13.260 --> 00:09:16.260
+Şu an Web çok fazla dile bölünmüş durumda.
+
+00:09:16.260 --> 00:09:18.260
+Büyük kısmı İngilizce.
+
+00:09:18.260 --> 00:09:20.260
+Eğer hiç İngilizce bilmiyorsanız, kullanamazsınız.
+
+00:09:20.260 --> 00:09:22.260
+Başka diller de büyük ölçüde kullanılıyor,
+
+00:09:22.260 --> 00:09:25.260
+ve eğer bu dilleri bilmiyorsanız, kullanamazsınız.
+
+00:09:25.260 --> 00:09:28.260
+Web'in tamamını en azından büyük bir kısmını çevirmek istiyorum,
+
+00:09:28.260 --> 00:09:30.260
+her anadile.
+
+00:09:30.260 --> 00:09:32.260
+Yapmak istediğim bu.
+
+00:09:32.260 --> 00:09:35.260
+Bazılarınız şöyle diyebilir, neden bunun için bilgisayar kullanmıyoruz?
+
+00:09:35.260 --> 00:09:37.260
+Neden makine çevirisini kullanamıyoruz?
+
+00:09:37.260 --> 00:09:39.260
+Makine çevirisi bu günlerde oradan buradan bazı cümleleri çevirmeye başlıyor.
+
+00:09:39.260 --> 00:09:41.260
+Neden bunu tüm Web'i çevirmek için kullanamıyoruz?
+
+00:09:41.260 --> 00:09:43.260
+Sorun şu ki, bu sistem henüz yeterince iyi değil,
+
+00:09:43.260 --> 00:09:45.260
+ve muhtemelen önümüzdeki 15 ila 20 yıl içinde de olmayacak.
+
+00:09:45.260 --> 00:09:47.260
+Çok fazla hata yapıyor.
+
+00:09:47.260 --> 00:09:49.260
+Hata yapmadığında bile,
+
+00:09:49.260 --> 00:09:52.260
+çok fazla hata yaptığı için, doğruluğuna güvenmeli misiz bilmiyorsunuz.
+
+00:09:52.260 --> 00:09:54.260
+Size makine ile çevrilmiş
+
+00:09:54.260 --> 00:09:56.260
+birşeyin örneğini göstereyim.
+
+00:09:56.260 --> 00:09:58.260
+Aslında bu foruma yazılmış bir yazı.
+
+00:09:58.260 --> 00:10:01.260
+JavaScript hakkında soru sormaya çalışan bir kişiymiş.
+
+00:10:01.260 --> 00:10:04.260
+Japoncadan İnglizceye çevrilmiş.
+
+00:10:04.260 --> 00:10:06.260
+Sadece okuyacağım.
+
+00:10:06.260 --> 00:10:08.260
+Bu kişi bilgisayar kullanarak
+
+00:10:08.260 --> 00:10:10.260
+çeviri yaptığı için özür dilerek başlıyor.
+
+00:10:10.260 --> 00:10:13.260
+Bir sonraki cümle sorunun giriş kısmı olacak.
+
+00:10:13.260 --> 00:10:15.260
+Birşeyi açıklıyor.
+
+00:10:15.260 --> 00:10:18.260
+Unutmayın, bu JavaScript hakkında bir soru.
+
+00:10:19.260 --> 00:10:23.260
+(Yazı: Çoğu zaman, keçi zamanı kusma hatası yüklüyor.)
+
+00:10:23.260 --> 00:10:27.260
+(Gülüşmeler)
+
+00:10:27.260 --> 00:10:30.260
+Sonra sorunun ilk kısmı geliyor.
+
+00:10:30.260 --> 00:10:34.260
+(Yazı: Kaç kere rüzgar gibi, bir kazık ve ejderha?)
+
+00:10:34.260 --> 00:10:36.260
+(Gülüşmeler)
+
+00:10:36.260 --> 00:10:39.260
+Sonra sorunun en sevdiğim kısmı geliyor.
+
+00:10:39.260 --> 00:10:42.260
+(Yazı: Bu babanın taşlarına hakaret mi?)
+
+00:10:42.260 --> 00:10:44.260
+(Gülüşmeler)
+
+00:10:44.260 --> 00:10:47.260
+Ve sonra son kısım, ki bu tüm yazının en sevdiğim kısmı.
+
+00:10:47.260 --> 00:10:51.260
+(Yazı: Lütfen aptallığın için özür dile. Sana çok teşekkür var)
+
+00:10:51.260 --> 00:10:53.260
+(Gülüşmeler)
+
+00:10:53.260 --> 00:10:55.260
+Tamam, yani bilgisayar çevirisi henüz yeterince iyi değil.
+
+00:10:55.260 --> 00:10:57.260
+Soruya geri dönelim.
+
+00:10:57.260 --> 00:11:00.260
+Yani tüm Web'i çevirmek için insanlara ihtiyacım var.
+
+00:11:00.260 --> 00:11:02.260
+Şimdi soracağınız bir sonraki soru şu olabilir,
+
+00:11:02.260 --> 00:11:04.260
+neden bunun için insanları işe almıyoruz?
+
+00:11:04.260 --> 00:11:07.260
+Tüm Web'i çevirmek için profesyonel çevirmenleri işe alabilirdik.
+
+00:11:07.260 --> 00:11:09.260
+Bunu yapabilirdik.
+
+00:11:09.260 --> 00:11:11.260
+Malesef, son derece pahalı olurdu.
+
+00:11:11.260 --> 00:11:14.260
+Örneğin tüm Web'in, Wikipedia'nın küçük, çok küçük bir kısmını
+
+00:11:14.260 --> 00:11:17.260
+başka bir dile, İspanyolcaya çevirmek.
+
+00:11:17.260 --> 00:11:19.260
+Wikipedia'nın İspanyolcası var,
+
+00:11:19.260 --> 00:11:21.260
+ama İngilizce olanına kıyasla çok küçük bir oranda.
+
+00:11:21.260 --> 00:11:23.260
+İngilizce olanın yaklaşık yüzde 20'si kadar.
+
+00:11:23.260 --> 00:11:26.260
+Eğer kalan yüzde 80'i İspanyolcaya çevirmek isteseydik,
+
+00:11:26.260 --> 00:11:28.260
+50 milyon dolara malolurdu --
+
+00:11:28.260 --> 00:11:31.260
+ve bu en çok sömürülen, dış kaynakları kullanılan bir ülkenin şartlarında.
+
+00:11:31.260 --> 00:11:33.260
+Yani çok pahalı olurdu.
+
+00:11:33.260 --> 00:11:35.260
+Bizim yapmak istediğimiz şeyse 100 milyon insana
+
+00:11:35.260 --> 00:11:37.260
+Web'i her anadile tercüme ettirmek,
+
+00:11:37.260 --> 00:11:39.260
+bedavaya.
+
+00:11:39.260 --> 00:11:41.260
+Eğer yapmak istediğiniz şey buysa,
+
+00:11:41.260 --> 00:11:43.260
+iki oldukça büyük engelle karşılaşacağınızı çabucak
+
+00:11:43.260 --> 00:11:45.260
+fark ediyorsunuz.
+
+00:11:45.260 --> 00:11:48.260
+İlki iki dile de hakim kişilerin azlığı.
+
+00:11:48.260 --> 00:11:50.260
+Bize tercüme yapmakta
+
+00:11:50.260 --> 00:11:53.260
+yardımcı olmaya yetecek kadar iyi iki dil kullanabilen
+
+00:11:53.260 --> 00:11:55.260
+100 milyon kişi var mıdır bilmiyorum.
+
+00:11:55.260 --> 00:11:57.260
+Bu büyük bir sorun.
+
+00:11:57.260 --> 00:11:59.260
+Karşılaşacağınız bir diğer problem ise motivasyon eksikliği.
+
+00:11:59.260 --> 00:12:01.260
+İnsanları Web'i bedavaya tercüme
+
+00:12:01.260 --> 00:12:03.260
+etmeleri için nasıl motive edebiliriz?
+
+00:12:03.260 --> 00:12:06.260
+Normalde, bunun için insanlara ödeme yaparsınız.
+
+00:12:06.260 --> 00:12:08.260
+Peki onları bunu bedavaya yapmaya nasıl motive ederiz?
+
+00:12:08.260 --> 00:12:11.260
+Bunu düşünmeye başladığımızda, bu iki konu bizi engelledi.
+
+00:12:11.260 --> 00:12:13.260
+Ama sonra fark ettik ki, aslında bu iki sorunu
+
+00:12:13.260 --> 00:12:15.260
+aynı çözüm yoluyla aşabiliriz.
+
+00:12:15.260 --> 00:12:17.260
+Bir taşla iki kuş vurmanın bir yolu var.
+
+00:12:17.260 --> 00:12:20.260
+Ve bu da tercüme yapmayı milyonlarca
+
+00:12:20.260 --> 00:12:23.260
+insanın yapmak isteyeceği bir hale,
+
+00:12:23.260 --> 00:12:26.260
+ve ayrıca iki dile hakim olamama sorununa çözüm bulmaya,
+
+00:12:26.260 --> 00:12:29.260
+ve dil eğitimine dönüştürmek.
+
+00:12:29.260 --> 00:12:31.260
+Bugün görüyoruz ki,
+
+00:12:31.260 --> 00:12:34.260
+1.2 milyardan fazla insan yabancı dil öğreniyor.
+
+00:12:34.260 --> 00:12:36.260
+İnsanlar gerçekten yabancı bir dil öğrenmek istiyor.
+
+00:12:36.260 --> 00:12:39.260
+Ve sadece okulda yapmak zorunda oldukları için değil.
+
+00:12:39.260 --> 00:12:41.260
+Örneğin, yalnızca Amerika Birleşik Devletleri'nde,
+
+00:12:41.260 --> 00:12:43.260
+yeni bir dil öğrenmek için yazılımlara 500 dolardan fazla
+
+00:12:43.260 --> 00:12:45.260
+para veren beş milyondan fazla kişi var.
+
+00:12:45.260 --> 00:12:47.260
+Yani insanlar gerçekten yeni bir dil öğrenmek istiyor.
+
+00:12:47.260 --> 00:12:50.260
+Son bir buçuk yıldır yeni bir websitesi üzerinde çalışıyoruz --
+
+00:12:50.260 --> 00:12:52.260
+adı Duolingo --
+
+00:12:52.260 --> 00:12:55.260
+ana fikir insanların Web'i eş zamanlı tercüme ederek
+
+00:12:55.260 --> 00:12:57.260
+ücretsiz olarak yeni bir dil öğrenmesi.
+
+00:12:57.260 --> 00:12:59.260
+Ve temelde yaparak öğreniyorlar.
+
+00:12:59.260 --> 00:13:01.260
+Şu şekilde işliyor
+
+00:13:01.260 --> 00:13:04.260
+eğer başlangıç seviyesinde biliyorsanız çok çok basit cümleler veriyoruz.
+
+00:13:04.260 --> 00:13:06.260
+Tabi ki Web'te çok fazla kolay cümle var.
+
+00:13:06.260 --> 00:13:08.260
+Çok, çok basit cümleler veriyoruz
+
+00:13:08.260 --> 00:13:10.260
+beraberinde de her kelimenin anlamını.
+
+00:13:10.260 --> 00:13:13.260
+Tercüme ederek ve başkalarının nasıl tercüme ettiğini görerek,
+
+00:13:13.260 --> 00:13:15.260
+dili öğrenmeye başlıyorsunuz.
+
+00:13:15.260 --> 00:13:17.260
+Ve siz dili ilerlettikçe,
+
+00:13:17.260 --> 00:13:19.260
+çok daha karmaşık cümleleri tercüme etmenizi istiyoruz.
+
+00:13:19.260 --> 00:13:21.260
+Ama her zaman yaparak öğreniyorsunuz.
+
+00:13:21.260 --> 00:13:23.260
+Bu metodla ilgili çılgınca olan şeyse
+
+00:13:23.260 --> 00:13:25.260
+gerçekten işe yarıyor olması.
+
+00:13:25.260 --> 00:13:27.260
+Herşeyden önce insanlar gerçekten yeni bir dil öğrenmek istiyor.
+
+00:13:27.260 --> 00:13:29.260
+Sistemi kurmayı bitirdik ve şu an test ediyoruz.
+
+00:13:29.260 --> 00:13:31.260
+İnsanlar gerçekten bu yöntemle bir dil öğrenebilirler.
+
+00:13:31.260 --> 00:13:34.260
+Ve neredeyse en iyi dil öğrenme yazılımında olduğu kadar iyi öğreniyorlar.
+
+00:13:34.260 --> 00:13:36.260
+Yani insanlar gerçekten bir dil öğreniyor.
+
+00:13:36.260 --> 00:13:38.260
+Ve hem iyi hem de ilginç
+
+00:13:38.260 --> 00:13:40.260
+bir yöntemle öğreniyorlar.
+
+00:13:40.260 --> 00:13:43.260
+Çünkü görüyorsunuz, insanlar gerçek içeriklerle öğreniyorlar.
+
+00:13:43.260 --> 00:13:45.260
+Uydurma cümleler yerine
+
+00:13:45.260 --> 00:13:48.260
+kendiliğinden ilginç olan gerçek içeriklerle öğreniyorlar.
+
+00:13:48.260 --> 00:13:50.260
+Yani insanlar gerçekten bir dil öğreniyorlar.
+
+00:13:50.260 --> 00:13:52.260
+Ve şaşırtıcı bir şekilde,
+
+00:13:52.260 --> 00:13:55.260
+bu siteyi kullananların çevirileri,
+
+00:13:55.260 --> 00:13:57.260
+daha başlangıç seviyesinde olmalarına rağmen,
+
+00:13:57.260 --> 00:14:00.260
+profesyonel çevirmenlerin çevirileri kadar iyi,
+
+00:14:00.260 --> 00:14:02.260
+ki bu çok şaşırtıcı.
+
+00:14:02.260 --> 00:14:04.260
+Size bir örnek göstereyim.
+
+00:14:04.260 --> 00:14:06.260
+Bu Almancadan İngilizceye çevrilmiş bir cümle.
+
+00:14:06.260 --> 00:14:08.260
+Üstteki Almanca.
+
+00:14:08.260 --> 00:14:10.260
+Ortadaki bu çeviri için kelime başına
+
+00:14:10.260 --> 00:14:12.260
+20 sent alan profesyonel bir İngilizce çevirmen
+
+00:14:12.260 --> 00:14:14.260
+tarafından yapılan İngilizce çeviri.
+
+00:14:14.260 --> 00:14:17.260
+Alttaki ise Duolingo kullanıcıları tarafından yapılan bir çeviri,
+
+00:14:17.260 --> 00:14:19.260
+bu siteyi kullanmaya başlamadan önce
+
+00:14:19.260 --> 00:14:21.260
+hiçbiri Almanca bilmiyordu.
+
+00:14:21.260 --> 00:14:23.260
+Görüyorsunuz, neredeyse mükemmel.
+
+00:14:23.260 --> 00:14:25.260
+Tabi ki,çevirilerin profesyonal çevirmenlerinkiler
+
+00:14:25.260 --> 00:14:27.260
+kadar iyi olabilmesi için burada biraz hile yapıyoruz.
+
+00:14:27.260 --> 00:14:30.260
+Tek bir profesyonel çevirmenin kalitesine
+
+00:14:30.260 --> 00:14:33.260
+ulaşmak için birçok yeni başlayanın çevirisini birleştiriyoruz.
+
+00:14:33.260 --> 00:14:38.260
+Çevirileri birleştirsek bile,
+
+00:14:38.260 --> 00:14:40.260
+site oldukça çabuk çevirebiliyor.
+
+00:14:40.260 --> 00:14:42.260
+Göstereyim,
+
+00:14:42.260 --> 00:14:44.260
+bu Wikipedia'yı İngilizceden İspanyolcaya ne kadar hızlı
+
+00:14:44.260 --> 00:14:46.260
+çevirebileceğimizin hesabı.
+
+00:14:46.260 --> 00:14:49.260
+Unutmayın, bu 50 milyon dolar değerinde.
+
+00:14:49.260 --> 00:14:51.260
+Wikipedia'yı İspanyolcaya çevrmek isteseydik,
+
+00:14:51.260 --> 00:14:54.260
+bunu 100,000 aktif kullanıcıyla beş hafta içinde yapabilirdik.
+
+00:14:54.260 --> 00:14:57.260
+Ve bir milyon aktif kullanıcıyla ise yaklaşık 80 saatte yapabilirdik.
+
+00:14:57.260 --> 00:15:00.260
+Grubumun şimdiye kadar üzerinde çalıştığı tüm projelerin milyonlarca kullanıcısı olduğu için,
+
+00:15:00.260 --> 00:15:02.260
+bu projeyle son derece hızlı bir şekilde
+
+00:15:02.260 --> 00:15:04.260
+çevirebileceğimizi düşünüyoruz.
+
+00:15:04.260 --> 00:15:07.260
+Duolingo ile ilgili beni en çok heyecanlandıran şey
+
+00:15:07.260 --> 00:15:10.260
+dil eğitimi için adil bir iş modeli ihtiyacını karşılıyor olması.
+
+00:15:10.260 --> 00:15:12.260
+Olay şu:
+
+00:15:12.260 --> 00:15:14.260
+Dil eğitiminin mevcut iş modelinde
+
+00:15:14.260 --> 00:15:16.260
+öğrenci para ödüyor,
+
+00:15:16.260 --> 00:15:18.260
+ve özellikle, öğrenci Rosetta Stone'a 500 dolar ödüyor.
+
+00:15:18.260 --> 00:15:20.260
+(Gülüşmeler)
+
+00:15:20.260 --> 00:15:22.260
+Bu mevcut iş modeli.
+
+00:15:22.260 --> 00:15:24.260
+Bu iş modeliyle ilgili sorun şuydu
+
+00:15:24.260 --> 00:15:27.260
+dünya nüfusunun yüzde 95'inin 500 doları yok.
+
+00:15:27.260 --> 00:15:30.260
+Yani bu fakirler için son derece adaletsiz bir durum.
+
+00:15:30.260 --> 00:15:32.260
+Tamamiyle zenginlerden yana bir durum.
+
+00:15:32.260 --> 00:15:34.260
+Şimdi bakın, Duolingo'da,
+
+00:15:34.260 --> 00:15:36.260
+Öğrenirken aynı zamanda
+
+00:15:36.260 --> 00:15:39.260
+değer yaratıyorsunuz, birşeyler çeviriyorsunuz --
+
+00:15:39.260 --> 00:15:42.260
+örneğin, birini çeviri yapmak için görevlendirebilirdik.
+
+00:15:42.260 --> 00:15:44.260
+Bu şekilde finanse edebilirdik.
+
+00:15:44.260 --> 00:15:46.260
+İnsanlar öğrenirken değer yarattıkları için,
+
+00:15:46.260 --> 00:15:49.260
+para ödemek zorunda değiller, zamanlarıyla ödeme yapıyorlar.
+
+00:15:49.260 --> 00:15:52.260
+Ama bunda büyüleyici olan şey, zamanlarıyla ödeme yapıyorlar,
+
+00:15:52.260 --> 00:15:54.260
+ama bu aynı zamanda dil öğrenirken bir şekilde harcamak zorunda
+
+00:15:54.260 --> 00:15:56.260
+oldukları zaman.
+
+00:15:56.260 --> 00:15:59.260
+Duolingo'nun güzel yani adil bir iş modeli sunuyor olması --
+
+00:15:59.260 --> 00:16:01.260
+fakirlere karşı ayırım yapmayan bir model olması.
+
+00:16:01.260 --> 00:16:03.260
+İşte site bu. Teşekkürler.
+
+00:16:03.260 --> 00:16:11.260
+(Alkış)
+
+00:16:11.260 --> 00:16:13.260
+İşte site burada.
+
+00:16:13.260 --> 00:16:15.260
+Site henüz açılmadı,
+
+00:16:15.260 --> 00:16:18.260
+ama oraya gidip, özel betamızın bir parçası olmak için üye olabilirsiniz,
+
+00:16:18.260 --> 00:16:20.260
+muhtemelen yaklaşık üç, dört haftaya kadar faaliyete geçecek.
+
+00:16:20.260 --> 00:16:22.260
+Bu Duolingo'yu henüz açmadık.
+
+00:16:22.260 --> 00:16:24.260
+Bu arada, burada konuşan benim,
+
+00:16:24.260 --> 00:16:27.260
+ama aslında Duolingo bazılarının burada olduğu gerçekten müthiş bir takımın çalışması.
+
+00:16:27.260 --> 00:16:29.260
+Teşekkürler.
+
+00:16:29.260 --> 00:16:33.260
+(Alkış)
+

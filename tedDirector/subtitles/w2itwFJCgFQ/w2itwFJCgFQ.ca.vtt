@@ -1,0 +1,779 @@
+WEBVTT
+Kind: captions
+Language: ca
+
+00:00:00.000 --> 00:00:07.000
+Translator: Pol Del Aguila Pla
+Reviewer: Rixi Almenar
+
+00:00:23.307 --> 00:00:26.491
+Així què, que vol dir per una màquina, ser atlètica?
+
+00:00:26.491 --> 00:00:29.908
+Avui ensenyarem com el concepte d'atletisme pot ser aplicat a màquines,
+
+00:00:29.908 --> 00:00:31.628
+així com la recerca necessària per aconseguir-ho,
+
+00:00:31.628 --> 00:00:34.139
+amb l'ajuda d'aquestes màquines voladores que anomenem quadricòpters.
+
+00:00:34.139 --> 00:00:36.026
+O bé "quads", per escurçar.
+
+00:00:38.034 --> 00:00:40.563
+Els quads porten inventats ja una bona temporada.
+
+00:00:40.563 --> 00:00:42.162
+El motiu pel qual se'n sent més a parlar aquests dies,
+
+00:00:42.162 --> 00:00:44.127
+és que són mecànicament molt simples.
+
+00:00:44.127 --> 00:00:46.235
+Controlant la velocitat d'aquests quatre rotors,
+
+00:00:46.235 --> 00:00:49.283
+aquestes màquines poden girar endavant i enrrere, cap als costats, sobre el seu eix,
+
+00:00:49.283 --> 00:00:52.108
+i accelerar en la direcció perpendicular als motors.
+
+00:00:52.108 --> 00:00:55.179
+Dins dels quads també hi va una bateria, un ordinador,
+
+00:00:55.179 --> 00:00:59.133
+diversos sensors, i dispositius de comunicacions ràdio.
+
+00:00:59.133 --> 00:01:03.762
+Els quads són extremadament àgils, però amb un cost.
+
+00:01:03.762 --> 00:01:06.754
+Són intrínsecament inestables, i per tant necessiten algun tipus
+
+00:01:06.754 --> 00:01:10.726
+de control automàtic sobre la seva posició per poder volar.
+
+00:01:16.259 --> 00:01:19.497
+Què, com ha fet això?
+
+00:01:19.497 --> 00:01:21.315
+Les càmeres del sostre i un portàtil
+
+00:01:21.315 --> 00:01:23.891
+proporcionen un sistema de posicionament global en aquesta sala.
+
+00:01:23.891 --> 00:01:26.076
+Donen informació sobre la posició en l'espai d'objectes
+
+00:01:26.076 --> 00:01:28.603
+que porten aquestes boles reflectores.
+
+00:01:28.603 --> 00:01:30.664
+Aquestes dades s'envien a un altre portàtil
+
+00:01:30.664 --> 00:01:32.875
+que executa algorismes d'estimació i control
+
+00:01:32.875 --> 00:01:34.761
+i envia comandes al quad,
+
+00:01:34.761 --> 00:01:38.246
+que també executa els seus propis algorismes d'estimació i control.
+
+00:01:41.620 --> 00:01:44.130
+Per tant, la major part de la nostra recerca són algorismes.
+
+00:01:44.130 --> 00:01:48.291
+Són la màgia, que d'alguna manera, dóna vida a aquestes màquines.
+
+00:01:48.291 --> 00:01:50.334
+Però com es poden dissenyar els algorismes
+
+00:01:50.334 --> 00:01:52.611
+que donen vida a aquests atletes mecanitzats?
+
+00:01:52.611 --> 00:01:55.491
+Fem servir tècniques que s'engloben en el que s'anomena disseny basat en model.
+
+00:01:55.491 --> 00:01:58.645
+Primer, capturem les relacions físiques amb un model matemàtic
+
+00:01:58.645 --> 00:02:00.779
+de com es comporten les màquines.
+
+00:02:00.779 --> 00:02:03.076
+Després fem servir una branca de les matemàtiques,
+
+00:02:03.076 --> 00:02:05.907
+que s'anomena teoria del control, per analitzar els models matemàtics,
+
+00:02:05.907 --> 00:02:09.820
+i generar algorismes per controlar els quads.
+
+00:02:09.820 --> 00:02:12.868
+Per exemple, així és com aconseguim que el quad es mantingui estable i pugui volar:
+
+00:02:12.868 --> 00:02:14.276
+Primer, capturem la dinàmica del problema
+
+00:02:14.276 --> 00:02:16.182
+amb un conjunt d'equacions diferencials.
+
+00:02:16.182 --> 00:02:18.531
+Després manipulem i aproximem aquestes equacions amb l'ajuda
+
+00:02:18.531 --> 00:02:23.171
+de la teoria de control per crear algorismes que estabilitzin el quad.
+
+00:02:23.171 --> 00:02:26.117
+Deixeu-me que us demostri quan robusta és aquesta manera de procedir.
+
+00:02:29.198 --> 00:02:31.747
+Suposem que volem que aquest quad, no només voli ell mateix,
+
+00:02:31.747 --> 00:02:34.529
+sinó que també sigui capaç de carregar i mantenir estable aquesta vara.
+
+00:02:34.529 --> 00:02:36.373
+Amb una mica de pràctica,
+
+00:02:36.373 --> 00:02:38.764
+és fàcil per un humà fer-ho,
+
+00:02:38.764 --> 00:02:40.519
+tot i que nosaltres tenim l'avantatge de tenir
+
+00:02:40.519 --> 00:02:41.847
+els dos peus fixats a terra
+
+00:02:41.847 --> 00:02:44.804
+i utilitzar les nostres versàtils mans.
+
+00:02:44.804 --> 00:02:47.273
+És una mica més difícil
+
+00:02:47.273 --> 00:02:49.569
+quan s'intenta amb només un peu al terra
+
+00:02:49.569 --> 00:02:52.368
+i quan no faig servir les mans.
+
+00:02:52.368 --> 00:02:55.319
+Teniu en compte, però, que aquesta vara té una bola reflectora a la punta,
+
+00:02:55.319 --> 00:02:59.213
+i per tant pot ser localitzada en l'espai pel nostre sistema.
+
+00:03:04.971 --> 00:03:10.947
+(Aplaudiments)
+
+00:03:10.947 --> 00:03:13.773
+Podreu veure que el quad fa petits ajustos
+
+00:03:13.773 --> 00:03:15.968
+que li permeten mantenir la vara estable.
+
+00:03:15.968 --> 00:03:19.027
+Com dissenyem els algorismes per fer-ho?
+
+00:03:19.027 --> 00:03:21.132
+Simplement afegim el model matemàtic de la vara
+
+00:03:21.132 --> 00:03:22.651
+al que ja fèiem servir del quad.
+
+00:03:22.651 --> 00:03:25.605
+Un cop tenim el model del sistema conjunt quad+vara,
+
+00:03:25.605 --> 00:03:30.538
+fem servir la teoria de control per crear els algorismes que controlin i estabilitzin el sistema.
+
+00:03:30.538 --> 00:03:32.126
+Ja esteu veient ara mateix que és estable,
+
+00:03:32.126 --> 00:03:34.819
+i encara més, si lo dono copets,
+
+00:03:34.819 --> 00:03:40.222
+torna cap a una posició còmoda i estable.
+
+00:03:40.222 --> 00:03:41.885
+També podem augmentar el model per especificar
+
+00:03:41.885 --> 00:03:44.326
+on exactament volem el quad dins l'espai de la sala.
+
+00:03:44.326 --> 00:03:47.395
+Fent servir aquest punter, fet de boles reflectores,
+
+00:03:47.395 --> 00:03:49.619
+puc apuntar a qualsevol lloc on hi vulgui posar el quad,
+
+00:03:49.619 --> 00:03:52.986
+a una distància fixa d'on sóc jo.
+
+00:04:07.763 --> 00:04:10.665
+La clau per aquestes maniobres acrobàtiques són els algorismes,
+
+00:04:10.665 --> 00:04:13.091
+dissenyats amb l'ajuda de models matemàtics
+
+00:04:13.091 --> 00:04:15.041
+i teoria de control.
+
+00:04:15.041 --> 00:04:17.255
+Diguem-li doncs al quad que vingui cap aquí,
+
+00:04:17.255 --> 00:04:19.074
+i deixi caure la vara,
+
+00:04:19.074 --> 00:04:20.992
+i així us podré demostrar la importància
+
+00:04:20.992 --> 00:04:23.111
+que té entendre els models físics
+
+00:04:23.111 --> 00:04:27.231
+i el funcionament del món físic.
+
+00:04:37.462 --> 00:04:39.232
+Observeu que el quad ha perd altura,
+
+00:04:39.232 --> 00:04:41.314
+quan hi he posat el got d'aigua a sobre.
+
+00:04:41.314 --> 00:04:44.115
+Però ara no he fet com amb la vara, no he inclòs
+
+00:04:44.115 --> 00:04:46.699
+el model matemàtic del got al sistema.
+
+00:04:46.699 --> 00:04:49.618
+De fet, el sistema no en té ni idea de què el got d'aigua hi és.
+
+00:04:49.618 --> 00:04:52.910
+Com abans, puc fer servir aquest punter per dir-li al quad
+
+00:04:52.910 --> 00:04:55.499
+on el vull en l'espai.
+
+00:04:55.499 --> 00:05:05.096
+(Aplaudiments)
+
+00:05:05.096 --> 00:05:07.206
+Però, us hauríeu d'estar preguntant,
+
+00:05:07.206 --> 00:05:09.715
+perquè no es vessa l'aigua del got?
+
+00:05:09.715 --> 00:05:12.926
+Dos factors: Primer, la gravetat actua
+
+00:05:12.926 --> 00:05:15.051
+sobre tots els objectes de la mateixa manera.
+
+00:05:15.051 --> 00:05:17.515
+Segon, els propulsors sempre apunten
+
+00:05:17.515 --> 00:05:20.642
+cap a la mateixa direcció que el got, amunt.
+
+00:05:20.642 --> 00:05:23.019
+Si tenim en compte aquests dos factors, el resultat net
+
+00:05:23.019 --> 00:05:25.306
+és que totes les forces laterals en aquest got són molt petites,
+
+00:05:25.306 --> 00:05:28.091
+i són en gran part causades només per efectes aerodinàmics
+
+00:05:28.091 --> 00:05:31.932
+que es poden menysprear a aquestes velocitats.
+
+00:05:35.336 --> 00:05:37.407
+I aquest és el motiu pel qual no cal modelar el got.
+
+00:05:37.407 --> 00:05:41.255
+Simplement per les lleis de la física l'aigua no vessa sense importar què faci el quad.
+
+00:05:50.651 --> 00:05:57.702
+(Aplaudiments)
+
+00:05:57.702 --> 00:06:01.718
+La lliçó a treure'n de tot això és que algunes tasques
+
+00:06:01.718 --> 00:06:03.115
+són més difícils que les altres,
+
+00:06:03.115 --> 00:06:05.411
+i que entendre la física del problema
+
+00:06:05.411 --> 00:06:08.027
+diu molt sobre quines són difícils i quines no.
+
+00:06:08.027 --> 00:06:10.386
+En aquest cas, portar un got d'aigua és fàcil,
+
+00:06:10.386 --> 00:06:14.171
+equilibrar la vara, és difícil.
+
+00:06:14.171 --> 00:06:15.973
+Tots hem sentit històries d'atletes
+
+00:06:15.973 --> 00:06:18.466
+aconseguint noves marques i proeses mentre estaven lesionats.
+
+00:06:18.466 --> 00:06:19.985
+Pot també una màquina rendir
+
+00:06:19.985 --> 00:06:22.636
+severament feta malbé?
+
+00:06:22.636 --> 00:06:24.362
+Convencionalment es creu que es necessiten
+
+00:06:24.362 --> 00:06:28.052
+com a mínim quatre propulsors fixes per tal de volar,
+
+00:06:28.052 --> 00:06:30.164
+perquè hi ha quatre graus de llibertat a controlar:
+
+00:06:30.164 --> 00:06:33.192
+balanç lateral, frontal, gir sobre l'eix i acceleració.
+
+00:06:33.192 --> 00:06:36.437
+Els hexacòpters i octocòpters, amb sis i vuit propulsors respectivament,
+
+00:06:36.437 --> 00:06:37.920
+proporcionen redundància,
+
+00:06:37.920 --> 00:06:39.909
+però els quadrocòpters són molt més populars
+
+00:06:39.909 --> 00:06:41.724
+perquè tenen el nombre mínim de
+
+00:06:41.724 --> 00:06:44.200
+propulsors fixes: quatre.
+
+00:06:44.200 --> 00:06:46.165
+O, és realment el mínim?
+
+00:07:01.476 --> 00:07:04.076
+Si analitzem el model matemàtic d'aquesta màquina,
+
+00:07:04.076 --> 00:07:06.252
+però només amb dos propulsors en funcionament,
+
+00:07:06.252 --> 00:07:13.008
+descobrim que encara existeix una manera poc convencional, però funcional, de fer-la volar.
+
+00:07:19.980 --> 00:07:21.686
+Prescindim de controlar el gir sobre l'eix central,
+
+00:07:21.686 --> 00:07:24.756
+però controlem encara les inclinacions frontal i lateral, i l'acceleració,
+
+00:07:24.756 --> 00:07:30.208
+amb algorismes que aprofiten el coneixement d'aquesta nova configuració.
+
+00:07:33.668 --> 00:07:36.100
+Els models matemàtics ens revelen exactament quan,
+
+00:07:36.100 --> 00:07:38.172
+i perquè això és possible.
+
+00:07:38.172 --> 00:07:40.540
+En aquest cas, aquest coneixement ens permet dissenyar
+
+00:07:40.540 --> 00:07:42.796
+arquitectures de màquines originals,
+
+00:07:42.796 --> 00:07:46.972
+o dissenyar algorismes intel·ligents que responen a les averies de forma eficient i elegant,
+
+00:07:46.972 --> 00:07:48.696
+tal i com els atletes humans fan,
+
+00:07:48.696 --> 00:07:52.519
+en lloc de necessitar redundància.
+
+00:07:52.519 --> 00:07:54.631
+No podem evitar la sorpresa quan veiem
+
+00:07:54.631 --> 00:07:57.068
+un saltador olímpic fent un mortal per entrar a l'aigua,
+
+00:07:57.068 --> 00:07:58.858
+o el moment en què un gimnasta olímpic gira en l'aire,
+
+00:07:58.858 --> 00:08:00.576
+amb el terra apropant-se a alta velocitat.
+
+00:08:00.576 --> 00:08:03.144
+Aconseguirà entrar netament i apropiada a la piscina?
+
+00:08:03.144 --> 00:08:05.144
+Aconseguirà el gimnasta prendre terra en la posició adequada?
+
+00:08:05.144 --> 00:08:06.812
+Suposeu que volem que aquest quad
+
+00:08:06.812 --> 00:08:09.263
+faci tres voltes consecutives en l'aire i finalitzi
+
+00:08:09.263 --> 00:08:11.532
+al mateix precís lloc on ha començat.
+
+00:08:11.532 --> 00:08:13.879
+Aquesta maniobra ha de passar tant ràpid
+
+00:08:13.879 --> 00:08:17.508
+que no ens donarà temps de fer servir la informació de la posició per corregir el moviment mentre passa.
+
+00:08:17.508 --> 00:08:19.782
+Simplement, no hi ha prou temps.
+
+00:08:19.782 --> 00:08:23.476
+En lloc d'això, el que el quad pot fer is fer la maniobra primer a cegues,
+
+00:08:23.476 --> 00:08:25.708
+registrar on acaba,
+
+00:08:25.708 --> 00:08:28.132
+i després fer servir la informació obtinguda per modificar el seu comportament
+
+00:08:28.132 --> 00:08:30.421
+per tal de millorar el següent intent.
+
+00:08:30.421 --> 00:08:32.233
+Anàlogament al saltador o el gimnasta,
+
+00:08:32.233 --> 00:08:34.152
+és només a través de la pràctica i la repetició
+
+00:08:34.152 --> 00:08:36.077
+que la maniobra pot ser apresa i portada a terme
+
+00:08:36.077 --> 00:08:38.210
+amb la millor qualitat.
+
+00:08:46.412 --> 00:08:51.164
+(Aplaudiments)
+
+00:08:51.164 --> 00:08:54.636
+Colpejar una pilota en moviment és una habilitat necessària en molts esports.
+
+00:08:54.636 --> 00:08:56.431
+Com fem que una màquina faci
+
+00:08:56.431 --> 00:09:00.184
+el que un atleta fa aparentment sense cap tipus d'esforç?
+
+00:09:15.943 --> 00:09:22.542
+(Aplaudiment)
+
+00:09:22.542 --> 00:09:25.192
+Aquest quad té una raqueta enganxada a la part superior
+
+00:09:25.192 --> 00:09:28.679
+amb una zona útil més o menys de la mida d'una poma, no gaire gran.
+
+00:09:28.679 --> 00:09:31.846
+Els càlculs següents es fan cada 20 milisegons,
+
+00:09:31.846 --> 00:09:33.602
+cinquanta cops per segon.
+
+00:09:33.602 --> 00:09:36.414
+Primer, descobrim on està anant la pilota.
+
+00:09:36.414 --> 00:09:38.851
+Després calculem com l'hauria de colpejar el quad
+
+00:09:38.851 --> 00:09:41.950
+per tal de que torni al punt des del qual ha sortit.
+
+00:09:41.950 --> 00:09:46.406
+En tercer lloc, es planeja la trajectòria que porta al quad
+
+00:09:46.406 --> 00:09:49.430
+des de la seva posició actual fins el punt d'impacte amb la pilota.
+
+00:09:49.430 --> 00:09:53.239
+Després, s'executen 20 milisegons de l'estratègia planificada.
+
+00:09:53.239 --> 00:09:56.046
+20 milisegons després, el procés complert es repeteix
+
+00:09:56.046 --> 00:09:58.289
+fins que el quad entra en contacte amb la pilota.
+
+00:10:07.560 --> 00:10:10.206
+(Aplaudiment)
+
+00:10:10.206 --> 00:10:13.578
+Les màquines no només poden portar a terme maniobres per si soles,
+
+00:10:13.578 --> 00:10:15.441
+sinó que ho poden fer de forma cooperativa.
+
+00:10:15.441 --> 00:10:19.028
+Aquests tres quads transporten cooperativament una xarxa.
+
+00:10:28.574 --> 00:10:33.985
+(Aplaudiment)
+
+00:10:33.985 --> 00:10:36.182
+Porten a terme una maniobra extremadament
+
+00:10:36.182 --> 00:10:38.350
+dinàmica i col·lectiva,
+
+00:10:38.350 --> 00:10:40.042
+per tal de tornar-me altre cop la pilota.
+
+00:10:40.042 --> 00:10:43.553
+Tingueu en compte que, en el moment d'extensió màxima de la xarxa, els quads estan en posició vertical.
+
+00:10:48.486 --> 00:10:50.258
+(Aplaudiment)
+
+00:10:50.258 --> 00:10:52.545
+De fet, quan la xarxa està completament estesa,
+
+00:10:52.545 --> 00:10:55.230
+la força que experimenten els quads és 5 cops més gran que la que sent un practicant de puenting
+
+00:10:55.230 --> 00:10:59.818
+al final de la seva caiguda.
+
+00:11:03.009 --> 00:11:05.686
+Els algorismes que es fan servir per fer això són molt similars
+
+00:11:05.686 --> 00:11:09.070
+als que un sol quad fa per tornar-me la pilota.
+
+00:11:09.070 --> 00:11:11.934
+Els models matemàtics es fan servir per renovar l'estratègia,
+
+00:11:11.934 --> 00:11:16.449
+continuada i cooperativa, 50 vegades cada segon.
+
+00:11:16.449 --> 00:11:18.326
+Tot el que hem vist fins ara ha sigut
+
+00:11:18.326 --> 00:11:20.789
+sobre les màquines i les seves capacitats.
+
+00:11:20.789 --> 00:11:23.804
+Què passa quan combinem l'atletisme d'aquesta màquina
+
+00:11:23.804 --> 00:11:25.580
+amb el d'un ésser humà?
+
+00:11:25.580 --> 00:11:29.385
+El que tinc davant meu és un sensor comercial que detecta la meva gestualitat
+
+00:11:29.385 --> 00:11:30.694
+i que es fa servir actualment per a jocs.
+
+00:11:30.694 --> 00:11:32.498
+Pot reconèixer diferents parts del meu cos,
+
+00:11:32.498 --> 00:11:34.546
+i saber el què fan en temps real.
+
+00:11:34.546 --> 00:11:36.662
+Igual que el punter que abans feia servir,
+
+00:11:36.662 --> 00:11:39.454
+podem fer servir els meus gests com a entrades del sistema.
+
+00:11:39.454 --> 00:11:41.850
+Ara, per tant, disposem d'una manera natural d'interactuar
+
+00:11:41.850 --> 00:11:46.794
+amb l'atletisme d'aquests quads, tant sols amb els meus gests.
+
+00:12:22.453 --> 00:12:26.853
+(Aplaudiments)
+
+00:12:35.982 --> 00:12:39.989
+La interacció no té perquè ser virtual, pot ser física.
+
+00:12:39.989 --> 00:12:41.714
+Per exemple, mireu aquest quad.
+
+00:12:41.714 --> 00:12:44.342
+s'intenta quedar quiet en un punt fix en l'espai.
+
+00:12:44.342 --> 00:12:48.179
+Si provo de moure'l del seu lloc, em contradiu,
+
+00:12:48.179 --> 00:12:52.334
+i es mou altre cop on vol ser.
+
+00:12:52.334 --> 00:12:55.373
+Podem canviar aquest comportament, però.
+
+00:12:55.373 --> 00:12:57.072
+Podem fer servir els models matemàtics
+
+00:12:57.072 --> 00:13:00.205
+per estimar la força que aplico sobre aquest quad.
+
+00:13:00.205 --> 00:13:03.443
+Un cop sabem aquesta força, podem canviar les lleis de la física,
+
+00:13:03.443 --> 00:13:07.942
+com a mínim pel que fa al quad.
+
+00:13:07.942 --> 00:13:10.205
+Aquí tenim el quad comportant-se com si fos
+
+00:13:10.205 --> 00:13:14.570
+dins d'un líquid viscós.
+
+00:13:14.570 --> 00:13:16.744
+Ara, doncs, tenim una manera propera i natural
+
+00:13:16.744 --> 00:13:18.593
+d'interactuar amb la màquina.
+
+00:13:18.593 --> 00:13:21.099
+Utilitzaré aquesta nova capacitat per posicionar
+
+00:13:21.099 --> 00:13:23.676
+aquest quad i la seva càmera a la posició adequada
+
+00:13:23.676 --> 00:13:26.862
+per filmar el que queda d'aquesta demostració.
+
+00:13:36.222 --> 00:13:38.990
+Bé, podem, per tant, interactuar amb aquest quads,
+
+00:13:38.990 --> 00:13:41.393
+i podem canviar les lleis de la física, pel que a ells respecta.
+
+00:13:41.393 --> 00:13:43.706
+Anem a passar-nos-ho bé una estona, doncs.
+
+00:13:43.706 --> 00:13:45.410
+Per la següent demostració, aquest quads
+
+00:13:45.410 --> 00:13:48.906
+es comportaran inicialment com si fossin a Plutó.
+
+00:13:48.906 --> 00:13:51.218
+A mesura que passa el temps, la gravetat s'incrementarà
+
+00:13:51.218 --> 00:13:53.338
+fins que siguem de nou al planeta Terra,
+
+00:13:53.338 --> 00:13:55.057
+però us asseguro que no arribaré fins aquí.
+
+00:13:55.057 --> 00:13:58.558
+Va, som-hi.
+
+00:14:05.667 --> 00:14:09.079
+(Riures)
+
+00:14:34.778 --> 00:14:37.986
+(Riures)
+
+00:14:37.986 --> 00:14:41.372
+(Aplaudiments)
+
+00:14:41.372 --> 00:14:42.579
+Uff!
+
+00:14:46.779 --> 00:14:48.296
+Probablement esteu pensant,
+
+00:14:48.296 --> 00:14:50.271
+aquests s'ho passen massa bé,
+
+00:14:50.271 --> 00:14:52.350
+i us esteu preguntant
+
+00:14:52.350 --> 00:14:56.286
+perquè necessitem construir aquests atletes màquina.
+
+00:14:56.286 --> 00:14:58.938
+Alguns diuen que el paper dels jocs en el regne animal
+
+00:14:58.938 --> 00:15:01.690
+és practicar i desenvolupar noves habilitats.
+
+00:15:01.690 --> 00:15:03.756
+Altres pensen té un ús més social,
+
+00:15:03.756 --> 00:15:05.430
+que crea un sentiment de grup.
+
+00:15:05.430 --> 00:15:08.963
+Nosaltres fem servir l'analogia dels esports i l'atletisme
+
+00:15:08.963 --> 00:15:11.042
+per crear algorismes nous per màquines
+
+00:15:11.042 --> 00:15:13.189
+que les explotin fins als seus límits.
+
+00:15:13.189 --> 00:15:16.866
+Quin impacte tindrà la velocitat de l'evolució de les màquines en la nostra forma de viure?
+
+00:15:16.866 --> 00:15:19.255
+Com totes les nostres creacions i innovacions pasades
+
+00:15:19.255 --> 00:15:22.082
+aquests algorismes es poden utilitzar per millorar la condició humana
+
+00:15:22.082 --> 00:15:24.583
+o bé poden ser viciats i abusats per empitjorar-la.
+
+00:15:24.583 --> 00:15:26.506
+No és l'aspecte tècnic el que es discuteix,
+
+00:15:26.506 --> 00:15:28.261
+és el social.
+
+00:15:28.261 --> 00:15:29.651
+Si fem les decisions correctes,
+
+00:15:29.651 --> 00:15:32.056
+les decisions que treuen el millor del futur de les màquines,
+
+00:15:32.056 --> 00:15:33.868
+tal i com l'atletisme en fa dels esports,
+
+00:15:33.868 --> 00:15:36.029
+aquestes ens portaran cap al millor en nosaltres mateixos.
+
+00:15:36.029 --> 00:15:39.479
+Deixeu-me que us presenti els mestres bruixots que s'amaguen darrere aquestes proeses.
+
+00:15:39.479 --> 00:15:42.379
+Són els membres actuals del grup de recerca "Flying Machine Arena".
+
+00:15:42.379 --> 00:15:47.148
+(Aplaudiments)
+
+00:15:47.148 --> 00:15:50.194
+en Federico Augugliaro, en Dario Brescianini , en Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+en Sergei Lupashin, en Mark Muller i en Robin Ritz.
+
+00:15:53.018 --> 00:15:54.950
+Mireu-los bé. Estan destinats a grans projectes.
+
+00:15:54.950 --> 00:15:56.128
+Moltes gràcies.
+
+00:15:56.128 --> 00:16:02.482
+(Aplaudiments)
+

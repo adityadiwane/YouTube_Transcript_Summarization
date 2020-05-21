@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Laszlo Kereszturi
+Lektor: Anna Patai
+
+00:00:16.260 --> 00:00:19.260
+Engedjék meg, hogy bemutassam Rezerot.
+
+00:00:19.260 --> 00:00:21.260
+Ezt a kis fickót egy tíz egyetemistából
+
+00:00:21.260 --> 00:00:23.260
+álló csoport fejlesztette ki
+
+00:00:23.260 --> 00:00:25.260
+a Zürichi Szövetségi Műszaki Főiskola
+
+00:00:25.260 --> 00:00:27.260
+Autonóm Rendszerek Laboratóriumában.
+
+00:00:27.260 --> 00:00:29.260
+A mi robotunk a labdán egyensúlyozó
+
+00:00:29.260 --> 00:00:31.260
+robotok családjába tartozik.
+
+00:00:31.260 --> 00:00:33.260
+Ez a robot kerekek helyett egy labdán
+
+00:00:33.260 --> 00:00:35.260
+egyensúlyoz és mozog.
+
+00:00:35.260 --> 00:00:37.260
+Az ilyen rendszer legfőbb jellemzője az,
+
+00:00:37.260 --> 00:00:40.260
+hogy csak egyetlen pontban érintkezik a talajjal.
+
+00:00:40.260 --> 00:00:42.260
+Ez azt jelenti, hogy a robot
+
+00:00:42.260 --> 00:00:44.260
+természeténél fogva instabil.
+
+00:00:44.260 --> 00:00:46.260
+Olyan, mintha én megpróbálnék
+
+00:00:46.260 --> 00:00:47.260
+egy lábon megállni.
+
+00:00:47.260 --> 00:00:49.260
+Felvetődhet a kérdés, hogy mire jó
+
+00:00:49.260 --> 00:00:51.260
+egy instabil robot?
+
+00:00:51.260 --> 00:00:53.260
+Egy pillanat múlva majd elmagyarázom.
+
+00:00:53.260 --> 00:00:55.260
+Előbb hadd magyarázzam el, hogyan
+
+00:00:55.260 --> 00:00:57.260
+tartja meg Rezero az egyensúlyát.
+
+00:00:57.260 --> 00:00:59.260
+Rezero állandóan méri a dőlésszögét
+
+00:00:59.260 --> 00:01:02.260
+egy érzékelő segítségével.
+
+00:01:02.260 --> 00:01:05.260
+Azután pedig ellensúlyoz és elkerüli a felborúlást
+
+00:01:05.260 --> 00:01:07.260
+a megfelelő motorok bekapcsolásával.
+
+00:01:07.260 --> 00:01:09.260
+Ezt másodpercenként 160-szor teszi meg,
+
+00:01:09.260 --> 00:01:11.260
+és ha valami meghibásodik ebben a folyamatban,
+
+00:01:11.260 --> 00:01:14.260
+Rezero azonnal felborul.
+
+00:01:14.260 --> 00:01:16.260
+A mozgáshoz és egyensúlyozáshoz
+
+00:01:16.260 --> 00:01:18.260
+Rezeronak forgatnia kell a labdát.
+
+00:01:18.260 --> 00:01:20.260
+A labdát három speciális kerék forgatja,
+
+00:01:20.260 --> 00:01:23.260
+és ezáltal Rezero bármilyen irányba képes mozogni,
+
+00:01:23.260 --> 00:01:25.260
+illetve a saját tengelye körül is mozoghat
+
+00:01:25.260 --> 00:01:29.260
+egyidejűleg.
+
+00:01:29.260 --> 00:01:31.260
+Az instabilitása miatt Rezero állandóan
+
+00:01:31.260 --> 00:01:33.260
+mozgásban van. És ebben van a trükk.
+
+00:01:33.260 --> 00:01:36.260
+Pont ez az instabilitás teszi lehetővé
+
+00:01:36.260 --> 00:01:38.260
+a robot számára a nagyon dinamikus mozgást.
+
+00:01:38.260 --> 00:01:40.260
+Játszunk egy kicsit.
+
+00:01:40.260 --> 00:01:42.260
+Talán szeretnék tudni mi lesz,
+
+00:01:42.260 --> 00:01:45.260
+ha egy kicsit meglököm a robotot.
+
+00:01:47.260 --> 00:01:49.260
+Ebben az üzemmódban próbálja
+
+00:01:49.260 --> 00:01:52.260
+megtartani a helyzetét.
+
+00:01:52.260 --> 00:01:55.260
+A következő demóhoz be szeretném mutatni
+
+00:01:55.260 --> 00:01:58.260
+a kollégámat, Michaelt, a számítógépnél,
+
+00:01:58.260 --> 00:02:01.260
+és Thomast aki a színpadon segít nekem.
+
+00:02:02.260 --> 00:02:04.260
+A következő üzemmódban Rezero passzív,
+
+00:02:04.260 --> 00:02:07.260
+és mozgathatjuk bármerre.
+
+00:02:08.260 --> 00:02:10.260
+Szinte erő nélkül szabályozhatom
+
+00:02:10.260 --> 00:02:13.260
+a helyzetét és a sebességét.
+
+00:02:16.260 --> 00:02:19.260
+És megperdíthetem is.
+
+00:02:30.260 --> 00:02:32.260
+A következő üzemmódban Rezero
+
+00:02:32.260 --> 00:02:35.260
+követni fog egy személyt.
+
+00:02:35.260 --> 00:02:38.260
+Most állandó távolságot tart Thomastól.
+
+00:02:42.260 --> 00:02:44.260
+Ez egy lézer érzékelővel működik,
+
+00:02:44.260 --> 00:02:46.260
+amelyik Rezero tetejére van szerelve.
+
+00:02:50.260 --> 00:02:52.260
+Ugyanezzel a módszerrel elérhetjük,
+
+00:02:52.260 --> 00:02:55.260
+hogy egy személy körül körözzön.
+
+00:02:57.260 --> 00:03:01.260
+Ezt keringési módnak nevezzük.
+
+00:03:10.260 --> 00:03:12.260
+Rendben, köszönöm Thomas.
+
+00:03:12.260 --> 00:03:16.260
+(Taps)
+
+00:03:16.260 --> 00:03:19.260
+Mire használható ez a technológia?
+
+00:03:22.260 --> 00:03:24.260
+Most csak egy kísérlet, de engedjék meg,
+
+00:03:24.260 --> 00:03:27.260
+hogy mutassak pár lehetséges alkalmazást.
+
+00:03:28.260 --> 00:03:30.260
+Rezero hasznos lehet kiállításokon vagy parkokban.
+
+00:03:30.260 --> 00:03:32.260
+Egy képernyővel tájékoztathatja az embereket
+
+00:03:32.260 --> 00:03:35.260
+vagy elvezetheti őket, mókás és szórakoztató módon.
+
+00:03:35.260 --> 00:03:37.260
+Kórházakban használhatják ezt az eszközt
+
+00:03:37.260 --> 00:03:39.260
+orvosi felszerelések hurcolására.
+
+00:03:39.260 --> 00:03:41.260
+A labdája miatt nagyon kicsi helyet
+
+00:03:41.260 --> 00:03:44.260
+igényel és könnyen mozgatható.
+
+00:03:44.260 --> 00:03:46.260
+És természetesen ki nem szeretne
+
+00:03:46.260 --> 00:03:49.260
+tenni egy kört egy ilyennel.
+
+00:03:49.260 --> 00:03:51.260
+Ezek mind gyakorlatiasabb alkalmazások.
+
+00:03:51.260 --> 00:03:53.260
+De van egy bizonyos szépség is
+
+00:03:53.260 --> 00:03:55.260
+ebben a technológiában.
+
+00:03:55.260 --> 00:04:04.260
+(Zene)
+
+00:04:58.260 --> 00:04:59.260
+(Taps)
+
+00:04:59.260 --> 00:05:01.260
+Köszönöm.
+
+00:05:01.260 --> 00:05:05.260
+(Taps)
+
+00:05:05.260 --> 00:05:07.260
+Köszönöm.
+

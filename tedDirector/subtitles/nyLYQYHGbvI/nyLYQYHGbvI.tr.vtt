@@ -1,0 +1,911 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Oguz Tanridag
+Gözden geçirme: Sancak Gülgen
+
+00:00:18.330 --> 00:00:23.330
+İlk bilgisayarımı gençliğimde, Accra'da büyürken aldım.
+
+00:00:23.330 --> 00:00:26.330
+ve gerçekten çok hoş bir cihazdı.
+
+00:00:26.330 --> 00:00:31.330
+Onunla oyun oynayabilir, onu BASIC dilinde programlayabilirdiniz.
+
+00:00:31.330 --> 00:00:33.330
+Ve gerçekten etkilenmiştim.
+
+00:00:33.330 --> 00:00:39.330
+Bu yüzden bu şeyin nasıl çalıştığını öğrenmek için kütüphaneye gittim.
+
+00:00:39.330 --> 00:00:44.330
+İşlemcinin (CPU) verileri bellek (RAM) ve
+
+00:00:44.330 --> 00:00:48.330
+aritmetik mantık birimi (ALU) arasında
+
+00:00:48.330 --> 00:00:50.330
+nasıl sürekli ileri geri aktardığını okudum.
+
+00:00:50.330 --> 00:00:54.330
+Ve kendi kendime düşündüm ki, bu CPU, tüm bu veriyi
+
+00:00:54.330 --> 00:00:58.330
+sistemin orasından orasına taşımak için gerçekten deli gibi çalışıyor olmalı
+
+00:00:58.330 --> 00:01:01.330
+Ancak bunun hakkında pek endişe eden de yoktu.
+
+00:01:01.330 --> 00:01:03.330
+Bilgisayarlar ilk çıktığında,
+
+00:01:03.330 --> 00:01:06.330
+sinirlerden milyon kat hızlı oldukları söylenmişti.
+
+00:01:06.330 --> 00:01:11.330
+İnsanlar etkilenmişti, yakında beynin kapasitesini
+
+00:01:11.330 --> 00:01:14.330
+geçeceklerini düşündüler.
+
+00:01:14.330 --> 00:01:17.330
+Alan Turing'den bir söz:
+
+00:01:17.330 --> 00:01:21.330
+"30 yıl içerisinde, bilgisayara bir soru sormak,
+
+00:01:21.330 --> 00:01:23.330
+insana soru sormak kadar kolay olacak."
+
+00:01:23.330 --> 00:01:30.330
+Bu 1946 yılındaydı. Şimdi 2007 yılındayız, söz hala doğru değil.
+
+00:01:30.330 --> 00:01:34.330
+Soru şu, beyinde gördüğümüz ölçekteki güçleri
+
+00:01:34.330 --> 00:01:38.330
+neden bilgisayarda göremiyoruz?
+
+00:01:38.330 --> 00:01:42.330
+İnsanların fark edemediği, benim ise şimdilerde fark etmeye başladığım şey,
+
+00:01:42.330 --> 00:01:44.330
+bu bilgisayarların büyük avatajı olan hız için
+
+00:01:44.330 --> 00:01:48.330
+büyük bir bedel ödüyor olmamız.
+
+00:01:48.330 --> 00:01:50.330
+Haydi biraz da bazı verilere bakalım.
+
+00:01:50.330 --> 00:01:54.330
+Bu, Blue Gene, dünyadaki en hızlı bilgisayar.
+
+00:01:54.330 --> 00:01:59.330
+120,000 işlemciye sahip. Saniyede 10 katrilyon
+
+00:01:59.330 --> 00:02:02.330
+bit bilgi işleyebilmekte.
+
+00:02:02.330 --> 00:02:09.330
+Bu 10 üzeri 16 demek. Ve bir buçuk megawatt güç harcıyor.
+
+00:02:09.330 --> 00:02:12.330
+Eğer bu miktarı Tanzanya'nın üretim kapasitesine
+
+00:02:12.330 --> 00:02:14.330
+ekleyebilseydiniz harika olurdu.
+
+00:02:14.330 --> 00:02:16.330
+Ekonomiyi cidden canlandırırdı.
+
+00:02:16.330 --> 00:02:20.330
+Amerika'ya dönelim,
+
+00:02:20.330 --> 00:02:22.330
+Eğer bu bilgisayarın kullandığı elektrik enerjisi miktarını
+
+00:02:22.330 --> 00:02:25.330
+ABD'deki evlerin güç tüketimine oranlayacak olursanız,
+
+00:02:25.330 --> 00:02:29.330
+1200 ev gibi bir rakam elde edersiniz.
+
+00:02:29.330 --> 00:02:31.330
+İşte bu bilgisayarın tükettiği güç miktarı.
+
+00:02:31.330 --> 00:02:34.330
+Şimdi, bunu beyinle karşılaştıralım.
+
+00:02:34.330 --> 00:02:39.330
+Bu, Rory Sayres'in kız arkadaşının beyninin fotoğrafı.
+
+00:02:39.330 --> 00:02:41.330
+Rory, Stanford'da bir yüksek lisans öğrencisi.
+
+00:02:41.330 --> 00:02:45.330
+Beyin üzerinde MRI kullanarak çalışmalar yapıyor ve iddia ediyor ki
+
+00:02:45.330 --> 00:02:48.330
+bu şimdiye kadar tarattığı en güzel beyin.
+
+00:02:48.330 --> 00:02:50.330
+(Gülüşmeler)
+
+00:02:50.330 --> 00:02:53.330
+İşte bu gerçek aşk, tam burada.
+
+00:02:53.330 --> 00:02:56.330
+Şimdi, beyin ne kadar hesaplama yapıyor?
+
+00:02:56.330 --> 00:02:58.330
+Yaklaşık olarak saniyede 10 üzeri 16 bit,
+
+00:02:58.330 --> 00:03:02.330
+aslında Blue Gene'in yaptığına çok yakın.
+
+00:03:02.330 --> 00:03:04.330
+İşte soru bu. Soru: ne kadar --
+
+00:03:04.330 --> 00:03:07.330
+benzer miktarda işlem yapıyorlar, benzer miktarda veri var --
+
+00:03:07.330 --> 00:03:12.330
+soru: "beyin ne kadar enerji veya elektrik tüketiyor?".
+
+00:03:12.330 --> 00:03:15.330
+Ve aslında sadece dizüstü bilgisayarınız kadar:
+
+00:03:15.330 --> 00:03:17.330
+Sadece 10 watt.
+
+00:03:17.330 --> 00:03:20.330
+O zaman bizim şu anda bilgisayarlarla
+
+00:03:20.330 --> 00:03:23.330
+1200 evin tükettiği enerjiyi tüketerek yaptığımız işi
+
+00:03:23.330 --> 00:03:28.330
+beyin, dizüstü bilgisayarınız kadar enerji tüketerek yapıyor.
+
+00:03:28.330 --> 00:03:31.330
+Şu halde soru şu, beyin, bu denli verimliliği nasıl elde ediyor?
+
+00:03:31.330 --> 00:03:33.330
+Ve özetlememe izin verin.
+
+00:03:33.330 --> 00:03:37.330
+Beyin bilgiyi, halihazırdaki bilgisayar teknolojisine gore
+
+00:03:37.330 --> 00:03:41.330
+100,000 kat daha az enerji harcayarak işliyor.
+
+00:03:41.330 --> 00:03:43.330
+Peki beyin bunu nasıl başarıyor?
+
+00:03:43.330 --> 00:03:46.330
+Haydi beynin nasıl çalıştığına bir bakalım,
+
+00:03:46.330 --> 00:03:50.330
+ve bilgisayarların nasıl çalıştığıyla karşılaştıralım.
+
+00:03:50.330 --> 00:03:54.330
+Bu kısa film "Beynin Gizli Hayatı" isimli PBS belgeselinden.
+
+00:03:54.330 --> 00:03:57.330
+Bilgi işleyen hücreleri gösteriyor.
+
+00:03:57.330 --> 00:03:58.330
+Bunlara "nöron" denir.
+
+00:03:58.330 --> 00:04:04.330
+İşlem sırasında birbirlerine küçük elektrik atımları gönderirler,
+
+00:04:04.330 --> 00:04:06.330
+ve birbirlerine dokundukları yerlerde bu küçük elektrik atımları,
+
+00:04:06.330 --> 00:04:08.330
+bir nörondan diğerine atlar.
+
+00:04:08.330 --> 00:04:11.330
+Bu işleme "sinaps" denir.
+
+00:04:11.330 --> 00:04:13.330
+Yani elimizde birbirleriyle saniyede yaklaşık 10 katrilyon atım göndererek
+
+00:04:13.330 --> 00:04:15.330
+haberleşen 100 milyon kadar hücreden oluşan
+
+00:04:15.330 --> 00:04:19.330
+devasa bir ağ var.
+
+00:04:19.330 --> 00:04:25.330
+Ve siz bu konuşmayı izlerken beyninizde olup biten de bu.
+
+00:04:25.330 --> 00:04:27.330
+Şimdi bunu bilgisayarların nasıl çalıştığıyla karşılaştıralım.
+
+00:04:27.330 --> 00:04:29.330
+Bilgisayardda bütün bilgi
+
+00:04:29.330 --> 00:04:31.330
+işlemciden (CPU) geçer,
+
+00:04:31.330 --> 00:04:34.330
+ve her veri parçası bu darboğazdan geçmek zorundadır.
+
+00:04:34.330 --> 00:04:38.330
+Beyinde ise nöronlar var ve veriler
+
+00:04:38.330 --> 00:04:42.330
+bu nöronlar arasındaki bağlantı ağı içinde akar,
+
+00:04:42.330 --> 00:04:44.330
+burada bir darboğaz yok.
+
+00:04:44.330 --> 00:04:48.330
+Bu kelimenin tam anlamıyla bir "ağ"dır
+
+00:04:48.330 --> 00:04:52.330
+Beyinde işleri bu ağ halleder.
+
+00:04:52.330 --> 00:04:54.330
+Bu iki resme bakarsanız,
+
+00:04:54.330 --> 00:04:56.330
+aklınıza iki kelime gelir.
+
+00:04:56.330 --> 00:05:00.330
+Bu "seri ve katı": otoyoldaki arabalar gibi --
+
+00:05:00.330 --> 00:05:03.330
+herşey sırayla olmalı.
+
+00:05:03.330 --> 00:05:05.330
+Bu ise paralel ve akıcı.
+
+00:05:05.330 --> 00:05:08.330
+Bilgi işleme oldukça dinamik ve adaptif.
+
+00:05:08.330 --> 00:05:12.330
+Tabi ki bunu tek farkeden ben değilim: Brian Eno'dan bir alıntı:
+
+00:05:12.330 --> 00:05:16.330
+"Bilgisayarların sorunu, içlerinde yeterince Afrika olmaması."
+
+00:05:16.330 --> 00:05:22.330
+(Gülüşmeler)
+
+00:05:22.330 --> 00:05:25.330
+Brian bunu 1995'te söyledi.
+
+00:05:25.330 --> 00:05:28.330
+O zamanlarda dinleyen yoktu,
+
+00:05:28.330 --> 00:05:30.330
+ama şimdi dinlemeye başlıyorlar,
+
+00:05:30.330 --> 00:05:35.330
+çünkü karşımızda acil, teknolojik bir problem var
+
+00:05:35.330 --> 00:05:40.330
+Sıradaki bir kaç slaytta size biraz bundan bahsedeceğim.
+
+00:05:40.330 --> 00:05:44.330
+Bu -- bilgisayarlarda hesap yapmak için kullandığımız araçlarla,
+
+00:05:44.330 --> 00:05:49.330
+beynimizin hesap yapmak için kullandığı araçların
+
+00:05:49.330 --> 00:05:53.330
+önemli bir yakınsaması.
+
+00:05:53.330 --> 00:05:57.330
+Bilgisayarların kullandığı araçlara "transistör" deniyor.
+
+00:05:57.330 --> 00:06:01.330
+Buradaki, "kapı" adı verilen elektrot,
+
+00:06:01.330 --> 00:06:04.330
+"kaynak"tan "toplayıcı"ya giden akımı kontrol eder.
+
+00:06:04.330 --> 00:06:06.330
+Ve bu akım, elektrik akımı,
+
+00:06:06.330 --> 00:06:12.330
+evinizin içinde olduğu gibi, elektronlar tarafından taşınır.
+
+00:06:12.330 --> 00:06:17.330
+Burada gördüğümüz ise, "kapı"yı açtığınızda,
+
+00:06:17.330 --> 00:06:21.330
+akım miktarında bir artış görürsünüz, sabit bir akım vardır.
+
+00:06:21.330 --> 00:06:25.330
+"Kapı"yı kapattığınızda ise cihazdan geçen bir akım yoktur.
+
+00:06:25.330 --> 00:06:30.330
+Bilgisayar, akımın olduğu durumu bir "1",
+
+00:06:30.330 --> 00:06:34.330
+olmadığı durumu ise bir 0 (sıfır) göstermek için kullanır.
+
+00:06:34.330 --> 00:06:40.330
+Bugünlerde olan şu: transistörler gittikçe küçülüyor, küçülüyor, küçülüyorlar.
+
+00:06:40.330 --> 00:06:42.330
+Ve artık bu şekilde davranmıyorlar.
+
+00:06:42.330 --> 00:06:47.330
+Aslında, yavaş yavaş nöronların hesap yapmak için kullandıkları cihaza benziyorlar,
+
+00:06:47.330 --> 00:06:49.330
+buna "iyon kanalı" deniyor.
+
+00:06:49.330 --> 00:06:51.330
+Ve bu, küçük bir protein molekülü.
+
+00:06:51.330 --> 00:06:55.330
+Nöronlarda bundan binlerce var.
+
+00:06:55.330 --> 00:06:59.330
+Hücre zarında duruyor ve ortasında bir gözeneği var.
+
+00:06:59.330 --> 00:07:02.330
+Bunlar da o gözenekten geçen
+
+00:07:02.330 --> 00:07:04.330
+potasyum iyonları.
+
+00:07:04.330 --> 00:07:06.330
+Şimdi, bu gözenek açılıp kapanabiliyor.
+
+00:07:06.330 --> 00:07:11.330
+Ama, açık olduğu zaman, bu iyonlar sıraya dizilip,
+
+00:07:11.330 --> 00:07:16.330
+her seferinde bir tanesi geçebileceği için, dağınık
+
+00:07:16.330 --> 00:07:19.330
+düzensiz bir akış var.
+
+00:07:19.330 --> 00:07:22.330
+Gözeneği kapatsanız bile -- ki nöronlar bunu yapıyorlar,
+
+00:07:22.330 --> 00:07:27.330
+elektrik aktivitesi yaratmak için bu gözenekler açılıp kapatılır.
+
+00:07:27.330 --> 00:07:30.330
+kapalı olsa bile, bu iyonlar çok küçük oldukları için,
+
+00:07:30.330 --> 00:07:33.330
+bir seferde bir kaç tanesi aradan geçebilir.
+
+00:07:33.330 --> 00:07:36.330
+Yani elimizde şu var: Gözenek açık olduğu zaman,
+
+00:07:36.330 --> 00:07:38.330
+düzensiz de olsa bir akım var.
+
+00:07:38.330 --> 00:07:41.330
+Bu sizin "1"iniz, ama aralara serpiştirilmiş "0"lar da var.
+
+00:07:41.330 --> 00:07:45.330
+Kapalı olduğu zaman da "0" demek,
+
+00:07:45.330 --> 00:07:48.330
+ama aralarda "1"ler de var, tamam.
+
+00:07:48.330 --> 00:07:51.330
+Şimdi, aynı şey transistörlerde de olmaya başlıyor.
+
+00:07:51.330 --> 00:07:56.330
+Bunun olmasının sebebi de, şu an, 2007'de,
+
+00:07:56.330 --> 00:08:00.330
+elemizdeki teknolojiyle ürettiğimiz transistörler,
+
+00:08:00.330 --> 00:08:05.330
+içinden çok sayıda elektronun yan yana geçebileceği kadar büyükler.
+
+00:08:05.330 --> 00:08:09.330
+Aslında, yaklaşık 12 elektron transistörden bu şekilde geçebiliyor.
+
+00:08:09.330 --> 00:08:11.330
+Bu da, bir transistörün, 12 paralel iyon kanalına
+
+00:08:11.330 --> 00:08:14.330
+denk geldiği anlamına geliyor.
+
+00:08:14.330 --> 00:08:19.330
+Şimdi, bir kaç sene içinde, 2015'e kadar, transistörleri çok küçülteceğiz.
+
+00:08:19.330 --> 00:08:24.330
+Intel, yongalarına (mikro çip) daha fazla çekirdek eklemek için bunu yapıyor.
+
+00:08:24.330 --> 00:08:27.330
+Hafıza çubuklarınızda 1 gigabayt veri taşıyabiliyorsunuz,
+
+00:08:27.330 --> 00:08:29.330
+eskiden bu 256 megabayttı.
+
+00:08:29.330 --> 00:08:32.330
+Bunun olabilmesi için transistörler gittikçe küçülüyor,
+
+00:08:32.330 --> 00:08:35.330
+ve teknoloji bundan gerçekten de faydalandı.
+
+00:08:35.330 --> 00:08:40.330
+Fakat 2015 yılında, transistörler o kadar küçülmüş olacak ki,
+
+00:08:40.330 --> 00:08:43.330
+kanaldan aynı anda sadece
+
+00:08:43.330 --> 00:08:45.330
+bir elektron geçebilecek,
+
+00:08:45.330 --> 00:08:47.330
+ve bu da
+
+00:08:47.330 --> 00:08:51.330
+Ve iyon kanalında meydana gelene benzer trafik sıkışıklıkları görmeye başlıyorsunuz,
+
+00:08:51.330 --> 00:08:54.330
+akım açık olması gerekirken bile,
+
+00:08:54.330 --> 00:08:56.330
+raslantısal bir şekilde açılıp kapanacak.
+
+00:08:56.330 --> 00:08:58.330
+Bu yüzden bilgisayarınız "1" ve "0"larını karıştıracak,
+
+00:08:58.330 --> 00:09:02.330
+ve bu da çakılmasına sebep olacak.
+
+00:09:02.330 --> 00:09:06.330
+Şimdi, bu türden cihazlarla nasıl
+
+00:09:06.330 --> 00:09:09.330
+hesap yapacağımızı bilemediğimiz bir noktadayız.
+
+00:09:09.330 --> 00:09:12.330
+Ve bu türden cihazlarla hesap yapabilen, hesap yapabildiğini bildiğimiz,
+
+00:09:12.330 --> 00:09:15.330
+tek şey beyin.
+
+00:09:15.330 --> 00:09:19.330
+Tamam,o halde bilgisayar bellekten bir veri parçası alıyor,
+
+00:09:19.330 --> 00:09:22.330
+onu işlemciye ya da ALU'ya gönderiyor,
+
+00:09:22.330 --> 00:09:24.330
+ve sonra da sonucu belleğe geri koyuyor.
+
+00:09:24.330 --> 00:09:26.330
+Beliren kırmızı renkli yol şeklinde.
+
+00:09:26.330 --> 00:09:30.330
+Beyinlerin çalışmasında, bütün bu nöronlara sahipsiniz.
+
+00:09:30.330 --> 00:09:32.330
+Ve onların bilgiyi temsil etme şekli
+
+00:09:32.330 --> 00:09:34.330
+verileri kısa bölümler ve farklı nöronlar tarafından
+
+00:09:34.330 --> 00:09:37.330
+temsil edilecek şekilde ufak parçalar haline getirmek.
+
+00:09:37.330 --> 00:09:39.330
+Böylece şebekenin tamamına dağıtılmış
+
+00:09:39.330 --> 00:09:41.330
+bütün veri bölümlerine sahipsiniz.
+
+00:09:41.330 --> 00:09:44.330
+Ve sonra verilerin işlenmesiyle hedefe ulaşmada izlenecek yol,
+
+00:09:44.330 --> 00:09:48.330
+sizin şebekenin içindeki akışı sağlamanız yoluyla
+
+00:09:48.330 --> 00:09:51.330
+bu aktivite biçimini yeni bir aktivite biçimine dönüştürmektir.
+
+00:09:51.330 --> 00:09:53.330
+Ve bağlantıları kurarsınız,
+
+00:09:53.330 --> 00:09:56.330
+giriş paterni ilerler
+
+00:09:56.330 --> 00:09:58.330
+ve çıkış paterni oluşur.
+
+00:09:58.330 --> 00:10:02.330
+Burada gördüğünüz (yine) bu fazla sayıdaki bağlantıların varlığıdır.
+
+00:10:02.330 --> 00:10:06.330
+Bir kez bu data parçası ya da şu data parçası işlenirse
+
+00:10:06.330 --> 00:10:11.330
+kendini burada göstermezl, diğer bağlantıların yardımıyla
+
+00:10:11.330 --> 00:10:13.330
+bu iki parça ortada görünmeyen parçayı aktive eder.
+
+00:10:13.330 --> 00:10:15.330
+Böylece bazen bir koyup ta sıfır aldığınız
+
+00:10:15.330 --> 00:10:18.330
+işe yaramaz aletlerle çalışsanız bile
+
+00:10:18.330 --> 00:10:20.330
+şebekede fazladan varolan güç
+
+00:10:20.330 --> 00:10:23.330
+kaybolan bilgiyi hakikaten geri getirir.
+
+00:10:23.330 --> 00:10:26.330
+Bu beyni doğal açıdan güçlü kılar.
+
+00:10:26.330 --> 00:10:29.330
+Burada verileri bölgesel olarak depolayan bir sisteminiz var.
+
+00:10:29.330 --> 00:10:33.330
+Ve bu sistem hassastır, çünkü bu basamaklardan her biri kusursuz olmalıdır,
+
+00:10:33.330 --> 00:10:36.330
+aksi taktirde veriyi kaybedersiniz. Halbuki beyinde verileri
+
+00:10:36.330 --> 00:10:40.330
+dağınık biçimde depolayan bir sisteme sahipsiniz, ve o sağlamdır.
+
+00:10:40.330 --> 00:10:44.330
+Benim esas olarak anlatmak istediğim şey
+
+00:10:44.330 --> 00:10:47.330
+beyin gibi çalışan bir bilgisayar yapma hayalim.
+
+00:10:47.330 --> 00:10:51.330
+Bu son iki yıldır üzerinde çalıştığımız bir şey.
+
+00:10:51.330 --> 00:10:54.330
+Ve size retinayı modellemek için geliştirdiğimiz
+
+00:10:54.330 --> 00:10:57.330
+bir sistem göstermek istiyorum.
+
+00:10:57.330 --> 00:11:02.330
+Bu da göz kürenizin içine doğru uzanan bir parçacık beyin.
+
+00:11:02.330 --> 00:11:08.330
+Biz bunu bilgisayarda yapıdığı gibi bir kodlama yazarak yapmadık.
+
+00:11:08.330 --> 00:11:11.330
+Esasında, bu ufak beyin parçasındaki işlemleme
+
+00:11:11.330 --> 00:11:13.330
+bilgisayarların internet üzerinden
+
+00:11:13.330 --> 00:11:14.330
+video göndermelerine
+
+00:11:14.330 --> 00:11:18.330
+çok benzer bir işlemlemedir.
+
+00:11:18.330 --> 00:11:19.330
+Bilgileri sıkıştırma yoluyla--
+
+00:11:19.330 --> 00:11:23.330
+görüntüde yeni olana ait değişikliklerin gönderilmesi--
+
+00:11:23.330 --> 00:11:26.330
+ve bu da beyne gönderilecek bilginin
+
+00:11:26.330 --> 00:11:29.330
+önce göz kürelerinizin içinden sıkışmış olarak
+
+00:11:29.330 --> 00:11:31.330
+görme sinirine aktarılması gibi bir işleme benzer.
+
+00:11:31.330 --> 00:11:34.330
+Bunları yazılım olarak hazırlamak ya da bir takım algoritmalar yapmak yerine,
+
+00:11:34.330 --> 00:11:37.330
+nörobiyologlara gittik ve onlarla konuştuk
+
+00:11:37.330 --> 00:11:41.330
+ki onlar esasında retina denilen beyin parçasında bu mühendisliği sanki
+
+00:11:41.330 --> 00:11:43.330
+tersinden yapan ve bütün farklı hücreleri de belirleyen kişiler oluyorlar,
+
+00:11:43.330 --> 00:11:46.330
+ve şebekeyi ortaya koydular, biz bu şebekeyi aldık
+
+00:11:46.330 --> 00:11:50.330
+ve bir silikon çipin tasarımında plan olarak kullandık.
+
+00:11:50.330 --> 00:11:56.330
+Böylelikle artık nöronlar çipin üzerinde ufak nodlar ya da çevrimler halinde temsil ediliyorlar,
+
+00:11:56.330 --> 00:12:01.330
+ve nöronların arasındaki bağlantılar transistörler tarafından modelleniyorlar.
+
+00:12:01.330 --> 00:12:03.330
+Ve bu transistörler beyinde iyon kanalları
+
+00:12:03.330 --> 00:12:06.330
+nasıl davranıyorsa öyle davranıyorlar.
+
+00:12:06.330 --> 00:12:11.330
+Ve o tanımladığımla aynı özellikleri gösteren güvenli bir yapılanma verecek.
+
+00:12:11.330 --> 00:12:15.330
+Burada bizim yapay gözün neye benzediği görülüyor.
+
+00:12:15.330 --> 00:12:20.330
+Tasarladığımız retina çipi burada lensin arkasında görülüyor.
+
+00:12:20.330 --> 00:12:22.330
+Ve çip-- size bir video göstereceğim
+
+00:12:22.330 --> 00:12:25.330
+silikon retina
+
+00:12:25.330 --> 00:12:28.330
+bu çipi tasarlayan öğrenci Karem Zaghloul'a baktığı zaman
+
+00:12:28.330 --> 00:12:30.330
+kendi çıktısını bozarak değiştiriyor.
+
+00:12:30.330 --> 00:12:32.330
+Ne göreceksiniz açıklayayım, Pekala.
+
+00:12:32.330 --> 00:12:35.330
+Farklı bilgilerle çıktısını değiştirdiği için
+
+00:12:35.330 --> 00:12:37.330
+o sadece bir kamera gibi kaydetmiyor.
+
+00:12:37.330 --> 00:12:40.330
+Çip retina dört farklı türden bilgiyi ayırıp çıkarıyor.
+
+00:12:40.330 --> 00:12:43.330
+koyu renkli alanları ayırıyor,
+
+00:12:43.330 --> 00:12:46.330
+ki bunlar videoda kırmızı olarak görünecek.
+
+00:12:46.330 --> 00:12:50.330
+Ve beyaz ya da açık renkli alanları ayırıyor,
+
+00:12:50.330 --> 00:12:52.330
+ki videoda yeşil olarak görünecek.
+
+00:12:52.330 --> 00:12:54.330
+Bu Kareem'in koyu renkli gözleri
+
+00:12:54.330 --> 00:12:57.330
+ve burada görmüş olduğunuz da beyaz zemin.
+
+00:12:57.330 --> 00:12:59.330
+Ve (üçüncü olarak) harekete duyarlıdır.
+
+00:12:59.330 --> 00:13:01.330
+Kareem başını sağa doğru çevirdiği zaman
+
+00:13:01.330 --> 00:13:03.330
+mavi aktiviteyi görmüş olacaksınız.
+
+00:13:03.330 --> 00:13:06.330
+bu, görüntüde kontrastın
+
+00:13:06.330 --> 00:13:09.330
+koyudan açığa doğru arttığı alanları temsil ediyor.
+
+00:13:09.330 --> 00:13:11.330
+Ve aynı zamanda kontrastın
+
+00:13:11.330 --> 00:13:15.330
+açıktan koyuya doğru azaldığı bölgeleri
+
+00:13:15.330 --> 00:13:17.330
+temsil eden sarı aktiviteyi göreceksiniz.
+
+00:13:17.330 --> 00:13:20.330
+Ve bunlar bilginin dört tipi olmuş oluyor --
+
+00:13:20.330 --> 00:13:24.330
+optik siniriniz içinde bir milyon kadar life sahiptir,
+
+00:13:24.330 --> 00:13:27.330
+ve bu liflerin 900,000 'i
+
+00:13:27.330 --> 00:13:29.330
+bu dört çeşit bilgiyi iletir.
+
+00:13:29.330 --> 00:13:33.330
+Böylece biz gerçekten optik sinirinizdeki sinyallerin kopyasını yapmış oluyoruz.
+
+00:13:33.330 --> 00:13:36.330
+Burada retina çipin çıktısından alınan
+
+00:13:36.330 --> 00:13:40.330
+ardısıra görüntülerin çok dağınık olduğunu farkediyorsunuz.
+
+00:13:40.330 --> 00:13:42.330
+Zeminin her yerinde yeşil renk parlamıyor,
+
+00:13:42.330 --> 00:13:45.330
+sadece kenarlarda, ve bu böyle devam ediyor.
+
+00:13:45.330 --> 00:13:46.330
+İnsanlar göndermek için videoyu sıkıştırdıkları zaman
+
+00:13:46.330 --> 00:13:50.330
+bakın aynı şeyi görüyorsunuz : dosya küçük olduğundan
+
+00:13:50.330 --> 00:13:53.330
+dağınık yapmak istiyorlar.. Ve bu da retinanın yaptığı gibi bir iş,
+
+00:13:53.330 --> 00:13:57.330
+ve onu bir devre içinde yapıyor, ve orada nöronlar şebeke içinde
+
+00:13:57.330 --> 00:14:00.330
+nasıl bir iletişime geçiyorlarsa, biz bunu çip üzerinde başardık.
+
+00:14:00.330 --> 00:14:03.330
+Ama ben göstermek istediğim noktayı size burada göstereceğim.
+
+00:14:03.330 --> 00:14:06.330
+Buradaki görüntü diğerlerine benzeyecek,
+
+00:14:06.330 --> 00:14:08.330
+ama burada size göstermek istediğim şey bunu yeniden yapılandırabilmemiz,
+
+00:14:08.330 --> 00:14:13.330
+Kareem'i üst bölümde herhalde tanıyacaksınız.
+
+00:14:13.330 --> 00:14:15.330
+İşte böyle.
+
+00:14:24.330 --> 00:14:27.330
+Evet, aynı zamanda fikri de.
+
+00:14:27.330 --> 00:14:29.330
+Biraz devam ederseniz açık ve koyu kontrastları da göreceksiniz.
+
+00:14:29.330 --> 00:14:31.330
+Ama öne ve arkaya hareket ettiği zaman,
+
+00:14:31.330 --> 00:14:34.330
+retina bu değişimleri de yakalar.
+
+00:14:34.330 --> 00:14:35.330
+Ve bilirsiniz ki, burada oturduğunuz zaman
+
+00:14:35.330 --> 00:14:37.330
+sizin zemininizde bir şeyler olursa,
+
+00:14:37.330 --> 00:14:39.330
+sadece ona doğru gözlerinizi hareket ettirirsiniz.
+
+00:14:39.330 --> 00:14:41.330
+Değişimi belirleyen hücreler vardır
+
+00:14:41.330 --> 00:14:43.330
+ve siz dikkatinizin yönünü ona doğru değiştirirsiniz.
+
+00:14:43.330 --> 00:14:45.330
+Ve bunlar size gizlice yaklaşmak isteyenleri
+
+00:14:45.330 --> 00:14:47.330
+farketmeniz için çok önemlidir.
+
+00:14:47.330 --> 00:14:50.330
+Bitirirken söylemek isterim ki,
+
+00:14:50.330 --> 00:14:53.330
+Afrika'yı piyano içine koyarsanız, bu gerçekleşir.
+
+00:14:53.330 --> 00:14:56.330
+Bu bir geliştirilmiş çelikten davul
+
+00:14:56.330 --> 00:14:59.330
+ve bu da Afrika'yı piyano içine koyduğunuz zaman olan.
+
+00:14:59.330 --> 00:15:03.330
+Ve bizlerin yapmasını istediğim şey Afrika'yı bilgisayar içine koyup,
+
+00:15:03.330 --> 00:15:05.330
+düşünce, hayal üreten, yaratıcı olan ve
+
+00:15:05.330 --> 00:15:08.330
+bu gibi şeyleri yapan yeni tür bir bilgisayarla ortaya çıkmak.
+
+00:15:08.330 --> 00:15:10.330
+Teşekkür ederim
+
+00:15:10.330 --> 00:15:12.330
+(Alkışlar)
+
+00:15:12.330 --> 00:15:14.330
+Chris Anderson : Sana bir soru, Kwabena.
+
+00:15:14.330 --> 00:15:18.330
+Zihninde, yaptığın çalışmaları,
+
+00:15:18.330 --> 00:15:21.330
+Afrika'nın geleceğini, bu konferansı--
+
+00:15:21.330 --> 00:15:24.330
+biraraya koysan ne tür bağlantılar yapabiliriz, eğer varsa,aralarında?
+
+00:15:24.330 --> 00:15:26.330
+Kwabena Boahen : Evet, başlangıçta da söylediğim gibi.
+
+00:15:26.330 --> 00:15:30.330
+İlk bilgisayarımı gençliğimde, Accra'da büyürken aldım.
+
+00:15:30.330 --> 00:15:34.330
+Ve bunu yapmamın doğru olmadığını belirten acımasız bir tepki aldım.
+
+00:15:34.330 --> 00:15:37.330
+acımasızca ve düşüncesizceydi.
+
+00:15:37.330 --> 00:15:39.330
+Eğer bütün bu bilim kurguyu okuyarak,
+
+00:15:39.330 --> 00:15:42.330
+RD2D''yi duyarak ve ne denilirse denilsin--size kalmış--
+
+00:15:42.330 --> 00:15:46.330
+bilgisayarlar hakkındaki ucuz reklamlardan etkilenerek
+
+00:15:46.330 --> 00:15:47.330
+büyümüş olsaydım bu tür bir tepkiyi almazdım.
+
+00:15:47.330 --> 00:15:49.330
+Ben farklı bir görüş açısından geliyordum,
+
+00:15:49.330 --> 00:15:51.330
+bu görüş açısını problemin
+
+00:15:51.330 --> 00:15:53.330
+çözümü için getiriyordum.
+
+00:15:53.330 --> 00:15:56.330
+Ve bana göre Afrika'daki bir çok insan bu farklı görüş açısına sahip
+
+00:15:56.330 --> 00:15:58.330
+ve bunun teknolojiyi etkileyeceğini düşünüyorum.
+
+00:15:58.330 --> 00:16:00.330
+Ve bu etkilenme onun nasıl gelişeceği doğrultusunda olacak.
+
+00:16:00.330 --> 00:16:02.330
+Ve bu etkileşimin
+
+00:16:02.330 --> 00:16:04.330
+yeni sonuçlara yol açacağını görebileceksiniz.
+
+00:16:04.330 --> 00:16:07.330
+çünkü siz farklı bir görüş açısından geliyorsunuz.
+
+00:16:07.330 --> 00:16:11.330
+Biz de herkes gibi katkıda bulunabiliriz, hayal edebiliriz.
+
+00:16:11.330 --> 00:16:13.330
+Chris Anderson: Teşekkürler Kwabena, gerçekten çok ilginçti.
+
+00:16:13.330 --> 00:16:14.330
+Teşekkür ederim.
+
+00:16:14.330 --> 00:16:16.330
+(Alkışlar)
+

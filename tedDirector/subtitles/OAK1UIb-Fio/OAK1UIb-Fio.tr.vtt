@@ -1,0 +1,1541 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Ramazan Şen
+Gözden geçirme: Dilan Timucin
+
+00:00:12.963 --> 00:00:14.892
+Bu "Al/Sat/Eskit" adında bir oyun.
+
+00:00:14.892 --> 00:00:17.963
+Broadway'de "Köprü ve Tünel"den sonra
+
+00:00:17.963 --> 00:00:21.333
+oynadığım ilk oyun
+--teşekkürler--
+
+00:00:21.333 --> 00:00:25.995
+sadece sizin için seçtim, öyleyse
+başlıyoruz.
+
+00:00:29.763 --> 00:00:32.901
+Evet. Sınıf, başlamadan önce elektrikli
+cihazların
+
+00:00:32.901 --> 00:00:37.618
+kesinlikle kapalı olduğundan emin olalım.
+
+00:00:38.268 --> 00:00:43.375
+Pekala sınıf, umarım az önce söylediğim
+şeyi tanımışsınızdır --
+
+00:00:43.985 --> 00:00:47.199
+Çok iyi, bir cep telefonu anonsu.
+
+00:00:47.199 --> 00:00:51.378
+Değil mi? Bu mobil telefon
+olarak da bilinirdi.
+
+00:00:51.378 --> 00:00:53.607
+Hatırlarsınız, bu çağın insanlarının
+
+00:00:53.607 --> 00:00:58.483
+dışarıdan gelen elektrikli aletleri vardı
+
+00:00:58.483 --> 00:01:00.434
+bunun gibi bir şey
+
+00:01:00.434 --> 00:01:03.370
+ve bunlardan bir taneyi hep yanlarında 
+taşırlardı
+
+00:01:03.370 --> 00:01:06.749
+ve içlerindeki en büyük korkulardan biri
+
+00:01:06.749 --> 00:01:10.139
+telefonlarının uygunsuz bir anda çalıp
+onları rezil etmesiydi.
+
+00:01:10.139 --> 00:01:12.540
+Değil mi? Size bu çağ hakkında
+birkaç ıvır zıvır bilgi olsun.
+
+00:01:12.540 --> 00:01:15.100
+(Gülüşmeler)
+
+00:01:15.100 --> 00:01:17.851
+Bugünkü dersimizde
+
+00:01:17.851 --> 00:01:21.793
+o tarihten bugüne kadar gelen
+
+00:01:21.793 --> 00:01:24.163
+çoklu BERT modüllerini anlatacağım,
+
+00:01:24.163 --> 00:01:26.973
+başlangıcı tahminen 2016.
+
+00:01:26.973 --> 00:01:31.320
+Hatırlayın, bu BERT programının ilk 
+senesiydi.
+
+00:01:31.320 --> 00:01:33.690
+Yani üzerinden geçeceğimiz
+bir hayli modül var.
+
+00:01:33.690 --> 00:01:37.697
+Aklınızda tutun, çok çeşitli bedenlerde,
+
+00:01:37.697 --> 00:01:38.875
+farklı yaşlarda,
+
+00:01:39.575 --> 00:01:43.403
+ayrıca o dönemde etnik gruplar veya
+ırklar dedikleri şeylerde yaşayacağım.
+
+00:01:43.403 --> 00:01:45.493
+Bunları ilk üniteden hatırlarsınız.
+
+00:01:45.493 --> 00:01:48.813
+ve -- (Gülüşmeler) cinsiyetten devam
+edecek olursak,
+
+00:01:48.813 --> 00:01:51.321
+erkek bedenlerinde de yaşayacağım.
+
+00:01:51.321 --> 00:01:52.991
+O zamanda oldukça ikiliydi.
+
+00:01:52.991 --> 00:01:54.550
+(Gülüşmeler)
+
+00:01:54.550 --> 00:01:57.867
+Unutmayın, biz bu modülü gelecek haftanın
+
+00:01:57.867 --> 00:01:59.842
+cinsiyet teması için okuyoruz.
+
+00:01:59.842 --> 00:02:03.885
+Birkaçınızın bu kitabı hap formunda
+istediğinizi biliyorum.
+
+00:02:03.885 --> 00:02:08.201
+Biliyorum ki insanlar hâlâ hap almanın
+öğrenmek için daha iyi olduğuna inanıyor,
+
+00:02:08.201 --> 00:02:13.700
+ama atalarımızın yaptıklarını
+tecrübe etmek adına,
+
+00:02:13.700 --> 00:02:19.207
+normal yollardan, gözlerimizle 
+okuyalım, tamam mı?
+
+00:02:19.207 --> 00:02:24.222
+Ve bu arada, kaç kişiye
+duygusal olarak bağlısınız?
+
+00:02:24.222 --> 00:02:26.916
+Lütfen bağlarınızı çözün. 
+Tamam mı?
+
+00:02:26.916 --> 00:02:31.861
+Zor biliyorum, ama tamamen doğal duygular
+
+00:02:31.861 --> 00:02:33.719
+hissedebilmenizi istiyorum.
+
+00:02:33.719 --> 00:02:36.528
+Programın bu bölümü için önemli.
+
+00:02:37.888 --> 00:02:39.126
+Evet, Macy?
+
+00:02:39.756 --> 00:02:43.627
+Tamam. Anladım.
+Eğer isteksizsen...
+
+00:02:43.627 --> 00:02:45.996
+Tamam, peki.
+Bunu dersten sonra tartışabiliriz.
+
+00:02:45.996 --> 00:02:48.429
+Peki, senin kaygılarını tartışacağız.
+
+00:02:48.429 --> 00:02:52.549
+Rahatla. Kimse ölmedi,
+kimse çürümeye başlamadı.
+
+00:02:52.549 --> 00:02:55.893
+Tamam. Dersten sonra. Tamam mı? 
+Dersten sonra.
+
+00:02:57.133 --> 00:02:59.144
+Hadi başlayalım.
+
+00:02:59.144 --> 00:03:05.552
+Bu kişi kendini orta sınıf bir ev
+hanımı olarak tanımladı.
+
+00:03:05.552 --> 00:03:07.851
+Unutmayın, bu insanların
+
+00:03:07.851 --> 00:03:11.984
+kimliklerindeki ilk modüller korundu.
+
+00:03:11.984 --> 00:03:15.200
+Bu, aralarındaki çoğu kişi için
+tabu olan konumuz hakkında
+
+00:03:15.200 --> 00:03:19.133
+daha özgürce konuşmalarını sağladı.
+
+00:03:20.110 --> 00:03:23.732
+Tamam tatlım, 
+sen hazır olduğunda ben hazırım.
+
+00:03:23.732 --> 00:03:26.960
+Hayır, tatlım. Dedim ki
+sen hazır olduğunda ben hazırım.
+
+00:03:28.060 --> 00:03:29.351
+Donuyorum.
+
+00:03:30.061 --> 00:03:33.206
+Bu kayıt stüdyosunun içi bir kiler gibi.
+
+00:03:33.206 --> 00:03:34.986
+Bir şal getirmeliydim.
+
+00:03:35.806 --> 00:03:39.405
+Bu kadar üstün teknoloji varken 
+sıcağı karşılayacak paraları yok.
+
+00:03:40.375 --> 00:03:43.678
+Ne diyor? Seni duyamıyorum!
+
+00:03:43.678 --> 00:03:46.557
+Camdan seni duyamıyorum tatlım!
+
+00:03:46.557 --> 00:03:49.320
+Buradaymışsın, kulağımda.
+
+00:03:49.320 --> 00:03:51.920
+Tamam, duyabiliyor musun beni?
+
+00:03:51.920 --> 00:03:53.778
+Bütün dediklerimi.
+
+00:03:53.778 --> 00:03:56.864
+Evet, biraz üşüdüm.
+
+00:03:57.980 --> 00:04:03.553
+Demek bu soğuk, makineler ve
+yeni teknoloji için.
+
+00:04:03.553 --> 00:04:09.304
+Tamam evet, tekrar
+hatırlat, sadece sesimi değil, hislerimi
+
+00:04:09.304 --> 00:04:11.604
+ve anılarımı da kaydediyorsun,
+değil mi?
+
+00:04:12.414 --> 00:04:14.433
+Evet, BERT, bununla ilgili
+bir şeyler okumuştum.
+
+00:04:14.433 --> 00:04:17.484
+Bio-Empatik Rezonans Teknolojisi.
+
+00:04:17.484 --> 00:04:22.641
+Evet, evet, böylece insanlar
+deneyimlerimi ve anılarımı
+
+00:04:22.641 --> 00:04:24.543
+hissedebilecekler mi? Tamam.
+
+00:04:24.543 --> 00:04:25.958
+Evet, tamam, hazırım.
+
+00:04:25.958 --> 00:04:30.055
+Hafızamın nasıl çalıştığını test 
+edeceksin sandım.
+
+00:04:30.055 --> 00:04:33.272
+Sana çok geç kaldığını söyleyecektim,
+kötü haberler olduğunu.
+
+00:04:34.847 --> 00:04:37.648
+Yok yok, devam et tatlım.
+
+00:04:37.648 --> 00:04:39.984
+Ha, bu ilk soru mu?
+
+00:04:39.984 --> 00:04:43.258
+Fahişelik hakkında ne mi düşünüyorum?
+
+00:04:43.258 --> 00:04:46.599
+Beni ayartmaya mı çalışıyorsun, genç adam?
+
+00:04:47.483 --> 00:04:51.955
+Yaşlı-Genç aşk hikayelerini duydum da,
+sen kaç yaşındasın, 20 falan mı?
+
+00:04:53.102 --> 00:04:54.844
+18? 18 yaşında.
+
+00:04:54.844 --> 00:05:00.463
+Sanırım cüzdanımda 18 yaşından büyük
+şekerler var.
+
+00:05:00.463 --> 00:05:01.941
+(Gülüşmeler)
+
+00:05:04.281 --> 00:05:08.520
+Sana takılıyorum tatlım. 
+Hayır, her soruya açığım.
+
+00:05:09.940 --> 00:05:14.371
+Tabii. Fahişelik hakkında
+--seks işçiliği, seks işçiliği.
+
+00:05:15.951 --> 00:05:19.920
+Hayır, benim zamanımda fahişelik denirdi,
+seks işi değil.
+
+00:05:19.920 --> 00:05:22.666
+Aynı zamanda pornografi 
+içerdiği için mi?
+
+00:05:22.666 --> 00:05:24.477
+Tamam.
+
+00:05:24.477 --> 00:05:26.659
+Hayır, sanırım ben küçük bir kızken,
+
+00:05:26.659 --> 00:05:29.167
+onun için de bir isim yoktu.
+
+00:05:29.167 --> 00:05:34.902
+Sanırım onlara müstehcen dergiler veya
+müstehcen filmler derdik.
+
+00:05:34.902 --> 00:05:37.370
+Sizin internettekiler gibi değil tabii.
+
+00:05:38.130 --> 00:05:41.636
+Hayır, paylaşmamda bir sıkıntı yok.
+
+00:05:41.636 --> 00:05:46.628
+Rahmetli eşim ve ben,
+çok romantik bir çifttik.
+
+00:05:47.898 --> 00:05:50.714
+Çok sevecendik, anlarsın ya.
+
+00:05:51.794 --> 00:05:55.164
+Tabii yaşlandıkça, düşündüm ki
+erkeklerin aldığı
+
+00:05:55.164 --> 00:05:59.317
+bazı haplar eşime yardımcı olabilirdi,
+
+00:06:01.317 --> 00:06:04.413
+ama o bunlarla hiç ilgilenmedi,
+
+00:06:04.413 --> 00:06:10.474
+ama belki internetten yetişkin
+filmleri izleyebilirdik?
+
+00:06:10.474 --> 00:06:13.908
+Sadece ilham almak için, anlarsın ya.
+
+00:06:13.908 --> 00:06:18.086
+Ama o dönem ikimiz de bilgisayardan 
+pek anlamazdık
+
+00:06:18.906 --> 00:06:21.619
+genelde internetle ilgili bir şeyle yardım
+lazım olduğunda
+
+00:06:21.619 --> 00:06:26.597
+çocuklarımızı ya da torunlarımızı 
+çağırırdık,
+
+00:06:26.597 --> 00:06:30.163
+ama tabii ki, böyle bir durumda
+bu bir seçenek değildi.
+
+00:06:30.163 --> 00:06:34.988
+Sonra düşündüm, kendi kendime biraz
+kurcalamam gerekecekti.
+
+00:06:35.588 --> 00:06:38.127
+Ne kadar zor olabilirdi ki?
+
+00:06:38.127 --> 00:06:41.760
+Belli anahtar kelimeleri aratıp bakarsın --
+
+00:06:41.760 --> 00:06:43.955
+Evet, haklısın genç adam.
+
+00:06:43.955 --> 00:06:46.672
+Ne gördüğümü hayal bile edemezsin.
+
+00:06:46.672 --> 00:06:51.618
+Öncelikle, bilirsin, normalce
+sevişen çiftler
+
+00:06:51.618 --> 00:06:53.963
+bulmaya çalışıyordum.
+
+00:06:55.303 --> 00:06:59.791
+Fakat bu, aynı anda
+ikiden fazla kişi hep birlikte.
+
+00:06:59.791 --> 00:07:03.599
+Hangi uzuv hangi bedenin, ayırt edemezdin.
+
+00:07:03.599 --> 00:07:07.778
+Bunları nasıl çektiklerini anlatamıyorum.
+
+00:07:07.778 --> 00:07:13.058
+Sevişmek dışında her şey vardı.
+
+00:07:14.658 --> 00:07:18.878
+Bir sürü şey vardı.
+
+00:07:19.388 --> 00:07:23.497
+Ancak içinden aşk bölümü, 
+yani tüm eğlencesi alınmıştı.
+
+00:07:23.497 --> 00:07:27.421
+Hepsi çok aşırıydı, anlarsın ya.
+
+00:07:27.421 --> 00:07:29.929
+Ekstrem sporlarda olduğu gibi.
+
+00:07:31.149 --> 00:07:34.208
+Çok fazla dayanıklılık,
+
+00:07:34.778 --> 00:07:37.000
+ama sıfır hassasiyet.
+
+00:07:37.800 --> 00:07:44.116
+Sonuç olarak, bu asla geri
+alamayacağım bir 19.95 dolardı
+
+00:07:44.116 --> 00:07:48.945
+ama kredi kartında "eğlence hizmeti" 
+olarak gözüktü.
+
+00:07:48.945 --> 00:07:51.732
+Eşim de pek dahi değildir, böylece
+
+00:07:51.732 --> 00:07:54.083
+her şeyden sonra
+
+00:07:55.133 --> 00:07:57.572
+ortaya çıktı ki,
+
+00:07:57.572 --> 00:08:01.412
+eşimin ekstra ilhama ihtiyacı yokmuş.
+
+00:08:03.152 --> 00:08:06.734
+Evet, bir sonraki kişi genç bir kadın
+-- (Alkışlar) --
+
+00:08:07.924 --> 00:08:10.957
+Evet sınıf, sıradaki kişi 
+Bella adında genç bir kadın.
+
+00:08:10.957 --> 00:08:14.904
+Üniversite öğrencisi, 2016'da Körfez 
+Bölgesi'nde bir okuldaki
+
+00:08:14.904 --> 00:08:18.828
+seks işçiliği bölümünün
+Feminist Pornosuna Giriş
+
+00:08:18.828 --> 00:08:23.317
+dersi sırasında röportaj yapılmış.
+
+00:08:23.317 --> 00:08:26.672
+(Gülüşmeler)
+
+00:08:26.672 --> 00:08:29.439
+Sizin beni çektiğiniz gibi ben de
+
+00:08:29.439 --> 00:08:31.808
+sizi kayda almak istiyorum
+
+00:08:31.808 --> 00:08:33.897
+meta kaydı yapar gibi falan.
+
+00:08:34.887 --> 00:08:38.611
+Bu çok süper bir deneyim. Yani, gerçekten,
+
+00:08:38.611 --> 00:08:42.131
+ve bunu Instagram ve Tumblr'ım
+için çekmek istiyorum.
+
+00:08:42.131 --> 00:08:45.126
+Selam millet! Ben Bella,
+
+00:08:45.126 --> 00:08:48.633
+ve şuan benimle şu harika, 
+yani gerçekten harika
+
+00:08:49.723 --> 00:08:55.505
+Bio-Empatik Rezonans Teknolojisi için
+röportaj yapıyorlar.
+
+00:08:55.505 --> 00:09:01.780
+Gördüğünüz gibi, yani, temelde, bu 
+kaydedilen yer
+
+00:09:01.780 --> 00:09:03.702
+işte bunlardan, yani, şu elektrotlardan
+
+00:09:03.702 --> 00:09:09.040
+hipokampüsümde nöropeptit gibi
+bir şey üretiliyor veya her neyse.
+
+00:09:10.160 --> 00:09:12.920
+Daha sonradan bunları yeniden
+yapılandıracaklar
+
+00:09:12.920 --> 00:09:18.630
+yani, tıpkı benim kendi anılarım,
+kendi yaşadıklarımmış gibi
+
+00:09:18.630 --> 00:09:23.645
+böylece başka insanlar da gerçekten
+benim şuan ne hissettiğimi anlayabilecek.
+
+00:09:24.320 --> 00:09:26.572
+Tamam, tamam.
+
+00:09:26.572 --> 00:09:32.140
+Merhaba gelecekte beni deneyimleyen 
+BERT kişisi.
+
+00:09:32.750 --> 00:09:36.557
+Üniversite birinci sınıf olmak böyle
+bir his
+
+00:09:36.557 --> 00:09:41.781
+ve bir de, yani, şu benim aracılığımla 
+deneyimledğin bu baş ağrısı
+
+00:09:41.781 --> 00:09:48.200
+dün gece içtiğim Jell-O şatların
+yan etkisi,
+
+00:09:48.200 --> 00:09:51.115
+Çarşambaları yarı-haftalık feminist 
+direk dansı partisi
+
+00:09:51.115 --> 00:09:54.157
+düzenliyorum da.
+
+00:09:54.157 --> 00:09:57.779
+Biz ona "Pole(direk)miğe Girme" diyoruz
+(Gülüşmeler)
+
+00:09:57.779 --> 00:10:01.122
+Beekman Salonu'nda oluyor
+
+00:10:02.072 --> 00:10:04.250
+ve başka,
+
+00:10:04.250 --> 00:10:08.297
+veganlar için jöle olmayan
+Jell-O şatlar da var
+
+00:10:08.297 --> 00:10:16.540
+ve evet, evet kesinlikle! Sizin
+sorularınıza da yoğunlaşmalıyız.
+
+00:10:16.890 --> 00:10:22.182
+Evet, kayıtlara geçsin, ben, yani, 
+seks işçiliği okuyorum
+
+00:10:22.182 --> 00:10:24.457
+sosyal medya konusunda da yan dal
+yapıyorum,
+
+00:10:24.457 --> 00:10:27.151
+Youtube meme'lerine ağırlık veriyorum
+genelde.
+
+00:10:27.151 --> 00:10:29.289
+(Gülüşmeler)
+
+00:10:30.239 --> 00:10:33.490
+Evet, tabi, kendimi şey gibi
+görüyorum
+
+00:10:33.490 --> 00:10:35.579
+tabi, kesinlikle, bir feminist.
+
+00:10:35.579 --> 00:10:40.571
+İsmimi Bella Abzug'dan almışım. 
+Şu ünlü, yani,
+
+00:10:40.571 --> 00:10:42.986
+tarihteki ünlü şey, feminist.
+
+00:10:42.986 --> 00:10:49.255
+Ve şey, seks yanlısı feminist olan kadınları
+
+00:10:49.255 --> 00:10:52.945
+temsil etmenin çok önemli 
+olduğunu düşünüyorum.
+
+00:10:54.224 --> 00:10:56.941
+Seks karşıtlığı ne midir?
+
+00:10:56.941 --> 00:11:01.399
+Şey, yani bence,
+sen ne olduğunu düşünüyorsun diye
+
+00:11:01.399 --> 00:11:04.417
+ben sana sormalıyım. (Gülüşmeler)
+
+00:11:04.417 --> 00:11:09.314
+Evet, çünkü, yani, kullandığımız 
+terimler çok önemli, çünkü şey,
+
+00:11:09.314 --> 00:11:16.352
+buna seks işçiliği diyoruz çünkü 
+bu insanların
+
+00:11:16.352 --> 00:11:21.228
+bunun bir iş olduğunu anlamasına yardımcı
+oluyor, yani sağlık sağlayıcıları
+
+00:11:21.228 --> 00:11:23.712
+sigorta sağlayıcıları olduğu gibi.
+Biz de bu
+
+00:11:23.712 --> 00:11:29.401
+çalışanları seks sağlayıcılar
+olarak düşünüyoruz.
+
+00:11:30.511 --> 00:11:34.184
+Yani, evet. Ama ben kendimi birebir
+
+00:11:34.184 --> 00:11:38.433
+seks bakım servisi sağlayıcısı gibi 
+düşünmüyorum. Yani, benim
+
+00:11:38.433 --> 00:11:40.894
+için bir zorunluluk.. 
+Tıpkı avukat olmak gibi.
+
+00:11:40.894 --> 00:11:44.563
+Yani.. Kadınların bağımsız seçim 
+haklarını destekliyorum.
+
+00:11:44.563 --> 00:11:46.676
+yani tabi bundan memnunlarsa.
+
+00:11:46.676 --> 00:11:49.509
+Yani evet.. Ama ben, daha ileriye giderek
+
+00:11:49.509 --> 00:11:53.247
+seks işçilerinin yasal hak ve
+özgürlüklerini de
+
+00:11:53.247 --> 00:11:56.288
+koruduğumu düşünüyorum.
+
+00:11:56.288 --> 00:12:00.213
+Yani, evet... Temelde bir avukat 
+olmayı planlıyorum
+
+00:12:02.133 --> 00:12:03.835
+Evet, sınıf. (Kahkaha) (Alkış)
+
+00:12:03.835 --> 00:12:07.921
+Kalan iki modül de yaklaşık olarak 
+2016'da geçiyor
+
+00:12:07.921 --> 00:12:11.915
+Kişilerden biri bu konuyla özellikle 
+ilgili olan
+
+00:12:11.915 --> 00:12:14.847
+İrlandalı bir kadın.
+
+00:12:14.847 --> 00:12:18.509
+Ama önce Hindistan'ın batısından
+bir kadın,
+
+00:12:18.509 --> 00:12:20.831
+seks işçileri hakları için mitinglerde
+kayda
+
+00:12:20.831 --> 00:12:26.241
+alınmış, kendini eskort olarak tanımlayan
+bir kadın.
+
+00:12:26.241 --> 00:12:30.792
+Kendisiyle röportaj yapılırken üzerinde
+baş aksesuarı
+
+00:12:30.792 --> 00:12:33.460
+ve çok az sayılabilecek kıyafet vardı.
+
+00:12:36.295 --> 00:12:38.379
+Tamam, şimdi hepiniz
+konuşmaya başlamamı
+
+00:12:38.379 --> 00:12:41.509
+istiyorsunuz. Evet, size söylemiştim
+Yolu tıkamadıkları sürece, o
+
+00:12:41.509 --> 00:12:44.536
+kabloları istediğiniz yere 
+koyabilirsiniz.
+
+00:12:45.164 --> 00:12:50.069
+Evet, hayır, bir daha söyle.. 
+ne dedin? BERT? BERT.
+
+00:12:50.069 --> 00:12:53.108
+Evet, diyordum ki..
+Sanırım tüm hayatım boyunca
+
+00:12:53.108 --> 00:12:56.797
+BERT isimli en az bir müşterim oldu.. 
+Yani bu benim için ilk
+
+00:12:56.797 --> 00:12:59.396
+üstümde başımda, her yerimde BERT vardı.
+
+00:13:03.905 --> 00:13:05.218
+Ahh.. Kusura bakma
+
+00:13:05.218 --> 00:13:08.670
+ama eğer benimle röportaj yapacaksan
+havaya girmen lazım.
+
+00:13:08.670 --> 00:13:10.536
+Tamam mı? Söyleyebilirsin.
+
+00:13:10.536 --> 00:13:12.934
+Adalet yoksa, barış yok!
+Adalet yoksa, barış yok!
+
+00:13:12.934 --> 00:13:18.878
+Ama işareti görüyor musun? Anladın mı? Ada-
+let yoksa bizden bir parça bile alamazsın
+
+00:13:18.878 --> 00:13:20.790
+Anlıyor musun?
+
+00:13:20.790 --> 00:13:23.244
+Tamam, işte burası sana söylediğim yer.
+
+00:13:23.244 --> 00:13:27.609
+Ülkeye ilk geldiğimde, 
+bulabildiğim her işte çalıştım.
+
+00:13:27.609 --> 00:13:32.299
+Çocuk bakıcılığı yaptım. Tüm o değişik
+yaşlı insanlara bakıcılık yaptım.
+
+00:13:32.299 --> 00:13:36.422
+Ve sonra kendime, bak kızım, başka bir be-
+yaz erkeğin arkasına dokunmam gerekecekse
+
+00:13:36.422 --> 00:13:39.381
+bundan daha çok para kazanabilirim.
+
+00:13:39.381 --> 00:13:41.285
+Anlıyor musun?
+
+00:13:41.285 --> 00:13:44.350
+Öf, evlerde hizmetçi olarak çalışmak ne
+kadar zor biliyor musun?
+
+00:13:44.980 --> 00:13:46.729
+Adamlardan bazıları çok ağır.
+
+00:13:46.729 --> 00:13:49.528
+Onları kaldırıp ters çevirmen gerek.
+
+00:13:49.528 --> 00:13:53.986
+Şimdi onların beni kaldırıp ters çevirme-
+sine izin veriyorum, anlıyor musun?
+
+00:13:53.986 --> 00:13:57.399
+Bu konuda biraz espri anlayışının olması
+gerkekiyor bence.
+
+00:13:57.399 --> 00:13:59.349
+Hayır, ama dinle,
+
+00:13:59.349 --> 00:14:02.739
+bana işinin bir kısmından nefret etmeyen
+bir kişi bul.
+
+00:14:02.739 --> 00:14:05.502
+Yani, bu işle ilgili nefret ettiğim 
+pek çok şey var
+
+00:14:05.502 --> 00:14:07.072
+ama para bunlardan biri değil
+
+00:14:07.072 --> 00:14:09.891
+ve sana söylüyorum, 
+bu gerçek para kazanmam için
+
+00:14:09.891 --> 00:14:11.655
+elimdeki en iyi seçenek oldukça
+
+00:14:11.655 --> 00:14:15.811
+Jamaica-No-Fakin' olmaya devam edeceğim,
+bana takmak istedikleri isim buysa.
+
+00:14:15.811 --> 00:14:19.318
+Hayır, Jamaikalı bile değilim. 
+Bu beni pazarlama yöntemleri.
+
+00:14:19.318 --> 00:14:22.545
+Ailem Trinidad ve Virgin Adaları'ndan.
+
+00:14:23.495 --> 00:14:25.711
+Benim ne iş yaptığımı bilmiyorlar
+ama
+
+00:14:25.711 --> 00:14:28.977
+çocuklarım okul paralarının 
+ödendiğini biliyorlar,
+
+00:14:28.977 --> 00:14:31.484
+kitapları ve bilgisayarları var
+
+00:14:31.484 --> 00:14:34.456
+ve bu şekilde biliyorum ki,
+onların da bir şansı var.
+
+00:14:34.456 --> 00:14:37.266
+Bu yüzden sana yaptığım şeyin
+kolay olduğunu söylemeyeceğim
+
+00:14:37.266 --> 00:14:40.818
+Sana -ne demiştin?- azat edilmiş
+hissettiğimi söylemeyeceğim.
+
+00:14:42.128 --> 00:14:44.920
+Ama sana ödenmiş hissettiğimi
+söyleyeceğim.
+
+00:14:46.120 --> 00:14:49.129
+Doğru. (Alkış)
+
+00:14:50.872 --> 00:14:53.496
+Teşekkürler, bu çok şeker,
+sadece bir bardak çay, aşkım,
+
+00:14:53.496 --> 00:14:55.470
+ve tatlım sadece bir damla viski.
+
+00:14:55.470 --> 00:15:00.200
+Mükemmel, çok iyi.
+Bir damla daha, bir damla. Harika.
+
+00:15:00.200 --> 00:15:03.550
+Adın ne demiştin ? Peter?
+Doğru mu, Peter?
+
+00:15:03.550 --> 00:15:06.708
+Evet. İşte benim için özel olan kısmı bu,
+evet.,
+
+00:15:06.708 --> 00:15:09.401
+sonunda hem manastırda
+
+00:15:10.681 --> 00:15:14.550
+hem de fuhuşta bulundum. Bu doğru.
+
+00:15:14.550 --> 00:15:16.160
+(Kahkaha)
+
+00:15:16.160 --> 00:15:20.120
+Burada, Dublin'de üniversiteden bir kadın 
+benim hakkımda yazmış.
+
+00:15:20.120 --> 00:15:25.820
+Demiş ki, Maureen Fitzroy orospu-bakire
+ikiliğinin can bulmuş hali.
+
+00:15:25.820 --> 00:15:27.341
+Değil mi ? (Kahkaha)
+
+00:15:27.341 --> 00:15:30.359
+Sana da hastaneye gitmeni gerektiren bir
+şey gibi gelmiyor mu?
+
+00:15:30.359 --> 00:15:32.248
+Şey.. Korkunç bir ikiliğim var da...
+
+00:15:32.248 --> 00:15:33.411
+Değil mi?
+
+00:15:33.781 --> 00:15:37.119
+Evet. Ve küçük bir kız iken 
+babamla başladı bu.
+
+00:15:37.119 --> 00:15:40.394
+Yani, bazen bizimle konuştuğunda
+bize yalnızca
+
+00:15:40.394 --> 00:15:44.856
+kokmuş, işe yaramaz aptallar olduğumuz ve
+hiç terbiyemiz olmadığı gibi şeyler derdi.
+
+00:15:44.856 --> 00:15:48.177
+Ve ben de kendime kesinlikle iyilik
+yapmazdım.
+
+00:15:48.177 --> 00:15:50.406
+16 yaşıma geldiğimde,
+
+00:15:50.406 --> 00:15:53.285
+benden büyük bir delikanlıyla
+takılmaya başladım.
+
+00:15:53.285 --> 00:15:56.837
+O bunun bizim küçük sırrımız olmasını
+istedi
+
+00:15:56.837 --> 00:15:59.345
+ve ben de söylenileni yaptım,
+yapmaz mıyım?
+
+00:15:59.345 --> 00:16:05.452
+Sonra babam öğrendiğinde, beni
+direk olarak bir manastıra yolladı.
+
+00:16:06.752 --> 00:16:10.420
+Ama hayır, o delikanlı beni gelip
+manastırda bulurdu.
+
+00:16:11.170 --> 00:16:12.766
+Evet, buluşabilmemiz için hayır
+
+00:16:12.766 --> 00:16:16.001
+kurumu mağazasının tuğlalarının arasındaki
+deliklere sıkıştırılmış
+
+00:16:16.001 --> 00:16:17.188
+notlar bırakırdı.
+
+00:16:17.188 --> 00:16:20.915
+Ve bana karısını bırakacağını
+falan söylerdi,
+
+00:16:20.915 --> 00:16:25.141
+ben de ona inandım, ta ki hamile kalana
+kadar.
+
+00:16:25.141 --> 00:16:30.458
+Evet, hamile kaldım, Peter, ve oradaki
+özel yerimizde ona bununla ilgili bir not
+
+00:16:30.458 --> 00:16:33.477
+bıraktım, ve bir daha ondan
+haber almadım.
+
+00:16:33.477 --> 00:16:38.490
+Hayır, iyi bir hayatı olabilmesi için
+onu evlatlık olarak bıraktım
+
+00:16:39.070 --> 00:16:41.675
+ve sonra beni manastıra geri almadılar.
+
+00:16:42.815 --> 00:16:46.273
+Hayır, Virginia'daki kız kardeşim
+Dublin'e giden otobüse binmem için
+
+00:16:46.273 --> 00:16:48.221
+bir beşlik verdi ve işte buraya geldim.
+
+00:16:48.991 --> 00:16:53.120
+Sürpriz, sürpriz! Benden bayağı büyük
+birisine daha aşık oldum
+
+00:16:53.120 --> 00:16:58.159
+ve her zaman söylerim, içki içmediği için
+o kadar mutluydum ki
+
+00:16:59.349 --> 00:17:01.502
+alçak herifle evlendim.
+
+00:17:02.502 --> 00:17:06.184
+İçki içmiyordu ama minicik bir eroin
+problemi vardı tabii, olmaz mı,
+
+00:17:06.184 --> 00:17:09.279
+ve --Bu doğru, ve ben daha ne olup 
+bittiğini
+
+00:17:09.279 --> 00:17:12.903
+anlayamadan beni fuhuşa sürükleyen oydu,
+kendi kocam.
+
+00:17:13.703 --> 00:17:15.771
+Benim üzerimden ikimizi birden
+geçindiriyor-
+
+00:17:15.771 --> 00:17:17.314
+du. 18 yaşındaydım.
+
+00:17:18.144 --> 00:17:21.089
+"Özel Bir Kadın" filmi değildi,
+o kadarını söyleyebilirim.
+
+00:17:22.509 --> 00:17:24.356
+O Julia Roberts
+
+00:17:25.566 --> 00:17:29.569
+cebine birkaç kuruş koyabilmek için bir
+adamla yatmak zorunda kalsaydı,
+
+00:17:29.569 --> 00:17:32.110
+o filmi kesinlikle yapmazdı.
+
+00:17:32.110 --> 00:17:34.339
+Kayıtlarına geçsin,
+
+00:17:34.339 --> 00:17:37.520
+yasallaştırmaya karşı olduğumu
+söyleyebilirim.
+
+00:17:38.620 --> 00:17:40.864
+Yani bu genç kızların ne dediği
+umrumda değil.
+
+00:17:40.864 --> 00:17:43.975
+O şekilde yaşarken kayıpsın,
+
+00:17:43.975 --> 00:17:46.483
+ve ben 63 yaşındayım.
+
+00:17:46.483 --> 00:17:48.523
+Hala kim olduğumu bulmaya çalışıyorum.
+
+00:17:49.503 --> 00:17:53.240
+Yani hiçbir zaman bir eş ya da rahibe
+olmadım,
+
+00:17:53.240 --> 00:17:56.560
+ya da bir fahişe bile, evet, pek değil.
+
+00:17:56.560 --> 00:17:59.648
+Kimse bana kim olmak istediğim sormadı.
+
+00:17:59.648 --> 00:18:01.482
+Sadece söylediler,
+
+00:18:01.482 --> 00:18:03.433
+ve eğer bu yasallaşırsa
+
+00:18:03.433 --> 00:18:07.264
+o zaman bu kızlara şunu demiş oluyorsunuz:
+"Hadi, ekmek parası için kendinizi
+
+00:18:07.264 --> 00:18:09.872
+kaybedin!". Ve çoğu
+kendilerine denileni yapacaktır.
+
+00:18:10.612 --> 00:18:15.669
+Pekala, dört epeyce değişik sesten
+dört -- (Alkış) --
+
+00:18:15.669 --> 00:18:17.829
+dört bakış açısı, değil mi?
+
+00:18:17.829 --> 00:18:22.146
+Seksin başlı başına doğal olduğunu ama
+seks endüstrisinin onu mekanikleştirip
+
+00:18:22.786 --> 00:18:24.794
+endüstriyelleştirdiğini söyleyen
+bir kadın.
+
+00:18:24.794 --> 00:18:29.162
+Sonra seks işinin güç verici, özgürleş-
+tirici ve feminist olduğunu
+
+00:18:29.162 --> 00:18:32.991
+düşünen ikinci kadın, kendisi 
+açıkça
+
+00:18:32.991 --> 00:18:35.568
+bunu yapmaya pek hevesli olmasa da.
+
+00:18:35.568 --> 00:18:39.995
+Sözüm ona gerçek bir seks işçisi olan
+üçüncü kadın
+
+00:18:39.995 --> 00:18:43.340
+bunun özgürleştirici olduğuna katılmadı
+ama ekonomik güce sahip
+
+00:18:43.340 --> 00:18:45.100
+olma hakkını istiyordu
+
+00:18:45.100 --> 00:18:48.412
+ve sonra fuhuşun yalnızca kadınlara
+genel roller vermekle kalmadığını,
+
+00:18:48.412 --> 00:18:50.938
+ayrıca onun kim olduğunu bulmasını
+
+00:18:50.938 --> 00:18:54.398
+engellediğini söyleyen dördüncü
+kadını duyduk, değil mi?
+
+00:18:54.398 --> 00:18:56.395
+Birçok insanın bilmediği gerçeklik,
+
+00:18:56.395 --> 00:19:02.080
+seks endüstrisine sokulma riskinde
+bulunan kızların ortalama
+
+00:19:02.080 --> 00:19:04.110
+12 ya da 13 yaşında olduklarıydı.
+
+00:19:04.110 --> 00:19:07.146
+O toplumdaki tüm kızların
+kadınların cinselleştirilmiş
+
+00:19:07.146 --> 00:19:10.791
+görsellerine ilk maruz kaldıkları
+zamanın da bir hayli
+
+00:19:10.791 --> 00:19:13.345
+erken olduğunu göz önünde
+bulundurun, öyle değil mi?
+
+00:19:13.345 --> 00:19:18.105
+Bu bebeğin adı Barbie'ydi, değil mi?
+
+00:19:18.105 --> 00:19:21.692
+Başta, onu anoreksiyi önlemek 
+için bir araç sanmıştım --
+
+00:19:21.692 --> 00:19:22.842
+(Kahkaha) --
+
+00:19:22.842 --> 00:19:26.209
+ama aslında birçok insan tarafından
+
+00:19:26.209 --> 00:19:30.272
+kadınlığın ahlaka uygun bir sembolü
+olarak algılandı,
+
+00:19:30.272 --> 00:19:33.615
+ve genç kızlar diyet denilen bir şey
+yapmaya başladı.
+
+00:19:33.615 --> 00:19:37.854
+Bunu hatırladınız mı? Bu, 6 yaşından
+itibaren
+
+00:19:37.854 --> 00:19:39.234
+yenilen yemek miktarını
+
+00:19:39.234 --> 00:19:42.061
+kasıtlıca azaltmak ve aynı zamanlarda
+kendilerini çekicilik-
+
+00:19:42.061 --> 00:19:43.901
+lerine göre tanımlamaktı,
+değil mi?
+
+00:19:43.901 --> 00:19:45.112
+Doğru mu?
+
+00:19:45.712 --> 00:19:47.756
+Doğru, Bradley, tamam, harika bir nokta.
+
+00:19:47.756 --> 00:19:52.585
+Yani bu toplumda, bütün insanları bir
+seks hayatına sahip olmaları için belirli
+
+00:19:52.585 --> 00:19:56.463
+bir şekilde gözükmeleri gerektiğine ikna
+eden karlı bir piyasa vardı, değil mi?
+
+00:19:56.463 --> 00:20:01.618
+Ama özellikle kızların "kaşar" olarak
+algılanmaktan sakınarak
+
+00:20:01.618 --> 00:20:04.970
+"seksi" olmaları bekleniyordu.
+
+00:20:04.970 --> 00:20:07.237
+İşte önceden duyduğumuz
+utanç kısmı bu.
+
+00:20:07.237 --> 00:20:08.839
+Evet.
+
+00:20:08.839 --> 00:20:10.696
+Valerie, değil mi? Tamam, çok iyi.
+
+00:20:10.696 --> 00:20:13.506
+Tabii ki erkekler de seks yapıyordu,
+
+00:20:13.506 --> 00:20:15.944
+ama okumadan hatırlarsınız,
+
+00:20:15.944 --> 00:20:17.625
+erkek kaşarlara ne deniyordu?
+
+00:20:18.675 --> 00:20:20.541
+Çok iyi, onlara sadece erkek deniyordu.
+
+00:20:20.541 --> 00:20:22.747
+(Kahkaha) (Alkış)
+
+00:20:22.747 --> 00:20:28.319
+Yani böyle bir dünyada yaşamak kolay
+değil, değil mi?
+
+00:20:28.859 --> 00:20:30.711
+Ama sırf kötü haber de değildi yani.
+
+00:20:30.711 --> 00:20:34.217
+2000lerde birçok kadın kendilerini
+güçlü olarak değerlendiriyordu
+
+00:20:34.217 --> 00:20:38.450
+ve erkekler de genelde bu alanda evrim
+geçirdiklerini düşünüyordu
+
+00:20:38.450 --> 00:20:41.300
+ve aslına bakarsanız birçok kişi, örneğin
+köle ticareti gibi
+
+00:20:41.300 --> 00:20:43.235
+konulardan haberdardı
+
+00:20:43.235 --> 00:20:45.636
+ama bunu dinlenme amaçlı
+yetişkin eğlencesinden
+
+00:20:45.636 --> 00:20:48.427
+farklı algılarlardı.
+
+00:20:48.427 --> 00:20:51.850
+Sınıf şimdi kısaca, --çok vaktimiz yok--
+
+00:20:51.850 --> 00:20:54.065
+kısaca konumuzla ilgili
+
+00:20:54.065 --> 00:20:55.839
+bir erkeği dinleyeceğiz.
+
+00:20:55.839 --> 00:21:01.474
+Bu adamın röportajı, bekarlığa
+veda partisinin gecesinde yapıldı.
+
+00:21:03.426 --> 00:21:06.979
+Adamım, biraz şey yapar mısın, neyse,
+biraz sessiz olur musun ya?
+
+00:21:06.979 --> 00:21:09.185
+Şu an BERT ile konuşmaya çalışıyorum.
+
+00:21:09.185 --> 00:21:10.778
+Haa, ismin BERT değil.
+
+00:21:11.298 --> 00:21:13.573
+BERT şeyin ismi, haa, anladım.
+
+00:21:13.573 --> 00:21:16.638
+Yoo, yoo, yoo! Tabiki olur.
+Büyük oranda ayığım
+
+00:21:16.638 --> 00:21:19.473
+ve yardımcı olmak istiyorum.
+
+00:21:20.073 --> 00:21:23.892
+Ve kesinlikle böyle amaçlara filan,
+böyle şeylere inanıyorum.
+
+00:21:23.892 --> 00:21:25.332
+(Kahkaha)
+
+00:21:25.332 --> 00:21:27.714
+Ve aslına bakarsanız şu an Toms giyiyorum.
+
+00:21:28.954 --> 00:21:32.560
+Evet, Toms, ayakkabı olanlar, hani şey bir
+çift
+
+00:21:32.560 --> 00:21:35.887
+satın alıyorsunuz sonra Afrika'da
+bir çocuk temiz su alıyor falan.
+
+00:21:36.857 --> 00:21:38.394
+Evet ya. Kesinlikle.
+
+00:21:38.394 --> 00:21:41.181
+Soruyu tekrar alabilir miyim?
+Kusura bakmayın.
+
+00:21:41.181 --> 00:21:45.889
+Tabii ki kadın haklarına inanıyorum.
+Bir kadınla evleniyorum!
+
+00:21:45.889 --> 00:21:48.389
+(Kahkaha)
+
+00:21:48.389 --> 00:21:52.018
+Hayır, yani demek istediğim, sadece
+bir striptiz kulübünün park yerinde olmam
+
+00:21:52.018 --> 00:21:55.042
+seksist falan olduğumu göstermez.
+
+00:21:55.042 --> 00:21:59.454
+Nişanlım müthiştir, yani kesinlikle
+güçlü bir kız, kadındır
+
+00:21:59.454 --> 00:22:01.949
+akıllı bir kadın, yani, tamamen. Evet,
+
+00:22:01.949 --> 00:22:05.518
+burada olduğumu biliyor. O da şimdi
+muhtemelen bir striptiz kulübündedir,
+
+00:22:05.518 --> 00:22:07.510
+yani bir şaka olarak, aynı benim gibi.
+
+00:22:07.510 --> 00:22:09.602
+Sağdıcıma dedim ki beni
+şaşırtabilirsin
+
+00:22:09.602 --> 00:22:11.597
+ve o bunun çok komik
+olacağını düşünmüş,
+
+00:22:11.597 --> 00:22:13.700
+ama bu bir şey değil.
+
+00:22:14.350 --> 00:22:16.720
+Evet hepimiz birlikte
+işletme fakültesinde okuduk.
+
+00:22:17.060 --> 00:22:18.540
+Wharton.
+
+00:22:18.540 --> 00:22:19.724
+(Kahkaha)
+
+00:22:19.724 --> 00:22:22.171
+Evet, adamım, arkadaşlar ya biraz--
+
+00:22:22.171 --> 00:22:24.087
+Pekala, ama bu benim bekarlığa
+veda
+
+00:22:24.087 --> 00:22:27.595
+partim ve istersem Anderson Cooper'la
+park yerinde konuşarak geçiririm.
+
+00:22:27.595 --> 00:22:30.266
+Tamam, içerde görüşürüz.
+
+00:22:31.076 --> 00:22:33.214
+Pekala, tamam, ee Anderson,
+
+00:22:33.214 --> 00:22:37.111
+yani ilk olarak striptiz,
+
+00:22:37.111 --> 00:22:39.895
+ama sonra söylediğin tüm o
+diğer şeyler
+
+00:22:39.895 --> 00:22:43.403
+fuhuş ve bütün diğer o şeyler,
+yani hiç aynı şey değil.
+
+00:22:43.403 --> 00:22:46.659
+Anlarsın ya? Yani sürekli
+seks endüstrisi falan diyip duruyorsun da
+
+00:22:46.659 --> 00:22:50.605
+bir kız egzotik bir dansçı olmak istiyorsa
+
+00:22:50.605 --> 00:22:54.072
+ve 18 yaşındaysa, bu onun hakkı.
+
+00:22:55.092 --> 00:22:58.340
+Oo dur bir dakika, ne dediğini
+anlıyorum ama bence insanlar
+
+00:22:58.340 --> 00:23:01.976
+bütün erkekleri birer yırtıcı avcı gibi
+göstermek istiyorlar,
+
+00:23:01.976 --> 00:23:05.114
+sanki otomatikman bir fahişeye
+gidermişiz falan gibi.
+
+00:23:05.114 --> 00:23:09.410
+Yani üniversitedeki erkek kardeşlik
+evine girme çabalarımda bile.
+
+00:23:10.350 --> 00:23:13.337
+Yakın olduğum kardeşlerim, bu adamlar,
+hepsi benim gibiler.
+
+00:23:13.337 --> 00:23:17.290
+Biz sadece normal insanlarız, ama sanki
+bir lavuk, yani tüm kankalar
+
+00:23:17.290 --> 00:23:21.928
+kaşarlardan önce gelir havasında bir
+erkek olmanız gerektiği gibi mitler var.
+
+00:23:21.928 --> 00:23:25.643
+Aslında kaşarlardan önce kankalar bana
+duyulduğu gibi bir anlam ifade etmiyor.
+
+00:23:26.603 --> 00:23:30.380
+Aslında sadece kankalarına değer verdiğini
+ve onlara öncelik verdiğini söyleyen
+
+00:23:30.380 --> 00:23:32.516
+bir tür şaka.
+
+00:23:33.466 --> 00:23:35.576
+Evet, ama medyayı da suçlayamazsın.
+
+00:23:35.576 --> 00:23:38.110
+Demek istediğim, yani gidip "Felekten Bir
+Gece 2"yi
+
+00:23:38.110 --> 00:23:40.264
+izleyip hayatın için bir kullanım kılavuzu
+
+00:23:40.264 --> 00:23:42.800
+kabul edersen, e o zaman sana
+diyecek bir şeyim yok.
+
+00:23:42.800 --> 00:23:44.862
+Anladın mı? "Geçmişi Olmayan Adam"ı
+izleyip
+
+00:23:44.862 --> 00:23:49.106
+arabanı Viyana'da bir gondolmuş
+gibi kullanmazsın.
+
+00:23:49.736 --> 00:23:52.672
+Tabii, evet, tamam, yani eğer küçük
+bir çocuk falansan
+
+00:23:52.672 --> 00:23:54.876
+tabii ki durum farklı ama--
+
+00:23:54.876 --> 00:23:58.570
+Evet, pekala, öyle bir şey
+hatırlıyorum.
+
+00:23:59.380 --> 00:24:02.480
+Bir keresinde bir çocuğun evinde
+GTA oynuyordum,
+
+00:24:03.280 --> 00:24:04.510
+ıım, Grand Theft Auto?
+
+00:24:05.417 --> 00:24:08.123
+Adamım, sen Kanadalı mısın?
+
+00:24:09.593 --> 00:24:12.986
+Her neyse, Grand Theft Auto'da
+
+00:24:12.986 --> 00:24:16.160
+sen bir adamsın ve
+etrafta yürürken
+
+00:24:16.160 --> 00:24:19.092
+yani basitçe, ne kadar çok polis
+öldürürsen
+
+00:24:19.092 --> 00:24:21.763
+o kadar çok puan alıyorsun,
+bunun gibi şeyler.
+
+00:24:21.763 --> 00:24:24.601
+Aynı zamanda fahişeler de
+bulabilirsin
+
+00:24:24.601 --> 00:24:27.798
+ve tabii onlarla cinsel şeyler
+yaşayabilirsin ama
+
+00:24:27.798 --> 00:24:31.655
+onları öldürüp paranı geri de alabilirsin.
+
+00:24:32.525 --> 00:24:36.466
+Evet, bu çocuk, hatırlıyorum, birkaç
+fahişeyi arabasıyla ezmiş
+
+00:24:36.466 --> 00:24:39.320
+ve tüm bu puanları almıştı.
+
+00:24:39.320 --> 00:24:41.755
+Sanırım 10 yaşında falandık.
+
+00:24:43.685 --> 00:24:45.777
+Açıkçası baya kötü hissetmiştim.
+
+00:24:46.827 --> 00:24:52.215
+Hayır, bir şey dediğimi sanmıyorum,
+oyunu bitirip eve döndüm.
+
+00:24:52.845 --> 00:24:55.770
+Tamam sınıf, bir de bu konuya tesadüfiden
+daha fazla
+
+00:24:55.770 --> 00:24:58.135
+bağlantılı olan adamlar vardı.
+(Kahkaha)
+
+00:24:59.955 --> 00:25:04.880
+Bir sonraki kişi kendini düzelmiş ve
+pişman bir eski pezevenk olarak tanımladı;
+
+00:25:04.880 --> 00:25:06.526
+şu an motive edici bir
+
+00:25:06.526 --> 00:25:08.964
+konuşmacı, yaşam koçu ve terapist.
+
+00:25:08.964 --> 00:25:12.934
+Ama eğer onunla ilgili daha çok şey bilmek
+istiyorsanız, tüm oyuna gelmeniz gerek.
+
+00:25:12.934 --> 00:25:16.920
+Siz güzel TED seyircilerine çok
+teşekkür ederim.
+
+00:25:16.920 --> 00:25:18.716
+"Al/Sat/Eskit"te görüşürüz.
+
+00:25:18.716 --> 00:25:24.287
+(Alkış)
+

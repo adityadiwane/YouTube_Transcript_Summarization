@@ -1,0 +1,1175 @@
+WEBVTT
+Kind: captions
+Language: pl
+
+00:00:00.000 --> 00:00:07.000
+Tłumaczenie: Marcin Krzaczkowski
+Korekta: Krystian Aparta
+
+00:00:25.000 --> 00:00:29.000
+W 1962 roku Charles Van Doren, późniejszy redaktor naczelny Britanniki,
+
+00:00:29.000 --> 00:00:33.000
+powiedział, że idealna encyklopedia powinna być radykalna: nie powinna być ostrożna.
+
+00:00:33.000 --> 00:00:36.000
+Ale jeśli wiecie cokolwiek o historii Britanniki od 1962,
+
+00:00:36.000 --> 00:00:38.000
+na pewno nie można jej nazwać radykalną:
+
+00:00:38.000 --> 00:00:43.000
+dalej jest bardzo ostrożną, konwencjonalną i nudną encyklopedią.
+
+00:00:43.000 --> 00:00:48.000
+Wikipedia, z drugiej strony, zaczęła się od bardzo radykalnego pomysłu:
+
+00:00:48.000 --> 00:00:50.000
+spróbujcie sobie wyobrazić świat,
+
+00:00:50.000 --> 00:00:52.000
+w którym każda osoba na Ziemi
+
+00:00:52.000 --> 00:00:55.000
+ma wolny dostęp do sumy całej ludzkiej wiedzy.
+
+00:00:55.000 --> 00:00:57.000
+Do tego właśnie dążymy. Więc Wikipedia...
+
+00:00:58.000 --> 00:01:00.000
+właśnie widzieliście krótką prezentację...
+
+00:01:00.000 --> 00:01:04.000
+to encyklopedia na wolnej licencji. Tworzą ją tysiące ochotników
+
+00:01:04.000 --> 00:01:06.000
+z całego świata, w bardzo wielu językach.
+
+00:01:06.000 --> 00:01:08.000
+Jest pisana przy użyciu oprogramowania Wiki,
+
+00:01:08.000 --> 00:01:11.000
+czyli oprogramowania, którego demonstrację przed chwilą widzieliście.
+
+00:01:11.000 --> 00:01:13.000
+Każdy może szybko coś zmienić i zapisać to,
+
+00:01:13.000 --> 00:01:16.000
+a tekst będzie natychmiast dostępny w Internecie.
+
+00:01:16.000 --> 00:01:21.000
+Wszystko w Wikipedii jest zarządzane przez zespół całkowicie ochotniczy.
+
+00:01:21.000 --> 00:01:25.000
+Kiedy Yochai opowiadał o nowych metodach organizacji,
+
+00:01:25.000 --> 00:01:29.000
+podał dokładnie opis działania Wikipedii. Natomiast ja zamierzam dzisiaj
+
+00:01:29.000 --> 00:01:33.000
+opowiedzieć wam trochę obszerniej, jak to działa od środka.
+
+00:01:33.000 --> 00:01:38.000
+Właścicielem Wikipedii jest Fundacja Wikimedia, którą założyłem.
+
+00:01:38.000 --> 00:01:43.000
+Jest to organizacja non-profit. Naszym głównym celem w Fundacji Wikimedia
+
+00:01:43.000 --> 00:01:46.000
+jest udostępnianie wolnej encyklopedii wszystkim ludziom na świecie.
+
+00:01:46.000 --> 00:01:48.000
+Zastanówmy się, co to naprawdę oznacza.
+
+00:01:48.000 --> 00:01:51.000
+To o wiele więcej, niż tylko zrobienie fajnej witryny www.
+
+00:01:51.000 --> 00:01:55.000
+Naprawdę interesują nas kwestie wykluczenia cyfrowego, biedy na świecie,
+
+00:01:55.000 --> 00:01:59.000
+udostępnianie ludziom z całego świata informacji, których potrzebują,
+
+00:01:59.000 --> 00:02:00.000
+aby podejmować dobre decyzje.
+
+00:02:00.000 --> 00:02:04.000
+I przez to musimy wykonać masę pracy, która wykracza poza sam Internet.
+
+00:02:04.000 --> 00:02:08.000
+Dlatego właśnie wybraliśmy model wolnego licencjonowania,
+
+00:02:08.000 --> 00:02:10.000
+bo umożliwia on lokalnym przedsiębiorcom
+
+00:02:10.000 --> 00:02:12.000
+oraz wszystkim innym chętnym
+
+00:02:12.000 --> 00:02:16.000
+dowolne wykorzystanie naszych materiałów: kopiowanie, rozpowszechnianie.
+
+00:02:16.000 --> 00:02:18.000
+I można to robić komercyjnie lub niekomercyjnie.
+
+00:02:18.000 --> 00:02:22.000
+Na całym świecie pojawi się więc dużo możliwości wykorzystania Wikipedii.
+
+00:02:22.000 --> 00:02:24.000
+Na całym świecie pojawi się więc dużo możliwości wykorzystania Wikipedii.
+
+00:02:24.000 --> 00:02:26.000
+Jesteśmy finansowani z darowizn,
+
+00:02:26.000 --> 00:02:29.000
+a jedną z najciekawszych rzeczy jest to,
+
+00:02:29.000 --> 00:02:32.000
+jak mało pieniędzy faktycznie kosztuje działanie Wikipedii.
+
+00:02:32.000 --> 00:02:37.000
+Tak więc Yochai pokazał wam wykres kosztu drukowania prasy.
+
+00:02:37.000 --> 00:02:41.000
+A ja pokażę Wam koszt Wikipedii,
+
+00:02:41.000 --> 00:02:43.000
+ale najpierw opiszę jej wielkość.
+
+00:02:43.000 --> 00:02:47.000
+Mamy ponad 600 tysięcy artykułów po angielsku.
+
+00:02:47.000 --> 00:02:51.000
+Mamy łącznie dwa miliony artykułów w wielu różnych językach.
+
+00:02:51.000 --> 00:02:54.000
+Najwięcej po niemiecku, japońsku i francusku.
+
+00:02:54.000 --> 00:02:58.000
+Wszystkie wersje w językach zachodnioeuropejskich są dość duże.
+
+00:02:58.000 --> 00:03:01.000
+Ale tylko jedna trzecia połączeń z naszą witryną
+
+00:03:01.000 --> 00:03:03.000
+jest skierowana do angielskiej Wikipedii,
+
+00:03:03.000 --> 00:03:05.000
+co dla wielu jest zaskakujące.
+
+00:03:05.000 --> 00:03:09.000
+Wiele osób w Internecie myśli w sposób bardzo anglocentryczny,
+
+00:03:09.000 --> 00:03:12.000
+ale my jesteśmy naprawdę globalni, dostępni w bardzo wielu językach.
+
+00:03:13.000 --> 00:03:16.000
+Zdobyliśmy popularność: należymy do 50 czołowych witryn,
+
+00:03:16.000 --> 00:03:18.000
+jesteśmy bardziej popularni niż New York Times.
+
+00:03:18.000 --> 00:03:22.000
+I tu dochodzimy do prelekcji Yochai'ego.
+
+00:03:23.000 --> 00:03:26.000
+Tu widać rozwój Wikipedii – to ta niebieska linia,
+
+00:03:26.000 --> 00:03:29.000
+a tam jest New York Times.
+
+00:03:29.000 --> 00:03:32.000
+Interesujące jest to, że witryna New York Timesa
+
+00:03:32.000 --> 00:03:36.000
+to ogromne przedsięwzięcie korporacyjne, zatrudniające jakieś setki pracowników.
+
+00:03:36.000 --> 00:03:39.000
+My mamy dokładnie jednego pracownika.
+
+00:03:39.000 --> 00:03:42.000
+Jest nim nasz główny inżynier oprogramowania.
+
+00:03:42.000 --> 00:03:45.000
+Jest on naszym pracownikiem dopiero od stycznia 2005 roku,
+
+00:03:45.000 --> 00:03:47.000
+choć dużo stworzyliśmy wcześniej.
+
+00:03:47.000 --> 00:03:50.000
+Tak więc serwerami zarządza zbieranina ochotników,
+
+00:03:50.000 --> 00:03:52.000
+zasoby redagują wolontariusze.
+
+00:03:52.000 --> 00:03:54.000
+A nasza struktura organizacyjna
+
+00:03:54.000 --> 00:03:57.000
+nie przypomina żadnej tradycyjnej organizacji, jaką można sobie wyobrazić.
+
+00:03:57.000 --> 00:03:59.000
+Ludzie ciągle pytają: „Dobrze, a kto tym kieruje?”
+
+00:03:59.000 --> 00:04:04.000
+albo „Kto zajmuje się tym a tym?”. Odpowiadam: ktokolwiek, kto ma ochotę.
+
+00:04:04.000 --> 00:04:07.000
+To bardzo niezwykłe i chaotyczne zjawisko.
+
+00:04:07.000 --> 00:04:10.000
+Mamy teraz ponad 90 serwerów w trzech lokalizacjach,
+
+00:04:10.000 --> 00:04:14.000
+zarządzanych przez administratorów-wolontariuszy, pracujących przez Internet.
+
+00:04:14.000 --> 00:04:17.000
+Mogę połączyć się o dowolnej porze dnia lub nocy
+
+00:04:17.000 --> 00:04:21.000
+i zobaczę, że osiem do dziesięciu osób czeka,
+
+00:04:21.000 --> 00:04:25.000
+może odpowiedzieć na moje pytania czy uwagi dotyczące serwerów.
+
+00:04:25.000 --> 00:04:27.000
+Żadnej firmy nie stać na coś takiego.
+
+00:04:27.000 --> 00:04:31.000
+Nikt nie może pozwolić sobie na utrzymywanie w pogotowiu zespołu
+
+00:04:31.000 --> 00:04:35.000
+przez 24 godziny na dobę, ani na to, co mamy w Wikipedii.
+
+00:04:35.000 --> 00:04:38.000
+Mamy około 1,4 miliarda wyświetleń stron miesięcznie,
+
+00:04:38.000 --> 00:04:41.000
+co znaczy, że urośliśmy do naprawdę wielkich rozmiarów.
+
+00:04:41.000 --> 00:04:43.000
+I wszystkim zajmują się wolontariusze.
+
+00:04:43.000 --> 00:04:48.000
+Nasz całkowity miesięczny koszt połączeń internetowych to około 5000 dolarów.
+
+00:04:48.000 --> 00:04:50.000
+I to w praktyce główny koszt naszej działalności.
+
+00:04:50.000 --> 00:04:53.000
+Moglibyśmy poradzić sobie bez tego pracownika. Prawdę mówiąc...
+
+00:04:53.000 --> 00:04:56.000
+Zatrudniliśmy Briana, bo pracował przez 2 lata na niepełny etat,
+
+00:04:56.000 --> 00:04:58.000
+plus pełny etat w Wikipedii,
+
+00:04:58.000 --> 00:05:02.000
+więc zatrudniliśmy go, żeby miał coś z życia i mógł czasem pójść do kina.
+
+00:05:03.000 --> 00:05:06.000
+O obliczu tak chaotycznej organizacji, trzeba zapytać:
+
+00:05:06.000 --> 00:05:10.000
+dlaczego to nie są same śmieci? Dlaczego ta witryna jest tak dobra?
+
+00:05:10.000 --> 00:05:13.000
+A jak dobra jest ta witryna? Całkiem niezła. Nie jest doskonała,
+
+00:05:13.000 --> 00:05:16.000
+ale dużo lepsza, niż moglibyście się spodziewać,
+
+00:05:16.000 --> 00:05:18.000
+zważywszy na nasze chaotyczne rozwiązanie.
+
+00:05:18.000 --> 00:05:21.000
+Widząc, jak wprowadza niedorzeczne zmiany na stronie o mnie,
+
+00:05:21.000 --> 00:05:25.000
+pomyśleliście sobie: to wszystko na pewno zmieni się w kupę śmieci.
+
+00:05:25.000 --> 00:05:29.000
+Ale gdy zobaczyliśmy testy jakości – nie było ich jeszcze odpowiednio dużo,
+
+00:05:29.000 --> 00:05:31.000
+naprawdę zachęcam, żeby zrobić ich więcej –
+
+00:05:31.000 --> 00:05:35.000
+porównujące Wikipedię z tradycyjnymi źródłami: wyraźnie wygrywamy.
+
+00:05:35.000 --> 00:05:38.000
+Niemiecki magazyn porównał niemiecką Wikipedię,
+
+00:05:38.000 --> 00:05:41.000
+która jest dużo, dużo mniejsza niż angielska,
+
+00:05:41.000 --> 00:05:45.000
+z Microsoft Encarta i z Brockhaus Multimedia.
+
+00:05:45.000 --> 00:05:47.000
+Wygraliśmy zdecydowanie.
+
+00:05:47.000 --> 00:05:50.000
+Jakość artykułów porównywali eksperci,
+
+00:05:50.000 --> 00:05:53.000
+wynik sprawił nam dużą przyjemność.
+
+00:05:53.000 --> 00:05:57.000
+Dużo osób słyszało o konflikcie Bush-Kerry w Wikipedii.
+
+00:05:57.000 --> 00:06:01.000
+Media donosiły o tym dość obszernie.
+
+00:06:01.000 --> 00:06:04.000
+Zaczęło się od artykułu w Red Herring.
+
+00:06:04.000 --> 00:06:07.000
+Dziennikarze skontaktowali się ze mną...
+
+00:06:07.000 --> 00:06:12.000
+Przyznam, że podali moje nazwisko poprawnie, ale naprawdę chcieli stwierdzić,
+
+00:06:12.000 --> 00:06:14.000
+że wybory Bush-Kerry wzbudzają takie emocje,
+
+00:06:14.000 --> 00:06:18.000
+że rozsadza to społeczność Wikipedii. A więc podali, że powiedziałem:
+
+00:06:18.000 --> 00:06:21.000
+„To najbardziej zażarty konflikt w historii Wikipedii”.
+
+00:06:21.000 --> 00:06:23.000
+A ja powiedziałem: „nie ma żadnego konfliktu".
+
+00:06:23.000 --> 00:06:29.000
+Czyli nieco przekręcili moje słowa. Artykuły dość intensywnie modyfikowano.
+
+00:06:29.000 --> 00:06:32.000
+To prawda, że kilka musieliśmy je zablokować.
+
+00:06:32.000 --> 00:06:35.000
+Magazyn Time napisał ostatnio:
+
+00:06:35.000 --> 00:06:38.000
+„Środki nadzwyczajne są czasem konieczne,
+
+00:06:38.000 --> 00:06:43.000
+więc Wales blokował artykuły o Kerry'm i Bushu przez większą część 2004”.
+
+00:06:43.000 --> 00:06:47.000
+A wcześniej powiedziałem dziennikarzowi, że musieliśmy blokować je...
+
+00:06:47.000 --> 00:06:49.000
+sporadycznie i zawsze na krótko.
+
+00:06:49.000 --> 00:06:52.000
+A więc tak naprawdę spory,
+
+00:06:52.000 --> 00:06:56.000
+jakich prawdopodobnie spodziewacie się w społeczności Wikipedii,
+
+00:06:56.000 --> 00:06:58.000
+zazwyczaj nie są faktycznie sporami.
+
+00:06:58.000 --> 00:07:01.000
+Artykuły dotyczące kontrowersyjnych tematów są intensywnie edytowane,
+
+00:07:01.000 --> 00:07:04.000
+ale nie wywołują dużych sporów w społeczności.
+
+00:07:04.000 --> 00:07:09.000
+Powodem tego jest to, że większość ludzi rozumie potrzebę neutralności.
+
+00:07:11.000 --> 00:07:15.000
+Prawdziwa walka nie toczy się między prawicą i lewicą,
+
+00:07:15.000 --> 00:07:17.000
+jak spodziewa się większość ludzi,
+
+00:07:17.000 --> 00:07:20.000
+ale między partią poważnych i partią głupków.
+
+00:07:20.000 --> 00:07:24.000
+I żadna część spektrum politycznego nie ma monopolu na którąś z tych cech.
+
+00:07:24.000 --> 00:07:28.000
+Fakty dotyczące wspomnianego incydentu Bush-Kerry są takie,
+
+00:07:28.000 --> 00:07:30.000
+że artykuły dotyczące Busha i Kerry'ego
+
+00:07:30.000 --> 00:07:33.000
+były zablokowane przez mniej niż jeden procent 2004 roku.
+
+00:07:33.000 --> 00:07:35.000
+I to nie dlatego, że powodowały spory,
+
+00:07:35.000 --> 00:07:38.000
+ale po prostu z powodu nagminnego wandalizmu,
+
+00:07:38.000 --> 00:07:42.000
+który zdarza się czasem nawet na scenie: różni ludzie,
+
+00:07:42.000 --> 00:07:45.000
+czasem nawet dziennikarze mówili mi, że dokonali wandalizmu w Wikipedii
+
+00:07:45.000 --> 00:07:48.000
+i byli zaskoczeni tym, jak szybko zostało to naprawione.
+
+00:07:48.000 --> 00:07:52.000
+A ja zawsze odpowiadam: proszę tego nie robić, tak nie należy.
+
+00:07:52.000 --> 00:07:54.000
+Jak to robimy?
+
+00:07:54.000 --> 00:07:56.000
+Jak zarządzamy kontrolą jakości?
+
+00:07:56.000 --> 00:07:59.000
+Jak to działa?
+
+00:07:59.000 --> 00:08:02.000
+Jest tu kilka elementów:
+
+00:08:02.000 --> 00:08:05.000
+głównie zasady społeczne i trochę elementów w oprogramowaniu.
+
+00:08:05.000 --> 00:08:09.000
+Największym i najważniejszym elementem jest polityka neutralnego punktu widzenia.
+
+00:08:09.000 --> 00:08:12.000
+To jest coś, co ustanowiłem na samym początku
+
+00:08:12.000 --> 00:08:16.000
+jako podstawową i nie podlegającą dyskusji zasadę społeczności.
+
+00:08:16.000 --> 00:08:19.000
+To jest społecznościowa koncepcja współpracy,
+
+00:08:19.000 --> 00:08:23.000
+a więc nie wspominamy tu często o prawdzie i obiektywności.
+
+00:08:23.000 --> 00:08:27.000
+Powodem jest to, że jeśli powiemy, że będziemy pisać tylko prawdę na jakiś temat,
+
+00:08:27.000 --> 00:08:30.000
+to ani trochę nie pomoże nam ustalić, co mamy pisać,
+
+00:08:30.000 --> 00:08:32.000
+ponieważ nie zgadzamy się na temat prawdy.
+
+00:08:32.000 --> 00:08:35.000
+Ale mamy ten żargonowy termin „neutralność”,
+
+00:08:35.000 --> 00:08:37.000
+który sam ma długą historię w społeczności.
+
+00:08:37.000 --> 00:08:41.000
+Najprościej rzecz biorąc oznacza to, że zawsze gdy temat budzi spory,
+
+00:08:41.000 --> 00:08:44.000
+Wikipedia nie zajmuje stanowiska w tej sprawie.
+
+00:08:44.000 --> 00:08:47.000
+Powinniśmy ograniczyć się do tego, co twierdzą uznane źródła.
+
+00:08:47.000 --> 00:08:50.000
+Ta polityka neutralności jest dla nas naprawdę ważna,
+
+00:08:50.000 --> 00:08:54.000
+ponieważ umożliwia bardzo zróżnicowanej społeczności
+
+00:08:54.000 --> 00:08:56.000
+wspólne działanie i owocną pracę.
+
+00:08:56.000 --> 00:08:59.000
+Nasi autorzy są bardzo zróżnicowani politycznie, religijnie, kulturowo.
+
+00:08:59.000 --> 00:09:01.000
+Nasi autorzy są bardzo zróżnicowani politycznie, religijnie, kulturowo.
+
+00:09:01.000 --> 00:09:03.000
+Dzięki stanowczej polityce neutralności,
+
+00:09:03.000 --> 00:09:05.000
+od samego początku nie podlegającej dyskusji,
+
+00:09:05.000 --> 00:09:07.000
+zapewniamy ludziom możliwość współpracy.
+
+00:09:07.000 --> 00:09:09.000
+i to, że artykuły nie staną się wojną,
+
+00:09:09.000 --> 00:09:12.000
+cyklem ataków z lewej i z prawej strony.
+
+00:09:12.000 --> 00:09:14.000
+Jeśli będziecie się tak zachowywać,
+
+00:09:14.000 --> 00:09:16.000
+zostaniecie poproszeni o opuszczenie społeczności.
+
+00:09:17.000 --> 00:09:19.000
+Mamy więc recenzowanie w czasie rzeczywistym.
+
+00:09:19.000 --> 00:09:22.000
+Każda zmiana w witrynie trafia na stronę „Ostatnie zmiany”.
+
+00:09:22.000 --> 00:09:25.000
+Zmiany [Chrisa] trafiły na stronę „Ostatnie zmiany”.
+
+00:09:25.000 --> 00:09:29.000
+Zawartość strony „Ostatnie zmiany” trafia również na kanał IRC,
+
+00:09:29.000 --> 00:09:31.000
+czyli kanał rozmów internetowych
+
+00:09:31.000 --> 00:09:33.000
+monitorowany przez ludzi przy użyciu różnych programów.
+
+00:09:35.000 --> 00:09:37.000
+Można też korzystać z kanałów RSS
+
+00:09:37.000 --> 00:09:40.000
+albo dostawać e-maile z powiadomieniami o zmianach,
+
+00:09:40.000 --> 00:09:42.000
+można założyć własne listy monitorowanych stron.
+
+00:09:42.000 --> 00:09:45.000
+Moja strona jest na listach monitorowania sporej liczby użytkowników,
+
+00:09:45.000 --> 00:09:47.000
+ponieważ czasem pada ofiarą wandalizmu.
+
+00:09:49.000 --> 00:09:53.000
+Dlatego takie zmiany zawsze ktoś szybko zauważy,
+
+00:09:53.000 --> 00:09:57.000
+cofnie i przywróci poprzednią wersję strony.
+
+00:09:57.000 --> 00:09:59.000
+Jest kanał z informacjami o nowych stronach.
+
+00:09:59.000 --> 00:10:01.000
+Można wejść na określoną stronę Wikipedii
+
+00:10:01.000 --> 00:10:03.000
+i zobaczyć wszystkie nowo utworzone strony.
+
+00:10:03.000 --> 00:10:05.000
+To bardzo ważne, ponieważ nowe strony
+
+00:10:05.000 --> 00:10:08.000
+to często śmieci, które trzeba skasować, typu: ASDFASDF.
+
+00:10:08.000 --> 00:10:11.000
+Ale niektóre z nowych artykułów to najciekawsze, najfajniejsze rzeczy w Wikipedii.
+
+00:10:11.000 --> 00:10:13.000
+Ale niektóre z nowych artykułów to najciekawsze, najfajniejsze rzeczy w Wikipedii.
+
+00:10:13.000 --> 00:10:15.000
+Ktoś pisze artykuł o interesującym temacie,
+
+00:10:15.000 --> 00:10:17.000
+zaciekawi to innych, którzy się przyłączą, dzięki czemu będzie dużo lepszy.
+
+00:10:17.000 --> 00:10:19.000
+zaciekawi to innych, którzy się przyłączą, dzięki czemu będzie dużo lepszy.
+
+00:10:19.000 --> 00:10:21.000
+Edycja bywa anonimowa,
+
+00:10:21.000 --> 00:10:25.000
+co jest jednym z najbardziej kontrowersyjnych i intrygujących aspektów Wikipedii.
+
+00:10:25.000 --> 00:10:29.000
+Żeby wprowadzić zmiany, Chris nie musiał się wcale logować,
+
+00:10:29.000 --> 00:10:32.000
+po prostu wszedł na stronę i wprowadził zmianę.
+
+00:10:32.000 --> 00:10:35.000
+Ale okazuje się, że tylko około 18 procent edycji w witrynie
+
+00:10:35.000 --> 00:10:37.000
+przeprowadzają anonimowi użytkownicy.
+
+00:10:37.000 --> 00:10:39.000
+Koniecznie należy pamiętać,
+
+00:10:39.000 --> 00:10:42.000
+że zdecydowaną większość edycji w witrynie
+
+00:10:42.000 --> 00:10:46.000
+wykonuje blisko związana społeczność ok. 600-1000 osób,
+
+00:10:46.000 --> 00:10:48.000
+które nieustannie porozumiewają się ze sobą.
+
+00:10:48.000 --> 00:10:50.000
+Mamy również ponad 40 kanałów IRC, 40 list dyskusyjnych.
+
+00:10:50.000 --> 00:10:54.000
+Ci ludzie się znają, komunikują się. Mamy spotkania w świecie fizycznym.
+
+00:10:54.000 --> 00:10:56.000
+To oni wykonują większość pracy w witrynie.
+
+00:10:56.000 --> 00:11:01.000
+I w pewnym sensie robią to jak półprofesjonaliści.
+
+00:11:01.000 --> 00:11:05.000
+Standardy, które ustanawiamy dla siebie, są takie same lub wyższe
+
+00:11:05.000 --> 00:11:07.000
+niż profesjonalne standardy jakości.
+
+00:11:07.000 --> 00:11:09.000
+Nie zawsze spełniamy te standardy,
+
+00:11:09.000 --> 00:11:11.000
+ale do tego dążymy.
+
+00:11:11.000 --> 00:11:14.000
+Tak więc to właśnie ta zwarta społeczność naprawdę dba o witrynę,
+
+00:11:14.000 --> 00:11:16.000
+a to jedni z najinteligentniejszych ludzi, jakich spotkałem.
+
+00:11:16.000 --> 00:11:18.000
+Stanowisko każe mi to mówić, ale to fakt.
+
+00:11:18.000 --> 00:11:22.000
+Ludzie, których przyciągnął pomysł pisania dla zabawy encyklopedii,
+
+00:11:22.000 --> 00:11:24.000
+są zwykle bardzo inteligentni.
+
+00:11:25.000 --> 00:11:27.000
+Narzędzia i oprogramowanie: wiele narzędzi
+
+00:11:27.000 --> 00:11:31.000
+umożliwia naszej społeczności monitorowanie siebie i całej pracy.
+
+00:11:31.000 --> 00:11:33.000
+To jest przykład historii edycji strony o płaskiej Ziemi,
+
+00:11:33.000 --> 00:11:36.000
+gdzie widzimy wprowadzone zmiany.
+
+00:11:36.000 --> 00:11:39.000
+Najlepsze na tej stronie jest to, że wystarczy rzucić okiem
+
+00:11:39.000 --> 00:11:41.000
+i wszystko wiadomo: OK, teraz rozumiem.
+
+00:11:41.000 --> 00:11:44.000
+Gdy ktoś tu wejdzie i spojrzy, widzi, że ktoś
+
+00:11:44.000 --> 00:11:46.000
+z anonimowego adresu IP edytował moją stronę.
+
+00:11:46.000 --> 00:11:49.000
+To wygląda podejrzanie: kto to był? Ktoś spojrzy na to,
+
+00:11:49.000 --> 00:11:53.000
+natychmiast widzi wyróżnione na czerwono wszystkie zmiany,
+
+00:11:53.000 --> 00:11:57.000
+widzi, które słowa zostały zmienione i tak dalej.
+
+00:11:57.000 --> 00:12:02.000
+To narzędzie umożliwia bardzo szybkie monitorowanie historii strony.
+
+00:12:02.000 --> 00:12:05.000
+Kolejna rzecz dotycząca naszej społeczności
+
+00:12:05.000 --> 00:12:08.000
+to nienarzucanie niczego, elastyczność.
+
+00:12:08.000 --> 00:12:12.000
+Większość reguł społecznych i metod pracy
+
+00:12:12.000 --> 00:12:14.000
+nie jest wcale narzucana przez oprogramowanie.
+
+00:12:14.000 --> 00:12:16.000
+Są tylko zapisane na stronach Wiki.
+
+00:12:16.000 --> 00:12:19.000
+Więc oprogramowanie wcale nie wymusza stosowania tych reguł.
+
+00:12:19.000 --> 00:12:22.000
+Pokażę przykład: to jest strona głosowania nad usunięciem.
+
+00:12:23.000 --> 00:12:26.000
+Jak wspomniałem wcześniej, ludzie wpisują ASDFASDF –
+
+00:12:26.000 --> 00:12:29.000
+trzeba to usunąć. W takich przypadkach administratorzy po prostu to kasują.
+
+00:12:29.000 --> 00:12:31.000
+Tu nie ma powodów do poważnych dyskusji.
+
+00:12:31.000 --> 00:12:35.000
+Ale pewnie domyślacie się, że często pojawiają się pytania o dany artykuł:
+
+00:12:35.000 --> 00:12:37.000
+Czy to nie za mało istotne dla encyklopedii?
+
+00:12:37.000 --> 00:12:41.000
+Czy te informacje można zweryfikować? Czy to oszustwo? Czy to prawda? Co to jest?
+
+00:12:41.000 --> 00:12:44.000
+Społeczność musi mieć możliwość znajdowania odpowiedzi na takie pytania.
+
+00:12:44.000 --> 00:12:47.000
+Metodą, która w sposób organiczny rozwinęła się w społeczności,
+
+00:12:47.000 --> 00:12:49.000
+jest strona głosowania nad usunięciem.
+
+00:12:49.000 --> 00:12:51.000
+Mamy tu konkretny przykład: to film
+
+00:12:51.000 --> 00:12:53.000
+„Twisted Issues”, pierwsza osoba twierdzi:
+
+00:12:53.000 --> 00:12:57.000
+„To ponoć film. W teście Google wypada fatalnie.”
+
+00:12:57.000 --> 00:13:00.000
+Test Google to sprawdzenie, czy hasło pojawia się w Google,
+
+00:13:00.000 --> 00:13:04.000
+bo jeśli czegoś nie ma nawet w Google, prawdopodobnie wcale nie istnieje.
+
+00:13:04.000 --> 00:13:08.000
+To nie jest doskonała zasada, ale dobry początek szybkiego zbadania tematu.
+
+00:13:09.000 --> 00:13:12.000
+A więc ktoś mówi: „Skasujcie to, bo nie ma znaczenia.”
+
+00:13:12.000 --> 00:13:14.000
+Potem ktoś dodaje: „Czekajcie, znalazłam to.
+
+00:13:14.000 --> 00:13:16.000
+Znalazłam w książce: „Przewodnik po groźnych filmach:
+
+00:13:16.000 --> 00:13:18.000
+20 filmów niezależnych, które trzeba zobaczyć”.
+
+00:13:18.000 --> 00:13:20.000
+OK. A następna osoba mówi: „Poprawcie to”.
+
+00:13:20.000 --> 00:13:24.000
+Jeszcze kto inny mówi: „Znalazłem to w IMDB. Trzeba zostawić”.
+
+00:13:24.000 --> 00:13:27.000
+A interesujące jest to, że oprogramowanie...
+
+00:13:27.000 --> 00:13:30.000
+Te głosy to tylko tekst wpisywany na stronie.
+
+00:13:30.000 --> 00:13:35.000
+Tak naprawdę to nie głosowanie, ale bardziej dialog.
+
+00:13:35.000 --> 00:13:37.000
+To prawda, że ostatecznie administrator może to przejrzeć i stwierdzić:
+
+00:13:37.000 --> 00:13:40.000
+To prawda, że ostatecznie administrator może to przejrzeć i stwierdzić:
+
+00:13:40.000 --> 00:13:43.000
+OK, 18 za usunięciem, dwa za zostawieniem, usuniemy to.
+
+00:13:43.000 --> 00:13:48.000
+Ale czasem jest 18 za usunięciem i 2 za zostawieniem, ale zostawimy to,
+
+00:13:48.000 --> 00:13:50.000
+bo te 2 głosy mówią: „Zaczekajcie.
+
+00:13:50.000 --> 00:13:52.000
+Nikt na to nie trafił, ale ja znalazłam to w książce
+
+00:13:52.000 --> 00:13:56.000
+i znalazłam link do strony z informacjami i poprawię to jutro,
+
+00:13:56.000 --> 00:13:59.000
+więc proszę nie usuwać” – wtedy artykuł przetrwa.
+
+00:13:59.000 --> 00:14:01.000
+Liczy się też, kim są głosujący.
+
+00:14:01.000 --> 00:14:03.000
+Jak mówiłem, to blisko związana społeczność.
+
+00:14:03.000 --> 00:14:05.000
+Tutaj na dole: „Zostawić, to prawdziwy film”, Rick Kay.
+
+00:14:05.000 --> 00:14:08.000
+Rick Kay to bardzo znany Wikipedysta,
+
+00:14:08.000 --> 00:14:11.000
+który robi bardzo dużo w dziedzinie wandalizmu, oszustw
+
+00:14:11.000 --> 00:14:13.000
+i głosowań nad usunięciem.
+
+00:14:13.000 --> 00:14:16.000
+Jego głos ma dużą wagę w społeczności,
+
+00:14:16.000 --> 00:14:18.000
+ponieważ on wie, co robi.
+
+00:14:18.000 --> 00:14:20.000
+A więc: jak to wszystko jest zarządzane?
+
+00:14:20.000 --> 00:14:24.000
+Ludzie chcą się dowiedzieć o administratorach i tak dalej.
+
+00:14:24.000 --> 00:14:28.000
+Model zarządzania Wikipedią, zarządzania społecznościowego,
+
+00:14:28.000 --> 00:14:32.000
+to bardzo zagmatwana, ale sprawna mieszanka konsensusu, co znaczy,
+
+00:14:32.000 --> 00:14:34.000
+że raczej nie głosujemy nad zawartością artykułów,
+
+00:14:34.000 --> 00:14:38.000
+ponieważ poglądy większości niekoniecznie są neutralne.
+
+00:14:38.000 --> 00:14:40.000
+Trochę demokracji: wszyscy administratorzy
+
+00:14:40.000 --> 00:14:43.000
+to osoby, które mają możliwość usuwania stron,
+
+00:14:43.000 --> 00:14:45.000
+co nie znaczy, że mają prawo usuwać strony,
+
+00:14:45.000 --> 00:14:48.000
+zawsze muszą przestrzegać zasad,
+
+00:14:48.000 --> 00:14:50.000
+wybiera ich społeczność.
+
+00:14:50.000 --> 00:14:54.000
+Czasami trolle internetowe oskarżają mnie, że sam dobieram administratorów,
+
+00:14:54.000 --> 00:14:56.000
+żeby stronniczo wpływać na treść encyklopedii.
+
+00:14:56.000 --> 00:15:00.000
+Śmieję się z tego, bo sam nie mam pojęcia, jak się ich wybiera.
+
+00:15:00.000 --> 00:15:02.000
+Jest trochę arystokratyzmu.
+
+00:15:02.000 --> 00:15:05.000
+Wspomniałem o tym już wcześniej, mówiąc, że na przykład
+
+00:15:05.000 --> 00:15:08.000
+głos Ricka Kay'a ma dużo większą wagę niż głos kogoś, kogo nie znamy.
+
+00:15:08.000 --> 00:15:12.000
+Czasem robię tę prelekcję z Angelą, która została ponownie wybrana
+
+00:15:12.000 --> 00:15:15.000
+do Zarządu Fundacji jako przedstawicielka społeczności.
+
+00:15:15.000 --> 00:15:19.000
+Dostała ponad dwa razy więcej głosów niż osoba, która przegrała.
+
+00:15:19.000 --> 00:15:23.000
+I zawsze ją peszę, mówiąc: na przykład taka Angela
+
+00:15:23.000 --> 00:15:26.000
+mogłaby zrobić w Wikipedii absolutnie wszystko i uszłoby to jej płazem,
+
+00:15:26.000 --> 00:15:28.000
+ponieważ jest tak podziwiana i wpływowa.
+
+00:15:28.000 --> 00:15:32.000
+Ale ironiczne jest to, że Angela ma taką możliwość, bo jest jedyną osobą,
+
+00:15:32.000 --> 00:15:35.000
+która absolutnie nigdy nie złamałaby żadnej zasady Wikipedii.
+
+00:15:35.000 --> 00:15:38.000
+I chętnie dodaję, że jest też jedyną osobą,
+
+00:15:38.000 --> 00:15:41.000
+która faktycznie zna wszystkie reguły Wikipedii.
+
+00:15:41.000 --> 00:15:45.000
+Jest jeszcze element monarchiczny, czyli moja rola w społeczności.
+
+00:15:46.000 --> 00:15:51.000
+Opowiedziałem kiedyś o tym w Berlinie i następnego dnia w gazecie
+
+00:15:51.000 --> 00:15:54.000
+był nagłówek „Jestem Królową Anglii”.
+
+00:15:54.000 --> 00:15:57.000
+To niedokładnie to, co powiedziałem, ale...
+
+00:15:59.000 --> 00:16:01.000
+Rzecz w tym, że moja rola w społeczności...
+
+00:16:01.000 --> 00:16:04.000
+W świecie wolnego oprogramowania istnieje dawna tradycja...
+
+00:16:04.000 --> 00:16:09.000
+...modelu życzliwego dyktatora.
+
+00:16:09.000 --> 00:16:12.000
+Większością najważniejszych projektów wolnego oprogramowania
+
+00:16:12.000 --> 00:16:14.000
+kieruje jedna osoba,
+
+00:16:14.000 --> 00:16:17.000
+którą wszyscy zgadzają się uznać za życzliwego dyktatora.
+
+00:16:17.000 --> 00:16:20.000
+Ja nie lubię terminu „życzliwy dyktator”
+
+00:16:20.000 --> 00:16:23.000
+i nie sądzę, że moje zadanie czy moja rola w świecie idei
+
+00:16:23.000 --> 00:16:28.000
+to bycie dyktatorem przyszłości całej ludzkiej wiedzy zbieranej wszędzie na świecie.
+
+00:16:28.000 --> 00:16:30.000
+To nie jest właściwe.
+
+00:16:30.000 --> 00:16:33.000
+Ale mimo to potrzeba trochę monarchii.
+
+00:16:33.000 --> 00:16:36.000
+Czasem musimy podjąć decyzję
+
+00:16:36.000 --> 00:16:39.000
+i nie chcemy utknąć za głęboko w sformalizowanym procesie decyzyjnym.
+
+00:16:39.000 --> 00:16:41.000
+i nie chcemy utknąć za głęboko w sformalizowanym procesie decyzyjnym.
+
+00:16:41.000 --> 00:16:45.000
+A jako przykład tego, dlaczego to jest,
+
+00:16:45.000 --> 00:16:47.000
+lub czasem bywa ważne:
+
+00:16:47.000 --> 00:16:50.000
+ostatnio mieliśmy sytuację, gdzie neonazistowska witryna odkryła Wikipedię.
+
+00:16:50.000 --> 00:16:55.000
+Stwierdzili: „To straszne, to witryna żydowskiego spisku,
+
+00:16:55.000 --> 00:16:58.000
+usuniemy artykuły, które nam nie odpowiadają.
+
+00:16:58.000 --> 00:17:00.000
+A jak widać, mają tam proces głosowania,
+
+00:17:00.000 --> 00:17:04.000
+mamy 40 000 członków, więc wyślemy ich tam,
+
+00:17:04.000 --> 00:17:06.000
+żeby głosowali za usunięciem tych stron”.
+
+00:17:06.000 --> 00:17:09.000
+Udało im się zmobilizować 18 osób.
+
+00:17:09.000 --> 00:17:11.000
+Tu macie przykład neonazistowskiej matematyki.
+
+00:17:11.000 --> 00:17:14.000
+Zawsze wydaje im się, że mają 40 000 członków, podczas gdy mają 18.
+
+00:17:14.000 --> 00:17:19.000
+Ale udało im się zmobilizować 18 osób do zupełnie absurdalnego głosowania
+
+00:17:19.000 --> 00:17:21.000
+za usunięciem w pełni poprawnego artykułu.
+
+00:17:21.000 --> 00:17:24.000
+Oczywiście głosowanie skończyło się wynikiem jakieś 85 do 18,
+
+00:17:24.000 --> 00:17:27.000
+więc nie było prawdziwego zagrożenia dla naszych demokratycznych procedur.
+
+00:17:27.000 --> 00:17:30.000
+Z drugiej strony ludzie stwierdzili: „Ale co zrobimy?
+
+00:17:30.000 --> 00:17:34.000
+Co jeśli to się powtórzy, jakaś lepiej zorganizowana grupa...
+
+00:17:34.000 --> 00:17:36.000
+włączy się do głosowania?”
+
+00:17:36.000 --> 00:17:39.000
+Na to ja odpowiedziałem: „Pieprzyć to, po prostu zmienimy zasady”.
+
+00:17:39.000 --> 00:17:44.000
+To moja rola w społeczności: stwierdzić, że nie pozwolimy, aby nasza otwartość
+
+00:17:44.000 --> 00:17:47.000
+i wolność osłabiły jakość treści.
+
+00:17:47.000 --> 00:17:50.000
+I jak długo ludzie ufają mi w mojej roli,
+
+00:17:50.000 --> 00:17:52.000
+jest to dla mnie właściwe miejsce.
+
+00:17:52.000 --> 00:17:56.000
+Oczywiście, z powodu wolnej licencji, jeśli ja będę źle pracować,
+
+00:17:56.000 --> 00:17:58.000
+ochotnicy mogą odejść, kiedy tylko im się podoba.
+
+00:17:58.000 --> 00:18:00.000
+Nie mogę nikomu nic nakazać.
+
+00:18:00.000 --> 00:18:04.000
+A więc ostatni punkt to: żeby zrozumieć jak działa Wikipedia,
+
+00:18:04.000 --> 00:18:08.000
+trzeba zrozumieć, że nasz model Wiki to nasz sposób pracy,
+
+00:18:08.000 --> 00:18:12.000
+ale nie jesteśmy fanatycznymi anarchistami webowymi.
+
+00:18:12.000 --> 00:18:15.000
+Jesteśmy bardzo elastyczni w zakresie metod społecznościowych,
+
+00:18:15.000 --> 00:18:19.000
+bo ostatecznie pasja społeczności jest skierowana na jakość dzieła,
+
+00:18:19.000 --> 00:18:23.000
+a niekoniecznie na proces służący jego tworzeniu.
+
+00:18:23.000 --> 00:18:25.000
+Dziękuję.
+
+00:18:25.000 --> 00:18:28.000
+(Brawa)
+
+00:18:28.000 --> 00:18:30.000
+Ben Saunders: Tak, cześć, Ben Saunders.
+
+00:18:30.000 --> 00:18:34.000
+Jimmy, wspomniałeś o bezstronności jako kluczu do sukcesu Wikipedii.
+
+00:18:34.000 --> 00:18:38.000
+Uderza mnie, że wiele podręczników
+
+00:18:38.000 --> 00:18:41.000
+z których uczą się dzieci cechuje wyraźna stronniczość.
+
+00:18:41.000 --> 00:18:45.000
+Czy słyszałeś o wykorzystywaniu Wikipedii przez nauczycieli
+
+00:18:45.000 --> 00:18:47.000
+i jak wg ciebie Wikipedia zmienia edukację?
+
+00:18:47.000 --> 00:18:52.000
+Jimmy Wales: Tak, wielu nauczycieli zaczyna wykorzystywać Wikipedię.
+
+00:18:52.000 --> 00:18:56.000
+W mediach tworzą pewien obraz Wikipedii, który uważam za fałszywy.
+
+00:18:56.000 --> 00:18:59.000
+Wyrasta on z historii o opozycji blogerów i gazet.
+
+00:18:59.000 --> 00:19:03.000
+Ten obraz przedstawia Wikipedię jako wariactwo,
+
+00:19:03.000 --> 00:19:09.000
+którego nienawidzą naukowcy i nauczyciele. A okazuje się, że to nieprawda.
+
+00:19:09.000 --> 00:19:11.000
+Na ostatni e-mail od dziennikarza pytającego:
+
+00:19:11.000 --> 00:19:13.000
+„Dlaczego naukowcy nienawidzą Wikipedii?”,
+
+00:19:13.000 --> 00:19:15.000
+odpowiedziałem z adresu na Harvardzie,
+
+00:19:15.000 --> 00:19:17.000
+bo ostatnio zostałem tam pracownikiem naukowym.
+
+00:19:17.000 --> 00:19:20.000
+I napisałem: „Na pewno nie każdy jej nienawidzi”.
+
+00:19:20.000 --> 00:19:23.000
+Ale sądzę, że jej oddziaływanie będzie duże.
+
+00:19:23.000 --> 00:19:25.000
+Prawdę mówiąc, mamy projekt,
+
+00:19:25.000 --> 00:19:27.000
+którym jestem osobiście naprawdę podekscytowany:
+
+00:19:27.000 --> 00:19:29.000
+to projekt Wikibooks,
+
+00:19:29.000 --> 00:19:31.000
+czyli próba stworzenia podręczników we wszystkich językach.
+
+00:19:31.000 --> 00:19:33.000
+I jest to dużo większy projekt.
+
+00:19:33.000 --> 00:19:37.000
+Jego realizacja zajmie jakieś 20 lat.
+
+00:19:37.000 --> 00:19:39.000
+Ale częścią tego jest wypełnianie naszej misji
+
+00:19:39.000 --> 00:19:42.000
+udostępnienia encyklopedii wszystkim ludziom na świecie.
+
+00:19:42.000 --> 00:19:45.000
+Nie zamierzamy nikogo spamować dyskami CD w stylu AOL.
+
+00:19:45.000 --> 00:19:48.000
+Chcemy dać im narzędzie, którego mogą używać.
+
+00:19:48.000 --> 00:19:50.000
+A w wiele osób na świecie
+
+00:19:50.000 --> 00:19:52.000
+nie ma żadnego pożytku z encyklopedii napisanej na poziomie uniwersyteckim,
+
+00:19:52.000 --> 00:19:54.000
+nie ma żadnego pożytku z encyklopedii napisanej na poziomie uniwersyteckim,
+
+00:19:54.000 --> 00:19:56.000
+bez masy literatury koniecznej,
+
+00:19:56.000 --> 00:19:58.000
+by osiągnąć poziom, na którym można z niej korzystać.
+
+00:19:58.000 --> 00:20:01.000
+Tak więc projekt Wikibooks ma taki cel.
+
+00:20:01.000 --> 00:20:03.000
+I myślę, że zobaczymy wielką....
+
+00:20:03.000 --> 00:20:04.000
+Może nawet nie będzie to nasze dzieło,
+
+00:20:04.000 --> 00:20:06.000
+pojawia się teraz tyle innowacji.
+
+00:20:06.000 --> 00:20:10.000
+Ale podręczniki na wolnej licencji to następna rewolucja w edukacji.
+

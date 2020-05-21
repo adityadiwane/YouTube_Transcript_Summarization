@@ -1,0 +1,1259 @@
+WEBVTT
+Kind: captions
+Language: hr
+
+00:00:00.000 --> 00:00:07.000
+Prevoditelj: Silvija Florijan
+Recezent: Tilen Pigac - EFZG
+
+00:00:15.260 --> 00:00:17.260
+Koliko vas je moralo ispuniti neku vrstu mrežnog obrasca
+
+00:00:17.260 --> 00:00:19.260
+gdje su vas tražili da čitate iskrivljeni niz znakova poput ovog?
+
+00:00:19.260 --> 00:00:21.260
+Koliko vas smatra ovo stvarno, stvarno dosadnim?
+
+00:00:21.260 --> 00:00:24.260
+U redu, izvanredno. Ja sam to izmislio.
+
+00:00:24.260 --> 00:00:26.260
+(Smijeh)
+
+00:00:26.260 --> 00:00:28.260
+Ili sam bio jedan od ljudi koji su to napravili.
+
+00:00:28.260 --> 00:00:30.260
+Ta se stvar zove Captcha.
+
+00:00:30.260 --> 00:00:32.260
+I razlog zbog kojeg je tu jest da ste vi, entitet koji ispunjava obrazac,
+
+00:00:32.260 --> 00:00:35.260
+doista čovjek, a ne neka vrsta kompjuterskog programa
+
+00:00:35.260 --> 00:00:37.260
+napisana da podnosi obrazac milijune i milijune puta.
+
+00:00:37.260 --> 00:00:39.260
+Ona djeluje zato što ljudi,
+
+00:00:39.260 --> 00:00:41.260
+barem oni koji nemaju oštećen vid,
+
+00:00:41.260 --> 00:00:43.260
+nemaju problema s čitanjem tih iskrivljenih vijugavih znakova,
+
+00:00:43.260 --> 00:00:46.260
+dok to kompjutorski programi jednostavno još ne mogu tako dobro.
+
+00:00:46.260 --> 00:00:48.260
+Npr., u slučaju Ticketmastera,
+
+00:00:48.260 --> 00:00:50.260
+razlog zbog kojeg morate tipkati te iskrivljene znakove
+
+00:00:50.260 --> 00:00:52.260
+jest da se spriječe preprodavači da napišu program
+
+00:00:52.260 --> 00:00:54.260
+koji može kupiti milijune ulaznica, dvije odjednom.
+
+00:00:54.260 --> 00:00:56.260
+Captche se koriste na cijelom Internetu.
+
+00:00:56.260 --> 00:00:58.260
+I budući da se koriste tako često,
+
+00:00:58.260 --> 00:01:00.260
+puno puta precizan niz nasumičnih znakova koje vidi korisnik
+
+00:01:00.260 --> 00:01:02.260
+nije tako sretan.
+
+00:01:02.260 --> 00:01:05.260
+Ovo je primjer Yahooove stranice za registraciju.
+
+00:01:05.260 --> 00:01:07.260
+Nasumični znakovi koji se pokazuju korisniku
+
+00:01:07.260 --> 00:01:10.260
+bili su W, A, I, T, koji, naravno, sriču riječ (čekaj).
+
+00:01:10.260 --> 00:01:13.260
+No najbolji dio je poruka
+
+00:01:13.260 --> 00:01:16.260
+koju je Yahooov odjel za pomoć dobio oko 20 minuta kasnije.
+
+00:01:16.260 --> 00:01:19.260
+Tekst: "Upomoć! Čekam već 20 minuta, i ništa se ne događa."
+
+00:01:19.260 --> 00:01:23.260
+(Smijeh)
+
+00:01:23.260 --> 00:01:25.260
+Ovaj je čovjek mislio da mora čekati.
+
+00:01:25.260 --> 00:01:28.260
+Ovo, naravno, nije tako loše kao ovaj jadnik.
+
+00:01:28.260 --> 00:01:30.260
+(Smijeh)
+
+00:01:30.260 --> 00:01:33.260
+Projekt Captcha je nešto što smo napravili ovdje na sveučilištu Carnegie Mellon prije 10 godina,
+
+00:01:33.260 --> 00:01:35.260
+i otada se koristi posvuda.
+
+00:01:35.260 --> 00:01:37.260
+Sad ću govoriti o projektu koji smo napravili prije nekoliko godina,
+
+00:01:37.260 --> 00:01:40.260
+nešto nalik sljedećoj evoluciji Captche.
+
+00:01:40.260 --> 00:01:42.260
+Ovo je projekt koji nazivamo reCaptcha,
+
+00:01:42.260 --> 00:01:44.260
+što je nešto što smo započeli ovdje na Carnegie Mellonu,
+
+00:01:44.260 --> 00:01:46.260
+zatim smo to pretvorili u malu tvrtku.
+
+00:01:46.260 --> 00:01:48.260
+I nakon godine i pol,
+
+00:01:48.260 --> 00:01:50.260
+Google je zapravo kupio ovu tvrtku.
+
+00:01:50.260 --> 00:01:52.260
+Reći ću vam što je pokrenuo ovaj projekt.
+
+00:01:52.260 --> 00:01:55.260
+Dakle, ovaj projekt je krenuo od sljedeće realizacije:
+
+00:01:55.260 --> 00:01:57.260
+Ispada da otprilike 200 milijuna Captcha
+
+00:01:57.260 --> 00:02:00.260
+tipkaju ljudi svaki dan diljem svijeta.
+
+00:02:00.260 --> 00:02:02.260
+Kad sam prvi put čuo za to, bio sam poprilično ponosan na sebe.
+
+00:02:02.260 --> 00:02:04.260
+Mislio sam, pogledaj na utjecaj koje je imalo moje istraživanje.
+
+00:02:04.260 --> 00:02:06.260
+Ali zatim sam se počeo osjećati loše.
+
+00:02:06.260 --> 00:02:08.260
+Evo o čemu se radi, svaki put kad tipkate Captchu,
+
+00:02:08.260 --> 00:02:11.260
+u biti gubite 10 sekundi svog vremena.
+
+00:02:11.260 --> 00:02:13.260
+I ako to umnožite s 200 milijuna,
+
+00:02:13.260 --> 00:02:16.260
+dobivate da čovječanstvo u cijelom gubi oko 500.000 sati svaki dan
+
+00:02:16.260 --> 00:02:18.260
+tipkajući te dosadne Captche.
+
+00:02:18.260 --> 00:02:20.260
+I tad sam se počeo osjećati loše.
+
+00:02:20.260 --> 00:02:22.260
+(Smijeh)
+
+00:02:22.260 --> 00:02:25.260
+I tad sam počeo razmišljati, pa, naravno, ne možemo se samo riješiti Captchi,
+
+00:02:25.260 --> 00:02:27.260
+zato što sigurnost Mreže na neki način ovisi o njima.
+
+00:02:27.260 --> 00:02:30.260
+Ali zatim sam počeo razmišljati, postoji li bilo koji način na koji možemo upotrijebiti ovaj trud
+
+00:02:30.260 --> 00:02:32.260
+za nešto što je dobro za čovječanstvo?
+
+00:02:32.260 --> 00:02:34.260
+Gledajte, evo o čemu se radi.
+
+00:02:34.260 --> 00:02:36.260
+Dok tipkate Captchu, tijekom tih 10 sekundi,
+
+00:02:36.260 --> 00:02:38.260
+vaš mozak radi nešto nevjerojatno.
+
+00:02:38.260 --> 00:02:40.260
+Vaš mozak radi nešto što kompjuteri još ne mogu.
+
+00:02:40.260 --> 00:02:43.260
+Pa, možete li napraviti koristan posao za tih 10 sekundi?
+
+00:02:43.260 --> 00:02:45.260
+Drugim riječima,
+
+00:02:45.260 --> 00:02:47.260
+postoji li neki grdan problem koji kompjuteri još ne mogu riješiti,
+
+00:02:47.260 --> 00:02:50.260
+ali možemo podijeliti na sićušne dijelove od 10 sekundi
+
+00:02:50.260 --> 00:02:52.260
+tako da svaki put kad netko rješava Captchu
+
+00:02:52.260 --> 00:02:54.260
+riješi i mali dio ovog problema?
+
+00:02:54.260 --> 00:02:56.260
+I odgovor na to je "da", i to upravo radimo.
+
+00:02:56.260 --> 00:02:59.260
+Ono što možda ne znate je da danas, dok tipkate Captchu,
+
+00:02:59.260 --> 00:03:01.260
+ne samo da se identificirate kao čovjek,
+
+00:03:01.260 --> 00:03:03.260
+nego nam također zapravo pomažete digitalizirati knjige.
+
+00:03:03.260 --> 00:03:05.260
+Objasnit ću vam kako to funkcionira.
+
+00:03:05.260 --> 00:03:07.260
+Postoji puno projekata koji pokušavaju digitalizirati knjige.
+
+00:03:07.260 --> 00:03:10.260
+Google ima jedan. Internetski arhiv ima jedan.
+
+00:03:10.260 --> 00:03:12.260
+Amazon, sad s Kindleom, pokušava digitalizirati knjige.
+
+00:03:12.260 --> 00:03:14.260
+U osnovi to funkcionira na način da
+
+00:03:14.260 --> 00:03:16.260
+započinjete sa starom knjigom.
+
+00:03:16.260 --> 00:03:18.260
+Vidjeli ste te stvari, točno? Poput knjige?
+
+00:03:18.260 --> 00:03:20.260
+(Smijeh)
+
+00:03:20.260 --> 00:03:22.260
+Započinjete s knjigom, zatim ju skenirate.
+
+00:03:22.260 --> 00:03:24.260
+Sad, skeniranje knjige je
+
+00:03:24.260 --> 00:03:26.260
+kao da snimate digitalnu fotografiju svake stranice knjige.
+
+00:03:26.260 --> 00:03:28.260
+Daje vam sliku za svaku stranicu knjige.
+
+00:03:28.260 --> 00:03:30.260
+Ovo je slika s tekstom za svaku stranicu knjige.
+
+00:03:30.260 --> 00:03:32.260
+Slijedeći je korak u postupku
+
+00:03:32.260 --> 00:03:35.260
+taj da kompjuter mora biti kadar dešifrirati sve riječi u toj slici.
+
+00:03:35.260 --> 00:03:37.260
+Koristeći tehnologiju OCR,
+
+00:03:37.260 --> 00:03:39.260
+optičko prepoznavanje znakova,
+
+00:03:39.260 --> 00:03:41.260
+koja snima sliku teksta
+
+00:03:41.260 --> 00:03:43.260
+i pokušava odgonetnuti koji je tekst unutra.
+
+00:03:43.260 --> 00:03:45.260
+Sad, OCR nije savršen.
+
+00:03:45.260 --> 00:03:47.260
+Posebno za starije knjige
+
+00:03:47.260 --> 00:03:50.260
+gdje je tinta izblijedjela i stranice su požutjele,
+
+00:03:50.260 --> 00:03:52.260
+OCR ne može prepoznati puno riječi.
+
+00:03:52.260 --> 00:03:54.260
+Npr., stvari koje su bile napisane prije više od 50 godina,
+
+00:03:54.260 --> 00:03:57.260
+kompjuter ne može prepoznati oko 30 posto riječi.
+
+00:03:57.260 --> 00:03:59.260
+Ono što sad radimo jest
+
+00:03:59.260 --> 00:04:01.260
+uzimanje svih riječi koje kompjuter ne može prepoznati
+
+00:04:01.260 --> 00:04:03.260
+i davanje ljudima da ih čitaju za nas
+
+00:04:03.260 --> 00:04:05.260
+dok tipkaju Captchu na Internetu.
+
+00:04:05.260 --> 00:04:08.260
+Sljedeći put kad tipkate Captchu, te riječi koje tipkate
+
+00:04:08.260 --> 00:04:11.260
+su zapravo riječi koje dolaze iz knjiga koje se digitaliziraju
+
+00:04:11.260 --> 00:04:13.260
+koje kompjuter nije mogao prepoznati.
+
+00:04:13.260 --> 00:04:15.260
+I sad, razlog zbog kojeg danas imamo dvije riječi umjesto jedne
+
+00:04:15.260 --> 00:04:17.260
+jest taj što je, vidite, jedna od riječi
+
+00:04:17.260 --> 00:04:19.260
+riječ koju je sustav tek dobio iz knjige,
+
+00:04:19.260 --> 00:04:22.260
+nije znao što je, i namjerava je prikazati vama.
+
+00:04:22.260 --> 00:04:25.260
+Ali kako ne zna odgovor na nju, ne može ju ocijeniti za vas.
+
+00:04:25.260 --> 00:04:27.260
+Dakle, dajemo vam drugu riječ,
+
+00:04:27.260 --> 00:04:29.260
+za koju sustav zna odgovor.
+
+00:04:29.260 --> 00:04:31.260
+Ne govorimo vam koja je koja, i kažemo da utipkate obje.
+
+00:04:31.260 --> 00:04:33.260
+I ako utipkate pravilnu riječ
+
+00:04:33.260 --> 00:04:35.260
+za onu koju sustav već zna odgovor,
+
+00:04:35.260 --> 00:04:37.260
+pretpostavlja da ste čovjek,
+
+00:04:37.260 --> 00:04:39.260
+i također dobiva neku sigurnost da ste utipkali drugu riječ pravilno.
+
+00:04:39.260 --> 00:04:42.260
+I ako ponovimo taj proces s 10 različitih ljudi
+
+00:04:42.260 --> 00:04:44.260
+i svi se slože oko toga što je nova riječ,
+
+00:04:44.260 --> 00:04:46.260
+tad mi dobivamo još jednu riječ točno digitaliziranu.
+
+00:04:46.260 --> 00:04:48.260
+Evo kako sustav funkcionira.
+
+00:04:48.260 --> 00:04:51.260
+I u osnovi, otkad smo ga objavili prije tri ili četiri godine,
+
+00:04:51.260 --> 00:04:53.260
+puno se mrežnih mjesta počelo prebacivati
+
+00:04:53.260 --> 00:04:55.260
+sa stare Captche gdje su ljudi gubili vrijeme
+
+00:04:55.260 --> 00:04:57.260
+na novu Captchu gdje ljudi pomažu digitalizirati knjige.
+
+00:04:57.260 --> 00:04:59.260
+Npr., Ticketmaster.
+
+00:04:59.260 --> 00:05:02.260
+Svaki put kad kupite ulaznicu na Ticketmasteru, pomažete digitalizirati knjigu.
+
+00:05:02.260 --> 00:05:04.260
+Facebook: Svaki put kad dodate prijatelja ili bocnete nekog,
+
+00:05:04.260 --> 00:05:06.260
+pomažete digitalizirati knjigu.
+
+00:05:06.260 --> 00:05:09.260
+Twitter i oko 350.000 drugih mjesta koriste reCaptchu.
+
+00:05:09.260 --> 00:05:11.260
+I u stvari, broj mjesta koji koriste reCaptchu je tako visok
+
+00:05:11.260 --> 00:05:14.260
+da je broj riječi koje digitaliziramo na dan, stvarno, stvarno velik.
+
+00:05:14.260 --> 00:05:16.260
+To je oko 100 milijuna na dan,
+
+00:05:16.260 --> 00:05:20.260
+što je ekvivalent oko dva i pol milijuna knjiga godišnje.
+
+00:05:20.260 --> 00:05:22.260
+I sve rade s jednom po jednom riječju
+
+00:05:22.260 --> 00:05:24.260
+samo ljudi koji tipkaju Captchu na Internetu.
+
+00:05:24.260 --> 00:05:32.260
+(Pljesak)
+
+00:05:32.260 --> 00:05:34.260
+Naravno,
+
+00:05:34.260 --> 00:05:36.260
+budući da obrađujemo toliko riječi na dan,
+
+00:05:36.260 --> 00:05:38.260
+mogu se dogoditi smiješne stvari.
+
+00:05:38.260 --> 00:05:40.260
+I to je posebno istinito zato što sada dajemo ljudima
+
+00:05:40.260 --> 00:05:42.260
+dvije nasumično izabrane engleske riječi jednu pokraj druge.
+
+00:05:42.260 --> 00:05:44.260
+Pa se mogu dogoditi smiješne stvari.
+
+00:05:44.260 --> 00:05:46.260
+Npr., prikazali smo ovu riječ.
+
+00:05:46.260 --> 00:05:48.260
+To je riječ "Christians" (kršćani); sve je u redu s njom.
+
+00:05:48.260 --> 00:05:51.260
+Ali ako ju prikažete zajedno s drugom nasumično odabranom riječi,
+
+00:05:51.260 --> 00:05:53.260
+loše se stvari mogu dogoditi.
+
+00:05:53.260 --> 00:05:55.260
+Pa dobivamo ovo. (Tekst: loši kršćani)
+
+00:05:55.260 --> 00:05:58.260
+Ali još je gore, zato što se određena mrežna mjesta gdje smo ovo pokazali
+
+00:05:58.260 --> 00:06:01.260
+zapravo nazivaju Poslanstvo Kraljevstva Božjeg.
+
+00:06:01.260 --> 00:06:03.260
+(Smijeh)
+
+00:06:03.260 --> 00:06:05.260
+Joj.
+
+00:06:05.260 --> 00:06:08.260
+(Smijeh)
+
+00:06:08.260 --> 00:06:10.260
+Evo još jednog stvarno lošeg.
+
+00:06:10.260 --> 00:06:12.260
+JohnEdwards.com
+
+00:06:12.260 --> 00:06:15.260
+(Tekst: Damn liberal - prokleti liberal)
+
+00:06:15.260 --> 00:06:17.260
+(Smijeh)
+
+00:06:17.260 --> 00:06:20.260
+Nastavljamo vrijeđati ljude na sve strane svaki dan.
+
+00:06:20.260 --> 00:06:22.260
+Naravno, ne vrijeđamo samo ljude.
+
+00:06:22.260 --> 00:06:25.260
+Evo o čemu se radi, budući da prikazujemo dvije nasumično izabrane riječi,
+
+00:06:25.260 --> 00:06:27.260
+zanimljive se stvari mogu dogoditi.
+
+00:06:27.260 --> 00:06:29.260
+Ovo je zapravo dovelo do
+
+00:06:29.260 --> 00:06:32.260
+stvarno velikog internetskog fenomena
+
+00:06:32.260 --> 00:06:34.260
+u kojem su sudjelovali deseci tisuća ljudi,
+
+00:06:34.260 --> 00:06:36.260
+koji se naziva umjetnost Captcha.
+
+00:06:36.260 --> 00:06:38.260
+Siguran sam da su neki od vas čuli za to.
+
+00:06:38.260 --> 00:06:40.260
+Evo kako funkcionira.
+
+00:06:40.260 --> 00:06:42.260
+Zamislite da ste na Internetu i vidite Captchu
+
+00:06:42.260 --> 00:06:44.260
+za koju mislite da je pomalo neobična,
+
+00:06:44.260 --> 00:06:46.260
+kao ova Captcha. (Tekst: nevidljivi toster)
+
+00:06:46.260 --> 00:06:48.260
+Ono što bi trebali učiniti jest snimiti sadržaj ekrana.
+
+00:06:48.260 --> 00:06:50.260
+Zatim, naravno, ispunite Captchu
+
+00:06:50.260 --> 00:06:52.260
+zato što nam pomažete digitalizirati knjige.
+
+00:06:52.260 --> 00:06:54.260
+Ali zatim, prvo snimite sadržaj ekrana,
+
+00:06:54.260 --> 00:06:56.260
+i zatim nacrtate nešto što ima veze s tim.
+
+00:06:56.260 --> 00:06:58.260
+(Smijeh)
+
+00:06:58.260 --> 00:07:01.260
+Tako to funkcionira.
+
+00:07:01.260 --> 00:07:04.260
+Postoje deseci tisuća takvih.
+
+00:07:04.260 --> 00:07:06.260
+Neke od njih su stvarno ljupke. (Tekst: stisnuti ga)
+
+00:07:06.260 --> 00:07:08.260
+(Smijeh)
+
+00:07:08.260 --> 00:07:10.260
+Neke od njih su smiješnije.
+
+00:07:10.260 --> 00:07:13.260
+(Tekst: napušeni osnivači)
+
+00:07:13.260 --> 00:07:16.260
+(Smijeh)
+
+00:07:16.260 --> 00:07:18.260
+A neki od njih,
+
+00:07:18.260 --> 00:07:21.260
+kao "paleontološki shvisle",
+
+00:07:21.260 --> 00:07:23.260
+imaju Snoop Dogga.
+
+00:07:23.260 --> 00:07:26.260
+(Smijeh)
+
+00:07:26.260 --> 00:07:28.260
+U redu, ovo je moj najdraži broj reCaptche.
+
+00:07:28.260 --> 00:07:31.260
+Ovo je najdraža stvar koju volim u cijelom ovom projektu.
+
+00:07:31.260 --> 00:07:33.260
+Ovo je broj određenih ljudi
+
+00:07:33.260 --> 00:07:36.260
+koji su nam pomogli digitalizirati najmanje jednu riječ iz knjige putem reCaptche.
+
+00:07:36.260 --> 00:07:38.260
+750 milijuna,
+
+00:07:38.260 --> 00:07:40.260
+što je malo preko 10 posto svjetske populacije,
+
+00:07:40.260 --> 00:07:42.260
+pomoglo nam je digitalizirati ljudsko znanje.
+
+00:07:42.260 --> 00:07:45.260
+Upravo brojevi poput ovih motiviraju moju istraživačku agendu.
+
+00:07:45.260 --> 00:07:48.260
+Dakle, pitanje koje motivira moje istraživanje glasi:
+
+00:07:48.260 --> 00:07:50.260
+ako pogledate velika ljudska dostignuća,
+
+00:07:50.260 --> 00:07:52.260
+te doista velike stvari
+
+00:07:52.260 --> 00:07:55.260
+koje je čovječanstvo steklo zajedno i učinilo povijesno --
+
+00:07:55.260 --> 00:07:57.260
+kao npr., gradnja egipatskih piramida
+
+00:07:57.260 --> 00:07:59.260
+ili Panamskog kanala
+
+00:07:59.260 --> 00:08:01.260
+ili slanje čovjeka na Mjesec --
+
+00:08:01.260 --> 00:08:03.260
+zanimljiva je činjenica
+
+00:08:03.260 --> 00:08:05.260
+da su sve napravljene s otprilike istim brojem ljudi.
+
+00:08:05.260 --> 00:08:08.260
+Čudno je; sve su napravljene s oko 100.000 ljudi.
+
+00:08:08.260 --> 00:08:11.260
+I razlog je tomu taj što je, prije Interneta,
+
+00:08:11.260 --> 00:08:13.260
+koordinacija više od 100.000 ljudi,
+
+00:08:13.260 --> 00:08:16.260
+a da i ne spominjem njihovo plaćanje, bilo u osnovi nemoguće.
+
+00:08:16.260 --> 00:08:18.260
+Ali sad s Internetom, upravo sam vam pokazao projekt
+
+00:08:18.260 --> 00:08:20.260
+gdje nam je 750 milijuna ljudi
+
+00:08:20.260 --> 00:08:22.260
+pomoglo digitalizirati ljudsko znanje.
+
+00:08:22.260 --> 00:08:24.260
+Pa pitanje koje motivira moje istraživanje glasi,
+
+00:08:24.260 --> 00:08:27.260
+ako možemo poslati čovjeka na Mjesec sa 100.000,
+
+00:08:27.260 --> 00:08:29.260
+što možemo učiniti sa 100 milijuna?
+
+00:08:29.260 --> 00:08:31.260
+Na temelju ovog pitanja,
+
+00:08:31.260 --> 00:08:33.260
+imamo puno različitih projekata na kojima radimo.
+
+00:08:33.260 --> 00:08:36.260
+Reći ću vam nešto o jednom zbog kojeg sam najviše uzbuđen.
+
+00:08:36.260 --> 00:08:38.260
+To je nešto na čemu smo napola tiho radili
+
+00:08:38.260 --> 00:08:40.260
+zadnju godinu i pol.
+
+00:08:40.260 --> 00:08:42.260
+Još nije pokrenut. Naziva se Duolingo.
+
+00:08:42.260 --> 00:08:44.260
+Budući da još nije pokrenut, pssst!
+
+00:08:44.260 --> 00:08:46.260
+(Smijeh)
+
+00:08:46.260 --> 00:08:48.260
+Da, vjerujem vam da ćete to učiniti.
+
+00:08:48.260 --> 00:08:50.260
+Ovo je projekt. Evo kako je počeo.
+
+00:08:50.260 --> 00:08:52.260
+Počeo je s pitanjem koje sam postavio svojem diplomiranom studentu,
+
+00:08:52.260 --> 00:08:54.260
+Severinu Hackeru.
+
+00:08:54.260 --> 00:08:56.260
+Ok, ovo je Severin Hacker.
+
+00:08:56.260 --> 00:08:58.260
+Dakle, postavio sam pitanje svojem studentu.
+
+00:08:58.260 --> 00:09:00.260
+Uzgred budi rečeno, dobro ste me čuli;
+
+00:09:00.260 --> 00:09:02.260
+njegovo je prezime Hacker.
+
+00:09:02.260 --> 00:09:04.260
+Postavio sam mu pitanje:
+
+00:09:04.260 --> 00:09:06.260
+Kako pridobiti 100 milijuna ljudi
+
+00:09:06.260 --> 00:09:09.260
+da prevode Mrežu na sve veće jezike besplatno?
+
+00:09:09.260 --> 00:09:11.260
+Ok, ima puno stvari koje se mogu reći o ovom pitanju.
+
+00:09:11.260 --> 00:09:13.260
+Prvo, prevoditi Mrežu.
+
+00:09:13.260 --> 00:09:16.260
+Trenutno je Mreža podijeljena na brojne jezike.
+
+00:09:16.260 --> 00:09:18.260
+Velik dio je na engleskom.
+
+00:09:18.260 --> 00:09:20.260
+Ako imalo ne znaš engleski, ne možeš joj pristupiti.
+
+00:09:20.260 --> 00:09:22.260
+Ali postoje veliki dijelovi na drugim jezicima,
+
+00:09:22.260 --> 00:09:25.260
+i ako ne znaš te jezike, ne možeš joj pristupiti.
+
+00:09:25.260 --> 00:09:28.260
+Želio bih prevesti svu Mrežu, ili barem većinu Mreže,
+
+00:09:28.260 --> 00:09:30.260
+na svaki veći jezik.
+
+00:09:30.260 --> 00:09:32.260
+Dakle, to bih želio napraviti.
+
+00:09:32.260 --> 00:09:35.260
+Sad, neki od vas bi mogli reći, zašto ne možemo upotrijebiti kompjutore da prevode?
+
+00:09:35.260 --> 00:09:37.260
+Zašto ne možemo upotrijebiti automatski prijevod?
+
+00:09:37.260 --> 00:09:39.260
+Automatski prijevod danas počinje prevoditi tu i tamo neke rečenice.
+
+00:09:39.260 --> 00:09:41.260
+Zašto ga ne možemo upotrijebiti da prevedemo cijelu Mrežu?
+
+00:09:41.260 --> 00:09:43.260
+Pa, problem je u tome da još uvijek nije dovoljno dobar
+
+00:09:43.260 --> 00:09:45.260
+i najvjerojatnije neće biti 15 do 20 godina.
+
+00:09:45.260 --> 00:09:47.260
+Radi puno grešaka.
+
+00:09:47.260 --> 00:09:49.260
+Čak i kad ne griješi,
+
+00:09:49.260 --> 00:09:52.260
+budući da radi tako puno grešaka, ne znate da li da mu vjerujete ili ne.
+
+00:09:52.260 --> 00:09:54.260
+Pokazat ću vam jedan primjer
+
+00:09:54.260 --> 00:09:56.260
+nečega što je bilo prevedeno sa strojem.
+
+00:09:56.260 --> 00:09:58.260
+Zapravo je to bio post na forumu.
+
+00:09:58.260 --> 00:10:01.260
+Netko je pokušavao postaviti pitanje o JavaScriptu.
+
+00:10:01.260 --> 00:10:04.260
+Preveden je s japanskog na engleski.
+
+00:10:04.260 --> 00:10:06.260
+Pustit ću vas da pročitate.
+
+00:10:06.260 --> 00:10:08.260
+Ova osoba počinje se ispričavati
+
+00:10:08.260 --> 00:10:10.260
+zbog činjenice da je prevedeno kompjuterom.
+
+00:10:10.260 --> 00:10:13.260
+Pa će sljedeća rečenica biti uvod u pitanje.
+
+00:10:13.260 --> 00:10:15.260
+On samo objašnjava nešto.
+
+00:10:15.260 --> 00:10:18.260
+Zapamtite, ovo je pitanje o JavaScriptu.
+
+00:10:19.260 --> 00:10:23.260
+(Tekst: Na često, jarac-vrijeme instalira greška je izbljuvak.)
+
+00:10:23.260 --> 00:10:27.260
+(Smijeh)
+
+00:10:27.260 --> 00:10:30.260
+Zatim dolazi prvi dio pitanja.
+
+00:10:30.260 --> 00:10:34.260
+(Tekst: Koliko puta kao vjetar, štap, i zmaj?)
+
+00:10:34.260 --> 00:10:36.260
+(Smijeh)
+
+00:10:36.260 --> 00:10:39.260
+Zatim dolazi moj omiljeni dio pitanja.
+
+00:10:39.260 --> 00:10:42.260
+(Tekst: Ovo uvreda očevom kamenju?)
+
+00:10:42.260 --> 00:10:44.260
+(Smijeh)
+
+00:10:44.260 --> 00:10:47.260
+Zatim dolazi kraj, moj najdraži dio cijele stvari.
+
+00:10:47.260 --> 00:10:51.260
+(Tekst: Molim ispričati se za vašu glupost. Ima mnogo hvala vam.)
+
+00:10:51.260 --> 00:10:53.260
+(Smijeh)
+
+00:10:53.260 --> 00:10:55.260
+Ok, kompjuterski prijevod, još nije dovoljno dobar.
+
+00:10:55.260 --> 00:10:57.260
+Nazad k pitanju.
+
+00:10:57.260 --> 00:11:00.260
+Trebamo ljude da prevode cijelu Mrežu.
+
+00:11:00.260 --> 00:11:02.260
+Dakle, sljedeće pitanje koje bi mogli imati glasi,
+
+00:11:02.260 --> 00:11:04.260
+pa zašto ne možemo samo platiti ljudima da to učine?
+
+00:11:04.260 --> 00:11:07.260
+Možemo platiti profesionalnim prevoditeljima da prevedu cijelu Mrežu.
+
+00:11:07.260 --> 00:11:09.260
+Mogli bi to učiniti.
+
+00:11:09.260 --> 00:11:11.260
+Na žalost, bilo bi ekstremno skupo.
+
+00:11:11.260 --> 00:11:14.260
+Npr., prijevod malenog, malenog dijela cijele Mreže, Wikipedie,
+
+00:11:14.260 --> 00:11:17.260
+na jedan drugi jezik, španjolski.
+
+00:11:17.260 --> 00:11:19.260
+Wikipedia postoji na španjolskom,
+
+00:11:19.260 --> 00:11:21.260
+ali je jako mala u usporedbi s veličinom na engleskom.
+
+00:11:21.260 --> 00:11:23.260
+Iznosi oko 20 posto veličine na engleskom.
+
+00:11:23.260 --> 00:11:26.260
+Da smo željeli prevesti ostalih 80 posto na španjolski,
+
+00:11:26.260 --> 00:11:28.260
+koštalo bi nas najmanje 50 milijuna dolara --
+
+00:11:28.260 --> 00:11:31.260
+i to kod najiskorištenije, najiznajmljivačke zemlje koja postoji.
+
+00:11:31.260 --> 00:11:33.260
+Bilo bi vrlo skupo.
+
+00:11:33.260 --> 00:11:35.260
+Dakle, ono što želimo jest pridobiti 100 milijuna ljudi
+
+00:11:35.260 --> 00:11:37.260
+da prevode Mrežu na svaki veći jezik
+
+00:11:37.260 --> 00:11:39.260
+besplatno.
+
+00:11:39.260 --> 00:11:41.260
+Ako je ovo to što želite učiniti,
+
+00:11:41.260 --> 00:11:43.260
+vrlo brzo ćete shvatiti da ćete naletjeti na dvije prilično velike prepreke,
+
+00:11:43.260 --> 00:11:45.260
+dvije velike poteškoće.
+
+00:11:45.260 --> 00:11:48.260
+Prva je nedostatak bilingvista.
+
+00:11:48.260 --> 00:11:50.260
+Pa čak ni ne znam
+
+00:11:50.260 --> 00:11:53.260
+postoji li 100 milijuna ljudi koji koriste Mrežu
+
+00:11:53.260 --> 00:11:55.260
+koji su dovoljno bilingvalni da nam pomognu prevoditi.
+
+00:11:55.260 --> 00:11:57.260
+To je velik problem.
+
+00:11:57.260 --> 00:11:59.260
+Drugi problem na koji ćete naići jest nedostatak motivacije.
+
+00:11:59.260 --> 00:12:01.260
+Kako ćemo motivirati ljude
+
+00:12:01.260 --> 00:12:03.260
+da ustvari prevode Mrežu besplatno?
+
+00:12:03.260 --> 00:12:06.260
+Inače moraš platiti ljudima da to naprave.
+
+00:12:06.260 --> 00:12:08.260
+Kako ćemo ih motivirati da to naprave besplatno?
+
+00:12:08.260 --> 00:12:11.260
+Kad smo započinjali razmišljati o tome, zaustavile su nas ove dvije stvari.
+
+00:12:11.260 --> 00:12:13.260
+Ali tad smo shvatili da ustvari postoji način
+
+00:12:13.260 --> 00:12:15.260
+da riješimo oba problema istom solucijom.
+
+00:12:15.260 --> 00:12:17.260
+Postoji način da se ubiju dvije muhe jednim udarcem.
+
+00:12:17.260 --> 00:12:20.260
+A to je da se transformira prevođenje
+
+00:12:20.260 --> 00:12:23.260
+na nešto što milijuni ljudi žele učiniti,
+
+00:12:23.260 --> 00:12:26.260
+što također pomaže kod problema s nedostatkom bilingvista,
+
+00:12:26.260 --> 00:12:29.260
+a to je učenje jezika.
+
+00:12:29.260 --> 00:12:31.260
+Ispada da danas,
+
+00:12:31.260 --> 00:12:34.260
+postoji preko 1,2 milijarde ljudi koji uče strani jezik.
+
+00:12:34.260 --> 00:12:36.260
+Ljudi doista, doista žele učiti strani jezik.
+
+00:12:36.260 --> 00:12:39.260
+I to nije samo zato što ih se tjera na to u školi.
+
+00:12:39.260 --> 00:12:41.260
+Npr., samo u Sjedinjenim Državama,
+
+00:12:41.260 --> 00:12:43.260
+ima preko pet milijuna ljudi koji su platili više od 500 dolara
+
+00:12:43.260 --> 00:12:45.260
+za softver za učenje novog jezika.
+
+00:12:45.260 --> 00:12:47.260
+Pa ljudi doista, doista žele naučiti novi jezik.
+
+00:12:47.260 --> 00:12:50.260
+Dakle, ono na čemu smo radili zadnju godinu i pol je novo mrežno mjesto --
+
+00:12:50.260 --> 00:12:52.260
+Duolingo --
+
+00:12:52.260 --> 00:12:55.260
+gdje je osnovna ideja da ljudi uče novi jezik besplatno
+
+00:12:55.260 --> 00:12:57.260
+dok istovremeno prevode Mrežu.
+
+00:12:57.260 --> 00:12:59.260
+I u osnovi uče dok prevode.
+
+00:12:59.260 --> 00:13:01.260
+Način na koji ovo funkcionira
+
+00:13:01.260 --> 00:13:04.260
+jest da kad god ste samo početnik, dajemo vam vrlo, vrlo jednostavne rečenice.
+
+00:13:04.260 --> 00:13:06.260
+Postoji, naravno, puno vrlo jednostavnih rečenica na Mreži.
+
+00:13:06.260 --> 00:13:08.260
+Dajemo vam vrlo, vrlo jednostavne rečenice
+
+00:13:08.260 --> 00:13:10.260
+zajedno s onim što svaka riječ znači.
+
+00:13:10.260 --> 00:13:13.260
+I kako ih prevodite, i dok gledate kako ih drugi ljudi prevode,
+
+00:13:13.260 --> 00:13:15.260
+počinjete učiti jezik.
+
+00:13:15.260 --> 00:13:17.260
+I kako postajete sve više napredni,
+
+00:13:17.260 --> 00:13:19.260
+dajemo vam sve složenije rečenice na prijevod.
+
+00:13:19.260 --> 00:13:21.260
+Ali cijelo vrijeme, učite dok prevodite.
+
+00:13:21.260 --> 00:13:23.260
+Sad, luda stvar u svezi s ovom metodom
+
+00:13:23.260 --> 00:13:25.260
+jest da ona doista funkcionira.
+
+00:13:25.260 --> 00:13:27.260
+Prvo, ljudi doista, doista uče jezik.
+
+00:13:27.260 --> 00:13:29.260
+Uglavnom smo završili s izradom, sada ga testiramo.
+
+00:13:29.260 --> 00:13:31.260
+Ljudi doista mogu naučiti jezik s njim.
+
+00:13:31.260 --> 00:13:34.260
+I uče ga gotovo jednako dobro kao s vodećim softverom za učenje jezika.
+
+00:13:34.260 --> 00:13:36.260
+Pa ljudi doista nauče jezik.
+
+00:13:36.260 --> 00:13:38.260
+I ne samo da ga nauče jednako dobro,
+
+00:13:38.260 --> 00:13:40.260
+zapravo je puno zanimljivije.
+
+00:13:40.260 --> 00:13:43.260
+Zato što s Duolingom ljudi zapravo uče sa stvarnim sadržajem.
+
+00:13:43.260 --> 00:13:45.260
+U suprotnosti s učenjem s izmišljenim rečenicama,
+
+00:13:45.260 --> 00:13:48.260
+ljudi uče sa stvarnim sadržajem koji je po sebi zanimljiv.
+
+00:13:48.260 --> 00:13:50.260
+Pa ljudi stvarno uče jezik.
+
+00:13:50.260 --> 00:13:52.260
+Ali možda što je još veće iznenađenje,
+
+00:13:52.260 --> 00:13:55.260
+prijevodi koje dobivamo od ljudi koji koriste mjesto,
+
+00:13:55.260 --> 00:13:57.260
+iako su samo početnici,
+
+00:13:57.260 --> 00:14:00.260
+prijevodi koje dobivamo su jednako točni kao oni profesionalnih prevoditelja,
+
+00:14:00.260 --> 00:14:02.260
+što vrlo iznenađuje.
+
+00:14:02.260 --> 00:14:04.260
+Pokazat će vam jedan primjer.
+
+00:14:04.260 --> 00:14:06.260
+Ovo je rečenica prevedena s njemačkog na engleski.
+
+00:14:06.260 --> 00:14:08.260
+Na vrhu je njemački.
+
+00:14:08.260 --> 00:14:10.260
+U sredini je prijevod na engleski
+
+00:14:10.260 --> 00:14:12.260
+profesionalnog prevoditelja engleskog jezika
+
+00:14:12.260 --> 00:14:14.260
+kojeg smo platili 20 centi za riječ za ovaj prijevod.
+
+00:14:14.260 --> 00:14:17.260
+Na dnu je prijevod korisnika Duolinga,
+
+00:14:17.260 --> 00:14:19.260
+od kojih ni jedan nije znao njemački
+
+00:14:19.260 --> 00:14:21.260
+prije nego što su počeli koristiti mjesto.
+
+00:14:21.260 --> 00:14:23.260
+Možete vidjeti da je prilično savršen.
+
+00:14:23.260 --> 00:14:25.260
+Naravno, izveli smo trik
+
+00:14:25.260 --> 00:14:27.260
+da napravimo prijevode jednako dobrima kao one profesionalnih prevoditelja.
+
+00:14:27.260 --> 00:14:30.260
+Kombinirali smo prijevode više početnika
+
+00:14:30.260 --> 00:14:33.260
+da dobijemo kvalitetu jednog profesionalnog prevoditelja.
+
+00:14:33.260 --> 00:14:38.260
+Iako kombiniramo prijevode,
+
+00:14:38.260 --> 00:14:40.260
+mjesto zapravo može prevoditi prilično brzo.
+
+00:14:40.260 --> 00:14:42.260
+Pokazat ću vam
+
+00:14:42.260 --> 00:14:44.260
+koje su naše procjene koliko brzo možemo prevesti Wikipediu
+
+00:14:44.260 --> 00:14:46.260
+s engleskog na španjolski.
+
+00:14:46.260 --> 00:14:49.260
+Zapamtite, to je vrijednost od 50 milijuna dolara.
+
+00:14:49.260 --> 00:14:51.260
+Da smo htjeli prevesti Wikipediu na španjolski,
+
+00:14:51.260 --> 00:14:54.260
+napravili bismo to u pet tjedana sa 100.000 aktivnih korisnika.
+
+00:14:54.260 --> 00:14:57.260
+I mogli smo to napraviti za otprilike 80 sati s milijun aktivnih korisnika.
+
+00:14:57.260 --> 00:15:00.260
+Budući da su svi projekti na kojima je radila moja grupa dosad pridobili milijune korisnika,
+
+00:15:00.260 --> 00:15:02.260
+nadamo se da ćemo biti u mogućnosti prevoditi
+
+00:15:02.260 --> 00:15:04.260
+ekstremno brzo s ovim projektom.
+
+00:15:04.260 --> 00:15:07.260
+Ono što me najviše uzbuđuju kod Duolinga
+
+00:15:07.260 --> 00:15:10.260
+jest to da omogućuje pošteni poslovni model za učenje jezika.
+
+00:15:10.260 --> 00:15:12.260
+Evo o čemu se radi:
+
+00:15:12.260 --> 00:15:14.260
+Sadašnji poslovni model za učenje jezika sastoji se u tome da
+
+00:15:14.260 --> 00:15:16.260
+učenik plaća,
+
+00:15:16.260 --> 00:15:18.260
+i posebno, učenik plaća Rosetti Stone 500 dolara.
+
+00:15:18.260 --> 00:15:20.260
+(Smijeh)
+
+00:15:20.260 --> 00:15:22.260
+To je sadašnji poslovni model.
+
+00:15:22.260 --> 00:15:24.260
+Problem je s tim poslovnim modelom u tome
+
+00:15:24.260 --> 00:15:27.260
+da 95 posto svjetske populacije nema 500 dolara.
+
+00:15:27.260 --> 00:15:30.260
+To je krajnje nepošteno prema siromašnima.
+
+00:15:30.260 --> 00:15:32.260
+Ovo je u potpunosti podređeno bogatima.
+
+00:15:32.260 --> 00:15:34.260
+Sad, u Duolingu,
+
+00:15:34.260 --> 00:15:36.260
+zato što, dok učite
+
+00:15:36.260 --> 00:15:39.260
+vi zapravo stvarate vrijednost, prevodite stvari --
+
+00:15:39.260 --> 00:15:42.260
+za koje bi npr.mogli platiti nekoga za prijevod.
+
+00:15:42.260 --> 00:15:44.260
+Ovo je način na koji bi to mogli unovčiti.
+
+00:15:44.260 --> 00:15:46.260
+Budući da ljudi stvaraju vrijednost dok uče,
+
+00:15:46.260 --> 00:15:49.260
+ne moraju plaćati novcem, oni plaćaju svojim vremenom.
+
+00:15:49.260 --> 00:15:52.260
+Magična je stvar u tome da plaćaju svojim vremenom,
+
+00:15:52.260 --> 00:15:54.260
+ali to je vrijeme koje bi ionako potrošili
+
+00:15:54.260 --> 00:15:56.260
+učeći jezik.
+
+00:15:56.260 --> 00:15:59.260
+Dakle, lijepa stvar u svezi s Duolingom je u tom što, mislim, omogućuje pošten poslovni model --
+
+00:15:59.260 --> 00:16:01.260
+onaj koji ne diskriminira siromašne ljude.
+
+00:16:01.260 --> 00:16:03.260
+Ovo je stranica. Hvala vam.
+
+00:16:03.260 --> 00:16:11.260
+(Pljesak)
+
+00:16:11.260 --> 00:16:13.260
+Ovo je stranica.
+
+00:16:13.260 --> 00:16:15.260
+Još nije pokrenuto,
+
+00:16:15.260 --> 00:16:18.260
+ali ako odete tamo, možete se upisati da budete dio naše probne verzije,
+
+00:16:18.260 --> 00:16:20.260
+koja će najvjerojatnije početi za tri do četiri tjedna.
+
+00:16:20.260 --> 00:16:22.260
+Još uvijek nismo pokrenuli Duolingo.
+
+00:16:22.260 --> 00:16:24.260
+Uzgred budi rečeno, ja sam taj koji govori,
+
+00:16:24.260 --> 00:16:27.260
+ali zapravo Duolingo je rad stvarno fenomenalnog tima, od kojeg su neki ovdje.
+
+00:16:27.260 --> 00:16:29.260
+Hvala vam.
+
+00:16:29.260 --> 00:16:33.260
+(Pljesak)
+

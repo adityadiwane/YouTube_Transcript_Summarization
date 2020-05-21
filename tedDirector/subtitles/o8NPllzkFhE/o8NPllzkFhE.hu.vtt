@@ -1,0 +1,1572 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Ildiko Eros
+Lektor: Gyula Rácz
+
+00:00:13.460 --> 00:00:15.635
+Chris Anderson: 
+Ez azért elég furcsa dolog.
+
+00:00:15.659 --> 00:00:18.817
+Operációs rendszered, a Linux, 
+ott van számítógépek millióin,
+
+00:00:18.841 --> 00:00:22.388
+valószínűleg az internet 
+nagy részét működteti.
+
+00:00:22.412 --> 00:00:24.175
+És azt hiszem, ezzel egy időben
+
+00:00:24.199 --> 00:00:27.544
+másfél milliárd Android eszközt
+használnak a világban.
+
+00:00:27.568 --> 00:00:30.169
+A te rendszered fut minden egyes darabon.
+
+00:00:30.808 --> 00:00:31.958
+Tényleg lenyűgöző.
+
+00:00:31.982 --> 00:00:37.017
+Biztos valami szuper szoftverközpontból
+irányítod ezt az egészet --
+
+00:00:37.041 --> 00:00:40.347
+gondoltam én. Aztán megdöbbentem, 
+amikor láttam egy képet róla.
+
+00:00:40.371 --> 00:00:41.571
+Erre gondolok --
+
+00:00:41.595 --> 00:00:43.845
+ez a Linux birodalom főhadiszállása.
+
+00:00:43.869 --> 00:00:45.859
+(nevetés)
+
+00:00:45.883 --> 00:00:49.889
+(taps)
+
+00:00:49.913 --> 00:00:52.199
+Linus Torvalds: Tényleg nem valami 
+nagy szám.
+
+00:00:52.223 --> 00:00:53.899
+És el kell mondjam,
+
+00:00:53.923 --> 00:00:57.743
+hogy a kép legérdekesebb részlete,
+
+00:00:57.767 --> 00:00:59.470
+amire az emberek felfigyelnek,
+
+00:00:59.494 --> 00:01:00.937
+az a gyaloglópados íróasztal.
+
+00:01:00.961 --> 00:01:03.660
+Ez az irodám legérdekesebb darabja,
+
+00:01:03.684 --> 00:01:05.644
+de már nem is használom.
+
+00:01:05.668 --> 00:01:07.960
+És az hiszem, a két dolog összefügg.
+
+00:01:09.206 --> 00:01:11.531
+Úgy, dolgozom, hogy...
+
+00:01:13.245 --> 00:01:17.594
+nem akarok külső hatásokat.
+
+00:01:18.170 --> 00:01:23.437
+Láthatod a falakon 
+ezt a halványzöld színt.
+
+00:01:23.461 --> 00:01:27.925
+Azt mondták nekem, 
+elmegyógyintézetek használják ezt.
+
+00:01:27.949 --> 00:01:28.996
+(nevetés)
+
+00:01:29.020 --> 00:01:30.805
+Olyan megnyugtató szín,
+
+00:01:30.829 --> 00:01:33.946
+nem olyasmi, ami különösképpen 
+hatással van rád.
+
+00:01:35.064 --> 00:01:39.489
+Amit nem látsz, az a számítógép, 
+csak egy monitor van a képen,
+
+00:01:39.513 --> 00:01:42.894
+de a legfontosabb dolog 
+a gépemmel kapcsolatban, hogy
+
+00:01:42.918 --> 00:01:46.253
+- nem muszáj óriásnak és erősnek 
+lennie, noha azt szeretem -
+
+00:01:46.277 --> 00:01:49.109
+viszont abszolút csöndes kell, 
+hogy legyen.
+
+00:01:49.975 --> 00:01:51.986
+Ismerek embereket a Google-nál,
+
+00:01:52.010 --> 00:01:55.217
+akiknek megvan a kis 
+adatközpontjuk odahaza,
+
+00:01:55.241 --> 00:01:56.393
+nekem nincs ilyen.
+
+00:01:56.417 --> 00:02:00.122
+Az én irodám a legunalmasabb, 
+amit valaha láttál.
+
+00:02:00.146 --> 00:02:03.660
+És csak ülök ott csendben.
+
+00:02:04.136 --> 00:02:06.173
+Ha a cica felbukkan,
+
+00:02:06.197 --> 00:02:08.034
+beül az ölembe.
+
+00:02:08.058 --> 00:02:10.248
+Azt akarom hallani, ahogy dorombol,
+
+00:02:10.272 --> 00:02:13.446
+nem a számítógép ventilátorának zúgását.
+
+00:02:13.470 --> 00:02:14.779
+CA: Azért ez megdöbbentő,
+
+00:02:14.803 --> 00:02:17.481
+hogy ilyen munkamódszerrel
+
+00:02:17.505 --> 00:02:20.493
+képes vagy irányítani ezt a hatalmas 
+műszaki birodalmat -
+
+00:02:20.517 --> 00:02:21.738
+mert ez egy birodalom -
+
+00:02:21.762 --> 00:02:25.462
+ami a nyílt forráskód hatalmának 
+lenyűgöző bizonyítéka.
+
+00:02:25.486 --> 00:02:29.662
+Mondd el nekünk, hogy kerültél 
+kapcsolatba a nyílt forráskóddal
+
+00:02:29.686 --> 00:02:31.938
+és hogyan vezetett ez a 
+Linux megszületéséhez.
+
+00:02:33.546 --> 00:02:35.051
+LT: Én egyedül dolgozom ma is.
+
+00:02:35.075 --> 00:02:38.642
+Tényleg - egyedül dolgozom otthon,
+
+00:02:38.666 --> 00:02:40.056
+gyakran fürdőköpenyben.
+
+00:02:40.080 --> 00:02:42.641
+Amikor egy fotós feltűnik, felöltözöm,
+
+00:02:42.665 --> 00:02:43.951
+így aztán van rajtam ruha.
+
+00:02:43.975 --> 00:02:45.212
+(nevetés)
+
+00:02:45.236 --> 00:02:47.308
+És mindig is így dolgoztam.
+
+00:02:47.332 --> 00:02:49.340
+Úgy értem, a Linuxot is így kezdtem.
+
+00:02:49.364 --> 00:02:53.013
+Nem pedig közös projektként, másokkal.
+
+00:02:53.037 --> 00:02:57.915
+Úgy indult, mint egy projekt a sok közül.
+
+00:02:57.939 --> 00:03:01.896
+Akkoriban magamnak csináltam,
+
+00:03:01.920 --> 00:03:03.822
+egyrészt, mert kellett a végeredmény,
+
+00:03:03.846 --> 00:03:06.148
+de még inkább, mert élveztem 
+a programozást.
+
+00:03:06.172 --> 00:03:10.546
+A végcélról szólt eredetileg
+
+00:03:10.570 --> 00:03:13.916
+amit most, 25 évvel később, 
+még mindig nem értünk el.
+
+00:03:13.940 --> 00:03:17.657
+De igazából inkább arról, hogy 
+találjak egy feladatot magamnak,
+
+00:03:17.681 --> 00:03:21.510
+és akkor még egyáltalán nem
+a nyílt forráskód lebegett a szemem előtt.
+
+00:03:21.988 --> 00:03:24.000
+És az történt, hogy...
+
+00:03:24.668 --> 00:03:29.220
+a projekt csak nő és lesz belőle valami, 
+amit meg akarsz mutatni másoknak.
+
+00:03:30.552 --> 00:03:34.669
+Olyasmi, hogy: 
+"Hú, nézd meg, mit csináltam!"
+
+00:03:34.693 --> 00:03:37.248
+És hidd el, ez nem volt akkoriban 
+olyan nagy szám.
+
+00:03:38.128 --> 00:03:40.002
+Nyilvánosan hozzáférhetővé tettem,
+
+00:03:40.026 --> 00:03:42.132
+de még akkor sem volt ez 
+"nyílt forráskód".
+
+00:03:42.156 --> 00:03:47.325
+Egyszerűen egy hozzáférhető forrás volt, 
+nem állt mögötte az a fajta
+
+00:03:47.349 --> 00:03:52.463
+szándék és értelmezés, ahogy ma a nyílt 
+forráskódra gondolunk,
+
+00:03:52.487 --> 00:03:53.638
+hogy továbbfejlesszük.
+
+00:03:53.662 --> 00:03:54.813
+Inkább az volt, hogy:
+
+00:03:54.837 --> 00:03:57.774
+"Nézzétek, ezen dolgoztam fél évig,
+
+00:03:58.459 --> 00:04:00.198
+és örülnék a véleményeteknek."
+
+00:04:00.717 --> 00:04:02.717
+És voltak, akik megkerestek.
+
+00:04:03.217 --> 00:04:04.869
+A Helsinki Egyetemen
+
+00:04:04.893 --> 00:04:08.608
+volt egy barátom, aki a 
+nyílt forráskóddal foglalkozott -
+
+00:04:08.632 --> 00:04:12.288
+- akkoriban ezt szabad
+szoftvernek hívták -
+
+00:04:12.312 --> 00:04:16.586
+ő vezetett be ennek a fogalmába, 
+mondván, hogy
+
+00:04:16.610 --> 00:04:21.967
+használhatod ezeket a nyílt forráskód 
+licenceket, amik már léteztek akkor.
+
+00:04:24.114 --> 00:04:26.155
+Gondolkoztam rajta egy darabig.
+
+00:04:26.179 --> 00:04:29.670
+Valójában tartottam a vele járó 
+gazdasági érdekektől.
+
+00:04:29.694 --> 00:04:34.168
+Úgy értem, ez egyfajta aggodalom,
+amivel a legtöbb ember küzd kezdetben,
+
+00:04:34.192 --> 00:04:39.152
+attól tartanak, hogy más megpróbál előnyt 
+kovácsolni a munkájukból, nem igaz?
+
+00:04:39.603 --> 00:04:42.859
+Aztán azt mondtam: "A fenébe is!"
+
+00:04:43.740 --> 00:04:44.890
+És -
+
+00:04:44.914 --> 00:04:46.209
+CA: És eljött a pont,
+
+00:04:46.233 --> 00:04:48.693
+hogy valaki beleírt abba,
+amit létrehoztál, mire te:
+
+00:04:48.717 --> 00:04:51.888
+"Hú, ez tényleg érdekes. 
+Erre nem is gondoltam volna.
+
+00:04:51.912 --> 00:04:53.563
+Így még jobb is, mint volt."
+
+00:04:53.587 --> 00:04:56.112
+LT: Még csak nem is a közös 
+programozással indult,
+
+00:04:56.136 --> 00:04:59.115
+többet jelentett, hogy elkezdtek 
+ötleteket adni.
+
+00:04:59.748 --> 00:05:02.994
+És pusztán a tény, hogy valaki 
+ránéz arra, amit csináltál -
+
+00:05:03.018 --> 00:05:05.566
+biztos vagyok benne, hogy ez 
+más dolgokra is igaz,
+
+00:05:05.590 --> 00:05:07.427
+de a programozásra biztosan -
+
+00:05:07.451 --> 00:05:10.950
+szóval az, hogy valaki mást érdekel
+a kód, amit írtál,
+
+00:05:10.974 --> 00:05:13.496
+képes valós visszajelzést
+
+00:05:13.520 --> 00:05:15.409
+és ötleteket adni.
+
+00:05:15.433 --> 00:05:17.134
+Ez nagyon nagy dolog volt számomra.
+
+00:05:17.158 --> 00:05:20.350
+21 éves voltam akkor, tehát fiatal,
+
+00:05:20.374 --> 00:05:23.611
+de már addig is a fél életemet 
+alapvetően a programozás töltötte ki.
+
+00:05:24.372 --> 00:05:28.344
+És korábban minden projektem 
+teljesen magánjellegű volt,
+
+00:05:28.368 --> 00:05:31.475
+így egyfajta kinyilatkoztatás volt, 
+amikor az emberek elkezdtek
+
+00:05:31.499 --> 00:05:34.800
+hozzászólni, visszacsatolást adni.
+
+00:05:34.824 --> 00:05:38.596
+És még mielőtt elkezdték volna 
+fejleszteni a programom
+
+00:05:38.620 --> 00:05:41.361
+jött el a nagy pillanat, 
+amikor azt mondtam:
+
+00:05:41.385 --> 00:05:43.258
+"Szeretem az embereket!"
+
+00:05:43.282 --> 00:05:44.439
+Ne érts félre -
+
+00:05:44.463 --> 00:05:46.087
+nem vagyok ám nagy emberbarát.
+
+00:05:46.111 --> 00:05:49.476
+(nevetés)
+
+00:05:49.500 --> 00:05:52.052
+Nem igazán kedvelem a többi embert.
+
+00:05:52.076 --> 00:05:53.096
+(nevetés)
+
+00:05:53.120 --> 00:05:54.746
+De szeretem a számítógépeket,
+
+00:05:54.770 --> 00:05:56.985
+szeretek kapcsolatban lenni 
+másokkal emailben,
+
+00:05:57.009 --> 00:06:00.341
+mert az egyfajta lökhárítóként működik.
+
+00:06:00.365 --> 00:06:06.866
+De imádom azokat, akik hozzászólnak 
+és belefolynak a projektembe.
+
+00:06:06.890 --> 00:06:08.543
+Ami ezáltal lett jóval több.
+
+00:06:09.273 --> 00:06:12.107
+CA: Volt egy pillanat, amikor
+láttad, hogy valami létrejött,
+
+00:06:12.131 --> 00:06:14.338
+és hirtelen már kezdett beindulni,
+
+00:06:14.362 --> 00:06:17.652
+és azt mondtad: "Várjunk csak, lehetne 
+ez valami nagy dolog is
+
+00:06:17.676 --> 00:06:20.588
+nemcsak egy saját projekt, 
+amire pozitívak a visszajelzések,
+
+00:06:20.612 --> 00:06:24.932
+hanem olyan átütő fejlesztés, ami 
+forradalmasítja az egész műszaki világot?"
+
+00:06:25.821 --> 00:06:26.980
+LT: Nem igazán.
+
+00:06:27.004 --> 00:06:30.576
+Számomra a nagy pillanat nem az volt, 
+amikor elkezdett óriássá nőni,
+
+00:06:30.600 --> 00:06:32.734
+inkább, amikor már lett belőle valami.
+
+00:06:33.709 --> 00:06:37.226
+A nagy pillanat az volt, hogy már 
+nem egyedül,
+
+00:06:37.250 --> 00:06:40.967
+hanem 10 vagy talán 
+100 emberrel csinálom -
+
+00:06:40.991 --> 00:06:42.470
+na ez volt a nagy pillanat.
+
+00:06:42.494 --> 00:06:45.533
+Utána minden más fokozatosan jött.
+
+00:06:45.557 --> 00:06:49.816
+100 embertől egy millióig jutni, 
+számomra nem nagy dolog.
+
+00:06:49.840 --> 00:06:51.673
+Jó, persze talán az, ha az ember -
+
+00:06:51.697 --> 00:06:52.698
+(nevetés)
+
+00:06:52.722 --> 00:06:55.440
+szóval, ha el akarod adni a terméked, 
+akkor tényleg az -
+
+00:06:55.464 --> 00:06:56.615
+félre ne érts!
+
+00:06:56.639 --> 00:06:58.766
+De ha a fejlesztés érdekel,
+
+00:06:58.790 --> 00:07:00.645
+és maga a projekt érdekel,
+
+00:07:00.669 --> 00:07:02.550
+akkor a lényeg a közösséget összehozni.
+
+00:07:02.574 --> 00:07:04.198
+Aztán a közösség fokozatosan nőtt.
+
+00:07:04.222 --> 00:07:07.570
+És nem volt olyan pont, amikor 
+azt mondtam volna, hogy:
+
+00:07:08.166 --> 00:07:10.342
+”Hú, ez most beindult!" - mert
+
+00:07:10.366 --> 00:07:13.690
+ez viszonylag hosszú időbe telt.
+
+00:07:13.714 --> 00:07:16.690
+CA: Minden programozó, akivel csak 
+beszéltem, neked köszönheti
+
+00:07:16.714 --> 00:07:19.588
+hogy alapjaiban változott meg a munkája.
+
+00:07:19.612 --> 00:07:21.235
+Nemcsak a Linux miatt,
+
+00:07:21.259 --> 00:07:22.705
+hanem itt van a Git is,
+
+00:07:22.729 --> 00:07:26.741
+ami egy szoftverfejlesztéshez készült 
+elosztott verziókezelő rendszer.
+
+00:07:26.765 --> 00:07:29.550
+Mondd el nekünk röviden, 
+mi ez és mi a szereped benne.
+
+00:07:30.481 --> 00:07:32.270
+LT: Szóval az egyik gondunk az volt,
+
+00:07:32.294 --> 00:07:35.346
+és kellett hozzá idő, míg ez kiderült,
+
+00:07:35.370 --> 00:07:36.525
+hogy...
+
+00:07:37.708 --> 00:07:43.040
+amikor már nem 10 vagy 100 ember
+dolgozik egy projekten
+
+00:07:43.064 --> 00:07:45.452
+hanem 10.000 ember, ami -
+
+00:07:45.476 --> 00:07:48.942
+szóval most abban a helyzetben 
+vagyunk, hogy a rendszerben
+
+00:07:48.966 --> 00:07:52.140
+1000 ember dolgozik 
+minden egyes verzión
+
+00:07:52.164 --> 00:07:55.750
+ami úgy kéthavonta, 
+két-három havonta jelenik meg.
+
+00:07:56.336 --> 00:07:58.757
+Néhányan közülük nem túl aktívak.
+
+00:07:58.781 --> 00:08:01.364
+Vannak sokan, akik apró 
+változtatásokat végeznek.
+
+00:08:01.388 --> 00:08:03.634
+De az egész fenntartásához
+
+00:08:03.658 --> 00:08:06.547
+változtatni kell a nagyságrenden.
+
+00:08:06.571 --> 00:08:08.969
+Elég sokat szenvedtünk vele.
+
+00:08:10.713 --> 00:08:17.242
+Vannak komplett rendszerek 
+kifejezetten verziókezeléshez
+
+00:08:17.266 --> 00:08:20.558
+a CVS az, amit régebben 
+általánosan használtak
+
+00:08:20.582 --> 00:08:24.479
+de én szívből utáltam a CVS-t, 
+hozzá se akartam nyúlni
+
+00:08:24.503 --> 00:08:27.566
+inkább írtam valamit, ami
+átütően más volt, érdekes
+
+00:08:27.590 --> 00:08:30.246
+és mindenki más utálta.
+
+00:08:31.004 --> 00:08:32.378
+CA: (nevet)
+
+00:08:32.402 --> 00:08:34.490
+Ott volt ez a szerencsétlen helyzet,
+
+00:08:34.514 --> 00:08:37.331
+hogy emberek ezrei akartak
+dolgozni velünk,
+
+00:08:37.355 --> 00:08:42.396
+de mindig én voltam 
+a szűk keresztmetszet,
+
+00:08:42.420 --> 00:08:44.944
+amíg nem tudtam a 
+feltételeket megteremteni,
+
+00:08:44.968 --> 00:08:47.768
+hogy több ezer emberrel 
+dolgozhassak.
+
+00:08:47.792 --> 00:08:50.244
+Szóval a Git a második nagy projektem,
+
+00:08:50.268 --> 00:08:54.806
+amit csak magamnak csináltam,
+hogy üzemeltessem az elsőt.
+
+00:08:55.433 --> 00:08:57.680
+Szó szerint így dolgozom.
+
+00:08:57.704 --> 00:09:00.209
+Nem programozok csak úgy -
+
+00:09:00.233 --> 00:09:01.955
+illetve igen, szórakozásképpen is
+
+00:09:01.979 --> 00:09:04.360
+de kell, hogy értelmes célja legyen,
+
+00:09:04.384 --> 00:09:08.431
+így aztán minden, amit valaha írtam,
+olyasmi, amire szükségem volt
+
+00:09:08.455 --> 00:09:09.831
+és -
+
+00:09:09.855 --> 00:09:13.288
+CA: Szóval mind a Linux, mind a Git
+létrejötte egyfajta,
+
+00:09:13.312 --> 00:09:15.648
+szinte véletlen következménye
+
+00:09:15.672 --> 00:09:18.343
+a vágynak, hogy ne kelljen 
+túl sok emberrel dolgoznod.
+
+00:09:18.367 --> 00:09:19.518
+LT: Abszolút mértékben.
+
+00:09:19.542 --> 00:09:20.622
+(nevetés)
+
+00:09:20.646 --> 00:09:22.296
+CA: Meglepő.
+LT: Az.
+
+00:09:22.320 --> 00:09:23.812
+(taps)
+
+00:09:23.836 --> 00:09:27.227
+És mégis te vagy az, aki 
+átalakította a szoftverfejlesztést
+
+00:09:27.251 --> 00:09:28.568
+nem egyszer, kétszer is,
+
+00:09:28.592 --> 00:09:31.175
+tehát meg kell próbálnunk megérteni,
+miért is történt.
+
+00:09:31.199 --> 00:09:32.883
+Adtál pár fogódzót, de...
+
+00:09:32.907 --> 00:09:37.548
+Itt egy gyerekkori kép Rólad,
+kezedben a Rubik kocka.
+
+00:09:37.572 --> 00:09:41.692
+Említetted, hogy úgy 10-11 éves
+korod óta programozol,
+
+00:09:41.716 --> 00:09:43.081
+az életed felét kitölti.
+
+00:09:43.105 --> 00:09:46.921
+Mindig ilyen kis számítógép-guru
+voltál, amolyan kockafejű zseni,
+
+00:09:46.945 --> 00:09:49.430
+te voltál a sztár a suliban, 
+aki mindent tudott?
+
+00:09:49.454 --> 00:09:50.986
+Milyen voltál gyerekként?
+
+00:09:52.130 --> 00:09:54.623
+LT: Igen, azt hiszem tipikus
+stréber voltam.
+
+00:09:54.647 --> 00:09:55.916
+Úgy értem...
+
+00:09:57.130 --> 00:09:59.092
+Nem voltam közösségi ember akkoriban.
+
+00:09:59.116 --> 00:10:01.696
+Ez itt az öcsém.
+
+00:10:01.720 --> 00:10:04.507
+Sokkal jobban érdekelt
+a Rubik-kocka,
+
+00:10:04.531 --> 00:10:06.056
+mint a saját öcsém.
+
+00:10:06.080 --> 00:10:07.167
+(nevetés)
+
+00:10:07.191 --> 00:10:10.311
+A húgom, aki nincs a képen,
+
+00:10:10.335 --> 00:10:12.749
+a családi alkalmakon
+
+00:10:12.773 --> 00:10:16.565
+- ez nem egy nagy család, de van
+pár unokatesóm -
+
+00:10:16.589 --> 00:10:19.453
+mindig előre bejelentett.
+
+00:10:19.477 --> 00:10:22.043
+Mielőtt beléptem a szobába
+azt mondta:
+
+00:10:22.067 --> 00:10:24.610
+"Most következik őelőkelősége..."
+
+00:10:25.925 --> 00:10:28.254
+Mert én nem voltam más -
+
+00:10:28.278 --> 00:10:29.493
+csak egy kis Einstein.
+
+00:10:29.517 --> 00:10:30.683
+A számítógép érdekelt,
+
+00:10:30.707 --> 00:10:31.866
+meg a matek,
+
+00:10:31.890 --> 00:10:33.041
+meg a fizika.
+
+00:10:33.065 --> 00:10:34.216
+Ebben voltam jó.
+
+00:10:34.240 --> 00:10:37.026
+Nem gondolom, 
+hogy különleges lettem volna.
+
+00:10:37.554 --> 00:10:39.945
+A húgom meg is mondta,
+
+00:10:39.969 --> 00:10:46.820
+hogy a legkülönlegesebb tulajdonságom,
+hogy nem szoktam feladni.
+
+00:10:47.618 --> 00:10:50.175
+CA: Jó, akkor beszéljünk erről,
+mert ez érdekes.
+
+00:10:50.199 --> 00:10:51.373
+Szóval nem adod fel.
+
+00:10:51.397 --> 00:10:54.262
+Ez már nem a stréberségről szól,
+vagy hogy okos vagy-e,
+
+00:10:54.286 --> 00:10:57.391
+hanem a makacsságról?
+
+00:10:57.415 --> 00:10:58.942
+LT: Igen, makacs vagyok.
+
+00:10:58.966 --> 00:11:00.354
+Ez olyan,
+
+00:11:01.093 --> 00:11:03.293
+hogy belefogsz valamibe
+
+00:11:03.317 --> 00:11:08.767
+és nem azt mondod, hogy: "Oké, ez kész,
+csináljunk valami mást -
+
+00:11:08.791 --> 00:11:09.978
+- azt nézd, de jó!"
+
+00:11:10.954 --> 00:11:14.335
+És ugyanezt veszem észre
+az életem más területein is.
+
+00:11:15.470 --> 00:11:18.720
+Hét évig éltem a Szilícium-völgyben.
+
+00:11:18.744 --> 00:11:22.856
+És ugyanannak a cégnek dolgoztam
+ott, a Szilícium-völgyben
+
+00:11:22.880 --> 00:11:24.594
+egész idő alatt.
+
+00:11:24.618 --> 00:11:26.156
+Ez ismeretlen dolog arra.
+
+00:11:27.204 --> 00:11:28.971
+A Szilícium-völgy nem így működik.
+
+00:11:28.995 --> 00:11:32.574
+A Szilícium-völgy lényege pont az,
+hogy beszállsz a folyamatokba,
+
+00:11:32.598 --> 00:11:35.225
+és együttműködsz a többiekkel.
+
+00:11:35.249 --> 00:11:37.129
+De én nem ilyen vagyok.
+
+00:11:37.153 --> 00:11:39.724
+CA: Viszont már a Linux 
+fejlesztése során
+
+00:11:39.748 --> 00:11:44.044
+ez a makacsságod időnként
+konfliktusokhoz vezetett.
+
+00:11:44.445 --> 00:11:46.099
+Beszéljünk erről egy kicsit.
+
+00:11:46.123 --> 00:11:51.667
+Feltétlenül szükség volt erre a
+projekt színvonalának megőrzéséhez?
+
+00:11:51.691 --> 00:11:53.856
+Mit mondanál arról, ami történt?
+
+00:11:54.392 --> 00:11:56.475
+LT: Nem tudom, feltétlenül szükséges-e.
+
+00:11:57.239 --> 00:12:00.384
+Visszatérve a "nem vagyok társasági 
+ember"-hez,
+
+00:12:00.408 --> 00:12:02.196
+néha bizony...
+
+00:12:04.100 --> 00:12:05.633
+mondjuk úgy,
+
+00:12:05.657 --> 00:12:09.077
+rövidlátó is vagyok, ha mások 
+érzéseiről van szó
+
+00:12:09.667 --> 00:12:14.945
+és emiatt olyan dolgokat mondok,
+amivel megbántok másokat.
+
+00:12:14.969 --> 00:12:18.737
+Erre nem vagyok büszke.
+
+00:12:18.761 --> 00:12:19.875
+(taps)
+
+00:12:19.899 --> 00:12:21.697
+De ugyanakkor,
+
+00:12:22.978 --> 00:12:26.054
+olyanok vesznek körül, akik kedves 
+emberré akarnak faragni.
+
+00:12:26.796 --> 00:12:32.464
+És ha próbálom elmagyarázni nekik,
+hogy bár ti kedves emberek vagytok,
+
+00:12:32.488 --> 00:12:34.742
+talán agresszívebbnek kellene lennetek,
+
+00:12:34.766 --> 00:12:38.308
+ezt nem veszik jó néven tőlem.
+
+00:12:38.332 --> 00:12:40.442
+(nevetés)
+
+00:12:40.466 --> 00:12:42.634
+Azt próbálom érzékeltetni,
+hogy különbözünk.
+
+00:12:42.658 --> 00:12:44.468
+Én nem vagyok társasági ember
+
+00:12:44.492 --> 00:12:46.598
+erre nem vagyok 
+különösképpen büszke,
+
+00:12:46.622 --> 00:12:48.162
+de a lényem része.
+
+00:12:48.186 --> 00:12:50.891
+És az egyik dolog, amit
+szeretek a szabad forráskódban
+
+00:12:50.915 --> 00:12:56.707
+hogy különböző emberek
+dolgozhatnak együtt rajta.
+
+00:12:56.731 --> 00:12:58.455
+Nem kell, hogy kedveljük egymást -
+
+00:12:58.479 --> 00:13:00.682
+és néha tényleg nem is bírjuk egymást.
+
+00:13:00.706 --> 00:13:04.193
+Tényleg. Úgy értem, hogy vannak
+nagyon-nagyon heves viták.
+
+00:13:04.217 --> 00:13:07.209
+De vannak olyan dolgok,
+ahol nem is arról van szó,
+
+00:13:08.327 --> 00:13:10.554
+hogy egyetértetek vagy sem,
+
+00:13:10.578 --> 00:13:13.624
+egyszerűen csak mindegyikőtöket 
+egész más dolgok érdekelnek.
+
+00:13:13.648 --> 00:13:16.551
+És most visszatérnék oda
+amit korábban mondtam,
+
+00:13:16.575 --> 00:13:20.868
+hogy tartottam attól, hogy az üzletkötők 
+majd lefölözik a munkámat,
+
+00:13:20.892 --> 00:13:23.491
+szóval kiderült, méghozzá
+nagyon gyorsan.,
+
+00:13:23.515 --> 00:13:26.481
+hogy ezek a kereskedők igazán
+elbűvölő emberek
+
+00:13:26.505 --> 00:13:30.211
+és elvégezték mindazt, amihez
+nekem semmi kedvem nem volt,
+
+00:13:30.235 --> 00:13:32.292
+és abszolút más céljaik voltak.
+
+00:13:32.316 --> 00:13:37.639
+Úgy használták a nyílt forráskódot,
+ahogy én pont nem akartam.
+
+00:13:37.663 --> 00:13:39.925
+De mivel ez nyílt forráskód,
+így megtehették,
+
+00:13:39.949 --> 00:13:42.301
+és tulajdonképpen egész jól
+működik ez így együtt.
+
+00:13:42.325 --> 00:13:44.349
+Azt hiszem, minden
+valahogy így működik.
+
+00:13:44.373 --> 00:13:47.578
+Kellenek a kapcsolattartók,
+akik jól kommunikálnak,
+
+00:13:47.602 --> 00:13:49.029
+kedves és barátságos emberek
+
+00:13:49.053 --> 00:13:50.775
+akik szinte -
+
+00:13:50.799 --> 00:13:52.241
+(nevetés)
+
+00:13:52.265 --> 00:13:55.315
+szeretnének megölelni, 
+és behúzni a közösségbe.
+
+00:13:55.339 --> 00:13:56.910
+De nem mindenki ilyen.
+
+00:13:56.934 --> 00:13:58.366
+Én biztos nem.
+
+00:13:58.390 --> 00:13:59.847
+Engem a műszaki rész érdekel.
+
+00:13:59.871 --> 00:14:01.752
+Van, aki a felhasználói felületben jó.
+
+00:14:01.776 --> 00:14:04.846
+Én még az életemért sem lennék képes rá.
+
+00:14:04.870 --> 00:14:07.891
+Ha egy szigeten vetődnék partra
+
+00:14:07.915 --> 00:14:11.315
+és csak egy csinos kis felhasználói 
+felület árán menekülhetnék el,
+
+00:14:11.339 --> 00:14:12.502
+ott halnék meg.
+
+00:14:12.526 --> 00:14:13.677
+(nevetés)
+
+00:14:13.701 --> 00:14:15.840
+Szóval különbözőek az emberek,
+
+00:14:15.864 --> 00:14:18.729
+nem kifogásokat keresek,
+csak próbálom megmagyarázni.
+
+00:14:18.753 --> 00:14:20.419
+CA: Amikor beszéltünk a múlt héten
+
+00:14:20.443 --> 00:14:22.928
+említetted egy másik jellemvonásod is,
+
+00:14:22.952 --> 00:14:24.543
+amit nagyon érdekesnek találtam.
+
+00:14:24.567 --> 00:14:25.950
+Ez az, amit ízlésnek nevezel.
+
+00:14:25.974 --> 00:14:27.976
+Van itt pár képünk.
+
+00:14:28.354 --> 00:14:32.357
+Azt hiszem ez az, amelyik nem tükröz 
+jó ízlést a programozásban,
+
+00:14:32.381 --> 00:14:35.372
+ez pedig már egy jobb,
+
+00:14:35.396 --> 00:14:37.459
+amit mindjárt látni fogunk.
+
+00:14:37.483 --> 00:14:39.456
+Mi a különbség a kettő között?
+
+00:14:40.639 --> 00:14:41.821
+LT: Nos, ez itt -
+
+00:14:41.845 --> 00:14:44.522
+Hány ember programozott már itt valaha?
+
+00:14:45.671 --> 00:14:47.191
+CA: Te jó ég!
+
+00:14:47.215 --> 00:14:48.164
+LT: Biztosíthatlak,
+
+00:14:48.164 --> 00:14:49.939
+hogy mindenki, akik feltette a kezét
+
+00:14:49.963 --> 00:14:52.584
+egyszeresen láncolt listát használt.
+
+00:14:52.608 --> 00:14:54.617
+Ezt tanítják -
+
+00:14:55.115 --> 00:14:58.706
+Ez az első, nem valami ízléses
+megközelítésre vall,
+
+00:14:58.730 --> 00:15:02.797
+alapvetően ezt tanítják, amikor
+valaki elkezd programozni.
+
+00:15:02.821 --> 00:15:04.865
+És nem kell értened magát a programsort.
+
+00:15:04.889 --> 00:15:06.945
+A legérdekesebb rész számomra
+
+00:15:06.969 --> 00:15:09.158
+az utolsó "if" utasítás.
+
+00:15:10.933 --> 00:15:13.193
+Mert mi történik az
+egyszeresen láncolt listában
+
+00:15:13.217 --> 00:15:16.867
+ha megpróbálunk törölni
+egy már létező listaelemet -
+
+00:15:16.891 --> 00:15:20.733
+és ugye nem mindegy, 
+hogy ez az első listaelem
+
+00:15:20.757 --> 00:15:22.756
+vagy éppen valahol a közepén van.
+
+00:15:22.780 --> 00:15:24.385
+Mert ha ez az első elem,
+
+00:15:24.409 --> 00:15:27.425
+akkor a kurzorral oda kell állnod
+az első elemhez.
+
+00:15:27.449 --> 00:15:28.647
+Ha a közepén van,
+
+00:15:28.671 --> 00:15:31.092
+Akkor a kurzort egy korábbi 
+elemhez kell vinned.
+
+00:15:31.116 --> 00:15:33.140
+Tehát két teljesen különböző eset.
+
+00:15:33.164 --> 00:15:34.316
+CA: És ez a jobb.
+
+00:15:34.340 --> 00:15:35.521
+LT: Ez a jobb.
+
+00:15:35.940 --> 00:15:38.263
+Ebben nincs "if" utasítás.
+
+00:15:38.637 --> 00:15:40.850
+Nem olyan lényeges -
+
+00:15:40.874 --> 00:15:44.075
+Nem azt akarom, hogy megértsd,
+miért nincs benne "if" utasítás
+
+00:15:44.099 --> 00:15:45.441
+viszont fontos látni,
+
+00:15:45.465 --> 00:15:48.090
+hogy néha különbözőképpen
+látunk egy problémát,
+
+00:15:48.114 --> 00:15:51.468
+és felülírjuk az adott elemet, 
+hogy a speciális eset kiessen,
+
+00:15:51.492 --> 00:15:53.369
+és maradjon a normális.
+
+00:15:53.393 --> 00:15:54.932
+És ez a jó programsor.
+
+00:15:55.328 --> 00:15:56.878
+De ez csak egy egyszerű kód.
+
+00:15:56.902 --> 00:15:58.251
+Programozási egyszeregy.
+
+00:15:58.275 --> 00:16:01.131
+Ez nem fontos -
+habár a részletek fontosak.
+
+00:16:01.798 --> 00:16:05.876
+Számomra az dönti el, hogy
+akarok-e dolgozni valakivel,
+
+00:16:05.900 --> 00:16:08.573
+hogy van-e jó ízlése.
+Ami annyit tesz, hogy...
+
+00:16:09.295 --> 00:16:10.892
+ezeket a hülye példákat küldtem
+
+00:16:10.916 --> 00:16:13.260
+nem igazán jellemzőek,
+mert túlságosan kicsik.
+
+00:16:13.743 --> 00:16:15.885
+A jó ízlés ennél sokkal több.
+
+00:16:15.909 --> 00:16:19.930
+A jó ízlés az, hogy egészben
+látjuk a rendszereket
+
+00:16:19.954 --> 00:16:24.412
+és ösztönösen tudjuk, melyik a
+hozzájuk vezető helyes út.
+
+00:16:24.436 --> 00:16:27.093
+CA: Oké, akkor most
+összerakjuk a darabkákat.
+
+00:16:27.736 --> 00:16:29.203
+Neked van ízlésed,
+
+00:16:30.057 --> 00:16:32.394
+mármint ami a programozók
+számára hasznavehető.
+
+00:16:32.418 --> 00:16:33.569
+Te egy -
+
+00:16:33.593 --> 00:16:35.409
+(nevetés)
+
+00:16:35.433 --> 00:16:37.994
+LT: Szerintem hasznavehető volt
+pár embernek itt is.
+
+00:16:39.967 --> 00:16:42.884
+CA: Te egy nagyon okos programozó vagy,
+
+00:16:42.908 --> 00:16:44.605
+és pokolian makacs.
+
+00:16:45.622 --> 00:16:47.208
+De kell itt lenni másnak is.
+
+00:16:47.232 --> 00:16:48.855
+Te megváltoztattad a jövőt.
+
+00:16:48.879 --> 00:16:51.842
+Meg kell, hogy legyen benned
+a jövőbelátás képessége.
+
+00:16:51.866 --> 00:16:53.127
+Látnok vagy, igaz?
+
+00:16:53.151 --> 00:16:55.742
+Hát kissé kényelmetlenül
+éreztem itt a TED-en magam
+
+00:16:55.766 --> 00:16:57.926
+az utóbbi két napban,
+
+00:16:57.950 --> 00:17:00.545
+mert annyi elképzelésről
+hallottunk, ugye?
+
+00:17:00.569 --> 00:17:02.266
+Én pedig nem vagyok látnok.
+
+00:17:02.290 --> 00:17:04.519
+Nincs ötéves tervem.
+
+00:17:04.543 --> 00:17:05.901
+Mérnök vagyok.
+
+00:17:05.925 --> 00:17:07.185
+És azt hiszem ez,
+
+00:17:07.209 --> 00:17:09.528
+tudod, nekem semmi bajom
+azokkal az emberekkel
+
+00:17:09.552 --> 00:17:12.303
+akik álmodoznak,
+a fellegekben járnak,
+
+00:17:12.327 --> 00:17:15.178
+és a csillagokat bámulják
+mondván: "Oda akarok eljutni."
+
+00:17:15.202 --> 00:17:16.654
+De én a lábam elé nézek
+
+00:17:16.678 --> 00:17:19.533
+és a kátyút akarom befoltozni,
+ami az orrom előtt van.
+
+00:17:19.557 --> 00:17:20.917
+Még mielőtt beleesnék.
+
+00:17:20.941 --> 00:17:22.560
+Ilyen ember vagyok.
+
+00:17:22.584 --> 00:17:23.695
+(tetszésnyilvánítás)
+
+00:17:23.719 --> 00:17:25.031
+(taps)
+
+00:17:25.055 --> 00:17:28.666
+A múlt héten beszéltél nekem
+erről a két fickóról.
+
+00:17:29.358 --> 00:17:31.793
+Kik ők, és milyen 
+a kapcsolatod velük?
+
+00:17:32.239 --> 00:17:35.841
+LT: Nos, ez egyfajta közhely
+a műszaki életben,
+
+00:17:35.865 --> 00:17:37.872
+a Tesla kontra Edison sztori,
+
+00:17:37.896 --> 00:17:42.837
+ahol Tesla a látnok tudós,
+az őrült ötletek embere.
+
+00:17:42.861 --> 00:17:45.643
+És az emberek szeretik őt.
+
+00:17:45.667 --> 00:17:48.654
+Annyira, hogy vannak, akik a cégüket
+is róla nevezik el.
+
+00:17:48.678 --> 00:17:49.828
+(nevetés)
+
+00:17:51.365 --> 00:17:53.977
+A másik karakter Edison,
+
+00:17:54.001 --> 00:17:57.508
+akit gyakran bélyegeznek
+unalmasnak, jelentéktelennek.
+
+00:17:57.532 --> 00:17:59.453
+és
+
+00:17:59.477 --> 00:18:02.199
+az ő leghíresebb mondata így szól:
+
+00:18:02.223 --> 00:18:06.937
+A zseni egy százalék ihlet és
+99 százalék verejték.
+
+00:18:07.394 --> 00:18:08.847
+Én Edison táborában vagyok,
+
+00:18:08.871 --> 00:18:11.055
+még ha mások nem is kedvelik.
+
+00:18:11.079 --> 00:18:14.098
+Mert ha összehasonlítod a kettőt,
+
+00:18:14.122 --> 00:18:18.655
+Tesla oly módon gondolkozott,
+ami ma megragadja az embereket,
+
+00:18:18.679 --> 00:18:20.678
+de ki változtatta meg a világot?
+
+00:18:21.853 --> 00:18:25.235
+Edison talán nem volt 
+egy barátságos ember,
+
+00:18:25.259 --> 00:18:28.391
+sok mindent csinált,
+
+00:18:28.415 --> 00:18:30.844
+talán nem volt annyira értelmiségi,
+
+00:18:30.868 --> 00:18:33.095
+sem pedig látnok.
+
+00:18:33.119 --> 00:18:36.780
+De bennem inkább van valami
+Edisonból, mint Teslából.
+
+00:18:37.669 --> 00:18:40.107
+CA: A TED-en e héten
+az álmok a témáink -
+
+00:18:40.131 --> 00:18:41.478
+nagy, merész, vakmerő álmok.
+
+00:18:41.502 --> 00:18:43.304
+Ezek szerint Te vagy az ellenszerük.
+
+00:18:43.328 --> 00:18:45.437
+Próbálom kissé szépíteni, de így van.
+
+00:18:45.461 --> 00:18:46.612
+Ez jó!
+
+00:18:46.636 --> 00:18:47.716
+(nevetés)
+
+00:18:47.740 --> 00:18:49.345
+Örülünk neked, hidd el!
+
+00:18:51.046 --> 00:18:53.795
+Olyan cégek, mint a Google,
+és sok másik, vitathatatlanul,
+
+00:18:53.819 --> 00:18:56.025
+sok pénzt keresett a szoftvereden.
+
+00:18:56.049 --> 00:18:57.200
+Ez dühít téged?
+
+00:18:57.224 --> 00:18:58.375
+LT: Nem.
+
+00:18:58.399 --> 00:19:01.033
+Több okból sem
+dühít engem.
+
+00:19:01.057 --> 00:19:03.067
+Az egyik az, hogy jól megvagyok.
+
+00:19:03.091 --> 00:19:04.387
+Tényleg jól megvagyok.
+
+00:19:04.942 --> 00:19:06.526
+De a másik oka az,
+
+00:19:06.550 --> 00:19:11.877
+hogy az egész nyílt forráskód
+megalkotása és útjára engedése nélkül
+
+00:19:11.901 --> 00:19:14.127
+a Linux sosem lett volna az, ami.
+
+00:19:14.151 --> 00:19:19.247
+Olyan tapasztalatokat is hozott
+amiről nem szívesen beszélek nyilvánosan
+
+00:19:19.271 --> 00:19:21.422
+de ugyanakkor,
+mégiscsak tapasztalat.
+
+00:19:21.446 --> 00:19:22.726
+Hidd el!
+
+00:19:23.238 --> 00:19:28.381
+Van egy csomó dolog az életemben,
+ami igazán boldog emberré tesz
+
+00:19:28.405 --> 00:19:30.934
+és úgy gondolom, jól döntöttem.
+
+00:19:30.958 --> 00:19:32.870
+CA: Maga a nyílt forráskód -
+
+00:19:32.894 --> 00:19:34.530
+- és itt most be kell fejeznünk -,
+
+00:19:34.554 --> 00:19:38.608
+szóval a nyílt forráskód mára
+teljesen elérte célját a világban,
+
+00:19:38.632 --> 00:19:41.650
+vagy van még hová fejlődnie,
+
+00:19:41.674 --> 00:19:43.689
+vannak még dolgok, amit elérhet?
+
+00:19:44.738 --> 00:19:46.972
+LT: Erről kétfélét is gondolok.
+
+00:19:46.996 --> 00:19:51.482
+Azt hiszem, a nyílt forráskód azért
+működik olyan jól a programozásban,
+
+00:19:51.506 --> 00:19:53.915
+mert a nap végére
+
+00:19:53.939 --> 00:19:57.185
+minden tiszta, fekete-fehér.
+
+00:19:57.209 --> 00:20:01.366
+Az esetek többségében megvan rá 
+a jó módszer, hogy eldöntsük
+
+00:20:01.390 --> 00:20:05.336
+valami jól vagy nem jól készült el.
+
+00:20:05.360 --> 00:20:07.738
+A programsor vagy működik vagy nem,
+
+00:20:07.762 --> 00:20:12.370
+így aztán kevés helye van a vitának.
+
+00:20:12.394 --> 00:20:16.025
+Ennek ellenére vannak vitáink, nemde?
+
+00:20:16.049 --> 00:20:17.964
+Számos más területen viszont
+
+00:20:17.988 --> 00:20:21.729
+- például az emberek nyílt politikáról
+és hasonlókról beszélnek -
+
+00:20:21.753 --> 00:20:24.702
+néha nagyon nehéz ezt kimondani,
+
+00:20:24.726 --> 00:20:28.483
+de igen, tulajdonképpen alkalmazhatjuk
+ugyanezen elveket máshol is,
+
+00:20:28.507 --> 00:20:33.946
+éppen azért, mert a fekete-fehér
+nemcsak szürkévé
+
+00:20:33.970 --> 00:20:35.573
+de színessé is válhat.
+
+00:20:36.339 --> 00:20:40.705
+Úgy tűnik, a nyílt forráskód elve
+most a tudományban köszön vissza.
+
+00:20:40.729 --> 00:20:42.363
+Kezdetben nem volt része.
+
+00:20:42.387 --> 00:20:45.054
+De a tudomány mára nagyon zárttá vált,
+
+00:20:45.078 --> 00:20:48.702
+nagyon drága folyóiratokkal
+és alig tudunk róla valamit.
+
+00:20:48.726 --> 00:20:52.562
+Éppen ezért a nyílt forráskód elve
+a tudományok terén tér vissza
+
+00:20:52.586 --> 00:20:56.733
+olyasmivel, mint az arXiv vagy a
+nyílt hozzáférésű folyóiratok.
+
+00:20:59.262 --> 00:21:01.215
+A Wikipédia is megváltoztatta a világot.
+
+00:21:01.239 --> 00:21:02.693
+Szóval vannak más példák,
+
+00:21:02.717 --> 00:21:04.350
+a nagyja biztosan ezután jön.
+
+00:21:05.660 --> 00:21:07.227
+CA: De mivel nem vagy látnok,
+
+00:21:07.251 --> 00:21:09.204
+ezeket nem neked kell megnevezned.
+
+00:21:09.228 --> 00:21:10.387
+Nem bizony.
+
+00:21:10.411 --> 00:21:11.459
+(nevetés)
+
+00:21:11.483 --> 00:21:13.447
+Ez már a ti dolgotok, igaz?
+
+00:21:13.471 --> 00:21:14.734
+CA: Pontosan.
+
+00:21:14.758 --> 00:21:15.916
+Linus Torvalds,
+
+00:21:15.940 --> 00:21:18.185
+köszönjük a Linuxot,
+köszönjük az internetet,
+
+00:21:18.209 --> 00:21:20.074
+köszönet a sok Android telefonért.
+
+00:21:20.098 --> 00:21:23.295
+Köszönöm, hogy eljöttél a TED-re,
+és ilyen sokat elárultál magadról.
+
+00:21:23.319 --> 00:21:24.471
+LT: Köszönöm!
+
+00:21:24.495 --> 00:21:28.935
+(taps)
+

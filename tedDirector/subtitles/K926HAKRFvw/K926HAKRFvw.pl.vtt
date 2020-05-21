@@ -1,0 +1,1073 @@
+WEBVTT
+Kind: captions
+Language: pl
+
+00:00:00.000 --> 00:00:07.000
+Tłumaczenie: Mateusz Rosłoń
+Korekta: Barbara Guzik
+
+00:00:12.580 --> 00:00:15.160
+Oto Pleurobot.
+
+00:00:15.220 --> 00:00:17.216
+Został zaprojektowany
+
+00:00:17.236 --> 00:00:20.876
+na wzór gatunku zwanego traszką Waltla.
+
+00:00:20.896 --> 00:00:23.010
+Pleurobot potrafi chodzić
+
+00:00:23.010 --> 00:00:25.380
+i, jak zobaczycie później, także pływać.
+
+00:00:26.100 --> 00:00:28.291
+Może was zastanawiać,
+po co go stworzyliśmy.
+
+00:00:28.788 --> 00:00:32.760
+Został skonstruowany 
+jako narzędzie naukowe w neuronauce
+
+00:00:33.220 --> 00:00:35.716
+we współpracy z neurobiologami,
+
+00:00:35.716 --> 00:00:37.712
+żeby zrozumieć poruszanie się zwierząt,
+
+00:00:37.712 --> 00:00:40.640
+a szczególnie, jak rdzeń kręgowy 
+kontroluje poruszanie się.
+
+00:00:41.340 --> 00:00:43.076
+Im dłużej zajmuję się biorobotyką,
+
+00:00:43.100 --> 00:00:45.671
+tym bardziej jestem
+pod wrażeniem lokomocji zwierząt.
+
+00:00:45.730 --> 00:00:50.026
+Jeśli pomyślicie o pływającym delfinie,
+biegnącym lub skaczącym kocie
+
+00:00:50.060 --> 00:00:51.636
+albo nawet o nas, ludziach,
+
+00:00:51.660 --> 00:00:53.476
+kiedy biegamy lub gramy w tenisa,
+
+00:00:53.500 --> 00:00:55.430
+zauważycie, że robimy niezwykłe rzeczy.
+
+00:00:55.640 --> 00:00:59.846
+Nasz układ nerwowy rozwiązuje
+skomplikowany problem kontroli ruchu.
+
+00:00:59.846 --> 00:01:02.956
+Musi perfekcyjnie koordynować
+pracę około 200 mięśni,
+
+00:01:02.980 --> 00:01:06.660
+bo inaczej upadamy lub źle się poruszamy.
+
+00:01:07.380 --> 00:01:10.150
+Moim celem jest zrozumieć, jak to działa.
+
+00:01:10.980 --> 00:01:14.190
+Zwierzęca lokomocja składa się
+z czterech głównych komponentów.
+
+00:01:14.620 --> 00:01:16.556
+Pierwszym jest ciało.
+
+00:01:16.580 --> 00:01:18.556
+Nigdy nie powinniśmy lekceważyć tego,
+
+00:01:18.580 --> 00:01:22.060
+w jakim stopniu biomechanika
+uprościła już lokomocję zwierząt.
+
+00:01:22.440 --> 00:01:24.196
+Następny jest rdzeń kręgowy,
+
+00:01:24.220 --> 00:01:26.196
+w którym znajdziemy liczne odruchy
+
+00:01:26.220 --> 00:01:29.676
+tworzące sensomotoryczną pętlę koordynacji
+
+00:01:29.700 --> 00:01:31.970
+między aktywnością neuronową
+w rdzeniu kręgowym,
+
+00:01:31.970 --> 00:01:33.820
+a aktywnością mechaniczną.
+
+00:01:33.820 --> 00:01:36.796
+Trzecim komponentem są
+centralne generatory wzorców.
+
+00:01:36.820 --> 00:01:40.716
+To bardzo interesujące
+obiegi w rdzeniu kręgowym,
+
+00:01:40.740 --> 00:01:42.356
+które potrafią same generować
+
+00:01:42.380 --> 00:01:45.116
+bardzo skoordynowane
+rytmicznie wzorce aktywności,
+
+00:01:45.140 --> 00:01:47.516
+odbierając jedynie
+bardzo proste sygnały wejściowe.
+
+00:01:47.540 --> 00:01:48.740
+Te sygnały pochodzące
+
+00:01:48.760 --> 00:01:51.676
+z modulacji zstępującej
+w górnych partiach mózgu,
+
+00:01:51.700 --> 00:01:54.456
+jak kora ruchowa,
+móżdżek czy jądra podstawne,
+
+00:01:54.470 --> 00:01:56.500
+modulują aktywność rdzenia kręgowego,
+
+00:01:56.500 --> 00:01:57.826
+kiedy się poruszamy.
+
+00:01:58.220 --> 00:02:01.610
+Interesujące jest, w jakim stopniu
+podstawowe komponenty,
+
+00:02:01.610 --> 00:02:03.396
+rdzeń kręgowy z ciałem,
+
+00:02:03.396 --> 00:02:05.762
+rozwiązują znaczną część
+problemu lokomocji.
+
+00:02:05.762 --> 00:02:08.424
+Kiedy odetnie się głowę kurze,
+
+00:02:08.424 --> 00:02:10.405
+a ona będzie biegać jeszcze przez moment,
+
+00:02:10.405 --> 00:02:13.272
+widać, że podstawowe komponenty,
+czyli rdzeń kręgowy i ciało,
+
+00:02:13.272 --> 00:02:15.565
+odpowiadają za znaczną część lokomocji.
+
+00:02:15.723 --> 00:02:17.840
+Nie łatwo zrozumieć, jak to działa,
+
+00:02:17.840 --> 00:02:18.816
+bo po pierwsze
+
+00:02:18.816 --> 00:02:21.716
+rejestrowanie aktywności
+rdzenia kręgowego jest bardzo trudne.
+
+00:02:21.716 --> 00:02:24.436
+Znacznie łatwiej jest wszczepić
+elektrody w korę ruchową
+
+00:02:24.440 --> 00:02:27.120
+niż w rdzeń kręgowy chroniony przez kręgi.
+
+00:02:27.120 --> 00:02:29.356
+Szczególnie trudno to zrobić u ludzi.
+
+00:02:29.380 --> 00:02:33.156
+Druga trudność jest taka,
+że lokomocja działa dzięki bardzo złożonej
+
+00:02:33.180 --> 00:02:36.236
+i dynamicznej interakcji między
+wszystkimi czterema komponentami.
+
+00:02:36.260 --> 00:02:39.990
+Bardzo trudno jest ustalić,
+jaką mają rolę w czasie.
+
+00:02:40.700 --> 00:02:44.106
+Bioroboty, takie jak Pleurobot,
+oraz modele matematyczne
+
+00:02:44.106 --> 00:02:45.660
+mogą być wtedy bardzo pomocne.
+
+00:02:47.050 --> 00:02:48.550
+Co to jest biorobotyka?
+
+00:02:48.550 --> 00:02:51.446
+Jest to bardzo aktywna
+dziedzina badań w zakresie robotyki,
+
+00:02:51.446 --> 00:02:53.926
+w której ludzie chcą czerpać
+inspirację od zwierząt,
+
+00:02:53.926 --> 00:02:56.270
+żeby posłać roboty w teren,
+
+00:02:56.270 --> 00:02:58.960
+jak roboty poszukiwawcze
+
+00:02:58.960 --> 00:03:00.540
+czy do prac polowych.
+
+00:03:00.550 --> 00:03:03.066
+Głównym celem jest
+czerpanie inspiracji od zwierząt,
+
+00:03:03.066 --> 00:03:05.402
+żeby stworzyć roboty
+do prac w trudnych miejscach,
+
+00:03:05.402 --> 00:03:07.230
+jak schody, góry, las,
+
+00:03:07.230 --> 00:03:09.350
+gdzie wciąż mają one trudności,
+
+00:03:09.350 --> 00:03:11.496
+a zwierzęta radzą sobie znacznie lepiej.
+
+00:03:11.496 --> 00:03:14.092
+Robot może być również
+wspaniałym narzędziem naukowym.
+
+00:03:14.092 --> 00:03:16.680
+Istnieją ciekawe projekty,
+wykorzystujące roboty
+
+00:03:16.680 --> 00:03:20.306
+jako narzędzia naukowe w neuronauce,
+biomechanice czy hydrodynamice.
+
+00:03:20.700 --> 00:03:22.820
+Właśnie po to powstał Pleurobot.
+
+00:03:23.420 --> 00:03:26.356
+W moim laboratorium
+współpracujemy z neurobiologami,
+
+00:03:26.380 --> 00:03:29.596
+jak Jean-Marie Cabelguen
+z Bordeaux we Francji,
+
+00:03:29.620 --> 00:03:33.660
+tworząc i testując na robotach
+modele rdzenia kręgowego.
+
+00:03:34.240 --> 00:03:35.836
+Chcemy zacząć od prostych rzeczy.
+
+00:03:35.836 --> 00:03:37.862
+Dlatego zaczynamy od prostych zwierząt,
+
+00:03:37.862 --> 00:03:40.196
+jak minogi, które są bardzo
+prymitywnymi rybami,
+
+00:03:40.196 --> 00:03:43.196
+a potem stopniowo przechodzimy
+do bardziej złożonej lokomocji,
+
+00:03:43.196 --> 00:03:44.046
+jak u traszki,
+
+00:03:44.046 --> 00:03:45.544
+ale też u ssaków,
+
+00:03:45.544 --> 00:03:46.580
+jak kota i człowieka,
+
+00:03:47.700 --> 00:03:50.256
+Robot staje się interesującym narzędziem
+
+00:03:50.256 --> 00:03:52.036
+w sprawdzaniu naszych modeli.
+
+00:03:52.060 --> 00:03:55.076
+Pleurobot jest dla mnie
+spełnieniem marzeń.
+
+00:03:55.100 --> 00:03:58.356
+Mniej więcej 20 lat temu
+tworzyłem już na komputerze
+
+00:03:58.380 --> 00:04:01.036
+symulacje lokomocji minoga i traszki,
+
+00:04:01.060 --> 00:04:02.596
+robiąc doktorat.
+
+00:04:02.620 --> 00:04:05.996
+Jednak zawsze wiedziałem,
+że symulacje są tylko przybliżeniem.
+
+00:04:06.020 --> 00:04:09.896
+Symulując właściwości fizyczne
+w wodzie, błocie lub na złożonym podłożu,
+
+00:04:09.896 --> 00:04:12.672
+bardzo trudno jest odpowiednio
+odwzorować to na komputerze.
+
+00:04:12.672 --> 00:04:15.476
+Może warto mieć prawdziwego
+robota i właściwości fizyczne?
+
+00:04:15.476 --> 00:04:18.956
+Jednym z moich ulubionych
+zwierząt jest traszka,
+
+00:04:18.956 --> 00:04:21.116
+bo jako płaz
+
+00:04:21.116 --> 00:04:24.566
+jest naprawdę kluczowa
+z punktu widzenia ewolucji.
+
+00:04:24.566 --> 00:04:26.762
+Tworzy doskonałe połączenie
+pomiędzy pływaniem,
+
+00:04:26.762 --> 00:04:28.742
+charakterystycznym dla ryb,
+
+00:04:28.742 --> 00:04:33.042
+a poruszaniem się czworonogów,
+jak u ssaków - kotów i ludzi.
+
+00:04:33.980 --> 00:04:35.516
+Współczesna traszka
+
+00:04:35.520 --> 00:04:37.946
+ma dużo wspólnego
+z pierwszymi kręgowcami lądowymi,
+
+00:04:37.946 --> 00:04:39.636
+więc jest prawie żywą skamieliną,
+
+00:04:39.636 --> 00:04:41.626
+która daje nam dostęp do przodka
+
+00:04:41.626 --> 00:04:44.500
+naszego i wszystkich lądowych
+zwierząt czworonożnych.
+
+00:04:44.970 --> 00:04:46.476
+Traszki pływają,
+
+00:04:46.476 --> 00:04:48.956
+wykonując tak zwany ruch węgorzowy,
+
+00:04:48.980 --> 00:04:52.620
+czyli płynnie rozprzestrzeniając
+falę aktywności mięśni od głowy po ogon.
+
+00:04:53.260 --> 00:04:55.146
+Jeśli postawimy traszkę na ziemi,
+
+00:04:55.166 --> 00:04:57.816
+przestawi się ona na ruch
+zwany chodem kłusowym.
+
+00:04:57.820 --> 00:05:00.463
+Pojawia się okresowa aktywacja kończyn,
+
+00:05:00.467 --> 00:05:02.260
+które są bardzo dobrze skoordynowane
+
+00:05:02.260 --> 00:05:04.996
+z falą stojącą, jaką wykonuje ich ciało.
+
+00:05:05.020 --> 00:05:08.676
+Dokładnie ten sam ruch wykonuje Pleurobot.
+
+00:05:08.700 --> 00:05:11.676
+Bardzo zaskakujące i fascynujące jest to,
+
+00:05:11.700 --> 00:05:15.716
+że to wszystko może robić
+sam rdzeń kręgowy i ciało.
+
+00:05:15.716 --> 00:05:17.916
+Gdyby wziąć traszkę
+
+00:05:17.916 --> 00:05:20.066
+pozbawioną głowy
+
+00:05:20.066 --> 00:05:22.726
+i elektrycznie stymulować rdzeń kręgowy,
+
+00:05:22.726 --> 00:05:25.876
+przy niskim poziomie stymulacji
+wywoła to ruch przypominający chód.
+
+00:05:25.876 --> 00:05:28.746
+Przy mocniejszej stymulacji 
+ruch ten staje się szybszy.
+
+00:05:28.746 --> 00:05:30.486
+W pewnym momencie przekraczamy próg,
+
+00:05:30.486 --> 00:05:32.836
+a zwierzę automatycznie
+przełącza się na pływanie.
+
+00:05:32.860 --> 00:05:34.236
+Niesamowite.
+
+00:05:34.260 --> 00:05:35.856
+Prosta zmiana ogólnego napędu,
+
+00:05:35.856 --> 00:05:37.516
+tak jakbyśmy wciskali pedał gazu
+
+00:05:37.540 --> 00:05:39.676
+modulacji zstępującej
+do rdzenia kręgowego,
+
+00:05:39.700 --> 00:05:43.130
+powoduje przełączenie między
+dwoma różnymi sposobami poruszania się.
+
+00:05:44.260 --> 00:05:46.700
+To samo zaobserwowano u kotów.
+
+00:05:46.700 --> 00:05:48.710
+Kiedy stymuluje się rdzeń kręgowy kota,
+
+00:05:48.740 --> 00:05:51.196
+można przechodzić
+z chodu w kłus lub galop.
+
+00:05:51.196 --> 00:05:53.870
+U ptaków można przechodzić między chodem
+
+00:05:53.870 --> 00:05:55.356
+na niskim poziomie stymulacji
+
+00:05:55.380 --> 00:05:58.196
+a trzepotaniem skrzydeł
+na wysokim poziomie stymulacji.
+
+00:05:58.196 --> 00:06:00.196
+To pokazuje, że rdzeń kręgowy
+
+00:06:00.220 --> 00:06:02.520
+jest bardzo złożonym
+kontrolerem lokomocji.
+
+00:06:02.520 --> 00:06:05.150
+Zbadaliśmy szczegółowo lokomocję traszki
+
+00:06:05.150 --> 00:06:08.406
+i uzyskaliśmy dostęp do wykonującego
+nagrania aparatu rentgenowskiego
+
+00:06:08.406 --> 00:06:11.876
+profesora Martina Fischera
+z Uniwersytetu w Jenie w Niemczech.
+
+00:06:11.900 --> 00:06:14.296
+Dzięki temu mamy wspaniałą maszynę
+
+00:06:14.320 --> 00:06:16.956
+do szczegółowego nagrywania
+wszystkich ruchów kości.
+
+00:06:16.980 --> 00:06:18.236
+Oto, co zrobiliśmy.
+
+00:06:18.260 --> 00:06:21.436
+Przede wszystkim dowiedzieliśmy się,
+które kości są dla nas istotne
+
+00:06:21.460 --> 00:06:24.476
+i zebraliśmy całą bazę danych
+
+00:06:24.500 --> 00:06:27.196
+ich ruchów w 3D,
+
+00:06:27.196 --> 00:06:28.852
+zarówno na ziemi, jak i w wodzie,
+
+00:06:28.852 --> 00:06:31.244
+żeby uzyskać kompletną bazę 
+zachowań motorycznych,
+
+00:06:31.244 --> 00:06:33.023
+jakie może wykonać zwierzę.
+
+00:06:33.023 --> 00:06:36.388
+Naszym zadaniem jako robotyków
+było skopiowanie ich do naszego robota.
+
+00:06:36.388 --> 00:06:39.836
+Przeprowadziliśmy całą optymalizację,
+żeby znaleźć odpowiednią strukturę,
+
+00:06:39.836 --> 00:06:42.766
+gdzie umieścić mechanizmy ruchowe
+i jak je połączyć ze sobą,
+
+00:06:42.786 --> 00:06:45.630
+żeby jak najdokładniej
+odwzorować te ruchy.
+
+00:06:45.640 --> 00:06:47.860
+Tak narodził się Pleurobot.
+
+00:06:49.020 --> 00:06:51.886
+Spójrzmy, jak blisko mu
+do prawdziwego zwierzęcia.
+
+00:06:52.780 --> 00:06:55.276
+To, co widzicie, jest niemal
+bezpośrednim porównaniem
+
+00:06:55.300 --> 00:06:57.996
+sposobu chodzenia zwierzęcia i Pleurobota.
+
+00:06:58.020 --> 00:07:00.756
+To niemal identyczne odwzorowanie
+
+00:07:00.780 --> 00:07:02.036
+wykonywanych ruchów.
+
+00:07:02.060 --> 00:07:05.770
+Widać to jeszcze lepiej, puszczając
+nagranie od końca, w zwolnionym tempie.
+
+00:07:07.340 --> 00:07:09.956
+Co lepsze, możemy odtworzyć pływanie.
+
+00:07:09.956 --> 00:07:12.866
+W tym celu ubieramy robota w skafander.
+
+00:07:12.866 --> 00:07:13.786
+(Śmiech)
+
+00:07:13.786 --> 00:07:17.272
+Wtedy możemy umieścić go w wodzie, 
+żeby zaczął odtwarzać ruchy pływackie.
+
+00:07:17.272 --> 00:07:20.546
+Byliśmy z tego bardzo zadowoleni,
+bo jest to trudne do zrealizowania.
+
+00:07:20.546 --> 00:07:22.866
+Właściwości fizyczne interakcji
+są skomplikowane.
+
+00:07:22.866 --> 00:07:25.232
+Nasz robot jest znacznie
+większy niż małe zwierzę,
+
+00:07:25.232 --> 00:07:28.288
+musieliśmy więc dokonać
+dynamicznego skalowania częstotliwości,
+
+00:07:28.288 --> 00:07:30.956
+żeby upewnić się, że mamy
+te same właściwości interakcji.
+
+00:07:30.956 --> 00:07:33.476
+Jak widzicie, stworzyliśmy
+bardzo wierne odwzorowanie,
+
+00:07:33.476 --> 00:07:35.460
+z czego jesteśmy bardzo zadowoleni.
+
+00:07:35.460 --> 00:07:37.516
+Powróćmy do rdzenia kręgowego.
+
+00:07:37.540 --> 00:07:39.836
+Z Jean-Marie Cabelguenem stworzyliśmy
+
+00:07:39.860 --> 00:07:42.100
+model obwodu rdzenia kręgowego.
+
+00:07:42.860 --> 00:07:44.996
+Co ciekawe, traszka nadal ma
+
+00:07:45.020 --> 00:07:46.640
+bardzo prymitywny obwód,
+
+00:07:46.664 --> 00:07:49.206
+podobny do tego u minoga,
+
+00:07:49.206 --> 00:07:51.322
+tej prymitywnej ryby
+przypominającej węgorza.
+
+00:07:51.322 --> 00:07:53.328
+Wygląda to tak, jakby w procesie ewolucji
+
+00:07:53.328 --> 00:07:56.134
+dodane zostały nowe oscylatory neuronowe
+
+00:07:56.134 --> 00:07:57.656
+kontrolujące poruszanie nogami.
+
+00:07:57.656 --> 00:07:59.652
+Wiemy, gdzie znajdują się te oscylatory,
+
+00:07:59.652 --> 00:08:01.898
+ale stworzyliśmy matematyczny model,
+
+00:08:01.898 --> 00:08:03.606
+żeby sprawdzić, jak je połączyć,
+
+00:08:03.606 --> 00:08:07.036
+żeby umożliwić zmianę
+między dwoma sposobami ruchu.
+
+00:08:07.036 --> 00:08:09.490
+Sprawdzaliśmy to na robocie.
+
+00:08:09.490 --> 00:08:10.700
+Wygląda to tak.
+
+00:08:18.740 --> 00:08:21.756
+Macie tu wcześniejszą wersję Pleurobota,
+
+00:08:21.780 --> 00:08:24.876
+w pełni kontrolowaną
+przez nasz model rdzenia kręgowego
+
+00:08:24.900 --> 00:08:26.500
+zaimplementowany robotowi.
+
+00:08:27.100 --> 00:08:28.316
+Za pomocą pilota
+
+00:08:28.340 --> 00:08:30.516
+przesyłamy robotowi
+
+00:08:30.540 --> 00:08:33.036
+dwa hamujące sygnały,
+które normalnie otrzymałby
+
+00:08:33.060 --> 00:08:34.850
+z wyższych partii mózgu.
+
+00:08:35.300 --> 00:08:37.336
+Co ciekawe, bawiąc się tymi sygnałami,
+
+00:08:37.356 --> 00:08:40.820
+możemy kontrolować
+prędkość, kierunek i typ ruchu.
+
+00:08:41.420 --> 00:08:42.636
+Dla przykładu,
+
+00:08:42.660 --> 00:08:45.596
+stymulując w niskim stopniu,
+otrzymujemy chód,
+
+00:08:46.090 --> 00:08:48.346
+a w pewnym momencie,
+jeśli stymulujemy bardziej,
+
+00:08:48.366 --> 00:08:50.870
+chód bardzo szybko zmienia się w pływanie.
+
+00:08:51.310 --> 00:08:53.156
+Co więcej, możemy również skręcać
+
+00:08:53.180 --> 00:08:57.060
+przez mocniejszą stymulację
+jednej strony rdzenia.
+
+00:08:58.020 --> 00:08:59.636
+Myślę, że to piękne,
+
+00:08:59.660 --> 00:09:01.916
+jak natura rozdzieliła kontrolę,
+
+00:09:01.940 --> 00:09:04.796
+żeby przydzielić wiele zadań
+rdzeniowi kręgowemu,
+
+00:09:04.820 --> 00:09:08.256
+tak żeby wyższe partie mózgu
+nie musiały się zajmować każdym mięśniem.
+
+00:09:08.276 --> 00:09:10.872
+Muszą się tylko zajmować
+zaawansowaną modulacją,
+
+00:09:10.880 --> 00:09:14.196
+a koordynacja wszystkich mięśni
+jest zadaniem rdzenia kręgowego.
+
+00:09:14.540 --> 00:09:18.180
+Przejdźmy do lokomocji kotów
+i znaczenia biomechaniki.
+
+00:09:18.900 --> 00:09:20.386
+Oto inny projekt,
+
+00:09:20.406 --> 00:09:22.596
+w którym badaliśmy biomechanikę kotów,
+
+00:09:22.620 --> 00:09:26.516
+chcąc zobaczyć, jak bardzo
+morfologia wspomaga lokomocję.
+
+00:09:26.540 --> 00:09:28.540
+Odkryliśmy trzy ważne
+
+00:09:28.560 --> 00:09:31.500
+właściwości kończyn.
+
+00:09:32.140 --> 00:09:34.116
+Po pierwsze, kończyna kota
+
+00:09:34.140 --> 00:09:36.836
+przypomina trochę pantograf.
+
+00:09:36.860 --> 00:09:39.076
+Pantograf jest strukturą mechaniczną,
+
+00:09:39.100 --> 00:09:42.500
+zawsze utrzymującą wyższy
+i niższy segment równolegle.
+
+00:09:43.420 --> 00:09:46.516
+Prosty geometryczny system,
+który koordynuje nieco
+
+00:09:46.540 --> 00:09:48.356
+wewnętrzny ruch segmentów.
+
+00:09:48.380 --> 00:09:51.350
+Po drugie, kończyny kota są bardzo lekkie.
+
+00:09:51.350 --> 00:09:53.366
+Większość mięśni znajduje się w tułowiu,
+
+00:09:53.366 --> 00:09:55.996
+dzięki czemu kończyny są mniej bezwładne
+
+00:09:56.026 --> 00:09:58.036
+i można nimi szybko poruszać.
+
+00:09:58.060 --> 00:10:01.876
+Ostatnią ważną właściwością
+jest duża elastyczność kocich kończyn,
+
+00:10:01.900 --> 00:10:04.556
+która pozwala operować
+oddziaływaniem i siłami.
+
+00:10:04.580 --> 00:10:06.916
+Tak właśnie zaprojektowaliśmy Cheetah-Cub.
+
+00:10:06.940 --> 00:10:09.140
+Zaprośmy zatem Cheetah-Cub na scenę.
+
+00:10:13.980 --> 00:10:17.636
+To jest Peter Eckert,
+który doktoryzuje się z tego robota.
+
+00:10:17.660 --> 00:10:19.716
+Jak widzicie, jest to słodkie maleństwo.
+
+00:10:19.740 --> 00:10:21.086
+Wygląda trochę jak zabawka,
+
+00:10:21.086 --> 00:10:23.546
+ale tak naprawdę został użyty
+jako narzędzie naukowe
+
+00:10:23.546 --> 00:10:26.396
+do zbadania właściwości kocich nóg.
+
+00:10:26.420 --> 00:10:29.036
+Jest on bardzo uległy, lekki
+
+00:10:29.060 --> 00:10:30.316
+i elastyczny,
+
+00:10:30.340 --> 00:10:33.116
+można go przyciskać i nie popsuje się.
+
+00:10:33.140 --> 00:10:34.596
+Będzie raczej podskakiwał.
+
+00:10:34.620 --> 00:10:37.500
+Ta elastyczność jest bardzo istotna.
+
+00:10:38.950 --> 00:10:41.086
+Widać tu też właściwości
+
+00:10:41.086 --> 00:10:43.770
+tych trzech segmentów nóg,
+które działają jak pantograf.
+
+00:10:44.100 --> 00:10:46.876
+Co ciekawe, ten dynamiczny chód
+
+00:10:46.876 --> 00:10:48.772
+jest uzyskiwany tylko w otwartej pętli,
+
+00:10:48.772 --> 00:10:52.018
+bez czujników i skomplikowanych
+pętli sprzężenia zwrotnego.
+
+00:10:52.028 --> 00:10:54.396
+To ciekawe, bo oznacza,
+
+00:10:54.420 --> 00:10:58.436
+że już sama mechanika
+stabilizuje ten szybki chód,
+
+00:10:58.460 --> 00:11:02.636
+i że tak naprawdę dobra mechanika
+znacznie upraszcza lokomocję.
+
+00:11:02.636 --> 00:11:06.022
+Możemy nawet trochę
+przeszkadzać w lokomocji,
+
+00:11:06.022 --> 00:11:07.636
+co zobaczycie w następnym filmie.
+
+00:11:07.660 --> 00:11:11.556
+Można wykonać parę ćwiczeń,
+w których robot zejdzie po schodach
+
+00:11:11.580 --> 00:11:13.196
+i nie przewróci się,
+
+00:11:13.196 --> 00:11:14.756
+co było dla nas zaskoczeniem.
+
+00:11:14.756 --> 00:11:16.236
+To tylko mała perturbacja.
+
+00:11:16.236 --> 00:11:18.432
+Spodziewałem się,
+że robot zaraz się przewróci,
+
+00:11:18.442 --> 00:11:20.676
+bo nie było czujników
+czy sprzężenia zwrotnego.
+
+00:11:20.696 --> 00:11:23.026
+A jednak, mechanika stabilizowała chód
+
+00:11:23.060 --> 00:11:24.956
+i robot nie upadł.
+
+00:11:24.980 --> 00:11:28.116
+Oczywiście, zwiększając krok
+i dodając przeszkody,
+
+00:11:28.140 --> 00:11:31.796
+będziemy potrzebować pełnych pętli
+sterowania, odruchów i całej reszty.
+
+00:11:31.820 --> 00:11:34.566
+Ważne jest, że przy małej perturbacji
+
+00:11:34.576 --> 00:11:36.342
+ta mechanika dobrze się spisuje.
+
+00:11:36.342 --> 00:11:38.372
+Myślę, że to bardzo ważne przesłanie
+
+00:11:38.372 --> 00:11:40.623
+od biomechaniki i robotyki dla neurologii,
+
+00:11:40.635 --> 00:11:45.315
+że nie należy lekceważyć tego,
+w jakim stopniu ciało wspomaga lokomocję.
+
+00:11:47.260 --> 00:11:49.560
+Jak się to odnosi do ludzkiej lokomocji?
+
+00:11:49.560 --> 00:11:53.490
+Człowiek porusza się w sposób
+bardziej złożony niż koty i traszki.
+
+00:11:54.180 --> 00:11:57.316
+Jednak ludzki układ nerwowy
+jest bardzo podobny
+
+00:11:57.340 --> 00:11:58.916
+do układów innych kręgowców.
+
+00:11:58.940 --> 00:12:00.396
+Szczególnie rdzeń kręgowy
+
+00:12:00.420 --> 00:12:02.980
+jest kluczowym narzędziem
+kontroli ludzkiej lokomocji.
+
+00:12:03.290 --> 00:12:06.396
+Dlatego jeśli dojdzie
+do uszkodzenia rdzenia,
+
+00:12:06.396 --> 00:12:07.646
+skutki są dramatyczne.
+
+00:12:07.646 --> 00:12:10.486
+Taka osoba może stać się
+paraplegikiem lub tetraplegikiem,
+
+00:12:10.486 --> 00:12:12.716
+bo mózg traci łączność
+
+00:12:12.740 --> 00:12:13.996
+z rdzeniem kręgowym.
+
+00:12:14.020 --> 00:12:16.236
+Traci szczególnie modulację zstępującą
+
+00:12:16.260 --> 00:12:18.180
+do inicjowania i modulowania lokomocji.
+
+00:12:19.460 --> 00:12:21.156
+Ważnym celem neuroprotetyki
+
+00:12:21.180 --> 00:12:23.556
+jest reaktywacja tej komunikacji
+
+00:12:23.580 --> 00:12:26.020
+przy użyciu stymulacji
+elektrycznej czy chemicznej.
+
+00:12:26.660 --> 00:12:29.600
+Jest na świecie kilka zespołów,
+które właśnie tym się zajmują,
+
+00:12:29.620 --> 00:12:31.106
+głównie na Politechnice EPFL.
+
+00:12:31.106 --> 00:12:33.356
+Grégoire Courtine i Silvestro Micera
+
+00:12:33.380 --> 00:12:34.620
+współpracują ze mną.
+
+00:12:35.780 --> 00:12:38.876
+Żeby zrobić to dobrze, należy zrozumieć,
+
+00:12:38.900 --> 00:12:40.636
+jak działa rdzeń kręgowy,
+
+00:12:40.660 --> 00:12:42.356
+jak oddziałuje na ciało
+
+00:12:42.380 --> 00:12:44.860
+i jak mózg się z nim komunikuje.
+
+00:12:45.620 --> 00:12:48.380
+Roboty i modele zaprezentowane tu dzisiaj
+
+00:12:48.380 --> 00:12:50.576
+będą, miejmy nadzieję,
+odgrywać kluczową rolę
+
+00:12:50.576 --> 00:12:53.116
+w realizacji tych bardzo ważnych celów.
+
+00:12:53.140 --> 00:12:54.036
+Dziękuję.
+
+00:12:54.060 --> 00:12:56.880
+(Brawa)
+
+00:13:03.530 --> 00:13:06.596
+Bruno Giussani: Auke, widziałem
+w twoim laboratorium inne roboty,
+
+00:13:06.596 --> 00:13:09.036
+które na przykład podczas pływania
+
+00:13:09.060 --> 00:13:11.516
+mierzą poziom zanieczyszczenia.
+
+00:13:11.540 --> 00:13:12.756
+Ale co do tego jednego,
+
+00:13:12.780 --> 00:13:16.260
+wspomniałeś w swojej prelekcji
+o pewnym projekcie pobocznym,
+
+00:13:17.460 --> 00:13:18.676
+poszukiwanie i ratowanie,
+
+00:13:18.700 --> 00:13:20.876
+i ten robot ma na nosie kamerę.
+
+00:13:20.900 --> 00:13:22.620
+Auke Ijspeert: Oczywiście.
+
+00:13:22.650 --> 00:13:24.849
+Mamy kilka projektów pobocznych,
+
+00:13:24.849 --> 00:13:28.202
+w których chcielibyśmy użyć robotów
+do poszukiwań i akcji ratowniczych,
+
+00:13:28.202 --> 00:13:29.916
+więc ten robot cię teraz widzi.
+
+00:13:29.940 --> 00:13:33.116
+Naszym marzeniem jest, żeby w razie
+
+00:13:33.140 --> 00:13:36.756
+zawalenia się lub zalania budynku,
+
+00:13:36.756 --> 00:13:40.092
+czyli sytuacji bardzo niebezpiecznej
+dla ratowników, a nawet psów,
+
+00:13:40.092 --> 00:13:43.428
+móc wysłać tam robota,
+który może czołgać się, pływać, chodzić,
+
+00:13:43.438 --> 00:13:46.346
+z kamerą do badania terenu
+i szukania osób, które przeżyły,
+
+00:13:46.366 --> 00:13:48.770
+umożliwiając nawet kontakt z nimi.
+
+00:13:48.800 --> 00:13:52.780
+BG: Oczywiście zakładając,
+że nie przestraszą się go.
+
+00:13:52.780 --> 00:13:55.956
+AI: Tak, powinnyśmy chyba
+nieco zmienić jego wygląd,
+
+00:13:55.980 --> 00:13:58.796
+bo ktoś mógłby dostać zawału
+
+00:13:58.820 --> 00:14:01.356
+ze strachu, że robot go pożre.
+
+00:14:01.380 --> 00:14:04.236
+Zmieniając wygląd i wzmacniając robota,
+
+00:14:04.260 --> 00:14:06.200
+możemy z niego zrobić świetne narzędzie.
+
+00:14:06.220 --> 00:14:08.626
+Dziękuję bardzo tobie i twojemu zespołowi.
+

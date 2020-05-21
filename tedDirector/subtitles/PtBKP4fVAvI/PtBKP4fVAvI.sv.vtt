@@ -1,0 +1,443 @@
+WEBVTT
+Kind: captions
+Language: sv
+
+00:00:00.000 --> 00:00:07.000
+Översättare: Helena Jonsson
+Granskare: Lisbeth Pekkari
+
+00:00:12.934 --> 00:00:16.142
+Mina studenter och jag
+jobbar med väldigt små robotar.
+
+00:00:16.142 --> 00:00:18.197
+Man kan se dessa som robotvarianter
+
+00:00:18.197 --> 00:00:22.266
+av något som alla känner till: en myra.
+
+00:00:22.266 --> 00:00:25.006
+Vi vet att myror och insekter
+av den här storleksordningen
+
+00:00:25.006 --> 00:00:27.012
+kan göra helt otroliga saker.
+
+00:00:27.012 --> 00:00:30.197
+Alla har vi sett en grupp myror
+eller liknande,
+
+00:00:30.197 --> 00:00:33.917
+som släpar iväg på ett potatischips
+under en picknick, till exempel.
+
+00:00:34.467 --> 00:00:38.100
+Vari ligger de verkliga utmaningarna
+i att skapa dessa myror?
+
+00:00:38.100 --> 00:00:42.131
+För det första, hur får vi in
+en myras alla egenskaper
+
+00:00:42.131 --> 00:00:44.159
+i en robot av samma storlek som myran?
+
+00:00:44.159 --> 00:00:46.553
+Först måste vi komma på
+hur vi får dem att röra sig
+
+00:00:46.553 --> 00:00:47.643
+när de är så små.
+
+00:00:47.643 --> 00:00:49.933
+Vi behöver någon slags ben
+och effektiva motorer
+
+00:00:49.933 --> 00:00:51.922
+för att åstadkomma rörelse,
+
+00:00:51.922 --> 00:00:54.413
+och vi behöver sensorer,
+kraft och ett styrsystem
+
+00:00:54.413 --> 00:00:58.525
+för att få ihop allt för
+en semi-intelligent myrrobot.
+
+00:00:58.525 --> 00:01:01.071
+För att få det att fungera riktigt bra,
+
+00:01:01.071 --> 00:01:05.019
+vill vi att många ska jobba tillsammans
+för att kunna göra svårare saker.
+
+00:01:05.019 --> 00:01:07.930
+Jag börjar med rörlighet.
+
+00:01:07.930 --> 00:01:10.721
+Insekter rör sig förvånansvärt bra.
+
+00:01:10.721 --> 00:01:12.389
+Videon kommer från UC Berkeley.
+
+00:01:12.389 --> 00:01:15.602
+I den ser vi en kackerlacka
+som rör sig över oerhört tuff terräng
+
+00:01:15.602 --> 00:01:17.105
+utan att falla omkull,
+
+00:01:17.105 --> 00:01:21.372
+och den kan göra detta eftersom dess ben
+är en kombination av styva material,
+
+00:01:21.372 --> 00:01:23.625
+något som vi brukar använda
+när vi gör robotar,
+
+00:01:23.625 --> 00:01:25.144
+och mjuka material.
+
+00:01:26.374 --> 00:01:30.201
+Att hoppa är ett annat intressant sätt
+att ta sig fram när man är väldigt liten.
+
+00:01:30.201 --> 00:01:34.270
+Insekterna lagrar energin i en fjäder
+och släpper lös den hastigt
+
+00:01:34.270 --> 00:01:38.281
+för att få kraft att hoppa upp
+ur vatten till exempel.
+
+00:01:38.281 --> 00:01:41.403
+En av de största bidragen från mitt labb
+
+00:01:41.403 --> 00:01:44.153
+har varit att kombinera
+styva och mjuka material
+
+00:01:44.153 --> 00:01:46.367
+i väldigt, väldigt små mekanismer.
+
+00:01:46.367 --> 00:01:49.642
+Den här hoppmekanismen
+är cirka fyra millimeter per sida,
+
+00:01:49.642 --> 00:01:50.980
+väldigt liten.
+
+00:01:50.980 --> 00:01:55.398
+Det hårda materialet här är kisel,
+och det mjuka är silikongummi.
+
+00:01:55.398 --> 00:01:57.803
+Grundidén är att trycka ihop den,
+
+00:01:57.803 --> 00:02:00.654
+lagra energin i fjädrarna,
+och släppa lös dem för att hoppa.
+
+00:02:00.654 --> 00:02:04.037
+Det finns inga motorer
+på den här, ingen kraft.
+
+00:02:04.037 --> 00:02:06.800
+Den utlöses med en metod
+som vi i mitt labb kallar
+
+00:02:06.800 --> 00:02:08.698
+"Avgångselev med pincett".
+
+00:02:08.698 --> 00:02:09.916
+(Skratt)
+
+00:02:09.916 --> 00:02:11.476
+Det ni ska få se i nästa video
+
+00:02:11.476 --> 00:02:14.613
+är en liten grej som gör fantastiska hopp
+
+00:02:14.613 --> 00:02:17.947
+Det här är Aaron, avgångselev med pincett.
+
+00:02:17.947 --> 00:02:20.630
+Det ni ser är en fyra-milimeters mekanism
+
+00:02:20.630 --> 00:02:22.841
+som hoppar upp nära 40 centimeter.
+
+00:02:22.841 --> 00:02:25.265
+Det är nästan 100 gånger dess egen längd.
+
+00:02:25.265 --> 00:02:27.431
+Och den överlever, studsar lite på bordet.
+
+00:02:27.431 --> 00:02:30.905
+Den är otroligt tålig, och den överlever
+helt OK tills vi tappar bort den
+
+00:02:30.905 --> 00:02:33.361
+eftersom den är så liten.
+
+00:02:33.361 --> 00:02:36.410
+Till slut vill vi kunna
+sätta dit motorer på den.
+
+00:02:36.410 --> 00:02:39.346
+Studenterna i labbet
+jobbar med millimeter-stora motorer
+
+00:02:39.346 --> 00:02:42.876
+som så småningom ska integreras
+på små, autonoma robotar.
+
+00:02:42.876 --> 00:02:46.457
+Men för att kunna få till mobilitet
+och rörelse för så här små grejer
+
+00:02:46.457 --> 00:02:48.451
+fuskar vi lite och använder magneter.
+
+00:02:48.451 --> 00:02:51.317
+Det här ska till slut bli ben
+till en mikrorobot.
+
+00:02:51.317 --> 00:02:53.334
+Ni ser silikongummilederna.
+
+00:02:53.334 --> 00:02:55.643
+Det finns en inbyggd magnet som rör sig
+
+00:02:55.643 --> 00:02:58.266
+med hjälp av ett externt magnetfält.
+
+00:02:58.266 --> 00:03:00.949
+Det här leder fram till roboten
+jag visade er tidigare.
+
+00:03:01.959 --> 00:03:05.120
+Det verkligt intressanta är
+att tack vare roboten kan vi förstå
+
+00:03:05.120 --> 00:03:06.757
+hur små insekter rör sig.
+
+00:03:06.757 --> 00:03:08.872
+Vi har en riktigt bra modell för hur allt
+
+00:03:08.872 --> 00:03:11.204
+från en kackerlacka
+till en elefant rör sig.
+
+00:03:11.204 --> 00:03:14.228
+Alla rör vi oss på ett studsande sätt
+när vi springer.
+
+00:03:14.228 --> 00:03:18.513
+Men om jag är väldigt liten
+kommer kraften mellan fötter och mark
+
+00:03:18.513 --> 00:03:21.558
+att påverka min rörelse
+mycket mer än massan,
+
+00:03:21.558 --> 00:03:23.922
+vilket ger detta studsande rörelsemönster.
+
+00:03:23.922 --> 00:03:25.497
+Den här fungerar inte riktigt än,
+
+00:03:25.497 --> 00:03:28.622
+men vi har större varianter
+som kan springa omkring.
+
+00:03:28.622 --> 00:03:32.607
+Den här är cirka en centimeter
+per sida; väldigt liten,
+
+00:03:32.607 --> 00:03:35.179
+och den springer cirka
+10 kroppslängder per sekund,
+
+00:03:35.179 --> 00:03:36.845
+10 centimeter per sekund.
+
+00:03:36.845 --> 00:03:38.458
+Ganska snabbt för en liten grej,
+
+00:03:38.458 --> 00:03:40.400
+och det kommer gå fortare.
+
+00:03:40.400 --> 00:03:43.607
+Ungefär så ligger vi till idag.
+
+00:03:44.027 --> 00:03:47.781
+Vi kan också skriva ut 3D-versioner
+som kan klättra över hinder,
+
+00:03:47.781 --> 00:03:51.280
+på liknande sätt som ni såg
+kackerlackan göra tidigare.
+
+00:03:51.280 --> 00:03:54.166
+Målet är att lägga samman allt i en robot.
+
+00:03:54.166 --> 00:03:57.859
+Vi vill ha känsel, kraft,
+styrsystem och drivkraft,
+
+00:03:57.859 --> 00:04:00.765
+och allt måste inte vara bio-inspirerat.
+
+00:04:00.765 --> 00:04:03.900
+Den här roboten är ungefär
+lika stor som en Tic Tac,
+
+00:04:03.900 --> 00:04:07.849
+och istället för att använda magneter
+eller muskler för att få den att röra sig
+
+00:04:07.849 --> 00:04:10.274
+så använder vi raketer.
+
+00:04:10.274 --> 00:04:13.160
+Det här är ett småskaligt
+ljuskänsligt material
+
+00:04:13.160 --> 00:04:15.639
+som vi gör små pixlar av.
+
+00:04:15.639 --> 00:04:19.566
+Vi kan fästa en liten pixel på magen
+på den här roboten,
+
+00:04:19.566 --> 00:04:23.722
+och den kommer att hoppa
+när den känner att ljusstyrkan ökar.
+
+00:04:24.645 --> 00:04:27.108
+Nästa video är en av mina favoriter.
+
+00:04:27.108 --> 00:04:29.658
+En 300 milligrams robot
+
+00:04:29.658 --> 00:04:32.214
+som hoppar åtta centimeter upp i luften.
+
+00:04:32.214 --> 00:04:35.184
+Den är bara 4 x 4 x 7 millimeter stor.
+
+00:04:35.184 --> 00:04:37.130
+Ni ser en stor blixt i början
+
+00:04:37.130 --> 00:04:38.622
+när raketpixeln utlöses
+
+00:04:38.622 --> 00:04:40.530
+och roboten flyger fram genom luften.
+
+00:04:40.530 --> 00:04:42.139
+Först den stora blixten
+
+00:04:42.139 --> 00:04:45.456
+och sedan ser man roboten
+hoppa upp genom luften.
+
+00:04:45.456 --> 00:04:48.368
+Den sitter inte fast i något, inga snören.
+
+00:04:48.368 --> 00:04:50.602
+Den har allt inbyggt, och den hoppade
+
+00:04:50.602 --> 00:04:54.653
+för att en student tände
+en bordslampa bredvid den.
+
+00:04:55.473 --> 00:04:58.897
+Jag tror ni kan föreställa er
+alla coola saker vi skulle kunna göra
+
+00:04:58.897 --> 00:05:03.834
+med robotar som kan springa, hoppa, rulla,
+och som är av den här storleksordningen.
+
+00:05:03.834 --> 00:05:07.604
+Tänk er spillrorna efter en naturkatastrof
+som till exempel en jordbävning.
+
+00:05:07.604 --> 00:05:09.953
+Tänk er små robotar
+som far runt bland spillrorna
+
+00:05:09.953 --> 00:05:11.372
+i jakt på överlevande.
+
+00:05:12.171 --> 00:05:15.127
+Eller tänk er en massa små robotar
+som springer runt på en bro
+
+00:05:15.127 --> 00:05:17.286
+för att inspektera
+och kolla att den är säker
+
+00:05:17.286 --> 00:05:19.326
+så man inte drabbas av ras som det här,
+
+00:05:19.326 --> 00:05:23.173
+som hände utanför Minneapolis 2007.
+
+00:05:23.173 --> 00:05:24.995
+Föreställ er vad man skulle kunna göra
+
+00:05:24.995 --> 00:05:27.518
+om man hade robotar
+simmandes runt i sitt blodomlopp.
+
+00:05:27.518 --> 00:05:29.851
+Som i "Den fantastiska resan" 
+av Isaac Asimov.
+
+00:05:29.851 --> 00:05:34.206
+Eller att man skulle kunna operera
+utan att behöva skära i dig.
+
+00:05:34.206 --> 00:05:36.936
+Vi skulle kunna ändra radikalt på
+hur vi bygger saker
+
+00:05:36.936 --> 00:05:40.343
+om man fick våra små robotar att jobba
+på samma sätt som termiter.
+
+00:05:40.343 --> 00:05:43.108
+De bygger sådana här
+otroliga åttameters högar,
+
+00:05:43.108 --> 00:05:47.196
+som helt enkelt är väl ventilerade
+flerfamiljshus för termiter
+
+00:05:47.196 --> 00:05:49.587
+i Afrika och Australien.
+
+00:05:49.587 --> 00:05:51.717
+Jag har visat några av de möjligheter
+
+00:05:51.717 --> 00:05:54.154
+vi har med små robotar.
+
+00:05:54.154 --> 00:05:58.561
+Vi har gjort framsteg,
+men det finns mycket kvar att göra,
+
+00:05:58.561 --> 00:06:01.239
+och kanske kan några av er
+hjälpa till att nå målet.
+
+00:06:01.239 --> 00:06:03.187
+Tack så mycket!
+
+00:06:03.187 --> 00:06:05.391
+(Applåder)
+

@@ -1,0 +1,436 @@
+WEBVTT
+Kind: captions
+Language: sv
+
+00:00:00.000 --> 00:00:07.000
+Översättare: Daniel Kollin
+Granskare: Annika Bidner
+
+00:00:12.579 --> 00:00:16.054
+Jag skulle vilja demonstrera, 
+för första gången inför publik,
+
+00:00:16.064 --> 00:00:20.113
+att det är möjligt att överföra en video,
+
+00:00:20.123 --> 00:00:24.452
+från en vanlig, butiksköpt LED-lampa
+
+00:00:24.476 --> 00:00:29.636
+till en solcell
+med en laptop som mottagare.
+
+00:00:30.478 --> 00:00:33.069
+Ingen Wi-Fi är inblandad, 
+det är bara ljus.
+
+00:00:33.093 --> 00:00:35.927
+Ni kanske undrar: Vad är poängen?
+
+00:00:35.951 --> 00:00:37.695
+Poängen är detta:
+
+00:00:38.399 --> 00:00:41.075
+Det kommer att ske
+en massiv utökning av Internet
+
+00:00:41.099 --> 00:00:43.909
+för att minska det digitala gapet.
+
+00:00:43.933 --> 00:00:48.114
+och för att möjliggöra det som kallas
+"Sakernas Internet" -
+
+00:00:48.138 --> 00:00:51.304
+Tiotals miljarder apparater 
+anslutna till Internet.
+
+00:00:51.328 --> 00:00:55.359
+Enligt mig kan en sådan utökning 
+av Internet bara genomföras
+
+00:00:55.383 --> 00:00:57.713
+om den är så gott som energineutral.
+
+00:00:57.713 --> 00:01:00.497
+Det betyder att vi måste utnyttja
+existerande infrastruktur
+
+00:01:00.497 --> 00:01:03.497
+så mycket som möjligt.
+
+00:01:03.497 --> 00:01:08.434
+Och det är här som solcellen 
+och LED-lampan kommer in i bilden.
+
+00:01:08.959 --> 00:01:11.277
+Jag demonstrerade för första gången
+
+00:01:11.301 --> 00:01:13.266
+på TED, år 2011,
+
+00:01:13.290 --> 00:01:15.274
+LiFi, "Light Fidelity".
+
+00:01:15.781 --> 00:01:21.776
+LiFi använder butiksköpta LED-lampor
+för att överföra data extremt snabbt,
+
+00:01:21.800 --> 00:01:24.092
+och på ett säkert och tryggt sätt.
+
+00:01:25.402 --> 00:01:28.283
+Data överförs via ljuset,
+
+00:01:28.307 --> 00:01:31.432
+kodad i små skillnader 
+i lampans ljusstyrka.
+
+00:01:32.390 --> 00:01:35.954
+Om vi ser oss omkring har vi 
+många LED-lampor omkring oss,
+
+00:01:35.978 --> 00:01:40.639
+det finns en rik infrastruktur 
+av LiFi-sändare omkring oss.
+
+00:01:41.393 --> 00:01:46.632
+Än så länge har vi använt
+speciella apparater, små fotodetektorer
+
+00:01:46.656 --> 00:01:50.338
+för att ta emot information
+kodad i data.
+
+00:01:50.940 --> 00:01:54.832
+Jag ville finna ett sätt
+att använda existerande infrastruktur
+
+00:01:54.856 --> 00:01:57.862
+för att ta emot data från våra LiFi-ljus.
+
+00:01:58.426 --> 00:02:02.540
+Och det är därför jag har tittat på
+solceller och solpaneler.
+
+00:02:03.016 --> 00:02:08.144
+En solcell absorberar ljus
+och omvandlar det till elektrisk energi.
+
+00:02:08.549 --> 00:02:13.535
+Det är så vi kan använda solceller
+för att ladda våra mobiltelefoner.
+
+00:02:13.559 --> 00:02:14.965
+Men vi måste komma ihåg
+
+00:02:14.989 --> 00:02:21.220
+att data kodas i små förändringar 
+i LED-lampans ljusstyrka,
+
+00:02:21.244 --> 00:02:24.593
+så om det inkommande ljuset förändras
+
+00:02:24.617 --> 00:02:27.548
+påverkar det energin
+som samlas in från solcellen.
+
+00:02:28.579 --> 00:02:32.088
+Det betyder att vi har
+en principiell mekanism på plats
+
+00:02:32.112 --> 00:02:38.222
+för att sända information 
+från ljuset till solcellen,
+
+00:02:38.246 --> 00:02:41.021
+eftersom svängningarna 
+i den insamlade energin
+
+00:02:41.045 --> 00:02:43.163
+motsvarar den data som sänds.
+
+00:02:43.934 --> 00:02:46.060
+Självklart ställs frågan:
+
+00:02:46.084 --> 00:02:50.244
+Kan vi uppfatta snabba
+och subtila ändringar i ljusstyrkan,
+
+00:02:50.268 --> 00:02:54.078
+som de som förekommer 
+i våra LED-lampor?
+
+00:02:54.641 --> 00:02:58.145
+Svaret på det är ja, det kan vi.
+
+00:02:58.637 --> 00:03:00.416
+Vi har visat detta i labbet
+
+00:03:00.440 --> 00:03:03.922
+att vi kan motta
+upp till 50 Mbit per sekund
+
+00:03:03.946 --> 00:03:06.381
+från en vanlig butiksköpt solcell.
+
+00:03:06.921 --> 00:03:10.548
+Detta är snabbare
+än de flesta av dagens bredband.
+
+00:03:11.437 --> 00:03:14.747
+Låt mig visa detta i praktiken.
+
+00:03:17.095 --> 00:03:21.483
+I lådan har vi en vanlig,
+butiksköpt LED-lampa.
+
+00:03:23.193 --> 00:03:25.768
+Det här är en vanlig,
+butiksköpt solcell
+
+00:03:25.792 --> 00:03:27.975
+som är ansluten till laptopen.
+
+00:03:28.949 --> 00:03:31.269
+Vi har också ett instrument här
+
+00:03:31.293 --> 00:03:35.071
+för att visualisera den energi 
+vi samlar in från solcellen.
+
+00:03:35.095 --> 00:03:37.893
+Och instrumentet visar redan aktivitet.
+
+00:03:37.917 --> 00:03:42.198
+Det är för att solcellen redan 
+samlar in ljus från omgivningen.
+
+00:03:43.102 --> 00:03:45.942
+Jag börjar med att slå på ljuset,
+
+00:03:45.966 --> 00:03:48.072
+jag slår helt enkelt på ljuset
+
+00:03:48.096 --> 00:03:50.204
+för en stund,
+
+00:03:50.228 --> 00:03:54.222
+och ni ser nu att instrumentet 
+hoppar till höger.
+
+00:03:54.904 --> 00:03:57.584
+Under en stund samlar solcellen in energi
+
+00:03:57.584 --> 00:04:00.140
+från den här artificiella ljuskällan.
+
+00:04:00.540 --> 00:04:03.818
+Stängs ljuset av så ser vi att den faller.
+
+00:04:03.842 --> 00:04:05.025
+Jag slår på den...
+
+00:04:05.049 --> 00:04:07.768
+Och vi samlar in energi med solcellen.
+
+00:04:08.586 --> 00:04:13.909
+Nu vill jag aktivera 
+överföringen av videon.
+
+00:04:15.418 --> 00:04:17.742
+Jag gör det genom att trycka
+på den här knappen.
+
+00:04:17.766 --> 00:04:22.489
+LED-lampan strömmar nu videon
+
+00:04:22.513 --> 00:04:26.645
+genom att ändra dess ljusstyrka
+på ett subtilt sätt.
+
+00:04:26.669 --> 00:04:29.167
+ett sätt som inte uppfattas
+med vanlig syn,
+
+00:04:29.191 --> 00:04:32.447
+eftersom förändringarna sker 
+för snabbt för att märkas.
+
+00:04:33.384 --> 00:04:35.783
+För att bevisa detta
+
+00:04:35.807 --> 00:04:38.952
+kan jag blockera ljuset till solcellen.
+
+00:04:40.087 --> 00:04:43.310
+Först märker ni
+att energiinsamlingen sjunker,
+
+00:04:43.334 --> 00:04:45.026
+och att videon stannar.
+
+00:04:45.050 --> 00:04:48.706
+Tar jag bort blockeringen 
+så fortsätter videon.
+
+00:04:49.357 --> 00:04:52.327
+(Applåder)
+
+00:04:55.610 --> 00:04:57.943
+Jag kan upprepa det.
+
+00:04:57.967 --> 00:05:03.218
+Vi stoppar överföringen av videon 
+samtidigt som energin sjunker.
+
+00:05:03.242 --> 00:05:07.650
+Detta visar hur solcellen 
+agerar som en mottagare.
+
+00:05:08.079 --> 00:05:13.463
+Föreställ er att den här LED-lampan 
+är en gatlykta, och att det är dimma.
+
+00:05:14.106 --> 00:05:16.409
+Jag vill simulera dimma,
+
+00:05:16.433 --> 00:05:19.176
+och det är därför som jag 
+tog med mig en näsduk.
+
+00:05:19.200 --> 00:05:20.632
+(Skratt)
+
+00:05:20.656 --> 00:05:24.616
+Jag lägger näsduken över solcellen.
+
+00:05:25.905 --> 00:05:27.533
+Först märker ni
+
+00:05:27.557 --> 00:05:31.754
+att energin sjunker, som väntat,
+
+00:05:31.778 --> 00:05:34.356
+men videon fortsätter att spelas.
+
+00:05:34.769 --> 00:05:37.388
+Detta betyder att, trots blockeringen,
+
+00:05:37.412 --> 00:05:41.293
+så lyser tillräckligt med ljus 
+genom näsduken på solcellen,
+
+00:05:41.317 --> 00:05:46.832
+så att solcellen fortfarande kan avkoda
+och strömma informationen,
+
+00:05:46.856 --> 00:05:49.460
+i detta fall en högupplöst video.
+
+00:05:51.040 --> 00:05:56.527
+Det som är viktigt här är
+att en solcell har blivit en mottagare
+
+00:05:56.527 --> 00:05:58.247
+för snabba, trådlösa signaler
+
+00:05:58.247 --> 00:06:00.466
+kodade i ljus,
+
+00:06:00.466 --> 00:06:05.282
+men behåller sin huvudsakliga funktion 
+som en energisamlande apparat
+
+00:06:05.872 --> 00:06:08.291
+Det är därför som det är möjligt
+
+00:06:08.315 --> 00:06:12.172
+att låta existerande solceller 
+på taket av en hydda
+
+00:06:12.196 --> 00:06:14.689
+agera som bredbandsmottagare
+
+00:06:14.713 --> 00:06:19.089
+från en laserstation på en närliggande 
+kulle, eller från en gatlykta.
+
+00:06:19.605 --> 00:06:23.300
+Det gör ingen skillnad 
+var strålen träffar solcellen.
+
+00:06:23.647 --> 00:06:24.825
+Detsamma är sant
+
+00:06:24.849 --> 00:06:28.642
+för genomskinliga solceller
+som är integrerade med fönster,
+
+00:06:28.666 --> 00:06:32.198
+solceller integrerade 
+med gatumöbler,
+
+00:06:32.222 --> 00:06:36.765
+eller solceller integrerade 
+med dessa miljarder apparater
+
+00:06:36.789 --> 00:06:38.865
+som bildar Sakernas Internet.
+
+00:06:38.881 --> 00:06:42.562
+Vi vill helt enkelt inte behöva
+ladda dessa apparater regelbundet,
+
+00:06:42.586 --> 00:06:45.561
+eller värre, byta batterierna 
+efter ett par månader.
+
+00:06:46.178 --> 00:06:47.952
+Som jag har sagt,
+
+00:06:47.952 --> 00:06:50.660
+är detta första gången
+som den har visats för allmänheten.
+
+00:06:50.660 --> 00:06:52.569
+Det är fortfarande en labbdemonstration,
+
+00:06:52.593 --> 00:06:53.796
+en prototyp.
+
+00:06:54.276 --> 00:06:57.570
+Men mitt lag och jag är säkra på 
+att den kan dyka upp på marknaden
+
+00:06:57.594 --> 00:06:59.585
+inom de kommande två till tre åren.
+
+00:07:00.251 --> 00:07:05.544
+Vi hoppas att vi ska kunna bidra 
+till att minska det digitala gapet,
+
+00:07:05.568 --> 00:07:06.906
+och dessutom att bidra till
+
+00:07:06.906 --> 00:07:10.015
+att ansluta alla dessa
+miljarder apparater till Internet.
+
+00:07:10.370 --> 00:07:11.895
+Och allt detta utan att orsaka
+
+00:07:11.919 --> 00:07:14.275
+en massiv explosion 
+av energikonsumtion -
+
+00:07:14.275 --> 00:07:16.687
+tack vare solcellerna
+får vi snarare det omvända.
+
+00:07:16.687 --> 00:07:17.794
+Tackar.
+
+00:07:17.818 --> 00:07:20.790
+(Applåder)
+

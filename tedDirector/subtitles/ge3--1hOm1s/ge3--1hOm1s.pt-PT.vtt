@@ -1,0 +1,846 @@
+WEBVTT
+Kind: captions
+Language: pt-PT
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Yasser Nazir
+Revisora: Margarida Ferreira
+
+00:00:13.461 --> 00:00:17.190
+No meu laboratório, nós construímos
+robôs aéreos autónomos
+
+00:00:17.190 --> 00:00:19.549
+como o que vocês veem aqui a voar.
+
+00:00:20.856 --> 00:00:24.570
+Ao contrário de outros drones disponíveis
+comercialmente, que compramos hoje,
+
+00:00:24.570 --> 00:00:27.489
+este robô não tem nenhum GPS a bordo.
+
+00:00:28.160 --> 00:00:29.739
+Então, sem GPS,
+
+00:00:29.739 --> 00:00:32.680
+é difícil para robôs como este
+determinar a sua posição.
+
+00:00:34.240 --> 00:00:38.976
+Este robô usa sensores a bordo,
+câmaras e "scanner" a laser,
+
+00:00:39.000 --> 00:00:41.500
+para fazer a análise do ambiente.
+
+00:00:41.500 --> 00:00:43.894
+Ele deteta características do ambiente,
+
+00:00:43.894 --> 00:00:46.726
+e determina onde está 
+em relação a essas características,
+
+00:00:46.726 --> 00:00:49.444
+usando um método de triangulação.
+
+00:00:49.444 --> 00:00:52.176
+Depois, pode reunir
+todas essas características num mapa,
+
+00:00:52.200 --> 00:00:54.236
+como o que veem atrás de mim.
+
+00:00:54.236 --> 00:00:57.896
+Este mapa, em seguida, permite 
+ao robô perceber onde estão os obstáculos
+
+00:00:57.920 --> 00:01:00.640
+e navegar sem problemas de colisão.
+
+00:01:01.160 --> 00:01:03.256
+O que eu quero mostrar a seguir
+
+00:01:03.280 --> 00:01:06.496
+é um conjunto de experiências 
+que fizemos no nosso laboratório,
+
+00:01:06.520 --> 00:01:10.000
+onde este robô foi capaz
+de ir a maiores distâncias.
+
+00:01:10.400 --> 00:01:15.221
+Veem aqui, no canto superior direito,
+o que o robô vê com a câmara.
+
+00:01:15.221 --> 00:01:16.710
+No ecrã principal
+
+00:01:16.710 --> 00:01:18.954
+— isto está acelerado quatro vezes —
+
+00:01:18.954 --> 00:01:21.917
+no ecrã principal vão ver 
+o mapa que está a ser construído.
+
+00:01:21.917 --> 00:01:26.252
+Este é um mapa de alta resolução
+do corredor em volta do nosso laboratório.
+
+00:01:26.252 --> 00:01:28.741
+Dentro de instantes, vão vê-lo
+entrar no laboratório,
+
+00:01:28.741 --> 00:01:31.272
+que é reconhecível
+pela desordem que estão a ver.
+
+00:01:31.272 --> 00:01:32.434
+(Risos)
+
+00:01:32.434 --> 00:01:34.628
+Mas o ponto principal 
+que vos quero transmitir
+
+00:01:34.628 --> 00:01:38.156
+é que estes robôs são capazes
+de construir mapas de alta resolução,
+
+00:01:38.156 --> 00:01:40.630
+uma resolução de cinco centímetros,
+
+00:01:40.630 --> 00:01:44.776
+permitindo que alguém que está fora 
+do laboratório, ou fora do edifício
+
+00:01:44.800 --> 00:01:48.134
+os coloque sem ter que lá entrar,
+
+00:01:48.134 --> 00:01:51.800
+e tentar deduzir o que acontece
+no interior do edifício.
+
+00:01:52.400 --> 00:01:54.940
+Agora, há um problema
+com robôs como este.
+
+00:01:55.600 --> 00:01:58.900
+O primeiro problema é que é muito grande.
+
+00:01:58.120 --> 00:02:00.227
+Como é grande, é pesado também.
+
+00:02:00.640 --> 00:02:03.843
+Estes robôs consomem
+cerca de 200 watts por quilo,
+
+00:02:04.360 --> 00:02:07.670
+Por isso o tempo 
+de uma missão é muito curto.
+
+00:02:08.000 --> 00:02:09.701
+O segundo problema
+
+00:02:09.701 --> 00:02:13.594
+é que estes robôs têm sensores a bordo
+que acabam por ser muito caros
+
+00:02:13.594 --> 00:02:17.112
+— um "scanner" a laser, 
+uma câmara e os processadores.
+
+00:02:17.280 --> 00:02:20.320
+Isso aumenta o custo deste robô.
+
+00:02:21.440 --> 00:02:23.714
+Então pensámos:
+
+00:02:24.120 --> 00:02:28.320
+"Que produto podemos comprar 
+numa loja de eletrónica
+
+00:02:28.320 --> 00:02:34.200
+"que seja barato, leve, e tenha 
+sensores de bordo e computação?"
+
+00:02:36.080 --> 00:02:38.736
+E inventámos o telefone voador.
+
+00:02:38.760 --> 00:02:40.696
+(Risos)
+
+00:02:41.290 --> 00:02:46.528
+Este robô usa um smartphone Samsung Galaxy
+que podemos comprar em qualquer sítio
+
+00:02:46.528 --> 00:02:48.745
+e só precisamos dum aplicativo
+
+00:02:48.745 --> 00:02:51.372
+que podemos descarregar
+em qualquer loja de aplicativos.
+
+00:02:51.372 --> 00:02:55.248
+Podem ver este robô
+a ler as letras, "TED", neste caso,
+
+00:02:55.248 --> 00:02:58.281
+olhando para os cantos
+do "T" e do "E"
+
+00:02:58.281 --> 00:03:01.976
+e, depois, triangulando para longe deles,
+a voar autonomamente.
+
+00:03:02.720 --> 00:03:05.976
+O "joystick" está ali só para 
+garantir que, se o robô enlouquecer,
+
+00:03:06.000 --> 00:03:07.752
+Giuseppe pode matá-lo.
+
+00:03:07.752 --> 00:03:09.143
+(Risos)
+
+00:03:10.920 --> 00:03:14.736
+Para além da construção
+destes pequenos robôs,
+
+00:03:14.760 --> 00:03:19.605
+também fizemos experiências
+com comportamentos agressivos, como aqui.
+
+00:03:19.920 --> 00:03:25.216
+Este robô está agora a voar
+a dois a três metros por segundo,
+
+00:03:25.240 --> 00:03:28.736
+inclinando e girando agressivamente,
+quando muda de direção.
+
+00:03:28.860 --> 00:03:33.197
+O importante é que podemos ter
+robôs mais pequenos e mais rápidos
+
+00:03:33.197 --> 00:03:36.263
+a voar nestes ambientes 
+muito desestruturados.
+
+00:03:37.216 --> 00:03:39.263
+No próximo vídeo,
+
+00:03:39.263 --> 00:03:43.174
+assim como veem este pássaro, uma águia,
+
+00:03:43.174 --> 00:03:46.776
+graciosamente coordenando
+as asas, os olhos e os pés
+
+00:03:46.776 --> 00:03:49.440
+para tirar a presa da água,
+
+00:03:49.440 --> 00:03:51.681
+o nosso robô também pode pescar.
+
+00:03:51.681 --> 00:03:53.119
+(Risos)
+
+00:03:53.119 --> 00:03:57.800
+Neste caso, isto é uma sanduíche mista
+que ele está a apanhar de repente.
+
+00:03:57.036 --> 00:03:59.780
+(Risos)
+
+00:03:59.680 --> 00:04:02.976
+Assim, vemos este robô a voar
+a cerca de três metros por segundo,
+
+00:04:03.000 --> 00:04:08.136
+o que é mais rápido que andar,
+coordenando os braços, as garras
+
+00:04:08.160 --> 00:04:12.280
+e o voo em frações de segundos
+para realizar esta manobra.
+
+00:04:14.120 --> 00:04:15.817
+Numa outra experiência,
+
+00:04:15.817 --> 00:04:19.016
+eu quero mostrar-vos
+como o robô adapta o seu voo
+
+00:04:19.040 --> 00:04:21.506
+para controlar a sua carga suspensa,
+
+00:04:21.506 --> 00:04:25.240
+cujo comprimento é maior
+do que a largura da janela.
+
+00:04:25.680 --> 00:04:27.485
+A fim de conseguir isso,
+
+00:04:27.485 --> 00:04:31.096
+ele tem de se inclinar 
+e ajustar a altitude
+
+00:04:31.120 --> 00:04:33.567
+e equilibrar a carga para passar.
+
+00:04:38.920 --> 00:04:41.706
+Mas é claro que queremos
+torná-los ainda mais pequenos,
+
+00:04:41.706 --> 00:04:44.428
+e inspirámo-nos,
+em particular, nas abelhas.
+
+00:04:44.428 --> 00:04:47.663
+Se observarem as abelhas
+— este é um vídeo em câmara lenta —
+
+00:04:47.663 --> 00:04:51.280
+elas são tão pequenas,
+a inércia é tão leve...
+
+00:04:51.960 --> 00:04:53.226
+(Risos)
+
+00:04:53.226 --> 00:04:56.886
+... que elas não se preocupam
+— ricocheteiam na minha mão, por exemplo.
+
+00:04:56.886 --> 00:05:00.700
+Este é um pequeno robô
+que imita o comportamento das abelhas.
+
+00:05:00.600 --> 00:05:02.252
+Quanto mais pequeno, melhor,
+
+00:05:02.252 --> 00:05:05.394
+porque, com um tamanho pequeno
+obtemos uma inércia menor.
+
+00:05:05.400 --> 00:05:07.499
+Juntamente com uma inércia menor...
+
+00:05:07.499 --> 00:05:09.816
+(Zumbido do robô) (Risos)
+
+00:05:09.840 --> 00:05:12.783
+... com uma inércia menor,
+somos resistentes a colisões.
+
+00:05:12.783 --> 00:05:14.945
+Isso torna-nos mais robustos.
+
+00:05:15.800 --> 00:05:18.692
+Assim, construímos robôs 
+pequenos como as abelhas.
+
+00:05:18.692 --> 00:05:21.856
+Este, em especial,
+pesa apenas 25 gramas.
+
+00:05:22.430 --> 00:05:24.349
+Consome apenas seis watts de potência.
+
+00:05:24.440 --> 00:05:26.976
+e pode voar até seis metros por segundo.
+
+00:05:27.000 --> 00:05:29.454
+Assim, em comparação com o seu tamanho,
+
+00:05:29.454 --> 00:05:33.218
+é como um Boeing 787 a viajar
+a 10 vezes a velocidade do som.
+
+00:05:36.000 --> 00:05:38.096
+(Risos)
+
+00:05:38.120 --> 00:05:40.040
+Quero mostrar um exemplo.
+
+00:05:40.840 --> 00:05:44.380
+Esta provavelmente é a primeira
+colisão aérea planeada,
+
+00:05:44.380 --> 00:05:46.120
+a um vigésimo da velocidade normal.
+
+00:05:46.120 --> 00:05:48.978
+Estes vão a uma velocidade relativa
+de 2 metros/segundo,
+
+00:05:49.002 --> 00:05:51.482
+e isto ilustra o princípio básico.
+
+00:05:52.200 --> 00:05:55.527
+A gaiola de fibra de carbono, 
+de dois gramas, à volta deles
+
+00:05:55.527 --> 00:05:57.200
+impede que as hélices se enredem,
+
+00:05:57.200 --> 00:06:02.496
+mas, essencialmente, a colisão é 
+absorvida e o robô reage às colisões.
+
+00:06:02.520 --> 00:06:05.172
+E mais pequeno 
+também significa mais seguro.
+
+00:06:05.172 --> 00:06:07.506
+No meu laboratório, 
+ao desenvolver estes robôs,
+
+00:06:07.506 --> 00:06:09.341
+começámos com estes robôs grandes
+
+00:06:09.341 --> 00:06:11.994
+e agora, estamos com
+esses robôs pequenos.
+
+00:06:11.994 --> 00:06:14.876
+Se traçarmos um histograma 
+da quantidade de pensos rápidos
+
+00:06:14.876 --> 00:06:16.557
+que comprávamos, no passado
+
+00:06:16.557 --> 00:06:18.112
+isso agora diminuiu.
+
+00:06:18.112 --> 00:06:20.432
+Porque estes robôs são mesmo seguros.
+
+00:06:20.760 --> 00:06:23.425
+Ser pequeno tem algumas desvantagens,
+
+00:06:23.425 --> 00:06:27.483
+e a natureza encontrou maneiras
+de compensar estas desvantagens.
+
+00:06:27.960 --> 00:06:32.160
+A ideia básica é que eles se agregam
+para formar grandes grupos, ou enxames.
+
+00:06:32.320 --> 00:06:34.333
+Do mesmo modo, no nosso laboratório,
+
+00:06:34.333 --> 00:06:36.559
+tentámos criar
+enxames artificiais de robôs.
+
+00:06:36.559 --> 00:06:38.550
+Isso é um grande desafio
+
+00:06:38.550 --> 00:06:41.045
+porque agora temos 
+que pensar em redes de robôs.
+
+00:06:41.360 --> 00:06:43.830
+E dentro de cada robô,
+
+00:06:43.830 --> 00:06:48.296
+temos que pensar na interação
+da deteção, da comunicação, da computação
+
+00:06:48.320 --> 00:06:53.352
+e essa rede torna-se
+muito difícil de controlar e de gerir.
+
+00:06:54.160 --> 00:06:57.765
+Assim, fomos buscar à natureza,
+três princípios de organização
+
+00:06:57.765 --> 00:07:01.300
+que, essencialmente, nos permitem
+desenvolver os nossos algoritmos.
+
+00:07:01.640 --> 00:07:06.285
+A primeira ideia é que os robôs precisam
+de estar cientes dos seus vizinhos.
+
+00:07:06.285 --> 00:07:09.640
+Precisam de poder sentir
+e comunicar com os vizinhos.
+
+00:07:10.040 --> 00:07:12.696
+Este vídeo ilustra a ideia.
+
+00:07:12.720 --> 00:07:14.270
+Temos quatro robôs.
+
+00:07:14.270 --> 00:07:18.080
+Um dos robôs foi sequestrado
+por um operador humano.
+
+00:07:19.217 --> 00:07:21.565
+Mas como os robôs
+interagem uns com os outros,
+
+00:07:21.565 --> 00:07:23.263
+eles sentem os seus vizinhos
+
+00:07:23.263 --> 00:07:24.946
+e seguem um líder.
+
+00:07:24.946 --> 00:07:29.840
+E aqui, uma única pessoa é capaz
+de liderar essa rede de seguidores.
+
+00:07:32.000 --> 00:07:37.156
+Afinal, novamente, não é porque todos 
+os robôs sabem para onde devem ir.
+
+00:07:37.156 --> 00:07:41.400
+É porque eles estão apenas a reagir
+às posições dos seus vizinhos.
+
+00:07:43.720 --> 00:07:46.300
+(Risos)
+
+00:07:48.280 --> 00:07:53.301
+A experiência seguinte ilustra
+o segundo princípio de organização.
+
+00:07:54.920 --> 00:07:58.720
+Este princípio tem a ver
+com o princípio do anonimato.
+
+00:07:59.400 --> 00:08:02.501
+Aqui a ideia fundamental é que
+
+00:08:02.501 --> 00:08:08.320
+os robôs desconhecem
+a identidade dos vizinhos.
+
+00:08:08.440 --> 00:08:11.056
+Pedimos-lhes para formarem um círculo.
+
+00:08:11.080 --> 00:08:14.376
+Por mais robôs 
+que acrescentemos á formação,
+
+00:08:14.400 --> 00:08:16.976
+ou por mais robôs que tiremos,
+
+00:08:17.000 --> 00:08:20.136
+cada robô está simplesmente
+a reagir ao seu vizinho.
+
+00:08:20.160 --> 00:08:25.136
+Está ciente do facto de que precisa
+formar um círculo,
+
+00:08:25.160 --> 00:08:27.245
+mas em colaboração com os seus vizinhos
+
+00:08:27.245 --> 00:08:30.680
+forma o círculo
+sem qualquer coordenação central.
+
+00:08:31.520 --> 00:08:34.126
+Agora, se colocarmos
+estas ideias em conjunto,
+
+00:08:34.126 --> 00:08:37.856
+a terceira ideia é que nós
+damos a estes robôs
+
+00:08:37.880 --> 00:08:42.176
+descrições matemáticas
+da forma que eles precisam de executar.
+
+00:08:42.300 --> 00:08:45.696
+Estas formas podem variar
+em função de tempo,
+
+00:08:45.720 --> 00:08:50.216
+e vamos ver estes robôs,
+começarem com uma formação circular,
+
+00:08:50.240 --> 00:08:53.496
+mudarem para um retângulo,
+esticarem-se numa linha reta,
+
+00:08:53.520 --> 00:08:55.222
+e depois numa elipse.
+
+00:08:55.222 --> 00:08:58.799
+Fazem isso com o mesmo
+tipo de coordenação ao segundo
+
+00:08:58.799 --> 00:09:02.940
+que vemos nos enxames, na natureza.
+
+00:09:03.080 --> 00:09:05.497
+Então, porquê trabalhar com enxames?
+
+00:09:05.497 --> 00:09:09.360
+Vou falar-vos de duas aplicações
+em que estamos muito interessados.
+
+00:09:10.160 --> 00:09:12.908
+A primeira tem a ver com a agricultura,
+
+00:09:12.908 --> 00:09:15.920
+que é provavelmente o maior problema
+que enfrentamos no mundo.
+
+00:09:16.760 --> 00:09:18.406
+Como vocês bem sabem,
+
+00:09:18.406 --> 00:09:21.560
+uma em cada sete pessoas
+nesta terra está subnutrida.
+
+00:09:21.920 --> 00:09:25.400
+A maior parte da terra 
+que cultivamos já foi cultivada.
+
+00:09:25.960 --> 00:09:29.457
+E a eficácia da maior parte dos sistemas
+no mundo está a melhorar,
+
+00:09:29.457 --> 00:09:33.120
+mas a eficácia do nosso sistema 
+de produção está em declínio,
+
+00:09:33.120 --> 00:09:35.365
+principalmente por causa
+da escassez da água,
+
+00:09:35.365 --> 00:09:37.620
+das doenças das plantas,
+da alteração climática
+
+00:09:37.620 --> 00:09:39.221
+e de mais outras coisas.
+
+00:09:39.360 --> 00:09:41.367
+Então, o que podem fazer os robôs?
+
+00:09:41.367 --> 00:09:46.430
+Nós adotámos uma abordagem que se chama
+Agricultura de Precisão na comunidade.
+
+00:09:46.430 --> 00:09:51.425
+A ideia básica é que nós pomos
+robôs aéreos a voar nos pomares,
+
+00:09:51.425 --> 00:09:54.560
+e construímos modelos de precisão
+de plantas individuais.
+
+00:09:54.829 --> 00:09:56.905
+Tal como a medicina personalizada,
+
+00:09:56.905 --> 00:10:01.336
+em que podemos imaginar querer
+tratar cada doente individualmente,
+
+00:10:01.360 --> 00:10:05.056
+o que nós gostaríamos de fazer 
+é construir modelos de plantas individuais
+
+00:10:05.080 --> 00:10:09.325
+e, depois, dizer ao agricultor
+que tipo de contributos cada planta precisa
+
+00:10:09.325 --> 00:10:11.430
+em que os contributos, neste caso,
+
+00:10:11.430 --> 00:10:14.640
+são a água, os fertilizantes
+e os pesticidas.
+
+00:10:14.640 --> 00:10:18.156
+Aqui veem robôs a voar num pomar de maçãs,
+
+00:10:18.156 --> 00:10:20.781
+e dentro de instantes verão
+dois dos seus companheiros
+
+00:10:20.781 --> 00:10:22.715
+a fazer a mesma coisa no lado esquerdo.
+
+00:10:22.800 --> 00:10:26.456
+Eles estão a construir um mapa do pomar.
+
+00:10:26.480 --> 00:10:29.441
+Dentro do mapa há um mapa
+de cada planta neste pomar.
+
+00:10:29.441 --> 00:10:31.112
+(Zumbido de robô)
+
+00:10:31.112 --> 00:10:33.590
+Vamos ver o aspeto desses mapas.
+
+00:10:33.590 --> 00:10:37.406
+No próximo vídeo, vamos ver as câmaras
+que estão a ser utilizadas neste robô.
+
+00:10:37.406 --> 00:10:40.607
+Em cima à esquerda está 
+uma câmara padrão a cores.
+
+00:10:41.640 --> 00:10:45.190
+No centro à esquerda está
+uma câmara de infravermelhos.
+
+00:10:45.190 --> 00:10:48.936
+E em baixo à esquerda
+está uma câmara térmica.
+
+00:10:48.936 --> 00:10:52.159
+No painel principal, vemos
+uma reconstrução a três dimensões
+
+00:10:52.159 --> 00:10:58.394
+de todas as árvores no pomar à medida 
+que os sensores passam pelas árvores.
+
+00:10:59.640 --> 00:11:03.680
+Munidos com estas informações,
+podemos fazer várias coisas.
+
+00:11:04.200 --> 00:11:08.656
+A primeira coisa mais importante 
+que podemos fazer é muito simples:
+
+00:11:08.656 --> 00:11:11.101
+contar o número de frutos em cada árvore.
+
+00:11:11.520 --> 00:11:16.228
+Ao fazer isso, diremos ao agricultor
+quantos frutos há em cada árvore
+
+00:11:16.228 --> 00:11:20.436
+o que lhe permitirá fazer 
+uma estimativa da colheita,
+
+00:11:20.436 --> 00:11:23.309
+otimizando os passos seguintes
+da cadeia de produção.
+
+00:11:23.640 --> 00:11:25.419
+A segunda coisa que podemos fazer
+
+00:11:25.419 --> 00:11:29.776
+é agarrar em modelos de plantas, 
+fazer reconstruções tridimensionais,
+
+00:11:29.800 --> 00:11:32.526
+e a partir disso, calcular
+o tamanho da copa das árvores,
+
+00:11:32.526 --> 00:11:34.454
+e depois correlacionar o tamanho da copa
+
+00:11:34.454 --> 00:11:36.562
+com o tamanho 
+da área foliar de cada planta.
+
+00:11:36.562 --> 00:11:38.654
+Chama-se a isso o índice de área foliar.
+
+00:11:38.654 --> 00:11:41.096
+Então, quando sabemos 
+este índice de área foliar,
+
+00:11:41.096 --> 00:11:45.985
+temos basicamente uma medida de quanta
+fotossíntese é possível em cada planta,
+
+00:11:45.985 --> 00:11:48.943
+o que nos diz quão saudável cada planta é.
+
+00:11:49.520 --> 00:11:53.881
+Ao combinar informações
+visuais e de infravermelhos,
+
+00:11:53.881 --> 00:11:57.219
+também podemos calcular índices, 
+tais como o NDVI.
+
+00:11:57.219 --> 00:12:00.379
+Neste caso particular,
+podemos ver, essencialmente,
+
+00:12:00.379 --> 00:12:03.126
+que há certas culturas
+que não estão tão bem como outras.
+
+00:12:03.126 --> 00:12:07.080
+Isso é facilmente percetível
+a partir de imagens,
+
+00:12:07.080 --> 00:12:08.934
+não apenas imagens visuais,
+
+00:12:08.934 --> 00:12:12.056
+mas combinando imagens visuais 
+com imagens a infravermelho.
+
+00:12:12.080 --> 00:12:15.225
+E finalmente, uma coisa 
+que estamos interessados em fazer
+
+00:12:15.225 --> 00:12:17.601
+é detetar o início precoce da clorose.
+
+00:12:17.601 --> 00:12:19.412
+Esta é uma laranjeira
+
+00:12:19.412 --> 00:12:22.320
+que se destaca sobretudo
+pelo amarelecimento das folhas.
+
+00:12:22.320 --> 00:12:25.776
+Os robôs voadores podem
+facilmente detetar isso de forma autónoma
+
+00:12:25.800 --> 00:12:28.854
+e, depois, informar o agricultor
+que há um problema
+
+00:12:28.854 --> 00:12:30.652
+nesta secção do pomar.
+
+00:12:30.800 --> 00:12:33.496
+Sistemas como este podem ajudar,
+
+00:12:33.520 --> 00:12:39.445
+e nós estamos a projetar colheitas que 
+podem melhorar em cerca de 10%.
+
+00:12:39.445 --> 00:12:42.639
+Mais importante ainda, podem diminuir
+a quantidade de consumos,
+
+00:12:42.639 --> 00:12:45.880
+como a água, em 25%, 
+usando enxames de robôs aéreos.
+
+00:12:47.200 --> 00:12:52.936
+Por último, quero aplaudir
+as pessoas que criam o futuro,
+
+00:12:53.250 --> 00:12:57.880
+Yash Mulgaonkar, Sikang Liu
+e Giuseppe Loianno,
+
+00:12:57.920 --> 00:13:01.416
+que são responsáveis pelas três
+demonstrações que viram.
+
+00:13:01.603 --> 00:13:02.779
+Obrigado.
+
+00:13:02.943 --> 00:13:05.987
+(Aplausos)
+

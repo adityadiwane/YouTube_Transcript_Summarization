@@ -1,0 +1,796 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Adrian Dobroiu
+Corector: Ariana Bleau Lugo
+
+00:00:23.307 --> 00:00:26.491
+Ce înseamnă „o mașină sportivă”?
+
+00:00:26.491 --> 00:00:29.908
+Vom explica noțiunea de sportivitate a mașinilor
+
+00:00:29.908 --> 00:00:31.628
+și cum o obținem prin cercetare
+
+00:00:31.628 --> 00:00:34.139
+cu ajutorul acestor mașinării zburătoare,
+numite „cuadrirotoare”
+
+00:00:34.139 --> 00:00:36.026
+sau pe scurt „cuaduri”.
+
+00:00:38.034 --> 00:00:40.563
+Cuadurile există de multă vreme.
+
+00:00:40.563 --> 00:00:42.162
+Azi le vedem peste tot pentru că
+
+00:00:42.162 --> 00:00:44.127
+au o mecanică simplă.
+
+00:00:44.127 --> 00:00:46.235
+Prin comanda vitezelor celor patru elice
+
+00:00:46.235 --> 00:00:49.283
+se obțin tangajul, ruliul, girația
+
+00:00:49.283 --> 00:00:52.108
+și accelerația în direcția lor comună.
+
+00:00:52.108 --> 00:00:55.179
+La bord mai există o baterie, un calculator,
+
+00:00:55.179 --> 00:00:59.133
+diferiți sensori și cartele radio.
+
+00:00:59.133 --> 00:01:03.762
+Cuadurile sînt foarte agile, dar agilitatea are un preț.
+
+00:01:03.762 --> 00:01:06.754
+Sînt inerent instabile, deci pentru a zbura
+
+00:01:06.754 --> 00:01:10.726
+au nevoie de comandă automată cu reacție.
+
+00:01:16.259 --> 00:01:19.497
+Cum a reușit asta?
+
+00:01:19.497 --> 00:01:21.315
+Pe tavan sînt camere, legate la un laptop,
+
+00:01:21.315 --> 00:01:23.891
+care formează un sistem de poziționare local.
+
+00:01:23.891 --> 00:01:26.076
+Așa localizăm în spațiu obiectele
+
+00:01:26.076 --> 00:01:28.603
+care au montate aceste repere reflectante.
+
+00:01:28.603 --> 00:01:30.664
+Datele sînt trimise la un alt laptop,
+
+00:01:30.664 --> 00:01:32.875
+care rulează algoritmi de estimare și comandă
+
+00:01:32.875 --> 00:01:34.761
+și care apoi trimite comenzi la cuad,
+
+00:01:34.761 --> 00:01:38.246
+care și el rulează algoritmi de estimare și comandă.
+
+00:01:41.620 --> 00:01:44.130
+Grosul cercetării noastre e în algoritmi.
+
+00:01:44.130 --> 00:01:48.291
+Ei sînt magia care dă viață acestor aparate.
+
+00:01:48.291 --> 00:01:50.334
+Cum se proiectează algoritmii
+
+00:01:50.334 --> 00:01:52.611
+care creează un sportiv mecanic?
+
+00:01:52.611 --> 00:01:55.491
+Folosim ceea ce se numește
+„proiectare pe bază de model”.
+
+00:01:55.491 --> 00:01:58.645
+Întîi modelăm matematic procesele fizice
+
+00:01:58.645 --> 00:02:00.779
+din funcționarea aparatelor.
+
+00:02:00.779 --> 00:02:03.076
+Apoi folosim ramura matematicii
+
+00:02:03.076 --> 00:02:05.907
+numită „teoria controlului” pentru a analiza modelele
+
+00:02:05.907 --> 00:02:09.820
+și sintetizăm algoritmi pentru comanda lor.
+
+00:02:09.820 --> 00:02:12.868
+De exemplu așa obținem zborul staționar.
+
+00:02:12.868 --> 00:02:14.276
+Mai întîi descriem dinamica
+
+00:02:14.276 --> 00:02:16.182
+într-un sistem de ecuații diferențiale.
+
+00:02:16.182 --> 00:02:18.531
+Apoi modificăm aceste ecuații folosind
+
+00:02:18.531 --> 00:02:23.171
+teoria controlului pentru a crea
+algoritmi care stabilizează cuadul.
+
+00:02:23.171 --> 00:02:26.117
+Să vă arăt puterea acestei abordări.
+
+00:02:29.198 --> 00:02:31.747
+Să zicem că-i cerem cuadului să zboare staționar
+
+00:02:31.747 --> 00:02:34.529
+și în plus să țină o vergea în echilibru.
+
+00:02:34.529 --> 00:02:36.373
+Cu puțin exercițiu
+
+00:02:36.373 --> 00:02:38.764
+e destul de simplu pentru un om să facă asta,
+
+00:02:38.764 --> 00:02:40.519
+deși e drept că noi profităm
+
+00:02:40.519 --> 00:02:41.847
+de două picioare pe sol
+
+00:02:41.847 --> 00:02:44.804
+și de mîini foarte versatile.
+
+00:02:44.804 --> 00:02:47.273
+Devine ceva mai greu
+
+00:02:47.273 --> 00:02:49.569
+cu un singur picior pe sol
+
+00:02:49.569 --> 00:02:52.368
+și dacă nu folosesc mîinile.
+
+00:02:52.368 --> 00:02:55.319
+Observați că vergeaua are un reper reflectant sus,
+
+00:02:55.319 --> 00:02:59.213
+deci poate fi localizată în spațiu.
+
+00:03:04.971 --> 00:03:10.947
+(Aplauze)
+
+00:03:10.947 --> 00:03:13.773
+Vedeți cum face cuadul mici ajustări
+
+00:03:13.773 --> 00:03:15.968
+pentru a păstra echilibrul.
+
+00:03:15.968 --> 00:03:19.027
+Cum am proiectat acești algoritmi?
+
+00:03:19.027 --> 00:03:21.132
+Am adăugat modelul matematic al vergelei
+
+00:03:21.132 --> 00:03:22.651
+la modelul cuadului.
+
+00:03:22.651 --> 00:03:25.605
+La modelul sistemului combinat cuad + vergea
+
+00:03:25.605 --> 00:03:30.538
+aplicăm teoria controlului pentru
+a crea algoritmii de comandă.
+
+00:03:30.538 --> 00:03:32.126
+Uite, vedeți că e stabil,
+
+00:03:32.126 --> 00:03:34.819
+și chiar dacă îl mișc puțin
+
+00:03:34.819 --> 00:03:40.222
+se întoarce frumos la echilibru.
+
+00:03:40.222 --> 00:03:41.885
+Putem adăuga la model
+
+00:03:41.885 --> 00:03:44.326
+unde vrem să stea cuadul în spațiu.
+
+00:03:44.326 --> 00:03:47.395
+Folosind acest indicator cu repere reflectante
+
+00:03:47.395 --> 00:03:49.619
+pot indica unde vreau să fie cuadul în spațiu,
+
+00:03:49.619 --> 00:03:52.986
+la o anumită distanță de mine.
+
+00:04:07.763 --> 00:04:10.665
+Cheia acestor manevre acrobatice e în algoritmi,
+
+00:04:10.665 --> 00:04:13.091
+proiectați folosind modele matematice
+
+00:04:13.091 --> 00:04:15.041
+și teoria controlului.
+
+00:04:15.041 --> 00:04:17.255
+Să-i spunem cuadului să se întoarcă aici
+
+00:04:17.255 --> 00:04:19.074
+și să lase vergeaua să cadă,
+
+00:04:19.074 --> 00:04:20.992
+și vă voi arăta cît de important este
+
+00:04:20.992 --> 00:04:23.111
+să înțelegem modelele matematice
+
+00:04:23.111 --> 00:04:27.231
+și funcționarea lumii fizice.
+
+00:04:37.462 --> 00:04:39.232
+Observați cum a pierdut din altitudine
+
+00:04:39.232 --> 00:04:41.314
+cînd am așezat paharul cu apă.
+
+00:04:41.314 --> 00:04:44.115
+Spre deosebire de vergea, n-am mai inclus
+
+00:04:44.115 --> 00:04:46.699
+modelul matematic al paharului în sistem.
+
+00:04:46.699 --> 00:04:49.618
+De fapt sistemul habar n-are
+că paharul cu apă e acolo.
+
+00:04:49.618 --> 00:04:52.910
+Pot folosi din nou indicatorul
+pentru a-i spune cuadului
+
+00:04:52.910 --> 00:04:55.499
+unde vreau să fie în spațiu.
+
+00:04:55.499 --> 00:05:05.096
+(Aplauze)
+
+00:05:05.096 --> 00:05:07.206
+Ar trebui să vă întrebați
+
+00:05:07.206 --> 00:05:09.715
+de ce nu se varsă apa din pahar?
+
+00:05:09.715 --> 00:05:12.926
+Două precizări.
+1: Gravitația acționează la fel
+
+00:05:12.926 --> 00:05:15.051
+asupra tuturor corpurilor.
+
+00:05:15.051 --> 00:05:17.515
+2. Elicele sînt îndreptate toate
+
+00:05:17.515 --> 00:05:20.642
+în aceeași direcție ca paharul, în sus.
+
+00:05:20.642 --> 00:05:23.019
+Combinînd cele două informații, rezultatul net
+
+00:05:23.019 --> 00:05:25.306
+e că forțele laterale asupra paharului sînt mici
+
+00:05:25.306 --> 00:05:28.091
+și vin în mare parte din efectele aerodinamice,
+
+00:05:28.091 --> 00:05:31.932
+care la aceste viteze sînt neglijabile.
+
+00:05:35.336 --> 00:05:37.407
+De aceea nu e nevoie de modelul paharului.
+
+00:05:37.407 --> 00:05:41.255
+Apa nu se varsă orice ar face cuadul.
+
+00:05:50.651 --> 00:05:57.702
+(Aplauze)
+
+00:05:57.702 --> 00:06:01.718
+Să reținem deci că unele operații performante
+
+00:06:01.718 --> 00:06:03.115
+sînt mai ușoare decît altele
+
+00:06:03.115 --> 00:06:05.411
+și că înțelegerea aspectului fizic al problemei
+
+00:06:05.411 --> 00:06:08.027
+ne spune care sînt ușoare și care grele.
+
+00:06:08.027 --> 00:06:10.386
+În cazul acesta, transportarea paharului e ușoară,
+
+00:06:10.386 --> 00:06:14.171
+echilibrarea vergelei e grea.
+
+00:06:14.171 --> 00:06:15.973
+Am auzit cu toții de succesele remarcabile
+
+00:06:15.973 --> 00:06:18.466
+ale unor sportivi care erau răniți.
+
+00:06:18.466 --> 00:06:19.985
+Oare se descurcă și o mașină
+
+00:06:19.985 --> 00:06:22.636
+cu defecte fizice extreme?
+
+00:06:22.636 --> 00:06:24.362
+Se spune că pentru a zbura e nevoie
+
+00:06:24.362 --> 00:06:28.052
+de cel puțin patru motoare fixe cu perechi de elice,
+
+00:06:28.052 --> 00:06:30.164
+pentru că ai de comandat patru grade de libertate:
+
+00:06:30.164 --> 00:06:33.192
+ruliu, tangaj, girație și accelerație.
+
+00:06:33.192 --> 00:06:36.437
+Hexarotoarele și octorotoarele, cu șase și opt elice,
+
+00:06:36.437 --> 00:06:37.920
+dispun de redundanță,
+
+00:06:37.920 --> 00:06:39.909
+dar cuadrirotoarele sînt mult mai folosite,
+
+00:06:39.909 --> 00:06:41.724
+pentru că au numărul minim
+
+00:06:41.724 --> 00:06:44.200
+de elice cu motor fix: patru.
+
+00:06:44.200 --> 00:06:46.165
+Așa să fie?
+
+00:07:01.476 --> 00:07:04.076
+Dacă analizăm modelul matematic al aparatului
+
+00:07:04.076 --> 00:07:06.252
+cu numai două elice în funcțiune,
+
+00:07:06.252 --> 00:07:13.008
+descoperim că există un mod neconvențional de zbor.
+
+00:07:19.980 --> 00:07:21.686
+Renunțăm la comanda girației,
+
+00:07:21.686 --> 00:07:24.756
+dar putem comanda ruliul, tangajul și accelerația
+
+00:07:24.756 --> 00:07:30.208
+cu algoritmi care folosesc noua configurație.
+
+00:07:33.668 --> 00:07:36.100
+Modelele matematice ne spun exact
+
+00:07:36.100 --> 00:07:38.172
+cînd și de ce e posibil.
+
+00:07:38.172 --> 00:07:40.540
+Aici această cunoaștere ne permite să proiectăm
+
+00:07:40.540 --> 00:07:42.796
+noi arhitecturi mecanice
+
+00:07:42.796 --> 00:07:46.972
+sau să concepem algoritmi abili
+care compensează elegant defecțiunile,
+
+00:07:46.972 --> 00:07:48.696
+așa cum fac sportivii,
+
+00:07:48.696 --> 00:07:52.519
+în loc să construim mașini cu redundanță.
+
+00:07:52.519 --> 00:07:54.631
+Ni se taie respirația cînd vedem
+
+00:07:54.631 --> 00:07:57.068
+un înotător sărind la trambulină
+
+00:07:57.068 --> 00:07:58.858
+sau un gimnast făcînd un șurub în aer,
+
+00:07:58.858 --> 00:08:00.576
+în cădere vertiginoasă.
+
+00:08:00.576 --> 00:08:03.144
+Va reuși înotătorul să plonjeze perfect?
+
+00:08:03.144 --> 00:08:05.144
+Va reuși gimnastul să încheie curat?
+
+00:08:05.144 --> 00:08:06.812
+Să zicem că vrem să punem cuadul
+
+00:08:06.812 --> 00:08:09.263
+să se rostogolească de trei ori
+
+00:08:09.263 --> 00:08:11.532
+și să revină în punctul de pornire.
+
+00:08:11.532 --> 00:08:13.879
+Mișcarea va fi atît de rapidă
+
+00:08:13.879 --> 00:08:17.508
+încît nu putem folosi poziția măsurată
+pentru a face corecții în timp real.
+
+00:08:17.508 --> 00:08:19.782
+Nu ajunge nicicum timpul.
+
+00:08:19.782 --> 00:08:23.476
+În schimb, cuadul poate să facă manevra orbește,
+
+00:08:23.476 --> 00:08:25.708
+să observe cum a terminat-o
+
+00:08:25.708 --> 00:08:28.132
+și apoi să folosească datele
+pentru a-și corecta comportamentul,
+
+00:08:28.132 --> 00:08:30.421
+încît următoarele salturi să fie mai bune.
+
+00:08:30.421 --> 00:08:32.233
+La fel ca înotătorul și gimnastul,
+
+00:08:32.233 --> 00:08:34.152
+numai prin exercițiu repetat
+
+00:08:34.152 --> 00:08:36.077
+se poate învăța și executa o manevră
+
+00:08:36.077 --> 00:08:38.210
+de mare performanță.
+
+00:08:46.412 --> 00:08:51.164
+(Aplauze)
+
+00:08:51.164 --> 00:08:54.636
+În multe sporturi trebuie să știi să lovești mingea.
+
+00:08:54.636 --> 00:08:56.431
+Cum ar putea o mașină să facă
+
+00:08:56.431 --> 00:09:00.184
+ceea ce sportivii fac aparent fără efort?
+
+00:09:15.943 --> 00:09:22.542
+(Aplauze)
+
+00:09:22.542 --> 00:09:25.192
+Cuadul are montată o rachetă deasupra
+
+00:09:25.192 --> 00:09:28.679
+cu o zonă optimă cam cît un măr, nu prea mare.
+
+00:09:28.679 --> 00:09:31.846
+Aici calculele se fac la fiecare 20 ms,
+
+00:09:31.846 --> 00:09:33.602
+de 50 de ori pe secundă.
+
+00:09:33.602 --> 00:09:36.414
+1. Mai întîi socotim unde se duce bila.
+
+00:09:36.414 --> 00:09:38.851
+2. Apoi calculăm cum trebuie cuadul să lovească bila
+
+00:09:38.851 --> 00:09:41.950
+ca ea să zboare înapoi de unde a venit.
+
+00:09:41.950 --> 00:09:46.406
+3: Se stabilește ce traiectorie duce cuadul
+
+00:09:46.406 --> 00:09:49.430
+din starea curentă la punctul de impact cu bila.
+
+00:09:49.430 --> 00:09:53.239
+4. Calculele se fac doar pentru un interval de 20 ms.
+
+00:09:53.239 --> 00:09:56.046
+După 20 ms se repetă întregul proces
+
+00:09:56.046 --> 00:09:58.289
+pînă cînd cuadul lovește bila.
+
+00:10:07.560 --> 00:10:10.206
+(Aplauze)
+
+00:10:10.206 --> 00:10:13.578
+Mașinile pot efectua manevre dinamice atît individual,
+
+00:10:13.578 --> 00:10:15.441
+cît și colectiv.
+
+00:10:15.441 --> 00:10:19.028
+Aceste trei cuaduri cooperează în a purta o plasă.
+
+00:10:28.574 --> 00:10:33.985
+(Aplauze)
+
+00:10:33.985 --> 00:10:36.182
+Execută o manevră foarte dinamică și colectivă
+
+00:10:36.182 --> 00:10:38.350
+Execută o manevră foarte dinamică și colectivă
+
+00:10:38.350 --> 00:10:40.042
+pentru a-mi arunca bila înapoi.
+
+00:10:40.042 --> 00:10:43.553
+Observați că la întinderea maximă
+cuadurile sînt verticale.
+
+00:10:48.486 --> 00:10:50.258
+(Aplauze)
+
+00:10:50.258 --> 00:10:52.545
+De fapt la întindere maximă
+
+00:10:52.545 --> 00:10:55.230
+efectul e de vreo cinci ori mai mare
+decît ce simți la un bungee jump,
+
+00:10:55.230 --> 00:10:59.818
+la sfîrșitul săriturii.
+
+00:11:03.009 --> 00:11:05.686
+Algoritmii de aici seamănă mult
+
+00:11:05.686 --> 00:11:09.070
+cu ai cuadului care îmi trimite bila înapoi.
+
+00:11:09.070 --> 00:11:11.934
+Folosind modele matematice strategia de cooperare
+
+00:11:11.934 --> 00:11:16.449
+se recalculează continuu de 50 de ori pe secundă.
+
+00:11:16.449 --> 00:11:18.326
+Pînă acum am arătat numai
+
+00:11:18.326 --> 00:11:20.789
+ce sînt și ce pot face mașinile.
+
+00:11:20.789 --> 00:11:23.804
+Dar dacă îmbinăm însușirile sportive ale mașinii
+
+00:11:23.804 --> 00:11:25.580
+cu ale omului?
+
+00:11:25.580 --> 00:11:29.385
+Am aici în față un sensor de gesturi, din comerț,
+
+00:11:29.385 --> 00:11:30.694
+din cele pentru jocuri.
+
+00:11:30.694 --> 00:11:32.498
+Poate recunoaște ce fac diferitele părți
+
+00:11:32.498 --> 00:11:34.546
+ale corpului în timp real.
+
+00:11:34.546 --> 00:11:36.662
+La fel ca pe indicatorul de adineauri,
+
+00:11:36.662 --> 00:11:39.454
+îl putem folosi pentru introducerea datelor.
+
+00:11:39.454 --> 00:11:41.850
+Astfel avem un mod natural de interacțiune
+
+00:11:41.850 --> 00:11:46.794
+cu însușirile sportive ale cuadurilor, prin gesturi.
+
+00:12:22.453 --> 00:12:26.853
+(Aplauze)
+
+00:12:35.982 --> 00:12:39.989
+Interacțiunea nu trebuie neapărat
+să fie virtuală. Poate fi și fizică.
+
+00:12:39.989 --> 00:12:41.714
+Să luăm acest cuad.
+
+00:12:41.714 --> 00:12:44.342
+El încearcă să stea într-un punct fix din spațiu.
+
+00:12:44.342 --> 00:12:48.179
+Dacă încerc să-l mișc, se împotrivește
+
+00:12:48.179 --> 00:12:52.334
+și se întoarce unde vrea el să fie.
+
+00:12:52.334 --> 00:12:55.373
+Dar îi putem schimba comportamentul.
+
+00:12:55.373 --> 00:12:57.072
+Putem folosi modele matematice
+
+00:12:57.072 --> 00:13:00.205
+pentru a estima forța cu care apăs cuadul.
+
+00:13:00.205 --> 00:13:03.443
+După ce știm forța, putem schimba legile fizicii,
+
+00:13:03.443 --> 00:13:07.942
+din perspectiva cuadului, sigur.
+
+00:13:07.942 --> 00:13:10.205
+Acum cuadul se comportă ca și cum ar fi
+
+00:13:10.205 --> 00:13:14.570
+într-un fluid vîscos.
+
+00:13:14.570 --> 00:13:16.744
+Prin asta putem interacționa
+
+00:13:16.744 --> 00:13:18.593
+cu aparatul într-un mod direct.
+
+00:13:18.593 --> 00:13:21.099
+Voi folosi noua aptitudine pentru a plasa
+
+00:13:21.099 --> 00:13:23.676
+acest cuad cu cameră video într-un loc potrivit
+
+00:13:23.676 --> 00:13:26.862
+pentru a filma restul demonstrației.
+
+00:13:36.222 --> 00:13:38.990
+Putem deci să interacționăm fizic cu cuadurile
+
+00:13:38.990 --> 00:13:41.393
+și putem schimba legile fizicii.
+
+00:13:41.393 --> 00:13:43.706
+Hai să ne amuzăm puțin cu asta.
+
+00:13:43.706 --> 00:13:45.410
+În clipele următoare aceste cuaduri
+
+00:13:45.410 --> 00:13:48.906
+se vor comporta inițial ca și cum ar fi pe Pluto.
+
+00:13:48.906 --> 00:13:51.218
+Apoi treptat gravitația va crește
+
+00:13:51.218 --> 00:13:53.338
+pînă ne vom întoarce pe Pămînt,
+
+00:13:53.338 --> 00:13:55.057
+dar sînt sigur că nu voi reuși.
+
+00:13:55.057 --> 00:13:58.558
+Bun, începem!
+
+00:14:05.667 --> 00:14:09.079
+(Rîsete)
+
+00:14:34.778 --> 00:14:37.986
+(Rîsete)
+
+00:14:37.986 --> 00:14:41.372
+(Aplauze)
+
+00:14:41.372 --> 00:14:42.579
+Uu!
+
+00:14:46.779 --> 00:14:48.296
+Acum deja vă gîndiți:
+
+00:14:48.296 --> 00:14:50.271
+„Ăștia se distrează cam mult!”
+
+00:14:50.271 --> 00:14:52.350
+Și probabil vă întrebați:
+
+00:14:52.350 --> 00:14:56.286
+„De ce or fi construind ei sportivi mecanici?”
+
+00:14:56.286 --> 00:14:58.938
+Unii consideră că rolul jocului în regnul animal
+
+00:14:58.938 --> 00:15:01.690
+este ascuțirea dibăciei și dezvoltarea calităților.
+
+00:15:01.690 --> 00:15:03.756
+Alții cred că are mai mult un rol social,
+
+00:15:03.756 --> 00:15:05.430
+că servește la coeziunea grupului.
+
+00:15:05.430 --> 00:15:08.963
+La fel și noi, prin analogie cu sporturile
+
+00:15:08.963 --> 00:15:11.042
+creăm noi algoritmi cu care
+
+00:15:11.042 --> 00:15:13.189
+ducem mașinile la limită.
+
+00:15:13.189 --> 00:15:16.866
+Ce impact vor avea astfel de mașini
+asupra vieții omului?
+
+00:15:16.866 --> 00:15:19.255
+Ca toate creațiile și inovațiile de pînă acum,
+
+00:15:19.255 --> 00:15:22.082
+ele pot veni în slujba condiției umane
+
+00:15:22.082 --> 00:15:24.583
+sau se pot folosi greșit și abuza.
+
+00:15:24.583 --> 00:15:26.506
+Alegerea de făcut nu e una tehnică;
+
+00:15:26.506 --> 00:15:28.261
+e una socială.
+
+00:15:28.261 --> 00:15:29.651
+Hai să alegem bine,
+
+00:15:29.651 --> 00:15:32.056
+să scoatem la iveală tot ce e mai bun
+din viitorul mașinilor,
+
+00:15:32.056 --> 00:15:33.868
+așa cum sportivitatea scoate la iveală
+
+00:15:33.868 --> 00:15:36.029
+tot ce e mai bun în noi.
+
+00:15:36.029 --> 00:15:39.479
+Vreau să vi-i prezint pe
+vrăjitorii din spatele cortinei verzi.
+
+00:15:39.479 --> 00:15:42.379
+Ei sînt membrii actuali ai echipei de cercetare
+„Arena Mașinii Zburătoare”
+
+00:15:42.379 --> 00:15:47.148
+(Aplauze)
+
+00:15:47.148 --> 00:15:50.194
+Federico Augugliaro, Dario Brescianini, Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+Sergei Lupashin, Mark Muller și Robin Ritz.
+
+00:15:53.018 --> 00:15:54.950
+Stați cu ochii pe ei. Le e scris să facă lucruri mari.
+
+00:15:54.950 --> 00:15:56.128
+Mulțumesc.
+
+00:15:56.128 --> 00:16:02.482
+(Aplauze)
+

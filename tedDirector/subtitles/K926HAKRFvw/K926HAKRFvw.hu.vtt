@@ -1,0 +1,1094 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Gyongyver Poller
+Lektor: Reka Lorinczy
+
+00:00:12.760 --> 00:00:14.600
+Ez itt a Pleurobot.
+
+00:00:15.400 --> 00:00:18.450
+A Pleurobot egy robot,
+melyet egy szalamandrafajta,
+
+00:00:18.450 --> 00:00:20.890
+a Pleurodeles waltl 
+élethű imitálására terveztünk.
+
+00:00:21.240 --> 00:00:23.496
+A Pleurobot tud sétálni, 
+amint itt látható,
+
+00:00:23.520 --> 00:00:25.560
+és ahogy később látni fogják, úszni is.
+
+00:00:26.280 --> 00:00:28.471
+Megkérdezhetik, 
+miért terveztük ezt a robotot?
+
+00:00:28.960 --> 00:00:32.722
+Nos, az idegtudomány számára,
+tudományos eszköznek szántuk.
+
+00:00:33.400 --> 00:00:35.870
+Neurobiológusokkal együtt terveztük,
+
+00:00:35.870 --> 00:00:37.916
+hogy megértsük, 
+miként mozognak az állatok,
+
+00:00:37.916 --> 00:00:40.840
+és különösen, hogy a gerincvelő
+miként irányítja e mozgást.
+
+00:00:41.240 --> 00:00:43.466
+Minél többet dolgozom 
+a biorobotika területén,
+
+00:00:43.466 --> 00:00:45.661
+annál inkább lenyűgöz az állatok mozgása.
+
+00:00:45.920 --> 00:00:50.216
+Gondoljunk csak egy úszó delfinre, 
+egy futó, ugráló macskára,
+
+00:00:50.240 --> 00:00:51.816
+vagy egy kocogó,
+
+00:00:51.840 --> 00:00:53.380
+vagy teniszező emberre -
+
+00:00:53.380 --> 00:00:55.630
+valamennyien bámulatos dolgokat tesznek.
+
+00:00:55.880 --> 00:01:00.016
+Az idegrendszer egy igen-igen 
+komplex problémát old meg:
+
+00:01:00.040 --> 00:01:03.136
+tökéletesen összehangolja 
+mintegy 200 izom mozgását,
+
+00:01:03.160 --> 00:01:06.840
+Ha ugyanis a koordináció rossz,
+akkor elesünk, vagy helytelenül mozgunk.
+
+00:01:07.560 --> 00:01:10.280
+A célom megérteni, hogy ez miként működik.
+
+00:01:11.160 --> 00:01:14.000
+Az állatok mozgása mögött 
+négy fő komponens áll.
+
+00:01:14.800 --> 00:01:16.736
+Az első komponens egyszerűen a test.
+
+00:01:16.760 --> 00:01:18.736
+Sosem szabad alábecsülni,
+
+00:01:18.760 --> 00:01:22.240
+hogy a biomechanika mennyire
+leegyszerűsíti a mozgást az állatoknál.
+
+00:01:22.920 --> 00:01:24.376
+Aztán következik a gerincvelő,
+
+00:01:24.400 --> 00:01:26.376
+melyben a reflexek találhatók.
+
+00:01:26.400 --> 00:01:29.856
+Többféle reflex van, melyek szenzomotoros
+koordinációs hurkot alkotnak
+
+00:01:29.880 --> 00:01:33.360
+a gerincvelői idegi aktivitása
+és a mechanikus tevékenység között.
+
+00:01:34.000 --> 00:01:36.976
+A harmadik komponenst 
+a központi mintagenerátorok jelentik.
+
+00:01:37.000 --> 00:01:40.896
+Ezek a gerincesek gerincvelőjében lévő,
+nagyon érdekes áramkörök,
+
+00:01:40.920 --> 00:01:42.536
+melyek képesek önállóan,
+
+00:01:42.560 --> 00:01:45.316
+rendkívül összehangolt,
+ritmikus mozgásmintákat létrehozni,
+
+00:01:45.330 --> 00:01:47.740
+rendkívül egyszerű bemeneti jelek alapján.
+
+00:01:47.740 --> 00:01:49.076
+Ezek a bemeneti jelek
+
+00:01:49.076 --> 00:01:52.016
+az alászálló idegpályán érkeznek
+az agy felsőbb részeiből -
+
+00:01:52.040 --> 00:01:54.796
+a motoros kéregből,,
+kisagyból, agyalapi idegsejtekből -
+
+00:01:54.846 --> 00:01:57.276
+melyek mind szabályozzák
+a gerincvelő tevékenységét,
+
+00:01:57.296 --> 00:01:58.486
+miközben mozgást végzünk.
+
+00:01:58.536 --> 00:02:01.616
+Igen érdekes, hogy egy olyan 
+alacsony szintű komponens,
+
+00:02:01.640 --> 00:02:03.576
+mint a gerincvelő, a testtel együtt,
+
+00:02:03.600 --> 00:02:06.186
+milyen mértékben képes 
+megoldani a mozgás problémáját.
+
+00:02:06.186 --> 00:02:09.502
+Valószínűleg ismerik azt a tényt,
+hogyha a csirke fejét levágják,
+
+00:02:09.532 --> 00:02:10.913
+még képes futni egy darabig,
+
+00:02:10.937 --> 00:02:13.476
+bizonyítva, hogy az alsó rész,
+a gerincvelő és a test
+
+00:02:13.500 --> 00:02:15.373
+végzi a mozgás nagy részét.
+
+00:02:15.397 --> 00:02:17.856
+Most már látjuk, hogy ez 
+igen bonyolult működésmód,
+
+00:02:17.880 --> 00:02:19.176
+mert mindenekelőtt
+
+00:02:19.200 --> 00:02:21.820
+igen nehéz a mozgás
+követése a gerincvelőben.
+
+00:02:21.844 --> 00:02:24.616
+Sokkal egyszerűbb a motoros
+kéregbe elektródákat beültetni,
+
+00:02:24.640 --> 00:02:27.696
+mint a gerinccsigolya 
+által védett gerincvelőbe.
+
+00:02:27.720 --> 00:02:29.536
+Különösen embereknél nagyon nehéz.
+
+00:02:29.560 --> 00:02:33.336
+A második nehézség, 
+hogy a mozgás a négy összetevő
+
+00:02:33.360 --> 00:02:36.416
+igen bonyolult és dinamikus
+kölcsönhatásának az eredménye.
+
+00:02:36.440 --> 00:02:39.900
+Igen nehéz kideríteni, hogy melyiknek,
+mikor, mi a szerepe a folyamatban.
+
+00:02:40.880 --> 00:02:44.616
+Ez az, amiben a biorobotok, mint a 
+Pleurobot és a matematikai modellek
+
+00:02:44.640 --> 00:02:45.840
+igazán segíteni tudnak.
+
+00:02:47.480 --> 00:02:48.736
+Mi a biorobotika tehát?
+
+00:02:48.760 --> 00:02:51.496
+A biorobotika egy igen aktív
+robotikai kutatási terület,
+
+00:02:51.520 --> 00:02:53.976
+ahol az emberek az állatoktól
+merítenek ötleteket
+
+00:02:54.000 --> 00:02:56.456
+kültéri robotok,,
+
+00:02:56.480 --> 00:02:59.136
+mint például szervizrobotok,
+kutató- és mentőrobotok,
+
+00:02:59.160 --> 00:03:00.750
+vagy terepi robotok építéséhez.
+
+00:03:00.880 --> 00:03:03.576
+A fő cél, hogy ötleteket 
+szerezzünk az állatoktól,
+
+00:03:03.600 --> 00:03:06.116
+hogy a komplex terepre 
+- lépcsők, hegyek, erdők -
+
+00:03:06.116 --> 00:03:07.576
+alkalmas robotokat alkossunk.
+
+00:03:07.600 --> 00:03:10.166
+Ezeken a helyeken a robotok
+még nehézségekkel küzdenek,
+
+00:03:10.206 --> 00:03:11.776
+és az állatok jobban boldogulnak.
+
+00:03:11.776 --> 00:03:14.216
+A robot egy csodálatos 
+tudományos eszköz is lehet.
+
+00:03:14.240 --> 00:03:16.860
+Van néhány remek projekt,
+ahol robotokat használnak:
+
+00:03:16.884 --> 00:03:20.856
+tudományos eszközökként az idegtudomány,
+biomechanika vagy hidrodinamika területén.
+
+00:03:20.880 --> 00:03:23.000
+A Pleurobot célja is pontosan ez.
+
+00:03:23.600 --> 00:03:26.536
+A laboratóriumomban
+neurobiológusokkal működünk együtt.
+
+00:03:26.560 --> 00:03:29.776
+Például Jean-Marie Cabelguen
+Bordeaux-i kutatóval közösen
+
+00:03:29.800 --> 00:03:33.840
+gerincvelő modelleket készítünk,
+és robotokon teszteljük őket.
+
+00:03:34.480 --> 00:03:36.096
+Egyszerű lépésekkel kezdjük.
+
+00:03:36.120 --> 00:03:38.096
+Jó dolog egyszerű állatokkal kezdeni
+
+00:03:38.120 --> 00:03:40.376
+mint az ingola, ami egy primitív halfajta,
+
+00:03:40.400 --> 00:03:43.026
+aztán lépésenként haladni
+az összetettebb mozgások felé,
+
+00:03:43.026 --> 00:03:44.176
+amilyen a szalamandráké,
+
+00:03:44.200 --> 00:03:45.696
+vagy a macskáké, embereké,
+
+00:03:45.720 --> 00:03:46.920
+az emlősöké.
+
+00:03:47.880 --> 00:03:50.256
+Ilyenkor a robot egy érdekes 
+eszközzé válik,
+
+00:03:50.280 --> 00:03:52.216
+mely a modelljeinket validálja.
+
+00:03:52.240 --> 00:03:55.256
+Nekem valójában a Pleurobot
+egy álom megvalósulása.
+
+00:03:55.280 --> 00:03:58.536
+Körülbelül 20 éve már készítettem
+számítógépes szimulációt
+
+00:03:58.560 --> 00:04:01.216
+ingolák és szalamandrák mozgásáról
+
+00:04:01.240 --> 00:04:02.776
+a doktori dolgozatom keretében.
+
+00:04:02.800 --> 00:04:06.176
+Ám mindig tudtam, hogy a szimulációim
+csak közelítések.
+
+00:04:06.200 --> 00:04:10.176
+Például a víz, sár vagy 
+bonyolult terep tulajdonságait
+
+00:04:10.200 --> 00:04:12.856
+nagyon nehéz megfelelően
+szimulálni számítógépen.
+
+00:04:12.880 --> 00:04:15.070
+Miért ne lenne igazi
+robot igazi feltételekkel?
+
+00:04:15.600 --> 00:04:18.736
+Ezek közül az állatok közül
+az egyik kedvencem a szalamandra.
+
+00:04:18.760 --> 00:04:22.216
+Hogy miért? Azért, mert kétéltű.
+
+00:04:22.240 --> 00:04:25.096
+Evolúciós szempontból
+igazán kulcsfontosságú állat.
+
+00:04:25.120 --> 00:04:27.170
+Csodálatos kapcsot teremt az úszás,
+
+00:04:27.170 --> 00:04:29.126
+amely halaknál és angolnáknál fordul elő,
+
+00:04:29.126 --> 00:04:33.240
+és a négylábúak - mint az emlősök, 
+a macskák és az emberek - mozgása között.
+
+00:04:34.160 --> 00:04:35.816
+Valójában a mai szalamandra
+
+00:04:35.840 --> 00:04:38.216
+igen közel van az első
+szárazföldi gerincesekhez,
+
+00:04:38.240 --> 00:04:39.776
+így majdnem egy élő kövület,
+
+00:04:39.800 --> 00:04:41.736
+ami kapcsolatot teremt az ősünkkel,
+
+00:04:41.760 --> 00:04:44.680
+és egyben az összes négylábú,
+szárazföldi élőlény ősével.
+
+00:04:44.940 --> 00:04:46.816
+Tehát a szalamandra ún. "anguilliform"
+
+00:04:46.866 --> 00:04:49.136
+testtartásban úszik,
+
+00:04:49.160 --> 00:04:52.800
+azaz hullámzó izommozgást 
+hoz létre a fejétől a farkáig.
+
+00:04:53.440 --> 00:04:55.616
+Ha egy szalamandrát a földre helyezünk,
+
+00:04:55.640 --> 00:04:57.976
+sétáló-ügető testtartásra vált.
+
+00:04:58.000 --> 00:05:00.863
+Ebben az esetben a végtagok 
+periodikusan aktiválódnak,
+
+00:05:00.887 --> 00:05:02.496
+s e mozgás remekül összehangolt
+
+00:05:02.520 --> 00:05:05.176
+a test álló hullámzásával,
+
+00:05:05.200 --> 00:05:08.856
+és pontosan ezt a testtartást 
+látják most a Pleuroboton.
+
+00:05:08.880 --> 00:05:11.856
+Nagyon meglepő és lenyűgöző a tény,
+
+00:05:11.880 --> 00:05:15.900
+hogy mindezt kizárólag a gerincvelő
+és a test hozza létre.
+
+00:05:15.900 --> 00:05:17.734
+Tehát ha egy agy nélküli,
+
+00:05:17.734 --> 00:05:20.520
+- nem valami szép, de a fejétől 
+megfosztott szalamandra -
+
+00:05:20.520 --> 00:05:22.776
+gerincvelőjét elektromosan ingereljük,
+
+00:05:22.800 --> 00:05:26.056
+az alacsony szintű inger
+sétáló járást indukál.
+
+00:05:26.080 --> 00:05:28.536
+Az inger fokozásával a járás gyorsul,
+
+00:05:28.560 --> 00:05:30.456
+és van egy pont, egy küszöbérték,
+
+00:05:30.480 --> 00:05:33.016
+ahol az állat automatikusan úszásra vált.
+
+00:05:33.040 --> 00:05:34.416
+Ez lenyűgöző.
+
+00:05:34.440 --> 00:05:36.036
+Pusztán a hajtóerő változtatása -
+
+00:05:36.046 --> 00:05:37.696
+mintha a gázpedált nyomnánk -
+
+00:05:37.720 --> 00:05:39.856
+a leszálló idegpályán,
+
+00:05:39.880 --> 00:05:42.880
+teljes váltást idéz elő a két
+különböző mozgásforma között.
+
+00:05:44.440 --> 00:05:47.016
+Valójában ugyanezt 
+figyelték meg macskáknál.
+
+00:05:47.040 --> 00:05:49.056
+Ha egy macska gerincvelőjét stimuláljuk,
+
+00:05:49.080 --> 00:05:51.296
+váltani tudunk a séta, 
+ügetés és vágta között.
+
+00:05:51.320 --> 00:05:54.056
+Madaraknál az alacsony ingerrel a séta,
+
+00:05:54.080 --> 00:05:55.536
+erősebb ingerrel pedig
+
+00:05:55.560 --> 00:05:58.376
+szárnycsapkodás között válthatunk.
+
+00:05:58.400 --> 00:06:00.416
+Ez azt mutatja, hogy a gerincvelő
+
+00:06:00.440 --> 00:06:02.856
+egy igen kifinomult mozgásszervi vezérlő.
+
+00:06:02.880 --> 00:06:05.980
+Miközben a szalamandrák 
+mozgását részletesebben megfigyeltük,
+
+00:06:05.980 --> 00:06:08.936
+lehetőségünk volt egy röntgensugaras
+videofelvevőt használni,
+
+00:06:08.976 --> 00:06:12.056
+Martin Fischer professzor jóvoltából
+a német Jena University-ről.
+
+00:06:12.080 --> 00:06:14.656
+Ennek köszönhetően
+bámulatos eszközhöz jutottunk,
+
+00:06:14.680 --> 00:06:17.136
+hogy igen részletesen rögzítsük
+a csontok mozgását.
+
+00:06:17.160 --> 00:06:18.416
+Pontosan ezt tettük.
+
+00:06:18.440 --> 00:06:21.616
+Kitaláltuk, hogy mely csontok
+fontosak számunkra,
+
+00:06:21.640 --> 00:06:24.656
+és 3D-ben összegyűjtöttük a mozgásukat.
+
+00:06:24.680 --> 00:06:27.376
+Egy teljes adatbázisnyi 
+mozgást gyűjtöttünk,
+
+00:06:27.400 --> 00:06:29.056
+szárazföldön és vízen egyaránt.
+
+00:06:29.080 --> 00:06:30.579
+Így létrehoztunk egy adattárat
+
+00:06:30.609 --> 00:06:32.833
+egy valóságos állat 
+motoros mozgásformáiról.
+
+00:06:32.858 --> 00:06:36.008
+Robotkutatóként ezeknek
+az utánzása volt a feladatunk.
+
+00:06:36.033 --> 00:06:39.270
+Egy teljes optimalizálást végeztünk
+hogy megtaláljuk a jó struktúrát.
+
+00:06:39.270 --> 00:06:42.446
+Hova kell tenni, hogy kell 
+összekötni a motorokat,
+
+00:06:42.446 --> 00:06:45.000
+hogy minél jobban 
+visszaadjuk a mozgásokat.
+
+00:06:45.680 --> 00:06:48.040
+Így kelt életre a Pleurobot.
+
+00:06:49.200 --> 00:06:51.616
+Nézzük, mennyire hasonlít
+egy valódi állathoz!
+
+00:06:52.960 --> 00:06:55.456
+Itt egy összehasonlítást látunk
+
+00:06:55.480 --> 00:06:58.176
+a valódi állat és a Pleurobot
+sétáló mozgása között.
+
+00:06:58.200 --> 00:07:00.936
+Láthatjuk, hogy majdnem 
+egy az egyben pontos mása
+
+00:07:00.960 --> 00:07:02.216
+a sétáló járásnak.
+
+00:07:02.240 --> 00:07:04.840
+Ha visszafelé és lassan lépkedünk,
+még inkább látható.
+
+00:07:07.520 --> 00:07:09.896
+Még jobban látható az úszásnál.
+
+00:07:09.920 --> 00:07:12.936
+Ehhez vízhatlan ruhát 
+tettünk a robot köré,
+
+00:07:12.960 --> 00:07:14.056
+(Nevetés)
+
+00:07:14.080 --> 00:07:17.256
+majd vízbe helyeztük,
+és visszajátszottuk az úszó mozgást.
+
+00:07:17.280 --> 00:07:20.616
+Ekkor nagyon boldogok voltunk, 
+mert ezt nehéz kivitelezni.
+
+00:07:20.640 --> 00:07:22.856
+A kölcsönhatás fizikája bonyolult.
+
+00:07:22.880 --> 00:07:25.296
+A robotunk jóval nagyobb,
+mint egy kis állat,
+
+00:07:25.320 --> 00:07:28.376
+így ún. dinamikus frekvencialéptetést
+használtunk,
+
+00:07:28.400 --> 00:07:30.736
+hogy biztosan ugyanazt a hatást érjük el.
+
+00:07:30.760 --> 00:07:33.176
+Végül látszik, hogy nagy 
+hasonlóságot értünk el
+
+00:07:33.200 --> 00:07:35.080
+és nagyon örültünk ennek.
+
+00:07:35.480 --> 00:07:37.696
+Tehát nézzük a gerincvelőt.
+
+00:07:37.720 --> 00:07:40.016
+Itt Jean-Marie Cabelguen-nel
+
+00:07:40.040 --> 00:07:42.280
+a gerincvelő idegpályáit modelleztük.
+
+00:07:43.040 --> 00:07:45.140
+Érdekes, hogy a szalamandra
+
+00:07:45.140 --> 00:07:47.090
+megőrzött egy nagyon egyszerű áramkört,
+
+00:07:47.090 --> 00:07:48.830
+amely nagyon hasonló az ingolában,
+
+00:07:48.850 --> 00:07:51.496
+ebben az a primitív, 
+angolnaszerű halban találthoz.
+
+00:07:51.520 --> 00:07:53.256
+Úgy tűnik, az evolúció során
+
+00:07:53.280 --> 00:07:56.216
+új idegi reflexívek fejlődtek ki
+a végtagok irányítására,
+
+00:07:56.240 --> 00:07:57.656
+a lábak mozgatására.
+
+00:07:57.680 --> 00:07:59.856
+Tudjuk, hol vannak ezek az idegközpontok,
+
+00:07:59.880 --> 00:08:02.136
+és készítettünk 
+egy matematikai modellt arról,
+
+00:08:02.160 --> 00:08:03.776
+hogyan kell összekötni őket,
+
+00:08:03.800 --> 00:08:06.736
+hogy az átmenet lehetővé váljon 
+a két különböző járás között.
+
+00:08:06.760 --> 00:08:09.320
+Aztán teszteltük a robot vezérlésén.
+
+00:08:09.680 --> 00:08:10.880
+Íme, így néz ki.
+
+00:08:18.920 --> 00:08:21.936
+Amit itt látnak, egy korábbi
+Pleurobot-verzió,
+
+00:08:21.960 --> 00:08:25.056
+amit teljesen a mi programozott
+
+00:08:25.080 --> 00:08:26.870
+gerincvelő modellünk irányít.
+
+00:08:27.280 --> 00:08:28.496
+Csupán annyit teszünk,
+
+00:08:28.520 --> 00:08:30.696
+hogy táviránytón keresztül küldjük
+
+00:08:30.720 --> 00:08:33.216
+a két leszálló ingert, amit normál esetben
+
+00:08:33.240 --> 00:08:34.840
+az agy felső részéből kapna.
+
+00:08:35.480 --> 00:08:38.176
+Érdekes, hogy ezekkel 
+az ingerekkel játszva
+
+00:08:38.200 --> 00:08:41.000
+teljesen irányítható a járás 
+sebessége, iránya és típusa.
+
+00:08:41.600 --> 00:08:42.816
+Például,
+
+00:08:42.840 --> 00:08:46.416
+egy alacsony szintű inger
+sétáló mozgást eredményez
+
+00:08:46.440 --> 00:08:48.416
+és egy ponton, ha erősebb az inger,
+
+00:08:48.440 --> 00:08:50.600
+hirtelen úszásra vált át.
+
+00:08:51.480 --> 00:08:53.696
+Még az fordulás is kivitelezhető,
+
+00:08:53.720 --> 00:08:57.240
+ha a gerincvelő egyik oldalát
+jobban ingereljük.
+
+00:08:58.200 --> 00:08:59.816
+Azt gondolom, igazán szép,
+
+00:08:59.840 --> 00:09:02.096
+ahogy a természet szétosztotta
+az irányítást
+
+00:09:02.120 --> 00:09:04.976
+és jó adag felelősséget
+adott a gerincvelőnek.
+
+00:09:05.000 --> 00:09:08.656
+Tehát az agy felső részének nem kell
+aggódnia minden izom miatt.
+
+00:09:08.680 --> 00:09:11.216
+Elég az inger erősségéért aggódnia,
+
+00:09:11.240 --> 00:09:14.816
+az összes izom irányítása
+a gerincvelő dolga.
+
+00:09:14.840 --> 00:09:18.360
+Most nézzük a macska mozgását 
+és a biomechanika fontosságát.
+
+00:09:19.080 --> 00:09:20.336
+Egy másik munkánkban,
+
+00:09:20.360 --> 00:09:22.776
+melyben a macska biomechanikáját
+tanulmányoztuk,
+
+00:09:22.800 --> 00:09:26.696
+látni akartuk, hogyan segíti 
+a morfológia a mozgást.
+
+00:09:26.720 --> 00:09:30.336
+Három fontos kritériumot 
+találtunk a végtagok
+
+00:09:30.360 --> 00:09:31.680
+tulajdonságai között.
+
+00:09:32.320 --> 00:09:34.296
+Az első, hogy a macska végtagja
+
+00:09:34.320 --> 00:09:37.016
+többé-kevésbé egy
+pantográf-szerű struktúra.
+
+00:09:37.040 --> 00:09:39.256
+A pantográf egy mechanikai szerkezet,
+
+00:09:39.280 --> 00:09:42.680
+melyben a felső és alsó rész mindig
+párhuzamos marad.
+
+00:09:43.600 --> 00:09:46.696
+Tehát egy ilyen, egyszerű
+geometriai rendszer koordinálja
+
+00:09:46.720 --> 00:09:48.536
+a szegmensek belső mozgását.
+
+00:09:48.560 --> 00:09:51.616
+A végtagok másik tulajdonsága,
+hogy könnyűek.
+
+00:09:51.640 --> 00:09:53.496
+Az izmok többsége a törzsön van,
+
+00:09:53.520 --> 00:09:56.786
+ami jó elrendezés, mert így 
+a végtagok tehetetlensége kicsi,
+
+00:09:56.786 --> 00:09:58.216
+és gyorsan mozgathatók.
+
+00:09:58.240 --> 00:10:02.056
+Az utolsó fontos tulajdonságuk:
+a nagy rugalmasság,
+
+00:10:02.080 --> 00:10:04.736
+mely a hatásokat és erőket kezeli.
+
+00:10:04.760 --> 00:10:07.096
+Így terveztük meg a Cheetah-Cub-ot 
+[Pumakölyköt].
+
+00:10:07.120 --> 00:10:09.320
+Hívjuk a színpadra.
+
+00:10:14.160 --> 00:10:17.816
+Ő Peter Eckert, aki doktori tanulmányokat
+folytat erről a robotról,
+
+00:10:17.840 --> 00:10:19.896
+amint látható, ez egy aranyos kis robot.
+
+00:10:19.920 --> 00:10:21.176
+Olyan, mint egy játék,
+
+00:10:21.200 --> 00:10:23.446
+de valójában tudományos 
+eszközként használják,
+
+00:10:23.496 --> 00:10:26.576
+a macskaláb tulajdonságainak
+tanulmányozásához.
+
+00:10:26.600 --> 00:10:29.216
+Látható, hogy nagyon alkalmazkodó,
+
+00:10:29.240 --> 00:10:30.496
+könnyű, és igen rugalmas,
+
+00:10:30.520 --> 00:10:33.296
+tehát könnyen lenyomható, és nem törik el.
+
+00:10:33.320 --> 00:10:34.776
+Sőt, szinte felugrik.
+
+00:10:34.800 --> 00:10:37.680
+Ez a nagyfokú rugalmasság is
+igen fontos.
+
+00:10:39.160 --> 00:10:41.056
+Ezeket a tulajdonságokat szintén
+
+00:10:41.080 --> 00:10:43.480
+láthattuk a pantográf három szegmensén is.
+
+00:10:44.280 --> 00:10:47.056
+Érdekes, hogy ezt az igen
+dinamikus járási módot,
+
+00:10:47.080 --> 00:10:48.976
+egy tisztán nyílt hurok hozza létre,
+
+00:10:49.000 --> 00:10:52.136
+szenzorok, vagy bonyolult
+visszacsatolások nélkül.
+
+00:10:52.160 --> 00:10:54.576
+Azért érdekes, mert ez azt jelenti,
+
+00:10:54.600 --> 00:10:58.616
+hogy csupán a mechanika
+már stabilizálta ezt a gyors járást,
+
+00:10:58.640 --> 00:11:02.816
+és ez a kiváló mechanika
+leegyszerűsíti a mozgást.
+
+00:11:02.840 --> 00:11:06.136
+A következő felvételen azt látjuk,
+
+00:11:06.160 --> 00:11:08.496
+mi történik, ha kis zavar 
+kerül a mozgásba.
+
+00:11:08.576 --> 00:11:11.736
+Egy gyakorlat során a robot 
+egy lépcsőn megy le,
+
+00:11:11.760 --> 00:11:13.376
+mégsem esik el,
+
+00:11:13.400 --> 00:11:14.976
+ami meglepetés volt számunkra.
+
+00:11:15.000 --> 00:11:16.486
+Ez egy kismértékű zavarás volt.
+
+00:11:16.486 --> 00:11:18.856
+Azt vártam, hogy a robot azonnal elesik,
+
+00:11:18.880 --> 00:11:21.316
+mert nincs szenzor, vagy visszacsatolás.
+
+00:11:21.340 --> 00:11:23.536
+De tévedtem: a mechanika
+stabilizálta a járást,
+
+00:11:23.560 --> 00:11:25.136
+és a robot nem esett el.
+
+00:11:25.160 --> 00:11:28.296
+Nyilvánvalóan, ha a lépcsőfok nagyobb,
+vagy akadályok vannak,
+
+00:11:28.320 --> 00:11:31.976
+szükség van a teljes hurokra, 
+reflexekre és minden egyébre.
+
+00:11:32.000 --> 00:11:34.936
+Ami itt fontos, hogy kis zavar esetén
+
+00:11:34.960 --> 00:11:36.456
+a mechanika elegendő.
+
+00:11:36.480 --> 00:11:38.576
+Azt gondolom, ez egy fontos üzenet
+
+00:11:38.600 --> 00:11:41.251
+a biomechanika és robotika
+részéről az idegtudománynak,
+
+00:11:41.251 --> 00:11:45.495
+hogy ne becsüljük le, milyen mértékben
+segíti a test a mozgást.
+
+00:11:47.440 --> 00:11:49.600
+Hogyan kapcsolódik ez az emberi mozgáshoz?
+
+00:11:49.960 --> 00:11:53.600
+Világos, hogy az emberi mozgás komplexebb,
+mint a macskáé vagy szalamandráé,
+
+00:11:54.360 --> 00:11:57.496
+de ugyanakkor az emberi idegrendszer
+nagyon hasonló
+
+00:11:57.520 --> 00:11:59.096
+más gerincesekéhez.
+
+00:11:59.120 --> 00:12:00.576
+A gerincvelő különösképp
+
+00:12:00.600 --> 00:12:03.240
+egy kulcsfontosságú 
+vezérlőszerv az emberekben is.
+
+00:12:03.760 --> 00:12:06.176
+Ezért a gerincvelő sérülése
+
+00:12:06.200 --> 00:12:07.746
+drasztikus hatással jár.
+
+00:12:07.746 --> 00:12:10.606
+Két, vagy akár mind a négy végtag
+lebénulását is okozhatja.
+
+00:12:10.646 --> 00:12:12.896
+Ennek oka, hogy az agy
+elveszti a kapcsolatot
+
+00:12:12.920 --> 00:12:14.176
+a gerincvelővel.
+
+00:12:14.200 --> 00:12:16.416
+Különösen a leszálló modulációt veszti el,
+
+00:12:16.440 --> 00:12:18.360
+ami a mozgást elindítja vagy módosítja.
+
+00:12:19.640 --> 00:12:21.336
+A beültetett protézisek fő célja
+
+00:12:21.360 --> 00:12:23.736
+e kommunikáció újraélesztése
+
+00:12:23.760 --> 00:12:26.200
+elektromos vagy kémiai ingerlés
+használatával.
+
+00:12:26.840 --> 00:12:29.776
+Számos kutatócsoport a világon,
+melyek pontosan ezt csinálják,
+
+00:12:29.800 --> 00:12:31.016
+különösen az EPFL-en.
+
+00:12:31.040 --> 00:12:33.536
+A kollégáim, Grégoire Courtine 
+és Silvestro Micera,
+
+00:12:33.560 --> 00:12:34.800
+akikkel együtt dolgozom.
+
+00:12:35.960 --> 00:12:39.056
+Ahhoz, hogy ezt helyesen csináljuk,
+fontos megérteni,
+
+00:12:39.080 --> 00:12:40.816
+hogy működik a gerincvelő,
+
+00:12:40.840 --> 00:12:42.536
+hogyan lép interakcióba a testtel,
+
+00:12:42.560 --> 00:12:45.040
+és az agy hogyan kommunikál
+a gerincvelővel.
+
+00:12:45.800 --> 00:12:48.696
+Ez az, ahol a bemutatott 
+robotok és modellek
+
+00:12:48.720 --> 00:12:50.696
+remélhetően kulcsszerepet játszanak majd,
+
+00:12:50.696 --> 00:12:53.296
+és segítenek e fontos célok elérésében.
+
+00:12:53.320 --> 00:12:54.536
+Köszönöm.
+
+00:12:54.560 --> 00:12:59.120
+(Taps)
+
+00:13:03.720 --> 00:13:06.736
+Bruno Giussani: Auke,
+a laborban más robotokat is láttam,
+
+00:13:06.760 --> 00:13:09.216
+melyek például szennyezett vízben úsznak,
+
+00:13:09.240 --> 00:13:11.696
+és közben mérik a szennyezést.
+
+00:13:11.720 --> 00:13:13.236
+Ám ennek
+
+00:13:13.326 --> 00:13:16.440
+a mellékprojektként említett
+
+00:13:17.640 --> 00:13:18.856
+kereső- és mentőrobotnak
+
+00:13:18.880 --> 00:13:21.056
+van egy kamera az orrán,
+
+00:13:21.080 --> 00:13:23.576
+Auke Iljspeert: Igen, így van.
+
+00:13:23.600 --> 00:13:25.089
+Van néhány spin-off projektünk,
+
+00:13:25.089 --> 00:13:28.496
+melyben keresésre és felderítésre
+akarjuk használni a robotokat,
+
+00:13:28.520 --> 00:13:30.096
+tehát ez a robot most lát téged.
+
+00:13:30.120 --> 00:13:33.296
+Nagy álmom, hogy egy nehéz helyzetben,
+
+00:13:33.320 --> 00:13:36.936
+mint egy összeomlott 
+vagy elárasztott épület,
+
+00:13:36.960 --> 00:13:40.296
+ami nagyon veszélyes egy
+mentőcsapat vagy akár kutyák számára,
+
+00:13:40.320 --> 00:13:43.306
+inkább egy robotot küldjünk oda,
+körbejárni, körbeúszni,
+
+00:13:43.306 --> 00:13:46.416
+kamerával felszerelve,
+hogy felderítse és azonosítsa a túlélőket,
+
+00:13:46.440 --> 00:13:49.216
+és kapcsolatot létesítsen velük.
+
+00:13:49.240 --> 00:13:52.926
+BG: Természetesen, feltéve, hogy a túlélők
+nem ijednek meg a formájától.
+
+00:13:52.926 --> 00:13:56.136
+AI: Igen, valószínűleg meg kell
+változtatnunk némileg a külsejét,
+
+00:13:56.160 --> 00:13:58.976
+mert a túlélők szívrohamot kapnak attól,
+
+00:13:59.000 --> 00:14:01.536
+hogy megeszi őket.
+
+00:14:01.560 --> 00:14:04.416
+De a megjelenését megváltoztatva,
+és robusztusabbá téve,
+
+00:14:04.440 --> 00:14:06.916
+biztos vagyok benne, 
+hogy jó eszközzé alakíthatjuk.
+
+00:14:07.036 --> 00:14:09.126
+Nagyon köszönöm neked és a csapatodnak.
+

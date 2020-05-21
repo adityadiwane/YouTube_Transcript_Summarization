@@ -1,0 +1,1166 @@
+WEBVTT
+Kind: captions
+Language: pt
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Rafael Reis
+Revisor: Wanderley Jesus
+
+00:00:12.588 --> 00:00:15.619
+Sou um professor de ciência da computação,
+
+00:00:15.619 --> 00:00:17.932
+e minha área de especialização é
+
+00:00:17.932 --> 00:00:20.131
+segurança da informação e da computação.
+
+00:00:20.131 --> 00:00:22.451
+Quando eu estava na faculdade
+
+00:00:22.451 --> 00:00:25.052
+tive oportunidade de ouvir minha avó
+
+00:00:25.052 --> 00:00:29.186
+descrevendo a um de seus companheiros de idade
+
+00:00:29.186 --> 00:00:31.555
+o que eu fazia da vida.
+
+00:00:31.555 --> 00:00:35.117
+Aparentemente, eu era encarregado de fazer com que
+
+00:00:35.117 --> 00:00:39.017
+ninguém roubasse os computadores da universidade. (Risos)
+
+00:00:39.017 --> 00:00:41.761
+E, vocês sabem, isso faz sentido
+
+00:00:41.761 --> 00:00:43.681
+para ela, porque eu lhe disse que estava trabalhando
+
+00:00:43.681 --> 00:00:45.188
+em segurança de computadores,
+
+00:00:45.188 --> 00:00:48.785
+e foi interessante ver seu ponto de vista.
+
+00:00:48.785 --> 00:00:51.402
+Mas essa não é a coisa mais absurda que eu já ouvi
+
+00:00:51.402 --> 00:00:53.419
+alguém dizer sobre o meu trabalho.
+
+00:00:53.419 --> 00:00:55.703
+A coisa mais absurda que eu já ouvi é,
+
+00:00:55.703 --> 00:00:58.837
+eu estava em um jantar, e uma mulher ouviu
+
+00:00:58.837 --> 00:01:00.620
+que eu trabalho em segurança de computadores,
+
+00:01:00.620 --> 00:01:04.137
+e ela me perguntou se -- ela disse que seu computador tinha sido
+
+00:01:04.137 --> 00:01:07.573
+infectado por um vírus, e ela estava muito preocupada pois ela
+
+00:01:07.573 --> 00:01:11.524
+poderia ficar doente, ela poderia pegar esse vírus. (Risos)
+
+00:01:11.524 --> 00:01:14.467
+E não sou um médico, mas garanti para ela
+
+00:01:14.467 --> 00:01:17.611
+que seria muito, mas muito improvável que isso acontecesse,
+
+00:01:17.611 --> 00:01:20.412
+mas se ela se sentisse mais confortável, ela poderia ficar à vontade e usar
+
+00:01:20.412 --> 00:01:22.260
+luvas de látex quando estivesse no computador,
+
+00:01:22.260 --> 00:01:25.652
+e não haveria mal algum.
+
+00:01:25.652 --> 00:01:28.159
+Vou voltar a esta ideia de ser capaz de pegar
+
+00:01:28.159 --> 00:01:31.667
+um vírus de seu computador, de uma forma séria.
+
+00:01:31.667 --> 00:01:33.307
+Vou contar para vocês hoje
+
+00:01:33.307 --> 00:01:38.153
+alguns truques, alguns ataques cibernéticos reais que as pessoas
+
+00:01:38.153 --> 00:01:40.707
+na minha comunidade, a comunidade de pesquisa acadêmica,
+
+00:01:40.707 --> 00:01:43.501
+tem realizado, e acho que
+
+00:01:43.501 --> 00:01:44.709
+a maioria das pessoas não conhecem,
+
+00:01:44.709 --> 00:01:47.737
+e acho que são muito interessantes e assustadores,
+
+00:01:47.737 --> 00:01:50.178
+e esta palestra é uma espécie de "grandes hits"
+
+00:01:50.178 --> 00:01:53.169
+da comunidade de segurança de hacks acadêmicos.
+
+00:01:53.169 --> 00:01:55.156
+Nenhum dos trabalhos é meu. São todos trabalhos
+
+00:01:55.156 --> 00:01:57.330
+que os meus colegas têm feito, e eu realmente pedi
+
+00:01:57.330 --> 00:01:59.887
+seus slides e os inclui nesta palestra.
+
+00:01:59.887 --> 00:02:01.629
+Então a primeira coisa que falarei
+
+00:02:01.629 --> 00:02:04.303
+é sobre os dispositivos médicos implantados.
+
+00:02:04.303 --> 00:02:07.343
+Os dispositivos médicos atuais melhoraram muito tecnologicamente.
+
+00:02:07.343 --> 00:02:11.199
+Você pode ver em 1926 o primeiro marca-passo criado.
+
+00:02:11.199 --> 00:02:14.751
+1960, o primeiro marca-passo interno foi implantado,
+
+00:02:14.751 --> 00:02:17.303
+esperamos que seja um pouco menor que aquele que você vê ali,
+
+00:02:17.303 --> 00:02:20.271
+e a tecnologia continuou a avançar.
+
+00:02:20.271 --> 00:02:24.904
+Em 2006, nós alcançamos um marco importante na perspectiva
+
+00:02:24.904 --> 00:02:28.071
+da segurança de computadores
+
+00:02:28.071 --> 00:02:29.412
+E por que digo isso?
+
+00:02:29.412 --> 00:02:32.302
+Porque isso foi quando os dispositivos implantados dentro das pessoas
+
+00:02:32.302 --> 00:02:35.047
+começaram a ter recursos de rede.
+
+00:02:35.047 --> 00:02:36.927
+Uma coisa que nos aproxima de casa é olharmos
+
+00:02:36.927 --> 00:02:39.632
+o dispositivo de Dick Cheney, ele tinha um dispositivo que
+
+00:02:39.632 --> 00:02:43.501
+bombeava sangue de uma [veia] aorta para outra parte do coração,
+
+00:02:43.501 --> 00:02:44.684
+e como se pode ver ali em baixo,
+
+00:02:44.684 --> 00:02:47.693
+isso era manipulado por um controle de computador
+
+00:02:47.693 --> 00:02:50.210
+e se você já pensou que a resposabilidade do software
+
+00:02:50.210 --> 00:02:53.799
+era muito importante, tenha um desses dentro de você.
+
+00:02:53.799 --> 00:02:57.494
+Agora o que a equipe de pesquisadores fez foi por em suas mãos
+
+00:02:57.494 --> 00:02:58.914
+num que é chamado um ICD.
+
+00:02:58.914 --> 00:03:00.984
+Isto é um desfibrilador, e este é um dispositivo
+
+00:03:00.984 --> 00:03:05.320
+que se insere na pessoa para controlar seu ritmo cardíaco,
+
+00:03:05.320 --> 00:03:07.658
+e eles têm salvo muitas vida.
+
+00:03:07.658 --> 00:03:10.130
+Bem, para não ter que abrir a pessoa
+
+00:03:10.130 --> 00:03:12.324
+cada vez que você deseja reprogramar seu dispositivo
+
+00:03:12.324 --> 00:03:14.779
+ou fazer alguns diagnósticos, eles fizeram o dispositivo ser capaz
+
+00:03:14.779 --> 00:03:17.881
+de se comunicar sem fio, e o que esta equipe fez foi que
+
+00:03:17.881 --> 00:03:20.491
+eles fizeram engenharia reversa no protocolo sem fio,
+
+00:03:20.491 --> 00:03:22.363
+e construíram o dispositivo que você vê aqui na foto ,
+
+00:03:22.363 --> 00:03:25.123
+com uma pequena antena, que pudesse passar o protocolo
+
+00:03:25.123 --> 00:03:29.598
+ao dispositivo, e então controlá-lo.
+
+00:03:29.598 --> 00:03:32.287
+Para tornar suas experiências reais - eles foram incapazes
+
+00:03:32.287 --> 00:03:34.759
+de encontrar quaisquer voluntários, e então eles foram
+
+00:03:34.759 --> 00:03:36.903
+e eles pegaram alguma carne moída e bacon
+
+00:03:36.903 --> 00:03:38.691
+e eles envolveram tudo até próximo do tamanho
+
+00:03:38.691 --> 00:03:41.489
+em que o dispositivo iria ocupar em um ser humano,
+
+00:03:41.489 --> 00:03:42.943
+e introduziram o dispositivo no seu interior
+
+00:03:42.943 --> 00:03:46.075
+para tornar seu experimento um pouco mais realista.
+
+00:03:46.075 --> 00:03:49.095
+Eles lançaram muitos, muitos ataques bem sucedidos.
+
+00:03:49.095 --> 00:03:52.151
+Um que vou destacar aqui está mudando o nome do paciente.
+
+00:03:52.151 --> 00:03:53.144
+Eu não sei por que você iria querer fazer isso,
+
+00:03:53.144 --> 00:03:55.248
+mas com certeza que não gostaria que fizessem em mim.
+
+00:03:55.248 --> 00:03:57.579
+E eles foram capazes de mudar terapias,
+
+00:03:57.579 --> 00:04:00.074
+inclusive desabilitando o dispositivo -- e isso com um dispositivo real,
+
+00:04:00.074 --> 00:04:01.970
+comercial, "de prateleira" --
+
+00:04:01.970 --> 00:04:04.016
+simplesmente através da engenharia reversa e enviando
+
+00:04:04.016 --> 00:04:07.005
+sinal sem fio para ele.
+
+00:04:07.005 --> 00:04:10.585
+Havia uma peça no NPR que alguns destes ICDs
+
+00:04:10.585 --> 00:04:13.007
+poderia realmente ter seu desempenho interrompido
+
+00:04:13.007 --> 00:04:16.658
+simplesmente segurando um par de fones de ouvido sobre eles.
+
+00:04:16.658 --> 00:04:18.067
+Agora, por outro lado, a comunicação sem fio e a Internet
+
+00:04:18.067 --> 00:04:19.719
+podem melhorar muito a saúde.
+
+00:04:19.719 --> 00:04:21.806
+Há vários exemplos na tela
+
+00:04:21.806 --> 00:04:24.913
+de situações em que os médicos estão pensando em implantar dispositivos
+
+00:04:24.913 --> 00:04:27.778
+dentro das pessoas, e agora todos estes dispositivos,
+
+00:04:27.778 --> 00:04:30.903
+é padrão que se comuniquem sem fio,
+
+00:04:30.903 --> 00:04:32.315
+e acho que isto é ótimo,
+
+00:04:32.315 --> 00:04:35.420
+mas sem um completo entendimento de confiabilidade em computação,
+
+00:04:35.420 --> 00:04:37.827
+e sem entender o que os atacantes podem fazer
+
+00:04:37.827 --> 00:04:39.974
+e os riscos de segurança desde o início,
+
+00:04:39.974 --> 00:04:42.364
+há muito risco nisso.
+
+00:04:42.364 --> 00:04:43.841
+Tudo bem, deixe-me mudar de marcha e mostrar-lhe outro alvo.
+
+00:04:43.841 --> 00:04:45.929
+Eu vou mostrar a vocês alguns alvos diferentes como este,
+
+00:04:45.929 --> 00:04:48.846
+e essa é a minha palestra. Então, vamos ver os automóveis.
+
+00:04:48.846 --> 00:04:51.742
+Isto é um carro, e ele tem muitos componentes,
+
+00:04:51.742 --> 00:04:53.362
+muita eletrônica nele atualmente.
+
+00:04:53.362 --> 00:04:57.739
+De fato, ele tem muitos, mas muitos computadores diferentes dentro dele,
+
+00:04:57.739 --> 00:05:00.894
+mais Pentiums que meu laboratório tinha quando eu estava na faculdade,
+
+00:05:00.894 --> 00:05:04.533
+e eles estão conectados por uma rede com fio.
+
+00:05:04.533 --> 00:05:07.964
+Há também uma rede sem fio no carro,
+
+00:05:07.964 --> 00:05:11.197
+que pode ser alcançada de muitas maneiras diferentes.
+
+00:05:11.197 --> 00:05:14.898
+Então há o Bluetooth e as rádios FM e XM,
+
+00:05:14.898 --> 00:05:17.718
+na verdade existe wi-fi, há sensores nas rodas
+
+00:05:17.718 --> 00:05:19.871
+que comunicam sem fio a pressão dos pneus
+
+00:05:19.871 --> 00:05:21.677
+para o controlador de bordo.
+
+00:05:21.677 --> 00:05:26.595
+O carro moderno é um dispositivo multi-computador sofisticado.
+
+00:05:26.595 --> 00:05:29.917
+E o que acontece se alguém desejar atacá-lo?
+
+00:05:29.917 --> 00:05:31.234
+Bem, isso é o que os pesquisadores
+
+00:05:31.234 --> 00:05:33.105
+que vou falar hoje fizeram.
+
+00:05:33.105 --> 00:05:36.082
+Eles basicamente incluíram um atacante na rede com fio
+
+00:05:36.082 --> 00:05:38.404
+e na rede sem fio.
+
+00:05:38.404 --> 00:05:41.103
+Agora, eles têm duas áreas que podem atacar.
+
+00:05:41.103 --> 00:05:43.141
+Uma delas é sem fio de curto alcance, onde você pode realmente
+
+00:05:43.141 --> 00:05:44.922
+comunicar com o dispositivo das proximidades,
+
+00:05:44.922 --> 00:05:47.059
+seja através de Bluetooth ou Wi-Fi,
+
+00:05:47.059 --> 00:05:49.233
+e a outra é de longo alcance, onde você pode se comunicar
+
+00:05:49.233 --> 00:05:51.015
+com o carro através da rede celular,
+
+00:05:51.015 --> 00:05:52.975
+ou através de uma das estações de rádio.
+
+00:05:52.975 --> 00:05:56.024
+Pense nisso. Quando um carro recebe um sinal de rádio,
+
+00:05:56.024 --> 00:05:58.225
+ele é processado por software.
+
+00:05:58.225 --> 00:06:01.286
+O software tem que receber e decodificar o sinal de rádio,
+
+00:06:01.286 --> 00:06:02.405
+e depois descobrir o que fazer com ele,
+
+00:06:02.405 --> 00:06:05.429
+mesmo que seja apenas música que precise tocar no rádio,
+
+00:06:05.429 --> 00:06:07.697
+e aquele software que faz essa decodificação,
+
+00:06:07.697 --> 00:06:10.790
+se há algum bug nele, poderia se criar uma vulnerabilidade
+
+00:06:10.790 --> 00:06:13.825
+para alguém atacar o carro.
+
+00:06:13.825 --> 00:06:16.777
+A maneira que os pesquisadores fizeram este trabalho é...
+
+00:06:16.777 --> 00:06:21.000
+eles leem o software nos chips de computador
+
+00:06:21.000 --> 00:06:24.193
+que estavam no carro, e então eles usaram sofisticadas
+
+00:06:24.193 --> 00:06:25.607
+ferramentas de engenharia reversa
+
+00:06:25.607 --> 00:06:27.662
+para descobrir o que o software fazia,
+
+00:06:27.662 --> 00:06:30.703
+e então eles encontraram vulnerabilidades naquele software
+
+00:06:30.703 --> 00:06:34.049
+e então eles construíram coisas para explorar isso.
+
+00:06:34.049 --> 00:06:36.431
+Eles realmente realizaram seus ataques de maneira real.
+
+00:06:36.431 --> 00:06:37.781
+Eles compraram dois carros, e eu acho que
+
+00:06:37.781 --> 00:06:40.699
+eles têm orçamento melhor que o meu.
+
+00:06:40.699 --> 00:06:43.289
+A primeira ameaça foi ver o que alguém poderia fazer
+
+00:06:43.289 --> 00:06:45.433
+se um atacante realmente tiver acesso
+
+00:06:45.433 --> 00:06:47.486
+à rede interna do carro.
+
+00:06:47.486 --> 00:06:50.089
+Tudo bem, então imagine que, alguém tenha que ir até o seu carro,
+
+00:06:50.089 --> 00:06:52.993
+eles começam a mexer com ele, e depois eles saem,
+
+00:06:52.993 --> 00:06:55.361
+e agora, que tipo de problemas você tem?
+
+00:06:55.361 --> 00:06:58.153
+Outra ameaça é que eles contatam você
+
+00:06:58.153 --> 00:07:00.610
+em tempo real, através de uma das redes sem fios
+
+00:07:00.610 --> 00:07:02.665
+algo como o celular, ou algo assim,
+
+00:07:02.665 --> 00:07:06.665
+sem nunca ter tido acesso físico ao seu carro.
+
+00:07:06.665 --> 00:07:09.489
+Isto é o que eles configuraram para o primeiro modelo,
+
+00:07:09.489 --> 00:07:11.172
+em que você tem de ter acesso ao carro.
+
+00:07:11.172 --> 00:07:14.559
+Eles colocaram um laptop, e conectaram à unidade de diagnóstico
+
+00:07:14.559 --> 00:07:17.498
+na rede interna do carro, e eles fizeram todos os tipos de coisas bobas,
+
+00:07:17.498 --> 00:07:20.281
+como aqui está uma foto do velocímetro
+
+00:07:20.281 --> 00:07:23.097
+mostrando 225 Km/h quando o carro está no estacionamento.
+
+00:07:23.097 --> 00:07:25.470
+Uma vez que você tem o controle dos computadores do carro,
+
+00:07:25.470 --> 00:07:26.389
+você pode fazer qualquer coisa.
+
+00:07:26.389 --> 00:07:28.005
+Agora você pode dizer: "Ok, isso é bobagem."
+
+00:07:28.005 --> 00:07:29.664
+Bem, e se você fizer o carro sempre dizer
+
+00:07:29.664 --> 00:07:32.405
+que está a 32 Km/h mais lento do que ele realmente está?
+
+00:07:32.405 --> 00:07:34.947
+Você pode produzir muitas multas por excesso de velocidade.
+
+00:07:34.947 --> 00:07:38.803
+Em seguida, eles saíram para uma pista de pouso abandonada com os dois carros,
+
+00:07:38.803 --> 00:07:41.548
+o carro da vítima e o carro de ataque,
+
+00:07:41.548 --> 00:07:44.294
+e eles lançaram muitos outros ataques.
+
+00:07:44.294 --> 00:07:47.060
+Uma das coisas que eles foram capazes de fazer a partir do carro de ataque
+
+00:07:47.060 --> 00:07:49.034
+é acionar os freios do outro carro,
+
+00:07:49.034 --> 00:07:50.594
+simplesmente invadindo o computador.
+
+00:07:50.594 --> 00:07:53.025
+Eles foram capazes de desativar os freios.
+
+00:07:53.025 --> 00:07:56.203
+Eles também conseguiram instalar programas que adormeceriam
+
+00:07:56.203 --> 00:07:58.628
+e não iriam agir até o carro estar fazendo algo como
+
+00:07:58.628 --> 00:08:02.374
+se mover a mais que 32 Km/h, ou algo assim.
+
+00:08:02.374 --> 00:08:05.132
+Os resultados são surpreendentes e, quando eles deram esta palestra,
+
+00:08:05.132 --> 00:08:06.848
+embora tenham dado esta palestra em uma conferência
+
+00:08:06.848 --> 00:08:08.574
+para um grupo de pesquisadores de segurança em computação,
+
+00:08:08.574 --> 00:08:10.274
+todo mundo ficou sem fôlego.
+
+00:08:10.274 --> 00:08:13.973
+Eles foram capazes de tomar conta de um monte de computadores importantes
+
+00:08:13.973 --> 00:08:17.734
+dentro do carro: o computador dos freios, da iluminação,
+
+00:08:17.734 --> 00:08:20.561
+o motor, o painel, o rádio, etc.,
+
+00:08:20.561 --> 00:08:22.854
+e eles foram capazes de realizar isso em carros comerciais
+
+00:08:22.854 --> 00:08:25.881
+que eles compraram e usando a comunicação de rede de rádio.
+
+00:08:25.881 --> 00:08:28.884
+Eles foram capazes de comprometer cada uma das
+
+00:08:28.884 --> 00:08:31.350
+partes do software que controlava cada uma
+
+00:08:31.350 --> 00:08:34.365
+das capacidades sem fio do carro.
+
+00:08:34.365 --> 00:08:36.878
+Todas estas foram implementadas com sucesso.
+
+00:08:36.878 --> 00:08:39.230
+Como você rouba um carro deste modelo?
+
+00:08:39.230 --> 00:08:42.910
+Bem, você compromete o carro por um estouro de buffer
+
+00:08:42.910 --> 00:08:45.437
+de vulnerabilidade no software, algo assim.
+
+00:08:45.437 --> 00:08:47.640
+Você pode usar o GPS no carro para localizá-lo.
+
+00:08:47.640 --> 00:08:49.835
+Você destrava as portas remotamente através do computador
+
+00:08:49.835 --> 00:08:52.973
+que controla isso, liga o motor, ignora o antirroubo,
+
+00:08:52.973 --> 00:08:54.641
+e você conseguiu um carro pra você.
+
+00:08:54.641 --> 00:08:57.128
+Vigiar foi realmente interessante.
+
+00:08:57.128 --> 00:09:00.337
+Os autores do estudo tem um vídeo em que mostram
+
+00:09:00.337 --> 00:09:02.886
+eles se apropriando de um carro e depois ligando
+
+00:09:02.886 --> 00:09:05.647
+o microfone no carro, e ouvindo dentro do carro
+
+00:09:05.647 --> 00:09:08.998
+enquanto o seguia via GPS em um mapa,
+
+00:09:08.998 --> 00:09:10.711
+e então isso é algo que os motoristas de carro
+
+00:09:10.711 --> 00:09:12.879
+nunca saberiam que estava acontecendo.
+
+00:09:12.879 --> 00:09:15.013
+Ainda estou te assustando?
+
+00:09:15.013 --> 00:09:16.956
+Tenho mais um pouco de coisas interessantes.
+
+00:09:16.956 --> 00:09:18.789
+Estas são aquelas que vi em uma conferência,
+
+00:09:18.789 --> 00:09:20.722
+e minha mente estava apenas queimando, e disse:
+
+00:09:20.722 --> 00:09:22.548
+"Tenho que compartilhar isso com outras pessoas."
+
+00:09:22.548 --> 00:09:24.171
+Este foi o laboratório de Fabian Monrose
+
+00:09:24.171 --> 00:09:27.627
+na Universidade da Carolina do Norte, e o que eles fizeram foi
+
+00:09:27.627 --> 00:09:29.702
+algo intuitivo uma vez que você vê,
+
+00:09:29.702 --> 00:09:31.416
+mas surpreendente.
+
+00:09:31.416 --> 00:09:33.675
+Eles filmaram pessoas em um ônibus,
+
+00:09:33.675 --> 00:09:36.515
+e então eles pós-processaram o vídeo.
+
+00:09:36.515 --> 00:09:38.978
+O que você vê aqui no número um é um
+
+00:09:38.978 --> 00:09:43.361
+reflexo no óculos de alguém do smartphone
+
+00:09:43.361 --> 00:09:44.786
+que está digitando.
+
+00:09:44.786 --> 00:09:46.761
+Eles criaram um software para estabilizar -
+
+00:09:46.761 --> 00:09:48.126
+mesmo que eles estivessem em um ônibus
+
+00:09:48.126 --> 00:09:51.337
+e talvez alguém está segurando seu telefone em um ângulo --
+
+00:09:51.337 --> 00:09:53.707
+para estabilizar o telefone, processá-lo e
+
+00:09:53.707 --> 00:09:55.592
+você pode saber no seu smartphone, quando você digita
+
+00:09:55.592 --> 00:09:58.531
+uma senha, as senhas saem um pouco, e eles conseguiram
+
+00:09:58.531 --> 00:10:01.371
+de usar isso para reconstruir o que a pessoa estava digitando,
+
+00:10:01.371 --> 00:10:05.692
+e fizeram um modelo de linguagem para detetar a digitação.
+
+00:10:05.692 --> 00:10:08.027
+O que foi interessante é, por filmar em um ônibus,
+
+00:10:08.027 --> 00:10:10.156
+eles conseguiram produzir exatamente o que as pessoas
+
+00:10:10.156 --> 00:10:12.307
+em seus smartphones estavam escrevendo,
+
+00:10:12.307 --> 00:10:14.567
+e, em seguida, eles tiveram um resultado surpreendente, no qual
+
+00:10:14.567 --> 00:10:17.331
+seu software não só tinha feito isso para o seu alvo,
+
+00:10:17.331 --> 00:10:18.734
+mas para outras pessoas que acidentalmente apareceram
+
+00:10:18.734 --> 00:10:20.820
+para na câmera. Eles foram capazes de produzir
+
+00:10:20.820 --> 00:10:23.547
+o que essas pessoas digitaram, e meio que
+
+00:10:23.547 --> 00:10:27.164
+um artefato acidental do que seus software estavam fazendo.
+
+00:10:27.164 --> 00:10:31.467
+Vou mostrar mais dois casos. Um são as rádios P25.
+
+00:10:31.467 --> 00:10:34.267
+Os rádios P25 são usados pela polícia
+
+00:10:34.267 --> 00:10:37.674
+e todos os tipos de agências governamentais
+
+00:10:37.674 --> 00:10:39.410
+e as pessoas em combate para se comunicar,
+
+00:10:39.410 --> 00:10:42.243
+e há uma opção de criptografia nesses telefones.
+
+00:10:42.243 --> 00:10:44.971
+Isto é o que o telefone parece. Não é realmente um telefone.
+
+00:10:44.971 --> 00:10:46.177
+É mais um rádio de duas vias.
+
+00:10:46.177 --> 00:10:49.499
+A Motorola produz os mais utilizados, e você pode ver
+
+00:10:49.499 --> 00:10:52.148
+que eles são usados pelo Serviço Secreto, que são usados em combate,
+
+00:10:52.148 --> 00:10:55.250
+é um padrão muito, muito comum em os EUA e outros países.
+
+00:10:55.250 --> 00:10:57.555
+Então, uma pergunta que os pesquisadores se fizeram é,
+
+00:10:57.555 --> 00:11:00.259
+você pode bloquear essa coisa, certo?
+
+00:11:00.259 --> 00:11:01.842
+Você poderia executar uma negação de serviço,
+
+00:11:01.842 --> 00:11:03.666
+porque estes são os primeiros socorros?
+
+00:11:03.666 --> 00:11:05.467
+Então, uma organização terrorista poderia querer bloquear a
+
+00:11:05.467 --> 00:11:09.955
+capacidade da polícia e bombeiros para se comunicar em uma emergência?
+
+00:11:09.955 --> 00:11:13.027
+Eles descobriram que existe este dispositivo GirlTech usado para mensagens de texto
+
+00:11:13.027 --> 00:11:15.745
+que operaram na mesma frequência
+
+00:11:15.745 --> 00:11:18.016
+dos P25, e eles construíram o que eles chamaram
+
+00:11:18.016 --> 00:11:22.350
+Meu primeiro bloqueador. (Risos)
+
+00:11:22.350 --> 00:11:24.728
+Se você olhar atentamente para este dispositivo,
+
+00:11:24.728 --> 00:11:28.358
+ele tem uma chave de criptografia ou de texto simples.
+
+00:11:28.358 --> 00:11:31.408
+Deixe-me avançar o slide, e agora eu vou voltar.
+
+00:11:31.408 --> 00:11:33.955
+Você vê a diferença?
+
+00:11:33.955 --> 00:11:36.512
+Este é um texto simples. Este é um codificado.
+
+00:11:36.512 --> 00:11:39.069
+Há um pequeno ponto que aparece na tela,
+
+00:11:39.069 --> 00:11:41.154
+e uma pequeno interruptor para troca.
+
+00:11:41.154 --> 00:11:43.058
+E por isso os pesquisadores se perguntaram: "É incrível como
+
+00:11:43.058 --> 00:11:47.315
+muitas vezes conversas seguras, importantes e sensíveis
+
+00:11:47.315 --> 00:11:48.938
+se passam nesses rádios nos quais eles se esquecem
+
+00:11:48.938 --> 00:11:51.848
+de criptografar e eles não percebem que eles não criptografaram?"
+
+00:11:51.848 --> 00:11:55.187
+Então eles compraram um scanner. Estes são perfeitamente legais
+
+00:11:55.187 --> 00:11:58.645
+e funcionam na frequência da P25,
+
+00:11:58.645 --> 00:12:00.412
+e o que eles fizeram é que eles variaram em torno de frequências
+
+00:12:00.412 --> 00:12:02.922
+e eles criaram um software para ouvir.
+
+00:12:02.922 --> 00:12:05.556
+Se eles acharam comunicação criptografada, eles se ficavam
+
+00:12:05.556 --> 00:12:07.242
+no canal e escreviam, aquele é um canal
+
+00:12:07.242 --> 00:12:09.030
+que essas pessoas se comunicam,
+
+00:12:09.030 --> 00:12:10.652
+estas agências da lei,
+
+00:12:10.652 --> 00:12:14.043
+e eles foram para 20 áreas metropolitanas e ouviram
+
+00:12:14.043 --> 00:12:17.518
+conversas que estavam acontecendo nessas frequências.
+
+00:12:17.518 --> 00:12:20.757
+Eles descobriram isso em cada área metropolitana,
+
+00:12:20.757 --> 00:12:22.911
+eles puderam capturar mais de 20 minutos por dia
+
+00:12:22.911 --> 00:12:25.286
+de comunicação em texto puro.
+
+00:12:25.286 --> 00:12:27.286
+E que tipo de coisas as pessoas estavam falando?
+
+00:12:27.286 --> 00:12:28.770
+Bem, eles descobriram nomes e informações
+
+00:12:28.770 --> 00:12:31.622
+sobre informantes confidenciais. Eles encontraram informações
+
+00:12:31.622 --> 00:12:33.824
+que estavam sendo gravadas em escutas telefônicas,
+
+00:12:33.824 --> 00:12:36.534
+muitos crimes que estavam sendo discutidos,
+
+00:12:36.534 --> 00:12:37.696
+informações sensíveis.
+
+00:12:37.696 --> 00:12:41.059
+principalmente policial e criminal.
+
+00:12:41.059 --> 00:12:42.893
+Eles foram e denunciaram isso às agências policiais,
+
+00:12:42.893 --> 00:12:44.916
+após garantir o anonimato delas,
+
+00:12:44.916 --> 00:12:47.916
+e a vulnerabilidade aqui é simplesmente a interface do usuário
+
+00:12:47.916 --> 00:12:49.310
+que não era boa o suficiente. Se você está falando
+
+00:12:49.310 --> 00:12:52.126
+sobre algo realmente secreto e sensível, que deveria
+
+00:12:52.126 --> 00:12:55.419
+ser realmente claro para você que essa conversa é criptografada.
+
+00:12:55.419 --> 00:12:57.305
+Isso é muito fácil de corrigir.
+
+00:12:57.305 --> 00:12:58.974
+A última que eu pensava que era muito, muito legal,
+
+00:12:58.974 --> 00:13:01.787
+e tinha que mostrar a vocês, provavelmente não é algo
+
+00:13:01.787 --> 00:13:02.792
+que vocês vão perder o sono
+
+00:13:02.792 --> 00:13:04.583
+como no caso dos carros ou dos desfibriladores,
+
+00:13:04.583 --> 00:13:07.606
+mas está roubando teclas.
+
+00:13:07.606 --> 00:13:10.353
+Agora, todos nós já vimos um smartphone de cima a baixo.
+
+00:13:10.353 --> 00:13:12.543
+Cada especialista em segurança quer atacar um smartphone,
+
+00:13:12.543 --> 00:13:17.155
+e temos a tendência de olhar para a porta USB, o GPS para rastreamento,
+
+00:13:17.155 --> 00:13:20.363
+a câmera, o microfone, mas ninguém até agora
+
+00:13:20.363 --> 00:13:21.943
+tinha pensado no acelerômetro.
+
+00:13:21.943 --> 00:13:23.590
+O acelerômetro é o que determina
+
+00:13:23.590 --> 00:13:27.084
+a orientação vertical do smartphone.
+
+00:13:27.084 --> 00:13:28.501
+E então eles tinham uma configuração simples.
+
+00:13:28.501 --> 00:13:31.259
+Eles colocaram um smartphone ao lado de um teclado,
+
+00:13:31.259 --> 00:13:33.971
+e tinham pessoas digitando e, em seguida, seu objetivo era
+
+00:13:33.971 --> 00:13:36.827
+usar as vibrações que foram criados pela digitação
+
+00:13:36.827 --> 00:13:41.067
+para medir a variação na leitura do acelerômetro
+
+00:13:41.067 --> 00:13:44.243
+para determinar o que a pessoa tinha digitado.
+
+00:13:44.243 --> 00:13:46.819
+Agora, quando eles tentaram isso em um iPhone 3GS,
+
+00:13:46.819 --> 00:13:49.588
+este é um gráfico das perturbações que foram criados
+
+00:13:49.588 --> 00:13:52.829
+pela digitação, e você pode ver que é muito difícil
+
+00:13:52.829 --> 00:13:55.907
+de dizer quando alguém estava escrevendo ou o que eles estavam escrevendo,
+
+00:13:55.907 --> 00:13:58.997
+mas o iPhone 4 melhorou muito o acelerômetro,
+
+00:13:58.997 --> 00:14:02.477
+e assim a mesma medição
+
+00:14:02.477 --> 00:14:04.309
+produziu este gráfico.
+
+00:14:04.309 --> 00:14:06.795
+Agora que lhe dei um monte de informações, enquanto alguém
+
+00:14:06.795 --> 00:14:10.036
+estava digitando, e o que eles fizeram depois foi usar avançadas
+
+00:14:10.036 --> 00:14:13.043
+técnicas de inteligência artificial chamado de aprendizado de máquina
+
+00:14:13.043 --> 00:14:14.474
+e ter uma fase de treinamento,
+
+00:14:14.474 --> 00:14:16.710
+e assim eles pegaram principalmente estudantes de graduação
+
+00:14:16.710 --> 00:14:20.499
+para digitar um monte de coisas, e para aprender,
+
+00:14:20.499 --> 00:14:23.267
+para que o sistema utilize as ferramentas de aprendizado de máquina que
+
+00:14:23.267 --> 00:14:26.130
+estavam disponíveis para aprender o que é que as pessoas estavam escrevendo
+
+00:14:26.130 --> 00:14:28.957
+e para comparar
+
+00:14:28.957 --> 00:14:31.434
+com as medidas do acelerômetro.
+
+00:14:31.434 --> 00:14:33.069
+E depois há a fase de ataque, em que pede a
+
+00:14:33.069 --> 00:14:35.880
+alguém para escrever algo, você não sabe o que era,
+
+00:14:35.880 --> 00:14:37.177
+mas você usa o modelo que você criou
+
+00:14:37.177 --> 00:14:40.619
+na fase de treinamento para descobrir o que eles estavam escrevendo.
+
+00:14:40.619 --> 00:14:44.103
+Eles tiveram sucesso. Trata-se de um artigo do USA Today.
+
+00:14:44.103 --> 00:14:46.712
+Eles digitaram, "O Supremo Tribunal de Illinois decidiu
+
+00:14:46.712 --> 00:14:49.674
+que Rahm Emanuel é elegível para concorrer a prefeito de Chicago".
+
+00:14:49.674 --> 00:14:51.028
+— observe que eu amarrei isso à última conversa —
+
+00:14:51.028 --> 00:14:53.146
+"E ordenou-lhe a ficar na cédula."
+
+00:14:53.146 --> 00:14:55.917
+Agora, o sistema é interessante, porque produziu
+
+00:14:55.917 --> 00:14:58.803
+"Supremo Illinois" e então eles não tinham certeza.
+
+00:14:58.803 --> 00:15:00.753
+O modelo produziu várias opções,
+
+00:15:00.753 --> 00:15:03.462
+e esta é a beleza de algumas das técnicas de I.A.,
+
+00:15:03.462 --> 00:15:05.712
+é que os computadores são bons em algumas coisas,
+
+00:15:05.712 --> 00:15:07.246
+os seres humanos são bons em outras,
+
+00:15:07.246 --> 00:15:09.177
+tirem o melhor de ambos e deixem que os seres humanos resolverem isto.
+
+00:15:09.177 --> 00:15:10.559
+Não gaste os ciclos de computador.
+
+00:15:10.559 --> 00:15:12.695
+Um ser humano não vai achar que isso é o Supremo poder.
+
+00:15:12.695 --> 00:15:14.435
+É o Supremo Tribunal, certo?
+
+00:15:14.435 --> 00:15:16.965
+E assim, juntos somos capazes de reproduzir a digitação
+
+00:15:16.965 --> 00:15:19.914
+simplesmente através da medição do acelerômetro.
+
+00:15:19.914 --> 00:15:23.416
+Por que isso importa? Bem, na plataforma Android,
+
+00:15:23.416 --> 00:15:27.549
+por exemplo, os desenvolvedores têm um manifesto
+
+00:15:27.564 --> 00:15:30.148
+onde cada dispositivo lá, o microfone, etc.,
+
+00:15:30.148 --> 00:15:32.104
+tem de se registrar, se você vai usá-lo
+
+00:15:32.104 --> 00:15:34.420
+para que os hackers não se apropriem disso,
+
+00:15:34.420 --> 00:15:37.528
+mas ninguém controla o acelerômetro.
+
+00:15:37.528 --> 00:15:39.744
+Então, qual é o ponto? Você pode deixar seu iPhone ao lado do
+
+00:15:39.744 --> 00:15:41.850
+teclado de alguém, e apenas deixar o quarto,
+
+00:15:41.850 --> 00:15:43.489
+e, posteriormente, recuperar o que eles fizeram,
+
+00:15:43.489 --> 00:15:45.200
+mesmo sem o uso do microfone.
+
+00:15:45.200 --> 00:15:47.374
+Se alguém é capaz de colocar programas mal intencionados em seu iPhone,
+
+00:15:47.374 --> 00:15:50.222
+eles podem então obter o que você digitou
+
+00:15:50.222 --> 00:15:52.543
+sempre que você colocar o seu iPhone ao lado do seu teclado.
+
+00:15:52.543 --> 00:15:54.814
+Há vários outros ataques notáveis que, infelizmente,
+
+00:15:54.814 --> 00:15:56.945
+não tenho tempo para explicar, mas o que queria
+
+00:15:56.945 --> 00:15:59.222
+apontar foi um grupo da Universidade de Michigan
+
+00:15:59.222 --> 00:16:01.663
+que foi capaz de levar as máquinas de votação,
+
+00:16:01.663 --> 00:16:04.161
+a Sequoia AVC Edge DREs que
+
+00:16:04.161 --> 00:16:05.716
+estavam sendo usadas em Nova Jersey, na eleição
+
+00:16:05.716 --> 00:16:07.877
+que foram deixados em um corredor, e instalaram o Pac-Man nela.
+
+00:16:07.877 --> 00:16:11.500
+Então eles executaram o jogo Pac-Man.
+
+00:16:11.500 --> 00:16:13.247
+O que tudo isso significa?
+
+00:16:13.247 --> 00:16:16.894
+Bem, eu acho que a sociedade tende a adotar a tecnologia
+
+00:16:16.894 --> 00:16:19.718
+muito rapidamente. Eu amo o próximo gadget mais legal.
+
+00:16:19.718 --> 00:16:22.332
+Mas é muito importante, e esses pesquisadores estão mostrando,
+
+00:16:22.332 --> 00:16:23.692
+que os desenvolvedores dessas coisas
+
+00:16:23.692 --> 00:16:26.557
+precisam levar em conta a segurança desde o início,
+
+00:16:26.557 --> 00:16:29.342
+e precisam perceber que eles podem ter um modelo de ameaça,
+
+00:16:29.342 --> 00:16:31.804
+mas os atacantes podem não ser legais o suficiente
+
+00:16:31.804 --> 00:16:33.581
+para limitar-se a esse modelo de ameaça,
+
+00:16:33.581 --> 00:16:36.118
+e por isso você precisa pensar em outro contexto.
+
+00:16:36.118 --> 00:16:37.696
+O que podemos fazer é estar ciente
+
+00:16:37.696 --> 00:16:40.175
+que os dispositivos podem ser comprometidos,
+
+00:16:40.175 --> 00:16:41.874
+e qualquer coisa que tem software nele
+
+00:16:41.874 --> 00:16:44.523
+vai ser vulnerável. Ele vai ter bugs.
+
+00:16:44.523 --> 00:16:48.020
+Muito obrigado (Aplausos)
+

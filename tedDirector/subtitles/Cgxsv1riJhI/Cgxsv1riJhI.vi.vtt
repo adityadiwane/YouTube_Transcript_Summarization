@@ -1,0 +1,487 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00:00.000 --> 00:00:07.000
+Translator: Mean Chow
+Reviewer: Ngoc Bui
+
+00:00:12.645 --> 00:00:13.796
+Mười năm trước,
+
+00:00:13.820 --> 00:00:16.596
+các nghiên cứu thị giác máy tính 
+cho rằng để máy tính
+
+00:00:16.620 --> 00:00:19.316
+nhận biết được 
+sự khác nhau giữa chó và mèo
+
+00:00:19.340 --> 00:00:21.316
+gần như là bất khả thi
+
+00:00:21.340 --> 00:00:25.036
+cho dù với những tiến bộ 
+đáng kể về trí tuệ nhân tạo.
+
+00:00:25.060 --> 00:00:28.620
+Giờ đây, chúng ta có thể thực hiện được
+điều đó với hơn 99% độ chính xác.
+
+00:00:29.500 --> 00:00:31.356
+Đây được gọi là Phân lớp hình ảnh
+
+00:00:31.380 --> 00:00:34.476
+tức là cho một hình ảnh,
+dán nhãn cho hình ảnh đó
+
+00:00:34.500 --> 00:00:37.540
+và máy tính sẽ nhận diện
+hàng ngàn loại hình ảnh như vậy.
+
+00:00:38.500 --> 00:00:41.396
+Tôi là cử nhân của Đại học Washington,
+
+00:00:41.420 --> 00:00:43.225
+và đang làm việc cho dự án Darknet
+
+00:00:43.390 --> 00:00:45.036
+nó là một khung mạng lưới nơ-ron
+
+00:00:45.060 --> 00:00:47.876
+dùng để điều chỉnh và kiểm tra 
+các mô hình thị giác máy tính
+
+00:00:47.900 --> 00:00:50.876
+Vậy cùng xem Darknet thấy gì
+
+00:00:50.900 --> 00:00:52.660
+về bức ảnh mà chúng ta có ở đây.
+
+00:00:54.340 --> 00:00:56.676
+Khi ta khởi động bộ phân lớp
+
+00:00:56.700 --> 00:00:57.916
+cho hình ảnh này
+
+00:00:57.940 --> 00:01:00.396
+ta thấy rằng ta không chỉ 
+nhận được dự đoán về chó hay mèo
+
+00:01:00.420 --> 00:01:02.756
+mà thực sự còn có dự đoán về
+loài cụ thể.
+
+00:01:02.780 --> 00:01:04.956
+Đây là mức độ chi tiết chúng ta hiện có
+
+00:01:04.980 --> 00:01:06.596
+Và nó hoàn toàn chính xác.
+
+00:01:06.620 --> 00:01:08.460
+Con chó của tôi đúng là 
+một con Malamute.
+
+00:01:08.860 --> 00:01:13.196
+Vậy chúng ta đã tạo ra một bước tiến 
+vượt bậc trong phân lớp hình ảnh,
+
+00:01:13.220 --> 00:01:15.220
+nhưng điều gì xảy ra 
+khi khởi động bộ phân lớp
+
+00:01:15.244 --> 00:01:17.204
+trên một hình ảnh như thế này?
+
+00:01:18.900 --> 00:01:20.100
+Ừm ...
+
+00:01:24.460 --> 00:01:28.356
+Ta thấy rằng bộ phân lớp sẽ phản hồi 
+với dự đoán tương tự như vậy.
+
+00:01:28.380 --> 00:01:31.476
+Và nó hoàn toàn chính xác, đúng là 
+có một con malamute trong bức ảnh,
+
+00:01:31.500 --> 00:01:35.196
+nhưng nếu chỉ với thông tin này, 
+chúng ta không thực sự hiểu rõ
+
+00:01:35.220 --> 00:01:36.887
+về điều gì đang diễn ra 
+trong bức ảnh đó.
+
+00:01:36.911 --> 00:01:38.471
+Chúng ta cần thứ gì đó mạnh mẽ hơn.
+
+00:01:39.060 --> 00:01:41.676
+Tôi nghiên cứu về một vấn đề 
+được gọi là Nhận diện vật thể
+
+00:01:41.700 --> 00:01:44.636
+nghĩa là chúng ta nhìn vào bức ảnh 
+và cố tìm ra tất cả các đồ vật,
+
+00:01:44.660 --> 00:01:46.116
+đặt các hộp giới hạn xung quanh chúng
+
+00:01:46.140 --> 00:01:47.660
+và chỉ ra những vật đó là gì
+
+00:01:48.220 --> 00:01:51.500
+Sau đây là những gì sẽ xảy ra khi chúng ta nhận diện bức ảnh này.
+
+00:01:53.060 --> 00:01:55.316
+Với kết quả này,
+
+00:01:55.340 --> 00:01:58.036
+chúng ta có thể làm được nhiều điều hơn với những thuật toán thị giác máy tính.
+
+00:01:58.060 --> 00:02:01.036
+Nó nhận ra trong ảnh có 
+một con chó và một con mèo
+
+00:02:01.060 --> 00:02:03.316
+Nó biết vị trí của chúng,
+
+00:02:03.340 --> 00:02:04.556
+kích thước của chúng.
+
+00:02:04.580 --> 00:02:06.516
+Thậm chí nó có thể biết thêm nhiều thông tin nữa.
+
+00:02:06.540 --> 00:02:08.500
+ví dụ như có quyển sách ở phía sau
+
+00:02:09.100 --> 00:02:12.356
+Và nếu bạn muốn xây dựng một hệ thống 
+dựa vào thị giác máy tính,
+
+00:02:12.380 --> 00:02:15.836
+như xe hơi tự lái hay hệ thống robot,
+
+00:02:15.860 --> 00:02:18.316
+đây chính là thông tin mà bạn cần.
+
+00:02:18.340 --> 00:02:21.579
+Bạn muốn thứ gì đó để bạn có thể 
+tương tác với thế giới thực.
+
+00:02:22.579 --> 00:02:24.836
+Giờ, khi tôi bắt đầu khởi động nhận diện vật thể,
+
+00:02:24.860 --> 00:02:28.156
+sẽ mất 20 giây để xử lý một hình ảnh.
+
+00:02:28.180 --> 00:02:32.060
+Và để hiểu tại sao tốc độ lại 
+quan trọng đến thế,
+
+00:02:32.940 --> 00:02:35.476
+đây sẽ là ví dụ: một bộ nhận diện vật thể
+
+00:02:35.500 --> 00:02:37.916
+mất 2 giây để xử lý tấm ảnh.
+
+00:02:37.940 --> 00:02:40.556
+Vì thế nó nhanh gấp 10 lần
+
+00:02:40.580 --> 00:02:44.116
+so với bộ nhận diện 20 giây/ảnh
+
+00:02:44.140 --> 00:02:46.796
+và bạn có thể nhận ra rằng, 
+vào lúc nó đưa ra dự đoán xong
+
+00:02:46.820 --> 00:02:48.860
+thì tất cả các trạng thái đã thay đổi,
+
+00:02:49.700 --> 00:02:52.116
+và vì thế nó sẽ không còn thực sự có ích
+
+00:02:52.140 --> 00:02:53.556
+cho một ứng dụng.
+
+00:02:53.580 --> 00:02:56.076
+Nếu chúng ta tăng tốc nó lên theo hệ số 10
+
+00:02:56.100 --> 00:02:58.916
+nó sẽ nhận diện 5 ảnh/giây.
+
+00:02:58.940 --> 00:03:00.476
+Nó thực sự vượt trội hơn nhiều,
+
+00:03:00.500 --> 00:03:02.476
+nhưng ví dụ,
+
+00:03:02.500 --> 00:03:04.796
+nếu có bất kì chuyển động đáng kể nào, 
+
+00:03:04.820 --> 00:03:07.380
+tôi sẽ không muốn một hệ thống như này 
+điều khiển chiếc xe của mình.
+
+00:03:08.940 --> 00:03:12.180
+Đây là hệ thống nhận diện theo thời gian thực đang chạy trên laptop của tôi
+
+00:03:12.820 --> 00:03:15.956
+Vì vậy nó dễ dàng theo dõi tôi khi tôi di chuyển xung quanh khung hình,
+
+00:03:15.980 --> 00:03:19.700
+và nó rất nhanh nhạy với các thay đổi về kích thước,
+
+00:03:21.260 --> 00:03:22.460
+tư thế,
+
+00:03:23.100 --> 00:03:24.956
+về phía trước, phía sau.
+
+00:03:24.980 --> 00:03:26.196
+Điều này thật tuyệt.
+
+00:03:26.220 --> 00:03:27.956
+Đây chính xác là gì chúng ta cần
+
+00:03:27.980 --> 00:03:30.876
+nếu ta định xây dựng một hệ thống 
+dựa trên thị giác máy tính.
+
+00:03:30.900 --> 00:03:34.900
+(Tiếng vỗ tay)
+
+00:03:36.100 --> 00:03:38.276
+Vì vậy chỉ trong vài năm,
+
+00:03:38.300 --> 00:03:40.956
+chúng ta chuyển từ 20 giây/ảnh
+
+00:03:40.980 --> 00:03:44.516
+sang 20 phần nghìn giây/ảnh, 
+nhanh gấp nghìn lần.
+
+00:03:44.540 --> 00:03:45.956
+Chúng ta đã tiến tới đó bằng cách nào?
+
+00:03:45.980 --> 00:03:48.996
+Trong quá khứ, các hệ thống nhận diện vật thể
+
+00:03:49.020 --> 00:03:50.956
+sẽ xử lí một hình ảnh như này,
+
+00:03:50.980 --> 00:03:53.436
+và chia nó thành các vùng,
+
+00:03:53.460 --> 00:03:56.716
+sau đó chạy bộ nhận diện trên từng vùng,
+
+00:03:56.740 --> 00:03:59.276
+điểm nổi trội nhất trong vùng nhận diện
+
+00:03:59.300 --> 00:04:02.436
+sẽ được tính là kết quả.
+
+00:04:02.460 --> 00:04:06.516
+Nhưng điều này cũng đồng nghĩa với 
+hàng nghìn lần nhận diện trên một hình,
+
+00:04:06.540 --> 00:04:09.460
+hàng nghìn đánh giá của mạng lưới nơ-rôn 
+để đi đến được kết quả.
+
+00:04:11.060 --> 00:04:15.596
+Thay vào đó, chúng ta có một mạng lưới duy nhất
+tiến hành tất cả các nhận diện,
+
+00:04:15.620 --> 00:04:19.900
+tạo ra đồng thời tất cả các hộp giới hạn và
+các khả năng
+
+00:04:20.500 --> 00:04:23.996
+Với hệ thống của chúng tôi, thay vì "nhìn" bức ảnh
+hàng ngàn lần
+
+00:04:24.020 --> 00:04:25.476
+để đưa ra nhận diện,
+
+00:04:25.500 --> 00:04:26.756
+You Only Look Once 
+(Chỉ nhìn một lần)
+
+00:04:26.780 --> 00:04:29.700
+Phương pháp YOLO để nhận diện vật thể.
+
+00:04:31.180 --> 00:04:35.156
+Tốc độ này khiến ta không bị giới hạn
+chỉ trong Ảnh
+
+00:04:35.180 --> 00:04:37.596
+mà còn nhận diện trong Video theo thời gian thực.
+
+00:04:37.620 --> 00:04:40.716
+Giờ, thay vì chỉ thấy chó và mèo,
+
+00:04:40.740 --> 00:04:43.700
+ta còn thấy chúng di chuyển và đùa giỡn.
+
+00:04:46.380 --> 00:04:48.436
+Đây là bộ nhận diện được phát triển
+
+00:04:48.460 --> 00:04:52.836
+với 80 hạng mục khác nhau
+
+00:04:52.860 --> 00:04:56.116
+thuộc COCO dataset của Microsoft.
+
+00:04:56.140 --> 00:04:59.476
+Có đủ thứ hết, như muỗng, nĩa, tô,...
+
+00:04:59.500 --> 00:05:01.300
+những vật dụng thông thường như vậy.
+
+00:05:02.180 --> 00:05:05.276
+Và có những mục thú vị:
+
+00:05:05.300 --> 00:05:08.556
+động vật, xe hơi, ngựa vằn, hươu cao cổ.
+
+00:05:08.580 --> 00:05:10.516
+Giờ đến trò vui nè
+
+00:05:10.540 --> 00:05:12.636
+Tôi sẽ đến chỗ khán giả
+
+00:05:12.660 --> 00:05:14.676
+và xem nó nhận diện được những thứ gì nhé.
+
+00:05:14.700 --> 00:05:16.320
+Ai muốn thú nhồi bông nào?
+
+00:05:17.820 --> 00:05:19.582
+Gấu bông nè.
+
+00:05:21.860 --> 00:05:26.396
+Mở rộng khu vực nhận diện ra một chút
+
+00:05:26.420 --> 00:05:29.820
+để thấy được nhiều người hơn.
+
+00:05:31.380 --> 00:05:33.716
+Để xem, biển cấm này
+
+00:05:33.740 --> 00:05:35.620
+Tìm được vài cái balo
+
+00:05:37.700 --> 00:05:39.540
+Phóng to một tí
+
+00:05:42.140 --> 00:05:43.396
+Thật tuyệt.
+
+00:05:43.420 --> 00:05:46.596
+Tất cả các quá trình đang diễn ra 
+trong thời gian thực
+
+00:05:46.620 --> 00:05:47.820
+trên laptop.
+
+00:05:48.900 --> 00:05:50.356
+Điều quan trọng cần nhớ,
+
+00:05:50.380 --> 00:05:53.596
+đây là hệ thống nhận diện cho-mọi-mục-đích
+
+00:05:53.620 --> 00:05:58.620
+nên có thể áp dụng cho mọi ứng dụng khác.
+
+00:06:00.140 --> 00:06:02.676
+Cùng một đoạn code này
+
+00:06:02.700 --> 00:06:05.156
+có thể tìm biển cấm, người đi bộ,
+
+00:06:05.180 --> 00:06:07.156
+xe đạp,...nếu áp dụng cho 
+xe tự lái;
+
+00:06:07.180 --> 00:06:10.036
+có thể dùng để tìm tế bào ung thư
+
+00:06:10.060 --> 00:06:13.076
+trong một sinh thiết mô.
+
+00:06:13.100 --> 00:06:17.140
+Khắp thế giới đã có những nhà nghiên cứu 
+áp dụng công nghệ này
+
+00:06:18.060 --> 00:06:21.476
+để phát triển trong ngành dược, 
+chế tạo robot.
+
+00:06:21.500 --> 00:06:22.876
+Sáng nay tôi đọc được tin
+
+00:06:22.900 --> 00:06:27.476
+người ta điều tra số lượng cá thể động vật
+ở Công viên Quốc gia Nairobi
+
+00:06:27.500 --> 00:06:30.636
+với sự đóng góp của YOLO trong hệ thống
+nhận dạng.
+
+00:06:30.660 --> 00:06:33.756
+Và bởi vì Darknet là nguồn mở
+
+00:06:33.780 --> 00:06:36.300
+thuộc miền công cộng và miễn phí cho 
+tất cả mọi người
+
+00:06:37.420 --> 00:06:43.116
+(Tiếng vỗ tay)
+
+00:06:43.140 --> 00:06:48.076
+Nhưng chúng tôi muốn việc nhận diện 
+trở nên dễ tiếp cận và dễ sử dụng hơn nữa
+
+00:06:48.100 --> 00:06:52.156
+nên qua sự kết hợp của mô hình tối ưu hóa
+
+00:06:52.180 --> 00:06:54.476
+nhị phân hóa hệ thống và phép xấp xỉ.
+
+00:06:54.500 --> 00:06:58.420
+chúng ta thực sự đã có thể 
+nhận diện vật thể bằng điện thoại.
+
+00:07:04.620 --> 00:07:09.940
+(Tiếng vỗ tay)
+
+00:07:10.780 --> 00:07:15.836
+Và tôi thực sự hào hứng vì giờ chúng ta
+đã có một giải pháp hữu hiệu
+
+00:07:15.860 --> 00:07:18.156
+cho vấn đề thị giác máy tính kém,
+
+00:07:18.180 --> 00:07:22.036
+ai cũng có thể sở hữu và từ nó 
+tạo nên những thứ khác nữa.
+
+00:07:22.060 --> 00:07:25.236
+Vậy nên từ giờ phần còn lại
+phụ thuộc vào các bạn
+
+00:07:25.260 --> 00:07:28.196
+và mọi người trên thế giới 
+qua việc truy cập vào phần mềm này
+
+00:07:28.220 --> 00:07:31.876
+tôi rất háo hức mong đợi
+những gì sẽ được tạo ra từ công nghệ này.
+
+00:07:31.900 --> 00:07:33.116
+Xin cảm ơn.
+
+00:07:33.140 --> 00:07:36.580
+(Tiếng vỗ tay)
+

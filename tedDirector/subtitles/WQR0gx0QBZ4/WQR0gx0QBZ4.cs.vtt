@@ -1,0 +1,1175 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Michal Skala
+Korektor: Hai Anh Vu
+
+00:00:25.000 --> 00:00:29.000
+V roce 1962 prohlásil Charles Van Doren, pozdější hlavní editor Encyclopædie Britannicy,
+
+00:00:29.000 --> 00:00:33.000
+že ideální encyklopedie má být radikální – má přestat být bezpečná.
+
+00:00:33.000 --> 00:00:36.000
+Víte-li ale něco o historii Britannicy od roku 1962,
+
+00:00:36.000 --> 00:00:38.000
+je čímkoli, nikoliv však radikálním:
+
+00:00:38.000 --> 00:00:43.000
+stále naprosto bezpečná, nezáživná encyklopedie.
+
+00:00:43.000 --> 00:00:48.000
+Wikipedie naopak začíná s velmi radikální myšlenkou
+
+00:00:48.000 --> 00:00:50.000
+a sice, abychom si všichni představili svět,
+
+00:00:50.000 --> 00:00:52.000
+ve kterém je každému jednotlivci na zeměkouli
+
+00:00:52.000 --> 00:00:55.000
+dán volný přístup k sumě všeho lidského vědění.
+
+00:00:55.000 --> 00:00:57.000
+A to děláme. Takže Wikipedie -
+
+00:00:58.000 --> 00:01:00.000
+viděli jste jen její malou ukázku -
+
+00:01:00.000 --> 00:01:04.000
+je encyklopedie s volnou licencí. Píší ji tisícovky dobrovolníků
+
+00:01:04.000 --> 00:01:06.000
+po celém světě v mnoha, mnoha jazycích.
+
+00:01:06.000 --> 00:01:08.000
+Píší ji za použití Wiki softwaru -
+
+00:01:08.000 --> 00:01:11.000
+to je druh softwaru, který tu už někdo ukázal,
+
+00:01:11.000 --> 00:01:13.000
+takže kdokoli může rychle editovat a ukládat,
+
+00:01:13.000 --> 00:01:16.000
+a hned je to dostupné na Internetu.
+
+00:01:16.000 --> 00:01:21.000
+Vše kolem Wikipedie spravují fakticky samí dobrovolníci.
+
+00:01:21.000 --> 00:01:25.000
+Když mluví Yochai o nových metodách organizace,
+
+00:01:25.000 --> 00:01:29.000
+popisuje přesně Wikipedii. Já vám dnes povím
+
+00:01:29.000 --> 00:01:33.000
+trochu něco víc o tom, jak funguje zevnitř.
+
+00:01:33.000 --> 00:01:38.000
+Wikipedii vlastní nadace Wikimedia Foundation, kterou jsem založil,
+
+00:01:38.000 --> 00:01:43.000
+Tím hlavním cílem nadace je dostat encyklopedii,
+
+00:01:43.000 --> 00:01:46.000
+která je zdarma, ke každému jednotlivci na zemi.
+
+00:01:46.000 --> 00:01:48.000
+A když tak přemýšlíte o tom, co to znamená,
+
+00:01:48.000 --> 00:01:51.000
+tak to znamená mnohem víc, než jen vytvořit parádní webovku.
+
+00:01:51.000 --> 00:01:55.000
+Jde nám opravdu o všechny problémy digitální propasti, celosvětové chudoby
+
+00:01:55.000 --> 00:01:59.000
+a umožnit tak všude lidem, aby měli informace, které potřebují
+
+00:01:59.000 --> 00:02:00.000
+ke správným rozhodnutím.
+
+00:02:00.000 --> 00:02:04.000
+Budeme tak muset udělat hodně práce, která překračuje pouhý Internet.
+
+00:02:04.000 --> 00:02:08.000
+Hlavně proto jsme zvolili model volné licence,
+
+00:02:08.000 --> 00:02:10.000
+protože ta umožňuje lokálním podnikavcům -
+
+00:02:10.000 --> 00:02:12.000
+či komukoli, kdo chce, aby si vzal náš obsah
+
+00:02:12.000 --> 00:02:16.000
+a udělal s ním, cokoli se mu líbí - může ho zkopírovat, nově rozdělit
+
+00:02:16.000 --> 00:02:18.000
+a může to udělat komerčně nebo nekomerčně.
+
+00:02:18.000 --> 00:02:22.000
+Kolem Wikipedie tedy vznikne hodně příležitostí
+
+00:02:22.000 --> 00:02:24.000
+po celém světě.
+
+00:02:24.000 --> 00:02:26.000
+Financují nás dary od veřejnosti
+
+00:02:26.000 --> 00:02:29.000
+a zajímavější na tom je,
+
+00:02:29.000 --> 00:02:32.000
+jak málo peněz k provozu Wikipedie vlastně stačí.
+
+00:02:32.000 --> 00:02:37.000
+Yochai ukazoval graf, jaké jsou náklady tištěných médií.
+
+00:02:37.000 --> 00:02:41.000
+Já vám povím, jaké jsou náklady Wikipedie,
+
+00:02:41.000 --> 00:02:43.000
+ale nejdřív vám ukážu, jak je velká.
+
+00:02:43.000 --> 00:02:47.000
+Máme přes 600 000 článků v angličtině.
+
+00:02:47.000 --> 00:02:51.000
+Celkově máme 2 miliony článků v mnoha různých jazycích.
+
+00:02:51.000 --> 00:02:54.000
+Největšími jazyky jsou němčina, japonština, francouzština -
+
+00:02:54.000 --> 00:02:58.000
+všechny západoevropské jazyky jsou docela velké.
+
+00:02:58.000 --> 00:03:01.000
+Nicméně pouze asi třetinu přístupů na náš web
+
+00:03:01.000 --> 00:03:03.000
+na sebe namotává Wikipedia v angličtině,
+
+00:03:03.000 --> 00:03:05.000
+což hodně lidí překvapí.
+
+00:03:05.000 --> 00:03:09.000
+Mnoho lidí uvažuje o Internetu, jakože v něm dominuje angličtina,
+
+00:03:09.000 --> 00:03:12.000
+ale my jsme skutečně globální. Jsme v mnoha, mnoha jazycích.
+
+00:03:13.000 --> 00:03:16.000
+Jak jsme zatím oblíbení..? Jsme mezi top 50
+
+00:03:16.000 --> 00:03:18.000
+a jsme oblíbenější než noviny New York Times.
+
+00:03:18.000 --> 00:03:22.000
+Tady navazuji na to, o čem mluvil Yochai.
+
+00:03:23.000 --> 00:03:26.000
+Tohle je růst Wikipedie - jsme tahle modrá čára -
+
+00:03:26.000 --> 00:03:29.000
+a tamhle je New York Times.
+
+00:03:29.000 --> 00:03:32.000
+Zajímavé na tom je, že webové stránky New York Times jsou obrovské,
+
+00:03:32.000 --> 00:03:36.000
+s enormní firemní správou - nemám vůbec tušení kolika stovek zaměstnanců.
+
+00:03:36.000 --> 00:03:39.000
+My máme přesně jednoho zaměstnance
+
+00:03:39.000 --> 00:03:42.000
+a tím je náš hlavní vývojář softwaru.
+
+00:03:42.000 --> 00:03:45.000
+Je naším zaměstnancem teprve od ledna 2005.
+
+00:03:45.000 --> 00:03:47.000
+Všechno ostatní rostlo předtím.
+
+00:03:47.000 --> 00:03:50.000
+Servery udržuje plebsová banda dobrovolníků;
+
+00:03:50.000 --> 00:03:52.000
+všechny úpravy a editace dělají dobrovolníci.
+
+00:03:52.000 --> 00:03:54.000
+Nejsme organizováni žádným tradičním
+
+00:03:54.000 --> 00:03:57.000
+způsobem organizace, který si dokážete představit.
+
+00:03:57.000 --> 00:03:59.000
+Lidé se vždy ptají 'No a kdo tomu velí?'
+
+00:03:59.000 --> 00:04:04.000
+nebo 'Kdo to dělá?' Odpovědí je: každý, kdo chce přiložit ruku k dílu.
+
+00:04:04.000 --> 00:04:07.000
+Je to velice neobvyklá a chaotická záležitost.
+
+00:04:07.000 --> 00:04:10.000
+Máme teď [2005] přes 90 serverů ve třech lokalitách.
+
+00:04:10.000 --> 00:04:14.000
+Spravují je dobrovolníci - systémoví administrátoři - kteří jsou online.
+
+00:04:14.000 --> 00:04:17.000
+Můžu se připojit kdykoli ve dne v noci
+
+00:04:17.000 --> 00:04:21.000
+a uvidím 8-10 lidí, kteří na mě čekají,
+
+00:04:21.000 --> 00:04:25.000
+až se zeptám nebo tak, cokoli kolem serverů...
+
+00:04:25.000 --> 00:04:27.000
+Ve firmě byste si tohle nikdy nemohli dovolit dělat.
+
+00:04:27.000 --> 00:04:31.000
+Nikdy byste si nemohli dovolit mít personál, který je k dispozici
+
+00:04:31.000 --> 00:04:35.000
+24 hodin denně a dělá to, co děláme s Wikipedií.
+
+00:04:35.000 --> 00:04:38.000
+Máme asi 1,4 miliard zhlédnutí stránek za měsíc,
+
+00:04:38.000 --> 00:04:41.000
+opravdu se z toho stává něco velkého.
+
+00:04:41.000 --> 00:04:43.000
+A všechno spravují dobrovolníci.
+
+00:04:43.000 --> 00:04:48.000
+Celkové měsíční náklady za připojení a data se pohybují okolo 5000 dolarů.
+
+00:04:48.000 --> 00:04:50.000
+To je v zásadě naše hlavní nákladová položka.
+
+00:04:50.000 --> 00:04:53.000
+Obešli bychom se vlastně bez zaměstnance. Najali jsme vlastně
+
+00:04:53.000 --> 00:04:56.000
+Briana, protože 2 roky pracoval na poloviční úvazek
+
+00:04:56.000 --> 00:04:58.000
+a na plný ve Wikipedii,
+
+00:04:58.000 --> 00:05:02.000
+tak jsme ho najali, aby trochu žil a mohl si někdy zajít do kina.
+
+00:05:03.000 --> 00:05:06.000
+Velkou otázkou tak je, když máme takhle opravdu chaotickou organizaci,
+
+00:05:06.000 --> 00:05:10.000
+proč to všechno nestojí za starou belu? Proč je web tak dobrý jak je?
+
+00:05:10.000 --> 00:05:13.000
+Jak je tedy vůbec dobrý? No, dost dobrý. Není dokonalý,
+
+00:05:13.000 --> 00:05:16.000
+ale je mnohem, mnohem lepší, než byste v rámci
+
+00:05:16.000 --> 00:05:18.000
+našeho naprosto chaotického modelu čekali.
+
+00:05:18.000 --> 00:05:21.000
+Když vidíte někoho, jak absurdně upravuje stránku o mně,
+
+00:05:21.000 --> 00:05:25.000
+pomyslíte si 'Ouha, tohle jasně časem zdegeneruje do hovadností'.
+
+00:05:25.000 --> 00:05:29.000
+Když jsme ale viděli testy kvality - a ještě jich dost neproběhlo
+
+00:05:29.000 --> 00:05:31.000
+a opravdu pobízím lidi, aby jich dělali více,
+
+00:05:31.000 --> 00:05:35.000
+aby porovnávali Wikipedii s tradičními věcmi - vítězíme levou zadní.
+
+00:05:35.000 --> 00:05:38.000
+Německý časopis porovnával německou Wikipedii,
+
+00:05:38.000 --> 00:05:41.000
+která je opravdu mnohem, mnohem menší než anglická,
+
+00:05:41.000 --> 00:05:45.000
+s Microsoft Encarta a s Brockhaus Multimedia,
+
+00:05:45.000 --> 00:05:47.000
+a vyhráli jsme ve všech kategoriích.
+
+00:05:47.000 --> 00:05:50.000
+Najali si odborníky, aby se dívali na články a porovnávali kvalitu
+
+00:05:50.000 --> 00:05:53.000
+a ten výsledek nás velmi potěšil.
+
+00:05:53.000 --> 00:05:57.000
+Hodně lidí se doslechlo o sporu Bush-Kerry na Wikipedii.
+
+00:05:57.000 --> 00:06:01.000
+Média se tomu hodně zevrubně věnovala.
+
+00:06:01.000 --> 00:06:04.000
+Začalo to článkem v časopisu Red Herring.
+
+00:06:04.000 --> 00:06:07.000
+Volali mi reportéři a - musím říct,
+
+00:06:07.000 --> 00:06:12.000
+že hláskovali moje jméno správně, ale chtěli opravdu říct,
+
+00:06:12.000 --> 00:06:14.000
+že volby Bush-Kerry jsou tak kontroverzní,
+
+00:06:14.000 --> 00:06:18.000
+že trhají komunitu Wikipedie na půl. Citovali mě jak říkám:
+
+00:06:18.000 --> 00:06:21.000
+"Jsou nejkontroverznějšími v historii Wikipedie."
+
+00:06:21.000 --> 00:06:23.000
+Ve skutečnosti jsem řekl, že nejsou kontroverzní ani za mák.
+
+00:06:23.000 --> 00:06:29.000
+Nepatrně mě dezinterpretovali. (Smích) Články se upravovaly jak o život.
+
+00:06:29.000 --> 00:06:32.000
+Je pravda, že jsme museli při pár událostech články uzamknout.
+
+00:06:32.000 --> 00:06:35.000
+Časopis Time nedávno psal o tom, že
+
+00:06:35.000 --> 00:06:38.000
+"Je třeba někdy přijmout mimořádná opatření
+
+00:06:38.000 --> 00:06:43.000
+a Wales uzamkl editaci článků na téma Kerry a Bush skoro na celý rok 2004."
+
+00:06:43.000 --> 00:06:47.000
+To se stalo poté, co jsem tomu reportérovi řekl, že jsme je museli zamknout -
+
+00:06:47.000 --> 00:06:49.000
+příležitostně tu a tam.
+
+00:06:49.000 --> 00:06:52.000
+Pravda je obecně taková, že kontroverze,
+
+00:06:52.000 --> 00:06:56.000
+které byste si asi mysleli, že panují v rámci komunity Wikipedie,
+
+00:06:56.000 --> 00:06:58.000
+nejsou ve skutečnosti vůbec kontroverzemi.
+
+00:06:58.000 --> 00:07:01.000
+Články na polemická témata se hodně upravují,
+
+00:07:01.000 --> 00:07:04.000
+ale nepůsobí přílišné spory v rámci komunity.
+
+00:07:04.000 --> 00:07:09.000
+A to proto, že většina lidí chápe potřebu neutrality.
+
+00:07:11.000 --> 00:07:15.000
+Opravdový zápas není mezi pravičáky a levičáky -
+
+00:07:15.000 --> 00:07:17.000
+jak většina lidí předpokládá -
+
+00:07:17.000 --> 00:07:20.000
+ale mezi stranou zodpovědně myslících a stranou pitomců.
+
+00:07:20.000 --> 00:07:24.000
+A žádná ze stran politického spektra nemá ani na jednu z nich monopol.
+
+00:07:24.000 --> 00:07:28.000
+Skutečná pravda o konkrétním případě Bush-Kerry
+
+00:07:28.000 --> 00:07:30.000
+je ta, že články Bush-Kerry
+
+00:07:30.000 --> 00:07:33.000
+byly uzamčeny na méně než 1% času [3 dny] v roce 2004
+
+00:07:33.000 --> 00:07:35.000
+a nebylo to proto, že byly sporné;
+
+00:07:35.000 --> 00:07:38.000
+byl za tím zkrátka jen běžný vandalismus -
+
+00:07:38.000 --> 00:07:42.000
+což se někdy stává i na scéně, lidé -
+
+00:07:42.000 --> 00:07:45.000
+někdy dokonce i reportéři mi hlásili, že zpustošili Wikipedii
+
+00:07:45.000 --> 00:07:48.000
+a velice se divili, že se to tak rychle dalo do pořádku.
+
+00:07:48.000 --> 00:07:52.000
+A já říkal: 'Víte, vždycky říkám, nedělejte to prosím; to se nedělá.'
+
+00:07:52.000 --> 00:07:54.000
+Jak to tedy děláme?
+
+00:07:54.000 --> 00:07:56.000
+Jak zvládáme kontrolovat kvalitu?
+
+00:07:56.000 --> 00:07:59.000
+Jak to funguje?
+
+00:07:59.000 --> 00:08:02.000
+Je tu pár prvků,
+
+00:08:02.000 --> 00:08:05.000
+většinou pojistky v komunitě a některé prvky softwaru.
+
+00:08:05.000 --> 00:08:09.000
+Největší a nejdůležitější je naše politika nestrannosti.
+
+00:08:09.000 --> 00:08:12.000
+Tu jsem stanovil od samého začátku
+
+00:08:12.000 --> 00:08:16.000
+jako základní princip komunity, o kterém se nedebatuje.
+
+00:08:16.000 --> 00:08:19.000
+Je to sociální pojetí spolupráce,
+
+00:08:19.000 --> 00:08:23.000
+takže moc nemluvíme o pravdě a objektivitě.
+
+00:08:23.000 --> 00:08:27.000
+A to proto, že když řekneme, že budeme psát jen "pravdu" o nějakém tématu,
+
+00:08:27.000 --> 00:08:30.000
+v nejmenším nám to nenapoví co psát,
+
+00:08:30.000 --> 00:08:32.000
+protože se s vámi neshodnu na tom, co je pravda.
+
+00:08:32.000 --> 00:08:35.000
+Máme ale tento žargonový pojem neutrality,
+
+00:08:35.000 --> 00:08:37.000
+který sám o sobě má v rámci komunity dlouhou historii.
+
+00:08:37.000 --> 00:08:41.000
+V podstatě říká, že kdykoli jde o kontroverzní otázku,
+
+00:08:41.000 --> 00:08:44.000
+neměla by Wikipedie nikomu stranit.
+
+00:08:44.000 --> 00:08:47.000
+Měli bychom pouze informovat o tom, co seriózní strany o tom uvedly.
+
+00:08:47.000 --> 00:08:50.000
+Tato politika neutrality je pro nás opravdu důležitá,
+
+00:08:50.000 --> 00:08:54.000
+protože dává komunitě, která je velmi rozmanitá, možnost
+
+00:08:54.000 --> 00:08:56.000
+spojit síly a nějakou práci udělat.
+
+00:08:56.000 --> 00:08:59.000
+Máme velice různorodé přispěvatele co do zkušeností s politikou,
+
+00:08:59.000 --> 00:09:01.000
+náboženstvím a kulturou.
+
+00:09:01.000 --> 00:09:03.000
+Touto pevnou politikou neutrality,
+
+00:09:03.000 --> 00:09:05.000
+od které se od samého počátku neustupuje,
+
+00:09:05.000 --> 00:09:07.000
+zajišťujeme, že lidé spolu mohou pracovat
+
+00:09:07.000 --> 00:09:09.000
+a že se z příspěvků zkrátka nestane válka
+
+00:09:09.000 --> 00:09:12.000
+tam a zpátky mezi levičáky a pravičáky.
+
+00:09:12.000 --> 00:09:14.000
+Setkáme-li se s takovýmto chováním,
+
+00:09:14.000 --> 00:09:16.000
+komunita vás požádá, abyste odešel.
+
+00:09:17.000 --> 00:09:19.000
+Recenze v reálném čase.
+
+00:09:19.000 --> 00:09:22.000
+Každá změna na stránce je zaznamenána na stránku posledních změn.
+
+00:09:22.000 --> 00:09:25.000
+Jakmile někdo něco změní, zaznamená se to na stránce posledních úprav.
+
+00:09:25.000 --> 00:09:29.000
+Stránka posledních úprav také plní IRC kanál,
+
+00:09:29.000 --> 00:09:31.000
+což je kanál internetového klábosení,
+
+00:09:31.000 --> 00:09:33.000
+který lidé pomocí různých softwarových nástrojů sledují.
+
+00:09:35.000 --> 00:09:37.000
+Mohou ho sledovat v RSS kanálech -
+
+00:09:37.000 --> 00:09:40.000
+mohou dostávat e-mailové notifikace změn.
+
+00:09:40.000 --> 00:09:42.000
+Uživatelé si pak mohou založit svůj vlastní seznam toho, co chtění sledovat.
+
+00:09:42.000 --> 00:09:45.000
+Takže na moji stránku dává pozor pár dobrovolníků, kteří ji mají na seznamu,
+
+00:09:45.000 --> 00:09:47.000
+protože ji někdy lidi zpustoší.
+
+00:09:49.000 --> 00:09:53.000
+Dojde tedy k tomu, že si změny někdo hodně rychle všimne
+
+00:09:53.000 --> 00:09:57.000
+a pak ji zkrátka vrátí zpět.
+
+00:09:57.000 --> 00:09:59.000
+Máme například i RSS vlákno nových stránek,
+
+00:09:59.000 --> 00:10:01.000
+takže můžete rozkliknout určitou stránku Wikipedie
+
+00:10:01.000 --> 00:10:03.000
+a uvidíte každou novou stránku, co právě někdo vytvořil.
+
+00:10:03.000 --> 00:10:05.000
+Ta je opravdu důležitá, protože hodně nových stránek, co se vytvoří,
+
+00:10:05.000 --> 00:10:08.000
+je jenom smetí, které se musí mazat, typu ASDFASDF.
+
+00:10:08.000 --> 00:10:11.000
+Je to ale také jedna z nejzajímavějších a legračních věcí na Wikipedii -
+
+00:10:11.000 --> 00:10:13.000
+některé nové články.
+
+00:10:13.000 --> 00:10:15.000
+Lidé začnou psát článek o nějakém zajímavém tématu,
+
+00:10:15.000 --> 00:10:17.000
+jiným přijde úchvatný,
+
+00:10:17.000 --> 00:10:19.000
+rychle zareagují, pomohou a rozvedou ho a udělají ho mnohem lepší.
+
+00:10:19.000 --> 00:10:21.000
+Anonymní uživatelé nám tak upravují články,
+
+00:10:21.000 --> 00:10:25.000
+což je jedna z nejkontroverznějších a nejvíce fascinujících věcí na Wikipedii.
+
+00:10:25.000 --> 00:10:29.000
+Takhle Chris něco změnil - nemusel se přihlašovat nebo něco takového;
+
+00:10:29.000 --> 00:10:32.000
+jen zabrouzdal na stránku a pozměnil ji.
+
+00:10:32.000 --> 00:10:35.000
+Ukázalo se však, že okolo 18 % všech úprav webu
+
+00:10:35.000 --> 00:10:37.000
+dělají anonymní uživatelé.
+
+00:10:37.000 --> 00:10:39.000
+A tomu je opravdu třeba rozumět:
+
+00:10:39.000 --> 00:10:42.000
+drtivá většina úprav webu Wikipedie
+
+00:10:42.000 --> 00:10:46.000
+pochází od velice semknuté komunity přibližně 600 až 1000 lidí,
+
+00:10:46.000 --> 00:10:48.000
+kteří jsou spolu v neustálém kontaktu.
+
+00:10:48.000 --> 00:10:50.000
+Máme přes 40 IRC kanálu, 40 seznamů mailových adres.
+
+00:10:50.000 --> 00:10:54.000
+Všichni tito lidé se vzájemně znají. Komunikují; máme setkání offline.
+
+00:10:54.000 --> 00:10:56.000
+To jsou ti, kteří dělají rozhodující část webu
+
+00:10:56.000 --> 00:11:01.000
+a jsou to tak trochu semi-profesionálové v tom, co dělají,
+
+00:11:01.000 --> 00:11:05.000
+protože standardy, které si stanovujeme, jsou stejné či vyšší
+
+00:11:05.000 --> 00:11:07.000
+než profesionální standardy kvality.
+
+00:11:07.000 --> 00:11:09.000
+Vždy jich nedosáhneme,
+
+00:11:09.000 --> 00:11:11.000
+ale usilujeme o ně.
+
+00:11:11.000 --> 00:11:14.000
+Je to tedy úzká komunita, která se o stránku stará
+
+00:11:14.000 --> 00:11:16.000
+a jsou to jedni z nejchytřejších lidí, které jsem kdy potkal.
+
+00:11:16.000 --> 00:11:18.000
+Je samozřejmě mou prací to říkat, ale je to vlastně tak.
+
+00:11:18.000 --> 00:11:22.000
+Tací lidé, které přitáhne psát encyklopedii pro zábavu,
+
+00:11:22.000 --> 00:11:24.000
+jsou obvykle dost chytří. (Smích)
+
+00:11:25.000 --> 00:11:27.000
+Nástroje a software: je tu celá řada nástrojů, které nám umožňují -
+
+00:11:27.000 --> 00:11:31.000
+myslím komunitě - sami se monitorovat a sledovat všechnu práci.
+
+00:11:31.000 --> 00:11:33.000
+Tohle je příklad historie stránky na téma "plochá země"
+
+00:11:33.000 --> 00:11:36.000
+a můžete vidět, že doznala několika změn.
+
+00:11:36.000 --> 00:11:39.000
+To je na té stránce pěkné - můžete se na ni podívat
+
+00:11:39.000 --> 00:11:41.000
+a okamžitě vidíte... 'Dobrá, chápu..'
+
+00:11:41.000 --> 00:11:44.000
+Když se na ni někdo podívá - uvidí, že někdo
+
+00:11:44.000 --> 00:11:46.000
+s anonymní IP adresou mou stránku upravil -
+
+00:11:46.000 --> 00:11:49.000
+zní to podezřele - kdo je ta osoba? Někdo se na to podívá
+
+00:11:49.000 --> 00:11:53.000
+a okamžitě vidí červeně všechny změny,
+
+00:11:53.000 --> 00:11:57.000
+vidí 'Dobrá, tahle slova se změnila' a takové věci.
+
+00:11:57.000 --> 00:12:02.000
+To je jeden nástroj, který můžeme velmi rychle použít ke sledování historie stránky.
+
+00:12:02.000 --> 00:12:05.000
+Dalším co v rámci komunity děláme je,
+
+00:12:05.000 --> 00:12:08.000
+že necháváme vše velmi otevřené, pevně nestanovené.
+
+00:12:08.000 --> 00:12:12.000
+Většina sociálních pravidel a metod práce
+
+00:12:12.000 --> 00:12:14.000
+je ponechána v softwaru naprosto otevřená.
+
+00:12:14.000 --> 00:12:16.000
+Všechen ten materiál je jen tak na Wiki stránkách.
+
+00:12:16.000 --> 00:12:19.000
+V softwaru tedy není nic, co by vnucovalo pravidla.
+
+00:12:19.000 --> 00:12:22.000
+Mám tu příklad stránky Hlasů pro smazání.
+
+00:12:23.000 --> 00:12:26.000
+Už jsem to zmínil, lidé napíší ASDFASDF -
+
+00:12:26.000 --> 00:12:29.000
+je třeba to smazat. Tyto případy administrátoři prostě smažou.
+
+00:12:29.000 --> 00:12:31.000
+O nich není třeba se moc dohadovat.
+
+00:12:31.000 --> 00:12:35.000
+Dovedete si ale představit, že je i spousta jiných oblastí, kde vyvstává otázka,
+
+00:12:35.000 --> 00:12:37.000
+zda je to dostatečně významné pro to, aby to vstoupilo do encyklopedie?
+
+00:12:37.000 --> 00:12:41.000
+Je ta informace ověřitelná? Je to žertík? Je pravdivá? Jaká je?
+
+00:12:41.000 --> 00:12:44.000
+Potřebovali jsme tedy sociální metodu, jak na to najít odpověď.
+
+00:12:44.000 --> 00:12:47.000
+A metodou, která organicky vzešla z komunity,
+
+00:12:47.000 --> 00:12:49.000
+je stránka Hlasy pro smazání.
+
+00:12:49.000 --> 00:12:51.000
+Konkrétní příklad: máme tu film
+
+00:12:51.000 --> 00:12:53.000
+Twisted Issues a první člověk říká:
+
+00:12:53.000 --> 00:12:57.000
+'Je to údajně film. V Google testu vůbec neobstál.'
+
+00:12:57.000 --> 00:13:00.000
+Google test je, že se podíváte na Google a uvidíte, zda tam je,
+
+00:13:00.000 --> 00:13:04.000
+protože když něco není ani v Googlu, tak to patrně vůbec neexistuje.
+
+00:13:04.000 --> 00:13:08.000
+To pravidlo není dokonalé, ale dá se od něj odpíchnout ke krátkému zkoumání.
+
+00:13:09.000 --> 00:13:12.000
+Někdo řekne 'Smažte to, prosím. Smazat - nestojí za povšimnutí.'
+
+00:13:12.000 --> 00:13:14.000
+A pak přijde někdo: 'Počkat, počkat, našel jsem to.
+
+00:13:14.000 --> 00:13:16.000
+Našel jsem to v knize 'Videoprůvodce ohroženými filmy:
+
+00:13:16.000 --> 00:13:18.000
+20 podzemních filmů, které musíte vidět.'
+
+00:13:18.000 --> 00:13:20.000
+Dobře. Někdo další napíše 'Smažte to.'
+
+00:13:20.000 --> 00:13:24.000
+Někdo řekne 'Našel jsem to na IMDB [internetová databáze filmů]. Nechat, nechat.'
+
+00:13:24.000 --> 00:13:27.000
+To je zajímavé, software je...
+
+00:13:27.000 --> 00:13:30.000
+tyhle hlasy jsou jen jako text napsané na stránku.
+
+00:13:30.000 --> 00:13:35.000
+Není to tak ani hlasování jako spíše dialog.
+
+00:13:35.000 --> 00:13:37.000
+Je fakt, že nakonec
+
+00:13:37.000 --> 00:13:40.000
+to administrátor projde, podívá se na to a řekne si
+
+00:13:40.000 --> 00:13:43.000
+Dobrá, 18x smazat, 2x ponechat --&gt; smažeme to.
+
+00:13:43.000 --> 00:13:48.000
+V jiných případech to ale může být 18x smazat a 2x ponechat a necháme to,
+
+00:13:48.000 --> 00:13:50.000
+protože když ty poslední 2 hlasy pro ponechat řeknou 'Počkejte moment.
+
+00:13:50.000 --> 00:13:52.000
+Nikdo to neviděl, ale já jsem to našel v jedné knize
+
+00:13:52.000 --> 00:13:56.000
+a našel jsem odkaz na jednu stránku, co to popisuje; uklidím to zítra,
+
+00:13:56.000 --> 00:13:59.000
+nemažte to prosím,' pak to přežije.
+
+00:13:59.000 --> 00:14:01.000
+Záleží také na tom, kdo jsou ti hlasující lidé.
+
+00:14:01.000 --> 00:14:03.000
+Jak říkám, je to úzce spjatá komunita.
+
+00:14:03.000 --> 00:14:05.000
+Tady dole, 'Nechat, skutečný film,' Rick Kay
+
+00:14:05.000 --> 00:14:08.000
+Rick Kay je velmi známý Wikipedista,
+
+00:14:08.000 --> 00:14:11.000
+který dělá obrovskou práci v zápase s vandalismem, vtípky
+
+00:14:11.000 --> 00:14:13.000
+a hlasy na smazání.
+
+00:14:13.000 --> 00:14:16.000
+Jeho hlas má v rámci komunity velkou váhu,
+
+00:14:16.000 --> 00:14:18.000
+protože ví, co dělá.
+
+00:14:18.000 --> 00:14:20.000
+Jak se to tedy celé řídí?
+
+00:14:20.000 --> 00:14:24.000
+Lidé to chtějí vědět. Dobrá, administrátoři atp.
+
+00:14:24.000 --> 00:14:28.000
+Model řízení Wikipedie, řízení komunity
+
+00:14:28.000 --> 00:14:32.000
+je velice matoucí, ale fungující mix konsenzu.
+
+00:14:32.000 --> 00:14:34.000
+Nesnažíme se hlasovat o obsahu článků,
+
+00:14:34.000 --> 00:14:38.000
+protože pohled většiny není nutně neutrální;
+
+00:14:38.000 --> 00:14:40.000
+nějaké míry demokracie, všichni administrátoři
+
+00:14:40.000 --> 00:14:43.000
+což jsou lidé, kteří jsou způsobilí mazat stránky.
+
+00:14:43.000 --> 00:14:45.000
+Nutně to neznamená, že mají právo stránky mazat;
+
+00:14:45.000 --> 00:14:48.000
+stále podléhají všem pravidlům - jsou ale zvolení;
+
+00:14:48.000 --> 00:14:50.000
+jsou zvolení komunitou. Někdy lidé -
+
+00:14:50.000 --> 00:14:54.000
+náhodní provokatéři (trollové) na internetu - mě rádi obviňují z toho, že je pečlivě vybírám,
+
+00:14:54.000 --> 00:14:56.000
+abych zkreslil obsah encyklopedie.
+
+00:14:56.000 --> 00:15:00.000
+Vždy se tomu směju, protože vlastně vůbec nemám představu, jak jsou voleni.
+
+00:15:00.000 --> 00:15:02.000
+Je tam i jistá dávka aristokracie.
+
+00:15:02.000 --> 00:15:05.000
+Náznakem může být to, jak jsem zmínil Ricka Kaye,
+
+00:15:05.000 --> 00:15:08.000
+jehož hlas bude vážit mnohem víc než hlas někoho, koho neznáme.
+
+00:15:08.000 --> 00:15:12.000
+Mám čas od času řeč s Angelou, kterou právě znovuzvolili
+
+00:15:12.000 --> 00:15:15.000
+do výboru komunity - do výboru Nadace.
+
+00:15:15.000 --> 00:15:19.000
+Dostala 2x více hlasů než její protikandidát.
+
+00:15:19.000 --> 00:15:23.000
+Vždy ji přivedu do rozpaků, protože například Angele
+
+00:15:23.000 --> 00:15:26.000
+by prošlo v rámci Wikipedie téměř cokoli,
+
+00:15:26.000 --> 00:15:28.000
+jelikož ji tak obdivují a je tak významná.
+
+00:15:28.000 --> 00:15:32.000
+Ironií však je, že Angela by to mohla udělat proto, že ona jediná
+
+00:15:32.000 --> 00:15:35.000
+by za Boha nikdy neporušila ani jediné pravidlo Wikipedie.
+
+00:15:35.000 --> 00:15:38.000
+Rád vám také povím, že je jediným člověkem,
+
+00:15:38.000 --> 00:15:41.000
+který vlastně všechna pravidla Wikipedie zná.
+
+00:15:41.000 --> 00:15:45.000
+No a pak je monarcha, a to je moje úloha v komunitě.
+
+00:15:46.000 --> 00:15:51.000
+Kdysi jsem to popisoval v Berlíně a příští den
+
+00:15:51.000 --> 00:15:54.000
+stálo v novinách: "Já jsem králem Anglie."
+
+00:15:54.000 --> 00:15:57.000
+Není to úplně to, co jsem řekl (Smích), ale -
+
+00:15:59.000 --> 00:16:01.000
+mojí úlohou v komunitě -
+
+00:16:01.000 --> 00:16:04.000
+v rámci světa svobodného softwaru
+
+00:16:04.000 --> 00:16:09.000
+panuje dlouholetá tradice modelu "benevolentního diktátora".
+
+00:16:09.000 --> 00:16:12.000
+Podíváte-li se na většinu hlavních projektů svobodného softwaru,
+
+00:16:12.000 --> 00:16:14.000
+mají jednu osobu v čele,
+
+00:16:14.000 --> 00:16:17.000
+se kterou každý souhlasí coby benevolentním diktátorem.
+
+00:16:17.000 --> 00:16:20.000
+Výraz "benevolentní diktátor" se mi nelíbí
+
+00:16:20.000 --> 00:16:23.000
+a nemyslím si, že je mým úkolem nebo mojí rolí ve světě myšlenek
+
+00:16:23.000 --> 00:16:28.000
+být diktátorem budoucnosti všelidského vědění, které svět shromáždil.
+
+00:16:28.000 --> 00:16:30.000
+Není to zkrátka adekvátní.
+
+00:16:30.000 --> 00:16:33.000
+Přesto tu ale je jistá potřeba určité míry monarchie,
+
+00:16:33.000 --> 00:16:36.000
+jisté míry - někdy se musí rozhodnout
+
+00:16:36.000 --> 00:16:39.000
+a nechceme se bořit do hlubokých bažin
+
+00:16:39.000 --> 00:16:41.000
+formálních rozhodovacích procesů.
+
+00:16:41.000 --> 00:16:45.000
+Jako příklad toho, proč to bylo
+
+00:16:45.000 --> 00:16:47.000
+nebo může být důležité:
+
+00:16:47.000 --> 00:16:50.000
+nedávno jsme řešili situaci, kdy neonacistický web objevil Wikipedii,
+
+00:16:50.000 --> 00:16:55.000
+a řekli si 'No teda, to je hrůza tenhle web židovskýho spiknutí,
+
+00:16:55.000 --> 00:16:58.000
+smažeme konkrétní články, co se nám nelíbí.
+
+00:16:58.000 --> 00:17:00.000
+Vidíme, že mají proces hlasování, takže tam pošleme -
+
+00:17:00.000 --> 00:17:04.000
+máme 40 000 členů, tak je tam pošleme
+
+00:17:04.000 --> 00:17:06.000
+ať zahlasují a ty stránky smažou.'
+
+00:17:06.000 --> 00:17:09.000
+No... Sehnali 18 lidí.
+
+00:17:09.000 --> 00:17:11.000
+Tak asi umějí neonacisti počítat, pro vaši představu.
+
+00:17:11.000 --> 00:17:14.000
+Vždy si mysleli, že mají 40 000 členů, když jich je 18.
+
+00:17:14.000 --> 00:17:19.000
+Zvládli ale dostat na náš web 18 lidí, kteří na něm hlasovali celkem absurdně
+
+00:17:19.000 --> 00:17:21.000
+pro smazání dokonale opodstatněného článku.
+
+00:17:21.000 --> 00:17:24.000
+Hlasování samozřejmě skončilo 85:18,
+
+00:17:24.000 --> 00:17:27.000
+takže žádné reálné nebezpečí pro naše demokratické procesy.
+
+00:17:27.000 --> 00:17:30.000
+Na druhou stranu lidé říkali 'Co si s tím ale počneme?
+
+00:17:30.000 --> 00:17:34.000
+Mohlo by se to stát, a co když se nějaká skupina opravdu vážně zorganizuje
+
+00:17:34.000 --> 00:17:36.000
+přijde k nám a bude chtít hlasovat?'
+
+00:17:36.000 --> 00:17:39.000
+Já na to: "Na to se vyse*te, změníme prostě pravidla."
+
+00:17:39.000 --> 00:17:44.000
+To je moje úloha v komunitě: říct, že nedovolíme, aby naše otevřenost
+
+00:17:44.000 --> 00:17:47.000
+a svoboda podkopala kvalitu obsahu.
+
+00:17:47.000 --> 00:17:50.000
+A pokud mi lidé budou v mé úloze důvěřovat,
+
+00:17:50.000 --> 00:17:52.000
+jsem na tom místě správně.
+
+00:17:52.000 --> 00:17:56.000
+Samozřejmě, kvůli volné licenci, když budu odvádět špatnou práci,
+
+00:17:56.000 --> 00:17:58.000
+dobrovolníci velice rádi odejdou jinam -
+
+00:17:58.000 --> 00:18:00.000
+nemohu nikomu říkat, co má dělat.
+
+00:18:00.000 --> 00:18:04.000
+Závěrem chci, aby bylo jasné, jak Wikipedia funguje.
+
+00:18:04.000 --> 00:18:08.000
+Je důležité pochopit, že náš Wiki model je způsob, jakým pracujeme,
+
+00:18:08.000 --> 00:18:12.000
+nejsme ale fanatičtí weboví anarchisté.
+
+00:18:12.000 --> 00:18:15.000
+Jsme velmi flexibilní co se týče metodologie práce s lidmi,
+
+00:18:15.000 --> 00:18:19.000
+protože komunita je především vášnivě zapálena pro kvalitu práce,
+
+00:18:19.000 --> 00:18:23.000
+nikoli nutně pro proces, kterým ji vytváříme.
+
+00:18:23.000 --> 00:18:25.000
+Děkuji.
+
+00:18:25.000 --> 00:18:28.000
+(Potlesk)
+
+00:18:28.000 --> 00:18:30.000
+[Ben Saunders:] Ano, ahoj - Ben Saunders.
+
+00:18:30.000 --> 00:18:34.000
+Jimmy, zmínils nestrannost jako klíč k úspěchu Wikipedie.
+
+00:18:34.000 --> 00:18:38.000
+Napadá mě, že hodně učebnic,
+
+00:18:38.000 --> 00:18:41.000
+které vzdělávají naše děti, jsou ze své podstaty neobjektivní.
+
+00:18:41.000 --> 00:18:45.000
+Zjistil jsi, že Wikipedii používají učitelé.
+
+00:18:45.000 --> 00:18:47.000
+Jak vidíš Wikipedii v souvislosti se změnou vzdělávání?
+
+00:18:47.000 --> 00:18:52.000
+[Jimmy Wales:] Ano, hodně učitelů začíná Wikipedii používat.
+
+00:18:52.000 --> 00:18:56.000
+V médiích se píše o Wikipedii určitým způsobem a myslím, že špatně.
+
+00:18:56.000 --> 00:18:59.000
+Pojednávají ji v zarámování blogeři versus noviny.
+
+00:18:59.000 --> 00:19:03.000
+Mezi řádky se tam říká: Nějaká šílenost, Wikipedie nebo co,
+
+00:19:03.000 --> 00:19:09.000
+ale akademici ji nenávidí a učitelé také. Ukazuje se, že to není pravda.
+
+00:19:09.000 --> 00:19:11.000
+Posledně mi psal nějaký novinář:
+
+00:19:11.000 --> 00:19:13.000
+'Proč akademici nenávidí Wikipedii?'
+
+00:19:13.000 --> 00:19:15.000
+Odepsal jsem mu z harvardské emailové adresy,
+
+00:19:15.000 --> 00:19:17.000
+protože jsem tam byl poslední dobou jako vědecký pracovník.
+
+00:19:17.000 --> 00:19:20.000
+Napsal jsem mu: "Ne všichni ji nenávidí." (Smích)
+
+00:19:20.000 --> 00:19:23.000
+Myslím si ale, že bude mít obrovský vliv.
+
+00:19:23.000 --> 00:19:25.000
+Pracujeme vlastně na projektu,
+
+00:19:25.000 --> 00:19:27.000
+z kterého jsem osobně vážně nadšený.
+
+00:19:27.000 --> 00:19:29.000
+Je to projekt Wiki knihy,
+
+00:19:29.000 --> 00:19:31.000
+což je snaha vytvořit učebnice ve všech jazycích.
+
+00:19:31.000 --> 00:19:33.000
+A to je mnohem větší projekt;
+
+00:19:33.000 --> 00:19:37.000
+potrvá přibližně 20 let, než ho uskutečníme.
+
+00:19:37.000 --> 00:19:39.000
+Část toho však naplní naše poslání
+
+00:19:39.000 --> 00:19:42.000
+dát encyklopedii každému člověku na zemi.
+
+00:19:42.000 --> 00:19:45.000
+Nemáme na mysli je spamovat reklamními CDéčky.
+
+00:19:45.000 --> 00:19:48.000
+Myslíme tím, že jim dáme nástroj, který mohou používat.
+
+00:19:48.000 --> 00:19:50.000
+Mnoha lidem na světě,
+
+00:19:50.000 --> 00:19:52.000
+když jim dám encyklopedii psanou na univerzitní úrovni,
+
+00:19:52.000 --> 00:19:54.000
+nebude jim k ničemu
+
+00:19:54.000 --> 00:19:56.000
+bez spousty gramotnostních materiálů,
+
+00:19:56.000 --> 00:19:58.000
+po kterých se dostanou až do úrovně, ve které ji můžete skutečně využít.
+
+00:19:58.000 --> 00:20:01.000
+A projekt Wiki knih je snahou o toto.
+
+00:20:01.000 --> 00:20:03.000
+Myslím si, že uvidíme opravdu velký skok -
+
+00:20:03.000 --> 00:20:04.000
+nemusí vzejít ani od nás;
+
+00:20:04.000 --> 00:20:06.000
+rodí se spousta inovací.
+
+00:20:06.000 --> 00:20:10.000
+Nicméně učebnice s volnou licencí jsou budoucím milníkem ve vzdělání.
+

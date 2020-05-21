@@ -1,0 +1,431 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Gabi Ghinchevici
+Corector: Ariana Bleau Lugo
+
+00:00:12.704 --> 00:00:16.209
+Eu și studenții mei
+lucrăm cu roboței foarte mici.
+
+00:00:16.209 --> 00:00:18.426
+Îi puteți considera
+niște versiuni robotizate
+
+00:00:18.426 --> 00:00:22.016
+a ceva ce vă e cunoscut: o furnică.
+
+00:00:22.016 --> 00:00:25.166
+Cu toții știm că furnicile
+și alte insecte de aceeași mărime
+
+00:00:25.166 --> 00:00:27.012
+pot face lucruri incredibile.
+
+00:00:27.012 --> 00:00:30.197
+Cu toții am văzut un grup de furnici
+sau ceva similar,
+
+00:00:30.197 --> 00:00:34.467
+tîrînd un chips de cartofi 
+cînd sunteți la un picnic, de exemplu.
+
+00:00:34.467 --> 00:00:38.360
+Dar care sunt greutățile 
+în conceperea acestor furnici?
+
+00:00:38.360 --> 00:00:42.111
+Mai întîi, cum implementăm
+abilitatea unei singure furnici
+
+00:00:42.111 --> 00:00:43.909
+într-un robot de aceeași mărime?
+
+00:00:43.909 --> 00:00:46.513
+Întîi trebuie să descoperim
+cum să le facem să miște
+
+00:00:46.513 --> 00:00:47.923
+cînd sunt atît de mici.
+
+00:00:47.923 --> 00:00:50.533
+E nevoie de mecanisme 
+ca picioare și motoare eficiente
+
+00:00:50.533 --> 00:00:52.072
+să susțină această locomoție.
+
+00:00:52.072 --> 00:00:55.073
+Mai e nevoie de senzori, 
+sursă de energie și control
+
+00:00:55.073 --> 00:00:58.665
+pentru a le comasa pe toate
+într-o furnică robot semi-inteligentă.
+
+00:00:58.665 --> 00:01:01.071
+În fine, ca toate să fie funcționale,
+
+00:01:01.071 --> 00:01:05.019
+trebuie ca mai multe furnici
+să coopereze ca să facă lucruri mai mari.
+
+00:01:05.019 --> 00:01:07.710
+Deci voi începe cu mobilitatea.
+
+00:01:07.710 --> 00:01:10.771
+Insectele se mișcă incredibil de bine.
+
+00:01:10.771 --> 00:01:12.469
+Iată un clip de la UC Berkeley:
+
+00:01:12.469 --> 00:01:16.002
+un gîndac de bucătărie se mișcă
+pe o suprafață plină de obstacole
+
+00:01:16.002 --> 00:01:17.195
+fără să se răstoarne.
+
+00:01:17.195 --> 00:01:21.192
+Și face asta pentru că picioarele
+sunt o combinație de materiale rigide,
+
+00:01:21.192 --> 00:01:23.735
+ceea ce folosim de obicei la roboți,
+
+00:01:23.735 --> 00:01:25.944
+și materiale moi.
+
+00:01:26.374 --> 00:01:30.201
+Și săritul e o metodă eficientă
+de a te deplasa cînd ești mic.
+
+00:01:30.201 --> 00:01:33.710
+Aceste insecte stochează energie 
+într-un arc, eliberînd-o foarte rapid
+
+00:01:33.710 --> 00:01:38.281
+pentru a obține forța mare necesară 
+pentru a sări din apă, de exemplu.
+
+00:01:38.281 --> 00:01:41.403
+O contribuție majoră în laboratorul meu
+
+00:01:41.403 --> 00:01:44.573
+a fost de a combina
+materiale rigide și moi
+
+00:01:44.573 --> 00:01:46.367
+în mecanisme foarte mici.
+
+00:01:46.367 --> 00:01:51.222
+Acest mecanism de sărit are
+4 mm pe laterală, deci minuscul.
+
+00:01:51.222 --> 00:01:55.058
+Materialul rigid aici e siliciul,
+și cel moale e cauciucul siliconic.
+
+00:01:55.058 --> 00:01:57.953
+În esență, o să le comprimăm,
+
+00:01:57.953 --> 00:02:01.204
+stocăm energie în arc,
+și apoi o eliberăm pentru a sări.
+
+00:02:01.204 --> 00:02:04.037
+Nu există nici motor,
+nici sursă de energie.
+
+00:02:04.037 --> 00:02:06.800
+E acționată printr-o metodă 
+pe care în laborator o numim:
+
+00:02:06.800 --> 00:02:09.472
+„masterand cu pensetă”
+(Rîsete)
+
+00:02:09.472 --> 00:02:11.306
+Veți vedea în următorul video
+
+00:02:11.306 --> 00:02:14.333
+un student căruia îi reușește
+să producă aceste sărituri.
+
+00:02:14.333 --> 00:02:17.947
+Acesta e Aaron, masterandul cu pensetă,
+
+00:02:17.947 --> 00:02:20.630
+și ce vedeți e un mecanism de 4 mm
+
+00:02:20.630 --> 00:02:22.841
+care sare la 40 cm înălțime,
+
+00:02:22.841 --> 00:02:25.265
+de 100 de ori cît propria lungime.
+
+00:02:25.265 --> 00:02:27.221
+Și supraviețuiește, țopăie pe masă,
+
+00:02:27.221 --> 00:02:30.385
+e incredibil de robust
+și desigur supraviețuiește mult
+
+00:02:30.385 --> 00:02:33.361
+pînă îl pierdem, pentru că e foarte mic.
+
+00:02:33.361 --> 00:02:35.970
+Pînă la urmă dorim totuși
+să-i adăugăm și motoare
+
+00:02:35.970 --> 00:02:39.506
+Avem studenți în laborator
+care lucrează pe motoare milimetrice
+
+00:02:39.506 --> 00:02:42.686
+pe care să le integreze
+în mici roboți autonomi.
+
+00:02:42.686 --> 00:02:46.267
+Însă ca să rezolvăm mobilitatea
+și locomoția la această scară
+
+00:02:46.267 --> 00:02:48.241
+trișăm și utilizăm magneți.
+
+00:02:48.241 --> 00:02:51.317
+Iată cum va arăta
+o parte a unui picior micro-robotic,
+
+00:02:51.317 --> 00:02:53.714
+vedeți articulațiile 
+din cauciuc siliconic
+
+00:02:53.714 --> 00:02:58.263
+și magnetul încorporat 
+mișcat de un cîmp magnetic extern.
+
+00:02:58.266 --> 00:03:00.949
+Așa am realizat robotul
+pe care l-ați văzut înainte.
+
+00:03:01.959 --> 00:03:04.940
+E interesant că acest robot
+ne ajută să aflăm
+
+00:03:04.940 --> 00:03:07.117
+cum se mișcă insectele așa mici.
+
+00:03:07.117 --> 00:03:09.342
+Avem un model foarte bun de locomoție
+
+00:03:09.342 --> 00:03:11.304
+de la un gîndac pînă la un elefant.
+
+00:03:11.304 --> 00:03:14.228
+Cu toții ne mișcăm într-un
+mod săltăreț cînd fugim.
+
+00:03:14.228 --> 00:03:18.513
+Dar cînd sunt foarte mic, 
+forțele dintre picioare și pămînt
+
+00:03:18.513 --> 00:03:21.288
+îmi afectează locomoția
+mult mai mult decît masa,
+
+00:03:21.288 --> 00:03:23.642
+provocînd acea mișcare săltăreață.
+
+00:03:23.642 --> 00:03:25.317
+Acest gîndac încă nu se mișcă,
+
+00:03:25.317 --> 00:03:28.392
+însă avem versiuni mai mari
+care se pot mișca.
+
+00:03:28.392 --> 00:03:32.387
+Ăștia sunt de 1 cm cub
+1 cm pe laterală, foarte mici.
+
+00:03:32.387 --> 00:03:35.219
+I-am făcut să alerge
+10 lungimi de corp pe secundă,
+
+00:03:35.219 --> 00:03:36.565
+deci 10 cm pe secundă.
+
+00:03:36.565 --> 00:03:38.938
+E destul de rapid 
+pentru un roboțel atît de mic
+
+00:03:38.938 --> 00:03:40.960
+și e limitat doar de setarea de probă.
+
+00:03:40.960 --> 00:03:43.607
+Vă puteți face o idee despre cum merge.
+
+00:03:44.027 --> 00:03:48.161
+Putem face și versiuni imprimate 3D
+ce pot depăși obstacole
+
+00:03:48.161 --> 00:03:51.280
+ca gîndacul pe care l-ați văzut anterior.
+
+00:03:51.280 --> 00:03:54.546
+Dar în final vrem
+să adăugăm de toate robotului.
+
+00:03:54.546 --> 00:03:58.159
+Dorim senzori, energie, control,
+mișcare, toate la un loc,
+
+00:03:58.159 --> 00:04:00.765
+și nu e nevoie să fie totul 
+de inspirație biologică.
+
+00:04:00.765 --> 00:04:03.900
+Acest robot e de mărimea unui Tic-Tac.
+
+00:04:03.900 --> 00:04:07.849
+În acest caz, în loc de magneți
+sau mușchi care să miște totul,
+
+00:04:07.849 --> 00:04:10.274
+utilizăm rachete.
+
+00:04:10.274 --> 00:04:12.940
+Iată un material energetic
+micro-fabricat,
+
+00:04:12.940 --> 00:04:15.539
+cu care putem crea pixeli minusculi.
+
+00:04:15.539 --> 00:04:19.326
+Punem unul din acei pixeli
+pe burta robotului,
+
+00:04:19.326 --> 00:04:23.722
+și robotul sare cînd percepe 
+o creștere în intensitatea luminii.
+
+00:04:24.645 --> 00:04:26.618
+Următorul video e favoritul meu.
+
+00:04:26.618 --> 00:04:29.658
+Avem un robot de 300 mg
+
+00:04:29.658 --> 00:04:32.414
+care sare la aproape 8 cm în aer.
+
+00:04:32.414 --> 00:04:34.974
+E numai 4 x 4 x 7 mm.
+
+00:04:34.974 --> 00:04:38.630
+Și o să vedeți un bliț la început
+cînd e declanșată energia
+
+00:04:38.630 --> 00:04:40.530
+și robotul se rostogolește prin aer.
+
+00:04:40.530 --> 00:04:45.339
+Iată blițul puternic,
+și iată robotul sărind în aer.
+
+00:04:45.339 --> 00:04:48.368
+Nu are suporturi, nici fire conectate.
+
+00:04:48.368 --> 00:04:50.862
+Totul e compact și sare ca răspuns
+
+00:04:50.862 --> 00:04:55.243
+la lumina veiozei 
+pe care o aprinde studentul.
+
+00:04:55.243 --> 00:04:58.897
+Vă imaginați toate lucrurile interesante
+pe care le putem face
+
+00:04:58.897 --> 00:05:03.604
+cu roboți de această mărime ce pot fugi,
+se pot tîrî, sări și rostogoli.
+
+00:05:03.604 --> 00:05:07.394
+Imaginați-vă molozul de după
+un cataclism natural sau un cutremur.
+
+00:05:07.394 --> 00:05:09.953
+Imaginați-vă mici roboței 
+alergînd prin moloz
+
+00:05:09.953 --> 00:05:12.171
+să caute supraviețuitori.
+
+00:05:12.171 --> 00:05:15.127
+Sau imaginați-vă o mulțime de roboței
+care fug pe un pod
+
+00:05:15.127 --> 00:05:17.156
+ca să verifice dacă e în siguranță
+
+00:05:17.156 --> 00:05:19.326
+ca să nu se întîmple prăbușiri ca aceea
+
+00:05:19.326 --> 00:05:23.233
+care s-a petrecut în Minneapolis în 2007.
+
+00:05:23.233 --> 00:05:24.995
+Sau imaginați-vă ce ați putea face
+
+00:05:24.995 --> 00:05:27.518
+dacă ați avea roboți
+care v-ar putea înota prin sînge.
+
+00:05:27.518 --> 00:05:29.851
+„Călătorie fantastică”, Isaac Asimov.
+
+00:05:29.851 --> 00:05:34.206
+Ar putea opera fără să recurgă
+la incizie chirurgicală.
+
+00:05:34.206 --> 00:05:37.526
+Sau am putea schimba radical
+modul în care construim
+
+00:05:37.526 --> 00:05:40.343
+dacă avem roboței
+care să lucreze ca termitele.
+
+00:05:40.343 --> 00:05:43.108
+Construiesc movile incredibile
+de 8 m înălțime,
+
+00:05:43.108 --> 00:05:47.196
+clădiri cu apartamente bine ventilate 
+pentru alte termite
+
+00:05:47.196 --> 00:05:49.287
+în Africa și Australia.
+
+00:05:49.287 --> 00:05:51.717
+V-am arătat cîteva posibilități
+
+00:05:51.717 --> 00:05:54.584
+din ce am putea face cu acești roboței.
+
+00:05:54.584 --> 00:05:58.231
+Am făcut progrese,
+dar încă rămîne cale lungă,
+
+00:05:58.231 --> 00:06:01.419
+și sper că unii veți contribui
+în această direcție.
+
+00:06:01.419 --> 00:06:03.187
+Mulțumesc foarte mult.
+
+00:06:03.187 --> 00:06:05.391
+(Aplauze)
+

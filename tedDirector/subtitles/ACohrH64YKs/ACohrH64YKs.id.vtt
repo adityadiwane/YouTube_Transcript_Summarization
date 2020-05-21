@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: id
+
+00:00:00.000 --> 00:00:07.000
+Translator: Antonius Yudi Sendjaja
+Reviewer: Wibisono Handoko
+
+00:00:16.260 --> 00:00:19.260
+Ijinkan saya memperkenalkan Rezero.
+
+00:00:19.260 --> 00:00:21.260
+Sahabat kecil ini dikembangkan
+
+00:00:21.260 --> 00:00:23.260
+oleh 10 orang mahasiswa sarjana
+
+00:00:23.260 --> 00:00:25.260
+di Laboratorium Sistem Otonom
+
+00:00:25.260 --> 00:00:27.260
+di ETH-Zurich.
+
+00:00:27.260 --> 00:00:29.260
+Robot kami termasuk kelompok robot
+
+00:00:29.260 --> 00:00:31.260
+yang disebut Ballbot.
+
+00:00:31.260 --> 00:00:33.260
+Robot ini tidak memiliki roda, namun berdiri
+
+00:00:33.260 --> 00:00:35.260
+dan bergerak di atas satu bola tunggal.
+
+00:00:35.260 --> 00:00:37.260
+Sifat utama dari sistem seperti ini adalah
+
+00:00:37.260 --> 00:00:40.260
+hanya ada satu titik kontak dengan tanah.
+
+00:00:40.260 --> 00:00:42.260
+Hal ini berarti robot ini
+
+00:00:42.260 --> 00:00:44.260
+pada dasarnya tidak stabil,
+
+00:00:44.260 --> 00:00:46.260
+seperti saat saya mencoba berdiri
+
+00:00:46.260 --> 00:00:47.260
+dengan satu kaki.
+
+00:00:47.260 --> 00:00:49.260
+Anda mungkin bertanya, apa manfaat
+
+00:00:49.260 --> 00:00:51.260
+dari robot yang tidak stabil?
+
+00:00:51.260 --> 00:00:53.260
+Kami akan menjelaskannya nanti.
+
+00:00:53.260 --> 00:00:55.260
+Pertama saya akan menjelaskan bagaimana Razero
+
+00:00:55.260 --> 00:00:57.260
+menjaga keseimbangannya.
+
+00:00:57.260 --> 00:00:59.260
+Razero menjaga keseimbangan dengan terus menerus
+
+00:00:59.260 --> 00:01:02.260
+mengukur besar sudutnya dengan sensor.
+
+00:01:02.260 --> 00:01:05.260
+Lalu dia beraksi agar tidak terjatuh
+
+00:01:05.260 --> 00:01:07.260
+dengan menyesuaikan motornya.
+
+00:01:07.260 --> 00:01:09.260
+Ini terjadi 160 kali per detik
+
+00:01:09.260 --> 00:01:11.260
+dan jika ada sesuatu yang tidak benar,
+
+00:01:11.260 --> 00:01:14.260
+Razero akan langsung jatuh ke tanah.
+
+00:01:14.260 --> 00:01:16.260
+Kini untuk berdiri dan bergerak,
+
+00:01:16.260 --> 00:01:18.260
+Razero harus memutar bola ini.
+
+00:01:18.260 --> 00:01:20.260
+Bola ini digerakkan oleh 3 roda spesial
+
+00:01:20.260 --> 00:01:23.260
+yang memungkinkan Razero bergerak ke segala arah
+
+00:01:23.260 --> 00:01:25.260
+dan juga bergerak sepanjang sumbunya
+
+00:01:25.260 --> 00:01:29.260
+sekaligus.
+
+00:01:29.260 --> 00:01:31.260
+Karena ketidakstabilan itu, Razero selalu
+
+00:01:31.260 --> 00:01:33.260
+bergerak. Dan inilah triknya.
+
+00:01:33.260 --> 00:01:36.260
+Ketidakstabilan itulah yang memungkinkan
+
+00:01:36.260 --> 00:01:38.260
+robot itu bergerak dengan sangat dinamis.
+
+00:01:38.260 --> 00:01:40.260
+Mari kita sedikit bermain.
+
+00:01:40.260 --> 00:01:42.260
+Anda mungkin penasaran apa yang terjadi
+
+00:01:42.260 --> 00:01:45.260
+jika saya mendorongnya sedikit.
+
+00:01:47.260 --> 00:01:49.260
+Dalam pengaturan ini, dia mencoba mempertahankan
+
+00:01:49.260 --> 00:01:52.260
+posisinya.
+
+00:01:52.260 --> 00:01:55.260
+Selanjutnya, saya ingin memperkenalkan
+
+00:01:55.260 --> 00:01:58.260
+rekan saya Michael, yang ada di depan komputer
+
+00:01:58.260 --> 00:02:01.260
+dan Thomas yang membantu saya di atas panggung.
+
+00:02:02.260 --> 00:02:04.260
+Dalam pengaturan berikutnya, Rezero menjadi pasif
+
+00:02:04.260 --> 00:02:07.260
+dan kita dapat menggerakkannya.
+
+00:02:08.260 --> 00:02:10.260
+Tanpa banyak memerlukan tenaga saya dapat mengendalikan
+
+00:02:10.260 --> 00:02:13.260
+posisi dan kecepatannya
+
+00:02:16.260 --> 00:02:19.260
+Saya juga dapat membuatnya berputar.
+
+00:02:30.260 --> 00:02:32.260
+Dalam pengaturan berikutnya, kami dapat membuat Razero
+
+00:02:32.260 --> 00:02:35.260
+mengikuti seseorang.
+
+00:02:35.260 --> 00:02:38.260
+Dia kini menjaga jaraknya dengan Thomas.
+
+00:02:42.260 --> 00:02:44.260
+Pengaturan ini menggunakan sensor laser
+
+00:02:44.260 --> 00:02:46.260
+yang dipasang di atasnya.
+
+00:02:50.260 --> 00:02:52.260
+Dengan metode yang sama, kami juga dapat
+
+00:02:52.260 --> 00:02:55.260
+mengelilingi seseorang.
+
+00:02:57.260 --> 00:03:01.260
+Kami menyebutnya mengorbit.
+
+00:03:10.260 --> 00:03:12.260
+Baiklah, terima kasih, Thomas.
+
+00:03:12.260 --> 00:03:16.260
+(Tepuk tangan)
+
+00:03:16.260 --> 00:03:19.260
+Lalu, apa manfaat dari teknologi ini?
+
+00:03:22.260 --> 00:03:24.260
+Kini, ini hanyalah percobaan, namun ijinkan saya
+
+00:03:24.260 --> 00:03:27.260
+menunjukkan beberapa kemungkinan penerapan di masa depan.
+
+00:03:28.260 --> 00:03:30.260
+Rezero dapat digunakan dalam pameran atau tempat parkir.
+
+00:03:30.260 --> 00:03:32.260
+Dengan menggunakan layar, Razero dapat memberi informasi
+
+00:03:32.260 --> 00:03:35.260
+atau mengajak orang berkeliling dengan cara yang menyenangkan.
+
+00:03:35.260 --> 00:03:37.260
+Di rumah sakit, robot ini dapat digunakan untuk
+
+00:03:37.260 --> 00:03:39.260
+membawa peralatan medis.
+
+00:03:39.260 --> 00:03:41.260
+Karena sistem Ballbot ini, robot ini memiliki
+
+00:03:41.260 --> 00:03:44.260
+jejak yang sangat kecil dan mudah digerakkan.
+
+00:03:44.260 --> 00:03:46.260
+Dan sudah pasti, siapa yang tidak mau
+
+00:03:46.260 --> 00:03:49.260
+menaiki robot ini.
+
+00:03:49.260 --> 00:03:51.260
+Dan hal-hal ini adalah bentuk penerapan yang lebih praktis.
+
+00:03:51.260 --> 00:03:53.260
+namun ada juga keindahan tertentu
+
+00:03:53.260 --> 00:03:55.260
+dalam teknologi ini
+
+00:03:55.260 --> 00:04:04.260
+(Musik)
+
+00:04:58.260 --> 00:04:59.260
+(Tepuk tangan)
+
+00:04:59.260 --> 00:05:01.260
+Terima kasih.
+
+00:05:01.260 --> 00:05:05.260
+(Tepuk tangan)
+
+00:05:05.260 --> 00:05:07.260
+Terima kasih.
+

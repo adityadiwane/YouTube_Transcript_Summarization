@@ -1,0 +1,779 @@
+WEBVTT
+Kind: captions
+Language: ro
+
+00:00:00.000 --> 00:00:07.000
+Traducător: Razvan Cristian Duia
+Corector: Mihaela Schneiders
+
+00:00:13.280 --> 00:00:16.936
+În laboratorul meu, construim
+roboţi aerieni autonomi
+
+00:00:16.960 --> 00:00:18.840
+ca cei pe care îi vedeţi zburând aici.
+
+00:00:20.720 --> 00:00:24.416
+Spre deosebire de dronele comerciale
+ce pot fi cumparate astăzi,
+
+00:00:24.440 --> 00:00:27.080
+acest robot nu este dotat cu GPS.
+
+00:00:28.160 --> 00:00:29.376
+Deci fără GPS,
+
+00:00:29.400 --> 00:00:32.680
+e greu pentru roboţi ca acesta
+să-şi determine poziţia.
+
+00:00:34.240 --> 00:00:38.976
+Acest robot foloseşte senzorii, camerele
+şi scanerele cu laser cu care e dotat
+
+00:00:39.000 --> 00:00:40.696
+pentru a scana mediul înconjurător.
+
+00:00:40.720 --> 00:00:43.776
+Robotul detectează 
+caracteristicile mediului
+
+00:00:43.800 --> 00:00:46.536
+şi îşi determină poziţia 
+în raport cu ele,
+
+00:00:46.560 --> 00:00:48.696
+prin metoda triangulaţiei
+
+00:00:48.720 --> 00:00:52.176
+şi apoi poate grupa 
+toate aceste detalii într-o hartă
+
+00:00:52.200 --> 00:00:53.936
+ca cea aflată în spatele meu.
+
+00:00:53.960 --> 00:00:57.896
+Această hartă permite apoi robotului
+să înţeleagă unde sunt obstacolele
+
+00:00:57.920 --> 00:01:00.640
+şi să navigheze fără a se lovi de acestea.
+
+00:01:01.160 --> 00:01:03.256
+Ce vreau să vă arăt în continuare
+
+00:01:03.280 --> 00:01:06.496
+sunt câteva experimente
+pe care le-am făcut în laboratorul nostru,
+
+00:01:06.520 --> 00:01:10.000
+unde acest robot s-a putut deplasa
+pe distanţe mai lungi.
+
+00:01:10.400 --> 00:01:15.416
+Aici vedeţi, în dreapta sus,
+ce vede robotul cu camera.
+
+00:01:15.440 --> 00:01:16.656
+Pe ecranul principal
+
+00:01:16.680 --> 00:01:19.136
+– viteza de redare e mărită de 4 ori –
+
+00:01:19.160 --> 00:01:21.827
+pe ecranul principal veţi vedea
+harta ce se întocmeşte.
+
+00:01:21.851 --> 00:01:26.136
+E o hartă la rezoluţie mare
+a coridorului de lângă laboratorul nostru.
+
+00:01:26.160 --> 00:01:28.496
+Imediat va intra în laboratorul nostru,
+
+00:01:28.520 --> 00:01:31.376
+care poate fi recunoscut 
+după dezordinea pe care o vedeţi.
+
+00:01:31.400 --> 00:01:32.416
+(Râsete)
+
+00:01:32.440 --> 00:01:34.447
+Dar principalul lucru
+ce vreau să vi-l spun
+
+00:01:34.472 --> 00:01:38.056
+e că aceşti roboţi sunt capabili
+să facă hărţi cu rezoluţie mare,
+
+00:01:38.080 --> 00:01:40.576
+o rezoluţie de 5 centimetri,
+
+00:01:40.600 --> 00:01:44.776
+permiţând cuiva din afara laboratorului,
+din afara clădirii,
+
+00:01:44.800 --> 00:01:48.016
+să le obţină fără să intre înăuntru
+
+00:01:48.040 --> 00:01:51.800
+şi să încerce să deducă
+ce se întâmplă în clădire.
+
+00:01:52.400 --> 00:01:54.640
+E o problemă cu astfel de roboţi.
+
+00:01:55.600 --> 00:01:57.800
+Prima problemă e că sunt destul de mari.
+
+00:01:58.120 --> 00:01:59.800
+Fiind mari, sunt grei.
+
+00:02:00.640 --> 00:02:03.680
+Consumă cam 200 waţi pe kilogram.
+
+00:02:04.360 --> 00:02:07.240
+Asta face ca durata
+misiunilor să fie foarte scurtă.
+
+00:02:08.000 --> 00:02:13.136
+A doua problemă e că roboţii au senzori
+care costă foarte mult:
+
+00:02:13.400 --> 00:02:16.840
+un scaner cu laser, o cameră video
+şi procesoarele,
+
+00:02:17.280 --> 00:02:20.320
+ce ridică preţul acestor roboţi.
+
+00:02:21.440 --> 00:02:24.096
+Ne-am întrebat:
+
+00:02:24.120 --> 00:02:27.896
+ce produs de serie
+putem cumpăra din magazin
+
+00:02:27.920 --> 00:02:34.200
+care să fie ieftin, uşor, cu senzori 
+şi putere de calcul?
+
+00:02:36.080 --> 00:02:38.736
+Şi am inventat telefonul zburător.
+
+00:02:38.760 --> 00:02:40.696
+(Râsete)
+
+00:02:40.720 --> 00:02:46.896
+Acest robot foloseşte un telefon
+Samsung Galaxy ce se găseşte în magazine,
+
+00:02:46.920 --> 00:02:50.936
+şi tot ce vă trebuie e o aplicaţie
+descărcabilă de pe site-ul nostru.
+
+00:02:50.960 --> 00:02:55.176
+Acest robot citeşte literele
+„TED” în acest caz,
+
+00:02:55.200 --> 00:02:58.136
+vizualizând colţurile 
+literelor T şi E,
+
+00:02:58.160 --> 00:03:01.640
+determinându-şi poziţia
+relativă faţă de ele şi zburând autonom.
+
+00:03:02.720 --> 00:03:07.406
+Joystickul e aici, dacă o ia razna,
+Giuseppe să-i vină de hac.
+
+00:03:07.440 --> 00:03:09.080
+(Râsete)
+
+00:03:10.920 --> 00:03:14.736
+Pe lângă construirea acestor mici roboţi,
+
+00:03:14.760 --> 00:03:19.560
+testăm comportamente agresive, 
+ca cel pe care îl vedeţi aici:
+
+00:03:19.920 --> 00:03:25.216
+robotul se deplasează acum
+cu 2-3 m/secundă,
+
+00:03:25.240 --> 00:03:28.736
+balansându-se puternic
+în timp ce îşi schimbă direcţia.
+
+00:03:28.760 --> 00:03:33.016
+Ideea e că putem avea roboţi mai mici,
+ce se pot deplasa mai repede
+
+00:03:33.040 --> 00:03:36.000
+şi care pot zbura
+în medii foarte neregulate.
+
+00:03:37.120 --> 00:03:39.176
+În clipul următor,
+
+00:03:39.200 --> 00:03:46.506
+aşa cum acest vultur, coordonându-şi
+graţios aripile, ochii şi picioarele,
+
+00:03:46.506 --> 00:03:49.416
+scoate din apă prada,
+
+00:03:49.440 --> 00:03:51.336
+şi robotul nostru poate pescui.
+
+00:03:51.360 --> 00:03:52.856
+(Râsete)
+
+00:03:52.880 --> 00:03:56.936
+E un Philly sandwich cu brânză,
+pe care-l apucă din zbor.
+
+00:03:56.960 --> 00:03:59.360
+(Râsete)
+
+00:03:59.680 --> 00:04:02.976
+Observaţi robotul zburând
+cam cu 3 m/s,
+
+00:04:03.000 --> 00:04:08.136
+(mai repede decât merge un om)
+coordonându-şi braţele, ghearele
+
+00:04:08.160 --> 00:04:12.280
+şi zborul în fracţiuni de secundă
+pentru a realiza această manevră.
+
+00:04:14.120 --> 00:04:15.336
+Într-un alt experiment,
+
+00:04:15.360 --> 00:04:19.016
+vreau să vă arăt 
+cum un robot îşi adaptează zborul
+
+00:04:19.040 --> 00:04:21.416
+pentru a-şi controla 
+încărcătura suspendată,
+
+00:04:21.440 --> 00:04:25.240
+a cărei lungime e mai mare
+decât deschiderea ferestrei.
+
+00:04:25.680 --> 00:04:31.006
+Pentru a reuşi, trebuie să se încline
+şi să-şi regleze altitudinea
+
+00:04:31.120 --> 00:04:33.690
+şi să balanseze încărcătura 
+prin deschidere.
+
+00:04:38.920 --> 00:04:43.996
+Vrem să îi facem şi mai mici
+şi ne-am inspirat în special de la albine.
+
+00:04:44.280 --> 00:04:47.536
+Dacă observaţi albinele
+(e o filmare cu încetinitorul)
+
+00:04:47.560 --> 00:04:51.280
+sunt atât de mici,
+inerţia lor e atât de mică,
+
+00:04:51.960 --> 00:04:53.136
+(Râsete)
+
+00:04:53.160 --> 00:04:56.696
+încât nu le pasă dacă se ciocnesc
+de mâna mea, de exemplu.
+
+00:04:56.720 --> 00:04:59.880
+Acesta e un robot mic
+ce imită comportamentul albinei.
+
+00:05:00.600 --> 00:05:01.816
+Iar mai mic e mai bine,
+
+00:05:01.840 --> 00:05:05.376
+deoarece cu mărimea mică
+obţii inerţie redusă.
+
+00:05:05.400 --> 00:05:06.936
+Împreună cu inerţia redusă,
+
+00:05:06.960 --> 00:05:09.816
+(robotul bazâie, râsete)
+
+00:05:09.840 --> 00:05:12.656
+împreună cu inerţia redusă,
+rezişti mai bine la coliziuni
+
+00:05:12.680 --> 00:05:14.400
+şi asta te face mai robust.
+
+00:05:15.800 --> 00:05:18.456
+Am construit roboţi mici,
+ca aceste albine.
+
+00:05:18.480 --> 00:05:21.856
+Ăsta are doar 25 de grame.
+
+00:05:21.880 --> 00:05:26.690
+Consumă doar 6 waţi
+şi se poate deplasa cu 6 m/s.
+
+00:05:27.000 --> 00:05:29.336
+Raportat la mărimea lui,
+
+00:05:29.360 --> 00:05:33.000
+e ca şi cum un Boeing 787 ar zbura
+de 10 ori mai rapid decât sunetul.
+
+00:05:36.000 --> 00:05:38.096
+(Râsete)
+
+00:05:38.120 --> 00:05:40.040
+Vreau să vă arăt un exemplu.
+
+00:05:40.840 --> 00:05:46.096
+Aceasta e probabil prima coliziune
+aeriana planificată, redata cu viteza 1/20
+
+00:05:46.120 --> 00:05:48.978
+Aceşti roboţi au o viteză
+relativă de 2 m/s
+
+00:05:49.002 --> 00:05:51.482
+şi aceasta ilustrează principiul de bază.
+
+00:05:52.200 --> 00:05:57.176
+Cuştile de 2 grame din fibră de carbon
+împiedică atingerea elicelor,
+
+00:05:57.200 --> 00:06:02.496
+dar important e că impactul e absorbit,
+iar roboţii reacţionează la coliziuni.
+
+00:06:02.520 --> 00:06:05.080
+Aşa că mic, înseamnă şi sigur.
+
+00:06:05.400 --> 00:06:09.046
+Când am început să lucrăm,
+am început cu roboţi mari
+
+00:06:09.084 --> 00:06:11.896
+şi acum am ajuns la aceşti roboţi mici.
+
+00:06:11.920 --> 00:06:15.376
+O histogramă a plasturilor
+comandaţi în trecut,
+
+00:06:15.400 --> 00:06:17.976
+ar arăta că numărul lor
+s-a redus acum.
+
+00:06:18.000 --> 00:06:19.960
+Pentru că aceşti roboţi sunt siguri.
+
+00:06:20.760 --> 00:06:23.216
+Dimensiunea mică are câteva dezavantaje
+
+00:06:23.240 --> 00:06:27.320
+şi natura a găsit căi 
+să compenseze aceste dezavantaje.
+
+00:06:27.960 --> 00:06:31.960
+Ideea e că indivizii se grupează
+pentru a forma grupuri, roiuri.
+
+00:06:32.320 --> 00:06:36.296
+Am încercat şi noi, în laborator,
+să creăm roiuri artificiale de roboţi.
+
+00:06:36.320 --> 00:06:41.151
+E o provocare pentru că acum
+trebuie să ne gândim la reţele de roboţi,
+
+00:06:41.360 --> 00:06:42.656
+şi în fiecare robot,
+
+00:06:42.680 --> 00:06:48.296
+trebuie să rezolvi combinaţia
+de detecţie, comunicare, calcul,
+
+00:06:48.320 --> 00:06:53.280
+după care reţeaua devine
+cam dificil de controlat şi de gestionat.
+
+00:06:54.160 --> 00:06:57.456
+Din natură preluăm
+trei principii de organizare
+
+00:06:57.480 --> 00:07:01.280
+care ne ajută la dezvoltarea algoritmilor.
+
+00:07:01.640 --> 00:07:06.176
+Prima idee e că roboţii trebuie
+să ştie de prezenţa vecinilor.
+
+00:07:06.200 --> 00:07:09.640
+Trebuie să-i poată detecta
+şi comunica cu ei.
+
+00:07:10.040 --> 00:07:12.696
+Acest clip ilustrează ideea de bază.
+
+00:07:12.720 --> 00:07:14.016
+Avem patru roboţi -
+
+00:07:14.040 --> 00:07:18.280
+unul dintre ei a fost deturnat
+la propriu de un operator uman.
+
+00:07:19.217 --> 00:07:21.456
+Pentru că roboţii
+interacţionează între ei,
+
+00:07:21.480 --> 00:07:23.136
+îşi simt vecinii,
+
+00:07:23.160 --> 00:07:24.456
+si se urmează intre ei.
+
+00:07:24.480 --> 00:07:29.840
+Aşa, o singură persoană poate 
+conduce această reţea de urmăritori.
+
+00:07:32.000 --> 00:07:37.056
+Asta nu se întâmplă pentru că roboţii
+ştiu unde trebuie să meargă,
+
+00:07:37.080 --> 00:07:41.400
+ci pentru că reacţionează
+la poziţia vecinilor lor
+
+00:07:43.720 --> 00:07:47.840
+(Râsete)
+
+00:07:48.280 --> 00:07:53.520
+Următorul experiment ilustrează
+al doilea principiu de organizare.
+
+00:07:54.920 --> 00:07:58.720
+Acesta e principiul anonimităţii.
+
+00:07:59.400 --> 00:08:03.696
+Aici, ideea principală este
+
+00:08:03.720 --> 00:08:07.960
+că roboţii nu cunosc 
+identităţile vecinilor lor.
+
+00:08:08.440 --> 00:08:11.056
+Li se solicită să alcătuiască
+o formă circulară
+
+00:08:11.080 --> 00:08:16.736
+şi indiferent câţi roboţi pui în formaţie
+sau câţi scoţi,
+
+00:08:17.000 --> 00:08:20.136
+fiecare robot reacţionează
+doar la vecinul său.
+
+00:08:20.160 --> 00:08:25.136
+Ştie că trebuie să realizeze
+forma circulară,
+
+00:08:25.160 --> 00:08:30.256
+dar colaborând cu vecinii săi
+o realizează fără coordonare centrală.
+
+00:08:31.520 --> 00:08:33.936
+Dacă puneţi aceste idei la un loc,
+
+00:08:33.960 --> 00:08:37.856
+a treia idee e că dăm acestor roboţi
+
+00:08:37.880 --> 00:08:42.176
+detaliile matematice ale formei
+pe care trebuie să o creeze.
+
+00:08:42.200 --> 00:08:45.696
+Formele se pot schimba
+în funcţie de timp,
+
+00:08:45.720 --> 00:08:50.216
+şi veţi vedea aceşti roboţi,
+începând cu o formaţie circulară,
+
+00:08:50.240 --> 00:08:53.496
+schimbându-se într-un dreptunghi,
+întinzându-se într-o linie dreaptă,
+
+00:08:53.520 --> 00:08:54.895
+înapoi într-o elipsă.
+
+00:08:54.919 --> 00:08:58.536
+Şi fac asta cu aceeaşi coordonare
+de fracţiuni de secundă
+
+00:08:58.560 --> 00:09:01.840
+pe care vedeţi la roiurile din natură.
+
+00:09:03.080 --> 00:09:05.216
+Dar de ce să lucrezi cu roiuri?
+
+00:09:05.240 --> 00:09:09.360
+Vă voi vorbi despre două aplicaţii
+care ne interesează foarte mult.
+
+00:09:10.160 --> 00:09:12.536
+Prima are legătură cu agricultura,
+
+00:09:12.560 --> 00:09:15.920
+care e probabil cea mai mare
+problemă de pe glob.
+
+00:09:16.760 --> 00:09:18.016
+După cum ştiţi,
+
+00:09:18.040 --> 00:09:21.560
+una din şapte persoane în lume
+este malnutrită.
+
+00:09:21.920 --> 00:09:25.400
+Majoritatea suprafeţelor ce au putut fi
+cultivate, sunt deja cultivate.
+
+00:09:25.960 --> 00:09:29.176
+Eficienţa majorităţii sistemelor
+creşte la nivel global,
+
+00:09:29.200 --> 00:09:32.720
+dar eficienţa sistemului de producţie
+este, de fapt, în scădere.
+
+00:09:33.080 --> 00:09:37.296
+Mai ales din cauza penuriei de apă,
+a bolilor, schimbărilor climatice
+
+00:09:37.320 --> 00:09:38.840
+şi a altor câteva lucruri.
+
+00:09:39.360 --> 00:09:40.840
+Deci ce pot face roboţii?
+
+00:09:41.200 --> 00:09:45.816
+Am adoptat o abordare numită
+Agricultură de Precizie în comunitate,
+
+00:09:45.840 --> 00:09:51.216
+şi ideea de bază e că putem sa trimitem
+roboţii zburători prin livezi
+
+00:09:51.240 --> 00:09:54.360
+şi apoi sa creăm modele precise
+ale fiecărei plante.
+
+00:09:54.829 --> 00:09:56.496
+Ca în medicina personalizată,
+
+00:09:56.520 --> 00:10:01.336
+unde imaginaţi-vă că se doreşte
+tratarea individuală a fiecărui pacient,
+
+00:10:01.360 --> 00:10:05.056
+dorim să construim
+modele individuale ale plantelor
+
+00:10:05.080 --> 00:10:09.216
+ca apoi să îi spunem fermierului
+ce i-ar trebui fiecărei plante.
+
+00:10:09.240 --> 00:10:13.680
+În acest caz, inputul ar conţine:
+apă, îngrăşământ şi pesticide.
+
+00:10:14.640 --> 00:10:18.256
+Aici vedeţi roboţi 
+zburând într-o livadă de meri
+
+00:10:18.280 --> 00:10:20.536
+şi îndată veţi vedea 
+doi dintre colegii lor,
+
+00:10:20.560 --> 00:10:22.370
+făcând acelaşi lucru în partea stângă.
+
+00:10:22.800 --> 00:10:26.456
+Ei de fapt întocmesc o hartă a livezii.
+
+00:10:26.480 --> 00:10:29.296
+Pe hartă apare fiecare plantă din livadă.
+
+00:10:29.320 --> 00:10:30.976
+(se aude robotul bâzâind)
+
+00:10:31.000 --> 00:10:32.896
+Să vedem cum arată aceste hărţi.
+
+00:10:32.920 --> 00:10:37.216
+Veţi vedea camerele
+folosite de aceşti roboţi.
+
+00:10:37.240 --> 00:10:40.480
+În stânga-sus e o cameră color obişnuită.
+
+00:10:41.640 --> 00:10:44.936
+În stânga-centru e o cameră în infraroşu.
+
+00:10:44.960 --> 00:10:48.736
+În stânga-jos e o cameră termală.
+
+00:10:48.760 --> 00:10:52.096
+Pe ecranul principal, vedeţi
+o reprezentare tridimensională
+
+00:10:52.120 --> 00:10:58.240
+a fiecărui pom, pe măsură ce senzorii
+zboară chiar pe lângă ei.
+
+00:10:59.640 --> 00:11:03.680
+Înarmaţi cu astfel de informaţii,
+putem face câteva lucruri.
+
+00:11:04.200 --> 00:11:08.456
+Primul şi cel mai important lucru
+este foarte simplu:
+
+00:11:08.480 --> 00:11:10.920
+numărarea fructelor din fiecare pom.
+
+00:11:11.520 --> 00:11:16.056
+Prin asta îi poţi spune fermierului
+câte fructe are în fiecare copac
+
+00:11:16.080 --> 00:11:20.336
+şi îi permiţi să estimeze
+productivitatea recoltei,
+
+00:11:20.360 --> 00:11:23.200
+optimizînd lanţul de producţie
+
+00:11:23.640 --> 00:11:26.636
+Al doilea lucru e că putem lua
+modele de plante,
+
+00:11:26.636 --> 00:11:29.776
+le reconstituim tridimensional
+
+00:11:29.800 --> 00:11:32.336
+şi de aici să estimăm 
+cât de mare e coroana
+
+00:11:32.360 --> 00:11:36.136
+şi apoi corelăm mărimea coroanei
+cu suprafaţa frunzelor plantei,
+
+00:11:36.160 --> 00:11:38.336
+adică indicele suprafeţei foliare
+
+00:11:38.360 --> 00:11:40.296
+Dacă ştii cât e acest indice,
+
+00:11:40.320 --> 00:11:45.776
+poţi măsura câtă fotosinteză
+face fiecare plantă,
+
+00:11:45.800 --> 00:11:48.680
+lucru care îţi arată
+cât de sănătoasă e planta.
+
+00:11:49.520 --> 00:11:53.736
+Combinând informaţiile vizuale
+şi cele din infraroşu,
+
+00:11:53.760 --> 00:11:57.056
+putem calcula indici ca NDVI.
+
+00:11:57.080 --> 00:11:59.896
+În acest caz poţi vedea clar
+
+00:11:59.920 --> 00:12:02.936
+că unele culturi nu se dezvoltă 
+la fel de bine ca altele.
+
+00:12:02.960 --> 00:12:07.016
+Asta se observă uşor din imagistică,
+
+00:12:07.040 --> 00:12:09.040
+nu doar din fotografiile obişnuite,
+
+00:12:09.040 --> 00:12:12.056
+ci combinând imaginile vizibile
+cu cele din spectrul infraroşu.
+
+00:12:12.080 --> 00:12:13.416
+În cele din urmă,
+
+00:12:13.440 --> 00:12:17.456
+dorim să putem detecta apariţia clorozei,
+
+00:12:17.480 --> 00:12:18.976
+– e un portocal –
+
+00:12:19.000 --> 00:12:21.560
+care se distinge
+prin îngălbenirea frunzelor.
+
+00:12:21.880 --> 00:12:25.776
+Roboţii care zboară deasupra
+pot observa asta autonom
+
+00:12:25.800 --> 00:12:28.736
+şi apoi pot raporta fermierului
+că are o problemă
+
+00:12:28.760 --> 00:12:30.280
+în această parte a livezii.
+
+00:12:30.800 --> 00:12:33.496
+Sisteme ca acesta chiar pot ajuta
+
+00:12:33.520 --> 00:12:36.360
+şi proiectăm recolte 
+ce pot fi îmbunătăţite cam cu 10 %.
+
+00:12:36.360 --> 00:12:39.360
+Mai important, de exemplu,
+
+00:12:39.360 --> 00:12:42.576
+consumul de apă scade
+
+00:12:42.600 --> 00:12:45.880
+cu aproximativ 25 %,
+folosind roiuri de roboţi aerieni.
+
+00:12:47.200 --> 00:12:52.936
+La final, aş vrea să aplaudaţi
+oamenii care au creat de fapt acest viitor
+
+00:12:52.960 --> 00:12:57.880
+Yash Mulganokar, Sikang Liu 
+şi Giuseppe Loianno,
+
+00:12:57.920 --> 00:13:01.416
+care sunt responsabili pentru cele trei
+demonstraţii pe care le-aţi văzut.
+
+00:13:01.440 --> 00:13:02.616
+Mulţumesc.
+
+00:13:02.640 --> 00:13:08.560
+(Applause)
+

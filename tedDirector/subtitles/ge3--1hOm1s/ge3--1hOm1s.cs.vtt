@@ -1,0 +1,774 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Jiří Rambousek
+Korektor: Kateřina Jabůrková
+
+00:00:13.280 --> 00:00:16.936
+V mé laboratoři stavíme
+autonomní létající roboty
+
+00:00:16.960 --> 00:00:18.840
+jako je ten, kterého tu vidíte létat.
+
+00:00:20.720 --> 00:00:24.416
+Na rozdíl od komerčních dronů
+
+00:00:24.440 --> 00:00:27.080
+tento robot nemá žádnou GPS.
+
+00:00:28.160 --> 00:00:29.376
+A bez GPS
+
+00:00:29.400 --> 00:00:32.680
+je pro roboty těžké určit svou polohu.
+
+00:00:34.240 --> 00:00:38.976
+Tento robot používá palubní senzory,
+kamery a laserové snímače
+
+00:00:39.000 --> 00:00:40.696
+a snímá jimi své okolí.
+
+00:00:40.720 --> 00:00:43.776
+Rozpoznává prvky v okolním prostředí
+
+00:00:43.800 --> 00:00:46.536
+a vzhledem k těmto prvkům
+pak určuje svou polohu
+
+00:00:46.560 --> 00:00:48.696
+za použití triangulační metody.
+
+00:00:48.720 --> 00:00:52.176
+Poté dokáže ze všeho,
+co zjistil, poskládat mapu,
+
+00:00:52.200 --> 00:00:53.936
+jakou vidíte za mnou.
+
+00:00:53.960 --> 00:00:57.896
+Tato mapa umožňuje robotovi
+chápat, kde jsou překážky,
+
+00:00:57.920 --> 00:01:00.640
+a při letu se vyhnout kolizím.
+
+00:01:01.160 --> 00:01:03.256
+Teď vám ukážu několik experimentů,
+
+00:01:03.280 --> 00:01:06.496
+které jsme provedli v naší laboratoři,
+
+00:01:06.520 --> 00:01:10.000
+kde mohl tento robot létat
+na větší vzdálenosti než tady.
+
+00:01:10.400 --> 00:01:15.416
+Vpravo nahoře vidíte, 
+co vidí robot svojí kamerou.
+
+00:01:15.440 --> 00:01:16.656
+A na hlavní ploše –
+
+00:01:16.680 --> 00:01:19.136
+ovšem ve čtyřnásobném zrychlení –
+
+00:01:19.160 --> 00:01:21.827
+vidíte mapu, kterou si robot sestavuje.
+
+00:01:21.851 --> 00:01:26.136
+Je ve vysokém rozlišení a je to
+mapa chodby kolem naší laboratoře.
+
+00:01:26.160 --> 00:01:28.496
+Za chvilku už vletí do naší laboratoře –
+
+00:01:28.520 --> 00:01:31.376
+poznáte ji podle toho nepořádku.
+
+00:01:31.400 --> 00:01:32.416
+(Smích.)
+
+00:01:32.440 --> 00:01:34.447
+Ale to hlavní, co jsem chtěl ukázat
+
+00:01:34.472 --> 00:01:38.056
+je, že tito roboti umí
+vytvářet velmi přesné mapy
+
+00:01:38.080 --> 00:01:40.576
+s rozlišením na pět centimetrů,
+
+00:01:40.600 --> 00:01:44.776
+takže člověk, který se nachází mimo 
+laboratoř nebo venku mimo budovu
+
+00:01:44.800 --> 00:01:48.016
+je může vypouštět,
+aniž vůbec vstoupí dovnitř,
+
+00:01:48.040 --> 00:01:51.800
+a může tak zjišťovat, co se v budově děje.
+
+00:01:52.400 --> 00:01:54.640
+S podobnými roboty
+je ale několik problémů.
+
+00:01:55.600 --> 00:01:57.800
+Především je dost velký.
+
+00:01:58.120 --> 00:01:59.800
+A protože je velký, je také těžký.
+
+00:02:00.640 --> 00:02:03.680
+Proto tito roboti spotřebují
+na půl kilogramu asi 100 wattů.
+
+00:02:04.360 --> 00:02:06.640
+Trvání jejich mise je proto velmi krátké.
+
+00:02:08.000 --> 00:02:09.456
+Druhý problém je,
+
+00:02:09.480 --> 00:02:13.376
+že mají na palubě velmi drahé senzory –
+
+00:02:13.400 --> 00:02:16.840
+laserový skener, kameru
+a potřebné procesory.
+
+00:02:17.280 --> 00:02:20.320
+To neúnosně zvyšuje cenu robota.
+
+00:02:21.440 --> 00:02:24.096
+Proto jsme si položili otázku:
+
+00:02:24.120 --> 00:02:27.896
+jaký si můžete v obchodě s elektronikou
+koupit výrobek,
+
+00:02:27.920 --> 00:02:34.200
+který je levný, lehký a má zabudované
+senzory a schopnost provádět výpočty?
+
+00:02:36.080 --> 00:02:38.736
+A tak jsme vynalezli létající mobil.
+
+00:02:38.760 --> 00:02:40.696
+(Smích.)
+
+00:02:40.720 --> 00:02:46.896
+Tento robot používá smartphone
+Samsung Galaxy, který dostanete v obchodě,
+
+00:02:46.920 --> 00:02:50.936
+a potřebujete jen aplikaci, kterou si
+stáhnete z našeho app store.
+
+00:02:50.960 --> 00:02:55.176
+A vidíte, že náš robot čte písmena,
+v tomto případě písmena "TED",
+
+00:02:55.200 --> 00:02:58.136
+dívá se na vrcholy písmen "T" a "E"
+
+00:02:58.160 --> 00:03:01.640
+a používá je k triangulaci, takže
+může samostatně létat.
+
+00:03:02.720 --> 00:03:05.976
+Ten joystick tam je jen pro jistotu,
+aby ho Giuseppe mohl zabít,
+
+00:03:06.000 --> 00:03:07.416
+kdyby se robot zbláznil.
+
+00:03:07.440 --> 00:03:09.080
+(Smích.)
+
+00:03:10.920 --> 00:03:14.736
+Kromě stavby těchto malých robotů
+
+00:03:14.760 --> 00:03:19.560
+experimentujeme také 
+s agresivním chováním, jako zde.
+
+00:03:19.920 --> 00:03:25.216
+Tento robot nyní letí
+rychlostí 2-3 metry za sekundu
+
+00:03:25.240 --> 00:03:28.736
+a při změně směru 
+sebou agresivně hází a natáčí se.
+
+00:03:28.760 --> 00:03:33.016
+To hlavní ale je, že můžeme mít
+nemší roboty, kteří létají rychleji
+
+00:03:33.040 --> 00:03:36.000
+a pouštět se s nimi do těchto
+velmi neuspořádaných prostředí.
+
+00:03:37.120 --> 00:03:39.176
+Na dalším videu vidíte ptáka,
+
+00:03:39.200 --> 00:03:45.096
+orla, který s grácií
+koordinuje svá křídla, oči a pařáty
+
+00:03:45.120 --> 00:03:49.416
+při lovu kořisti z vody –
+
+00:03:49.440 --> 00:03:51.336
+a náš robot může rybařit právě tak.
+
+00:03:51.360 --> 00:03:52.856
+(Smích.)
+
+00:03:52.880 --> 00:03:56.936
+V tomto případě ulovil
+plněnou bagetu s masem a sýrem.
+
+00:03:56.960 --> 00:03:59.360
+(Smích.)
+
+00:03:59.680 --> 00:04:02.976
+Takže máme robota letícího
+rychlostí asi tři metry za sekundu,
+
+00:04:03.000 --> 00:04:08.136
+tedy více než rychlostí chůze,
+který za letu na sekundu přesně koordinuje
+
+00:04:08.160 --> 00:04:12.280
+své končetiny a pařáty
+při velmi složitém manévru.
+
+00:04:14.120 --> 00:04:15.336
+Další pokus ukazuje,
+
+00:04:15.360 --> 00:04:19.016
+jak umí robot přizpůsobit svůj let,
+
+00:04:19.040 --> 00:04:21.416
+když potřebuje ovládat zavěšený náklad.
+
+00:04:21.440 --> 00:04:25.240
+Závěs je totiž delší, než je rozměr okna.
+
+00:04:25.680 --> 00:04:27.376
+Aby to robot zvládl,
+
+00:04:27.400 --> 00:04:31.096
+musí se zhoupnout, upravit výšku
+
+00:04:31.120 --> 00:04:33.440
+a švihem dostat náklad do otvoru.
+
+00:04:38.920 --> 00:04:41.216
+Rádi bychom je ovšem zmenšili ještě více,
+
+00:04:41.240 --> 00:04:44.256
+v tom nás nejvíce inspirovaly včely.
+
+00:04:44.280 --> 00:04:47.536
+Když se na včely podíváte –
+tady jsou na zpomaleném videu –
+
+00:04:47.560 --> 00:04:51.280
+jsou tak malé
+a mají tak malou setrvačnou hmotnost,
+
+00:04:51.960 --> 00:04:53.136
+(Smích.)
+
+00:04:53.160 --> 00:04:56.696
+že je jim to jedno.
+Klidně se odrazí třeba od mé hlavy.
+
+00:04:56.720 --> 00:04:59.880
+Tohle je malý robot,
+který napodobuje chování včel.
+
+00:05:00.600 --> 00:05:01.816
+A menší znamená lepší,
+
+00:05:01.840 --> 00:05:05.376
+protože malé rozměry
+znamenají malou setrvačnou hmotnost.
+
+00:05:05.400 --> 00:05:06.936
+A malá setrvačná hmotnost –
+
+00:05:06.960 --> 00:05:09.816
+(Bzučení robota, smích.)
+
+00:05:09.840 --> 00:05:12.656
+znamená odolnost při kolizích.
+
+00:05:12.680 --> 00:05:14.400
+A jste tedy odolnější.
+
+00:05:15.800 --> 00:05:18.836
+A tak jsme postavili maličké roboty
+právě jako ty včely.
+
+00:05:19.000 --> 00:05:21.856
+Konkrétně tenhle váží jen 25 gramů,
+
+00:05:21.880 --> 00:05:24.040
+má spotřebu jen šest wattů
+
+00:05:24.440 --> 00:05:26.976
+a letí rychlostí až šest metrů za sekundu.
+
+00:05:27.000 --> 00:05:29.336
+Pokud to přepočteme na jeho velikost,
+
+00:05:29.360 --> 00:05:33.000
+je to jako by Boeing 787 letěl
+desetinásobkem rychlosti zvuku.
+
+00:05:36.000 --> 00:05:38.096
+(Smích.)
+
+00:05:38.120 --> 00:05:40.040
+Ukážu vám příklad.
+
+00:05:40.840 --> 00:05:46.096
+Toto je možná první úmyslná
+vzdušná srážka, dvacetkrát zpomalená.
+
+00:05:46.120 --> 00:05:48.978
+Vzájemná rychlost robotů
+je dva metry za sekundu
+
+00:05:49.002 --> 00:05:51.482
+a dobře to ilustruje základní princip.
+
+00:05:52.200 --> 00:05:57.176
+Je tu dvougramová klec z uhlíkových
+vláken, která brání kontaktu vrtulí,
+
+00:05:57.200 --> 00:06:02.496
+ale jinak roboti náraz absorbují
+a s kolizí se úspěšně vyrovnají.
+
+00:06:02.520 --> 00:06:05.080
+Takže malý znamený také bezpečný.
+
+00:06:05.400 --> 00:06:07.416
+V mé laboratoři jsme vývoj začali
+
+00:06:07.440 --> 00:06:09.060
+u těch velkých robotů
+
+00:06:09.084 --> 00:06:11.896
+a nyní jsme přešli k malým.
+
+00:06:11.920 --> 00:06:15.376
+A když si vyneseme do grafu,
+kolik jsme objednávali leukoplasti dříve
+
+00:06:15.400 --> 00:06:17.976
+a kolik dnes, ta křivka se blíží nule –
+
+00:06:18.000 --> 00:06:19.960
+tito roboti jsou skutečně bezpeční.
+
+00:06:20.760 --> 00:06:23.216
+Malé rozměry mají ovšem i některé nevýhody
+
+00:06:23.240 --> 00:06:27.320
+a příroda přišla na to,
+jak je kompenzovat.
+
+00:06:27.960 --> 00:06:31.960
+Základní idea je sdružovat se
+a tvořit velké skupiny, neboli roje.
+
+00:06:32.320 --> 00:06:36.296
+A podobně i v naší laboratoři
+se snažíme vyvinout umělé robotí roje.
+
+00:06:36.320 --> 00:06:37.701
+A to je dost náročné,
+
+00:06:37.725 --> 00:06:41.045
+protože najednou musíte uvažovat
+o síťově propojených robotech.
+
+00:06:41.360 --> 00:06:42.656
+A v každém z nich
+
+00:06:42.680 --> 00:06:48.296
+musíte počítat se souhrou
+vnímání, komunikace a výpočtů –
+
+00:06:48.320 --> 00:06:53.280
+a celá síť je pak
+poměrně složitá na řízení a správu.
+
+00:06:54.160 --> 00:06:57.456
+Z přírody jsme převzali
+tři organizační principy,
+
+00:06:57.480 --> 00:07:00.640
+které nám v podstatě stačí
+k vývoji našich algoritmů.
+
+00:07:01.640 --> 00:07:06.176
+První idea je, že roboti
+musí vědět o svých sousedech.
+
+00:07:06.200 --> 00:07:09.640
+Musí své sousedy umět vnímat
+a komunikovat s nimi.
+
+00:07:10.040 --> 00:07:12.696
+Toto video ilustruje základní ideu.
+
+00:07:12.720 --> 00:07:14.016
+Máme čtyři roboty –
+
+00:07:14.040 --> 00:07:18.280
+a teď zrovna jednoho z nich unesl
+lidský operátor, doslova.
+
+00:07:19.217 --> 00:07:21.456
+Ale protože roboti spolu interagují,
+
+00:07:21.480 --> 00:07:23.136
+vnímají své sousedy,
+
+00:07:23.160 --> 00:07:24.456
+v podstatě ho následují.
+
+00:07:24.480 --> 00:07:29.840
+Takže jediný člověk
+může vést celou síť následovatelů.
+
+00:07:32.000 --> 00:07:37.056
+A opakuji, není to tím, že by 
+všichni roboti věděli, kam mají letět.
+
+00:07:37.080 --> 00:07:41.400
+Jenom reagují na polohu svých sousedů.
+
+00:07:43.720 --> 00:07:47.840
+(Smích.)
+
+00:07:48.280 --> 00:07:53.520
+Další experiment ilustruje
+druhý organizační princip.
+
+00:07:54.920 --> 00:07:58.720
+Ten souvisí s principem anonymity.
+
+00:07:59.400 --> 00:08:03.696
+Klíčové zde je,
+
+00:08:03.720 --> 00:08:07.960
+že roboti se nestarají o identitu sousedů.
+
+00:08:08.440 --> 00:08:11.056
+Mají za úkol vytvořit kruhovou formaci
+
+00:08:11.080 --> 00:08:14.376
+a bez ohledu na to,
+kolik robotů do formace vpustíte
+
+00:08:14.400 --> 00:08:16.976
+nebo kolik jich odeberete,
+
+00:08:17.000 --> 00:08:20.136
+každý robot prostě reaguje na své sousedy.
+
+00:08:20.160 --> 00:08:25.136
+Ví, že má vytvořit kruh
+
+00:08:25.160 --> 00:08:26.936
+a ve spolupráci se sousedy ho vytvoří
+
+00:08:26.960 --> 00:08:30.680
+bez centrální koordinace.
+
+00:08:31.520 --> 00:08:33.936
+Když to spojíme dohromady,
+
+00:08:33.960 --> 00:08:37.856
+třetí idea je dát robotům
+
+00:08:37.880 --> 00:08:42.176
+matematický popis tvarů,
+které mají vytvořit.
+
+00:08:42.200 --> 00:08:45.696
+Tvary se mohou v čase měnit
+
+00:08:45.720 --> 00:08:50.216
+a vidíte, jak roboti začínají u kruhu,
+
+00:08:50.240 --> 00:08:53.496
+mění ho na čtyřúhelník, pak přímku
+
+00:08:53.520 --> 00:08:54.895
+a zpět k elipse.
+
+00:08:54.919 --> 00:08:58.536
+A dělají to se stejnou
+bleskovou koordinací,
+
+00:08:58.560 --> 00:09:01.840
+jakou vidíme
+u přirozených rojů, v přírodě.
+
+00:09:03.080 --> 00:09:05.216
+A proč se roji vůbec zabývat?
+
+00:09:05.240 --> 00:09:09.360
+Řeknu vám o dvou uplatněních,
+která nás velmi zajímají.
+
+00:09:10.160 --> 00:09:12.536
+První souvisí se zemědělstvím,
+
+00:09:12.560 --> 00:09:15.920
+asi největším problémem,
+kterému celosvětově čelíme.
+
+00:09:16.760 --> 00:09:18.016
+Jak víte,
+
+00:09:18.040 --> 00:09:21.560
+každý sedmý člověk
+na zemi trpí podvýživou.
+
+00:09:21.920 --> 00:09:25.400
+Většina půdy, kterou
+lze obdělávat, se již obdělává.
+
+00:09:25.960 --> 00:09:29.176
+Ale zatímco efektivita
+většiny systémů na Zemi roste,
+
+00:09:29.200 --> 00:09:32.720
+efektivita zemědělské výroby klesá.
+
+00:09:33.080 --> 00:09:37.296
+Je to dáno nedostatkem vody,
+chorobami plodin, změnou klimatu
+
+00:09:37.320 --> 00:09:38.840
+a některými dalšími vlivy.
+
+00:09:39.360 --> 00:09:40.840
+Jak by mohli roboti pomoci?
+
+00:09:41.200 --> 00:09:45.816
+Náš přístup nazýváme
+přesné farmářství v dané komunitě.
+
+00:09:45.840 --> 00:09:51.216
+Hlavní idea je, že pustíme roboty do sadů
+
+00:09:51.240 --> 00:09:54.360
+a vyhotovíme přesné modely
+jednotlivých rostlin.
+
+00:09:54.369 --> 00:09:56.666
+Podobně jako u personalizovaného 
+zdravotnictví,
+
+00:09:56.666 --> 00:10:01.336
+kde si lze představit individuální
+přístup ke každému pacientovi,
+
+00:10:01.360 --> 00:10:05.056
+chceme vytvořit model každé rostliny
+
+00:10:05.080 --> 00:10:09.216
+a moci pak farmáři říkat,
+jaké každá rostlina potřebuje vstupy –
+
+00:10:09.240 --> 00:10:13.680
+přičemž vstupy jsou zde
+voda, hnojivo a pesticidy.
+
+00:10:14.640 --> 00:10:18.256
+Tady vidíte robota,
+jak postupuje jabloňovým sadem
+
+00:10:18.280 --> 00:10:20.536
+a za chviličku uvidíte dva jeho kolegy
+
+00:10:20.560 --> 00:10:22.370
+jak dělají totéž na levé straně.
+
+00:10:22.800 --> 00:10:26.456
+A společně v podstatě vytvářejí mapu sadu.
+
+00:10:26.480 --> 00:10:29.296
+Součástí mapy je i obraz každého stromu.
+
+00:10:29.320 --> 00:10:30.976
+(Bzukot robotů.)
+
+00:10:31.000 --> 00:10:32.896
+Podívejme se jak ty mapy vypadají.
+
+00:10:32.920 --> 00:10:37.216
+Na dalším videu uvidíte kamery,
+které na tomto robotu používáme.
+
+00:10:37.240 --> 00:10:40.480
+Vlevo nahoře je v podstatě
+standardní barevná kamera,
+
+00:10:41.640 --> 00:10:44.936
+vlevo uprostřed je obraz
+z infračervené kamery
+
+00:10:44.960 --> 00:10:48.736
+a vlevo dole z termokamery.
+
+00:10:48.760 --> 00:10:52.096
+A na hlavní ploše vidíte vznikat
+trojrozměrnou rekonstrukci
+
+00:10:52.120 --> 00:10:58.240
+jednotlivých stromů v sadu,
+jak kolem nich senzory prolétají.
+
+00:10:59.640 --> 00:11:03.680
+Vyzbrojeni těmito informacemi
+pak můžeme dělat mnoho věcí.
+
+00:11:04.200 --> 00:11:08.456
+První, a možná nejdůležitější,
+je velmi jednoduchá:
+
+00:11:08.480 --> 00:11:10.920
+spočítat plody na každém stromě.
+
+00:11:11.520 --> 00:11:16.056
+Když farmáři řeknete,
+kolik je na stromech plodů,
+
+00:11:16.080 --> 00:11:20.336
+může odhadnout úrodu celého sadu
+
+00:11:20.360 --> 00:11:23.200
+a optimalizovat všech následující operace.
+
+00:11:23.640 --> 00:11:25.256
+Druhá věc, kterou můžeme udělat,
+
+00:11:25.280 --> 00:11:29.776
+jsou modely rostlin. Sestavíme
+jejich trojrozměrné rekonstrukce
+
+00:11:29.800 --> 00:11:32.336
+a z nich odhadneme plošný průmět koruny.
+
+00:11:32.360 --> 00:11:36.136
+Ten pak vztáhneme
+k celkové ploše listů na dané rostlině
+
+00:11:36.160 --> 00:11:38.336
+a získáme takzvaný index listové plochy.
+
+00:11:38.360 --> 00:11:40.296
+A znáte-li index listové plochy,
+
+00:11:40.320 --> 00:11:45.776
+máte měřítko toho,
+nakolik je rostlina schopna fotosyntézy,
+
+00:11:45.800 --> 00:11:48.680
+a to zase vypovídá o tom, jak je zdravá.
+
+00:11:49.520 --> 00:11:53.736
+Spojením vizuální 
+a infračervené složky můžeme vypočítat
+
+00:11:53.760 --> 00:11:57.056
+také indikace jako NDVI –
+normalizovaný diferenční vegetační index.
+
+00:11:57.080 --> 00:11:59.896
+V tomto konkrétním případě vidíte,
+
+00:11:59.920 --> 00:12:02.936
+že se některým rostlinám
+nevede tak dobře jako ostatním.
+
+00:12:02.960 --> 00:12:07.016
+To lze z pořízených obrazů jasně určit –
+
+00:12:07.040 --> 00:12:09.256
+ne pouze z viditelného obrazu,
+
+00:12:09.280 --> 00:12:12.056
+ale z jeho kombinace
+s infračerveným zobrazením.
+
+00:12:12.080 --> 00:12:13.416
+A dále nás zajímá možnost
+
+00:12:13.440 --> 00:12:17.456
+zjistit chlorózu v raném stádiu –
+
+00:12:17.480 --> 00:12:18.976
+tady je třeba pomerančovník.
+
+00:12:19.000 --> 00:12:21.560
+Toto stádium se v podstatě
+projevuje žloutnutím listů.
+
+00:12:21.880 --> 00:12:25.776
+Roboti pozorující strom shora
+to snadno samostatně zjistí
+
+00:12:25.800 --> 00:12:28.736
+a nahlásí farmáři,
+že v dané části sadu
+
+00:12:28.760 --> 00:12:30.280
+je problém.
+
+00:12:30.800 --> 00:12:33.496
+Podobné systémy mohou
+skutečně pomoci, a my předpokládáme
+
+00:12:33.520 --> 00:12:39.336
+při použití rojů létajících robotů
+možné zvýšení výnosů kolem deseti procent
+
+00:12:39.360 --> 00:12:42.576
+a hlavně pokles potřebných vstupů,
+
+00:12:42.600 --> 00:12:45.880
+například vody, o 25 procent.
+
+00:12:47.200 --> 00:12:52.936
+Na závěr bych vás požádal o potlesk
+pro ty, kdo doslova tvoří budoucnost:
+
+00:12:52.960 --> 00:12:57.880
+jsou to Yash Mulgaonkar,
+Sikang Liu a Giuseppe Loianno,
+
+00:12:57.920 --> 00:13:01.416
+autoři těch tří demonstrací,
+které jste viděli.
+
+00:13:01.440 --> 00:13:02.616
+Děkuji vám.
+
+00:13:02.640 --> 00:13:08.560
+(Potlesk.)
+

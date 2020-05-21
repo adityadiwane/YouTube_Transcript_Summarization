@@ -1,0 +1,623 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:07.000
+Traduttore: Rachele Salvatelli
+Revisore: Tania Piorino
+
+00:00:23.307 --> 00:00:26.491
+Cosa significa per una macchina, essere agile?
+
+00:00:26.491 --> 00:00:29.908
+Vi spiegheremo l'idea di agilità per una macchina
+
+00:00:29.908 --> 00:00:31.628
+e la ricerca che l'ha resa possibile,
+
+00:00:31.628 --> 00:00:34.139
+con l'aiuto di queste macchine volanti chiamate Quadrocopters
+
+00:00:34.139 --> 00:00:36.026
+o, in breve, Quad.
+
+00:00:38.034 --> 00:00:40.563
+I Quad esistono da diverso tempo,
+
+00:00:40.563 --> 00:00:42.162
+ma il motivo che li ha resi così famosi ora
+
+00:00:42.162 --> 00:00:44.127
+è che sono meccanicamente molto semplici.
+
+00:00:44.127 --> 00:00:46.235
+Controllando la velocità di queste quattro eliche,
+
+00:00:46.235 --> 00:00:51.329
+queste macchine possono ruotare lungo gli assi delle tre dimensioni dello spazio e accelerare.
+
+00:00:51.378 --> 00:00:55.179
+Sopra sono integrati una batteria, un computer,
+
+00:00:55.179 --> 00:00:59.133
+vari sensori e trasmettitori radio wireless.
+
+00:00:59.133 --> 00:01:03.762
+I Quad sono estremamente agili, ma questa agilità ha un prezzo.
+
+00:01:03.762 --> 00:01:05.707
+Sono intrinsecamente instabili
+
+00:01:05.707 --> 00:01:10.726
+e hanno bisogno di un controllo a feedback per essere in grado di volare.
+
+00:01:16.259 --> 00:01:19.497
+Come ha fatto?
+
+00:01:19.497 --> 00:01:21.315
+Ci sono delle fotocamere sul soffitto e un computer
+
+00:01:21.315 --> 00:01:23.891
+che assieme funzionano da GPS.
+
+00:01:23.891 --> 00:01:26.076
+In questo modo si riescono a localizzare oggetti nello spazio
+
+00:01:26.076 --> 00:01:28.603
+che hanno dei punti riflettenti.
+
+00:01:28.603 --> 00:01:30.664
+Questi dati sono inviati ad un altro computer
+
+00:01:30.664 --> 00:01:32.875
+che utilizza degli algoritmi di controllo e di stima
+
+00:01:32.875 --> 00:01:34.761
+e uno alla volta restituiscono dei commandi al Quad
+
+00:01:34.761 --> 00:01:38.246
+che a sua volta elabora queste stime.
+
+00:01:41.620 --> 00:01:44.130
+Il grosso del lavoro nella nostra ricerca sta negli algoritmi.
+
+00:01:44.130 --> 00:01:48.291
+È un po' la magia che dà vita a questo tipo di macchine.
+
+00:01:48.291 --> 00:01:51.703
+Ma come può la progettazione di un algoritmo rendere queste macchine così agili?
+
+00:01:52.611 --> 00:01:55.491
+Usiamo una progettazione comunemente chiamata 'model based design'.
+
+00:01:55.491 --> 00:02:00.398
+Con un modello matematico delineiamo il comportamento fisico delle macchine.
+
+00:02:00.425 --> 00:02:06.612
+Poi usiamo un ramo della matematica chiamato 'teoria del controllo' per analizzare questi modelli
+
+00:02:06.612 --> 00:02:09.783
+e sintetizzare in algoritmi in grado di controllarle.
+
+00:02:09.820 --> 00:02:12.868
+Per esempio, è così che riusciamo a far rimanere fermi in volo i Quad.
+
+00:02:12.868 --> 00:02:14.276
+Prima modelliamo la dinamica,
+
+00:02:14.276 --> 00:02:16.182
+con un insieme di equazioni differenziali
+
+00:02:16.182 --> 00:02:18.531
+Poi le elaboriamo grazie alla teoria del controllo
+
+00:02:18.531 --> 00:02:23.171
+per creare algoritmi che lo stabilizzino.
+
+00:02:23.171 --> 00:02:26.117
+Vi dimostro la forza di questo approccio.
+
+00:02:29.198 --> 00:02:31.747
+Immaginiamo non solo di voler tenere fermo in volo il Quad
+
+00:02:31.747 --> 00:02:34.529
+ma di fargli tenere in equilibrio quest'asta.
+
+00:02:34.529 --> 00:02:38.418
+Con un po' di esercizio, è abbastanza semplice farlo per un essere umano
+
+00:02:38.764 --> 00:02:44.026
+Inoltre noi abbiamo il vantaggio di avere due piedi per terra, e un uso molto versatile delle nostre mani.
+
+00:02:44.804 --> 00:02:50.672
+Diventa un po' più difficile quando ho solo un piede per terra e non uso le mani.
+
+00:02:52.368 --> 00:02:55.319
+L'asta ha dei segni riflettenti sulla sommità,
+
+00:02:55.319 --> 00:02:58.551
+il che la rende localizzabile nello spazio.
+
+00:03:04.443 --> 00:03:09.747
+(Applausi)
+
+00:03:10.947 --> 00:03:15.957
+Riuscite a vedere che il Quad sta effettuando una precisa regolazione per tenere l'asta in equilibrio.
+
+00:03:15.968 --> 00:03:19.027
+Come siamo riusciti a progettare un algoritmo in grado di fare questo?
+
+00:03:19.027 --> 00:03:22.655
+Abbiamo aggiunto il modello matematico dell'asta a quello del Quad.
+
+00:03:22.655 --> 00:03:25.605
+Una volta creato il modello del sistema composto da Quad e asta assieme,
+
+00:03:25.605 --> 00:03:29.584
+possiamo creare degli algoritmi in grado di controllarlo.
+
+00:03:30.599 --> 00:03:32.126
+Vedete che è stabile
+
+00:03:32.126 --> 00:03:38.726
+e anche dandogli dei colpetti ritorna in posizione d'equilibrio.
+
+00:03:40.222 --> 00:03:41.885
+Possiamo anche estendere il modello
+
+00:03:41.885 --> 00:03:44.326
+in modo da poter decidere la posizione del Quad nello spazio.
+
+00:03:44.326 --> 00:03:47.395
+Usando questo indicatore, fatto di marcatori riflettenti,
+
+00:03:47.395 --> 00:03:51.711
+posso decidere la direzione nella quale voglio che vada il Quad ad una certa distanza da me.
+
+00:04:07.763 --> 00:04:10.665
+La chiave per queste manovre acrobatiche sono gli algoritmi
+
+00:04:10.665 --> 00:04:14.183
+sviluppati con l'aiuto del modelli matematici e della teoria del controllo.
+
+00:04:15.041 --> 00:04:18.639
+Riportiamo il Quad indietro e lasciamo cadere l'asta.
+
+00:04:19.074 --> 00:04:25.404
+Ora vi dimostrerò l'importanza della comprensione del modello fisico e delle dinamiche del mondo reale.
+
+00:04:37.462 --> 00:04:41.170
+Vedete che il Quad si è abbassato quando ci ho messo sopra il bicchiere d'acqua.
+
+00:04:41.314 --> 00:04:43.438
+In questo caso, a differenza del caso dell'asta,
+
+00:04:43.438 --> 00:04:46.699
+nel modello matematico non ho incluso il bicchiere nel sistema.
+
+00:04:46.699 --> 00:04:49.618
+Infatti il sistema non sa che il bicchiere d'acqua si trova lì.
+
+00:04:49.618 --> 00:04:54.879
+Come prima, uso il puntatore per indicare al Quad dove voglio che vada.
+
+00:04:57.463 --> 00:05:03.065
+(Applausi)
+
+00:05:05.096 --> 00:05:09.343
+Ok, vi dovreste stare chiedendo perché l'acqua non cada fuori dal bicchiere.
+
+00:05:09.343 --> 00:05:10.376
+Ci sono due motivi:
+
+00:05:10.376 --> 00:05:14.941
+il primo è che la gravità agisce su tutti gli oggetti allo stesso modo.
+
+00:05:15.051 --> 00:05:20.530
+Il secondo è che le eliche puntano nella stessa direzione del bicchiere, ossia verso l'alto.
+
+00:05:20.642 --> 00:05:25.541
+Mettete insieme le due cose, e il risultato è che le forze laterali sul bicchiere sono molto piccole
+
+00:05:25.541 --> 00:05:28.075
+e sono principalmente dominate da effetti areodinamici
+
+00:05:28.091 --> 00:05:31.085
+che a queste velocità sono trascurabili.
+
+00:05:35.336 --> 00:05:37.407
+E questo è il motivo per cui non è necessario inserire il bicchiere nel sistema.
+
+00:05:37.407 --> 00:05:41.255
+Non ne esce una goccia qualunque cosa faccia il Quad.
+
+00:05:50.777 --> 00:05:55.729
+(Applausi)
+
+00:05:58.405 --> 00:06:02.761
+Quello che c'è da capire è che alcune prestazioni elevate sono più facili di altre
+
+00:06:02.762 --> 00:06:08.052
+e che capire la fisica che c'è dietro al problema ci dice quali sono facili e quali difficili.
+
+00:06:08.052 --> 00:06:10.386
+In questo caso, portare un bicchiere d'acqua è facile
+
+00:06:10.386 --> 00:06:13.386
+e tenere in equilibrio un'asta è difficile.
+
+00:06:14.171 --> 00:06:18.311
+Tutti abbiamo sentito storie di atleti che hanno compiuto grandi prodezze mentre erano infortunati.
+
+00:06:18.327 --> 00:06:22.405
+E una macchina può fare altrettanto, in caso di danni fisici?
+
+00:06:22.712 --> 00:06:28.238
+La convinzione comune è che abbiamo bisogno di almeno quattro eliche a motore accoppiate assieme per volare
+
+00:06:28.238 --> 00:06:30.421
+e questo perché ci sono quattro gradi di liberta nel controllo
+
+00:06:30.421 --> 00:06:33.192
+ruotare nelle tre dimensioni e accelerare.
+
+00:06:33.192 --> 00:06:36.437
+Gli Hexacopter e gli Octocopter hanno sei e otto eliche
+
+00:06:36.437 --> 00:06:38.273
+che sono più di quelle che servirebbero
+
+00:06:38.273 --> 00:06:39.909
+ma i <i>Quadrocopter</i> sono molto più popolari
+
+00:06:39.909 --> 00:06:44.093
+proprio perché hanno il numero minimo di eliche a motore: quattro.
+
+00:06:44.200 --> 00:06:46.165
+O no?
+
+00:07:01.291 --> 00:07:04.076
+Se analizziamo il modello matematico di queste macchine
+
+00:07:04.076 --> 00:07:06.252
+con solo due eliche funzionanti,
+
+00:07:06.252 --> 00:07:10.731
+scopriamo che utilizzano un modo non convenzionale di volare.
+
+00:07:19.980 --> 00:07:21.686
+Abbiamo perso il controllo attorno all'asse verticale
+
+00:07:21.686 --> 00:07:24.756
+ma lungo gli altri due assi e in accelerazione possono ancora essere controllati
+
+00:07:24.756 --> 00:07:29.377
+con algoritmi che cercano di trarre vantaggio proprio da questa nuova configurazione.
+
+00:07:33.668 --> 00:07:36.100
+I modelli matematici ci dicono esattamente
+
+00:07:36.100 --> 00:07:38.172
+quando e perché questo è possibile
+
+00:07:38.172 --> 00:07:41.893
+In questo caso, saperlo ci permette di creare un'architettura insolita per una macchina
+
+00:07:42.796 --> 00:07:46.972
+o elaborare algoritmi intelligenti che gestiscono con eleganza il danno subito
+
+00:07:46.972 --> 00:07:48.696
+proprio come fa un'atleta,
+
+00:07:48.696 --> 00:07:52.519
+invece di costruire robot con una dotazione eccessiva.
+
+00:07:52.519 --> 00:07:54.631
+Non possiamo fare a meno di trattenere il fiato quando vediamo
+
+00:07:54.631 --> 00:07:57.068
+un tuffo in acqua con salto mortale
+
+00:07:57.068 --> 00:07:58.858
+o quando un ginnasta volteggia nell'aria
+
+00:07:58.858 --> 00:08:00.576
+e si avvicina rapido a terra.
+
+00:08:00.576 --> 00:08:03.144
+Il tuffatore ce la farà a fare un'entrata pulita in acqua?
+
+00:08:03.144 --> 00:08:05.144
+E il ginnasta farà un atterraggio fermo?
+
+00:08:05.144 --> 00:08:06.812
+Proviamo a far eseguire al Quad
+
+00:08:06.812 --> 00:08:11.447
+un salto triplo, tornando nel punto esatto dove ha cominciato.
+
+00:08:11.601 --> 00:08:13.879
+La manovra avverrà in modo talmente veloce
+
+00:08:13.879 --> 00:08:17.508
+che non si può fare feedback per correggerla durante l'esecuzione.
+
+00:08:17.508 --> 00:08:19.782
+Semplicemente non c'è abbastanza tempo per farlo.
+
+00:08:19.782 --> 00:08:23.476
+Invece, quello che il Quad può fare è eseguire la manovra senza controllo esterno
+
+00:08:23.476 --> 00:08:25.708
+e quando ha finito possiamo vedere com'è andata,
+
+00:08:25.708 --> 00:08:28.132
+e usare quest'informazione per migliorare il suo comportamento
+
+00:08:28.132 --> 00:08:30.421
+in modo da migliorare i salti successivi.
+
+00:08:30.421 --> 00:08:32.233
+In modo molto simile al tuffatore e al ginnasta
+
+00:08:32.233 --> 00:08:34.152
+è solo una questione di pratica
+
+00:08:34.152 --> 00:08:36.077
+e la manovra può essere imparata ed eseguita
+
+00:08:36.077 --> 00:08:38.210
+fino ad avere risultati migliori.
+
+00:08:46.412 --> 00:08:51.164
+(Applausi)
+
+00:08:51.164 --> 00:08:54.636
+In molti sport è necessario saper colpire una palla in movimento.
+
+00:08:54.636 --> 00:08:56.431
+Come possiamo far eseguire ad un robot
+
+00:08:56.431 --> 00:09:00.184
+quello che un atleta riesce a fare apparentemente senza sforzo?
+
+00:09:15.943 --> 00:09:22.542
+(Applausi)
+
+00:09:22.542 --> 00:09:25.192
+Il Quad ha una racchetta fissata sulla sommità
+
+00:09:25.192 --> 00:09:28.679
+con il punto ottimale delle dimensioni all'incirca di una mela, quindi non molto grande.
+
+00:09:28.679 --> 00:09:31.846
+Per effettuare la mossa che vediamo ora, l'elaborazione è fatta ogni 20 millisecondi
+
+00:09:31.846 --> 00:09:33.602
+o 50 volte al secondo.
+
+00:09:33.602 --> 00:09:36.414
+Prima cerchiamo di capire dove sta andando la palla.
+
+00:09:36.414 --> 00:09:38.851
+Poi calcoliamo come il Quad dovrebbe colpirla
+
+00:09:38.851 --> 00:09:41.950
+facendolo volare nella direzione dove è stata tirata la palla.
+
+00:09:41.950 --> 00:09:46.406
+Terzo, viene calcolata una traiettoria che porta il Quad
+
+00:09:46.406 --> 00:09:49.430
+dalla sua posizione attuale al punto dell'impatto con la palla.
+
+00:09:49.430 --> 00:09:53.239
+Quarto, abbiamo solo 20 millisecondi in cui è valida questa strategia.
+
+00:09:53.239 --> 00:09:56.046
+Venti millisecondi dopo, l'intero processo viene ripetuto
+
+00:09:56.046 --> 00:09:58.289
+fino a che il Quad batte la palla.
+
+00:10:07.560 --> 00:10:10.206
+(Applausi)
+
+00:10:10.206 --> 00:10:13.578
+Queste macchine non riescono ad eseguire manovre dinamiche soltanto da sole
+
+00:10:13.578 --> 00:10:15.441
+ma riescono a farlo anche assieme ad altre.
+
+00:10:15.441 --> 00:10:19.028
+Questi tre Quad stanno sostenendo questa rete assieme
+
+00:10:28.574 --> 00:10:33.985
+(Applausi)
+
+00:10:33.985 --> 00:10:36.182
+Stanno eseguendo una manovra collettiva ed estremamente dinamica
+
+00:10:36.182 --> 00:10:40.073
+per lanciarmi indietro la palla tutti assieme.
+
+00:10:40.073 --> 00:10:43.553
+Nella loro massima estensione, i Quad si mettono in posizione verticale.
+
+00:10:48.486 --> 00:10:50.258
+(Applausi)
+
+00:10:50.258 --> 00:10:52.545
+Infatti quando la rete è completamente estesa,
+
+00:10:52.545 --> 00:10:58.337
+è più o meno cinque volte quello che sente una persona che pratica bungee jumping alla fine del lancio.
+
+00:11:03.009 --> 00:11:05.686
+Gli algoritmi in grado di fare queste cose sono molto simili
+
+00:11:05.686 --> 00:11:09.070
+a quelli che il Quad usa quando mi rilancia la palla da solo.
+
+00:11:09.070 --> 00:11:11.934
+I modelli matematici riescono ad aggiornare la strategia
+
+00:11:11.934 --> 00:11:15.771
+dei Quad che agiscono cooperativamente 50 volte al secondo.
+
+00:11:16.279 --> 00:11:18.326
+Tutto quello che avete visto finora
+
+00:11:18.326 --> 00:11:20.789
+è reso possibile dalle macchine e dalle loro abilità.
+
+00:11:20.789 --> 00:11:23.804
+Che succede quando associamo l'agilità di queste macchine
+
+00:11:23.804 --> 00:11:25.580
+agli esseri umani?
+
+00:11:25.580 --> 00:11:29.185
+Di fronte a me c'è un comune sensore di movimento
+
+00:11:29.185 --> 00:11:31.278
+usato per riconoscere i gesti durante il videogioco.
+
+00:11:31.278 --> 00:11:34.728
+Può riconoscere diverse parti del corpo in tempo reale.
+
+00:11:34.728 --> 00:11:36.662
+Come per la bacchetta che ho usato prima,
+
+00:11:36.662 --> 00:11:39.454
+possiamo usare il sensore come input del sistema.
+
+00:11:39.454 --> 00:11:41.850
+Così avremo un modo più naturale per far interagire
+
+00:11:41.850 --> 00:11:45.624
+i Quad con i miei movimenti.
+
+00:12:22.453 --> 00:12:26.853
+(Applausi)
+
+00:12:35.982 --> 00:12:39.989
+L'interazione non deve essere per forza virtuale. Può essere fisica.
+
+00:12:40.097 --> 00:12:41.985
+Prendete questo quad, per esempio.
+
+00:12:41.985 --> 00:12:45.230
+Sta cercando di stare in un punto fisso nello spazio.
+
+00:12:45.230 --> 00:12:46.775
+Se provo a spostarlo dalla sua posizione,
+
+00:12:46.775 --> 00:12:50.434
+oppone resistenza e ritorna a stare dove voleva essere.
+
+00:12:52.048 --> 00:12:54.633
+Ma noi siamo in grado di modificare questo comportamento.
+
+00:12:55.359 --> 00:13:00.160
+Possiamo usare dei modelli matematici per calcolare la forza che devo applicare al Quad.
+
+00:13:00.160 --> 00:13:03.446
+Quando conosciamo questa forza, possiamo anche cambiare le leggi della fisica,
+
+00:13:03.446 --> 00:13:06.370
+per quanto riguarda il Quad, ovviamente.
+
+00:13:08.630 --> 00:13:11.984
+Ecco, qui il quad si sta comportando come se fosse in un fluido viscoso.
+
+00:13:14.430 --> 00:13:18.621
+Ora abbiamo un modo intimo di interagire con una macchina.
+
+00:13:18.744 --> 00:13:23.268
+Userò questa nuova funzionalità per posizionare questo Quad che trasporta una videocamera,
+
+00:13:23.283 --> 00:13:26.403
+nella posizione appropriata per le riprese del resto di questa dimostrazione.
+
+00:13:36.590 --> 00:13:41.428
+Così siamo in grado di interagire fisicamente con questi quad e siamo in grado di cambiare le leggi della fisica.
+
+00:13:41.428 --> 00:13:43.641
+Divertiamoci un po' con questo.
+
+00:13:43.641 --> 00:13:48.980
+Per ciò che vedrete tra poco, questi quad inizialmente si comporteranno come se fossero su Plutone.
+
+00:13:48.980 --> 00:13:53.327
+Con lo scorrere del tempo, la gravità verrà aumentata fino a quando non saremo tutti tornati sulla Terra.
+
+00:13:53.327 --> 00:13:55.831
+Ma vi assicuro che non arriveremo lì.
+
+00:13:55.831 --> 00:13:57.939
+Ok, iniziamo.
+
+00:14:05.392 --> 00:14:08.231
+(Risate)
+
+00:14:37.596 --> 00:14:47.122
+(Applausi)
+
+00:14:47.122 --> 00:14:50.637
+Probabilmente adesso starete pensando che questi ragazzi si divertono davvero troppo
+
+00:14:50.637 --> 00:14:55.901
+e probabilmente vi state anche chiedendo, qual è il vero motivo per cui stanno costruendo macchine agili?
+
+00:14:55.901 --> 00:15:01.717
+Alcuni ipotizzano che il ruolo del gioco nel regno animale sia quello di affinare le competenze e sviluppare le capacità.
+
+00:15:01.717 --> 00:15:05.558
+Altri pensano che abbia più un ruolo sociale, usato per creare coesione.
+
+00:15:05.558 --> 00:15:13.452
+In modo analogo, noi sfruttiamo l'analogia fra sport e agilità, per creare nuovi algoritmi per le macchine, con l'intento di spingerle al limite.
+
+00:15:13.452 --> 00:15:16.878
+Quale impatto avrà la velocità delle macchine sul nostro modo di vivere?
+
+00:15:16.878 --> 00:15:22.770
+Come tutte le nostre passate creazioni e innovazioni, potrebbero migliorare le condizioni di vita umane
+
+00:15:22.770 --> 00:15:24.765
+o potrebbero essere usate impropriamente ed abusate.
+
+00:15:24.765 --> 00:15:28.501
+Non ci troviamo di fronte a una scelta tecnica, ma sociale.
+
+00:15:28.501 --> 00:15:32.461
+Facciamo la scelta giusta, la scelta che tira fuori il meglio per il futuro delle macchine,
+
+00:15:32.461 --> 00:15:36.381
+proprio come l'agilità nello sport può tirare fuori il meglio di noi.
+
+00:15:36.381 --> 00:15:40.370
+Lasciate che vi presenti le menti dietro tutto questo.
+
+00:15:40.370 --> 00:15:43.844
+Sono i ricercatori del Flying Machine Arena research team.
+
+00:15:43.844 --> 00:15:47.654
+(Applausi)
+
+00:15:47.654 --> 00:15:51.753
+Federico Augugliaro, Dario Brescianini , Markus Hehn,
+
+00:15:51.753 --> 00:15:53.671
+Sergei Lupashin, Mark Muller e Robin Ritz.
+
+00:15:53.671 --> 00:15:55.445
+Seguiteli. Faranno grandi cose.
+
+00:15:55.445 --> 00:15:56.580
+Grazie.
+
+00:15:57.426 --> 00:16:00.724
+(Applausi)
+

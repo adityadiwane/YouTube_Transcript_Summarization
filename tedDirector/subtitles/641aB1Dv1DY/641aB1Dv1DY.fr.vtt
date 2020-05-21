@@ -1,0 +1,280 @@
+WEBVTT
+Kind: captions
+Language: fr
+
+00:00:00.000 --> 00:00:07.000
+Traducteur: Shadia Ramsahye
+Relecteur: Els De Keyser
+
+00:00:16.804 --> 00:00:20.773
+Pour comprendre le monde dans lequel nous vivons, 
+nous racontons des histoires.
+
+00:00:20.773 --> 00:00:24.243
+Alors que le remixage et le partage 
+ont été amenés à façonner
+
+00:00:24.243 --> 00:00:25.824
+le web tel que nous le connaissons aujourd'hui,
+
+00:00:25.824 --> 00:00:29.659
+nous pouvons tous faire partie de cette histoire 
+par de simples outils
+
+00:00:29.659 --> 00:00:32.124
+qui nous permettent de faire des choses en ligne.
+
+00:00:32.124 --> 00:00:36.206
+Mais la vidéo a été oubliée. 
+Elle est arrivée sur le web
+
+00:00:36.206 --> 00:00:38.952
+dans une petite boîte, 
+et elle y est restée,
+
+00:00:38.952 --> 00:00:42.041
+complètement déconnectée des données et contenus
+
+00:00:42.041 --> 00:00:43.913
+l'entourant.
+
+00:00:43.913 --> 00:00:45.825
+En effet, en un peu plus d'une décennie, la seule chose
+
+00:00:45.825 --> 00:00:49.421
+qui ait changé pour la vidéo est la taille de la boîte
+
+00:00:49.421 --> 00:00:52.298
+et la qualité de l'image.
+
+00:00:52.298 --> 00:00:55.466
+Popcorn change tout cela.
+
+00:00:55.466 --> 00:00:58.579
+Il s'agit d'un outil en ligne 
+qui permet à toute personne de combiner de la vidéo
+
+00:00:58.579 --> 00:01:01.964
+avec du contenu tiré en temps réel directement du web.
+
+00:01:01.964 --> 00:01:05.499
+Les vidéos créées avec Popcorn 
+sont comme le web lui-même :
+
+00:01:05.499 --> 00:01:09.546
+dynamiques, pleines de liens, 
+et complètement remixables,
+
+00:01:09.546 --> 00:01:13.845
+et pouvant enfin de se libérer du cadre.
+
+00:01:13.845 --> 00:01:16.249
+Je voudrais vous faire la démonstration d'un prototype
+
+00:01:16.249 --> 00:01:18.289
+sur lequel nous travaillons 
+et que nous lancerons cet automne.
+
+00:01:18.289 --> 00:01:23.235
+Cette version sera complètement gratuite, 
+et marchera sous tous les navigateurs.
+
+00:01:23.235 --> 00:01:26.301
+Toute production Popcorn commence avec la vidéo,
+
+00:01:26.301 --> 00:01:28.687
+et donc j'ai fait un petit clip de 20 secondes
+
+00:01:28.687 --> 00:01:32.438
+en utilisant un modèle pour présentateur de journal 
+que nous utilisons en atelier.
+
+00:01:32.438 --> 00:01:36.122
+Regardons-le. On y reviendra, 
+et je vous montrerai comment on l'a fait.
+
+00:01:36.122 --> 00:01:38.874
+Bonjour, et bienvenue à mon journal télévisé.
+
+00:01:38.874 --> 00:01:41.315
+J'ai ajouté ma localisation à travers Google Maps,
+
+00:01:41.315 --> 00:01:44.683
+et elle est actualisée en temps réel, 
+donc essayez de bouger.
+
+00:01:44.683 --> 00:01:48.075
+Vous pouvez ajouter des pop-up avec les liens actifs 
+et des icônes customisées,
+
+00:01:48.075 --> 00:01:51.539
+ou importer du contenu 
+de tout service en ligne, tel que Flickr,
+
+00:01:51.539 --> 00:01:56.369
+ou ajouter des articles et des billets 
+avec des liens vers le contenu complet.
+
+00:01:56.369 --> 00:02:00.008
+Bon, revenons-y et je vous montrerai ce que vous avez vu.
+Il y avait beaucoup de choses.
+
+00:02:00.008 --> 00:02:03.434
+Ceci est la timeline, 
+et si vous avez déjà édité de la vidéo,
+
+00:02:03.434 --> 00:02:06.353
+ceci vous est familier, mais au lieu d'avoir 
+des clips dans la timeline,
+
+00:02:06.353 --> 00:02:09.939
+nous avons des éléments du web 
+qui sont importés dans la vidéo.
+
+00:02:09.939 --> 00:02:12.330
+Dans cette production Popcorn, nous avons
+
+00:02:12.330 --> 00:02:16.083
+l'intertitre, une carte Google Maps qui apparaît
+
+00:02:16.083 --> 00:02:18.570
+dans l'image, puis Popcorn la laisse sortir
+
+00:02:18.570 --> 00:02:21.930
+du cadre et occuper tout l'écran.
+
+00:02:21.930 --> 00:02:24.599
+Deux pop-up vous apportent d'autres informations,
+
+00:02:24.599 --> 00:02:28.977
+et un dernier article avec un lien vers l'article original.
+
+00:02:28.977 --> 00:02:32.511
+Voyons cette carte Google, et nous verrons 
+comment nous pouvons l'éditer.
+
+00:02:32.511 --> 00:02:35.760
+Il suffit d'aller dans la timeline, 
+de double-cliquer sur l'élément,
+
+00:02:35.760 --> 00:02:38.019
+et je l'ai paramétré sur Toronto, puisque je viens de là.
+
+00:02:38.019 --> 00:02:41.541
+Mettons-le autre chose.
+
+00:02:41.541 --> 00:02:44.672
+Popcorn va immédiatement sur le web,
+
+00:02:44.672 --> 00:02:47.729
+parle à Google, saisit la carte, 
+et la met dans la zone d'affichage.
+
+00:02:47.729 --> 00:02:49.335
+Et c'est exactement la même chose
+
+00:02:49.335 --> 00:02:51.071
+pour les personnes qui regardent votre production.
+
+00:02:51.071 --> 00:02:53.582
+C'est en direct. Ce n'est pas une image. 
+Vous cliquez dessus,
+
+00:02:53.582 --> 00:02:57.812
+vous zoomez, même en Street View si vous le souhaitez.
+
+00:02:57.812 --> 00:03:00.819
+Dans la vidéo, j'ai évoqué l'ajout d'un flux,
+
+00:03:00.819 --> 00:03:04.000
+ce que nous allons faire, donc ajoutons un flux
+
+00:03:04.000 --> 00:03:06.884
+de Flickr. Allez à droite,
+
+00:03:06.884 --> 00:03:09.273
+choisissez Flickr de la liste d'options,
+
+00:03:09.273 --> 00:03:11.520
+glissez-le dans la timeline,
+
+00:03:11.520 --> 00:03:13.994
+mettez-le où vous le souhaitez,
+
+00:03:13.994 --> 00:03:16.457
+et il va immédiatement sur Flickr et commence à importer
+
+00:03:16.457 --> 00:03:19.469
+les images basées sur les tags. Mes développeurs
+
+00:03:19.469 --> 00:03:23.329
+aiment beaucoup les poneys, 
+et donc ils ont mis cela comme tag par défaut.
+
+00:03:23.329 --> 00:03:26.445
+Essayons autre chose,
+
+00:03:26.445 --> 00:03:30.013
+peut-être quelque chose en rapport à aujourd'hui.
+
+00:03:30.013 --> 00:03:32.743
+Voici les images importées en direct du flux.
+
+00:03:32.743 --> 00:03:34.331
+Si vous revenez voir ceci dans une semaine,
+
+00:03:34.331 --> 00:03:35.875
+ça sera complètement différent,
+
+00:03:35.875 --> 00:03:38.384
+dynamique, tout comme le web, et tout comme le web,
+
+00:03:38.384 --> 00:03:40.436
+tout a une source, donc cliquez sur le lien,
+
+00:03:40.436 --> 00:03:44.229
+et vous allez directement sur Flickr voir l'image d'origine.
+
+00:03:44.229 --> 00:03:46.475
+Tout ce que vous voyez aujourd'hui est fait avec
+
+00:03:46.475 --> 00:03:50.035
+les bases de construction du web : 
+du HTML, CSS et JavaScript.
+
+00:03:50.035 --> 00:03:51.954
+Ce qui veut dire que c'est complètement remixable.
+
+00:03:51.954 --> 00:03:54.518
+Et qu'il n'y a pas de logiciel propriétaire. 
+Vous n'avez besoin
+
+00:03:54.518 --> 00:03:57.477
+que d'un navigateur web.
+
+00:03:57.477 --> 00:04:00.847
+Imaginez si toutes les vidéos 
+que nous regardions sur le web
+
+00:04:00.847 --> 00:04:03.893
+marchaient comme le web, 
+seraient complètement remixables,
+
+00:04:03.893 --> 00:04:06.640
+liées au contenu d'origine, et interactives
+
+00:04:06.640 --> 00:04:09.021
+pour toute personne qui les regarderait.
+
+00:04:09.021 --> 00:04:12.017
+Je pense que Popcorn pourrait changer 
+la façon dont nous racontons les histoires
+
+00:04:12.017 --> 00:04:14.395
+sur le web, et la façon dont nous comprenons 
+le monde dans lequel nous vivons.
+
+00:04:14.395 --> 00:04:20.081
+Merci. 
+(Applaudissements)
+

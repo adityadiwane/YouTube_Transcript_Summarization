@@ -1,0 +1,1394 @@
+WEBVTT
+Kind: captions
+Language: pl
+
+00:00:00.000 --> 00:00:07.000
+Tłumaczenie: Jerzy Papiorek
+Korekta: Rysia Wand
+
+00:00:12.880 --> 00:00:14.735
+Kiedyś było tak,
+
+00:00:14.735 --> 00:00:16.590
+że aby komputer coś zrobił,
+
+00:00:16.590 --> 00:00:18.447
+trzeba go było zaprogramować.
+
+00:00:18.447 --> 00:00:21.398
+Dla tych, którzy tego nie robili:
+
+00:00:21.398 --> 00:00:25.470
+programowanie wymaga
+drobiazgowego zdefiniowania 
+
+00:00:25.470 --> 00:00:28.727
+każdego kroku, który komputer ma wykonać,
+
+00:00:28.727 --> 00:00:30.614
+by osiągnąć cel.
+
+00:00:30.614 --> 00:00:33.221
+Jeżeli chcemy,
+by komputer wykonał czynność,
+
+00:00:33.221 --> 00:00:35.070
+której sami nie potrafimy wykonać,
+
+00:00:35.079 --> 00:00:36.648
+stajemy przed dużym wyzwaniem.
+
+00:00:36.648 --> 00:00:40.131
+Stanął przed nim Artur Samuel.
+
+00:00:40.131 --> 00:00:43.348
+W 1956 roku stwierdził, że chciałby,
+
+00:00:43.348 --> 00:00:46.548
+aby komputer wygrał z nim w warcaby.
+
+00:00:46.548 --> 00:00:48.018
+Jak napisać program,
+
+00:00:48.018 --> 00:00:50.547
+drobiazgowo wyrazić, 
+jak być lepszym w warcaby
+
+00:00:50.547 --> 00:00:52.196
+niż jest się samemu?
+
+00:00:52.196 --> 00:00:54.116
+Artur wpadł na następujący pomysł:
+
+00:00:54.116 --> 00:00:57.840
+kazał komputerowi 
+grać z samym sobą tysiące razy
+
+00:00:57.840 --> 00:01:00.364
+i w ten sposób nauczyć się gry.
+
+00:01:00.364 --> 00:01:02.314
+Rzeczywiście się udało.
+
+00:01:02.314 --> 00:01:07.561
+W 1962 roku komputer pokonał
+mistrza stanu Connecticut.
+
+00:01:07.561 --> 00:01:10.534
+Artur Samuel był ojcem
+uczenia maszynowego.
+
+00:01:10.534 --> 00:01:12.251
+Mam wobec niego duży dług,
+
+00:01:12.251 --> 00:01:14.404
+bo sam zajmuję się
+uczeniem maszynowym.
+
+00:01:14.404 --> 00:01:16.051
+Byłem przewodniczącym Kaggle,
+
+00:01:16.051 --> 00:01:18.888
+społeczności zrzeszającej 
+200 tys. specjalistów
+
+00:01:18.888 --> 00:01:20.367
+od programowania maszynowego.
+
+00:01:20.367 --> 00:01:22.122
+Kaggle organizuje konkursy,
+
+00:01:22.122 --> 00:01:23.757
+podczas których członkowie próbują
+
+00:01:23.757 --> 00:01:25.833
+rozwiązać dotąd nierozwiązane problemy.
+
+00:01:25.833 --> 00:01:29.470
+Udało się to już setki razy.
+
+00:01:29.470 --> 00:01:32.120
+Z tej perspektywy wiele się dowiedziałem
+
+00:01:32.120 --> 00:01:35.950
+o dawnych i obecnych 
+możliwościach uczenia maszynowego,
+
+00:01:35.950 --> 00:01:38.252
+i co będzie możliwe w przyszłości.
+
+00:01:38.252 --> 00:01:40.135
+Chyba pierwszym dużym sukcesem
+
+00:01:40.135 --> 00:01:42.571
+w komercyjnym zastosowaniu
+uczenia maszynowego
+
+00:01:42.571 --> 00:01:45.944
+był Google, który udowodnił,
+że da się szukać informacji
+
+00:01:45.944 --> 00:01:47.856
+przy pomocy algorytmu komputerowego,
+
+00:01:47.856 --> 00:01:49.802
+opartego o uczenie maszynowe.
+
+00:01:49.802 --> 00:01:53.928
+Odtąd było wiele udanych
+komercyjnych zastosowań.
+
+00:01:53.928 --> 00:01:55.844
+Firmy takie jak Amazon czy Netflix
+
+00:01:55.844 --> 00:01:59.110
+używają uczenia maszynowego
+do proponowania produktów
+
+00:01:59.110 --> 00:02:01.770
+lub filmów, które nas zaciekawią.
+
+00:02:01.776 --> 00:02:03.986
+Czasem przyprawia to o gęsią skórkę.
+
+00:02:03.986 --> 00:02:05.463
+Firmy jak LinkedIn czy Facebook
+
+00:02:05.463 --> 00:02:08.077
+mówią nam czasem, kogo znamy,
+
+00:02:08.077 --> 00:02:10.191
+i nie mamy pojęcia, jak to robią.
+
+00:02:10.191 --> 00:02:13.178
+Wykorzystują moc uczenia maszynowego.
+
+00:02:13.195 --> 00:02:16.302
+To algorytmy, które uczą się z danych,
+
+00:02:16.302 --> 00:02:19.399
+nie zaś przez ręczne programowanie.
+
+00:02:19.399 --> 00:02:23.225
+To również dlatego
+komputer Watson firmy IBM
+
+00:02:23.225 --> 00:02:26.059
+potrafił pokonać dwóch 
+mistrzów świata w grze "Va Banque",
+
+00:02:26.059 --> 00:02:29.484
+odpowiadając na niezwykle subtelne
+i skomplikowane pytania takie jak to:
+
+00:02:29.484 --> 00:02:32.819
+Antyczny "Lew z Kalchu" zginął z muzeum
+w tym mieście w 2003 roku.
+
+00:02:32.819 --> 00:02:35.514
+Także dlatego mamy pierwsze
+samokierujące samochody.
+
+00:02:35.514 --> 00:02:38.936
+Możliwość odróżnienia, powiedzmy,
+drzewa i przechodnia,
+
+00:02:38.936 --> 00:02:40.488
+jest dosyć istotna.
+
+00:02:40.488 --> 00:02:43.075
+Nie wiemy, jak zaprogramować to ręcznie,
+
+00:02:43.075 --> 00:02:46.072
+ale potrafimy to zrobić
+przez uczenie maszynowe.
+
+00:02:46.072 --> 00:02:49.510
+Ten samochód przejechał już
+ponad 2 mln kilometrów
+
+00:02:49.510 --> 00:02:52.186
+po zwykłych drogach, bez wypadków.
+
+00:02:52.196 --> 00:02:56.110
+Czyli komputery potrafią się uczyć
+
+00:02:56.110 --> 00:02:58.010
+i potrafią uczyć się rzeczy,
+
+00:02:58.010 --> 00:03:00.848
+których czasem sami nie potrafimy robić,
+
+00:03:00.848 --> 00:03:03.733
+lub potrafią je robić lepiej niż my.
+
+00:03:03.733 --> 00:03:07.348
+Jeden z niezwykłych przykładów
+uczenia maszynowego
+
+00:03:07.348 --> 00:03:10.320
+zdarzył się w projekcie,
+który prowadziłem w Kaggle.
+
+00:03:10.320 --> 00:03:13.911
+Zespół, którym kierował Geoffrey Hinton
+
+00:03:13.911 --> 00:03:15.463
+z Uniwersytetu w Toronto,
+
+00:03:15.463 --> 00:03:18.140
+wygrał konkurs na automatyczne
+odkrywanie leków.
+
+00:03:18.140 --> 00:03:20.987
+Co niezwykłe, 
+nie tylko przebili wszystkie algorytmy
+
+00:03:20.987 --> 00:03:25.011
+firmy Merck i międzynarodowej 
+społeczności akademickiej,
+
+00:03:25.011 --> 00:03:28.230
+ale też nikt w zespole nie miał
+żadnej wiedzy z chemii, biologii
+
+00:03:28.260 --> 00:03:29.820
+czy nauki o organizmach żywych,
+
+00:03:29.820 --> 00:03:32.230
+a zrobili to w dwa tygodnie.
+
+00:03:32.230 --> 00:03:34.241
+Jak im się to udało?
+
+00:03:34.241 --> 00:03:37.342
+Użyli niezwykłego algorytmu,
+zwanego uczeniem głębokim.
+
+00:03:37.342 --> 00:03:40.191
+To wydarzenie było tak ważne,
+że kilka tygodni później
+
+00:03:40.191 --> 00:03:43.412
+New York Times pisał o nim
+na stronie głównej.
+
+00:03:43.412 --> 00:03:46.147
+Po lewej stronie widoczny
+jest Geoffrey Hinton.
+
+00:03:46.147 --> 00:03:51.278
+Uczenie głębokie to algorytm zainspirowany
+sposobem działania ludzkiego mózgu,
+
+00:03:51.278 --> 00:03:55.831
+przez co nie ma żadnych 
+teoretycznych ograniczeń.
+
+00:03:55.831 --> 00:03:58.774
+Im więcej dostaje danych,
+im więcej czasu obliczeniowego,
+
+00:03:58.774 --> 00:04:00.456
+tym staje się lepszy.
+
+00:04:00.456 --> 00:04:02.615
+New York Times przedstawił też w artykule
+
+00:04:02.615 --> 00:04:05.187
+inne niezwykłe osiągniecie
+uczenia głębokiego,
+
+00:04:05.187 --> 00:04:07.129
+które teraz zaprezentuję.
+
+00:04:07.899 --> 00:04:12.090
+Udowadnia ono, że komputery 
+potrafią słuchać i rozumieć.
+
+00:04:12.510 --> 00:04:15.221
+(Wideo) Richard Rashid: Ostatni krok,
+
+00:04:15.221 --> 00:04:18.246
+który chciałbym wykonać w tym procesie,
+
+00:04:18.246 --> 00:04:22.961
+to przemówić do was po chińsku.
+
+00:04:22.961 --> 00:04:25.596
+Chodzi o to, że udało nam się
+
+00:04:25.596 --> 00:04:30.598
+wziąć dużą ilość informacji
+od osób mówiących po chińsku
+
+00:04:30.598 --> 00:04:33.128
+i stworzyć system syntezy mowy,
+
+00:04:33.128 --> 00:04:37.801
+który konwertuje chiński tekst na mowę.
+
+00:04:37.801 --> 00:04:41.929
+Potem wzięliśmy godzinne
+nagranie mojego głosu
+
+00:04:41.929 --> 00:04:46.220
+i użyliśmy go do zmodulowania 
+standardowego systemu syntezy mowy,
+
+00:04:46.220 --> 00:04:47.911
+żeby brzmiał jak ja.
+
+00:04:47.911 --> 00:04:50.904
+Efekt nie jest bezbłędny.
+
+00:04:50.904 --> 00:04:53.552
+W sumie jest nawet sporo błędów.
+
+00:04:53.552 --> 00:04:56.036
+(Po chińsku)
+
+00:04:56.036 --> 00:04:58.383
+(Oklaski)
+
+00:05:01.446 --> 00:05:05.022
+Ta dziedzina wymaga jeszcze dużo pracy.
+
+00:05:05.022 --> 00:05:08.667
+(Po chińsku)
+
+00:05:08.667 --> 00:05:11.090
+(Oklaski)
+
+00:05:12.735 --> 00:05:16.744
+JH: To był fragment konferencji
+na temat uczenia maszynowego w Chinach.
+
+00:05:16.744 --> 00:05:20.904
+Na akademickich konferencjach
+rzadko słyszy się spontaniczny aplauz.
+
+00:05:21.011 --> 00:05:23.177
+Na konferencjach TEDx
+zdarza się to częściej,
+
+00:05:23.177 --> 00:05:24.580
+więc proszę się nie krępować.
+
+00:05:24.580 --> 00:05:28.193
+Wszystko, co tu widzieliście, 
+osiągnięto przez uczenie głębokie.
+
+00:05:28.193 --> 00:05:29.127
+(Oklaski) Dziękuję.
+
+00:05:29.127 --> 00:05:31.289
+Transkrypcja na angielski
+to uczenie głębokie.
+
+00:05:31.289 --> 00:05:34.701
+Tłumaczenie na chiński i tekst
+w prawym górnym rogu - uczenie głębokie,
+
+00:05:34.701 --> 00:05:38.008
+synteza mowy to również uczenie głębokie.
+
+00:05:38.008 --> 00:05:41.242
+Uczenie głębokie jest niezwykłe.
+
+00:05:41.242 --> 00:05:44.341
+To pojedynczy algorytm, 
+który jakby umie wszystko.
+
+00:05:44.341 --> 00:05:47.452
+Odkryłem, że rok wcześniej 
+nauczył się również widzieć.
+
+00:05:47.452 --> 00:05:49.548
+W mało znanym konkursie w Niemczech
+
+00:05:49.548 --> 00:05:52.295
+na rozpoznawanie znaków drogowych
+
+00:05:52.295 --> 00:05:54.009
+uczenie głębokie nauczyło się
+
+00:05:54.009 --> 00:05:55.723
+rozpoznawać takie znaki drogowe.
+
+00:05:55.723 --> 00:05:57.438
+Nie tylko rozpoznawało znaki
+
+00:05:57.438 --> 00:05:59.168
+lepiej niż inne algorytmy,
+
+00:05:59.168 --> 00:06:01.640
+ale nawet lepiej niż ludzie,
+
+00:06:01.640 --> 00:06:03.499
+mniej więcej dwa razy lepiej.
+
+00:06:03.811 --> 00:06:06.037
+Czyli w 2011 r. mieliśmy pierwszy przykład
+
+00:06:06.037 --> 00:06:09.442
+komputerów widzących lepiej niż ludzie.
+
+00:06:09.442 --> 00:06:11.491
+Od tego czasu bardzo dużo się wydarzyło.
+
+00:06:11.491 --> 00:06:15.005
+W 2012 r. Google ogłosił, 
+że ich algorytm uczenia głębokiego
+
+00:06:15.005 --> 00:06:16.420
+oglądał filmy na YouTube
+
+00:06:16.420 --> 00:06:19.857
+i przez miesiąc przetwarzał dane 
+na 16 tysiącach serwerów,
+
+00:06:19.857 --> 00:06:22.077
+po czym samodzielnie nauczył się pojęć
+
+00:06:22.077 --> 00:06:23.797
+takich jak ludzie czy koty,
+
+00:06:23.797 --> 00:06:25.767
+tylko przez oglądanie filmów.
+
+00:06:25.767 --> 00:06:28.489
+W bardzo podobny sposób uczą się ludzie.
+
+00:06:28.489 --> 00:06:31.329
+Nie trzeba im mówić, na co patrzą,
+
+00:06:31.329 --> 00:06:34.590
+tylko sami się uczą się,
+czym są widziane obiekty.
+
+00:06:34.590 --> 00:06:37.819
+W 2012 roku Geoffrey Hinton,
+którego widzieliśmy wcześniej,
+
+00:06:37.819 --> 00:06:40.677
+wygrał bardzo popularny konkurs ImageNet,
+
+00:06:40.677 --> 00:06:44.818
+gdzie dla 1,5 miliona obrazków 
+trzeba określić,
+
+00:06:44.818 --> 00:06:46.256
+co się na nich znajduje.
+
+00:06:46.256 --> 00:06:50.892
+Do 2014 r. proporcja błędów spadła do 6%.
+
+00:06:50.892 --> 00:06:53.488
+To znowu lepiej, niż ludzie.
+
+00:06:53.488 --> 00:06:57.037
+Maszyny są tu niesamowicie skuteczne
+
+00:06:57.037 --> 00:06:59.306
+i wykorzystuje się to już komercyjnie.
+
+00:06:59.306 --> 00:07:02.348
+Na przykład Google ogłosił w zeszłym roku,
+
+00:07:02.348 --> 00:07:06.933
+że znaleźli na mapie wszystkie adresy
+we Francji w dwie godziny
+
+00:07:06.933 --> 00:07:10.380
+przez dostarczenie zdjęć Street View
+
+00:07:10.380 --> 00:07:14.699
+algorytmowi uczenia głębokiego,
+który rozpoznał i odczytał numery domów.
+
+00:07:14.699 --> 00:07:17.439
+Wyobraźcie sobie,
+ile czasu zajęłoby to kiedyś:
+
+00:07:17.439 --> 00:07:20.274
+dziesiątki ludzi, wiele lat.
+
+00:07:20.274 --> 00:07:22.185
+To samo dzieje się w Chinach.
+
+00:07:22.185 --> 00:07:26.221
+Baidu jest czymś w rodzaju
+chińskiego Google.
+
+00:07:26.221 --> 00:07:28.504
+W lewym górnym rogu 
+widać przykładowe zdjęcie,
+
+00:07:28.504 --> 00:07:32.478
+które wczytałem do systemu 
+uczenia głębokiego Baidu,
+
+00:07:32.478 --> 00:07:36.247
+poniżej widać, że system zrozumiał,
+co jest na zdjęciu
+
+00:07:36.247 --> 00:07:38.483
+i znalazł podobne zdjęcia.
+
+00:07:38.483 --> 00:07:41.219
+Te zdjęcia mają podobne tło,
+
+00:07:41.219 --> 00:07:42.877
+podobny kierunek pysków,
+
+00:07:42.877 --> 00:07:44.665
+niektórym nawet wystają języki.
+
+00:07:44.665 --> 00:07:47.695
+Ten algorytm na pewno nie patrzy
+na tekst na stronie,
+
+00:07:47.695 --> 00:07:49.107
+wgrałem tylko zdjęcie.
+
+00:07:49.107 --> 00:07:53.128
+Czyli dzisiejsze komputery
+naprawdę rozumieją, co widzą,
+
+00:07:53.128 --> 00:07:55.652
+i na żywo umieją przeszukiwać bazy danych
+
+00:07:55.652 --> 00:07:58.306
+setek milionów zdjęć.
+
+00:07:58.306 --> 00:08:00.976
+Co to właściwie znaczy,
+że komputery mogą widzieć?
+
+00:08:00.976 --> 00:08:03.553
+Nie chodzi o samo widzenie.
+
+00:08:03.553 --> 00:08:06.002
+Uczenie głębokie dało znacznie więcej.
+
+00:08:06.002 --> 00:08:08.570
+Złożone i pełne niuansów zdania, jak to,
+
+00:08:08.570 --> 00:08:11.394
+są już zrozumiałe 
+dla algorytmów uczenia głębokiego.
+
+00:08:11.394 --> 00:08:12.697
+Jak widać tutaj,
+
+00:08:12.697 --> 00:08:14.645
+system z Uniwersytetu Stanforda
+
+00:08:14.645 --> 00:08:16.906
+zaznaczył czerwoną kropką na górze,
+
+00:08:16.906 --> 00:08:19.657
+że to zdanie wyraża negację.
+
+00:08:19.657 --> 00:08:22.790
+Efektywność uczenia głębokiego 
+jest zbliżona do ludzkiej
+
+00:08:22.802 --> 00:08:27.923
+w rozumieniu sensu zdania i analizie.
+
+00:08:27.923 --> 00:08:30.651
+Uczenie głębokie zastosowano
+do czytania chińskiego
+
+00:08:30.651 --> 00:08:33.807
+na poziomie zbliżonym 
+do rodzimych użytkowników.
+
+00:08:33.807 --> 00:08:35.975
+Ten algorytm opracował szwajcarski zespół,
+
+00:08:35.975 --> 00:08:39.711
+którego członkowie nie znają chińskiego.
+
+00:08:39.711 --> 00:08:41.382
+Jak wspomniałem, uczenie głębokie
+
+00:08:41.382 --> 00:08:43.601
+jest w tym najlepsze,
+
+00:08:43.601 --> 00:08:46.168
+nawet w porównaniu z rozumieniem
+
+00:08:46.168 --> 00:08:48.735
+przez rodzimych użytkowników języka.
+
+00:08:48.735 --> 00:08:51.302
+Ten system zbudowaliśmy w mojej firmie.
+
+00:08:51.302 --> 00:08:53.728
+Pokazuje, jak można to wszystko
+połączyć w całość.
+
+00:08:53.728 --> 00:08:56.189
+To są zdjęcia bez żadnego opisu
+
+00:08:56.189 --> 00:08:58.541
+i w trakcie wpisywania zdań
+
+00:08:58.541 --> 00:09:01.510
+system na żywo rozpoznaje zdjęcia,
+
+00:09:01.510 --> 00:09:03.189
+ustala, co na nich jest,
+
+00:09:03.189 --> 00:09:06.352
+i znajduje zdjęcia podobne do opisu.
+
+00:09:06.352 --> 00:09:09.108
+Rzeczywiście rozumie, o czym piszę,
+
+00:09:09.108 --> 00:09:11.332
+i rozumie, co jest na zdjęciach.
+
+00:09:11.332 --> 00:09:13.711
+Pewnie znacie to z Google'a,
+
+00:09:13.711 --> 00:09:17.286
+który znajduje zdjęcia 
+według wpisywanych słów,
+
+00:09:17.286 --> 00:09:20.680
+choć w rzeczywistości wyszukuje
+strony internetowe w oparciu o tekst.
+
+00:09:20.680 --> 00:09:24.001
+To co innego niż rozumienie samych zdjęć.
+
+00:09:24.001 --> 00:09:28.383
+Komputery potrafią to robić
+dopiero od kilku miesięcy.
+
+00:09:29.091 --> 00:09:33.182
+Czyli komputery potrafią
+nie tylko widzieć, ale też czytać,
+
+00:09:33.182 --> 00:09:36.947
+i potrafią też rozumieć, co słyszą.
+
+00:09:36.947 --> 00:09:39.756
+Pewnie was nie zaskoczy, 
+że potrafią też pisać.
+
+00:09:39.756 --> 00:09:43.882
+Ten tekst wygenerowałem wczoraj
+przy pomocy uczenia głębokiego.
+
+00:09:43.882 --> 00:09:46.346
+"Miło mi być tu z wami w Brukseli!"
+
+00:09:46.346 --> 00:09:49.050
+Tę próbkę tekstu 
+wygenerował algorytm ze Stanford.
+
+00:09:49.050 --> 00:09:51.989
+Uczenie głębokie wygenerowało te zdania,
+
+00:09:51.989 --> 00:09:55.061
+aby opisać każde z tych zdjęć.
+
+00:09:55.061 --> 00:09:57.741
+Ten algorytm nigdy przedtem nie widział
+
+00:09:57.741 --> 00:10:00.363
+mężczyzny w czarnej koszulce, 
+grającego na gitarze.
+
+00:10:00.363 --> 00:10:03.496
+Widział mężczyznę,
+widział czerń lub gitarę,
+
+00:10:03.496 --> 00:10:08.101
+ale sam stworzył oryginalny opis zdjęcia.
+
+00:10:08.101 --> 00:10:12.056
+Nadal nie dorównuje ludziom, 
+ale mało mu brakuje.
+
+00:10:12.056 --> 00:10:15.351
+W testach ludzie preferują opisy
+generowane przez komputer
+
+00:10:15.351 --> 00:10:16.995
+w co czwartym przypadku.
+
+00:10:16.995 --> 00:10:18.831
+Ten system powstał dwa tygodnie temu,
+
+00:10:18.831 --> 00:10:20.902
+więc w tym tempie
+
+00:10:20.902 --> 00:10:23.594
+algorytm komputerowy 
+prześcignie człowieka,
+
+00:10:23.594 --> 00:10:25.963
+pewnie w ciągu kolejnego roku.
+
+00:10:25.963 --> 00:10:29.048
+Czyli komputery potrafią też pisać.
+
+00:10:29.048 --> 00:10:31.990
+Połączyliśmy to wszystko,
+co daje ekscytujące możliwości.
+
+00:10:31.990 --> 00:10:33.485
+Na przykład w medycynie:
+
+00:10:33.485 --> 00:10:35.974
+zespół z Bostonu ogłosił odkrycie
+
+00:10:35.974 --> 00:10:40.310
+dziesiątek nowych, 
+istotnych klinicznie cech nowotworów,
+
+00:10:40.310 --> 00:10:43.536
+co pomoże lekarzom
+w prognozowaniu postępów raka.
+
+00:10:45.096 --> 00:10:47.749
+Grupa badaczy ze Stanford ogłosiła,
+
+00:10:47.749 --> 00:10:50.810
+że badając tkanki w powiększeniu,
+
+00:10:50.810 --> 00:10:54.062
+opracowali system 
+wykorzystujący uczenie maszynowe,
+
+00:10:54.062 --> 00:10:56.589
+który lepiej niż patolodzy przewiduje
+
+00:10:56.589 --> 00:10:59.481
+przeżywalność chorych na raka.
+
+00:10:59.481 --> 00:11:02.373
+Prognozy były nie tylko trafniejsze,
+
+00:11:02.373 --> 00:11:05.266
+ale dostarczyły nowej, wnikliwej wiedzy.
+
+00:11:05.276 --> 00:11:06.781
+W przypadku radiologii
+
+00:11:06.781 --> 00:11:09.876
+były to nowe wskaźniki kliniczne,
+zrozumiałe dla ludzi.
+
+00:11:09.876 --> 00:11:11.668
+W przypadku patologii
+
+00:11:11.668 --> 00:11:16.168
+system komputerowy odkrył,
+że komórki otaczające nowotwór
+
+00:11:16.168 --> 00:11:19.508
+są tak samo istotne,
+jak komórki nowotworowe
+
+00:11:19.508 --> 00:11:21.260
+w postawieniu diagnozy.
+
+00:11:21.260 --> 00:11:25.961
+To całkowicie przeczy
+dotychczasowej wiedzy o patologii.
+
+00:11:27.412 --> 00:11:30.313
+Oba te systemy
+opracowali eksperci medyczni
+
+00:11:30.313 --> 00:11:33.214
+we współpracy z ekspertami
+od uczenia maszynowego.
+
+00:11:33.214 --> 00:11:35.655
+W zeszłym roku 
+przekroczyliśmy i ten próg.
+
+00:11:35.655 --> 00:11:39.824
+To jest przykład identyfikacji
+zmian nowotworowych
+
+00:11:39.824 --> 00:11:42.354
+w ludzkiej tkance badanej pod mikroskopem.
+
+00:11:42.354 --> 00:11:46.967
+Prezentowany tu system potrafi
+rozpoznawać te zmiany dokładniej
+
+00:11:46.967 --> 00:11:49.742
+lub równie dokładnie, co patolog,
+
+00:11:49.742 --> 00:11:52.174
+ale został zbudowany 
+przy użyciu uczenia głębokiego
+
+00:11:52.174 --> 00:11:53.640
+bez żadnej wiedzy medycznej,
+
+00:11:53.640 --> 00:11:56.128
+przez ludzi nie związanych z medycyną.
+
+00:11:56.438 --> 00:11:58.416
+Podobnie z segmentacją neuronów.
+
+00:11:58.416 --> 00:12:02.234
+Możemy segmentować neurony
+równie dokładnie, jak ludzie,
+
+00:12:02.234 --> 00:12:04.658
+przy użyciu systemu uczenia głębokiego,
+
+00:12:04.658 --> 00:12:07.472
+opracowanego przez ludzi 
+bez wiedzy medycznej.
+
+00:12:09.162 --> 00:12:12.058
+Zatem ja, jako osoba 
+bez żadnej wiedzy medycznej,
+
+00:12:12.058 --> 00:12:15.243
+mam dostateczne kwalifikacje,
+by założyć firmę medyczną,
+
+00:12:15.243 --> 00:12:16.790
+co też zrobiłem.
+
+00:12:18.021 --> 00:12:19.761
+Byłem tym dosyć przerażony,
+
+00:12:19.761 --> 00:12:22.084
+ale teoria wskazywała, że w medycynie
+
+00:12:22.084 --> 00:12:27.477
+można przydać się 
+samą techniką analizy danych.
+
+00:12:28.142 --> 00:12:30.622
+Szczęśliwie, przyjęto nas fantastycznie,
+
+00:12:30.622 --> 00:12:33.578
+zarówno media, jak i społeczność medyczna,
+
+00:12:33.578 --> 00:12:35.322
+która bardzo wspierała ten projekt.
+
+00:12:35.322 --> 00:12:39.471
+W teorii możemy przejąć 
+środkową część procesu medycznego
+
+00:12:39.471 --> 00:12:42.494
+i zastąpić ją daleko idącą analizą danych,
+
+00:12:42.494 --> 00:12:45.429
+pozwalając lekarzom zająć się tym,
+w czym są najlepsi.
+
+00:12:45.429 --> 00:12:47.031
+Pokażę państwu przykład.
+
+00:12:47.031 --> 00:12:51.975
+Generacja nowego testu diagnostycznego
+zajmuje 15 minut.
+
+00:12:51.975 --> 00:12:53.929
+Pokażę to teraz na żywo.
+
+00:12:53.929 --> 00:12:57.416
+Skompresowałem to do trzech minut,
+omijając pewne czynności.
+
+00:12:57.416 --> 00:13:00.477
+Zamiast nowego testu diagnostycznego 
+w medycynie,
+
+00:13:00.477 --> 00:13:03.846
+pokażę test diagnostyczny samochodów,
+
+00:13:03.846 --> 00:13:06.068
+bo jest to coś, co wszyscy rozumiemy.
+
+00:13:06.068 --> 00:13:09.269
+Na początek mamy 1,5 mln zdjęć samochodów.
+
+00:13:09.269 --> 00:13:12.475
+Chcę stworzyć coś, 
+co je pogrupuje według kąta,
+
+00:13:12.475 --> 00:13:14.698
+z jakiego zostały sfotografowane.
+
+00:13:14.698 --> 00:13:18.586
+To zdjęcia bez opisów, 
+więc trzeba zacząć od zera.
+
+00:13:18.586 --> 00:13:20.451
+Nasz algorytm uczenia głębokiego
+
+00:13:20.451 --> 00:13:24.158
+potrafi automatycznie rozpoznawać
+struktury na zdjęciach.
+
+00:13:24.158 --> 00:13:27.778
+Człowiek i komputer mogą współpracować.
+
+00:13:27.778 --> 00:13:29.956
+Jak tu widać,
+
+00:13:29.956 --> 00:13:32.631
+człowiek mówi komputerowi
+o obszarach zainteresowań,
+
+00:13:32.631 --> 00:13:37.281
+których komputer ma użyć 
+do ulepszenia swojego algorytmu.
+
+00:13:37.281 --> 00:13:39.857
+Ten system uczenia głębokiego
+operuje w przestrzeni
+
+00:13:39.857 --> 00:13:42.433
+o 16 tysiącach wymiarów.
+
+00:13:42.433 --> 00:13:45.009
+Widać, jak komputer obraca obiekty,
+
+00:13:45.009 --> 00:13:47.001
+próbując znaleźć nowe obszary struktur.
+
+00:13:47.001 --> 00:13:48.782
+Kiedy mu się to uda,
+
+00:13:48.782 --> 00:13:52.786
+operator może wskazać 
+interesujące obszary.
+
+00:13:52.786 --> 00:13:55.208
+W tym przypadku komputer
+znalazł pewne obszary,
+
+00:13:55.208 --> 00:13:57.770
+na przykład kąt zdjęcia.
+
+00:13:57.770 --> 00:13:59.376
+Z biegiem tego procesu
+
+00:13:59.376 --> 00:14:01.716
+stopniowo mówimy komputerowi coraz więcej
+
+00:14:01.716 --> 00:14:03.774
+na temat rodzaju szukanych struktur.
+
+00:14:03.774 --> 00:14:06.566
+Można sobie wyobrazić,
+że w przypadku testu diagnostycznego
+
+00:14:06.566 --> 00:14:09.266
+patolog identyfikowałby
+obszary patologiczne,
+
+00:14:09.266 --> 00:14:14.292
+a radiolog wskazywałby 
+na potencjalnie uciążliwe guzki.
+
+00:14:14.292 --> 00:14:16.851
+Czasami może być to trudne dla algorytmu.
+
+00:14:16.851 --> 00:14:18.815
+W tym przypadku, algorytm się zgubił.
+
+00:14:18.815 --> 00:14:21.365
+Przednie i tylne części samochodów
+są wymieszane.
+
+00:14:21.365 --> 00:14:23.437
+Musimy być trochę ostrożniejsi
+
+00:14:23.437 --> 00:14:26.669
+i ręcznie zaznaczyć przednie części,
+
+00:14:26.669 --> 00:14:32.175
+wskazując potem komputerowi, 
+że o taką grupę chodzi.
+
+00:14:33.523 --> 00:14:36.030
+Robimy to przez jakiś czas, 
+tu coś pominiemy,
+
+00:14:36.030 --> 00:14:38.446
+teraz uczymy algorytm uczenia maszynowego
+
+00:14:38.446 --> 00:14:40.420
+na podstawie tych kilkuset rzeczy
+
+00:14:40.420 --> 00:14:42.445
+mając nadzieję, że się udoskonali.
+
+00:14:42.445 --> 00:14:45.518
+Widać, że algorytm 
+zaczął wygaszać niektóre zdjęcia,
+
+00:14:45.518 --> 00:14:50.226
+pokazując w ten sposób,
+że potrafi je już rozpoznawać.
+
+00:14:50.226 --> 00:14:53.128
+Możemy użyć koncepcji podobnych zdjęć
+
+00:14:53.128 --> 00:14:55.852
+i teraz widać,
+
+00:14:55.852 --> 00:14:59.241
+że komputer potrafi już
+znajdować maski samochodów.
+
+00:14:59.241 --> 00:15:02.189
+Teraz człowiek może powiedzieć komputerowi
+
+00:15:02.189 --> 00:15:04.482
+"Tak, świetnie się spisałeś".
+
+00:15:05.652 --> 00:15:07.837
+Czasem, oczywiście, nawet w tym momencie
+
+00:15:07.837 --> 00:15:11.511
+jest jeszcze trudno rozpoznawać grupy.
+
+00:15:11.511 --> 00:15:15.395
+W tym przypadku nawet jeżeli pozwolimy
+komputerowi obracać tym przez chwilę,
+
+00:15:15.399 --> 00:15:19.694
+widać, że zdjęcia z prawej i lewej strony 
+są nadal wymieszane.
+
+00:15:19.694 --> 00:15:22.142
+Można dać komputerowi kolejne wskazówki
+
+00:15:22.142 --> 00:15:24.698
+i kazać mu znaleźć rzut,
+
+00:15:24.698 --> 00:15:27.945
+który najwyraźniej oddziela 
+lewe i prawe boki,
+
+00:15:27.945 --> 00:15:30.067
+przy pomocy uczenia głębokiego.
+
+00:15:30.067 --> 00:15:33.009
+Po tej wskazówce - udało się.
+
+00:15:33.009 --> 00:15:35.891
+Potrafi już myśleć o obiektach w sposób,
+
+00:15:35.891 --> 00:15:38.271
+który oddziela te grupy.
+
+00:15:38.271 --> 00:15:40.709
+Rozumiecie koncepcję.
+
+00:15:40.709 --> 00:15:48.906
+Tutaj komputer współpracuje z człowiekiem,
+
+00:15:48.906 --> 00:15:51.546
+zamiast go zastępować.
+
+00:15:51.546 --> 00:15:55.096
+Udało się zastąpić proces, 
+który kiedyś wymagał zespołu
+
+00:15:55.096 --> 00:15:57.098
+pięciu czy sześciu ludzi przez siedem lat
+
+00:15:57.098 --> 00:15:59.703
+procesem, który zajmuje 15 minut
+
+00:15:59.703 --> 00:16:02.208
+i wymaga jednej osoby.
+
+00:16:02.208 --> 00:16:06.158
+Ten proces wymaga
+czterech czy pięciu iteracji.
+
+00:16:06.158 --> 00:16:08.017
+Widać, że teraz 62% z 1,5 miliona zdjęć
+
+00:16:08.017 --> 00:16:10.976
+jest zaklasyfikowanych poprawnie.
+
+00:16:10.976 --> 00:16:14.738
+Teraz można szybko wziąć większe sekcje
+
+00:16:14.745 --> 00:16:17.664
+i sprawdzić, czy nie ma błędów.
+
+00:16:17.664 --> 00:16:21.616
+Jeżeli są błędy, 
+można o nich powiedzieć komputerowi.
+
+00:16:21.616 --> 00:16:24.661
+Powtarzając tę czynność dla różnych grup,
+
+00:16:24.661 --> 00:16:27.148
+mamy już teraz 80% skuteczności
+
+00:16:27.148 --> 00:16:29.563
+w klasyfikowaniu 1,5 miliona zdjęć.
+
+00:16:29.563 --> 00:16:31.641
+Teraz trzeba już tylko znaleźć tych kilka,
+
+00:16:31.641 --> 00:16:35.220
+które nie są klasyfikowane poprawnie
+
+00:16:35.220 --> 00:16:37.808
+i zrozumieć przyczynę.
+
+00:16:37.808 --> 00:16:44.001
+W 15 minut można osiągnąć skuteczność 97%.
+
+00:16:44.001 --> 00:16:48.482
+Ta technika pozwoli być może 
+rozwiązać poważny problem
+
+00:16:48.482 --> 00:16:50.952
+światowego niedoboru 
+kompetencji medycznych.
+
+00:16:50.952 --> 00:16:54.334
+Światowe Forum Ekonomiczne szacuje 
+10- lub 20-krotny niedobór lekarzy
+
+00:16:54.334 --> 00:16:57.433
+w krajach rozwijających się,
+
+00:16:57.433 --> 00:17:00.437
+a wyszkolenie odpowiedniej liczby ludzi
+
+00:17:00.437 --> 00:17:02.570
+zajęłoby około 300 lat.
+
+00:17:02.734 --> 00:17:05.619
+A gdyby można było 
+zwiększyć ich efektywność
+
+00:17:05.619 --> 00:17:08.458
+przy pomocy metod uczenia głębokiego?
+
+00:17:08.458 --> 00:17:10.790
+Bardzo mnie pociągają takie możliwości.
+
+00:17:10.790 --> 00:17:13.279
+Niepokoją mnie też problemy.
+
+00:17:13.279 --> 00:17:16.933
+Otóż każdy niebieski obszar na tej mapie
+
+00:17:16.933 --> 00:17:19.882
+to ponad 80% osób 
+zatrudnionych w usługach.
+
+00:17:19.882 --> 00:17:21.379
+Co to są usługi?
+
+00:17:21.379 --> 00:17:24.478
+Oto usługi. [Kierowcy, kucharze, 
+diagnostycy, prawnicy]
+
+00:17:24.478 --> 00:17:27.917
+Tak się składa, 
+że właśnie to opanowały komputery.
+
+00:17:27.917 --> 00:17:31.221
+Zatem 80% zatrudnionych
+w krajach rozwiniętych
+
+00:17:31.221 --> 00:17:33.903
+robi rzeczy, których właśnie 
+nauczyły się komputery.
+
+00:17:33.903 --> 00:17:34.923
+Co to oznacza?
+
+00:17:34.923 --> 00:17:37.646
+Nie szkodzi. Będą inne stanowiska.
+
+00:17:37.646 --> 00:17:40.503
+Na przykład przybędzie naukowców 
+od analizy danych.
+
+00:17:40.503 --> 00:17:41.370
+Nie do końca.
+
+00:17:41.370 --> 00:17:43.908
+Analitykom danych nie trzeba dużo czasu
+
+00:17:43.908 --> 00:17:45.190
+na budowę takich systemów.
+
+00:17:45.190 --> 00:17:48.246
+Na przykład te cztery algorytmy 
+opracował jeden człowiek.
+
+00:17:48.246 --> 00:17:51.118
+Myślicie, że to już było,
+
+00:17:51.118 --> 00:17:53.840
+widzieliśmy już w przeszłości,
+
+00:17:53.840 --> 00:17:56.894
+jak stare zawody ustępują nowym.
+
+00:17:56.894 --> 00:17:58.875
+Jakie będą te nowe zawody?
+
+00:17:58.875 --> 00:18:01.374
+Bardzo ciężko jest to oszacować,
+
+00:18:01.374 --> 00:18:04.176
+bo ludzkie osiągnięcia rosną stopniowo,
+
+00:18:04.176 --> 00:18:06.373
+a teraz mamy system, uczenie głębokie,
+
+00:18:06.373 --> 00:18:09.348
+którego zdolności rosną wykładniczo.
+
+00:18:09.348 --> 00:18:10.939
+A my jesteśmy tutaj.
+
+00:18:10.939 --> 00:18:12.865
+Widząc dzisiejsze realia mówimy:
+
+00:18:12.865 --> 00:18:15.534
+"Komputery są nadal dosyć głupie".
+
+00:18:15.534 --> 00:18:19.069
+Ale za pięć lat komputery będą poza skalą.
+
+00:18:19.069 --> 00:18:23.079
+Musimy zacząć myśleć 
+o tych możliwościach już teraz.
+
+00:18:23.079 --> 00:18:24.956
+Oczywiście widzieliśmy to już kiedyś.
+
+00:18:24.956 --> 00:18:26.532
+Podczas rewolucji przemysłowej
+
+00:18:26.532 --> 00:18:29.708
+mieliśmy skokową zmianę możliwości
+dzięki silnikom.
+
+00:18:29.708 --> 00:18:32.805
+Tyle tylko, że po pewnym czasie
+rezultaty uległy spłaszczeniu.
+
+00:18:32.805 --> 00:18:34.507
+Nastąpiły zakłócenia społeczne,
+
+00:18:34.507 --> 00:18:38.546
+ale kiedy silnik zaczęto stosować 
+do każdego rodzaju wytwarzania energii,
+
+00:18:38.546 --> 00:18:40.300
+wszystko się ustabilizowało.
+
+00:18:40.300 --> 00:18:41.773
+Rewolucja uczenia maszynowego
+
+00:18:41.773 --> 00:18:44.302
+będzie bardzo różna
+od rewolucji przemysłowej,
+
+00:18:44.302 --> 00:18:47.632
+bo rewolucja uczenia maszynowego
+nie ustabilizuje się nigdy.
+
+00:18:47.632 --> 00:18:50.714
+Im lepsza będzie 
+aktywność intelektualna komputerów,
+
+00:18:50.714 --> 00:18:52.942
+tym lepsze zbudują komputery, 
+
+00:18:52.942 --> 00:18:55.420
+o jeszcze większych 
+zdolnościach intelektualnych.
+
+00:18:55.420 --> 00:18:59.248
+Będzie to zmiana,
+jakiej świat nigdy dotąd nie doświadczył,
+
+00:18:59.248 --> 00:19:02.554
+więc zmieniło się nasze wcześniejsze 
+zrozumienie możliwości.
+
+00:19:02.974 --> 00:19:04.754
+Już odczuwamy ten wpływ.
+
+00:19:04.754 --> 00:19:08.384
+Przez ostatnie 25 lat
+produktywność kapitału wzrastała,
+
+00:19:08.400 --> 00:19:12.588
+wydajność pracy pozostała bez zmian,
+a nawet trochę spadła.
+
+00:19:13.408 --> 00:19:16.149
+Chcę więc już teraz zacząć tę dyskusję.
+
+00:19:16.149 --> 00:19:19.176
+Zwykle gdy opowiadam o tym problemie,
+
+00:19:19.176 --> 00:19:20.666
+napotykam lekceważenie.
+
+00:19:20.666 --> 00:19:23.009
+Przecież komputery nie potrafią
+naprawdę myśleć,
+
+00:19:23.009 --> 00:19:25.367
+nie mają uczuć,
+nie rozumieją poezji,
+
+00:19:25.367 --> 00:19:27.888
+nie do końca wiemy, jak działają.
+
+00:19:27.888 --> 00:19:28.744
+I co z tego?
+
+00:19:28.744 --> 00:19:31.178
+Komputery już teraz potrafią 
+wykonywać czynności,
+
+00:19:31.178 --> 00:19:33.897
+z których utrzymują się ludzie,
+
+00:19:33.897 --> 00:19:35.628
+więc trzeba zacząć się zastanawiać,
+
+00:19:35.628 --> 00:19:40.015
+jak dostosujemy 
+społeczne i gospodarcze struktury
+
+00:19:40.015 --> 00:19:41.855
+do tej nowej rzeczywistości.
+
+00:19:41.855 --> 00:19:43.388
+Dziękuję.
+
+00:19:43.388 --> 00:19:44.190
+(Oklaski)
+

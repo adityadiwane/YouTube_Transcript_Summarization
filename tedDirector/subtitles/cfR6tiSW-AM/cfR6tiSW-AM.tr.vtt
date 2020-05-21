@@ -1,0 +1,1136 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Gani Simsek
+Gözden geçirme: Ahmet Yükseltürk
+
+00:00:15.260 --> 00:00:18.260
+Anlatacağım ilk robotun adı: STriDER.
+
+00:00:18.260 --> 00:00:20.260
+Uzun yazılışı: Özuyarımlı
+
+00:00:20.260 --> 00:00:22.260
+Üç ayaklı Dinamik Deneysel Robot.
+
+00:00:22.260 --> 00:00:24.260
+O üç ayaklı bir robot ve
+
+00:00:24.260 --> 00:00:27.260
+doğadan esinlenildi.
+
+00:00:27.260 --> 00:00:29.260
+Ama siz hiç doğada
+
+00:00:29.260 --> 00:00:31.260
+üç ayaklı bir hayvan gördünüz mü?
+
+00:00:31.260 --> 00:00:33.260
+Muhtemelen hayır. Peki neden buna
+
+00:00:33.260 --> 00:00:35.260
+biyolojiden esinlenilmiş robot diyorum? Nasıl çalışır?
+
+00:00:35.260 --> 00:00:38.260
+Ama bundan önce, popüler kültüre bakalım.
+
+00:00:38.260 --> 00:00:41.260
+H.G. Wells'in "Dünyaların Savaşı" kitabını ve filmini bilirsiniz.
+
+00:00:41.260 --> 00:00:43.260
+Ve burada gördüğünüz çok popüler bir
+
+00:00:43.260 --> 00:00:45.260
+video oyunu.
+
+00:00:45.260 --> 00:00:48.260
+Kurguda bu uzaylı yaratıkları, dünyayı tehdit eden
+
+00:00:48.260 --> 00:00:50.260
+üç ayaklı robotlar olarak tanımlıyorlar.
+
+00:00:50.260 --> 00:00:54.260
+Ama benim robotum, STriDER, böyle hareket etmiyor.
+
+00:00:54.260 --> 00:00:57.260
+Bu bir gerçek dinamik simülasyon animasyonu.
+
+00:00:57.260 --> 00:00:59.260
+Size robotun nasıl çalıştığını göstereceğim.
+
+00:00:59.260 --> 00:01:02.260
+Vücudunu 180 derece döndürüyor.
+
+00:01:02.260 --> 00:01:05.260
+Bir ayağını iki ayağının arasından sallayıp, düşüşü yakalıyor.
+
+00:01:05.260 --> 00:01:07.260
+İşte böyle yürüyor. Fakat kendimize baktığımızda
+
+00:01:07.260 --> 00:01:09.260
+insan, iki ayaklı yürüme,
+
+00:01:09.260 --> 00:01:11.260
+yaptığınız böyle kas kullanarak ayağınızı kaldırıp,
+
+00:01:11.260 --> 00:01:14.260
+robot gibi yürüme değil. Değil mi?
+
+00:01:14.260 --> 00:01:17.260
+Yaptığınız aslında ayağınızı sallamak ve düşüşü yakalamak,
+
+00:01:17.260 --> 00:01:20.260
+tekrar doğrul, salla ayağını ve düşüşü yakala.
+
+00:01:20.260 --> 00:01:23.260
+Var olan dinamiğinizi kullanarak, vücudunuzun fiziğini,
+
+00:01:23.260 --> 00:01:25.260
+aynen bir sarkaç gibi.
+
+00:01:25.260 --> 00:01:29.260
+Biz buna pasif dinamik hareket konsepti diyoruz.
+
+00:01:29.260 --> 00:01:31.260
+Doğrulurken yaptığınız,
+
+00:01:31.260 --> 00:01:33.260
+potansiyel enerjiden kinetik enerjiye,
+
+00:01:33.260 --> 00:01:35.260
+potansiyel enerjiden kinetik enerjiye.
+
+00:01:35.260 --> 00:01:37.260
+Daimi bir düşüş işlemi.
+
+00:01:37.260 --> 00:01:40.260
+Her ne kadar doğada buna benzeyen bir şey yoksa da,
+
+00:01:40.260 --> 00:01:42.260
+biz gerçekten biyolojiden esinlendik
+
+00:01:42.260 --> 00:01:44.260
+ve bu robota yürümenin prensiplerini
+
+00:01:44.260 --> 00:01:47.260
+uyguladık, bu yüzden o biyolojiden esinlenilmiş bir robot.
+
+00:01:47.260 --> 00:01:49.260
+Burada gördüğünüz, bizim bir sonra yapmak istediğimiz.
+
+00:01:49.260 --> 00:01:53.260
+Bacakları bükmek ve uzun mesafe hareketi için fırlatmak istiyoruz.
+
+00:01:53.260 --> 00:01:56.260
+Ayaklarını yere basıyor, Yıldız Savaşları'na benziyor.
+
+00:01:56.260 --> 00:01:59.260
+Yere indiğinde, sarsıntıyı emiyor ve yürümeye başlıyor.
+
+00:01:59.260 --> 00:02:02.260
+Burada gördüğünüz, bu sarı şey, ölüm ışını değil.
+
+00:02:02.260 --> 00:02:04.260
+Bu sadece size, eğer kameralarınız veya farklı
+
+00:02:04.260 --> 00:02:06.260
+türde sensörleriniz olsa
+
+00:02:06.260 --> 00:02:08.260
+çünkü o uzun, 1.8 metre uzunluğunda,
+
+00:02:08.260 --> 00:02:11.260
+çalı gibi şeylerin ötesini görebildiğinizi gösterebilmek için.
+
+00:02:11.260 --> 00:02:13.260
+İki tane modelimiz var.
+
+00:02:13.260 --> 00:02:16.260
+İlk model, arkadaki, o STriDER I.
+
+00:02:16.260 --> 00:02:18.260
+Öndeki, küçük olan ise STriDER II.
+
+00:02:18.260 --> 00:02:20.260
+STriDER I'de yaşadığımız problem
+
+00:02:20.260 --> 00:02:23.260
+vücudunun çok ağır olmasıydı. Çok fazla motor vardı,
+
+00:02:23.260 --> 00:02:25.260
+bilirsiniz, eklemleri hizalama ve o tür şeyler.
+
+00:02:25.260 --> 00:02:29.260
+Bu yüzden mekanik bir işleyiş sentezlemeye kadar verdik,
+
+00:02:29.260 --> 00:02:32.260
+bu sayede tüm motorlardan kurtulacak ve bir motorla
+
+00:02:32.260 --> 00:02:34.260
+tüm hareketleri koordine edecektik.
+
+00:02:34.260 --> 00:02:37.260
+Bu, mekatronik kullanmak yerine problemin mekanik bir çözümü.
+
+00:02:37.260 --> 00:02:40.260
+Artık üst vücut, robotun laboratuvarda yürüyebileceği kadar hafif.
+
+00:02:40.260 --> 00:02:43.260
+Bu ilk başarılı adımdı.
+
+00:02:43.260 --> 00:02:45.260
+Halen mükemmel değil. Kahvesi yere dökülüyor,
+
+00:02:45.260 --> 00:02:48.260
+daha yapacak çok işimiz var.
+
+00:02:48.260 --> 00:02:51.260
+Tanıtmak istediğim ikinci robotun adı IMPASS.
+
+00:02:51.260 --> 00:02:55.260
+Uzun yazılışı: Uyarılan Tekerlek Sistemli Akıllı Hareketlilik Platformu.
+
+00:02:55.260 --> 00:02:58.260
+O, tekerlek-bacaklı melez bir robot.
+
+00:02:58.260 --> 00:03:00.260
+Dışı olmayan bir tekerlek düşünün,
+
+00:03:00.260 --> 00:03:02.260
+veya bir jant teli.
+
+00:03:02.260 --> 00:03:05.260
+fakat teller göbekten ayrı ayrı girip çıkıyorlar. İşte o
+
+00:03:05.260 --> 00:03:07.260
+tekerlek-bacaklı bir melez.
+
+00:03:07.260 --> 00:03:09.260
+Kelimenin tam anlamıyla tekerleği yeniden
+
+00:03:09.260 --> 00:03:12.260
+icat ediyoruz. Nasıl çalıştığını göstereyim.
+
+00:03:12.260 --> 00:03:14.260
+Bu videoda duyarlı yaklaşma dediğimiz
+
+00:03:14.260 --> 00:03:16.260
+bir yaklaşımı kullanıyoruz.
+
+00:03:16.260 --> 00:03:19.260
+Sadece ayaktaki dokunsal sensörleri kullanarak,
+
+00:03:19.260 --> 00:03:21.260
+değişken bir arazide yürümeye çalışıyor,
+
+00:03:21.260 --> 00:03:24.260
+basılınca değişen yumuşak bir arazi.
+
+00:03:24.260 --> 00:03:26.260
+Sadece dokunsal bilgiyle
+
+00:03:26.260 --> 00:03:29.260
+bu tür arazilerden başarıyla geçiyor.
+
+00:03:29.260 --> 00:03:33.260
+Ama, çok zorlu bir araziyle karşılaştığında,
+
+00:03:33.260 --> 00:03:36.260
+bu durumda, bu engel robotun boyunun
+
+00:03:36.260 --> 00:03:38.260
+üç katı yükseklikte,
+
+00:03:38.260 --> 00:03:40.260
+Lazer uzaklıkölçer ve kamera sistemleri
+
+00:03:40.260 --> 00:03:42.260
+kullanarak, engeli ve boyunu
+
+00:03:42.260 --> 00:03:44.260
+belirlemek için önceden planlanmış bir moda geçiyor,
+
+00:03:44.260 --> 00:03:47.260
+ve bu çok çok etkileyici hareketliliği göstermek için
+
+00:03:47.260 --> 00:03:49.260
+ayakların hareketini dikkatlice planlıyor
+
+00:03:49.260 --> 00:03:51.260
+ve koordine ediyor.
+
+00:03:51.260 --> 00:03:53.260
+Muhtemelen hiç böyle bir şey görmemişsinizdir.
+
+00:03:53.260 --> 00:03:56.260
+IMPASS adını verdiğimiz
+
+00:03:56.260 --> 00:03:59.260
+son derece hareketli bir robot.
+
+00:03:59.260 --> 00:04:01.260
+Ah, harika değil mi?
+
+00:04:01.260 --> 00:04:04.260
+Arabanızı sürerken,
+
+00:04:04.260 --> 00:04:06.260
+direksiyondayken, Ackermann adı verilen
+
+00:04:06.260 --> 00:04:08.260
+direksiyon sistemini kullanırsınız.
+
+00:04:08.260 --> 00:04:10.260
+Ön tekerlekler böyle döner.
+
+00:04:10.260 --> 00:04:13.260
+Bu gibi küçük tekerlekli robotların çoğunda
+
+00:04:13.260 --> 00:04:15.260
+diferansiyel yönlendirme denilen, sağ ve sol
+
+00:04:15.260 --> 00:04:18.260
+tekerleklerin ters yöne döndüğü bir metot kullanılır.
+
+00:04:18.260 --> 00:04:21.260
+IMPASS için çok çok farklı hareketler yapabiliriz.
+
+00:04:21.260 --> 00:04:24.260
+Örneğin, bu durumda, her ne kadar sağ ve sol tekerlek tek dingille
+
+00:04:24.260 --> 00:04:26.260
+birbirine bağlıysa da, aynı hız açısıyla dönüyorlar.
+
+00:04:26.260 --> 00:04:29.260
+Biz basitçe bacağın yüksekliğini değiştiriyoruz.
+
+00:04:29.260 --> 00:04:31.260
+Bu da çapı etkiliyor, ve o sola dönüyor, sağa dönüyor.
+
+00:04:31.260 --> 00:04:33.260
+İşte bunlar IMPASS ile yapabildiğimiz
+
+00:04:33.260 --> 00:04:36.260
+zarif şeylere birkaç örnek.
+
+00:04:36.260 --> 00:04:38.260
+Bu robotun adı CLIMBeR,
+
+00:04:38.260 --> 00:04:41.260
+Kablolu Bacaklı Akıllı Eşleştirme Davranışlı Robot
+
+00:04:41.260 --> 00:04:44.260
+Birçok NASA JPL bilim insanıyla konuşuyorum,
+
+00:04:44.260 --> 00:04:46.260
+JPL'de Mars gezginleriyle meşhurlar.
+
+00:04:46.260 --> 00:04:48.260
+Bilim insanları ve jeologlar her daim bana
+
+00:04:48.260 --> 00:04:51.260
+gerçekten ilginç bilimin, bilimce-zengin
+
+00:04:51.260 --> 00:04:54.260
+yerlerin hep kayalıklarda olduğunu söylüyorlar.
+
+00:04:54.260 --> 00:04:56.260
+Fakat mevcut gezginler oralara gidemiyor.
+
+00:04:56.260 --> 00:04:58.260
+Bundan esinlenerek, yapısal kayalıklara
+
+00:04:58.260 --> 00:05:01.260
+tırmanabilen bir robot yapmak istedik.
+
+00:05:01.260 --> 00:05:03.260
+İşte bu CLIMBeR.
+
+00:05:03.260 --> 00:05:05.260
+Peki ne yapıyor, üç ayağı var. Muhtemelen görmek zordur,
+
+00:05:05.260 --> 00:05:08.260
+ama tepesinde bir vinç ve kablo var.
+
+00:05:08.260 --> 00:05:10.260
+Ve ayağını koyacağı en uygun yeri bulmaya çalışıyor.
+
+00:05:10.260 --> 00:05:12.260
+Ve onu bulur bulmaz,
+
+00:05:12.260 --> 00:05:15.260
+eş zamanlı olarak, güç dağılımını hesaplıyor.
+
+00:05:15.260 --> 00:05:18.260
+Yüzeye ne kadar güç uygulamalı ki
+
+00:05:18.260 --> 00:05:20.260
+devrilmesin ve kaymasın.
+
+00:05:20.260 --> 00:05:22.260
+Onu dengelediği an, ayağını kaldırır,
+
+00:05:22.260 --> 00:05:26.260
+ve vinçle birlikte bu tür şeylere tırmanabilir.
+
+00:05:26.260 --> 00:05:28.260
+Ayrıca arama kurtarma uygulamaları için.
+
+00:05:28.260 --> 00:05:30.260
+Beş sene önce yazın gerçekten NASA JPL'de
+
+00:05:30.260 --> 00:05:32.260
+fakülte üyesi olarak çalıştım.
+
+00:05:32.260 --> 00:05:36.260
+LEMUR adı verilen altı ayaklı bir robotları vardı.
+
+00:05:36.260 --> 00:05:39.260
+Bu aslında ona dayalı. Bu robotun adı MARS,
+
+00:05:39.260 --> 00:05:42.260
+Çok Uzantılı Robotik Sistem. O altı ayaklı bir robot.
+
+00:05:42.260 --> 00:05:44.260
+Uyarlamalı yürüyüş planlayıcımızı geliştirdik.
+
+00:05:44.260 --> 00:05:46.260
+Orada aslında çok ilginç bir yük dağılımı var.
+
+00:05:46.260 --> 00:05:48.260
+Öğrenciler eğlenmeyi sever. Ve burada yapısal olmayan
+
+00:05:48.260 --> 00:05:51.260
+bir arazide yürürken görüyorsunuz.
+
+00:05:51.260 --> 00:05:53.260
+Biçimsiz bir arazide yürümeye çalışıyor,
+
+00:05:53.260 --> 00:05:55.260
+kumlu bölge,
+
+00:05:55.260 --> 00:06:00.260
+fakat nem miktarı ve kum tanelerinin büyüklüğüne göre
+
+00:06:00.260 --> 00:06:02.260
+ayağın toprağa batma modeli değişir.
+
+00:06:02.260 --> 00:06:06.260
+Bu tür şeylerin üzerinden başarıyla geçmek için yürüyüşünü ayarlamaya çalışıyor.
+
+00:06:06.260 --> 00:06:08.260
+Ayrıca, eğlenceli şeyler de yapıyor, tahmin edersiniz.
+
+00:06:08.260 --> 00:06:11.260
+Laboratuvarımıza çok ziyaretçi geliyor.
+
+00:06:11.260 --> 00:06:13.260
+Ziyaretçiler gelince MARS, bilgisayarın başına geçip
+
+00:06:13.260 --> 00:06:15.260
+yazmaya başlıyor: "Merhaba, benim adım MARS."
+
+00:06:15.260 --> 00:06:17.260
+Virginia Tech'teki RoMeLa,
+
+00:06:17.260 --> 00:06:21.260
+Robotik Mekanizmalar Laboratuvarı'na hoşgeldiniz.
+
+00:06:21.260 --> 00:06:23.260
+Bu robot bir amip robotu.
+
+00:06:23.260 --> 00:06:26.260
+Bunun teknik detaylarına girecek zamanımız yok,
+
+00:06:26.260 --> 00:06:28.260
+size sadece birkaç deney göstereceğim.
+
+00:06:28.260 --> 00:06:30.260
+Bunlar, ilk yapılabilirlik deneylerinden bazıları.
+
+00:06:30.260 --> 00:06:34.260
+Hareket etmesi için esnek deride potansiyel enerji saklıyoruz.
+
+00:06:34.260 --> 00:06:36.260
+Veya ileri ve geri gitmesi için,
+
+00:06:36.260 --> 00:06:39.260
+aktif gerilim kabloları kullanıyoruz. Onun adı ChIMERA.
+
+00:06:39.260 --> 00:06:41.260
+Ayrıca, UPenn'den bazı bilim insanlarıyla ve
+
+00:06:41.260 --> 00:06:43.260
+mühendislerle bu amip robotun
+
+00:06:43.260 --> 00:06:45.260
+kimyasal yolla harekete geçen bir versiyonu
+
+00:06:45.260 --> 00:06:47.260
+üzerinde çalışıyoruz.
+
+00:06:47.260 --> 00:06:49.260
+Bir şeye bir şey yapıyoruz,
+
+00:06:49.260 --> 00:06:55.260
+Ve tıpkı sihir gibi, o hareket ediyor. Damla.
+
+00:06:55.260 --> 00:06:57.260
+Bu robot yeni projelerden biri. Adı RAPHaEL.
+
+00:06:57.260 --> 00:07:00.260
+Havayla Çalışan Esnek Bağlı Robotik El.
+
+00:07:00.260 --> 00:07:04.260
+Piyasada bir sürü zarif, çok iyi robotik eller var.
+
+00:07:04.260 --> 00:07:08.260
+Sorun ise onların çok pahalı olması, onbinlerce dolar.
+
+00:07:08.260 --> 00:07:10.260
+Protez uygulamaları için muhtemelen çok pratik değiller,
+
+00:07:10.260 --> 00:07:12.260
+çünkü satın alınabilir değiller.
+
+00:07:12.260 --> 00:07:16.260
+Çok farklı bir yönden bu sorunun üstesinden geleceğiz.
+
+00:07:16.260 --> 00:07:19.260
+Elektrikli motorlar, elektromekanik çalıştırıcılar yerine
+
+00:07:19.260 --> 00:07:21.260
+sıkıştırılmış hava kullanıyoruz.
+
+00:07:21.260 --> 00:07:23.260
+Bu acayip çalıştırıcıları eklemler için geliştirdik.
+
+00:07:23.260 --> 00:07:26.260
+Uyumludur. Sadece hava basıncını değiştirerek
+
+00:07:26.260 --> 00:07:28.260
+gerçekten gücü değiştirebilirsiniz.
+
+00:07:28.260 --> 00:07:30.260
+Ve gerçekten boş bir teneke kutuyu ezebilir.
+
+00:07:30.260 --> 00:07:33.260
+Bu pişmemiş yumurta gibi çok hassas objeleri tutabilir
+
+00:07:33.260 --> 00:07:36.260
+veya bu durumda bir ampülü.
+
+00:07:36.260 --> 00:07:40.260
+En güzel tarafı ise, bu ilk modeli yapmak sadece 200 dolar tuttu.
+
+00:07:40.260 --> 00:07:43.260
+Bu robot aslında yılan robotlar ailesinden,
+
+00:07:43.260 --> 00:07:45.260
+adı HyDRAS.
+
+00:07:45.260 --> 00:07:47.260
+Yüksek Serbestlik Dereceli Robotik Eklemli Yılankavi.
+
+00:07:47.260 --> 00:07:50.260
+Bu, yapılara tırmanabilen bir robot.
+
+00:07:50.260 --> 00:07:52.260
+Bu HyDRAS'ın kolu.
+
+00:07:52.260 --> 00:07:54.260
+O, 12 serbestlik dereceli robotik bir kol.
+
+00:07:54.260 --> 00:07:56.260
+Ama harika tarafı kullanıcı arayüzüdür.
+
+00:07:56.260 --> 00:07:59.260
+Şurdaki kablo, optik fiber bir kablodur.
+
+00:07:59.260 --> 00:08:01.260
+Bu öğrenci, muhtemelen ilk kez kullanıyor,
+
+00:08:01.260 --> 00:08:03.260
+ama onu çok farklı şekillerde hareket ettirebiliyor.
+
+00:08:03.260 --> 00:08:06.260
+Örneğin Irak'ta, bilirsiniz, savaş bölgesi,
+
+00:08:06.260 --> 00:08:08.260
+yol kenarı bombaları var. Şu anda kolu olan
+
+00:08:08.260 --> 00:08:11.260
+uzaktan kumandalı araçları yolluyorsunuz.
+
+00:08:11.260 --> 00:08:13.260
+Öyle karmaşık bir kolu çalıştırmak için,
+
+00:08:13.260 --> 00:08:17.260
+birini eğitmek çok zaman alıyor ve çok pahalı.
+
+00:08:17.260 --> 00:08:19.260
+Bu durumda ise çok sezgisel.
+
+00:08:19.260 --> 00:08:23.260
+Bu öğrenci, muhtemelen ilk kez kullanıyor, çok karmaşık yönlendirmeler yapıyor,
+
+00:08:23.260 --> 00:08:25.260
+nesneleri kaldırıyor, hareket ettiriyor,
+
+00:08:25.260 --> 00:08:28.260
+aynen böyle, çok sezgisel.
+
+00:08:30.260 --> 00:08:32.260
+Bu robot şu anda bizim favorimiz.
+
+00:08:32.260 --> 00:08:35.260
+Bu robot için bir fan kulübümüz var, adı DARwIn,
+
+00:08:35.260 --> 00:08:38.260
+Dinamik İnsansı Akıllı Robot.
+
+00:08:38.260 --> 00:08:40.260
+Bildiğiniz üzere, biz insansı robot ve
+
+00:08:40.260 --> 00:08:42.260
+insansı yürümeyle çok ilgileniyoruz,
+
+00:08:42.260 --> 00:08:44.260
+bu yüzden küçük bir insansı robot yapmaya karar verdik.
+
+00:08:44.260 --> 00:08:46.260
+Bu 2004'teydi, o zamanlar
+
+00:08:46.260 --> 00:08:48.260
+bu çok çok devrimsel bir gelişmeydi.
+
+00:08:48.260 --> 00:08:50.260
+Bu daha çok bir yapılabilirlik çalışmasıydı,
+
+00:08:50.260 --> 00:08:52.260
+ne tür motorlar kullanmalıyız?
+
+00:08:52.260 --> 00:08:54.260
+Hatta mümkün mü? Ne tür kontroller yapmalıyız?
+
+00:08:54.260 --> 00:08:56.260
+Bunun hiç sensörleri yok.
+
+00:08:56.260 --> 00:08:58.260
+Açık döngülü bir denetim.
+
+00:08:58.260 --> 00:09:00.260
+Muhtemelen bilenleriniz vardır, eğer hiç sensörleriniz yoksa
+
+00:09:00.260 --> 00:09:02.260
+ve bozukluklar varsa, ne olacağını tahmin edersiniz.
+
+00:09:05.260 --> 00:09:06.260
+(Gülüşmeler)
+
+00:09:06.260 --> 00:09:08.260
+Bu başarının üstüne, ertesi sene
+
+00:09:08.260 --> 00:09:11.260
+kinematikten başlayarak uygun bir
+
+00:09:11.260 --> 00:09:13.260
+mekanik tasarım yaptık.
+
+00:09:13.260 --> 00:09:15.260
+Ve böylece, 2005'te DARwIn doğdu.
+
+00:09:15.260 --> 00:09:17.260
+Ayağa kalkıyor. Yürüyor, çok etkileyici.
+
+00:09:17.260 --> 00:09:19.260
+Fakat yine de, gördüğünüz gibi,
+
+00:09:19.260 --> 00:09:23.260
+bir kablosu var, göbek bağı. Bu yüzden, halen harici güç kaynağı ve
+
+00:09:23.260 --> 00:09:25.260
+harici iletişim kullanıyoruz.
+
+00:09:25.260 --> 00:09:29.260
+2006'da artık gerçekten eğlenme zamanı.
+
+00:09:29.260 --> 00:09:32.260
+Biraz zeka verelim. İhtiyacı olan tüm işlemci gücünü verelim,
+
+00:09:32.260 --> 00:09:34.260
+1.5 GHz Pentium M çip,
+
+00:09:34.260 --> 00:09:36.260
+iki Firewire kamera, sekiz jiroskop, ivmeölçer,
+
+00:09:36.260 --> 00:09:39.260
+ayakta dört dönme momenti sensörü, lityum bataryalar.
+
+00:09:39.260 --> 00:09:43.260
+Ve artık DARwIn II tamamen özerk.
+
+00:09:43.260 --> 00:09:45.260
+Uzaktan kumandalı değil.
+
+00:09:45.260 --> 00:09:48.260
+Yular yok. Etrafına bakıyor, topu arıyor,
+
+00:09:48.260 --> 00:09:51.260
+etrafına bakıyor, topu arıyor, futbol oynamaya çalışıyor,
+
+00:09:51.260 --> 00:09:54.260
+özerk olarak, yapay zeka.
+
+00:09:54.260 --> 00:09:57.260
+Nasıl yaptığına bakalım. Bu bizim ilk denememiz,
+
+00:09:57.260 --> 00:10:02.260
+ve... Video: Gooolll!
+
+00:10:03.260 --> 00:10:06.260
+Gerçekten RoboCup denilen bir yarışma var.
+
+00:10:06.260 --> 00:10:08.260
+Kaçınız RoboCup'ı duydu bilmiyorum.
+
+00:10:08.260 --> 00:10:13.260
+Uluslararası bir özerk robot futbol yarışması.
+
+00:10:13.260 --> 00:10:16.260
+Ve RoboCup'ın hedefi, gerçek hedefi,
+
+00:10:16.260 --> 00:10:18.260
+2050 yılında,
+
+00:10:18.260 --> 00:10:21.260
+istiyoruz ki tam boyutlu, özerk insansı robotlar,
+
+00:10:21.260 --> 00:10:25.260
+gerçek Dünya Kupası şampiyonlarına karşı futbol oynasın
+
+00:10:25.260 --> 00:10:27.260
+ve kazansın.
+
+00:10:27.260 --> 00:10:29.260
+Bu gerçek bir hedef, çok tutkulu bir hedef,
+
+00:10:29.260 --> 00:10:31.260
+fakat biz gerçekten yapabileceğimize inanıyoruz.
+
+00:10:31.260 --> 00:10:34.260
+Bu, Çin'de geçen sene.
+
+00:10:34.260 --> 00:10:36.260
+Biz Birleşik Devletler'de insansı robot yarışmasında kalifiye
+
+00:10:36.260 --> 00:10:38.260
+olan ilk takımdık.
+
+00:10:38.260 --> 00:10:41.260
+Bu bu sene, Avusturya'daydı.
+
+00:10:41.260 --> 00:10:43.260
+Birazdan aksiyonu göreceksiniz, üçe karşı üç,
+
+00:10:43.260 --> 00:10:45.260
+tümüyle özerk.
+
+00:10:45.260 --> 00:10:47.260
+İşte böyle. Evet!
+
+00:10:48.260 --> 00:10:50.260
+Robotlar izliyor ve oynuyorlar,
+
+00:10:50.260 --> 00:10:53.260
+takımlar kendi aralarında oynuyorlar.
+
+00:10:53.260 --> 00:10:55.260
+Çok etkileyici. Bu gerçekten bir araştırma olayının,
+
+00:10:55.260 --> 00:10:59.260
+daha heyecan verici bir yarışmaya dönüştürülmesidir.
+
+00:10:59.260 --> 00:11:01.260
+Burada gördüğünüz, bu çok güzel
+
+00:11:01.260 --> 00:11:03.260
+Louis Vuitton Kupası ödülü.
+
+00:11:03.260 --> 00:11:05.260
+Bu en iyi insansı robot için
+
+00:11:05.260 --> 00:11:07.260
+ve biz önümüzdeki sene bunu ilk kez Birleşik Devletler'e getirmeyi istiyoruz,
+
+00:11:07.260 --> 00:11:09.260
+o yüzden bize şans dileyin.
+
+00:11:09.260 --> 00:11:11.260
+Teşekkürler.
+
+00:11:11.260 --> 00:11:14.260
+(Alkışlar)
+
+00:11:14.260 --> 00:11:16.260
+DARwIn'in daha çok yetenekleri var.
+
+00:11:16.260 --> 00:11:19.260
+O, geçen sene gerçekten Roanoke Senfoni Orkestrası'nın
+
+00:11:19.260 --> 00:11:22.260
+tatil konserini yönetti.
+
+00:11:22.260 --> 00:11:25.260
+Bu gelecek nesil robot, DARwIn IV,
+
+00:11:25.260 --> 00:11:28.260
+daha akıllı, daha hızlı, daha güçlü.
+
+00:11:28.260 --> 00:11:30.260
+Ve yeteneklerini göstermeye çalışıyor.
+
+00:11:30.260 --> 00:11:33.260
+"Maçoyum, güçlüyüm."
+
+00:11:33.260 --> 00:11:36.260
+Bazı Jackie Chan hareketleri de yapabiliyor.
+
+00:11:36.260 --> 00:11:39.260
+Dövüş sanatları hareketleri.
+
+00:11:39.260 --> 00:11:41.260
+(Gülüşmeler)
+
+00:11:41.260 --> 00:11:43.260
+Ve yürüyüp gidiyor. İşte bu DARwIn IV,
+
+00:11:43.260 --> 00:11:45.260
+tekrar, onu lobide görebileceksiniz.
+
+00:11:45.260 --> 00:11:47.260
+Biz bunun Birleşik Devletler'de koşan ilk insansı robot
+
+00:11:47.260 --> 00:11:50.260
+olacağına gerçekten inanıyoruz. O yüzden, bekleyin.
+
+00:11:50.260 --> 00:11:53.260
+Pekala, size heyecan verici robotlarımızı işbaşında gösterdim.
+
+00:11:53.260 --> 00:11:56.260
+Peki, başarımızın sırrı nedir?
+
+00:11:56.260 --> 00:11:58.260
+Nereden buluyoruz bu fikirleri?
+
+00:11:58.260 --> 00:12:00.260
+Bu fikirleri nasıl geliştiriyoruz?
+
+00:12:00.260 --> 00:12:02.260
+Şehir ortamında sürebildiğimiz
+
+00:12:02.260 --> 00:12:04.260
+tamamen özerk bir aracımız var. DARPA Şehir Yarışması'nda
+
+00:12:04.260 --> 00:12:06.260
+yarım milyon dolar kazandık.
+
+00:12:06.260 --> 00:12:08.260
+Ayrıca körler tarafından sürülebilen
+
+00:12:08.260 --> 00:12:10.260
+dünyanın ilk aracını ürettik.
+
+00:12:10.260 --> 00:12:12.260
+Biz ona kör sürüş düellosu diyoruz, çok heyecan verici
+
+00:12:12.260 --> 00:12:16.260
+ve hakkında konuşmak istediğim diğer birçok robotik projesi.
+
+00:12:16.260 --> 00:12:18.260
+Bunlar sadece 2007 güzünde robotik yarışlardan
+
+00:12:18.260 --> 00:12:21.260
+ve o tür şeylerden kazandığımız ödüller.
+
+00:12:21.260 --> 00:12:23.260
+Bizim gerçekten beş sırrımız var.
+
+00:12:23.260 --> 00:12:25.260
+İlki, biz bu ilhamı nereden buluyoruz,
+
+00:12:25.260 --> 00:12:27.260
+bu hayalgücü kıvılcımını nereden alıyoruz?
+
+00:12:27.260 --> 00:12:30.260
+Bu gerçek bir hikaye, benim kişisel hikayem.
+
+00:12:30.260 --> 00:12:32.260
+Geceleri, uyumaya gittiğimde, sabahın 3 veya 4'ü,
+
+00:12:32.260 --> 00:12:35.260
+Uzanırım, gözlerimi kaparım ve bu çizgileri, daireleri ve etrafta
+
+00:12:35.260 --> 00:12:37.260
+dolanıp duran farklı şekilleri görürüm
+
+00:12:37.260 --> 00:12:40.260
+ve bunlar bir araya gelir, bu tür mekanizmaları oluştururlar.
+
+00:12:40.260 --> 00:12:42.260
+Ve, "Aha, işte bu harika." diye düşünürüm
+
+00:12:42.260 --> 00:12:44.260
+Yatağımın hemen yanında bir not defteri tutarım,
+
+00:12:44.260 --> 00:12:47.260
+bir günlük, üzerinde ışık, LED ışık olan, bir kalemle birlikte,
+
+00:12:47.260 --> 00:12:49.260
+çünkü ışığı açıp eşimi uyandırmak istemem.
+
+00:12:49.260 --> 00:12:51.260
+Gördüğüm her şeyi karalıyorum, bir şeyler çiziyorum,
+
+00:12:51.260 --> 00:12:53.260
+ve uyuyorum.
+
+00:12:53.260 --> 00:12:55.260
+Her gün sabahları,
+
+00:12:55.260 --> 00:12:57.260
+günün ilk kahvesini içmeden önce,
+
+00:12:57.260 --> 00:12:59.260
+daha dişlerimi fırçalamadan, defterimi açarım.
+
+00:12:59.260 --> 00:13:01.260
+Çoğu zaman boştur,
+
+00:13:01.260 --> 00:13:03.260
+bazen bir şeyler vardır, bazen işe yaramaz,
+
+00:13:03.260 --> 00:13:06.260
+fakat çoğu zaman kendi el yazımı bile okuyamam.
+
+00:13:06.260 --> 00:13:09.260
+Sabahın 4'ü, ne bekliyordunuz yani, değil mi?
+
+00:13:09.260 --> 00:13:11.260
+Yazdığımı deşifre etmem gerekiyor.
+
+00:13:11.260 --> 00:13:14.260
+Fakat bazen orada o dahice fikri görürüm,
+
+00:13:14.260 --> 00:13:16.260
+ve o "buldum" anını yaşarım.
+
+00:13:16.260 --> 00:13:18.260
+Doğruca ofisime gider, bilgisayarımın başına oturur,
+
+00:13:18.260 --> 00:13:20.260
+bu fikirleri yazarım, bir şeyler çizerim
+
+00:13:20.260 --> 00:13:23.260
+ve bir fikirler listesi tutarım.
+
+00:13:23.260 --> 00:13:25.260
+Önermeler için çağrılar olduğunda
+
+00:13:25.260 --> 00:13:27.260
+potansiyel fikirlerim ile problem
+
+00:13:27.260 --> 00:13:29.260
+arasında bir eşleşme
+
+00:13:29.260 --> 00:13:31.260
+bulmaya çalışırım, eğer eşleşme varsa bir araştırma önerisi yazarız,
+
+00:13:31.260 --> 00:13:35.260
+araştırma fonunu alırız, işte araştırma programlarımızı böyle başlatırız.
+
+00:13:35.260 --> 00:13:38.260
+Fakat sadece bir hayal gücü kıvılcımı yetersizdir.
+
+00:13:38.260 --> 00:13:40.260
+Bu tür fikirleri nasıl geliştiriyoruz?
+
+00:13:40.260 --> 00:13:43.260
+RoMeLa, Robotik Mekanizmalar Labaratuvarı'nda
+
+00:13:43.260 --> 00:13:46.260
+bu fantastik beyin fırtınası oturumlarımız vardır.
+
+00:13:46.260 --> 00:13:48.260
+Bir araya geliriz, problemler ve sosyal sorunlar
+
+00:13:48.260 --> 00:13:50.260
+hakkında tartışırız ve konuşuruz.
+
+00:13:50.260 --> 00:13:53.260
+Fakat başlamadan önce şu altın kuralı koyarız.
+
+00:13:53.260 --> 00:13:55.260
+Kural şudur:
+
+00:13:55.260 --> 00:13:58.260
+Kimse kimsenin fikirlerini eleştirmeyecek.
+
+00:13:58.260 --> 00:14:00.260
+Hiç kimse hiçbir fikri eleştirmeyecek.
+
+00:14:00.260 --> 00:14:02.260
+Bu önemlidir, çünkü çoğu zaman, öğrenciler,
+
+00:14:02.260 --> 00:14:05.260
+başkalarının kendi düşünceleri ve fikirleri hakkında
+
+00:14:05.260 --> 00:14:07.260
+ne düşüneceğinden çekinirler.
+
+00:14:07.260 --> 00:14:09.260
+Bir kez bunu yaptığınızda, öğrenciler
+
+00:14:09.260 --> 00:14:11.260
+inanılmaz bir şekilde açılırlar.
+
+00:14:11.260 --> 00:14:14.260
+O kaçık, harika, delice parlak fikirleri bulurlar,
+
+00:14:14.260 --> 00:14:17.260
+bütün oda yaratıcı enerjiyle dolup taşar.
+
+00:14:17.260 --> 00:14:20.260
+Ve işte biz fikirlerimizi böyle geliştiririz.
+
+00:14:20.260 --> 00:14:23.260
+Vaktimiz azalıyor, bahsetmek istediğim bir şey daha var.
+
+00:14:23.260 --> 00:14:27.260
+Bilirsiniz, sadece bir parlak fikir ve onu geliştirme yeterli değildir.
+
+00:14:27.260 --> 00:14:29.260
+Çok güzel bir TED anısı vardı,
+
+00:14:29.260 --> 00:14:32.260
+Sanırım Sir Ken Robinson olmalı, değil mi?
+
+00:14:32.260 --> 00:14:34.260
+Eğitim ve okulun yaratıcılığı nasıl
+
+00:14:34.260 --> 00:14:36.260
+öldürdüğü hakkında konuştu.
+
+00:14:36.260 --> 00:14:39.260
+Aslında, hikayenin iki yüzü var.
+
+00:14:39.260 --> 00:14:42.260
+Dahice fikirler, yaratıcılık ve iyi bir
+
+00:14:42.260 --> 00:14:44.260
+mühendislik sezgisi ile
+
+00:14:44.260 --> 00:14:47.260
+yapabilecekleriniz sınırlıdır.
+
+00:14:47.260 --> 00:14:49.260
+Geçiştirmenin ötesine gitmek isterseniz,
+
+00:14:49.260 --> 00:14:51.260
+robotik hobisinin ötesine gitmek isterseniz
+
+00:14:51.260 --> 00:14:54.260
+ve robotik biliminin esas düellolarını özenli
+
+00:14:54.260 --> 00:14:56.260
+araştırmalarla ele almak için
+
+00:14:56.260 --> 00:14:59.260
+bundan daha fazlasına ihtiyacımız var. Burada okul devreye girer.
+
+00:14:59.260 --> 00:15:02.260
+Batman, kötü adamlara karşı,
+
+00:15:02.260 --> 00:15:04.260
+onun alet kemeri var, kancası var,
+
+00:15:04.260 --> 00:15:06.260
+farklı türde çeşit çeşit aleti var.
+
+00:15:06.260 --> 00:15:08.260
+Biz robotikçiler, mühendisler ve bilim insanları için
+
+00:15:08.260 --> 00:15:13.260
+bu aletler, bunlar aldığınız dersler ve kurslardır.
+
+00:15:13.260 --> 00:15:15.260
+Matematik, diferansiyel denklemler.
+
+00:15:15.260 --> 00:15:17.260
+Doğrusal cebir, fen bilimleri, fizik,
+
+00:15:17.260 --> 00:15:20.260
+hatta bugünlerde, kimya ve biyoloji, gördüğünüz gibi.
+
+00:15:20.260 --> 00:15:22.260
+Tüm bunlar ihtiyacımız olan aletler.
+
+00:15:22.260 --> 00:15:24.260
+Ne kadar çok alet varsa, Batman için
+
+00:15:24.260 --> 00:15:26.260
+kötülere karşı o kadar etkili dövüşme,
+
+00:15:26.260 --> 00:15:30.260
+bizim için, büyük problemleri çözmek için daha fazla araç demektir.
+
+00:15:30.260 --> 00:15:33.260
+Bu yüzden eğitim çok önemlidir.
+
+00:15:33.260 --> 00:15:35.260
+Dahası, bu kadar değil,
+
+00:15:35.260 --> 00:15:37.260
+sadece bu değil, ayrıca gerçekten çok, çok çalışmalısınız.
+
+00:15:37.260 --> 00:15:39.260
+Hep öğrencilerime söylerim,
+
+00:15:39.260 --> 00:15:41.260
+akıllıca çalışın, sonra çok çalışın.
+
+00:15:41.260 --> 00:15:44.260
+Arkadaki bu resim, bu sabahın üçü.
+
+00:15:44.260 --> 00:15:46.260
+Garanti veriyorum, laboratuvarımıza sabah 3'te 4'te gelseniz,
+
+00:15:46.260 --> 00:15:48.260
+orada çalışan öğrencilerimiz vardır,
+
+00:15:48.260 --> 00:15:51.260
+ben onlara söylediğim için değil, çok eğlenceli olduğu için.
+
+00:15:51.260 --> 00:15:53.260
+Ki bu da son konuya geliyor.
+
+00:15:53.260 --> 00:15:55.260
+Eğlenmeyi unutmayın.
+
+00:15:55.260 --> 00:15:58.260
+Başarımızın sırrı gerçekten budur, biz çok eğleniyoruz.
+
+00:15:58.260 --> 00:16:01.260
+İnanıyorum ki en fazla verimlilik, eğlendiğimiz zaman gerçekleşir.
+
+00:16:01.260 --> 00:16:03.260
+Ve bizim de yaptığımız bu.
+
+00:16:03.260 --> 00:16:05.260
+İşte böyle. Çok teşekkür ediyorum.
+
+00:16:05.260 --> 00:16:10.260
+(Alkışlar)
+

@@ -1,0 +1,212 @@
+WEBVTT
+Kind: captions
+Language: it
+
+00:00:00.000 --> 00:00:07.000
+Traduttore: Michele Gianella
+Revisore: Giacomo Boschi
+
+00:00:19.330 --> 00:00:21.330
+Nel 1952, Buckminster Fuller
+
+00:00:21.330 --> 00:00:25.330
+avanzò una proposta particolarmente audace: il Geoscopio.
+
+00:00:25.330 --> 00:00:28.330
+Era una sfera dal diametro di 60 metri
+
+00:00:28.330 --> 00:00:33.330
+da sospendere sopra l'East River a New York, ben visibile delle Nazioni Unite.
+
+00:00:33.330 --> 00:00:39.330
+Era un'ottima idea, certamente, un'idea che pensava potesse davvero informare e fare
+
+00:00:39.330 --> 00:00:43.330
+la differenza nelle decisioni che quell'organismo avrebbe preso,
+
+00:00:43.330 --> 00:00:47.330
+grazie ai dati globali, ai trend
+
+00:00:47.330 --> 00:00:51.330
+e alle altre informazioni sul mondo, proiettati su questa sfera.
+
+00:00:51.330 --> 00:00:54.330
+Oggi, 45 anni più tardi,
+
+00:00:54.330 --> 00:00:57.330
+non abbiamo certo meno bisogno di quella chiarezza e prospettiva,
+
+00:00:57.330 --> 00:01:00.330
+ma abbiamo una tecnologia migliore.
+
+00:01:00.330 --> 00:01:03.330
+Oggi non servono un milione di lampadine per creare un display sferico:
+
+00:01:03.330 --> 00:01:05.330
+possiamo usare i LED.
+
+00:01:05.330 --> 00:01:10.330
+I LED sono più piccoli, economici, duraturi, efficienti.
+
+00:01:10.330 --> 00:01:12.330
+E cosa ancora più importante, sono più reattivi.
+
+00:01:12.330 --> 00:01:16.330
+E questa velocità, combinata coi micro-controllori ad alta performance,
+
+00:01:16.330 --> 00:01:19.330
+ci hanno permesso di simulare, in questo pezzo,
+
+00:01:19.330 --> 00:01:23.330
+oltre 17000 LED, usandone solo 64.
+
+00:01:24.330 --> 00:01:28.330
+Ci riusciamo sfruttando il fenomeno della persistenza retinica.
+
+00:01:28.330 --> 00:01:32.330
+Mentre questo anello gira a circa 1700 volte al minuto --28 volte al secondo--
+
+00:01:33.330 --> 00:01:36.330
+(la velocità dell'equatore è di circa 60 miglia all'ora),
+
+00:01:36.330 --> 00:01:38.330
+quattro micro-controllori ricevono
+
+00:01:38.330 --> 00:01:41.330
+un segnale di posizione ogni volta
+
+00:01:41.330 --> 00:01:43.330
+che questo anello
+
+00:01:43.330 --> 00:01:45.330
+passa dietro al display,
+
+00:01:45.330 --> 00:01:47.330
+e da quel segnale, i micro-controller
+
+00:01:47.330 --> 00:01:52.330
+possono estrapolare la posizione dell'anello in tutti i punti della rotazione
+
+00:01:52.330 --> 00:01:55.330
+e mostrare animazioni ed immagini bitmap a piacimento.
+
+00:01:55.330 --> 00:01:58.330
+Ma questo è davvero solo l'inizio.
+
+00:01:58.330 --> 00:02:01.330
+Oltre alle versioni a più alta risoluzione di questo display,
+
+00:02:01.330 --> 00:02:04.330
+io e mio padre stiamo lavorando ad un nuovo design in corso di brevettazione
+
+00:02:04.330 --> 00:02:07.330
+per un display 3D che usa lo stesso fenomeno.
+
+00:02:07.330 --> 00:02:10.330
+Ci riusciamo facendo ruotare i LED attorno ai due assi.
+
+00:02:10.330 --> 00:02:13.330
+Questa, come potete vedere, è una scheda madre da 11 pollici.
+
+00:02:13.330 --> 00:02:15.330
+Questi elementi sono i LED.
+
+00:02:15.330 --> 00:02:19.330
+Potete vedere come, man mano che il disco ruota attorno a qusto asse,
+
+00:02:19.330 --> 00:02:22.330
+crea un disco di luce che possiamo controllare.
+
+00:02:22.330 --> 00:02:24.330
+Non è niente di nuovo, è un propeller clock.
+
+00:02:24.330 --> 00:02:27.330
+Questi sono cerchioni che potreste acquistare per la vostra macchina.
+
+00:02:27.330 --> 00:02:32.330
+La novità è che, quando ruotiamo il disco attorno a questo asse,
+
+00:02:32.330 --> 00:02:35.330
+il cerchio di luce diventa una sfera di luce.
+
+00:02:35.330 --> 00:02:37.330
+E possiamo controllarla coi micro-controllori
+
+00:02:37.330 --> 00:02:43.330
+creando un display tridimensionale, a pieno volume, con solo 256 LED.
+
+00:02:43.330 --> 00:02:45.330
+Ora, questo è un "work in progress"
+
+00:02:45.330 --> 00:02:50.330
+--lo presentiamo a Maggio, ma abbiamo preparato una piccola demo,
+
+00:02:50.330 --> 00:02:54.330
+per mostrarvi la traslazione geometrica dei punti in una sfera.
+
+00:02:54.330 --> 00:02:56.330
+Ho un piccolo video da mostrarvi,
+
+00:02:56.330 --> 00:03:00.330
+ma tenete a mente che non ha controllo elettronico,
+
+00:03:00.330 --> 00:03:02.330
+e anche questo usa solo quattro LED.
+
+00:03:02.330 --> 00:03:05.330
+In realtà è grande solo l'1,5 % di quello che sarà il display finale pronto a Maggio.
+
+00:03:05.330 --> 00:03:07.330
+Osservate.
+
+00:03:09.330 --> 00:03:13.330
+Potete vedere che sta ruotando attorno al solo asse verticale, creando dei cerchi.
+
+00:03:17.330 --> 00:03:19.330
+E poi, quando inizia la rotazione attorno all'altro asse,
+
+00:03:19.330 --> 00:03:21.330
+le scie si fondono in un unico volume.
+
+00:03:21.330 --> 00:03:23.330
+Va detto però che l'esposizione della telecamera
+
+00:03:23.330 --> 00:03:26.330
+rende l'effetto meno efficace.
+
+00:03:26.330 --> 00:03:28.330
+Ma a Maggio vedrete il pezzo finale.
+
+00:03:28.330 --> 00:03:31.330
+Sarà mostrato all'Interactive Telecommunications Spring Show
+
+00:03:31.330 --> 00:03:33.330
+nel Greenwhich Village di New York City-- che è aperto al pubblico,
+
+00:03:33.330 --> 00:03:37.330
+e vi invito assolutamente tutti a partecipare-- è uno show fantastico.
+
+00:03:37.330 --> 00:03:41.330
+Ci sono centinaia di studenti innovatori con progetti fantastici.
+
+00:03:41.330 --> 00:03:43.330
+Questo pezzo sarà esposto
+
+00:03:43.330 --> 00:03:45.330
+giù al Sierra Simulcast Lounge
+
+00:03:45.330 --> 00:03:47.330
+nelle pause da ora alla fine dell'evento.
+
+00:03:47.330 --> 00:03:49.330
+Mi piacerebbe parlare con tutti voi, e vi invito
+
+00:03:49.330 --> 00:03:51.330
+a scendere ed osservarlo più da vicino.
+
+00:03:51.330 --> 00:03:53.330
+È un onore essere qui, grazie infinite.
+
+00:03:53.330 --> 00:03:54.330
+(Applausi)
+

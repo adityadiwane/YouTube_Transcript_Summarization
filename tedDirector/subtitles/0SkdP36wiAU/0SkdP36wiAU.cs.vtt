@@ -1,0 +1,1459 @@
+WEBVTT
+Kind: captions
+Language: cs
+
+00:00:00.000 --> 00:00:07.000
+Překladatel: Micha Hurbisova
+Korektor: Nicole Minichová
+
+00:00:12.535 --> 00:00:15.980
+Jsem profesorkou informatiky a inženýrství,
+tady na Carnegie Mellon,
+
+00:00:15.980 --> 00:00:20.228
+a můj výzkum se zaměřuje na 
+ochranu a zabezpečení osobních údajů,
+
+00:00:20.228 --> 00:00:22.996
+a tak mi mí přátelé rádi říkají
+
+00:00:22.996 --> 00:00:25.198
+o svých potížích s informačními systémy,
+
+00:00:25.198 --> 00:00:28.552
+jde především o obavy souvisejícími
+
+00:00:28.552 --> 00:00:32.664
+s nepoužitelnou ochranou osobních údajů.
+
+00:00:32.664 --> 00:00:35.375
+Hesla jsou něco, o čem slýchávám hodně.
+
+00:00:35.375 --> 00:00:38.255
+Hodně lidí je frustrováno hesly,
+
+00:00:38.255 --> 00:00:39.949
+a je dost špatné,
+
+00:00:39.949 --> 00:00:42.593
+když máte mít jedno opravdu dobré heslo,
+
+00:00:42.593 --> 00:00:44.415
+které si jste schopni pamatovat,
+
+00:00:44.415 --> 00:00:47.309
+ale nikdo jiný ho nebude schopen uhodnout.
+
+00:00:47.309 --> 00:00:48.946
+Ale co uděláte, když máte účty
+
+00:00:48.946 --> 00:00:50.754
+na milionech různých systémech
+
+00:00:50.754 --> 00:00:53.030
+a měli byste mít jedinečné heslo
+
+00:00:53.030 --> 00:00:56.067
+pro každý z těchto systémů?
+
+00:00:56.067 --> 00:00:58.251
+Je to těžké.
+
+00:00:58.251 --> 00:01:00.010
+V Carnegie Mellon pro nás bývávalo
+
+00:01:00.010 --> 00:01:01.309
+zapamatování hesla
+
+00:01:01.309 --> 00:01:03.046
+vlastně docela jednoduché.
+
+00:01:03.046 --> 00:01:05.449
+Požadavkem na heslo do roku 2009
+
+00:01:05.449 --> 00:01:07.828
+bylo pouze mít heslo
+
+00:01:07.828 --> 00:01:10.039
+s alespoň jedním znakem.
+
+00:01:10.039 --> 00:01:12.927
+Docela jednoduché.
+Ale pak se věci změnili
+
+00:01:12.927 --> 00:01:15.597
+a na konci roku 2009 oznámili,
+
+00:01:15.597 --> 00:01:17.973
+že se chystají mít novou zásadu,
+
+00:01:17.973 --> 00:01:19.836
+a tato nová zásada požadovala
+
+00:01:19.836 --> 00:01:22.517
+hesla, která byla dlouhá alespoň 8 znaků,
+
+00:01:22.517 --> 00:01:24.292
+s velkým písmenem, malým písmenem,
+
+00:01:24.292 --> 00:01:25.580
+číslovkou, symbolem,
+
+00:01:25.580 --> 00:01:28.218
+nemohli jste použít 
+stejný znak více než třikrát,
+
+00:01:28.218 --> 00:01:30.652
+a nebylo povoleno heslo ze slovníku.
+
+00:01:30.652 --> 00:01:32.834
+Nyní když zavedli tuto novou zásadu,
+
+00:01:32.834 --> 00:01:35.144
+hodně lidí, mých kolegů a přátel,
+
+00:01:35.144 --> 00:01:36.998
+přišli za mnou a říkali: "Wow,
+
+00:01:36.998 --> 00:01:38.510
+teď je to opravdu nepoužitelné.
+
+00:01:38.510 --> 00:01:39.703
+Proč nám to dělají
+
+00:01:39.703 --> 00:01:41.414
+a proč jsi je nezastavila?"
+
+00:01:41.414 --> 00:01:42.770
+A já jsem řekla: "No, víte co?
+
+00:01:42.770 --> 00:01:44.278
+Oni se mě nezeptali."
+
+00:01:44.278 --> 00:01:47.743
+Ale začalo mne to zajímat 
+a rozhodla jsem se jít promluvit
+
+00:01:47.743 --> 00:01:49.680
+s lidmi ve vedení naší počítačové sítě,
+
+00:01:49.680 --> 00:01:52.511
+a zjistit, co je vedlo k zavedení
+
+00:01:52.511 --> 00:01:54.359
+této nové politiky,
+
+00:01:54.359 --> 00:01:55.943
+a oni řekli, že se univerzita
+
+00:01:55.943 --> 00:01:58.309
+připojila ke spolku univerzit
+
+00:01:58.309 --> 00:02:00.943
+a jedním z požadavků na členství
+
+00:02:00.943 --> 00:02:03.191
+bylo, že musíme mít silnější heslo,
+
+00:02:03.191 --> 00:02:05.463
+které splňuje některé nové podmínky,
+
+00:02:05.463 --> 00:02:07.567
+a těmito podmínkami bylo,
+že naše hesla
+
+00:02:07.567 --> 00:02:09.171
+musí obsahovat hodně entropie.
+
+00:02:09.171 --> 00:02:11.449
+Entropie je docela složitý termín,
+
+00:02:11.449 --> 00:02:14.247
+ale v podstatě jde o měření síly hesel.
+
+00:02:14.247 --> 00:02:16.226
+Ale jde o to, že vlastně není
+
+00:02:16.226 --> 00:02:18.175
+žádné standardní měřítko entropie.
+
+00:02:18.175 --> 00:02:20.574
+Národní úřad pro normalizaci a měření (UNM)
+
+00:02:20.574 --> 00:02:22.127
+má směrnice,
+
+00:02:22.127 --> 00:02:24.695
+které mají určitá pravidla
+
+00:02:24.695 --> 00:02:26.135
+pro měření entropie,
+
+00:02:26.135 --> 00:02:29.030
+ale nemají nic příliš specifického,
+
+00:02:29.030 --> 00:02:31.367
+a důvod, proč mají pravidla jen tak od oka
+
+00:02:31.367 --> 00:02:34.503
+je, že oni vlastně nemají žádná dobrá data
+
+00:02:34.503 --> 00:02:36.023
+týkající se hesel.
+
+00:02:36.023 --> 00:02:38.335
+Ve skutečnosti jejich zpráva uvádí:
+
+00:02:38.335 --> 00:02:40.663
+"Bohužel, nemáme příliš dat týkající se hesel,
+
+00:02:40.663 --> 00:02:43.505
+která si uživatelé vybírají za určitých podmínek.
+
+00:02:43.505 --> 00:02:45.838
+UNM by rád získal více dat
+
+00:02:45.838 --> 00:02:48.300
+ohledně hesel, která si uživatelé vybírají,
+
+00:02:48.300 --> 00:02:50.763
+nicméně systémoví administrátoři
+se pochopitelně zdráhají
+
+00:02:50.763 --> 00:02:53.703
+odhalit hesla ostatním."
+
+00:02:53.703 --> 00:02:56.800
+Tohle je problém, 
+ale naše výzkumná skupina
+
+00:02:56.800 --> 00:02:58.940
+to viděla jako příležitost.
+
+00:02:58.940 --> 00:03:02.040
+Řekli jsme: "No, je tady potřeba 
+získat data ohledně hesel.
+
+00:03:02.040 --> 00:03:04.188
+Možná budeme moci sesbírat informace k heslům
+
+00:03:04.188 --> 00:03:06.892
+a vlastně dopomoci dobrému stavu věcí.
+
+00:03:06.892 --> 00:03:08.564
+Takže první věc, kterou jsme udělali,
+
+00:03:08.564 --> 00:03:10.120
+vzali jsme tašku sladkých tyčinek,
+
+00:03:10.120 --> 00:03:11.206
+a chodili jsme po kampusu
+
+00:03:11.206 --> 00:03:14.004
+a mluvili se studenty, učiteli
+a zaměstnanci,
+
+00:03:14.004 --> 00:03:15.534
+a ptali se jich na informace
+
+00:03:15.534 --> 00:03:17.086
+ohledně jejich hesel.
+
+00:03:17.086 --> 00:03:20.090
+Neříkali jsme: "Dej nám svoje heslo."
+
+00:03:20.090 --> 00:03:22.751
+Ne, my jsme se jen ptali na jejich hesla.
+
+00:03:22.751 --> 00:03:24.229
+Jak je dlouhé? Obsahuje číslovku?
+
+00:03:24.229 --> 00:03:25.297
+Obsahuje symbol?
+
+00:03:25.297 --> 00:03:27.342
+A obtěžovalo vás vytvořit si
+
+00:03:27.342 --> 00:03:30.086
+nové heslo minulý týden?
+
+00:03:30.086 --> 00:03:33.292
+Tak jsme získali výsledky od 470 studentů,
+
+00:03:33.292 --> 00:03:34.263
+učitelů a zaměstnanců,
+
+00:03:34.263 --> 00:03:36.777
+a opravdu jsme potvrdili, že nová politika
+
+00:03:36.777 --> 00:03:38.230
+byla velmi otravná,
+
+00:03:38.230 --> 00:03:40.022
+ale také jsme zjistili, že lidé říkali,
+
+00:03:40.022 --> 00:03:43.152
+že se cítili více bezpečně 
+s těmito novými hesly.
+
+00:03:43.152 --> 00:03:45.458
+Zjistili jsme, že většina lidí věděla,
+
+00:03:45.458 --> 00:03:47.610
+že by si neměli svoje heslo zapsat
+
+00:03:47.610 --> 00:03:50.001
+a pouze 13 procent z nich to udělalo,
+
+00:03:50.001 --> 00:03:52.417
+ale znepokojivě, 80 procent lidí
+
+00:03:52.417 --> 00:03:54.541
+řeklo, že opětovně používají svá hesla.
+
+00:03:54.541 --> 00:03:56.337
+A to je vlastně více nebezpečné
+
+00:03:56.337 --> 00:03:58.359
+než zapsat si svoje heslo.
+
+00:03:58.359 --> 00:04:01.920
+protože vás to dělá 
+více náchylnými k napadení.
+
+00:04:01.920 --> 00:04:05.038
+Takže pokud musíte, zapište si svoje heslo,
+
+00:04:05.038 --> 00:04:06.837
+ale nepoužívejte je opakovaně.
+
+00:04:06.837 --> 00:04:08.588
+Také jsme zjistili nějaké zajímavě věci
+
+00:04:08.588 --> 00:04:11.549
+ohledně symbolů , které lidé 
+ve svých heslech používají.
+
+00:04:11.549 --> 00:04:14.348
+Univerzita dovoluje 32 možných symbolů,
+
+00:04:14.348 --> 00:04:16.781
+ale jak můžete vidět, 
+je jen malé množství symbolů,
+
+00:04:16.781 --> 00:04:18.583
+které lidé většinou používají,
+
+00:04:18.583 --> 00:04:21.524
+takže vlastně nezískáváme moc síly
+
+00:04:21.524 --> 00:04:23.990
+ze symbolů ve svých heslech.
+
+00:04:24.000 --> 00:04:26.615
+Byla to velmi zajímavá studie
+
+00:04:26.615 --> 00:04:29.165
+a nyní máme data od 470 lidí,
+
+00:04:29.165 --> 00:04:30.470
+ale v souhrnu všech věcí,
+
+00:04:30.470 --> 00:04:33.050
+to vlastně příliš dat o heslech není,
+
+00:04:33.050 --> 00:04:34.495
+a tak jsme se porozhlédli kolem,
+
+00:04:34.495 --> 00:04:37.055
+kde bychom mohli najít 
+dodatečná data o heslech?
+
+00:04:37.055 --> 00:04:39.231
+Zdá se, že je zde mnoho lidí,
+
+00:04:39.231 --> 00:04:41.433
+kteří hesla kradou,
+
+00:04:41.433 --> 00:04:43.910
+a často tato hesla publikují
+
+00:04:43.910 --> 00:04:45.247
+na internetu.
+
+00:04:45.247 --> 00:04:46.920
+A my jsme byli schopní získat přístup
+
+00:04:46.920 --> 00:04:50.890
+k některým z těchto kradených hesel.
+
+00:04:50.890 --> 00:04:53.218
+Nicméně to stále není ideální pro výzkum,
+
+00:04:53.218 --> 00:04:55.255
+protože není úplně jasné,
+
+00:04:55.255 --> 00:04:57.439
+odkud se ta hesla vzala,
+
+00:04:57.439 --> 00:04:59.681
+nebo jaké zásady zrovna platily,
+
+00:04:59.681 --> 00:05:01.789
+když lidé ta hesla tvořili.
+
+00:05:01.789 --> 00:05:05.341
+Tak jsme chtěli najít nějaký lepší zdroj dat.
+
+00:05:05.341 --> 00:05:06.975
+Rozhodli jsme, že bychom mohli
+
+00:05:06.975 --> 00:05:09.104
+udělat studii a přitom nechat lidi
+
+00:05:09.104 --> 00:05:12.344
+vytvořit hesla pro naši studii.
+
+00:05:12.344 --> 00:05:15.165
+Tak jsme použili službu zvanou
+Amazon Mechanical Turk,
+
+00:05:15.165 --> 00:05:17.499
+a to je služba, kde můžete publikovat
+
+00:05:17.499 --> 00:05:19.803
+malý úkol online, který zabere minutu,
+
+00:05:19.803 --> 00:05:21.303
+několik minut, hodinu,
+
+00:05:21.303 --> 00:05:23.887
+a zaplatit lidem haléř, 
+10 centů, pár dolarů,
+
+00:05:23.887 --> 00:05:25.233
+aby pro vás udělali úkol
+
+00:05:25.233 --> 00:05:27.355
+a pak jim zaplatíte přes Amazon.com.
+
+00:05:27.355 --> 00:05:29.649
+Tak jsme zaplatili lidem kolem 50 centů
+
+00:05:29.649 --> 00:05:32.245
+za vytvoření hesla podle našich pravidel
+
+00:05:32.245 --> 00:05:33.655
+a vyplnění dotazníku,
+
+00:05:33.655 --> 00:05:36.180
+a pak jsme jim zaplatili 
+znovu, aby se vrátili
+
+00:05:36.180 --> 00:05:38.251
+o dva dny později a přihlásili se
+
+00:05:38.251 --> 00:05:40.825
+použitím jejich hesla 
+a vyplněním dalšího dotazníku.
+
+00:05:40.825 --> 00:05:45.289
+Tak jsme to udělali a sesbírali 5000 hesel
+
+00:05:45.289 --> 00:05:47.984
+a dali jsme lidem kupu různých pravidel
+
+00:05:47.984 --> 00:05:49.492
+pro tvoření hesel.
+
+00:05:49.492 --> 00:05:51.402
+Někteří lidé měli docela jednoduché pravidlo,
+
+00:05:51.402 --> 00:05:52.941
+říkáme mu Basic8,
+
+00:05:52.941 --> 00:05:55.087
+a tady jediná podmínka bylo, že vaše heslo
+
+00:05:55.087 --> 00:05:58.503
+musí mít alespoň 8 znaků.
+
+00:05:58.503 --> 00:06:00.754
+Pak někteří lidé měli hodně těžší zásadu,
+
+00:06:00.754 --> 00:06:03.291
+a to bylo velmi podobné politice CMU,
+
+00:06:03.291 --> 00:06:05.225
+a to, že musí mít 8 znaků
+
+00:06:05.225 --> 00:06:07.601
+včetně velkého a malého písmena,
+číslovku, symbol,
+
+00:06:07.601 --> 00:06:09.990
+a musí projít testem slovníku.
+
+00:06:09.990 --> 00:06:11.325
+A jedna z dalších zásad, kterou jsme zkusili,
+
+00:06:11.325 --> 00:06:12.595
+a bylo jich mnohem více,
+
+00:06:12.595 --> 00:06:14.835
+ale jednu z těch, co jsme zkusili se jmenuje Basic16,
+
+00:06:14.835 --> 00:06:17.467
+a jejím jediným požadavkem
+
+00:06:17.467 --> 00:06:20.620
+je mít heslo s alespoň 16 znaky.
+
+00:06:20.620 --> 00:06:23.078
+Dobře, tak teď jsme měli 5000 hesel,
+
+00:06:23.078 --> 00:06:26.641
+a tak jsme měli mnohem detailnější informace.
+
+00:06:26.641 --> 00:06:29.200
+Znova vidíme, že je jen malé množství
+
+00:06:29.200 --> 00:06:31.115
+symbolů, které lidé vlastně používají
+
+00:06:31.115 --> 00:06:33.001
+ve svých heslech.
+
+00:06:33.001 --> 00:06:35.600
+Také jsme chtěli vědět, jak silná
+
+00:06:35.600 --> 00:06:38.371
+hesla lidé vytvářeli,
+
+00:06:38.371 --> 00:06:40.991
+ale jak si možná vzpomenete, 
+neexistuje dobré měřítko
+
+00:06:40.991 --> 00:06:42.745
+síly hesla.
+
+00:06:42.745 --> 00:06:45.057
+Takže jsme se rozhodli podívat,
+
+00:06:45.057 --> 00:06:47.427
+jak dlouho bude trvat nabourat tato hesla
+
+00:06:47.427 --> 00:06:48.841
+použitím nejlepších nabourávacích nástrojů,
+
+00:06:48.841 --> 00:06:50.649
+které ti zlí hoši používají,
+
+00:06:50.649 --> 00:06:52.665
+nebo jsme mohli najít informace
+
+00:06:52.665 --> 00:06:54.202
+ve výzkumné literatuře.
+
+00:06:54.202 --> 00:06:56.960
+Tak abych vám udělala
+představu o tom, jak se zlí hoši
+
+00:06:56.960 --> 00:06:59.130
+nabourávají do hesel,
+
+00:06:59.130 --> 00:07:01.081
+ukradnou soubor hesel,
+
+00:07:01.081 --> 00:07:03.234
+který obsahuje všechna ta hesla
+
+00:07:03.234 --> 00:07:06.123
+v takové zakódované podobě,
+nazvané "hash",
+
+00:07:06.123 --> 00:07:08.685
+a co udělají je, že si tipnou,
+
+00:07:08.685 --> 00:07:10.397
+jaké to heslo je,
+
+00:07:10.397 --> 00:07:12.294
+projedou to skrz "hash" funkci,
+
+00:07:12.294 --> 00:07:14.059
+a uvidí, jestli to odpovídá
+
+00:07:14.059 --> 00:07:18.009
+heslům, které mají 
+na jejich ukradeném seznamu hesel.
+
+00:07:18.009 --> 00:07:21.114
+No a hloupý útočník zkusí každé heslo postupně.
+
+00:07:21.114 --> 00:07:24.682
+Začnou s AAAAA, pokračují s AAAAB
+
+00:07:24.682 --> 00:07:27.100
+a tohle zabere opravdu dlouho
+
+00:07:27.100 --> 00:07:28.626
+než získají hesla,
+
+00:07:28.626 --> 00:07:31.323
+která lidé s velkou pravděpodobností mají.
+
+00:07:31.323 --> 00:07:33.506
+Chytrý útočník, na druhou stranu,
+
+00:07:33.506 --> 00:07:34.892
+udělá něco mnohem chytřejšího.
+
+00:07:34.892 --> 00:07:36.718
+Podívají se na hesla,
+
+00:07:36.718 --> 00:07:38.518
+o kterých se ví, že jsou populární
+
+00:07:38.518 --> 00:07:40.245
+z těch ukradených souborů hesel
+
+00:07:40.245 --> 00:07:41.434
+a právě ty hádají jako první.
+
+00:07:41.434 --> 00:07:43.568
+Takže začnou s hádáním "heslo",
+
+00:07:43.568 --> 00:07:46.319
+a pak tipnou "miluji tě", a "opice",
+
+00:07:46.319 --> 00:07:48.902
+a "12345678"
+
+00:07:48.902 --> 00:07:50.214
+protože to jsou hesla,
+
+00:07:50.214 --> 00:07:52.119
+která lidé nejpravděpodobněji mají.
+
+00:07:52.119 --> 00:07:55.380
+A opravdu, někteří z vás 
+pravděpodobně mají tato hesla.
+
+00:07:57.191 --> 00:07:58.489
+Takže co jsme našli
+
+00:07:58.489 --> 00:08:01.895
+díky testování všech těch 5000 hesel, 
+co jsme sesbírali,
+
+00:08:01.895 --> 00:08:06.001
+v těch testech, které ukazují sílu hesel,
+
+00:08:06.001 --> 00:08:08.753
+zjistili jsme, že dlouhá hesla
+
+00:08:08.753 --> 00:08:10.033
+jsou vlastně docela silná,
+
+00:08:10.033 --> 00:08:13.295
+a komplexní hesla jsou taky celkem silná.
+
+00:08:13.295 --> 00:08:15.737
+Nicméně, když jsme se podívali 
+na data výzkumu,
+
+00:08:15.737 --> 00:08:18.761
+viděli jsme, že lidé jsou 
+opravdu frustrovaní
+
+00:08:18.761 --> 00:08:21.100
+velmi komplexními hesly,
+
+00:08:21.100 --> 00:08:23.730
+a dlouhá hesla byla mnohem více použitelná
+
+00:08:23.730 --> 00:08:25.055
+a v některých případech,
+byla vlastně
+
+00:08:25.055 --> 00:08:27.963
+dokonce silnější než komplexní hesla.
+
+00:08:27.963 --> 00:08:29.132
+Takže tohle naznačuje,
+
+00:08:29.132 --> 00:08:30.835
+že na místo říkat lidem, že mají
+
+00:08:30.835 --> 00:08:32.357
+dát všechny ty symboly a čísla
+
+00:08:32.357 --> 00:08:35.199
+a šílené věci do svých hesel,
+
+00:08:35.199 --> 00:08:37.221
+tak bychom lépe lidem jen řekli,
+
+00:08:37.221 --> 00:08:39.873
+aby měli dlouhá hesla.
+
+00:08:39.873 --> 00:08:41.665
+No ale tady je teď problém:
+
+00:08:41.665 --> 00:08:43.920
+Někteří lidé měli dlouhá hesla,
+
+00:08:43.920 --> 00:08:45.475
+která vlastně nebyla moc silná.
+
+00:08:45.475 --> 00:08:47.472
+Můžete vytvořit dlouhá hesla,
+
+00:08:47.472 --> 00:08:49.028
+která jsou stejně
+
+00:08:49.028 --> 00:08:50.770
+útočníkem lehce uhodnutelná.
+
+00:08:50.770 --> 00:08:54.135
+Takže musíme udělat víc, 
+než jen zadat dlouhá hesla.
+
+00:08:54.135 --> 00:08:56.071
+Musí tam být nějaké dodatečné požadavky,
+
+00:08:56.071 --> 00:08:59.040
+a některé z našich probíhajících 
+výzkumů zkoumají
+
+00:08:59.040 --> 00:09:01.479
+jaké dodatečné požadavky 
+bychom měli přidat,
+
+00:09:01.479 --> 00:09:03.583
+abychom udělali silnější hesla,
+
+00:09:03.583 --> 00:09:05.895
+která budou pro lidi jednoduchá
+
+00:09:05.895 --> 00:09:08.593
+na zapamatování i psaní.
+
+00:09:08.593 --> 00:09:10.719
+Další přístup, jak lidi dostat k tomu, aby měli
+
+00:09:10.719 --> 00:09:12.976
+silnější hesla, je užití heslo-metru.
+
+00:09:12.976 --> 00:09:14.361
+Tady jsou nějaké příklady.
+
+00:09:14.361 --> 00:09:15.762
+Možná jste je viděli na internetu,
+
+00:09:15.762 --> 00:09:18.819
+když jste vytvářeli hesla.
+
+00:09:18.819 --> 00:09:21.067
+My jsme se rozhodli udělali studii, 
+abychom zjistili,
+
+00:09:21.067 --> 00:09:23.954
+jestli ty heslo-metry opravdu fungují.
+
+00:09:23.954 --> 00:09:25.375
+Opravdu lidem pomáhají
+
+00:09:25.375 --> 00:09:26.828
+mít silnější heslo,
+
+00:09:26.828 --> 00:09:28.914
+a jestli ano,
+které jsou lepší?
+
+00:09:28.914 --> 00:09:31.421
+Tak jsme otestovali heslo-metry,
+které měly
+
+00:09:31.421 --> 00:09:33.519
+různé velikosti, tvary, barvy,
+
+00:09:33.519 --> 00:09:34.935
+různá slova vedle nich,
+
+00:09:34.935 --> 00:09:38.210
+a dokonce jsme otestovali ten,
+co byl tančící králík.
+
+00:09:38.210 --> 00:09:39.792
+Když napíšete lepší heslo,
+
+00:09:39.792 --> 00:09:42.331
+králík tančí rychleji a rychleji.
+
+00:09:42.331 --> 00:09:44.860
+Takže to bylo docela sranda.
+
+00:09:44.860 --> 00:09:46.427
+Co jsme zjistili
+
+00:09:46.427 --> 00:09:49.999
+bylo, že heslo-metry fungují.
+
+00:09:49.999 --> 00:09:51.800
+(smích)
+
+00:09:51.800 --> 00:09:55.133
+Většina heslo-metrů byla vlastně efektních,
+
+00:09:55.133 --> 00:09:57.654
+a tančící králík byl taky hodně efektní,
+
+00:09:57.654 --> 00:10:00.535
+ale heslo-metry, které byly nejvíce efektní,
+
+00:10:00.535 --> 00:10:02.890
+byly ty, co vás přiměly pracovat pilněji
+
+00:10:02.890 --> 00:10:04.870
+předtím než vám ukázaly 
+palec nahoru a řekly,
+
+00:10:04.870 --> 00:10:06.247
+že děláte dobrou práci,
+
+00:10:06.247 --> 00:10:07.759
+a ve skutečnosti jsme zjistili, 
+že většina
+
+00:10:07.759 --> 00:10:10.040
+heslo-metrů na internetu
+
+00:10:10.040 --> 00:10:10.992
+je dnes příliš slabá.
+
+00:10:10.992 --> 00:10:13.195
+Řeknou vám, 
+že děláte dobrou práci příliš brzy,
+
+00:10:13.195 --> 00:10:15.124
+a pokud by počkali jen chvilku předtím
+
+00:10:15.124 --> 00:10:17.173
+než vám dají tu pozitivní zpětnou vazbu,
+
+00:10:17.173 --> 00:10:20.333
+pravděpodobně byste měli lepší hesla.
+
+00:10:20.333 --> 00:10:24.180
+Další přístup k lepším heslům je možná
+
+00:10:24.180 --> 00:10:27.070
+užití frází namísto hesel.
+
+00:10:27.070 --> 00:10:30.488
+toto byl xkcd kreslený vtip,
+několik let starý,
+
+00:10:30.488 --> 00:10:32.162
+a ten karikaturista navrhl,
+
+00:10:32.162 --> 00:10:34.358
+že bychom všichni měli používat fráze,
+
+00:10:34.358 --> 00:10:37.528
+a když se podíváte na druhý řádek 
+toho kresleného vtipu,
+
+00:10:37.528 --> 00:10:39.385
+můžete vidět, že karikaturista navrhuje,
+
+00:10:39.385 --> 00:10:42.826
+že fráze "Oprav koňské svorky baterie"
+
+00:10:42.826 --> 00:10:45.307
+by byla velmi silnou frází
+
+00:10:45.307 --> 00:10:47.223
+a něčím opravdu jednoduchým k zapamatování.
+
+00:10:47.223 --> 00:10:50.020
+Říká, vlastně jste si to už zapamatovali.
+
+00:10:50.020 --> 00:10:52.170
+A tak jsme se rozhodli udělat studii,
+
+00:10:52.170 --> 00:10:54.762
+abychom zjistili, 
+jestli je to pravda nebo ne.
+
+00:10:54.762 --> 00:10:56.537
+Ve skutečnosti, každý s kým mluvím,
+
+00:10:56.537 --> 00:10:58.579
+komu zmíním, že dělám výzkum o heslech,
+
+00:10:58.579 --> 00:10:59.979
+poukáží na tento kreslený vtip.
+
+00:10:59.979 --> 00:11:01.553
+"Oh, viděla jsi to? Ten komix.
+
+00:11:01.553 --> 00:11:03.155
+Oprav koňské svorky baterie."
+
+00:11:03.155 --> 00:11:04.961
+Tak jsme udělali výzkumnou studii, 
+abychom viděli
+
+00:11:04.961 --> 00:11:07.320
+co by se vlastně stalo.
+
+00:11:07.320 --> 00:11:10.380
+Takže v naší studii jsme 
+zase použili Mechanical Turk,
+
+00:11:10.380 --> 00:11:14.547
+a počítač nám vybral náhodná slova
+
+00:11:14.547 --> 00:11:15.647
+do heslových frází.
+
+00:11:15.647 --> 00:11:16.800
+Důvod, proč jsme to udělali
+
+00:11:16.800 --> 00:11:18.386
+je, že lidé nejsou velmi dobří
+
+00:11:18.386 --> 00:11:19.770
+ve vybírání náhodných slov.
+
+00:11:19.770 --> 00:11:21.032
+Pokud bychom požádali člověka,
+aby to udělal,
+
+00:11:21.032 --> 00:11:24.030
+vybral by věci, 
+které by nebyly moc náhodné.
+
+00:11:24.030 --> 00:11:26.062
+Tak jsme zkusili pár různých podmínek.
+
+00:11:26.062 --> 00:11:28.152
+Za první podmínky počítač vybral
+
+00:11:28.152 --> 00:11:30.368
+ze slovníku velmi běžných slov
+
+00:11:30.368 --> 00:11:31.730
+anglického jazyka,
+
+00:11:31.730 --> 00:11:33.494
+a tak byste narazili na fráze jako
+
+00:11:33.494 --> 00:11:35.418
+"zkus tam tři přijít".
+
+00:11:35.418 --> 00:11:37.150
+A my jsme se na to podívali a řekli:
+
+00:11:37.150 --> 00:11:40.200
+"No, to opravdu nevypadá velmi zapamatovatelně."
+
+00:11:40.200 --> 00:11:42.440
+Tak pak jsme zkusili vybírání slov,
+
+00:11:42.440 --> 00:11:44.961
+které pocházeli ze specifických částí řeči,
+
+00:11:44.961 --> 00:11:47.143
+takže co třeba podstatné jm.-sloveso-přídavné jm.-podstatné jm.
+
+00:11:47.143 --> 00:11:49.720
+To přijde s něčím,
+co už trochu vypadá jako věta.
+
+00:11:49.720 --> 00:11:51.790
+Tak můžete dostat frázi jako
+
+00:11:51.790 --> 00:11:53.098
+"plán buduje spolehlivou sílu"
+
+00:11:53.098 --> 00:11:55.884
+nebo "konec určuje červenou drogu"
+
+00:11:55.884 --> 00:11:58.560
+A tyto vypadají trochu víc zapamatovatelně,
+
+00:11:58.560 --> 00:12:01.382
+a lidé by je asi měli trochu raději.
+
+00:12:01.382 --> 00:12:03.954
+Chtěli jsme je porovnat s hesly
+
+00:12:03.954 --> 00:12:07.150
+a tak jsme nechali počítač 
+vybrat náhodná hesla,
+
+00:12:07.150 --> 00:12:09.140
+a ty byly pěkné a krátké, ale jak můžete vidět,
+
+00:12:09.140 --> 00:12:11.946
+opravdu nevypadají moc zapamatovatelně.
+
+00:12:11.946 --> 00:12:13.342
+A pak jsme se rozhodli 
+vyzkoušet něco nazvané
+
+00:12:13.342 --> 00:12:14.988
+vyslovitelné heslo.
+
+00:12:14.988 --> 00:12:17.233
+Tak tady počítač vybere náhodné slabiky
+
+00:12:17.233 --> 00:12:18.367
+a dá je dohromady
+
+00:12:18.367 --> 00:12:20.842
+tak, že máte něco nějak vyslovitelného,
+
+00:12:20.842 --> 00:12:23.444
+jako "tufritvi" a "vadasabi".
+
+00:12:23.444 --> 00:12:25.591
+Ten se nějak váli na jazyku.
+
+00:12:25.591 --> 00:12:27.807
+Takže ta byla náhodná hesla, která byla
+
+00:12:27.807 --> 00:12:30.551
+vygenerovaná počítačem.
+
+00:12:30.551 --> 00:12:33.529
+Co jsme zjistili v této studii je, překvapivě,
+
+00:12:33.529 --> 00:12:37.297
+že heslové fráze nebyly vlastně tak dobré.
+
+00:12:37.297 --> 00:12:40.090
+Lidé opravdu nebyli lepší v pamatování
+
+00:12:40.090 --> 00:12:43.043
+frází než těchto náhodných hesel,
+
+00:12:43.043 --> 00:12:45.797
+a protože fráze jsou delší,
+
+00:12:45.797 --> 00:12:47.023
+jejich napsání trvá déle
+
+00:12:47.023 --> 00:12:50.033
+a lidé dělají více chyb, když je píší.
+
+00:12:50.033 --> 00:12:53.260
+Takže to opravdu není 
+čistá výhra pro fráze.
+
+00:12:53.260 --> 00:12:56.605
+Promiňte, všichni fanoušci komixu xkcd.
+
+00:12:56.605 --> 00:12:58.497
+Na druhou stranu jsme zjistili,
+
+00:12:58.497 --> 00:13:00.301
+že vyslovitelná hesla
+
+00:13:00.301 --> 00:13:01.772
+fungují překvapivě dobře,
+
+00:13:01.772 --> 00:13:04.190
+a tak už děláme další výzkum,
+
+00:13:04.190 --> 00:13:07.385
+abychom zjistili, jestli můžeme 
+tento přístup udělat ještě lepším.
+
+00:13:07.385 --> 00:13:09.197
+Jeden z problémů
+
+00:13:09.197 --> 00:13:10.820
+s některými z našich studií
+
+00:13:10.820 --> 00:13:12.503
+je, že protože jsou udělány
+
+00:13:12.503 --> 00:13:14.093
+za pomoci Mechanical Turk,
+
+00:13:14.093 --> 00:13:15.905
+nejsou to opravdová hesla lidí.
+
+00:13:15.905 --> 00:13:18.010
+Jsou to hesla, která lidé vytvořili
+
+00:13:18.010 --> 00:13:20.505
+nebo počítač vytvořil za ně 
+pro náš výzkum.
+
+00:13:20.505 --> 00:13:22.073
+A my jsme chtěli vědět,
+
+00:13:22.073 --> 00:13:24.385
+jestli by se lidé chovali stejně
+
+00:13:24.385 --> 00:13:26.612
+se svými opravdovými hesly.
+
+00:13:26.612 --> 00:13:30.293
+Tak jsme si promluvili s informační 
+bezpečností službou v Carnegie Mellon
+
+00:13:30.293 --> 00:13:34.096
+a zeptali se jich, jestli bychom 
+mohli mít opravdová hesla všech.
+
+00:13:34.096 --> 00:13:35.850
+Nepřekvapivě byli trochu zdráhaví
+
+00:13:35.850 --> 00:13:37.400
+je s námi sdílet,
+
+00:13:37.400 --> 00:13:39.210
+ale my jsme vlastně byli schopní s nimi
+
+00:13:39.210 --> 00:13:40.250
+vypracovat systém,
+
+00:13:40.250 --> 00:13:42.359
+kam vložili všechna reálná hesla
+
+00:13:42.359 --> 00:13:45.450
+25000 studentů, učitelů a zaměstnanců,
+
+00:13:45.450 --> 00:13:47.898
+do uzamčeného počítače 
+v uzamčené místnosti,
+
+00:13:47.898 --> 00:13:49.292
+nepřipojeném k internetu
+
+00:13:49.292 --> 00:13:51.140
+a oni na něm spustili kód, 
+který jsme napsali,
+
+00:13:51.140 --> 00:13:53.292
+abychom zanalyzovali ta hesla.
+
+00:13:53.292 --> 00:13:54.618
+Oni nahráli náš kód.
+
+00:13:54.618 --> 00:13:55.930
+Spustili ten kód.
+
+00:13:55.930 --> 00:13:57.668
+A tak jsme nikdy vlastně neviděli
+
+00:13:57.668 --> 00:14:00.485
+ničí heslo.
+
+00:14:00.485 --> 00:14:02.000
+Dostali jsme nějaké zajímavé výsledky,
+
+00:14:02.000 --> 00:14:03.696
+a vás, studenty Tepper, vzadu,
+
+00:14:03.696 --> 00:14:06.571
+to bude velmi zajímat.
+
+00:14:06.571 --> 00:14:10.302
+Zjistili jsme, že hesla vytvořená
+
+00:14:10.302 --> 00:14:12.460
+lidmi z fakulty počítačových věd
+
+00:14:12.460 --> 00:14:14.784
+byla vlastně 1.8 krát silnější
+
+00:14:14.784 --> 00:14:18.522
+než těch z ekonomické fakulty.
+
+00:14:18.522 --> 00:14:20.562
+Máme také hodně dalších opravdu zajímavých
+
+00:14:20.562 --> 00:14:22.800
+demografických informací.
+
+00:14:22.800 --> 00:14:24.646
+Další zajímá věc, kterou jsme zjistili
+
+00:14:24.646 --> 00:14:27.086
+je, že když srovnáme 
+hesla z Carnegie Mellon
+
+00:14:27.086 --> 00:14:29.369
+s hesly vygenerovanými na Mechanical Turk,
+
+00:14:29.369 --> 00:14:31.988
+bylo tam celkem hodně podobností,
+
+00:14:31.988 --> 00:14:33.936
+a pomohlo to ověřit naši výzkumnou metodu
+
+00:14:33.936 --> 00:14:36.446
+a ukázat, že sbírání hesel
+
+00:14:36.446 --> 00:14:38.254
+za pomoci Mechanical Turk studí
+
+00:14:38.254 --> 00:14:41.042
+je vlastně správná cesta ke zkoumání hesel.
+
+00:14:41.042 --> 00:14:43.327
+A to byla dobrá zpráva.
+
+00:14:43.327 --> 00:14:45.741
+Dobře, chtěla bych na závěr říct něco
+
+00:14:45.741 --> 00:14:47.809
+o zkušenosti, kterou jsem získala loni
+
+00:14:47.809 --> 00:14:51.010
+na roční vědecké dovolené 
+ve škole umění Carnegie Mellon.
+
+00:14:51.010 --> 00:14:52.291
+Jedna z věcí, kterou jsem vytvořila,
+
+00:14:52.291 --> 00:14:53.815
+bylo několik přikrývek,
+
+00:14:53.815 --> 00:14:55.363
+a tohle je jedna z nich.
+
+00:14:55.363 --> 00:14:57.262
+Jmenuje se "Bezpečnostní deka".
+
+00:14:57.262 --> 00:14:59.693
+(Smích)
+
+00:14:59.693 --> 00:15:02.788
+A tato deka obsahuje 1000
+
+00:15:02.788 --> 00:15:05.116
+nejčastějších hesel ukradených
+
+00:15:05.116 --> 00:15:07.687
+ze stránky RockYou.
+
+00:15:07.687 --> 00:15:09.748
+A velikost hesel odpovídá tomu,
+
+00:15:09.748 --> 00:15:11.649
+jak často se objevovala
+
+00:15:11.649 --> 00:15:13.897
+v ukradené databázi.
+
+00:15:13.897 --> 00:15:16.529
+A tak jsem vytvořila tento mrak slov
+
+00:15:16.529 --> 00:15:18.661
+a prošla všech 1000 slov
+
+00:15:18.661 --> 00:15:20.456
+a rozřadila je do
+
+00:15:20.456 --> 00:15:22.836
+volných tematických kategorií.
+
+00:15:22.836 --> 00:15:24.739
+A to bylo, v některých případech,
+
+00:15:24.739 --> 00:15:26.777
+docela složité zjistit,
+
+00:15:26.777 --> 00:15:28.532
+do jaké kategorie by měly patřit
+
+00:15:28.532 --> 00:15:30.431
+a pak jsem je barevně označila.
+
+00:15:30.431 --> 00:15:33.050
+Tady jsou některé obtížné příklady.
+
+00:15:33.050 --> 00:15:34.231
+Třeba "justin".
+
+00:15:34.231 --> 00:15:36.060
+Je to jméno uživatele,
+
+00:15:36.060 --> 00:15:37.382
+jejich přítel, jejich syn?
+
+00:15:37.382 --> 00:15:40.270
+Možná jsou jen fanouškem Justina Biebera.
+
+00:15:40.270 --> 00:15:42.495
+Nebo "princezna".
+
+00:15:42.495 --> 00:15:44.130
+Je to přezdívka?
+
+00:15:44.130 --> 00:15:45.725
+Jsou fanoušci Disney princezen?
+
+00:15:45.725 --> 00:15:49.419
+Nebo možná je to jméno jejich kočky.
+
+00:15:49.419 --> 00:15:51.074
+"Miluji tě" se objevilo mnohokrát
+
+00:15:51.074 --> 00:15:52.619
+v nespočtu různých jazycích.
+
+00:15:52.619 --> 00:15:56.354
+V těchto heslech je hodně lásky.
+
+00:15:56.354 --> 00:15:58.034
+Když se podíváte pozorněji, uvidíte, že jsou tam taky
+
+00:15:58.034 --> 00:16:00.301
+určité vulgarismy,
+
+00:16:00.301 --> 00:16:02.251
+ale bylo pro mě opravdu zajímavé vidět,
+
+00:16:02.251 --> 00:16:04.558
+že je v těchto heslech
+
+00:16:04.558 --> 00:16:06.850
+mnohem více lásky než nenávisti.
+
+00:16:06.850 --> 00:16:08.340
+A jsou tam zvířata,
+
+00:16:08.340 --> 00:16:09.700
+hodně zvířat,
+
+00:16:09.700 --> 00:16:12.004
+a "opice" je nejčastější zvíře
+
+00:16:12.004 --> 00:16:15.679
+a 14. nejpopulárnější heslo celkově.
+
+00:16:15.679 --> 00:16:17.910
+A to mě opravdu zajímalo,
+
+00:16:17.910 --> 00:16:20.433
+a říkala jsem si: "Proč jsou opice tak populární?"
+
+00:16:20.433 --> 00:16:23.785
+A v naší poslední studii o heslech,
+
+00:16:23.785 --> 00:16:25.471
+pokaždé, když jsme objevili někoho
+
+00:16:25.471 --> 00:16:28.120
+používat heslo se slovem "opice",
+
+00:16:28.120 --> 00:16:31.150
+zeptali jsme se jich, 
+proč měli opici ve svém hesle.
+
+00:16:31.150 --> 00:16:33.060
+A co jsme zjistili -
+
+00:16:33.060 --> 00:16:35.163
+našli jsme zatím 17 lidí, myslím,
+
+00:16:35.163 --> 00:16:36.446
+co měli slovo "opice" -
+
+00:16:36.446 --> 00:16:38.258
+zjistili jsme, že asi třetina z nich řekla,
+
+00:16:38.258 --> 00:16:39.998
+že mají domácí zvíře jménem "opice"
+
+00:16:39.998 --> 00:16:42.289
+nebo kamaráda, jehož přezdívka je "opice",
+
+00:16:42.289 --> 00:16:43.949
+a asi třetina z nich řekla,
+
+00:16:43.949 --> 00:16:45.482
+že prostě mají rádi opice
+
+00:16:45.482 --> 00:16:47.120
+a že opice jsou roztomilé.
+
+00:16:47.120 --> 00:16:50.759
+A ten malý je opravdu roztomilý.
+
+00:16:50.759 --> 00:16:54.167
+Tak se zdá, že nakonec
+
+00:16:54.167 --> 00:16:55.950
+když tvoříme hesla,
+
+00:16:55.950 --> 00:16:57.924
+buď vytvoříme něco, 
+co je opravdu jednoduché
+
+00:16:57.924 --> 00:17:00.933
+napsat, běžný vzorec,
+
+00:17:00.933 --> 00:17:03.419
+nebo věci, co nám připomínají slovo heslo
+
+00:17:03.419 --> 00:17:06.731
+nebo účet, pro který jsme heslo vytvořili,
+
+00:17:06.731 --> 00:17:09.348
+nebo cokoliv.
+
+00:17:09.348 --> 00:17:11.990
+Nebo myslíme na věci, 
+které nás dělají šťastnými,
+
+00:17:11.990 --> 00:17:13.294
+a tvoříme hesla
+
+00:17:13.294 --> 00:17:15.532
+založená na věcech, 
+co nás dělají šťastnými.
+
+00:17:15.532 --> 00:17:18.395
+A zatímco to dělá psaní
+
+00:17:18.395 --> 00:17:21.265
+a zapamatování vašeho hesla více zábavné,
+
+00:17:21.265 --> 00:17:23.072
+taky je mnohem lehčí
+
+00:17:23.072 --> 00:17:24.578
+vaše heslo uhodnout.
+
+00:17:24.578 --> 00:17:26.326
+Vím, že hodně z těchto TED přednášek
+
+00:17:26.326 --> 00:17:27.960
+je inspirativních
+
+00:17:27.960 --> 00:17:30.421
+a že vás přimějí myslet na hezké, veselé věci,
+
+00:17:30.421 --> 00:17:32.318
+ale když si tvoříte heslo,
+
+00:17:32.318 --> 00:17:34.309
+snažte se myslet na něco jiného.
+
+00:17:34.309 --> 00:17:34.862
+Děkuji.
+
+00:17:35.295 --> 00:17:35.968
+(Potlesk)
+

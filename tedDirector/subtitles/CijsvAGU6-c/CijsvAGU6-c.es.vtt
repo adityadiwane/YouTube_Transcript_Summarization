@@ -1,0 +1,995 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:00.000 --> 00:00:07.000
+Traductor: Sebastian Betti
+Revisor: Amaranta Heredia Jaén
+
+00:00:15.260 --> 00:00:17.260
+Buenas tardes a todos.
+
+00:00:17.260 --> 00:00:20.260
+Tengo algo que mostrarles.
+
+00:00:37.260 --> 00:00:39.260
+(Risas)
+
+00:00:39.260 --> 00:00:42.260
+Piensen que es un píxel, un píxel volador.
+
+00:00:42.260 --> 00:00:45.260
+En nuestro laboratorio lo llamamos diseño sensible.
+
+00:00:45.260 --> 00:00:47.260
+Les voy a contar un poco sobre esto.
+
+00:00:47.260 --> 00:00:50.260
+Si se fijan en esta foto... soy de origen italiano,
+
+00:00:50.260 --> 00:00:52.260
+todos los niños en Italia crecen
+
+00:00:52.260 --> 00:00:54.260
+con esta foto en la pared de su dormitorio.
+
+00:00:54.260 --> 00:00:56.260
+Pero la razón por la que les muestro esto
+
+00:00:56.260 --> 00:00:58.260
+es que ha sucedido algo muy interesante
+
+00:00:58.260 --> 00:01:00.260
+en las carreras de Fórmula 1
+
+00:01:00.260 --> 00:01:02.260
+en las últimas dos décadas.
+
+00:01:02.260 --> 00:01:04.260
+Hace ya algún tiempo,
+
+00:01:04.260 --> 00:01:06.260
+si uno quería ganar una carrera de Fórmula 1,
+
+00:01:06.260 --> 00:01:08.260
+tomaba un presupuesto y lo apostaba
+
+00:01:08.260 --> 00:01:11.260
+a un buen piloto y un buen coche,
+
+00:01:11.260 --> 00:01:14.260
+y si el coche y el piloto eran lo suficientemente buenos, uno ganaba la carrera.
+
+00:01:14.260 --> 00:01:16.260
+Pero hoy, si uno quiere ganar una carrera,
+
+00:01:16.260 --> 00:01:19.260
+hace falta también algo como esto...
+
+00:01:19.260 --> 00:01:22.260
+Algo que monitoree el coche en tiempo real,
+
+00:01:22.260 --> 00:01:24.260
+con miles de sensores
+
+00:01:24.260 --> 00:01:26.260
+que recopilan información
+
+00:01:26.260 --> 00:01:29.260
+y la transmiten al sistema
+
+00:01:29.260 --> 00:01:31.260
+para luego procesarla
+
+00:01:31.260 --> 00:01:34.260
+y usarla para darle instrucciones al coche
+
+00:01:34.260 --> 00:01:36.260
+y cambiar cosas en tiempo real
+
+00:01:36.260 --> 00:01:38.260
+a medida que se recopila información.
+
+00:01:38.260 --> 00:01:40.260
+Esto es lo que, en ingeniería,
+
+00:01:40.260 --> 00:01:43.260
+se denominaría sistema de control en tiempo real.
+
+00:01:43.260 --> 00:01:46.260
+En esencia es un sistema que tiene dos componentes:
+
+00:01:46.260 --> 00:01:48.260
+un sensor y un accionador.
+
+00:01:48.260 --> 00:01:50.260
+Hoy lo interesante
+
+00:01:50.260 --> 00:01:52.260
+es que los sistemas de control en tiempo real
+
+00:01:52.260 --> 00:01:55.260
+están empezando a entrar en nuestras vidas.
+
+00:01:55.260 --> 00:01:58.260
+Nuestras ciudades, en los últimos años,
+
+00:01:58.260 --> 00:02:00.260
+han sido cubiertas
+
+00:02:00.260 --> 00:02:02.260
+de redes y electrónica.
+
+00:02:02.260 --> 00:02:04.260
+Se están volviendo computadoras al aire libre.
+
+00:02:04.260 --> 00:02:06.260
+Y, como tales,
+
+00:02:06.260 --> 00:02:08.260
+están empezando a responder de manera diferente
+
+00:02:08.260 --> 00:02:11.260
+y pueden ser detectadas y accionadas.
+
+00:02:11.260 --> 00:02:13.260
+Acondicionar las ciudades es algo grande.
+
+00:02:13.260 --> 00:02:15.260
+Como nota aparte quería mencionar
+
+00:02:15.260 --> 00:02:19.260
+que las ciudades son sólo el 2% de la corteza del planeta
+
+00:02:19.260 --> 00:02:22.260
+pero representan el 50% de la población mundial;
+
+00:02:22.260 --> 00:02:25.260
+el 75% del consumo de energía...
+
+00:02:25.260 --> 00:02:28.260
+y hasta el 80% de las emisiones de CO2.
+
+00:02:28.260 --> 00:02:31.260
+Si pudiéramos hacer algo con las ciudades, sería algo grande.
+
+00:02:31.260 --> 00:02:33.260
+Más allá de las ciudades,
+
+00:02:33.260 --> 00:02:36.260
+todas estas detecciones y activaciones
+
+00:02:36.260 --> 00:02:38.260
+están entrando en nuestros objetos cotidianos.
+
+00:02:38.260 --> 00:02:40.260
+Esto es de una exhibición
+
+00:02:40.260 --> 00:02:42.260
+de Paola Antonelli
+
+00:02:42.260 --> 00:02:44.260
+para fines de año en el MoMA, durante el verano.
+
+00:02:44.260 --> 00:02:46.260
+Se llama "Talk to Me" (Háblame, NT)
+
+00:02:46.260 --> 00:02:48.260
+Bueno, nuestros objetos, el entorno,
+
+00:02:48.260 --> 00:02:50.260
+empiezan a hablarnos.
+
+00:02:50.260 --> 00:02:53.260
+En cierto modo es como si casi todos los átomos existentes
+
+00:02:53.260 --> 00:02:56.260
+se volvieran sensores y actuadores.
+
+00:02:56.260 --> 00:02:59.260
+Y eso está cambiando por completo la interacción que como humanos tenemos
+
+00:02:59.260 --> 00:03:01.260
+con el entorno exterior.
+
+00:03:01.260 --> 00:03:03.260
+En cierto sentido
+
+00:03:03.260 --> 00:03:06.260
+es casi como en el viejo sueño de Miguel Ángel...
+
+00:03:06.260 --> 00:03:08.260
+Ya saben, cuando Miguel Ángel esculpió el Moisés,
+
+00:03:08.260 --> 00:03:11.260
+se dice que al final tomó el martillo y se lo arrojó al Moisés
+
+00:03:11.260 --> 00:03:14.260
+-de hecho aún se puede ver una pequeña mella debajo-
+
+00:03:14.260 --> 00:03:16.260
+y dijo gritando:
+
+00:03:16.260 --> 00:03:18.260
+"Perché non parli?" (¿por qué no hablas?).
+
+00:03:18.260 --> 00:03:20.260
+Bueno, hoy, por primera vez,
+
+00:03:20.260 --> 00:03:23.260
+nuestro entorno empieza a hablarnos.
+
+00:03:23.260 --> 00:03:25.260
+Y les voy a mostrar sólo unos ejemplos;
+
+00:03:25.260 --> 00:03:28.260
+insistiendo en la idea de captar el entorno y accionar algo.
+
+00:03:28.260 --> 00:03:31.260
+Empecemos con la detección.
+
+00:03:31.260 --> 00:03:33.260
+El primer proyecto que quería compartir con Uds.
+
+00:03:33.260 --> 00:03:36.260
+es en verdad uno de los primeros proyectos de nuestro laboratorio.
+
+00:03:36.260 --> 00:03:39.260
+Esto fue hace 4 años y medio en Italia.
+
+00:03:39.260 --> 00:03:41.260
+Lo que hicimos allí
+
+00:03:41.260 --> 00:03:43.260
+fue usar un nuevo tipo de red de ese momento
+
+00:03:43.260 --> 00:03:45.260
+que se había desarrollado por todo el mundo
+
+00:03:45.260 --> 00:03:47.260
+-la red de telefonía celular-
+
+00:03:47.260 --> 00:03:49.260
+y consolidamos información anónima de esa red
+
+00:03:49.260 --> 00:03:51.260
+que de todos modos era recopilada por el operador
+
+00:03:51.260 --> 00:03:53.260
+para entender
+
+00:03:53.260 --> 00:03:55.260
+el funcionamiento de la ciudad.
+
+00:03:55.260 --> 00:03:58.260
+Fue un verano con suerte el de 2006.
+
+00:03:58.260 --> 00:04:01.260
+Fue el año en que Italia ganó la Copa del Mundo.
+
+00:04:01.260 --> 00:04:04.260
+Quizá algunos lo recuerden, jugaban Italia y Francia,
+
+00:04:04.260 --> 00:04:06.260
+y al final Zidane dio el cabezazo.
+
+00:04:06.260 --> 00:04:08.260
+Y de todos modos, al final ganó Italia.
+
+00:04:08.260 --> 00:04:10.260
+(Risas)
+
+00:04:10.260 --> 00:04:12.260
+Ahora veamos qué pasó ese día
+
+00:04:12.260 --> 00:04:14.260
+observando la actividad
+
+00:04:14.260 --> 00:04:16.260
+ocurrida en la red.
+
+00:04:16.260 --> 00:04:18.260
+Aquí vemos la ciudad.
+
+00:04:18.260 --> 00:04:21.260
+Se ve el Coliseo en el medio
+
+00:04:21.260 --> 00:04:24.260
+y el río Tíber.
+
+00:04:24.260 --> 00:04:26.260
+Es la mañana, antes del juego.
+
+00:04:26.260 --> 00:04:28.260
+La línea de tiempo está en la parte superior.
+
+00:04:28.260 --> 00:04:30.260
+Por la tarde temprano
+
+00:04:30.260 --> 00:04:32.260
+hay gente por aquí y allá
+
+00:04:32.260 --> 00:04:34.260
+haciendo llamadas, moviéndose.
+
+00:04:34.260 --> 00:04:37.260
+Comienza el partido: silencio.
+
+00:04:37.260 --> 00:04:40.260
+Gol de Francia. Gol de Italia.
+
+00:04:40.260 --> 00:04:44.260
+Entretiempo; la gente hace una llamada rápida y va al baño.
+
+00:04:44.260 --> 00:04:46.260
+Segundo tiempo. Fin del tiempo reglamentario.
+
+00:04:46.260 --> 00:04:48.260
+Primer tiempo adicional; segundo.
+
+00:04:48.260 --> 00:04:51.260
+Zidane, y en un momento, el cabezazo.
+
+00:04:51.260 --> 00:04:53.260
+Gana Italia, ¡sí!
+
+00:04:53.260 --> 00:04:55.260
+(Risas)
+
+00:04:55.260 --> 00:04:58.260
+(Aplausos)
+
+00:04:58.260 --> 00:05:00.260
+Esa noche todos fueron a celebrarlo al centro.
+
+00:05:00.260 --> 00:05:02.260
+Ahí ven el gran pico.
+
+00:05:02.260 --> 00:05:04.260
+Al día siguiente todos fueron al centro
+
+00:05:04.260 --> 00:05:07.260
+al encuentro del equipo ganador
+
+00:05:07.260 --> 00:05:09.260
+y del primer ministro de entonces.
+
+00:05:09.260 --> 00:05:11.260
+Y luego todo el mundo bajó.
+
+00:05:11.260 --> 00:05:13.260
+Ven la imagen del lugar llamado Circo Massimo
+
+00:05:13.260 --> 00:05:16.260
+donde, desde la época romana, la gente va a celebrar;
+
+00:05:16.260 --> 00:05:19.260
+es una gran fiesta, puede verse el pico al final del día.
+
+00:05:19.260 --> 00:05:21.260
+Este es sólo un ejemplo de cómo hoy se puede medir el pulso de la ciudad
+
+00:05:21.260 --> 00:05:23.260
+de un modo que no habríamos podido hacer
+
+00:05:23.260 --> 00:05:25.260
+hace sólo unos años.
+
+00:05:25.260 --> 00:05:27.260
+Otro ejemplo rápido de detección:
+
+00:05:27.260 --> 00:05:29.260
+no se trata de gente,
+
+00:05:29.260 --> 00:05:31.260
+sino de cosas que usamos y consumimos.
+
+00:05:31.260 --> 00:05:33.260
+Hoy en día sabemos todo
+
+00:05:33.260 --> 00:05:36.260
+sobre la procedencia de nuestros objetos.
+
+00:05:36.260 --> 00:05:38.260
+Este es un mapa que muestra
+
+00:05:38.260 --> 00:05:41.260
+todos los chips que conforman una Mac, cómo se ensamblan.
+
+00:05:41.260 --> 00:05:44.260
+Pero sabemos muy poco sobre adónde van las cosas.
+
+00:05:44.260 --> 00:05:46.260
+Por eso en este proyecto
+
+00:05:46.260 --> 00:05:48.260
+desarrollamos unas etiquetas pequeñas
+
+00:05:48.260 --> 00:05:51.260
+para rastrear la basura en su desplazamiento por el sistema.
+
+00:05:51.260 --> 00:05:54.260
+Empezamos con unos voluntarios
+
+00:05:54.260 --> 00:05:56.260
+que nos ayudaron en Seattle
+
+00:05:56.260 --> 00:05:58.260
+hace poco más de un año,
+
+00:05:58.260 --> 00:06:01.260
+a etiquetar lo que estaban arrojando;
+
+00:06:01.260 --> 00:06:04.260
+distinto tipo de cosas, como pueden ver,
+
+00:06:04.260 --> 00:06:06.260
+cosas que de todos modos tirarían.
+
+00:06:06.260 --> 00:06:08.260
+Luego les pusimos un pequeño chip, una etiqueta,
+
+00:06:08.260 --> 00:06:10.260
+a la basura
+
+00:06:10.260 --> 00:06:12.260
+y luego empezamos a rastrearla.
+
+00:06:12.260 --> 00:06:15.260
+Estos son los resultados obtenidos.
+
+00:06:15.260 --> 00:06:18.260
+(Música)
+
+00:06:18.260 --> 00:06:21.260
+Partiendo de Seattle...
+
+00:06:26.260 --> 00:06:28.260
+después de una semana.
+
+00:06:53.260 --> 00:06:55.260
+Con esta información nos dimos cuenta
+
+00:06:55.260 --> 00:06:57.260
+de que hay muchas ineficiencias en el sistema.
+
+00:06:57.260 --> 00:07:00.260
+Podemos hacer lo mismo con mucha menos energía.
+
+00:07:00.260 --> 00:07:02.260
+Estos son datos que antes no existían.
+
+00:07:02.260 --> 00:07:05.260
+Están sucediendo cosas complicadas y hay mucho transporte innecesario.
+
+00:07:05.260 --> 00:07:07.260
+Pero la otra cosa que creemos
+
+00:07:07.260 --> 00:07:09.260
+es que si vemos todos los días
+
+00:07:09.260 --> 00:07:11.260
+que la taza que arrojamos no desaparece,
+
+00:07:11.260 --> 00:07:13.260
+que todavía está en algún lugar del planeta,
+
+00:07:13.260 --> 00:07:16.260
+que si la botella de plástico que arrojamos un día todavía sigue ahí,
+
+00:07:16.260 --> 00:07:18.260
+que si le mostramos eso a la gente,
+
+00:07:18.260 --> 00:07:20.260
+entonces podremos promover algún cambio de conducta.
+
+00:07:20.260 --> 00:07:22.260
+Esa fue la razón del proyecto.
+
+00:07:22.260 --> 00:07:24.260
+Mi colega del MIT, Assaf Biderman,
+
+00:07:24.260 --> 00:07:26.260
+podría contarnos mucho más sobre detección
+
+00:07:26.260 --> 00:07:28.260
+y muchas otras cosas geniales que podemos hacer con eso,
+
+00:07:28.260 --> 00:07:31.260
+pero quería ir a la segunda parte que mencionamos al principio,
+
+00:07:31.260 --> 00:07:33.260
+que es accionar sobre el entorno.
+
+00:07:33.260 --> 00:07:35.260
+Y el primer proyecto
+
+00:07:35.260 --> 00:07:38.260
+es algo que hicimos hace un par de años en Zaragoza (España).
+
+00:07:38.260 --> 00:07:41.260
+Todo comenzó con una pregunta del alcalde de la ciudad,
+
+00:07:41.260 --> 00:07:43.260
+que vino y nos dijo
+
+00:07:43.260 --> 00:07:46.260
+que España y el sur de Europa tienen una hermosa tradición
+
+00:07:46.260 --> 00:07:49.260
+del uso del agua en espacios públicos, en la arquitectura.
+
+00:07:49.260 --> 00:07:51.260
+Y la pregunta fue: ¿cómo puede la tecnología, la nueva tecnología,
+
+00:07:51.260 --> 00:07:53.260
+sumarse a eso?
+
+00:07:53.260 --> 00:07:56.260
+Y una de las ideas que desarrollamos en el MIT, en un taller,
+
+00:07:56.260 --> 00:07:59.260
+fue: imaginen que tienen un caño y válvulas,
+
+00:07:59.260 --> 00:08:01.260
+válvulas de solenoide, lengüetas
+
+00:08:01.260 --> 00:08:03.260
+que se abren y se cierran.
+
+00:08:03.260 --> 00:08:06.260
+Se crea como una cortina de agua, con píxeles de agua.
+
+00:08:06.260 --> 00:08:08.260
+Si caen los píxeles
+
+00:08:08.260 --> 00:08:10.260
+se puede escribir en ellos,
+
+00:08:10.260 --> 00:08:12.260
+mostrar patrones, imágenes, textos.
+
+00:08:12.260 --> 00:08:14.260
+Y al acercarnos, la cortina se abrirá
+
+00:08:14.260 --> 00:08:16.260
+para que podamos pasar,
+
+00:08:16.260 --> 00:08:18.260
+como ven en la imagen.
+
+00:08:18.260 --> 00:08:20.260
+Le presentamos esto al alcalde Belloch.
+
+00:08:20.260 --> 00:08:22.260
+Le gustó mucho
+
+00:08:22.260 --> 00:08:24.260
+y designó una comisión para diseñar el edificio
+
+00:08:24.260 --> 00:08:26.260
+a la entrada de la Expo.
+
+00:08:26.260 --> 00:08:28.260
+Lo llamamos Pabellón de Agua Digital.
+
+00:08:28.260 --> 00:08:31.260
+Todo el edificio está hecho de agua.
+
+00:08:33.260 --> 00:08:35.260
+No hay puertas ni ventanas,
+
+00:08:35.260 --> 00:08:37.260
+pero cuando uno se aproxima
+
+00:08:37.260 --> 00:08:39.260
+se abre para que uno pueda pasar.
+
+00:08:39.260 --> 00:08:45.260
+(Música)
+
+00:08:52.260 --> 00:08:55.260
+El techo también está cubierto de agua.
+
+00:08:57.260 --> 00:08:59.260
+Y si hay un poco de viento,
+
+00:08:59.260 --> 00:09:02.260
+si se quieren minimizar las salpicaduras, se baja el techo.
+
+00:09:04.260 --> 00:09:06.260
+O se puede cerrar el edificio
+
+00:09:06.260 --> 00:09:08.260
+y toda la arquitectura desaparece,
+
+00:09:08.260 --> 00:09:10.260
+como en este caso.
+
+00:09:10.260 --> 00:09:12.260
+Esos días siempre habrá alguien, en el invierno,
+
+00:09:12.260 --> 00:09:14.260
+cuando bajan el techo,
+
+00:09:14.260 --> 00:09:17.260
+alguien que estuvo allí y que dijo: "Demolieron el edificio".
+
+00:09:17.260 --> 00:09:19.260
+No, no es que lo hayan demolido, sino que cuando se baja
+
+00:09:19.260 --> 00:09:21.260
+casi toda la arquitectura desaparece.
+
+00:09:21.260 --> 00:09:24.260
+Aquí está en funcionamiento.
+
+00:09:24.260 --> 00:09:27.260
+Se ve a las personas intrigadas por lo que pasa dentro.
+
+00:09:27.260 --> 00:09:29.260
+Y aquí estoy yo mismo tratando de no mojarme
+
+00:09:29.260 --> 00:09:32.260
+al probar los sensores que abren el agua.
+
+00:09:32.260 --> 00:09:34.260
+Creo que debería contarles lo que sucedió una noche
+
+00:09:34.260 --> 00:09:37.260
+cuando todos los sensores dejaron de funcionar.
+
+00:09:37.260 --> 00:09:40.260
+Esa noche fue en verdad incluso más divertida.
+
+00:09:40.260 --> 00:09:42.260
+Todos los niños de Zaragoza vinieron al edificio
+
+00:09:42.260 --> 00:09:45.260
+porque la manera de interactuar había cambiado un poco.
+
+00:09:45.260 --> 00:09:48.260
+Ya no era un edificio que se abría para dejarte pasar,
+
+00:09:48.260 --> 00:09:51.260
+sino un edificio que seguía haciendo cortes y agujeros de agua
+
+00:09:51.260 --> 00:09:53.260
+y uno tenía que saltar para no mojarse.
+
+00:09:53.260 --> 00:10:06.260
+(Video) (Ruido de gente)
+
+00:10:06.260 --> 00:10:08.260
+Y para nosotros eso fue muy interesante
+
+00:10:08.260 --> 00:10:11.260
+porque como arquitectos, ingenieros, diseñadores,
+
+00:10:11.260 --> 00:10:14.260
+siempre pensamos en el uso que la gente le dará a nuestros diseños.
+
+00:10:14.260 --> 00:10:17.260
+Pero luego la realidad siempre es impredecible.
+
+00:10:17.260 --> 00:10:19.260
+Y ésa es la belleza de hacer cosas
+
+00:10:19.260 --> 00:10:21.260
+para interactuar, que la gente usa.
+
+00:10:21.260 --> 00:10:23.260
+Ésta es una imagen del edificio
+
+00:10:23.260 --> 00:10:25.260
+con los píxeles físicos, los píxeles de agua,
+
+00:10:25.260 --> 00:10:28.260
+y de proyecciones sobre ellos.
+
+00:10:28.260 --> 00:10:30.260
+Y esto es lo que nos llevó a pensar
+
+00:10:30.260 --> 00:10:32.260
+en el siguiente proyecto que les voy a mostrar.
+
+00:10:32.260 --> 00:10:35.260
+Imaginen que esos píxeles pudieran empezar a volar.
+
+00:10:35.260 --> 00:10:37.260
+Imaginen que pudieran tener pequeños helicópteros
+
+00:10:37.260 --> 00:10:39.260
+en el aire
+
+00:10:39.260 --> 00:10:42.260
+y que cada uno tuviese un pequeño píxel que cambia de color
+
+00:10:42.260 --> 00:10:45.260
+como si fuera una nube que se mueve en el espacio.
+
+00:10:45.260 --> 00:10:47.260
+Éste es el video.
+
+00:10:47.260 --> 00:10:53.260
+(Música)
+
+00:10:53.260 --> 00:10:56.260
+Imaginen un helicóptero,
+
+00:10:56.260 --> 00:10:59.260
+como el que vimos antes,
+
+00:11:01.260 --> 00:11:04.260
+que se mueve con otros
+
+00:11:04.260 --> 00:11:06.260
+en sincronía.
+
+00:11:06.260 --> 00:11:09.260
+Podríamos formar esta nube,
+
+00:11:15.260 --> 00:11:19.260
+una especie de pantalla flexible como ésta
+
+00:11:19.260 --> 00:11:22.260
+con una configuración normal en dos dimensiones.
+
+00:11:29.260 --> 00:11:32.260
+O normal, pero en tres dimensiones,
+
+00:11:32.260 --> 00:11:34.260
+en la que lo que cambia es la luz,
+
+00:11:34.260 --> 00:11:36.260
+no la posición de los píxeles.
+
+00:11:46.260 --> 00:11:48.260
+Se puede jugar con un tipo diferente.
+
+00:11:48.260 --> 00:11:50.260
+Imaginen que la pantalla apareciera
+
+00:11:50.260 --> 00:11:53.260
+en distintas escalas y tamaños,
+
+00:11:53.260 --> 00:11:56.260
+en distintos tipos de resolución.
+
+00:12:05.260 --> 00:12:07.260
+Y que luego todo eso pudiera
+
+00:12:07.260 --> 00:12:09.260
+una nube de píxeles en 3D
+
+00:12:09.260 --> 00:12:12.260
+a la que uno puede acercarse, y atravesar,
+
+00:12:12.260 --> 00:12:15.260
+y ver desde muy diversos ángulos.
+
+00:12:15.260 --> 00:12:17.260
+Ésta es la verdadera Flyfire
+
+00:12:17.260 --> 00:12:21.260
+controlada, yendo hacia abajo para formar una V, como antes.
+
+00:12:21.260 --> 00:12:24.260
+Cuando se enciende la luz, se ve esto. Lo mismo que vimos antes.
+
+00:12:24.260 --> 00:12:26.260
+Imaginen cada uno de ellos controlado por una persona.
+
+00:12:26.260 --> 00:12:28.260
+Podemos tener cada pixel
+
+00:12:28.260 --> 00:12:30.260
+con una entrada que viene de personas,
+
+00:12:30.260 --> 00:12:32.260
+del movimiento de las personas, etc., etc.
+
+00:12:32.260 --> 00:12:35.260
+Quiero mostrarles algo por primera vez.
+
+00:12:35.260 --> 00:12:37.260
+Hemos estado trabajando con Roberto Bolle
+
+00:12:37.260 --> 00:12:39.260
+-uno de los mejores bailarines de ballet de hoy,
+
+00:12:39.260 --> 00:12:41.260
+la estrella del Metropolitan de Nueva York
+
+00:12:41.260 --> 00:12:43.260
+y de La Scala de Milán-
+
+00:12:43.260 --> 00:12:45.260
+para capturar sus movimientos en 3D
+
+00:12:45.260 --> 00:12:48.260
+y usarlos como entrada para el Flyfire.
+
+00:12:48.260 --> 00:12:51.260
+Aquí podemos ver a Roberto bailando.
+
+00:12:53.260 --> 00:12:55.260
+A la izquierda ven los píxeles,
+
+00:12:55.260 --> 00:12:57.260
+la captura en distintas resoluciones.
+
+00:12:57.260 --> 00:12:59.260
+Es tanto digitalización 3D en tiempo real
+
+00:12:59.260 --> 00:13:02.260
+como captura de movimiento.
+
+00:13:03.260 --> 00:13:06.260
+Puede reconstruirse todo el movimiento.
+
+00:13:10.260 --> 00:13:13.260
+Se puede recorrer todo el camino.
+
+00:13:16.260 --> 00:13:18.260
+Y una vez que tenemos los píxeles podemos jugar con ellos,
+
+00:13:18.260 --> 00:13:21.260
+con el color y el movimiento,
+
+00:13:21.260 --> 00:13:24.260
+con la gravedad y la rotación.
+
+00:13:24.260 --> 00:13:26.260
+Queremos usar esto como una posible entrada
+
+00:13:26.260 --> 00:13:28.260
+para el Flyfire.
+
+00:13:47.260 --> 00:13:49.260
+Quería mostrarles el último proyecto en el que estamos trabajando.
+
+00:13:49.260 --> 00:13:51.260
+Es algo para los Juegos Olímpicos de Londres.
+
+00:13:51.260 --> 00:13:53.260
+Se llama La Nube.
+
+00:13:53.260 --> 00:13:55.260
+Y la idea es, imaginen otra vez,
+
+00:13:55.260 --> 00:13:57.260
+que pudiéramos involucrar a la gente
+
+00:13:57.260 --> 00:14:00.260
+para que haga algo y cambie nuestro entorno
+
+00:14:00.260 --> 00:14:02.260
+-casi como un criadero de nubes-
+
+00:14:02.260 --> 00:14:04.260
+como la cría de granero, pero con una nube.
+
+00:14:04.260 --> 00:14:08.260
+Imaginen que pudiéramos hacer que todos donaran un poquito para un píxel.
+
+00:14:08.260 --> 00:14:10.260
+Y creo que lo notable
+
+00:14:10.260 --> 00:14:12.260
+que ha sucedido en los últimos años
+
+00:14:12.260 --> 00:14:14.260
+es que, en las últimas dos décadas,
+
+00:14:14.260 --> 00:14:17.260
+pasamos del mundo físico al mundo digital.
+
+00:14:17.260 --> 00:14:19.260
+Hemos digitalizado todo, como el conocimiento,
+
+00:14:19.260 --> 00:14:21.260
+y es accesible a través de Internet.
+
+00:14:21.260 --> 00:14:23.260
+Hoy, por primera vez
+
+00:14:23.260 --> 00:14:25.260
+-y la campaña de Obama nos lo mostró-,
+
+00:14:25.260 --> 00:14:27.260
+podemos pasar del mundo digital,
+
+00:14:27.260 --> 00:14:29.260
+del poder auto-organizado de las redes,
+
+00:14:29.260 --> 00:14:31.260
+al mundo físico.
+
+00:14:31.260 --> 00:14:33.260
+En nuestro caso, esto puede
+
+00:14:33.260 --> 00:14:35.260
+que queramos usarlo para diseñar y hacer un símbolo.
+
+00:14:35.260 --> 00:14:37.260
+Eso significaría algo construido en una ciudad.
+
+00:14:37.260 --> 00:14:39.260
+Pero mañana puede ser
+
+00:14:39.260 --> 00:14:42.260
+para abordar los desafíos de hoy:
+
+00:14:42.260 --> 00:14:44.260
+piensen en el cambio climático o las emisiones de CO2.
+
+00:14:44.260 --> 00:14:47.260
+¿Cómo pasar del mundo digital al mundo físico?
+
+00:14:47.260 --> 00:14:49.260
+La idea es que podemos hacer que la gente se involucre
+
+00:14:49.260 --> 00:14:51.260
+en hacer esto juntos, de forma colectiva.
+
+00:14:51.260 --> 00:14:54.260
+La nube es una nube, de nuevo, hecha de píxeles
+
+00:14:54.260 --> 00:14:56.260
+de la misma manera que la nube real
+
+00:14:56.260 --> 00:14:58.260
+es una nube de partículas.
+
+00:14:58.260 --> 00:15:00.260
+Y esas partículas son agua,
+
+00:15:00.260 --> 00:15:02.260
+mientras que en nuestra nube son píxeles.
+
+00:15:02.260 --> 00:15:05.260
+Es una estructura física en Londres, pero cubierta de píxeles.
+
+00:15:05.260 --> 00:15:07.260
+Uno puede moverse por dentro, tener distintas experiencias.
+
+00:15:07.260 --> 00:15:09.260
+Puede verse desde abajo, servir para
+
+00:15:09.260 --> 00:15:11.260
+compartir los momentos principales
+
+00:15:11.260 --> 00:15:14.260
+de los Juegos Olímpicos de 2012 y aún más,
+
+00:15:14.260 --> 00:15:18.260
+y puede usarse como una forma de conexión con la comunidad.
+
+00:15:18.260 --> 00:15:22.260
+Así, es tanto una nube física del cielo
+
+00:15:22.260 --> 00:15:25.260
+como algo a lo que uno puede subir,
+
+00:15:25.260 --> 00:15:27.260
+como una nueva cima de Londres.
+
+00:15:27.260 --> 00:15:29.260
+Uno puede entrar ahí
+
+00:15:29.260 --> 00:15:32.260
+como si fuera un nuevo faro digital en la noche,
+
+00:15:32.260 --> 00:15:34.260
+pero lo más importante es que
+
+00:15:34.260 --> 00:15:37.260
+será una nueva experiencia para cualquiera que vaya a la cima.
+
+00:15:37.260 --> 00:15:39.260
+Gracias.
+
+00:15:39.260 --> 00:15:41.260
+(Aplausos)
+

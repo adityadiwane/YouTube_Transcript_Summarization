@@ -1,0 +1,457 @@
+WEBVTT
+Kind: captions
+Language: da
+
+00:00:00.000 --> 00:00:07.000
+Translator: Simon Lebech Cichosz
+Reviewer: Anders Finn Jørgensen
+
+00:00:12.933 --> 00:00:17.074
+Mine studenter og jeg arbejder 
+på meget små robotter.
+
+00:00:17.074 --> 00:00:19.276
+Du kan du tænke på disse
+som robot versioner
+
+00:00:19.276 --> 00:00:22.016
+af noget, som alle
+kender: en myre.
+
+00:00:22.016 --> 00:00:24.776
+Vi ved alle at myrer
+og andre insekter i på deres størrelse
+
+00:00:24.776 --> 00:00:27.012
+kan gøre nogle ret utrolige ting.
+
+00:00:27.012 --> 00:00:30.197
+Vi har alle set en gruppe af myrer,
+eller noget tilsvarende,
+
+00:00:30.197 --> 00:00:34.467
+bærende på din kartoffel chip
+på en picnic, f.eks.
+
+00:00:34.467 --> 00:00:37.910
+Men hvad er de reelle udfordringer
+bygge disse myrer?
+
+00:00:37.910 --> 00:00:41.861
+Altså, først og fremmest, hvordan får vi
+en myres evner
+
+00:00:41.861 --> 00:00:43.909
+i en robot på samme størrelse?
+
+00:00:43.909 --> 00:00:46.983
+først skal vi finde ud af
+hvordan man får dem til a bevæge sig
+
+00:00:46.983 --> 00:00:47.923
+når der er så små.
+
+00:00:47.923 --> 00:00:50.223
+Vi har brug for mekanismer som ben
+og effektive motorer
+
+00:00:50.223 --> 00:00:52.072
+for at få bevægelse,
+
+00:00:52.072 --> 00:00:54.563
+og vi har brug sensorerne,
+kraft og kontrol
+
+00:00:54.563 --> 00:00:58.525
+for at samle det
+i en semi-intelligent myrerobot.
+
+00:00:58.525 --> 00:01:01.071
+Og endelig, at
+få disse ting til rigtig at virke,
+
+00:01:01.071 --> 00:01:05.019
+vi ønsker en masse af dem til at arbejder sammen
+for at gøre større ting.
+
+00:01:05.019 --> 00:01:07.710
+Så jeg vil starte med mobilitet.
+
+00:01:07.710 --> 00:01:10.871
+Insekter bevæger sig forbavsende godt.
+
+00:01:10.871 --> 00:01:12.559
+Denne video er fra UC Berkeley.
+
+00:01:12.559 --> 00:01:15.342
+Det viser en kakerlak bevæge
+sig over et utroligt ujævnt terræn
+
+00:01:15.342 --> 00:01:17.195
+uden at vælte,
+
+00:01:17.195 --> 00:01:21.192
+og det er i stand til at gøre dette, fordi dens ben
+er en kombination af stive materialer,
+
+00:01:21.192 --> 00:01:23.545
+hvilket er, hvad vi traditionelt
+bruge til at lave robotter,
+
+00:01:23.545 --> 00:01:25.144
+og bløde materialer.
+
+00:01:26.374 --> 00:01:30.201
+At hoppe er en anden virkelig interessant måde
+at komme rundt, når du er meget lille.
+
+00:01:30.201 --> 00:01:34.270
+Så disse insekter lagre energi i en fjeder
+og frigøre den virkelig hurtigt
+
+00:01:34.270 --> 00:01:38.281
+for at få den kraft de har brug for
+at springe ud af vand, f.eks.
+
+00:01:38.281 --> 00:01:41.403
+Så en af de store
+bidrag fra min laboratorium
+
+00:01:41.403 --> 00:01:44.153
+har været at kombinere
+stive og bløde materialer
+
+00:01:44.153 --> 00:01:46.367
+i meget, meget lille mekanik.
+
+00:01:46.367 --> 00:01:49.532
+Så denne hoppe mekanisme
+er omkring fire millimeter på en side,
+
+00:01:49.532 --> 00:01:51.220
+så virkelig lille.
+
+00:01:51.220 --> 00:01:55.058
+Den hårde materiale her er silicium,
+og det bløde materiale er silikonegummi.
+
+00:01:55.058 --> 00:01:57.953
+Og den grundlæggende idé er, at
+vi kommer til at komprimere det,
+
+00:01:57.953 --> 00:02:00.654
+lagre energi i fjedrene,
+og derefter frigøre den til at springe.
+
+00:02:00.654 --> 00:02:04.037
+Så der er ingen motorer
+på dette lige nu, ingen energi.
+
+00:02:04.037 --> 00:02:06.800
+Dette aktiveres med en metode
+vi kalder
+
+00:02:06.800 --> 00:02:09.472
+"graduate student with tweezers." (griner)
+
+00:02:09.472 --> 00:02:11.306
+Så hvad vil du se i næste video
+
+00:02:11.306 --> 00:02:14.333
+er denne fyr der hopper
+forbavsende godt .
+
+00:02:14.333 --> 00:02:17.947
+Så dette er Aron, "the graduate student
+in question, with the tweezers"
+
+00:02:17.947 --> 00:02:20.630
+og hvad du ser, er denne
+fire-millimeter-store mekanisme
+
+00:02:20.630 --> 00:02:22.841
+hoppe næsten 40 centimeter højt.
+
+00:02:22.841 --> 00:02:25.265
+Det er næsten 100 gange sin egen længde.
+
+00:02:25.265 --> 00:02:27.221
+Og den overlever, nedslaget på bordet,
+
+00:02:27.221 --> 00:02:30.735
+den er utrolig robust, og overlever 
+ganske godt indtil vi mister det
+
+00:02:30.735 --> 00:02:33.361
+fordi det er meget lille.
+
+00:02:33.361 --> 00:02:35.970
+Ultimativt, ønsker vi dog
+at tilføje motorer til at denne også,
+
+00:02:35.970 --> 00:02:39.086
+og vi har studerende i laboratoriet der
+arbejder på millimeter-store motorer
+
+00:02:39.086 --> 00:02:42.686
+der kan integrere på
+små, autonome robotter.
+
+00:02:42.686 --> 00:02:46.267
+Men for at se på mobilitet og
+bevægelse i denne størrelse,
+
+00:02:46.267 --> 00:02:48.241
+vi snyder og bruge magneter.
+
+00:02:48.241 --> 00:02:51.317
+Så dette viser, kommer til at blive en 
+del af et mikro-robot ben,
+
+00:02:51.317 --> 00:02:53.334
+og du kan se de silikonegummiled
+
+00:02:53.334 --> 00:02:55.963
+og der er en indlejret magnet
+der bliver flyttet rundt
+
+00:02:55.963 --> 00:02:58.266
+af et eksternt magnetisk felt.
+
+00:02:58.266 --> 00:03:00.949
+Så dette fører til robotten
+jeg viste jer tidligere.
+
+00:03:01.959 --> 00:03:05.110
+Den virkelig interessante ting
+denne robot kan hjælpe os med at finde ud af
+
+00:03:05.110 --> 00:03:07.117
+er, hvordan insekter bevæger sig.
+
+00:03:07.117 --> 00:03:09.342
+Vi har en rigtig god model
+for, hvordan alt
+
+00:03:09.342 --> 00:03:11.304
+fra en kakerlak op til en elefant bevæger sig.
+
+00:03:11.304 --> 00:03:14.228
+Alle bevæge sig i denne
+slags hoppende måde, når vi løber.
+
+00:03:14.228 --> 00:03:18.513
+Men når jeg er virkelig lille,
+kommer kræfterne mellem mine fødder og jorden
+
+00:03:18.513 --> 00:03:21.288
+komme til at påvirke min bevægelse
+meget mere end min masse,
+
+00:03:21.288 --> 00:03:23.642
+hvilket er, hvad der forårsager 
+den hoppende bevægelse.
+
+00:03:23.642 --> 00:03:25.317
+Så denne fyr virker ikke helt endnu,
+
+00:03:25.317 --> 00:03:28.392
+men vi har lidt større udgaver
+der løber rundt.
+
+00:03:28.392 --> 00:03:32.277
+Så den er ca. en kubik centimeter,
+en centimeter på en siden, så meget lille,
+
+00:03:32.277 --> 00:03:35.179
+og vi har fået dette til at løbe
+10 krops længder per sekund,
+
+00:03:35.179 --> 00:03:36.565
+så 10 centimeter pr. sekund.
+
+00:03:36.565 --> 00:03:38.598
+Det er temmelig hurtigt for en lille fyr,
+
+00:03:38.598 --> 00:03:40.960
+og det er kun begrænset
+af vores test setup.
+
+00:03:40.960 --> 00:03:43.607
+Men dette giver dig en idé
+omkring, hvordan det fungerer lige nu.
+
+00:03:44.027 --> 00:03:47.781
+Vi kan også lave 3D-trykte udgaver
+af denne, der kan klatre over forhindringer,
+
+00:03:47.781 --> 00:03:51.280
+meget som den kakerlak
+I har set tidligere.
+
+00:03:51.280 --> 00:03:54.166
+Men i sidste ende ønsker vi at tilføje
+alt på robotten.
+
+00:03:54.166 --> 00:03:57.859
+Vi ønsker sanser, kraft, kontrol,
+aktivering alt sammen,
+
+00:03:57.859 --> 00:04:00.765
+og ikke alt
+behøves at være bio-inspireret.
+
+00:04:00.765 --> 00:04:03.900
+Så denne robottens 
+på størrelse med en Tic Tac.
+
+00:04:03.900 --> 00:04:07.849
+Og i dette tilfælde, i stedet for magneter
+eller muskler til at bevæge denne rundt,
+
+00:04:07.849 --> 00:04:10.274
+vi bruger raketter.
+
+00:04:10.274 --> 00:04:12.940
+Så dette er en mikro-fabrikerede
+energirige materiale,
+
+00:04:12.940 --> 00:04:15.539
+og vi kan skabe bittesmå pixels af dette,
+
+00:04:15.539 --> 00:04:19.326
+og vi kan sætte en af disse pixels
+på maven af denne robot,
+
+00:04:19.326 --> 00:04:23.722
+og denne robot, kommer til at springe
+når den registrerer en stigning i lys.
+
+00:04:24.645 --> 00:04:26.618
+Så næste video er en af mine favoritter.
+
+00:04:26.618 --> 00:04:29.658
+Så du har denne 300-milligram robot
+
+00:04:29.658 --> 00:04:32.064
+hoppe omkring otte
+centimeter op i luften.
+
+00:04:32.064 --> 00:04:34.974
+Det er kun 4x4x7 millimeter i størrelse.
+
+00:04:34.974 --> 00:04:37.130
+Og du vil se et stort lysglimt
+i begyndelsen
+
+00:04:37.130 --> 00:04:38.622
+når det energirige stof er aktiveret
+
+00:04:38.622 --> 00:04:40.530
+og robotten flyver gennem luften.
+
+00:04:40.530 --> 00:04:42.139
+Så der var det stor lysglimt,
+
+00:04:42.139 --> 00:04:45.336
+og du kan se robotten
+hoppe op gennem luften.
+
+00:04:45.336 --> 00:04:48.368
+Der er ingen ledning tilsluttet til dette.
+
+00:04:48.368 --> 00:04:50.862
+Alt er onboard,
+og den sprang som respons
+
+00:04:50.862 --> 00:04:55.243
+til den studerende bare drejede 
+bordlampe ved siden af.
+
+00:04:55.243 --> 00:04:58.897
+Så jeg tror, du kan forestille dig
+alle de seje ting, vi kunne gøre
+
+00:04:58.897 --> 00:05:03.604
+med robotter, der kan køre og kravle
+og hoppe og rulle i denne størrelse.
+
+00:05:03.604 --> 00:05:07.394
+Forestil murbrokkerne, du får efter
+en naturkatastrofe som et jordskælv.
+
+00:05:07.394 --> 00:05:09.953
+Forestil disse små robotter
+løber gennem disse murbrokker
+
+00:05:09.953 --> 00:05:12.171
+for at lede efter overlevende.
+
+00:05:12.171 --> 00:05:15.127
+Eller forestil dig en masse små robotter
+løbe omkring en bro
+
+00:05:15.127 --> 00:05:17.286
+for at inspicere den
+og sørg for at den er sikkert
+
+00:05:17.286 --> 00:05:19.326
+så du ikke får kollapse som denne,
+
+00:05:19.326 --> 00:05:23.233
+der skete uden for
+Minneapolis i 2007.
+
+00:05:23.233 --> 00:05:24.995
+Eller bare forestille sig, hvad du kan gøre
+
+00:05:24.995 --> 00:05:27.518
+hvis du havde robotter, der kunne
+svømme gennem dit blod.
+
+00:05:27.518 --> 00:05:29.851
+Ikke? "Fantastic Voyage", Isaac Asimov.
+
+00:05:29.851 --> 00:05:34.206
+Eller de kunne operere dig uden skære dig op.
+
+00:05:34.206 --> 00:05:36.936
+Eller vi kunne radikalt ændre
+den måde, vi bygge ting
+
+00:05:36.936 --> 00:05:40.343
+hvis vi har vores små robotter der
+fungerer på samme måde, som termitter gøre,
+
+00:05:40.343 --> 00:05:43.108
+og de bygger disse utrolige
+otte meter høje bo,
+
+00:05:43.108 --> 00:05:47.196
+effektivt godt ventileret
+boligblokke for andre termitter
+
+00:05:47.196 --> 00:05:49.287
+i Afrika og Australien.
+
+00:05:49.287 --> 00:05:51.717
+Så jeg tror, jeg har givet jer
+nogle af mulighederne
+
+00:05:51.717 --> 00:05:54.154
+af, hvad vi kan gøre med disse små robotter.
+
+00:05:54.154 --> 00:05:58.561
+Og vi har gjort visse fremskridt hidtil,
+men der er stadig lang vej,
+
+00:05:58.561 --> 00:06:01.419
+og forhåbentlig nogle af jer
+kan bidrage til denne destination.
+
+00:06:01.419 --> 00:06:03.187
+Mange tak.
+
+00:06:03.187 --> 00:06:05.391
+(Bifald)
+

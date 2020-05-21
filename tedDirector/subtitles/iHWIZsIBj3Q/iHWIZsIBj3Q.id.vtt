@@ -1,0 +1,430 @@
+WEBVTT
+Kind: captions
+Language: id
+
+00:00:00.000 --> 00:00:07.000
+Translator: Abe Felisa
+Reviewer: Gita Arimanda
+
+00:00:12.579 --> 00:00:16.018
+Saya akan memperagakan
+pertama kalinya di depan umum
+
+00:00:16.018 --> 00:00:20.103
+bahwa mungkin untuk memancarkan video
+
+00:00:20.103 --> 00:00:24.426
+dari lampu LED standar yang sudah ada
+
+00:00:24.426 --> 00:00:29.636
+ke sel surya dengan <i>laptop</i>
+sebagai penerima.
+
+00:00:30.478 --> 00:00:33.053
+Tidak menggunakan Wi-Fi
+sama sekali, hanya cahaya saja.
+
+00:00:33.053 --> 00:00:35.911
+Anda mungkin heran, apa intinya?
+
+00:00:35.911 --> 00:00:37.695
+Dan intinya adalah sebagai berikut:
+
+00:00:38.399 --> 00:00:41.049
+Akan ada perluasan Internet besar-besaran
+
+00:00:41.049 --> 00:00:43.903
+untuk menghapus kesenjangan digital,
+
+00:00:43.903 --> 00:00:48.088
+juga untuk mewujudkan yang kita sebut
+dengan <i>"The Internet of Things"</i>
+
+00:00:48.088 --> 00:00:51.298
+puluhan milyar perangkat
+terkoneksi ke Internet.
+
+00:00:51.298 --> 00:00:55.353
+Menurut saya, perluasan Internet
+hanya akan berhasil
+
+00:00:55.353 --> 00:00:57.730
+jika energi yang digunakan hampir nihil.
+
+00:00:58.173 --> 00:01:03.005
+Ini artinya, sedapat mungkin kita harus
+menggunakan prasarana yang sudah ada.
+
+00:01:03.497 --> 00:01:08.434
+Dan di sinilah sel surya dan LED berperan.
+
+00:01:08.959 --> 00:01:11.231
+Saya memperagakannya untuk pertama kali,
+
+00:01:11.231 --> 00:01:13.240
+di TED tahun 2011,
+
+00:01:13.240 --> 00:01:15.524
+Li-Fi atau <i>Light Fidelity</i>
+(mengandalkan cahaya).
+
+00:01:15.794 --> 00:01:21.760
+Li-Fi menggunakan LED yang sudah ada
+untuk memancarkan data dengan super cepat,
+
+00:01:21.760 --> 00:01:24.092
+dan juga dengan cara
+yang aman dan terkendali.
+
+00:01:25.402 --> 00:01:28.267
+Data ditransfer dengan cahaya,
+
+00:01:28.267 --> 00:01:31.432
+disandikan dalam transisi
+tingkat kecerahan yang halus.
+
+00:01:32.390 --> 00:01:35.908
+Jika kita melihat sekeliling,
+ada banyak LED di sekitar kita,
+
+00:01:35.908 --> 00:01:40.639
+jadi prasarana pemancar Li-Fi
+berlimpah di sekitar kita.
+
+00:01:41.393 --> 00:01:46.626
+Tapi sejauh ini, kita menggunakan
+perangkat khusus -- detektor foto kecil,
+
+00:01:46.626 --> 00:01:50.338
+untuk menerima
+informasi tersandi dalam data.
+
+00:01:50.940 --> 00:01:52.530
+Saya juga ingin menemukan cara
+
+00:01:52.530 --> 00:01:54.856
+agar dapat menggunakan prasarana yang ada
+
+00:01:54.856 --> 00:01:57.862
+untuk menerima data dari cahaya Li-Fi.
+
+00:01:58.426 --> 00:02:02.540
+Itulah sebabnya selama ini saya
+memakai sel surya dan panel surya.
+
+00:02:03.016 --> 00:02:08.144
+Sel surya menyerap cahaya
+dan mengubahnya menjadi energi listrik.
+
+00:02:08.549 --> 00:02:13.469
+Ini sebabnya sel surya dapat digunakan
+untuk mengisi daya ponsel kita.
+
+00:02:13.469 --> 00:02:14.949
+Tapi sekarang kita harus ingat
+
+00:02:14.949 --> 00:02:21.214
+bahwa data tersandi pada perubahan
+tingkat kecerahan LED yang halus,
+
+00:02:21.214 --> 00:02:24.577
+jadi jika cahaya yang masuk tidak stabil,
+
+00:02:24.577 --> 00:02:27.548
+begitu juga energi
+yang didapatkan dari sel surya.
+
+00:02:28.579 --> 00:02:32.052
+Ini artinya di situ ada prinsip mekanisme
+
+00:02:32.052 --> 00:02:38.206
+untuk menerima informasi
+dari cahaya dan dengan sel surya,
+
+00:02:38.206 --> 00:02:41.015
+karena fluktuasi energi yang didapat
+
+00:02:41.015 --> 00:02:43.163
+sesuai dengan data yang ditransfer.
+
+00:02:43.934 --> 00:02:46.034
+Tentu saja, pertanyaannya:
+
+00:02:46.034 --> 00:02:50.218
+dapatkah kita menerima perubahan
+tingkat kecerahan yang cepat dan halus,
+
+00:02:50.218 --> 00:02:54.078
+seperti yang dipancarkan oleh cahaya LED?
+
+00:02:54.641 --> 00:02:58.145
+Dan jawabannya adalah ya, bisa.
+
+00:02:58.637 --> 00:03:00.390
+Kita telah tunjukkan di lab
+
+00:03:00.390 --> 00:03:03.906
+bahwa kita dapat menerima sampai 50 Mbps
+
+00:03:03.906 --> 00:03:06.381
+dari sel surya standar yang sudah ada.
+
+00:03:06.921 --> 00:03:10.548
+Dan ini lebih cepat daripada kebanyakan
+koneksi <i>broadband</i> yang ada saat ini,
+
+00:03:11.437 --> 00:03:14.747
+Sekarang saya akan tunjukkan prakteknya.
+
+00:03:17.095 --> 00:03:21.483
+Dalam kotak ini ada
+lampu LED standar yang sudah ada.
+
+00:03:23.193 --> 00:03:25.752
+Ini adalah sel surya standar
+yang sudah ada;
+
+00:03:25.752 --> 00:03:27.975
+yang terhubung ke <i>laptop</i>.
+
+00:03:28.949 --> 00:03:31.253
+Dan juga ada alat ini
+
+00:03:31.253 --> 00:03:35.065
+untuk memperlihatkan
+energi yang didapat dari sel surya.
+
+00:03:35.065 --> 00:03:37.877
+Dan sekarang ini
+alat ini menunjukkan sesuatu.
+
+00:03:37.877 --> 00:03:42.198
+Ini karena sel surya sudah
+mendapat cahaya dari sekelilingnya.
+
+00:03:42.892 --> 00:03:45.992
+Sekarang yang ingin saya lakukan dulu
+adalah menyalakan cahayanya,
+
+00:03:45.992 --> 00:03:48.952
+dan saya nyalakan saja cahayanya sebentar
+
+00:03:50.178 --> 00:03:54.222
+dan yang Anda bisa lihat adalah
+alatnya bergerak ke kanan.
+
+00:03:54.864 --> 00:03:56.674
+Jadi sel surya, untuk beberapa waktu,
+
+00:03:56.674 --> 00:04:00.140
+mendapatkan energi
+dari sumber cahaya buatan ini.
+
+00:04:00.540 --> 00:04:03.782
+Jika saya matikan,
+kita bisa melihatnya turun.
+
+00:04:03.782 --> 00:04:05.025
+Saya nyalakan ...
+
+00:04:05.029 --> 00:04:07.768
+Jadi kita mendapat energi dari sel surya.
+
+00:04:08.586 --> 00:04:13.909
+Tapi kemudian saya akan
+aktifkan <i>streaming</i> videonya.
+
+00:04:15.418 --> 00:04:17.736
+Dan saya melakukannya
+dengan menekan tombol ini.
+
+00:04:17.736 --> 00:04:22.489
+Jadi sekarang lampu LED-nya
+mengalirkan video
+
+00:04:22.493 --> 00:04:26.629
+dengan mengubah tingkat
+kecerahan LED secara halus,
+
+00:04:26.629 --> 00:04:29.161
+sampai tak terlihat oleh penglihatan Anda,
+
+00:04:29.161 --> 00:04:32.447
+karena perubahannya
+terlalu cepat untuk dilihat.
+
+00:04:33.384 --> 00:04:35.757
+Tapi untuk membuktikannya,
+
+00:04:35.757 --> 00:04:38.952
+saya bisa halangi cahaya sel suryanya.
+
+00:04:40.087 --> 00:04:43.304
+Jadi awalnya Anda tahu
+pemasukan energi menurun.
+
+00:04:43.304 --> 00:04:44.990
+dan videonya juga berhenti.
+
+00:04:44.990 --> 00:04:48.706
+Saya singkirkan penghalangnya,
+videonya akan mulai lagi.
+
+00:04:49.357 --> 00:04:55.540
+(Tepuk tangan)
+
+00:04:55.540 --> 00:04:57.937
+Dan saya bisa mengulanginya.
+
+00:04:57.937 --> 00:05:03.192
+Jadi kita hentikan pancaran video
+dan pemasukan energi juga berhenti.
+
+00:05:03.192 --> 00:05:07.650
+Jadi itu untuk membuktikan bahwa
+sel surya bertindak sebagai penerima.
+
+00:05:08.079 --> 00:05:13.463
+Tapi bayangkan lampu LED ini
+adalah lampu jalanan dan ada kabut.
+
+00:05:14.106 --> 00:05:16.403
+Jadi saya akan simulasikan kabutnya,
+
+00:05:16.403 --> 00:05:19.170
+dan itu sebabnya saya membawa saputangan.
+
+00:05:19.170 --> 00:05:20.626
+(Tawa)
+
+00:05:20.626 --> 00:05:24.616
+Dan saya akan letakkan
+saputangannya di atas sel surya.
+
+00:05:25.905 --> 00:05:27.507
+Pertama Anda lihat
+
+00:05:27.507 --> 00:05:31.728
+pemasukan energi menurun,
+seperti yang sudah diduga,
+
+00:05:31.728 --> 00:05:34.356
+tapi videonya masih berjalan.
+
+00:05:34.769 --> 00:05:37.362
+Ini artinya, walaupun ada halangan,
+
+00:05:37.362 --> 00:05:41.287
+ada cukup cahaya yang masuk
+melalui saputangan ke sel surya,
+
+00:05:41.287 --> 00:05:46.796
+sehingga sel surya dapat membaca sandi
+dan mengalirkan informasi,
+
+00:05:46.796 --> 00:05:49.460
+dalam hal ini, video resolusi tinggi.
+
+00:05:51.040 --> 00:05:56.567
+Yang sangat penting di sini adalah
+sel surya telah menjadi penerima
+
+00:05:56.567 --> 00:06:00.396
+sinyal nirkabel kecepatan tinggi
+yang tersandi dalam cahaya,
+
+00:06:00.396 --> 00:06:05.282
+sementara menjaga fungsi utamanya
+sebagai alat penerima energi
+
+00:06:05.872 --> 00:06:08.285
+Itulah mengapa, sangat memungkinkan
+
+00:06:08.285 --> 00:06:12.156
+untuk menggunakan sel surya
+yang sudah ada di atap rumah
+
+00:06:12.156 --> 00:06:14.673
+untuk bertindak sebagai penerima <i>broadband</i>
+
+00:06:14.673 --> 00:06:19.089
+dari pemancar sinar laser
+di bukit terdekat, atau lampu jalanan.
+
+00:06:19.605 --> 00:06:23.300
+Dan tidak masalah di mana
+sinarnya menyentuh sel surya.
+
+00:06:23.607 --> 00:06:24.885
+Hal yang sama juga berlaku
+
+00:06:24.885 --> 00:06:28.626
+pada sel surya transparan
+yang dipasang di jendela,
+
+00:06:28.626 --> 00:06:32.182
+sel surya yang dipasang
+pada benda di jalanan,
+
+00:06:32.182 --> 00:06:36.739
+atau, sel surya yang dipasang
+pada berbagai peralatan lainnya
+
+00:06:36.739 --> 00:06:38.851
+yang akan mewujudkan
+<i>The Internet of Things</i>.
+
+00:06:38.851 --> 00:06:42.536
+Sederhana saja, kita enggan mengisi daya
+semua perangkat ini secara rutin,
+
+00:06:42.536 --> 00:06:45.561
+atau lebih buruk, mengganti
+baterainya setiap lima bulan.
+
+00:06:46.418 --> 00:06:48.148
+Seperti yang sudah saya katakan,
+
+00:06:48.152 --> 00:06:50.464
+ini pertama kali
+saya peragakan di depan umum.
+
+00:06:50.464 --> 00:06:52.533
+Ini baru percobaan lab saja,
+
+00:06:52.533 --> 00:06:53.796
+suatu prototipe.
+
+00:06:54.276 --> 00:06:57.564
+Tapi tim saya dan saya sendiri yakin
+kami bisa membawanya ke pasaran
+
+00:06:57.564 --> 00:06:59.585
+dua atau tiga tahun lagi.
+
+00:07:00.251 --> 00:07:05.518
+Dan kami berharap dapat berkontribusi
+menghapus kesenjangan digital,
+
+00:07:05.518 --> 00:07:06.750
+dan juga berkontribusi
+
+00:07:06.750 --> 00:07:09.735
+menghubungkan milyaran
+perangkat ke Internet.
+
+00:07:10.290 --> 00:07:11.859
+Dan semuanya tanpa mengakibatkan
+
+00:07:11.859 --> 00:07:14.345
+ledakan konsumsi energi besar-besaran --
+
+00:07:14.345 --> 00:07:16.617
+dikarenakan sel surya adalah kebalikannya.
+
+00:07:16.621 --> 00:07:17.778
+Terima kasih.
+
+00:07:17.778 --> 00:07:23.000
+(Tepuk tangan)
+

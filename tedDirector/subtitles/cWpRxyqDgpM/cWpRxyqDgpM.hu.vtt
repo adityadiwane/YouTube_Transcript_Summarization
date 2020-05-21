@@ -1,0 +1,1445 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Péter Pallós
+Lektor: Zsuzsanna Lőrincz
+
+00:00:12.770 --> 00:00:15.032
+Sok egyest és nullát látnak.
+
+00:00:15.032 --> 00:00:18.131
+Ezt bináris információnak hívjuk.
+
+00:00:18.131 --> 00:00:19.573
+Ez a számítógépek nyelve.
+
+00:00:19.573 --> 00:00:21.502
+Így tárolják az információt.
+
+00:00:21.502 --> 00:00:23.128
+Így gondolkodnak a számítógépek.
+
+00:00:23.128 --> 00:00:24.747
+Ezt használják a számítógépek
+
+00:00:24.747 --> 00:00:27.129
+mindenhez, amit csinálnak.
+
+00:00:27.129 --> 00:00:29.176
+Kiberbiztonsági kutató vagyok.
+
+00:00:29.176 --> 00:00:31.246
+Az a munkám, hogy ebből az infóból
+
+00:00:31.246 --> 00:00:32.930
+valami értelmeset hozzak ki,
+
+00:00:32.930 --> 00:00:35.683
+s megértsem, mit jelentenek 
+az egyesek és nullák.
+
+00:00:35.683 --> 00:00:37.526
+Pechemre nemcsak beszélünk
+
+00:00:37.526 --> 00:00:39.760
+a képernyőn látható 
+egyesekről és nullákról.
+
+00:00:39.760 --> 00:00:42.443
+Nemcsak pár oldalnyi 
+egyesről és nulláról beszélünk.
+
+00:00:42.443 --> 00:00:45.052
+Sok-sok milliárdnyi egyesről
+
+00:00:45.052 --> 00:00:46.385
+és nulláról beszélünk,
+
+00:00:46.385 --> 00:00:49.026
+többről, mint amennyi ésszel fölfogható.
+
+00:00:49.026 --> 00:00:50.885
+Bármennyire izgalmasnak hangozzék is,
+
+00:00:50.885 --> 00:00:53.377
+mikor a kibertérrel kezdtem foglalkozni
+
+00:00:53.377 --> 00:00:55.120
+(Nevetés) —
+
+00:00:55.120 --> 00:00:57.123
+nem voltam benne biztos,
+
+00:00:57.123 --> 00:00:58.596
+hogy ezek vizsgálatával akarok
+
+00:00:58.596 --> 00:01:00.890
+hátralévő életemben bíbelődni.
+
+00:01:00.890 --> 00:01:02.910
+Az én fejemben a kiber azt jelentette,
+
+00:01:02.910 --> 00:01:06.591
+hogy távol tartsam 
+a vírusokat a nagyi gépétől,
+
+00:01:06.591 --> 00:01:09.939
+hogy a Myspace-oldalakat 
+ne lehessen föltörni,
+
+00:01:09.939 --> 00:01:12.124
+s lehet, hogy egy szép napon elérem,
+
+00:01:12.124 --> 00:01:15.875
+hogy valaki hitelkártyájáról 
+az infót ne tudják lelopni.
+
+00:01:15.875 --> 00:01:17.238
+Bár ezek fontos dolgok,
+
+00:01:17.238 --> 00:01:19.996
+de nem ezzel akartam tölteni az életemet.
+
+00:01:19.996 --> 00:01:21.930
+Védelmi megbízatásom első félórája után
+
+00:01:21.930 --> 00:01:23.283
+hamar rájöttem,
+
+00:01:23.283 --> 00:01:26.073
+hogy a számítástechnikai elképzeléseim
+
+00:01:26.073 --> 00:01:27.942
+nem valósulnak meg.
+
+00:01:27.942 --> 00:01:29.887
+Nemzetbiztonsági szempontból
+
+00:01:29.887 --> 00:01:31.958
+a nagyi gépének megvédése a vírusoktól
+
+00:01:31.958 --> 00:01:35.144
+meglepő módon hátra lett sorolva.
+
+00:01:35.144 --> 00:01:36.655
+Az oka, hogy a számítástechnika
+
+00:01:36.655 --> 00:01:40.238
+sokkal több, mint bármely más dolog.
+
+00:01:40.238 --> 00:01:43.063
+A számítástechnika életünk része,
+
+00:01:43.063 --> 00:01:46.123
+mert a számítógép is életünk része,
+
+00:01:46.123 --> 00:01:48.075
+még ha nincs is gépünk.
+
+00:01:48.075 --> 00:01:50.721
+Számítógép szabályoz mindent a kocsinkban,
+
+00:01:50.721 --> 00:01:52.601
+a GPS-től a légzsákig.
+
+00:01:52.601 --> 00:01:53.917
+A mobilunkat is vezérli,
+
+00:01:53.917 --> 00:01:55.088
+így hívhatjuk a 911-et,
+
+00:01:55.088 --> 00:01:56.884
+és kapcsolhatnak valakit.
+
+00:01:56.884 --> 00:01:59.678
+Országunk teljes infrastruktúráját 
+szabályozzák.
+
+00:01:59.678 --> 00:02:01.354
+Ezért van villamos áramunk,
+
+00:02:01.354 --> 00:02:03.692
+fűtésünk, tiszta vizünk, táplálékunk.
+
+00:02:03.692 --> 00:02:05.593
+Gépek vezérlik a katonai berendezéseket,
+
+00:02:05.593 --> 00:02:07.270
+a rakétasilóktól a műholdakig
+
+00:02:07.270 --> 00:02:11.184
+és a nukleáris védelmi hálózatokig.
+
+00:02:11.184 --> 00:02:13.173
+Mindezt a számítógépek
+
+00:02:13.173 --> 00:02:14.589
+teszik lehetővé,
+
+00:02:14.589 --> 00:02:16.572
+s ezért a számítástechnika miatt
+
+00:02:16.572 --> 00:02:18.076
+ha valami elromlik,
+
+00:02:18.076 --> 00:02:21.194
+a számítástechnika teszi 
+őket használhatatlanná.
+
+00:02:21.194 --> 00:02:22.779
+De itt jövök én.
+
+00:02:22.779 --> 00:02:25.719
+Munkám zömét ezek védelme teszi ki,
+
+00:02:25.719 --> 00:02:27.381
+hogy minden működjön,
+
+00:02:27.381 --> 00:02:29.709
+de néha valami semlegesítése 
+is hozzátartozik,
+
+00:02:29.709 --> 00:02:32.105
+mert a számítástechnikához 
+nemcsak a védelem,
+
+00:02:32.105 --> 00:02:34.378
+hanem a támadás is hozzátartozik.
+
+00:02:34.378 --> 00:02:35.954
+Olyan korba lépünk, amelyben
+
+00:02:35.954 --> 00:02:37.415
+számítógépes fegyverek vannak.
+
+00:02:37.415 --> 00:02:40.550
+A számítógépes támadás lehetősége 
+annyira széleskörű,
+
+00:02:40.550 --> 00:02:44.171
+hogy a háború új területének számít.
+
+00:02:44.171 --> 00:02:45.971
+Háború.
+
+00:02:45.971 --> 00:02:47.900
+Ez nem szükségképpen rossz.
+
+00:02:47.900 --> 00:02:50.651
+Egyrészt, ez teljesen új frontot jelent,
+
+00:02:50.651 --> 00:02:52.394
+ahol meg kell védenünk magunkat,
+
+00:02:52.394 --> 00:02:53.879
+de másrészt ez azt jelenti,
+
+00:02:53.879 --> 00:02:55.721
+hogy teljesen új módon támadhatunk
+
+00:02:55.721 --> 00:02:57.580
+s fékezhetjük meg a rossz szándékúakat,
+
+00:02:57.580 --> 00:02:59.807
+hogy ne művelhessenek gonosz dolgokat.
+
+00:02:59.807 --> 00:03:01.618
+Nézzük ezt
+
+00:03:01.618 --> 00:03:03.307
+a teljesen elméleti példát.
+
+00:03:03.307 --> 00:03:05.565
+Tegyük föl, hogy egy terrorista
+
+00:03:05.565 --> 00:03:07.633
+házat akar robbantani, és ezt
+
+00:03:07.633 --> 00:03:09.084
+gyakran meg akarja ismételni.
+
+00:03:09.084 --> 00:03:11.924
+Persze nem akar a leomló házban lenni.
+
+00:03:11.924 --> 00:03:13.442
+Mobilt fog használni
+
+00:03:13.442 --> 00:03:15.777
+távirányítású gyújtószerkezetként.
+
+00:03:15.777 --> 00:03:17.648
+Eddig az egyetlen eszköz
+
+00:03:17.648 --> 00:03:19.284
+a terrorista megállítására
+
+00:03:19.284 --> 00:03:21.957
+a golyózápor és az autós üldözés volt.
+
+00:03:21.957 --> 00:03:24.289
+De ma már nem biztos, hogy ez így van.
+
+00:03:24.289 --> 00:03:25.852
+Ma már megállíthatjuk
+
+00:03:25.852 --> 00:03:26.962
+egy gombnyomással,
+
+00:03:26.962 --> 00:03:28.969
+innen több ezer kilométerre.
+
+00:03:28.969 --> 00:03:30.558
+Mert még ha nem tudja is
+
+00:03:30.558 --> 00:03:32.269
+a terrorista: mikor mobilozni akar,
+
+00:03:32.269 --> 00:03:35.403
+belépett a számítástechnika birodalmába.
+
+00:03:35.403 --> 00:03:38.520
+Egy ügyes számítógépes támadással
+
+00:03:38.520 --> 00:03:40.669
+betörhetünk a mobiljába, kikapcsolhatjuk
+
+00:03:40.669 --> 00:03:42.424
+a túlfeszültség-védelmet,
+
+00:03:42.424 --> 00:03:44.781
+s az akku túlhevül és fölrobban.
+
+00:03:44.781 --> 00:03:47.227
+Volt-nincs mobil, nincs gyutacs,
+
+00:03:47.227 --> 00:03:49.150
+lehet, hogy a terrorista sincs többé.
+
+00:03:49.150 --> 00:03:50.181
+Egy gombnyomásra,
+
+00:03:50.181 --> 00:03:52.861
+több ezer kilométerről.
+
+00:03:52.861 --> 00:03:54.612
+Hogyan?
+
+00:03:54.612 --> 00:03:56.880
+Vissza kell térnünk 
+az egyesekhez és nullákhoz.
+
+00:03:56.880 --> 00:03:59.885
+A telefont bináris információ vezérli,
+
+00:03:59.885 --> 00:04:03.469
+s ha helyesen használjuk, 
+fölrobbanthatja a mobilt.
+
+00:04:03.469 --> 00:04:05.941
+Ha ebből a szemszögből 
+nézzük a számítástechnikát,
+
+00:04:05.941 --> 00:04:09.104
+akkor életünket bináris infóval tölteni
+
+00:04:09.104 --> 00:04:11.521
+elég érdekesnek látszik.
+
+00:04:11.521 --> 00:04:14.167
+De az a bökkenő, hogy ez nehéz,
+
+00:04:14.167 --> 00:04:15.852
+elég nehéz foglalatosság.
+
+00:04:15.852 --> 00:04:17.686
+Miért?
+
+00:04:17.686 --> 00:04:20.452
+Gondolják végig, 
+mi minden van a mobiljukban.
+
+00:04:20.452 --> 00:04:22.415
+Fényképek,
+
+00:04:22.415 --> 00:04:24.201
+zene,
+
+00:04:24.201 --> 00:04:25.849
+címek, telefonszámok, emailek,
+
+00:04:25.849 --> 00:04:27.474
+és talán vagy 500 alkalmazás,
+
+00:04:27.474 --> 00:04:30.475
+amelyeket soha az életben nem használtak,
+
+00:04:30.475 --> 00:04:34.462
+és a háttérben a szoftver, a kód,
+
+00:04:34.462 --> 00:04:35.892
+a telefonvezérlő program,
+
+00:04:35.912 --> 00:04:38.498
+s valahol benne megbújik egy pici rész,
+
+00:04:38.498 --> 00:04:41.046
+amely az akkut vezérli.
+
+00:04:41.046 --> 00:04:42.917
+Pont az kell nekünk.
+
+00:04:42.917 --> 00:04:46.603
+Az egészből csak egy pár egyes és nulla,
+
+00:04:46.603 --> 00:04:48.134
+de ezek össze vannak kutyulva.
+
+00:04:48.134 --> 00:04:51.679
+A számítástechnikában ezt 
+"tű a kazalnyi tű között"-nek hívjuk,
+
+00:04:51.679 --> 00:04:54.028
+mert mindegyik nagyban hasonlít a többire.
+
+00:04:54.028 --> 00:04:55.760
+Egy lényeges részt keresek,
+
+00:04:55.760 --> 00:04:58.994
+de az bele van keveredve az egészbe.
+
+00:04:58.994 --> 00:05:01.246
+Hagyjuk ezt az elméleti helyzetet,
+
+00:05:01.246 --> 00:05:03.590
+hogy fölrobbantjuk a terrorista mobilját,
+
+00:05:03.590 --> 00:05:06.406
+s nézzük, mi történt velem.
+
+00:05:06.406 --> 00:05:07.749
+Mindegy, mit kell csinálnom,
+
+00:05:07.749 --> 00:05:09.191
+a munkám mindig
+
+00:05:09.191 --> 00:05:11.563
+a bináris infó böngészésével kezdődik,
+
+00:05:11.563 --> 00:05:13.290
+mindig a lényeges részt keresem,
+
+00:05:13.290 --> 00:05:15.277
+hogy azzal kezdjek valamit.
+
+00:05:15.277 --> 00:05:17.284
+Ezúttal egy nagyon ravasz,
+
+00:05:17.284 --> 00:05:18.872
+nagyon high-tech kódot kerestem,
+
+00:05:18.872 --> 00:05:20.087
+tudtam, hogy feltörhetem,
+
+00:05:20.087 --> 00:05:21.801
+de valahol a milliárdnyi egyes
+
+00:05:21.801 --> 00:05:23.827
+és nulla közé volt elásva.
+
+00:05:23.827 --> 00:05:25.405
+Pechemre, nem tudtam,
+
+00:05:25.405 --> 00:05:27.096
+hogy pontosan mit is keressek.
+
+00:05:27.096 --> 00:05:28.292
+Nem tudtam,
+
+00:05:28.292 --> 00:05:31.210
+hogyan kell kinéznie,
+ami megnehezítette a keresést.
+
+00:05:31.210 --> 00:05:33.249
+Ilyenkor meg kell figyelnem
+
+00:05:33.249 --> 00:05:35.591
+a különféle részleteket
+
+00:05:35.591 --> 00:05:37.314
+a bináris infóban,
+
+00:05:37.314 --> 00:05:39.516
+megkísérlem megfejteni őket, hogy lássam,
+
+00:05:39.516 --> 00:05:40.740
+ezt keresem-e.
+
+00:05:40.740 --> 00:05:42.365
+Egy idő után azt hittem,
+
+00:05:42.365 --> 00:05:43.702
+megtaláltam, amit kellett.
+
+00:05:43.702 --> 00:05:45.806
+Azt hittem, talán ez az.
+
+00:05:45.806 --> 00:05:47.838
+Úgy tűnt: talán, de nem voltam biztos.
+
+00:05:47.838 --> 00:05:50.756
+Nem értettem, mit jelentenek 
+az egyesek és nullák.
+
+00:05:50.756 --> 00:05:54.130
+Egy csomó időt töltöttem azzal, 
+hogy összeálljon az egész,
+
+00:05:54.130 --> 00:05:55.800
+de nem pártolt mellém a szerencse,
+
+00:05:55.800 --> 00:05:56.986
+végül úgy döntöttem,
+
+00:05:56.986 --> 00:05:58.595
+átböngészem az egészet,
+
+00:05:58.595 --> 00:06:00.106
+bejövök a hétvégén,
+
+00:06:00.106 --> 00:06:01.446
+s addig nem megyek haza,
+
+00:06:01.446 --> 00:06:03.158
+amíg meg nem fejtem.
+
+00:06:03.158 --> 00:06:05.324
+Így is tettem. Bementem szombat reggel,
+
+00:06:05.324 --> 00:06:08.969
+és 10 óra alatt megvoltak 
+a kirakó darabjai.
+
+00:06:08.969 --> 00:06:10.361
+Csak az összerakás nem ment.
+
+00:06:10.361 --> 00:06:13.151
+Nem tudtam, mit jelentenek 
+az egyesek és a nullák.
+
+00:06:13.151 --> 00:06:15.218
+A 15. órában
+
+00:06:15.218 --> 00:06:17.820
+kezdtem kapiskálni, mi van előttem,
+
+00:06:17.820 --> 00:06:19.592
+de szörnyű gyanúm támadt:
+
+00:06:19.592 --> 00:06:21.181
+ami előttem van,
+
+00:06:21.181 --> 00:06:24.104
+annak semmi köze a keresett dologhoz.
+
+00:06:24.104 --> 00:06:26.591
+20 óra telt el, és a dolgok 
+nagyon lassan
+
+00:06:26.591 --> 00:06:30.355
+kezdtek összeállni, — (Nevetés) —
+
+00:06:30.355 --> 00:06:31.621
+de az volt az érzésem,
+
+00:06:31.621 --> 00:06:33.560
+hogy tévúton járok,
+
+00:06:33.560 --> 00:06:35.811
+de nem akartam föladni.
+
+00:06:35.811 --> 00:06:38.645
+A 30. óra után rájöttem,
+
+00:06:38.645 --> 00:06:40.906
+hogy igazam volt: nem azt keresem,
+
+00:06:40.906 --> 00:06:43.724
+ami előttem van.
+
+00:06:43.724 --> 00:06:45.423
+30 órát töltöttem egyesek és nullák
+
+00:06:45.423 --> 00:06:48.145
+összeillesztésével, 
+s egy cica rajzolódott ki belőlük.
+
+00:06:48.145 --> 00:06:49.940
+(Nevetés)
+
+00:06:49.940 --> 00:06:53.746
+30 órát fecséreltem el 
+az életemből a cicára,
+
+00:06:53.746 --> 00:06:55.584
+amelynek semmi köze sem volt
+
+00:06:55.584 --> 00:06:57.571
+a megoldandó feladathoz.
+
+00:06:57.571 --> 00:07:01.434
+Bosszús és kimerült voltam.
+
+00:07:01.434 --> 00:07:04.660
+A laborban töltött 30 óra után 
+szörnyű szagot áraszthattam.
+
+00:07:04.660 --> 00:07:06.890
+De ahelyett, hogy hazaindultam
+
+00:07:06.890 --> 00:07:09.420
+és lapoztam volna, elgondolkoztam:
+
+00:07:09.420 --> 00:07:11.961
+mit csináltam rosszul?
+
+00:07:11.961 --> 00:07:14.173
+Hogy követhettem el ilyen ostoba hibát?
+
+00:07:14.173 --> 00:07:15.571
+Elég jó vagyok ezekben.
+
+00:07:15.571 --> 00:07:16.890
+Ezzel keresem a kenyerem.
+
+00:07:16.890 --> 00:07:19.038
+Mi történt?
+
+00:07:19.038 --> 00:07:21.813
+Mikor az ember az infót nézi,
+
+00:07:21.813 --> 00:07:24.640
+könnyű utat téveszteni.
+
+00:07:24.640 --> 00:07:26.384
+Gyakran a fától nem látjuk az erdőt.
+
+00:07:26.384 --> 00:07:28.548
+Könnyű belezavarodni a feladatba,
+
+00:07:28.548 --> 00:07:30.310
+és rengeteg időt elvesztegetni
+
+00:07:30.310 --> 00:07:32.130
+tévúton járva.
+
+00:07:32.130 --> 00:07:33.730
+De jött a megvilágosodás.
+
+00:07:33.730 --> 00:07:36.729
+Az első naptól kezdve 
+helytelenül szemléltük
+
+00:07:36.729 --> 00:07:38.219
+az adatokat.
+
+00:07:38.219 --> 00:07:40.322
+A gép egyesekben 
+és nullákban gondolkozik.
+
+00:07:40.322 --> 00:07:41.714
+Mi nem így gondolkodunk,
+
+00:07:41.714 --> 00:07:44.028
+de próbáltuk agyunkkal 
+jobban alkalmazkodni
+
+00:07:44.028 --> 00:07:45.373
+a gép gondolkodásához,
+
+00:07:45.373 --> 00:07:47.970
+hogy megérthessük az infót.
+
+00:07:47.970 --> 00:07:49.920
+Agyunkat akarjuk a feladathoz igazítani,
+
+00:07:49.920 --> 00:07:51.568
+ehelyett a feladatot kellett volna
+
+00:07:51.568 --> 00:07:52.537
+az agyunkhoz,
+
+00:07:52.537 --> 00:07:54.646
+mert bár agyunk nagy kapacitású
+
+00:07:54.646 --> 00:07:57.732
+nagy mennyiségű infó elemzésekor,
+
+00:07:57.732 --> 00:07:59.029
+de nem így.
+
+00:07:59.029 --> 00:08:00.496
+Mi lenne, ha megnyithatnánk
+
+00:08:00.496 --> 00:08:02.023
+agyunk kapacitását
+
+00:08:02.023 --> 00:08:04.871
+az infó kellő alakra hozásával?
+
+00:08:04.871 --> 00:08:06.065
+Fejemben e gondolatokkal
+
+00:08:06.065 --> 00:08:07.683
+a pincelaboromból hazafutottam
+
+00:08:07.683 --> 00:08:08.990
+az otthoni pincelaboromba,
+
+00:08:08.990 --> 00:08:10.986
+amely majdnem ugyanúgy néz ki.
+
+00:08:10.986 --> 00:08:12.810
+A lényegi különbség, hogy a munkában
+
+00:08:12.810 --> 00:08:14.709
+köröttem informatikai dolgok vannak,
+
+00:08:14.709 --> 00:08:16.994
+s pont ez a zavaró.
+
+00:08:16.994 --> 00:08:20.347
+Otthon köröttem az van, amiből tanultam.
+
+00:08:20.347 --> 00:08:22.219
+Átnyálaztam minden föllelhető könyvet,
+
+00:08:22.219 --> 00:08:23.551
+átgondoltam
+
+00:08:23.551 --> 00:08:25.697
+a szóba jöhető ötleteket,
+
+00:08:25.697 --> 00:08:28.829
+hogy a feladatot átfogalmazzam.
+
+00:08:28.829 --> 00:08:30.223
+A kérdés az volt:
+
+00:08:30.223 --> 00:08:32.191
+mivé fogalmazzam át?
+
+00:08:32.191 --> 00:08:34.303
+Mit hajt végre agyunk 
+egészen természetesen,
+
+00:08:34.303 --> 00:08:36.181
+amit ki tudunk használni?
+
+00:08:36.181 --> 00:08:38.470
+A válaszom: a látás.
+
+00:08:38.470 --> 00:08:41.619
+Számtalan lehetőségünk van 
+a képi infó elemzésére.
+
+00:08:41.619 --> 00:08:44.202
+Társíthatjuk a színátmeneteket,
+
+00:08:44.202 --> 00:08:45.990
+jelzőmozzanatokat,
+
+00:08:45.990 --> 00:08:48.385
+más jeleket a köröttünk 
+lévő világ képbe írásához.
+
+00:08:48.385 --> 00:08:49.792
+Ez elképesztő.
+
+00:08:49.792 --> 00:08:51.173
+Ha módot találunk rá,
+
+00:08:51.173 --> 00:08:53.359
+hogy e bináris mintázatokat képi jelekké
+
+00:08:53.359 --> 00:08:55.191
+írjuk át, feltárhatjuk agyunk erejét
+
+00:08:55.191 --> 00:08:57.901
+a feladat kidolgozására.
+
+00:08:57.901 --> 00:08:59.744
+Néztem a bináris infót,
+
+00:08:59.744 --> 00:09:00.834
+s kíváncsi voltam:
+
+00:09:00.834 --> 00:09:02.710
+mit teszek, mikor majd ilyet látok?
+
+00:09:02.710 --> 00:09:04.333
+Elsősorban arra keresem a választ,
+
+00:09:04.333 --> 00:09:05.692
+s ez az első kérdés:
+
+00:09:05.692 --> 00:09:06.970
+Mi a csuda ez?
+
+00:09:06.970 --> 00:09:09.498
+Nem érdekel, mit művel, hogyan működik.
+
+00:09:09.498 --> 00:09:11.977
+Csak az érdekel: mi ez?
+
+00:09:11.977 --> 00:09:13.652
+Úgy tudok rájönni,
+
+00:09:13.652 --> 00:09:15.335
+hogy nagyobb egységeket veszek,
+
+00:09:15.335 --> 00:09:17.788
+a bináris infó egymás utáni egységeit,
+
+00:09:17.788 --> 00:09:20.690
+és megfigyelem a kapcsolatukat.
+
+00:09:20.690 --> 00:09:22.462
+Mikor elég ilyen részt átnéztem,
+
+00:09:22.462 --> 00:09:24.466
+kezd leesni,
+
+00:09:24.466 --> 00:09:27.100
+miről szól ez az infó.
+
+00:09:27.100 --> 00:09:28.284
+Térjünk vissza
+
+00:09:28.284 --> 00:09:30.374
+a terrorista mobilja fölrobbantásához.
+
+00:09:30.374 --> 00:09:32.577
+Ilyen egy angol nyelvű szöveg
+
+00:09:32.577 --> 00:09:33.890
+bináris kódban.
+
+00:09:33.890 --> 00:09:36.216
+Ilyen a kapcsolatok listája,
+
+00:09:36.216 --> 00:09:37.776
+ha azt vizsgálnám.
+
+00:09:37.776 --> 00:09:40.010
+Elég nehéz elemezni ezen a szinten,
+
+00:09:40.010 --> 00:09:42.114
+de ha a nagyobb 
+bináris egységeket vesszük,
+
+00:09:42.114 --> 00:09:43.296
+amiket meg akarok lelni,
+
+00:09:43.296 --> 00:09:45.060
+és képi alakra
+
+00:09:45.060 --> 00:09:46.980
+akarom őket hozni,
+
+00:09:46.980 --> 00:09:48.777
+a kapcsolatukat átalakítva:
+
+00:09:48.777 --> 00:09:50.333
+pont ez kell nekünk!
+
+00:09:50.333 --> 00:09:52.247
+Ilyen egy angol nyelvű szöveg
+
+00:09:52.247 --> 00:09:54.918
+elvont képi alakban.
+
+00:09:54.918 --> 00:09:56.058
+Hirtelen előttünk áll
+
+00:09:56.058 --> 00:09:57.493
+ugyanaz az infó, de egyesek
+
+00:09:57.493 --> 00:09:58.665
+és nullák helyett
+
+00:09:58.665 --> 00:10:00.986
+most teljesen mást mutat:
+
+00:10:00.986 --> 00:10:02.853
+ezt az alakot rögtön fel tudjuk fogni.
+
+00:10:02.853 --> 00:10:05.668
+Rögtön látható minden mintázat.
+
+00:10:05.668 --> 00:10:08.260
+Pillanatok alatt 
+fölismerem a mintázatokat,
+
+00:10:08.260 --> 00:10:10.514
+de egyesek és nullák alakjában ez órákba
+
+00:10:10.514 --> 00:10:11.834
+vagy napokba telne.
+
+00:10:11.834 --> 00:10:13.570
+Bárki percek alatt megtudhatja,
+
+00:10:13.570 --> 00:10:15.235
+mit jelképeznek a mintázatok,
+
+00:10:15.235 --> 00:10:17.482
+de csak sokévi 
+kiber-tapasztalat birtokában
+
+00:10:17.482 --> 00:10:19.136
+ismeri föl, mik a mintázatban
+
+00:10:19.136 --> 00:10:20.722
+azok az egyesek és a nullák.
+
+00:10:20.722 --> 00:10:22.384
+Ez a részlet kisbetűkből áll,
+
+00:10:22.384 --> 00:10:24.408
+amelyeket kisbetűk követnek
+
+00:10:24.408 --> 00:10:26.175
+a kapcsolati listán belül.
+
+00:10:26.175 --> 00:10:27.516
+Itt meg csak nagybetűk,
+
+00:10:27.516 --> 00:10:30.201
+majd nagybetűk kisbetűk után, 
+aztán fordítva.
+
+00:10:30.201 --> 00:10:32.887
+Ez itt betűköz, ez meg sorváltás.
+
+00:10:32.887 --> 00:10:34.395
+Pillanatok alatt végigmehetünk
+
+00:10:34.395 --> 00:10:37.361
+a bináris infó minden részletén,
+
+00:10:37.361 --> 00:10:40.895
+szemben a másik módszerrel: 
+ott hetekig, hónapokig tartana.
+
+00:10:40.895 --> 00:10:42.407
+Ilyen a mobiljukban lévő
+
+00:10:42.407 --> 00:10:44.283
+egyik kép.
+
+00:10:44.283 --> 00:10:45.296
+De így néz ki
+
+00:10:45.296 --> 00:10:47.187
+képi absztrakcióban.
+
+00:10:47.187 --> 00:10:49.172
+Ilyen a zene,
+
+00:10:49.172 --> 00:10:51.375
+ez meg a képi absztrakciója.
+
+00:10:51.375 --> 00:10:53.135
+Nekem a leglényegesebb:
+
+00:10:53.135 --> 00:10:56.410
+ilyen a mobilban lévő kód.
+
+00:10:56.410 --> 00:10:58.567
+Végtére erre van szükségem.
+
+00:10:58.567 --> 00:11:00.707
+Ez meg a képi absztrakciója.
+
+00:11:00.707 --> 00:11:03.216
+Ha meg tudom találni, 
+fölrobbanthatom a telefont.
+
+00:11:03.216 --> 00:11:05.835
+Hetekig tartana 
+az egyesek és nullák között
+
+00:11:05.835 --> 00:11:07.012
+megtalálni,
+
+00:11:07.012 --> 00:11:08.796
+de nekem másodpercek kérdése
+
+00:11:08.796 --> 00:11:12.100
+az ilyen képi absztrakcióból.
+
+00:11:12.100 --> 00:11:14.592
+Az egyik figyelemre méltó részlet teljesen
+
+00:11:14.592 --> 00:11:17.424
+új módszert kínál
+
+00:11:17.424 --> 00:11:20.663
+az új infó megértésére.
+
+00:11:20.663 --> 00:11:23.167
+Tudom, hogy milyen 
+a bináris alakú angol szöveg,
+
+00:11:23.167 --> 00:11:25.277
+s tudom, milyen a képi absztrakciója,
+
+00:11:25.277 --> 00:11:28.592
+de még soha életemben nem láttam 
+bináris alakú orosz szöveget.
+
+00:11:28.592 --> 00:11:30.392
+Hetekbe telne, hogy rájöjjek,
+
+00:11:30.392 --> 00:11:33.389
+mik azok az egyesek és nullák,
+
+00:11:33.389 --> 00:11:35.140
+de mivel agyunk tüstént fölfogja
+
+00:11:35.140 --> 00:11:37.957
+és fölismeri ezeket a különös mintázatokat
+
+00:11:37.957 --> 00:11:39.445
+a képi absztrakciókban,
+
+00:11:39.445 --> 00:11:41.277
+ezért automatikusan alkalmazzuk őket
+
+00:11:41.277 --> 00:11:42.850
+az új helyzetben.
+
+00:11:42.850 --> 00:11:44.332
+Így néz ki az orosz szöveg
+
+00:11:44.332 --> 00:11:45.912
+képi absztrakció alakjában.
+
+00:11:45.912 --> 00:11:47.716
+Mivel tudom, hogy egy nyelv milyen,
+
+00:11:47.716 --> 00:11:49.292
+más nyelveket is fölismerhetek,
+
+00:11:49.292 --> 00:11:51.162
+még ha ismeretlenek is.
+
+00:11:51.162 --> 00:11:52.948
+Ilyen egy fénykép,
+
+00:11:52.948 --> 00:11:54.835
+ez pedig egy clip art.
+
+00:11:54.835 --> 00:11:57.390
+A mobilon lévő kód meg ilyen,
+
+00:11:57.390 --> 00:12:00.097
+ez pedig a kód a számítógépen.
+
+00:12:00.097 --> 00:12:01.961
+Agyunk úgy fogja föl e mintázatokat,
+
+00:12:01.961 --> 00:12:03.912
+ahogy mi soha, ha csak
+
+00:12:03.912 --> 00:12:06.408
+a nyers egyeseket és nullákat nézzük.
+
+00:12:06.408 --> 00:12:08.264
+De csak éppen belekóstoltunk,
+
+00:12:08.264 --> 00:12:10.401
+mit tehetünk ezzel a módszerrel.
+
+00:12:10.401 --> 00:12:12.079
+Épp csak elkezdtük föltárni
+
+00:12:12.079 --> 00:12:15.394
+agyunk képfeldolgozó kapacitását,
+
+00:12:15.394 --> 00:12:17.384
+Ha ugyanezen elveket
+
+00:12:17.384 --> 00:12:19.035
+3D-be alakítjuk,
+
+00:12:19.035 --> 00:12:22.230
+teljesen új módszert hozunk létre 
+az infó érzékelésére.
+
+00:12:22.230 --> 00:12:24.715
+Pillanatok alatt bármely 
+mintázatot kiválaszthatjuk,
+
+00:12:24.715 --> 00:12:26.535
+láthatjuk a kereszthivatkozásokat.
+
+00:12:26.535 --> 00:12:28.467
+Látjuk a szöveghez tartozó kockákat.
+
+00:12:28.467 --> 00:12:30.943
+Még a legapróbb 
+képrészleteket is kivehetjük.
+
+00:12:30.943 --> 00:12:33.073
+Egyesek és nullák alakjában ez a művelet
+
+00:12:33.073 --> 00:12:35.267
+heteket vagy hónapokat igényelne,
+
+00:12:35.267 --> 00:12:37.070
+de így rögtön látható
+
+00:12:37.070 --> 00:12:39.340
+képi absztrakció alakjában.
+
+00:12:39.340 --> 00:12:40.552
+Ahogy sorra vesszük őket,
+
+00:12:40.552 --> 00:12:42.488
+és egyre több infót juttatunk belé,
+
+00:12:42.488 --> 00:12:44.769
+kiderül, hogy pillanatok alatt
+
+00:12:44.769 --> 00:12:47.185
+milliárdnyi egyest és nullát
+
+00:12:47.185 --> 00:12:48.353
+dolgozhatunk föl,
+
+00:12:48.353 --> 00:12:51.587
+köszönhetően csupán
+
+00:12:51.587 --> 00:12:53.541
+agyunk mintázatelemző képességének.
+
+00:12:53.541 --> 00:12:55.844
+Ez tényleg jó és hasznos,
+
+00:12:55.844 --> 00:12:58.203
+megmondja, hogy mit látok.
+
+00:12:58.203 --> 00:12:59.687
+Úgyhogy képi mintázatok alapján
+
+00:12:59.687 --> 00:13:02.096
+megtalálhatom a mobilon a kódot.
+
+00:13:02.096 --> 00:13:04.761
+De ez még kevés egy akku fölrobbantásához.
+
+00:13:04.761 --> 00:13:06.329
+Meg kell találnom még
+
+00:13:06.329 --> 00:13:08.090
+az akkuvezérlő-kódot is, s ez ismét
+
+00:13:08.090 --> 00:13:09.821
+a "tű a kazalnyi tű között" esete.
+
+00:13:09.821 --> 00:13:12.210
+Az a kód nagyon hasonlít 
+a rendszerben lévő
+
+00:13:12.210 --> 00:13:14.448
+többi kódra.
+
+00:13:14.448 --> 00:13:16.849
+Így lehet, hogy nem találom meg 
+a vezérlőkódot,
+
+00:13:16.849 --> 00:13:18.860
+amelyre sok minden nagyon hasonlít.
+
+00:13:18.860 --> 00:13:20.714
+Van képernyővezérlő,
+
+00:13:20.714 --> 00:13:22.930
+billentyűvezérlő, mikrofonvezérlő kód,
+
+00:13:22.930 --> 00:13:24.858
+így ha nem is lelem meg az akkuvezérlőt,
+
+00:13:24.858 --> 00:13:27.103
+valamelyiket biztos.
+
+00:13:27.103 --> 00:13:29.808
+A bináris elemzésem következő lépése,
+
+00:13:29.808 --> 00:13:31.039
+hogy megfigyeljem
+
+00:13:31.039 --> 00:13:33.057
+az egymásra hasonlító infókat.
+
+00:13:33.057 --> 00:13:37.040
+Nagyon-nagyon nehéz lenne bináris alakban,
+
+00:13:37.040 --> 00:13:40.683
+de ha átalakítjuk őket képi absztrakcióvá,
+
+00:13:40.683 --> 00:13:43.121
+nem kell a nyers adatokat átböngésznem.
+
+00:13:43.121 --> 00:13:45.276
+Csak annyi kell, hogy rábukkanjak a képre,
+
+00:13:45.276 --> 00:13:47.512
+hogy lássam: hasonló helyen járok.
+
+00:13:47.512 --> 00:13:50.540
+Követem ezeket a hasonló szálakat, 
+mint az elszórt morzsát,
+
+00:13:50.540 --> 00:13:53.646
+s így megtalálom, amit keresek.
+
+00:13:53.646 --> 00:13:55.380
+Tehát ebben a pillanatban
+
+00:13:55.380 --> 00:13:56.698
+megvan
+
+00:13:56.698 --> 00:13:58.383
+az akkuvezérlő kód,
+
+00:13:58.383 --> 00:14:00.959
+de ez még mindig kevés 
+az akku fölrobbantásához.
+
+00:14:00.959 --> 00:14:02.523
+A kirakós utolsó darabja:
+
+00:14:02.523 --> 00:14:05.202
+meg kell értenem, hogy a kód
+
+00:14:05.202 --> 00:14:06.404
+hogyan vezérli az akkut.
+
+00:14:06.404 --> 00:14:08.792
+Ehhez precízen ki kell derítenem
+
+00:14:08.792 --> 00:14:10.508
+a bináris infóban lévő infó
+
+00:14:10.508 --> 00:14:12.597
+nagyon részletes kapcsolódásait.
+
+00:14:12.597 --> 00:14:14.352
+Ez nagyon nehéz, ha csak
+
+00:14:14.352 --> 00:14:16.664
+az egyeseket és a nullákat nézzük.
+
+00:14:16.664 --> 00:14:18.060
+De ha átalakítjuk az infót
+
+00:14:18.060 --> 00:14:20.240
+valóságos képpé,
+
+00:14:20.240 --> 00:14:23.256
+hátradőlhetünk, s a többi 
+már a látókérgünk dolga.
+
+00:14:23.256 --> 00:14:24.990
+Látókérgünk meglel
+
+00:14:24.990 --> 00:14:27.010
+minden fontos mintázatot.
+
+00:14:27.010 --> 00:14:29.603
+Rájön, pontosan hogyan vezérlik ezek
+
+00:14:29.603 --> 00:14:32.537
+az akkut.
+
+00:14:32.537 --> 00:14:35.541
+Pár óra alatt végez vele,
+
+00:14:35.541 --> 00:14:36.897
+a folyamat régen
+
+00:14:36.897 --> 00:14:39.819
+több hónapig tartott volna.
+
+00:14:39.819 --> 00:14:41.008
+Ez mind szép, ha csak
+
+00:14:41.008 --> 00:14:43.950
+elméletileg kell fölrobbantanunk 
+a terrorista mobilját.
+
+00:14:43.950 --> 00:14:46.797
+Rá akarok jönni,
+
+00:14:46.797 --> 00:14:49.426
+működik-e ez a gyakorlatban is.
+
+00:14:49.426 --> 00:14:52.481
+Eljátszadoztam ezzel az ötlettel
+
+00:14:52.481 --> 00:14:55.505
+és a kapott adatokkal.
+
+00:14:55.505 --> 00:14:57.997
+Megint csak megpróbáltam megtalálni
+
+00:14:57.997 --> 00:15:00.205
+a kód egy nagyon egyedi részletét
+
+00:15:00.205 --> 00:15:03.800
+a bináris infó tengerében.
+
+00:15:03.800 --> 00:15:05.573
+Megnéztem, feltételezve,
+
+00:15:05.573 --> 00:15:07.523
+hogy azt keresem, amit kell.
+
+00:15:07.523 --> 00:15:09.844
+De azt láttam, hogy nincs meg
+
+00:15:09.844 --> 00:15:11.584
+a remélt összefüggés
+
+00:15:11.584 --> 00:15:13.489
+a kódban.
+
+00:15:13.489 --> 00:15:16.092
+Nem voltam benne biztos,
+
+00:15:16.092 --> 00:15:17.104
+de egy szintet
+
+00:15:17.104 --> 00:15:18.819
+visszalépve a kódot néztem,
+
+00:15:18.819 --> 00:15:21.113
+láttam, hogy nem hasonlít
+
+00:15:21.113 --> 00:15:22.604
+a többi kódra.
+
+00:15:22.604 --> 00:15:24.829
+Még kódot sem láttam.
+
+00:15:24.829 --> 00:15:27.215
+Tény, hogy meg tudom mondani,
+
+00:15:27.215 --> 00:15:29.263
+hogy ez nem kód.
+
+00:15:29.263 --> 00:15:31.311
+Ez valamilyen kép.
+
+00:15:31.311 --> 00:15:32.993
+Még azt is tudom,
+
+00:15:32.993 --> 00:15:35.904
+hogy ez egy fénykép.
+
+00:15:35.904 --> 00:15:37.296
+Most már tudom, hogy fénykép.
+
+00:15:37.296 --> 00:15:40.226
+Tucatnyi más bináris 
+átalakító módszerem van
+
+00:15:40.226 --> 00:15:42.647
+az infó láthatóvá és érthetővé tételére,
+
+00:15:42.647 --> 00:15:45.190
+ezért ezt az infót pillanatok 
+alatt átfuttathatjuk
+
+00:15:45.190 --> 00:15:47.587
+tucatnyi más bináris átalakító módszeren,
+
+00:15:47.587 --> 00:15:51.318
+hogy megtaláljuk a keresett dolgot.
+
+00:15:51.318 --> 00:15:53.000
+Megint az istenverte cica volt.
+
+00:15:53.000 --> 00:15:56.456
+(Nevetés)
+
+00:15:56.456 --> 00:15:57.506
+Azért,
+
+00:15:57.506 --> 00:15:59.001
+mert képesek voltunk
+
+00:15:59.001 --> 00:16:01.030
+egy nagyon nehéz feladatot átfogalmazni
+
+00:16:01.030 --> 00:16:03.542
+olyanná, amit agyunk 
+természetes módon kezel.
+
+00:16:03.542 --> 00:16:05.780
+Mit jelent ez?
+
+00:16:05.780 --> 00:16:07.325
+A cicáknak azt,
+
+00:16:07.325 --> 00:16:09.742
+hogy nem bújhatnak el 
+az egyesek és a nullák közé.
+
+00:16:09.742 --> 00:16:13.045
+Nekem, hogy nincs több 
+elfecsérelt hétvége.
+
+00:16:13.045 --> 00:16:15.657
+Az informatikának, 
+hogy teljesen új utat találtunk
+
+00:16:15.657 --> 00:16:18.622
+a legképtelenebb feladatok megoldására.
+
+00:16:18.622 --> 00:16:20.434
+Azt jelenti, hogy új fegyverünk van
+
+00:16:20.434 --> 00:16:22.850
+a kiberháború kialakuló 
+hadszíntere számára.
+
+00:16:22.850 --> 00:16:24.270
+Mindannyiunknak pedig azt,
+
+00:16:24.270 --> 00:16:25.745
+hogy a kibermérnökök
+
+00:16:25.745 --> 00:16:27.891
+most elsőként adhatnak választ
+
+00:16:27.891 --> 00:16:30.404
+vészhelyzetben.
+
+00:16:30.404 --> 00:16:32.051
+Ha minden másodperc számít,
+
+00:16:32.051 --> 00:16:34.930
+eszközöket alkottunk 
+a gonosztevők megállítására.
+
+00:16:34.930 --> 00:16:36.930
+Köszönöm.
+
+00:16:36.930 --> 00:16:39.892
+(Taps)
+

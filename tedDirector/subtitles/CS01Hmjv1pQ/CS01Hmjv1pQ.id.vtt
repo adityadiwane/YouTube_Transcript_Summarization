@@ -1,0 +1,737 @@
+WEBVTT
+Kind: captions
+Language: id
+
+00:00:00.000 --> 00:00:07.000
+Translator: Judge Pau
+Reviewer: Anggriawan Sugianto
+
+00:00:15.260 --> 00:00:18.260
+Ide di balik worm Stuxnet
+
+00:00:18.260 --> 00:00:20.260
+sebenarnya cukup sederhana.
+
+00:00:20.260 --> 00:00:23.260
+Kita tidak mau Iran punya bom.
+
+00:00:23.260 --> 00:00:26.260
+Aset terbesar mereka dalam pengembangan senjata nuklir
+
+00:00:26.260 --> 00:00:30.260
+adalah fasilitas pengayaan uranium Natanz.
+
+00:00:30.260 --> 00:00:32.260
+Kotak abu-abu yang Anda lihat,
+
+00:00:32.260 --> 00:00:35.260
+ini adalah sistem kendali real time.
+
+00:00:35.260 --> 00:00:38.260
+Kalau kita berhasil masuk ke sistem-sistem ini
+
+00:00:38.260 --> 00:00:41.260
+yang mengendalikan kecepatan motor dan katup,
+
+00:00:41.260 --> 00:00:44.260
+kita benar-benar bisa menciptakan banyak masalah
+
+00:00:44.260 --> 00:00:46.260
+pada sentrifuganya.
+
+00:00:46.260 --> 00:00:48.260
+Kotak abu-abu ini tidak menjalankan perangkat lunak Windows;
+
+00:00:48.260 --> 00:00:51.260
+teknologi yang digunakan sama sekali berbeda.
+
+00:00:51.260 --> 00:00:53.260
+Namun kalau kita berhasil
+
+00:00:53.260 --> 00:00:56.260
+menanamkan virus Windows
+
+00:00:56.260 --> 00:00:58.260
+pada sebuah notebook
+
+00:00:58.260 --> 00:01:00.260
+yang digunakan oleh insinyur pemeliharaan
+
+00:01:00.260 --> 00:01:03.260
+untuk mengatur kotak abu-abu ini,
+
+00:01:03.260 --> 00:01:05.260
+kita bisa ambil alih kendali kotak abu-abu itu.
+
+00:01:05.260 --> 00:01:08.260
+Dan inilah skenario di balik Stuxnet.
+
+00:01:08.260 --> 00:01:13.260
+Jadi kita mulai dengan sebuah virus di Windows.
+
+00:01:13.260 --> 00:01:16.260
+Muatannya akan menjangkiti kotak abu-abu,
+
+00:01:16.260 --> 00:01:18.260
+merusak sentrifuganya,
+
+00:01:18.260 --> 00:01:20.260
+dan program nuklir Iran jadi tertunda --
+
+00:01:20.260 --> 00:01:22.260
+misi terlaksana.
+
+00:01:22.260 --> 00:01:24.260
+Semudah itu ya?
+
+00:01:24.260 --> 00:01:27.260
+Saya akan beritahukan bagaimana kami mengetahuinya.
+
+00:01:27.260 --> 00:01:30.260
+Ketika kami memulai riset tentang Stuxnet 6 bulan yg lalu,
+
+00:01:30.260 --> 00:01:33.260
+sama sekali tidak ada yang tahu apa tujuan virus ini.
+
+00:01:33.260 --> 00:01:35.260
+Satu-satunya hal yang diketahui
+
+00:01:35.260 --> 00:01:38.260
+adalah virus yang sangat rumit di Windows,
+
+00:01:38.260 --> 00:01:41.260
+memanfaatkan beberapa lubang keamanan yang belum ada penangkalnya.
+
+00:01:41.260 --> 00:01:44.260
+Dan ini tampak ingin melakukan sesuatu
+
+00:01:44.260 --> 00:01:46.260
+pada kotak abu-abu ini, sistem pengendali real time ini,
+
+00:01:46.260 --> 00:01:48.260
+Itu menarik perhatian kami,
+
+00:01:48.260 --> 00:01:50.260
+jadi kami mulai sebuah proyek eksperimental
+
+00:01:50.260 --> 00:01:54.260
+di mana kami jangkiti jaringan kami dengan Stuxnet
+
+00:01:54.260 --> 00:01:56.260
+untuk kemudian kami amati.
+
+00:01:56.260 --> 00:01:59.260
+Tidak lama kemudian beberapa kejadian aneh muncul.
+
+00:01:59.260 --> 00:02:02.260
+Stuxnet berperilaku seperti kelinci percobaan
+
+00:02:02.260 --> 00:02:05.260
+yang tidak suka dengan umpan yang kami berikan --
+
+00:02:05.260 --> 00:02:07.260
+mengendus, tapi tidak mau memakannya.
+
+00:02:07.260 --> 00:02:09.260
+Tidak masuk akal bagi saya.
+
+00:02:09.260 --> 00:02:12.260
+Dan setelah kami coba dengan berbagai umpan,
+
+00:02:12.260 --> 00:02:16.260
+saya menyadari, serangannya terarah.
+
+00:02:16.260 --> 00:02:18.260
+Benar-benar sangat terarah.
+
+00:02:18.260 --> 00:02:20.260
+Virusnya aktif merajalela
+
+00:02:20.260 --> 00:02:22.260
+pada kotak abu-abu
+
+00:02:22.260 --> 00:02:25.260
+jika konfigurasi yang spesifik ditemukan,
+
+00:02:25.260 --> 00:02:29.260
+dan bahkan bisa memeriksa apa program yang akan dijangkiti
+
+00:02:29.260 --> 00:02:31.260
+jalan pada sistem sasarannya
+
+00:02:31.260 --> 00:02:34.260
+Kalau tidak, Stuxnet tidak melakukan apa-apa.
+
+00:02:34.260 --> 00:02:36.260
+Itu benar-benar meanarik perhatian saya
+
+00:02:36.260 --> 00:02:38.260
+jadi kami mulai mempelajari ini
+
+00:02:38.260 --> 00:02:40.260
+nyaris 24 jam sehari
+
+00:02:40.260 --> 00:02:43.260
+karena saya pikir, yah, kita tidak tahu apa sasarannya.
+
+00:02:43.260 --> 00:02:45.260
+Bisa saja, misalnya,
+
+00:02:45.260 --> 00:02:47.260
+pembangkit listrik AS,
+
+00:02:47.260 --> 00:02:49.260
+atau pabrik kimia di Jerman.
+
+00:02:49.260 --> 00:02:52.260
+Jadi sebaiknya kita cari tahu apa sasarannya secepat mungkin.
+
+00:02:52.260 --> 00:02:54.260
+Lalu kami mengekstrak dan dekompilasi
+
+00:02:54.260 --> 00:02:56.260
+kode penyerangnya,
+
+00:02:56.260 --> 00:02:59.260
+dan kami temukan di dalamnya terdapat dua bom digital --
+
+00:02:59.260 --> 00:03:02.260
+satu kecil, satu besar.
+
+00:03:02.260 --> 00:03:06.260
+Kami juga dapati mereka direkayasa secara profesional
+
+00:03:06.260 --> 00:03:10.260
+oleh orang-orang yang jelas-jelas tahu seluk-beluk sasarannya.
+
+00:03:10.260 --> 00:03:12.260
+Mereka tahu setiap bit
+
+00:03:12.260 --> 00:03:14.260
+dari sasarannya.
+
+00:03:14.260 --> 00:03:17.260
+Mereka bahkan mungkin tahu ukuran sepatu petugas operatornya.
+
+00:03:17.260 --> 00:03:19.260
+Intinya mereka tahu segalanya.
+
+00:03:19.260 --> 00:03:22.260
+Dan kalau Anda pernah dengar virus Stuxnet
+
+00:03:22.260 --> 00:03:24.260
+itu kompleks dan canggih,
+
+00:03:24.260 --> 00:03:26.260
+saya beri tahu Anda:
+
+00:03:26.260 --> 00:03:28.260
+muatan isinya jauh lebih kompleks dan canggih.
+
+00:03:28.260 --> 00:03:30.260
+Jauh dari segala program
+
+00:03:30.260 --> 00:03:33.260
+yang pernah kami lihat sebelumnya.
+
+00:03:33.260 --> 00:03:36.260
+Berikut bisa Anda lihat potongan kode penyerang yang sebenarnya.
+
+00:03:36.260 --> 00:03:38.260
+Kita sedang membicarakan --
+
+00:03:38.260 --> 00:03:41.260
+sekitar 15.000-an baris kode.
+
+00:03:41.260 --> 00:03:44.260
+Tampak seperti bahasa assembly yang kuno.
+
+00:03:44.260 --> 00:03:46.260
+Dan saya akan jelaskan bagaimana kami
+
+00:03:46.260 --> 00:03:48.260
+mencari tahu makna kode ini.
+
+00:03:48.260 --> 00:03:51.260
+Yang pertama kami cari adalah panggilan fungsi sistem,
+
+00:03:51.260 --> 00:03:53.260
+karena kami tahu apa kerjanya.
+
+00:03:53.260 --> 00:03:57.260
+Lalu kami cari penghitung waktu dan struktur datanya
+
+00:03:57.260 --> 00:03:59.260
+untuk kemudian mencari hubungan keduanya dengan dunia nyata --
+
+00:03:59.260 --> 00:04:01.260
+dengan calon sasarannya di dunia nyata.
+
+00:04:01.260 --> 00:04:04.260
+Jadi kami membutuhkan calon sasaran
+
+00:04:04.260 --> 00:04:07.260
+yang bisa kami buktikan cocok tidaknya
+
+00:04:07.260 --> 00:04:09.260
+Dalam menentukan calon tersebut,
+
+00:04:09.260 --> 00:04:11.260
+kami ingat
+
+00:04:11.260 --> 00:04:13.260
+bahwa kode ini jelas untuk mensabotase,
+
+00:04:13.260 --> 00:04:15.260
+jadi sasarannya pasti bernilai tinggi
+
+00:04:15.260 --> 00:04:18.260
+dan hampir pasti lokasinya di Iran,
+
+00:04:18.260 --> 00:04:22.260
+karena di sanalah yang paling banyak terjangkit virus ini.
+
+00:04:22.260 --> 00:04:25.260
+Anda tidak akan menemukan banyak sasaran di daerah tersebut.
+
+00:04:25.260 --> 00:04:27.260
+Kemungkinannya tinggal
+
+00:04:27.260 --> 00:04:29.260
+PLTN Bushehr
+
+00:04:29.260 --> 00:04:31.260
+dan pusat pengayaan Natanz.
+
+00:04:31.260 --> 00:04:33.260
+Jadi saya bilang pada asisten saya,
+
+00:04:33.260 --> 00:04:36.260
+"Buat daftar semua pakar sentrifuga dan pembangkit listrik dari klien kita."
+
+00:04:36.260 --> 00:04:38.260
+Lalu saya telpon mereka dan berkonsultasi
+
+00:04:38.260 --> 00:04:40.260
+sebagai usaha mencari hubungan antara bidang mereka
+
+00:04:40.260 --> 00:04:43.260
+dengan apa yang kami temukan dari kode dan data yang ada.
+
+00:04:43.260 --> 00:04:45.260
+Dan hal itu bekerja cukup baik.
+
+00:04:45.260 --> 00:04:47.260
+Kami jadi bisa menghubungkan
+
+00:04:47.260 --> 00:04:49.260
+hulu ledak digital yang kecil
+
+00:04:49.260 --> 00:04:51.260
+dengan kendali rotor.
+
+00:04:51.260 --> 00:04:54.260
+Rotor adalah bagian yang berputar pada sentrifuga,
+
+00:04:54.260 --> 00:04:56.260
+objek hitam yang Anda lihat.
+
+00:04:56.260 --> 00:04:59.260
+Dan kalau Anda mengubah kecepatannya,
+
+00:04:59.260 --> 00:05:01.260
+Anda bisa rusak rotor ini
+
+00:05:01.260 --> 00:05:05.260
+dan bahkan bisa meledakkan sentrifuganya.
+
+00:05:05.260 --> 00:05:07.260
+Hal lain yang kami temukan
+
+00:05:07.260 --> 00:05:09.260
+dari tujuan serangan ini
+
+00:05:09.260 --> 00:05:12.260
+adalah merusak secara perlahan dan halus --
+
+00:05:12.260 --> 00:05:14.260
+sebagai usaha untuk
+
+00:05:14.260 --> 00:05:17.260
+membingungkan insinyur pemeliharaan,
+
+00:05:17.260 --> 00:05:20.260
+sehingga mereka tidak menyadari hal ini dengan cepat.
+
+00:05:20.260 --> 00:05:23.260
+Hulu ledak yang besar -- kami temukan titik terang
+
+00:05:23.260 --> 00:05:25.260
+dengan mencermati
+
+00:05:25.260 --> 00:05:27.260
+data dan struktur datanya
+
+00:05:27.260 --> 00:05:29.260
+Jadi misalnya, angka 164
+
+00:05:29.260 --> 00:05:31.260
+sangat dominan dalam program ini
+
+00:05:31.260 --> 00:05:33.260
+cukup mencolok.
+
+00:05:33.260 --> 00:05:35.260
+Saya lakukan riset literatur
+
+00:05:35.260 --> 00:05:37.260
+tentang bagaimana sentrifuga
+
+00:05:37.260 --> 00:05:39.260
+dibangun di Natanz
+
+00:05:39.260 --> 00:05:41.260
+dan menemukan strukturnya
+
+00:05:41.260 --> 00:05:43.260
+yang disebut "cascade"
+
+00:05:43.260 --> 00:05:47.260
+di mana pada tiap "cascade" terpasang 164 sentrifuga.
+
+00:05:47.260 --> 00:05:49.260
+Ini cocok dan masuk akal.
+
+00:05:49.260 --> 00:05:51.260
+Bahkan lebih baik lagi.
+
+00:05:51.260 --> 00:05:53.260
+Sentrifuga-sentrifuga di Iran
+
+00:05:53.260 --> 00:05:57.260
+dibagi menjadi 15 tingkat.
+
+00:05:57.260 --> 00:05:59.260
+Dan coba tebak apa yang kami temukan pada kode penyerangnya?
+
+00:05:59.260 --> 00:06:01.260
+Struktur yang nyaris sama persis.
+
+00:06:01.260 --> 00:06:04.260
+Jadi lagi-lagi, ini sangat cocok.
+
+00:06:04.260 --> 00:06:07.260
+Ini menambah keyakinan kami tentang apa yg kami temukan.
+
+00:06:07.260 --> 00:06:10.260
+Jangan salah, proses sebenarnya tidak seperti dalam acara ini.
+
+00:06:10.260 --> 00:06:13.260
+Temuan-temuan ini didapat
+
+00:06:13.260 --> 00:06:16.260
+dengan kerja keras berminggu-minggu.
+
+00:06:16.260 --> 00:06:19.260
+Tidak jarang juga kami menemui jalan buntu
+
+00:06:19.260 --> 00:06:21.260
+dan harus mengulang dari awal.
+
+00:06:21.260 --> 00:06:23.260
+Singkat cerita, jadi kami simpulkan
+
+00:06:23.260 --> 00:06:25.260
+bahwa kedua hulu ledak digital ini
+
+00:06:25.260 --> 00:06:27.260
+sebenarnya punya sasaran yang sama
+
+00:06:27.260 --> 00:06:29.260
+tapi dari sudut yang berbeda.
+
+00:06:29.260 --> 00:06:32.260
+Hulu ledak yang kecil mengambil alih kendali satu "cascade",
+
+00:06:32.260 --> 00:06:35.260
+dan memperlambat putaran rotornya,
+
+00:06:35.260 --> 00:06:37.260
+sedangkan hulu ledak yang besar
+
+00:06:37.260 --> 00:06:39.260
+mengambil alih kendali 6 "cascade"
+
+00:06:39.260 --> 00:06:41.260
+dan merusak katupnya
+
+00:06:41.260 --> 00:06:43.260
+Jadi secara keseluruhan, kami yakin
+
+00:06:43.260 --> 00:06:45.260
+kami telah berhasil menentukan apa sasarannya
+
+00:06:45.260 --> 00:06:48.260
+Sasarannya Natanz dan hanya Natanz.
+
+00:06:48.260 --> 00:06:50.260
+Jadi kami tidak perlu khawatir
+
+00:06:50.260 --> 00:06:52.260
+dengan sasaran lain
+
+00:06:52.260 --> 00:06:54.260
+yang terjangkit Stuxnet.
+
+00:06:54.260 --> 00:06:57.260
+Berikut adalah hal yang sangat menarik yang kami temukan --
+
+00:06:57.260 --> 00:06:59.260
+Sungguh-sungguh mengagetkan saya.
+
+00:06:59.260 --> 00:07:01.260
+Di bawah sana adalah kotak abu-abunya,
+
+00:07:01.260 --> 00:07:04.260
+di atasnya Anda bisa lihat sentrifuganya.
+
+00:07:04.260 --> 00:07:06.260
+Apa yang dilakukan virus ini adalah
+
+00:07:06.260 --> 00:07:09.260
+mencegat nilai masukan dari sensor yang ada --
+
+00:07:09.260 --> 00:07:11.260
+jadi misalnya, dari sensor tekanan
+
+00:07:11.260 --> 00:07:13.260
+dan sensor getaran --
+
+00:07:13.260 --> 00:07:16.260
+virus ini mengumpankan kode di pihak korban
+
+00:07:16.260 --> 00:07:18.260
+yang jalan terus selama serangan dilakukan
+
+00:07:18.260 --> 00:07:20.260
+dengan data masukan palsu.
+
+00:07:20.260 --> 00:07:22.260
+Dan data masukan yang palsu ini
+
+00:07:22.260 --> 00:07:25.260
+adalah hasil rekaman Stuxnet.
+
+00:07:25.260 --> 00:07:27.260
+Jadi seperti pada film-film Hollywood
+
+00:07:27.260 --> 00:07:29.260
+di mana selama perampokan berlangsung,
+
+00:07:29.260 --> 00:07:32.260
+kamera pengawas diberi umpan hasil rekaman sebelumnya.
+
+00:07:32.260 --> 00:07:34.260
+Keren kan?
+
+00:07:35.260 --> 00:07:37.260
+Idenya tentu saja
+
+00:07:37.260 --> 00:07:40.260
+tidak hanya untuk mengelabui operator di ruang kendali.
+
+00:07:40.260 --> 00:07:44.260
+Tujuannya jauh lebih berbahaya dan agresif.
+
+00:07:44.260 --> 00:07:46.260
+Idenya
+
+00:07:46.260 --> 00:07:49.260
+adalah untuk mengelabui sistem keamanan digital.
+
+00:07:50.260 --> 00:07:52.260
+Sistem keamanan digital dibutuhkan
+
+00:07:52.260 --> 00:07:55.260
+ketika reaksi manusia tidak cukup cepat.
+
+00:07:55.260 --> 00:07:57.260
+Misalnya, pada pembangkit listrik,
+
+00:07:57.260 --> 00:08:00.260
+ketika turbin uap Anda yang besar berputar terlalu cepat,
+
+00:08:00.260 --> 00:08:03.260
+Anda harus membuka katup pelepasan dalam hitungan milidetik.
+
+00:08:03.260 --> 00:08:06.260
+Jelas, ini tidak bisa dilakukan oleh operator manusia.
+
+00:08:06.260 --> 00:08:08.260
+Inilah tugas sistem kemanan digital.
+
+00:08:08.260 --> 00:08:10.260
+Jadi ketika sistem itu teretas,
+
+00:08:10.260 --> 00:08:13.260
+akibatnya bisa terjadi bencana.
+
+00:08:13.260 --> 00:08:15.260
+Pembangkit listrik Anda bisa meledak.
+
+00:08:15.260 --> 00:08:18.260
+Dan ini tanpa disadari oleh petugas atau sistem keamanan yang ada.
+
+00:08:18.260 --> 00:08:20.260
+Ini mengerikan.
+
+00:08:20.260 --> 00:08:22.260
+Tapi ada kemungkinan yang lebih buruk.
+
+00:08:22.260 --> 00:08:25.260
+Dan ini sangat penting, apa yang akan saya sampaikan.
+
+00:08:25.260 --> 00:08:27.260
+Renungkan ini
+
+00:08:27.260 --> 00:08:30.260
+Serangan ini sifatnya generik.
+
+00:08:30.260 --> 00:08:34.260
+Seringan ini tidak harus menyerang, secara khusus,
+
+00:08:34.260 --> 00:08:36.260
+pada sentrifuga,
+
+00:08:36.260 --> 00:08:39.260
+dengan pengayaan uranium.
+
+00:08:39.260 --> 00:08:42.260
+Jadi bisa juga menyerang, misalnya,
+
+00:08:42.260 --> 00:08:44.260
+pembangkit listrik
+
+00:08:44.260 --> 00:08:47.260
+atau pabrik mobil.
+
+00:08:47.260 --> 00:08:49.260
+Serangan ini generik.
+
+00:08:49.260 --> 00:08:51.260
+Dan Anda tidak perlu -- sebagai penyerang --
+
+00:08:51.260 --> 00:08:54.260
+Anda tidak perlu menyebarkan muatannya
+
+00:08:54.260 --> 00:08:56.260
+dengan USB stick,
+
+00:08:56.260 --> 00:08:58.260
+seperti kita lihat pada kasus Stuxnet
+
+00:08:58.260 --> 00:09:01.260
+Anda bisa menggunakan teknologi worm yang biasa untuk menyebarkannya.
+
+00:09:01.260 --> 00:09:04.260
+Sebar saja seluas mungkin.
+
+00:09:04.260 --> 00:09:06.260
+Kalau sudah begitu,
+
+00:09:06.260 --> 00:09:08.260
+Anda akan mendapatkan
+
+00:09:08.260 --> 00:09:13.260
+senjata cyber perusak massal.
+
+00:09:14.260 --> 00:09:16.260
+Itu konsekuensi
+
+00:09:16.260 --> 00:09:19.260
+yang harus kita hadapi
+
+00:09:19.260 --> 00:09:22.260
+Sayangnya,
+
+00:09:22.260 --> 00:09:25.260
+kebanyakan sasaran untuk serangan seperti itu
+
+00:09:25.260 --> 00:09:27.260
+tidak berada di Timur Tengah.
+
+00:09:27.260 --> 00:09:30.260
+Tapi ada di Amerika Serikat, Eropa dan Jepang.
+
+00:09:30.260 --> 00:09:32.260
+Jadi area yang hijau ini,
+
+00:09:32.260 --> 00:09:35.260
+adalah daerah yang sarat dengan sasaran.
+
+00:09:35.260 --> 00:09:38.260
+Kita harus hadapi konsekuensi ini
+
+00:09:38.260 --> 00:09:41.260
+dan kita sebaiknya siap-siap dari sekarang.
+
+00:09:41.260 --> 00:09:43.260
+Terima kasih.
+
+00:09:43.260 --> 00:09:49.260
+(Tepuk tangan)
+
+00:09:49.260 --> 00:09:51.260
+Chris Anderson: Saya punya pertanyaan.
+
+00:09:53.260 --> 00:09:55.260
+Ralph, ada banyak laporan yang mengatakan
+
+00:09:55.260 --> 00:09:57.260
+bahwa ada dugaan Mossad
+
+00:09:57.260 --> 00:09:59.260
+adalah pelaku di belakang ini semua.
+
+00:09:59.260 --> 00:10:02.260
+Apakah itu pendapat Anda?
+
+00:10:02.260 --> 00:10:04.260
+Ralph Langner: Baiklah, Anda sungguh mau mendengar ini?
+
+00:10:04.260 --> 00:10:06.260
+Baiklah.
+
+00:10:06.260 --> 00:10:09.260
+Menurut saya, Mossad memang terlibat,
+
+00:10:09.260 --> 00:10:12.260
+tapi pemimpin serangannya bukan Israel.
+
+00:10:12.260 --> 00:10:14.260
+Pemimpin serangan di balik itu
+
+00:10:14.260 --> 00:10:17.260
+adalah adikuasa cyber.
+
+00:10:17.260 --> 00:10:19.260
+Hanya ada satu,
+
+00:10:19.260 --> 00:10:21.260
+dan itu adalah Amerika Serikat --
+
+00:10:21.260 --> 00:10:23.260
+untungnya.
+
+00:10:23.260 --> 00:10:25.260
+Karena kalau tidak,
+
+00:10:25.260 --> 00:10:28.260
+masalah kita akan jadi bertambah besar.
+
+00:10:28.260 --> 00:10:32.260
+CA: Terima kasih telah menakut-nakuti kami. Terima kasih Ralph.
+
+00:10:32.260 --> 00:10:34.260
+(Tepuk tangan)
+

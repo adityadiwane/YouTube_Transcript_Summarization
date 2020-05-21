@@ -1,0 +1,1346 @@
+WEBVTT
+Kind: captions
+Language: hu
+
+00:00:00.000 --> 00:00:07.000
+Fordító: Zalán Bodó
+Lektor: Krisztián Pintér
+
+00:00:25.000 --> 00:00:28.000
+Két dolgot csinálok. Mobil számítógépeket tervezek és az agyat tanulmányozom.
+
+00:00:29.000 --> 00:00:31.000
+A mai előadás pedig az agyról szól, és ...
+
+00:00:31.000 --> 00:00:33.000
+hurrá, valahol van egy agy-rajongó.
+
+00:00:33.000 --> 00:00:35.000
+(Nevetés)
+
+00:00:35.000 --> 00:00:37.000
+Ha kérhetném az első slide-omat megjeleníteni,
+
+00:00:37.000 --> 00:00:41.000
+látható lesz az előadásom címe és a két vállalatom.
+
+00:00:41.000 --> 00:00:45.000
+Amiről tehát beszélni fogok az, hogy miért is nincs egy jó agyelméletünk,
+
+00:00:45.000 --> 00:00:48.000
+miért lenne fontos ennek a kidolgozása, és mit tudunk tenni ennek érdekében.
+
+00:00:48.000 --> 00:00:51.000
+És mindezt megpróbálom 20 perc alatt megtenni. Két vállalatom van.
+
+00:00:51.000 --> 00:00:54.000
+A többség bizonyára a Palm és Handspring-es napjaimból ismer,
+
+00:00:54.000 --> 00:00:57.000
+de vezetek egy nonprofit tudományos kutatóintézetet is
+
+00:00:57.000 --> 00:00:59.000
+a Menlo Parkban, Redwood Neuroscience Institute névvel,
+
+00:00:59.000 --> 00:01:01.000
+ahol elméleti idegtudománnyal foglalkozunk
+
+00:01:01.000 --> 00:01:03.000
+és a neokortex működését tanulmányozzuk.
+
+00:01:03.000 --> 00:01:05.000
+És erről fogok beszélni.
+
+00:01:05.000 --> 00:01:08.000
+Van egy slide-om a másik életemről, a számítógépes életről, ez látható most.
+
+00:01:08.000 --> 00:01:11.000
+Ez itt néhány termék, amelyen az utóbbi 20 évben dolgoztam,
+
+00:01:11.000 --> 00:01:15.000
+kezdve a laptoptól az első tablet pc-kig
+
+00:01:15.000 --> 00:01:17.000
+és így tovább, egészen a legújabb Treo-ig,
+
+00:01:17.000 --> 00:01:19.000
+és ezt a továbbiakban is folytatjuk.
+
+00:01:19.000 --> 00:01:21.000
+Tettem ezeket azért, mert hiszem, hogy a mobil számítástechnika
+
+00:01:21.000 --> 00:01:24.000
+a személyi számítástechnika jövője, és ezeken dolgozva
+
+00:01:24.000 --> 00:01:27.000
+megpróbálom a világot egy kicsivel jobbá tenni.
+
+00:01:27.000 --> 00:01:29.000
+De ez, be kell, hogy valljam, a véletlen műve volt.
+
+00:01:29.000 --> 00:01:31.000
+Én valójában nem akartam egyik ilyen terméket sem kifejleszetni,
+
+00:01:31.000 --> 00:01:33.000
+és már a pályafutásom kezdetén elhatároztam,
+
+00:01:33.000 --> 00:01:36.000
+hogy nem szállok be a számítógépiparba.
+
+00:01:36.000 --> 00:01:38.000
+Mielőtt ezt elmesélném, elmondom
+
+00:01:38.000 --> 00:01:40.000
+a kis Graffitis kép történetét, amit a minap szedtem le a webről.
+
+00:01:40.000 --> 00:01:43.000
+A Graffitiről kerestem képet, a kézírásfelismerő programról,
+
+00:01:43.000 --> 00:01:46.000
+és találtam egy tanároknak ajánlott weboldalt, akik ilyen
+
+00:01:46.000 --> 00:01:49.000
+kezírásos betűket akarnak a tábla tetejére tenni,
+
+00:01:49.000 --> 00:01:52.000
+és Graffitist is tettek hozzá, szóval bocsánatot kérek.
+
+00:01:52.000 --> 00:01:54.000
+(Nevetés)
+
+00:01:54.000 --> 00:01:59.000
+Tehát az történt, hogy amikor fiatal voltam és kijöttem a mérnökiről,
+
+00:01:59.000 --> 00:02:03.000
+a Cornellről '79-ben, eldöntöttem, hogy elmegyek az Intelhez dolgozni.
+
+00:02:03.000 --> 00:02:06.000
+A számítógépiparban voltam, és három hónap alatt
+
+00:02:06.000 --> 00:02:10.000
+beleszerettem valami másba, és azt mondtam "rossz pályát választottam",
+
+00:02:10.000 --> 00:02:13.000
+és beleszerettem az agyba.
+
+00:02:13.000 --> 00:02:16.000
+Ez nem egy igazi agy. Csak egynek a képe, egy vonalrajz.
+
+00:02:16.000 --> 00:02:19.000
+Nem emlékszem, pontosan hogy is történt,
+
+00:02:19.000 --> 00:02:22.000
+de van egy emlékem, ami elég erősen megmaradt a fejemben.
+
+00:02:22.000 --> 00:02:25.000
+1979 szeptemberében a Scientific American
+
+00:02:25.000 --> 00:02:28.000
+kijött egy tematikus számmal az agyról. És egész jó volt.
+
+00:02:28.000 --> 00:02:31.000
+A valaha megjelent egyik legjobb szám volt. És beszéltek a neuronról,
+
+00:02:31.000 --> 00:02:33.000
+a fejlődésről, a betegségekről, a látásról és mindenről,
+
+00:02:33.000 --> 00:02:36.000
+amit tudni szeretnénk az agyról. Teljesen lenyűgöző volt.
+
+00:02:36.000 --> 00:02:39.000
+És azt a benyomást kelthették, hogy tényleg sokat tudunk az agyról.
+
+00:02:39.000 --> 00:02:43.000
+De a szám utolsó cikkét a DNS-ről elhíresült Francis Crick írta.
+
+00:02:43.000 --> 00:02:46.000
+Ma, azt hiszem, a DNS felfedezésének 50-edik születésnapját ünnepeljük.
+
+00:02:46.000 --> 00:02:48.000
+És ő írt egy történetet, amelyben alapjában véve azt mondja,
+
+00:02:48.000 --> 00:02:51.000
+hogy ez mind nagyon szép és jó, de mondok valamit,
+
+00:02:51.000 --> 00:02:53.000
+az égvilágon semmit sem tudunk az agyról
+
+00:02:53.000 --> 00:02:55.000
+és halvány gőze sincs senkinek arról, hogyan működenek ezek a dolgok,
+
+00:02:55.000 --> 00:02:57.000
+tehát ne higgyétek el, amit mások mondanak nektek.
+
+00:02:57.000 --> 00:03:00.000
+Egy idézet a cikkből. Azt mondta "Ami szembetűnően hiányzik,"
+
+00:03:00.000 --> 00:03:04.000
+ő egy valódi angol úriember, tehát "Ami szembetűnően hiányzik,
+
+00:03:04.000 --> 00:03:07.000
+az egy átfogó keretrendszer, amelyben értelmeznénk ezeket az eltérő megközelítéseket."
+
+00:03:07.000 --> 00:03:09.000
+Azt gondoltam, hogy a keretrendszer szó nagyszerű.
+
+00:03:09.000 --> 00:03:11.000
+Nem mondja, hogy még csak elméletünk sincs. Azt mondja,
+
+00:03:11.000 --> 00:03:13.000
+hogy még csak azt sem tudjuk, hogyan kezdjünk el gondolkozni róla,
+
+00:03:13.000 --> 00:03:15.000
+még csak egy keretrendszerünk sincs.
+
+00:03:15.000 --> 00:03:18.000
+Thomas Kuhn szavait használva, a pre-paradigma napjaiban élünk.
+
+00:03:18.000 --> 00:03:21.000
+És így beleszerettem ebbe, és azt mondtam, nézd,
+
+00:03:21.000 --> 00:03:24.000
+ismerjük ezeket a dolgokat az agyról. Mennyire lehet ez nehéz?
+
+00:03:24.000 --> 00:03:27.000
+Ezen egy életen át lehet dolgozni. Úgy éreztem, hogy itt tudnék valamit tenni,
+
+00:03:27.000 --> 00:03:31.000
+ezért megpróbáltam átlépni a számítógépes üzletből az agy-üzletbe.
+
+00:03:31.000 --> 00:03:33.000
+Először elmentem az MIT-hoz, az MI laboratóriumba,
+
+00:03:33.000 --> 00:03:35.000
+és azt mondtam, hogy nos, én is intelligens gépeket akarok építeni,
+
+00:03:35.000 --> 00:03:38.000
+de oly módon, hogy először az agy működését tanulmányozom.
+
+00:03:38.000 --> 00:03:41.000
+És ők azt mondták, hogy ó, nincs arra szükség.
+
+00:03:41.000 --> 00:03:43.000
+Mi csak számítógépeket programozunk, ennyi nekünk elég.
+
+00:03:43.000 --> 00:03:46.000
+Azt mondtam, tényleg tanulmányoznotok kellene az agyat. Ők azt mondták,
+
+00:03:46.000 --> 00:03:48.000
+tévedsz. Erre én azt mondtam, ti tévedtek, és nem kerültem be.
+
+00:03:48.000 --> 00:03:49.000
+(Nevetés)
+
+00:03:50.000 --> 00:03:52.000
+Egy kicsit csalódott voltam, és eléggé fiatal, de néhány évvel később
+
+00:03:52.000 --> 00:03:55.000
+visszamentem, ezúttal Kaliforniába, és elmentem a Berkeley-re.
+
+00:03:55.000 --> 00:03:59.000
+És azt gondoltam, a biológiai oldalról fogom megközelíteni.
+
+00:03:59.000 --> 00:04:02.000
+Tehát bejutottam a doktorátusra biofizikából, és azt gondoltam, rendben,
+
+00:04:02.000 --> 00:04:05.000
+mostmár az agyat tanulmányozom. Az elméletet akartam tanulmányozni.
+
+00:04:05.000 --> 00:04:07.000
+Erre ők azt mondták, hogy ó, nem, nem tanulmányozhatod az agy elméletét.
+
+00:04:07.000 --> 00:04:09.000
+Ezt nem fogod csinálni. Erre nem kapsz finanszírozást.
+
+00:04:09.000 --> 00:04:13.000
+És végzős hallgatóként ezt nem teheted. Erre azt gondoltam, ó, istenem.
+
+00:04:13.000 --> 00:04:15.000
+Nagyon szomorú lettem. Azt mondtam, én akkor is el tudok érni valamit.
+
+00:04:15.000 --> 00:04:18.000
+Így azt tettem, hogy visszatértem a számítógépiparhoz,
+
+00:04:18.000 --> 00:04:20.000
+és azt mondtam magamnak, nos, itt kell dolgozz egy ideig, csinálj valamit.
+
+00:04:20.000 --> 00:04:23.000
+Ekkor terveztem azokat a számítógépes termékeket.
+
+00:04:23.000 --> 00:04:24.000
+(Nevetés)
+
+00:04:24.000 --> 00:04:27.000
+És azt mondtam, hogy négy évig csinálom ezt, szerzek egy kis pénzt,
+
+00:04:27.000 --> 00:04:31.000
+mivel családom is volt, és kicsit érettebbé válok,
+
+00:04:31.000 --> 00:04:34.000
+és hátha az idegtudomány is érettebbé válik egy kicsit.
+
+00:04:34.000 --> 00:04:37.000
+Hát, tovább tartott négy évnél. Körülbelül 16 évet.
+
+00:04:37.000 --> 00:04:39.000
+De most ezt csinálom, és erről fogok beszélni.
+
+00:04:39.000 --> 00:04:42.000
+Miért lenne szükségünk egy jó agyelméletre?
+
+00:04:42.000 --> 00:04:45.000
+Hát, elég sok oka van annak, hogy az emberek tudománnyal foglalkoznak.
+
+00:04:45.000 --> 00:04:48.000
+Az egyik, a legalapvetőbb az, hogy az emberek szeretnek megtudni dolgokat.
+
+00:04:48.000 --> 00:04:50.000
+Kíváncsiak vagyunk, elmegyünk és megszerezzük a tudást.
+
+00:04:50.000 --> 00:04:52.000
+Miért tanulmányozzuk a hangyákat? Hát, mert érdekes.
+
+00:04:52.000 --> 00:04:55.000
+Lehet, hogy megtudunk valami ténylegesen hasznosat is, de érdekes és lenyűgöző.
+
+00:04:55.000 --> 00:04:57.000
+De néha más sajátosságai
+
+00:04:57.000 --> 00:04:59.000
+teszik a tudományt igazán érdekfeszítővé.
+
+00:04:59.000 --> 00:05:02.000
+Egy tudomány olykor saját magunkról mond el valamit,
+
+00:05:02.000 --> 00:05:03.000
+megmondja, kik vagyunk.
+
+00:05:03.000 --> 00:05:06.000
+Az evolúció megmagyarázta, Kopernikusz megmagyarázta,
+
+00:05:06.000 --> 00:05:08.000
+és egy új magyarázatot kaptunk arra, hogy kik is vagyunk.
+
+00:05:08.000 --> 00:05:12.000
+És elvégre mi a saját agyunk vagyunk. Az én agyam a te agyadhoz beszél.
+
+00:05:12.000 --> 00:05:15.000
+A testünk is ott van, de az agyam beszél a te a agyadhoz.
+
+00:05:15.000 --> 00:05:18.000
+És ha meg akarjuk érteni, kik vagyunk és hogyan érzünk és érzékelünk,
+
+00:05:18.000 --> 00:05:20.000
+valójában az agyunkat akarjuk megérteni.
+
+00:05:20.000 --> 00:05:22.000
+Másrészt a tudomány néha
+
+00:05:22.000 --> 00:05:24.000
+nagy társadalmi haszonhoz, technológiához
+
+00:05:24.000 --> 00:05:26.000
+vagy üzletekhez vezet, vagy akármihez. És ez is az,
+
+00:05:26.000 --> 00:05:29.000
+mivel ha megértjük, hogyan műküdik az agy, képesek leszünk
+
+00:05:29.000 --> 00:05:32.000
+intelligens gépeket építeni, és úgy gondolom, hogy ez egészében véve jó dolog,
+
+00:05:32.000 --> 00:05:34.000
+és óriási hasznára válik a társadalomnak,
+
+00:05:34.000 --> 00:05:36.000
+mint egy alapvető technológia.
+
+00:05:36.000 --> 00:05:38.000
+Tehát miért is nincs egy jó elméletünk az agyról?
+
+00:05:38.000 --> 00:05:41.000
+Pedig 100 éve dolgoznak rajta az emberek.
+
+00:05:41.000 --> 00:05:43.000
+Először is nézzük meg, hogyan is néz ki egy normális tudomány.
+
+00:05:43.000 --> 00:05:45.000
+Ez egy normális tudomány.
+
+00:05:45.000 --> 00:05:49.000
+Egy normális tudomány egy szép egyensúly az elmélet és a kísérlet között.
+
+00:05:49.000 --> 00:05:51.000
+Az elméleti fickók azt mondják, nos, azt hiszem ez megy végbe,
+
+00:05:51.000 --> 00:05:53.000
+a kísérletezők pedig azt mondják, nem, tévedsz.
+
+00:05:53.000 --> 00:05:55.000
+És ez így megy oda-vissza.
+
+00:05:55.000 --> 00:05:57.000
+Ez működik a fizikában. Működik a geológiában. De ha ez a normális tudomány,
+
+00:05:57.000 --> 00:06:00.000
+hogyan néz ki az idegtudomány? Így néz ki az idegtudomány.
+
+00:06:00.000 --> 00:06:05.000
+Van ez a hegyoldalnyi adat, ami valójában anatómia, pszichológia és viselkedés.
+
+00:06:05.000 --> 00:06:08.000
+El sem tudják képzelni, mennyi részletet tudunk az agyról.
+
+00:06:08.000 --> 00:06:12.000
+Összesen 28000 ember vett részt az idei idegtudományi konferencián,
+
+00:06:12.000 --> 00:06:14.000
+és mindegyikük az agyat kutatja.
+
+00:06:14.000 --> 00:06:18.000
+Rengeteg adat. De nincs elmélet. Ott van egy kicsi tehetetlen doboz az egésznek a tetején.
+
+00:06:18.000 --> 00:06:23.000
+Az elmélet soha nem kapott nagy szerepet a idegtudományban.
+
+00:06:23.000 --> 00:06:26.000
+És ez egy igazi szégyen. Miért történt mindez?
+
+00:06:26.000 --> 00:06:28.000
+Ha megkérdezzük a idegtudósokat, hogy miért ez a helyzet?
+
+00:06:28.000 --> 00:06:31.000
+Először is bevallják, hogy így van. De ha megkérdezzük őket, azt fogják mondani,
+
+00:06:31.000 --> 00:06:34.000
+nos, többféle oka is van annak, hogy nincs egy jó agyelméletünk.
+
+00:06:34.000 --> 00:06:36.000
+Egyesek azt mondják, hogy még mindig nincs elég adatunk,
+
+00:06:36.000 --> 00:06:39.000
+több információra van szükség, itt van ez a csomó dolog, amit nem tudunk.
+
+00:06:39.000 --> 00:06:42.000
+Nemrég mondtam, olyan sok adatunk van, hogy már a fülünkön is az folyik ki.
+
+00:06:42.000 --> 00:06:45.000
+Nagyon sok információnk van, de nem tudjuk, hogyan rendezzük azokat.
+
+00:06:45.000 --> 00:06:47.000
+Mire lenne jó ennél is több?
+
+00:06:47.000 --> 00:06:50.000
+Talán szerencsénk lesz és felfedezünk valamilyen mágikus dolgot, ezt nem igazán hiszem.
+
+00:06:50.000 --> 00:06:53.000
+Ez tulajdonképpen annak a tünete, hogy nincs elméletünk.
+
+00:06:53.000 --> 00:06:56.000
+Nincs szükségünk több adatra, egy jó elméletre van szükségünk azokra vonatkozóan.
+
+00:06:56.000 --> 00:06:59.000
+Néha az emberek azt mondják, hogy az agy annyira bonyolult,
+
+00:06:59.000 --> 00:07:01.000
+még 50 évbe beletelik.
+
+00:07:01.000 --> 00:07:03.000
+Azt hiszem, éppen Chris mondott valami hasonlót tegnap.
+
+00:07:03.000 --> 00:07:05.000
+Nem vagyok benne biztos, hogy mit mondtál, Chris, de valami olyasmit,
+
+00:07:05.000 --> 00:07:08.000
+hogy az egyik legbonyolultabb dolog a világegyetemben. Ez nem igaz.
+
+00:07:08.000 --> 00:07:10.000
+Te sokkal bonyolultabb vagy az agyadnál. Neked részed az agyad.
+
+00:07:10.000 --> 00:07:12.000
+És habár az agy nagyon bonyolultnak tűnik,
+
+00:07:12.000 --> 00:07:15.000
+a dolgok csak addig tűnnek bonyolultnak, amíg meg nem értjük őket.
+
+00:07:15.000 --> 00:07:18.000
+Mindig is ez volt a helyzet. Mondhatjuk, hogy
+
+00:07:18.000 --> 00:07:22.000
+a neokortexem, az agyterület, ami engem érdekel, 30 milliárd sejtet tartalmaz.
+
+00:07:22.000 --> 00:07:24.000
+De mondjak valamit? Nagyon, de nagyon szabályos.
+
+00:07:24.000 --> 00:07:27.000
+Tulajdonképpen ugyanaz a dolog van megismételve sokszor egymás után.
+
+00:07:27.000 --> 00:07:30.000
+Nem olyan összetett, mint ahogy látszik. Nem ez a lényeg.
+
+00:07:30.000 --> 00:07:32.000
+Egyesek azt mondják, az agy nem tudja megérteni az agyat.
+
+00:07:32.000 --> 00:07:35.000
+Nagyon zenként hangzik. Úú. Tudják ...
+
+00:07:35.000 --> 00:07:36.000
+(Nevetés)
+
+00:07:36.000 --> 00:07:39.000
+Hangzani jól hangzik, de miért? Úgy értem, mi az értelme?
+
+00:07:39.000 --> 00:07:42.000
+Csak egy halom sejt. A tündőnket értjük.
+
+00:07:42.000 --> 00:07:44.000
+Abban is egy halom sejt van, igaz?
+
+00:07:44.000 --> 00:07:46.000
+Ezért én nem hiszem, hogy ennél több lenne.
+
+00:07:46.000 --> 00:07:48.000
+Erre egyes emberek azt mondják, hogy
+
+00:07:48.000 --> 00:07:52.000
+én nem egy kupac sejtnek érzem magam. Én tudatos vagyok.
+
+00:07:52.000 --> 00:07:54.000
+Tudatos vagyok, a világon vagyok.
+
+00:07:54.000 --> 00:07:56.000
+Nem lehetek csak egy kupac sejt. Nos,
+
+00:07:56.000 --> 00:07:59.000
+az emberek hajlamosak azt hinni, hogy létezett egy bizonyos életerő, amely az életet létrehozta,
+
+00:07:59.000 --> 00:08:01.000
+de ma már tudjuk, hogy ez egyáltalán nem igaz.
+
+00:08:01.000 --> 00:08:04.000
+És valójában nincs olyan bizonyíték, az emberek
+
+00:08:04.000 --> 00:08:06.000
+hitetlenkedésén túl, hogy a sejtek képesek minderre.
+
+00:08:06.000 --> 00:08:09.000
+Még ha néhányan bele is estek a metafizikai dualizmus vermébe,
+
+00:08:09.000 --> 00:08:12.000
+néhány igazán eszes ember is, elvethetjük ezt az egészet.
+
+00:08:12.000 --> 00:08:14.000
+(Nevetés)
+
+00:08:14.000 --> 00:08:17.000
+Nem, én elmondom önöknek, hogy másról van szó,
+
+00:08:17.000 --> 00:08:19.000
+egy nagyon alapvető dologról, és ez a következő:
+
+00:08:19.000 --> 00:08:21.000
+egy másik oka annak, hogy nincs egy jó agyelméletünk az,
+
+00:08:21.000 --> 00:08:24.000
+hogy egy intuitív, beidegződött
+
+00:08:24.000 --> 00:08:29.000
+de helytelen feltevésünk meggátolt minket a válasz meglátásától.
+
+00:08:29.000 --> 00:08:32.000
+Van valami, amit nyilvánvalónak tartunk, de helytelenül.
+
+00:08:32.000 --> 00:08:36.000
+Ennek múltja van a tudományban, és mielőtt elmondanám, hogy mi is ez,
+
+00:08:36.000 --> 00:08:38.000
+elmondok egy keveset ennek múltjáról a tudományban.
+
+00:08:38.000 --> 00:08:40.000
+Most néhány forradalmi jelentőségű tudományos felfedezést láthatnak,
+
+00:08:40.000 --> 00:08:42.000
+éspedig a naprendszert, ez Kopernikusz nevéhez fűződik,
+
+00:08:42.000 --> 00:08:45.000
+Darwin evolúcióelméletét és a lemeztektonikát, ami Wegener elmélete.
+
+00:08:45.000 --> 00:08:48.000
+Mindegyik sok hasonlóságot mutat az agytudománnyal.
+
+00:08:48.000 --> 00:08:51.000
+Először is mindenhol nagyon sok tisztázatlan adat volt. Nagyon sok.
+
+00:08:51.000 --> 00:08:54.000
+De egyből kezelhetőbbé vált, amint volt egy elmélet.
+
+00:08:54.000 --> 00:08:57.000
+A legnagyobb elméket, a nagyon de nagyon eszes embereket is zavarba ejtették.
+
+00:08:57.000 --> 00:08:59.000
+Mi sem vagyunk okosabbak, mint ők voltak akkor.
+
+00:08:59.000 --> 00:09:01.000
+Rájövünk, hogy nagyon nehéz gondolkodni a dolgokról,
+
+00:09:01.000 --> 00:09:03.000
+de ha egyszer gondolkoztunk, elég könnyen megértjük azokat.
+
+00:09:03.000 --> 00:09:05.000
+A lányaim is megértették ezt a három elméletet
+
+00:09:05.000 --> 00:09:08.000
+még óvodás korukban.
+
+00:09:08.000 --> 00:09:11.000
+Nem olyan nehéz, tudják, itt az alma, itt a narancs,
+
+00:09:11.000 --> 00:09:14.000
+a Föld körbemegy, valahogy így.
+
+00:09:14.000 --> 00:09:16.000
+Valójában a válasz mindvégig ott volt,
+
+00:09:16.000 --> 00:09:19.000
+de valahogy figyelmen kívül hagytuk emiatt a magától értetődőség miatt, és ez az a valami.
+
+00:09:19.000 --> 00:09:22.000
+Egy intuitív, beidegződött meggyőződés, ami helytelen volt.
+
+00:09:22.000 --> 00:09:25.000
+A naprendszer esetében a gondolat, hogy a Föld forog,
+
+00:09:25.000 --> 00:09:28.000
+és a Föld felülete körülbelül ezer mérföldes sebességgel mozog,
+
+00:09:28.000 --> 00:09:31.000
+és a Föld körülbelül egymillió mérföldes sebességgel száguld a naprendszeren keresztül.
+
+00:09:31.000 --> 00:09:33.000
+Ez őrültség. Mindannyian tudjuk, hogy a Föld nem mozog.
+
+00:09:33.000 --> 00:09:35.000
+Te úgy érzed, hogy ezer mérföldes sebességgel mozogsz?
+
+00:09:35.000 --> 00:09:37.000
+Persze, hogy nem. Ha valaki azt mondta volna,
+
+00:09:37.000 --> 00:09:39.000
+hogy körbe forog az űrben és olyan hatalmas,
+
+00:09:39.000 --> 00:09:41.000
+azt bezárták volna, és ezt meg is tették akkoriban.
+
+00:09:41.000 --> 00:09:42.000
+(Nevetés)
+
+00:09:42.000 --> 00:09:45.000
+Tehát intuitív és nyilvánvaló volt. Mi a helyzet az evolúcióval?
+
+00:09:45.000 --> 00:09:48.000
+Az evolúció ugyanaz a mese. Azt tanítottuk a gyermekeinknek, hogy a Biblia azt mondja,
+
+00:09:48.000 --> 00:09:50.000
+Isten teremtette az összes fajt, a macskák macskák, a kutyák kutyák,
+
+00:09:50.000 --> 00:09:53.000
+az emberek emberek, a növények növények, és ezek nem változnak.
+
+00:09:53.000 --> 00:09:57.000
+Noé ilyen sorrendben vitte fel őket a bárkájára, bla, bla, bla. A helyzet az,
+
+00:09:57.000 --> 00:10:01.000
+hogy ha hiszünk az evolúciónak, akkor egyetlen közös őstől származunk,
+
+00:10:01.000 --> 00:10:04.000
+és nekünk valamint az előszobai növénynek közös őseink vannak.
+
+00:10:04.000 --> 00:10:07.000
+Ezt mondja nekünk az evolúció. És ez az igazság. Mennyire hihetetlen.
+
+00:10:07.000 --> 00:10:10.000
+És ugyanez a helyzet a tektonikai lemezekkel is.
+
+00:10:10.000 --> 00:10:12.000
+Az összes hegy és kontinens valahogy
+
+00:10:12.000 --> 00:10:16.000
+a Föld tetején úszik. Ennek sincs semmi értelme.
+
+00:10:16.000 --> 00:10:20.000
+Tehát, mi az az intuitív de helytelen feltevés,
+
+00:10:20.000 --> 00:10:22.000
+ami meggátolt minket az agy megértésében?
+
+00:10:22.000 --> 00:10:24.000
+Ezt fogom most most elmondani, és nyilvánvaló lesz, hogy ez helyes,
+
+00:10:24.000 --> 00:10:26.000
+és ez a lényeg, rendben? Ezután meg kell majd indokolnom,
+
+00:10:26.000 --> 00:10:28.000
+hogy miért is tévednek a másik feltevéssel kapcsolatban.
+
+00:10:28.000 --> 00:10:31.000
+Az intuitív, de nyilvánvaló dolog az, hogy valamilyen módon az intelligenciát
+
+00:10:31.000 --> 00:10:33.000
+a viselkedés határozza meg,
+
+00:10:33.000 --> 00:10:35.000
+vagyis intelligensek vagyunk, amiatt ahogyan teszünk dolgokat
+
+00:10:35.000 --> 00:10:38.000
+és mert intelligensen viselkedünk, de elárulom, hogy ez helytelen.
+
+00:10:38.000 --> 00:10:40.000
+Valójában az intelligenciát a predikció határozza meg.
+
+00:10:40.000 --> 00:10:43.000
+A következő néhány slide-on ezen fogunk végigmenni,
+
+00:10:43.000 --> 00:10:47.000
+és adok egy példát arra, hogy ez mit is jelent. Ez egy rendszer.
+
+00:10:47.000 --> 00:10:50.000
+A mérnökök szeretnek így tekinteni egy rendszerre. A tudósok szeretnek így tekinteni egy rendszerre.
+
+00:10:50.000 --> 00:10:53.000
+Azt mondják, van valami egy dobozban, továbbá vannak bemeneteink es kimeneteink.
+
+00:10:53.000 --> 00:10:56.000
+Az MI-sek azt mondják, hogy a dolog a dobozban egy programozható számítógép,
+
+00:10:56.000 --> 00:10:58.000
+mivel az egyenértékű egy aggyal, adunk neki valamilyen bemenetet,
+
+00:10:58.000 --> 00:11:00.000
+és az produkálni fog valamit, valamilyen viselkedést.
+
+00:11:00.000 --> 00:11:03.000
+Alan Turing definiálta a Turing-tesztet, ami tulajdonképpen azt mondja,
+
+00:11:03.000 --> 00:11:06.000
+hogy valami intelligens, ha az emberhez hasonlóan viselkedik.
+
+00:11:06.000 --> 00:11:09.000
+Az intelligenciának egy viselkedési metrikája,
+
+00:11:09.000 --> 00:11:12.000
+amely hosszú ideig megragadt az eszünkben.
+
+00:11:12.000 --> 00:11:14.000
+A valóságot azonban én az igazi intelligenciának nevezem.
+
+00:11:14.000 --> 00:11:16.000
+Az igazi intelligencia valami máson alapszik.
+
+00:11:16.000 --> 00:11:20.000
+A világot minták sorozatán keresztül ismerjük meg, eltároljuk azokat,
+
+00:11:20.000 --> 00:11:23.000
+majd visszaemlékezünk rájuk. És amikor visszaemlékszünk, összevetjük azokat
+
+00:11:23.000 --> 00:11:27.000
+a valósággal, és minden alkalommal jóslást végzünk.
+
+00:11:27.000 --> 00:11:30.000
+Ez egy állandó metrika. Van egy állandó metrika, amely valami olyasmit mond,
+
+00:11:30.000 --> 00:11:33.000
+értjük mi a világot? Most jóslásokat végzek? És így tovább.
+
+00:11:33.000 --> 00:11:35.000
+Mindenki önök közül intelligens, pedig nem is csinálnak semmit.
+
+00:11:35.000 --> 00:11:37.000
+Lehet, hogy egyesek vakaróznak, piszkálják az orrukat,
+
+00:11:37.000 --> 00:11:39.000
+nem tudom, de épp most nem csinálnak semmit,
+
+00:11:39.000 --> 00:11:42.000
+azonban intelligensek, értik, amit mondok.
+
+00:11:42.000 --> 00:11:44.000
+Mivel mindenki intelligens és beszél angolul,
+
+00:11:44.000 --> 00:11:45.000
+ezért tudják, hogy milyen
+
+00:11:45.000 --> 00:11:47.000
+szó lesz a végén ennek a ... mondatnak.
+
+00:11:47.000 --> 00:11:50.000
+Megtalálták a szót, és ilyen predikciókat végeznek minden alkalommal.
+
+00:11:50.000 --> 00:11:52.000
+Az akarom mondani,
+
+00:11:52.000 --> 00:11:54.000
+hogy az állandó jóslás a neokortex kimenete.
+
+00:11:54.000 --> 00:11:57.000
+És valahogyan a jóslás intelligens viselkedéshez vezet.
+
+00:11:57.000 --> 00:12:00.000
+És ez a következőképpen történik. Kezdjük egy nem-intelligens aggyal.
+
+00:12:00.000 --> 00:12:04.000
+Egy nem-intelligens aggyal fogok érvelni, vegyünk egy régi agyat,
+
+00:12:04.000 --> 00:12:07.000
+mondjuk egy nem-emlős agyat, például hüllőt,
+
+00:12:07.000 --> 00:12:09.000
+például egy aligátort. Van egy aligátorunk.
+
+00:12:09.000 --> 00:12:12.000
+Az aligátornak nagyon kifinomult érzékei vannak.
+
+00:12:12.000 --> 00:12:15.000
+Nagyon jó szeme van és hallása és tapintóérzéke és így tovább,
+
+00:12:15.000 --> 00:12:19.000
+szája és orra. Nagyon bonyolult viselkedéssel rendelkezik.
+
+00:12:19.000 --> 00:12:23.000
+Tud szaladni és el tud rejtőzni. Vannak félelmei és érzelmei. Meg tudja enni önöket.
+
+00:12:23.000 --> 00:12:27.000
+Tud támadni. Mindenféle dolgot tud csinálni.
+
+00:12:27.000 --> 00:12:32.000
+De mi nem igazán tekintjük az aligátort nagyon intelligensnek, legalábbis nem úgy mint az embereket.
+
+00:12:32.000 --> 00:12:34.000
+De akkor is rendelkezik ezzel a bonyolult viselkedéssel.
+
+00:12:34.000 --> 00:12:36.000
+Mi történt az evolúció során?
+
+00:12:36.000 --> 00:12:39.000
+Az első dolog, ami az evolúció során történt az emlősökkel az,
+
+00:12:39.000 --> 00:12:41.000
+hogy elkezdtük kifejleszteni ezt a neokortexnek nevezett dolgot.
+
+00:12:41.000 --> 00:12:43.000
+Itt a neokortexet ez a kis doboz
+
+00:12:43.000 --> 00:12:45.000
+fogja ábrázolni, a régi agy tetejére illesztve.
+
+00:12:45.000 --> 00:12:48.000
+A neokortex egy új réteget jelent. Egy új réteget az agyunkon.
+
+00:12:48.000 --> 00:12:51.000
+Ha még nem ismerik, ez az a barázdás dolog a fejünk tetején, ami
+
+00:12:51.000 --> 00:12:54.000
+azért lett barázdás, mert betuszkolták oda és nem fér el.
+
+00:12:54.000 --> 00:12:55.000
+(Nevetés)
+
+00:12:55.000 --> 00:12:57.000
+Nem, tényleg, ez így van. Körülbelül egy asztalkendő méretű.
+
+00:12:57.000 --> 00:13:00.000
+És nem fér el, tehát összegyűrődik. Most figyeljék meg, hogyan rajzoltam itt le.
+
+00:13:00.000 --> 00:13:04.000
+A régi agy még mindig itt van. Mindenkinek aligátoragya van.
+
+00:13:04.000 --> 00:13:06.000
+Mindenkinek. Ez az érzelmi agyunk.
+
+00:13:06.000 --> 00:13:09.000
+Mindezek a dolgok és az ösztönös reakcióink.
+
+00:13:09.000 --> 00:13:12.000
+És mindennek a tetején ott van ez a memóriarendszer, amit neokortexnek nevezünk.
+
+00:13:12.000 --> 00:13:16.000
+És a memóriarendszer az agy érzékelési részén ül.
+
+00:13:16.000 --> 00:13:19.000
+És így, amint az érzékelt dolog bejön majd továbbmegy a régi agyból,
+
+00:13:19.000 --> 00:13:23.000
+felmegy a neokortexbe is. És a neokortex csak tárol.
+
+00:13:23.000 --> 00:13:27.000
+Ott ül és azt mondja, eltárolok minden dolgot amit történik,
+
+00:13:27.000 --> 00:13:29.000
+ahol voltam, az embereket, akiket láttam, a dolgokat, amit hallottam, és így tovább.
+
+00:13:29.000 --> 00:13:33.000
+És a jövőben, ha valami ezekhez hasonlót lát,
+
+00:13:33.000 --> 00:13:36.000
+tehát egy hasonló környezetben vagy ugyanabban a környezetben,
+
+00:13:36.000 --> 00:13:38.000
+akkor visszajátssza. Elkezdi visszajátszani.
+
+00:13:38.000 --> 00:13:40.000
+Ó, jártam én már itt. És amikor ezelőtt itt voltunk,
+
+00:13:40.000 --> 00:13:43.000
+ez történt ezután. Lehetővé teszi, hogy megjósoljuk a jövőt.
+
+00:13:43.000 --> 00:13:47.000
+Szó szerint visszacsatolja a jeleket az agyunkba,
+
+00:13:47.000 --> 00:13:49.000
+megmutatja mi fog történni a következő pillanatban,
+
+00:13:49.000 --> 00:13:52.000
+megmondja a "mondat" szót, mielőtt én kimondanám.
+
+00:13:52.000 --> 00:13:55.000
+És ez a régi agyba való visszacsatolás az,
+
+00:13:55.000 --> 00:13:58.000
+ami alapján sokkal intelligensebb döntésekre vagyunk képesek.
+
+00:13:58.000 --> 00:14:01.000
+Ez az előadásom legfontosabb slide-ja, ezért el fogok időzni kicsit ennél.
+
+00:14:01.000 --> 00:14:05.000
+Tehát egyfolytában azt mondjuk, ó, meg tudom jósolni a dolgokat.
+
+00:14:05.000 --> 00:14:08.000
+És ha egy patkány vagyok és keresztülmegyek egy labirintuson, és megtanulom a labirintust,
+
+00:14:08.000 --> 00:14:10.000
+a következő alkalommal, amikor egy labirintusban leszek, ugyanúgy fogok viselkedni,
+
+00:14:10.000 --> 00:14:12.000
+de hirtelen sokkal okosabb leszek,
+
+00:14:12.000 --> 00:14:15.000
+mert felismerem a labirintust, tudom, merre kell mennem,
+
+00:14:15.000 --> 00:14:18.000
+már jártam itt, előre tudom vetíteni a jövőt. És ez az mit csinál.
+
+00:14:18.000 --> 00:14:21.000
+Az emberek esetében, egyébként ez igaz minden emlősre,
+
+00:14:21.000 --> 00:14:23.000
+igaz más emlősökre, de az emberek esetén ez sokkal rosszabb lett.
+
+00:14:23.000 --> 00:14:26.000
+Mi, az emberek, kifejlesztettük a neokortex egy új részét,
+
+00:14:26.000 --> 00:14:30.000
+amit a neokortex elülső részének hívunk. És a természet elkövetett egy csínyt.
+
+00:14:30.000 --> 00:14:32.000
+Lemásolta a hátsó, vagyis az érzékelő részt,
+
+00:14:32.000 --> 00:14:34.000
+és betette az elülső részbe.
+
+00:14:34.000 --> 00:14:36.000
+És az emberekben egyedülálló módon ugyanaz a mechanizmus a frontális részben,
+
+00:14:36.000 --> 00:14:38.000
+de ezt a motoros funckiókra használjuk.
+
+00:14:38.000 --> 00:14:41.000
+Így mostmár nagyon kifinomult mozgásterveket tudunk készíteni.
+
+00:14:41.000 --> 00:14:44.000
+Nincs rá idő, hogy igazán belemenjek ezekbe, de ha meg akarjuk érteni, hogyan működik az agy,
+
+00:14:44.000 --> 00:14:47.000
+meg kell értenünk, hogyan működik az emlősök neokortexének első része,
+
+00:14:47.000 --> 00:14:49.000
+hogyan tároljuk a mintákat és hogyan jósolunk.
+
+00:14:49.000 --> 00:14:52.000
+Hadd mutassak be néhány jóslási példát.
+
+00:14:52.000 --> 00:14:54.000
+Már elmondtam a mondatos dolgot. A zenében,
+
+00:14:54.000 --> 00:14:57.000
+ha hallottunk egy dalt valamikor, ha már hallottuk Jillt énekelni azokat a dalokat,
+
+00:14:57.000 --> 00:15:00.000
+amikor énekel, a rákövetkező hang egyből beugrik a fejünkbe,
+
+00:15:00.000 --> 00:15:02.000
+előre halljuk menet közben. Ha egy zenealbumról van szó,
+
+00:15:02.000 --> 00:15:05.000
+a szám végén beugrik a következő dal.
+
+00:15:05.000 --> 00:15:07.000
+És ezek a dolgok egyfolytában megtörténnek. Ilyen jóslásokat végzünk.
+
+00:15:07.000 --> 00:15:10.000
+Van ez a dolog, amit a megváltozott ajtó kísérletének hívunk.
+
+00:15:10.000 --> 00:15:13.000
+A megváltozott ajtó kísérlete úgy szól, hogy van egy ajtód otthon,
+
+00:15:13.000 --> 00:15:16.000
+és amíg te itt vagy, én megváltoztatom. Most épp ott van
+
+00:15:16.000 --> 00:15:18.000
+egy fickó a házadnál, épp az ajtót piszkálgatja,
+
+00:15:18.000 --> 00:15:20.000
+majd le fogja venni a kilincsgombot és két hüvelykkel feljebb teszi.
+
+00:15:20.000 --> 00:15:22.000
+És amikor ma este hazamész, kinyújtod a kezed,
+
+00:15:22.000 --> 00:15:24.000
+el akarod majd érni a kilincsgombot, és észreveszed,
+
+00:15:24.000 --> 00:15:27.000
+hogy rossz helyen van, és azt mondod, várjunk csak, valami történt.
+
+00:15:27.000 --> 00:15:29.000
+Beletelhet egy másodpercbe, hogy rágyere mi is az, de valami történt.
+
+00:15:29.000 --> 00:15:31.000
+Sokféleképpen meg lehetne még változtatni a kilincsgombot.
+
+00:15:31.000 --> 00:15:33.000
+Lehetne nagyobb vagy kisebb, rézből ezüst,
+
+00:15:33.000 --> 00:15:35.000
+kicserélhetem fogantyúsra. Vagy magát az ajtót befesthetném,
+
+00:15:35.000 --> 00:15:38.000
+tehetnék rá ablakokat. Ezer dolgot megváltoztathatnék az ajtódon,
+
+00:15:38.000 --> 00:15:40.000
+de a két másodperc alatt, amíg kinyitnád az ajtót
+
+00:15:40.000 --> 00:15:43.000
+észrevennéd, hogy valami megváltozott.
+
+00:15:43.000 --> 00:15:45.000
+A mérnöki megközelítése ennek, az MI megközelítés az
+
+00:15:45.000 --> 00:15:48.000
+hogy készítünk egy ajtóadatbázist. Ez minden ajtóattribútumot tartalmaz.
+
+00:15:48.000 --> 00:15:51.000
+És ahogy az ajtó felé mész, megvizsgáljuk azokat, egyszerre csak egyet.
+
+00:15:51.000 --> 00:15:53.000
+Ajtó, ajtó, ajtó, szín, értik, amit mondok.
+
+00:15:53.000 --> 00:15:55.000
+Ilyet nem csinálunk. Az agyunk nem csinál ilyet.
+
+00:15:55.000 --> 00:15:57.000
+Amit az agyunk tesz az az állandó jóslás egész idő alatt
+
+00:15:57.000 --> 00:15:59.000
+arról, hogy mi fog történni a környezetünkben.
+
+00:15:59.000 --> 00:16:02.000
+Ahogy ráteszem a kezem erre az asztalra, azt várom, hogy érezzem, az megállítja.
+
+00:16:02.000 --> 00:16:05.000
+Amikor megyek, minden egynyolcad hüvelykkel elvétett lépésnél
+
+00:16:05.000 --> 00:16:07.000
+tudom, hogy valami megváltozott.
+
+00:16:07.000 --> 00:16:09.000
+Állandóan jóslásokat végzünk a környezetünkről.
+
+00:16:09.000 --> 00:16:12.000
+Beszélek röviden a látásról is. Ez a kép egy hölgyet ábrázol.
+
+00:16:12.000 --> 00:16:14.000
+Amikor egy emberre nézünk, a szemünket másodpercenként
+
+00:16:14.000 --> 00:16:15.000
+kétszer vagy háromszor elkapjuk.
+
+00:16:15.000 --> 00:16:17.000
+Nem vagyunk tudatában ennek, de a szemünk egyfolytában mozog.
+
+00:16:17.000 --> 00:16:19.000
+Ha valakinek az arcát nézzük,
+
+00:16:19.000 --> 00:16:21.000
+akkor az egyik szeméről a másikra, vissza, az orrára, a szájára nézünk.
+
+00:16:21.000 --> 00:16:23.000
+Amikor a szemünk az egyik szemről a másikra megy,
+
+00:16:23.000 --> 00:16:25.000
+ha ott valami mást talál, mondjuk egy orrot,
+
+00:16:25.000 --> 00:16:27.000
+ha egy orrot látunk ott ahol egy szemnek kellene lennie,
+
+00:16:27.000 --> 00:16:30.000
+akkor azt mondjuk, basszus ...
+
+00:16:30.000 --> 00:16:31.000
+(Nevetés)
+
+00:16:31.000 --> 00:16:33.000
+Valami baj van ezzel az alakkal.
+
+00:16:33.000 --> 00:16:35.000
+És ez azért van, mert jóslást végzünk.
+
+00:16:35.000 --> 00:16:37.000
+Nem úgy, hogy csak végigpillantunk és azt mondjuk, mit is látok én most?
+
+00:16:37.000 --> 00:16:40.000
+Egy orrot, az rendben van. Nem, van egy elvárásunk, hogy mit kellene látnunk.
+
+00:16:40.000 --> 00:16:41.000
+(Nevetés)
+
+00:16:41.000 --> 00:16:45.000
+Minden egyes pillanatban. Végül gondoljuk meg, hogyan vizsgáljuk az intelligenciát.
+
+00:16:45.000 --> 00:16:48.000
+Jóslással vizsgáljuk. Mi a következő szó ebben a, ismerik?
+
+00:16:48.000 --> 00:16:51.000
+Ez ehhez, ahogy amaz ahhoz. Mi lesz a következő szám ebben a mondatban?
+
+00:16:51.000 --> 00:16:53.000
+Itt van három tárgy képe.
+
+00:16:53.000 --> 00:16:57.000
+Mi a negyedik? Így történik a vizsgálat. Minden a jóslásról szól.
+
+00:16:57.000 --> 00:17:00.000
+Szóval mi lenne a recept az agyelméletre?
+
+00:17:00.000 --> 00:17:03.000
+Először is rendelkeznünk kell a megfelelő keretrendszerrel.
+
+00:17:03.000 --> 00:17:05.000
+És a keretrendszer egy memória-keretrendszer,
+
+00:17:05.000 --> 00:17:07.000
+nem egy számítási vagy viselkedési keretrendszer. Egy memória-keretrendszer.
+
+00:17:07.000 --> 00:17:11.000
+Hogyan tároljuk és hívjuk vissza ezeket a mintaszekvenciákat? A tér- és időbeli mintákat.
+
+00:17:11.000 --> 00:17:14.000
+Ha megvan a keretrendszer, akkor veszünk egy halom teoretikust.
+
+00:17:14.000 --> 00:17:16.000
+A biológusok általában nem jó teoretikusok.
+
+00:17:16.000 --> 00:17:20.000
+Ez nem mindig igaz, de elmondható, hogy a biológiában az elméletnek nincs jó múltja.
+
+00:17:20.000 --> 00:17:23.000
+Rájöttem, hogy akikkel a legjobban lehet dolgozni azok a fizikusok,
+
+00:17:23.000 --> 00:17:26.000
+mérnökök és matematikusok, akik hajlamosak algoritmikusan gondolkodni.
+
+00:17:26.000 --> 00:17:29.000
+Meg kell tanulják az anatómiát, és meg kell tanulják az élettant.
+
+00:17:29.000 --> 00:17:33.000
+Ezeket az elméleteket anatómiai értelemben nagyon realisztikussá kell tenni.
+
+00:17:33.000 --> 00:17:37.000
+Bárki, aki kiáll és elmondja az elméletét az agy működéséről,
+
+00:17:37.000 --> 00:17:39.000
+és nem mondja el, pontosan hogyan is működik az az agyban
+
+00:17:39.000 --> 00:17:41.000
+és hogyan működnek a kapcsolatok az agyban, az nem elmélet.
+
+00:17:41.000 --> 00:17:44.000
+Ez az amit mi a Redwood Neuroscience Institute-nál csinálunk.
+
+00:17:44.000 --> 00:17:48.000
+Szerettem volna, ha több időm van, hogy elmondjam milyen fantasztikusuan haladunk e téren,
+
+00:17:48.000 --> 00:17:50.000
+de szeretnék visszatérni erre a színpadra,
+
+00:17:50.000 --> 00:17:52.000
+talán valamikor a nem túl távoli jövőben és akkor elmondom önöknek.
+
+00:17:52.000 --> 00:17:55.000
+Teljesen, teljesen izgatott vagyok. Ez egyáltalán nem fog 50 évbe beletelni.
+
+00:17:55.000 --> 00:17:57.000
+Hogyan is fog kinézni az agyelmélet?
+
+00:17:57.000 --> 00:17:59.000
+Először is egy elmélet lesz, amely a memóriáról szól.
+
+00:17:59.000 --> 00:18:02.000
+Nem olyanról, mint a számítógépes memória. Ez egyáltalán nem olyan, mint a számítógép memóriája.
+
+00:18:02.000 --> 00:18:04.000
+Nagyon, de nagyon különbözik attól. Egy memória ezekkel a
+
+00:18:04.000 --> 00:18:07.000
+nagyon nagydimenziós mintákkal, mint amilyenek a szemünkbe érkező dolgok.
+
+00:18:07.000 --> 00:18:09.000
+De egyúttal a egymásutániság memóriája is.
+
+00:18:09.000 --> 00:18:11.000
+Egymásutániság nélkül nem tudunk tanulni vagy visszaemlékezni.
+
+00:18:11.000 --> 00:18:14.000
+Egy dalt időbeni egymásutániságában kell meghallgatnunk,
+
+00:18:14.000 --> 00:18:17.000
+és időbeni egymásutániságában kell visszajátszanunk.
+
+00:18:17.000 --> 00:18:20.000
+És ezek az egymásutániságok autoasszociatívan felidéződnek, így ha látok valamit,
+
+00:18:20.000 --> 00:18:23.000
+hallok valamit, az agyam eszembe juttatja és automatikusan visszajátssza.
+
+00:18:23.000 --> 00:18:27.000
+Egy automatikus visszajátszás. Ahol a kívánt kimenetet a jövőbeli bemenetek képezik.
+
+00:18:27.000 --> 00:18:30.000
+És ahogy már mondtam, az elméletnek biológiailag pontosnak kell lennie,
+
+00:18:30.000 --> 00:18:32.000
+vizsgálhatónak kell lennie, és képesek kell legyünk azt felépíteni.
+
+00:18:32.000 --> 00:18:36.000
+Ha nem tudjuk felépíteni, akkor nem is értjük. Hadd mutassak még egy slide-ot.
+
+00:18:36.000 --> 00:18:40.000
+Mi lesz ennek a következménye? Képesek leszünk valóban intelligens gépeket építeni?
+
+00:18:40.000 --> 00:18:44.000
+Teljes mértékben. És különbözni fog attól, ahogy az emberek gondolják.
+
+00:18:44.000 --> 00:18:47.000
+Semmi kétségem afelől, hogy ez meg fog történni.
+
+00:18:47.000 --> 00:18:51.000
+Meg fog épülni, meg fogjuk építeni ezt a dolgot szilikonból.
+
+00:18:51.000 --> 00:18:54.000
+Ugyanaz a módszer, amit a szilkon alapú számítógépes memóriánál használunk,
+
+00:18:54.000 --> 00:18:55.000
+használható itt is.
+
+00:18:55.000 --> 00:18:57.000
+De ezek nagyon különböző típusú memóriák.
+
+00:18:57.000 --> 00:18:59.000
+És ezeket a memóriákat szenzorokhoz fogjuk csatolni,
+
+00:18:59.000 --> 00:19:02.000
+és a szenzorok valós életbeli, valós világbeli adatokat fognak tapasztalni,
+
+00:19:02.000 --> 00:19:04.000
+és ezek a dolgok tanulni fognak a környezetükből.
+
+00:19:04.000 --> 00:19:07.000
+Elég valószínűtlen, hogy az első dolgok, amiket látni fogunk azok robotszerűek lesznek.
+
+00:19:07.000 --> 00:19:10.000
+Nem mintha a robotok ne lennének hasznosak, és az emberek tudnak robotokat építeni.
+
+00:19:10.000 --> 00:19:14.000
+De a robotikai rész a legnehezebb. Az a régi agy. Az nagyon nehéz.
+
+00:19:14.000 --> 00:19:16.000
+Az új agy kicsit egyszerűbb a régi agynál.
+
+00:19:16.000 --> 00:19:19.000
+Tehát az első dolog, amit csinálni fogunk, olyan lesz, ami nem igényel sok robotikát.
+
+00:19:19.000 --> 00:19:21.000
+Nem fogjuk látni C-3PO-t.
+
+00:19:21.000 --> 00:19:23.000
+Inkább olyasmiket fogunk látni, mint az intelligens autók,
+
+00:19:23.000 --> 00:19:26.000
+amelyek valóban értik, mit jelent a közlekedés, mit jelent a vezetés,
+
+00:19:26.000 --> 00:19:29.000
+és megtanulták, hogy bizonyos, fél percen keresztül jelzőlámpájukat villogtató autók
+
+00:19:29.000 --> 00:19:31.000
+valószínűleg nem fognak befordulni, és hasonló dolgokat.
+
+00:19:31.000 --> 00:19:32.000
+(Nevetés)
+
+00:19:32.000 --> 00:19:34.000
+Készíthetünk intelligens biztonsági rendszereket is.
+
+00:19:34.000 --> 00:19:38.000
+Bárhol, ahol alapvetően az agyunkat használjuk, és nincs sok mechanika.
+
+00:19:38.000 --> 00:19:40.000
+Ezek lesznek azok a dolgok, amelyeket először létrehozunk.
+
+00:19:40.000 --> 00:19:42.000
+De végső soron csak a képzelet szab határt ezeknek.
+
+00:19:42.000 --> 00:19:44.000
+Nem tudom, hogyan fog ez alakulni.
+
+00:19:44.000 --> 00:19:46.000
+Ismerek egy csomó embert, akik feltalálták a mikroprocesszort,
+
+00:19:46.000 --> 00:19:51.000
+és ha megkérdezed tőlük, tudták, hogy amit csinálnak az nagy jelentőséggel bír,
+
+00:19:51.000 --> 00:19:54.000
+de nem igazán tudták, hogy mi fog utána történni.
+
+00:19:54.000 --> 00:19:59.000
+Nem tudták megjósolni a mobiltelefont és az Internetet és ezeket a dolgokat.
+
+00:19:59.000 --> 00:20:01.000
+Csak olyasmit tudtak, hogy számológépeket fognak építeni
+
+00:20:01.000 --> 00:20:03.000
+és forgalomirányító lámpákat. De valami nagy dolog lesz.
+
+00:20:03.000 --> 00:20:06.000
+Ugyanígy van ez az agytudománnyal is, és ezek a memóriák
+
+00:20:06.000 --> 00:20:09.000
+egy nagyon alapvető technológiát fognak képezni, és hihetetlen
+
+00:20:09.000 --> 00:20:12.000
+változásokhoz fognak vezetni az elkövetkezendő 100 évben.
+
+00:20:12.000 --> 00:20:16.000
+És a legjobban aziránt vagyok izgatott, hogy hogyan fogjuk ezeket a tudományban felhasználni.
+
+00:20:16.000 --> 00:20:19.000
+Azt hiszem ennyi volt az én időm, túl is léptem, és itt
+
+00:20:19.000 --> 00:20:20.000
+be is fejezem az előadásomat.
+

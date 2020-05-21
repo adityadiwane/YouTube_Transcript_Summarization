@@ -1,0 +1,692 @@
+WEBVTT
+Kind: captions
+Language: sv
+
+00:00:00.000 --> 00:00:07.000
+Översättare: David Gustavsson
+Granskare: Erik Silfversten
+
+00:00:15.766 --> 00:00:17.173
+Så, hur många av er har någonsin
+
+00:00:17.173 --> 00:00:18.828
+satt sig bakom ratten på en bil
+
+00:00:18.828 --> 00:00:24.515
+när ni verkligen inte skulle ha kört?
+
+00:00:24.515 --> 00:00:26.420
+Kanske hade du varit på resande fot länge,
+
+00:00:26.420 --> 00:00:27.910
+och bara ville komma hem.
+
+00:00:27.910 --> 00:00:30.557
+Du var trött, men kände att du kunde köra ett par kilometer till.
+
+00:00:30.557 --> 00:00:31.756
+Du kanske tänkte:
+
+00:00:31.756 --> 00:00:33.773
+"Jag har druckit mindre än alla andra,
+
+00:00:33.773 --> 00:00:35.509
+jag borde vara den som kör hem."
+
+00:00:35.509 --> 00:00:40.100
+Kanske hade du bara tankarna på helt andra saker.
+
+00:00:40.100 --> 00:00:41.554
+Låter det bekant?
+
+00:00:41.554 --> 00:00:44.452
+Hade det inte varit fantastiskt om det i det läget
+
+00:00:44.452 --> 00:00:46.045
+fanns en knapp på instrumentbrädan
+
+00:00:46.045 --> 00:00:52.388
+som man kunde trycka på för att bilen skulle köra en hem säkert?
+
+00:00:52.388 --> 00:00:54.681
+Det har varit löftet hos den självförande bilen,
+
+00:00:54.681 --> 00:00:57.308
+det autonoma fordonet, och det har varit drömmen
+
+00:00:57.308 --> 00:01:00.557
+åtminstone sedan 1939, när General Motors visade upp
+
+00:01:00.557 --> 00:01:03.859
+idén i sitt Futurama-bås på Världsmässan.
+
+00:01:03.859 --> 00:01:05.802
+Det har varit en av de där drömmarna
+
+00:01:05.802 --> 00:01:10.016
+som alltid har legat ungefär tjugo år i framtiden.
+
+00:01:10.016 --> 00:01:12.699
+För två veckor sen tog drömmen ett steg framåt,
+
+00:01:12.699 --> 00:01:15.964
+när Nevada gav Googles självförande bil
+
+00:01:15.964 --> 00:01:19.564
+den första licensen för ett autonomt fordon
+
+00:01:19.564 --> 00:01:21.809
+och därmed tydligt markerade att det är lagligt för dem
+
+00:01:21.809 --> 00:01:23.619
+att pröva den på Nevadas vägar.
+
+00:01:23.619 --> 00:01:27.346
+Kalifornien funderar på liknande lagstadgning,
+
+00:01:27.346 --> 00:01:29.754
+och det skulle göra att den autonoma bilen
+
+00:01:29.754 --> 00:01:32.731
+inte är en av de saker som måste stanna i Vegas.
+
+00:01:32.731 --> 00:01:34.827
+(Skratt)
+
+00:01:34.827 --> 00:01:38.611
+På mitt labb i Stanford har vi också jobbat på
+
+00:01:38.611 --> 00:01:42.098
+autonoma bilar, men med en annorlunda synvinkel
+
+00:01:42.098 --> 00:01:46.346
+på saker. Ni förstår, vi utvecklar robotiska racerbilar,
+
+00:01:46.346 --> 00:01:50.466
+bilar som faktiskt kan pressa sig själva till gränsen
+
+00:01:50.466 --> 00:01:52.706
+för fysisk prestation.
+
+00:01:52.706 --> 00:01:55.319
+Varför skulle vi vilja göra något sånt?
+
+00:01:55.319 --> 00:01:57.419
+Det finns två bra anledningar för det.
+
+00:01:57.419 --> 00:02:01.378
+För det första tror vi att innan människor lämnar över kontrollen
+
+00:02:01.378 --> 00:02:04.212
+för en autonom bil måste den autonoma bilen vara
+
+00:02:04.212 --> 00:02:07.466
+minst lika bra som de bästa mänskliga förarna.
+
+00:02:07.466 --> 00:02:10.771
+Om du är som jag, och de andra 70 procenten av befolkningen
+
+00:02:10.771 --> 00:02:12.964
+som vet att vi är bättre förare än genomsnittet,
+
+00:02:12.964 --> 00:02:16.139
+så förstår du att det är en väldigt hög ribba.
+
+00:02:16.139 --> 00:02:18.531
+Det finns en annan anledning också.
+
+00:02:18.531 --> 00:02:22.107
+Precis som racerförare kan använda all friktion
+
+00:02:22.107 --> 00:02:23.387
+mellan hjulet och vägen,
+
+00:02:23.387 --> 00:02:26.564
+all bilens kapacitet för att köra så snabbt som möjligt,
+
+00:02:26.564 --> 00:02:29.909
+så vill vi använda den kapaciteten för att undvika
+
+00:02:29.909 --> 00:02:31.497
+alla olyckor vi kan.
+
+00:02:31.497 --> 00:02:33.547
+Man kan pressa bilen till gränserna
+
+00:02:33.547 --> 00:02:35.514
+inte för att man kör för snabbt,
+
+00:02:35.514 --> 00:02:37.674
+utan för att man kör på en isfläck,
+
+00:02:37.674 --> 00:02:39.378
+förutsättningarna ändras.
+
+00:02:39.378 --> 00:02:42.139
+I de situationerna vill vi ha en bil
+
+00:02:42.139 --> 00:02:45.859
+som är kapabel att undvika alla olyckor
+
+00:02:45.859 --> 00:02:48.537
+som fysiskt är möjliga att undvika.
+
+00:02:48.537 --> 00:02:52.804
+Jag måste erkänna att det finns en tredje motivation också.
+
+00:02:52.804 --> 00:02:55.060
+Ni förstår, jag har en passion för racing.
+
+00:02:55.060 --> 00:02:57.824
+Förr var jag racerbilägare,
+
+00:02:57.824 --> 00:03:00.379
+crew-ledare och förarcoach
+
+00:03:00.379 --> 00:03:04.234
+fast kanske inte på den nivå som ni just nu förväntar er.
+
+00:03:04.234 --> 00:03:06.938
+En av de saker som vi har utvecklat på labbet --
+
+00:03:06.938 --> 00:03:08.642
+vi har utvecklat flera fordon --
+
+00:03:08.642 --> 00:03:10.877
+är vad vi tror är världens första
+
+00:03:10.877 --> 00:03:13.242
+autonomt sladdande bil.
+
+00:03:13.242 --> 00:03:15.755
+Det är ytterligare en sån där kategori
+
+00:03:15.755 --> 00:03:18.178
+där det kanske inte finns så mycket konkurrens.
+
+00:03:18.178 --> 00:03:19.586
+(Skratt)
+
+00:03:19.586 --> 00:03:23.408
+Men det här är P1. Det är ett fullständigt studentbyggt fordon
+
+00:03:23.408 --> 00:03:25.486
+som, genom att använda sin bakhjulsdrift
+
+00:03:25.486 --> 00:03:27.051
+och steer-by-wire på framhjulen,
+
+00:03:27.051 --> 00:03:29.118
+kan sladda runt hörn.
+
+00:03:29.118 --> 00:03:31.318
+Det kan köra i sidled som en racerförare,
+
+00:03:31.318 --> 00:03:33.033
+alltid berett att ta den snävaste kurva,
+
+00:03:33.033 --> 00:03:36.337
+till och med på hala, föränderliga ytor,
+
+00:03:36.337 --> 00:03:37.953
+utan att tappa greppet.
+
+00:03:37.953 --> 00:03:40.321
+Vi har också, tillsammans med Volkswagen Oracle, arbetat
+
+00:03:40.321 --> 00:03:43.745
+med Shelley, en autonom racerbil som har kört
+
+00:03:43.745 --> 00:03:46.815
+i 240km/h genom Bonneville Salt Flats,
+
+00:03:46.815 --> 00:03:51.286
+kört runt Thunderhill Raceway Park i sol,
+
+00:03:51.286 --> 00:03:53.925
+vind och regn
+
+00:03:53.925 --> 00:03:58.943
+och navigerat de 153 svängarna och 2 milen
+
+00:03:58.943 --> 00:04:00.505
+som är Pikes Peak Hill Climb-rutten
+
+00:04:00.505 --> 00:04:03.978
+i Colorado utan förare.
+
+00:04:03.978 --> 00:04:05.426
+(Skratt)
+
+00:04:05.426 --> 00:04:10.992
+(Applåder)
+
+00:04:10.992 --> 00:04:14.271
+Jag behöver väl inte nämna att vi har haft jätteroligt
+
+00:04:14.271 --> 00:04:15.575
+medan vi har gjort det här?
+
+00:04:15.575 --> 00:04:19.232
+Men faktum är att det finns något mer som vi har utvecklat
+
+00:04:19.232 --> 00:04:22.287
+medan vi har utvecklat dessa autonoma bilar.
+
+00:04:22.287 --> 00:04:26.158
+Vi har utvecklat en enorm uppskattning
+
+00:04:26.158 --> 00:04:29.975
+för mänskliga förares förmågor.
+
+00:04:29.975 --> 00:04:34.320
+Medan vi har undersökt frågan "Hur väl klarar sig dessa bilar?"
+
+00:04:34.320 --> 00:04:37.599
+har vi velat jämföra dem med sina mänskliga motparter.
+
+00:04:37.599 --> 00:04:43.279
+Och vi upptäckte att deras mänskliga motparter är fantastiska.
+
+00:04:43.279 --> 00:04:47.302
+Vi kan ta en karta av en racerbana,
+
+00:04:47.302 --> 00:04:49.672
+och en matematisk modell av en bil,
+
+00:04:49.672 --> 00:04:52.575
+och med upprepade uträkningar kan vi hitta
+
+00:04:52.575 --> 00:04:54.200
+den snabbaste vägen runt den banan.
+
+00:04:54.200 --> 00:04:56.733
+Vi jämför den med data som vi spelar in
+
+00:04:56.733 --> 00:04:58.166
+från en professionell förare,
+
+00:04:58.166 --> 00:05:02.273
+och likheten är fullständigt enastående.
+
+00:05:02.273 --> 00:05:05.485
+Ja, det finns subtila skillnader här,
+
+00:05:05.485 --> 00:05:08.612
+men den mänskliga racerföraren kan gå ut
+
+00:05:08.612 --> 00:05:10.947
+och köra en otroligt snabb sträcka,
+
+00:05:10.947 --> 00:05:13.277
+utan fördelen av en algoritm som jämför
+
+00:05:13.277 --> 00:05:15.885
+utbytet med att köra så snabbt som möjligt
+
+00:05:15.885 --> 00:05:17.922
+runt det här hörnet, och raka av lite tid
+
+00:05:17.922 --> 00:05:19.824
+på raksträckan här.
+
+00:05:19.824 --> 00:05:23.281
+Inte bara det, de kan göra det varv
+
+00:05:23.281 --> 00:05:25.656
+efter varv efter varv.
+
+00:05:25.656 --> 00:05:28.568
+De är kapabla att gå ut och göra det här konsekvent,
+
+00:05:28.568 --> 00:05:32.696
+pressa bilen till gränsen varenda gång.
+
+00:05:32.696 --> 00:05:35.865
+Det är fantastiskt att titta på.
+
+00:05:35.865 --> 00:05:37.931
+Sätt dem i en ny bil,
+
+00:05:37.931 --> 00:05:41.833
+och efter ett par varv har de hittat den snabbaste sträckan i den bilen,
+
+00:05:41.833 --> 00:05:45.710
+och sen tävlar de.
+
+00:05:45.710 --> 00:05:46.856
+Det får en verkligen att fundera,
+
+00:05:46.856 --> 00:05:51.727
+vi skulle vilja se vad som pågår i deras hjärna.
+
+00:05:51.727 --> 00:05:56.268
+Så det var det vi, som vetenskapsmän, bestämde oss för att ta reda på.
+
+00:05:56.268 --> 00:05:58.080
+Vi bestämde oss för att inte bara övervaka bilen,
+
+00:05:58.080 --> 00:06:00.575
+utan också föraren,
+
+00:06:00.575 --> 00:06:03.344
+för att få en glimt av vad som pågår
+
+00:06:03.344 --> 00:06:05.530
+i deras huvuden när de gör det här.
+
+00:06:05.530 --> 00:06:09.480
+Det här är Dr. Lene Harbott som fäster elektroder
+
+00:06:09.480 --> 00:06:10.712
+vid John Mortons huvud.
+
+00:06:10.712 --> 00:06:13.701
+John Morton är en före detta Can-Am- och IMSA-förare,
+
+00:06:13.701 --> 00:06:15.501
+som också är klassmästare på Le Mans.
+
+00:06:15.501 --> 00:06:18.997
+Fantastisk förare, och väldigt tålmodig med doktorander
+
+00:06:18.997 --> 00:06:20.852
+och den här sortens forskning.
+
+00:06:20.852 --> 00:06:23.524
+Hon fäster elektroder vid hans huvud
+
+00:06:23.524 --> 00:06:25.636
+så att vi ska kunna övervaka den elektriska aktiviteten
+
+00:06:25.636 --> 00:06:28.468
+i Johns hjärna medan han kör runt banan.
+
+00:06:28.468 --> 00:06:31.663
+Uppenbarligen kan vi inte fästa ett par elektroder vid hans huvud
+
+00:06:31.663 --> 00:06:34.933
+och förstå precis vad han tänker på banan.
+
+00:06:34.933 --> 00:06:38.340
+Men neurologer har identifierat speciella mönster
+
+00:06:38.340 --> 00:06:42.101
+som låter oss få fram vissa viktiga aspekter av det här.
+
+00:06:42.101 --> 00:06:43.948
+Den vilande hjärnan, till exempel,
+
+00:06:43.948 --> 00:06:46.103
+genererar mycket alfavågor.
+
+00:06:46.103 --> 00:06:49.855
+Thetavågor, å andra sidan, är kopplade till
+
+00:06:49.855 --> 00:06:53.039
+mycket kognitiv aktivitet, som visuell bearbetning,
+
+00:06:53.039 --> 00:06:56.087
+tillfällen då föraren tänker mycket.
+
+00:06:56.087 --> 00:06:57.750
+Vi kan mäta det här,
+
+00:06:57.750 --> 00:06:59.735
+och vi kan titta på den relativa förekomsten
+
+00:06:59.735 --> 00:07:01.935
+av theta- och alfavågor.
+
+00:07:01.935 --> 00:07:04.377
+Det ger oss ett mått på mental belastning,
+
+00:07:04.377 --> 00:07:07.944
+hur utmanad föraren blir kognitivt
+
+00:07:07.944 --> 00:07:09.730
+vid en given punkt på banan.
+
+00:07:09.730 --> 00:07:12.672
+Vi ville se om vi faktiskt kunde spela in det här
+
+00:07:12.672 --> 00:07:15.710
+på banan, så vi åkte söderut till Laguna Seca.
+
+00:07:15.710 --> 00:07:17.726
+Laguna Seca är en legendarisk racerbana
+
+00:07:17.726 --> 00:07:20.027
+ungefär halvvägs mellan Salinas och Monterey.
+
+00:07:20.027 --> 00:07:22.114
+Den har en kurva kallad "Korkskruven".
+
+00:07:22.114 --> 00:07:24.831
+Korkskruven är en chikan följd av en snabb
+
+00:07:24.831 --> 00:07:27.577
+högersväng samtidigt som vägen sjunker tre våningar.
+
+00:07:27.577 --> 00:07:31.343
+Strategin som de förklarade den för mig var
+
+00:07:31.343 --> 00:07:33.365
+"Sikta på busken där borta,
+
+00:07:33.365 --> 00:07:36.390
+och när vägen faller inser du att det var toppen av ett träd."
+
+00:07:36.390 --> 00:07:39.694
+Tack vare Revs-programmet på Stanford,
+
+00:07:39.694 --> 00:07:41.167
+kunde vi ta John dit
+
+00:07:41.167 --> 00:07:42.131
+och placera honom bakom ratten
+
+00:07:42.131 --> 00:07:44.570
+i en 1960 Porsche Abarth Carrera.
+
+00:07:44.570 --> 00:07:48.268
+Livet är alldeles för kort för tråkiga bilar.
+
+00:07:48.268 --> 00:07:50.027
+Här ser ni John på banan,
+
+00:07:50.027 --> 00:07:52.211
+han kör upp för backen -- Oj! någon gillade det där --
+
+00:07:52.211 --> 00:07:54.676
+Och ni kan faktiskt se hans mentala belastning
+
+00:07:54.676 --> 00:07:56.829
+-- i den röda stapeln --
+
+00:07:56.829 --> 00:07:59.172
+och ni kan se hans reaktion när han närmar sig.
+
+00:07:59.172 --> 00:08:02.402
+Titta, han måste växla ner.
+
+00:08:02.402 --> 00:08:03.163
+Och sen måste han svänga vänster.
+
+00:08:03.163 --> 00:08:07.156
+Leta efter trädet, och ner.
+
+00:08:07.156 --> 00:08:09.994
+Ni kan, föga överraskande, se att detta är en ganska utmanande uppgift.
+
+00:08:09.994 --> 00:08:12.970
+Ni kan se hans mentala belastning gå i taket när han går igenom det här,
+
+00:08:12.970 --> 00:08:15.034
+som man skulle förvänta sig av något som kräver
+
+00:08:15.034 --> 00:08:17.843
+den här komplicitetsnivån.
+
+00:08:17.843 --> 00:08:21.259
+Men vad som är riktigt intressant är att titta på områden på banan
+
+00:08:21.259 --> 00:08:24.105
+när hans mentala belastning inte ökar.
+
+00:08:24.105 --> 00:08:25.600
+Jag ska ta er med
+
+00:08:25.600 --> 00:08:26.689
+till andra sidan av banan.
+
+00:08:26.689 --> 00:08:29.025
+Sväng tre. John kör in i det där hörnet
+
+00:08:29.025 --> 00:08:31.576
+och den bakre änden av bilen kommer börja sladda.
+
+00:08:31.576 --> 00:08:33.593
+Han måste kompensera för det genom att styra.
+
+00:08:33.593 --> 00:08:35.824
+Titta när John gör det här.
+
+00:08:35.824 --> 00:08:38.146
+Titta på den mentala belastningen och titta på styrningen.
+
+00:08:38.146 --> 00:08:41.818
+Bilen börjar sladda, dramatisk manöver för att kompensera,
+
+00:08:41.818 --> 00:08:45.341
+och ingen förändring i mental belastning över huvud taget.
+
+00:08:45.341 --> 00:08:48.173
+Inte en utmanande uppgift.
+
+00:08:48.173 --> 00:08:51.373
+Helt reflexiv, faktiskt.
+
+00:08:51.373 --> 00:08:55.016
+Vår undersökning av den här informationen är fortfarande preliminär,
+
+00:08:55.016 --> 00:08:57.688
+men det verkar som att dessa fenomenala trick
+
+00:08:57.688 --> 00:08:59.298
+som racerförarna utför
+
+00:08:59.298 --> 00:09:01.208
+är instinktiva.
+
+00:09:01.208 --> 00:09:04.598
+De är saker som de helt enkelt har lärt sig göra.
+
+00:09:04.598 --> 00:09:06.880
+Det kräver väldigt lite mental belastning
+
+00:09:06.880 --> 00:09:09.704
+för dem att utföra dessa otroliga saker.
+
+00:09:09.704 --> 00:09:12.839
+Och deras handlingar är fantastiska.
+
+00:09:12.839 --> 00:09:15.450
+Det här är precis vad du ska göra med ratten
+
+00:09:15.450 --> 00:09:18.787
+för att fånga bilen i den här situationen.
+
+00:09:18.787 --> 00:09:22.232
+Det här har gett oss en otrolig insikt
+
+00:09:22.232 --> 00:09:25.354
+och inspiration för våra egna autonoma fordon.
+
+00:09:25.354 --> 00:09:27.282
+Vi har börjat ställa frågan:
+
+00:09:27.282 --> 00:09:29.535
+"Kan vi göra dem lite mindre algoritmiska
+
+00:09:29.535 --> 00:09:31.984
+och lite mer intuitiva?"
+
+00:09:31.984 --> 00:09:34.265
+Kan vi ta den här reflexmässiga handlingen
+
+00:09:34.265 --> 00:09:36.552
+som vi ser av de bästa racerförarna,
+
+00:09:36.552 --> 00:09:38.201
+införa den i våra bilar,
+
+00:09:38.201 --> 00:09:40.185
+och kanske till och med i ett system som skulle kunna
+
+00:09:40.185 --> 00:09:42.153
+ta sig in i våra bilar i framtiden?
+
+00:09:42.153 --> 00:09:43.764
+Det skulle ta oss ett långt steg
+
+00:09:43.764 --> 00:09:46.273
+längs vägen till autonoma fordon
+
+00:09:46.273 --> 00:09:48.185
+som kör lika väl som de bästa människorna.
+
+00:09:48.185 --> 00:09:51.625
+Men det har fått oss att tänka lite djupare också.
+
+00:09:51.625 --> 00:09:54.593
+Vill vi ha något mer av vår bil
+
+00:09:54.593 --> 00:09:56.433
+än bara en chaufför?
+
+00:09:56.433 --> 00:10:00.668
+Vill vi att vår bil ska vara en partner, en coach,
+
+00:10:00.668 --> 00:10:03.755
+någon som kan använda sin förståelse av situationen
+
+00:10:03.755 --> 00:10:08.011
+för att hjälpa oss nå våra potential?
+
+00:10:08.011 --> 00:10:10.284
+Kan teknologin inte bara ersätta människor,
+
+00:10:10.284 --> 00:10:14.859
+utan tillåta oss att nå den nivån av reflex och intuition
+
+00:10:14.859 --> 00:10:18.284
+som vi alla är kapabla till?
+
+00:10:18.284 --> 00:10:20.207
+Så, medan vi förflyttar oss framåt till denna teknologiska framtid,
+
+00:10:20.207 --> 00:10:23.028
+vill jag att ni bara tar en paus och funderar på det ett tag.
+
+00:10:23.028 --> 00:10:26.803
+Vad är den optimala balansen mellan människa och maskin?
+
+00:10:26.803 --> 00:10:28.512
+Och medan vi tänker på det,
+
+00:10:28.512 --> 00:10:30.243
+låt oss inspireras
+
+00:10:30.243 --> 00:10:33.572
+av den absolut fantastiska kapaciteten
+
+00:10:33.572 --> 00:10:36.388
+hos den mänskliga kroppen och den mänskliga hjärnan.
+
+00:10:36.388 --> 00:10:38.124
+Tack.
+
+00:10:38.124 --> 00:10:42.728
+(Applåder)
+

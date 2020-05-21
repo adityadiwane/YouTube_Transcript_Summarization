@@ -1,0 +1,719 @@
+WEBVTT
+Kind: captions
+Language: sr
+
+00:00:00.000 --> 00:00:07.000
+Prevodilac: Mile Živković
+Lektor: Dejan Vicai
+
+00:00:12.562 --> 00:00:15.623
+Erik Berlou: Ja sam ekolog, 
+a Šon je fizičar
+
+00:00:15.623 --> 00:00:17.731
+i obojica proučavamo kompleksne mreže.
+
+00:00:17.731 --> 00:00:19.566
+Sreli smo se pre nekoliko godina
+kada smo otkrili
+
+00:00:19.566 --> 00:00:21.566
+da smo obojica imali
+kratak TED govor
+
+00:00:21.566 --> 00:00:23.869
+o ekologiji rata
+
+00:00:23.869 --> 00:00:25.316
+i shvatili smo da smo povezani
+
+00:00:25.316 --> 00:00:28.134
+idejama koje smo delili
+pre nego što smo se upoznali.
+
+00:00:28.134 --> 00:00:29.690
+I onda smo pomislili
+da postoji hiljade
+
+00:00:29.690 --> 00:00:31.804
+govora, naročito TEDx govora
+
+00:00:31.804 --> 00:00:34.015
+koji nastaju po celom svetu.
+
+00:00:34.015 --> 00:00:34.938
+Kako su oni povezani,
+
+00:00:34.938 --> 00:00:36.948
+i na šta liči taj globalni razgovor?
+
+00:00:36.948 --> 00:00:39.758
+Šon će vam reći nešto o tome
+kako smo to uradili.
+
+00:00:39.758 --> 00:00:43.525
+Šon Gurli: Upravo tako.
+Uzeli smo 24 000 TEDx govora
+
+00:00:43.525 --> 00:00:46.571
+iz celog sveta,
+147 različitih zemalja,
+
+00:00:46.571 --> 00:00:48.694
+uzeli smo ih i pokušali smo
+da pronađemo
+
+00:00:48.694 --> 00:00:50.734
+matematičke strukture
+
+00:00:50.734 --> 00:00:52.456
+ideja iza njih.
+
+00:00:52.456 --> 00:00:53.826
+To smo hteli da uradimo
+kako bismo videli na koji način
+
+00:00:53.826 --> 00:00:55.879
+su povezani jedni sa drugima.
+
+00:00:55.879 --> 00:00:57.555
+Naravno, ako želite da radite
+nešto poput ovog,
+
+00:00:57.555 --> 00:00:58.511
+biće vam potrebno puno podataka.
+
+00:00:58.511 --> 00:01:02.197
+Podaci koje imate su
+sa ove sjajne stvari, Jutjuba
+
+00:01:02.197 --> 00:01:03.965
+i u osnovi možemo uzeti
+
+00:01:03.965 --> 00:01:06.232
+sve otvorene informacije sa Jutjuba,
+
+00:01:06.232 --> 00:01:08.581
+sve komentare, broj pregleda,
+ko je gledao te snimke,
+
+00:01:08.581 --> 00:01:11.360
+odakle ih gledaju, 
+šta kažu u komentarima.
+
+00:01:11.360 --> 00:01:14.652
+Ali takođe putem prevođenja
+govora u tekst, možemo uzeti
+
+00:01:14.652 --> 00:01:16.780
+ceo transkript
+
+00:01:16.780 --> 00:01:19.460
+i to funkcioniše čak i za ljude
+sa čudnim akcentom poput mog.
+
+00:01:19.460 --> 00:01:21.566
+Možemo uzeti njihov transkript
+
+00:01:21.566 --> 00:01:23.664
+i zapravo uraditi neke
+prilično kul stvari.
+
+00:01:23.664 --> 00:01:25.824
+Možemo da uzmemo algoritme
+za obradu prirodnog jezika
+
+00:01:25.824 --> 00:01:28.453
+kako bimso na neki način čitali
+kompjuterom, red po red,
+
+00:01:28.453 --> 00:01:30.812
+izvlačeći glavne koncepte.
+
+00:01:30.812 --> 00:01:33.337
+Uzimamo te glavne koncepte
+i na neki način oni formiraju
+
+00:01:33.337 --> 00:01:36.902
+matematičku strukturu ideje.
+
+00:01:36.902 --> 00:01:38.659
+To zovemo mimom.
+
+00:01:38.659 --> 00:01:40.810
+Jednostavno govoreći, mimom je
+
+00:01:40.810 --> 00:01:43.236
+matematika koja stoji
+iza ideje
+
+00:01:43.236 --> 00:01:45.168
+i sa njom možemo da napravimo
+prilično zanimljivu analizu,
+
+00:01:45.168 --> 00:01:47.149
+koju želim da sada
+podelim sa vama.
+
+00:01:47.149 --> 00:01:49.339
+Svaka ideja ima sopstveni mimom
+
+00:01:49.339 --> 00:01:51.290
+i svaka ideja je tako unikatna,
+
+00:01:51.290 --> 00:01:53.778
+ali ideje naravno pozajmljuju
+jedna od druge,
+
+00:01:53.778 --> 00:01:54.962
+ponekad kao da kradu,
+
+00:01:54.962 --> 00:01:56.789
+i svakako se unapređuju
+
+00:01:56.789 --> 00:01:58.405
+i možemo matematički da prođemo
+
+00:01:58.405 --> 00:02:00.245
+i uzmemo mimom
+iz jednog govora
+
+00:02:00.245 --> 00:02:02.699
+i uporedimo ga sa mimomom
+iz svakog drugog govora,
+
+00:02:02.699 --> 00:02:04.672
+i ako postoji sličnost između to dvoje,
+
+00:02:04.672 --> 00:02:07.922
+možemo da napravimo vezu
+i prikažemo je grafikonom,
+
+00:02:07.922 --> 00:02:10.316
+kao što smo povezani Erik i ja.
+
+00:02:10.316 --> 00:02:11.710
+To je teorija, to je sjajno.
+
+00:02:11.710 --> 00:02:14.236
+Hajde da vidimo kako
+zaista radi u praksi.
+
+00:02:14.236 --> 00:02:17.024
+Ovde imamo globalni otisak
+
+00:02:17.024 --> 00:02:19.317
+svih TEDx govora
+iz protekle 4 godine
+
+00:02:19.317 --> 00:02:20.867
+kako eksplodiraju širom sveta
+
+00:02:20.867 --> 00:02:24.196
+od Njujorka pa sve dole
+do Novog Zelanda.
+
+00:02:24.196 --> 00:02:28.031
+Ovde smo analizirali gornjih
+25% govora
+
+00:02:28.031 --> 00:02:30.565
+i počeli smo da vidimo
+gde se javljaju veze,
+
+00:02:30.565 --> 00:02:32.102
+gde su bili povezani
+jedan sa drugim.
+
+00:02:32.102 --> 00:02:33.976
+Kameron Rasel koja priča
+o izgledu i lepoti
+
+00:02:33.976 --> 00:02:35.551
+povezana je sa Evropom.
+
+00:02:35.551 --> 00:02:37.963
+Razgovori o Izraelu i Palestini
+se više šire
+
+00:02:37.963 --> 00:02:40.218
+ka napolju od Srednjeg istoka.
+
+00:02:40.218 --> 00:02:41.516
+Imamo nešto malo šire
+
+00:02:41.516 --> 00:02:43.672
+poput velikih podataka sa
+stvarno globalnim otiskom
+
+00:02:43.672 --> 00:02:45.851
+koji podseća na razgovor
+
+00:02:45.851 --> 00:02:47.867
+koji se dešava svuda.
+
+00:02:47.867 --> 00:02:50.040
+Odavde smo nekako došli
+do granica onoga
+
+00:02:50.040 --> 00:02:52.570
+što možemo da uradimo
+sa geografskom projekcijom,
+
+00:02:52.570 --> 00:02:54.622
+ali srećom, kompjuterska tehnologija
+nam dozvoljava da zađemo
+
+00:02:54.622 --> 00:02:56.168
+u multidimenzionalni prostor.
+
+00:02:56.168 --> 00:02:58.043
+Možemo uzeti našu projekciju mreže
+
+00:02:58.043 --> 00:02:59.793
+i na nju primeniti podlogu za fiziku
+
+00:02:59.793 --> 00:03:01.678
+i slični govori se nekako sudaraju
+
+00:03:01.678 --> 00:03:03.682
+a suprotni odbijaju
+
+00:03:03.682 --> 00:03:05.754
+i za posledicu imamo
+nešto zaista predivno.
+
+00:03:05.754 --> 00:03:08.711
+EB: Hteo bih da naglasim
+da je svaki čvor jedan govor,
+
+00:03:08.711 --> 00:03:11.300
+povezani su ako imaju slične ideje
+
+00:03:11.300 --> 00:03:13.384
+i to potiče iz mašinskog čitanja
+
+00:03:13.384 --> 00:03:15.451
+transkripta celih govora,
+
+00:03:15.451 --> 00:03:17.682
+a sve ove teme koje iskaču
+
+00:03:17.682 --> 00:03:19.472
+nisu ključne reči i oznake.
+
+00:03:19.472 --> 00:03:21.197
+One potiču iz mrežne strukture
+
+00:03:21.197 --> 00:03:23.365
+povezanih ideja. Nastavi.
+
+00:03:23.365 --> 00:03:25.387
+ŠG: Naravno.
+Malo sam brzo uleteo u to,
+
+00:03:25.387 --> 00:03:26.862
+ali on će me usporiti.
+
+00:03:26.862 --> 00:03:28.896
+Imamo obrazovanje povezano
+sa pričanjem priča,
+
+00:03:28.896 --> 00:03:30.539
+u trouglu sa društvenim medijima.
+
+00:03:30.539 --> 00:03:33.014
+Ljudski mozak je, naravno,
+odmah pored zdravstva,
+
+00:03:33.014 --> 00:03:34.400
+što se dalo očekivati,
+
+00:03:34.400 --> 00:03:36.795
+ali takođe imate video igrice,
+koje su donkele bliske
+
+00:03:36.795 --> 00:03:39.535
+jer se ta dva prostora
+susreću jedan sa drugim.
+
+00:03:39.535 --> 00:03:41.070
+Hoću da vas povedem
+do jedne grupe
+
+00:03:41.070 --> 00:03:43.938
+koja mi je naročito bitna,
+a to je okolina.
+
+00:03:43.938 --> 00:03:45.431
+Hteo bih da zumiram na to
+
+00:03:45.431 --> 00:03:47.794
+i vidim da li možemo
+dobiti malo više rezolucije.
+
+00:03:47.794 --> 00:03:50.141
+Kako zalazimo tu,
+opet primenjujemo fizičku podlogu
+
+00:03:50.141 --> 00:03:51.645
+na ono što počinjemo da vidimo,
+
+00:03:51.645 --> 00:03:53.321
+vidimo da se jedan razgovor
+
+00:03:53.321 --> 00:03:55.881
+zapravo sastoji od mnogo manjih.
+
+00:03:55.881 --> 00:03:57.810
+Počinje da se javlja struktura
+
+00:03:57.810 --> 00:03:59.880
+tamo gde vidimo fraktalno ponašanje
+
+00:03:59.880 --> 00:04:01.499
+reči i jezika koje koristimo
+
+00:04:01.499 --> 00:04:03.201
+da bismo opisali nama bitne stvari
+
+00:04:03.201 --> 00:04:04.634
+širom sveta.
+
+00:04:04.634 --> 00:04:06.966
+Ekonomija hrane i lokalna hrana
+su na vrhu,
+
+00:04:06.966 --> 00:04:09.685
+imate efekat staklene bašte,
+solarni i nuklearni otpad.
+
+00:04:09.685 --> 00:04:12.316
+Dobijate asortiman manjih razgovora
+
+00:04:12.316 --> 00:04:14.617
+koji su svi povezani jedan sa drugim
+kroz ideje
+
+00:04:14.617 --> 00:04:15.918
+i jezik koji su im zajednički
+
+00:04:15.918 --> 00:04:18.368
+i tako stvaraju širi
+koncept čovekove okoline.
+
+00:04:18.368 --> 00:04:19.900
+Odavde naravno možemo zumirati
+
+00:04:19.900 --> 00:04:23.434
+i pogledati, u šta to gledaju mladi?
+
+00:04:23.434 --> 00:04:25.779
+Gledaju na tehnologiju energije
+i nuklearnu fuziju.
+
+00:04:25.779 --> 00:04:27.453
+Ovo je njihova vrsta rezonance
+
+00:04:27.453 --> 00:04:29.859
+za razgovor o čovekovoj okolini.
+
+00:04:29.859 --> 00:04:31.758
+Ako podelimo ovo na polove
+
+00:04:31.758 --> 00:04:33.745
+možemo videti da žene jako odjekuju
+
+00:04:33.745 --> 00:04:37.390
+sa ekonomijom hrane,
+ali da ima i nade i optimizma.
+
+00:04:37.390 --> 00:04:39.872
+Ima dosta toga uzbudljivog
+što ovde možemo uradi
+
+00:04:39.872 --> 00:04:41.634
+i sada će Erik nastaviti
+sa sledećim delom.
+
+00:04:41.634 --> 00:04:43.236
+EB: Da, samo da naglasim,
+
+00:04:43.236 --> 00:04:44.774
+ovakvu vrstu perspektive
+ne možete dobiti
+
+00:04:44.774 --> 00:04:48.134
+jednostavnom pretragom oznaka
+na Jutjubu.
+
+00:04:48.134 --> 00:04:52.322
+Hajde sada da odzumiramo
+na ceo globalni razgovor
+
+00:04:52.322 --> 00:04:54.856
+o okolini i pogledamo
+sve govore zajedno.
+
+00:04:54.856 --> 00:04:57.783
+Često kada smo suočeni
+sa ovom količinom sadržaja
+
+00:04:57.783 --> 00:05:00.214
+učinićemo nekoliko stvari
+da to pojednostavimo.
+
+00:05:00.214 --> 00:05:01.528
+Možda samo kažemo,
+
+00:05:01.528 --> 00:05:04.357
+pa koji su to najpopularniji govori?
+
+00:05:04.357 --> 00:05:05.754
+Nekoliko ih isplivava na površinu.
+
+00:05:05.754 --> 00:05:07.582
+Tu je govor o zahvalnosti.
+
+00:05:07.582 --> 00:05:10.926
+Još jedan o ličnom zdravlju i ishrani.
+
+00:05:10.926 --> 00:05:13.855
+Naravno, mora da postoji i jedan
+o pornografiji, zar ne?
+
+00:05:13.855 --> 00:05:17.089
+Onda možemo reći,
+zahvalnost je stvar prošle godine.
+
+00:05:17.089 --> 00:05:19.611
+Šta je sada popularno?
+Koji je govor sada popularan?
+
+00:05:19.611 --> 00:05:22.932
+Možemo videti da je nova,
+najpopularnija tema u nastajanju -
+
+00:05:22.932 --> 00:05:25.598
+digitalna privatnost.
+
+00:05:25.598 --> 00:05:27.291
+Ovo je sjajno.
+Pojednostavljuje stvari.
+
+00:05:27.291 --> 00:05:29.118
+Ali ima toliko kreativnog sadržaja
+
+00:05:29.118 --> 00:05:31.039
+na samom dnu gomile.
+
+00:05:31.039 --> 00:05:34.357
+Mrzim to. Kako da na površinu
+dovedemo stvari koje su
+
+00:05:34.357 --> 00:05:36.815
+možda zaista kreativne i zanimljive?
+
+00:05:36.815 --> 00:05:39.746
+Možemo se vratiti na mrežnu
+strukturu ideja
+
+00:05:39.746 --> 00:05:41.176
+kako bismo to uradili.
+
+00:05:41.176 --> 00:05:43.290
+Setite se, ta mrežna struktura
+
+00:05:43.290 --> 00:05:45.558
+stvara ove novonastale teme.
+
+00:05:45.558 --> 00:05:47.073
+Recimo da uzmemo
+dve takve teme
+
+00:05:47.073 --> 00:05:50.120
+poput gradova i genetike
+i vidimo da li ima govora
+
+00:05:50.120 --> 00:05:52.689
+koji na kreativan način povezuju
+ove dve zaista različite discipline.
+
+00:05:52.689 --> 00:05:54.964
+I to je - zapravo, ova vrsta
+kreativnog remiksa
+
+00:05:54.964 --> 00:05:56.804
+jedna je od oznaka inovacije.
+
+00:05:56.804 --> 00:05:58.410
+Evo jednog sa Džesikom Grin
+
+00:05:58.410 --> 00:06:00.789
+o mikrobiološkoj ekologiji zgrada.
+
+00:06:00.789 --> 00:06:02.799
+Bukvalno se definiše novo polje.
+
+00:06:02.799 --> 00:06:04.902
+Možemo da se vratimo
+na te teme i kažemo,
+
+00:06:04.902 --> 00:06:07.670
+koji govori su ključni
+za ove razgovore?
+
+00:06:07.670 --> 00:06:09.360
+U grupi o gradovima,
+jedan od ključnih
+
+00:06:09.360 --> 00:06:13.312
+je govor Miča Joakima
+o ekološkim gradovima,
+
+00:06:13.312 --> 00:06:15.032
+a u grupi o genetici
+
+00:06:15.032 --> 00:06:18.225
+imamo govor o sintetičkoj biologiji
+Grega Ventera.
+
+00:06:18.225 --> 00:06:21.578
+Ovo su govori koji povezuju
+mnogo drugih unutar svoje discipline.
+
+00:06:21.578 --> 00:06:23.421
+Možemo otići u drugom pravcu i reći,
+
+00:06:23.421 --> 00:06:25.693
+koji su govori koji naširoko sintetizuju
+
+00:06:25.693 --> 00:06:27.141
+više različitih polja?
+
+00:06:27.141 --> 00:06:29.674
+Da bismo ovo dobili koristili smo
+merenje ekološke raznovrsnosti.
+
+00:06:29.674 --> 00:06:32.410
+Na primer, govor Stivena Pinkera
+o istoriji nasilja
+
+00:06:32.410 --> 00:06:33.590
+je veoma sintetički.
+
+00:06:33.590 --> 00:06:35.668
+Naravno postoje i govori
+koji su tako unikatni
+
+00:06:35.668 --> 00:06:38.758
+da su u stratosferi,
+na svom posebnom mestu
+
+00:06:38.758 --> 00:06:41.272
+i to zovemo indeksom Kolin Flenagan.
+
+00:06:41.272 --> 00:06:44.306
+Ako ne znate Kolin,
+ona je umetnica
+
+00:06:44.306 --> 00:06:45.849
+i pitao sam je:
+"Kako je to biti
+
+00:06:45.849 --> 00:06:47.521
+u stratosferi našeg prostora ideja?"
+
+00:06:47.521 --> 00:06:50.776
+Izgleda da to miriše kao slanina.
+
+00:06:50.776 --> 00:06:52.567
+Ne bih znao.
+
+00:06:52.567 --> 00:06:54.815
+Koristimo ove motive mreže
+
+00:06:54.815 --> 00:06:56.001
+da nađemo unikatne govore,
+
+00:06:56.001 --> 00:06:58.711
+one koji na kreativan način
+sintetizuju mnogo različitih polja,
+
+00:06:58.711 --> 00:07:00.370
+one koji su bitni za svoju temu
+
+00:07:00.370 --> 00:07:03.744
+i one koji na kreativan način povezuju
+nepovezana polja.
+
+00:07:03.744 --> 00:07:05.846
+U redu? Ovo nikada ne bismo
+pronašli sa našom opsesijom
+
+00:07:05.846 --> 00:07:08.159
+o tome šta je sada popularno.
+
+00:07:08.159 --> 00:07:11.045
+Ovo sve kreće
+od arhitekture kompleksnosti,
+
+00:07:11.045 --> 00:07:14.005
+od šablona po kojima su
+stvari povezane.
+
+00:07:14.005 --> 00:07:15.630
+ŠG: Upravo tako.
+
+00:07:15.630 --> 00:07:18.109
+Zatekli smo se u svetu
+
+00:07:18.109 --> 00:07:20.153
+koji je neverovatno kompleksan
+
+00:07:20.153 --> 00:07:23.020
+i koristimo algoritme kako bismo
+sve to filtrirali
+
+00:07:23.020 --> 00:07:24.806
+i upravljali kroz to.
+
+00:07:24.806 --> 00:07:27.144
+Ovi algoritmi,
+iako su nekako korisni,
+
+00:07:27.144 --> 00:07:30.620
+takođe su veoma uske primene
+i mi možemo bolje od toga
+
+00:07:30.620 --> 00:07:33.186
+jer možemo da shvatimo
+da njihova kompleksnost nije nasumična.
+
+00:07:33.186 --> 00:07:35.140
+Ona ima matematičku strukturu
+
+00:07:35.140 --> 00:07:36.943
+i možemo iskoristiti
+tu matematičku strukturu
+
+00:07:36.943 --> 00:07:39.157
+da istražimo stvari
+poput sveta ideja
+
+00:07:39.157 --> 00:07:42.157
+da vidimo šta se govori,
+šta se ne govori
+
+00:07:42.157 --> 00:07:43.564
+i da budemo malo više ljudi
+
+00:07:43.564 --> 00:07:45.431
+i nadam se malo pametniji.
+
+00:07:45.431 --> 00:07:46.397
+Hvala vam.
+
+00:07:46.397 --> 00:07:50.617
+(Aplauz)
+

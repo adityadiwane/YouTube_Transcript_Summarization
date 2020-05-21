@@ -1,0 +1,969 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Barış Bozlaker
+Gözden geçirme: Ramazan Şen
+
+00:00:15.393 --> 00:00:16.621
+Bilim,
+
+00:00:16.621 --> 00:00:19.958
+bilim evrenin uzak ufukları hakkında
+
+00:00:19.958 --> 00:00:22.984
+birçok şey bilmemizi sağlarken
+
+00:00:22.984 --> 00:00:26.179
+aynı anda hem çok büyük bir öneme sahip
+
+00:00:26.179 --> 00:00:28.245
+ve bize çok uzak olan,
+
+00:00:28.245 --> 00:00:30.704
+fakat aynı zamanda çok daha yakın
+
+00:00:30.704 --> 00:00:32.795
+ve bizimle çok daha yakından ilgili
+
+00:00:32.795 --> 00:00:35.263
+pek anlamadığımız birçok şey var.
+
+00:00:35.263 --> 00:00:37.392
+Bunlardan biri çevremizdeki hayvanların
+
+00:00:37.392 --> 00:00:40.718
+olağanüstü sosyal karmaşıklığıdır
+
+00:00:40.718 --> 00:00:42.734
+ve bugün size hayvanların karmaşıklıkları
+
+00:00:42.734 --> 00:00:44.742
+hakkında birkaç şey anlatmak istiyorum.
+
+00:00:44.742 --> 00:00:48.092
+Fakat önce, karmaşıklığı nasıl tanımlarız?
+
+00:00:48.092 --> 00:00:49.579
+Karmaşık nedir?
+
+00:00:49.579 --> 00:00:53.006
+Karmaşık, karışık değildir.
+
+00:00:53.006 --> 00:00:56.454
+Karışık bir şey hepsi birbirinden farklı
+
+00:00:56.454 --> 00:00:58.884
+birçok küçük parçadan oluşur ve hepsi de
+
+00:00:58.899 --> 00:01:02.003
+sistem içerisinde kendi özel rolüne sahiptir.
+
+00:01:02.003 --> 00:01:04.814
+Buna karşılık, karmaşık bir sistem
+
+00:01:04.814 --> 00:01:07.455
+birbirine benzeyen birçok küçük parçadan meydana gelir
+
+00:01:07.455 --> 00:01:09.463
+ve çevreyle uyumlu davranışı ortaya çıkaran
+
+00:01:09.463 --> 00:01:12.783
+bu parçaların birbiriyle etkileşimidir.
+
+00:01:12.783 --> 00:01:16.619
+Karmaşık sistemler basit, kendine özgü kurallara göre
+
+00:01:16.619 --> 00:01:20.045
+hareket eden birçok etkileşimli parça barındırır
+
+00:01:20.045 --> 00:01:23.394
+ve bu yeni özellikler doğurur.
+
+00:01:23.394 --> 00:01:25.282
+Sistemin bir bütün olarak işleyişi
+
+00:01:25.282 --> 00:01:26.950
+birbirinden bağımsız
+
+00:01:26.950 --> 00:01:29.102
+kurallara bakarak öngörülemez.
+
+00:01:29.102 --> 00:01:30.912
+Aristo'nun dediği gibi:
+
+00:01:30.912 --> 00:01:33.972
+Bütün, parçaların toplamından fazlasıdır.
+
+00:01:33.972 --> 00:01:36.434
+Fakat Aristo'yu bir kenara bırakıp,
+
+00:01:36.434 --> 00:01:40.124
+karmaşık sistemlere daha somut bir örnek verelim.
+
+00:01:40.124 --> 00:01:42.080
+Bunlar İskoç Teriyerleri.
+
+00:01:42.080 --> 00:01:45.831
+Başlangıçta, organize bir sistemleri yoktu.
+
+00:01:45.831 --> 00:01:49.632
+Sonra, bir dış faktör geliyor: süt.
+
+00:01:49.632 --> 00:01:53.482
+Her birey diğerini bir yönde ittirmeye başlıyor
+
+00:01:53.482 --> 00:01:56.791
+ve ortaya bu çıkıyor.
+
+00:01:56.791 --> 00:01:59.617
+Sonradan ortaya çıkan bu fırıldak hareketi
+
+00:01:59.617 --> 00:02:01.520
+yavrular arasında, tek amacı süte erişimi
+
+00:02:01.520 --> 00:02:05.430
+sürekli tutmaya çalışmak olan, bu sebepten
+
+00:02:05.430 --> 00:02:09.037
+rastgele bir yönde ittirmeye yol açan bir özellik.
+
+00:02:09.037 --> 00:02:13.012
+Yani, olay sadece karmaşıklığa yol açan
+
+00:02:13.012 --> 00:02:15.770
+basit kuralları bulabilmekte.
+
+00:02:15.770 --> 00:02:18.710
+Ben buna karmaşıklığı basitleştirmek diyorum
+
+00:02:18.710 --> 00:02:20.845
+ve ETH Zurich Sistem Dizaynı bölümünde
+
+00:02:20.845 --> 00:02:22.822
+yaptığımız şey bu,
+
+00:02:22.822 --> 00:02:26.527
+hayvan toplulukları hakkında veriler topluyoruz,
+
+00:02:26.527 --> 00:02:30.338
+karmaşık motifleri analiz ediyoruz ve onları açıklamaya çalışıyoruz.
+
+00:02:30.338 --> 00:02:32.957
+Biyologlar, matematikçiler
+
+00:02:32.957 --> 00:02:35.680
+ve bilgisayar bilimcileriyle çalışan fizikçilerin
+
+00:02:35.680 --> 00:02:38.500
+ve onlar arasındaki etkileşimin
+
+00:02:38.500 --> 00:02:40.214
+birleşimiyle
+
+00:02:40.214 --> 00:02:41.792
+çözüme ulaşmak mümkün oluyor.
+
+00:02:41.792 --> 00:02:44.064
+Ve yine, bütün,
+
+00:02:44.064 --> 00:02:45.464
+parçaların toplamından fazlası.
+
+00:02:45.464 --> 00:02:47.614
+Bir açıdan, işbirliği de
+
+00:02:47.614 --> 00:02:51.105
+karmaşık sisteme başka bir örnektir.
+
+00:02:51.105 --> 00:02:52.981
+Belki soruyorsunuzdur,
+
+00:02:52.981 --> 00:02:55.798
+ben ne taraftayım, biyoloji mi fizik mi?
+
+00:02:55.798 --> 00:02:57.909
+Aslında, bu biraz farklı
+
+00:02:57.909 --> 00:02:59.498
+ve açıklamak için size kendimle ilgili
+
+00:02:59.498 --> 00:03:01.840
+kısa bir hikaye anlatacağım.
+
+00:03:01.840 --> 00:03:03.567
+Ben çocukken,
+
+00:03:03.567 --> 00:03:07.676
+birşeyler yapmaya, karmaşık makineler üretmeye bayılırdım.
+
+00:03:07.676 --> 00:03:10.413
+Bu yüzden elektrik mühendisliği
+
+00:03:10.413 --> 00:03:11.965
+ve robotik okumaya başladım.
+
+00:03:11.965 --> 00:03:14.058
+Master projem
+
+00:03:14.058 --> 00:03:16.984
+ER-1 adında bir robot yapmaktı.
+
+00:03:16.984 --> 00:03:18.914
+Böyle görünen,
+
+00:03:18.914 --> 00:03:21.285
+çevreden bilgi toplayarak
+
+00:03:21.285 --> 00:03:24.783
+yerdeki beyaz bir çizgiyi takip eden bir robot.
+
+00:03:24.783 --> 00:03:27.162
+Bu oldukça karışıktı
+
+00:03:27.162 --> 00:03:30.146
+fakat test odamızda oldukça güzel bir şekilde çalıştı.
+
+00:03:30.146 --> 00:03:33.599
+Ve gösterim gününde profesörlerin projeye not vermesi için
+
+00:03:33.607 --> 00:03:36.509
+ER-1'i değerlendirme odasına soktuk.
+
+00:03:36.509 --> 00:03:38.819
+Sonradan anlaşıldı ki odadaki ışık
+
+00:03:38.819 --> 00:03:40.638
+normalde olduğundan biraz farklıymış.
+
+00:03:40.638 --> 00:03:42.969
+Robotun görüş sistemi şaşırmıştı.
+
+00:03:42.969 --> 00:03:44.730
+çizgideki ilk dönüşte
+
+00:03:44.730 --> 00:03:48.469
+robot yoldan çıktı ve duvara çarptı.
+
+00:03:48.469 --> 00:03:50.556
+Robotu yapmak için haftalarımızı harcamamıza rağmen
+
+00:03:50.556 --> 00:03:52.229
+odadaki ışığın rengindeki
+
+00:03:52.229 --> 00:03:54.885
+ufak bir değişim onu bozmaya
+
+00:03:54.885 --> 00:03:56.481
+yetti.
+
+00:03:56.481 --> 00:03:57.996
+O zaman anladım ki
+
+00:03:57.996 --> 00:04:00.323
+bir makineyi ne kadar karmaşık yaparsanız
+
+00:04:00.323 --> 00:04:02.362
+tamamen beklenmeyen bir sebepten dolayı
+
+00:04:02.362 --> 00:04:04.925
+başarısız olma ihtimali o kadar artar.
+
+00:04:04.925 --> 00:04:06.755
+Ve aslında karmaşık bir şeyler
+
+00:04:06.755 --> 00:04:09.768
+yapmak istemediğime karar verdim.
+
+00:04:09.768 --> 00:04:12.710
+Karmaşıklığı anlamak istiyordum.
+
+00:04:12.710 --> 00:04:14.698
+Çevremizdeki ve özellikle de
+
+00:04:14.698 --> 00:04:17.103
+hayvanlar alemindeki karmaşıklığı.
+
+00:04:17.103 --> 00:04:20.423
+Bu da bizi yarasalara getiriyor.
+
+00:04:20.423 --> 00:04:23.474
+Bechstein yarasaları Avrupa'da yaygın bir türdür.
+
+00:04:23.474 --> 00:04:24.887
+Oldukça sosyal hayvanlardır.
+
+00:04:24.887 --> 00:04:28.178
+Çoğunlukla birlikte tünüyor veya uyuyorlar.
+
+00:04:28.178 --> 00:04:29.857
+Anaç koloniler halinde yaşıyorlar,
+
+00:04:29.857 --> 00:04:31.397
+dişiler kış uykusundan sonra
+
+00:04:31.397 --> 00:04:34.655
+her bahar bir araya geliyor
+
+00:04:34.655 --> 00:04:36.744
+ve yavrularını büyütmek için
+
+00:04:36.744 --> 00:04:39.230
+yaklaşık altı ay beraber yaşıyor.
+
+00:04:39.230 --> 00:04:42.035
+Ve hepsi oldukça küçük bir çip taşıyor.
+
+00:04:42.035 --> 00:04:43.906
+Ne zaman yarasalardan biri bu özel
+
+00:04:43.906 --> 00:04:46.963
+yarasa kutularından birine girse
+
+00:04:46.963 --> 00:04:48.606
+nerede olduğunu biliyoruz,
+
+00:04:48.606 --> 00:04:49.775
+ve daha da önemlisi
+
+00:04:49.775 --> 00:04:52.338
+kiminle olduğunu biliyoruz.
+
+00:04:52.338 --> 00:04:56.032
+Ben de yarasalardaki tüneme davranışlarını inceledim
+
+00:04:56.032 --> 00:04:58.477
+ve ortaya çıkan bu oldu.
+
+00:04:58.477 --> 00:05:00.919
+Gün boyunca, yarasalar farklı kutularda
+
+00:05:00.919 --> 00:05:03.223
+farklı gruplara ayrılarak tünüyorlar
+
+00:05:03.223 --> 00:05:05.152
+bir gün koloni
+
+00:05:05.152 --> 00:05:07.372
+iki kutuya dağılmış olabilirken
+
+00:05:07.372 --> 00:05:08.672
+başka bir gün
+
+00:05:08.672 --> 00:05:10.913
+hepsi aynı kutuda beraber
+
+00:05:10.913 --> 00:05:13.229
+veya üç ya da daha fazla kutuya dağılmış olabiliyor.
+
+00:05:13.229 --> 00:05:16.156
+Ve bu aslen oldukça düzensiz gibi görünüyor.
+
+00:05:16.156 --> 00:05:19.359
+Buna birleşme-ayrılma dinamikleri deniyor,
+
+00:05:19.359 --> 00:05:21.072
+düzenli olarak farklı alt gruplara
+
+00:05:21.072 --> 00:05:23.250
+birleşip ayrılan hayvan gruplarının
+
+00:05:23.250 --> 00:05:24.911
+bir özelliği.
+
+00:05:24.911 --> 00:05:27.473
+Bizim yaptığımız ise farklı günlerde alınmış
+
+00:05:27.473 --> 00:05:29.135
+bütün bu verileri
+
+00:05:29.135 --> 00:05:30.639
+bir araya getirerek
+
+00:05:30.639 --> 00:05:33.256
+ağ analizi içeren tekniklerle
+
+00:05:33.256 --> 00:05:35.761
+koloninin sosyal yapısına dair
+
+00:05:35.761 --> 00:05:37.382
+uzun vadeli bir
+
+00:05:37.382 --> 00:05:39.919
+model ortaya çıkarmak.
+
+00:05:39.919 --> 00:05:44.184
+Ve işte ortaya çıkan resim bu.
+
+00:05:44.184 --> 00:05:46.578
+Bu ağda, bütün noktalar
+
+00:05:46.578 --> 00:05:49.355
+ayrı birer yarasayı
+
+00:05:49.355 --> 00:05:50.938
+ve aralarındaki çizgiler de
+
+00:05:50.938 --> 00:05:54.602
+bireyler arasındaki bağı, ilişkiyi ifade ediyor.
+
+00:05:54.602 --> 00:05:57.280
+Ve ortayan çıkan manzara oldukça ilginç.
+
+00:05:57.280 --> 00:05:59.262
+Bu yarasa kolonisi
+
+00:05:59.262 --> 00:06:01.130
+günlük birleşme-ayrılma dinamikleriyle
+
+00:06:01.130 --> 00:06:02.969
+tahmin edilemeyecek bir şekilde
+
+00:06:02.969 --> 00:06:05.218
+iki farklı topluluğa ayrılıyor.
+
+00:06:05.218 --> 00:06:08.768
+Biz bu topluluklara örtük sosyal birimler adını verdik.
+
+00:06:08.768 --> 00:06:10.384
+Daha da ilginç olanı,
+
+00:06:10.384 --> 00:06:12.748
+her yıl, ekim ayı dolaylarında
+
+00:06:12.748 --> 00:06:14.309
+koloni dağılıyor
+
+00:06:14.309 --> 00:06:17.007
+ve bütün yarasalar bağımsız olarak uykuya yatıyor.
+
+00:06:17.007 --> 00:06:18.468
+Fakat her geçen yıl
+
+00:06:18.468 --> 00:06:21.541
+yarasalar baharda yeniden bir araya geldiğinde
+
+00:06:21.541 --> 00:06:24.131
+topluluklar aynı kalıyor.
+
+00:06:24.131 --> 00:06:26.851
+Yani yarasalar oldukça uzun bir süre
+
+00:06:26.851 --> 00:06:28.681
+arkadaşlarını hatırlıyor.
+
+00:06:28.681 --> 00:06:31.155
+Yer fıstığı boyutunda beyinleriyle,
+
+00:06:31.155 --> 00:06:33.280
+bireyselliklerini koruyabiliyor,
+
+00:06:33.280 --> 00:06:35.422
+uzun vadeli bağlar kurabiliyorlar.
+
+00:06:35.422 --> 00:06:37.146
+Bunun mümkün olduğunu bilmiyorduk.
+
+00:06:37.146 --> 00:06:38.905
+Primatların,
+
+00:06:38.905 --> 00:06:41.473
+fillerin ve yunusların bunu yapabildiğini biliyorduk
+
+00:06:41.473 --> 00:06:44.101
+fakat yarasalara kıyasla onların beyinleri devasa kalıyor.
+
+00:06:44.101 --> 00:06:46.500
+Yani nasıl olur da
+
+00:06:46.500 --> 00:06:48.451
+yarasalar böyle kısıtlı bilişsel yetenekleriyle
+
+00:06:48.451 --> 00:06:50.139
+bu kadar karmaşık ve stabil
+
+00:06:50.139 --> 00:06:53.671
+bir sosyal yapı kurabiliyorlar?
+
+00:06:53.671 --> 00:06:56.560
+Ve karmaşıklık bizi işte burada bir yanıta ulaştırıyor.
+
+00:06:56.560 --> 00:06:58.701
+Bu sistemi anlamak için,
+
+00:06:58.701 --> 00:07:01.498
+tüneme üzerine basit, bağımsız kurallara sahip
+
+00:07:01.498 --> 00:07:03.516
+bir bilgisayar modeli geliştirdik
+
+00:07:03.516 --> 00:07:05.951
+ve sanal bir yarasa kolonisiyle binlerce günlük
+
+00:07:05.951 --> 00:07:07.970
+simulasyon yaptık.
+
+00:07:07.970 --> 00:07:10.094
+Bu matematiksel bir model,
+
+00:07:10.094 --> 00:07:12.048
+fakat karışık değil.
+
+00:07:12.048 --> 00:07:15.146
+Model kısaca bize gösteriyor ki,
+
+00:07:15.146 --> 00:07:18.332
+her yarasa diğer birkaç koloni üyesini
+
+00:07:18.332 --> 00:07:20.820
+arkadaşı olarak tanıyor ve onunla birlikte tünemeye
+
+00:07:20.820 --> 00:07:23.330
+biraz daha yatkın oluyor.
+
+00:07:23.330 --> 00:07:25.774
+Basit, bağımsız kurallar.
+
+00:07:25.774 --> 00:07:27.486
+Yarasaların sosyal karmaşıklığını anlamak
+
+00:07:27.486 --> 00:07:29.875
+açıklamak için sadece bu yetiyor.
+
+00:07:29.875 --> 00:07:31.593
+Fakat daha iyisi de var.
+
+00:07:31.593 --> 00:07:34.441
+2010-2011 arasında
+
+00:07:34.441 --> 00:07:37.894
+koloni üyelerinin üçte ikisinden fazlasını
+
+00:07:37.894 --> 00:07:40.880
+muhtemelen soğuk kış yüzünden kaybetmişti.
+
+00:07:40.880 --> 00:07:44.024
+Sonraki bahar, koloni her yıl yaptığı gibi,
+
+00:07:44.024 --> 00:07:45.295
+bu kez küçüklüğünden dolayı
+
+00:07:45.295 --> 00:07:47.498
+bütün koloninin ölümüne sebep olabilecek
+
+00:07:47.498 --> 00:07:49.593
+bölünmeyi tercih etmedi.
+
+00:07:49.593 --> 00:07:54.966
+Bunun yerine birbirine bağlı,
+tek bir sosyal yapı oluşturdu,
+
+00:07:54.966 --> 00:07:57.698
+koloninin mevsimi canlı çıkarmasını
+
+00:07:57.698 --> 00:08:00.802
+ve sonraki iki yıl içinde yeniden büyümesini sağladı.
+
+00:08:00.802 --> 00:08:02.580
+Biliyoruz ki yarasalar,
+
+00:08:02.580 --> 00:08:05.487
+kolonilerinin böyle birşey yaptığından habersizdi.
+
+00:08:05.487 --> 00:08:09.033
+Yarasaların tek yaptıkları basit bağlanma kurallarını uygulamaktı
+
+00:08:09.033 --> 00:08:10.382
+ve bu basit kurallardan
+
+00:08:10.382 --> 00:08:12.823
+topluluğun yapısındaki
+
+00:08:12.823 --> 00:08:15.663
+dramatik değişimlere direnmelerini sağlayan
+
+00:08:15.663 --> 00:08:18.644
+sosyal karmaşıklık ortaya çıktı.
+
+00:08:18.644 --> 00:08:21.338
+Ben bunu olağanüstü buluyorum.
+
+00:08:21.338 --> 00:08:23.422
+Şimdi size başka bir hikaye anlatmak istiyorum,
+
+00:08:23.422 --> 00:08:24.977
+fakat bunun için Avrupa'dan
+
+00:08:24.977 --> 00:08:28.025
+Güney Afika'daki Kalahari Çölü'ne gideceğiz.
+
+00:08:28.025 --> 00:08:30.052
+Burası mirketlerin yaşadığı yer.
+
+00:08:30.052 --> 00:08:31.552
+Mirketleri eminim biliyorsunuzdur,
+
+00:08:31.552 --> 00:08:33.658
+büyüleyici canlılar.
+
+00:08:33.658 --> 00:08:36.647
+Çok sıkı sosyal hiyerarşiye sahip gruplar halinde yaşarlar.
+
+00:08:36.647 --> 00:08:38.106
+Bir dominant çift ve
+
+00:08:38.106 --> 00:08:39.488
+bazıları gözcülük
+
+00:08:39.488 --> 00:08:41.202
+ve bebek bakıcılığı
+
+00:08:41.202 --> 00:08:42.539
+bazıları da yavrulara öğretmenlik
+
+00:08:42.539 --> 00:08:44.436
+gibi görevler üstlenen astlar vardır.
+
+00:08:44.436 --> 00:08:47.757
+Biz de birlikte nasıl hareket ettiklerini
+
+00:08:47.757 --> 00:08:49.282
+ve bunun
+
+00:08:49.282 --> 00:08:51.157
+sosyal yapılarıyla olan ilgisini
+
+00:08:51.157 --> 00:08:54.874
+anlamak için bu hayvanlara GPS tasmalar taktık.
+
+00:08:54.874 --> 00:08:56.364
+Ve işte mirketlerdeki
+
+00:08:56.364 --> 00:08:59.080
+kolektif davranışlara enteresan bir örnek.
+
+00:08:59.080 --> 00:09:01.447
+Yaşadıkları bölgenin ortasından
+
+00:09:01.447 --> 00:09:02.656
+bir yol geçmekte.
+
+00:09:02.656 --> 00:09:05.889
+Yolda araçlar var, yani tehlikeli.
+
+00:09:05.889 --> 00:09:08.173
+Fakat mirketler bir beslenme yerinden
+
+00:09:08.173 --> 00:09:10.747
+diğerine gitmek için karşıya geçmek zorundalar.
+
+00:09:10.747 --> 00:09:15.498
+Biz de sorduk, bunu nasıl yapıyorlar?
+
+00:09:15.498 --> 00:09:17.334
+Öğrendik ki grubu yola
+
+00:09:17.334 --> 00:09:19.955
+yönlendiren çoğunlukla dominant dişi oluyor,
+
+00:09:19.955 --> 00:09:23.227
+fakat olay yolun karşısına geçmeye gelince
+
+00:09:23.227 --> 00:09:25.578
+dişi "devam edin, güvenli olup olmadığını
+
+00:09:25.578 --> 00:09:27.355
+bana haber verin" dercesine
+
+00:09:27.355 --> 00:09:30.037
+yolu astlarına bırakıyor.
+
+00:09:30.037 --> 00:09:31.701
+Bilmediğim şey ise,
+
+00:09:31.701 --> 00:09:34.843
+bu noktada mirket grubundaki bu değişikliğe
+
+00:09:34.843 --> 00:09:37.768
+yol açan kuralların ne olduğu ve basit kaidelerin
+
+00:09:37.768 --> 00:09:41.618
+bunu açıklamaya yetip yetmeyeceğiydi.
+
+00:09:41.618 --> 00:09:45.609
+Ben de sanal mirketlerin sanal bir yolu
+
+00:09:45.609 --> 00:09:47.522
+geçtiği bir model yaptım.
+
+00:09:47.522 --> 00:09:49.394
+Basite indirgenmiş bir model.
+
+00:09:49.394 --> 00:09:52.234
+Tek kuralın dizilim olduğu, rastgele parçacıklar
+
+00:09:52.234 --> 00:09:54.456
+gibi hareket eden mirketler.
+
+00:09:54.456 --> 00:09:56.862
+Sadece birlikte hareket ediyorlar.
+
+00:09:56.862 --> 00:10:00.046
+Parçacıklar yola ulaştığında,
+
+00:10:00.046 --> 00:10:01.988
+bir çeşit engeli hissediyorlar
+
+00:10:01.988 --> 00:10:04.072
+ve karşısında dusaksıyorlar.
+
+00:10:04.072 --> 00:10:05.228
+Kırmızıyla gösterilen
+
+00:10:05.228 --> 00:10:07.270
+dominant dişi ve diğerleri arasındaki
+
+00:10:07.270 --> 00:10:08.755
+tek fark
+
+00:10:08.755 --> 00:10:11.309
+dişi için engelin yüksekliği,
+
+00:10:11.309 --> 00:10:13.814
+yani yolu geçmekten duyulan risk
+
+00:10:13.814 --> 00:10:15.763
+birazcık daha yüksek
+
+00:10:15.763 --> 00:10:17.424
+ve bireyin hareket kuralındaki
+
+00:10:17.424 --> 00:10:19.262
+bu küçük farklıklık
+
+00:10:19.262 --> 00:10:21.708
+gözlemlediğimiz şeyi açıklamaya yetiyor,
+
+00:10:21.708 --> 00:10:24.268
+yani dominant dişinin
+
+00:10:24.268 --> 00:10:25.702
+grubunu yola yönlendirmesi
+
+00:10:25.702 --> 00:10:27.372
+ve daha önce geçmeleri için
+
+00:10:27.372 --> 00:10:30.235
+yolu diğerlerine vermesini.
+
+00:10:30.235 --> 00:10:33.886
+Bir İngiliz istatistikçi George Box
+
+00:10:33.886 --> 00:10:36.848
+zamanında şöyle yazmıştır: "Bütün modeller yanlıştır,
+
+00:10:36.848 --> 00:10:38.907
+fakat bazıları kullanışlıdır."
+
+00:10:38.907 --> 00:10:42.104
+Ve bu modelin yanlış olduğu açıktır, çünkü gerçekte
+
+00:10:42.104 --> 00:10:46.072
+mirketlerin rastgele parçacıklarla alakası yoktur.
+
+00:10:46.072 --> 00:10:47.709
+Fakat aynı zamanda kullanışlı da,
+
+00:10:47.709 --> 00:10:50.458
+çünkü bize, bireysel bazda son derece basit
+
+00:10:50.458 --> 00:10:53.816
+olan bu davranış kurallarının
+
+00:10:53.816 --> 00:10:56.167
+grup bazında oldukça büyük bir karmaşıklık
+
+00:10:56.167 --> 00:10:58.105
+sağladığını gösteriyor.
+
+00:10:58.105 --> 00:11:02.161
+Ve yine yaptığımız, karmaşıklığı basitleştirmek.
+
+00:11:02.161 --> 00:11:03.609
+Bunun bütün tür için
+
+00:11:03.609 --> 00:11:06.426
+ne anlama geldiğini açıklayarak kapatmak istiyorum.
+
+00:11:06.426 --> 00:11:08.090
+Dominant dişi
+
+00:11:08.090 --> 00:11:09.656
+yolu bir astına verdiğinde
+
+00:11:09.656 --> 00:11:11.773
+bunu nezaketten yapmıyor.
+
+00:11:11.773 --> 00:11:13.280
+Aslında grubun birliği için
+
+00:11:13.280 --> 00:11:15.799
+dominant dişi oldukça önem arz ediyor.
+
+00:11:15.799 --> 00:11:19.311
+Eğer dişi yolda ölürse, bütün grup risk altında kalır.
+
+00:11:19.311 --> 00:11:21.547
+Yani bu riskten kaçınma davranışı
+
+00:11:21.547 --> 00:11:24.348
+oldukça eski evrimsel bir tepki.
+
+00:11:24.348 --> 00:11:28.217
+Bu mirketler binlerce jenerasyon öncesine
+
+00:11:28.217 --> 00:11:30.450
+dayanan bu taktiği, bu örnekte
+
+00:11:30.450 --> 00:11:32.864
+insan yapımı bir yol olan
+
+00:11:32.864 --> 00:11:36.189
+modern risklere uyarlayarak uyguluyorlar.
+
+00:11:36.189 --> 00:11:38.584
+Bu oldukça basit kuralları özümsüyorlar
+
+00:11:38.584 --> 00:11:40.873
+ve bu durum, doğal yaşam alanlarındaki
+
+00:11:40.873 --> 00:11:43.829
+insan işgalinden korunmalarını sağlayan
+
+00:11:43.829 --> 00:11:46.277
+karmaşık davranışların yolunu açıyor.
+
+00:11:46.277 --> 00:11:48.079
+Sonuç olarak,
+
+00:11:48.079 --> 00:11:50.779
+bu, bir populasyon düşüşüne tepki olarak
+
+00:11:50.779 --> 00:11:53.163
+yarasaların sosyal yapılarını değiştirmesi
+
+00:11:53.163 --> 00:11:54.562
+veya mirketlerin
+
+00:11:54.562 --> 00:11:57.764
+insan yapımı yola adapte olmaları
+
+00:11:57.764 --> 00:12:00.449
+veya başka bir tür olabilir.
+
+00:12:00.449 --> 00:12:03.242
+Demek istediğim şey, --ki karışık değil,
+
+00:12:03.242 --> 00:12:06.006
+merak ve umuttan doğan basit bir mesaj--
+
+00:12:06.006 --> 00:12:09.099
+buradaki mesajım, hayvanlar
+
+00:12:09.099 --> 00:12:11.523
+olağanüstü sosyal karmaşıklığa sahipler
+
+00:12:11.523 --> 00:12:13.964
+ve bu onların çevredeki değişimlere
+
+00:12:13.964 --> 00:12:17.445
+adapte olmalarını ve tepki vermelerini sağlıyor.
+
+00:12:17.445 --> 00:12:20.213
+Üç kelimeye özetlersek, hayvanlar aleminde
+
+00:12:20.213 --> 00:12:22.987
+basitlik karmaşıklığa,
+
+00:12:22.987 --> 00:12:24.470
+karmaşıklık da uyuma yol açıyor.
+
+00:12:24.470 --> 00:12:26.754
+Teşekkürler.
+
+00:12:26.754 --> 00:12:33.434
+(Alkış)
+
+00:12:42.694 --> 00:12:44.647
+Dania Gerhardt: Bu harika başlangıç için
+
+00:12:44.647 --> 00:12:47.926
+çok teşekkürler Nicolas. Biraz gergin misin?
+
+00:12:47.926 --> 00:12:49.570
+Nicolas Perony: İyiyim, teşekkürler.
+
+00:12:49.570 --> 00:12:52.300
+DG: Tamam, harika. Eminim
+
+00:12:52.300 --> 00:12:53.894
+seyircilerimizin birçoğu bahsettiğin
+
+00:12:53.894 --> 00:12:55.718
+hayvanları ilişkilendirmeye çabalamıştır --
+
+00:12:55.718 --> 00:12:57.774
+yarasalar, mirketler -- ve insanlar.
+
+00:12:57.774 --> 00:12:58.982
+Bazı örnekler verdin:
+
+00:12:58.982 --> 00:13:00.717
+Dişiler sosyal olanlar,
+
+00:13:00.717 --> 00:13:02.430
+dişiler dominant olanlar,
+
+00:13:02.430 --> 00:13:04.103
+kimin nasıl düşündüğünü bilmiyorum.
+
+00:13:04.103 --> 00:13:06.998
+Ama bu ilişkilendirmeleri yapmak doğru mu?
+
+00:13:06.998 --> 00:13:09.798
+Bu açıdan onaylayabileceğin, tüm türler arasında geçerli
+
+00:13:09.798 --> 00:13:13.071
+kalıplaşmış yargılar var mı?
+
+00:13:13.071 --> 00:13:14.674
+NP: Bu kalıpların tersi örnekler
+
+00:13:14.674 --> 00:13:16.626
+olduğunu da söyleyebilirim.
+
+00:13:16.626 --> 00:13:19.766
+Örneğin, denizatlarında veya koalalarda
+
+00:13:19.766 --> 00:13:23.464
+yavruların bakımını erkekler üstlenir.
+
+00:13:23.464 --> 00:13:28.505
+Buradan çıkarabileceğimiz şey
+
+00:13:28.505 --> 00:13:30.257
+insanlarla hayvanlar arasında paralellikler bulmak
+
+00:13:30.257 --> 00:13:32.929
+çoğunlukla zor ve hatta biraz tehlikeli
+
+00:13:32.929 --> 00:13:35.350
+Bu.
+
+00:13:35.350 --> 00:13:37.881
+DG: Tamam. Bu harika başlangıç için çok teşekkür ederim.
+
+00:13:37.881 --> 00:13:39.961
+Teşekkürler Nicolas Perony.
+

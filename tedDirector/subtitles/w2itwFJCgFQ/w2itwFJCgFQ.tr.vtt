@@ -1,0 +1,779 @@
+WEBVTT
+Kind: captions
+Language: tr
+
+00:00:00.000 --> 00:00:07.000
+Çeviri: Enis Başol
+Gözden geçirme: İbrahim Uzun
+
+00:00:23.307 --> 00:00:26.491
+Bir makinenin atletik olması ne manaya gelir?
+
+00:00:26.491 --> 00:00:29.908
+Makine atletizmi kavramını ve bunu geliştirmek için yapılan araştırmayı
+
+00:00:29.908 --> 00:00:31.628
+kuadrokopter veya kısaca kuad denen
+
+00:00:31.628 --> 00:00:34.139
+bu uçan makineler yardımıyla
+
+00:00:34.139 --> 00:00:36.026
+göstereceğiz.
+
+00:00:38.034 --> 00:00:40.563
+Kuadlar bayadır piyasada var.
+
+00:00:40.563 --> 00:00:42.162
+Bu aralar bu kadar meşhur olmalarının sebebi
+
+00:00:42.162 --> 00:00:44.127
+mekanik olarak basit olmaları.
+
+00:00:44.127 --> 00:00:46.235
+Buradaki dört pervanenin hızlarının kontrol edilmesiyle
+
+00:00:46.235 --> 00:00:49.283
+bu makineler takla atabiliyor, bir yana meyledebiliyor, yalpa yapabiliyor ve
+
+00:00:49.283 --> 00:00:52.108
+ortak bir hedefe doğru hız yapabiliyor.
+
+00:00:52.108 --> 00:00:55.179
+Buna ilaveten bir pil, bir bilgisayar,
+
+00:00:55.179 --> 00:00:59.133
+çeşitli sensörler ve kablosuz telsizler var.
+
+00:00:59.133 --> 00:01:03.762
+Kuadlar aşırı çevik. Ancak bu çevikliğin de bir bedeli var.
+
+00:01:03.762 --> 00:01:06.754
+Kuadlar doğal olarak dengesiz ve uçabilmek için
+
+00:01:06.754 --> 00:01:10.726
+otomatik geribildirim kontrolüne ihtiyaçları var.
+
+00:01:16.259 --> 00:01:19.497
+Şimdi, bunu nasıl oldu da becerdi?
+
+00:01:19.497 --> 00:01:21.315
+Tavandaki kameralar ve bir dizüstü bilgisayar
+
+00:01:21.315 --> 00:01:23.891
+kapalı küresel konumlama sistemi olarak iş görüyor.
+
+00:01:23.891 --> 00:01:26.076
+Üzerinde bu yansıtıcı aygıtın bulunduğu nesneleri
+
+00:01:26.076 --> 00:01:28.603
+boşlukta tespit etmek için kullanılır.
+
+00:01:28.603 --> 00:01:30.664
+Bu bilgi sonra tahmin ve kontrol algoritmaları çalıştıran
+
+00:01:30.664 --> 00:01:32.875
+bir başka dizüstü bilgisayara gönderilir.
+
+00:01:32.875 --> 00:01:34.761
+Bu bilgisayar da tahmin ve kontrol algoritmaları çalıştıran
+
+00:01:34.761 --> 00:01:38.246
+kuada talimatlar gönderir.
+
+00:01:41.620 --> 00:01:44.130
+Bizim araştırmamızın olayı algoritmalar.
+
+00:01:44.130 --> 00:01:48.291
+Bu makinelere hayat katan sihir algoritmalar.
+
+00:01:48.291 --> 00:01:50.334
+Peki makineyi atletik kılan algoritmalar
+
+00:01:50.334 --> 00:01:52.611
+nasıl tasarlanır?
+
+00:01:52.611 --> 00:01:55.491
+Genel olarak model tabanlı tasarım diye tabir olunan bir sistem kullanıyoruz.
+
+00:01:55.491 --> 00:01:58.645
+İlk önce fiziğe makinelerin davranış şekilleriyle alakalı
+
+00:01:58.645 --> 00:02:00.779
+matematiksel bir modelle bakıyoruz.
+
+00:02:00.779 --> 00:02:03.076
+Sonra bu modelleri tahlil etmek ve
+
+00:02:03.076 --> 00:02:05.907
+algoritmaları da birleştirebilmek için
+
+00:02:05.907 --> 00:02:09.820
+kontrol teorisi denen matematiğin bir alanını kullanıyoruz.
+
+00:02:09.820 --> 00:02:12.868
+Mesela; kuadı bu şekilde sallayabilirsiniz.
+
+00:02:12.868 --> 00:02:14.276
+Evvela bir takım diferansiyel denklemlerle
+
+00:02:14.276 --> 00:02:16.182
+devinimi elde ettik.
+
+00:02:16.182 --> 00:02:18.531
+Sonra kuadı sabitleyen algoritmaları oluşturmak için
+
+00:02:18.531 --> 00:02:23.171
+kontrol teorisi yardımıyla bu denklemlerin üzerinde oynuyoruz.
+
+00:02:23.171 --> 00:02:26.117
+Bu yaklaşımın gücünü göstereyim.
+
+00:02:29.198 --> 00:02:31.747
+Farz edelim bu kuadın hem sallanmasını
+
+00:02:31.747 --> 00:02:34.529
+hem de bu çubuğu dengelemesini istiyoruz.
+
+00:02:34.529 --> 00:02:36.373
+Birazcık alıştırmadan sonra
+
+00:02:36.373 --> 00:02:38.764
+bunu yapabilmek bir insan için çok kolay.
+
+00:02:38.764 --> 00:02:40.519
+Ancak yere basan iki ayak
+
+00:02:40.519 --> 00:02:41.847
+ve iyi iş gören
+
+00:02:41.847 --> 00:02:44.804
+iki elimizi kullanma avantajımız var.
+
+00:02:44.804 --> 00:02:47.273
+Yere basan sadece bir ayağım olduğunda
+
+00:02:47.273 --> 00:02:49.569
+ve ellerimi kullanmadığım zaman
+
+00:02:49.569 --> 00:02:52.368
+daha da zorlaşır.
+
+00:02:52.368 --> 00:02:55.319
+Bakın bu çubuğun üzerinde yansıtıcı aygıt var.
+
+00:02:55.319 --> 00:02:59.213
+Bu da boşlukta konumunun saptanabileceği anlamına geliyor.
+
+00:03:04.971 --> 00:03:10.947
+(Alkışlar)
+
+00:03:10.947 --> 00:03:13.773
+Bu kuadın, çubuğu dengede tutmak için ince ayarlar yaptığını
+
+00:03:13.773 --> 00:03:15.968
+farkedebiliyorsunuz.
+
+00:03:15.968 --> 00:03:19.027
+Bunu gerçekleştirecek algoritmaları nasıl tasarladık?
+
+00:03:19.027 --> 00:03:21.132
+Çubuğun matematiksel modelini
+
+00:03:21.132 --> 00:03:22.651
+kuadınkine ekledik.
+
+00:03:22.651 --> 00:03:25.605
+Kuad-çubuk sisteminin ortak modelini elde ettiğimizde
+
+00:03:25.605 --> 00:03:30.538
+bunu kontrol edecek algoritmaları oluşturmak için kontrol teorisini kullanabiliyoruz.
+
+00:03:30.538 --> 00:03:32.126
+İşte, sabit olduğunu görüyorsunuz.
+
+00:03:32.126 --> 00:03:34.819
+Hafif sürüklesem dahi
+
+00:03:34.819 --> 00:03:40.222
+tekrardan düzgün ve dengeli bir hal alıyor.
+
+00:03:40.222 --> 00:03:41.885
+Modele kuadın boşlukta nerede duracağının
+
+00:03:41.885 --> 00:03:44.326
+bilgisini de ekleyebiliriz.
+
+00:03:44.326 --> 00:03:47.395
+Yansıtıcı aygıtlar bulunduran bu çubuğu kullanarak
+
+00:03:47.395 --> 00:03:49.619
+kuada, benden belirli bir uzaklıkta olacak şekilde boşlukta
+
+00:03:49.619 --> 00:03:52.986
+durmasını istediğim yeri gösterebilirim.
+
+00:04:07.763 --> 00:04:10.665
+Bu akrobatik manevraların anahtarı matematiksel teorilerle
+
+00:04:10.665 --> 00:04:13.091
+ve kontrol teorisinin yardımıyla tasarlanan
+
+00:04:13.091 --> 00:04:15.041
+algoritmalardır.
+
+00:04:15.041 --> 00:04:17.255
+Kuada buraya geri gelmesini söyleyelim ve
+
+00:04:17.255 --> 00:04:19.074
+çubuğun düşmesini sağlayalım.
+
+00:04:19.074 --> 00:04:20.992
+Şimdi fiziksel modelleri ve fiziksel dünyanın
+
+00:04:20.992 --> 00:04:23.111
+nasıl cereyan ettiğini anlamanın
+
+00:04:23.111 --> 00:04:27.231
+önemini göstereceğim.
+
+00:04:37.462 --> 00:04:39.232
+Bir bardak suyu üzerine koyduğumda
+
+00:04:39.232 --> 00:04:41.314
+kuadın nasıl da irtifa kaybettiğine bir bakın.
+
+00:04:41.314 --> 00:04:44.115
+Dengelediği çubuğun aksine bardağın
+
+00:04:44.115 --> 00:04:46.699
+matematik modelini sisteme dahil etmedim.
+
+00:04:46.699 --> 00:04:49.618
+Aslında sistem bir bardak suyun orada olduğunu bile bilmiyor.
+
+00:04:49.618 --> 00:04:52.910
+Daha önce olduğu gibi boşlukta olmasını istediğim yeri
+
+00:04:52.910 --> 00:04:55.499
+kuada bildirmek için bu çubuğu kullanabilirim.
+
+00:04:55.499 --> 00:05:05.096
+(Alkış)
+
+00:05:05.096 --> 00:05:07.206
+Pekala, bardaktan niye su dökülmüyor diye
+
+00:05:07.206 --> 00:05:09.715
+kendinize soruyor olmalısınız.
+
+00:05:09.715 --> 00:05:12.926
+İki gerçek var: İlki, yer çekimi
+
+00:05:12.926 --> 00:05:15.051
+bütün nesnelere aynı şekilde tesir eder.
+
+00:05:15.051 --> 00:05:17.515
+İkincisi ise, pervanelerin hepsi bardağı
+
+00:05:17.515 --> 00:05:20.642
+aynı yöne itiyor, yani düzlüyor.
+
+00:05:20.642 --> 00:05:23.019
+Bu iki gerçeği bir araya getirdiğinizde ortaya çıkan netice itibariyle
+
+00:05:23.019 --> 00:05:25.306
+bardağa tesir eden yan kuvvetler küçük olduğundan
+
+00:05:25.306 --> 00:05:28.091
+temel olarak aerodinamik tesirler galip geliyor.
+
+00:05:28.091 --> 00:05:31.932
+Bu da hızlar ihmal edilebilir düzeyde bulunduğundan oluyor.
+
+00:05:35.336 --> 00:05:37.407
+Neticede bardağın modelini çıkarmaya ihtiyaç kalmıyor.
+
+00:05:37.407 --> 00:05:41.255
+Doğal olarak kuad ne yaparsa yapsın suyu dökmüyor.
+
+00:05:50.651 --> 00:05:57.702
+(Alkış)
+
+00:05:57.702 --> 00:06:01.718
+Buradan çıkardığımız ders: Yüksek performans gerektiren bazı vazifeler
+
+00:06:01.718 --> 00:06:03.115
+diğerlerinden daha kolaydır ve
+
+00:06:03.115 --> 00:06:05.411
+meselenin fiziğini anlamak size
+
+00:06:05.411 --> 00:06:08.027
+hangi vazifenin kolay hangisinin zor olduğunu söyler.
+
+00:06:08.027 --> 00:06:10.386
+Bu durumda, bir bardak su taşımak kolaydır.
+
+00:06:10.386 --> 00:06:14.171
+Bir çubuğu dengelemek ise zor.
+
+00:06:14.171 --> 00:06:15.973
+Fiziken yaralı haldeyken marifetlerini sergileyen
+
+00:06:15.973 --> 00:06:18.466
+atletlerin hikayelerini hep duyuyoruz
+
+00:06:18.466 --> 00:06:19.985
+Fiziksel olarak aşırı hasarlı bulunan
+
+00:06:19.985 --> 00:06:22.636
+bir makine de aynını yapabilir mi?
+
+00:06:22.636 --> 00:06:24.362
+Yaygın inanışa göre uçabilmek için
+
+00:06:24.362 --> 00:06:28.052
+en az dört sabit motorlu pervaneye ihtiyaç var.
+
+00:06:28.052 --> 00:06:30.164
+Çünkü kontrol edilmesi gereken dört serbestlik derecesi var.
+
+00:06:30.164 --> 00:06:33.192
+Bunlar: dönme, eğim, yalpalama ve hızlanma.
+
+00:06:33.192 --> 00:06:36.437
+Altı ve sekiz pervanesi olan hekzakopter ve oktokopterler
+
+00:06:36.437 --> 00:06:37.920
+yedekleme sağlayabilir.
+
+00:06:37.920 --> 00:06:39.909
+Ama kuadrokopterler en az sayıda, yani dört adet
+
+00:06:39.909 --> 00:06:41.724
+sabit motorlu pervane çiftine sahip olduklarından
+
+00:06:41.724 --> 00:06:44.200
+çok daha meşhurdurlar.
+
+00:06:44.200 --> 00:06:46.165
+Ya da gerçekten de öyle mi?
+
+00:07:01.476 --> 00:07:04.076
+Çalışan sadece iki pervanesi olduğunda bu makinanın
+
+00:07:04.076 --> 00:07:06.252
+matematik modelini tahlil edersek,
+
+00:07:06.252 --> 00:07:13.008
+bunu uçurmanın pek de bilinmeyen bir yolu olduğunu keşfederiz.
+
+00:07:19.980 --> 00:07:21.686
+Yalpalama kontrolünden feragat ettik.
+
+00:07:21.686 --> 00:07:24.756
+Ama dönme, eğim ve hızlanma bu yeni yapılanmayı
+
+00:07:24.756 --> 00:07:30.208
+sömüren algoritmalarla hala kontrol edilebiliyor.
+
+00:07:33.668 --> 00:07:36.100
+Matematiksel modeller bunun tam olarak
+
+00:07:36.100 --> 00:07:38.172
+ne zaman ve neden mümkün olduğunu bize söylüyor.
+
+00:07:38.172 --> 00:07:40.540
+Bu durumda, bu bilgi yeni makine mimarileri tasarlamamıza
+
+00:07:40.540 --> 00:07:42.796
+veya hasarı iyi bir şekilde
+
+00:07:42.796 --> 00:07:46.972
+telafi edebilecek akıllı algoritmalar tasarlamamıza imkan tanıyor.
+
+00:07:46.972 --> 00:07:48.696
+Aynen insan atletlerin yaptığı gibi.
+
+00:07:48.696 --> 00:07:52.519
+Yedekleme yapan makineler yapmaktan iyidir.
+
+00:07:52.519 --> 00:07:54.631
+Bir dalgıcı suya dalarken veya
+
+00:07:54.631 --> 00:07:57.068
+uzun atlama yapan birini havada uçarken
+
+00:07:57.068 --> 00:07:58.858
+ve yere değmek üzereyken izlediğimizde
+
+00:07:58.858 --> 00:08:00.576
+nefeslerimizi tutmaktan kendimizi alıkoyamayız.
+
+00:08:00.576 --> 00:08:03.144
+Dalgıç iyi bir dalış yapabilecek mi?
+
+00:08:03.144 --> 00:08:05.144
+Ya uzun atlama yapan kişi nasıl bir düşüş gerçekleştirecek?
+
+00:08:05.144 --> 00:08:06.812
+Farzedelim bu kuadın burada
+
+00:08:06.812 --> 00:08:09.263
+üçlü takla atmasını ve tam da
+
+00:08:09.263 --> 00:08:11.532
+başladığı noktada bitirmesini istiyoruz.
+
+00:08:11.532 --> 00:08:13.879
+Bu manevra o kadar hızlı gerçekleşecektir ki
+
+00:08:13.879 --> 00:08:17.508
+bu esnada hareketi düzeltmek için konumlandırma geri bildirimini kullanamayız.
+
+00:08:17.508 --> 00:08:19.782
+Kısaca, bunun için yeterince vakit yok.
+
+00:08:19.782 --> 00:08:23.476
+Ama kuadın yaptığı bu manevrayı kabaca yapmak,
+
+00:08:23.476 --> 00:08:25.708
+manevrayı nasıl bitirdiğini gözlemlemek ve
+
+00:08:25.708 --> 00:08:28.132
+bir sonraki taklanın daha iyi olması için
+
+00:08:28.132 --> 00:08:30.421
+bu gözlemi kullanmak.
+
+00:08:30.421 --> 00:08:32.233
+Uzun atlamacı ve dalgıç gibi
+
+00:08:32.233 --> 00:08:34.152
+sadece sürekli tekrarla
+
+00:08:34.152 --> 00:08:36.077
+manevra öğrenilip en yüksek standartlarda
+
+00:08:36.077 --> 00:08:38.210
+tatbik edilebilir.
+
+00:08:46.412 --> 00:08:51.164
+(Alkış)
+
+00:08:51.164 --> 00:08:54.636
+Hareket eden bir topa vurmak bir çok spor için lüzumlu bir kabiliyettir.
+
+00:08:54.636 --> 00:08:56.431
+Atletin yaptığının aynısını görünürde
+
+00:08:56.431 --> 00:09:00.184
+hiç gayret sarfetmeden bir makineye nasıl yaptırabiliriz?
+
+00:09:15.943 --> 00:09:22.542
+(Alkış)
+
+00:09:22.542 --> 00:09:25.192
+Bu kuadın üstüne bağlı bir raket var.
+
+00:09:25.192 --> 00:09:28.679
+Raketin de üzerinde çok da büyük olmayan, elma büyüklüğünde bir odak noktası var.
+
+00:09:28.679 --> 00:09:31.846
+Sonraki hesaplamalar her 20 milisaniyede gerçekleşiyor.
+
+00:09:31.846 --> 00:09:33.602
+Yani saniyede 50 defa.
+
+00:09:33.602 --> 00:09:36.414
+Önce topun nereye gittiğini tespit ediyoruz.
+
+00:09:36.414 --> 00:09:38.851
+Sonraki aşamada kuad topa nasıl vurursa
+
+00:09:38.851 --> 00:09:41.950
+top geldiği yere döner onu hesaplıyoruz.
+
+00:09:41.950 --> 00:09:46.406
+Üçüncü aşamada, kuadı bulunduğu yerden
+
+00:09:46.406 --> 00:09:49.430
+topa temas ettiği noktaya taşıyan güzergah hesaplanır.
+
+00:09:49.430 --> 00:09:53.239
+Dördüncü olarak ise bu stratejinin sadece 20 milisaniye değerindeki kısmını tatbik ediyoruz.
+
+00:09:53.239 --> 00:09:56.046
+20 milisaniye sonra ise tüm süreç kuad topa vurana kadar
+
+00:09:56.046 --> 00:09:58.289
+devam ediyor.
+
+00:10:07.560 --> 00:10:10.206
+(Alkış)
+
+00:10:10.206 --> 00:10:13.578
+Makineler dinamik manevraları sadece tek başlarına değil,
+
+00:10:13.578 --> 00:10:15.441
+toplu olarak da yapabilirler.
+
+00:10:15.441 --> 00:10:19.028
+Bu üç kuad birlikte bir ağ taşıyorlar.
+
+00:10:28.574 --> 00:10:33.985
+(Alkış)
+
+00:10:33.985 --> 00:10:36.182
+Topu bana geri fırlatmak için
+
+00:10:36.182 --> 00:10:38.350
+aşırı dinamik ve toplu
+
+00:10:38.350 --> 00:10:40.042
+bir manevra sergiliyorlar.
+
+00:10:40.042 --> 00:10:43.553
+Ağ tam gerildiğinde bu kuadların dikey vaziyette olduğunu görün.
+
+00:10:48.486 --> 00:10:50.258
+(Alkış)
+
+00:10:50.258 --> 00:10:52.545
+Aslında ağ tam gerildiğinde
+
+00:10:52.545 --> 00:10:55.230
+kabaca bangi jumping yapan birinin fırlatma sonunda hissettiğinin
+
+00:10:55.230 --> 00:10:59.818
+beş katı kadar.
+
+00:11:03.009 --> 00:11:05.686
+Bunu yapmak için kullanılan algoritmalar
+
+00:11:05.686 --> 00:11:09.070
+tek bir kuadın topu bana geri atmak için kullandığı algoritmalara çok benzer.
+
+00:11:09.070 --> 00:11:11.934
+Matematik modeller ortak bir stratejiyi saniyede 50 defa
+
+00:11:11.934 --> 00:11:16.449
+devamlı tekrar planlamak için kullanılır.
+
+00:11:16.449 --> 00:11:18.326
+Şu ana kadar gördüğümüz her şey
+
+00:11:18.326 --> 00:11:20.789
+makineler ve kabiliyetleri ile alakalı.
+
+00:11:20.789 --> 00:11:23.804
+Makinelerin atletizmini insanlarınkiyle
+
+00:11:23.804 --> 00:11:25.580
+eşleştirsek ne olur?
+
+00:11:25.580 --> 00:11:29.385
+Şu an önümde genel olarak oyun sektöründe kullanılan
+
+00:11:29.385 --> 00:11:30.694
+bir hareket sensörü var.
+
+00:11:30.694 --> 00:11:32.498
+Gerçek zamanlı olarak vücudumun çeşitli kısımlarının
+
+00:11:32.498 --> 00:11:34.546
+ne yaptığını algılayabilir.
+
+00:11:34.546 --> 00:11:36.662
+Daha önce kullandığım işaretçiye benzer bir şekilde
+
+00:11:36.662 --> 00:11:39.454
+bunu sistemde bir girdi olarak kullanabiliriz.
+
+00:11:39.454 --> 00:11:41.850
+Şimdi daha doğal bir yolla bu kuadların
+
+00:11:41.850 --> 00:11:46.794
+ham atletizmiyle hareketlerim arasında bir etkileşim kurabiliriz.
+
+00:12:22.453 --> 00:12:26.853
+(Alkış)
+
+00:12:35.982 --> 00:12:39.989
+Etkileşimin illa ki sanal olmasına gerek yok. Fiziksel de olabilir.
+
+00:12:39.989 --> 00:12:41.714
+Mesela, bu kuad
+
+00:12:41.714 --> 00:12:44.342
+boşlukta belirli bir noktada kalmak istiyor.
+
+00:12:44.342 --> 00:12:48.179
+Eğer onu ordan çekmeye çalışırsam mukavemet eder ve
+
+00:12:48.179 --> 00:12:52.334
+olmak istediği yere geri döner.
+
+00:12:52.334 --> 00:12:55.373
+Ancak bu davranışı değiştirebiliriz.
+
+00:12:55.373 --> 00:12:57.072
+Kuada uyguladığım kuvveti tahmin etmek için
+
+00:12:57.072 --> 00:13:00.205
+matematik modelleri kullanabiliyoruz.
+
+00:13:00.205 --> 00:13:03.443
+Bu kuvveti bildiğimizde kuad söz konusu olduğunda
+
+00:13:03.443 --> 00:13:07.942
+fiziğin kurallarını bile değiştirebiliriz.
+
+00:13:07.942 --> 00:13:10.205
+Burada kuad akmayan sıvı içindeymiş gibi
+
+00:13:10.205 --> 00:13:14.570
+hareket ediyor.
+
+00:13:14.570 --> 00:13:16.744
+Şimdi daha yakın bir şekilde
+
+00:13:16.744 --> 00:13:18.593
+bir makineyle etkileşim kuruyoruz.
+
+00:13:18.593 --> 00:13:21.099
+Bu yeni özelliği, kamera taşıyan bu kuadı
+
+00:13:21.099 --> 00:13:23.676
+gösterinin geri kalanını videoya almak üzere
+
+00:13:23.676 --> 00:13:26.862
+uygun bir yere yerleştirmek için kullanacağım.
+
+00:13:36.222 --> 00:13:38.990
+Yani bu kuadlarla fiziksel olarak etkileşim kurup
+
+00:13:38.990 --> 00:13:41.393
+fizik yasalarını değiştirebiliyoruz.
+
+00:13:41.393 --> 00:13:43.706
+Bununla biraz eğlenelim.
+
+00:13:43.706 --> 00:13:45.410
+Şimdiki gösterimizde, bu kuadlar
+
+00:13:45.410 --> 00:13:48.906
+başlangıçta Plüton'daymış gibi davranacaklar.
+
+00:13:48.906 --> 00:13:51.218
+Zaman ilerledikçe yer çekimi artacak,
+
+00:13:51.218 --> 00:13:53.338
+ta ki tamamen dünyada oluncaya kadar.
+
+00:13:53.338 --> 00:13:55.057
+Ancak sizi temin ederim oraya kadar varamayacağız.
+
+00:13:55.057 --> 00:13:58.558
+Tamam, işte başlıyor.
+
+00:14:05.667 --> 00:14:09.079
+(Kahkaha)
+
+00:14:34.778 --> 00:14:37.986
+(Kahkaha)
+
+00:14:37.986 --> 00:14:41.372
+(Alkış)
+
+00:14:41.372 --> 00:14:42.579
+uhh!
+
+00:14:46.779 --> 00:14:48.296
+Şu an hepiniz
+
+00:14:48.296 --> 00:14:50.271
+bu adamlar ne de eğleniyor diye düşünüyorsunuz ve
+
+00:14:50.271 --> 00:14:52.350
+muhtemelen kendi kendinize bunlar neden
+
+00:14:52.350 --> 00:14:56.286
+makine atletler üretiyor diye soruyorsunuz.
+
+00:14:56.286 --> 00:14:58.938
+Bazılarınız hayvanlar aleminde oyunun rolü yetenek ve kabiliyetleri
+
+00:14:58.938 --> 00:15:01.690
+keskinleştirmektir diye bir çıkarım yapar.
+
+00:15:01.690 --> 00:15:03.756
+Diğer bazılarınız bunun grubu birbirine bağlamak için
+
+00:15:03.756 --> 00:15:05.430
+kullanılan sosyal bir rolü olduğunu düşünür.
+
+00:15:05.430 --> 00:15:08.963
+Benzer şekilde, spor ve atletizm arasındaki yakınlığı
+
+00:15:08.963 --> 00:15:11.042
+makinelerin sınırlarını zorlayacak algoritmalar
+
+00:15:11.042 --> 00:15:13.189
+üretmek için kullanıyoruz.
+
+00:15:13.189 --> 00:15:16.866
+Makinelerin hızının yaşam tarzımız üzerinde nasıl bir etkisi olacak?
+
+00:15:16.866 --> 00:15:19.255
+Geçmişteki tüm icatlarımız ve yeniliklerimiz gibi
+
+00:15:19.255 --> 00:15:22.082
+insanların içinde bulunduğu vaziyeti geliştirmek için kullanılabilirler
+
+00:15:22.082 --> 00:15:24.583
+ya da kötüye kullanılıp suistimal edilebilirler.
+
+00:15:24.583 --> 00:15:26.506
+Karşı karşıya olduğumuz teknik bir seçim değil.
+
+00:15:26.506 --> 00:15:28.261
+Sosyal bir seçim.
+
+00:15:28.261 --> 00:15:29.651
+Doğru olanı seçelim.
+
+00:15:29.651 --> 00:15:32.056
+Spordaki atletizmin bizim içimizdeki en iyileri ortaya çıkardığı gibi,
+
+00:15:32.056 --> 00:15:33.868
+makinelerin geleceğindeki en iyiyi
+
+00:15:33.868 --> 00:15:36.029
+ortaya çıkartacak olanı seçelim.
+
+00:15:36.029 --> 00:15:39.479
+Yeşil perdenin ardındaki sihirbazları tanıtayım.
+
+00:15:39.479 --> 00:15:42.379
+Flying Machine Arena araştırma ekibinin halihazırdaki üyeleri.
+
+00:15:42.379 --> 00:15:47.148
+(Alkış)
+
+00:15:47.148 --> 00:15:50.194
+Federico Augugliaro, Dario Brescianini , Markus Hehn,
+
+00:15:50.194 --> 00:15:53.018
+Sergei Lupashin, Mark Muller ve Robin Ritz.
+
+00:15:53.018 --> 00:15:54.950
+Onlara iyi bakın. Çok iyi şeyler becerecekler.
+
+00:15:54.950 --> 00:15:56.128
+Teşekkür ederim.
+
+00:15:56.128 --> 00:16:02.482
+(Alkış)
+

@@ -1,0 +1,452 @@
+WEBVTT
+Kind: captions
+Language: nl
+
+00:00:00.000 --> 00:00:07.000
+Vertaald door: Huub Ramakers
+Nagekeken door: Rik Delaet
+
+00:00:12.564 --> 00:00:16.209
+Mijn studenten en ik werken
+aan hele kleine robots.
+
+00:00:16.209 --> 00:00:18.426
+Deze kun je zien als mechanische versies
+
+00:00:18.426 --> 00:00:22.016
+van iets waar jullie allemaal
+bekend mee zijn: een mier.
+
+00:00:22.016 --> 00:00:24.776
+Iedereen weet dat mieren
+en andere net zo grote insecten
+
+00:00:24.776 --> 00:00:27.012
+in staat zijn tot ongelooflijke dingen.
+
+00:00:27.012 --> 00:00:30.197
+Iedereen heeft al eens een groep mieren,
+of iets soortgelijks,
+
+00:00:30.197 --> 00:00:34.467
+een frietje zien wegdragen
+bij een picknick, bijvoorbeeld.
+
+00:00:34.467 --> 00:00:37.910
+Maar wat zijn de echte uitdagingen
+bij het ontwerp van deze mieren?
+
+00:00:37.910 --> 00:00:41.861
+Ten eerste: hoe stoppen we
+alle capaciteiten van een mier
+
+00:00:41.861 --> 00:00:43.909
+in een robot die even groot is?
+
+00:00:43.909 --> 00:00:46.513
+Eerst moeten we uitzoeken
+hoe we ze gaan laten bewegen
+
+00:00:46.513 --> 00:00:47.923
+als ze zo klein zijn.
+
+00:00:47.923 --> 00:00:50.223
+Er zijn mechanismen als
+poten en motoren nodig
+
+00:00:50.223 --> 00:00:52.072
+om die voortbeweging te ondersteunen
+
+00:00:52.072 --> 00:00:54.563
+en we hebben sensoren,
+kracht en controle nodig
+
+00:00:54.563 --> 00:00:58.525
+om alles samen te voegen tot
+een semi-intelligente robotmier
+
+00:00:58.525 --> 00:01:01.071
+Ten slotte, om alles
+functioneel te krijgen
+
+00:01:01.071 --> 00:01:05.019
+willen we er veel bij elkaar hebben
+om grotere taken te kunnen uitvoeren.
+
+00:01:05.019 --> 00:01:07.710
+Ik begin met beweeglijkheid.
+
+00:01:07.710 --> 00:01:10.871
+Insecten bewegen zich ongelooflijk soepel.
+
+00:01:10.871 --> 00:01:12.559
+Deze video is van UC Berkeley.
+
+00:01:12.559 --> 00:01:15.342
+Het laat een kakkerlak zien
+die over ruig terrein loopt
+
+00:01:15.342 --> 00:01:17.195
+zonder om te vallen.
+
+00:01:17.195 --> 00:01:21.192
+Dit lukt omdat zijn poten gemaakt zijn
+van een combinatie van hard materiaal,
+
+00:01:21.192 --> 00:01:23.545
+normaal gebruikt bij het maken van robots,
+
+00:01:23.545 --> 00:01:25.144
+en zachte materialen.
+
+00:01:26.374 --> 00:01:30.201
+Springen is een andere interessante manier
+van voortbewegen als je klein bent.
+
+00:01:30.201 --> 00:01:34.270
+Deze insecten slaan energie op in
+een veer en laten die supersnel vrij
+
+00:01:34.270 --> 00:01:36.647
+voor het hoge vermogen 
+dat ze nodig hebben
+
+00:01:36.647 --> 00:01:38.594
+om uit het water te kunnen springen.
+
+00:01:38.594 --> 00:01:41.403
+Een van de grote bijdragen
+uit mijn laboratorium
+
+00:01:41.403 --> 00:01:44.153
+is het combineren van
+hard en zacht materiaal
+
+00:01:44.153 --> 00:01:46.367
+in piepkleine machines.
+
+00:01:46.367 --> 00:01:49.532
+Dit 'machientje' is ongeveer
+4 millimeter lang,
+
+00:01:49.532 --> 00:01:51.220
+dus heel erg klein.
+
+00:01:51.220 --> 00:01:55.058
+Het harde materiaal is silicium en het
+zachte materiaal is siliconenrubber.
+
+00:01:55.058 --> 00:01:57.953
+Het basisidee is dat we
+het samendrukken,
+
+00:01:57.953 --> 00:02:00.654
+energie in de veer opslaan 
+en loslaten voor de sprong.
+
+00:02:00.654 --> 00:02:04.037
+Nu nog zonder motor of stroom.
+
+00:02:04.037 --> 00:02:06.800
+Het wordt aangedreven door
+een methode die we in mijn lab
+
+00:02:06.800 --> 00:02:09.472
+"promovendus met pincet" noemen.
+(Gelach)
+
+00:02:09.472 --> 00:02:11.306
+In de volgende video zie je
+
+00:02:11.306 --> 00:02:14.333
+dat dit kleintje het erg goed doet.
+
+00:02:14.333 --> 00:02:17.947
+Dit is Aaron, de promovendus
+in kwestie, met het pincet
+
+00:02:17.947 --> 00:02:20.630
+en je ziet dat dit machientje
+van 4 millimeter
+
+00:02:20.630 --> 00:02:22.841
+bijna 40 centimeter hoog springt.
+
+00:02:22.841 --> 00:02:25.265
+Dat is ongeveer 100 keer
+zijn eigen lengte.
+
+00:02:25.265 --> 00:02:27.221
+Het overleeft en stuitert op de tafel.
+
+00:02:27.221 --> 00:02:30.735
+Het is erg stevig en overleeft prima
+totdat we het kwijtraken
+
+00:02:30.735 --> 00:02:33.361
+omdat het zo extreem klein is.
+
+00:02:33.361 --> 00:02:35.970
+Uiteindelijk willen we er
+ook motors aan toevoegen.
+
+00:02:35.970 --> 00:02:39.086
+Studenten in het lab
+werken al aan millimetergrote motoren
+
+00:02:39.086 --> 00:02:42.056
+voor die kleine, autonome robots.
+
+00:02:42.056 --> 00:02:43.747
+Om echter nu al op deze schaal
+
+00:02:43.747 --> 00:02:46.258
+beweeglijkheid en voortbeweging 
+te simuleren,
+
+00:02:46.258 --> 00:02:48.241
+spelen we vals en gebruiken we magneten.
+
+00:02:48.241 --> 00:02:51.317
+Dit laat iets zien dat uiteindelijk
+deel wordt van een robotpoot.
+
+00:02:51.317 --> 00:02:53.334
+Je ziet de siliconenrubberen gewrichten.
+
+00:02:53.334 --> 00:02:55.963
+Een ingebouwde magneet
+wordt aangedreven
+
+00:02:55.963 --> 00:02:58.266
+door een extern magnetisch veld.
+
+00:02:58.266 --> 00:03:00.949
+Dit leidt tot de robot
+die ik al eerder liet zien.
+
+00:03:01.959 --> 00:03:05.110
+Het interessante dat deze robot
+ons kan helpen begrijpen
+
+00:03:05.110 --> 00:03:07.117
+is hoe insecten op deze schaal bewegen.
+
+00:03:07.117 --> 00:03:09.342
+We hebben een erg
+goed beeld van hoe alles,
+
+00:03:09.342 --> 00:03:11.304
+van kakkerlak tot olifant, beweegt.
+
+00:03:11.304 --> 00:03:14.228
+We springen allemaal
+een beetje als we rennen.
+
+00:03:14.228 --> 00:03:17.833
+Als ik heel klein ben, 
+zal mijn voortbeweging meer afhangen
+
+00:03:17.833 --> 00:03:21.408
+van de krachten tussen mijn voeten 
+en de grond dan van mijn massa.
+
+00:03:21.408 --> 00:03:23.642
+Vandaar die sprongbeweging.
+
+00:03:23.642 --> 00:03:25.317
+Dit ventje werkt nog niet echt,
+
+00:03:25.317 --> 00:03:28.392
+maar we hebben al grotere
+versies die rondrennen.
+
+00:03:28.392 --> 00:03:32.277
+Dit is ongeveer een kubieke
+centimeter, erg klein dus.
+
+00:03:32.277 --> 00:03:35.179
+Hij legt al 10 lichaamslengten
+per seconde af
+
+00:03:35.179 --> 00:03:36.565
+of 10 centimeter per seconde.
+
+00:03:36.565 --> 00:03:38.598
+Dat is best snel voor een klein ventje
+
+00:03:38.598 --> 00:03:40.960
+en dit is alleen beperkt
+door onze testopstelling.
+
+00:03:40.960 --> 00:03:43.607
+Dit geeft een idee van hoe
+het momenteel werkt.
+
+00:03:43.947 --> 00:03:48.241
+We kunnen ook 3D-geprinte versies maken
+die over hindernissen kunnen klimmen,
+
+00:03:48.241 --> 00:03:51.280
+zoals de kakkerlak die
+jullie eerder al zagen.
+
+00:03:51.280 --> 00:03:54.166
+Uiteindelijk willen we
+alles in de robot krijgen.
+
+00:03:54.166 --> 00:03:57.859
+We willen sensoren, stroom,
+besturing en aandrijving ineen.
+
+00:03:57.859 --> 00:04:00.765
+Niet alles hoeft bio-gebaseerd te zijn.
+
+00:04:00.765 --> 00:04:03.900
+Deze robot is net zo groot
+als een Tic Tac.
+
+00:04:03.900 --> 00:04:07.849
+In dit geval gebruiken we geen magneten
+of spieren voor de voortbeweging,
+
+00:04:07.849 --> 00:04:10.044
+maar raketten.
+
+00:04:10.044 --> 00:04:12.940
+Dit is micro-gefabriceerd
+materiaal met hoge energie-inhoud.
+
+00:04:12.940 --> 00:04:15.539
+We kunnen er kleine pixels van maken
+
+00:04:15.539 --> 00:04:19.326
+en ze op de buik van
+de robot plaatsen
+
+00:04:19.326 --> 00:04:23.722
+waardoor hij gaat springen
+als hij een lichtimpuls krijgt.
+
+00:04:24.645 --> 00:04:26.618
+Deze video is een van mijn favorieten.
+
+00:04:26.618 --> 00:04:29.658
+Dit is een robot van 300 milligram
+
+00:04:29.658 --> 00:04:32.064
+die acht centimeter hoog springt.
+
+00:04:32.064 --> 00:04:34.974
+De robot is 4 x 4 x 7 millimeter groot.
+
+00:04:34.974 --> 00:04:37.130
+In het begin zie je een felle flits
+
+00:04:37.130 --> 00:04:38.622
+waardoor het systeem reageert
+
+00:04:38.622 --> 00:04:40.530
+en de robot door de lucht schiet.
+
+00:04:40.530 --> 00:04:42.139
+Dat was de grote flits
+
+00:04:42.139 --> 00:04:45.336
+en je ziet dat de robot gelanceerd wordt.
+
+00:04:45.336 --> 00:04:48.368
+Dat allemaal zonder draden.
+
+00:04:48.368 --> 00:04:50.862
+Alles zit in de robot en
+die springt als reactie
+
+00:04:50.862 --> 00:04:55.243
+op het licht van de bureaulamp
+die door de student werd aangezet.
+
+00:04:55.243 --> 00:04:58.897
+Je kan je misschien voorstellen welke
+toffe dingen allemaal mogelijk zijn
+
+00:04:58.897 --> 00:05:03.604
+met robots op deze schaal die kunnen
+rennen, kruipen, springen en rollen.
+
+00:05:03.604 --> 00:05:07.394
+Stel je de puinhoop voor 
+na een natuurramp als een aardbeving.
+
+00:05:07.394 --> 00:05:09.553
+Beeld je in dat deze kleine robots
+
+00:05:09.553 --> 00:05:12.171
+in het puin op zoek gaan 
+naar overlevenden.
+
+00:05:12.171 --> 00:05:15.127
+Stel je voor dat veel kleine robots
+over een brug krioelen,
+
+00:05:15.127 --> 00:05:17.286
+die brug checken en ze veilig kunnen maken
+
+00:05:17.286 --> 00:05:22.466
+tegen instortingen
+zoals deze bij Minneapolis in 2007.
+
+00:05:22.466 --> 00:05:24.984
+Of beeld je in wat je zou kunnen doen
+
+00:05:24.995 --> 00:05:27.518
+met robots die door je bloed zwemmen.
+
+00:05:27.518 --> 00:05:29.851
+Te gek hè?
+'Fantastic Voyage', Isaac Asimov.
+
+00:05:29.851 --> 00:05:34.206
+Je kan geopereerd worden zonder
+eerst opengesneden te hoeven worden.
+
+00:05:34.206 --> 00:05:36.936
+Of we kunnen onze manier van
+bouwen radicaal veranderen
+
+00:05:36.936 --> 00:05:40.343
+als we kleine robots hebben die
+werken net zoals termieten dat doen.
+
+00:05:40.343 --> 00:05:43.818
+Ze bouwen ongelooflijke torens 
+van 8 meter hoog.
+
+00:05:43.818 --> 00:05:46.911
+Net goed geventileerde flatgebouwen.
+
+00:05:46.911 --> 00:05:49.314
+Je vindt ze in Afrika en Australië.
+
+00:05:49.314 --> 00:05:51.717
+Ik denk dat ik enkele
+mogelijkheden heb getoond
+
+00:05:51.717 --> 00:05:54.154
+van wat we allemaal kunnen
+met deze kleine robots.
+
+00:05:54.154 --> 00:05:58.561
+Tot nu toe hebben we redelijke vooruitgang
+geboekt, maar nog lang niet voldoende,
+
+00:05:58.561 --> 00:06:01.419
+en hopelijk kunnen enkelen
+van jullie daaraan meewerken.
+
+00:06:01.419 --> 00:06:03.187
+Heel erg bedankt.
+
+00:06:03.187 --> 00:06:05.391
+(Applaus)
+

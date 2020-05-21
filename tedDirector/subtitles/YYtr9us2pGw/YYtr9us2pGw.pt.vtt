@@ -1,0 +1,212 @@
+WEBVTT
+Kind: captions
+Language: pt
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Alexandre Marcondes
+Revisor: Luis Glehn
+
+00:00:19.330 --> 00:00:21.330
+Em 1952, Buckminster Fuller
+
+00:00:21.330 --> 00:00:25.330
+apresentou uma proposta particularmente audaciosa para o Geoscope.
+
+00:00:25.330 --> 00:00:28.330
+Era uma esfera geodésica de 60 metros de diâmetro
+
+00:00:28.330 --> 00:00:33.330
+a ser suspensa sobre o Rio East na cidade de Nova york, sendo vista inteiramente das Nações Unidas.
+
+00:00:33.330 --> 00:00:39.330
+Era uma grande idéia, com certeza, e ele sentiu que ela poderia realmente informar
+
+00:00:39.330 --> 00:00:43.330
+e definitivamente afetar o processo de decisões deste grupo
+
+00:00:43.330 --> 00:00:47.330
+através de animações com dados, previsões
+
+00:00:47.330 --> 00:00:51.330
+e outras informações relativas ao mundo, nesta esfera.
+
+00:00:51.330 --> 00:00:54.330
+Hoje, 45 anos depois,
+
+00:00:54.330 --> 00:00:57.330
+nós claramente ainda temos a necessidade deste tipo de clareza e perspectiva,
+
+00:00:57.330 --> 00:01:00.330
+mas o que temos são tecnologias melhoradas.
+
+00:01:00.330 --> 00:01:03.330
+Atualmente, não precisamos mais de um milhão de lâmpadas para criar uma tela esférica
+
+00:01:03.330 --> 00:01:05.330
+Podemos usar LEDS.
+
+00:01:05.330 --> 00:01:10.330
+LEDs são menores, mais baratos, duram mais e são mais eficientes.
+
+00:01:10.330 --> 00:01:12.330
+E o mais importante é que são mais rápidos.
+
+00:01:12.330 --> 00:01:16.330
+E esta velocidade, combinada com a alta-performance dos micro-controladores atuais
+
+00:01:16.330 --> 00:01:19.330
+permitiu que realmente simulássemos, nesta peça,
+
+00:01:19.330 --> 00:01:23.330
+mais de 17.000 LEDs -- usando apenas 64.
+
+00:01:24.330 --> 00:01:28.330
+E a maneira que isto acontece é através do fenômeno da persistência da visão.
+
+00:01:28.330 --> 00:01:32.330
+Mas como este anel gira a 1.700 RPM -- o que é 28 vezes por segundo.
+
+00:01:33.330 --> 00:01:36.330
+A velocidade equatorial é, na verdade, 96 km/h.
+
+00:01:36.330 --> 00:01:38.330
+Há quatro micro-controladores embarcados
+
+00:01:38.330 --> 00:01:41.330
+que, cada vez que o anel gira,
+
+00:01:41.330 --> 00:01:43.330
+assim que passa por trás da tela,
+
+00:01:43.330 --> 00:01:45.330
+ele capta um sinal de posicionamento
+
+00:01:45.330 --> 00:01:47.330
+e a partir disto, os micro-controladores embarcados
+
+00:01:47.330 --> 00:01:52.330
+podem extrapolar a posição do anel em todos os pontos ao redor da volta completa
+
+00:01:52.330 --> 00:01:55.330
+e mostrar imagens e animações arbitrárias.
+
+00:01:55.330 --> 00:01:58.330
+Mas este é apenas o início.
+
+00:01:58.330 --> 00:02:01.330
+Além de versões com maior resolução desta tela,
+
+00:02:01.330 --> 00:02:04.330
+meu pai e eu estamos trabalhando em um novo projeto com patente pendente
+
+00:02:04.330 --> 00:02:07.330
+para uma tela totalmente volumétrica usando o mesmo fenômeno.
+
+00:02:07.330 --> 00:02:10.330
+Ela consegue isto ao rotacionar os LEDs em dois eixos.
+
+00:02:10.330 --> 00:02:13.330
+De forma que, como podem ver aqui, esta é uma placa de circuito impresso de 28 centímetros.
+
+00:02:13.330 --> 00:02:15.330
+Estes blocos representam LEDs.
+
+00:02:15.330 --> 00:02:19.330
+E você também pode ver que enquanto o disco gira neste eixo,
+
+00:02:19.330 --> 00:02:22.330
+irá criar um disco luminoso que podemos controlar.
+
+00:02:22.330 --> 00:02:24.330
+Não há nada de novo nisto, é um relógio de propulsão.
+
+00:02:24.330 --> 00:02:27.330
+É como as calotas que você compra para o seu carro.
+
+00:02:27.330 --> 00:02:32.330
+Mas o que tem de novo, é que quando rotacionamos o disco neste eixo,
+
+00:02:32.330 --> 00:02:35.330
+agora o disco de luz realmente se torna uma esfera luminosa.
+
+00:02:35.330 --> 00:02:37.330
+Assim, podemos controlar isto com os micro-controladores
+
+00:02:37.330 --> 00:02:43.330
+e criar uma tela tridimensional, totalmente volumétrica, com apenas 256 LEDs.
+
+00:02:43.330 --> 00:02:45.330
+Esta parte está, atualmente, em progresso --
+
+00:02:45.330 --> 00:02:50.330
+e estará pronta em Maio, mas o que nós fizemos foi criar uma pequena demonstração,
+
+00:02:50.330 --> 00:02:54.330
+apenas para mostrar a translação de pontos dentro de uma esfera.
+
+00:02:54.330 --> 00:02:56.330
+Eu tenho este pequeno vídeo para mostrar-lhes,
+
+00:02:56.330 --> 00:03:00.330
+mas não se esqueça de que este não tem controle eletrônico,
+
+00:03:00.330 --> 00:03:02.330
+e que ele tem apenas quatro LEDs.
+
+00:03:02.330 --> 00:03:05.330
+Isto é, realmente, apenas 1,5% do que será a tela final em Maio.
+
+00:03:05.330 --> 00:03:07.330
+Então, vejam.
+
+00:03:09.330 --> 00:03:13.330
+E aqui você pode vê-la girando apenas sobre o eixo vertical, criando círculos.
+
+00:03:17.330 --> 00:03:19.330
+E assim que o outro eixo entra em ação,
+
+00:03:19.330 --> 00:03:21.330
+o volume cria-se gradualmente.
+
+00:03:21.330 --> 00:03:23.330
+E a velocidade de disparo da câmera
+
+00:03:23.330 --> 00:03:26.330
+faz com que ele seja menos eficaz neste caso.
+
+00:03:26.330 --> 00:03:28.330
+Mas este produto estará pronto em Maio.
+
+00:03:28.330 --> 00:03:31.330
+Estará a mostra no evento Interactive Telecommunications Spring Show
+
+00:03:31.330 --> 00:03:33.330
+em Greenwich Village na cidade de Nova York -- estará aberto ao público,
+
+00:03:33.330 --> 00:03:37.330
+definitivamente, convido todos vocês para vir e presenciar -- é um evento fantástico.
+
+00:03:37.330 --> 00:03:41.330
+Há centenas de estudantes inovadores com projetos fantásticos.
+
+00:03:41.330 --> 00:03:43.330
+Este produto, na realidade, estará a mostra
+
+00:03:43.330 --> 00:03:45.330
+no Lounge Sierra Simulcast
+
+00:03:45.330 --> 00:03:47.330
+nos intervalos entre agora e o final do evento.
+
+00:03:47.330 --> 00:03:49.330
+Eu adoraria conversar com todos vocês, e convidá-los
+
+00:03:49.330 --> 00:03:51.330
+a comparecer e ver de perto.
+
+00:03:51.330 --> 00:03:53.330
+É uma honra estar aqui, muito obrigado.
+
+00:03:53.330 --> 00:03:54.330
+(Aplausos)
+

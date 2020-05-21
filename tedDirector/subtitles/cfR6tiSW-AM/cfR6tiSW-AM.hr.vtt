@@ -1,0 +1,1136 @@
+WEBVTT
+Kind: captions
+Language: hr
+
+00:00:00.000 --> 00:00:07.000
+Prevoditelj: Igor Dobec
+Recezent: Tilen Pigac - EFZG
+
+00:00:15.260 --> 00:00:18.260
+Dakle, prvi robot o kojem ću govoriti se zove STriDER.
+
+00:00:18.260 --> 00:00:20.260
+To je kratica za Samopobuđen
+
+00:00:20.260 --> 00:00:22.260
+Tronožni Dinamički Eksperimentalni Robot.
+
+00:00:22.260 --> 00:00:24.260
+To je robot koji ima tri noge,
+
+00:00:24.260 --> 00:00:27.260
+inspiriran prirodom.
+
+00:00:27.260 --> 00:00:29.260
+Ali jeste li vidjeli ikada u prirodi
+
+00:00:29.260 --> 00:00:31.260
+životinju koja ima tri noge ?
+
+00:00:31.260 --> 00:00:33.260
+Najvjerojatnije ne. Pa zašto ja to zovem
+
+00:00:33.260 --> 00:00:35.260
+biološki inspiriranim robotom? Kako radi?
+
+00:00:35.260 --> 00:00:38.260
+Ali prije toga, bacimo pogled na pop kulturu.
+
+00:00:38.260 --> 00:00:41.260
+Znate za novelu i film H.G. Wellsa Rat svjetova.
+
+00:00:41.260 --> 00:00:43.260
+I ovo što vidite je jako popularna
+
+00:00:43.260 --> 00:00:45.260
+video igra.
+
+00:00:45.260 --> 00:00:48.260
+U fikciji obično opisuju ove strane kreature
+
+00:00:48.260 --> 00:00:50.260
+kao robote koji imaju tri noge i teroriziraju Zemlju.
+
+00:00:50.260 --> 00:00:54.260
+Ali moj robot, STriDER se ne miče tako.
+
+00:00:54.260 --> 00:00:57.260
+I ovo je zapravo animacija dinamičke simulacije.
+
+00:00:57.260 --> 00:00:59.260
+Sad ću vam pokazati kako robot radi.
+
+00:00:59.260 --> 00:01:02.260
+Okreće svoje tijelo za 180 stupnjeva.
+
+00:01:02.260 --> 00:01:05.260
+Njiše svoju nogu između dvije noge kako bi prihvatio pad.
+
+00:01:05.260 --> 00:01:07.260
+I tako hoda. Ali kada pogledate nas
+
+00:01:07.260 --> 00:01:09.260
+ljude, dvonožno hodanje,
+
+00:01:09.260 --> 00:01:11.260
+ono što radite nije stvarno korištenje mišića
+
+00:01:11.260 --> 00:01:14.260
+kako bi digli svoju nogu i hodali poput robota. Točno?
+
+00:01:14.260 --> 00:01:17.260
+Ono što zapravo radite je da zamahnete nogom kako bi prihvatili pad,
+
+00:01:17.260 --> 00:01:20.260
+natrag se digli, zamahnuli nogom i prihvatili pad.
+
+00:01:20.260 --> 00:01:23.260
+Koristeći ugrađenu dinamiku, fiziku vašeg tijela,
+
+00:01:23.260 --> 00:01:25.260
+kao njihalo.
+
+00:01:25.260 --> 00:01:29.260
+Mi to zovemo koncept pasivno dinamičkog kretanja.
+
+00:01:29.260 --> 00:01:31.260
+Ono što radite, kada ustanete je pretvaranje,
+
+00:01:31.260 --> 00:01:33.260
+potencijalne energije u kinetičku,
+
+00:01:33.260 --> 00:01:35.260
+potencijalne energije u kinetičku.
+
+00:01:35.260 --> 00:01:37.260
+To je konstantan proces padanja.
+
+00:01:37.260 --> 00:01:40.260
+I tako, makar ništa u prirodi ne izgleda poput ovog,
+
+00:01:40.260 --> 00:01:42.260
+mi smo zapravo inspirirani biologijom
+
+00:01:42.260 --> 00:01:44.260
+i primjenjujemo principe hodanja
+
+00:01:44.260 --> 00:01:47.260
+u ovom robotu, pa je to biološki inspiriran robot.
+
+00:01:47.260 --> 00:01:49.260
+Ovo što vidite ovdje, je ono što bi željeli napraviti slijedeće.
+
+00:01:49.260 --> 00:01:53.260
+Mi želimo svinuti noge i rastegnuti ih za veliki domet.
+
+00:01:53.260 --> 00:01:56.260
+I želimo sklopiti noge, otprilike kako izgleda u Ratovima zvijezda.
+
+00:01:56.260 --> 00:01:59.260
+Kada se spusti, absorbira šok i počne hodati.
+
+00:01:59.260 --> 00:02:02.260
+Ovo što vidite ovdje, ova žuta stvar, to nije zraka smrti.
+
+00:02:02.260 --> 00:02:04.260
+To je samo da pokažemo ako imate kamere
+
+00:02:04.260 --> 00:02:06.260
+ili različite vrste senzora
+
+00:02:06.260 --> 00:02:08.260
+zato jer je visok, visok je 1,8 metara,
+
+00:02:08.260 --> 00:02:11.260
+može vidjeti preko prepreka poput grmlja i slično.
+
+00:02:11.260 --> 00:02:13.260
+Imamo dva prototipa.
+
+00:02:13.260 --> 00:02:16.260
+Prva verzija, u pozadini, to je STriDER I.
+
+00:02:16.260 --> 00:02:18.260
+Ova naprijed, manja, je STriDER II.
+
+00:02:18.260 --> 00:02:20.260
+Problem koji smo imali sa STriDERom I je
+
+00:02:20.260 --> 00:02:23.260
+da je imao preteško tijelo. Imamo toliko motora,
+
+00:02:23.260 --> 00:02:25.260
+znate, za pomicanje zglobova, i slično.
+
+00:02:25.260 --> 00:02:29.260
+Tako, odlučili smo sintetizirati mehanički mehanizam
+
+00:02:29.260 --> 00:02:32.260
+kako bi se mogli riješiti svih tih motora, i s jednim motorom
+
+00:02:32.260 --> 00:02:34.260
+možemo koordinirati sve pokrete.
+
+00:02:34.260 --> 00:02:37.260
+To je mehaničko riješenje problema, umjesto korištenja mehatronike.
+
+00:02:37.260 --> 00:02:40.260
+I tako, s ovim sad, tijelo je dosta lagano da može hodati u laboratoriju.
+
+00:02:40.260 --> 00:02:43.260
+Ovo je bio prvi uspješan korak.
+
+00:02:43.260 --> 00:02:45.260
+Još nije savršen. Kava mu ispada,
+
+00:02:45.260 --> 00:02:48.260
+i još imamo mnogo posla.
+
+00:02:48.260 --> 00:02:51.260
+Drugi robot o kojem želim pričati se zove IMPASS.
+
+00:02:51.260 --> 00:02:55.260
+To je kratica za Inteligentna Mobilna Platforma sa Sustavom Šipaka.
+
+00:02:55.260 --> 00:02:58.260
+I to je hibridni robot s kotačima i nogama.
+
+00:02:58.260 --> 00:03:00.260
+Pomislite na kotač bez okvira,
+
+00:03:00.260 --> 00:03:02.260
+ili kotač sa šiljcima.
+
+00:03:02.260 --> 00:03:05.260
+Ali se šiljci zasebno miču unutra i van.
+
+00:03:05.260 --> 00:03:07.260
+I tako, to je hibrid s kotačima i nogama.
+
+00:03:07.260 --> 00:03:09.260
+Doslovno smo ovdje ponovno izmislili kotač.
+
+00:03:09.260 --> 00:03:12.260
+Da vam demonstriram kako radi.
+
+00:03:12.260 --> 00:03:14.260
+Dakle, u ovom videu koristimo pristup
+
+00:03:14.260 --> 00:03:16.260
+kojeg zovemo reaktivni pristup.
+
+00:03:16.260 --> 00:03:19.260
+Samo jednostavno koristimo osjetilne senzore na nogama,
+
+00:03:19.260 --> 00:03:21.260
+pokušava hodati preko promjenjivog terena,
+
+00:03:21.260 --> 00:03:24.260
+mekog terena koji se savija i mijenja.
+
+00:03:24.260 --> 00:03:26.260
+I uz pomoć osjetilnih informacija
+
+00:03:26.260 --> 00:03:29.260
+uspješno prelazi preko ovih vrsta terena.
+
+00:03:29.260 --> 00:03:33.260
+Ali kada naleti na vrlo ekstreman teren,
+
+00:03:33.260 --> 00:03:36.260
+u ovom slučaju, ova prepreka je više od tri puta
+
+00:03:36.260 --> 00:03:38.260
+visine samog robota,
+
+00:03:38.260 --> 00:03:40.260
+tada se prebaci u slobodan mod
+
+00:03:40.260 --> 00:03:42.260
+gdje koristi laserski tragač,
+
+00:03:42.260 --> 00:03:44.260
+i sustav kamera kako bi identificirao prepreku i veličinu,
+
+00:03:44.260 --> 00:03:47.260
+i planira, pažljivo planira kretanje šiljaka,
+
+00:03:47.260 --> 00:03:49.260
+i kordinira ih tako da može pokazati
+
+00:03:49.260 --> 00:03:51.260
+ovu vrlo vrlo impresivnu pokretljivost.
+
+00:03:51.260 --> 00:03:53.260
+Sigurno niste vidjeli ništa poput ovoga.
+
+00:03:53.260 --> 00:03:56.260
+Ovo je vrlo visoko mobilan robot
+
+00:03:56.260 --> 00:03:59.260
+kojeg smo razvili, i zove se IMPASS.
+
+00:03:59.260 --> 00:04:01.260
+Ah! Nije li to kul?
+
+00:04:01.260 --> 00:04:04.260
+Kada vozite svoj auto,
+
+00:04:04.260 --> 00:04:06.260
+kada upravljate autom, koristite metodu
+
+00:04:06.260 --> 00:04:08.260
+zvanu Ackermannovo upravljanje.
+
+00:04:08.260 --> 00:04:10.260
+Prednji kotači se ovako rotiraju.
+
+00:04:10.260 --> 00:04:13.260
+Za većinu robota s malim kotačima
+
+00:04:13.260 --> 00:04:15.260
+koriste metodu zvanu diferencijalno upravljanje
+
+00:04:15.260 --> 00:04:18.260
+gdje se lijevi i desni kotač okreću u suprotne smjerove.
+
+00:04:18.260 --> 00:04:21.260
+Za IMPASS možemo napraviti mnogo različitih tipova kretanja.
+
+00:04:21.260 --> 00:04:24.260
+Na primjer, u ovom slučaju, čak iako su lijevi i desni kotač povezani
+
+00:04:24.260 --> 00:04:26.260
+s jednom osovinom, rotiranje s istim kutom brzine.
+
+00:04:26.260 --> 00:04:29.260
+Samo jednostavno produžimo duljinu šiljka.
+
+00:04:29.260 --> 00:04:31.260
+Utječe na promjer, i tada okreće lijevo, okreće desno.
+
+00:04:31.260 --> 00:04:33.260
+I, to su samo neki primjeri zgodnih stvari
+
+00:04:33.260 --> 00:04:36.260
+koje možemo raditi s IMPASS-om.
+
+00:04:36.260 --> 00:04:38.260
+Ovaj robot se zove CLIMBeR,
+
+00:04:38.260 --> 00:04:41.260
+Inteligentan robot s udovima povezan kabelom.
+
+00:04:41.260 --> 00:04:44.260
+I tako, razgovarao sam s dosta NASA JPL znanstvenicima,
+
+00:04:44.260 --> 00:04:46.260
+u JPL-u su poznati po Mars roverima.
+
+00:04:46.260 --> 00:04:48.260
+I znanstvenici, geolozi mi uvijek govore
+
+00:04:48.260 --> 00:04:51.260
+da je prava zanimljiva znanost,
+
+00:04:51.260 --> 00:04:54.260
+da su znanstveno značajna nalazišta uvijek na uzvisinama.
+
+00:04:54.260 --> 00:04:56.260
+Ali trenutni roveri ne mogu doći do tamo.
+
+00:04:56.260 --> 00:04:58.260
+Inspirirani time željeli smo napraviti robota
+
+00:04:58.260 --> 00:05:01.260
+koji se može penjati po strukturiranom brdovitom okolišu.
+
+00:05:01.260 --> 00:05:03.260
+I tako, to je CLIMBeR.
+
+00:05:03.260 --> 00:05:05.260
+Ono što radi, ima tri noge. Teško je za vidjeti,
+
+00:05:05.260 --> 00:05:08.260
+ali je povezan kabelom na vrhu.
+
+00:05:08.260 --> 00:05:10.260
+I pokušava razaznati koje je najbolje mjesto da stavi svoju nogu.
+
+00:05:10.260 --> 00:05:12.260
+I kada jednom to shvati
+
+00:05:12.260 --> 00:05:15.260
+u stvarnom vremenu izračuna distribuciju sila.
+
+00:05:15.260 --> 00:05:18.260
+Koliko je sile potrebno da se digne s površine
+
+00:05:18.260 --> 00:05:20.260
+a da se ne posklizne i ne pade.
+
+00:05:20.260 --> 00:05:22.260
+Jednom kad stabilizira to da diže nogu,
+
+00:05:22.260 --> 00:05:26.260
+i tada se uz pomoć klatna može popesti po takvim stvarima.
+
+00:05:26.260 --> 00:05:28.260
+Također za primjenu kod potraga i spašavanja.
+
+00:05:28.260 --> 00:05:30.260
+Prije pet godina sam zapravo i radio za NASA JPL
+
+00:05:30.260 --> 00:05:32.260
+preko ljeta kao stažist.
+
+00:05:32.260 --> 00:05:36.260
+I oni su već imali šestero nožnog robota pod imenom LEMUR.
+
+00:05:36.260 --> 00:05:39.260
+I, ovo je zapravo bazirano na tome. Ovaj robot se zove MARS,
+
+00:05:39.260 --> 00:05:42.260
+Robotski sustav sa više udova. To je zapravo šestero nožni robot.
+
+00:05:42.260 --> 00:05:44.260
+Razvili smo naš planer adaptacije.
+
+00:05:44.260 --> 00:05:46.260
+I zapravo imamo vrlo zanimljiv teret ovdje.
+
+00:05:46.260 --> 00:05:48.260
+Studenti se vole zabavljati. I ovdje možete vidjeti da
+
+00:05:48.260 --> 00:05:51.260
+hoda preko nestrukturiranog terena.
+
+00:05:51.260 --> 00:05:53.260
+Pokušava hodati po neravnom terenu,
+
+00:05:53.260 --> 00:05:55.260
+pješćanom području,
+
+00:05:55.260 --> 00:06:00.260
+ali ovisno o vlagi i veličini zrna pjeska
+
+00:06:00.260 --> 00:06:02.260
+model propadanja noga se mijenja.
+
+00:06:02.260 --> 00:06:06.260
+I, tako se pokušava prilagoditi da uspješno prođe preko takvih stvari.
+
+00:06:06.260 --> 00:06:08.260
+I također, radi neke zabavne stvari, kao što možete zamisliti.
+
+00:06:08.260 --> 00:06:11.260
+Dolaze nam mnogi posjetitelji u naš labaratorij.
+
+00:06:11.260 --> 00:06:13.260
+I kada posjetitelji dođu, MARS hoda do računala,
+
+00:06:13.260 --> 00:06:15.260
+i počne tipkati "Zdravo, moje ime je MARS"
+
+00:06:15.260 --> 00:06:17.260
+Dobrodošli u RoMeLu,
+
+00:06:17.260 --> 00:06:21.260
+Laboratorij robotskih mehanizama na sveučilištu Virgina Tech.
+
+00:06:21.260 --> 00:06:23.260
+Ovaj robot je ameba robot.
+
+00:06:23.260 --> 00:06:26.260
+Sada, nemamo dosta vremena za ulaženje u tehničke detalje,
+
+00:06:26.260 --> 00:06:28.260
+pokazati ću vam samo neke od eksperimenata.
+
+00:06:28.260 --> 00:06:30.260
+I tako, ovo su neki od ranih izvedivih eksperimenata.
+
+00:06:30.260 --> 00:06:34.260
+Spremamo potencijalnu energiju u elastičnu kožu kako bi se pomicala.
+
+00:06:34.260 --> 00:06:36.260
+Ili koristimo aktivne napete žice kako bi ih pomicali
+
+00:06:36.260 --> 00:06:39.260
+naprijed i natrag. Zove se ChIMERA.
+
+00:06:39.260 --> 00:06:41.260
+Također smo radili s nekim znanstvenicima
+
+00:06:41.260 --> 00:06:43.260
+i inžinjerima iz UPenna
+
+00:06:43.260 --> 00:06:45.260
+kako bi došli do kemijski usavršene verzije
+
+00:06:45.260 --> 00:06:47.260
+ovog ameba robota.
+
+00:06:47.260 --> 00:06:49.260
+Pretvaramo nešto u nešto.
+
+00:06:49.260 --> 00:06:55.260
+I to je poput magije, kreće se. Grudica.
+
+00:06:55.260 --> 00:06:57.260
+Ovaj robot je vrlo nedavni projekt. Zove se RAPHaEL.
+
+00:06:57.260 --> 00:07:00.260
+Robotska zračno pogonjena ruka s elastičnim ligamentima.
+
+00:07:00.260 --> 00:07:04.260
+Postoji mnogo zgodnih, vrlo dobrih robotskih ruka na tržištu.
+
+00:07:04.260 --> 00:07:08.260
+Problem je u tome da su previše skupe, u desecima tisućama dolara.
+
+00:07:08.260 --> 00:07:10.260
+Tako da primjena za prostetiku nije previše praktična,
+
+00:07:10.260 --> 00:07:12.260
+zato jer nije dostupna.
+
+00:07:12.260 --> 00:07:16.260
+Željeli smo se primiti tog problema sa sasvim drugačijeg smjera.
+
+00:07:16.260 --> 00:07:19.260
+Umjesto korištenja električnih motora, elektromehaničkih pokretača,
+
+00:07:19.260 --> 00:07:21.260
+koristimo komprimirani zrak.
+
+00:07:21.260 --> 00:07:23.260
+Uveli smo ove novitetne pokretače za zglobove.
+
+00:07:23.260 --> 00:07:26.260
+Usuglašen je. Možete zapravo mijenjati silu,
+
+00:07:26.260 --> 00:07:28.260
+jednostavno samo promjenom tlaka zraka.
+
+00:07:28.260 --> 00:07:30.260
+I zapravo može smrskati praznu limenku od soka.
+
+00:07:30.260 --> 00:07:33.260
+Može podići vrlo delikatne objekte poput sirovog jaja,
+
+00:07:33.260 --> 00:07:36.260
+ili u ovom slučaju, sijalice.
+
+00:07:36.260 --> 00:07:40.260
+Najbolja stvar je da je koštalo samo oko 200 dolara da se izradi prvi prototip.
+
+00:07:40.260 --> 00:07:43.260
+Ovaj robot je zapravo pripadnik obitelji zmijolikih robota
+
+00:07:43.260 --> 00:07:45.260
+koje zovemo HyDRAS,
+
+00:07:45.260 --> 00:07:47.260
+Robotski artikulirani gmaz s više stupnjeva slobode.
+
+00:07:47.260 --> 00:07:50.260
+Ovo je robot koji se može penjati po strukturama.
+
+00:07:50.260 --> 00:07:52.260
+Ovo je ruka HyDRAS-e.
+
+00:07:52.260 --> 00:07:54.260
+To je robotska ruka s 12 stupnjeva slobode.
+
+00:07:54.260 --> 00:07:56.260
+Ali cool dio je korisničko sučelje.
+
+00:07:56.260 --> 00:07:59.260
+Ovaj kabel, to je optičko vlakno.
+
+00:07:59.260 --> 00:08:01.260
+I ova studentica, koja ga najvjerojatnije koristi prvi put,
+
+00:08:01.260 --> 00:08:03.260
+može upravljati u mnogo različitih smjerova.
+
+00:08:03.260 --> 00:08:06.260
+I, na primjer u Iraku, znate, u ratnoj zoni,
+
+00:08:06.260 --> 00:08:08.260
+postoje bombe kraj ceste. Trenutno šaljemo ovo
+
+00:08:08.260 --> 00:08:11.260
+opremljeno daljinski upravljano vozilo.
+
+00:08:11.260 --> 00:08:13.260
+Treba mnogo vremena i skupo je
+
+00:08:13.260 --> 00:08:17.260
+naučiti operatera da upravlja ovom kompleksnom rukom.
+
+00:08:17.260 --> 00:08:19.260
+U ovom slučaju sučelje je vrlo intuitivno.
+
+00:08:19.260 --> 00:08:23.260
+Ovaj student, koji ga najvjerojatnije prvi put koristi, radi vrlo kompleksne manipulacije,
+
+00:08:23.260 --> 00:08:25.260
+podiže predmete, i manipulira,
+
+00:08:25.260 --> 00:08:28.260
+samo tako, vrlo intuitivno.
+
+00:08:30.260 --> 00:08:32.260
+I sada, ovaj robot je naša zvijezda.
+
+00:08:32.260 --> 00:08:35.260
+Zapravo imamo klub obožavatelja robota pod imenom DARwIn,
+
+00:08:35.260 --> 00:08:38.260
+Dinamčki Antropomorfički Robot s Inteligencijom.
+
+00:08:38.260 --> 00:08:40.260
+I kako dobro znate mi smo zainteresirani za
+
+00:08:40.260 --> 00:08:42.260
+humanoidne robote, ljudski hod,
+
+00:08:42.260 --> 00:08:44.260
+i tako smo odlučili izgraditi malog humanoidnog robota.
+
+00:08:44.260 --> 00:08:46.260
+To je bilo 2004., u to vrijeme
+
+00:08:46.260 --> 00:08:48.260
+to je bilo nešto stvarno, stvarno revolucionarno.
+
+00:08:48.260 --> 00:08:50.260
+To je bila više studija izvedivosti,
+
+00:08:50.260 --> 00:08:52.260
+koje motore da koristimo?
+
+00:08:52.260 --> 00:08:54.260
+Je li uopće moguće? Kakve kontrole bi trebali napraviti?
+
+00:08:54.260 --> 00:08:56.260
+I, ovo nema nikakvih senzora.
+
+00:08:56.260 --> 00:08:58.260
+U otvorenoj kontroli petlje je.
+
+00:08:58.260 --> 00:09:00.260
+I za one koji najvjerojatnije znaju, ako nemate nikakvih senzora
+
+00:09:00.260 --> 00:09:02.260
+i postoji smetnja, znate što se dešava.
+
+00:09:05.260 --> 00:09:06.260
+(smijeh)
+
+00:09:06.260 --> 00:09:08.260
+I, tako temeljeno na tom uspjehu, slijedeće godine
+
+00:09:08.260 --> 00:09:11.260
+smo napravili pravi mehanički dizajn
+
+00:09:11.260 --> 00:09:13.260
+počevši od kinetike.
+
+00:09:13.260 --> 00:09:15.260
+I tako, DARwIn je bio rođen 2005.
+
+00:09:15.260 --> 00:09:17.260
+Ustaje. Hoda, vrlo impresivno.
+
+00:09:17.260 --> 00:09:19.260
+Ipak, još, kao što možete vidjeti,
+
+00:09:19.260 --> 00:09:23.260
+ima žicu, pupčanu vrpcu. I, mi još koristimo vanjski izvor napajanja,
+
+00:09:23.260 --> 00:09:25.260
+i vanjske proračune.
+
+00:09:25.260 --> 00:09:29.260
+I, 2006., sad je stvarno vrijeme za zabavu.
+
+00:09:29.260 --> 00:09:32.260
+Dajmo mu inteligenciju. Dajemo mu računalnu snagu koju treba,
+
+00:09:32.260 --> 00:09:34.260
+1,5 gigahercni Pentium M čip,
+
+00:09:34.260 --> 00:09:36.260
+dvije Firewire kamere, osam žiroskopa, akcelerometar,
+
+00:09:36.260 --> 00:09:39.260
+četiri senzora pritiska na nogama, litijske baterije.
+
+00:09:39.260 --> 00:09:43.260
+I sada DARwIn II je u potpunosti autonoman.
+
+00:09:43.260 --> 00:09:45.260
+Daljinski je upravljan.
+
+00:09:45.260 --> 00:09:48.260
+Nije povezan. Gleda okolo, traži loptu,
+
+00:09:48.260 --> 00:09:51.260
+gleda okolo, traži loptu, i pokušava odigrati partiju nogometa,
+
+00:09:51.260 --> 00:09:54.260
+autonomno, umjetna inteligencija.
+
+00:09:54.260 --> 00:09:57.260
+Da vidimo kako to radi. Ovo je naš prvi pokušaj,
+
+00:09:57.260 --> 00:10:02.260
+i... Video: Gol!
+
+00:10:03.260 --> 00:10:06.260
+I, tako zapravo postoji natjecanje pod imenom RoboCup.
+
+00:10:06.260 --> 00:10:08.260
+Znam da su mnogi od vas čuli za RoboCup.
+
+00:10:08.260 --> 00:10:13.260
+To je internacionalno nogomentno natjecanje autonomnih robota.
+
+00:10:13.260 --> 00:10:16.260
+I cilj RoboCupa, pravi cilj je,
+
+00:10:16.260 --> 00:10:18.260
+do 2050. godine
+
+00:10:18.260 --> 00:10:21.260
+želimo imati autuonomnog humanoidnog robota prave veličine
+
+00:10:21.260 --> 00:10:25.260
+koji bi igrao protiv ljudskih prvaka Svjetskog prvenstva
+
+00:10:25.260 --> 00:10:27.260
+i pobjedio.
+
+00:10:27.260 --> 00:10:29.260
+To je stvarni cilj. To je vrlo ambiciozan cilj,
+
+00:10:29.260 --> 00:10:31.260
+ali stvarno vjerujemo da to možemo napraviti.
+
+00:10:31.260 --> 00:10:34.260
+I tako, ovo je prošle godine u Kini.
+
+00:10:34.260 --> 00:10:36.260
+Bili smo prvi tim iz Sjedinjenih država koji se kvalificirao
+
+00:10:36.260 --> 00:10:38.260
+u natjecanju humanoidnih robota.
+
+00:10:38.260 --> 00:10:41.260
+Ove godine, ovo je bilo u Austriji.
+
+00:10:41.260 --> 00:10:43.260
+Vidjet ćete akcije, tri protiv tri,
+
+00:10:43.260 --> 00:10:45.260
+u potpunosti autonomni.
+
+00:10:45.260 --> 00:10:47.260
+Evo vidite. Da!
+
+00:10:48.260 --> 00:10:50.260
+Roboti prate i igraju,
+
+00:10:50.260 --> 00:10:53.260
+tim međusobno dodaje.
+
+00:10:53.260 --> 00:10:55.260
+To je vrlo impresivno. To je stvarno istraživački događaj
+
+00:10:55.260 --> 00:10:59.260
+upakiran u uzbudljiv natjecateljski događaj.
+
+00:10:59.260 --> 00:11:01.260
+Ovo što vidite ovdje, ovo je prekrasan
+
+00:11:01.260 --> 00:11:03.260
+trofej Kupa Louisa Vuittona.
+
+00:11:03.260 --> 00:11:05.260
+I, ovo je za najboljeg humanoida,
+
+00:11:05.260 --> 00:11:07.260
+i voljeli bi ovo dovesti po prvi put u Sjedinjene države,
+
+00:11:07.260 --> 00:11:09.260
+slijedeće godine, zaželite nam sreću.
+
+00:11:09.260 --> 00:11:11.260
+Hvala vam.
+
+00:11:11.260 --> 00:11:14.260
+(Pljesak)
+
+00:11:14.260 --> 00:11:16.260
+DARwIn također ima i mnogo drugih talenata.
+
+00:11:16.260 --> 00:11:19.260
+Prošle godine je zapravo dirigirao Roanoke simfonijskim orkestrom
+
+00:11:19.260 --> 00:11:22.260
+za blagdanski koncert.
+
+00:11:22.260 --> 00:11:25.260
+Ovo je robot nove generacije, DARwIn IV,
+
+00:11:25.260 --> 00:11:28.260
+ali pametniji, brži, jači.
+
+00:11:28.260 --> 00:11:30.260
+I pokušava pokazati svoje sposobnosti.
+
+00:11:30.260 --> 00:11:33.260
+"Ja sam mačo, ja sam jak."
+
+00:11:33.260 --> 00:11:36.260
+Može raditi i neke pokrete u stilu Jackie Chanovih
+
+00:11:36.260 --> 00:11:39.260
+borilačkih pokreta.
+
+00:11:39.260 --> 00:11:41.260
+(Smijeh)
+
+00:11:41.260 --> 00:11:43.260
+I odlazi. Dakle, ovo je DARwIn IV,
+
+00:11:43.260 --> 00:11:45.260
+opet, možete ga vidjeti u predvorju.
+
+00:11:45.260 --> 00:11:47.260
+Mi stvarno vjerujemo da će ovo biti prvo natjecanje,
+
+00:11:47.260 --> 00:11:50.260
+humanoidnih robota u Sjedinjenim državama. Pratite nas.
+
+00:11:50.260 --> 00:11:53.260
+Dobro, pokazao sam vam nekoliko naših uzbudljivih robota na djelu.
+
+00:11:53.260 --> 00:11:56.260
+Dakle, što je tajna našeg uspjeha?
+
+00:11:56.260 --> 00:11:58.260
+Kako dolazimo do takvih ideja?
+
+00:11:58.260 --> 00:12:00.260
+Kako razvijamo takve ideje?
+
+00:12:00.260 --> 00:12:02.260
+Imamo u potpunosti autonomno vozilo
+
+00:12:02.260 --> 00:12:04.260
+koje se može voziti u urbanom okruženju. Osvojili smo pola milijuna dolara
+
+00:12:04.260 --> 00:12:06.260
+u DARPA-inom Urbanom Izazovu.
+
+00:12:06.260 --> 00:12:08.260
+Mi također imamo prvo svjetsko vozilo
+
+00:12:08.260 --> 00:12:10.260
+koje mogu voziti slijepi.
+
+00:12:10.260 --> 00:12:12.260
+Zovemo ih izazov za slijepe vozače, vrlo uzbudljivo,
+
+00:12:12.260 --> 00:12:16.260
+i mnogo drugih projekata robotike o kojima vam želim pričati.
+
+00:12:16.260 --> 00:12:18.260
+Ovo su samo nagrade koje smo osvojili na jesen 2007. godine
+
+00:12:18.260 --> 00:12:21.260
+na robotskim natjecanjima i sličnim događajima.
+
+00:12:21.260 --> 00:12:23.260
+I, mi stvarno imamo pet tajni.
+
+00:12:23.260 --> 00:12:25.260
+Prvo je gdje dobivamo inspiraciju,
+
+00:12:25.260 --> 00:12:27.260
+gdje dobivamo tu iskru imaginacije?
+
+00:12:27.260 --> 00:12:30.260
+Ovo je istinita priča, moja osobna priča.
+
+00:12:30.260 --> 00:12:32.260
+Kada idem u krevet, 3 ili 4 ujutro,
+
+00:12:32.260 --> 00:12:35.260
+legnem, zatvorim oči, i onda vidim ove linije i kružnice
+
+00:12:35.260 --> 00:12:37.260
+i različite oblike koji lete okolo,
+
+00:12:37.260 --> 00:12:40.260
+i onda se spoje i formiraju ovakve mehanizme.
+
+00:12:40.260 --> 00:12:42.260
+I onda pomislim, "Ah, ovo je kul."
+
+00:12:42.260 --> 00:12:44.260
+I, pokraj kreveta držim notes,
+
+00:12:44.260 --> 00:12:47.260
+dnevnik, sa specijalnom olovkom koja ima svijetlo na sebi, LED svijetlo,
+
+00:12:47.260 --> 00:12:49.260
+zato jer ne želim paliti svjetlo i probuditi ženu.
+
+00:12:49.260 --> 00:12:51.260
+Tako, vidite ovo, zapišem sve, nacrtam stvari,
+
+00:12:51.260 --> 00:12:53.260
+i odem u krevet.
+
+00:12:53.260 --> 00:12:55.260
+Svaki dan ujutro,
+
+00:12:55.260 --> 00:12:57.260
+prva stvar koju napravim prije prve šalice kave,
+
+00:12:57.260 --> 00:12:59.260
+prije nego što operem zube, otvorim svoj notes.
+
+00:12:59.260 --> 00:13:01.260
+Mnogo puta je prazan,
+
+00:13:01.260 --> 00:13:03.260
+nekad imam nešto što je smeće,
+
+00:13:03.260 --> 00:13:06.260
+ali većinu vremena ne mogu niti čitati svoj rukopis.
+
+00:13:06.260 --> 00:13:09.260
+Ipak, 4 ujutro, što možete očekivati?
+
+00:13:09.260 --> 00:13:11.260
+Dakle, trebam dešifrirati što sam napisao.
+
+00:13:11.260 --> 00:13:14.260
+Ali ponekad vidim odličnu ideju,
+
+00:13:14.260 --> 00:13:16.260
+i imam taj eureka trenutak.
+
+00:13:16.260 --> 00:13:18.260
+Direktno otrčim do svog ureda u kući, sjedem za računalo,
+
+00:13:18.260 --> 00:13:20.260
+utipkam ideje, skiciram stvari,
+
+00:13:20.260 --> 00:13:23.260
+i sačuvam bazu ideja.
+
+00:13:23.260 --> 00:13:25.260
+I tako, dok imamo pozive za zahtjeve
+
+00:13:25.260 --> 00:13:27.260
+pokušavam naći poveznicu između mojih
+
+00:13:27.260 --> 00:13:29.260
+potencijalnih ideja
+
+00:13:29.260 --> 00:13:31.260
+i problema, ako postoji veza, pišemo istraživački zahtjev,
+
+00:13:31.260 --> 00:13:35.260
+tražimo finaciranje istraživanja, i tako započinjemo naše istraživačke programe.
+
+00:13:35.260 --> 00:13:38.260
+Ali samo iskra imaginacije nije dovoljna.
+
+00:13:38.260 --> 00:13:40.260
+Kako razvijamo takve ideje?
+
+00:13:40.260 --> 00:13:43.260
+U našem laboratoriju RoMeLa, laboratoriju robotskih mehanizama,
+
+00:13:43.260 --> 00:13:46.260
+imamo fantastične seanse brainstorminga.
+
+00:13:46.260 --> 00:13:48.260
+Dakle, svi se okupimo, i diskutiramo o problemima
+
+00:13:48.260 --> 00:13:50.260
+i socijalnim problemima i pričamo o tome.
+
+00:13:50.260 --> 00:13:53.260
+Ali prije nego što počnemo postavimo ovo zlatno pravilo.
+
+00:13:53.260 --> 00:13:55.260
+Pravilo je:
+
+00:13:55.260 --> 00:13:58.260
+Nitko ne kritizira ničiju ideju.
+
+00:13:58.260 --> 00:14:00.260
+Nitko ne kritizira ničije mišljenje.
+
+00:14:00.260 --> 00:14:02.260
+To je važno, jer se mnogo puta, studenti, oni se boje
+
+00:14:02.260 --> 00:14:05.260
+ili se osjećaju nelagodno u vezi onoga što bi drugi mislili
+
+00:14:05.260 --> 00:14:07.260
+o njihovim stavovima i mislima.
+
+00:14:07.260 --> 00:14:09.260
+I, jednom dok se to napravi, nevjerojatno je
+
+00:14:09.260 --> 00:14:11.260
+kako se studenti otvore.
+
+00:14:11.260 --> 00:14:14.260
+Imaju lude kul brilijantne ideje,
+
+00:14:14.260 --> 00:14:17.260
+cijela soba je jednostavno elektrificirana s kreativnom energijom.
+
+00:14:17.260 --> 00:14:20.260
+I to je način na koji razvijamo svoje ideje.
+
+00:14:20.260 --> 00:14:23.260
+Dobro, vrijeme nam prolazi, samo još jedna stvar o kojoj vam želim govoriti je
+
+00:14:23.260 --> 00:14:27.260
+znate, samo iskra ideje i razvoja nije dovoljna.
+
+00:14:27.260 --> 00:14:29.260
+To je bio odličan TED trenutak,
+
+00:14:29.260 --> 00:14:32.260
+mislim da je to bio Sir Ken Robinson, zar ne?
+
+00:14:32.260 --> 00:14:34.260
+On je govorio kako obrazovanje
+
+00:14:34.260 --> 00:14:36.260
+i škola ubijaju kreativnost.
+
+00:14:36.260 --> 00:14:39.260
+Zapravo, tu su dvije strane priče.
+
+00:14:39.260 --> 00:14:42.260
+Dakle, ograničeno je ono što jedna osoba može napraviti
+
+00:14:42.260 --> 00:14:44.260
+s odličnom idejom
+
+00:14:44.260 --> 00:14:47.260
+i kreativnošću i dobrom inžinjerskom intuicijom.
+
+00:14:47.260 --> 00:14:49.260
+Ako želite ići dalje od razmišljanja,
+
+00:14:49.260 --> 00:14:51.260
+ako želite ići dalje od hobija robotike
+
+00:14:51.260 --> 00:14:54.260
+i stvarno se suočiti s velikim izazovima robotike
+
+00:14:54.260 --> 00:14:56.260
+kroz rigorozno istraživanje
+
+00:14:56.260 --> 00:14:59.260
+mi trebamo više od toga. To je gdje škole dolaze.
+
+00:14:59.260 --> 00:15:02.260
+Batman, kad se bori protiv zločinaca,
+
+00:15:02.260 --> 00:15:04.260
+ima svoj remen sa stvarima, ima kuku za primanje,
+
+00:15:04.260 --> 00:15:06.260
+i različite vrste gadgeta.
+
+00:15:06.260 --> 00:15:08.260
+Za nas, robotičare, inžinjere i znanstvenike,
+
+00:15:08.260 --> 00:15:13.260
+ti alati, to su sve tečajevi i predavanja koja se uče u razredu.
+
+00:15:13.260 --> 00:15:15.260
+Matematika, diferencijalne jednadžbe.
+
+00:15:15.260 --> 00:15:17.260
+Imamo linearnu algebru, znanost, fiziku,
+
+00:15:17.260 --> 00:15:20.260
+i danas, kemiju i biologiju, kao što ste vidjeli.
+
+00:15:20.260 --> 00:15:22.260
+To su sve alati koje trebamo.
+
+00:15:22.260 --> 00:15:24.260
+Tako, što više alata imate, za Batmana
+
+00:15:24.260 --> 00:15:26.260
+je efikasnija borba protiv zločina,
+
+00:15:26.260 --> 00:15:30.260
+za nas, više alata za napad na velike probleme.
+
+00:15:30.260 --> 00:15:33.260
+I tako, obrazovanje je vrlo važno.
+
+00:15:33.260 --> 00:15:35.260
+Također, nije o tome,
+
+00:15:35.260 --> 00:15:37.260
+nije samo o tome, važno je vrlo vrlo mnogo raditi.
+
+00:15:37.260 --> 00:15:39.260
+I, uvijek govorim svojim studentima,
+
+00:15:39.260 --> 00:15:41.260
+radite pametno, a onda radite teško.
+
+00:15:41.260 --> 00:15:44.260
+Ova slika u pozadini je u 3 ujutro.
+
+00:15:44.260 --> 00:15:46.260
+Garantiram ako dođete u laboratorij u 3, 4 ujutro
+
+00:15:46.260 --> 00:15:48.260
+tamo će biti studenti koji će raditi,
+
+00:15:48.260 --> 00:15:51.260
+ne zato jer im tako velim, nego zato jer se vrlo dobro zabavljaju.
+
+00:15:51.260 --> 00:15:53.260
+I to vodi do posljednje teme.
+
+00:15:53.260 --> 00:15:55.260
+Ne zaboravite se zabavljati.
+
+00:15:55.260 --> 00:15:58.260
+To je stvarno tajna našeg uspjeha. Previše nam je zabavno.
+
+00:15:58.260 --> 00:16:01.260
+Stvarno vjerujem da najveća produktivnost dolazi kada se zabavljate.
+
+00:16:01.260 --> 00:16:03.260
+I to je ono što radimo.
+
+00:16:03.260 --> 00:16:05.260
+Evo. Puno vam hvala.
+
+00:16:05.260 --> 00:16:10.260
+(Pljesak)
+

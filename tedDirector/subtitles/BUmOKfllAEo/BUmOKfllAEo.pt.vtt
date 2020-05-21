@@ -1,0 +1,965 @@
+WEBVTT
+Kind: captions
+Language: pt
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Rui Alão
+Revisor: Fabio Ceconello
+
+00:00:19.330 --> 00:00:24.330
+Bem-vindos. Poderia passar o primeiro slide, por favor?
+
+00:00:33.330 --> 00:00:38.330
+Ao contrário dos cálculos feitos por engenheiros, abelhas podem voar,
+
+00:00:38.330 --> 00:00:45.330
+golfinhos podem nadar, e lagartos podem escalar
+
+00:00:45.330 --> 00:00:51.330
+as superfícies mais lisas. Com o pouco tempo de que disponho, quero fazer com que
+
+00:00:51.330 --> 00:00:55.330
+cada um de vocês experimente,
+
+00:00:55.330 --> 00:01:01.330
+de certa maneira, o prazer de descobrir o design da natureza.
+
+00:01:01.330 --> 00:01:03.330
+Eu faço isso o tempo todo, e é incrível.
+
+00:01:03.330 --> 00:01:09.330
+Gostaria de compartilhar um pouco disto com vocês nesta palestra.
+
+00:01:09.330 --> 00:01:11.330
+O desafio de perceber o design da natureza --
+
+00:01:11.330 --> 00:01:15.330
+e eu vou contar o jeito como nós o percebemos, e como o usamos.
+
+00:01:15.330 --> 00:01:17.330
+O desafio, é lógico, é responder a esta questão:
+
+00:01:17.330 --> 00:01:20.330
+O que faz com que estes animais tenham este desempenho
+
+00:01:20.330 --> 00:01:23.330
+a ponto de irem onde quer que queiram?
+
+00:01:23.330 --> 00:01:30.330
+E se nós descobríssemos um jeito de implementar estes designs?
+
+00:01:30.330 --> 00:01:33.330
+Bem, muitos biólogos dirão a engenheiros e outros,
+
+00:01:33.330 --> 00:01:36.330
+que os organismos levaram milhões de anos até chegarem a este ponto,
+
+00:01:36.330 --> 00:01:39.330
+que são espetaculares, e que podem fazer qualquer coisa espetacularmente bem,
+
+00:01:39.330 --> 00:01:43.330
+e que a resposta é biomímica -- copiar diretamente a natureza.
+
+00:01:43.330 --> 00:01:48.330
+Sabemos, de nosso trabalho com animais que, na verdade, isto é
+
+00:01:48.330 --> 00:01:52.330
+exatamente o que você não deve fazer. Porque a evolução trabalha
+
+00:01:52.330 --> 00:01:55.330
+sob o princípio do "bom-o-bastante", e não num princípio de aperfeiçoamento.
+
+00:01:55.330 --> 00:01:59.330
+E as limitações em construir um organismo, quando você olha para ele,
+
+00:01:59.330 --> 00:02:04.330
+são muito severas. As tecnologias naturais têm limitações incríveis.
+
+00:02:04.330 --> 00:02:07.330
+Pense a respeito. Se você fosse um engenheiro e eu dissesse
+
+00:02:07.330 --> 00:02:12.330
+que você teria que construir um automóvel, mas que ele teria que ser pequenininho,
+
+00:02:12.330 --> 00:02:16.330
+e que ele teria que crescer até ficar grande e que teria que funcionar durante todo o processo.
+
+00:02:16.330 --> 00:02:20.330
+Pense que se você construisse um automóvel, que você também teria que, dentro dele,
+
+00:02:20.330 --> 00:02:24.330
+colocar uma fábrica que permitiria construir outros automóveis.
+
+00:02:24.330 --> 00:02:26.330
+(Risos)
+
+00:02:26.330 --> 00:02:30.330
+Você nunca poderia, nunca, por causa do passado
+
+00:02:30.330 --> 00:02:34.330
+e da configuração herdada, começar por uma 'tabula rasa'.
+
+00:02:34.330 --> 00:02:37.330
+Então, organismos têm este passado importante.
+
+00:02:37.330 --> 00:02:42.330
+Na verdade, a evolução trabalha mais como um funileiro que como um engenheiro.
+
+00:02:42.330 --> 00:02:45.330
+E isto é muito importante quando você começa a prestar atenção nos animais.
+
+00:02:45.330 --> 00:02:52.330
+Ao invés disto, acreditamos que você precisa ser inspirado pela biologia.
+
+00:02:52.330 --> 00:02:56.330
+Você precisa descobrir os princípios gerais da natureza.
+
+00:02:56.330 --> 00:02:59.330
+e usar as analogias quando são vantajosas.
+
+00:03:02.330 --> 00:03:05.330
+E isto é um desafio e tanto, porque
+
+00:03:05.330 --> 00:03:08.330
+quando você começa a prestar atenção nos animais,
+
+00:03:08.330 --> 00:03:12.330
+ele parecem ser inacreditavelmente complexos. Não existe um memorial detalhado
+
+00:03:12.330 --> 00:03:15.330
+dos projetos anteriores, e você não pode consultá-lo em lugar nenhum.
+
+00:03:15.330 --> 00:03:19.330
+Eles têm movimentos demais nas suas juntas, músculos demais,
+
+00:03:19.330 --> 00:03:22.330
+mesmo o animal mais simples que podemos imaginar, algo como um inseto,
+
+00:03:22.330 --> 00:03:25.330
+tem mais neurônios e conexões que você pode imaginar.
+
+00:03:25.330 --> 00:03:30.330
+Como você pode racionalizar isto? Bem, acreditamos --
+
+00:03:30.330 --> 00:03:35.330
+e formulamos hipóteses -- que eles poderiam funcionar de forma simples,
+
+00:03:35.330 --> 00:03:38.330
+se fizéssemos com que o controle de seus movimentos
+
+00:03:38.330 --> 00:03:44.330
+fosse construído junto com seus próprios corpos.
+
+00:03:44.330 --> 00:03:51.330
+Descobrimos que animais de duas, quatro, seis e oito pernas
+
+00:03:51.330 --> 00:03:54.330
+todos produzem as mesmas forças no chão quando se movimentam.
+
+00:03:54.330 --> 00:03:58.330
+Eles todos fazem como o canguru, eles pulam.
+
+00:03:58.330 --> 00:04:02.330
+E podem ser modelados através de um sistema de oscilador-massa, que chamamos de sistema de oscilador-massa
+
+00:04:02.330 --> 00:04:05.330
+porque somos bio mecânicos, na verdade é um pula-pula.
+
+00:04:05.330 --> 00:04:09.330
+Eles sempre produzem o padrão do pula-pula. Como assim?
+
+00:04:09.330 --> 00:04:15.330
+Bem, num humano, uma de suas pernas funciona como duas pernas de um cachorro trotando
+
+00:04:15.330 --> 00:04:19.330
+ou como três de um inseto no trote,
+
+00:04:19.330 --> 00:04:21.330
+ou quatro de um carangueijo trotando.
+
+00:04:21.330 --> 00:04:25.330
+E elas alternam na propulsão,
+
+00:04:25.330 --> 00:04:30.330
+mas os padrões são sempre os mesmos. Quase todos os organismos que estudamos
+
+00:04:30.330 --> 00:04:32.330
+-- vocês verão na próxima semana -- Vou dar uma dica,
+
+00:04:32.330 --> 00:04:35.330
+haverá um artigo saindo que diz que coisas grandes
+
+00:04:35.330 --> 00:04:39.330
+como o T. Rex provavelmente não podiam fazer isto, mas vocês verão na semana que vem.
+
+00:04:39.330 --> 00:04:41.330
+O que é interessante é que os animais que mencionamos pulam
+
+00:04:41.330 --> 00:04:44.330
+no plano vertical deste modo, e em colaboração com a Pixar
+
+00:04:44.330 --> 00:04:46.330
+em "Vida de inseto", discutimos a
+
+00:04:46.330 --> 00:04:49.330
+natureza bípede dos personagens das formigas.
+
+00:04:49.330 --> 00:04:51.330
+E dissemos que elas se movem no outro plano também,
+
+00:04:51.330 --> 00:04:54.330
+e nos fizeram a seguinte pergunta. "Por que modelar
+
+00:04:54.330 --> 00:04:56.330
+somente o plano sagital (ou o vertical),
+
+00:04:56.330 --> 00:04:58.330
+quando está nos dizendo que se movem
+
+00:04:58.330 --> 00:05:01.330
+no plano horizontal?" Esta é uma boa questão.
+
+00:05:01.330 --> 00:05:04.330
+Nenhum biólogo modelou deste jeito antes.
+
+00:05:04.330 --> 00:05:08.330
+Aceitamos o conselho e modelamos o animal se movendo
+
+00:05:08.330 --> 00:05:11.330
+no plano horizontal também. Pegamos três pernas,
+
+00:05:11.330 --> 00:05:12.330
+agrupamos em uma só,
+
+00:05:12.330 --> 00:05:15.330
+chamamos os melhores matemáticos no mundo
+
+00:05:15.330 --> 00:05:17.330
+de Princeton para resolver a questão.
+
+00:05:17.330 --> 00:05:20.330
+E conseguimos criar um modelo
+
+00:05:20.330 --> 00:05:21.330
+no qual os animais não só pulam para cima e para baixo,
+
+00:05:21.330 --> 00:05:25.330
+mas também de um lado para o outro ao mesmo tempo.
+
+00:05:25.330 --> 00:05:27.330
+E muitos organismos se encaixam neste padrão.
+
+00:05:27.330 --> 00:05:29.330
+Mas por que é importante chegar a este modelo?
+
+00:05:29.330 --> 00:05:32.330
+Porque é interessante. Quando pegamos este modelo
+
+00:05:32.330 --> 00:05:35.330
+e o perturbamos, damos um empurrão,
+
+00:05:35.330 --> 00:05:39.330
+quando ele bate em alguma coisa, ele se auto-estabiliza, sem cérebro,
+
+00:05:39.330 --> 00:05:43.330
+ou sem reflexos, apenas por sua estrutura.
+
+00:05:43.330 --> 00:05:48.330
+É um modelo bonito. Vamos dar uma olhada na matemática.
+
+00:05:48.330 --> 00:05:50.330
+(Risos)
+
+00:05:50.330 --> 00:05:51.330
+Pronto!
+
+00:05:51.330 --> 00:05:55.330
+(Risos)
+
+00:05:55.330 --> 00:05:57.330
+Os animais, quando olhamos eles correndo
+
+00:05:57.330 --> 00:06:00.330
+parecem se auto-estabilizar assim,
+
+00:06:00.330 --> 00:06:03.330
+usando basicamente pernas elásticas. Isto é, as pernas podem
+
+00:06:03.330 --> 00:06:06.330
+processar por si mesmas, os algoritmos de controle estão inseridos
+
+00:06:06.330 --> 00:06:09.330
+de certo modo, na forma do próprio animal.
+
+00:06:09.330 --> 00:06:16.330
+Por que não nos inspiramos na natureza e por este tipo de descoberta mais frequentemente?
+
+00:06:16.330 --> 00:06:20.330
+Bem, eu diria que as tecnologias humanas são realmente diferentes das
+
+00:06:20.330 --> 00:06:23.330
+tecnologias naturais, ao menos têm sido até agora.
+
+00:06:23.330 --> 00:06:28.330
+Pense no típico robô que você vê.
+
+00:06:28.330 --> 00:06:31.330
+Tecnologias humanas tendem a ser grandes, planas,
+
+00:06:31.330 --> 00:06:36.330
+com ângulos retos, duras, feitas de metal. Elas têm rolamentos
+
+00:06:36.330 --> 00:06:39.330
+e eixos. Existem poucos motores, poucos sensores.
+
+00:06:39.330 --> 00:06:44.330
+Enquanto a natureza tende a ser pequena, e curva,
+
+00:06:44.330 --> 00:06:47.330
+e ela se curva e torce e têm pernas em vez de apêndices,
+
+00:06:47.330 --> 00:06:50.330
+e tem muitos músculos e muitos e muitos sensores.
+
+00:06:50.330 --> 00:06:54.330
+Portanto, é um design muito diferente. E no entanto,
+
+00:06:54.330 --> 00:06:56.330
+o que está mudando -- e eu vou mostrar para vocês em breve --
+
+00:06:56.330 --> 00:06:59.330
+é que quanto mais a tecnologia humana tomar emprestado características
+
+00:06:59.330 --> 00:07:05.330
+da natureza, mais a natureza pode se tornar um professor eficiente.
+
+00:07:05.330 --> 00:07:07.330
+E aqui está um exemplo que é muito interessante.
+
+00:07:07.330 --> 00:07:09.330
+Esta é uma colaboração que temos com Stanford.
+
+00:07:09.330 --> 00:07:13.330
+E eles desenvolveram uma técnica chamada Produção de Deposição de Formas.
+
+00:07:13.330 --> 00:07:17.330
+É uma técnica na qual eles podem misturar materiais e moldar qualquer forma
+
+00:07:17.330 --> 00:07:21.330
+que queiram, e colocar as propriedades do material.
+
+00:07:21.330 --> 00:07:24.330
+Podem colocar sensores e atuadores dentro de própria forma.
+
+00:07:24.330 --> 00:07:29.330
+Por exemplo, aqui está uma perna -- a parte transparente é dura,
+
+00:07:29.330 --> 00:07:32.330
+a parte branca é adaptável, e você não precisa de nenhum eixo ou coisa parecida.
+
+00:07:32.330 --> 00:07:35.330
+Ela simplesmente se curva de forma elegante.
+
+00:07:35.330 --> 00:07:38.330
+Portanto, você pode por estas propriedades lá. Isto os inspirou a mostrar
+
+00:07:38.330 --> 00:07:44.330
+este design produzindo um robozinho batizado de Sprawl.
+
+00:07:44.330 --> 00:07:48.330
+Nosso trabalho também inspirou outro robô, um robô pulador, inspirado pela biologia,
+
+00:07:48.330 --> 00:07:50.330
+da Universidade do Michigan e McGill
+
+00:07:50.330 --> 00:07:58.330
+batizado de RHex, por ser um robô hexápode, e ele é autônomo.
+
+00:07:58.330 --> 00:08:01.330
+Vamos ver o vídeo e deixem-me mostrar alguns destes animais se movendo.
+
+00:08:01.330 --> 00:08:03.330
+Então, estes são alguns dos robôs mais simples
+
+00:08:03.330 --> 00:08:06.330
+que foram inspirados em nossas descobertas.
+
+00:08:06.330 --> 00:08:10.330
+Isto é o que alguns de vocês fizeram hoje pela manhã, embora tenham feito ao ar livre
+
+00:08:10.330 --> 00:08:12.330
+e não na esteira ergométrica.
+
+00:08:12.330 --> 00:08:15.330
+Aqui é o que nós fazemos.
+
+00:08:15.330 --> 00:08:17.330
+(Risos)
+
+00:08:17.330 --> 00:08:22.330
+Esta é uma barata -- do tipo americana
+
+00:08:22.330 --> 00:08:23.330
+que você pensa que não tem em sua cozinha.
+
+00:08:23.330 --> 00:08:30.330
+Este é um escorpião de oito pernas, uma formiga de seis pernas e um centípede de quarenta e quatro pernas.
+
+00:08:30.330 --> 00:08:33.330
+Eu disse que estes animais são como pula-pulas --
+
+00:08:33.330 --> 00:08:37.330
+eles estão pulando enquanto se movem e você pode ver isto
+
+00:08:37.330 --> 00:08:40.330
+neste carangueijo Maria-farinha das praias do Panamá e da Carolina do Norte.
+
+00:08:40.330 --> 00:08:43.330
+Ele chega a quatro metros por segundo quando corre.
+
+00:08:43.330 --> 00:08:46.330
+Na verdade, ele pula no ar e tem fases aéreas
+
+00:08:46.330 --> 00:08:50.330
+quando pula, como um cavalo, e você pode ver ele pulando aqui.
+
+00:08:50.330 --> 00:08:53.330
+Descobrimos que não importa se você olha para uma perna de um humano
+
+00:08:53.330 --> 00:08:59.330
+como o Richard, ou uma barata, ou um carangueijo, ou um canguru,
+
+00:08:59.330 --> 00:09:04.330
+a rigidez relativa daquela mola é a mesma para todos os que estudamos até agora.
+
+00:09:04.330 --> 00:09:06.330
+Mas será que as pernas elásticas são mesmo boas, o que elas podem fazer?
+
+00:09:06.330 --> 00:09:08.330
+Bem, nós queríamos descobrir se elas davam maior estabilidade
+
+00:09:08.330 --> 00:09:11.330
+e capacidade de manobra aos animais.
+
+00:09:11.330 --> 00:09:15.330
+Então fizemos um terreno que tinha três vezes o tamanho da coxa
+
+00:09:15.330 --> 00:09:16.330
+dos animais que estávamos estudando,
+
+00:09:16.330 --> 00:09:20.330
+e estávamos certos que eles não conseguiriam vencer os obstáculos. E isto foi o que fizeram.
+
+00:09:20.330 --> 00:09:23.330
+O animal correu sobre eles e nem mesmo diminuiu sua velocidade.
+
+00:09:23.330 --> 00:09:25.330
+Ele não diminuiu sua velocidade em nada.
+
+00:09:25.330 --> 00:09:28.330
+Não acreditávamos que ele pudesse fazer isto. Isto nos dizia
+
+00:09:28.330 --> 00:09:33.330
+que se você pudesse cunstruir um robô com pernas elásticas muito simples,
+
+00:09:33.330 --> 00:09:39.330
+poderíamos fazê-lo tão manobrável quanto qualquer outro construído até hoje.
+
+00:09:39.330 --> 00:09:41.330
+Este é o primeiro exemplo disto, este é o robô
+
+00:09:41.330 --> 00:09:44.330
+da Produção de Deposição de Formas de Stanford, chamado Sprawl.
+
+00:09:44.330 --> 00:09:50.330
+Ele tem seis eprnas -- estas são as pernas elásticas ajustáveis.
+
+00:09:50.330 --> 00:09:53.330
+Ele se move num andar típico de um inseto, e aqui está ele
+
+00:09:53.330 --> 00:10:00.330
+numa esteira. O que é importante a respeito dele,
+
+00:10:00.330 --> 00:10:03.330
+quando comparado com outros, é que ele não pode ver nada,
+
+00:10:03.330 --> 00:10:09.330
+não pode sentir nada, não tem um cérebro, e mesmo assim ele pode manobrar
+
+00:10:09.330 --> 00:10:15.330
+por cima destes obstáculos sem a menor dificuldade.
+
+00:10:15.330 --> 00:10:19.330
+Este é o resultado desta técnica de inserir propriedades na própria forma.
+
+00:10:19.330 --> 00:10:22.330
+Este é um estudande de gradução, e isto é o que ele está fazendo à sua tese,
+
+00:10:22.330 --> 00:10:24.330
+muito resistente, se um estudante
+
+00:10:24.330 --> 00:10:26.330
+faz isto à sua tese!
+
+00:10:26.330 --> 00:10:27.330
+(Risos)
+
+00:10:27.330 --> 00:10:31.330
+Isto é da McGill e da Universidade do Michigan, é o RHex,
+
+00:10:31.330 --> 00:10:34.330
+saindo pela primeira vez, numa demo.
+
+00:10:34.330 --> 00:10:38.330
+(Risos)
+
+00:10:38.330 --> 00:10:43.330
+É o mesmo princípio. Ele tem só seis partes móveis.
+
+00:10:43.330 --> 00:10:49.330
+Seis motores, mas tem pernas elásticas. Se move com o andar de um inseto
+
+00:10:49.330 --> 00:10:53.330
+e sincroniza o andar da perna do meio com a da frente
+
+00:10:53.330 --> 00:10:57.330
+e a de trás do lado oposto. Uma espécie de tripé alternado,
+
+00:10:57.330 --> 00:11:01.330
+e eles podem administrar obstáculos exatamente como um animal.
+
+00:11:01.330 --> 00:11:07.330
+(Risos)
+
+00:11:07.330 --> 00:11:08.330
+(Ai meu Deus!)
+
+00:11:08.330 --> 00:11:13.330
+(Aplausos)
+
+00:11:13.330 --> 00:11:15.330
+Ele pode andar em superfícies diferentes, aqui está areia,
+
+00:11:15.330 --> 00:11:20.330
+embora ainda não tenhamos aperfeiçoado os pés, mas eu falo disto depois.
+
+00:11:20.330 --> 00:11:23.330
+Aqui está o RHex entrando na floresta.
+
+00:11:23.330 --> 00:11:25.330
+(Risos)
+
+00:11:38.330 --> 00:11:42.330
+Novamente este robô não pode ver ou sentir nada,
+
+00:11:42.330 --> 00:11:48.330
+e não tem cérebro. Está trabalhando apenas com um sistema mecânico ajustado,
+
+00:11:48.330 --> 00:11:58.330
+com partes muito simples. Mas inspirado na mecânica fundamental de um animal.
+
+00:11:58.330 --> 00:12:06.330
+Ah, eu adoro ele Bob. Aqui vai ele descendo um caminho.
+
+00:12:06.330 --> 00:12:09.330
+Eu o apresentei ao laboratório de propulsão a jato da NASA, e disseram
+
+00:12:09.330 --> 00:12:13.330
+que eles não tem habilidade de descer crateras para procurar gelo,
+
+00:12:13.330 --> 00:12:17.330
+e, em última análise, vida em Marte. Especialmente
+
+00:12:17.330 --> 00:12:19.330
+com robôs com pernas porque eles são muito complicados.
+
+00:12:19.330 --> 00:12:24.330
+Nada pode fazer isto. E eu falei depois. Mostrei este video
+
+00:12:24.330 --> 00:12:27.330
+com o design simples do RHex aqui, e os convenci
+
+00:12:27.330 --> 00:12:31.330
+que nós devemos ir à Marte em 2011, pintei o video de laranja
+
+00:12:31.330 --> 00:12:34.330
+para dar a impressão de que estávamos em Marte.
+
+00:12:34.330 --> 00:12:35.330
+(Risos)
+
+00:12:35.330 --> 00:12:41.330
+(Aplausos)
+
+00:12:43.330 --> 00:12:46.330
+Outro motivo que faz com que animais tenham um desempenho extraordinário
+
+00:12:46.330 --> 00:12:49.330
+e possam ir onde quiserem, é que eles têm uma interação efetiva
+
+00:12:49.330 --> 00:12:52.330
+com o ambiente. O animal que vou mostrar agora
+
+00:12:52.330 --> 00:12:56.330
+que estudamos para isso é a lagartixa.
+
+00:12:56.330 --> 00:13:03.330
+Temos uma aqui... percebam a sua posição. Está se segurando.
+
+00:13:03.330 --> 00:13:06.330
+Agora vou lançar um desafio. Vou mostrar o vídeo.
+
+00:13:06.330 --> 00:13:08.330
+Um dos animais vai estar correndo em nível,
+
+00:13:08.330 --> 00:13:12.330
+e outro vai estar subindo uma parede. Qual é qual?
+
+00:13:12.330 --> 00:13:17.330
+Eles correm a um metro por segundo. Quantos de vocês pensam que o da esquerda
+
+00:13:17.330 --> 00:13:19.330
+é o que está subindo a parede?
+
+00:13:19.330 --> 00:13:23.330
+(Aplausos)
+
+00:13:23.330 --> 00:13:28.330
+Ok. A verdade é que é muito difícil dizer, não é? É incrível,
+
+00:13:28.330 --> 00:13:30.330
+vemos os estudantes fazerem isto e eles mesmos não sabem dizer.
+
+00:13:30.330 --> 00:13:33.330
+Eles podem subir uma parede a um metro por segundo, quinze passos por segundo,
+
+00:13:33.330 --> 00:13:37.330
+e parece que estão andando em nível, Como eles conseguem?
+
+00:13:37.330 --> 00:13:43.330
+É fenomenal. O da direita é o que está subindo.
+
+00:13:43.330 --> 00:13:47.330
+Como eles conseguem -- eles têm dedos estranhos -- têm dedos
+
+00:13:47.330 --> 00:13:51.330
+que desenrolam como uma lingua-de-sogra quando alguém assopra,
+
+00:13:51.330 --> 00:13:54.330
+e descolam da superfície como uma fita.
+
+00:13:54.330 --> 00:13:56.330
+Como se tivéssemos um pedaço de fita e fôssemos descolá-la.
+
+00:13:56.330 --> 00:14:03.330
+Eles fazem isso com os dedos. É estranho. Este descolamento inspirou
+
+00:14:03.330 --> 00:14:06.330
+a iRobot com a qual trabalhamos, a construir Mecho-Geckos. (Lagartixas-Mecânicas)
+
+00:14:06.330 --> 00:14:13.330
+Aqui temos uma versão com pernas e outra sem, parecida com um trator.
+
+00:14:13.330 --> 00:14:15.330
+Vamos ver como as lagartixas se movem com um vídeo.
+
+00:14:15.330 --> 00:14:18.330
+e depois vou mostrar um pouco dos robôs.
+
+00:14:18.330 --> 00:14:21.330
+temos a lagartixa subindo uma superfície vertical, aí vai ela,
+
+00:14:21.330 --> 00:14:28.330
+em tempo real, olha ela aí de novo. Obviamente temos que ver em câmera lenta.
+
+00:14:28.330 --> 00:14:30.330
+não podemos usar câmeras comuns.
+
+00:14:30.330 --> 00:14:33.330
+Temos que filmar a 1000 quadros por segundo para ver isto.
+
+00:14:33.330 --> 00:14:36.330
+E aqui vemos o vídeo com 1000 quadros por segundo.
+
+00:14:36.330 --> 00:14:38.330
+Gostaria de olhassem para as costas do animal.
+
+00:14:38.330 --> 00:14:41.330
+Vocês vêem como ela se dobra? Nós não conseguimos explicar --
+
+00:14:41.330 --> 00:14:44.330
+é um mistério ainda. Não sabemos como funciona.
+
+00:14:44.330 --> 00:14:47.330
+Se você tem um filho ou filha que quer vir para Berkeley,
+
+00:14:47.330 --> 00:14:51.330
+venha ao meu laboratório e vamos descobrir isto juntos. Ok, mande-os para Berkeley
+
+00:14:51.330 --> 00:14:54.330
+porque esta é a próxima pesquisa que quero fazer.. Esta é a esteira da lagartixa.
+
+00:14:54.330 --> 00:14:55.330
+(Risos)
+
+00:14:55.330 --> 00:14:58.330
+É uma esteira transparente com uma cinta também transparente,
+
+00:14:58.330 --> 00:15:01.330
+para que possamos assistir aos pés do animal, e gravar em vídeo
+
+00:15:01.330 --> 00:15:04.330
+através da esteira, para ver como eles se movem.
+
+00:15:04.330 --> 00:15:08.330
+Aqui vemos o animal que temos aqui, correndo numa superfície vertical,
+
+00:15:08.330 --> 00:15:14.330
+escolha um pé e tente ver o dedo, e veja se consegue ver o que o animal está fazendo.
+
+00:15:14.330 --> 00:15:16.330
+Veja ele desenrolar e descolar os dedos.
+
+00:15:16.330 --> 00:15:23.330
+Ele pode fazer isto em 14 milisegundos. É inacreditável.
+
+00:15:23.330 --> 00:15:27.330
+Estes são os robôs que ele inspirou, os Mecho-Geckos, da iRobot.
+
+00:15:27.330 --> 00:15:32.330
+Primeiro vamos ver os dedos dele descolando - veja isto!
+
+00:15:32.330 --> 00:15:36.330
+E aqui o descolamento do Mecho-Gecko
+
+00:15:36.330 --> 00:15:39.330
+ele usa um adesivo sensível à pressão para fazer isto.
+
+00:15:39.330 --> 00:15:42.330
+Descolamento no animal, descolamento no Mecho-Gecko,
+
+00:15:42.330 --> 00:15:45.330
+que permite com que possa escalar de forma autônoma, pode andar numa superfície lisa,
+
+00:15:45.330 --> 00:15:48.330
+numa transição para uma parede, e depois andar pelo teto.
+
+00:15:48.330 --> 00:15:54.330
+Esta é a versão trator. Ela usa cola sensível a pressão.
+
+00:15:54.330 --> 00:15:56.330
+O animal não usa.
+
+00:15:56.330 --> 00:15:58.330
+Mas estamos limitados a esta solução no momento.
+
+00:15:58.330 --> 00:16:03.330
+O que o animal usa? Ele tem dedos estranhos,
+
+00:16:03.330 --> 00:16:07.330
+e se você olha para os dedos, eles têm estas folhas,
+
+00:16:07.330 --> 00:16:09.330
+E se você amplia a imagem você vai ver
+
+00:16:09.330 --> 00:16:12.330
+que existem estrias pequenas nas folhas.
+
+00:16:12.330 --> 00:16:19.330
+e se você amplia 270 vezes, você vê que se parece com um tapete.
+
+00:16:19.330 --> 00:16:22.330
+E se você amplia mais ainda, 900 vezes,
+
+00:16:22.330 --> 00:16:27.330
+você vai ver que existem pelos ali, pequenos, e se você olhar com cuidado
+
+00:16:27.330 --> 00:16:33.330
+estes pelinhos têm estrias. E se você amplia 30.000 vezes,
+
+00:16:33.330 --> 00:16:36.330
+vai descobrir que cada pelo tem várias pontas.
+
+00:16:36.330 --> 00:16:41.330
+E se amplia mais, vai ver que existem pequenas estruturas no final.
+
+00:16:41.330 --> 00:16:43.330
+O menor pedaço parece com uma espátula
+
+00:16:43.330 --> 00:16:50.330
+e um animal como este têm cerca de 1 bilhão destas pontas
+
+00:16:50.330 --> 00:16:55.330
+para ficar muito perto da superfície. Na verdade, este é o diâmetro do seu cabelo,
+
+00:16:55.330 --> 00:17:01.330
+uma lagartixa tem 2 milhões destes e cada um tem entre 100 e 1.000 pontas.
+
+00:17:01.330 --> 00:17:04.330
+Pense no contato que é possível com isto.
+
+00:17:04.330 --> 00:17:06.330
+Tivemos a chance de trabalhar com outro grupo
+
+00:17:06.330 --> 00:17:08.330
+de Stanford que construiu um sensor especialmente para nós
+
+00:17:08.330 --> 00:17:11.330
+e pudemos medir a força de cada pelo.
+
+00:17:11.330 --> 00:17:16.330
+Este é um pelo individual com várias pontas,
+
+00:17:16.330 --> 00:17:18.330
+quando medimos as forças, elas eram enormes,
+
+00:17:18.330 --> 00:17:21.330
+elas eram tão grandes que um grupo de pelos deste tamanho,
+
+00:17:21.330 --> 00:17:25.330
+que o pé da lagartixa poderia suportar o peso de uma criança --
+
+00:17:25.330 --> 00:17:29.330
+por volta de 18 quilos, facilmente. Como eles funcionam?
+
+00:17:29.330 --> 00:17:33.330
+Descobrimos isto recentemente. Será que eles usam fricção?
+
+00:17:33.330 --> 00:17:36.330
+Não, a força é muito pequena. Usam eletrostática?
+
+00:17:36.330 --> 00:17:38.330
+Não, se mudamos a carga eles ainda funcionam.
+
+00:17:38.330 --> 00:17:41.330
+Eles usam aquele efeito de adesão como o do Velcro?
+
+00:17:41.330 --> 00:17:44.330
+Não, podemos coloca-los em superfícies lisas -- eles não usam.
+
+00:17:44.330 --> 00:17:48.330
+Que tal sucção? Eles se grudam mesmo no vácuo.
+
+00:17:48.330 --> 00:17:51.330
+E que tal adesivos? Ou adesão capilar?
+
+00:17:51.330 --> 00:17:54.330
+Eles não usam nenhum tipo de cola, e funcionam mesmo debaixo d'água.
+
+00:17:54.330 --> 00:17:56.330
+Se você põe os pés deles debaixo d'água eles continuam grudados.
+
+00:17:56.330 --> 00:18:00.330
+Como eles conseguem então? Acredite ou não, eles aderem
+
+00:18:00.330 --> 00:18:04.330
+através de forças intermoleculares, pela força de van der Waals.
+
+00:18:04.330 --> 00:18:06.330
+Você provavelmente estudou isto há muito tempo, em Química
+
+00:18:06.330 --> 00:18:08.330
+quando você tem dois átomos, um perto do outro,
+
+00:18:08.330 --> 00:18:11.330
+e os elétrons se movem em volta. Esta pequena força é suficiente
+
+00:18:11.330 --> 00:18:14.330
+para que eles façam isto, porque ela é somada muitíssimas vezes
+
+00:18:14.330 --> 00:18:17.330
+com estas estruturas minúsculas.
+
+00:18:17.330 --> 00:18:22.330
+Agora estamos pegando esta inspiração dos pelos,
+
+00:18:22.330 --> 00:18:27.330
+e com outro colega de Berkeley, estamos entrando em produção.
+
+00:18:27.330 --> 00:18:30.330
+E recentemente tivemos uma descoberta com a qual acreditamos
+
+00:18:30.330 --> 00:18:35.330
+que seremos capazes de criar o primeiro adesivo seco, sintético e
+
+00:18:35.330 --> 00:18:40.330
+auto-limpante. Muitas companhias estão interessadas nisto.
+
+00:18:40.330 --> 00:18:43.330
+(Risos)
+
+00:18:43.330 --> 00:18:45.330
+Até apresentamos para a Nike.
+
+00:18:45.330 --> 00:18:48.330
+(Risos)
+
+00:18:48.330 --> 00:18:54.330
+(Aplausos)
+
+00:18:54.330 --> 00:18:57.330
+Vamos ver até onde isto vai. Estamos tão otimistas
+
+00:18:57.330 --> 00:19:00.330
+neste caso que notamos que nesta escala tão pequena,
+
+00:19:00.330 --> 00:19:03.330
+e onde tudo tende a aderir, e a gravidade não importa mais,
+
+00:19:03.330 --> 00:19:06.330
+precisamos olhar para os pés das formigas, porque
+
+00:19:06.330 --> 00:19:11.330
+um dos meus colegas em Berkeley, construiu um robô de silício de 6 milímetros
+
+00:19:11.330 --> 00:19:14.330
+com pernas. Mas ele prende e não se move muito bem.
+
+00:19:14.330 --> 00:19:17.330
+Mas as formigas se movem, e nós vamos descobrir o porquê, de modo que mais tarde
+
+00:19:17.330 --> 00:19:20.330
+vamos fazer ele funcionar. E, imagine, você vai poder ter enxames
+
+00:19:20.330 --> 00:19:25.330
+destes robôs de 6 milímetros andando por aí.
+
+00:19:25.330 --> 00:19:28.330
+Mas pra onde isto vai? Acho que você já sabe.
+
+00:19:28.330 --> 00:19:32.330
+Obviamente a internet já tem olhos e ouvidos,
+
+00:19:32.330 --> 00:19:36.330
+você tem web cams e tudo mais. Mas ela terá pernas e mãos.
+
+00:19:36.330 --> 00:19:38.330
+Você poderá fazer trabalhos programáveis
+
+00:19:38.330 --> 00:19:42.330
+usando estes tipos de robôs, então você poderá correr,
+
+00:19:42.330 --> 00:19:51.330
+voar e nadar em qualquer lugar. Vimos David Kelly no começo com seu peixe.
+
+00:19:51.330 --> 00:19:53.330
+em conclusão, a mensagem é clara.
+
+00:19:53.330 --> 00:19:57.330
+Se você precisa de uma mensagem, se a natureza não é o bastante, se você se importa
+
+00:19:57.330 --> 00:19:59.330
+com buscas e resgates, ou se livrar de minas terrestres, ou se importa com medicina,
+
+00:19:59.330 --> 00:20:03.330
+ou as várias coisas com as quais trabalhamos, precisamos preservar
+
+00:20:03.330 --> 00:20:07.330
+o design da natureza, pois, de outra forma estes segredos vão se perder para sempre.
+
+00:20:07.330 --> 00:20:08.330
+Obrigado.
+
+00:20:08.330 --> 00:20:17.330
+(Aplausos)
+

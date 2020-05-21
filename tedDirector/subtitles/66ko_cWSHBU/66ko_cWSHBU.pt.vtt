@@ -1,0 +1,886 @@
+WEBVTT
+Kind: captions
+Language: pt
+
+00:00:00.000 --> 00:00:07.000
+Tradutor: Ruy Lopes Pereira
+Revisor: Maricene Crus
+
+00:00:12.714 --> 00:00:16.877
+Meus colegas e eu somos fascinados 
+pela ciência dos pontos móveis.
+
+00:00:16.877 --> 00:00:18.137
+O que são esses pontos?
+
+00:00:18.137 --> 00:00:19.438
+Bem, somos todos nós.
+
+00:00:19.438 --> 00:00:24.411
+E nós estamos nos movendo em nossas casas,
+escritórios, quando compramos e viajamos
+
+00:00:24.411 --> 00:00:26.947
+pelas nossas cidades e por todo o mundo.
+
+00:00:26.958 --> 00:00:30.868
+E não seria ótimo se pudéssemos 
+entender todo esse movimento?
+
+00:00:30.868 --> 00:00:34.248
+Se pudéssemos encontrar padrões, 
+sentido e percepções nisso?
+
+00:00:34.259 --> 00:00:36.434
+Felizmente, vivemos em um tempo
+
+00:00:36.434 --> 00:00:40.815
+em que somos incrivelmente bons 
+em obter informações sobre nós mesmos.
+
+00:00:40.815 --> 00:00:44.530
+Seja através de sensores, vídeos, 
+ou aplicativos,
+
+00:00:44.530 --> 00:00:48.103
+podemos rastrear nossos movimentos 
+com detalhamento incrível.
+
+00:00:48.103 --> 00:00:53.098
+Acontece que uma das melhores fontes 
+de dados sobre movimentos
+
+00:00:53.098 --> 00:00:54.696
+são os esportes.
+
+00:00:54.696 --> 00:01:00.025
+Então, seja basquete ou beisebol, 
+futebol americano ou o outro futebol,
+
+00:01:00.025 --> 00:01:04.465
+estamos dando meios aos estádios
+e jogadores para rastrear seus movimentos
+
+00:01:04.465 --> 00:01:05.868
+a cada fração de segundo.
+
+00:01:05.868 --> 00:01:10.184
+Então, o que estamos fazendo 
+é transformar nossos atletas em...
+
+00:01:10.208 --> 00:01:12.121
+acho que adivinharam,
+
+00:01:12.121 --> 00:01:13.897
+pontos móveis.
+
+00:01:13.897 --> 00:01:15.904
+Então, temos montanhas de pontos móveis
+
+00:01:15.904 --> 00:01:18.904
+e, como a maioria dos dados brutos,
+
+00:01:18.904 --> 00:01:21.350
+é difícil de lidar e pouco interessante.
+
+00:01:21.350 --> 00:01:25.163
+Mas há coisas que, por exemplo, 
+treinadores de basquete querem saber.
+
+00:01:25.163 --> 00:01:29.033
+O problema é que não conseguem saber,
+porque teriam que observar cada segundo
+
+00:01:29.057 --> 00:01:31.806
+de cada jogo, lembrá-lo e processá-lo.
+
+00:01:31.806 --> 00:01:33.794
+E uma pessoa não consegue fazer isso,
+
+00:01:33.794 --> 00:01:35.668
+mas uma máquina consegue.
+
+00:01:35.668 --> 00:01:39.361
+O problema é que uma máquina não pode ver
+o jogo com os olhos de um treinador.
+
+00:01:39.363 --> 00:01:42.214
+Pelo menos, não conseguia até agora.
+
+00:01:42.228 --> 00:01:45.081
+Então, o que ensinamos a máquina a ver?
+
+00:01:45.581 --> 00:01:47.436
+Começamos de forma simples.
+
+00:01:47.436 --> 00:01:51.179
+Nós ensinamos coisas como passes, 
+arremessos e rebotes.
+
+00:01:51.203 --> 00:01:53.784
+Coisas que a maioria 
+dos fãs ocasionais conhece.
+
+00:01:53.784 --> 00:01:56.640
+E depois passamos para coisas
+um pouco mais complicadas.
+
+00:01:56.640 --> 00:02:01.212
+Jogar de costas para a cesta, 
+fazer corta-luz e isolação.
+
+00:02:01.217 --> 00:02:05.530
+Se vocês não as conhecem, tudo bem.
+Muitos jogadores ocasionais conhecem.
+
+00:02:05.530 --> 00:02:07.294
+Hoje, chegamos a um ponto
+
+00:02:07.294 --> 00:02:10.924
+em que a máquina
+entende eventos complexos
+
+00:02:10.924 --> 00:02:14.077
+como bloqueios fora da bola
+e até com rotações complexas.
+
+00:02:14.077 --> 00:02:16.711
+Basicamente coisas que só 
+profissionais conhecem.
+
+00:02:16.711 --> 00:02:22.009
+Então, nós ensinamos a máquina 
+a ver com os olhos de um treinador.
+
+00:02:22.009 --> 00:02:24.506
+Como conseguimos fazer isso?
+
+00:02:24.511 --> 00:02:27.599
+Se eu pedisse a um treinador
+que descrevesse um corta-luz direto,
+
+00:02:27.599 --> 00:02:29.403
+ele descreveria a jogada,
+
+00:02:29.403 --> 00:02:33.023
+e se eu a codificasse em um algoritmo,
+ele seria muito complicado.
+
+00:02:33.026 --> 00:02:37.258
+O corta-luz é um “balé” no basquete
+entre quatro jogadores,
+
+00:02:37.258 --> 00:02:39.480
+Dois no ataque e dois na defesa.
+
+00:02:39.486 --> 00:02:41.068
+É assim que acontece:
+
+00:02:41.068 --> 00:02:43.661
+um cara no ataque sem a bola
+
+00:02:43.685 --> 00:02:46.858
+se posiciona ao lado do cara que marca
+o que tem a posse da bola,
+
+00:02:46.858 --> 00:02:48.175
+e ele fica por ali.
+
+00:02:48.179 --> 00:02:51.516
+Ambos se movem, coisas acontecem,
+e...tchan! É um corta-luz.
+
+00:02:51.540 --> 00:02:53.719
+(Risos)
+
+00:02:53.719 --> 00:02:56.907
+Isso é um exemplo
+de um algoritmo complicado.
+
+00:02:56.913 --> 00:03:01.228
+Se o jogador que se interpõe,
+chamado de bloqueador,
+
+00:03:01.228 --> 00:03:04.150
+se aproximar, mas não parar,
+
+00:03:04.174 --> 00:03:06.510
+provavelmente não é um corta-luz.
+
+00:03:06.510 --> 00:03:10.535
+Mas se parar e não ficar muito próximo,
+
+00:03:10.535 --> 00:03:12.630
+provavelmente não é um corta-luz.
+
+00:03:12.630 --> 00:03:15.879
+Ou se ele se aproximar do outro
+e realmente parar,
+
+00:03:15.903 --> 00:03:19.447
+mas parar embaixo da cesta,
+provavelmente não é um corta-luz.
+
+00:03:19.462 --> 00:03:21.986
+Ou posso estar enganado
+e tudo pode ser um corta-luz.
+
+00:03:22.010 --> 00:03:26.558
+Depende realmente de uma boa sincronia,
+das distâncias e dos posicionamentos,
+
+00:03:26.558 --> 00:03:28.577
+e é aí que está a dificuldade.
+
+00:03:28.577 --> 00:03:31.297
+Felizmente, com o aprendizado de máquina,
+
+00:03:31.297 --> 00:03:33.547
+podemos ir além
+da nossa própria habilidade
+
+00:03:33.547 --> 00:03:35.290
+de descrever o que conhecemos.
+
+00:03:35.314 --> 00:03:37.764
+Como isto funciona?
+Bem, é por meio de exemplos.
+
+00:03:37.764 --> 00:03:41.019
+Dizemos para a máquina: 
+"Bom dia, máquina.
+
+00:03:41.019 --> 00:03:44.716
+Aqui estão alguns corta-luzes
+e coisas que não são corta-luzes.
+
+00:03:44.720 --> 00:03:47.072
+Por favor, encontre 
+um jeito de distingui-los."
+
+00:03:47.076 --> 00:03:50.583
+A chave de tudo é achar características
+que permitam separá-los.
+
+00:03:50.583 --> 00:03:53.890
+Tendo que ensinar à máquina
+a diferença entre uma laranja e uma maçã
+
+00:03:53.890 --> 00:03:56.530
+eu poderia dizer: 
+"Por que não usa cor ou forma?"
+
+00:03:56.530 --> 00:03:59.557
+Mas o problema que estamos resolvendo é:
+o que são essas coisas?
+
+00:03:59.557 --> 00:04:00.912
+Quais traços marcantes
+
+00:04:00.912 --> 00:04:04.415
+possibilitam que um computador
+interprete o mundo dos pontos móveis?
+
+00:04:04.415 --> 00:04:09.292
+Compreender todas essas relações
+entre posição relativa e absoluta,
+
+00:04:09.292 --> 00:04:11.441
+distância, sincronia, velocidades,
+
+00:04:11.441 --> 00:04:14.732
+que são realmente a chave da ciência
+dos pontos móveis
+
+00:04:14.732 --> 00:04:16.592
+ou como gostamos de chamá-la,
+
+00:04:16.592 --> 00:04:18.722
+reconhecimento de padrões espaçotemporais,
+
+00:04:18.722 --> 00:04:19.885
+em linguagem acadêmica.
+
+00:04:19.885 --> 00:04:22.843
+É importante dar um nome difícil
+
+00:04:22.847 --> 00:04:24.425
+porque é difícil mesmo.
+
+00:04:24.425 --> 00:04:27.525
+Para treinadores da NBA,
+o principal não é saber
+
+00:04:27.525 --> 00:04:29.497
+se um corta-luz aconteceu ou não,
+
+00:04:29.521 --> 00:04:31.557
+mas sim como aconteceu.
+
+00:04:31.557 --> 00:04:34.571
+E por que isso é tão importante para eles?
+Perceba o porquê.
+
+00:04:34.571 --> 00:04:36.442
+Acontece que, no basquete moderno,
+
+00:04:36.442 --> 00:04:39.065
+o corta-luz talvez seja
+a jogada mais importante.
+
+00:04:39.065 --> 00:04:41.685
+Saber como executá-la
+e como se defender dela,
+
+00:04:41.709 --> 00:04:44.379
+é o que decide o resultado 
+da maioria dos jogos.
+
+00:04:44.403 --> 00:04:48.204
+Essa dança tem muitas variações,
+
+00:04:48.208 --> 00:04:51.850
+e identificá-las é o mais importante.
+
+00:04:51.850 --> 00:04:54.969
+Por isso precisamos 
+que esse programa seja muito bom.
+
+00:04:54.969 --> 00:04:56.358
+Eis um exemplo:
+
+00:04:56.358 --> 00:04:58.007
+dois atacantes e dois defensores
+
+00:04:58.007 --> 00:05:00.377
+estão prestes a executar 
+o balé do corta-luz.
+
+00:05:00.377 --> 00:05:03.726
+O cara com a posse da bola,
+pode usar ou não o bloqueio.
+
+00:05:03.726 --> 00:05:07.221
+Seu companheiro pode girar para o garrafão
+ou abrir para receber o passe.
+
+00:05:07.231 --> 00:05:10.097
+Quem marca o jogador que tem a bola
+pode avançar ou recuar.
+
+00:05:10.121 --> 00:05:14.670
+Seu companheiro pode avançar, 
+marcar ou apenas acompanhar,
+
+00:05:14.670 --> 00:05:17.262
+e juntos podem trocar
+ou dobrar a marcação.
+
+00:05:17.262 --> 00:05:19.955
+Eu desconhecia quase tudo isso
+quando comecei,
+
+00:05:19.955 --> 00:05:23.909
+e seria ótimo se todos se movessem
+como aquelas flechas indicam.
+
+00:05:23.909 --> 00:05:28.054
+Facilitaria muito as nossas vidas,
+mas o movimento é muito confuso.
+
+00:05:28.054 --> 00:05:31.245
+Há muita movimentação e com rapidez,
+
+00:05:31.245 --> 00:05:36.594
+o que torna difícil identificar
+e reconstituir as variações com precisão,
+
+00:05:36.594 --> 00:05:40.156
+pois isso é o que faz um treinador 
+profissional acreditar em você.
+
+00:05:40.156 --> 00:05:43.360
+Apesar das dificuldades
+com os aspectos espaçotemporais corretos
+
+00:05:43.360 --> 00:05:44.908
+conseguimos realizá-lo.
+
+00:05:44.908 --> 00:05:47.418
+Treinadores confiam na capacidade
+da nossa máquina
+
+00:05:47.418 --> 00:05:49.358
+de identificar as variações.
+
+00:05:49.358 --> 00:05:53.021
+Chegamos no ponto
+em que quase toda equipe
+
+00:05:53.021 --> 00:05:54.688
+da NBA este ano
+
+00:05:54.688 --> 00:05:58.484
+usa nosso software, 
+instalado em uma máquina
+
+00:05:58.484 --> 00:06:01.888
+que compreende os pontos
+que se movimentam, em basquetebol.
+
+00:06:01.888 --> 00:06:04.029
+Mais do que isto.
+
+00:06:04.029 --> 00:06:07.029
+Nós demos conselhos
+que têm mudado estratégias,
+
+00:06:07.029 --> 00:06:10.355
+as quais ajudaram equipes
+a vencer jogos muito importantes,
+
+00:06:10.355 --> 00:06:11.701
+o que é muito estimulante,
+
+00:06:11.701 --> 00:06:14.314
+porque existem treinadores
+que estão há 30 anos na liga
+
+00:06:14.314 --> 00:06:17.874
+e que desejam um conselho
+dado por uma máquina.
+
+00:06:17.874 --> 00:06:20.364
+É muito empolgante,
+é muito mais do que o corta-luz.
+
+00:06:20.374 --> 00:06:22.434
+Nosso computador começou
+com coisas simples,
+
+00:06:22.434 --> 00:06:24.332
+aprendeu coisas mais complexas,
+
+00:06:24.332 --> 00:06:25.987
+e agora sabe bastante coisas.
+
+00:06:25.987 --> 00:06:29.412
+Francamente, eu não entendo
+muito do que ele faz,
+
+00:06:29.426 --> 00:06:33.145
+e embora não seja tão especial
+ser mais inteligente que eu,
+
+00:06:33.145 --> 00:06:36.793
+nos perguntamos: “Uma máquina
+pode saber mais do que um treinador?
+
+00:06:36.793 --> 00:06:38.888
+Mais do que uma pessoa pode saber?”
+
+00:06:38.888 --> 00:06:40.571
+A resposta é sim.
+
+00:06:40.571 --> 00:06:43.438
+Treinadores desejam
+que os jogadores façam bons arremessos.
+
+00:06:43.438 --> 00:06:44.897
+Se eu estiver perto da cesta,
+
+00:06:44.897 --> 00:06:46.697
+e sem marcação, é um bom arremesso.
+
+00:06:46.697 --> 00:06:49.281
+Se eu estiver distante,
+cercado por defensores,
+
+00:06:49.281 --> 00:06:51.479
+geralmente é um mau arremesso.
+
+00:06:51.479 --> 00:06:56.209
+Mas nunca soubemos quantitativamente
+os significados de “bom” ou “mau”.
+
+00:06:56.209 --> 00:06:57.609
+Até agora.
+
+00:06:57.609 --> 00:07:00.793
+Usando características espaçotemporais,
+
+00:07:00.793 --> 00:07:02.341
+analisamos todos os arremessos.
+
+00:07:02.341 --> 00:07:05.456
+De onde foi o arremesso?
+Qual o ângulo em relação à cesta?
+
+00:07:05.456 --> 00:07:07.702
+E as posições dos defensores?
+E suas distâncias?
+
+00:07:07.702 --> 00:07:09.151
+Quais são seus ângulos?
+
+00:07:09.151 --> 00:07:12.232
+Com vários defensores, analisamos
+como os jogadores se movimentam
+
+00:07:12.232 --> 00:07:13.855
+e prevemos o tipo de arremesso.
+
+00:07:13.879 --> 00:07:17.077
+Podemos analisar suas velocidades
+e construir um modelo
+
+00:07:17.077 --> 00:07:22.028
+que prevê a probabilidade de um arremesso
+ser convertido em tais circunstâncias?
+
+00:07:22.028 --> 00:07:24.128
+Por que é tão importante?
+
+00:07:24.128 --> 00:07:26.869
+Podemos transformar o que era arremessar
+
+00:07:26.869 --> 00:07:29.453
+em duas outras coisas:
+
+00:07:29.453 --> 00:07:32.664
+a qualidade do arremesso
+e a qualidade do arremessador.
+
+00:07:33.200 --> 00:07:34.710
+Eis um gráfico de bolas.
+
+00:07:34.710 --> 00:07:36.972
+O que seria do TED
+sem um gráfico de bolas?
+
+00:07:36.972 --> 00:07:37.970
+(Risos)
+
+00:07:37.970 --> 00:07:39.485
+Esses são jogadores da NBA.
+
+00:07:39.485 --> 00:07:42.303
+O tamanho da bola é o tamanho do jogador,
+a cor é a posição.
+
+00:07:42.303 --> 00:07:44.589
+No eixo x, temos 
+a probabilidade do arremesso.
+
+00:07:44.589 --> 00:07:46.636
+À esquerda, estão os arremessos difíceis,
+
+00:07:46.636 --> 00:07:49.044
+à direita, os arremessos fáceis.
+
+00:07:49.044 --> 00:07:51.271
+No eixo y está a habilidade de arremessar.
+
+00:07:51.275 --> 00:07:53.831
+Com boa habilidade em cima,
+má habilidade, embaixo.
+
+00:07:53.831 --> 00:07:55.531
+Por exemplo, se houver um jogador
+
+00:07:55.531 --> 00:07:57.718
+que geralmente acerta 47% dos arremessos,
+
+00:07:57.718 --> 00:07:59.357
+era tudo o que se sabia antes.
+
+00:07:59.357 --> 00:08:02.669
+Mas hoje, posso dizer que aquele jogador
+executa arremessos
+
+00:08:02.669 --> 00:08:06.180
+que um jogador da NBA, em média,
+acertaria 49% das vezes,
+
+00:08:06.204 --> 00:08:08.278
+e que seriam 2% ruins.
+
+00:08:08.278 --> 00:08:12.781
+Isto é importante porque há
+uma enorme diversidade de 47%.
+
+00:08:13.714 --> 00:08:16.227
+E assim é realmente importante saber
+
+00:08:16.227 --> 00:08:20.273
+se os 47% a quem se está considerando
+dar US$ 100 milhões
+
+00:08:20.283 --> 00:08:23.352
+é um bom arremessador
+que executa maus arremessos,
+
+00:08:23.352 --> 00:08:26.113
+ou um mau arremessador
+que faz bons arremessos.
+
+00:08:26.990 --> 00:08:30.327
+O aprendizado da máquina não muda 
+apenas como analisamos os jogadores,
+
+00:08:30.327 --> 00:08:32.319
+ele muda como analisamos o jogo.
+
+00:08:32.319 --> 00:08:36.108
+Houve um jogo emocionante
+há alguns anos, nas finais da NBA.
+
+00:08:36.108 --> 00:08:39.239
+O Miami perdia por três pontos,
+faltavam 20 segundos para o final,
+
+00:08:39.239 --> 00:08:41.468
+eles estavam 
+prestes a perder o campeonato.
+
+00:08:41.468 --> 00:08:44.769
+Um senhor chamado LeBron James
+tentou um arremesso de três.
+
+00:08:44.793 --> 00:08:45.795
+Ele errou.
+
+00:08:45.795 --> 00:08:47.806
+Seu companheiro Chris Bosh
+pegou um rebote,
+
+00:08:47.806 --> 00:08:49.619
+passou para o companheiro Ray Allen.
+
+00:08:49.619 --> 00:08:52.238
+Ele marcou três pontos.
+O jogo foi para a prorrogação.
+
+00:08:52.238 --> 00:08:54.128
+O Miami ganhou o jogo e o campeonato.
+
+00:08:54.128 --> 00:08:57.196
+Foi um dos mais emocionantes
+jogos de basquetebol.
+
+00:08:57.196 --> 00:08:58.818
+E nossa capacidade de saber
+
+00:08:58.818 --> 00:09:02.071
+a probabilidade de arremessar
+de cada jogador, a cada segundo,
+
+00:09:02.071 --> 00:09:04.463
+e a possibilidade de pegar
+um rebote a cada segundo
+
+00:09:04.463 --> 00:09:08.526
+pode iluminar esse momento
+como nunca foi possível.
+
+00:09:09.538 --> 00:09:12.270
+Infelizmente, não posso
+mostrar esse vídeo a vocês.
+
+00:09:12.270 --> 00:09:16.747
+Mas recriamos aquele momento para vocês
+
+00:09:16.747 --> 00:09:19.503
+no nosso jogo semanal de basquete,
+há umas três semanas.
+
+00:09:19.503 --> 00:09:21.506
+(Risos)
+
+00:09:21.506 --> 00:09:25.153
+Refizemos a trilha
+que nos levou à percepção dos fatos
+
+00:09:25.153 --> 00:09:29.318
+Aqui estamos.
+Esta é Chinatown em Los Angeles,
+
+00:09:29.318 --> 00:09:31.132
+um parque onde jogamos toda semana,
+
+00:09:31.132 --> 00:09:32.604
+e aqui estamos nós
+
+00:09:32.604 --> 00:09:36.157
+recriando o momento de Ray Allen
+e todo o caminho associado a ele.
+
+00:09:36.772 --> 00:09:38.309
+Eis o arremesso.
+
+00:09:38.313 --> 00:09:40.839
+Vou mostrar-lhes aquele momento,
+
+00:09:40.839 --> 00:09:43.384
+e todas as suas percepções.
+
+00:09:43.384 --> 00:09:47.234
+A única diferença é que somos nós,
+em vez de jogadores profissionais,
+
+00:09:47.234 --> 00:09:49.876
+E sou eu, 
+em vez de um locutor profissional.
+
+00:09:49.876 --> 00:09:51.837
+Tenham paciência comigo.
+
+00:09:53.153 --> 00:09:54.593
+Miami.
+
+00:09:54.593 --> 00:09:56.077
+Perde por três pontos.
+
+00:09:56.077 --> 00:09:57.537
+Faltam 20 segundos.
+
+00:09:59.385 --> 00:10:00.583
+Jeff conduz a bola.
+
+00:10:02.656 --> 00:10:04.191
+Josh recebe, marca três pontos!
+
+00:10:07.128 --> 00:10:08.578
+[Qualidade do arremesso]
+
+00:10:09.048 --> 00:10:10.833
+[Probabilidade de rebote]
+
+00:10:12.373 --> 00:10:13.546
+Não vai dar certo!
+
+00:10:13.570 --> 00:10:15.736
+[Probabilidade de rebote]
+
+00:10:15.736 --> 00:10:17.083
+Rebote, Noel.
+
+00:10:17.083 --> 00:10:18.487
+Devolve ao Daria.
+
+00:10:18.487 --> 00:10:21.644
+[Qualidade do arremesso]
+
+00:10:22.676 --> 00:10:24.296
+Arremesso de três pontos...pimba!
+
+00:10:24.320 --> 00:10:26.790
+Restam cinco segundos.
+
+00:10:26.790 --> 00:10:28.528
+A plateia vai à loucura.
+
+00:10:28.528 --> 00:10:30.125
+(Risos)
+
+00:10:30.125 --> 00:10:31.802
+Aconteceu mais ou menos assim.
+
+00:10:31.802 --> 00:10:33.337
+(Aplausos)
+
+00:10:33.337 --> 00:10:34.900
+Mais ou menos.
+
+00:10:35.941 --> 00:10:41.589
+Aquele momento tinha cerca de 9%
+de probabilidade de acontecer na NBA;
+
+00:10:41.589 --> 00:10:43.824
+sabemos disso e de muitas outras coisas.
+
+00:10:43.824 --> 00:10:47.665
+Não direi a vocês quantas vezes precisamos
+jogar para que isso acontecesse.
+
+00:10:47.665 --> 00:10:49.110
+(Risos)
+
+00:10:49.110 --> 00:10:51.112
+Tá bom. Contarei. Foram quatro vezes.
+
+00:10:51.112 --> 00:10:52.097
+(Risos)
+
+00:10:52.101 --> 00:10:53.646
+Muito bem, Daria.
+
+00:10:53.647 --> 00:10:57.884
+Porém a coisa mais importante do vídeo
+
+00:10:57.884 --> 00:11:02.479
+e o que percebemos em cada segundo
+de todo jogo da NBA, não é isso.
+
+00:11:02.479 --> 00:11:05.323
+É o fato de que não é preciso
+que seja um time profissional
+
+00:11:05.323 --> 00:11:07.083
+para rastrear a movimentação.
+
+00:11:07.083 --> 00:11:10.384
+Não precisa ser um jogador profissional
+para entender a movimentação.
+
+00:11:10.384 --> 00:11:14.622
+Na verdade, nem precisa ser sobre esportes
+porque nos movimentamos por toda parte.
+
+00:11:15.654 --> 00:11:18.023
+Nos movemos em casa,
+
+00:11:21.428 --> 00:11:22.633
+no escritório,
+
+00:11:23.998 --> 00:11:26.928
+quando fazemos compras e viajamos
+
+00:11:29.318 --> 00:11:30.571
+pelas cidades
+
+00:11:32.065 --> 00:11:33.843
+e pelo mundo.
+
+00:11:35.270 --> 00:11:37.565
+O que iremos saber? O que aprenderemos?
+
+00:11:37.569 --> 00:11:39.858
+Talvez, em vez de identificar corta-luzes,
+
+00:11:39.858 --> 00:11:42.262
+a máquina possa identificar o momento
+
+00:11:42.262 --> 00:11:45.011
+e avisar-me, quando milha filha
+der os primeiros passos.
+
+00:11:45.025 --> 00:11:47.980
+O que poderia acontecer
+a qualquer segundo, literalmente.
+
+00:11:47.980 --> 00:11:52.237
+Talvez possamos aprender a usar melhor
+os edifícios e planejar melhor as cidades.
+
+00:11:52.237 --> 00:11:56.519
+Creio que com o desenvolvimento
+da ciência dos pontos em movimento
+
+00:11:56.519 --> 00:12:00.542
+vamos nos mover melhor,
+de modos mais inteligentes. Avançaremos.
+
+00:12:00.542 --> 00:12:01.906
+Muito obrigado.
+

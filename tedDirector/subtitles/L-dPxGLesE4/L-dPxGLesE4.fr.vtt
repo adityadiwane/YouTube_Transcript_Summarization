@@ -1,0 +1,1352 @@
+WEBVTT
+Kind: captions
+Language: fr
+
+00:00:00.000 --> 00:00:07.000
+Traducteur: Pradeep Cojandé
+Relecteur: Fabienne Der Hagopian
+
+00:00:15.260 --> 00:00:18.260
+Pendant les 10 dernières années, j'ai passé mon temps à essayer de comprendre
+
+00:00:18.260 --> 00:00:20.260
+comment et pourquoi les êtres humains
+
+00:00:20.260 --> 00:00:23.260
+se rassemblent dans des réseaux sociaux.
+
+00:00:23.260 --> 00:00:25.260
+Et le type de réseau social dont je parle
+
+00:00:25.260 --> 00:00:27.260
+n'est pas la nouvelle variété en ligne,
+
+00:00:27.260 --> 00:00:29.260
+mais plutôt, le genre de réseaux sociaux
+
+00:00:29.260 --> 00:00:32.260
+que les êtres humains ont construit depuis des centaines de milliers d'années,
+
+00:00:32.260 --> 00:00:35.260
+depuis que nous avons émergé [de] la savane africaine.
+
+00:00:35.260 --> 00:00:37.260
+Donc, je construis un réseau d’amis, de collègues,
+
+00:00:37.260 --> 00:00:40.260
+fraternel et familial avec d'autres personnes
+
+00:00:40.260 --> 00:00:42.260
+qui à leur tour ont des relations similaires avec d'autres personnes.
+
+00:00:42.260 --> 00:00:45.260
+Et cela s'étend à l'infini avec la distance.
+
+00:00:45.260 --> 00:00:47.260
+Et vous obtenez un réseau qui ressemble à ceci.
+
+00:00:47.260 --> 00:00:49.260
+Chaque point est une personne.
+
+00:00:49.260 --> 00:00:51.260
+Chaque ligne entre elles est une relation entre deux personnes --
+
+00:00:51.260 --> 00:00:53.260
+différents types de relations.
+
+00:00:53.260 --> 00:00:56.260
+Et vous pouvez obtenir ce genre de vaste tissu de l'humanité,
+
+00:00:56.260 --> 00:00:58.260
+dans lequel nous sommes tous intégrés.
+
+00:00:58.260 --> 00:01:01.260
+Et mon collègue, James Fowler, et moi avons étudié pendant quelques temps
+
+00:01:01.260 --> 00:01:03.260
+quelles sont les règles mathématiques, sociales,
+
+00:01:03.260 --> 00:01:06.260
+biologiques et psychologiques
+
+00:01:06.260 --> 00:01:08.260
+qui régissent la façon dont ces réseaux sont assemblés
+
+00:01:08.260 --> 00:01:10.260
+et quelles sont les règles similaires
+
+00:01:10.260 --> 00:01:13.260
+qui régissent la façon dont ils fonctionnent, dont ils affectent nos vies.
+
+00:01:13.260 --> 00:01:15.260
+Et récemment, nous nous sommes demandés
+
+00:01:15.260 --> 00:01:18.260
+s'il ne serait pas possible de tirer parti de cette idée,
+
+00:01:18.260 --> 00:01:20.260
+pour effectivement trouver des moyens d’améliorer le monde,
+
+00:01:20.260 --> 00:01:22.260
+de faire quelque chose de mieux,
+
+00:01:22.260 --> 00:01:25.260
+pour en réalité réparer les choses, pas seulement les comprendre.
+
+00:01:25.260 --> 00:01:28.260
+Ainsi, l'une des premières choses que nous pensions aborder
+
+00:01:28.260 --> 00:01:31.260
+serait de savoir comment nous pouvions prévoir des épidémies.
+
+00:01:31.260 --> 00:01:33.260
+Et l'état de la situation concernant la prédiction d’une épidémie --
+
+00:01:33.260 --> 00:01:36.260
+si vous êtes le CDC ou un autre organisme national --
+
+00:01:36.260 --> 00:01:38.260
+est de rester dans le milieu où vous vous trouvez
+
+00:01:38.260 --> 00:01:40.260
+et recueillir des données
+
+00:01:40.260 --> 00:01:42.260
+des médecins et des laboratoires sur le terrain
+
+00:01:42.260 --> 00:01:45.260
+qui rapportent la prévalence ou l'incidence de certaines conditions.
+
+00:01:45.260 --> 00:01:48.260
+Ainsi, tel et tel patients ont été diagnostiqués avec quelque chose [ici],
+
+00:01:48.260 --> 00:01:50.260
+ou d'autres patients ont été diagnostiqués [là-bas],
+
+00:01:50.260 --> 00:01:53.260
+et toutes ces données sont enregistrées dans un référentiel central, avec un certain retard.
+
+00:01:53.260 --> 00:01:55.260
+Et si tout se passe bien,
+
+00:01:55.260 --> 00:01:57.260
+dans une à deux semaines à partir de maintenant,
+
+00:01:57.260 --> 00:02:00.260
+vous saurez où était l'épidémie aujourd'hui.
+
+00:02:00.260 --> 00:02:02.260
+Et en fait, environ un an auparavant,
+
+00:02:02.260 --> 00:02:04.260
+il y avait cette promulgation
+
+00:02:04.260 --> 00:02:07.260
+de l'idée de Google Flu Trends, à l'égard de la grippe,
+
+00:02:07.260 --> 00:02:10.260
+où, en regardant le comportement de recherche des gens aujourd'hui,
+
+00:02:10.260 --> 00:02:12.260
+on pourrait savoir où la grippe ...
+
+00:02:12.260 --> 00:02:14.260
+quel est le statut de l'épidémie aujourd'hui,
+
+00:02:14.260 --> 00:02:17.260
+quelle est la prévalence de l'épidémie en ce moment.
+
+00:02:17.260 --> 00:02:19.260
+Mais ce que je voudrais vous montrer aujourd'hui
+
+00:02:19.260 --> 00:02:21.260
+est un moyen par lequel nous pourrions obtenir
+
+00:02:21.260 --> 00:02:24.260
+pas seulement une alerte rapide sur une épidémie,
+
+00:02:24.260 --> 00:02:26.260
+mais aussi
+
+00:02:26.260 --> 00:02:28.260
+la détection précoce d'une épidémie.
+
+00:02:28.260 --> 00:02:30.260
+Et, en fait, cette idée peut être utilisée
+
+00:02:30.260 --> 00:02:33.260
+non seulement pour prévoir les épidémies de microbes,
+
+00:02:33.260 --> 00:02:36.260
+mais aussi pour prévoir les épidémies en tout genre.
+
+00:02:37.260 --> 00:02:40.260
+Par exemple, tout ce qui se propage par une forme de contagion sociale
+
+00:02:40.260 --> 00:02:42.260
+pourrait être interprété de cette façon,
+
+00:02:42.260 --> 00:02:44.260
+des idées abstraites sur la gauche
+
+00:02:44.260 --> 00:02:47.260
+comme le patriotisme, ou l'altruisme, ou la religion,
+
+00:02:47.260 --> 00:02:49.260
+aux pratiques
+
+00:02:49.260 --> 00:02:51.260
+comme le comportement alimentaire, ou l'achat de livres,
+
+00:02:51.260 --> 00:02:54.260
+ou la boisson, ou le port du casque [et] autres pratiques de sécurité,
+
+00:02:54.260 --> 00:02:56.260
+ou les produits que les gens peuvent acheter,
+
+00:02:56.260 --> 00:02:58.260
+achats de biens électroniques,
+
+00:02:58.260 --> 00:03:01.260
+tout ce qui a une sorte de propagation interpersonnelle.
+
+00:03:01.260 --> 00:03:03.260
+Une sorte de diffusion de l'innovation
+
+00:03:03.260 --> 00:03:05.260
+pourrait être comprise et prédite
+
+00:03:05.260 --> 00:03:08.260
+par le mécanisme que je vais vous montrer maintenant.
+
+00:03:08.260 --> 00:03:10.260
+Donc, comme vous le savez probablement,
+
+00:03:10.260 --> 00:03:12.260
+la façon classique de penser à ça
+
+00:03:12.260 --> 00:03:14.260
+est la diffusion de l'innovation,
+
+00:03:14.260 --> 00:03:16.260
+ou la courbe d'adoption.
+
+00:03:16.260 --> 00:03:18.260
+Donc, ici, sur l'axe Y, nous avons le pourcentage de personnes touchées,
+
+00:03:18.260 --> 00:03:20.260
+et sur l'axe X, nous avons le temps.
+
+00:03:20.260 --> 00:03:23.260
+Et dès le début, peu de personnes sont touchées,
+
+00:03:23.260 --> 00:03:25.260
+et vous obtenez ce sigmoïde classique,
+
+00:03:25.260 --> 00:03:27.260
+ou courbe en S.
+
+00:03:27.260 --> 00:03:29.260
+Et la raison de cette forme est qu’au début,
+
+00:03:29.260 --> 00:03:31.260
+disons une ou deux personnes
+
+00:03:31.260 --> 00:03:33.260
+sont affectés ou infectés, par la chose,
+
+00:03:33.260 --> 00:03:35.260
+puis elles affectent, ou infectent, deux personnes,
+
+00:03:35.260 --> 00:03:38.260
+qui affectent à leur tour quatre, huit, 16 et ainsi de suite,
+
+00:03:38.260 --> 00:03:41.260
+et vous obtenez la phase de croissance de la courbe de l'épidémie.
+
+00:03:41.260 --> 00:03:43.260
+Et finalement, vous saturez la population.
+
+00:03:43.260 --> 00:03:45.260
+Il y a de moins en moins de gens
+
+00:03:45.260 --> 00:03:47.260
+qui sont encore disponibles que vous pourriez infecter,
+
+00:03:47.260 --> 00:03:49.260
+et puis vous obtenez le plateau de la courbe,
+
+00:03:49.260 --> 00:03:52.260
+et donc cette courbe sigmoïde classique.
+
+00:03:52.260 --> 00:03:54.260
+Et ceci est vrai pour les germes, les idées,
+
+00:03:54.260 --> 00:03:56.260
+l'adoption d’un produit, les comportements,
+
+00:03:56.260 --> 00:03:58.260
+et autres.
+
+00:03:58.260 --> 00:04:01.260
+Mais les choses ne diffusent pas dans les populations humaines au hasard.
+
+00:04:01.260 --> 00:04:03.260
+En fait, ils diffusent à travers les réseaux.
+
+00:04:03.260 --> 00:04:06.260
+Parce que, comme je l'ai dit, nous vivons notre vie dans les réseaux,
+
+00:04:06.260 --> 00:04:09.260
+et ces réseaux ont une architecture particulière.
+
+00:04:09.260 --> 00:04:11.260
+Maintenant, si vous regardez un réseau comme celui-ci ...
+
+00:04:11.260 --> 00:04:13.260
+C'est 105 personnes.
+
+00:04:13.260 --> 00:04:15.260
+Et les lignes représentent ...&nbsp;les points sont les gens,
+
+00:04:15.260 --> 00:04:17.260
+et les lignes représentent les relations d'amitié.
+
+00:04:17.260 --> 00:04:19.260
+Vous pouvez voir que les gens occupent
+
+00:04:19.260 --> 00:04:21.260
+différents endroits dans le réseau.
+
+00:04:21.260 --> 00:04:23.260
+Et il y a différents types de relations entre les personnes.
+
+00:04:23.260 --> 00:04:26.260
+Vous pourriez avoir des relations d'amitié, des relations fraternelles,
+
+00:04:26.260 --> 00:04:29.260
+des relations conjugales, des relations professionnelles,
+
+00:04:29.260 --> 00:04:32.260
+des relations de voisinage, etc.
+
+00:04:32.260 --> 00:04:34.260
+Et différentes sortes de choses
+
+00:04:34.260 --> 00:04:36.260
+diffusent suivant différents types de liens.
+
+00:04:36.260 --> 00:04:38.260
+Par exemple, les maladies sexuellement transmissibles
+
+00:04:38.260 --> 00:04:40.260
+diffuseront sur les liens sexuels.
+
+00:04:40.260 --> 00:04:42.260
+Ou, par exemple, le comportement tabagique des gens
+
+00:04:42.260 --> 00:04:44.260
+peut être influencé par leurs amis.
+
+00:04:44.260 --> 00:04:46.260
+Ou leur comportement altruiste ou leurs dons de charité
+
+00:04:46.260 --> 00:04:48.260
+peuvent être influencés par leurs collègues,
+
+00:04:48.260 --> 00:04:50.260
+ou par leurs voisins.
+
+00:04:50.260 --> 00:04:53.260
+Mais tous les nœuds du réseau ne sont pas les mêmes.
+
+00:04:53.260 --> 00:04:55.260
+Donc, si vous regardez cela, vous pouvez saisir immédiatement
+
+00:04:55.260 --> 00:04:58.260
+que des personnes différentes ont des nombres différents de connexions.
+
+00:04:58.260 --> 00:05:00.260
+Certaines personnes ont une connexion, certains en ont deux,
+
+00:05:00.260 --> 00:05:03.260
+certains six, certains ont 10 connexions.
+
+00:05:03.260 --> 00:05:05.260
+Et c'est ce qu'on appelle le "degré" d'un nœud,
+
+00:05:05.260 --> 00:05:07.260
+ou le nombre de connexions que le nœud a.
+
+00:05:07.260 --> 00:05:09.260
+Mais, en plus, il y a autre chose.
+
+00:05:09.260 --> 00:05:11.260
+Donc, si vous regardez les nœuds A et B,
+
+00:05:11.260 --> 00:05:13.260
+ils ont tous deux six connexions.
+
+00:05:13.260 --> 00:05:16.260
+Mais si vous pouvez avoir cette image [du réseau] vue de haut,
+
+00:05:16.260 --> 00:05:18.260
+vous pouvez le constater qu'il y a quelque chose de très différent
+
+00:05:18.260 --> 00:05:20.260
+au sujet des nœuds A et B.
+
+00:05:20.260 --> 00:05:23.260
+Alors, laissez-moi vous poser cette question -- je peux confirmer cette intuition en posant une question --
+
+00:05:23.260 --> 00:05:25.260
+qui préféreriez-vous être
+
+00:05:25.260 --> 00:05:28.260
+si un germe mortel se propageait à travers le réseau, A ou B?
+
+00:05:28.260 --> 00:05:30.260
+(Audience: B.) Nicholas Christakis: B, c'est évident.
+
+00:05:30.260 --> 00:05:32.260
+B est situé sur la périphérie du réseau.
+
+00:05:32.260 --> 00:05:34.260
+Maintenant, qui préféreriez-vous être
+
+00:05:34.260 --> 00:05:37.260
+si un morceau juteux de ragots se propageait à travers le réseau?
+
+00:05:37.260 --> 00:05:40.260
+A. Et vous avez une appréciation immédiate&nbsp;:
+
+00:05:40.260 --> 00:05:42.260
+A va être plus susceptible
+
+00:05:42.260 --> 00:05:45.260
+d’obtenir la chose qui se propage et de l'obtenir plus tôt
+
+00:05:45.260 --> 00:05:48.260
+en vertue de sa situation structurelle au sein du réseau.
+
+00:05:48.260 --> 00:05:50.260
+A, en fait, est plus central,
+
+00:05:50.260 --> 00:05:53.260
+et cela peut être une formalisation mathématique.
+
+00:05:53.260 --> 00:05:55.260
+Donc, si nous voulons suivre quelque chose
+
+00:05:55.260 --> 00:05:58.260
+qui se propageait à travers un réseau,
+
+00:05:58.260 --> 00:06:00.260
+ce que nous aimerions idéalement faire est de mettre en place des capteurs
+
+00:06:00.260 --> 00:06:02.260
+sur les individus centraux du réseau,
+
+00:06:02.260 --> 00:06:04.260
+y compris le nœud A,
+
+00:06:04.260 --> 00:06:07.260
+surveiller les personnes qui sont là au milieu du réseau,
+
+00:06:07.260 --> 00:06:09.260
+et en quelque sorte avoir une détection précoce
+
+00:06:09.260 --> 00:06:12.260
+de quoi que ce soit qui se répand à travers le réseau.
+
+00:06:12.260 --> 00:06:15.260
+Autrement dit, si vous les avez vus contracter une maladie ou un morceau d'information,
+
+00:06:15.260 --> 00:06:17.260
+vous savez que, assez vite,
+
+00:06:17.260 --> 00:06:19.260
+tout le monde était sur le point de contracter cette maladie
+
+00:06:19.260 --> 00:06:21.260
+ou cette information.
+
+00:06:21.260 --> 00:06:23.260
+Et ce serait beaucoup mieux
+
+00:06:23.260 --> 00:06:25.260
+que de suivre six personnes choisies au hasard,
+
+00:06:25.260 --> 00:06:28.260
+sans référence à la structure de la population.
+
+00:06:28.260 --> 00:06:30.260
+Et en fait, si vous pouviez le faire,
+
+00:06:30.260 --> 00:06:32.260
+ce que vous voyez est quelque chose comme ça.
+
+00:06:32.260 --> 00:06:35.260
+Sur le panneau de gauche, encore une fois, nous avons la courbe en S de l'adoption.
+
+00:06:35.260 --> 00:06:37.260
+Dans la ligne pointillée rouge, nous montrons
+
+00:06:37.260 --> 00:06:39.260
+ce que l'adoption serait avec des gens choisis au hasard,
+
+00:06:39.260 --> 00:06:42.260
+et dans la ligne de gauche, déplacé vers la gauche,
+
+00:06:42.260 --> 00:06:44.260
+nous montrer ce que l'adoption serait
+
+00:06:44.260 --> 00:06:46.260
+avec des individus centraux au sein du réseau.
+
+00:06:46.260 --> 00:06:48.260
+Sur l'axe des Y on a le nombre cumulé de contagions,
+
+00:06:48.260 --> 00:06:50.260
+et sur l'axe X, le temps.
+
+00:06:50.260 --> 00:06:52.260
+Et sur le côté droit, nous montrons les mêmes données,
+
+00:06:52.260 --> 00:06:54.260
+mais ici avec une incidence quotidienne.
+
+00:06:54.260 --> 00:06:56.260
+Et ce que nous montrons ici est que -- comme, ici --
+
+00:06:56.260 --> 00:06:58.260
+très peu de gens sont touchés, puis de plus en plus jusqu'à ici,
+
+00:06:58.260 --> 00:07:00.260
+et voici le pic de l'épidémie.
+
+00:07:00.260 --> 00:07:02.260
+Mais vers la gauche est ce qui se passe chez les individus centraux.
+
+00:07:02.260 --> 00:07:05.260
+Et cette différence de temps entre les deux
+
+00:07:05.260 --> 00:07:08.260
+est la détection précoce, l'alerte précoce que nous pouvons obtenir,
+
+00:07:08.260 --> 00:07:10.260
+au sujet d'une épidémie imminente
+
+00:07:10.260 --> 00:07:12.260
+dans la population humaine.
+
+00:07:12.260 --> 00:07:14.260
+Le problème, cependant,
+
+00:07:14.260 --> 00:07:16.260
+est que la cartographie des réseaux sociaux humains
+
+00:07:16.260 --> 00:07:18.260
+n'est pas toujours possible.
+
+00:07:18.260 --> 00:07:20.260
+Ca peut être coûteux, [très difficile],
+
+00:07:20.260 --> 00:07:22.260
+contraire à l'éthique,
+
+00:07:22.260 --> 00:07:25.260
+ou, franchement, tout simplement impossible de faire une telle chose.
+
+00:07:25.260 --> 00:07:27.260
+Alors, comment pouvons-nous comprendre
+
+00:07:27.260 --> 00:07:29.260
+qui sont les personnages centraux sont dans un réseau
+
+00:07:29.260 --> 00:07:32.260
+sans faire la cartographie du réseau ?
+
+00:07:32.260 --> 00:07:34.260
+Ce que nous avons mis en place
+
+00:07:34.260 --> 00:07:36.260
+est d'exploiter un fait ancien,
+
+00:07:36.260 --> 00:07:38.260
+ou un fait connu, sur les réseaux sociaux,
+
+00:07:38.260 --> 00:07:40.260
+qui est la chose suivante :
+
+00:07:40.260 --> 00:07:42.260
+Savez-vous que vos amis
+
+00:07:42.260 --> 00:07:45.260
+ont plus d'amis que vous ?
+
+00:07:45.260 --> 00:07:48.260
+Vos amis ont plus d'amis que vous.
+
+00:07:48.260 --> 00:07:50.260
+Et c'est ce qu'on appelle le paradoxe de l'amitié.
+
+00:07:50.260 --> 00:07:52.260
+Imaginez une personne très populaire dans le réseau social --
+
+00:07:52.260 --> 00:07:55.260
+comme un organisateur de soirées qui a des centaines d'amis --
+
+00:07:55.260 --> 00:07:57.260
+et un misanthrope qui n'a qu'un seul ami,
+
+00:07:57.260 --> 00:08:00.260
+et vous prenez quelqu'un au hasard dans la population ;
+
+00:08:00.260 --> 00:08:02.260
+ils sont beaucoup plus susceptibles de connaître l'hôte.
+
+00:08:02.260 --> 00:08:04.260
+Et s'ils désignent l'hôte comme leur ami,
+
+00:08:04.260 --> 00:08:06.260
+cette personne a une centaine d'amis,
+
+00:08:06.260 --> 00:08:09.260
+par conséquent, a plus d'amis qu’eux.
+
+00:08:09.260 --> 00:08:12.260
+Et ce, en substance, est ce qu'on appelle le paradoxe de l'amitié.
+
+00:08:12.260 --> 00:08:15.260
+Les amis de personnes choisies au hasard
+
+00:08:15.260 --> 00:08:17.260
+ont un plus haut degré, et sont plus centraux,
+
+00:08:17.260 --> 00:08:19.260
+que les gens au hasard eux-mêmes.
+
+00:08:19.260 --> 00:08:21.260
+Et vous pouvez vous faire une idée intuitive de cela
+
+00:08:21.260 --> 00:08:24.260
+si vous regardez juste les gens de la périphérie du réseau.
+
+00:08:24.260 --> 00:08:26.260
+Si vous choisissez cette personne,
+
+00:08:26.260 --> 00:08:29.260
+le seul ami qu'ils peuvent nommer est celui-ci,
+
+00:08:29.260 --> 00:08:31.260
+qui, par construction, doit avoir au moins deux,
+
+00:08:31.260 --> 00:08:33.260
+et donc plus d’amis.
+
+00:08:33.260 --> 00:08:35.260
+Et c’est ce qui se passe à chaque nœud périphérique.
+
+00:08:35.260 --> 00:08:38.260
+Et en fait, cela arrive dans tout le réseau à mesure que vous vous déplacez,
+
+00:08:38.260 --> 00:08:40.260
+quiconque vous choisissez, quand ils nomment au hasard ...
+
+00:08:40.260 --> 00:08:43.260
+quand une personne tirée au sort désigne un de ses amis,
+
+00:08:43.260 --> 00:08:46.260
+vous vous rapprochez du centre du réseau.
+
+00:08:46.260 --> 00:08:49.260
+Donc, nous avons pensé à exploiter cette idée
+
+00:08:49.260 --> 00:08:52.260
+afin de voir si nous pouvions prévoir les phénomènes au sein des réseaux.
+
+00:08:52.260 --> 00:08:54.260
+Parce que maintenant, avec cette idée,
+
+00:08:54.260 --> 00:08:56.260
+nous pouvons prendre un échantillon aléatoire de personnes,
+
+00:08:56.260 --> 00:08:58.260
+les inviter à désigner leurs amis,
+
+00:08:58.260 --> 00:09:00.260
+ceux-ci seraient plus centraux,
+
+00:09:00.260 --> 00:09:03.260
+et nous pourrions le faire sans avoir à la carte du réseau.
+
+00:09:03.260 --> 00:09:06.260
+Et nous avons testé cette idée avec une épidémie de grippe H1N1
+
+00:09:06.260 --> 00:09:08.260
+au Collège Harvard
+
+00:09:08.260 --> 00:09:11.260
+à l'automne et l'hiver 2009, il y a quelques mois.
+
+00:09:11.260 --> 00:09:14.260
+Nous avons pris 1 300 étudiants choisis au hasard,
+
+00:09:14.260 --> 00:09:16.260
+ils ont indiqué leurs amis,
+
+00:09:16.260 --> 00:09:18.260
+et nous avons suivi à la fois les étudiants tirés au sort et leurs amis
+
+00:09:18.260 --> 00:09:20.260
+tous les jours
+
+00:09:20.260 --> 00:09:23.260
+pour voir si ils avaient ou non contracté la grippe.
+
+00:09:23.260 --> 00:09:26.260
+Et nous avons fait cela passivement en regardant si oui ou non ils étaient allés aux services de santé universitaires.
+
+00:09:26.260 --> 00:09:29.260
+Et aussi, nous leur avions demandé de nous envoyer un email plusieurs fois par semaine.
+
+00:09:29.260 --> 00:09:32.260
+Ce que nous avions exactement prédit est arrivé.
+
+00:09:32.260 --> 00:09:35.260
+Le groupe aléatoire est cette ligne rouge.
+
+00:09:35.260 --> 00:09:38.260
+L'épidémie dans le groupe d'amis s'est déplacée vers la gauche, par ici.
+
+00:09:38.260 --> 00:09:41.260
+Et la différence entre les deux est de 16 jours.
+
+00:09:41.260 --> 00:09:43.260
+En surveillant le groupe d'amis,
+
+00:09:43.260 --> 00:09:45.260
+nous avons pu obtenir une alerte 16 jours à l'avance
+
+00:09:45.260 --> 00:09:48.260
+d'une épidémie imminente dans cette population humaine.
+
+00:09:48.260 --> 00:09:50.260
+Maintenant, en plus de cela,
+
+00:09:50.260 --> 00:09:53.260
+si vous étiez un analyste qui essaie d'étudier une épidémie
+
+00:09:53.260 --> 00:09:56.260
+ou de prévoir l'adoption d'un produit, par exemple,
+
+00:09:56.260 --> 00:09:59.260
+ce que vous pouvez faire est de choisir un échantillon aléatoire de la population,
+
+00:09:59.260 --> 00:10:02.260
+leur demander d’indiquer leurs amis et suivre ces amis,
+
+00:10:02.260 --> 00:10:05.260
+et suivre la population aléatoire et les amis.
+
+00:10:05.260 --> 00:10:08.260
+Parmi les amis, la première preuve que vous avez vu d'un top au-dessus de zéro
+
+00:10:08.260 --> 00:10:11.260
+dans l'adoption de l'innovation, par exemple,
+
+00:10:11.260 --> 00:10:13.260
+serait la preuve d'une épidémie imminente.
+
+00:10:13.260 --> 00:10:16.260
+Ou vous pouvez chercher la première fois que les deux courbes divergent,
+
+00:10:16.260 --> 00:10:18.260
+comme indiqué sur la gauche.
+
+00:10:18.260 --> 00:10:21.260
+Quand les aléatoires...&nbsp;quand les amis ont-ils décollé
+
+00:10:21.260 --> 00:10:23.260
+et laissé les "aléatoires",
+
+00:10:23.260 --> 00:10:25.260
+et [quand] la courbe a-t-elle commencé à virer ?
+
+00:10:25.260 --> 00:10:27.260
+Et ceci, comme indiqué par la ligne blanche,
+
+00:10:27.260 --> 00:10:29.260
+s’est produit 46 jours
+
+00:10:29.260 --> 00:10:31.260
+avant le pic de l'épidémie.
+
+00:10:31.260 --> 00:10:33.260
+Ce serait donc une technique
+
+00:10:33.260 --> 00:10:35.260
+avec laquelle nous pourrions obtenir une alerte plus d'un mois et demi
+
+00:10:35.260 --> 00:10:38.260
+avant une épidémie de grippe dans une population donnée.
+
+00:10:38.260 --> 00:10:40.260
+Je dois dire que
+
+00:10:40.260 --> 00:10:42.260
+l’avance avec laquelle on peut obtenir une information sur quelque chose
+
+00:10:42.260 --> 00:10:44.260
+dépend d'une multitude de facteurs.
+
+00:10:44.260 --> 00:10:46.260
+Cela peut dépendre de la nature de l'agent pathogène -
+
+00:10:46.260 --> 00:10:48.260
+différents agents pathogènes,
+
+00:10:48.260 --> 00:10:50.260
+avec cette technique, vous obtiendrez des alertes différentes --
+
+00:10:50.260 --> 00:10:52.260
+ou d'autres phénomènes qui se répandent,
+
+00:10:52.260 --> 00:10:55.260
+ou, franchement, de la structure du réseau humain.
+
+00:10:55.260 --> 00:10:58.260
+Maintenant, dans notre cas, bien que ce n’était pas nécessaire,
+
+00:10:58.260 --> 00:11:00.260
+nous pourrions également faire la carte du réseau des étudiants.
+
+00:11:00.260 --> 00:11:02.260
+Donc, voici la carte des 714 étudiants
+
+00:11:02.260 --> 00:11:04.260
+et leurs liens d'amitié.
+
+00:11:04.260 --> 00:11:06.260
+Et dans une minute, je vais mettre cette carte en mouvement.
+
+00:11:06.260 --> 00:11:08.260
+Nous allons prendre des photos quotidiennes à travers le réseau
+
+00:11:08.260 --> 00:11:10.260
+pendant 120 jours.
+
+00:11:10.260 --> 00:11:13.260
+Les points rouges vont être les cas de grippe,
+
+00:11:13.260 --> 00:11:16.260
+et les points jaunes, les amis des personnes atteintes de la grippe.
+
+00:11:16.260 --> 00:11:18.260
+Et la taille des points va être proportionnelle
+
+00:11:18.260 --> 00:11:20.260
+au nombre d’amis qui ont la grippe.
+
+00:11:20.260 --> 00:11:23.260
+Donc, plus les points sont gros, plus de vos amis ont la grippe.
+
+00:11:23.260 --> 00:11:26.260
+Et si vous regardez cette image -- nous voici maintenant le 13 Septembre --
+
+00:11:26.260 --> 00:11:28.260
+vous allez voir quelques cas se déclarer.
+
+00:11:28.260 --> 00:11:30.260
+Vous allez voir une sorte d’éclosion de la grippe au milieu.
+
+00:11:30.260 --> 00:11:33.260
+Ici nous sommes le 19 Octobre.
+
+00:11:33.260 --> 00:11:35.260
+La pente de la courbe de l'épidémie est proche maintenant, en Novembre.
+
+00:11:35.260 --> 00:11:38.260
+Bang, bang, bang, bang, bang, vous allez voir beaucoup d’éclosions au milieu,
+
+00:11:38.260 --> 00:11:40.260
+et puis vous allez voir une sorte de nivellement,
+
+00:11:40.260 --> 00:11:43.260
+de moins en moins de cas vers la fin de Décembre.
+
+00:11:43.260 --> 00:11:45.260
+Et ce type de visualisation
+
+00:11:45.260 --> 00:11:47.260
+peut montrer que les épidémies comme celle-ci prennent racine
+
+00:11:47.260 --> 00:11:49.260
+et affectent les individus du centre d'abord,
+
+00:11:49.260 --> 00:11:51.260
+avant qu'ils n'affectent les autres.
+
+00:11:51.260 --> 00:11:53.260
+Maintenant, comme je l'ai laissé entendre,
+
+00:11:53.260 --> 00:11:56.260
+cette méthode n'est pas limitée aux germes,
+
+00:11:56.260 --> 00:11:58.260
+mais en fait, à tout ce qui se propage dans les populations.
+
+00:11:58.260 --> 00:12:00.260
+L'information se répand dans les populations.
+
+00:12:00.260 --> 00:12:02.260
+Des normes peuvent se propager dans les populations.
+
+00:12:02.260 --> 00:12:04.260
+Des comportements peuvent se propager dans les populations.
+
+00:12:04.260 --> 00:12:07.260
+Et par des comportements, je veux dire des choses comme un comportement criminel,
+
+00:12:07.260 --> 00:12:10.260
+ou le comportement de vote, ou le comportement relatif à la santé
+
+00:12:10.260 --> 00:12:12.260
+comme le tabagisme, ou la vaccination,
+
+00:12:12.260 --> 00:12:14.260
+l'adoption d'un produit ou, ou d'autres types de comportements
+
+00:12:14.260 --> 00:12:16.260
+qui ont trait à l'influence interpersonnelle.
+
+00:12:16.260 --> 00:12:19.260
+Si je suis susceptible de faire quelque chose qui affecte les autres autour de moi,
+
+00:12:19.260 --> 00:12:22.260
+cette technique peut donner une alerte précoce, ou une détection précoce,
+
+00:12:22.260 --> 00:12:25.260
+sur l'adoption au sein de la population.
+
+00:12:25.260 --> 00:12:27.260
+Le point clé est que, pour que cela fonctionne,
+
+00:12:27.260 --> 00:12:29.260
+il doit y avoir de l'influence interpersonnelle.
+
+00:12:29.260 --> 00:12:31.260
+Cela ne marche pas avec un mécanisme de diffusion
+
+00:12:31.260 --> 00:12:34.260
+qui touche tout le monde de manière uniforme.
+
+00:12:35.260 --> 00:12:37.260
+Maintenant, les mêmes idées
+
+00:12:37.260 --> 00:12:40.260
+peuvent également être exploitées - à l'égard de réseaux -
+
+00:12:40.260 --> 00:12:43.260
+peuvent également être exploitées d'autre façons,
+
+00:12:43.260 --> 00:12:45.260
+par exemple, dans l'utilisation du ciblage
+
+00:12:45.260 --> 00:12:47.260
+de personnes en particulier pour les interventions.
+
+00:12:47.260 --> 00:12:49.260
+Ainsi, par exemple, la plupart d'entre vous sont probablement familiers
+
+00:12:49.260 --> 00:12:51.260
+avec la notion d'immunité collective.
+
+00:12:51.260 --> 00:12:54.260
+Donc, si nous avons une population d'un millier de personnes,
+
+00:12:54.260 --> 00:12:57.260
+et nous voulons en faire une population immunitaire à un agent pathogène,
+
+00:12:57.260 --> 00:12:59.260
+nous n'avons pas à immuniser chaque personne.
+
+00:12:59.260 --> 00:13:01.260
+Si nous immunisons 960 d'entre eux,
+
+00:13:01.260 --> 00:13:04.260
+c'est comme si nous avions vacciné la population tout entière.
+
+00:13:04.260 --> 00:13:07.260
+Parce que même si un ou deux des personnes non immunisées sont infectées,
+
+00:13:07.260 --> 00:13:09.260
+il n'y a personne d’autre à infecter.
+
+00:13:09.260 --> 00:13:11.260
+Ils sont entourés par des gens immunisés.
+
+00:13:11.260 --> 00:13:14.260
+Ainsi, 96 % est aussi bon que 100 %.
+
+00:13:14.260 --> 00:13:16.260
+Eh bien, d'autres scientifiques ont estimé
+
+00:13:16.260 --> 00:13:18.260
+ce qui arriverait si vous aviez pris un échantillon aléatoire de 30 %
+
+00:13:18.260 --> 00:13:21.260
+de ces 1000 personnes, 300 personnes et les faire vacciner.
+
+00:13:21.260 --> 00:13:23.260
+Obtiendrez-vous une immunité au niveau de la population ?
+
+00:13:23.260 --> 00:13:26.260
+Et la réponse est non.
+
+00:13:26.260 --> 00:13:28.260
+Mais si vous avez suivi ces 30%, ces 300 personnes,
+
+00:13:28.260 --> 00:13:30.260
+et leur avez fait nommer leurs amis
+
+00:13:30.260 --> 00:13:33.260
+puis pris le même nombre de vaccins
+
+00:13:33.260 --> 00:13:35.260
+pour vacciner les amis de ces 300,
+
+00:13:35.260 --> 00:13:37.260
+les 300 amis,
+
+00:13:37.260 --> 00:13:39.260
+vous pouvez obtenir le même niveau d'immunité de groupe
+
+00:13:39.260 --> 00:13:42.260
+que si vous aviez vaccinés 96 % de la population
+
+00:13:42.260 --> 00:13:45.260
+avec une plus grande efficacité, et une contrainte budgétaire stricte.
+
+00:13:45.260 --> 00:13:47.260
+Et des idées similaires peuvent être utilisés, par exemple,
+
+00:13:47.260 --> 00:13:49.260
+pour cibler la distribution de choses comme les moustiquaires
+
+00:13:49.260 --> 00:13:51.260
+dans les pays en voie de développement.
+
+00:13:51.260 --> 00:13:54.260
+Si nous pouvions comprendre la structure des réseaux dans les villages,
+
+00:13:54.260 --> 00:13:56.260
+nous pourrions cibler les interventions
+
+00:13:56.260 --> 00:13:58.260
+pour promouvoir ce type de structure.
+
+00:13:58.260 --> 00:14:01.260
+Ou, franchement, pour la publicité de toutes sortes de produits.
+
+00:14:01.260 --> 00:14:03.260
+Si nous pouvions comprendre comment cibler,
+
+00:14:03.260 --> 00:14:05.260
+cela pourrait influencer l'efficacité
+
+00:14:05.260 --> 00:14:07.260
+de ce que nous essayons de réaliser.
+
+00:14:07.260 --> 00:14:09.260
+Et en fait, nous pouvons utiliser les données
+
+00:14:09.260 --> 00:14:11.260
+de toutes sortes de sources de nos jours [pour le faire].
+
+00:14:11.260 --> 00:14:13.260
+Ceci est la carte de huit millions d'utilisateurs de téléphone
+
+00:14:13.260 --> 00:14:15.260
+dans un pays européen.
+
+00:14:15.260 --> 00:14:17.260
+Chaque point est une personne, et chaque ligne représente
+
+00:14:17.260 --> 00:14:19.260
+un volume d'appels entre les personnes.
+
+00:14:19.260 --> 00:14:22.260
+Et nous pouvons utiliser ces données, qui sont obtenues de manière passive
+
+00:14:22.260 --> 00:14:24.260
+pour cartographier ces pays entiers
+
+00:14:24.260 --> 00:14:27.260
+et comprendre qui est où dans le réseau.
+
+00:14:27.260 --> 00:14:29.260
+Sans avoir à les interroger tous,
+
+00:14:29.260 --> 00:14:31.260
+nous pouvons obtenir ce genre d'une vision structurelle.
+
+00:14:31.260 --> 00:14:34.260
+Et d'autres sources d'information, comme vous le savez sans doute,
+
+00:14:34.260 --> 00:14:37.260
+sont disponibles sur de telles caractéristiques, à partir des interactions e-mail,
+
+00:14:37.260 --> 00:14:39.260
+interactions en ligne,
+
+00:14:39.260 --> 00:14:42.260
+réseaux sociaux en ligne, et ainsi de suite.
+
+00:14:42.260 --> 00:14:44.260
+Et en fait, nous sommes à l'ère de ce que j'appellerais
+
+00:14:44.260 --> 00:14:47.260
+les efforts de collecte de données "massives et passives".
+
+00:14:47.260 --> 00:14:50.260
+Il y a toutes sortes de façons d’utiliser les données recueillies massivement
+
+00:14:50.260 --> 00:14:53.260
+de créer des réseaux de capteurs
+
+00:14:53.260 --> 00:14:55.260
+pour suivre la population,
+
+00:14:55.260 --> 00:14:57.260
+comprendre ce qui se passe dans la population,
+
+00:14:57.260 --> 00:15:00.260
+et d'intervenir dans la population pour le bien.
+
+00:15:00.260 --> 00:15:02.260
+Parce que ces nouvelles technologies nous disent
+
+00:15:02.260 --> 00:15:04.260
+non seulement qui parle à qui,
+
+00:15:04.260 --> 00:15:06.260
+mais où chacun se trouve,
+
+00:15:06.260 --> 00:15:09.260
+et ce qu'ils pensent sur ce qu'ils téléchargent sur Internet,
+
+00:15:09.260 --> 00:15:11.260
+et ce qu'ils achètent en fonction de leurs achats.
+
+00:15:11.260 --> 00:15:14.260
+Et toutes ces données administratives peuvent être rassemblées
+
+00:15:14.260 --> 00:15:16.260
+et traitées pour comprendre le comportement humain
+
+00:15:16.260 --> 00:15:19.260
+d'une manière que nous n'avons jamais pu faire auparavant.
+
+00:15:19.260 --> 00:15:22.260
+Ainsi, par exemple, nous pourrions utiliser les achats de carburant des camionneurs.
+
+00:15:22.260 --> 00:15:24.260
+Donc, les camionneurs ne vaquent qu’à leurs occupations,
+
+00:15:24.260 --> 00:15:26.260
+et ils achètent du carburant.
+
+00:15:26.260 --> 00:15:29.260
+Et nous voyons un soubresaut dans les achats de carburant des camionneurs,
+
+00:15:29.260 --> 00:15:31.260
+et nous savons que la récession touche à sa fin.
+
+00:15:31.260 --> 00:15:33.260
+Ou nous pouvons contrôler la vitesse
+
+00:15:33.260 --> 00:15:36.260
+avec laquelle les gens se déplacent avec leurs téléphones sur une route,
+
+00:15:36.260 --> 00:15:38.260
+et l’opérateur téléphonique peut voir,
+
+00:15:38.260 --> 00:15:40.260
+lorsque la vitesse décroit,
+
+00:15:40.260 --> 00:15:42.260
+qu'il y a un embouteillage.
+
+00:15:42.260 --> 00:15:45.260
+Et ils peuvent transmettre cette information à leurs abonnés,
+
+00:15:45.260 --> 00:15:47.260
+mais seulement à leurs abonnés sur la même route
+
+00:15:47.260 --> 00:15:49.260
+situés derrière les embouteillages !
+
+00:15:49.260 --> 00:15:52.260
+Ou nous pouvons surveiller les habitudes de prescription des médecins, passivement,
+
+00:15:52.260 --> 00:15:55.260
+et voir comment la diffusion de l'innovation avec des produits pharmaceutiques
+
+00:15:55.260 --> 00:15:57.260
+se produit dans les [réseaux] de médecins.
+
+00:15:57.260 --> 00:15:59.260
+Ou encore, nous pouvons surveiller le comportement d'achat des gens,
+
+00:15:59.260 --> 00:16:01.260
+et voir comment ces types de phénomènes
+
+00:16:01.260 --> 00:16:04.260
+peuvent se diffuser dans les populations humaines.
+
+00:16:04.260 --> 00:16:06.260
+Et il y a trois façons, je pense,
+
+00:16:06.260 --> 00:16:08.260
+d’utiliser ces données massives-passives.
+
+00:16:08.260 --> 00:16:10.260
+L'une est entièrement passive,
+
+00:16:10.260 --> 00:16:12.260
+comme je viens de le décrire --
+
+00:16:12.260 --> 00:16:14.260
+comme dans l'exemple du camionneur,
+
+00:16:14.260 --> 00:16:16.260
+où nous n'intervenons en aucune façon au sein de la population.
+
+00:16:16.260 --> 00:16:18.260
+L’une est quasi-active,
+
+00:16:18.260 --> 00:16:20.260
+comme dans l'exemple de grippe que j'ai donné,
+
+00:16:20.260 --> 00:16:23.260
+où nous demandons à des gens de nommer leurs amis
+
+00:16:23.260 --> 00:16:25.260
+pour suivre passivement ces amis --
+
+00:16:25.260 --> 00:16:27.260
+ont-ils la grippe, ou pas?&nbsp;-- Puis obtenir une alerte.
+
+00:16:27.260 --> 00:16:29.260
+Ou un autre exemple serait,
+
+00:16:29.260 --> 00:16:32.260
+si vous êtes chez un opérateur de téléphone, vous déterminez qui est central dans le réseau,
+
+00:16:32.260 --> 00:16:35.260
+et vous demandez à ces gens : "Bon, pouvez-vous nous envoyer un SMS sur votre état de fièvre tous les jours&nbsp;?
+
+00:16:35.260 --> 00:16:37.260
+Envoyez-nous juste votre température."
+
+00:16:37.260 --> 00:16:40.260
+Et vous recueillez de grandes quantités d'informations sur la température des gens,
+
+00:16:40.260 --> 00:16:42.260
+mais toutes d'individus centraux.
+
+00:16:42.260 --> 00:16:44.260
+Et vous êtes capable, à grande échelle,
+
+00:16:44.260 --> 00:16:46.260
+de surveiller une épidémie imminente
+
+00:16:46.260 --> 00:16:48.260
+avec une participation très minime de personnes.
+
+00:16:48.260 --> 00:16:50.260
+Ou, enfin, elle peut être complètement active --
+
+00:16:50.260 --> 00:16:52.260
+Je sais que les orateurs suivants en parleront aussi aujourd'hui --
+
+00:16:52.260 --> 00:16:54.260
+où les gens peuvent contribuer à l'échelle mondiale sur des wikis ,
+
+00:16:54.260 --> 00:16:57.260
+ou sur la photographie, le suivi des élections,
+
+00:16:57.260 --> 00:16:59.260
+et télécharger des informations d'une manière qui nous permet de mettre en commun
+
+00:16:59.260 --> 00:17:01.260
+l'information afin de comprendre les processus sociaux
+
+00:17:01.260 --> 00:17:03.260
+et les phénomènes sociaux.
+
+00:17:03.260 --> 00:17:05.260
+En fait, la disponibilité de ces données, je crois,
+
+00:17:05.260 --> 00:17:07.260
+annonce une sorte de nouvelle ère
+
+00:17:07.260 --> 00:17:09.260
+de ce que moi et d'autres aimeraient appeler
+
+00:17:09.260 --> 00:17:11.260
+"La science sociale numérique."
+
+00:17:11.260 --> 00:17:14.260
+C'est un peu comme lorsque Galilée a inventé – non, n’a pas inventé –
+
+00:17:14.260 --> 00:17:16.260
+est venu à utiliser un télescope
+
+00:17:16.260 --> 00:17:18.260
+et pu voir le ciel d'une manière nouvelle,
+
+00:17:18.260 --> 00:17:20.260
+ou Leeuwenhoek a pris connaissance du microscope --
+
+00:17:20.260 --> 00:17:22.260
+ou l’a réellement inventé --
+
+00:17:22.260 --> 00:17:24.260
+et pu voir la biologie d'une manière nouvelle.
+
+00:17:24.260 --> 00:17:26.260
+Mais maintenant nous avons accès à ces types de données
+
+00:17:26.260 --> 00:17:28.260
+qui nous permettent de comprendre les processus sociaux
+
+00:17:28.260 --> 00:17:30.260
+et les phénomènes sociaux
+
+00:17:30.260 --> 00:17:33.260
+d'une manière entièrement nouvelle qui n'a jamais été possible auparavant.
+
+00:17:33.260 --> 00:17:35.260
+Et avec cette science, nous pouvons
+
+00:17:35.260 --> 00:17:37.260
+comprendre exactement comment
+
+00:17:37.260 --> 00:17:39.260
+l'ensemble vient à être plus
+
+00:17:39.260 --> 00:17:41.260
+que la somme de ses parties.
+
+00:17:41.260 --> 00:17:43.260
+Et effectivement, nous pouvons utiliser ces données
+
+00:17:43.260 --> 00:17:46.260
+pour améliorer la société et améliorer le bien-être.
+
+00:17:46.260 --> 00:17:48.260
+Je vous remercie.
+

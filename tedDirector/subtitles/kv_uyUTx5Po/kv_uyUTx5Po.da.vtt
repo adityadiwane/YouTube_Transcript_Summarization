@@ -1,0 +1,620 @@
+WEBVTT
+Kind: captions
+Language: da
+
+00:00:00.000 --> 00:00:07.000
+Translator: David J. Kreps Finnemann
+Reviewer: Anders Finn Jørgensen
+
+00:00:12.562 --> 00:00:15.623
+Eric Berlow: Jeg er miljøforsker, og Sean er fysiker,
+
+00:00:15.623 --> 00:00:17.731
+og vi forsker begge i komplekse netværk.
+
+00:00:17.731 --> 00:00:19.566
+Og vi mødte hinanden for et par år siden da vi opdagede
+
+00:00:19.566 --> 00:00:21.566
+at vi begge havde givet et kort TED foredrag
+
+00:00:21.566 --> 00:00:23.869
+om økologien ved krig,
+
+00:00:23.869 --> 00:00:25.316
+og vi blev klar over at vi var forbundet gennem
+
+00:00:25.316 --> 00:00:28.134
+de ideer vi delte inden vi overhovedet mødtes.
+
+00:00:28.134 --> 00:00:29.690
+Og så tænkte vi, I ved, der er tusindevis
+
+00:00:29.690 --> 00:00:31.804
+af andre foredrag derude, specielt TEDx Talks,
+
+00:00:31.804 --> 00:00:34.015
+der dukker frem fra hele verden.
+
+00:00:34.015 --> 00:00:34.938
+Hvordan er de forbundet,
+
+00:00:34.938 --> 00:00:36.948
+og hvordan ser den globale samtale ud?
+
+00:00:36.948 --> 00:00:39.758
+Sean vil fortælle jer en lille smule om hvordan vi gjorde det.
+
+00:00:39.758 --> 00:00:43.525
+Sean Gourley: Præcis. Vi tog 24.000 TEDx Talks
+
+00:00:43.525 --> 00:00:46.571
+fra hele verden, 147 forskellige lande,
+
+00:00:46.571 --> 00:00:48.694
+og vi tog de foredrag og vi ville finde
+
+00:00:48.694 --> 00:00:50.734
+de matematiske strukturer der ligger under
+
+00:00:50.734 --> 00:00:52.456
+ideerne bag dem.
+
+00:00:52.456 --> 00:00:53.826
+Og det ville vi gøre så vi kunne se hvordan
+
+00:00:53.826 --> 00:00:55.879
+de var forbundet med hinanden.
+
+00:00:55.879 --> 00:00:57.555
+Så, selvfølgelig, hvis man vil gøre disse slags ting,
+
+00:00:57.555 --> 00:00:58.511
+har man brug for meget data.
+
+00:00:58.511 --> 00:01:02.197
+Den data man har er en ting der hedder YouTube,
+
+00:01:02.197 --> 00:01:03.965
+og vi kan gå ned og dybest set hente
+
+00:01:03.965 --> 00:01:06.232
+al den åbne information fra YouTube,
+
+00:01:06.232 --> 00:01:08.581
+alle kommentarerne, det antal gange det er blevet set, hvem der ser det,
+
+00:01:08.581 --> 00:01:11.360
+hvor de ser det fra, hvad de siger i kommentarerne.
+
+00:01:11.360 --> 00:01:14.652
+Men vi kan også hente, ved hjælp af tale-til-tekst oversættelse,
+
+00:01:14.652 --> 00:01:16.780
+vi kan hente hele udskriften,
+
+00:01:16.780 --> 00:01:19.460
+og det fungerer endda for mennesker med den slags sjove accenter
+
+00:01:19.460 --> 00:01:21.566
+Så vi kan tage deres udskrift
+
+00:01:21.566 --> 00:01:23.664
+og faktisk gøre nogle temmelig fede ting.
+
+00:01:23.664 --> 00:01:25.824
+Vi kan tage naturlige sprogbehandlings algoritmer
+
+00:01:25.824 --> 00:01:28.453
+til på en måde at læse dem igennem med en computer, linje for linje,
+
+00:01:28.453 --> 00:01:30.812
+og udtrækker nøgle koncepter fra dette.
+
+00:01:30.812 --> 00:01:33.337
+Og vi tager de nøgle koncepter og de former på en måde
+
+00:01:33.337 --> 00:01:36.902
+denne matematisk struktur om en ide.
+
+00:01:36.902 --> 00:01:38.659
+Og vi kalder det meme-ome.
+
+00:01:38.659 --> 00:01:40.810
+Og meme-omet, I ved, simpelt sagt,
+
+00:01:40.810 --> 00:01:43.236
+er matematikken der ligger under en ide,
+
+00:01:43.236 --> 00:01:45.168
+og vi kan gøre nogle temmelig interessante analyser med det,
+
+00:01:45.168 --> 00:01:47.149
+som jeg vil dele med jer nu.
+
+00:01:47.149 --> 00:01:49.339
+Hver ide har sin egen meme-ome,
+
+00:01:49.339 --> 00:01:51.290
+og hver ide er unik med det,
+
+00:01:51.290 --> 00:01:53.778
+men selvfølgelig, ideer, de låner fra hinanden,
+
+00:01:53.778 --> 00:01:54.962
+de stjæler på en måde nogen gange,
+
+00:01:54.962 --> 00:01:56.789
+og de kan bestemt bygge på hinanden,
+
+00:01:56.789 --> 00:01:58.405
+og vi kan gå gennem det matematisk
+
+00:01:58.405 --> 00:02:00.245
+og tage det meme-ome fra et foredrag
+
+00:02:00.245 --> 00:02:02.699
+og sammenligne det med et meme-ome fra et hvert andet foredrag,
+
+00:02:02.699 --> 00:02:04.672
+og hvis der er en lighed mellem de to,
+
+00:02:04.672 --> 00:02:07.922
+kan vi skabe et link og repræsentere det som en graf,
+
+00:02:07.922 --> 00:02:10.316
+ligesom Eric og jeg er forbundet.
+
+00:02:10.316 --> 00:02:11.710
+Det er teori, det er fantastisk.
+
+00:02:11.710 --> 00:02:14.236
+Lad os se hvordan det fungerer i praksis.
+
+00:02:14.236 --> 00:02:17.024
+Det vi har her nu er et globalt fodaftryk
+
+00:02:17.024 --> 00:02:19.317
+af alle TEDx foredrag i løbet af de sidste fire år
+
+00:02:19.317 --> 00:02:20.867
+der eksploderer ud over hele verden
+
+00:02:20.867 --> 00:02:24.196
+fra New York hele vejen ned til lille bitte New Zealand nede i hjørnet.
+
+00:02:24.196 --> 00:02:28.031
+Og det vi gjorde ved dette var at vi analyserede top 25 procent af disse,
+
+00:02:28.031 --> 00:02:30.565
+og vi begyndte med at se hvor forbindelserne opstod,
+
+00:02:30.565 --> 00:02:32.102
+hvor de forbandt sig med hinanden.
+
+00:02:32.102 --> 00:02:33.976
+Cameron Russel taler om billede og skønhed
+
+00:02:33.976 --> 00:02:35.551
+der blev forbundet ind i Europa.
+
+00:02:35.551 --> 00:02:37.963
+Vi har en større samtale om Israel og Palestina
+
+00:02:37.963 --> 00:02:40.218
+der stråler ud fra Mellemøsten.
+
+00:02:40.218 --> 00:02:41.516
+Og vi har noget lidt bredere
+
+00:02:41.516 --> 00:02:43.672
+som store data med et virkelig globalt fodaftryk
+
+00:02:43.672 --> 00:02:45.851
+der minder om en samtale
+
+00:02:45.851 --> 00:02:47.867
+der sker over det hele.
+
+00:02:47.867 --> 00:02:50.040
+Fra dette, løber vi på en måde op imod grænserne
+
+00:02:50.040 --> 00:02:52.570
+for hvad vi faktisk kan gøre med en geografisk projicering,
+
+00:02:52.570 --> 00:02:54.622
+men heldigvis, tillader computer teknologien os at tage ud
+
+00:02:54.622 --> 00:02:56.168
+i det multidimensionelle rum.
+
+00:02:56.168 --> 00:02:58.043
+Vi kan kigge på vores netværks projektion
+
+00:02:58.043 --> 00:02:59.793
+og bruge en fysisk motor til dette,
+
+00:02:59.793 --> 00:03:01.678
+og de lignende foredrag brager sammen på en måde,
+
+00:03:01.678 --> 00:03:03.682
+og de anderledes flyver væk,
+
+00:03:03.682 --> 00:03:05.754
+og det vi bliver efterladt med noget der er ganske smukt.
+
+00:03:05.754 --> 00:03:08.711
+EB: Jeg vil bare pointere, at hver knudepunkt her er et foredrag,
+
+00:03:08.711 --> 00:03:11.300
+de er kædet sammen hvis de deler ens ideer,
+
+00:03:11.300 --> 00:03:13.384
+og det kommer fra en maskine der læser
+
+00:03:13.384 --> 00:03:15.451
+udskriften fra hele foredraget,
+
+00:03:15.451 --> 00:03:17.682
+og alle de emner der så stikker frem,
+
+00:03:17.682 --> 00:03:19.472
+de ikke kommer fra tags og nøgleord.
+
+00:03:19.472 --> 00:03:21.197
+De kommer fra netværkets struktur
+
+00:03:21.197 --> 00:03:23.365
+af forbundne ideer. Fortsæt.
+
+00:03:23.365 --> 00:03:25.387
+SG: Bestemt. Det gik lige lidt hurtigt for mig med det,
+
+00:03:25.387 --> 00:03:26.862
+men han vil få mig til at sætte farten ned.
+
+00:03:26.862 --> 00:03:28.896
+Vi har uddannelse forbundet med fortællekunst
+
+00:03:28.896 --> 00:03:30.539
+trianguleret ved siden af sociale medier.
+
+00:03:30.539 --> 00:03:33.014
+Man har, selvfølgelig, den menneskelige hjerne ved siden af sundhedspleje,
+
+00:03:33.014 --> 00:03:34.400
+som man måske ville forvente,
+
+00:03:34.400 --> 00:03:36.795
+men der er også computerspil, hvilket er nærliggende,
+
+00:03:36.795 --> 00:03:39.535
+som de to rum har berøringsflade med hinanden.
+
+00:03:39.535 --> 00:03:41.070
+Men jeg vil tage jer med ned i en gruppe
+
+00:03:41.070 --> 00:03:43.938
+der er specielt vigtig for mig, og det er miljøet.
+
+00:03:43.938 --> 00:03:45.431
+Og jeg vil zoome ind på den
+
+00:03:45.431 --> 00:03:47.794
+og se om vi kan få lidt mere opløsning.
+
+00:03:47.794 --> 00:03:50.141
+I takt med at vi går derind, begynder vi at se,
+
+00:03:50.141 --> 00:03:51.645
+bruger fysik motoren igen,
+
+00:03:51.645 --> 00:03:53.321
+ser vi at det der faktisk er en samtale
+
+00:03:53.321 --> 00:03:55.881
+faktisk udgøres af mange mindre.
+
+00:03:55.881 --> 00:03:57.810
+Strukturen begynder at opstå
+
+00:03:57.810 --> 00:03:59.880
+hvor vi ser en form for fraktal adfærd
+
+00:03:59.880 --> 00:04:01.499
+i ordene og sproget som vi bruger
+
+00:04:01.499 --> 00:04:03.201
+til at beskrive de ting der er vigtige for os
+
+00:04:03.201 --> 00:04:04.634
+rundt om i hele verden.
+
+00:04:04.634 --> 00:04:06.966
+I toppen er mad økonomi og lokal mad,
+
+00:04:06.966 --> 00:04:09.685
+der er drivhusgasser, solar og nukleart affald.
+
+00:04:09.685 --> 00:04:12.316
+Det man får er en række mindre samtaler,
+
+00:04:12.316 --> 00:04:14.617
+hver forbundet med hinanden gennem ideerne
+
+00:04:14.617 --> 00:04:15.918
+og sproget de deler,
+
+00:04:15.918 --> 00:04:18.368
+og skaber et bredere koncept om miljøet.
+
+00:04:18.368 --> 00:04:19.900
+Og selvfølgelig, herfra, kan vi gå
+
+00:04:19.900 --> 00:04:23.434
+ind og zoome ind og se, jamen, hvad ser unge mennesker på?
+
+00:04:23.434 --> 00:04:25.779
+Og de ser på energi teknologi og nuklear fusion.
+
+00:04:25.779 --> 00:04:27.453
+Dette er deres form for resonans
+
+00:04:27.453 --> 00:04:29.859
+til samtalen om miljøet.
+
+00:04:29.859 --> 00:04:31.758
+Hvis vi deler det op i køn,
+
+00:04:31.758 --> 00:04:33.745
+kan vi se at kvinder giver kraftig genlyd
+
+00:04:33.745 --> 00:04:37.390
+med mad økonomi, men også der ude i håb og optimism.
+
+00:04:37.390 --> 00:04:39.872
+Så der er mange spændende ting vi kan gøre her,
+
+00:04:39.872 --> 00:04:41.634
+og jeg vil kaste den næste del videre til Eric.
+
+00:04:41.634 --> 00:04:43.236
+EB: Ja, jeg mener, bare for at pointere her,
+
+00:04:43.236 --> 00:04:44.774
+man kan ikke få denne slags perspektiv
+
+00:04:44.774 --> 00:04:48.134
+fra en simple tag søgning på YouTube.
+
+00:04:48.134 --> 00:04:52.322
+Lad os zoome tilbage til hele den globale samtale
+
+00:04:52.322 --> 00:04:54.856
+ud af miljøet, og se på alle foredragene sammen.
+
+00:04:54.856 --> 00:04:57.783
+Tit, når vi står overfor denne mængde indhold,
+
+00:04:57.783 --> 00:05:00.214
+gør vi et par ting til at simplificere det.
+
+00:05:00.214 --> 00:05:01.528
+Vi siger måske, jamen,
+
+00:05:01.528 --> 00:05:04.357
+hvad er de mest populære foredrag derude?
+
+00:05:04.357 --> 00:05:05.754
+Og der kommer et par til overfladen.
+
+00:05:05.754 --> 00:05:07.582
+Der er et foredrag om taknemmelighed.
+
+00:05:07.582 --> 00:05:10.926
+Der er et andet om personlig helbred og ernæring.
+
+00:05:10.926 --> 00:05:13.855
+Og selvfølgelig, der er nød til at være et om porno, ikke?
+
+00:05:13.855 --> 00:05:17.089
+Så vi kan måske sige, jamen, taknemmelighed, det var sidste år.
+
+00:05:17.089 --> 00:05:19.611
+Hvad er tendensen nu? Hvad er det populære foredrag nu?
+
+00:05:19.611 --> 00:05:22.932
+Og vi kan se at den nye, fremspirende, tendens
+
+00:05:22.932 --> 00:05:25.598
+handler om digital privatliv.
+
+00:05:25.598 --> 00:05:27.291
+Dette er fantastisk. Det simplificerer ting.
+
+00:05:27.291 --> 00:05:29.118
+Men der er så meget kreativt indhold
+
+00:05:29.118 --> 00:05:31.039
+der bare er begravet i bunden.
+
+00:05:31.039 --> 00:05:34.357
+Og det hader jeg. Hvordan får vi gravet ting op til overfladen
+
+00:05:34.357 --> 00:05:36.815
+der måske er virkelig kreative og interessante?
+
+00:05:36.815 --> 00:05:39.746
+Jamen, vi kan gå tilbage til netværksstrukturen om ideer
+
+00:05:39.746 --> 00:05:41.176
+for at gøre det.
+
+00:05:41.176 --> 00:05:43.290
+Husk på, at det er netværksstrukturen
+
+00:05:43.290 --> 00:05:45.558
+der skaber disse fremspirende emner,
+
+00:05:45.558 --> 00:05:47.073
+og lad os sige at vi kunne tage to af dem,
+
+00:05:47.073 --> 00:05:50.120
+som byer og genetik, og lad os sige, jamen, er der nogen foredrag
+
+00:05:50.120 --> 00:05:52.689
+der kreativt bygger bro mellem disse to virkelig forskellige discipliner.
+
+00:05:52.689 --> 00:05:54.964
+Og det er -- dybest set, denne slags kreative remix
+
+00:05:54.964 --> 00:05:56.804
+er en af kendetegnene ved innovation.
+
+00:05:56.804 --> 00:05:58.410
+Jamen her er et af Jessica Green
+
+00:05:58.410 --> 00:06:00.789
+om bygningers mikrobiologiske økologi.
+
+00:06:00.789 --> 00:06:02.799
+Det definerer bogstavelig talt et nyt område.
+
+00:06:02.799 --> 00:06:04.902
+Og vi kunne gå tilbage til de emner og sige, jamen,
+
+00:06:04.902 --> 00:06:07.670
+hvilke foredrag er centrale til de samtaler?
+
+00:06:07.670 --> 00:06:09.360
+I by grupperne, var et af de mest centrale
+
+00:06:09.360 --> 00:06:13.312
+af Mitch Joachim om økologiske byer,
+
+00:06:13.312 --> 00:06:15.032
+og i de genetiske grupper,
+
+00:06:15.032 --> 00:06:18.225
+har vi et foredrag om syntetisk biologi af Craig Venter.
+
+00:06:18.225 --> 00:06:21.578
+Dette er foredrag der samler mange foredrag indenfor deres disciplin.
+
+00:06:21.578 --> 00:06:23.421
+Vi kan gå i den anden retning og sige, jamen,
+
+00:06:23.421 --> 00:06:25.693
+hvad er foredrag der bredt syntetiserer
+
+00:06:25.693 --> 00:06:27.141
+mange forskellige felter.
+
+00:06:27.141 --> 00:06:29.674
+Vi brugte en målestok fra økologisk diversitet for at få dette.
+
+00:06:29.674 --> 00:06:32.410
+Som, et foredrag af Steven Pinker om voldens historie,
+
+00:06:32.410 --> 00:06:33.590
+meget syntetisk.
+
+00:06:33.590 --> 00:06:35.668
+Og så, selvfølgelig, er der foredrag der er så unikke
+
+00:06:35.668 --> 00:06:38.758
+at de på en måde er derude i stratosfæren, på deres eget specielle sted,
+
+00:06:38.758 --> 00:06:41.272
+og vi kalder det Colleen Flanagan indekset.
+
+00:06:41.272 --> 00:06:44.306
+Og hvis man ikke kender Colleen, hun er en kunstner,
+
+00:06:44.306 --> 00:06:45.849
+og jeg spurgte hende, "Jamen, hvordan er det derude
+
+00:06:45.849 --> 00:06:47.521
+i vores ide rums stratosfære?"
+
+00:06:47.521 --> 00:06:50.776
+Og det lugter åbenbart som bacon.
+
+00:06:50.776 --> 00:06:52.567
+Jeg ved det ikke.
+
+00:06:52.567 --> 00:06:54.815
+Vi bruger altså disse netværks temaer
+
+00:06:54.815 --> 00:06:56.001
+til at finde foredrag der er så unikke,
+
+00:06:56.001 --> 00:06:58.711
+foredrag der er så kreativt syntetiserer mange forskellige områder,
+
+00:06:58.711 --> 00:07:00.370
+foredrag der er centrale for deres emne,
+
+00:07:00.370 --> 00:07:03.744
+og foredrag der virkelig kreativt slår bro mellem helt forskellige områder.
+
+00:07:03.744 --> 00:07:05.846
+Okay? Vi ville aldrig have fundet dem med vores besættelse
+
+00:07:05.846 --> 00:07:08.159
+af det der er populært nu.
+
+00:07:08.159 --> 00:07:11.045
+Og dette kommer alt sammen fra kompleksitetens arkitektur,
+
+00:07:11.045 --> 00:07:14.005
+eller mønstrene om hvordan tingene er forbundet.
+
+00:07:14.005 --> 00:07:15.630
+SG: Det er helt rigtigt.
+
+00:07:15.630 --> 00:07:18.109
+Vi er i en verden
+
+00:07:18.109 --> 00:07:20.153
+der er utrolig kompleks,
+
+00:07:20.153 --> 00:07:23.020
+og vi har brugt algoritmer til på en måde at filtrere det
+
+00:07:23.020 --> 00:07:24.806
+så vi kan navigere igennem det.
+
+00:07:24.806 --> 00:07:27.144
+Og de algoritmer, mens de på en måde er nyttige,
+
+00:07:27.144 --> 00:07:30.620
+er de også meget, meget snævre og vi kan gøre det bedre end det,
+
+00:07:30.620 --> 00:07:33.186
+fordi vi kan blive klar over at deres kompleksitet ikke er tilfældig.
+
+00:07:33.186 --> 00:07:35.140
+Den har matematisk struktur,
+
+00:07:35.140 --> 00:07:36.943
+og vi kan bruge den matematiske struktur
+
+00:07:36.943 --> 00:07:39.157
+til at tage ud og udforske ting som en verden med ideer
+
+00:07:39.157 --> 00:07:42.157
+for at se hvad der bliver sagt, for at se hvad der ikke bliver sagt,
+
+00:07:42.157 --> 00:07:43.564
+og for at være en smule mere menneskelig
+
+00:07:43.564 --> 00:07:45.431
+og, forhåbentlig, en smule klogere.
+
+00:07:45.431 --> 00:07:46.397
+Tak.
+
+00:07:46.397 --> 00:07:50.617
+(Bifald)
+
